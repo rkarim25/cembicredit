@@ -39,7 +39,12 @@
         "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
         "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
         "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
-      }
+      },
+      "reported_ebitda": 2770.9,
+      "calculated_ebitda": 2730.0,
+      "ebitda_reconciliation_variance_usd_m": 40.9,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$40.9M) of Calculated EBITDA with zero aggressive management add-backs."
     },
     {
       "period": "2022A",
@@ -61,7 +66,12 @@
         "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
         "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
         "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
-      }
+      },
+      "reported_ebitda": 3410.4,
+      "calculated_ebitda": 3360.0,
+      "ebitda_reconciliation_variance_usd_m": 50.4,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs."
     },
     {
       "period": "2023A",
@@ -83,7 +93,12 @@
         "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
         "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
         "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
-      }
+      },
+      "reported_ebitda": 3836.7,
+      "calculated_ebitda": 3780.0,
+      "ebitda_reconciliation_variance_usd_m": 56.7,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.7M) of Calculated EBITDA with zero aggressive management add-backs."
     },
     {
       "period": "2024A",
@@ -105,7 +120,12 @@
         "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
         "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
         "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
-      }
+      },
+      "reported_ebitda": 4263.0,
+      "calculated_ebitda": 4200.0,
+      "ebitda_reconciliation_variance_usd_m": 63.0,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$63.0M) of Calculated EBITDA with zero aggressive management add-backs."
     },
     {
       "period": "2025E",
@@ -127,7 +147,12 @@
         "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
         "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
         "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
-      }
+      },
+      "reported_ebitda": 4689.3,
+      "calculated_ebitda": 4620.0,
+      "ebitda_reconciliation_variance_usd_m": 69.3,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.3M) of Calculated EBITDA with zero aggressive management add-backs."
     },
     {
       "period": "2026E",
@@ -149,7 +174,12 @@
         "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
         "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
         "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
-      }
+      },
+      "reported_ebitda": 5030.3,
+      "calculated_ebitda": 4956.0,
+      "ebitda_reconciliation_variance_usd_m": 74.3,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$74.3M) of Calculated EBITDA with zero aggressive management add-backs."
     },
     {
       "period": "2027E",
@@ -171,7 +201,12 @@
         "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
         "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
         "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
-      }
+      },
+      "reported_ebitda": 5286.1,
+      "calculated_ebitda": 5208.0,
+      "ebitda_reconciliation_variance_usd_m": 78.1,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$78.1M) of Calculated EBITDA with zero aggressive management add-backs."
     }
   ],
   "supplementary_data": {

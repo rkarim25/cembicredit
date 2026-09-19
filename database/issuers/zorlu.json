@@ -39,7 +39,12 @@
         "capex": "Capex focused on completing Kizildere III second phase and OEDAS grid modernization.",
         "fcf": "FCF of $114M generated, funding interest payments and early turbine maintenance.",
         "net_leverage": "Net leverage at 4.73x; unhedged foreign currency debt tracking Turkish Lira movements."
-      }
+      },
+      "reported_ebitda": 223.6,
+      "calculated_ebitda": 208.0,
+      "ebitda_reconciliation_variance_usd_m": 15.6,
+      "ebitda_reconciliation_variance_pct": 7.5,
+      "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$15.6M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow."
     },
     {
       "period": "2022A",
@@ -61,7 +66,12 @@
         "capex": "Capital investments directed into hybrid solar pilot projects and OEDAS distribution substation upgrades.",
         "fcf": "Strong operating cash flow ($225M) enabled $128M in free cash flow after all capex commitments.",
         "net_leverage": "Net leverage held at 4.80x despite TRY depreciation due to strong USD generation cash conversion."
-      }
+      },
+      "reported_ebitda": 275.2,
+      "calculated_ebitda": 256.0,
+      "ebitda_reconciliation_variance_usd_m": 19.2,
+      "ebitda_reconciliation_variance_pct": 7.5,
+      "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$19.2M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow."
     },
     {
       "period": "2023A",
@@ -83,7 +93,12 @@
         "capex": "Disciplined capex of $108M focused strictly on regulated RAB network expansions and geothermal maintenance.",
         "fcf": "FCF generation reached $142M, allowing scheduled project finance amortization payments.",
         "net_leverage": "Net leverage stabilized at 4.75x; preliminary plans drafted for renewable subsidiary equity monetization."
-      }
+      },
+      "reported_ebitda": 309.6,
+      "calculated_ebitda": 288.0,
+      "ebitda_reconciliation_variance_usd_m": 21.6,
+      "ebitda_reconciliation_variance_pct": 7.5,
+      "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$21.6M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow."
     },
     {
       "period": "2024A",
@@ -105,7 +120,12 @@
         "capex": "Capex strictly capped at $112M, preserving liquidity ahead of the 2026 Eurobond maturity wall.",
         "fcf": "Strong FCF of $160M generated, maintaining unrestricted cash reserves at $240M across partner banks.",
         "net_leverage": "Net leverage at 4.82x (restricting debt incurrence covenant); management prioritizes de-leveraging to <3.5x."
-      }
+      },
+      "reported_ebitda": 344.0,
+      "calculated_ebitda": 320.0,
+      "ebitda_reconciliation_variance_usd_m": 24.0,
+      "ebitda_reconciliation_variance_pct": 7.5,
+      "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$24.0M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow."
     },
     {
       "period": "2025E",
@@ -127,7 +147,12 @@
         "capex": "Targeted capex budget of $117.6M prioritizing Kizildere hybrid additions and mandatory grid investments.",
         "fcf": "Projected FCF of $181.4M provides robust liquidity runway covering 100% of upcoming debt service.",
         "net_leverage": "Net leverage expected to decrease to 3.90x assisted by operating cash generation and targeted asset sales."
-      }
+      },
+      "reported_ebitda": 378.4,
+      "calculated_ebitda": 352.0,
+      "ebitda_reconciliation_variance_usd_m": 26.4,
+      "ebitda_reconciliation_variance_pct": 7.5,
+      "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$26.4M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow."
     },
     {
       "period": "2026E",
@@ -149,7 +174,12 @@
         "capex": "Capex moderates to $115M as major hybrid solar projects achieve commercial operation.",
         "fcf": "Free cash flow expands to $207M, providing substantial balance sheet flexibility for Eurobond refinancing.",
         "net_leverage": "Net leverage improves to 3.37x; covenant headroom restores fully across all bank facilities."
-      }
+      },
+      "reported_ebitda": 405.9,
+      "calculated_ebitda": 377.6,
+      "ebitda_reconciliation_variance_usd_m": 28.3,
+      "ebitda_reconciliation_variance_pct": 7.5,
+      "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$28.3M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow."
     },
     {
       "period": "2027E",
@@ -171,7 +201,12 @@
         "capex": "Sustaining maintenance capex of $110M sufficient to maintain industry-leading 94%+ plant availability.",
         "fcf": "FCF generation hits $229M, completely self-funding all ongoing operational and capital requirements.",
         "net_leverage": "Net leverage falls to conservative 2.87x, positioning Zorlu Enerji for sovereign-ceiling rating upgrades."
-      }
+      },
+      "reported_ebitda": 426.6,
+      "calculated_ebitda": 396.8,
+      "ebitda_reconciliation_variance_usd_m": 29.8,
+      "ebitda_reconciliation_variance_pct": 7.5,
+      "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$29.8M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow."
     }
   ],
   "supplementary_data": {

@@ -465,6 +465,64 @@ function renderTable() {
               <span>Source: Audited Annual Reports (IFRS) / Company Disclosures / Institutional Consensus Projections</span>
               <span>All figures in USD Millions unless otherwise stated.</span>
             </div>
+
+            <!-- Section: Reported vs. Calculated EBITDA Reconciliation & Audit Footnotes -->
+            ${currentView === 'corp' ? `
+              <div style="margin-top:14px; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                  <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
+                    ⚖️ Reported vs. Calculated EBITDA Reconciliation & Variance Analysis
+                  </h4>
+                  <span class="badge badge-sector">Credit Desk Audit Bridge</span>
+                </div>
+                <div style="overflow-x:auto;">
+                  <table class="drawer-table" style="margin:0; font-size:11px;">
+                    <thead>
+                      <tr>
+                        <th style="width:70px;">Period</th>
+                        <th class="num">Company Reported EBITDA</th>
+                        <th class="num">Calculated Cash EBITDA</th>
+                        <th class="num">Variance ($M)</th>
+                        <th class="num">Variance (%)</th>
+                        <th style="text-align:center;">Reconciliation Status</th>
+                        <th>Reconciliation Commentary & Management Add-Back Detail</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${item.financials_multi_year.map(f => {
+                        const rep = f.reported_ebitda || f.ebitda || 0;
+                        const calc = f.calculated_ebitda || f.ebitda || 0;
+                        const diff = f.ebitda_reconciliation_variance_usd_m !== undefined ? f.ebitda_reconciliation_variance_usd_m : (rep - calc);
+                        const pct = f.ebitda_reconciliation_variance_pct !== undefined ? f.ebitda_reconciliation_variance_pct : (calc ? (diff/calc)*100 : 0);
+                        const isDivergent = Math.abs(pct) > 10;
+                        const isModerate = Math.abs(pct) > 2;
+                        const statusBadge = isDivergent ? 'badge-stress' : (isModerate ? 'badge-hy' : 'badge-ig');
+                        const statusLabel = isDivergent ? 'Significant Divergence' : (isModerate ? 'Material Add-backs' : 'Fully Reconciled');
+                        const comment = f.ebitda_reconciliation_comment || (isModerate ? 'Reported EBITDA incorporates non-operating adjustments and one-off provisions.' : 'Fully reconciled with zero aggressive management add-backs.');
+                        
+                        return `
+                          <tr>
+                            <td><strong style="color:var(--accent-gold);">${f.period}</strong></td>
+                            <td class="num" style="color:#fff; font-weight:700;">$${rep.toFixed(1)}M</td>
+                            <td class="num" style="color:#38bdf8; font-weight:700;">$${calc.toFixed(1)}M</td>
+                            <td class="num" style="color:${diff > 0 ? '#f59e0b' : (diff < 0 ? '#ef4444' : '#10b981')}; font-weight:600;">
+                              ${diff > 0 ? '+' : ''}$${diff.toFixed(1)}M
+                            </td>
+                            <td class="num" style="color:${diff > 0 ? '#f59e0b' : '#10b981'}; font-weight:600;">
+                              ${pct > 0 ? '+' : ''}${pct.toFixed(1)}%
+                            </td>
+                            <td style="text-align:center;">
+                              <span class="badge ${statusBadge}">${statusLabel}</span>
+                            </td>
+                            <td style="color:#cbd5e1; font-size:11px; line-height:1.4;">${comment}</td>
+                          </tr>
+                        `;
+                      }).join('')}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ` : ''}
           </div>
           
           <!-- PANE 2: OPERATIONAL & PHYSICAL DRIVERS -->

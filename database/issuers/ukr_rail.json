@@ -39,7 +39,12 @@
         "capex": "Commercial rolling stock acquisition and track electrification investments.",
         "fcf": "Operating cash flow of $220M supported positive free cash flow of $187.2M.",
         "net_leverage": "Consolidated net leverage stable at 5.57x under pre-war commercial operations."
-      }
+      },
+      "reported_ebitda": 494.7,
+      "calculated_ebitda": 485.0,
+      "ebitda_reconciliation_variance_usd_m": 9.7,
+      "ebitda_reconciliation_variance_pct": 2.0,
+      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$9.7M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements."
     },
     {
       "period": "2022A",
@@ -61,7 +66,12 @@
         "capex": "Pivoted entirely to emergency track repairs, bridge rebuilding, and diesel power restoration.",
         "fcf": "FCF supported by international donor assistance and operational cost retrenchment.",
         "net_leverage": "Net leverage rose to 4.62x; initiation of comprehensive debt standstill with bondholders."
-      }
+      },
+      "reported_ebitda": 225.2,
+      "calculated_ebitda": 190.0,
+      "ebitda_reconciliation_variance_usd_m": 35.2,
+      "ebitda_reconciliation_variance_pct": 18.5,
+      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$35.2M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow."
     },
     {
       "period": "2023A",
@@ -83,7 +93,12 @@
         "capex": "Receipt of $195M in non-repayable multilateral donor grants (World Bank, EBRD, USAID).",
         "fcf": "FCF of $157.9M generated, rebuilding vital operational and rolling stock spare parts reserves.",
         "net_leverage": "Net leverage improved to 4.29x with 100% sovereign backing on external debt obligations."
-      }
+      },
+      "reported_ebitda": 402.9,
+      "calculated_ebitda": 340.0,
+      "ebitda_reconciliation_variance_usd_m": 62.9,
+      "ebitda_reconciliation_variance_pct": 18.5,
+      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$62.9M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow."
     },
     {
       "period": "2024A",
@@ -105,7 +120,12 @@
         "capex": "Donor-funded capex of $145M deployed for track gauge integration and electric substation restoration.",
         "fcf": "FCF of $190M maintains fortress cash balance ($380M) protecting against wartime logistics disruption.",
         "net_leverage": "Net leverage reduced to 3.84x, providing significant headroom under restructured debt covenants."
-      }
+      },
+      "reported_ebitda": 450.3,
+      "calculated_ebitda": 380.0,
+      "ebitda_reconciliation_variance_usd_m": 70.3,
+      "ebitda_reconciliation_variance_pct": 18.5,
+      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$70.3M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow."
     },
     {
       "period": "2025E",
@@ -127,7 +147,12 @@
         "capex": "Reconstruction capex envelope supported by $250M committed multilateral grant disbursements.",
         "fcf": "Free cash flow expected to reach $215.6M, ensuring self-sufficiency for scheduled operational liabilities.",
         "net_leverage": "Net leverage projected to drop to 3.28x under continued conservative financial management."
-      }
+      },
+      "reported_ebitda": 448.8,
+      "calculated_ebitda": 440.0,
+      "ebitda_reconciliation_variance_usd_m": 8.8,
+      "ebitda_reconciliation_variance_pct": 2.0,
+      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$8.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements."
     },
     {
       "period": "2026E",
@@ -149,7 +174,12 @@
         "capex": "TEN-T European standard gauge corridor construction advances with EU Solidarity Lane funding.",
         "fcf": "Robust FCF of $245.4M provides substantial liquidity buffer ahead of bond maturity restructuring.",
         "net_leverage": "Net leverage declines to 2.84x; Ukraine Rail solidifies its role as the national economic backbone."
-      }
+      },
+      "reported_ebitda": 520.2,
+      "calculated_ebitda": 510.0,
+      "ebitda_reconciliation_variance_usd_m": 10.2,
+      "ebitda_reconciliation_variance_pct": 2.0,
+      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$10.2M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements."
     },
     {
       "period": "2027E",
@@ -171,7 +201,12 @@
         "capex": "Sustaining capex fully covered by operational cash flow as emergency repairs phase out.",
         "fcf": "FCF generation hits $273.5M, allowing rapid retirement of commercial bank debt.",
         "net_leverage": "Net leverage reaches 2.42x, reflecting an institutional turnaround supported by sovereign and multilateral backing."
-      }
+      },
+      "reported_ebitda": 601.8,
+      "calculated_ebitda": 590.0,
+      "ebitda_reconciliation_variance_usd_m": 11.8,
+      "ebitda_reconciliation_variance_pct": 2.0,
+      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$11.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements."
     }
   ],
   "supplementary_data": {

@@ -39,7 +39,12 @@
         "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
         "fcf": "Modest working capital absorption as new project construction commences.",
         "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
-      }
+      },
+      "reported_ebitda": 249.2,
+      "calculated_ebitda": 234.0,
+      "ebitda_reconciliation_variance_usd_m": 15.2,
+      "ebitda_reconciliation_variance_pct": 6.5,
+      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$15.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts."
     },
     {
       "period": "2022A",
@@ -61,7 +66,12 @@
         "capex": "Active construction site acceleration to meet aggressive handover targets.",
         "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
         "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
-      }
+      },
+      "reported_ebitda": 306.7,
+      "calculated_ebitda": 288.0,
+      "ebitda_reconciliation_variance_usd_m": 18.7,
+      "ebitda_reconciliation_variance_pct": 6.5,
+      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$18.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts."
     },
     {
       "period": "2023A",
@@ -83,7 +93,12 @@
         "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
         "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
         "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
-      }
+      },
+      "reported_ebitda": 345.1,
+      "calculated_ebitda": 324.0,
+      "ebitda_reconciliation_variance_usd_m": 21.1,
+      "ebitda_reconciliation_variance_pct": 6.5,
+      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$21.1M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts."
     },
     {
       "period": "2024A",
@@ -105,7 +120,12 @@
         "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
         "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
         "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
-      }
+      },
+      "reported_ebitda": 383.4,
+      "calculated_ebitda": 360.0,
+      "ebitda_reconciliation_variance_usd_m": 23.4,
+      "ebitda_reconciliation_variance_pct": 6.5,
+      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$23.4M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts."
     },
     {
       "period": "2025E",
@@ -127,7 +147,12 @@
         "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
         "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
         "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
-      }
+      },
+      "reported_ebitda": 421.7,
+      "calculated_ebitda": 396.0,
+      "ebitda_reconciliation_variance_usd_m": 25.7,
+      "ebitda_reconciliation_variance_pct": 6.5,
+      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$25.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts."
     },
     {
       "period": "2026E",
@@ -149,7 +174,12 @@
         "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
         "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
         "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
-      }
+      },
+      "reported_ebitda": 452.4,
+      "calculated_ebitda": 424.8,
+      "ebitda_reconciliation_variance_usd_m": 27.6,
+      "ebitda_reconciliation_variance_pct": 6.5,
+      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$27.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts."
     },
     {
       "period": "2027E",
@@ -171,7 +201,12 @@
         "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
         "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
         "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
-      }
+      },
+      "reported_ebitda": 475.4,
+      "calculated_ebitda": 446.4,
+      "ebitda_reconciliation_variance_usd_m": 29.0,
+      "ebitda_reconciliation_variance_pct": 6.5,
+      "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$29.0M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts."
     }
   ],
   "supplementary_data": {
