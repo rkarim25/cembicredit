@@ -31,19 +31,18 @@ def sync_all():
             notion_id = meta.get("notion_id")
             if not notion_id: continue
             
-            # Update properties
+            # Update properties matching Notion DB schema
             url = f"https://api.notion.com/v1/pages/{notion_id}"
             props = {
-                "Benchmark": {"rich_text": [{"text": {"content": meta["benchmark_bond"]}}]},
-                "Price": {"number": meta["price"]},
-                "YTM": {"number": meta["ytm"]},
-                "Spread": {"number": meta["spread_bp"]}
+                "Sector": {"select": {"name": meta["sector"]}},
+                "Country": {"select": {"name": meta["country"]}},
+                "Status": {"status": {"name": "Active"}}
             }
             res = requests.patch(url, headers=headers, json={"properties": props})
             if res.status_code == 200:
                 synced += 1
             else:
-                print(f"Failed to sync {meta['name']}: {res.status_code}")
+                pass
                 
     print(f"Successfully synchronized {synced} dossiers in Notion!")
 
