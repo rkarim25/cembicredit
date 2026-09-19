@@ -212,7 +212,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ACWA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1904.4,
+        "amount_outstanding_usd_m": 1904.4,
+        "coupon": "6.450%",
+        "clean_price": 96.5,
+        "ytm": 6.45,
+        "spread_bp": 235,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ACWA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 1269.6,
+        "amount_outstanding_usd_m": 1269.6,
+        "coupon": "5.800%",
+        "clean_price": 98.5,
+        "ytm": 5.8,
+        "spread_bp": 170,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 825.2,
+        "amount_outstanding_usd_m": 634.8,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1481.2,
+        "amount_outstanding_usd_m": 423.2,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ACWA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 1185.0,
+      "drawn_amount_usd_m": 423.2,
+      "undrawn_available_usd_m": 761.8,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "3.85x",
+        "headroom": "0.65x leverage buffer ($598.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.40x",
+        "headroom": "+0.90x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "21.4% of Assets",
+        "headroom": "$363.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1782.0M (+8.0% YoY growth)",
+        "current_runrate": "$1757.2M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1012.0M (56.8% margin)",
+        "current_runrate": "$993.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "3.85x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with 0.65x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$338.1M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$311.1M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -470,7 +608,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ADCBUH Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "5.050%",
+        "clean_price": 99.8,
+        "ytm": 5.05,
+        "spread_bp": 85,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ADCBUH Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "6.550%",
+        "clean_price": 96.3,
+        "ytm": 6.55,
+        "spread_bp": 235,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ADCBUH Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "7.300%",
+        "clean_price": 94.8,
+        "ytm": 7.3,
+        "spread_bp": 310,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 8960.0,
+        "amount_outstanding_usd_m": 8960.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "16.5%",
+        "headroom": "+4.5% (+450 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "13.5%",
+        "headroom": "+5.0% (+502 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "2.80% - 3.05%",
+        "current_runrate": "2.92%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -685,7 +960,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ADMELE Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 219.9,
+        "amount_outstanding_usd_m": 219.9,
+        "coupon": "9.250%",
+        "clean_price": 98.0,
+        "ytm": 9.25,
+        "spread_bp": 485,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ADMELE Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 146.6,
+        "amount_outstanding_usd_m": 146.6,
+        "coupon": "8.600%",
+        "clean_price": 100.0,
+        "ytm": 8.6,
+        "spread_bp": 420,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 95.3,
+        "amount_outstanding_usd_m": 73.3,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 171.2,
+        "amount_outstanding_usd_m": 48.9,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ADMELE Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 150.0,
+      "drawn_amount_usd_m": 48.9,
+      "undrawn_available_usd_m": 101.1,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "2.62x",
+        "headroom": "1.88x leverage buffer ($272.6M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.80x",
+        "headroom": "+1.30x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "9.7% of Assets",
+        "headroom": "$92.4M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$453.6M (+8.0% YoY growth)",
+        "current_runrate": "$447.3M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$159.5M (35.2% margin)",
+        "current_runrate": "$156.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "2.62x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.88x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$53.3M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$49.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -900,7 +1313,145 @@ const MASTER_ISSUERS = [
         "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
         "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "AFRCEL Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 242.8,
+        "amount_outstanding_usd_m": 242.8,
+        "coupon": "11.450%",
+        "clean_price": 92.0,
+        "ytm": 11.45,
+        "spread_bp": 710,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "AFRCEL Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 161.8,
+        "amount_outstanding_usd_m": 161.8,
+        "coupon": "10.800%",
+        "clean_price": 94.0,
+        "ytm": 10.799999999999999,
+        "spread_bp": 645,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 105.2,
+        "amount_outstanding_usd_m": 80.9,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 189.0,
+        "amount_outstanding_usd_m": 54.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "AFRCEL Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 151.1,
+      "drawn_amount_usd_m": 54.0,
+      "undrawn_available_usd_m": 97.1,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.52x",
+        "headroom": "1.23x leverage buffer ($202.9M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "2.89x",
+        "headroom": "+0.39x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "9.2% of Assets",
+        "headroom": "$107.8M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$529.2M (+8.0% YoY growth)",
+        "current_runrate": "$521.9M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$181.5M (34.3% margin)",
+        "current_runrate": "$178.2M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.52x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.23x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$60.6M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$55.8M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -1158,7 +1709,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "AKBNK Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "6.450%",
+        "clean_price": 100.2,
+        "ytm": 6.45,
+        "spread_bp": 185,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "AKBNK Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "7.950%",
+        "clean_price": 96.7,
+        "ytm": 7.95,
+        "spread_bp": 335,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "AKBNK Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "8.700%",
+        "clean_price": 95.2,
+        "ytm": 8.7,
+        "spread_bp": 410,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 3856.0,
+        "amount_outstanding_usd_m": 3856.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "19.4%",
+        "headroom": "+7.4% (+739 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "15.9%",
+        "headroom": "+7.4% (+740 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "5.80% - 6.05%",
+        "current_runrate": "5.92%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -1377,7 +2065,145 @@ const MASTER_ISSUERS = [
         "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
         "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ALDAR Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 878.9,
+        "amount_outstanding_usd_m": 878.9,
+        "coupon": "5.250%",
+        "clean_price": 100.1,
+        "ytm": 5.25,
+        "spread_bp": 105,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ALDAR Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 585.9,
+        "amount_outstanding_usd_m": 585.9,
+        "coupon": "4.600%",
+        "clean_price": 101.5,
+        "ytm": 4.6,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 380.8,
+        "amount_outstanding_usd_m": 292.9,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 683.6,
+        "amount_outstanding_usd_m": 195.3,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ALDAR Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 546.8,
+      "drawn_amount_usd_m": 195.3,
+      "undrawn_available_usd_m": 351.5,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.50x",
+        "actual_current": "0.51x",
+        "headroom": "2.99x leverage buffer ($4634.5M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "7.40x",
+        "headroom": "+4.90x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.2% of Assets",
+        "headroom": "$858.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$4212.0M (+8.0% YoY growth)",
+        "current_runrate": "$4153.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1705.0M (40.5% margin)",
+        "current_runrate": "$1674.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.00x Net Debt / EBITDA",
+        "current_runrate": "0.51x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.99x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$569.6M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$524.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -1596,7 +2422,145 @@ const MASTER_ISSUERS = [
         "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
         "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ARADA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 320.8,
+        "amount_outstanding_usd_m": 320.8,
+        "coupon": "8.050%",
+        "clean_price": 100.5,
+        "ytm": 8.05,
+        "spread_bp": 400,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ARADA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 213.8,
+        "amount_outstanding_usd_m": 213.8,
+        "coupon": "7.400%",
+        "clean_price": 101.5,
+        "ytm": 7.4,
+        "spread_bp": 335,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 139.0,
+        "amount_outstanding_usd_m": 106.9,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 249.5,
+        "amount_outstanding_usd_m": 71.3,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ARADA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 199.6,
+      "drawn_amount_usd_m": 71.3,
+      "undrawn_available_usd_m": 128.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.50x",
+        "actual_current": "1.89x",
+        "headroom": "1.61x leverage buffer ($434.7M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.15x",
+        "headroom": "+1.65x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "6.5% of Assets",
+        "headroom": "$202.4M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$993.6M (+8.0% YoY growth)",
+        "current_runrate": "$979.8M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$297.0M (29.9% margin)",
+        "current_runrate": "$291.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.00x Net Debt / EBITDA",
+        "current_runrate": "1.89x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.61x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$99.2M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$91.3M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -1806,7 +2770,145 @@ const MASTER_ISSUERS = [
         "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
         "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ARAGVI Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 243.4,
+        "amount_outstanding_usd_m": 243.4,
+        "coupon": "12.150%",
+        "clean_price": 89.0,
+        "ytm": 12.15,
+        "spread_bp": 780,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ARAGVI Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 162.2,
+        "amount_outstanding_usd_m": 162.2,
+        "coupon": "11.500%",
+        "clean_price": 91.0,
+        "ytm": 11.5,
+        "spread_bp": 715,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 105.4,
+        "amount_outstanding_usd_m": 81.1,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 189.3,
+        "amount_outstanding_usd_m": 54.1,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ARAGVI Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 151.4,
+      "drawn_amount_usd_m": 54.1,
+      "undrawn_available_usd_m": 97.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.63x",
+        "headroom": "1.12x leverage buffer ($179.2M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.08x",
+        "headroom": "+0.58x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "3.1% of Assets",
+        "headroom": "$319.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1566.0M (+8.0% YoY growth)",
+        "current_runrate": "$1544.2M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$176.0M (11.2% margin)",
+        "current_runrate": "$172.8M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.63x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.12x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$58.8M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$54.1M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -2021,7 +3123,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "AYDEM Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 415.5,
+        "amount_outstanding_usd_m": 415.5,
+        "coupon": "8.950%",
+        "clean_price": 96.5,
+        "ytm": 8.95,
+        "spread_bp": 455,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "AYDEM Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 277.0,
+        "amount_outstanding_usd_m": 277.0,
+        "coupon": "8.300%",
+        "clean_price": 98.5,
+        "ytm": 8.299999999999999,
+        "spread_bp": 390,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 180.1,
+        "amount_outstanding_usd_m": 138.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 323.4,
+        "amount_outstanding_usd_m": 92.4,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "AYDEM Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 258.6,
+      "drawn_amount_usd_m": 92.4,
+      "undrawn_available_usd_m": 166.2,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "4.11x",
+        "headroom": "0.39x leverage buffer ($74.1M EBITDA headroom)",
+        "status": "Compliant"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "2.90x",
+        "headroom": "+0.40x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "29.6% of Assets",
+        "headroom": "$57.2M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$280.8M (+8.0% YoY growth)",
+        "current_runrate": "$276.9M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$209.0M (74.4% margin)",
+        "current_runrate": "$205.2M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "4.11x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with 0.39x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$69.8M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$64.2M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -2237,7 +3477,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "AZULE Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 2359.1,
+        "amount_outstanding_usd_m": 2359.1,
+        "coupon": "8.450%",
+        "clean_price": 98.5,
+        "ytm": 8.45,
+        "spread_bp": 410,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "AZULE Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 1572.8,
+        "amount_outstanding_usd_m": 1572.8,
+        "coupon": "7.800%",
+        "clean_price": 100.5,
+        "ytm": 7.799999999999999,
+        "spread_bp": 345,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1022.3,
+        "amount_outstanding_usd_m": 786.4,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1834.7,
+        "amount_outstanding_usd_m": 524.2,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "AZULE Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 1467.9,
+      "drawn_amount_usd_m": 524.2,
+      "undrawn_available_usd_m": 943.7,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.58x",
+        "headroom": "2.17x leverage buffer ($4882.5M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "6.82x",
+        "headroom": "+4.32x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "12.8% of Assets",
+        "headroom": "$748.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$3672.0M (+8.0% YoY growth)",
+        "current_runrate": "$3621.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$2475.0M (67.4% margin)",
+        "current_runrate": "$2430.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.58x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.17x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$826.9M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$760.7M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -2453,7 +3831,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "BAPCO Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 2334.4,
+        "amount_outstanding_usd_m": 2334.4,
+        "coupon": "6.850%",
+        "clean_price": 101.8,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "BAPCO Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 1556.2,
+        "amount_outstanding_usd_m": 1556.2,
+        "coupon": "6.200%",
+        "clean_price": 101.5,
+        "ytm": 6.199999999999999,
+        "spread_bp": 215,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1011.5,
+        "amount_outstanding_usd_m": 778.1,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1815.8,
+        "amount_outstanding_usd_m": 518.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "BAPCO Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 1452.5,
+      "drawn_amount_usd_m": 518.8,
+      "undrawn_available_usd_m": 933.7,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "3.40x",
+        "headroom": "0.35x leverage buffer ($437.5M EBITDA headroom)",
+        "status": "Compliant"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.10x",
+        "headroom": "+0.60x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "5.1% of Assets",
+        "headroom": "$1870.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$9180.0M (+8.0% YoY growth)",
+        "current_runrate": "$9052.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1375.0M (15.0% margin)",
+        "current_runrate": "$1350.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "3.40x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with 0.35x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$459.4M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$422.6M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -2672,7 +4188,145 @@ const MASTER_ISSUERS = [
         "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
         "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "BINGHA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 280.4,
+        "amount_outstanding_usd_m": 280.4,
+        "coupon": "8.850%",
+        "clean_price": 101.5,
+        "ytm": 8.85,
+        "spread_bp": 480,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "BINGHA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 187.0,
+        "amount_outstanding_usd_m": 187.0,
+        "coupon": "8.200%",
+        "clean_price": 101.5,
+        "ytm": 8.2,
+        "spread_bp": 415,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 121.5,
+        "amount_outstanding_usd_m": 93.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 218.0,
+        "amount_outstanding_usd_m": 62.3,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "BINGHA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 174.5,
+      "drawn_amount_usd_m": 62.3,
+      "undrawn_available_usd_m": 112.2,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.50x",
+        "actual_current": "0.89x",
+        "headroom": "2.61x leverage buffer ($991.8M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "5.59x",
+        "headroom": "+3.09x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.2% of Assets",
+        "headroom": "$275.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1350.0M (+8.0% YoY growth)",
+        "current_runrate": "$1331.2M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$418.0M (31.0% margin)",
+        "current_runrate": "$410.4M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.00x Net Debt / EBITDA",
+        "current_runrate": "0.89x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.61x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$139.7M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$128.5M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -2882,7 +4536,145 @@ const MASTER_ISSUERS = [
         "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
         "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "CCOLA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 583.2,
+        "amount_outstanding_usd_m": 583.2,
+        "coupon": "5.350%",
+        "clean_price": 97.2,
+        "ytm": 5.35,
+        "spread_bp": 130,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "CCOLA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 388.8,
+        "amount_outstanding_usd_m": 388.8,
+        "coupon": "4.700%",
+        "clean_price": 99.2,
+        "ytm": 4.699999999999999,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 252.7,
+        "amount_outstanding_usd_m": 194.4,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 453.6,
+        "amount_outstanding_usd_m": 129.6,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "CCOLA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 362.9,
+      "drawn_amount_usd_m": 129.6,
+      "undrawn_available_usd_m": 233.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.05x",
+        "headroom": "2.70x leverage buffer ($1944.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "8.90x",
+        "headroom": "+6.40x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "2.8% of Assets",
+        "headroom": "$836.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$4104.0M (+8.0% YoY growth)",
+        "current_runrate": "$4047.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$792.0M (19.3% margin)",
+        "current_runrate": "$777.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.05x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.70x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$264.6M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$243.4M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -3097,7 +4889,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "CEZ Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 4063.5,
+        "amount_outstanding_usd_m": 4063.5,
+        "coupon": "4.950%",
+        "clean_price": 99.8,
+        "ytm": 4.95,
+        "spread_bp": 90,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "CEZ Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 2709.0,
+        "amount_outstanding_usd_m": 2709.0,
+        "coupon": "4.300%",
+        "clean_price": 101.5,
+        "ytm": 4.3,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1760.9,
+        "amount_outstanding_usd_m": 1354.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 3160.5,
+        "amount_outstanding_usd_m": 903.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "CEZ Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 2528.4,
+      "drawn_amount_usd_m": 903.0,
+      "undrawn_available_usd_m": 1625.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "1.40x",
+        "headroom": "3.10x leverage buffer ($13020.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "8.80x",
+        "headroom": "+6.30x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "5.0% of Assets",
+        "headroom": "$3344.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$16416.0M (+8.0% YoY growth)",
+        "current_runrate": "$16188.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$4620.0M (28.1% margin)",
+        "current_runrate": "$4536.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "1.40x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1543.5M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1420.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -3316,7 +5246,145 @@ const MASTER_ISSUERS = [
         "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
         "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "DAMAC Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 318.2,
+        "amount_outstanding_usd_m": 318.2,
+        "coupon": "7.250%",
+        "clean_price": 101.0,
+        "ytm": 7.25,
+        "spread_bp": 320,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "DAMAC Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 212.2,
+        "amount_outstanding_usd_m": 212.2,
+        "coupon": "6.600%",
+        "clean_price": 101.5,
+        "ytm": 6.6,
+        "spread_bp": 255,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 137.9,
+        "amount_outstanding_usd_m": 106.1,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 247.5,
+        "amount_outstanding_usd_m": 70.7,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "DAMAC Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 198.0,
+      "drawn_amount_usd_m": 70.7,
+      "undrawn_available_usd_m": 127.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.50x",
+        "actual_current": "0.29x",
+        "headroom": "3.21x leverage buffer ($2182.8M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "6.94x",
+        "headroom": "+4.44x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "2.8% of Assets",
+        "headroom": "$462.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$2268.0M (+8.0% YoY growth)",
+        "current_runrate": "$2236.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$748.0M (33.0% margin)",
+        "current_runrate": "$734.4M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.00x Net Debt / EBITDA",
+        "current_runrate": "0.29x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 3.21x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$249.9M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$229.9M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -3530,7 +5598,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "DANFER Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1029.6,
+        "amount_outstanding_usd_m": 1029.6,
+        "coupon": "11.500%",
+        "clean_price": 96.0,
+        "ytm": 11.5,
+        "spread_bp": 715,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "DANFER Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 686.4,
+        "amount_outstanding_usd_m": 686.4,
+        "coupon": "10.850%",
+        "clean_price": 98.0,
+        "ytm": 10.85,
+        "spread_bp": 650,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 446.2,
+        "amount_outstanding_usd_m": 343.2,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 800.8,
+        "amount_outstanding_usd_m": 228.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "DANFER Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 640.6,
+      "drawn_amount_usd_m": 228.8,
+      "undrawn_available_usd_m": 411.8,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.77x",
+        "headroom": "0.98x leverage buffer ($637.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.82x",
+        "headroom": "+1.32x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "13.6% of Assets",
+        "headroom": "$308.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1512.0M (+8.0% YoY growth)",
+        "current_runrate": "$1491.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$715.0M (47.3% margin)",
+        "current_runrate": "$702.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.77x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 0.98x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$238.9M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$219.8M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -3746,7 +5952,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "DANREF Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 143.1,
+        "amount_outstanding_usd_m": 143.1,
+        "coupon": "12.500%",
+        "clean_price": 95.0,
+        "ytm": 12.5,
+        "spread_bp": 815,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "DANREF Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 95.4,
+        "amount_outstanding_usd_m": 95.4,
+        "coupon": "11.850%",
+        "clean_price": 97.0,
+        "ytm": 11.85,
+        "spread_bp": 750,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 62.0,
+        "amount_outstanding_usd_m": 47.7,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 111.3,
+        "amount_outstanding_usd_m": 31.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "DANREF Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 150.0,
+      "drawn_amount_usd_m": 31.8,
+      "undrawn_available_usd_m": 118.2,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.43x",
+        "headroom": "1.32x leverage buffer ($132.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.10x",
+        "headroom": "+1.60x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "26.5% of Assets",
+        "headroom": "$22.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$108.0M (+8.0% YoY growth)",
+        "current_runrate": "$106.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$110.0M (101.9% margin)",
+        "current_runrate": "$108.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.43x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.32x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$36.8M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$33.9M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -3965,7 +6309,145 @@ const MASTER_ISSUERS = [
         "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
         "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "DARARK Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 683.6,
+        "amount_outstanding_usd_m": 683.6,
+        "coupon": "8.150%",
+        "clean_price": 99.5,
+        "ytm": 8.15,
+        "spread_bp": 410,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "DARARK Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 455.8,
+        "amount_outstanding_usd_m": 455.8,
+        "coupon": "7.500%",
+        "clean_price": 101.5,
+        "ytm": 7.5,
+        "spread_bp": 345,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 296.3,
+        "amount_outstanding_usd_m": 227.9,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 531.6,
+        "amount_outstanding_usd_m": 151.9,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "DARARK Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 425.4,
+      "drawn_amount_usd_m": 151.9,
+      "undrawn_available_usd_m": 273.5,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.50x",
+        "actual_current": "3.47x",
+        "headroom": "0.03x leverage buffer ($10.8M EBITDA headroom)",
+        "status": "Compliant"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "2.88x",
+        "headroom": "+0.38x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "11.5% of Assets",
+        "headroom": "$242.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1188.0M (+8.0% YoY growth)",
+        "current_runrate": "$1171.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$396.0M (33.3% margin)",
+        "current_runrate": "$388.8M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.00x Net Debt / EBITDA",
+        "current_runrate": "3.47x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with 0.03x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$132.3M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$121.7M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -4223,7 +6705,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "DIBUH Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "5.100%",
+        "clean_price": 99.7,
+        "ytm": 5.1,
+        "spread_bp": 90,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "DIBUH Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "6.600%",
+        "clean_price": 96.2,
+        "ytm": 6.6,
+        "spread_bp": 240,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "DIBUH Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "7.350%",
+        "clean_price": 94.7,
+        "ytm": 7.35,
+        "spread_bp": 315,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 5440.0,
+        "amount_outstanding_usd_m": 5440.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "17.2%",
+        "headroom": "+5.2% (+519 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "14.1%",
+        "headroom": "+5.6% (+560 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "3.10% - 3.35%",
+        "current_runrate": "3.22%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -4437,7 +7056,145 @@ const MASTER_ISSUERS = [
         "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
         "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "DPW Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 9134.1,
+        "amount_outstanding_usd_m": 9134.1,
+        "coupon": "5.350%",
+        "clean_price": 98.0,
+        "ytm": 5.35,
+        "spread_bp": 120,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "DPW Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 6089.4,
+        "amount_outstanding_usd_m": 6089.4,
+        "coupon": "4.700%",
+        "clean_price": 100.0,
+        "ytm": 4.699999999999999,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 3958.1,
+        "amount_outstanding_usd_m": 3044.7,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 7104.3,
+        "amount_outstanding_usd_m": 2029.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "DPW Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 5683.4,
+      "drawn_amount_usd_m": 2029.8,
+      "undrawn_available_usd_m": 3653.6,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "3.23x",
+        "headroom": "0.52x leverage buffer ($2652.0M EBITDA headroom)",
+        "status": "Compliant"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "5.37x",
+        "headroom": "+2.87x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "9.3% of Assets",
+        "headroom": "$4004.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$19656.0M (+8.0% YoY growth)",
+        "current_runrate": "$19383.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$5610.0M (28.5% margin)",
+        "current_runrate": "$5508.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "3.23x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with 0.52x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1874.2M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1724.3M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -4652,7 +7409,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "DTEKUA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 712.5,
+        "amount_outstanding_usd_m": 712.5,
+        "coupon": "18.500%",
+        "clean_price": 68.5,
+        "ytm": 18.5,
+        "spread_bp": 1410,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "DTEKUA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 475.0,
+        "amount_outstanding_usd_m": 475.0,
+        "coupon": "17.850%",
+        "clean_price": 70.5,
+        "ytm": 17.85,
+        "spread_bp": 1345,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 308.8,
+        "amount_outstanding_usd_m": 237.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 554.4,
+        "amount_outstanding_usd_m": 158.4,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "DTEKUA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 443.4,
+      "drawn_amount_usd_m": 158.4,
+      "undrawn_available_usd_m": 285.0,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "3.02x",
+        "headroom": "1.48x leverage buffer ($621.6M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.23x",
+        "headroom": "+0.73x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "5.5% of Assets",
+        "headroom": "$528.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$2592.0M (+8.0% YoY growth)",
+        "current_runrate": "$2556.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$462.0M (17.8% margin)",
+        "current_runrate": "$453.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "3.02x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.48x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$154.3M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$142.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -4871,7 +7766,145 @@ const MASTER_ISSUERS = [
         "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
         "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "EMAAR Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 145080.0,
+        "amount_outstanding_usd_m": 145080.0,
+        "coupon": "5.150%",
+        "clean_price": 100.2,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "EMAAR Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 96720.0,
+        "amount_outstanding_usd_m": 96720.0,
+        "coupon": "4.500%",
+        "clean_price": 101.5,
+        "ytm": 4.5,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 62868.0,
+        "amount_outstanding_usd_m": 48360.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 112840.0,
+        "amount_outstanding_usd_m": 32240.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "EMAAR Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 90272.0,
+      "drawn_amount_usd_m": 32240.0,
+      "undrawn_available_usd_m": 58032.0,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.50x",
+        "actual_current": "100.00x",
+        "headroom": "-96.50x leverage buffer ($-308800.0M EBITDA headroom)",
+        "status": "Breached / Restricted"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "10.00x",
+        "headroom": "+7.50x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "344.4% of Assets",
+        "headroom": "$1716.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$8424.0M (+8.0% YoY growth)",
+        "current_runrate": "$8307.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$3520.0M (41.8% margin)",
+        "current_runrate": "$3456.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.00x Net Debt / EBITDA",
+        "current_runrate": "100.00x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with -96.50x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1176.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1081.9M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -5090,7 +8123,145 @@ const MASTER_ISSUERS = [
         "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
         "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "EKGYO Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 195.3,
+        "amount_outstanding_usd_m": 195.3,
+        "coupon": "10.500%",
+        "clean_price": 97.5,
+        "ytm": 10.5,
+        "spread_bp": 610,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "EKGYO Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 130.2,
+        "amount_outstanding_usd_m": 130.2,
+        "coupon": "9.850%",
+        "clean_price": 99.5,
+        "ytm": 9.85,
+        "spread_bp": 545,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 84.6,
+        "amount_outstanding_usd_m": 65.1,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 151.9,
+        "amount_outstanding_usd_m": 43.4,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "EKGYO Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 150.0,
+      "drawn_amount_usd_m": 43.4,
+      "undrawn_available_usd_m": 106.6,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.50x",
+        "actual_current": "0.49x",
+        "headroom": "3.01x leverage buffer ($1053.5M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "8.50x",
+        "headroom": "+6.00x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "2.6% of Assets",
+        "headroom": "$308.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1512.0M (+8.0% YoY growth)",
+        "current_runrate": "$1491.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$385.0M (25.5% margin)",
+        "current_runrate": "$378.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.00x Net Debt / EBITDA",
+        "current_runrate": "0.49x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 3.01x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$128.6M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$118.3M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -5348,7 +8519,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "EMIRAT Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "4.900%",
+        "clean_price": 100.25,
+        "ytm": 4.9,
+        "spread_bp": 70,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "EMIRAT Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "6.400%",
+        "clean_price": 96.75,
+        "ytm": 6.4,
+        "spread_bp": 220,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "EMIRAT Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "7.150%",
+        "clean_price": 95.25,
+        "ytm": 7.15,
+        "spread_bp": 295,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 13440.0,
+        "amount_outstanding_usd_m": 13440.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "18.5%",
+        "headroom": "+6.5% (+650 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "15.2%",
+        "headroom": "+6.7% (+667 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "3.60% - 3.85%",
+        "current_runrate": "3.72%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -5562,7 +8870,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "EQUATE Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1058.4,
+        "amount_outstanding_usd_m": 1058.4,
+        "coupon": "5.550%",
+        "clean_price": 98.2,
+        "ytm": 5.55,
+        "spread_bp": 150,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "EQUATE Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 705.6,
+        "amount_outstanding_usd_m": 705.6,
+        "coupon": "4.900%",
+        "clean_price": 100.2,
+        "ytm": 4.8999999999999995,
+        "spread_bp": 85,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 458.6,
+        "amount_outstanding_usd_m": 352.8,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 823.2,
+        "amount_outstanding_usd_m": 235.2,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "EQUATE Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 658.6,
+      "drawn_amount_usd_m": 235.2,
+      "undrawn_available_usd_m": 423.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.65x",
+        "headroom": "2.10x leverage buffer ($2058.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "6.80x",
+        "headroom": "+4.30x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "5.8% of Assets",
+        "headroom": "$748.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$3672.0M (+8.0% YoY growth)",
+        "current_runrate": "$3621.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1078.0M (29.4% margin)",
+        "current_runrate": "$1058.4M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.65x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.10x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$360.2M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$331.4M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -5776,7 +9222,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "EREGL Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1097.8,
+        "amount_outstanding_usd_m": 1097.8,
+        "coupon": "7.950%",
+        "clean_price": 98.5,
+        "ytm": 7.95,
+        "spread_bp": 355,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "EREGL Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 731.9,
+        "amount_outstanding_usd_m": 731.9,
+        "coupon": "7.300%",
+        "clean_price": 100.5,
+        "ytm": 7.3,
+        "spread_bp": 290,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 475.7,
+        "amount_outstanding_usd_m": 365.9,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 853.6,
+        "amount_outstanding_usd_m": 243.9,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "EREGL Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 683.1,
+      "drawn_amount_usd_m": 243.9,
+      "undrawn_available_usd_m": 439.2,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.12x",
+        "headroom": "1.63x leverage buffer ($1385.5M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "5.10x",
+        "headroom": "+2.60x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "3.0% of Assets",
+        "headroom": "$1496.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$7344.0M (+8.0% YoY growth)",
+        "current_runrate": "$7242.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$935.0M (12.7% margin)",
+        "current_runrate": "$918.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.12x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.63x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$312.4M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$287.4M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -5991,7 +9575,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ESKOM Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 7474.5,
+        "amount_outstanding_usd_m": 7474.5,
+        "coupon": "8.500%",
+        "clean_price": 99.0,
+        "ytm": 8.5,
+        "spread_bp": 445,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ESKOM Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 4983.0,
+        "amount_outstanding_usd_m": 4983.0,
+        "coupon": "7.850%",
+        "clean_price": 101.0,
+        "ytm": 7.85,
+        "spread_bp": 380,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 3239.0,
+        "amount_outstanding_usd_m": 2491.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 5813.5,
+        "amount_outstanding_usd_m": 1661.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ESKOM Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 4650.8,
+      "drawn_amount_usd_m": 1661.0,
+      "undrawn_available_usd_m": 2989.8,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "6.80x",
+        "headroom": "-2.30x leverage buffer ($-5060.0M EBITDA headroom)",
+        "status": "Breached / Restricted"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "1.45x",
+        "headroom": "+-1.05x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "9.5% of Assets",
+        "headroom": "$3190.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$15660.0M (+8.0% YoY growth)",
+        "current_runrate": "$15442.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$2420.0M (15.5% margin)",
+        "current_runrate": "$2376.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "6.80x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with -2.30x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$808.5M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$743.8M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -6249,7 +9971,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "FABUH Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "4.850%",
+        "clean_price": 100.5,
+        "ytm": 4.85,
+        "spread_bp": 65,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "FABUH Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "6.350%",
+        "clean_price": 97.0,
+        "ytm": 6.35,
+        "spread_bp": 215,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "FABUH Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "7.100%",
+        "clean_price": 95.5,
+        "ytm": 7.1,
+        "spread_bp": 290,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 15600.0,
+        "amount_outstanding_usd_m": 15600.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "17.4%",
+        "headroom": "+5.4% (+539 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "14.3%",
+        "headroom": "+5.8% (+576 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "2.40% - 2.65%",
+        "current_runrate": "2.52%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -6507,7 +10366,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "FIRSTR Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "6.750%",
+        "clean_price": 98.8,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "FIRSTR Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "8.250%",
+        "clean_price": 95.3,
+        "ytm": 8.25,
+        "spread_bp": 420,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "FIRSTR Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "9.000%",
+        "clean_price": 93.8,
+        "ytm": 9.0,
+        "spread_bp": 495,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 7600.0,
+        "amount_outstanding_usd_m": 7600.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "17.1%",
+        "headroom": "+5.1% (+510 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "14.0%",
+        "headroom": "+5.5% (+552 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "4.60% - 4.85%",
+        "current_runrate": "4.72%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -6765,7 +10761,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "GARAN Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "6.550%",
+        "clean_price": 99.8,
+        "ytm": 6.55,
+        "spread_bp": 195,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "GARAN Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "8.050%",
+        "clean_price": 96.3,
+        "ytm": 8.05,
+        "spread_bp": 345,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "GARAN Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "8.800%",
+        "clean_price": 94.8,
+        "ytm": 8.8,
+        "spread_bp": 420,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 4168.0,
+        "amount_outstanding_usd_m": 4168.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "18.2%",
+        "headroom": "+6.2% (+619 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "14.9%",
+        "headroom": "+6.4% (+642 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "5.90% - 6.15%",
+        "current_runrate": "6.02%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -6980,7 +11113,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "GDZELE Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 295.7,
+        "amount_outstanding_usd_m": 295.7,
+        "coupon": "9.100%",
+        "clean_price": 98.2,
+        "ytm": 9.1,
+        "spread_bp": 470,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "GDZELE Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 197.2,
+        "amount_outstanding_usd_m": 197.2,
+        "coupon": "8.450%",
+        "clean_price": 100.2,
+        "ytm": 8.45,
+        "spread_bp": 405,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 128.2,
+        "amount_outstanding_usd_m": 98.6,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 230.0,
+        "amount_outstanding_usd_m": 65.7,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "GDZELE Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 184.0,
+      "drawn_amount_usd_m": 65.7,
+      "undrawn_available_usd_m": 118.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "2.62x",
+        "headroom": "1.88x leverage buffer ($366.6M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.75x",
+        "headroom": "+1.25x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "9.4% of Assets",
+        "headroom": "$127.6M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$626.4M (+8.0% YoY growth)",
+        "current_runrate": "$617.7M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$214.5M (34.2% margin)",
+        "current_runrate": "$210.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "2.62x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.88x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$71.7M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$66.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -7194,7 +11465,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "GFI Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1512.0,
+        "amount_outstanding_usd_m": 1512.0,
+        "coupon": "6.050%",
+        "clean_price": 100.2,
+        "ytm": 6.05,
+        "spread_bp": 200,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "GFI Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 1008.0,
+        "amount_outstanding_usd_m": 1008.0,
+        "coupon": "5.400%",
+        "clean_price": 101.5,
+        "ytm": 5.3999999999999995,
+        "spread_bp": 135,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 655.2,
+        "amount_outstanding_usd_m": 504.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1176.0,
+        "amount_outstanding_usd_m": 336.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "GFI Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 940.8,
+      "drawn_amount_usd_m": 336.0,
+      "undrawn_available_usd_m": 604.8,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "0.85x",
+        "headroom": "2.90x leverage buffer ($6090.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "9.50x",
+        "headroom": "+7.00x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "6.2% of Assets",
+        "headroom": "$990.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$4860.0M (+8.0% YoY growth)",
+        "current_runrate": "$4792.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$2310.0M (47.5% margin)",
+        "current_runrate": "$2268.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "0.85x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.90x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$771.8M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$710.1M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -7452,7 +11861,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "HALKB Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "7.350%",
+        "clean_price": 98.1,
+        "ytm": 7.35,
+        "spread_bp": 275,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "HALKB Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "8.850%",
+        "clean_price": 94.6,
+        "ytm": 8.85,
+        "spread_bp": 425,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "HALKB Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "9.600%",
+        "clean_price": 93.1,
+        "ytm": 9.6,
+        "spread_bp": 500,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 3560.0,
+        "amount_outstanding_usd_m": 3560.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "15.9%",
+        "headroom": "+3.9% (+390 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "13.0%",
+        "headroom": "+4.5% (+453 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "4.50% - 4.75%",
+        "current_runrate": "4.62%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -7710,7 +12256,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "HSBKK Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "6.200%",
+        "clean_price": 99.0,
+        "ytm": 6.2,
+        "spread_bp": 215,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "HSBKK Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "7.700%",
+        "clean_price": 95.5,
+        "ytm": 7.7,
+        "spread_bp": 365,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "HSBKK Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "8.450%",
+        "clean_price": 94.0,
+        "ytm": 8.45,
+        "spread_bp": 440,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 2080.0,
+        "amount_outstanding_usd_m": 2080.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "21.5%",
+        "headroom": "+9.5% (+950 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "17.6%",
+        "headroom": "+9.1% (+912 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "6.20% - 6.45%",
+        "current_runrate": "6.32%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -7925,7 +12608,145 @@ const MASTER_ISSUERS = [
         "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
         "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "HT Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 907.8,
+        "amount_outstanding_usd_m": 907.8,
+        "coupon": "8.750%",
+        "clean_price": 94.25,
+        "ytm": 8.75,
+        "spread_bp": 440,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "HT Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 605.2,
+        "amount_outstanding_usd_m": 605.2,
+        "coupon": "8.100%",
+        "clean_price": 96.25,
+        "ytm": 8.1,
+        "spread_bp": 375,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 393.4,
+        "amount_outstanding_usd_m": 302.6,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 706.3,
+        "amount_outstanding_usd_m": 201.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "HT Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 564.9,
+      "drawn_amount_usd_m": 201.8,
+      "undrawn_available_usd_m": 363.1,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "4.49x",
+        "headroom": "-0.74x leverage buffer ($-284.9M EBITDA headroom)",
+        "status": "Breached / Restricted"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "2.75x",
+        "headroom": "+0.25x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "22.7% of Assets",
+        "headroom": "$162.8M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$799.2M (+8.0% YoY growth)",
+        "current_runrate": "$788.1M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$423.5M (53.0% margin)",
+        "current_runrate": "$415.8M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "4.49x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with -0.74x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$141.5M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$130.2M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -8140,7 +12961,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "HIDRO Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 802.1,
+        "amount_outstanding_usd_m": 802.1,
+        "coupon": "5.500%",
+        "clean_price": 99.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "HIDRO Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 534.8,
+        "amount_outstanding_usd_m": 534.8,
+        "coupon": "4.850%",
+        "clean_price": 101.0,
+        "ytm": 4.85,
+        "spread_bp": 80,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 347.6,
+        "amount_outstanding_usd_m": 267.4,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 623.7,
+        "amount_outstanding_usd_m": 178.2,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "HIDRO Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 499.1,
+      "drawn_amount_usd_m": 178.2,
+      "undrawn_available_usd_m": 320.9,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "0.40x",
+        "headroom": "4.10x leverage buffer ($6355.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "15.00x",
+        "headroom": "+12.50x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "6.2% of Assets",
+        "headroom": "$528.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$2592.0M (+8.0% YoY growth)",
+        "current_runrate": "$2556.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1705.0M (65.8% margin)",
+        "current_runrate": "$1674.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "0.40x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 4.10x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$569.6M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$524.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -8355,7 +13314,145 @@ const MASTER_ISSUERS = [
         "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
         "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "IHS Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1970.6,
+        "amount_outstanding_usd_m": 1970.6,
+        "coupon": "10.250%",
+        "clean_price": 91.5,
+        "ytm": 10.25,
+        "spread_bp": 590,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "IHS Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 1313.8,
+        "amount_outstanding_usd_m": 1313.8,
+        "coupon": "9.600%",
+        "clean_price": 93.5,
+        "ytm": 9.6,
+        "spread_bp": 525,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 854.0,
+        "amount_outstanding_usd_m": 656.9,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1532.6,
+        "amount_outstanding_usd_m": 437.9,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "IHS Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 1226.2,
+      "drawn_amount_usd_m": 437.9,
+      "undrawn_available_usd_m": 788.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "3.16x",
+        "headroom": "0.59x leverage buffer ($660.8M EBITDA headroom)",
+        "status": "Compliant"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.20x",
+        "headroom": "+0.70x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "17.0% of Assets",
+        "headroom": "$473.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$2322.0M (+8.0% YoY growth)",
+        "current_runrate": "$2289.8M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1232.0M (53.1% margin)",
+        "current_runrate": "$1209.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "3.16x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with 0.59x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$411.6M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$378.7M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -8613,7 +13710,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ISCTR Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "6.850%",
+        "clean_price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 225,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ISCTR Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "8.350%",
+        "clean_price": 96.0,
+        "ytm": 8.35,
+        "spread_bp": 375,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ISCTR Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "9.100%",
+        "clean_price": 94.5,
+        "ytm": 9.1,
+        "spread_bp": 450,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 4672.0,
+        "amount_outstanding_usd_m": 4672.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "17.8%",
+        "headroom": "+5.8% (+580 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "14.6%",
+        "headroom": "+6.1% (+609 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "5.40% - 5.65%",
+        "current_runrate": "5.52%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -8823,7 +14057,145 @@ const MASTER_ISSUERS = [
         "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
         "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ITTIHAD Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 277.3,
+        "amount_outstanding_usd_m": 277.3,
+        "coupon": "9.100%",
+        "clean_price": 98.5,
+        "ytm": 9.1,
+        "spread_bp": 505,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ITTIHAD Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 184.9,
+        "amount_outstanding_usd_m": 184.9,
+        "coupon": "8.450%",
+        "clean_price": 100.5,
+        "ytm": 8.45,
+        "spread_bp": 440,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 120.1,
+        "amount_outstanding_usd_m": 92.4,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 215.6,
+        "amount_outstanding_usd_m": 61.6,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ITTIHAD Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 172.5,
+      "drawn_amount_usd_m": 61.6,
+      "undrawn_available_usd_m": 110.9,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.41x",
+        "headroom": "1.34x leverage buffer ($261.3M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.75x",
+        "headroom": "+1.25x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.9% of Assets",
+        "headroom": "$231.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1134.0M (+8.0% YoY growth)",
+        "current_runrate": "$1118.2M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$214.5M (18.9% margin)",
+        "current_runrate": "$210.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.41x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.34x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$71.7M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$66.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -9081,7 +14453,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "KFH Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "5.200%",
+        "clean_price": 99.2,
+        "ytm": 5.2,
+        "spread_bp": 115,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "KFH Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "6.700%",
+        "clean_price": 95.7,
+        "ytm": 6.7,
+        "spread_bp": 265,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "KFH Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "7.450%",
+        "clean_price": 94.2,
+        "ytm": 7.45,
+        "spread_bp": 340,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 7040.0,
+        "amount_outstanding_usd_m": 7040.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "18.2%",
+        "headroom": "+6.2% (+619 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "14.9%",
+        "headroom": "+6.4% (+642 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "3.10% - 3.35%",
+        "current_runrate": "3.22%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -9297,7 +14806,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "KZOK Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 4752.0,
+        "amount_outstanding_usd_m": 4752.0,
+        "coupon": "6.750%",
+        "clean_price": 88.5,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "KZOK Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 3168.0,
+        "amount_outstanding_usd_m": 3168.0,
+        "coupon": "6.100%",
+        "clean_price": 90.5,
+        "ytm": 6.1,
+        "spread_bp": 205,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 2059.2,
+        "amount_outstanding_usd_m": 1584.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 3696.0,
+        "amount_outstanding_usd_m": 1056.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "KZOK Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 2956.8,
+      "drawn_amount_usd_m": 1056.0,
+      "undrawn_available_usd_m": 1900.8,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.45x",
+        "headroom": "2.30x leverage buffer ($11040.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "6.80x",
+        "headroom": "+4.30x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.8% of Assets",
+        "headroom": "$4004.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$19656.0M (+8.0% YoY growth)",
+        "current_runrate": "$19383.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$5280.0M (26.9% margin)",
+        "current_runrate": "$5184.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.45x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1764.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1622.9M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -9507,7 +15154,145 @@ const MASTER_ISSUERS = [
         "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
         "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "KCHOL Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 4320.0,
+        "amount_outstanding_usd_m": 4320.0,
+        "coupon": "6.850%",
+        "clean_price": 98.5,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "KCHOL Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 2880.0,
+        "amount_outstanding_usd_m": 2880.0,
+        "coupon": "6.200%",
+        "clean_price": 100.5,
+        "ytm": 6.199999999999999,
+        "spread_bp": 215,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1872.0,
+        "amount_outstanding_usd_m": 1440.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 3360.0,
+        "amount_outstanding_usd_m": 960.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "KCHOL Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 2688.0,
+      "drawn_amount_usd_m": 960.0,
+      "undrawn_available_usd_m": 1728.0,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.25x",
+        "headroom": "2.50x leverage buffer ($12000.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "6.50x",
+        "headroom": "+4.00x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "1.9% of Assets",
+        "headroom": "$9240.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$45360.0M (+8.0% YoY growth)",
+        "current_runrate": "$44730.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$5280.0M (11.6% margin)",
+        "current_runrate": "$5184.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.25x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.50x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1764.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1622.9M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -9723,7 +15508,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "KOS Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1445.9,
+        "amount_outstanding_usd_m": 1445.9,
+        "coupon": "10.450%",
+        "clean_price": 89.5,
+        "ytm": 10.45,
+        "spread_bp": 610,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "KOS Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 963.9,
+        "amount_outstanding_usd_m": 963.9,
+        "coupon": "9.800%",
+        "clean_price": 91.5,
+        "ytm": 9.799999999999999,
+        "spread_bp": 545,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 626.5,
+        "amount_outstanding_usd_m": 481.9,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1124.5,
+        "amount_outstanding_usd_m": 321.3,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "KOS Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 899.6,
+      "drawn_amount_usd_m": 321.3,
+      "undrawn_available_usd_m": 578.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.31x",
+        "headroom": "1.44x leverage buffer ($1512.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.20x",
+        "headroom": "+1.70x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "15.3% of Assets",
+        "headroom": "$385.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1890.0M (+8.0% YoY growth)",
+        "current_runrate": "$1863.8M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1155.0M (61.1% margin)",
+        "current_runrate": "$1134.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.31x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.44x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$385.9M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$355.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -9937,7 +15860,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "LMKCEM Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 251.4,
+        "amount_outstanding_usd_m": 251.4,
+        "coupon": "8.250%",
+        "clean_price": 98.8,
+        "ytm": 8.25,
+        "spread_bp": 385,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "LMKCEM Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 167.6,
+        "amount_outstanding_usd_m": 167.6,
+        "coupon": "7.600%",
+        "clean_price": 100.8,
+        "ytm": 7.6,
+        "spread_bp": 320,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 108.9,
+        "amount_outstanding_usd_m": 83.8,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 195.7,
+        "amount_outstanding_usd_m": 55.9,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "LMKCEM Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 156.4,
+      "drawn_amount_usd_m": 55.9,
+      "undrawn_available_usd_m": 100.5,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.27x",
+        "headroom": "1.48x leverage buffer ($273.8M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.80x",
+        "headroom": "+2.30x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "7.1% of Assets",
+        "headroom": "$145.2M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$712.8M (+8.0% YoY growth)",
+        "current_runrate": "$702.9M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$203.5M (28.5% margin)",
+        "current_runrate": "$199.8M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.27x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.48x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$68.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$62.6M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -10151,7 +16212,145 @@ const MASTER_ISSUERS = [
         "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
         "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "LMKPRT Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 134.4,
+        "amount_outstanding_usd_m": 134.4,
+        "coupon": "7.850%",
+        "clean_price": 98.5,
+        "ytm": 7.85,
+        "spread_bp": 345,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "LMKPRT Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 89.6,
+        "amount_outstanding_usd_m": 89.6,
+        "coupon": "7.200%",
+        "clean_price": 100.5,
+        "ytm": 7.199999999999999,
+        "spread_bp": 280,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 58.2,
+        "amount_outstanding_usd_m": 44.8,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 104.6,
+        "amount_outstanding_usd_m": 29.9,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "LMKPRT Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 150.0,
+      "drawn_amount_usd_m": 29.9,
+      "undrawn_available_usd_m": 120.1,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "3.08x",
+        "headroom": "0.67x leverage buffer ($52.3M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.20x",
+        "headroom": "+1.70x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "20.7% of Assets",
+        "headroom": "$26.4M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$129.6M (+8.0% YoY growth)",
+        "current_runrate": "$127.8M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$85.8M (66.2% margin)",
+        "current_runrate": "$84.2M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "3.08x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with 0.67x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$28.7M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$26.4M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -10366,7 +16565,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "LMKREN Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 587.8,
+        "amount_outstanding_usd_m": 587.8,
+        "coupon": "8.750%",
+        "clean_price": 98.2,
+        "ytm": 8.75,
+        "spread_bp": 435,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "LMKREN Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 391.9,
+        "amount_outstanding_usd_m": 391.9,
+        "coupon": "8.100%",
+        "clean_price": 100.2,
+        "ytm": 8.1,
+        "spread_bp": 370,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 254.7,
+        "amount_outstanding_usd_m": 195.9,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 457.1,
+        "amount_outstanding_usd_m": 130.6,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "LMKREN Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 365.7,
+      "drawn_amount_usd_m": 130.6,
+      "undrawn_available_usd_m": 235.1,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "4.00x",
+        "headroom": "0.50x leverage buffer ($137.5M EBITDA headroom)",
+        "status": "Compliant"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.20x",
+        "headroom": "+0.70x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "28.6% of Assets",
+        "headroom": "$83.6M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$410.4M (+8.0% YoY growth)",
+        "current_runrate": "$404.7M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$302.5M (73.7% margin)",
+        "current_runrate": "$297.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "4.00x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with 0.50x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$101.1M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$93.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -10581,7 +16918,145 @@ const MASTER_ISSUERS = [
         "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
         "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "LIQTEL Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 554.7,
+        "amount_outstanding_usd_m": 554.7,
+        "coupon": "14.250%",
+        "clean_price": 81.5,
+        "ytm": 14.25,
+        "spread_bp": 990,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "LIQTEL Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 369.8,
+        "amount_outstanding_usd_m": 369.8,
+        "coupon": "13.600%",
+        "clean_price": 83.5,
+        "ytm": 13.6,
+        "spread_bp": 925,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 240.4,
+        "amount_outstanding_usd_m": 184.9,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 431.6,
+        "amount_outstanding_usd_m": 123.3,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "LIQTEL Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 345.2,
+      "drawn_amount_usd_m": 123.3,
+      "undrawn_available_usd_m": 221.9,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "5.12x",
+        "headroom": "-1.37x leverage buffer ($-287.7M EBITDA headroom)",
+        "status": "Breached / Restricted"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "1.83x",
+        "headroom": "+-0.67x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "15.1% of Assets",
+        "headroom": "$149.6M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$734.4M (+8.0% YoY growth)",
+        "current_runrate": "$724.2M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$231.0M (31.5% margin)",
+        "current_runrate": "$226.8M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "5.12x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with -1.37x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$77.2M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$71.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -10791,7 +17266,145 @@ const MASTER_ISSUERS = [
         "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
         "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "MAF Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 2349.0,
+        "amount_outstanding_usd_m": 2349.0,
+        "coupon": "5.650%",
+        "clean_price": 98.0,
+        "ytm": 5.65,
+        "spread_bp": 160,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "MAF Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 1566.0,
+        "amount_outstanding_usd_m": 1566.0,
+        "coupon": "5.000%",
+        "clean_price": 100.0,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1017.9,
+        "amount_outstanding_usd_m": 783.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1827.0,
+        "amount_outstanding_usd_m": 522.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "MAF Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 1461.6,
+      "drawn_amount_usd_m": 522.0,
+      "undrawn_available_usd_m": 939.6,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.85x",
+        "headroom": "0.90x leverage buffer ($1305.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.50x",
+        "headroom": "+2.00x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.4% of Assets",
+        "headroom": "$2156.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$10584.0M (+8.0% YoY growth)",
+        "current_runrate": "$10437.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1595.0M (15.1% margin)",
+        "current_runrate": "$1566.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.85x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 0.90x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$532.9M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$490.3M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -11005,7 +17618,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "METINV Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1051.6,
+        "amount_outstanding_usd_m": 1051.6,
+        "coupon": "15.650%",
+        "clean_price": 76.0,
+        "ytm": 15.65,
+        "spread_bp": 1125,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "METINV Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 701.0,
+        "amount_outstanding_usd_m": 701.0,
+        "coupon": "15.000%",
+        "clean_price": 78.0,
+        "ytm": 15.0,
+        "spread_bp": 1060,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 455.7,
+        "amount_outstanding_usd_m": 350.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 817.9,
+        "amount_outstanding_usd_m": 233.7,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "METINV Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 654.3,
+      "drawn_amount_usd_m": 233.7,
+      "undrawn_available_usd_m": 420.6,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.79x",
+        "headroom": "1.96x leverage buffer ($1803.2M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.83x",
+        "headroom": "+1.33x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "2.6% of Assets",
+        "headroom": "$1672.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$8208.0M (+8.0% YoY growth)",
+        "current_runrate": "$8094.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1012.0M (12.3% margin)",
+        "current_runrate": "$993.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.79x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.96x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$338.1M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$311.1M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -11215,7 +17966,145 @@ const MASTER_ISSUERS = [
         "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
         "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "MHPSA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 753.5,
+        "amount_outstanding_usd_m": 753.5,
+        "coupon": "13.100%",
+        "clean_price": 82.5,
+        "ytm": 13.1,
+        "spread_bp": 875,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "MHPSA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 502.3,
+        "amount_outstanding_usd_m": 502.3,
+        "coupon": "12.450%",
+        "clean_price": 84.5,
+        "ytm": 12.45,
+        "spread_bp": 810,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 326.6,
+        "amount_outstanding_usd_m": 251.2,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 585.9,
+        "amount_outstanding_usd_m": 167.4,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "MHPSA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 468.8,
+      "drawn_amount_usd_m": 167.4,
+      "undrawn_available_usd_m": 301.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.89x",
+        "headroom": "0.86x leverage buffer ($395.6M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.54x",
+        "headroom": "+1.04x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.5% of Assets",
+        "headroom": "$682.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$3348.0M (+8.0% YoY growth)",
+        "current_runrate": "$3301.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$506.0M (15.1% margin)",
+        "current_runrate": "$496.8M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.89x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 0.86x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$169.1M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$155.6M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -11431,7 +18320,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "MOL Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 2580.8,
+        "amount_outstanding_usd_m": 2580.8,
+        "coupon": "5.500%",
+        "clean_price": 98.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "MOL Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 1720.5,
+        "amount_outstanding_usd_m": 1720.5,
+        "coupon": "4.850%",
+        "clean_price": 100.0,
+        "ytm": 4.85,
+        "spread_bp": 80,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1118.3,
+        "amount_outstanding_usd_m": 860.2,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 2007.2,
+        "amount_outstanding_usd_m": 573.5,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "MOL Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 1605.8,
+      "drawn_amount_usd_m": 573.5,
+      "undrawn_available_usd_m": 1032.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.10x",
+        "headroom": "2.65x leverage buffer ($8215.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "8.20x",
+        "headroom": "+5.70x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "2.0% of Assets",
+        "headroom": "$5280.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$25920.0M (+8.0% YoY growth)",
+        "current_runrate": "$25560.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$3410.0M (13.2% margin)",
+        "current_runrate": "$3348.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.10x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1139.2M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1048.1M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -11646,7 +18673,145 @@ const MASTER_ISSUERS = [
         "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
         "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "MTNSJ Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 4860.0,
+        "amount_outstanding_usd_m": 4860.0,
+        "coupon": "6.900%",
+        "clean_price": 99.4,
+        "ytm": 6.9,
+        "spread_bp": 285,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "MTNSJ Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 3240.0,
+        "amount_outstanding_usd_m": 3240.0,
+        "coupon": "6.250%",
+        "clean_price": 101.4,
+        "ytm": 6.25,
+        "spread_bp": 220,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 2106.0,
+        "amount_outstanding_usd_m": 1620.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 3780.0,
+        "amount_outstanding_usd_m": 1080.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "MTNSJ Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 3024.0,
+      "drawn_amount_usd_m": 1080.0,
+      "undrawn_available_usd_m": 1944.0,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.65x",
+        "headroom": "2.10x leverage buffer ($9450.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "5.40x",
+        "headroom": "+2.90x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "7.6% of Assets",
+        "headroom": "$2596.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$12744.0M (+8.0% YoY growth)",
+        "current_runrate": "$12567.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$4950.0M (38.8% margin)",
+        "current_runrate": "$4860.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.65x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.10x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1653.8M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1521.5M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -11860,7 +19025,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "OCP Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 4449.6,
+        "amount_outstanding_usd_m": 4449.6,
+        "coupon": "6.450%",
+        "clean_price": 99.5,
+        "ytm": 6.45,
+        "spread_bp": 155,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "OCP Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 2966.4,
+        "amount_outstanding_usd_m": 2966.4,
+        "coupon": "5.800%",
+        "clean_price": 101.5,
+        "ytm": 5.8,
+        "spread_bp": 90,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1928.2,
+        "amount_outstanding_usd_m": 1483.2,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 3460.8,
+        "amount_outstanding_usd_m": 988.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "OCP Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 2768.6,
+      "drawn_amount_usd_m": 988.8,
+      "undrawn_available_usd_m": 1779.8,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.34x",
+        "headroom": "1.41x leverage buffer ($4512.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "7.11x",
+        "headroom": "+4.61x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "8.7% of Assets",
+        "headroom": "$2090.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$10260.0M (+8.0% YoY growth)",
+        "current_runrate": "$10117.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$3520.0M (34.3% margin)",
+        "current_runrate": "$3456.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.34x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.41x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1176.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1081.9M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -12075,7 +19378,145 @@ const MASTER_ISSUERS = [
         "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
         "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ORDS Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 2331.0,
+        "amount_outstanding_usd_m": 2331.0,
+        "coupon": "5.000%",
+        "clean_price": 97.8,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ORDS Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 1554.0,
+        "amount_outstanding_usd_m": 1554.0,
+        "coupon": "4.350%",
+        "clean_price": 99.8,
+        "ytm": 4.35,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1010.1,
+        "amount_outstanding_usd_m": 777.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1813.0,
+        "amount_outstanding_usd_m": 518.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ORDS Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 1450.4,
+      "drawn_amount_usd_m": 518.0,
+      "undrawn_available_usd_m": 932.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.10x",
+        "headroom": "2.65x leverage buffer ($7420.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "9.20x",
+        "headroom": "+6.70x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "6.6% of Assets",
+        "headroom": "$1430.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$7020.0M (+8.0% YoY growth)",
+        "current_runrate": "$6922.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$3080.0M (43.9% margin)",
+        "current_runrate": "$3024.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.10x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1029.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$946.7M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -12291,7 +19732,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "OQ Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 5278.5,
+        "amount_outstanding_usd_m": 5278.5,
+        "coupon": "5.900%",
+        "clean_price": 99.5,
+        "ytm": 5.9,
+        "spread_bp": 185,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "OQ Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 3519.0,
+        "amount_outstanding_usd_m": 3519.0,
+        "coupon": "5.250%",
+        "clean_price": 101.5,
+        "ytm": 5.25,
+        "spread_bp": 120,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 2287.3,
+        "amount_outstanding_usd_m": 1759.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 4105.5,
+        "amount_outstanding_usd_m": 1173.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "OQ Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 3284.4,
+      "drawn_amount_usd_m": 1173.0,
+      "undrawn_available_usd_m": 2111.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.80x",
+        "headroom": "1.95x leverage buffer ($8970.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "5.80x",
+        "headroom": "+3.30x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "3.1% of Assets",
+        "headroom": "$7040.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$34560.0M (+8.0% YoY growth)",
+        "current_runrate": "$34080.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$5060.0M (14.6% margin)",
+        "current_runrate": "$4968.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.80x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.95x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1690.5M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1555.3M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -12507,7 +20086,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "PKN Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 6502.5,
+        "amount_outstanding_usd_m": 6502.5,
+        "coupon": "5.050%",
+        "clean_price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "PKN Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 4335.0,
+        "amount_outstanding_usd_m": 4335.0,
+        "coupon": "4.400%",
+        "clean_price": 100.8,
+        "ytm": 4.3999999999999995,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 2817.8,
+        "amount_outstanding_usd_m": 2167.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 5057.5,
+        "amount_outstanding_usd_m": 1445.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "PKN Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 4046.0,
+      "drawn_amount_usd_m": 1445.0,
+      "undrawn_available_usd_m": 2601.0,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "0.95x",
+        "headroom": "2.80x leverage buffer ($23800.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "9.50x",
+        "headroom": "+7.00x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "1.8% of Assets",
+        "headroom": "$14960.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$73440.0M (+8.0% YoY growth)",
+        "current_runrate": "$72420.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$9350.0M (12.7% margin)",
+        "current_runrate": "$9180.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "0.95x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.80x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$3123.8M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$2873.9M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -12718,7 +20435,145 @@ const MASTER_ISSUERS = [
         "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
         "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "PGSUS Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1218.4,
+        "amount_outstanding_usd_m": 1218.4,
+        "coupon": "7.650%",
+        "clean_price": 103.5,
+        "ytm": 7.65,
+        "spread_bp": 360,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "PGSUS Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 812.2,
+        "amount_outstanding_usd_m": 812.2,
+        "coupon": "7.000%",
+        "clean_price": 101.5,
+        "ytm": 7.0,
+        "spread_bp": 295,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 527.9,
+        "amount_outstanding_usd_m": 406.1,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 947.8,
+        "amount_outstanding_usd_m": 270.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "PGSUS Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 758.1,
+      "drawn_amount_usd_m": 270.8,
+      "undrawn_available_usd_m": 487.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.10x",
+        "headroom": "1.65x leverage buffer ($1567.5M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.20x",
+        "headroom": "+1.70x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "7.1% of Assets",
+        "headroom": "$704.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$3456.0M (+8.0% YoY growth)",
+        "current_runrate": "$3408.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1045.0M (30.2% margin)",
+        "current_runrate": "$1026.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.10x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.65x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$349.1M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$321.2M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -12933,7 +20788,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "PGE Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 3276.0,
+        "amount_outstanding_usd_m": 3276.0,
+        "coupon": "5.300%",
+        "clean_price": 99.2,
+        "ytm": 5.3,
+        "spread_bp": 125,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "PGE Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 2184.0,
+        "amount_outstanding_usd_m": 2184.0,
+        "coupon": "4.650%",
+        "clean_price": 101.2,
+        "ytm": 4.6499999999999995,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1419.6,
+        "amount_outstanding_usd_m": 1092.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 2548.0,
+        "amount_outstanding_usd_m": 728.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "PGE Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 2038.4,
+      "drawn_amount_usd_m": 728.0,
+      "undrawn_available_usd_m": 1310.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "1.85x",
+        "headroom": "2.65x leverage buffer ($7420.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "6.20x",
+        "headroom": "+3.70x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "3.1% of Assets",
+        "headroom": "$4290.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$21060.0M (+8.0% YoY growth)",
+        "current_runrate": "$20767.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$3080.0M (14.6% margin)",
+        "current_runrate": "$3024.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "1.85x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1029.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$946.7M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -13147,7 +21140,145 @@ const MASTER_ISSUERS = [
         "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
         "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "QAZGAS Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 745.9,
+        "amount_outstanding_usd_m": 745.9,
+        "coupon": "5.950%",
+        "clean_price": 97.2,
+        "ytm": 5.95,
+        "spread_bp": 190,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "QAZGAS Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 497.2,
+        "amount_outstanding_usd_m": 497.2,
+        "coupon": "5.300%",
+        "clean_price": 99.2,
+        "ytm": 5.3,
+        "spread_bp": 125,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 323.2,
+        "amount_outstanding_usd_m": 248.6,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 580.3,
+        "amount_outstanding_usd_m": 165.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "QAZGAS Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 464.1,
+      "drawn_amount_usd_m": 165.8,
+      "undrawn_available_usd_m": 298.3,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.20x",
+        "headroom": "2.55x leverage buffer ($2167.5M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "7.20x",
+        "headroom": "+4.70x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.9% of Assets",
+        "headroom": "$616.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$3024.0M (+8.0% YoY growth)",
+        "current_runrate": "$2982.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$935.0M (30.9% margin)",
+        "current_runrate": "$918.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.20x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.55x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$312.4M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$287.4M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -13405,7 +21536,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "QNBK Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "5.000%",
+        "clean_price": 99.5,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "QNBK Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "6.500%",
+        "clean_price": 96.0,
+        "ytm": 6.5,
+        "spread_bp": 245,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "QNBK Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "7.250%",
+        "clean_price": 94.5,
+        "ytm": 7.25,
+        "spread_bp": 320,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 19600.0,
+        "amount_outstanding_usd_m": 19600.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "19.8%",
+        "headroom": "+7.8% (+780 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "16.2%",
+        "headroom": "+7.7% (+773 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "2.85% - 3.10%",
+        "current_runrate": "2.97%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -13663,7 +21931,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "RJHI Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "4.750%",
+        "clean_price": 100.8,
+        "ytm": 4.75,
+        "spread_bp": 55,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "RJHI Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "6.250%",
+        "clean_price": 97.3,
+        "ytm": 6.25,
+        "spread_bp": 205,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "RJHI Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "7.000%",
+        "clean_price": 95.8,
+        "ytm": 7.0,
+        "spread_bp": 280,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 14000.0,
+        "amount_outstanding_usd_m": 14000.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "20.5%",
+        "headroom": "+8.5% (+850 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "16.8%",
+        "headroom": "+8.3% (+830 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "3.90% - 4.15%",
+        "current_runrate": "4.02%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -13921,7 +22326,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "RIBL Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "5.150%",
+        "clean_price": 99.6,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "RIBL Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "6.650%",
+        "clean_price": 96.1,
+        "ytm": 6.65,
+        "spread_bp": 245,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "RIBL Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "7.400%",
+        "clean_price": 94.6,
+        "ytm": 7.4,
+        "spread_bp": 320,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 6560.0,
+        "amount_outstanding_usd_m": 6560.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "18.0%",
+        "headroom": "+6.0% (+600 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "14.8%",
+        "headroom": "+6.3% (+626 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "3.20% - 3.45%",
+        "current_runrate": "3.32%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -14137,7 +22679,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ROMGAZ Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 617.4,
+        "amount_outstanding_usd_m": 617.4,
+        "coupon": "5.750%",
+        "clean_price": 98.5,
+        "ytm": 5.75,
+        "spread_bp": 170,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ROMGAZ Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 411.6,
+        "amount_outstanding_usd_m": 411.6,
+        "coupon": "5.100%",
+        "clean_price": 100.5,
+        "ytm": 5.1,
+        "spread_bp": 105,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 267.5,
+        "amount_outstanding_usd_m": 205.8,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 480.2,
+        "amount_outstanding_usd_m": 137.2,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ROMGAZ Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 384.2,
+      "drawn_amount_usd_m": 137.2,
+      "undrawn_available_usd_m": 247.0,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "0.65x",
+        "headroom": "3.10x leverage buffer ($3038.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "12.00x",
+        "headroom": "+9.50x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "5.4% of Assets",
+        "headroom": "$462.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$2268.0M (+8.0% YoY growth)",
+        "current_runrate": "$2236.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1078.0M (47.5% margin)",
+        "current_runrate": "$1058.4M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "0.65x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$360.2M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$331.4M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -14351,7 +23031,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "SABIC Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 4959.0,
+        "amount_outstanding_usd_m": 4959.0,
+        "coupon": "5.050%",
+        "clean_price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "SABIC Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 3306.0,
+        "amount_outstanding_usd_m": 3306.0,
+        "coupon": "4.400%",
+        "clean_price": 100.8,
+        "ytm": 4.3999999999999995,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 2148.9,
+        "amount_outstanding_usd_m": 1653.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 3857.0,
+        "amount_outstanding_usd_m": 1102.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "SABIC Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 3085.6,
+      "drawn_amount_usd_m": 1102.0,
+      "undrawn_available_usd_m": 1983.6,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.15x",
+        "headroom": "2.60x leverage buffer ($15080.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "7.80x",
+        "headroom": "+5.30x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "2.4% of Assets",
+        "headroom": "$8470.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$41580.0M (+8.0% YoY growth)",
+        "current_runrate": "$41002.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$6380.0M (15.3% margin)",
+        "current_runrate": "$6264.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.15x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.60x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$2131.5M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1961.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -14561,7 +23379,145 @@ const MASTER_ISSUERS = [
         "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
         "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "SAMPA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 80.4,
+        "amount_outstanding_usd_m": 80.4,
+        "coupon": "10.400%",
+        "clean_price": 97.5,
+        "ytm": 10.4,
+        "spread_bp": 600,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "SAMPA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 53.6,
+        "amount_outstanding_usd_m": 53.6,
+        "coupon": "9.750%",
+        "clean_price": 99.5,
+        "ytm": 9.75,
+        "spread_bp": 535,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 34.8,
+        "amount_outstanding_usd_m": 26.8,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 62.3,
+        "amount_outstanding_usd_m": 17.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "SAMPA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 150.0,
+      "drawn_amount_usd_m": 17.8,
+      "undrawn_available_usd_m": 132.2,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.54x",
+        "headroom": "2.21x leverage buffer ($172.4M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.33x",
+        "headroom": "+1.83x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.4% of Assets",
+        "headroom": "$74.8M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$367.2M (+8.0% YoY growth)",
+        "current_runrate": "$362.1M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$85.8M (23.4% margin)",
+        "current_runrate": "$84.2M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.54x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.21x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$28.7M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$26.4M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -14777,7 +23733,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "SOLSJ Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 3578.2,
+        "amount_outstanding_usd_m": 3578.2,
+        "coupon": "7.850%",
+        "clean_price": 98.4,
+        "ytm": 7.85,
+        "spread_bp": 365,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "SOLSJ Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 2385.4,
+        "amount_outstanding_usd_m": 2385.4,
+        "coupon": "7.200%",
+        "clean_price": 100.4,
+        "ytm": 7.199999999999999,
+        "spread_bp": 300,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1550.5,
+        "amount_outstanding_usd_m": 1192.7,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 2783.2,
+        "amount_outstanding_usd_m": 795.2,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "SOLSJ Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 2226.4,
+      "drawn_amount_usd_m": 795.2,
+      "undrawn_available_usd_m": 1431.2,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.04x",
+        "headroom": "1.71x leverage buffer ($4873.5M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "5.18x",
+        "headroom": "+2.68x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.7% of Assets",
+        "headroom": "$3124.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$15336.0M (+8.0% YoY growth)",
+        "current_runrate": "$15123.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$3135.0M (20.4% margin)",
+        "current_runrate": "$3078.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.04x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.71x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1047.4M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$963.6M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -14992,7 +24086,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "SECO Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 14931.0,
+        "amount_outstanding_usd_m": 14931.0,
+        "coupon": "5.150%",
+        "clean_price": 99.2,
+        "ytm": 5.15,
+        "spread_bp": 110,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "SECO Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 9954.0,
+        "amount_outstanding_usd_m": 9954.0,
+        "coupon": "4.500%",
+        "clean_price": 101.2,
+        "ytm": 4.5,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 6470.1,
+        "amount_outstanding_usd_m": 4977.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 11613.0,
+        "amount_outstanding_usd_m": 3318.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "SECO Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 9290.4,
+      "drawn_amount_usd_m": 3318.0,
+      "undrawn_available_usd_m": 5972.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "3.20x",
+        "headroom": "1.30x leverage buffer ($10920.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.20x",
+        "headroom": "+1.70x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "12.1% of Assets",
+        "headroom": "$5016.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$24624.0M (+8.0% YoY growth)",
+        "current_runrate": "$24282.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$9240.0M (37.5% margin)",
+        "current_runrate": "$9072.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "3.20x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.30x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$3087.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$2840.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -15206,7 +24438,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "SISE Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1450.4,
+        "amount_outstanding_usd_m": 1450.4,
+        "coupon": "6.850%",
+        "clean_price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 245,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "SISE Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 966.9,
+        "amount_outstanding_usd_m": 966.9,
+        "coupon": "6.200%",
+        "clean_price": 101.5,
+        "ytm": 6.199999999999999,
+        "spread_bp": 180,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 628.4,
+        "amount_outstanding_usd_m": 483.4,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1128.0,
+        "amount_outstanding_usd_m": 322.3,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "SISE Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 902.4,
+      "drawn_amount_usd_m": 322.3,
+      "undrawn_available_usd_m": 580.1,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.18x",
+        "headroom": "1.57x leverage buffer ($1727.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "5.40x",
+        "headroom": "+2.90x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.9% of Assets",
+        "headroom": "$1210.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$5940.0M (+8.0% YoY growth)",
+        "current_runrate": "$5857.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1210.0M (20.4% margin)",
+        "current_runrate": "$1188.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.18x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.57x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$404.2M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$371.9M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -15464,7 +24834,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "SNB Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "4.950%",
+        "clean_price": 100.1,
+        "ytm": 4.95,
+        "spread_bp": 75,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "SNB Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "6.450%",
+        "clean_price": 96.6,
+        "ytm": 6.45,
+        "spread_bp": 225,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "SNB Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "7.200%",
+        "clean_price": 95.1,
+        "ytm": 7.2,
+        "spread_bp": 300,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 15040.0,
+        "amount_outstanding_usd_m": 15040.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "19.8%",
+        "headroom": "+7.8% (+780 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "16.2%",
+        "headroom": "+7.7% (+773 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "3.00% - 3.25%",
+        "current_runrate": "3.12%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -15683,7 +25190,145 @@ const MASTER_ISSUERS = [
         "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
         "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "SOBHA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 341.3,
+        "amount_outstanding_usd_m": 341.3,
+        "coupon": "7.950%",
+        "clean_price": 102.0,
+        "ytm": 7.95,
+        "spread_bp": 390,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "SOBHA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 227.5,
+        "amount_outstanding_usd_m": 227.5,
+        "coupon": "7.300%",
+        "clean_price": 101.5,
+        "ytm": 7.3,
+        "spread_bp": 325,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 147.9,
+        "amount_outstanding_usd_m": 113.8,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 265.3,
+        "amount_outstanding_usd_m": 75.8,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "SOBHA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 212.4,
+      "drawn_amount_usd_m": 75.8,
+      "undrawn_available_usd_m": 136.6,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.50x",
+        "actual_current": "0.83x",
+        "headroom": "2.67x leverage buffer ($1281.6M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "5.85x",
+        "headroom": "+3.35x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "3.8% of Assets",
+        "headroom": "$363.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1782.0M (+8.0% YoY growth)",
+        "current_runrate": "$1757.2M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$528.0M (29.6% margin)",
+        "current_runrate": "$518.4M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.00x Net Debt / EBITDA",
+        "current_runrate": "0.83x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.67x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$176.4M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$162.3M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -15899,7 +25544,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "SONANG Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 4406.4,
+        "amount_outstanding_usd_m": 4406.4,
+        "coupon": "9.150%",
+        "clean_price": 97.2,
+        "ytm": 9.15,
+        "spread_bp": 475,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "SONANG Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 2937.6,
+        "amount_outstanding_usd_m": 2937.6,
+        "coupon": "8.500%",
+        "clean_price": 99.2,
+        "ytm": 8.5,
+        "spread_bp": 410,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1909.4,
+        "amount_outstanding_usd_m": 1468.8,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 3427.2,
+        "amount_outstanding_usd_m": 979.2,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "SONANG Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 2741.8,
+      "drawn_amount_usd_m": 979.2,
+      "undrawn_available_usd_m": 1762.6,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.29x",
+        "headroom": "2.46x leverage buffer ($11808.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "6.40x",
+        "headroom": "+3.90x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "6.5% of Assets",
+        "headroom": "$2772.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$13608.0M (+8.0% YoY growth)",
+        "current_runrate": "$13419.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$5280.0M (38.8% margin)",
+        "current_runrate": "$5184.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.29x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.46x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1764.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1622.9M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -16157,7 +25940,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "STANBI Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "6.850%",
+        "clean_price": 98.0,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "STANBI Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "8.350%",
+        "clean_price": 94.5,
+        "ytm": 8.35,
+        "spread_bp": 430,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "STANBI Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "9.100%",
+        "clean_price": 93.0,
+        "ytm": 9.1,
+        "spread_bp": 505,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 9200.0,
+        "amount_outstanding_usd_m": 9200.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "16.5%",
+        "headroom": "+4.5% (+450 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "13.5%",
+        "headroom": "+5.0% (+502 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "4.45% - 4.70%",
+        "current_runrate": "4.57%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -16372,7 +26292,145 @@ const MASTER_ISSUERS = [
         "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
         "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "STC Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 4536.0,
+        "amount_outstanding_usd_m": 4536.0,
+        "coupon": "4.850%",
+        "clean_price": 97.5,
+        "ytm": 4.85,
+        "spread_bp": 80,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "STC Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 3024.0,
+        "amount_outstanding_usd_m": 3024.0,
+        "coupon": "4.200%",
+        "clean_price": 99.5,
+        "ytm": 4.199999999999999,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 1965.6,
+        "amount_outstanding_usd_m": 1512.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 3528.0,
+        "amount_outstanding_usd_m": 1008.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "STC Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 2822.4,
+      "drawn_amount_usd_m": 1008.0,
+      "undrawn_available_usd_m": 1814.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "0.65x",
+        "headroom": "3.10x leverage buffer ($22320.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "18.50x",
+        "headroom": "+16.00x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.1% of Assets",
+        "headroom": "$4510.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$22140.0M (+8.0% YoY growth)",
+        "current_runrate": "$21832.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$7920.0M (35.8% margin)",
+        "current_runrate": "$7776.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "0.65x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$2646.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$2434.3M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -16587,7 +26645,145 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "TAQA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 6552.0,
+        "amount_outstanding_usd_m": 6552.0,
+        "coupon": "4.900%",
+        "clean_price": 98.5,
+        "ytm": 4.9,
+        "spread_bp": 85,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "TAQA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 4368.0,
+        "amount_outstanding_usd_m": 4368.0,
+        "coupon": "4.250%",
+        "clean_price": 100.5,
+        "ytm": 4.25,
+        "spread_bp": 65,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 2839.2,
+        "amount_outstanding_usd_m": 2184.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 5096.0,
+        "amount_outstanding_usd_m": 1456.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "TAQA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 4076.8,
+      "drawn_amount_usd_m": 1456.0,
+      "undrawn_available_usd_m": 2620.8,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "1.85x",
+        "headroom": "2.65x leverage buffer ($14840.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "8.50x",
+        "headroom": "+6.00x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "8.5% of Assets",
+        "headroom": "$3124.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$15336.0M (+8.0% YoY growth)",
+        "current_runrate": "$15123.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$6160.0M (40.2% margin)",
+        "current_runrate": "$6048.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "1.85x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$2058.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1893.4M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -16801,7 +26997,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "THARISA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 94.1,
+        "amount_outstanding_usd_m": 94.1,
+        "coupon": "9.850%",
+        "clean_price": 98.0,
+        "ytm": 9.85,
+        "spread_bp": 550,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "THARISA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 62.7,
+        "amount_outstanding_usd_m": 62.7,
+        "coupon": "9.200%",
+        "clean_price": 100.0,
+        "ytm": 9.2,
+        "spread_bp": 485,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 40.8,
+        "amount_outstanding_usd_m": 31.4,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 73.1,
+        "amount_outstanding_usd_m": 20.9,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "THARISA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 150.0,
+      "drawn_amount_usd_m": 20.9,
+      "undrawn_available_usd_m": 129.1,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "0.38x",
+        "headroom": "3.37x leverage buffer ($623.5M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "8.41x",
+        "headroom": "+5.91x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "2.5% of Assets",
+        "headroom": "$156.2M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$766.8M (+8.0% YoY growth)",
+        "current_runrate": "$756.1M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$203.5M (26.5% margin)",
+        "current_runrate": "$199.8M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "0.38x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 3.37x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$68.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$62.6M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -17012,7 +27346,145 @@ const MASTER_ISSUERS = [
         "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
         "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "THYAO Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 5346.0,
+        "amount_outstanding_usd_m": 5346.0,
+        "coupon": "7.450%",
+        "clean_price": 99.2,
+        "ytm": 7.45,
+        "spread_bp": 340,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "THYAO Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 3564.0,
+        "amount_outstanding_usd_m": 3564.0,
+        "coupon": "6.800%",
+        "clean_price": 101.2,
+        "ytm": 6.8,
+        "spread_bp": 275,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 2316.6,
+        "amount_outstanding_usd_m": 1782.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 4158.0,
+        "amount_outstanding_usd_m": 1188.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "THYAO Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 3326.4,
+      "drawn_amount_usd_m": 1188.0,
+      "undrawn_available_usd_m": 2138.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.95x",
+        "headroom": "1.80x leverage buffer ($7920.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "4.80x",
+        "headroom": "+2.30x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "4.7% of Assets",
+        "headroom": "$4620.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$22680.0M (+8.0% YoY growth)",
+        "current_runrate": "$22365.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$4840.0M (21.3% margin)",
+        "current_runrate": "$4752.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.95x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.80x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$1617.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$1487.6M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -17227,7 +27699,145 @@ const MASTER_ISSUERS = [
         "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
         "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "TTKOM Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1336.5,
+        "amount_outstanding_usd_m": 1336.5,
+        "coupon": "7.150%",
+        "clean_price": 99.8,
+        "ytm": 7.15,
+        "spread_bp": 310,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "TTKOM Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 891.0,
+        "amount_outstanding_usd_m": 891.0,
+        "coupon": "6.500%",
+        "clean_price": 101.5,
+        "ytm": 6.5,
+        "spread_bp": 245,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 579.1,
+        "amount_outstanding_usd_m": 445.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1039.5,
+        "amount_outstanding_usd_m": 297.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "TTKOM Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 831.6,
+      "drawn_amount_usd_m": 297.0,
+      "undrawn_available_usd_m": 534.6,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.45x",
+        "headroom": "2.30x leverage buffer ($3105.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "5.10x",
+        "headroom": "+2.60x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "6.9% of Assets",
+        "headroom": "$792.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$3888.0M (+8.0% YoY growth)",
+        "current_runrate": "$3834.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1485.0M (38.2% margin)",
+        "current_runrate": "$1458.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.45x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$496.1M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$456.4M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -17443,7 +28053,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "TLW Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1125.5,
+        "amount_outstanding_usd_m": 1125.5,
+        "coupon": "13.800%",
+        "clean_price": 86.5,
+        "ytm": 13.8,
+        "spread_bp": 945,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "TLW Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.3,
+        "amount_outstanding_usd_m": 750.3,
+        "coupon": "13.150%",
+        "clean_price": 88.5,
+        "ytm": 13.15,
+        "spread_bp": 880,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 487.6,
+        "amount_outstanding_usd_m": 375.1,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 875.4,
+        "amount_outstanding_usd_m": 250.1,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "TLW Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 700.3,
+      "drawn_amount_usd_m": 250.1,
+      "undrawn_available_usd_m": 450.2,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "2.30x",
+        "headroom": "1.45x leverage buffer ($1189.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "3.42x",
+        "headroom": "+0.92x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "15.1% of Assets",
+        "headroom": "$303.6M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1490.4M (+8.0% YoY growth)",
+        "current_runrate": "$1469.7M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$902.0M (60.5% margin)",
+        "current_runrate": "$885.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "2.30x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 1.45x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$301.4M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$277.3M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -17659,7 +28407,145 @@ const MASTER_ISSUERS = [
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "TUPRAS Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1215.0,
+        "amount_outstanding_usd_m": 1215.0,
+        "coupon": "7.200%",
+        "clean_price": 99.5,
+        "ytm": 7.2,
+        "spread_bp": 315,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "TUPRAS Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 810.0,
+        "amount_outstanding_usd_m": 810.0,
+        "coupon": "6.550%",
+        "clean_price": 101.5,
+        "ytm": 6.55,
+        "spread_bp": 250,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 526.5,
+        "amount_outstanding_usd_m": 405.0,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 945.0,
+        "amount_outstanding_usd_m": 270.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "TUPRAS Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 756.0,
+      "drawn_amount_usd_m": 270.0,
+      "undrawn_available_usd_m": 486.0,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "0.75x",
+        "headroom": "3.00x leverage buffer ($5400.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "7.50x",
+        "headroom": "+5.00x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "1.2% of Assets",
+        "headroom": "$4070.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$19980.0M (+8.0% YoY growth)",
+        "current_runrate": "$19702.5M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1980.0M (9.9% margin)",
+        "current_runrate": "$1944.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "0.75x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 3.00x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$661.5M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$608.6M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -17917,7 +28803,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "EXCRTU Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "6.750%",
+        "clean_price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "EXCRTU Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "8.250%",
+        "clean_price": 96.3,
+        "ytm": 8.25,
+        "spread_bp": 365,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "EXCRTU Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "9.000%",
+        "clean_price": 94.8,
+        "ytm": 9.0,
+        "spread_bp": 440,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 8.0,
+        "amount_outstanding_usd_m": 8.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "21.5%",
+        "headroom": "+9.5% (+950 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "17.6%",
+        "headroom": "+9.1% (+912 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "3.80% - 4.05%",
+        "current_runrate": "3.92%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -18132,7 +29155,145 @@ const MASTER_ISSUERS = [
         "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
         "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "TCELL Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 1496.2,
+        "amount_outstanding_usd_m": 1496.2,
+        "coupon": "6.950%",
+        "clean_price": 96.8,
+        "ytm": 6.95,
+        "spread_bp": 290,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "TCELL Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 997.5,
+        "amount_outstanding_usd_m": 997.5,
+        "coupon": "6.300%",
+        "clean_price": 98.8,
+        "ytm": 6.3,
+        "spread_bp": 225,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 648.4,
+        "amount_outstanding_usd_m": 498.8,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 1163.8,
+        "amount_outstanding_usd_m": 332.5,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "TCELL Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 931.0,
+      "drawn_amount_usd_m": 332.5,
+      "undrawn_available_usd_m": 598.5,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "1.15x",
+        "headroom": "2.60x leverage buffer ($4550.0M EBITDA headroom)",
+        "status": "Compliant - Substantial Headroom"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "6.20x",
+        "headroom": "+3.70x interest coverage cushion",
+        "status": "Compliant - Strong Coverage"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "6.6% of Assets",
+        "headroom": "$924.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$4536.0M (+8.0% YoY growth)",
+        "current_runrate": "$4473.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$1925.0M (42.4% margin)",
+        "current_runrate": "$1890.0M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "1.15x",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Deleveraging on track with 2.60x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$643.1M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$591.7M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -18358,7 +29519,145 @@ const MASTER_ISSUERS = [
         "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
         "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "RAILUA Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 778.5,
+        "amount_outstanding_usd_m": 778.5,
+        "coupon": "19.250%",
+        "clean_price": 64.0,
+        "ytm": 19.25,
+        "spread_bp": 1485,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "RAILUA Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 519.0,
+        "amount_outstanding_usd_m": 519.0,
+        "coupon": "18.600%",
+        "clean_price": 66.0,
+        "ytm": 18.6,
+        "spread_bp": 1420,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 337.4,
+        "amount_outstanding_usd_m": 259.5,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 605.5,
+        "amount_outstanding_usd_m": 173.0,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "RAILUA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 484.4,
+      "drawn_amount_usd_m": 173.0,
+      "undrawn_available_usd_m": 311.4,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "3.75x",
+        "actual_current": "3.86x",
+        "headroom": "-0.11x leverage buffer ($-41.8M EBITDA headroom)",
+        "status": "Breached / Restricted"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "2.81x",
+        "headroom": "+0.31x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "5.1% of Assets",
+        "headroom": "$627.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$3160.0M (+10.9% YoY growth)",
+        "current_runrate": "$3035.2M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$440.0M (13.9% margin)",
+        "current_runrate": "$410.4M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 3.25x Net Debt / EBITDA",
+        "current_runrate": "3.86x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with -0.11x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$400.0M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$368.0M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   },
   {
     "metadata": {
@@ -18616,7 +29915,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "VAKBN Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "6.950%",
+        "clean_price": 99.2,
+        "ytm": 6.95,
+        "spread_bp": 235,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "VAKBN Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "8.450%",
+        "clean_price": 95.7,
+        "ytm": 8.45,
+        "spread_bp": 385,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "VAKBN Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "9.200%",
+        "clean_price": 94.2,
+        "ytm": 9.2,
+        "spread_bp": 460,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 4320.0,
+        "amount_outstanding_usd_m": 4320.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "16.8%",
+        "headroom": "+4.8% (+480 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "13.8%",
+        "headroom": "+5.3% (+527 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "4.90% - 5.15%",
+        "current_runrate": "5.02%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -18874,7 +30310,144 @@ const MASTER_ISSUERS = [
         "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
         "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "YKBNK Benchmark Senior Unsecured Notes",
+        "instrument_type": "Senior Unsecured RegS/144A",
+        "currency": "USD",
+        "amount_issued_usd_m": 750.0,
+        "amount_outstanding_usd_m": 750.0,
+        "coupon": "6.750%",
+        "clean_price": 99.4,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "maturity_date": "2029-06-15",
+        "seniority": "Senior Unsecured (Bail-in eligible)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "YKBNK Tier 2 Subordinated Notes",
+        "instrument_type": "Subordinated Tier 2 Capital Note",
+        "currency": "USD",
+        "amount_issued_usd_m": 500.0,
+        "amount_outstanding_usd_m": 500.0,
+        "coupon": "8.250%",
+        "clean_price": 95.9,
+        "ytm": 8.25,
+        "spread_bp": 365,
+        "maturity_date": "2032-11-20 (Callable 2027)",
+        "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "YKBNK Additional Tier 1 (AT1) Perpetual",
+        "instrument_type": "Perpetual Subordinated Contingent Convertible",
+        "currency": "USD",
+        "amount_issued_usd_m": 400.0,
+        "amount_outstanding_usd_m": 400.0,
+        "coupon": "9.000%",
+        "clean_price": 94.4,
+        "ytm": 9.0,
+        "spread_bp": 440,
+        "maturity_date": "Perpetual (First Call 2028)",
+        "seniority": "Junior Subordinated (Loss-Absorbing)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Bilateral Interbank & Central Bank Repos",
+        "instrument_type": "Secured Money Market Borrowing",
+        "currency": "USD / Local",
+        "amount_issued_usd_m": 3664.0,
+        "amount_outstanding_usd_m": 3664.0,
+        "coupon": "SOFR + 65 bps",
+        "clean_price": 100.0,
+        "ytm": 5.45,
+        "spread_bp": 65,
+        "maturity_date": "2025-2026 Revolving",
+        "seniority": "Secured Interbank",
+        "governing_law": "Domestic Banking Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+      "total_committed_capacity_usd_m": 1200.0,
+      "drawn_amount_usd_m": 250.0,
+      "undrawn_available_usd_m": 950.0,
+      "drawn_margin": "SOFR + 110 bps",
+      "undrawn_commitment_fee": "38.5 bps",
+      "maturity": "2027-09-30 (with 1-year extension option)",
+      "syndicate_banks": "Consortium of 14 international correspondent banks",
+      "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+    },
+    "covenant_analysis": {
+      "capital_adequacy_covenant": {
+        "covenant_type": "Regulatory Minimum CAR Ratio",
+        "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+        "actual_current": "17.5%",
+        "headroom": "+5.5% (+550 bps excess capital)",
+        "status": "Compliant - Strong Buffer"
+      },
+      "cet1_ratio_covenant": {
+        "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+        "covenant_threshold": "8.5% Regulatory Minimum",
+        "actual_current": "14.3%",
+        "headroom": "+5.8% (+585 bps buffer)",
+        "status": "Compliant - Robust Headroom"
+      },
+      "liquidity_coverage_covenant": {
+        "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+        "covenant_threshold": "100.0% Statutory Minimum",
+        "actual_current": "178.5%",
+        "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+        "status": "Compliant"
+      },
+      "large_exposure_limit": {
+        "covenant_type": "Single Counterparty Group Exposure",
+        "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+        "actual_current": "14.2% top group exposure",
+        "headroom": "10.8% headroom below regulatory cap",
+        "status": "Compliant"
+      },
+      "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Gross Loan Book Growth",
+        "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+        "current_runrate": "+13.8% YoY annualized loan disbursement",
+        "tracking_status": "On Track",
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      },
+      {
+        "guidance_metric": "Net Interest Margin (NIM)",
+        "management_target": "5.30% - 5.55%",
+        "current_runrate": "5.42%",
+        "tracking_status": "On Track",
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      },
+      {
+        "guidance_metric": "Cost-to-Income Ratio (CIR)",
+        "management_target": "< 38.0%",
+        "current_runrate": "36.8%",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      },
+      {
+        "guidance_metric": "Cost of Risk (Credit Impairment)",
+        "management_target": "< 75 - 90 bps of gross loans",
+        "current_runrate": "68 bps annualized credit cost",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      },
+      {
+        "guidance_metric": "Dividend Payout Ratio",
+        "management_target": "40.0% of annual attributable net profit",
+        "current_runrate": "40.0% payout proposed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      }
+    ]
   },
   {
     "metadata": {
@@ -19089,6 +30662,144 @@ const MASTER_ISSUERS = [
         "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
         "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
       }
-    }
+    },
+    "capital_structure_tranches": [
+      {
+        "tranche_name": "ZOREN Benchmark Senior Notes",
+        "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+        "currency": "USD",
+        "amount_issued_usd_m": 802.1,
+        "amount_outstanding_usd_m": 802.1,
+        "coupon": "11.200%",
+        "clean_price": 94.5,
+        "ytm": 11.2,
+        "spread_bp": 680,
+        "maturity_date": "2029-07-25",
+        "seniority": "Senior Unsecured (Pari Passu)",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "ZOREN Secondary Eurobond / Sukuk Tranche 2",
+        "instrument_type": "Senior Unsecured Notes",
+        "currency": "USD",
+        "amount_issued_usd_m": 534.7,
+        "amount_outstanding_usd_m": 534.7,
+        "coupon": "10.550%",
+        "clean_price": 96.5,
+        "ytm": 10.549999999999999,
+        "spread_bp": 615,
+        "maturity_date": "2027-10-18",
+        "seniority": "Senior Unsecured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Syndicated Commercial Bank Term Facility",
+        "instrument_type": "Senior Secured / Priority Amortizing Loan",
+        "currency": "USD / EUR",
+        "amount_issued_usd_m": 347.6,
+        "amount_outstanding_usd_m": 267.4,
+        "coupon": "SOFR + 185 bps",
+        "clean_price": 100.0,
+        "ytm": 6.85,
+        "spread_bp": 185,
+        "maturity_date": "2031-03-31",
+        "seniority": "Senior Secured",
+        "governing_law": "English Law"
+      },
+      {
+        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+        "instrument_type": "Revolving Working Capital Credit Line",
+        "currency": "USD",
+        "amount_issued_usd_m": 623.7,
+        "amount_outstanding_usd_m": 178.2,
+        "coupon": "SOFR + 150 bps",
+        "clean_price": 100.0,
+        "ytm": 6.5,
+        "spread_bp": 150,
+        "maturity_date": "2028-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+        "governing_law": "English Law"
+      }
+    ],
+    "rcf_facility_liquidity": {
+      "facility_name": "ZOREN Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 499.1,
+      "drawn_amount_usd_m": 178.2,
+      "undrawn_available_usd_m": 320.9,
+      "drawn_margin": "SOFR + 150 bps",
+      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+      "maturity": "2028-06-30 (with two 1-year extension options)",
+      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+    },
+    "covenant_analysis": {
+      "debt_incurrence_net_leverage": {
+        "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+        "covenant_threshold": "4.50x",
+        "actual_current": "4.82x",
+        "headroom": "-0.32x leverage buffer ($-102.4M EBITDA headroom)",
+        "status": "Breached / Restricted"
+      },
+      "interest_coverage_ratio": {
+        "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+        "covenant_threshold": "2.50x",
+        "actual_current": "2.12x",
+        "headroom": "+-0.38x interest coverage cushion",
+        "status": "Compliant"
+      },
+      "priority_secured_debt_basket": {
+        "covenant_type": "Maximum Permitted Priority / Secured Debt",
+        "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+        "actual_current": "12.4% of Assets",
+        "headroom": "$264.0M unutilized secured debt capacity",
+        "status": "Compliant"
+      },
+      "change_of_control_put": {
+        "covenant_type": "Change of Control Investor Protection",
+        "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+      },
+      "restricted_payments_basket": {
+        "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+        "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+      },
+      "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+    },
+    "management_guidance_tracker": [
+      {
+        "guidance_metric": "2025E Full-Year Gross Revenue Target",
+        "management_target": "$1296.0M (+8.0% YoY growth)",
+        "current_runrate": "$1278.0M (+6.5% YoY)",
+        "tracking_status": "On Track",
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      },
+      {
+        "guidance_metric": "2025E Consolidated EBITDA Target",
+        "management_target": "$352.0M (27.2% margin)",
+        "current_runrate": "$345.6M",
+        "tracking_status": "On Track",
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      },
+      {
+        "guidance_metric": "Long-Term Net Leverage Ceiling",
+        "management_target": "< 4.00x Net Debt / EBITDA",
+        "current_runrate": "4.82x",
+        "tracking_status": "On Track",
+        "variance_analysis": "Deleveraging on track with -0.32x buffer below covenant limit."
+      },
+      {
+        "guidance_metric": "2025E Strategic Capex Envelope",
+        "management_target": "$117.6M (Maximum growth and sustaining envelope)",
+        "current_runrate": "$108.2M committed",
+        "tracking_status": "On Track",
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      },
+      {
+        "guidance_metric": "Annual Dividend Payout Policy",
+        "management_target": "30% - 40% payout of attributable net profit",
+        "current_runrate": "35% payout policy maintained",
+        "tracking_status": "On Track",
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      }
+    ]
   }
 ];

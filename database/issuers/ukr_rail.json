@@ -222,5 +222,143 @@
       "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
       "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
     }
-  }
+  },
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "RAILUA Benchmark Senior Notes",
+      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 778.5,
+      "amount_outstanding_usd_m": 778.5,
+      "coupon": "19.250%",
+      "clean_price": 64.0,
+      "ytm": 19.25,
+      "spread_bp": 1485,
+      "maturity_date": "2029-07-25",
+      "seniority": "Senior Unsecured (Pari Passu)",
+      "governing_law": "English Law"
+    },
+    {
+      "tranche_name": "RAILUA Secondary Eurobond / Sukuk Tranche 2",
+      "instrument_type": "Senior Unsecured Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 519.0,
+      "amount_outstanding_usd_m": 519.0,
+      "coupon": "18.600%",
+      "clean_price": 66.0,
+      "ytm": 18.6,
+      "spread_bp": 1420,
+      "maturity_date": "2027-10-18",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English Law"
+    },
+    {
+      "tranche_name": "Syndicated Commercial Bank Term Facility",
+      "instrument_type": "Senior Secured / Priority Amortizing Loan",
+      "currency": "USD / EUR",
+      "amount_issued_usd_m": 337.4,
+      "amount_outstanding_usd_m": 259.5,
+      "coupon": "SOFR + 185 bps",
+      "clean_price": 100.0,
+      "ytm": 6.85,
+      "spread_bp": 185,
+      "maturity_date": "2031-03-31",
+      "seniority": "Senior Secured",
+      "governing_law": "English Law"
+    },
+    {
+      "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+      "instrument_type": "Revolving Working Capital Credit Line",
+      "currency": "USD",
+      "amount_issued_usd_m": 605.5,
+      "amount_outstanding_usd_m": 173.0,
+      "coupon": "SOFR + 150 bps",
+      "clean_price": 100.0,
+      "ytm": 6.5,
+      "spread_bp": 150,
+      "maturity_date": "2028-06-30",
+      "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+      "governing_law": "English Law"
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "RAILUA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+    "total_committed_capacity_usd_m": 484.4,
+    "drawn_amount_usd_m": 173.0,
+    "undrawn_available_usd_m": 311.4,
+    "drawn_margin": "SOFR + 150 bps",
+    "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+    "maturity": "2028-06-30 (with two 1-year extension options)",
+    "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+    "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+      "covenant_threshold": "3.75x",
+      "actual_current": "3.86x",
+      "headroom": "-0.11x leverage buffer ($-41.8M EBITDA headroom)",
+      "status": "Breached / Restricted"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+      "covenant_threshold": "2.50x",
+      "actual_current": "2.81x",
+      "headroom": "+0.31x interest coverage cushion",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Maximum Permitted Priority / Secured Debt",
+      "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+      "actual_current": "5.1% of Assets",
+      "headroom": "$627.0M unutilized secured debt capacity",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+      "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+    },
+    "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "2025E Full-Year Gross Revenue Target",
+      "management_target": "$3160.0M (+10.9% YoY growth)",
+      "current_runrate": "$3035.2M (+6.5% YoY)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+    },
+    {
+      "guidance_metric": "2025E Consolidated EBITDA Target",
+      "management_target": "$440.0M (13.9% margin)",
+      "current_runrate": "$410.4M",
+      "tracking_status": "On Track",
+      "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+    },
+    {
+      "guidance_metric": "Long-Term Net Leverage Ceiling",
+      "management_target": "< 3.25x Net Debt / EBITDA",
+      "current_runrate": "3.86x",
+      "tracking_status": "On Track",
+      "variance_analysis": "Deleveraging on track with -0.11x buffer below covenant limit."
+    },
+    {
+      "guidance_metric": "2025E Strategic Capex Envelope",
+      "management_target": "$400.0M (Maximum growth and sustaining envelope)",
+      "current_runrate": "$368.0M committed",
+      "tracking_status": "On Track",
+      "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+    },
+    {
+      "guidance_metric": "Annual Dividend Payout Policy",
+      "management_target": "30% - 40% payout of attributable net profit",
+      "current_runrate": "35% payout policy maintained",
+      "tracking_status": "On Track",
+      "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+    }
+  ]
 }

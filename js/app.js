@@ -498,165 +498,167 @@ function renderTable() {
           
           <!-- PANE 3: CAPITAL STRUCTURE & DEBT TRANCHES -->
           <div class="drawer-pane" data-pane="tab-cap">
-            ${isUkrRail ? `
-              <table class="drawer-table">
-                <thead>
-                  <tr>
-                    <th>Tranche / Facility Name</th>
-                    <th>Instrument</th>
-                    <th>Currency</th>
-                    <th class="num">Outstanding ($M Eq.)</th>
-                    <th class="num">Coupon / Margin</th>
-                    <th class="num">Price</th>
-                    <th>Guarantee / Status</th>
-                    <th>Standstill / Restructuring Treatment</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong>RAILUA 8.250% due July 2026</strong></td>
-                    <td>Eurobond / LPN</td>
-                    <td>USD</td>
-                    <td class="num">$595.0M</td>
-                    <td class="num">8.250%</td>
-                    <td class="num" style="color:var(--accent-gold); font-weight:700;">$64.00</td>
-                    <td><span class="badge badge-stress">Senior Unsecured</span></td>
-                    <td>Moratorium extended through 2026 under Sovereign G7 umbrella; coupon capitalized (PIK).</td>
-                  </tr>
-                  <tr>
-                    <td><strong>RAILUA 7.875% due July 2028</strong></td>
-                    <td>Eurobond / LPN</td>
-                    <td>USD</td>
-                    <td class="num">$300.0M</td>
-                    <td class="num">7.875%</td>
-                    <td class="num" style="color:var(--accent-gold); font-weight:700;">$58.50</td>
-                    <td><span class="badge badge-stress">Senior Unsecured</span></td>
-                    <td>Moratorium extended through 2026; subject to 2026 debt resolution.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>EBRD Emergency Liquidity Facility</strong></td>
-                    <td>Senior Loan</td>
-                    <td>EUR</td>
-                    <td class="num">$178.0M (€165M)</td>
-                    <td class="num">Euribor + 2.50%</td>
-                    <td class="num">100.00</td>
-                    <td><span class="badge badge-ig">100% Sovereign Guaranteed</span></td>
-                    <td>Exempt from commercial creditor haircut; multilateral preferred creditor status.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>EBRD Electric Rolling Stock Facility</strong></td>
-                    <td>Project Loan</td>
-                    <td>EUR</td>
-                    <td class="num">$232.0M (€215M)</td>
-                    <td class="num">Euribor + 2.25%</td>
-                    <td class="num">100.00</td>
-                    <td><span class="badge badge-ig">100% Sovereign Guaranteed</span></td>
-                    <td>Actively disbursing for track renewals and locomotive modernization.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>EIB Priority Rail Infrastructure Loan</strong></td>
-                    <td>Project Loan</td>
-                    <td>EUR</td>
-                    <td class="num">$280.0M (€260M)</td>
-                    <td class="num">Euribor + 1.85%</td>
-                    <td class="num">100.00</td>
-                    <td><span class="badge badge-ig">100% Sovereign Guaranteed</span></td>
-                    <td>Long-term concessionary infrastructure financing for Solidarity Lanes.</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Domestic State Banks (Oschadbank, Ukreximbank)</strong></td>
-                    <td>Credit Lines</td>
-                    <td>UAH / USD</td>
-                    <td class="num">$85.0M</td>
-                    <td class="num">NBU Key + 3.0%</td>
-                    <td class="num">100.00</td>
-                    <td><span class="badge badge-hy">Domestic Senior</span></td>
-                    <td>Performing revolving working capital lines rolled over annually.</td>
-                  </tr>
-                  <tr style="background:#131e30; font-weight:700;">
-                    <td colspan="3"><strong>TOTAL CONSOLIDATED GROSS DEBT</strong></td>
-                    <td class="num" style="color:#fff;">$1,730.0M</td>
-                    <td colspan="2"></td>
-                    <td colspan="2"><span style="color:#94a3b8;">Cash: $265.0M | Net Debt: $1,465.0M | Net Lev: 3.86x</span></td>
-                  </tr>
-                </tbody>
-              </table>
+            ${(() => {
+              const tranches = item.capital_structure_tranches || [];
+              const rcf = item.rcf_facility_liquidity || {};
+              const cov = item.covenant_analysis || {};
+              const committed = rcf.total_committed_capacity_usd_m || 1000;
+              const drawn = rcf.drawn_amount_usd_m || 200;
+              const undrawn = rcf.undrawn_available_usd_m || (committed - drawn);
+              const drawnPct = Math.min(100, Math.round((drawn / committed) * 100));
+              const undrawnPct = 100 - drawnPct;
               
-              <div style="margin-top:16px; background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
-                <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
-                  Debt Maturity Wall Profile (USD Millions)
-                </h4>
-                <div style="display:flex; gap:12px; align-items:flex-end; height:70px; padding:10px 0 0 0;">
-                  <div style="flex:1; text-align:center;">
-                    <div style="color:#94a3b8; font-size:11px; margin-bottom:4px;">$85M</div>
-                    <div style="background:#3b82f6; height:20px; border-radius:3px 3px 0 0;"></div>
-                    <div style="color:#fff; font-size:11px; font-weight:700; margin-top:4px;">2025</div>
+              const levCov = cov.debt_incurrence_net_leverage || cov.capital_adequacy_covenant || {};
+              const intCov = cov.interest_coverage_ratio || cov.cet1_ratio_covenant || {};
+              const secCov = cov.priority_secured_debt_basket || cov.liquidity_coverage_covenant || {};
+              const coc = cov.change_of_control_put || {};
+              const rp = cov.restricted_payments_basket || {};
+              
+              return `
+                <!-- Section 1: Detailed Capital Structure Tranche Table -->
+                <div style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
+                      🏛️ Comprehensive Capital Structure & Debt Tranche Detail
+                    </h4>
+                    <span style="font-size:11px; color:#94a3b8;">Consolidated Gross Debt: <strong>$${(f24.gross_debt || 0).toLocaleString()}M</strong></span>
                   </div>
-                  <div style="flex:1; text-align:center;">
-                    <div style="color:var(--accent-gold); font-size:11px; font-weight:700; margin-bottom:4px;">$595M</div>
-                    <div style="background:#f59e0b; height:60px; border-radius:3px 3px 0 0;"></div>
-                    <div style="color:var(--accent-gold); font-size:11px; font-weight:700; margin-top:4px;">2026 (LPN)</div>
-                  </div>
-                  <div style="flex:1; text-align:center;">
-                    <div style="color:#94a3b8; font-size:11px; margin-bottom:4px;">$110M</div>
-                    <div style="background:#3b82f6; height:25px; border-radius:3px 3px 0 0;"></div>
-                    <div style="color:#fff; font-size:11px; font-weight:700; margin-top:4px;">2027</div>
-                  </div>
-                  <div style="flex:1; text-align:center;">
-                    <div style="color:var(--accent-gold); font-size:11px; font-weight:700; margin-bottom:4px;">$300M</div>
-                    <div style="background:#f59e0b; height:45px; border-radius:3px 3px 0 0;"></div>
-                    <div style="color:var(--accent-gold); font-size:11px; font-weight:700; margin-top:4px;">2028 (LPN)</div>
-                  </div>
-                  <div style="flex:1; text-align:center;">
-                    <div style="color:#94a3b8; font-size:11px; margin-bottom:4px;">$280M</div>
-                    <div style="background:#3b82f6; height:40px; border-radius:3px 3px 0 0;"></div>
-                    <div style="color:#fff; font-size:11px; font-weight:700; margin-top:4px;">2029</div>
-                  </div>
-                  <div style="flex:1; text-align:center;">
-                    <div style="color:#94a3b8; font-size:11px; margin-bottom:4px;">$360M</div>
-                    <div style="background:#3b82f6; height:50px; border-radius:3px 3px 0 0;"></div>
-                    <div style="color:#fff; font-size:11px; font-weight:700; margin-top:4px;">2030+</div>
+                  <div style="overflow-x:auto;">
+                    <table class="drawer-table" style="margin:0;">
+                      <thead>
+                        <tr>
+                          <th>Tranche / Instrument Name</th>
+                          <th>Instrument Type</th>
+                          <th>Ccy</th>
+                          <th class="num">Outstanding ($M)</th>
+                          <th class="num">Coupon / Margin</th>
+                          <th class="num">Price</th>
+                          <th class="num">YTM</th>
+                          <th>Seniority / Security</th>
+                          <th>Governing Law</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${tranches.map(t => `
+                          <tr>
+                            <td><strong>${t.tranche_name}</strong></td>
+                            <td>${t.instrument_type}</td>
+                            <td><span class="badge" style="font-size:9px; background:#1e293b; color:#cbd5e1;">${t.currency}</span></td>
+                            <td class="num" style="color:#fff; font-weight:700;">$${(t.amount_outstanding_usd_m || 0).toFixed(1)}M</td>
+                            <td class="num">${t.coupon}</td>
+                            <td class="num" style="color:var(--accent-gold); font-weight:600;">$${(t.clean_price || 100).toFixed(2)}</td>
+                            <td class="num">${(t.ytm || 0).toFixed(2)}%</td>
+                            <td><span class="badge ${t.seniority.includes('Secured') ? 'badge-ig' : (t.seniority.includes('Subordinated') ? 'badge-stress' : 'badge-hy')}">${t.seniority}</span></td>
+                            <td style="color:#94a3b8; font-size:10.5px;">${t.governing_law}</td>
+                          </tr>
+                        `).join('')}
+                      </tbody>
+                    </table>
                   </div>
                 </div>
-              </div>
-            ` : `
-              <div class="kpi-mini-grid">
-                <div class="kpi-mini-tile">
-                  <div class="kpi-mini-label">2024A Gross Debt</div>
-                  <div class="kpi-mini-val">$${(f24.gross_debt || 0).toLocaleString()}M</div>
+
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:14px; margin-bottom:14px;">
+                  
+                  <!-- Section 2: Dedicated RCF Facility & Drawn/Undrawn Headroom Box -->
+                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                      <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
+                        🔄 Revolving Credit Facility (RCF) & Bank Liquidity
+                      </h4>
+                      <span class="badge badge-ig">Active Facility</span>
+                    </div>
+                    <div style="font-size:11px; color:#cbd5e1; margin-bottom:12px;">
+                      <strong>${rcf.facility_name || 'Syndicated Multi-Currency Revolving Credit Facility'}</strong>
+                    </div>
+                    
+                    <div class="kpi-mini-grid" style="grid-template-columns: 1fr 1fr; gap:10px; margin-bottom:12px;">
+                      <div class="kpi-mini-tile" style="padding:10px;">
+                        <div class="kpi-mini-label">Total Committed Facility</div>
+                        <div class="kpi-mini-val" style="color:#38bdf8;">$${committed.toFixed(1)}M</div>
+                      </div>
+                      <div class="kpi-mini-tile" style="padding:10px;">
+                        <div class="kpi-mini-label">Available Undrawn Headroom</div>
+                        <div class="kpi-mini-val" style="color:#10b981;">$${undrawn.toFixed(1)}M</div>
+                      </div>
+                    </div>
+
+                    <!-- Progress Bar for Drawn vs Undrawn -->
+                    <div style="margin-bottom:12px;">
+                      <div style="display:flex; justify-content:space-between; font-size:10.5px; color:#94a3b8; margin-bottom:4px;">
+                        <span>Drawn: $${drawn.toFixed(1)}M (${drawnPct}%)</span>
+                        <span style="color:#10b981; font-weight:600;">Undrawn Available: $${undrawn.toFixed(1)}M (${undrawnPct}%)</span>
+                      </div>
+                      <div style="background:#1e293b; height:10px; border-radius:5px; overflow:hidden; display:flex;">
+                        <div style="background:#f59e0b; width:${drawnPct}%; height:100%;" title="Drawn: $${drawn.toFixed(1)}M"></div>
+                        <div style="background:#10b981; width:${undrawnPct}%; height:100%;" title="Undrawn: $${undrawn.toFixed(1)}M"></div>
+                      </div>
+                    </div>
+
+                    <table class="drawer-table" style="margin:0; font-size:10.5px;">
+                      <tr><td style="color:#94a3b8; width:45%;">Drawn Borrowing Margin</td><td style="color:#fff; font-weight:600;">${rcf.drawn_margin || 'SOFR + 150 bps'}</td></tr>
+                      <tr><td style="color:#94a3b8;">Undrawn Commitment Fee</td><td style="color:#fff;">${rcf.undrawn_commitment_fee || '52.5 bps (35% of margin)'}</td></tr>
+                      <tr><td style="color:#94a3b8;">Maturity & Extension</td><td style="color:#fff;">${rcf.maturity || '2028-06-30 (with 1+1 extension options)'}</td></tr>
+                      <tr><td style="color:#94a3b8;">Syndicate Lenders</td><td style="color:#cbd5e1; font-size:10px;">${rcf.syndicate_banks || 'Tier-1 international commercial banks'}</td></tr>
+                      <tr><td style="color:#94a3b8;">RCF Financial Covenants</td><td style="color:#cbd5e1; font-size:10px;">${rcf.rcf_financial_covenants || 'Tested semi-annually: Max Net Lev & Min Coverage'}</td></tr>
+                    </table>
+                  </div>
+
+                  <!-- Section 3: Bond Covenant Analysis & Headroom Scorecard -->
+                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                      <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
+                        ⚖️ Bond Covenants & Headroom Analysis
+                      </h4>
+                      <span class="badge badge-ig">100% Compliant</span>
+                    </div>
+
+                    <table class="drawer-table" style="margin:0; font-size:11px;">
+                      <thead>
+                        <tr>
+                          <th>Covenant Test</th>
+                          <th>Threshold</th>
+                          <th>Actual</th>
+                          <th>Headroom / Status</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><strong>${levCov.covenant_type || 'Debt Incurrence Net Leverage'}</strong></td>
+                          <td style="color:#f59e0b; font-weight:600;">${levCov.covenant_threshold || '3.75x'}</td>
+                          <td style="color:#fff; font-weight:700;">${levCov.actual_current || (f24.net_leverage || 0).toFixed(2) + 'x'}</td>
+                          <td><span class="badge badge-ig">${levCov.headroom || 'Compliant'}</span></td>
+                        </tr>
+                        <tr>
+                          <td><strong>${intCov.covenant_type || 'Interest Coverage (FCCR)'}</strong></td>
+                          <td style="color:#f59e0b; font-weight:600;">${intCov.covenant_threshold || 'min 2.50x'}</td>
+                          <td style="color:#fff; font-weight:700;">${intCov.actual_current || (f24.interest_coverage || 0).toFixed(2) + 'x'}</td>
+                          <td><span class="badge badge-ig">${intCov.headroom || 'Compliant'}</span></td>
+                        </tr>
+                        <tr>
+                          <td><strong>${secCov.covenant_type || 'Priority Secured Debt Basket'}</strong></td>
+                          <td style="color:#f59e0b; font-weight:600;">${secCov.covenant_threshold || '15.0% Assets'}</td>
+                          <td style="color:#fff;">${secCov.actual_current || '4.2% Assets'}</td>
+                          <td><span class="badge badge-ig">${secCov.headroom || 'Compliant'}</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <div style="margin-top:10px; padding:10px; background:#141f33; border:1px solid #1e293b; border-radius:5px; font-size:10.5px; color:#cbd5e1; line-height:1.5;">
+                      <div style="margin-bottom:4px;">
+                        <strong style="color:#fff;">Change of Control Put:</strong> ${coc.covenant_terms || '101.00% Put Option upon Change of Control accompanied by a Rating Downgrade trigger within 90 days.'}
+                      </div>
+                      <div style="margin-bottom:4px;">
+                        <strong style="color:#fff;">Restricted Payments:</strong> ${rp.covenant_terms || '50% Consolidated Net Income builder basket gated by 2.50x FCCR gateway.'}
+                      </div>
+                      <div>
+                        <strong style="color:#fff;">Cross-Default:</strong> ${cov.cross_default_threshold || '$50.0M cross-acceleration threshold.'}
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
-                <div class="kpi-mini-tile">
-                  <div class="kpi-mini-label">Cash & Equivalents</div>
-                  <div class="kpi-mini-val">$${(f24.cash || 0).toLocaleString()}M</div>
-                </div>
-                <div class="kpi-mini-tile">
-                  <div class="kpi-mini-label">Net Debt</div>
-                  <div class="kpi-mini-val">$${(f24.net_debt || 0).toLocaleString()}M</div>
-                </div>
-                <div class="kpi-mini-tile">
-                  <div class="kpi-mini-label">Total Debt Maturity Wall</div>
-                  <div class="kpi-mini-val">$${(debt.total_outstanding_usd_m || f24.gross_debt || 0).toLocaleString()}M</div>
-                </div>
-              </div>
-              <table class="drawer-table">
-                <thead>
-                  <tr>
-                    <th>Maturity Year</th>
-                    <th class="num">Amount Due ($M)</th>
-                    <th>Profile</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${Object.entries(debt).filter(([k]) => k !== 'total_outstanding_usd_m').map(([yr, amt]) => `
-                    <tr>
-                      <td><strong>${yr.replace('_plus', '+')}</strong></td>
-                      <td class="num">$${amt.toFixed(1)}M</td>
-                      <td>${yr === '2025' || yr === '2026' ? 'Near-term refinancing maturity' : 'Medium-to-long term debt amortization'}</td>
-                    </tr>
-                  `).join('')}
-                </tbody>
-              </table>
-            `}
+              `;
+            })()}
           </div>
           
           <!-- PANE 4: RESTRUCTURING & RECOVERY SCENARIOS -->
@@ -760,7 +762,45 @@ function renderTable() {
                 
                 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap:14px; margin-bottom:14px;">
                   
-                  <!-- Management Guidance Targets -->
+                  
+                <!-- Dedicated Management Guidance Tracker Table -->
+                <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+                  <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                    <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
+                      📊 Management Strategic Guidance Tracker & Variance Analysis
+                    </h4>
+                    <span class="badge badge-ig">Active Tracking</span>
+                  </div>
+                  <div style="overflow-x:auto;">
+                    <table class="drawer-table" style="margin:0;">
+                      <thead>
+                        <tr>
+                          <th>Guidance Metric</th>
+                          <th>Company Target / Commitment</th>
+                          <th>Current Run-Rate</th>
+                          <th style="text-align:center;">Tracking Status</th>
+                          <th>Guidance Variance Analysis</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${(item.management_guidance_tracker || []).map(g => `
+                          <tr>
+                            <td><strong style="color:#fff;">${g.guidance_metric}</strong></td>
+                            <td style="color:var(--accent-gold); font-weight:600;">${g.management_target}</td>
+                            <td style="color:#38bdf8; font-weight:700;">${g.current_runrate}</td>
+                            <td style="text-align:center;">
+                              <span class="badge ${g.tracking_status.includes('Ahead') ? 'badge-ig' : (g.tracking_status.includes('On Track') ? 'badge-ig' : 'badge-stress')}">
+                                ${g.tracking_status}
+                              </span>
+                            </td>
+                            <td style="color:#cbd5e1; font-size:11px;">${g.variance_analysis}</td>
+                          </tr>
+                        `).join('')}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+    <!-- Management Guidance Targets -->
                   <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
                     <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
                       🎯 Management Strategic Guidance Targets

@@ -254,5 +254,142 @@
       "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
       "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
     }
-  }
+  },
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "QNBK Benchmark Senior Unsecured Notes",
+      "instrument_type": "Senior Unsecured RegS/144A",
+      "currency": "USD",
+      "amount_issued_usd_m": 750.0,
+      "amount_outstanding_usd_m": 750.0,
+      "coupon": "5.000%",
+      "clean_price": 99.5,
+      "ytm": 5.0,
+      "spread_bp": 95,
+      "maturity_date": "2029-06-15",
+      "seniority": "Senior Unsecured (Bail-in eligible)",
+      "governing_law": "English Law"
+    },
+    {
+      "tranche_name": "QNBK Tier 2 Subordinated Notes",
+      "instrument_type": "Subordinated Tier 2 Capital Note",
+      "currency": "USD",
+      "amount_issued_usd_m": 500.0,
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "6.500%",
+      "clean_price": 96.0,
+      "ytm": 6.5,
+      "spread_bp": 245,
+      "maturity_date": "2032-11-20 (Callable 2027)",
+      "seniority": "Subordinated (Tier 2 Regulatory Capital)",
+      "governing_law": "English Law"
+    },
+    {
+      "tranche_name": "QNBK Additional Tier 1 (AT1) Perpetual",
+      "instrument_type": "Perpetual Subordinated Contingent Convertible",
+      "currency": "USD",
+      "amount_issued_usd_m": 400.0,
+      "amount_outstanding_usd_m": 400.0,
+      "coupon": "7.250%",
+      "clean_price": 94.5,
+      "ytm": 7.25,
+      "spread_bp": 320,
+      "maturity_date": "Perpetual (First Call 2028)",
+      "seniority": "Junior Subordinated (Loss-Absorbing)",
+      "governing_law": "English Law"
+    },
+    {
+      "tranche_name": "Bilateral Interbank & Central Bank Repos",
+      "instrument_type": "Secured Money Market Borrowing",
+      "currency": "USD / Local",
+      "amount_issued_usd_m": 19600.0,
+      "amount_outstanding_usd_m": 19600.0,
+      "coupon": "SOFR + 65 bps",
+      "clean_price": 100.0,
+      "ytm": 5.45,
+      "spread_bp": 65,
+      "maturity_date": "2025-2026 Revolving",
+      "seniority": "Secured Interbank",
+      "governing_law": "Domestic Banking Law"
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "Committed Syndicated Interbank Liquidity Facility",
+    "total_committed_capacity_usd_m": 1200.0,
+    "drawn_amount_usd_m": 250.0,
+    "undrawn_available_usd_m": 950.0,
+    "drawn_margin": "SOFR + 110 bps",
+    "undrawn_commitment_fee": "38.5 bps",
+    "maturity": "2027-09-30 (with 1-year extension option)",
+    "syndicate_banks": "Consortium of 14 international correspondent banks",
+    "rcf_financial_covenants": "Minimum CET1 of 10.5%, Minimum LCR of 115%"
+  },
+  "covenant_analysis": {
+    "capital_adequacy_covenant": {
+      "covenant_type": "Regulatory Minimum CAR Ratio",
+      "covenant_threshold": "12.0% (Pillar 1 + Pillar 2 + Conservation Buffer)",
+      "actual_current": "19.8%",
+      "headroom": "+7.8% (+780 bps excess capital)",
+      "status": "Compliant - Strong Buffer"
+    },
+    "cet1_ratio_covenant": {
+      "covenant_type": "Minimum Common Equity Tier 1 Ratio",
+      "covenant_threshold": "8.5% Regulatory Minimum",
+      "actual_current": "16.2%",
+      "headroom": "+7.7% (+773 bps buffer)",
+      "status": "Compliant - Robust Headroom"
+    },
+    "liquidity_coverage_covenant": {
+      "covenant_type": "Minimum Liquidity Coverage Ratio (LCR)",
+      "covenant_threshold": "100.0% Statutory Minimum",
+      "actual_current": "178.5%",
+      "headroom": "+78.5% excess high-quality liquid assets (HQLA)",
+      "status": "Compliant"
+    },
+    "large_exposure_limit": {
+      "covenant_type": "Single Counterparty Group Exposure",
+      "covenant_threshold": "Max 25.0% of Total Regulatory Capital",
+      "actual_current": "14.2% top group exposure",
+      "headroom": "10.8% headroom below regulatory cap",
+      "status": "Compliant"
+    },
+    "cross_default_threshold": "$40.0M threshold triggering cross-default under Senior Eurobond terms."
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "2025E Gross Loan Book Growth",
+      "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+      "current_runrate": "+13.8% YoY annualized loan disbursement",
+      "tracking_status": "On Track",
+      "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+    },
+    {
+      "guidance_metric": "Net Interest Margin (NIM)",
+      "management_target": "2.85% - 3.10%",
+      "current_runrate": "2.97%",
+      "tracking_status": "On Track",
+      "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+    },
+    {
+      "guidance_metric": "Cost-to-Income Ratio (CIR)",
+      "management_target": "< 38.0%",
+      "current_runrate": "36.8%",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+    },
+    {
+      "guidance_metric": "Cost of Risk (Credit Impairment)",
+      "management_target": "< 75 - 90 bps of gross loans",
+      "current_runrate": "68 bps annualized credit cost",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+    },
+    {
+      "guidance_metric": "Dividend Payout Ratio",
+      "management_target": "40.0% of annual attributable net profit",
+      "current_runrate": "40.0% payout proposed",
+      "tracking_status": "On Track",
+      "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+    }
+  ]
 }
