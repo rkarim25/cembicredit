@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "id": "dangote_ref",
+    "name": "Dangote Refinery",
+    "ticker": "DANREF",
+    "country": "Nigeria",
+    "region": "Africa",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "B / B2",
+    "tier": "B",
+    "benchmark_bond": "DANREF 12.50% 2029",
+    "price": 95.0,
+    "ytm": 12.5,
+    "spread_bp": 815,
+    "model_file": "Dangote_Refinery_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c6810dbe29cf68d8e1ebf3",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dangote_Refinery_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 68.0,
+      "ebitda": 65.0,
+      "ebitda_margin_pct": 95.6,
+      "cfo": 52.7,
+      "capex": 24.5,
+      "fcf": 28.2,
+      "cash": 41.2,
+      "gross_debt": 270.3,
+      "net_debt": 229.1,
+      "net_leverage": 3.52,
+      "interest_coverage": 4.44
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 82.0,
+      "ebitda": 80.0,
+      "ebitda_margin_pct": 97.6,
+      "cfo": 66.3,
+      "capex": 29.8,
+      "fcf": 36.5,
+      "cash": 52.5,
+      "gross_debt": 292.6,
+      "net_debt": 240.1,
+      "net_leverage": 3.0,
+      "interest_coverage": 4.37
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 92.0,
+      "ebitda": 90.0,
+      "ebitda_margin_pct": 97.8,
+      "cfo": 74.8,
+      "capex": 33.2,
+      "fcf": 41.6,
+      "cash": 63.8,
+      "gross_debt": 311.6,
+      "net_debt": 247.8,
+      "net_leverage": 2.75,
+      "interest_coverage": 4.1
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 100.0,
+      "ebitda": 100.0,
+      "ebitda_margin_pct": 100.0,
+      "cfo": 85.0,
+      "capex": 35.0,
+      "fcf": 50.0,
+      "cash": 75.0,
+      "gross_debt": 318.0,
+      "net_debt": 243.0,
+      "net_leverage": 2.43,
+      "interest_coverage": 4.1
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 108.0,
+      "ebitda": 110.0,
+      "ebitda_margin_pct": 101.9,
+      "cfo": 93.5,
+      "capex": 36.8,
+      "fcf": 56.7,
+      "cash": 88.5,
+      "gross_debt": 311.6,
+      "net_debt": 223.1,
+      "net_leverage": 2.03,
+      "interest_coverage": 4.7
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 115.0,
+      "ebitda": 118.0,
+      "ebitda_margin_pct": 102.6,
+      "cfo": 100.3,
+      "capex": 35.7,
+      "fcf": 64.6,
+      "cash": 101.2,
+      "gross_debt": 302.1,
+      "net_debt": 200.9,
+      "net_leverage": 1.7,
+      "interest_coverage": 5.26
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 120.0,
+      "ebitda": 124.0,
+      "ebitda_margin_pct": 103.3,
+      "cfo": 106.2,
+      "capex": 34.3,
+      "fcf": 71.9,
+      "cash": 112.5,
+      "gross_debt": 286.2,
+      "net_debt": 173.7,
+      "net_leverage": 1.4,
+      "interest_coverage": 5.78
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 4.5,
+    "lifting_cost_usd_per_boe": 14.5,
+    "realized_price_usd_per_bbl": 76.5,
+    "reserve_life_2p_years": 14.2,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 29.2,
+    "2026": 48.6,
+    "2027": 68.0,
+    "2028": 43.7,
+    "2029": 29.2,
+    "2030_plus": 24.3,
+    "total_outstanding_usd_m": 243.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 68.0,
+    "base_case_px": 102.0,
+    "recovery_floor_pct": 68.0,
+    "recovery_base_pct": 102.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "650,000 bpd coastal mega-refinery; eliminates Nigerian fuel import dependency; target $3.5B run-rate EBITDA."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond DANREF 12.50% 2029 trading at 95.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "dangote_ref",
+      "issuer_name": "Dangote Refinery",
+      "sector": "Energy",
+      "topic": "Offshore Escrow & Debt Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "Crude export proceeds flow through dedicated offshore collection accounts; debt service for Eurobonds and pre-export facilities is carved out prior to fiscal transfers."
+    },
+    {
+      "issuer_id": "dangote_ref",
+      "issuer_name": "Dangote Refinery",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even",
+      "source": "Wood Mackenzie / Company Filings",
+      "note": "Low cash lifting costs ($8-$16/boe) protect operating margins even in an extended $55/bbl Brent stress scenario."
+    },
+    {
+      "issuer_id": "dangote_ref",
+      "issuer_name": "Dangote Refinery",
+      "sector": "Energy",
+      "topic": "Reserve Replacement (1P/2P)",
+      "source": "Independent Petroleum Engineers",
+      "note": "2P commercial reserve life of 12-16 years provides durable operational runway for debt repayment."
+    }
+  ]
+}

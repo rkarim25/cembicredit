@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zero-AI Trend Engine | CEMBI Credit Master Platform</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/issuers_data.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="brand-logo">CEMBI</div>
+      <div>
+        <div class="brand-title">Zero-AI Trend Engine</div>
+        <div class="brand-subtitle">Real-Time Multi-Year Time Series Analysis | Sub-5ms Client Execution</div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="nav-link">Comp Sheet & Screener</a>
+      <a href="trends.html" class="nav-link active">Zero-AI Trends</a>
+      <a href="notes.html" class="nav-link">Intelligence Footnotes</a>
+      <a href="https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEMBI_Master_Comp_Sheet.xlsx" class="btn-action btn-primary" download>
+        📊 Master Comp Sheet (.xlsx)
+      </a>
+      <a href="https://github.com/rkarim25/cembicredit" class="btn-action" target="_blank">
+        GitHub Repo
+      </a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="filter-card">
+      <div class="filter-group">
+        <span style="font-weight:700; color:#fff;">Select Sector Peer Group:</span>
+        <select id="trend-sector" class="filter-input">
+          <!-- Populated dynamically -->
+        </select>
+        <span style="font-weight:700; color:#fff; margin-left:12px;">Financial Metric:</span>
+        <select id="trend-metric" class="filter-input">
+          <option value="net_leverage">Net Leverage Ratio (x)</option>
+          <option value="ebitda_margin_pct">EBITDA Margin (%)</option>
+          <option value="revenue">Revenue ($M)</option>
+          <option value="ebitda">EBITDA ($M)</option>
+          <option value="fcf">Free Cash Flow ($M)</option>
+          <option value="interest_coverage">Interest Coverage (x)</option>
+          <option value="nim_pct">Net Interest Margin (%) - Banks</option>
+          <option value="roe_pct">Return on Equity (%) - Banks</option>
+          <option value="cir_pct">Cost-to-Income Ratio (%) - Banks</option>
+        </select>
+      </div>
+      <div style="font-size:11px; color:var(--text-dim);">
+        Data spans 2021A - 2027E (Historical Audited Statements + Institutional Projections).
+      </div>
+    </div>
+
+    <!-- Chart Card -->
+    <div class="chart-container">
+      <div class="chart-header">
+        <div class="chart-title">Multi-Period Sector Trajectory (2021A - 2027E)</div>
+        <div style="font-size:11px; color:var(--text-muted);">Hover data points to inspect qualitative analyst annotations.</div>
+      </div>
+      <div style="position:relative; height:420px; width:100%;">
+        <canvas id="trendCanvas"></canvas>
+      </div>
+    </div>
+
+    <!-- Sector Qualitative Annotations -->
+    <h3 style="font-size:14px; margin-bottom:12px; color:#fff;">Key Analyst Notes &amp; Data Inflection Points for Selected Sector</h3>
+    <div id="trend-sector-notes" class="notes-grid">
+      <!-- Populated dynamically -->
+    </div>
+
+  </div>
+
+</body>
+</html>

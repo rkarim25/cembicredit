@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "id": "binghatti",
+    "name": "Binghatti Holding",
+    "ticker": "BINGHA",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Real Estate",
+    "type": "corp",
+    "rating": "B+ / B",
+    "tier": "B",
+    "benchmark_bond": "BINGHA 8.85% 2027",
+    "price": 101.5,
+    "ytm": 8.85,
+    "spread_bp": 480,
+    "model_file": "Binghatti_Credit_Model.xlsx",
+    "notion_id": "3e01d0ad68c6812dbacdd897773b09d9",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Binghatti_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 850.0,
+      "ebitda": 247.0,
+      "ebitda_margin_pct": 29.1,
+      "cfo": 200.3,
+      "capex": 93.1,
+      "fcf": 107.2,
+      "cash": 156.8,
+      "gross_debt": 529.7,
+      "net_debt": 372.9,
+      "net_leverage": 1.51,
+      "interest_coverage": 6.06
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1025.0,
+      "ebitda": 304.0,
+      "ebitda_margin_pct": 29.7,
+      "cfo": 251.9,
+      "capex": 113.0,
+      "fcf": 138.9,
+      "cash": 199.5,
+      "gross_debt": 573.3,
+      "net_debt": 373.8,
+      "net_leverage": 1.23,
+      "interest_coverage": 5.96
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1150.0,
+      "ebitda": 342.0,
+      "ebitda_margin_pct": 29.7,
+      "cfo": 284.2,
+      "capex": 126.3,
+      "fcf": 157.9,
+      "cash": 242.2,
+      "gross_debt": 610.7,
+      "net_debt": 368.5,
+      "net_leverage": 1.08,
+      "interest_coverage": 5.59
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 1250.0,
+      "ebitda": 380.0,
+      "ebitda_margin_pct": 30.4,
+      "cfo": 323.0,
+      "capex": 133.0,
+      "fcf": 190.0,
+      "cash": 285.0,
+      "gross_debt": 623.2,
+      "net_debt": 338.2,
+      "net_leverage": 0.89,
+      "interest_coverage": 5.59
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 1350.0,
+      "ebitda": 418.0,
+      "ebitda_margin_pct": 31.0,
+      "cfo": 355.3,
+      "capex": 139.7,
+      "fcf": 215.6,
+      "cash": 336.3,
+      "gross_debt": 610.7,
+      "net_debt": 274.4,
+      "net_leverage": 0.66,
+      "interest_coverage": 6.41
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1437.5,
+      "ebitda": 448.4,
+      "ebitda_margin_pct": 31.2,
+      "cfo": 381.1,
+      "capex": 135.7,
+      "fcf": 245.4,
+      "cash": 384.8,
+      "gross_debt": 592.0,
+      "net_debt": 207.2,
+      "net_leverage": 0.46,
+      "interest_coverage": 7.17
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1500.0,
+      "ebitda": 471.2,
+      "ebitda_margin_pct": 31.4,
+      "cfo": 403.8,
+      "capex": 130.3,
+      "fcf": 273.5,
+      "cash": 427.5,
+      "gross_debt": 560.9,
+      "net_debt": 133.4,
+      "net_leverage": 0.28,
+      "interest_coverage": 7.88
+    }
+  ],
+  "supplementary_data": {
+    "presales_run_rate_usd_m": 1687.5,
+    "rera_escrow_balance_usd_m": 562.5,
+    "unrestricted_cash_usd_m": 250.0,
+    "backlog_revenue_usd_m": 3500.0,
+    "land_bank_gfa_sqft": "30.8M sq ft",
+    "collection_efficiency_pct": 91.5,
+    "handover_units_annual": 2750
+  },
+  "debt_maturities": {
+    "2025": 45.0,
+    "2026": 75.0,
+    "2027": 400.0,
+    "2028": 50.0,
+    "2029": 20.0,
+    "2030_plus": 0.0,
+    "total_outstanding_usd_m": 590.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 68.0,
+    "base_case_px": 101.5,
+    "recovery_floor_pct": 68.0,
+    "recovery_base_pct": 101.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "FORENSIC FOCUS: $400M 2027 Sukuk covered by $280M cash + $380M RERA escrow profit releases upon handover; 0.89x net debt."
+  },
+  "timeline": [
+    {
+      "date": "Feb 2024",
+      "event": "Issued $300M 9.625% inaugural 3-year Sukuk due Feb 2027 (oversubscribed 2.1x)."
+    },
+    {
+      "date": "Jun 2024",
+      "event": "Tapped Sukuk for additional $100M at 9.25% yield, bringing total benchmark tranche to $400M."
+    },
+    {
+      "date": "Nov 2024",
+      "event": "Launched Bugatti Residences and Mercedes-Benz Places luxury towers with >85% sell-out on day 1."
+    },
+    {
+      "date": "2025-H1",
+      "event": "RERA escrow accounts accumulate $340M+ in protected cash backing active development deliveries."
+    },
+    {
+      "date": "Feb 2027",
+      "event": "Scheduled $400M Sukuk bullet maturity; cash flow waterfall shows $680M available cash (1.70x coverage)."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "binghatti",
+      "issuer_name": "Binghatti Holding",
+      "sector": "Real Estate",
+      "topic": "RERA Escrow Mechanics",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Cash includes project-specific escrow accounts governed by Dubai Law No. 8 of 2007. Funds are strictly released against engineer-certified construction milestones, preventing structural leakage for bond service."
+    },
+    {
+      "issuer_id": "binghatti",
+      "issuer_name": "Binghatti Holding",
+      "sector": "Real Estate",
+      "topic": "Presales & Revenue Backlog",
+      "source": "Broker Consensus / Earnings Call",
+      "note": "Off-plan presales recognized under IFRS 15 percentage-of-completion. Strong revenue backlog provides 2.5-3.0 years of forward revenue visibility."
+    },
+    {
+      "issuer_id": "binghatti",
+      "issuer_name": "Binghatti Holding",
+      "sector": "Real Estate",
+      "topic": "Land Bank Valuation",
+      "source": "CBRE / JLL Independent Valuation",
+      "note": "Land bank held at historical cost minus impairment; market value provides a substantial 2.5x - 4.0x asset coverage cushion above senior debt book values."
+    }
+  ]
+}

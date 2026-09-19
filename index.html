@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEMBI Credit Master Platform | Institutional Research Vault</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/issuers_data.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="brand-logo">CEMBI</div>
+      <div>
+        <div class="brand-title">CEMBI Credit Master Platform</div>
+        <div class="brand-subtitle">52 CEEMEA Corporate & Bank Models | 7-Year Multi-Period History (2021A-2027E)</div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="nav-link active">Comp Sheet & Screener</a>
+      <a href="trends.html" class="nav-link">Zero-AI Trends</a>
+      <a href="notes.html" class="nav-link">Intelligence Footnotes</a>
+      <a href="https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEMBI_Master_Comp_Sheet.xlsx" class="btn-action btn-primary" download>
+        📊 Master Comp Sheet (.xlsx)
+      </a>
+      <a href="https://github.com/rkarim25/cembicredit" class="btn-action" target="_blank">
+        GitHub Repo
+      </a>
+    </nav>
+  </header>
+
+  <div class="container">
+    
+    <!-- Top KPI Grid -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Coverage Universe</div>
+        <div class="kpi-value" id="kpi-total">52</div>
+        <div class="kpi-sub">38 Corporates | 14 Banks</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Median Benchmark Yield</div>
+        <div class="kpi-value" id="kpi-ytm" style="color:var(--accent-gold);">--</div>
+        <div class="kpi-sub">US Treasury UST 10Y: 4.05%</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Median Credit Spread</div>
+        <div class="kpi-value" id="kpi-spread" style="color:var(--accent-blue);">--</div>
+        <div class="kpi-sub">CEMBI CEEMEA Benchmark</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Distress & Special Situations</div>
+        <div class="kpi-value" id="kpi-distress" style="color:var(--accent-red);">--</div>
+        <div class="kpi-sub">Spreads &gt; 600 bp</div>
+      </div>
+    </div>
+
+    <!-- Multi-Factor Filter Card -->
+    <div class="filter-card">
+      <div class="filter-group">
+        <div class="tab-switcher">
+          <button id="tab-corp" class="tab-btn active" onclick="switchTab('corp')">Corporates (38)</button>
+          <button id="tab-bank" class="tab-btn" onclick="switchTab('bank')">Banks (14)</button>
+        </div>
+        <input type="text" id="search-input" class="filter-input" placeholder="Search ticker, name, bond...">
+        <select id="sector-select" class="filter-input">
+          <option value="">All Sectors</option>
+        </select>
+        <select id="country-select" class="filter-input">
+          <option value="">All Countries</option>
+        </select>
+        <select id="rating-select" class="filter-input">
+          <option value="">All Ratings</option>
+          <option value="BBB">Investment Grade (BBB/A)</option>
+          <option value="BB">Crossover / BB</option>
+          <option value="B">High Yield / B</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <div class="slider-group">
+          <span>Max Net Lev:</span>
+          <input type="range" id="max-leverage" min="0.5" max="8.0" step="0.5" value="8.0">
+          <span id="leverage-val" style="color:#fff; font-weight:700;">8.0x</span>
+        </div>
+        <div class="slider-group">
+          <span>Min Spread:</span>
+          <input type="range" id="min-spread" min="50" max="1000" step="50" value="50">
+          <span id="spread-val" style="color:#fff; font-weight:700;">+50bp</span>
+        </div>
+        <button class="btn-action" onclick="exportFilteredCSV()">📥 Export CSV</button>
+      </div>
+    </div>
+
+    <!-- Table Meta Bar -->
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+      <div id="match-count" style="color:var(--text-dim); font-size:12px; font-weight:600;">--</div>
+      <div style="color:var(--text-dim); font-size:11px;">Click any row to view 7-year multi-period financials &amp; footnotes.</div>
+    </div>
+
+    <!-- Master Comp Sheet Table -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th onclick="sortTable('ticker')">Ticker</th>
+            <th onclick="sortTable('name')">Issuer Name</th>
+            <th onclick="sortTable('country')">Country</th>
+            <th onclick="sortTable('sector')">Sector</th>
+            <th onclick="sortTable('rating')">Rating</th>
+            <th>Benchmark Bond</th>
+            <th class="num" onclick="sortTable('price')">Price</th>
+            <th class="num" onclick="sortTable('ytm')">YTM</th>
+            <th class="num" onclick="sortTable('spread_bp')">Spread</th>
+            
+            <!-- Corporate Columns -->
+            <th class="num th-corp" onclick="sortTable('revenue')">2024A Rev</th>
+            <th class="num th-corp" onclick="sortTable('ebitda')">2024A EBITDA</th>
+            <th class="num th-corp" onclick="sortTable('ebitda_margin_pct')">Margin</th>
+            <th class="num th-corp" onclick="sortTable('net_leverage')">24A NL</th>
+            <th class="num th-corp">25E NL</th>
+            <th class="num th-corp" onclick="sortTable('interest_coverage')">24A Cov</th>
+            <th class="num th-corp">Floor Px</th>
+            <th class="num th-corp">Base Px</th>
+            
+            <!-- Bank Columns -->
+            <th class="num th-bank" style="display:none;" onclick="sortTable('assets')">Assets</th>
+            <th class="num th-bank" style="display:none;" onclick="sortTable('loans')">Gross Loans</th>
+            <th class="num th-bank" style="display:none;" onclick="sortTable('deposits')">Deposits</th>
+            <th class="num th-bank" style="display:none;" onclick="sortTable('nii')">NII</th>
+            <th class="num th-bank" style="display:none;" onclick="sortTable('nim_pct')">NIM %</th>
+            <th class="num th-bank" style="display:none;" onclick="sortTable('cir_pct')">CIR %</th>
+            <th class="num th-bank" style="display:none;" onclick="sortTable('roe_pct')">ROE %</th>
+            <th class="num th-bank" style="display:none;" onclick="sortTable('npl_pct')">NPL %</th>
+            <th class="num th-bank" style="display:none;" onclick="sortTable('car_pct')">CAR %</th>
+            
+            <th style="text-align:center;">Model Vault</th>
+          </tr>
+        </thead>
+        <tbody id="issuers-tbody">
+          <!-- Populated by app.js -->
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "sisecam",
+    "name": "Şişecam",
+    "ticker": "SISE",
+    "country": "Turkey",
+    "region": "CEEMEA",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BB- / B1",
+    "tier": "BB",
+    "benchmark_bond": "SISETR 6.85% 2029",
+    "price": 99.5,
+    "ytm": 6.85,
+    "spread_bp": 245,
+    "model_file": "Sisecam_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681d7b10bd431e8514935",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sisecam_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 3740.0,
+      "ebitda": 715.0,
+      "ebitda_margin_pct": 19.1,
+      "cfo": 579.7,
+      "capex": 269.5,
+      "fcf": 310.2,
+      "cash": 453.8,
+      "gross_debt": 2739.5,
+      "net_debt": 2285.7,
+      "net_leverage": 3.2,
+      "interest_coverage": 5.85
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 4510.0,
+      "ebitda": 880.0,
+      "ebitda_margin_pct": 19.5,
+      "cfo": 729.3,
+      "capex": 327.2,
+      "fcf": 402.1,
+      "cash": 577.5,
+      "gross_debt": 2965.2,
+      "net_debt": 2387.7,
+      "net_leverage": 2.71,
+      "interest_coverage": 5.76
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 5060.0,
+      "ebitda": 990.0,
+      "ebitda_margin_pct": 19.6,
+      "cfo": 822.8,
+      "capex": 365.8,
+      "fcf": 457.0,
+      "cash": 701.2,
+      "gross_debt": 3158.5,
+      "net_debt": 2457.3,
+      "net_leverage": 2.48,
+      "interest_coverage": 5.4
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 5500.0,
+      "ebitda": 1100.0,
+      "ebitda_margin_pct": 20.0,
+      "cfo": 935.0,
+      "capex": 385.0,
+      "fcf": 550.0,
+      "cash": 825.0,
+      "gross_debt": 3223.0,
+      "net_debt": 2398.0,
+      "net_leverage": 2.18,
+      "interest_coverage": 5.4
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 5940.0,
+      "ebitda": 1210.0,
+      "ebitda_margin_pct": 20.4,
+      "cfo": 1028.5,
+      "capex": 404.2,
+      "fcf": 624.3,
+      "cash": 973.5,
+      "gross_debt": 3158.5,
+      "net_debt": 2185.0,
+      "net_leverage": 1.81,
+      "interest_coverage": 6.19
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 6325.0,
+      "ebitda": 1298.0,
+      "ebitda_margin_pct": 20.5,
+      "cfo": 1103.3,
+      "capex": 392.7,
+      "fcf": 710.6,
+      "cash": 1113.8,
+      "gross_debt": 3061.8,
+      "net_debt": 1948.0,
+      "net_leverage": 1.5,
+      "interest_coverage": 6.93
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 6600.0,
+      "ebitda": 1364.0,
+      "ebitda_margin_pct": 20.7,
+      "cfo": 1168.8,
+      "capex": 377.3,
+      "fcf": 791.5,
+      "cash": 1237.5,
+      "gross_debt": 2900.7,
+      "net_debt": 1663.2,
+      "net_leverage": 1.22,
+      "interest_coverage": 7.61
+    }
+  ],
+  "supplementary_data": {
+    "production_capacity_mtpa": 19.0,
+    "hard_currency_export_pct": 78.0,
+    "cash_cost_quartile": "Q1 Global Low Cost",
+    "expansion_capex_usd_m": 660.0
+  },
+  "debt_maturities": {
+    "2025": 287.8,
+    "2026": 479.6,
+    "2027": 671.4,
+    "2028": 431.6,
+    "2029": 287.8,
+    "2030_plus": 239.8,
+    "total_outstanding_usd_m": 2398.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 78.0,
+    "base_case_px": 102.0,
+    "recovery_floor_pct": 78.0,
+    "recovery_base_pct": 102.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Global glassware/soda ash titan; 65% export revenues; lowest-cost Wyoming natural trona assets."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond SISETR 6.85% 2029 trading at 99.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "sisecam",
+      "issuer_name": "Şişecam",
+      "sector": "Materials",
+      "topic": "Global Cost Curve Position",
+      "source": "Cognitive Credit / Industry Benchmark",
+      "note": "Producer occupies the first quartile (Q1) of the global cash cost curve, securing cash generation across cyclical commodity troughs."
+    },
+    {
+      "issuer_id": "sisecam",
+      "issuer_name": "Şişecam",
+      "sector": "Materials",
+      "topic": "Export Hard-Currency Revenue",
+      "source": "Financial Statements",
+      "note": ">70% of revenues billed in USD/EUR, providing natural hard currency hedge against local currency operating expenses."
+    },
+    {
+      "issuer_id": "sisecam",
+      "issuer_name": "Şişecam",
+      "sector": "Materials",
+      "topic": "Sovereign Strategic Asset",
+      "source": "Credit Rating Agency Memo",
+      "note": "Vital foreign exchange earner and national champion; implied sovereign support and infrastructure integration provide strong recovery floor."
+    }
+  ]
+}

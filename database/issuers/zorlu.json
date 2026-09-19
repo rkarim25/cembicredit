@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "zorlu",
+    "name": "Zorlu Enerji",
+    "ticker": "ZOREN",
+    "country": "Turkey",
+    "region": "CEEMEA",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "B- / CCC+",
+    "tier": "B",
+    "benchmark_bond": "ZOREN 9.00% 2026",
+    "price": 94.5,
+    "ytm": 11.2,
+    "spread_bp": 680,
+    "model_file": "Zorlu_Enerji_Model.xlsx",
+    "notion_id": "3df1d0ad68c6814f921ef33f2b2f199b",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Zorlu_Enerji_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 816.0,
+      "ebitda": 208.0,
+      "ebitda_margin_pct": 25.5,
+      "cfo": 168.6,
+      "capex": 78.4,
+      "fcf": 90.2,
+      "cash": 132.0,
+      "gross_debt": 1515.0,
+      "net_debt": 1383.0,
+      "net_leverage": 6.65,
+      "interest_coverage": 2.3
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 984.0,
+      "ebitda": 256.0,
+      "ebitda_margin_pct": 26.0,
+      "cfo": 212.2,
+      "capex": 95.2,
+      "fcf": 117.0,
+      "cash": 168.0,
+      "gross_debt": 1639.8,
+      "net_debt": 1471.8,
+      "net_leverage": 5.75,
+      "interest_coverage": 2.26
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1104.0,
+      "ebitda": 288.0,
+      "ebitda_margin_pct": 26.1,
+      "cfo": 239.4,
+      "capex": 106.4,
+      "fcf": 133.0,
+      "cash": 204.0,
+      "gross_debt": 1746.8,
+      "net_debt": 1542.8,
+      "net_leverage": 5.36,
+      "interest_coverage": 2.12
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 1200.0,
+      "ebitda": 320.0,
+      "ebitda_margin_pct": 26.7,
+      "cfo": 272.0,
+      "capex": 112.0,
+      "fcf": 160.0,
+      "cash": 240.0,
+      "gross_debt": 1782.4,
+      "net_debt": 1542.4,
+      "net_leverage": 4.82,
+      "interest_coverage": 2.12
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 1296.0,
+      "ebitda": 352.0,
+      "ebitda_margin_pct": 27.2,
+      "cfo": 299.2,
+      "capex": 117.6,
+      "fcf": 181.6,
+      "cash": 283.2,
+      "gross_debt": 1746.8,
+      "net_debt": 1463.6,
+      "net_leverage": 4.16,
+      "interest_coverage": 2.43
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1380.0,
+      "ebitda": 377.6,
+      "ebitda_margin_pct": 27.4,
+      "cfo": 321.0,
+      "capex": 114.2,
+      "fcf": 206.8,
+      "cash": 324.0,
+      "gross_debt": 1693.3,
+      "net_debt": 1369.3,
+      "net_leverage": 3.63,
+      "interest_coverage": 2.72
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1440.0,
+      "ebitda": 396.8,
+      "ebitda_margin_pct": 27.6,
+      "cfo": 340.0,
+      "capex": 109.8,
+      "fcf": 230.2,
+      "cash": 360.0,
+      "gross_debt": 1604.2,
+      "net_debt": 1244.2,
+      "net_leverage": 3.14,
+      "interest_coverage": 2.99
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 2160.0,
+    "generation_volume_gwh": 7800.0,
+    "renewable_capacity_pct": 68.0,
+    "fx_indexed_tariffs_pct": 78.5,
+    "capacity_utilization_factor_pct": 52.0
+  },
+  "debt_maturities": {
+    "2025": 185.1,
+    "2026": 308.5,
+    "2027": 431.9,
+    "2028": 277.6,
+    "2029": 185.1,
+    "2030_plus": 154.2,
+    "total_outstanding_usd_m": 1542.4
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 58.0,
+    "base_case_px": 95.0,
+    "recovery_floor_pct": 58.0,
+    "recovery_base_pct": 95.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "High geothermal/hydro cash margins; AlJomaih asset divestment and deleveraging underway."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond ZOREN 9.00% 2026 trading at 94.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "zorlu",
+      "issuer_name": "Zorlu Enerji",
+      "sector": "Utilities",
+      "topic": "Feed-in Tariff (YEKDEM/PPA)",
+      "source": "Cognitive Credit / Citi",
+      "note": "Electricity sales benefit from long-term USD/EUR guaranteed feed-in tariffs, providing predictable cash flow and hard currency debt service coverage."
+    },
+    {
+      "issuer_id": "zorlu",
+      "issuer_name": "Zorlu Enerji",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & Grid Connection",
+      "source": "Company Filings",
+      "note": "Capital expenditures peak in 2024-2025 as new solar and wind capacity comes online; FCF inflects materially positive in 2026-2027."
+    },
+    {
+      "issuer_id": "zorlu",
+      "issuer_name": "Zorlu Enerji",
+      "sector": "Utilities",
+      "topic": "Regulatory Asset Base (RAB)",
+      "source": "EMRA Regulatory Tariff Determination",
+      "note": "Regulated asset base inflation-adjusted with guaranteed real return on invested capital ensuring defensive margin floors."
+    }
+  ]
+}

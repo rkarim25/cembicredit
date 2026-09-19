@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "id": "aldar",
+    "name": "Aldar Properties",
+    "ticker": "ALDAR",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Real Estate",
+    "type": "corp",
+    "rating": "BBB- / Baa2",
+    "tier": "IG",
+    "benchmark_bond": "ALDAR 5.25% 2029",
+    "price": 100.1,
+    "ytm": 5.25,
+    "spread_bp": 105,
+    "model_file": "Aldar_Properties_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aldar_Properties_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 2652.0,
+      "ebitda": 1007.5,
+      "ebitda_margin_pct": 38.0,
+      "cfo": 816.9,
+      "capex": 379.8,
+      "fcf": 437.1,
+      "cash": 639.4,
+      "gross_debt": 1660.0,
+      "net_debt": 1020.6,
+      "net_leverage": 1.01,
+      "interest_coverage": 8.02
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 3198.0,
+      "ebitda": 1240.0,
+      "ebitda_margin_pct": 38.8,
+      "cfo": 1027.7,
+      "capex": 461.1,
+      "fcf": 566.6,
+      "cash": 813.8,
+      "gross_debt": 1796.8,
+      "net_debt": 983.0,
+      "net_leverage": 0.79,
+      "interest_coverage": 7.89
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 3588.0,
+      "ebitda": 1395.0,
+      "ebitda_margin_pct": 38.9,
+      "cfo": 1159.4,
+      "capex": 515.4,
+      "fcf": 644.0,
+      "cash": 988.1,
+      "gross_debt": 1913.9,
+      "net_debt": 925.8,
+      "net_leverage": 0.66,
+      "interest_coverage": 7.4
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 3900.0,
+      "ebitda": 1550.0,
+      "ebitda_margin_pct": 39.7,
+      "cfo": 1317.5,
+      "capex": 542.5,
+      "fcf": 775.0,
+      "cash": 1162.5,
+      "gross_debt": 1953.0,
+      "net_debt": 790.5,
+      "net_leverage": 0.51,
+      "interest_coverage": 7.4
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 4212.0,
+      "ebitda": 1705.0,
+      "ebitda_margin_pct": 40.5,
+      "cfo": 1449.3,
+      "capex": 569.6,
+      "fcf": 879.7,
+      "cash": 1371.8,
+      "gross_debt": 1913.9,
+      "net_debt": 542.1,
+      "net_leverage": 0.32,
+      "interest_coverage": 8.48
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 4485.0,
+      "ebitda": 1829.0,
+      "ebitda_margin_pct": 40.8,
+      "cfo": 1554.6,
+      "capex": 553.4,
+      "fcf": 1001.2,
+      "cash": 1569.4,
+      "gross_debt": 1855.3,
+      "net_debt": 285.9,
+      "net_leverage": 0.16,
+      "interest_coverage": 9.49
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 4680.0,
+      "ebitda": 1922.0,
+      "ebitda_margin_pct": 41.1,
+      "cfo": 1646.9,
+      "capex": 531.6,
+      "fcf": 1115.3,
+      "cash": 1743.8,
+      "gross_debt": 1757.7,
+      "net_debt": 13.9,
+      "net_leverage": 0.01,
+      "interest_coverage": 10.43
+    }
+  ],
+  "supplementary_data": {
+    "presales_run_rate_usd_m": 5265.0,
+    "rera_escrow_balance_usd_m": 1755.0,
+    "unrestricted_cash_usd_m": 780.0,
+    "backlog_revenue_usd_m": 10920.0,
+    "land_bank_gfa_sqft": "70.5M sq ft",
+    "collection_efficiency_pct": 91.5,
+    "handover_units_annual": 8580
+  },
+  "debt_maturities": {
+    "2025": 94.9,
+    "2026": 158.1,
+    "2027": 221.3,
+    "2028": 142.3,
+    "2029": 94.9,
+    "2030_plus": 79.1,
+    "total_outstanding_usd_m": 790.6
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 78.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 78.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Abu Dhabi sovereign master developer; recurring rental income covers interest by 4x; Alpha Dhabi backing."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond ALDAR 5.25% 2029 trading at 100.1."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "aldar",
+      "issuer_name": "Aldar Properties",
+      "sector": "Real Estate",
+      "topic": "RERA Escrow Mechanics",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Cash includes project-specific escrow accounts governed by Dubai Law No. 8 of 2007. Funds are strictly released against engineer-certified construction milestones, preventing structural leakage for bond service."
+    },
+    {
+      "issuer_id": "aldar",
+      "issuer_name": "Aldar Properties",
+      "sector": "Real Estate",
+      "topic": "Presales & Revenue Backlog",
+      "source": "Broker Consensus / Earnings Call",
+      "note": "Off-plan presales recognized under IFRS 15 percentage-of-completion. Strong revenue backlog provides 2.5-3.0 years of forward revenue visibility."
+    },
+    {
+      "issuer_id": "aldar",
+      "issuer_name": "Aldar Properties",
+      "sector": "Real Estate",
+      "topic": "Land Bank Valuation",
+      "source": "CBRE / JLL Independent Valuation",
+      "note": "Land bank held at historical cost minus impairment; market value provides a substantial 2.5x - 4.0x asset coverage cushion above senior debt book values."
+    }
+  ]
+}

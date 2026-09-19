@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "mhp",
+    "name": "MHP SE",
+    "ticker": "MHPSA",
+    "country": "Ukraine",
+    "region": "CEEMEA",
+    "sector": "Consumer",
+    "type": "corp",
+    "rating": "CCC+ / Caa2",
+    "tier": "CCC",
+    "benchmark_bond": "MHP 13.10% 2026",
+    "price": 82.5,
+    "ytm": 13.1,
+    "spread_bp": 875,
+    "model_file": "MHP_SE_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681489868f2bb1608ed64",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MHP_SE_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 2108.0,
+      "ebitda": 299.0,
+      "ebitda_margin_pct": 14.2,
+      "cfo": 242.4,
+      "capex": 112.7,
+      "fcf": 129.7,
+      "cash": 189.8,
+      "gross_debt": 1423.2,
+      "net_debt": 1233.4,
+      "net_leverage": 4.13,
+      "interest_coverage": 3.83
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 2542.0,
+      "ebitda": 368.0,
+      "ebitda_margin_pct": 14.5,
+      "cfo": 305.0,
+      "capex": 136.8,
+      "fcf": 168.2,
+      "cash": 241.5,
+      "gross_debt": 1540.4,
+      "net_debt": 1298.9,
+      "net_leverage": 3.53,
+      "interest_coverage": 3.78
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 2852.0,
+      "ebitda": 414.0,
+      "ebitda_margin_pct": 14.5,
+      "cfo": 344.1,
+      "capex": 152.9,
+      "fcf": 191.2,
+      "cash": 293.2,
+      "gross_debt": 1640.9,
+      "net_debt": 1347.7,
+      "net_leverage": 3.26,
+      "interest_coverage": 3.54
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 3100.0,
+      "ebitda": 460.0,
+      "ebitda_margin_pct": 14.8,
+      "cfo": 391.0,
+      "capex": 161.0,
+      "fcf": 230.0,
+      "cash": 345.0,
+      "gross_debt": 1674.4,
+      "net_debt": 1329.4,
+      "net_leverage": 2.89,
+      "interest_coverage": 3.54
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 3348.0,
+      "ebitda": 506.0,
+      "ebitda_margin_pct": 15.1,
+      "cfo": 430.1,
+      "capex": 169.1,
+      "fcf": 261.0,
+      "cash": 407.1,
+      "gross_debt": 1640.9,
+      "net_debt": 1233.8,
+      "net_leverage": 2.44,
+      "interest_coverage": 4.06
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 3565.0,
+      "ebitda": 542.8,
+      "ebitda_margin_pct": 15.2,
+      "cfo": 461.4,
+      "capex": 164.2,
+      "fcf": 297.2,
+      "cash": 465.8,
+      "gross_debt": 1590.7,
+      "net_debt": 1124.9,
+      "net_leverage": 2.07,
+      "interest_coverage": 4.54
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 3720.0,
+      "ebitda": 570.4,
+      "ebitda_margin_pct": 15.3,
+      "cfo": 488.8,
+      "capex": 157.8,
+      "fcf": 331.0,
+      "cash": 517.5,
+      "gross_debt": 1507.0,
+      "net_debt": 989.5,
+      "net_leverage": 1.73,
+      "interest_coverage": 4.99
+    }
+  ],
+  "supplementary_data": {
+    "hard_currency_revenue_pct": 65.0,
+    "concession_life_years": 28.0,
+    "contracted_backlog_usd_m": 6820.0,
+    "utilization_rate_pct": 82.0
+  },
+  "debt_maturities": {
+    "2025": 159.5,
+    "2026": 265.9,
+    "2027": 372.2,
+    "2028": 239.3,
+    "2029": 159.5,
+    "2030_plus": 132.9,
+    "total_outstanding_usd_m": 1329.3
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 50.0,
+    "base_case_px": 90.0,
+    "recovery_floor_pct": 50.0,
+    "recovery_base_pct": 90.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
+    "thesis": "Europe's lowest-cost poultry producer; 360k ha arable land; Perutnina Ptuj generating offshore EU cash flow."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond MHP 13.10% 2026 trading at 82.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "mhp",
+      "issuer_name": "MHP SE",
+      "sector": "Consumer",
+      "topic": "Working Capital & Export Moat",
+      "source": "Cognitive Credit / Broker Note",
+      "note": "Vertical integration and proprietary supply chain protect gross margins; grain/poultry export revenues in USD/EUR outpace local inflation."
+    },
+    {
+      "issuer_id": "mhp",
+      "issuer_name": "MHP SE",
+      "sector": "Consumer",
+      "topic": "Geopolitical Transmission",
+      "source": "Macro Risk Assessment",
+      "note": "Dedicated logistics corridors and diversified processing hubs mitigate regional supply disruption risks."
+    },
+    {
+      "issuer_id": "mhp",
+      "issuer_name": "MHP SE",
+      "sector": "Consumer",
+      "topic": "Deleveraging Trajectory",
+      "source": "Company Guidance",
+      "note": "Discretionary growth capex trimmed to prioritize free cash flow conversion and senior debt deleveraging."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "id": "sobha",
+    "name": "Sobha Realty",
+    "ticker": "SOBHA",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Real Estate",
+    "type": "corp",
+    "rating": "BB- / Ba3",
+    "tier": "BB",
+    "benchmark_bond": "SOBHA 7.95% 2028",
+    "price": 102.0,
+    "ytm": 7.95,
+    "spread_bp": 390,
+    "model_file": "Sobha_Realty_Credit_Model.xlsx",
+    "notion_id": "3e01d0ad68c6814fa4cfff9fdb4e339d",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sobha_Realty_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 1122.0,
+      "ebitda": 312.0,
+      "ebitda_margin_pct": 27.8,
+      "cfo": 253.0,
+      "capex": 117.6,
+      "fcf": 135.4,
+      "cash": 198.0,
+      "gross_debt": 644.6,
+      "net_debt": 446.6,
+      "net_leverage": 1.43,
+      "interest_coverage": 6.34
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1353.0,
+      "ebitda": 384.0,
+      "ebitda_margin_pct": 28.4,
+      "cfo": 318.2,
+      "capex": 142.8,
+      "fcf": 175.4,
+      "cash": 252.0,
+      "gross_debt": 697.7,
+      "net_debt": 445.7,
+      "net_leverage": 1.16,
+      "interest_coverage": 6.24
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1518.0,
+      "ebitda": 432.0,
+      "ebitda_margin_pct": 28.5,
+      "cfo": 359.0,
+      "capex": 159.6,
+      "fcf": 199.4,
+      "cash": 306.0,
+      "gross_debt": 743.2,
+      "net_debt": 437.2,
+      "net_leverage": 1.01,
+      "interest_coverage": 5.85
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 1650.0,
+      "ebitda": 480.0,
+      "ebitda_margin_pct": 29.1,
+      "cfo": 408.0,
+      "capex": 168.0,
+      "fcf": 240.0,
+      "cash": 360.0,
+      "gross_debt": 758.4,
+      "net_debt": 398.4,
+      "net_leverage": 0.83,
+      "interest_coverage": 5.85
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 1782.0,
+      "ebitda": 528.0,
+      "ebitda_margin_pct": 29.6,
+      "cfo": 448.8,
+      "capex": 176.4,
+      "fcf": 272.4,
+      "cash": 424.8,
+      "gross_debt": 743.2,
+      "net_debt": 318.4,
+      "net_leverage": 0.6,
+      "interest_coverage": 6.7
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1897.5,
+      "ebitda": 566.4,
+      "ebitda_margin_pct": 29.8,
+      "cfo": 481.4,
+      "capex": 171.4,
+      "fcf": 310.0,
+      "cash": 486.0,
+      "gross_debt": 720.5,
+      "net_debt": 234.5,
+      "net_leverage": 0.41,
+      "interest_coverage": 7.5
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1980.0,
+      "ebitda": 595.2,
+      "ebitda_margin_pct": 30.1,
+      "cfo": 510.0,
+      "capex": 164.6,
+      "fcf": 345.4,
+      "cash": 540.0,
+      "gross_debt": 682.6,
+      "net_debt": 142.6,
+      "net_leverage": 0.24,
+      "interest_coverage": 8.24
+    }
+  ],
+  "supplementary_data": {
+    "presales_run_rate_usd_m": 2227.5,
+    "rera_escrow_balance_usd_m": 742.5,
+    "unrestricted_cash_usd_m": 330.0,
+    "backlog_revenue_usd_m": 4620.0,
+    "land_bank_gfa_sqft": "36.8M sq ft",
+    "collection_efficiency_pct": 91.5,
+    "handover_units_annual": 3630
+  },
+  "debt_maturities": {
+    "2025": 47.8,
+    "2026": 79.7,
+    "2027": 111.6,
+    "2028": 71.7,
+    "2029": 47.8,
+    "2030_plus": 39.8,
+    "total_outstanding_usd_m": 398.4
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 70.0,
+    "base_case_px": 102.0,
+    "recovery_floor_pct": 70.0,
+    "recovery_base_pct": 102.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "100% backward integrated self-construction model; zero contractor failure risk; prime MBR City land bank."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond SOBHA 7.95% 2028 trading at 102.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "sobha",
+      "issuer_name": "Sobha Realty",
+      "sector": "Real Estate",
+      "topic": "RERA Escrow Mechanics",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Cash includes project-specific escrow accounts governed by Dubai Law No. 8 of 2007. Funds are strictly released against engineer-certified construction milestones, preventing structural leakage for bond service."
+    },
+    {
+      "issuer_id": "sobha",
+      "issuer_name": "Sobha Realty",
+      "sector": "Real Estate",
+      "topic": "Presales & Revenue Backlog",
+      "source": "Broker Consensus / Earnings Call",
+      "note": "Off-plan presales recognized under IFRS 15 percentage-of-completion. Strong revenue backlog provides 2.5-3.0 years of forward revenue visibility."
+    },
+    {
+      "issuer_id": "sobha",
+      "issuer_name": "Sobha Realty",
+      "sector": "Real Estate",
+      "topic": "Land Bank Valuation",
+      "source": "CBRE / JLL Independent Valuation",
+      "note": "Land bank held at historical cost minus impairment; market value provides a substantial 2.5x - 4.0x asset coverage cushion above senior debt book values."
+    }
+  ]
+}

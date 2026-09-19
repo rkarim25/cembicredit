@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "dangote_fert",
+    "name": "Dangote Fertiliser",
+    "ticker": "DANFER",
+    "country": "Nigeria",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "B / B2",
+    "tier": "B",
+    "benchmark_bond": "DANFER 11.50% 2028",
+    "price": 96.0,
+    "ytm": 11.5,
+    "spread_bp": 715,
+    "model_file": "Dangote_Fertiliser_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681dcba20e1bd4b761c01",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dangote_Fertiliser_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 952.0,
+      "ebitda": 422.5,
+      "ebitda_margin_pct": 44.4,
+      "cfo": 342.6,
+      "capex": 159.2,
+      "fcf": 183.4,
+      "cash": 268.1,
+      "gross_debt": 1944.8,
+      "net_debt": 1676.7,
+      "net_leverage": 3.97,
+      "interest_coverage": 4.14
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1148.0,
+      "ebitda": 520.0,
+      "ebitda_margin_pct": 45.3,
+      "cfo": 430.9,
+      "capex": 193.4,
+      "fcf": 237.5,
+      "cash": 341.2,
+      "gross_debt": 2105.0,
+      "net_debt": 1763.8,
+      "net_leverage": 3.39,
+      "interest_coverage": 4.07
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1288.0,
+      "ebitda": 585.0,
+      "ebitda_margin_pct": 45.4,
+      "cfo": 486.2,
+      "capex": 216.1,
+      "fcf": 270.1,
+      "cash": 414.4,
+      "gross_debt": 2242.2,
+      "net_debt": 1827.8,
+      "net_leverage": 3.12,
+      "interest_coverage": 3.82
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 1400.0,
+      "ebitda": 650.0,
+      "ebitda_margin_pct": 46.4,
+      "cfo": 552.5,
+      "capex": 227.5,
+      "fcf": 325.0,
+      "cash": 487.5,
+      "gross_debt": 2288.0,
+      "net_debt": 1800.5,
+      "net_leverage": 2.77,
+      "interest_coverage": 3.82
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 1512.0,
+      "ebitda": 715.0,
+      "ebitda_margin_pct": 47.3,
+      "cfo": 607.8,
+      "capex": 238.9,
+      "fcf": 368.9,
+      "cash": 575.2,
+      "gross_debt": 2242.2,
+      "net_debt": 1667.0,
+      "net_leverage": 2.33,
+      "interest_coverage": 4.38
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1610.0,
+      "ebitda": 767.0,
+      "ebitda_margin_pct": 47.6,
+      "cfo": 651.9,
+      "capex": 232.0,
+      "fcf": 419.9,
+      "cash": 658.1,
+      "gross_debt": 2173.6,
+      "net_debt": 1515.5,
+      "net_leverage": 1.98,
+      "interest_coverage": 4.9
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1680.0,
+      "ebitda": 806.0,
+      "ebitda_margin_pct": 48.0,
+      "cfo": 690.6,
+      "capex": 222.9,
+      "fcf": 467.7,
+      "cash": 731.2,
+      "gross_debt": 2059.2,
+      "net_debt": 1328.0,
+      "net_leverage": 1.65,
+      "interest_coverage": 5.38
+    }
+  ],
+  "supplementary_data": {
+    "production_capacity_mtpa": 6.7,
+    "hard_currency_export_pct": 78.0,
+    "cash_cost_quartile": "Q1 Global Low Cost",
+    "expansion_capex_usd_m": 168.0
+  },
+  "debt_maturities": {
+    "2025": 216.1,
+    "2026": 360.1,
+    "2027": 504.1,
+    "2028": 324.1,
+    "2029": 216.1,
+    "2030_plus": 180.1,
+    "total_outstanding_usd_m": 1800.6
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 60.0,
+    "base_case_px": 98.0,
+    "recovery_floor_pct": 60.0,
+    "recovery_base_pct": 98.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "World's largest single-train urea complex (3.0 mtpa); Lekki Free Zone tax holiday; dollar exports to US and Brazil."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond DANFER 11.50% 2028 trading at 96.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "dangote_fert",
+      "issuer_name": "Dangote Fertiliser",
+      "sector": "Materials",
+      "topic": "Global Cost Curve Position",
+      "source": "Cognitive Credit / Industry Benchmark",
+      "note": "Producer occupies the first quartile (Q1) of the global cash cost curve, securing cash generation across cyclical commodity troughs."
+    },
+    {
+      "issuer_id": "dangote_fert",
+      "issuer_name": "Dangote Fertiliser",
+      "sector": "Materials",
+      "topic": "Export Hard-Currency Revenue",
+      "source": "Financial Statements",
+      "note": ">70% of revenues billed in USD/EUR, providing natural hard currency hedge against local currency operating expenses."
+    },
+    {
+      "issuer_id": "dangote_fert",
+      "issuer_name": "Dangote Fertiliser",
+      "sector": "Materials",
+      "topic": "Sovereign Strategic Asset",
+      "source": "Credit Rating Agency Memo",
+      "note": "Vital foreign exchange earner and national champion; implied sovereign support and infrastructure integration provide strong recovery floor."
+    }
+  ]
+}

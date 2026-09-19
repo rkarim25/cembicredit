@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "adm_elek",
+    "name": "ADM Elektrik",
+    "ticker": "ADMELE",
+    "country": "Turkey",
+    "region": "CEEMEA",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "B / B2",
+    "tier": "B",
+    "benchmark_bond": "ADMTR 9.25% 2028",
+    "price": 98.0,
+    "ytm": 9.25,
+    "spread_bp": 485,
+    "model_file": "ADM_Elektrik_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c6814cb3a1fc47071d72c5",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADM_Elektrik_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 285.6,
+      "ebitda": 94.2,
+      "ebitda_margin_pct": 33.0,
+      "cfo": 76.4,
+      "capex": 35.5,
+      "fcf": 40.9,
+      "cash": 59.8,
+      "gross_debt": 415.4,
+      "net_debt": 355.6,
+      "net_leverage": 3.77,
+      "interest_coverage": 4.11
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 344.4,
+      "ebitda": 116.0,
+      "ebitda_margin_pct": 33.7,
+      "cfo": 96.1,
+      "capex": 43.1,
+      "fcf": 53.0,
+      "cash": 76.1,
+      "gross_debt": 449.6,
+      "net_debt": 373.5,
+      "net_leverage": 3.22,
+      "interest_coverage": 4.05
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 386.4,
+      "ebitda": 130.5,
+      "ebitda_margin_pct": 33.8,
+      "cfo": 108.5,
+      "capex": 48.2,
+      "fcf": 60.3,
+      "cash": 92.4,
+      "gross_debt": 478.9,
+      "net_debt": 386.5,
+      "net_leverage": 2.96,
+      "interest_coverage": 3.8
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 420.0,
+      "ebitda": 145.0,
+      "ebitda_margin_pct": 34.5,
+      "cfo": 123.2,
+      "capex": 50.8,
+      "fcf": 72.4,
+      "cash": 108.8,
+      "gross_debt": 488.7,
+      "net_debt": 379.9,
+      "net_leverage": 2.62,
+      "interest_coverage": 3.8
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 453.6,
+      "ebitda": 159.5,
+      "ebitda_margin_pct": 35.2,
+      "cfo": 135.6,
+      "capex": 53.3,
+      "fcf": 82.3,
+      "cash": 128.3,
+      "gross_debt": 478.9,
+      "net_debt": 350.6,
+      "net_leverage": 2.2,
+      "interest_coverage": 4.35
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 483.0,
+      "ebitda": 171.1,
+      "ebitda_margin_pct": 35.4,
+      "cfo": 145.4,
+      "capex": 51.8,
+      "fcf": 93.6,
+      "cash": 146.8,
+      "gross_debt": 464.2,
+      "net_debt": 317.4,
+      "net_leverage": 1.86,
+      "interest_coverage": 4.87
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 504.0,
+      "ebitda": 179.8,
+      "ebitda_margin_pct": 35.7,
+      "cfo": 154.1,
+      "capex": 49.7,
+      "fcf": 104.4,
+      "cash": 163.1,
+      "gross_debt": 439.8,
+      "net_debt": 276.7,
+      "net_leverage": 1.54,
+      "interest_coverage": 5.35
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 756.0,
+    "generation_volume_gwh": 2730.0,
+    "renewable_capacity_pct": 68.0,
+    "fx_indexed_tariffs_pct": 78.5,
+    "capacity_utilization_factor_pct": 52.0
+  },
+  "debt_maturities": {
+    "2025": 45.6,
+    "2026": 76.0,
+    "2027": 106.4,
+    "2028": 68.4,
+    "2029": 45.6,
+    "2030_plus": 38.0,
+    "total_outstanding_usd_m": 380.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 72.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 72.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Aegean regulated electricity distribution grid; RAB indexed to inflation; guaranteed real WACC return."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond ADMTR 9.25% 2028 trading at 98.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "adm_elek",
+      "issuer_name": "ADM Elektrik",
+      "sector": "Utilities",
+      "topic": "Feed-in Tariff (YEKDEM/PPA)",
+      "source": "Cognitive Credit / Citi",
+      "note": "Electricity sales benefit from long-term USD/EUR guaranteed feed-in tariffs, providing predictable cash flow and hard currency debt service coverage."
+    },
+    {
+      "issuer_id": "adm_elek",
+      "issuer_name": "ADM Elektrik",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & Grid Connection",
+      "source": "Company Filings",
+      "note": "Capital expenditures peak in 2024-2025 as new solar and wind capacity comes online; FCF inflects materially positive in 2026-2027."
+    },
+    {
+      "issuer_id": "adm_elek",
+      "issuer_name": "ADM Elektrik",
+      "sector": "Utilities",
+      "topic": "Regulatory Asset Base (RAB)",
+      "source": "EMRA Regulatory Tariff Determination",
+      "note": "Regulated asset base inflation-adjusted with guaranteed real return on invested capital ensuring defensive margin floors."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "id": "sasol",
+    "name": "Sasol Ltd",
+    "ticker": "SOLSJ",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BB+ / Ba1",
+    "tier": "BB",
+    "benchmark_bond": "SOLSJ 7.85% 2029",
+    "price": 98.4,
+    "ytm": 7.85,
+    "spread_bp": 365,
+    "model_file": "Sasol_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c68168a6b6e3b7106bfdda",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sasol_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 9656.0,
+      "ebitda": 1852.5,
+      "ebitda_margin_pct": 19.2,
+      "cfo": 1502.0,
+      "capex": 698.2,
+      "fcf": 803.8,
+      "cash": 1175.6,
+      "gross_debt": 6758.8,
+      "net_debt": 5583.2,
+      "net_leverage": 3.01,
+      "interest_coverage": 5.61
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 11644.0,
+      "ebitda": 2280.0,
+      "ebitda_margin_pct": 19.6,
+      "cfo": 1889.5,
+      "capex": 847.9,
+      "fcf": 1041.6,
+      "cash": 1496.2,
+      "gross_debt": 7315.4,
+      "net_debt": 5819.2,
+      "net_leverage": 2.55,
+      "interest_coverage": 5.53
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 13064.0,
+      "ebitda": 2565.0,
+      "ebitda_margin_pct": 19.6,
+      "cfo": 2131.8,
+      "capex": 947.6,
+      "fcf": 1184.2,
+      "cash": 1816.9,
+      "gross_debt": 7792.5,
+      "net_debt": 5975.6,
+      "net_leverage": 2.33,
+      "interest_coverage": 5.18
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 14200.0,
+      "ebitda": 2850.0,
+      "ebitda_margin_pct": 20.1,
+      "cfo": 2422.5,
+      "capex": 997.5,
+      "fcf": 1425.0,
+      "cash": 2137.5,
+      "gross_debt": 7951.5,
+      "net_debt": 5814.0,
+      "net_leverage": 2.04,
+      "interest_coverage": 5.18
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 15336.0,
+      "ebitda": 3135.0,
+      "ebitda_margin_pct": 20.4,
+      "cfo": 2664.8,
+      "capex": 1047.4,
+      "fcf": 1617.4,
+      "cash": 2522.2,
+      "gross_debt": 7792.5,
+      "net_debt": 5270.3,
+      "net_leverage": 1.68,
+      "interest_coverage": 5.94
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 16330.0,
+      "ebitda": 3363.0,
+      "ebitda_margin_pct": 20.6,
+      "cfo": 2858.5,
+      "capex": 1017.4,
+      "fcf": 1841.1,
+      "cash": 2885.6,
+      "gross_debt": 7553.9,
+      "net_debt": 4668.3,
+      "net_leverage": 1.39,
+      "interest_coverage": 6.64
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 17040.0,
+      "ebitda": 3534.0,
+      "ebitda_margin_pct": 20.7,
+      "cfo": 3028.1,
+      "capex": 977.5,
+      "fcf": 2050.6,
+      "cash": 3206.2,
+      "gross_debt": 7156.4,
+      "net_debt": 3950.2,
+      "net_leverage": 1.12,
+      "interest_coverage": 7.3
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 639.0,
+    "lifting_cost_usd_per_boe": 14.5,
+    "realized_price_usd_per_bbl": 76.5,
+    "reserve_life_2p_years": 14.2,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 697.7,
+    "2026": 1162.8,
+    "2027": 1627.9,
+    "2028": 1046.5,
+    "2029": 697.7,
+    "2030_plus": 581.4,
+    "total_outstanding_usd_m": 5814.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 64.0,
+    "base_case_px": 99.0,
+    "recovery_floor_pct": 64.0,
+    "recovery_base_pct": 99.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
+    "thesis": "Secunda coal-to-liquids synthetic fuels monopoly; global specialty chemicals cash flow; crossover rating tier."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond SOLSJ 7.85% 2029 trading at 98.4."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "sasol",
+      "issuer_name": "Sasol Ltd",
+      "sector": "Energy",
+      "topic": "Offshore Escrow & Debt Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "Crude export proceeds flow through dedicated offshore collection accounts; debt service for Eurobonds and pre-export facilities is carved out prior to fiscal transfers."
+    },
+    {
+      "issuer_id": "sasol",
+      "issuer_name": "Sasol Ltd",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even",
+      "source": "Wood Mackenzie / Company Filings",
+      "note": "Low cash lifting costs ($8-$16/boe) protect operating margins even in an extended $55/bbl Brent stress scenario."
+    },
+    {
+      "issuer_id": "sasol",
+      "issuer_name": "Sasol Ltd",
+      "sector": "Energy",
+      "topic": "Reserve Replacement (1P/2P)",
+      "source": "Independent Petroleum Engineers",
+      "note": "2P commercial reserve life of 12-16 years provides durable operational runway for debt repayment."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "liqtel",
+    "name": "Liquid Telecom",
+    "ticker": "LIQTEL",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "B- / Caa1",
+    "tier": "B",
+    "benchmark_bond": "LIQTEL 14.25% 2026",
+    "price": 81.5,
+    "ytm": 14.25,
+    "spread_bp": 990,
+    "model_file": "Liquid_Telecom_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c68106a069d7d8c091ffa8",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Liquid_Telecom_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 462.4,
+      "ebitda": 136.5,
+      "ebitda_margin_pct": 29.5,
+      "cfo": 110.7,
+      "capex": 51.4,
+      "fcf": 59.3,
+      "cash": 86.6,
+      "gross_debt": 1047.8,
+      "net_debt": 961.2,
+      "net_leverage": 7.04,
+      "interest_coverage": 1.98
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 557.6,
+      "ebitda": 168.0,
+      "ebitda_margin_pct": 30.1,
+      "cfo": 139.2,
+      "capex": 62.5,
+      "fcf": 76.7,
+      "cash": 110.2,
+      "gross_debt": 1134.1,
+      "net_debt": 1023.9,
+      "net_leverage": 6.09,
+      "interest_coverage": 1.95
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 625.6,
+      "ebitda": 189.0,
+      "ebitda_margin_pct": 30.2,
+      "cfo": 157.1,
+      "capex": 69.8,
+      "fcf": 87.3,
+      "cash": 133.9,
+      "gross_debt": 1208.0,
+      "net_debt": 1074.1,
+      "net_leverage": 5.68,
+      "interest_coverage": 1.83
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 680.0,
+      "ebitda": 210.0,
+      "ebitda_margin_pct": 30.9,
+      "cfo": 178.5,
+      "capex": 73.5,
+      "fcf": 105.0,
+      "cash": 157.5,
+      "gross_debt": 1232.7,
+      "net_debt": 1075.2,
+      "net_leverage": 5.12,
+      "interest_coverage": 1.83
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 734.4,
+      "ebitda": 231.0,
+      "ebitda_margin_pct": 31.5,
+      "cfo": 196.4,
+      "capex": 77.2,
+      "fcf": 119.2,
+      "cash": 185.8,
+      "gross_debt": 1208.0,
+      "net_debt": 1022.2,
+      "net_leverage": 4.43,
+      "interest_coverage": 2.1
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 782.0,
+      "ebitda": 247.8,
+      "ebitda_margin_pct": 31.7,
+      "cfo": 210.6,
+      "capex": 75.0,
+      "fcf": 135.6,
+      "cash": 212.6,
+      "gross_debt": 1171.1,
+      "net_debt": 958.5,
+      "net_leverage": 3.87,
+      "interest_coverage": 2.35
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 816.0,
+      "ebitda": 260.4,
+      "ebitda_margin_pct": 31.9,
+      "cfo": 223.1,
+      "capex": 72.0,
+      "fcf": 151.1,
+      "cash": 236.2,
+      "gross_debt": 1109.4,
+      "net_debt": 873.2,
+      "net_leverage": 3.35,
+      "interest_coverage": 2.58
+    }
+  ],
+  "supplementary_data": {
+    "tower_count": 15040,
+    "tenancy_ratio": 1.62,
+    "contracted_backlog_years": 8.5,
+    "usd_linked_revenue_pct": 68.0,
+    "churn_pct": 1.2
+  },
+  "debt_maturities": {
+    "2025": 129.0,
+    "2026": 215.0,
+    "2027": 301.1,
+    "2028": 193.5,
+    "2029": 129.0,
+    "2030_plus": 107.5,
+    "total_outstanding_usd_m": 1075.1
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 52.0,
+    "base_case_px": 88.0,
+    "recovery_floor_pct": 52.0,
+    "recovery_base_pct": 88.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
+    "thesis": "110k km terrestrial pan-African fiber grid; Africa Data Centres; high yield compensates for 2026 maturity wall."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond LIQTEL 14.25% 2026 trading at 81.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "liqtel",
+      "issuer_name": "Liquid Telecom",
+      "sector": "Technology",
+      "topic": "Tower Tenancy & Master Lease",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Long-term master lease agreements (10-15 years) with Tier-1 MNOs featuring contracted annual CPI escalators and power pass-through."
+    },
+    {
+      "issuer_id": "liqtel",
+      "issuer_name": "Liquid Telecom",
+      "sector": "Technology",
+      "topic": "FX Pass-Through Indexation",
+      "source": "Company Filings",
+      "note": "Lease contracts pegged to USD or local currency with inflation-indexing formulas, mitigating emerging market FX depreciation."
+    },
+    {
+      "issuer_id": "liqtel",
+      "issuer_name": "Liquid Telecom",
+      "sector": "Technology",
+      "topic": "Contracted Revenue Backlog",
+      "source": "Investor Presentation",
+      "note": "Multi-billion dollar contracted backlog with minimal historical churn (<1.5%), guaranteeing predictable EBITDA generation."
+    }
+  ]
+}

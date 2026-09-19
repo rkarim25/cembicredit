@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "aragvi",
+    "name": "Aragvi / Trans-Oil",
+    "ticker": "ARAGVI",
+    "country": "Moldova",
+    "region": "CEEMEA",
+    "sector": "Consumer",
+    "type": "corp",
+    "rating": "B / B-",
+    "tier": "B",
+    "benchmark_bond": "ARAGVI 12.15% 2026",
+    "price": 89.0,
+    "ytm": 12.15,
+    "spread_bp": 780,
+    "model_file": "Aragvi_Holding_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681089456caf1fef61b55",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aragvi_Holding_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 986.0,
+      "ebitda": 104.0,
+      "ebitda_margin_pct": 10.5,
+      "cfo": 84.3,
+      "capex": 39.2,
+      "fcf": 45.1,
+      "cash": 66.0,
+      "gross_debt": 459.7,
+      "net_debt": 393.7,
+      "net_leverage": 3.79,
+      "interest_coverage": 3.34
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1189.0,
+      "ebitda": 128.0,
+      "ebitda_margin_pct": 10.8,
+      "cfo": 106.1,
+      "capex": 47.6,
+      "fcf": 58.5,
+      "cash": 84.0,
+      "gross_debt": 497.5,
+      "net_debt": 413.5,
+      "net_leverage": 3.23,
+      "interest_coverage": 3.29
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1334.0,
+      "ebitda": 144.0,
+      "ebitda_margin_pct": 10.8,
+      "cfo": 119.7,
+      "capex": 53.2,
+      "fcf": 66.5,
+      "cash": 102.0,
+      "gross_debt": 530.0,
+      "net_debt": 428.0,
+      "net_leverage": 2.97,
+      "interest_coverage": 3.08
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 1450.0,
+      "ebitda": 160.0,
+      "ebitda_margin_pct": 11.0,
+      "cfo": 136.0,
+      "capex": 56.0,
+      "fcf": 80.0,
+      "cash": 120.0,
+      "gross_debt": 540.8,
+      "net_debt": 420.8,
+      "net_leverage": 2.63,
+      "interest_coverage": 3.08
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 1566.0,
+      "ebitda": 176.0,
+      "ebitda_margin_pct": 11.2,
+      "cfo": 149.6,
+      "capex": 58.8,
+      "fcf": 90.8,
+      "cash": 141.6,
+      "gross_debt": 530.0,
+      "net_debt": 388.4,
+      "net_leverage": 2.21,
+      "interest_coverage": 3.53
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1667.5,
+      "ebitda": 188.8,
+      "ebitda_margin_pct": 11.3,
+      "cfo": 160.5,
+      "capex": 57.1,
+      "fcf": 103.4,
+      "cash": 162.0,
+      "gross_debt": 513.8,
+      "net_debt": 351.8,
+      "net_leverage": 1.86,
+      "interest_coverage": 3.95
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1740.0,
+      "ebitda": 198.4,
+      "ebitda_margin_pct": 11.4,
+      "cfo": 170.0,
+      "capex": 54.9,
+      "fcf": 115.1,
+      "cash": 180.0,
+      "gross_debt": 486.7,
+      "net_debt": 306.7,
+      "net_leverage": 1.55,
+      "interest_coverage": 4.34
+    }
+  ],
+  "supplementary_data": {
+    "hard_currency_revenue_pct": 65.0,
+    "concession_life_years": 28.0,
+    "contracted_backlog_usd_m": 3190.0,
+    "utilization_rate_pct": 82.0
+  },
+  "debt_maturities": {
+    "2025": 50.5,
+    "2026": 84.2,
+    "2027": 117.8,
+    "2028": 75.7,
+    "2029": 50.5,
+    "2030_plus": 42.1,
+    "total_outstanding_usd_m": 420.8
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 54.0,
+    "base_case_px": 93.0,
+    "recovery_floor_pct": 54.0,
+    "recovery_base_pct": 93.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Moldova Commercial & Bankruptcy Code",
+    "thesis": "Danube Giurgiulesti export port terminal; 100% USD grain & sunflower oil exports; Oaktree Capital backing."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond ARAGVI 12.15% 2026 trading at 89.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "aragvi",
+      "issuer_name": "Aragvi / Trans-Oil",
+      "sector": "Consumer",
+      "topic": "Working Capital & Export Moat",
+      "source": "Cognitive Credit / Broker Note",
+      "note": "Vertical integration and proprietary supply chain protect gross margins; grain/poultry export revenues in USD/EUR outpace local inflation."
+    },
+    {
+      "issuer_id": "aragvi",
+      "issuer_name": "Aragvi / Trans-Oil",
+      "sector": "Consumer",
+      "topic": "Geopolitical Transmission",
+      "source": "Macro Risk Assessment",
+      "note": "Dedicated logistics corridors and diversified processing hubs mitigate regional supply disruption risks."
+    },
+    {
+      "issuer_id": "aragvi",
+      "issuer_name": "Aragvi / Trans-Oil",
+      "sector": "Consumer",
+      "topic": "Deleveraging Trajectory",
+      "source": "Company Guidance",
+      "note": "Discretionary growth capex trimmed to prioritize free cash flow conversion and senior debt deleveraging."
+    }
+  ]
+}

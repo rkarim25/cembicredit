@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "metinvest",
+    "name": "Metinvest",
+    "ticker": "METINV",
+    "country": "Ukraine",
+    "region": "CEEMEA",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "CCC+ / Caa3",
+    "tier": "CCC",
+    "benchmark_bond": "METINV 15.65% 2029",
+    "price": 76.0,
+    "ytm": 15.65,
+    "spread_bp": 1125,
+    "model_file": "Metinvest_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681ff8aeff3d6ff934b3c",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Metinvest_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 5168.0,
+      "ebitda": 598.0,
+      "ebitda_margin_pct": 11.6,
+      "cfo": 484.8,
+      "capex": 225.4,
+      "fcf": 259.4,
+      "cash": 379.5,
+      "gross_debt": 1986.3,
+      "net_debt": 1606.8,
+      "net_leverage": 2.69,
+      "interest_coverage": 4.15
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 6232.0,
+      "ebitda": 736.0,
+      "ebitda_margin_pct": 11.8,
+      "cfo": 610.0,
+      "capex": 273.7,
+      "fcf": 336.3,
+      "cash": 483.0,
+      "gross_debt": 2149.9,
+      "net_debt": 1666.9,
+      "net_leverage": 2.26,
+      "interest_coverage": 4.09
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 6992.0,
+      "ebitda": 828.0,
+      "ebitda_margin_pct": 11.8,
+      "cfo": 688.2,
+      "capex": 305.9,
+      "fcf": 382.3,
+      "cash": 586.5,
+      "gross_debt": 2290.1,
+      "net_debt": 1703.6,
+      "net_leverage": 2.06,
+      "interest_coverage": 3.83
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 7600.0,
+      "ebitda": 920.0,
+      "ebitda_margin_pct": 12.1,
+      "cfo": 782.0,
+      "capex": 322.0,
+      "fcf": 460.0,
+      "cash": 690.0,
+      "gross_debt": 2336.8,
+      "net_debt": 1646.8,
+      "net_leverage": 1.79,
+      "interest_coverage": 3.83
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 8208.0,
+      "ebitda": 1012.0,
+      "ebitda_margin_pct": 12.3,
+      "cfo": 860.2,
+      "capex": 338.1,
+      "fcf": 522.1,
+      "cash": 814.2,
+      "gross_debt": 2290.1,
+      "net_debt": 1475.9,
+      "net_leverage": 1.46,
+      "interest_coverage": 4.39
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 8740.0,
+      "ebitda": 1085.6,
+      "ebitda_margin_pct": 12.4,
+      "cfo": 922.8,
+      "capex": 328.4,
+      "fcf": 594.4,
+      "cash": 931.5,
+      "gross_debt": 2220.0,
+      "net_debt": 1288.5,
+      "net_leverage": 1.19,
+      "interest_coverage": 4.91
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 9120.0,
+      "ebitda": 1140.8,
+      "ebitda_margin_pct": 12.5,
+      "cfo": 977.5,
+      "capex": 315.6,
+      "fcf": 661.9,
+      "cash": 1035.0,
+      "gross_debt": 2103.1,
+      "net_debt": 1068.1,
+      "net_leverage": 0.94,
+      "interest_coverage": 5.4
+    }
+  ],
+  "supplementary_data": {
+    "production_capacity_mtpa": 25.3,
+    "hard_currency_export_pct": 78.0,
+    "cash_cost_quartile": "Q1 Global Low Cost",
+    "expansion_capex_usd_m": 912.0
+  },
+  "debt_maturities": {
+    "2025": 197.6,
+    "2026": 329.4,
+    "2027": 461.1,
+    "2028": 296.4,
+    "2029": 197.6,
+    "2030_plus": 164.7,
+    "total_outstanding_usd_m": 1646.8
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 45.0,
+    "base_case_px": 86.0,
+    "recovery_floor_pct": 45.0,
+    "recovery_base_pct": 86.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
+    "thesis": "High-grade Kryvyi Rih iron ore pellet exporter; Black Sea maritime shipping corridor reopened; 1.79x net leverage."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond METINV 15.65% 2029 trading at 76.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "metinvest",
+      "issuer_name": "Metinvest",
+      "sector": "Materials",
+      "topic": "Global Cost Curve Position",
+      "source": "Cognitive Credit / Industry Benchmark",
+      "note": "Producer occupies the first quartile (Q1) of the global cash cost curve, securing cash generation across cyclical commodity troughs."
+    },
+    {
+      "issuer_id": "metinvest",
+      "issuer_name": "Metinvest",
+      "sector": "Materials",
+      "topic": "Export Hard-Currency Revenue",
+      "source": "Financial Statements",
+      "note": ">70% of revenues billed in USD/EUR, providing natural hard currency hedge against local currency operating expenses."
+    },
+    {
+      "issuer_id": "metinvest",
+      "issuer_name": "Metinvest",
+      "sector": "Materials",
+      "topic": "Sovereign Strategic Asset",
+      "source": "Credit Rating Agency Memo",
+      "note": "Vital foreign exchange earner and national champion; implied sovereign support and infrastructure integration provide strong recovery floor."
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "dp_world",
+    "name": "DP World",
+    "ticker": "DPW",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Infrastructure",
+    "type": "corp",
+    "rating": "BBB+ / Baa2",
+    "tier": "IG",
+    "benchmark_bond": "DPW 5.35% 2033",
+    "price": 98.0,
+    "ytm": 5.35,
+    "spread_bp": 120,
+    "model_file": "DP_World_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681138b90f1177936cd35",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DP_World_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 12376.0,
+      "ebitda": 3315.0,
+      "ebitda_margin_pct": 26.8,
+      "cfo": 2687.7,
+      "capex": 1249.5,
+      "fcf": 1438.2,
+      "cash": 2103.8,
+      "gross_debt": 17253.3,
+      "net_debt": 15149.5,
+      "net_leverage": 4.57,
+      "interest_coverage": 5.82
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 14924.0,
+      "ebitda": 4080.0,
+      "ebitda_margin_pct": 27.3,
+      "cfo": 3381.3,
+      "capex": 1517.2,
+      "fcf": 1864.1,
+      "cash": 2677.5,
+      "gross_debt": 18674.2,
+      "net_debt": 15996.7,
+      "net_leverage": 3.92,
+      "interest_coverage": 5.73
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 16744.0,
+      "ebitda": 4590.0,
+      "ebitda_margin_pct": 27.4,
+      "cfo": 3814.8,
+      "capex": 1695.8,
+      "fcf": 2119.0,
+      "cash": 3251.2,
+      "gross_debt": 19892.0,
+      "net_debt": 16640.8,
+      "net_leverage": 3.63,
+      "interest_coverage": 5.37
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 18200.0,
+      "ebitda": 5100.0,
+      "ebitda_margin_pct": 28.0,
+      "cfo": 4335.0,
+      "capex": 1785.0,
+      "fcf": 2550.0,
+      "cash": 3825.0,
+      "gross_debt": 20298.0,
+      "net_debt": 16473.0,
+      "net_leverage": 3.23,
+      "interest_coverage": 5.37
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 19656.0,
+      "ebitda": 5610.0,
+      "ebitda_margin_pct": 28.5,
+      "cfo": 4768.5,
+      "capex": 1874.2,
+      "fcf": 2894.3,
+      "cash": 4513.5,
+      "gross_debt": 19892.0,
+      "net_debt": 15378.5,
+      "net_leverage": 2.74,
+      "interest_coverage": 6.15
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 20930.0,
+      "ebitda": 6018.0,
+      "ebitda_margin_pct": 28.8,
+      "cfo": 5115.3,
+      "capex": 1820.7,
+      "fcf": 3294.6,
+      "cash": 5163.8,
+      "gross_debt": 19283.1,
+      "net_debt": 14119.3,
+      "net_leverage": 2.35,
+      "interest_coverage": 6.89
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 21840.0,
+      "ebitda": 6324.0,
+      "ebitda_margin_pct": 29.0,
+      "cfo": 5418.8,
+      "capex": 1749.3,
+      "fcf": 3669.5,
+      "cash": 5737.5,
+      "gross_debt": 18268.2,
+      "net_debt": 12530.7,
+      "net_leverage": 1.98,
+      "interest_coverage": 7.57
+    }
+  ],
+  "supplementary_data": {
+    "hard_currency_revenue_pct": 65.0,
+    "concession_life_years": 28.0,
+    "contracted_backlog_usd_m": 40040.0,
+    "utilization_rate_pct": 82.0
+  },
+  "debt_maturities": {
+    "2025": 1976.8,
+    "2026": 3294.6,
+    "2027": 4612.4,
+    "2028": 2965.1,
+    "2029": 1976.8,
+    "2030_plus": 1647.3,
+    "total_outstanding_usd_m": 16473.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 72.0,
+    "base_case_px": 102.5,
+    "recovery_floor_pct": 72.0,
+    "recovery_base_pct": 102.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Global port monopoly across 73 countries; 85M+ TEU volume; Dubai Inc. crown jewel; hybrids yield 6.85%."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond DPW 5.35% 2033 trading at 98.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "dp_world",
+      "issuer_name": "DP World",
+      "sector": "Infrastructure",
+      "topic": "Concession Duration & Moat",
+      "source": "Cognitive Credit / S&P Global",
+      "note": "Long-dated port/terminal concession agreements (>30 years remaining) with natural monopoly gateway positions and tariff-setting autonomy."
+    },
+    {
+      "issuer_id": "dp_world",
+      "issuer_name": "DP World",
+      "sector": "Infrastructure",
+      "topic": "Throughput & Capacity Utilization",
+      "source": "Port Authority Filings",
+      "note": "Container throughput backed by diversified trade corridors; high volume stability even during regional macro contractions."
+    },
+    {
+      "issuer_id": "dp_world",
+      "issuer_name": "DP World",
+      "sector": "Infrastructure",
+      "topic": "Structural Subordination & Waterfall",
+      "source": "Bond Offering Circular",
+      "note": "Operating port assets generate ring-fenced cash flow; holding company debt is supported by diversified dividend upstreaming."
+    }
+  ]
+}

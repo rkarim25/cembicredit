@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "africell",
+    "name": "Africell",
+    "ticker": "AFRCEL",
+    "country": "Angola",
+    "region": "Africa",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "B- / B3",
+    "tier": "B",
+    "benchmark_bond": "AFRCEL 11.45% 2028",
+    "price": 92.0,
+    "ytm": 11.45,
+    "spread_bp": 710,
+    "model_file": "Africell_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c6811ba825cb8d9a616ac8",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Africell_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 333.2,
+      "ebitda": 107.2,
+      "ebitda_margin_pct": 32.2,
+      "cfo": 87.0,
+      "capex": 40.4,
+      "fcf": 46.6,
+      "cash": 68.1,
+      "gross_debt": 458.6,
+      "net_debt": 390.5,
+      "net_leverage": 3.64,
+      "interest_coverage": 3.13
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 401.8,
+      "ebitda": 132.0,
+      "ebitda_margin_pct": 32.9,
+      "cfo": 109.4,
+      "capex": 49.1,
+      "fcf": 60.3,
+      "cash": 86.6,
+      "gross_debt": 496.4,
+      "net_debt": 409.8,
+      "net_leverage": 3.1,
+      "interest_coverage": 3.08
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 450.8,
+      "ebitda": 148.5,
+      "ebitda_margin_pct": 32.9,
+      "cfo": 123.4,
+      "capex": 54.9,
+      "fcf": 68.5,
+      "cash": 105.2,
+      "gross_debt": 528.8,
+      "net_debt": 423.6,
+      "net_leverage": 2.85,
+      "interest_coverage": 2.89
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 490.0,
+      "ebitda": 165.0,
+      "ebitda_margin_pct": 33.7,
+      "cfo": 140.2,
+      "capex": 57.7,
+      "fcf": 82.5,
+      "cash": 123.8,
+      "gross_debt": 539.5,
+      "net_debt": 415.7,
+      "net_leverage": 2.52,
+      "interest_coverage": 2.89
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 529.2,
+      "ebitda": 181.5,
+      "ebitda_margin_pct": 34.3,
+      "cfo": 154.3,
+      "capex": 60.6,
+      "fcf": 93.7,
+      "cash": 146.0,
+      "gross_debt": 528.8,
+      "net_debt": 382.8,
+      "net_leverage": 2.11,
+      "interest_coverage": 3.31
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 563.5,
+      "ebitda": 194.7,
+      "ebitda_margin_pct": 34.6,
+      "cfo": 165.5,
+      "capex": 58.9,
+      "fcf": 106.6,
+      "cash": 167.1,
+      "gross_debt": 512.6,
+      "net_debt": 345.5,
+      "net_leverage": 1.77,
+      "interest_coverage": 3.71
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 588.0,
+      "ebitda": 204.6,
+      "ebitda_margin_pct": 34.8,
+      "cfo": 175.3,
+      "capex": 56.6,
+      "fcf": 118.7,
+      "cash": 185.6,
+      "gross_debt": 485.6,
+      "net_debt": 300.0,
+      "net_leverage": 1.47,
+      "interest_coverage": 4.07
+    }
+  ],
+  "supplementary_data": {
+    "tower_count": 12095,
+    "tenancy_ratio": 1.62,
+    "contracted_backlog_years": 8.5,
+    "usd_linked_revenue_pct": 68.0,
+    "churn_pct": 1.2
+  },
+  "debt_maturities": {
+    "2025": 49.9,
+    "2026": 83.2,
+    "2027": 116.4,
+    "2028": 74.8,
+    "2029": 49.9,
+    "2030_plus": 41.6,
+    "total_outstanding_usd_m": 415.8
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 58.0,
+    "base_case_px": 95.0,
+    "recovery_floor_pct": 58.0,
+    "recovery_base_pct": 95.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Angola Commercial & Bankruptcy Code",
+    "thesis": "6M+ subscribers captured in Angola post-2022 rollout; strategic US DFC $100M+ senior debt backing."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond AFRCEL 11.45% 2028 trading at 92.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "africell",
+      "issuer_name": "Africell",
+      "sector": "Technology",
+      "topic": "Tower Tenancy & Master Lease",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Long-term master lease agreements (10-15 years) with Tier-1 MNOs featuring contracted annual CPI escalators and power pass-through."
+    },
+    {
+      "issuer_id": "africell",
+      "issuer_name": "Africell",
+      "sector": "Technology",
+      "topic": "FX Pass-Through Indexation",
+      "source": "Company Filings",
+      "note": "Lease contracts pegged to USD or local currency with inflation-indexing formulas, mitigating emerging market FX depreciation."
+    },
+    {
+      "issuer_id": "africell",
+      "issuer_name": "Africell",
+      "sector": "Technology",
+      "topic": "Contracted Revenue Backlog",
+      "source": "Investor Presentation",
+      "note": "Multi-billion dollar contracted backlog with minimal historical churn (<1.5%), guaranteeing predictable EBITDA generation."
+    }
+  ]
+}

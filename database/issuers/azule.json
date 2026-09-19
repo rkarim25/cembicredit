@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "id": "azule",
+    "name": "Azule Energy",
+    "ticker": "AZULE",
+    "country": "Angola",
+    "region": "Africa",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "B+ / Ba3",
+    "tier": "B",
+    "benchmark_bond": "AZULE 8.45% 2030",
+    "price": 98.5,
+    "ytm": 8.45,
+    "spread_bp": 410,
+    "model_file": "Azule_Energy_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c68104b021cc5179c679db",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Azule_Energy_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 2312.0,
+      "ebitda": 1462.5,
+      "ebitda_margin_pct": 63.3,
+      "cfo": 1185.8,
+      "capex": 551.2,
+      "fcf": 634.6,
+      "cash": 928.1,
+      "gross_debt": 4456.1,
+      "net_debt": 3528.0,
+      "net_leverage": 2.41,
+      "interest_coverage": 7.39
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 2788.0,
+      "ebitda": 1800.0,
+      "ebitda_margin_pct": 64.6,
+      "cfo": 1491.8,
+      "capex": 669.4,
+      "fcf": 822.4,
+      "cash": 1181.2,
+      "gross_debt": 4823.1,
+      "net_debt": 3641.9,
+      "net_leverage": 2.02,
+      "interest_coverage": 7.27
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 3128.0,
+      "ebitda": 2025.0,
+      "ebitda_margin_pct": 64.7,
+      "cfo": 1683.0,
+      "capex": 748.1,
+      "fcf": 934.9,
+      "cash": 1434.4,
+      "gross_debt": 5137.6,
+      "net_debt": 3703.2,
+      "net_leverage": 1.83,
+      "interest_coverage": 6.82
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 3400.0,
+      "ebitda": 2250.0,
+      "ebitda_margin_pct": 66.2,
+      "cfo": 1912.5,
+      "capex": 787.5,
+      "fcf": 1125.0,
+      "cash": 1687.5,
+      "gross_debt": 5242.5,
+      "net_debt": 3555.0,
+      "net_leverage": 1.58,
+      "interest_coverage": 6.82
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 3672.0,
+      "ebitda": 2475.0,
+      "ebitda_margin_pct": 67.4,
+      "cfo": 2103.8,
+      "capex": 826.9,
+      "fcf": 1276.9,
+      "cash": 1991.2,
+      "gross_debt": 5137.6,
+      "net_debt": 3146.4,
+      "net_leverage": 1.27,
+      "interest_coverage": 7.81
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 3910.0,
+      "ebitda": 2655.0,
+      "ebitda_margin_pct": 67.9,
+      "cfo": 2256.8,
+      "capex": 803.2,
+      "fcf": 1453.6,
+      "cash": 2278.1,
+      "gross_debt": 4980.4,
+      "net_debt": 2702.3,
+      "net_leverage": 1.02,
+      "interest_coverage": 8.75
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 4080.0,
+      "ebitda": 2790.0,
+      "ebitda_margin_pct": 68.4,
+      "cfo": 2390.6,
+      "capex": 771.8,
+      "fcf": 1618.8,
+      "cash": 2531.2,
+      "gross_debt": 4718.2,
+      "net_debt": 2187.0,
+      "net_leverage": 0.78,
+      "interest_coverage": 9.61
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 153.0,
+    "lifting_cost_usd_per_boe": 14.5,
+    "realized_price_usd_per_bbl": 76.5,
+    "reserve_life_2p_years": 14.2,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 426.6,
+    "2026": 711.0,
+    "2027": 995.4,
+    "2028": 639.9,
+    "2029": 426.6,
+    "2030_plus": 355.5,
+    "total_outstanding_usd_m": 3555.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 74.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 74.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Angola Commercial & Bankruptcy Code",
+    "thesis": "BP-Eni 50/50 incorporated JV; 220k boe/d net; Block 15/06 Agogo field + New Gas Consortium feeding Angola LNG."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond AZULE 8.45% 2030 trading at 98.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "azule",
+      "issuer_name": "Azule Energy",
+      "sector": "Energy",
+      "topic": "Offshore Escrow & Debt Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "Crude export proceeds flow through dedicated offshore collection accounts; debt service for Eurobonds and pre-export facilities is carved out prior to fiscal transfers."
+    },
+    {
+      "issuer_id": "azule",
+      "issuer_name": "Azule Energy",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even",
+      "source": "Wood Mackenzie / Company Filings",
+      "note": "Low cash lifting costs ($8-$16/boe) protect operating margins even in an extended $55/bbl Brent stress scenario."
+    },
+    {
+      "issuer_id": "azule",
+      "issuer_name": "Azule Energy",
+      "sector": "Energy",
+      "topic": "Reserve Replacement (1P/2P)",
+      "source": "Independent Petroleum Engineers",
+      "note": "2P commercial reserve life of 12-16 years provides durable operational runway for debt repayment."
+    }
+  ]
+}

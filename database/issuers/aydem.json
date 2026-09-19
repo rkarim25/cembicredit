@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "aydem",
+    "name": "Aydem Renewable",
+    "ticker": "AYDEM",
+    "country": "Turkey",
+    "region": "CEEMEA",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "B / B3",
+    "tier": "B",
+    "benchmark_bond": "AYDEM 8.95% 2027",
+    "price": 96.5,
+    "ytm": 8.95,
+    "spread_bp": 455,
+    "model_file": "Aydem_Renewable_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681008c2ee5226c1af03d",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aydem_Renewable_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 176.8,
+      "ebitda": 123.5,
+      "ebitda_margin_pct": 69.9,
+      "cfo": 100.1,
+      "capex": 46.5,
+      "fcf": 53.6,
+      "cash": 78.4,
+      "gross_debt": 784.9,
+      "net_debt": 706.5,
+      "net_leverage": 5.72,
+      "interest_coverage": 3.14
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 213.2,
+      "ebitda": 152.0,
+      "ebitda_margin_pct": 71.3,
+      "cfo": 126.0,
+      "capex": 56.5,
+      "fcf": 69.5,
+      "cash": 99.8,
+      "gross_debt": 849.5,
+      "net_debt": 749.7,
+      "net_leverage": 4.93,
+      "interest_coverage": 3.09
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 239.2,
+      "ebitda": 171.0,
+      "ebitda_margin_pct": 71.5,
+      "cfo": 142.1,
+      "capex": 63.2,
+      "fcf": 78.9,
+      "cash": 121.1,
+      "gross_debt": 904.9,
+      "net_debt": 783.8,
+      "net_leverage": 4.58,
+      "interest_coverage": 2.9
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 260.0,
+      "ebitda": 190.0,
+      "ebitda_margin_pct": 73.1,
+      "cfo": 161.5,
+      "capex": 66.5,
+      "fcf": 95.0,
+      "cash": 142.5,
+      "gross_debt": 923.4,
+      "net_debt": 780.9,
+      "net_leverage": 4.11,
+      "interest_coverage": 2.9
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 280.8,
+      "ebitda": 209.0,
+      "ebitda_margin_pct": 74.4,
+      "cfo": 177.7,
+      "capex": 69.8,
+      "fcf": 107.9,
+      "cash": 168.1,
+      "gross_debt": 904.9,
+      "net_debt": 736.8,
+      "net_leverage": 3.53,
+      "interest_coverage": 3.32
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 299.0,
+      "ebitda": 224.2,
+      "ebitda_margin_pct": 75.0,
+      "cfo": 190.6,
+      "capex": 67.8,
+      "fcf": 122.8,
+      "cash": 192.4,
+      "gross_debt": 877.2,
+      "net_debt": 684.8,
+      "net_leverage": 3.05,
+      "interest_coverage": 3.72
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 312.0,
+      "ebitda": 235.6,
+      "ebitda_margin_pct": 75.5,
+      "cfo": 201.9,
+      "capex": 65.2,
+      "fcf": 136.7,
+      "cash": 213.8,
+      "gross_debt": 831.1,
+      "net_debt": 617.3,
+      "net_leverage": 2.62,
+      "interest_coverage": 4.09
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 468.0,
+    "generation_volume_gwh": 1690.0,
+    "renewable_capacity_pct": 68.0,
+    "fx_indexed_tariffs_pct": 78.5,
+    "capacity_utilization_factor_pct": 52.0
+  },
+  "debt_maturities": {
+    "2025": 93.7,
+    "2026": 156.2,
+    "2027": 218.7,
+    "2028": 140.6,
+    "2029": 93.7,
+    "2030_plus": 78.1,
+    "total_outstanding_usd_m": 781.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 66.0,
+    "base_case_px": 98.0,
+    "recovery_floor_pct": 66.0,
+    "recovery_base_pct": 98.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "1,180 MW pure-play renewable portfolio; Uşak hybrid solar expansion diversifying hydro risk."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond AYDEM 8.95% 2027 trading at 96.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "aydem",
+      "issuer_name": "Aydem Renewable",
+      "sector": "Utilities",
+      "topic": "Feed-in Tariff (YEKDEM/PPA)",
+      "source": "Cognitive Credit / Citi",
+      "note": "Electricity sales benefit from long-term USD/EUR guaranteed feed-in tariffs, providing predictable cash flow and hard currency debt service coverage."
+    },
+    {
+      "issuer_id": "aydem",
+      "issuer_name": "Aydem Renewable",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & Grid Connection",
+      "source": "Company Filings",
+      "note": "Capital expenditures peak in 2024-2025 as new solar and wind capacity comes online; FCF inflects materially positive in 2026-2027."
+    },
+    {
+      "issuer_id": "aydem",
+      "issuer_name": "Aydem Renewable",
+      "sector": "Utilities",
+      "topic": "Regulatory Asset Base (RAB)",
+      "source": "EMRA Regulatory Tariff Determination",
+      "note": "Regulated asset base inflation-adjusted with guaranteed real return on invested capital ensuring defensive margin floors."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "id": "sonangol",
+    "name": "Sonangol EP",
+    "ticker": "SONANG",
+    "country": "Angola",
+    "region": "Africa",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "B- / B3",
+    "tier": "B",
+    "benchmark_bond": "SONANG 9.15% 2028",
+    "price": 97.2,
+    "ytm": 9.15,
+    "spread_bp": 475,
+    "model_file": "Sonangol_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c6812aa10ee048b87d945b",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sonangol_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 8568.0,
+      "ebitda": 3120.0,
+      "ebitda_margin_pct": 36.4,
+      "cfo": 2529.6,
+      "capex": 1176.0,
+      "fcf": 1353.6,
+      "cash": 1980.0,
+      "gross_debt": 8323.2,
+      "net_debt": 6343.2,
+      "net_leverage": 2.03,
+      "interest_coverage": 6.93
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 10332.0,
+      "ebitda": 3840.0,
+      "ebitda_margin_pct": 37.2,
+      "cfo": 3182.4,
+      "capex": 1428.0,
+      "fcf": 1754.4,
+      "cash": 2520.0,
+      "gross_debt": 9008.6,
+      "net_debt": 6488.6,
+      "net_leverage": 1.69,
+      "interest_coverage": 6.83
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 11592.0,
+      "ebitda": 4320.0,
+      "ebitda_margin_pct": 37.3,
+      "cfo": 3590.4,
+      "capex": 1596.0,
+      "fcf": 1994.4,
+      "cash": 3060.0,
+      "gross_debt": 9596.2,
+      "net_debt": 6536.2,
+      "net_leverage": 1.51,
+      "interest_coverage": 6.4
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 12600.0,
+      "ebitda": 4800.0,
+      "ebitda_margin_pct": 38.1,
+      "cfo": 4080.0,
+      "capex": 1680.0,
+      "fcf": 2400.0,
+      "cash": 3600.0,
+      "gross_debt": 9792.0,
+      "net_debt": 6192.0,
+      "net_leverage": 1.29,
+      "interest_coverage": 6.4
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 13608.0,
+      "ebitda": 5280.0,
+      "ebitda_margin_pct": 38.8,
+      "cfo": 4488.0,
+      "capex": 1764.0,
+      "fcf": 2724.0,
+      "cash": 4248.0,
+      "gross_debt": 9596.2,
+      "net_debt": 5348.2,
+      "net_leverage": 1.01,
+      "interest_coverage": 7.33
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 14490.0,
+      "ebitda": 5664.0,
+      "ebitda_margin_pct": 39.1,
+      "cfo": 4814.4,
+      "capex": 1713.6,
+      "fcf": 3100.8,
+      "cash": 4860.0,
+      "gross_debt": 9302.4,
+      "net_debt": 4442.4,
+      "net_leverage": 0.78,
+      "interest_coverage": 8.21
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 15120.0,
+      "ebitda": 5952.0,
+      "ebitda_margin_pct": 39.4,
+      "cfo": 5100.0,
+      "capex": 1646.4,
+      "fcf": 3453.6,
+      "cash": 5400.0,
+      "gross_debt": 8812.8,
+      "net_debt": 3412.8,
+      "net_leverage": 0.57,
+      "interest_coverage": 9.02
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 567.0,
+    "lifting_cost_usd_per_boe": 14.5,
+    "realized_price_usd_per_bbl": 76.5,
+    "reserve_life_2p_years": 14.2,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 743.0,
+    "2026": 1238.4,
+    "2027": 1733.8,
+    "2028": 1114.6,
+    "2029": 743.0,
+    "2030_plus": 619.2,
+    "total_outstanding_usd_m": 6192.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 65.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 65.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Angola Commercial & Bankruptcy Code",
+    "thesis": "Angola national oil concessionaire; offshore pre-salt blocks with Total & Chevron; dollar escrow debt service."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond SONANG 9.15% 2028 trading at 97.2."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "sonangol",
+      "issuer_name": "Sonangol EP",
+      "sector": "Energy",
+      "topic": "Offshore Escrow & Debt Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "Crude export proceeds flow through dedicated offshore collection accounts; debt service for Eurobonds and pre-export facilities is carved out prior to fiscal transfers."
+    },
+    {
+      "issuer_id": "sonangol",
+      "issuer_name": "Sonangol EP",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even",
+      "source": "Wood Mackenzie / Company Filings",
+      "note": "Low cash lifting costs ($8-$16/boe) protect operating margins even in an extended $55/bbl Brent stress scenario."
+    },
+    {
+      "issuer_id": "sonangol",
+      "issuer_name": "Sonangol EP",
+      "sector": "Energy",
+      "topic": "Reserve Replacement (1P/2P)",
+      "source": "Independent Petroleum Engineers",
+      "note": "2P commercial reserve life of 12-16 years provides durable operational runway for debt repayment."
+    }
+  ]
+}

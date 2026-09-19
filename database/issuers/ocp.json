@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "ocp",
+    "name": "OCP Group",
+    "ticker": "OCP",
+    "country": "Morocco",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BBB- / Baa3",
+    "tier": "IG",
+    "benchmark_bond": "OCP 6.45% 2034",
+    "price": 99.5,
+    "ytm": 6.45,
+    "spread_bp": 155,
+    "model_file": "OCP_Group_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681969243c32cfbae8a81",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OCP_Group_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 6460.0,
+      "ebitda": 2080.0,
+      "ebitda_margin_pct": 32.2,
+      "cfo": 1686.4,
+      "capex": 784.0,
+      "fcf": 902.4,
+      "cash": 1320.0,
+      "gross_debt": 8404.8,
+      "net_debt": 7084.8,
+      "net_leverage": 3.41,
+      "interest_coverage": 7.7
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 7790.0,
+      "ebitda": 2560.0,
+      "ebitda_margin_pct": 32.9,
+      "cfo": 2121.6,
+      "capex": 952.0,
+      "fcf": 1169.6,
+      "cash": 1680.0,
+      "gross_debt": 9097.0,
+      "net_debt": 7417.0,
+      "net_leverage": 2.9,
+      "interest_coverage": 7.58
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 8740.0,
+      "ebitda": 2880.0,
+      "ebitda_margin_pct": 33.0,
+      "cfo": 2393.6,
+      "capex": 1064.0,
+      "fcf": 1329.6,
+      "cash": 2040.0,
+      "gross_debt": 9690.2,
+      "net_debt": 7650.2,
+      "net_leverage": 2.66,
+      "interest_coverage": 7.11
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 9500.0,
+      "ebitda": 3200.0,
+      "ebitda_margin_pct": 33.7,
+      "cfo": 2720.0,
+      "capex": 1120.0,
+      "fcf": 1600.0,
+      "cash": 2400.0,
+      "gross_debt": 9888.0,
+      "net_debt": 7488.0,
+      "net_leverage": 2.34,
+      "interest_coverage": 7.11
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 10260.0,
+      "ebitda": 3520.0,
+      "ebitda_margin_pct": 34.3,
+      "cfo": 2992.0,
+      "capex": 1176.0,
+      "fcf": 1816.0,
+      "cash": 2832.0,
+      "gross_debt": 9690.2,
+      "net_debt": 6858.2,
+      "net_leverage": 1.95,
+      "interest_coverage": 8.15
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 10925.0,
+      "ebitda": 3776.0,
+      "ebitda_margin_pct": 34.6,
+      "cfo": 3209.6,
+      "capex": 1142.4,
+      "fcf": 2067.2,
+      "cash": 3240.0,
+      "gross_debt": 9393.6,
+      "net_debt": 6153.6,
+      "net_leverage": 1.63,
+      "interest_coverage": 9.12
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 11400.0,
+      "ebitda": 3968.0,
+      "ebitda_margin_pct": 34.8,
+      "cfo": 3400.0,
+      "capex": 1097.6,
+      "fcf": 2302.4,
+      "cash": 3600.0,
+      "gross_debt": 8899.2,
+      "net_debt": 5299.2,
+      "net_leverage": 1.34,
+      "interest_coverage": 10.02
+    }
+  ],
+  "supplementary_data": {
+    "production_capacity_mtpa": 31.0,
+    "hard_currency_export_pct": 78.0,
+    "cash_cost_quartile": "Q1 Global Low Cost",
+    "expansion_capex_usd_m": 1140.0
+  },
+  "debt_maturities": {
+    "2025": 898.6,
+    "2026": 1497.6,
+    "2027": 2096.6,
+    "2028": 1347.8,
+    "2029": 898.6,
+    "2030_plus": 748.8,
+    "total_outstanding_usd_m": 7488.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 75.0,
+    "base_case_px": 103.0,
+    "recovery_floor_pct": 75.0,
+    "recovery_base_pct": 103.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Controls 70% of world's phosphate rock reserves; $3.2B EBITDA (34% margin); >85% hard currency export revenues."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond OCP 6.45% 2034 trading at 99.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ocp",
+      "issuer_name": "OCP Group",
+      "sector": "Materials",
+      "topic": "Global Cost Curve Position",
+      "source": "Cognitive Credit / Industry Benchmark",
+      "note": "Producer occupies the first quartile (Q1) of the global cash cost curve, securing cash generation across cyclical commodity troughs."
+    },
+    {
+      "issuer_id": "ocp",
+      "issuer_name": "OCP Group",
+      "sector": "Materials",
+      "topic": "Export Hard-Currency Revenue",
+      "source": "Financial Statements",
+      "note": ">70% of revenues billed in USD/EUR, providing natural hard currency hedge against local currency operating expenses."
+    },
+    {
+      "issuer_id": "ocp",
+      "issuer_name": "OCP Group",
+      "sector": "Materials",
+      "topic": "Sovereign Strategic Asset",
+      "source": "Credit Rating Agency Memo",
+      "note": "Vital foreign exchange earner and national champion; implied sovereign support and infrastructure integration provide strong recovery floor."
+    }
+  ]
+}

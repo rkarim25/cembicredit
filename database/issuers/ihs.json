@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "ihs",
+    "name": "IHS Towers",
+    "ticker": "IHS",
+    "country": "Nigeria",
+    "region": "Africa",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "B+ / B2",
+    "tier": "B",
+    "benchmark_bond": "IHS 10.25% 2027",
+    "price": 91.5,
+    "ytm": 10.25,
+    "spread_bp": 590,
+    "model_file": "IHS_Towers_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c6811bbee5fc02b3b044c7",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/IHS_Towers_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 1462.0,
+      "ebitda": 728.0,
+      "ebitda_margin_pct": 49.8,
+      "cfo": 590.2,
+      "capex": 274.4,
+      "fcf": 315.8,
+      "cash": 462.0,
+      "gross_debt": 3722.3,
+      "net_debt": 3260.3,
+      "net_leverage": 4.48,
+      "interest_coverage": 3.47
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1763.0,
+      "ebitda": 896.0,
+      "ebitda_margin_pct": 50.8,
+      "cfo": 742.6,
+      "capex": 333.2,
+      "fcf": 409.4,
+      "cash": 588.0,
+      "gross_debt": 4028.9,
+      "net_debt": 3440.9,
+      "net_leverage": 3.84,
+      "interest_coverage": 3.41
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1978.0,
+      "ebitda": 1008.0,
+      "ebitda_margin_pct": 51.0,
+      "cfo": 837.8,
+      "capex": 372.4,
+      "fcf": 465.4,
+      "cash": 714.0,
+      "gross_debt": 4291.6,
+      "net_debt": 3577.6,
+      "net_leverage": 3.55,
+      "interest_coverage": 3.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 2150.0,
+      "ebitda": 1120.0,
+      "ebitda_margin_pct": 52.1,
+      "cfo": 952.0,
+      "capex": 392.0,
+      "fcf": 560.0,
+      "cash": 840.0,
+      "gross_debt": 4379.2,
+      "net_debt": 3539.2,
+      "net_leverage": 3.16,
+      "interest_coverage": 3.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 2322.0,
+      "ebitda": 1232.0,
+      "ebitda_margin_pct": 53.1,
+      "cfo": 1047.2,
+      "capex": 411.6,
+      "fcf": 635.6,
+      "cash": 991.2,
+      "gross_debt": 4291.6,
+      "net_debt": 3300.4,
+      "net_leverage": 2.68,
+      "interest_coverage": 3.67
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 2472.5,
+      "ebitda": 1321.6,
+      "ebitda_margin_pct": 53.5,
+      "cfo": 1123.4,
+      "capex": 399.8,
+      "fcf": 723.6,
+      "cash": 1134.0,
+      "gross_debt": 4160.2,
+      "net_debt": 3026.2,
+      "net_leverage": 2.29,
+      "interest_coverage": 4.1
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 2580.0,
+      "ebitda": 1388.8,
+      "ebitda_margin_pct": 53.8,
+      "cfo": 1190.0,
+      "capex": 384.2,
+      "fcf": 805.8,
+      "cash": 1260.0,
+      "gross_debt": 3941.3,
+      "net_debt": 2681.3,
+      "net_leverage": 1.93,
+      "interest_coverage": 4.51
+    }
+  ],
+  "supplementary_data": {
+    "tower_count": 37825,
+    "tenancy_ratio": 1.62,
+    "contracted_backlog_years": 8.5,
+    "usd_linked_revenue_pct": 68.0,
+    "churn_pct": 1.2
+  },
+  "debt_maturities": {
+    "2025": 424.7,
+    "2026": 707.8,
+    "2027": 991.0,
+    "2028": 637.1,
+    "2029": 424.7,
+    "2030_plus": 353.9,
+    "total_outstanding_usd_m": 3539.2
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 60.0,
+    "base_case_px": 96.0,
+    "recovery_floor_pct": 60.0,
+    "recovery_base_pct": 96.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Over 40,000 telecom towers across Africa and LatAm; renegotiated MTN contracts embed USD indexation."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond IHS 10.25% 2027 trading at 91.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ihs",
+      "issuer_name": "IHS Towers",
+      "sector": "Technology",
+      "topic": "Tower Tenancy & Master Lease",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Long-term master lease agreements (10-15 years) with Tier-1 MNOs featuring contracted annual CPI escalators and power pass-through."
+    },
+    {
+      "issuer_id": "ihs",
+      "issuer_name": "IHS Towers",
+      "sector": "Technology",
+      "topic": "FX Pass-Through Indexation",
+      "source": "Company Filings",
+      "note": "Lease contracts pegged to USD or local currency with inflation-indexing formulas, mitigating emerging market FX depreciation."
+    },
+    {
+      "issuer_id": "ihs",
+      "issuer_name": "IHS Towers",
+      "sector": "Technology",
+      "topic": "Contracted Revenue Backlog",
+      "source": "Investor Presentation",
+      "note": "Multi-billion dollar contracted backlog with minimal historical churn (<1.5%), guaranteeing predictable EBITDA generation."
+    }
+  ]
+}

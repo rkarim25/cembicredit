@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "erdemir",
+    "name": "Erdemir",
+    "ticker": "EREGL",
+    "country": "Turkey",
+    "region": "CEEMEA",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BB- / B1",
+    "tier": "BB",
+    "benchmark_bond": "EREGL 7.95% 2029",
+    "price": 98.5,
+    "ytm": 7.95,
+    "spread_bp": 355,
+    "model_file": "Erdemir_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681f8b554cf9edd7b8f1c",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Erdemir_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 4624.0,
+      "ebitda": 552.5,
+      "ebitda_margin_pct": 11.9,
+      "cfo": 447.9,
+      "capex": 208.2,
+      "fcf": 239.7,
+      "cash": 350.6,
+      "gross_debt": 2073.6,
+      "net_debt": 1723.0,
+      "net_leverage": 3.12,
+      "interest_coverage": 5.52
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 5576.0,
+      "ebitda": 680.0,
+      "ebitda_margin_pct": 12.2,
+      "cfo": 563.6,
+      "capex": 252.9,
+      "fcf": 310.7,
+      "cash": 446.2,
+      "gross_debt": 2244.3,
+      "net_debt": 1798.1,
+      "net_leverage": 2.64,
+      "interest_coverage": 5.44
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 6256.0,
+      "ebitda": 765.0,
+      "ebitda_margin_pct": 12.2,
+      "cfo": 635.8,
+      "capex": 282.6,
+      "fcf": 353.2,
+      "cash": 541.9,
+      "gross_debt": 2390.7,
+      "net_debt": 1848.8,
+      "net_leverage": 2.42,
+      "interest_coverage": 5.1
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 6800.0,
+      "ebitda": 850.0,
+      "ebitda_margin_pct": 12.5,
+      "cfo": 722.5,
+      "capex": 297.5,
+      "fcf": 425.0,
+      "cash": 637.5,
+      "gross_debt": 2439.5,
+      "net_debt": 1802.0,
+      "net_leverage": 2.12,
+      "interest_coverage": 5.1
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 7344.0,
+      "ebitda": 935.0,
+      "ebitda_margin_pct": 12.7,
+      "cfo": 794.8,
+      "capex": 312.4,
+      "fcf": 482.4,
+      "cash": 752.2,
+      "gross_debt": 2390.7,
+      "net_debt": 1638.5,
+      "net_leverage": 1.75,
+      "interest_coverage": 5.84
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 7820.0,
+      "ebitda": 1003.0,
+      "ebitda_margin_pct": 12.8,
+      "cfo": 852.5,
+      "capex": 303.4,
+      "fcf": 549.1,
+      "cash": 860.6,
+      "gross_debt": 2317.5,
+      "net_debt": 1456.9,
+      "net_leverage": 1.45,
+      "interest_coverage": 6.54
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 8160.0,
+      "ebitda": 1054.0,
+      "ebitda_margin_pct": 12.9,
+      "cfo": 903.1,
+      "capex": 291.6,
+      "fcf": 611.5,
+      "cash": 956.2,
+      "gross_debt": 2195.6,
+      "net_debt": 1239.4,
+      "net_leverage": 1.18,
+      "interest_coverage": 7.19
+    }
+  ],
+  "supplementary_data": {
+    "production_capacity_mtpa": 22.9,
+    "hard_currency_export_pct": 78.0,
+    "cash_cost_quartile": "Q1 Global Low Cost",
+    "expansion_capex_usd_m": 816.0
+  },
+  "debt_maturities": {
+    "2025": 216.2,
+    "2026": 360.4,
+    "2027": 504.6,
+    "2028": 324.4,
+    "2029": 216.2,
+    "2030_plus": 180.2,
+    "total_outstanding_usd_m": 1802.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 75.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 75.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Flat steel monopoly in Turkey; OYAK pension backing; $3.2B green DRI decarbonization transformation."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond EREGL 7.95% 2029 trading at 98.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "erdemir",
+      "issuer_name": "Erdemir",
+      "sector": "Materials",
+      "topic": "Global Cost Curve Position",
+      "source": "Cognitive Credit / Industry Benchmark",
+      "note": "Producer occupies the first quartile (Q1) of the global cash cost curve, securing cash generation across cyclical commodity troughs."
+    },
+    {
+      "issuer_id": "erdemir",
+      "issuer_name": "Erdemir",
+      "sector": "Materials",
+      "topic": "Export Hard-Currency Revenue",
+      "source": "Financial Statements",
+      "note": ">70% of revenues billed in USD/EUR, providing natural hard currency hedge against local currency operating expenses."
+    },
+    {
+      "issuer_id": "erdemir",
+      "issuer_name": "Erdemir",
+      "sector": "Materials",
+      "topic": "Sovereign Strategic Asset",
+      "source": "Credit Rating Agency Memo",
+      "note": "Vital foreign exchange earner and national champion; implied sovereign support and infrastructure integration provide strong recovery floor."
+    }
+  ]
+}

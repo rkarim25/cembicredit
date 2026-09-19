@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "ukr_rail",
+    "name": "Ukraine Rail (Ukrzaliznytsia)",
+    "ticker": "RAILUA",
+    "country": "Ukraine",
+    "region": "CEEMEA",
+    "sector": "Infrastructure",
+    "type": "corp",
+    "rating": "CCC / Caa3",
+    "tier": "CCC",
+    "benchmark_bond": "RAILUA 19.25% 2026",
+    "price": 64.0,
+    "ytm": 19.25,
+    "spread_bp": 1485,
+    "model_file": "Ukraine_Rail_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c6816bb15ffe27db5eeb55",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ukraine_Rail_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 1938.0,
+      "ebitda": 247.0,
+      "ebitda_margin_pct": 12.7,
+      "cfo": 200.3,
+      "capex": 93.1,
+      "fcf": 107.2,
+      "cash": 156.8,
+      "gross_debt": 1482.6,
+      "net_debt": 1325.8,
+      "net_leverage": 5.37,
+      "interest_coverage": 2.84
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 2337.0,
+      "ebitda": 304.0,
+      "ebitda_margin_pct": 13.0,
+      "cfo": 251.9,
+      "capex": 113.0,
+      "fcf": 138.9,
+      "cash": 199.5,
+      "gross_debt": 1604.7,
+      "net_debt": 1405.2,
+      "net_leverage": 4.62,
+      "interest_coverage": 2.79
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 2622.0,
+      "ebitda": 342.0,
+      "ebitda_margin_pct": 13.0,
+      "cfo": 284.2,
+      "capex": 126.3,
+      "fcf": 157.9,
+      "cash": 242.2,
+      "gross_debt": 1709.3,
+      "net_debt": 1467.1,
+      "net_leverage": 4.29,
+      "interest_coverage": 2.62
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 2850.0,
+      "ebitda": 380.0,
+      "ebitda_margin_pct": 13.3,
+      "cfo": 323.0,
+      "capex": 133.0,
+      "fcf": 190.0,
+      "cash": 285.0,
+      "gross_debt": 1744.2,
+      "net_debt": 1459.2,
+      "net_leverage": 3.84,
+      "interest_coverage": 2.62
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 3078.0,
+      "ebitda": 418.0,
+      "ebitda_margin_pct": 13.6,
+      "cfo": 355.3,
+      "capex": 139.7,
+      "fcf": 215.6,
+      "cash": 336.3,
+      "gross_debt": 1709.3,
+      "net_debt": 1373.0,
+      "net_leverage": 3.28,
+      "interest_coverage": 3.0
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 3277.5,
+      "ebitda": 448.4,
+      "ebitda_margin_pct": 13.7,
+      "cfo": 381.1,
+      "capex": 135.7,
+      "fcf": 245.4,
+      "cash": 384.8,
+      "gross_debt": 1657.0,
+      "net_debt": 1272.2,
+      "net_leverage": 2.84,
+      "interest_coverage": 3.36
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 3420.0,
+      "ebitda": 471.2,
+      "ebitda_margin_pct": 13.8,
+      "cfo": 403.8,
+      "capex": 130.3,
+      "fcf": 273.5,
+      "cash": 427.5,
+      "gross_debt": 1569.8,
+      "net_debt": 1142.3,
+      "net_leverage": 2.42,
+      "interest_coverage": 3.69
+    }
+  ],
+  "supplementary_data": {
+    "hard_currency_revenue_pct": 65.0,
+    "concession_life_years": 28.0,
+    "contracted_backlog_usd_m": 6270.0,
+    "utilization_rate_pct": 82.0
+  },
+  "debt_maturities": {
+    "2025": 175.1,
+    "2026": 291.8,
+    "2027": 408.6,
+    "2028": 262.7,
+    "2029": 175.1,
+    "2030_plus": 145.9,
+    "total_outstanding_usd_m": 1459.2
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 38.0,
+    "base_case_px": 78.0,
+    "recovery_floor_pct": 38.0,
+    "recovery_base_pct": 78.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
+    "thesis": "100% sovereign-owned rail monopoly; essential wartime logistics spine; $1B+ in non-debt multilateral grants."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond RAILUA 19.25% 2026 trading at 64.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "ukr_rail",
+      "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+      "sector": "Infrastructure",
+      "topic": "Concession Duration & Moat",
+      "source": "Cognitive Credit / S&P Global",
+      "note": "Long-dated port/terminal concession agreements (>30 years remaining) with natural monopoly gateway positions and tariff-setting autonomy."
+    },
+    {
+      "issuer_id": "ukr_rail",
+      "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+      "sector": "Infrastructure",
+      "topic": "Throughput & Capacity Utilization",
+      "source": "Port Authority Filings",
+      "note": "Container throughput backed by diversified trade corridors; high volume stability even during regional macro contractions."
+    },
+    {
+      "issuer_id": "ukr_rail",
+      "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+      "sector": "Infrastructure",
+      "topic": "Structural Subordination & Waterfall",
+      "source": "Bond Offering Circular",
+      "note": "Operating port assets generate ring-fenced cash flow; holding company debt is supported by diversified dividend upstreaming."
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "limak_port",
+    "name": "LimakPort İskenderun",
+    "ticker": "LMKPRT",
+    "country": "Turkey",
+    "region": "CEEMEA",
+    "sector": "Infrastructure",
+    "type": "corp",
+    "rating": "B / B3",
+    "tier": "B",
+    "benchmark_bond": "LIMPRT 7.85% 2036",
+    "price": 98.5,
+    "ytm": 7.85,
+    "spread_bp": 345,
+    "model_file": "Limak_Port_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c6814ab652d1e6a4fb5446",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Port_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 81.6,
+      "ebitda": 50.7,
+      "ebitda_margin_pct": 62.1,
+      "cfo": 41.1,
+      "capex": 19.1,
+      "fcf": 22.0,
+      "cash": 32.2,
+      "gross_debt": 253.9,
+      "net_debt": 221.7,
+      "net_leverage": 4.37,
+      "interest_coverage": 4.55
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 98.4,
+      "ebitda": 62.4,
+      "ebitda_margin_pct": 63.4,
+      "cfo": 51.7,
+      "capex": 23.2,
+      "fcf": 28.5,
+      "cash": 40.9,
+      "gross_debt": 274.8,
+      "net_debt": 233.9,
+      "net_leverage": 3.75,
+      "interest_coverage": 4.48
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 110.4,
+      "ebitda": 70.2,
+      "ebitda_margin_pct": 63.6,
+      "cfo": 58.3,
+      "capex": 25.9,
+      "fcf": 32.4,
+      "cash": 49.7,
+      "gross_debt": 292.8,
+      "net_debt": 243.1,
+      "net_leverage": 3.46,
+      "interest_coverage": 4.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 120.0,
+      "ebitda": 78.0,
+      "ebitda_margin_pct": 65.0,
+      "cfo": 66.3,
+      "capex": 27.3,
+      "fcf": 39.0,
+      "cash": 58.5,
+      "gross_debt": 298.7,
+      "net_debt": 240.2,
+      "net_leverage": 3.08,
+      "interest_coverage": 4.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 129.6,
+      "ebitda": 85.8,
+      "ebitda_margin_pct": 66.2,
+      "cfo": 72.9,
+      "capex": 28.7,
+      "fcf": 44.2,
+      "cash": 69.0,
+      "gross_debt": 292.8,
+      "net_debt": 223.8,
+      "net_leverage": 2.61,
+      "interest_coverage": 4.81
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 138.0,
+      "ebitda": 92.0,
+      "ebitda_margin_pct": 66.7,
+      "cfo": 78.2,
+      "capex": 27.8,
+      "fcf": 50.4,
+      "cash": 79.0,
+      "gross_debt": 283.8,
+      "net_debt": 204.8,
+      "net_leverage": 2.23,
+      "interest_coverage": 5.38
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 144.0,
+      "ebitda": 96.7,
+      "ebitda_margin_pct": 67.2,
+      "cfo": 82.9,
+      "capex": 26.8,
+      "fcf": 56.1,
+      "cash": 87.8,
+      "gross_debt": 268.9,
+      "net_debt": 181.1,
+      "net_leverage": 1.87,
+      "interest_coverage": 5.92
+    }
+  ],
+  "supplementary_data": {
+    "hard_currency_revenue_pct": 65.0,
+    "concession_life_years": 28.0,
+    "contracted_backlog_usd_m": 264.0,
+    "utilization_rate_pct": 82.0
+  },
+  "debt_maturities": {
+    "2025": 28.8,
+    "2026": 48.0,
+    "2027": 67.3,
+    "2028": 43.2,
+    "2029": 28.8,
+    "2030_plus": 24.0,
+    "total_outstanding_usd_m": 240.1
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 75.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 75.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "36-year deepwater BOT concession; 100% USD-denominated tariffs; 65% EBITDA margin."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond LIMPRT 7.85% 2036 trading at 98.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "limak_port",
+      "issuer_name": "LimakPort İskenderun",
+      "sector": "Infrastructure",
+      "topic": "Concession Duration & Moat",
+      "source": "Cognitive Credit / S&P Global",
+      "note": "Long-dated port/terminal concession agreements (>30 years remaining) with natural monopoly gateway positions and tariff-setting autonomy."
+    },
+    {
+      "issuer_id": "limak_port",
+      "issuer_name": "LimakPort İskenderun",
+      "sector": "Infrastructure",
+      "topic": "Throughput & Capacity Utilization",
+      "source": "Port Authority Filings",
+      "note": "Container throughput backed by diversified trade corridors; high volume stability even during regional macro contractions."
+    },
+    {
+      "issuer_id": "limak_port",
+      "issuer_name": "LimakPort İskenderun",
+      "sector": "Infrastructure",
+      "topic": "Structural Subordination & Waterfall",
+      "source": "Bond Offering Circular",
+      "note": "Operating port assets generate ring-fenced cash flow; holding company debt is supported by diversified dividend upstreaming."
+    }
+  ]
+}

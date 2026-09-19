@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "id": "dar_arkan",
+    "name": "Dar Al Arkan",
+    "ticker": "DARARK",
+    "country": "Saudi Arabia",
+    "region": "Middle East",
+    "sector": "Real Estate",
+    "type": "corp",
+    "rating": "BB- / Ba3 / B+",
+    "tier": "BB",
+    "benchmark_bond": "DARARK 8.15% 2029",
+    "price": 99.5,
+    "ytm": 8.15,
+    "spread_bp": 410,
+    "model_file": "Dar_Al_Arkan_Credit_Model.xlsx",
+    "notion_id": "3e01d0ad68c681118a96c1193e9c5315",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dar_Al_Arkan_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 748.0,
+      "ebitda": 234.0,
+      "ebitda_margin_pct": 31.3,
+      "cfo": 189.7,
+      "capex": 88.2,
+      "fcf": 101.5,
+      "cash": 148.5,
+      "gross_debt": 1291.3,
+      "net_debt": 1142.8,
+      "net_leverage": 4.88,
+      "interest_coverage": 3.12
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 902.0,
+      "ebitda": 288.0,
+      "ebitda_margin_pct": 31.9,
+      "cfo": 238.7,
+      "capex": 107.1,
+      "fcf": 131.6,
+      "cash": 189.0,
+      "gross_debt": 1397.7,
+      "net_debt": 1208.7,
+      "net_leverage": 4.2,
+      "interest_coverage": 3.07
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1012.0,
+      "ebitda": 324.0,
+      "ebitda_margin_pct": 32.0,
+      "cfo": 269.3,
+      "capex": 119.7,
+      "fcf": 149.6,
+      "cash": 229.5,
+      "gross_debt": 1488.8,
+      "net_debt": 1259.3,
+      "net_leverage": 3.89,
+      "interest_coverage": 2.88
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 1100.0,
+      "ebitda": 360.0,
+      "ebitda_margin_pct": 32.7,
+      "cfo": 306.0,
+      "capex": 126.0,
+      "fcf": 180.0,
+      "cash": 270.0,
+      "gross_debt": 1519.2,
+      "net_debt": 1249.2,
+      "net_leverage": 3.47,
+      "interest_coverage": 2.88
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 1188.0,
+      "ebitda": 396.0,
+      "ebitda_margin_pct": 33.3,
+      "cfo": 336.6,
+      "capex": 132.3,
+      "fcf": 204.3,
+      "cash": 318.6,
+      "gross_debt": 1488.8,
+      "net_debt": 1170.2,
+      "net_leverage": 2.96,
+      "interest_coverage": 3.3
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1265.0,
+      "ebitda": 424.8,
+      "ebitda_margin_pct": 33.6,
+      "cfo": 361.1,
+      "capex": 128.5,
+      "fcf": 232.6,
+      "cash": 364.5,
+      "gross_debt": 1443.2,
+      "net_debt": 1078.7,
+      "net_leverage": 2.54,
+      "interest_coverage": 3.69
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1320.0,
+      "ebitda": 446.4,
+      "ebitda_margin_pct": 33.8,
+      "cfo": 382.5,
+      "capex": 123.5,
+      "fcf": 259.0,
+      "cash": 405.0,
+      "gross_debt": 1367.3,
+      "net_debt": 962.3,
+      "net_leverage": 2.16,
+      "interest_coverage": 4.06
+    }
+  ],
+  "supplementary_data": {
+    "presales_run_rate_usd_m": 1485.0,
+    "rera_escrow_balance_usd_m": 495.0,
+    "unrestricted_cash_usd_m": 220.0,
+    "backlog_revenue_usd_m": 3080.0,
+    "land_bank_gfa_sqft": "28.5M sq ft",
+    "collection_efficiency_pct": 91.5,
+    "handover_units_annual": 2420
+  },
+  "debt_maturities": {
+    "2025": 149.9,
+    "2026": 249.8,
+    "2027": 349.8,
+    "2028": 224.9,
+    "2029": 149.9,
+    "2030_plus": 124.9,
+    "total_outstanding_usd_m": 1249.2
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 66.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 66.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Saudi Arabia Commercial & Bankruptcy Code",
+    "thesis": "12.4M+ sqm Saudi strategic land bank covering gross debt by 2.5x; $850M liquid cash fortress."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond DARARK 8.15% 2029 trading at 99.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "dar_arkan",
+      "issuer_name": "Dar Al Arkan",
+      "sector": "Real Estate",
+      "topic": "RERA Escrow Mechanics",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Cash includes project-specific escrow accounts governed by Dubai Law No. 8 of 2007. Funds are strictly released against engineer-certified construction milestones, preventing structural leakage for bond service."
+    },
+    {
+      "issuer_id": "dar_arkan",
+      "issuer_name": "Dar Al Arkan",
+      "sector": "Real Estate",
+      "topic": "Presales & Revenue Backlog",
+      "source": "Broker Consensus / Earnings Call",
+      "note": "Off-plan presales recognized under IFRS 15 percentage-of-completion. Strong revenue backlog provides 2.5-3.0 years of forward revenue visibility."
+    },
+    {
+      "issuer_id": "dar_arkan",
+      "issuer_name": "Dar Al Arkan",
+      "sector": "Real Estate",
+      "topic": "Land Bank Valuation",
+      "source": "CBRE / JLL Independent Valuation",
+      "note": "Land bank held at historical cost minus impairment; market value provides a substantial 2.5x - 4.0x asset coverage cushion above senior debt book values."
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "id": "tharisa",
+    "name": "Tharisa plc",
+    "ticker": "THARISA",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "BB- / Ba3 Implied",
+    "tier": "BB",
+    "benchmark_bond": "THARISA 9.85% 2027",
+    "price": 98.0,
+    "ytm": 9.85,
+    "spread_bp": 550,
+    "model_file": "Tharisa_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c6815aa0c2e66138027562",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tharisa_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 482.8,
+      "ebitda": 120.2,
+      "ebitda_margin_pct": 24.9,
+      "cfo": 97.5,
+      "capex": 45.3,
+      "fcf": 52.2,
+      "cash": 76.3,
+      "gross_debt": 177.7,
+      "net_debt": 101.4,
+      "net_leverage": 0.84,
+      "interest_coverage": 9.11
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 582.2,
+      "ebitda": 148.0,
+      "ebitda_margin_pct": 25.4,
+      "cfo": 122.7,
+      "capex": 55.0,
+      "fcf": 67.7,
+      "cash": 97.1,
+      "gross_debt": 192.3,
+      "net_debt": 95.2,
+      "net_leverage": 0.64,
+      "interest_coverage": 8.97
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 653.2,
+      "ebitda": 166.5,
+      "ebitda_margin_pct": 25.5,
+      "cfo": 138.4,
+      "capex": 61.5,
+      "fcf": 76.9,
+      "cash": 117.9,
+      "gross_debt": 204.9,
+      "net_debt": 87.0,
+      "net_leverage": 0.52,
+      "interest_coverage": 8.41
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 710.0,
+      "ebitda": 185.0,
+      "ebitda_margin_pct": 26.1,
+      "cfo": 157.2,
+      "capex": 64.8,
+      "fcf": 92.4,
+      "cash": 138.8,
+      "gross_debt": 209.1,
+      "net_debt": 70.3,
+      "net_leverage": 0.38,
+      "interest_coverage": 8.41
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 766.8,
+      "ebitda": 203.5,
+      "ebitda_margin_pct": 26.5,
+      "cfo": 173.0,
+      "capex": 68.0,
+      "fcf": 105.0,
+      "cash": 163.7,
+      "gross_debt": 204.9,
+      "net_debt": 41.2,
+      "net_leverage": 0.2,
+      "interest_coverage": 9.64
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 816.5,
+      "ebitda": 218.3,
+      "ebitda_margin_pct": 26.7,
+      "cfo": 185.6,
+      "capex": 66.0,
+      "fcf": 119.6,
+      "cash": 187.3,
+      "gross_debt": 198.6,
+      "net_debt": 11.3,
+      "net_leverage": 0.05,
+      "interest_coverage": 10.79
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 852.0,
+      "ebitda": 229.4,
+      "ebitda_margin_pct": 26.9,
+      "cfo": 196.6,
+      "capex": 63.5,
+      "fcf": 133.1,
+      "cash": 208.1,
+      "gross_debt": 188.1,
+      "net_debt": 0.0,
+      "net_leverage": 0.0,
+      "interest_coverage": 11.85
+    }
+  ],
+  "supplementary_data": {
+    "production_capacity_mtpa": 4.63,
+    "hard_currency_export_pct": 78.0,
+    "cash_cost_quartile": "Q1 Global Low Cost",
+    "expansion_capex_usd_m": 85.2
+  },
+  "debt_maturities": {
+    "2025": 8.4,
+    "2026": 14.1,
+    "2027": 19.7,
+    "2028": 12.7,
+    "2029": 8.4,
+    "2030_plus": 7.0,
+    "total_outstanding_usd_m": 70.3
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 70.0,
+    "base_case_px": 99.0,
+    "recovery_floor_pct": 70.0,
+    "recovery_base_pct": 99.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
+    "thesis": "Mechanized open-pit Bushveld mine; 14-yr open-pit life; structural chrome co-product hedge against PGM cycles; 0.38x net debt."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond THARISA 9.85% 2027 trading at 98.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "tharisa",
+      "issuer_name": "Tharisa plc",
+      "sector": "Materials",
+      "topic": "Global Cost Curve Position",
+      "source": "Cognitive Credit / Industry Benchmark",
+      "note": "Producer occupies the first quartile (Q1) of the global cash cost curve, securing cash generation across cyclical commodity troughs."
+    },
+    {
+      "issuer_id": "tharisa",
+      "issuer_name": "Tharisa plc",
+      "sector": "Materials",
+      "topic": "Export Hard-Currency Revenue",
+      "source": "Financial Statements",
+      "note": ">70% of revenues billed in USD/EUR, providing natural hard currency hedge against local currency operating expenses."
+    },
+    {
+      "issuer_id": "tharisa",
+      "issuer_name": "Tharisa plc",
+      "sector": "Materials",
+      "topic": "Sovereign Strategic Asset",
+      "source": "Credit Rating Agency Memo",
+      "note": "Vital foreign exchange earner and national champion; implied sovereign support and infrastructure integration provide strong recovery floor."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "limak_ren",
+    "name": "Limak Renewable",
+    "ticker": "LMKREN",
+    "country": "Turkey",
+    "region": "CEEMEA",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "B+ / B2",
+    "tier": "B",
+    "benchmark_bond": "LIMAK 8.75% 2028",
+    "price": 98.2,
+    "ytm": 8.75,
+    "spread_bp": 435,
+    "model_file": "Limak_Renewable_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c68159bc09d6b94337462d",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Renewable_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 258.4,
+      "ebitda": 178.8,
+      "ebitda_margin_pct": 69.2,
+      "cfo": 144.9,
+      "capex": 67.4,
+      "fcf": 77.5,
+      "cash": 113.4,
+      "gross_debt": 1110.3,
+      "net_debt": 996.9,
+      "net_leverage": 5.58,
+      "interest_coverage": 3.47
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 311.6,
+      "ebitda": 220.0,
+      "ebitda_margin_pct": 70.6,
+      "cfo": 182.3,
+      "capex": 81.8,
+      "fcf": 100.5,
+      "cash": 144.4,
+      "gross_debt": 1201.8,
+      "net_debt": 1057.4,
+      "net_leverage": 4.81,
+      "interest_coverage": 3.41
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 349.6,
+      "ebitda": 247.5,
+      "ebitda_margin_pct": 70.8,
+      "cfo": 205.7,
+      "capex": 91.4,
+      "fcf": 114.3,
+      "cash": 175.3,
+      "gross_debt": 1280.1,
+      "net_debt": 1104.8,
+      "net_leverage": 4.46,
+      "interest_coverage": 3.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 380.0,
+      "ebitda": 275.0,
+      "ebitda_margin_pct": 72.4,
+      "cfo": 233.8,
+      "capex": 96.2,
+      "fcf": 137.6,
+      "cash": 206.2,
+      "gross_debt": 1306.2,
+      "net_debt": 1100.0,
+      "net_leverage": 4.0,
+      "interest_coverage": 3.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 410.4,
+      "ebitda": 302.5,
+      "ebitda_margin_pct": 73.7,
+      "cfo": 257.1,
+      "capex": 101.1,
+      "fcf": 156.0,
+      "cash": 243.4,
+      "gross_debt": 1280.1,
+      "net_debt": 1036.7,
+      "net_leverage": 3.43,
+      "interest_coverage": 3.67
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 437.0,
+      "ebitda": 324.5,
+      "ebitda_margin_pct": 74.3,
+      "cfo": 275.8,
+      "capex": 98.2,
+      "fcf": 177.6,
+      "cash": 278.4,
+      "gross_debt": 1240.9,
+      "net_debt": 962.5,
+      "net_leverage": 2.97,
+      "interest_coverage": 4.1
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 456.0,
+      "ebitda": 341.0,
+      "ebitda_margin_pct": 74.8,
+      "cfo": 292.2,
+      "capex": 94.3,
+      "fcf": 197.9,
+      "cash": 309.4,
+      "gross_debt": 1175.6,
+      "net_debt": 866.2,
+      "net_leverage": 2.54,
+      "interest_coverage": 4.51
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 684.0,
+    "generation_volume_gwh": 2470.0,
+    "renewable_capacity_pct": 68.0,
+    "fx_indexed_tariffs_pct": 78.5,
+    "capacity_utilization_factor_pct": 52.0
+  },
+  "debt_maturities": {
+    "2025": 132.0,
+    "2026": 220.0,
+    "2027": 308.0,
+    "2028": 198.0,
+    "2029": 132.0,
+    "2030_plus": 110.0,
+    "total_outstanding_usd_m": 1100.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 70.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 70.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "1,060 MW hydro & solar portfolio; 72% EBITDA margin; YEKDEM 7.3c/kWh dollar floor guarantee."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond LIMAK 8.75% 2028 trading at 98.2."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "limak_ren",
+      "issuer_name": "Limak Renewable",
+      "sector": "Utilities",
+      "topic": "Feed-in Tariff (YEKDEM/PPA)",
+      "source": "Cognitive Credit / Citi",
+      "note": "Electricity sales benefit from long-term USD/EUR guaranteed feed-in tariffs, providing predictable cash flow and hard currency debt service coverage."
+    },
+    {
+      "issuer_id": "limak_ren",
+      "issuer_name": "Limak Renewable",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & Grid Connection",
+      "source": "Company Filings",
+      "note": "Capital expenditures peak in 2024-2025 as new solar and wind capacity comes online; FCF inflects materially positive in 2026-2027."
+    },
+    {
+      "issuer_id": "limak_ren",
+      "issuer_name": "Limak Renewable",
+      "sector": "Utilities",
+      "topic": "Regulatory Asset Base (RAB)",
+      "source": "EMRA Regulatory Tariff Determination",
+      "note": "Regulated asset base inflation-adjusted with guaranteed real return on invested capital ensuring defensive margin floors."
+    }
+  ]
+}

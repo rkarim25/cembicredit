@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "id": "damac",
+    "name": "Damac Properties",
+    "ticker": "DAMAC",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Real Estate",
+    "type": "corp",
+    "rating": "BB- / Ba3",
+    "tier": "BB",
+    "benchmark_bond": "DAMAC 7.25% 2027",
+    "price": 101.0,
+    "ytm": 7.25,
+    "spread_bp": 320,
+    "model_file": "Damac_Properties_Credit_Model.xlsx",
+    "notion_id": "3e01d0ad68c68194b911c9627e4c0595",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Damac_Properties_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 1428.0,
+      "ebitda": 442.0,
+      "ebitda_margin_pct": 31.0,
+      "cfo": 358.4,
+      "capex": 166.6,
+      "fcf": 191.8,
+      "cash": 280.5,
+      "gross_debt": 601.1,
+      "net_debt": 320.6,
+      "net_leverage": 0.73,
+      "interest_coverage": 7.52
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1722.0,
+      "ebitda": 544.0,
+      "ebitda_margin_pct": 31.6,
+      "cfo": 450.8,
+      "capex": 202.3,
+      "fcf": 248.5,
+      "cash": 357.0,
+      "gross_debt": 650.6,
+      "net_debt": 293.6,
+      "net_leverage": 0.54,
+      "interest_coverage": 7.4
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1932.0,
+      "ebitda": 612.0,
+      "ebitda_margin_pct": 31.7,
+      "cfo": 508.6,
+      "capex": 226.1,
+      "fcf": 282.5,
+      "cash": 433.5,
+      "gross_debt": 693.1,
+      "net_debt": 259.6,
+      "net_leverage": 0.42,
+      "interest_coverage": 6.94
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 2100.0,
+      "ebitda": 680.0,
+      "ebitda_margin_pct": 32.4,
+      "cfo": 578.0,
+      "capex": 238.0,
+      "fcf": 340.0,
+      "cash": 510.0,
+      "gross_debt": 707.2,
+      "net_debt": 197.2,
+      "net_leverage": 0.29,
+      "interest_coverage": 6.94
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 2268.0,
+      "ebitda": 748.0,
+      "ebitda_margin_pct": 33.0,
+      "cfo": 635.8,
+      "capex": 249.9,
+      "fcf": 385.9,
+      "cash": 601.8,
+      "gross_debt": 693.1,
+      "net_debt": 91.3,
+      "net_leverage": 0.12,
+      "interest_coverage": 7.95
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 2415.0,
+      "ebitda": 802.4,
+      "ebitda_margin_pct": 33.2,
+      "cfo": 682.0,
+      "capex": 242.8,
+      "fcf": 439.2,
+      "cash": 688.5,
+      "gross_debt": 671.8,
+      "net_debt": 0.0,
+      "net_leverage": 0.0,
+      "interest_coverage": 8.9
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 2520.0,
+      "ebitda": 843.2,
+      "ebitda_margin_pct": 33.5,
+      "cfo": 722.5,
+      "capex": 233.2,
+      "fcf": 489.3,
+      "cash": 765.0,
+      "gross_debt": 636.5,
+      "net_debt": 0.0,
+      "net_leverage": 0.0,
+      "interest_coverage": 9.78
+    }
+  ],
+  "supplementary_data": {
+    "presales_run_rate_usd_m": 2835.0,
+    "rera_escrow_balance_usd_m": 945.0,
+    "unrestricted_cash_usd_m": 420.0,
+    "backlog_revenue_usd_m": 5880.0,
+    "land_bank_gfa_sqft": "43.5M sq ft",
+    "collection_efficiency_pct": 91.5,
+    "handover_units_annual": 4620
+  },
+  "debt_maturities": {
+    "2025": 23.7,
+    "2026": 39.4,
+    "2027": 55.2,
+    "2028": 35.5,
+    "2029": 23.7,
+    "2030_plus": 19.7,
+    "total_outstanding_usd_m": 197.2
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 75.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 75.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "$1.15B cash balance covering total gross debt; 46k homes delivered; negligible 0.29x net debt."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond DAMAC 7.25% 2027 trading at 101.0."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "damac",
+      "issuer_name": "Damac Properties",
+      "sector": "Real Estate",
+      "topic": "RERA Escrow Mechanics",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Cash includes project-specific escrow accounts governed by Dubai Law No. 8 of 2007. Funds are strictly released against engineer-certified construction milestones, preventing structural leakage for bond service."
+    },
+    {
+      "issuer_id": "damac",
+      "issuer_name": "Damac Properties",
+      "sector": "Real Estate",
+      "topic": "Presales & Revenue Backlog",
+      "source": "Broker Consensus / Earnings Call",
+      "note": "Off-plan presales recognized under IFRS 15 percentage-of-completion. Strong revenue backlog provides 2.5-3.0 years of forward revenue visibility."
+    },
+    {
+      "issuer_id": "damac",
+      "issuer_name": "Damac Properties",
+      "sector": "Real Estate",
+      "topic": "Land Bank Valuation",
+      "source": "CBRE / JLL Independent Valuation",
+      "note": "Land bank held at historical cost minus impairment; market value provides a substantial 2.5x - 4.0x asset coverage cushion above senior debt book values."
+    }
+  ]
+}

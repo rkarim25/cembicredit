@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "id": "arada",
+    "name": "Arada Developments",
+    "ticker": "ARADA",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Real Estate",
+    "type": "corp",
+    "rating": "B+ / B1",
+    "tier": "B",
+    "benchmark_bond": "ARADA 8.05% 2029",
+    "price": 100.5,
+    "ytm": 8.05,
+    "spread_bp": 400,
+    "model_file": "Arada_Credit_Model.xlsx",
+    "notion_id": "3e01d0ad68c6819c9db2e3117db89214",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Arada_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 625.6,
+      "ebitda": 175.5,
+      "ebitda_margin_pct": 28.1,
+      "cfo": 142.3,
+      "capex": 66.1,
+      "fcf": 76.2,
+      "cash": 111.4,
+      "gross_debt": 605.9,
+      "net_debt": 494.5,
+      "net_leverage": 2.82,
+      "interest_coverage": 4.5
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 754.4,
+      "ebitda": 216.0,
+      "ebitda_margin_pct": 28.6,
+      "cfo": 179.0,
+      "capex": 80.3,
+      "fcf": 98.7,
+      "cash": 141.8,
+      "gross_debt": 655.8,
+      "net_debt": 514.0,
+      "net_leverage": 2.38,
+      "interest_coverage": 4.43
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 846.4,
+      "ebitda": 243.0,
+      "ebitda_margin_pct": 28.7,
+      "cfo": 202.0,
+      "capex": 89.8,
+      "fcf": 112.2,
+      "cash": 172.1,
+      "gross_debt": 698.5,
+      "net_debt": 526.4,
+      "net_leverage": 2.17,
+      "interest_coverage": 4.15
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 920.0,
+      "ebitda": 270.0,
+      "ebitda_margin_pct": 29.3,
+      "cfo": 229.5,
+      "capex": 94.5,
+      "fcf": 135.0,
+      "cash": 202.5,
+      "gross_debt": 712.8,
+      "net_debt": 510.3,
+      "net_leverage": 1.89,
+      "interest_coverage": 4.15
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 993.6,
+      "ebitda": 297.0,
+      "ebitda_margin_pct": 29.9,
+      "cfo": 252.5,
+      "capex": 99.2,
+      "fcf": 153.3,
+      "cash": 238.9,
+      "gross_debt": 698.5,
+      "net_debt": 459.6,
+      "net_leverage": 1.55,
+      "interest_coverage": 4.76
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1058.0,
+      "ebitda": 318.6,
+      "ebitda_margin_pct": 30.1,
+      "cfo": 270.8,
+      "capex": 96.4,
+      "fcf": 174.4,
+      "cash": 273.4,
+      "gross_debt": 677.2,
+      "net_debt": 403.8,
+      "net_leverage": 1.27,
+      "interest_coverage": 5.32
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1104.0,
+      "ebitda": 334.8,
+      "ebitda_margin_pct": 30.3,
+      "cfo": 286.9,
+      "capex": 92.6,
+      "fcf": 194.3,
+      "cash": 303.8,
+      "gross_debt": 641.5,
+      "net_debt": 337.7,
+      "net_leverage": 1.01,
+      "interest_coverage": 5.85
+    }
+  ],
+  "supplementary_data": {
+    "presales_run_rate_usd_m": 1242.0,
+    "rera_escrow_balance_usd_m": 414.0,
+    "unrestricted_cash_usd_m": 184.0,
+    "backlog_revenue_usd_m": 2576.0,
+    "land_bank_gfa_sqft": "25.8M sq ft",
+    "collection_efficiency_pct": 91.5,
+    "handover_units_annual": 2024
+  },
+  "debt_maturities": {
+    "2025": 61.2,
+    "2026": 102.1,
+    "2027": 142.9,
+    "2028": 91.9,
+    "2029": 61.2,
+    "2030_plus": 51.0,
+    "total_outstanding_usd_m": 510.3
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 65.0,
+    "base_case_px": 100.5,
+    "recovery_floor_pct": 65.0,
+    "recovery_base_pct": 100.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Royal shareholding (Sharjah ruling family); Sharjah master development monopoly + Dubai expansion."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond ARADA 8.05% 2029 trading at 100.5."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "arada",
+      "issuer_name": "Arada Developments",
+      "sector": "Real Estate",
+      "topic": "RERA Escrow Mechanics",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Cash includes project-specific escrow accounts governed by Dubai Law No. 8 of 2007. Funds are strictly released against engineer-certified construction milestones, preventing structural leakage for bond service."
+    },
+    {
+      "issuer_id": "arada",
+      "issuer_name": "Arada Developments",
+      "sector": "Real Estate",
+      "topic": "Presales & Revenue Backlog",
+      "source": "Broker Consensus / Earnings Call",
+      "note": "Off-plan presales recognized under IFRS 15 percentage-of-completion. Strong revenue backlog provides 2.5-3.0 years of forward revenue visibility."
+    },
+    {
+      "issuer_id": "arada",
+      "issuer_name": "Arada Developments",
+      "sector": "Real Estate",
+      "topic": "Land Bank Valuation",
+      "source": "CBRE / JLL Independent Valuation",
+      "note": "Land bank held at historical cost minus impairment; market value provides a substantial 2.5x - 4.0x asset coverage cushion above senior debt book values."
+    }
+  ]
+}

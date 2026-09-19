@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "id": "gdz_elek",
+    "name": "GDZ Elektrik",
+    "ticker": "GDZELE",
+    "country": "Turkey",
+    "region": "CEEMEA",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "B / B2",
+    "tier": "B",
+    "benchmark_bond": "GDZTR 9.10% 2028",
+    "price": 98.2,
+    "ytm": 9.1,
+    "spread_bp": 470,
+    "model_file": "GDZ_Elektrik_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681f5b7e6ec2e994a620f",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/GDZ_Elektrik_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 394.4,
+      "ebitda": 126.8,
+      "ebitda_margin_pct": 32.2,
+      "cfo": 102.8,
+      "capex": 47.8,
+      "fcf": 55.0,
+      "cash": 80.4,
+      "gross_debt": 558.6,
+      "net_debt": 478.2,
+      "net_leverage": 3.77,
+      "interest_coverage": 4.06
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 475.6,
+      "ebitda": 156.0,
+      "ebitda_margin_pct": 32.8,
+      "cfo": 129.3,
+      "capex": 58.0,
+      "fcf": 71.3,
+      "cash": 102.4,
+      "gross_debt": 604.6,
+      "net_debt": 502.2,
+      "net_leverage": 3.22,
+      "interest_coverage": 4.0
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 533.6,
+      "ebitda": 175.5,
+      "ebitda_margin_pct": 32.9,
+      "cfo": 145.9,
+      "capex": 64.8,
+      "fcf": 81.1,
+      "cash": 124.3,
+      "gross_debt": 644.0,
+      "net_debt": 519.7,
+      "net_leverage": 2.96,
+      "interest_coverage": 3.75
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 580.0,
+      "ebitda": 195.0,
+      "ebitda_margin_pct": 33.6,
+      "cfo": 165.8,
+      "capex": 68.2,
+      "fcf": 97.6,
+      "cash": 146.2,
+      "gross_debt": 657.2,
+      "net_debt": 511.0,
+      "net_leverage": 2.62,
+      "interest_coverage": 3.75
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 626.4,
+      "ebitda": 214.5,
+      "ebitda_margin_pct": 34.2,
+      "cfo": 182.3,
+      "capex": 71.7,
+      "fcf": 110.6,
+      "cash": 172.6,
+      "gross_debt": 644.0,
+      "net_debt": 471.4,
+      "net_leverage": 2.2,
+      "interest_coverage": 4.3
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 667.0,
+      "ebitda": 230.1,
+      "ebitda_margin_pct": 34.5,
+      "cfo": 195.6,
+      "capex": 69.6,
+      "fcf": 126.0,
+      "cash": 197.4,
+      "gross_debt": 624.3,
+      "net_debt": 426.9,
+      "net_leverage": 1.86,
+      "interest_coverage": 4.81
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 696.0,
+      "ebitda": 241.8,
+      "ebitda_margin_pct": 34.7,
+      "cfo": 207.2,
+      "capex": 66.9,
+      "fcf": 140.3,
+      "cash": 219.4,
+      "gross_debt": 591.4,
+      "net_debt": 372.0,
+      "net_leverage": 1.54,
+      "interest_coverage": 5.28
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 1044.0,
+    "generation_volume_gwh": 3770.0,
+    "renewable_capacity_pct": 68.0,
+    "fx_indexed_tariffs_pct": 78.5,
+    "capacity_utilization_factor_pct": 52.0
+  },
+  "debt_maturities": {
+    "2025": 61.3,
+    "2026": 102.2,
+    "2027": 143.1,
+    "2028": 92.0,
+    "2029": 61.3,
+    "2030_plus": 51.1,
+    "total_outstanding_usd_m": 511.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 72.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 72.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "İzmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
+  },
+  "timeline": [
+    {
+      "date": "2023-H2",
+      "event": "Completed refinancing operations and expanded banking credit lines."
+    },
+    {
+      "date": "2024-H1",
+      "event": "Reported record operating metrics; benchmark bond GDZTR 9.10% 2028 trading at 98.2."
+    },
+    {
+      "date": "2024-H2",
+      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
+    },
+    {
+      "date": "2025-E",
+      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
+    }
+  ],
+  "annotations": [
+    {
+      "issuer_id": "gdz_elek",
+      "issuer_name": "GDZ Elektrik",
+      "sector": "Utilities",
+      "topic": "Feed-in Tariff (YEKDEM/PPA)",
+      "source": "Cognitive Credit / Citi",
+      "note": "Electricity sales benefit from long-term USD/EUR guaranteed feed-in tariffs, providing predictable cash flow and hard currency debt service coverage."
+    },
+    {
+      "issuer_id": "gdz_elek",
+      "issuer_name": "GDZ Elektrik",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & Grid Connection",
+      "source": "Company Filings",
+      "note": "Capital expenditures peak in 2024-2025 as new solar and wind capacity comes online; FCF inflects materially positive in 2026-2027."
+    },
+    {
+      "issuer_id": "gdz_elek",
+      "issuer_name": "GDZ Elektrik",
+      "sector": "Utilities",
+      "topic": "Regulatory Asset Base (RAB)",
+      "source": "EMRA Regulatory Tariff Determination",
+      "note": "Regulated asset base inflation-adjusted with guaranteed real return on invested capital ensuring defensive margin floors."
+    }
+  ]
+}
