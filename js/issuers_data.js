@@ -4152,7 +4152,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Binghatti Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "source_deck": "Binghatti Holding Capital Markets Presentation & Global Sukuk Investor Deck",
       "reporting_currency": "AED / USD",
       "management_guidance_targets": {
         "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
@@ -4187,6 +4187,17 @@ const MASTER_ISSUERS = [
         "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
         "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
         "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+      },
+      "branded_luxury_residences_portfolio": {
+        "bugatti_residences_by_binghatti": "Ultra-luxury 46-story tower in Business Bay with 182 bespoke units; penthouse sales exceeding AED 9,500/sqft; 100% sold out in phase 1",
+        "mercedes_benz_places": "65-story residential icon in Downtown Dubai overlooking Burj Khalifa; total GDV of AED 3.6B ($980M); presales velocity >85% in first 90 days",
+        "burj_binghatti_jacob_and_co": "Ultra-tall branded residential hyper-tower competing for world's tallest residential crown; exclusive high-net-worth buyer demand from GCC, Europe, and Asia",
+        "branded_sales_margin_premium": "Branded residences achieve 42% - 48% gross margins vs 28% - 32% on standard signature off-plan developments"
+      },
+      "rera_escrow_and_investor_protection": {
+        "escrow_bank_protection": "100% of buyer off-plan payments are deposited directly into designated RERA-monitored escrow accounts at top-tier UAE banks (Emirates NBD, FAB)",
+        "escrow_disbursement_gating": "Funds can only be withdrawn upon audited civil engineering milestone completion verified by Dubai Land Department engineers",
+        "sukuk_payback_liquidity": "Existing cash balance ($245M) + audited escrow receivables ($490M) cover 2.6x the total 2027 Sukuk principal ($280M)"
       }
     },
     "capital_structure_tranches": [
@@ -5918,7 +5929,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Dangote Refinery FY2024 Earnings Conference Call & Strategy Day Deck",
+      "source_deck": "Dangote Refinery & Petrochemicals Integrated Operations & Investor Briefing",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -5951,6 +5962,17 @@ const MASTER_ISSUERS = [
         "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
         "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      },
+      "refinery_commercial_scale_and_yield": {
+        "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos \u2014 world's largest single-train facility",
+        "crude_processing_slate": "Configured to process Nigerian light sweet crudes (Bonny Light, Forcados, Qua Iboe) and global medium sour barrels with maximum distillation efficiency",
+        "transportation_fuels_output": "Capable of producing 330,000 bpd of Euro-V premium gasoline (PMS), 220,000 bpd of Ultra-Low Sulfur Diesel (ULSD), and 50,000 bpd of Aviation Jet A-1",
+        "naira_crude_sales_agreement": "Bespoke agreement with NNPC / Federal Government of Nigeria for 385,000 bpd of domestic crude supply payable in Nigerian Naira (NGN), eliminating foreign exchange rationing risks"
+      },
+      "macroeconomic_and_fx_import_substitution": {
+        "annual_fx_savings_for_nigeria": "$25.0B+ annual reduction in national import bill by substituting refined petroleum imports with domestic production",
+        "regional_west_african_export_hub": "Strategic maritime loading jetty with 6 SPM berths for exporting refined products across West and Central Africa (Ghana, Cote d'Ivoire, Senegal, Cameroon)",
+        "operating_margin_advantage": "Proximity to domestic crude and captive 435 MW power plant provides a $4.50 - $6.00/bbl cash cost advantage over European coastal refineries"
       }
     },
     "capital_structure_tranches": [
@@ -29485,7 +29507,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Ukraine Rail (Ukrzaliznytsia) FY2024 Global Investor Presentation & Infrastructure Review",
+      "source_deck": "Ukrzaliznytsia Wartime Operational Briefing & International Creditor Presentation",
       "reporting_currency": "USD",
       "management_guidance_targets": {
         "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
@@ -29518,6 +29540,24 @@ const MASTER_ISSUERS = [
         "volume_throughput_cadence": "+6.4% YoY gross container/cargo throughput expansion",
         "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
         "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
+      },
+      "wartime_freight_corridors_and_danube_logistics": {
+        "black_sea_humanitarian_corridor": "Full reopening of Greater Odesa deep-water ports (Odesa, Chornomorsk, Pivdennyi) enabling grain export volume recovery to 3.8M tonnes/month by rail",
+        "western_border_crossings_eu": "14 operational rail border crossings with Poland, Romania, Slovakia, and Hungary; ongoing track gauge interchange modernization (1520mm to 1435mm standard gauge)",
+        "danube_river_ports_feeder": "Bespoke rail-to-barge transshipment corridors to Izmail and Reni ports acting as permanent export redundancy",
+        "mineral_and_steel_freight_recovery": "Restoration of rail logistics for Ferrexpo and Metinvest iron ore pellet exports to Central European steelmakers"
+      },
+      "multilateral_donor_grant_pipeline": {
+        "total_committed_grant_envelope": "$1,250M+ in cumulative non-repayable multilateral grants and concessionary soft financing mobilized since 2022",
+        "world_bank_relief_funding": "$230M emergency grant under RELINC project for locomotive acquisition and flatcar procurement",
+        "ebrd_liquidity_and_substation_facility": "EUR 200M emergency liquidity facility + EUR 150M for traction power substation restoration and emergency generators",
+        "eib_eu_solidarity_lanes": "EUR 100M soft loan for cross-border rail infrastructure integration with Trans-European Transport Network (TEN-T)",
+        "usaid_and_kfw_power_equipment": "$225M in direct grants for heavy autotransformers and grid resilience systems"
+      },
+      "freight_tariff_indexation_and_support": {
+        "freight_tariff_increase": "70% blanket indexation across all 29 freight cargo classes granted by Cabinet of Ministers decree",
+        "revenue_impact": "Direct operational cash flow boost offsetting higher traction electricity and diesel fuel costs",
+        "sovereign_guarantee_backing": "100% of multilateral debt service guaranteed by the Ministry of Finance of Ukraine"
       }
     },
     "capital_structure_tranches": [
@@ -30628,109 +30668,167 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
-      "reporting_currency": "USD / Local Currency",
-      "management_guidance_targets": {
-        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
-        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
-        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
-        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+      "reporting_currency": "USD / TRY (with natural USD hedge disclosures)",
+      "generation_fleet_breakdown": {
+        "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) \u2014 Turkey's largest and lowest-cost baseload renewable fleet",
+        "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) \u2014 long-term high wind resource capacity factor (>34%)",
+        "hydroelectric_capacity_hes": "118.6 MW across 7 operating run-of-river and reservoir plants (Ikizdere, Atabey, Camlica, Kuzgun, Mercan, Tercan, Beykoy)",
+        "solar_and_hybrid_capacity": "84.0 MW installed and under development (hybrid solar installations co-located at Kizildere geothermal sites)",
+        "thermal_and_industrial_cogen": "341.0 MW domestic gas cogeneration and district heating (Bursa, Luleburgaz)",
+        "international_power_assets": "290.4 MW total international holdings: 56.4 MW Jhimpir Wind (Pakistan, sovereign USD PPA) + 25.0% equity interest in 840 MW Dorad Energy (Israel, 210 MW net share)"
       },
+      "yekdem_feed_in_tariff_mechanics": {
+        "geothermal_dollar_tariff": "$105.0/MWh base feed-in tariff + up to $27.0/MWh domestic equipment component bonus = $132.0/MWh guaranteed in US Dollars",
+        "wind_dollar_tariff": "$73.0/MWh base tariff + up to $21.0/MWh local blade/tower manufacturing bonus = $94.0/MWh guaranteed in US Dollars",
+        "dollar_natural_hedge_ratio": "68.5% of total power generation cash EBITDA is received in hard currency US Dollars via YEKDEM settlement, fully covering annual USD debt service on project loans and Eurobonds",
+        "yekdem_contract_expiry_schedule": "Kizildere II active through 2026; Alasehir active through 2026; Kizildere III Unit 1 through 2028; Kizildere III Unit 2 through 2029; Gokcedag Wind through 2025 (transitioning to merchant/bilateral contracts)"
+      },
+      "distribution_and_retail_oedas": {
+        "concession_area": "Osmangazi electricity distribution region covering 5 provinces: Afyonkarahisar, Bilecik, Eskisehir, Kutahya, Usak",
+        "customer_reach": "1.95 million registered meters serving a regional population of ~2.9 million",
+        "annual_volume_distributed": "8,650 GWh distributed electricity volume (+3.8% organic growth in 2024)",
+        "regulated_asset_base_rab": "$650.0M equivalent (TRY 22.5B), earning a real pre-tax allowed return on equity (WACC) set by EMRA (12.3% real return)",
+        "inflation_protection": "Distribution tariffs and opex/capex allowances are adjusted monthly for Turkish CPI/PPI, shielding real operating margin against currency depreciation"
+      },
+      "zes_electric_vehicle_charging_network": {
+        "active_charging_sockets": "1,850+ public AC/DC fast-charging sockets operating across all 81 provinces of Turkey",
+        "market_share": "~35% - 38% market share in public DC fast charging, maintaining clear #1 market leadership in Turkey",
+        "european_expansion_electrip": "International EV charging rollout under the Electrip brand with active high-power hubs launched in Italy, France, Poland, Bulgaria, and Greece",
+        "charging_volume_growth": "+78.0% YoY increase in electricity delivered via charging network (transitioning into high-margin recurring cash flow stream)"
+      },
+      "management_guidance_targets": {
+        "2025e_consolidated_revenue": "$1,280M - $1,320M (+8.0% YoY, anchored by high geothermal availability and regulated RAB growth)",
+        "2025e_consolidated_ebitda": "$330M - $350M (26.5% - 27.5% margin, with ~70% derived from USD-pegged YEKDEM and inflation-indexed RAB)",
+        "net_debt_ebitda_deleveraging_target": "Targeting reduction from 4.82x to < 3.50x by end-2025 and < 3.00x by 2026",
+        "capex_discipline_envelope": "Strictly limited to $105M - $115M (focusing on hybrid solar additions at Kizildere and OEDAS mandatory grid reinforcements)",
+        "subsidiary_monetization_catalyst": "Active preparations for IPO or strategic minority sale of Zorlu Yenilenebilir Enerji (renewable generation unit) to pay down $350M+ high-cost debt",
+        "refinancing_and_liability_management": "Refinancing strategy for ZOREN 9.00% 2026 Eurobond ($300M) utilizing ECA facilities, domestic TLREF bonds, and multilateral syndications"
+      },
+      "management_guidance_tracker": [
+        {
+          "guidance_metric": "2025E Full-Year Consolidated Revenue Target",
+          "management_target": "$1,280M - $1,320M (+8.0% YoY)",
+          "current_runrate": "$1,295M annualized (9M24 actuals)",
+          "tracking_status": "On Track",
+          "variance_analysis": "High geothermal plant availability (88.5%) and steady OEDAS distribution volume (+3.8%) tracking in line with guidance envelope."
+        },
+        {
+          "guidance_metric": "2025E Consolidated EBITDA Target",
+          "management_target": "$330M - $350M (26.5% - 27.5% margin)",
+          "current_runrate": "$338M annualized run-rate",
+          "tracking_status": "On Track",
+          "variance_analysis": "USD-denominated YEKDEM cash flows ($105-$132/MWh) generated 68.5% of generation EBITDA, protecting margins against TRY depreciation."
+        },
+        {
+          "guidance_metric": "Consolidated Net Leverage Ceiling",
+          "management_target": "< 3.50x Net Debt / EBITDA",
+          "current_runrate": "4.82x Net Debt / EBITDA (2024A)",
+          "tracking_status": "Under Watch",
+          "variance_analysis": "Elevated leverage due to TRY translation of unhedged debt; deleveraging milestone contingent on executing Zorlu Yenilenebilir equity monetization."
+        },
+        {
+          "guidance_metric": "2025E Strategic Capex Discipline Envelope",
+          "management_target": "< $115.0M maximum capex envelope",
+          "current_runrate": "$108.2M committed / incurred",
+          "tracking_status": "On Track",
+          "variance_analysis": "Discretionary thermal capex frozen; capital deployed exclusively into regulated OEDAS grid capex (RAB-accretive) and Kizildere hybrid solar."
+        },
+        {
+          "guidance_metric": "ZES Electric Vehicle Fast-Charging Sockets",
+          "management_target": "2,200+ public sockets by end-2025",
+          "current_runrate": "1,850 sockets active across 81 provinces",
+          "tracking_status": "Ahead of Target",
+          "variance_analysis": "Consolidated #1 market position in Turkey with 38% market share; Electrip international pilot expanding across Italy, France, and Poland."
+        }
+      ],
       "capex_and_project_pipeline": {
-        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
-        "capital_expenditure_envelope": "$392.0M committed equity and project debt capex over 2025-2027",
-        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
-        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+        "kizildere_hybrid_solar": "50 MW co-located solar PV under construction at Kizildere to utilize existing transmission capacity and boost summer generation",
+        "alasehir_geothermal_expansion": "Preliminary drilling and resource appraisal for Alasehir II geothermal project (potential +30 MW expansion)",
+        "oedas_smart_grid_investments": "TRY 3.8B committed grid modernization and digital substation automation under 4th Tariff Period",
+        "zes_electrip_europe": "Targeting 500 ultra-fast DC charging hubs across Southern and Central Europe by 2026"
       },
       "geographic_and_fx_exposure": {
-        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
-        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
-        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+        "usd_revenue_share": "68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM mechanism",
+        "try_regulated_revenue_share": "31.5% of revenue earned in Turkish Lira via OEDAS/OEPSAS with full CPI inflation pass-through",
+        "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY \u2014 natural dollar hedge covers 100% of USD net interest payments",
+        "fx_risk_mitigation": "Bilateral FX forward hedges covering next 12-month EUR debt principal amortizations"
       },
       "contract_backlog_and_commercial_terms": {
-        "contracted_revenue_backlog": "$21600.0M lifetime contractual revenue commitment",
-        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
-        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+        "contracted_generation_capacity": "643 MW operating under government-backed take-or-pay feed-in tariffs",
+        "offtaker_counterparty": "Republic of Turkey Ministry of Energy and Natural Resources / EPIAS (100% sovereign-backed offtake)",
+        "average_concession_life": "Distribution concession through 2036; Geothermal exploration licenses valid through 2041-2047"
       },
       "liquidity_waterfall": {
-        "unrestricted_cash_and_equivalents": "$240.0M across corporate accounts",
-        "undrawn_revolving_credit_facilities": "$713.0M in multi-currency syndicated credit lines",
-        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
-      },
-      "quarterly_cadence_and_highlights": {
-        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
-        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
-        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+        "unrestricted_cash_reserves": "$240.0M held in tier-1 commercial and state banks (Akbank, Garanti, Isbank)",
+        "undrawn_committed_facilities": "$180.0M undrawn revolving credit lines and overdraft limits",
+        "next_12m_debt_service": "$260.0M scheduled amortization and coupon payments fully covered by internal operating cash flow ($272M CFO)"
       }
     },
     "capital_structure_tranches": [
       {
-        "tranche_name": "ZOREN Benchmark Senior Notes",
+        "tranche_name": "ZOREN 9.000% Senior Notes Due 2026 (Eurobond)",
         "instrument_type": "Senior Unsecured RegS/144A Eurobond",
         "currency": "USD",
-        "amount_issued_usd_m": 802.1,
-        "amount_outstanding_usd_m": 802.1,
-        "coupon": "11.200%",
+        "amount_outstanding_usd_m": 300.0,
+        "coupon": "9.000%",
         "clean_price": 94.5,
         "ytm": 11.2,
         "spread_bp": 680,
-        "maturity_date": "2029-07-25",
-        "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "maturity": "2026-06-01",
+        "seniority": "Senior Unsecured (Pari Passu with Bank Debt)",
+        "governing_law": "English Law / Rule 144A"
       },
       {
-        "tranche_name": "ZOREN Secondary Eurobond / Sukuk Tranche 2",
-        "instrument_type": "Senior Unsecured Notes",
+        "tranche_name": "Kizildere & Alasehir Geothermal Project Finance Facilities",
+        "instrument_type": "Senior Secured Amortizing Project Finance Loans (EBRD / IFC / Commercial)",
         "currency": "USD",
-        "amount_issued_usd_m": 534.7,
-        "amount_outstanding_usd_m": 534.7,
-        "coupon": "10.550%",
-        "clean_price": 96.5,
-        "ytm": 10.549999999999999,
-        "spread_bp": 615,
-        "maturity_date": "2027-10-18",
-        "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "amount_outstanding_usd_m": 720.0,
+        "coupon": "SOFR + 325 bps",
+        "clean_price": 100.0,
+        "ytm": 8.15,
+        "spread_bp": 375,
+        "maturity": "2029-12-31",
+        "seniority": "Senior Secured (First Lien on Geothermal Plant Assets & YEKDEM Cash Accounts)",
+        "governing_law": "English Law / Turkish Security Documentation"
       },
       {
-        "tranche_name": "Syndicated Commercial Bank Term Facility",
-        "instrument_type": "Senior Secured / Priority Amortizing Loan",
-        "currency": "USD / EUR",
-        "amount_issued_usd_m": 347.6,
-        "amount_outstanding_usd_m": 267.4,
-        "coupon": "SOFR + 185 bps",
+        "tranche_name": "OEDAS Regulated Grid Distribution Investment Loans",
+        "instrument_type": "Senior Secured Capex Facilities & TLREF Bonds",
+        "currency": "TRY / EUR",
+        "amount_outstanding_usd_m": 480.0,
+        "coupon": "TLREF + 350 bps / Euribor + 275 bps",
         "clean_price": 100.0,
-        "ytm": 6.85,
-        "spread_bp": 185,
-        "maturity_date": "2031-03-31",
-        "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "ytm": 14.5,
+        "spread_bp": 550,
+        "maturity": "2028-09-30",
+        "seniority": "Senior Secured (Pledge on Regulated Tariff Receivables)",
+        "governing_law": "Turkish Law"
       },
       {
-        "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
-        "instrument_type": "Revolving Working Capital Credit Line",
-        "currency": "USD",
-        "amount_issued_usd_m": 623.7,
-        "amount_outstanding_usd_m": 178.2,
-        "coupon": "SOFR + 150 bps",
+        "tranche_name": "Zorlu Enerji Syndicated Multi-Currency RCF & Bilateral Working Capital",
+        "instrument_type": "Revolving Working Capital Credit Facilities",
+        "currency": "USD / EUR / TRY",
+        "amount_outstanding_usd_m": 282.4,
+        "coupon": "SOFR + 285 bps",
         "clean_price": 100.0,
-        "ytm": 6.5,
-        "spread_bp": 150,
-        "maturity_date": "2028-06-30",
-        "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "ytm": 7.75,
+        "spread_bp": 335,
+        "maturity": "2027-06-30",
+        "seniority": "Senior Unsecured (Pari Passu with Eurobonds)",
+        "governing_law": "Turkish / English Law"
       }
     ],
     "rcf_facility_liquidity": {
-      "facility_name": "ZOREN Syndicated Multi-Currency Revolving Credit Facility (RCF)",
-      "total_committed_capacity_usd_m": 499.1,
-      "drawn_amount_usd_m": 178.2,
-      "undrawn_available_usd_m": 320.9,
-      "drawn_margin": "SOFR + 150 bps",
-      "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
-      "maturity": "2028-06-30 (with two 1-year extension options)",
-      "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
-      "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+      "facility_name": "Zorlu Enerji Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+      "total_committed_capacity_usd_m": 462.4,
+      "drawn_amount_usd_m": 282.4,
+      "undrawn_available_usd_m": 180.0,
+      "drawn_margin": "SOFR + 285 bps / Euribor + 250 bps",
+      "undrawn_commitment_fee": "75.0 bps",
+      "maturity": "2027-06-30 (with 1-year annual extension options)",
+      "syndicate_banks": "Akbank, Garanti BBVA, Turkiye Is Bankasi, Vakifbank, QNB Finansbank",
+      "rcf_financial_covenants": "Semi-annual testing: Consolidated Net Debt / EBITDA <= 5.0x, Minimum Interest Coverage >= 2.0x"
     },
     "covenant_analysis": {
       "debt_incurrence_net_leverage": {
@@ -30766,39 +30864,39 @@ const MASTER_ISSUERS = [
     },
     "management_guidance_tracker": [
       {
-        "guidance_metric": "2025E Full-Year Gross Revenue Target",
-        "management_target": "$1296.0M (+8.0% YoY growth)",
-        "current_runrate": "$1278.0M (+6.5% YoY)",
+        "guidance_metric": "2025E Full-Year Consolidated Revenue Target",
+        "management_target": "$1,280M - $1,320M (+8.0% YoY)",
+        "current_runrate": "$1,295M annualized (9M24 actuals)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "High geothermal plant availability (88.5%) and steady OEDAS distribution volume (+3.8%) tracking in line with guidance envelope."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
-        "management_target": "$352.0M (27.2% margin)",
-        "current_runrate": "$345.6M",
+        "management_target": "$330M - $350M (26.5% - 27.5% margin)",
+        "current_runrate": "$338M annualized run-rate",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "USD-denominated YEKDEM cash flows ($105-$132/MWh) generated 68.5% of generation EBITDA, protecting margins against TRY depreciation."
       },
       {
-        "guidance_metric": "Long-Term Net Leverage Ceiling",
-        "management_target": "< 4.00x Net Debt / EBITDA",
-        "current_runrate": "4.82x",
-        "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with -0.32x buffer below covenant limit."
+        "guidance_metric": "Consolidated Net Leverage Ceiling",
+        "management_target": "< 3.50x Net Debt / EBITDA",
+        "current_runrate": "4.82x Net Debt / EBITDA (2024A)",
+        "tracking_status": "Under Watch",
+        "variance_analysis": "Elevated leverage due to TRY translation of unhedged debt; deleveraging milestone contingent on executing Zorlu Yenilenebilir equity monetization."
       },
       {
-        "guidance_metric": "2025E Strategic Capex Envelope",
-        "management_target": "$117.6M (Maximum growth and sustaining envelope)",
-        "current_runrate": "$108.2M committed",
+        "guidance_metric": "2025E Strategic Capex Discipline Envelope",
+        "management_target": "< $115.0M maximum capex envelope",
+        "current_runrate": "$108.2M committed / incurred",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Discretionary thermal capex frozen; capital deployed exclusively into regulated OEDAS grid capex (RAB-accretive) and Kizildere hybrid solar."
       },
       {
-        "guidance_metric": "Annual Dividend Payout Policy",
-        "management_target": "30% - 40% payout of attributable net profit",
-        "current_runrate": "35% payout policy maintained",
-        "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "guidance_metric": "ZES Electric Vehicle Fast-Charging Sockets",
+        "management_target": "2,200+ public sockets by end-2025",
+        "current_runrate": "1,850 sockets active across 81 provinces",
+        "tracking_status": "Ahead of Target",
+        "variance_analysis": "Consolidated #1 market position in Turkey with 38% market share; Electrip international pilot expanding across Italy, France, and Poland."
       }
     ]
   }

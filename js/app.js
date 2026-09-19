@@ -863,8 +863,54 @@ function renderTable() {
                 </div>
               `;
             })()}
+          <!-- Bespoke Investor Presentation Sections (e.g. Generation Fleet, Tariffs, Escrow, Refineries) -->
+                ${(() => {
+                  const bespokeKeys = Object.keys(ed).filter(k => ![
+                    "source_deck", "reporting_currency", "management_guidance_targets",
+                    "management_guidance_tracker", "capex_and_project_pipeline",
+                    "capital_and_regulatory_targets", "geographic_and_fx_exposure",
+                    "funding_and_liquidity_profile", "contract_backlog_and_commercial_terms",
+                    "asset_quality_and_provisioning", "liquidity_waterfall",
+                    "quarterly_cadence_and_highlights"
+                  ].includes(k));
+                  
+                  if (!bespokeKeys.length) return '';
+                  
+                  return bespokeKeys.map(bKey => {
+                    const bData = ed[bKey] || {};
+                    if (typeof bData !== 'object' || !bData) return '';
+                    
+                    return `
+                      <div style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                          <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
+                            ⚡ ${bKey.replace(/_/g, ' ')}
+                          </h4>
+                          <span class="badge badge-ig">Investor Deck Disclosure</span>
+                        </div>
+                        <table class="drawer-table" style="margin:0;">
+                          <thead>
+                            <tr>
+                              <th style="width:35%;">Asset / Operational Dimension</th>
+                              <th>Management Conference Call & Presentation Disclosure</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            ${Object.entries(bData).map(([k, v]) => `
+                              <tr>
+                                <td style="color:#fff; font-weight:600;">${k.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
+                                <td style="color:#cbd5e1; font-size:11px; line-height:1.5;">${v}</td>
+                              </tr>
+                            `).join('')}
+                          </tbody>
+                        </table>
+                      </div>
+                    `;
+                  }).join('');
+                })()}
+
           </div>
-          
+
           <!-- PANE 5: INSTITUTIONAL INTELLIGENCE & FOOTNOTES -->
           <div class="drawer-pane" data-pane="tab-intel">
             <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap:12px;">

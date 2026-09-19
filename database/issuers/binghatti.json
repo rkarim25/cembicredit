@@ -179,7 +179,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Binghatti Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+    "source_deck": "Binghatti Holding Capital Markets Presentation & Global Sukuk Investor Deck",
     "reporting_currency": "AED / USD",
     "management_guidance_targets": {
       "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
@@ -214,6 +214,17 @@
       "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
       "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
       "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+    },
+    "branded_luxury_residences_portfolio": {
+      "bugatti_residences_by_binghatti": "Ultra-luxury 46-story tower in Business Bay with 182 bespoke units; penthouse sales exceeding AED 9,500/sqft; 100% sold out in phase 1",
+      "mercedes_benz_places": "65-story residential icon in Downtown Dubai overlooking Burj Khalifa; total GDV of AED 3.6B ($980M); presales velocity >85% in first 90 days",
+      "burj_binghatti_jacob_and_co": "Ultra-tall branded residential hyper-tower competing for world's tallest residential crown; exclusive high-net-worth buyer demand from GCC, Europe, and Asia",
+      "branded_sales_margin_premium": "Branded residences achieve 42% - 48% gross margins vs 28% - 32% on standard signature off-plan developments"
+    },
+    "rera_escrow_and_investor_protection": {
+      "escrow_bank_protection": "100% of buyer off-plan payments are deposited directly into designated RERA-monitored escrow accounts at top-tier UAE banks (Emirates NBD, FAB)",
+      "escrow_disbursement_gating": "Funds can only be withdrawn upon audited civil engineering milestone completion verified by Dubai Land Department engineers",
+      "sukuk_payback_liquidity": "Existing cash balance ($245M) + audited escrow receivables ($490M) cover 2.6x the total 2027 Sukuk principal ($280M)"
     }
   },
   "capital_structure_tranches": [

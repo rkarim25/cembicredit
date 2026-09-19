@@ -188,7 +188,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Ukraine Rail (Ukrzaliznytsia) FY2024 Global Investor Presentation & Infrastructure Review",
+    "source_deck": "Ukrzaliznytsia Wartime Operational Briefing & International Creditor Presentation",
     "reporting_currency": "USD",
     "management_guidance_targets": {
       "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
@@ -221,6 +221,24 @@
       "volume_throughput_cadence": "+6.4% YoY gross container/cargo throughput expansion",
       "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
       "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
+    },
+    "wartime_freight_corridors_and_danube_logistics": {
+      "black_sea_humanitarian_corridor": "Full reopening of Greater Odesa deep-water ports (Odesa, Chornomorsk, Pivdennyi) enabling grain export volume recovery to 3.8M tonnes/month by rail",
+      "western_border_crossings_eu": "14 operational rail border crossings with Poland, Romania, Slovakia, and Hungary; ongoing track gauge interchange modernization (1520mm to 1435mm standard gauge)",
+      "danube_river_ports_feeder": "Bespoke rail-to-barge transshipment corridors to Izmail and Reni ports acting as permanent export redundancy",
+      "mineral_and_steel_freight_recovery": "Restoration of rail logistics for Ferrexpo and Metinvest iron ore pellet exports to Central European steelmakers"
+    },
+    "multilateral_donor_grant_pipeline": {
+      "total_committed_grant_envelope": "$1,250M+ in cumulative non-repayable multilateral grants and concessionary soft financing mobilized since 2022",
+      "world_bank_relief_funding": "$230M emergency grant under RELINC project for locomotive acquisition and flatcar procurement",
+      "ebrd_liquidity_and_substation_facility": "EUR 200M emergency liquidity facility + EUR 150M for traction power substation restoration and emergency generators",
+      "eib_eu_solidarity_lanes": "EUR 100M soft loan for cross-border rail infrastructure integration with Trans-European Transport Network (TEN-T)",
+      "usaid_and_kfw_power_equipment": "$225M in direct grants for heavy autotransformers and grid resilience systems"
+    },
+    "freight_tariff_indexation_and_support": {
+      "freight_tariff_increase": "70% blanket indexation across all 29 freight cargo classes granted by Cabinet of Ministers decree",
+      "revenue_impact": "Direct operational cash flow boost offsetting higher traction electricity and diesel fuel costs",
+      "sovereign_guarantee_backing": "100% of multilateral debt service guaranteed by the Ministry of Finance of Ukraine"
     }
   },
   "capital_structure_tranches": [

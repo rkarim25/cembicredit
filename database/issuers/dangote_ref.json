@@ -178,7 +178,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Dangote Refinery FY2024 Earnings Conference Call & Strategy Day Deck",
+    "source_deck": "Dangote Refinery & Petrochemicals Integrated Operations & Investor Briefing",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -211,6 +211,17 @@
       "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
       "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
       "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+    },
+    "refinery_commercial_scale_and_yield": {
+      "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos \u2014 world's largest single-train facility",
+      "crude_processing_slate": "Configured to process Nigerian light sweet crudes (Bonny Light, Forcados, Qua Iboe) and global medium sour barrels with maximum distillation efficiency",
+      "transportation_fuels_output": "Capable of producing 330,000 bpd of Euro-V premium gasoline (PMS), 220,000 bpd of Ultra-Low Sulfur Diesel (ULSD), and 50,000 bpd of Aviation Jet A-1",
+      "naira_crude_sales_agreement": "Bespoke agreement with NNPC / Federal Government of Nigeria for 385,000 bpd of domestic crude supply payable in Nigerian Naira (NGN), eliminating foreign exchange rationing risks"
+    },
+    "macroeconomic_and_fx_import_substitution": {
+      "annual_fx_savings_for_nigeria": "$25.0B+ annual reduction in national import bill by substituting refined petroleum imports with domestic production",
+      "regional_west_african_export_hub": "Strategic maritime loading jetty with 6 SPM berths for exporting refined products across West and Central Africa (Ghana, Cote d'Ivoire, Senegal, Cameroon)",
+      "operating_margin_advantage": "Proximity to domestic crude and captive 435 MW power plant provides a $4.50 - $6.00/bbl cash cost advantage over European coastal refineries"
     }
   },
   "capital_structure_tranches": [
