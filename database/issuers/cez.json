@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "cez",
-    "name": "\u010cEZ Group",
+    "name": "ČEZ Group",
     "ticker": "CEZ",
     "country": "Czech Republic",
     "region": "CEE",
@@ -44,7 +44,20 @@
       "calculated_ebitda": 2730.0,
       "ebitda_reconciliation_variance_usd_m": 40.9,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$40.9M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$40.9M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 286.5,
+      "change_in_working_capital": -13.6,
+      "tax_expense": 243.7,
+      "fcf_conversion_pct": 43.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 2730.0,
+        "capex": 1029.0,
+        "cash_interest": 286.5,
+        "change_in_working_capital": -13.6,
+        "tax": 243.7,
+        "fcf": 1184.4,
+        "formula_check": "2730.0 - 1029.0 - 286.5 - (-13.6) - 243.7 = 1184.4"
+      }
     },
     {
       "period": "2022A",
@@ -71,7 +84,20 @@
       "calculated_ebitda": 3360.0,
       "ebitda_reconciliation_variance_usd_m": 50.4,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 357.8,
+      "change_in_working_capital": -81.5,
+      "tax_expense": 299.1,
+      "fcf_conversion_pct": 45.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 3360.0,
+        "capex": 1249.5,
+        "cash_interest": 357.8,
+        "change_in_working_capital": -81.5,
+        "tax": 299.1,
+        "fcf": 1535.1,
+        "formula_check": "3360.0 - 1249.5 - 357.8 - (-81.5) - 299.1 = 1535.1"
+      }
     },
     {
       "period": "2023A",
@@ -98,7 +124,20 @@
       "calculated_ebitda": 3780.0,
       "ebitda_reconciliation_variance_usd_m": 56.7,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.7M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.7M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 429.5,
+      "change_in_working_capital": -123.6,
+      "tax_expense": 332.5,
+      "fcf_conversion_pct": 46.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 3780.0,
+        "capex": 1396.5,
+        "cash_interest": 429.5,
+        "change_in_working_capital": -123.6,
+        "tax": 332.5,
+        "fcf": 1745.1,
+        "formula_check": "3780.0 - 1396.5 - 429.5 - (-123.6) - 332.5 = 1745.1"
+      }
     },
     {
       "period": "2024A",
@@ -125,7 +164,20 @@
       "calculated_ebitda": 4200.0,
       "ebitda_reconciliation_variance_usd_m": 63.0,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$63.0M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$63.0M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 477.3,
+      "change_in_working_capital": -216.7,
+      "tax_expense": 369.4,
+      "fcf_conversion_pct": 50.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 4200.0,
+        "capex": 1470.0,
+        "cash_interest": 477.3,
+        "change_in_working_capital": -216.7,
+        "tax": 369.4,
+        "fcf": 2100.0,
+        "formula_check": "4200.0 - 1470.0 - 477.3 - (-216.7) - 369.4 = 2100.0"
+      }
     },
     {
       "period": "2025E",
@@ -152,7 +204,20 @@
       "calculated_ebitda": 4620.0,
       "ebitda_reconciliation_variance_usd_m": 69.3,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.3M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.3M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 458.3,
+      "change_in_working_capital": -181.7,
+      "tax_expense": 416.4,
+      "fcf_conversion_pct": 51.6,
+      "fcf_bridge": {
+        "calculated_ebitda": 4620.0,
+        "capex": 1543.5,
+        "cash_interest": 458.3,
+        "change_in_working_capital": -181.7,
+        "tax": 416.4,
+        "fcf": 2383.5,
+        "formula_check": "4620.0 - 1543.5 - 458.3 - (-181.7) - 416.4 = 2383.5"
+      }
     },
     {
       "period": "2026E",
@@ -179,7 +244,20 @@
       "calculated_ebitda": 4956.0,
       "ebitda_reconciliation_variance_usd_m": 74.3,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$74.3M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$74.3M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 439.0,
+      "change_in_working_capital": -150.1,
+      "tax_expense": 454.5,
+      "fcf_conversion_pct": 54.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 4956.0,
+        "capex": 1499.4,
+        "cash_interest": 439.0,
+        "change_in_working_capital": -150.1,
+        "tax": 454.5,
+        "fcf": 2713.2,
+        "formula_check": "4956.0 - 1499.4 - 439.0 - (-150.1) - 454.5 = 2713.2"
+      }
     },
     {
       "period": "2027E",
@@ -206,7 +284,20 @@
       "calculated_ebitda": 5208.0,
       "ebitda_reconciliation_variance_usd_m": 78.1,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$78.1M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$78.1M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 420.0,
+      "change_in_working_capital": -158.3,
+      "tax_expense": 483.8,
+      "fcf_conversion_pct": 58.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 5208.0,
+        "capex": 1440.6,
+        "cash_interest": 420.0,
+        "change_in_working_capital": -158.3,
+        "tax": 483.8,
+        "fcf": 3021.9,
+        "formula_check": "5208.0 - 1440.6 - 420.0 - (-158.3) - 483.8 = 3021.9"
+      }
     }
   ],
   "supplementary_data": {
@@ -232,12 +323,12 @@
     "recovery_base_pct": 100.5,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Czech Republic Commercial & Bankruptcy Code",
-    "thesis": "Czech integrated utility powerhouse; Temel\u00edn and Dukovany nuclear generation guarantees low-cost baseload."
+    "thesis": "Czech integrated utility powerhouse; Temelín and Dukovany nuclear generation guarantees low-cost baseload."
   },
   "annotations": [
     {
       "issuer_id": "cez",
-      "issuer_name": "\u010cEZ Group",
+      "issuer_name": "ČEZ Group",
       "sector": "Utilities",
       "topic": "Regulated Asset Base & Off-take PPA",
       "source": "Cognitive Credit / Citi",
@@ -245,7 +336,7 @@
     },
     {
       "issuer_id": "cez",
-      "issuer_name": "\u010cEZ Group",
+      "issuer_name": "ČEZ Group",
       "sector": "Utilities",
       "topic": "Capex Phasing & FCF Conversion",
       "source": "Company Filings",
@@ -253,7 +344,7 @@
     },
     {
       "issuer_id": "cez",
-      "issuer_name": "\u010cEZ Group",
+      "issuer_name": "ČEZ Group",
       "sector": "Utilities",
       "topic": "Sovereign Balancing & Guarantees",
       "source": "Ministry of Finance Disclosures",
@@ -261,7 +352,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+    "source_deck": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",

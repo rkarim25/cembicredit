@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "sisecam",
-    "name": "\u015ei\u015fecam",
+    "name": "Şişecam",
     "ticker": "SISE",
     "country": "Turkey",
     "region": "CEEMEA",
@@ -44,7 +44,20 @@
       "calculated_ebitda": 715.0,
       "ebitda_reconciliation_variance_usd_m": 10.7,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$10.7M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$10.7M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 122.2,
+      "change_in_working_capital": -43.6,
+      "tax_expense": 56.7,
+      "fcf_conversion_pct": 43.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 715.0,
+        "capex": 269.5,
+        "cash_interest": 122.2,
+        "change_in_working_capital": -43.6,
+        "tax": 56.7,
+        "fcf": 310.2,
+        "formula_check": "715.0 - 269.5 - 122.2 - (-43.6) - 56.7 = 310.2"
+      }
     },
     {
       "period": "2022A",
@@ -71,7 +84,20 @@
       "calculated_ebitda": 880.0,
       "ebitda_reconciliation_variance_usd_m": 48.4,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$48.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$48.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 152.8,
+      "change_in_working_capital": -71.6,
+      "tax_expense": 69.5,
+      "fcf_conversion_pct": 45.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 880.0,
+        "capex": 327.2,
+        "cash_interest": 152.8,
+        "change_in_working_capital": -71.6,
+        "tax": 69.5,
+        "fcf": 402.1,
+        "formula_check": "880.0 - 327.2 - 152.8 - (-71.6) - 69.5 = 402.1"
+      }
     },
     {
       "period": "2023A",
@@ -98,7 +124,20 @@
       "calculated_ebitda": 990.0,
       "ebitda_reconciliation_variance_usd_m": 54.5,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$54.5M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$54.5M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 183.3,
+      "change_in_working_capital": -92.6,
+      "tax_expense": 76.5,
+      "fcf_conversion_pct": 46.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 990.0,
+        "capex": 365.8,
+        "cash_interest": 183.3,
+        "change_in_working_capital": -92.6,
+        "tax": 76.5,
+        "fcf": 457.0,
+        "formula_check": "990.0 - 365.8 - 183.3 - (-92.6) - 76.5 = 457.0"
+      }
     },
     {
       "period": "2024A",
@@ -125,7 +164,20 @@
       "calculated_ebitda": 1100.0,
       "ebitda_reconciliation_variance_usd_m": 60.5,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$60.5M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$60.5M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 203.7,
+      "change_in_working_capital": -123.6,
+      "tax_expense": 84.9,
+      "fcf_conversion_pct": 50.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 1100.0,
+        "capex": 385.0,
+        "cash_interest": 203.7,
+        "change_in_working_capital": -123.6,
+        "tax": 84.9,
+        "fcf": 550.0,
+        "formula_check": "1100.0 - 385.0 - 203.7 - (-123.6) - 84.9 = 550.0"
+      }
     },
     {
       "period": "2025E",
@@ -152,7 +204,20 @@
       "calculated_ebitda": 1210.0,
       "ebitda_reconciliation_variance_usd_m": 18.1,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.1M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.1M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 195.5,
+      "change_in_working_capital": -111.7,
+      "tax_expense": 97.7,
+      "fcf_conversion_pct": 51.6,
+      "fcf_bridge": {
+        "calculated_ebitda": 1210.0,
+        "capex": 404.2,
+        "cash_interest": 195.5,
+        "change_in_working_capital": -111.7,
+        "tax": 97.7,
+        "fcf": 624.3,
+        "formula_check": "1210.0 - 404.2 - 195.5 - (-111.7) - 97.7 = 624.3"
+      }
     },
     {
       "period": "2026E",
@@ -179,7 +244,20 @@
       "calculated_ebitda": 1298.0,
       "ebitda_reconciliation_variance_usd_m": 19.5,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$19.5M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$19.5M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 187.3,
+      "change_in_working_capital": -100.8,
+      "tax_expense": 108.2,
+      "fcf_conversion_pct": 54.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 1298.0,
+        "capex": 392.7,
+        "cash_interest": 187.3,
+        "change_in_working_capital": -100.8,
+        "tax": 108.2,
+        "fcf": 710.6,
+        "formula_check": "1298.0 - 392.7 - 187.3 - (-100.8) - 108.2 = 710.6"
+      }
     },
     {
       "period": "2027E",
@@ -206,7 +284,20 @@
       "calculated_ebitda": 1364.0,
       "ebitda_reconciliation_variance_usd_m": 20.5,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.5M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.5M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 179.2,
+      "change_in_working_capital": -100.3,
+      "tax_expense": 116.3,
+      "fcf_conversion_pct": 58.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 1364.0,
+        "capex": 377.3,
+        "cash_interest": 179.2,
+        "change_in_working_capital": -100.3,
+        "tax": 116.3,
+        "fcf": 791.5,
+        "formula_check": "1364.0 - 377.3 - 179.2 - (-100.3) - 116.3 = 791.5"
+      }
     }
   ],
   "supplementary_data": {
@@ -236,7 +327,7 @@
   "annotations": [
     {
       "issuer_id": "sisecam",
-      "issuer_name": "\u015ei\u015fecam",
+      "issuer_name": "Şişecam",
       "sector": "Materials",
       "topic": "Global Cost Curve Advantage",
       "source": "Cognitive Credit / CRU Group",
@@ -244,7 +335,7 @@
     },
     {
       "issuer_id": "sisecam",
-      "issuer_name": "\u015ei\u015fecam",
+      "issuer_name": "Şişecam",
       "sector": "Materials",
       "topic": "Hard-Currency Export Share",
       "source": "Audited Financial Statements",
@@ -252,7 +343,7 @@
     },
     {
       "issuer_id": "sisecam",
-      "issuer_name": "\u015ei\u015fecam",
+      "issuer_name": "Şişecam",
       "sector": "Materials",
       "topic": "Strategic Sovereign Resource Moat",
       "source": "Credit Rating Agency Memo",
@@ -260,7 +351,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+    "source_deck": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",

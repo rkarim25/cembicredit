@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "cci",
-    "name": "Coca-Cola \u0130\u00e7ecek (CCI)",
+    "name": "Coca-Cola İçecek (CCI)",
     "ticker": "CCOLA",
     "country": "Turkey",
     "region": "Turkey",
@@ -44,7 +44,20 @@
       "calculated_ebitda": 468.0,
       "ebitda_reconciliation_variance_usd_m": 7.0,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.0M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.0M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 48.5,
+      "change_in_working_capital": -1.8,
+      "tax_expense": 41.9,
+      "fcf_conversion_pct": 43.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 468.0,
+        "capex": 176.4,
+        "cash_interest": 48.5,
+        "change_in_working_capital": -1.8,
+        "tax": 41.9,
+        "fcf": 203.0,
+        "formula_check": "468.0 - 176.4 - 48.5 - (-1.8) - 41.9 = 203.0"
+      }
     },
     {
       "period": "2022A",
@@ -71,7 +84,20 @@
       "calculated_ebitda": 576.0,
       "ebitda_reconciliation_variance_usd_m": 31.7,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$31.7M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$31.7M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 60.7,
+      "change_in_working_capital": -13.5,
+      "tax_expense": 51.4,
+      "fcf_conversion_pct": 45.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 576.0,
+        "capex": 214.2,
+        "cash_interest": 60.7,
+        "change_in_working_capital": -13.5,
+        "tax": 51.4,
+        "fcf": 263.2,
+        "formula_check": "576.0 - 214.2 - 60.7 - (-13.5) - 51.4 = 263.2"
+      }
     },
     {
       "period": "2023A",
@@ -98,7 +124,20 @@
       "calculated_ebitda": 648.0,
       "ebitda_reconciliation_variance_usd_m": 35.6,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$35.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$35.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 72.8,
+      "change_in_working_capital": -20.5,
+      "tax_expense": 57.1,
+      "fcf_conversion_pct": 46.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 648.0,
+        "capex": 239.4,
+        "cash_interest": 72.8,
+        "change_in_working_capital": -20.5,
+        "tax": 57.1,
+        "fcf": 299.2,
+        "formula_check": "648.0 - 239.4 - 72.8 - (-20.5) - 57.1 = 299.2"
+      }
     },
     {
       "period": "2024A",
@@ -125,7 +164,20 @@
       "calculated_ebitda": 720.0,
       "ebitda_reconciliation_variance_usd_m": 39.6,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$39.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$39.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 80.9,
+      "change_in_working_capital": -36.4,
+      "tax_expense": 63.5,
+      "fcf_conversion_pct": 50.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 720.0,
+        "capex": 252.0,
+        "cash_interest": 80.9,
+        "change_in_working_capital": -36.4,
+        "tax": 63.5,
+        "fcf": 360.0,
+        "formula_check": "720.0 - 252.0 - 80.9 - (-36.4) - 63.5 = 360.0"
+      }
     },
     {
       "period": "2025E",
@@ -152,7 +204,20 @@
       "calculated_ebitda": 792.0,
       "ebitda_reconciliation_variance_usd_m": 11.9,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.9M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.9M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 77.6,
+      "change_in_working_capital": -30.3,
+      "tax_expense": 71.5,
+      "fcf_conversion_pct": 51.6,
+      "fcf_bridge": {
+        "calculated_ebitda": 792.0,
+        "capex": 264.6,
+        "cash_interest": 77.6,
+        "change_in_working_capital": -30.3,
+        "tax": 71.5,
+        "fcf": 408.6,
+        "formula_check": "792.0 - 264.6 - 77.6 - (-30.3) - 71.5 = 408.6"
+      }
     },
     {
       "period": "2026E",
@@ -179,7 +244,20 @@
       "calculated_ebitda": 849.6,
       "ebitda_reconciliation_variance_usd_m": 12.7,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.7M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.7M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 74.4,
+      "change_in_working_capital": -25.0,
+      "tax_expense": 78.0,
+      "fcf_conversion_pct": 54.8,
+      "fcf_bridge": {
+        "calculated_ebitda": 849.6,
+        "capex": 257.0,
+        "cash_interest": 74.4,
+        "change_in_working_capital": -25.0,
+        "tax": 78.0,
+        "fcf": 465.2,
+        "formula_check": "849.6 - 257.0 - 74.4 - (-25.0) - 78.0 = 465.2"
+      }
     },
     {
       "period": "2027E",
@@ -206,7 +284,20 @@
       "calculated_ebitda": 892.8,
       "ebitda_reconciliation_variance_usd_m": 13.4,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.4M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.4M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 71.2,
+      "change_in_working_capital": -26.5,
+      "tax_expense": 83.1,
+      "fcf_conversion_pct": 58.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 892.8,
+        "capex": 247.0,
+        "cash_interest": 71.2,
+        "change_in_working_capital": -26.5,
+        "tax": 83.1,
+        "fcf": 518.0,
+        "formula_check": "892.8 - 247.0 - 71.2 - (-26.5) - 83.1 = 518.0"
+      }
     }
   ],
   "supplementary_data": {
@@ -236,7 +327,7 @@
   "annotations": [
     {
       "issuer_id": "cci",
-      "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
+      "issuer_name": "Coca-Cola İçecek (CCI)",
       "sector": "Consumer",
       "topic": "Retail Footprint & Concession Moat",
       "source": "Cognitive Credit / Broker Consensus",
@@ -244,7 +335,7 @@
     },
     {
       "issuer_id": "cci",
-      "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
+      "issuer_name": "Coca-Cola İçecek (CCI)",
       "sector": "Consumer",
       "topic": "Working Capital & Free Cash Flow",
       "source": "Financial Statements",
@@ -252,7 +343,7 @@
     },
     {
       "issuer_id": "cci",
-      "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
+      "issuer_name": "Coca-Cola İçecek (CCI)",
       "sector": "Consumer",
       "topic": "Geographic Diversification",
       "source": "Investor Presentations",
@@ -260,7 +351,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+    "source_deck": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",

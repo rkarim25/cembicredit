@@ -44,7 +44,20 @@
       "calculated_ebitda": 65.0,
       "ebitda_reconciliation_variance_usd_m": 5.5,
       "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$5.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization."
+      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$5.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
+      "cash_interest": 14.6,
+      "change_in_working_capital": -6.9,
+      "tax_expense": 4.6,
+      "fcf_conversion_pct": 43.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 65.0,
+        "capex": 24.5,
+        "cash_interest": 14.6,
+        "change_in_working_capital": -6.9,
+        "tax": 4.6,
+        "fcf": 28.2,
+        "formula_check": "65.0 - 24.5 - 14.6 - (-6.9) - 4.6 = 28.2"
+      }
     },
     {
       "period": "2022A",
@@ -71,7 +84,20 @@
       "calculated_ebitda": 80.0,
       "ebitda_reconciliation_variance_usd_m": 6.8,
       "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$6.8M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization."
+      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$6.8M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
+      "cash_interest": 18.3,
+      "change_in_working_capital": -10.3,
+      "tax_expense": 5.7,
+      "fcf_conversion_pct": 45.6,
+      "fcf_bridge": {
+        "calculated_ebitda": 80.0,
+        "capex": 29.8,
+        "cash_interest": 18.3,
+        "change_in_working_capital": -10.3,
+        "tax": 5.7,
+        "fcf": 36.5,
+        "formula_check": "80.0 - 29.8 - 18.3 - (-10.3) - 5.7 = 36.5"
+      }
     },
     {
       "period": "2023A",
@@ -98,7 +124,20 @@
       "calculated_ebitda": 90.0,
       "ebitda_reconciliation_variance_usd_m": 7.6,
       "ebitda_reconciliation_variance_pct": 8.4,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$7.6M (+8.4%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization."
+      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$7.6M (+8.4%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
+      "cash_interest": 22.0,
+      "change_in_working_capital": -12.9,
+      "tax_expense": 6.1,
+      "fcf_conversion_pct": 46.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 90.0,
+        "capex": 33.2,
+        "cash_interest": 22.0,
+        "change_in_working_capital": -12.9,
+        "tax": 6.1,
+        "fcf": 41.6,
+        "formula_check": "90.0 - 33.2 - 22.0 - (-12.9) - 6.1 = 41.6"
+      }
     },
     {
       "period": "2024A",
@@ -125,7 +164,20 @@
       "calculated_ebitda": 100.0,
       "ebitda_reconciliation_variance_usd_m": 8.5,
       "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$8.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization."
+      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$8.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
+      "cash_interest": 24.4,
+      "change_in_working_capital": -16.2,
+      "tax_expense": 6.8,
+      "fcf_conversion_pct": 50.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 100.0,
+        "capex": 35.0,
+        "cash_interest": 24.4,
+        "change_in_working_capital": -16.2,
+        "tax": 6.8,
+        "fcf": 50.0,
+        "formula_check": "100.0 - 35.0 - 24.4 - (-16.2) - 6.8 = 50.0"
+      }
     },
     {
       "period": "2025E",
@@ -152,7 +204,20 @@
       "calculated_ebitda": 110.0,
       "ebitda_reconciliation_variance_usd_m": 9.3,
       "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$9.3M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization."
+      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$9.3M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
+      "cash_interest": 23.4,
+      "change_in_working_capital": -14.9,
+      "tax_expense": 8.0,
+      "fcf_conversion_pct": 51.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 110.0,
+        "capex": 36.8,
+        "cash_interest": 23.4,
+        "change_in_working_capital": -14.9,
+        "tax": 8.0,
+        "fcf": 56.7,
+        "formula_check": "110.0 - 36.8 - 23.4 - (-14.9) - 8.0 = 56.7"
+      }
     },
     {
       "period": "2026E",
@@ -179,7 +244,20 @@
       "calculated_ebitda": 118.0,
       "ebitda_reconciliation_variance_usd_m": 10.0,
       "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$10.0M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization."
+      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$10.0M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
+      "cash_interest": 22.4,
+      "change_in_working_capital": -13.7,
+      "tax_expense": 9.0,
+      "fcf_conversion_pct": 54.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 118.0,
+        "capex": 35.7,
+        "cash_interest": 22.4,
+        "change_in_working_capital": -13.7,
+        "tax": 9.0,
+        "fcf": 64.6,
+        "formula_check": "118.0 - 35.7 - 22.4 - (-13.7) - 9.0 = 64.6"
+      }
     },
     {
       "period": "2027E",
@@ -206,7 +284,20 @@
       "calculated_ebitda": 124.0,
       "ebitda_reconciliation_variance_usd_m": 10.5,
       "ebitda_reconciliation_variance_pct": 8.5,
-      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$10.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization."
+      "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$10.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
+      "cash_interest": 21.5,
+      "change_in_working_capital": -13.5,
+      "tax_expense": 9.8,
+      "fcf_conversion_pct": 58.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 124.0,
+        "capex": 34.3,
+        "cash_interest": 21.5,
+        "change_in_working_capital": -13.5,
+        "tax": 9.8,
+        "fcf": 71.9,
+        "formula_check": "124.0 - 34.3 - 21.5 - (-13.5) - 9.8 = 71.9"
+      }
     }
   ],
   "supplementary_data": {
@@ -297,7 +388,7 @@
       "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
     },
     "refinery_commercial_scale_and_yield": {
-      "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos \u2014 world's largest single-train facility",
+      "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos — world's largest single-train facility",
       "crude_processing_slate": "Configured to process Nigerian light sweet crudes (Bonny Light, Forcados, Qua Iboe) and global medium sour barrels with maximum distillation efficiency",
       "transportation_fuels_output": "Capable of producing 330,000 bpd of Euro-V premium gasoline (PMS), 220,000 bpd of Ultra-Low Sulfur Diesel (ULSD), and 50,000 bpd of Aviation Jet A-1",
       "naira_crude_sales_agreement": "Bespoke agreement with NNPC / Federal Government of Nigeria for 385,000 bpd of domestic crude supply payable in Nigerian Naira (NGN), eliminating foreign exchange rationing risks"

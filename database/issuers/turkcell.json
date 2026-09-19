@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "turkcell",
-    "name": "Turkcell \u0130leti\u015fim",
+    "name": "Turkcell İletişim",
     "ticker": "TCELL",
     "country": "Turkey",
     "region": "Turkey",
@@ -44,7 +44,20 @@
       "calculated_ebitda": 1137.5,
       "ebitda_reconciliation_variance_usd_m": 17.1,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.1M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.1M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 169.3,
+      "change_in_working_capital": -48.0,
+      "tax_expense": 94.0,
+      "fcf_conversion_pct": 43.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 1137.5,
+        "capex": 428.8,
+        "cash_interest": 169.3,
+        "change_in_working_capital": -48.0,
+        "tax": 94.0,
+        "fcf": 493.4,
+        "formula_check": "1137.5 - 428.8 - 169.3 - (-48.0) - 94.0 = 493.4"
+      }
     },
     {
       "period": "2022A",
@@ -71,7 +84,20 @@
       "calculated_ebitda": 1400.0,
       "ebitda_reconciliation_variance_usd_m": 77.0,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$77.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$77.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 211.8,
+      "change_in_working_capital": -87.2,
+      "tax_expense": 115.2,
+      "fcf_conversion_pct": 45.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 1400.0,
+        "capex": 520.6,
+        "cash_interest": 211.8,
+        "change_in_working_capital": -87.2,
+        "tax": 115.2,
+        "fcf": 639.6,
+        "formula_check": "1400.0 - 520.6 - 211.8 - (-87.2) - 115.2 = 639.6"
+      }
     },
     {
       "period": "2023A",
@@ -98,7 +124,20 @@
       "calculated_ebitda": 1575.0,
       "ebitda_reconciliation_variance_usd_m": 86.6,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$86.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$86.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 254.0,
+      "change_in_working_capital": -115.3,
+      "tax_expense": 127.3,
+      "fcf_conversion_pct": 46.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 1575.0,
+        "capex": 581.9,
+        "cash_interest": 254.0,
+        "change_in_working_capital": -115.3,
+        "tax": 127.3,
+        "fcf": 727.1,
+        "formula_check": "1575.0 - 581.9 - 254.0 - (-115.3) - 127.3 = 727.1"
+      }
     },
     {
       "period": "2024A",
@@ -125,7 +164,20 @@
       "calculated_ebitda": 1750.0,
       "ebitda_reconciliation_variance_usd_m": 96.2,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$96.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$96.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 282.3,
+      "change_in_working_capital": -161.2,
+      "tax_expense": 141.4,
+      "fcf_conversion_pct": 50.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 1750.0,
+        "capex": 612.5,
+        "cash_interest": 282.3,
+        "change_in_working_capital": -161.2,
+        "tax": 141.4,
+        "fcf": 875.0,
+        "formula_check": "1750.0 - 612.5 - 282.3 - (-161.2) - 141.4 = 875.0"
+      }
     },
     {
       "period": "2025E",
@@ -152,7 +204,20 @@
       "calculated_ebitda": 1925.0,
       "ebitda_reconciliation_variance_usd_m": 28.9,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$28.9M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$28.9M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 271.1,
+      "change_in_working_capital": -143.9,
+      "tax_expense": 161.5,
+      "fcf_conversion_pct": 51.6,
+      "fcf_bridge": {
+        "calculated_ebitda": 1925.0,
+        "capex": 643.1,
+        "cash_interest": 271.1,
+        "change_in_working_capital": -143.9,
+        "tax": 161.5,
+        "fcf": 993.2,
+        "formula_check": "1925.0 - 643.1 - 271.1 - (-143.9) - 161.5 = 993.2"
+      }
     },
     {
       "period": "2026E",
@@ -179,7 +244,20 @@
       "calculated_ebitda": 2065.0,
       "ebitda_reconciliation_variance_usd_m": 31.0,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.0M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.0M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 259.7,
+      "change_in_working_capital": -127.8,
+      "tax_expense": 177.9,
+      "fcf_conversion_pct": 54.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 2065.0,
+        "capex": 624.8,
+        "cash_interest": 259.7,
+        "change_in_working_capital": -127.8,
+        "tax": 177.9,
+        "fcf": 1130.4,
+        "formula_check": "2065.0 - 624.8 - 259.7 - (-127.8) - 177.9 = 1130.4"
+      }
     },
     {
       "period": "2027E",
@@ -206,7 +284,20 @@
       "calculated_ebitda": 2170.0,
       "ebitda_reconciliation_variance_usd_m": 32.5,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$32.5M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$32.5M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 248.3,
+      "change_in_working_capital": -128.3,
+      "tax_expense": 190.6,
+      "fcf_conversion_pct": 58.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 2170.0,
+        "capex": 600.2,
+        "cash_interest": 248.3,
+        "change_in_working_capital": -128.3,
+        "tax": 190.6,
+        "fcf": 1259.2,
+        "formula_check": "2170.0 - 600.2 - 248.3 - (-128.3) - 190.6 = 1259.2"
+      }
     }
   ],
   "supplementary_data": {
@@ -237,7 +328,7 @@
   "annotations": [
     {
       "issuer_id": "turkcell",
-      "issuer_name": "Turkcell \u0130leti\u015fim",
+      "issuer_name": "Turkcell İletişim",
       "sector": "Technology",
       "topic": "Master Lease Agreements & Indexation",
       "source": "Cognitive Credit / Arqaam",
@@ -245,7 +336,7 @@
     },
     {
       "issuer_id": "turkcell",
-      "issuer_name": "Turkcell \u0130leti\u015fim",
+      "issuer_name": "Turkcell İletişim",
       "sector": "Technology",
       "topic": "Tenancy Ratio & Organic Leverage",
       "source": "Company Disclosures",
@@ -253,7 +344,7 @@
     },
     {
       "issuer_id": "turkcell",
-      "issuer_name": "Turkcell \u0130leti\u015fim",
+      "issuer_name": "Turkcell İletişim",
       "sector": "Technology",
       "topic": "Contracted Revenue Backlog",
       "source": "Investor Presentations",
@@ -261,7 +352,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+    "source_deck": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",

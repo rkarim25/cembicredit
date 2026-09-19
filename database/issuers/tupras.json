@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "tupras",
-    "name": "T\u00fcpra\u015f (Turkish Petroleum)",
+    "name": "Tüpraş (Turkish Petroleum)",
     "ticker": "TUPRAS",
     "country": "Turkey",
     "region": "Turkey",
@@ -44,7 +44,20 @@
       "calculated_ebitda": 1170.0,
       "ebitda_reconciliation_variance_usd_m": 17.5,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.5M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.5M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 144.1,
+      "change_in_working_capital": -23.9,
+      "tax_expense": 101.2,
+      "fcf_conversion_pct": 43.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 1170.0,
+        "capex": 441.0,
+        "cash_interest": 144.1,
+        "change_in_working_capital": -23.9,
+        "tax": 101.2,
+        "fcf": 507.6,
+        "formula_check": "1170.0 - 441.0 - 144.1 - (-23.9) - 101.2 = 507.6"
+      }
     },
     {
       "period": "2022A",
@@ -71,7 +84,20 @@
       "calculated_ebitda": 1440.0,
       "ebitda_reconciliation_variance_usd_m": 79.2,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$79.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$79.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 180.0,
+      "change_in_working_capital": -57.6,
+      "tax_expense": 124.2,
+      "fcf_conversion_pct": 45.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 1440.0,
+        "capex": 535.5,
+        "cash_interest": 180.0,
+        "change_in_working_capital": -57.6,
+        "tax": 124.2,
+        "fcf": 657.9,
+        "formula_check": "1440.0 - 535.5 - 180.0 - (-57.6) - 124.2 = 657.9"
+      }
     },
     {
       "period": "2023A",
@@ -98,7 +124,20 @@
       "calculated_ebitda": 1620.0,
       "ebitda_reconciliation_variance_usd_m": 89.1,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$89.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$89.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 216.0,
+      "change_in_working_capital": -80.1,
+      "tax_expense": 137.7,
+      "fcf_conversion_pct": 46.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 1620.0,
+        "capex": 598.5,
+        "cash_interest": 216.0,
+        "change_in_working_capital": -80.1,
+        "tax": 137.7,
+        "fcf": 747.9,
+        "formula_check": "1620.0 - 598.5 - 216.0 - (-80.1) - 137.7 = 747.9"
+      }
     },
     {
       "period": "2024A",
@@ -125,7 +164,20 @@
       "calculated_ebitda": 1800.0,
       "ebitda_reconciliation_variance_usd_m": 99.0,
       "ebitda_reconciliation_variance_pct": 5.5,
-      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$99.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses."
+      "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$99.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
+      "cash_interest": 240.0,
+      "change_in_working_capital": -123.0,
+      "tax_expense": 153.0,
+      "fcf_conversion_pct": 50.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 1800.0,
+        "capex": 630.0,
+        "cash_interest": 240.0,
+        "change_in_working_capital": -123.0,
+        "tax": 153.0,
+        "fcf": 900.0,
+        "formula_check": "1800.0 - 630.0 - 240.0 - (-123.0) - 153.0 = 900.0"
+      }
     },
     {
       "period": "2025E",
@@ -152,7 +204,20 @@
       "calculated_ebitda": 1980.0,
       "ebitda_reconciliation_variance_usd_m": 29.7,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$29.7M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$29.7M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 230.5,
+      "change_in_working_capital": -106.8,
+      "tax_expense": 173.3,
+      "fcf_conversion_pct": 51.6,
+      "fcf_bridge": {
+        "calculated_ebitda": 1980.0,
+        "capex": 661.5,
+        "cash_interest": 230.5,
+        "change_in_working_capital": -106.8,
+        "tax": 173.3,
+        "fcf": 1021.5,
+        "formula_check": "1980.0 - 661.5 - 230.5 - (-106.8) - 173.3 = 1021.5"
+      }
     },
     {
       "period": "2026E",
@@ -179,7 +244,20 @@
       "calculated_ebitda": 2124.0,
       "ebitda_reconciliation_variance_usd_m": 31.9,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.9M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.9M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 220.8,
+      "change_in_working_capital": -92.1,
+      "tax_expense": 189.9,
+      "fcf_conversion_pct": 54.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 2124.0,
+        "capex": 642.6,
+        "cash_interest": 220.8,
+        "change_in_working_capital": -92.1,
+        "tax": 189.9,
+        "fcf": 1162.8,
+        "formula_check": "2124.0 - 642.6 - 220.8 - (-92.1) - 189.9 = 1162.8"
+      }
     },
     {
       "period": "2027E",
@@ -206,7 +284,20 @@
       "calculated_ebitda": 2232.0,
       "ebitda_reconciliation_variance_usd_m": 33.5,
       "ebitda_reconciliation_variance_pct": 1.5,
-      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.5M) of Calculated EBITDA with zero aggressive management add-backs."
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.5M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 211.2,
+      "change_in_working_capital": -94.4,
+      "tax_expense": 202.7,
+      "fcf_conversion_pct": 58.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 2232.0,
+        "capex": 617.4,
+        "cash_interest": 211.2,
+        "change_in_working_capital": -94.4,
+        "tax": 202.7,
+        "fcf": 1295.1,
+        "formula_check": "2232.0 - 617.4 - 211.2 - (-94.4) - 202.7 = 1295.1"
+      }
     }
   ],
   "supplementary_data": {
@@ -233,12 +324,12 @@
     "recovery_base_pct": 101.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Ko\u00e7 Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
+    "thesis": "Koç Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
   },
   "annotations": [
     {
       "issuer_id": "tupras",
-      "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
+      "issuer_name": "Tüpraş (Turkish Petroleum)",
       "sector": "Energy",
       "topic": "Offshore Debt Escrow Routing",
       "source": "Cognitive Credit / Morgan Stanley",
@@ -246,7 +337,7 @@
     },
     {
       "issuer_id": "tupras",
-      "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
+      "issuer_name": "Tüpraş (Turkish Petroleum)",
       "sector": "Energy",
       "topic": "Lifting Costs & Break-even Floor",
       "source": "Wood Mackenzie Benchmarking",
@@ -254,7 +345,7 @@
     },
     {
       "issuer_id": "tupras",
-      "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
+      "issuer_name": "Tüpraş (Turkish Petroleum)",
       "sector": "Energy",
       "topic": "Commercial Reserve Life (1P/2P)",
       "source": "DeGolyer and MacNaughton / Ryder Scott",
@@ -262,7 +353,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+    "source_deck": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",

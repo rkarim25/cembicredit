@@ -44,7 +44,20 @@
       "calculated_ebitda": 485.0,
       "ebitda_reconciliation_variance_usd_m": 9.7,
       "ebitda_reconciliation_variance_pct": 2.0,
-      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$9.7M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements."
+      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$9.7M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
+      "cash_interest": 125.0,
+      "change_in_working_capital": -82.2,
+      "tax_expense": 32.2,
+      "fcf_conversion_pct": 26.8,
+      "fcf_bridge": {
+        "calculated_ebitda": 485.0,
+        "capex": 280.0,
+        "cash_interest": 125.0,
+        "change_in_working_capital": -82.2,
+        "tax": 32.2,
+        "fcf": 130.0,
+        "formula_check": "485.0 - 280.0 - 125.0 - (-82.2) - 32.2 = 130.0"
+      }
     },
     {
       "period": "2022A",
@@ -71,7 +84,20 @@
       "calculated_ebitda": 190.0,
       "ebitda_reconciliation_variance_usd_m": 35.2,
       "ebitda_reconciliation_variance_pct": 18.5,
-      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$35.2M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow."
+      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$35.2M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow.",
+      "cash_interest": 115.2,
+      "change_in_working_capital": -167.9,
+      "tax_expense": 2.7,
+      "fcf_conversion_pct": -55.3,
+      "fcf_bridge": {
+        "calculated_ebitda": 190.0,
+        "capex": 345.0,
+        "cash_interest": 115.2,
+        "change_in_working_capital": -167.9,
+        "tax": 2.7,
+        "fcf": -105.0,
+        "formula_check": "190.0 - 345.0 - 115.2 - (-167.9) - 2.7 = -105.0"
+      }
     },
     {
       "period": "2023A",
@@ -98,7 +124,20 @@
       "calculated_ebitda": 340.0,
       "ebitda_reconciliation_variance_usd_m": 62.9,
       "ebitda_reconciliation_variance_pct": 18.5,
-      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$62.9M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow."
+      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$62.9M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow.",
+      "cash_interest": 129.8,
+      "change_in_working_capital": -186.0,
+      "tax_expense": 16.2,
+      "fcf_conversion_pct": 4.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 340.0,
+        "capex": 365.0,
+        "cash_interest": 129.8,
+        "change_in_working_capital": -186.0,
+        "tax": 16.2,
+        "fcf": 15.0,
+        "formula_check": "340.0 - 365.0 - 129.8 - (-186.0) - 16.2 = 15.0"
+      }
     },
     {
       "period": "2024A",
@@ -125,7 +164,20 @@
       "calculated_ebitda": 380.0,
       "ebitda_reconciliation_variance_usd_m": 70.3,
       "ebitda_reconciliation_variance_pct": 18.5,
-      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$70.3M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow."
+      "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$70.3M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow.",
+      "cash_interest": 135.2,
+      "change_in_working_capital": -194.8,
+      "tax_expense": 19.6,
+      "fcf_conversion_pct": 5.3,
+      "fcf_bridge": {
+        "calculated_ebitda": 380.0,
+        "capex": 400.0,
+        "cash_interest": 135.2,
+        "change_in_working_capital": -194.8,
+        "tax": 19.6,
+        "fcf": 20.0,
+        "formula_check": "380.0 - 400.0 - 135.2 - (-194.8) - 19.6 = 20.0"
+      }
     },
     {
       "period": "2025E",
@@ -152,7 +204,20 @@
       "calculated_ebitda": 440.0,
       "ebitda_reconciliation_variance_usd_m": 8.8,
       "ebitda_reconciliation_variance_pct": 2.0,
-      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$8.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements."
+      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$8.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
+      "cash_interest": 140.1,
+      "change_in_working_capital": -185.3,
+      "tax_expense": 25.2,
+      "fcf_conversion_pct": 13.6,
+      "fcf_bridge": {
+        "calculated_ebitda": 440.0,
+        "capex": 400.0,
+        "cash_interest": 140.1,
+        "change_in_working_capital": -185.3,
+        "tax": 25.2,
+        "fcf": 60.0,
+        "formula_check": "440.0 - 400.0 - 140.1 - (-185.3) - 25.2 = 60.0"
+      }
     },
     {
       "period": "2026E",
@@ -179,7 +244,20 @@
       "calculated_ebitda": 510.0,
       "ebitda_reconciliation_variance_usd_m": 10.2,
       "ebitda_reconciliation_variance_pct": 2.0,
-      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$10.2M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements."
+      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$10.2M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
+      "cash_interest": 130.1,
+      "change_in_working_capital": -174.1,
+      "tax_expense": 34.0,
+      "fcf_conversion_pct": 23.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 510.0,
+        "capex": 400.0,
+        "cash_interest": 130.1,
+        "change_in_working_capital": -174.1,
+        "tax": 34.0,
+        "fcf": 120.0,
+        "formula_check": "510.0 - 400.0 - 130.1 - (-174.1) - 34.0 = 120.0"
+      }
     },
     {
       "period": "2027E",
@@ -206,7 +284,20 @@
       "calculated_ebitda": 590.0,
       "ebitda_reconciliation_variance_usd_m": 11.8,
       "ebitda_reconciliation_variance_pct": 2.0,
-      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$11.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements."
+      "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$11.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
+      "cash_interest": 119.9,
+      "change_in_working_capital": -163.9,
+      "tax_expense": 44.0,
+      "fcf_conversion_pct": 32.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 590.0,
+        "capex": 400.0,
+        "cash_interest": 119.9,
+        "change_in_working_capital": -163.9,
+        "tax": 44.0,
+        "fcf": 190.0,
+        "formula_check": "590.0 - 400.0 - 119.9 - (-163.9) - 44.0 = 190.0"
+      }
     }
   ],
   "supplementary_data": {

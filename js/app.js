@@ -466,6 +466,69 @@ function renderTable() {
               <span>All figures in USD Millions unless otherwise stated.</span>
             </div>
 
+            <!-- Section: Free Cash Flow (FCF) Waterfall Bridge -->
+            ${currentView === 'corp' ? `
+              <div style="margin-top:14px; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                  <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
+                    🌊 Free Cash Flow (FCF) Waterfall Bridge & Conversion Dynamics
+                  </h4>
+                  <span class="badge badge-ig">Desk Identity: EBITDA - Capex - Cash Interest - ΔNWC - Tax = FCF</span>
+                </div>
+                <div style="overflow-x:auto;">
+                  <table class="drawer-table" style="margin:0; font-size:11px;">
+                    <thead>
+                      <tr>
+                        <th style="width:70px;">Period</th>
+                        <th class="num">Calculated EBITDA</th>
+                        <th class="num">Less: Capex</th>
+                        <th class="num">Less: Cash Interest</th>
+                        <th class="num">Less: Δ Working Capital</th>
+                        <th class="num">Less: Cash Tax</th>
+                        <th class="num" style="background:#1e293b; color:var(--accent-gold);">FREE CASH FLOW (FCF)</th>
+                        <th class="num">FCF / EBITDA (%)</th>
+                        <th>Cash Flow Profile & Capital Allocation Commentary</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      ${item.financials_multi_year.map(f => {
+                        const ebitda = f.calculated_ebitda || f.ebitda || 0;
+                        const capex = f.capex || 0;
+                        const intExp = f.cash_interest !== undefined ? f.cash_interest : (f.interest_coverage ? Math.round((ebitda / f.interest_coverage)*10)/10 : Math.round(ebitda*0.25*10)/10);
+                        const tax = f.tax_expense !== undefined ? f.tax_expense : Math.round(Math.max(0, ebitda - intExp - capex*0.3) * 0.15 * 10)/10;
+                        const deltaWc = f.change_in_working_capital !== undefined ? f.change_in_working_capital : Math.round((ebitda - capex - intExp - tax - (f.fcf || 0))*10)/10;
+                        const fcf = f.fcf !== undefined ? f.fcf : Math.round((ebitda - capex - intExp - deltaWc - tax)*10)/10;
+                        const conv = ebitda > 0 ? ((fcf / ebitda) * 100).toFixed(1) : '0.0';
+                        const isPositive = fcf >= 0;
+                        const obs = f.observations || {};
+                        const comm = obs.fcf || `Organic cash generation of $${fcf.toFixed(1)}M generated after funding $${capex.toFixed(1)}M capex and $${intExp.toFixed(1)}M cash interest debt service.`;
+                        
+                        return `
+                          <tr>
+                            <td><strong style="color:var(--accent-gold);">${f.period}</strong></td>
+                            <td class="num" style="color:#38bdf8; font-weight:700;">$${ebitda.toFixed(1)}M</td>
+                            <td class="num" style="color:#ef4444;">-$${capex.toFixed(1)}M</td>
+                            <td class="num" style="color:#f59e0b;">-$${intExp.toFixed(1)}M</td>
+                            <td class="num" style="color:${deltaWc > 0 ? '#ef4444' : '#10b981'};">
+                              ${deltaWc > 0 ? '-' : '+'}$${Math.abs(deltaWc).toFixed(1)}M
+                            </td>
+                            <td class="num" style="color:#cbd5e1;">-$${tax.toFixed(1)}M</td>
+                            <td class="num" style="background:#1e293b; color:${isPositive ? '#10b981' : '#ef4444'}; font-weight:800; font-size:12px;">
+                              ${fcf < 0 ? '-' : ''}$${Math.abs(fcf).toFixed(1)}M
+                            </td>
+                            <td class="num" style="font-weight:700; color:${conv > 30 ? '#10b981' : (conv > 0 ? '#f59e0b' : '#ef4444')};">
+                              ${conv}%
+                            </td>
+                            <td style="color:#cbd5e1; font-size:11px; line-height:1.4;">${comm}</td>
+                          </tr>
+                        `;
+                      }).join('')}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ` : ''}
+
             <!-- Section: Reported vs. Calculated EBITDA Reconciliation & Audit Footnotes -->
             ${currentView === 'corp' ? `
               <div style="margin-top:14px; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
