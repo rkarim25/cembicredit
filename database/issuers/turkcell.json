@@ -14,7 +14,7 @@
     "ytm": 6.95,
     "spread_bp": 290,
     "model_file": "Turkcell_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-814c-a20f-eb55f1553927",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turkcell_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

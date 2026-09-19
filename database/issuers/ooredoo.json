@@ -14,7 +14,7 @@
     "ytm": 5.0,
     "spread_bp": 95,
     "model_file": "Ooredoo_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-8104-b0c2-d4771573cd0a",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ooredoo_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

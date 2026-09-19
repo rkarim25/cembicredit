@@ -14,7 +14,7 @@
     "ytm": 5.5,
     "spread_bp": 145,
     "model_file": "MOL_Group_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-8168-8d54-e9b5f3d2a820",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MOL_Group_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

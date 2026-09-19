@@ -14,7 +14,7 @@
     "ytm": 8.5,
     "spread_bp": 445,
     "model_file": "Eskom_Holdings_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-812e-9b74-ebca484805d9",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Eskom_Holdings_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

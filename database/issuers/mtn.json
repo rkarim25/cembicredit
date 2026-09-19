@@ -14,7 +14,7 @@
     "ytm": 6.9,
     "spread_bp": 285,
     "model_file": "MTN_Group_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-81b6-bef6-d0abf799e3d5",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MTN_Group_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

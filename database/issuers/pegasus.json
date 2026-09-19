@@ -14,7 +14,7 @@
     "ytm": 7.65,
     "spread_bp": 360,
     "model_file": "Pegasus_Airlines_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-8107-8fe0-db205df2e609",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Pegasus_Airlines_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

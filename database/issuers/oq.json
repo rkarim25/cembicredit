@@ -14,7 +14,7 @@
     "ytm": 5.9,
     "spread_bp": 185,
     "model_file": "OQ_SAOC_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-810f-bf67-c7d031a7ae6b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OQ_SAOC_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

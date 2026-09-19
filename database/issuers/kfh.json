@@ -14,7 +14,7 @@
     "ytm": 5.2,
     "spread_bp": 115,
     "model_file": "Kuwait_Finance_House_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-812c-8818-fec07f5fdb60",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Kuwait_Finance_House_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

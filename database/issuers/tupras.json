@@ -14,7 +14,7 @@
     "ytm": 7.2,
     "spread_bp": 315,
     "model_file": "Tupras_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-81f7-91db-f79841d25390",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tupras_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

@@ -14,7 +14,7 @@
     "ytm": 5.15,
     "spread_bp": 110,
     "model_file": "Saudi_Electricity_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-8163-b1bb-dffb5ff226e3",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Saudi_Electricity_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

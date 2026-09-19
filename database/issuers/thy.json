@@ -14,7 +14,7 @@
     "ytm": 7.45,
     "spread_bp": 340,
     "model_file": "Turkish_Airlines_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-813e-bd1b-e6fc5ac9fd7f",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turkish_Airlines_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

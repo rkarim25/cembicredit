@@ -14,7 +14,7 @@
     "ytm": 7.15,
     "spread_bp": 310,
     "model_file": "Turk_Telekom_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-81b8-a403-f39bd0b0ad41",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turk_Telekom_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

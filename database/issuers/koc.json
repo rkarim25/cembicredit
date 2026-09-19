@@ -14,7 +14,7 @@
     "ytm": 6.85,
     "spread_bp": 280,
     "model_file": "Koc_Holding_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-8174-b709-ea630f75c350",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Koc_Holding_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },

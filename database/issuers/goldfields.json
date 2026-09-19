@@ -14,7 +14,7 @@
     "ytm": 6.05,
     "spread_bp": 200,
     "model_file": "Gold_Fields_Credit_Model.xlsx",
-    "notion_id": "",
+    "notion_id": "3e01d0ad-68c6-8108-a0bc-e03884d172de",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Gold_Fields_Credit_Model.xlsx",
     "last_updated": "2026-09-19"
   },
