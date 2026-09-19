@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "eskom",
+    "name": "Eskom Holdings",
+    "ticker": "ESKOM",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "B / B-",
+    "tier": "Tier-2",
+    "benchmark_bond": "ESKOM 7.125% 2025",
+    "price": 99.0,
+    "ytm": 8.5,
+    "spread_bp": 445,
+    "model_file": "Eskom_Holdings_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Eskom_Holdings_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 9860.0,
+      "ebitda": 1430.0,
+      "ebitda_margin_pct": 14.5,
+      "cfo": 1159.4,
+      "capex": 539.0,
+      "fcf": 620.4,
+      "cash": 907.5,
+      "gross_debt": 14118.5,
+      "net_debt": 13211.0,
+      "net_leverage": 9.24,
+      "interest_coverage": 1.57
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 11890.0,
+      "ebitda": 1760.0,
+      "ebitda_margin_pct": 14.8,
+      "cfo": 1458.6,
+      "capex": 654.5,
+      "fcf": 804.1,
+      "cash": 1155.0,
+      "gross_debt": 15281.2,
+      "net_debt": 14126.2,
+      "net_leverage": 8.03,
+      "interest_coverage": 1.55
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 13340.0,
+      "ebitda": 1980.0,
+      "ebitda_margin_pct": 14.8,
+      "cfo": 1645.6,
+      "capex": 731.5,
+      "fcf": 914.1,
+      "cash": 1402.5,
+      "gross_debt": 16277.8,
+      "net_debt": 14875.3,
+      "net_leverage": 7.51,
+      "interest_coverage": 1.45
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 14500.0,
+      "ebitda": 2200.0,
+      "ebitda_margin_pct": 15.2,
+      "cfo": 1870.0,
+      "capex": 770.0,
+      "fcf": 1100.0,
+      "cash": 1650.0,
+      "gross_debt": 16610.0,
+      "net_debt": 14960.0,
+      "net_leverage": 6.8,
+      "interest_coverage": 1.45
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 15660.0,
+      "ebitda": 2420.0,
+      "ebitda_margin_pct": 15.5,
+      "cfo": 2057.0,
+      "capex": 808.5,
+      "fcf": 1248.5,
+      "cash": 1947.0,
+      "gross_debt": 16277.8,
+      "net_debt": 14330.8,
+      "net_leverage": 5.92,
+      "interest_coverage": 1.66
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 16675.0,
+      "ebitda": 2596.0,
+      "ebitda_margin_pct": 15.6,
+      "cfo": 2206.6,
+      "capex": 785.4,
+      "fcf": 1421.2,
+      "cash": 2227.5,
+      "gross_debt": 15779.5,
+      "net_debt": 13552.0,
+      "net_leverage": 5.22,
+      "interest_coverage": 1.86
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 17400.0,
+      "ebitda": 2728.0,
+      "ebitda_margin_pct": 15.7,
+      "cfo": 2337.5,
+      "capex": 754.6,
+      "fcf": 1582.9,
+      "cash": 2475.0,
+      "gross_debt": 14949.0,
+      "net_debt": 12474.0,
+      "net_leverage": 4.57,
+      "interest_coverage": 2.04
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 23700.0,
+    "generation_volume_gwh": 85600.0,
+    "renewable_capacity_pct": 65.0,
+    "fx_indexed_tariffs_pct": 82.0,
+    "capacity_utilization_factor_pct": 54.0
+  },
+  "debt_maturities": {
+    "2025": 1795.2,
+    "2026": 2992.0,
+    "2027": 4188.8,
+    "2028": 2692.8,
+    "2029": 1795.2,
+    "2030_plus": 1496.0,
+    "total_outstanding_usd_m": 14960.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 60.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 60.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
+    "thesis": "South Africa's power utility; sovereign debt relief package transferred R254B of debt to national treasury."
+  },
+  "annotations": [
+    {
+      "issuer_id": "eskom",
+      "issuer_name": "Eskom Holdings",
+      "sector": "Utilities",
+      "topic": "Regulated Asset Base & Off-take PPA",
+      "source": "Cognitive Credit / Citi",
+      "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+    },
+    {
+      "issuer_id": "eskom",
+      "issuer_name": "Eskom Holdings",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & FCF Conversion",
+      "source": "Company Filings",
+      "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+    },
+    {
+      "issuer_id": "eskom",
+      "issuer_name": "Eskom Holdings",
+      "sector": "Utilities",
+      "topic": "Sovereign Balancing & Guarantees",
+      "source": "Ministry of Finance Disclosures",
+      "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    }
+  ]
+}

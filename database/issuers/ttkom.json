@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "ttkom",
+    "name": "Türk Telekom",
+    "ticker": "TTKOM",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "BB / BB-",
+    "tier": "Tier-1",
+    "benchmark_bond": "TTKOM 6.875% 2025",
+    "price": 99.8,
+    "ytm": 7.15,
+    "spread_bp": 310,
+    "model_file": "Turk_Telekom_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turk_Telekom_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 2448.0,
+      "ebitda": 877.5,
+      "ebitda_margin_pct": 35.8,
+      "cfo": 711.5,
+      "capex": 330.7,
+      "fcf": 380.8,
+      "cash": 556.9,
+      "gross_debt": 2524.5,
+      "net_debt": 1967.6,
+      "net_leverage": 2.24,
+      "interest_coverage": 5.52
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 2952.0,
+      "ebitda": 1080.0,
+      "ebitda_margin_pct": 36.6,
+      "cfo": 895.1,
+      "capex": 401.6,
+      "fcf": 493.5,
+      "cash": 708.8,
+      "gross_debt": 2732.4,
+      "net_debt": 2023.6,
+      "net_leverage": 1.87,
+      "interest_coverage": 5.44
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 3312.0,
+      "ebitda": 1215.0,
+      "ebitda_margin_pct": 36.7,
+      "cfo": 1009.8,
+      "capex": 448.9,
+      "fcf": 560.9,
+      "cash": 860.6,
+      "gross_debt": 2910.6,
+      "net_debt": 2050.0,
+      "net_leverage": 1.69,
+      "interest_coverage": 5.1
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 3600.0,
+      "ebitda": 1350.0,
+      "ebitda_margin_pct": 37.5,
+      "cfo": 1147.5,
+      "capex": 472.5,
+      "fcf": 675.0,
+      "cash": 1012.5,
+      "gross_debt": 2970.0,
+      "net_debt": 1957.5,
+      "net_leverage": 1.45,
+      "interest_coverage": 5.1
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 3888.0,
+      "ebitda": 1485.0,
+      "ebitda_margin_pct": 38.2,
+      "cfo": 1262.2,
+      "capex": 496.1,
+      "fcf": 766.1,
+      "cash": 1194.8,
+      "gross_debt": 2910.6,
+      "net_debt": 1715.8,
+      "net_leverage": 1.16,
+      "interest_coverage": 5.84
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 4140.0,
+      "ebitda": 1593.0,
+      "ebitda_margin_pct": 38.5,
+      "cfo": 1354.0,
+      "capex": 481.9,
+      "fcf": 872.1,
+      "cash": 1366.9,
+      "gross_debt": 2821.5,
+      "net_debt": 1454.6,
+      "net_leverage": 0.91,
+      "interest_coverage": 6.54
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 4320.0,
+      "ebitda": 1674.0,
+      "ebitda_margin_pct": 38.8,
+      "cfo": 1434.4,
+      "capex": 463.0,
+      "fcf": 971.4,
+      "cash": 1518.8,
+      "gross_debt": 2673.0,
+      "net_debt": 1154.2,
+      "net_leverage": 0.69,
+      "interest_coverage": 7.19
+    }
+  ],
+  "supplementary_data": {
+    "tower_or_subscriber_count": "47.3M Users / Sites",
+    "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
+    "contracted_backlog_years": 8.5,
+    "usd_linked_revenue_pct": 72.0,
+    "churn_pct": 1.1
+  },
+  "debt_maturities": {
+    "2025": 234.9,
+    "2026": 391.5,
+    "2027": 548.1,
+    "2028": 352.3,
+    "2029": 234.9,
+    "2030_plus": 195.8,
+    "total_outstanding_usd_m": 1957.5
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 75.0,
+    "base_case_px": 100.5,
+    "recovery_floor_pct": 75.0,
+    "recovery_base_pct": 100.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Fixed-line telecom monopoly with nationwide fiber backbone; successful maturity refinancing."
+  },
+  "annotations": [
+    {
+      "issuer_id": "ttkom",
+      "issuer_name": "Türk Telekom",
+      "sector": "Technology",
+      "topic": "Master Lease Agreements & Indexation",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+    },
+    {
+      "issuer_id": "ttkom",
+      "issuer_name": "Türk Telekom",
+      "sector": "Technology",
+      "topic": "Tenancy Ratio & Organic Leverage",
+      "source": "Company Disclosures",
+      "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+    },
+    {
+      "issuer_id": "ttkom",
+      "issuer_name": "Türk Telekom",
+      "sector": "Technology",
+      "topic": "Contracted Revenue Backlog",
+      "source": "Investor Presentations",
+      "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    }
+  ]
+}

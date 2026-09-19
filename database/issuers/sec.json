@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "sec",
+    "name": "Saudi Electricity Company (SEC)",
+    "ticker": "SECO",
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "A1 / A",
+    "tier": "Tier-1",
+    "benchmark_bond": "SECO 4.723% 2028",
+    "price": 99.2,
+    "ytm": 5.15,
+    "spread_bp": 110,
+    "model_file": "Saudi_Electricity_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Saudi_Electricity_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 15504.0,
+      "ebitda": 5460.0,
+      "ebitda_margin_pct": 35.2,
+      "cfo": 4426.8,
+      "capex": 2058.0,
+      "fcf": 2368.8,
+      "cash": 3465.0,
+      "gross_debt": 28203.0,
+      "net_debt": 24738.0,
+      "net_leverage": 4.53,
+      "interest_coverage": 4.55
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 18696.0,
+      "ebitda": 6720.0,
+      "ebitda_margin_pct": 35.9,
+      "cfo": 5569.2,
+      "capex": 2499.0,
+      "fcf": 3070.2,
+      "cash": 4410.0,
+      "gross_debt": 30525.6,
+      "net_debt": 26115.6,
+      "net_leverage": 3.89,
+      "interest_coverage": 4.48
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 20976.0,
+      "ebitda": 7560.0,
+      "ebitda_margin_pct": 36.0,
+      "cfo": 6283.2,
+      "capex": 2793.0,
+      "fcf": 3490.2,
+      "cash": 5355.0,
+      "gross_debt": 32516.4,
+      "net_debt": 27161.4,
+      "net_leverage": 3.59,
+      "interest_coverage": 4.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 22800.0,
+      "ebitda": 8400.0,
+      "ebitda_margin_pct": 36.8,
+      "cfo": 7140.0,
+      "capex": 2940.0,
+      "fcf": 4200.0,
+      "cash": 6300.0,
+      "gross_debt": 33180.0,
+      "net_debt": 26880.0,
+      "net_leverage": 3.2,
+      "interest_coverage": 4.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 24624.0,
+      "ebitda": 9240.0,
+      "ebitda_margin_pct": 37.5,
+      "cfo": 7854.0,
+      "capex": 3087.0,
+      "fcf": 4767.0,
+      "cash": 7434.0,
+      "gross_debt": 32516.4,
+      "net_debt": 25082.4,
+      "net_leverage": 2.71,
+      "interest_coverage": 4.81
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 26220.0,
+      "ebitda": 9912.0,
+      "ebitda_margin_pct": 37.8,
+      "cfo": 8425.2,
+      "capex": 2998.8,
+      "fcf": 5426.4,
+      "cash": 8505.0,
+      "gross_debt": 31521.0,
+      "net_debt": 23016.0,
+      "net_leverage": 2.32,
+      "interest_coverage": 5.39
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 27360.0,
+      "ebitda": 10416.0,
+      "ebitda_margin_pct": 38.1,
+      "cfo": 8925.0,
+      "capex": 2881.2,
+      "fcf": 6043.8,
+      "cash": 9450.0,
+      "gross_debt": 29862.0,
+      "net_debt": 20412.0,
+      "net_leverage": 1.96,
+      "interest_coverage": 5.92
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 36980.0,
+    "generation_volume_gwh": 133740.0,
+    "renewable_capacity_pct": 65.0,
+    "fx_indexed_tariffs_pct": 82.0,
+    "capacity_utilization_factor_pct": 54.0
+  },
+  "debt_maturities": {
+    "2025": 3225.6,
+    "2026": 5376.0,
+    "2027": 7526.4,
+    "2028": 4838.4,
+    "2029": 3225.6,
+    "2030_plus": 2688.0,
+    "total_outstanding_usd_m": 26880.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 82.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 82.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Monopoly transmission and distribution grid in Saudi Arabia; explicit sovereign balancing account mechanism."
+  },
+  "annotations": [
+    {
+      "issuer_id": "sec",
+      "issuer_name": "Saudi Electricity Company (SEC)",
+      "sector": "Utilities",
+      "topic": "Regulated Asset Base & Off-take PPA",
+      "source": "Cognitive Credit / Citi",
+      "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+    },
+    {
+      "issuer_id": "sec",
+      "issuer_name": "Saudi Electricity Company (SEC)",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & FCF Conversion",
+      "source": "Company Filings",
+      "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+    },
+    {
+      "issuer_id": "sec",
+      "issuer_name": "Saudi Electricity Company (SEC)",
+      "sector": "Utilities",
+      "topic": "Sovereign Balancing & Guarantees",
+      "source": "Ministry of Finance Disclosures",
+      "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    }
+  ]
+}

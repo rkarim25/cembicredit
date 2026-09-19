@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "pge",
+    "name": "PGE Polska Grupa Energetyczna",
+    "ticker": "PGE",
+    "country": "Poland",
+    "region": "CEE",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "BBB+",
+    "tier": "Tier-1",
+    "benchmark_bond": "PGE 5.125% 2029",
+    "price": 99.2,
+    "ytm": 5.3,
+    "spread_bp": 125,
+    "model_file": "PGE_Poland_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PGE_Poland_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 13260.0,
+      "ebitda": 1820.0,
+      "ebitda_margin_pct": 13.7,
+      "cfo": 1475.6,
+      "capex": 686.0,
+      "fcf": 789.6,
+      "cash": 1155.0,
+      "gross_debt": 6188.0,
+      "net_debt": 5033.0,
+      "net_leverage": 2.77,
+      "interest_coverage": 6.72
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 15990.0,
+      "ebitda": 2240.0,
+      "ebitda_margin_pct": 14.0,
+      "cfo": 1856.4,
+      "capex": 833.0,
+      "fcf": 1023.4,
+      "cash": 1470.0,
+      "gross_debt": 6697.6,
+      "net_debt": 5227.6,
+      "net_leverage": 2.33,
+      "interest_coverage": 6.61
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 17940.0,
+      "ebitda": 2520.0,
+      "ebitda_margin_pct": 14.0,
+      "cfo": 2094.4,
+      "capex": 931.0,
+      "fcf": 1163.4,
+      "cash": 1785.0,
+      "gross_debt": 7134.4,
+      "net_debt": 5349.4,
+      "net_leverage": 2.12,
+      "interest_coverage": 6.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 19500.0,
+      "ebitda": 2800.0,
+      "ebitda_margin_pct": 14.4,
+      "cfo": 2380.0,
+      "capex": 980.0,
+      "fcf": 1400.0,
+      "cash": 2100.0,
+      "gross_debt": 7280.0,
+      "net_debt": 5180.0,
+      "net_leverage": 1.85,
+      "interest_coverage": 6.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 21060.0,
+      "ebitda": 3080.0,
+      "ebitda_margin_pct": 14.6,
+      "cfo": 2618.0,
+      "capex": 1029.0,
+      "fcf": 1589.0,
+      "cash": 2478.0,
+      "gross_debt": 7134.4,
+      "net_debt": 4656.4,
+      "net_leverage": 1.51,
+      "interest_coverage": 7.1
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 22425.0,
+      "ebitda": 3304.0,
+      "ebitda_margin_pct": 14.7,
+      "cfo": 2808.4,
+      "capex": 999.6,
+      "fcf": 1808.8,
+      "cash": 2835.0,
+      "gross_debt": 6916.0,
+      "net_debt": 4081.0,
+      "net_leverage": 1.24,
+      "interest_coverage": 7.95
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 23400.0,
+      "ebitda": 3472.0,
+      "ebitda_margin_pct": 14.8,
+      "cfo": 2975.0,
+      "capex": 960.4,
+      "fcf": 2014.6,
+      "cash": 3150.0,
+      "gross_debt": 6552.0,
+      "net_debt": 3402.0,
+      "net_leverage": 0.98,
+      "interest_coverage": 8.74
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 31700.0,
+    "generation_volume_gwh": 114600.0,
+    "renewable_capacity_pct": 65.0,
+    "fx_indexed_tariffs_pct": 82.0,
+    "capacity_utilization_factor_pct": 54.0
+  },
+  "debt_maturities": {
+    "2025": 621.6,
+    "2026": 1036.0,
+    "2027": 1450.4,
+    "2028": 932.4,
+    "2029": 621.6,
+    "2030_plus": 518.0,
+    "total_outstanding_usd_m": 5180.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 82.0,
+    "base_case_px": 100.8,
+    "recovery_floor_pct": 82.0,
+    "recovery_base_pct": 100.8,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Poland Commercial & Bankruptcy Code",
+    "thesis": "Poland's primary electricity generator and grid operator; accelerating offshore Baltic wind transition."
+  },
+  "annotations": [
+    {
+      "issuer_id": "pge",
+      "issuer_name": "PGE Polska Grupa Energetyczna",
+      "sector": "Utilities",
+      "topic": "Regulated Asset Base & Off-take PPA",
+      "source": "Cognitive Credit / Citi",
+      "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+    },
+    {
+      "issuer_id": "pge",
+      "issuer_name": "PGE Polska Grupa Energetyczna",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & FCF Conversion",
+      "source": "Company Filings",
+      "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+    },
+    {
+      "issuer_id": "pge",
+      "issuer_name": "PGE Polska Grupa Energetyczna",
+      "sector": "Utilities",
+      "topic": "Sovereign Balancing & Guarantees",
+      "source": "Ministry of Finance Disclosures",
+      "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    }
+  ]
+}

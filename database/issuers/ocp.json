@@ -126,10 +126,10 @@
     }
   ],
   "supplementary_data": {
-    "production_capacity_mtpa": 31.0,
-    "hard_currency_export_pct": 78.0,
+    "production_capacity_mtpa": 29.6,
+    "hard_currency_export_pct": 76.0,
     "cash_cost_quartile": "Q1 Global Low Cost",
-    "expansion_capex_usd_m": 1140.0
+    "expansion_capex_usd_m": 1045.0
   },
   "debt_maturities": {
     "2025": 898.6,
@@ -146,51 +146,33 @@
     "recovery_floor_pct": 75.0,
     "recovery_base_pct": 103.0,
     "implied_stress_ev_multiple": 4.2,
-    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "restructuring_framework": "Morocco Commercial & Bankruptcy Code",
     "thesis": "Controls 70% of world's phosphate rock reserves; $3.2B EBITDA (34% margin); >85% hard currency export revenues."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond OCP 6.45% 2034 trading at 99.5."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "ocp",
       "issuer_name": "OCP Group",
       "sector": "Materials",
-      "topic": "Global Cost Curve Position",
-      "source": "Cognitive Credit / Industry Benchmark",
-      "note": "Producer occupies the first quartile (Q1) of the global cash cost curve, securing cash generation across cyclical commodity troughs."
+      "topic": "Global Cost Curve Advantage",
+      "source": "Cognitive Credit / CRU Group",
+      "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
     },
     {
       "issuer_id": "ocp",
       "issuer_name": "OCP Group",
       "sector": "Materials",
-      "topic": "Export Hard-Currency Revenue",
-      "source": "Financial Statements",
-      "note": ">70% of revenues billed in USD/EUR, providing natural hard currency hedge against local currency operating expenses."
+      "topic": "Hard-Currency Export Share",
+      "source": "Audited Financial Statements",
+      "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
     },
     {
       "issuer_id": "ocp",
       "issuer_name": "OCP Group",
       "sector": "Materials",
-      "topic": "Sovereign Strategic Asset",
+      "topic": "Strategic Sovereign Resource Moat",
       "source": "Credit Rating Agency Memo",
-      "note": "Vital foreign exchange earner and national champion; implied sovereign support and infrastructure integration provide strong recovery floor."
+      "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
     }
   ]
 }

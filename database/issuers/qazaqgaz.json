@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "id": "qazaqgaz",
+    "name": "QazaqGaz (KazTransGas)",
+    "ticker": "QAZGAS",
+    "country": "Kazakhstan",
+    "region": "Central Asia",
+    "sector": "Infrastructure",
+    "type": "corp",
+    "rating": "BBB-",
+    "tier": "Tier-1",
+    "benchmark_bond": "QAZGAS 4.375% 2027",
+    "price": 97.2,
+    "ytm": 5.95,
+    "spread_bp": 190,
+    "model_file": "QazaqGaz_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/QazaqGaz_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 1904.0,
+      "ebitda": 552.5,
+      "ebitda_margin_pct": 29.0,
+      "cfo": 447.9,
+      "capex": 208.2,
+      "fcf": 239.7,
+      "cash": 350.6,
+      "gross_debt": 1408.9,
+      "net_debt": 1058.3,
+      "net_leverage": 1.92,
+      "interest_coverage": 7.8
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 2296.0,
+      "ebitda": 680.0,
+      "ebitda_margin_pct": 29.6,
+      "cfo": 563.6,
+      "capex": 252.9,
+      "fcf": 310.7,
+      "cash": 446.2,
+      "gross_debt": 1524.9,
+      "net_debt": 1078.7,
+      "net_leverage": 1.59,
+      "interest_coverage": 7.68
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 2576.0,
+      "ebitda": 765.0,
+      "ebitda_margin_pct": 29.7,
+      "cfo": 635.8,
+      "capex": 282.6,
+      "fcf": 353.2,
+      "cash": 541.9,
+      "gross_debt": 1624.3,
+      "net_debt": 1082.4,
+      "net_leverage": 1.41,
+      "interest_coverage": 7.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 2800.0,
+      "ebitda": 850.0,
+      "ebitda_margin_pct": 30.4,
+      "cfo": 722.5,
+      "capex": 297.5,
+      "fcf": 425.0,
+      "cash": 637.5,
+      "gross_debt": 1657.5,
+      "net_debt": 1020.0,
+      "net_leverage": 1.2,
+      "interest_coverage": 7.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 3024.0,
+      "ebitda": 935.0,
+      "ebitda_margin_pct": 30.9,
+      "cfo": 794.8,
+      "capex": 312.4,
+      "fcf": 482.4,
+      "cash": 752.2,
+      "gross_debt": 1624.3,
+      "net_debt": 872.1,
+      "net_leverage": 0.93,
+      "interest_coverage": 8.25
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 3220.0,
+      "ebitda": 1003.0,
+      "ebitda_margin_pct": 31.1,
+      "cfo": 852.5,
+      "capex": 303.4,
+      "fcf": 549.1,
+      "cash": 860.6,
+      "gross_debt": 1574.6,
+      "net_debt": 714.0,
+      "net_leverage": 0.71,
+      "interest_coverage": 9.23
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 3360.0,
+      "ebitda": 1054.0,
+      "ebitda_margin_pct": 31.4,
+      "cfo": 903.1,
+      "capex": 291.6,
+      "fcf": 611.5,
+      "cash": 956.2,
+      "gross_debt": 1491.8,
+      "net_debt": 535.6,
+      "net_leverage": 0.51,
+      "interest_coverage": 10.15
+    }
+  ],
+  "supplementary_data": {
+    "hard_currency_revenue_pct": 68.0,
+    "concession_life_years": 27.0,
+    "contracted_backlog_usd_m": 5880.0,
+    "utilization_rate_pct": 84.0
+  },
+  "debt_maturities": {
+    "2025": 122.4,
+    "2026": 204.0,
+    "2027": 285.6,
+    "2028": 183.6,
+    "2029": 122.4,
+    "2030_plus": 102.0,
+    "total_outstanding_usd_m": 1020.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 78.0,
+    "base_case_px": 100.8,
+    "recovery_floor_pct": 78.0,
+    "recovery_base_pct": 100.8,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Kazakhstan Commercial & Bankruptcy Code",
+    "thesis": "Monopoly operator of Kazakhstan's gas pipeline network; strategic transit route for Central Asia-China pipeline."
+  },
+  "annotations": [
+    {
+      "issuer_id": "qazaqgaz",
+      "issuer_name": "QazaqGaz (KazTransGas)",
+      "sector": "Infrastructure",
+      "topic": "Concession Duration & Tariff Autonomy",
+      "source": "Cognitive Credit / S&P Global",
+      "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
+    },
+    {
+      "issuer_id": "qazaqgaz",
+      "issuer_name": "QazaqGaz (KazTransGas)",
+      "sector": "Infrastructure",
+      "topic": "Volume Stability & Throughput",
+      "source": "Terminal Authority Disclosures",
+      "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
+    },
+    {
+      "issuer_id": "qazaqgaz",
+      "issuer_name": "QazaqGaz (KazTransGas)",
+      "sector": "Infrastructure",
+      "topic": "Holding Company Structural Priority",
+      "source": "Offering Circular Waterfall",
+      "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
+    }
+  ]
+}

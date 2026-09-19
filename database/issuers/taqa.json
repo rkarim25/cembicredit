@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "taqa",
+    "name": "Abu Dhabi National Energy (TAQA)",
+    "ticker": "TAQA",
+    "country": "UAE",
+    "region": "GCC",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "Aa3 / AA-",
+    "tier": "Tier-1",
+    "benchmark_bond": "TAQA 4.375% 2029",
+    "price": 98.5,
+    "ytm": 4.9,
+    "spread_bp": 85,
+    "model_file": "TAQA_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/TAQA_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 9656.0,
+      "ebitda": 3640.0,
+      "ebitda_margin_pct": 37.7,
+      "cfo": 2951.2,
+      "capex": 1372.0,
+      "fcf": 1579.2,
+      "cash": 2310.0,
+      "gross_debt": 12376.0,
+      "net_debt": 10066.0,
+      "net_leverage": 2.77,
+      "interest_coverage": 9.21
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 11644.0,
+      "ebitda": 4480.0,
+      "ebitda_margin_pct": 38.5,
+      "cfo": 3712.8,
+      "capex": 1666.0,
+      "fcf": 2046.8,
+      "cash": 2940.0,
+      "gross_debt": 13395.2,
+      "net_debt": 10455.2,
+      "net_leverage": 2.33,
+      "interest_coverage": 9.07
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 13064.0,
+      "ebitda": 5040.0,
+      "ebitda_margin_pct": 38.6,
+      "cfo": 4188.8,
+      "capex": 1862.0,
+      "fcf": 2326.8,
+      "cash": 3570.0,
+      "gross_debt": 14268.8,
+      "net_debt": 10698.8,
+      "net_leverage": 2.12,
+      "interest_coverage": 8.5
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 14200.0,
+      "ebitda": 5600.0,
+      "ebitda_margin_pct": 39.4,
+      "cfo": 4760.0,
+      "capex": 1960.0,
+      "fcf": 2800.0,
+      "cash": 4200.0,
+      "gross_debt": 14560.0,
+      "net_debt": 10360.0,
+      "net_leverage": 1.85,
+      "interest_coverage": 8.5
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 15336.0,
+      "ebitda": 6160.0,
+      "ebitda_margin_pct": 40.2,
+      "cfo": 5236.0,
+      "capex": 2058.0,
+      "fcf": 3178.0,
+      "cash": 4956.0,
+      "gross_debt": 14268.8,
+      "net_debt": 9312.8,
+      "net_leverage": 1.51,
+      "interest_coverage": 9.74
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 16330.0,
+      "ebitda": 6608.0,
+      "ebitda_margin_pct": 40.5,
+      "cfo": 5616.8,
+      "capex": 1999.2,
+      "fcf": 3617.6,
+      "cash": 5670.0,
+      "gross_debt": 13832.0,
+      "net_debt": 8162.0,
+      "net_leverage": 1.24,
+      "interest_coverage": 10.9
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 17040.0,
+      "ebitda": 6944.0,
+      "ebitda_margin_pct": 40.8,
+      "cfo": 5950.0,
+      "capex": 1920.8,
+      "fcf": 4029.2,
+      "cash": 6300.0,
+      "gross_debt": 13104.0,
+      "net_debt": 6804.0,
+      "net_leverage": 0.98,
+      "interest_coverage": 11.98
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 23220.0,
+    "generation_volume_gwh": 83860.0,
+    "renewable_capacity_pct": 65.0,
+    "fx_indexed_tariffs_pct": 82.0,
+    "capacity_utilization_factor_pct": 54.0
+  },
+  "debt_maturities": {
+    "2025": 1243.2,
+    "2026": 2072.0,
+    "2027": 2900.8,
+    "2028": 1864.8,
+    "2029": 1243.2,
+    "2030_plus": 1036.0,
+    "total_outstanding_usd_m": 10360.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 86.0,
+    "base_case_px": 100.8,
+    "recovery_floor_pct": 86.0,
+    "recovery_base_pct": 100.8,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Monopoly water and power utility for Abu Dhabi; regulated asset base provides ultra-stable cash flow generation."
+  },
+  "annotations": [
+    {
+      "issuer_id": "taqa",
+      "issuer_name": "Abu Dhabi National Energy (TAQA)",
+      "sector": "Utilities",
+      "topic": "Regulated Asset Base & Off-take PPA",
+      "source": "Cognitive Credit / Citi",
+      "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+    },
+    {
+      "issuer_id": "taqa",
+      "issuer_name": "Abu Dhabi National Energy (TAQA)",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & FCF Conversion",
+      "source": "Company Filings",
+      "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+    },
+    {
+      "issuer_id": "taqa",
+      "issuer_name": "Abu Dhabi National Energy (TAQA)",
+      "sector": "Utilities",
+      "topic": "Sovereign Balancing & Guarantees",
+      "source": "Ministry of Finance Disclosures",
+      "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    }
+  ]
+}

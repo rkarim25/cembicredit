@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "id": "romgaz",
+    "name": "S.N.G.N. Romgaz",
+    "ticker": "ROMGAZ",
+    "country": "Romania",
+    "region": "CEE",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BBB-",
+    "tier": "Tier-1",
+    "benchmark_bond": "ROMGAZ 5.375% 2029",
+    "price": 98.5,
+    "ytm": 5.75,
+    "spread_bp": 170,
+    "model_file": "Romgaz_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Romgaz_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 1428.0,
+      "ebitda": 637.0,
+      "ebitda_margin_pct": 44.6,
+      "cfo": 516.5,
+      "capex": 240.1,
+      "fcf": 276.4,
+      "cash": 404.3,
+      "gross_debt": 1166.2,
+      "net_debt": 761.9,
+      "net_leverage": 1.2,
+      "interest_coverage": 13.0
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1722.0,
+      "ebitda": 784.0,
+      "ebitda_margin_pct": 45.5,
+      "cfo": 649.7,
+      "capex": 291.6,
+      "fcf": 358.1,
+      "cash": 514.5,
+      "gross_debt": 1262.2,
+      "net_debt": 747.7,
+      "net_leverage": 0.95,
+      "interest_coverage": 12.8
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1932.0,
+      "ebitda": 882.0,
+      "ebitda_margin_pct": 45.7,
+      "cfo": 733.0,
+      "capex": 325.8,
+      "fcf": 407.2,
+      "cash": 624.8,
+      "gross_debt": 1344.6,
+      "net_debt": 719.8,
+      "net_leverage": 0.82,
+      "interest_coverage": 12.0
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 2100.0,
+      "ebitda": 980.0,
+      "ebitda_margin_pct": 46.7,
+      "cfo": 833.0,
+      "capex": 343.0,
+      "fcf": 490.0,
+      "cash": 735.0,
+      "gross_debt": 1372.0,
+      "net_debt": 637.0,
+      "net_leverage": 0.65,
+      "interest_coverage": 12.0
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 2268.0,
+      "ebitda": 1078.0,
+      "ebitda_margin_pct": 47.5,
+      "cfo": 916.3,
+      "capex": 360.2,
+      "fcf": 556.1,
+      "cash": 867.3,
+      "gross_debt": 1344.6,
+      "net_debt": 477.3,
+      "net_leverage": 0.44,
+      "interest_coverage": 13.75
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 2415.0,
+      "ebitda": 1156.4,
+      "ebitda_margin_pct": 47.9,
+      "cfo": 982.9,
+      "capex": 349.9,
+      "fcf": 633.0,
+      "cash": 992.3,
+      "gross_debt": 1303.4,
+      "net_debt": 311.1,
+      "net_leverage": 0.27,
+      "interest_coverage": 15.39
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 2520.0,
+      "ebitda": 1215.2,
+      "ebitda_margin_pct": 48.2,
+      "cfo": 1041.2,
+      "capex": 336.1,
+      "fcf": 705.1,
+      "cash": 1102.5,
+      "gross_debt": 1234.8,
+      "net_debt": 132.3,
+      "net_leverage": 0.11,
+      "interest_coverage": 16.91
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 88.2,
+    "lifting_cost_usd_per_boe": 12.5,
+    "realized_price_usd_per_bbl": 78.0,
+    "reserve_life_2p_years": 15.0,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 76.4,
+    "2026": 127.4,
+    "2027": 178.4,
+    "2028": 114.7,
+    "2029": 76.4,
+    "2030_plus": 63.7,
+    "total_outstanding_usd_m": 637.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 82.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 82.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Romania Commercial & Bankruptcy Code",
+    "thesis": "Romania's largest natural gas producer; partner in Black Sea Neptun Deep offshore development."
+  },
+  "annotations": [
+    {
+      "issuer_id": "romgaz",
+      "issuer_name": "S.N.G.N. Romgaz",
+      "sector": "Energy",
+      "topic": "Offshore Debt Escrow Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+    },
+    {
+      "issuer_id": "romgaz",
+      "issuer_name": "S.N.G.N. Romgaz",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even Floor",
+      "source": "Wood Mackenzie Benchmarking",
+      "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+    },
+    {
+      "issuer_id": "romgaz",
+      "issuer_name": "S.N.G.N. Romgaz",
+      "sector": "Energy",
+      "topic": "Commercial Reserve Life (1P/2P)",
+      "source": "DeGolyer and MacNaughton / Ryder Scott",
+      "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    }
+  ]
+}

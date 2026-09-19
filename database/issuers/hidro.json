@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "hidro",
+    "name": "Hidroelectrica",
+    "ticker": "HIDRO",
+    "country": "Romania",
+    "region": "CEE",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "BBB-",
+    "tier": "Tier-1",
+    "benchmark_bond": "HIDRO 5.25% 2029",
+    "price": 99.0,
+    "ytm": 5.5,
+    "spread_bp": 145,
+    "model_file": "Hidroelectrica_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Hidroelectrica_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 1632.0,
+      "ebitda": 1007.5,
+      "ebitda_margin_pct": 61.7,
+      "cfo": 816.9,
+      "capex": 379.8,
+      "fcf": 437.1,
+      "cash": 639.4,
+      "gross_debt": 1515.1,
+      "net_debt": 875.7,
+      "net_leverage": 0.87,
+      "interest_coverage": 16.25
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1968.0,
+      "ebitda": 1240.0,
+      "ebitda_margin_pct": 63.0,
+      "cfo": 1027.7,
+      "capex": 461.1,
+      "fcf": 566.6,
+      "cash": 813.8,
+      "gross_debt": 1639.9,
+      "net_debt": 826.1,
+      "net_leverage": 0.67,
+      "interest_coverage": 16.0
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 2208.0,
+      "ebitda": 1395.0,
+      "ebitda_margin_pct": 63.2,
+      "cfo": 1159.4,
+      "capex": 515.4,
+      "fcf": 644.0,
+      "cash": 988.1,
+      "gross_debt": 1746.8,
+      "net_debt": 758.7,
+      "net_leverage": 0.54,
+      "interest_coverage": 15.0
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 2400.0,
+      "ebitda": 1550.0,
+      "ebitda_margin_pct": 64.6,
+      "cfo": 1317.5,
+      "capex": 542.5,
+      "fcf": 775.0,
+      "cash": 1162.5,
+      "gross_debt": 1782.5,
+      "net_debt": 620.0,
+      "net_leverage": 0.4,
+      "interest_coverage": 15.0
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 2592.0,
+      "ebitda": 1705.0,
+      "ebitda_margin_pct": 65.8,
+      "cfo": 1449.3,
+      "capex": 569.6,
+      "fcf": 879.7,
+      "cash": 1371.8,
+      "gross_debt": 1746.8,
+      "net_debt": 375.0,
+      "net_leverage": 0.22,
+      "interest_coverage": 17.19
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 2760.0,
+      "ebitda": 1829.0,
+      "ebitda_margin_pct": 66.3,
+      "cfo": 1554.6,
+      "capex": 553.4,
+      "fcf": 1001.2,
+      "cash": 1569.4,
+      "gross_debt": 1693.4,
+      "net_debt": 124.0,
+      "net_leverage": 0.07,
+      "interest_coverage": 19.24
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 2880.0,
+      "ebitda": 1922.0,
+      "ebitda_margin_pct": 66.7,
+      "cfo": 1646.9,
+      "capex": 531.6,
+      "fcf": 1115.3,
+      "cash": 1743.8,
+      "gross_debt": 1604.2,
+      "net_debt": 0.0,
+      "net_leverage": 0.0,
+      "interest_coverage": 21.14
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 4340.0,
+    "generation_volume_gwh": 15420.0,
+    "renewable_capacity_pct": 65.0,
+    "fx_indexed_tariffs_pct": 82.0,
+    "capacity_utilization_factor_pct": 54.0
+  },
+  "debt_maturities": {
+    "2025": 74.4,
+    "2026": 124.0,
+    "2027": 173.6,
+    "2028": 111.6,
+    "2029": 74.4,
+    "2030_plus": 62.0,
+    "total_outstanding_usd_m": 620.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 85.0,
+    "base_case_px": 100.8,
+    "recovery_floor_pct": 85.0,
+    "recovery_base_pct": 100.8,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Romania Commercial & Bankruptcy Code",
+    "thesis": "Pure-play hydropower generator in Romania with exceptional 65% EBITDA margin and minimal debt."
+  },
+  "annotations": [
+    {
+      "issuer_id": "hidro",
+      "issuer_name": "Hidroelectrica",
+      "sector": "Utilities",
+      "topic": "Regulated Asset Base & Off-take PPA",
+      "source": "Cognitive Credit / Citi",
+      "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+    },
+    {
+      "issuer_id": "hidro",
+      "issuer_name": "Hidroelectrica",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & FCF Conversion",
+      "source": "Company Filings",
+      "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+    },
+    {
+      "issuer_id": "hidro",
+      "issuer_name": "Hidroelectrica",
+      "sector": "Utilities",
+      "topic": "Sovereign Balancing & Guarantees",
+      "source": "Ministry of Finance Disclosures",
+      "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "mtn",
+    "name": "MTN Group",
+    "ticker": "MTNSJ",
+    "country": "South Africa",
+    "region": "Africa",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "Ba2 / BB+",
+    "tier": "Tier-1",
+    "benchmark_bond": "MTNSJ 6.50% 2026",
+    "price": 99.4,
+    "ytm": 6.9,
+    "spread_bp": 285,
+    "model_file": "MTN_Group_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MTN_Group_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 8024.0,
+      "ebitda": 2925.0,
+      "ebitda_margin_pct": 36.5,
+      "cfo": 2371.5,
+      "capex": 1102.5,
+      "fcf": 1269.0,
+      "cash": 1856.3,
+      "gross_debt": 9180.0,
+      "net_debt": 7323.7,
+      "net_leverage": 2.5,
+      "interest_coverage": 5.85
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 9676.0,
+      "ebitda": 3600.0,
+      "ebitda_margin_pct": 37.2,
+      "cfo": 2983.5,
+      "capex": 1338.8,
+      "fcf": 1644.7,
+      "cash": 2362.5,
+      "gross_debt": 9936.0,
+      "net_debt": 7573.5,
+      "net_leverage": 2.1,
+      "interest_coverage": 5.76
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 10856.0,
+      "ebitda": 4050.0,
+      "ebitda_margin_pct": 37.3,
+      "cfo": 3366.0,
+      "capex": 1496.2,
+      "fcf": 1869.8,
+      "cash": 2868.8,
+      "gross_debt": 10584.0,
+      "net_debt": 7715.2,
+      "net_leverage": 1.9,
+      "interest_coverage": 5.4
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 11800.0,
+      "ebitda": 4500.0,
+      "ebitda_margin_pct": 38.1,
+      "cfo": 3825.0,
+      "capex": 1575.0,
+      "fcf": 2250.0,
+      "cash": 3375.0,
+      "gross_debt": 10800.0,
+      "net_debt": 7425.0,
+      "net_leverage": 1.65,
+      "interest_coverage": 5.4
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 12744.0,
+      "ebitda": 4950.0,
+      "ebitda_margin_pct": 38.8,
+      "cfo": 4207.5,
+      "capex": 1653.8,
+      "fcf": 2553.7,
+      "cash": 3982.5,
+      "gross_debt": 10584.0,
+      "net_debt": 6601.5,
+      "net_leverage": 1.33,
+      "interest_coverage": 6.19
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 13570.0,
+      "ebitda": 5310.0,
+      "ebitda_margin_pct": 39.1,
+      "cfo": 4513.5,
+      "capex": 1606.5,
+      "fcf": 2907.0,
+      "cash": 4556.2,
+      "gross_debt": 10260.0,
+      "net_debt": 5703.8,
+      "net_leverage": 1.07,
+      "interest_coverage": 6.93
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 14160.0,
+      "ebitda": 5580.0,
+      "ebitda_margin_pct": 39.4,
+      "cfo": 4781.2,
+      "capex": 1543.5,
+      "fcf": 3237.7,
+      "cash": 5062.5,
+      "gross_debt": 9720.0,
+      "net_debt": 4657.5,
+      "net_leverage": 0.83,
+      "interest_coverage": 7.61
+    }
+  ],
+  "supplementary_data": {
+    "tower_or_subscriber_count": "112.9M Users / Sites",
+    "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
+    "contracted_backlog_years": 8.5,
+    "usd_linked_revenue_pct": 72.0,
+    "churn_pct": 1.1
+  },
+  "debt_maturities": {
+    "2025": 891.0,
+    "2026": 1485.0,
+    "2027": 2079.0,
+    "2028": 1336.5,
+    "2029": 891.0,
+    "2030_plus": 742.5,
+    "total_outstanding_usd_m": 7425.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 75.0,
+    "base_case_px": 101.2,
+    "recovery_floor_pct": 75.0,
+    "recovery_base_pct": 101.2,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
+    "thesis": "Africa's largest mobile telecommunications provider; mobile money (MoMo) fintech expansion bolsters cash flow."
+  },
+  "annotations": [
+    {
+      "issuer_id": "mtn",
+      "issuer_name": "MTN Group",
+      "sector": "Technology",
+      "topic": "Master Lease Agreements & Indexation",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+    },
+    {
+      "issuer_id": "mtn",
+      "issuer_name": "MTN Group",
+      "sector": "Technology",
+      "topic": "Tenancy Ratio & Organic Leverage",
+      "source": "Company Disclosures",
+      "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+    },
+    {
+      "issuer_id": "mtn",
+      "issuer_name": "MTN Group",
+      "sector": "Technology",
+      "topic": "Contracted Revenue Backlog",
+      "source": "Investor Presentations",
+      "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    }
+  ]
+}

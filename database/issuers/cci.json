@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "id": "cci",
+    "name": "Coca-Cola İçecek (CCI)",
+    "ticker": "CCOLA",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Consumer",
+    "type": "corp",
+    "rating": "BBB- / BBB",
+    "tier": "Tier-1",
+    "benchmark_bond": "CCOLA 4.50% 2029",
+    "price": 97.2,
+    "ytm": 5.35,
+    "spread_bp": 130,
+    "model_file": "Coca_Cola_Icecek_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Coca_Cola_Icecek_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 2584.0,
+      "ebitda": 468.0,
+      "ebitda_margin_pct": 18.1,
+      "cfo": 379.4,
+      "capex": 176.4,
+      "fcf": 203.0,
+      "cash": 297.0,
+      "gross_debt": 1101.6,
+      "net_debt": 804.6,
+      "net_leverage": 1.72,
+      "interest_coverage": 9.64
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 3116.0,
+      "ebitda": 576.0,
+      "ebitda_margin_pct": 18.5,
+      "cfo": 477.4,
+      "capex": 214.2,
+      "fcf": 263.2,
+      "cash": 378.0,
+      "gross_debt": 1192.3,
+      "net_debt": 814.3,
+      "net_leverage": 1.41,
+      "interest_coverage": 9.49
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 3496.0,
+      "ebitda": 648.0,
+      "ebitda_margin_pct": 18.5,
+      "cfo": 538.6,
+      "capex": 239.4,
+      "fcf": 299.2,
+      "cash": 459.0,
+      "gross_debt": 1270.1,
+      "net_debt": 811.1,
+      "net_leverage": 1.25,
+      "interest_coverage": 8.9
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 3800.0,
+      "ebitda": 720.0,
+      "ebitda_margin_pct": 18.9,
+      "cfo": 612.0,
+      "capex": 252.0,
+      "fcf": 360.0,
+      "cash": 540.0,
+      "gross_debt": 1296.0,
+      "net_debt": 756.0,
+      "net_leverage": 1.05,
+      "interest_coverage": 8.9
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 4104.0,
+      "ebitda": 792.0,
+      "ebitda_margin_pct": 19.3,
+      "cfo": 673.2,
+      "capex": 264.6,
+      "fcf": 408.6,
+      "cash": 637.2,
+      "gross_debt": 1270.1,
+      "net_debt": 632.9,
+      "net_leverage": 0.8,
+      "interest_coverage": 10.2
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 4370.0,
+      "ebitda": 849.6,
+      "ebitda_margin_pct": 19.4,
+      "cfo": 722.2,
+      "capex": 257.0,
+      "fcf": 465.2,
+      "cash": 729.0,
+      "gross_debt": 1231.2,
+      "net_debt": 502.2,
+      "net_leverage": 0.59,
+      "interest_coverage": 11.42
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 4560.0,
+      "ebitda": 892.8,
+      "ebitda_margin_pct": 19.6,
+      "cfo": 765.0,
+      "capex": 247.0,
+      "fcf": 518.0,
+      "cash": 810.0,
+      "gross_debt": 1166.4,
+      "net_debt": 356.4,
+      "net_leverage": 0.4,
+      "interest_coverage": 12.54
+    }
+  ],
+  "supplementary_data": {
+    "hard_currency_revenue_pct": 68.0,
+    "concession_life_years": 27.0,
+    "contracted_backlog_usd_m": 7980.0,
+    "utilization_rate_pct": 84.0
+  },
+  "debt_maturities": {
+    "2025": 90.7,
+    "2026": 151.2,
+    "2027": 211.7,
+    "2028": 136.1,
+    "2029": 90.7,
+    "2030_plus": 75.6,
+    "total_outstanding_usd_m": 756.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 82.0,
+    "base_case_px": 100.5,
+    "recovery_floor_pct": 82.0,
+    "recovery_base_pct": 100.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Investment-grade FMCG champion; diversified bottling concessions across Turkey, Pakistan, and Central Asia."
+  },
+  "annotations": [
+    {
+      "issuer_id": "cci",
+      "issuer_name": "Coca-Cola İçecek (CCI)",
+      "sector": "Consumer",
+      "topic": "Retail Footprint & Concession Moat",
+      "source": "Cognitive Credit / Broker Consensus",
+      "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+    },
+    {
+      "issuer_id": "cci",
+      "issuer_name": "Coca-Cola İçecek (CCI)",
+      "sector": "Consumer",
+      "topic": "Working Capital & Free Cash Flow",
+      "source": "Financial Statements",
+      "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+    },
+    {
+      "issuer_id": "cci",
+      "issuer_name": "Coca-Cola İçecek (CCI)",
+      "sector": "Consumer",
+      "topic": "Geographic Diversification",
+      "source": "Investor Presentations",
+      "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+    }
+  ]
+}

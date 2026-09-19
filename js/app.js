@@ -28,6 +28,9 @@ function initScreener() {
   document.getElementById("search-input").addEventListener("input", applyFilters);
   document.getElementById("sector-select").addEventListener("change", applyFilters);
   document.getElementById("country-select").addEventListener("change", applyFilters);
+  if (document.getElementById("region-select")) {
+    document.getElementById("region-select").addEventListener("change", applyFilters);
+  }
   document.getElementById("rating-select").addEventListener("change", applyFilters);
   document.getElementById("max-leverage").addEventListener("input", (e) => {
     document.getElementById("leverage-val").textContent = e.target.value + "x";
@@ -57,6 +60,15 @@ function updateKPIs() {
 }
 
 function populateDropdowns() {
+  const regions = [...new Set(MASTER_ISSUERS.map(i => i.metadata.region).filter(Boolean))].sort();
+  const regSel = document.getElementById("region-select");
+  if (regSel) {
+    regions.forEach(r => {
+      const opt = document.createElement("option");
+      opt.value = r; opt.textContent = r;
+      regSel.appendChild(opt);
+    });
+  }
   const sectors = [...new Set(MASTER_ISSUERS.map(i => i.metadata.sector))].sort();
   const countries = [...new Set(MASTER_ISSUERS.map(i => i.metadata.country))].sort();
   
@@ -91,6 +103,7 @@ function applyFilters() {
   const q = document.getElementById("search-input").value.toLowerCase();
   const sec = document.getElementById("sector-select").value;
   const cty = document.getElementById("country-select").value;
+  const reg = document.getElementById("region-select") ? document.getElementById("region-select").value : "";
   const rat = document.getElementById("rating-select").value;
   const maxLev = parseFloat(document.getElementById("max-leverage").value);
   const minSpread = parseInt(document.getElementById("min-spread").value);
@@ -102,6 +115,7 @@ function applyFilters() {
     
     if (sec && m.sector !== sec) return false;
     if (cty && m.country !== cty) return false;
+    if (reg && m.region !== reg) return false;
     if (rat && !m.rating.toLowerCase().includes(rat.toLowerCase())) return false;
     if (m.spread_bp < minSpread) return false;
     

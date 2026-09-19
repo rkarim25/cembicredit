@@ -126,11 +126,11 @@
     }
   ],
   "supplementary_data": {
-    "installed_capacity_mw": 4320.0,
-    "generation_volume_gwh": 15600.0,
-    "renewable_capacity_pct": 68.0,
-    "fx_indexed_tariffs_pct": 78.5,
-    "capacity_utilization_factor_pct": 52.0
+    "installed_capacity_mw": 4340.0,
+    "generation_volume_gwh": 15420.0,
+    "renewable_capacity_pct": 65.0,
+    "fx_indexed_tariffs_pct": 82.0,
+    "capacity_utilization_factor_pct": 54.0
   },
   "debt_maturities": {
     "2025": 152.2,
@@ -150,48 +150,30 @@
     "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
     "thesis": "Critical national power utility; 500MW+ renewables + domestic gas upstream; ENTSO-E EU grid connectivity."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond DTEK 18.50% 2027 trading at 68.5."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "dtek",
       "issuer_name": "DTEK Energy",
       "sector": "Utilities",
-      "topic": "Feed-in Tariff (YEKDEM/PPA)",
+      "topic": "Regulated Asset Base & Off-take PPA",
       "source": "Cognitive Credit / Citi",
-      "note": "Electricity sales benefit from long-term USD/EUR guaranteed feed-in tariffs, providing predictable cash flow and hard currency debt service coverage."
+      "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
     },
     {
       "issuer_id": "dtek",
       "issuer_name": "DTEK Energy",
       "sector": "Utilities",
-      "topic": "Capex Phasing & Grid Connection",
+      "topic": "Capex Phasing & FCF Conversion",
       "source": "Company Filings",
-      "note": "Capital expenditures peak in 2024-2025 as new solar and wind capacity comes online; FCF inflects materially positive in 2026-2027."
+      "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
     },
     {
       "issuer_id": "dtek",
       "issuer_name": "DTEK Energy",
       "sector": "Utilities",
-      "topic": "Regulatory Asset Base (RAB)",
-      "source": "EMRA Regulatory Tariff Determination",
-      "note": "Regulated asset base inflation-adjusted with guaranteed real return on invested capital ensuring defensive margin floors."
+      "topic": "Sovereign Balancing & Guarantees",
+      "source": "Ministry of Finance Disclosures",
+      "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
     }
   ]
 }

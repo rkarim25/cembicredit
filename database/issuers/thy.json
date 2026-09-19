@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "thy",
+    "name": "Turkish Airlines (THY)",
+    "ticker": "THYAO",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Aviation",
+    "type": "corp",
+    "rating": "BB- / BB-",
+    "tier": "Tier-1",
+    "benchmark_bond": "THYAO 7.25% 2029",
+    "price": 99.2,
+    "ytm": 7.45,
+    "spread_bp": 340,
+    "model_file": "Turkish_Airlines_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turkish_Airlines_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 14280.0,
+      "ebitda": 2860.0,
+      "ebitda_margin_pct": 20.0,
+      "cfo": 2318.8,
+      "capex": 1078.0,
+      "fcf": 1240.8,
+      "cash": 1815.0,
+      "gross_debt": 10098.0,
+      "net_debt": 8283.0,
+      "net_leverage": 2.9,
+      "interest_coverage": 5.2
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 17220.0,
+      "ebitda": 3520.0,
+      "ebitda_margin_pct": 20.4,
+      "cfo": 2917.2,
+      "capex": 1309.0,
+      "fcf": 1608.2,
+      "cash": 2310.0,
+      "gross_debt": 10929.6,
+      "net_debt": 8619.6,
+      "net_leverage": 2.45,
+      "interest_coverage": 5.12
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 19320.0,
+      "ebitda": 3960.0,
+      "ebitda_margin_pct": 20.5,
+      "cfo": 3291.2,
+      "capex": 1463.0,
+      "fcf": 1828.2,
+      "cash": 2805.0,
+      "gross_debt": 11642.4,
+      "net_debt": 8837.4,
+      "net_leverage": 2.23,
+      "interest_coverage": 4.8
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 21000.0,
+      "ebitda": 4400.0,
+      "ebitda_margin_pct": 21.0,
+      "cfo": 3740.0,
+      "capex": 1540.0,
+      "fcf": 2200.0,
+      "cash": 3300.0,
+      "gross_debt": 11880.0,
+      "net_debt": 8580.0,
+      "net_leverage": 1.95,
+      "interest_coverage": 4.8
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 22680.0,
+      "ebitda": 4840.0,
+      "ebitda_margin_pct": 21.3,
+      "cfo": 4114.0,
+      "capex": 1617.0,
+      "fcf": 2497.0,
+      "cash": 3894.0,
+      "gross_debt": 11642.4,
+      "net_debt": 7748.4,
+      "net_leverage": 1.6,
+      "interest_coverage": 5.5
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 24150.0,
+      "ebitda": 5192.0,
+      "ebitda_margin_pct": 21.5,
+      "cfo": 4413.2,
+      "capex": 1570.8,
+      "fcf": 2842.4,
+      "cash": 4455.0,
+      "gross_debt": 11286.0,
+      "net_debt": 6831.0,
+      "net_leverage": 1.32,
+      "interest_coverage": 6.16
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 25200.0,
+      "ebitda": 5456.0,
+      "ebitda_margin_pct": 21.7,
+      "cfo": 4675.0,
+      "capex": 1509.2,
+      "fcf": 3165.8,
+      "cash": 4950.0,
+      "gross_debt": 10692.0,
+      "net_debt": 5742.0,
+      "net_leverage": 1.05,
+      "interest_coverage": 6.76
+    }
+  ],
+  "supplementary_data": {
+    "fleet_size_aircraft": 462,
+    "cask_ex_fuel_usd_cents": 4.15,
+    "rask_usd_cents": 6.85,
+    "passenger_load_factor_pct": 83.5,
+    "hard_currency_revenue_pct": 86.0
+  },
+  "debt_maturities": {
+    "2025": 1029.6,
+    "2026": 1716.0,
+    "2027": 2402.4,
+    "2028": 1544.4,
+    "2029": 1029.6,
+    "2030_plus": 858.0,
+    "total_outstanding_usd_m": 8580.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 70.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 70.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Global hub carrier with Istanbul Airport cost advantage; >85% hard currency revenue, excellent cargo yield."
+  },
+  "annotations": [
+    {
+      "issuer_id": "thy",
+      "issuer_name": "Turkish Airlines (THY)",
+      "sector": "Aviation",
+      "topic": "Hard Currency Revenue & Geographic Hedge",
+      "source": "Cognitive Credit / Citi",
+      "note": ">80% of ticket revenues generated outside the domestic market in USD and EUR, providing complete insulation from local currency depreciation."
+    },
+    {
+      "issuer_id": "thy",
+      "issuer_name": "Turkish Airlines (THY)",
+      "sector": "Aviation",
+      "topic": "Fleet Asset Coverage (EETC / Senior)",
+      "source": "Ascend by Cirium Appraisals",
+      "note": "Modern, fuel-efficient aircraft fleet with high unencumbered asset value provides substantial senior bond recovery coverage (>130%)."
+    },
+    {
+      "issuer_id": "thy",
+      "issuer_name": "Turkish Airlines (THY)",
+      "sector": "Aviation",
+      "topic": "Operating Margin & Hub Economics",
+      "source": "IATA Benchmarking",
+      "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
+    }
+  ]
+}

@@ -130,9 +130,9 @@
     "rera_escrow_balance_usd_m": 945.0,
     "unrestricted_cash_usd_m": 420.0,
     "backlog_revenue_usd_m": 5880.0,
-    "land_bank_gfa_sqft": "43.5M sq ft",
-    "collection_efficiency_pct": 91.5,
-    "handover_units_annual": 4620
+    "land_bank_gfa_sqft": "45.5M sq ft",
+    "collection_efficiency_pct": 92.0,
+    "handover_units_annual": 4410
   },
   "debt_maturities": {
     "2025": 23.7,
@@ -149,27 +149,9 @@
     "recovery_floor_pct": 75.0,
     "recovery_base_pct": 101.0,
     "implied_stress_ev_multiple": 4.2,
-    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "restructuring_framework": "UAE Commercial & Bankruptcy Code",
     "thesis": "$1.15B cash balance covering total gross debt; 46k homes delivered; negligible 0.29x net debt."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond DAMAC 7.25% 2027 trading at 101.0."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "damac",
@@ -177,23 +159,23 @@
       "sector": "Real Estate",
       "topic": "RERA Escrow Mechanics",
       "source": "Cognitive Credit / Arqaam",
-      "note": "Cash includes project-specific escrow accounts governed by Dubai Law No. 8 of 2007. Funds are strictly released against engineer-certified construction milestones, preventing structural leakage for bond service."
+      "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
     },
     {
       "issuer_id": "damac",
       "issuer_name": "Damac Properties",
       "sector": "Real Estate",
-      "topic": "Presales & Revenue Backlog",
+      "topic": "Revenue Backlog & Recognition",
       "source": "Broker Consensus / Earnings Call",
-      "note": "Off-plan presales recognized under IFRS 15 percentage-of-completion. Strong revenue backlog provides 2.5-3.0 years of forward revenue visibility."
+      "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
     },
     {
       "issuer_id": "damac",
       "issuer_name": "Damac Properties",
       "sector": "Real Estate",
-      "topic": "Land Bank Valuation",
+      "topic": "Asset Coverage & Land Bank",
       "source": "CBRE / JLL Independent Valuation",
-      "note": "Land bank held at historical cost minus impairment; market value provides a substantial 2.5x - 4.0x asset coverage cushion above senior debt book values."
+      "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
     }
   ]
 }

@@ -15,7 +15,7 @@
       <div class="brand-logo">CEMBI</div>
       <div>
         <div class="brand-title">CEMBI Credit Master Platform</div>
-        <div class="brand-subtitle">52 CEEMEA Corporate & Bank Models | 7-Year Multi-Period History (2021A-2027E)</div>
+        <div class="brand-subtitle">85 CEEMEA Corporate & Bank Models | 7-Year Multi-Period History (2021A-2027E)</div>
       </div>
     </div>
     <nav>
@@ -37,8 +37,8 @@
     <div class="kpi-grid">
       <div class="kpi-card">
         <div class="kpi-label">Coverage Universe</div>
-        <div class="kpi-value" id="kpi-total">52</div>
-        <div class="kpi-sub">38 Corporates | 14 Banks</div>
+        <div class="kpi-value" id="kpi-total">85</div>
+        <div class="kpi-sub">66 Corporates | 19 Banks</div>
       </div>
       <div class="kpi-card">
         <div class="kpi-label">Median Benchmark Yield</div>
@@ -61,12 +61,15 @@
     <div class="filter-card">
       <div class="filter-group">
         <div class="tab-switcher">
-          <button id="tab-corp" class="tab-btn active" onclick="switchTab('corp')">Corporates (38)</button>
-          <button id="tab-bank" class="tab-btn" onclick="switchTab('bank')">Banks (14)</button>
+          <button id="tab-corp" class="tab-btn active" onclick="switchTab('corp')">Corporates (66)</button>
+          <button id="tab-bank" class="tab-btn" onclick="switchTab('bank')">Banks (19)</button>
         </div>
         <input type="text" id="search-input" class="filter-input" placeholder="Search ticker, name, bond...">
         <select id="sector-select" class="filter-input">
           <option value="">All Sectors</option>
+        </select>
+        <select id="region-select" class="filter-input">
+          <option value="">All Regions</option>
         </select>
         <select id="country-select" class="filter-input">
           <option value="">All Countries</option>

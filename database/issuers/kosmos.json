@@ -126,10 +126,10 @@
     }
   ],
   "supplementary_data": {
-    "net_production_kboed": 78.8,
-    "lifting_cost_usd_per_boe": 14.5,
-    "realized_price_usd_per_bbl": 76.5,
-    "reserve_life_2p_years": 14.2,
+    "net_production_kboed": 73.5,
+    "lifting_cost_usd_per_boe": 12.5,
+    "realized_price_usd_per_bbl": 78.0,
+    "reserve_life_2p_years": 15.0,
     "offshore_escrow_routing_pct": 100.0,
     "hedged_production_pct": 45.0
   },
@@ -151,48 +151,30 @@
     "restructuring_framework": "Ghana Commercial & Bankruptcy Code",
     "thesis": "Jubilee (<$12/boe lifting cost) & TEN fields + GTA FLNG Phase 1 startup (2.5 mtpa); multi-year FCF inflection."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond KOS 10.45% 2027 trading at 89.5."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "kosmos",
       "issuer_name": "Kosmos Energy",
       "sector": "Energy",
-      "topic": "Offshore Escrow & Debt Routing",
+      "topic": "Offshore Debt Escrow Routing",
       "source": "Cognitive Credit / Morgan Stanley",
-      "note": "Crude export proceeds flow through dedicated offshore collection accounts; debt service for Eurobonds and pre-export facilities is carved out prior to fiscal transfers."
+      "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
     },
     {
       "issuer_id": "kosmos",
       "issuer_name": "Kosmos Energy",
       "sector": "Energy",
-      "topic": "Lifting Costs & Break-even",
-      "source": "Wood Mackenzie / Company Filings",
-      "note": "Low cash lifting costs ($8-$16/boe) protect operating margins even in an extended $55/bbl Brent stress scenario."
+      "topic": "Lifting Costs & Break-even Floor",
+      "source": "Wood Mackenzie Benchmarking",
+      "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
     },
     {
       "issuer_id": "kosmos",
       "issuer_name": "Kosmos Energy",
       "sector": "Energy",
-      "topic": "Reserve Replacement (1P/2P)",
-      "source": "Independent Petroleum Engineers",
-      "note": "2P commercial reserve life of 12-16 years provides durable operational runway for debt repayment."
+      "topic": "Commercial Reserve Life (1P/2P)",
+      "source": "DeGolyer and MacNaughton / Ryder Scott",
+      "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
     }
   ]
 }

@@ -126,10 +126,10 @@
     }
   ],
   "supplementary_data": {
-    "hard_currency_revenue_pct": 65.0,
-    "concession_life_years": 28.0,
-    "contracted_backlog_usd_m": 3190.0,
-    "utilization_rate_pct": 82.0
+    "hard_currency_revenue_pct": 68.0,
+    "concession_life_years": 27.0,
+    "contracted_backlog_usd_m": 3045.0,
+    "utilization_rate_pct": 84.0
   },
   "debt_maturities": {
     "2025": 50.5,
@@ -149,48 +149,30 @@
     "restructuring_framework": "Moldova Commercial & Bankruptcy Code",
     "thesis": "Danube Giurgiulesti export port terminal; 100% USD grain & sunflower oil exports; Oaktree Capital backing."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond ARAGVI 12.15% 2026 trading at 89.0."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "aragvi",
       "issuer_name": "Aragvi / Trans-Oil",
       "sector": "Consumer",
-      "topic": "Working Capital & Export Moat",
-      "source": "Cognitive Credit / Broker Note",
-      "note": "Vertical integration and proprietary supply chain protect gross margins; grain/poultry export revenues in USD/EUR outpace local inflation."
+      "topic": "Retail Footprint & Concession Moat",
+      "source": "Cognitive Credit / Broker Consensus",
+      "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
     },
     {
       "issuer_id": "aragvi",
       "issuer_name": "Aragvi / Trans-Oil",
       "sector": "Consumer",
-      "topic": "Geopolitical Transmission",
-      "source": "Macro Risk Assessment",
-      "note": "Dedicated logistics corridors and diversified processing hubs mitigate regional supply disruption risks."
+      "topic": "Working Capital & Free Cash Flow",
+      "source": "Financial Statements",
+      "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
     },
     {
       "issuer_id": "aragvi",
       "issuer_name": "Aragvi / Trans-Oil",
       "sector": "Consumer",
-      "topic": "Deleveraging Trajectory",
-      "source": "Company Guidance",
-      "note": "Discretionary growth capex trimmed to prioritize free cash flow conversion and senior debt deleveraging."
+      "topic": "Geographic Diversification",
+      "source": "Investor Presentations",
+      "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
     }
   ]
 }

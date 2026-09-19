@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "stc",
+    "name": "Saudi Telecom Company (STC)",
+    "ticker": "STC",
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "A1 / A+",
+    "tier": "Tier-1",
+    "benchmark_bond": "STC 3.922% 2029",
+    "price": 97.5,
+    "ytm": 4.85,
+    "spread_bp": 80,
+    "model_file": "STC_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/STC_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 13940.0,
+      "ebitda": 4680.0,
+      "ebitda_margin_pct": 33.6,
+      "cfo": 3794.4,
+      "capex": 1764.0,
+      "fcf": 2030.4,
+      "cash": 2970.0,
+      "gross_debt": 8568.0,
+      "net_debt": 5598.0,
+      "net_leverage": 1.2,
+      "interest_coverage": 20.04
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 16810.0,
+      "ebitda": 5760.0,
+      "ebitda_margin_pct": 34.3,
+      "cfo": 4773.6,
+      "capex": 2142.0,
+      "fcf": 2631.6,
+      "cash": 3780.0,
+      "gross_debt": 9273.6,
+      "net_debt": 5493.6,
+      "net_leverage": 0.95,
+      "interest_coverage": 19.73
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 18860.0,
+      "ebitda": 6480.0,
+      "ebitda_margin_pct": 34.4,
+      "cfo": 5385.6,
+      "capex": 2394.0,
+      "fcf": 2991.6,
+      "cash": 4590.0,
+      "gross_debt": 9878.4,
+      "net_debt": 5288.4,
+      "net_leverage": 0.82,
+      "interest_coverage": 18.5
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 20500.0,
+      "ebitda": 7200.0,
+      "ebitda_margin_pct": 35.1,
+      "cfo": 6120.0,
+      "capex": 2520.0,
+      "fcf": 3600.0,
+      "cash": 5400.0,
+      "gross_debt": 10080.0,
+      "net_debt": 4680.0,
+      "net_leverage": 0.65,
+      "interest_coverage": 18.5
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 22140.0,
+      "ebitda": 7920.0,
+      "ebitda_margin_pct": 35.8,
+      "cfo": 6732.0,
+      "capex": 2646.0,
+      "fcf": 4086.0,
+      "cash": 6372.0,
+      "gross_debt": 9878.4,
+      "net_debt": 3506.4,
+      "net_leverage": 0.44,
+      "interest_coverage": 21.2
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 23575.0,
+      "ebitda": 8496.0,
+      "ebitda_margin_pct": 36.0,
+      "cfo": 7221.6,
+      "capex": 2570.4,
+      "fcf": 4651.2,
+      "cash": 7290.0,
+      "gross_debt": 9576.0,
+      "net_debt": 2286.0,
+      "net_leverage": 0.27,
+      "interest_coverage": 23.73
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 24600.0,
+      "ebitda": 8928.0,
+      "ebitda_margin_pct": 36.3,
+      "cfo": 7650.0,
+      "capex": 2469.6,
+      "fcf": 5180.4,
+      "cash": 8100.0,
+      "gross_debt": 9072.0,
+      "net_debt": 972.0,
+      "net_leverage": 0.11,
+      "interest_coverage": 26.07
+    }
+  ],
+  "supplementary_data": {
+    "tower_or_subscriber_count": "182.5M Users / Sites",
+    "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
+    "contracted_backlog_years": 8.5,
+    "usd_linked_revenue_pct": 72.0,
+    "churn_pct": 1.1
+  },
+  "debt_maturities": {
+    "2025": 561.6,
+    "2026": 936.0,
+    "2027": 1310.4,
+    "2028": 842.4,
+    "2029": 561.6,
+    "2030_plus": 468.0,
+    "total_outstanding_usd_m": 4680.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 85.0,
+    "base_case_px": 100.5,
+    "recovery_floor_pct": 85.0,
+    "recovery_base_pct": 100.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "PIF sovereign telecom champion; rock-solid A+ balance sheet, negligible net debt, dominant Saudi market share."
+  },
+  "annotations": [
+    {
+      "issuer_id": "stc",
+      "issuer_name": "Saudi Telecom Company (STC)",
+      "sector": "Technology",
+      "topic": "Master Lease Agreements & Indexation",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+    },
+    {
+      "issuer_id": "stc",
+      "issuer_name": "Saudi Telecom Company (STC)",
+      "sector": "Technology",
+      "topic": "Tenancy Ratio & Organic Leverage",
+      "source": "Company Disclosures",
+      "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+    },
+    {
+      "issuer_id": "stc",
+      "issuer_name": "Saudi Telecom Company (STC)",
+      "sector": "Technology",
+      "topic": "Contracted Revenue Backlog",
+      "source": "Investor Presentations",
+      "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    }
+  ]
+}

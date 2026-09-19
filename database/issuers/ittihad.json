@@ -126,10 +126,10 @@
     }
   ],
   "supplementary_data": {
-    "production_capacity_mtpa": 5.65,
-    "hard_currency_export_pct": 78.0,
+    "production_capacity_mtpa": 5.94,
+    "hard_currency_export_pct": 76.0,
     "cash_cost_quartile": "Q1 Global Low Cost",
-    "expansion_capex_usd_m": 126.0
+    "expansion_capex_usd_m": 115.5
   },
   "debt_maturities": {
     "2025": 56.4,
@@ -146,51 +146,33 @@
     "recovery_floor_pct": 62.0,
     "recovery_base_pct": 98.5,
     "implied_stress_ev_multiple": 4.2,
-    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "restructuring_framework": "UAE Commercial & Bankruptcy Code",
     "thesis": "Abu Dhabi's largest private industrial group; Crown Paper Mill + Union Copper Rod in ICAD; UAE 'Operation 300bn'."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond ITTIHAD 9.10% 2028 trading at 98.5."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "ittihad",
       "issuer_name": "Ittihad Investment",
       "sector": "Industrials",
-      "topic": "Global Cost Curve Position",
-      "source": "Cognitive Credit / Industry Benchmark",
-      "note": "Producer occupies the first quartile (Q1) of the global cash cost curve, securing cash generation across cyclical commodity troughs."
+      "topic": "Conglomerate Cash Cushion",
+      "source": "Cognitive Credit / Koç / Ittihad",
+      "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
     },
     {
       "issuer_id": "ittihad",
       "issuer_name": "Ittihad Investment",
       "sector": "Industrials",
-      "topic": "Export Hard-Currency Revenue",
-      "source": "Financial Statements",
-      "note": ">70% of revenues billed in USD/EUR, providing natural hard currency hedge against local currency operating expenses."
+      "topic": "Export Orientation & Competitive Edge",
+      "source": "Trade Ministry Data",
+      "note": "High export orientation to European and MENA markets provides diversified revenue streams and foreign exchange earnings."
     },
     {
       "issuer_id": "ittihad",
       "issuer_name": "Ittihad Investment",
       "sector": "Industrials",
-      "topic": "Sovereign Strategic Asset",
-      "source": "Credit Rating Agency Memo",
-      "note": "Vital foreign exchange earner and national champion; implied sovereign support and infrastructure integration provide strong recovery floor."
+      "topic": "Prudent Capital Allocation",
+      "source": "Management Guidance",
+      "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
     }
   ]
 }

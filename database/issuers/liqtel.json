@@ -126,11 +126,11 @@
     }
   ],
   "supplementary_data": {
-    "tower_count": 15040,
-    "tenancy_ratio": 1.62,
+    "tower_or_subscriber_count": "23.9M Users / Sites",
+    "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
     "contracted_backlog_years": 8.5,
-    "usd_linked_revenue_pct": 68.0,
-    "churn_pct": 1.2
+    "usd_linked_revenue_pct": 72.0,
+    "churn_pct": 1.1
   },
   "debt_maturities": {
     "2025": 129.0,
@@ -150,48 +150,30 @@
     "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
     "thesis": "110k km terrestrial pan-African fiber grid; Africa Data Centres; high yield compensates for 2026 maturity wall."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond LIQTEL 14.25% 2026 trading at 81.5."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "liqtel",
       "issuer_name": "Liquid Telecom",
       "sector": "Technology",
-      "topic": "Tower Tenancy & Master Lease",
+      "topic": "Master Lease Agreements & Indexation",
       "source": "Cognitive Credit / Arqaam",
-      "note": "Long-term master lease agreements (10-15 years) with Tier-1 MNOs featuring contracted annual CPI escalators and power pass-through."
+      "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
     },
     {
       "issuer_id": "liqtel",
       "issuer_name": "Liquid Telecom",
       "sector": "Technology",
-      "topic": "FX Pass-Through Indexation",
-      "source": "Company Filings",
-      "note": "Lease contracts pegged to USD or local currency with inflation-indexing formulas, mitigating emerging market FX depreciation."
+      "topic": "Tenancy Ratio & Organic Leverage",
+      "source": "Company Disclosures",
+      "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
     },
     {
       "issuer_id": "liqtel",
       "issuer_name": "Liquid Telecom",
       "sector": "Technology",
       "topic": "Contracted Revenue Backlog",
-      "source": "Investor Presentation",
-      "note": "Multi-billion dollar contracted backlog with minimal historical churn (<1.5%), guaranteeing predictable EBITDA generation."
+      "source": "Investor Presentations",
+      "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
     }
   ]
 }

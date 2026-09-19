@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "id": "mol",
+    "name": "MOL Group",
+    "ticker": "MOL",
+    "country": "Hungary",
+    "region": "CEE",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BBB-",
+    "tier": "Tier-1",
+    "benchmark_bond": "MOL 4.875% 2028",
+    "price": 98.0,
+    "ytm": 5.5,
+    "spread_bp": 145,
+    "model_file": "MOL_Group_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MOL_Group_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 16320.0,
+      "ebitda": 2015.0,
+      "ebitda_margin_pct": 12.3,
+      "cfo": 1633.7,
+      "capex": 759.5,
+      "fcf": 874.2,
+      "cash": 1278.8,
+      "gross_debt": 4874.8,
+      "net_debt": 3596.0,
+      "net_leverage": 1.78,
+      "interest_coverage": 8.88
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 19680.0,
+      "ebitda": 2480.0,
+      "ebitda_margin_pct": 12.6,
+      "cfo": 2055.3,
+      "capex": 922.2,
+      "fcf": 1133.1,
+      "cash": 1627.5,
+      "gross_debt": 5276.2,
+      "net_debt": 3648.7,
+      "net_leverage": 1.47,
+      "interest_coverage": 8.75
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 22080.0,
+      "ebitda": 2790.0,
+      "ebitda_margin_pct": 12.6,
+      "cfo": 2318.8,
+      "capex": 1030.8,
+      "fcf": 1288.0,
+      "cash": 1976.2,
+      "gross_debt": 5620.3,
+      "net_debt": 3644.1,
+      "net_leverage": 1.31,
+      "interest_coverage": 8.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 24000.0,
+      "ebitda": 3100.0,
+      "ebitda_margin_pct": 12.9,
+      "cfo": 2635.0,
+      "capex": 1085.0,
+      "fcf": 1550.0,
+      "cash": 2325.0,
+      "gross_debt": 5735.0,
+      "net_debt": 3410.0,
+      "net_leverage": 1.1,
+      "interest_coverage": 8.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 25920.0,
+      "ebitda": 3410.0,
+      "ebitda_margin_pct": 13.2,
+      "cfo": 2898.5,
+      "capex": 1139.2,
+      "fcf": 1759.3,
+      "cash": 2743.5,
+      "gross_debt": 5620.3,
+      "net_debt": 2876.8,
+      "net_leverage": 0.84,
+      "interest_coverage": 9.4
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 27600.0,
+      "ebitda": 3658.0,
+      "ebitda_margin_pct": 13.3,
+      "cfo": 3109.3,
+      "capex": 1106.7,
+      "fcf": 2002.6,
+      "cash": 3138.8,
+      "gross_debt": 5448.2,
+      "net_debt": 2309.4,
+      "net_leverage": 0.63,
+      "interest_coverage": 10.52
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 28800.0,
+      "ebitda": 3844.0,
+      "ebitda_margin_pct": 13.3,
+      "cfo": 3293.8,
+      "capex": 1063.3,
+      "fcf": 2230.5,
+      "cash": 3487.5,
+      "gross_debt": 5161.5,
+      "net_debt": 1674.0,
+      "net_leverage": 0.44,
+      "interest_coverage": 11.55
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 1008.0,
+    "lifting_cost_usd_per_boe": 12.5,
+    "realized_price_usd_per_bbl": 78.0,
+    "reserve_life_2p_years": 15.0,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 409.2,
+    "2026": 682.0,
+    "2027": 954.8,
+    "2028": 613.8,
+    "2029": 409.2,
+    "2030_plus": 341.0,
+    "total_outstanding_usd_m": 3410.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 80.0,
+    "base_case_px": 100.8,
+    "recovery_floor_pct": 80.0,
+    "recovery_base_pct": 100.8,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Hungary Commercial & Bankruptcy Code",
+    "thesis": "Integrated oil and gas giant across Hungary, Slovakia, and Croatia; resilient downstream consumer margins."
+  },
+  "annotations": [
+    {
+      "issuer_id": "mol",
+      "issuer_name": "MOL Group",
+      "sector": "Energy",
+      "topic": "Offshore Debt Escrow Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+    },
+    {
+      "issuer_id": "mol",
+      "issuer_name": "MOL Group",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even Floor",
+      "source": "Wood Mackenzie Benchmarking",
+      "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+    },
+    {
+      "issuer_id": "mol",
+      "issuer_name": "MOL Group",
+      "sector": "Energy",
+      "topic": "Commercial Reserve Life (1P/2P)",
+      "source": "DeGolyer and MacNaughton / Ryder Scott",
+      "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    }
+  ]
+}

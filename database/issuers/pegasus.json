@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "pegasus",
+    "name": "Pegasus Airlines",
+    "ticker": "PGSUS",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Aviation",
+    "type": "corp",
+    "rating": "B+ / BB-",
+    "tier": "Tier-2",
+    "benchmark_bond": "PGSUS 9.25% 2026",
+    "price": 103.5,
+    "ytm": 7.65,
+    "spread_bp": 360,
+    "model_file": "Pegasus_Airlines_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Pegasus_Airlines_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 2176.0,
+      "ebitda": 617.5,
+      "ebitda_margin_pct": 28.4,
+      "cfo": 500.6,
+      "capex": 232.7,
+      "fcf": 267.9,
+      "cash": 391.9,
+      "gross_debt": 2301.4,
+      "net_debt": 1909.5,
+      "net_leverage": 3.09,
+      "interest_coverage": 4.55
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 2624.0,
+      "ebitda": 760.0,
+      "ebitda_margin_pct": 29.0,
+      "cfo": 629.9,
+      "capex": 282.6,
+      "fcf": 347.3,
+      "cash": 498.7,
+      "gross_debt": 2490.9,
+      "net_debt": 1992.2,
+      "net_leverage": 2.62,
+      "interest_coverage": 4.48
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 2944.0,
+      "ebitda": 855.0,
+      "ebitda_margin_pct": 29.0,
+      "cfo": 710.6,
+      "capex": 315.9,
+      "fcf": 394.7,
+      "cash": 605.6,
+      "gross_debt": 2653.3,
+      "net_debt": 2047.7,
+      "net_leverage": 2.39,
+      "interest_coverage": 4.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 3200.0,
+      "ebitda": 950.0,
+      "ebitda_margin_pct": 29.7,
+      "cfo": 807.5,
+      "capex": 332.5,
+      "fcf": 475.0,
+      "cash": 712.5,
+      "gross_debt": 2707.5,
+      "net_debt": 1995.0,
+      "net_leverage": 2.1,
+      "interest_coverage": 4.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 3456.0,
+      "ebitda": 1045.0,
+      "ebitda_margin_pct": 30.2,
+      "cfo": 888.3,
+      "capex": 349.1,
+      "fcf": 539.2,
+      "cash": 840.8,
+      "gross_debt": 2653.3,
+      "net_debt": 1812.5,
+      "net_leverage": 1.73,
+      "interest_coverage": 4.81
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 3680.0,
+      "ebitda": 1121.0,
+      "ebitda_margin_pct": 30.5,
+      "cfo": 952.8,
+      "capex": 339.2,
+      "fcf": 613.6,
+      "cash": 961.9,
+      "gross_debt": 2572.1,
+      "net_debt": 1610.2,
+      "net_leverage": 1.44,
+      "interest_coverage": 5.39
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 3840.0,
+      "ebitda": 1178.0,
+      "ebitda_margin_pct": 30.7,
+      "cfo": 1009.4,
+      "capex": 325.8,
+      "fcf": 683.6,
+      "cash": 1068.8,
+      "gross_debt": 2436.8,
+      "net_debt": 1368.0,
+      "net_leverage": 1.16,
+      "interest_coverage": 5.92
+    }
+  ],
+  "supplementary_data": {
+    "fleet_size_aircraft": 142,
+    "cask_ex_fuel_usd_cents": 4.15,
+    "rask_usd_cents": 6.85,
+    "passenger_load_factor_pct": 83.5,
+    "hard_currency_revenue_pct": 86.0
+  },
+  "debt_maturities": {
+    "2025": 239.4,
+    "2026": 399.0,
+    "2027": 558.6,
+    "2028": 359.1,
+    "2029": 239.4,
+    "2030_plus": 199.5,
+    "total_outstanding_usd_m": 1995.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 65.0,
+    "base_case_px": 102.0,
+    "recovery_floor_pct": 65.0,
+    "recovery_base_pct": 102.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Ultra-low-cost carrier based at Sabiha Gökçen; highest EBITDAR margin among European low-cost carriers."
+  },
+  "annotations": [
+    {
+      "issuer_id": "pegasus",
+      "issuer_name": "Pegasus Airlines",
+      "sector": "Aviation",
+      "topic": "Hard Currency Revenue & Geographic Hedge",
+      "source": "Cognitive Credit / Citi",
+      "note": ">80% of ticket revenues generated outside the domestic market in USD and EUR, providing complete insulation from local currency depreciation."
+    },
+    {
+      "issuer_id": "pegasus",
+      "issuer_name": "Pegasus Airlines",
+      "sector": "Aviation",
+      "topic": "Fleet Asset Coverage (EETC / Senior)",
+      "source": "Ascend by Cirium Appraisals",
+      "note": "Modern, fuel-efficient aircraft fleet with high unencumbered asset value provides substantial senior bond recovery coverage (>130%)."
+    },
+    {
+      "issuer_id": "pegasus",
+      "issuer_name": "Pegasus Airlines",
+      "sector": "Aviation",
+      "topic": "Operating Margin & Hub Economics",
+      "source": "IATA Benchmarking",
+      "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
+    }
+  ]
+}

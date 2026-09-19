@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "id": "tupras",
+    "name": "Tüpraş (Turkish Petroleum)",
+    "ticker": "TUPRAS",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BB / BB-",
+    "tier": "Tier-1",
+    "benchmark_bond": "TUPRAS 6.95% 2027",
+    "price": 99.5,
+    "ytm": 7.2,
+    "spread_bp": 315,
+    "model_file": "Tupras_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tupras_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 12580.0,
+      "ebitda": 1170.0,
+      "ebitda_margin_pct": 9.3,
+      "cfo": 948.6,
+      "capex": 441.0,
+      "fcf": 507.6,
+      "cash": 742.5,
+      "gross_debt": 2295.0,
+      "net_debt": 1552.5,
+      "net_leverage": 1.33,
+      "interest_coverage": 8.12
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 15170.0,
+      "ebitda": 1440.0,
+      "ebitda_margin_pct": 9.5,
+      "cfo": 1193.4,
+      "capex": 535.5,
+      "fcf": 657.9,
+      "cash": 945.0,
+      "gross_debt": 2484.0,
+      "net_debt": 1539.0,
+      "net_leverage": 1.07,
+      "interest_coverage": 8.0
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 17020.0,
+      "ebitda": 1620.0,
+      "ebitda_margin_pct": 9.5,
+      "cfo": 1346.4,
+      "capex": 598.5,
+      "fcf": 747.9,
+      "cash": 1147.5,
+      "gross_debt": 2646.0,
+      "net_debt": 1498.5,
+      "net_leverage": 0.93,
+      "interest_coverage": 7.5
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 18500.0,
+      "ebitda": 1800.0,
+      "ebitda_margin_pct": 9.7,
+      "cfo": 1530.0,
+      "capex": 630.0,
+      "fcf": 900.0,
+      "cash": 1350.0,
+      "gross_debt": 2700.0,
+      "net_debt": 1350.0,
+      "net_leverage": 0.75,
+      "interest_coverage": 7.5
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 19980.0,
+      "ebitda": 1980.0,
+      "ebitda_margin_pct": 9.9,
+      "cfo": 1683.0,
+      "capex": 661.5,
+      "fcf": 1021.5,
+      "cash": 1593.0,
+      "gross_debt": 2646.0,
+      "net_debt": 1053.0,
+      "net_leverage": 0.53,
+      "interest_coverage": 8.59
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 21275.0,
+      "ebitda": 2124.0,
+      "ebitda_margin_pct": 10.0,
+      "cfo": 1805.4,
+      "capex": 642.6,
+      "fcf": 1162.8,
+      "cash": 1822.5,
+      "gross_debt": 2565.0,
+      "net_debt": 742.5,
+      "net_leverage": 0.35,
+      "interest_coverage": 9.62
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 22200.0,
+      "ebitda": 2232.0,
+      "ebitda_margin_pct": 10.1,
+      "cfo": 1912.5,
+      "capex": 617.4,
+      "fcf": 1295.1,
+      "cash": 2025.0,
+      "gross_debt": 2430.0,
+      "net_debt": 405.0,
+      "net_leverage": 0.18,
+      "interest_coverage": 10.57
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 777.0,
+    "lifting_cost_usd_per_boe": 12.5,
+    "realized_price_usd_per_bbl": 78.0,
+    "reserve_life_2p_years": 15.0,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 162.0,
+    "2026": 270.0,
+    "2027": 378.0,
+    "2028": 243.0,
+    "2029": 162.0,
+    "2030_plus": 135.0,
+    "total_outstanding_usd_m": 1350.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 76.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 76.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Koç Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
+  },
+  "annotations": [
+    {
+      "issuer_id": "tupras",
+      "issuer_name": "Tüpraş (Turkish Petroleum)",
+      "sector": "Energy",
+      "topic": "Offshore Debt Escrow Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+    },
+    {
+      "issuer_id": "tupras",
+      "issuer_name": "Tüpraş (Turkish Petroleum)",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even Floor",
+      "source": "Wood Mackenzie Benchmarking",
+      "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+    },
+    {
+      "issuer_id": "tupras",
+      "issuer_name": "Tüpraş (Turkish Petroleum)",
+      "sector": "Energy",
+      "topic": "Commercial Reserve Life (1P/2P)",
+      "source": "DeGolyer and MacNaughton / Ryder Scott",
+      "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    }
+  ]
+}

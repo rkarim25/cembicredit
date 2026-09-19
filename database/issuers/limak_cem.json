@@ -126,10 +126,10 @@
     }
   ],
   "supplementary_data": {
-    "production_capacity_mtpa": 4.48,
-    "hard_currency_export_pct": 78.0,
+    "production_capacity_mtpa": 4.85,
+    "hard_currency_export_pct": 76.0,
     "cash_cost_quartile": "Q1 Global Low Cost",
-    "expansion_capex_usd_m": 79.2
+    "expansion_capex_usd_m": 72.6
   },
   "debt_maturities": {
     "2025": 50.4,
@@ -149,48 +149,30 @@
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
     "thesis": "Integrated Turkish plants + West Africa exports; major supplier for earthquake reconstruction."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond LIMAKC 8.25% 2028 trading at 98.8."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "limak_cem",
       "issuer_name": "Limak Cement",
       "sector": "Materials",
-      "topic": "Global Cost Curve Position",
-      "source": "Cognitive Credit / Industry Benchmark",
-      "note": "Producer occupies the first quartile (Q1) of the global cash cost curve, securing cash generation across cyclical commodity troughs."
+      "topic": "Global Cost Curve Advantage",
+      "source": "Cognitive Credit / CRU Group",
+      "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
     },
     {
       "issuer_id": "limak_cem",
       "issuer_name": "Limak Cement",
       "sector": "Materials",
-      "topic": "Export Hard-Currency Revenue",
-      "source": "Financial Statements",
-      "note": ">70% of revenues billed in USD/EUR, providing natural hard currency hedge against local currency operating expenses."
+      "topic": "Hard-Currency Export Share",
+      "source": "Audited Financial Statements",
+      "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
     },
     {
       "issuer_id": "limak_cem",
       "issuer_name": "Limak Cement",
       "sector": "Materials",
-      "topic": "Sovereign Strategic Asset",
+      "topic": "Strategic Sovereign Resource Moat",
       "source": "Credit Rating Agency Memo",
-      "note": "Vital foreign exchange earner and national champion; implied sovereign support and infrastructure integration provide strong recovery floor."
+      "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
     }
   ]
 }

@@ -168,11 +168,11 @@
     }
   ],
   "supplementary_data": {
-    "stage2_loans_pct": 7.8,
-    "restructured_loans_pct": 2.6,
-    "foreign_currency_loans_pct": 32.5,
-    "liquidity_coverage_ratio_lcr_pct": 168.0,
-    "net_stable_funding_ratio_nsfr_pct": 124.0,
+    "stage2_loans_pct": 7.2,
+    "restructured_loans_pct": 2.4,
+    "foreign_currency_loans_pct": 30.5,
+    "liquidity_coverage_ratio_lcr_pct": 172.0,
+    "net_stable_funding_ratio_nsfr_pct": 126.0,
     "cost_of_risk_bp": 130.0
   },
   "debt_maturities": {
@@ -189,52 +189,34 @@
     "base_case_px": 98.5,
     "recovery_floor_pct": 60.0,
     "recovery_base_pct": 98.5,
-    "implied_stress_ev_multiple": "N/A (Prudential Resolution)",
+    "implied_stress_ev_multiple": "Prudential Resolution",
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
     "thesis": "State-subsidized SME lending franchise; high carry spread pricing in US litigation tail-risk."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond HALKB 7.35% 2028 trading at 98.1."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "halkbank",
       "issuer_name": "Halkbank",
       "sector": "Banks",
-      "topic": "NIM Dynamics & Rate Cycle",
+      "topic": "NIM & Asset-Liability Repricing",
       "source": "Cognitive Credit / J.P. Morgan",
-      "note": "Net Interest Margin supported by high proportion of floating-rate commercial loans; fixed-cost customer deposits lag policy rate adjustments."
+      "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
     },
     {
       "issuer_id": "halkbank",
       "issuer_name": "Halkbank",
       "sector": "Banks",
-      "topic": "Asset Quality & Stage 2 Exposure",
-      "source": "BRSA / Central Bank Disclosures",
-      "note": "NPL ratio remains low with >100% specific coverage. Stage 2 loans closely monitored under macroprudential guidance."
+      "topic": "Prudential Capital & AT1 Instruments",
+      "source": "Central Bank / Fitch Ratings",
+      "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
     },
     {
       "issuer_id": "halkbank",
       "issuer_name": "Halkbank",
       "sector": "Banks",
-      "topic": "Capital Adequacy & FX Sensitivity",
-      "source": "Fitch / Moody's Rating Notes",
-      "note": "CAR and CET1 ratios well above Basel III minimum regulatory thresholds; FX-protected Tier-1 instruments provide currency risk insulation."
+      "topic": "Asset Quality & Stage 2 Risk",
+      "source": "BRSA / Audit Reports",
+      "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
     }
   ]
 }

@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "cez",
+    "name": "ČEZ Group",
+    "ticker": "CEZ",
+    "country": "Czech Republic",
+    "region": "CEE",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "A- / A3",
+    "tier": "Tier-1",
+    "benchmark_bond": "CEZ 4.875% 2028",
+    "price": 99.8,
+    "ytm": 4.95,
+    "spread_bp": 90,
+    "model_file": "CEZ_Group_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEZ_Group_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 10336.0,
+      "ebitda": 2730.0,
+      "ebitda_margin_pct": 26.4,
+      "cfo": 2213.4,
+      "capex": 1029.0,
+      "fcf": 1184.4,
+      "cash": 1732.5,
+      "gross_debt": 7675.5,
+      "net_debt": 5943.0,
+      "net_leverage": 2.18,
+      "interest_coverage": 9.53
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 12464.0,
+      "ebitda": 3360.0,
+      "ebitda_margin_pct": 27.0,
+      "cfo": 2784.6,
+      "capex": 1249.5,
+      "fcf": 1535.1,
+      "cash": 2205.0,
+      "gross_debt": 8307.6,
+      "net_debt": 6102.6,
+      "net_leverage": 1.82,
+      "interest_coverage": 9.39
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 13984.0,
+      "ebitda": 3780.0,
+      "ebitda_margin_pct": 27.0,
+      "cfo": 3141.6,
+      "capex": 1396.5,
+      "fcf": 1745.1,
+      "cash": 2677.5,
+      "gross_debt": 8849.4,
+      "net_debt": 6171.9,
+      "net_leverage": 1.63,
+      "interest_coverage": 8.8
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 15200.0,
+      "ebitda": 4200.0,
+      "ebitda_margin_pct": 27.6,
+      "cfo": 3570.0,
+      "capex": 1470.0,
+      "fcf": 2100.0,
+      "cash": 3150.0,
+      "gross_debt": 9030.0,
+      "net_debt": 5880.0,
+      "net_leverage": 1.4,
+      "interest_coverage": 8.8
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 16416.0,
+      "ebitda": 4620.0,
+      "ebitda_margin_pct": 28.1,
+      "cfo": 3927.0,
+      "capex": 1543.5,
+      "fcf": 2383.5,
+      "cash": 3717.0,
+      "gross_debt": 8849.4,
+      "net_debt": 5132.4,
+      "net_leverage": 1.11,
+      "interest_coverage": 10.08
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 17480.0,
+      "ebitda": 4956.0,
+      "ebitda_margin_pct": 28.4,
+      "cfo": 4212.6,
+      "capex": 1499.4,
+      "fcf": 2713.2,
+      "cash": 4252.5,
+      "gross_debt": 8578.5,
+      "net_debt": 4326.0,
+      "net_leverage": 0.87,
+      "interest_coverage": 11.29
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 18240.0,
+      "ebitda": 5208.0,
+      "ebitda_margin_pct": 28.6,
+      "cfo": 4462.5,
+      "capex": 1440.6,
+      "fcf": 3021.9,
+      "cash": 4725.0,
+      "gross_debt": 8127.0,
+      "net_debt": 3402.0,
+      "net_leverage": 0.65,
+      "interest_coverage": 12.4
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 24820.0,
+    "generation_volume_gwh": 89660.0,
+    "renewable_capacity_pct": 65.0,
+    "fx_indexed_tariffs_pct": 82.0,
+    "capacity_utilization_factor_pct": 54.0
+  },
+  "debt_maturities": {
+    "2025": 705.6,
+    "2026": 1176.0,
+    "2027": 1646.4,
+    "2028": 1058.4,
+    "2029": 705.6,
+    "2030_plus": 588.0,
+    "total_outstanding_usd_m": 5880.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 88.0,
+    "base_case_px": 100.5,
+    "recovery_floor_pct": 88.0,
+    "recovery_base_pct": 100.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Czech Republic Commercial & Bankruptcy Code",
+    "thesis": "Czech integrated utility powerhouse; Temelín and Dukovany nuclear generation guarantees low-cost baseload."
+  },
+  "annotations": [
+    {
+      "issuer_id": "cez",
+      "issuer_name": "ČEZ Group",
+      "sector": "Utilities",
+      "topic": "Regulated Asset Base & Off-take PPA",
+      "source": "Cognitive Credit / Citi",
+      "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+    },
+    {
+      "issuer_id": "cez",
+      "issuer_name": "ČEZ Group",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & FCF Conversion",
+      "source": "Company Filings",
+      "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+    },
+    {
+      "issuer_id": "cez",
+      "issuer_name": "ČEZ Group",
+      "sector": "Utilities",
+      "topic": "Sovereign Balancing & Guarantees",
+      "source": "Ministry of Finance Disclosures",
+      "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    }
+  ]
+}

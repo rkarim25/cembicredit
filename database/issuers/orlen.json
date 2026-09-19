@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "id": "orlen",
+    "name": "PKN Orlen",
+    "ticker": "PKN",
+    "country": "Poland",
+    "region": "CEE",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BBB+ / A3",
+    "tier": "Tier-1",
+    "benchmark_bond": "PKN 4.75% 2030",
+    "price": 98.8,
+    "ytm": 5.05,
+    "spread_bp": 100,
+    "model_file": "PKN_Orlen_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PKN_Orlen_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 46240.0,
+      "ebitda": 5525.0,
+      "ebitda_margin_pct": 11.9,
+      "cfo": 4479.5,
+      "capex": 2082.5,
+      "fcf": 2397.0,
+      "cash": 3506.3,
+      "gross_debt": 12282.5,
+      "net_debt": 8776.2,
+      "net_leverage": 1.59,
+      "interest_coverage": 10.29
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 55760.0,
+      "ebitda": 6800.0,
+      "ebitda_margin_pct": 12.2,
+      "cfo": 5635.5,
+      "capex": 2528.8,
+      "fcf": 3106.7,
+      "cash": 4462.5,
+      "gross_debt": 13294.0,
+      "net_debt": 8831.5,
+      "net_leverage": 1.3,
+      "interest_coverage": 10.13
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 62560.0,
+      "ebitda": 7650.0,
+      "ebitda_margin_pct": 12.2,
+      "cfo": 6358.0,
+      "capex": 2826.2,
+      "fcf": 3531.8,
+      "cash": 5418.8,
+      "gross_debt": 14161.0,
+      "net_debt": 8742.2,
+      "net_leverage": 1.14,
+      "interest_coverage": 9.5
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 68000.0,
+      "ebitda": 8500.0,
+      "ebitda_margin_pct": 12.5,
+      "cfo": 7225.0,
+      "capex": 2975.0,
+      "fcf": 4250.0,
+      "cash": 6375.0,
+      "gross_debt": 14450.0,
+      "net_debt": 8075.0,
+      "net_leverage": 0.95,
+      "interest_coverage": 9.5
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 73440.0,
+      "ebitda": 9350.0,
+      "ebitda_margin_pct": 12.7,
+      "cfo": 7947.5,
+      "capex": 3123.8,
+      "fcf": 4823.7,
+      "cash": 7522.5,
+      "gross_debt": 14161.0,
+      "net_debt": 6638.5,
+      "net_leverage": 0.71,
+      "interest_coverage": 10.89
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 78200.0,
+      "ebitda": 10030.0,
+      "ebitda_margin_pct": 12.8,
+      "cfo": 8525.5,
+      "capex": 3034.5,
+      "fcf": 5491.0,
+      "cash": 8606.2,
+      "gross_debt": 13727.5,
+      "net_debt": 5121.3,
+      "net_leverage": 0.51,
+      "interest_coverage": 12.18
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 81600.0,
+      "ebitda": 10540.0,
+      "ebitda_margin_pct": 12.9,
+      "cfo": 9031.2,
+      "capex": 2915.5,
+      "fcf": 6115.7,
+      "cash": 9562.5,
+      "gross_debt": 13005.0,
+      "net_debt": 3442.5,
+      "net_leverage": 0.33,
+      "interest_coverage": 13.39
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 2856.0,
+    "lifting_cost_usd_per_boe": 12.5,
+    "realized_price_usd_per_bbl": 78.0,
+    "reserve_life_2p_years": 15.0,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 969.0,
+    "2026": 1615.0,
+    "2027": 2261.0,
+    "2028": 1453.5,
+    "2029": 969.0,
+    "2030_plus": 807.5,
+    "total_outstanding_usd_m": 8075.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 85.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 85.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Poland Commercial & Bankruptcy Code",
+    "thesis": "Largest oil refiner and multi-energy utility in CEE; strategic Polish national champion with conservative leverage."
+  },
+  "annotations": [
+    {
+      "issuer_id": "orlen",
+      "issuer_name": "PKN Orlen",
+      "sector": "Energy",
+      "topic": "Offshore Debt Escrow Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+    },
+    {
+      "issuer_id": "orlen",
+      "issuer_name": "PKN Orlen",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even Floor",
+      "source": "Wood Mackenzie Benchmarking",
+      "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+    },
+    {
+      "issuer_id": "orlen",
+      "issuer_name": "PKN Orlen",
+      "sector": "Energy",
+      "topic": "Commercial Reserve Life (1P/2P)",
+      "source": "DeGolyer and MacNaughton / Ryder Scott",
+      "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    }
+  ]
+}

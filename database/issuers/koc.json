@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "id": "koc",
+    "name": "Koç Holding",
+    "ticker": "KCHOL",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Industrials",
+    "type": "corp",
+    "rating": "BB / BB+",
+    "tier": "Tier-1",
+    "benchmark_bond": "KCHOL 6.50% 2030",
+    "price": 98.5,
+    "ytm": 6.85,
+    "spread_bp": 280,
+    "model_file": "Koc_Holding_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Koc_Holding_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 28560.0,
+      "ebitda": 3120.0,
+      "ebitda_margin_pct": 10.9,
+      "cfo": 2529.6,
+      "capex": 1176.0,
+      "fcf": 1353.6,
+      "cash": 1980.0,
+      "gross_debt": 8160.0,
+      "net_debt": 6180.0,
+      "net_leverage": 1.98,
+      "interest_coverage": 7.04
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 34440.0,
+      "ebitda": 3840.0,
+      "ebitda_margin_pct": 11.1,
+      "cfo": 3182.4,
+      "capex": 1428.0,
+      "fcf": 1754.4,
+      "cash": 2520.0,
+      "gross_debt": 8832.0,
+      "net_debt": 6312.0,
+      "net_leverage": 1.64,
+      "interest_coverage": 6.93
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 38640.0,
+      "ebitda": 4320.0,
+      "ebitda_margin_pct": 11.2,
+      "cfo": 3590.4,
+      "capex": 1596.0,
+      "fcf": 1994.4,
+      "cash": 3060.0,
+      "gross_debt": 9408.0,
+      "net_debt": 6348.0,
+      "net_leverage": 1.47,
+      "interest_coverage": 6.5
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 42000.0,
+      "ebitda": 4800.0,
+      "ebitda_margin_pct": 11.4,
+      "cfo": 4080.0,
+      "capex": 1680.0,
+      "fcf": 2400.0,
+      "cash": 3600.0,
+      "gross_debt": 9600.0,
+      "net_debt": 6000.0,
+      "net_leverage": 1.25,
+      "interest_coverage": 6.5
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 45360.0,
+      "ebitda": 5280.0,
+      "ebitda_margin_pct": 11.6,
+      "cfo": 4488.0,
+      "capex": 1764.0,
+      "fcf": 2724.0,
+      "cash": 4248.0,
+      "gross_debt": 9408.0,
+      "net_debt": 5160.0,
+      "net_leverage": 0.98,
+      "interest_coverage": 7.45
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 48300.0,
+      "ebitda": 5664.0,
+      "ebitda_margin_pct": 11.7,
+      "cfo": 4814.4,
+      "capex": 1713.6,
+      "fcf": 3100.8,
+      "cash": 4860.0,
+      "gross_debt": 9120.0,
+      "net_debt": 4260.0,
+      "net_leverage": 0.75,
+      "interest_coverage": 8.34
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 50400.0,
+      "ebitda": 5952.0,
+      "ebitda_margin_pct": 11.8,
+      "cfo": 5100.0,
+      "capex": 1646.4,
+      "fcf": 3453.6,
+      "cash": 5400.0,
+      "gross_debt": 8640.0,
+      "net_debt": 3240.0,
+      "net_leverage": 0.54,
+      "interest_coverage": 9.16
+    }
+  ],
+  "supplementary_data": {
+    "production_capacity_mtpa": 120.6,
+    "hard_currency_export_pct": 76.0,
+    "cash_cost_quartile": "Q1 Global Low Cost",
+    "expansion_capex_usd_m": 4620.0
+  },
+  "debt_maturities": {
+    "2025": 720.0,
+    "2026": 1200.0,
+    "2027": 1680.0,
+    "2028": 1080.0,
+    "2029": 720.0,
+    "2030_plus": 600.0,
+    "total_outstanding_usd_m": 6000.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 78.0,
+    "base_case_px": 101.5,
+    "recovery_floor_pct": 78.0,
+    "recovery_base_pct": 101.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Turkey's premier industrial conglomerate (Tüpraş, Ford Otosan, Arçelik, Yapı Kredi); net cash at holdco."
+  },
+  "annotations": [
+    {
+      "issuer_id": "koc",
+      "issuer_name": "Koç Holding",
+      "sector": "Industrials",
+      "topic": "Conglomerate Cash Cushion",
+      "source": "Cognitive Credit / Koç / Ittihad",
+      "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
+    },
+    {
+      "issuer_id": "koc",
+      "issuer_name": "Koç Holding",
+      "sector": "Industrials",
+      "topic": "Export Orientation & Competitive Edge",
+      "source": "Trade Ministry Data",
+      "note": "High export orientation to European and MENA markets provides diversified revenue streams and foreign exchange earnings."
+    },
+    {
+      "issuer_id": "koc",
+      "issuer_name": "Koç Holding",
+      "sector": "Industrials",
+      "topic": "Prudent Capital Allocation",
+      "source": "Management Guidance",
+      "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
+    }
+  ]
+}

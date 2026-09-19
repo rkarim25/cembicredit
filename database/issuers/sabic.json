@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "id": "sabic",
+    "name": "SABIC",
+    "ticker": "SABIC",
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "A1 / A+",
+    "tier": "Tier-1",
+    "benchmark_bond": "SABIC 4.50% 2028",
+    "price": 98.8,
+    "ytm": 5.05,
+    "spread_bp": 100,
+    "model_file": "SABIC_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/SABIC_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 26180.0,
+      "ebitda": 3770.0,
+      "ebitda_margin_pct": 14.4,
+      "cfo": 3056.6,
+      "capex": 1421.0,
+      "fcf": 1635.6,
+      "cash": 2392.5,
+      "gross_debt": 9367.0,
+      "net_debt": 6974.5,
+      "net_leverage": 1.85,
+      "interest_coverage": 8.45
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 31570.0,
+      "ebitda": 4640.0,
+      "ebitda_margin_pct": 14.7,
+      "cfo": 3845.4,
+      "capex": 1725.5,
+      "fcf": 2119.9,
+      "cash": 3045.0,
+      "gross_debt": 10138.4,
+      "net_debt": 7093.4,
+      "net_leverage": 1.53,
+      "interest_coverage": 8.32
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 35420.0,
+      "ebitda": 5220.0,
+      "ebitda_margin_pct": 14.7,
+      "cfo": 4338.4,
+      "capex": 1928.5,
+      "fcf": 2409.9,
+      "cash": 3697.5,
+      "gross_debt": 10799.6,
+      "net_debt": 7102.1,
+      "net_leverage": 1.36,
+      "interest_coverage": 7.8
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 38500.0,
+      "ebitda": 5800.0,
+      "ebitda_margin_pct": 15.1,
+      "cfo": 4930.0,
+      "capex": 2030.0,
+      "fcf": 2900.0,
+      "cash": 4350.0,
+      "gross_debt": 11020.0,
+      "net_debt": 6670.0,
+      "net_leverage": 1.15,
+      "interest_coverage": 7.8
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 41580.0,
+      "ebitda": 6380.0,
+      "ebitda_margin_pct": 15.3,
+      "cfo": 5423.0,
+      "capex": 2131.5,
+      "fcf": 3291.5,
+      "cash": 5133.0,
+      "gross_debt": 10799.6,
+      "net_debt": 5666.6,
+      "net_leverage": 0.89,
+      "interest_coverage": 8.94
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 44275.0,
+      "ebitda": 6844.0,
+      "ebitda_margin_pct": 15.5,
+      "cfo": 5817.4,
+      "capex": 2070.6,
+      "fcf": 3746.8,
+      "cash": 5872.5,
+      "gross_debt": 10469.0,
+      "net_debt": 4596.5,
+      "net_leverage": 0.67,
+      "interest_coverage": 10.0
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 46200.0,
+      "ebitda": 7192.0,
+      "ebitda_margin_pct": 15.6,
+      "cfo": 6162.5,
+      "capex": 1989.4,
+      "fcf": 4173.1,
+      "cash": 6525.0,
+      "gross_debt": 9918.0,
+      "net_debt": 3393.0,
+      "net_leverage": 0.47,
+      "interest_coverage": 10.99
+    }
+  ],
+  "supplementary_data": {
+    "production_capacity_mtpa": 110.8,
+    "hard_currency_export_pct": 76.0,
+    "cash_cost_quartile": "Q1 Global Low Cost",
+    "expansion_capex_usd_m": 4235.0
+  },
+  "debt_maturities": {
+    "2025": 800.4,
+    "2026": 1334.0,
+    "2027": 1867.6,
+    "2028": 1200.6,
+    "2029": 800.4,
+    "2030_plus": 667.0,
+    "total_outstanding_usd_m": 6670.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 84.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 84.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Global top-tier petrochemical leader; 70% owned by Aramco with advantaged feedstock pricing agreements."
+  },
+  "annotations": [
+    {
+      "issuer_id": "sabic",
+      "issuer_name": "SABIC",
+      "sector": "Materials",
+      "topic": "Global Cost Curve Advantage",
+      "source": "Cognitive Credit / CRU Group",
+      "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+    },
+    {
+      "issuer_id": "sabic",
+      "issuer_name": "SABIC",
+      "sector": "Materials",
+      "topic": "Hard-Currency Export Share",
+      "source": "Audited Financial Statements",
+      "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+    },
+    {
+      "issuer_id": "sabic",
+      "issuer_name": "SABIC",
+      "sector": "Materials",
+      "topic": "Strategic Sovereign Resource Moat",
+      "source": "Credit Rating Agency Memo",
+      "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+    }
+  ]
+}

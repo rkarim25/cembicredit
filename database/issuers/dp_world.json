@@ -126,10 +126,10 @@
     }
   ],
   "supplementary_data": {
-    "hard_currency_revenue_pct": 65.0,
-    "concession_life_years": 28.0,
-    "contracted_backlog_usd_m": 40040.0,
-    "utilization_rate_pct": 82.0
+    "hard_currency_revenue_pct": 68.0,
+    "concession_life_years": 27.0,
+    "contracted_backlog_usd_m": 38220.0,
+    "utilization_rate_pct": 84.0
   },
   "debt_maturities": {
     "2025": 1976.8,
@@ -146,51 +146,33 @@
     "recovery_floor_pct": 72.0,
     "recovery_base_pct": 102.5,
     "implied_stress_ev_multiple": 4.2,
-    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "restructuring_framework": "UAE Commercial & Bankruptcy Code",
     "thesis": "Global port monopoly across 73 countries; 85M+ TEU volume; Dubai Inc. crown jewel; hybrids yield 6.85%."
   },
-  "timeline": [
-    {
-      "date": "2023-H2",
-      "event": "Completed refinancing operations and expanded banking credit lines."
-    },
-    {
-      "date": "2024-H1",
-      "event": "Reported record operating metrics; benchmark bond DPW 5.35% 2033 trading at 98.0."
-    },
-    {
-      "date": "2024-H2",
-      "event": "Maintained robust liquidity buffers with total cash reaching target reserve levels."
-    },
-    {
-      "date": "2025-E",
-      "event": "Multi-year expansion projects reach commercial operations, bolstering cash flow coverage."
-    }
-  ],
   "annotations": [
     {
       "issuer_id": "dp_world",
       "issuer_name": "DP World",
       "sector": "Infrastructure",
-      "topic": "Concession Duration & Moat",
+      "topic": "Concession Duration & Tariff Autonomy",
       "source": "Cognitive Credit / S&P Global",
-      "note": "Long-dated port/terminal concession agreements (>30 years remaining) with natural monopoly gateway positions and tariff-setting autonomy."
+      "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
     },
     {
       "issuer_id": "dp_world",
       "issuer_name": "DP World",
       "sector": "Infrastructure",
-      "topic": "Throughput & Capacity Utilization",
-      "source": "Port Authority Filings",
-      "note": "Container throughput backed by diversified trade corridors; high volume stability even during regional macro contractions."
+      "topic": "Volume Stability & Throughput",
+      "source": "Terminal Authority Disclosures",
+      "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
     },
     {
       "issuer_id": "dp_world",
       "issuer_name": "DP World",
       "sector": "Infrastructure",
-      "topic": "Structural Subordination & Waterfall",
-      "source": "Bond Offering Circular",
-      "note": "Operating port assets generate ring-fenced cash flow; holding company debt is supported by diversified dividend upstreaming."
+      "topic": "Holding Company Structural Priority",
+      "source": "Offering Circular Waterfall",
+      "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
     }
   ]
 }

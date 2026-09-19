@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "ooredoo",
+    "name": "Ooredoo QPSC",
+    "ticker": "ORDS",
+    "country": "Qatar",
+    "region": "GCC",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "A2 / A-",
+    "tier": "Tier-1",
+    "benchmark_bond": "ORDS 4.50% 2031",
+    "price": 97.8,
+    "ytm": 5.0,
+    "spread_bp": 95,
+    "model_file": "Ooredoo_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ooredoo_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 4420.0,
+      "ebitda": 1820.0,
+      "ebitda_margin_pct": 41.2,
+      "cfo": 1475.6,
+      "capex": 686.0,
+      "fcf": 789.6,
+      "cash": 1155.0,
+      "gross_debt": 4403.0,
+      "net_debt": 3248.0,
+      "net_leverage": 1.78,
+      "interest_coverage": 9.97
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 5330.0,
+      "ebitda": 2240.0,
+      "ebitda_margin_pct": 42.0,
+      "cfo": 1856.4,
+      "capex": 833.0,
+      "fcf": 1023.4,
+      "cash": 1470.0,
+      "gross_debt": 4765.6,
+      "net_debt": 3295.6,
+      "net_leverage": 1.47,
+      "interest_coverage": 9.81
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 5980.0,
+      "ebitda": 2520.0,
+      "ebitda_margin_pct": 42.1,
+      "cfo": 2094.4,
+      "capex": 931.0,
+      "fcf": 1163.4,
+      "cash": 1785.0,
+      "gross_debt": 5076.4,
+      "net_debt": 3291.4,
+      "net_leverage": 1.31,
+      "interest_coverage": 9.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 6500.0,
+      "ebitda": 2800.0,
+      "ebitda_margin_pct": 43.1,
+      "cfo": 2380.0,
+      "capex": 980.0,
+      "fcf": 1400.0,
+      "cash": 2100.0,
+      "gross_debt": 5180.0,
+      "net_debt": 3080.0,
+      "net_leverage": 1.1,
+      "interest_coverage": 9.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 7020.0,
+      "ebitda": 3080.0,
+      "ebitda_margin_pct": 43.9,
+      "cfo": 2618.0,
+      "capex": 1029.0,
+      "fcf": 1589.0,
+      "cash": 2478.0,
+      "gross_debt": 5076.4,
+      "net_debt": 2598.4,
+      "net_leverage": 0.84,
+      "interest_coverage": 10.54
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 7475.0,
+      "ebitda": 3304.0,
+      "ebitda_margin_pct": 44.2,
+      "cfo": 2808.4,
+      "capex": 999.6,
+      "fcf": 1808.8,
+      "cash": 2835.0,
+      "gross_debt": 4921.0,
+      "net_debt": 2086.0,
+      "net_leverage": 0.63,
+      "interest_coverage": 11.8
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 7800.0,
+      "ebitda": 3472.0,
+      "ebitda_margin_pct": 44.5,
+      "cfo": 2975.0,
+      "capex": 960.4,
+      "fcf": 2014.6,
+      "cash": 3150.0,
+      "gross_debt": 4662.0,
+      "net_debt": 1512.0,
+      "net_leverage": 0.44,
+      "interest_coverage": 12.96
+    }
+  ],
+  "supplementary_data": {
+    "tower_or_subscriber_count": "70.5M Users / Sites",
+    "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
+    "contracted_backlog_years": 8.5,
+    "usd_linked_revenue_pct": 72.0,
+    "churn_pct": 1.1
+  },
+  "debt_maturities": {
+    "2025": 369.6,
+    "2026": 616.0,
+    "2027": 862.4,
+    "2028": 554.4,
+    "2029": 369.6,
+    "2030_plus": 308.0,
+    "total_outstanding_usd_m": 3080.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 84.0,
+    "base_case_px": 100.5,
+    "recovery_floor_pct": 84.0,
+    "recovery_base_pct": 100.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "State-backed telecom operator across Qatar, Kuwait, Iraq, and Algeria; robust EBITDA margin and cash flow."
+  },
+  "annotations": [
+    {
+      "issuer_id": "ooredoo",
+      "issuer_name": "Ooredoo QPSC",
+      "sector": "Technology",
+      "topic": "Master Lease Agreements & Indexation",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+    },
+    {
+      "issuer_id": "ooredoo",
+      "issuer_name": "Ooredoo QPSC",
+      "sector": "Technology",
+      "topic": "Tenancy Ratio & Organic Leverage",
+      "source": "Company Disclosures",
+      "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+    },
+    {
+      "issuer_id": "ooredoo",
+      "issuer_name": "Ooredoo QPSC",
+      "sector": "Technology",
+      "topic": "Contracted Revenue Backlog",
+      "source": "Investor Presentations",
+      "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    }
+  ]
+}

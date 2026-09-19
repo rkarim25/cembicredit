@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "acwa",
+    "name": "ACWA Power",
+    "ticker": "ACWA",
+    "country": "Saudi Arabia",
+    "region": "GCC",
+    "sector": "Utilities",
+    "type": "corp",
+    "rating": "Baa2 / BBB",
+    "tier": "Tier-1",
+    "benchmark_bond": "ACWA 5.95% 2039",
+    "price": 96.5,
+    "ytm": 6.45,
+    "spread_bp": 235,
+    "model_file": "ACWA_Power_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ACWA_Power_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 1122.0,
+      "ebitda": 598.0,
+      "ebitda_margin_pct": 53.3,
+      "cfo": 484.8,
+      "capex": 225.4,
+      "fcf": 259.4,
+      "cash": 379.5,
+      "gross_debt": 3597.2,
+      "net_debt": 3217.7,
+      "net_leverage": 5.38,
+      "interest_coverage": 3.68
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1353.0,
+      "ebitda": 736.0,
+      "ebitda_margin_pct": 54.4,
+      "cfo": 610.0,
+      "capex": 273.7,
+      "fcf": 336.3,
+      "cash": 483.0,
+      "gross_debt": 3893.4,
+      "net_debt": 3410.4,
+      "net_leverage": 4.63,
+      "interest_coverage": 3.63
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1518.0,
+      "ebitda": 828.0,
+      "ebitda_margin_pct": 54.5,
+      "cfo": 688.2,
+      "capex": 305.9,
+      "fcf": 382.3,
+      "cash": 586.5,
+      "gross_debt": 4147.4,
+      "net_debt": 3560.9,
+      "net_leverage": 4.3,
+      "interest_coverage": 3.4
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 1650.0,
+      "ebitda": 920.0,
+      "ebitda_margin_pct": 55.8,
+      "cfo": 782.0,
+      "capex": 322.0,
+      "fcf": 460.0,
+      "cash": 690.0,
+      "gross_debt": 4232.0,
+      "net_debt": 3542.0,
+      "net_leverage": 3.85,
+      "interest_coverage": 3.4
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 1782.0,
+      "ebitda": 1012.0,
+      "ebitda_margin_pct": 56.8,
+      "cfo": 860.2,
+      "capex": 338.1,
+      "fcf": 522.1,
+      "cash": 814.2,
+      "gross_debt": 4147.4,
+      "net_debt": 3333.2,
+      "net_leverage": 3.29,
+      "interest_coverage": 3.9
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1897.5,
+      "ebitda": 1085.6,
+      "ebitda_margin_pct": 57.2,
+      "cfo": 922.8,
+      "capex": 328.4,
+      "fcf": 594.4,
+      "cash": 931.5,
+      "gross_debt": 4020.4,
+      "net_debt": 3088.9,
+      "net_leverage": 2.85,
+      "interest_coverage": 4.36
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1980.0,
+      "ebitda": 1140.8,
+      "ebitda_margin_pct": 57.6,
+      "cfo": 977.5,
+      "capex": 315.6,
+      "fcf": 661.9,
+      "cash": 1035.0,
+      "gross_debt": 3808.8,
+      "net_debt": 2773.8,
+      "net_leverage": 2.43,
+      "interest_coverage": 4.79
+    }
+  ],
+  "supplementary_data": {
+    "installed_capacity_mw": 3140.0,
+    "generation_volume_gwh": 11070.0,
+    "renewable_capacity_pct": 65.0,
+    "fx_indexed_tariffs_pct": 82.0,
+    "capacity_utilization_factor_pct": 54.0
+  },
+  "debt_maturities": {
+    "2025": 425.0,
+    "2026": 708.4,
+    "2027": 991.8,
+    "2028": 637.6,
+    "2029": 425.0,
+    "2030_plus": 354.2,
+    "total_outstanding_usd_m": 3542.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 75.0,
+    "base_case_px": 101.5,
+    "recovery_floor_pct": 75.0,
+    "recovery_base_pct": 101.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Global green hydrogen and desalinated water powerhouse backed by PIF; long-term off-take contracts."
+  },
+  "annotations": [
+    {
+      "issuer_id": "acwa",
+      "issuer_name": "ACWA Power",
+      "sector": "Utilities",
+      "topic": "Regulated Asset Base & Off-take PPA",
+      "source": "Cognitive Credit / Citi",
+      "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+    },
+    {
+      "issuer_id": "acwa",
+      "issuer_name": "ACWA Power",
+      "sector": "Utilities",
+      "topic": "Capex Phasing & FCF Conversion",
+      "source": "Company Filings",
+      "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+    },
+    {
+      "issuer_id": "acwa",
+      "issuer_name": "ACWA Power",
+      "sector": "Utilities",
+      "topic": "Sovereign Balancing & Guarantees",
+      "source": "Ministry of Finance Disclosures",
+      "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+    }
+  ]
+}

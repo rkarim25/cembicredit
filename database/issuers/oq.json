@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "id": "oq",
+    "name": "OQ SAOC",
+    "ticker": "OQ",
+    "country": "Oman",
+    "region": "GCC",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "BB+ / BBB-",
+    "tier": "Tier-1",
+    "benchmark_bond": "OQGN 5.80% 2033",
+    "price": 99.5,
+    "ytm": 5.9,
+    "spread_bp": 185,
+    "model_file": "OQ_SAOC_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OQ_SAOC_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 21760.0,
+      "ebitda": 2990.0,
+      "ebitda_margin_pct": 13.7,
+      "cfo": 2424.2,
+      "capex": 1127.0,
+      "fcf": 1297.2,
+      "cash": 1897.5,
+      "gross_debt": 9970.5,
+      "net_debt": 8073.0,
+      "net_leverage": 2.7,
+      "interest_coverage": 6.28
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 26240.0,
+      "ebitda": 3680.0,
+      "ebitda_margin_pct": 14.0,
+      "cfo": 3049.8,
+      "capex": 1368.5,
+      "fcf": 1681.3,
+      "cash": 2415.0,
+      "gross_debt": 10791.6,
+      "net_debt": 8376.6,
+      "net_leverage": 2.28,
+      "interest_coverage": 6.19
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 29440.0,
+      "ebitda": 4140.0,
+      "ebitda_margin_pct": 14.1,
+      "cfo": 3440.8,
+      "capex": 1529.5,
+      "fcf": 1911.3,
+      "cash": 2932.5,
+      "gross_debt": 11495.4,
+      "net_debt": 8562.9,
+      "net_leverage": 2.07,
+      "interest_coverage": 5.8
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 32000.0,
+      "ebitda": 4600.0,
+      "ebitda_margin_pct": 14.4,
+      "cfo": 3910.0,
+      "capex": 1610.0,
+      "fcf": 2300.0,
+      "cash": 3450.0,
+      "gross_debt": 11730.0,
+      "net_debt": 8280.0,
+      "net_leverage": 1.8,
+      "interest_coverage": 5.8
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 34560.0,
+      "ebitda": 5060.0,
+      "ebitda_margin_pct": 14.6,
+      "cfo": 4301.0,
+      "capex": 1690.5,
+      "fcf": 2610.5,
+      "cash": 4071.0,
+      "gross_debt": 11495.4,
+      "net_debt": 7424.4,
+      "net_leverage": 1.47,
+      "interest_coverage": 6.65
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 36800.0,
+      "ebitda": 5428.0,
+      "ebitda_margin_pct": 14.8,
+      "cfo": 4613.8,
+      "capex": 1642.2,
+      "fcf": 2971.6,
+      "cash": 4657.5,
+      "gross_debt": 11143.5,
+      "net_debt": 6486.0,
+      "net_leverage": 1.19,
+      "interest_coverage": 7.44
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 38400.0,
+      "ebitda": 5704.0,
+      "ebitda_margin_pct": 14.9,
+      "cfo": 4887.5,
+      "capex": 1577.8,
+      "fcf": 3309.7,
+      "cash": 5175.0,
+      "gross_debt": 10557.0,
+      "net_debt": 5382.0,
+      "net_leverage": 0.94,
+      "interest_coverage": 8.17
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 1344.0,
+    "lifting_cost_usd_per_boe": 12.5,
+    "realized_price_usd_per_bbl": 78.0,
+    "reserve_life_2p_years": 15.0,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 993.6,
+    "2026": 1656.0,
+    "2027": 2318.4,
+    "2028": 1490.4,
+    "2029": 993.6,
+    "2030_plus": 828.0,
+    "total_outstanding_usd_m": 8280.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 74.0,
+    "base_case_px": 101.5,
+    "recovery_floor_pct": 74.0,
+    "recovery_base_pct": 101.5,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Oman's national integrated energy group; downstream Duqm refinery commissioning bolsters cash generation."
+  },
+  "annotations": [
+    {
+      "issuer_id": "oq",
+      "issuer_name": "OQ SAOC",
+      "sector": "Energy",
+      "topic": "Offshore Debt Escrow Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+    },
+    {
+      "issuer_id": "oq",
+      "issuer_name": "OQ SAOC",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even Floor",
+      "source": "Wood Mackenzie Benchmarking",
+      "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+    },
+    {
+      "issuer_id": "oq",
+      "issuer_name": "OQ SAOC",
+      "sector": "Energy",
+      "topic": "Commercial Reserve Life (1P/2P)",
+      "source": "DeGolyer and MacNaughton / Ryder Scott",
+      "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "turkcell",
+    "name": "Turkcell İletişim",
+    "ticker": "TCELL",
+    "country": "Turkey",
+    "region": "Turkey",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "BB / BB-",
+    "tier": "Tier-1",
+    "benchmark_bond": "TCELL 5.75% 2028",
+    "price": 96.8,
+    "ytm": 6.95,
+    "spread_bp": 290,
+    "model_file": "Turkcell_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turkcell_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 2856.0,
+      "ebitda": 1137.5,
+      "ebitda_margin_pct": 39.8,
+      "cfo": 922.2,
+      "capex": 428.8,
+      "fcf": 493.4,
+      "cash": 721.9,
+      "gross_debt": 2826.2,
+      "net_debt": 2104.3,
+      "net_leverage": 1.85,
+      "interest_coverage": 6.72
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 3444.0,
+      "ebitda": 1400.0,
+      "ebitda_margin_pct": 40.7,
+      "cfo": 1160.2,
+      "capex": 520.6,
+      "fcf": 639.6,
+      "cash": 918.7,
+      "gross_debt": 3059.0,
+      "net_debt": 2140.3,
+      "net_leverage": 1.53,
+      "interest_coverage": 6.61
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 3864.0,
+      "ebitda": 1575.0,
+      "ebitda_margin_pct": 40.8,
+      "cfo": 1309.0,
+      "capex": 581.9,
+      "fcf": 727.1,
+      "cash": 1115.6,
+      "gross_debt": 3258.5,
+      "net_debt": 2142.9,
+      "net_leverage": 1.36,
+      "interest_coverage": 6.2
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 4200.0,
+      "ebitda": 1750.0,
+      "ebitda_margin_pct": 41.7,
+      "cfo": 1487.5,
+      "capex": 612.5,
+      "fcf": 875.0,
+      "cash": 1312.5,
+      "gross_debt": 3325.0,
+      "net_debt": 2012.5,
+      "net_leverage": 1.15,
+      "interest_coverage": 6.2
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 4536.0,
+      "ebitda": 1925.0,
+      "ebitda_margin_pct": 42.4,
+      "cfo": 1636.3,
+      "capex": 643.1,
+      "fcf": 993.2,
+      "cash": 1548.8,
+      "gross_debt": 3258.5,
+      "net_debt": 1709.7,
+      "net_leverage": 0.89,
+      "interest_coverage": 7.1
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 4830.0,
+      "ebitda": 2065.0,
+      "ebitda_margin_pct": 42.8,
+      "cfo": 1755.2,
+      "capex": 624.8,
+      "fcf": 1130.4,
+      "cash": 1771.9,
+      "gross_debt": 3158.8,
+      "net_debt": 1386.9,
+      "net_leverage": 0.67,
+      "interest_coverage": 7.95
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 5040.0,
+      "ebitda": 2170.0,
+      "ebitda_margin_pct": 43.1,
+      "cfo": 1859.4,
+      "capex": 600.2,
+      "fcf": 1259.2,
+      "cash": 1968.8,
+      "gross_debt": 2992.5,
+      "net_debt": 1023.7,
+      "net_leverage": 0.47,
+      "interest_coverage": 8.74
+    }
+  ],
+  "supplementary_data": {
+    "tower_or_subscriber_count": "52.1M Users / Sites",
+    "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
+    "contracted_backlog_years": 8.5,
+    "usd_linked_revenue_pct": 72.0,
+    "churn_pct": 1.1
+  },
+  "debt_maturities": {
+    "2025": 241.5,
+    "2026": 402.5,
+    "2027": 563.5,
+    "2028": 362.2,
+    "2029": 241.5,
+    "2030_plus": 201.2,
+    "total_outstanding_usd_m": 2012.4
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 74.0,
+    "base_case_px": 101.0,
+    "recovery_floor_pct": 74.0,
+    "recovery_base_pct": 101.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
+    "thesis": "Turkey's leading telecom operator; TVF controlled, high ARPU growth and strong hard currency cash buffer."
+  },
+  "annotations": [
+    {
+      "issuer_id": "turkcell",
+      "issuer_name": "Turkcell İletişim",
+      "sector": "Technology",
+      "topic": "Master Lease Agreements & Indexation",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+    },
+    {
+      "issuer_id": "turkcell",
+      "issuer_name": "Turkcell İletişim",
+      "sector": "Technology",
+      "topic": "Tenancy Ratio & Organic Leverage",
+      "source": "Company Disclosures",
+      "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+    },
+    {
+      "issuer_id": "turkcell",
+      "issuer_name": "Turkcell İletişim",
+      "sector": "Technology",
+      "topic": "Contracted Revenue Backlog",
+      "source": "Investor Presentations",
+      "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    }
+  ]
+}

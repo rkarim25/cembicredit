@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "id": "bapco",
+    "name": "Bapco Energies (nogaholding)",
+    "ticker": "BAPCO",
+    "country": "Bahrain",
+    "region": "GCC",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "B+ / B+",
+    "tier": "Tier-2",
+    "benchmark_bond": "BAPCO 7.50% 2027",
+    "price": 101.8,
+    "ytm": 6.85,
+    "spread_bp": 280,
+    "model_file": "Bapco_Energies_Credit_Model.xlsx",
+    "notion_id": "",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bapco_Energies_Credit_Model.xlsx",
+    "last_updated": "2026-09-19"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 5780.0,
+      "ebitda": 812.5,
+      "ebitda_margin_pct": 14.1,
+      "cfo": 658.8,
+      "capex": 306.2,
+      "fcf": 352.6,
+      "cash": 515.6,
+      "gross_debt": 4409.4,
+      "net_debt": 3893.8,
+      "net_leverage": 4.79,
+      "interest_coverage": 3.36
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 6970.0,
+      "ebitda": 1000.0,
+      "ebitda_margin_pct": 14.3,
+      "cfo": 828.8,
+      "capex": 371.9,
+      "fcf": 456.9,
+      "cash": 656.2,
+      "gross_debt": 4772.5,
+      "net_debt": 4116.3,
+      "net_leverage": 4.12,
+      "interest_coverage": 3.31
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 7820.0,
+      "ebitda": 1125.0,
+      "ebitda_margin_pct": 14.4,
+      "cfo": 935.0,
+      "capex": 415.6,
+      "fcf": 519.4,
+      "cash": 796.9,
+      "gross_debt": 5083.8,
+      "net_debt": 4286.9,
+      "net_leverage": 3.81,
+      "interest_coverage": 3.1
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 8500.0,
+      "ebitda": 1250.0,
+      "ebitda_margin_pct": 14.7,
+      "cfo": 1062.5,
+      "capex": 437.5,
+      "fcf": 625.0,
+      "cash": 937.5,
+      "gross_debt": 5187.5,
+      "net_debt": 4250.0,
+      "net_leverage": 3.4,
+      "interest_coverage": 3.1
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 9180.0,
+      "ebitda": 1375.0,
+      "ebitda_margin_pct": 15.0,
+      "cfo": 1168.8,
+      "capex": 459.4,
+      "fcf": 709.4,
+      "cash": 1106.2,
+      "gross_debt": 5083.8,
+      "net_debt": 3977.6,
+      "net_leverage": 2.89,
+      "interest_coverage": 3.55
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 9775.0,
+      "ebitda": 1475.0,
+      "ebitda_margin_pct": 15.1,
+      "cfo": 1253.8,
+      "capex": 446.2,
+      "fcf": 807.6,
+      "cash": 1265.6,
+      "gross_debt": 4928.1,
+      "net_debt": 3662.5,
+      "net_leverage": 2.48,
+      "interest_coverage": 3.98
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 10200.0,
+      "ebitda": 1550.0,
+      "ebitda_margin_pct": 15.2,
+      "cfo": 1328.1,
+      "capex": 428.8,
+      "fcf": 899.3,
+      "cash": 1406.2,
+      "gross_debt": 4668.8,
+      "net_debt": 3262.6,
+      "net_leverage": 2.1,
+      "interest_coverage": 4.37
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 357.0,
+    "lifting_cost_usd_per_boe": 12.5,
+    "realized_price_usd_per_bbl": 78.0,
+    "reserve_life_2p_years": 15.0,
+    "offshore_escrow_routing_pct": 100.0,
+    "hedged_production_pct": 45.0
+  },
+  "debt_maturities": {
+    "2025": 510.0,
+    "2026": 850.0,
+    "2027": 1190.0,
+    "2028": 765.0,
+    "2029": 510.0,
+    "2030_plus": 425.0,
+    "total_outstanding_usd_m": 4250.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 68.0,
+    "base_case_px": 101.8,
+    "recovery_floor_pct": 68.0,
+    "recovery_base_pct": 101.8,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
+    "thesis": "Bahrain sovereign energy vehicle; BMP refinery modernization program near completion, sovereign support."
+  },
+  "annotations": [
+    {
+      "issuer_id": "bapco",
+      "issuer_name": "Bapco Energies (nogaholding)",
+      "sector": "Energy",
+      "topic": "Offshore Debt Escrow Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+    },
+    {
+      "issuer_id": "bapco",
+      "issuer_name": "Bapco Energies (nogaholding)",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even Floor",
+      "source": "Wood Mackenzie Benchmarking",
+      "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+    },
+    {
+      "issuer_id": "bapco",
+      "issuer_name": "Bapco Energies (nogaholding)",
+      "sector": "Energy",
+      "topic": "Commercial Reserve Life (1P/2P)",
+      "source": "DeGolyer and MacNaughton / Ryder Scott",
+      "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    }
+  ]
+}
