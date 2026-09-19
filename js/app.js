@@ -924,6 +924,7 @@ function renderTable() {
             })()}
           <!-- Bespoke Investor Presentation Sections (e.g. Generation Fleet, Tariffs, Escrow, Refineries) -->
                 ${(() => {
+                  const ed = item.earnings_presentation_intelligence || {};
                   const bespokeKeys = Object.keys(ed).filter(k => ![
                     "source_deck", "reporting_currency", "management_guidance_targets",
                     "management_guidance_tracker", "capex_and_project_pipeline",
