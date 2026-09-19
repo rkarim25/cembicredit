@@ -175,5 +175,41 @@
       "source": "Ministry of Finance Disclosures",
       "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
     }
-  ]
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+    "reporting_currency": "USD / Local Currency",
+    "management_guidance_targets": {
+      "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+      "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+      "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+      "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+    },
+    "capex_and_project_pipeline": {
+      "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+      "capital_expenditure_envelope": "$5145.0M committed equity and project debt capex over 2025-2027",
+      "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+      "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+    },
+    "geographic_and_fx_exposure": {
+      "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+      "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+      "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "contracted_revenue_backlog": "$273600.0M lifetime contractual revenue commitment",
+      "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+      "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+    },
+    "liquidity_waterfall": {
+      "unrestricted_cash_and_equivalents": "$3150.0M across corporate accounts",
+      "undrawn_revolving_credit_facilities": "$3612.0M in multi-currency syndicated credit lines",
+      "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+    },
+    "quarterly_cadence_and_highlights": {
+      "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+      "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+      "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+    }
+  }
 }

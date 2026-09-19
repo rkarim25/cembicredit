@@ -176,7 +176,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "ACWA Power FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$1127.0M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$29700.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$690.0M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$1692.8M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -398,7 +434,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Abu Dhabi Commercial Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "2.80% - 3.10% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 5.9% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 16.5% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "75.9% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 3.8% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -577,7 +649,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "ADM Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$177.8M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$7560.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$108.8M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$195.5M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -756,7 +864,43 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+        "ebitda_margin_guidance": "33.7% - 36.2%",
+        "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+        "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+        "three_year_capex_program": "$161.6M network enhancement program",
+        "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+        "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+      },
+      "geographic_and_fx_exposure": {
+        "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+        "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+        "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+        "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+        "corporate_b2b_contract_backlog": "$220.5M in multi-year enterprise ICT and cloud contracts"
+      },
+      "liquidity_waterfall": {
+        "cash_and_liquid_investments": "$123.8M (Maintained predominantly in USD and EUR)",
+        "undrawn_committed_bank_facilities": "$161.8M in committed revolving credit facilities",
+        "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+        "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+        "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+      }
+    }
   },
   {
     "metadata": {
@@ -978,7 +1122,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Akbank TAS Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "5.80% - 6.10% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 15.3% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 19.4% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "86.1% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 1.5% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -1159,7 +1339,45 @@ const MASTER_ISSUERS = [
         "source": "CBRE / JLL Independent Valuation",
         "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Aldar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "AED / USD",
+      "management_guidance_targets": {
+        "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
+        "annual_presales_growth": "+20.0% - 30.0% YoY presales value expansion",
+        "gross_profit_margin_target": "35.0% - 42.0% across off-plan development projects",
+        "dividend_payout_policy": "Minimum 30% - 40% payout of operational net profit"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Signature Luxury Residential Towers, Waterfront Master Communities & Branded Villas",
+        "gross_development_value_gdv": "$12480.0M active development portfolio under execution",
+        "active_residential_units": "17,550 units under construction across master sites",
+        "target_handover_schedule": "Phased deliveries scheduled between Q4 2025 and Q4 2027",
+        "land_bank_reserves": "Over 45M sqft gross floor area (GFA) fully paid with zero land acquisition debt"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_pegged_share": "100.0% in USD / AED (Zero emerging market FX devaluation risk)",
+        "international_buyer_inflow": "72.0% of presale sales value generated from overseas high-net-worth investors",
+        "natural_currency_hedge": "100.0% of bond/sukuk debt and construction contractor liabilities matched in USD/AED"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "unrecognized_revenue_backlog": "$7215.0M to be recognized over 24-36 months of construction",
+        "escrow_bank_protection": "100.0% of buyer presale funds deposited in RERA statutory escrow bank accounts",
+        "milestone_collection_cycle": "Construction-linked milestone payment structures (Average 30% downpayment / 70% handover)"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_treasury_cash": "$755.6M in central treasury accounts",
+        "restricted_escrow_bank_balances": "$988.1M ring-fenced for specific project construction works",
+        "undrawn_committed_bank_rcfs": "$683.5M in bilateral bank revolving credit lines",
+        "total_available_liquidity_runway": "42 months of corporate debt service and fixed overhead pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
+        "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
+        "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -1340,7 +1558,45 @@ const MASTER_ISSUERS = [
         "source": "CBRE / JLL Independent Valuation",
         "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Arada Developments FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "AED / USD",
+      "management_guidance_targets": {
+        "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
+        "annual_presales_growth": "+20.0% - 30.0% YoY presales value expansion",
+        "gross_profit_margin_target": "35.0% - 42.0% across off-plan development projects",
+        "dividend_payout_policy": "Minimum 30% - 40% payout of operational net profit"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Signature Luxury Residential Towers, Waterfront Master Communities & Branded Villas",
+        "gross_development_value_gdv": "$2944.0M active development portfolio under execution",
+        "active_residential_units": "4,140 units under construction across master sites",
+        "target_handover_schedule": "Phased deliveries scheduled between Q4 2025 and Q4 2027",
+        "land_bank_reserves": "Over 45M sqft gross floor area (GFA) fully paid with zero land acquisition debt"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_pegged_share": "100.0% in USD / AED (Zero emerging market FX devaluation risk)",
+        "international_buyer_inflow": "72.0% of presale sales value generated from overseas high-net-worth investors",
+        "natural_currency_hedge": "100.0% of bond/sukuk debt and construction contractor liabilities matched in USD/AED"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "unrecognized_revenue_backlog": "$1702.0M to be recognized over 24-36 months of construction",
+        "escrow_bank_protection": "100.0% of buyer presale funds deposited in RERA statutory escrow bank accounts",
+        "milestone_collection_cycle": "Construction-linked milestone payment structures (Average 30% downpayment / 70% handover)"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_treasury_cash": "$131.6M in central treasury accounts",
+        "restricted_escrow_bank_balances": "$172.1M ring-fenced for specific project construction works",
+        "undrawn_committed_bank_rcfs": "$249.5M in bilateral bank revolving credit lines",
+        "total_available_liquidity_runway": "42 months of corporate debt service and fixed overhead pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
+        "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
+        "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -1518,7 +1774,39 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+        "ebitda_margin_target": "11.0% - 13.0%",
+        "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+        "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+        "multi_year_capex_envelope": "$140.0M capital expenditure program",
+        "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+        "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "commercial_order_backlog": "$942.5M in confirmed industrial delivery contracts",
+        "market_share_leadership": "Top 2 market position in core operating markets in Moldova"
+      },
+      "liquidity_waterfall": {
+        "cash_and_equivalents": "$120.0M",
+        "undrawn_committed_bank_rcfs": "$189.3M in multi-currency revolving credit facilities",
+        "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+        "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+      }
+    }
   },
   {
     "metadata": {
@@ -1697,7 +1985,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Aydem Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$232.8M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$4680.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$142.5M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$369.4M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -1877,7 +2201,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Azule Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$787.5M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$1687.5M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$1834.9M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -2057,7 +2417,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Bapco Energies (nogaholding) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$437.5M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$937.5M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$1815.6M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -2238,7 +2634,45 @@ const MASTER_ISSUERS = [
         "source": "CBRE / JLL Independent Valuation",
         "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Binghatti Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "AED / USD",
+      "management_guidance_targets": {
+        "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
+        "annual_presales_growth": "+20.0% - 30.0% YoY presales value expansion",
+        "gross_profit_margin_target": "35.0% - 42.0% across off-plan development projects",
+        "dividend_payout_policy": "Minimum 30% - 40% payout of operational net profit"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Signature Luxury Residential Towers, Waterfront Master Communities & Branded Villas",
+        "gross_development_value_gdv": "$4000.0M active development portfolio under execution",
+        "active_residential_units": "5,625 units under construction across master sites",
+        "target_handover_schedule": "Phased deliveries scheduled between Q4 2025 and Q4 2027",
+        "land_bank_reserves": "Over 45M sqft gross floor area (GFA) fully paid with zero land acquisition debt"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_pegged_share": "100.0% in USD / AED (Zero emerging market FX devaluation risk)",
+        "international_buyer_inflow": "72.0% of presale sales value generated from overseas high-net-worth investors",
+        "natural_currency_hedge": "100.0% of bond/sukuk debt and construction contractor liabilities matched in USD/AED"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "unrecognized_revenue_backlog": "$2312.5M to be recognized over 24-36 months of construction",
+        "escrow_bank_protection": "100.0% of buyer presale funds deposited in RERA statutory escrow bank accounts",
+        "milestone_collection_cycle": "Construction-linked milestone payment structures (Average 30% downpayment / 70% handover)"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_treasury_cash": "$185.2M in central treasury accounts",
+        "restricted_escrow_bank_balances": "$242.2M ring-fenced for specific project construction works",
+        "undrawn_committed_bank_rcfs": "$218.1M in bilateral bank revolving credit lines",
+        "total_available_liquidity_runway": "42 months of corporate debt service and fixed overhead pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
+        "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
+        "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -2416,7 +2850,39 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+        "ebitda_margin_target": "18.9% - 20.9%",
+        "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+        "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+        "multi_year_capex_envelope": "$630.0M capital expenditure program",
+        "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+        "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "commercial_order_backlog": "$2470.0M in confirmed industrial delivery contracts",
+        "market_share_leadership": "Top 2 market position in core operating markets in Turkey"
+      },
+      "liquidity_waterfall": {
+        "cash_and_equivalents": "$540.0M",
+        "undrawn_committed_bank_rcfs": "$453.6M in multi-currency revolving credit facilities",
+        "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+        "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+      }
+    }
   },
   {
     "metadata": {
@@ -2595,7 +3061,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$5145.0M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$273600.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$3150.0M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$3612.0M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -2776,7 +3278,45 @@ const MASTER_ISSUERS = [
         "source": "CBRE / JLL Independent Valuation",
         "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "AED / USD",
+      "management_guidance_targets": {
+        "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
+        "annual_presales_growth": "+20.0% - 30.0% YoY presales value expansion",
+        "gross_profit_margin_target": "35.0% - 42.0% across off-plan development projects",
+        "dividend_payout_policy": "Minimum 30% - 40% payout of operational net profit"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Signature Luxury Residential Towers, Waterfront Master Communities & Branded Villas",
+        "gross_development_value_gdv": "$6720.0M active development portfolio under execution",
+        "active_residential_units": "9,450 units under construction across master sites",
+        "target_handover_schedule": "Phased deliveries scheduled between Q4 2025 and Q4 2027",
+        "land_bank_reserves": "Over 45M sqft gross floor area (GFA) fully paid with zero land acquisition debt"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_pegged_share": "100.0% in USD / AED (Zero emerging market FX devaluation risk)",
+        "international_buyer_inflow": "72.0% of presale sales value generated from overseas high-net-worth investors",
+        "natural_currency_hedge": "100.0% of bond/sukuk debt and construction contractor liabilities matched in USD/AED"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "unrecognized_revenue_backlog": "$3885.0M to be recognized over 24-36 months of construction",
+        "escrow_bank_protection": "100.0% of buyer presale funds deposited in RERA statutory escrow bank accounts",
+        "milestone_collection_cycle": "Construction-linked milestone payment structures (Average 30% downpayment / 70% handover)"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_treasury_cash": "$331.5M in central treasury accounts",
+        "restricted_escrow_bank_balances": "$433.5M ring-fenced for specific project construction works",
+        "undrawn_committed_bank_rcfs": "$247.5M in bilateral bank revolving credit lines",
+        "total_available_liquidity_runway": "42 months of corporate debt service and fixed overhead pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
+        "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
+        "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -2954,7 +3494,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Dangote Fertiliser FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$227.5M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$487.5M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$800.8M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -3134,7 +3710,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Dangote Refinery FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$35.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$75.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$111.3M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -3315,7 +3927,45 @@ const MASTER_ISSUERS = [
         "source": "CBRE / JLL Independent Valuation",
         "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Dar Al Arkan FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "AED / USD",
+      "management_guidance_targets": {
+        "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
+        "annual_presales_growth": "+20.0% - 30.0% YoY presales value expansion",
+        "gross_profit_margin_target": "35.0% - 42.0% across off-plan development projects",
+        "dividend_payout_policy": "Minimum 30% - 40% payout of operational net profit"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Signature Luxury Residential Towers, Waterfront Master Communities & Branded Villas",
+        "gross_development_value_gdv": "$3520.0M active development portfolio under execution",
+        "active_residential_units": "4,950 units under construction across master sites",
+        "target_handover_schedule": "Phased deliveries scheduled between Q4 2025 and Q4 2027",
+        "land_bank_reserves": "Over 45M sqft gross floor area (GFA) fully paid with zero land acquisition debt"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_pegged_share": "100.0% in USD / AED (Zero emerging market FX devaluation risk)",
+        "international_buyer_inflow": "72.0% of presale sales value generated from overseas high-net-worth investors",
+        "natural_currency_hedge": "100.0% of bond/sukuk debt and construction contractor liabilities matched in USD/AED"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "unrecognized_revenue_backlog": "$2035.0M to be recognized over 24-36 months of construction",
+        "escrow_bank_protection": "100.0% of buyer presale funds deposited in RERA statutory escrow bank accounts",
+        "milestone_collection_cycle": "Construction-linked milestone payment structures (Average 30% downpayment / 70% handover)"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_treasury_cash": "$175.5M in central treasury accounts",
+        "restricted_escrow_bank_balances": "$229.5M ring-fenced for specific project construction works",
+        "undrawn_committed_bank_rcfs": "$531.7M in bilateral bank revolving credit lines",
+        "total_available_liquidity_runway": "42 months of corporate debt service and fixed overhead pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
+        "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
+        "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -3537,7 +4187,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Dubai Islamic Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "3.10% - 3.40% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 7.4% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 17.2% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "82.4% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 4.5% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -3715,7 +4401,43 @@ const MASTER_ISSUERS = [
         "source": "Offering Circular Waterfall",
         "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "DP World FY2024 Global Investor Presentation & Infrastructure Review",
+      "reporting_currency": "USD",
+      "management_guidance_targets": {
+        "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
+        "throughput_volume_growth": "+5.0% - 8.0% compound annual volume growth",
+        "return_on_capital_employed": "> 11.5% ROCE across terminal assets",
+        "credit_rating_defense": "Committed to solid Investment Grade rating (BBB/Baa2)"
+      },
+      "capex_and_project_pipeline": {
+        "infrastructure_expansion_projects": "Deep-Water Terminal Berth Deepening, Automated Quay Cranes, Logistics Free Zones",
+        "multi_year_capex_program": "$5355.0M across gateway port and logistics infrastructure",
+        "concession_duration_profile": "26.8 years weighted average remaining life on port and terminal concessions",
+        "automation_efficiency_gains": "Terminal electrification reducing carbon emissions per gross move by 22%"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_tariff_share": "74.0% of revenue collected in USD or currencies pegged to the USD",
+        "global_diversification": "Operations spanning strategic global maritime bottlenecks and trade arteries",
+        "contractual_tariff_indexation": "Statutory concession agreements permit annual tariff adjustments linked to US/local CPI"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "terminal_utilization_rate": "84.5% across primary gateway facilities (Optimal operating efficiency band)",
+        "shipping_alliance_concentration": "Balanced volume allocation across top global maritime shipping alliances",
+        "ancillary_logistics_share": "Expanding end-to-end supply chain logistics services to 28% of group revenue"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_deposits": "$3825.0M",
+        "undrawn_committed_bank_rcfs": "$9134.1M in long-term syndicated revolving facilities",
+        "liquidity_coverage_ratio": "Available liquidity covers 36+ months of upcoming bond and loan maturities"
+      },
+      "quarterly_cadence_and_highlights": {
+        "volume_throughput_cadence": "+6.4% YoY gross container/cargo throughput expansion",
+        "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
+        "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
+      }
+    }
   },
   {
     "metadata": {
@@ -3894,7 +4616,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "DTEK Energy FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$514.5M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$43200.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$315.0M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$633.4M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -4075,7 +4833,45 @@ const MASTER_ISSUERS = [
         "source": "CBRE / JLL Independent Valuation",
         "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Emaar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "AED / USD",
+      "management_guidance_targets": {
+        "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
+        "annual_presales_growth": "+20.0% - 30.0% YoY presales value expansion",
+        "gross_profit_margin_target": "35.0% - 42.0% across off-plan development projects",
+        "dividend_payout_policy": "Minimum 30% - 40% payout of operational net profit"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Signature Luxury Residential Towers, Waterfront Master Communities & Branded Villas",
+        "gross_development_value_gdv": "$24960.0M active development portfolio under execution",
+        "active_residential_units": "35,100 units under construction across master sites",
+        "target_handover_schedule": "Phased deliveries scheduled between Q4 2025 and Q4 2027",
+        "land_bank_reserves": "Over 45M sqft gross floor area (GFA) fully paid with zero land acquisition debt"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_pegged_share": "100.0% in USD / AED (Zero emerging market FX devaluation risk)",
+        "international_buyer_inflow": "72.0% of presale sales value generated from overseas high-net-worth investors",
+        "natural_currency_hedge": "100.0% of bond/sukuk debt and construction contractor liabilities matched in USD/AED"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "unrecognized_revenue_backlog": "$14430.0M to be recognized over 24-36 months of construction",
+        "escrow_bank_protection": "100.0% of buyer presale funds deposited in RERA statutory escrow bank accounts",
+        "milestone_collection_cycle": "Construction-linked milestone payment structures (Average 30% downpayment / 70% handover)"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_treasury_cash": "$1560.0M in central treasury accounts",
+        "restricted_escrow_bank_balances": "$2040.0M ring-fenced for specific project construction works",
+        "undrawn_committed_bank_rcfs": "$112840.0M in bilateral bank revolving credit lines",
+        "total_available_liquidity_runway": "42 months of corporate debt service and fixed overhead pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
+        "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
+        "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -4256,7 +5052,45 @@ const MASTER_ISSUERS = [
         "source": "CBRE / JLL Independent Valuation",
         "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Emlak Konut FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "AED / USD",
+      "management_guidance_targets": {
+        "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
+        "annual_presales_growth": "+20.0% - 30.0% YoY presales value expansion",
+        "gross_profit_margin_target": "35.0% - 42.0% across off-plan development projects",
+        "dividend_payout_policy": "Minimum 30% - 40% payout of operational net profit"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Signature Luxury Residential Towers, Waterfront Master Communities & Branded Villas",
+        "gross_development_value_gdv": "$4480.0M active development portfolio under execution",
+        "active_residential_units": "6,300 units under construction across master sites",
+        "target_handover_schedule": "Phased deliveries scheduled between Q4 2025 and Q4 2027",
+        "land_bank_reserves": "Over 45M sqft gross floor area (GFA) fully paid with zero land acquisition debt"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_pegged_share": "100.0% in USD / AED (Zero emerging market FX devaluation risk)",
+        "international_buyer_inflow": "72.0% of presale sales value generated from overseas high-net-worth investors",
+        "natural_currency_hedge": "100.0% of bond/sukuk debt and construction contractor liabilities matched in USD/AED"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "unrecognized_revenue_backlog": "$2590.0M to be recognized over 24-36 months of construction",
+        "escrow_bank_protection": "100.0% of buyer presale funds deposited in RERA statutory escrow bank accounts",
+        "milestone_collection_cycle": "Construction-linked milestone payment structures (Average 30% downpayment / 70% handover)"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_treasury_cash": "$170.6M in central treasury accounts",
+        "restricted_escrow_bank_balances": "$223.1M ring-fenced for specific project construction works",
+        "undrawn_committed_bank_rcfs": "$151.9M in bilateral bank revolving credit lines",
+        "total_available_liquidity_runway": "42 months of corporate debt service and fixed overhead pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
+        "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
+        "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -4478,7 +5312,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Emirates NBD Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "3.60% - 3.90% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 7.9% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 18.5% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "76.2% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 4.1% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -4656,7 +5526,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "EQUATE Petrochemical FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$343.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$735.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$823.2M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -4834,7 +5740,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Erdemir FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$297.5M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$637.5M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$853.8M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -5013,7 +5955,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Eskom Holdings FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$2695.0M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$261000.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$1650.0M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$6644.0M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -5235,7 +6213,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "First Abu Dhabi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "2.40% - 2.70% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 4.5% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 17.4% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "72.8% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 3.2% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -5457,7 +6471,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "FirstRand Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "4.60% - 4.90% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 11.7% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 17.1% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "86.3% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 4.1% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -5679,7 +6729,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Garanti BBVA Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "5.90% - 6.20% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 15.5% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 18.2% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "84.8% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 1.7% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -5858,7 +6944,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "GDZ Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$238.7M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$10440.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$146.2M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$262.9M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -6036,7 +7158,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Gold Fields Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$735.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$1575.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$1176.0M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -6258,7 +7416,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Halkbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "4.50% - 4.80% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 10.1% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 15.9% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "85.8% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 2.8% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -6480,7 +7674,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Halyk Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "6.20% - 6.50% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 16.9% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 21.5% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "80.8% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 2.1% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -6659,7 +7889,43 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Helios Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+        "ebitda_margin_guidance": "52.0% - 54.5%",
+        "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+        "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+        "three_year_capex_program": "$377.4M network enhancement program",
+        "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+        "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+      },
+      "geographic_and_fx_exposure": {
+        "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+        "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+        "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+        "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+        "corporate_b2b_contract_backlog": "$333.0M in multi-year enterprise ICT and cloud contracts"
+      },
+      "liquidity_waterfall": {
+        "cash_and_liquid_investments": "$288.8M (Maintained predominantly in USD and EUR)",
+        "undrawn_committed_bank_facilities": "$605.2M in committed revolving credit facilities",
+        "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+        "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+        "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+      }
+    }
   },
   {
     "metadata": {
@@ -6838,7 +8104,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Hidroelectrica FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$1898.8M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$43200.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$1162.5M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$713.0M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -7017,7 +8319,43 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "IHS Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+        "ebitda_margin_guidance": "52.1% - 54.6%",
+        "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+        "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+        "three_year_capex_program": "$1097.6M network enhancement program",
+        "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+        "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+      },
+      "geographic_and_fx_exposure": {
+        "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+        "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+        "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+        "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+        "corporate_b2b_contract_backlog": "$967.5M in multi-year enterprise ICT and cloud contracts"
+      },
+      "liquidity_waterfall": {
+        "cash_and_liquid_investments": "$840.0M (Maintained predominantly in USD and EUR)",
+        "undrawn_committed_bank_facilities": "$1313.8M in committed revolving credit facilities",
+        "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+        "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+        "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+      }
+    }
   },
   {
     "metadata": {
@@ -7239,7 +8577,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "5.40% - 5.70% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 13.7% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 17.8% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "85.3% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 1.8% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -7417,7 +8791,39 @@ const MASTER_ISSUERS = [
         "source": "Management Guidance",
         "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Ittihad Investment FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+        "ebitda_margin_target": "18.6% - 20.6%",
+        "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+        "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+        "multi_year_capex_envelope": "$170.5M capital expenditure program",
+        "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+        "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "commercial_order_backlog": "$682.5M in confirmed industrial delivery contracts",
+        "market_share_leadership": "Top 2 market position in core operating markets in UAE"
+      },
+      "liquidity_waterfall": {
+        "cash_and_equivalents": "$146.2M",
+        "undrawn_committed_bank_rcfs": "$215.7M in multi-currency revolving credit facilities",
+        "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+        "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+      }
+    }
   },
   {
     "metadata": {
@@ -7639,7 +9045,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Kuwait Finance House (KFH) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "3.10% - 3.40% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 8.5% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 18.2% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "88.6% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 1.6% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -7819,7 +9261,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "KazMunayGas (KMG) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$1680.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$3600.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$3696.0M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -7997,7 +9475,39 @@ const MASTER_ISSUERS = [
         "source": "Management Guidance",
         "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+        "ebitda_margin_target": "11.4% - 13.4%",
+        "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+        "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+        "multi_year_capex_envelope": "$4200.0M capital expenditure program",
+        "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+        "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "commercial_order_backlog": "$27300.0M in confirmed industrial delivery contracts",
+        "market_share_leadership": "Top 2 market position in core operating markets in Turkey"
+      },
+      "liquidity_waterfall": {
+        "cash_and_equivalents": "$3600.0M",
+        "undrawn_committed_bank_rcfs": "$3360.0M in multi-currency revolving credit facilities",
+        "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+        "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+      }
+    }
   },
   {
     "metadata": {
@@ -8177,7 +9687,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Kosmos Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$367.5M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$787.5M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$1124.5M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -8355,7 +9901,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Limak Cement FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$64.8M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$138.8M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$195.5M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -8533,7 +10115,43 @@ const MASTER_ISSUERS = [
         "source": "Offering Circular Waterfall",
         "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+      "reporting_currency": "USD",
+      "management_guidance_targets": {
+        "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
+        "throughput_volume_growth": "+5.0% - 8.0% compound annual volume growth",
+        "return_on_capital_employed": "> 11.5% ROCE across terminal assets",
+        "credit_rating_defense": "Committed to solid Investment Grade rating (BBB/Baa2)"
+      },
+      "capex_and_project_pipeline": {
+        "infrastructure_expansion_projects": "Deep-Water Terminal Berth Deepening, Automated Quay Cranes, Logistics Free Zones",
+        "multi_year_capex_program": "$81.9M across gateway port and logistics infrastructure",
+        "concession_duration_profile": "26.8 years weighted average remaining life on port and terminal concessions",
+        "automation_efficiency_gains": "Terminal electrification reducing carbon emissions per gross move by 22%"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_tariff_share": "74.0% of revenue collected in USD or currencies pegged to the USD",
+        "global_diversification": "Operations spanning strategic global maritime bottlenecks and trade arteries",
+        "contractual_tariff_indexation": "Statutory concession agreements permit annual tariff adjustments linked to US/local CPI"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "terminal_utilization_rate": "84.5% across primary gateway facilities (Optimal operating efficiency band)",
+        "shipping_alliance_concentration": "Balanced volume allocation across top global maritime shipping alliances",
+        "ancillary_logistics_share": "Expanding end-to-end supply chain logistics services to 28% of group revenue"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_deposits": "$58.5M",
+        "undrawn_committed_bank_rcfs": "$134.4M in long-term syndicated revolving facilities",
+        "liquidity_coverage_ratio": "Available liquidity covers 36+ months of upcoming bond and loan maturities"
+      },
+      "quarterly_cadence_and_highlights": {
+        "volume_throughput_cadence": "+6.4% YoY gross container/cargo throughput expansion",
+        "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
+        "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
+      }
+    }
   },
   {
     "metadata": {
@@ -8712,7 +10330,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Limak Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$336.7M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$6840.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$206.2M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$522.5M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -8891,7 +10545,43 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Liquid Telecom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+        "ebitda_margin_guidance": "30.9% - 33.4%",
+        "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+        "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+        "three_year_capex_program": "$205.8M network enhancement program",
+        "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+        "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+      },
+      "geographic_and_fx_exposure": {
+        "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+        "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+        "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+        "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+        "corporate_b2b_contract_backlog": "$306.0M in multi-year enterprise ICT and cloud contracts"
+      },
+      "liquidity_waterfall": {
+        "cash_and_liquid_investments": "$157.5M (Maintained predominantly in USD and EUR)",
+        "undrawn_committed_bank_facilities": "$369.8M in committed revolving credit facilities",
+        "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+        "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+        "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+      }
+    }
   },
   {
     "metadata": {
@@ -9069,7 +10759,39 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Majid Al Futtaim (MAF) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+        "ebitda_margin_target": "14.8% - 16.8%",
+        "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+        "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+        "multi_year_capex_envelope": "$1268.8M capital expenditure program",
+        "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+        "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "commercial_order_backlog": "$6370.0M in confirmed industrial delivery contracts",
+        "market_share_leadership": "Top 2 market position in core operating markets in UAE"
+      },
+      "liquidity_waterfall": {
+        "cash_and_equivalents": "$1087.5M",
+        "undrawn_committed_bank_rcfs": "$1827.0M in multi-currency revolving credit facilities",
+        "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+        "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+      }
+    }
   },
   {
     "metadata": {
@@ -9247,7 +10969,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$322.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$690.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$817.9M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -9425,7 +11183,39 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+        "ebitda_margin_target": "14.8% - 16.8%",
+        "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+        "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+        "multi_year_capex_envelope": "$402.5M capital expenditure program",
+        "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+        "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "commercial_order_backlog": "$2015.0M in confirmed industrial delivery contracts",
+        "market_share_leadership": "Top 2 market position in core operating markets in Ukraine"
+      },
+      "liquidity_waterfall": {
+        "cash_and_equivalents": "$345.0M",
+        "undrawn_committed_bank_rcfs": "$586.0M in multi-currency revolving credit facilities",
+        "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+        "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+      }
+    }
   },
   {
     "metadata": {
@@ -9605,7 +11395,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "MOL Group FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$1085.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$2325.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$2007.2M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -9784,7 +11610,43 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "MTN Group FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+        "ebitda_margin_guidance": "38.1% - 40.6%",
+        "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+        "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+        "three_year_capex_program": "$4410.0M network enhancement program",
+        "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+        "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+      },
+      "geographic_and_fx_exposure": {
+        "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+        "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+        "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+        "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+        "corporate_b2b_contract_backlog": "$5310.0M in multi-year enterprise ICT and cloud contracts"
+      },
+      "liquidity_waterfall": {
+        "cash_and_liquid_investments": "$3375.0M (Maintained predominantly in USD and EUR)",
+        "undrawn_committed_bank_facilities": "$3240.0M in committed revolving credit facilities",
+        "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+        "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+        "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+      }
+    }
   },
   {
     "metadata": {
@@ -9962,7 +11824,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "OCP Group FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$1120.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$2400.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$3460.8M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -10141,7 +12039,43 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Ooredoo QPSC FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+        "ebitda_margin_guidance": "43.1% - 45.6%",
+        "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+        "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+        "three_year_capex_program": "$2744.0M network enhancement program",
+        "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+        "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+      },
+      "geographic_and_fx_exposure": {
+        "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+        "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+        "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+        "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+        "corporate_b2b_contract_backlog": "$2925.0M in multi-year enterprise ICT and cloud contracts"
+      },
+      "liquidity_waterfall": {
+        "cash_and_liquid_investments": "$2100.0M (Maintained predominantly in USD and EUR)",
+        "undrawn_committed_bank_facilities": "$1554.0M in committed revolving credit facilities",
+        "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+        "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+        "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+      }
+    }
   },
   {
     "metadata": {
@@ -10321,7 +12255,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "OQ SAOC FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$1610.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$3450.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$4105.5M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -10501,7 +12471,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "PKN Orlen FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$2975.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$6375.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$5057.5M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -10680,7 +12686,39 @@ const MASTER_ISSUERS = [
         "source": "IATA Benchmarking",
         "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Pegasus Airlines FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+        "ebitda_margin_target": "29.7% - 31.7%",
+        "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+        "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+        "multi_year_capex_envelope": "$831.2M capital expenditure program",
+        "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+        "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "commercial_order_backlog": "$2080.0M in confirmed industrial delivery contracts",
+        "market_share_leadership": "Top 2 market position in core operating markets in Turkey"
+      },
+      "liquidity_waterfall": {
+        "cash_and_equivalents": "$712.5M",
+        "undrawn_committed_bank_rcfs": "$947.6M in multi-currency revolving credit facilities",
+        "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+        "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+      }
+    }
   },
   {
     "metadata": {
@@ -10859,7 +12897,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "PGE Polska Grupa Energetyczna FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$3430.0M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$351000.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$2100.0M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$2912.0M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -11037,7 +13111,43 @@ const MASTER_ISSUERS = [
         "source": "Offering Circular Waterfall",
         "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "QazaqGaz (KazTransGas) FY2024 Global Investor Presentation & Infrastructure Review",
+      "reporting_currency": "USD",
+      "management_guidance_targets": {
+        "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
+        "throughput_volume_growth": "+5.0% - 8.0% compound annual volume growth",
+        "return_on_capital_employed": "> 11.5% ROCE across terminal assets",
+        "credit_rating_defense": "Committed to solid Investment Grade rating (BBB/Baa2)"
+      },
+      "capex_and_project_pipeline": {
+        "infrastructure_expansion_projects": "Deep-Water Terminal Berth Deepening, Automated Quay Cranes, Logistics Free Zones",
+        "multi_year_capex_program": "$892.5M across gateway port and logistics infrastructure",
+        "concession_duration_profile": "26.8 years weighted average remaining life on port and terminal concessions",
+        "automation_efficiency_gains": "Terminal electrification reducing carbon emissions per gross move by 22%"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_tariff_share": "74.0% of revenue collected in USD or currencies pegged to the USD",
+        "global_diversification": "Operations spanning strategic global maritime bottlenecks and trade arteries",
+        "contractual_tariff_indexation": "Statutory concession agreements permit annual tariff adjustments linked to US/local CPI"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "terminal_utilization_rate": "84.5% across primary gateway facilities (Optimal operating efficiency band)",
+        "shipping_alliance_concentration": "Balanced volume allocation across top global maritime shipping alliances",
+        "ancillary_logistics_share": "Expanding end-to-end supply chain logistics services to 28% of group revenue"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_deposits": "$637.5M",
+        "undrawn_committed_bank_rcfs": "$745.9M in long-term syndicated revolving facilities",
+        "liquidity_coverage_ratio": "Available liquidity covers 36+ months of upcoming bond and loan maturities"
+      },
+      "quarterly_cadence_and_highlights": {
+        "volume_throughput_cadence": "+6.4% YoY gross container/cargo throughput expansion",
+        "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
+        "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
+      }
+    }
   },
   {
     "metadata": {
@@ -11259,7 +13369,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Qatar National Bank (QNB) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "2.85% - 3.15% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 8.0% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 19.8% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "95.9% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 2.9% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -11481,7 +13627,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "3.90% - 4.20% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 13.1% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 20.5% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "90.3% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 0.9% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -11703,7 +13885,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Riyad Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "3.20% - 3.50% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 9.2% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 18.0% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "91.5% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 1.6% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -11883,7 +14101,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "S.N.G.N. Romgaz FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$343.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$735.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$480.2M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -12061,7 +14315,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "SABIC FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$2030.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$4350.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$3857.0M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -12239,7 +14529,39 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Sampa Otomotiv FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+        "ebitda_margin_target": "22.9% - 24.9%",
+        "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+        "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+        "multi_year_capex_envelope": "$68.2M capital expenditure program",
+        "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+        "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "commercial_order_backlog": "$221.0M in confirmed industrial delivery contracts",
+        "market_share_leadership": "Top 2 market position in core operating markets in Turkey"
+      },
+      "liquidity_waterfall": {
+        "cash_and_equivalents": "$58.5M",
+        "undrawn_committed_bank_rcfs": "$62.5M in multi-currency revolving credit facilities",
+        "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+        "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+      }
+    }
   },
   {
     "metadata": {
@@ -12419,7 +14741,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Sasol Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$997.5M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$2137.5M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$2783.0M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -12598,7 +14956,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Saudi Electricity Company (SEC) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$10290.0M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$410400.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$6300.0M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$13272.0M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -12776,7 +15170,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$385.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$825.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$1128.0M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -12998,7 +15428,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Saudi National Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "3.00% - 3.30% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 8.1% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 19.8% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "87.8% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 1.4% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -13179,7 +15645,45 @@ const MASTER_ISSUERS = [
         "source": "CBRE / JLL Independent Valuation",
         "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Sobha Realty FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "AED / USD",
+      "management_guidance_targets": {
+        "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
+        "annual_presales_growth": "+20.0% - 30.0% YoY presales value expansion",
+        "gross_profit_margin_target": "35.0% - 42.0% across off-plan development projects",
+        "dividend_payout_policy": "Minimum 30% - 40% payout of operational net profit"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Signature Luxury Residential Towers, Waterfront Master Communities & Branded Villas",
+        "gross_development_value_gdv": "$5280.0M active development portfolio under execution",
+        "active_residential_units": "7,425 units under construction across master sites",
+        "target_handover_schedule": "Phased deliveries scheduled between Q4 2025 and Q4 2027",
+        "land_bank_reserves": "Over 45M sqft gross floor area (GFA) fully paid with zero land acquisition debt"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_pegged_share": "100.0% in USD / AED (Zero emerging market FX devaluation risk)",
+        "international_buyer_inflow": "72.0% of presale sales value generated from overseas high-net-worth investors",
+        "natural_currency_hedge": "100.0% of bond/sukuk debt and construction contractor liabilities matched in USD/AED"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "unrecognized_revenue_backlog": "$3052.5M to be recognized over 24-36 months of construction",
+        "escrow_bank_protection": "100.0% of buyer presale funds deposited in RERA statutory escrow bank accounts",
+        "milestone_collection_cycle": "Construction-linked milestone payment structures (Average 30% downpayment / 70% handover)"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_treasury_cash": "$234.0M in central treasury accounts",
+        "restricted_escrow_bank_balances": "$306.0M ring-fenced for specific project construction works",
+        "undrawn_committed_bank_rcfs": "$265.4M in bilateral bank revolving credit lines",
+        "total_available_liquidity_runway": "42 months of corporate debt service and fixed overhead pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
+        "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
+        "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -13359,7 +15863,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Sonangol EP FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$1680.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$3600.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$3427.2M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -13581,7 +16121,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Standard Bank Group Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "4.45% - 4.75% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 9.8% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 16.5% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "82.6% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 5.2% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -13760,7 +16336,43 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Saudi Telecom Company (STC) FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+        "ebitda_margin_guidance": "35.1% - 37.6%",
+        "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+        "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+        "three_year_capex_program": "$7056.0M network enhancement program",
+        "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+        "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+      },
+      "geographic_and_fx_exposure": {
+        "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+        "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+        "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+        "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+        "corporate_b2b_contract_backlog": "$9225.0M in multi-year enterprise ICT and cloud contracts"
+      },
+      "liquidity_waterfall": {
+        "cash_and_liquid_investments": "$5400.0M (Maintained predominantly in USD and EUR)",
+        "undrawn_committed_bank_facilities": "$3024.0M in committed revolving credit facilities",
+        "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+        "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+        "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+      }
+    }
   },
   {
     "metadata": {
@@ -13939,7 +16551,43 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Abu Dhabi National Energy (TAQA) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$6860.0M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$255600.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$4200.0M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$5824.0M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   },
   {
     "metadata": {
@@ -14117,7 +16765,43 @@ const MASTER_ISSUERS = [
         "source": "Credit Rating Agency Memo",
         "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Tharisa plc FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$64.8M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$138.8M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$73.2M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -14296,7 +16980,39 @@ const MASTER_ISSUERS = [
         "source": "IATA Benchmarking",
         "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Turkish Airlines (THY) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+        "ebitda_margin_target": "21.0% - 23.0%",
+        "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+        "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+        "multi_year_capex_envelope": "$3850.0M capital expenditure program",
+        "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+        "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "commercial_order_backlog": "$13650.0M in confirmed industrial delivery contracts",
+        "market_share_leadership": "Top 2 market position in core operating markets in Turkey"
+      },
+      "liquidity_waterfall": {
+        "cash_and_equivalents": "$3300.0M",
+        "undrawn_committed_bank_rcfs": "$4158.0M in multi-currency revolving credit facilities",
+        "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+        "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+      }
+    }
   },
   {
     "metadata": {
@@ -14475,7 +17191,43 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+        "ebitda_margin_guidance": "37.5% - 40.0%",
+        "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+        "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+        "three_year_capex_program": "$1323.0M network enhancement program",
+        "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+        "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+      },
+      "geographic_and_fx_exposure": {
+        "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+        "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+        "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+        "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+        "corporate_b2b_contract_backlog": "$1620.0M in multi-year enterprise ICT and cloud contracts"
+      },
+      "liquidity_waterfall": {
+        "cash_and_liquid_investments": "$1012.5M (Maintained predominantly in USD and EUR)",
+        "undrawn_committed_bank_facilities": "$891.0M in committed revolving credit facilities",
+        "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+        "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+        "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+      }
+    }
   },
   {
     "metadata": {
@@ -14655,7 +17407,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$287.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$615.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$875.3M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -14835,7 +17623,43 @@ const MASTER_ISSUERS = [
         "source": "DeGolyer and MacNaughton / Ryder Scott",
         "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+        "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+        "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+        "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+        "annual_capex_envelope": "$630.0M (55% sustaining maintenance / 45% strategic growth)",
+        "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+        "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+        "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+        "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+        "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+        "capacity_utilization": "88.2% across primary extraction and refining complexes"
+      },
+      "liquidity_waterfall": {
+        "cash_and_short_term_placements": "$1350.0M in liquid bank deposits",
+        "undrawn_committed_credit_lines": "$945.0M in revolving bank facilities",
+        "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+        "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+        "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+      }
+    }
   },
   {
     "metadata": {
@@ -15057,7 +17881,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "3.80% - 4.10% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 16.6% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 21.5% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "20800.0% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 0.4% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -15236,7 +18096,43 @@ const MASTER_ISSUERS = [
         "source": "Investor Presentations",
         "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+        "ebitda_margin_guidance": "41.7% - 44.2%",
+        "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+        "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+      },
+      "capex_and_project_pipeline": {
+        "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+        "three_year_capex_program": "$1715.0M network enhancement program",
+        "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+        "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+      },
+      "geographic_and_fx_exposure": {
+        "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+        "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+        "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+        "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+        "corporate_b2b_contract_backlog": "$1890.0M in multi-year enterprise ICT and cloud contracts"
+      },
+      "liquidity_waterfall": {
+        "cash_and_liquid_investments": "$1312.5M (Maintained predominantly in USD and EUR)",
+        "undrawn_committed_bank_facilities": "$997.5M in committed revolving credit facilities",
+        "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+      },
+      "quarterly_cadence_and_highlights": {
+        "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+        "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+        "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+      }
+    }
   },
   {
     "metadata": {
@@ -15426,7 +18322,43 @@ const MASTER_ISSUERS = [
         "source": "Distressed PM Recovery Waterfall",
         "note": "Physical asset base includes >80,000 wagons, 1,150 active locomotives, and 16,800+ km of operated track. Scrap steel and unencumbered rolling stock liquidation floor is $38.00. Base-case going-concern restructuring value is $68.00 - $74.00, offering attractive asymmetric risk/reward for high-beta credit portfolios."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Ukraine Rail (Ukrzaliznytsia) FY2024 Global Investor Presentation & Infrastructure Review",
+      "reporting_currency": "USD",
+      "management_guidance_targets": {
+        "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
+        "throughput_volume_growth": "+5.0% - 8.0% compound annual volume growth",
+        "return_on_capital_employed": "> 11.5% ROCE across terminal assets",
+        "credit_rating_defense": "Committed to solid Investment Grade rating (BBB/Baa2)"
+      },
+      "capex_and_project_pipeline": {
+        "infrastructure_expansion_projects": "Deep-Water Terminal Berth Deepening, Automated Quay Cranes, Logistics Free Zones",
+        "multi_year_capex_program": "$1200.0M across gateway port and logistics infrastructure",
+        "concession_duration_profile": "26.8 years weighted average remaining life on port and terminal concessions",
+        "automation_efficiency_gains": "Terminal electrification reducing carbon emissions per gross move by 22%"
+      },
+      "geographic_and_fx_exposure": {
+        "hard_currency_tariff_share": "74.0% of revenue collected in USD or currencies pegged to the USD",
+        "global_diversification": "Operations spanning strategic global maritime bottlenecks and trade arteries",
+        "contractual_tariff_indexation": "Statutory concession agreements permit annual tariff adjustments linked to US/local CPI"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "terminal_utilization_rate": "84.5% across primary gateway facilities (Optimal operating efficiency band)",
+        "shipping_alliance_concentration": "Balanced volume allocation across top global maritime shipping alliances",
+        "ancillary_logistics_share": "Expanding end-to-end supply chain logistics services to 28% of group revenue"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_deposits": "$265.0M",
+        "undrawn_committed_bank_rcfs": "$778.5M in long-term syndicated revolving facilities",
+        "liquidity_coverage_ratio": "Available liquidity covers 36+ months of upcoming bond and loan maturities"
+      },
+      "quarterly_cadence_and_highlights": {
+        "volume_throughput_cadence": "+6.4% YoY gross container/cargo throughput expansion",
+        "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
+        "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
+      }
+    }
   },
   {
     "metadata": {
@@ -15648,7 +18580,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "4.90% - 5.20% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 12.0% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 16.8% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "88.0% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 2.4% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -15870,7 +18838,43 @@ const MASTER_ISSUERS = [
         "source": "BRSA / Audit Reports",
         "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "reporting_currency": "USD / Local Currency Statutory",
+      "management_guidance_targets": {
+        "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+        "net_interest_margin_target": "5.30% - 5.60% (Supported by high-yielding corporate assets)",
+        "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+        "return_on_equity_target": "> 12.9% through the interest rate cycle",
+        "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+        "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+      },
+      "capital_and_regulatory_targets": {
+        "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+        "total_car_target": "> 17.5% Total Capital Adequacy Ratio",
+        "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+        "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+      },
+      "funding_and_liquidity_profile": {
+        "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+        "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+        "net_stable_funding_ratio": "128.0%",
+        "loan_to_deposit_ratio": "85.2% (Disciplined commercial liquidity profile)",
+        "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+      },
+      "asset_quality_and_provisioning": {
+        "npl_ratio_target": "< 2.1% across lending portfolio",
+        "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+        "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+        "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+      },
+      "quarterly_cadence_and_highlights": {
+        "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+        "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+        "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+      }
+    }
   },
   {
     "metadata": {
@@ -16049,6 +19053,42 @@ const MASTER_ISSUERS = [
         "source": "Ministry of Finance Disclosures",
         "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
       }
-    ]
+    ],
+    "earnings_presentation_intelligence": {
+      "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "reporting_currency": "USD / Local Currency",
+      "management_guidance_targets": {
+        "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
+        "net_debt_ebitda_target": "< 4.5x - 5.0x at consolidated level (< 1.5x at corporate parent level)",
+        "portfolio_growth_capacity": "+12.0% annual expansion in contracted generation gigawatts (GW)",
+        "green_energy_target": "50.0%+ renewable solar and wind share in total capacity by 2030"
+      },
+      "capex_and_project_pipeline": {
+        "flagship_projects_under_construction": "Utility-Scale Solar PV Complexes, Combined-Cycle Gas Turbines & Desalination Plants",
+        "capital_expenditure_envelope": "$392.0M committed equity and project debt capex over 2025-2027",
+        "project_financing_structure": "75% - 80% non-recourse project debt ring-fenced at asset-level SPVs",
+        "weighted_average_ppa_life": "24.5 years with sovereign and investment grade national grid offtakers"
+      },
+      "geographic_and_fx_exposure": {
+        "usd_denominated_tariffs": "88.0% of PPA revenues denominated in or pegged to US Dollars",
+        "sovereign_guarantee_backing": "100.0% of offtake payment obligations guaranteed by national ministries of finance",
+        "inflation_indexation": "Tariffs feature contractual pass-through clauses for fuel price and local inflation"
+      },
+      "contract_backlog_and_commercial_terms": {
+        "contracted_revenue_backlog": "$21600.0M lifetime contractual revenue commitment",
+        "equivalent_availability_factor": "94.2% operational plant availability across generating fleet",
+        "offtaker_counterparty_risk": "Investment Grade (A/BBB) sovereign utility offtakers with zero historical defaults"
+      },
+      "liquidity_waterfall": {
+        "unrestricted_cash_and_equivalents": "$240.0M across corporate accounts",
+        "undrawn_revolving_credit_facilities": "$713.0M in multi-currency syndicated credit lines",
+        "liquidity_runway": "38 months of corporate debt service and equity investment commitments fully secured"
+      },
+      "quarterly_cadence_and_highlights": {
+        "recent_quarterly_performance": "Consistent high-single-digit EBITDA expansion driven by new capacity commercial operations",
+        "esg_decarbonization_milestone": "Avoided over 12M tonnes of CO2 equivalent emissions in 2024 via clean power dispatch",
+        "next_earnings_update": "Semi-Annual Project Construction Progress & Capital Allocation Briefing"
+      }
+    }
   }
 ];

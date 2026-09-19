@@ -320,6 +320,9 @@ function renderTable() {
             <button class="drawer-nav-btn" data-tab="tab-rec" onclick="switchDrawerTab('${m.id}', 'tab-rec')">
               ⚖️ Restructuring & Recovery Scenarios
             </button>
+            <button class="drawer-nav-btn" data-tab="tab-earnings" onclick="switchDrawerTab('${m.id}', 'tab-earnings')">
+              📢 Earnings Presentation & Guidance
+            </button>
             <button class="drawer-nav-btn" data-tab="tab-intel" onclick="switchDrawerTab('${m.id}', 'tab-intel')">
               📝 Institutional Intelligence & Footnotes (${item.annotations.length})
             </button>
@@ -734,6 +737,92 @@ function renderTable() {
                 </div>
               </div>
             `}
+          </div>
+          
+          <!-- PANE 6: EARNINGS PRESENTATION & MANAGEMENT GUIDANCE -->
+          <div class="drawer-pane" data-pane="tab-earnings">
+            ${(() => {
+              const ed = item.earnings_presentation_intelligence || {};
+              const targets = ed.management_guidance_targets || {};
+              const capexProj = ed.capex_and_project_pipeline || ed.capital_and_regulatory_targets || {};
+              const geoFx = ed.geographic_and_fx_exposure || ed.funding_and_liquidity_profile || {};
+              const backlog = ed.contract_backlog_and_commercial_terms || ed.asset_quality_and_provisioning || {};
+              const liq = ed.liquidity_waterfall || ed.quarterly_cadence_and_highlights || {};
+              
+              return `
+                <div style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:12px 16px; margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                  <div>
+                    <span style="color:var(--accent-gold); font-size:12px; font-weight:700;">SOURCE EARNINGS DECK:</span>
+                    <span style="color:#fff; font-size:12px; margin-left:6px;">${ed.source_deck || 'Latest Corporate Investor Presentation & Earnings Call'}</span>
+                  </div>
+                  <span class="badge badge-sector">${ed.reporting_currency || 'USD'} Disclosures</span>
+                </div>
+                
+                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap:14px; margin-bottom:14px;">
+                  
+                  <!-- Management Guidance Targets -->
+                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                    <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
+                      🎯 Management Strategic Guidance Targets
+                    </h4>
+                    <table class="drawer-table" style="margin:0;">
+                      ${Object.entries(targets).map(([k, v]) => `
+                        <tr>
+                          <td style="font-weight:600; color:#94a3b8; width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
+                          <td style="color:#fff; font-weight:700;">${v}</td>
+                        </tr>
+                      `).join('')}
+                    </table>
+                  </div>
+                  
+                  <!-- Capex & Capital Allocation -->
+                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                    <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
+                      🏗️ ${currentView === 'corp' ? 'Capital Allocation & Project Pipeline' : 'Capital Adequacy & Reg Targets'}
+                    </h4>
+                    <table class="drawer-table" style="margin:0;">
+                      ${Object.entries(capexProj).map(([k, v]) => `
+                        <tr>
+                          <td style="font-weight:600; color:#94a3b8; width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
+                          <td style="color:#cbd5e1;">${v}</td>
+                        </tr>
+                      `).join('')}
+                    </table>
+                  </div>
+                  
+                  <!-- Geographic & FX Exposure -->
+                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                    <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
+                      🌍 ${currentView === 'corp' ? 'Geographic & FX Exposure Matrix' : 'Funding & Liquidity Profile'}
+                    </h4>
+                    <table class="drawer-table" style="margin:0;">
+                      ${Object.entries(geoFx).map(([k, v]) => `
+                        <tr>
+                          <td style="font-weight:600; color:#94a3b8; width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
+                          <td style="color:#cbd5e1;">${v}</td>
+                        </tr>
+                      `).join('')}
+                    </table>
+                  </div>
+                  
+                  <!-- Liquidity Waterfall & Backlog -->
+                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                    <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
+                      💧 Liquidity Waterfall & Headroom
+                    </h4>
+                    <table class="drawer-table" style="margin:0;">
+                      ${Object.entries(liq).map(([k, v]) => `
+                        <tr>
+                          <td style="font-weight:600; color:#94a3b8; width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
+                          <td style="color:#fff; font-weight:700;">${v}</td>
+                        </tr>
+                      `).join('')}
+                    </table>
+                  </div>
+                  
+                </div>
+              `;
+            })()}
           </div>
           
           <!-- PANE 5: INSTITUTIONAL INTELLIGENCE & FOOTNOTES -->

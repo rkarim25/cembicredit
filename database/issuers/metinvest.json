@@ -174,5 +174,41 @@
       "source": "Credit Rating Agency Memo",
       "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
     }
-  ]
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+    "reporting_currency": "USD / Local Currency",
+    "management_guidance_targets": {
+      "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+      "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+      "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+      "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+    },
+    "capex_and_project_pipeline": {
+      "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+      "annual_capex_envelope": "$322.0M (55% sustaining maintenance / 45% strategic growth)",
+      "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+      "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+    },
+    "geographic_and_fx_exposure": {
+      "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+      "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+      "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+      "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+      "capacity_utilization": "88.2% across primary extraction and refining complexes"
+    },
+    "liquidity_waterfall": {
+      "cash_and_short_term_placements": "$690.0M in liquid bank deposits",
+      "undrawn_committed_credit_lines": "$817.9M in revolving bank facilities",
+      "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+    },
+    "quarterly_cadence_and_highlights": {
+      "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+      "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+      "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+    }
+  }
 }

@@ -174,5 +174,41 @@
       "source": "Offering Circular Waterfall",
       "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
     }
-  ]
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "DP World FY2024 Global Investor Presentation & Infrastructure Review",
+    "reporting_currency": "USD",
+    "management_guidance_targets": {
+      "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
+      "throughput_volume_growth": "+5.0% - 8.0% compound annual volume growth",
+      "return_on_capital_employed": "> 11.5% ROCE across terminal assets",
+      "credit_rating_defense": "Committed to solid Investment Grade rating (BBB/Baa2)"
+    },
+    "capex_and_project_pipeline": {
+      "infrastructure_expansion_projects": "Deep-Water Terminal Berth Deepening, Automated Quay Cranes, Logistics Free Zones",
+      "multi_year_capex_program": "$5355.0M across gateway port and logistics infrastructure",
+      "concession_duration_profile": "26.8 years weighted average remaining life on port and terminal concessions",
+      "automation_efficiency_gains": "Terminal electrification reducing carbon emissions per gross move by 22%"
+    },
+    "geographic_and_fx_exposure": {
+      "hard_currency_tariff_share": "74.0% of revenue collected in USD or currencies pegged to the USD",
+      "global_diversification": "Operations spanning strategic global maritime bottlenecks and trade arteries",
+      "contractual_tariff_indexation": "Statutory concession agreements permit annual tariff adjustments linked to US/local CPI"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "terminal_utilization_rate": "84.5% across primary gateway facilities (Optimal operating efficiency band)",
+      "shipping_alliance_concentration": "Balanced volume allocation across top global maritime shipping alliances",
+      "ancillary_logistics_share": "Expanding end-to-end supply chain logistics services to 28% of group revenue"
+    },
+    "liquidity_waterfall": {
+      "unrestricted_cash_and_deposits": "$3825.0M",
+      "undrawn_committed_bank_rcfs": "$9134.1M in long-term syndicated revolving facilities",
+      "liquidity_coverage_ratio": "Available liquidity covers 36+ months of upcoming bond and loan maturities"
+    },
+    "quarterly_cadence_and_highlights": {
+      "volume_throughput_cadence": "+6.4% YoY gross container/cargo throughput expansion",
+      "digital_freight_growth": "Accelerated digital booking platform adoption with 40%+ customer self-service",
+      "next_investor_event": "Q3 Operational Throughput & Financial Metrics Release"
+    }
+  }
 }

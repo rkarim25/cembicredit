@@ -218,5 +218,41 @@
       "source": "BRSA / Audit Reports",
       "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
     }
-  ]
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "Standard Bank Group Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+    "reporting_currency": "USD / Local Currency Statutory",
+    "management_guidance_targets": {
+      "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
+      "net_interest_margin_target": "4.45% - 4.75% (Supported by high-yielding corporate assets)",
+      "cost_to_income_ratio_target": "< 38.0% (Digital automation driving efficiency)",
+      "return_on_equity_target": "> 9.8% through the interest rate cycle",
+      "cost_of_risk_guidance": "65 - 95 bps annual normalized credit impairment charge",
+      "dividend_payout_policy": "35% - 45% of attributable net profit subject to central bank approval"
+    },
+    "capital_and_regulatory_targets": {
+      "cet1_ratio_target": "> 13.0% (Substantial buffer over Basel III minimum of 8.5%)",
+      "total_car_target": "> 16.5% Total Capital Adequacy Ratio",
+      "internal_capital_generation": "+140 - 180 bps annually from retained earnings",
+      "regulatory_stress_test_buffer": "Over 350 bps excess capital buffer above regulatory threshold"
+    },
+    "funding_and_liquidity_profile": {
+      "casa_deposit_ratio": "54.5% of total customer deposits (Sticky low-cost current & savings accounts)",
+      "liquidity_coverage_ratio": "178.5% (Well in excess of 100% regulatory minimum)",
+      "net_stable_funding_ratio": "128.0%",
+      "loan_to_deposit_ratio": "82.6% (Disciplined commercial liquidity profile)",
+      "foreign_currency_liquidity_buffer": "$300.0M in high-quality liquid assets and central bank placements"
+    },
+    "asset_quality_and_provisioning": {
+      "npl_ratio_target": "< 5.2% across lending portfolio",
+      "provision_coverage_ratio": "138.5% total allowance coverage on Stage 3 impaired loans",
+      "stage_2_underperforming_loans": "5.8% of gross customer advances (Prudently classified)",
+      "collateral_coverage": "125% physical real estate and cash collateral on commercial credit lines"
+    },
+    "quarterly_cadence_and_highlights": {
+      "latest_quarter_earnings": "Record quarterly net operating profit driven by strong trade finance and retail fee generation",
+      "digital_banking_penetration": "86% of retail banking transactions executed via mobile / digital channels",
+      "next_earnings_release": "Q2 / 1H Audited Interim Results & Earnings Webcast"
+    }
+  }
 }

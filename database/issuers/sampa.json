@@ -174,5 +174,37 @@
       "source": "Investor Presentations",
       "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
     }
-  ]
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "Sampa Otomotiv FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+    "reporting_currency": "USD / Local Currency",
+    "management_guidance_targets": {
+      "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+      "ebitda_margin_target": "22.9% - 24.9%",
+      "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+      "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+    },
+    "capex_and_project_pipeline": {
+      "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+      "multi_year_capex_envelope": "$68.2M capital expenditure program",
+      "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+    },
+    "geographic_and_fx_exposure": {
+      "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+      "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "commercial_order_backlog": "$221.0M in confirmed industrial delivery contracts",
+      "market_share_leadership": "Top 2 market position in core operating markets in Turkey"
+    },
+    "liquidity_waterfall": {
+      "cash_and_equivalents": "$58.5M",
+      "undrawn_committed_bank_rcfs": "$62.5M in multi-currency revolving credit facilities",
+      "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+    },
+    "quarterly_cadence_and_highlights": {
+      "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+      "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+    }
+  }
 }

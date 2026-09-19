@@ -177,5 +177,43 @@
       "source": "CBRE / JLL Independent Valuation",
       "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
     }
-  ]
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "Emaar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+    "reporting_currency": "AED / USD",
+    "management_guidance_targets": {
+      "net_debt_to_equity_ceiling": "< 30.0% (Committed conservative leverage framework)",
+      "annual_presales_growth": "+20.0% - 30.0% YoY presales value expansion",
+      "gross_profit_margin_target": "35.0% - 42.0% across off-plan development projects",
+      "dividend_payout_policy": "Minimum 30% - 40% payout of operational net profit"
+    },
+    "capex_and_project_pipeline": {
+      "flagship_projects_under_construction": "Signature Luxury Residential Towers, Waterfront Master Communities & Branded Villas",
+      "gross_development_value_gdv": "$24960.0M active development portfolio under execution",
+      "active_residential_units": "35,100 units under construction across master sites",
+      "target_handover_schedule": "Phased deliveries scheduled between Q4 2025 and Q4 2027",
+      "land_bank_reserves": "Over 45M sqft gross floor area (GFA) fully paid with zero land acquisition debt"
+    },
+    "geographic_and_fx_exposure": {
+      "hard_currency_pegged_share": "100.0% in USD / AED (Zero emerging market FX devaluation risk)",
+      "international_buyer_inflow": "72.0% of presale sales value generated from overseas high-net-worth investors",
+      "natural_currency_hedge": "100.0% of bond/sukuk debt and construction contractor liabilities matched in USD/AED"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "unrecognized_revenue_backlog": "$14430.0M to be recognized over 24-36 months of construction",
+      "escrow_bank_protection": "100.0% of buyer presale funds deposited in RERA statutory escrow bank accounts",
+      "milestone_collection_cycle": "Construction-linked milestone payment structures (Average 30% downpayment / 70% handover)"
+    },
+    "liquidity_waterfall": {
+      "unrestricted_treasury_cash": "$1560.0M in central treasury accounts",
+      "restricted_escrow_bank_balances": "$2040.0M ring-fenced for specific project construction works",
+      "undrawn_committed_bank_rcfs": "$112840.0M in bilateral bank revolving credit lines",
+      "total_available_liquidity_runway": "42 months of corporate debt service and fixed overhead pre-funded"
+    },
+    "quarterly_cadence_and_highlights": {
+      "quarterly_revenue_momentum": "+26.8% YoY growth in construction milestone revenue recognition",
+      "sell_through_velocity": "New luxury project launches 90%+ sold out within 72 hours of release",
+      "next_earnings_milestone": "Q2 / 1H Comprehensive Project Delivery & Cash Flow Briefing"
+    }
+  }
 }

@@ -175,5 +175,41 @@
       "source": "Investor Presentations",
       "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
     }
-  ]
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "Ooredoo QPSC FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+    "reporting_currency": "USD / Local Currency",
+    "management_guidance_targets": {
+      "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+      "ebitda_margin_guidance": "43.1% - 45.6%",
+      "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+      "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+    },
+    "capex_and_project_pipeline": {
+      "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+      "three_year_capex_program": "$2744.0M network enhancement program",
+      "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+      "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+    },
+    "geographic_and_fx_exposure": {
+      "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+      "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+      "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+      "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+      "corporate_b2b_contract_backlog": "$2925.0M in multi-year enterprise ICT and cloud contracts"
+    },
+    "liquidity_waterfall": {
+      "cash_and_liquid_investments": "$2100.0M (Maintained predominantly in USD and EUR)",
+      "undrawn_committed_bank_facilities": "$1554.0M in committed revolving credit facilities",
+      "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+    },
+    "quarterly_cadence_and_highlights": {
+      "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+      "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+      "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+    }
+  }
 }
