@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "tupras",
-    "name": "Tüpraş (Turkish Petroleum)",
+    "name": "T\u00fcpra\u015f (Turkish Petroleum)",
     "ticker": "TUPRAS",
     "country": "Turkey",
     "region": "Turkey",
@@ -32,7 +32,14 @@
       "gross_debt": 2295.0,
       "net_debt": 1552.5,
       "net_leverage": 1.33,
-      "interest_coverage": 8.12
+      "interest_coverage": 8.12,
+      "observations": {
+        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+      }
     },
     {
       "period": "2022A",
@@ -47,7 +54,14 @@
       "gross_debt": 2484.0,
       "net_debt": 1539.0,
       "net_leverage": 1.07,
-      "interest_coverage": 8.0
+      "interest_coverage": 8.0,
+      "observations": {
+        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+      }
     },
     {
       "period": "2023A",
@@ -62,7 +76,14 @@
       "gross_debt": 2646.0,
       "net_debt": 1498.5,
       "net_leverage": 0.93,
-      "interest_coverage": 7.5
+      "interest_coverage": 7.5,
+      "observations": {
+        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+      }
     },
     {
       "period": "2024A",
@@ -77,7 +98,14 @@
       "gross_debt": 2700.0,
       "net_debt": 1350.0,
       "net_leverage": 0.75,
-      "interest_coverage": 7.5
+      "interest_coverage": 7.5,
+      "observations": {
+        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+      }
     },
     {
       "period": "2025E",
@@ -92,7 +120,14 @@
       "gross_debt": 2646.0,
       "net_debt": 1053.0,
       "net_leverage": 0.53,
-      "interest_coverage": 8.59
+      "interest_coverage": 8.59,
+      "observations": {
+        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+      }
     },
     {
       "period": "2026E",
@@ -107,7 +142,14 @@
       "gross_debt": 2565.0,
       "net_debt": 742.5,
       "net_leverage": 0.35,
-      "interest_coverage": 9.62
+      "interest_coverage": 9.62,
+      "observations": {
+        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+      }
     },
     {
       "period": "2027E",
@@ -122,7 +164,14 @@
       "gross_debt": 2430.0,
       "net_debt": 405.0,
       "net_leverage": 0.18,
-      "interest_coverage": 10.57
+      "interest_coverage": 10.57,
+      "observations": {
+        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+      }
     }
   ],
   "supplementary_data": {
@@ -149,12 +198,12 @@
     "recovery_base_pct": 101.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Koç Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
+    "thesis": "Ko\u00e7 Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
   },
   "annotations": [
     {
       "issuer_id": "tupras",
-      "issuer_name": "Tüpraş (Turkish Petroleum)",
+      "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
       "sector": "Energy",
       "topic": "Offshore Debt Escrow Routing",
       "source": "Cognitive Credit / Morgan Stanley",
@@ -162,7 +211,7 @@
     },
     {
       "issuer_id": "tupras",
-      "issuer_name": "Tüpraş (Turkish Petroleum)",
+      "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
       "sector": "Energy",
       "topic": "Lifting Costs & Break-even Floor",
       "source": "Wood Mackenzie Benchmarking",
@@ -170,7 +219,7 @@
     },
     {
       "issuer_id": "tupras",
-      "issuer_name": "Tüpraş (Turkish Petroleum)",
+      "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
       "sector": "Energy",
       "topic": "Commercial Reserve Life (1P/2P)",
       "source": "DeGolyer and MacNaughton / Ryder Scott",
@@ -178,7 +227,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+    "source_deck": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -226,7 +275,8 @@
       "spread_bp": 315,
       "maturity_date": "2029-07-25",
       "seniority": "Senior Unsecured (Pari Passu)",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "TUPRAS Secondary Eurobond / Sukuk Tranche 2",
@@ -240,7 +290,8 @@
       "spread_bp": 250,
       "maturity_date": "2027-10-18",
       "seniority": "Senior Unsecured",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -254,7 +305,8 @@
       "spread_bp": 185,
       "maturity_date": "2031-03-31",
       "seniority": "Senior Secured",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -268,7 +320,8 @@
       "spread_bp": 150,
       "maturity_date": "2028-06-30",
       "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
     }
   ],
   "rcf_facility_liquidity": {

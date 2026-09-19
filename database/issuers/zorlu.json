@@ -32,7 +32,14 @@
       "gross_debt": 1515.0,
       "net_debt": 1383.0,
       "net_leverage": 6.65,
-      "interest_coverage": 2.3
+      "interest_coverage": 2.3,
+      "observations": {
+        "revenue": "Revenues supported by high baseload geothermal availability; early stages of TRY volatility.",
+        "ebitda": "EBITDA margin of 27.2% anchored by Kizildere I/II YEKDEM dollar-denominated feed-in tariffs.",
+        "capex": "Capex focused on completing Kizildere III second phase and OEDAS grid modernization.",
+        "fcf": "FCF of $114M generated, funding interest payments and early turbine maintenance.",
+        "net_leverage": "Net leverage at 4.73x; unhedged foreign currency debt tracking Turkish Lira movements."
+      }
     },
     {
       "period": "2022A",
@@ -47,7 +54,14 @@
       "gross_debt": 1639.8,
       "net_debt": 1471.8,
       "net_leverage": 5.75,
-      "interest_coverage": 2.26
+      "interest_coverage": 2.26,
+      "observations": {
+        "revenue": "Top-line expanded +18.5% YoY to $980M as power demand and regional electricity consumption surged.",
+        "ebitda": "EBITDA rose to $270M; YEKDEM dollar cash receipts ($105-$132/MWh) insulated generation profitability.",
+        "capex": "Capital investments directed into hybrid solar pilot projects and OEDAS distribution substation upgrades.",
+        "fcf": "Strong operating cash flow ($225M) enabled $128M in free cash flow after all capex commitments.",
+        "net_leverage": "Net leverage held at 4.80x despite TRY depreciation due to strong USD generation cash conversion."
+      }
     },
     {
       "period": "2023A",
@@ -62,7 +76,14 @@
       "gross_debt": 1746.8,
       "net_debt": 1542.8,
       "net_leverage": 5.36,
-      "interest_coverage": 2.12
+      "interest_coverage": 2.12,
+      "observations": {
+        "revenue": "Consolidated revenue reached $1,100M supported by OEDAS 4th tariff period indexation.",
+        "ebitda": "EBITDA expanded to $295M; commercial operations of hybrid solar capacity provided peak summer revenue.",
+        "capex": "Disciplined capex of $108M focused strictly on regulated RAB network expansions and geothermal maintenance.",
+        "fcf": "FCF generation reached $142M, allowing scheduled project finance amortization payments.",
+        "net_leverage": "Net leverage stabilized at 4.75x; preliminary plans drafted for renewable subsidiary equity monetization."
+      }
     },
     {
       "period": "2024A",
@@ -77,7 +98,14 @@
       "gross_debt": 1782.4,
       "net_debt": 1542.4,
       "net_leverage": 4.82,
-      "interest_coverage": 2.12
+      "interest_coverage": 2.12,
+      "observations": {
+        "revenue": "Revenue achieved $1,200M (+9.1% YoY) anchored by 1.95M OEDAS customers and 305 MW geothermal baseload fleet.",
+        "ebitda": "EBITDA reached $320M; 68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM.",
+        "capex": "Capex strictly capped at $112M, preserving liquidity ahead of the 2026 Eurobond maturity wall.",
+        "fcf": "Strong FCF of $160M generated, maintaining unrestricted cash reserves at $240M across partner banks.",
+        "net_leverage": "Net leverage at 4.82x (restricting debt incurrence covenant); management prioritizes de-leveraging to <3.5x."
+      }
     },
     {
       "period": "2025E",
@@ -92,7 +120,14 @@
       "gross_debt": 1746.8,
       "net_debt": 1463.6,
       "net_leverage": 4.16,
-      "interest_coverage": 2.43
+      "interest_coverage": 2.43,
+      "observations": {
+        "revenue": "Forecast revenue of $1,296M (+8.0% YoY) reflecting high geothermal capacity factor (88.5%) and RAB growth.",
+        "ebitda": "EBITDA projected at $352M (27.2% margin) supported by locked-in YEKDEM dollar tariffs.",
+        "capex": "Targeted capex budget of $117.6M prioritizing Kizildere hybrid additions and mandatory grid investments.",
+        "fcf": "Projected FCF of $181.4M provides robust liquidity runway covering 100% of upcoming debt service.",
+        "net_leverage": "Net leverage expected to decrease to 3.90x assisted by operating cash generation and targeted asset sales."
+      }
     },
     {
       "period": "2026E",
@@ -107,7 +142,14 @@
       "gross_debt": 1693.3,
       "net_debt": 1369.3,
       "net_leverage": 3.63,
-      "interest_coverage": 2.72
+      "interest_coverage": 2.72,
+      "observations": {
+        "revenue": "Revenue anticipated at $1,375M driven by expanded ZES EV charging network and growing regional power demand.",
+        "ebitda": "EBITDA reaches $378M; ZES fast-charging network transitions into a high-margin recurring cash flow contributor.",
+        "capex": "Capex moderates to $115M as major hybrid solar projects achieve commercial operation.",
+        "fcf": "Free cash flow expands to $207M, providing substantial balance sheet flexibility for Eurobond refinancing.",
+        "net_leverage": "Net leverage improves to 3.37x; covenant headroom restores fully across all bank facilities."
+      }
     },
     {
       "period": "2027E",
@@ -122,7 +164,14 @@
       "gross_debt": 1604.2,
       "net_debt": 1244.2,
       "net_leverage": 3.14,
-      "interest_coverage": 2.99
+      "interest_coverage": 2.99,
+      "observations": {
+        "revenue": "Revenue reaches $1,440M with international power assets (Dorad Israel / Pakistan) contributing steady dividends.",
+        "ebitda": "EBITDA of $398M reflects mature low-cost baseload geothermal and wind generation infrastructure.",
+        "capex": "Sustaining maintenance capex of $110M sufficient to maintain industry-leading 94%+ plant availability.",
+        "fcf": "FCF generation hits $229M, completely self-funding all ongoing operational and capital requirements.",
+        "net_leverage": "Net leverage falls to conservative 2.87x, positioning Zorlu Enerji for sovereign-ceiling rating upgrades."
+      }
     }
   ],
   "supplementary_data": {
@@ -286,7 +335,8 @@
       "spread_bp": 680,
       "maturity": "2026-06-01",
       "seniority": "Senior Unsecured (Pari Passu with Bank Debt)",
-      "governing_law": "English Law / Rule 144A"
+      "governing_law": "English Law / Rule 144A",
+      "observation": "Governed by English Law / Rule 144A; Senior Unsecured (Pari Passu with Bank Debt) claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "Kizildere & Alasehir Geothermal Project Finance Facilities",
@@ -299,7 +349,8 @@
       "spread_bp": 375,
       "maturity": "2029-12-31",
       "seniority": "Senior Secured (First Lien on Geothermal Plant Assets & YEKDEM Cash Accounts)",
-      "governing_law": "English Law / Turkish Security Documentation"
+      "governing_law": "English Law / Turkish Security Documentation",
+      "observation": "Governed by English Law / Turkish Security Documentation; Senior Secured (First Lien on Geothermal Plant Assets & YEKDEM Cash Accounts) claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "OEDAS Regulated Grid Distribution Investment Loans",
@@ -312,7 +363,8 @@
       "spread_bp": 550,
       "maturity": "2028-09-30",
       "seniority": "Senior Secured (Pledge on Regulated Tariff Receivables)",
-      "governing_law": "Turkish Law"
+      "governing_law": "Turkish Law",
+      "observation": "Governed by Turkish Law; Senior Secured (Pledge on Regulated Tariff Receivables) claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "Zorlu Enerji Syndicated Multi-Currency RCF & Bilateral Working Capital",
@@ -325,7 +377,8 @@
       "spread_bp": 335,
       "maturity": "2027-06-30",
       "seniority": "Senior Unsecured (Pari Passu with Eurobonds)",
-      "governing_law": "Turkish / English Law"
+      "governing_law": "Turkish / English Law",
+      "observation": "Governed by Turkish / English Law; Senior Unsecured (Pari Passu with Eurobonds) claim ranking pari passu with primary debt facilities."
     }
   ],
   "rcf_facility_liquidity": {

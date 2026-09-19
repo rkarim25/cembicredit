@@ -33,7 +33,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3597.2,
         "net_debt": 3217.7,
         "net_leverage": 5.38,
-        "interest_coverage": 3.68
+        "interest_coverage": 3.68,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -48,7 +55,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3893.4,
         "net_debt": 3410.4,
         "net_leverage": 4.63,
-        "interest_coverage": 3.63
+        "interest_coverage": 3.63,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -63,7 +77,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4147.4,
         "net_debt": 3560.9,
         "net_leverage": 4.3,
-        "interest_coverage": 3.4
+        "interest_coverage": 3.4,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -78,7 +99,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4232.0,
         "net_debt": 3542.0,
         "net_leverage": 3.85,
-        "interest_coverage": 3.4
+        "interest_coverage": 3.4,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -93,7 +121,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4147.4,
         "net_debt": 3333.2,
         "net_leverage": 3.29,
-        "interest_coverage": 3.9
+        "interest_coverage": 3.9,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -108,7 +143,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4020.4,
         "net_debt": 3088.9,
         "net_leverage": 2.85,
-        "interest_coverage": 4.36
+        "interest_coverage": 4.36,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -123,7 +165,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3808.8,
         "net_debt": 2773.8,
         "net_leverage": 2.43,
-        "interest_coverage": 4.79
+        "interest_coverage": 4.79,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -226,7 +275,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 235,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ACWA Secondary Eurobond / Sukuk Tranche 2",
@@ -240,7 +290,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 170,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -254,7 +305,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -268,7 +320,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -392,7 +445,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 4.9,
         "ldr_pct": 71.8,
         "npl_pct": 3.8,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -413,7 +473,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 6.7,
         "ldr_pct": 73.2,
         "npl_pct": 3.8,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -434,7 +501,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 6.2,
         "ldr_pct": 74.3,
         "npl_pct": 3.8,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -455,7 +529,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 5.9,
         "ldr_pct": 75.9,
         "npl_pct": 3.8,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -476,7 +557,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 6.0,
         "ldr_pct": 76.6,
         "npl_pct": 3.8,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -497,7 +585,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 6.0,
         "ldr_pct": 77.2,
         "npl_pct": 3.8,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -518,7 +613,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 5.8,
         "ldr_pct": 77.8,
         "npl_pct": 3.8,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -622,7 +724,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 85,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ADCBUH Tier 2 Subordinated Notes",
@@ -636,7 +739,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 235,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ADCBUH Additional Tier 1 (AT1) Perpetual",
@@ -650,7 +754,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 310,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -664,7 +769,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -781,7 +887,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 415.4,
         "net_debt": 355.6,
         "net_leverage": 3.77,
-        "interest_coverage": 4.11
+        "interest_coverage": 4.11,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -796,7 +909,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 449.6,
         "net_debt": 373.5,
         "net_leverage": 3.22,
-        "interest_coverage": 4.05
+        "interest_coverage": 4.05,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -811,7 +931,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 478.9,
         "net_debt": 386.5,
         "net_leverage": 2.96,
-        "interest_coverage": 3.8
+        "interest_coverage": 3.8,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -826,7 +953,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 488.7,
         "net_debt": 379.9,
         "net_leverage": 2.62,
-        "interest_coverage": 3.8
+        "interest_coverage": 3.8,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -841,7 +975,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 478.9,
         "net_debt": 350.6,
         "net_leverage": 2.2,
-        "interest_coverage": 4.35
+        "interest_coverage": 4.35,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -856,7 +997,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 464.2,
         "net_debt": 317.4,
         "net_leverage": 1.86,
-        "interest_coverage": 4.87
+        "interest_coverage": 4.87,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -871,7 +1019,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 439.8,
         "net_debt": 276.7,
         "net_leverage": 1.54,
-        "interest_coverage": 5.35
+        "interest_coverage": 5.35,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -974,7 +1129,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 485,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ADMELE Secondary Eurobond / Sukuk Tranche 2",
@@ -988,7 +1144,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 420,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -1002,7 +1159,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -1016,7 +1174,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -1134,7 +1293,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 458.6,
         "net_debt": 390.5,
         "net_leverage": 3.64,
-        "interest_coverage": 3.13
+        "interest_coverage": 3.13,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -1149,7 +1315,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 496.4,
         "net_debt": 409.8,
         "net_leverage": 3.1,
-        "interest_coverage": 3.08
+        "interest_coverage": 3.08,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -1164,7 +1337,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 528.8,
         "net_debt": 423.6,
         "net_leverage": 2.85,
-        "interest_coverage": 2.89
+        "interest_coverage": 2.89,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -1179,7 +1359,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 539.5,
         "net_debt": 415.7,
         "net_leverage": 2.52,
-        "interest_coverage": 2.89
+        "interest_coverage": 2.89,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -1194,7 +1381,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 528.8,
         "net_debt": 382.8,
         "net_leverage": 2.11,
-        "interest_coverage": 3.31
+        "interest_coverage": 3.31,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -1209,7 +1403,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 512.6,
         "net_debt": 345.5,
         "net_leverage": 1.77,
-        "interest_coverage": 3.71
+        "interest_coverage": 3.71,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -1224,7 +1425,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 485.6,
         "net_debt": 300.0,
         "net_leverage": 1.47,
-        "interest_coverage": 4.07
+        "interest_coverage": 4.07,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -1327,7 +1535,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 710,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "AFRCEL Secondary Eurobond / Sukuk Tranche 2",
@@ -1341,7 +1550,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 645,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -1355,7 +1565,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -1369,7 +1580,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -1493,7 +1705,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.4,
         "ldr_pct": 81.4,
         "npl_pct": 1.5,
-        "car_pct": 19.4
+        "car_pct": 19.4,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -1514,7 +1733,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 17.2,
         "ldr_pct": 83.1,
         "npl_pct": 1.5,
-        "car_pct": 19.4
+        "car_pct": 19.4,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -1535,7 +1761,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 16.0,
         "ldr_pct": 84.3,
         "npl_pct": 1.5,
-        "car_pct": 19.4
+        "car_pct": 19.4,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -1556,7 +1789,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.3,
         "ldr_pct": 86.1,
         "npl_pct": 1.5,
-        "car_pct": 19.4
+        "car_pct": 19.4,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -1577,7 +1817,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.3,
         "ldr_pct": 86.9,
         "npl_pct": 1.5,
-        "car_pct": 19.4
+        "car_pct": 19.4,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -1598,7 +1845,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.1,
         "ldr_pct": 87.6,
         "npl_pct": 1.5,
-        "car_pct": 19.4
+        "car_pct": 19.4,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -1619,7 +1873,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 14.5,
         "ldr_pct": 88.3,
         "npl_pct": 1.5,
-        "car_pct": 19.4
+        "car_pct": 19.4,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -1723,7 +1984,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "AKBNK Tier 2 Subordinated Notes",
@@ -1737,7 +1999,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 335,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "AKBNK Additional Tier 1 (AT1) Perpetual",
@@ -1751,7 +2014,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 410,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -1765,7 +2029,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -1882,7 +2147,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1660.0,
         "net_debt": 1020.6,
         "net_leverage": 1.01,
-        "interest_coverage": 8.02
+        "interest_coverage": 8.02,
+        "observations": {
+          "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
+          "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
+          "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
+          "fcf": "Modest working capital absorption as new project construction commences.",
+          "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
+        }
       },
       {
         "period": "2022A",
@@ -1897,7 +2169,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1796.8,
         "net_debt": 983.0,
         "net_leverage": 0.79,
-        "interest_coverage": 7.89
+        "interest_coverage": 7.89,
+        "observations": {
+          "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
+          "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
+          "capex": "Active construction site acceleration to meet aggressive handover targets.",
+          "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
+          "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
+        }
       },
       {
         "period": "2023A",
@@ -1912,7 +2191,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1913.9,
         "net_debt": 925.8,
         "net_leverage": 0.66,
-        "interest_coverage": 7.4
+        "interest_coverage": 7.4,
+        "observations": {
+          "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
+          "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
+          "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
+          "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
+          "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
+        }
       },
       {
         "period": "2024A",
@@ -1927,7 +2213,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1953.0,
         "net_debt": 790.5,
         "net_leverage": 0.51,
-        "interest_coverage": 7.4
+        "interest_coverage": 7.4,
+        "observations": {
+          "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
+          "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
+          "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
+          "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
+          "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
+        }
       },
       {
         "period": "2025E",
@@ -1942,7 +2235,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1913.9,
         "net_debt": 542.1,
         "net_leverage": 0.32,
-        "interest_coverage": 8.48
+        "interest_coverage": 8.48,
+        "observations": {
+          "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
+          "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
+          "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
+          "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
+          "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
+        }
       },
       {
         "period": "2026E",
@@ -1957,7 +2257,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1855.3,
         "net_debt": 285.9,
         "net_leverage": 0.16,
-        "interest_coverage": 9.49
+        "interest_coverage": 9.49,
+        "observations": {
+          "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
+          "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
+          "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
+          "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
+          "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
+        }
       },
       {
         "period": "2027E",
@@ -1972,7 +2279,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1757.7,
         "net_debt": 13.9,
         "net_leverage": 0.01,
-        "interest_coverage": 10.43
+        "interest_coverage": 10.43,
+        "observations": {
+          "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
+          "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
+          "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
+          "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
+          "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
+        }
       }
     ],
     "supplementary_data": {
@@ -2079,7 +2393,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 105,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ALDAR Secondary Eurobond / Sukuk Tranche 2",
@@ -2093,7 +2408,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -2107,7 +2423,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -2121,7 +2438,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -2239,7 +2557,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 605.9,
         "net_debt": 494.5,
         "net_leverage": 2.82,
-        "interest_coverage": 4.5
+        "interest_coverage": 4.5,
+        "observations": {
+          "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
+          "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
+          "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
+          "fcf": "Modest working capital absorption as new project construction commences.",
+          "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
+        }
       },
       {
         "period": "2022A",
@@ -2254,7 +2579,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 655.8,
         "net_debt": 514.0,
         "net_leverage": 2.38,
-        "interest_coverage": 4.43
+        "interest_coverage": 4.43,
+        "observations": {
+          "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
+          "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
+          "capex": "Active construction site acceleration to meet aggressive handover targets.",
+          "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
+          "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
+        }
       },
       {
         "period": "2023A",
@@ -2269,7 +2601,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 698.5,
         "net_debt": 526.4,
         "net_leverage": 2.17,
-        "interest_coverage": 4.15
+        "interest_coverage": 4.15,
+        "observations": {
+          "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
+          "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
+          "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
+          "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
+          "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
+        }
       },
       {
         "period": "2024A",
@@ -2284,7 +2623,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 712.8,
         "net_debt": 510.3,
         "net_leverage": 1.89,
-        "interest_coverage": 4.15
+        "interest_coverage": 4.15,
+        "observations": {
+          "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
+          "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
+          "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
+          "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
+          "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
+        }
       },
       {
         "period": "2025E",
@@ -2299,7 +2645,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 698.5,
         "net_debt": 459.6,
         "net_leverage": 1.55,
-        "interest_coverage": 4.76
+        "interest_coverage": 4.76,
+        "observations": {
+          "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
+          "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
+          "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
+          "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
+          "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
+        }
       },
       {
         "period": "2026E",
@@ -2314,7 +2667,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 677.2,
         "net_debt": 403.8,
         "net_leverage": 1.27,
-        "interest_coverage": 5.32
+        "interest_coverage": 5.32,
+        "observations": {
+          "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
+          "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
+          "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
+          "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
+          "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
+        }
       },
       {
         "period": "2027E",
@@ -2329,7 +2689,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 641.5,
         "net_debt": 337.7,
         "net_leverage": 1.01,
-        "interest_coverage": 5.85
+        "interest_coverage": 5.85,
+        "observations": {
+          "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
+          "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
+          "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
+          "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
+          "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
+        }
       }
     ],
     "supplementary_data": {
@@ -2436,7 +2803,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 400,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ARADA Secondary Eurobond / Sukuk Tranche 2",
@@ -2450,7 +2818,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 335,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -2464,7 +2833,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -2478,7 +2848,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -2596,7 +2967,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 459.7,
         "net_debt": 393.7,
         "net_leverage": 3.79,
-        "interest_coverage": 3.34
+        "interest_coverage": 3.34,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -2611,7 +2989,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 497.5,
         "net_debt": 413.5,
         "net_leverage": 3.23,
-        "interest_coverage": 3.29
+        "interest_coverage": 3.29,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -2626,7 +3011,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 530.0,
         "net_debt": 428.0,
         "net_leverage": 2.97,
-        "interest_coverage": 3.08
+        "interest_coverage": 3.08,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -2641,7 +3033,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 540.8,
         "net_debt": 420.8,
         "net_leverage": 2.63,
-        "interest_coverage": 3.08
+        "interest_coverage": 3.08,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -2656,7 +3055,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 530.0,
         "net_debt": 388.4,
         "net_leverage": 2.21,
-        "interest_coverage": 3.53
+        "interest_coverage": 3.53,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -2671,7 +3077,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 513.8,
         "net_debt": 351.8,
         "net_leverage": 1.86,
-        "interest_coverage": 3.95
+        "interest_coverage": 3.95,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -2686,7 +3099,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 486.7,
         "net_debt": 306.7,
         "net_leverage": 1.55,
-        "interest_coverage": 4.34
+        "interest_coverage": 4.34,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -2784,7 +3204,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 780,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ARAGVI Secondary Eurobond / Sukuk Tranche 2",
@@ -2798,7 +3219,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 715,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -2812,7 +3234,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -2826,7 +3249,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -2944,7 +3368,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 784.9,
         "net_debt": 706.5,
         "net_leverage": 5.72,
-        "interest_coverage": 3.14
+        "interest_coverage": 3.14,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -2959,7 +3390,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 849.5,
         "net_debt": 749.7,
         "net_leverage": 4.93,
-        "interest_coverage": 3.09
+        "interest_coverage": 3.09,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -2974,7 +3412,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 904.9,
         "net_debt": 783.8,
         "net_leverage": 4.58,
-        "interest_coverage": 2.9
+        "interest_coverage": 2.9,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -2989,7 +3434,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 923.4,
         "net_debt": 780.9,
         "net_leverage": 4.11,
-        "interest_coverage": 2.9
+        "interest_coverage": 2.9,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -3004,7 +3456,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 904.9,
         "net_debt": 736.8,
         "net_leverage": 3.53,
-        "interest_coverage": 3.32
+        "interest_coverage": 3.32,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -3019,7 +3478,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 877.2,
         "net_debt": 684.8,
         "net_leverage": 3.05,
-        "interest_coverage": 3.72
+        "interest_coverage": 3.72,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -3034,7 +3500,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 831.1,
         "net_debt": 617.3,
         "net_leverage": 2.62,
-        "interest_coverage": 4.09
+        "interest_coverage": 4.09,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -3137,7 +3610,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 455,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "AYDEM Secondary Eurobond / Sukuk Tranche 2",
@@ -3151,7 +3625,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 390,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -3165,7 +3640,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -3179,7 +3655,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -3297,7 +3774,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4456.1,
         "net_debt": 3528.0,
         "net_leverage": 2.41,
-        "interest_coverage": 7.39
+        "interest_coverage": 7.39,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -3312,7 +3796,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4823.1,
         "net_debt": 3641.9,
         "net_leverage": 2.02,
-        "interest_coverage": 7.27
+        "interest_coverage": 7.27,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -3327,7 +3818,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5137.6,
         "net_debt": 3703.2,
         "net_leverage": 1.83,
-        "interest_coverage": 6.82
+        "interest_coverage": 6.82,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -3342,7 +3840,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5242.5,
         "net_debt": 3555.0,
         "net_leverage": 1.58,
-        "interest_coverage": 6.82
+        "interest_coverage": 6.82,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -3357,7 +3862,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5137.6,
         "net_debt": 3146.4,
         "net_leverage": 1.27,
-        "interest_coverage": 7.81
+        "interest_coverage": 7.81,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -3372,7 +3884,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4980.4,
         "net_debt": 2702.3,
         "net_leverage": 1.02,
-        "interest_coverage": 8.75
+        "interest_coverage": 8.75,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -3387,7 +3906,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4718.2,
         "net_debt": 2187.0,
         "net_leverage": 0.78,
-        "interest_coverage": 9.61
+        "interest_coverage": 9.61,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -3491,7 +4017,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 410,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "AZULE Secondary Eurobond / Sukuk Tranche 2",
@@ -3505,7 +4032,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 345,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -3519,7 +4047,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -3533,7 +4062,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -3651,7 +4181,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4409.4,
         "net_debt": 3893.8,
         "net_leverage": 4.79,
-        "interest_coverage": 3.36
+        "interest_coverage": 3.36,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -3666,7 +4203,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4772.5,
         "net_debt": 4116.3,
         "net_leverage": 4.12,
-        "interest_coverage": 3.31
+        "interest_coverage": 3.31,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -3681,7 +4225,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5083.8,
         "net_debt": 4286.9,
         "net_leverage": 3.81,
-        "interest_coverage": 3.1
+        "interest_coverage": 3.1,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -3696,7 +4247,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5187.5,
         "net_debt": 4250.0,
         "net_leverage": 3.4,
-        "interest_coverage": 3.1
+        "interest_coverage": 3.1,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -3711,7 +4269,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5083.8,
         "net_debt": 3977.6,
         "net_leverage": 2.89,
-        "interest_coverage": 3.55
+        "interest_coverage": 3.55,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -3726,7 +4291,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4928.1,
         "net_debt": 3662.5,
         "net_leverage": 2.48,
-        "interest_coverage": 3.98
+        "interest_coverage": 3.98,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -3741,7 +4313,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4668.8,
         "net_debt": 3262.6,
         "net_leverage": 2.1,
-        "interest_coverage": 4.37
+        "interest_coverage": 4.37,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -3845,7 +4424,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 280,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "BAPCO Secondary Eurobond / Sukuk Tranche 2",
@@ -3859,7 +4439,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 215,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -3873,7 +4454,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -3887,7 +4469,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -4005,7 +4588,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 529.7,
         "net_debt": 372.9,
         "net_leverage": 1.51,
-        "interest_coverage": 6.06
+        "interest_coverage": 6.06,
+        "observations": {
+          "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
+          "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
+          "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
+          "fcf": "Modest working capital absorption as new project construction commences.",
+          "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
+        }
       },
       {
         "period": "2022A",
@@ -4020,7 +4610,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 573.3,
         "net_debt": 373.8,
         "net_leverage": 1.23,
-        "interest_coverage": 5.96
+        "interest_coverage": 5.96,
+        "observations": {
+          "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
+          "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
+          "capex": "Active construction site acceleration to meet aggressive handover targets.",
+          "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
+          "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
+        }
       },
       {
         "period": "2023A",
@@ -4035,7 +4632,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 610.7,
         "net_debt": 368.5,
         "net_leverage": 1.08,
-        "interest_coverage": 5.59
+        "interest_coverage": 5.59,
+        "observations": {
+          "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
+          "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
+          "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
+          "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
+          "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
+        }
       },
       {
         "period": "2024A",
@@ -4050,7 +4654,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 623.2,
         "net_debt": 338.2,
         "net_leverage": 0.89,
-        "interest_coverage": 5.59
+        "interest_coverage": 5.59,
+        "observations": {
+          "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
+          "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
+          "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
+          "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
+          "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
+        }
       },
       {
         "period": "2025E",
@@ -4065,7 +4676,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 610.7,
         "net_debt": 274.4,
         "net_leverage": 0.66,
-        "interest_coverage": 6.41
+        "interest_coverage": 6.41,
+        "observations": {
+          "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
+          "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
+          "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
+          "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
+          "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
+        }
       },
       {
         "period": "2026E",
@@ -4080,7 +4698,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 592.0,
         "net_debt": 207.2,
         "net_leverage": 0.46,
-        "interest_coverage": 7.17
+        "interest_coverage": 7.17,
+        "observations": {
+          "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
+          "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
+          "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
+          "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
+          "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
+        }
       },
       {
         "period": "2027E",
@@ -4095,7 +4720,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 560.9,
         "net_debt": 133.4,
         "net_leverage": 0.28,
-        "interest_coverage": 7.88
+        "interest_coverage": 7.88,
+        "observations": {
+          "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
+          "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
+          "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
+          "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
+          "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
+        }
       }
     ],
     "supplementary_data": {
@@ -4213,7 +4845,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 480,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "BINGHA Secondary Eurobond / Sukuk Tranche 2",
@@ -4227,7 +4860,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 415,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -4241,7 +4875,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -4255,7 +4890,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -4373,7 +5009,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1101.6,
         "net_debt": 804.6,
         "net_leverage": 1.72,
-        "interest_coverage": 9.64
+        "interest_coverage": 9.64,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -4388,7 +5031,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1192.3,
         "net_debt": 814.3,
         "net_leverage": 1.41,
-        "interest_coverage": 9.49
+        "interest_coverage": 9.49,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -4403,7 +5053,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1270.1,
         "net_debt": 811.1,
         "net_leverage": 1.25,
-        "interest_coverage": 8.9
+        "interest_coverage": 8.9,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -4418,7 +5075,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1296.0,
         "net_debt": 756.0,
         "net_leverage": 1.05,
-        "interest_coverage": 8.9
+        "interest_coverage": 8.9,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -4433,7 +5097,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1270.1,
         "net_debt": 632.9,
         "net_leverage": 0.8,
-        "interest_coverage": 10.2
+        "interest_coverage": 10.2,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -4448,7 +5119,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1231.2,
         "net_debt": 502.2,
         "net_leverage": 0.59,
-        "interest_coverage": 11.42
+        "interest_coverage": 11.42,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -4463,7 +5141,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1166.4,
         "net_debt": 356.4,
         "net_leverage": 0.4,
-        "interest_coverage": 12.54
+        "interest_coverage": 12.54,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -4561,7 +5246,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 130,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "CCOLA Secondary Eurobond / Sukuk Tranche 2",
@@ -4575,7 +5261,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -4589,7 +5276,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -4603,7 +5291,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -4721,7 +5410,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7675.5,
         "net_debt": 5943.0,
         "net_leverage": 2.18,
-        "interest_coverage": 9.53
+        "interest_coverage": 9.53,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -4736,7 +5432,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8307.6,
         "net_debt": 6102.6,
         "net_leverage": 1.82,
-        "interest_coverage": 9.39
+        "interest_coverage": 9.39,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -4751,7 +5454,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8849.4,
         "net_debt": 6171.9,
         "net_leverage": 1.63,
-        "interest_coverage": 8.8
+        "interest_coverage": 8.8,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -4766,7 +5476,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9030.0,
         "net_debt": 5880.0,
         "net_leverage": 1.4,
-        "interest_coverage": 8.8
+        "interest_coverage": 8.8,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -4781,7 +5498,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8849.4,
         "net_debt": 5132.4,
         "net_leverage": 1.11,
-        "interest_coverage": 10.08
+        "interest_coverage": 10.08,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -4796,7 +5520,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8578.5,
         "net_debt": 4326.0,
         "net_leverage": 0.87,
-        "interest_coverage": 11.29
+        "interest_coverage": 11.29,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -4811,7 +5542,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8127.0,
         "net_debt": 3402.0,
         "net_leverage": 0.65,
-        "interest_coverage": 12.4
+        "interest_coverage": 12.4,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -4914,7 +5652,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 90,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "CEZ Secondary Eurobond / Sukuk Tranche 2",
@@ -4928,7 +5667,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -4942,7 +5682,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -4956,7 +5697,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -5074,7 +5816,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 601.1,
         "net_debt": 320.6,
         "net_leverage": 0.73,
-        "interest_coverage": 7.52
+        "interest_coverage": 7.52,
+        "observations": {
+          "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
+          "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
+          "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
+          "fcf": "Modest working capital absorption as new project construction commences.",
+          "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
+        }
       },
       {
         "period": "2022A",
@@ -5089,7 +5838,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 650.6,
         "net_debt": 293.6,
         "net_leverage": 0.54,
-        "interest_coverage": 7.4
+        "interest_coverage": 7.4,
+        "observations": {
+          "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
+          "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
+          "capex": "Active construction site acceleration to meet aggressive handover targets.",
+          "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
+          "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
+        }
       },
       {
         "period": "2023A",
@@ -5104,7 +5860,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 693.1,
         "net_debt": 259.6,
         "net_leverage": 0.42,
-        "interest_coverage": 6.94
+        "interest_coverage": 6.94,
+        "observations": {
+          "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
+          "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
+          "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
+          "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
+          "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
+        }
       },
       {
         "period": "2024A",
@@ -5119,7 +5882,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 707.2,
         "net_debt": 197.2,
         "net_leverage": 0.29,
-        "interest_coverage": 6.94
+        "interest_coverage": 6.94,
+        "observations": {
+          "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
+          "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
+          "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
+          "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
+          "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
+        }
       },
       {
         "period": "2025E",
@@ -5134,7 +5904,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 693.1,
         "net_debt": 91.3,
         "net_leverage": 0.12,
-        "interest_coverage": 7.95
+        "interest_coverage": 7.95,
+        "observations": {
+          "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
+          "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
+          "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
+          "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
+          "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
+        }
       },
       {
         "period": "2026E",
@@ -5149,7 +5926,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 671.8,
         "net_debt": 0.0,
         "net_leverage": 0.0,
-        "interest_coverage": 8.9
+        "interest_coverage": 8.9,
+        "observations": {
+          "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
+          "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
+          "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
+          "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
+          "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
+        }
       },
       {
         "period": "2027E",
@@ -5164,7 +5948,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 636.5,
         "net_debt": 0.0,
         "net_leverage": 0.0,
-        "interest_coverage": 9.78
+        "interest_coverage": 9.78,
+        "observations": {
+          "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
+          "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
+          "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
+          "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
+          "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
+        }
       }
     ],
     "supplementary_data": {
@@ -5271,7 +6062,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 320,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "DAMAC Secondary Eurobond / Sukuk Tranche 2",
@@ -5285,7 +6077,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 255,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -5299,7 +6092,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -5313,7 +6107,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -5431,7 +6226,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1944.8,
         "net_debt": 1676.7,
         "net_leverage": 3.97,
-        "interest_coverage": 4.14
+        "interest_coverage": 4.14,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -5446,7 +6248,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2105.0,
         "net_debt": 1763.8,
         "net_leverage": 3.39,
-        "interest_coverage": 4.07
+        "interest_coverage": 4.07,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -5461,7 +6270,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2242.2,
         "net_debt": 1827.8,
         "net_leverage": 3.12,
-        "interest_coverage": 3.82
+        "interest_coverage": 3.82,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -5476,7 +6292,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2288.0,
         "net_debt": 1800.5,
         "net_leverage": 2.77,
-        "interest_coverage": 3.82
+        "interest_coverage": 3.82,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -5491,7 +6314,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2242.2,
         "net_debt": 1667.0,
         "net_leverage": 2.33,
-        "interest_coverage": 4.38
+        "interest_coverage": 4.38,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -5506,7 +6336,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2173.6,
         "net_debt": 1515.5,
         "net_leverage": 1.98,
-        "interest_coverage": 4.9
+        "interest_coverage": 4.9,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -5521,7 +6358,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2059.2,
         "net_debt": 1328.0,
         "net_leverage": 1.65,
-        "interest_coverage": 5.38
+        "interest_coverage": 5.38,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -5623,7 +6467,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 715,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "DANFER Secondary Eurobond / Sukuk Tranche 2",
@@ -5637,7 +6482,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 650,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -5651,7 +6497,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -5665,7 +6512,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -5783,7 +6631,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 270.3,
         "net_debt": 229.1,
         "net_leverage": 3.52,
-        "interest_coverage": 4.44
+        "interest_coverage": 4.44,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -5798,7 +6653,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 292.6,
         "net_debt": 240.1,
         "net_leverage": 3.0,
-        "interest_coverage": 4.37
+        "interest_coverage": 4.37,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -5813,7 +6675,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 311.6,
         "net_debt": 247.8,
         "net_leverage": 2.75,
-        "interest_coverage": 4.1
+        "interest_coverage": 4.1,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -5828,7 +6697,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 318.0,
         "net_debt": 243.0,
         "net_leverage": 2.43,
-        "interest_coverage": 4.1
+        "interest_coverage": 4.1,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -5843,7 +6719,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 311.6,
         "net_debt": 223.1,
         "net_leverage": 2.03,
-        "interest_coverage": 4.7
+        "interest_coverage": 4.7,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -5858,7 +6741,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 302.1,
         "net_debt": 200.9,
         "net_leverage": 1.7,
-        "interest_coverage": 5.26
+        "interest_coverage": 5.26,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -5873,7 +6763,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 286.2,
         "net_debt": 173.7,
         "net_leverage": 1.4,
-        "interest_coverage": 5.78
+        "interest_coverage": 5.78,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -5988,7 +6885,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 815,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "DANREF Secondary Eurobond / Sukuk Tranche 2",
@@ -6002,7 +6900,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 750,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -6016,7 +6915,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -6030,7 +6930,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -6148,7 +7049,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1291.3,
         "net_debt": 1142.8,
         "net_leverage": 4.88,
-        "interest_coverage": 3.12
+        "interest_coverage": 3.12,
+        "observations": {
+          "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
+          "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
+          "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
+          "fcf": "Modest working capital absorption as new project construction commences.",
+          "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
+        }
       },
       {
         "period": "2022A",
@@ -6163,7 +7071,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1397.7,
         "net_debt": 1208.7,
         "net_leverage": 4.2,
-        "interest_coverage": 3.07
+        "interest_coverage": 3.07,
+        "observations": {
+          "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
+          "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
+          "capex": "Active construction site acceleration to meet aggressive handover targets.",
+          "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
+          "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
+        }
       },
       {
         "period": "2023A",
@@ -6178,7 +7093,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1488.8,
         "net_debt": 1259.3,
         "net_leverage": 3.89,
-        "interest_coverage": 2.88
+        "interest_coverage": 2.88,
+        "observations": {
+          "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
+          "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
+          "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
+          "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
+          "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
+        }
       },
       {
         "period": "2024A",
@@ -6193,7 +7115,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1519.2,
         "net_debt": 1249.2,
         "net_leverage": 3.47,
-        "interest_coverage": 2.88
+        "interest_coverage": 2.88,
+        "observations": {
+          "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
+          "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
+          "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
+          "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
+          "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
+        }
       },
       {
         "period": "2025E",
@@ -6208,7 +7137,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1488.8,
         "net_debt": 1170.2,
         "net_leverage": 2.96,
-        "interest_coverage": 3.3
+        "interest_coverage": 3.3,
+        "observations": {
+          "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
+          "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
+          "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
+          "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
+          "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
+        }
       },
       {
         "period": "2026E",
@@ -6223,7 +7159,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1443.2,
         "net_debt": 1078.7,
         "net_leverage": 2.54,
-        "interest_coverage": 3.69
+        "interest_coverage": 3.69,
+        "observations": {
+          "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
+          "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
+          "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
+          "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
+          "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
+        }
       },
       {
         "period": "2027E",
@@ -6238,7 +7181,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1367.3,
         "net_debt": 962.3,
         "net_leverage": 2.16,
-        "interest_coverage": 4.06
+        "interest_coverage": 4.06,
+        "observations": {
+          "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
+          "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
+          "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
+          "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
+          "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
+        }
       }
     ],
     "supplementary_data": {
@@ -6345,7 +7295,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 410,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "DARARK Secondary Eurobond / Sukuk Tranche 2",
@@ -6359,7 +7310,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 345,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -6373,7 +7325,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -6387,7 +7340,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -6511,7 +7465,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 6.2,
         "ldr_pct": 77.9,
         "npl_pct": 4.5,
-        "car_pct": 17.2
+        "car_pct": 17.2,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -6532,7 +7493,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.4,
         "ldr_pct": 79.4,
         "npl_pct": 4.5,
-        "car_pct": 17.2
+        "car_pct": 17.2,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -6553,7 +7521,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.8,
         "ldr_pct": 80.6,
         "npl_pct": 4.5,
-        "car_pct": 17.2
+        "car_pct": 17.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -6574,7 +7549,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.4,
         "ldr_pct": 82.4,
         "npl_pct": 4.5,
-        "car_pct": 17.2
+        "car_pct": 17.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -6595,7 +7577,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.5,
         "ldr_pct": 83.1,
         "npl_pct": 4.5,
-        "car_pct": 17.2
+        "car_pct": 17.2,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -6616,7 +7605,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.5,
         "ldr_pct": 83.8,
         "npl_pct": 4.5,
-        "car_pct": 17.2
+        "car_pct": 17.2,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -6637,7 +7633,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.3,
         "ldr_pct": 84.4,
         "npl_pct": 4.5,
-        "car_pct": 17.2
+        "car_pct": 17.2,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -6741,7 +7744,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 90,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "DIBUH Tier 2 Subordinated Notes",
@@ -6755,7 +7759,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 240,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "DIBUH Additional Tier 1 (AT1) Perpetual",
@@ -6769,7 +7774,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 315,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -6783,7 +7789,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -6900,7 +7907,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 17253.3,
         "net_debt": 15149.5,
         "net_leverage": 4.57,
-        "interest_coverage": 5.82
+        "interest_coverage": 5.82,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -6915,7 +7929,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 18674.2,
         "net_debt": 15996.7,
         "net_leverage": 3.92,
-        "interest_coverage": 5.73
+        "interest_coverage": 5.73,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -6930,7 +7951,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 19892.0,
         "net_debt": 16640.8,
         "net_leverage": 3.63,
-        "interest_coverage": 5.37
+        "interest_coverage": 5.37,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -6945,7 +7973,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 20298.0,
         "net_debt": 16473.0,
         "net_leverage": 3.23,
-        "interest_coverage": 5.37
+        "interest_coverage": 5.37,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -6960,7 +7995,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 19892.0,
         "net_debt": 15378.5,
         "net_leverage": 2.74,
-        "interest_coverage": 6.15
+        "interest_coverage": 6.15,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -6975,7 +8017,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 19283.1,
         "net_debt": 14119.3,
         "net_leverage": 2.35,
-        "interest_coverage": 6.89
+        "interest_coverage": 6.89,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -6990,7 +8039,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 18268.2,
         "net_debt": 12530.7,
         "net_leverage": 1.98,
-        "interest_coverage": 7.57
+        "interest_coverage": 7.57,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -7092,7 +8148,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 120,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "DPW Secondary Eurobond / Sukuk Tranche 2",
@@ -7106,7 +8163,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -7120,7 +8178,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -7134,7 +8193,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -7252,7 +8312,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1345.9,
         "net_debt": 1172.7,
         "net_leverage": 4.3,
-        "interest_coverage": 3.5
+        "interest_coverage": 3.5,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -7267,7 +8334,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1456.7,
         "net_debt": 1236.2,
         "net_leverage": 3.68,
-        "interest_coverage": 3.45
+        "interest_coverage": 3.45,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -7282,7 +8356,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1551.7,
         "net_debt": 1283.9,
         "net_leverage": 3.4,
-        "interest_coverage": 3.23
+        "interest_coverage": 3.23,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -7297,7 +8378,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1583.4,
         "net_debt": 1268.4,
         "net_leverage": 3.02,
-        "interest_coverage": 3.23
+        "interest_coverage": 3.23,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -7312,7 +8400,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1551.7,
         "net_debt": 1180.0,
         "net_leverage": 2.55,
-        "interest_coverage": 3.7
+        "interest_coverage": 3.7,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -7327,7 +8422,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1504.2,
         "net_debt": 1079.0,
         "net_leverage": 2.18,
-        "interest_coverage": 4.14
+        "interest_coverage": 4.14,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -7342,7 +8444,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1425.1,
         "net_debt": 952.6,
         "net_leverage": 1.83,
-        "interest_coverage": 4.55
+        "interest_coverage": 4.55,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -7445,7 +8554,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 1410,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "DTEKUA Secondary Eurobond / Sukuk Tranche 2",
@@ -7459,7 +8569,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 1345,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -7473,7 +8584,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -7487,7 +8599,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -7605,7 +8718,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 274040.0,
         "net_debt": 272720.0,
         "net_leverage": 131.12,
-        "interest_coverage": 10.83
+        "interest_coverage": 10.83,
+        "observations": {
+          "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
+          "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
+          "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
+          "fcf": "Modest working capital absorption as new project construction commences.",
+          "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
+        }
       },
       {
         "period": "2022A",
@@ -7620,7 +8740,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 296608.0,
         "net_debt": 294928.0,
         "net_leverage": 115.21,
-        "interest_coverage": 10.67
+        "interest_coverage": 10.67,
+        "observations": {
+          "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
+          "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
+          "capex": "Active construction site acceleration to meet aggressive handover targets.",
+          "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
+          "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
+        }
       },
       {
         "period": "2023A",
@@ -7635,7 +8762,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 315952.0,
         "net_debt": 313912.0,
         "net_leverage": 109.0,
-        "interest_coverage": 10.0
+        "interest_coverage": 10.0,
+        "observations": {
+          "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
+          "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
+          "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
+          "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
+          "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
+        }
       },
       {
         "period": "2024A",
@@ -7650,7 +8784,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 322400.0,
         "net_debt": 320000.0,
         "net_leverage": 100.0,
-        "interest_coverage": 10.0
+        "interest_coverage": 10.0,
+        "observations": {
+          "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
+          "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
+          "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
+          "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
+          "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
+        }
       },
       {
         "period": "2025E",
@@ -7665,7 +8806,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 315952.0,
         "net_debt": 313120.0,
         "net_leverage": 88.95,
-        "interest_coverage": 11.46
+        "interest_coverage": 11.46,
+        "observations": {
+          "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
+          "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
+          "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
+          "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
+          "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
+        }
       },
       {
         "period": "2026E",
@@ -7680,7 +8828,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 306280.0,
         "net_debt": 303040.0,
         "net_leverage": 80.25,
-        "interest_coverage": 12.83
+        "interest_coverage": 12.83,
+        "observations": {
+          "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
+          "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
+          "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
+          "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
+          "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
+        }
       },
       {
         "period": "2027E",
@@ -7695,7 +8850,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 290160.0,
         "net_debt": 286560.0,
         "net_leverage": 72.22,
-        "interest_coverage": 14.09
+        "interest_coverage": 14.09,
+        "observations": {
+          "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
+          "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
+          "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
+          "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
+          "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
+        }
       }
     ],
     "supplementary_data": {
@@ -7802,7 +8964,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 95,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "EMAAR Secondary Eurobond / Sukuk Tranche 2",
@@ -7816,7 +8979,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -7830,7 +8994,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -7844,7 +9009,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -7962,7 +9128,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 368.9,
         "net_debt": 224.5,
         "net_leverage": 0.99,
-        "interest_coverage": 9.21
+        "interest_coverage": 9.21,
+        "observations": {
+          "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
+          "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
+          "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
+          "fcf": "Modest working capital absorption as new project construction commences.",
+          "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
+        }
       },
       {
         "period": "2022A",
@@ -7977,7 +9150,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 399.3,
         "net_debt": 215.5,
         "net_leverage": 0.77,
-        "interest_coverage": 9.07
+        "interest_coverage": 9.07,
+        "observations": {
+          "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
+          "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
+          "capex": "Active construction site acceleration to meet aggressive handover targets.",
+          "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
+          "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
+        }
       },
       {
         "period": "2023A",
@@ -7992,7 +9172,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 425.3,
         "net_debt": 202.2,
         "net_leverage": 0.64,
-        "interest_coverage": 8.5
+        "interest_coverage": 8.5,
+        "observations": {
+          "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
+          "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
+          "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
+          "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
+          "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
+        }
       },
       {
         "period": "2024A",
@@ -8007,7 +9194,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 434.0,
         "net_debt": 171.5,
         "net_leverage": 0.49,
-        "interest_coverage": 8.5
+        "interest_coverage": 8.5,
+        "observations": {
+          "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
+          "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
+          "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
+          "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
+          "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
+        }
       },
       {
         "period": "2025E",
@@ -8022,7 +9216,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 425.3,
         "net_debt": 115.5,
         "net_leverage": 0.3,
-        "interest_coverage": 9.74
+        "interest_coverage": 9.74,
+        "observations": {
+          "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
+          "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
+          "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
+          "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
+          "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
+        }
       },
       {
         "period": "2026E",
@@ -8037,7 +9238,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 412.3,
         "net_debt": 57.9,
         "net_leverage": 0.14,
-        "interest_coverage": 10.9
+        "interest_coverage": 10.9,
+        "observations": {
+          "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
+          "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
+          "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
+          "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
+          "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
+        }
       },
       {
         "period": "2027E",
@@ -8052,7 +9260,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 390.6,
         "net_debt": 0.0,
         "net_leverage": 0.0,
-        "interest_coverage": 11.98
+        "interest_coverage": 11.98,
+        "observations": {
+          "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
+          "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
+          "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
+          "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
+          "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
+        }
       }
     ],
     "supplementary_data": {
@@ -8159,7 +9374,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 610,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "EKGYO Secondary Eurobond / Sukuk Tranche 2",
@@ -8173,7 +9389,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 545,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -8187,7 +9404,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -8201,7 +9419,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -8325,7 +9544,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 6.9,
         "ldr_pct": 72.1,
         "npl_pct": 4.1,
-        "car_pct": 18.5
+        "car_pct": 18.5,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -8346,7 +9572,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.9,
         "ldr_pct": 73.5,
         "npl_pct": 4.1,
-        "car_pct": 18.5
+        "car_pct": 18.5,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -8367,7 +9600,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.3,
         "ldr_pct": 74.6,
         "npl_pct": 4.1,
-        "car_pct": 18.5
+        "car_pct": 18.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -8388,7 +9628,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.9,
         "ldr_pct": 76.2,
         "npl_pct": 4.1,
-        "car_pct": 18.5
+        "car_pct": 18.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -8409,7 +9656,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.0,
         "ldr_pct": 76.9,
         "npl_pct": 4.1,
-        "car_pct": 18.5
+        "car_pct": 18.5,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -8430,7 +9684,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.9,
         "ldr_pct": 77.5,
         "npl_pct": 4.1,
-        "car_pct": 18.5
+        "car_pct": 18.5,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -8451,7 +9712,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.6,
         "ldr_pct": 78.1,
         "npl_pct": 4.1,
-        "car_pct": 18.5
+        "car_pct": 18.5,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -8555,7 +9823,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 70,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "EMIRAT Tier 2 Subordinated Notes",
@@ -8569,7 +9838,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 220,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "EMIRAT Additional Tier 1 (AT1) Perpetual",
@@ -8583,7 +9853,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 295,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -8597,7 +9868,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -8714,7 +9986,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1999.2,
         "net_debt": 1594.9,
         "net_leverage": 2.5,
-        "interest_coverage": 7.37
+        "interest_coverage": 7.37,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -8729,7 +10008,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2163.8,
         "net_debt": 1649.3,
         "net_leverage": 2.1,
-        "interest_coverage": 7.25
+        "interest_coverage": 7.25,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -8744,7 +10030,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2305.0,
         "net_debt": 1680.2,
         "net_leverage": 1.9,
-        "interest_coverage": 6.8
+        "interest_coverage": 6.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -8759,7 +10052,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2352.0,
         "net_debt": 1617.0,
         "net_leverage": 1.65,
-        "interest_coverage": 6.8
+        "interest_coverage": 6.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -8774,7 +10074,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2305.0,
         "net_debt": 1437.7,
         "net_leverage": 1.33,
-        "interest_coverage": 7.79
+        "interest_coverage": 7.79,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -8789,7 +10096,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2234.4,
         "net_debt": 1242.1,
         "net_leverage": 1.07,
-        "interest_coverage": 8.72
+        "interest_coverage": 8.72,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -8804,7 +10118,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2116.8,
         "net_debt": 1014.3,
         "net_leverage": 0.83,
-        "interest_coverage": 9.58
+        "interest_coverage": 9.58,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -8906,7 +10227,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "EQUATE Secondary Eurobond / Sukuk Tranche 2",
@@ -8920,7 +10242,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 85,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -8934,7 +10257,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -8948,7 +10272,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -9066,7 +10391,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2073.6,
         "net_debt": 1723.0,
         "net_leverage": 3.12,
-        "interest_coverage": 5.52
+        "interest_coverage": 5.52,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -9081,7 +10413,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2244.3,
         "net_debt": 1798.1,
         "net_leverage": 2.64,
-        "interest_coverage": 5.44
+        "interest_coverage": 5.44,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -9096,7 +10435,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2390.7,
         "net_debt": 1848.8,
         "net_leverage": 2.42,
-        "interest_coverage": 5.1
+        "interest_coverage": 5.1,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -9111,7 +10457,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2439.5,
         "net_debt": 1802.0,
         "net_leverage": 2.12,
-        "interest_coverage": 5.1
+        "interest_coverage": 5.1,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -9126,7 +10479,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2390.7,
         "net_debt": 1638.5,
         "net_leverage": 1.75,
-        "interest_coverage": 5.84
+        "interest_coverage": 5.84,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -9141,7 +10501,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2317.5,
         "net_debt": 1456.9,
         "net_leverage": 1.45,
-        "interest_coverage": 6.54
+        "interest_coverage": 6.54,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -9156,7 +10523,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2195.6,
         "net_debt": 1239.4,
         "net_leverage": 1.18,
-        "interest_coverage": 7.19
+        "interest_coverage": 7.19,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -9258,7 +10632,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 355,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "EREGL Secondary Eurobond / Sukuk Tranche 2",
@@ -9272,7 +10647,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 290,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -9286,7 +10662,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -9300,7 +10677,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -9418,7 +10796,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 14118.5,
         "net_debt": 13211.0,
         "net_leverage": 9.24,
-        "interest_coverage": 1.57
+        "interest_coverage": 1.57,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -9433,7 +10818,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 15281.2,
         "net_debt": 14126.2,
         "net_leverage": 8.03,
-        "interest_coverage": 1.55
+        "interest_coverage": 1.55,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -9448,7 +10840,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 16277.8,
         "net_debt": 14875.3,
         "net_leverage": 7.51,
-        "interest_coverage": 1.45
+        "interest_coverage": 1.45,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -9463,7 +10862,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 16610.0,
         "net_debt": 14960.0,
         "net_leverage": 6.8,
-        "interest_coverage": 1.45
+        "interest_coverage": 1.45,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -9478,7 +10884,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 16277.8,
         "net_debt": 14330.8,
         "net_leverage": 5.92,
-        "interest_coverage": 1.66
+        "interest_coverage": 1.66,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -9493,7 +10906,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 15779.5,
         "net_debt": 13552.0,
         "net_leverage": 5.22,
-        "interest_coverage": 1.86
+        "interest_coverage": 1.86,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -9508,7 +10928,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 14949.0,
         "net_debt": 12474.0,
         "net_leverage": 4.57,
-        "interest_coverage": 2.04
+        "interest_coverage": 2.04,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -9611,7 +11038,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 445,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ESKOM Secondary Eurobond / Sukuk Tranche 2",
@@ -9625,7 +11053,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 380,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -9639,7 +11068,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -9653,7 +11083,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -9777,7 +11208,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 3.8,
         "ldr_pct": 68.9,
         "npl_pct": 3.2,
-        "car_pct": 17.4
+        "car_pct": 17.4,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -9798,7 +11236,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 5.1,
         "ldr_pct": 70.3,
         "npl_pct": 3.2,
-        "car_pct": 17.4
+        "car_pct": 17.4,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -9819,7 +11264,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 4.8,
         "ldr_pct": 71.3,
         "npl_pct": 3.2,
-        "car_pct": 17.4
+        "car_pct": 17.4,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -9840,7 +11292,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 4.5,
         "ldr_pct": 72.8,
         "npl_pct": 3.2,
-        "car_pct": 17.4
+        "car_pct": 17.4,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -9861,7 +11320,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 4.6,
         "ldr_pct": 73.5,
         "npl_pct": 3.2,
-        "car_pct": 17.4
+        "car_pct": 17.4,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -9882,7 +11348,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 4.6,
         "ldr_pct": 74.1,
         "npl_pct": 3.2,
-        "car_pct": 17.4
+        "car_pct": 17.4,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -9903,7 +11376,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 4.4,
         "ldr_pct": 74.6,
         "npl_pct": 3.2,
-        "car_pct": 17.4
+        "car_pct": 17.4,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -10007,7 +11487,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "FABUH Tier 2 Subordinated Notes",
@@ -10021,7 +11502,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 215,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "FABUH Additional Tier 1 (AT1) Perpetual",
@@ -10035,7 +11517,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 290,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -10049,7 +11532,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -10172,7 +11656,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.8,
         "ldr_pct": 81.7,
         "npl_pct": 4.1,
-        "car_pct": 17.1
+        "car_pct": 17.1,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -10193,7 +11684,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.3,
         "ldr_pct": 83.3,
         "npl_pct": 4.1,
-        "car_pct": 17.1
+        "car_pct": 17.1,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -10214,7 +11712,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.3,
         "ldr_pct": 84.5,
         "npl_pct": 4.1,
-        "car_pct": 17.1
+        "car_pct": 17.1,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -10235,7 +11740,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 11.7,
         "ldr_pct": 86.3,
         "npl_pct": 4.1,
-        "car_pct": 17.1
+        "car_pct": 17.1,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -10256,7 +11768,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 11.9,
         "ldr_pct": 87.1,
         "npl_pct": 4.1,
-        "car_pct": 17.1
+        "car_pct": 17.1,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -10277,7 +11796,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 11.9,
         "ldr_pct": 87.8,
         "npl_pct": 4.1,
-        "car_pct": 17.1
+        "car_pct": 17.1,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -10298,7 +11824,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 11.5,
         "ldr_pct": 88.5,
         "npl_pct": 4.1,
-        "car_pct": 17.1
+        "car_pct": 17.1,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -10402,7 +11935,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 270,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "FIRSTR Tier 2 Subordinated Notes",
@@ -10416,7 +11950,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 420,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "FIRSTR Additional Tier 1 (AT1) Perpetual",
@@ -10430,7 +11965,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 495,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -10444,7 +11980,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -10567,7 +12104,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.5,
         "ldr_pct": 80.3,
         "npl_pct": 1.7,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -10588,7 +12132,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 17.5,
         "ldr_pct": 81.8,
         "npl_pct": 1.7,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -10609,7 +12160,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 16.2,
         "ldr_pct": 83.0,
         "npl_pct": 1.7,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -10630,7 +12188,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.5,
         "ldr_pct": 84.8,
         "npl_pct": 1.7,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -10651,7 +12216,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.5,
         "ldr_pct": 85.6,
         "npl_pct": 1.7,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -10672,7 +12244,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.3,
         "ldr_pct": 86.3,
         "npl_pct": 1.7,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -10693,7 +12272,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 14.8,
         "ldr_pct": 87.0,
         "npl_pct": 1.7,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -10797,7 +12383,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 195,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "GARAN Tier 2 Subordinated Notes",
@@ -10811,7 +12398,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 345,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "GARAN Additional Tier 1 (AT1) Perpetual",
@@ -10825,7 +12413,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 420,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -10839,7 +12428,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -10956,7 +12546,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 558.6,
         "net_debt": 478.2,
         "net_leverage": 3.77,
-        "interest_coverage": 4.06
+        "interest_coverage": 4.06,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -10971,7 +12568,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 604.6,
         "net_debt": 502.2,
         "net_leverage": 3.22,
-        "interest_coverage": 4.0
+        "interest_coverage": 4.0,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -10986,7 +12590,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 644.0,
         "net_debt": 519.7,
         "net_leverage": 2.96,
-        "interest_coverage": 3.75
+        "interest_coverage": 3.75,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -11001,7 +12612,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 657.2,
         "net_debt": 511.0,
         "net_leverage": 2.62,
-        "interest_coverage": 3.75
+        "interest_coverage": 3.75,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -11016,7 +12634,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 644.0,
         "net_debt": 471.4,
         "net_leverage": 2.2,
-        "interest_coverage": 4.3
+        "interest_coverage": 4.3,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -11031,7 +12656,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 624.3,
         "net_debt": 426.9,
         "net_leverage": 1.86,
-        "interest_coverage": 4.81
+        "interest_coverage": 4.81,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -11046,7 +12678,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 591.4,
         "net_debt": 372.0,
         "net_leverage": 1.54,
-        "interest_coverage": 5.28
+        "interest_coverage": 5.28,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -11149,7 +12788,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 470,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "GDZELE Secondary Eurobond / Sukuk Tranche 2",
@@ -11163,7 +12803,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 405,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -11177,7 +12818,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -11191,7 +12833,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -11309,7 +12952,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2856.0,
         "net_debt": 1989.7,
         "net_leverage": 1.46,
-        "interest_coverage": 10.29
+        "interest_coverage": 10.29,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -11324,7 +12974,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3091.2,
         "net_debt": 1988.7,
         "net_leverage": 1.18,
-        "interest_coverage": 10.13
+        "interest_coverage": 10.13,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -11339,7 +12996,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3292.8,
         "net_debt": 1954.0,
         "net_leverage": 1.03,
-        "interest_coverage": 9.5
+        "interest_coverage": 9.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -11354,7 +13018,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3360.0,
         "net_debt": 1785.0,
         "net_leverage": 0.85,
-        "interest_coverage": 9.5
+        "interest_coverage": 9.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -11369,7 +13040,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3292.8,
         "net_debt": 1434.3,
         "net_leverage": 0.62,
-        "interest_coverage": 10.89
+        "interest_coverage": 10.89,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -11384,7 +13062,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3192.0,
         "net_debt": 1065.8,
         "net_leverage": 0.43,
-        "interest_coverage": 12.18
+        "interest_coverage": 12.18,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -11399,7 +13084,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3024.0,
         "net_debt": 661.5,
         "net_leverage": 0.25,
-        "interest_coverage": 13.39
+        "interest_coverage": 13.39,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -11501,7 +13193,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 200,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "GFI Secondary Eurobond / Sukuk Tranche 2",
@@ -11515,7 +13208,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 135,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -11529,7 +13223,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -11543,7 +13238,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -11667,7 +13363,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.6,
         "ldr_pct": 81.2,
         "npl_pct": 2.8,
-        "car_pct": 15.9
+        "car_pct": 15.9,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -11688,7 +13391,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 11.5,
         "ldr_pct": 82.8,
         "npl_pct": 2.8,
-        "car_pct": 15.9
+        "car_pct": 15.9,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -11709,7 +13419,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.5,
         "ldr_pct": 84.0,
         "npl_pct": 2.8,
-        "car_pct": 15.9
+        "car_pct": 15.9,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -11730,7 +13447,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.1,
         "ldr_pct": 85.8,
         "npl_pct": 2.8,
-        "car_pct": 15.9
+        "car_pct": 15.9,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -11751,7 +13475,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.5,
         "ldr_pct": 86.6,
         "npl_pct": 2.8,
-        "car_pct": 15.9
+        "car_pct": 15.9,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -11772,7 +13503,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.6,
         "ldr_pct": 87.3,
         "npl_pct": 2.8,
-        "car_pct": 15.9
+        "car_pct": 15.9,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -11793,7 +13531,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.3,
         "ldr_pct": 88.0,
         "npl_pct": 2.8,
-        "car_pct": 15.9
+        "car_pct": 15.9,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -11897,7 +13642,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 275,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "HALKB Tier 2 Subordinated Notes",
@@ -11911,7 +13657,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 425,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "HALKB Additional Tier 1 (AT1) Perpetual",
@@ -11925,7 +13672,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 500,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -11939,7 +13687,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -12062,7 +13811,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 14.9,
         "ldr_pct": 76.4,
         "npl_pct": 2.1,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -12083,7 +13839,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 19.0,
         "ldr_pct": 77.9,
         "npl_pct": 2.1,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -12104,7 +13867,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 17.7,
         "ldr_pct": 79.1,
         "npl_pct": 2.1,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -12125,7 +13895,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 16.9,
         "ldr_pct": 80.8,
         "npl_pct": 2.1,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -12146,7 +13923,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 16.9,
         "ldr_pct": 81.5,
         "npl_pct": 2.1,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -12167,7 +13951,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 16.6,
         "ldr_pct": 82.2,
         "npl_pct": 2.1,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -12188,7 +13979,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 16.0,
         "ldr_pct": 82.8,
         "npl_pct": 2.1,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -12292,7 +14090,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 215,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "HSBKK Tier 2 Subordinated Notes",
@@ -12306,7 +14105,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 365,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "HSBKK Additional Tier 1 (AT1) Perpetual",
@@ -12320,7 +14120,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 440,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -12334,7 +14135,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -12451,7 +14253,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1714.8,
         "net_debt": 1556.0,
         "net_leverage": 6.22,
-        "interest_coverage": 2.98
+        "interest_coverage": 2.98,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -12466,7 +14275,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1856.0,
         "net_debt": 1653.9,
         "net_leverage": 5.37,
-        "interest_coverage": 2.93
+        "interest_coverage": 2.93,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -12481,7 +14297,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1977.1,
         "net_debt": 1731.7,
         "net_leverage": 5.0,
-        "interest_coverage": 2.75
+        "interest_coverage": 2.75,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -12496,7 +14319,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2017.4,
         "net_debt": 1728.6,
         "net_leverage": 4.49,
-        "interest_coverage": 2.75
+        "interest_coverage": 2.75,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -12511,7 +14341,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1977.1,
         "net_debt": 1636.4,
         "net_leverage": 3.86,
-        "interest_coverage": 3.15
+        "interest_coverage": 3.15,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -12526,7 +14363,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1916.5,
         "net_debt": 1526.7,
         "net_leverage": 3.36,
-        "interest_coverage": 3.53
+        "interest_coverage": 3.53,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -12541,7 +14385,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1815.7,
         "net_debt": 1382.6,
         "net_leverage": 2.9,
-        "interest_coverage": 3.87
+        "interest_coverage": 3.87,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -12644,7 +14495,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 440,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "HT Secondary Eurobond / Sukuk Tranche 2",
@@ -12658,7 +14510,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 375,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -12672,7 +14525,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -12686,7 +14540,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -12804,7 +14659,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1515.1,
         "net_debt": 875.7,
         "net_leverage": 0.87,
-        "interest_coverage": 16.25
+        "interest_coverage": 16.25,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -12819,7 +14681,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1639.9,
         "net_debt": 826.1,
         "net_leverage": 0.67,
-        "interest_coverage": 16.0
+        "interest_coverage": 16.0,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -12834,7 +14703,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1746.8,
         "net_debt": 758.7,
         "net_leverage": 0.54,
-        "interest_coverage": 15.0
+        "interest_coverage": 15.0,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -12849,7 +14725,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1782.5,
         "net_debt": 620.0,
         "net_leverage": 0.4,
-        "interest_coverage": 15.0
+        "interest_coverage": 15.0,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -12864,7 +14747,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1746.8,
         "net_debt": 375.0,
         "net_leverage": 0.22,
-        "interest_coverage": 17.19
+        "interest_coverage": 17.19,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -12879,7 +14769,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1693.4,
         "net_debt": 124.0,
         "net_leverage": 0.07,
-        "interest_coverage": 19.24
+        "interest_coverage": 19.24,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -12894,7 +14791,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1604.2,
         "net_debt": 0.0,
         "net_leverage": 0.0,
-        "interest_coverage": 21.14
+        "interest_coverage": 21.14,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -12997,7 +14901,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 145,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "HIDRO Secondary Eurobond / Sukuk Tranche 2",
@@ -13011,7 +14916,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 80,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -13025,7 +14931,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -13039,7 +14946,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -13157,7 +15065,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3722.3,
         "net_debt": 3260.3,
         "net_leverage": 4.48,
-        "interest_coverage": 3.47
+        "interest_coverage": 3.47,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -13172,7 +15087,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4028.9,
         "net_debt": 3440.9,
         "net_leverage": 3.84,
-        "interest_coverage": 3.41
+        "interest_coverage": 3.41,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -13187,7 +15109,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4291.6,
         "net_debt": 3577.6,
         "net_leverage": 3.55,
-        "interest_coverage": 3.2
+        "interest_coverage": 3.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -13202,7 +15131,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4379.2,
         "net_debt": 3539.2,
         "net_leverage": 3.16,
-        "interest_coverage": 3.2
+        "interest_coverage": 3.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -13217,7 +15153,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4291.6,
         "net_debt": 3300.4,
         "net_leverage": 2.68,
-        "interest_coverage": 3.67
+        "interest_coverage": 3.67,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -13232,7 +15175,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4160.2,
         "net_debt": 3026.2,
         "net_leverage": 2.29,
-        "interest_coverage": 4.1
+        "interest_coverage": 4.1,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -13247,7 +15197,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3941.3,
         "net_debt": 2681.3,
         "net_leverage": 1.93,
-        "interest_coverage": 4.51
+        "interest_coverage": 4.51,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -13350,7 +15307,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 590,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "IHS Secondary Eurobond / Sukuk Tranche 2",
@@ -13364,7 +15322,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 525,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -13378,7 +15337,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -13392,7 +15352,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -13516,7 +15477,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 11.7,
         "ldr_pct": 80.7,
         "npl_pct": 1.8,
-        "car_pct": 17.8
+        "car_pct": 17.8,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -13537,7 +15505,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.5,
         "ldr_pct": 82.3,
         "npl_pct": 1.8,
-        "car_pct": 17.8
+        "car_pct": 17.8,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -13558,7 +15533,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 14.3,
         "ldr_pct": 83.5,
         "npl_pct": 1.8,
-        "car_pct": 17.8
+        "car_pct": 17.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -13579,7 +15561,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.7,
         "ldr_pct": 85.3,
         "npl_pct": 1.8,
-        "car_pct": 17.8
+        "car_pct": 17.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -13600,7 +15589,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.8,
         "ldr_pct": 86.1,
         "npl_pct": 1.8,
-        "car_pct": 17.8
+        "car_pct": 17.8,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -13621,7 +15617,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.7,
         "ldr_pct": 86.8,
         "npl_pct": 1.8,
-        "car_pct": 17.8
+        "car_pct": 17.8,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -13642,7 +15645,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.2,
         "ldr_pct": 87.4,
         "npl_pct": 1.8,
-        "car_pct": 17.8
+        "car_pct": 17.8,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -13746,7 +15756,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 225,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ISCTR Tier 2 Subordinated Notes",
@@ -13760,7 +15771,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 375,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ISCTR Additional Tier 1 (AT1) Perpetual",
@@ -13774,7 +15786,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 450,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -13788,7 +15801,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -13905,7 +15919,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 523.8,
         "net_debt": 443.4,
         "net_leverage": 3.5,
-        "interest_coverage": 4.06
+        "interest_coverage": 4.06,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -13920,7 +15941,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 566.9,
         "net_debt": 464.5,
         "net_leverage": 2.98,
-        "interest_coverage": 4.0
+        "interest_coverage": 4.0,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -13935,7 +15963,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 603.9,
         "net_debt": 479.6,
         "net_leverage": 2.73,
-        "interest_coverage": 3.75
+        "interest_coverage": 3.75,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -13950,7 +15985,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 616.2,
         "net_debt": 470.0,
         "net_leverage": 2.41,
-        "interest_coverage": 3.75
+        "interest_coverage": 3.75,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -13965,7 +16007,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 603.9,
         "net_debt": 431.3,
         "net_leverage": 2.01,
-        "interest_coverage": 4.3
+        "interest_coverage": 4.3,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -13980,7 +16029,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 585.4,
         "net_debt": 388.0,
         "net_leverage": 1.69,
-        "interest_coverage": 4.81
+        "interest_coverage": 4.81,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -13995,7 +16051,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 554.6,
         "net_debt": 335.2,
         "net_leverage": 1.39,
-        "interest_coverage": 5.28
+        "interest_coverage": 5.28,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -14093,7 +16156,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 505,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ITTIHAD Secondary Eurobond / Sukuk Tranche 2",
@@ -14107,7 +16171,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 440,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -14121,7 +16186,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -14135,7 +16201,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -14259,7 +16326,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.3,
         "ldr_pct": 83.8,
         "npl_pct": 1.6,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -14280,7 +16354,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.6,
         "ldr_pct": 85.5,
         "npl_pct": 1.6,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -14301,7 +16382,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.9,
         "ldr_pct": 86.8,
         "npl_pct": 1.6,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -14322,7 +16410,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.5,
         "ldr_pct": 88.6,
         "npl_pct": 1.6,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -14343,7 +16438,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.6,
         "ldr_pct": 89.5,
         "npl_pct": 1.6,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -14364,7 +16466,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.5,
         "ldr_pct": 90.2,
         "npl_pct": 1.6,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -14385,7 +16494,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.2,
         "ldr_pct": 90.9,
         "npl_pct": 1.6,
-        "car_pct": 18.2
+        "car_pct": 18.2,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -14489,7 +16605,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 115,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "KFH Tier 2 Subordinated Notes",
@@ -14503,7 +16620,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 265,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "KFH Additional Tier 1 (AT1) Perpetual",
@@ -14517,7 +16635,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 340,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -14531,7 +16650,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -14648,7 +16768,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8976.0,
         "net_debt": 6996.0,
         "net_leverage": 2.24,
-        "interest_coverage": 7.37
+        "interest_coverage": 7.37,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -14663,7 +16790,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9715.2,
         "net_debt": 7195.2,
         "net_leverage": 1.87,
-        "interest_coverage": 7.25
+        "interest_coverage": 7.25,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -14678,7 +16812,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10348.8,
         "net_debt": 7288.8,
         "net_leverage": 1.69,
-        "interest_coverage": 6.8
+        "interest_coverage": 6.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -14693,7 +16834,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10560.0,
         "net_debt": 6960.0,
         "net_leverage": 1.45,
-        "interest_coverage": 6.8
+        "interest_coverage": 6.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -14708,7 +16856,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10348.8,
         "net_debt": 6100.8,
         "net_leverage": 1.16,
-        "interest_coverage": 7.79
+        "interest_coverage": 7.79,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -14723,7 +16878,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10032.0,
         "net_debt": 5172.0,
         "net_leverage": 0.91,
-        "interest_coverage": 8.72
+        "interest_coverage": 8.72,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -14738,7 +16900,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9504.0,
         "net_debt": 4104.0,
         "net_leverage": 0.69,
-        "interest_coverage": 9.58
+        "interest_coverage": 9.58,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -14842,7 +17011,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 270,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "KZOK Secondary Eurobond / Sukuk Tranche 2",
@@ -14856,7 +17026,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 205,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -14870,7 +17041,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -14884,7 +17056,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -15002,7 +17175,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8160.0,
         "net_debt": 6180.0,
         "net_leverage": 1.98,
-        "interest_coverage": 7.04
+        "interest_coverage": 7.04,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -15017,7 +17197,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8832.0,
         "net_debt": 6312.0,
         "net_leverage": 1.64,
-        "interest_coverage": 6.93
+        "interest_coverage": 6.93,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -15032,7 +17219,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9408.0,
         "net_debt": 6348.0,
         "net_leverage": 1.47,
-        "interest_coverage": 6.5
+        "interest_coverage": 6.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -15047,7 +17241,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9600.0,
         "net_debt": 6000.0,
         "net_leverage": 1.25,
-        "interest_coverage": 6.5
+        "interest_coverage": 6.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -15062,7 +17263,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9408.0,
         "net_debt": 5160.0,
         "net_leverage": 0.98,
-        "interest_coverage": 7.45
+        "interest_coverage": 7.45,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -15077,7 +17285,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9120.0,
         "net_debt": 4260.0,
         "net_leverage": 0.75,
-        "interest_coverage": 8.34
+        "interest_coverage": 8.34,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -15092,7 +17307,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8640.0,
         "net_debt": 3240.0,
         "net_leverage": 0.54,
-        "interest_coverage": 9.16
+        "interest_coverage": 9.16,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -15190,7 +17412,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 280,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "KCHOL Secondary Eurobond / Sukuk Tranche 2",
@@ -15204,7 +17427,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 215,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -15218,7 +17442,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -15232,7 +17457,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -15350,7 +17576,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2731.0,
         "net_debt": 2297.9,
         "net_leverage": 3.37,
-        "interest_coverage": 4.55
+        "interest_coverage": 4.55,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -15365,7 +17598,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2956.0,
         "net_debt": 2404.8,
         "net_leverage": 2.86,
-        "interest_coverage": 4.48
+        "interest_coverage": 4.48,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -15380,7 +17620,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3148.7,
         "net_debt": 2479.3,
         "net_leverage": 2.62,
-        "interest_coverage": 4.2
+        "interest_coverage": 4.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -15395,7 +17642,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3213.0,
         "net_debt": 2425.5,
         "net_leverage": 2.31,
-        "interest_coverage": 4.2
+        "interest_coverage": 4.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -15410,7 +17664,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3148.7,
         "net_debt": 2219.5,
         "net_leverage": 1.92,
-        "interest_coverage": 4.81
+        "interest_coverage": 4.81,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -15425,7 +17686,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3052.3,
         "net_debt": 1989.2,
         "net_leverage": 1.61,
-        "interest_coverage": 5.39
+        "interest_coverage": 5.39,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -15440,7 +17708,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2891.7,
         "net_debt": 1710.5,
         "net_leverage": 1.31,
-        "interest_coverage": 5.92
+        "interest_coverage": 5.92,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -15544,7 +17819,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 610,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "KOS Secondary Eurobond / Sukuk Tranche 2",
@@ -15558,7 +17834,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 545,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -15572,7 +17849,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -15586,7 +17864,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -15704,7 +17983,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 474.9,
         "net_debt": 398.6,
         "net_leverage": 3.32,
-        "interest_coverage": 5.2
+        "interest_coverage": 5.2,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -15719,7 +18005,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 514.0,
         "net_debt": 416.9,
         "net_leverage": 2.82,
-        "interest_coverage": 5.12
+        "interest_coverage": 5.12,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -15734,7 +18027,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 547.5,
         "net_debt": 429.6,
         "net_leverage": 2.58,
-        "interest_coverage": 4.8
+        "interest_coverage": 4.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -15749,7 +18049,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 558.7,
         "net_debt": 419.9,
         "net_leverage": 2.27,
-        "interest_coverage": 4.8
+        "interest_coverage": 4.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -15764,7 +18071,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 547.5,
         "net_debt": 383.8,
         "net_leverage": 1.89,
-        "interest_coverage": 5.5
+        "interest_coverage": 5.5,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -15779,7 +18093,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 530.8,
         "net_debt": 343.5,
         "net_leverage": 1.57,
-        "interest_coverage": 6.16
+        "interest_coverage": 6.16,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -15794,7 +18115,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 502.8,
         "net_debt": 294.7,
         "net_leverage": 1.28,
-        "interest_coverage": 6.76
+        "interest_coverage": 6.76,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -15896,7 +18224,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 385,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "LMKCEM Secondary Eurobond / Sukuk Tranche 2",
@@ -15910,7 +18239,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 320,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -15924,7 +18254,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -15938,7 +18269,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -16056,7 +18388,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 253.9,
         "net_debt": 221.7,
         "net_leverage": 4.37,
-        "interest_coverage": 4.55
+        "interest_coverage": 4.55,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -16071,7 +18410,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 274.8,
         "net_debt": 233.9,
         "net_leverage": 3.75,
-        "interest_coverage": 4.48
+        "interest_coverage": 4.48,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -16086,7 +18432,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 292.8,
         "net_debt": 243.1,
         "net_leverage": 3.46,
-        "interest_coverage": 4.2
+        "interest_coverage": 4.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -16101,7 +18454,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 298.7,
         "net_debt": 240.2,
         "net_leverage": 3.08,
-        "interest_coverage": 4.2
+        "interest_coverage": 4.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -16116,7 +18476,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 292.8,
         "net_debt": 223.8,
         "net_leverage": 2.61,
-        "interest_coverage": 4.81
+        "interest_coverage": 4.81,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -16131,7 +18498,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 283.8,
         "net_debt": 204.8,
         "net_leverage": 2.23,
-        "interest_coverage": 5.38
+        "interest_coverage": 5.38,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -16146,7 +18520,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 268.9,
         "net_debt": 181.1,
         "net_leverage": 1.87,
-        "interest_coverage": 5.92
+        "interest_coverage": 5.92,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -16248,7 +18629,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 345,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "LMKPRT Secondary Eurobond / Sukuk Tranche 2",
@@ -16262,7 +18644,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 280,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -16276,7 +18659,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -16290,7 +18674,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -16408,7 +18793,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1110.3,
         "net_debt": 996.9,
         "net_leverage": 5.58,
-        "interest_coverage": 3.47
+        "interest_coverage": 3.47,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -16423,7 +18815,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1201.8,
         "net_debt": 1057.4,
         "net_leverage": 4.81,
-        "interest_coverage": 3.41
+        "interest_coverage": 3.41,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -16438,7 +18837,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1280.1,
         "net_debt": 1104.8,
         "net_leverage": 4.46,
-        "interest_coverage": 3.2
+        "interest_coverage": 3.2,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -16453,7 +18859,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1306.2,
         "net_debt": 1100.0,
         "net_leverage": 4.0,
-        "interest_coverage": 3.2
+        "interest_coverage": 3.2,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -16468,7 +18881,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1280.1,
         "net_debt": 1036.7,
         "net_leverage": 3.43,
-        "interest_coverage": 3.67
+        "interest_coverage": 3.67,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -16483,7 +18903,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1240.9,
         "net_debt": 962.5,
         "net_leverage": 2.97,
-        "interest_coverage": 4.1
+        "interest_coverage": 4.1,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -16498,7 +18925,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1175.6,
         "net_debt": 866.2,
         "net_leverage": 2.54,
-        "interest_coverage": 4.51
+        "interest_coverage": 4.51,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -16601,7 +19035,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 435,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "LMKREN Secondary Eurobond / Sukuk Tranche 2",
@@ -16615,7 +19050,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 370,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -16629,7 +19065,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -16643,7 +19080,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -16761,7 +19199,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1047.8,
         "net_debt": 961.2,
         "net_leverage": 7.04,
-        "interest_coverage": 1.98
+        "interest_coverage": 1.98,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -16776,7 +19221,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1134.1,
         "net_debt": 1023.9,
         "net_leverage": 6.09,
-        "interest_coverage": 1.95
+        "interest_coverage": 1.95,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -16791,7 +19243,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1208.0,
         "net_debt": 1074.1,
         "net_leverage": 5.68,
-        "interest_coverage": 1.83
+        "interest_coverage": 1.83,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -16806,7 +19265,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1232.7,
         "net_debt": 1075.2,
         "net_leverage": 5.12,
-        "interest_coverage": 1.83
+        "interest_coverage": 1.83,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -16821,7 +19287,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1208.0,
         "net_debt": 1022.2,
         "net_leverage": 4.43,
-        "interest_coverage": 2.1
+        "interest_coverage": 2.1,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -16836,7 +19309,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1171.1,
         "net_debt": 958.5,
         "net_leverage": 3.87,
-        "interest_coverage": 2.35
+        "interest_coverage": 2.35,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -16851,7 +19331,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1109.4,
         "net_debt": 873.2,
         "net_leverage": 3.35,
-        "interest_coverage": 2.58
+        "interest_coverage": 2.58,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -16954,7 +19441,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 990,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "LIQTEL Secondary Eurobond / Sukuk Tranche 2",
@@ -16968,7 +19456,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 925,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -16982,7 +19471,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -16996,7 +19486,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -17114,7 +19605,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4437.0,
         "net_debt": 3838.9,
         "net_leverage": 4.07,
-        "interest_coverage": 4.88
+        "interest_coverage": 4.88,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -17129,7 +19627,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4802.4,
         "net_debt": 4041.2,
         "net_leverage": 3.48,
-        "interest_coverage": 4.8
+        "interest_coverage": 4.8,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -17144,7 +19649,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5115.6,
         "net_debt": 4191.2,
         "net_leverage": 3.21,
-        "interest_coverage": 4.5
+        "interest_coverage": 4.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -17159,7 +19671,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5220.0,
         "net_debt": 4132.5,
         "net_leverage": 2.85,
-        "interest_coverage": 4.5
+        "interest_coverage": 4.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -17174,7 +19693,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5115.6,
         "net_debt": 3832.4,
         "net_leverage": 2.4,
-        "interest_coverage": 5.16
+        "interest_coverage": 5.16,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -17189,7 +19715,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4959.0,
         "net_debt": 3490.9,
         "net_leverage": 2.04,
-        "interest_coverage": 5.77
+        "interest_coverage": 5.77,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -17204,7 +19737,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4698.0,
         "net_debt": 3066.8,
         "net_leverage": 1.71,
-        "interest_coverage": 6.34
+        "interest_coverage": 6.34,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -17302,7 +19842,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 160,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "MAF Secondary Eurobond / Sukuk Tranche 2",
@@ -17316,7 +19857,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 95,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -17330,7 +19872,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -17344,7 +19887,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -17462,7 +20006,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1986.3,
         "net_debt": 1606.8,
         "net_leverage": 2.69,
-        "interest_coverage": 4.15
+        "interest_coverage": 4.15,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -17477,7 +20028,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2149.9,
         "net_debt": 1666.9,
         "net_leverage": 2.26,
-        "interest_coverage": 4.09
+        "interest_coverage": 4.09,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -17492,7 +20050,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2290.1,
         "net_debt": 1703.6,
         "net_leverage": 2.06,
-        "interest_coverage": 3.83
+        "interest_coverage": 3.83,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -17507,7 +20072,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2336.8,
         "net_debt": 1646.8,
         "net_leverage": 1.79,
-        "interest_coverage": 3.83
+        "interest_coverage": 3.83,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -17522,7 +20094,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2290.1,
         "net_debt": 1475.9,
         "net_leverage": 1.46,
-        "interest_coverage": 4.39
+        "interest_coverage": 4.39,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -17537,7 +20116,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2220.0,
         "net_debt": 1288.5,
         "net_leverage": 1.19,
-        "interest_coverage": 4.91
+        "interest_coverage": 4.91,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -17552,7 +20138,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2103.1,
         "net_debt": 1068.1,
         "net_leverage": 0.94,
-        "interest_coverage": 5.4
+        "interest_coverage": 5.4,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -17654,7 +20247,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 1125,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "METINV Secondary Eurobond / Sukuk Tranche 2",
@@ -17668,7 +20262,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 1060,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -17682,7 +20277,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -17696,7 +20292,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -17814,7 +20411,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1423.2,
         "net_debt": 1233.4,
         "net_leverage": 4.13,
-        "interest_coverage": 3.83
+        "interest_coverage": 3.83,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -17829,7 +20433,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1540.4,
         "net_debt": 1298.9,
         "net_leverage": 3.53,
-        "interest_coverage": 3.78
+        "interest_coverage": 3.78,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -17844,7 +20455,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1640.9,
         "net_debt": 1347.7,
         "net_leverage": 3.26,
-        "interest_coverage": 3.54
+        "interest_coverage": 3.54,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -17859,7 +20477,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1674.4,
         "net_debt": 1329.4,
         "net_leverage": 2.89,
-        "interest_coverage": 3.54
+        "interest_coverage": 3.54,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -17874,7 +20499,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1640.9,
         "net_debt": 1233.8,
         "net_leverage": 2.44,
-        "interest_coverage": 4.06
+        "interest_coverage": 4.06,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -17889,7 +20521,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1590.7,
         "net_debt": 1124.9,
         "net_leverage": 2.07,
-        "interest_coverage": 4.54
+        "interest_coverage": 4.54,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -17904,7 +20543,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1507.0,
         "net_debt": 989.5,
         "net_leverage": 1.73,
-        "interest_coverage": 4.99
+        "interest_coverage": 4.99,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -18002,7 +20648,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 875,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "MHPSA Secondary Eurobond / Sukuk Tranche 2",
@@ -18016,7 +20663,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 810,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -18030,7 +20678,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -18044,7 +20693,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -18162,7 +20812,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4874.8,
         "net_debt": 3596.0,
         "net_leverage": 1.78,
-        "interest_coverage": 8.88
+        "interest_coverage": 8.88,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -18177,7 +20834,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5276.2,
         "net_debt": 3648.7,
         "net_leverage": 1.47,
-        "interest_coverage": 8.75
+        "interest_coverage": 8.75,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -18192,7 +20856,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5620.3,
         "net_debt": 3644.1,
         "net_leverage": 1.31,
-        "interest_coverage": 8.2
+        "interest_coverage": 8.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -18207,7 +20878,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5735.0,
         "net_debt": 3410.0,
         "net_leverage": 1.1,
-        "interest_coverage": 8.2
+        "interest_coverage": 8.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -18222,7 +20900,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5620.3,
         "net_debt": 2876.8,
         "net_leverage": 0.84,
-        "interest_coverage": 9.4
+        "interest_coverage": 9.4,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -18237,7 +20922,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5448.2,
         "net_debt": 2309.4,
         "net_leverage": 0.63,
-        "interest_coverage": 10.52
+        "interest_coverage": 10.52,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -18252,7 +20944,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5161.5,
         "net_debt": 1674.0,
         "net_leverage": 0.44,
-        "interest_coverage": 11.55
+        "interest_coverage": 11.55,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -18356,7 +21055,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 145,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "MOL Secondary Eurobond / Sukuk Tranche 2",
@@ -18370,7 +21070,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 80,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -18384,7 +21085,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -18398,7 +21100,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -18516,7 +21219,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9180.0,
         "net_debt": 7323.7,
         "net_leverage": 2.5,
-        "interest_coverage": 5.85
+        "interest_coverage": 5.85,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -18531,7 +21241,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9936.0,
         "net_debt": 7573.5,
         "net_leverage": 2.1,
-        "interest_coverage": 5.76
+        "interest_coverage": 5.76,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -18546,7 +21263,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10584.0,
         "net_debt": 7715.2,
         "net_leverage": 1.9,
-        "interest_coverage": 5.4
+        "interest_coverage": 5.4,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -18561,7 +21285,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10800.0,
         "net_debt": 7425.0,
         "net_leverage": 1.65,
-        "interest_coverage": 5.4
+        "interest_coverage": 5.4,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -18576,7 +21307,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10584.0,
         "net_debt": 6601.5,
         "net_leverage": 1.33,
-        "interest_coverage": 6.19
+        "interest_coverage": 6.19,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -18591,7 +21329,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10260.0,
         "net_debt": 5703.8,
         "net_leverage": 1.07,
-        "interest_coverage": 6.93
+        "interest_coverage": 6.93,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -18606,7 +21351,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9720.0,
         "net_debt": 4657.5,
         "net_leverage": 0.83,
-        "interest_coverage": 7.61
+        "interest_coverage": 7.61,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -18709,7 +21461,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 285,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "MTNSJ Secondary Eurobond / Sukuk Tranche 2",
@@ -18723,7 +21476,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 220,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -18737,7 +21491,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -18751,7 +21506,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -18869,7 +21625,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8404.8,
         "net_debt": 7084.8,
         "net_leverage": 3.41,
-        "interest_coverage": 7.7
+        "interest_coverage": 7.7,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -18884,7 +21647,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9097.0,
         "net_debt": 7417.0,
         "net_leverage": 2.9,
-        "interest_coverage": 7.58
+        "interest_coverage": 7.58,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -18899,7 +21669,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9690.2,
         "net_debt": 7650.2,
         "net_leverage": 2.66,
-        "interest_coverage": 7.11
+        "interest_coverage": 7.11,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -18914,7 +21691,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9888.0,
         "net_debt": 7488.0,
         "net_leverage": 2.34,
-        "interest_coverage": 7.11
+        "interest_coverage": 7.11,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -18929,7 +21713,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9690.2,
         "net_debt": 6858.2,
         "net_leverage": 1.95,
-        "interest_coverage": 8.15
+        "interest_coverage": 8.15,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -18944,7 +21735,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9393.6,
         "net_debt": 6153.6,
         "net_leverage": 1.63,
-        "interest_coverage": 9.12
+        "interest_coverage": 9.12,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -18959,7 +21757,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8899.2,
         "net_debt": 5299.2,
         "net_leverage": 1.34,
-        "interest_coverage": 10.02
+        "interest_coverage": 10.02,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -19061,7 +21866,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 155,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "OCP Secondary Eurobond / Sukuk Tranche 2",
@@ -19075,7 +21881,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 90,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -19089,7 +21896,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -19103,7 +21911,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -19221,7 +22030,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4403.0,
         "net_debt": 3248.0,
         "net_leverage": 1.78,
-        "interest_coverage": 9.97
+        "interest_coverage": 9.97,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -19236,7 +22052,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4765.6,
         "net_debt": 3295.6,
         "net_leverage": 1.47,
-        "interest_coverage": 9.81
+        "interest_coverage": 9.81,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -19251,7 +22074,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5076.4,
         "net_debt": 3291.4,
         "net_leverage": 1.31,
-        "interest_coverage": 9.2
+        "interest_coverage": 9.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -19266,7 +22096,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5180.0,
         "net_debt": 3080.0,
         "net_leverage": 1.1,
-        "interest_coverage": 9.2
+        "interest_coverage": 9.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -19281,7 +22118,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 5076.4,
         "net_debt": 2598.4,
         "net_leverage": 0.84,
-        "interest_coverage": 10.54
+        "interest_coverage": 10.54,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -19296,7 +22140,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4921.0,
         "net_debt": 2086.0,
         "net_leverage": 0.63,
-        "interest_coverage": 11.8
+        "interest_coverage": 11.8,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -19311,7 +22162,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 4662.0,
         "net_debt": 1512.0,
         "net_leverage": 0.44,
-        "interest_coverage": 12.96
+        "interest_coverage": 12.96,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -19414,7 +22272,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 95,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ORDS Secondary Eurobond / Sukuk Tranche 2",
@@ -19428,7 +22287,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -19442,7 +22302,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -19456,7 +22317,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -19574,7 +22436,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9970.5,
         "net_debt": 8073.0,
         "net_leverage": 2.7,
-        "interest_coverage": 6.28
+        "interest_coverage": 6.28,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -19589,7 +22458,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10791.6,
         "net_debt": 8376.6,
         "net_leverage": 2.28,
-        "interest_coverage": 6.19
+        "interest_coverage": 6.19,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -19604,7 +22480,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 11495.4,
         "net_debt": 8562.9,
         "net_leverage": 2.07,
-        "interest_coverage": 5.8
+        "interest_coverage": 5.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -19619,7 +22502,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 11730.0,
         "net_debt": 8280.0,
         "net_leverage": 1.8,
-        "interest_coverage": 5.8
+        "interest_coverage": 5.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -19634,7 +22524,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 11495.4,
         "net_debt": 7424.4,
         "net_leverage": 1.47,
-        "interest_coverage": 6.65
+        "interest_coverage": 6.65,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -19649,7 +22546,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 11143.5,
         "net_debt": 6486.0,
         "net_leverage": 1.19,
-        "interest_coverage": 7.44
+        "interest_coverage": 7.44,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -19664,7 +22568,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10557.0,
         "net_debt": 5382.0,
         "net_leverage": 0.94,
-        "interest_coverage": 8.17
+        "interest_coverage": 8.17,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -19768,7 +22679,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "OQ Secondary Eurobond / Sukuk Tranche 2",
@@ -19782,7 +22694,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 120,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -19796,7 +22709,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -19810,7 +22724,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -19928,7 +22843,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 12282.5,
         "net_debt": 8776.2,
         "net_leverage": 1.59,
-        "interest_coverage": 10.29
+        "interest_coverage": 10.29,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -19943,7 +22865,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 13294.0,
         "net_debt": 8831.5,
         "net_leverage": 1.3,
-        "interest_coverage": 10.13
+        "interest_coverage": 10.13,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -19958,7 +22887,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 14161.0,
         "net_debt": 8742.2,
         "net_leverage": 1.14,
-        "interest_coverage": 9.5
+        "interest_coverage": 9.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -19973,7 +22909,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 14450.0,
         "net_debt": 8075.0,
         "net_leverage": 0.95,
-        "interest_coverage": 9.5
+        "interest_coverage": 9.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -19988,7 +22931,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 14161.0,
         "net_debt": 6638.5,
         "net_leverage": 0.71,
-        "interest_coverage": 10.89
+        "interest_coverage": 10.89,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -20003,7 +22953,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 13727.5,
         "net_debt": 5121.3,
         "net_leverage": 0.51,
-        "interest_coverage": 12.18
+        "interest_coverage": 12.18,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -20018,7 +22975,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 13005.0,
         "net_debt": 3442.5,
         "net_leverage": 0.33,
-        "interest_coverage": 13.39
+        "interest_coverage": 13.39,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -20122,7 +23086,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 100,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "PKN Secondary Eurobond / Sukuk Tranche 2",
@@ -20136,7 +23101,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -20150,7 +23116,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -20164,7 +23131,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -20282,7 +23250,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2301.4,
         "net_debt": 1909.5,
         "net_leverage": 3.09,
-        "interest_coverage": 4.55
+        "interest_coverage": 4.55,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -20297,7 +23272,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2490.9,
         "net_debt": 1992.2,
         "net_leverage": 2.62,
-        "interest_coverage": 4.48
+        "interest_coverage": 4.48,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -20312,7 +23294,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2653.3,
         "net_debt": 2047.7,
         "net_leverage": 2.39,
-        "interest_coverage": 4.2
+        "interest_coverage": 4.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -20327,7 +23316,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2707.5,
         "net_debt": 1995.0,
         "net_leverage": 2.1,
-        "interest_coverage": 4.2
+        "interest_coverage": 4.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -20342,7 +23338,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2653.3,
         "net_debt": 1812.5,
         "net_leverage": 1.73,
-        "interest_coverage": 4.81
+        "interest_coverage": 4.81,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -20357,7 +23360,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2572.1,
         "net_debt": 1610.2,
         "net_leverage": 1.44,
-        "interest_coverage": 5.39
+        "interest_coverage": 5.39,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -20372,7 +23382,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2436.8,
         "net_debt": 1368.0,
         "net_leverage": 1.16,
-        "interest_coverage": 5.92
+        "interest_coverage": 5.92,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -20471,7 +23488,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 360,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "PGSUS Secondary Eurobond / Sukuk Tranche 2",
@@ -20485,7 +23503,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 295,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -20499,7 +23518,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -20513,7 +23533,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -20631,7 +23652,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 6188.0,
         "net_debt": 5033.0,
         "net_leverage": 2.77,
-        "interest_coverage": 6.72
+        "interest_coverage": 6.72,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -20646,7 +23674,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 6697.6,
         "net_debt": 5227.6,
         "net_leverage": 2.33,
-        "interest_coverage": 6.61
+        "interest_coverage": 6.61,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -20661,7 +23696,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7134.4,
         "net_debt": 5349.4,
         "net_leverage": 2.12,
-        "interest_coverage": 6.2
+        "interest_coverage": 6.2,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -20676,7 +23718,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7280.0,
         "net_debt": 5180.0,
         "net_leverage": 1.85,
-        "interest_coverage": 6.2
+        "interest_coverage": 6.2,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -20691,7 +23740,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7134.4,
         "net_debt": 4656.4,
         "net_leverage": 1.51,
-        "interest_coverage": 7.1
+        "interest_coverage": 7.1,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -20706,7 +23762,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 6916.0,
         "net_debt": 4081.0,
         "net_leverage": 1.24,
-        "interest_coverage": 7.95
+        "interest_coverage": 7.95,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -20721,7 +23784,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 6552.0,
         "net_debt": 3402.0,
         "net_leverage": 0.98,
-        "interest_coverage": 8.74
+        "interest_coverage": 8.74,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -20824,7 +23894,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 125,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "PGE Secondary Eurobond / Sukuk Tranche 2",
@@ -20838,7 +23909,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -20852,7 +23924,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -20866,7 +23939,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -20984,7 +24058,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1408.9,
         "net_debt": 1058.3,
         "net_leverage": 1.92,
-        "interest_coverage": 7.8
+        "interest_coverage": 7.8,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -20999,7 +24080,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1524.9,
         "net_debt": 1078.7,
         "net_leverage": 1.59,
-        "interest_coverage": 7.68
+        "interest_coverage": 7.68,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -21014,7 +24102,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1624.3,
         "net_debt": 1082.4,
         "net_leverage": 1.41,
-        "interest_coverage": 7.2
+        "interest_coverage": 7.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -21029,7 +24124,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1657.5,
         "net_debt": 1020.0,
         "net_leverage": 1.2,
-        "interest_coverage": 7.2
+        "interest_coverage": 7.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -21044,7 +24146,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1624.3,
         "net_debt": 872.1,
         "net_leverage": 0.93,
-        "interest_coverage": 8.25
+        "interest_coverage": 8.25,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -21059,7 +24168,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1574.6,
         "net_debt": 714.0,
         "net_leverage": 0.71,
-        "interest_coverage": 9.23
+        "interest_coverage": 9.23,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -21074,7 +24190,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1491.8,
         "net_debt": 535.6,
         "net_leverage": 0.51,
-        "interest_coverage": 10.15
+        "interest_coverage": 10.15,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -21176,7 +24299,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 190,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "QAZGAS Secondary Eurobond / Sukuk Tranche 2",
@@ -21190,7 +24314,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 125,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -21204,7 +24329,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -21218,7 +24344,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -21342,7 +24469,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 6.5,
         "ldr_pct": 90.7,
         "npl_pct": 2.9,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -21363,7 +24497,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.1,
         "ldr_pct": 92.5,
         "npl_pct": 2.9,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -21384,7 +24525,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.4,
         "ldr_pct": 93.9,
         "npl_pct": 2.9,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -21405,7 +24553,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.0,
         "ldr_pct": 95.9,
         "npl_pct": 2.9,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -21426,7 +24581,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.2,
         "ldr_pct": 96.8,
         "npl_pct": 2.9,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -21447,7 +24609,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.2,
         "ldr_pct": 97.6,
         "npl_pct": 2.9,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -21468,7 +24637,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.9,
         "ldr_pct": 98.3,
         "npl_pct": 2.9,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -21572,7 +24748,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 95,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "QNBK Tier 2 Subordinated Notes",
@@ -21586,7 +24763,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 245,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "QNBK Additional Tier 1 (AT1) Perpetual",
@@ -21600,7 +24778,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 320,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -21614,7 +24793,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -21737,7 +24917,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 11.9,
         "ldr_pct": 85.4,
         "npl_pct": 0.9,
-        "car_pct": 20.5
+        "car_pct": 20.5,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -21758,7 +24945,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 14.6,
         "ldr_pct": 87.1,
         "npl_pct": 0.9,
-        "car_pct": 20.5
+        "car_pct": 20.5,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -21779,7 +24973,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.7,
         "ldr_pct": 88.4,
         "npl_pct": 0.9,
-        "car_pct": 20.5
+        "car_pct": 20.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -21800,7 +25001,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.1,
         "ldr_pct": 90.3,
         "npl_pct": 0.9,
-        "car_pct": 20.5
+        "car_pct": 20.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -21821,7 +25029,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.9,
         "ldr_pct": 91.1,
         "npl_pct": 0.9,
-        "car_pct": 20.5
+        "car_pct": 20.5,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -21842,7 +25057,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.6,
         "ldr_pct": 91.9,
         "npl_pct": 0.9,
-        "car_pct": 20.5
+        "car_pct": 20.5,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -21863,7 +25085,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.1,
         "ldr_pct": 92.5,
         "npl_pct": 0.9,
-        "car_pct": 20.5
+        "car_pct": 20.5,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -21967,7 +25196,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 55,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "RJHI Tier 2 Subordinated Notes",
@@ -21981,7 +25211,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 205,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "RJHI Additional Tier 1 (AT1) Perpetual",
@@ -21995,7 +25226,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 280,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -22009,7 +25241,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -22132,7 +25365,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.0,
         "ldr_pct": 86.5,
         "npl_pct": 1.6,
-        "car_pct": 18.0
+        "car_pct": 18.0,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -22153,7 +25393,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.4,
         "ldr_pct": 88.2,
         "npl_pct": 1.6,
-        "car_pct": 18.0
+        "car_pct": 18.0,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -22174,7 +25421,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.7,
         "ldr_pct": 89.5,
         "npl_pct": 1.6,
-        "car_pct": 18.0
+        "car_pct": 18.0,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -22195,7 +25449,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.2,
         "ldr_pct": 91.5,
         "npl_pct": 1.6,
-        "car_pct": 18.0
+        "car_pct": 18.0,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -22216,7 +25477,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.3,
         "ldr_pct": 92.3,
         "npl_pct": 1.6,
-        "car_pct": 18.0
+        "car_pct": 18.0,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -22237,7 +25505,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.2,
         "ldr_pct": 93.1,
         "npl_pct": 1.6,
-        "car_pct": 18.0
+        "car_pct": 18.0,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -22258,7 +25533,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.8,
         "ldr_pct": 93.8,
         "npl_pct": 1.6,
-        "car_pct": 18.0
+        "car_pct": 18.0,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -22362,7 +25644,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 95,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "RIBL Tier 2 Subordinated Notes",
@@ -22376,7 +25659,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 245,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "RIBL Additional Tier 1 (AT1) Perpetual",
@@ -22390,7 +25674,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 320,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -22404,7 +25689,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -22521,7 +25807,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1166.2,
         "net_debt": 761.9,
         "net_leverage": 1.2,
-        "interest_coverage": 13.0
+        "interest_coverage": 13.0,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -22536,7 +25829,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1262.2,
         "net_debt": 747.7,
         "net_leverage": 0.95,
-        "interest_coverage": 12.8
+        "interest_coverage": 12.8,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -22551,7 +25851,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1344.6,
         "net_debt": 719.8,
         "net_leverage": 0.82,
-        "interest_coverage": 12.0
+        "interest_coverage": 12.0,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -22566,7 +25873,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1372.0,
         "net_debt": 637.0,
         "net_leverage": 0.65,
-        "interest_coverage": 12.0
+        "interest_coverage": 12.0,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -22581,7 +25895,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1344.6,
         "net_debt": 477.3,
         "net_leverage": 0.44,
-        "interest_coverage": 13.75
+        "interest_coverage": 13.75,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -22596,7 +25917,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1303.4,
         "net_debt": 311.1,
         "net_leverage": 0.27,
-        "interest_coverage": 15.39
+        "interest_coverage": 15.39,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -22611,7 +25939,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1234.8,
         "net_debt": 132.3,
         "net_leverage": 0.11,
-        "interest_coverage": 16.91
+        "interest_coverage": 16.91,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -22715,7 +26050,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 170,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "ROMGAZ Secondary Eurobond / Sukuk Tranche 2",
@@ -22729,7 +26065,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 105,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -22743,7 +26080,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -22757,7 +26095,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -22875,7 +26214,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9367.0,
         "net_debt": 6974.5,
         "net_leverage": 1.85,
-        "interest_coverage": 8.45
+        "interest_coverage": 8.45,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -22890,7 +26236,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10138.4,
         "net_debt": 7093.4,
         "net_leverage": 1.53,
-        "interest_coverage": 8.32
+        "interest_coverage": 8.32,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -22905,7 +26258,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10799.6,
         "net_debt": 7102.1,
         "net_leverage": 1.36,
-        "interest_coverage": 7.8
+        "interest_coverage": 7.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -22920,7 +26280,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 11020.0,
         "net_debt": 6670.0,
         "net_leverage": 1.15,
-        "interest_coverage": 7.8
+        "interest_coverage": 7.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -22935,7 +26302,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10799.6,
         "net_debt": 5666.6,
         "net_leverage": 0.89,
-        "interest_coverage": 8.94
+        "interest_coverage": 8.94,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -22950,7 +26324,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10469.0,
         "net_debt": 4596.5,
         "net_leverage": 0.67,
-        "interest_coverage": 10.0
+        "interest_coverage": 10.0,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -22965,7 +26346,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9918.0,
         "net_debt": 3393.0,
         "net_leverage": 0.47,
-        "interest_coverage": 10.99
+        "interest_coverage": 10.99,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -23067,7 +26455,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 100,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "SABIC Secondary Eurobond / Sukuk Tranche 2",
@@ -23081,7 +26470,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -23095,7 +26485,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -23109,7 +26500,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -23227,7 +26619,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 151.8,
         "net_debt": 119.6,
         "net_leverage": 2.36,
-        "interest_coverage": 4.69
+        "interest_coverage": 4.69,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -23242,7 +26641,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 164.3,
         "net_debt": 123.4,
         "net_leverage": 1.98,
-        "interest_coverage": 4.62
+        "interest_coverage": 4.62,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -23257,7 +26663,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 175.0,
         "net_debt": 125.3,
         "net_leverage": 1.78,
-        "interest_coverage": 4.33
+        "interest_coverage": 4.33,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -23272,7 +26685,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 178.6,
         "net_debt": 120.1,
         "net_leverage": 1.54,
-        "interest_coverage": 4.33
+        "interest_coverage": 4.33,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -23287,7 +26707,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 175.0,
         "net_debt": 106.0,
         "net_leverage": 1.24,
-        "interest_coverage": 4.96
+        "interest_coverage": 4.96,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -23302,7 +26729,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 169.7,
         "net_debt": 90.7,
         "net_leverage": 0.99,
-        "interest_coverage": 5.55
+        "interest_coverage": 5.55,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -23317,7 +26751,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 160.8,
         "net_debt": 73.0,
         "net_leverage": 0.75,
-        "interest_coverage": 6.1
+        "interest_coverage": 6.1,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -23415,7 +26856,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 600,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "SAMPA Secondary Eurobond / Sukuk Tranche 2",
@@ -23429,7 +26871,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 535,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -23443,7 +26886,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -23457,7 +26901,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -23575,7 +27020,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 6758.8,
         "net_debt": 5583.2,
         "net_leverage": 3.01,
-        "interest_coverage": 5.61
+        "interest_coverage": 5.61,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -23590,7 +27042,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7315.4,
         "net_debt": 5819.2,
         "net_leverage": 2.55,
-        "interest_coverage": 5.53
+        "interest_coverage": 5.53,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -23605,7 +27064,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7792.5,
         "net_debt": 5975.6,
         "net_leverage": 2.33,
-        "interest_coverage": 5.18
+        "interest_coverage": 5.18,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -23620,7 +27086,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7951.5,
         "net_debt": 5814.0,
         "net_leverage": 2.04,
-        "interest_coverage": 5.18
+        "interest_coverage": 5.18,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -23635,7 +27108,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7792.5,
         "net_debt": 5270.3,
         "net_leverage": 1.68,
-        "interest_coverage": 5.94
+        "interest_coverage": 5.94,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -23650,7 +27130,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7553.9,
         "net_debt": 4668.3,
         "net_leverage": 1.39,
-        "interest_coverage": 6.64
+        "interest_coverage": 6.64,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -23665,7 +27152,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 7156.4,
         "net_debt": 3950.2,
         "net_leverage": 1.12,
-        "interest_coverage": 7.3
+        "interest_coverage": 7.3,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -23769,7 +27263,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 365,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "SOLSJ Secondary Eurobond / Sukuk Tranche 2",
@@ -23783,7 +27278,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 300,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -23797,7 +27293,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -23811,7 +27308,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -23929,7 +27427,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 28203.0,
         "net_debt": 24738.0,
         "net_leverage": 4.53,
-        "interest_coverage": 4.55
+        "interest_coverage": 4.55,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -23944,7 +27449,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 30525.6,
         "net_debt": 26115.6,
         "net_leverage": 3.89,
-        "interest_coverage": 4.48
+        "interest_coverage": 4.48,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -23959,7 +27471,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 32516.4,
         "net_debt": 27161.4,
         "net_leverage": 3.59,
-        "interest_coverage": 4.2
+        "interest_coverage": 4.2,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -23974,7 +27493,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 33180.0,
         "net_debt": 26880.0,
         "net_leverage": 3.2,
-        "interest_coverage": 4.2
+        "interest_coverage": 4.2,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -23989,7 +27515,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 32516.4,
         "net_debt": 25082.4,
         "net_leverage": 2.71,
-        "interest_coverage": 4.81
+        "interest_coverage": 4.81,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -24004,7 +27537,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 31521.0,
         "net_debt": 23016.0,
         "net_leverage": 2.32,
-        "interest_coverage": 5.39
+        "interest_coverage": 5.39,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -24019,7 +27559,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 29862.0,
         "net_debt": 20412.0,
         "net_leverage": 1.96,
-        "interest_coverage": 5.92
+        "interest_coverage": 5.92,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -24122,7 +27669,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 110,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "SECO Secondary Eurobond / Sukuk Tranche 2",
@@ -24136,7 +27684,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -24150,7 +27699,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -24164,7 +27714,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -24282,7 +27833,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2739.5,
         "net_debt": 2285.7,
         "net_leverage": 3.2,
-        "interest_coverage": 5.85
+        "interest_coverage": 5.85,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -24297,7 +27855,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2965.2,
         "net_debt": 2387.7,
         "net_leverage": 2.71,
-        "interest_coverage": 5.76
+        "interest_coverage": 5.76,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -24312,7 +27877,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3158.5,
         "net_debt": 2457.3,
         "net_leverage": 2.48,
-        "interest_coverage": 5.4
+        "interest_coverage": 5.4,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -24327,7 +27899,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3223.0,
         "net_debt": 2398.0,
         "net_leverage": 2.18,
-        "interest_coverage": 5.4
+        "interest_coverage": 5.4,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -24342,7 +27921,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3158.5,
         "net_debt": 2185.0,
         "net_leverage": 1.81,
-        "interest_coverage": 6.19
+        "interest_coverage": 6.19,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -24357,7 +27943,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3061.8,
         "net_debt": 1948.0,
         "net_leverage": 1.5,
-        "interest_coverage": 6.93
+        "interest_coverage": 6.93,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -24372,7 +27965,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2900.7,
         "net_debt": 1663.2,
         "net_leverage": 1.22,
-        "interest_coverage": 7.61
+        "interest_coverage": 7.61,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -24474,7 +28074,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 245,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "SISE Secondary Eurobond / Sukuk Tranche 2",
@@ -24488,7 +28089,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 180,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -24502,7 +28104,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -24516,7 +28119,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -24640,7 +28244,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.2,
         "ldr_pct": 83.0,
         "npl_pct": 1.4,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -24661,7 +28272,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.2,
         "ldr_pct": 84.7,
         "npl_pct": 1.4,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -24682,7 +28300,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.5,
         "ldr_pct": 85.9,
         "npl_pct": 1.4,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -24703,7 +28328,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.1,
         "ldr_pct": 87.8,
         "npl_pct": 1.4,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -24724,7 +28356,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.1,
         "ldr_pct": 88.6,
         "npl_pct": 1.4,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -24745,7 +28384,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 8.0,
         "ldr_pct": 89.3,
         "npl_pct": 1.4,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -24766,7 +28412,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.7,
         "ldr_pct": 90.0,
         "npl_pct": 1.4,
-        "car_pct": 19.8
+        "car_pct": 19.8,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -24870,7 +28523,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 75,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "SNB Tier 2 Subordinated Notes",
@@ -24884,7 +28538,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 225,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "SNB Additional Tier 1 (AT1) Perpetual",
@@ -24898,7 +28553,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 300,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -24912,7 +28568,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -25029,7 +28686,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 644.6,
         "net_debt": 446.6,
         "net_leverage": 1.43,
-        "interest_coverage": 6.34
+        "interest_coverage": 6.34,
+        "observations": {
+          "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
+          "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
+          "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
+          "fcf": "Modest working capital absorption as new project construction commences.",
+          "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
+        }
       },
       {
         "period": "2022A",
@@ -25044,7 +28708,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 697.7,
         "net_debt": 445.7,
         "net_leverage": 1.16,
-        "interest_coverage": 6.24
+        "interest_coverage": 6.24,
+        "observations": {
+          "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
+          "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
+          "capex": "Active construction site acceleration to meet aggressive handover targets.",
+          "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
+          "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
+        }
       },
       {
         "period": "2023A",
@@ -25059,7 +28730,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 743.2,
         "net_debt": 437.2,
         "net_leverage": 1.01,
-        "interest_coverage": 5.85
+        "interest_coverage": 5.85,
+        "observations": {
+          "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
+          "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
+          "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
+          "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
+          "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
+        }
       },
       {
         "period": "2024A",
@@ -25074,7 +28752,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 758.4,
         "net_debt": 398.4,
         "net_leverage": 0.83,
-        "interest_coverage": 5.85
+        "interest_coverage": 5.85,
+        "observations": {
+          "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
+          "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
+          "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
+          "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
+          "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
+        }
       },
       {
         "period": "2025E",
@@ -25089,7 +28774,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 743.2,
         "net_debt": 318.4,
         "net_leverage": 0.6,
-        "interest_coverage": 6.7
+        "interest_coverage": 6.7,
+        "observations": {
+          "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
+          "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
+          "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
+          "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
+          "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
+        }
       },
       {
         "period": "2026E",
@@ -25104,7 +28796,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 720.5,
         "net_debt": 234.5,
         "net_leverage": 0.41,
-        "interest_coverage": 7.5
+        "interest_coverage": 7.5,
+        "observations": {
+          "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
+          "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
+          "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
+          "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
+          "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
+        }
       },
       {
         "period": "2027E",
@@ -25119,7 +28818,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 682.6,
         "net_debt": 142.6,
         "net_leverage": 0.24,
-        "interest_coverage": 8.24
+        "interest_coverage": 8.24,
+        "observations": {
+          "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
+          "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
+          "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
+          "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
+          "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
+        }
       }
     ],
     "supplementary_data": {
@@ -25226,7 +28932,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 390,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "SOBHA Secondary Eurobond / Sukuk Tranche 2",
@@ -25240,7 +28947,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 325,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -25254,7 +28962,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -25268,7 +28977,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -25386,7 +29096,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8323.2,
         "net_debt": 6343.2,
         "net_leverage": 2.03,
-        "interest_coverage": 6.93
+        "interest_coverage": 6.93,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -25401,7 +29118,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9008.6,
         "net_debt": 6488.6,
         "net_leverage": 1.69,
-        "interest_coverage": 6.83
+        "interest_coverage": 6.83,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -25416,7 +29140,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9596.2,
         "net_debt": 6536.2,
         "net_leverage": 1.51,
-        "interest_coverage": 6.4
+        "interest_coverage": 6.4,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -25431,7 +29162,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9792.0,
         "net_debt": 6192.0,
         "net_leverage": 1.29,
-        "interest_coverage": 6.4
+        "interest_coverage": 6.4,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -25446,7 +29184,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9596.2,
         "net_debt": 5348.2,
         "net_leverage": 1.01,
-        "interest_coverage": 7.33
+        "interest_coverage": 7.33,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -25461,7 +29206,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9302.4,
         "net_debt": 4442.4,
         "net_leverage": 0.78,
-        "interest_coverage": 8.21
+        "interest_coverage": 8.21,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -25476,7 +29228,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8812.8,
         "net_debt": 3412.8,
         "net_leverage": 0.57,
-        "interest_coverage": 9.02
+        "interest_coverage": 9.02,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -25580,7 +29339,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 475,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "SONANG Secondary Eurobond / Sukuk Tranche 2",
@@ -25594,7 +29354,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 410,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -25608,7 +29369,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -25622,7 +29384,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -25746,7 +29509,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 7.8,
         "ldr_pct": 78.1,
         "npl_pct": 5.2,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -25767,7 +29537,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 11.1,
         "ldr_pct": 79.7,
         "npl_pct": 5.2,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -25788,7 +29565,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.2,
         "ldr_pct": 80.9,
         "npl_pct": 5.2,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -25809,7 +29593,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.8,
         "ldr_pct": 82.6,
         "npl_pct": 5.2,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -25830,7 +29621,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.1,
         "ldr_pct": 83.4,
         "npl_pct": 5.2,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -25851,7 +29649,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.1,
         "ldr_pct": 84.1,
         "npl_pct": 5.2,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -25872,7 +29677,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.8,
         "ldr_pct": 84.7,
         "npl_pct": 5.2,
-        "car_pct": 16.5
+        "car_pct": 16.5,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -25976,7 +29788,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 280,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "STANBI Tier 2 Subordinated Notes",
@@ -25990,7 +29803,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 430,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "STANBI Additional Tier 1 (AT1) Perpetual",
@@ -26004,7 +29818,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 505,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -26018,7 +29833,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -26135,7 +29951,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 8568.0,
         "net_debt": 5598.0,
         "net_leverage": 1.2,
-        "interest_coverage": 20.04
+        "interest_coverage": 20.04,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -26150,7 +29973,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9273.6,
         "net_debt": 5493.6,
         "net_leverage": 0.95,
-        "interest_coverage": 19.73
+        "interest_coverage": 19.73,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -26165,7 +29995,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9878.4,
         "net_debt": 5288.4,
         "net_leverage": 0.82,
-        "interest_coverage": 18.5
+        "interest_coverage": 18.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -26180,7 +30017,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10080.0,
         "net_debt": 4680.0,
         "net_leverage": 0.65,
-        "interest_coverage": 18.5
+        "interest_coverage": 18.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -26195,7 +30039,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9878.4,
         "net_debt": 3506.4,
         "net_leverage": 0.44,
-        "interest_coverage": 21.2
+        "interest_coverage": 21.2,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -26210,7 +30061,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9576.0,
         "net_debt": 2286.0,
         "net_leverage": 0.27,
-        "interest_coverage": 23.73
+        "interest_coverage": 23.73,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -26225,7 +30083,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 9072.0,
         "net_debt": 972.0,
         "net_leverage": 0.11,
-        "interest_coverage": 26.07
+        "interest_coverage": 26.07,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -26328,7 +30193,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 80,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "STC Secondary Eurobond / Sukuk Tranche 2",
@@ -26342,7 +30208,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -26356,7 +30223,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -26370,7 +30238,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -26488,7 +30357,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 12376.0,
         "net_debt": 10066.0,
         "net_leverage": 2.77,
-        "interest_coverage": 9.21
+        "interest_coverage": 9.21,
+        "observations": {
+          "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+          "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+          "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+          "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+          "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+        }
       },
       {
         "period": "2022A",
@@ -26503,7 +30379,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 13395.2,
         "net_debt": 10455.2,
         "net_leverage": 2.33,
-        "interest_coverage": 9.07
+        "interest_coverage": 9.07,
+        "observations": {
+          "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+          "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+          "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+          "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+          "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+        }
       },
       {
         "period": "2023A",
@@ -26518,7 +30401,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 14268.8,
         "net_debt": 10698.8,
         "net_leverage": 2.12,
-        "interest_coverage": 8.5
+        "interest_coverage": 8.5,
+        "observations": {
+          "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+          "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+          "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+          "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+          "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+        }
       },
       {
         "period": "2024A",
@@ -26533,7 +30423,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 14560.0,
         "net_debt": 10360.0,
         "net_leverage": 1.85,
-        "interest_coverage": 8.5
+        "interest_coverage": 8.5,
+        "observations": {
+          "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+          "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+          "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+          "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+          "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+        }
       },
       {
         "period": "2025E",
@@ -26548,7 +30445,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 14268.8,
         "net_debt": 9312.8,
         "net_leverage": 1.51,
-        "interest_coverage": 9.74
+        "interest_coverage": 9.74,
+        "observations": {
+          "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+          "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+          "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+          "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+          "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+        }
       },
       {
         "period": "2026E",
@@ -26563,7 +30467,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 13832.0,
         "net_debt": 8162.0,
         "net_leverage": 1.24,
-        "interest_coverage": 10.9
+        "interest_coverage": 10.9,
+        "observations": {
+          "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+          "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+          "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+          "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+          "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+        }
       },
       {
         "period": "2027E",
@@ -26578,7 +30489,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 13104.0,
         "net_debt": 6804.0,
         "net_leverage": 0.98,
-        "interest_coverage": 11.98
+        "interest_coverage": 11.98,
+        "observations": {
+          "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+          "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+          "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+          "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+          "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+        }
       }
     ],
     "supplementary_data": {
@@ -26681,7 +30599,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 85,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "TAQA Secondary Eurobond / Sukuk Tranche 2",
@@ -26695,7 +30614,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -26709,7 +30629,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -26723,7 +30644,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -26841,7 +30763,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 177.7,
         "net_debt": 101.4,
         "net_leverage": 0.84,
-        "interest_coverage": 9.11
+        "interest_coverage": 9.11,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -26856,7 +30785,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 192.3,
         "net_debt": 95.2,
         "net_leverage": 0.64,
-        "interest_coverage": 8.97
+        "interest_coverage": 8.97,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -26871,7 +30807,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 204.9,
         "net_debt": 87.0,
         "net_leverage": 0.52,
-        "interest_coverage": 8.41
+        "interest_coverage": 8.41,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -26886,7 +30829,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 209.1,
         "net_debt": 70.3,
         "net_leverage": 0.38,
-        "interest_coverage": 8.41
+        "interest_coverage": 8.41,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -26901,7 +30851,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 204.9,
         "net_debt": 41.2,
         "net_leverage": 0.2,
-        "interest_coverage": 9.64
+        "interest_coverage": 9.64,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -26916,7 +30873,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 198.6,
         "net_debt": 11.3,
         "net_leverage": 0.05,
-        "interest_coverage": 10.79
+        "interest_coverage": 10.79,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -26931,7 +30895,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 188.1,
         "net_debt": 0.0,
         "net_leverage": 0.0,
-        "interest_coverage": 11.85
+        "interest_coverage": 11.85,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -27033,7 +31004,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 550,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "THARISA Secondary Eurobond / Sukuk Tranche 2",
@@ -27047,7 +31019,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 485,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -27061,7 +31034,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -27075,7 +31049,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -27193,7 +31168,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10098.0,
         "net_debt": 8283.0,
         "net_leverage": 2.9,
-        "interest_coverage": 5.2
+        "interest_coverage": 5.2,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -27208,7 +31190,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10929.6,
         "net_debt": 8619.6,
         "net_leverage": 2.45,
-        "interest_coverage": 5.12
+        "interest_coverage": 5.12,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -27223,7 +31212,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 11642.4,
         "net_debt": 8837.4,
         "net_leverage": 2.23,
-        "interest_coverage": 4.8
+        "interest_coverage": 4.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -27238,7 +31234,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 11880.0,
         "net_debt": 8580.0,
         "net_leverage": 1.95,
-        "interest_coverage": 4.8
+        "interest_coverage": 4.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -27253,7 +31256,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 11642.4,
         "net_debt": 7748.4,
         "net_leverage": 1.6,
-        "interest_coverage": 5.5
+        "interest_coverage": 5.5,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -27268,7 +31278,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 11286.0,
         "net_debt": 6831.0,
         "net_leverage": 1.32,
-        "interest_coverage": 6.16
+        "interest_coverage": 6.16,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -27283,7 +31300,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 10692.0,
         "net_debt": 5742.0,
         "net_leverage": 1.05,
-        "interest_coverage": 6.76
+        "interest_coverage": 6.76,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -27382,7 +31406,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 340,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "THYAO Secondary Eurobond / Sukuk Tranche 2",
@@ -27396,7 +31421,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 275,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -27410,7 +31436,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -27424,7 +31451,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -27542,7 +31570,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2524.5,
         "net_debt": 1967.6,
         "net_leverage": 2.24,
-        "interest_coverage": 5.52
+        "interest_coverage": 5.52,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -27557,7 +31592,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2732.4,
         "net_debt": 2023.6,
         "net_leverage": 1.87,
-        "interest_coverage": 5.44
+        "interest_coverage": 5.44,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -27572,7 +31614,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2910.6,
         "net_debt": 2050.0,
         "net_leverage": 1.69,
-        "interest_coverage": 5.1
+        "interest_coverage": 5.1,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -27587,7 +31636,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2970.0,
         "net_debt": 1957.5,
         "net_leverage": 1.45,
-        "interest_coverage": 5.1
+        "interest_coverage": 5.1,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -27602,7 +31658,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2910.6,
         "net_debt": 1715.8,
         "net_leverage": 1.16,
-        "interest_coverage": 5.84
+        "interest_coverage": 5.84,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -27617,7 +31680,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2821.5,
         "net_debt": 1454.6,
         "net_leverage": 0.91,
-        "interest_coverage": 6.54
+        "interest_coverage": 6.54,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -27632,7 +31702,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2673.0,
         "net_debt": 1154.2,
         "net_leverage": 0.69,
-        "interest_coverage": 7.19
+        "interest_coverage": 7.19,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -27735,7 +31812,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 310,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "TTKOM Secondary Eurobond / Sukuk Tranche 2",
@@ -27749,7 +31827,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 245,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -27763,7 +31842,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -27777,7 +31857,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -27895,7 +31976,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2125.8,
         "net_debt": 1787.6,
         "net_leverage": 3.35,
-        "interest_coverage": 3.71
+        "interest_coverage": 3.71,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -27910,7 +31998,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2300.9,
         "net_debt": 1870.4,
         "net_leverage": 2.85,
-        "interest_coverage": 3.65
+        "interest_coverage": 3.65,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -27925,7 +32020,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2451.0,
         "net_debt": 1928.2,
         "net_leverage": 2.61,
-        "interest_coverage": 3.42
+        "interest_coverage": 3.42,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -27940,7 +32042,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2501.0,
         "net_debt": 1886.0,
         "net_leverage": 2.3,
-        "interest_coverage": 3.42
+        "interest_coverage": 3.42,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -27955,7 +32064,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2451.0,
         "net_debt": 1725.3,
         "net_leverage": 1.91,
-        "interest_coverage": 3.92
+        "interest_coverage": 3.92,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -27970,7 +32086,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2375.9,
         "net_debt": 1545.7,
         "net_leverage": 1.6,
-        "interest_coverage": 4.39
+        "interest_coverage": 4.39,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -27985,7 +32108,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2250.9,
         "net_debt": 1328.4,
         "net_leverage": 1.31,
-        "interest_coverage": 4.82
+        "interest_coverage": 4.82,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -28089,7 +32219,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 945,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "TLW Secondary Eurobond / Sukuk Tranche 2",
@@ -28103,7 +32234,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 880,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -28117,7 +32249,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -28131,7 +32264,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -28249,7 +32383,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2295.0,
         "net_debt": 1552.5,
         "net_leverage": 1.33,
-        "interest_coverage": 8.12
+        "interest_coverage": 8.12,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -28264,7 +32405,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2484.0,
         "net_debt": 1539.0,
         "net_leverage": 1.07,
-        "interest_coverage": 8.0
+        "interest_coverage": 8.0,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -28279,7 +32427,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2646.0,
         "net_debt": 1498.5,
         "net_leverage": 0.93,
-        "interest_coverage": 7.5
+        "interest_coverage": 7.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -28294,7 +32449,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2700.0,
         "net_debt": 1350.0,
         "net_leverage": 0.75,
-        "interest_coverage": 7.5
+        "interest_coverage": 7.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -28309,7 +32471,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2646.0,
         "net_debt": 1053.0,
         "net_leverage": 0.53,
-        "interest_coverage": 8.59
+        "interest_coverage": 8.59,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -28324,7 +32493,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2565.0,
         "net_debt": 742.5,
         "net_leverage": 0.35,
-        "interest_coverage": 9.62
+        "interest_coverage": 9.62,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -28339,7 +32515,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2430.0,
         "net_debt": 405.0,
         "net_leverage": 0.18,
-        "interest_coverage": 10.57
+        "interest_coverage": 10.57,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -28443,7 +32626,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 315,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "TUPRAS Secondary Eurobond / Sukuk Tranche 2",
@@ -28457,7 +32641,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 250,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -28471,7 +32656,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -28485,7 +32671,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -28609,7 +32796,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.3,
         "ldr_pct": 19675.7,
         "npl_pct": 0.4,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -28630,7 +32824,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 18.6,
         "ldr_pct": 20065.9,
         "npl_pct": 0.4,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -28651,7 +32852,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 17.4,
         "ldr_pct": 20357.4,
         "npl_pct": 0.4,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -28672,7 +32880,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 16.6,
         "ldr_pct": 20800.0,
         "npl_pct": 0.4,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -28693,7 +32908,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 16.4,
         "ldr_pct": 20994.4,
         "npl_pct": 0.4,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -28714,7 +32936,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.9,
         "ldr_pct": 21164.9,
         "npl_pct": 0.4,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -28735,7 +32964,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 15.2,
         "ldr_pct": 21320.0,
         "npl_pct": 0.4,
-        "car_pct": 21.5
+        "car_pct": 21.5,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -28839,7 +33075,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 215,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "EXCRTU Tier 2 Subordinated Notes",
@@ -28853,7 +33090,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 365,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "EXCRTU Additional Tier 1 (AT1) Perpetual",
@@ -28867,7 +33105,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 440,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -28881,7 +33120,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -28998,7 +33238,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2826.2,
         "net_debt": 2104.3,
         "net_leverage": 1.85,
-        "interest_coverage": 6.72
+        "interest_coverage": 6.72,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -29013,7 +33260,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3059.0,
         "net_debt": 2140.3,
         "net_leverage": 1.53,
-        "interest_coverage": 6.61
+        "interest_coverage": 6.61,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -29028,7 +33282,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3258.5,
         "net_debt": 2142.9,
         "net_leverage": 1.36,
-        "interest_coverage": 6.2
+        "interest_coverage": 6.2,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -29043,7 +33304,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3325.0,
         "net_debt": 2012.5,
         "net_leverage": 1.15,
-        "interest_coverage": 6.2
+        "interest_coverage": 6.2,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -29058,7 +33326,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3258.5,
         "net_debt": 1709.7,
         "net_leverage": 0.89,
-        "interest_coverage": 7.1
+        "interest_coverage": 7.1,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -29073,7 +33348,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 3158.8,
         "net_debt": 1386.9,
         "net_leverage": 0.67,
-        "interest_coverage": 7.95
+        "interest_coverage": 7.95,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -29088,7 +33370,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 2992.5,
         "net_debt": 1023.7,
         "net_leverage": 0.47,
-        "interest_coverage": 8.74
+        "interest_coverage": 8.74,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -29191,7 +33480,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 290,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "TCELL Secondary Eurobond / Sukuk Tranche 2",
@@ -29205,7 +33495,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 225,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -29219,7 +33510,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -29233,7 +33525,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -29351,7 +33644,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1620.0,
         "net_debt": 1430.0,
         "net_leverage": 2.95,
-        "interest_coverage": 3.88
+        "interest_coverage": 3.88,
+        "observations": {
+          "revenue": "Pre-war revenue normalization at $1,948M on record agricultural crop export volumes.",
+          "ebitda": "EBITDA of $247M (12.7% margin) supported by 180.5 Bntkm gross freight turnover.",
+          "capex": "Commercial rolling stock acquisition and track electrification investments.",
+          "fcf": "Operating cash flow of $220M supported positive free cash flow of $187.2M.",
+          "net_leverage": "Consolidated net leverage stable at 5.57x under pre-war commercial operations."
+        }
       },
       {
         "period": "2022A",
@@ -29366,7 +33666,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1665.0,
         "net_debt": 1420.0,
         "net_leverage": 7.47,
-        "interest_coverage": 1.65
+        "interest_coverage": 1.65,
+        "observations": {
+          "revenue": "Revenue contracted to $744M following the outbreak of full-scale war and maritime port blockades.",
+          "ebitda": "EBITDA compressed to $101M; emergency state subsidies and passenger evacuation priority.",
+          "capex": "Pivoted entirely to emergency track repairs, bridge rebuilding, and diesel power restoration.",
+          "fcf": "FCF supported by international donor assistance and operational cost retrenchment.",
+          "net_leverage": "Net leverage rose to 4.62x; initiation of comprehensive debt standstill with bondholders."
+        }
       },
       {
         "period": "2023A",
@@ -29381,7 +33688,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1695.0,
         "net_debt": 1415.0,
         "net_leverage": 4.16,
-        "interest_coverage": 2.62
+        "interest_coverage": 2.62,
+        "observations": {
+          "revenue": "Revenue rebounded +252% YoY to $2,622M following the 70% freight tariff indexation decree.",
+          "ebitda": "EBITDA recovered strongly to $342M; Western border crossings and Danube barge transshipment active.",
+          "capex": "Receipt of $195M in non-repayable multilateral donor grants (World Bank, EBRD, USAID).",
+          "fcf": "FCF of $157.9M generated, rebuilding vital operational and rolling stock spare parts reserves.",
+          "net_leverage": "Net leverage improved to 4.29x with 100% sovereign backing on external debt obligations."
+        }
       },
       {
         "period": "2024A",
@@ -29396,7 +33710,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1730.0,
         "net_debt": 1465.0,
         "net_leverage": 3.86,
-        "interest_coverage": 2.81
+        "interest_coverage": 2.81,
+        "observations": {
+          "revenue": "Revenue reached $2,850M as Black Sea humanitarian corridor achieved full maritime shipping scale.",
+          "ebitda": "EBITDA expanded to $380M (13.3% margin) on 175.2 Mt consolidated freight volume carried.",
+          "capex": "Donor-funded capex of $145M deployed for track gauge integration and electric substation restoration.",
+          "fcf": "FCF of $190M maintains fortress cash balance ($380M) protecting against wartime logistics disruption.",
+          "net_leverage": "Net leverage reduced to 3.84x, providing significant headroom under restructured debt covenants."
+        }
       },
       {
         "period": "2025E",
@@ -29411,7 +33732,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1710.0,
         "net_debt": 1420.0,
         "net_leverage": 3.23,
-        "interest_coverage": 3.14
+        "interest_coverage": 3.14,
+        "observations": {
+          "revenue": "Forecast revenue of $3,078M supported by sustained agricultural grain and metallurgical export demand.",
+          "ebitda": "EBITDA projected at $418M reflecting improved electric traction efficiency and normalized energy tariffs.",
+          "capex": "Reconstruction capex envelope supported by $250M committed multilateral grant disbursements.",
+          "fcf": "Free cash flow expected to reach $215.6M, ensuring self-sufficiency for scheduled operational liabilities.",
+          "net_leverage": "Net leverage projected to drop to 3.28x under continued conservative financial management."
+        }
       },
       {
         "period": "2026E",
@@ -29426,7 +33754,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1640.0,
         "net_debt": 1320.0,
         "net_leverage": 2.59,
-        "interest_coverage": 3.92
+        "interest_coverage": 3.92,
+        "observations": {
+          "revenue": "Revenue expands to $3,277M as industrial manufacturing and steel logistics recover across Central Ukraine.",
+          "ebitda": "EBITDA reaches $448M; freight tariff stabilization supports long-term commercial contract renewals.",
+          "capex": "TEN-T European standard gauge corridor construction advances with EU Solidarity Lane funding.",
+          "fcf": "Robust FCF of $245.4M provides substantial liquidity buffer ahead of bond maturity restructuring.",
+          "net_leverage": "Net leverage declines to 2.84x; Ukraine Rail solidifies its role as the national economic backbone."
+        }
       },
       {
         "period": "2027E",
@@ -29441,7 +33776,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1445.0,
         "net_debt": 1085.0,
         "net_leverage": 1.84,
-        "interest_coverage": 4.92
+        "interest_coverage": 4.92,
+        "observations": {
+          "revenue": "Top-line reaches $3,420M driven by full peacetime economic reconstruction and European freight integration.",
+          "ebitda": "EBITDA reaches $471M with operating margin expanding toward 13.8% on modern electric locomotive fleet.",
+          "capex": "Sustaining capex fully covered by operational cash flow as emergency repairs phase out.",
+          "fcf": "FCF generation hits $273.5M, allowing rapid retirement of commercial bank debt.",
+          "net_leverage": "Net leverage reaches 2.42x, reflecting an institutional turnaround supported by sovereign and multilateral backing."
+        }
       }
     ],
     "supplementary_data": {
@@ -29573,7 +33915,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 1485,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "RAILUA Secondary Eurobond / Sukuk Tranche 2",
@@ -29587,7 +33930,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 1420,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -29601,7 +33945,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
         "seniority": "Senior Secured",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -29615,7 +33960,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -29739,7 +34085,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 9.7,
         "ldr_pct": 83.2,
         "npl_pct": 2.4,
-        "car_pct": 16.8
+        "car_pct": 16.8,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -29760,7 +34113,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.6,
         "ldr_pct": 84.9,
         "npl_pct": 2.4,
-        "car_pct": 16.8
+        "car_pct": 16.8,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -29781,7 +34141,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.5,
         "ldr_pct": 86.1,
         "npl_pct": 2.4,
-        "car_pct": 16.8
+        "car_pct": 16.8,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -29802,7 +34169,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.0,
         "ldr_pct": 88.0,
         "npl_pct": 2.4,
-        "car_pct": 16.8
+        "car_pct": 16.8,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -29823,7 +34197,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.3,
         "ldr_pct": 88.8,
         "npl_pct": 2.4,
-        "car_pct": 16.8
+        "car_pct": 16.8,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -29844,7 +34225,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.3,
         "ldr_pct": 89.5,
         "npl_pct": 2.4,
-        "car_pct": 16.8
+        "car_pct": 16.8,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -29865,7 +34253,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 11.9,
         "ldr_pct": 90.2,
         "npl_pct": 2.4,
-        "car_pct": 16.8
+        "car_pct": 16.8,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -29969,7 +34364,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 235,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "VAKBN Tier 2 Subordinated Notes",
@@ -29983,7 +34379,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 385,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "VAKBN Additional Tier 1 (AT1) Perpetual",
@@ -29997,7 +34394,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 460,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -30011,7 +34409,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -30134,7 +34533,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 10.8,
         "ldr_pct": 80.5,
         "npl_pct": 2.1,
-        "car_pct": 17.5
+        "car_pct": 17.5,
+        "observations": {
+          "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+          "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+          "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+          "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+          "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+        }
       },
       {
         "period": "2022A",
@@ -30155,7 +34561,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 14.6,
         "ldr_pct": 82.1,
         "npl_pct": 2.1,
-        "car_pct": 17.5
+        "car_pct": 17.5,
+        "observations": {
+          "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+          "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+          "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+          "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+          "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+        }
       },
       {
         "period": "2023A",
@@ -30176,7 +34589,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.5,
         "ldr_pct": 83.3,
         "npl_pct": 2.1,
-        "car_pct": 17.5
+        "car_pct": 17.5,
+        "observations": {
+          "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+          "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+          "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+          "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+          "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+        }
       },
       {
         "period": "2024A",
@@ -30197,7 +34617,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.9,
         "ldr_pct": 85.2,
         "npl_pct": 2.1,
-        "car_pct": 17.5
+        "car_pct": 17.5,
+        "observations": {
+          "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+          "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+          "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+          "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+          "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+        }
       },
       {
         "period": "2025E",
@@ -30218,7 +34645,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.1,
         "ldr_pct": 85.9,
         "npl_pct": 2.1,
-        "car_pct": 17.5
+        "car_pct": 17.5,
+        "observations": {
+          "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+          "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+          "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+          "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+          "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+        }
       },
       {
         "period": "2026E",
@@ -30239,7 +34673,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 13.0,
         "ldr_pct": 86.6,
         "npl_pct": 2.1,
-        "car_pct": 17.5
+        "car_pct": 17.5,
+        "observations": {
+          "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+          "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+          "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+          "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+          "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+        }
       },
       {
         "period": "2027E",
@@ -30260,7 +34701,14 @@ const MASTER_ISSUERS = [
         "roe_pct": 12.6,
         "ldr_pct": 87.3,
         "npl_pct": 2.1,
-        "car_pct": 17.5
+        "car_pct": 17.5,
+        "observations": {
+          "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+          "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+          "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+          "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+          "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+        }
       }
     ],
     "supplementary_data": {
@@ -30364,7 +34812,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 215,
         "maturity_date": "2029-06-15",
         "seniority": "Senior Unsecured (Bail-in eligible)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "YKBNK Tier 2 Subordinated Notes",
@@ -30378,7 +34827,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 365,
         "maturity_date": "2032-11-20 (Callable 2027)",
         "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "YKBNK Additional Tier 1 (AT1) Perpetual",
@@ -30392,7 +34842,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 440,
         "maturity_date": "Perpetual (First Call 2028)",
         "seniority": "Junior Subordinated (Loss-Absorbing)",
-        "governing_law": "English Law"
+        "governing_law": "English Law",
+        "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -30406,7 +34857,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 65,
         "maturity_date": "2025-2026 Revolving",
         "seniority": "Secured Interbank",
-        "governing_law": "Domestic Banking Law"
+        "governing_law": "Domestic Banking Law",
+        "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -30523,7 +34975,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1515.0,
         "net_debt": 1383.0,
         "net_leverage": 6.65,
-        "interest_coverage": 2.3
+        "interest_coverage": 2.3,
+        "observations": {
+          "revenue": "Revenues supported by high baseload geothermal availability; early stages of TRY volatility.",
+          "ebitda": "EBITDA margin of 27.2% anchored by Kizildere I/II YEKDEM dollar-denominated feed-in tariffs.",
+          "capex": "Capex focused on completing Kizildere III second phase and OEDAS grid modernization.",
+          "fcf": "FCF of $114M generated, funding interest payments and early turbine maintenance.",
+          "net_leverage": "Net leverage at 4.73x; unhedged foreign currency debt tracking Turkish Lira movements."
+        }
       },
       {
         "period": "2022A",
@@ -30538,7 +34997,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1639.8,
         "net_debt": 1471.8,
         "net_leverage": 5.75,
-        "interest_coverage": 2.26
+        "interest_coverage": 2.26,
+        "observations": {
+          "revenue": "Top-line expanded +18.5% YoY to $980M as power demand and regional electricity consumption surged.",
+          "ebitda": "EBITDA rose to $270M; YEKDEM dollar cash receipts ($105-$132/MWh) insulated generation profitability.",
+          "capex": "Capital investments directed into hybrid solar pilot projects and OEDAS distribution substation upgrades.",
+          "fcf": "Strong operating cash flow ($225M) enabled $128M in free cash flow after all capex commitments.",
+          "net_leverage": "Net leverage held at 4.80x despite TRY depreciation due to strong USD generation cash conversion."
+        }
       },
       {
         "period": "2023A",
@@ -30553,7 +35019,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1746.8,
         "net_debt": 1542.8,
         "net_leverage": 5.36,
-        "interest_coverage": 2.12
+        "interest_coverage": 2.12,
+        "observations": {
+          "revenue": "Consolidated revenue reached $1,100M supported by OEDAS 4th tariff period indexation.",
+          "ebitda": "EBITDA expanded to $295M; commercial operations of hybrid solar capacity provided peak summer revenue.",
+          "capex": "Disciplined capex of $108M focused strictly on regulated RAB network expansions and geothermal maintenance.",
+          "fcf": "FCF generation reached $142M, allowing scheduled project finance amortization payments.",
+          "net_leverage": "Net leverage stabilized at 4.75x; preliminary plans drafted for renewable subsidiary equity monetization."
+        }
       },
       {
         "period": "2024A",
@@ -30568,7 +35041,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1782.4,
         "net_debt": 1542.4,
         "net_leverage": 4.82,
-        "interest_coverage": 2.12
+        "interest_coverage": 2.12,
+        "observations": {
+          "revenue": "Revenue achieved $1,200M (+9.1% YoY) anchored by 1.95M OEDAS customers and 305 MW geothermal baseload fleet.",
+          "ebitda": "EBITDA reached $320M; 68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM.",
+          "capex": "Capex strictly capped at $112M, preserving liquidity ahead of the 2026 Eurobond maturity wall.",
+          "fcf": "Strong FCF of $160M generated, maintaining unrestricted cash reserves at $240M across partner banks.",
+          "net_leverage": "Net leverage at 4.82x (restricting debt incurrence covenant); management prioritizes de-leveraging to <3.5x."
+        }
       },
       {
         "period": "2025E",
@@ -30583,7 +35063,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1746.8,
         "net_debt": 1463.6,
         "net_leverage": 4.16,
-        "interest_coverage": 2.43
+        "interest_coverage": 2.43,
+        "observations": {
+          "revenue": "Forecast revenue of $1,296M (+8.0% YoY) reflecting high geothermal capacity factor (88.5%) and RAB growth.",
+          "ebitda": "EBITDA projected at $352M (27.2% margin) supported by locked-in YEKDEM dollar tariffs.",
+          "capex": "Targeted capex budget of $117.6M prioritizing Kizildere hybrid additions and mandatory grid investments.",
+          "fcf": "Projected FCF of $181.4M provides robust liquidity runway covering 100% of upcoming debt service.",
+          "net_leverage": "Net leverage expected to decrease to 3.90x assisted by operating cash generation and targeted asset sales."
+        }
       },
       {
         "period": "2026E",
@@ -30598,7 +35085,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1693.3,
         "net_debt": 1369.3,
         "net_leverage": 3.63,
-        "interest_coverage": 2.72
+        "interest_coverage": 2.72,
+        "observations": {
+          "revenue": "Revenue anticipated at $1,375M driven by expanded ZES EV charging network and growing regional power demand.",
+          "ebitda": "EBITDA reaches $378M; ZES fast-charging network transitions into a high-margin recurring cash flow contributor.",
+          "capex": "Capex moderates to $115M as major hybrid solar projects achieve commercial operation.",
+          "fcf": "Free cash flow expands to $207M, providing substantial balance sheet flexibility for Eurobond refinancing.",
+          "net_leverage": "Net leverage improves to 3.37x; covenant headroom restores fully across all bank facilities."
+        }
       },
       {
         "period": "2027E",
@@ -30613,7 +35107,14 @@ const MASTER_ISSUERS = [
         "gross_debt": 1604.2,
         "net_debt": 1244.2,
         "net_leverage": 3.14,
-        "interest_coverage": 2.99
+        "interest_coverage": 2.99,
+        "observations": {
+          "revenue": "Revenue reaches $1,440M with international power assets (Dorad Israel / Pakistan) contributing steady dividends.",
+          "ebitda": "EBITDA of $398M reflects mature low-cost baseload geothermal and wind generation infrastructure.",
+          "capex": "Sustaining maintenance capex of $110M sufficient to maintain industry-leading 94%+ plant availability.",
+          "fcf": "FCF generation hits $229M, completely self-funding all ongoing operational and capital requirements.",
+          "net_leverage": "Net leverage falls to conservative 2.87x, positioning Zorlu Enerji for sovereign-ceiling rating upgrades."
+        }
       }
     ],
     "supplementary_data": {
@@ -30777,7 +35278,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 680,
         "maturity": "2026-06-01",
         "seniority": "Senior Unsecured (Pari Passu with Bank Debt)",
-        "governing_law": "English Law / Rule 144A"
+        "governing_law": "English Law / Rule 144A",
+        "observation": "Governed by English Law / Rule 144A; Senior Unsecured (Pari Passu with Bank Debt) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Kizildere & Alasehir Geothermal Project Finance Facilities",
@@ -30790,7 +35292,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 375,
         "maturity": "2029-12-31",
         "seniority": "Senior Secured (First Lien on Geothermal Plant Assets & YEKDEM Cash Accounts)",
-        "governing_law": "English Law / Turkish Security Documentation"
+        "governing_law": "English Law / Turkish Security Documentation",
+        "observation": "Governed by English Law / Turkish Security Documentation; Senior Secured (First Lien on Geothermal Plant Assets & YEKDEM Cash Accounts) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "OEDAS Regulated Grid Distribution Investment Loans",
@@ -30803,7 +35306,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 550,
         "maturity": "2028-09-30",
         "seniority": "Senior Secured (Pledge on Regulated Tariff Receivables)",
-        "governing_law": "Turkish Law"
+        "governing_law": "Turkish Law",
+        "observation": "Governed by Turkish Law; Senior Secured (Pledge on Regulated Tariff Receivables) claim ranking pari passu with primary debt facilities."
       },
       {
         "tranche_name": "Zorlu Enerji Syndicated Multi-Currency RCF & Bilateral Working Capital",
@@ -30816,7 +35320,8 @@ const MASTER_ISSUERS = [
         "spread_bp": 335,
         "maturity": "2027-06-30",
         "seniority": "Senior Unsecured (Pari Passu with Eurobonds)",
-        "governing_law": "Turkish / English Law"
+        "governing_law": "Turkish / English Law",
+        "observation": "Governed by Turkish / English Law; Senior Unsecured (Pari Passu with Eurobonds) claim ranking pari passu with primary debt facilities."
       }
     ],
     "rcf_facility_liquidity": {

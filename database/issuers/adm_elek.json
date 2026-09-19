@@ -32,7 +32,14 @@
       "gross_debt": 415.4,
       "net_debt": 355.6,
       "net_leverage": 3.77,
-      "interest_coverage": 4.11
+      "interest_coverage": 4.11,
+      "observations": {
+        "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
+        "ebitda": "EBITDA margin anchored by pass-through tariff structures shielding against generation cost increases.",
+        "capex": "Capital expenditures focused on mandatory grid reliability and plant maintenance outages.",
+        "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
+        "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
+      }
     },
     {
       "period": "2022A",
@@ -47,7 +54,14 @@
       "gross_debt": 449.6,
       "net_debt": 373.5,
       "net_leverage": 3.22,
-      "interest_coverage": 4.05
+      "interest_coverage": 4.05,
+      "observations": {
+        "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
+        "ebitda": "Operating EBITDA insulated from fuel price volatility via contractual indexation mechanisms.",
+        "capex": "Renewable energy expansion capex initiated (solar PV, wind, and geothermal upgrades).",
+        "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
+        "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
+      }
     },
     {
       "period": "2023A",
@@ -62,7 +76,14 @@
       "gross_debt": 478.9,
       "net_debt": 386.5,
       "net_leverage": 2.96,
-      "interest_coverage": 3.8
+      "interest_coverage": 3.8,
+      "observations": {
+        "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
+        "ebitda": "Margin expansion driven by lower operating heat rates and higher generation efficiency.",
+        "capex": "Execution of multi-year energy transition pipeline with non-recourse project finance backing.",
+        "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
+        "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
+      }
     },
     {
       "period": "2024A",
@@ -77,7 +98,14 @@
       "gross_debt": 488.7,
       "net_debt": 379.9,
       "net_leverage": 2.62,
-      "interest_coverage": 3.8
+      "interest_coverage": 3.8,
+      "observations": {
+        "revenue": "High availability (>93%) across generating fleet; regulated asset base (RAB) expansions drive growth.",
+        "ebitda": "Consolidated EBITDA reaches peak performance, supported by hard-currency tariff indexation.",
+        "capex": "Disciplined capital allocation prioritizing high-return transmission and renewable capacity.",
+        "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
+        "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
+      }
     },
     {
       "period": "2025E",
@@ -92,7 +120,14 @@
       "gross_debt": 478.9,
       "net_debt": 350.6,
       "net_leverage": 2.2,
-      "interest_coverage": 4.35
+      "interest_coverage": 4.35,
+      "observations": {
+        "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
+        "ebitda": "Predictable utility cash EBITDA margins with inflation-linked escalation clauses.",
+        "capex": "Targeted capex envelope funded via operating cash flows and committed multilateral facilities.",
+        "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
+        "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
+      }
     },
     {
       "period": "2026E",
@@ -107,7 +142,14 @@
       "gross_debt": 464.2,
       "net_debt": 317.4,
       "net_leverage": 1.86,
-      "interest_coverage": 4.87
+      "interest_coverage": 4.87,
+      "observations": {
+        "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
+        "ebitda": "EBITDA expansion supported by lower unit operating costs and digital fleet dispatching.",
+        "capex": "Sustaining capex limited to scheduled plant turnarounds and statutory regulatory maintenance.",
+        "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
+        "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
+      }
     },
     {
       "period": "2027E",
@@ -122,7 +164,14 @@
       "gross_debt": 439.8,
       "net_debt": 276.7,
       "net_leverage": 1.54,
-      "interest_coverage": 5.35
+      "interest_coverage": 5.35,
+      "observations": {
+        "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
+        "ebitda": "Sustained high EBITDA margins reflecting mature, highly efficient generation infrastructure.",
+        "capex": "Selective expansion capex into battery storage and green hydrogen pilot initiatives.",
+        "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
+        "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
+      }
     }
   ],
   "supplementary_data": {
@@ -225,7 +274,8 @@
       "spread_bp": 485,
       "maturity_date": "2029-07-25",
       "seniority": "Senior Unsecured (Pari Passu)",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "ADMELE Secondary Eurobond / Sukuk Tranche 2",
@@ -239,7 +289,8 @@
       "spread_bp": 420,
       "maturity_date": "2027-10-18",
       "seniority": "Senior Unsecured",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -253,7 +304,8 @@
       "spread_bp": 185,
       "maturity_date": "2031-03-31",
       "seniority": "Senior Secured",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -267,7 +319,8 @@
       "spread_bp": 150,
       "maturity_date": "2028-06-30",
       "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
     }
   ],
   "rcf_facility_liquidity": {

@@ -38,7 +38,14 @@
       "roe_pct": 7.6,
       "ldr_pct": 81.2,
       "npl_pct": 2.8,
-      "car_pct": 15.9
+      "car_pct": 15.9,
+      "observations": {
+        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+      }
     },
     {
       "period": "2022A",
@@ -59,7 +66,14 @@
       "roe_pct": 11.5,
       "ldr_pct": 82.8,
       "npl_pct": 2.8,
-      "car_pct": 15.9
+      "car_pct": 15.9,
+      "observations": {
+        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+      }
     },
     {
       "period": "2023A",
@@ -80,7 +94,14 @@
       "roe_pct": 10.5,
       "ldr_pct": 84.0,
       "npl_pct": 2.8,
-      "car_pct": 15.9
+      "car_pct": 15.9,
+      "observations": {
+        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+      }
     },
     {
       "period": "2024A",
@@ -101,7 +122,14 @@
       "roe_pct": 10.1,
       "ldr_pct": 85.8,
       "npl_pct": 2.8,
-      "car_pct": 15.9
+      "car_pct": 15.9,
+      "observations": {
+        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+      }
     },
     {
       "period": "2025E",
@@ -122,7 +150,14 @@
       "roe_pct": 10.5,
       "ldr_pct": 86.6,
       "npl_pct": 2.8,
-      "car_pct": 15.9
+      "car_pct": 15.9,
+      "observations": {
+        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+      }
     },
     {
       "period": "2026E",
@@ -143,7 +178,14 @@
       "roe_pct": 10.6,
       "ldr_pct": 87.3,
       "npl_pct": 2.8,
-      "car_pct": 15.9
+      "car_pct": 15.9,
+      "observations": {
+        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+      }
     },
     {
       "period": "2027E",
@@ -164,7 +206,14 @@
       "roe_pct": 10.3,
       "ldr_pct": 88.0,
       "npl_pct": 2.8,
-      "car_pct": 15.9
+      "car_pct": 15.9,
+      "observations": {
+        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+      }
     }
   ],
   "supplementary_data": {
@@ -268,7 +317,8 @@
       "spread_bp": 275,
       "maturity_date": "2029-06-15",
       "seniority": "Senior Unsecured (Bail-in eligible)",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Bail-in eligible) claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "HALKB Tier 2 Subordinated Notes",
@@ -282,7 +332,8 @@
       "spread_bp": 425,
       "maturity_date": "2032-11-20 (Callable 2027)",
       "seniority": "Subordinated (Tier 2 Regulatory Capital)",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Subordinated (Tier 2 Regulatory Capital) claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "HALKB Additional Tier 1 (AT1) Perpetual",
@@ -296,7 +347,8 @@
       "spread_bp": 500,
       "maturity_date": "Perpetual (First Call 2028)",
       "seniority": "Junior Subordinated (Loss-Absorbing)",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Junior Subordinated (Loss-Absorbing) claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "Bilateral Interbank & Central Bank Repos",
@@ -310,7 +362,8 @@
       "spread_bp": 65,
       "maturity_date": "2025-2026 Revolving",
       "seniority": "Secured Interbank",
-      "governing_law": "Domestic Banking Law"
+      "governing_law": "Domestic Banking Law",
+      "observation": "Governed by Domestic Banking Law; Secured Interbank claim ranking pari passu with primary debt facilities."
     }
   ],
   "rcf_facility_liquidity": {

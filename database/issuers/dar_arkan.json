@@ -32,7 +32,14 @@
       "gross_debt": 1291.3,
       "net_debt": 1142.8,
       "net_leverage": 4.88,
-      "interest_coverage": 3.12
+      "interest_coverage": 3.12,
+      "observations": {
+        "revenue": "Post-COVID recovery in primary property sales; liquidity conserved across core development land banks.",
+        "ebitda": "Gross margins stable around 28-30% supported by low historical land acquisition costs.",
+        "capex": "Selective land banking capex prioritizing high-demand urban corridors.",
+        "fcf": "Modest working capital absorption as new project construction commences.",
+        "net_leverage": "Net leverage preserved within rating tolerance via presales escrow funding."
+      }
     },
     {
       "period": "2022A",
@@ -47,7 +54,14 @@
       "gross_debt": 1397.7,
       "net_debt": 1208.7,
       "net_leverage": 4.2,
-      "interest_coverage": 3.07
+      "interest_coverage": 3.07,
+      "observations": {
+        "revenue": "Surge in international buyer inflows driven by safe-haven status and favorable visa reforms.",
+        "ebitda": "Operating margins expand as average selling prices (ASP) outpace construction inflation.",
+        "capex": "Active construction site acceleration to meet aggressive handover targets.",
+        "fcf": "Operating cash flow inflects strongly positive on accelerated milestone installment receipts.",
+        "net_leverage": "Deleveraging begins as cash collections build up in regulated escrow accounts."
+      }
     },
     {
       "period": "2023A",
@@ -62,7 +76,14 @@
       "gross_debt": 1488.8,
       "net_debt": 1259.3,
       "net_leverage": 3.89,
-      "interest_coverage": 2.88
+      "interest_coverage": 2.88,
+      "observations": {
+        "revenue": "Record off-plan sales bookings and rapid inventory turnover across master communities.",
+        "ebitda": "Peak development margins achieved on high-density luxury and branded residences.",
+        "capex": "Infrastructure and foundation capex for flagship multi-year towers.",
+        "fcf": "Robust FCF generation; escrow disbursements unlocked upon verified completion milestones.",
+        "net_leverage": "Net debt contracts; leverage comfortably below bond covenant thresholds."
+      }
     },
     {
       "period": "2024A",
@@ -77,7 +98,14 @@
       "gross_debt": 1519.2,
       "net_debt": 1249.2,
       "net_leverage": 3.47,
-      "interest_coverage": 2.88
+      "interest_coverage": 2.88,
+      "observations": {
+        "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
+        "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
+        "capex": "Sustaining development capex maintaining predictable 3-year construction execution pipelines.",
+        "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
+        "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
+      }
     },
     {
       "period": "2025E",
@@ -92,7 +120,14 @@
       "gross_debt": 1488.8,
       "net_debt": 1170.2,
       "net_leverage": 2.96,
-      "interest_coverage": 3.3
+      "interest_coverage": 3.3,
+      "observations": {
+        "revenue": "Anticipated stable delivery schedule of scheduled units; presales backlog provides 85%+ revenue visibility.",
+        "ebitda": "Operating profitability anchored by locked-in contract prices across existing order book.",
+        "capex": "Disciplined capital deployment focused on existing projects before new land acquisitions.",
+        "fcf": "Solid positive free cash flow enabling debt pre-funding and dividend flexibility.",
+        "net_leverage": "Net leverage continues downward trajectory toward conservative investment-grade parameters."
+      }
     },
     {
       "period": "2026E",
@@ -107,7 +142,14 @@
       "gross_debt": 1443.2,
       "net_debt": 1078.7,
       "net_leverage": 2.54,
-      "interest_coverage": 3.69
+      "interest_coverage": 3.69,
+      "observations": {
+        "revenue": "Peak handover cycle for high-value towers launched in 2023; substantial revenue recognition under IFRS 15.",
+        "ebitda": "EBITDA generation bolstered by final completion payments and property management services.",
+        "capex": "Capex moderates as flagship projects achieve final structural and MEP completion.",
+        "fcf": "Exceptional FCF surge from final 30-40% handover cash collections.",
+        "net_leverage": "Substantial net debt reduction providing full coverage for near-term debt maturities."
+      }
     },
     {
       "period": "2027E",
@@ -122,7 +164,14 @@
       "gross_debt": 1367.3,
       "net_debt": 962.3,
       "net_leverage": 2.16,
-      "interest_coverage": 4.06
+      "interest_coverage": 4.06,
+      "observations": {
+        "revenue": "Mature portfolio cash generation; recurring commercial leasing and retail assets augment development revenue.",
+        "ebitda": "Resilient blended operating margin supported by premium brand recognition.",
+        "capex": "Targeted growth capex into prime master-planned waterfront and business districts.",
+        "fcf": "Organic liquidity runway exceeding 36 months of corporate overhead and interest expenses.",
+        "net_leverage": "Minimal net leverage with net cash position achievable under base-case handover pacing."
+      }
     }
   ],
   "supplementary_data": {
@@ -229,7 +278,8 @@
       "spread_bp": 410,
       "maturity_date": "2029-07-25",
       "seniority": "Senior Unsecured (Pari Passu)",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "DARARK Secondary Eurobond / Sukuk Tranche 2",
@@ -243,7 +293,8 @@
       "spread_bp": 345,
       "maturity_date": "2027-10-18",
       "seniority": "Senior Unsecured",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "Syndicated Commercial Bank Term Facility",
@@ -257,7 +308,8 @@
       "spread_bp": 185,
       "maturity_date": "2031-03-31",
       "seniority": "Senior Secured",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
     },
     {
       "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
@@ -271,7 +323,8 @@
       "spread_bp": 150,
       "maturity_date": "2028-06-30",
       "seniority": "Senior Unsecured (Pari Passu with Bonds)",
-      "governing_law": "English Law"
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
     }
   ],
   "rcf_facility_liquidity": {
