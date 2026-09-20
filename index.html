@@ -8,7 +8,7 @@
   <script src="js/issuers_data.js"></script>
   <script src="js/history_data.js"></script>
   <script src="js/news_data.js"></script>
-<script src="js/app.js?v=20260920_rev7"></script>
+<script src="js/app.js?v=20260920_rev8"></script>
 </head>
 <body>
 
@@ -249,16 +249,44 @@
   </div>
 
   <!-- IN-CELL COMMENT & ANNOTATION POPOVER -->
-  <div id="cell-comment-popover" class="cell-comment-popover">
+  <div id="cell-comment-popover" class="cell-comment-popover" style="max-width:380px; width:360px;">
     <div class="popover-header">
-      <strong id="popover-cell-title">Data Point</strong>
-      <button type="button" onclick="closeCellComment()" style="background:transparent; border:none; color:#94a3b8; cursor:pointer; font-size:12px;">✕</button>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <span id="popover-coord-badge" class="badge badge-sector" style="font-size:10px; font-family:'JetBrains Mono',monospace;">CELL</span>
+        <strong id="popover-cell-title" style="font-size:12px;">Data Point</strong>
+      </div>
+      <button type="button" onclick="closeCellComment()" style="background:transparent; border:none; color:#94a3b8; cursor:pointer; font-size:14px;">✕</button>
     </div>
+
+    <!-- Formula & Methodology Section -->
+    <div id="popover-methodology-container" style="margin-bottom:8px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+        <span style="font-size:10px; color:#94a3b8; font-weight:600; text-transform:uppercase;">Methodology:</span>
+        <span id="popover-methodology-badge" class="badge badge-guidance">🎯 Management Guidance</span>
+      </div>
+      <div id="popover-formula-box" class="popover-formula-code">=Management_Guidance()</div>
+    </div>
+
+    <!-- Operational Drivers / Inputs Section -->
+    <div id="popover-drivers-box" class="popover-drivers-box" style="display:none;">
+      <div style="font-size:9.5px; color:var(--accent-gold); font-weight:700; margin-bottom:2px; text-transform:uppercase;">⚡ Underlying Inputs & Drivers:</div>
+      <div id="popover-drivers-text"></div>
+    </div>
+
+    <!-- Due Diligence Verification Question Section -->
+    <div id="popover-diligence-box" class="popover-diligence-box" style="display:none;">
+      <div style="font-size:9.5px; color:#fbbf24; font-weight:700; margin-bottom:2px; text-transform:uppercase;">❓ CFO / Management Verification Question:</div>
+      <div id="popover-diligence-text" style="color:#e2e8f0;"></div>
+    </div>
+
+    <!-- Desk Observation -->
     <div id="popover-desk-box" class="popover-observation-box" style="display:none;">
       <div style="font-size:10px; color:var(--accent-gold); font-weight:700; margin-bottom:3px; text-transform:uppercase;">📝 Credit Desk Observation:</div>
       <div id="popover-desk-text" style="color:#cbd5e1;"></div>
     </div>
-    <div style="font-size:10.5px; color:#94a3b8; margin-bottom:4px; font-weight:600;">Custom Analyst Note / Highlight:</div>
+
+    <!-- Custom Analyst Notes -->
+    <div style="font-size:10.5px; color:#94a3b8; margin:6px 0 4px 0; font-weight:600;">Custom Analyst Note / Thesis:</div>
     <textarea id="popover-user-note" class="popover-textarea" placeholder="Add custom credit thesis note on this data point..."></textarea>
     <div class="popover-actions">
       <button type="button" id="popover-toggle-hl-btn" class="btn-action" onclick="toggleCurrentCellHighlight()" style="font-size:10.5px; padding:3px 8px; background:#1e293b; color:#fbbf24; border-color:#f59e0b;">

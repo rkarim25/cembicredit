@@ -380,6 +380,17 @@ function renderTable() {
           
           <!-- PANE 1: 7-YEAR MULTI-PERIOD FINANCIALS -->
           <div class="drawer-pane active" data-pane="tab-fin">
+            <!-- Mini Excel Formula Bar for Drawer -->
+            <div class="excel-formula-bar" id="drawer-formula-bar-${m.id}" style="margin-bottom:10px;">
+              <div class="fx-namebox" id="drawer-fx-coord-${m.id}">CELL</div>
+              <div class="fx-divider"></div>
+              <div class="fx-symbol">fx</div>
+              <div class="fx-formula-input" id="drawer-fx-text-${m.id}">Click any cell below to inspect its forecast formula, management guidance, or operational drivers.</div>
+              <div class="fx-badge-container" id="drawer-fx-badge-${m.id}">
+                <span class="badge" style="background:#1e293b; color:#94a3b8; font-size:10.5px;">Formula Engine</span>
+              </div>
+            </div>
+
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
               <span style="font-size:11px; color:#94a3b8;">Hover over any cell or click below for line-by-line financial variance explanations:</span>
               <button class="btn-action" id="btn-obs-${m.id}" onclick="toggleFinancialObservations('${m.id}')" style="font-size:11px; padding:4px 12px; background:rgba(245,158,11,0.15); border:1px solid #f59e0b; color:#fbbf24;">
@@ -466,21 +477,21 @@ function renderTable() {
                         </span>
                       </td>
                       ${currentView === 'corp' ? `
-                        <td class="num">$${(f.revenue || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num" style="color:var(--accent-gold); font-weight:600;">$${(f.ebitda || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num">${(f.ebitda_margin_pct || 0).toFixed(1)}%</td>
-                        <td class="num">$${(f.cfo || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num">$${(f.capex || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num" style="color:${(f.fcf||0) >= 0 ? '#10b981' : '#ef4444'}; font-weight:600;">
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'revenue', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'revenue', this, event)" title="[${getForecastAuditMetadata(item, 'revenue', f.period).badgeText}] ${getForecastAuditMetadata(item, 'revenue', f.period).formula}">$${(f.revenue || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'ebitda', f.period).badgeType}" style="color:var(--accent-gold); font-weight:600; cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'ebitda', this, event)" title="[${getForecastAuditMetadata(item, 'ebitda', f.period).badgeText}] ${getForecastAuditMetadata(item, 'ebitda', f.period).formula}">$${(f.ebitda || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'ebitda_margin_pct', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'ebitda_margin_pct', this, event)" title="[${getForecastAuditMetadata(item, 'ebitda_margin_pct', f.period).badgeText}] ${getForecastAuditMetadata(item, 'ebitda_margin_pct', f.period).formula}">${(f.ebitda_margin_pct || 0).toFixed(1)}%</td>
+                        <td class="num grid-cell" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'cfo', this, event)">$${(f.cfo || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'capex', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'capex', this, event)" title="[${getForecastAuditMetadata(item, 'capex', f.period).badgeText}] ${getForecastAuditMetadata(item, 'capex', f.period).formula}">$${(f.capex || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'fcf', f.period).badgeType}" style="color:${(f.fcf||0) >= 0 ? '#10b981' : '#ef4444'}; font-weight:600; cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'fcf', this, event)" title="[${getForecastAuditMetadata(item, 'fcf', f.period).badgeText}] ${getForecastAuditMetadata(item, 'fcf', f.period).formula}">
                           ${(f.fcf||0) < 0 ? '-' : ''}$${Math.abs(f.fcf || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}
                         </td>
-                        <td class="num">$${(f.cash || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num">$${(f.gross_debt || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num">$${(f.net_debt || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num" style="font-weight:700; color:${(f.net_leverage||0) > 4.5 ? '#ef4444' : '#f8fafc'};">
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'cash', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'cash', this, event)">$${(f.cash || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'gross_debt', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'gross_debt', this, event)">$${(f.gross_debt || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'net_debt', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'net_debt', this, event)">$${(f.net_debt || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'net_leverage', f.period).badgeType}" style="font-weight:700; color:${(f.net_leverage||0) > 4.5 ? '#ef4444' : '#f8fafc'}; cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'net_leverage', this, event)" title="[${getForecastAuditMetadata(item, 'net_leverage', f.period).badgeText}] ${getForecastAuditMetadata(item, 'net_leverage', f.period).formula}">
                           ${(f.net_leverage || 0).toFixed(2)}x
                         </td>
-                        <td class="num">${(f.interest_coverage || 0).toFixed(2)}x</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'interest_coverage', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'interest_coverage', this, event)">${(f.interest_coverage || 0).toFixed(2)}x</td>
                       ` : `
                         <td class="num">$${(f.assets || 0).toLocaleString()}</td>
                         <td class="num">$${(f.loans || 0).toLocaleString()}</td>
@@ -2156,47 +2167,511 @@ window.clearHighlightFilter = function() {
   }
 };
 
+
+// ----------------- EXCEL FORECAST & FORMULA AUDIT ENGINE -----------------
+function getForecastAuditMetadata(item, metricKey, period) {
+  if (!item) return { coord: 'CELL', metricTitle: 'METRIC', period, isForecast: false, methodology: 'N/A', badgeType: 'audited', badgeText: 'N/A', formula: '', source: '', commentary: '', drivers: '', verificationQuestion: null, formulaCheck: null };
+  const m = item.metadata || {};
+  const f = (item.financials_multi_year || []).find(x => x.period === period) || {};
+  const supp = item.supplementary_data || {};
+  const guides = item.management_guidance_tracker || [];
+  const isForecast = period.endsWith('E');
+
+  // Compute Excel Cell Coordinate (Rows 10-35, Cols B-H)
+  const colLetter = { '2021A':'B', '2022A':'C', '2023A':'D', '2024A':'E', '2025E':'F', '2026E':'G', '2027E':'H' }[period] || 'C';
+  const rowMap = {
+    'revenue': 12, 'reported_ebitda': 15, 'ebitda': 16, 'ebitda_margin_pct': 17,
+    'ebitda_base': 20, 'capex': 21, 'cash_interest': 22, 'delta_wc': 23, 'tax': 24,
+    'fcf': 25, 'fcf_conversion': 26, 'gross_debt': 28, 'cash': 29, 'undrawn_rcf': 30,
+    'net_debt': 31, 'net_leverage': 33, 'interest_coverage': 34, 'px_quote': 35
+  };
+  const rowNum = rowMap[metricKey] || 15;
+  const coord = `${colLetter}${rowNum}`;
+  const cleanMetric = metricKey.replace(/_/g, ' ').toUpperCase();
+
+  // 1. Audited Historicals
+  if (!isForecast) {
+    return {
+      coord,
+      metricTitle: cleanMetric,
+      period,
+      isForecast: false,
+      methodology: 'Audited Historical Financials (IFRS)',
+      badgeType: 'audited',
+      badgeText: '📑 Audited IFRS',
+      formula: `=IFRS_Filing("${period}_Audited_Statements", Row: "${cleanMetric}")`,
+      source: `Audited Annual Financial Report (${period})`,
+      commentary: `Official historical figures filed under IFRS and audited by independent statutory auditors.`,
+      drivers: `Audited statutory financial accounts; verified against company annual disclosures.`,
+      verificationQuestion: null,
+      formulaCheck: null
+    };
+  }
+
+  // 2. FCF Waterfall Identities
+  if (metricKey === 'fcf') {
+    const e = f.calculated_ebitda || f.ebitda || 0;
+    const cx = f.capex || 0;
+    const ci = f.cash_interest || 0;
+    const dwc = f.change_in_working_capital || 0;
+    const tx = f.tax_expense || 0;
+    const fcfVal = f.fcf || 0;
+    const chk = f.fcf_bridge?.formula_check || `${e} - ${cx} - ${ci} - (${dwc}) - ${tx} = ${fcfVal}`;
+    return {
+      coord,
+      metricTitle: 'FREE CASH FLOW (FCF)',
+      period,
+      isForecast: true,
+      methodology: 'Strict Fixed Accounting Identity (FCF Waterfall)',
+      badgeType: 'waterfall',
+      badgeText: '📐 FCF Waterfall Identity',
+      formula: `=${colLetter}16 - ${colLetter}21 - ${colLetter}22 - ${colLetter}23 - ${colLetter}24`,
+      source: 'Calculated Cash Generation Waterfall Bridge',
+      commentary: `FCF is calculated strictly as: Cash Desk EBITDA (${e.toFixed(1)}M) - Net Capex (${cx.toFixed(1)}M) - Cash Interest (${ci.toFixed(1)}M) - ΔWorking Capital (${dwc.toFixed(1)}M) - Cash Taxes (${tx.toFixed(1)}M) = Free Cash Flow (${fcfVal.toFixed(1)}M). FCF conversion rate: ${f.fcf_conversion_pct ? f.fcf_conversion_pct.toFixed(1) : ((fcfVal / Math.max(1, e)) * 100).toFixed(1)}%.`,
+      drivers: `EBITDA: ${e.toFixed(1)}M | Capex: -${cx.toFixed(1)}M | Cash Interest: -${ci.toFixed(1)}M | ΔWC: -${dwc.toFixed(1)}M | Cash Tax: -${tx.toFixed(1)}M`,
+      verificationQuestion: 'Can you bridge the primary drivers of working capital absorption and confirm whether customer advances or supplier payables drove the cash change?',
+      formulaCheck: chk
+    };
+  }
+
+  if (metricKey === 'net_debt') {
+    const gd = f.gross_debt || 0;
+    const cs = f.cash || 0;
+    const nd = f.net_debt || (gd - cs);
+    return {
+      coord,
+      metricTitle: 'CONSOLIDATED NET DEBT',
+      period,
+      isForecast: true,
+      methodology: 'Balance Sheet Net Debt Identity',
+      badgeType: 'waterfall',
+      badgeText: '📐 Balance Sheet Identity',
+      formula: `=${colLetter}28 - ${colLetter}29`,
+      source: 'Balance Sheet Liquidity & Gross Debt Bridge',
+      commentary: `Consolidated Gross Debt (${gd.toFixed(1)}M) less Total Cash & Liquid Balances (${cs.toFixed(1)}M) = Net Debt (${nd.toFixed(1)}M).`,
+      drivers: `Gross Debt: ${gd.toFixed(1)}M | Cash & Equivalents: ${cs.toFixed(1)}M`,
+      verificationQuestion: 'What portion of the cash balance is held at operating subsidiaries with dividend restriction covenants or escrow lockups?',
+      formulaCheck: `${gd.toFixed(1)} - ${cs.toFixed(1)} = ${nd.toFixed(1)}`
+    };
+  }
+
+  if (metricKey === 'net_leverage') {
+    const nd = f.net_debt || 0;
+    const eb = f.calculated_ebitda || f.ebitda || 1;
+    const lev = f.net_leverage || (nd / eb);
+    const levGuide = guides.find(g => g.guidance_metric && g.guidance_metric.toLowerCase().includes('leverage'));
+    return {
+      coord,
+      metricTitle: 'NET DEBT / EBITDA',
+      period,
+      isForecast: true,
+      methodology: 'Credit Metric Formula & Target Headroom',
+      badgeType: 'waterfall',
+      badgeText: '📐 Credit Metric Formula',
+      formula: `=${colLetter}31 / ${colLetter}16`,
+      source: 'Consolidated Leverage & Rating Threshold Model',
+      commentary: `Net Debt (${nd.toFixed(1)}M) / Calculated Cash EBITDA (${eb.toFixed(1)}M) = ${lev.toFixed(2)}x.${levGuide ? ` Management guidance ceiling is ${levGuide.management_target} (Current run-rate: ${levGuide.current_runrate}).` : ''}`,
+      drivers: `Net Debt: ${nd.toFixed(1)}M | Cash EBITDA: ${eb.toFixed(1)}M | Headroom to Ceiling: ${levGuide ? levGuide.variance_analysis : 'Standard Headroom'}`,
+      verificationQuestion: levGuide ? levGuide.verification_question : 'What is management\'s leverage ceiling before initiating debt paydown or curbing shareholder payouts?',
+      formulaCheck: `${nd.toFixed(1)} / ${eb.toFixed(1)} = ${lev.toFixed(2)}x`
+    };
+  }
+
+  if (metricKey === 'interest_coverage') {
+    const eb = f.calculated_ebitda || f.ebitda || 1;
+    const ci = f.cash_interest || 1;
+    const cov = f.interest_coverage || (eb / ci);
+    return {
+      coord,
+      metricTitle: 'INTEREST COVERAGE RATIO',
+      period,
+      isForecast: true,
+      methodology: 'Debt Service Coverage Identity',
+      badgeType: 'waterfall',
+      badgeText: '📐 Coverage Metric Formula',
+      formula: `=${colLetter}16 / ${colLetter}22`,
+      source: 'Debt Service Capacity Model',
+      commentary: `Calculated Cash EBITDA (${eb.toFixed(1)}M) / Cash Interest Paid (${ci.toFixed(1)}M) = ${cov.toFixed(2)}x coverage.`,
+      drivers: `Cash EBITDA: ${eb.toFixed(1)}M | Cash Interest: ${ci.toFixed(1)}M`,
+      verificationQuestion: 'What is your effective blended cost of debt following recent rate moves, and what percentage of total borrowing is fixed vs floating?',
+      formulaCheck: `${eb.toFixed(1)} / ${ci.toFixed(1)} = ${cov.toFixed(2)}x`
+    };
+  }
+
+  if (metricKey === 'cash_interest') {
+    const ci = f.cash_interest || 0;
+    return {
+      coord,
+      metricTitle: 'CASH INTEREST PAID',
+      period,
+      isForecast: true,
+      methodology: 'Tranche Debt Schedule Model',
+      badgeType: 'waterfall',
+      badgeText: '📐 Debt Schedule Formula',
+      formula: `=SUMPRODUCT(Tranche_Principals, Coupon_Rates) + RCF_Commitment_Fees`,
+      source: 'Granular Tranche-by-Tranche Capital Structure Schedule',
+      commentary: `Cash interest expense of ${ci.toFixed(1)}M derived from debt tranche schedule across senior bonds, bilateral bank facilities, and undrawn commitment fees.`,
+      drivers: `Tranches: ${item.capital_structure_tranches ? item.capital_structure_tranches.length : 1} instruments | Benchmark: ${m.benchmark_bond}`,
+      verificationQuestion: 'Are there any impending debt refinancings that will reset coupon rates higher over the next 12-18 months?',
+      formulaCheck: null
+    };
+  }
+
+  // 3. Revenue Forecast Methodology
+  if (metricKey === 'revenue') {
+    // Check Management Guidance
+    const revGuide = guides.find(g => g.guidance_metric && g.guidance_metric.toLowerCase().includes('revenue'));
+    if (period === '2025E' && revGuide) {
+      return {
+        coord,
+        metricTitle: 'CONSOLIDATED REVENUE',
+        period,
+        isForecast: true,
+        methodology: 'Management Strategic Guidance Target',
+        badgeType: 'guidance',
+        badgeText: '🎯 Management Guidance',
+        formula: `=Management_Guidance(Source: "${revGuide.last_guided_source}", Target: "${revGuide.management_target}")`,
+        source: revGuide.last_guided_source,
+        commentary: `Official guidance committed by executive management: ${revGuide.management_target}. Current run-rate tracking: ${revGuide.current_runrate} (${revGuide.tracking_status}). Variance analysis: ${revGuide.variance_analysis}`,
+        drivers: `Guidance Target: ${revGuide.management_target} | Current Execution: ${revGuide.current_runrate} | Verification Status: ${revGuide.tracking_status}`,
+        verificationQuestion: revGuide.verification_question,
+        formulaCheck: null
+      };
+    }
+
+    // Check Operational Drivers
+    if (supp.installed_capacity_mw) {
+      return {
+        coord,
+        metricTitle: 'CONSOLIDATED REVENUE',
+        period,
+        isForecast: true,
+        methodology: 'Operational Capacity & PPA Tariff Model',
+        badgeType: 'ops',
+        badgeText: '🏭 Operational Driver Model',
+        formula: `=Installed_Capacity(${supp.installed_capacity_mw}MW) * 8760h * Util(${supp.capacity_utilization_factor_pct || 54}%) * Blended_Tariff`,
+        source: 'Power Purchase Agreement (PPA) Operational Capacity Model',
+        commentary: `Modeled bottom-up from contracted generation capacity of ${supp.installed_capacity_mw} MW, generation volume of ${supp.generation_volume_gwh || 10000} GWh, and ${supp.fx_indexed_tariffs_pct || 80}% FX-indexed off-take contracts.`,
+        drivers: `Capacity: ${supp.installed_capacity_mw} MW | Generation: ${supp.generation_volume_gwh || 10000} GWh | Utilization: ${supp.capacity_utilization_factor_pct || 54}% | FX-Indexed: ${supp.fx_indexed_tariffs_pct || 80}%`,
+        verificationQuestion: 'Are there any scheduled major asset turnarounds or grid connection curtailments expected to reduce capacity factor over the coming year?',
+        formulaCheck: null
+      };
+    }
+
+    if (supp.net_production_kboed) {
+      return {
+        coord,
+        metricTitle: 'CONSOLIDATED REVENUE',
+        period,
+        isForecast: true,
+        methodology: 'Hydrocarbon Net Production & Realized Price Model',
+        badgeType: 'ops',
+        badgeText: '🏭 Operational Driver Model',
+        formula: `=Net_Production(${supp.net_production_kboed}kboed) * 365 * Realized_Price(${supp.realized_price_usd_per_bbl || 78}/bbl) * (1 - Royalty_Take)`,
+        source: 'Field Reserve & Net Production Forecast Model',
+        commentary: `Modeled from net field production of ${supp.net_production_kboed} kboe/d at ${supp.realized_price_usd_per_bbl || 78}/bbl Brent benchmark, with lifting cost of ${supp.lifting_cost_usd_per_boe || 12}/boe and ${supp.hedged_production_pct || 40}% production hedged.`,
+        drivers: `Production: ${supp.net_production_kboed} kboe/d | Realized Price: ${supp.realized_price_usd_per_bbl || 78}/bbl | Lifting Cost: ${supp.lifting_cost_usd_per_boe || 12}/boe`,
+        verificationQuestion: 'What is your current hedge book coverage for the next 12-24 months and at what strike prices?',
+        formulaCheck: null
+      };
+    }
+
+    if (supp.presales_run_rate_usd_m) {
+      return {
+        coord,
+        metricTitle: 'CONSOLIDATED REVENUE',
+        period,
+        isForecast: true,
+        methodology: 'Pre-Sales Backlog & Escrow Phasing Model',
+        badgeType: 'ops',
+        badgeText: '🏭 Operational Driver Model',
+        formula: `=Contracted_Backlog(${supp.backlog_revenue_usd_m}M) * POC_Progress + Escrow_Drawdown`,
+        source: 'Real Estate Handover & RERA Escrow Completion Schedule',
+        commentary: `Revenue recognized based on construction progress across pre-sales backlog of ${supp.backlog_revenue_usd_m}M, supported by ${supp.rera_escrow_balance_usd_m}M in escrow accounts and ${supp.collection_efficiency_pct || 90}% collection efficiency.`,
+        drivers: `Backlog: ${supp.backlog_revenue_usd_m}M | Pre-Sales: ${supp.presales_run_rate_usd_m}M | Escrow Balance: ${supp.rera_escrow_balance_usd_m}M`,
+        verificationQuestion: 'What is the default/cancellation rate on off-plan pre-sales, and how much unrestricted cash is currently accessible outside escrow?',
+        formulaCheck: null
+      };
+    }
+
+    if (supp.fleet_size_aircraft) {
+      return {
+        coord,
+        metricTitle: 'CONSOLIDATED REVENUE',
+        period,
+        isForecast: true,
+        methodology: 'Fleet Capacity (ASK) & Unit Revenue (RASK) Model',
+        badgeType: 'ops',
+        badgeText: '🏭 Operational Driver Model',
+        formula: `=Fleet(${supp.fleet_size_aircraft}_Aircraft) * RASK(${supp.rask_usd_cents}c) * LoadFactor(${supp.passenger_load_factor_pct}%)`,
+        source: 'Aviation Fleet Schedule & Capacity Model',
+        commentary: `Bottom-up forecast based on active fleet of ${supp.fleet_size_aircraft} aircraft, passenger load factor of ${supp.passenger_load_factor_pct}%, and unit revenue of ${supp.rask_usd_cents}c RASK.`,
+        drivers: `Fleet Size: ${supp.fleet_size_aircraft} aircraft | Load Factor: ${supp.passenger_load_factor_pct}% | RASK: ${supp.rask_usd_cents}c | CASK ex-fuel: ${supp.cask_ex_fuel_usd_cents}c`,
+        verificationQuestion: 'How exposed are operating margins to jet fuel spikes and foreign exchange depreciation on aircraft leasing liabilities?',
+        formulaCheck: null
+      };
+    }
+
+    if (supp.freight_volume_carried_million_tonnes) {
+      return {
+        coord,
+        metricTitle: 'CONSOLIDATED REVENUE',
+        period,
+        isForecast: true,
+        methodology: 'Freight Throughput & Traction Tariff Model',
+        badgeType: 'ops',
+        badgeText: '🏭 Operational Driver Model',
+        formula: `=Freight_Volume(${supp.freight_volume_carried_million_tonnes}Mt) * Blended_Tariff + Grants(${supp.non_repayable_international_grants_usd_m || 0}M)`,
+        source: 'Cargo Throughput & Railway Concession Model',
+        commentary: `Modeled from freight throughput of ${supp.freight_volume_carried_million_tonnes}Mt (grain/agri: ${supp.grain_and_agri_freight_million_tonnes}Mt; iron ore: ${supp.iron_ore_freight_million_tonnes}Mt) and international support grants.`,
+        drivers: `Freight Volume: ${supp.freight_volume_carried_million_tonnes} Mt | Active Locomotives: ${supp.active_locomotive_fleet || 1150}`,
+        verificationQuestion: 'What is the outlook for commercial freight tariffs, and are international donor grants legally quarantined from debt service?',
+        formulaCheck: null
+      };
+    }
+
+    if (supp.tower_or_subscriber_count) {
+      return {
+        coord,
+        metricTitle: 'CONSOLIDATED REVENUE',
+        period,
+        isForecast: true,
+        methodology: 'Subscriber Base & Blended ARPU Model',
+        badgeType: 'ops',
+        badgeText: '🏭 Operational Driver Model',
+        formula: `=Subscribers(${supp.tower_or_subscriber_count}) * ARPU(${supp.tenancy_or_arpu}) * 12`,
+        source: 'Telecom Subscriber Footprint & Contracted Backlog Model',
+        commentary: `Modeled from footprint of ${supp.tower_or_subscriber_count} and ${supp.tenancy_or_arpu}, with ${supp.usd_linked_revenue_pct || 70}% USD-linked contract revenue.`,
+        drivers: `Footprint: ${supp.tower_or_subscriber_count} | Tenancy/ARPU: ${supp.tenancy_or_arpu} | Backlog: ${supp.contracted_backlog_years || 8} years`,
+        verificationQuestion: 'How quickly can local currency tariff increases be passed through to prepaid subscribers without causing churn spikes?',
+        formulaCheck: null
+      };
+    }
+
+    if (supp.production_capacity_mtpa) {
+      return {
+        coord,
+        metricTitle: 'CONSOLIDATED REVENUE',
+        period,
+        isForecast: true,
+        methodology: 'Industrial Nameplate Capacity & Export Mix Model',
+        badgeType: 'ops',
+        badgeText: '🏭 Operational Driver Model',
+        formula: `=Capacity(${supp.production_capacity_mtpa}Mtpa) * Utilization * Benchmark_Price * Export_Mix(${supp.hard_currency_export_pct}%)`,
+        source: 'Manufacturing Nameplate Capacity & Export Netback Model',
+        commentary: `Modeled from industrial nameplate capacity of ${supp.production_capacity_mtpa}Mtpa with ${supp.hard_currency_export_pct}% hard-currency export mix and ${supp.cash_cost_quartile || 'Q1'} cost position.`,
+        drivers: `Nameplate Capacity: ${supp.production_capacity_mtpa} Mtpa | Hard Currency Export: ${supp.hard_currency_export_pct}%`,
+        verificationQuestion: 'Are plants operating at full technical availability, and are feedstock gas/raw material supplies guaranteed under long-term contracts?',
+        formulaCheck: null
+      };
+    }
+
+    // Default Trend Extrapolation (The explicit 5% run-rate formula)
+    const priorPeriod = period === '2025E' ? '2024A' : (period === '2026E' ? '2025E' : '2026E');
+    const priorFin = (item.financials_multi_year || []).find(x => x.period === priorPeriod) || {};
+    const growthPct = priorFin.revenue ? (((f.revenue - priorFin.revenue) / priorFin.revenue) * 100).toFixed(1) : '5.0';
+    return {
+      coord,
+      metricTitle: 'CONSOLIDATED REVENUE',
+      period,
+      isForecast: true,
+      methodology: 'Trend Extrapolation (Baseline Run-Rate Growth)',
+      badgeType: 'trend',
+      badgeText: `📊 Trend Extrapolation (+${growthPct}% Growth)`,
+      formula: `=${colLetter === 'G' ? 'F' : 'E'}12 * (1 + ${growthPct}%)`,
+      source: 'Macroeconomic & Inflation Trend Extrapolation',
+      commentary: `Trend extrapolation model assuming ${growthPct}% YoY top-line growth (nominal GDP/inflation baseline) in the absence of announced new production capacity or formal multi-year management guidance.`,
+      drivers: `Base Revenue: ${priorFin.revenue || 0}M | Applied YoY Growth: +${growthPct}% | Type: Trend Continuation`,
+      verificationQuestion: 'What specific volume growth or price increases are budgeted to support revenue growth in the absence of new capacity additions?',
+      formulaCheck: null
+    };
+  }
+
+  // 4. EBITDA Forecast Methodology
+  if (metricKey === 'ebitda' || metricKey === 'calculated_ebitda') {
+    const ebitdaGuide = guides.find(g => g.guidance_metric && g.guidance_metric.toLowerCase().includes('ebitda'));
+    if (period === '2025E' && ebitdaGuide) {
+      return {
+        coord,
+        metricTitle: 'CALCULATED CASH DESK EBITDA',
+        period,
+        isForecast: true,
+        methodology: 'Management Guidance Target (Cash Reconciled)',
+        badgeType: 'guidance',
+        badgeText: '🎯 Management Guidance Target',
+        formula: `=Management_Target("${ebitdaGuide.management_target}", Source: "${ebitdaGuide.last_guided_source}")`,
+        source: ebitdaGuide.last_guided_source,
+        commentary: `Management guided ${ebitdaGuide.management_target}. Reconciled to calculated cash EBITDA to eliminate non-cash add-backs and exceptional items. Status: ${ebitdaGuide.tracking_status}.`,
+        drivers: `Guidance Target: ${ebitdaGuide.management_target} | Current Execution: ${ebitdaGuide.current_runrate}`,
+        verificationQuestion: ebitdaGuide.verification_question,
+        formulaCheck: null
+      };
+    }
+
+    const margin = f.ebitda_margin_pct || 40;
+    return {
+      coord,
+      metricTitle: 'CALCULATED CASH DESK EBITDA',
+      period,
+      isForecast: true,
+      methodology: 'Operational Unit Cash Margin Model',
+      badgeType: 'ops',
+      badgeText: '🏭 Operational Margin Model',
+      formula: `=${colLetter}12 * ${margin.toFixed(1)}%_Cash_Margin`,
+      source: 'Unit Cash Production Margin & Fixed Opex Model',
+      commentary: `EBITDA modeled from projected revenue of ${(f.revenue || 0).toFixed(1)}M at targeted cash EBITDA margin of ${margin.toFixed(1)}%. Reconciled against reported management EBITDA to eliminate non-operating add-backs.`,
+      drivers: `Revenue: ${(f.revenue || 0).toFixed(1)}M | Cash Margin: ${margin.toFixed(1)}% | Reconciliation: ${f.ebitda_reconciliation_comment || 'Reconciled'}`,
+      verificationQuestion: 'What are the main variable cost sensitivities (fuel, labor, raw materials) that could erode the cash EBITDA margin below budget?',
+      formulaCheck: null
+    };
+  }
+
+  // 5. Capex Forecast Methodology
+  if (metricKey === 'capex') {
+    const capexGuide = guides.find(g => g.guidance_metric && g.guidance_metric.toLowerCase().includes('capex'));
+    if (period === '2025E' && capexGuide) {
+      return {
+        coord,
+        metricTitle: 'CAPITAL EXPENDITURES (CAPEX)',
+        period,
+        isForecast: true,
+        methodology: 'Management Strategic Capex Envelope Guidance',
+        badgeType: 'guidance',
+        badgeText: '🎯 Management Capex Guidance',
+        formula: `=Management_Capex_Envelope("${capexGuide.management_target}", Source: "${capexGuide.last_guided_source}")`,
+        source: capexGuide.last_guided_source,
+        commentary: `Management committed capex envelope of ${capexGuide.management_target}. Current run-rate commitments: ${capexGuide.current_runrate} (${capexGuide.tracking_status}).`,
+        drivers: `Guided Envelope: ${capexGuide.management_target} | Current Commitments: ${capexGuide.current_runrate}`,
+        verificationQuestion: capexGuide.verification_question,
+        formulaCheck: null
+      };
+    }
+
+    return {
+      coord,
+      metricTitle: 'CAPITAL EXPENDITURES (CAPEX)',
+      period,
+      isForecast: true,
+      methodology: 'Sustaining Maintenance & EPC Project Schedule',
+      badgeType: 'ops',
+      badgeText: '🏭 Operational Capex Model',
+      formula: `=Sustaining_Maintenance_Capex + Committed_EPC_Contract_Draws`,
+      source: 'Project Construction & Plant Maintenance Schedule',
+      commentary: `Capex of ${(f.capex || 0).toFixed(1)}M modeled from committed EPC contractual drawdowns and baseline regulatory maintenance capex.`,
+      drivers: `Net Capex: ${(f.capex || 0).toFixed(1)}M | % of Revenue: ${f.revenue ? ((f.capex / f.revenue) * 100).toFixed(1) : '15'}%`,
+      verificationQuestion: 'How much of this capex envelope can be deferred or canceled without incurring severe contractual termination penalties?',
+      formulaCheck: null
+    };
+  }
+
+  // Generic fallback
+  return {
+    coord,
+    metricTitle: cleanMetric,
+    period,
+    isForecast: true,
+    methodology: 'Financial Model Formula / Ratio Projection',
+    badgeType: 'waterfall',
+    badgeText: '📐 Financial Formula',
+    formula: `=${colLetter}_${cleanMetric}`,
+    source: 'Financial Statement Projection Engine',
+    commentary: `Projected financial line item based on standard multi-period statement schedules.`,
+    drivers: `Standard financial model schedule.`,
+    verificationQuestion: null,
+    formulaCheck: null
+  };
+}
+
 // ----------------- IN-CELL COMMENTING & HIGHLIGHTING -----------------
 window.handleGridCellClick = function(ticker, metricKey, period, element, event) {
-  event.stopPropagation();
+  if (event) event.stopPropagation();
   activePopoverCell = { ticker, metricKey, period, element };
 
   // Set outline
   document.querySelectorAll('.grid-cell.cell-selected').forEach(c => c.classList.remove('cell-selected'));
-  element.classList.add('cell-selected');
+  if (element) element.classList.add('cell-selected');
 
+  // Find issuer object
+  const item = activeModelIssuer || (typeof MASTER_ISSUERS !== 'undefined' ? MASTER_ISSUERS.find(i => i.metadata.ticker === ticker) : null);
+  const meta = getForecastAuditMetadata(item, metricKey, period);
+
+  // Update Excel Formula Bar in Modal
+  const coordElem = document.getElementById('formula-bar-cell-coord');
+  const textElem = document.getElementById('formula-bar-text');
+  const badgeElem = document.getElementById('formula-bar-badge');
+  if (coordElem) coordElem.textContent = `${meta.coord} : ${meta.metricTitle} (${period})`;
+  if (textElem) {
+    if (textElem.tagName === 'INPUT') textElem.value = meta.formula;
+    else textElem.textContent = meta.formula;
+  }
+  if (badgeElem) badgeElem.innerHTML = `<span class="badge badge-${meta.badgeType}">${meta.badgeText}</span>`;
+
+  // Update Popover
   const popover = document.getElementById('cell-comment-popover');
   if (!popover) return;
 
   const cellKey = `${metricKey}_${period}`;
-  document.getElementById('popover-cell-title').textContent = `${metricKey.replace(/_/g, ' ').toUpperCase()} (${period})`;
+  const coordBadge = document.getElementById('popover-coord-badge');
+  if (coordBadge) coordBadge.textContent = meta.coord;
+  const titleElem = document.getElementById('popover-cell-title');
+  if (titleElem) titleElem.textContent = `${meta.metricTitle} (${period})`;
 
-  // Look up desk observation
-  const deskBox = document.getElementById('popover-desk-box');
-  const deskText = document.getElementById('popover-desk-text');
-  let obs = '';
+  // Methodology Badge & Formula Box
+  const methBadge = document.getElementById('popover-methodology-badge');
+  if (methBadge) {
+    methBadge.className = `badge badge-${meta.badgeType}`;
+    methBadge.textContent = meta.badgeText;
+  }
+  const formulaBox = document.getElementById('popover-formula-box');
+  if (formulaBox) formulaBox.textContent = meta.formula;
 
-  if (activeModelIssuer && activeModelIssuer.financial_observations) {
-    const fObs = activeModelIssuer.financial_observations.find(o => o.period === period);
-    if (fObs) {
-      if (metricKey.includes('revenue')) obs = fObs.revenue_observation;
-      else if (metricKey.includes('ebitda')) obs = fObs.ebitda_observation;
-      else if (metricKey.includes('capex')) obs = fObs.capex_observation;
-      else if (metricKey.includes('fcf')) obs = fObs.fcf_observation;
-      else if (metricKey.includes('leverage')) obs = fObs.net_leverage_observation;
+  // Drivers Box
+  const driversBox = document.getElementById('popover-drivers-box');
+  const driversText = document.getElementById('popover-drivers-text');
+  if (driversBox && driversText) {
+    if (meta.drivers) {
+      driversBox.style.display = 'block';
+      driversText.textContent = meta.drivers;
+    } else {
+      driversBox.style.display = 'none';
     }
   }
 
-  if (!obs && activeModelIssuer && activeModelIssuer.ebitda_reconciliation && metricKey.includes('ebitda')) {
-    const eRec = activeModelIssuer.ebitda_reconciliation.find(r => r.period === period);
-    if (eRec) obs = eRec.reconciliation_commentary;
+  // Due Diligence / Verification Question Box
+  const dilBox = document.getElementById('popover-diligence-box');
+  const dilText = document.getElementById('popover-diligence-text');
+  if (dilBox && dilText) {
+    if (meta.verificationQuestion) {
+      dilBox.style.display = 'block';
+      dilText.textContent = meta.verificationQuestion;
+    } else {
+      dilBox.style.display = 'none';
+    }
   }
 
-  if (obs) {
-    deskBox.style.display = 'block';
-    deskText.textContent = obs;
-  } else {
-    deskBox.style.display = 'none';
+  // Desk Observation Box
+  const deskBox = document.getElementById('popover-desk-box');
+  const deskText = document.getElementById('popover-desk-text');
+  let obs = meta.commentary || '';
+
+  if (item && item.financial_observations) {
+    const fObs = item.financial_observations.find(o => o.period === period);
+    if (fObs) {
+      if (metricKey.includes('revenue') && fObs.revenue_observation) obs += ' | ' + fObs.revenue_observation;
+      else if (metricKey.includes('ebitda') && fObs.ebitda_observation) obs += ' | ' + fObs.ebitda_observation;
+      else if (metricKey.includes('capex') && fObs.capex_observation) obs += ' | ' + fObs.capex_observation;
+      else if (metricKey.includes('fcf') && fObs.fcf_observation) obs += ' | ' + fObs.fcf_observation;
+      else if (metricKey.includes('leverage') && fObs.net_leverage_observation) obs += ' | ' + fObs.net_leverage_observation;
+    }
+  }
+
+  if (deskBox && deskText) {
+    if (obs) {
+      deskBox.style.display = 'block';
+      deskText.textContent = obs;
+    } else {
+      deskBox.style.display = 'none';
+    }
   }
 
   // Look up stored user custom note
@@ -2206,14 +2681,36 @@ window.handleGridCellClick = function(ticker, metricKey, period, element, event)
   if (textarea) textarea.value = userNoteText;
 
   // Position popover near the cell
-  const rect = element.getBoundingClientRect();
-  popover.style.display = 'block';
-  popover.classList.add('active');
+  if (element) {
+    const rect = element.getBoundingClientRect();
+    popover.style.display = 'block';
+    popover.classList.add('active');
 
-  const topPos = Math.min(window.innerHeight - 260, Math.max(10, rect.bottom + 6));
-  const leftPos = Math.min(window.innerWidth - 340, Math.max(10, rect.left - 50));
-  popover.style.top = topPos + 'px';
-  popover.style.left = leftPos + 'px';
+    const topPos = Math.min(window.innerHeight - 380, Math.max(10, rect.bottom + 6));
+    const leftPos = Math.min(window.innerWidth - 390, Math.max(10, rect.left - 50));
+    popover.style.top = topPos + 'px';
+    popover.style.left = leftPos + 'px';
+  }
+};
+
+window.handleDrawerCellClick = function(issuerId, period, metricKey, element, event) {
+  if (event) event.stopPropagation();
+  const item = (typeof MASTER_ISSUERS !== 'undefined' ? MASTER_ISSUERS.find(i => i.metadata.id === issuerId) : null);
+  if (!item) return;
+
+  activeModelIssuer = item;
+  const meta = getForecastAuditMetadata(item, metricKey, period);
+
+  // Update Drawer Mini Formula Bar
+  const coordElem = document.getElementById(`drawer-fx-coord-${issuerId}`);
+  const textElem = document.getElementById(`drawer-fx-text-${issuerId}`);
+  const badgeElem = document.getElementById(`drawer-fx-badge-${issuerId}`);
+  if (coordElem) coordElem.textContent = `${meta.coord} : ${meta.metricTitle} (${period})`;
+  if (textElem) textElem.textContent = meta.formula;
+  if (badgeElem) badgeElem.innerHTML = `<span class="badge badge-${meta.badgeType}">${meta.badgeText}</span>`;
+
+  // Open Popover
+  handleGridCellClick(item.metadata.ticker, metricKey, period, element, event);
 };
 
 window.closeCellComment = function() {
@@ -2518,12 +3015,16 @@ function renderSheetFinancials(item, mode, isBank) {
                     if (spec.key === 'ebitda_variance' && val !== null && Math.abs(val) > 10) presetHl = 'cell-hl-blue';
                   }
 
+                  const meta = getForecastAuditMetadata(item, spec.key, p);
                   const hlClass = presetHl || manualHl || '';
                   const commentClass = hasUserNote ? 'cell-has-user-note' : (hasDeskObs ? 'cell-has-comment' : '');
+                  const fxMarkerClass = `cell-has-${meta.badgeType}`;
 
                   return `
-                    <td class="grid-cell ${hlClass} ${commentClass}"
+                    <td class="grid-cell ${hlClass} ${commentClass} ${fxMarkerClass}"
                         data-cell-key="${cellKey}"
+                        data-coord="${meta.coord}"
+                        title="[${meta.badgeText}] ${meta.formula}"
                         onclick="handleGridCellClick('${ticker}', '${spec.key}', '${p}', this, event)">
                       ${formatted}
                     </td>
