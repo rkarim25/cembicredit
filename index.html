@@ -8,7 +8,7 @@
   <script src="js/issuers_data.js"></script>
   <script src="js/history_data.js"></script>
   <script src="js/news_data.js"></script>
-<script src="js/app.js?v=20260920_rev8"></script>
+<script src="js/app.js?v=20260920_rev9"></script>
 </head>
 <body>
 
@@ -241,6 +241,17 @@
       </div>
 
       <!-- Modal Body (Dynamic Sheet Content) -->
+            <!-- Excel Formula Bar (fx) -->
+      <div class="excel-formula-bar" id="model-formula-bar">
+        <div class="fx-namebox" id="formula-bar-cell-coord" title="Active Cell Coordinate">READY</div>
+        <div class="fx-divider"></div>
+        <div class="fx-symbol" title="Formula">fx</div>
+        <div class="fx-formula-input" id="formula-bar-text">Click any forecast or calculated cell below to inspect its formula, guidance target, or operational drivers.</div>
+        <div class="fx-badge-container" id="formula-bar-badge">
+          <span class="badge" style="background:#1e293b; color:#94a3b8; font-size:10.5px;">Excel Formula Engine</span>
+        </div>
+      </div>
+
       <div class="model-modal-body" id="modal-sheet-body">
         <!-- Injected dynamically by renderModelSheet() in app.js -->
       </div>
