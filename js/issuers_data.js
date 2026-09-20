@@ -499,35 +499,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1782.0M (+8.0% YoY growth)",
         "current_runrate": "$1757.2M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "ACWA Power FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1782.0M (+8.0% YoY growth). With current run-rate at $1757.2M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1012.0M (56.8% margin)",
         "current_runrate": "$993.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "ACWA Power FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1012.0M (56.8% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "3.85x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with 0.65x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.65x buffer below covenant limit.",
+        "last_guided_source": "ACWA Power FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 3.85x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$338.1M (Maximum growth and sustaining envelope)",
         "current_runrate": "$311.1M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "ACWA Power FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $338.1M (Maximum growth and sustaining envelope). Current commitments stand at $311.1M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "ACWA Power FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -1104,35 +1124,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Abu Dhabi Commercial Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "2.80% - 3.05%",
         "current_runrate": "2.92%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Abu Dhabi Commercial Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 2.80% - 3.05%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Abu Dhabi Commercial Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Abu Dhabi Commercial Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Abu Dhabi Commercial Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -1660,35 +1700,55 @@ const MASTER_ISSUERS = [
         "management_target": "$453.6M (+8.0% YoY growth)",
         "current_runrate": "$447.3M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "ADM Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $453.6M (+8.0% YoY growth). With current run-rate at $447.3M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$159.5M (35.2% margin)",
         "current_runrate": "$156.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "ADM Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $159.5M (35.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "2.62x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.88x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.88x buffer below covenant limit.",
+        "last_guided_source": "ADM Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 2.62x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$53.3M (Maximum growth and sustaining envelope)",
         "current_runrate": "$49.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "ADM Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $53.3M (Maximum growth and sustaining envelope). Current commitments stand at $49.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "ADM Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -2216,35 +2276,55 @@ const MASTER_ISSUERS = [
         "management_target": "$529.2M (+8.0% YoY growth)",
         "current_runrate": "$521.9M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $529.2M (+8.0% YoY growth). With current run-rate at $521.9M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$181.5M (34.3% margin)",
         "current_runrate": "$178.2M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $181.5M (34.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.52x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.23x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.23x buffer below covenant limit.",
+        "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.52x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$60.6M (Maximum growth and sustaining envelope)",
         "current_runrate": "$55.8M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $60.6M (Maximum growth and sustaining envelope). Current commitments stand at $55.8M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -2814,35 +2894,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Akbank TAS Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "5.80% - 6.05%",
         "current_runrate": "5.92%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Akbank TAS Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 5.80% - 6.05%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Akbank TAS Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Akbank TAS Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Akbank TAS Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -3374,35 +3474,55 @@ const MASTER_ISSUERS = [
         "management_target": "$4212.0M (+8.0% YoY growth)",
         "current_runrate": "$4153.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Aldar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $4212.0M (+8.0% YoY growth). With current run-rate at $4153.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1705.0M (40.5% margin)",
         "current_runrate": "$1674.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Aldar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1705.0M (40.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.00x Net Debt / EBITDA",
         "current_runrate": "0.51x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.99x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.99x buffer below covenant limit.",
+        "last_guided_source": "Aldar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.00x Net Debt / EBITDA. Current actual leverage stands at 0.51x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$569.6M (Maximum growth and sustaining envelope)",
         "current_runrate": "$524.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Aldar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $569.6M (Maximum growth and sustaining envelope). Current commitments stand at $524.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Aldar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -3927,35 +4047,55 @@ const MASTER_ISSUERS = [
         "management_target": "$993.6M (+8.0% YoY growth)",
         "current_runrate": "$979.8M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Arada Developments FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $993.6M (+8.0% YoY growth). With current run-rate at $979.8M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$297.0M (29.9% margin)",
         "current_runrate": "$291.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Arada Developments FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $297.0M (29.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.00x Net Debt / EBITDA",
         "current_runrate": "1.89x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.61x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.61x buffer below covenant limit.",
+        "last_guided_source": "Arada Developments FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.00x Net Debt / EBITDA. Current actual leverage stands at 1.89x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$99.2M (Maximum growth and sustaining envelope)",
         "current_runrate": "$91.3M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Arada Developments FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $99.2M (Maximum growth and sustaining envelope). Current commitments stand at $91.3M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Arada Developments FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -4471,35 +4611,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1566.0M (+8.0% YoY growth)",
         "current_runrate": "$1544.2M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1566.0M (+8.0% YoY growth). With current run-rate at $1544.2M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$176.0M (11.2% margin)",
         "current_runrate": "$172.8M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $176.0M (11.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.63x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.12x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.12x buffer below covenant limit.",
+        "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.63x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$58.8M (Maximum growth and sustaining envelope)",
         "current_runrate": "$54.1M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $58.8M (Maximum growth and sustaining envelope). Current commitments stand at $54.1M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -5027,35 +5187,55 @@ const MASTER_ISSUERS = [
         "management_target": "$280.8M (+8.0% YoY growth)",
         "current_runrate": "$276.9M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Aydem Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $280.8M (+8.0% YoY growth). With current run-rate at $276.9M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$209.0M (74.4% margin)",
         "current_runrate": "$205.2M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Aydem Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $209.0M (74.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "4.11x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with 0.39x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.39x buffer below covenant limit.",
+        "last_guided_source": "Aydem Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 4.11x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$69.8M (Maximum growth and sustaining envelope)",
         "current_runrate": "$64.2M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Aydem Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $69.8M (Maximum growth and sustaining envelope). Current commitments stand at $64.2M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Aydem Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -5584,35 +5764,55 @@ const MASTER_ISSUERS = [
         "management_target": "$3672.0M (+8.0% YoY growth)",
         "current_runrate": "$3621.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Azule Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $3672.0M (+8.0% YoY growth). With current run-rate at $3621.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$2475.0M (67.4% margin)",
         "current_runrate": "$2430.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Azule Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $2475.0M (67.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.58x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.17x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.17x buffer below covenant limit.",
+        "last_guided_source": "Azule Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.58x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$826.9M (Maximum growth and sustaining envelope)",
         "current_runrate": "$760.7M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Azule Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $826.9M (Maximum growth and sustaining envelope). Current commitments stand at $760.7M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Azule Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -6141,35 +6341,55 @@ const MASTER_ISSUERS = [
         "management_target": "$9180.0M (+8.0% YoY growth)",
         "current_runrate": "$9052.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Bapco Energies (nogaholding) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $9180.0M (+8.0% YoY growth). With current run-rate at $9052.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1375.0M (15.0% margin)",
         "current_runrate": "$1350.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Bapco Energies (nogaholding) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1375.0M (15.0% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "3.40x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with 0.35x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.35x buffer below covenant limit.",
+        "last_guided_source": "Bapco Energies (nogaholding) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 3.40x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$459.4M (Maximum growth and sustaining envelope)",
         "current_runrate": "$422.6M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Bapco Energies (nogaholding) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $459.4M (Maximum growth and sustaining envelope). Current commitments stand at $422.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Bapco Energies (nogaholding) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -6712,35 +6932,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1350.0M (+8.0% YoY growth)",
         "current_runrate": "$1331.2M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Binghatti Holding Capital Markets Presentation & Global Sukuk Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1350.0M (+8.0% YoY growth). With current run-rate at $1331.2M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$418.0M (31.0% margin)",
         "current_runrate": "$410.4M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Binghatti Holding Capital Markets Presentation & Global Sukuk Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $418.0M (31.0% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.00x Net Debt / EBITDA",
         "current_runrate": "0.89x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.61x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.61x buffer below covenant limit.",
+        "last_guided_source": "Binghatti Holding Capital Markets Presentation & Global Sukuk Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.00x Net Debt / EBITDA. Current actual leverage stands at 0.89x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$139.7M (Maximum growth and sustaining envelope)",
         "current_runrate": "$128.5M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Binghatti Holding Capital Markets Presentation & Global Sukuk Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $139.7M (Maximum growth and sustaining envelope). Current commitments stand at $128.5M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Binghatti Holding Capital Markets Presentation & Global Sukuk Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -7256,35 +7496,55 @@ const MASTER_ISSUERS = [
         "management_target": "$4104.0M (+8.0% YoY growth)",
         "current_runrate": "$4047.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $4104.0M (+8.0% YoY growth). With current run-rate at $4047.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$792.0M (19.3% margin)",
         "current_runrate": "$777.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $792.0M (19.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.05x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.70x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.70x buffer below covenant limit.",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.05x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$264.6M (Maximum growth and sustaining envelope)",
         "current_runrate": "$243.4M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $264.6M (Maximum growth and sustaining envelope). Current commitments stand at $243.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -7812,35 +8072,55 @@ const MASTER_ISSUERS = [
         "management_target": "$16416.0M (+8.0% YoY growth)",
         "current_runrate": "$16188.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $16416.0M (+8.0% YoY growth). With current run-rate at $16188.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$4620.0M (28.1% margin)",
         "current_runrate": "$4536.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $4620.0M (28.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "1.40x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit.",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 1.40x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1543.5M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1420.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1543.5M (Maximum growth and sustaining envelope). Current commitments stand at $1420.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -8372,35 +8652,55 @@ const MASTER_ISSUERS = [
         "management_target": "$2268.0M (+8.0% YoY growth)",
         "current_runrate": "$2236.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $2268.0M (+8.0% YoY growth). With current run-rate at $2236.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$748.0M (33.0% margin)",
         "current_runrate": "$734.4M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $748.0M (33.0% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.00x Net Debt / EBITDA",
         "current_runrate": "0.29x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 3.21x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 3.21x buffer below covenant limit.",
+        "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.00x Net Debt / EBITDA. Current actual leverage stands at 0.29x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$249.9M (Maximum growth and sustaining envelope)",
         "current_runrate": "$229.9M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $249.9M (Maximum growth and sustaining envelope). Current commitments stand at $229.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -8920,35 +9220,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1512.0M (+8.0% YoY growth)",
         "current_runrate": "$1491.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Dangote Fertiliser FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1512.0M (+8.0% YoY growth). With current run-rate at $1491.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$715.0M (47.3% margin)",
         "current_runrate": "$702.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Dangote Fertiliser FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $715.0M (47.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.77x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 0.98x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.98x buffer below covenant limit.",
+        "last_guided_source": "Dangote Fertiliser FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.77x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$238.9M (Maximum growth and sustaining envelope)",
         "current_runrate": "$219.8M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Dangote Fertiliser FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $238.9M (Maximum growth and sustaining envelope). Current commitments stand at $219.8M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Dangote Fertiliser FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -9488,35 +9808,55 @@ const MASTER_ISSUERS = [
         "management_target": "$108.0M (+8.0% YoY growth)",
         "current_runrate": "$106.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Dangote Refinery & Petrochemicals Integrated Operations & Investor Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $108.0M (+8.0% YoY growth). With current run-rate at $106.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$110.0M (101.9% margin)",
         "current_runrate": "$108.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Dangote Refinery & Petrochemicals Integrated Operations & Investor Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $110.0M (101.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.43x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.32x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.32x buffer below covenant limit.",
+        "last_guided_source": "Dangote Refinery & Petrochemicals Integrated Operations & Investor Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.43x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$36.8M (Maximum growth and sustaining envelope)",
         "current_runrate": "$33.9M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Dangote Refinery & Petrochemicals Integrated Operations & Investor Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $36.8M (Maximum growth and sustaining envelope). Current commitments stand at $33.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Dangote Refinery & Petrochemicals Integrated Operations & Investor Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -10048,35 +10388,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1188.0M (+8.0% YoY growth)",
         "current_runrate": "$1171.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Dar Al Arkan FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1188.0M (+8.0% YoY growth). With current run-rate at $1171.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$396.0M (33.3% margin)",
         "current_runrate": "$388.8M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Dar Al Arkan FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $396.0M (33.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.00x Net Debt / EBITDA",
         "current_runrate": "3.47x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with 0.03x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.03x buffer below covenant limit.",
+        "last_guided_source": "Dar Al Arkan FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.00x Net Debt / EBITDA. Current actual leverage stands at 3.47x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$132.3M (Maximum growth and sustaining envelope)",
         "current_runrate": "$121.7M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Dar Al Arkan FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $132.3M (Maximum growth and sustaining envelope). Current commitments stand at $121.7M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Dar Al Arkan FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -10646,35 +11006,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Dubai Islamic Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "3.10% - 3.35%",
         "current_runrate": "3.22%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Dubai Islamic Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 3.10% - 3.35%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Dubai Islamic Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Dubai Islamic Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Dubai Islamic Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -11201,35 +11581,55 @@ const MASTER_ISSUERS = [
         "management_target": "$19656.0M (+8.0% YoY growth)",
         "current_runrate": "$19383.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "DP World FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $19656.0M (+8.0% YoY growth). With current run-rate at $19383.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$5610.0M (28.5% margin)",
         "current_runrate": "$5508.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "DP World FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $5610.0M (28.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "3.23x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with 0.52x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.52x buffer below covenant limit.",
+        "last_guided_source": "DP World FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 3.23x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1874.2M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1724.3M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "DP World FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1874.2M (Maximum growth and sustaining envelope). Current commitments stand at $1724.3M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "DP World FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -11757,35 +12157,55 @@ const MASTER_ISSUERS = [
         "management_target": "$2592.0M (+8.0% YoY growth)",
         "current_runrate": "$2556.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "DTEK Energy FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $2592.0M (+8.0% YoY growth). With current run-rate at $2556.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$462.0M (17.8% margin)",
         "current_runrate": "$453.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "DTEK Energy FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $462.0M (17.8% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "3.02x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.48x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.48x buffer below covenant limit.",
+        "last_guided_source": "DTEK Energy FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 3.02x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$154.3M (Maximum growth and sustaining envelope)",
         "current_runrate": "$142.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "DTEK Energy FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $154.3M (Maximum growth and sustaining envelope). Current commitments stand at $142.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "DTEK Energy FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -12317,35 +12737,55 @@ const MASTER_ISSUERS = [
         "management_target": "$8424.0M (+8.0% YoY growth)",
         "current_runrate": "$8307.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Emaar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $8424.0M (+8.0% YoY growth). With current run-rate at $8307.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$3520.0M (41.8% margin)",
         "current_runrate": "$3456.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Emaar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $3520.0M (41.8% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.00x Net Debt / EBITDA",
         "current_runrate": "100.00x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with -96.50x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with -96.50x buffer below covenant limit.",
+        "last_guided_source": "Emaar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.00x Net Debt / EBITDA. Current actual leverage stands at 100.00x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1176.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1081.9M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Emaar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1176.0M (Maximum growth and sustaining envelope). Current commitments stand at $1081.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Emaar Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -12870,35 +13310,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1512.0M (+8.0% YoY growth)",
         "current_runrate": "$1491.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Emlak Konut FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1512.0M (+8.0% YoY growth). With current run-rate at $1491.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$385.0M (25.5% margin)",
         "current_runrate": "$378.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Emlak Konut FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $385.0M (25.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.00x Net Debt / EBITDA",
         "current_runrate": "0.49x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 3.01x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 3.01x buffer below covenant limit.",
+        "last_guided_source": "Emlak Konut FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.00x Net Debt / EBITDA. Current actual leverage stands at 0.49x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$128.6M (Maximum growth and sustaining envelope)",
         "current_runrate": "$118.3M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Emlak Konut FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $128.6M (Maximum growth and sustaining envelope). Current commitments stand at $118.3M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Emlak Konut FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -13468,35 +13928,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Emirates NBD Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "3.60% - 3.85%",
         "current_runrate": "3.72%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Emirates NBD Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 3.60% - 3.85%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Emirates NBD Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Emirates NBD Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Emirates NBD Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -14023,35 +14503,55 @@ const MASTER_ISSUERS = [
         "management_target": "$3672.0M (+8.0% YoY growth)",
         "current_runrate": "$3621.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "EQUATE Petrochemical FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $3672.0M (+8.0% YoY growth). With current run-rate at $3621.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1078.0M (29.4% margin)",
         "current_runrate": "$1058.4M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "EQUATE Petrochemical FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1078.0M (29.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.65x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.10x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.10x buffer below covenant limit.",
+        "last_guided_source": "EQUATE Petrochemical FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.65x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$360.2M (Maximum growth and sustaining envelope)",
         "current_runrate": "$331.4M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "EQUATE Petrochemical FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $360.2M (Maximum growth and sustaining envelope). Current commitments stand at $331.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "EQUATE Petrochemical FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -14578,35 +15078,55 @@ const MASTER_ISSUERS = [
         "management_target": "$7344.0M (+8.0% YoY growth)",
         "current_runrate": "$7242.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Erdemir FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $7344.0M (+8.0% YoY growth). With current run-rate at $7242.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$935.0M (12.7% margin)",
         "current_runrate": "$918.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Erdemir FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $935.0M (12.7% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.12x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.63x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.63x buffer below covenant limit.",
+        "last_guided_source": "Erdemir FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.12x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$312.4M (Maximum growth and sustaining envelope)",
         "current_runrate": "$287.4M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Erdemir FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $312.4M (Maximum growth and sustaining envelope). Current commitments stand at $287.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Erdemir FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -15134,35 +15654,55 @@ const MASTER_ISSUERS = [
         "management_target": "$15660.0M (+8.0% YoY growth)",
         "current_runrate": "$15442.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Eskom Holdings FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $15660.0M (+8.0% YoY growth). With current run-rate at $15442.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$2420.0M (15.5% margin)",
         "current_runrate": "$2376.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Eskom Holdings FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $2420.0M (15.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "6.80x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with -2.30x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with -2.30x buffer below covenant limit.",
+        "last_guided_source": "Eskom Holdings FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 6.80x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$808.5M (Maximum growth and sustaining envelope)",
         "current_runrate": "$743.8M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Eskom Holdings FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $808.5M (Maximum growth and sustaining envelope). Current commitments stand at $743.8M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Eskom Holdings FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -15739,35 +16279,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "First Abu Dhabi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "2.40% - 2.65%",
         "current_runrate": "2.52%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "First Abu Dhabi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 2.40% - 2.65%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "First Abu Dhabi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "First Abu Dhabi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "First Abu Dhabi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -16344,35 +16904,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "FirstRand Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "4.60% - 4.85%",
         "current_runrate": "4.72%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "FirstRand Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 4.60% - 4.85%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "FirstRand Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "FirstRand Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "FirstRand Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -16949,35 +17529,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Garanti BBVA Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "5.90% - 6.15%",
         "current_runrate": "6.02%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Garanti BBVA Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 5.90% - 6.15%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Garanti BBVA Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Garanti BBVA Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Garanti BBVA Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -17505,35 +18105,55 @@ const MASTER_ISSUERS = [
         "management_target": "$626.4M (+8.0% YoY growth)",
         "current_runrate": "$617.7M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "GDZ Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $626.4M (+8.0% YoY growth). With current run-rate at $617.7M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$214.5M (34.2% margin)",
         "current_runrate": "$210.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "GDZ Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $214.5M (34.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "2.62x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.88x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.88x buffer below covenant limit.",
+        "last_guided_source": "GDZ Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 2.62x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$71.7M (Maximum growth and sustaining envelope)",
         "current_runrate": "$66.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "GDZ Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $71.7M (Maximum growth and sustaining envelope). Current commitments stand at $66.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "GDZ Elektrik FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -18060,35 +18680,55 @@ const MASTER_ISSUERS = [
         "management_target": "$4860.0M (+8.0% YoY growth)",
         "current_runrate": "$4792.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Gold Fields Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $4860.0M (+8.0% YoY growth). With current run-rate at $4792.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$2310.0M (47.5% margin)",
         "current_runrate": "$2268.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Gold Fields Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $2310.0M (47.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "0.85x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.90x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.90x buffer below covenant limit.",
+        "last_guided_source": "Gold Fields Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 0.85x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$771.8M (Maximum growth and sustaining envelope)",
         "current_runrate": "$710.1M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Gold Fields Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $771.8M (Maximum growth and sustaining envelope). Current commitments stand at $710.1M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Gold Fields Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -18665,35 +19305,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Halkbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "4.50% - 4.75%",
         "current_runrate": "4.62%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Halkbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 4.50% - 4.75%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Halkbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Halkbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Halkbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -19270,35 +19930,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Halyk Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "6.20% - 6.45%",
         "current_runrate": "6.32%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Halyk Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 6.20% - 6.45%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Halyk Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Halyk Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Halyk Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -19826,35 +20506,55 @@ const MASTER_ISSUERS = [
         "management_target": "$799.2M (+8.0% YoY growth)",
         "current_runrate": "$788.1M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Helios Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $799.2M (+8.0% YoY growth). With current run-rate at $788.1M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$423.5M (53.0% margin)",
         "current_runrate": "$415.8M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Helios Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $423.5M (53.0% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "4.49x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with -0.74x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with -0.74x buffer below covenant limit.",
+        "last_guided_source": "Helios Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 4.49x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$141.5M (Maximum growth and sustaining envelope)",
         "current_runrate": "$130.2M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Helios Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $141.5M (Maximum growth and sustaining envelope). Current commitments stand at $130.2M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Helios Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -20375,35 +21075,55 @@ const MASTER_ISSUERS = [
         "management_target": "$2592.0M (+8.0% YoY growth)",
         "current_runrate": "$2556.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Hidroelectrica FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $2592.0M (+8.0% YoY growth). With current run-rate at $2556.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1705.0M (65.8% margin)",
         "current_runrate": "$1674.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Hidroelectrica FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1705.0M (65.8% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "0.40x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 4.10x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 4.10x buffer below covenant limit.",
+        "last_guided_source": "Hidroelectrica FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 0.40x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$569.6M (Maximum growth and sustaining envelope)",
         "current_runrate": "$524.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Hidroelectrica FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $569.6M (Maximum growth and sustaining envelope). Current commitments stand at $524.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Hidroelectrica FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -20931,35 +21651,55 @@ const MASTER_ISSUERS = [
         "management_target": "$2322.0M (+8.0% YoY growth)",
         "current_runrate": "$2289.8M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "IHS Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $2322.0M (+8.0% YoY growth). With current run-rate at $2289.8M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1232.0M (53.1% margin)",
         "current_runrate": "$1209.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "IHS Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1232.0M (53.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "3.16x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with 0.59x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.59x buffer below covenant limit.",
+        "last_guided_source": "IHS Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 3.16x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$411.6M (Maximum growth and sustaining envelope)",
         "current_runrate": "$378.7M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "IHS Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $411.6M (Maximum growth and sustaining envelope). Current commitments stand at $378.7M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "IHS Towers FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -21529,35 +22269,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "5.40% - 5.65%",
         "current_runrate": "5.52%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 5.40% - 5.65%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -22080,35 +22840,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1134.0M (+8.0% YoY growth)",
         "current_runrate": "$1118.2M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Ittihad Investment FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1134.0M (+8.0% YoY growth). With current run-rate at $1118.2M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$214.5M (18.9% margin)",
         "current_runrate": "$210.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Ittihad Investment FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $214.5M (18.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.41x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.34x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.34x buffer below covenant limit.",
+        "last_guided_source": "Ittihad Investment FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.41x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$71.7M (Maximum growth and sustaining envelope)",
         "current_runrate": "$66.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Ittihad Investment FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $71.7M (Maximum growth and sustaining envelope). Current commitments stand at $66.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Ittihad Investment FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -22685,35 +23465,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Kuwait Finance House (KFH) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "3.10% - 3.35%",
         "current_runrate": "3.22%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Kuwait Finance House (KFH) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 3.10% - 3.35%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Kuwait Finance House (KFH) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Kuwait Finance House (KFH) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Kuwait Finance House (KFH) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -23242,35 +24042,55 @@ const MASTER_ISSUERS = [
         "management_target": "$19656.0M (+8.0% YoY growth)",
         "current_runrate": "$19383.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "KazMunayGas (KMG) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $19656.0M (+8.0% YoY growth). With current run-rate at $19383.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$5280.0M (26.9% margin)",
         "current_runrate": "$5184.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "KazMunayGas (KMG) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $5280.0M (26.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.45x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit.",
+        "last_guided_source": "KazMunayGas (KMG) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.45x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1764.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1622.9M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "KazMunayGas (KMG) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1764.0M (Maximum growth and sustaining envelope). Current commitments stand at $1622.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "KazMunayGas (KMG) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -23793,35 +24613,55 @@ const MASTER_ISSUERS = [
         "management_target": "$45360.0M (+8.0% YoY growth)",
         "current_runrate": "$44730.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $45360.0M (+8.0% YoY growth). With current run-rate at $44730.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$5280.0M (11.6% margin)",
         "current_runrate": "$5184.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $5280.0M (11.6% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.25x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.50x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.50x buffer below covenant limit.",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.25x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1764.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1622.9M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1764.0M (Maximum growth and sustaining envelope). Current commitments stand at $1622.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -24350,35 +25190,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1890.0M (+8.0% YoY growth)",
         "current_runrate": "$1863.8M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Kosmos Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1890.0M (+8.0% YoY growth). With current run-rate at $1863.8M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1155.0M (61.1% margin)",
         "current_runrate": "$1134.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Kosmos Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1155.0M (61.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.31x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.44x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.44x buffer below covenant limit.",
+        "last_guided_source": "Kosmos Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.31x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$385.9M (Maximum growth and sustaining envelope)",
         "current_runrate": "$355.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Kosmos Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $385.9M (Maximum growth and sustaining envelope). Current commitments stand at $355.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Kosmos Energy FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -24905,35 +25765,55 @@ const MASTER_ISSUERS = [
         "management_target": "$712.8M (+8.0% YoY growth)",
         "current_runrate": "$702.9M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Limak Cement FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $712.8M (+8.0% YoY growth). With current run-rate at $702.9M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$203.5M (28.5% margin)",
         "current_runrate": "$199.8M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Limak Cement FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $203.5M (28.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.27x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.48x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.48x buffer below covenant limit.",
+        "last_guided_source": "Limak Cement FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.27x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$68.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$62.6M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Limak Cement FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $68.0M (Maximum growth and sustaining envelope). Current commitments stand at $62.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Limak Cement FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -25460,35 +26340,55 @@ const MASTER_ISSUERS = [
         "management_target": "$129.6M (+8.0% YoY growth)",
         "current_runrate": "$127.8M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $129.6M (+8.0% YoY growth). With current run-rate at $127.8M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$85.8M (66.2% margin)",
         "current_runrate": "$84.2M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $85.8M (66.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "3.08x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with 0.67x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.67x buffer below covenant limit.",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 3.08x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$28.7M (Maximum growth and sustaining envelope)",
         "current_runrate": "$26.4M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $28.7M (Maximum growth and sustaining envelope). Current commitments stand at $26.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -26016,35 +26916,55 @@ const MASTER_ISSUERS = [
         "management_target": "$410.4M (+8.0% YoY growth)",
         "current_runrate": "$404.7M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Limak Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $410.4M (+8.0% YoY growth). With current run-rate at $404.7M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$302.5M (73.7% margin)",
         "current_runrate": "$297.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Limak Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $302.5M (73.7% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "4.00x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with 0.50x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.50x buffer below covenant limit.",
+        "last_guided_source": "Limak Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 4.00x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$101.1M (Maximum growth and sustaining envelope)",
         "current_runrate": "$93.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Limak Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $101.1M (Maximum growth and sustaining envelope). Current commitments stand at $93.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Limak Renewable FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -26572,35 +27492,55 @@ const MASTER_ISSUERS = [
         "management_target": "$734.4M (+8.0% YoY growth)",
         "current_runrate": "$724.2M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Liquid Telecom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $734.4M (+8.0% YoY growth). With current run-rate at $724.2M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$231.0M (31.5% margin)",
         "current_runrate": "$226.8M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Liquid Telecom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $231.0M (31.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "5.12x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with -1.37x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with -1.37x buffer below covenant limit.",
+        "last_guided_source": "Liquid Telecom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 5.12x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$77.2M (Maximum growth and sustaining envelope)",
         "current_runrate": "$71.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Liquid Telecom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $77.2M (Maximum growth and sustaining envelope). Current commitments stand at $71.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Liquid Telecom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -27116,35 +28056,55 @@ const MASTER_ISSUERS = [
         "management_target": "$10584.0M (+8.0% YoY growth)",
         "current_runrate": "$10437.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Majid Al Futtaim (MAF) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $10584.0M (+8.0% YoY growth). With current run-rate at $10437.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1595.0M (15.1% margin)",
         "current_runrate": "$1566.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Majid Al Futtaim (MAF) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1595.0M (15.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.85x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 0.90x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.90x buffer below covenant limit.",
+        "last_guided_source": "Majid Al Futtaim (MAF) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.85x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$532.9M (Maximum growth and sustaining envelope)",
         "current_runrate": "$490.3M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Majid Al Futtaim (MAF) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $532.9M (Maximum growth and sustaining envelope). Current commitments stand at $490.3M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Majid Al Futtaim (MAF) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -27671,35 +28631,55 @@ const MASTER_ISSUERS = [
         "management_target": "$8208.0M (+8.0% YoY growth)",
         "current_runrate": "$8094.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $8208.0M (+8.0% YoY growth). With current run-rate at $8094.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1012.0M (12.3% margin)",
         "current_runrate": "$993.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1012.0M (12.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.79x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.96x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.96x buffer below covenant limit.",
+        "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.79x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$338.1M (Maximum growth and sustaining envelope)",
         "current_runrate": "$311.1M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $338.1M (Maximum growth and sustaining envelope). Current commitments stand at $311.1M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -28222,35 +29202,55 @@ const MASTER_ISSUERS = [
         "management_target": "$3348.0M (+8.0% YoY growth)",
         "current_runrate": "$3301.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $3348.0M (+8.0% YoY growth). With current run-rate at $3301.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$506.0M (15.1% margin)",
         "current_runrate": "$496.8M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $506.0M (15.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.89x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 0.86x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 0.86x buffer below covenant limit.",
+        "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.89x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$169.1M (Maximum growth and sustaining envelope)",
         "current_runrate": "$155.6M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $169.1M (Maximum growth and sustaining envelope). Current commitments stand at $155.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -28779,35 +29779,55 @@ const MASTER_ISSUERS = [
         "management_target": "$25920.0M (+8.0% YoY growth)",
         "current_runrate": "$25560.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "MOL Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $25920.0M (+8.0% YoY growth). With current run-rate at $25560.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$3410.0M (13.2% margin)",
         "current_runrate": "$3348.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "MOL Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $3410.0M (13.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.10x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit.",
+        "last_guided_source": "MOL Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.10x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1139.2M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1048.1M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "MOL Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1139.2M (Maximum growth and sustaining envelope). Current commitments stand at $1048.1M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "MOL Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -29335,35 +30355,55 @@ const MASTER_ISSUERS = [
         "management_target": "$12744.0M (+8.0% YoY growth)",
         "current_runrate": "$12567.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "MTN Group FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $12744.0M (+8.0% YoY growth). With current run-rate at $12567.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$4950.0M (38.8% margin)",
         "current_runrate": "$4860.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "MTN Group FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $4950.0M (38.8% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.65x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.10x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.10x buffer below covenant limit.",
+        "last_guided_source": "MTN Group FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.65x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1653.8M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1521.5M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "MTN Group FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1653.8M (Maximum growth and sustaining envelope). Current commitments stand at $1521.5M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "MTN Group FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -29883,35 +30923,55 @@ const MASTER_ISSUERS = [
         "management_target": "$10260.0M (+8.0% YoY growth)",
         "current_runrate": "$10117.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "OCP Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $10260.0M (+8.0% YoY growth). With current run-rate at $10117.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$3520.0M (34.3% margin)",
         "current_runrate": "$3456.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "OCP Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $3520.0M (34.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.34x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.41x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.41x buffer below covenant limit.",
+        "last_guided_source": "OCP Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.34x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1176.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1081.9M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "OCP Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1176.0M (Maximum growth and sustaining envelope). Current commitments stand at $1081.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "OCP Group FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -30439,35 +31499,55 @@ const MASTER_ISSUERS = [
         "management_target": "$7020.0M (+8.0% YoY growth)",
         "current_runrate": "$6922.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Ooredoo QPSC FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $7020.0M (+8.0% YoY growth). With current run-rate at $6922.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$3080.0M (43.9% margin)",
         "current_runrate": "$3024.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Ooredoo QPSC FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $3080.0M (43.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.10x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit.",
+        "last_guided_source": "Ooredoo QPSC FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.10x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1029.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$946.7M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Ooredoo QPSC FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1029.0M (Maximum growth and sustaining envelope). Current commitments stand at $946.7M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Ooredoo QPSC FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -30989,35 +32069,55 @@ const MASTER_ISSUERS = [
         "management_target": "$34560.0M (+8.0% YoY growth)",
         "current_runrate": "$34080.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "OQ SAOC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $34560.0M (+8.0% YoY growth). With current run-rate at $34080.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$5060.0M (14.6% margin)",
         "current_runrate": "$4968.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "OQ SAOC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $5060.0M (14.6% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.80x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.95x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.95x buffer below covenant limit.",
+        "last_guided_source": "OQ SAOC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.80x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1690.5M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1555.3M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "OQ SAOC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1690.5M (Maximum growth and sustaining envelope). Current commitments stand at $1555.3M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "OQ SAOC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -31546,35 +32646,55 @@ const MASTER_ISSUERS = [
         "management_target": "$73440.0M (+8.0% YoY growth)",
         "current_runrate": "$72420.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "PKN Orlen FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $73440.0M (+8.0% YoY growth). With current run-rate at $72420.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$9350.0M (12.7% margin)",
         "current_runrate": "$9180.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "PKN Orlen FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $9350.0M (12.7% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "0.95x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.80x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.80x buffer below covenant limit.",
+        "last_guided_source": "PKN Orlen FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 0.95x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$3123.8M (Maximum growth and sustaining envelope)",
         "current_runrate": "$2873.9M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "PKN Orlen FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $3123.8M (Maximum growth and sustaining envelope). Current commitments stand at $2873.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "PKN Orlen FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -32098,35 +33218,55 @@ const MASTER_ISSUERS = [
         "management_target": "$3456.0M (+8.0% YoY growth)",
         "current_runrate": "$3408.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Pegasus Airlines FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $3456.0M (+8.0% YoY growth). With current run-rate at $3408.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1045.0M (30.2% margin)",
         "current_runrate": "$1026.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Pegasus Airlines FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1045.0M (30.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.10x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.65x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.65x buffer below covenant limit.",
+        "last_guided_source": "Pegasus Airlines FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.10x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$349.1M (Maximum growth and sustaining envelope)",
         "current_runrate": "$321.2M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Pegasus Airlines FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $349.1M (Maximum growth and sustaining envelope). Current commitments stand at $321.2M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Pegasus Airlines FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -32654,35 +33794,55 @@ const MASTER_ISSUERS = [
         "management_target": "$21060.0M (+8.0% YoY growth)",
         "current_runrate": "$20767.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "PGE Polska Grupa Energetyczna FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $21060.0M (+8.0% YoY growth). With current run-rate at $20767.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$3080.0M (14.6% margin)",
         "current_runrate": "$3024.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "PGE Polska Grupa Energetyczna FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $3080.0M (14.6% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "1.85x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit.",
+        "last_guided_source": "PGE Polska Grupa Energetyczna FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 1.85x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1029.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$946.7M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "PGE Polska Grupa Energetyczna FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1029.0M (Maximum growth and sustaining envelope). Current commitments stand at $946.7M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "PGE Polska Grupa Energetyczna FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -33209,35 +34369,55 @@ const MASTER_ISSUERS = [
         "management_target": "$3024.0M (+8.0% YoY growth)",
         "current_runrate": "$2982.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "QazaqGaz (KazTransGas) FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $3024.0M (+8.0% YoY growth). With current run-rate at $2982.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$935.0M (30.9% margin)",
         "current_runrate": "$918.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "QazaqGaz (KazTransGas) FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $935.0M (30.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.20x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.55x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.55x buffer below covenant limit.",
+        "last_guided_source": "QazaqGaz (KazTransGas) FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.20x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$312.4M (Maximum growth and sustaining envelope)",
         "current_runrate": "$287.4M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "QazaqGaz (KazTransGas) FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $312.4M (Maximum growth and sustaining envelope). Current commitments stand at $287.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "QazaqGaz (KazTransGas) FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -33814,35 +34994,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Qatar National Bank (QNB) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "2.85% - 3.10%",
         "current_runrate": "2.97%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Qatar National Bank (QNB) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 2.85% - 3.10%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Qatar National Bank (QNB) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Qatar National Bank (QNB) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Qatar National Bank (QNB) Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -34419,35 +35619,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "3.90% - 4.15%",
         "current_runrate": "4.02%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 3.90% - 4.15%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -35024,35 +36244,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Riyad Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "3.20% - 3.45%",
         "current_runrate": "3.32%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Riyad Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 3.20% - 3.45%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Riyad Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Riyad Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Riyad Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -35581,35 +36821,55 @@ const MASTER_ISSUERS = [
         "management_target": "$2268.0M (+8.0% YoY growth)",
         "current_runrate": "$2236.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "S.N.G.N. Romgaz FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $2268.0M (+8.0% YoY growth). With current run-rate at $2236.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1078.0M (47.5% margin)",
         "current_runrate": "$1058.4M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "S.N.G.N. Romgaz FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1078.0M (47.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "0.65x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit.",
+        "last_guided_source": "S.N.G.N. Romgaz FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 0.65x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$360.2M (Maximum growth and sustaining envelope)",
         "current_runrate": "$331.4M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "S.N.G.N. Romgaz FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $360.2M (Maximum growth and sustaining envelope). Current commitments stand at $331.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "S.N.G.N. Romgaz FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -36136,35 +37396,55 @@ const MASTER_ISSUERS = [
         "management_target": "$41580.0M (+8.0% YoY growth)",
         "current_runrate": "$41002.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "SABIC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $41580.0M (+8.0% YoY growth). With current run-rate at $41002.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$6380.0M (15.3% margin)",
         "current_runrate": "$6264.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "SABIC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $6380.0M (15.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.15x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.60x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.60x buffer below covenant limit.",
+        "last_guided_source": "SABIC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.15x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$2131.5M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1961.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "SABIC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $2131.5M (Maximum growth and sustaining envelope). Current commitments stand at $1961.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "SABIC FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -36687,35 +37967,55 @@ const MASTER_ISSUERS = [
         "management_target": "$367.2M (+8.0% YoY growth)",
         "current_runrate": "$362.1M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Sampa Otomotiv FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $367.2M (+8.0% YoY growth). With current run-rate at $362.1M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$85.8M (23.4% margin)",
         "current_runrate": "$84.2M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Sampa Otomotiv FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $85.8M (23.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.54x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.21x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.21x buffer below covenant limit.",
+        "last_guided_source": "Sampa Otomotiv FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.54x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$28.7M (Maximum growth and sustaining envelope)",
         "current_runrate": "$26.4M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Sampa Otomotiv FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $28.7M (Maximum growth and sustaining envelope). Current commitments stand at $26.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Sampa Otomotiv FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -37244,35 +38544,55 @@ const MASTER_ISSUERS = [
         "management_target": "$15336.0M (+8.0% YoY growth)",
         "current_runrate": "$15123.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Sasol Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $15336.0M (+8.0% YoY growth). With current run-rate at $15123.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$3135.0M (20.4% margin)",
         "current_runrate": "$3078.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Sasol Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $3135.0M (20.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.04x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.71x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.71x buffer below covenant limit.",
+        "last_guided_source": "Sasol Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.04x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1047.4M (Maximum growth and sustaining envelope)",
         "current_runrate": "$963.6M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Sasol Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1047.4M (Maximum growth and sustaining envelope). Current commitments stand at $963.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Sasol Ltd FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -37800,35 +39120,55 @@ const MASTER_ISSUERS = [
         "management_target": "$24624.0M (+8.0% YoY growth)",
         "current_runrate": "$24282.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Saudi Electricity Company (SEC) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $24624.0M (+8.0% YoY growth). With current run-rate at $24282.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$9240.0M (37.5% margin)",
         "current_runrate": "$9072.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Saudi Electricity Company (SEC) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $9240.0M (37.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "3.20x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.30x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.30x buffer below covenant limit.",
+        "last_guided_source": "Saudi Electricity Company (SEC) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 3.20x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$3087.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$2840.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Saudi Electricity Company (SEC) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $3087.0M (Maximum growth and sustaining envelope). Current commitments stand at $2840.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Saudi Electricity Company (SEC) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -38355,35 +39695,55 @@ const MASTER_ISSUERS = [
         "management_target": "$5940.0M (+8.0% YoY growth)",
         "current_runrate": "$5857.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $5940.0M (+8.0% YoY growth). With current run-rate at $5857.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1210.0M (20.4% margin)",
         "current_runrate": "$1188.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1210.0M (20.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.18x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.57x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.57x buffer below covenant limit.",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.18x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$404.2M (Maximum growth and sustaining envelope)",
         "current_runrate": "$371.9M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $404.2M (Maximum growth and sustaining envelope). Current commitments stand at $371.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -38960,35 +40320,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Saudi National Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "3.00% - 3.25%",
         "current_runrate": "3.12%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Saudi National Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 3.00% - 3.25%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Saudi National Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Saudi National Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Saudi National Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -39520,35 +40900,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1782.0M (+8.0% YoY growth)",
         "current_runrate": "$1757.2M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Sobha Realty FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1782.0M (+8.0% YoY growth). With current run-rate at $1757.2M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$528.0M (29.6% margin)",
         "current_runrate": "$518.4M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Sobha Realty FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $528.0M (29.6% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.00x Net Debt / EBITDA",
         "current_runrate": "0.83x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.67x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.67x buffer below covenant limit.",
+        "last_guided_source": "Sobha Realty FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.00x Net Debt / EBITDA. Current actual leverage stands at 0.83x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$176.4M (Maximum growth and sustaining envelope)",
         "current_runrate": "$162.3M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Sobha Realty FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $176.4M (Maximum growth and sustaining envelope). Current commitments stand at $162.3M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Sobha Realty FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -40070,35 +41470,55 @@ const MASTER_ISSUERS = [
         "management_target": "$13608.0M (+8.0% YoY growth)",
         "current_runrate": "$13419.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Sonangol EP FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $13608.0M (+8.0% YoY growth). With current run-rate at $13419.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$5280.0M (38.8% margin)",
         "current_runrate": "$5184.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Sonangol EP FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $5280.0M (38.8% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.29x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.46x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.46x buffer below covenant limit.",
+        "last_guided_source": "Sonangol EP FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.29x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1764.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1622.9M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Sonangol EP FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1764.0M (Maximum growth and sustaining envelope). Current commitments stand at $1622.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Sonangol EP FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -40675,35 +42095,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Standard Bank Group Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "4.45% - 4.70%",
         "current_runrate": "4.57%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Standard Bank Group Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 4.45% - 4.70%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Standard Bank Group Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Standard Bank Group Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Standard Bank Group Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -41231,35 +42671,55 @@ const MASTER_ISSUERS = [
         "management_target": "$22140.0M (+8.0% YoY growth)",
         "current_runrate": "$21832.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Saudi Telecom Company (STC) FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $22140.0M (+8.0% YoY growth). With current run-rate at $21832.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$7920.0M (35.8% margin)",
         "current_runrate": "$7776.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Saudi Telecom Company (STC) FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $7920.0M (35.8% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "0.65x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit.",
+        "last_guided_source": "Saudi Telecom Company (STC) FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 0.65x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$2646.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$2434.3M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Saudi Telecom Company (STC) FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $2646.0M (Maximum growth and sustaining envelope). Current commitments stand at $2434.3M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Saudi Telecom Company (STC) FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -41780,35 +43240,55 @@ const MASTER_ISSUERS = [
         "management_target": "$15336.0M (+8.0% YoY growth)",
         "current_runrate": "$15123.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Abu Dhabi National Energy (TAQA) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $15336.0M (+8.0% YoY growth). With current run-rate at $15123.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$6160.0M (40.2% margin)",
         "current_runrate": "$6048.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Abu Dhabi National Energy (TAQA) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $6160.0M (40.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 4.00x Net Debt / EBITDA",
         "current_runrate": "1.85x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.65x buffer below covenant limit.",
+        "last_guided_source": "Abu Dhabi National Energy (TAQA) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 1.85x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$2058.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1893.4M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Abu Dhabi National Energy (TAQA) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $2058.0M (Maximum growth and sustaining envelope). Current commitments stand at $1893.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Abu Dhabi National Energy (TAQA) FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -42335,35 +43815,55 @@ const MASTER_ISSUERS = [
         "management_target": "$766.8M (+8.0% YoY growth)",
         "current_runrate": "$756.1M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Tharisa plc FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $766.8M (+8.0% YoY growth). With current run-rate at $756.1M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$203.5M (26.5% margin)",
         "current_runrate": "$199.8M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Tharisa plc FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $203.5M (26.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "0.38x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 3.37x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 3.37x buffer below covenant limit.",
+        "last_guided_source": "Tharisa plc FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 0.38x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$68.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$62.6M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Tharisa plc FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $68.0M (Maximum growth and sustaining envelope). Current commitments stand at $62.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Tharisa plc FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -42887,35 +44387,55 @@ const MASTER_ISSUERS = [
         "management_target": "$22680.0M (+8.0% YoY growth)",
         "current_runrate": "$22365.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Turkish Airlines (THY) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $22680.0M (+8.0% YoY growth). With current run-rate at $22365.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$4840.0M (21.3% margin)",
         "current_runrate": "$4752.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Turkish Airlines (THY) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $4840.0M (21.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.95x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.80x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.80x buffer below covenant limit.",
+        "last_guided_source": "Turkish Airlines (THY) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.95x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$1617.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$1487.6M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Turkish Airlines (THY) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $1617.0M (Maximum growth and sustaining envelope). Current commitments stand at $1487.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Turkish Airlines (THY) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -43443,35 +44963,55 @@ const MASTER_ISSUERS = [
         "management_target": "$3888.0M (+8.0% YoY growth)",
         "current_runrate": "$3834.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $3888.0M (+8.0% YoY growth). With current run-rate at $3834.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1485.0M (38.2% margin)",
         "current_runrate": "$1458.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1485.0M (38.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.45x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit.",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.45x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$496.1M (Maximum growth and sustaining envelope)",
         "current_runrate": "$456.4M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $496.1M (Maximum growth and sustaining envelope). Current commitments stand at $456.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -43993,35 +45533,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1490.4M (+8.0% YoY growth)",
         "current_runrate": "$1469.7M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1490.4M (+8.0% YoY growth). With current run-rate at $1469.7M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$902.0M (60.5% margin)",
         "current_runrate": "$885.6M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $902.0M (60.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "2.30x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 1.45x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 1.45x buffer below covenant limit.",
+        "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.30x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$301.4M (Maximum growth and sustaining envelope)",
         "current_runrate": "$277.3M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $301.4M (Maximum growth and sustaining envelope). Current commitments stand at $277.3M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -44550,35 +46110,55 @@ const MASTER_ISSUERS = [
         "management_target": "$19980.0M (+8.0% YoY growth)",
         "current_runrate": "$19702.5M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $19980.0M (+8.0% YoY growth). With current run-rate at $19702.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1980.0M (9.9% margin)",
         "current_runrate": "$1944.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1980.0M (9.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "0.75x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 3.00x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 3.00x buffer below covenant limit.",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 0.75x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$661.5M (Maximum growth and sustaining envelope)",
         "current_runrate": "$608.6M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $661.5M (Maximum growth and sustaining envelope). Current commitments stand at $608.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -45155,35 +46735,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "3.80% - 4.05%",
         "current_runrate": "3.92%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 3.80% - 4.05%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -45711,35 +47311,55 @@ const MASTER_ISSUERS = [
         "management_target": "$4536.0M (+8.0% YoY growth)",
         "current_runrate": "$4473.0M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $4536.0M (+8.0% YoY growth). With current run-rate at $4473.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$1925.0M (42.4% margin)",
         "current_runrate": "$1890.0M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $1925.0M (42.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "1.15x",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Deleveraging on track with 2.60x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with 2.60x buffer below covenant limit.",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.15x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$643.1M (Maximum growth and sustaining envelope)",
         "current_runrate": "$591.7M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $643.1M (Maximum growth and sustaining envelope). Current commitments stand at $591.7M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -46289,35 +47909,55 @@ const MASTER_ISSUERS = [
         "management_target": "$3160.0M (+10.9% YoY growth)",
         "current_runrate": "$3035.2M (+6.5% YoY)",
         "tracking_status": "On Track",
-        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+        "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+        "last_guided_source": "Ukrzaliznytsia Wartime Operational Briefing & International Creditor Presentation",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $3160.0M (+10.9% YoY growth). With current run-rate at $3035.2M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$440.0M (13.9% margin)",
         "current_runrate": "$410.4M",
         "tracking_status": "On Track",
-        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+        "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+        "last_guided_source": "Ukrzaliznytsia Wartime Operational Briefing & International Creditor Presentation",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $440.0M (13.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Long-Term Net Leverage Ceiling",
         "management_target": "< 3.25x Net Debt / EBITDA",
         "current_runrate": "3.86x",
         "tracking_status": "On Track",
-        "variance_analysis": "Deleveraging on track with -0.11x buffer below covenant limit."
+        "variance_analysis": "Deleveraging on track with -0.11x buffer below covenant limit.",
+        "last_guided_source": "Ukrzaliznytsia Wartime Operational Briefing & International Creditor Presentation",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 3.86x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Envelope",
         "management_target": "$400.0M (Maximum growth and sustaining envelope)",
         "current_runrate": "$368.0M committed",
         "tracking_status": "On Track",
-        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+        "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+        "last_guided_source": "Ukrzaliznytsia Wartime Operational Briefing & International Creditor Presentation",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of $400.0M (Maximum growth and sustaining envelope). Current commitments stand at $368.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "Annual Dividend Payout Policy",
         "management_target": "30% - 40% payout of attributable net profit",
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
-        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+        "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+        "last_guided_source": "Ukrzaliznytsia Wartime Operational Briefing & International Creditor Presentation",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -46894,35 +48534,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "4.90% - 5.15%",
         "current_runrate": "5.02%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 4.90% - 5.15%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -47499,35 +49159,55 @@ const MASTER_ISSUERS = [
         "management_target": "+12.0% - 15.0% YoY organic lending expansion",
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
-        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+        "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "Net Interest Margin (NIM)",
         "management_target": "5.30% - 5.55%",
         "current_runrate": "5.42%",
         "tracking_status": "On Track",
-        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+        "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of 5.30% - 5.55%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Cost-to-Income Ratio (CIR)",
         "management_target": "< 38.0%",
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+        "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Cost of Risk (Credit Impairment)",
         "management_target": "< 75 - 90 bps of gross loans",
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+        "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       },
       {
         "guidance_metric": "Dividend Payout Ratio",
         "management_target": "40.0% of annual attributable net profit",
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
-        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+        "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {
@@ -48113,35 +49793,55 @@ const MASTER_ISSUERS = [
         "management_target": "$1,280M - $1,320M (+8.0% YoY)",
         "current_runrate": "$1,295M annualized (9M24 actuals)",
         "tracking_status": "On Track",
-        "variance_analysis": "High geothermal plant availability (88.5%) and steady OEDAS distribution volume (+3.8%) tracking in line with guidance envelope."
+        "variance_analysis": "High geothermal plant availability (88.5%) and steady OEDAS distribution volume (+3.8%) tracking in line with guidance envelope.",
+        "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "On your last call, management guided full-year revenue of $1,280M - $1,320M (+8.0% YoY). With current run-rate at $1,295M annualized (9M24 actuals), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+        "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
       },
       {
         "guidance_metric": "2025E Consolidated EBITDA Target",
         "management_target": "$330M - $350M (26.5% - 27.5% margin)",
         "current_runrate": "$338M annualized run-rate",
         "tracking_status": "On Track",
-        "variance_analysis": "USD-denominated YEKDEM cash flows ($105-$132/MWh) generated 68.5% of generation EBITDA, protecting margins against TRY depreciation."
+        "variance_analysis": "USD-denominated YEKDEM cash flows ($105-$132/MWh) generated 68.5% of generation EBITDA, protecting margins against TRY depreciation.",
+        "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management committed to an EBITDA target of $330M - $350M (26.5% - 27.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+        "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
       },
       {
         "guidance_metric": "Consolidated Net Leverage Ceiling",
         "management_target": "< 3.50x Net Debt / EBITDA",
         "current_runrate": "4.82x Net Debt / EBITDA (2024A)",
         "tracking_status": "Under Watch",
-        "variance_analysis": "Elevated leverage due to TRY translation of unhedged debt; deleveraging milestone contingent on executing Zorlu Yenilenebilir equity monetization."
+        "variance_analysis": "Elevated leverage due to TRY translation of unhedged debt; deleveraging milestone contingent on executing Zorlu Yenilenebilir equity monetization.",
+        "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You previously committed to a Net Leverage ceiling of < 3.50x Net Debt / EBITDA. Current actual leverage stands at 4.82x Net Debt / EBITDA (2024A). What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+        "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
       },
       {
         "guidance_metric": "2025E Strategic Capex Discipline Envelope",
         "management_target": "< $115.0M maximum capex envelope",
         "current_runrate": "$108.2M committed / incurred",
         "tracking_status": "On Track",
-        "variance_analysis": "Discretionary thermal capex frozen; capital deployed exclusively into regulated OEDAS grid capex (RAB-accretive) and Kizildere hybrid solar."
+        "variance_analysis": "Discretionary thermal capex frozen; capital deployed exclusively into regulated OEDAS grid capex (RAB-accretive) and Kizildere hybrid solar.",
+        "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "You guided a maximum capex envelope of < $115.0M maximum capex envelope. Current commitments stand at $108.2M committed / incurred. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+        "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
       },
       {
         "guidance_metric": "ZES Electric Vehicle Fast-Charging Sockets",
         "management_target": "2,200+ public sockets by end-2025",
         "current_runrate": "1,850 sockets active across 81 provinces",
         "tracking_status": "Ahead of Target",
-        "variance_analysis": "Consolidated #1 market position in Turkey with 38% market share; Electrip international pilot expanding across Italy, France, and Poland."
+        "variance_analysis": "Consolidated #1 market position in Turkey with 38% market share; Electrip international pilot expanding across Italy, France, and Poland.",
+        "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+        "last_verified_period": "H1 / 6M 2025 Review",
+        "verification_question": "Management guided a target of 2,200+ public sockets by end-2025 for ZES Electric Vehicle Fast-Charging Sockets. Can you confirm whether current execution at 1,850 sockets active across 81 provinces remains strictly on track, and what key operational milestones remain for the next two quarters?",
+        "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
       }
     ],
     "next_earnings_release": {

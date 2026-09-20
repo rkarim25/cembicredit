@@ -556,35 +556,55 @@
       "management_target": "$1,280M - $1,320M (+8.0% YoY)",
       "current_runrate": "$1,295M annualized (9M24 actuals)",
       "tracking_status": "On Track",
-      "variance_analysis": "High geothermal plant availability (88.5%) and steady OEDAS distribution volume (+3.8%) tracking in line with guidance envelope."
+      "variance_analysis": "High geothermal plant availability (88.5%) and steady OEDAS distribution volume (+3.8%) tracking in line with guidance envelope.",
+      "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "On your last call, management guided full-year revenue of $1,280M - $1,320M (+8.0% YoY). With current run-rate at $1,295M annualized (9M24 actuals), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+      "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
     },
     {
       "guidance_metric": "2025E Consolidated EBITDA Target",
       "management_target": "$330M - $350M (26.5% - 27.5% margin)",
       "current_runrate": "$338M annualized run-rate",
       "tracking_status": "On Track",
-      "variance_analysis": "USD-denominated YEKDEM cash flows ($105-$132/MWh) generated 68.5% of generation EBITDA, protecting margins against TRY depreciation."
+      "variance_analysis": "USD-denominated YEKDEM cash flows ($105-$132/MWh) generated 68.5% of generation EBITDA, protecting margins against TRY depreciation.",
+      "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management committed to an EBITDA target of $330M - $350M (26.5% - 27.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+      "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
     },
     {
       "guidance_metric": "Consolidated Net Leverage Ceiling",
       "management_target": "< 3.50x Net Debt / EBITDA",
       "current_runrate": "4.82x Net Debt / EBITDA (2024A)",
       "tracking_status": "Under Watch",
-      "variance_analysis": "Elevated leverage due to TRY translation of unhedged debt; deleveraging milestone contingent on executing Zorlu Yenilenebilir equity monetization."
+      "variance_analysis": "Elevated leverage due to TRY translation of unhedged debt; deleveraging milestone contingent on executing Zorlu Yenilenebilir equity monetization.",
+      "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You previously committed to a Net Leverage ceiling of < 3.50x Net Debt / EBITDA. Current actual leverage stands at 4.82x Net Debt / EBITDA (2024A). What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+      "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
     },
     {
       "guidance_metric": "2025E Strategic Capex Discipline Envelope",
       "management_target": "< $115.0M maximum capex envelope",
       "current_runrate": "$108.2M committed / incurred",
       "tracking_status": "On Track",
-      "variance_analysis": "Discretionary thermal capex frozen; capital deployed exclusively into regulated OEDAS grid capex (RAB-accretive) and Kizildere hybrid solar."
+      "variance_analysis": "Discretionary thermal capex frozen; capital deployed exclusively into regulated OEDAS grid capex (RAB-accretive) and Kizildere hybrid solar.",
+      "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You guided a maximum capex envelope of < $115.0M maximum capex envelope. Current commitments stand at $108.2M committed / incurred. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+      "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
     },
     {
       "guidance_metric": "ZES Electric Vehicle Fast-Charging Sockets",
       "management_target": "2,200+ public sockets by end-2025",
       "current_runrate": "1,850 sockets active across 81 provinces",
       "tracking_status": "Ahead of Target",
-      "variance_analysis": "Consolidated #1 market position in Turkey with 38% market share; Electrip international pilot expanding across Italy, France, and Poland."
+      "variance_analysis": "Consolidated #1 market position in Turkey with 38% market share; Electrip international pilot expanding across Italy, France, and Poland.",
+      "last_guided_source": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of 2,200+ public sockets by end-2025 for ZES Electric Vehicle Fast-Charging Sockets. Can you confirm whether current execution at 1,850 sockets active across 81 provinces remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
     }
   ],
   "next_earnings_release": {

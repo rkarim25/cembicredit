@@ -1132,6 +1132,93 @@ function renderTable() {
 
           <!-- PANE 8: MANAGEMENT QUESTIONS & CONVICTION DRIVERS -->
           <div class="drawer-pane" data-pane="tab-mgmt">
+            <!-- Header -->
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+              <div>
+                <h4 style="color:var(--accent-gold); font-size:14px; margin:0; text-transform:uppercase; letter-spacing:0.5px;">
+                  🎯 Management Guidance Audit & Conviction Drivers
+                </h4>
+                <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+                  Audit past baseline guidance against current actual run-rates and interrogate non-public structural credit risks for ${m.name} (${m.ticker})
+                </div>
+              </div>
+              <span class="badge badge-ig">Institutional Due Diligence</span>
+            </div>
+
+            <!-- SECTION I: PRIOR MANAGEMENT GUIDANCE & VERIFICATION AUDIT -->
+            <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:8px; padding:16px; margin-bottom:20px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <h5 style="color:#f8fafc; font-size:12.5px; margin:0; text-transform:uppercase;">
+                    📋 Section I: Prior Management Guidance vs. Actual Run-Rate (Audit Tracker)
+                  </h5>
+                  <span class="badge badge-sector">${(item.management_guidance_tracker || []).length} Baseline Commitments</span>
+                </div>
+                <span style="font-size:11px; color:#64748b;">Source: ${item.earnings_presentation_intelligence ? (item.earnings_presentation_intelligence.source_deck || 'Investor Presentations') : 'Audited Disclosures'}</span>
+              </div>
+
+              ${(() => {
+                const gList = item.management_guidance_tracker || [];
+                if (gList.length === 0) {
+                  return `<div style="color:#94a3b8; font-size:11.5px;">No official quantitative guidance tracker recorded for this issuer.</div>`;
+                }
+
+                return `
+                  <div style="overflow-x:auto;">
+                    <table class="drawer-table" style="margin:0; font-size:11px;">
+                      <thead>
+                        <tr>
+                          <th style="width:180px;">Guidance Metric</th>
+                          <th>Prior Management Commitment</th>
+                          <th>Current Actual Run-Rate</th>
+                          <th style="text-align:center;">Tracking Status</th>
+                          <th>Question to Verify Guidance on Calls</th>
+                          <th>Why Relevant to Credit</th>
+                          <th style="text-align:center; width:90px;">Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${gList.map((g, gIdx) => {
+                          const status = g.tracking_status || 'On Track';
+                          const statusBadge = (status.includes('Ahead') || status.includes('Achieved')) ? 'badge-ig' : (status.includes('Watch') ? 'badge-stress' : (status.includes('Lag') ? 'badge-stress' : 'badge-hy'));
+                          const qClean = (g.verification_question || '').replace(/'/g, "\\'");
+                          
+                          return `
+                            <tr>
+                              <td><strong style="color:#fff;">${g.guidance_metric}</strong></td>
+                              <td style="color:var(--accent-gold); font-weight:700;">${g.management_target}</td>
+                              <td style="color:#38bdf8; font-weight:600;">${g.current_runrate}</td>
+                              <td style="text-align:center;">
+                                <span class="badge ${statusBadge}">${status}</span>
+                              </td>
+                              <td style="color:#e2e8f0; font-size:11px; line-height:1.4;">
+                                "${g.verification_question || 'Has management reaffirmed this target?'}"
+                              </td>
+                              <td style="color:#94a3b8; font-size:10.5px; line-height:1.35;">
+                                ${g.relevance_to_credit || 'Directly drives cash flow visibility and covenant headroom.'}
+                              </td>
+                              <td style="text-align:center;">
+                                <button class="btn-action" onclick="navigator.clipboard.writeText('${qClean}'); alert('Copied verification question for ${g.guidance_metric} to clipboard!')" style="padding:2px 8px; font-size:10px;" title="Copy verification question">
+                                  📋 Copy
+                                </button>
+                              </td>
+                            </tr>
+                          `;
+                        }).join('')}
+                      </tbody>
+                    </table>
+                  </div>
+                `;
+              })()}
+            </div>
+
+            <!-- SECTION II: DEDUCED STRUCTURAL QUESTIONS & CONVICTION DRIVERS -->
+            <div style="margin-bottom:12px; display:flex; justify-content:space-between; align-items:center;">
+              <h5 style="color:#f8fafc; font-size:12.5px; margin:0; text-transform:uppercase;">
+                🔍 Section II: Deduced Structural Interrogation Cards & Conviction Triggers
+              </h5>
+              <span class="badge badge-sector">${(item.management_questions || []).length} In-Depth Interrogations</span>
+            </div>
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
               <div>
                 <h4 style="color:var(--accent-gold); font-size:13px; margin:0; text-transform:uppercase;">

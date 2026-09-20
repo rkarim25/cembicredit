@@ -502,35 +502,55 @@
       "management_target": "$2268.0M (+8.0% YoY growth)",
       "current_runrate": "$2236.5M (+6.5% YoY)",
       "tracking_status": "On Track",
-      "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget."
+      "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+      "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "On your last call, management guided full-year revenue of $2268.0M (+8.0% YoY growth). With current run-rate at $2236.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+      "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
     },
     {
       "guidance_metric": "2025E Consolidated EBITDA Target",
       "management_target": "$748.0M (33.0% margin)",
       "current_runrate": "$734.4M",
       "tracking_status": "On Track",
-      "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance."
+      "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+      "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management committed to an EBITDA target of $748.0M (33.0% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+      "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
     },
     {
       "guidance_metric": "Long-Term Net Leverage Ceiling",
       "management_target": "< 3.00x Net Debt / EBITDA",
       "current_runrate": "0.29x",
       "tracking_status": "Ahead of Target",
-      "variance_analysis": "Deleveraging on track with 3.21x buffer below covenant limit."
+      "variance_analysis": "Deleveraging on track with 3.21x buffer below covenant limit.",
+      "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You previously committed to a Net Leverage ceiling of < 3.00x Net Debt / EBITDA. Current actual leverage stands at 0.29x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+      "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
     },
     {
       "guidance_metric": "2025E Strategic Capex Envelope",
       "management_target": "$249.9M (Maximum growth and sustaining envelope)",
       "current_runrate": "$229.9M committed",
       "tracking_status": "On Track",
-      "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw."
+      "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+      "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You guided a maximum capex envelope of $249.9M (Maximum growth and sustaining envelope). Current commitments stand at $229.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+      "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
     },
     {
       "guidance_metric": "Annual Dividend Payout Policy",
       "management_target": "30% - 40% payout of attributable net profit",
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
-      "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
+      "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+      "last_guided_source": "Damac Properties FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
     }
   ],
   "next_earnings_release": {

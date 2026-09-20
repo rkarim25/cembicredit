@@ -547,35 +547,55 @@
       "management_target": "+12.0% - 15.0% YoY organic lending expansion",
       "current_runrate": "+13.8% YoY annualized loan disbursement",
       "tracking_status": "On Track",
-      "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly."
+      "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
+      "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+      "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
     },
     {
       "guidance_metric": "Net Interest Margin (NIM)",
       "management_target": "3.90% - 4.15%",
       "current_runrate": "4.02%",
       "tracking_status": "On Track",
-      "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base."
+      "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
+      "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management committed to an EBITDA target of 3.90% - 4.15%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+      "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
     },
     {
       "guidance_metric": "Cost-to-Income Ratio (CIR)",
       "management_target": "< 38.0%",
       "current_runrate": "36.8%",
       "tracking_status": "Ahead of Target",
-      "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead."
+      "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
+      "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
     },
     {
       "guidance_metric": "Cost of Risk (Credit Impairment)",
       "management_target": "< 75 - 90 bps of gross loans",
       "current_runrate": "68 bps annualized credit cost",
       "tracking_status": "Ahead of Target",
-      "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality."
+      "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
+      "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
     },
     {
       "guidance_metric": "Dividend Payout Ratio",
       "management_target": "40.0% of annual attributable net profit",
       "current_runrate": "40.0% payout proposed",
       "tracking_status": "On Track",
-      "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
+      "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
+      "last_guided_source": "Al Rajhi Bank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
     }
   ],
   "next_earnings_release": {
