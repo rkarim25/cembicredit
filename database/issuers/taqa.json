@@ -528,5 +528,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-09",
+    "period_reporting": "Q3 2026 / 9M Financial Results",
+    "confirmation_status": "Confirmed",
+    "call_time": "13:00 Abu Dhabi",
+    "ir_webcast_url": "https://www.taqa.com/investors/",
+    "days_to_earnings": 51
+  }
 }

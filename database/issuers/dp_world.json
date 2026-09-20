@@ -527,5 +527,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-26",
+    "period_reporting": "9M 2026 Container Throughput & Interim",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Dubai / 10:00 UK",
+    "ir_webcast_url": "https://www.dpworld.com/investors",
+    "days_to_earnings": 68
+  }
 }

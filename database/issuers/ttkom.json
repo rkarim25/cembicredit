@@ -528,5 +528,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-10",
+    "period_reporting": "Q3 2026 / 9M",
+    "confirmation_status": "Estimated",
+    "call_time": "18:00 Istanbul",
+    "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
+    "days_to_earnings": 52
+  }
 }

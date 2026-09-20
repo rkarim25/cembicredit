@@ -586,5 +586,13 @@
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Consolidated #1 market position in Turkey with 38% market share; Electrip international pilot expanding across Italy, France, and Poland."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-06",
+    "period_reporting": "Q3 2026 / 9M",
+    "confirmation_status": "Estimated",
+    "call_time": "18:00 Istanbul (Post-Market)",
+    "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
+    "days_to_earnings": 48
+  }
 }

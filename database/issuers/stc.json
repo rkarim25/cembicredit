@@ -528,5 +528,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-10-26",
+    "period_reporting": "Q3 2026 Financial Results",
+    "confirmation_status": "Confirmed",
+    "call_time": "15:30 Riyadh / 12:30 UK",
+    "ir_webcast_url": "https://www.stc.com.sa/content/stc/sa/en/investor-relations.html",
+    "days_to_earnings": 37
+  }
 }

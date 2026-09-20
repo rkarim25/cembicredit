@@ -528,5 +528,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-30",
+    "period_reporting": "Interim Financial Statements FY27",
+    "confirmation_status": "Estimated",
+    "call_time": "11:00 Johannesburg",
+    "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
+    "days_to_earnings": 72
+  }
 }

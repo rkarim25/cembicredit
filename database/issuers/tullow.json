@@ -529,5 +529,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-11",
+    "period_reporting": "November 2026 Trading & Operational Statement",
+    "confirmation_status": "Confirmed",
+    "call_time": "08:30 London",
+    "ir_webcast_url": "https://www.tullowoil.com/investors/",
+    "days_to_earnings": 53
+  }
 }

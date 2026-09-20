@@ -340,6 +340,9 @@ function renderTable() {
             <button class="drawer-nav-btn" data-tab="tab-intel" onclick="switchDrawerTab('${m.id}', 'tab-intel')">
               📝 Institutional Intelligence & Footnotes (${item.annotations.length})
             </button>
+            <button class="drawer-nav-btn" data-tab="tab-news" onclick="switchDrawerTab('${m.id}', 'tab-news')">
+              📰 Credit News & Catalysts
+            </button>
           </div>
           
           <!-- PANE 1: 7-YEAR MULTI-PERIOD FINANCIALS -->
@@ -1298,4 +1301,107 @@ function copyNoteMarkdown(issuer, topic, note) {
   navigator.clipboard.writeText(md).then(() => {
     alert("Copied footnote as Markdown to clipboard!");
   });
+}
+
+
+// ----------------- GLOBAL CREDIT & MACRO NEWS MODAL -----------------
+let currentNewsFilter = 'All';
+
+window.openNewsModal = function(filter = 'All') {
+  currentNewsFilter = filter;
+  let modal = document.getElementById("credit-news-modal");
+  if (!modal) {
+    modal = document.createElement("div");
+    modal.id = "credit-news-modal";
+    modal.style.cssText = "position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:9999; display:flex; justify-content:center; align-items:center; padding:20px;";
+    document.body.appendChild(modal);
+  }
+  modal.style.display = "flex";
+  renderNewsModalContent();
+};
+
+window.closeNewsModal = function() {
+  const modal = document.getElementById("credit-news-modal");
+  if (modal) modal.style.display = "none";
+};
+
+window.filterNews = function(category) {
+  currentNewsFilter = category;
+  renderNewsModalContent();
+};
+
+function renderNewsModalContent() {
+  const modal = document.getElementById("credit-news-modal");
+  if (!modal) return;
+
+  const allNews = window.CREDIT_NEWS_DATA || [];
+  let filtered = allNews;
+  if (currentNewsFilter === 'Macro') {
+    filtered = allNews.filter(n => n.category.includes('Macro') || n.ticker === 'MACRO');
+  } else if (currentNewsFilter === 'Company') {
+    filtered = allNews.filter(n => n.category.includes('Company'));
+  } else if (currentNewsFilter === 'Capital Markets') {
+    filtered = allNews.filter(n => n.category.includes('Capital Markets'));
+  } else if (currentNewsFilter === 'Positive') {
+    filtered = allNews.filter(n => n.credit_impact === 'Positive');
+  } else if (currentNewsFilter === 'Watch / Negative') {
+    filtered = allNews.filter(n => n.credit_impact === 'Watch' || n.credit_impact === 'Negative');
+  }
+
+  modal.innerHTML = `
+    <div style="background:#0f172a; border:1px solid #1e2d45; border-radius:8px; width:1000px; max-width:95vw; max-height:88vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.7); overflow:hidden;">
+      <!-- Header -->
+      <div style="padding:16px 20px; background:#111a2b; border-bottom:1px solid #1e2d45; display:flex; justify-content:space-between; align-items:center;">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <h3 style="margin:0; font-size:15px; color:var(--accent-gold); text-transform:uppercase; letter-spacing:0.5px;">
+            📰 Institutional Credit & Macro News Feed
+          </h3>
+          <span class="badge badge-ig">${allNews.length} Tracked Catalysts</span>
+        </div>
+        <button onclick="closeNewsModal()" style="background:transparent; border:none; color:#94a3b8; font-size:18px; cursor:pointer; padding:4px 8px;">✕</button>
+      </div>
+
+      <!-- Filter Controls -->
+      <div style="padding:12px 20px; background:#0b1120; border-bottom:1px solid #1e2d45; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+        <span style="font-size:11px; color:#64748b; font-weight:600; text-transform:uppercase;">Filter:</span>
+        ${['All', 'Macro', 'Company', 'Capital Markets', 'Positive', 'Watch / Negative'].map(cat => `
+          <button onclick="filterNews('${cat}')" style="background:${currentNewsFilter === cat ? 'var(--accent-gold)' : '#1e293b'}; color:${currentNewsFilter === cat ? '#000' : '#cbd5e1'}; border:none; padding:4px 10px; border-radius:4px; font-size:11px; font-weight:700; cursor:pointer;">
+            ${cat}
+          </button>
+        `).join('')}
+      </div>
+
+      <!-- News Items List -->
+      <div style="padding:20px; overflow-y:auto; display:flex; flex-direction:column; gap:12px;">
+        ${filtered.map(n => {
+          const impactBadge = n.credit_impact === 'Positive' ? 'badge-ig' : (n.credit_impact === 'Negative' ? 'badge-stress' : 'badge-hy');
+          const isMacro = n.ticker === 'MACRO';
+          
+          return `
+            <div style="background:#111a2b; border:1px solid ${isMacro ? '#2563eb' : '#1e2d45'}; border-radius:6px; padding:14px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <strong style="color:#f8fafc; font-size:12px;">${n.date}</strong>
+                  <span class="badge ${isMacro ? 'badge-sector' : 'badge-hy'}">${n.ticker}</span>
+                  <span class="badge ${impactBadge}">${n.credit_impact} Impact</span>
+                  <span style="font-size:11px; color:#94a3b8;">${n.category}</span>
+                </div>
+                <span style="font-size:11px; color:#64748b;">Source: ${n.source}</span>
+              </div>
+
+              <div style="margin:4px 0 10px 0;">
+                <a href="${n.url}" target="_blank" style="color:#38bdf8; font-size:14px; font-weight:700; text-decoration:none; line-height:1.4;">
+                  ${n.headline} <span style="font-size:11px; opacity:0.8;">↗</span>
+                </a>
+              </div>
+
+              <div style="background:#0b1120; border-left:3px solid ${n.credit_impact === 'Positive' ? '#10b981' : (n.credit_impact === 'Negative' ? '#ef4444' : '#f59e0b')}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11px; line-height:1.5; color:#cbd5e1;">
+                <strong style="color:#fff;">💡 Credit Desk Transmission Commentary:</strong> ${n.credit_commentary}
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
 }

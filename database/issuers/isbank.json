@@ -577,5 +577,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-10-31",
+    "period_reporting": "Q3 2026",
+    "confirmation_status": "Confirmed",
+    "call_time": "18:00 Istanbul",
+    "ir_webcast_url": "https://www.isbank.com.tr/en/investor-relations",
+    "days_to_earnings": 42
+  }
 }

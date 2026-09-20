@@ -532,5 +532,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-11",
+    "period_reporting": "Q3 2026 / 9M Results",
+    "confirmation_status": "Confirmed",
+    "call_time": "15:00 Dubai",
+    "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
+    "days_to_earnings": 53
+  }
 }

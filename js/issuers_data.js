@@ -529,7 +529,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-03",
+      "period_reporting": "Q3 2026 / 9M Earnings",
+      "confirmation_status": "Confirmed",
+      "call_time": "15:00 Riyadh / 12:00 UK",
+      "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
+      "days_to_earnings": 45
+    }
   },
   {
     "metadata": {
@@ -1110,7 +1118,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/ADCBUH",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -1642,7 +1658,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/ADMELE",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -2174,7 +2198,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -2755,7 +2787,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-10-27",
+      "period_reporting": "Q3 2026",
+      "confirmation_status": "Confirmed",
+      "call_time": "17:30 Istanbul",
+      "ir_webcast_url": "https://www.akbankinvestorrelations.com",
+      "days_to_earnings": 38
+    }
   },
   {
     "metadata": {
@@ -3291,7 +3331,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-10-29",
+      "period_reporting": "Q3 2026 Earnings Release",
+      "confirmation_status": "Confirmed",
+      "call_time": "14:00 Abu Dhabi / 10:00 UK",
+      "ir_webcast_url": "https://www.aldar.com/en/investor-relations",
+      "days_to_earnings": 40
+    }
   },
   {
     "metadata": {
@@ -3827,7 +3875,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-18",
+      "period_reporting": "Q3 2026 Sukuk Covenants & Sales",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Dubai",
+      "ir_webcast_url": "https://arada.com/en/investor-relations/",
+      "days_to_earnings": 60
+    }
   },
   {
     "metadata": {
@@ -4354,7 +4410,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -4886,7 +4950,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-09",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "18:30 Istanbul",
+      "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
+      "days_to_earnings": 51
+    }
   },
   {
     "metadata": {
@@ -5419,7 +5491,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -5952,7 +6032,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -6499,7 +6587,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -7026,7 +7122,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/CCOLA",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -7558,7 +7662,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-10",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Confirmed",
+      "call_time": "10:00 Prague / 09:00 UK",
+      "ir_webcast_url": "https://www.cez.cz/en/investors",
+      "days_to_earnings": 52
+    }
   },
   {
     "metadata": {
@@ -8094,7 +8206,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 Performance Review",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Dubai",
+      "ir_webcast_url": "https://www.damacproperties.com/en/investor-relations/",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -8625,7 +8745,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/DANFER",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -9169,7 +9297,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/DANREF",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -9705,7 +9841,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/DARARK",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -10286,7 +10430,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/DIBUH",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -10817,7 +10969,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-26",
+      "period_reporting": "9M 2026 Container Throughput & Interim",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Dubai / 10:00 UK",
+      "ir_webcast_url": "https://www.dpworld.com/investors",
+      "days_to_earnings": 68
+    }
   },
   {
     "metadata": {
@@ -11349,7 +11509,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -11885,7 +12053,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-11",
+      "period_reporting": "Q3 2026 / 9M Results",
+      "confirmation_status": "Confirmed",
+      "call_time": "15:00 Dubai",
+      "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
+      "days_to_earnings": 53
+    }
   },
   {
     "metadata": {
@@ -12421,7 +12597,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/EKGYO",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -13002,7 +13186,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/EMIRAT",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -13533,7 +13725,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/EQUATE",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -14064,7 +14264,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-04",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "18:00 Istanbul",
+      "ir_webcast_url": "https://www.erdemir.com.tr/investor-relations/",
+      "days_to_earnings": 46
+    }
   },
   {
     "metadata": {
@@ -14596,7 +14804,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-30",
+      "period_reporting": "Interim Financial Statements FY27",
+      "confirmation_status": "Estimated",
+      "call_time": "11:00 Johannesburg",
+      "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
+      "days_to_earnings": 72
+    }
   },
   {
     "metadata": {
@@ -15177,7 +15393,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/FABUH",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -15758,7 +15982,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/FIRSTR",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -16339,7 +16571,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-10-28",
+      "period_reporting": "Q3 2026",
+      "confirmation_status": "Confirmed",
+      "call_time": "17:00 Istanbul",
+      "ir_webcast_url": "https://www.garantibbvainvestorrelations.com",
+      "days_to_earnings": 39
+    }
   },
   {
     "metadata": {
@@ -16871,7 +17111,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -17402,7 +17650,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 Operating & Financial Results",
+      "confirmation_status": "Confirmed",
+      "call_time": "14:00 Johannesburg",
+      "ir_webcast_url": "https://www.goldfields.com/investors.php",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -17983,7 +18239,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-09",
+      "period_reporting": "Q3 2026",
+      "confirmation_status": "Estimated",
+      "call_time": "18:00 Istanbul",
+      "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
+      "days_to_earnings": 51
+    }
   },
   {
     "metadata": {
@@ -18564,7 +18828,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/HSBKK",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -19096,7 +19368,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/HT",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -19628,7 +19908,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/HIDRO",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -20160,7 +20448,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-17",
+      "period_reporting": "Q3 2026 Financial Results & Call",
+      "confirmation_status": "Confirmed",
+      "call_time": "14:30 London / 09:30 EST",
+      "ir_webcast_url": "https://www.ihstowers.com/investors",
+      "days_to_earnings": 59
+    }
   },
   {
     "metadata": {
@@ -20741,7 +21037,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-10-31",
+      "period_reporting": "Q3 2026",
+      "confirmation_status": "Confirmed",
+      "call_time": "18:00 Istanbul",
+      "ir_webcast_url": "https://www.isbank.com.tr/en/investor-relations",
+      "days_to_earnings": 42
+    }
   },
   {
     "metadata": {
@@ -21268,7 +21572,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/ITTIHAD",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -21849,7 +22161,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/KFH",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -22382,7 +22702,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -22909,7 +23237,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-05",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "17:00 Istanbul",
+      "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
+      "days_to_earnings": 47
+    }
   },
   {
     "metadata": {
@@ -23442,7 +23778,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-04",
+      "period_reporting": "Q3 2026 Earnings Release & Webcast",
+      "confirmation_status": "Confirmed",
+      "call_time": "16:00 London / 11:00 EST",
+      "ir_webcast_url": "https://investors.kosmosenergy.com/",
+      "days_to_earnings": 46
+    }
   },
   {
     "metadata": {
@@ -23973,7 +24317,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/LMKCEM",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -24504,7 +24856,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -25036,7 +25396,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/LMKREN",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -25568,7 +25936,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -26095,7 +26471,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -26626,7 +27010,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-18",
+      "period_reporting": "9M 2026 Production & Financial Report",
+      "confirmation_status": "Estimated",
+      "call_time": "13:00 London",
+      "ir_webcast_url": "https://metinvestholding.com/en/investors",
+      "days_to_earnings": 60
+    }
   },
   {
     "metadata": {
@@ -27153,7 +27545,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-17",
+      "period_reporting": "Q3 2026 Financial Results",
+      "confirmation_status": "Confirmed",
+      "call_time": "14:00 London / 09:00 EST",
+      "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
+      "days_to_earnings": 59
+    }
   },
   {
     "metadata": {
@@ -27686,7 +28086,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-06",
+      "period_reporting": "Q3 2026",
+      "confirmation_status": "Confirmed",
+      "call_time": "08:00 Budapest",
+      "ir_webcast_url": "https://molgroup.info/en/investor-relations",
+      "days_to_earnings": 48
+    }
   },
   {
     "metadata": {
@@ -28218,7 +28626,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/MTNSJ",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -28749,7 +29165,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-20",
+      "period_reporting": "9M 2026 Revenue & EBITDA Update",
+      "confirmation_status": "Estimated",
+      "call_time": "15:00 Casablanca",
+      "ir_webcast_url": "https://www.ocpgroup.ma/investors",
+      "days_to_earnings": 62
+    }
   },
   {
     "metadata": {
@@ -29281,7 +29705,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -29814,7 +30246,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/OQ",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -30347,7 +30787,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-10-29",
+      "period_reporting": "Q3 2026",
+      "confirmation_status": "Confirmed",
+      "call_time": "08:00 Warsaw / 07:00 UK",
+      "ir_webcast_url": "https://www.orlen.pl/en/investor-relations",
+      "days_to_earnings": 40
+    }
   },
   {
     "metadata": {
@@ -30875,7 +31323,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-09",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "18:00 Istanbul",
+      "ir_webcast_url": "https://www.pegasusinvestorrelations.com",
+      "days_to_earnings": 51
+    }
   },
   {
     "metadata": {
@@ -31407,7 +31863,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-17",
+      "period_reporting": "Q3 2026",
+      "confirmation_status": "Confirmed",
+      "call_time": "09:00 Warsaw",
+      "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
+      "days_to_earnings": 59
+    }
   },
   {
     "metadata": {
@@ -31938,7 +32402,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/QAZGAS",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -32519,7 +32991,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/QNBK",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -33100,7 +33580,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/RJHI",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -33681,7 +34169,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/RIBL",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -34214,7 +34710,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/ROMGAZ",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -34745,7 +35249,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-10-28",
+      "period_reporting": "Q3 2026 Earnings Conference Call",
+      "confirmation_status": "Confirmed",
+      "call_time": "14:00 Riyadh / 11:00 UK",
+      "ir_webcast_url": "https://www.sabic.com/en/investors",
+      "days_to_earnings": 39
+    }
   },
   {
     "metadata": {
@@ -35272,7 +35784,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/SAMPA",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -35805,7 +36325,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/SOLSJ",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -36337,7 +36865,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/SECO",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -36868,7 +37404,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-10-30",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Confirmed",
+      "call_time": "17:30 Istanbul",
+      "ir_webcast_url": "https://www.sisecam.com.tr/en/investor-relations",
+      "days_to_earnings": 41
+    }
   },
   {
     "metadata": {
@@ -37449,7 +37993,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/SNB",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -37985,7 +38537,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-16",
+      "period_reporting": "Q3 2026 Sales & Sukuk Compliance",
+      "confirmation_status": "Estimated",
+      "call_time": "15:00 Dubai",
+      "ir_webcast_url": "https://sobhadxb.com/investor-relations",
+      "days_to_earnings": 58
+    }
   },
   {
     "metadata": {
@@ -38518,7 +39078,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/SONANG",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -39099,7 +39667,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/STANBI",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -39631,7 +40207,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-10-26",
+      "period_reporting": "Q3 2026 Financial Results",
+      "confirmation_status": "Confirmed",
+      "call_time": "15:30 Riyadh / 12:30 UK",
+      "ir_webcast_url": "https://www.stc.com.sa/content/stc/sa/en/investor-relations.html",
+      "days_to_earnings": 37
+    }
   },
   {
     "metadata": {
@@ -40163,7 +40747,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-09",
+      "period_reporting": "Q3 2026 / 9M Financial Results",
+      "confirmation_status": "Confirmed",
+      "call_time": "13:00 Abu Dhabi",
+      "ir_webcast_url": "https://www.taqa.com/investors/",
+      "days_to_earnings": 51
+    }
   },
   {
     "metadata": {
@@ -40694,7 +41286,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/THARISA",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -41222,7 +41822,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-03",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Confirmed",
+      "call_time": "18:00 Istanbul",
+      "ir_webcast_url": "https://investor.turkishairlines.com/en",
+      "days_to_earnings": 45
+    }
   },
   {
     "metadata": {
@@ -41754,7 +42362,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-10",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "18:00 Istanbul",
+      "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
+      "days_to_earnings": 52
+    }
   },
   {
     "metadata": {
@@ -42287,7 +42903,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-11",
+      "period_reporting": "November 2026 Trading & Operational Statement",
+      "confirmation_status": "Confirmed",
+      "call_time": "08:30 London",
+      "ir_webcast_url": "https://www.tullowoil.com/investors/",
+      "days_to_earnings": 53
+    }
   },
   {
     "metadata": {
@@ -42820,7 +43444,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -43401,7 +44033,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Local / Pre-Market",
+      "ir_webcast_url": "https://www.google.com/finance/quote/EXCRTU",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -43933,7 +44573,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-12",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Confirmed",
+      "call_time": "18:30 Istanbul / 15:30 UK",
+      "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
+      "days_to_earnings": 54
+    }
   },
   {
     "metadata": {
@@ -44494,7 +45142,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-20",
+      "period_reporting": "9M 2026 (Audited Semi-Annual + Interim)",
+      "confirmation_status": "Estimated",
+      "call_time": "14:00 Kyiv / 12:00 UK",
+      "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
+      "days_to_earnings": 62
+    }
   },
   {
     "metadata": {
@@ -45075,7 +45731,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-06",
+      "period_reporting": "Q3 2026",
+      "confirmation_status": "Estimated",
+      "call_time": "18:00 Istanbul",
+      "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
+      "days_to_earnings": 48
+    }
   },
   {
     "metadata": {
@@ -45656,7 +46320,15 @@ const MASTER_ISSUERS = [
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-10-29",
+      "period_reporting": "Q3 2026",
+      "confirmation_status": "Confirmed",
+      "call_time": "17:30 Istanbul",
+      "ir_webcast_url": "https://www.yapikrediinvestorrelations.com",
+      "days_to_earnings": 40
+    }
   },
   {
     "metadata": {
@@ -46246,6 +46918,14 @@ const MASTER_ISSUERS = [
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Consolidated #1 market position in Turkey with 38% market share; Electrip international pilot expanding across Italy, France, and Poland."
       }
-    ]
+    ],
+    "next_earnings_release": {
+      "scheduled_date": "2026-11-06",
+      "period_reporting": "Q3 2026 / 9M",
+      "confirmation_status": "Estimated",
+      "call_time": "18:00 Istanbul (Post-Market)",
+      "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
+      "days_to_earnings": 48
+    }
   }
 ];

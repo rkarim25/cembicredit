@@ -577,5 +577,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-09",
+    "period_reporting": "Q3 2026",
+    "confirmation_status": "Estimated",
+    "call_time": "18:00 Istanbul",
+    "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
+    "days_to_earnings": 51
+  }
 }

@@ -527,5 +527,13 @@
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow."
     }
-  ]
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-18",
+    "period_reporting": "9M 2026 Production & Financial Report",
+    "confirmation_status": "Estimated",
+    "call_time": "13:00 London",
+    "ir_webcast_url": "https://metinvestholding.com/en/investors",
+    "days_to_earnings": 60
+  }
 }
