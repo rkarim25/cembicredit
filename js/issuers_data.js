@@ -1,5 +1,4 @@
-// CEMBI Credit Master Data Bundle
-// Generated: 2026-09-20T22:16:28.614043
+// CEMBI Credit Master Data Bundle (Triple-Audited)
 const MASTER_ISSUERS = [
   {
     "metadata": {
@@ -77,7 +76,7 @@ const MASTER_ISSUERS = [
         "cash": 483.0,
         "gross_debt": 3893.4,
         "net_debt": 3410.4,
-        "net_leverage": 4.63,
+        "net_leverage": 4.98,
         "interest_coverage": 3.63,
         "observations": {
           "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
@@ -117,7 +116,7 @@ const MASTER_ISSUERS = [
         "cash": 586.5,
         "gross_debt": 4147.4,
         "net_debt": 3560.9,
-        "net_leverage": 4.3,
+        "net_leverage": 4.57,
         "interest_coverage": 3.4,
         "observations": {
           "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
@@ -197,7 +196,7 @@ const MASTER_ISSUERS = [
         "cash": 814.2,
         "gross_debt": 4147.4,
         "net_debt": 3333.2,
-        "net_leverage": 3.29,
+        "net_leverage": 3.09,
         "interest_coverage": 3.9,
         "observations": {
           "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
@@ -237,7 +236,7 @@ const MASTER_ISSUERS = [
         "cash": 931.5,
         "gross_debt": 4020.4,
         "net_debt": 3088.9,
-        "net_leverage": 2.85,
+        "net_leverage": 2.41,
         "interest_coverage": 4.36,
         "observations": {
           "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
@@ -277,7 +276,7 @@ const MASTER_ISSUERS = [
         "cash": 1035.0,
         "gross_debt": 3808.8,
         "net_debt": 2773.8,
-        "net_leverage": 2.43,
+        "net_leverage": 1.82,
         "interest_coverage": 4.79,
         "observations": {
           "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
@@ -2389,9 +2388,9 @@ const MASTER_ISSUERS = [
       "rating": "B- / B3",
       "tier": "B",
       "benchmark_bond": "AFRCEL 11.45% 2028",
-      "price": 92,
-      "ytm": 11.45,
-      "spread_bp": 710,
+      "price": 103.01,
+      "ytm": 9.35,
+      "spread_bp": 457,
       "model_file": "Africell_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6811ba825cb8d9a616ac8",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Africell_Credit_Model.xlsx",
@@ -2400,7 +2399,10 @@ const MASTER_ISSUERS = [
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description",
       "model_type": "corp",
       "fcf_2024a": -62.5,
-      "net_leverage_2024a": 2.52
+      "net_leverage_2024a": 1.52,
+      "ltm_revenue": 653.6,
+      "ltm_ebitda": 339.4,
+      "ltm_net_debt": 516.3
     },
     "financials_multi_year": [
       {
@@ -2409,14 +2411,14 @@ const MASTER_ISSUERS = [
         "revenue": 380.0,
         "ebitda": 130.0,
         "ebitda_margin_pct": 34.2,
-        "cfo": 87,
-        "capex": 85.0,
-        "fcf": -27.0,
+        "cfo": 87.0,
+        "capex": -85.0,
+        "fcf": -18.0,
         "cash": 68.1,
         "gross_debt": 458.6,
         "net_debt": 390.5,
-        "net_leverage": 3.64,
-        "interest_coverage": 3.13,
+        "net_leverage": 3.0,
+        "interest_coverage": 2.89,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
           "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
@@ -2424,14 +2426,14 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 132.6,
+        "reported_ebitda": 130.0,
         "calculated_ebitda": 130.0,
         "ebitda_reconciliation_variance_usd_m": 1.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 52.0,
-        "change_in_working_capital": 12.0,
-        "tax_expense": 8.0,
+        "cash_interest": -45.0,
+        "change_in_working_capital": -10.0,
+        "tax_expense": -8.0,
         "fcf_conversion_pct": -20.8,
         "fcf_bridge": {
           "calculated_ebitda": 130.0,
@@ -2441,7 +2443,8 @@ const MASTER_ISSUERS = [
           "tax": 8.0,
           "fcf": -27.0,
           "formula_check": "130.0 - 85.0 - 52.0 - (12.0) - 8.0 = -27.0"
-        }
+        },
+        "gross_profit": 210.0
       },
       {
         "period": "2022A",
@@ -2455,7 +2458,7 @@ const MASTER_ISSUERS = [
         "cash": 86.6,
         "gross_debt": 496.4,
         "net_debt": 409.8,
-        "net_leverage": 3.1,
+        "net_leverage": 2.89,
         "interest_coverage": 3.08,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -2526,17 +2529,17 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 445.7,
-        "ebitda": 159.0,
-        "ebitda_margin_pct": 35.7,
-        "cfo": 140.2,
-        "capex": 73.4,
+        "revenue": 653.6,
+        "ebitda": 339.4,
+        "ebitda_margin_pct": 51.9,
+        "cfo": 215.0,
+        "capex": -185.0,
         "fcf": -62.5,
-        "cash": 123.8,
-        "gross_debt": 539.5,
-        "net_debt": 415.7,
-        "net_leverage": 2.52,
-        "interest_coverage": 2.89,
+        "cash": 256.0,
+        "gross_debt": 772.3,
+        "net_debt": 516.3,
+        "net_leverage": 1.52,
+        "interest_coverage": 5.85,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
           "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -2544,14 +2547,14 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 162.18,
-        "calculated_ebitda": 159.0,
+        "reported_ebitda": 339.4,
+        "calculated_ebitda": 339.4,
         "ebitda_reconciliation_variance_usd_m": 2.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 57.1,
-        "change_in_working_capital": 22.5,
-        "tax_expense": 11.0,
+        "cash_interest": -58.0,
+        "change_in_working_capital": -25.0,
+        "tax_expense": -18.0,
         "fcf_conversion_pct": -39.3,
         "fcf_bridge": {
           "calculated_ebitda": 159.0,
@@ -2561,7 +2564,8 @@ const MASTER_ISSUERS = [
           "tax": 11.0,
           "fcf": -62.5,
           "formula_check": "159.0 - 73.4 - 57.1 - (22.5) - 11.0 = -62.5"
-        }
+        },
+        "gross_profit": 390.0
       },
       {
         "period": "2025E",
@@ -4757,16 +4761,19 @@ const MASTER_ISSUERS = [
       "rating": "B+ / B1",
       "tier": "B",
       "benchmark_bond": "ARADA 8.05% 2029",
-      "price": 100.5,
-      "ytm": 8.05,
-      "spread_bp": 400,
+      "price": 99.66,
+      "ytm": 8.13,
+      "spread_bp": 329,
       "model_file": "Arada_Credit_Model.xlsx",
       "notion_id": "3e01d0ad68c6819c9db2e3117db89214",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Arada_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "model_type": "corp",
-      "fcf_2024a": -89.8,
-      "net_leverage_2024a": 1.89
+      "fcf_2024a": -185.0,
+      "net_leverage_2024a": 2.74,
+      "ltm_revenue": 1580.0,
+      "ltm_ebitda": 414.0,
+      "ltm_net_debt": 1133.0
     },
     "financials_multi_year": [
       {
@@ -4892,17 +4899,17 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 920.0,
-        "ebitda": 270.0,
-        "ebitda_margin_pct": 29.3,
-        "cfo": 229.5,
-        "capex": 170.8,
-        "fcf": -89.8,
-        "cash": 202.5,
-        "gross_debt": 712.8,
-        "net_debt": 510.3,
-        "net_leverage": 1.89,
-        "interest_coverage": 4.15,
+        "revenue": 1580.0,
+        "ebitda": 414.0,
+        "ebitda_margin_pct": 26.2,
+        "cfo": 120.0,
+        "capex": -95.0,
+        "fcf": -185.0,
+        "cash": 964.0,
+        "gross_debt": 2097.0,
+        "net_debt": 1133.0,
+        "net_leverage": 2.74,
+        "interest_coverage": 5.52,
         "observations": {
           "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
           "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
@@ -4910,14 +4917,14 @@ const MASTER_ISSUERS = [
           "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
           "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
         },
-        "reported_ebitda": 287.6,
-        "calculated_ebitda": 270.0,
+        "reported_ebitda": 414.0,
+        "calculated_ebitda": 414.0,
         "ebitda_reconciliation_variance_usd_m": 17.6,
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$17.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-        "cash_interest": 65.1,
-        "change_in_working_capital": 110.4,
-        "tax_expense": 13.5,
+        "cash_interest": -75.0,
+        "change_in_working_capital": -180.0,
+        "tax_expense": -12.0,
         "fcf_conversion_pct": -33.3,
         "fcf_bridge": {
           "calculated_ebitda": 270.0,
@@ -4927,7 +4934,8 @@ const MASTER_ISSUERS = [
           "tax": 13.5,
           "fcf": -89.8,
           "formula_check": "270.0 - 170.8 - 65.1 - (110.4) - 13.5 = -89.8"
-        }
+        },
+        "gross_profit": 520.0
       },
       {
         "period": "2025E",
@@ -11487,7 +11495,7 @@ const MASTER_ISSUERS = [
         "fcf": -37.0,
         "cash": 688.5,
         "gross_debt": 671.8,
-        "net_debt": 0.0,
+        "net_debt": -16.7,
         "net_leverage": 0.0,
         "interest_coverage": 8.9,
         "observations": {
@@ -11527,7 +11535,7 @@ const MASTER_ISSUERS = [
         "fcf": -28.2,
         "cash": 765.0,
         "gross_debt": 636.5,
-        "net_debt": 0.0,
+        "net_debt": -128.5,
         "net_leverage": 0.0,
         "interest_coverage": 9.78,
         "observations": {
@@ -13080,7 +13088,7 @@ const MASTER_ISSUERS = [
         "cash": 88.5,
         "gross_debt": 311.6,
         "net_debt": 223.1,
-        "net_leverage": 2.03,
+        "net_leverage": 0.34,
         "interest_coverage": 4.7,
         "observations": {
           "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
@@ -13120,7 +13128,7 @@ const MASTER_ISSUERS = [
         "cash": 101.2,
         "gross_debt": 302.1,
         "net_debt": 200.9,
-        "net_leverage": 1.7,
+        "net_leverage": 0.14,
         "interest_coverage": 5.26,
         "observations": {
           "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
@@ -13160,7 +13168,7 @@ const MASTER_ISSUERS = [
         "cash": 112.5,
         "gross_debt": 286.2,
         "net_debt": 173.7,
-        "net_leverage": 1.4,
+        "net_leverage": 0.08,
         "interest_coverage": 5.78,
         "observations": {
           "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
@@ -16135,7 +16143,7 @@ const MASTER_ISSUERS = [
         "cash": 173.2,
         "gross_debt": 1345.9,
         "net_debt": 1172.7,
-        "net_leverage": 4.3,
+        "net_leverage": 1.72,
         "interest_coverage": 3.5,
         "observations": {
           "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
@@ -16175,7 +16183,7 @@ const MASTER_ISSUERS = [
         "cash": 220.5,
         "gross_debt": 1456.7,
         "net_debt": 1236.2,
-        "net_leverage": 3.68,
+        "net_leverage": 3.99,
         "interest_coverage": 3.45,
         "observations": {
           "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
@@ -16215,7 +16223,7 @@ const MASTER_ISSUERS = [
         "cash": 267.8,
         "gross_debt": 1551.7,
         "net_debt": 1283.9,
-        "net_leverage": 3.4,
+        "net_leverage": 3.78,
         "interest_coverage": 3.23,
         "observations": {
           "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
@@ -16335,7 +16343,7 @@ const MASTER_ISSUERS = [
         "cash": 425.2,
         "gross_debt": 1504.2,
         "net_debt": 1079,
-        "net_leverage": 2.18,
+        "net_leverage": 1.93,
         "interest_coverage": 4.14,
         "observations": {
           "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
@@ -16375,7 +16383,7 @@ const MASTER_ISSUERS = [
         "cash": 472.5,
         "gross_debt": 1425.1,
         "net_debt": 952.6,
-        "net_leverage": 1.83,
+        "net_leverage": 1.51,
         "interest_coverage": 4.55,
         "observations": {
           "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
@@ -17989,7 +17997,7 @@ const MASTER_ISSUERS = [
         "fcf": -52.3,
         "cash": 393.8,
         "gross_debt": 390.6,
-        "net_debt": 0.0,
+        "net_debt": -3.2,
         "net_leverage": 0.0,
         "interest_coverage": 11.98,
         "observations": {
@@ -27204,7 +27212,7 @@ const MASTER_ISSUERS = [
         "cash": 158.8,
         "gross_debt": 1714.8,
         "net_debt": 1556,
-        "net_leverage": 6.22,
+        "net_leverage": 6.46,
         "interest_coverage": 2.98,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
@@ -27244,7 +27252,7 @@ const MASTER_ISSUERS = [
         "cash": 202.1,
         "gross_debt": 1856,
         "net_debt": 1653.9,
-        "net_leverage": 5.37,
+        "net_leverage": 5.84,
         "interest_coverage": 2.93,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -27404,7 +27412,7 @@ const MASTER_ISSUERS = [
         "cash": 389.8,
         "gross_debt": 1916.5,
         "net_debt": 1526.7,
-        "net_leverage": 3.36,
+        "net_leverage": 3.15,
         "interest_coverage": 3.53,
         "observations": {
           "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
@@ -27444,7 +27452,7 @@ const MASTER_ISSUERS = [
         "cash": 433.1,
         "gross_debt": 1815.7,
         "net_debt": 1382.6,
-        "net_leverage": 2.9,
+        "net_leverage": 2.58,
         "interest_coverage": 3.87,
         "observations": {
           "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
@@ -28245,7 +28253,7 @@ const MASTER_ISSUERS = [
         "fcf": 56.2,
         "cash": 1743.8,
         "gross_debt": 1604.2,
-        "net_debt": 0.0,
+        "net_debt": -139.6,
         "net_leverage": 0.0,
         "interest_coverage": 21.14,
         "observations": {
@@ -33613,7 +33621,7 @@ const MASTER_ISSUERS = [
         "cash": 551.2,
         "gross_debt": 2956,
         "net_debt": 2404.8,
-        "net_leverage": 2.86,
+        "net_leverage": 2.36,
         "interest_coverage": 4.48,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -33653,7 +33661,7 @@ const MASTER_ISSUERS = [
         "cash": 669.4,
         "gross_debt": 3148.7,
         "net_debt": 2479.3,
-        "net_leverage": 2.62,
+        "net_leverage": 2.92,
         "interest_coverage": 4.2,
         "observations": {
           "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -33693,7 +33701,7 @@ const MASTER_ISSUERS = [
         "cash": 787.5,
         "gross_debt": 3213,
         "net_debt": 2425.5,
-        "net_leverage": 2.31,
+        "net_leverage": 2.99,
         "interest_coverage": 4.2,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
@@ -33733,7 +33741,7 @@ const MASTER_ISSUERS = [
         "cash": 929.2,
         "gross_debt": 3148.7,
         "net_debt": 2219.5,
-        "net_leverage": 1.92,
+        "net_leverage": 2.24,
         "interest_coverage": 4.81,
         "observations": {
           "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
@@ -36802,9 +36810,9 @@ const MASTER_ISSUERS = [
       "rating": "B- / Caa1",
       "tier": "B",
       "benchmark_bond": "LIQTEL 14.25% 2026",
-      "price": 81.5,
-      "ytm": 14.25,
-      "spread_bp": 990,
+      "price": 104.22,
+      "ytm": 9.58,
+      "spread_bp": 471,
       "model_file": "Liquid_Telecom_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c68106a069d7d8c091ffa8",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Liquid_Telecom_Credit_Model.xlsx",
@@ -36812,8 +36820,11 @@ const MASTER_ISSUERS = [
       "cognitive_credit_id": "liquidtech",
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description",
       "model_type": "corp",
-      "fcf_2024a": -58.6,
-      "net_leverage_2024a": 5.12
+      "fcf_2024a": 68.3,
+      "net_leverage_2024a": 4.13,
+      "ltm_revenue": 633.2,
+      "ltm_ebitda": 185.0,
+      "ltm_net_debt": 764.2
     },
     "financials_multi_year": [
       {
@@ -36939,17 +36950,17 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 680,
-        "ebitda": 210,
-        "ebitda_margin_pct": 30.9,
-        "cfo": 178.5,
-        "capex": 101.4,
-        "fcf": -58.6,
-        "cash": 157.5,
-        "gross_debt": 1232.7,
-        "net_debt": 1075.2,
-        "net_leverage": 5.12,
-        "interest_coverage": 1.83,
+        "revenue": 633.2,
+        "ebitda": 185.0,
+        "ebitda_margin_pct": 29.2,
+        "cfo": 145.0,
+        "capex": -59.2,
+        "fcf": 26.8,
+        "cash": 56.4,
+        "gross_debt": 820.6,
+        "net_debt": 764.2,
+        "net_leverage": 4.13,
+        "interest_coverage": 2.57,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
           "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -36957,14 +36968,14 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 213.1,
-        "calculated_ebitda": 210,
+        "reported_ebitda": 185.0,
+        "calculated_ebitda": 185.0,
         "ebitda_reconciliation_variance_usd_m": 3.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 114.8,
-        "change_in_working_capital": 27.2,
-        "tax_expense": 25.2,
+        "cash_interest": -72.0,
+        "change_in_working_capital": -12.0,
+        "tax_expense": -15.0,
         "fcf_conversion_pct": -27.9,
         "fcf_bridge": {
           "calculated_ebitda": 210,
@@ -36974,7 +36985,8 @@ const MASTER_ISSUERS = [
           "tax": 25.2,
           "fcf": -58.6,
           "formula_check": "210.0 - 101.4 - 114.8 - (27.2) - 25.2 = -58.6"
-        }
+        },
+        "gross_profit": 360.0
       },
       {
         "period": "2025E",
@@ -38407,12 +38419,12 @@ const MASTER_ISSUERS = [
       "region": "CEEMEA",
       "sector": "Materials",
       "type": "corp",
-      "rating": "CCC+ / Caa3",
+      "rating": "CCC+",
       "tier": "CCC",
       "benchmark_bond": "METINV 15.65% 2029",
-      "price": 76,
-      "ytm": 15.65,
-      "spread_bp": 1125,
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
       "model_file": "Metinvest_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681ff8aeff3d6ff934b3c",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Metinvest_Credit_Model.xlsx",
@@ -38420,8 +38432,11 @@ const MASTER_ISSUERS = [
       "cognitive_credit_id": "metinvest",
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/metinvest/description",
       "model_type": "corp",
-      "fcf_2024a": 155.0,
-      "net_leverage_2024a": 1.79
+      "fcf_2024a": -550.0,
+      "net_leverage_2024a": 1.18,
+      "ltm_revenue": 7344.0,
+      "ltm_ebitda": 737.0,
+      "ltm_net_debt": 866.0
     },
     "financials_multi_year": [
       {
@@ -38436,7 +38451,7 @@ const MASTER_ISSUERS = [
         "cash": 379.5,
         "gross_debt": 1986.3,
         "net_debt": 1606.8,
-        "net_leverage": 2.69,
+        "net_leverage": 0.23,
         "interest_coverage": 4.15,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
@@ -38516,7 +38531,7 @@ const MASTER_ISSUERS = [
         "cash": 586.5,
         "gross_debt": 2290.1,
         "net_debt": 1703.6,
-        "net_leverage": 2.06,
+        "net_leverage": 2.51,
         "interest_coverage": 3.83,
         "observations": {
           "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -38547,17 +38562,17 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 7850.0,
-        "ebitda": 860.0,
-        "ebitda_margin_pct": 11.0,
-        "cfo": 782,
-        "capex": 420.0,
-        "fcf": 155.0,
-        "cash": 690,
-        "gross_debt": 2336.8,
-        "net_debt": 1646.8,
-        "net_leverage": 1.79,
-        "interest_coverage": 3.83,
+        "revenue": 7344.0,
+        "ebitda": 737.0,
+        "ebitda_margin_pct": 10.0,
+        "cfo": 280.0,
+        "capex": -580.0,
+        "fcf": -193.0,
+        "cash": 191.0,
+        "gross_debt": 1057.0,
+        "net_debt": 866.0,
+        "net_leverage": 1.18,
+        "interest_coverage": 3.98,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
           "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -38565,14 +38580,14 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 877.2,
-        "calculated_ebitda": 860.0,
+        "reported_ebitda": 737.0,
+        "calculated_ebitda": 737.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 175.0,
-        "change_in_working_capital": 45.0,
-        "tax_expense": 65.0,
+        "cash_interest": -185.0,
+        "change_in_working_capital": -120.0,
+        "tax_expense": -45.0,
         "fcf_conversion_pct": 18.0,
         "fcf_bridge": {
           "calculated_ebitda": 860.0,
@@ -38582,7 +38597,8 @@ const MASTER_ISSUERS = [
           "tax": 65.0,
           "fcf": 155.0,
           "formula_check": "860.0 - 420.0 - 175.0 - (45.0) - 65.0 = 155.0"
-        }
+        },
+        "gross_profit": 1250.0
       },
       {
         "period": "2025E",
@@ -52212,7 +52228,7 @@ const MASTER_ISSUERS = [
         "cash": 1175.6,
         "gross_debt": 6758.8,
         "net_debt": 5583.2,
-        "net_leverage": 3.01,
+        "net_leverage": 1.96,
         "interest_coverage": 5.61,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
@@ -52252,7 +52268,7 @@ const MASTER_ISSUERS = [
         "cash": 1496.2,
         "gross_debt": 7315.4,
         "net_debt": 5819.2,
-        "net_leverage": 2.55,
+        "net_leverage": 1.39,
         "interest_coverage": 5.53,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -52292,7 +52308,7 @@ const MASTER_ISSUERS = [
         "cash": 1816.9,
         "gross_debt": 7792.5,
         "net_debt": 5975.6,
-        "net_leverage": 2.33,
+        "net_leverage": 1.78,
         "interest_coverage": 5.18,
         "observations": {
           "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -52332,7 +52348,7 @@ const MASTER_ISSUERS = [
         "cash": 2137.5,
         "gross_debt": 7951.5,
         "net_debt": 5814,
-        "net_leverage": 2.04,
+        "net_leverage": 2.37,
         "interest_coverage": 5.18,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
@@ -52372,7 +52388,7 @@ const MASTER_ISSUERS = [
         "cash": 2522.2,
         "gross_debt": 7792.5,
         "net_debt": 5270.3,
-        "net_leverage": 1.68,
+        "net_leverage": 1.9,
         "interest_coverage": 5.94,
         "observations": {
           "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
@@ -59659,7 +59675,7 @@ const MASTER_ISSUERS = [
         "fcf": 44.0,
         "cash": 208.1,
         "gross_debt": 188.1,
-        "net_debt": 0.0,
+        "net_debt": -20.0,
         "net_leverage": 0.0,
         "interest_coverage": 11.85,
         "observations": {
@@ -61840,23 +61856,25 @@ const MASTER_ISSUERS = [
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description",
       "model_type": "corp",
       "fcf_2024a": 152.0,
-      "net_leverage_2024a": 2.3
+      "net_leverage_2024a": 1.4,
+      "ltm_fcf": -219.6,
+      "ltm_net_leverage": 2.3
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 1438.3,
-        "ebitda": 972.9,
-        "ebitda_margin_pct": 67.6,
-        "cfo": 432.1,
-        "capex": 236.5,
+        "revenue": 1285.4,
+        "ebitda": 1019.8,
+        "ebitda_margin_pct": 79.3,
+        "cfo": 786.9,
+        "capex": -236.5,
         "fcf": 245.0,
-        "cash": 338.2,
-        "gross_debt": 2125.8,
-        "net_debt": 1787.6,
-        "net_leverage": 3.35,
-        "interest_coverage": 3.71,
+        "cash": 469.1,
+        "gross_debt": 2568.7,
+        "net_debt": 2099.6,
+        "net_leverage": 2.06,
+        "interest_coverage": 4.64,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
           "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
@@ -61864,14 +61882,14 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 992.358,
-        "calculated_ebitda": 972.9,
+        "reported_ebitda": 1019.8,
+        "calculated_ebitda": 1019.8,
         "ebitda_reconciliation_variance_usd_m": 8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 234.9,
-        "change_in_working_capital": -12.0,
-        "tax_expense": 56.1,
+        "cash_interest": -220.0,
+        "change_in_working_capital": -15.0,
+        "tax_expense": -65.0,
         "fcf_conversion_pct": 25.2,
         "fcf_bridge": {
           "calculated_ebitda": 972.9,
@@ -61881,22 +61899,24 @@ const MASTER_ISSUERS = [
           "tax": 56.1,
           "fcf": 245.0,
           "formula_check": "972.9 - 236.5 - 234.9 - (-12.0) - 56.1 = 245.0"
-        }
+        },
+        "gross_profit": 646.5,
+        "operating_profit": 526.7
       },
       {
         "period": "2022A",
         "is_audited": true,
         "revenue": 1783.1,
-        "ebitda": 1468.9,
-        "ebitda_margin_pct": 82.4,
-        "cfo": 543.7,
-        "capex": 306.4,
-        "fcf": 267.0,
-        "cash": 430.5,
-        "gross_debt": 2300.9,
-        "net_debt": 1870.4,
-        "net_leverage": 2.85,
-        "interest_coverage": 3.65,
+        "ebitda": 1656.1,
+        "ebitda_margin_pct": 92.9,
+        "cfo": 1077.8,
+        "capex": -306.4,
+        "fcf": 405.0,
+        "cash": 636.3,
+        "gross_debt": 2472.8,
+        "net_debt": 1836.5,
+        "net_leverage": 1.11,
+        "interest_coverage": 7.05,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
           "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
@@ -61904,14 +61924,14 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 1498.278,
-        "calculated_ebitda": 1468.9,
+        "reported_ebitda": 1656.1,
+        "calculated_ebitda": 1656.1,
         "ebitda_reconciliation_variance_usd_m": 9.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 249.0,
-        "change_in_working_capital": 35.0,
-        "tax_expense": 229.3,
+        "cash_interest": -235.0,
+        "change_in_working_capital": -45.0,
+        "tax_expense": -85.0,
         "fcf_conversion_pct": 18.2,
         "fcf_bridge": {
           "calculated_ebitda": 1468.9,
@@ -61921,22 +61941,24 @@ const MASTER_ISSUERS = [
           "tax": 229.3,
           "fcf": 267.0,
           "formula_check": "1468.9 - 306.4 - 249.0 - (35.0) - 229.3 = 267.0"
-        }
+        },
+        "gross_profit": 1085.6,
+        "operating_profit": 733.9
       },
       {
         "period": "2023A",
         "is_audited": true,
         "revenue": 1634.1,
-        "ebitda": 1151.4,
-        "ebitda_margin_pct": 70.5,
-        "cfo": 613.4,
-        "capex": 292.5,
-        "fcf": 170.0,
-        "cash": 522.8,
-        "gross_debt": 2451,
-        "net_debt": 1928.2,
-        "net_leverage": 2.61,
-        "interest_coverage": 3.42,
+        "ebitda": 1167.6,
+        "ebitda_margin_pct": 71.5,
+        "cfo": 876.2,
+        "capex": -292.5,
+        "fcf": 268.0,
+        "cash": 499.0,
+        "gross_debt": 2084.6,
+        "net_debt": 1585.6,
+        "net_leverage": 1.36,
+        "interest_coverage": 4.87,
         "observations": {
           "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
           "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
@@ -61944,14 +61966,14 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 1174.428,
-        "calculated_ebitda": 1151.4,
+        "reported_ebitda": 1167.6,
+        "calculated_ebitda": 1167.6,
         "ebitda_reconciliation_variance_usd_m": 11.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 240.0,
-        "change_in_working_capital": 18.0,
-        "tax_expense": 274.5,
+        "cash_interest": -240.0,
+        "change_in_working_capital": -20.0,
+        "tax_expense": -75.0,
         "fcf_conversion_pct": 14.8,
         "fcf_bridge": {
           "calculated_ebitda": 1151.4,
@@ -61961,22 +61983,24 @@ const MASTER_ISSUERS = [
           "tax": 274.5,
           "fcf": 170.0,
           "formula_check": "1151.4 - 292.5 - 240.0 - (18.0) - 274.5 = 170.0"
-        }
+        },
+        "gross_profit": 764.9,
+        "operating_profit": 295.9
       },
       {
         "period": "2024A",
         "is_audited": true,
         "revenue": 1287.2,
-        "ebitda": 1008.1,
-        "ebitda_margin_pct": 78.3,
-        "cfo": 697,
-        "capex": 224.5,
+        "ebitda": 1093.7,
+        "ebitda_margin_pct": 85.0,
+        "cfo": 758.5,
+        "capex": -224.5,
         "fcf": 152.0,
-        "cash": 615,
-        "gross_debt": 2501,
-        "net_debt": 1886,
-        "net_leverage": 2.3,
-        "interest_coverage": 3.42,
+        "cash": 555.1,
+        "gross_debt": 1975.8,
+        "net_debt": 1420.7,
+        "net_leverage": 1.3,
+        "interest_coverage": 4.9,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
           "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -61984,14 +62008,14 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 1028.262,
-        "calculated_ebitda": 1008.1,
+        "reported_ebitda": 1093.7,
+        "calculated_ebitda": 1093.7,
         "ebitda_reconciliation_variance_usd_m": 12.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 223.2,
-        "change_in_working_capital": 25.1,
-        "tax_expense": 160.3,
+        "cash_interest": -223.2,
+        "change_in_working_capital": -18.0,
+        "tax_expense": -62.0,
         "fcf_conversion_pct": 15.1,
         "fcf_bridge": {
           "calculated_ebitda": 1008.1,
@@ -62001,22 +62025,24 @@ const MASTER_ISSUERS = [
           "tax": 160.3,
           "fcf": 152.0,
           "formula_check": "1008.1 - 224.5 - 223.2 - (25.1) - 160.3 = 152.0"
-        }
+        },
+        "gross_profit": 634.7,
+        "operating_profit": 448.7
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 1320.0,
-        "ebitda": 920.0,
-        "ebitda_margin_pct": 69.7,
-        "cfo": 766.7,
-        "capex": 240.0,
-        "fcf": 160.0,
-        "cash": 725.7,
-        "gross_debt": 2451,
-        "net_debt": 1725.3,
-        "net_leverage": 1.91,
-        "interest_coverage": 3.92,
+        "revenue": 1250.0,
+        "ebitda": 950.0,
+        "ebitda_margin_pct": 76.0,
+        "cfo": 650.0,
+        "capex": -240.0,
+        "fcf": 85.0,
+        "cash": 480.0,
+        "gross_debt": 1850.0,
+        "net_debt": 1370.0,
+        "net_leverage": 1.44,
+        "interest_coverage": 4.52,
         "observations": {
           "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
           "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
@@ -62024,14 +62050,14 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 938.4,
-        "calculated_ebitda": 920.0,
+        "reported_ebitda": 950.0,
+        "calculated_ebitda": 950.0,
         "ebitda_reconciliation_variance_usd_m": 13.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 210.0,
-        "change_in_working_capital": 10.0,
-        "tax_expense": 140.0,
+        "cash_interest": -210.0,
+        "change_in_working_capital": -15.0,
+        "tax_expense": -55.0,
         "fcf_conversion_pct": 17.4,
         "fcf_bridge": {
           "calculated_ebitda": 920.0,
@@ -62041,7 +62067,9 @@ const MASTER_ISSUERS = [
           "tax": 140.0,
           "fcf": 160.0,
           "formula_check": "920.0 - 240.0 - 210.0 - (10.0) - 140.0 = 160.0"
-        }
+        },
+        "gross_profit": 610.0,
+        "operating_profit": 410.0
       },
       {
         "period": "2026E",
@@ -70483,7 +70511,7 @@ window.CEMBI_DATA = {
         "cash": 483.0,
         "gross_debt": 3893.4,
         "net_debt": 3410.4,
-        "net_leverage": 4.63,
+        "net_leverage": 4.98,
         "interest_coverage": 3.63,
         "observations": {
           "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
@@ -70523,7 +70551,7 @@ window.CEMBI_DATA = {
         "cash": 586.5,
         "gross_debt": 4147.4,
         "net_debt": 3560.9,
-        "net_leverage": 4.3,
+        "net_leverage": 4.57,
         "interest_coverage": 3.4,
         "observations": {
           "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
@@ -70603,7 +70631,7 @@ window.CEMBI_DATA = {
         "cash": 814.2,
         "gross_debt": 4147.4,
         "net_debt": 3333.2,
-        "net_leverage": 3.29,
+        "net_leverage": 3.09,
         "interest_coverage": 3.9,
         "observations": {
           "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
@@ -70643,7 +70671,7 @@ window.CEMBI_DATA = {
         "cash": 931.5,
         "gross_debt": 4020.4,
         "net_debt": 3088.9,
-        "net_leverage": 2.85,
+        "net_leverage": 2.41,
         "interest_coverage": 4.36,
         "observations": {
           "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
@@ -70683,7 +70711,7 @@ window.CEMBI_DATA = {
         "cash": 1035.0,
         "gross_debt": 3808.8,
         "net_debt": 2773.8,
-        "net_leverage": 2.43,
+        "net_leverage": 1.82,
         "interest_coverage": 4.79,
         "observations": {
           "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
@@ -72795,9 +72823,9 @@ window.CEMBI_DATA = {
       "rating": "B- / B3",
       "tier": "B",
       "benchmark_bond": "AFRCEL 11.45% 2028",
-      "price": 92,
-      "ytm": 11.45,
-      "spread_bp": 710,
+      "price": 103.01,
+      "ytm": 9.35,
+      "spread_bp": 457,
       "model_file": "Africell_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6811ba825cb8d9a616ac8",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Africell_Credit_Model.xlsx",
@@ -72806,7 +72834,10 @@ window.CEMBI_DATA = {
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description",
       "model_type": "corp",
       "fcf_2024a": -62.5,
-      "net_leverage_2024a": 2.52
+      "net_leverage_2024a": 1.52,
+      "ltm_revenue": 653.6,
+      "ltm_ebitda": 339.4,
+      "ltm_net_debt": 516.3
     },
     "financials_multi_year": [
       {
@@ -72815,14 +72846,14 @@ window.CEMBI_DATA = {
         "revenue": 380.0,
         "ebitda": 130.0,
         "ebitda_margin_pct": 34.2,
-        "cfo": 87,
-        "capex": 85.0,
-        "fcf": -27.0,
+        "cfo": 87.0,
+        "capex": -85.0,
+        "fcf": -18.0,
         "cash": 68.1,
         "gross_debt": 458.6,
         "net_debt": 390.5,
-        "net_leverage": 3.64,
-        "interest_coverage": 3.13,
+        "net_leverage": 3.0,
+        "interest_coverage": 2.89,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
           "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
@@ -72830,14 +72861,14 @@ window.CEMBI_DATA = {
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 132.6,
+        "reported_ebitda": 130.0,
         "calculated_ebitda": 130.0,
         "ebitda_reconciliation_variance_usd_m": 1.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 52.0,
-        "change_in_working_capital": 12.0,
-        "tax_expense": 8.0,
+        "cash_interest": -45.0,
+        "change_in_working_capital": -10.0,
+        "tax_expense": -8.0,
         "fcf_conversion_pct": -20.8,
         "fcf_bridge": {
           "calculated_ebitda": 130.0,
@@ -72847,7 +72878,8 @@ window.CEMBI_DATA = {
           "tax": 8.0,
           "fcf": -27.0,
           "formula_check": "130.0 - 85.0 - 52.0 - (12.0) - 8.0 = -27.0"
-        }
+        },
+        "gross_profit": 210.0
       },
       {
         "period": "2022A",
@@ -72861,7 +72893,7 @@ window.CEMBI_DATA = {
         "cash": 86.6,
         "gross_debt": 496.4,
         "net_debt": 409.8,
-        "net_leverage": 3.1,
+        "net_leverage": 2.89,
         "interest_coverage": 3.08,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -72932,17 +72964,17 @@ window.CEMBI_DATA = {
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 445.7,
-        "ebitda": 159.0,
-        "ebitda_margin_pct": 35.7,
-        "cfo": 140.2,
-        "capex": 73.4,
+        "revenue": 653.6,
+        "ebitda": 339.4,
+        "ebitda_margin_pct": 51.9,
+        "cfo": 215.0,
+        "capex": -185.0,
         "fcf": -62.5,
-        "cash": 123.8,
-        "gross_debt": 539.5,
-        "net_debt": 415.7,
-        "net_leverage": 2.52,
-        "interest_coverage": 2.89,
+        "cash": 256.0,
+        "gross_debt": 772.3,
+        "net_debt": 516.3,
+        "net_leverage": 1.52,
+        "interest_coverage": 5.85,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
           "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -72950,14 +72982,14 @@ window.CEMBI_DATA = {
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 162.18,
-        "calculated_ebitda": 159.0,
+        "reported_ebitda": 339.4,
+        "calculated_ebitda": 339.4,
         "ebitda_reconciliation_variance_usd_m": 2.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 57.1,
-        "change_in_working_capital": 22.5,
-        "tax_expense": 11.0,
+        "cash_interest": -58.0,
+        "change_in_working_capital": -25.0,
+        "tax_expense": -18.0,
         "fcf_conversion_pct": -39.3,
         "fcf_bridge": {
           "calculated_ebitda": 159.0,
@@ -72967,7 +72999,8 @@ window.CEMBI_DATA = {
           "tax": 11.0,
           "fcf": -62.5,
           "formula_check": "159.0 - 73.4 - 57.1 - (22.5) - 11.0 = -62.5"
-        }
+        },
+        "gross_profit": 390.0
       },
       {
         "period": "2025E",
@@ -75163,16 +75196,19 @@ window.CEMBI_DATA = {
       "rating": "B+ / B1",
       "tier": "B",
       "benchmark_bond": "ARADA 8.05% 2029",
-      "price": 100.5,
-      "ytm": 8.05,
-      "spread_bp": 400,
+      "price": 99.66,
+      "ytm": 8.13,
+      "spread_bp": 329,
       "model_file": "Arada_Credit_Model.xlsx",
       "notion_id": "3e01d0ad68c6819c9db2e3117db89214",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Arada_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "model_type": "corp",
-      "fcf_2024a": -89.8,
-      "net_leverage_2024a": 1.89
+      "fcf_2024a": -185.0,
+      "net_leverage_2024a": 2.74,
+      "ltm_revenue": 1580.0,
+      "ltm_ebitda": 414.0,
+      "ltm_net_debt": 1133.0
     },
     "financials_multi_year": [
       {
@@ -75298,17 +75334,17 @@ window.CEMBI_DATA = {
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 920.0,
-        "ebitda": 270.0,
-        "ebitda_margin_pct": 29.3,
-        "cfo": 229.5,
-        "capex": 170.8,
-        "fcf": -89.8,
-        "cash": 202.5,
-        "gross_debt": 712.8,
-        "net_debt": 510.3,
-        "net_leverage": 1.89,
-        "interest_coverage": 4.15,
+        "revenue": 1580.0,
+        "ebitda": 414.0,
+        "ebitda_margin_pct": 26.2,
+        "cfo": 120.0,
+        "capex": -95.0,
+        "fcf": -185.0,
+        "cash": 964.0,
+        "gross_debt": 2097.0,
+        "net_debt": 1133.0,
+        "net_leverage": 2.74,
+        "interest_coverage": 5.52,
         "observations": {
           "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
           "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
@@ -75316,14 +75352,14 @@ window.CEMBI_DATA = {
           "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
           "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
         },
-        "reported_ebitda": 287.6,
-        "calculated_ebitda": 270.0,
+        "reported_ebitda": 414.0,
+        "calculated_ebitda": 414.0,
         "ebitda_reconciliation_variance_usd_m": 17.6,
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$17.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-        "cash_interest": 65.1,
-        "change_in_working_capital": 110.4,
-        "tax_expense": 13.5,
+        "cash_interest": -75.0,
+        "change_in_working_capital": -180.0,
+        "tax_expense": -12.0,
         "fcf_conversion_pct": -33.3,
         "fcf_bridge": {
           "calculated_ebitda": 270.0,
@@ -75333,7 +75369,8 @@ window.CEMBI_DATA = {
           "tax": 13.5,
           "fcf": -89.8,
           "formula_check": "270.0 - 170.8 - 65.1 - (110.4) - 13.5 = -89.8"
-        }
+        },
+        "gross_profit": 520.0
       },
       {
         "period": "2025E",
@@ -81893,7 +81930,7 @@ window.CEMBI_DATA = {
         "fcf": -37.0,
         "cash": 688.5,
         "gross_debt": 671.8,
-        "net_debt": 0.0,
+        "net_debt": -16.7,
         "net_leverage": 0.0,
         "interest_coverage": 8.9,
         "observations": {
@@ -81933,7 +81970,7 @@ window.CEMBI_DATA = {
         "fcf": -28.2,
         "cash": 765.0,
         "gross_debt": 636.5,
-        "net_debt": 0.0,
+        "net_debt": -128.5,
         "net_leverage": 0.0,
         "interest_coverage": 9.78,
         "observations": {
@@ -83486,7 +83523,7 @@ window.CEMBI_DATA = {
         "cash": 88.5,
         "gross_debt": 311.6,
         "net_debt": 223.1,
-        "net_leverage": 2.03,
+        "net_leverage": 0.34,
         "interest_coverage": 4.7,
         "observations": {
           "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
@@ -83526,7 +83563,7 @@ window.CEMBI_DATA = {
         "cash": 101.2,
         "gross_debt": 302.1,
         "net_debt": 200.9,
-        "net_leverage": 1.7,
+        "net_leverage": 0.14,
         "interest_coverage": 5.26,
         "observations": {
           "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
@@ -83566,7 +83603,7 @@ window.CEMBI_DATA = {
         "cash": 112.5,
         "gross_debt": 286.2,
         "net_debt": 173.7,
-        "net_leverage": 1.4,
+        "net_leverage": 0.08,
         "interest_coverage": 5.78,
         "observations": {
           "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
@@ -86541,7 +86578,7 @@ window.CEMBI_DATA = {
         "cash": 173.2,
         "gross_debt": 1345.9,
         "net_debt": 1172.7,
-        "net_leverage": 4.3,
+        "net_leverage": 1.72,
         "interest_coverage": 3.5,
         "observations": {
           "revenue": "Steady demand recovery; baseload power generation contracted under long-term take-or-pay PPAs.",
@@ -86581,7 +86618,7 @@ window.CEMBI_DATA = {
         "cash": 220.5,
         "gross_debt": 1456.7,
         "net_debt": 1236.2,
-        "net_leverage": 3.68,
+        "net_leverage": 3.99,
         "interest_coverage": 3.45,
         "observations": {
           "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
@@ -86621,7 +86658,7 @@ window.CEMBI_DATA = {
         "cash": 267.8,
         "gross_debt": 1551.7,
         "net_debt": 1283.9,
-        "net_leverage": 3.4,
+        "net_leverage": 3.78,
         "interest_coverage": 3.23,
         "observations": {
           "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
@@ -86741,7 +86778,7 @@ window.CEMBI_DATA = {
         "cash": 425.2,
         "gross_debt": 1504.2,
         "net_debt": 1079,
-        "net_leverage": 2.18,
+        "net_leverage": 1.93,
         "interest_coverage": 4.14,
         "observations": {
           "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
@@ -86781,7 +86818,7 @@ window.CEMBI_DATA = {
         "cash": 472.5,
         "gross_debt": 1425.1,
         "net_debt": 952.6,
-        "net_leverage": 1.83,
+        "net_leverage": 1.51,
         "interest_coverage": 4.55,
         "observations": {
           "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",
@@ -88395,7 +88432,7 @@ window.CEMBI_DATA = {
         "fcf": -52.3,
         "cash": 393.8,
         "gross_debt": 390.6,
-        "net_debt": 0.0,
+        "net_debt": -3.2,
         "net_leverage": 0.0,
         "interest_coverage": 11.98,
         "observations": {
@@ -97610,7 +97647,7 @@ window.CEMBI_DATA = {
         "cash": 158.8,
         "gross_debt": 1714.8,
         "net_debt": 1556,
-        "net_leverage": 6.22,
+        "net_leverage": 6.46,
         "interest_coverage": 2.98,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
@@ -97650,7 +97687,7 @@ window.CEMBI_DATA = {
         "cash": 202.1,
         "gross_debt": 1856,
         "net_debt": 1653.9,
-        "net_leverage": 5.37,
+        "net_leverage": 5.84,
         "interest_coverage": 2.93,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -97810,7 +97847,7 @@ window.CEMBI_DATA = {
         "cash": 389.8,
         "gross_debt": 1916.5,
         "net_debt": 1526.7,
-        "net_leverage": 3.36,
+        "net_leverage": 3.15,
         "interest_coverage": 3.53,
         "observations": {
           "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
@@ -97850,7 +97887,7 @@ window.CEMBI_DATA = {
         "cash": 433.1,
         "gross_debt": 1815.7,
         "net_debt": 1382.6,
-        "net_leverage": 2.9,
+        "net_leverage": 2.58,
         "interest_coverage": 3.87,
         "observations": {
           "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
@@ -98651,7 +98688,7 @@ window.CEMBI_DATA = {
         "fcf": 56.2,
         "cash": 1743.8,
         "gross_debt": 1604.2,
-        "net_debt": 0.0,
+        "net_debt": -139.6,
         "net_leverage": 0.0,
         "interest_coverage": 21.14,
         "observations": {
@@ -104019,7 +104056,7 @@ window.CEMBI_DATA = {
         "cash": 551.2,
         "gross_debt": 2956,
         "net_debt": 2404.8,
-        "net_leverage": 2.86,
+        "net_leverage": 2.36,
         "interest_coverage": 4.48,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -104059,7 +104096,7 @@ window.CEMBI_DATA = {
         "cash": 669.4,
         "gross_debt": 3148.7,
         "net_debt": 2479.3,
-        "net_leverage": 2.62,
+        "net_leverage": 2.92,
         "interest_coverage": 4.2,
         "observations": {
           "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -104099,7 +104136,7 @@ window.CEMBI_DATA = {
         "cash": 787.5,
         "gross_debt": 3213,
         "net_debt": 2425.5,
-        "net_leverage": 2.31,
+        "net_leverage": 2.99,
         "interest_coverage": 4.2,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
@@ -104139,7 +104176,7 @@ window.CEMBI_DATA = {
         "cash": 929.2,
         "gross_debt": 3148.7,
         "net_debt": 2219.5,
-        "net_leverage": 1.92,
+        "net_leverage": 2.24,
         "interest_coverage": 4.81,
         "observations": {
           "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
@@ -107208,9 +107245,9 @@ window.CEMBI_DATA = {
       "rating": "B- / Caa1",
       "tier": "B",
       "benchmark_bond": "LIQTEL 14.25% 2026",
-      "price": 81.5,
-      "ytm": 14.25,
-      "spread_bp": 990,
+      "price": 104.22,
+      "ytm": 9.58,
+      "spread_bp": 471,
       "model_file": "Liquid_Telecom_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c68106a069d7d8c091ffa8",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Liquid_Telecom_Credit_Model.xlsx",
@@ -107218,8 +107255,11 @@ window.CEMBI_DATA = {
       "cognitive_credit_id": "liquidtech",
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description",
       "model_type": "corp",
-      "fcf_2024a": -58.6,
-      "net_leverage_2024a": 5.12
+      "fcf_2024a": 68.3,
+      "net_leverage_2024a": 4.13,
+      "ltm_revenue": 633.2,
+      "ltm_ebitda": 185.0,
+      "ltm_net_debt": 764.2
     },
     "financials_multi_year": [
       {
@@ -107345,17 +107385,17 @@ window.CEMBI_DATA = {
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 680,
-        "ebitda": 210,
-        "ebitda_margin_pct": 30.9,
-        "cfo": 178.5,
-        "capex": 101.4,
-        "fcf": -58.6,
-        "cash": 157.5,
-        "gross_debt": 1232.7,
-        "net_debt": 1075.2,
-        "net_leverage": 5.12,
-        "interest_coverage": 1.83,
+        "revenue": 633.2,
+        "ebitda": 185.0,
+        "ebitda_margin_pct": 29.2,
+        "cfo": 145.0,
+        "capex": -59.2,
+        "fcf": 26.8,
+        "cash": 56.4,
+        "gross_debt": 820.6,
+        "net_debt": 764.2,
+        "net_leverage": 4.13,
+        "interest_coverage": 2.57,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
           "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -107363,14 +107403,14 @@ window.CEMBI_DATA = {
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 213.1,
-        "calculated_ebitda": 210,
+        "reported_ebitda": 185.0,
+        "calculated_ebitda": 185.0,
         "ebitda_reconciliation_variance_usd_m": 3.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 114.8,
-        "change_in_working_capital": 27.2,
-        "tax_expense": 25.2,
+        "cash_interest": -72.0,
+        "change_in_working_capital": -12.0,
+        "tax_expense": -15.0,
         "fcf_conversion_pct": -27.9,
         "fcf_bridge": {
           "calculated_ebitda": 210,
@@ -107380,7 +107420,8 @@ window.CEMBI_DATA = {
           "tax": 25.2,
           "fcf": -58.6,
           "formula_check": "210.0 - 101.4 - 114.8 - (27.2) - 25.2 = -58.6"
-        }
+        },
+        "gross_profit": 360.0
       },
       {
         "period": "2025E",
@@ -108813,12 +108854,12 @@ window.CEMBI_DATA = {
       "region": "CEEMEA",
       "sector": "Materials",
       "type": "corp",
-      "rating": "CCC+ / Caa3",
+      "rating": "CCC+",
       "tier": "CCC",
       "benchmark_bond": "METINV 15.65% 2029",
-      "price": 76,
-      "ytm": 15.65,
-      "spread_bp": 1125,
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
       "model_file": "Metinvest_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681ff8aeff3d6ff934b3c",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Metinvest_Credit_Model.xlsx",
@@ -108826,8 +108867,11 @@ window.CEMBI_DATA = {
       "cognitive_credit_id": "metinvest",
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/metinvest/description",
       "model_type": "corp",
-      "fcf_2024a": 155.0,
-      "net_leverage_2024a": 1.79
+      "fcf_2024a": -550.0,
+      "net_leverage_2024a": 1.18,
+      "ltm_revenue": 7344.0,
+      "ltm_ebitda": 737.0,
+      "ltm_net_debt": 866.0
     },
     "financials_multi_year": [
       {
@@ -108842,7 +108886,7 @@ window.CEMBI_DATA = {
         "cash": 379.5,
         "gross_debt": 1986.3,
         "net_debt": 1606.8,
-        "net_leverage": 2.69,
+        "net_leverage": 0.23,
         "interest_coverage": 4.15,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
@@ -108922,7 +108966,7 @@ window.CEMBI_DATA = {
         "cash": 586.5,
         "gross_debt": 2290.1,
         "net_debt": 1703.6,
-        "net_leverage": 2.06,
+        "net_leverage": 2.51,
         "interest_coverage": 3.83,
         "observations": {
           "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -108953,17 +108997,17 @@ window.CEMBI_DATA = {
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 7850.0,
-        "ebitda": 860.0,
-        "ebitda_margin_pct": 11.0,
-        "cfo": 782,
-        "capex": 420.0,
-        "fcf": 155.0,
-        "cash": 690,
-        "gross_debt": 2336.8,
-        "net_debt": 1646.8,
-        "net_leverage": 1.79,
-        "interest_coverage": 3.83,
+        "revenue": 7344.0,
+        "ebitda": 737.0,
+        "ebitda_margin_pct": 10.0,
+        "cfo": 280.0,
+        "capex": -580.0,
+        "fcf": -193.0,
+        "cash": 191.0,
+        "gross_debt": 1057.0,
+        "net_debt": 866.0,
+        "net_leverage": 1.18,
+        "interest_coverage": 3.98,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
           "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -108971,14 +109015,14 @@ window.CEMBI_DATA = {
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 877.2,
-        "calculated_ebitda": 860.0,
+        "reported_ebitda": 737.0,
+        "calculated_ebitda": 737.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 175.0,
-        "change_in_working_capital": 45.0,
-        "tax_expense": 65.0,
+        "cash_interest": -185.0,
+        "change_in_working_capital": -120.0,
+        "tax_expense": -45.0,
         "fcf_conversion_pct": 18.0,
         "fcf_bridge": {
           "calculated_ebitda": 860.0,
@@ -108988,7 +109032,8 @@ window.CEMBI_DATA = {
           "tax": 65.0,
           "fcf": 155.0,
           "formula_check": "860.0 - 420.0 - 175.0 - (45.0) - 65.0 = 155.0"
-        }
+        },
+        "gross_profit": 1250.0
       },
       {
         "period": "2025E",
@@ -122618,7 +122663,7 @@ window.CEMBI_DATA = {
         "cash": 1175.6,
         "gross_debt": 6758.8,
         "net_debt": 5583.2,
-        "net_leverage": 3.01,
+        "net_leverage": 1.96,
         "interest_coverage": 5.61,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
@@ -122658,7 +122703,7 @@ window.CEMBI_DATA = {
         "cash": 1496.2,
         "gross_debt": 7315.4,
         "net_debt": 5819.2,
-        "net_leverage": 2.55,
+        "net_leverage": 1.39,
         "interest_coverage": 5.53,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -122698,7 +122743,7 @@ window.CEMBI_DATA = {
         "cash": 1816.9,
         "gross_debt": 7792.5,
         "net_debt": 5975.6,
-        "net_leverage": 2.33,
+        "net_leverage": 1.78,
         "interest_coverage": 5.18,
         "observations": {
           "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -122738,7 +122783,7 @@ window.CEMBI_DATA = {
         "cash": 2137.5,
         "gross_debt": 7951.5,
         "net_debt": 5814,
-        "net_leverage": 2.04,
+        "net_leverage": 2.37,
         "interest_coverage": 5.18,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
@@ -122778,7 +122823,7 @@ window.CEMBI_DATA = {
         "cash": 2522.2,
         "gross_debt": 7792.5,
         "net_debt": 5270.3,
-        "net_leverage": 1.68,
+        "net_leverage": 1.9,
         "interest_coverage": 5.94,
         "observations": {
           "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
@@ -130065,7 +130110,7 @@ window.CEMBI_DATA = {
         "fcf": 44.0,
         "cash": 208.1,
         "gross_debt": 188.1,
-        "net_debt": 0.0,
+        "net_debt": -20.0,
         "net_leverage": 0.0,
         "interest_coverage": 11.85,
         "observations": {
@@ -132246,23 +132291,25 @@ window.CEMBI_DATA = {
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description",
       "model_type": "corp",
       "fcf_2024a": 152.0,
-      "net_leverage_2024a": 2.3
+      "net_leverage_2024a": 1.4,
+      "ltm_fcf": -219.6,
+      "ltm_net_leverage": 2.3
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 1438.3,
-        "ebitda": 972.9,
-        "ebitda_margin_pct": 67.6,
-        "cfo": 432.1,
-        "capex": 236.5,
+        "revenue": 1285.4,
+        "ebitda": 1019.8,
+        "ebitda_margin_pct": 79.3,
+        "cfo": 786.9,
+        "capex": -236.5,
         "fcf": 245.0,
-        "cash": 338.2,
-        "gross_debt": 2125.8,
-        "net_debt": 1787.6,
-        "net_leverage": 3.35,
-        "interest_coverage": 3.71,
+        "cash": 469.1,
+        "gross_debt": 2568.7,
+        "net_debt": 2099.6,
+        "net_leverage": 2.06,
+        "interest_coverage": 4.64,
         "observations": {
           "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
           "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
@@ -132270,14 +132317,14 @@ window.CEMBI_DATA = {
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 992.358,
-        "calculated_ebitda": 972.9,
+        "reported_ebitda": 1019.8,
+        "calculated_ebitda": 1019.8,
         "ebitda_reconciliation_variance_usd_m": 8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 234.9,
-        "change_in_working_capital": -12.0,
-        "tax_expense": 56.1,
+        "cash_interest": -220.0,
+        "change_in_working_capital": -15.0,
+        "tax_expense": -65.0,
         "fcf_conversion_pct": 25.2,
         "fcf_bridge": {
           "calculated_ebitda": 972.9,
@@ -132287,22 +132334,24 @@ window.CEMBI_DATA = {
           "tax": 56.1,
           "fcf": 245.0,
           "formula_check": "972.9 - 236.5 - 234.9 - (-12.0) - 56.1 = 245.0"
-        }
+        },
+        "gross_profit": 646.5,
+        "operating_profit": 526.7
       },
       {
         "period": "2022A",
         "is_audited": true,
         "revenue": 1783.1,
-        "ebitda": 1468.9,
-        "ebitda_margin_pct": 82.4,
-        "cfo": 543.7,
-        "capex": 306.4,
-        "fcf": 267.0,
-        "cash": 430.5,
-        "gross_debt": 2300.9,
-        "net_debt": 1870.4,
-        "net_leverage": 2.85,
-        "interest_coverage": 3.65,
+        "ebitda": 1656.1,
+        "ebitda_margin_pct": 92.9,
+        "cfo": 1077.8,
+        "capex": -306.4,
+        "fcf": 405.0,
+        "cash": 636.3,
+        "gross_debt": 2472.8,
+        "net_debt": 1836.5,
+        "net_leverage": 1.11,
+        "interest_coverage": 7.05,
         "observations": {
           "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
           "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
@@ -132310,14 +132359,14 @@ window.CEMBI_DATA = {
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 1498.278,
-        "calculated_ebitda": 1468.9,
+        "reported_ebitda": 1656.1,
+        "calculated_ebitda": 1656.1,
         "ebitda_reconciliation_variance_usd_m": 9.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 249.0,
-        "change_in_working_capital": 35.0,
-        "tax_expense": 229.3,
+        "cash_interest": -235.0,
+        "change_in_working_capital": -45.0,
+        "tax_expense": -85.0,
         "fcf_conversion_pct": 18.2,
         "fcf_bridge": {
           "calculated_ebitda": 1468.9,
@@ -132327,22 +132376,24 @@ window.CEMBI_DATA = {
           "tax": 229.3,
           "fcf": 267.0,
           "formula_check": "1468.9 - 306.4 - 249.0 - (35.0) - 229.3 = 267.0"
-        }
+        },
+        "gross_profit": 1085.6,
+        "operating_profit": 733.9
       },
       {
         "period": "2023A",
         "is_audited": true,
         "revenue": 1634.1,
-        "ebitda": 1151.4,
-        "ebitda_margin_pct": 70.5,
-        "cfo": 613.4,
-        "capex": 292.5,
-        "fcf": 170.0,
-        "cash": 522.8,
-        "gross_debt": 2451,
-        "net_debt": 1928.2,
-        "net_leverage": 2.61,
-        "interest_coverage": 3.42,
+        "ebitda": 1167.6,
+        "ebitda_margin_pct": 71.5,
+        "cfo": 876.2,
+        "capex": -292.5,
+        "fcf": 268.0,
+        "cash": 499.0,
+        "gross_debt": 2084.6,
+        "net_debt": 1585.6,
+        "net_leverage": 1.36,
+        "interest_coverage": 4.87,
         "observations": {
           "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
           "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
@@ -132350,14 +132401,14 @@ window.CEMBI_DATA = {
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 1174.428,
-        "calculated_ebitda": 1151.4,
+        "reported_ebitda": 1167.6,
+        "calculated_ebitda": 1167.6,
         "ebitda_reconciliation_variance_usd_m": 11.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 240.0,
-        "change_in_working_capital": 18.0,
-        "tax_expense": 274.5,
+        "cash_interest": -240.0,
+        "change_in_working_capital": -20.0,
+        "tax_expense": -75.0,
         "fcf_conversion_pct": 14.8,
         "fcf_bridge": {
           "calculated_ebitda": 1151.4,
@@ -132367,22 +132418,24 @@ window.CEMBI_DATA = {
           "tax": 274.5,
           "fcf": 170.0,
           "formula_check": "1151.4 - 292.5 - 240.0 - (18.0) - 274.5 = 170.0"
-        }
+        },
+        "gross_profit": 764.9,
+        "operating_profit": 295.9
       },
       {
         "period": "2024A",
         "is_audited": true,
         "revenue": 1287.2,
-        "ebitda": 1008.1,
-        "ebitda_margin_pct": 78.3,
-        "cfo": 697,
-        "capex": 224.5,
+        "ebitda": 1093.7,
+        "ebitda_margin_pct": 85.0,
+        "cfo": 758.5,
+        "capex": -224.5,
         "fcf": 152.0,
-        "cash": 615,
-        "gross_debt": 2501,
-        "net_debt": 1886,
-        "net_leverage": 2.3,
-        "interest_coverage": 3.42,
+        "cash": 555.1,
+        "gross_debt": 1975.8,
+        "net_debt": 1420.7,
+        "net_leverage": 1.3,
+        "interest_coverage": 4.9,
         "observations": {
           "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
           "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -132390,14 +132443,14 @@ window.CEMBI_DATA = {
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 1028.262,
-        "calculated_ebitda": 1008.1,
+        "reported_ebitda": 1093.7,
+        "calculated_ebitda": 1093.7,
         "ebitda_reconciliation_variance_usd_m": 12.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 223.2,
-        "change_in_working_capital": 25.1,
-        "tax_expense": 160.3,
+        "cash_interest": -223.2,
+        "change_in_working_capital": -18.0,
+        "tax_expense": -62.0,
         "fcf_conversion_pct": 15.1,
         "fcf_bridge": {
           "calculated_ebitda": 1008.1,
@@ -132407,22 +132460,24 @@ window.CEMBI_DATA = {
           "tax": 160.3,
           "fcf": 152.0,
           "formula_check": "1008.1 - 224.5 - 223.2 - (25.1) - 160.3 = 152.0"
-        }
+        },
+        "gross_profit": 634.7,
+        "operating_profit": 448.7
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 1320.0,
-        "ebitda": 920.0,
-        "ebitda_margin_pct": 69.7,
-        "cfo": 766.7,
-        "capex": 240.0,
-        "fcf": 160.0,
-        "cash": 725.7,
-        "gross_debt": 2451,
-        "net_debt": 1725.3,
-        "net_leverage": 1.91,
-        "interest_coverage": 3.92,
+        "revenue": 1250.0,
+        "ebitda": 950.0,
+        "ebitda_margin_pct": 76.0,
+        "cfo": 650.0,
+        "capex": -240.0,
+        "fcf": 85.0,
+        "cash": 480.0,
+        "gross_debt": 1850.0,
+        "net_debt": 1370.0,
+        "net_leverage": 1.44,
+        "interest_coverage": 4.52,
         "observations": {
           "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
           "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
@@ -132430,14 +132485,14 @@ window.CEMBI_DATA = {
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 938.4,
-        "calculated_ebitda": 920.0,
+        "reported_ebitda": 950.0,
+        "calculated_ebitda": 950.0,
         "ebitda_reconciliation_variance_usd_m": 13.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 210.0,
-        "change_in_working_capital": 10.0,
-        "tax_expense": 140.0,
+        "cash_interest": -210.0,
+        "change_in_working_capital": -15.0,
+        "tax_expense": -55.0,
         "fcf_conversion_pct": 17.4,
         "fcf_bridge": {
           "calculated_ebitda": 920.0,
@@ -132447,7 +132502,9 @@ window.CEMBI_DATA = {
           "tax": 140.0,
           "fcf": 160.0,
           "formula_check": "920.0 - 240.0 - 210.0 - (10.0) - 140.0 = 160.0"
-        }
+        },
+        "gross_profit": 610.0,
+        "operating_profit": 410.0
       },
       {
         "period": "2026E",

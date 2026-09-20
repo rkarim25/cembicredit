@@ -194,7 +194,7 @@
       "cash": 88.5,
       "gross_debt": 311.6,
       "net_debt": 223.1,
-      "net_leverage": 2.03,
+      "net_leverage": 0.34,
       "interest_coverage": 4.7,
       "observations": {
         "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
@@ -234,7 +234,7 @@
       "cash": 101.2,
       "gross_debt": 302.1,
       "net_debt": 200.9,
-      "net_leverage": 1.7,
+      "net_leverage": 0.14,
       "interest_coverage": 5.26,
       "observations": {
         "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
@@ -274,7 +274,7 @@
       "cash": 112.5,
       "gross_debt": 286.2,
       "net_debt": 173.7,
-      "net_leverage": 1.4,
+      "net_leverage": 0.08,
       "interest_coverage": 5.78,
       "observations": {
         "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",

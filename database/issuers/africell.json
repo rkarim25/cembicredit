@@ -10,9 +10,9 @@
     "rating": "B- / B3",
     "tier": "B",
     "benchmark_bond": "AFRCEL 11.45% 2028",
-    "price": 92,
-    "ytm": 11.45,
-    "spread_bp": 710,
+    "price": 103.01,
+    "ytm": 9.35,
+    "spread_bp": 457,
     "model_file": "Africell_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6811ba825cb8d9a616ac8",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Africell_Credit_Model.xlsx",
@@ -21,7 +21,10 @@
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description",
     "model_type": "corp",
     "fcf_2024a": -62.5,
-    "net_leverage_2024a": 2.52
+    "net_leverage_2024a": 1.52,
+    "ltm_revenue": 653.6,
+    "ltm_ebitda": 339.4,
+    "ltm_net_debt": 516.3
   },
   "financials_multi_year": [
     {
@@ -30,14 +33,14 @@
       "revenue": 380.0,
       "ebitda": 130.0,
       "ebitda_margin_pct": 34.2,
-      "cfo": 87,
-      "capex": 85.0,
-      "fcf": -27.0,
+      "cfo": 87.0,
+      "capex": -85.0,
+      "fcf": -18.0,
       "cash": 68.1,
       "gross_debt": 458.6,
       "net_debt": 390.5,
-      "net_leverage": 3.64,
-      "interest_coverage": 3.13,
+      "net_leverage": 3.0,
+      "interest_coverage": 2.89,
       "observations": {
         "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
         "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
@@ -45,14 +48,14 @@
         "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
         "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
       },
-      "reported_ebitda": 132.6,
+      "reported_ebitda": 130.0,
       "calculated_ebitda": 130.0,
       "ebitda_reconciliation_variance_usd_m": 1.6,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 52.0,
-      "change_in_working_capital": 12.0,
-      "tax_expense": 8.0,
+      "cash_interest": -45.0,
+      "change_in_working_capital": -10.0,
+      "tax_expense": -8.0,
       "fcf_conversion_pct": -20.8,
       "fcf_bridge": {
         "calculated_ebitda": 130.0,
@@ -62,7 +65,8 @@
         "tax": 8.0,
         "fcf": -27.0,
         "formula_check": "130.0 - 85.0 - 52.0 - (12.0) - 8.0 = -27.0"
-      }
+      },
+      "gross_profit": 210.0
     },
     {
       "period": "2022A",
@@ -76,7 +80,7 @@
       "cash": 86.6,
       "gross_debt": 496.4,
       "net_debt": 409.8,
-      "net_leverage": 3.1,
+      "net_leverage": 2.89,
       "interest_coverage": 3.08,
       "observations": {
         "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -147,17 +151,17 @@
     {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 445.7,
-      "ebitda": 159.0,
-      "ebitda_margin_pct": 35.7,
-      "cfo": 140.2,
-      "capex": 73.4,
+      "revenue": 653.6,
+      "ebitda": 339.4,
+      "ebitda_margin_pct": 51.9,
+      "cfo": 215.0,
+      "capex": -185.0,
       "fcf": -62.5,
-      "cash": 123.8,
-      "gross_debt": 539.5,
-      "net_debt": 415.7,
-      "net_leverage": 2.52,
-      "interest_coverage": 2.89,
+      "cash": 256.0,
+      "gross_debt": 772.3,
+      "net_debt": 516.3,
+      "net_leverage": 1.52,
+      "interest_coverage": 5.85,
       "observations": {
         "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
         "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -165,14 +169,14 @@
         "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
         "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
       },
-      "reported_ebitda": 162.18,
-      "calculated_ebitda": 159.0,
+      "reported_ebitda": 339.4,
+      "calculated_ebitda": 339.4,
       "ebitda_reconciliation_variance_usd_m": 2.5,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 57.1,
-      "change_in_working_capital": 22.5,
-      "tax_expense": 11.0,
+      "cash_interest": -58.0,
+      "change_in_working_capital": -25.0,
+      "tax_expense": -18.0,
       "fcf_conversion_pct": -39.3,
       "fcf_bridge": {
         "calculated_ebitda": 159.0,
@@ -182,7 +186,8 @@
         "tax": 11.0,
         "fcf": -62.5,
         "formula_check": "159.0 - 73.4 - 57.1 - (22.5) - 11.0 = -62.5"
-      }
+      },
+      "gross_profit": 390.0
     },
     {
       "period": "2025E",

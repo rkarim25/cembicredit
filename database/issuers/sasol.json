@@ -36,7 +36,7 @@
       "cash": 1175.6,
       "gross_debt": 6758.8,
       "net_debt": 5583.2,
-      "net_leverage": 3.01,
+      "net_leverage": 1.96,
       "interest_coverage": 5.61,
       "observations": {
         "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
@@ -76,7 +76,7 @@
       "cash": 1496.2,
       "gross_debt": 7315.4,
       "net_debt": 5819.2,
-      "net_leverage": 2.55,
+      "net_leverage": 1.39,
       "interest_coverage": 5.53,
       "observations": {
         "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -116,7 +116,7 @@
       "cash": 1816.9,
       "gross_debt": 7792.5,
       "net_debt": 5975.6,
-      "net_leverage": 2.33,
+      "net_leverage": 1.78,
       "interest_coverage": 5.18,
       "observations": {
         "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -156,7 +156,7 @@
       "cash": 2137.5,
       "gross_debt": 7951.5,
       "net_debt": 5814,
-      "net_leverage": 2.04,
+      "net_leverage": 2.37,
       "interest_coverage": 5.18,
       "observations": {
         "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
@@ -196,7 +196,7 @@
       "cash": 2522.2,
       "gross_debt": 7792.5,
       "net_debt": 5270.3,
-      "net_leverage": 1.68,
+      "net_leverage": 1.9,
       "interest_coverage": 5.94,
       "observations": {
         "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",

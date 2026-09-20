@@ -10,16 +10,19 @@
     "rating": "B+ / B1",
     "tier": "B",
     "benchmark_bond": "ARADA 8.05% 2029",
-    "price": 100.5,
-    "ytm": 8.05,
-    "spread_bp": 400,
+    "price": 99.66,
+    "ytm": 8.13,
+    "spread_bp": 329,
     "model_file": "Arada_Credit_Model.xlsx",
     "notion_id": "3e01d0ad68c6819c9db2e3117db89214",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Arada_Credit_Model.xlsx",
     "last_updated": "2026-09-19",
     "model_type": "corp",
-    "fcf_2024a": -89.8,
-    "net_leverage_2024a": 1.89
+    "fcf_2024a": -185.0,
+    "net_leverage_2024a": 2.74,
+    "ltm_revenue": 1580.0,
+    "ltm_ebitda": 414.0,
+    "ltm_net_debt": 1133.0
   },
   "financials_multi_year": [
     {
@@ -145,17 +148,17 @@
     {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 920.0,
-      "ebitda": 270.0,
-      "ebitda_margin_pct": 29.3,
-      "cfo": 229.5,
-      "capex": 170.8,
-      "fcf": -89.8,
-      "cash": 202.5,
-      "gross_debt": 712.8,
-      "net_debt": 510.3,
-      "net_leverage": 1.89,
-      "interest_coverage": 4.15,
+      "revenue": 1580.0,
+      "ebitda": 414.0,
+      "ebitda_margin_pct": 26.2,
+      "cfo": 120.0,
+      "capex": -95.0,
+      "fcf": -185.0,
+      "cash": 964.0,
+      "gross_debt": 2097.0,
+      "net_debt": 1133.0,
+      "net_leverage": 2.74,
+      "interest_coverage": 5.52,
       "observations": {
         "revenue": "Consolidation of market leadership; healthy demand supported by population growth and commercial expansion.",
         "ebitda": "EBITDA margins normalize at sustainable high levels despite minor building material cost adjustments.",
@@ -163,14 +166,14 @@
         "fcf": "FCF conversion remains superior, generating ample liquidity to service amortizing credit facilities.",
         "net_leverage": "Conservative leverage profile providing substantial headroom under all debt incurrence tests."
       },
-      "reported_ebitda": 287.6,
-      "calculated_ebitda": 270.0,
+      "reported_ebitda": 414.0,
+      "calculated_ebitda": 414.0,
       "ebitda_reconciliation_variance_usd_m": 17.6,
       "ebitda_reconciliation_variance_pct": 6.5,
       "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$17.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
-      "cash_interest": 65.1,
-      "change_in_working_capital": 110.4,
-      "tax_expense": 13.5,
+      "cash_interest": -75.0,
+      "change_in_working_capital": -180.0,
+      "tax_expense": -12.0,
       "fcf_conversion_pct": -33.3,
       "fcf_bridge": {
         "calculated_ebitda": 270.0,
@@ -180,7 +183,8 @@
         "tax": 13.5,
         "fcf": -89.8,
         "formula_check": "270.0 - 170.8 - 65.1 - (110.4) - 13.5 = -89.8"
-      }
+      },
+      "gross_profit": 520.0
     },
     {
       "period": "2025E",

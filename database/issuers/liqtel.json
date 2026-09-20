@@ -10,9 +10,9 @@
     "rating": "B- / Caa1",
     "tier": "B",
     "benchmark_bond": "LIQTEL 14.25% 2026",
-    "price": 81.5,
-    "ytm": 14.25,
-    "spread_bp": 990,
+    "price": 104.22,
+    "ytm": 9.58,
+    "spread_bp": 471,
     "model_file": "Liquid_Telecom_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68106a069d7d8c091ffa8",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Liquid_Telecom_Credit_Model.xlsx",
@@ -20,8 +20,11 @@
     "cognitive_credit_id": "liquidtech",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description",
     "model_type": "corp",
-    "fcf_2024a": -58.6,
-    "net_leverage_2024a": 5.12
+    "fcf_2024a": 68.3,
+    "net_leverage_2024a": 4.13,
+    "ltm_revenue": 633.2,
+    "ltm_ebitda": 185.0,
+    "ltm_net_debt": 764.2
   },
   "financials_multi_year": [
     {
@@ -147,17 +150,17 @@
     {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 680,
-      "ebitda": 210,
-      "ebitda_margin_pct": 30.9,
-      "cfo": 178.5,
-      "capex": 101.4,
-      "fcf": -58.6,
-      "cash": 157.5,
-      "gross_debt": 1232.7,
-      "net_debt": 1075.2,
-      "net_leverage": 5.12,
-      "interest_coverage": 1.83,
+      "revenue": 633.2,
+      "ebitda": 185.0,
+      "ebitda_margin_pct": 29.2,
+      "cfo": 145.0,
+      "capex": -59.2,
+      "fcf": 26.8,
+      "cash": 56.4,
+      "gross_debt": 820.6,
+      "net_debt": 764.2,
+      "net_leverage": 4.13,
+      "interest_coverage": 2.57,
       "observations": {
         "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
         "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -165,14 +168,14 @@
         "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
         "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
       },
-      "reported_ebitda": 213.1,
-      "calculated_ebitda": 210,
+      "reported_ebitda": 185.0,
+      "calculated_ebitda": 185.0,
       "ebitda_reconciliation_variance_usd_m": 3.1,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 114.8,
-      "change_in_working_capital": 27.2,
-      "tax_expense": 25.2,
+      "cash_interest": -72.0,
+      "change_in_working_capital": -12.0,
+      "tax_expense": -15.0,
       "fcf_conversion_pct": -27.9,
       "fcf_bridge": {
         "calculated_ebitda": 210,
@@ -182,7 +185,8 @@
         "tax": 25.2,
         "fcf": -58.6,
         "formula_check": "210.0 - 101.4 - 114.8 - (27.2) - 25.2 = -58.6"
-      }
+      },
+      "gross_profit": 360.0
     },
     {
       "period": "2025E",

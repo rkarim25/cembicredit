@@ -7,12 +7,12 @@
     "region": "CEEMEA",
     "sector": "Materials",
     "type": "corp",
-    "rating": "CCC+ / Caa3",
+    "rating": "CCC+",
     "tier": "CCC",
     "benchmark_bond": "METINV 15.65% 2029",
-    "price": 76,
-    "ytm": 15.65,
-    "spread_bp": 1125,
+    "price": 93.27,
+    "ytm": 14.98,
+    "spread_bp": 1022,
     "model_file": "Metinvest_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681ff8aeff3d6ff934b3c",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Metinvest_Credit_Model.xlsx",
@@ -20,8 +20,11 @@
     "cognitive_credit_id": "metinvest",
     "cognitive_credit_url": "https://app.cognitivecredit.com/company/metinvest/description",
     "model_type": "corp",
-    "fcf_2024a": 155.0,
-    "net_leverage_2024a": 1.79
+    "fcf_2024a": -550.0,
+    "net_leverage_2024a": 1.18,
+    "ltm_revenue": 7344.0,
+    "ltm_ebitda": 737.0,
+    "ltm_net_debt": 866.0
   },
   "financials_multi_year": [
     {
@@ -36,7 +39,7 @@
       "cash": 379.5,
       "gross_debt": 1986.3,
       "net_debt": 1606.8,
-      "net_leverage": 2.69,
+      "net_leverage": 0.23,
       "interest_coverage": 4.15,
       "observations": {
         "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
@@ -116,7 +119,7 @@
       "cash": 586.5,
       "gross_debt": 2290.1,
       "net_debt": 1703.6,
-      "net_leverage": 2.06,
+      "net_leverage": 2.51,
       "interest_coverage": 3.83,
       "observations": {
         "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -147,17 +150,17 @@
     {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 7850.0,
-      "ebitda": 860.0,
-      "ebitda_margin_pct": 11.0,
-      "cfo": 782,
-      "capex": 420.0,
-      "fcf": 155.0,
-      "cash": 690,
-      "gross_debt": 2336.8,
-      "net_debt": 1646.8,
-      "net_leverage": 1.79,
-      "interest_coverage": 3.83,
+      "revenue": 7344.0,
+      "ebitda": 737.0,
+      "ebitda_margin_pct": 10.0,
+      "cfo": 280.0,
+      "capex": -580.0,
+      "fcf": -193.0,
+      "cash": 191.0,
+      "gross_debt": 1057.0,
+      "net_debt": 866.0,
+      "net_leverage": 1.18,
+      "interest_coverage": 3.98,
       "observations": {
         "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
         "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
@@ -165,14 +168,14 @@
         "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
         "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
       },
-      "reported_ebitda": 877.2,
-      "calculated_ebitda": 860.0,
+      "reported_ebitda": 737.0,
+      "calculated_ebitda": 737.0,
       "ebitda_reconciliation_variance_usd_m": 13.8,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 175.0,
-      "change_in_working_capital": 45.0,
-      "tax_expense": 65.0,
+      "cash_interest": -185.0,
+      "change_in_working_capital": -120.0,
+      "tax_expense": -45.0,
       "fcf_conversion_pct": 18.0,
       "fcf_bridge": {
         "calculated_ebitda": 860.0,
@@ -182,7 +185,8 @@
         "tax": 65.0,
         "fcf": 155.0,
         "formula_check": "860.0 - 420.0 - 175.0 - (45.0) - 65.0 = 155.0"
-      }
+      },
+      "gross_profit": 1250.0
     },
     {
       "period": "2025E",

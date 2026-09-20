@@ -76,7 +76,7 @@
       "cash": 551.2,
       "gross_debt": 2956,
       "net_debt": 2404.8,
-      "net_leverage": 2.86,
+      "net_leverage": 2.36,
       "interest_coverage": 4.48,
       "observations": {
         "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -116,7 +116,7 @@
       "cash": 669.4,
       "gross_debt": 3148.7,
       "net_debt": 2479.3,
-      "net_leverage": 2.62,
+      "net_leverage": 2.92,
       "interest_coverage": 4.2,
       "observations": {
         "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -156,7 +156,7 @@
       "cash": 787.5,
       "gross_debt": 3213,
       "net_debt": 2425.5,
-      "net_leverage": 2.31,
+      "net_leverage": 2.99,
       "interest_coverage": 4.2,
       "observations": {
         "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
@@ -196,7 +196,7 @@
       "cash": 929.2,
       "gross_debt": 3148.7,
       "net_debt": 2219.5,
-      "net_leverage": 1.92,
+      "net_leverage": 2.24,
       "interest_coverage": 4.81,
       "observations": {
         "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",

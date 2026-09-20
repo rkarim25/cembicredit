@@ -273,7 +273,7 @@
       "fcf": 44.0,
       "cash": 208.1,
       "gross_debt": 188.1,
-      "net_debt": 0.0,
+      "net_debt": -20.0,
       "net_leverage": 0.0,
       "interest_coverage": 11.85,
       "observations": {

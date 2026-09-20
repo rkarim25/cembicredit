@@ -74,7 +74,7 @@
       "cash": 483.0,
       "gross_debt": 3893.4,
       "net_debt": 3410.4,
-      "net_leverage": 4.63,
+      "net_leverage": 4.98,
       "interest_coverage": 3.63,
       "observations": {
         "revenue": "Global energy crisis; heightened power demand met with high equivalent availability factors.",
@@ -114,7 +114,7 @@
       "cash": 586.5,
       "gross_debt": 4147.4,
       "net_debt": 3560.9,
-      "net_leverage": 4.3,
+      "net_leverage": 4.57,
       "interest_coverage": 3.4,
       "observations": {
         "revenue": "Commercial operations commencement of new generating capacity adds steady revenue streams.",
@@ -194,7 +194,7 @@
       "cash": 814.2,
       "gross_debt": 4147.4,
       "net_debt": 3333.2,
-      "net_leverage": 3.29,
+      "net_leverage": 3.09,
       "interest_coverage": 3.9,
       "observations": {
         "revenue": "Contracted revenue visibility exceeding 90%; long-term sovereign offtakers ensure zero counterparty default risk.",
@@ -234,7 +234,7 @@
       "cash": 931.5,
       "gross_debt": 4020.4,
       "net_debt": 3088.9,
-      "net_leverage": 2.85,
+      "net_leverage": 2.41,
       "interest_coverage": 4.36,
       "observations": {
         "revenue": "Full-year contribution from recently commissioned green energy and grid automation assets.",
@@ -274,7 +274,7 @@
       "cash": 1035.0,
       "gross_debt": 3808.8,
       "net_debt": 2773.8,
-      "net_leverage": 2.43,
+      "net_leverage": 1.82,
       "interest_coverage": 4.79,
       "observations": {
         "revenue": "Fully integrated utility operations delivering defensive, non-cyclical cash flow across all economic cycles.",

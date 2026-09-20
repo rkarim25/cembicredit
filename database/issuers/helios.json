@@ -36,7 +36,7 @@
       "cash": 158.8,
       "gross_debt": 1714.8,
       "net_debt": 1556,
-      "net_leverage": 6.22,
+      "net_leverage": 6.46,
       "interest_coverage": 2.98,
       "observations": {
         "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
@@ -76,7 +76,7 @@
       "cash": 202.1,
       "gross_debt": 1856,
       "net_debt": 1653.9,
-      "net_leverage": 5.37,
+      "net_leverage": 5.84,
       "interest_coverage": 2.93,
       "observations": {
         "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
@@ -236,7 +236,7 @@
       "cash": 389.8,
       "gross_debt": 1916.5,
       "net_debt": 1526.7,
-      "net_leverage": 3.36,
+      "net_leverage": 3.15,
       "interest_coverage": 3.53,
       "observations": {
         "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
@@ -276,7 +276,7 @@
       "cash": 433.1,
       "gross_debt": 1815.7,
       "net_debt": 1382.6,
-      "net_leverage": 2.9,
+      "net_leverage": 2.58,
       "interest_coverage": 3.87,
       "observations": {
         "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
