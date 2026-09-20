@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-head-title">Company Credit Dossier &amp; Interactive Model | CEMBI Platform</title>
+  
+  <!-- Modern Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/company.css">
+  
+  <!-- Data Bundles -->
+  <script src="js/issuers_data.js"></script>
+  <script src="js/history_data.js"></script>
+  <script src="js/news_data.js"></script>
+</head>
+<body>
+
+  <!-- Top Global Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo">CEMBI</div>
+      <div>
+        <div class="brand-title">Credit Master Platform</div>
+        <div class="brand-subtitle">85 Corporate Issuers &bull; Multi-Year Cash Flow Models &bull; Cognitive Credit Reconciliation</div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="nav-link">Comp Sheet &amp; Screener</a>
+      <a href="javascript:void(0)" class="nav-link active" id="nav-dedicated-link">Company Page</a>
+      <a href="trends.html" class="nav-link">Zero-AI Trends</a>
+      <a href="notes.html" class="nav-link">Intelligence Footnotes</a>
+      <a href="https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEMBI_Master_Comp_Sheet.xlsx" class="btn-action btn-primary" download>
+        📥 Master Comp Sheet (.xlsx)
+      </a>
+      <a href="https://github.com/rkarim25/cembicredit" class="btn-action" target="_blank">
+        GitHub Repo
+      </a>
+    </nav>
+  </header>
+
+  <!-- Sticky Top Breadcrumb & Fast Switcher -->
+  <div class="company-topbar">
+    <div class="company-breadcrumb">
+      <a href="index.html">← Back to Master Screener</a>
+      <span class="sep">/</span>
+      <span id="bc-company-name" style="font-weight:600; color:#f3f4f6;">Loading Issuer...</span>
+      <span class="sep">/</span>
+      <span id="bc-tab-label" style="color:var(--text-dim);">Financial Model</span>
+    </div>
+
+    <div class="issuer-switcher-container">
+      <span class="issuer-switcher-label">Switch Company:</span>
+      <select id="issuer-switcher-select" class="issuer-switcher-select" onchange="onIssuerSwitcherChange(this.value)">
+        <!-- Dynamically populated with all 85 issuers -->
+      </select>
+    </div>
+  </div>
+
+  <!-- Company Hero Banner -->
+  <div class="company-hero">
+    <div class="company-hero-header">
+      <div>
+        <div class="company-hero-title">
+          <h1 id="hero-company-name">--</h1>
+          <span class="ticker-pill" id="hero-ticker">--</span>
+          <span class="badge badge-sector" id="hero-sector">--</span>
+          <span class="badge badge-hy" id="hero-rating">--</span>
+        </div>
+        <div class="company-hero-meta">
+          <span>Country: <strong id="hero-country">--</strong></span>
+          <span style="color:#334155;">&bull;</span>
+          <span>Region: <strong id="hero-region">--</strong></span>
+          <span style="color:#334155;">&bull;</span>
+          <span>Benchmark Bond: <strong id="hero-bond" style="color:var(--accent-gold);">--</strong></span>
+          <span style="color:#334155;">&bull;</span>
+          <span>Next Earnings / Filing: <strong id="hero-earnings" style="color:#38bdf8;">--</strong></span>
+        </div>
+      </div>
+
+      <div class="company-hero-actions">
+        <a id="hero-cc-btn" href="#" target="_blank" class="btn-cc-deep" style="display:none;" title="Open live model on Cognitive Credit">
+          🔗 Cognitive Credit
+        </a>
+        <a id="hero-download-btn" href="#" class="btn-action btn-gold" download style="font-weight:700; padding:6px 14px; font-size:12px;">
+          📥 Download Excel (.xlsx)
+        </a>
+        <button class="btn-action" onclick="copyCompanyLink()" title="Copy direct link to this page" style="padding:6px 12px; font-size:12px;">
+          📋 Copy Link
+        </button>
+      </div>
+    </div>
+
+    <!-- Key Metrics Strip -->
+    <div class="company-metrics-strip">
+      <div class="metric-box">
+        <div class="metric-box-label">Price / Quote</div>
+        <div class="metric-box-value" id="mb-price">--</div>
+        <div class="metric-box-sub" id="mb-bond-sub">Benchmark</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-box-label">Yield to Maturity</div>
+        <div class="metric-box-value" id="mb-ytm" style="color:#fbbf24;">--</div>
+        <div class="metric-box-sub" id="mb-ytm-sub">Annualized</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-box-label">Z-Spread / OAS</div>
+        <div class="metric-box-value" id="mb-spread" style="color:#60a5fa;">--</div>
+        <div class="metric-box-sub" id="mb-spread-sub">vs UST Curve</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-box-label">2024A Revenue</div>
+        <div class="metric-box-value" id="mb-rev">--</div>
+        <div class="metric-box-sub">Audited IFRS</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-box-label">2024A Cash EBITDA</div>
+        <div class="metric-box-value" id="mb-ebitda">--</div>
+        <div class="metric-box-sub" id="mb-margin-sub">Margin: --%</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-box-label">Net Leverage</div>
+        <div class="metric-box-value" id="mb-leverage">--</div>
+        <div class="metric-box-sub" id="mb-fwd-leverage">2025E: --</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-box-label">Interest Coverage</div>
+        <div class="metric-box-value" id="mb-coverage">--</div>
+        <div class="metric-box-sub">EBITDA / Cash Int</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-box-label">Free Cash Flow</div>
+        <div class="metric-box-value" id="mb-fcf">--</div>
+        <div class="metric-box-sub" id="mb-fcf-conv">Conversion: --%</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Tab Navigation -->
+  <div class="company-tabs-nav">
+    <button class="company-tab-btn active" data-tab="tab-model" onclick="switchCompanyTab('tab-model')">
+      📊 Financial Model &amp; Spreadsheet
+    </button>
+    <button class="company-tab-btn" data-tab="tab-notes" onclick="switchCompanyTab('tab-notes')">
+      💬 My Notes &amp; Comments <span class="badge-counter" id="tab-notes-count">0</span>
+    </button>
+    <button class="company-tab-btn" data-tab="tab-debt" onclick="switchCompanyTab('tab-debt')">
+      🏛️ Capital Structure &amp; Debt Tranches
+    </button>
+    <button class="company-tab-btn" data-tab="tab-history" onclick="switchCompanyTab('tab-history')">
+      📈 Historical Trends &amp; Snapshots
+    </button>
+    <button class="company-tab-btn" data-tab="tab-reconciliation" onclick="switchCompanyTab('tab-reconciliation')">
+      🔍 EBITDA Reconciliation &amp; Cash Audit
+    </button>
+    <button class="company-tab-btn" data-tab="tab-operations" onclick="switchCompanyTab('tab-operations')">
+      ⚙️ Operational Drivers
+    </button>
+    <button class="company-tab-btn" data-tab="tab-recovery" onclick="switchCompanyTab('tab-recovery')">
+      ⚖️ Covenants &amp; Recovery Waterfall
+    </button>
+    <button class="company-tab-btn" data-tab="tab-guidance" onclick="switchCompanyTab('tab-guidance')">
+      📰 Guidance, News &amp; Diligence Questions
+    </button>
+  </div>
+
+  <!-- Content Container -->
+  <div class="company-content-container">
+
+    <!-- ================= TAB 1: FINANCIAL MODEL & SPREADSHEET ================= -->
+    <div class="company-tab-pane active" id="tab-model">
+
+      <!-- Persistent Excel Formula Bar -->
+      <div class="excel-formula-bar" id="formula-bar">
+        <div class="formula-cell-coord" id="formula-coord">E25</div>
+        <div class="formula-fx-label">fx</div>
+        <input type="text" class="formula-input-display" id="formula-input" readonly value='=E20 - E21 - E22 - E23 - E24'>
+        <div class="formula-badge-indicator" id="formula-badge">
+          <span class="badge badge-audited">📐 Formula Identity</span>
+        </div>
+      </div>
+
+      <!-- Controls Strip: Scenario & Highlight Presets -->
+      <div class="model-workspace-header">
+        <div class="model-view-toggles">
+          <span style="font-size:11px; color:var(--text-dim); font-weight:700; text-transform:uppercase; margin-right:4px;">View:</span>
+          <button class="model-btn-toggle active" id="btn-view-all" onclick="setModelViewSection('all')">All Statements</button>
+          <button class="model-btn-toggle" id="btn-view-pnl" onclick="setModelViewSection('pnl')">Income Statement</button>
+          <button class="model-btn-toggle" id="btn-view-fcf" onclick="setModelViewSection('fcf')">Cash Flow Waterfall</button>
+          <button class="model-btn-toggle" id="btn-view-bs" onclick="setModelViewSection('bs')">Balance Sheet</button>
+          <button class="model-btn-toggle" id="btn-view-ratios" onclick="setModelViewSection('ratios')">Credit Ratios</button>
+        </div>
+
+        <div class="model-scenario-toggles">
+          <span style="font-size:11px; color:var(--text-dim); font-weight:700; text-transform:uppercase; margin-right:4px;">Highlight Cell:</span>
+          <button class="model-btn-toggle" onclick="applyHighlightToActive('hl-yellow')" style="border-color:#f59e0b; color:#fbbf24;">Yellow</button>
+          <button class="model-btn-toggle" onclick="applyHighlightToActive('hl-green')" style="border-color:#10b981; color:#34d399;">Green</button>
+          <button class="model-btn-toggle" onclick="applyHighlightToActive('hl-cyan')" style="border-color:#06b6d4; color:#22d3ee;">Cyan</button>
+          <button class="model-btn-toggle" onclick="applyHighlightToActive('hl-amber')" style="border-color:#ef4444; color:#f87171;">Red</button>
+          <button class="model-btn-toggle" onclick="applyHighlightToActive('')" style="color:var(--text-dim);">Clear</button>
+        </div>
+      </div>
+
+      <!-- Interactive Spreadsheet Table -->
+      <div style="overflow-x:auto; border-radius:8px;">
+        <table class="company-sheet-table" id="company-sheet-table">
+          <!-- Populated dynamically by js/company.js -->
+        </table>
+      </div>
+
+      <!-- Cell Audit & Verification Detail Card -->
+      <div class="cell-audit-detail-card" id="cell-audit-card">
+        <div>
+          <div class="cell-audit-title" id="cad-title">
+            <span>Cell E25 &bull; FREE CASH FLOW (FCF)</span>
+            <span class="badge badge-audited" id="cad-badge">Audited Identity</span>
+          </div>
+          <div class="cell-audit-desc" id="cad-commentary">
+            Click any cell above to inspect exact Excel formula identities, management guidance tracking, bottom-up operational drivers, or auditor filings.
+          </div>
+          <div style="font-size:11px; color:#38bdf8; margin-top:6px; font-family:'JetBrains Mono', monospace;" id="cad-check">
+            Formula Check: Desk Cash EBITDA - Capex - Cash Interest - ΔWC - Taxes = FCF
+          </div>
+        </div>
+
+        <div class="cell-audit-controls">
+          <button class="btn-action" onclick="promptAddCellComment()" style="font-size:11px; padding:5px 10px;">
+            ✏️ Add In-Cell Comment
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= TAB 2: MY NOTES & COMMENTS (EXPLICIT USER WORKSPACE) ================= -->
+    <div class="company-tab-pane" id="tab-notes">
+      <div class="notes-workspace-grid">
+
+        <!-- Left Column: Note Creator -->
+        <div class="note-editor-card">
+          <div class="note-editor-title">
+            <span>✍️ Add Research Note or Thesis</span>
+            <span style="font-size:10px; color:var(--text-dim);">Auto-persisted</span>
+          </div>
+
+          <!-- Category Tags -->
+          <div class="note-category-chips" id="note-cat-chips">
+            <button class="note-cat-chip active" data-cat="thesis" onclick="selectNoteCategory('thesis')">💡 Thesis</button>
+            <button class="note-cat-chip" data-cat="risk" onclick="selectNoteCategory('risk')">⚠️ Risk</button>
+            <button class="note-cat-chip" data-cat="model" onclick="selectNoteCategory('model')">📊 Model / Val</button>
+            <button class="note-cat-chip" data-cat="covenant" onclick="selectNoteCategory('covenant')">⚖️ Covenant</button>
+            <button class="note-cat-chip" data-cat="mgmt" onclick="selectNoteCategory('mgmt')">🗣️ Management</button>
+            <button class="note-cat-chip" data-cat="action" onclick="selectNoteCategory('action')">🎯 Trade / Action</button>
+          </div>
+
+          <!-- Templates -->
+          <div style="margin-bottom:10px;">
+            <select class="note-template-dropdown" style="width:100%;" onchange="applyNoteTemplate(this.value)">
+              <option value="">Insert quick template...</option>
+              <option value="thesis">Template: Investment Thesis &amp; Downside Protection</option>
+              <option value="refi">Template: Refinancing &amp; Maturity Wall Analysis</option>
+              <option value="fcf">Template: Cash Flow Stress Test &amp; Sensitivity</option>
+              <option value="covenant">Template: Indenture &amp; Covenant Headroom Audit</option>
+              <option value="call">Template: Management Call / Meeting Takeaway</option>
+            </select>
+          </div>
+
+          <!-- Text Area -->
+          <textarea id="user-note-input" class="note-textarea" placeholder="Type your personal thoughts, investment committee notes, Preply session insights, or model assumptions here..."></textarea>
+
+          <!-- Actions -->
+          <div class="note-editor-actions">
+            <button class="btn-action" onclick="clearNoteEditor()" style="font-size:11px; padding:6px 12px;">Clear</button>
+            <button class="btn-action btn-gold" id="btn-save-note" onclick="saveUserNote()" style="font-size:12px; font-weight:700; padding:6px 16px;">
+              💾 Save Note
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Column: User Notes Feed & Qualitative Footnotes -->
+        <div>
+          <div class="user-notes-feed">
+            <div class="notes-feed-header">
+              <div class="notes-feed-title">
+                <span>My Personal Notes for <span id="notes-issuer-header">Issuer</span></span>
+              </div>
+              <div class="notes-feed-actions">
+                <button class="btn-action" onclick="exportNotesMarkdown()" title="Export all personal notes as Markdown file" style="font-size:11px; padding:4px 9px;">
+                  📥 Export (.md)
+                </button>
+                <button class="btn-action" onclick="copyNotesToClipboard()" title="Copy all personal notes to clipboard" style="font-size:11px; padding:4px 9px;">
+                  📋 Copy All
+                </button>
+              </div>
+            </div>
+
+            <!-- User Notes List -->
+            <div id="user-notes-list">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <!-- Qualitative Research Footnotes & Cognitive Credit Insights -->
+          <div class="qual-notes-section">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <h3 style="font-size:14px; font-weight:700; color:#f3f4f6;">Qualitative Footnotes &amp; Broker Intelligence</h3>
+              <span style="font-size:11px; color:var(--text-dim);" id="qual-notes-count">-- notes</span>
+            </div>
+            <div class="qual-notes-grid" id="qual-notes-grid">
+              <!-- Populated dynamically from item.annotations -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ================= TAB 3: CAPITAL STRUCTURE & DEBT TRANCHES ================= -->
+    <div class="company-tab-pane" id="tab-debt">
+      <div class="company-card">
+        <div class="company-card-title">
+          <span>Granular Debt Schedule &amp; Tradable Instruments</span>
+          <span class="sub">Reconciled with Cognitive Credit &amp; Filing Prospectuses</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="tranche-table" id="tranches-table">
+            <thead>
+              <tr>
+                <th>Instrument / Tranche</th>
+                <th>ISIN / CUSIP</th>
+                <th>Coupon</th>
+                <th>Maturity</th>
+                <th>Currency</th>
+                <th style="text-align:right;">Issued ($M)</th>
+                <th style="text-align:right;">Outstanding ($M)</th>
+                <th style="text-align:right;">Price</th>
+                <th style="text-align:right;">YTM (%)</th>
+                <th style="text-align:right;">Spread (bp)</th>
+                <th style="text-align:center;">Cognitive Credit Check</th>
+              </tr>
+            </thead>
+            <tbody id="tranches-tbody">
+              <!-- Populated dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+        <!-- Maturity Schedule -->
+        <div class="company-card">
+          <div class="company-card-title">
+            <span>Debt Maturity Schedule ($M)</span>
+            <span class="sub">Upcoming Refinancing Walls</span>
+          </div>
+          <div id="debt-maturities-breakdown">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <!-- RCF & Liquidity Headroom -->
+        <div class="company-card">
+          <div class="company-card-title">
+            <span>Revolving Credit Facility (RCF) &amp; Liquidity Buffer</span>
+            <span class="sub">Committed Bank Lines</span>
+          </div>
+          <div id="rcf-liquidity-details">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= TAB 4: HISTORICAL TRENDS & SNAPSHOTS ================= -->
+    <div class="company-tab-pane" id="tab-history">
+      <div class="company-card">
+        <div class="company-card-title">
+          <span>Historical Spread, Price &amp; Leverage Snapshots</span>
+          <span class="sub">Multi-Quarter Time-Series Tracking</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="history-table" id="history-table">
+            <thead>
+              <tr>
+                <th>Snapshot Date</th>
+                <th>Period</th>
+                <th>Credit Rating</th>
+                <th style="text-align:right;">Price</th>
+                <th style="text-align:right;">YTM (%)</th>
+                <th style="text-align:right;">Spread (bp)</th>
+                <th style="text-align:right;">Net Leverage</th>
+                <th style="text-align:right;">Calculated EBITDA ($M)</th>
+                <th style="text-align:right;">FCF ($M)</th>
+                <th>Guidance Status</th>
+              </tr>
+            </thead>
+            <tbody id="history-tbody">
+              <!-- Populated dynamically from CREDIT_HISTORY_DATA -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= TAB 5: EBITDA RECONCILIATION & CASH AUDIT ================= -->
+    <div class="company-tab-pane" id="tab-reconciliation">
+      <div class="company-card">
+        <div class="company-card-title">
+          <span>EBITDA Reconciliation Bridge: Reported vs Calculated Cash EBITDA</span>
+          <span class="sub">Zero-Aggressive Management Add-Back Policy</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="tranche-table" id="reconciliation-table">
+            <thead>
+              <tr>
+                <th>Period</th>
+                <th style="text-align:right;">Reported EBITDA ($M)</th>
+                <th style="text-align:right;">Calculated Cash EBITDA ($M)</th>
+                <th style="text-align:right;">Variance ($M)</th>
+                <th style="text-align:right;">Variance (%)</th>
+                <th>Audit Status</th>
+                <th>Reconciliation Commentary &amp; Add-Back Audit</th>
+              </tr>
+            </thead>
+            <tbody id="reconciliation-tbody">
+              <!-- Populated dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= TAB 6: OPERATIONAL DRIVERS ================= -->
+    <div class="company-tab-pane" id="tab-operations">
+      <div class="company-card">
+        <div class="company-card-title">
+          <span>Bottom-Up Physical Operational Drivers</span>
+          <span class="sub">Sector-Specific Units &amp; Contracted Volumes</span>
+        </div>
+        <div class="ops-drivers-grid" id="ops-drivers-grid">
+          <!-- Populated dynamically from supplementary_data -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= TAB 7: COVENANTS & RECOVERY WATERFALL ================= -->
+    <div class="company-tab-pane" id="tab-recovery">
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+        <div class="company-card">
+          <div class="company-card-title">
+            <span>Bond Indenture Covenants &amp; Incurrence Tests</span>
+            <span class="sub">Legal Protections &amp; Restricted Payments</span>
+          </div>
+          <div id="covenants-breakdown">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <div class="company-card">
+          <div class="company-card-title">
+            <span>Recovery Analysis &amp; Distressed Floor Pricing</span>
+            <span class="sub">Waterfall Debt Recovery Valuation</span>
+          </div>
+          <div id="recovery-breakdown">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= TAB 8: GUIDANCE, NEWS & QUESTIONS ================= -->
+    <div class="company-tab-pane" id="tab-guidance">
+      <div class="company-card">
+        <div class="company-card-title">
+          <span>Executive Management Guidance Tracker</span>
+          <span class="sub">Official Target vs Current Run-Rate Tracking</span>
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="tranche-table" id="guidance-table">
+            <thead>
+              <tr>
+                <th>Metric / Target</th>
+                <th>Management Target</th>
+                <th>Current Run-Rate</th>
+                <th>Status</th>
+                <th>Variance &amp; Execution Tracking</th>
+              </tr>
+            </thead>
+            <tbody id="guidance-tbody">
+              <!-- Populated dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+        <div class="company-card">
+          <div class="company-card-title">
+            <span>5 Sharp Diligence Questions for Management</span>
+            <span class="sub">Key Inquiries for Earnings Calls or Preply Sessions</span>
+          </div>
+          <div id="management-questions-list">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <div class="company-card">
+          <div class="company-card-title">
+            <span>Linked News &amp; Macro Catalysts</span>
+            <span class="sub">Recent Rating Actions &amp; Filings</span>
+          </div>
+          <div id="issuer-news-list">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Main Company JS Logic -->
+  <script src="js/company.js"></script>
+</body>
+</html>

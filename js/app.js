@@ -333,6 +333,9 @@ function renderTable() {
             </div>
             
             <div class="drawer-actions">
+              <a href="company.html?id=${m.id}" class="btn-action" title="Open Dedicated Company Dossier & Notes Page" style="background:rgba(245,158,11,0.22); border:1px solid #f59e0b; color:#fbbf24; font-weight:700; text-decoration:none;">
+                Dedicated Page &gt;
+              </a>
               <button class="btn-action btn-gold" onclick="openInstitutionalModel('${m.id}')" title="Open Financial Model" style="background:var(--accent-blue); border-color:var(--accent-blue); color:#fff; font-weight:700;">
                 ⚡ Open Financial Model
               </button>
