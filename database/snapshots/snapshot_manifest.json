@@ -1,0 +1,111 @@
+{
+  "total_snapshots": 11,
+  "date_range": {
+    "start": "2024-03-31",
+    "end": "2026-09-20"
+  },
+  "issuers_count": 85,
+  "checkpoints": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "spread_factor": 1.25,
+      "px_delta": -4.2,
+      "ytm_delta": 1.35,
+      "lev_delta": 0.35,
+      "rating_lag": 1
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "spread_factor": 1.18,
+      "px_delta": -2.8,
+      "ytm_delta": 0.95,
+      "lev_delta": 0.25,
+      "rating_lag": 1
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "spread_factor": 1.12,
+      "px_delta": -1.5,
+      "ytm_delta": 0.6,
+      "lev_delta": 0.15,
+      "rating_lag": 0
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "spread_factor": 1.05,
+      "px_delta": -0.8,
+      "ytm_delta": 0.3,
+      "lev_delta": 0.05,
+      "rating_lag": 0
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "spread_factor": 1.03,
+      "px_delta": -0.4,
+      "ytm_delta": 0.15,
+      "lev_delta": 0.02,
+      "rating_lag": 0
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "spread_factor": 0.98,
+      "px_delta": 0.3,
+      "ytm_delta": -0.1,
+      "lev_delta": -0.05,
+      "rating_lag": 0
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "spread_factor": 0.96,
+      "px_delta": 0.6,
+      "ytm_delta": -0.2,
+      "lev_delta": -0.1,
+      "rating_lag": 0
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "spread_factor": 0.95,
+      "px_delta": 0.8,
+      "ytm_delta": -0.25,
+      "lev_delta": -0.12,
+      "rating_lag": 0
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "spread_factor": 0.97,
+      "px_delta": 0.4,
+      "ytm_delta": -0.15,
+      "lev_delta": -0.08,
+      "rating_lag": 0
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "spread_factor": 0.99,
+      "px_delta": 0.1,
+      "ytm_delta": -0.05,
+      "lev_delta": -0.02,
+      "rating_lag": 0
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "Current Live",
+      "spread_factor": 1.0,
+      "px_delta": 0.0,
+      "ytm_delta": 0.0,
+      "lev_delta": 0.0,
+      "rating_lag": 0
+    }
+  ],
+  "last_updated": "2026-09-20T19:38:33.972524",
+  "last_snapshot_date": "2026-09-20"
+}

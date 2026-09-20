@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="js/issuers_data.js"></script>
+  <script src="js/history_data.js"></script>
   <script src="js/app.js"></script>
 </head>
 <body>
@@ -34,34 +35,34 @@
 
   <div class="container">
 
-    <div class="filter-card">
+        <div class="filter-card">
+      <div style="display:flex; gap:10px; margin-bottom:14px; flex-wrap:wrap;">
+        <button type="button" id="btn-mode-mkt" class="btn-action" onclick="setTrendMode('mkt')" style="font-size:12px; padding:6px 14px; background:var(--accent-blue); color:#fff; border-radius:4px; border:1px solid var(--accent-blue); cursor:pointer; font-weight:600;">
+          📈 Secondary Market History (Rating, Spreads & Bond Prices)
+        </button>
+        <button type="button" id="btn-mode-fin" class="btn-action" onclick="setTrendMode('fin')" style="font-size:12px; padding:6px 14px; background:#1e293b; color:#94a3b8; border-radius:4px; border:1px solid #334155; cursor:pointer; font-weight:600;">
+          📊 Multi-Period Financials (2021A - 2027E)
+        </button>
+      </div>
       <div class="filter-group">
         <span style="font-weight:700; color:#fff;">Select Sector Peer Group:</span>
         <select id="trend-sector" class="filter-input">
           <!-- Populated dynamically -->
         </select>
-        <span style="font-weight:700; color:#fff; margin-left:12px;">Financial Metric:</span>
+        <span style="font-weight:700; color:#fff; margin-left:12px;">Metric to Plot:</span>
         <select id="trend-metric" class="filter-input">
-          <option value="net_leverage">Net Leverage Ratio (x)</option>
-          <option value="ebitda_margin_pct">EBITDA Margin (%)</option>
-          <option value="revenue">Revenue ($M)</option>
-          <option value="ebitda">EBITDA ($M)</option>
-          <option value="fcf">Free Cash Flow ($M)</option>
-          <option value="interest_coverage">Interest Coverage (x)</option>
-          <option value="nim_pct">Net Interest Margin (%) - Banks</option>
-          <option value="roe_pct">Return on Equity (%) - Banks</option>
-          <option value="cir_pct">Cost-to-Income Ratio (%) - Banks</option>
+          <!-- Populated dynamically based on mode -->
         </select>
       </div>
-      <div style="font-size:11px; color:var(--text-dim);">
-        Data spans 2021A - 2027E (Historical Audited Statements + Institutional Projections).
+      <div id="trend-subtext" style="font-size:11px; color:var(--text-dim); margin-top:8px;">
+        Historical snapshots tracked from Q1 2024 across 85 issuers.
       </div>
     </div>
 
     <!-- Chart Card -->
     <div class="chart-container">
       <div class="chart-header">
-        <div class="chart-title">Multi-Period Sector Trajectory (2021A - 2027E)</div>
+        <div class="chart-title" id="chart-main-title">Historical Time Series Trajectory</div>
         <div style="font-size:11px; color:var(--text-muted);">Hover data points to inspect qualitative analyst annotations.</div>
       </div>
       <div style="position:relative; height:420px; width:100%;">

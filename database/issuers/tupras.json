@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "tupras",
-    "name": "Tüpraş (Turkish Petroleum)",
+    "name": "T\u00fcpra\u015f (Turkish Petroleum)",
     "ticker": "TUPRAS",
     "country": "Turkey",
     "region": "Turkey",
@@ -324,12 +324,12 @@
     "recovery_base_pct": 101.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Koç Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
+    "thesis": "Ko\u00e7 Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
   },
   "annotations": [
     {
       "issuer_id": "tupras",
-      "issuer_name": "Tüpraş (Turkish Petroleum)",
+      "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
       "sector": "Energy",
       "topic": "Offshore Debt Escrow Routing",
       "source": "Cognitive Credit / Morgan Stanley",
@@ -337,7 +337,7 @@
     },
     {
       "issuer_id": "tupras",
-      "issuer_name": "Tüpraş (Turkish Petroleum)",
+      "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
       "sector": "Energy",
       "topic": "Lifting Costs & Break-even Floor",
       "source": "Wood Mackenzie Benchmarking",
@@ -345,7 +345,7 @@
     },
     {
       "issuer_id": "tupras",
-      "issuer_name": "Tüpraş (Turkish Petroleum)",
+      "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
       "sector": "Energy",
       "topic": "Commercial Reserve Life (1P/2P)",
       "source": "DeGolyer and MacNaughton / Ryder Scott",
@@ -353,7 +353,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+    "source_deck": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -500,7 +500,7 @@
       "current_runrate": "$19702.5M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $19980.0M (+8.0% YoY growth). With current run-rate at $19702.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -511,7 +511,7 @@
       "current_runrate": "$1944.0M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $1980.0M (9.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -522,7 +522,7 @@
       "current_runrate": "0.75x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 3.00x buffer below covenant limit.",
-      "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 0.75x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -533,7 +533,7 @@
       "current_runrate": "$608.6M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $661.5M (Maximum growth and sustaining envelope). Current commitments stand at $608.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -544,7 +544,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -572,6 +572,151 @@
       "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
       "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
       "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 95.3,
+      "ytm": 8.55,
+      "spread_bp": 394,
+      "net_leverage": 1.1,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 96.7,
+      "ytm": 8.15,
+      "spread_bp": 372,
+      "net_leverage": 1.0,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 98.0,
+      "ytm": 7.8,
+      "spread_bp": 353,
+      "net_leverage": 0.9,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 98.7,
+      "ytm": 7.5,
+      "spread_bp": 331,
+      "net_leverage": 0.8,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 99.1,
+      "ytm": 7.35,
+      "spread_bp": 324,
+      "net_leverage": 0.77,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 99.8,
+      "ytm": 7.1,
+      "spread_bp": 309,
+      "net_leverage": 0.7,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 100.1,
+      "ytm": 7.0,
+      "spread_bp": 302,
+      "net_leverage": 0.65,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 100.3,
+      "ytm": 6.95,
+      "spread_bp": 299,
+      "net_leverage": 0.63,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 99.9,
+      "ytm": 7.05,
+      "spread_bp": 306,
+      "net_leverage": 0.67,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 99.6,
+      "ytm": 7.15,
+      "spread_bp": 312,
+      "net_leverage": 0.73,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:38:33.972524",
+      "rating": "BB / BB-",
+      "price": 99.5,
+      "ytm": 7.2,
+      "spread_bp": 315,
+      "net_leverage": 0.75,
+      "ebitda": 1800.0,
+      "fcf": 900.0,
+      "guidance_status": "Ahead of Target"
     }
   ]
 }

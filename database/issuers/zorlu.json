@@ -355,8 +355,8 @@
     "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
     "reporting_currency": "USD / TRY (with natural USD hedge disclosures)",
     "generation_fleet_breakdown": {
-      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) — Turkey's largest and lowest-cost baseload renewable fleet",
-      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) — long-term high wind resource capacity factor (>34%)",
+      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) \u2014 Turkey's largest and lowest-cost baseload renewable fleet",
+      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) \u2014 long-term high wind resource capacity factor (>34%)",
       "hydroelectric_capacity_hes": "118.6 MW across 7 operating run-of-river and reservoir plants (Ikizdere, Atabey, Camlica, Kuzgun, Mercan, Tercan, Beykoy)",
       "solar_and_hybrid_capacity": "84.0 MW installed and under development (hybrid solar installations co-located at Kizildere geothermal sites)",
       "thermal_and_industrial_cogen": "341.0 MW domestic gas cogeneration and district heating (Bursa, Luleburgaz)",
@@ -435,7 +435,7 @@
     "geographic_and_fx_exposure": {
       "usd_revenue_share": "68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM mechanism",
       "try_regulated_revenue_share": "31.5% of revenue earned in Turkish Lira via OEDAS/OEPSAS with full CPI inflation pass-through",
-      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY — natural dollar hedge covers 100% of USD net interest payments",
+      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY \u2014 natural dollar hedge covers 100% of USD net interest payments",
       "fx_risk_mitigation": "Bilateral FX forward hedges covering next 12-month EUR debt principal amortizations"
     },
     "contract_backlog_and_commercial_terms": {
@@ -636,6 +636,151 @@
       "relevance": "Distribution provides Zorlu's domestic cash anchor (~35% of EBITDA). A regulatory lag exceeding 6 months during 40%+ inflation periods creates severe working capital drains that absorb operating cash before debt service.",
       "conviction_trigger": "Quarterly indexation confirmation confirms debt service resilience. Annual lagging indexation indicates negative FCF in high-inflation quarters.",
       "deduced_from": "Working capital fluctuations in 2022-2024 cash flow statements."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "CCC+ / CCC",
+      "price": 90.3,
+      "ytm": 12.55,
+      "spread_bp": 850,
+      "net_leverage": 5.17,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "CCC+ / CCC",
+      "price": 91.7,
+      "ytm": 12.15,
+      "spread_bp": 802,
+      "net_leverage": 5.07,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "B- / CCC+",
+      "price": 93.0,
+      "ytm": 11.8,
+      "spread_bp": 762,
+      "net_leverage": 4.97,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "B- / CCC+",
+      "price": 93.7,
+      "ytm": 11.5,
+      "spread_bp": 714,
+      "net_leverage": 4.87,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "B- / CCC+",
+      "price": 94.1,
+      "ytm": 11.35,
+      "spread_bp": 700,
+      "net_leverage": 4.84,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "B- / CCC+",
+      "price": 94.8,
+      "ytm": 11.1,
+      "spread_bp": 666,
+      "net_leverage": 4.77,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "B- / CCC+",
+      "price": 95.1,
+      "ytm": 11.0,
+      "spread_bp": 653,
+      "net_leverage": 4.72,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "B- / CCC+",
+      "price": 95.3,
+      "ytm": 10.95,
+      "spread_bp": 646,
+      "net_leverage": 4.7,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "B- / CCC+",
+      "price": 94.9,
+      "ytm": 11.05,
+      "spread_bp": 660,
+      "net_leverage": 4.74,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "B- / CCC+",
+      "price": 94.6,
+      "ytm": 11.15,
+      "spread_bp": 673,
+      "net_leverage": 4.8,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:38:33.972524",
+      "rating": "B- / CCC+",
+      "price": 94.5,
+      "ytm": 11.2,
+      "spread_bp": 680,
+      "net_leverage": 4.82,
+      "ebitda": 320.0,
+      "fcf": 160.0,
+      "guidance_status": "Under Watch"
     }
   ]
 }

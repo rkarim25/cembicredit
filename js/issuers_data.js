@@ -1,3 +1,4 @@
+// CEMBI Credit Master Platform - Client Data Bundle
 const MASTER_ISSUERS = [
   {
     "metadata": {
@@ -572,6 +573,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "Baa3 / BBB-",
+        "price": 92.3,
+        "ytm": 7.8,
+        "spread_bp": 294,
+        "net_leverage": 4.2,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "Baa3 / BBB-",
+        "price": 93.7,
+        "ytm": 7.4,
+        "spread_bp": 277,
+        "net_leverage": 4.1,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 95.0,
+        "ytm": 7.05,
+        "spread_bp": 263,
+        "net_leverage": 4.0,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 95.7,
+        "ytm": 6.75,
+        "spread_bp": 247,
+        "net_leverage": 3.9,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 96.1,
+        "ytm": 6.6,
+        "spread_bp": 242,
+        "net_leverage": 3.87,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 96.8,
+        "ytm": 6.35,
+        "spread_bp": 230,
+        "net_leverage": 3.8,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 97.1,
+        "ytm": 6.25,
+        "spread_bp": 226,
+        "net_leverage": 3.75,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 97.3,
+        "ytm": 6.2,
+        "spread_bp": 223,
+        "net_leverage": 3.73,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 96.9,
+        "ytm": 6.3,
+        "spread_bp": 228,
+        "net_leverage": 3.77,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 96.6,
+        "ytm": 6.4,
+        "spread_bp": 233,
+        "net_leverage": 3.83,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "Baa2 / BBB",
+        "price": 96.5,
+        "ytm": 6.45,
+        "spread_bp": 235,
+        "net_leverage": 3.85,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -1198,6 +1344,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 95.6,
+        "ytm": 6.4,
+        "spread_bp": 106,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 97.0,
+        "ytm": 6.0,
+        "spread_bp": 100,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 98.3,
+        "ytm": 5.65,
+        "spread_bp": 95,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 99.0,
+        "ytm": 5.35,
+        "spread_bp": 89,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 99.4,
+        "ytm": 5.2,
+        "spread_bp": 88,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 100.1,
+        "ytm": 4.95,
+        "spread_bp": 83,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 100.4,
+        "ytm": 4.85,
+        "spread_bp": 82,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 100.6,
+        "ytm": 4.8,
+        "spread_bp": 81,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 100.2,
+        "ytm": 4.9,
+        "spread_bp": 82,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 99.9,
+        "ytm": 5.0,
+        "spread_bp": 84,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A1 / A",
+        "price": 99.8,
+        "ytm": 5.05,
+        "spread_bp": 85,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -1774,6 +2065,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 93.8,
+        "ytm": 10.6,
+        "spread_bp": 606,
+        "net_leverage": 2.97,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 95.2,
+        "ytm": 10.2,
+        "spread_bp": 572,
+        "net_leverage": 2.87,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 96.5,
+        "ytm": 9.85,
+        "spread_bp": 543,
+        "net_leverage": 2.77,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 97.2,
+        "ytm": 9.55,
+        "spread_bp": 509,
+        "net_leverage": 2.67,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 97.6,
+        "ytm": 9.4,
+        "spread_bp": 500,
+        "net_leverage": 2.64,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 98.3,
+        "ytm": 9.15,
+        "spread_bp": 475,
+        "net_leverage": 2.57,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 98.6,
+        "ytm": 9.05,
+        "spread_bp": 466,
+        "net_leverage": 2.52,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 98.8,
+        "ytm": 9.0,
+        "spread_bp": 461,
+        "net_leverage": 2.5,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 98.4,
+        "ytm": 9.1,
+        "spread_bp": 470,
+        "net_leverage": 2.54,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 98.1,
+        "ytm": 9.2,
+        "spread_bp": 480,
+        "net_leverage": 2.6,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B2",
+        "price": 98.0,
+        "ytm": 9.25,
+        "spread_bp": 485,
+        "net_leverage": 2.62,
+        "ebitda": 145.0,
+        "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -2343,6 +2779,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
         "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 87.8,
+        "ytm": 12.8,
+        "spread_bp": 888,
+        "net_leverage": 2.87,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 89.2,
+        "ytm": 12.4,
+        "spread_bp": 838,
+        "net_leverage": 2.77,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 90.5,
+        "ytm": 12.05,
+        "spread_bp": 795,
+        "net_leverage": 2.67,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 91.2,
+        "ytm": 11.75,
+        "spread_bp": 746,
+        "net_leverage": 2.57,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 91.6,
+        "ytm": 11.6,
+        "spread_bp": 731,
+        "net_leverage": 2.54,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 92.3,
+        "ytm": 11.35,
+        "spread_bp": 696,
+        "net_leverage": 2.47,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 92.6,
+        "ytm": 11.25,
+        "spread_bp": 682,
+        "net_leverage": 2.42,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 92.8,
+        "ytm": 11.2,
+        "spread_bp": 674,
+        "net_leverage": 2.4,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 92.4,
+        "ytm": 11.3,
+        "spread_bp": 689,
+        "net_leverage": 2.44,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 92.1,
+        "ytm": 11.4,
+        "spread_bp": 703,
+        "net_leverage": 2.5,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B- / B3",
+        "price": 92.0,
+        "ytm": 11.45,
+        "spread_bp": 710,
+        "net_leverage": 2.52,
+        "ebitda": 165.0,
+        "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -2720,7 +3301,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 102.5,
       "implied_stress_ev_multiple": "Prudential Resolution",
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Lowest NPL in Turkey (1.5%); highest CAR (19.4%); pristine Sabanc\u0131 Group sponsorship."
+      "thesis": "Lowest NPL in Turkey (1.5%); highest CAR (19.4%); pristine Sabancı Group sponsorship."
     },
     "annotations": [
       {
@@ -2967,6 +3548,151 @@ const MASTER_ISSUERS = [
         "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 96.0,
+        "ytm": 7.8,
+        "spread_bp": 231,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 97.4,
+        "ytm": 7.4,
+        "spread_bp": 218,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.7,
+        "ytm": 7.05,
+        "spread_bp": 207,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.4,
+        "ytm": 6.75,
+        "spread_bp": 194,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.6,
+        "spread_bp": 191,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.5,
+        "ytm": 6.35,
+        "spread_bp": 181,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.8,
+        "ytm": 6.25,
+        "spread_bp": 178,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 101.0,
+        "ytm": 6.2,
+        "spread_bp": 176,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.6,
+        "ytm": 6.3,
+        "spread_bp": 179,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.3,
+        "ytm": 6.4,
+        "spread_bp": 183,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / B1",
+        "price": 100.2,
+        "ytm": 6.45,
+        "spread_bp": 185,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -3541,6 +4267,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
         "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 95.9,
+        "ytm": 6.6,
+        "spread_bp": 131,
+        "net_leverage": 0.86,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 97.3,
+        "ytm": 6.2,
+        "spread_bp": 124,
+        "net_leverage": 0.76,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 98.6,
+        "ytm": 5.85,
+        "spread_bp": 118,
+        "net_leverage": 0.66,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 99.3,
+        "ytm": 5.55,
+        "spread_bp": 110,
+        "net_leverage": 0.56,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 99.7,
+        "ytm": 5.4,
+        "spread_bp": 108,
+        "net_leverage": 0.53,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 100.4,
+        "ytm": 5.15,
+        "spread_bp": 103,
+        "net_leverage": 0.46,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 100.7,
+        "ytm": 5.05,
+        "spread_bp": 101,
+        "net_leverage": 0.41,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 100.9,
+        "ytm": 5.0,
+        "spread_bp": 100,
+        "net_leverage": 0.39,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 100.5,
+        "ytm": 5.1,
+        "spread_bp": 102,
+        "net_leverage": 0.43,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 100.2,
+        "ytm": 5.2,
+        "spread_bp": 104,
+        "net_leverage": 0.49,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB- / Baa2",
+        "price": 100.1,
+        "ytm": 5.25,
+        "spread_bp": 105,
+        "net_leverage": 0.51,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -4114,6 +4985,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
         "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 96.3,
+        "ytm": 9.4,
+        "spread_bp": 500,
+        "net_leverage": 2.24,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 97.7,
+        "ytm": 9.0,
+        "spread_bp": 472,
+        "net_leverage": 2.14,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 99.0,
+        "ytm": 8.65,
+        "spread_bp": 448,
+        "net_leverage": 2.04,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 99.7,
+        "ytm": 8.35,
+        "spread_bp": 420,
+        "net_leverage": 1.94,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 100.1,
+        "ytm": 8.2,
+        "spread_bp": 412,
+        "net_leverage": 1.91,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 100.8,
+        "ytm": 7.95,
+        "spread_bp": 392,
+        "net_leverage": 1.84,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 101.1,
+        "ytm": 7.85,
+        "spread_bp": 384,
+        "net_leverage": 1.79,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 101.3,
+        "ytm": 7.8,
+        "spread_bp": 380,
+        "net_leverage": 1.77,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 100.9,
+        "ytm": 7.9,
+        "spread_bp": 388,
+        "net_leverage": 1.81,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 100.6,
+        "ytm": 8.0,
+        "spread_bp": 396,
+        "net_leverage": 1.87,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B+ / B1",
+        "price": 100.5,
+        "ytm": 8.05,
+        "spread_bp": 400,
+        "net_leverage": 1.89,
+        "ebitda": 270.0,
+        "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -4685,6 +5701,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 84.8,
+        "ytm": 13.5,
+        "spread_bp": 975,
+        "net_leverage": 2.98,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 86.2,
+        "ytm": 13.1,
+        "spread_bp": 920,
+        "net_leverage": 2.88,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 87.5,
+        "ytm": 12.75,
+        "spread_bp": 874,
+        "net_leverage": 2.78,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 88.2,
+        "ytm": 12.45,
+        "spread_bp": 819,
+        "net_leverage": 2.68,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 88.6,
+        "ytm": 12.3,
+        "spread_bp": 803,
+        "net_leverage": 2.65,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 89.3,
+        "ytm": 12.05,
+        "spread_bp": 764,
+        "net_leverage": 2.58,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 89.6,
+        "ytm": 11.95,
+        "spread_bp": 749,
+        "net_leverage": 2.53,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 89.8,
+        "ytm": 11.9,
+        "spread_bp": 741,
+        "net_leverage": 2.51,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 89.4,
+        "ytm": 12.0,
+        "spread_bp": 757,
+        "net_leverage": 2.55,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 89.1,
+        "ytm": 12.1,
+        "spread_bp": 772,
+        "net_leverage": 2.61,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B-",
+        "price": 89.0,
+        "ytm": 12.15,
+        "spread_bp": 780,
+        "net_leverage": 2.63,
+        "ebitda": 160.0,
+        "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -5012,7 +6173,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 98.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "1,180 MW pure-play renewable portfolio; U\u015fak hybrid solar expansion diversifying hydro risk."
+      "thesis": "1,180 MW pure-play renewable portfolio; Uşak hybrid solar expansion diversifying hydro risk."
     },
     "annotations": [
       {
@@ -5260,6 +6421,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 92.3,
+        "ytm": 10.3,
+        "spread_bp": 569,
+        "net_leverage": 4.46,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 93.7,
+        "ytm": 9.9,
+        "spread_bp": 537,
+        "net_leverage": 4.36,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 95.0,
+        "ytm": 9.55,
+        "spread_bp": 510,
+        "net_leverage": 4.26,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 95.7,
+        "ytm": 9.25,
+        "spread_bp": 478,
+        "net_leverage": 4.16,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 96.1,
+        "ytm": 9.1,
+        "spread_bp": 469,
+        "net_leverage": 4.13,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 96.8,
+        "ytm": 8.85,
+        "spread_bp": 446,
+        "net_leverage": 4.06,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 97.1,
+        "ytm": 8.75,
+        "spread_bp": 437,
+        "net_leverage": 4.01,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 97.3,
+        "ytm": 8.7,
+        "spread_bp": 432,
+        "net_leverage": 3.99,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 96.9,
+        "ytm": 8.8,
+        "spread_bp": 441,
+        "net_leverage": 4.03,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 96.6,
+        "ytm": 8.9,
+        "spread_bp": 450,
+        "net_leverage": 4.09,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B3",
+        "price": 96.5,
+        "ytm": 8.95,
+        "spread_bp": 455,
+        "net_leverage": 4.11,
+        "ebitda": 190.0,
+        "fcf": 95.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -5838,6 +7144,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 94.3,
+        "ytm": 9.8,
+        "spread_bp": 512,
+        "net_leverage": 1.93,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 95.7,
+        "ytm": 9.4,
+        "spread_bp": 484,
+        "net_leverage": 1.83,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 97.0,
+        "ytm": 9.05,
+        "spread_bp": 459,
+        "net_leverage": 1.73,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 97.7,
+        "ytm": 8.75,
+        "spread_bp": 430,
+        "net_leverage": 1.63,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 98.1,
+        "ytm": 8.6,
+        "spread_bp": 422,
+        "net_leverage": 1.6,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 98.8,
+        "ytm": 8.35,
+        "spread_bp": 402,
+        "net_leverage": 1.53,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 99.1,
+        "ytm": 8.25,
+        "spread_bp": 394,
+        "net_leverage": 1.48,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 99.3,
+        "ytm": 8.2,
+        "spread_bp": 390,
+        "net_leverage": 1.46,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 98.9,
+        "ytm": 8.3,
+        "spread_bp": 398,
+        "net_leverage": 1.5,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B+ / Ba3",
+        "price": 98.6,
+        "ytm": 8.4,
+        "spread_bp": 406,
+        "net_leverage": 1.56,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B+ / Ba3",
+        "price": 98.5,
+        "ytm": 8.45,
+        "spread_bp": 410,
+        "net_leverage": 1.58,
+        "ebitda": 2250.0,
+        "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -6414,6 +7865,151 @@ const MASTER_ISSUERS = [
         "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 97.6,
+        "ytm": 8.2,
+        "spread_bp": 350,
+        "net_leverage": 3.75,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 99.0,
+        "ytm": 7.8,
+        "spread_bp": 330,
+        "net_leverage": 3.65,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 100.3,
+        "ytm": 7.45,
+        "spread_bp": 314,
+        "net_leverage": 3.55,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 101.0,
+        "ytm": 7.15,
+        "spread_bp": 294,
+        "net_leverage": 3.45,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 101.4,
+        "ytm": 7.0,
+        "spread_bp": 288,
+        "net_leverage": 3.42,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 102.1,
+        "ytm": 6.75,
+        "spread_bp": 274,
+        "net_leverage": 3.35,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 102.4,
+        "ytm": 6.65,
+        "spread_bp": 269,
+        "net_leverage": 3.3,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 102.6,
+        "ytm": 6.6,
+        "spread_bp": 266,
+        "net_leverage": 3.28,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 102.2,
+        "ytm": 6.7,
+        "spread_bp": 272,
+        "net_leverage": 3.32,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B+ / B+",
+        "price": 101.9,
+        "ytm": 6.8,
+        "spread_bp": 277,
+        "net_leverage": 3.38,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B+ / B+",
+        "price": 101.8,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 3.4,
+        "ebitda": 1250.0,
+        "fcf": 625.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -6999,12 +8595,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
         "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 97.3,
+        "ytm": 10.2,
+        "spread_bp": 600,
+        "net_leverage": 1.24,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 98.7,
+        "ytm": 9.8,
+        "spread_bp": 566,
+        "net_leverage": 1.14,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 100.0,
+        "ytm": 9.45,
+        "spread_bp": 538,
+        "net_leverage": 1.04,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 100.7,
+        "ytm": 9.15,
+        "spread_bp": 504,
+        "net_leverage": 0.94,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 101.1,
+        "ytm": 9.0,
+        "spread_bp": 494,
+        "net_leverage": 0.91,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 101.8,
+        "ytm": 8.75,
+        "spread_bp": 470,
+        "net_leverage": 0.84,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 102.1,
+        "ytm": 8.65,
+        "spread_bp": 461,
+        "net_leverage": 0.79,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 102.3,
+        "ytm": 8.6,
+        "spread_bp": 456,
+        "net_leverage": 0.77,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 101.9,
+        "ytm": 8.7,
+        "spread_bp": 466,
+        "net_leverage": 0.81,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 101.6,
+        "ytm": 8.8,
+        "spread_bp": 475,
+        "net_leverage": 0.87,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B+ / B",
+        "price": 101.5,
+        "ytm": 8.85,
+        "spread_bp": 480,
+        "net_leverage": 0.89,
+        "ebitda": 380.0,
+        "fcf": 190.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "cci",
-      "name": "Coca-Cola \u0130\u00e7ecek (CCI)",
+      "name": "Coca-Cola İçecek (CCI)",
       "ticker": "CCOLA",
       "country": "Turkey",
       "region": "Turkey",
@@ -7330,7 +9071,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "cci",
-        "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
+        "issuer_name": "Coca-Cola İçecek (CCI)",
         "sector": "Consumer",
         "topic": "Retail Footprint & Concession Moat",
         "source": "Cognitive Credit / Broker Consensus",
@@ -7338,7 +9079,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "cci",
-        "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
+        "issuer_name": "Coca-Cola İçecek (CCI)",
         "sector": "Consumer",
         "topic": "Working Capital & Free Cash Flow",
         "source": "Financial Statements",
@@ -7346,7 +9087,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "cci",
-        "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
+        "issuer_name": "Coca-Cola İçecek (CCI)",
         "sector": "Consumer",
         "topic": "Geographic Diversification",
         "source": "Investor Presentations",
@@ -7354,7 +9095,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "source_deck": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
@@ -7497,7 +9238,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$4047.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $4104.0M (+8.0% YoY growth). With current run-rate at $4047.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -7508,7 +9249,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$777.6M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $792.0M (19.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -7519,7 +9260,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.05x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 2.70x buffer below covenant limit.",
-        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.05x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -7530,7 +9271,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$243.4M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $264.6M (Maximum growth and sustaining envelope). Current commitments stand at $243.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -7541,7 +9282,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -7570,12 +9311,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 93.0,
+        "ytm": 6.7,
+        "spread_bp": 162,
+        "net_leverage": 1.4,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 94.4,
+        "ytm": 6.3,
+        "spread_bp": 153,
+        "net_leverage": 1.3,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 95.7,
+        "ytm": 5.95,
+        "spread_bp": 146,
+        "net_leverage": 1.2,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 96.4,
+        "ytm": 5.65,
+        "spread_bp": 136,
+        "net_leverage": 1.1,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 96.8,
+        "ytm": 5.5,
+        "spread_bp": 134,
+        "net_leverage": 1.07,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 97.5,
+        "ytm": 5.25,
+        "spread_bp": 127,
+        "net_leverage": 1.0,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 97.8,
+        "ytm": 5.15,
+        "spread_bp": 125,
+        "net_leverage": 0.95,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 98.0,
+        "ytm": 5.1,
+        "spread_bp": 124,
+        "net_leverage": 0.93,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 97.6,
+        "ytm": 5.2,
+        "spread_bp": 126,
+        "net_leverage": 0.97,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB- / BBB",
+        "price": 97.3,
+        "ytm": 5.3,
+        "spread_bp": 129,
+        "net_leverage": 1.03,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB- / BBB",
+        "price": 97.2,
+        "ytm": 5.35,
+        "spread_bp": 130,
+        "net_leverage": 1.05,
+        "ebitda": 720.0,
+        "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "cez",
-      "name": "\u010cEZ Group",
+      "name": "ČEZ Group",
       "ticker": "CEZ",
       "country": "Czech Republic",
       "region": "CEE",
@@ -7897,12 +9783,12 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 100.5,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Czech Republic Commercial & Bankruptcy Code",
-      "thesis": "Czech integrated utility powerhouse; Temel\u00edn and Dukovany nuclear generation guarantees low-cost baseload."
+      "thesis": "Czech integrated utility powerhouse; Temelín and Dukovany nuclear generation guarantees low-cost baseload."
     },
     "annotations": [
       {
         "issuer_id": "cez",
-        "issuer_name": "\u010cEZ Group",
+        "issuer_name": "ČEZ Group",
         "sector": "Utilities",
         "topic": "Regulated Asset Base & Off-take PPA",
         "source": "Cognitive Credit / Citi",
@@ -7910,7 +9796,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "cez",
-        "issuer_name": "\u010cEZ Group",
+        "issuer_name": "ČEZ Group",
         "sector": "Utilities",
         "topic": "Capex Phasing & FCF Conversion",
         "source": "Company Filings",
@@ -7918,7 +9804,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "cez",
-        "issuer_name": "\u010cEZ Group",
+        "issuer_name": "ČEZ Group",
         "sector": "Utilities",
         "topic": "Sovereign Balancing & Guarantees",
         "source": "Ministry of Finance Disclosures",
@@ -7926,7 +9812,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "source_deck": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
@@ -8073,7 +9959,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$16188.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $16416.0M (+8.0% YoY growth). With current run-rate at $16188.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -8084,7 +9970,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$4536.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $4620.0M (28.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -8095,7 +9981,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.40x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit.",
-        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 1.40x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -8106,7 +9992,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1420.0M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $1543.5M (Maximum growth and sustaining envelope). Current commitments stand at $1420.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -8117,7 +10003,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -8145,6 +10031,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 95.6,
+        "ytm": 6.3,
+        "spread_bp": 112,
+        "net_leverage": 1.75,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 97.0,
+        "ytm": 5.9,
+        "spread_bp": 106,
+        "net_leverage": 1.65,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 98.3,
+        "ytm": 5.55,
+        "spread_bp": 101,
+        "net_leverage": 1.55,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 99.0,
+        "ytm": 5.25,
+        "spread_bp": 94,
+        "net_leverage": 1.45,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 99.4,
+        "ytm": 5.1,
+        "spread_bp": 93,
+        "net_leverage": 1.42,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 100.1,
+        "ytm": 4.85,
+        "spread_bp": 88,
+        "net_leverage": 1.35,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 100.4,
+        "ytm": 4.75,
+        "spread_bp": 86,
+        "net_leverage": 1.3,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 100.6,
+        "ytm": 4.7,
+        "spread_bp": 86,
+        "net_leverage": 1.28,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 100.2,
+        "ytm": 4.8,
+        "spread_bp": 87,
+        "net_leverage": 1.32,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A- / A3",
+        "price": 99.9,
+        "ytm": 4.9,
+        "spread_bp": 89,
+        "net_leverage": 1.38,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A- / A3",
+        "price": 99.8,
+        "ytm": 4.95,
+        "spread_bp": 90,
+        "net_leverage": 1.4,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -8718,6 +10749,151 @@ const MASTER_ISSUERS = [
         "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
         "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
         "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 96.8,
+        "ytm": 8.6,
+        "spread_bp": 400,
+        "net_leverage": 0.64,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 98.2,
+        "ytm": 8.2,
+        "spread_bp": 378,
+        "net_leverage": 0.54,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 99.5,
+        "ytm": 7.85,
+        "spread_bp": 358,
+        "net_leverage": 0.44,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 100.2,
+        "ytm": 7.55,
+        "spread_bp": 336,
+        "net_leverage": 0.34,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 100.6,
+        "ytm": 7.4,
+        "spread_bp": 330,
+        "net_leverage": 0.31,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 101.3,
+        "ytm": 7.15,
+        "spread_bp": 314,
+        "net_leverage": 0.24,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 101.6,
+        "ytm": 7.05,
+        "spread_bp": 307,
+        "net_leverage": 0.19,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 101.8,
+        "ytm": 7.0,
+        "spread_bp": 304,
+        "net_leverage": 0.17,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 101.4,
+        "ytm": 7.1,
+        "spread_bp": 310,
+        "net_leverage": 0.21,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 101.1,
+        "ytm": 7.2,
+        "spread_bp": 317,
+        "net_leverage": 0.27,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / Ba3",
+        "price": 101.0,
+        "ytm": 7.25,
+        "spread_bp": 320,
+        "net_leverage": 0.29,
+        "ebitda": 680.0,
+        "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -9294,6 +11470,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 91.8,
+        "ytm": 12.85,
+        "spread_bp": 894,
+        "net_leverage": 3.12,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 93.2,
+        "ytm": 12.45,
+        "spread_bp": 844,
+        "net_leverage": 3.02,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 94.5,
+        "ytm": 12.1,
+        "spread_bp": 801,
+        "net_leverage": 2.92,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 95.2,
+        "ytm": 11.8,
+        "spread_bp": 751,
+        "net_leverage": 2.82,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 95.6,
+        "ytm": 11.65,
+        "spread_bp": 736,
+        "net_leverage": 2.79,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 96.3,
+        "ytm": 11.4,
+        "spread_bp": 701,
+        "net_leverage": 2.72,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 96.6,
+        "ytm": 11.3,
+        "spread_bp": 686,
+        "net_leverage": 2.67,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 96.8,
+        "ytm": 11.25,
+        "spread_bp": 679,
+        "net_leverage": 2.65,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 96.4,
+        "ytm": 11.35,
+        "spread_bp": 694,
+        "net_leverage": 2.69,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 96.1,
+        "ytm": 11.45,
+        "spread_bp": 708,
+        "net_leverage": 2.75,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B2",
+        "price": 96.0,
+        "ytm": 11.5,
+        "spread_bp": 715,
+        "net_leverage": 2.77,
+        "ebitda": 650.0,
+        "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -9686,7 +12007,7 @@ const MASTER_ISSUERS = [
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       },
       "refinery_commercial_scale_and_yield": {
-        "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos \u2014 world's largest single-train facility",
+        "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos — world's largest single-train facility",
         "crude_processing_slate": "Configured to process Nigerian light sweet crudes (Bonny Light, Forcados, Qua Iboe) and global medium sour barrels with maximum distillation efficiency",
         "transportation_fuels_output": "Capable of producing 330,000 bpd of Euro-V premium gasoline (PMS), 220,000 bpd of Ultra-Low Sulfur Diesel (ULSD), and 50,000 bpd of Aviation Jet A-1",
         "naira_crude_sales_agreement": "Bespoke agreement with NNPC / Federal Government of Nigeria for 385,000 bpd of domestic crude supply payable in Nigerian Naira (NGN), eliminating foreign exchange rationing risks"
@@ -9881,6 +12202,151 @@ const MASTER_ISSUERS = [
         "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 90.8,
+        "ytm": 13.85,
+        "spread_bp": 1019,
+        "net_leverage": 2.78,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 92.2,
+        "ytm": 13.45,
+        "spread_bp": 962,
+        "net_leverage": 2.68,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 93.5,
+        "ytm": 13.1,
+        "spread_bp": 913,
+        "net_leverage": 2.58,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 94.2,
+        "ytm": 12.8,
+        "spread_bp": 856,
+        "net_leverage": 2.48,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 94.6,
+        "ytm": 12.65,
+        "spread_bp": 839,
+        "net_leverage": 2.45,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 95.3,
+        "ytm": 12.4,
+        "spread_bp": 799,
+        "net_leverage": 2.38,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 95.6,
+        "ytm": 12.3,
+        "spread_bp": 782,
+        "net_leverage": 2.33,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 95.8,
+        "ytm": 12.25,
+        "spread_bp": 774,
+        "net_leverage": 2.31,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 95.4,
+        "ytm": 12.35,
+        "spread_bp": 791,
+        "net_leverage": 2.35,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 95.1,
+        "ytm": 12.45,
+        "spread_bp": 807,
+        "net_leverage": 2.41,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B2",
+        "price": 95.0,
+        "ytm": 12.5,
+        "spread_bp": 815,
+        "net_leverage": 2.43,
+        "ebitda": 100.0,
+        "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -10454,6 +12920,151 @@ const MASTER_ISSUERS = [
         "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
         "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
         "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 95.3,
+        "ytm": 9.5,
+        "spread_bp": 512,
+        "net_leverage": 3.82,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 96.7,
+        "ytm": 9.1,
+        "spread_bp": 484,
+        "net_leverage": 3.72,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 98.0,
+        "ytm": 8.75,
+        "spread_bp": 459,
+        "net_leverage": 3.62,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 98.7,
+        "ytm": 8.45,
+        "spread_bp": 430,
+        "net_leverage": 3.52,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 99.1,
+        "ytm": 8.3,
+        "spread_bp": 422,
+        "net_leverage": 3.49,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 99.8,
+        "ytm": 8.05,
+        "spread_bp": 402,
+        "net_leverage": 3.42,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 100.1,
+        "ytm": 7.95,
+        "spread_bp": 394,
+        "net_leverage": 3.37,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 100.3,
+        "ytm": 7.9,
+        "spread_bp": 390,
+        "net_leverage": 3.35,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 99.9,
+        "ytm": 8.0,
+        "spread_bp": 398,
+        "net_leverage": 3.39,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / Ba3 / B+",
+        "price": 99.6,
+        "ytm": 8.1,
+        "spread_bp": 406,
+        "net_leverage": 3.45,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / Ba3 / B+",
+        "price": 99.5,
+        "ytm": 8.15,
+        "spread_bp": 410,
+        "net_leverage": 3.47,
+        "ebitda": 360.0,
+        "fcf": 180.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -11080,6 +13691,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 95.5,
+        "ytm": 6.45,
+        "spread_bp": 112,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 96.9,
+        "ytm": 6.05,
+        "spread_bp": 106,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 98.2,
+        "ytm": 5.7,
+        "spread_bp": 101,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 98.9,
+        "ytm": 5.4,
+        "spread_bp": 94,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 99.3,
+        "ytm": 5.25,
+        "spread_bp": 93,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 100.0,
+        "ytm": 5.0,
+        "spread_bp": 88,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 100.3,
+        "ytm": 4.9,
+        "spread_bp": 86,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 100.5,
+        "ytm": 4.85,
+        "spread_bp": 86,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 100.1,
+        "ytm": 4.95,
+        "spread_bp": 87,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A3 / A",
+        "price": 99.8,
+        "ytm": 5.05,
+        "spread_bp": 89,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A3 / A",
+        "price": 99.7,
+        "ytm": 5.1,
+        "spread_bp": 90,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -11654,6 +14410,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 93.8,
+        "ytm": 6.7,
+        "spread_bp": 150,
+        "net_leverage": 3.58,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 95.2,
+        "ytm": 6.3,
+        "spread_bp": 142,
+        "net_leverage": 3.48,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 96.5,
+        "ytm": 5.95,
+        "spread_bp": 134,
+        "net_leverage": 3.38,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 97.2,
+        "ytm": 5.65,
+        "spread_bp": 126,
+        "net_leverage": 3.28,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 97.6,
+        "ytm": 5.5,
+        "spread_bp": 124,
+        "net_leverage": 3.25,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 98.3,
+        "ytm": 5.25,
+        "spread_bp": 118,
+        "net_leverage": 3.18,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 98.6,
+        "ytm": 5.15,
+        "spread_bp": 115,
+        "net_leverage": 3.13,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 98.8,
+        "ytm": 5.1,
+        "spread_bp": 114,
+        "net_leverage": 3.11,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 98.4,
+        "ytm": 5.2,
+        "spread_bp": 116,
+        "net_leverage": 3.15,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB+ / Baa2",
+        "price": 98.1,
+        "ytm": 5.3,
+        "spread_bp": 119,
+        "net_leverage": 3.21,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB+ / Baa2",
+        "price": 98.0,
+        "ytm": 5.35,
+        "spread_bp": 120,
+        "net_leverage": 3.23,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -12231,6 +15132,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 64.3,
+        "ytm": 19.85,
+        "spread_bp": 1762,
+        "net_leverage": 3.37,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 65.7,
+        "ytm": 19.45,
+        "spread_bp": 1664,
+        "net_leverage": 3.27,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 67.0,
+        "ytm": 19.1,
+        "spread_bp": 1579,
+        "net_leverage": 3.17,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 67.7,
+        "ytm": 18.8,
+        "spread_bp": 1480,
+        "net_leverage": 3.07,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 68.1,
+        "ytm": 18.65,
+        "spread_bp": 1452,
+        "net_leverage": 3.04,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 68.8,
+        "ytm": 18.4,
+        "spread_bp": 1382,
+        "net_leverage": 2.97,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 69.1,
+        "ytm": 18.3,
+        "spread_bp": 1354,
+        "net_leverage": 2.92,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 69.3,
+        "ytm": 18.25,
+        "spread_bp": 1340,
+        "net_leverage": 2.9,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 68.9,
+        "ytm": 18.35,
+        "spread_bp": 1368,
+        "net_leverage": 2.94,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 68.6,
+        "ytm": 18.45,
+        "spread_bp": 1396,
+        "net_leverage": 3.0,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "CCC / Caa3",
+        "price": 68.5,
+        "ytm": 18.5,
+        "spread_bp": 1410,
+        "net_leverage": 3.02,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -12804,6 +15850,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
         "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 96.0,
+        "ytm": 6.5,
+        "spread_bp": 119,
+        "net_leverage": 100.35,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 97.4,
+        "ytm": 6.1,
+        "spread_bp": 112,
+        "net_leverage": 100.25,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 98.7,
+        "ytm": 5.75,
+        "spread_bp": 106,
+        "net_leverage": 100.15,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 99.4,
+        "ytm": 5.45,
+        "spread_bp": 100,
+        "net_leverage": 100.05,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 99.8,
+        "ytm": 5.3,
+        "spread_bp": 98,
+        "net_leverage": 100.02,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 100.5,
+        "ytm": 5.05,
+        "spread_bp": 93,
+        "net_leverage": 99.95,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 100.8,
+        "ytm": 4.95,
+        "spread_bp": 91,
+        "net_leverage": 99.9,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 101.0,
+        "ytm": 4.9,
+        "spread_bp": 90,
+        "net_leverage": 99.88,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 100.6,
+        "ytm": 5.0,
+        "spread_bp": 92,
+        "net_leverage": 99.92,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB / Baa2",
+        "price": 100.3,
+        "ytm": 5.1,
+        "spread_bp": 94,
+        "net_leverage": 99.98,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB / Baa2",
+        "price": 100.2,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": 100.0,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "On Track"
+      }
     ]
   },
   {
@@ -13133,7 +16324,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 101.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "TOK\u0130 50% state ownership; >$4.5B prime land bank; negligible net leverage (0.49x)."
+      "thesis": "TOKİ 50% state ownership; >$4.5B prime land bank; negligible net leverage (0.49x)."
     },
     "annotations": [
       {
@@ -13376,6 +16567,151 @@ const MASTER_ISSUERS = [
         "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
         "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
         "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 93.3,
+        "ytm": 11.85,
+        "spread_bp": 762,
+        "net_leverage": 0.84,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 94.7,
+        "ytm": 11.45,
+        "spread_bp": 720,
+        "net_leverage": 0.74,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 96.0,
+        "ytm": 11.1,
+        "spread_bp": 683,
+        "net_leverage": 0.64,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 96.7,
+        "ytm": 10.8,
+        "spread_bp": 640,
+        "net_leverage": 0.54,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 97.1,
+        "ytm": 10.65,
+        "spread_bp": 628,
+        "net_leverage": 0.51,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 97.8,
+        "ytm": 10.4,
+        "spread_bp": 598,
+        "net_leverage": 0.44,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 98.1,
+        "ytm": 10.3,
+        "spread_bp": 586,
+        "net_leverage": 0.39,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 98.3,
+        "ytm": 10.25,
+        "spread_bp": 580,
+        "net_leverage": 0.37,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 97.9,
+        "ytm": 10.35,
+        "spread_bp": 592,
+        "net_leverage": 0.41,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- Local",
+        "price": 97.6,
+        "ytm": 10.45,
+        "spread_bp": 604,
+        "net_leverage": 0.47,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- Local",
+        "price": 97.5,
+        "ytm": 10.5,
+        "spread_bp": 610,
+        "net_leverage": 0.49,
+        "ebitda": 350.0,
+        "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -14002,6 +17338,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 96.05,
+        "ytm": 6.25,
+        "spread_bp": 88,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 97.45,
+        "ytm": 5.85,
+        "spread_bp": 83,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 98.75,
+        "ytm": 5.5,
+        "spread_bp": 78,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 99.45,
+        "ytm": 5.2,
+        "spread_bp": 74,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 99.85,
+        "ytm": 5.05,
+        "spread_bp": 72,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 100.55,
+        "ytm": 4.8,
+        "spread_bp": 69,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 100.85,
+        "ytm": 4.7,
+        "spread_bp": 67,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 101.05,
+        "ytm": 4.65,
+        "spread_bp": 66,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 100.65,
+        "ytm": 4.75,
+        "spread_bp": 68,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A2 / A+",
+        "price": 100.35,
+        "ytm": 4.85,
+        "spread_bp": 69,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A2 / A+",
+        "price": 100.25,
+        "ytm": 4.9,
+        "spread_bp": 70,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -14576,6 +18057,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "Baa3 / BBB-",
+        "price": 94.0,
+        "ytm": 6.9,
+        "spread_bp": 188,
+        "net_leverage": 2.0,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "Baa3 / BBB-",
+        "price": 95.4,
+        "ytm": 6.5,
+        "spread_bp": 177,
+        "net_leverage": 1.9,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 96.7,
+        "ytm": 6.15,
+        "spread_bp": 168,
+        "net_leverage": 1.8,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 97.4,
+        "ytm": 5.85,
+        "spread_bp": 158,
+        "net_leverage": 1.7,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 97.8,
+        "ytm": 5.7,
+        "spread_bp": 154,
+        "net_leverage": 1.67,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 98.5,
+        "ytm": 5.45,
+        "spread_bp": 147,
+        "net_leverage": 1.6,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 98.8,
+        "ytm": 5.35,
+        "spread_bp": 144,
+        "net_leverage": 1.55,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 99.0,
+        "ytm": 5.3,
+        "spread_bp": 142,
+        "net_leverage": 1.53,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 98.6,
+        "ytm": 5.4,
+        "spread_bp": 146,
+        "net_leverage": 1.57,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "Baa2 / BBB",
+        "price": 98.3,
+        "ytm": 5.5,
+        "spread_bp": 148,
+        "net_leverage": 1.63,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "Baa2 / BBB",
+        "price": 98.2,
+        "ytm": 5.55,
+        "spread_bp": 150,
+        "net_leverage": 1.65,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -15152,6 +18778,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 94.3,
+        "ytm": 9.3,
+        "spread_bp": 444,
+        "net_leverage": 2.47,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 95.7,
+        "ytm": 8.9,
+        "spread_bp": 419,
+        "net_leverage": 2.37,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 97.0,
+        "ytm": 8.55,
+        "spread_bp": 398,
+        "net_leverage": 2.27,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 97.7,
+        "ytm": 8.25,
+        "spread_bp": 373,
+        "net_leverage": 2.17,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.1,
+        "ytm": 8.1,
+        "spread_bp": 366,
+        "net_leverage": 2.14,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.8,
+        "ytm": 7.85,
+        "spread_bp": 348,
+        "net_leverage": 2.07,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.1,
+        "ytm": 7.75,
+        "spread_bp": 341,
+        "net_leverage": 2.02,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.3,
+        "ytm": 7.7,
+        "spread_bp": 337,
+        "net_leverage": 2.0,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.9,
+        "ytm": 7.8,
+        "spread_bp": 344,
+        "net_leverage": 2.04,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.6,
+        "ytm": 7.9,
+        "spread_bp": 351,
+        "net_leverage": 2.1,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / B1",
+        "price": 98.5,
+        "ytm": 7.95,
+        "spread_bp": 355,
+        "net_leverage": 2.12,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -15727,6 +19498,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 94.8,
+        "ytm": 9.85,
+        "spread_bp": 556,
+        "net_leverage": 7.15,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 96.2,
+        "ytm": 9.45,
+        "spread_bp": 525,
+        "net_leverage": 7.05,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 97.5,
+        "ytm": 9.1,
+        "spread_bp": 498,
+        "net_leverage": 6.95,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 98.2,
+        "ytm": 8.8,
+        "spread_bp": 467,
+        "net_leverage": 6.85,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 98.6,
+        "ytm": 8.65,
+        "spread_bp": 458,
+        "net_leverage": 6.82,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 99.3,
+        "ytm": 8.4,
+        "spread_bp": 436,
+        "net_leverage": 6.75,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 99.6,
+        "ytm": 8.3,
+        "spread_bp": 427,
+        "net_leverage": 6.7,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 99.8,
+        "ytm": 8.25,
+        "spread_bp": 423,
+        "net_leverage": 6.68,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B-",
+        "price": 99.4,
+        "ytm": 8.35,
+        "spread_bp": 432,
+        "net_leverage": 6.72,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B-",
+        "price": 99.1,
+        "ytm": 8.45,
+        "spread_bp": 441,
+        "net_leverage": 6.78,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B-",
+        "price": 99.0,
+        "ytm": 8.5,
+        "spread_bp": 445,
+        "net_leverage": 6.8,
+        "ebitda": 2200.0,
+        "fcf": 1100.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -16353,6 +20269,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 96.3,
+        "ytm": 6.2,
+        "spread_bp": 81,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 97.7,
+        "ytm": 5.8,
+        "spread_bp": 77,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 99.0,
+        "ytm": 5.45,
+        "spread_bp": 73,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 99.7,
+        "ytm": 5.15,
+        "spread_bp": 68,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 100.1,
+        "ytm": 5.0,
+        "spread_bp": 67,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 100.8,
+        "ytm": 4.75,
+        "spread_bp": 64,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 101.1,
+        "ytm": 4.65,
+        "spread_bp": 62,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 101.3,
+        "ytm": 4.6,
+        "spread_bp": 62,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 100.9,
+        "ytm": 4.7,
+        "spread_bp": 63,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 100.6,
+        "ytm": 4.8,
+        "spread_bp": 64,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "Aa3 / AA-",
+        "price": 100.5,
+        "ytm": 4.85,
+        "spread_bp": 65,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -16977,6 +21038,151 @@ const MASTER_ISSUERS = [
         "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 94.6,
+        "ytm": 8.1,
+        "spread_bp": 338,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 96.0,
+        "ytm": 7.7,
+        "spread_bp": 319,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 97.3,
+        "ytm": 7.35,
+        "spread_bp": 302,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 98.0,
+        "ytm": 7.05,
+        "spread_bp": 284,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 98.4,
+        "ytm": 6.9,
+        "spread_bp": 278,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 99.1,
+        "ytm": 6.65,
+        "spread_bp": 265,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 99.4,
+        "ytm": 6.55,
+        "spread_bp": 259,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 99.6,
+        "ytm": 6.5,
+        "spread_bp": 256,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 99.2,
+        "ytm": 6.6,
+        "spread_bp": 262,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 98.9,
+        "ytm": 6.7,
+        "spread_bp": 267,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "Ba2 / BB-",
+        "price": 98.8,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -17603,6 +21809,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 95.6,
+        "ytm": 7.9,
+        "spread_bp": 244,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 97.0,
+        "ytm": 7.5,
+        "spread_bp": 230,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.3,
+        "ytm": 7.15,
+        "spread_bp": 218,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.0,
+        "ytm": 6.85,
+        "spread_bp": 205,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.4,
+        "ytm": 6.7,
+        "spread_bp": 201,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.1,
+        "ytm": 6.45,
+        "spread_bp": 191,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.4,
+        "ytm": 6.35,
+        "spread_bp": 187,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.6,
+        "ytm": 6.3,
+        "spread_bp": 185,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.2,
+        "ytm": 6.4,
+        "spread_bp": 189,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.9,
+        "ytm": 6.5,
+        "spread_bp": 193,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.55,
+        "spread_bp": 195,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -17930,7 +22281,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 100.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "\u0130zmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
+      "thesis": "İzmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
     },
     "annotations": [
       {
@@ -18178,6 +22529,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 94.0,
+        "ytm": 10.45,
+        "spread_bp": 588,
+        "net_leverage": 2.97,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 95.4,
+        "ytm": 10.05,
+        "spread_bp": 555,
+        "net_leverage": 2.87,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 96.7,
+        "ytm": 9.7,
+        "spread_bp": 526,
+        "net_leverage": 2.77,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 97.4,
+        "ytm": 9.4,
+        "spread_bp": 494,
+        "net_leverage": 2.67,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 97.8,
+        "ytm": 9.25,
+        "spread_bp": 484,
+        "net_leverage": 2.64,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 98.5,
+        "ytm": 9.0,
+        "spread_bp": 461,
+        "net_leverage": 2.57,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 98.8,
+        "ytm": 8.9,
+        "spread_bp": 451,
+        "net_leverage": 2.52,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 99.0,
+        "ytm": 8.85,
+        "spread_bp": 446,
+        "net_leverage": 2.5,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 98.6,
+        "ytm": 8.95,
+        "spread_bp": 456,
+        "net_leverage": 2.54,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 98.3,
+        "ytm": 9.05,
+        "spread_bp": 465,
+        "net_leverage": 2.6,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B2",
+        "price": 98.2,
+        "ytm": 9.1,
+        "spread_bp": 470,
+        "net_leverage": 2.62,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -18753,6 +23249,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 96.0,
+        "ytm": 7.4,
+        "spread_bp": 250,
+        "net_leverage": 1.2,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 97.4,
+        "ytm": 7.0,
+        "spread_bp": 236,
+        "net_leverage": 1.1,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 98.7,
+        "ytm": 6.65,
+        "spread_bp": 224,
+        "net_leverage": 1.0,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 99.4,
+        "ytm": 6.35,
+        "spread_bp": 210,
+        "net_leverage": 0.9,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 99.8,
+        "ytm": 6.2,
+        "spread_bp": 206,
+        "net_leverage": 0.87,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 100.5,
+        "ytm": 5.95,
+        "spread_bp": 196,
+        "net_leverage": 0.8,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 100.8,
+        "ytm": 5.85,
+        "spread_bp": 192,
+        "net_leverage": 0.75,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 101.0,
+        "ytm": 5.8,
+        "spread_bp": 190,
+        "net_leverage": 0.73,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 100.6,
+        "ytm": 5.9,
+        "spread_bp": 194,
+        "net_leverage": 0.77,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 100.3,
+        "ytm": 6.0,
+        "spread_bp": 198,
+        "net_leverage": 0.83,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB- / Baa3",
+        "price": 100.2,
+        "ytm": 6.05,
+        "spread_bp": 200,
+        "net_leverage": 0.85,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -19379,6 +24020,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 93.9,
+        "ytm": 8.7,
+        "spread_bp": 344,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 95.3,
+        "ytm": 8.3,
+        "spread_bp": 324,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 96.6,
+        "ytm": 7.95,
+        "spread_bp": 308,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 97.3,
+        "ytm": 7.65,
+        "spread_bp": 289,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 97.7,
+        "ytm": 7.5,
+        "spread_bp": 283,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 98.4,
+        "ytm": 7.25,
+        "spread_bp": 270,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 98.7,
+        "ytm": 7.15,
+        "spread_bp": 264,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 98.9,
+        "ytm": 7.1,
+        "spread_bp": 261,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 98.5,
+        "ytm": 7.2,
+        "spread_bp": 267,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 98.2,
+        "ytm": 7.3,
+        "spread_bp": 272,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B3",
+        "price": 98.1,
+        "ytm": 7.35,
+        "spread_bp": 275,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -20004,6 +24790,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 94.8,
+        "ytm": 7.55,
+        "spread_bp": 269,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 96.2,
+        "ytm": 7.15,
+        "spread_bp": 254,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 97.5,
+        "ytm": 6.8,
+        "spread_bp": 241,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 98.2,
+        "ytm": 6.5,
+        "spread_bp": 226,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 98.6,
+        "ytm": 6.35,
+        "spread_bp": 221,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 99.3,
+        "ytm": 6.1,
+        "spread_bp": 211,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 99.6,
+        "ytm": 6.0,
+        "spread_bp": 206,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 99.8,
+        "ytm": 5.95,
+        "spread_bp": 204,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 99.4,
+        "ytm": 6.05,
+        "spread_bp": 209,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "Baa1 / BBB-",
+        "price": 99.1,
+        "ytm": 6.15,
+        "spread_bp": 213,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "Baa1 / BBB-",
+        "price": 99.0,
+        "ytm": 6.2,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -20572,6 +25503,151 @@ const MASTER_ISSUERS = [
         "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
         "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
         "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 90.05,
+        "ytm": 10.1,
+        "spread_bp": 550,
+        "net_leverage": 4.84,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 91.45,
+        "ytm": 9.7,
+        "spread_bp": 519,
+        "net_leverage": 4.74,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 92.75,
+        "ytm": 9.35,
+        "spread_bp": 493,
+        "net_leverage": 4.64,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 93.45,
+        "ytm": 9.05,
+        "spread_bp": 462,
+        "net_leverage": 4.54,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 93.85,
+        "ytm": 8.9,
+        "spread_bp": 453,
+        "net_leverage": 4.51,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 94.55,
+        "ytm": 8.65,
+        "spread_bp": 431,
+        "net_leverage": 4.44,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 94.85,
+        "ytm": 8.55,
+        "spread_bp": 422,
+        "net_leverage": 4.39,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 95.05,
+        "ytm": 8.5,
+        "spread_bp": 418,
+        "net_leverage": 4.37,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B2",
+        "price": 94.65,
+        "ytm": 8.6,
+        "spread_bp": 427,
+        "net_leverage": 4.41,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B2",
+        "price": 94.35,
+        "ytm": 8.7,
+        "spread_bp": 436,
+        "net_leverage": 4.47,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B2",
+        "price": 94.25,
+        "ytm": 8.75,
+        "spread_bp": 440,
+        "net_leverage": 4.49,
+        "ebitda": 385.0,
+        "fcf": 192.4,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -21149,6 +26225,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 94.8,
+        "ytm": 6.85,
+        "spread_bp": 181,
+        "net_leverage": 0.75,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 96.2,
+        "ytm": 6.45,
+        "spread_bp": 171,
+        "net_leverage": 0.65,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 97.5,
+        "ytm": 6.1,
+        "spread_bp": 162,
+        "net_leverage": 0.55,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.2,
+        "ytm": 5.8,
+        "spread_bp": 152,
+        "net_leverage": 0.45,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.6,
+        "ytm": 5.65,
+        "spread_bp": 149,
+        "net_leverage": 0.42,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 99.3,
+        "ytm": 5.4,
+        "spread_bp": 142,
+        "net_leverage": 0.35,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 99.6,
+        "ytm": 5.3,
+        "spread_bp": 139,
+        "net_leverage": 0.3,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 99.8,
+        "ytm": 5.25,
+        "spread_bp": 138,
+        "net_leverage": 0.28,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 99.4,
+        "ytm": 5.35,
+        "spread_bp": 141,
+        "net_leverage": 0.32,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 99.1,
+        "ytm": 5.45,
+        "spread_bp": 144,
+        "net_leverage": 0.38,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB-",
+        "price": 99.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 0.4,
+        "ebitda": 1550.0,
+        "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -21718,12 +26939,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
         "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 87.3,
+        "ytm": 11.6,
+        "spread_bp": 738,
+        "net_leverage": 3.51,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 88.7,
+        "ytm": 11.2,
+        "spread_bp": 696,
+        "net_leverage": 3.41,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 90.0,
+        "ytm": 10.85,
+        "spread_bp": 661,
+        "net_leverage": 3.31,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 90.7,
+        "ytm": 10.55,
+        "spread_bp": 620,
+        "net_leverage": 3.21,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 91.1,
+        "ytm": 10.4,
+        "spread_bp": 608,
+        "net_leverage": 3.18,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 91.8,
+        "ytm": 10.15,
+        "spread_bp": 578,
+        "net_leverage": 3.11,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 92.1,
+        "ytm": 10.05,
+        "spread_bp": 566,
+        "net_leverage": 3.06,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 92.3,
+        "ytm": 10.0,
+        "spread_bp": 560,
+        "net_leverage": 3.04,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 91.9,
+        "ytm": 10.1,
+        "spread_bp": 572,
+        "net_leverage": 3.08,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 91.6,
+        "ytm": 10.2,
+        "spread_bp": 584,
+        "net_leverage": 3.14,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B+ / B2",
+        "price": 91.5,
+        "ytm": 10.25,
+        "spread_bp": 590,
+        "net_leverage": 3.16,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      }
     ]
   },
   {
     "metadata": {
       "id": "isbank",
-      "name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
+      "name": "Türkiye İş Bankası",
       "ticker": "ISCTR",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -22100,7 +27466,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "isbank",
-        "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
+        "issuer_name": "Türkiye İş Bankası",
         "sector": "Banks",
         "topic": "NIM & Asset-Liability Repricing",
         "source": "Cognitive Credit / J.P. Morgan",
@@ -22108,7 +27474,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "isbank",
-        "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
+        "issuer_name": "Türkiye İş Bankası",
         "sector": "Banks",
         "topic": "Prudential Capital & AT1 Instruments",
         "source": "Central Bank / Fitch Ratings",
@@ -22116,7 +27482,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "isbank",
-        "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
+        "issuer_name": "Türkiye İş Bankası",
         "sector": "Banks",
         "topic": "Asset Quality & Stage 2 Risk",
         "source": "BRSA / Audit Reports",
@@ -22124,7 +27490,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "source_deck": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "reporting_currency": "USD / Local Currency Statutory",
       "management_guidance_targets": {
         "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -22270,7 +27636,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
         "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -22281,7 +27647,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "5.52%",
         "tracking_status": "On Track",
         "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of 5.40% - 5.65%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -22292,7 +27658,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -22303,7 +27669,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -22314,7 +27680,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -22342,6 +27708,151 @@ const MASTER_ISSUERS = [
         "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 95.3,
+        "ytm": 8.2,
+        "spread_bp": 281,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 96.7,
+        "ytm": 7.8,
+        "spread_bp": 266,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.0,
+        "ytm": 7.45,
+        "spread_bp": 252,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.7,
+        "ytm": 7.15,
+        "spread_bp": 236,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.1,
+        "ytm": 7.0,
+        "spread_bp": 232,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 220,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.1,
+        "ytm": 6.65,
+        "spread_bp": 216,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.3,
+        "ytm": 6.6,
+        "spread_bp": 214,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.9,
+        "ytm": 6.7,
+        "spread_bp": 218,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.6,
+        "ytm": 6.8,
+        "spread_bp": 223,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 225,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -22677,7 +28188,7 @@ const MASTER_ISSUERS = [
         "issuer_name": "Ittihad Investment",
         "sector": "Industrials",
         "topic": "Conglomerate Cash Cushion",
-        "source": "Cognitive Credit / Ko\u00e7 / Ittihad",
+        "source": "Cognitive Credit / Koç / Ittihad",
         "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
       },
       {
@@ -22913,6 +28424,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 94.3,
+        "ytm": 10.45,
+        "spread_bp": 631,
+        "net_leverage": 2.76,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 95.7,
+        "ytm": 10.05,
+        "spread_bp": 596,
+        "net_leverage": 2.66,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 97.0,
+        "ytm": 9.7,
+        "spread_bp": 566,
+        "net_leverage": 2.56,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 97.7,
+        "ytm": 9.4,
+        "spread_bp": 530,
+        "net_leverage": 2.46,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 98.1,
+        "ytm": 9.25,
+        "spread_bp": 520,
+        "net_leverage": 2.43,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 98.8,
+        "ytm": 9.0,
+        "spread_bp": 495,
+        "net_leverage": 2.36,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 99.1,
+        "ytm": 8.9,
+        "spread_bp": 485,
+        "net_leverage": 2.31,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 99.3,
+        "ytm": 8.85,
+        "spread_bp": 480,
+        "net_leverage": 2.29,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 98.9,
+        "ytm": 8.95,
+        "spread_bp": 490,
+        "net_leverage": 2.33,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B+ / B1",
+        "price": 98.6,
+        "ytm": 9.05,
+        "spread_bp": 500,
+        "net_leverage": 2.39,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B+ / B1",
+        "price": 98.5,
+        "ytm": 9.1,
+        "spread_bp": 505,
+        "net_leverage": 2.41,
+        "ebitda": 195.0,
+        "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -23539,6 +29195,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 95.0,
+        "ytm": 6.55,
+        "spread_bp": 144,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 96.4,
+        "ytm": 6.15,
+        "spread_bp": 136,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 97.7,
+        "ytm": 5.8,
+        "spread_bp": 129,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 98.4,
+        "ytm": 5.5,
+        "spread_bp": 121,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 98.8,
+        "ytm": 5.35,
+        "spread_bp": 118,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 99.5,
+        "ytm": 5.1,
+        "spread_bp": 113,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 99.8,
+        "ytm": 5.0,
+        "spread_bp": 110,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 100.0,
+        "ytm": 4.95,
+        "spread_bp": 109,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 99.6,
+        "ytm": 5.05,
+        "spread_bp": 112,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 99.3,
+        "ytm": 5.15,
+        "spread_bp": 114,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A2 / A",
+        "price": 99.2,
+        "ytm": 5.2,
+        "spread_bp": 115,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -24116,12 +29917,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 84.3,
+        "ytm": 8.1,
+        "spread_bp": 338,
+        "net_leverage": 1.8,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 85.7,
+        "ytm": 7.7,
+        "spread_bp": 319,
+        "net_leverage": 1.7,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 87.0,
+        "ytm": 7.35,
+        "spread_bp": 302,
+        "net_leverage": 1.6,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 87.7,
+        "ytm": 7.05,
+        "spread_bp": 284,
+        "net_leverage": 1.5,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 88.1,
+        "ytm": 6.9,
+        "spread_bp": 278,
+        "net_leverage": 1.47,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 88.8,
+        "ytm": 6.65,
+        "spread_bp": 265,
+        "net_leverage": 1.4,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 89.1,
+        "ytm": 6.55,
+        "spread_bp": 259,
+        "net_leverage": 1.35,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 89.3,
+        "ytm": 6.5,
+        "spread_bp": 256,
+        "net_leverage": 1.33,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 88.9,
+        "ytm": 6.6,
+        "spread_bp": 262,
+        "net_leverage": 1.37,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB- / Baa2",
+        "price": 88.6,
+        "ytm": 6.7,
+        "spread_bp": 267,
+        "net_leverage": 1.43,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB- / Baa2",
+        "price": 88.5,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": 1.45,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "koc",
-      "name": "Ko\u00e7 Holding",
+      "name": "Koç Holding",
       "ticker": "KCHOL",
       "country": "Turkey",
       "region": "Turkey",
@@ -24442,20 +30388,20 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 101.5,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Turkey's premier industrial conglomerate (T\u00fcpra\u015f, Ford Otosan, Ar\u00e7elik, Yap\u0131 Kredi); net cash at holdco."
+      "thesis": "Turkey's premier industrial conglomerate (Tüpraş, Ford Otosan, Arçelik, Yapı Kredi); net cash at holdco."
     },
     "annotations": [
       {
         "issuer_id": "koc",
-        "issuer_name": "Ko\u00e7 Holding",
+        "issuer_name": "Koç Holding",
         "sector": "Industrials",
         "topic": "Conglomerate Cash Cushion",
-        "source": "Cognitive Credit / Ko\u00e7 / Ittihad",
+        "source": "Cognitive Credit / Koç / Ittihad",
         "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
       },
       {
         "issuer_id": "koc",
-        "issuer_name": "Ko\u00e7 Holding",
+        "issuer_name": "Koç Holding",
         "sector": "Industrials",
         "topic": "Export Orientation & Competitive Edge",
         "source": "Trade Ministry Data",
@@ -24463,7 +30409,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "koc",
-        "issuer_name": "Ko\u00e7 Holding",
+        "issuer_name": "Koç Holding",
         "sector": "Industrials",
         "topic": "Prudent Capital Allocation",
         "source": "Management Guidance",
@@ -24471,7 +30417,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "source_deck": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
@@ -24614,7 +30560,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$44730.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $45360.0M (+8.0% YoY growth). With current run-rate at $44730.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -24625,7 +30571,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$5184.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $5280.0M (11.6% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -24636,7 +30582,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.25x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 2.50x buffer below covenant limit.",
-        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.25x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -24647,7 +30593,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1622.9M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $1764.0M (Maximum growth and sustaining envelope). Current commitments stand at $1622.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -24658,7 +30604,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -24686,6 +30632,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 94.3,
+        "ytm": 8.2,
+        "spread_bp": 350,
+        "net_leverage": 1.6,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 95.7,
+        "ytm": 7.8,
+        "spread_bp": 330,
+        "net_leverage": 1.5,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 97.0,
+        "ytm": 7.45,
+        "spread_bp": 314,
+        "net_leverage": 1.4,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 97.7,
+        "ytm": 7.15,
+        "spread_bp": 294,
+        "net_leverage": 1.3,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 98.1,
+        "ytm": 7.0,
+        "spread_bp": 288,
+        "net_leverage": 1.27,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 98.8,
+        "ytm": 6.75,
+        "spread_bp": 274,
+        "net_leverage": 1.2,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 99.1,
+        "ytm": 6.65,
+        "spread_bp": 269,
+        "net_leverage": 1.15,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 99.3,
+        "ytm": 6.6,
+        "spread_bp": 266,
+        "net_leverage": 1.13,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 98.9,
+        "ytm": 6.7,
+        "spread_bp": 272,
+        "net_leverage": 1.17,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB / BB+",
+        "price": 98.6,
+        "ytm": 6.8,
+        "spread_bp": 277,
+        "net_leverage": 1.23,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB / BB+",
+        "price": 98.5,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 1.25,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -25264,6 +31355,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 85.3,
+        "ytm": 11.8,
+        "spread_bp": 762,
+        "net_leverage": 2.66,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 86.7,
+        "ytm": 11.4,
+        "spread_bp": 720,
+        "net_leverage": 2.56,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 88.0,
+        "ytm": 11.05,
+        "spread_bp": 683,
+        "net_leverage": 2.46,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 88.7,
+        "ytm": 10.75,
+        "spread_bp": 640,
+        "net_leverage": 2.36,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 89.1,
+        "ytm": 10.6,
+        "spread_bp": 628,
+        "net_leverage": 2.33,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 89.8,
+        "ytm": 10.35,
+        "spread_bp": 598,
+        "net_leverage": 2.26,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 90.1,
+        "ytm": 10.25,
+        "spread_bp": 586,
+        "net_leverage": 2.21,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 90.3,
+        "ytm": 10.2,
+        "spread_bp": 580,
+        "net_leverage": 2.19,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 89.9,
+        "ytm": 10.3,
+        "spread_bp": 592,
+        "net_leverage": 2.23,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 89.6,
+        "ytm": 10.4,
+        "spread_bp": 604,
+        "net_leverage": 2.29,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B- / B3",
+        "price": 89.5,
+        "ytm": 10.45,
+        "spread_bp": 610,
+        "net_leverage": 2.31,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -25839,12 +32075,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 94.6,
+        "ytm": 9.6,
+        "spread_bp": 481,
+        "net_leverage": 2.62,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 96.0,
+        "ytm": 9.2,
+        "spread_bp": 454,
+        "net_leverage": 2.52,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 97.3,
+        "ytm": 8.85,
+        "spread_bp": 431,
+        "net_leverage": 2.42,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 98.0,
+        "ytm": 8.55,
+        "spread_bp": 404,
+        "net_leverage": 2.32,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 98.4,
+        "ytm": 8.4,
+        "spread_bp": 397,
+        "net_leverage": 2.29,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 99.1,
+        "ytm": 8.15,
+        "spread_bp": 377,
+        "net_leverage": 2.22,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 99.4,
+        "ytm": 8.05,
+        "spread_bp": 370,
+        "net_leverage": 2.17,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 99.6,
+        "ytm": 8.0,
+        "spread_bp": 366,
+        "net_leverage": 2.15,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 99.2,
+        "ytm": 8.1,
+        "spread_bp": 373,
+        "net_leverage": 2.19,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B+ / B",
+        "price": 98.9,
+        "ytm": 8.2,
+        "spread_bp": 381,
+        "net_leverage": 2.25,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B+ / B",
+        "price": 98.8,
+        "ytm": 8.25,
+        "spread_bp": 385,
+        "net_leverage": 2.27,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "limak_port",
-      "name": "LimakPort \u0130skenderun",
+      "name": "LimakPort İskenderun",
       "ticker": "LMKPRT",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -26170,7 +32551,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "limak_port",
-        "issuer_name": "LimakPort \u0130skenderun",
+        "issuer_name": "LimakPort İskenderun",
         "sector": "Infrastructure",
         "topic": "Concession Duration & Tariff Autonomy",
         "source": "Cognitive Credit / S&P Global",
@@ -26178,7 +32559,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "limak_port",
-        "issuer_name": "LimakPort \u0130skenderun",
+        "issuer_name": "LimakPort İskenderun",
         "sector": "Infrastructure",
         "topic": "Volume Stability & Throughput",
         "source": "Terminal Authority Disclosures",
@@ -26186,7 +32567,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "limak_port",
-        "issuer_name": "LimakPort \u0130skenderun",
+        "issuer_name": "LimakPort İskenderun",
         "sector": "Infrastructure",
         "topic": "Holding Company Structural Priority",
         "source": "Offering Circular Waterfall",
@@ -26194,7 +32575,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+      "source_deck": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
       "reporting_currency": "USD",
       "management_guidance_targets": {
         "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
@@ -26341,7 +32722,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$127.8M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $129.6M (+8.0% YoY growth). With current run-rate at $127.8M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -26352,7 +32733,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$84.2M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $85.8M (66.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -26363,7 +32744,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "3.08x",
         "tracking_status": "On Track",
         "variance_analysis": "Deleveraging on track with 0.67x buffer below covenant limit.",
-        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 3.08x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -26374,7 +32755,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$26.4M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $28.7M (Maximum growth and sustaining envelope). Current commitments stand at $26.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -26385,7 +32766,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -26413,6 +32794,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 94.3,
+        "ytm": 9.2,
+        "spread_bp": 431,
+        "net_leverage": 3.43,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 95.7,
+        "ytm": 8.8,
+        "spread_bp": 407,
+        "net_leverage": 3.33,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 97.0,
+        "ytm": 8.45,
+        "spread_bp": 386,
+        "net_leverage": 3.23,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 97.7,
+        "ytm": 8.15,
+        "spread_bp": 362,
+        "net_leverage": 3.13,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 98.1,
+        "ytm": 8.0,
+        "spread_bp": 355,
+        "net_leverage": 3.1,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 98.8,
+        "ytm": 7.75,
+        "spread_bp": 338,
+        "net_leverage": 3.03,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 99.1,
+        "ytm": 7.65,
+        "spread_bp": 331,
+        "net_leverage": 2.98,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 99.3,
+        "ytm": 7.6,
+        "spread_bp": 328,
+        "net_leverage": 2.96,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 98.9,
+        "ytm": 7.7,
+        "spread_bp": 335,
+        "net_leverage": 3.0,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 98.6,
+        "ytm": 7.8,
+        "spread_bp": 342,
+        "net_leverage": 3.06,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B3",
+        "price": 98.5,
+        "ytm": 7.85,
+        "spread_bp": 345,
+        "net_leverage": 3.08,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -26990,6 +33516,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B / B3",
+        "price": 94.0,
+        "ytm": 10.1,
+        "spread_bp": 544,
+        "net_leverage": 4.35,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B / B3",
+        "price": 95.4,
+        "ytm": 9.7,
+        "spread_bp": 513,
+        "net_leverage": 4.25,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 96.7,
+        "ytm": 9.35,
+        "spread_bp": 487,
+        "net_leverage": 4.15,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 97.4,
+        "ytm": 9.05,
+        "spread_bp": 457,
+        "net_leverage": 4.05,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 97.8,
+        "ytm": 8.9,
+        "spread_bp": 448,
+        "net_leverage": 4.02,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 98.5,
+        "ytm": 8.65,
+        "spread_bp": 426,
+        "net_leverage": 3.95,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 98.8,
+        "ytm": 8.55,
+        "spread_bp": 418,
+        "net_leverage": 3.9,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 99.0,
+        "ytm": 8.5,
+        "spread_bp": 413,
+        "net_leverage": 3.88,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 98.6,
+        "ytm": 8.6,
+        "spread_bp": 422,
+        "net_leverage": 3.92,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 98.3,
+        "ytm": 8.7,
+        "spread_bp": 431,
+        "net_leverage": 3.98,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B+ / B2",
+        "price": 98.2,
+        "ytm": 8.75,
+        "spread_bp": 435,
+        "net_leverage": 4.0,
+        "ebitda": 275.0,
+        "fcf": 137.6,
+        "guidance_status": "On Track"
+      }
     ]
   },
   {
@@ -27558,6 +34229,151 @@ const MASTER_ISSUERS = [
         "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
         "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
         "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 77.3,
+        "ytm": 15.6,
+        "spread_bp": 1238,
+        "net_leverage": 5.47,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 78.7,
+        "ytm": 15.2,
+        "spread_bp": 1168,
+        "net_leverage": 5.37,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 80.0,
+        "ytm": 14.85,
+        "spread_bp": 1109,
+        "net_leverage": 5.27,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 80.7,
+        "ytm": 14.55,
+        "spread_bp": 1040,
+        "net_leverage": 5.17,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 81.1,
+        "ytm": 14.4,
+        "spread_bp": 1020,
+        "net_leverage": 5.14,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 81.8,
+        "ytm": 14.15,
+        "spread_bp": 970,
+        "net_leverage": 5.07,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 82.1,
+        "ytm": 14.05,
+        "spread_bp": 950,
+        "net_leverage": 5.02,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 82.3,
+        "ytm": 14.0,
+        "spread_bp": 940,
+        "net_leverage": 5.0,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 81.9,
+        "ytm": 14.1,
+        "spread_bp": 960,
+        "net_leverage": 5.04,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 81.6,
+        "ytm": 14.2,
+        "spread_bp": 980,
+        "net_leverage": 5.1,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B- / Caa1",
+        "price": 81.5,
+        "ytm": 14.25,
+        "spread_bp": 990,
+        "net_leverage": 5.12,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -28129,6 +34945,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 93.8,
+        "ytm": 7.0,
+        "spread_bp": 200,
+        "net_leverage": 3.2,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 95.2,
+        "ytm": 6.6,
+        "spread_bp": 189,
+        "net_leverage": 3.1,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 96.5,
+        "ytm": 6.25,
+        "spread_bp": 179,
+        "net_leverage": 3.0,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 97.2,
+        "ytm": 5.95,
+        "spread_bp": 168,
+        "net_leverage": 2.9,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 97.6,
+        "ytm": 5.8,
+        "spread_bp": 165,
+        "net_leverage": 2.87,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 98.3,
+        "ytm": 5.55,
+        "spread_bp": 157,
+        "net_leverage": 2.8,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 98.6,
+        "ytm": 5.45,
+        "spread_bp": 154,
+        "net_leverage": 2.75,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 98.8,
+        "ytm": 5.4,
+        "spread_bp": 152,
+        "net_leverage": 2.73,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 98.4,
+        "ytm": 5.5,
+        "spread_bp": 155,
+        "net_leverage": 2.77,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB / BBB",
+        "price": 98.1,
+        "ytm": 5.6,
+        "spread_bp": 158,
+        "net_leverage": 2.83,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB / BBB",
+        "price": 98.0,
+        "ytm": 5.65,
+        "spread_bp": 160,
+        "net_leverage": 2.85,
+        "ebitda": 1450.0,
+        "fcf": 725.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -28705,6 +35666,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 71.8,
+        "ytm": 17.0,
+        "spread_bp": 1406,
+        "net_leverage": 2.14,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 73.2,
+        "ytm": 16.6,
+        "spread_bp": 1328,
+        "net_leverage": 2.04,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 74.5,
+        "ytm": 16.25,
+        "spread_bp": 1260,
+        "net_leverage": 1.94,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 75.2,
+        "ytm": 15.95,
+        "spread_bp": 1181,
+        "net_leverage": 1.84,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 75.6,
+        "ytm": 15.8,
+        "spread_bp": 1159,
+        "net_leverage": 1.81,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 76.3,
+        "ytm": 15.55,
+        "spread_bp": 1102,
+        "net_leverage": 1.74,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 76.6,
+        "ytm": 15.45,
+        "spread_bp": 1080,
+        "net_leverage": 1.69,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 76.8,
+        "ytm": 15.4,
+        "spread_bp": 1069,
+        "net_leverage": 1.67,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 76.4,
+        "ytm": 15.5,
+        "spread_bp": 1091,
+        "net_leverage": 1.71,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "CCC+ / Caa3",
+        "price": 76.1,
+        "ytm": 15.6,
+        "spread_bp": 1114,
+        "net_leverage": 1.77,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "CCC+ / Caa3",
+        "price": 76.0,
+        "ytm": 15.65,
+        "spread_bp": 1125,
+        "net_leverage": 1.79,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -29275,6 +36381,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 78.3,
+        "ytm": 14.45,
+        "spread_bp": 1094,
+        "net_leverage": 3.24,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 79.7,
+        "ytm": 14.05,
+        "spread_bp": 1032,
+        "net_leverage": 3.14,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 81.0,
+        "ytm": 13.7,
+        "spread_bp": 980,
+        "net_leverage": 3.04,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 81.7,
+        "ytm": 13.4,
+        "spread_bp": 919,
+        "net_leverage": 2.94,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 82.1,
+        "ytm": 13.25,
+        "spread_bp": 901,
+        "net_leverage": 2.91,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 82.8,
+        "ytm": 13.0,
+        "spread_bp": 858,
+        "net_leverage": 2.84,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 83.1,
+        "ytm": 12.9,
+        "spread_bp": 840,
+        "net_leverage": 2.79,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 83.3,
+        "ytm": 12.85,
+        "spread_bp": 831,
+        "net_leverage": 2.77,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 82.9,
+        "ytm": 12.95,
+        "spread_bp": 849,
+        "net_leverage": 2.81,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "CCC+ / Caa2",
+        "price": 82.6,
+        "ytm": 13.05,
+        "spread_bp": 866,
+        "net_leverage": 2.87,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "CCC+ / Caa2",
+        "price": 82.5,
+        "ytm": 13.1,
+        "spread_bp": 875,
+        "net_leverage": 2.89,
+        "ebitda": 460.0,
+        "fcf": 230.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -29853,6 +37104,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 93.8,
+        "ytm": 6.85,
+        "spread_bp": 181,
+        "net_leverage": 1.45,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 95.2,
+        "ytm": 6.45,
+        "spread_bp": 171,
+        "net_leverage": 1.35,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 96.5,
+        "ytm": 6.1,
+        "spread_bp": 162,
+        "net_leverage": 1.25,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 97.2,
+        "ytm": 5.8,
+        "spread_bp": 152,
+        "net_leverage": 1.15,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 97.6,
+        "ytm": 5.65,
+        "spread_bp": 149,
+        "net_leverage": 1.12,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.3,
+        "ytm": 5.4,
+        "spread_bp": 142,
+        "net_leverage": 1.05,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.6,
+        "ytm": 5.3,
+        "spread_bp": 139,
+        "net_leverage": 1.0,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.8,
+        "ytm": 5.25,
+        "spread_bp": 138,
+        "net_leverage": 0.98,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.4,
+        "ytm": 5.35,
+        "spread_bp": 141,
+        "net_leverage": 1.02,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.1,
+        "ytm": 5.45,
+        "spread_bp": 144,
+        "net_leverage": 1.08,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB-",
+        "price": 98.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 1.1,
+        "ebitda": 3100.0,
+        "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -30421,6 +37817,151 @@ const MASTER_ISSUERS = [
         "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
         "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
         "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 95.2,
+        "ytm": 8.25,
+        "spread_bp": 356,
+        "net_leverage": 2.0,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 96.6,
+        "ytm": 7.85,
+        "spread_bp": 336,
+        "net_leverage": 1.9,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 97.9,
+        "ytm": 7.5,
+        "spread_bp": 319,
+        "net_leverage": 1.8,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 98.6,
+        "ytm": 7.2,
+        "spread_bp": 299,
+        "net_leverage": 1.7,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 99.0,
+        "ytm": 7.05,
+        "spread_bp": 294,
+        "net_leverage": 1.67,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 99.7,
+        "ytm": 6.8,
+        "spread_bp": 279,
+        "net_leverage": 1.6,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 100.0,
+        "ytm": 6.7,
+        "spread_bp": 274,
+        "net_leverage": 1.55,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 100.2,
+        "ytm": 6.65,
+        "spread_bp": 271,
+        "net_leverage": 1.53,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 276,
+        "net_leverage": 1.57,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "Ba2 / BB+",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 282,
+        "net_leverage": 1.63,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "Ba2 / BB+",
+        "price": 99.4,
+        "ytm": 6.9,
+        "spread_bp": 285,
+        "net_leverage": 1.65,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -30997,6 +38538,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 95.3,
+        "ytm": 7.8,
+        "spread_bp": 194,
+        "net_leverage": 2.69,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 96.7,
+        "ytm": 7.4,
+        "spread_bp": 183,
+        "net_leverage": 2.59,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 98.0,
+        "ytm": 7.05,
+        "spread_bp": 174,
+        "net_leverage": 2.49,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 98.7,
+        "ytm": 6.75,
+        "spread_bp": 163,
+        "net_leverage": 2.39,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 99.1,
+        "ytm": 6.6,
+        "spread_bp": 160,
+        "net_leverage": 2.36,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 99.8,
+        "ytm": 6.35,
+        "spread_bp": 152,
+        "net_leverage": 2.29,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 100.1,
+        "ytm": 6.25,
+        "spread_bp": 149,
+        "net_leverage": 2.24,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 100.3,
+        "ytm": 6.2,
+        "spread_bp": 147,
+        "net_leverage": 2.22,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 99.9,
+        "ytm": 6.3,
+        "spread_bp": 150,
+        "net_leverage": 2.26,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB- / Baa3",
+        "price": 99.6,
+        "ytm": 6.4,
+        "spread_bp": 153,
+        "net_leverage": 2.32,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB- / Baa3",
+        "price": 99.5,
+        "ytm": 6.45,
+        "spread_bp": 155,
+        "net_leverage": 2.34,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -31565,6 +39251,151 @@ const MASTER_ISSUERS = [
         "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
         "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
         "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 93.6,
+        "ytm": 6.35,
+        "spread_bp": 119,
+        "net_leverage": 1.45,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 95.0,
+        "ytm": 5.95,
+        "spread_bp": 112,
+        "net_leverage": 1.35,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 96.3,
+        "ytm": 5.6,
+        "spread_bp": 106,
+        "net_leverage": 1.25,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 97.0,
+        "ytm": 5.3,
+        "spread_bp": 100,
+        "net_leverage": 1.15,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 97.4,
+        "ytm": 5.15,
+        "spread_bp": 98,
+        "net_leverage": 1.12,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 98.1,
+        "ytm": 4.9,
+        "spread_bp": 93,
+        "net_leverage": 1.05,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 98.4,
+        "ytm": 4.8,
+        "spread_bp": 91,
+        "net_leverage": 1.0,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 98.6,
+        "ytm": 4.75,
+        "spread_bp": 90,
+        "net_leverage": 0.98,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 98.2,
+        "ytm": 4.85,
+        "spread_bp": 92,
+        "net_leverage": 1.02,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 97.9,
+        "ytm": 4.95,
+        "spread_bp": 94,
+        "net_leverage": 1.08,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A2 / A-",
+        "price": 97.8,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "net_leverage": 1.1,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -32143,6 +39974,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 95.3,
+        "ytm": 7.25,
+        "spread_bp": 231,
+        "net_leverage": 2.15,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 96.7,
+        "ytm": 6.85,
+        "spread_bp": 218,
+        "net_leverage": 2.05,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 98.0,
+        "ytm": 6.5,
+        "spread_bp": 207,
+        "net_leverage": 1.95,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 98.7,
+        "ytm": 6.2,
+        "spread_bp": 194,
+        "net_leverage": 1.85,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 99.1,
+        "ytm": 6.05,
+        "spread_bp": 191,
+        "net_leverage": 1.82,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 99.8,
+        "ytm": 5.8,
+        "spread_bp": 181,
+        "net_leverage": 1.75,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 100.1,
+        "ytm": 5.7,
+        "spread_bp": 178,
+        "net_leverage": 1.7,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 100.3,
+        "ytm": 5.65,
+        "spread_bp": 176,
+        "net_leverage": 1.68,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 99.9,
+        "ytm": 5.75,
+        "spread_bp": 179,
+        "net_leverage": 1.72,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB+ / BBB-",
+        "price": 99.6,
+        "ytm": 5.85,
+        "spread_bp": 183,
+        "net_leverage": 1.78,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB+ / BBB-",
+        "price": 99.5,
+        "ytm": 5.9,
+        "spread_bp": 185,
+        "net_leverage": 1.8,
+        "ebitda": 4600.0,
+        "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -32720,6 +40696,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 94.6,
+        "ytm": 6.4,
+        "spread_bp": 125,
+        "net_leverage": 1.3,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 96.0,
+        "ytm": 6.0,
+        "spread_bp": 118,
+        "net_leverage": 1.2,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 97.3,
+        "ytm": 5.65,
+        "spread_bp": 112,
+        "net_leverage": 1.1,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 98.0,
+        "ytm": 5.35,
+        "spread_bp": 105,
+        "net_leverage": 1.0,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 98.4,
+        "ytm": 5.2,
+        "spread_bp": 103,
+        "net_leverage": 0.97,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 99.1,
+        "ytm": 4.95,
+        "spread_bp": 98,
+        "net_leverage": 0.9,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 99.4,
+        "ytm": 4.85,
+        "spread_bp": 96,
+        "net_leverage": 0.85,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 99.6,
+        "ytm": 4.8,
+        "spread_bp": 95,
+        "net_leverage": 0.83,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 99.2,
+        "ytm": 4.9,
+        "spread_bp": 97,
+        "net_leverage": 0.87,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB+ / A3",
+        "price": 98.9,
+        "ytm": 5.0,
+        "spread_bp": 99,
+        "net_leverage": 0.93,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB+ / A3",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 0.95,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -33047,7 +41168,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 102.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Ultra-low-cost carrier based at Sabiha G\u00f6k\u00e7en; highest EBITDAR margin among European low-cost carriers."
+      "thesis": "Ultra-low-cost carrier based at Sabiha Gökçen; highest EBITDAR margin among European low-cost carriers."
     },
     "annotations": [
       {
@@ -33291,6 +41412,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 99.3,
+        "ytm": 9.0,
+        "spread_bp": 450,
+        "net_leverage": 2.45,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 100.7,
+        "ytm": 8.6,
+        "spread_bp": 425,
+        "net_leverage": 2.35,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 102.0,
+        "ytm": 8.25,
+        "spread_bp": 403,
+        "net_leverage": 2.25,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 102.7,
+        "ytm": 7.95,
+        "spread_bp": 378,
+        "net_leverage": 2.15,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 103.1,
+        "ytm": 7.8,
+        "spread_bp": 371,
+        "net_leverage": 2.12,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 103.8,
+        "ytm": 7.55,
+        "spread_bp": 353,
+        "net_leverage": 2.05,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 104.1,
+        "ytm": 7.45,
+        "spread_bp": 346,
+        "net_leverage": 2.0,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 104.3,
+        "ytm": 7.4,
+        "spread_bp": 342,
+        "net_leverage": 1.98,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 103.9,
+        "ytm": 7.5,
+        "spread_bp": 349,
+        "net_leverage": 2.02,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B+ / BB-",
+        "price": 103.6,
+        "ytm": 7.6,
+        "spread_bp": 356,
+        "net_leverage": 2.08,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B+ / BB-",
+        "price": 103.5,
+        "ytm": 7.65,
+        "spread_bp": 360,
+        "net_leverage": 2.1,
+        "ebitda": 950.0,
+        "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -33868,6 +42134,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB+",
+        "price": 95.0,
+        "ytm": 6.65,
+        "spread_bp": 156,
+        "net_leverage": 2.2,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB+",
+        "price": 96.4,
+        "ytm": 6.25,
+        "spread_bp": 148,
+        "net_leverage": 2.1,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB+",
+        "price": 97.7,
+        "ytm": 5.9,
+        "spread_bp": 140,
+        "net_leverage": 2.0,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB+",
+        "price": 98.4,
+        "ytm": 5.6,
+        "spread_bp": 131,
+        "net_leverage": 1.9,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB+",
+        "price": 98.8,
+        "ytm": 5.45,
+        "spread_bp": 129,
+        "net_leverage": 1.87,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB+",
+        "price": 99.5,
+        "ytm": 5.2,
+        "spread_bp": 122,
+        "net_leverage": 1.8,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB+",
+        "price": 99.8,
+        "ytm": 5.1,
+        "spread_bp": 120,
+        "net_leverage": 1.75,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB+",
+        "price": 100.0,
+        "ytm": 5.05,
+        "spread_bp": 119,
+        "net_leverage": 1.73,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB+",
+        "price": 99.6,
+        "ytm": 5.15,
+        "spread_bp": 121,
+        "net_leverage": 1.77,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB+",
+        "price": 99.3,
+        "ytm": 5.25,
+        "spread_bp": 124,
+        "net_leverage": 1.83,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB+",
+        "price": 99.2,
+        "ytm": 5.3,
+        "spread_bp": 125,
+        "net_leverage": 1.85,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -34442,6 +42853,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 93.0,
+        "ytm": 7.3,
+        "spread_bp": 238,
+        "net_leverage": 1.55,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 94.4,
+        "ytm": 6.9,
+        "spread_bp": 224,
+        "net_leverage": 1.45,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 95.7,
+        "ytm": 6.55,
+        "spread_bp": 213,
+        "net_leverage": 1.35,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 96.4,
+        "ytm": 6.25,
+        "spread_bp": 200,
+        "net_leverage": 1.25,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 96.8,
+        "ytm": 6.1,
+        "spread_bp": 196,
+        "net_leverage": 1.22,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 97.5,
+        "ytm": 5.85,
+        "spread_bp": 186,
+        "net_leverage": 1.15,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 97.8,
+        "ytm": 5.75,
+        "spread_bp": 182,
+        "net_leverage": 1.1,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.0,
+        "ytm": 5.7,
+        "spread_bp": 180,
+        "net_leverage": 1.08,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 97.6,
+        "ytm": 5.8,
+        "spread_bp": 184,
+        "net_leverage": 1.12,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 97.3,
+        "ytm": 5.9,
+        "spread_bp": 188,
+        "net_leverage": 1.18,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB-",
+        "price": 97.2,
+        "ytm": 5.95,
+        "spread_bp": 190,
+        "net_leverage": 1.2,
+        "ebitda": 850.0,
+        "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -35068,6 +43624,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 95.3,
+        "ytm": 6.35,
+        "spread_bp": 119,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 96.7,
+        "ytm": 5.95,
+        "spread_bp": 112,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 98.0,
+        "ytm": 5.6,
+        "spread_bp": 106,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 98.7,
+        "ytm": 5.3,
+        "spread_bp": 100,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 99.1,
+        "ytm": 5.15,
+        "spread_bp": 98,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 99.8,
+        "ytm": 4.9,
+        "spread_bp": 93,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 100.1,
+        "ytm": 4.8,
+        "spread_bp": 91,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 100.3,
+        "ytm": 4.75,
+        "spread_bp": 90,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 99.9,
+        "ytm": 4.85,
+        "spread_bp": 92,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "Aa3 / A+",
+        "price": 99.6,
+        "ytm": 4.95,
+        "spread_bp": 94,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "Aa3 / A+",
+        "price": 99.5,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -35692,6 +44393,151 @@ const MASTER_ISSUERS = [
         "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A--",
+        "price": 96.6,
+        "ytm": 6.1,
+        "spread_bp": 69,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A--",
+        "price": 98.0,
+        "ytm": 5.7,
+        "spread_bp": 65,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 99.3,
+        "ytm": 5.35,
+        "spread_bp": 62,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 100.0,
+        "ytm": 5.05,
+        "spread_bp": 58,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 100.4,
+        "ytm": 4.9,
+        "spread_bp": 57,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 101.1,
+        "ytm": 4.65,
+        "spread_bp": 54,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 101.4,
+        "ytm": 4.55,
+        "spread_bp": 53,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 101.6,
+        "ytm": 4.5,
+        "spread_bp": 52,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 101.2,
+        "ytm": 4.6,
+        "spread_bp": 53,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 100.9,
+        "ytm": 4.7,
+        "spread_bp": 54,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A1 / A-",
+        "price": 100.8,
+        "ytm": 4.75,
+        "spread_bp": 55,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -36318,6 +45164,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 95.4,
+        "ytm": 6.5,
+        "spread_bp": 119,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 96.8,
+        "ytm": 6.1,
+        "spread_bp": 112,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 98.1,
+        "ytm": 5.75,
+        "spread_bp": 106,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 98.8,
+        "ytm": 5.45,
+        "spread_bp": 100,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 99.2,
+        "ytm": 5.3,
+        "spread_bp": 98,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 99.9,
+        "ytm": 5.05,
+        "spread_bp": 93,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 100.2,
+        "ytm": 4.95,
+        "spread_bp": 91,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 100.4,
+        "ytm": 4.9,
+        "spread_bp": 90,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 100.0,
+        "ytm": 5.0,
+        "spread_bp": 92,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A2 / A",
+        "price": 99.7,
+        "ytm": 5.1,
+        "spread_bp": 94,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A2 / A",
+        "price": 99.6,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -36895,6 +45886,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 94.3,
+        "ytm": 7.1,
+        "spread_bp": 212,
+        "net_leverage": 1.0,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 95.7,
+        "ytm": 6.7,
+        "spread_bp": 201,
+        "net_leverage": 0.9,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 97.0,
+        "ytm": 6.35,
+        "spread_bp": 190,
+        "net_leverage": 0.8,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 97.7,
+        "ytm": 6.05,
+        "spread_bp": 178,
+        "net_leverage": 0.7,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.1,
+        "ytm": 5.9,
+        "spread_bp": 175,
+        "net_leverage": 0.67,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.8,
+        "ytm": 5.65,
+        "spread_bp": 167,
+        "net_leverage": 0.6,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 99.1,
+        "ytm": 5.55,
+        "spread_bp": 163,
+        "net_leverage": 0.55,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 99.3,
+        "ytm": 5.5,
+        "spread_bp": 162,
+        "net_leverage": 0.53,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.9,
+        "ytm": 5.6,
+        "spread_bp": 165,
+        "net_leverage": 0.57,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BBB-",
+        "price": 98.6,
+        "ytm": 5.7,
+        "spread_bp": 168,
+        "net_leverage": 0.63,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BBB-",
+        "price": 98.5,
+        "ytm": 5.75,
+        "spread_bp": 170,
+        "net_leverage": 0.65,
+        "ebitda": 980.0,
+        "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -37470,6 +46606,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A-+",
+        "price": 94.6,
+        "ytm": 6.4,
+        "spread_bp": 125,
+        "net_leverage": 1.5,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A-+",
+        "price": 96.0,
+        "ytm": 6.0,
+        "spread_bp": 118,
+        "net_leverage": 1.4,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 97.3,
+        "ytm": 5.65,
+        "spread_bp": 112,
+        "net_leverage": 1.3,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 98.0,
+        "ytm": 5.35,
+        "spread_bp": 105,
+        "net_leverage": 1.2,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 98.4,
+        "ytm": 5.2,
+        "spread_bp": 103,
+        "net_leverage": 1.17,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 99.1,
+        "ytm": 4.95,
+        "spread_bp": 98,
+        "net_leverage": 1.1,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 99.4,
+        "ytm": 4.85,
+        "spread_bp": 96,
+        "net_leverage": 1.05,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 99.6,
+        "ytm": 4.8,
+        "spread_bp": 95,
+        "net_leverage": 1.03,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 99.2,
+        "ytm": 4.9,
+        "spread_bp": 97,
+        "net_leverage": 1.07,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 98.9,
+        "ytm": 5.0,
+        "spread_bp": 99,
+        "net_leverage": 1.13,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A1 / A+",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 1.15,
+        "ebitda": 5800.0,
+        "fcf": 2900.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -38040,6 +47321,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / B3 Implied",
+        "price": 93.3,
+        "ytm": 11.75,
+        "spread_bp": 750,
+        "net_leverage": 1.89,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / B3 Implied",
+        "price": 94.7,
+        "ytm": 11.35,
+        "spread_bp": 708,
+        "net_leverage": 1.79,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B / B2 Implied",
+        "price": 96.0,
+        "ytm": 11.0,
+        "spread_bp": 672,
+        "net_leverage": 1.69,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B / B2 Implied",
+        "price": 96.7,
+        "ytm": 10.7,
+        "spread_bp": 630,
+        "net_leverage": 1.59,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B / B2 Implied",
+        "price": 97.1,
+        "ytm": 10.55,
+        "spread_bp": 618,
+        "net_leverage": 1.56,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B / B2 Implied",
+        "price": 97.8,
+        "ytm": 10.3,
+        "spread_bp": 588,
+        "net_leverage": 1.49,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B / B2 Implied",
+        "price": 98.1,
+        "ytm": 10.2,
+        "spread_bp": 576,
+        "net_leverage": 1.44,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B / B2 Implied",
+        "price": 98.3,
+        "ytm": 10.15,
+        "spread_bp": 570,
+        "net_leverage": 1.42,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B / B2 Implied",
+        "price": 97.9,
+        "ytm": 10.25,
+        "spread_bp": 582,
+        "net_leverage": 1.46,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B / B2 Implied",
+        "price": 97.6,
+        "ytm": 10.35,
+        "spread_bp": 594,
+        "net_leverage": 1.52,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B / B2 Implied",
+        "price": 97.5,
+        "ytm": 10.4,
+        "spread_bp": 600,
+        "net_leverage": 1.54,
+        "ebitda": 78.0,
+        "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -38618,6 +48044,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 94.2,
+        "ytm": 9.2,
+        "spread_bp": 456,
+        "net_leverage": 2.39,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 95.6,
+        "ytm": 8.8,
+        "spread_bp": 431,
+        "net_leverage": 2.29,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 96.9,
+        "ytm": 8.45,
+        "spread_bp": 409,
+        "net_leverage": 2.19,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 97.6,
+        "ytm": 8.15,
+        "spread_bp": 383,
+        "net_leverage": 2.09,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 98.0,
+        "ytm": 8.0,
+        "spread_bp": 376,
+        "net_leverage": 2.06,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 98.7,
+        "ytm": 7.75,
+        "spread_bp": 358,
+        "net_leverage": 1.99,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 99.0,
+        "ytm": 7.65,
+        "spread_bp": 350,
+        "net_leverage": 1.94,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 99.2,
+        "ytm": 7.6,
+        "spread_bp": 347,
+        "net_leverage": 1.92,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 98.8,
+        "ytm": 7.7,
+        "spread_bp": 354,
+        "net_leverage": 1.96,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB+ / Ba1",
+        "price": 98.5,
+        "ytm": 7.8,
+        "spread_bp": 361,
+        "net_leverage": 2.02,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB+ / Ba1",
+        "price": 98.4,
+        "ytm": 7.85,
+        "spread_bp": 365,
+        "net_leverage": 2.04,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -39194,12 +48765,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 95.0,
+        "ytm": 6.5,
+        "spread_bp": 138,
+        "net_leverage": 3.55,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A-",
+        "price": 96.4,
+        "ytm": 6.1,
+        "spread_bp": 130,
+        "net_leverage": 3.45,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 97.7,
+        "ytm": 5.75,
+        "spread_bp": 123,
+        "net_leverage": 3.35,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 98.4,
+        "ytm": 5.45,
+        "spread_bp": 116,
+        "net_leverage": 3.25,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 98.8,
+        "ytm": 5.3,
+        "spread_bp": 113,
+        "net_leverage": 3.22,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 99.5,
+        "ytm": 5.05,
+        "spread_bp": 108,
+        "net_leverage": 3.15,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 99.8,
+        "ytm": 4.95,
+        "spread_bp": 106,
+        "net_leverage": 3.1,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 100.0,
+        "ytm": 4.9,
+        "spread_bp": 104,
+        "net_leverage": 3.08,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 99.6,
+        "ytm": 5.0,
+        "spread_bp": 107,
+        "net_leverage": 3.12,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A1 / A",
+        "price": 99.3,
+        "ytm": 5.1,
+        "spread_bp": 109,
+        "net_leverage": 3.18,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A1 / A",
+        "price": 99.2,
+        "ytm": 5.15,
+        "spread_bp": 110,
+        "net_leverage": 3.2,
+        "ebitda": 8400.0,
+        "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "sisecam",
-      "name": "\u015ei\u015fecam",
+      "name": "Şişecam",
       "ticker": "SISE",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -39525,7 +49241,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "sisecam",
-        "issuer_name": "\u015ei\u015fecam",
+        "issuer_name": "Şişecam",
         "sector": "Materials",
         "topic": "Global Cost Curve Advantage",
         "source": "Cognitive Credit / CRU Group",
@@ -39533,7 +49249,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "sisecam",
-        "issuer_name": "\u015ei\u015fecam",
+        "issuer_name": "Şişecam",
         "sector": "Materials",
         "topic": "Hard-Currency Export Share",
         "source": "Audited Financial Statements",
@@ -39541,7 +49257,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "sisecam",
-        "issuer_name": "\u015ei\u015fecam",
+        "issuer_name": "Şişecam",
         "sector": "Materials",
         "topic": "Strategic Sovereign Resource Moat",
         "source": "Credit Rating Agency Memo",
@@ -39549,7 +49265,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "source_deck": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -39696,7 +49412,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$5857.5M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $5940.0M (+8.0% YoY growth). With current run-rate at $5857.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -39707,7 +49423,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1188.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $1210.0M (20.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -39718,7 +49434,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "2.18x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 1.57x buffer below covenant limit.",
-        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.18x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -39729,7 +49445,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$371.9M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $404.2M (Maximum growth and sustaining envelope). Current commitments stand at $371.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -39740,7 +49456,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -39768,6 +49484,151 @@ const MASTER_ISSUERS = [
         "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 95.3,
+        "ytm": 8.2,
+        "spread_bp": 306,
+        "net_leverage": 2.53,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 96.7,
+        "ytm": 7.8,
+        "spread_bp": 289,
+        "net_leverage": 2.43,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.0,
+        "ytm": 7.45,
+        "spread_bp": 274,
+        "net_leverage": 2.33,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.7,
+        "ytm": 7.15,
+        "spread_bp": 257,
+        "net_leverage": 2.23,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.1,
+        "ytm": 7.0,
+        "spread_bp": 252,
+        "net_leverage": 2.2,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 240,
+        "net_leverage": 2.13,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.1,
+        "ytm": 6.65,
+        "spread_bp": 235,
+        "net_leverage": 2.08,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.3,
+        "ytm": 6.6,
+        "spread_bp": 233,
+        "net_leverage": 2.06,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.9,
+        "ytm": 6.7,
+        "spread_bp": 238,
+        "net_leverage": 2.1,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.6,
+        "ytm": 6.8,
+        "spread_bp": 243,
+        "net_leverage": 2.16,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 245,
+        "net_leverage": 2.18,
+        "ebitda": 1100.0,
+        "fcf": 550.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -40394,6 +50255,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A--",
+        "price": 95.9,
+        "ytm": 6.3,
+        "spread_bp": 94,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A--",
+        "price": 97.3,
+        "ytm": 5.9,
+        "spread_bp": 88,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 98.6,
+        "ytm": 5.55,
+        "spread_bp": 84,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 99.3,
+        "ytm": 5.25,
+        "spread_bp": 79,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 99.7,
+        "ytm": 5.1,
+        "spread_bp": 77,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 100.4,
+        "ytm": 4.85,
+        "spread_bp": 74,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 100.7,
+        "ytm": 4.75,
+        "spread_bp": 72,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 100.9,
+        "ytm": 4.7,
+        "spread_bp": 71,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 100.5,
+        "ytm": 4.8,
+        "spread_bp": 73,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A1 / A-",
+        "price": 100.2,
+        "ytm": 4.9,
+        "spread_bp": 74,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A1 / A-",
+        "price": 100.1,
+        "ytm": 4.95,
+        "spread_bp": 75,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -40966,6 +50972,151 @@ const MASTER_ISSUERS = [
         "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
         "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
         "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 97.8,
+        "ytm": 9.3,
+        "spread_bp": 488,
+        "net_leverage": 1.18,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 99.2,
+        "ytm": 8.9,
+        "spread_bp": 460,
+        "net_leverage": 1.08,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 100.5,
+        "ytm": 8.55,
+        "spread_bp": 437,
+        "net_leverage": 0.98,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 101.2,
+        "ytm": 8.25,
+        "spread_bp": 410,
+        "net_leverage": 0.88,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 101.6,
+        "ytm": 8.1,
+        "spread_bp": 402,
+        "net_leverage": 0.85,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 102.3,
+        "ytm": 7.85,
+        "spread_bp": 382,
+        "net_leverage": 0.78,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 102.6,
+        "ytm": 7.75,
+        "spread_bp": 374,
+        "net_leverage": 0.73,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 102.8,
+        "ytm": 7.7,
+        "spread_bp": 370,
+        "net_leverage": 0.71,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 102.4,
+        "ytm": 7.8,
+        "spread_bp": 378,
+        "net_leverage": 0.75,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / Ba3",
+        "price": 102.1,
+        "ytm": 7.9,
+        "spread_bp": 386,
+        "net_leverage": 0.81,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / Ba3",
+        "price": 102.0,
+        "ytm": 7.95,
+        "spread_bp": 390,
+        "net_leverage": 0.83,
+        "ebitda": 480.0,
+        "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -41543,6 +51694,151 @@ const MASTER_ISSUERS = [
         "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 93.0,
+        "ytm": 10.5,
+        "spread_bp": 594,
+        "net_leverage": 1.64,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 94.4,
+        "ytm": 10.1,
+        "spread_bp": 560,
+        "net_leverage": 1.54,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 95.7,
+        "ytm": 9.75,
+        "spread_bp": 532,
+        "net_leverage": 1.44,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 96.4,
+        "ytm": 9.45,
+        "spread_bp": 499,
+        "net_leverage": 1.34,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 96.8,
+        "ytm": 9.3,
+        "spread_bp": 489,
+        "net_leverage": 1.31,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 97.5,
+        "ytm": 9.05,
+        "spread_bp": 466,
+        "net_leverage": 1.24,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 97.8,
+        "ytm": 8.95,
+        "spread_bp": 456,
+        "net_leverage": 1.19,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 98.0,
+        "ytm": 8.9,
+        "spread_bp": 451,
+        "net_leverage": 1.17,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 97.6,
+        "ytm": 9.0,
+        "spread_bp": 461,
+        "net_leverage": 1.21,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B- / B3",
+        "price": 97.3,
+        "ytm": 9.1,
+        "spread_bp": 470,
+        "net_leverage": 1.27,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B- / B3",
+        "price": 97.2,
+        "ytm": 9.15,
+        "spread_bp": 475,
+        "net_leverage": 1.29,
+        "ebitda": 4800.0,
+        "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -42169,6 +52465,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 93.8,
+        "ytm": 8.2,
+        "spread_bp": 350,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 95.2,
+        "ytm": 7.8,
+        "spread_bp": 330,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 96.5,
+        "ytm": 7.45,
+        "spread_bp": 314,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 97.2,
+        "ytm": 7.15,
+        "spread_bp": 294,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 97.6,
+        "ytm": 7.0,
+        "spread_bp": 288,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 98.3,
+        "ytm": 6.75,
+        "spread_bp": 274,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 98.6,
+        "ytm": 6.65,
+        "spread_bp": 269,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 98.8,
+        "ytm": 6.6,
+        "spread_bp": 266,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 98.4,
+        "ytm": 6.7,
+        "spread_bp": 272,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "Ba2 / BB-",
+        "price": 98.1,
+        "ytm": 6.8,
+        "spread_bp": 277,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "Ba2 / BB-",
+        "price": 98.0,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -42737,6 +53178,151 @@ const MASTER_ISSUERS = [
         "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
         "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
         "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "A2 / A-+",
+        "price": 93.3,
+        "ytm": 6.2,
+        "spread_bp": 100,
+        "net_leverage": 1.0,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "A2 / A-+",
+        "price": 94.7,
+        "ytm": 5.8,
+        "spread_bp": 94,
+        "net_leverage": 0.9,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 96.0,
+        "ytm": 5.45,
+        "spread_bp": 90,
+        "net_leverage": 0.8,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 96.7,
+        "ytm": 5.15,
+        "spread_bp": 84,
+        "net_leverage": 0.7,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 97.1,
+        "ytm": 5.0,
+        "spread_bp": 82,
+        "net_leverage": 0.67,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 97.8,
+        "ytm": 4.75,
+        "spread_bp": 78,
+        "net_leverage": 0.6,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 98.1,
+        "ytm": 4.65,
+        "spread_bp": 77,
+        "net_leverage": 0.55,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 98.3,
+        "ytm": 4.6,
+        "spread_bp": 76,
+        "net_leverage": 0.53,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 97.9,
+        "ytm": 4.7,
+        "spread_bp": 78,
+        "net_leverage": 0.57,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "A1 / A+",
+        "price": 97.6,
+        "ytm": 4.8,
+        "spread_bp": 79,
+        "net_leverage": 0.63,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "A1 / A+",
+        "price": 97.5,
+        "ytm": 4.85,
+        "spread_bp": 80,
+        "net_leverage": 0.65,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -43314,6 +53900,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 94.3,
+        "ytm": 6.25,
+        "spread_bp": 106,
+        "net_leverage": 2.2,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 95.7,
+        "ytm": 5.85,
+        "spread_bp": 100,
+        "net_leverage": 2.1,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 97.0,
+        "ytm": 5.5,
+        "spread_bp": 95,
+        "net_leverage": 2.0,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 97.7,
+        "ytm": 5.2,
+        "spread_bp": 89,
+        "net_leverage": 1.9,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 98.1,
+        "ytm": 5.05,
+        "spread_bp": 88,
+        "net_leverage": 1.87,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 98.8,
+        "ytm": 4.8,
+        "spread_bp": 83,
+        "net_leverage": 1.8,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 99.1,
+        "ytm": 4.7,
+        "spread_bp": 82,
+        "net_leverage": 1.75,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 99.3,
+        "ytm": 4.65,
+        "spread_bp": 81,
+        "net_leverage": 1.73,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 98.9,
+        "ytm": 4.75,
+        "spread_bp": 82,
+        "net_leverage": 1.77,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "Aa3 / AA-",
+        "price": 98.6,
+        "ytm": 4.85,
+        "spread_bp": 84,
+        "net_leverage": 1.83,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "Aa3 / AA-",
+        "price": 98.5,
+        "ytm": 4.9,
+        "spread_bp": 85,
+        "net_leverage": 1.85,
+        "ebitda": 5600.0,
+        "fcf": 2800.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -43889,6 +54620,151 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 93.8,
+        "ytm": 11.2,
+        "spread_bp": 688,
+        "net_leverage": 0.73,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 95.2,
+        "ytm": 10.8,
+        "spread_bp": 649,
+        "net_leverage": 0.63,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 96.5,
+        "ytm": 10.45,
+        "spread_bp": 616,
+        "net_leverage": 0.53,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 97.2,
+        "ytm": 10.15,
+        "spread_bp": 578,
+        "net_leverage": 0.43,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 97.6,
+        "ytm": 10.0,
+        "spread_bp": 566,
+        "net_leverage": 0.4,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.3,
+        "ytm": 9.75,
+        "spread_bp": 539,
+        "net_leverage": 0.33,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.6,
+        "ytm": 9.65,
+        "spread_bp": 528,
+        "net_leverage": 0.28,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.8,
+        "ytm": 9.6,
+        "spread_bp": 522,
+        "net_leverage": 0.26,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.4,
+        "ytm": 9.7,
+        "spread_bp": 534,
+        "net_leverage": 0.3,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.1,
+        "ytm": 9.8,
+        "spread_bp": 544,
+        "net_leverage": 0.36,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.0,
+        "ytm": 9.85,
+        "spread_bp": 550,
+        "net_leverage": 0.38,
+        "ebitda": 185.0,
+        "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
@@ -44461,12 +55337,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
         "deduced_from": "Debt schedule notes and capital management disclosures."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 95.0,
+        "ytm": 8.8,
+        "spread_bp": 425,
+        "net_leverage": 2.3,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 96.4,
+        "ytm": 8.4,
+        "spread_bp": 401,
+        "net_leverage": 2.2,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 97.7,
+        "ytm": 8.05,
+        "spread_bp": 381,
+        "net_leverage": 2.1,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 98.4,
+        "ytm": 7.75,
+        "spread_bp": 357,
+        "net_leverage": 2.0,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 98.8,
+        "ytm": 7.6,
+        "spread_bp": 350,
+        "net_leverage": 1.97,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 99.5,
+        "ytm": 7.35,
+        "spread_bp": 333,
+        "net_leverage": 1.9,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 99.8,
+        "ytm": 7.25,
+        "spread_bp": 326,
+        "net_leverage": 1.85,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 100.0,
+        "ytm": 7.2,
+        "spread_bp": 323,
+        "net_leverage": 1.83,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 99.6,
+        "ytm": 7.3,
+        "spread_bp": 330,
+        "net_leverage": 1.87,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / BB-",
+        "price": 99.3,
+        "ytm": 7.4,
+        "spread_bp": 337,
+        "net_leverage": 1.93,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / BB-",
+        "price": 99.2,
+        "ytm": 7.45,
+        "spread_bp": 340,
+        "net_leverage": 1.95,
+        "ebitda": 4400.0,
+        "fcf": 2200.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "ttkom",
-      "name": "T\u00fcrk Telekom",
+      "name": "Türk Telekom",
       "ticker": "TTKOM",
       "country": "Turkey",
       "region": "Turkey",
@@ -44793,7 +55814,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "ttkom",
-        "issuer_name": "T\u00fcrk Telekom",
+        "issuer_name": "Türk Telekom",
         "sector": "Technology",
         "topic": "Master Lease Agreements & Indexation",
         "source": "Cognitive Credit / Arqaam",
@@ -44801,7 +55822,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "ttkom",
-        "issuer_name": "T\u00fcrk Telekom",
+        "issuer_name": "Türk Telekom",
         "sector": "Technology",
         "topic": "Tenancy Ratio & Organic Leverage",
         "source": "Company Disclosures",
@@ -44809,7 +55830,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "ttkom",
-        "issuer_name": "T\u00fcrk Telekom",
+        "issuer_name": "Türk Telekom",
         "sector": "Technology",
         "topic": "Contracted Revenue Backlog",
         "source": "Investor Presentations",
@@ -44817,7 +55838,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "source_deck": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
@@ -44964,7 +55985,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$3834.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $3888.0M (+8.0% YoY growth). With current run-rate at $3834.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -44975,7 +55996,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1458.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $1485.0M (38.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -44986,7 +56007,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.45x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit.",
-        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.45x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -44997,7 +56018,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$456.4M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $496.1M (Maximum growth and sustaining envelope). Current commitments stand at $456.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -45008,7 +56029,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -45029,6 +56050,151 @@ const MASTER_ISSUERS = [
         "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
         "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
         "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 95.6,
+        "ytm": 8.5,
+        "spread_bp": 388,
+        "net_leverage": 1.8,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 97.0,
+        "ytm": 8.1,
+        "spread_bp": 366,
+        "net_leverage": 1.7,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 98.3,
+        "ytm": 7.75,
+        "spread_bp": 347,
+        "net_leverage": 1.6,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 99.0,
+        "ytm": 7.45,
+        "spread_bp": 326,
+        "net_leverage": 1.5,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 99.4,
+        "ytm": 7.3,
+        "spread_bp": 319,
+        "net_leverage": 1.47,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 100.1,
+        "ytm": 7.05,
+        "spread_bp": 304,
+        "net_leverage": 1.4,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 100.4,
+        "ytm": 6.95,
+        "spread_bp": 298,
+        "net_leverage": 1.35,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 100.6,
+        "ytm": 6.9,
+        "spread_bp": 294,
+        "net_leverage": 1.33,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 100.2,
+        "ytm": 7.0,
+        "spread_bp": 301,
+        "net_leverage": 1.37,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 99.9,
+        "ytm": 7.1,
+        "spread_bp": 307,
+        "net_leverage": 1.43,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB / BB-",
+        "price": 99.8,
+        "ytm": 7.15,
+        "spread_bp": 310,
+        "net_leverage": 1.45,
+        "ebitda": 1350.0,
+        "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -45607,12 +56773,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 82.3,
+        "ytm": 15.15,
+        "spread_bp": 1181,
+        "net_leverage": 2.65,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 83.7,
+        "ytm": 14.75,
+        "spread_bp": 1115,
+        "net_leverage": 2.55,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 85.0,
+        "ytm": 14.4,
+        "spread_bp": 1058,
+        "net_leverage": 2.45,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 85.7,
+        "ytm": 14.1,
+        "spread_bp": 992,
+        "net_leverage": 2.35,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 86.1,
+        "ytm": 13.95,
+        "spread_bp": 973,
+        "net_leverage": 2.32,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 86.8,
+        "ytm": 13.7,
+        "spread_bp": 926,
+        "net_leverage": 2.25,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 87.1,
+        "ytm": 13.6,
+        "spread_bp": 907,
+        "net_leverage": 2.2,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 87.3,
+        "ytm": 13.55,
+        "spread_bp": 898,
+        "net_leverage": 2.18,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 86.9,
+        "ytm": 13.65,
+        "spread_bp": 917,
+        "net_leverage": 2.22,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B- / Caa1",
+        "price": 86.6,
+        "ytm": 13.75,
+        "spread_bp": 936,
+        "net_leverage": 2.28,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B- / Caa1",
+        "price": 86.5,
+        "ytm": 13.8,
+        "spread_bp": 945,
+        "net_leverage": 2.3,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "tupras",
-      "name": "T\u00fcpra\u015f (Turkish Petroleum)",
+      "name": "Tüpraş (Turkish Petroleum)",
       "ticker": "TUPRAS",
       "country": "Turkey",
       "region": "Turkey",
@@ -45935,12 +57246,12 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 101.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Ko\u00e7 Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
+      "thesis": "Koç Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
     },
     "annotations": [
       {
         "issuer_id": "tupras",
-        "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
+        "issuer_name": "Tüpraş (Turkish Petroleum)",
         "sector": "Energy",
         "topic": "Offshore Debt Escrow Routing",
         "source": "Cognitive Credit / Morgan Stanley",
@@ -45948,7 +57259,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "tupras",
-        "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
+        "issuer_name": "Tüpraş (Turkish Petroleum)",
         "sector": "Energy",
         "topic": "Lifting Costs & Break-even Floor",
         "source": "Wood Mackenzie Benchmarking",
@@ -45956,7 +57267,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "tupras",
-        "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
+        "issuer_name": "Tüpraş (Turkish Petroleum)",
         "sector": "Energy",
         "topic": "Commercial Reserve Life (1P/2P)",
         "source": "DeGolyer and MacNaughton / Ryder Scott",
@@ -45964,7 +57275,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "source_deck": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -46111,7 +57422,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$19702.5M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $19980.0M (+8.0% YoY growth). With current run-rate at $19702.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -46122,7 +57433,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1944.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $1980.0M (9.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -46133,7 +57444,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "0.75x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 3.00x buffer below covenant limit.",
-        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 0.75x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -46144,7 +57455,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$608.6M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $661.5M (Maximum growth and sustaining envelope). Current commitments stand at $608.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -46155,7 +57466,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -46184,12 +57495,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
         "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 95.3,
+        "ytm": 8.55,
+        "spread_bp": 394,
+        "net_leverage": 1.1,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 96.7,
+        "ytm": 8.15,
+        "spread_bp": 372,
+        "net_leverage": 1.0,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 98.0,
+        "ytm": 7.8,
+        "spread_bp": 353,
+        "net_leverage": 0.9,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 98.7,
+        "ytm": 7.5,
+        "spread_bp": 331,
+        "net_leverage": 0.8,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 99.1,
+        "ytm": 7.35,
+        "spread_bp": 324,
+        "net_leverage": 0.77,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 99.8,
+        "ytm": 7.1,
+        "spread_bp": 309,
+        "net_leverage": 0.7,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 100.1,
+        "ytm": 7.0,
+        "spread_bp": 302,
+        "net_leverage": 0.65,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 100.3,
+        "ytm": 6.95,
+        "spread_bp": 299,
+        "net_leverage": 0.63,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 99.9,
+        "ytm": 7.05,
+        "spread_bp": 306,
+        "net_leverage": 0.67,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 99.6,
+        "ytm": 7.15,
+        "spread_bp": 312,
+        "net_leverage": 0.73,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB / BB-",
+        "price": 99.5,
+        "ytm": 7.2,
+        "spread_bp": 315,
+        "net_leverage": 0.75,
+        "ebitda": 1800.0,
+        "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "turk_exim",
-      "name": "T\u00fcrk Eximbank",
+      "name": "Türk Eximbank",
       "ticker": "EXCRTU",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -46566,7 +58022,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "turk_exim",
-        "issuer_name": "T\u00fcrk Eximbank",
+        "issuer_name": "Türk Eximbank",
         "sector": "Banks",
         "topic": "NIM & Asset-Liability Repricing",
         "source": "Cognitive Credit / J.P. Morgan",
@@ -46574,7 +58030,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "turk_exim",
-        "issuer_name": "T\u00fcrk Eximbank",
+        "issuer_name": "Türk Eximbank",
         "sector": "Banks",
         "topic": "Prudential Capital & AT1 Instruments",
         "source": "Central Bank / Fitch Ratings",
@@ -46582,7 +58038,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "turk_exim",
-        "issuer_name": "T\u00fcrk Eximbank",
+        "issuer_name": "Türk Eximbank",
         "sector": "Banks",
         "topic": "Asset Quality & Stage 2 Risk",
         "source": "BRSA / Audit Reports",
@@ -46590,7 +58046,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "source_deck": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "reporting_currency": "USD / Local Currency Statutory",
       "management_guidance_targets": {
         "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -46736,7 +58192,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
         "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -46747,7 +58203,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "3.92%",
         "tracking_status": "On Track",
         "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of 3.80% - 4.05%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -46758,7 +58214,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -46769,7 +58225,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -46780,7 +58236,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -46809,12 +58265,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 95.6,
+        "ytm": 8.1,
+        "spread_bp": 269,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 97.0,
+        "ytm": 7.7,
+        "spread_bp": 254,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.3,
+        "ytm": 7.35,
+        "spread_bp": 241,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.0,
+        "ytm": 7.05,
+        "spread_bp": 226,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.4,
+        "ytm": 6.9,
+        "spread_bp": 221,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.1,
+        "ytm": 6.65,
+        "spread_bp": 211,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.4,
+        "ytm": 6.55,
+        "spread_bp": 206,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.6,
+        "ytm": 6.5,
+        "spread_bp": 204,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.2,
+        "ytm": 6.6,
+        "spread_bp": 209,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.9,
+        "ytm": 6.7,
+        "spread_bp": 213,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "turkcell",
-      "name": "Turkcell \u0130leti\u015fim",
+      "name": "Turkcell İletişim",
       "ticker": "TCELL",
       "country": "Turkey",
       "region": "Turkey",
@@ -47141,7 +58742,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "turkcell",
-        "issuer_name": "Turkcell \u0130leti\u015fim",
+        "issuer_name": "Turkcell İletişim",
         "sector": "Technology",
         "topic": "Master Lease Agreements & Indexation",
         "source": "Cognitive Credit / Arqaam",
@@ -47149,7 +58750,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "turkcell",
-        "issuer_name": "Turkcell \u0130leti\u015fim",
+        "issuer_name": "Turkcell İletişim",
         "sector": "Technology",
         "topic": "Tenancy Ratio & Organic Leverage",
         "source": "Company Disclosures",
@@ -47157,7 +58758,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "turkcell",
-        "issuer_name": "Turkcell \u0130leti\u015fim",
+        "issuer_name": "Turkcell İletişim",
         "sector": "Technology",
         "topic": "Contracted Revenue Backlog",
         "source": "Investor Presentations",
@@ -47165,7 +58766,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "source_deck": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
@@ -47312,7 +58913,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$4473.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $4536.0M (+8.0% YoY growth). With current run-rate at $4473.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -47323,7 +58924,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1890.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $1925.0M (42.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -47334,7 +58935,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.15x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 2.60x buffer below covenant limit.",
-        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.15x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -47345,7 +58946,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$591.7M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $643.1M (Maximum growth and sustaining envelope). Current commitments stand at $591.7M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -47356,7 +58957,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -47377,6 +58978,151 @@ const MASTER_ISSUERS = [
         "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
         "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
         "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 92.6,
+        "ytm": 8.3,
+        "spread_bp": 362,
+        "net_leverage": 1.5,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 94.0,
+        "ytm": 7.9,
+        "spread_bp": 342,
+        "net_leverage": 1.4,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 95.3,
+        "ytm": 7.55,
+        "spread_bp": 325,
+        "net_leverage": 1.3,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 96.0,
+        "ytm": 7.25,
+        "spread_bp": 304,
+        "net_leverage": 1.2,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 96.4,
+        "ytm": 7.1,
+        "spread_bp": 299,
+        "net_leverage": 1.17,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 97.1,
+        "ytm": 6.85,
+        "spread_bp": 284,
+        "net_leverage": 1.1,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 97.4,
+        "ytm": 6.75,
+        "spread_bp": 278,
+        "net_leverage": 1.05,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 97.6,
+        "ytm": 6.7,
+        "spread_bp": 276,
+        "net_leverage": 1.03,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 97.2,
+        "ytm": 6.8,
+        "spread_bp": 281,
+        "net_leverage": 1.07,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB / BB-",
+        "price": 96.9,
+        "ytm": 6.9,
+        "spread_bp": 287,
+        "net_leverage": 1.13,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB / BB-",
+        "price": 96.8,
+        "ytm": 6.95,
+        "spread_bp": 290,
+        "net_leverage": 1.15,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -47983,12 +59729,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Confirmation of no principal haircut and coupon resumption tied to freight index raises recovery target to 75-80 cents.",
         "deduced_from": "Sovereign restructuring documentation and historical corporate-sovereign debt linkage."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 59.8,
+        "ytm": 20.6,
+        "spread_bp": 1856,
+        "net_leverage": 4.21,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 61.2,
+        "ytm": 20.2,
+        "spread_bp": 1752,
+        "net_leverage": 4.11,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 62.5,
+        "ytm": 19.85,
+        "spread_bp": 1663,
+        "net_leverage": 4.01,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 63.2,
+        "ytm": 19.55,
+        "spread_bp": 1559,
+        "net_leverage": 3.91,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 63.6,
+        "ytm": 19.4,
+        "spread_bp": 1530,
+        "net_leverage": 3.88,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 64.3,
+        "ytm": 19.15,
+        "spread_bp": 1455,
+        "net_leverage": 3.81,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 64.6,
+        "ytm": 19.05,
+        "spread_bp": 1426,
+        "net_leverage": 3.76,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 64.8,
+        "ytm": 19.0,
+        "spread_bp": 1411,
+        "net_leverage": 3.74,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 64.4,
+        "ytm": 19.1,
+        "spread_bp": 1440,
+        "net_leverage": 3.78,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "CCC / Caa3",
+        "price": 64.1,
+        "ytm": 19.2,
+        "spread_bp": 1470,
+        "net_leverage": 3.84,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "CCC / Caa3",
+        "price": 64.0,
+        "ytm": 19.25,
+        "spread_bp": 1485,
+        "net_leverage": 3.86,
+        "ebitda": 380.0,
+        "fcf": 20.0,
+        "guidance_status": "On Track"
+      }
     ]
   },
   {
     "metadata": {
       "id": "vakifbank",
-      "name": "Vak\u0131fBank",
+      "name": "VakıfBank",
       "ticker": "VAKBN",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -48365,7 +60256,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "vakifbank",
-        "issuer_name": "Vak\u0131fBank",
+        "issuer_name": "VakıfBank",
         "sector": "Banks",
         "topic": "NIM & Asset-Liability Repricing",
         "source": "Cognitive Credit / J.P. Morgan",
@@ -48373,7 +60264,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "vakifbank",
-        "issuer_name": "Vak\u0131fBank",
+        "issuer_name": "VakıfBank",
         "sector": "Banks",
         "topic": "Prudential Capital & AT1 Instruments",
         "source": "Central Bank / Fitch Ratings",
@@ -48381,7 +60272,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "vakifbank",
-        "issuer_name": "Vak\u0131fBank",
+        "issuer_name": "VakıfBank",
         "sector": "Banks",
         "topic": "Asset Quality & Stage 2 Risk",
         "source": "BRSA / Audit Reports",
@@ -48389,7 +60280,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "source_deck": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "reporting_currency": "USD / Local Currency Statutory",
       "management_guidance_targets": {
         "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -48535,7 +60426,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
         "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -48546,7 +60437,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "5.02%",
         "tracking_status": "On Track",
         "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of 4.90% - 5.15%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -48557,7 +60448,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -48568,7 +60459,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -48579,7 +60470,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -48608,12 +60499,157 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 95.0,
+        "ytm": 8.3,
+        "spread_bp": 294,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 96.4,
+        "ytm": 7.9,
+        "spread_bp": 277,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 97.7,
+        "ytm": 7.55,
+        "spread_bp": 263,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.4,
+        "ytm": 7.25,
+        "spread_bp": 247,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.8,
+        "ytm": 7.1,
+        "spread_bp": 242,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 230,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 226,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.0,
+        "ytm": 6.7,
+        "spread_bp": 223,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.6,
+        "ytm": 6.8,
+        "spread_bp": 228,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.3,
+        "ytm": 6.9,
+        "spread_bp": 233,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / B1",
+        "price": 99.2,
+        "ytm": 6.95,
+        "spread_bp": 235,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      }
     ]
   },
   {
     "metadata": {
       "id": "yapi_kredi",
-      "name": "Yap\u0131 ve Kredi Bankas\u0131",
+      "name": "Yapı ve Kredi Bankası",
       "ticker": "YKBNK",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -48985,12 +61021,12 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 102.0,
       "implied_stress_ev_multiple": "Prudential Resolution",
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Ko\u00e7 Group backing; #1 credit card issuing market share in Turkey; AT1 yielding 9.15%."
+      "thesis": "Koç Group backing; #1 credit card issuing market share in Turkey; AT1 yielding 9.15%."
     },
     "annotations": [
       {
         "issuer_id": "yapi_kredi",
-        "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
+        "issuer_name": "Yapı ve Kredi Bankası",
         "sector": "Banks",
         "topic": "NIM & Asset-Liability Repricing",
         "source": "Cognitive Credit / J.P. Morgan",
@@ -48998,7 +61034,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "yapi_kredi",
-        "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
+        "issuer_name": "Yapı ve Kredi Bankası",
         "sector": "Banks",
         "topic": "Prudential Capital & AT1 Instruments",
         "source": "Central Bank / Fitch Ratings",
@@ -49006,7 +61042,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "yapi_kredi",
-        "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
+        "issuer_name": "Yapı ve Kredi Bankası",
         "sector": "Banks",
         "topic": "Asset Quality & Stage 2 Risk",
         "source": "BRSA / Audit Reports",
@@ -49014,7 +61050,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "source_deck": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "reporting_currency": "USD / Local Currency Statutory",
       "management_guidance_targets": {
         "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -49160,7 +61196,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
         "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -49171,7 +61207,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "5.42%",
         "tracking_status": "On Track",
         "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of 5.30% - 5.55%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -49182,7 +61218,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -49193,7 +61229,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -49204,7 +61240,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -49232,6 +61268,151 @@ const MASTER_ISSUERS = [
         "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
         "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
         "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 95.2,
+        "ytm": 8.1,
+        "spread_bp": 269,
+        "net_leverage": 3.85,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "B+ / B2",
+        "price": 96.6,
+        "ytm": 7.7,
+        "spread_bp": 254,
+        "net_leverage": 3.75,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 97.9,
+        "ytm": 7.35,
+        "spread_bp": 241,
+        "net_leverage": 3.65,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 98.6,
+        "ytm": 7.05,
+        "spread_bp": 226,
+        "net_leverage": 3.55,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.0,
+        "ytm": 6.9,
+        "spread_bp": 221,
+        "net_leverage": 3.52,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.7,
+        "ytm": 6.65,
+        "spread_bp": 211,
+        "net_leverage": 3.45,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.0,
+        "ytm": 6.55,
+        "spread_bp": 206,
+        "net_leverage": 3.4,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 100.2,
+        "ytm": 6.5,
+        "spread_bp": 204,
+        "net_leverage": 3.38,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.6,
+        "spread_bp": 209,
+        "net_leverage": 3.42,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.7,
+        "spread_bp": 213,
+        "net_leverage": 3.48,
+        "ebitda": 500.0,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "BB- / B1",
+        "price": 99.4,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -49592,8 +61773,8 @@ const MASTER_ISSUERS = [
       "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
       "reporting_currency": "USD / TRY (with natural USD hedge disclosures)",
       "generation_fleet_breakdown": {
-        "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) \u2014 Turkey's largest and lowest-cost baseload renewable fleet",
-        "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) \u2014 long-term high wind resource capacity factor (>34%)",
+        "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) — Turkey's largest and lowest-cost baseload renewable fleet",
+        "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) — long-term high wind resource capacity factor (>34%)",
         "hydroelectric_capacity_hes": "118.6 MW across 7 operating run-of-river and reservoir plants (Ikizdere, Atabey, Camlica, Kuzgun, Mercan, Tercan, Beykoy)",
         "solar_and_hybrid_capacity": "84.0 MW installed and under development (hybrid solar installations co-located at Kizildere geothermal sites)",
         "thermal_and_industrial_cogen": "341.0 MW domestic gas cogeneration and district heating (Bursa, Luleburgaz)",
@@ -49672,7 +61853,7 @@ const MASTER_ISSUERS = [
       "geographic_and_fx_exposure": {
         "usd_revenue_share": "68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM mechanism",
         "try_regulated_revenue_share": "31.5% of revenue earned in Turkish Lira via OEDAS/OEPSAS with full CPI inflation pass-through",
-        "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY \u2014 natural dollar hedge covers 100% of USD net interest payments",
+        "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY — natural dollar hedge covers 100% of USD net interest payments",
         "fx_risk_mitigation": "Bilateral FX forward hedges covering next 12-month EUR debt principal amortizations"
       },
       "contract_backlog_and_commercial_terms": {
@@ -49874,6 +62055,2201 @@ const MASTER_ISSUERS = [
         "conviction_trigger": "Quarterly indexation confirmation confirms debt service resilience. Annual lagging indexation indicates negative FCF in high-inflation quarters.",
         "deduced_from": "Working capital fluctuations in 2022-2024 cash flow statements."
       }
+    ],
+    "market_history": [
+      {
+        "date": "2024-03-31",
+        "period_name": "Q1 2024",
+        "timestamp": "2024-03-31T16:00:00Z",
+        "rating": "CCC+ / CCC",
+        "price": 90.3,
+        "ytm": 12.55,
+        "spread_bp": 850,
+        "net_leverage": 5.17,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2024-06-30",
+        "period_name": "Q2 2024",
+        "timestamp": "2024-06-30T16:00:00Z",
+        "rating": "CCC+ / CCC",
+        "price": 91.7,
+        "ytm": 12.15,
+        "spread_bp": 802,
+        "net_leverage": 5.07,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2024-09-30",
+        "period_name": "Q3 2024",
+        "timestamp": "2024-09-30T16:00:00Z",
+        "rating": "B- / CCC+",
+        "price": 93.0,
+        "ytm": 11.8,
+        "spread_bp": 762,
+        "net_leverage": 4.97,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2024-12-31",
+        "period_name": "Q4 2024",
+        "timestamp": "2024-12-31T16:00:00Z",
+        "rating": "B- / CCC+",
+        "price": 93.7,
+        "ytm": 11.5,
+        "spread_bp": 714,
+        "net_leverage": 4.87,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2025-03-31",
+        "period_name": "Q1 2025",
+        "timestamp": "2025-03-31T16:00:00Z",
+        "rating": "B- / CCC+",
+        "price": 94.1,
+        "ytm": 11.35,
+        "spread_bp": 700,
+        "net_leverage": 4.84,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2025-06-30",
+        "period_name": "Q2 2025",
+        "timestamp": "2025-06-30T16:00:00Z",
+        "rating": "B- / CCC+",
+        "price": 94.8,
+        "ytm": 11.1,
+        "spread_bp": 666,
+        "net_leverage": 4.77,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2025-09-30",
+        "period_name": "Q3 2025",
+        "timestamp": "2025-09-30T16:00:00Z",
+        "rating": "B- / CCC+",
+        "price": 95.1,
+        "ytm": 11.0,
+        "spread_bp": 653,
+        "net_leverage": 4.72,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2025-12-31",
+        "period_name": "Q4 2025",
+        "timestamp": "2025-12-31T16:00:00Z",
+        "rating": "B- / CCC+",
+        "price": 95.3,
+        "ytm": 10.95,
+        "spread_bp": 646,
+        "net_leverage": 4.7,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2026-03-31",
+        "period_name": "Q1 2026",
+        "timestamp": "2026-03-31T16:00:00Z",
+        "rating": "B- / CCC+",
+        "price": 94.9,
+        "ytm": 11.05,
+        "spread_bp": 660,
+        "net_leverage": 4.74,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2026-06-30",
+        "period_name": "Q2 2026",
+        "timestamp": "2026-06-30T16:00:00Z",
+        "rating": "B- / CCC+",
+        "price": 94.6,
+        "ytm": 11.15,
+        "spread_bp": 673,
+        "net_leverage": 4.8,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2026-09-20",
+        "period_name": "2026-09-20",
+        "timestamp": "2026-09-20T19:36:22.339005",
+        "rating": "B- / CCC+",
+        "price": 94.5,
+        "ytm": 11.2,
+        "spread_bp": 680,
+        "net_leverage": 4.82,
+        "ebitda": 320.0,
+        "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      }
     ]
+  }
+];
+const MASTER_ANNOTATIONS = [
+  {
+    "issuer_id": "acwa",
+    "issuer_name": "ACWA Power",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "acwa",
+    "issuer_name": "ACWA Power",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "acwa",
+    "issuer_name": "ACWA Power",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "adcb",
+    "issuer_name": "Abu Dhabi Commercial Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "adcb",
+    "issuer_name": "Abu Dhabi Commercial Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "adcb",
+    "issuer_name": "Abu Dhabi Commercial Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "adm_elek",
+    "issuer_name": "ADM Elektrik",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "adm_elek",
+    "issuer_name": "ADM Elektrik",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "adm_elek",
+    "issuer_name": "ADM Elektrik",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "africell",
+    "issuer_name": "Africell",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "africell",
+    "issuer_name": "Africell",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "africell",
+    "issuer_name": "Africell",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "akbank",
+    "issuer_name": "Akbank TAS",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "akbank",
+    "issuer_name": "Akbank TAS",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "akbank",
+    "issuer_name": "Akbank TAS",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "aldar",
+    "issuer_name": "Aldar Properties",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "aldar",
+    "issuer_name": "Aldar Properties",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "aldar",
+    "issuer_name": "Aldar Properties",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "arada",
+    "issuer_name": "Arada Developments",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "arada",
+    "issuer_name": "Arada Developments",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "arada",
+    "issuer_name": "Arada Developments",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "aragvi",
+    "issuer_name": "Aragvi / Trans-Oil",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "aragvi",
+    "issuer_name": "Aragvi / Trans-Oil",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "aragvi",
+    "issuer_name": "Aragvi / Trans-Oil",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "aydem",
+    "issuer_name": "Aydem Renewable",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "aydem",
+    "issuer_name": "Aydem Renewable",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "aydem",
+    "issuer_name": "Aydem Renewable",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "azule",
+    "issuer_name": "Azule Energy",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "azule",
+    "issuer_name": "Azule Energy",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "azule",
+    "issuer_name": "Azule Energy",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "bapco",
+    "issuer_name": "Bapco Energies (nogaholding)",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "bapco",
+    "issuer_name": "Bapco Energies (nogaholding)",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "bapco",
+    "issuer_name": "Bapco Energies (nogaholding)",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "binghatti",
+    "issuer_name": "Binghatti Holding",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "binghatti",
+    "issuer_name": "Binghatti Holding",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "binghatti",
+    "issuer_name": "Binghatti Holding",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "cci",
+    "issuer_name": "Coca-Cola İçecek (CCI)",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "cci",
+    "issuer_name": "Coca-Cola İçecek (CCI)",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "cci",
+    "issuer_name": "Coca-Cola İçecek (CCI)",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "cez",
+    "issuer_name": "ČEZ Group",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "cez",
+    "issuer_name": "ČEZ Group",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "cez",
+    "issuer_name": "ČEZ Group",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "damac",
+    "issuer_name": "Damac Properties",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "damac",
+    "issuer_name": "Damac Properties",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "damac",
+    "issuer_name": "Damac Properties",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "dangote_fert",
+    "issuer_name": "Dangote Fertiliser",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "dangote_fert",
+    "issuer_name": "Dangote Fertiliser",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "dangote_fert",
+    "issuer_name": "Dangote Fertiliser",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "dangote_ref",
+    "issuer_name": "Dangote Refinery",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "dangote_ref",
+    "issuer_name": "Dangote Refinery",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "dangote_ref",
+    "issuer_name": "Dangote Refinery",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "dar_arkan",
+    "issuer_name": "Dar Al Arkan",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "dar_arkan",
+    "issuer_name": "Dar Al Arkan",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "dar_arkan",
+    "issuer_name": "Dar Al Arkan",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "dib",
+    "issuer_name": "Dubai Islamic Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "dib",
+    "issuer_name": "Dubai Islamic Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "dib",
+    "issuer_name": "Dubai Islamic Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "dp_world",
+    "issuer_name": "DP World",
+    "sector": "Infrastructure",
+    "topic": "Concession Duration & Tariff Autonomy",
+    "source": "Cognitive Credit / S&P Global",
+    "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
+  },
+  {
+    "issuer_id": "dp_world",
+    "issuer_name": "DP World",
+    "sector": "Infrastructure",
+    "topic": "Volume Stability & Throughput",
+    "source": "Terminal Authority Disclosures",
+    "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
+  },
+  {
+    "issuer_id": "dp_world",
+    "issuer_name": "DP World",
+    "sector": "Infrastructure",
+    "topic": "Holding Company Structural Priority",
+    "source": "Offering Circular Waterfall",
+    "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
+  },
+  {
+    "issuer_id": "dtek",
+    "issuer_name": "DTEK Energy",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "dtek",
+    "issuer_name": "DTEK Energy",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "dtek",
+    "issuer_name": "DTEK Energy",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "emaar",
+    "issuer_name": "Emaar Properties",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "emaar",
+    "issuer_name": "Emaar Properties",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "emaar",
+    "issuer_name": "Emaar Properties",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "emlak",
+    "issuer_name": "Emlak Konut",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "emlak",
+    "issuer_name": "Emlak Konut",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "emlak",
+    "issuer_name": "Emlak Konut",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "enbd",
+    "issuer_name": "Emirates NBD",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "enbd",
+    "issuer_name": "Emirates NBD",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "enbd",
+    "issuer_name": "Emirates NBD",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "equate",
+    "issuer_name": "EQUATE Petrochemical",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "equate",
+    "issuer_name": "EQUATE Petrochemical",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "equate",
+    "issuer_name": "EQUATE Petrochemical",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "erdemir",
+    "issuer_name": "Erdemir",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "erdemir",
+    "issuer_name": "Erdemir",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "erdemir",
+    "issuer_name": "Erdemir",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "eskom",
+    "issuer_name": "Eskom Holdings",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "eskom",
+    "issuer_name": "Eskom Holdings",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "eskom",
+    "issuer_name": "Eskom Holdings",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "fab",
+    "issuer_name": "First Abu Dhabi Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "fab",
+    "issuer_name": "First Abu Dhabi Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "fab",
+    "issuer_name": "First Abu Dhabi Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "firstrand",
+    "issuer_name": "FirstRand Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "firstrand",
+    "issuer_name": "FirstRand Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "firstrand",
+    "issuer_name": "FirstRand Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "garanti",
+    "issuer_name": "Garanti BBVA",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "garanti",
+    "issuer_name": "Garanti BBVA",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "garanti",
+    "issuer_name": "Garanti BBVA",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "gdz_elek",
+    "issuer_name": "GDZ Elektrik",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "gdz_elek",
+    "issuer_name": "GDZ Elektrik",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "gdz_elek",
+    "issuer_name": "GDZ Elektrik",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "goldfields",
+    "issuer_name": "Gold Fields Ltd",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "goldfields",
+    "issuer_name": "Gold Fields Ltd",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "goldfields",
+    "issuer_name": "Gold Fields Ltd",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "halkbank",
+    "issuer_name": "Halkbank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "halkbank",
+    "issuer_name": "Halkbank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "halkbank",
+    "issuer_name": "Halkbank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "halyk",
+    "issuer_name": "Halyk Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "halyk",
+    "issuer_name": "Halyk Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "halyk",
+    "issuer_name": "Halyk Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "helios",
+    "issuer_name": "Helios Towers",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "helios",
+    "issuer_name": "Helios Towers",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "helios",
+    "issuer_name": "Helios Towers",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "hidro",
+    "issuer_name": "Hidroelectrica",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "hidro",
+    "issuer_name": "Hidroelectrica",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "hidro",
+    "issuer_name": "Hidroelectrica",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "ihs",
+    "issuer_name": "IHS Towers",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "ihs",
+    "issuer_name": "IHS Towers",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "ihs",
+    "issuer_name": "IHS Towers",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "isbank",
+    "issuer_name": "Türkiye İş Bankası",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "isbank",
+    "issuer_name": "Türkiye İş Bankası",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "isbank",
+    "issuer_name": "Türkiye İş Bankası",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "ittihad",
+    "issuer_name": "Ittihad Investment",
+    "sector": "Industrials",
+    "topic": "Conglomerate Cash Cushion",
+    "source": "Cognitive Credit / Koç / Ittihad",
+    "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
+  },
+  {
+    "issuer_id": "ittihad",
+    "issuer_name": "Ittihad Investment",
+    "sector": "Industrials",
+    "topic": "Export Orientation & Competitive Edge",
+    "source": "Trade Ministry Data",
+    "note": "High export orientation to European and MENA markets provides diversified revenue streams and foreign exchange earnings."
+  },
+  {
+    "issuer_id": "ittihad",
+    "issuer_name": "Ittihad Investment",
+    "sector": "Industrials",
+    "topic": "Prudent Capital Allocation",
+    "source": "Management Guidance",
+    "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
+  },
+  {
+    "issuer_id": "kfh",
+    "issuer_name": "Kuwait Finance House (KFH)",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "kfh",
+    "issuer_name": "Kuwait Finance House (KFH)",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "kfh",
+    "issuer_name": "Kuwait Finance House (KFH)",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "kmg",
+    "issuer_name": "KazMunayGas (KMG)",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "kmg",
+    "issuer_name": "KazMunayGas (KMG)",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "kmg",
+    "issuer_name": "KazMunayGas (KMG)",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "koc",
+    "issuer_name": "Koç Holding",
+    "sector": "Industrials",
+    "topic": "Conglomerate Cash Cushion",
+    "source": "Cognitive Credit / Koç / Ittihad",
+    "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
+  },
+  {
+    "issuer_id": "koc",
+    "issuer_name": "Koç Holding",
+    "sector": "Industrials",
+    "topic": "Export Orientation & Competitive Edge",
+    "source": "Trade Ministry Data",
+    "note": "High export orientation to European and MENA markets provides diversified revenue streams and foreign exchange earnings."
+  },
+  {
+    "issuer_id": "koc",
+    "issuer_name": "Koç Holding",
+    "sector": "Industrials",
+    "topic": "Prudent Capital Allocation",
+    "source": "Management Guidance",
+    "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
+  },
+  {
+    "issuer_id": "kosmos",
+    "issuer_name": "Kosmos Energy",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "kosmos",
+    "issuer_name": "Kosmos Energy",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "kosmos",
+    "issuer_name": "Kosmos Energy",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "limak_cem",
+    "issuer_name": "Limak Cement",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "limak_cem",
+    "issuer_name": "Limak Cement",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "limak_cem",
+    "issuer_name": "Limak Cement",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "limak_port",
+    "issuer_name": "LimakPort İskenderun",
+    "sector": "Infrastructure",
+    "topic": "Concession Duration & Tariff Autonomy",
+    "source": "Cognitive Credit / S&P Global",
+    "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
+  },
+  {
+    "issuer_id": "limak_port",
+    "issuer_name": "LimakPort İskenderun",
+    "sector": "Infrastructure",
+    "topic": "Volume Stability & Throughput",
+    "source": "Terminal Authority Disclosures",
+    "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
+  },
+  {
+    "issuer_id": "limak_port",
+    "issuer_name": "LimakPort İskenderun",
+    "sector": "Infrastructure",
+    "topic": "Holding Company Structural Priority",
+    "source": "Offering Circular Waterfall",
+    "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
+  },
+  {
+    "issuer_id": "limak_ren",
+    "issuer_name": "Limak Renewable",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "limak_ren",
+    "issuer_name": "Limak Renewable",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "limak_ren",
+    "issuer_name": "Limak Renewable",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "liqtel",
+    "issuer_name": "Liquid Telecom",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "liqtel",
+    "issuer_name": "Liquid Telecom",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "liqtel",
+    "issuer_name": "Liquid Telecom",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "maf",
+    "issuer_name": "Majid Al Futtaim (MAF)",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "maf",
+    "issuer_name": "Majid Al Futtaim (MAF)",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "maf",
+    "issuer_name": "Majid Al Futtaim (MAF)",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "metinvest",
+    "issuer_name": "Metinvest",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "metinvest",
+    "issuer_name": "Metinvest",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "metinvest",
+    "issuer_name": "Metinvest",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "mhp",
+    "issuer_name": "MHP SE",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "mhp",
+    "issuer_name": "MHP SE",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "mhp",
+    "issuer_name": "MHP SE",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "mol",
+    "issuer_name": "MOL Group",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "mol",
+    "issuer_name": "MOL Group",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "mol",
+    "issuer_name": "MOL Group",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "mtn",
+    "issuer_name": "MTN Group",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "mtn",
+    "issuer_name": "MTN Group",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "mtn",
+    "issuer_name": "MTN Group",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "ocp",
+    "issuer_name": "OCP Group",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "ocp",
+    "issuer_name": "OCP Group",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "ocp",
+    "issuer_name": "OCP Group",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "ooredoo",
+    "issuer_name": "Ooredoo QPSC",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "ooredoo",
+    "issuer_name": "Ooredoo QPSC",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "ooredoo",
+    "issuer_name": "Ooredoo QPSC",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "oq",
+    "issuer_name": "OQ SAOC",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "oq",
+    "issuer_name": "OQ SAOC",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "oq",
+    "issuer_name": "OQ SAOC",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "orlen",
+    "issuer_name": "PKN Orlen",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "orlen",
+    "issuer_name": "PKN Orlen",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "orlen",
+    "issuer_name": "PKN Orlen",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "pegasus",
+    "issuer_name": "Pegasus Airlines",
+    "sector": "Aviation",
+    "topic": "Hard Currency Revenue & Geographic Hedge",
+    "source": "Cognitive Credit / Citi",
+    "note": ">80% of ticket revenues generated outside the domestic market in USD and EUR, providing complete insulation from local currency depreciation."
+  },
+  {
+    "issuer_id": "pegasus",
+    "issuer_name": "Pegasus Airlines",
+    "sector": "Aviation",
+    "topic": "Fleet Asset Coverage (EETC / Senior)",
+    "source": "Ascend by Cirium Appraisals",
+    "note": "Modern, fuel-efficient aircraft fleet with high unencumbered asset value provides substantial senior bond recovery coverage (>130%)."
+  },
+  {
+    "issuer_id": "pegasus",
+    "issuer_name": "Pegasus Airlines",
+    "sector": "Aviation",
+    "topic": "Operating Margin & Hub Economics",
+    "source": "IATA Benchmarking",
+    "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
+  },
+  {
+    "issuer_id": "pge",
+    "issuer_name": "PGE Polska Grupa Energetyczna",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "pge",
+    "issuer_name": "PGE Polska Grupa Energetyczna",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "pge",
+    "issuer_name": "PGE Polska Grupa Energetyczna",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "qazaqgaz",
+    "issuer_name": "QazaqGaz (KazTransGas)",
+    "sector": "Infrastructure",
+    "topic": "Concession Duration & Tariff Autonomy",
+    "source": "Cognitive Credit / S&P Global",
+    "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
+  },
+  {
+    "issuer_id": "qazaqgaz",
+    "issuer_name": "QazaqGaz (KazTransGas)",
+    "sector": "Infrastructure",
+    "topic": "Volume Stability & Throughput",
+    "source": "Terminal Authority Disclosures",
+    "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
+  },
+  {
+    "issuer_id": "qazaqgaz",
+    "issuer_name": "QazaqGaz (KazTransGas)",
+    "sector": "Infrastructure",
+    "topic": "Holding Company Structural Priority",
+    "source": "Offering Circular Waterfall",
+    "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
+  },
+  {
+    "issuer_id": "qnb",
+    "issuer_name": "Qatar National Bank (QNB)",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "qnb",
+    "issuer_name": "Qatar National Bank (QNB)",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "qnb",
+    "issuer_name": "Qatar National Bank (QNB)",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "rajhi",
+    "issuer_name": "Al Rajhi Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "rajhi",
+    "issuer_name": "Al Rajhi Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "rajhi",
+    "issuer_name": "Al Rajhi Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "riyad",
+    "issuer_name": "Riyad Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "riyad",
+    "issuer_name": "Riyad Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "riyad",
+    "issuer_name": "Riyad Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "romgaz",
+    "issuer_name": "S.N.G.N. Romgaz",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "romgaz",
+    "issuer_name": "S.N.G.N. Romgaz",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "romgaz",
+    "issuer_name": "S.N.G.N. Romgaz",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "sabic",
+    "issuer_name": "SABIC",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "sabic",
+    "issuer_name": "SABIC",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "sabic",
+    "issuer_name": "SABIC",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "sampa",
+    "issuer_name": "Sampa Otomotiv",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "sampa",
+    "issuer_name": "Sampa Otomotiv",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "sampa",
+    "issuer_name": "Sampa Otomotiv",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "sasol",
+    "issuer_name": "Sasol Ltd",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "sasol",
+    "issuer_name": "Sasol Ltd",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "sasol",
+    "issuer_name": "Sasol Ltd",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "sec",
+    "issuer_name": "Saudi Electricity Company (SEC)",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "sec",
+    "issuer_name": "Saudi Electricity Company (SEC)",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "sec",
+    "issuer_name": "Saudi Electricity Company (SEC)",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "sisecam",
+    "issuer_name": "Şişecam",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "sisecam",
+    "issuer_name": "Şişecam",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "sisecam",
+    "issuer_name": "Şişecam",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "snb",
+    "issuer_name": "Saudi National Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "snb",
+    "issuer_name": "Saudi National Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "snb",
+    "issuer_name": "Saudi National Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "sobha",
+    "issuer_name": "Sobha Realty",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "sobha",
+    "issuer_name": "Sobha Realty",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "sobha",
+    "issuer_name": "Sobha Realty",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "sonangol",
+    "issuer_name": "Sonangol EP",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "sonangol",
+    "issuer_name": "Sonangol EP",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "sonangol",
+    "issuer_name": "Sonangol EP",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "standard_bank",
+    "issuer_name": "Standard Bank Group",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "standard_bank",
+    "issuer_name": "Standard Bank Group",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "standard_bank",
+    "issuer_name": "Standard Bank Group",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "stc",
+    "issuer_name": "Saudi Telecom Company (STC)",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "stc",
+    "issuer_name": "Saudi Telecom Company (STC)",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "stc",
+    "issuer_name": "Saudi Telecom Company (STC)",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "taqa",
+    "issuer_name": "Abu Dhabi National Energy (TAQA)",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "taqa",
+    "issuer_name": "Abu Dhabi National Energy (TAQA)",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "taqa",
+    "issuer_name": "Abu Dhabi National Energy (TAQA)",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "tharisa",
+    "issuer_name": "Tharisa plc",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "tharisa",
+    "issuer_name": "Tharisa plc",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "tharisa",
+    "issuer_name": "Tharisa plc",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "thy",
+    "issuer_name": "Turkish Airlines (THY)",
+    "sector": "Aviation",
+    "topic": "Hard Currency Revenue & Geographic Hedge",
+    "source": "Cognitive Credit / Citi",
+    "note": ">80% of ticket revenues generated outside the domestic market in USD and EUR, providing complete insulation from local currency depreciation."
+  },
+  {
+    "issuer_id": "thy",
+    "issuer_name": "Turkish Airlines (THY)",
+    "sector": "Aviation",
+    "topic": "Fleet Asset Coverage (EETC / Senior)",
+    "source": "Ascend by Cirium Appraisals",
+    "note": "Modern, fuel-efficient aircraft fleet with high unencumbered asset value provides substantial senior bond recovery coverage (>130%)."
+  },
+  {
+    "issuer_id": "thy",
+    "issuer_name": "Turkish Airlines (THY)",
+    "sector": "Aviation",
+    "topic": "Operating Margin & Hub Economics",
+    "source": "IATA Benchmarking",
+    "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
+  },
+  {
+    "issuer_id": "ttkom",
+    "issuer_name": "Türk Telekom",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "ttkom",
+    "issuer_name": "Türk Telekom",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "ttkom",
+    "issuer_name": "Türk Telekom",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "tullow",
+    "issuer_name": "Tullow Oil",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "tullow",
+    "issuer_name": "Tullow Oil",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "tullow",
+    "issuer_name": "Tullow Oil",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "tupras",
+    "issuer_name": "Tüpraş (Turkish Petroleum)",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "tupras",
+    "issuer_name": "Tüpraş (Turkish Petroleum)",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "tupras",
+    "issuer_name": "Tüpraş (Turkish Petroleum)",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "turk_exim",
+    "issuer_name": "Türk Eximbank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "turk_exim",
+    "issuer_name": "Türk Eximbank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "turk_exim",
+    "issuer_name": "Türk Eximbank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "turkcell",
+    "issuer_name": "Turkcell İletişim",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "turkcell",
+    "issuer_name": "Turkcell İletişim",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "turkcell",
+    "issuer_name": "Turkcell İletişim",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "ukr_rail",
+    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+    "sector": "Transportation & Logistics (Railways)",
+    "topic": "Eurobond Debt Standstill & Restructuring Context",
+    "source": "J.P. Morgan / Morgan Stanley Distressed Credit",
+    "note": "The $595M 8.25% notes due July 2026 and $300M 7.875% notes due July 2028 were extended by 24 months in August 2022. Following Ukraine's $20.5B sovereign Eurobond restructuring in August 2024 (37% nominal haircut), market consensus expects UZ to execute standalone commercial maturity extensions (3-5 years) with partial PIK coupon features rather than deep principal haircuts due to its essential defense and grain export mandate."
+  },
+  {
+    "issuer_id": "ukr_rail",
+    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+    "sector": "Transportation & Logistics (Railways)",
+    "topic": "Multilateral Grants & Standard-Gauge Integration",
+    "source": "EBRD / EIB / World Bank RELINC Filings",
+    "note": "Over $1.4B in non-repayable grants and subsidized loans committed by the EU Solidarity Lanes, EIB, and EBRD. Capital expenditures are heavily focused on converting strategic cross-border lines from 1520mm Russian broad-gauge to 1435mm European standard-gauge (Chop-Uzhhorod and Lviv-Warsaw corridors), permanently integrating Ukrainian rail into the EU single market."
+  },
+  {
+    "issuer_id": "ukr_rail",
+    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+    "sector": "Transportation & Logistics (Railways)",
+    "topic": "Freight Traffic Recovery & Tariff Indexation",
+    "source": "Cabinet of Ministers / UZ Investor Disclosures",
+    "note": "Freight volumes rebounded to 175M tonnes in 2024A driven by naval de-mining of the Greater Odesa Black Sea corridor and European steel mill demand for Metinvest iron ore. State-approved freight tariff indexation (+70% in July 2022 plus ongoing inflation adjustments) and passenger social subsidies maintain positive EBITDA (~$380M)."
+  },
+  {
+    "issuer_id": "ukr_rail",
+    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+    "sector": "Transportation & Logistics (Railways)",
+    "topic": "Forensic Recovery: Liquidation Scrap Floor vs Restructured Value",
+    "source": "Distressed PM Recovery Waterfall",
+    "note": "Physical asset base includes >80,000 wagons, 1,150 active locomotives, and 16,800+ km of operated track. Scrap steel and unencumbered rolling stock liquidation floor is $38.00. Base-case going-concern restructuring value is $68.00 - $74.00, offering attractive asymmetric risk/reward for high-beta credit portfolios."
+  },
+  {
+    "issuer_id": "vakifbank",
+    "issuer_name": "VakıfBank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "vakifbank",
+    "issuer_name": "VakıfBank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "vakifbank",
+    "issuer_name": "VakıfBank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "yapi_kredi",
+    "issuer_name": "Yapı ve Kredi Bankası",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "yapi_kredi",
+    "issuer_name": "Yapı ve Kredi Bankası",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "yapi_kredi",
+    "issuer_name": "Yapı ve Kredi Bankası",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "zorlu",
+    "issuer_name": "Zorlu Enerji",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "zorlu",
+    "issuer_name": "Zorlu Enerji",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "zorlu",
+    "issuer_name": "Zorlu Enerji",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
   }
 ];

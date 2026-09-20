@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "ttkom",
-    "name": "Türk Telekom",
+    "name": "T\u00fcrk Telekom",
     "ticker": "TTKOM",
     "country": "Turkey",
     "region": "Turkey",
@@ -328,7 +328,7 @@
   "annotations": [
     {
       "issuer_id": "ttkom",
-      "issuer_name": "Türk Telekom",
+      "issuer_name": "T\u00fcrk Telekom",
       "sector": "Technology",
       "topic": "Master Lease Agreements & Indexation",
       "source": "Cognitive Credit / Arqaam",
@@ -336,7 +336,7 @@
     },
     {
       "issuer_id": "ttkom",
-      "issuer_name": "Türk Telekom",
+      "issuer_name": "T\u00fcrk Telekom",
       "sector": "Technology",
       "topic": "Tenancy Ratio & Organic Leverage",
       "source": "Company Disclosures",
@@ -344,7 +344,7 @@
     },
     {
       "issuer_id": "ttkom",
-      "issuer_name": "Türk Telekom",
+      "issuer_name": "T\u00fcrk Telekom",
       "sector": "Technology",
       "topic": "Contracted Revenue Backlog",
       "source": "Investor Presentations",
@@ -352,7 +352,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+    "source_deck": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
@@ -499,7 +499,7 @@
       "current_runrate": "$3834.0M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $3888.0M (+8.0% YoY growth). With current run-rate at $3834.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -510,7 +510,7 @@
       "current_runrate": "$1458.0M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $1485.0M (38.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -521,7 +521,7 @@
       "current_runrate": "1.45x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit.",
-      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.45x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -532,7 +532,7 @@
       "current_runrate": "$456.4M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $496.1M (Maximum growth and sustaining envelope). Current commitments stand at $456.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -543,7 +543,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -564,6 +564,151 @@
       "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
       "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
       "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 95.6,
+      "ytm": 8.5,
+      "spread_bp": 388,
+      "net_leverage": 1.8,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 97.0,
+      "ytm": 8.1,
+      "spread_bp": 366,
+      "net_leverage": 1.7,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 98.3,
+      "ytm": 7.75,
+      "spread_bp": 347,
+      "net_leverage": 1.6,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 99.0,
+      "ytm": 7.45,
+      "spread_bp": 326,
+      "net_leverage": 1.5,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 99.4,
+      "ytm": 7.3,
+      "spread_bp": 319,
+      "net_leverage": 1.47,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 100.1,
+      "ytm": 7.05,
+      "spread_bp": 304,
+      "net_leverage": 1.4,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 100.4,
+      "ytm": 6.95,
+      "spread_bp": 298,
+      "net_leverage": 1.35,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 100.6,
+      "ytm": 6.9,
+      "spread_bp": 294,
+      "net_leverage": 1.33,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 100.2,
+      "ytm": 7.0,
+      "spread_bp": 301,
+      "net_leverage": 1.37,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "BB / BB-",
+      "price": 99.9,
+      "ytm": 7.1,
+      "spread_bp": 307,
+      "net_leverage": 1.43,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:38:33.972524",
+      "rating": "BB / BB-",
+      "price": 99.8,
+      "ytm": 7.15,
+      "spread_bp": 310,
+      "net_leverage": 1.45,
+      "ebitda": 1350.0,
+      "fcf": 675.0,
+      "guidance_status": "Ahead of Target"
     }
   ]
 }

@@ -388,7 +388,7 @@
       "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
     },
     "refinery_commercial_scale_and_yield": {
-      "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos — world's largest single-train facility",
+      "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos \u2014 world's largest single-train facility",
       "crude_processing_slate": "Configured to process Nigerian light sweet crudes (Bonny Light, Forcados, Qua Iboe) and global medium sour barrels with maximum distillation efficiency",
       "transportation_fuels_output": "Capable of producing 330,000 bpd of Euro-V premium gasoline (PMS), 220,000 bpd of Ultra-Low Sulfur Diesel (ULSD), and 50,000 bpd of Aviation Jet A-1",
       "naira_crude_sales_agreement": "Bespoke agreement with NNPC / Federal Government of Nigeria for 385,000 bpd of domestic crude supply payable in Nigerian Naira (NGN), eliminating foreign exchange rationing risks"
@@ -583,6 +583,151 @@
       "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
       "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
       "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 90.8,
+      "ytm": 13.85,
+      "spread_bp": 1019,
+      "net_leverage": 2.78,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 92.2,
+      "ytm": 13.45,
+      "spread_bp": 962,
+      "net_leverage": 2.68,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "B / B2",
+      "price": 93.5,
+      "ytm": 13.1,
+      "spread_bp": 913,
+      "net_leverage": 2.58,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "B / B2",
+      "price": 94.2,
+      "ytm": 12.8,
+      "spread_bp": 856,
+      "net_leverage": 2.48,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "B / B2",
+      "price": 94.6,
+      "ytm": 12.65,
+      "spread_bp": 839,
+      "net_leverage": 2.45,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "B / B2",
+      "price": 95.3,
+      "ytm": 12.4,
+      "spread_bp": 799,
+      "net_leverage": 2.38,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "B / B2",
+      "price": 95.6,
+      "ytm": 12.3,
+      "spread_bp": 782,
+      "net_leverage": 2.33,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "B / B2",
+      "price": 95.8,
+      "ytm": 12.25,
+      "spread_bp": 774,
+      "net_leverage": 2.31,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "B / B2",
+      "price": 95.4,
+      "ytm": 12.35,
+      "spread_bp": 791,
+      "net_leverage": 2.35,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "B / B2",
+      "price": 95.1,
+      "ytm": 12.45,
+      "spread_bp": 807,
+      "net_leverage": 2.41,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:38:33.972524",
+      "rating": "B / B2",
+      "price": 95.0,
+      "ytm": 12.5,
+      "spread_bp": 815,
+      "net_leverage": 2.43,
+      "ebitda": 100.0,
+      "fcf": 50.0,
+      "guidance_status": "Ahead of Target"
     }
   ]
 }

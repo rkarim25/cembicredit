@@ -1,0 +1,4252 @@
+[
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ACWA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1782.0M (+8.0% YoY growth)",
+    "current_runrate": "$1757.2M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ACWA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1012.0M (56.8% margin)",
+    "current_runrate": "$993.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ACWA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "3.85x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ACWA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$338.1M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$311.1M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ACWA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADCBUH",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADCBUH",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "2.80% - 3.05%",
+    "current_runrate": "2.92%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADCBUH",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADCBUH",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADCBUH",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADMELE",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$453.6M (+8.0% YoY growth)",
+    "current_runrate": "$447.3M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADMELE",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$159.5M (35.2% margin)",
+    "current_runrate": "$156.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADMELE",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "2.62x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADMELE",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$53.3M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$49.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ADMELE",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AFRCEL",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$529.2M (+8.0% YoY growth)",
+    "current_runrate": "$521.9M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AFRCEL",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$181.5M (34.3% margin)",
+    "current_runrate": "$178.2M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AFRCEL",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.52x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AFRCEL",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$60.6M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$55.8M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AFRCEL",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AKBNK",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AKBNK",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "5.80% - 6.05%",
+    "current_runrate": "5.92%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AKBNK",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AKBNK",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AKBNK",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ALDAR",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$4212.0M (+8.0% YoY growth)",
+    "current_runrate": "$4153.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ALDAR",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1705.0M (40.5% margin)",
+    "current_runrate": "$1674.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ALDAR",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.00x Net Debt / EBITDA",
+    "current_runrate": "0.51x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ALDAR",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$569.6M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$524.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ALDAR",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARADA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$993.6M (+8.0% YoY growth)",
+    "current_runrate": "$979.8M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARADA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$297.0M (29.9% margin)",
+    "current_runrate": "$291.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARADA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.00x Net Debt / EBITDA",
+    "current_runrate": "1.89x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARADA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$99.2M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$91.3M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARADA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARAGVI",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1566.0M (+8.0% YoY growth)",
+    "current_runrate": "$1544.2M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARAGVI",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$176.0M (11.2% margin)",
+    "current_runrate": "$172.8M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARAGVI",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.63x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARAGVI",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$58.8M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$54.1M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ARAGVI",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AYDEM",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$280.8M (+8.0% YoY growth)",
+    "current_runrate": "$276.9M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AYDEM",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$209.0M (74.4% margin)",
+    "current_runrate": "$205.2M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AYDEM",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "4.11x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AYDEM",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$69.8M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$64.2M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AYDEM",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AZULE",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$3672.0M (+8.0% YoY growth)",
+    "current_runrate": "$3621.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AZULE",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$2475.0M (67.4% margin)",
+    "current_runrate": "$2430.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AZULE",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.58x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AZULE",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$826.9M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$760.7M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "AZULE",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BAPCO",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$9180.0M (+8.0% YoY growth)",
+    "current_runrate": "$9052.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BAPCO",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1375.0M (15.0% margin)",
+    "current_runrate": "$1350.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BAPCO",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "3.40x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BAPCO",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$459.4M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$422.6M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BAPCO",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BINGHA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1350.0M (+8.0% YoY growth)",
+    "current_runrate": "$1331.2M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BINGHA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$418.0M (31.0% margin)",
+    "current_runrate": "$410.4M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BINGHA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.00x Net Debt / EBITDA",
+    "current_runrate": "0.89x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BINGHA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$139.7M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$128.5M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "BINGHA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CCOLA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$4104.0M (+8.0% YoY growth)",
+    "current_runrate": "$4047.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CCOLA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$792.0M (19.3% margin)",
+    "current_runrate": "$777.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CCOLA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.05x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CCOLA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$264.6M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$243.4M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CCOLA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CEZ",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$16416.0M (+8.0% YoY growth)",
+    "current_runrate": "$16188.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CEZ",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$4620.0M (28.1% margin)",
+    "current_runrate": "$4536.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CEZ",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "1.40x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CEZ",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1543.5M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1420.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "CEZ",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DAMAC",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$2268.0M (+8.0% YoY growth)",
+    "current_runrate": "$2236.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DAMAC",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$748.0M (33.0% margin)",
+    "current_runrate": "$734.4M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DAMAC",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.00x Net Debt / EBITDA",
+    "current_runrate": "0.29x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DAMAC",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$249.9M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$229.9M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DAMAC",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANFER",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1512.0M (+8.0% YoY growth)",
+    "current_runrate": "$1491.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANFER",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$715.0M (47.3% margin)",
+    "current_runrate": "$702.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANFER",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.77x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANFER",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$238.9M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$219.8M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANFER",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANREF",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$108.0M (+8.0% YoY growth)",
+    "current_runrate": "$106.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANREF",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$110.0M (101.9% margin)",
+    "current_runrate": "$108.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANREF",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.43x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANREF",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$36.8M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$33.9M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DANREF",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DARARK",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1188.0M (+8.0% YoY growth)",
+    "current_runrate": "$1171.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DARARK",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$396.0M (33.3% margin)",
+    "current_runrate": "$388.8M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DARARK",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.00x Net Debt / EBITDA",
+    "current_runrate": "3.47x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DARARK",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$132.3M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$121.7M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DARARK",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DIBUH",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DIBUH",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "3.10% - 3.35%",
+    "current_runrate": "3.22%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DIBUH",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DIBUH",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DIBUH",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DPW",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$19656.0M (+8.0% YoY growth)",
+    "current_runrate": "$19383.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DPW",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$5610.0M (28.5% margin)",
+    "current_runrate": "$5508.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DPW",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "3.23x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DPW",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1874.2M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1724.3M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DPW",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DTEKUA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$2592.0M (+8.0% YoY growth)",
+    "current_runrate": "$2556.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DTEKUA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$462.0M (17.8% margin)",
+    "current_runrate": "$453.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DTEKUA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "3.02x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DTEKUA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$154.3M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$142.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "DTEKUA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMAAR",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$8424.0M (+8.0% YoY growth)",
+    "current_runrate": "$8307.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMAAR",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$3520.0M (41.8% margin)",
+    "current_runrate": "$3456.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMAAR",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.00x Net Debt / EBITDA",
+    "current_runrate": "100.00x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMAAR",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1176.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1081.9M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMAAR",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EKGYO",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1512.0M (+8.0% YoY growth)",
+    "current_runrate": "$1491.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EKGYO",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$385.0M (25.5% margin)",
+    "current_runrate": "$378.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EKGYO",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.00x Net Debt / EBITDA",
+    "current_runrate": "0.49x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EKGYO",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$128.6M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$118.3M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EKGYO",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMIRAT",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMIRAT",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "3.60% - 3.85%",
+    "current_runrate": "3.72%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMIRAT",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMIRAT",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EMIRAT",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EQUATE",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$3672.0M (+8.0% YoY growth)",
+    "current_runrate": "$3621.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EQUATE",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1078.0M (29.4% margin)",
+    "current_runrate": "$1058.4M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EQUATE",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.65x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EQUATE",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$360.2M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$331.4M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EQUATE",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EREGL",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$7344.0M (+8.0% YoY growth)",
+    "current_runrate": "$7242.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EREGL",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$935.0M (12.7% margin)",
+    "current_runrate": "$918.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EREGL",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.12x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EREGL",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$312.4M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$287.4M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EREGL",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ESKOM",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$15660.0M (+8.0% YoY growth)",
+    "current_runrate": "$15442.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ESKOM",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$2420.0M (15.5% margin)",
+    "current_runrate": "$2376.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ESKOM",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "6.80x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ESKOM",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$808.5M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$743.8M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ESKOM",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FABUH",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FABUH",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "2.40% - 2.65%",
+    "current_runrate": "2.52%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FABUH",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FABUH",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FABUH",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FIRSTR",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FIRSTR",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "4.60% - 4.85%",
+    "current_runrate": "4.72%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FIRSTR",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FIRSTR",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "FIRSTR",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GARAN",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GARAN",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "5.90% - 6.15%",
+    "current_runrate": "6.02%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GARAN",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GARAN",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GARAN",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GDZELE",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$626.4M (+8.0% YoY growth)",
+    "current_runrate": "$617.7M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GDZELE",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$214.5M (34.2% margin)",
+    "current_runrate": "$210.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GDZELE",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "2.62x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GDZELE",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$71.7M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$66.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GDZELE",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GFI",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$4860.0M (+8.0% YoY growth)",
+    "current_runrate": "$4792.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GFI",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$2310.0M (47.5% margin)",
+    "current_runrate": "$2268.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GFI",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "0.85x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GFI",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$771.8M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$710.1M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "GFI",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HALKB",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HALKB",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "4.50% - 4.75%",
+    "current_runrate": "4.62%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HALKB",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HALKB",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HALKB",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HSBKK",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HSBKK",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "6.20% - 6.45%",
+    "current_runrate": "6.32%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HSBKK",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HSBKK",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HSBKK",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HT",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$799.2M (+8.0% YoY growth)",
+    "current_runrate": "$788.1M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HT",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$423.5M (53.0% margin)",
+    "current_runrate": "$415.8M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HT",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "4.49x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HT",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$141.5M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$130.2M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HT",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HIDRO",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$2592.0M (+8.0% YoY growth)",
+    "current_runrate": "$2556.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HIDRO",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1705.0M (65.8% margin)",
+    "current_runrate": "$1674.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HIDRO",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "0.40x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HIDRO",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$569.6M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$524.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "HIDRO",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "IHS",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$2322.0M (+8.0% YoY growth)",
+    "current_runrate": "$2289.8M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "IHS",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1232.0M (53.1% margin)",
+    "current_runrate": "$1209.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "IHS",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "3.16x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "IHS",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$411.6M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$378.7M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "IHS",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ISCTR",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ISCTR",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "5.40% - 5.65%",
+    "current_runrate": "5.52%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ISCTR",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ISCTR",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ISCTR",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ITTIHAD",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1134.0M (+8.0% YoY growth)",
+    "current_runrate": "$1118.2M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ITTIHAD",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$214.5M (18.9% margin)",
+    "current_runrate": "$210.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ITTIHAD",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.41x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ITTIHAD",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$71.7M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$66.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ITTIHAD",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KFH",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KFH",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "3.10% - 3.35%",
+    "current_runrate": "3.22%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KFH",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KFH",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KFH",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KZOK",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$19656.0M (+8.0% YoY growth)",
+    "current_runrate": "$19383.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KZOK",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$5280.0M (26.9% margin)",
+    "current_runrate": "$5184.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KZOK",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.45x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KZOK",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1764.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1622.9M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KZOK",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KCHOL",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$45360.0M (+8.0% YoY growth)",
+    "current_runrate": "$44730.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KCHOL",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$5280.0M (11.6% margin)",
+    "current_runrate": "$5184.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KCHOL",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.25x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KCHOL",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1764.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1622.9M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KCHOL",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KOS",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1890.0M (+8.0% YoY growth)",
+    "current_runrate": "$1863.8M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KOS",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1155.0M (61.1% margin)",
+    "current_runrate": "$1134.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KOS",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.31x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KOS",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$385.9M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$355.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "KOS",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKCEM",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$712.8M (+8.0% YoY growth)",
+    "current_runrate": "$702.9M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKCEM",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$203.5M (28.5% margin)",
+    "current_runrate": "$199.8M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKCEM",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.27x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKCEM",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$68.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$62.6M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKCEM",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKPRT",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$129.6M (+8.0% YoY growth)",
+    "current_runrate": "$127.8M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKPRT",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$85.8M (66.2% margin)",
+    "current_runrate": "$84.2M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKPRT",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "3.08x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKPRT",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$28.7M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$26.4M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKPRT",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKREN",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$410.4M (+8.0% YoY growth)",
+    "current_runrate": "$404.7M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKREN",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$302.5M (73.7% margin)",
+    "current_runrate": "$297.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKREN",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "4.00x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKREN",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$101.1M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$93.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LMKREN",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LIQTEL",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$734.4M (+8.0% YoY growth)",
+    "current_runrate": "$724.2M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LIQTEL",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$231.0M (31.5% margin)",
+    "current_runrate": "$226.8M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LIQTEL",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "5.12x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LIQTEL",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$77.2M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$71.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "LIQTEL",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MAF",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$10584.0M (+8.0% YoY growth)",
+    "current_runrate": "$10437.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MAF",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1595.0M (15.1% margin)",
+    "current_runrate": "$1566.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MAF",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.85x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MAF",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$532.9M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$490.3M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MAF",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "METINV",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$8208.0M (+8.0% YoY growth)",
+    "current_runrate": "$8094.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "METINV",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1012.0M (12.3% margin)",
+    "current_runrate": "$993.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "METINV",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.79x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "METINV",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$338.1M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$311.1M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "METINV",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MHPSA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$3348.0M (+8.0% YoY growth)",
+    "current_runrate": "$3301.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MHPSA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$506.0M (15.1% margin)",
+    "current_runrate": "$496.8M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MHPSA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.89x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MHPSA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$169.1M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$155.6M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MHPSA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MOL",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$25920.0M (+8.0% YoY growth)",
+    "current_runrate": "$25560.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MOL",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$3410.0M (13.2% margin)",
+    "current_runrate": "$3348.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MOL",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.10x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MOL",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1139.2M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1048.1M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MOL",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MTNSJ",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$12744.0M (+8.0% YoY growth)",
+    "current_runrate": "$12567.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MTNSJ",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$4950.0M (38.8% margin)",
+    "current_runrate": "$4860.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MTNSJ",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.65x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MTNSJ",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1653.8M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1521.5M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "MTNSJ",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OCP",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$10260.0M (+8.0% YoY growth)",
+    "current_runrate": "$10117.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OCP",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$3520.0M (34.3% margin)",
+    "current_runrate": "$3456.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OCP",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.34x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OCP",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1176.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1081.9M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OCP",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ORDS",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$7020.0M (+8.0% YoY growth)",
+    "current_runrate": "$6922.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ORDS",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$3080.0M (43.9% margin)",
+    "current_runrate": "$3024.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ORDS",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.10x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ORDS",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1029.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$946.7M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ORDS",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OQ",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$34560.0M (+8.0% YoY growth)",
+    "current_runrate": "$34080.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OQ",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$5060.0M (14.6% margin)",
+    "current_runrate": "$4968.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OQ",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.80x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OQ",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1690.5M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1555.3M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "OQ",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PKN",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$73440.0M (+8.0% YoY growth)",
+    "current_runrate": "$72420.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PKN",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$9350.0M (12.7% margin)",
+    "current_runrate": "$9180.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PKN",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "0.95x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PKN",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$3123.8M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$2873.9M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PKN",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGSUS",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$3456.0M (+8.0% YoY growth)",
+    "current_runrate": "$3408.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGSUS",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1045.0M (30.2% margin)",
+    "current_runrate": "$1026.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGSUS",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.10x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGSUS",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$349.1M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$321.2M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGSUS",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGE",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$21060.0M (+8.0% YoY growth)",
+    "current_runrate": "$20767.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGE",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$3080.0M (14.6% margin)",
+    "current_runrate": "$3024.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGE",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "1.85x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGE",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1029.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$946.7M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "PGE",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QAZGAS",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$3024.0M (+8.0% YoY growth)",
+    "current_runrate": "$2982.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QAZGAS",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$935.0M (30.9% margin)",
+    "current_runrate": "$918.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QAZGAS",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.20x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QAZGAS",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$312.4M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$287.4M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QAZGAS",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QNBK",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QNBK",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "2.85% - 3.10%",
+    "current_runrate": "2.97%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QNBK",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QNBK",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "QNBK",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RJHI",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RJHI",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "3.90% - 4.15%",
+    "current_runrate": "4.02%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RJHI",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RJHI",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RJHI",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RIBL",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RIBL",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "3.20% - 3.45%",
+    "current_runrate": "3.32%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RIBL",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RIBL",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RIBL",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ROMGAZ",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$2268.0M (+8.0% YoY growth)",
+    "current_runrate": "$2236.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ROMGAZ",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1078.0M (47.5% margin)",
+    "current_runrate": "$1058.4M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ROMGAZ",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "0.65x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ROMGAZ",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$360.2M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$331.4M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ROMGAZ",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SABIC",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$41580.0M (+8.0% YoY growth)",
+    "current_runrate": "$41002.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SABIC",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$6380.0M (15.3% margin)",
+    "current_runrate": "$6264.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SABIC",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.15x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SABIC",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$2131.5M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1961.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SABIC",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SAMPA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$367.2M (+8.0% YoY growth)",
+    "current_runrate": "$362.1M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SAMPA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$85.8M (23.4% margin)",
+    "current_runrate": "$84.2M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SAMPA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.54x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SAMPA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$28.7M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$26.4M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SAMPA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOLSJ",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$15336.0M (+8.0% YoY growth)",
+    "current_runrate": "$15123.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOLSJ",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$3135.0M (20.4% margin)",
+    "current_runrate": "$3078.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOLSJ",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.04x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOLSJ",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1047.4M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$963.6M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOLSJ",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SECO",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$24624.0M (+8.0% YoY growth)",
+    "current_runrate": "$24282.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SECO",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$9240.0M (37.5% margin)",
+    "current_runrate": "$9072.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SECO",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "3.20x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SECO",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$3087.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$2840.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SECO",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SISE",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$5940.0M (+8.0% YoY growth)",
+    "current_runrate": "$5857.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SISE",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1210.0M (20.4% margin)",
+    "current_runrate": "$1188.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SISE",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.18x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SISE",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$404.2M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$371.9M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SISE",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SNB",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SNB",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "3.00% - 3.25%",
+    "current_runrate": "3.12%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SNB",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SNB",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SNB",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOBHA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1782.0M (+8.0% YoY growth)",
+    "current_runrate": "$1757.2M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOBHA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$528.0M (29.6% margin)",
+    "current_runrate": "$518.4M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOBHA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.00x Net Debt / EBITDA",
+    "current_runrate": "0.83x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOBHA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$176.4M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$162.3M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SOBHA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SONANG",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$13608.0M (+8.0% YoY growth)",
+    "current_runrate": "$13419.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SONANG",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$5280.0M (38.8% margin)",
+    "current_runrate": "$5184.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SONANG",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.29x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SONANG",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1764.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1622.9M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "SONANG",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STANBI",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STANBI",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "4.45% - 4.70%",
+    "current_runrate": "4.57%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STANBI",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STANBI",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STANBI",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STC",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$22140.0M (+8.0% YoY growth)",
+    "current_runrate": "$21832.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STC",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$7920.0M (35.8% margin)",
+    "current_runrate": "$7776.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STC",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "0.65x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STC",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$2646.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$2434.3M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "STC",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TAQA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$15336.0M (+8.0% YoY growth)",
+    "current_runrate": "$15123.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TAQA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$6160.0M (40.2% margin)",
+    "current_runrate": "$6048.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TAQA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 4.00x Net Debt / EBITDA",
+    "current_runrate": "1.85x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TAQA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$2058.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1893.4M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TAQA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THARISA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$766.8M (+8.0% YoY growth)",
+    "current_runrate": "$756.1M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THARISA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$203.5M (26.5% margin)",
+    "current_runrate": "$199.8M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THARISA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "0.38x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THARISA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$68.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$62.6M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THARISA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THYAO",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$22680.0M (+8.0% YoY growth)",
+    "current_runrate": "$22365.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THYAO",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$4840.0M (21.3% margin)",
+    "current_runrate": "$4752.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THYAO",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.95x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THYAO",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$1617.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$1487.6M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "THYAO",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TTKOM",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$3888.0M (+8.0% YoY growth)",
+    "current_runrate": "$3834.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TTKOM",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1485.0M (38.2% margin)",
+    "current_runrate": "$1458.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TTKOM",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.45x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TTKOM",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$496.1M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$456.4M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TTKOM",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TLW",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$1490.4M (+8.0% YoY growth)",
+    "current_runrate": "$1469.7M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TLW",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$902.0M (60.5% margin)",
+    "current_runrate": "$885.6M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TLW",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "2.30x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TLW",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$301.4M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$277.3M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TLW",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TUPRAS",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$19980.0M (+8.0% YoY growth)",
+    "current_runrate": "$19702.5M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TUPRAS",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1980.0M (9.9% margin)",
+    "current_runrate": "$1944.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TUPRAS",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "0.75x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TUPRAS",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$661.5M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$608.6M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TUPRAS",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TCELL",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$4536.0M (+8.0% YoY growth)",
+    "current_runrate": "$4473.0M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TCELL",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$1925.0M (42.4% margin)",
+    "current_runrate": "$1890.0M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TCELL",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "1.15x",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TCELL",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$643.1M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$591.7M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "TCELL",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EXCRTU",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EXCRTU",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "3.80% - 4.05%",
+    "current_runrate": "3.92%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EXCRTU",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EXCRTU",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "EXCRTU",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RAILUA",
+    "guidance_metric": "2025E Full-Year Gross Revenue Target",
+    "management_target": "$3160.0M (+10.9% YoY growth)",
+    "current_runrate": "$3035.2M (+6.5% YoY)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RAILUA",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$440.0M (13.9% margin)",
+    "current_runrate": "$410.4M",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RAILUA",
+    "guidance_metric": "Long-Term Net Leverage Ceiling",
+    "management_target": "< 3.25x Net Debt / EBITDA",
+    "current_runrate": "3.86x",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RAILUA",
+    "guidance_metric": "2025E Strategic Capex Envelope",
+    "management_target": "$400.0M (Maximum growth and sustaining envelope)",
+    "current_runrate": "$368.0M committed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "RAILUA",
+    "guidance_metric": "Annual Dividend Payout Policy",
+    "management_target": "30% - 40% payout of attributable net profit",
+    "current_runrate": "35% payout policy maintained",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "VAKBN",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "VAKBN",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "4.90% - 5.15%",
+    "current_runrate": "5.02%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "VAKBN",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "VAKBN",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "VAKBN",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "YKBNK",
+    "guidance_metric": "2025E Gross Loan Book Growth",
+    "management_target": "+12.0% - 15.0% YoY organic lending expansion",
+    "current_runrate": "+13.8% YoY annualized loan disbursement",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "YKBNK",
+    "guidance_metric": "Net Interest Margin (NIM)",
+    "management_target": "5.30% - 5.55%",
+    "current_runrate": "5.42%",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "YKBNK",
+    "guidance_metric": "Cost-to-Income Ratio (CIR)",
+    "management_target": "< 38.0%",
+    "current_runrate": "36.8%",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "YKBNK",
+    "guidance_metric": "Cost of Risk (Credit Impairment)",
+    "management_target": "< 75 - 90 bps of gross loans",
+    "current_runrate": "68 bps annualized credit cost",
+    "tracking_status": "Ahead of Target"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "YKBNK",
+    "guidance_metric": "Dividend Payout Ratio",
+    "management_target": "40.0% of annual attributable net profit",
+    "current_runrate": "40.0% payout proposed",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ZOREN",
+    "guidance_metric": "2025E Full-Year Consolidated Revenue Target",
+    "management_target": "$1,280M - $1,320M (+8.0% YoY)",
+    "current_runrate": "$1,295M annualized (9M24 actuals)",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ZOREN",
+    "guidance_metric": "2025E Consolidated EBITDA Target",
+    "management_target": "$330M - $350M (26.5% - 27.5% margin)",
+    "current_runrate": "$338M annualized run-rate",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ZOREN",
+    "guidance_metric": "Consolidated Net Leverage Ceiling",
+    "management_target": "< 3.50x Net Debt / EBITDA",
+    "current_runrate": "4.82x Net Debt / EBITDA (2024A)",
+    "tracking_status": "Under Watch"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ZOREN",
+    "guidance_metric": "2025E Strategic Capex Discipline Envelope",
+    "management_target": "< $115.0M maximum capex envelope",
+    "current_runrate": "$108.2M committed / incurred",
+    "tracking_status": "On Track"
+  },
+  {
+    "snapshot_run_id": "SNAP-20251231-001",
+    "snapshot_date": "2025-12-31",
+    "timestamp": "2025-12-31T16:00:00Z",
+    "ticker": "ZOREN",
+    "guidance_metric": "ZES Electric Vehicle Fast-Charging Sockets",
+    "management_target": "2,200+ public sockets by end-2025",
+    "current_runrate": "1,850 sockets active across 81 provinces",
+    "tracking_status": "Ahead of Target"
+  }
+]

@@ -311,6 +311,20 @@ function renderTable() {
                 <span style="color:var(--text-dim);">YTM:</span> <strong style="color:var(--accent-gold);">${m.ytm.toFixed(2)}%</strong>
                 <span style="color:#334155;">|</span>
                 <span style="color:var(--text-dim);">Spread:</span> <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong>
+                ${(() => {
+                  const hist = item.market_history || (window.CREDIT_HISTORY_DATA && window.CREDIT_HISTORY_DATA[m.ticker] ? window.CREDIT_HISTORY_DATA[m.ticker].snapshots : []);
+                  if (!hist || hist.length < 2) return '';
+                  const latest = hist[hist.length - 1].spread_bp;
+                  const prior90d = hist[Math.max(0, hist.length - 2)].spread_bp;
+                  const prior1y = hist[Math.max(0, hist.length - 4)].spread_bp;
+                  const d90 = latest - prior90d;
+                  const d1y = latest - prior1y;
+                  const col90 = d90 <= 0 ? '#10b981' : '#f43f5e';
+                  const col1y = d1y <= 0 ? '#10b981' : '#f43f5e';
+                  return `<span style="font-size:10px; padding:2px 6px; border-radius:3px; background:#0f172a; border:1px solid #334155; margin-left:4px; font-weight:normal;" title="Historical spread change over 90 days and 1 year">
+                    90d: <strong style="color:${col90};">${d90 <= 0 ? '' : '+'}${d90}bp</strong> | 1Y: <strong style="color:${col1y};">${d1y <= 0 ? '' : '+'}${d1y}bp</strong>
+                  </span>`;
+                })()}
                 ${isUkrRail ? '<span style="color:#334155;">|</span> <span class="badge badge-stress">Eurobond Moratorium / Standstill</span>' : ''}
               </div>
             </div>
@@ -849,6 +863,75 @@ function renderTable() {
                       <div>
                         <strong style="color:#fff;">Cross-Default:</strong> ${cov.cross_default_threshold || '$50.0M cross-acceleration threshold.'}
                       </div>
+                    </div>
+                  </div>
+
+                  <!-- Section 4: Historical Snapshot Audit Trail & Secondary Pricing Drift -->
+                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-top:14px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                      <div style="display:flex; align-items:center; gap:8px;">
+                        <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
+                          📜 Historical Snapshot Audit Trail & Secondary Pricing Drift
+                        </h4>
+                        <span class="badge badge-sector">${(item.market_history || []).length} Recorded Snapshots</span>
+                      </div>
+                      <span style="font-size:11px; color:#64748b;">Storage: SQLite + database/snapshots/</span>
+                    </div>
+                    <div style="overflow-x:auto;">
+                      <table class="drawer-table" style="margin:0; font-size:11px;">
+                        <thead>
+                          <tr>
+                            <th style="width:95px;">Snapshot Date</th>
+                            <th>Period</th>
+                            <th>Rating</th>
+                            <th class="num">Clean Price</th>
+                            <th class="num">YTM</th>
+                            <th class="num">Spread (bp)</th>
+                            <th class="num">Period Δ</th>
+                            <th class="num">Net Lev (x)</th>
+                            <th>Guidance Status</th>
+                            <th>Storage Manifest</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          ${(() => {
+                            const hist = item.market_history || [];
+                            if (hist.length === 0) {
+                              return `<tr><td colspan="10" style="text-align:center; color:#64748b; padding:12px;">No historical snapshots captured yet.</td></tr>`;
+                            }
+                            return hist.slice().reverse().map((snap, sIdx, arr) => {
+                              const prior = arr[sIdx + 1];
+                              const spreadDelta = prior ? snap.spread_bp - prior.spread_bp : 0;
+                              const spreadDeltaCol = spreadDelta <= 0 ? '#10b981' : '#f43f5e';
+                              const sign = spreadDelta <= 0 ? '' : '+';
+                              
+                              let gBadge = 'badge-ig';
+                              if (snap.guidance_status === 'Under Watch') gBadge = 'badge-stress';
+                              else if (snap.guidance_status === 'Lagging') gBadge = 'badge-hy';
+                              else if (snap.guidance_status === 'Ahead of Target') gBadge = 'badge-sector';
+
+                              return `
+                                <tr>
+                                  <td><strong>${snap.date}</strong></td>
+                                  <td><span class="badge badge-sector" style="font-size:9.5px;">${snap.period_name || snap.date}</span></td>
+                                  <td><span class="badge badge-hy" style="font-size:9.5px;">${snap.rating}</span></td>
+                                  <td class="num">$${Number(snap.price).toFixed(2)}</td>
+                                  <td class="num"><strong>${Number(snap.ytm).toFixed(2)}%</strong></td>
+                                  <td class="num"><strong style="color:var(--accent-blue);">+${snap.spread_bp}</strong></td>
+                                  <td class="num" style="color:${spreadDeltaCol}; font-weight:600;">
+                                    ${prior ? `${sign}${spreadDelta} bp` : '-'}
+                                  </td>
+                                  <td class="num">${snap.net_leverage ? Number(snap.net_leverage).toFixed(2) + 'x' : '-'}</td>
+                                  <td><span class="badge ${gBadge}" style="font-size:9.5px;">${snap.guidance_status || 'On Track'}</span></td>
+                                  <td style="font-size:10px; color:#64748b;">
+                                    <code>SNAP-${snap.date.replace(/-/g, '')}-001</code>
+                                  </td>
+                                </tr>
+                              `;
+                            }).join('');
+                          })()}
+                        </tbody>
+                      </table>
                     </div>
                   </div>
 
@@ -1408,11 +1491,93 @@ function exportFilteredCSV() {
 
 // ----------------- TRENDS LOGIC (trends.html) -----------------
 let trendChartInstance = null;
+let currentTrendMode = 'mkt'; // 'mkt' (Market History) or 'fin' (Financial Statements)
+
+const MKT_METRIC_CONFIG = {
+  spread_bp: { label: "Secondary Benchmark Spread (bp)", unit: "bp" },
+  price: { label: "Clean Benchmark Bond Price ($)", unit: "$" },
+  ytm: { label: "Yield to Maturity (YTM %)", unit: "%" },
+  net_leverage: { label: "Net Debt / EBITDA (x)", unit: "x" }
+};
+
+const FIN_METRIC_CONFIG = {
+  net_leverage: { label: "Net Leverage Ratio (x)" },
+  ebitda_margin_pct: { label: "EBITDA Margin (%)" },
+  revenue: { label: "Revenue ($M)" },
+  ebitda: { label: "EBITDA ($M)" },
+  fcf: { label: "Free Cash Flow ($M)" },
+  interest_coverage: { label: "Interest Coverage (x)" },
+  nim_pct: { label: "Net Interest Margin (%) - Banks" },
+  roe_pct: { label: "Return on Equity (%) - Banks" },
+  cir_pct: { label: "Cost-to-Income Ratio (%) - Banks" }
+};
+
+function setTrendMode(mode) {
+  currentTrendMode = mode;
+  const btnMkt = document.getElementById("btn-mode-mkt");
+  const btnFin = document.getElementById("btn-mode-fin");
+  if (btnMkt && btnFin) {
+    if (mode === 'mkt') {
+      btnMkt.style.background = "var(--accent-blue)";
+      btnMkt.style.color = "#fff";
+      btnMkt.style.borderColor = "var(--accent-blue)";
+      btnFin.style.background = "#1e293b";
+      btnFin.style.color = "#94a3b8";
+      btnFin.style.borderColor = "#334155";
+    } else {
+      btnFin.style.background = "var(--accent-blue)";
+      btnFin.style.color = "#fff";
+      btnFin.style.borderColor = "var(--accent-blue)";
+      btnMkt.style.background = "#1e293b";
+      btnMkt.style.color = "#94a3b8";
+      btnMkt.style.borderColor = "#334155";
+    }
+  }
+
+  const titleElem = document.getElementById("chart-main-title");
+  const subtextElem = document.getElementById("trend-subtext");
+  if (mode === 'mkt') {
+    if (titleElem) titleElem.textContent = "Secondary Market & Spread History (Periodic Snapshots: 2024 - Present)";
+    if (subtextElem) subtextElem.textContent = "Multi-period market snapshots tracking rating drift, secondary spreads, bond pricing, and guidance status.";
+  } else {
+    if (titleElem) titleElem.textContent = "Multi-Period Financial Statement Trajectory (2021A - 2027E)";
+    if (subtextElem) subtextElem.textContent = "Data spans 2021A - 2027E (Historical Audited Statements + Institutional Projections).";
+  }
+
+  populateMetricOptions();
+  renderTrendChart();
+}
+
+function populateMetricOptions() {
+  const metricSel = document.getElementById("trend-metric");
+  if (!metricSel) return;
+  metricSel.innerHTML = "";
+
+  if (currentTrendMode === 'mkt') {
+    Object.entries(MKT_METRIC_CONFIG).forEach(([key, cfg]) => {
+      const opt = document.createElement("option");
+      opt.value = key;
+      opt.textContent = cfg.label;
+      metricSel.appendChild(opt);
+    });
+    metricSel.value = "spread_bp";
+  } else {
+    Object.entries(FIN_METRIC_CONFIG).forEach(([key, cfg]) => {
+      const opt = document.createElement("option");
+      opt.value = key;
+      opt.textContent = cfg.label;
+      metricSel.appendChild(opt);
+    });
+    metricSel.value = "net_leverage";
+  }
+}
 
 function initTrendChart() {
   const sectorSel = document.getElementById("trend-sector");
   const metricSel = document.getElementById("trend-metric");
+  if (!sectorSel || !metricSel) return;
   
+  sectorSel.innerHTML = "";
   const sectors = [...new Set(MASTER_ISSUERS.map(i => i.metadata.sector))].sort();
   sectors.forEach(s => {
     const opt = document.createElement("option");
@@ -1420,40 +1585,82 @@ function initTrendChart() {
     sectorSel.appendChild(opt);
   });
   
-  sectorSel.value = "Real Estate";
-  metricSel.value = "net_leverage";
+  sectorSel.value = "Utilities";
+  populateMetricOptions();
   
   sectorSel.addEventListener("change", renderTrendChart);
   metricSel.addEventListener("change", renderTrendChart);
   
-  renderTrendChart();
+  setTrendMode('mkt');
 }
 
 function renderTrendChart() {
-  const sec = document.getElementById("trend-sector").value;
-  const metric = document.getElementById("trend-metric").value;
+  const sectorSel = document.getElementById("trend-sector");
+  const metricSel = document.getElementById("trend-metric");
+  if (!sectorSel || !metricSel) return;
+
+  const sec = sectorSel.value;
+  const metric = metricSel.value;
   const peers = MASTER_ISSUERS.filter(i => i.metadata.sector === sec);
   
-  const periods = ["2021A", "2022A", "2023A", "2024A", "2025E", "2026E", "2027E"];
-  const colors = ["#3b82f6", "#10b981", "#f59e0b", "#ec4899", "#8b5cf6", "#06b6d4", "#f97316", "#14b8a6"];
+  const colors = ["#3b82f6", "#10b981", "#f59e0b", "#ec4899", "#8b5cf6", "#06b6d4", "#f97316", "#14b8a6", "#e11d48", "#a855f7"];
   
-  const datasets = peers.map((p, idx) => {
-    const data = periods.map(per => {
-      const f = p.financials_multi_year.find(x => x.period === per);
-      return f ? f[metric] : null;
+  let labels = [];
+  let datasets = [];
+
+  if (currentTrendMode === 'mkt') {
+    const dateSet = new Set();
+    peers.forEach(p => {
+      const hist = p.market_history || (window.CREDIT_HISTORY_DATA && window.CREDIT_HISTORY_DATA[p.metadata.ticker] ? window.CREDIT_HISTORY_DATA[p.metadata.ticker].snapshots : []);
+      if (hist) hist.forEach(s => dateSet.add(s.date));
     });
-    return {
-      label: `${p.metadata.name} (${p.metadata.ticker})`,
-      data: data,
-      borderColor: colors[idx % colors.length],
-      backgroundColor: colors[idx % colors.length] + "22",
-      borderWidth: 2.5,
-      tension: 0.25,
-      fill: false,
-      pointRadius: 4,
-      pointHoverRadius: 7
-    };
-  });
+    labels = Array.from(dateSet).sort();
+
+    datasets = peers.map((p, idx) => {
+      const hist = p.market_history || (window.CREDIT_HISTORY_DATA && window.CREDIT_HISTORY_DATA[p.metadata.ticker] ? window.CREDIT_HISTORY_DATA[p.metadata.ticker].snapshots : []);
+      const histMap = {};
+      if (hist) {
+        hist.forEach(s => { histMap[s.date] = s; });
+      }
+
+      const data = labels.map(d => {
+        const entry = histMap[d];
+        return entry ? entry[metric] : null;
+      });
+
+      return {
+        label: `${p.metadata.name} (${p.metadata.ticker})`,
+        data: data,
+        borderColor: colors[idx % colors.length],
+        backgroundColor: colors[idx % colors.length] + "22",
+        borderWidth: 2.5,
+        tension: 0.25,
+        fill: false,
+        pointRadius: 4,
+        pointHoverRadius: 7,
+        meta_history: labels.map(d => histMap[d] || {})
+      };
+    });
+  } else {
+    labels = ["2021A", "2022A", "2023A", "2024A", "2025E", "2026E", "2027E"];
+    datasets = peers.map((p, idx) => {
+      const data = labels.map(per => {
+        const f = p.financials_multi_year.find(x => x.period === per);
+        return f ? f[metric] : null;
+      });
+      return {
+        label: `${p.metadata.name} (${p.metadata.ticker})`,
+        data: data,
+        borderColor: colors[idx % colors.length],
+        backgroundColor: colors[idx % colors.length] + "22",
+        borderWidth: 2.5,
+        tension: 0.25,
+        fill: false,
+        pointRadius: 4,
+        pointHoverRadius: 7
+      };
+    });
+  }
   
   const ctx = document.getElementById("trendCanvas").getContext("2d");
   if (trendChartInstance) trendChartInstance.destroy();
@@ -1461,7 +1668,7 @@ function renderTrendChart() {
   trendChartInstance = new Chart(ctx, {
     type: 'line',
     data: {
-      labels: periods,
+      labels: labels,
       datasets: datasets
     },
     options: {
@@ -1483,35 +1690,57 @@ function renderTrendChart() {
           borderWidth: 1,
           padding: 10,
           callbacks: {
+            label: function(context) {
+              const val = context.parsed.y;
+              const ds = context.dataset;
+              let suffix = "";
+              if (currentTrendMode === 'mkt') {
+                if (metric === 'spread_bp') suffix = " bp";
+                else if (metric === 'price') return ` ${ds.label}: $${val.toFixed(2)}`;
+                else if (metric === 'ytm') suffix = "%";
+                else if (metric === 'net_leverage') suffix = "x";
+              }
+              return ` ${ds.label}: ${val !== null ? val + suffix : 'N/A'}`;
+            },
             afterBody: function(items) {
-              const pIdx = items[0].dataIndex;
-              const per = periods[pIdx];
-              return "\n" + (per.includes("A") ? "[Audited Financials]" : "[Institutional Forecast]");
+              if (currentTrendMode === 'mkt') {
+                const item = items[0];
+                const ds = item.dataset;
+                const snap = ds.meta_history ? ds.meta_history[item.dataIndex] : {};
+                if (snap && snap.rating) {
+                  return `\nSnapshot Rating: ${snap.rating}\nBenchmark: ${snap.price ? '$' + snap.price.toFixed(2) : ''} (${snap.ytm ? snap.ytm.toFixed(2) + '%' : ''})\nGuidance: ${snap.guidance_status || 'On Track'}`;
+                }
+              } else {
+                const pIdx = items[0].dataIndex;
+                const per = labels[pIdx];
+                return "\n" + (per.includes("A") ? "[Audited Financials]" : "[Institutional Forecast]");
+              }
+              return "";
             }
           }
         }
       },
       scales: {
         x: {
-          grid: { color: '#1e293b' },
+          grid: { color: '#1f293d' },
           ticks: { color: '#9ca3af' }
         },
         y: {
-          grid: { color: '#1e293b' },
+          grid: { color: '#1f293d' },
           ticks: { color: '#9ca3af' }
         }
       }
     }
   });
   
-  // Render Footnotes for this sector
+  // Render sector notes
   const notesDiv = document.getElementById("trend-sector-notes");
   if (notesDiv) {
     const secNotes = MASTER_ANNOTATIONS.filter(a => a.sector === sec).slice(0, 6);
     notesDiv.innerHTML = secNotes.map(n => `
-      <div class="note-card" style="margin-bottom:12px;">
-        <div class="note-topic">[${n.source}] ${n.topic} — ${n.issuer_name}</div>
-        <div class="note-body">${n.note}</div>
+      <div class="note-card" style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:12px; margin-bottom:12px;">
+        <div style="font-size:10px; color:var(--accent-gold); text-transform:uppercase; margin-bottom:4px;">[${n.source}] ${n.topic} &bull; ${n.issuer_name || ''}</div>
+        <div style="font-size:12px; color:#fff; line-height:1.4;">${n.note}</div>
       </div>
     `).join('');
   }

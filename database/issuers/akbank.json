@@ -373,7 +373,7 @@
     "recovery_base_pct": 102.5,
     "implied_stress_ev_multiple": "Prudential Resolution",
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Lowest NPL in Turkey (1.5%); highest CAR (19.4%); pristine Sabancı Group sponsorship."
+    "thesis": "Lowest NPL in Turkey (1.5%); highest CAR (19.4%); pristine Sabanc\u0131 Group sponsorship."
   },
   "annotations": [
     {
@@ -620,6 +620,151 @@
       "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
       "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
       "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "B+ / B2",
+      "price": 96.0,
+      "ytm": 7.8,
+      "spread_bp": 231,
+      "net_leverage": 3.85,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "B+ / B2",
+      "price": 97.4,
+      "ytm": 7.4,
+      "spread_bp": 218,
+      "net_leverage": 3.75,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "BB- / B1",
+      "price": 98.7,
+      "ytm": 7.05,
+      "spread_bp": 207,
+      "net_leverage": 3.65,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "BB- / B1",
+      "price": 99.4,
+      "ytm": 6.75,
+      "spread_bp": 194,
+      "net_leverage": 3.55,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "BB- / B1",
+      "price": 99.8,
+      "ytm": 6.6,
+      "spread_bp": 191,
+      "net_leverage": 3.52,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "BB- / B1",
+      "price": 100.5,
+      "ytm": 6.35,
+      "spread_bp": 181,
+      "net_leverage": 3.45,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "BB- / B1",
+      "price": 100.8,
+      "ytm": 6.25,
+      "spread_bp": 178,
+      "net_leverage": 3.4,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "BB- / B1",
+      "price": 101.0,
+      "ytm": 6.2,
+      "spread_bp": 176,
+      "net_leverage": 3.38,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "BB- / B1",
+      "price": 100.6,
+      "ytm": 6.3,
+      "spread_bp": 179,
+      "net_leverage": 3.42,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "BB- / B1",
+      "price": 100.3,
+      "ytm": 6.4,
+      "spread_bp": 183,
+      "net_leverage": 3.48,
+      "ebitda": 500.0,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:38:33.972524",
+      "rating": "BB- / B1",
+      "price": 100.2,
+      "ytm": 6.45,
+      "spread_bp": 185,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ]
 }

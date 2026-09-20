@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "limak_port",
-    "name": "LimakPort İskenderun",
+    "name": "LimakPort \u0130skenderun",
     "ticker": "LMKPRT",
     "country": "Turkey",
     "region": "CEEMEA",
@@ -327,7 +327,7 @@
   "annotations": [
     {
       "issuer_id": "limak_port",
-      "issuer_name": "LimakPort İskenderun",
+      "issuer_name": "LimakPort \u0130skenderun",
       "sector": "Infrastructure",
       "topic": "Concession Duration & Tariff Autonomy",
       "source": "Cognitive Credit / S&P Global",
@@ -335,7 +335,7 @@
     },
     {
       "issuer_id": "limak_port",
-      "issuer_name": "LimakPort İskenderun",
+      "issuer_name": "LimakPort \u0130skenderun",
       "sector": "Infrastructure",
       "topic": "Volume Stability & Throughput",
       "source": "Terminal Authority Disclosures",
@@ -343,7 +343,7 @@
     },
     {
       "issuer_id": "limak_port",
-      "issuer_name": "LimakPort İskenderun",
+      "issuer_name": "LimakPort \u0130skenderun",
       "sector": "Infrastructure",
       "topic": "Holding Company Structural Priority",
       "source": "Offering Circular Waterfall",
@@ -351,7 +351,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+    "source_deck": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
     "reporting_currency": "USD",
     "management_guidance_targets": {
       "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
@@ -498,7 +498,7 @@
       "current_runrate": "$127.8M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+      "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $129.6M (+8.0% YoY growth). With current run-rate at $127.8M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -509,7 +509,7 @@
       "current_runrate": "$84.2M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+      "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $85.8M (66.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -520,7 +520,7 @@
       "current_runrate": "3.08x",
       "tracking_status": "On Track",
       "variance_analysis": "Deleveraging on track with 0.67x buffer below covenant limit.",
-      "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+      "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 3.08x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -531,7 +531,7 @@
       "current_runrate": "$26.4M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+      "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $28.7M (Maximum growth and sustaining envelope). Current commitments stand at $26.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -542,7 +542,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+      "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -570,6 +570,151 @@
       "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
       "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
       "deduced_from": "Debt schedule notes and capital management disclosures."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "B / B3",
+      "price": 94.3,
+      "ytm": 9.2,
+      "spread_bp": 431,
+      "net_leverage": 3.43,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "B / B3",
+      "price": 95.7,
+      "ytm": 8.8,
+      "spread_bp": 407,
+      "net_leverage": 3.33,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "B / B3",
+      "price": 97.0,
+      "ytm": 8.45,
+      "spread_bp": 386,
+      "net_leverage": 3.23,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "B / B3",
+      "price": 97.7,
+      "ytm": 8.15,
+      "spread_bp": 362,
+      "net_leverage": 3.13,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "B / B3",
+      "price": 98.1,
+      "ytm": 8.0,
+      "spread_bp": 355,
+      "net_leverage": 3.1,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "B / B3",
+      "price": 98.8,
+      "ytm": 7.75,
+      "spread_bp": 338,
+      "net_leverage": 3.03,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "B / B3",
+      "price": 99.1,
+      "ytm": 7.65,
+      "spread_bp": 331,
+      "net_leverage": 2.98,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "B / B3",
+      "price": 99.3,
+      "ytm": 7.6,
+      "spread_bp": 328,
+      "net_leverage": 2.96,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "B / B3",
+      "price": 98.9,
+      "ytm": 7.7,
+      "spread_bp": 335,
+      "net_leverage": 3.0,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "B / B3",
+      "price": 98.6,
+      "ytm": 7.8,
+      "spread_bp": 342,
+      "net_leverage": 3.06,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:38:33.972524",
+      "rating": "B / B3",
+      "price": 98.5,
+      "ytm": 7.85,
+      "spread_bp": 345,
+      "net_leverage": 3.08,
+      "ebitda": 78.0,
+      "fcf": 39.0,
+      "guidance_status": "On Track"
     }
   ]
 }

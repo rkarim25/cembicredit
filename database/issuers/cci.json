@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "cci",
-    "name": "Coca-Cola İçecek (CCI)",
+    "name": "Coca-Cola \u0130\u00e7ecek (CCI)",
     "ticker": "CCOLA",
     "country": "Turkey",
     "region": "Turkey",
@@ -327,7 +327,7 @@
   "annotations": [
     {
       "issuer_id": "cci",
-      "issuer_name": "Coca-Cola İçecek (CCI)",
+      "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
       "sector": "Consumer",
       "topic": "Retail Footprint & Concession Moat",
       "source": "Cognitive Credit / Broker Consensus",
@@ -335,7 +335,7 @@
     },
     {
       "issuer_id": "cci",
-      "issuer_name": "Coca-Cola İçecek (CCI)",
+      "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
       "sector": "Consumer",
       "topic": "Working Capital & Free Cash Flow",
       "source": "Financial Statements",
@@ -343,7 +343,7 @@
     },
     {
       "issuer_id": "cci",
-      "issuer_name": "Coca-Cola İçecek (CCI)",
+      "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
       "sector": "Consumer",
       "topic": "Geographic Diversification",
       "source": "Investor Presentations",
@@ -351,7 +351,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+    "source_deck": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
@@ -494,7 +494,7 @@
       "current_runrate": "$4047.0M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $4104.0M (+8.0% YoY growth). With current run-rate at $4047.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -505,7 +505,7 @@
       "current_runrate": "$777.6M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $792.0M (19.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -516,7 +516,7 @@
       "current_runrate": "1.05x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 2.70x buffer below covenant limit.",
-      "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.05x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -527,7 +527,7 @@
       "current_runrate": "$243.4M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $264.6M (Maximum growth and sustaining envelope). Current commitments stand at $243.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -538,7 +538,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -566,6 +566,151 @@
       "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
       "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
       "deduced_from": "Debt schedule notes and capital management disclosures."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 93.0,
+      "ytm": 6.7,
+      "spread_bp": 162,
+      "net_leverage": 1.4,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 94.4,
+      "ytm": 6.3,
+      "spread_bp": 153,
+      "net_leverage": 1.3,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 95.7,
+      "ytm": 5.95,
+      "spread_bp": 146,
+      "net_leverage": 1.2,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 96.4,
+      "ytm": 5.65,
+      "spread_bp": 136,
+      "net_leverage": 1.1,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 96.8,
+      "ytm": 5.5,
+      "spread_bp": 134,
+      "net_leverage": 1.07,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 97.5,
+      "ytm": 5.25,
+      "spread_bp": 127,
+      "net_leverage": 1.0,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 97.8,
+      "ytm": 5.15,
+      "spread_bp": 125,
+      "net_leverage": 0.95,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 98.0,
+      "ytm": 5.1,
+      "spread_bp": 124,
+      "net_leverage": 0.93,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 97.6,
+      "ytm": 5.2,
+      "spread_bp": 126,
+      "net_leverage": 0.97,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "BBB- / BBB",
+      "price": 97.3,
+      "ytm": 5.3,
+      "spread_bp": 129,
+      "net_leverage": 1.03,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:38:33.972524",
+      "rating": "BBB- / BBB",
+      "price": 97.2,
+      "ytm": 5.35,
+      "spread_bp": 130,
+      "net_leverage": 1.05,
+      "ebitda": 720.0,
+      "fcf": 360.0,
+      "guidance_status": "Ahead of Target"
     }
   ]
 }

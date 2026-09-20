@@ -1,0 +1,10 @@
+{
+  "run_id": "SNAP-20240331-001",
+  "snapshot_date": "2024-03-31",
+  "timestamp": "2024-03-31T16:00:00Z",
+  "trigger_source": "Quarterly Checkpoint Historical Reconstruction",
+  "total_issuers": 85,
+  "total_tranches": 340,
+  "total_guidance_metrics": 425,
+  "notes": "Historical credit snapshot for Q1 2024 across all 85 issuers."
+}
