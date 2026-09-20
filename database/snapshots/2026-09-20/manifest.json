@@ -1,8 +1,8 @@
 {
-  "run_id": "SNAP-20260920-513",
+  "run_id": "SNAP-20260920-789",
   "snapshot_date": "2026-09-20",
-  "timestamp": "2026-09-20T19:38:33.972524",
-  "trigger_source": "Pre-Deployment Verification",
+  "timestamp": "2026-09-20T19:59:49.383781",
+  "trigger_source": "Interactive Model Verification",
   "total_issuers": 85,
   "total_tranches": 340,
   "total_guidance_metrics": 425,

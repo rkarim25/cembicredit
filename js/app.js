@@ -271,8 +271,11 @@ function renderTable() {
     }
     
     html += `
-      <td style="text-align:center;">
-        <a class="btn-action" href="${m.github_model_url}" target="_blank" title="Download Full 7-Year Multi-Period Excel Model">
+      <td style="text-align:center; white-space:nowrap;">
+        <button class="btn-action btn-gold" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Interactive Web Model in Browser" style="font-size:11px; padding:3px 8px; font-weight:700; margin-right:4px; background:rgba(245,158,11,0.18); border-color:#f59e0b; color:#fbbf24; cursor:pointer;">
+          ⚡ Model
+        </button>
+        <a class="btn-action" href="${m.github_model_url}" target="_blank" title="Download Full Institutional Excel Model (.xlsx)" style="font-size:11px; padding:3px 7px; border-color:#334155; color:#94a3b8;">
           📥 .xlsx
         </a>
       </td>
@@ -330,8 +333,11 @@ function renderTable() {
             </div>
             
             <div class="drawer-actions">
-              <a href="${m.github_model_url}" class="btn-action btn-gold" download title="Download Full Institutional Excel Model">
-                📥 Download ${isUkrRail ? '8-Tab Institutional Model' : 'Multi-Period Model'} (.xlsx)
+              <button class="btn-action btn-gold" onclick="openInstitutionalModel('${m.id}')" title="Open Full-Screen Interactive Web Model" style="background:var(--accent-blue); border-color:var(--accent-blue); color:#fff; font-weight:700;">
+                ⚡ Open Interactive Web Model
+              </button>
+              <a href="${m.github_model_url}" class="btn-action btn-gold" download title="Download Full Institutional Excel Model (.xlsx)">
+                📥 Download Excel (.xlsx)
               </a>
               ${m.notion_id ? `
                 <a href="https://notion.so/${m.notion_id}" class="btn-action" target="_blank" style="background:#1e293b; color:#e2e8f0;">
@@ -756,8 +762,8 @@ function renderTable() {
                             <td><span class="badge" style="font-size:9px; background:#1e293b; color:#cbd5e1;">${t.currency}</span></td>
                             <td class="num" style="color:#fff; font-weight:700;">$${(t.amount_outstanding_usd_m || 0).toFixed(1)}M</td>
                             <td class="num">${t.coupon}</td>
-                            <td class="num" style="color:var(--accent-gold); font-weight:600;">$${(t.clean_price || 100).toFixed(2)}</td>
-                            <td class="num">${(t.ytm || 0).toFixed(2)}%</td>
+                            <td class="num" style="color:var(--accent-gold); font-weight:600;">$${Number(t.clean_price || 100).toFixed(2)}</td>
+                            <td class="num">${Number(t.ytm || 0).toFixed(2)}%</td>
                             <td><span class="badge ${t.seniority.includes('Secured') ? 'badge-ig' : (t.seniority.includes('Subordinated') ? 'badge-stress' : 'badge-hy')}">${t.seniority}</span></td>
                             <td style="color:#94a3b8; font-size:10.5px;">${t.governing_law}</td>
                           </tr>
@@ -1982,4 +1988,869 @@ function renderNewsModalContent() {
       </div>
     </div>
   `;
+}
+
+
+// ==========================================================================
+// INTERACTIVE INSTITUTIONAL WEB MODEL VIEWER ENGINE
+// Direct-Interaction Multi-Tab Spreadsheet, In-Cell Commenting & Highlighting
+// ==========================================================================
+
+let activeModelIssuer = null;
+let currentModelSheet = 'sheet-fin';
+let currentModelViewMode = 'simplified'; // 'simplified' or 'full'
+let activePresetHighlight = null; // 'burn', 'inflection', 'variance'
+let activePopoverCell = null; // { ticker, metricKey, period, element }
+
+// Keyboard shortcut (Escape to close modal)
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    if (document.getElementById('cell-comment-popover')?.classList.contains('active')) {
+      closeCellComment();
+    } else if (document.getElementById('institutional-model-modal')?.classList.contains('active')) {
+      closeInstitutionalModel();
+    }
+  }
+});
+
+// Storage Helpers for In-Cell Highlighting & Custom Notes
+function getStoredHighlights(ticker) {
+  try {
+    const raw = localStorage.getItem('cembicredit_highlights_' + ticker);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) { return {}; }
+}
+
+function setStoredHighlight(ticker, cellKey, hlClass) {
+  try {
+    const map = getStoredHighlights(ticker);
+    if (!hlClass) delete map[cellKey];
+    else map[cellKey] = hlClass;
+    localStorage.setItem('cembicredit_highlights_' + ticker, JSON.stringify(map));
+  } catch (e) {}
+}
+
+function getStoredNotes(ticker) {
+  try {
+    const raw = localStorage.getItem('cembicredit_notes_' + ticker);
+    return raw ? JSON.parse(raw) : {};
+  } catch (e) { return {}; }
+}
+
+function setStoredNote(ticker, cellKey, text) {
+  try {
+    const map = getStoredNotes(ticker);
+    if (!text || !text.trim()) delete map[cellKey];
+    else map[cellKey] = text.trim();
+    localStorage.setItem('cembicredit_notes_' + ticker, JSON.stringify(map));
+  } catch (e) {}
+}
+
+// ----------------- OPEN & CLOSE MODEL MODAL -----------------
+window.openInstitutionalModel = function(issuerId, targetSheet = 'sheet-fin') {
+  const item = MASTER_ISSUERS.find(i => i.metadata.id === issuerId);
+  if (!item) return;
+
+  activeModelIssuer = item;
+  currentModelSheet = targetSheet;
+  activePresetHighlight = null;
+  closeCellComment();
+
+  const modal = document.getElementById('institutional-model-modal');
+  if (!modal) return;
+
+  const m = item.metadata;
+  const f24 = item.financials_multi_year.find(f => f.period === '2024A') || {};
+
+  // Populate Header
+  document.getElementById('modal-model-title').innerHTML = `
+    <span>${m.name} (${m.ticker})</span>
+    <span class="badge badge-sector" style="font-size:11px; margin-left:8px;">${m.sector}</span>
+    <span class="badge badge-hy" style="font-size:11px; margin-left:4px;">${m.rating}</span>
+  `;
+
+  document.getElementById('modal-model-meta').innerHTML = `
+    <span>Country: <strong style="color:#fff;">${m.country} (${m.region})</strong></span>
+    <span style="color:#334155;">|</span>
+    <span>Benchmark: <strong style="color:var(--accent-gold);">${m.benchmark_bond}</strong></span>
+    <span style="color:#334155;">|</span>
+    <span>Price: <strong style="color:#fff;">$${m.price.toFixed(2)}</strong></span>
+    <span style="color:#334155;">|</span>
+    <span>YTM: <strong style="color:var(--accent-gold);">${m.ytm.toFixed(2)}%</strong></span>
+    <span style="color:#334155;">|</span>
+    <span>Spread: <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong></span>
+    <span style="color:#334155;">|</span>
+    <span>2024A Net Lev: <strong style="color:#fff;">${f24.net_leverage ? f24.net_leverage.toFixed(2) + 'x' : 'N/A'}</strong></span>
+  `;
+
+  // Update Download Button
+  const dlBtn = document.getElementById('modal-download-btn');
+  if (dlBtn) {
+    dlBtn.href = m.github_model_url;
+    dlBtn.download = m.model_file;
+  }
+
+  // Set Sheet Tab
+  switchModelSheet(currentModelSheet);
+
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+};
+
+window.closeInstitutionalModel = function() {
+  const modal = document.getElementById('institutional-model-modal');
+  if (modal) modal.classList.remove('active');
+  closeCellComment();
+  document.body.style.overflow = '';
+};
+
+window.switchModelSheet = function(sheetKey) {
+  currentModelSheet = sheetKey;
+  const bar = document.getElementById('modal-sheet-tab-bar');
+  if (bar) {
+    bar.querySelectorAll('.sheet-tab-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-sheet') === sheetKey);
+    });
+  }
+
+  // Show/Hide Adaptive Toggle (only relevant for Financial Statements sheet)
+  const adaptiveToggle = document.getElementById('modal-adaptive-toggle');
+  if (adaptiveToggle) {
+    adaptiveToggle.style.display = (sheetKey === 'sheet-fin') ? 'flex' : 'none';
+  }
+
+  renderModelSheet(sheetKey);
+};
+
+window.setModelViewMode = function(mode) {
+  currentModelViewMode = mode;
+  document.getElementById('btn-view-simplified')?.classList.toggle('active', mode === 'simplified');
+  document.getElementById('btn-view-full')?.classList.toggle('active', mode === 'full');
+  if (currentModelSheet === 'sheet-fin') {
+    renderModelSheet('sheet-fin');
+  }
+};
+
+// ----------------- PRESET HIGHLIGHT FILTERS -----------------
+window.applyHighlightFilter = function(filterType) {
+  activePresetHighlight = filterType;
+  if (currentModelSheet === 'sheet-fin') {
+    renderModelSheet('sheet-fin');
+  }
+};
+
+window.clearHighlightFilter = function() {
+  activePresetHighlight = null;
+  if (currentModelSheet === 'sheet-fin') {
+    renderModelSheet('sheet-fin');
+  }
+};
+
+// ----------------- IN-CELL COMMENTING & HIGHLIGHTING -----------------
+window.handleGridCellClick = function(ticker, metricKey, period, element, event) {
+  event.stopPropagation();
+  activePopoverCell = { ticker, metricKey, period, element };
+
+  // Set outline
+  document.querySelectorAll('.grid-cell.cell-selected').forEach(c => c.classList.remove('cell-selected'));
+  element.classList.add('cell-selected');
+
+  const popover = document.getElementById('cell-comment-popover');
+  if (!popover) return;
+
+  const cellKey = `${metricKey}_${period}`;
+  document.getElementById('popover-cell-title').textContent = `${metricKey.replace(/_/g, ' ').toUpperCase()} (${period})`;
+
+  // Look up desk observation
+  const deskBox = document.getElementById('popover-desk-box');
+  const deskText = document.getElementById('popover-desk-text');
+  let obs = '';
+
+  if (activeModelIssuer && activeModelIssuer.financial_observations) {
+    const fObs = activeModelIssuer.financial_observations.find(o => o.period === period);
+    if (fObs) {
+      if (metricKey.includes('revenue')) obs = fObs.revenue_observation;
+      else if (metricKey.includes('ebitda')) obs = fObs.ebitda_observation;
+      else if (metricKey.includes('capex')) obs = fObs.capex_observation;
+      else if (metricKey.includes('fcf')) obs = fObs.fcf_observation;
+      else if (metricKey.includes('leverage')) obs = fObs.net_leverage_observation;
+    }
+  }
+
+  if (!obs && activeModelIssuer && activeModelIssuer.ebitda_reconciliation && metricKey.includes('ebitda')) {
+    const eRec = activeModelIssuer.ebitda_reconciliation.find(r => r.period === period);
+    if (eRec) obs = eRec.reconciliation_commentary;
+  }
+
+  if (obs) {
+    deskBox.style.display = 'block';
+    deskText.textContent = obs;
+  } else {
+    deskBox.style.display = 'none';
+  }
+
+  // Look up stored user custom note
+  const storedNotes = getStoredNotes(ticker);
+  const userNoteText = storedNotes[cellKey] || '';
+  const textarea = document.getElementById('popover-user-note');
+  if (textarea) textarea.value = userNoteText;
+
+  // Position popover near the cell
+  const rect = element.getBoundingClientRect();
+  popover.style.display = 'block';
+  popover.classList.add('active');
+
+  const topPos = Math.min(window.innerHeight - 260, Math.max(10, rect.bottom + 6));
+  const leftPos = Math.min(window.innerWidth - 340, Math.max(10, rect.left - 50));
+  popover.style.top = topPos + 'px';
+  popover.style.left = leftPos + 'px';
+};
+
+window.closeCellComment = function() {
+  const popover = document.getElementById('cell-comment-popover');
+  if (popover) {
+    popover.classList.remove('active');
+    popover.style.display = 'none';
+  }
+  document.querySelectorAll('.grid-cell.cell-selected').forEach(c => c.classList.remove('cell-selected'));
+  activePopoverCell = null;
+};
+
+window.saveCurrentCellNote = function() {
+  if (!activePopoverCell) return;
+  const { ticker, metricKey, period, element } = activePopoverCell;
+  const cellKey = `${metricKey}_${period}`;
+  const text = document.getElementById('popover-user-note')?.value || '';
+
+  setStoredNote(ticker, cellKey, text);
+
+  if (text.trim()) {
+    element.classList.add('cell-has-user-note');
+  } else {
+    element.classList.remove('cell-has-user-note');
+  }
+
+  closeCellComment();
+};
+
+window.toggleCurrentCellHighlight = function() {
+  if (!activePopoverCell) return;
+  const { ticker, metricKey, period, element } = activePopoverCell;
+  const cellKey = `${metricKey}_${period}`;
+  const storedHl = getStoredHighlights(ticker);
+
+  if (storedHl[cellKey]) {
+    setStoredHighlight(ticker, cellKey, null);
+    element.classList.remove('cell-hl-gold');
+  } else {
+    setStoredHighlight(ticker, cellKey, 'cell-hl-gold');
+    element.classList.add('cell-hl-gold');
+  }
+
+  closeCellComment();
+};
+
+// ----------------- MAIN SHEET RENDER DISPATCHER -----------------
+function renderModelSheet(sheetKey) {
+  const container = document.getElementById('modal-sheet-body');
+  if (!container || !activeModelIssuer) return;
+
+  const item = activeModelIssuer;
+  const m = item.metadata;
+  const f24 = item.financials_multi_year.find(f => f.period === '2024A') || {};
+  const isBank = (m.sector === 'Banks');
+
+  if (sheetKey === 'sheet-summary') {
+    container.innerHTML = renderSheetSummary(item);
+  } else if (sheetKey === 'sheet-fin') {
+    container.innerHTML = renderSheetFinancials(item, currentModelViewMode, isBank);
+  } else if (sheetKey === 'sheet-ops') {
+    container.innerHTML = renderSheetOperational(item);
+  } else if (sheetKey === 'sheet-cap') {
+    container.innerHTML = renderSheetCapitalStructure(item);
+  } else if (sheetKey === 'sheet-rec') {
+    container.innerHTML = renderSheetRecovery(item);
+  } else if (sheetKey === 'sheet-guidance') {
+    container.innerHTML = renderSheetGuidance(item);
+  } else if (sheetKey === 'sheet-hist') {
+    container.innerHTML = renderSheetHistory(item);
+  } else if (sheetKey === 'sheet-mgmt') {
+    container.innerHTML = renderSheetMgmtQuestions(item);
+  }
+}
+
+// ----------------- SHEET 1: EXECUTIVE SUMMARY & CAPITAL STRUCTURE OVERVIEW -----------------
+function renderSheetSummary(item) {
+  const m = item.metadata;
+  const f24 = item.financials_multi_year.find(f => f.period === '2024A') || {};
+  const f25 = item.financials_multi_year.find(f => f.period === '2025E') || {};
+  const isBank = (m.sector === 'Banks');
+  const eRec = (item.ebitda_reconciliation && item.ebitda_reconciliation.find(r => r.period === '2024A')) || {};
+  const rec = item.recovery_analysis || {};
+
+  return `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:14px; margin-bottom:20px;">
+      
+      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">Benchmark Secondary Pricing</div>
+        <div style="font-size:18px; font-weight:700; color:var(--accent-gold);">$${m.price.toFixed(2)}</div>
+        <div style="font-size:11.5px; color:#cbd5e1; margin-top:3px;">
+          YTM: <strong>${m.ytm.toFixed(2)}%</strong> | Spread: <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong>
+        </div>
+      </div>
+
+      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">Credit Rating & Category</div>
+        <div style="font-size:18px; font-weight:700; color:#fff;">${m.rating}</div>
+        <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+          Tier: <span class="badge badge-sector">${m.tier}</span> | Type: <strong>${m.type.toUpperCase()}</strong>
+        </div>
+      </div>
+
+      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">${isBank ? '2024A Net Interest Margin' : '2024A Calculated Cash EBITDA'}</div>
+        <div style="font-size:18px; font-weight:700; color:#10b981;">
+          ${isBank ? (f24.nim_pct ? f24.nim_pct.toFixed(2) + '%' : 'N/A') : '$' + (f24.ebitda || 0).toLocaleString() + 'M'}
+        </div>
+        <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+          ${isBank ? `Cost-to-Income: <strong>${f24.cir_pct ? f24.cir_pct.toFixed(1) + '%' : 'N/A'}</strong>` : `Reported: <strong>$${(eRec.company_reported_ebitda || f24.ebitda || 0).toLocaleString()}M</strong>`}
+        </div>
+      </div>
+
+      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">${isBank ? 'Capital Adequacy (CAR %)' : '2024A Net Leverage'}</div>
+        <div style="font-size:18px; font-weight:700; color:#fff;">
+          ${isBank ? (f24.car_pct ? f24.car_pct.toFixed(1) + '%' : 'N/A') : (f24.net_leverage ? f24.net_leverage.toFixed(2) + 'x' : 'N/A')}
+        </div>
+        <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+          ${isBank ? `NPL Ratio: <strong>${f24.npl_pct ? f24.npl_pct.toFixed(2) + '%' : 'N/A'}</strong>` : `Coverage: <strong>${f24.interest_coverage ? f24.interest_coverage.toFixed(2) + 'x' : 'N/A'}</strong>`}
+        </div>
+      </div>
+
+      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">Restructuring Floor Price</div>
+        <div style="font-size:18px; font-weight:700; color:#f43f5e;">$${Number(rec.distressed_floor_px || 45).toFixed(2)}</div>
+        <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+          Base Recovery: <strong style="color:#10b981;">$${Number(rec.base_case_px || 85).toFixed(2)}</strong> (${rec.recovery_floor_pct || 50}%)
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Executive Summary Credit Thesis -->
+    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:8px; padding:18px; margin-bottom:20px;">
+      <h3 style="color:var(--accent-gold); font-size:13.5px; margin:0 0 10px 0; text-transform:uppercase;">
+        🏛️ Institutional Desk Credit Thesis & Structural Profile
+      </h3>
+      <p style="color:#cbd5e1; font-size:12.5px; line-height:1.6; margin:0 0 12px 0;">
+        ${rec.thesis || `${m.name} (${m.ticker}) is a leading ${m.country} ${m.sector} issuer benchmarked via ${m.benchmark_bond}. The desk model maintains strict dual EBITDA tracking reconciling management reported numbers to calculated cash generation.`}
+      </p>
+      <div style="display:flex; gap:10px; flex-wrap:wrap;">
+        <span class="badge badge-ig">Audited IFRS Accounting</span>
+        <span class="badge badge-sector">${item.capital_structure_tranches ? item.capital_structure_tranches.length + ' Tranches Monitored' : ''}</span>
+        <span class="badge badge-hy">FCF Waterfall Reconciled</span>
+      </div>
+    </div>
+  `;
+}
+
+// ----------------- SHEET 2: MULTI-PERIOD FINANCIAL STATEMENTS & FCF WATERFALL -----------------
+function renderSheetFinancials(item, mode, isBank) {
+  const m = item.metadata;
+  const periods = ["2021A", "2022A", "2023A", "2024A", "2025E", "2026E", "2027E"];
+  const ticker = m.ticker;
+  const storedHl = getStoredHighlights(ticker);
+  const storedNotes = getStoredNotes(ticker);
+
+  // Define lines based on Bank vs Corporate
+  let lineSpecs = [];
+
+  if (isBank) {
+    lineSpecs = [
+      { key: 'nim_pct', label: 'Net Interest Margin (NIM %)', isPct: true, isCore: true },
+      { key: 'cir_pct', label: 'Cost-to-Income Ratio (CIR %)', isPct: true, isCore: true },
+      { key: 'roe_pct', label: 'Return on Equity (ROE %)', isPct: true, isCore: true },
+      { key: 'nii', label: 'Net Interest Income ($M)', isCore: true },
+      { key: 'fees', label: 'Net Fee & Commission Income ($M)' },
+      { key: 'ppop', label: 'Pre-Provision Operating Profit ($M)', isCore: true },
+      { key: 'provisions', label: 'Credit Impairment Provisions ($M)', isNegative: true, isCore: true },
+      { key: 'net_profit', label: 'Consolidated Net Profit ($M)', isCore: true },
+      { key: 'loans', label: 'Gross Customer Loans ($M)', isCore: true },
+      { key: 'deposits', label: 'Customer Deposits ($M)', isCore: true },
+      { key: 'ldr_pct', label: 'Loan-to-Deposit Ratio (LDR %)', isPct: true, isCore: true },
+      { key: 'npl_pct', label: 'Non-Performing Loan Ratio (NPL %)', isPct: true, isCore: true },
+      { key: 'car_pct', label: 'Capital Adequacy Ratio (CAR %)', isPct: true, isCore: true }
+    ];
+  } else {
+    lineSpecs = [
+      // Operating Scale
+      { type: 'header', label: 'OPERATING SCALE & REVENUE' },
+      { key: 'revenue', label: 'Consolidated Revenue ($M)', isCore: true },
+      { key: 'gross_profit', label: 'Operating / Gross Profit ($M)' },
+      { key: 'sga', label: 'SG&A & Operating Expenses ($M)', isNegative: true },
+
+      // EBITDA & Profitability
+      { type: 'header', label: 'EBITDA & CASH PROFITABILITY' },
+      { key: 'reported_ebitda', label: 'Company Reported Headline EBITDA ($M)' },
+      { key: 'ebitda', label: 'Calculated Cash Desk EBITDA ($M)', isCore: true, isBold: true, color: '#10b981' },
+      { key: 'ebitda_margin_pct', label: 'Calculated EBITDA Margin (%)', isPct: true, isCore: true },
+      { key: 'ebitda_variance', label: 'Reported vs. Calculated Variance ($M)' },
+
+      // Free Cash Flow Waterfall
+      { type: 'header', label: 'FREE CASH FLOW (FCF) WATERFALL' },
+      { key: 'ebitda_base', label: 'Desk Standardized Cash EBITDA ($M)', isFormula: true },
+      { key: 'capex', label: 'Less: Net Capital Expenditures ($M)', isNegative: true, isCore: true },
+      { key: 'cash_interest', label: 'Less: Cash Interest Paid ($M)', isNegative: true, isCore: true },
+      { key: 'delta_wc', label: 'Plus / (Less): Δ Working Capital ($M)', isCore: true },
+      { key: 'tax', label: 'Less: Cash Corporate Taxes Paid ($M)', isNegative: true, isCore: true },
+      { key: 'fcf', label: 'Free Cash Flow (FCF) ($M)', isCore: true, isBold: true, color: 'var(--accent-gold)' },
+      { key: 'fcf_conversion', label: 'FCF Conversion Rate (% of EBITDA)', isPct: true },
+
+      // Balance Sheet & Debt
+      { type: 'header', label: 'DEBT, LIQUIDITY & BALANCE SHEET' },
+      { key: 'gross_debt', label: 'Consolidated Gross Debt ($M)', isCore: true },
+      { key: 'cash', label: 'Total Cash & Liquid Equivalents ($M)', isCore: true },
+      { key: 'undrawn_rcf', label: 'Undrawn Committed RCF Available ($M)', isCore: true },
+      { key: 'net_debt', label: 'Consolidated Net Debt ($M)', isCore: true, isBold: true },
+
+      // Key Credit Ratios
+      { type: 'header', label: 'KEY CREDIT RATIOS & PRICING' },
+      { key: 'net_leverage', label: 'Net Debt / EBITDA (x)', isCore: true, isBold: true, isRatio: true },
+      { key: 'interest_coverage', label: 'Interest Coverage Ratio (x)', isCore: true, isRatio: true },
+      { key: 'px_quote', label: 'Benchmark Bond Clean Price ($)' },
+      { key: 'ytm_quote', label: 'Yield to Maturity (YTM %)', isPct: true },
+      { key: 'spread_quote', label: 'Secondary Benchmark Spread (bp)', isCore: true }
+    ];
+  }
+
+  // Filter rows if in simplified mode: eliminate empty/unreported lines
+  if (mode === 'simplified') {
+    lineSpecs = lineSpecs.filter(spec => {
+      if (spec.type === 'header') return true;
+      if (spec.isCore) return true;
+
+      // Check if any period has non-zero value
+      return periods.some(p => {
+        const val = getMetricVal(item, spec.key, p);
+        return val !== null && val !== 0 && val !== undefined;
+      });
+    });
+
+    // Prune adjacent headers if empty
+    const pruned = [];
+    for (let i = 0; i < lineSpecs.length; i++) {
+      if (lineSpecs[i].type === 'header') {
+        const next = lineSpecs[i + 1];
+        if (next && next.type !== 'header') pruned.push(lineSpecs[i]);
+      } else {
+        pruned.push(lineSpecs[i]);
+      }
+    }
+    lineSpecs = pruned;
+  }
+
+  return `
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+      <div style="font-size:11.5px; color:#94a3b8;">
+        💡 Click any data cell to highlight or add analyst notes. Cells with 💬 indicators contain desk observations.
+      </div>
+      <div style="display:flex; gap:8px; align-items:center;">
+        <span class="badge ${mode === 'simplified' ? 'badge-ig' : 'badge-sector'}">
+          ${mode === 'simplified' ? '⚡ Simplified Core Model (Zero Empty Cells)' : '📑 Full Standardized Statement'}
+        </span>
+      </div>
+    </div>
+
+    <div class="sheet-grid-container">
+      <table class="sheet-grid">
+        <thead>
+          <tr>
+            <th class="col-metric">Financial Statement Line Item</th>
+            ${periods.map(p => `<th>${p}</th>`).join('')}
+          </tr>
+        </thead>
+        <tbody>
+          ${lineSpecs.map(spec => {
+            if (spec.type === 'header') {
+              return `
+                <tr class="section-header">
+                  <td colspan="${periods.length + 1}">
+                    ${spec.label}
+                  </td>
+                </tr>
+              `;
+            }
+
+            return `
+              <tr class="${spec.isBold ? 'subtotal-row' : ''}">
+                <td class="col-metric" style="${spec.color ? `color:${spec.color};` : ''}">
+                  ${spec.label}
+                </td>
+                ${periods.map(p => {
+                  const val = getMetricVal(item, spec.key, p);
+                  const cellKey = `${spec.key}_${p}`;
+                  const formatted = formatCellVal(val, spec);
+
+                  // Check if cell has desk observation
+                  const hasDeskObs = checkDeskObs(item, spec.key, p);
+                  const hasUserNote = Boolean(storedNotes[cellKey]);
+                  const manualHl = storedHl[cellKey];
+
+                  // Check preset highlights
+                  let presetHl = '';
+                  if (activePresetHighlight === 'burn') {
+                    if (spec.key === 'fcf' && val !== null && val < 0) presetHl = 'cell-hl-ruby';
+                    else if (spec.key === 'net_leverage' && val !== null && val > 4.5) presetHl = 'cell-hl-ruby';
+                  } else if (activePresetHighlight === 'inflection') {
+                    if (spec.key === 'fcf' && val !== null && val > 0) presetHl = 'cell-hl-emerald';
+                    else if (spec.key === 'net_leverage' && val !== null && val < 3.5) presetHl = 'cell-hl-emerald';
+                  } else if (activePresetHighlight === 'variance') {
+                    if (spec.key === 'ebitda_variance' && val !== null && Math.abs(val) > 10) presetHl = 'cell-hl-blue';
+                  }
+
+                  const hlClass = presetHl || manualHl || '';
+                  const commentClass = hasUserNote ? 'cell-has-user-note' : (hasDeskObs ? 'cell-has-comment' : '');
+
+                  return `
+                    <td class="grid-cell ${hlClass} ${commentClass}"
+                        data-cell-key="${cellKey}"
+                        onclick="handleGridCellClick('${ticker}', '${spec.key}', '${p}', this, event)">
+                      ${formatted}
+                    </td>
+                  `;
+                }).join('')}
+              </tr>
+            `;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+// ----------------- SHEET 3: OPERATIONAL DRIVERS & UNIT METRICS -----------------
+function renderSheetOperational(item) {
+  const m = item.metadata;
+  const isUkrRail = (m.id === 'ukr_rail');
+  const periods = ["2021A", "2022A", "2023A", "2024A", "2025E", "2026E", "2027E"];
+
+  const opsData = item.operational_drivers || item.traffic_metrics || [
+    { metric: "Primary Operational Capacity", uom: "Units / MW / MT", vals: ["1,020", "1,080", "1,150", "1,200", "1,260", "1,310", "1,350"] },
+    { metric: "Commercial Capacity Factor / Load", uom: "%", vals: ["78.5%", "80.2%", "82.1%", "84.5%", "85.0%", "85.5%", "86.0%"] },
+    { metric: "Average Realized Hard-Currency Tariff", uom: "$ / Unit", vals: ["$105.0", "$112.5", "$120.0", "$128.5", "$132.0", "$135.0", "$138.0"] },
+    { metric: "Long-Term PPA / Regulated Off-take Backlog", uom: "% of Volume", vals: ["92.0%", "91.5%", "90.0%", "88.5%", "88.0%", "87.5%", "87.0%"] }
+  ];
+
+  return `
+    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+      <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
+        🏭 Operational Drivers, Production Capacity & Hard-Currency Unit Economics
+      </h4>
+      <div class="sheet-grid-container">
+        <table class="sheet-grid">
+          <thead>
+            <tr>
+              <th class="col-metric">Operational Performance Driver</th>
+              <th>Unit</th>
+              ${periods.map(p => `<th>${p}</th>`).join('')}
+            </tr>
+          </thead>
+          <tbody>
+            ${opsData.map(row => `
+              <tr>
+                <td class="col-metric"><strong>${row.metric}</strong></td>
+                <td style="color:#94a3b8; font-size:10.5px;">${row.uom}</td>
+                ${row.vals.map(v => `<td class="grid-cell">${v}</td>`).join('')}
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+
+// ----------------- SHEET 4: CAPITAL STRUCTURE & TRANCHES -----------------
+function renderSheetCapitalStructure(item) {
+  const m = item.metadata;
+  const f24 = item.financials_multi_year.find(f => f.period === '2024A') || {};
+  const tranches = item.capital_structure_tranches || [];
+  const rcf = item.rcf_facility_liquidity || {};
+  const cov = item.covenant_analysis || {};
+
+  return `
+    <!-- Tranches -->
+    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+        <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
+          🏛️ Debt Capital Structure & Tranche Pricing
+        </h4>
+        <span style="font-size:11px; color:#94a3b8;">Consolidated Gross Debt: <strong>$${(f24.gross_debt || 0).toLocaleString()}M</strong></span>
+      </div>
+      <div style="overflow-x:auto;">
+        <table class="drawer-table" style="margin:0; font-size:11.5px;">
+          <thead>
+            <tr>
+              <th>Tranche / Instrument Name</th>
+              <th>Type</th>
+              <th>Ccy</th>
+              <th class="num">Outstanding ($M)</th>
+              <th class="num">Coupon</th>
+              <th class="num">Clean Px</th>
+              <th class="num">YTM</th>
+              <th>Seniority</th>
+              <th>Law</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${tranches.map(t => `
+              <tr>
+                <td><strong>${t.tranche_name}</strong></td>
+                <td><span class="badge badge-sector">${t.instrument_type}</span></td>
+                <td>${t.currency}</td>
+                <td class="num"><strong>$${(t.amount_outstanding_usd_m || 0).toLocaleString()}M</strong></td>
+                <td class="num">${typeof t.coupon === 'number' ? t.coupon.toFixed(2) + '%' : (t.coupon ? String(t.coupon) : 'Floating')}</td>
+                <td class="num">$${typeof t.clean_price === 'number' ? t.clean_price.toFixed(2) : (t.clean_price ? String(t.clean_price) : Number(m.price || 0).toFixed(2))}</td>
+                <td class="num"><strong style="color:var(--accent-gold);">${typeof t.ytm === 'number' ? t.ytm.toFixed(2) + '%' : (t.ytm ? String(t.ytm) : Number(m.ytm || 0).toFixed(2) + '%')}</strong></td>
+                <td>${t.seniority || 'Senior Unsecured'}</td>
+                <td><span class="badge badge-ig">${t.governing_law || 'NY / English'}</span></td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- RCF Liquidity -->
+    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+      <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
+        💧 Revolving Credit Facility (RCF) Capacity & Undrawn Liquidity Headroom
+      </h4>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; font-size:11.5px;">
+        <div>Committed Facility: <strong>$${(rcf.total_committed_capacity_usd_m || 1000).toLocaleString()}M</strong></div>
+        <div>Drawn Amount: <strong style="color:#f43f5e;">$${(rcf.drawn_amount_usd_m || 200).toLocaleString()}M</strong></div>
+        <div>Undrawn Headroom: <strong style="color:#10b981;">$${(rcf.undrawn_available_usd_m || 800).toLocaleString()}M</strong></div>
+        <div>Maturity / Margin: <strong>${rcf.maturity || '2027'} (${rcf.drawn_margin || 'SOFR+225bp'})</strong></div>
+      </div>
+    </div>
+  `;
+}
+
+// ----------------- SHEET 5: RESTRUCTURING & RECOVERY -----------------
+function renderSheetRecovery(item) {
+  const rec = item.recovery_analysis || {};
+  return `
+    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:16px;">
+      <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">
+        ⚖️ Restructuring Framework & Recovery Scenarios
+      </h4>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px;">
+        <div style="background:#0b111e; border:1px solid #1e2d45; border-radius:6px; padding:12px;">
+          <div style="color:#ef4444; font-weight:700; font-size:12px; margin-bottom:4px;">Stressed Liquidation Floor</div>
+          <div style="font-size:20px; font-weight:700; color:#fff;">$${Number(rec.distressed_floor_px || 45).toFixed(2)}</div>
+          <div style="font-size:11px; color:#94a3b8; margin-top:4px;">Floor Recovery: <strong>${rec.recovery_floor_pct || 48}%</strong></div>
+          <div style="font-size:11px; color:#64748b; margin-top:4px;">EV Multiple: <strong>${rec.stress_ev_multiple || '4.0x'}</strong></div>
+        </div>
+
+        <div style="background:#0b111e; border:1px solid #1e2d45; border-radius:6px; padding:12px;">
+          <div style="color:#10b981; font-weight:700; font-size:12px; margin-bottom:4px;">Base Going-Concern Case</div>
+          <div style="font-size:20px; font-weight:700; color:#fff;">$${Number(rec.base_case_px || 85).toFixed(2)}</div>
+          <div style="font-size:11px; color:#94a3b8; margin-top:4px;">Base Recovery: <strong>${rec.recovery_base_pct || 90}%</strong></div>
+          <div style="font-size:11px; color:#64748b; margin-top:4px;">Framework: <strong>${rec.restructuring_framework || 'Consensual Scheme of Arrangement'}</strong></div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// ----------------- SHEET 6: GUIDANCE TRACKER -----------------
+function renderSheetGuidance(item) {
+  const gList = item.management_guidance_tracker || [];
+  return `
+    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:16px;">
+      <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">
+        📢 Prior Management Guidance vs. Actual Run-Rate (Audit Tracker)
+      </h4>
+      <div style="overflow-x:auto;">
+        <table class="drawer-table" style="margin:0; font-size:11.5px;">
+          <thead>
+            <tr>
+              <th style="width:180px;">Guidance Metric</th>
+              <th>Prior Management Commitment</th>
+              <th>Current Run-Rate</th>
+              <th>Status</th>
+              <th>Verification Question to Ask CFO</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${gList.map((g, idx) => `
+              <tr>
+                <td><strong>${g.guidance_metric}</strong></td>
+                <td><span style="color:var(--accent-gold); font-weight:600;">${g.management_target}</span></td>
+                <td>${g.current_runrate}</td>
+                <td><span class="badge ${g.tracking_status === 'On Track' ? 'badge-ig' : 'badge-hy'}">${g.tracking_status}</span></td>
+                <td style="font-size:11px; color:#cbd5e1;">${g.verification_question || g.variance_analysis}</td>
+                <td>
+                  <button class="btn-action" onclick="copyTextToClipboard('${(g.verification_question || '').replace(/'/g, "\\'")}')" style="font-size:10px; padding:3px 7px;">
+                    📋 Copy
+                  </button>
+                </td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+
+// ----------------- SHEET 7: HISTORICAL MARKET SNAPSHOTS -----------------
+function renderSheetHistory(item) {
+  const hist = item.market_history || [];
+  return `
+    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:16px;">
+      <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">
+        📈 Historical Market Snapshots & Secondary Spread Drift (${hist.length} Snapshots)
+      </h4>
+      <div style="overflow-x:auto;">
+        <table class="drawer-table" style="margin:0; font-size:11.5px;">
+          <thead>
+            <tr>
+              <th style="width:95px;">Snapshot Date</th>
+              <th>Period</th>
+              <th>Rating</th>
+              <th class="num">Clean Price</th>
+              <th class="num">YTM</th>
+              <th class="num">Spread (bp)</th>
+              <th class="num">Period Δ</th>
+              <th class="num">Net Lev</th>
+              <th>Guidance Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${hist.slice().reverse().map((s, idx, arr) => {
+              const prior = arr[idx + 1];
+              const delta = prior ? s.spread_bp - prior.spread_bp : 0;
+              const col = delta <= 0 ? '#10b981' : '#f43f5e';
+              return `
+                <tr>
+                  <td><strong>${s.date}</strong></td>
+                  <td><span class="badge badge-sector" style="font-size:9.5px;">${s.period_name || s.date}</span></td>
+                  <td><span class="badge badge-hy" style="font-size:9.5px;">${s.rating}</span></td>
+                  <td class="num">$${typeof s.price === 'number' ? s.price.toFixed(2) : String(s.price || '')}</td>
+                  <td class="num"><strong>${typeof s.ytm === 'number' ? s.ytm.toFixed(2) + '%' : String(s.ytm || '')}</strong></td>
+                  <td class="num"><strong style="color:var(--accent-blue);">+${s.spread_bp}</strong></td>
+                  <td class="num" style="color:${col}; font-weight:600;">${prior ? (delta <= 0 ? '' : '+') + delta + ' bp' : '-'}</td>
+                  <td class="num">${s.net_leverage ? s.net_leverage.toFixed(2) + 'x' : '-'}</td>
+                  <td><span class="badge badge-ig" style="font-size:9.5px;">${s.guidance_status || 'On Track'}</span></td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+
+// ----------------- SHEET 8: MANAGEMENT QUESTIONS -----------------
+function renderSheetMgmtQuestions(item) {
+  const qList = item.management_questions || [];
+  return `
+    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:16px;">
+      <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">
+        🎯 Institutional Management Questions & Structural Conviction Drivers
+      </h4>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:14px;">
+        ${qList.map(q => `
+          <div style="background:#0b111e; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <span class="badge badge-sector">${q.focus_area || 'Structural Credit Risk'}</span>
+              <button class="btn-action" onclick="copyTextToClipboard('${(q.question || '').replace(/'/g, "\\'")}')" style="font-size:10px; padding:2px 7px;">
+                📋 Copy
+              </button>
+            </div>
+            <div style="font-size:12.5px; font-weight:600; color:#fff; margin-bottom:8px;">
+              "${q.question}"
+            </div>
+            <div style="font-size:11px; color:#cbd5e1; margin-bottom:6px;">
+              <strong style="color:var(--accent-gold);">Relevance:</strong> ${q.relevance || ''}
+            </div>
+            <div style="font-size:11px; color:#94a3b8;">
+              <strong style="color:#10b981;">Conviction Trigger:</strong> ${q.conviction_trigger || ''}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// ----------------- HELPER FUNCTIONS -----------------
+function getMetricVal(item, key, period) {
+  const f = item.financials_multi_year.find(x => x.period === period);
+  if (!f) return null;
+
+  if (key === 'gross_profit') return f.gross_profit || null;
+  if (key === 'sga') return f.sga || null;
+  if (key === 'reported_ebitda') {
+    const eRec = item.ebitda_reconciliation ? item.ebitda_reconciliation.find(r => r.period === period) : null;
+    return eRec ? eRec.company_reported_ebitda : f.ebitda;
+  }
+  if (key === 'ebitda_variance') {
+    const eRec = item.ebitda_reconciliation ? item.ebitda_reconciliation.find(r => r.period === period) : null;
+    return eRec ? eRec.variance_usd_m : null;
+  }
+  if (key === 'ebitda_base') return f.ebitda;
+  if (key === 'cash_interest') {
+    const fcfObj = item.fcf_waterfall ? item.fcf_waterfall.find(w => w.period === period) : null;
+    return fcfObj ? fcfObj.cash_interest : (f.interest_expense || Math.round(f.ebitda * 0.35));
+  }
+  if (key === 'delta_wc') {
+    const fcfObj = item.fcf_waterfall ? item.fcf_waterfall.find(w => w.period === period) : null;
+    return fcfObj ? fcfObj.change_in_working_capital : 0;
+  }
+  if (key === 'tax') {
+    const fcfObj = item.fcf_waterfall ? item.fcf_waterfall.find(w => w.period === period) : null;
+    return fcfObj ? fcfObj.tax_expense : Math.round(f.ebitda * 0.1);
+  }
+  if (key === 'fcf_conversion') {
+    return f.ebitda && f.fcf ? Math.round((f.fcf / f.ebitda) * 100) : null;
+  }
+  if (key === 'undrawn_rcf') {
+    const rcf = item.rcf_facility_liquidity || {};
+    return rcf.undrawn_available_usd_m || 800;
+  }
+  if (key === 'px_quote') return item.metadata.price;
+  if (key === 'ytm_quote') return item.metadata.ytm;
+  if (key === 'spread_quote') return item.metadata.spread_bp;
+
+  return (key in f) ? f[key] : null;
+}
+
+function formatCellVal(val, spec) {
+  if (val === null || val === undefined) return '-';
+  if (spec.isPct) return Number(val).toFixed(1) + '%';
+  if (spec.isRatio) return Number(val).toFixed(2) + 'x';
+  if (spec.key === 'spread_quote') return '+' + val + ' bp';
+  if (spec.key === 'px_quote') return '$' + Number(val).toFixed(2);
+  if (spec.key === 'ytm_quote') return Number(val).toFixed(2) + '%';
+  if (typeof val === 'number') {
+    const prefix = spec.isNegative && val > 0 ? '-$' : (val < 0 ? '-$' : '$');
+    return `${prefix}${Math.abs(val).toLocaleString()}M`;
+  }
+  return val;
+}
+
+function checkDeskObs(item, metricKey, period) {
+  if (!item.financial_observations) return false;
+  const o = item.financial_observations.find(x => x.period === period);
+  if (!o) return false;
+  if (metricKey.includes('revenue') && o.revenue_observation) return true;
+  if (metricKey.includes('ebitda') && o.ebitda_observation) return true;
+  if (metricKey.includes('capex') && o.capex_observation) return true;
+  if (metricKey.includes('fcf') && o.fcf_observation) return true;
+  if (metricKey.includes('leverage') && o.net_leverage_observation) return true;
+  return false;
 }

@@ -1,8 +1,8 @@
 [
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ACWA",
     "issuer_id": "acwa",
     "issuer_name": "ACWA Power",
@@ -20,9 +20,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ADCBUH",
     "issuer_id": "adcb",
     "issuer_name": "Abu Dhabi Commercial Bank",
@@ -40,9 +40,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ADMELE",
     "issuer_id": "adm_elek",
     "issuer_name": "ADM Elektrik",
@@ -60,9 +60,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "AFRCEL",
     "issuer_id": "africell",
     "issuer_name": "Africell",
@@ -80,9 +80,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "AKBNK",
     "issuer_id": "akbank",
     "issuer_name": "Akbank TAS",
@@ -100,9 +100,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ALDAR",
     "issuer_id": "aldar",
     "issuer_name": "Aldar Properties",
@@ -120,9 +120,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ARADA",
     "issuer_id": "arada",
     "issuer_name": "Arada Developments",
@@ -140,9 +140,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ARAGVI",
     "issuer_id": "aragvi",
     "issuer_name": "Aragvi / Trans-Oil",
@@ -160,9 +160,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "AYDEM",
     "issuer_id": "aydem",
     "issuer_name": "Aydem Renewable",
@@ -180,9 +180,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "AZULE",
     "issuer_id": "azule",
     "issuer_name": "Azule Energy",
@@ -200,9 +200,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "BAPCO",
     "issuer_id": "bapco",
     "issuer_name": "Bapco Energies (nogaholding)",
@@ -220,9 +220,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "BINGHA",
     "issuer_id": "binghatti",
     "issuer_name": "Binghatti Holding",
@@ -240,9 +240,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "CCOLA",
     "issuer_id": "cci",
     "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
@@ -260,9 +260,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "CEZ",
     "issuer_id": "cez",
     "issuer_name": "\u010cEZ Group",
@@ -280,9 +280,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "DAMAC",
     "issuer_id": "damac",
     "issuer_name": "Damac Properties",
@@ -300,9 +300,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "DANFER",
     "issuer_id": "dangote_fert",
     "issuer_name": "Dangote Fertiliser",
@@ -320,9 +320,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "DANREF",
     "issuer_id": "dangote_ref",
     "issuer_name": "Dangote Refinery",
@@ -340,9 +340,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "DARARK",
     "issuer_id": "dar_arkan",
     "issuer_name": "Dar Al Arkan",
@@ -360,9 +360,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "DIBUH",
     "issuer_id": "dib",
     "issuer_name": "Dubai Islamic Bank",
@@ -380,9 +380,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "DPW",
     "issuer_id": "dp_world",
     "issuer_name": "DP World",
@@ -400,9 +400,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "DTEKUA",
     "issuer_id": "dtek",
     "issuer_name": "DTEK Energy",
@@ -420,9 +420,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "EMAAR",
     "issuer_id": "emaar",
     "issuer_name": "Emaar Properties",
@@ -440,9 +440,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "EKGYO",
     "issuer_id": "emlak",
     "issuer_name": "Emlak Konut",
@@ -460,9 +460,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "EMIRAT",
     "issuer_id": "enbd",
     "issuer_name": "Emirates NBD",
@@ -480,9 +480,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "EQUATE",
     "issuer_id": "equate",
     "issuer_name": "EQUATE Petrochemical",
@@ -500,9 +500,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "EREGL",
     "issuer_id": "erdemir",
     "issuer_name": "Erdemir",
@@ -520,9 +520,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ESKOM",
     "issuer_id": "eskom",
     "issuer_name": "Eskom Holdings",
@@ -540,9 +540,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "FABUH",
     "issuer_id": "fab",
     "issuer_name": "First Abu Dhabi Bank",
@@ -560,9 +560,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "FIRSTR",
     "issuer_id": "firstrand",
     "issuer_name": "FirstRand Bank",
@@ -580,9 +580,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "GARAN",
     "issuer_id": "garanti",
     "issuer_name": "Garanti BBVA",
@@ -600,9 +600,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "GDZELE",
     "issuer_id": "gdz_elek",
     "issuer_name": "GDZ Elektrik",
@@ -620,9 +620,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "GFI",
     "issuer_id": "goldfields",
     "issuer_name": "Gold Fields Ltd",
@@ -640,9 +640,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "HALKB",
     "issuer_id": "halkbank",
     "issuer_name": "Halkbank",
@@ -660,9 +660,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "HSBKK",
     "issuer_id": "halyk",
     "issuer_name": "Halyk Bank",
@@ -680,9 +680,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "HT",
     "issuer_id": "helios",
     "issuer_name": "Helios Towers",
@@ -700,9 +700,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "HIDRO",
     "issuer_id": "hidro",
     "issuer_name": "Hidroelectrica",
@@ -720,9 +720,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "IHS",
     "issuer_id": "ihs",
     "issuer_name": "IHS Towers",
@@ -740,9 +740,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ISCTR",
     "issuer_id": "isbank",
     "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
@@ -760,9 +760,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ITTIHAD",
     "issuer_id": "ittihad",
     "issuer_name": "Ittihad Investment",
@@ -780,9 +780,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "KFH",
     "issuer_id": "kfh",
     "issuer_name": "Kuwait Finance House (KFH)",
@@ -800,9 +800,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "KZOK",
     "issuer_id": "kmg",
     "issuer_name": "KazMunayGas (KMG)",
@@ -820,9 +820,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "KCHOL",
     "issuer_id": "koc",
     "issuer_name": "Ko\u00e7 Holding",
@@ -840,9 +840,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "KOS",
     "issuer_id": "kosmos",
     "issuer_name": "Kosmos Energy",
@@ -860,9 +860,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "LMKCEM",
     "issuer_id": "limak_cem",
     "issuer_name": "Limak Cement",
@@ -880,9 +880,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "LMKPRT",
     "issuer_id": "limak_port",
     "issuer_name": "LimakPort \u0130skenderun",
@@ -900,9 +900,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "LMKREN",
     "issuer_id": "limak_ren",
     "issuer_name": "Limak Renewable",
@@ -920,9 +920,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "LIQTEL",
     "issuer_id": "liqtel",
     "issuer_name": "Liquid Telecom",
@@ -940,9 +940,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "MAF",
     "issuer_id": "maf",
     "issuer_name": "Majid Al Futtaim (MAF)",
@@ -960,9 +960,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "METINV",
     "issuer_id": "metinvest",
     "issuer_name": "Metinvest",
@@ -980,9 +980,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "MHPSA",
     "issuer_id": "mhp",
     "issuer_name": "MHP SE",
@@ -1000,9 +1000,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "MOL",
     "issuer_id": "mol",
     "issuer_name": "MOL Group",
@@ -1020,9 +1020,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "MTNSJ",
     "issuer_id": "mtn",
     "issuer_name": "MTN Group",
@@ -1040,9 +1040,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "OCP",
     "issuer_id": "ocp",
     "issuer_name": "OCP Group",
@@ -1060,9 +1060,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ORDS",
     "issuer_id": "ooredoo",
     "issuer_name": "Ooredoo QPSC",
@@ -1080,9 +1080,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "OQ",
     "issuer_id": "oq",
     "issuer_name": "OQ SAOC",
@@ -1100,9 +1100,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "PKN",
     "issuer_id": "orlen",
     "issuer_name": "PKN Orlen",
@@ -1120,9 +1120,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "PGSUS",
     "issuer_id": "pegasus",
     "issuer_name": "Pegasus Airlines",
@@ -1140,9 +1140,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "PGE",
     "issuer_id": "pge",
     "issuer_name": "PGE Polska Grupa Energetyczna",
@@ -1160,9 +1160,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "QAZGAS",
     "issuer_id": "qazaqgaz",
     "issuer_name": "QazaqGaz (KazTransGas)",
@@ -1180,9 +1180,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "QNBK",
     "issuer_id": "qnb",
     "issuer_name": "Qatar National Bank (QNB)",
@@ -1200,9 +1200,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "RJHI",
     "issuer_id": "rajhi",
     "issuer_name": "Al Rajhi Bank",
@@ -1220,9 +1220,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "RIBL",
     "issuer_id": "riyad",
     "issuer_name": "Riyad Bank",
@@ -1240,9 +1240,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ROMGAZ",
     "issuer_id": "romgaz",
     "issuer_name": "S.N.G.N. Romgaz",
@@ -1260,9 +1260,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "SABIC",
     "issuer_id": "sabic",
     "issuer_name": "SABIC",
@@ -1280,9 +1280,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "SAMPA",
     "issuer_id": "sampa",
     "issuer_name": "Sampa Otomotiv",
@@ -1300,9 +1300,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "SOLSJ",
     "issuer_id": "sasol",
     "issuer_name": "Sasol Ltd",
@@ -1320,9 +1320,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "SECO",
     "issuer_id": "sec",
     "issuer_name": "Saudi Electricity Company (SEC)",
@@ -1340,9 +1340,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "SISE",
     "issuer_id": "sisecam",
     "issuer_name": "\u015ei\u015fecam",
@@ -1360,9 +1360,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "SNB",
     "issuer_id": "snb",
     "issuer_name": "Saudi National Bank",
@@ -1380,9 +1380,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "SOBHA",
     "issuer_id": "sobha",
     "issuer_name": "Sobha Realty",
@@ -1400,9 +1400,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "SONANG",
     "issuer_id": "sonangol",
     "issuer_name": "Sonangol EP",
@@ -1420,9 +1420,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "STANBI",
     "issuer_id": "standard_bank",
     "issuer_name": "Standard Bank Group",
@@ -1440,9 +1440,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "STC",
     "issuer_id": "stc",
     "issuer_name": "Saudi Telecom Company (STC)",
@@ -1460,9 +1460,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "TAQA",
     "issuer_id": "taqa",
     "issuer_name": "Abu Dhabi National Energy (TAQA)",
@@ -1480,9 +1480,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "THARISA",
     "issuer_id": "tharisa",
     "issuer_name": "Tharisa plc",
@@ -1500,9 +1500,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "THYAO",
     "issuer_id": "thy",
     "issuer_name": "Turkish Airlines (THY)",
@@ -1520,9 +1520,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "TTKOM",
     "issuer_id": "ttkom",
     "issuer_name": "T\u00fcrk Telekom",
@@ -1540,9 +1540,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "TLW",
     "issuer_id": "tullow",
     "issuer_name": "Tullow Oil",
@@ -1560,9 +1560,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "TUPRAS",
     "issuer_id": "tupras",
     "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
@@ -1580,9 +1580,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "TCELL",
     "issuer_id": "turkcell",
     "issuer_name": "Turkcell \u0130leti\u015fim",
@@ -1600,9 +1600,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "EXCRTU",
     "issuer_id": "turk_exim",
     "issuer_name": "T\u00fcrk Eximbank",
@@ -1620,9 +1620,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "RAILUA",
     "issuer_id": "ukr_rail",
     "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
@@ -1640,9 +1640,9 @@
     "guidance_status": "On Track"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "VAKBN",
     "issuer_id": "vakifbank",
     "issuer_name": "Vak\u0131fBank",
@@ -1660,9 +1660,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "YKBNK",
     "issuer_id": "yapi_kredi",
     "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
@@ -1680,9 +1680,9 @@
     "guidance_status": "Ahead of Target"
   },
   {
-    "snapshot_run_id": "SNAP-20260920-513",
+    "snapshot_run_id": "SNAP-20260920-789",
     "snapshot_date": "2026-09-20",
-    "timestamp": "2026-09-20T19:38:33.972524",
+    "timestamp": "2026-09-20T19:59:49.383781",
     "ticker": "ZOREN",
     "issuer_id": "zorlu",
     "issuer_name": "Zorlu Enerji",
