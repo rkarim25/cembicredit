@@ -720,5 +720,90 @@
       "fcf": 460.0,
       "guidance_status": "On Track"
     }
-  ]
+  ],
+  "broker_snapshots": [
+    {
+      "broker": "Arqaam Capital",
+      "analyst": "Rita Guindy",
+      "report_date": "2024-11-28",
+      "report_title": "ACWA Power: Multi-GW Pipeline Execution and Capital Calls",
+      "recommendation": "Hold",
+      "target_spread_bps": 280,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1850.0,
+          "cogs": 650.0,
+          "gross_profit": 1200.0,
+          "ebitda": 1050.0,
+          "capex": -950.0,
+          "cash_interest": -320.0,
+          "change_wc": -50.0,
+          "tax": -65.0,
+          "fcf": 180.0,
+          "gross_debt": 10800.0,
+          "cash": 1200.0,
+          "net_debt": 9600.0
+        }
+      },
+      "notes": "Stated positive FCF of $180M completely ignores heavy capex and equity contributions to JV project companies.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1850.0,
+          "cogs": 650.0,
+          "gross_profit": 1200.0,
+          "ebitda": 1050.0,
+          "capex": -950.0,
+          "cash_interest": -320.0,
+          "change_wc": -50.0,
+          "tax": -65.0,
+          "fcf": -235.0,
+          "gross_debt": 10800.0,
+          "cash": 1200.0,
+          "net_debt": 9600.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "CRITICAL_ERROR",
+          "field": "fcf",
+          "stated_val": 180.0,
+          "reconciled_val": -235.0,
+          "variance": 415.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($180.0M) vs Reconciled FCF ($-235.0M). Analyst reported false positive FCF by omitting cash interest / working capital drain. Desk reconciled with strict cash flow identity.",
+          "broker": "Arqaam Capital",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "CRITICAL_ERROR",
+      "field": "fcf",
+      "stated_val": 180.0,
+      "reconciled_val": -235.0,
+      "variance": 415.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($180.0M) vs Reconciled FCF ($-235.0M). Analyst reported false positive FCF by omitting cash interest / working capital drain. Desk reconciled with strict cash flow identity.",
+      "broker": "Arqaam Capital",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 1,
+    "revenue": 1850.0,
+    "ebitda": 1050.0,
+    "capex": -950.0,
+    "cash_interest": -320.0,
+    "change_wc": -50.0,
+    "tax": -65.0,
+    "fcf": -235.0,
+    "net_debt": 9600.0,
+    "net_leverage": 9.14,
+    "total_mistakes_caught": 1,
+    "last_reconciled": "2026-09-20"
+  }
 }

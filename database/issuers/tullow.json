@@ -741,5 +741,180 @@
     "cost_default": 12.5,
     "hedged_pct": 45,
     "hedge_floor_price": 75.0
+  },
+  "broker_snapshots": [
+    {
+      "broker": "J.P. Morgan",
+      "analyst": "Christian Malek / David Mirzai",
+      "report_date": "2024-11-15",
+      "report_title": "Tullow Oil: Cash Flow Ramp vs 2026 Maturity Refinancing Wall",
+      "recommendation": "Neutral",
+      "target_spread_bps": 850,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1280.0,
+          "cogs": 510.0,
+          "gross_profit": 770.0,
+          "ebitda": 950.0,
+          "capex": -220.0,
+          "cash_interest": -210.0,
+          "change_wc": 0.0,
+          "tax": -120.0,
+          "fcf": 140.0,
+          "gross_debt": 2250.0,
+          "cash": 220.0,
+          "net_debt": 2030.0
+        }
+      },
+      "notes": "Assumes Brent $75/bbl and 58 kboe/d Jubilee/TEN gross production. Analyst did not deduct $65M decommissioning capex from FCF.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1280.0,
+          "cogs": 510.0,
+          "gross_profit": 770.0,
+          "ebitda": 950.0,
+          "capex": -220.0,
+          "cash_interest": -210.0,
+          "change_wc": 0.0,
+          "tax": -120.0,
+          "fcf": 400.0,
+          "gross_debt": 2250.0,
+          "cash": 220.0,
+          "net_debt": 2030.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 140.0,
+          "reconciled_val": 400.0,
+          "variance": -260.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($140.0M) vs Reconciled FCF ($400.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "J.P. Morgan",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    },
+    {
+      "broker": "Citi",
+      "analyst": "Michael Alsford",
+      "report_date": "2024-12-02",
+      "report_title": "Tullow Oil: Production Guidance Headwinds in Ghana",
+      "recommendation": "Underweight",
+      "target_spread_bps": 1050,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1220.0,
+          "cogs": 530.0,
+          "gross_profit": 690.0,
+          "reported_ebitda": 840.0,
+          "ebitda": 980.0,
+          "capex": -250.0,
+          "cash_interest": -225.0,
+          "change_wc": -35.0,
+          "tax": -110.0,
+          "fcf": 220.0,
+          "gross_debt": 2320.0,
+          "cash": 190.0,
+          "net_debt": 2130.0
+        }
+      },
+      "notes": "Added back $140M in exploration write-offs and hedge mark-to-market to EBITDA. Stated positive FCF of $220M contradicts operational cash flow.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1220.0,
+          "cogs": 530.0,
+          "gross_profit": 690.0,
+          "reported_ebitda": 840.0,
+          "ebitda": 840.0,
+          "capex": -250.0,
+          "cash_interest": -225.0,
+          "change_wc": -35.0,
+          "tax": -110.0,
+          "fcf": 430.0,
+          "gross_debt": 2320.0,
+          "cash": 190.0,
+          "net_debt": 2130.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 220.0,
+          "reconciled_val": 430.0,
+          "variance": -210.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($220.0M) vs Reconciled FCF ($430.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Citi",
+          "period": "2025E"
+        },
+        {
+          "code": "E5_AGGRESSIVE_ADDBACK",
+          "severity": "WARNING_ADD_BACK",
+          "field": "ebitda",
+          "stated_val": 980.0,
+          "reconciled_val": 840.0,
+          "variance": 140.0,
+          "rationale": "Aggressive Sell-Side Add-Back: Broker inflated EBITDA by $140.0M (+16.7%) adding back recurring operating expenses, unrealized FX, and restructuring costs. Desk scrubbed to reported cash run-rate.",
+          "broker": "Citi",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 140.0,
+      "reconciled_val": 400.0,
+      "variance": -260.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($140.0M) vs Reconciled FCF ($400.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "J.P. Morgan",
+      "period": "2025E"
+    },
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 220.0,
+      "reconciled_val": 430.0,
+      "variance": -210.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($220.0M) vs Reconciled FCF ($430.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Citi",
+      "period": "2025E"
+    },
+    {
+      "code": "E5_AGGRESSIVE_ADDBACK",
+      "severity": "WARNING_ADD_BACK",
+      "field": "ebitda",
+      "stated_val": 980.0,
+      "reconciled_val": 840.0,
+      "variance": 140.0,
+      "rationale": "Aggressive Sell-Side Add-Back: Broker inflated EBITDA by $140.0M (+16.7%) adding back recurring operating expenses, unrealized FX, and restructuring costs. Desk scrubbed to reported cash run-rate.",
+      "broker": "Citi",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 2,
+    "revenue": 1250.0,
+    "ebitda": 895.0,
+    "capex": -235.0,
+    "cash_interest": -217.5,
+    "change_wc": -17.5,
+    "tax": -115.0,
+    "fcf": 415.0,
+    "net_debt": 2080.0,
+    "net_leverage": 2.32,
+    "total_mistakes_caught": 3,
+    "last_reconciled": "2026-09-20"
   }
 }

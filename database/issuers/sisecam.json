@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "sisecam",
-    "name": "\u015ei\u015fecam",
+    "name": "Şişecam",
     "ticker": "SISE",
     "country": "Turkey",
     "region": "CEEMEA",
@@ -330,7 +330,7 @@
   "annotations": [
     {
       "issuer_id": "sisecam",
-      "issuer_name": "\u015ei\u015fecam",
+      "issuer_name": "Şişecam",
       "sector": "Materials",
       "topic": "Global Cost Curve Advantage",
       "source": "Cognitive Credit / CRU Group",
@@ -338,7 +338,7 @@
     },
     {
       "issuer_id": "sisecam",
-      "issuer_name": "\u015ei\u015fecam",
+      "issuer_name": "Şişecam",
       "sector": "Materials",
       "topic": "Hard-Currency Export Share",
       "source": "Audited Financial Statements",
@@ -346,7 +346,7 @@
     },
     {
       "issuer_id": "sisecam",
-      "issuer_name": "\u015ei\u015fecam",
+      "issuer_name": "Şişecam",
       "sector": "Materials",
       "topic": "Strategic Sovereign Resource Moat",
       "source": "Credit Rating Agency Memo",
@@ -354,7 +354,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+    "source_deck": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -501,7 +501,7 @@
       "current_runrate": "$5857.5M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $5940.0M (+8.0% YoY growth). With current run-rate at $5857.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -512,7 +512,7 @@
       "current_runrate": "$1188.0M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $1210.0M (20.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -523,7 +523,7 @@
       "current_runrate": "2.18x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 1.57x buffer below covenant limit.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.18x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -534,7 +534,7 @@
       "current_runrate": "$371.9M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $404.2M (Maximum growth and sustaining envelope). Current commitments stand at $371.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -545,7 +545,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -719,5 +719,90 @@
       "fcf": 550.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "broker_snapshots": [
+    {
+      "broker": "Consensus Sell-Side",
+      "analyst": "Composite EM Credit Desk",
+      "report_date": "2024-12-01",
+      "report_title": "Şişecam: Forward Earnings & Refinancing Profile",
+      "recommendation": "Neutral",
+      "target_spread_bps": 450,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 52.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "notes": "Standardized consensus desk baseline.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 92.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 52.0,
+          "reconciled_val": 92.0,
+          "variance": -40.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Consensus Sell-Side",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 52.0,
+      "reconciled_val": 92.0,
+      "variance": -40.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Consensus Sell-Side",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 1,
+    "revenue": 1050.0,
+    "ebitda": 312.0,
+    "capex": -144.0,
+    "cash_interest": -66.0,
+    "change_wc": -20.0,
+    "tax": -30.0,
+    "fcf": 92.0,
+    "net_debt": 660.0,
+    "net_leverage": 2.12,
+    "total_mistakes_caught": 1,
+    "last_reconciled": "2026-09-20"
+  }
 }

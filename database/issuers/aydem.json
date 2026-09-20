@@ -326,7 +326,7 @@
     "recovery_base_pct": 98.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "1,180 MW pure-play renewable portfolio; U\u015fak hybrid solar expansion diversifying hydro risk."
+    "thesis": "1,180 MW pure-play renewable portfolio; Uşak hybrid solar expansion diversifying hydro risk."
   },
   "annotations": [
     {
@@ -720,5 +720,90 @@
       "fcf": 95.0,
       "guidance_status": "On Track"
     }
-  ]
+  ],
+  "broker_snapshots": [
+    {
+      "broker": "Consensus Sell-Side",
+      "analyst": "Composite EM Credit Desk",
+      "report_date": "2024-12-01",
+      "report_title": "Aydem Renewable: Forward Earnings & Refinancing Profile",
+      "recommendation": "Neutral",
+      "target_spread_bps": 450,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 52.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "notes": "Standardized consensus desk baseline.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 92.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 52.0,
+          "reconciled_val": 92.0,
+          "variance": -40.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Consensus Sell-Side",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 52.0,
+      "reconciled_val": 92.0,
+      "variance": -40.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Consensus Sell-Side",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 1,
+    "revenue": 1050.0,
+    "ebitda": 312.0,
+    "capex": -144.0,
+    "cash_interest": -66.0,
+    "change_wc": -20.0,
+    "tax": -30.0,
+    "fcf": 92.0,
+    "net_debt": 660.0,
+    "net_leverage": 2.12,
+    "total_mistakes_caught": 1,
+    "last_reconciled": "2026-09-20"
+  }
 }

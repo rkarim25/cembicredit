@@ -358,8 +358,8 @@
     "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
     "reporting_currency": "USD / TRY (with natural USD hedge disclosures)",
     "generation_fleet_breakdown": {
-      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) \u2014 Turkey's largest and lowest-cost baseload renewable fleet",
-      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) \u2014 long-term high wind resource capacity factor (>34%)",
+      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) — Turkey's largest and lowest-cost baseload renewable fleet",
+      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) — long-term high wind resource capacity factor (>34%)",
       "hydroelectric_capacity_hes": "118.6 MW across 7 operating run-of-river and reservoir plants (Ikizdere, Atabey, Camlica, Kuzgun, Mercan, Tercan, Beykoy)",
       "solar_and_hybrid_capacity": "84.0 MW installed and under development (hybrid solar installations co-located at Kizildere geothermal sites)",
       "thermal_and_industrial_cogen": "341.0 MW domestic gas cogeneration and district heating (Bursa, Luleburgaz)",
@@ -438,7 +438,7 @@
     "geographic_and_fx_exposure": {
       "usd_revenue_share": "68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM mechanism",
       "try_regulated_revenue_share": "31.5% of revenue earned in Turkish Lira via OEDAS/OEPSAS with full CPI inflation pass-through",
-      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY \u2014 natural dollar hedge covers 100% of USD net interest payments",
+      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY — natural dollar hedge covers 100% of USD net interest payments",
       "fx_risk_mitigation": "Bilateral FX forward hedges covering next 12-month EUR debt principal amortizations"
     },
     "contract_backlog_and_commercial_terms": {
@@ -785,5 +785,90 @@
       "fcf": 160.0,
       "guidance_status": "Under Watch"
     }
-  ]
+  ],
+  "broker_snapshots": [
+    {
+      "broker": "Consensus Sell-Side",
+      "analyst": "Composite EM Credit Desk",
+      "report_date": "2024-12-01",
+      "report_title": "Zorlu Enerji: Forward Earnings & Refinancing Profile",
+      "recommendation": "Neutral",
+      "target_spread_bps": 450,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 52.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "notes": "Standardized consensus desk baseline.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 92.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 52.0,
+          "reconciled_val": 92.0,
+          "variance": -40.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Consensus Sell-Side",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 52.0,
+      "reconciled_val": 92.0,
+      "variance": -40.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Consensus Sell-Side",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 1,
+    "revenue": 1050.0,
+    "ebitda": 312.0,
+    "capex": -144.0,
+    "cash_interest": -66.0,
+    "change_wc": -20.0,
+    "tax": -30.0,
+    "fcf": 92.0,
+    "net_debt": 660.0,
+    "net_leverage": 2.12,
+    "total_mistakes_caught": 1,
+    "last_reconciled": "2026-09-20"
+  }
 }

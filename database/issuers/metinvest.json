@@ -739,5 +739,158 @@
     "cost_default": 52.0,
     "hedged_pct": 0,
     "hedge_floor_price": 0.0
+  },
+  "broker_snapshots": [
+    {
+      "broker": "Morgan Stanley",
+      "analyst": "Alain Gabriel",
+      "report_date": "2024-10-20",
+      "report_title": "Metinvest B.V.: Iron Ore Logistics Viability via Black Sea Corridor",
+      "recommendation": "Overweight",
+      "target_spread_bps": 620,
+      "raw_model": {
+        "2025E": {
+          "revenue": 8450.0,
+          "cogs": 6200.0,
+          "gross_profit": 2250.0,
+          "ebitda": 1520.0,
+          "capex": -480.0,
+          "cash_interest": -195.0,
+          "change_wc": -180.0,
+          "tax": -140.0,
+          "fcf": 525.0,
+          "gross_debt": 2100.0,
+          "cash": 650.0,
+          "net_debt": 1450.0
+        }
+      },
+      "notes": "Assumes 62% Fe iron ore price average $105/t and stable sea corridor shipping volumes.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 8450.0,
+          "cogs": 6200.0,
+          "gross_profit": 2250.0,
+          "ebitda": 1520.0,
+          "capex": -480.0,
+          "cash_interest": -195.0,
+          "change_wc": -180.0,
+          "tax": -140.0,
+          "fcf": 885.0,
+          "gross_debt": 2100.0,
+          "cash": 650.0,
+          "net_debt": 1450.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 525.0,
+          "reconciled_val": 885.0,
+          "variance": -360.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($525.0M) vs Reconciled FCF ($885.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Morgan Stanley",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    },
+    {
+      "broker": "Renaissance Capital",
+      "analyst": "Boris Krasnojenov",
+      "report_date": "2024-11-10",
+      "report_title": "Metinvest: Capex Rebuilding Pressure vs Asset Security",
+      "recommendation": "Neutral",
+      "target_spread_bps": 750,
+      "raw_model": {
+        "2025E": {
+          "revenue": 8100.0,
+          "cogs": 6400.0,
+          "gross_profit": 1700.0,
+          "reported_ebitda": 1280.0,
+          "ebitda": 1450.0,
+          "capex": -310.0,
+          "cash_interest": -205.0,
+          "change_wc": 25.0,
+          "tax": -115.0,
+          "fcf": 420.0,
+          "gross_debt": 2150.0,
+          "cash": 610.0,
+          "net_debt": 1540.0
+        }
+      },
+      "notes": "Understates maintenance capex required for Kametsteel and Pokrovske coal. Assumes positive WC inflow during volume ramp.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 8100.0,
+          "cogs": 6400.0,
+          "gross_profit": 1700.0,
+          "reported_ebitda": 1280.0,
+          "ebitda": 1450.0,
+          "capex": -310.0,
+          "cash_interest": -205.0,
+          "change_wc": 25.0,
+          "tax": -115.0,
+          "fcf": 795.0,
+          "gross_debt": 2150.0,
+          "cash": 610.0,
+          "net_debt": 1540.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 420.0,
+          "reconciled_val": 795.0,
+          "variance": -375.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($420.0M) vs Reconciled FCF ($795.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Renaissance Capital",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 525.0,
+      "reconciled_val": 885.0,
+      "variance": -360.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($525.0M) vs Reconciled FCF ($885.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Morgan Stanley",
+      "period": "2025E"
+    },
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 420.0,
+      "reconciled_val": 795.0,
+      "variance": -375.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($420.0M) vs Reconciled FCF ($795.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Renaissance Capital",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 2,
+    "revenue": 8275.0,
+    "ebitda": 1485.0,
+    "capex": -395.0,
+    "cash_interest": -200.0,
+    "change_wc": -77.5,
+    "tax": -127.5,
+    "fcf": 840.0,
+    "net_debt": 1495.0,
+    "net_leverage": 1.01,
+    "total_mistakes_caught": 2,
+    "last_reconciled": "2026-09-20"
   }
 }

@@ -715,5 +715,90 @@
       "fcf": 82.5,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "broker_snapshots": [
+    {
+      "broker": "Standard Bank",
+      "analyst": "Fiona Ross",
+      "report_date": "2024-12-05",
+      "report_title": "Africell Holding: Angola Rollout Capex & Currency Translation Risk",
+      "recommendation": "Hold / Neutral",
+      "target_spread_bps": 790,
+      "raw_model": {
+        "2025E": {
+          "revenue": 485.0,
+          "cogs": 210.0,
+          "gross_profit": 275.0,
+          "ebitda": 185.0,
+          "capex": -68.0,
+          "cash_interest": -52.0,
+          "change_wc": -15.0,
+          "tax": -22.0,
+          "fcf": 28.0,
+          "gross_debt": 410.0,
+          "cash": 65.0,
+          "net_debt": 345.0
+        }
+      },
+      "notes": "Optimistic positive FCF assumption ignores Angola FX repatriation backlog and lease principal payments.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 485.0,
+          "cogs": 210.0,
+          "gross_profit": 275.0,
+          "ebitda": 185.0,
+          "capex": -68.0,
+          "cash_interest": -52.0,
+          "change_wc": -15.0,
+          "tax": -22.0,
+          "fcf": 58.0,
+          "gross_debt": 410.0,
+          "cash": 65.0,
+          "net_debt": 345.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 28.0,
+          "reconciled_val": 58.0,
+          "variance": -30.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($28.0M) vs Reconciled FCF ($58.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Standard Bank",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 28.0,
+      "reconciled_val": 58.0,
+      "variance": -30.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($28.0M) vs Reconciled FCF ($58.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Standard Bank",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 1,
+    "revenue": 485.0,
+    "ebitda": 185.0,
+    "capex": -68.0,
+    "cash_interest": -52.0,
+    "change_wc": -15.0,
+    "tax": -22.0,
+    "fcf": 58.0,
+    "net_debt": 345.0,
+    "net_leverage": 1.86,
+    "total_mistakes_caught": 1,
+    "last_reconciled": "2026-09-20"
+  }
 }
