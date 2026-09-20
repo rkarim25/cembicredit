@@ -720,5 +720,23 @@
       "fcf": 525,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Brent Crude & Mauritania/Senegal LNG",
+    "volume_metric_name": "Net Working Interest Production",
+    "volume_unit": "kboe/d",
+    "volume_guidance": 73.5,
+    "volume_guidance_range": "70 - 75 kboe/d",
+    "volume_guidance_source": "Company Executive Production Guidance Disclosures",
+    "price_metric_name": "Realized Oil & Gas Benchmark",
+    "price_unit": "$/bbl eq",
+    "price_default": 78.0,
+    "price_source": "Current State of the World / Brent Benchmark",
+    "cost_metric_name": "Direct Operating Lifting Cost",
+    "cost_unit": "$/boe",
+    "cost_default": 12.5,
+    "hedged_pct": 45,
+    "hedge_floor_price": 75.0
+  }
 }

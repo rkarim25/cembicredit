@@ -718,5 +718,23 @@
       "fcf": 1600,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Phosphate Rock & Diammonium Phosphate (DAP)",
+    "volume_metric_name": "Fertilizer & Phosphate Production Capacity",
+    "volume_unit": "Mt/yr",
+    "volume_guidance": 29.6,
+    "volume_guidance_range": "28 - 32 Mt/yr",
+    "volume_guidance_source": "OCP State Phosphate Strategy Guidance",
+    "price_metric_name": "DAP Fertilizer FOB Morocco Benchmark",
+    "price_unit": "$/t",
+    "price_default": 580.0,
+    "price_source": "Current State of the World / Argus Fertilizer Benchmark",
+    "cost_metric_name": "Cash Cost of Extraction & Acidification",
+    "cost_unit": "$/t",
+    "cost_default": 260.0,
+    "hedged_pct": 0,
+    "hedge_floor_price": 0.0
+  }
 }

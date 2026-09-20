@@ -709,7 +709,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "Baa2 / BBB",
         "price": 96.5,
         "ytm": 6.45,
@@ -1479,7 +1479,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A1 / A",
         "price": 99.8,
         "ytm": 5.05,
@@ -2200,7 +2200,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B2",
         "price": 98.0,
         "ytm": 9.25,
@@ -2215,8 +2215,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "africell",
-      "cognitive_credit_id": "africell",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description",
       "name": "Africell",
       "ticker": "AFRCEL",
       "country": "Angola",
@@ -2226,13 +2224,15 @@ const MASTER_ISSUERS = [
       "rating": "B- / B3",
       "tier": "B",
       "benchmark_bond": "AFRCEL 11.45% 2028",
-      "price": 92.0,
+      "price": 92,
       "ytm": 11.45,
       "spread_bp": 710,
       "model_file": "Africell_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6811ba825cb8d9a616ac8",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Africell_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "africell",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description"
     },
     "financials_multi_year": [
       {
@@ -2241,7 +2241,7 @@ const MASTER_ISSUERS = [
         "revenue": 333.2,
         "ebitda": 107.2,
         "ebitda_margin_pct": 32.2,
-        "cfo": 87.0,
+        "cfo": 87,
         "capex": 40.4,
         "fcf": 46.6,
         "cash": 68.1,
@@ -2279,7 +2279,7 @@ const MASTER_ISSUERS = [
         "period": "2022A",
         "is_audited": true,
         "revenue": 401.8,
-        "ebitda": 132.0,
+        "ebitda": 132,
         "ebitda_margin_pct": 32.9,
         "cfo": 109.4,
         "capex": 49.1,
@@ -2296,9 +2296,9 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 134.0,
-        "calculated_ebitda": 132.0,
-        "ebitda_reconciliation_variance_usd_m": 2.0,
+        "reported_ebitda": 134,
+        "calculated_ebitda": 132,
+        "ebitda_reconciliation_variance_usd_m": 2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 42.9,
@@ -2306,7 +2306,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 7.4,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 132.0,
+          "calculated_ebitda": 132,
           "capex": 49.1,
           "cash_interest": 42.9,
           "change_in_working_capital": -27.7,
@@ -2358,8 +2358,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 490.0,
-        "ebitda": 165.0,
+        "revenue": 490,
+        "ebitda": 165,
         "ebitda_margin_pct": 33.7,
         "cfo": 140.2,
         "capex": 57.7,
@@ -2377,16 +2377,16 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 167.5,
-        "calculated_ebitda": 165.0,
+        "calculated_ebitda": 165,
         "ebitda_reconciliation_variance_usd_m": 2.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 57.1,
         "change_in_working_capital": -41.1,
         "tax_expense": 8.8,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 165.0,
+          "calculated_ebitda": 165,
           "capex": 57.7,
           "cash_interest": 57.1,
           "change_in_working_capital": -41.1,
@@ -2404,7 +2404,7 @@ const MASTER_ISSUERS = [
         "cfo": 154.3,
         "capex": 60.6,
         "fcf": 93.7,
-        "cash": 146.0,
+        "cash": 146,
         "gross_debt": 528.8,
         "net_debt": 382.8,
         "net_leverage": 2.11,
@@ -2478,7 +2478,7 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 588.0,
+        "revenue": 588,
         "ebitda": 204.6,
         "ebitda_margin_pct": 34.8,
         "cfo": 175.3,
@@ -2486,7 +2486,7 @@ const MASTER_ISSUERS = [
         "fcf": 118.7,
         "cash": 185.6,
         "gross_debt": 485.6,
-        "net_debt": 300.0,
+        "net_debt": 300,
         "net_leverage": 1.47,
         "interest_coverage": 4.07,
         "observations": {
@@ -2504,7 +2504,7 @@ const MASTER_ISSUERS = [
         "cash_interest": 50.3,
         "change_in_working_capital": -34.9,
         "tax_expense": 13.9,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
           "calculated_ebitda": 204.6,
           "capex": 56.6,
@@ -2520,7 +2520,7 @@ const MASTER_ISSUERS = [
       "tower_or_subscriber_count": "22.4M Users / Sites",
       "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
       "contracted_backlog_years": 8.5,
-      "usd_linked_revenue_pct": 72.0,
+      "usd_linked_revenue_pct": 72,
       "churn_pct": 1.1
     },
     "debt_maturities": {
@@ -2533,10 +2533,10 @@ const MASTER_ISSUERS = [
       "total_outstanding_usd_m": 415.8
     },
     "recovery_analysis": {
-      "distressed_floor_px": 58.0,
-      "base_case_px": 95.0,
-      "recovery_floor_pct": 58.0,
-      "recovery_base_pct": 95.0,
+      "distressed_floor_px": 58,
+      "base_case_px": 95,
+      "recovery_floor_pct": 58,
+      "recovery_base_pct": 95,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Angola Commercial & Bankruptcy Code",
       "thesis": "6M+ subscribers captured in Angola post-2022 rollout; strategic US DFC $100M+ senior debt backing."
@@ -2611,7 +2611,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 242.8,
         "amount_outstanding_usd_m": 242.8,
         "coupon": "11.450%",
-        "clean_price": 92.0,
+        "clean_price": 92,
         "ytm": 11.45,
         "spread_bp": 710,
         "maturity_date": "2029-07-25",
@@ -2626,7 +2626,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 161.8,
         "amount_outstanding_usd_m": 161.8,
         "coupon": "10.800%",
-        "clean_price": 94.0,
+        "clean_price": 94,
         "ytm": 10.799999999999999,
         "spread_bp": 645,
         "maturity_date": "2027-10-18",
@@ -2641,7 +2641,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 105.2,
         "amount_outstanding_usd_m": 80.9,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -2653,10 +2653,10 @@ const MASTER_ISSUERS = [
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
         "instrument_type": "Revolving Working Capital Credit Line",
         "currency": "USD",
-        "amount_issued_usd_m": 189.0,
-        "amount_outstanding_usd_m": 54.0,
+        "amount_issued_usd_m": 189,
+        "amount_outstanding_usd_m": 54,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -2668,7 +2668,7 @@ const MASTER_ISSUERS = [
     "rcf_facility_liquidity": {
       "facility_name": "AFRCEL Syndicated Multi-Currency Revolving Credit Facility (RCF)",
       "total_committed_capacity_usd_m": 151.1,
-      "drawn_amount_usd_m": 54.0,
+      "drawn_amount_usd_m": 54,
       "undrawn_available_usd_m": 97.1,
       "drawn_margin": "SOFR + 150 bps",
       "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
@@ -2792,7 +2792,7 @@ const MASTER_ISSUERS = [
         "ytm": 12.8,
         "spread_bp": 888,
         "net_leverage": 2.87,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2805,7 +2805,7 @@ const MASTER_ISSUERS = [
         "ytm": 12.4,
         "spread_bp": 838,
         "net_leverage": 2.77,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2818,7 +2818,7 @@ const MASTER_ISSUERS = [
         "ytm": 12.05,
         "spread_bp": 795,
         "net_leverage": 2.67,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2831,7 +2831,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.75,
         "spread_bp": 746,
         "net_leverage": 2.57,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2844,7 +2844,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.6,
         "spread_bp": 731,
         "net_leverage": 2.54,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2857,7 +2857,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.35,
         "spread_bp": 696,
         "net_leverage": 2.47,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2870,7 +2870,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.25,
         "spread_bp": 682,
         "net_leverage": 2.42,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2883,7 +2883,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.2,
         "spread_bp": 674,
         "net_leverage": 2.4,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2896,7 +2896,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.3,
         "spread_bp": 689,
         "net_leverage": 2.44,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2909,20 +2909,20 @@ const MASTER_ISSUERS = [
         "ytm": 11.4,
         "spread_bp": 703,
         "net_leverage": 2.5,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B- / B3",
-        "price": 92.0,
+        "price": 92,
         "ytm": 11.45,
         "spread_bp": 710,
         "net_leverage": 2.52,
-        "ebitda": 165.0,
+        "ebitda": 165,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       }
@@ -3303,7 +3303,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 102.5,
       "implied_stress_ev_multiple": "Prudential Resolution",
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Lowest NPL in Turkey (1.5%); highest CAR (19.4%); pristine Sabancı Group sponsorship."
+      "thesis": "Lowest NPL in Turkey (1.5%); highest CAR (19.4%); pristine Sabanc\u0131 Group sponsorship."
     },
     "annotations": [
       {
@@ -3686,7 +3686,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / B1",
         "price": 100.2,
         "ytm": 6.45,
@@ -4404,7 +4404,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB- / Baa2",
         "price": 100.1,
         "ytm": 5.25,
@@ -5122,7 +5122,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B+ / B1",
         "price": 100.5,
         "ytm": 8.05,
@@ -5838,7 +5838,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B-",
         "price": 89.0,
         "ytm": 12.15,
@@ -6175,7 +6175,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 98.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "1,180 MW pure-play renewable portfolio; Uşak hybrid solar expansion diversifying hydro risk."
+      "thesis": "1,180 MW pure-play renewable portfolio; U\u015fak hybrid solar expansion diversifying hydro risk."
     },
     "annotations": [
       {
@@ -6559,7 +6559,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B3",
         "price": 96.5,
         "ytm": 8.95,
@@ -7281,7 +7281,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B+ / Ba3",
         "price": 98.5,
         "ytm": 8.45,
@@ -7291,7 +7291,25 @@ const MASTER_ISSUERS = [
         "fcf": 1125.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Angolan Deepwater Crude Oil",
+      "volume_metric_name": "Net Working Interest Production",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 142.8,
+      "volume_guidance_range": "135 - 150 kboe/d",
+      "volume_guidance_source": "Azule (Eni/bp JV) Operational Guidance",
+      "price_metric_name": "Realized Brent Benchmark",
+      "price_unit": "$/bbl",
+      "price_default": 78.0,
+      "price_source": "Current State of the World / Brent 12M Forward Benchmark",
+      "cost_metric_name": "Deepwater Offshore Lifting Cost",
+      "cost_unit": "$/boe",
+      "cost_default": 12.5,
+      "hedged_pct": 45,
+      "hedge_floor_price": 75.0
+    }
   },
   {
     "metadata": {
@@ -8003,7 +8021,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B+ / B+",
         "price": 101.8,
         "ytm": 6.85,
@@ -8013,7 +8031,25 @@ const MASTER_ISSUERS = [
         "fcf": 625.0,
         "guidance_status": "On Track"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Bahrain Crude & Refining Stream",
+      "volume_metric_name": "Consolidated Production & Refining Intake",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 357.0,
+      "volume_guidance_range": "340 - 370 kboe/d",
+      "volume_guidance_source": "Bapco Energies BMP Modernization Guidance",
+      "price_metric_name": "Arab Medium / Brent Composite",
+      "price_unit": "$/bbl",
+      "price_default": 78.0,
+      "price_source": "Current State of the World / Benchmark Crude",
+      "cost_metric_name": "Operating & Refining Cost",
+      "cost_unit": "$/boe",
+      "cost_default": 12.5,
+      "hedged_pct": 45,
+      "hedge_floor_price": 75.0
+    }
   },
   {
     "metadata": {
@@ -8732,7 +8768,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B+ / B",
         "price": 101.5,
         "ytm": 8.85,
@@ -8747,7 +8783,7 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "cci",
-      "name": "Coca-Cola İçecek (CCI)",
+      "name": "Coca-Cola \u0130\u00e7ecek (CCI)",
       "ticker": "CCOLA",
       "country": "Turkey",
       "region": "Turkey",
@@ -9073,7 +9109,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "cci",
-        "issuer_name": "Coca-Cola İçecek (CCI)",
+        "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
         "sector": "Consumer",
         "topic": "Retail Footprint & Concession Moat",
         "source": "Cognitive Credit / Broker Consensus",
@@ -9081,7 +9117,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "cci",
-        "issuer_name": "Coca-Cola İçecek (CCI)",
+        "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
         "sector": "Consumer",
         "topic": "Working Capital & Free Cash Flow",
         "source": "Financial Statements",
@@ -9089,7 +9125,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "cci",
-        "issuer_name": "Coca-Cola İçecek (CCI)",
+        "issuer_name": "Coca-Cola \u0130\u00e7ecek (CCI)",
         "sector": "Consumer",
         "topic": "Geographic Diversification",
         "source": "Investor Presentations",
@@ -9097,7 +9133,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "source_deck": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
@@ -9240,7 +9276,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$4047.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $4104.0M (+8.0% YoY growth). With current run-rate at $4047.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -9251,7 +9287,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$777.6M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $792.0M (19.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -9262,7 +9298,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.05x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 2.70x buffer below covenant limit.",
-        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.05x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -9273,7 +9309,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$243.4M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $264.6M (Maximum growth and sustaining envelope). Current commitments stand at $243.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -9284,7 +9320,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "Coca-Cola İçecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Coca-Cola \u0130\u00e7ecek (CCI) FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -9448,7 +9484,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB- / BBB",
         "price": 97.2,
         "ytm": 5.35,
@@ -9463,9 +9499,7 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "cez",
-      "cognitive_credit_id": "cez",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/cez/description",
-      "name": "ČEZ Group",
+      "name": "\u010cEZ Group",
       "ticker": "CEZ",
       "country": "Czech Republic",
       "region": "CEE",
@@ -9480,21 +9514,23 @@ const MASTER_ISSUERS = [
       "model_file": "CEZ_Group_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81b1-a1f6-f74b7c94e35e",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEZ_Group_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "cez",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/cez/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 10336.0,
-        "ebitda": 2730.0,
+        "revenue": 10336,
+        "ebitda": 2730,
         "ebitda_margin_pct": 26.4,
         "cfo": 2213.4,
-        "capex": 1029.0,
+        "capex": 1029,
         "fcf": 1184.4,
         "cash": 1732.5,
         "gross_debt": 7675.5,
-        "net_debt": 5943.0,
+        "net_debt": 5943,
         "net_leverage": 2.18,
         "interest_coverage": 9.53,
         "observations": {
@@ -9505,7 +9541,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
         },
         "reported_ebitda": 2770.9,
-        "calculated_ebitda": 2730.0,
+        "calculated_ebitda": 2730,
         "ebitda_reconciliation_variance_usd_m": 40.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$40.9M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -9514,8 +9550,8 @@ const MASTER_ISSUERS = [
         "tax_expense": 243.7,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 2730.0,
-          "capex": 1029.0,
+          "calculated_ebitda": 2730,
+          "capex": 1029,
           "cash_interest": 286.5,
           "change_in_working_capital": -13.6,
           "tax": 243.7,
@@ -9526,13 +9562,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 12464.0,
-        "ebitda": 3360.0,
-        "ebitda_margin_pct": 27.0,
+        "revenue": 12464,
+        "ebitda": 3360,
+        "ebitda_margin_pct": 27,
         "cfo": 2784.6,
         "capex": 1249.5,
         "fcf": 1535.1,
-        "cash": 2205.0,
+        "cash": 2205,
         "gross_debt": 8307.6,
         "net_debt": 6102.6,
         "net_leverage": 1.82,
@@ -9545,7 +9581,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
         },
         "reported_ebitda": 3410.4,
-        "calculated_ebitda": 3360.0,
+        "calculated_ebitda": 3360,
         "ebitda_reconciliation_variance_usd_m": 50.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -9554,7 +9590,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 299.1,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 3360.0,
+          "calculated_ebitda": 3360,
           "capex": 1249.5,
           "cash_interest": 357.8,
           "change_in_working_capital": -81.5,
@@ -9566,9 +9602,9 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 13984.0,
-        "ebitda": 3780.0,
-        "ebitda_margin_pct": 27.0,
+        "revenue": 13984,
+        "ebitda": 3780,
+        "ebitda_margin_pct": 27,
         "cfo": 3141.6,
         "capex": 1396.5,
         "fcf": 1745.1,
@@ -9585,7 +9621,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
         },
         "reported_ebitda": 3836.7,
-        "calculated_ebitda": 3780.0,
+        "calculated_ebitda": 3780,
         "ebitda_reconciliation_variance_usd_m": 56.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.7M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -9594,7 +9630,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 332.5,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 3780.0,
+          "calculated_ebitda": 3780,
           "capex": 1396.5,
           "cash_interest": 429.5,
           "change_in_working_capital": -123.6,
@@ -9606,15 +9642,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 15200.0,
-        "ebitda": 4200.0,
+        "revenue": 15200,
+        "ebitda": 4200,
         "ebitda_margin_pct": 27.6,
-        "cfo": 3570.0,
-        "capex": 1470.0,
-        "fcf": 2100.0,
-        "cash": 3150.0,
-        "gross_debt": 9030.0,
-        "net_debt": 5880.0,
+        "cfo": 3570,
+        "capex": 1470,
+        "fcf": 2100,
+        "cash": 3150,
+        "gross_debt": 9030,
+        "net_debt": 5880,
         "net_leverage": 1.4,
         "interest_coverage": 8.8,
         "observations": {
@@ -9624,35 +9660,35 @@ const MASTER_ISSUERS = [
           "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
           "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
         },
-        "reported_ebitda": 4263.0,
-        "calculated_ebitda": 4200.0,
-        "ebitda_reconciliation_variance_usd_m": 63.0,
+        "reported_ebitda": 4263,
+        "calculated_ebitda": 4200,
+        "ebitda_reconciliation_variance_usd_m": 63,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$63.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 477.3,
         "change_in_working_capital": -216.7,
         "tax_expense": 369.4,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 4200.0,
-          "capex": 1470.0,
+          "calculated_ebitda": 4200,
+          "capex": 1470,
           "cash_interest": 477.3,
           "change_in_working_capital": -216.7,
           "tax": 369.4,
-          "fcf": 2100.0,
+          "fcf": 2100,
           "formula_check": "4200.0 - 1470.0 - 477.3 - (-216.7) - 369.4 = 2100.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 16416.0,
-        "ebitda": 4620.0,
+        "revenue": 16416,
+        "ebitda": 4620,
         "ebitda_margin_pct": 28.1,
-        "cfo": 3927.0,
+        "cfo": 3927,
         "capex": 1543.5,
         "fcf": 2383.5,
-        "cash": 3717.0,
+        "cash": 3717,
         "gross_debt": 8849.4,
         "net_debt": 5132.4,
         "net_leverage": 1.11,
@@ -9665,7 +9701,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
         },
         "reported_ebitda": 4689.3,
-        "calculated_ebitda": 4620.0,
+        "calculated_ebitda": 4620,
         "ebitda_reconciliation_variance_usd_m": 69.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.3M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -9674,7 +9710,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 416.4,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 4620.0,
+          "calculated_ebitda": 4620,
           "capex": 1543.5,
           "cash_interest": 458.3,
           "change_in_working_capital": -181.7,
@@ -9686,15 +9722,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 17480.0,
-        "ebitda": 4956.0,
+        "revenue": 17480,
+        "ebitda": 4956,
         "ebitda_margin_pct": 28.4,
         "cfo": 4212.6,
         "capex": 1499.4,
         "fcf": 2713.2,
         "cash": 4252.5,
         "gross_debt": 8578.5,
-        "net_debt": 4326.0,
+        "net_debt": 4326,
         "net_leverage": 0.87,
         "interest_coverage": 11.29,
         "observations": {
@@ -9705,18 +9741,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
         },
         "reported_ebitda": 5030.3,
-        "calculated_ebitda": 4956.0,
+        "calculated_ebitda": 4956,
         "ebitda_reconciliation_variance_usd_m": 74.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$74.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 439.0,
+        "cash_interest": 439,
         "change_in_working_capital": -150.1,
         "tax_expense": 454.5,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 4956.0,
+          "calculated_ebitda": 4956,
           "capex": 1499.4,
-          "cash_interest": 439.0,
+          "cash_interest": 439,
           "change_in_working_capital": -150.1,
           "tax": 454.5,
           "fcf": 2713.2,
@@ -9726,15 +9762,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 18240.0,
-        "ebitda": 5208.0,
+        "revenue": 18240,
+        "ebitda": 5208,
         "ebitda_margin_pct": 28.6,
         "cfo": 4462.5,
         "capex": 1440.6,
         "fcf": 3021.9,
-        "cash": 4725.0,
-        "gross_debt": 8127.0,
-        "net_debt": 3402.0,
+        "cash": 4725,
+        "gross_debt": 8127,
+        "net_debt": 3402,
         "net_leverage": 0.65,
         "interest_coverage": 12.4,
         "observations": {
@@ -9745,18 +9781,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
         },
         "reported_ebitda": 5286.1,
-        "calculated_ebitda": 5208.0,
+        "calculated_ebitda": 5208,
         "ebitda_reconciliation_variance_usd_m": 78.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$78.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 420.0,
+        "cash_interest": 420,
         "change_in_working_capital": -158.3,
         "tax_expense": 483.8,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 5208.0,
+          "calculated_ebitda": 5208,
           "capex": 1440.6,
-          "cash_interest": 420.0,
+          "cash_interest": 420,
           "change_in_working_capital": -158.3,
           "tax": 483.8,
           "fcf": 3021.9,
@@ -9765,34 +9801,34 @@ const MASTER_ISSUERS = [
       }
     ],
     "supplementary_data": {
-      "installed_capacity_mw": 24820.0,
-      "generation_volume_gwh": 89660.0,
-      "renewable_capacity_pct": 65.0,
-      "fx_indexed_tariffs_pct": 82.0,
-      "capacity_utilization_factor_pct": 54.0
+      "installed_capacity_mw": 24820,
+      "generation_volume_gwh": 89660,
+      "renewable_capacity_pct": 65,
+      "fx_indexed_tariffs_pct": 82,
+      "capacity_utilization_factor_pct": 54
     },
     "debt_maturities": {
       "2025": 705.6,
-      "2026": 1176.0,
+      "2026": 1176,
       "2027": 1646.4,
       "2028": 1058.4,
       "2029": 705.6,
-      "2030_plus": 588.0,
-      "total_outstanding_usd_m": 5880.0
+      "2030_plus": 588,
+      "total_outstanding_usd_m": 5880
     },
     "recovery_analysis": {
-      "distressed_floor_px": 88.0,
+      "distressed_floor_px": 88,
       "base_case_px": 100.5,
-      "recovery_floor_pct": 88.0,
+      "recovery_floor_pct": 88,
       "recovery_base_pct": 100.5,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Czech Republic Commercial & Bankruptcy Code",
-      "thesis": "Czech integrated utility powerhouse; Temelín and Dukovany nuclear generation guarantees low-cost baseload."
+      "thesis": "Czech integrated utility powerhouse; Temel\u00edn and Dukovany nuclear generation guarantees low-cost baseload."
     },
     "annotations": [
       {
         "issuer_id": "cez",
-        "issuer_name": "ČEZ Group",
+        "issuer_name": "\u010cEZ Group",
         "sector": "Utilities",
         "topic": "Regulated Asset Base & Off-take PPA",
         "source": "Cognitive Credit / Citi",
@@ -9800,7 +9836,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "cez",
-        "issuer_name": "ČEZ Group",
+        "issuer_name": "\u010cEZ Group",
         "sector": "Utilities",
         "topic": "Capex Phasing & FCF Conversion",
         "source": "Company Filings",
@@ -9808,7 +9844,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "cez",
-        "issuer_name": "ČEZ Group",
+        "issuer_name": "\u010cEZ Group",
         "sector": "Utilities",
         "topic": "Sovereign Balancing & Guarantees",
         "source": "Ministry of Finance Disclosures",
@@ -9816,7 +9852,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "source_deck": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
@@ -9871,8 +9907,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "CEZ Secondary Eurobond / Sukuk Tranche 2",
         "instrument_type": "Senior Unsecured Notes",
         "currency": "USD",
-        "amount_issued_usd_m": 2709.0,
-        "amount_outstanding_usd_m": 2709.0,
+        "amount_issued_usd_m": 2709,
+        "amount_outstanding_usd_m": 2709,
         "coupon": "4.300%",
         "clean_price": 101.5,
         "ytm": 4.3,
@@ -9889,7 +9925,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 1760.9,
         "amount_outstanding_usd_m": 1354.5,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -9902,9 +9938,9 @@ const MASTER_ISSUERS = [
         "instrument_type": "Revolving Working Capital Credit Line",
         "currency": "USD",
         "amount_issued_usd_m": 3160.5,
-        "amount_outstanding_usd_m": 903.0,
+        "amount_outstanding_usd_m": 903,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -9916,7 +9952,7 @@ const MASTER_ISSUERS = [
     "rcf_facility_liquidity": {
       "facility_name": "CEZ Syndicated Multi-Currency Revolving Credit Facility (RCF)",
       "total_committed_capacity_usd_m": 2528.4,
-      "drawn_amount_usd_m": 903.0,
+      "drawn_amount_usd_m": 903,
       "undrawn_available_usd_m": 1625.4,
       "drawn_margin": "SOFR + 150 bps",
       "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
@@ -9963,7 +9999,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$16188.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $16416.0M (+8.0% YoY growth). With current run-rate at $16188.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -9974,7 +10010,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$4536.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $4620.0M (28.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -9985,7 +10021,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.40x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit.",
-        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 1.40x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -9996,7 +10032,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1420.0M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $1543.5M (Maximum growth and sustaining envelope). Current commitments stand at $1420.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -10007,7 +10043,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+        "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -10047,8 +10083,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.3,
         "spread_bp": 112,
         "net_leverage": 1.75,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -10056,12 +10092,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q2 2024",
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "A- / A3",
-        "price": 97.0,
+        "price": 97,
         "ytm": 5.9,
         "spread_bp": 106,
         "net_leverage": 1.65,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -10073,8 +10109,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.55,
         "spread_bp": 101,
         "net_leverage": 1.55,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -10082,12 +10118,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2024",
         "timestamp": "2024-12-31T16:00:00Z",
         "rating": "A- / A3",
-        "price": 99.0,
+        "price": 99,
         "ytm": 5.25,
         "spread_bp": 94,
         "net_leverage": 1.45,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -10099,8 +10135,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.1,
         "spread_bp": 93,
         "net_leverage": 1.42,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -10112,8 +10148,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.85,
         "spread_bp": 88,
         "net_leverage": 1.35,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -10125,8 +10161,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.75,
         "spread_bp": 86,
         "net_leverage": 1.3,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -10138,8 +10174,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.7,
         "spread_bp": 86,
         "net_leverage": 1.28,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -10151,8 +10187,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.8,
         "spread_bp": 87,
         "net_leverage": 1.32,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -10164,21 +10200,21 @@ const MASTER_ISSUERS = [
         "ytm": 4.9,
         "spread_bp": 89,
         "net_leverage": 1.38,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A- / A3",
         "price": 99.8,
         "ytm": 4.95,
         "spread_bp": 90,
         "net_leverage": 1.4,
-        "ebitda": 4200.0,
-        "fcf": 2100.0,
+        "ebitda": 4200,
+        "fcf": 2100,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -10889,7 +10925,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / Ba3",
         "price": 101.0,
         "ytm": 7.25,
@@ -11609,7 +11645,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B2",
         "price": 96.0,
         "ytm": 11.5,
@@ -11619,7 +11655,25 @@ const MASTER_ISSUERS = [
         "fcf": 325.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Granular Urea Nitrogen Fertilizer",
+      "volume_metric_name": "Urea Plant Production Output",
+      "volume_unit": "Mt/yr",
+      "volume_guidance": 6.92,
+      "volume_guidance_range": "6.5 - 7.2 Mt/yr",
+      "volume_guidance_source": "Company Nameplate Capacity Guidance",
+      "price_metric_name": "Granular Urea FOB Nigeria Benchmark",
+      "price_unit": "$/t",
+      "price_default": 340.0,
+      "price_source": "Current State of the World / Global Urea Benchmark",
+      "cost_metric_name": "Feedstock Natural Gas & Conversion Cost",
+      "cost_unit": "$/t",
+      "cost_default": 110.0,
+      "hedged_pct": 0,
+      "hedge_floor_price": 0.0
+    }
   },
   {
     "metadata": {
@@ -12011,7 +12065,7 @@ const MASTER_ISSUERS = [
         "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
       },
       "refinery_commercial_scale_and_yield": {
-        "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos — world's largest single-train facility",
+        "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos \u2014 world's largest single-train facility",
         "crude_processing_slate": "Configured to process Nigerian light sweet crudes (Bonny Light, Forcados, Qua Iboe) and global medium sour barrels with maximum distillation efficiency",
         "transportation_fuels_output": "Capable of producing 330,000 bpd of Euro-V premium gasoline (PMS), 220,000 bpd of Ultra-Low Sulfur Diesel (ULSD), and 50,000 bpd of Aviation Jet A-1",
         "naira_crude_sales_agreement": "Bespoke agreement with NNPC / Federal Government of Nigeria for 385,000 bpd of domestic crude supply payable in Nigerian Naira (NGN), eliminating foreign exchange rationing risks"
@@ -12342,7 +12396,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B2",
         "price": 95.0,
         "ytm": 12.5,
@@ -12352,7 +12406,25 @@ const MASTER_ISSUERS = [
         "fcf": 50.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Refined Petroleum & Euro-V Fuels",
+      "volume_metric_name": "Refinery Crude Processing Intake",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 420.0,
+      "volume_guidance_range": "400 - 450 kboe/d",
+      "volume_guidance_source": "Lekki Free Zone Commissioning Guidance",
+      "price_metric_name": "Refining Margin & Product Benchmark",
+      "price_unit": "$/bbl net margin",
+      "price_default": 12.0,
+      "price_source": "Current State of the World / Atlantic Basin Refining Benchmark",
+      "cost_metric_name": "Refinery Cash Conversion Cost",
+      "cost_unit": "$/bbl",
+      "cost_default": 4.5,
+      "hedged_pct": 30,
+      "hedge_floor_price": 10.0
+    }
   },
   {
     "metadata": {
@@ -13060,7 +13132,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / Ba3 / B+",
         "price": 99.5,
         "ytm": 8.15,
@@ -13830,7 +13902,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A3 / A",
         "price": 99.7,
         "ytm": 5.1,
@@ -13845,8 +13917,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "dp_world",
-      "cognitive_credit_id": "dpworld",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dpworld/description",
       "name": "DP World",
       "ticker": "DPW",
       "country": "UAE",
@@ -13856,20 +13926,22 @@ const MASTER_ISSUERS = [
       "rating": "BBB+ / Baa2",
       "tier": "IG",
       "benchmark_bond": "DPW 5.35% 2033",
-      "price": 98.0,
+      "price": 98,
       "ytm": 5.35,
       "spread_bp": 120,
       "model_file": "DP_World_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681138b90f1177936cd35",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DP_World_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "dpworld",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dpworld/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 12376.0,
-        "ebitda": 3315.0,
+        "revenue": 12376,
+        "ebitda": 3315,
         "ebitda_margin_pct": 26.8,
         "cfo": 2687.7,
         "capex": 1249.5,
@@ -13887,7 +13959,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
         "reported_ebitda": 3364.7,
-        "calculated_ebitda": 3315.0,
+        "calculated_ebitda": 3315,
         "ebitda_reconciliation_variance_usd_m": 49.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$49.7M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -13896,7 +13968,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 262.6,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 3315.0,
+          "calculated_ebitda": 3315,
           "capex": 1249.5,
           "cash_interest": 569.6,
           "change_in_working_capital": -204.9,
@@ -13908,8 +13980,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 14924.0,
-        "ebitda": 4080.0,
+        "revenue": 14924,
+        "ebitda": 4080,
         "ebitda_margin_pct": 27.3,
         "cfo": 3381.3,
         "capex": 1517.2,
@@ -13927,18 +13999,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 4141.2,
-        "calculated_ebitda": 4080.0,
+        "calculated_ebitda": 4080,
         "ebitda_reconciliation_variance_usd_m": 61.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$61.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 712.0,
+        "cash_interest": 712,
         "change_in_working_capital": -334.9,
         "tax_expense": 321.6,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 4080.0,
+          "calculated_ebitda": 4080,
           "capex": 1517.2,
-          "cash_interest": 712.0,
+          "cash_interest": 712,
           "change_in_working_capital": -334.9,
           "tax": 321.6,
           "fcf": 1864.1,
@@ -13948,14 +14020,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 16744.0,
-        "ebitda": 4590.0,
+        "revenue": 16744,
+        "ebitda": 4590,
         "ebitda_margin_pct": 27.4,
         "cfo": 3814.8,
         "capex": 1695.8,
-        "fcf": 2119.0,
+        "fcf": 2119,
         "cash": 3251.2,
-        "gross_debt": 19892.0,
+        "gross_debt": 19892,
         "net_debt": 16640.8,
         "net_leverage": 3.63,
         "interest_coverage": 5.37,
@@ -13967,7 +14039,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 4658.8,
-        "calculated_ebitda": 4590.0,
+        "calculated_ebitda": 4590,
         "ebitda_reconciliation_variance_usd_m": 68.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$68.8M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -13976,27 +14048,27 @@ const MASTER_ISSUERS = [
         "tax_expense": 353.7,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 4590.0,
+          "calculated_ebitda": 4590,
           "capex": 1695.8,
           "cash_interest": 854.7,
           "change_in_working_capital": -433.2,
           "tax": 353.7,
-          "fcf": 2119.0,
+          "fcf": 2119,
           "formula_check": "4590.0 - 1695.8 - 854.7 - (-433.2) - 353.7 = 2119.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 18200.0,
-        "ebitda": 5100.0,
-        "ebitda_margin_pct": 28.0,
-        "cfo": 4335.0,
-        "capex": 1785.0,
-        "fcf": 2550.0,
-        "cash": 3825.0,
-        "gross_debt": 20298.0,
-        "net_debt": 16473.0,
+        "revenue": 18200,
+        "ebitda": 5100,
+        "ebitda_margin_pct": 28,
+        "cfo": 4335,
+        "capex": 1785,
+        "fcf": 2550,
+        "cash": 3825,
+        "gross_debt": 20298,
+        "net_debt": 16473,
         "net_leverage": 3.23,
         "interest_coverage": 5.37,
         "observations": {
@@ -14007,35 +14079,35 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 5176.5,
-        "calculated_ebitda": 5100.0,
+        "calculated_ebitda": 5100,
         "ebitda_reconciliation_variance_usd_m": 76.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$76.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 949.7,
         "change_in_working_capital": -577.7,
-        "tax_expense": 393.0,
-        "fcf_conversion_pct": 50.0,
+        "tax_expense": 393,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 5100.0,
-          "capex": 1785.0,
+          "calculated_ebitda": 5100,
+          "capex": 1785,
           "cash_interest": 949.7,
           "change_in_working_capital": -577.7,
-          "tax": 393.0,
-          "fcf": 2550.0,
+          "tax": 393,
+          "fcf": 2550,
           "formula_check": "5100.0 - 1785.0 - 949.7 - (-577.7) - 393.0 = 2550.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 19656.0,
-        "ebitda": 5610.0,
+        "revenue": 19656,
+        "ebitda": 5610,
         "ebitda_margin_pct": 28.5,
         "cfo": 4768.5,
         "capex": 1874.2,
         "fcf": 2894.3,
         "cash": 4513.5,
-        "gross_debt": 19892.0,
+        "gross_debt": 19892,
         "net_debt": 15378.5,
         "net_leverage": 2.74,
         "interest_coverage": 6.15,
@@ -14047,7 +14119,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 5694.1,
-        "calculated_ebitda": 5610.0,
+        "calculated_ebitda": 5610,
         "ebitda_reconciliation_variance_usd_m": 84.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$84.1M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -14056,7 +14128,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 452.2,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 5610.0,
+          "calculated_ebitda": 5610,
           "capex": 1874.2,
           "cash_interest": 912.2,
           "change_in_working_capital": -522.9,
@@ -14068,8 +14140,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 20930.0,
-        "ebitda": 6018.0,
+        "revenue": 20930,
+        "ebitda": 6018,
         "ebitda_margin_pct": 28.8,
         "cfo": 5115.3,
         "capex": 1820.7,
@@ -14087,7 +14159,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
         "reported_ebitda": 6108.3,
-        "calculated_ebitda": 6018.0,
+        "calculated_ebitda": 6018,
         "ebitda_reconciliation_variance_usd_m": 90.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$90.3M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -14096,7 +14168,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 500.9,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 6018.0,
+          "calculated_ebitda": 6018,
           "capex": 1820.7,
           "cash_interest": 873.4,
           "change_in_working_capital": -471.6,
@@ -14108,9 +14180,9 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 21840.0,
-        "ebitda": 6324.0,
-        "ebitda_margin_pct": 29.0,
+        "revenue": 21840,
+        "ebitda": 6324,
+        "ebitda_margin_pct": 29,
         "cfo": 5418.8,
         "capex": 1749.3,
         "fcf": 3669.5,
@@ -14127,16 +14199,16 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
         "reported_ebitda": 6418.9,
-        "calculated_ebitda": 6324.0,
+        "calculated_ebitda": 6324,
         "ebitda_reconciliation_variance_usd_m": 94.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$94.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 835.4,
         "change_in_working_capital": -468.9,
         "tax_expense": 538.7,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 6324.0,
+          "calculated_ebitda": 6324,
           "capex": 1749.3,
           "cash_interest": 835.4,
           "change_in_working_capital": -468.9,
@@ -14147,10 +14219,10 @@ const MASTER_ISSUERS = [
       }
     ],
     "supplementary_data": {
-      "hard_currency_revenue_pct": 68.0,
-      "concession_life_years": 27.0,
-      "contracted_backlog_usd_m": 38220.0,
-      "utilization_rate_pct": 84.0
+      "hard_currency_revenue_pct": 68,
+      "concession_life_years": 27,
+      "contracted_backlog_usd_m": 38220,
+      "utilization_rate_pct": 84
     },
     "debt_maturities": {
       "2025": 1976.8,
@@ -14159,12 +14231,12 @@ const MASTER_ISSUERS = [
       "2028": 2965.1,
       "2029": 1976.8,
       "2030_plus": 1647.3,
-      "total_outstanding_usd_m": 16473.0
+      "total_outstanding_usd_m": 16473
     },
     "recovery_analysis": {
-      "distressed_floor_px": 72.0,
+      "distressed_floor_px": 72,
       "base_case_px": 102.5,
-      "recovery_floor_pct": 72.0,
+      "recovery_floor_pct": 72,
       "recovery_base_pct": 102.5,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "UAE Commercial & Bankruptcy Code",
@@ -14240,7 +14312,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 9134.1,
         "amount_outstanding_usd_m": 9134.1,
         "coupon": "5.350%",
-        "clean_price": 98.0,
+        "clean_price": 98,
         "ytm": 5.35,
         "spread_bp": 120,
         "maturity_date": "2029-07-25",
@@ -14255,7 +14327,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 6089.4,
         "amount_outstanding_usd_m": 6089.4,
         "coupon": "4.700%",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 4.699999999999999,
         "spread_bp": 65,
         "maturity_date": "2027-10-18",
@@ -14270,7 +14342,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 3958.1,
         "amount_outstanding_usd_m": 3044.7,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -14285,7 +14357,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 7104.3,
         "amount_outstanding_usd_m": 2029.8,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -14428,8 +14500,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.7,
         "spread_bp": 150,
         "net_leverage": 3.58,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
@@ -14441,8 +14513,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.3,
         "spread_bp": 142,
         "net_leverage": 3.48,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
@@ -14454,8 +14526,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.95,
         "spread_bp": 134,
         "net_leverage": 3.38,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
@@ -14467,8 +14539,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.65,
         "spread_bp": 126,
         "net_leverage": 3.28,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
@@ -14480,8 +14552,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.5,
         "spread_bp": 124,
         "net_leverage": 3.25,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
@@ -14493,8 +14565,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.25,
         "spread_bp": 118,
         "net_leverage": 3.18,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
@@ -14506,8 +14578,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.15,
         "spread_bp": 115,
         "net_leverage": 3.13,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
@@ -14519,8 +14591,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.1,
         "spread_bp": 114,
         "net_leverage": 3.11,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
@@ -14532,8 +14604,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.2,
         "spread_bp": 116,
         "net_leverage": 3.15,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
@@ -14545,21 +14617,21 @@ const MASTER_ISSUERS = [
         "ytm": 5.3,
         "spread_bp": 119,
         "net_leverage": 3.21,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB+ / Baa2",
-        "price": 98.0,
+        "price": 98,
         "ytm": 5.35,
         "spread_bp": 120,
         "net_leverage": 3.23,
-        "ebitda": 5100.0,
-        "fcf": 2550.0,
+        "ebitda": 5100,
+        "fcf": 2550,
         "guidance_status": "On Track"
       }
     ]
@@ -14567,8 +14639,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "dtek",
-      "cognitive_credit_id": "dtek",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dtek/description",
       "name": "DTEK Energy",
       "ticker": "DTEKUA",
       "country": "Ukraine",
@@ -14584,14 +14654,16 @@ const MASTER_ISSUERS = [
       "model_file": "DTEK_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6810884b0f8366b6f9dce",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DTEK_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "dtek",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dtek/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 1632.0,
-        "ebitda": 273.0,
+        "revenue": 1632,
+        "ebitda": 273,
         "ebitda_margin_pct": 16.7,
         "cfo": 221.3,
         "capex": 102.9,
@@ -14609,20 +14681,20 @@ const MASTER_ISSUERS = [
           "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
         },
         "reported_ebitda": 277.1,
-        "calculated_ebitda": 273.0,
+        "calculated_ebitda": 273,
         "ebitda_reconciliation_variance_usd_m": 4.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 78.0,
+        "cash_interest": 78,
         "change_in_working_capital": -43.3,
-        "tax_expense": 17.0,
+        "tax_expense": 17,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 273.0,
+          "calculated_ebitda": 273,
           "capex": 102.9,
-          "cash_interest": 78.0,
+          "cash_interest": 78,
           "change_in_working_capital": -43.3,
-          "tax": 17.0,
+          "tax": 17,
           "fcf": 118.4,
           "formula_check": "273.0 - 102.9 - 78.0 - (-43.3) - 17.0 = 118.4"
         }
@@ -14630,11 +14702,11 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 1968.0,
-        "ebitda": 336.0,
+        "revenue": 1968,
+        "ebitda": 336,
         "ebitda_margin_pct": 17.1,
         "cfo": 278.5,
-        "capex": 125.0,
+        "capex": 125,
         "fcf": 153.5,
         "cash": 220.5,
         "gross_debt": 1456.7,
@@ -14648,9 +14720,9 @@ const MASTER_ISSUERS = [
           "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
           "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
         },
-        "reported_ebitda": 341.0,
-        "calculated_ebitda": 336.0,
-        "ebitda_reconciliation_variance_usd_m": 5.0,
+        "reported_ebitda": 341,
+        "calculated_ebitda": 336,
+        "ebitda_reconciliation_variance_usd_m": 5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 97.4,
@@ -14658,8 +14730,8 @@ const MASTER_ISSUERS = [
         "tax_expense": 20.7,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 336.0,
-          "capex": 125.0,
+          "calculated_ebitda": 336,
+          "capex": 125,
           "cash_interest": 97.4,
           "change_in_working_capital": -60.6,
           "tax": 20.7,
@@ -14670,8 +14742,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 2208.0,
-        "ebitda": 378.0,
+        "revenue": 2208,
+        "ebitda": 378,
         "ebitda_margin_pct": 17.1,
         "cfo": 314.2,
         "capex": 139.7,
@@ -14689,18 +14761,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
         },
         "reported_ebitda": 383.7,
-        "calculated_ebitda": 378.0,
+        "calculated_ebitda": 378,
         "ebitda_reconciliation_variance_usd_m": 5.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 117.0,
+        "cash_interest": 117,
         "change_in_working_capital": -75.3,
         "tax_expense": 22.1,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 378.0,
+          "calculated_ebitda": 378,
           "capex": 139.7,
-          "cash_interest": 117.0,
+          "cash_interest": 117,
           "change_in_working_capital": -75.3,
           "tax": 22.1,
           "fcf": 174.5,
@@ -14710,13 +14782,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 2400.0,
-        "ebitda": 420.0,
+        "revenue": 2400,
+        "ebitda": 420,
         "ebitda_margin_pct": 17.5,
-        "cfo": 357.0,
-        "capex": 147.0,
-        "fcf": 210.0,
-        "cash": 315.0,
+        "cfo": 357,
+        "capex": 147,
+        "fcf": 210,
+        "cash": 315,
         "gross_debt": 1583.4,
         "net_debt": 1268.4,
         "net_leverage": 3.02,
@@ -14729,36 +14801,36 @@ const MASTER_ISSUERS = [
           "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
         },
         "reported_ebitda": 426.3,
-        "calculated_ebitda": 420.0,
+        "calculated_ebitda": 420,
         "ebitda_reconciliation_variance_usd_m": 6.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 130.0,
+        "cash_interest": 130,
         "change_in_working_capital": -91.6,
         "tax_expense": 24.6,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 420.0,
-          "capex": 147.0,
-          "cash_interest": 130.0,
+          "calculated_ebitda": 420,
+          "capex": 147,
+          "cash_interest": 130,
           "change_in_working_capital": -91.6,
           "tax": 24.6,
-          "fcf": 210.0,
+          "fcf": 210,
           "formula_check": "420.0 - 147.0 - 130.0 - (-91.6) - 24.6 = 210.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 2592.0,
-        "ebitda": 462.0,
+        "revenue": 2592,
+        "ebitda": 462,
         "ebitda_margin_pct": 17.8,
         "cfo": 392.7,
         "capex": 154.3,
         "fcf": 238.4,
         "cash": 371.7,
         "gross_debt": 1551.7,
-        "net_debt": 1180.0,
+        "net_debt": 1180,
         "net_leverage": 2.55,
         "interest_coverage": 3.7,
         "observations": {
@@ -14769,7 +14841,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
         },
         "reported_ebitda": 468.9,
-        "calculated_ebitda": 462.0,
+        "calculated_ebitda": 462,
         "ebitda_reconciliation_variance_usd_m": 6.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.9M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -14778,7 +14850,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 29.8,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 462.0,
+          "calculated_ebitda": 462,
           "capex": 154.3,
           "cash_interest": 124.9,
           "change_in_working_capital": -85.4,
@@ -14790,15 +14862,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 2760.0,
+        "revenue": 2760,
         "ebitda": 495.6,
-        "ebitda_margin_pct": 18.0,
+        "ebitda_margin_pct": 18,
         "cfo": 421.3,
         "capex": 149.9,
         "fcf": 271.4,
         "cash": 425.2,
         "gross_debt": 1504.2,
-        "net_debt": 1079.0,
+        "net_debt": 1079,
         "net_leverage": 2.18,
         "interest_coverage": 4.14,
         "observations": {
@@ -14808,7 +14880,7 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
           "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
         },
-        "reported_ebitda": 503.0,
+        "reported_ebitda": 503,
         "calculated_ebitda": 495.6,
         "ebitda_reconciliation_variance_usd_m": 7.4,
         "ebitda_reconciliation_variance_pct": 1.5,
@@ -14830,7 +14902,7 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 2880.0,
+        "revenue": 2880,
         "ebitda": 520.8,
         "ebitda_margin_pct": 18.1,
         "cfo": 446.2,
@@ -14856,7 +14928,7 @@ const MASTER_ISSUERS = [
         "cash_interest": 114.5,
         "change_in_working_capital": -77.4,
         "tax_expense": 37.5,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
           "calculated_ebitda": 520.8,
           "capex": 144.1,
@@ -14869,11 +14941,11 @@ const MASTER_ISSUERS = [
       }
     ],
     "supplementary_data": {
-      "installed_capacity_mw": 4340.0,
-      "generation_volume_gwh": 15420.0,
-      "renewable_capacity_pct": 65.0,
-      "fx_indexed_tariffs_pct": 82.0,
-      "capacity_utilization_factor_pct": 54.0
+      "installed_capacity_mw": 4340,
+      "generation_volume_gwh": 15420,
+      "renewable_capacity_pct": 65,
+      "fx_indexed_tariffs_pct": 82,
+      "capacity_utilization_factor_pct": 54
     },
     "debt_maturities": {
       "2025": 152.2,
@@ -14885,10 +14957,10 @@ const MASTER_ISSUERS = [
       "total_outstanding_usd_m": 1268.4
     },
     "recovery_analysis": {
-      "distressed_floor_px": 40.0,
-      "base_case_px": 80.0,
-      "recovery_floor_pct": 40.0,
-      "recovery_base_pct": 80.0,
+      "distressed_floor_px": 40,
+      "base_case_px": 80,
+      "recovery_floor_pct": 40,
+      "recovery_base_pct": 80,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
       "thesis": "Critical national power utility; 500MW+ renewables + domestic gas upstream; ENTSO-E EU grid connectivity."
@@ -14975,8 +15047,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "DTEKUA Secondary Eurobond / Sukuk Tranche 2",
         "instrument_type": "Senior Unsecured Notes",
         "currency": "USD",
-        "amount_issued_usd_m": 475.0,
-        "amount_outstanding_usd_m": 475.0,
+        "amount_issued_usd_m": 475,
+        "amount_outstanding_usd_m": 475,
         "coupon": "17.850%",
         "clean_price": 70.5,
         "ytm": 17.85,
@@ -14993,7 +15065,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 308.8,
         "amount_outstanding_usd_m": 237.5,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -15008,7 +15080,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 554.4,
         "amount_outstanding_usd_m": 158.4,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -15021,7 +15093,7 @@ const MASTER_ISSUERS = [
       "facility_name": "DTEKUA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
       "total_committed_capacity_usd_m": 443.4,
       "drawn_amount_usd_m": 158.4,
-      "undrawn_available_usd_m": 285.0,
+      "undrawn_available_usd_m": 285,
       "drawn_margin": "SOFR + 150 bps",
       "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
       "maturity": "2028-06-30 (with two 1-year extension options)",
@@ -15151,8 +15223,8 @@ const MASTER_ISSUERS = [
         "ytm": 19.85,
         "spread_bp": 1762,
         "net_leverage": 3.37,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -15164,8 +15236,8 @@ const MASTER_ISSUERS = [
         "ytm": 19.45,
         "spread_bp": 1664,
         "net_leverage": 3.27,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -15173,12 +15245,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "CCC / Caa3",
-        "price": 67.0,
+        "price": 67,
         "ytm": 19.1,
         "spread_bp": 1579,
         "net_leverage": 3.17,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -15190,8 +15262,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.8,
         "spread_bp": 1480,
         "net_leverage": 3.07,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -15203,8 +15275,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.65,
         "spread_bp": 1452,
         "net_leverage": 3.04,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -15216,8 +15288,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.4,
         "spread_bp": 1382,
         "net_leverage": 2.97,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -15229,8 +15301,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.3,
         "spread_bp": 1354,
         "net_leverage": 2.92,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -15242,8 +15314,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.25,
         "spread_bp": 1340,
         "net_leverage": 2.9,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -15255,8 +15327,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.35,
         "spread_bp": 1368,
         "net_leverage": 2.94,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -15267,22 +15339,22 @@ const MASTER_ISSUERS = [
         "price": 68.6,
         "ytm": 18.45,
         "spread_bp": 1396,
-        "net_leverage": 3.0,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "net_leverage": 3,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "CCC / Caa3",
         "price": 68.5,
         "ytm": 18.5,
         "spread_bp": 1410,
         "net_leverage": 3.02,
-        "ebitda": 420.0,
-        "fcf": 210.0,
+        "ebitda": 420,
+        "fcf": 210,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -15993,7 +16065,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB / Baa2",
         "price": 100.2,
         "ytm": 5.15,
@@ -16332,7 +16404,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 101.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "TOKİ 50% state ownership; >$4.5B prime land bank; negligible net leverage (0.49x)."
+      "thesis": "TOK\u0130 50% state ownership; >$4.5B prime land bank; negligible net leverage (0.49x)."
     },
     "annotations": [
       {
@@ -16711,7 +16783,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- Local",
         "price": 97.5,
         "ytm": 10.5,
@@ -17481,7 +17553,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A2 / A+",
         "price": 100.25,
         "ytm": 4.9,
@@ -18201,7 +18273,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "Baa2 / BBB",
         "price": 98.2,
         "ytm": 5.55,
@@ -18211,7 +18283,25 @@ const MASTER_ISSUERS = [
         "fcf": 490.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Monoethylene Glycol (MEG) & Polyethylene (PE)",
+      "volume_metric_name": "Petrochemical Nameplate Capacity",
+      "volume_unit": "Mt/yr",
+      "volume_guidance": 12.52,
+      "volume_guidance_range": "12 - 13 Mt/yr",
+      "volume_guidance_source": "EQUATE Operating Guidance Disclosures",
+      "price_metric_name": "Ethylene Derivatives Composite Benchmark",
+      "price_unit": "$/t",
+      "price_default": 550.0,
+      "price_source": "Current State of the World / ICIS Petrochemical Index",
+      "cost_metric_name": "Ethane Feedstock & Cash Conversion Cost",
+      "cost_unit": "$/t",
+      "cost_default": 290.0,
+      "hedged_pct": 0,
+      "hedge_floor_price": 0.0
+    }
   },
   {
     "metadata": {
@@ -18921,7 +19011,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / B1",
         "price": 98.5,
         "ytm": 7.95,
@@ -18931,7 +19021,25 @@ const MASTER_ISSUERS = [
         "fcf": 425.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Hot Rolled Coil (HRC) Finished Steel",
+      "volume_metric_name": "Crude & Flat Steel Finished Output",
+      "volume_unit": "Mt/yr",
+      "volume_guidance": 22.04,
+      "volume_guidance_range": "21 - 23 Mt/yr",
+      "volume_guidance_source": "Company Executive Mill Guidance",
+      "price_metric_name": "HRC Steel Export Benchmark",
+      "price_unit": "$/t",
+      "price_default": 620.0,
+      "price_source": "Current State of the World / Black Sea HRC Benchmark",
+      "cost_metric_name": "Scrap & Iron Cash Processing Cost",
+      "cost_unit": "$/t",
+      "cost_default": 450.0,
+      "hedged_pct": 0,
+      "hedge_floor_price": 0.0
+    }
   },
   {
     "metadata": {
@@ -19642,7 +19750,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B-",
         "price": 99.0,
         "ytm": 8.5,
@@ -20412,7 +20520,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "Aa3 / AA-",
         "price": 100.5,
         "ytm": 4.85,
@@ -21182,7 +21290,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "Ba2 / BB-",
         "price": 98.8,
         "ytm": 6.75,
@@ -21952,7 +22060,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / B1",
         "price": 99.8,
         "ytm": 6.55,
@@ -22289,7 +22397,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 100.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "İzmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
+      "thesis": "\u0130zmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
     },
     "annotations": [
       {
@@ -22673,7 +22781,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B2",
         "price": 98.2,
         "ytm": 9.1,
@@ -22688,8 +22796,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "goldfields",
-      "cognitive_credit_id": "goldfields",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/goldfields/description",
       "name": "Gold Fields Ltd",
       "ticker": "GFI",
       "country": "South Africa",
@@ -22705,20 +22811,22 @@ const MASTER_ISSUERS = [
       "model_file": "Gold_Fields_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8108-a0bc-e03884d172de",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Gold_Fields_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "goldfields",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/goldfields/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 3060.0,
-        "ebitda": 1365.0,
+        "revenue": 3060,
+        "ebitda": 1365,
         "ebitda_margin_pct": 44.6,
         "cfo": 1106.7,
         "capex": 514.5,
         "fcf": 592.2,
         "cash": 866.3,
-        "gross_debt": 2856.0,
+        "gross_debt": 2856,
         "net_debt": 1989.7,
         "net_leverage": 1.46,
         "interest_coverage": 10.29,
@@ -22730,7 +22838,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
         "reported_ebitda": 1385.5,
-        "calculated_ebitda": 1365.0,
+        "calculated_ebitda": 1365,
         "ebitda_reconciliation_variance_usd_m": 20.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.5M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -22739,7 +22847,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 123.4,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 1365.0,
+          "calculated_ebitda": 1365,
           "capex": 514.5,
           "cash_interest": 132.7,
           "change_in_working_capital": 2.2,
@@ -22751,8 +22859,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 3690.0,
-        "ebitda": 1680.0,
+        "revenue": 3690,
+        "ebitda": 1680,
         "ebitda_margin_pct": 45.5,
         "cfo": 1392.3,
         "capex": 624.8,
@@ -22770,7 +22878,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 1705.2,
-        "calculated_ebitda": 1680.0,
+        "calculated_ebitda": 1680,
         "ebitda_reconciliation_variance_usd_m": 25.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$25.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -22779,7 +22887,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 151.5,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 1680.0,
+          "calculated_ebitda": 1680,
           "capex": 624.8,
           "cash_interest": 165.8,
           "change_in_working_capital": -29.6,
@@ -22791,15 +22899,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 4140.0,
-        "ebitda": 1890.0,
+        "revenue": 4140,
+        "ebitda": 1890,
         "ebitda_margin_pct": 45.7,
         "cfo": 1570.8,
         "capex": 698.2,
         "fcf": 872.6,
         "cash": 1338.8,
         "gross_debt": 3292.8,
-        "net_debt": 1954.0,
+        "net_debt": 1954,
         "net_leverage": 1.03,
         "interest_coverage": 9.5,
         "observations": {
@@ -22810,7 +22918,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 1918.3,
-        "calculated_ebitda": 1890.0,
+        "calculated_ebitda": 1890,
         "ebitda_reconciliation_variance_usd_m": 28.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$28.3M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -22819,7 +22927,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 168.6,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 1890.0,
+          "calculated_ebitda": 1890,
           "capex": 698.2,
           "cash_interest": 198.9,
           "change_in_working_capital": -48.3,
@@ -22831,15 +22939,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 4500.0,
-        "ebitda": 2100.0,
+        "revenue": 4500,
+        "ebitda": 2100,
         "ebitda_margin_pct": 46.7,
-        "cfo": 1785.0,
-        "capex": 735.0,
-        "fcf": 1050.0,
-        "cash": 1575.0,
-        "gross_debt": 3360.0,
-        "net_debt": 1785.0,
+        "cfo": 1785,
+        "capex": 735,
+        "fcf": 1050,
+        "cash": 1575,
+        "gross_debt": 3360,
+        "net_debt": 1785,
         "net_leverage": 0.85,
         "interest_coverage": 9.5,
         "observations": {
@@ -22850,29 +22958,29 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 2131.5,
-        "calculated_ebitda": 2100.0,
+        "calculated_ebitda": 2100,
         "ebitda_reconciliation_variance_usd_m": 31.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 221.1,
         "change_in_working_capital": -93.4,
         "tax_expense": 187.3,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 2100.0,
-          "capex": 735.0,
+          "calculated_ebitda": 2100,
+          "capex": 735,
           "cash_interest": 221.1,
           "change_in_working_capital": -93.4,
           "tax": 187.3,
-          "fcf": 1050.0,
+          "fcf": 1050,
           "formula_check": "2100.0 - 735.0 - 221.1 - (-93.4) - 187.3 = 1050.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 4860.0,
-        "ebitda": 2310.0,
+        "revenue": 4860,
+        "ebitda": 2310,
         "ebitda_margin_pct": 47.5,
         "cfo": 1963.5,
         "capex": 771.8,
@@ -22890,7 +22998,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 2344.6,
-        "calculated_ebitda": 2310.0,
+        "calculated_ebitda": 2310,
         "ebitda_reconciliation_variance_usd_m": 34.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$34.6M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -22899,7 +23007,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 210.7,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 2310.0,
+          "calculated_ebitda": 2310,
           "capex": 771.8,
           "cash_interest": 212.1,
           "change_in_working_capital": -76.3,
@@ -22911,14 +23019,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 5175.0,
-        "ebitda": 2478.0,
+        "revenue": 5175,
+        "ebitda": 2478,
         "ebitda_margin_pct": 47.9,
         "cfo": 2106.3,
         "capex": 749.7,
         "fcf": 1356.6,
         "cash": 2126.2,
-        "gross_debt": 3192.0,
+        "gross_debt": 3192,
         "net_debt": 1065.8,
         "net_leverage": 0.43,
         "interest_coverage": 12.18,
@@ -22930,7 +23038,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
         "reported_ebitda": 2515.2,
-        "calculated_ebitda": 2478.0,
+        "calculated_ebitda": 2478,
         "ebitda_reconciliation_variance_usd_m": 37.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -22939,7 +23047,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 229.7,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 2478.0,
+          "calculated_ebitda": 2478,
           "capex": 749.7,
           "cash_interest": 203.4,
           "change_in_working_capital": -61.4,
@@ -22951,14 +23059,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 5400.0,
-        "ebitda": 2604.0,
+        "revenue": 5400,
+        "ebitda": 2604,
         "ebitda_margin_pct": 48.2,
         "cfo": 2231.2,
         "capex": 720.3,
         "fcf": 1510.9,
         "cash": 2362.5,
-        "gross_debt": 3024.0,
+        "gross_debt": 3024,
         "net_debt": 661.5,
         "net_leverage": 0.25,
         "interest_coverage": 13.39,
@@ -22970,16 +23078,16 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
         "reported_ebitda": 2643.1,
-        "calculated_ebitda": 2604.0,
+        "calculated_ebitda": 2604,
         "ebitda_reconciliation_variance_usd_m": 39.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$39.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 194.5,
         "change_in_working_capital": -65.9,
         "tax_expense": 244.2,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 2604.0,
+          "calculated_ebitda": 2604,
           "capex": 720.3,
           "cash_interest": 194.5,
           "change_in_working_capital": -65.9,
@@ -22991,23 +23099,23 @@ const MASTER_ISSUERS = [
     ],
     "supplementary_data": {
       "production_capacity_mtpa": 15.6,
-      "hard_currency_export_pct": 76.0,
+      "hard_currency_export_pct": 76,
       "cash_cost_quartile": "Q1 Global Low Cost",
-      "expansion_capex_usd_m": 495.0
+      "expansion_capex_usd_m": 495
     },
     "debt_maturities": {
       "2025": 214.2,
-      "2026": 357.0,
+      "2026": 357,
       "2027": 499.8,
       "2028": 321.3,
       "2029": 214.2,
       "2030_plus": 178.5,
-      "total_outstanding_usd_m": 1785.0
+      "total_outstanding_usd_m": 1785
     },
     "recovery_analysis": {
-      "distressed_floor_px": 80.0,
+      "distressed_floor_px": 80,
       "base_case_px": 101.5,
-      "recovery_floor_pct": 80.0,
+      "recovery_floor_pct": 80,
       "recovery_base_pct": 101.5,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
@@ -23080,8 +23188,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "GFI Benchmark Senior Notes",
         "instrument_type": "Senior Unsecured RegS/144A Eurobond",
         "currency": "USD",
-        "amount_issued_usd_m": 1512.0,
-        "amount_outstanding_usd_m": 1512.0,
+        "amount_issued_usd_m": 1512,
+        "amount_outstanding_usd_m": 1512,
         "coupon": "6.050%",
         "clean_price": 100.2,
         "ytm": 6.05,
@@ -23095,8 +23203,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "GFI Secondary Eurobond / Sukuk Tranche 2",
         "instrument_type": "Senior Unsecured Notes",
         "currency": "USD",
-        "amount_issued_usd_m": 1008.0,
-        "amount_outstanding_usd_m": 1008.0,
+        "amount_issued_usd_m": 1008,
+        "amount_outstanding_usd_m": 1008,
         "coupon": "5.400%",
         "clean_price": 101.5,
         "ytm": 5.3999999999999995,
@@ -23111,9 +23219,9 @@ const MASTER_ISSUERS = [
         "instrument_type": "Senior Secured / Priority Amortizing Loan",
         "currency": "USD / EUR",
         "amount_issued_usd_m": 655.2,
-        "amount_outstanding_usd_m": 504.0,
+        "amount_outstanding_usd_m": 504,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -23125,10 +23233,10 @@ const MASTER_ISSUERS = [
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
         "instrument_type": "Revolving Working Capital Credit Line",
         "currency": "USD",
-        "amount_issued_usd_m": 1176.0,
-        "amount_outstanding_usd_m": 336.0,
+        "amount_issued_usd_m": 1176,
+        "amount_outstanding_usd_m": 336,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -23140,7 +23248,7 @@ const MASTER_ISSUERS = [
     "rcf_facility_liquidity": {
       "facility_name": "GFI Syndicated Multi-Currency Revolving Credit Facility (RCF)",
       "total_committed_capacity_usd_m": 940.8,
-      "drawn_amount_usd_m": 336.0,
+      "drawn_amount_usd_m": 336,
       "undrawn_available_usd_m": 604.8,
       "drawn_margin": "SOFR + 150 bps",
       "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
@@ -23267,12 +23375,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q1 2024",
         "timestamp": "2024-03-31T16:00:00Z",
         "rating": "BBB- / Baa3",
-        "price": 96.0,
+        "price": 96,
         "ytm": 7.4,
         "spread_bp": 250,
         "net_leverage": 1.2,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -23281,11 +23389,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "BBB- / Baa3",
         "price": 97.4,
-        "ytm": 7.0,
+        "ytm": 7,
         "spread_bp": 236,
         "net_leverage": 1.1,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -23296,9 +23404,9 @@ const MASTER_ISSUERS = [
         "price": 98.7,
         "ytm": 6.65,
         "spread_bp": 224,
-        "net_leverage": 1.0,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "net_leverage": 1,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -23310,8 +23418,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.35,
         "spread_bp": 210,
         "net_leverage": 0.9,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -23323,8 +23431,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.2,
         "spread_bp": 206,
         "net_leverage": 0.87,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -23336,8 +23444,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.95,
         "spread_bp": 196,
         "net_leverage": 0.8,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -23349,8 +23457,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.85,
         "spread_bp": 192,
         "net_leverage": 0.75,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -23358,12 +23466,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2025",
         "timestamp": "2025-12-31T16:00:00Z",
         "rating": "BBB- / Baa3",
-        "price": 101.0,
+        "price": 101,
         "ytm": 5.8,
         "spread_bp": 190,
         "net_leverage": 0.73,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -23375,8 +23483,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.9,
         "spread_bp": 194,
         "net_leverage": 0.77,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -23385,27 +23493,45 @@ const MASTER_ISSUERS = [
         "timestamp": "2026-06-30T16:00:00Z",
         "rating": "BBB- / Baa3",
         "price": 100.3,
-        "ytm": 6.0,
+        "ytm": 6,
         "spread_bp": 198,
         "net_leverage": 0.83,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB- / Baa3",
         "price": 100.2,
         "ytm": 6.05,
         "spread_bp": 200,
         "net_leverage": 0.85,
-        "ebitda": 2100.0,
-        "fcf": 1050.0,
+        "ebitda": 2100,
+        "fcf": 1050,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Physical Gold (LME)",
+      "volume_metric_name": "Attributable Gold Production",
+      "volume_unit": "koz/yr",
+      "volume_guidance": 2250.0,
+      "volume_guidance_range": "2,200 - 2,400 koz/yr",
+      "volume_guidance_source": "Company Annual Production Guidance Guidance",
+      "price_metric_name": "Realized Spot / Forward Gold Price",
+      "price_unit": "$/oz",
+      "price_default": 2450.0,
+      "price_source": "Current State of the World / LBMA London Gold Benchmark",
+      "cost_metric_name": "All-In Sustaining Cost (AISC)",
+      "cost_unit": "$/oz",
+      "cost_default": 1280.0,
+      "hedged_pct": 10,
+      "hedge_floor_price": 2200.0
+    }
   },
   {
     "metadata": {
@@ -24165,7 +24291,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B3",
         "price": 98.1,
         "ytm": 7.35,
@@ -24935,7 +25061,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "Baa1 / BBB-",
         "price": 99.0,
         "ytm": 6.2,
@@ -24950,8 +25076,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "helios",
-      "cognitive_credit_id": "helios",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/helios/description",
       "name": "Helios Towers",
       "ticker": "HT",
       "country": "Pan-Africa",
@@ -24967,7 +25091,9 @@ const MASTER_ISSUERS = [
       "model_file": "Helios_Towers_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6819fb0afce386998b737",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Helios_Towers_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "helios",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/helios/description"
     },
     "financials_multi_year": [
       {
@@ -24981,7 +25107,7 @@ const MASTER_ISSUERS = [
         "fcf": 108.6,
         "cash": 158.8,
         "gross_debt": 1714.8,
-        "net_debt": 1556.0,
+        "net_debt": 1556,
         "net_leverage": 6.22,
         "interest_coverage": 2.98,
         "observations": {
@@ -24991,19 +25117,19 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 254.0,
+        "reported_ebitda": 254,
         "calculated_ebitda": 250.2,
         "ebitda_reconciliation_variance_usd_m": 3.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 84.0,
+        "cash_interest": 84,
         "change_in_working_capital": -50.4,
         "tax_expense": 13.7,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
           "calculated_ebitda": 250.2,
           "capex": 94.3,
-          "cash_interest": 84.0,
+          "cash_interest": 84,
           "change_in_working_capital": -50.4,
           "tax": 13.7,
           "fcf": 108.6,
@@ -25014,13 +25140,13 @@ const MASTER_ISSUERS = [
         "period": "2022A",
         "is_audited": true,
         "revenue": 606.8,
-        "ebitda": 308.0,
+        "ebitda": 308,
         "ebitda_margin_pct": 50.8,
         "cfo": 255.3,
         "capex": 114.5,
         "fcf": 140.8,
         "cash": 202.1,
-        "gross_debt": 1856.0,
+        "gross_debt": 1856,
         "net_debt": 1653.9,
         "net_leverage": 5.37,
         "interest_coverage": 2.93,
@@ -25032,19 +25158,19 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 312.6,
-        "calculated_ebitda": 308.0,
+        "calculated_ebitda": 308,
         "ebitda_reconciliation_variance_usd_m": 4.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 105.1,
-        "change_in_working_capital": -69.0,
+        "change_in_working_capital": -69,
         "tax_expense": 16.6,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 308.0,
+          "calculated_ebitda": 308,
           "capex": 114.5,
           "cash_interest": 105.1,
-          "change_in_working_capital": -69.0,
+          "change_in_working_capital": -69,
           "tax": 16.6,
           "fcf": 140.8,
           "formula_check": "308.0 - 114.5 - 105.1 - (-69.0) - 16.6 = 140.8"
@@ -25056,13 +25182,13 @@ const MASTER_ISSUERS = [
         "revenue": 680.8,
         "ebitda": 346.5,
         "ebitda_margin_pct": 50.9,
-        "cfo": 288.0,
-        "capex": 128.0,
-        "fcf": 160.0,
+        "cfo": 288,
+        "capex": 128,
+        "fcf": 160,
         "cash": 245.4,
         "gross_debt": 1977.1,
         "net_debt": 1731.7,
-        "net_leverage": 5.0,
+        "net_leverage": 5,
         "interest_coverage": 2.75,
         "observations": {
           "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
@@ -25076,26 +25202,26 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_usd_m": 5.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 126.0,
-        "change_in_working_capital": -85.0,
+        "cash_interest": 126,
+        "change_in_working_capital": -85,
         "tax_expense": 17.5,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
           "calculated_ebitda": 346.5,
-          "capex": 128.0,
-          "cash_interest": 126.0,
-          "change_in_working_capital": -85.0,
+          "capex": 128,
+          "cash_interest": 126,
+          "change_in_working_capital": -85,
           "tax": 17.5,
-          "fcf": 160.0,
+          "fcf": 160,
           "formula_check": "346.5 - 128.0 - 126.0 - (-85.0) - 17.5 = 160.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 740.0,
-        "ebitda": 385.0,
-        "ebitda_margin_pct": 52.0,
+        "revenue": 740,
+        "ebitda": 385,
+        "ebitda_margin_pct": 52,
         "cfo": 327.2,
         "capex": 134.8,
         "fcf": 192.4,
@@ -25112,18 +25238,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 390.8,
-        "calculated_ebitda": 385.0,
+        "calculated_ebitda": 385,
         "ebitda_reconciliation_variance_usd_m": 5.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 140.0,
+        "cash_interest": 140,
         "change_in_working_capital": -101.6,
         "tax_expense": 19.4,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 385.0,
+          "calculated_ebitda": 385,
           "capex": 134.8,
-          "cash_interest": 140.0,
+          "cash_interest": 140,
           "change_in_working_capital": -101.6,
           "tax": 19.4,
           "fcf": 192.4,
@@ -25135,8 +25261,8 @@ const MASTER_ISSUERS = [
         "is_audited": false,
         "revenue": 799.2,
         "ebitda": 423.5,
-        "ebitda_margin_pct": 53.0,
-        "cfo": 360.0,
+        "ebitda_margin_pct": 53,
+        "cfo": 360,
         "capex": 141.5,
         "fcf": 218.5,
         "cash": 340.7,
@@ -25173,7 +25299,7 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 851.0,
+        "revenue": 851,
         "ebitda": 454.3,
         "ebitda_margin_pct": 53.4,
         "cfo": 386.2,
@@ -25197,14 +25323,14 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 128.7,
-        "change_in_working_capital": -89.0,
+        "change_in_working_capital": -89,
         "tax_expense": 28.4,
         "fcf_conversion_pct": 54.8,
         "fcf_bridge": {
           "calculated_ebitda": 454.3,
           "capex": 137.4,
           "cash_interest": 128.7,
-          "change_in_working_capital": -89.0,
+          "change_in_working_capital": -89,
           "tax": 28.4,
           "fcf": 248.8,
           "formula_check": "454.3 - 137.4 - 128.7 - (-89.0) - 28.4 = 248.8"
@@ -25213,12 +25339,12 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 888.0,
+        "revenue": 888,
         "ebitda": 477.4,
         "ebitda_margin_pct": 53.8,
         "cfo": 409.1,
         "capex": 132.1,
-        "fcf": 277.0,
+        "fcf": 277,
         "cash": 433.1,
         "gross_debt": 1815.7,
         "net_debt": 1382.6,
@@ -25239,14 +25365,14 @@ const MASTER_ISSUERS = [
         "cash_interest": 123.4,
         "change_in_working_capital": -86.7,
         "tax_expense": 31.6,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
           "calculated_ebitda": 477.4,
           "capex": 132.1,
           "cash_interest": 123.4,
           "change_in_working_capital": -86.7,
           "tax": 31.6,
-          "fcf": 277.0,
+          "fcf": 277,
           "formula_check": "477.4 - 132.1 - 123.4 - (-86.7) - 31.6 = 277.0"
         }
       }
@@ -25255,22 +25381,22 @@ const MASTER_ISSUERS = [
       "tower_or_subscriber_count": "24.4M Users / Sites",
       "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
       "contracted_backlog_years": 8.5,
-      "usd_linked_revenue_pct": 72.0,
+      "usd_linked_revenue_pct": 72,
       "churn_pct": 1.1
     },
     "debt_maturities": {
       "2025": 207.4,
       "2026": 345.7,
-      "2027": 484.0,
+      "2027": 484,
       "2028": 311.2,
       "2029": 207.4,
       "2030_plus": 172.9,
       "total_outstanding_usd_m": 1728.6
     },
     "recovery_analysis": {
-      "distressed_floor_px": 65.0,
+      "distressed_floor_px": 65,
       "base_case_px": 97.5,
-      "recovery_floor_pct": 65.0,
+      "recovery_floor_pct": 65,
       "recovery_base_pct": 97.5,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Pan-Africa Commercial & Bankruptcy Code",
@@ -25376,7 +25502,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 393.4,
         "amount_outstanding_usd_m": 302.6,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -25391,7 +25517,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 706.3,
         "amount_outstanding_usd_m": 201.8,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -25527,7 +25653,7 @@ const MASTER_ISSUERS = [
         "ytm": 10.1,
         "spread_bp": 550,
         "net_leverage": 4.84,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -25540,7 +25666,7 @@ const MASTER_ISSUERS = [
         "ytm": 9.7,
         "spread_bp": 519,
         "net_leverage": 4.74,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -25553,7 +25679,7 @@ const MASTER_ISSUERS = [
         "ytm": 9.35,
         "spread_bp": 493,
         "net_leverage": 4.64,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -25566,7 +25692,7 @@ const MASTER_ISSUERS = [
         "ytm": 9.05,
         "spread_bp": 462,
         "net_leverage": 4.54,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -25579,7 +25705,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.9,
         "spread_bp": 453,
         "net_leverage": 4.51,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -25592,7 +25718,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.65,
         "spread_bp": 431,
         "net_leverage": 4.44,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -25605,7 +25731,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.55,
         "spread_bp": 422,
         "net_leverage": 4.39,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -25618,7 +25744,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.5,
         "spread_bp": 418,
         "net_leverage": 4.37,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -25631,7 +25757,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.6,
         "spread_bp": 427,
         "net_leverage": 4.41,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -25644,20 +25770,20 @@ const MASTER_ISSUERS = [
         "ytm": 8.7,
         "spread_bp": 436,
         "net_leverage": 4.47,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B2",
         "price": 94.25,
         "ytm": 8.75,
         "spread_bp": 440,
         "net_leverage": 4.49,
-        "ebitda": 385.0,
+        "ebitda": 385,
         "fcf": 192.4,
         "guidance_status": "On Track"
       }
@@ -26372,7 +26498,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB-",
         "price": 99.0,
         "ytm": 5.5,
@@ -26387,8 +26513,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "ihs",
-      "cognitive_credit_id": "ihstowers",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ihstowers/description",
       "name": "IHS Towers",
       "ticker": "IHS",
       "country": "Nigeria",
@@ -26404,19 +26528,21 @@ const MASTER_ISSUERS = [
       "model_file": "IHS_Towers_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6811bbee5fc02b3b044c7",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/IHS_Towers_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "ihstowers",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ihstowers/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 1462.0,
-        "ebitda": 728.0,
+        "revenue": 1462,
+        "ebitda": 728,
         "ebitda_margin_pct": 49.8,
         "cfo": 590.2,
         "capex": 274.4,
         "fcf": 315.8,
-        "cash": 462.0,
+        "cash": 462,
         "gross_debt": 3722.3,
         "net_debt": 3260.3,
         "net_leverage": 4.48,
@@ -26429,20 +26555,20 @@ const MASTER_ISSUERS = [
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
         "reported_ebitda": 738.9,
-        "calculated_ebitda": 728.0,
+        "calculated_ebitda": 728,
         "ebitda_reconciliation_variance_usd_m": 10.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$10.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 209.8,
-        "change_in_working_capital": -117.0,
-        "tax_expense": 45.0,
+        "change_in_working_capital": -117,
+        "tax_expense": 45,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 728.0,
+          "calculated_ebitda": 728,
           "capex": 274.4,
           "cash_interest": 209.8,
-          "change_in_working_capital": -117.0,
-          "tax": 45.0,
+          "change_in_working_capital": -117,
+          "tax": 45,
           "fcf": 315.8,
           "formula_check": "728.0 - 274.4 - 209.8 - (-117.0) - 45.0 = 315.8"
         }
@@ -26450,13 +26576,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 1763.0,
-        "ebitda": 896.0,
+        "revenue": 1763,
+        "ebitda": 896,
         "ebitda_margin_pct": 50.8,
         "cfo": 742.6,
         "capex": 333.2,
         "fcf": 409.4,
-        "cash": 588.0,
+        "cash": 588,
         "gross_debt": 4028.9,
         "net_debt": 3440.9,
         "net_leverage": 3.84,
@@ -26469,7 +26595,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 909.4,
-        "calculated_ebitda": 896.0,
+        "calculated_ebitda": 896,
         "ebitda_reconciliation_variance_usd_m": 13.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.4M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -26478,7 +26604,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 54.7,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 896.0,
+          "calculated_ebitda": 896,
           "capex": 333.2,
           "cash_interest": 262.8,
           "change_in_working_capital": -164.1,
@@ -26490,13 +26616,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 1978.0,
-        "ebitda": 1008.0,
-        "ebitda_margin_pct": 51.0,
+        "revenue": 1978,
+        "ebitda": 1008,
+        "ebitda_margin_pct": 51,
         "cfo": 837.8,
         "capex": 372.4,
         "fcf": 465.4,
-        "cash": 714.0,
+        "cash": 714,
         "gross_debt": 4291.6,
         "net_debt": 3577.6,
         "net_leverage": 3.55,
@@ -26509,18 +26635,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 1023.1,
-        "calculated_ebitda": 1008.0,
+        "calculated_ebitda": 1008,
         "ebitda_reconciliation_variance_usd_m": 15.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 315.0,
+        "cash_interest": 315,
         "change_in_working_capital": -203.4,
         "tax_expense": 58.6,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 1008.0,
+          "calculated_ebitda": 1008,
           "capex": 372.4,
-          "cash_interest": 315.0,
+          "cash_interest": 315,
           "change_in_working_capital": -203.4,
           "tax": 58.6,
           "fcf": 465.4,
@@ -26530,13 +26656,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 2150.0,
-        "ebitda": 1120.0,
+        "revenue": 2150,
+        "ebitda": 1120,
         "ebitda_margin_pct": 52.1,
-        "cfo": 952.0,
-        "capex": 392.0,
-        "fcf": 560.0,
-        "cash": 840.0,
+        "cfo": 952,
+        "capex": 392,
+        "fcf": 560,
+        "cash": 840,
         "gross_debt": 4379.2,
         "net_debt": 3539.2,
         "net_leverage": 3.16,
@@ -26549,29 +26675,29 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 1136.8,
-        "calculated_ebitda": 1120.0,
+        "calculated_ebitda": 1120,
         "ebitda_reconciliation_variance_usd_m": 16.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 350.0,
+        "cash_interest": 350,
         "change_in_working_capital": -247.1,
         "tax_expense": 65.1,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 1120.0,
-          "capex": 392.0,
-          "cash_interest": 350.0,
+          "calculated_ebitda": 1120,
+          "capex": 392,
+          "cash_interest": 350,
           "change_in_working_capital": -247.1,
           "tax": 65.1,
-          "fcf": 560.0,
+          "fcf": 560,
           "formula_check": "1120.0 - 392.0 - 350.0 - (-247.1) - 65.1 = 560.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 2322.0,
-        "ebitda": 1232.0,
+        "revenue": 2322,
+        "ebitda": 1232,
         "ebitda_margin_pct": 53.1,
         "cfo": 1047.2,
         "capex": 411.6,
@@ -26589,20 +26715,20 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 1250.5,
-        "calculated_ebitda": 1232.0,
+        "calculated_ebitda": 1232,
         "ebitda_reconciliation_variance_usd_m": 18.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 335.7,
         "change_in_working_capital": -229.9,
-        "tax_expense": 79.0,
+        "tax_expense": 79,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 1232.0,
+          "calculated_ebitda": 1232,
           "capex": 411.6,
           "cash_interest": 335.7,
           "change_in_working_capital": -229.9,
-          "tax": 79.0,
+          "tax": 79,
           "fcf": 635.6,
           "formula_check": "1232.0 - 411.6 - 335.7 - (-229.9) - 79.0 = 635.6"
         }
@@ -26616,7 +26742,7 @@ const MASTER_ISSUERS = [
         "cfo": 1123.4,
         "capex": 399.8,
         "fcf": 723.6,
-        "cash": 1134.0,
+        "cash": 1134,
         "gross_debt": 4160.2,
         "net_debt": 3026.2,
         "net_leverage": 2.29,
@@ -26650,13 +26776,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 2580.0,
+        "revenue": 2580,
         "ebitda": 1388.8,
         "ebitda_margin_pct": 53.8,
-        "cfo": 1190.0,
+        "cfo": 1190,
         "capex": 384.2,
         "fcf": 805.8,
-        "cash": 1260.0,
+        "cash": 1260,
         "gross_debt": 3941.3,
         "net_debt": 2681.3,
         "net_leverage": 1.93,
@@ -26676,7 +26802,7 @@ const MASTER_ISSUERS = [
         "cash_interest": 307.9,
         "change_in_working_capital": -208.7,
         "tax_expense": 99.6,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
           "calculated_ebitda": 1388.8,
           "capex": 384.2,
@@ -26692,23 +26818,23 @@ const MASTER_ISSUERS = [
       "tower_or_subscriber_count": "35.7M Users / Sites",
       "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
       "contracted_backlog_years": 8.5,
-      "usd_linked_revenue_pct": 72.0,
+      "usd_linked_revenue_pct": 72,
       "churn_pct": 1.1
     },
     "debt_maturities": {
       "2025": 424.7,
       "2026": 707.8,
-      "2027": 991.0,
+      "2027": 991,
       "2028": 637.1,
       "2029": 424.7,
       "2030_plus": 353.9,
       "total_outstanding_usd_m": 3539.2
     },
     "recovery_analysis": {
-      "distressed_floor_px": 60.0,
-      "base_case_px": 96.0,
-      "recovery_floor_pct": 60.0,
-      "recovery_base_pct": 96.0,
+      "distressed_floor_px": 60,
+      "base_case_px": 96,
+      "recovery_floor_pct": 60,
+      "recovery_base_pct": 96,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Nigeria Commercial & Bankruptcy Code",
       "thesis": "Over 40,000 telecom towers across Africa and LatAm; renegotiated MTN contracts embed USD indexation."
@@ -26810,10 +26936,10 @@ const MASTER_ISSUERS = [
         "tranche_name": "Syndicated Commercial Bank Term Facility",
         "instrument_type": "Senior Secured / Priority Amortizing Loan",
         "currency": "USD / EUR",
-        "amount_issued_usd_m": 854.0,
+        "amount_issued_usd_m": 854,
         "amount_outstanding_usd_m": 656.9,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -26828,7 +26954,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 1532.6,
         "amount_outstanding_usd_m": 437.9,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -26964,8 +27090,8 @@ const MASTER_ISSUERS = [
         "ytm": 11.6,
         "spread_bp": 738,
         "net_leverage": 3.51,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
@@ -26977,8 +27103,8 @@ const MASTER_ISSUERS = [
         "ytm": 11.2,
         "spread_bp": 696,
         "net_leverage": 3.41,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
@@ -26986,12 +27112,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "B+ / B2",
-        "price": 90.0,
+        "price": 90,
         "ytm": 10.85,
         "spread_bp": 661,
         "net_leverage": 3.31,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
@@ -27003,8 +27129,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.55,
         "spread_bp": 620,
         "net_leverage": 3.21,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
@@ -27016,8 +27142,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.4,
         "spread_bp": 608,
         "net_leverage": 3.18,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
@@ -27029,8 +27155,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.15,
         "spread_bp": 578,
         "net_leverage": 3.11,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
@@ -27042,8 +27168,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.05,
         "spread_bp": 566,
         "net_leverage": 3.06,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
@@ -27052,11 +27178,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2025-12-31T16:00:00Z",
         "rating": "B+ / B2",
         "price": 92.3,
-        "ytm": 10.0,
+        "ytm": 10,
         "spread_bp": 560,
         "net_leverage": 3.04,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
@@ -27068,8 +27194,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.1,
         "spread_bp": 572,
         "net_leverage": 3.08,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
@@ -27081,21 +27207,21 @@ const MASTER_ISSUERS = [
         "ytm": 10.2,
         "spread_bp": 584,
         "net_leverage": 3.14,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B+ / B2",
         "price": 91.5,
         "ytm": 10.25,
         "spread_bp": 590,
         "net_leverage": 3.16,
-        "ebitda": 1120.0,
-        "fcf": 560.0,
+        "ebitda": 1120,
+        "fcf": 560,
         "guidance_status": "On Track"
       }
     ]
@@ -27103,7 +27229,7 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "isbank",
-      "name": "Türkiye İş Bankası",
+      "name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
       "ticker": "ISCTR",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -27480,7 +27606,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "isbank",
-        "issuer_name": "Türkiye İş Bankası",
+        "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
         "sector": "Banks",
         "topic": "NIM & Asset-Liability Repricing",
         "source": "Cognitive Credit / J.P. Morgan",
@@ -27488,7 +27614,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "isbank",
-        "issuer_name": "Türkiye İş Bankası",
+        "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
         "sector": "Banks",
         "topic": "Prudential Capital & AT1 Instruments",
         "source": "Central Bank / Fitch Ratings",
@@ -27496,7 +27622,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "isbank",
-        "issuer_name": "Türkiye İş Bankası",
+        "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
         "sector": "Banks",
         "topic": "Asset Quality & Stage 2 Risk",
         "source": "BRSA / Audit Reports",
@@ -27504,7 +27630,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "source_deck": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "reporting_currency": "USD / Local Currency Statutory",
       "management_guidance_targets": {
         "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -27650,7 +27776,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
         "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -27661,7 +27787,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "5.52%",
         "tracking_status": "On Track",
         "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of 5.40% - 5.65%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -27672,7 +27798,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -27683,7 +27809,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -27694,7 +27820,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-        "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -27858,7 +27984,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / B1",
         "price": 99.5,
         "ytm": 6.85,
@@ -28202,7 +28328,7 @@ const MASTER_ISSUERS = [
         "issuer_name": "Ittihad Investment",
         "sector": "Industrials",
         "topic": "Conglomerate Cash Cushion",
-        "source": "Cognitive Credit / Koç / Ittihad",
+        "source": "Cognitive Credit / Ko\u00e7 / Ittihad",
         "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
       },
       {
@@ -28574,7 +28700,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B+ / B1",
         "price": 98.5,
         "ytm": 9.1,
@@ -29344,7 +29470,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A2 / A",
         "price": 99.2,
         "ytm": 5.2,
@@ -30066,7 +30192,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB- / Baa2",
         "price": 88.5,
         "ytm": 6.75,
@@ -30076,12 +30202,30 @@ const MASTER_ISSUERS = [
         "fcf": 2400.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Kazakh Crude Oil (CPC Blend & KEBCO)",
+      "volume_metric_name": "Net Consolidated Oil & Gas Production",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 764.4,
+      "volume_guidance_range": "740 - 780 kboe/d",
+      "volume_guidance_source": "KMG Executive Operational Guidance",
+      "price_metric_name": "CPC Blend FOB Novorossiysk Benchmark",
+      "price_unit": "$/bbl",
+      "price_default": 74.0,
+      "price_source": "Current State of the World / CPC Blend Discounted vs Brent",
+      "cost_metric_name": "Extraction Cash Cost",
+      "cost_unit": "$/boe",
+      "cost_default": 12.5,
+      "hedged_pct": 20,
+      "hedge_floor_price": 70.0
+    }
   },
   {
     "metadata": {
       "id": "koc",
-      "name": "Koç Holding",
+      "name": "Ko\u00e7 Holding",
       "ticker": "KCHOL",
       "country": "Turkey",
       "region": "Turkey",
@@ -30402,20 +30546,20 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 101.5,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Turkey's premier industrial conglomerate (Tüpraş, Ford Otosan, Arçelik, Yapı Kredi); net cash at holdco."
+      "thesis": "Turkey's premier industrial conglomerate (T\u00fcpra\u015f, Ford Otosan, Ar\u00e7elik, Yap\u0131 Kredi); net cash at holdco."
     },
     "annotations": [
       {
         "issuer_id": "koc",
-        "issuer_name": "Koç Holding",
+        "issuer_name": "Ko\u00e7 Holding",
         "sector": "Industrials",
         "topic": "Conglomerate Cash Cushion",
-        "source": "Cognitive Credit / Koç / Ittihad",
+        "source": "Cognitive Credit / Ko\u00e7 / Ittihad",
         "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
       },
       {
         "issuer_id": "koc",
-        "issuer_name": "Koç Holding",
+        "issuer_name": "Ko\u00e7 Holding",
         "sector": "Industrials",
         "topic": "Export Orientation & Competitive Edge",
         "source": "Trade Ministry Data",
@@ -30423,7 +30567,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "koc",
-        "issuer_name": "Koç Holding",
+        "issuer_name": "Ko\u00e7 Holding",
         "sector": "Industrials",
         "topic": "Prudent Capital Allocation",
         "source": "Management Guidance",
@@ -30431,7 +30575,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "source_deck": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
@@ -30574,7 +30718,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$44730.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $45360.0M (+8.0% YoY growth). With current run-rate at $44730.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -30585,7 +30729,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$5184.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $5280.0M (11.6% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -30596,7 +30740,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.25x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 2.50x buffer below covenant limit.",
-        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.25x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -30607,7 +30751,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1622.9M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $1764.0M (Maximum growth and sustaining envelope). Current commitments stand at $1622.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -30618,7 +30762,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "Koç Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+        "last_guided_source": "Ko\u00e7 Holding FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -30782,7 +30926,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB / BB+",
         "price": 98.5,
         "ytm": 6.85,
@@ -30797,8 +30941,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "kosmos",
-      "cognitive_credit_id": "kosmos",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/kosmos/description",
       "name": "Kosmos Energy",
       "ticker": "KOS",
       "country": "Ghana",
@@ -30814,20 +30956,22 @@ const MASTER_ISSUERS = [
       "model_file": "Kosmos_Energy_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6819e9cbaff7593216ed5",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Kosmos_Energy_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "kosmos",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/kosmos/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 1190.0,
+        "revenue": 1190,
         "ebitda": 682.5,
         "ebitda_margin_pct": 57.4,
         "cfo": 553.4,
         "capex": 257.2,
         "fcf": 296.2,
         "cash": 433.1,
-        "gross_debt": 2731.0,
+        "gross_debt": 2731,
         "net_debt": 2297.9,
         "net_leverage": 3.37,
         "interest_coverage": 4.55,
@@ -30843,14 +30987,14 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_usd_m": 10.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$10.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 150.0,
+        "cash_interest": 150,
         "change_in_working_capital": -70.1,
         "tax_expense": 49.2,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
           "calculated_ebitda": 682.5,
           "capex": 257.2,
-          "cash_interest": 150.0,
+          "cash_interest": 150,
           "change_in_working_capital": -70.1,
           "tax": 49.2,
           "fcf": 296.2,
@@ -30860,14 +31004,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 1435.0,
-        "ebitda": 840.0,
+        "revenue": 1435,
+        "ebitda": 840,
         "ebitda_margin_pct": 58.5,
         "cfo": 696.1,
         "capex": 312.4,
         "fcf": 383.7,
         "cash": 551.2,
-        "gross_debt": 2956.0,
+        "gross_debt": 2956,
         "net_debt": 2404.8,
         "net_leverage": 2.86,
         "interest_coverage": 4.48,
@@ -30879,7 +31023,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 852.6,
-        "calculated_ebitda": 840.0,
+        "calculated_ebitda": 840,
         "ebitda_reconciliation_variance_usd_m": 12.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.6M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -30888,7 +31032,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 60.1,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 840.0,
+          "calculated_ebitda": 840,
           "capex": 312.4,
           "cash_interest": 187.5,
           "change_in_working_capital": -103.7,
@@ -30900,8 +31044,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 1610.0,
-        "ebitda": 945.0,
+        "revenue": 1610,
+        "ebitda": 945,
         "ebitda_margin_pct": 58.7,
         "cfo": 785.4,
         "capex": 349.1,
@@ -30919,18 +31063,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 959.2,
-        "calculated_ebitda": 945.0,
+        "calculated_ebitda": 945,
         "ebitda_reconciliation_variance_usd_m": 14.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 225.0,
+        "cash_interest": 225,
         "change_in_working_capital": -130.9,
         "tax_expense": 65.5,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 945.0,
+          "calculated_ebitda": 945,
           "capex": 349.1,
-          "cash_interest": 225.0,
+          "cash_interest": 225,
           "change_in_working_capital": -130.9,
           "tax": 65.5,
           "fcf": 436.3,
@@ -30940,14 +31084,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 1750.0,
-        "ebitda": 1050.0,
-        "ebitda_margin_pct": 60.0,
+        "revenue": 1750,
+        "ebitda": 1050,
+        "ebitda_margin_pct": 60,
         "cfo": 892.5,
         "capex": 367.5,
-        "fcf": 525.0,
+        "fcf": 525,
         "cash": 787.5,
-        "gross_debt": 3213.0,
+        "gross_debt": 3213,
         "net_debt": 2425.5,
         "net_leverage": 2.31,
         "interest_coverage": 4.2,
@@ -30959,29 +31103,29 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 1065.8,
-        "calculated_ebitda": 1050.0,
+        "calculated_ebitda": 1050,
         "ebitda_reconciliation_variance_usd_m": 15.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 250.0,
+        "cash_interest": 250,
         "change_in_working_capital": -165.3,
         "tax_expense": 72.8,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 1050.0,
+          "calculated_ebitda": 1050,
           "capex": 367.5,
-          "cash_interest": 250.0,
+          "cash_interest": 250,
           "change_in_working_capital": -165.3,
           "tax": 72.8,
-          "fcf": 525.0,
+          "fcf": 525,
           "formula_check": "1050.0 - 367.5 - 250.0 - (-165.3) - 72.8 = 525.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 1890.0,
-        "ebitda": 1155.0,
+        "revenue": 1890,
+        "ebitda": 1155,
         "ebitda_margin_pct": 61.1,
         "cfo": 981.8,
         "capex": 385.9,
@@ -30999,7 +31143,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 1172.3,
-        "calculated_ebitda": 1155.0,
+        "calculated_ebitda": 1155,
         "ebitda_reconciliation_variance_usd_m": 17.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.3M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -31008,7 +31152,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 85.3,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 1155.0,
+          "calculated_ebitda": 1155,
           "capex": 385.9,
           "cash_interest": 240.1,
           "change_in_working_capital": -152.2,
@@ -31021,7 +31165,7 @@ const MASTER_ISSUERS = [
         "period": "2026E",
         "is_audited": false,
         "revenue": 2012.5,
-        "ebitda": 1239.0,
+        "ebitda": 1239,
         "ebitda_margin_pct": 61.6,
         "cfo": 1053.1,
         "capex": 374.9,
@@ -31039,7 +31183,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
         "reported_ebitda": 1257.6,
-        "calculated_ebitda": 1239.0,
+        "calculated_ebitda": 1239,
         "ebitda_reconciliation_variance_usd_m": 18.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.6M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -31048,7 +31192,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 95.6,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 1239.0,
+          "calculated_ebitda": 1239,
           "capex": 374.9,
           "cash_interest": 229.9,
           "change_in_working_capital": -139.6,
@@ -31060,9 +31204,9 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 2100.0,
-        "ebitda": 1302.0,
-        "ebitda_margin_pct": 62.0,
+        "revenue": 2100,
+        "ebitda": 1302,
+        "ebitda_margin_pct": 62,
         "cfo": 1115.6,
         "capex": 360.1,
         "fcf": 755.5,
@@ -31079,16 +31223,16 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
         "reported_ebitda": 1321.5,
-        "calculated_ebitda": 1302.0,
+        "calculated_ebitda": 1302,
         "ebitda_reconciliation_variance_usd_m": 19.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$19.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 219.9,
         "change_in_working_capital": -137.2,
         "tax_expense": 103.7,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 1302.0,
+          "calculated_ebitda": 1302,
           "capex": 360.1,
           "cash_interest": 219.9,
           "change_in_working_capital": -137.2,
@@ -31101,10 +31245,10 @@ const MASTER_ISSUERS = [
     "supplementary_data": {
       "net_production_kboed": 73.5,
       "lifting_cost_usd_per_boe": 12.5,
-      "realized_price_usd_per_bbl": 78.0,
-      "reserve_life_2p_years": 15.0,
-      "offshore_escrow_routing_pct": 100.0,
-      "hedged_production_pct": 45.0
+      "realized_price_usd_per_bbl": 78,
+      "reserve_life_2p_years": 15,
+      "offshore_escrow_routing_pct": 100,
+      "hedged_production_pct": 45
     },
     "debt_maturities": {
       "2025": 291.1,
@@ -31116,10 +31260,10 @@ const MASTER_ISSUERS = [
       "total_outstanding_usd_m": 2425.6
     },
     "recovery_analysis": {
-      "distressed_floor_px": 62.0,
-      "base_case_px": 98.0,
-      "recovery_floor_pct": 62.0,
-      "recovery_base_pct": 98.0,
+      "distressed_floor_px": 62,
+      "base_case_px": 98,
+      "recovery_floor_pct": 62,
+      "recovery_base_pct": 98,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Ghana Commercial & Bankruptcy Code",
       "thesis": "Jubilee (<$12/boe lifting cost) & TEN fields + GTA FLNG Phase 1 startup (2.5 mtpa); multi-year FCF inflection."
@@ -31224,7 +31368,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 626.5,
         "amount_outstanding_usd_m": 481.9,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -31239,7 +31383,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 1124.5,
         "amount_outstanding_usd_m": 321.3,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -31382,8 +31526,8 @@ const MASTER_ISSUERS = [
         "ytm": 11.8,
         "spread_bp": 762,
         "net_leverage": 2.66,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -31395,8 +31539,8 @@ const MASTER_ISSUERS = [
         "ytm": 11.4,
         "spread_bp": 720,
         "net_leverage": 2.56,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -31404,12 +31548,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "B- / B3",
-        "price": 88.0,
+        "price": 88,
         "ytm": 11.05,
         "spread_bp": 683,
         "net_leverage": 2.46,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -31421,8 +31565,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.75,
         "spread_bp": 640,
         "net_leverage": 2.36,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -31434,8 +31578,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.6,
         "spread_bp": 628,
         "net_leverage": 2.33,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -31447,8 +31591,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.35,
         "spread_bp": 598,
         "net_leverage": 2.26,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -31460,8 +31604,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.25,
         "spread_bp": 586,
         "net_leverage": 2.21,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -31473,8 +31617,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.2,
         "spread_bp": 580,
         "net_leverage": 2.19,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -31486,8 +31630,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.3,
         "spread_bp": 592,
         "net_leverage": 2.23,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -31499,24 +31643,42 @@ const MASTER_ISSUERS = [
         "ytm": 10.4,
         "spread_bp": 604,
         "net_leverage": 2.29,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B- / B3",
         "price": 89.5,
         "ytm": 10.45,
         "spread_bp": 610,
         "net_leverage": 2.31,
-        "ebitda": 1050.0,
-        "fcf": 525.0,
+        "ebitda": 1050,
+        "fcf": 525,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Brent Crude & Mauritania/Senegal LNG",
+      "volume_metric_name": "Net Working Interest Production",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 73.5,
+      "volume_guidance_range": "70 - 75 kboe/d",
+      "volume_guidance_source": "Company Executive Production Guidance Disclosures",
+      "price_metric_name": "Realized Oil & Gas Benchmark",
+      "price_unit": "$/bbl eq",
+      "price_default": 78.0,
+      "price_source": "Current State of the World / Brent Benchmark",
+      "cost_metric_name": "Direct Operating Lifting Cost",
+      "cost_unit": "$/boe",
+      "cost_default": 12.5,
+      "hedged_pct": 45,
+      "hedge_floor_price": 75.0
+    }
   },
   {
     "metadata": {
@@ -32226,7 +32388,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B+ / B",
         "price": 98.8,
         "ytm": 8.25,
@@ -32241,7 +32403,7 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "limak_port",
-      "name": "LimakPort İskenderun",
+      "name": "LimakPort \u0130skenderun",
       "ticker": "LMKPRT",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -32567,7 +32729,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "limak_port",
-        "issuer_name": "LimakPort İskenderun",
+        "issuer_name": "LimakPort \u0130skenderun",
         "sector": "Infrastructure",
         "topic": "Concession Duration & Tariff Autonomy",
         "source": "Cognitive Credit / S&P Global",
@@ -32575,7 +32737,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "limak_port",
-        "issuer_name": "LimakPort İskenderun",
+        "issuer_name": "LimakPort \u0130skenderun",
         "sector": "Infrastructure",
         "topic": "Volume Stability & Throughput",
         "source": "Terminal Authority Disclosures",
@@ -32583,7 +32745,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "limak_port",
-        "issuer_name": "LimakPort İskenderun",
+        "issuer_name": "LimakPort \u0130skenderun",
         "sector": "Infrastructure",
         "topic": "Holding Company Structural Priority",
         "source": "Offering Circular Waterfall",
@@ -32591,7 +32753,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+      "source_deck": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
       "reporting_currency": "USD",
       "management_guidance_targets": {
         "long_term_net_leverage_target": "< 3.75x Net Debt / EBITDA",
@@ -32738,7 +32900,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$127.8M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $129.6M (+8.0% YoY growth). With current run-rate at $127.8M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -32749,7 +32911,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$84.2M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $85.8M (66.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -32760,7 +32922,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "3.08x",
         "tracking_status": "On Track",
         "variance_analysis": "Deleveraging on track with 0.67x buffer below covenant limit.",
-        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 3.08x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -32771,7 +32933,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$26.4M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $28.7M (Maximum growth and sustaining envelope). Current commitments stand at $26.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -32782,7 +32944,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "LimakPort İskenderun FY2024 Global Investor Presentation & Infrastructure Review",
+        "last_guided_source": "LimakPort \u0130skenderun FY2024 Global Investor Presentation & Infrastructure Review",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -32946,7 +33108,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B3",
         "price": 98.5,
         "ytm": 7.85,
@@ -33667,7 +33829,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B+ / B2",
         "price": 98.2,
         "ytm": 8.75,
@@ -33682,8 +33844,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "liqtel",
-      "cognitive_credit_id": "liquidtech",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description",
       "name": "Liquid Telecom",
       "ticker": "LIQTEL",
       "country": "South Africa",
@@ -33699,7 +33859,9 @@ const MASTER_ISSUERS = [
       "model_file": "Liquid_Telecom_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c68106a069d7d8c091ffa8",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Liquid_Telecom_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "liquidtech",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description"
     },
     "financials_multi_year": [
       {
@@ -33725,19 +33887,19 @@ const MASTER_ISSUERS = [
         },
         "reported_ebitda": 138.5,
         "calculated_ebitda": 136.5,
-        "ebitda_reconciliation_variance_usd_m": 2.0,
+        "ebitda_reconciliation_variance_usd_m": 2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 68.9,
         "change_in_working_capital": -47.1,
-        "tax_expense": 4.0,
+        "tax_expense": 4,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
           "calculated_ebitda": 136.5,
           "capex": 51.4,
           "cash_interest": 68.9,
           "change_in_working_capital": -47.1,
-          "tax": 4.0,
+          "tax": 4,
           "fcf": 59.3,
           "formula_check": "136.5 - 51.4 - 68.9 - (-47.1) - 4.0 = 59.3"
         }
@@ -33746,7 +33908,7 @@ const MASTER_ISSUERS = [
         "period": "2022A",
         "is_audited": true,
         "revenue": 557.6,
-        "ebitda": 168.0,
+        "ebitda": 168,
         "ebitda_margin_pct": 30.1,
         "cfo": 139.2,
         "capex": 62.5,
@@ -33764,7 +33926,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 170.5,
-        "calculated_ebitda": 168.0,
+        "calculated_ebitda": 168,
         "ebitda_reconciliation_variance_usd_m": 2.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.5M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -33773,7 +33935,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 4.7,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 168.0,
+          "calculated_ebitda": 168,
           "capex": 62.5,
           "cash_interest": 86.2,
           "change_in_working_capital": -62.1,
@@ -33786,13 +33948,13 @@ const MASTER_ISSUERS = [
         "period": "2023A",
         "is_audited": true,
         "revenue": 625.6,
-        "ebitda": 189.0,
+        "ebitda": 189,
         "ebitda_margin_pct": 30.2,
         "cfo": 157.1,
         "capex": 69.8,
         "fcf": 87.3,
         "cash": 133.9,
-        "gross_debt": 1208.0,
+        "gross_debt": 1208,
         "net_debt": 1074.1,
         "net_leverage": 5.68,
         "interest_coverage": 1.83,
@@ -33804,7 +33966,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 191.8,
-        "calculated_ebitda": 189.0,
+        "calculated_ebitda": 189,
         "ebitda_reconciliation_variance_usd_m": 2.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.8M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -33813,7 +33975,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 4.4,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 189.0,
+          "calculated_ebitda": 189,
           "capex": 69.8,
           "cash_interest": 103.3,
           "change_in_working_capital": -75.8,
@@ -33825,12 +33987,12 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 680.0,
-        "ebitda": 210.0,
+        "revenue": 680,
+        "ebitda": 210,
         "ebitda_margin_pct": 30.9,
         "cfo": 178.5,
         "capex": 73.5,
-        "fcf": 105.0,
+        "fcf": 105,
         "cash": 157.5,
         "gross_debt": 1232.7,
         "net_debt": 1075.2,
@@ -33844,21 +34006,21 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 213.1,
-        "calculated_ebitda": 210.0,
+        "calculated_ebitda": 210,
         "ebitda_reconciliation_variance_usd_m": 3.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 114.8,
         "change_in_working_capital": -88.1,
         "tax_expense": 4.8,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 210.0,
+          "calculated_ebitda": 210,
           "capex": 73.5,
           "cash_interest": 114.8,
           "change_in_working_capital": -88.1,
           "tax": 4.8,
-          "fcf": 105.0,
+          "fcf": 105,
           "formula_check": "210.0 - 73.5 - 114.8 - (-88.1) - 4.8 = 105.0"
         }
       },
@@ -33866,13 +34028,13 @@ const MASTER_ISSUERS = [
         "period": "2025E",
         "is_audited": false,
         "revenue": 734.4,
-        "ebitda": 231.0,
+        "ebitda": 231,
         "ebitda_margin_pct": 31.5,
         "cfo": 196.4,
         "capex": 77.2,
         "fcf": 119.2,
         "cash": 185.8,
-        "gross_debt": 1208.0,
+        "gross_debt": 1208,
         "net_debt": 1022.2,
         "net_leverage": 4.43,
         "interest_coverage": 2.1,
@@ -33884,18 +34046,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 234.5,
-        "calculated_ebitda": 231.0,
+        "calculated_ebitda": 231,
         "ebitda_reconciliation_variance_usd_m": 3.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 110.0,
+        "cash_interest": 110,
         "change_in_working_capital": -83.2,
         "tax_expense": 7.8,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 231.0,
+          "calculated_ebitda": 231,
           "capex": 77.2,
-          "cash_interest": 110.0,
+          "cash_interest": 110,
           "change_in_working_capital": -83.2,
           "tax": 7.8,
           "fcf": 119.2,
@@ -33905,11 +34067,11 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 782.0,
+        "revenue": 782,
         "ebitda": 247.8,
         "ebitda_margin_pct": 31.7,
         "cfo": 210.6,
-        "capex": 75.0,
+        "capex": 75,
         "fcf": 135.6,
         "cash": 212.6,
         "gross_debt": 1171.1,
@@ -33934,7 +34096,7 @@ const MASTER_ISSUERS = [
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
           "calculated_ebitda": 247.8,
-          "capex": 75.0,
+          "capex": 75,
           "cash_interest": 105.4,
           "change_in_working_capital": -78.4,
           "tax": 10.2,
@@ -33945,11 +34107,11 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 816.0,
+        "revenue": 816,
         "ebitda": 260.4,
         "ebitda_margin_pct": 31.9,
         "cfo": 223.1,
-        "capex": 72.0,
+        "capex": 72,
         "fcf": 151.1,
         "cash": 236.2,
         "gross_debt": 1109.4,
@@ -33971,10 +34133,10 @@ const MASTER_ISSUERS = [
         "cash_interest": 100.9,
         "change_in_working_capital": -75.8,
         "tax_expense": 12.2,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
           "calculated_ebitda": 260.4,
-          "capex": 72.0,
+          "capex": 72,
           "cash_interest": 100.9,
           "change_in_working_capital": -75.8,
           "tax": 12.2,
@@ -33987,23 +34149,23 @@ const MASTER_ISSUERS = [
       "tower_or_subscriber_count": "23.9M Users / Sites",
       "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
       "contracted_backlog_years": 8.5,
-      "usd_linked_revenue_pct": 72.0,
+      "usd_linked_revenue_pct": 72,
       "churn_pct": 1.1
     },
     "debt_maturities": {
-      "2025": 129.0,
-      "2026": 215.0,
+      "2025": 129,
+      "2026": 215,
       "2027": 301.1,
       "2028": 193.5,
-      "2029": 129.0,
+      "2029": 129,
       "2030_plus": 107.5,
       "total_outstanding_usd_m": 1075.1
     },
     "recovery_analysis": {
-      "distressed_floor_px": 52.0,
-      "base_case_px": 88.0,
-      "recovery_floor_pct": 52.0,
-      "recovery_base_pct": 88.0,
+      "distressed_floor_px": 52,
+      "base_case_px": 88,
+      "recovery_floor_pct": 52,
+      "recovery_base_pct": 88,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
       "thesis": "110k km terrestrial pan-African fiber grid; Africa Data Centres; high yield compensates for 2026 maturity wall."
@@ -34108,7 +34270,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 240.4,
         "amount_outstanding_usd_m": 184.9,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -34123,7 +34285,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 431.6,
         "amount_outstanding_usd_m": 123.3,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -34259,8 +34421,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.6,
         "spread_bp": 1238,
         "net_leverage": 5.47,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
@@ -34272,8 +34434,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.2,
         "spread_bp": 1168,
         "net_leverage": 5.37,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
@@ -34281,12 +34443,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "B- / Caa1",
-        "price": 80.0,
+        "price": 80,
         "ytm": 14.85,
         "spread_bp": 1109,
         "net_leverage": 5.27,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
@@ -34298,8 +34460,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.55,
         "spread_bp": 1040,
         "net_leverage": 5.17,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
@@ -34311,8 +34473,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.4,
         "spread_bp": 1020,
         "net_leverage": 5.14,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
@@ -34324,8 +34486,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.15,
         "spread_bp": 970,
         "net_leverage": 5.07,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
@@ -34337,8 +34499,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.05,
         "spread_bp": 950,
         "net_leverage": 5.02,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
@@ -34347,11 +34509,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2025-12-31T16:00:00Z",
         "rating": "B- / Caa1",
         "price": 82.3,
-        "ytm": 14.0,
+        "ytm": 14,
         "spread_bp": 940,
-        "net_leverage": 5.0,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "net_leverage": 5,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
@@ -34363,8 +34525,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.1,
         "spread_bp": 960,
         "net_leverage": 5.04,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
@@ -34376,21 +34538,21 @@ const MASTER_ISSUERS = [
         "ytm": 14.2,
         "spread_bp": 980,
         "net_leverage": 5.1,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B- / Caa1",
         "price": 81.5,
         "ytm": 14.25,
         "spread_bp": 990,
         "net_leverage": 5.12,
-        "ebitda": 210.0,
-        "fcf": 105.0,
+        "ebitda": 210,
+        "fcf": 105,
         "guidance_status": "On Track"
       }
     ]
@@ -35099,7 +35261,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB / BBB",
         "price": 98.0,
         "ytm": 5.65,
@@ -35114,8 +35276,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "metinvest",
-      "cognitive_credit_id": "metinvest",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/metinvest/description",
       "name": "Metinvest",
       "ticker": "METINV",
       "country": "Ukraine",
@@ -35125,20 +35285,22 @@ const MASTER_ISSUERS = [
       "rating": "CCC+ / Caa3",
       "tier": "CCC",
       "benchmark_bond": "METINV 15.65% 2029",
-      "price": 76.0,
+      "price": 76,
       "ytm": 15.65,
       "spread_bp": 1125,
       "model_file": "Metinvest_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681ff8aeff3d6ff934b3c",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Metinvest_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "metinvest",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/metinvest/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 5168.0,
-        "ebitda": 598.0,
+        "revenue": 5168,
+        "ebitda": 598,
         "ebitda_margin_pct": 11.6,
         "cfo": 484.8,
         "capex": 225.4,
@@ -35155,9 +35317,9 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 607.0,
-        "calculated_ebitda": 598.0,
-        "ebitda_reconciliation_variance_usd_m": 9.0,
+        "reported_ebitda": 607,
+        "calculated_ebitda": 598,
+        "ebitda_reconciliation_variance_usd_m": 9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 144.1,
@@ -35165,7 +35327,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 41.2,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 598.0,
+          "calculated_ebitda": 598,
           "capex": 225.4,
           "cash_interest": 144.1,
           "change_in_working_capital": -72.1,
@@ -35177,13 +35339,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 6232.0,
-        "ebitda": 736.0,
+        "revenue": 6232,
+        "ebitda": 736,
         "ebitda_margin_pct": 11.8,
-        "cfo": 610.0,
+        "cfo": 610,
         "capex": 273.7,
         "fcf": 336.3,
-        "cash": 483.0,
+        "cash": 483,
         "gross_debt": 2149.9,
         "net_debt": 1666.9,
         "net_leverage": 2.26,
@@ -35195,19 +35357,19 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 747.0,
-        "calculated_ebitda": 736.0,
-        "ebitda_reconciliation_variance_usd_m": 11.0,
+        "reported_ebitda": 747,
+        "calculated_ebitda": 736,
+        "ebitda_reconciliation_variance_usd_m": 11,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 180.0,
+        "cash_interest": 180,
         "change_in_working_capital": -104.3,
         "tax_expense": 50.3,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 736.0,
+          "calculated_ebitda": 736,
           "capex": 273.7,
-          "cash_interest": 180.0,
+          "cash_interest": 180,
           "change_in_working_capital": -104.3,
           "tax": 50.3,
           "fcf": 336.3,
@@ -35217,8 +35379,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 6992.0,
-        "ebitda": 828.0,
+        "revenue": 6992,
+        "ebitda": 828,
         "ebitda_margin_pct": 11.8,
         "cfo": 688.2,
         "capex": 305.9,
@@ -35236,7 +35398,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 840.4,
-        "calculated_ebitda": 828.0,
+        "calculated_ebitda": 828,
         "ebitda_reconciliation_variance_usd_m": 12.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.4M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -35245,7 +35407,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 54.5,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 828.0,
+          "calculated_ebitda": 828,
           "capex": 305.9,
           "cash_interest": 216.2,
           "change_in_working_capital": -130.9,
@@ -35257,13 +35419,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 7600.0,
-        "ebitda": 920.0,
+        "revenue": 7600,
+        "ebitda": 920,
         "ebitda_margin_pct": 12.1,
-        "cfo": 782.0,
-        "capex": 322.0,
-        "fcf": 460.0,
-        "cash": 690.0,
+        "cfo": 782,
+        "capex": 322,
+        "fcf": 460,
+        "cash": 690,
         "gross_debt": 2336.8,
         "net_debt": 1646.8,
         "net_leverage": 1.79,
@@ -35276,29 +35438,29 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 933.8,
-        "calculated_ebitda": 920.0,
+        "calculated_ebitda": 920,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 240.2,
         "change_in_working_capital": -162.8,
         "tax_expense": 60.6,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 920.0,
-          "capex": 322.0,
+          "calculated_ebitda": 920,
+          "capex": 322,
           "cash_interest": 240.2,
           "change_in_working_capital": -162.8,
           "tax": 60.6,
-          "fcf": 460.0,
+          "fcf": 460,
           "formula_check": "920.0 - 322.0 - 240.2 - (-162.8) - 60.6 = 460.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 8208.0,
-        "ebitda": 1012.0,
+        "revenue": 8208,
+        "ebitda": 1012,
         "ebitda_margin_pct": 12.3,
         "cfo": 860.2,
         "capex": 338.1,
@@ -35316,7 +35478,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 1027.2,
-        "calculated_ebitda": 1012.0,
+        "calculated_ebitda": 1012,
         "ebitda_reconciliation_variance_usd_m": 15.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -35325,7 +35487,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 71.7,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 1012.0,
+          "calculated_ebitda": 1012,
           "capex": 338.1,
           "cash_interest": 230.5,
           "change_in_working_capital": -150.4,
@@ -35337,14 +35499,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 8740.0,
+        "revenue": 8740,
         "ebitda": 1085.6,
         "ebitda_margin_pct": 12.4,
         "cfo": 922.8,
         "capex": 328.4,
         "fcf": 594.4,
         "cash": 931.5,
-        "gross_debt": 2220.0,
+        "gross_debt": 2220,
         "net_debt": 1288.5,
         "net_leverage": 1.19,
         "interest_coverage": 4.91,
@@ -35377,13 +35539,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 9120.0,
+        "revenue": 9120,
         "ebitda": 1140.8,
         "ebitda_margin_pct": 12.5,
         "cfo": 977.5,
         "capex": 315.6,
         "fcf": 661.9,
-        "cash": 1035.0,
+        "cash": 1035,
         "gross_debt": 2103.1,
         "net_debt": 1068.1,
         "net_leverage": 0.94,
@@ -35403,7 +35565,7 @@ const MASTER_ISSUERS = [
         "cash_interest": 211.3,
         "change_in_working_capital": -136.1,
         "tax_expense": 88.1,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
           "calculated_ebitda": 1140.8,
           "capex": 315.6,
@@ -35417,9 +35579,9 @@ const MASTER_ISSUERS = [
     ],
     "supplementary_data": {
       "production_capacity_mtpa": 24.28,
-      "hard_currency_export_pct": 76.0,
+      "hard_currency_export_pct": 76,
       "cash_cost_quartile": "Q1 Global Low Cost",
-      "expansion_capex_usd_m": 836.0
+      "expansion_capex_usd_m": 836
     },
     "debt_maturities": {
       "2025": 197.6,
@@ -35431,10 +35593,10 @@ const MASTER_ISSUERS = [
       "total_outstanding_usd_m": 1646.8
     },
     "recovery_analysis": {
-      "distressed_floor_px": 45.0,
-      "base_case_px": 86.0,
-      "recovery_floor_pct": 45.0,
-      "recovery_base_pct": 86.0,
+      "distressed_floor_px": 45,
+      "base_case_px": 86,
+      "recovery_floor_pct": 45,
+      "recovery_base_pct": 86,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
       "thesis": "High-grade Kryvyi Rih iron ore pellet exporter; Black Sea maritime shipping corridor reopened; 1.79x net leverage."
@@ -35509,7 +35671,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 1051.6,
         "amount_outstanding_usd_m": 1051.6,
         "coupon": "15.650%",
-        "clean_price": 76.0,
+        "clean_price": 76,
         "ytm": 15.65,
         "spread_bp": 1125,
         "maturity_date": "2029-07-25",
@@ -35521,11 +35683,11 @@ const MASTER_ISSUERS = [
         "tranche_name": "METINV Secondary Eurobond / Sukuk Tranche 2",
         "instrument_type": "Senior Unsecured Notes",
         "currency": "USD",
-        "amount_issued_usd_m": 701.0,
-        "amount_outstanding_usd_m": 701.0,
+        "amount_issued_usd_m": 701,
+        "amount_outstanding_usd_m": 701,
         "coupon": "15.000%",
-        "clean_price": 78.0,
-        "ytm": 15.0,
+        "clean_price": 78,
+        "ytm": 15,
         "spread_bp": 1060,
         "maturity_date": "2027-10-18",
         "seniority": "Senior Unsecured",
@@ -35539,7 +35701,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 455.7,
         "amount_outstanding_usd_m": 350.5,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -35554,7 +35716,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 817.9,
         "amount_outstanding_usd_m": 233.7,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -35694,11 +35856,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2024-03-31T16:00:00Z",
         "rating": "CCC+ / Caa3",
         "price": 71.8,
-        "ytm": 17.0,
+        "ytm": 17,
         "spread_bp": 1406,
         "net_leverage": 2.14,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -35710,8 +35872,8 @@ const MASTER_ISSUERS = [
         "ytm": 16.6,
         "spread_bp": 1328,
         "net_leverage": 2.04,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -35723,8 +35885,8 @@ const MASTER_ISSUERS = [
         "ytm": 16.25,
         "spread_bp": 1260,
         "net_leverage": 1.94,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -35736,8 +35898,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.95,
         "spread_bp": 1181,
         "net_leverage": 1.84,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -35749,8 +35911,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.8,
         "spread_bp": 1159,
         "net_leverage": 1.81,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -35762,8 +35924,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.55,
         "spread_bp": 1102,
         "net_leverage": 1.74,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -35775,8 +35937,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.45,
         "spread_bp": 1080,
         "net_leverage": 1.69,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -35788,8 +35950,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.4,
         "spread_bp": 1069,
         "net_leverage": 1.67,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -35801,8 +35963,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.5,
         "spread_bp": 1091,
         "net_leverage": 1.71,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -35814,24 +35976,42 @@ const MASTER_ISSUERS = [
         "ytm": 15.6,
         "spread_bp": 1114,
         "net_leverage": 1.77,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "CCC+ / Caa3",
-        "price": 76.0,
+        "price": 76,
         "ytm": 15.65,
         "spread_bp": 1125,
         "net_leverage": 1.79,
-        "ebitda": 920.0,
-        "fcf": 460.0,
+        "ebitda": 920,
+        "fcf": 460,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Iron Ore Concentrate & Semi-Finished Steel",
+      "volume_metric_name": "Commercial Iron Ore & Steel Production",
+      "volume_unit": "Mt/yr",
+      "volume_guidance": 24.28,
+      "volume_guidance_range": "22 - 26 Mt/yr",
+      "volume_guidance_source": "Company Strategic Operational Guidance",
+      "price_metric_name": "Iron Ore 62% Fe CFR China Benchmark",
+      "price_unit": "$/t",
+      "price_default": 105.0,
+      "price_source": "Current State of the World / Platts 62% Fe Benchmark",
+      "cost_metric_name": "Cash Production & Transport Cost",
+      "cost_unit": "$/t",
+      "cost_default": 52.0,
+      "hedged_pct": 0,
+      "hedge_floor_price": 0.0
+    }
   },
   {
     "metadata": {
@@ -36537,7 +36717,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "CCC+ / Caa2",
         "price": 82.5,
         "ytm": 13.1,
@@ -37259,7 +37439,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB-",
         "price": 98.0,
         "ytm": 5.5,
@@ -37269,13 +37449,29 @@ const MASTER_ISSUERS = [
         "fcf": 1550.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "CEE Upstream Oil & Refining Throughput",
+      "volume_metric_name": "Upstream & Downstream Hydrocarbon Volume",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 1008.0,
+      "volume_guidance_range": "980 - 1,030 kboe/d",
+      "volume_guidance_source": "MOL Group Guidance Guidance",
+      "price_metric_name": "Brent & Refining Crack Spread Composite",
+      "price_unit": "$/bbl",
+      "price_default": 78.0,
+      "price_source": "Current State of the World / European Energy Benchmark",
+      "cost_metric_name": "Operating Cost",
+      "cost_unit": "$/boe",
+      "cost_default": 12.5,
+      "hedged_pct": 45,
+      "hedge_floor_price": 75.0
+    }
   },
   {
     "metadata": {
       "id": "mtn",
-      "cognitive_credit_id": "mtn",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/mtn/description",
       "name": "MTN Group",
       "ticker": "MTNSJ",
       "country": "South Africa",
@@ -37291,20 +37487,22 @@ const MASTER_ISSUERS = [
       "model_file": "MTN_Group_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81b6-bef6-d0abf799e3d5",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MTN_Group_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "mtn",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/mtn/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 8024.0,
-        "ebitda": 2925.0,
+        "revenue": 8024,
+        "ebitda": 2925,
         "ebitda_margin_pct": 36.5,
         "cfo": 2371.5,
         "capex": 1102.5,
-        "fcf": 1269.0,
+        "fcf": 1269,
         "cash": 1856.3,
-        "gross_debt": 9180.0,
+        "gross_debt": 9180,
         "net_debt": 7323.7,
         "net_leverage": 2.5,
         "interest_coverage": 5.85,
@@ -37316,35 +37514,35 @@ const MASTER_ISSUERS = [
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
         "reported_ebitda": 2968.9,
-        "calculated_ebitda": 2925.0,
+        "calculated_ebitda": 2925,
         "ebitda_reconciliation_variance_usd_m": 43.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$43.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 500.0,
+        "cash_interest": 500,
         "change_in_working_capital": -178.6,
         "tax_expense": 232.1,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 2925.0,
+          "calculated_ebitda": 2925,
           "capex": 1102.5,
-          "cash_interest": 500.0,
+          "cash_interest": 500,
           "change_in_working_capital": -178.6,
           "tax": 232.1,
-          "fcf": 1269.0,
+          "fcf": 1269,
           "formula_check": "2925.0 - 1102.5 - 500.0 - (-178.6) - 232.1 = 1269.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 9676.0,
-        "ebitda": 3600.0,
+        "revenue": 9676,
+        "ebitda": 3600,
         "ebitda_margin_pct": 37.2,
         "cfo": 2983.5,
         "capex": 1338.8,
         "fcf": 1644.7,
         "cash": 2362.5,
-        "gross_debt": 9936.0,
+        "gross_debt": 9936,
         "net_debt": 7573.5,
         "net_leverage": 2.1,
         "interest_coverage": 5.76,
@@ -37355,19 +37553,19 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 3654.0,
-        "calculated_ebitda": 3600.0,
-        "ebitda_reconciliation_variance_usd_m": 54.0,
+        "reported_ebitda": 3654,
+        "calculated_ebitda": 3600,
+        "ebitda_reconciliation_variance_usd_m": 54,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$54.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 625.0,
+        "cash_interest": 625,
         "change_in_working_capital": -292.7,
         "tax_expense": 284.2,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 3600.0,
+          "calculated_ebitda": 3600,
           "capex": 1338.8,
-          "cash_interest": 625.0,
+          "cash_interest": 625,
           "change_in_working_capital": -292.7,
           "tax": 284.2,
           "fcf": 1644.7,
@@ -37377,14 +37575,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 10856.0,
-        "ebitda": 4050.0,
+        "revenue": 10856,
+        "ebitda": 4050,
         "ebitda_margin_pct": 37.3,
-        "cfo": 3366.0,
+        "cfo": 3366,
         "capex": 1496.2,
         "fcf": 1869.8,
         "cash": 2868.8,
-        "gross_debt": 10584.0,
+        "gross_debt": 10584,
         "net_debt": 7715.2,
         "net_leverage": 1.9,
         "interest_coverage": 5.4,
@@ -37396,18 +37594,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 4110.8,
-        "calculated_ebitda": 4050.0,
+        "calculated_ebitda": 4050,
         "ebitda_reconciliation_variance_usd_m": 60.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$60.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 750.0,
+        "cash_interest": 750,
         "change_in_working_capital": -378.8,
         "tax_expense": 312.8,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 4050.0,
+          "calculated_ebitda": 4050,
           "capex": 1496.2,
-          "cash_interest": 750.0,
+          "cash_interest": 750,
           "change_in_working_capital": -378.8,
           "tax": 312.8,
           "fcf": 1869.8,
@@ -37417,15 +37615,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 11800.0,
-        "ebitda": 4500.0,
+        "revenue": 11800,
+        "ebitda": 4500,
         "ebitda_margin_pct": 38.1,
-        "cfo": 3825.0,
-        "capex": 1575.0,
-        "fcf": 2250.0,
-        "cash": 3375.0,
-        "gross_debt": 10800.0,
-        "net_debt": 7425.0,
+        "cfo": 3825,
+        "capex": 1575,
+        "fcf": 2250,
+        "cash": 3375,
+        "gross_debt": 10800,
+        "net_debt": 7425,
         "net_leverage": 1.65,
         "interest_coverage": 5.4,
         "observations": {
@@ -37436,35 +37634,35 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 4567.5,
-        "calculated_ebitda": 4500.0,
+        "calculated_ebitda": 4500,
         "ebitda_reconciliation_variance_usd_m": 67.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$67.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 833.3,
         "change_in_working_capital": -505.8,
         "tax_expense": 347.5,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 4500.0,
-          "capex": 1575.0,
+          "calculated_ebitda": 4500,
+          "capex": 1575,
           "cash_interest": 833.3,
           "change_in_working_capital": -505.8,
           "tax": 347.5,
-          "fcf": 2250.0,
+          "fcf": 2250,
           "formula_check": "4500.0 - 1575.0 - 833.3 - (-505.8) - 347.5 = 2250.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 12744.0,
-        "ebitda": 4950.0,
+        "revenue": 12744,
+        "ebitda": 4950,
         "ebitda_margin_pct": 38.8,
         "cfo": 4207.5,
         "capex": 1653.8,
         "fcf": 2553.7,
         "cash": 3982.5,
-        "gross_debt": 10584.0,
+        "gross_debt": 10584,
         "net_debt": 6601.5,
         "net_leverage": 1.33,
         "interest_coverage": 6.19,
@@ -37476,19 +37674,19 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 5024.2,
-        "calculated_ebitda": 4950.0,
+        "calculated_ebitda": 4950,
         "ebitda_reconciliation_variance_usd_m": 74.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$74.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 799.7,
-        "change_in_working_capital": -457.0,
+        "change_in_working_capital": -457,
         "tax_expense": 399.8,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 4950.0,
+          "calculated_ebitda": 4950,
           "capex": 1653.8,
           "cash_interest": 799.7,
-          "change_in_working_capital": -457.0,
+          "change_in_working_capital": -457,
           "tax": 399.8,
           "fcf": 2553.7,
           "formula_check": "4950.0 - 1653.8 - 799.7 - (-457.0) - 399.8 = 2553.7"
@@ -37497,14 +37695,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 13570.0,
-        "ebitda": 5310.0,
+        "revenue": 13570,
+        "ebitda": 5310,
         "ebitda_margin_pct": 39.1,
         "cfo": 4513.5,
         "capex": 1606.5,
-        "fcf": 2907.0,
+        "fcf": 2907,
         "cash": 4556.2,
-        "gross_debt": 10260.0,
+        "gross_debt": 10260,
         "net_debt": 5703.8,
         "net_leverage": 1.07,
         "interest_coverage": 6.93,
@@ -37516,7 +37714,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
         "reported_ebitda": 5389.6,
-        "calculated_ebitda": 5310.0,
+        "calculated_ebitda": 5310,
         "ebitda_reconciliation_variance_usd_m": 79.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$79.6M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -37525,26 +37723,26 @@ const MASTER_ISSUERS = [
         "tax_expense": 442.6,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 5310.0,
+          "calculated_ebitda": 5310,
           "capex": 1606.5,
           "cash_interest": 766.2,
           "change_in_working_capital": -412.3,
           "tax": 442.6,
-          "fcf": 2907.0,
+          "fcf": 2907,
           "formula_check": "5310.0 - 1606.5 - 766.2 - (-412.3) - 442.6 = 2907.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 14160.0,
-        "ebitda": 5580.0,
+        "revenue": 14160,
+        "ebitda": 5580,
         "ebitda_margin_pct": 39.4,
         "cfo": 4781.2,
         "capex": 1543.5,
         "fcf": 3237.7,
         "cash": 5062.5,
-        "gross_debt": 9720.0,
+        "gross_debt": 9720,
         "net_debt": 4657.5,
         "net_leverage": 0.83,
         "interest_coverage": 7.61,
@@ -37556,16 +37754,16 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
         "reported_ebitda": 5663.7,
-        "calculated_ebitda": 5580.0,
+        "calculated_ebitda": 5580,
         "ebitda_reconciliation_variance_usd_m": 83.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$83.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 733.2,
         "change_in_working_capital": -410.3,
         "tax_expense": 475.9,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 5580.0,
+          "calculated_ebitda": 5580,
           "capex": 1543.5,
           "cash_interest": 733.2,
           "change_in_working_capital": -410.3,
@@ -37579,22 +37777,22 @@ const MASTER_ISSUERS = [
       "tower_or_subscriber_count": "112.9M Users / Sites",
       "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
       "contracted_backlog_years": 8.5,
-      "usd_linked_revenue_pct": 72.0,
+      "usd_linked_revenue_pct": 72,
       "churn_pct": 1.1
     },
     "debt_maturities": {
-      "2025": 891.0,
-      "2026": 1485.0,
-      "2027": 2079.0,
+      "2025": 891,
+      "2026": 1485,
+      "2027": 2079,
       "2028": 1336.5,
-      "2029": 891.0,
+      "2029": 891,
       "2030_plus": 742.5,
-      "total_outstanding_usd_m": 7425.0
+      "total_outstanding_usd_m": 7425
     },
     "recovery_analysis": {
-      "distressed_floor_px": 75.0,
+      "distressed_floor_px": 75,
       "base_case_px": 101.2,
-      "recovery_floor_pct": 75.0,
+      "recovery_floor_pct": 75,
       "recovery_base_pct": 101.2,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
@@ -37667,8 +37865,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "MTNSJ Benchmark Senior Notes",
         "instrument_type": "Senior Unsecured RegS/144A Eurobond",
         "currency": "USD",
-        "amount_issued_usd_m": 4860.0,
-        "amount_outstanding_usd_m": 4860.0,
+        "amount_issued_usd_m": 4860,
+        "amount_outstanding_usd_m": 4860,
         "coupon": "6.900%",
         "clean_price": 99.4,
         "ytm": 6.9,
@@ -37682,8 +37880,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "MTNSJ Secondary Eurobond / Sukuk Tranche 2",
         "instrument_type": "Senior Unsecured Notes",
         "currency": "USD",
-        "amount_issued_usd_m": 3240.0,
-        "amount_outstanding_usd_m": 3240.0,
+        "amount_issued_usd_m": 3240,
+        "amount_outstanding_usd_m": 3240,
         "coupon": "6.250%",
         "clean_price": 101.4,
         "ytm": 6.25,
@@ -37697,10 +37895,10 @@ const MASTER_ISSUERS = [
         "tranche_name": "Syndicated Commercial Bank Term Facility",
         "instrument_type": "Senior Secured / Priority Amortizing Loan",
         "currency": "USD / EUR",
-        "amount_issued_usd_m": 2106.0,
-        "amount_outstanding_usd_m": 1620.0,
+        "amount_issued_usd_m": 2106,
+        "amount_outstanding_usd_m": 1620,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -37712,10 +37910,10 @@ const MASTER_ISSUERS = [
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
         "instrument_type": "Revolving Working Capital Credit Line",
         "currency": "USD",
-        "amount_issued_usd_m": 3780.0,
-        "amount_outstanding_usd_m": 1080.0,
+        "amount_issued_usd_m": 3780,
+        "amount_outstanding_usd_m": 1080,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -37726,9 +37924,9 @@ const MASTER_ISSUERS = [
     ],
     "rcf_facility_liquidity": {
       "facility_name": "MTNSJ Syndicated Multi-Currency Revolving Credit Facility (RCF)",
-      "total_committed_capacity_usd_m": 3024.0,
-      "drawn_amount_usd_m": 1080.0,
-      "undrawn_available_usd_m": 1944.0,
+      "total_committed_capacity_usd_m": 3024,
+      "drawn_amount_usd_m": 1080,
+      "undrawn_available_usd_m": 1944,
       "drawn_margin": "SOFR + 150 bps",
       "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
       "maturity": "2028-06-30 (with two 1-year extension options)",
@@ -37850,9 +38048,9 @@ const MASTER_ISSUERS = [
         "price": 95.2,
         "ytm": 8.25,
         "spread_bp": 356,
-        "net_leverage": 2.0,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "net_leverage": 2,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -37864,8 +38062,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.85,
         "spread_bp": 336,
         "net_leverage": 1.9,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -37877,8 +38075,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.5,
         "spread_bp": 319,
         "net_leverage": 1.8,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -37890,8 +38088,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.2,
         "spread_bp": 299,
         "net_leverage": 1.7,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -37899,12 +38097,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q1 2025",
         "timestamp": "2025-03-31T16:00:00Z",
         "rating": "Ba2 / BB+",
-        "price": 99.0,
+        "price": 99,
         "ytm": 7.05,
         "spread_bp": 294,
         "net_leverage": 1.67,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -37916,8 +38114,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.8,
         "spread_bp": 279,
         "net_leverage": 1.6,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -37925,12 +38123,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2025",
         "timestamp": "2025-09-30T16:00:00Z",
         "rating": "Ba2 / BB+",
-        "price": 100.0,
+        "price": 100,
         "ytm": 6.7,
         "spread_bp": 274,
         "net_leverage": 1.55,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -37942,8 +38140,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.65,
         "spread_bp": 271,
         "net_leverage": 1.53,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -37955,8 +38153,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.75,
         "spread_bp": 276,
         "net_leverage": 1.57,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -37968,21 +38166,21 @@ const MASTER_ISSUERS = [
         "ytm": 6.85,
         "spread_bp": 282,
         "net_leverage": 1.63,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "Ba2 / BB+",
         "price": 99.4,
         "ytm": 6.9,
         "spread_bp": 285,
         "net_leverage": 1.65,
-        "ebitda": 4500.0,
-        "fcf": 2250.0,
+        "ebitda": 4500,
+        "fcf": 2250,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -37990,8 +38188,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "ocp",
-      "cognitive_credit_id": "ocp",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ocp/description",
       "name": "OCP Group",
       "ticker": "OCP",
       "country": "Morocco",
@@ -38007,19 +38203,21 @@ const MASTER_ISSUERS = [
       "model_file": "OCP_Group_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681969243c32cfbae8a81",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OCP_Group_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "ocp",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ocp/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 6460.0,
-        "ebitda": 2080.0,
+        "revenue": 6460,
+        "ebitda": 2080,
         "ebitda_margin_pct": 32.2,
         "cfo": 1686.4,
-        "capex": 784.0,
+        "capex": 784,
         "fcf": 902.4,
-        "cash": 1320.0,
+        "cash": 1320,
         "gross_debt": 8404.8,
         "net_debt": 7084.8,
         "net_leverage": 3.41,
@@ -38032,7 +38230,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
         "reported_ebitda": 2111.2,
-        "calculated_ebitda": 2080.0,
+        "calculated_ebitda": 2080,
         "ebitda_reconciliation_variance_usd_m": 31.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -38041,8 +38239,8 @@ const MASTER_ISSUERS = [
         "tax_expense": 177.9,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 2080.0,
-          "capex": 784.0,
+          "calculated_ebitda": 2080,
+          "capex": 784,
           "cash_interest": 270.1,
           "change_in_working_capital": -54.4,
           "tax": 177.9,
@@ -38053,15 +38251,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 7790.0,
-        "ebitda": 2560.0,
+        "revenue": 7790,
+        "ebitda": 2560,
         "ebitda_margin_pct": 32.9,
         "cfo": 2121.6,
-        "capex": 952.0,
+        "capex": 952,
         "fcf": 1169.6,
-        "cash": 1680.0,
-        "gross_debt": 9097.0,
-        "net_debt": 7417.0,
+        "cash": 1680,
+        "gross_debt": 9097,
+        "net_debt": 7417,
         "net_leverage": 2.9,
         "interest_coverage": 7.58,
         "observations": {
@@ -38072,7 +38270,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 2598.4,
-        "calculated_ebitda": 2560.0,
+        "calculated_ebitda": 2560,
         "ebitda_reconciliation_variance_usd_m": 38.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$38.4M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -38081,8 +38279,8 @@ const MASTER_ISSUERS = [
         "tax_expense": 218.1,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 2560.0,
-          "capex": 952.0,
+          "calculated_ebitda": 2560,
+          "capex": 952,
           "cash_interest": 337.7,
           "change_in_working_capital": -117.4,
           "tax": 218.1,
@@ -38093,13 +38291,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 8740.0,
-        "ebitda": 2880.0,
-        "ebitda_margin_pct": 33.0,
+        "revenue": 8740,
+        "ebitda": 2880,
+        "ebitda_margin_pct": 33,
         "cfo": 2393.6,
-        "capex": 1064.0,
+        "capex": 1064,
         "fcf": 1329.6,
-        "cash": 2040.0,
+        "cash": 2040,
         "gross_debt": 9690.2,
         "net_debt": 7650.2,
         "net_leverage": 2.66,
@@ -38112,7 +38310,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 2923.2,
-        "calculated_ebitda": 2880.0,
+        "calculated_ebitda": 2880,
         "ebitda_reconciliation_variance_usd_m": 43.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$43.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -38121,8 +38319,8 @@ const MASTER_ISSUERS = [
         "tax_expense": 241.6,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 2880.0,
-          "capex": 1064.0,
+          "calculated_ebitda": 2880,
+          "capex": 1064,
           "cash_interest": 405.1,
           "change_in_working_capital": -160.3,
           "tax": 241.6,
@@ -38133,15 +38331,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 9500.0,
-        "ebitda": 3200.0,
+        "revenue": 9500,
+        "ebitda": 3200,
         "ebitda_margin_pct": 33.7,
-        "cfo": 2720.0,
-        "capex": 1120.0,
-        "fcf": 1600.0,
-        "cash": 2400.0,
-        "gross_debt": 9888.0,
-        "net_debt": 7488.0,
+        "cfo": 2720,
+        "capex": 1120,
+        "fcf": 1600,
+        "cash": 2400,
+        "gross_debt": 9888,
+        "net_debt": 7488,
         "net_leverage": 2.34,
         "interest_coverage": 7.11,
         "observations": {
@@ -38151,35 +38349,35 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 3248.0,
-        "calculated_ebitda": 3200.0,
-        "ebitda_reconciliation_variance_usd_m": 48.0,
+        "reported_ebitda": 3248,
+        "calculated_ebitda": 3200,
+        "ebitda_reconciliation_variance_usd_m": 48,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$48.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 450.1,
         "change_in_working_capital": -238.6,
         "tax_expense": 268.5,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 3200.0,
-          "capex": 1120.0,
+          "calculated_ebitda": 3200,
+          "capex": 1120,
           "cash_interest": 450.1,
           "change_in_working_capital": -238.6,
           "tax": 268.5,
-          "fcf": 1600.0,
+          "fcf": 1600,
           "formula_check": "3200.0 - 1120.0 - 450.1 - (-238.6) - 268.5 = 1600.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 10260.0,
-        "ebitda": 3520.0,
+        "revenue": 10260,
+        "ebitda": 3520,
         "ebitda_margin_pct": 34.3,
-        "cfo": 2992.0,
-        "capex": 1176.0,
-        "fcf": 1816.0,
-        "cash": 2832.0,
+        "cfo": 2992,
+        "capex": 1176,
+        "fcf": 1816,
+        "cash": 2832,
         "gross_debt": 9690.2,
         "net_debt": 6858.2,
         "net_leverage": 1.95,
@@ -38192,7 +38390,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 3572.8,
-        "calculated_ebitda": 3520.0,
+        "calculated_ebitda": 3520,
         "ebitda_reconciliation_variance_usd_m": 52.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$52.8M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -38201,25 +38399,25 @@ const MASTER_ISSUERS = [
         "tax_expense": 304.8,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 3520.0,
-          "capex": 1176.0,
+          "calculated_ebitda": 3520,
+          "capex": 1176,
           "cash_interest": 431.9,
           "change_in_working_capital": -208.7,
           "tax": 304.8,
-          "fcf": 1816.0,
+          "fcf": 1816,
           "formula_check": "3520.0 - 1176.0 - 431.9 - (-208.7) - 304.8 = 1816.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 10925.0,
-        "ebitda": 3776.0,
+        "revenue": 10925,
+        "ebitda": 3776,
         "ebitda_margin_pct": 34.6,
         "cfo": 3209.6,
         "capex": 1142.4,
         "fcf": 2067.2,
-        "cash": 3240.0,
+        "cash": 3240,
         "gross_debt": 9393.6,
         "net_debt": 6153.6,
         "net_leverage": 1.63,
@@ -38232,19 +38430,19 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
         "reported_ebitda": 3832.6,
-        "calculated_ebitda": 3776.0,
+        "calculated_ebitda": 3776,
         "ebitda_reconciliation_variance_usd_m": 56.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 414.0,
-        "change_in_working_capital": -182.0,
+        "cash_interest": 414,
+        "change_in_working_capital": -182,
         "tax_expense": 334.4,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 3776.0,
+          "calculated_ebitda": 3776,
           "capex": 1142.4,
-          "cash_interest": 414.0,
-          "change_in_working_capital": -182.0,
+          "cash_interest": 414,
+          "change_in_working_capital": -182,
           "tax": 334.4,
           "fcf": 2067.2,
           "formula_check": "3776.0 - 1142.4 - 414.0 - (-182.0) - 334.4 = 2067.2"
@@ -38253,13 +38451,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 11400.0,
-        "ebitda": 3968.0,
+        "revenue": 11400,
+        "ebitda": 3968,
         "ebitda_margin_pct": 34.8,
-        "cfo": 3400.0,
+        "cfo": 3400,
         "capex": 1097.6,
         "fcf": 2302.4,
-        "cash": 3600.0,
+        "cash": 3600,
         "gross_debt": 8899.2,
         "net_debt": 5299.2,
         "net_leverage": 1.34,
@@ -38272,18 +38470,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
         "reported_ebitda": 4027.5,
-        "calculated_ebitda": 3968.0,
+        "calculated_ebitda": 3968,
         "ebitda_reconciliation_variance_usd_m": 59.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$59.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 396.0,
+        "cash_interest": 396,
         "change_in_working_capital": -185.2,
         "tax_expense": 357.2,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 3968.0,
+          "calculated_ebitda": 3968,
           "capex": 1097.6,
-          "cash_interest": 396.0,
+          "cash_interest": 396,
           "change_in_working_capital": -185.2,
           "tax": 357.2,
           "fcf": 2302.4,
@@ -38293,9 +38491,9 @@ const MASTER_ISSUERS = [
     ],
     "supplementary_data": {
       "production_capacity_mtpa": 29.6,
-      "hard_currency_export_pct": 76.0,
+      "hard_currency_export_pct": 76,
       "cash_cost_quartile": "Q1 Global Low Cost",
-      "expansion_capex_usd_m": 1045.0
+      "expansion_capex_usd_m": 1045
     },
     "debt_maturities": {
       "2025": 898.6,
@@ -38304,13 +38502,13 @@ const MASTER_ISSUERS = [
       "2028": 1347.8,
       "2029": 898.6,
       "2030_plus": 748.8,
-      "total_outstanding_usd_m": 7488.0
+      "total_outstanding_usd_m": 7488
     },
     "recovery_analysis": {
-      "distressed_floor_px": 75.0,
-      "base_case_px": 103.0,
-      "recovery_floor_pct": 75.0,
-      "recovery_base_pct": 103.0,
+      "distressed_floor_px": 75,
+      "base_case_px": 103,
+      "recovery_floor_pct": 75,
+      "recovery_base_pct": 103,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Morocco Commercial & Bankruptcy Code",
       "thesis": "Controls 70% of world's phosphate rock reserves; $3.2B EBITDA (34% margin); >85% hard currency export revenues."
@@ -38415,7 +38613,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 1928.2,
         "amount_outstanding_usd_m": 1483.2,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -38430,7 +38628,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 3460.8,
         "amount_outstanding_usd_m": 988.8,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -38573,8 +38771,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.8,
         "spread_bp": 194,
         "net_leverage": 2.69,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -38586,8 +38784,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.4,
         "spread_bp": 183,
         "net_leverage": 2.59,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -38595,12 +38793,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "BBB- / Baa3",
-        "price": 98.0,
+        "price": 98,
         "ytm": 7.05,
         "spread_bp": 174,
         "net_leverage": 2.49,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -38612,8 +38810,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.75,
         "spread_bp": 163,
         "net_leverage": 2.39,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -38625,8 +38823,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.6,
         "spread_bp": 160,
         "net_leverage": 2.36,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -38638,8 +38836,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.35,
         "spread_bp": 152,
         "net_leverage": 2.29,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -38651,8 +38849,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.25,
         "spread_bp": 149,
         "net_leverage": 2.24,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -38664,8 +38862,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.2,
         "spread_bp": 147,
         "net_leverage": 2.22,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -38677,8 +38875,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.3,
         "spread_bp": 150,
         "net_leverage": 2.26,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -38690,30 +38888,46 @@ const MASTER_ISSUERS = [
         "ytm": 6.4,
         "spread_bp": 153,
         "net_leverage": 2.32,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB- / Baa3",
         "price": 99.5,
         "ytm": 6.45,
         "spread_bp": 155,
         "net_leverage": 2.34,
-        "ebitda": 3200.0,
-        "fcf": 1600.0,
+        "ebitda": 3200,
+        "fcf": 1600,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Phosphate Rock & Diammonium Phosphate (DAP)",
+      "volume_metric_name": "Fertilizer & Phosphate Production Capacity",
+      "volume_unit": "Mt/yr",
+      "volume_guidance": 29.6,
+      "volume_guidance_range": "28 - 32 Mt/yr",
+      "volume_guidance_source": "OCP State Phosphate Strategy Guidance",
+      "price_metric_name": "DAP Fertilizer FOB Morocco Benchmark",
+      "price_unit": "$/t",
+      "price_default": 580.0,
+      "price_source": "Current State of the World / Argus Fertilizer Benchmark",
+      "cost_metric_name": "Cash Cost of Extraction & Acidification",
+      "cost_unit": "$/t",
+      "cost_default": 260.0,
+      "hedged_pct": 0,
+      "hedge_floor_price": 0.0
+    }
   },
   {
     "metadata": {
       "id": "ooredoo",
-      "cognitive_credit_id": "ooredoo",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ooredoo/description",
       "name": "Ooredoo QPSC",
       "ticker": "ORDS",
       "country": "Qatar",
@@ -38724,26 +38938,28 @@ const MASTER_ISSUERS = [
       "tier": "Tier-1",
       "benchmark_bond": "ORDS 4.50% 2031",
       "price": 97.8,
-      "ytm": 5.0,
+      "ytm": 5,
       "spread_bp": 95,
       "model_file": "Ooredoo_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8104-b0c2-d4771573cd0a",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ooredoo_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "ooredoo",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ooredoo/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 4420.0,
-        "ebitda": 1820.0,
+        "revenue": 4420,
+        "ebitda": 1820,
         "ebitda_margin_pct": 41.2,
         "cfo": 1475.6,
-        "capex": 686.0,
+        "capex": 686,
         "fcf": 789.6,
-        "cash": 1155.0,
-        "gross_debt": 4403.0,
-        "net_debt": 3248.0,
+        "cash": 1155,
+        "gross_debt": 4403,
+        "net_debt": 3248,
         "net_leverage": 1.78,
         "interest_coverage": 9.97,
         "observations": {
@@ -38754,7 +38970,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
         "reported_ebitda": 1847.3,
-        "calculated_ebitda": 1820.0,
+        "calculated_ebitda": 1820,
         "ebitda_reconciliation_variance_usd_m": 27.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.3M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -38763,8 +38979,8 @@ const MASTER_ISSUERS = [
         "tax_expense": 163.7,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 1820.0,
-          "capex": 686.0,
+          "calculated_ebitda": 1820,
+          "capex": 686,
           "cash_interest": 182.5,
           "change_in_working_capital": -1.8,
           "tax": 163.7,
@@ -38775,13 +38991,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 5330.0,
-        "ebitda": 2240.0,
-        "ebitda_margin_pct": 42.0,
+        "revenue": 5330,
+        "ebitda": 2240,
+        "ebitda_margin_pct": 42,
         "cfo": 1856.4,
-        "capex": 833.0,
+        "capex": 833,
         "fcf": 1023.4,
-        "cash": 1470.0,
+        "cash": 1470,
         "gross_debt": 4765.6,
         "net_debt": 3295.6,
         "net_leverage": 1.47,
@@ -38794,20 +39010,20 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 2273.6,
-        "calculated_ebitda": 2240.0,
+        "calculated_ebitda": 2240,
         "ebitda_reconciliation_variance_usd_m": 33.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 228.3,
         "change_in_working_capital": -45.7,
-        "tax_expense": 201.0,
+        "tax_expense": 201,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 2240.0,
-          "capex": 833.0,
+          "calculated_ebitda": 2240,
+          "capex": 833,
           "cash_interest": 228.3,
           "change_in_working_capital": -45.7,
-          "tax": 201.0,
+          "tax": 201,
           "fcf": 1023.4,
           "formula_check": "2240.0 - 833.0 - 228.3 - (-45.7) - 201.0 = 1023.4"
         }
@@ -38815,13 +39031,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 5980.0,
-        "ebitda": 2520.0,
+        "revenue": 5980,
+        "ebitda": 2520,
         "ebitda_margin_pct": 42.1,
         "cfo": 2094.4,
-        "capex": 931.0,
+        "capex": 931,
         "fcf": 1163.4,
-        "cash": 1785.0,
+        "cash": 1785,
         "gross_debt": 5076.4,
         "net_debt": 3291.4,
         "net_leverage": 1.31,
@@ -38834,7 +39050,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 2557.8,
-        "calculated_ebitda": 2520.0,
+        "calculated_ebitda": 2520,
         "ebitda_reconciliation_variance_usd_m": 37.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.8M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -38843,8 +39059,8 @@ const MASTER_ISSUERS = [
         "tax_expense": 223.5,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 2520.0,
-          "capex": 931.0,
+          "calculated_ebitda": 2520,
+          "capex": 931,
           "cash_interest": 273.9,
           "change_in_working_capital": -71.8,
           "tax": 223.5,
@@ -38855,15 +39071,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 6500.0,
-        "ebitda": 2800.0,
+        "revenue": 6500,
+        "ebitda": 2800,
         "ebitda_margin_pct": 43.1,
-        "cfo": 2380.0,
-        "capex": 980.0,
-        "fcf": 1400.0,
-        "cash": 2100.0,
-        "gross_debt": 5180.0,
-        "net_debt": 3080.0,
+        "cfo": 2380,
+        "capex": 980,
+        "fcf": 1400,
+        "cash": 2100,
+        "gross_debt": 5180,
+        "net_debt": 3080,
         "net_leverage": 1.1,
         "interest_coverage": 9.2,
         "observations": {
@@ -38873,35 +39089,35 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 2842.0,
-        "calculated_ebitda": 2800.0,
-        "ebitda_reconciliation_variance_usd_m": 42.0,
+        "reported_ebitda": 2842,
+        "calculated_ebitda": 2800,
+        "ebitda_reconciliation_variance_usd_m": 42,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$42.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 304.3,
         "change_in_working_capital": -132.7,
         "tax_expense": 248.4,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 2800.0,
-          "capex": 980.0,
+          "calculated_ebitda": 2800,
+          "capex": 980,
           "cash_interest": 304.3,
           "change_in_working_capital": -132.7,
           "tax": 248.4,
-          "fcf": 1400.0,
+          "fcf": 1400,
           "formula_check": "2800.0 - 980.0 - 304.3 - (-132.7) - 248.4 = 1400.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 7020.0,
-        "ebitda": 3080.0,
+        "revenue": 7020,
+        "ebitda": 3080,
         "ebitda_margin_pct": 43.9,
-        "cfo": 2618.0,
-        "capex": 1029.0,
-        "fcf": 1589.0,
-        "cash": 2478.0,
+        "cfo": 2618,
+        "capex": 1029,
+        "fcf": 1589,
+        "cash": 2478,
         "gross_debt": 5076.4,
         "net_debt": 2598.4,
         "net_leverage": 0.84,
@@ -38914,7 +39130,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 3126.2,
-        "calculated_ebitda": 3080.0,
+        "calculated_ebitda": 3080,
         "ebitda_reconciliation_variance_usd_m": 46.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -38923,27 +39139,27 @@ const MASTER_ISSUERS = [
         "tax_expense": 279.6,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 3080.0,
-          "capex": 1029.0,
+          "calculated_ebitda": 3080,
+          "capex": 1029,
           "cash_interest": 292.2,
           "change_in_working_capital": -109.8,
           "tax": 279.6,
-          "fcf": 1589.0,
+          "fcf": 1589,
           "formula_check": "3080.0 - 1029.0 - 292.2 - (-109.8) - 279.6 = 1589.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 7475.0,
-        "ebitda": 3304.0,
+        "revenue": 7475,
+        "ebitda": 3304,
         "ebitda_margin_pct": 44.2,
         "cfo": 2808.4,
         "capex": 999.6,
         "fcf": 1808.8,
-        "cash": 2835.0,
-        "gross_debt": 4921.0,
-        "net_debt": 2086.0,
+        "cash": 2835,
+        "gross_debt": 4921,
+        "net_debt": 2086,
         "net_leverage": 0.63,
         "interest_coverage": 11.8,
         "observations": {
@@ -38954,18 +39170,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
         "reported_ebitda": 3353.6,
-        "calculated_ebitda": 3304.0,
+        "calculated_ebitda": 3304,
         "ebitda_reconciliation_variance_usd_m": 49.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$49.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 280.0,
+        "cash_interest": 280,
         "change_in_working_capital": -89.3,
         "tax_expense": 304.9,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 3304.0,
+          "calculated_ebitda": 3304,
           "capex": 999.6,
-          "cash_interest": 280.0,
+          "cash_interest": 280,
           "change_in_working_capital": -89.3,
           "tax": 304.9,
           "fcf": 1808.8,
@@ -38975,15 +39191,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 7800.0,
-        "ebitda": 3472.0,
+        "revenue": 7800,
+        "ebitda": 3472,
         "ebitda_margin_pct": 44.5,
-        "cfo": 2975.0,
+        "cfo": 2975,
         "capex": 960.4,
         "fcf": 2014.6,
-        "cash": 3150.0,
-        "gross_debt": 4662.0,
-        "net_debt": 1512.0,
+        "cash": 3150,
+        "gross_debt": 4662,
+        "net_debt": 1512,
         "net_leverage": 0.44,
         "interest_coverage": 12.96,
         "observations": {
@@ -38994,16 +39210,16 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
         "reported_ebitda": 3524.1,
-        "calculated_ebitda": 3472.0,
+        "calculated_ebitda": 3472,
         "ebitda_reconciliation_variance_usd_m": 52.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$52.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 267.9,
         "change_in_working_capital": -95.3,
         "tax_expense": 324.4,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 3472.0,
+          "calculated_ebitda": 3472,
           "capex": 960.4,
           "cash_interest": 267.9,
           "change_in_working_capital": -95.3,
@@ -39017,22 +39233,22 @@ const MASTER_ISSUERS = [
       "tower_or_subscriber_count": "70.5M Users / Sites",
       "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
       "contracted_backlog_years": 8.5,
-      "usd_linked_revenue_pct": 72.0,
+      "usd_linked_revenue_pct": 72,
       "churn_pct": 1.1
     },
     "debt_maturities": {
       "2025": 369.6,
-      "2026": 616.0,
+      "2026": 616,
       "2027": 862.4,
       "2028": 554.4,
       "2029": 369.6,
-      "2030_plus": 308.0,
-      "total_outstanding_usd_m": 3080.0
+      "2030_plus": 308,
+      "total_outstanding_usd_m": 3080
     },
     "recovery_analysis": {
-      "distressed_floor_px": 84.0,
+      "distressed_floor_px": 84,
       "base_case_px": 100.5,
-      "recovery_floor_pct": 84.0,
+      "recovery_floor_pct": 84,
       "recovery_base_pct": 100.5,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
@@ -39105,11 +39321,11 @@ const MASTER_ISSUERS = [
         "tranche_name": "ORDS Benchmark Senior Notes",
         "instrument_type": "Senior Unsecured RegS/144A Eurobond",
         "currency": "USD",
-        "amount_issued_usd_m": 2331.0,
-        "amount_outstanding_usd_m": 2331.0,
+        "amount_issued_usd_m": 2331,
+        "amount_outstanding_usd_m": 2331,
         "coupon": "5.000%",
         "clean_price": 97.8,
-        "ytm": 5.0,
+        "ytm": 5,
         "spread_bp": 95,
         "maturity_date": "2029-07-25",
         "seniority": "Senior Unsecured (Pari Passu)",
@@ -39120,8 +39336,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "ORDS Secondary Eurobond / Sukuk Tranche 2",
         "instrument_type": "Senior Unsecured Notes",
         "currency": "USD",
-        "amount_issued_usd_m": 1554.0,
-        "amount_outstanding_usd_m": 1554.0,
+        "amount_issued_usd_m": 1554,
+        "amount_outstanding_usd_m": 1554,
         "coupon": "4.350%",
         "clean_price": 99.8,
         "ytm": 4.35,
@@ -39136,9 +39352,9 @@ const MASTER_ISSUERS = [
         "instrument_type": "Senior Secured / Priority Amortizing Loan",
         "currency": "USD / EUR",
         "amount_issued_usd_m": 1010.1,
-        "amount_outstanding_usd_m": 777.0,
+        "amount_outstanding_usd_m": 777,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -39150,10 +39366,10 @@ const MASTER_ISSUERS = [
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
         "instrument_type": "Revolving Working Capital Credit Line",
         "currency": "USD",
-        "amount_issued_usd_m": 1813.0,
-        "amount_outstanding_usd_m": 518.0,
+        "amount_issued_usd_m": 1813,
+        "amount_outstanding_usd_m": 518,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -39165,7 +39381,7 @@ const MASTER_ISSUERS = [
     "rcf_facility_liquidity": {
       "facility_name": "ORDS Syndicated Multi-Currency Revolving Credit Facility (RCF)",
       "total_committed_capacity_usd_m": 1450.4,
-      "drawn_amount_usd_m": 518.0,
+      "drawn_amount_usd_m": 518,
       "undrawn_available_usd_m": 932.4,
       "drawn_margin": "SOFR + 150 bps",
       "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
@@ -39289,8 +39505,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.35,
         "spread_bp": 119,
         "net_leverage": 1.45,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39298,12 +39514,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q2 2024",
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "A2 / A-",
-        "price": 95.0,
+        "price": 95,
         "ytm": 5.95,
         "spread_bp": 112,
         "net_leverage": 1.35,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39315,8 +39531,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.6,
         "spread_bp": 106,
         "net_leverage": 1.25,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39324,12 +39540,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2024",
         "timestamp": "2024-12-31T16:00:00Z",
         "rating": "A2 / A-",
-        "price": 97.0,
+        "price": 97,
         "ytm": 5.3,
         "spread_bp": 100,
         "net_leverage": 1.15,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39341,8 +39557,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.15,
         "spread_bp": 98,
         "net_leverage": 1.12,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39354,8 +39570,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.9,
         "spread_bp": 93,
         "net_leverage": 1.05,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39366,9 +39582,9 @@ const MASTER_ISSUERS = [
         "price": 98.4,
         "ytm": 4.8,
         "spread_bp": 91,
-        "net_leverage": 1.0,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "net_leverage": 1,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39380,8 +39596,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.75,
         "spread_bp": 90,
         "net_leverage": 0.98,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39393,8 +39609,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.85,
         "spread_bp": 92,
         "net_leverage": 1.02,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39406,21 +39622,21 @@ const MASTER_ISSUERS = [
         "ytm": 4.95,
         "spread_bp": 94,
         "net_leverage": 1.08,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A2 / A-",
         "price": 97.8,
-        "ytm": 5.0,
+        "ytm": 5,
         "spread_bp": 95,
         "net_leverage": 1.1,
-        "ebitda": 2800.0,
-        "fcf": 1400.0,
+        "ebitda": 2800,
+        "fcf": 1400,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -40135,7 +40351,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB+ / BBB-",
         "price": 99.5,
         "ytm": 5.9,
@@ -40145,13 +40361,29 @@ const MASTER_ISSUERS = [
         "fcf": 2300.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Oman Crude Oil & Duqm Refining Stream",
+      "volume_metric_name": "Total Hydrocarbon Production Intake",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 1344.0,
+      "volume_guidance_range": "1,300 - 1,400 kboe/d",
+      "volume_guidance_source": "OQ SAOC Management Operating Plan",
+      "price_metric_name": "DME Oman Crude Benchmark",
+      "price_unit": "$/bbl",
+      "price_default": 77.0,
+      "price_source": "Current State of the World / Dubai/Oman Benchmark",
+      "cost_metric_name": "Operating Lifting Cost",
+      "cost_unit": "$/boe",
+      "cost_default": 12.5,
+      "hedged_pct": 45,
+      "hedge_floor_price": 75.0
+    }
   },
   {
     "metadata": {
       "id": "orlen",
-      "cognitive_credit_id": "orlen",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/orlen/description",
       "name": "PKN Orlen",
       "ticker": "PKN",
       "country": "Poland",
@@ -40167,18 +40399,20 @@ const MASTER_ISSUERS = [
       "model_file": "PKN_Orlen_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-811f-a5e8-fb8bd58107fa",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PKN_Orlen_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "orlen",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/orlen/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 46240.0,
-        "ebitda": 5525.0,
+        "revenue": 46240,
+        "ebitda": 5525,
         "ebitda_margin_pct": 11.9,
         "cfo": 4479.5,
         "capex": 2082.5,
-        "fcf": 2397.0,
+        "fcf": 2397,
         "cash": 3506.3,
         "gross_debt": 12282.5,
         "net_debt": 8776.2,
@@ -40192,35 +40426,35 @@ const MASTER_ISSUERS = [
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
         "reported_ebitda": 5607.9,
-        "calculated_ebitda": 5525.0,
+        "calculated_ebitda": 5525,
         "ebitda_reconciliation_variance_usd_m": 82.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$82.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 536.9,
-        "change_in_working_capital": 9.0,
+        "change_in_working_capital": 9,
         "tax_expense": 499.6,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 5525.0,
+          "calculated_ebitda": 5525,
           "capex": 2082.5,
           "cash_interest": 536.9,
-          "change_in_working_capital": 9.0,
+          "change_in_working_capital": 9,
           "tax": 499.6,
-          "fcf": 2397.0,
+          "fcf": 2397,
           "formula_check": "5525.0 - 2082.5 - 536.9 - (9.0) - 499.6 = 2397.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 55760.0,
-        "ebitda": 6800.0,
+        "revenue": 55760,
+        "ebitda": 6800,
         "ebitda_margin_pct": 12.2,
         "cfo": 5635.5,
         "capex": 2528.8,
         "fcf": 3106.7,
         "cash": 4462.5,
-        "gross_debt": 13294.0,
+        "gross_debt": 13294,
         "net_debt": 8831.5,
         "net_leverage": 1.3,
         "interest_coverage": 10.13,
@@ -40231,9 +40465,9 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 6902.0,
-        "calculated_ebitda": 6800.0,
-        "ebitda_reconciliation_variance_usd_m": 102.0,
+        "reported_ebitda": 6902,
+        "calculated_ebitda": 6800,
+        "ebitda_reconciliation_variance_usd_m": 102,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$102.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 671.3,
@@ -40241,7 +40475,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 613.3,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 6800.0,
+          "calculated_ebitda": 6800,
           "capex": 2528.8,
           "cash_interest": 671.3,
           "change_in_working_capital": -120.1,
@@ -40253,14 +40487,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 62560.0,
-        "ebitda": 7650.0,
+        "revenue": 62560,
+        "ebitda": 7650,
         "ebitda_margin_pct": 12.2,
-        "cfo": 6358.0,
+        "cfo": 6358,
         "capex": 2826.2,
         "fcf": 3531.8,
         "cash": 5418.8,
-        "gross_debt": 14161.0,
+        "gross_debt": 14161,
         "net_debt": 8742.2,
         "net_leverage": 1.14,
         "interest_coverage": 9.5,
@@ -40272,7 +40506,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 7764.7,
-        "calculated_ebitda": 7650.0,
+        "calculated_ebitda": 7650,
         "ebitda_reconciliation_variance_usd_m": 114.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$114.7M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -40281,7 +40515,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 682.5,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 7650.0,
+          "calculated_ebitda": 7650,
           "capex": 2826.2,
           "cash_interest": 805.3,
           "change_in_working_capital": -195.8,
@@ -40293,15 +40527,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 68000.0,
-        "ebitda": 8500.0,
+        "revenue": 68000,
+        "ebitda": 8500,
         "ebitda_margin_pct": 12.5,
-        "cfo": 7225.0,
-        "capex": 2975.0,
-        "fcf": 4250.0,
-        "cash": 6375.0,
-        "gross_debt": 14450.0,
-        "net_debt": 8075.0,
+        "cfo": 7225,
+        "capex": 2975,
+        "fcf": 4250,
+        "cash": 6375,
+        "gross_debt": 14450,
+        "net_debt": 8075,
         "net_leverage": 0.95,
         "interest_coverage": 9.5,
         "observations": {
@@ -40312,35 +40546,35 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 8627.5,
-        "calculated_ebitda": 8500.0,
+        "calculated_ebitda": 8500,
         "ebitda_reconciliation_variance_usd_m": 127.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$127.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 894.7,
-        "change_in_working_capital": -378.0,
+        "change_in_working_capital": -378,
         "tax_expense": 758.3,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 8500.0,
-          "capex": 2975.0,
+          "calculated_ebitda": 8500,
+          "capex": 2975,
           "cash_interest": 894.7,
-          "change_in_working_capital": -378.0,
+          "change_in_working_capital": -378,
           "tax": 758.3,
-          "fcf": 4250.0,
+          "fcf": 4250,
           "formula_check": "8500.0 - 2975.0 - 894.7 - (-378.0) - 758.3 = 4250.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 73440.0,
-        "ebitda": 9350.0,
+        "revenue": 73440,
+        "ebitda": 9350,
         "ebitda_margin_pct": 12.7,
         "cfo": 7947.5,
         "capex": 3123.8,
         "fcf": 4823.7,
         "cash": 7522.5,
-        "gross_debt": 14161.0,
+        "gross_debt": 14161,
         "net_debt": 6638.5,
         "net_leverage": 0.71,
         "interest_coverage": 10.89,
@@ -40352,20 +40586,20 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 9490.2,
-        "calculated_ebitda": 9350.0,
+        "calculated_ebitda": 9350,
         "ebitda_reconciliation_variance_usd_m": 140.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$140.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 858.6,
         "change_in_working_capital": -309.1,
-        "tax_expense": 853.0,
+        "tax_expense": 853,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 9350.0,
+          "calculated_ebitda": 9350,
           "capex": 3123.8,
           "cash_interest": 858.6,
           "change_in_working_capital": -309.1,
-          "tax": 853.0,
+          "tax": 853,
           "fcf": 4823.7,
           "formula_check": "9350.0 - 3123.8 - 858.6 - (-309.1) - 853.0 = 4823.7"
         }
@@ -40373,12 +40607,12 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 78200.0,
-        "ebitda": 10030.0,
+        "revenue": 78200,
+        "ebitda": 10030,
         "ebitda_margin_pct": 12.8,
         "cfo": 8525.5,
         "capex": 3034.5,
-        "fcf": 5491.0,
+        "fcf": 5491,
         "cash": 8606.2,
         "gross_debt": 13727.5,
         "net_debt": 5121.3,
@@ -40392,7 +40626,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
         "reported_ebitda": 10180.4,
-        "calculated_ebitda": 10030.0,
+        "calculated_ebitda": 10030,
         "ebitda_reconciliation_variance_usd_m": 150.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$150.4M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -40401,26 +40635,26 @@ const MASTER_ISSUERS = [
         "tax_expense": 929.6,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 10030.0,
+          "calculated_ebitda": 10030,
           "capex": 3034.5,
           "cash_interest": 823.5,
           "change_in_working_capital": -248.6,
           "tax": 929.6,
-          "fcf": 5491.0,
+          "fcf": 5491,
           "formula_check": "10030.0 - 3034.5 - 823.5 - (-248.6) - 929.6 = 5491.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 81600.0,
-        "ebitda": 10540.0,
+        "revenue": 81600,
+        "ebitda": 10540,
         "ebitda_margin_pct": 12.9,
         "cfo": 9031.2,
         "capex": 2915.5,
         "fcf": 6115.7,
         "cash": 9562.5,
-        "gross_debt": 13005.0,
+        "gross_debt": 13005,
         "net_debt": 3442.5,
         "net_leverage": 0.33,
         "interest_coverage": 13.39,
@@ -40432,19 +40666,19 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
         "reported_ebitda": 10698.1,
-        "calculated_ebitda": 10540.0,
+        "calculated_ebitda": 10540,
         "ebitda_reconciliation_variance_usd_m": 158.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$158.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 787.2,
-        "change_in_working_capital": -267.0,
+        "change_in_working_capital": -267,
         "tax_expense": 988.6,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 10540.0,
+          "calculated_ebitda": 10540,
           "capex": 2915.5,
           "cash_interest": 787.2,
-          "change_in_working_capital": -267.0,
+          "change_in_working_capital": -267,
           "tax": 988.6,
           "fcf": 6115.7,
           "formula_check": "10540.0 - 2915.5 - 787.2 - (-267.0) - 988.6 = 6115.7"
@@ -40452,27 +40686,27 @@ const MASTER_ISSUERS = [
       }
     ],
     "supplementary_data": {
-      "net_production_kboed": 2856.0,
+      "net_production_kboed": 2856,
       "lifting_cost_usd_per_boe": 12.5,
-      "realized_price_usd_per_bbl": 78.0,
-      "reserve_life_2p_years": 15.0,
-      "offshore_escrow_routing_pct": 100.0,
-      "hedged_production_pct": 45.0
+      "realized_price_usd_per_bbl": 78,
+      "reserve_life_2p_years": 15,
+      "offshore_escrow_routing_pct": 100,
+      "hedged_production_pct": 45
     },
     "debt_maturities": {
-      "2025": 969.0,
-      "2026": 1615.0,
-      "2027": 2261.0,
+      "2025": 969,
+      "2026": 1615,
+      "2027": 2261,
       "2028": 1453.5,
-      "2029": 969.0,
+      "2029": 969,
       "2030_plus": 807.5,
-      "total_outstanding_usd_m": 8075.0
+      "total_outstanding_usd_m": 8075
     },
     "recovery_analysis": {
-      "distressed_floor_px": 85.0,
-      "base_case_px": 101.0,
-      "recovery_floor_pct": 85.0,
-      "recovery_base_pct": 101.0,
+      "distressed_floor_px": 85,
+      "base_case_px": 101,
+      "recovery_floor_pct": 85,
+      "recovery_base_pct": 101,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Poland Commercial & Bankruptcy Code",
       "thesis": "Largest oil refiner and multi-energy utility in CEE; strategic Polish national champion with conservative leverage."
@@ -40559,8 +40793,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "PKN Secondary Eurobond / Sukuk Tranche 2",
         "instrument_type": "Senior Unsecured Notes",
         "currency": "USD",
-        "amount_issued_usd_m": 4335.0,
-        "amount_outstanding_usd_m": 4335.0,
+        "amount_issued_usd_m": 4335,
+        "amount_outstanding_usd_m": 4335,
         "coupon": "4.400%",
         "clean_price": 100.8,
         "ytm": 4.3999999999999995,
@@ -40577,7 +40811,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 2817.8,
         "amount_outstanding_usd_m": 2167.5,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -40590,9 +40824,9 @@ const MASTER_ISSUERS = [
         "instrument_type": "Revolving Working Capital Credit Line",
         "currency": "USD",
         "amount_issued_usd_m": 5057.5,
-        "amount_outstanding_usd_m": 1445.0,
+        "amount_outstanding_usd_m": 1445,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -40603,9 +40837,9 @@ const MASTER_ISSUERS = [
     ],
     "rcf_facility_liquidity": {
       "facility_name": "PKN Syndicated Multi-Currency Revolving Credit Facility (RCF)",
-      "total_committed_capacity_usd_m": 4046.0,
-      "drawn_amount_usd_m": 1445.0,
-      "undrawn_available_usd_m": 2601.0,
+      "total_committed_capacity_usd_m": 4046,
+      "drawn_amount_usd_m": 1445,
+      "undrawn_available_usd_m": 2601,
       "drawn_margin": "SOFR + 150 bps",
       "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
       "maturity": "2028-06-30 (with two 1-year extension options)",
@@ -40735,8 +40969,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.4,
         "spread_bp": 125,
         "net_leverage": 1.3,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -40744,12 +40978,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q2 2024",
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "BBB+ / A3",
-        "price": 96.0,
-        "ytm": 6.0,
+        "price": 96,
+        "ytm": 6,
         "spread_bp": 118,
         "net_leverage": 1.2,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -40761,8 +40995,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.65,
         "spread_bp": 112,
         "net_leverage": 1.1,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -40770,12 +41004,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2024",
         "timestamp": "2024-12-31T16:00:00Z",
         "rating": "BBB+ / A3",
-        "price": 98.0,
+        "price": 98,
         "ytm": 5.35,
         "spread_bp": 105,
-        "net_leverage": 1.0,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "net_leverage": 1,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -40787,8 +41021,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.2,
         "spread_bp": 103,
         "net_leverage": 0.97,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -40800,8 +41034,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.95,
         "spread_bp": 98,
         "net_leverage": 0.9,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -40813,8 +41047,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.85,
         "spread_bp": 96,
         "net_leverage": 0.85,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -40826,8 +41060,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.8,
         "spread_bp": 95,
         "net_leverage": 0.83,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -40839,8 +41073,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.9,
         "spread_bp": 97,
         "net_leverage": 0.87,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -40849,27 +41083,45 @@ const MASTER_ISSUERS = [
         "timestamp": "2026-06-30T16:00:00Z",
         "rating": "BBB+ / A3",
         "price": 98.9,
-        "ytm": 5.0,
+        "ytm": 5,
         "spread_bp": 99,
         "net_leverage": 0.93,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB+ / A3",
         "price": 98.8,
         "ytm": 5.05,
         "spread_bp": 100,
         "net_leverage": 0.95,
-        "ebitda": 8500.0,
-        "fcf": 4250.0,
+        "ebitda": 8500,
+        "fcf": 4250,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Polish Refining Throughput & Baltic Upstream",
+      "volume_metric_name": "Consolidated Hydrocarbon Intake",
+      "volume_unit": "kboe/d eq",
+      "volume_guidance": 2856.0,
+      "volume_guidance_range": "2,800 - 2,900 kboe/d eq",
+      "volume_guidance_source": "PKN Orlen Strategic Guidance",
+      "price_metric_name": "Brent & European Crack Spread Benchmark",
+      "price_unit": "$/bbl eq",
+      "price_default": 78.0,
+      "price_source": "Current State of the World / European Energy Benchmark",
+      "cost_metric_name": "Refining & Upstream Operating Cost",
+      "cost_unit": "$/boe eq",
+      "cost_default": 12.5,
+      "hedged_pct": 45,
+      "hedge_floor_price": 75.0
+    }
   },
   {
     "metadata": {
@@ -41196,7 +41448,7 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 102.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Ultra-low-cost carrier based at Sabiha Gökçen; highest EBITDAR margin among European low-cost carriers."
+      "thesis": "Ultra-low-cost carrier based at Sabiha G\u00f6k\u00e7en; highest EBITDAR margin among European low-cost carriers."
     },
     "annotations": [
       {
@@ -41576,7 +41828,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B+ / BB-",
         "price": 103.5,
         "ytm": 7.65,
@@ -42297,7 +42549,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB+",
         "price": 99.2,
         "ytm": 5.3,
@@ -43017,7 +43269,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB-",
         "price": 97.2,
         "ytm": 5.95,
@@ -43787,7 +44039,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "Aa3 / A+",
         "price": 99.5,
         "ytm": 5.0,
@@ -44557,7 +44809,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A1 / A-",
         "price": 100.8,
         "ytm": 4.75,
@@ -45327,7 +45579,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A2 / A",
         "price": 99.6,
         "ytm": 5.15,
@@ -46049,7 +46301,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB-",
         "price": 98.5,
         "ytm": 5.75,
@@ -46059,7 +46311,25 @@ const MASTER_ISSUERS = [
         "fcf": 490.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Romanian Natural Gas & Neptun Deep",
+      "volume_metric_name": "Net Natural Gas Production",
+      "volume_unit": "kboe/d eq",
+      "volume_guidance": 88.2,
+      "volume_guidance_range": "85 - 92 kboe/d eq",
+      "volume_guidance_source": "Romgaz Executive Production Guidance",
+      "price_metric_name": "CEGH Central European Gas Benchmark",
+      "price_unit": "$/boe eq",
+      "price_default": 42.0,
+      "price_source": "Current State of the World / European Gas Benchmark",
+      "cost_metric_name": "Onshore Gas Extraction Cost",
+      "cost_unit": "$/boe eq",
+      "cost_default": 8.5,
+      "hedged_pct": 70,
+      "hedge_floor_price": 38.0
+    }
   },
   {
     "metadata": {
@@ -46769,7 +47039,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A1 / A+",
         "price": 98.8,
         "ytm": 5.05,
@@ -46779,7 +47049,25 @@ const MASTER_ISSUERS = [
         "fcf": 2900.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Basic Chemicals, Polymers & Agri-Nutrients",
+      "volume_metric_name": "Consolidated Production Volume",
+      "volume_unit": "Mt/yr",
+      "volume_guidance": 110.8,
+      "volume_guidance_range": "105 - 115 Mt/yr",
+      "volume_guidance_source": "SABIC Annual Operational Targets",
+      "price_metric_name": "Global Polymer & Chemical Basket",
+      "price_unit": "$/t",
+      "price_default": 820.0,
+      "price_source": "Current State of the World / Global Commodity Benchmark",
+      "cost_metric_name": "Feedstock & Direct Production Cost",
+      "cost_unit": "$/t",
+      "cost_default": 480.0,
+      "hedged_pct": 0,
+      "hedge_floor_price": 0.0
+    }
   },
   {
     "metadata": {
@@ -47485,7 +47773,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B / B2 Implied",
         "price": 97.5,
         "ytm": 10.4,
@@ -47500,8 +47788,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "sasol",
-      "cognitive_credit_id": "sasol",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/sasol/description",
       "name": "Sasol Ltd",
       "ticker": "SOLSJ",
       "country": "South Africa",
@@ -47517,16 +47803,18 @@ const MASTER_ISSUERS = [
       "model_file": "Sasol_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c68168a6b6e3b7106bfdda",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sasol_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "sasol",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/sasol/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 9656.0,
+        "revenue": 9656,
         "ebitda": 1852.5,
         "ebitda_margin_pct": 19.2,
-        "cfo": 1502.0,
+        "cfo": 1502,
         "capex": 698.2,
         "fcf": 803.8,
         "cash": 1175.6,
@@ -47548,14 +47836,14 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 330.2,
         "change_in_working_capital": -124.7,
-        "tax_expense": 145.0,
+        "tax_expense": 145,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
           "calculated_ebitda": 1852.5,
           "capex": 698.2,
           "cash_interest": 330.2,
           "change_in_working_capital": -124.7,
-          "tax": 145.0,
+          "tax": 145,
           "fcf": 803.8,
           "formula_check": "1852.5 - 698.2 - 330.2 - (-124.7) - 145.0 = 803.8"
         }
@@ -47563,8 +47851,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 11644.0,
-        "ebitda": 2280.0,
+        "revenue": 11644,
+        "ebitda": 2280,
         "ebitda_margin_pct": 19.6,
         "cfo": 1889.5,
         "capex": 847.9,
@@ -47582,7 +47870,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 2314.2,
-        "calculated_ebitda": 2280.0,
+        "calculated_ebitda": 2280,
         "ebitda_reconciliation_variance_usd_m": 34.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$34.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -47591,7 +47879,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 177.6,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 2280.0,
+          "calculated_ebitda": 2280,
           "capex": 847.9,
           "cash_interest": 412.3,
           "change_in_working_capital": -199.4,
@@ -47603,8 +47891,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 13064.0,
-        "ebitda": 2565.0,
+        "revenue": 13064,
+        "ebitda": 2565,
         "ebitda_margin_pct": 19.6,
         "cfo": 2131.8,
         "capex": 947.6,
@@ -47622,20 +47910,20 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 2603.5,
-        "calculated_ebitda": 2565.0,
+        "calculated_ebitda": 2565,
         "ebitda_reconciliation_variance_usd_m": 38.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$38.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 495.2,
-        "change_in_working_capital": -257.0,
-        "tax_expense": 195.0,
+        "change_in_working_capital": -257,
+        "tax_expense": 195,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 2565.0,
+          "calculated_ebitda": 2565,
           "capex": 947.6,
           "cash_interest": 495.2,
-          "change_in_working_capital": -257.0,
-          "tax": 195.0,
+          "change_in_working_capital": -257,
+          "tax": 195,
           "fcf": 1184.2,
           "formula_check": "2565.0 - 947.6 - 495.2 - (-257.0) - 195.0 = 1184.2"
         }
@@ -47643,15 +47931,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 14200.0,
-        "ebitda": 2850.0,
+        "revenue": 14200,
+        "ebitda": 2850,
         "ebitda_margin_pct": 20.1,
         "cfo": 2422.5,
         "capex": 997.5,
-        "fcf": 1425.0,
+        "fcf": 1425,
         "cash": 2137.5,
         "gross_debt": 7951.5,
-        "net_debt": 5814.0,
+        "net_debt": 5814,
         "net_leverage": 2.04,
         "interest_coverage": 5.18,
         "observations": {
@@ -47662,29 +47950,29 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 2892.7,
-        "calculated_ebitda": 2850.0,
+        "calculated_ebitda": 2850,
         "ebitda_reconciliation_variance_usd_m": 42.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$42.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 550.2,
         "change_in_working_capital": -339.4,
         "tax_expense": 216.7,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 2850.0,
+          "calculated_ebitda": 2850,
           "capex": 997.5,
           "cash_interest": 550.2,
           "change_in_working_capital": -339.4,
           "tax": 216.7,
-          "fcf": 1425.0,
+          "fcf": 1425,
           "formula_check": "2850.0 - 997.5 - 550.2 - (-339.4) - 216.7 = 1425.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 15336.0,
-        "ebitda": 3135.0,
+        "revenue": 15336,
+        "ebitda": 3135,
         "ebitda_margin_pct": 20.4,
         "cfo": 2664.8,
         "capex": 1047.4,
@@ -47701,21 +47989,21 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 3182.0,
-        "calculated_ebitda": 3135.0,
-        "ebitda_reconciliation_variance_usd_m": 47.0,
+        "reported_ebitda": 3182,
+        "calculated_ebitda": 3135,
+        "ebitda_reconciliation_variance_usd_m": 47,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$47.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 527.8,
         "change_in_working_capital": -307.6,
-        "tax_expense": 250.0,
+        "tax_expense": 250,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 3135.0,
+          "calculated_ebitda": 3135,
           "capex": 1047.4,
           "cash_interest": 527.8,
           "change_in_working_capital": -307.6,
-          "tax": 250.0,
+          "tax": 250,
           "fcf": 1617.4,
           "formula_check": "3135.0 - 1047.4 - 527.8 - (-307.6) - 250.0 = 1617.4"
         }
@@ -47723,8 +48011,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 16330.0,
-        "ebitda": 3363.0,
+        "revenue": 16330,
+        "ebitda": 3363,
         "ebitda_margin_pct": 20.6,
         "cfo": 2858.5,
         "capex": 1017.4,
@@ -47742,7 +48030,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
         "reported_ebitda": 3413.4,
-        "calculated_ebitda": 3363.0,
+        "calculated_ebitda": 3363,
         "ebitda_reconciliation_variance_usd_m": 50.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -47751,7 +48039,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 277.1,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 3363.0,
+          "calculated_ebitda": 3363,
           "capex": 1017.4,
           "cash_interest": 506.5,
           "change_in_working_capital": -279.1,
@@ -47763,8 +48051,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 17040.0,
-        "ebitda": 3534.0,
+        "revenue": 17040,
+        "ebitda": 3534,
         "ebitda_margin_pct": 20.7,
         "cfo": 3028.1,
         "capex": 977.5,
@@ -47781,17 +48069,17 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 3587.0,
-        "calculated_ebitda": 3534.0,
-        "ebitda_reconciliation_variance_usd_m": 53.0,
+        "reported_ebitda": 3587,
+        "calculated_ebitda": 3534,
+        "ebitda_reconciliation_variance_usd_m": 53,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$53.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 484.1,
         "change_in_working_capital": -276.7,
         "tax_expense": 298.5,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 3534.0,
+          "calculated_ebitda": 3534,
           "capex": 977.5,
           "cash_interest": 484.1,
           "change_in_working_capital": -276.7,
@@ -47804,10 +48092,10 @@ const MASTER_ISSUERS = [
     "supplementary_data": {
       "net_production_kboed": 596.4,
       "lifting_cost_usd_per_boe": 12.5,
-      "realized_price_usd_per_bbl": 78.0,
-      "reserve_life_2p_years": 15.0,
-      "offshore_escrow_routing_pct": 100.0,
-      "hedged_production_pct": 45.0
+      "realized_price_usd_per_bbl": 78,
+      "reserve_life_2p_years": 15,
+      "offshore_escrow_routing_pct": 100,
+      "hedged_production_pct": 45
     },
     "debt_maturities": {
       "2025": 697.7,
@@ -47816,13 +48104,13 @@ const MASTER_ISSUERS = [
       "2028": 1046.5,
       "2029": 697.7,
       "2030_plus": 581.4,
-      "total_outstanding_usd_m": 5814.0
+      "total_outstanding_usd_m": 5814
     },
     "recovery_analysis": {
-      "distressed_floor_px": 64.0,
-      "base_case_px": 99.0,
-      "recovery_floor_pct": 64.0,
-      "recovery_base_pct": 99.0,
+      "distressed_floor_px": 64,
+      "base_case_px": 99,
+      "recovery_floor_pct": 64,
+      "recovery_base_pct": 99,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
       "thesis": "Secunda coal-to-liquids synthetic fuels monopoly; global specialty chemicals cash flow; crossover rating tier."
@@ -47927,7 +48215,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 1550.5,
         "amount_outstanding_usd_m": 1192.7,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -47942,7 +48230,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 2783.2,
         "amount_outstanding_usd_m": 795.2,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -48085,8 +48373,8 @@ const MASTER_ISSUERS = [
         "ytm": 9.2,
         "spread_bp": 456,
         "net_leverage": 2.39,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -48098,8 +48386,8 @@ const MASTER_ISSUERS = [
         "ytm": 8.8,
         "spread_bp": 431,
         "net_leverage": 2.29,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -48111,8 +48399,8 @@ const MASTER_ISSUERS = [
         "ytm": 8.45,
         "spread_bp": 409,
         "net_leverage": 2.19,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -48124,8 +48412,8 @@ const MASTER_ISSUERS = [
         "ytm": 8.15,
         "spread_bp": 383,
         "net_leverage": 2.09,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -48133,12 +48421,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q1 2025",
         "timestamp": "2025-03-31T16:00:00Z",
         "rating": "BB+ / Ba1",
-        "price": 98.0,
-        "ytm": 8.0,
+        "price": 98,
+        "ytm": 8,
         "spread_bp": 376,
         "net_leverage": 2.06,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -48150,8 +48438,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.75,
         "spread_bp": 358,
         "net_leverage": 1.99,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -48159,12 +48447,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2025",
         "timestamp": "2025-09-30T16:00:00Z",
         "rating": "BB+ / Ba1",
-        "price": 99.0,
+        "price": 99,
         "ytm": 7.65,
         "spread_bp": 350,
         "net_leverage": 1.94,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -48176,8 +48464,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.6,
         "spread_bp": 347,
         "net_leverage": 1.92,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -48189,8 +48477,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.7,
         "spread_bp": 354,
         "net_leverage": 1.96,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -48202,24 +48490,42 @@ const MASTER_ISSUERS = [
         "ytm": 7.8,
         "spread_bp": 361,
         "net_leverage": 2.02,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB+ / Ba1",
         "price": 98.4,
         "ytm": 7.85,
         "spread_bp": 365,
         "net_leverage": 2.04,
-        "ebitda": 2850.0,
-        "fcf": 1425.0,
+        "ebitda": 2850,
+        "fcf": 1425,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Synthetic Fuels, Chemicals & Natural Gas",
+      "volume_metric_name": "Consolidated Synfuels & Upstream Volume",
+      "volume_unit": "kboe/d eq",
+      "volume_guidance": 596.4,
+      "volume_guidance_range": "580 - 610 kboe/d eq",
+      "volume_guidance_source": "Company Annual Operating Plan Guidance",
+      "price_metric_name": "Chemical & Energy Composite Benchmark",
+      "price_unit": "$/bbl eq",
+      "price_default": 78.0,
+      "price_source": "Current State of the World / Energy Benchmark Basket",
+      "cost_metric_name": "Cash Operating Cost",
+      "cost_unit": "$/boe",
+      "cost_default": 42.0,
+      "hedged_pct": 30,
+      "hedge_floor_price": 72.0
+    }
   },
   {
     "metadata": {
@@ -48930,7 +49236,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A1 / A",
         "price": 99.2,
         "ytm": 5.15,
@@ -48945,7 +49251,7 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "sisecam",
-      "name": "Şişecam",
+      "name": "\u015ei\u015fecam",
       "ticker": "SISE",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -49271,7 +49577,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "sisecam",
-        "issuer_name": "Şişecam",
+        "issuer_name": "\u015ei\u015fecam",
         "sector": "Materials",
         "topic": "Global Cost Curve Advantage",
         "source": "Cognitive Credit / CRU Group",
@@ -49279,7 +49585,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "sisecam",
-        "issuer_name": "Şişecam",
+        "issuer_name": "\u015ei\u015fecam",
         "sector": "Materials",
         "topic": "Hard-Currency Export Share",
         "source": "Audited Financial Statements",
@@ -49287,7 +49593,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "sisecam",
-        "issuer_name": "Şişecam",
+        "issuer_name": "\u015ei\u015fecam",
         "sector": "Materials",
         "topic": "Strategic Sovereign Resource Moat",
         "source": "Credit Rating Agency Memo",
@@ -49295,7 +49601,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "source_deck": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -49442,7 +49748,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$5857.5M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $5940.0M (+8.0% YoY growth). With current run-rate at $5857.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -49453,7 +49759,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1188.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $1210.0M (20.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -49464,7 +49770,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "2.18x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 1.57x buffer below covenant limit.",
-        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.18x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -49475,7 +49781,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$371.9M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $404.2M (Maximum growth and sustaining envelope). Current commitments stand at $371.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -49486,7 +49792,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -49650,7 +49956,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / B1",
         "price": 99.5,
         "ytm": 6.85,
@@ -50420,7 +50726,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A1 / A-",
         "price": 100.1,
         "ytm": 4.95,
@@ -51138,7 +51444,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / Ba3",
         "price": 102.0,
         "ytm": 7.95,
@@ -51860,7 +52166,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B- / B3",
         "price": 97.2,
         "ytm": 9.15,
@@ -51870,7 +52176,25 @@ const MASTER_ISSUERS = [
         "fcf": 2400.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Angolan Girassol / Dalia Heavy Crude",
+      "volume_metric_name": "Attributable National Crude Production",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 529.2,
+      "volume_guidance_range": "510 - 540 kboe/d",
+      "volume_guidance_source": "Sonangol National Production Allocation",
+      "price_metric_name": "Angola Girassol Crude Benchmark",
+      "price_unit": "$/bbl",
+      "price_default": 76.5,
+      "price_source": "Current State of the World / West Africa Crude vs Brent",
+      "cost_metric_name": "Offshore Lifting Cost",
+      "cost_unit": "$/boe",
+      "cost_default": 12.5,
+      "hedged_pct": 35,
+      "hedge_floor_price": 72.0
+    }
   },
   {
     "metadata": {
@@ -52630,7 +52954,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "Ba2 / BB-",
         "price": 98.0,
         "ytm": 6.85,
@@ -52645,8 +52969,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "stc",
-      "cognitive_credit_id": "stc",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/stc/description",
       "name": "Saudi Telecom Company (STC)",
       "ticker": "STC",
       "country": "Saudi Arabia",
@@ -52662,21 +52984,23 @@ const MASTER_ISSUERS = [
       "model_file": "STC_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8100-a93a-e95f56d5978b",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/STC_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "stc",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/stc/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 13940.0,
-        "ebitda": 4680.0,
+        "revenue": 13940,
+        "ebitda": 4680,
         "ebitda_margin_pct": 33.6,
         "cfo": 3794.4,
-        "capex": 1764.0,
+        "capex": 1764,
         "fcf": 2030.4,
-        "cash": 2970.0,
-        "gross_debt": 8568.0,
-        "net_debt": 5598.0,
+        "cash": 2970,
+        "gross_debt": 8568,
+        "net_debt": 5598,
         "net_leverage": 1.2,
         "interest_coverage": 20.04,
         "observations": {
@@ -52687,7 +53011,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
         "reported_ebitda": 4750.2,
-        "calculated_ebitda": 4680.0,
+        "calculated_ebitda": 4680,
         "ebitda_reconciliation_variance_usd_m": 70.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$70.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -52696,8 +53020,8 @@ const MASTER_ISSUERS = [
         "tax_expense": 456.4,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 4680.0,
-          "capex": 1764.0,
+          "calculated_ebitda": 4680,
+          "capex": 1764,
           "cash_interest": 233.5,
           "change_in_working_capital": 195.7,
           "tax": 456.4,
@@ -52708,13 +53032,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 16810.0,
-        "ebitda": 5760.0,
+        "revenue": 16810,
+        "ebitda": 5760,
         "ebitda_margin_pct": 34.3,
         "cfo": 4773.6,
-        "capex": 2142.0,
+        "capex": 2142,
         "fcf": 2631.6,
-        "cash": 3780.0,
+        "cash": 3780,
         "gross_debt": 9273.6,
         "net_debt": 5493.6,
         "net_leverage": 0.95,
@@ -52727,20 +53051,20 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 5846.4,
-        "calculated_ebitda": 5760.0,
+        "calculated_ebitda": 5760,
         "ebitda_reconciliation_variance_usd_m": 86.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$86.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 291.9,
         "change_in_working_capital": 133.5,
-        "tax_expense": 561.0,
+        "tax_expense": 561,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 5760.0,
-          "capex": 2142.0,
+          "calculated_ebitda": 5760,
+          "capex": 2142,
           "cash_interest": 291.9,
           "change_in_working_capital": 133.5,
-          "tax": 561.0,
+          "tax": 561,
           "fcf": 2631.6,
           "formula_check": "5760.0 - 2142.0 - 291.9 - (133.5) - 561.0 = 2631.6"
         }
@@ -52748,13 +53072,13 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 18860.0,
-        "ebitda": 6480.0,
+        "revenue": 18860,
+        "ebitda": 6480,
         "ebitda_margin_pct": 34.4,
         "cfo": 5385.6,
-        "capex": 2394.0,
+        "capex": 2394,
         "fcf": 2991.6,
-        "cash": 4590.0,
+        "cash": 4590,
         "gross_debt": 9878.4,
         "net_debt": 5288.4,
         "net_leverage": 0.82,
@@ -52767,7 +53091,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 6577.2,
-        "calculated_ebitda": 6480.0,
+        "calculated_ebitda": 6480,
         "ebitda_reconciliation_variance_usd_m": 97.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$97.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -52776,8 +53100,8 @@ const MASTER_ISSUERS = [
         "tax_expense": 627.9,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 6480.0,
-          "capex": 2394.0,
+          "calculated_ebitda": 6480,
+          "capex": 2394,
           "cash_interest": 350.3,
           "change_in_working_capital": 116.2,
           "tax": 627.9,
@@ -52788,15 +53112,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 20500.0,
-        "ebitda": 7200.0,
+        "revenue": 20500,
+        "ebitda": 7200,
         "ebitda_margin_pct": 35.1,
-        "cfo": 6120.0,
-        "capex": 2520.0,
-        "fcf": 3600.0,
-        "cash": 5400.0,
-        "gross_debt": 10080.0,
-        "net_debt": 4680.0,
+        "cfo": 6120,
+        "capex": 2520,
+        "fcf": 3600,
+        "cash": 5400,
+        "gross_debt": 10080,
+        "net_debt": 4680,
         "net_leverage": 0.65,
         "interest_coverage": 18.5,
         "observations": {
@@ -52806,35 +53130,35 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 7308.0,
-        "calculated_ebitda": 7200.0,
-        "ebitda_reconciliation_variance_usd_m": 108.0,
+        "reported_ebitda": 7308,
+        "calculated_ebitda": 7200,
+        "ebitda_reconciliation_variance_usd_m": 108,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$108.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 389.2,
         "change_in_working_capital": -6.8,
         "tax_expense": 697.6,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 7200.0,
-          "capex": 2520.0,
+          "calculated_ebitda": 7200,
+          "capex": 2520,
           "cash_interest": 389.2,
           "change_in_working_capital": -6.8,
           "tax": 697.6,
-          "fcf": 3600.0,
+          "fcf": 3600,
           "formula_check": "7200.0 - 2520.0 - 389.2 - (-6.8) - 697.6 = 3600.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 22140.0,
-        "ebitda": 7920.0,
+        "revenue": 22140,
+        "ebitda": 7920,
         "ebitda_margin_pct": 35.8,
-        "cfo": 6732.0,
-        "capex": 2646.0,
-        "fcf": 4086.0,
-        "cash": 6372.0,
+        "cfo": 6732,
+        "capex": 2646,
+        "fcf": 4086,
+        "cash": 6372,
         "gross_debt": 9878.4,
         "net_debt": 3506.4,
         "net_leverage": 0.44,
@@ -52847,7 +53171,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 8038.8,
-        "calculated_ebitda": 7920.0,
+        "calculated_ebitda": 7920,
         "ebitda_reconciliation_variance_usd_m": 118.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$118.8M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -52856,27 +53180,27 @@ const MASTER_ISSUERS = [
         "tax_expense": 775.6,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 7920.0,
-          "capex": 2646.0,
+          "calculated_ebitda": 7920,
+          "capex": 2646,
           "cash_interest": 373.6,
           "change_in_working_capital": 38.8,
           "tax": 775.6,
-          "fcf": 4086.0,
+          "fcf": 4086,
           "formula_check": "7920.0 - 2646.0 - 373.6 - (38.8) - 775.6 = 4086.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 23575.0,
-        "ebitda": 8496.0,
-        "ebitda_margin_pct": 36.0,
+        "revenue": 23575,
+        "ebitda": 8496,
+        "ebitda_margin_pct": 36,
         "cfo": 7221.6,
         "capex": 2570.4,
         "fcf": 4651.2,
-        "cash": 7290.0,
-        "gross_debt": 9576.0,
-        "net_debt": 2286.0,
+        "cash": 7290,
+        "gross_debt": 9576,
+        "net_debt": 2286,
         "net_leverage": 0.27,
         "interest_coverage": 23.73,
         "observations": {
@@ -52887,19 +53211,19 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
         "reported_ebitda": 8623.4,
-        "calculated_ebitda": 8496.0,
+        "calculated_ebitda": 8496,
         "ebitda_reconciliation_variance_usd_m": 127.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$127.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 358.0,
-        "change_in_working_capital": 78.0,
+        "cash_interest": 358,
+        "change_in_working_capital": 78,
         "tax_expense": 838.4,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 8496.0,
+          "calculated_ebitda": 8496,
           "capex": 2570.4,
-          "cash_interest": 358.0,
-          "change_in_working_capital": 78.0,
+          "cash_interest": 358,
+          "change_in_working_capital": 78,
           "tax": 838.4,
           "fcf": 4651.2,
           "formula_check": "8496.0 - 2570.4 - 358.0 - (78.0) - 838.4 = 4651.2"
@@ -52908,15 +53232,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 24600.0,
-        "ebitda": 8928.0,
+        "revenue": 24600,
+        "ebitda": 8928,
         "ebitda_margin_pct": 36.3,
-        "cfo": 7650.0,
+        "cfo": 7650,
         "capex": 2469.6,
         "fcf": 5180.4,
-        "cash": 8100.0,
-        "gross_debt": 9072.0,
-        "net_debt": 972.0,
+        "cash": 8100,
+        "gross_debt": 9072,
+        "net_debt": 972,
         "net_leverage": 0.11,
         "interest_coverage": 26.07,
         "observations": {
@@ -52927,16 +53251,16 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
         "reported_ebitda": 9061.9,
-        "calculated_ebitda": 8928.0,
+        "calculated_ebitda": 8928,
         "ebitda_reconciliation_variance_usd_m": 133.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$133.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 342.5,
         "change_in_working_capital": 49.4,
         "tax_expense": 886.1,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 8928.0,
+          "calculated_ebitda": 8928,
           "capex": 2469.6,
           "cash_interest": 342.5,
           "change_in_working_capital": 49.4,
@@ -52950,22 +53274,22 @@ const MASTER_ISSUERS = [
       "tower_or_subscriber_count": "182.5M Users / Sites",
       "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
       "contracted_backlog_years": 8.5,
-      "usd_linked_revenue_pct": 72.0,
+      "usd_linked_revenue_pct": 72,
       "churn_pct": 1.1
     },
     "debt_maturities": {
       "2025": 561.6,
-      "2026": 936.0,
+      "2026": 936,
       "2027": 1310.4,
       "2028": 842.4,
       "2029": 561.6,
-      "2030_plus": 468.0,
-      "total_outstanding_usd_m": 4680.0
+      "2030_plus": 468,
+      "total_outstanding_usd_m": 4680
     },
     "recovery_analysis": {
-      "distressed_floor_px": 85.0,
+      "distressed_floor_px": 85,
       "base_case_px": 100.5,
-      "recovery_floor_pct": 85.0,
+      "recovery_floor_pct": 85,
       "recovery_base_pct": 100.5,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "English Law / DIFC / NY Jurisdiction",
@@ -53038,8 +53362,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "STC Benchmark Senior Notes",
         "instrument_type": "Senior Unsecured RegS/144A Eurobond",
         "currency": "USD",
-        "amount_issued_usd_m": 4536.0,
-        "amount_outstanding_usd_m": 4536.0,
+        "amount_issued_usd_m": 4536,
+        "amount_outstanding_usd_m": 4536,
         "coupon": "4.850%",
         "clean_price": 97.5,
         "ytm": 4.85,
@@ -53053,8 +53377,8 @@ const MASTER_ISSUERS = [
         "tranche_name": "STC Secondary Eurobond / Sukuk Tranche 2",
         "instrument_type": "Senior Unsecured Notes",
         "currency": "USD",
-        "amount_issued_usd_m": 3024.0,
-        "amount_outstanding_usd_m": 3024.0,
+        "amount_issued_usd_m": 3024,
+        "amount_outstanding_usd_m": 3024,
         "coupon": "4.200%",
         "clean_price": 99.5,
         "ytm": 4.199999999999999,
@@ -53069,9 +53393,9 @@ const MASTER_ISSUERS = [
         "instrument_type": "Senior Secured / Priority Amortizing Loan",
         "currency": "USD / EUR",
         "amount_issued_usd_m": 1965.6,
-        "amount_outstanding_usd_m": 1512.0,
+        "amount_outstanding_usd_m": 1512,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -53083,10 +53407,10 @@ const MASTER_ISSUERS = [
         "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
         "instrument_type": "Revolving Working Capital Credit Line",
         "currency": "USD",
-        "amount_issued_usd_m": 3528.0,
-        "amount_outstanding_usd_m": 1008.0,
+        "amount_issued_usd_m": 3528,
+        "amount_outstanding_usd_m": 1008,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -53098,7 +53422,7 @@ const MASTER_ISSUERS = [
     "rcf_facility_liquidity": {
       "facility_name": "STC Syndicated Multi-Currency Revolving Credit Facility (RCF)",
       "total_committed_capacity_usd_m": 2822.4,
-      "drawn_amount_usd_m": 1008.0,
+      "drawn_amount_usd_m": 1008,
       "undrawn_available_usd_m": 1814.4,
       "drawn_margin": "SOFR + 150 bps",
       "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
@@ -53221,9 +53545,9 @@ const MASTER_ISSUERS = [
         "price": 93.3,
         "ytm": 6.2,
         "spread_bp": 100,
-        "net_leverage": 1.0,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "net_leverage": 1,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -53235,8 +53559,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.8,
         "spread_bp": 94,
         "net_leverage": 0.9,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -53244,12 +53568,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "A1 / A+",
-        "price": 96.0,
+        "price": 96,
         "ytm": 5.45,
         "spread_bp": 90,
         "net_leverage": 0.8,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -53261,8 +53585,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.15,
         "spread_bp": 84,
         "net_leverage": 0.7,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -53271,11 +53595,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2025-03-31T16:00:00Z",
         "rating": "A1 / A+",
         "price": 97.1,
-        "ytm": 5.0,
+        "ytm": 5,
         "spread_bp": 82,
         "net_leverage": 0.67,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -53287,8 +53611,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.75,
         "spread_bp": 78,
         "net_leverage": 0.6,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -53300,8 +53624,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.65,
         "spread_bp": 77,
         "net_leverage": 0.55,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -53313,8 +53637,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.6,
         "spread_bp": 76,
         "net_leverage": 0.53,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -53326,8 +53650,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.7,
         "spread_bp": 78,
         "net_leverage": 0.57,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -53339,21 +53663,21 @@ const MASTER_ISSUERS = [
         "ytm": 4.8,
         "spread_bp": 79,
         "net_leverage": 0.63,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A1 / A+",
         "price": 97.5,
         "ytm": 4.85,
         "spread_bp": 80,
         "net_leverage": 0.65,
-        "ebitda": 7200.0,
-        "fcf": 3600.0,
+        "ebitda": 7200,
+        "fcf": 3600,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -54067,7 +54391,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "Aa3 / AA-",
         "price": 98.5,
         "ytm": 4.9,
@@ -54787,7 +55111,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / Ba3 Implied",
         "price": 98.0,
         "ytm": 9.85,
@@ -54797,7 +55121,25 @@ const MASTER_ISSUERS = [
         "fcf": 92.4,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Platinum Group Metals (PGM) & Chrome Ore",
+      "volume_metric_name": "Reef Mined & Concentrates Output",
+      "volume_unit": "Mt/yr",
+      "volume_guidance": 4.99,
+      "volume_guidance_range": "4.8 - 5.2 Mt/yr",
+      "volume_guidance_source": "Company Annual Operational Guidance",
+      "price_metric_name": "PGM Basket & Metallurgical Chrome Price",
+      "price_unit": "$/t",
+      "price_default": 290.0,
+      "price_source": "Current State of the World / Metal Bulletin Chrome 42%",
+      "cost_metric_name": "On-Mine Cash Cost",
+      "cost_unit": "$/t",
+      "cost_default": 140.0,
+      "hedged_pct": 0,
+      "hedge_floor_price": 0.0
+    }
   },
   {
     "metadata": {
@@ -55504,7 +55846,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / BB-",
         "price": 99.2,
         "ytm": 7.45,
@@ -55519,7 +55861,7 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "ttkom",
-      "name": "Türk Telekom",
+      "name": "T\u00fcrk Telekom",
       "ticker": "TTKOM",
       "country": "Turkey",
       "region": "Turkey",
@@ -55846,7 +56188,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "ttkom",
-        "issuer_name": "Türk Telekom",
+        "issuer_name": "T\u00fcrk Telekom",
         "sector": "Technology",
         "topic": "Master Lease Agreements & Indexation",
         "source": "Cognitive Credit / Arqaam",
@@ -55854,7 +56196,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "ttkom",
-        "issuer_name": "Türk Telekom",
+        "issuer_name": "T\u00fcrk Telekom",
         "sector": "Technology",
         "topic": "Tenancy Ratio & Organic Leverage",
         "source": "Company Disclosures",
@@ -55862,7 +56204,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "ttkom",
-        "issuer_name": "Türk Telekom",
+        "issuer_name": "T\u00fcrk Telekom",
         "sector": "Technology",
         "topic": "Contracted Revenue Backlog",
         "source": "Investor Presentations",
@@ -55870,7 +56212,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "source_deck": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
@@ -56017,7 +56359,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$3834.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $3888.0M (+8.0% YoY growth). With current run-rate at $3834.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -56028,7 +56370,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1458.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $1485.0M (38.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -56039,7 +56381,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.45x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit.",
-        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.45x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -56050,7 +56392,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$456.4M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $496.1M (Maximum growth and sustaining envelope). Current commitments stand at $456.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -56061,7 +56403,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -56218,7 +56560,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB / BB-",
         "price": 99.8,
         "ytm": 7.15,
@@ -56233,8 +56575,6 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "tullow",
-      "cognitive_credit_id": "tullowoil",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description",
       "name": "Tullow Oil",
       "ticker": "TLW",
       "country": "Ghana",
@@ -56250,14 +56590,16 @@ const MASTER_ISSUERS = [
       "model_file": "Tullow_Oil_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681c2ad7ddb4ae404fb62",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tullow_Oil_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "tullowoil",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
         "revenue": 938.4,
-        "ebitda": 533.0,
+        "ebitda": 533,
         "ebitda_margin_pct": 56.8,
         "cfo": 432.1,
         "capex": 200.9,
@@ -56274,9 +56616,9 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 541.0,
-        "calculated_ebitda": 533.0,
-        "ebitda_reconciliation_variance_usd_m": 8.0,
+        "reported_ebitda": 541,
+        "calculated_ebitda": 533,
+        "ebitda_reconciliation_variance_usd_m": 8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 143.7,
@@ -56284,7 +56626,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 34.4,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
-          "calculated_ebitda": 533.0,
+          "calculated_ebitda": 533,
           "capex": 200.9,
           "cash_interest": 143.7,
           "change_in_working_capital": -77.2,
@@ -56297,8 +56639,8 @@ const MASTER_ISSUERS = [
         "period": "2022A",
         "is_audited": true,
         "revenue": 1131.6,
-        "ebitda": 656.0,
-        "ebitda_margin_pct": 58.0,
+        "ebitda": 656,
+        "ebitda_margin_pct": 58,
         "cfo": 543.7,
         "capex": 243.9,
         "fcf": 299.8,
@@ -56315,7 +56657,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
         "reported_ebitda": 665.8,
-        "calculated_ebitda": 656.0,
+        "calculated_ebitda": 656,
         "ebitda_reconciliation_variance_usd_m": 9.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.8M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -56324,7 +56666,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 41.9,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 656.0,
+          "calculated_ebitda": 656,
           "capex": 243.9,
           "cash_interest": 179.7,
           "change_in_working_capital": -109.3,
@@ -56337,13 +56679,13 @@ const MASTER_ISSUERS = [
         "period": "2023A",
         "is_audited": true,
         "revenue": 1269.6,
-        "ebitda": 738.0,
+        "ebitda": 738,
         "ebitda_margin_pct": 58.1,
         "cfo": 613.4,
         "capex": 272.6,
         "fcf": 340.8,
         "cash": 522.8,
-        "gross_debt": 2451.0,
+        "gross_debt": 2451,
         "net_debt": 1928.2,
         "net_leverage": 2.61,
         "interest_coverage": 3.42,
@@ -56355,7 +56697,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 749.1,
-        "calculated_ebitda": 738.0,
+        "calculated_ebitda": 738,
         "ebitda_reconciliation_variance_usd_m": 11.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.1M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -56364,7 +56706,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 45.1,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 738.0,
+          "calculated_ebitda": 738,
           "capex": 272.6,
           "cash_interest": 215.8,
           "change_in_working_capital": -136.3,
@@ -56376,15 +56718,15 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 1380.0,
-        "ebitda": 820.0,
+        "revenue": 1380,
+        "ebitda": 820,
         "ebitda_margin_pct": 59.4,
-        "cfo": 697.0,
-        "capex": 287.0,
-        "fcf": 410.0,
-        "cash": 615.0,
-        "gross_debt": 2501.0,
-        "net_debt": 1886.0,
+        "cfo": 697,
+        "capex": 287,
+        "fcf": 410,
+        "cash": 615,
+        "gross_debt": 2501,
+        "net_debt": 1886,
         "net_leverage": 2.3,
         "interest_coverage": 3.42,
         "observations": {
@@ -56395,21 +56737,21 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 832.3,
-        "calculated_ebitda": 820.0,
+        "calculated_ebitda": 820,
         "ebitda_reconciliation_variance_usd_m": 12.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 239.8,
         "change_in_working_capital": -166.9,
         "tax_expense": 50.1,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 820.0,
-          "capex": 287.0,
+          "calculated_ebitda": 820,
+          "capex": 287,
           "cash_interest": 239.8,
           "change_in_working_capital": -166.9,
           "tax": 50.1,
-          "fcf": 410.0,
+          "fcf": 410,
           "formula_check": "820.0 - 287.0 - 239.8 - (-166.9) - 50.1 = 410.0"
         }
       },
@@ -56417,13 +56759,13 @@ const MASTER_ISSUERS = [
         "period": "2025E",
         "is_audited": false,
         "revenue": 1490.4,
-        "ebitda": 902.0,
+        "ebitda": 902,
         "ebitda_margin_pct": 60.5,
         "cfo": 766.7,
         "capex": 301.4,
         "fcf": 465.3,
         "cash": 725.7,
-        "gross_debt": 2451.0,
+        "gross_debt": 2451,
         "net_debt": 1725.3,
         "net_leverage": 1.91,
         "interest_coverage": 3.92,
@@ -56435,19 +56777,19 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 915.5,
-        "calculated_ebitda": 902.0,
+        "calculated_ebitda": 902,
         "ebitda_reconciliation_variance_usd_m": 13.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 230.1,
-        "change_in_working_capital": -155.0,
+        "change_in_working_capital": -155,
         "tax_expense": 60.2,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 902.0,
+          "calculated_ebitda": 902,
           "capex": 301.4,
           "cash_interest": 230.1,
-          "change_in_working_capital": -155.0,
+          "change_in_working_capital": -155,
           "tax": 60.2,
           "fcf": 465.3,
           "formula_check": "902.0 - 301.4 - 230.1 - (-155.0) - 60.2 = 465.3"
@@ -56456,9 +56798,9 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 1587.0,
+        "revenue": 1587,
         "ebitda": 967.6,
-        "ebitda_margin_pct": 61.0,
+        "ebitda_margin_pct": 61,
         "cfo": 822.5,
         "capex": 292.7,
         "fcf": 529.8,
@@ -56496,7 +56838,7 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 1656.0,
+        "revenue": 1656,
         "ebitda": 1016.8,
         "ebitda_margin_pct": 61.4,
         "cfo": 871.2,
@@ -56519,14 +56861,14 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_usd_m": 15.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 211.0,
+        "cash_interest": 211,
         "change_in_working_capital": -140.5,
         "tax_expense": 75.1,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
           "calculated_ebitda": 1016.8,
           "capex": 281.3,
-          "cash_interest": 211.0,
+          "cash_interest": 211,
           "change_in_working_capital": -140.5,
           "tax": 75.1,
           "fcf": 589.9,
@@ -56535,12 +56877,12 @@ const MASTER_ISSUERS = [
       }
     ],
     "supplementary_data": {
-      "net_production_kboed": 58.0,
+      "net_production_kboed": 58,
       "lifting_cost_usd_per_boe": 12.5,
-      "realized_price_usd_per_bbl": 78.0,
-      "reserve_life_2p_years": 15.0,
-      "offshore_escrow_routing_pct": 100.0,
-      "hedged_production_pct": 45.0
+      "realized_price_usd_per_bbl": 78,
+      "reserve_life_2p_years": 15,
+      "offshore_escrow_routing_pct": 100,
+      "hedged_production_pct": 45
     },
     "debt_maturities": {
       "2025": 226.3,
@@ -56549,13 +56891,13 @@ const MASTER_ISSUERS = [
       "2028": 339.5,
       "2029": 226.3,
       "2030_plus": 188.6,
-      "total_outstanding_usd_m": 1886.0
+      "total_outstanding_usd_m": 1886
     },
     "recovery_analysis": {
-      "distressed_floor_px": 55.0,
-      "base_case_px": 94.0,
-      "recovery_floor_pct": 55.0,
-      "recovery_base_pct": 94.0,
+      "distressed_floor_px": 55,
+      "base_case_px": 94,
+      "recovery_floor_pct": 55,
+      "recovery_base_pct": 94,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Ghana Commercial & Bankruptcy Code",
       "thesis": "FPSO operator of Jubilee & TEN; $280M+ organic FCF sweep directed to 2026 Eurobond maturity refinancing."
@@ -56660,7 +57002,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 487.6,
         "amount_outstanding_usd_m": 375.1,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -56675,7 +57017,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 875.4,
         "amount_outstanding_usd_m": 250.1,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -56818,8 +57160,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.15,
         "spread_bp": 1181,
         "net_leverage": 2.65,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -56831,8 +57173,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.75,
         "spread_bp": 1115,
         "net_leverage": 2.55,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -56840,12 +57182,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "B- / Caa1",
-        "price": 85.0,
+        "price": 85,
         "ytm": 14.4,
         "spread_bp": 1058,
         "net_leverage": 2.45,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -56857,8 +57199,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.1,
         "spread_bp": 992,
         "net_leverage": 2.35,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -56870,8 +57212,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.95,
         "spread_bp": 973,
         "net_leverage": 2.32,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -56883,8 +57225,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.7,
         "spread_bp": 926,
         "net_leverage": 2.25,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -56896,8 +57238,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.6,
         "spread_bp": 907,
         "net_leverage": 2.2,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -56909,8 +57251,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.55,
         "spread_bp": 898,
         "net_leverage": 2.18,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -56922,8 +57264,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.65,
         "spread_bp": 917,
         "net_leverage": 2.22,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -56935,29 +57277,47 @@ const MASTER_ISSUERS = [
         "ytm": 13.75,
         "spread_bp": 936,
         "net_leverage": 2.28,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B- / Caa1",
         "price": 86.5,
         "ytm": 13.8,
         "spread_bp": 945,
         "net_leverage": 2.3,
-        "ebitda": 820.0,
-        "fcf": 410.0,
+        "ebitda": 820,
+        "fcf": 410,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Brent Crude Oil",
+      "volume_metric_name": "Net Working Interest Production",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 58.0,
+      "volume_guidance_range": "55 - 62 kboe/d",
+      "volume_guidance_source": "Company FY24/25 Management Operational Guidance",
+      "price_metric_name": "Realized Benchmark Crude Price",
+      "price_unit": "$/bbl",
+      "price_default": 78.0,
+      "price_source": "Current State of the World / ICE Brent 12M Forward Benchmark",
+      "cost_metric_name": "Underlying Lifting Cash Cost",
+      "cost_unit": "$/boe",
+      "cost_default": 12.5,
+      "hedged_pct": 45,
+      "hedge_floor_price": 75.0
+    }
   },
   {
     "metadata": {
       "id": "tupras",
-      "name": "Tüpraş (Turkish Petroleum)",
+      "name": "T\u00fcpra\u015f (Turkish Petroleum)",
       "ticker": "TUPRAS",
       "country": "Turkey",
       "region": "Turkey",
@@ -57280,12 +57640,12 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 101.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Koç Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
+      "thesis": "Ko\u00e7 Group refining powerhouse; 4 complex refineries commanding resilient Mediterranean crack spreads."
     },
     "annotations": [
       {
         "issuer_id": "tupras",
-        "issuer_name": "Tüpraş (Turkish Petroleum)",
+        "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
         "sector": "Energy",
         "topic": "Offshore Debt Escrow Routing",
         "source": "Cognitive Credit / Morgan Stanley",
@@ -57293,7 +57653,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "tupras",
-        "issuer_name": "Tüpraş (Turkish Petroleum)",
+        "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
         "sector": "Energy",
         "topic": "Lifting Costs & Break-even Floor",
         "source": "Wood Mackenzie Benchmarking",
@@ -57301,7 +57661,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "tupras",
-        "issuer_name": "Tüpraş (Turkish Petroleum)",
+        "issuer_name": "T\u00fcpra\u015f (Turkish Petroleum)",
         "sector": "Energy",
         "topic": "Commercial Reserve Life (1P/2P)",
         "source": "DeGolyer and MacNaughton / Ryder Scott",
@@ -57309,7 +57669,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+      "source_deck": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -57456,7 +57816,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$19702.5M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $19980.0M (+8.0% YoY growth). With current run-rate at $19702.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -57467,7 +57827,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1944.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $1980.0M (9.9% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -57478,7 +57838,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "0.75x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 3.00x buffer below covenant limit.",
-        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 0.75x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -57489,7 +57849,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$608.6M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $661.5M (Maximum growth and sustaining envelope). Current commitments stand at $608.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -57500,7 +57860,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "Tüpraş (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
+        "last_guided_source": "T\u00fcpra\u015f (Turkish Petroleum) FY2024 Earnings Conference Call & Strategy Day Deck",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -57664,7 +58024,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB / BB-",
         "price": 99.5,
         "ytm": 7.2,
@@ -57674,12 +58034,30 @@ const MASTER_ISSUERS = [
         "fcf": 900.0,
         "guidance_status": "Ahead of Target"
       }
-    ]
+    ],
+    "commodity_drivers": {
+      "is_commodity_producer": true,
+      "commodity_name": "Refined Petroleum Products (Gasoline, Diesel, Jet)",
+      "volume_metric_name": "Refinery Crude Processing Throughput",
+      "volume_unit": "kboe/d",
+      "volume_guidance": 777.0,
+      "volume_guidance_range": "750 - 800 kboe/d",
+      "volume_guidance_source": "T\u00fcpra\u015f Annual Refinery Guidance",
+      "price_metric_name": "Net Refining Margin Benchmark",
+      "price_unit": "$/bbl net margin",
+      "price_default": 11.5,
+      "price_source": "Current State of the World / Mediterranean Clean Product Crack Spread",
+      "cost_metric_name": "Refinery Operating & Energy Cost",
+      "cost_unit": "$/bbl",
+      "cost_default": 4.8,
+      "hedged_pct": 50,
+      "hedge_floor_price": 9.5
+    }
   },
   {
     "metadata": {
       "id": "turk_exim",
-      "name": "Türk Eximbank",
+      "name": "T\u00fcrk Eximbank",
       "ticker": "EXCRTU",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -58056,7 +58434,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "turk_exim",
-        "issuer_name": "Türk Eximbank",
+        "issuer_name": "T\u00fcrk Eximbank",
         "sector": "Banks",
         "topic": "NIM & Asset-Liability Repricing",
         "source": "Cognitive Credit / J.P. Morgan",
@@ -58064,7 +58442,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "turk_exim",
-        "issuer_name": "Türk Eximbank",
+        "issuer_name": "T\u00fcrk Eximbank",
         "sector": "Banks",
         "topic": "Prudential Capital & AT1 Instruments",
         "source": "Central Bank / Fitch Ratings",
@@ -58072,7 +58450,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "turk_exim",
-        "issuer_name": "Türk Eximbank",
+        "issuer_name": "T\u00fcrk Eximbank",
         "sector": "Banks",
         "topic": "Asset Quality & Stage 2 Risk",
         "source": "BRSA / Audit Reports",
@@ -58080,7 +58458,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "source_deck": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "reporting_currency": "USD / Local Currency Statutory",
       "management_guidance_targets": {
         "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -58226,7 +58604,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
         "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -58237,7 +58615,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "3.92%",
         "tracking_status": "On Track",
         "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of 3.80% - 4.05%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -58248,7 +58626,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -58259,7 +58637,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -58270,7 +58648,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-        "last_guided_source": "Türk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "T\u00fcrk Eximbank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -58434,7 +58812,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / B1",
         "price": 99.8,
         "ytm": 6.75,
@@ -58449,9 +58827,7 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "turkcell",
-      "cognitive_credit_id": "turkcell",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/turkcell/description",
-      "name": "Turkcell İletişim",
+      "name": "Turkcell \u0130leti\u015fim",
       "ticker": "TCELL",
       "country": "Turkey",
       "region": "Turkey",
@@ -58466,13 +58842,15 @@ const MASTER_ISSUERS = [
       "model_file": "Turkcell_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-814c-a20f-eb55f1553927",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turkcell_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "cognitive_credit_id": "turkcell",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/turkcell/description"
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 2856.0,
+        "revenue": 2856,
         "ebitda": 1137.5,
         "ebitda_margin_pct": 39.8,
         "cfo": 922.2,
@@ -58496,15 +58874,15 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 169.3,
-        "change_in_working_capital": -48.0,
-        "tax_expense": 94.0,
+        "change_in_working_capital": -48,
+        "tax_expense": 94,
         "fcf_conversion_pct": 43.4,
         "fcf_bridge": {
           "calculated_ebitda": 1137.5,
           "capex": 428.8,
           "cash_interest": 169.3,
-          "change_in_working_capital": -48.0,
-          "tax": 94.0,
+          "change_in_working_capital": -48,
+          "tax": 94,
           "fcf": 493.4,
           "formula_check": "1137.5 - 428.8 - 169.3 - (-48.0) - 94.0 = 493.4"
         }
@@ -58512,14 +58890,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 3444.0,
-        "ebitda": 1400.0,
+        "revenue": 3444,
+        "ebitda": 1400,
         "ebitda_margin_pct": 40.7,
         "cfo": 1160.2,
         "capex": 520.6,
         "fcf": 639.6,
         "cash": 918.7,
-        "gross_debt": 3059.0,
+        "gross_debt": 3059,
         "net_debt": 2140.3,
         "net_leverage": 1.53,
         "interest_coverage": 6.61,
@@ -58530,9 +58908,9 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 1477.0,
-        "calculated_ebitda": 1400.0,
-        "ebitda_reconciliation_variance_usd_m": 77.0,
+        "reported_ebitda": 1477,
+        "calculated_ebitda": 1400,
+        "ebitda_reconciliation_variance_usd_m": 77,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$77.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 211.8,
@@ -58540,7 +58918,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 115.2,
         "fcf_conversion_pct": 45.7,
         "fcf_bridge": {
-          "calculated_ebitda": 1400.0,
+          "calculated_ebitda": 1400,
           "capex": 520.6,
           "cash_interest": 211.8,
           "change_in_working_capital": -87.2,
@@ -58552,10 +58930,10 @@ const MASTER_ISSUERS = [
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 3864.0,
-        "ebitda": 1575.0,
+        "revenue": 3864,
+        "ebitda": 1575,
         "ebitda_margin_pct": 40.8,
-        "cfo": 1309.0,
+        "cfo": 1309,
         "capex": 581.9,
         "fcf": 727.1,
         "cash": 1115.6,
@@ -58571,18 +58949,18 @@ const MASTER_ISSUERS = [
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
         "reported_ebitda": 1661.6,
-        "calculated_ebitda": 1575.0,
+        "calculated_ebitda": 1575,
         "ebitda_reconciliation_variance_usd_m": 86.6,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$86.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
-        "cash_interest": 254.0,
+        "cash_interest": 254,
         "change_in_working_capital": -115.3,
         "tax_expense": 127.3,
         "fcf_conversion_pct": 46.2,
         "fcf_bridge": {
-          "calculated_ebitda": 1575.0,
+          "calculated_ebitda": 1575,
           "capex": 581.9,
-          "cash_interest": 254.0,
+          "cash_interest": 254,
           "change_in_working_capital": -115.3,
           "tax": 127.3,
           "fcf": 727.1,
@@ -58592,14 +58970,14 @@ const MASTER_ISSUERS = [
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 4200.0,
-        "ebitda": 1750.0,
+        "revenue": 4200,
+        "ebitda": 1750,
         "ebitda_margin_pct": 41.7,
         "cfo": 1487.5,
         "capex": 612.5,
-        "fcf": 875.0,
+        "fcf": 875,
         "cash": 1312.5,
-        "gross_debt": 3325.0,
+        "gross_debt": 3325,
         "net_debt": 2012.5,
         "net_leverage": 1.15,
         "interest_coverage": 6.2,
@@ -58611,29 +58989,29 @@ const MASTER_ISSUERS = [
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
         "reported_ebitda": 1846.2,
-        "calculated_ebitda": 1750.0,
+        "calculated_ebitda": 1750,
         "ebitda_reconciliation_variance_usd_m": 96.2,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$96.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 282.3,
         "change_in_working_capital": -161.2,
         "tax_expense": 141.4,
-        "fcf_conversion_pct": 50.0,
+        "fcf_conversion_pct": 50,
         "fcf_bridge": {
-          "calculated_ebitda": 1750.0,
+          "calculated_ebitda": 1750,
           "capex": 612.5,
           "cash_interest": 282.3,
           "change_in_working_capital": -161.2,
           "tax": 141.4,
-          "fcf": 875.0,
+          "fcf": 875,
           "formula_check": "1750.0 - 612.5 - 282.3 - (-161.2) - 141.4 = 875.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 4536.0,
-        "ebitda": 1925.0,
+        "revenue": 4536,
+        "ebitda": 1925,
         "ebitda_margin_pct": 42.4,
         "cfo": 1636.3,
         "capex": 643.1,
@@ -58651,7 +59029,7 @@ const MASTER_ISSUERS = [
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
         "reported_ebitda": 1953.9,
-        "calculated_ebitda": 1925.0,
+        "calculated_ebitda": 1925,
         "ebitda_reconciliation_variance_usd_m": 28.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$28.9M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -58660,7 +59038,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 161.5,
         "fcf_conversion_pct": 51.6,
         "fcf_bridge": {
-          "calculated_ebitda": 1925.0,
+          "calculated_ebitda": 1925,
           "capex": 643.1,
           "cash_interest": 271.1,
           "change_in_working_capital": -143.9,
@@ -58672,8 +59050,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 4830.0,
-        "ebitda": 2065.0,
+        "revenue": 4830,
+        "ebitda": 2065,
         "ebitda_margin_pct": 42.8,
         "cfo": 1755.2,
         "capex": 624.8,
@@ -58690,9 +59068,9 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 2096.0,
-        "calculated_ebitda": 2065.0,
-        "ebitda_reconciliation_variance_usd_m": 31.0,
+        "reported_ebitda": 2096,
+        "calculated_ebitda": 2065,
+        "ebitda_reconciliation_variance_usd_m": 31,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 259.7,
@@ -58700,7 +59078,7 @@ const MASTER_ISSUERS = [
         "tax_expense": 177.9,
         "fcf_conversion_pct": 54.7,
         "fcf_bridge": {
-          "calculated_ebitda": 2065.0,
+          "calculated_ebitda": 2065,
           "capex": 624.8,
           "cash_interest": 259.7,
           "change_in_working_capital": -127.8,
@@ -58712,8 +59090,8 @@ const MASTER_ISSUERS = [
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 5040.0,
-        "ebitda": 2170.0,
+        "revenue": 5040,
+        "ebitda": 2170,
         "ebitda_margin_pct": 43.1,
         "cfo": 1859.4,
         "capex": 600.2,
@@ -58731,16 +59109,16 @@ const MASTER_ISSUERS = [
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
         "reported_ebitda": 2202.5,
-        "calculated_ebitda": 2170.0,
+        "calculated_ebitda": 2170,
         "ebitda_reconciliation_variance_usd_m": 32.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$32.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 248.3,
         "change_in_working_capital": -128.3,
         "tax_expense": 190.6,
-        "fcf_conversion_pct": 58.0,
+        "fcf_conversion_pct": 58,
         "fcf_bridge": {
-          "calculated_ebitda": 2170.0,
+          "calculated_ebitda": 2170,
           "capex": 600.2,
           "cash_interest": 248.3,
           "change_in_working_capital": -128.3,
@@ -58754,7 +59132,7 @@ const MASTER_ISSUERS = [
       "tower_or_subscriber_count": "52.1M Users / Sites",
       "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
       "contracted_backlog_years": 8.5,
-      "usd_linked_revenue_pct": 72.0,
+      "usd_linked_revenue_pct": 72,
       "churn_pct": 1.1
     },
     "debt_maturities": {
@@ -58767,10 +59145,10 @@ const MASTER_ISSUERS = [
       "total_outstanding_usd_m": 2012.4
     },
     "recovery_analysis": {
-      "distressed_floor_px": 74.0,
-      "base_case_px": 101.0,
-      "recovery_floor_pct": 74.0,
-      "recovery_base_pct": 101.0,
+      "distressed_floor_px": 74,
+      "base_case_px": 101,
+      "recovery_floor_pct": 74,
+      "recovery_base_pct": 101,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
       "thesis": "Turkey's leading telecom operator; TVF controlled, high ARPU growth and strong hard currency cash buffer."
@@ -58778,7 +59156,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "turkcell",
-        "issuer_name": "Turkcell İletişim",
+        "issuer_name": "Turkcell \u0130leti\u015fim",
         "sector": "Technology",
         "topic": "Master Lease Agreements & Indexation",
         "source": "Cognitive Credit / Arqaam",
@@ -58786,7 +59164,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "turkcell",
-        "issuer_name": "Turkcell İletişim",
+        "issuer_name": "Turkcell \u0130leti\u015fim",
         "sector": "Technology",
         "topic": "Tenancy Ratio & Organic Leverage",
         "source": "Company Disclosures",
@@ -58794,7 +59172,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "turkcell",
-        "issuer_name": "Turkcell İletişim",
+        "issuer_name": "Turkcell \u0130leti\u015fim",
         "sector": "Technology",
         "topic": "Contracted Revenue Backlog",
         "source": "Investor Presentations",
@@ -58802,7 +59180,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "source_deck": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "reporting_currency": "USD / Local Currency",
       "management_guidance_targets": {
         "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
@@ -58875,7 +59253,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 648.4,
         "amount_outstanding_usd_m": 498.8,
         "coupon": "SOFR + 185 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.85,
         "spread_bp": 185,
         "maturity_date": "2031-03-31",
@@ -58890,7 +59268,7 @@ const MASTER_ISSUERS = [
         "amount_issued_usd_m": 1163.8,
         "amount_outstanding_usd_m": 332.5,
         "coupon": "SOFR + 150 bps",
-        "clean_price": 100.0,
+        "clean_price": 100,
         "ytm": 6.5,
         "spread_bp": 150,
         "maturity_date": "2028-06-30",
@@ -58901,7 +59279,7 @@ const MASTER_ISSUERS = [
     ],
     "rcf_facility_liquidity": {
       "facility_name": "TCELL Syndicated Multi-Currency Revolving Credit Facility (RCF)",
-      "total_committed_capacity_usd_m": 931.0,
+      "total_committed_capacity_usd_m": 931,
       "drawn_amount_usd_m": 332.5,
       "undrawn_available_usd_m": 598.5,
       "drawn_margin": "SOFR + 150 bps",
@@ -58949,7 +59327,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$4473.0M (+6.5% YoY)",
         "tracking_status": "On Track",
         "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of $4536.0M (+8.0% YoY growth). With current run-rate at $4473.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -58960,7 +59338,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$1890.0M",
         "tracking_status": "On Track",
         "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of $1925.0M (42.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -58971,7 +59349,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "1.15x",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Deleveraging on track with 2.60x buffer below covenant limit.",
-        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.15x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
         "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -58982,7 +59360,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "$591.7M committed",
         "tracking_status": "On Track",
         "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "You guided a maximum capex envelope of $643.1M (Maximum growth and sustaining envelope). Current commitments stand at $591.7M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
         "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -58993,7 +59371,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "35% payout policy maintained",
         "tracking_status": "On Track",
         "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-        "last_guided_source": "Turkcell İletişim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+        "last_guided_source": "Turkcell \u0130leti\u015fim FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -59026,8 +59404,8 @@ const MASTER_ISSUERS = [
         "ytm": 8.3,
         "spread_bp": 362,
         "net_leverage": 1.5,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -59035,12 +59413,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q2 2024",
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "BB / BB-",
-        "price": 94.0,
+        "price": 94,
         "ytm": 7.9,
         "spread_bp": 342,
         "net_leverage": 1.4,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -59052,8 +59430,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.55,
         "spread_bp": 325,
         "net_leverage": 1.3,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -59061,12 +59439,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2024",
         "timestamp": "2024-12-31T16:00:00Z",
         "rating": "BB / BB-",
-        "price": 96.0,
+        "price": 96,
         "ytm": 7.25,
         "spread_bp": 304,
         "net_leverage": 1.2,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -59078,8 +59456,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.1,
         "spread_bp": 299,
         "net_leverage": 1.17,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -59091,8 +59469,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.85,
         "spread_bp": 284,
         "net_leverage": 1.1,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -59104,8 +59482,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.75,
         "spread_bp": 278,
         "net_leverage": 1.05,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -59117,8 +59495,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.7,
         "spread_bp": 276,
         "net_leverage": 1.03,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -59130,8 +59508,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.8,
         "spread_bp": 281,
         "net_leverage": 1.07,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -59143,21 +59521,21 @@ const MASTER_ISSUERS = [
         "ytm": 6.9,
         "spread_bp": 287,
         "net_leverage": 1.13,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       },
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB / BB-",
         "price": 96.8,
         "ytm": 6.95,
         "spread_bp": 290,
         "net_leverage": 1.15,
-        "ebitda": 1750.0,
-        "fcf": 875.0,
+        "ebitda": 1750,
+        "fcf": 875,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -59900,7 +60278,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "CCC / Caa3",
         "price": 64.0,
         "ytm": 19.25,
@@ -59915,7 +60293,7 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "vakifbank",
-      "name": "VakıfBank",
+      "name": "Vak\u0131fBank",
       "ticker": "VAKBN",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -60292,7 +60670,7 @@ const MASTER_ISSUERS = [
     "annotations": [
       {
         "issuer_id": "vakifbank",
-        "issuer_name": "VakıfBank",
+        "issuer_name": "Vak\u0131fBank",
         "sector": "Banks",
         "topic": "NIM & Asset-Liability Repricing",
         "source": "Cognitive Credit / J.P. Morgan",
@@ -60300,7 +60678,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "vakifbank",
-        "issuer_name": "VakıfBank",
+        "issuer_name": "Vak\u0131fBank",
         "sector": "Banks",
         "topic": "Prudential Capital & AT1 Instruments",
         "source": "Central Bank / Fitch Ratings",
@@ -60308,7 +60686,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "vakifbank",
-        "issuer_name": "VakıfBank",
+        "issuer_name": "Vak\u0131fBank",
         "sector": "Banks",
         "topic": "Asset Quality & Stage 2 Risk",
         "source": "BRSA / Audit Reports",
@@ -60316,7 +60694,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "source_deck": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "reporting_currency": "USD / Local Currency Statutory",
       "management_guidance_targets": {
         "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -60462,7 +60840,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
         "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -60473,7 +60851,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "5.02%",
         "tracking_status": "On Track",
         "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of 4.90% - 5.15%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -60484,7 +60862,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -60495,7 +60873,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -60506,7 +60884,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-        "last_guided_source": "VakıfBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Vak\u0131fBank Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -60670,7 +61048,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / B1",
         "price": 99.2,
         "ytm": 6.95,
@@ -60685,7 +61063,7 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "yapi_kredi",
-      "name": "Yapı ve Kredi Bankası",
+      "name": "Yap\u0131 ve Kredi Bankas\u0131",
       "ticker": "YKBNK",
       "country": "Turkey",
       "region": "CEEMEA",
@@ -61057,12 +61435,12 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 102.0,
       "implied_stress_ev_multiple": "Prudential Resolution",
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "Koç Group backing; #1 credit card issuing market share in Turkey; AT1 yielding 9.15%."
+      "thesis": "Ko\u00e7 Group backing; #1 credit card issuing market share in Turkey; AT1 yielding 9.15%."
     },
     "annotations": [
       {
         "issuer_id": "yapi_kredi",
-        "issuer_name": "Yapı ve Kredi Bankası",
+        "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
         "sector": "Banks",
         "topic": "NIM & Asset-Liability Repricing",
         "source": "Cognitive Credit / J.P. Morgan",
@@ -61070,7 +61448,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "yapi_kredi",
-        "issuer_name": "Yapı ve Kredi Bankası",
+        "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
         "sector": "Banks",
         "topic": "Prudential Capital & AT1 Instruments",
         "source": "Central Bank / Fitch Ratings",
@@ -61078,7 +61456,7 @@ const MASTER_ISSUERS = [
       },
       {
         "issuer_id": "yapi_kredi",
-        "issuer_name": "Yapı ve Kredi Bankası",
+        "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
         "sector": "Banks",
         "topic": "Asset Quality & Stage 2 Risk",
         "source": "BRSA / Audit Reports",
@@ -61086,7 +61464,7 @@ const MASTER_ISSUERS = [
       }
     ],
     "earnings_presentation_intelligence": {
-      "source_deck": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "source_deck": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "reporting_currency": "USD / Local Currency Statutory",
       "management_guidance_targets": {
         "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -61232,7 +61610,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "+13.8% YoY annualized loan disbursement",
         "tracking_status": "On Track",
         "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
         "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -61243,7 +61621,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "5.42%",
         "tracking_status": "On Track",
         "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management committed to an EBITDA target of 5.30% - 5.55%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
         "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -61254,7 +61632,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "36.8%",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -61265,7 +61643,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "68 bps annualized credit cost",
         "tracking_status": "Ahead of Target",
         "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -61276,7 +61654,7 @@ const MASTER_ISSUERS = [
         "current_runrate": "40.0% payout proposed",
         "tracking_status": "On Track",
         "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-        "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+        "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
         "last_verified_period": "H1 / 6M 2025 Review",
         "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
         "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -61440,7 +61818,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BB- / B1",
         "price": 99.4,
         "ytm": 6.75,
@@ -61809,8 +62187,8 @@ const MASTER_ISSUERS = [
       "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
       "reporting_currency": "USD / TRY (with natural USD hedge disclosures)",
       "generation_fleet_breakdown": {
-        "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) — Turkey's largest and lowest-cost baseload renewable fleet",
-        "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) — long-term high wind resource capacity factor (>34%)",
+        "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) \u2014 Turkey's largest and lowest-cost baseload renewable fleet",
+        "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) \u2014 long-term high wind resource capacity factor (>34%)",
         "hydroelectric_capacity_hes": "118.6 MW across 7 operating run-of-river and reservoir plants (Ikizdere, Atabey, Camlica, Kuzgun, Mercan, Tercan, Beykoy)",
         "solar_and_hybrid_capacity": "84.0 MW installed and under development (hybrid solar installations co-located at Kizildere geothermal sites)",
         "thermal_and_industrial_cogen": "341.0 MW domestic gas cogeneration and district heating (Bursa, Luleburgaz)",
@@ -61889,7 +62267,7 @@ const MASTER_ISSUERS = [
       "geographic_and_fx_exposure": {
         "usd_revenue_share": "68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM mechanism",
         "try_regulated_revenue_share": "31.5% of revenue earned in Turkish Lira via OEDAS/OEPSAS with full CPI inflation pass-through",
-        "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY — natural dollar hedge covers 100% of USD net interest payments",
+        "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY \u2014 natural dollar hedge covers 100% of USD net interest payments",
         "fx_risk_mitigation": "Bilateral FX forward hedges covering next 12-month EUR debt principal amortizations"
       },
       "contract_backlog_and_commercial_terms": {
@@ -62226,7 +62604,7 @@ const MASTER_ISSUERS = [
       {
         "date": "2026-09-20",
         "period_name": "2026-09-20",
-        "timestamp": "2026-09-20T19:36:22.339005",
+        "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B- / CCC+",
         "price": 94.5,
         "ytm": 11.2,
@@ -62237,2055 +62615,5 @@ const MASTER_ISSUERS = [
         "guidance_status": "Under Watch"
       }
     ]
-  }
-];
-const MASTER_ANNOTATIONS = [
-  {
-    "issuer_id": "acwa",
-    "issuer_name": "ACWA Power",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "acwa",
-    "issuer_name": "ACWA Power",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "acwa",
-    "issuer_name": "ACWA Power",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "adcb",
-    "issuer_name": "Abu Dhabi Commercial Bank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "adcb",
-    "issuer_name": "Abu Dhabi Commercial Bank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "adcb",
-    "issuer_name": "Abu Dhabi Commercial Bank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "adm_elek",
-    "issuer_name": "ADM Elektrik",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "adm_elek",
-    "issuer_name": "ADM Elektrik",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "adm_elek",
-    "issuer_name": "ADM Elektrik",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "africell",
-    "issuer_name": "Africell",
-    "sector": "Technology",
-    "topic": "Master Lease Agreements & Indexation",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
-  },
-  {
-    "issuer_id": "africell",
-    "issuer_name": "Africell",
-    "sector": "Technology",
-    "topic": "Tenancy Ratio & Organic Leverage",
-    "source": "Company Disclosures",
-    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
-  },
-  {
-    "issuer_id": "africell",
-    "issuer_name": "Africell",
-    "sector": "Technology",
-    "topic": "Contracted Revenue Backlog",
-    "source": "Investor Presentations",
-    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
-  },
-  {
-    "issuer_id": "akbank",
-    "issuer_name": "Akbank TAS",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "akbank",
-    "issuer_name": "Akbank TAS",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "akbank",
-    "issuer_name": "Akbank TAS",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "aldar",
-    "issuer_name": "Aldar Properties",
-    "sector": "Real Estate",
-    "topic": "RERA Escrow Mechanics",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
-  },
-  {
-    "issuer_id": "aldar",
-    "issuer_name": "Aldar Properties",
-    "sector": "Real Estate",
-    "topic": "Revenue Backlog & Recognition",
-    "source": "Broker Consensus / Earnings Call",
-    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
-  },
-  {
-    "issuer_id": "aldar",
-    "issuer_name": "Aldar Properties",
-    "sector": "Real Estate",
-    "topic": "Asset Coverage & Land Bank",
-    "source": "CBRE / JLL Independent Valuation",
-    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
-  },
-  {
-    "issuer_id": "arada",
-    "issuer_name": "Arada Developments",
-    "sector": "Real Estate",
-    "topic": "RERA Escrow Mechanics",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
-  },
-  {
-    "issuer_id": "arada",
-    "issuer_name": "Arada Developments",
-    "sector": "Real Estate",
-    "topic": "Revenue Backlog & Recognition",
-    "source": "Broker Consensus / Earnings Call",
-    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
-  },
-  {
-    "issuer_id": "arada",
-    "issuer_name": "Arada Developments",
-    "sector": "Real Estate",
-    "topic": "Asset Coverage & Land Bank",
-    "source": "CBRE / JLL Independent Valuation",
-    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
-  },
-  {
-    "issuer_id": "aragvi",
-    "issuer_name": "Aragvi / Trans-Oil",
-    "sector": "Consumer",
-    "topic": "Retail Footprint & Concession Moat",
-    "source": "Cognitive Credit / Broker Consensus",
-    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
-  },
-  {
-    "issuer_id": "aragvi",
-    "issuer_name": "Aragvi / Trans-Oil",
-    "sector": "Consumer",
-    "topic": "Working Capital & Free Cash Flow",
-    "source": "Financial Statements",
-    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
-  },
-  {
-    "issuer_id": "aragvi",
-    "issuer_name": "Aragvi / Trans-Oil",
-    "sector": "Consumer",
-    "topic": "Geographic Diversification",
-    "source": "Investor Presentations",
-    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
-  },
-  {
-    "issuer_id": "aydem",
-    "issuer_name": "Aydem Renewable",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "aydem",
-    "issuer_name": "Aydem Renewable",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "aydem",
-    "issuer_name": "Aydem Renewable",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "azule",
-    "issuer_name": "Azule Energy",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "azule",
-    "issuer_name": "Azule Energy",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "azule",
-    "issuer_name": "Azule Energy",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "bapco",
-    "issuer_name": "Bapco Energies (nogaholding)",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "bapco",
-    "issuer_name": "Bapco Energies (nogaholding)",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "bapco",
-    "issuer_name": "Bapco Energies (nogaholding)",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "binghatti",
-    "issuer_name": "Binghatti Holding",
-    "sector": "Real Estate",
-    "topic": "RERA Escrow Mechanics",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
-  },
-  {
-    "issuer_id": "binghatti",
-    "issuer_name": "Binghatti Holding",
-    "sector": "Real Estate",
-    "topic": "Revenue Backlog & Recognition",
-    "source": "Broker Consensus / Earnings Call",
-    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
-  },
-  {
-    "issuer_id": "binghatti",
-    "issuer_name": "Binghatti Holding",
-    "sector": "Real Estate",
-    "topic": "Asset Coverage & Land Bank",
-    "source": "CBRE / JLL Independent Valuation",
-    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
-  },
-  {
-    "issuer_id": "cci",
-    "issuer_name": "Coca-Cola İçecek (CCI)",
-    "sector": "Consumer",
-    "topic": "Retail Footprint & Concession Moat",
-    "source": "Cognitive Credit / Broker Consensus",
-    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
-  },
-  {
-    "issuer_id": "cci",
-    "issuer_name": "Coca-Cola İçecek (CCI)",
-    "sector": "Consumer",
-    "topic": "Working Capital & Free Cash Flow",
-    "source": "Financial Statements",
-    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
-  },
-  {
-    "issuer_id": "cci",
-    "issuer_name": "Coca-Cola İçecek (CCI)",
-    "sector": "Consumer",
-    "topic": "Geographic Diversification",
-    "source": "Investor Presentations",
-    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
-  },
-  {
-    "issuer_id": "cez",
-    "issuer_name": "ČEZ Group",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "cez",
-    "issuer_name": "ČEZ Group",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "cez",
-    "issuer_name": "ČEZ Group",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "damac",
-    "issuer_name": "Damac Properties",
-    "sector": "Real Estate",
-    "topic": "RERA Escrow Mechanics",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
-  },
-  {
-    "issuer_id": "damac",
-    "issuer_name": "Damac Properties",
-    "sector": "Real Estate",
-    "topic": "Revenue Backlog & Recognition",
-    "source": "Broker Consensus / Earnings Call",
-    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
-  },
-  {
-    "issuer_id": "damac",
-    "issuer_name": "Damac Properties",
-    "sector": "Real Estate",
-    "topic": "Asset Coverage & Land Bank",
-    "source": "CBRE / JLL Independent Valuation",
-    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
-  },
-  {
-    "issuer_id": "dangote_fert",
-    "issuer_name": "Dangote Fertiliser",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "dangote_fert",
-    "issuer_name": "Dangote Fertiliser",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "dangote_fert",
-    "issuer_name": "Dangote Fertiliser",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "dangote_ref",
-    "issuer_name": "Dangote Refinery",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "dangote_ref",
-    "issuer_name": "Dangote Refinery",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "dangote_ref",
-    "issuer_name": "Dangote Refinery",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "dar_arkan",
-    "issuer_name": "Dar Al Arkan",
-    "sector": "Real Estate",
-    "topic": "RERA Escrow Mechanics",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
-  },
-  {
-    "issuer_id": "dar_arkan",
-    "issuer_name": "Dar Al Arkan",
-    "sector": "Real Estate",
-    "topic": "Revenue Backlog & Recognition",
-    "source": "Broker Consensus / Earnings Call",
-    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
-  },
-  {
-    "issuer_id": "dar_arkan",
-    "issuer_name": "Dar Al Arkan",
-    "sector": "Real Estate",
-    "topic": "Asset Coverage & Land Bank",
-    "source": "CBRE / JLL Independent Valuation",
-    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
-  },
-  {
-    "issuer_id": "dib",
-    "issuer_name": "Dubai Islamic Bank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "dib",
-    "issuer_name": "Dubai Islamic Bank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "dib",
-    "issuer_name": "Dubai Islamic Bank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "dp_world",
-    "issuer_name": "DP World",
-    "sector": "Infrastructure",
-    "topic": "Concession Duration & Tariff Autonomy",
-    "source": "Cognitive Credit / S&P Global",
-    "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
-  },
-  {
-    "issuer_id": "dp_world",
-    "issuer_name": "DP World",
-    "sector": "Infrastructure",
-    "topic": "Volume Stability & Throughput",
-    "source": "Terminal Authority Disclosures",
-    "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
-  },
-  {
-    "issuer_id": "dp_world",
-    "issuer_name": "DP World",
-    "sector": "Infrastructure",
-    "topic": "Holding Company Structural Priority",
-    "source": "Offering Circular Waterfall",
-    "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
-  },
-  {
-    "issuer_id": "dtek",
-    "issuer_name": "DTEK Energy",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "dtek",
-    "issuer_name": "DTEK Energy",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "dtek",
-    "issuer_name": "DTEK Energy",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "emaar",
-    "issuer_name": "Emaar Properties",
-    "sector": "Real Estate",
-    "topic": "RERA Escrow Mechanics",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
-  },
-  {
-    "issuer_id": "emaar",
-    "issuer_name": "Emaar Properties",
-    "sector": "Real Estate",
-    "topic": "Revenue Backlog & Recognition",
-    "source": "Broker Consensus / Earnings Call",
-    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
-  },
-  {
-    "issuer_id": "emaar",
-    "issuer_name": "Emaar Properties",
-    "sector": "Real Estate",
-    "topic": "Asset Coverage & Land Bank",
-    "source": "CBRE / JLL Independent Valuation",
-    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
-  },
-  {
-    "issuer_id": "emlak",
-    "issuer_name": "Emlak Konut",
-    "sector": "Real Estate",
-    "topic": "RERA Escrow Mechanics",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
-  },
-  {
-    "issuer_id": "emlak",
-    "issuer_name": "Emlak Konut",
-    "sector": "Real Estate",
-    "topic": "Revenue Backlog & Recognition",
-    "source": "Broker Consensus / Earnings Call",
-    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
-  },
-  {
-    "issuer_id": "emlak",
-    "issuer_name": "Emlak Konut",
-    "sector": "Real Estate",
-    "topic": "Asset Coverage & Land Bank",
-    "source": "CBRE / JLL Independent Valuation",
-    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
-  },
-  {
-    "issuer_id": "enbd",
-    "issuer_name": "Emirates NBD",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "enbd",
-    "issuer_name": "Emirates NBD",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "enbd",
-    "issuer_name": "Emirates NBD",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "equate",
-    "issuer_name": "EQUATE Petrochemical",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "equate",
-    "issuer_name": "EQUATE Petrochemical",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "equate",
-    "issuer_name": "EQUATE Petrochemical",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "erdemir",
-    "issuer_name": "Erdemir",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "erdemir",
-    "issuer_name": "Erdemir",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "erdemir",
-    "issuer_name": "Erdemir",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "eskom",
-    "issuer_name": "Eskom Holdings",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "eskom",
-    "issuer_name": "Eskom Holdings",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "eskom",
-    "issuer_name": "Eskom Holdings",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "fab",
-    "issuer_name": "First Abu Dhabi Bank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "fab",
-    "issuer_name": "First Abu Dhabi Bank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "fab",
-    "issuer_name": "First Abu Dhabi Bank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "firstrand",
-    "issuer_name": "FirstRand Bank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "firstrand",
-    "issuer_name": "FirstRand Bank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "firstrand",
-    "issuer_name": "FirstRand Bank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "garanti",
-    "issuer_name": "Garanti BBVA",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "garanti",
-    "issuer_name": "Garanti BBVA",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "garanti",
-    "issuer_name": "Garanti BBVA",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "gdz_elek",
-    "issuer_name": "GDZ Elektrik",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "gdz_elek",
-    "issuer_name": "GDZ Elektrik",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "gdz_elek",
-    "issuer_name": "GDZ Elektrik",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "goldfields",
-    "issuer_name": "Gold Fields Ltd",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "goldfields",
-    "issuer_name": "Gold Fields Ltd",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "goldfields",
-    "issuer_name": "Gold Fields Ltd",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "halkbank",
-    "issuer_name": "Halkbank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "halkbank",
-    "issuer_name": "Halkbank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "halkbank",
-    "issuer_name": "Halkbank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "halyk",
-    "issuer_name": "Halyk Bank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "halyk",
-    "issuer_name": "Halyk Bank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "halyk",
-    "issuer_name": "Halyk Bank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "helios",
-    "issuer_name": "Helios Towers",
-    "sector": "Technology",
-    "topic": "Master Lease Agreements & Indexation",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
-  },
-  {
-    "issuer_id": "helios",
-    "issuer_name": "Helios Towers",
-    "sector": "Technology",
-    "topic": "Tenancy Ratio & Organic Leverage",
-    "source": "Company Disclosures",
-    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
-  },
-  {
-    "issuer_id": "helios",
-    "issuer_name": "Helios Towers",
-    "sector": "Technology",
-    "topic": "Contracted Revenue Backlog",
-    "source": "Investor Presentations",
-    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
-  },
-  {
-    "issuer_id": "hidro",
-    "issuer_name": "Hidroelectrica",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "hidro",
-    "issuer_name": "Hidroelectrica",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "hidro",
-    "issuer_name": "Hidroelectrica",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "ihs",
-    "issuer_name": "IHS Towers",
-    "sector": "Technology",
-    "topic": "Master Lease Agreements & Indexation",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
-  },
-  {
-    "issuer_id": "ihs",
-    "issuer_name": "IHS Towers",
-    "sector": "Technology",
-    "topic": "Tenancy Ratio & Organic Leverage",
-    "source": "Company Disclosures",
-    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
-  },
-  {
-    "issuer_id": "ihs",
-    "issuer_name": "IHS Towers",
-    "sector": "Technology",
-    "topic": "Contracted Revenue Backlog",
-    "source": "Investor Presentations",
-    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
-  },
-  {
-    "issuer_id": "isbank",
-    "issuer_name": "Türkiye İş Bankası",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "isbank",
-    "issuer_name": "Türkiye İş Bankası",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "isbank",
-    "issuer_name": "Türkiye İş Bankası",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "ittihad",
-    "issuer_name": "Ittihad Investment",
-    "sector": "Industrials",
-    "topic": "Conglomerate Cash Cushion",
-    "source": "Cognitive Credit / Koç / Ittihad",
-    "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
-  },
-  {
-    "issuer_id": "ittihad",
-    "issuer_name": "Ittihad Investment",
-    "sector": "Industrials",
-    "topic": "Export Orientation & Competitive Edge",
-    "source": "Trade Ministry Data",
-    "note": "High export orientation to European and MENA markets provides diversified revenue streams and foreign exchange earnings."
-  },
-  {
-    "issuer_id": "ittihad",
-    "issuer_name": "Ittihad Investment",
-    "sector": "Industrials",
-    "topic": "Prudent Capital Allocation",
-    "source": "Management Guidance",
-    "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
-  },
-  {
-    "issuer_id": "kfh",
-    "issuer_name": "Kuwait Finance House (KFH)",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "kfh",
-    "issuer_name": "Kuwait Finance House (KFH)",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "kfh",
-    "issuer_name": "Kuwait Finance House (KFH)",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "kmg",
-    "issuer_name": "KazMunayGas (KMG)",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "kmg",
-    "issuer_name": "KazMunayGas (KMG)",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "kmg",
-    "issuer_name": "KazMunayGas (KMG)",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "koc",
-    "issuer_name": "Koç Holding",
-    "sector": "Industrials",
-    "topic": "Conglomerate Cash Cushion",
-    "source": "Cognitive Credit / Koç / Ittihad",
-    "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
-  },
-  {
-    "issuer_id": "koc",
-    "issuer_name": "Koç Holding",
-    "sector": "Industrials",
-    "topic": "Export Orientation & Competitive Edge",
-    "source": "Trade Ministry Data",
-    "note": "High export orientation to European and MENA markets provides diversified revenue streams and foreign exchange earnings."
-  },
-  {
-    "issuer_id": "koc",
-    "issuer_name": "Koç Holding",
-    "sector": "Industrials",
-    "topic": "Prudent Capital Allocation",
-    "source": "Management Guidance",
-    "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
-  },
-  {
-    "issuer_id": "kosmos",
-    "issuer_name": "Kosmos Energy",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "kosmos",
-    "issuer_name": "Kosmos Energy",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "kosmos",
-    "issuer_name": "Kosmos Energy",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "limak_cem",
-    "issuer_name": "Limak Cement",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "limak_cem",
-    "issuer_name": "Limak Cement",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "limak_cem",
-    "issuer_name": "Limak Cement",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "limak_port",
-    "issuer_name": "LimakPort İskenderun",
-    "sector": "Infrastructure",
-    "topic": "Concession Duration & Tariff Autonomy",
-    "source": "Cognitive Credit / S&P Global",
-    "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
-  },
-  {
-    "issuer_id": "limak_port",
-    "issuer_name": "LimakPort İskenderun",
-    "sector": "Infrastructure",
-    "topic": "Volume Stability & Throughput",
-    "source": "Terminal Authority Disclosures",
-    "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
-  },
-  {
-    "issuer_id": "limak_port",
-    "issuer_name": "LimakPort İskenderun",
-    "sector": "Infrastructure",
-    "topic": "Holding Company Structural Priority",
-    "source": "Offering Circular Waterfall",
-    "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
-  },
-  {
-    "issuer_id": "limak_ren",
-    "issuer_name": "Limak Renewable",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "limak_ren",
-    "issuer_name": "Limak Renewable",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "limak_ren",
-    "issuer_name": "Limak Renewable",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "liqtel",
-    "issuer_name": "Liquid Telecom",
-    "sector": "Technology",
-    "topic": "Master Lease Agreements & Indexation",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
-  },
-  {
-    "issuer_id": "liqtel",
-    "issuer_name": "Liquid Telecom",
-    "sector": "Technology",
-    "topic": "Tenancy Ratio & Organic Leverage",
-    "source": "Company Disclosures",
-    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
-  },
-  {
-    "issuer_id": "liqtel",
-    "issuer_name": "Liquid Telecom",
-    "sector": "Technology",
-    "topic": "Contracted Revenue Backlog",
-    "source": "Investor Presentations",
-    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
-  },
-  {
-    "issuer_id": "maf",
-    "issuer_name": "Majid Al Futtaim (MAF)",
-    "sector": "Consumer",
-    "topic": "Retail Footprint & Concession Moat",
-    "source": "Cognitive Credit / Broker Consensus",
-    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
-  },
-  {
-    "issuer_id": "maf",
-    "issuer_name": "Majid Al Futtaim (MAF)",
-    "sector": "Consumer",
-    "topic": "Working Capital & Free Cash Flow",
-    "source": "Financial Statements",
-    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
-  },
-  {
-    "issuer_id": "maf",
-    "issuer_name": "Majid Al Futtaim (MAF)",
-    "sector": "Consumer",
-    "topic": "Geographic Diversification",
-    "source": "Investor Presentations",
-    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
-  },
-  {
-    "issuer_id": "metinvest",
-    "issuer_name": "Metinvest",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "metinvest",
-    "issuer_name": "Metinvest",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "metinvest",
-    "issuer_name": "Metinvest",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "mhp",
-    "issuer_name": "MHP SE",
-    "sector": "Consumer",
-    "topic": "Retail Footprint & Concession Moat",
-    "source": "Cognitive Credit / Broker Consensus",
-    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
-  },
-  {
-    "issuer_id": "mhp",
-    "issuer_name": "MHP SE",
-    "sector": "Consumer",
-    "topic": "Working Capital & Free Cash Flow",
-    "source": "Financial Statements",
-    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
-  },
-  {
-    "issuer_id": "mhp",
-    "issuer_name": "MHP SE",
-    "sector": "Consumer",
-    "topic": "Geographic Diversification",
-    "source": "Investor Presentations",
-    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
-  },
-  {
-    "issuer_id": "mol",
-    "issuer_name": "MOL Group",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "mol",
-    "issuer_name": "MOL Group",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "mol",
-    "issuer_name": "MOL Group",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "mtn",
-    "issuer_name": "MTN Group",
-    "sector": "Technology",
-    "topic": "Master Lease Agreements & Indexation",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
-  },
-  {
-    "issuer_id": "mtn",
-    "issuer_name": "MTN Group",
-    "sector": "Technology",
-    "topic": "Tenancy Ratio & Organic Leverage",
-    "source": "Company Disclosures",
-    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
-  },
-  {
-    "issuer_id": "mtn",
-    "issuer_name": "MTN Group",
-    "sector": "Technology",
-    "topic": "Contracted Revenue Backlog",
-    "source": "Investor Presentations",
-    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
-  },
-  {
-    "issuer_id": "ocp",
-    "issuer_name": "OCP Group",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "ocp",
-    "issuer_name": "OCP Group",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "ocp",
-    "issuer_name": "OCP Group",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "ooredoo",
-    "issuer_name": "Ooredoo QPSC",
-    "sector": "Technology",
-    "topic": "Master Lease Agreements & Indexation",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
-  },
-  {
-    "issuer_id": "ooredoo",
-    "issuer_name": "Ooredoo QPSC",
-    "sector": "Technology",
-    "topic": "Tenancy Ratio & Organic Leverage",
-    "source": "Company Disclosures",
-    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
-  },
-  {
-    "issuer_id": "ooredoo",
-    "issuer_name": "Ooredoo QPSC",
-    "sector": "Technology",
-    "topic": "Contracted Revenue Backlog",
-    "source": "Investor Presentations",
-    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
-  },
-  {
-    "issuer_id": "oq",
-    "issuer_name": "OQ SAOC",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "oq",
-    "issuer_name": "OQ SAOC",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "oq",
-    "issuer_name": "OQ SAOC",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "orlen",
-    "issuer_name": "PKN Orlen",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "orlen",
-    "issuer_name": "PKN Orlen",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "orlen",
-    "issuer_name": "PKN Orlen",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "pegasus",
-    "issuer_name": "Pegasus Airlines",
-    "sector": "Aviation",
-    "topic": "Hard Currency Revenue & Geographic Hedge",
-    "source": "Cognitive Credit / Citi",
-    "note": ">80% of ticket revenues generated outside the domestic market in USD and EUR, providing complete insulation from local currency depreciation."
-  },
-  {
-    "issuer_id": "pegasus",
-    "issuer_name": "Pegasus Airlines",
-    "sector": "Aviation",
-    "topic": "Fleet Asset Coverage (EETC / Senior)",
-    "source": "Ascend by Cirium Appraisals",
-    "note": "Modern, fuel-efficient aircraft fleet with high unencumbered asset value provides substantial senior bond recovery coverage (>130%)."
-  },
-  {
-    "issuer_id": "pegasus",
-    "issuer_name": "Pegasus Airlines",
-    "sector": "Aviation",
-    "topic": "Operating Margin & Hub Economics",
-    "source": "IATA Benchmarking",
-    "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
-  },
-  {
-    "issuer_id": "pge",
-    "issuer_name": "PGE Polska Grupa Energetyczna",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "pge",
-    "issuer_name": "PGE Polska Grupa Energetyczna",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "pge",
-    "issuer_name": "PGE Polska Grupa Energetyczna",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "qazaqgaz",
-    "issuer_name": "QazaqGaz (KazTransGas)",
-    "sector": "Infrastructure",
-    "topic": "Concession Duration & Tariff Autonomy",
-    "source": "Cognitive Credit / S&P Global",
-    "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
-  },
-  {
-    "issuer_id": "qazaqgaz",
-    "issuer_name": "QazaqGaz (KazTransGas)",
-    "sector": "Infrastructure",
-    "topic": "Volume Stability & Throughput",
-    "source": "Terminal Authority Disclosures",
-    "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
-  },
-  {
-    "issuer_id": "qazaqgaz",
-    "issuer_name": "QazaqGaz (KazTransGas)",
-    "sector": "Infrastructure",
-    "topic": "Holding Company Structural Priority",
-    "source": "Offering Circular Waterfall",
-    "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
-  },
-  {
-    "issuer_id": "qnb",
-    "issuer_name": "Qatar National Bank (QNB)",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "qnb",
-    "issuer_name": "Qatar National Bank (QNB)",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "qnb",
-    "issuer_name": "Qatar National Bank (QNB)",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "rajhi",
-    "issuer_name": "Al Rajhi Bank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "rajhi",
-    "issuer_name": "Al Rajhi Bank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "rajhi",
-    "issuer_name": "Al Rajhi Bank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "riyad",
-    "issuer_name": "Riyad Bank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "riyad",
-    "issuer_name": "Riyad Bank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "riyad",
-    "issuer_name": "Riyad Bank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "romgaz",
-    "issuer_name": "S.N.G.N. Romgaz",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "romgaz",
-    "issuer_name": "S.N.G.N. Romgaz",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "romgaz",
-    "issuer_name": "S.N.G.N. Romgaz",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "sabic",
-    "issuer_name": "SABIC",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "sabic",
-    "issuer_name": "SABIC",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "sabic",
-    "issuer_name": "SABIC",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "sampa",
-    "issuer_name": "Sampa Otomotiv",
-    "sector": "Consumer",
-    "topic": "Retail Footprint & Concession Moat",
-    "source": "Cognitive Credit / Broker Consensus",
-    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
-  },
-  {
-    "issuer_id": "sampa",
-    "issuer_name": "Sampa Otomotiv",
-    "sector": "Consumer",
-    "topic": "Working Capital & Free Cash Flow",
-    "source": "Financial Statements",
-    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
-  },
-  {
-    "issuer_id": "sampa",
-    "issuer_name": "Sampa Otomotiv",
-    "sector": "Consumer",
-    "topic": "Geographic Diversification",
-    "source": "Investor Presentations",
-    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
-  },
-  {
-    "issuer_id": "sasol",
-    "issuer_name": "Sasol Ltd",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "sasol",
-    "issuer_name": "Sasol Ltd",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "sasol",
-    "issuer_name": "Sasol Ltd",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "sec",
-    "issuer_name": "Saudi Electricity Company (SEC)",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "sec",
-    "issuer_name": "Saudi Electricity Company (SEC)",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "sec",
-    "issuer_name": "Saudi Electricity Company (SEC)",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "sisecam",
-    "issuer_name": "Şişecam",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "sisecam",
-    "issuer_name": "Şişecam",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "sisecam",
-    "issuer_name": "Şişecam",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "snb",
-    "issuer_name": "Saudi National Bank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "snb",
-    "issuer_name": "Saudi National Bank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "snb",
-    "issuer_name": "Saudi National Bank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "sobha",
-    "issuer_name": "Sobha Realty",
-    "sector": "Real Estate",
-    "topic": "RERA Escrow Mechanics",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
-  },
-  {
-    "issuer_id": "sobha",
-    "issuer_name": "Sobha Realty",
-    "sector": "Real Estate",
-    "topic": "Revenue Backlog & Recognition",
-    "source": "Broker Consensus / Earnings Call",
-    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
-  },
-  {
-    "issuer_id": "sobha",
-    "issuer_name": "Sobha Realty",
-    "sector": "Real Estate",
-    "topic": "Asset Coverage & Land Bank",
-    "source": "CBRE / JLL Independent Valuation",
-    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
-  },
-  {
-    "issuer_id": "sonangol",
-    "issuer_name": "Sonangol EP",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "sonangol",
-    "issuer_name": "Sonangol EP",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "sonangol",
-    "issuer_name": "Sonangol EP",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "standard_bank",
-    "issuer_name": "Standard Bank Group",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "standard_bank",
-    "issuer_name": "Standard Bank Group",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "standard_bank",
-    "issuer_name": "Standard Bank Group",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "stc",
-    "issuer_name": "Saudi Telecom Company (STC)",
-    "sector": "Technology",
-    "topic": "Master Lease Agreements & Indexation",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
-  },
-  {
-    "issuer_id": "stc",
-    "issuer_name": "Saudi Telecom Company (STC)",
-    "sector": "Technology",
-    "topic": "Tenancy Ratio & Organic Leverage",
-    "source": "Company Disclosures",
-    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
-  },
-  {
-    "issuer_id": "stc",
-    "issuer_name": "Saudi Telecom Company (STC)",
-    "sector": "Technology",
-    "topic": "Contracted Revenue Backlog",
-    "source": "Investor Presentations",
-    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
-  },
-  {
-    "issuer_id": "taqa",
-    "issuer_name": "Abu Dhabi National Energy (TAQA)",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "taqa",
-    "issuer_name": "Abu Dhabi National Energy (TAQA)",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "taqa",
-    "issuer_name": "Abu Dhabi National Energy (TAQA)",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
-  },
-  {
-    "issuer_id": "tharisa",
-    "issuer_name": "Tharisa plc",
-    "sector": "Materials",
-    "topic": "Global Cost Curve Advantage",
-    "source": "Cognitive Credit / CRU Group",
-    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
-  },
-  {
-    "issuer_id": "tharisa",
-    "issuer_name": "Tharisa plc",
-    "sector": "Materials",
-    "topic": "Hard-Currency Export Share",
-    "source": "Audited Financial Statements",
-    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
-  },
-  {
-    "issuer_id": "tharisa",
-    "issuer_name": "Tharisa plc",
-    "sector": "Materials",
-    "topic": "Strategic Sovereign Resource Moat",
-    "source": "Credit Rating Agency Memo",
-    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
-  },
-  {
-    "issuer_id": "thy",
-    "issuer_name": "Turkish Airlines (THY)",
-    "sector": "Aviation",
-    "topic": "Hard Currency Revenue & Geographic Hedge",
-    "source": "Cognitive Credit / Citi",
-    "note": ">80% of ticket revenues generated outside the domestic market in USD and EUR, providing complete insulation from local currency depreciation."
-  },
-  {
-    "issuer_id": "thy",
-    "issuer_name": "Turkish Airlines (THY)",
-    "sector": "Aviation",
-    "topic": "Fleet Asset Coverage (EETC / Senior)",
-    "source": "Ascend by Cirium Appraisals",
-    "note": "Modern, fuel-efficient aircraft fleet with high unencumbered asset value provides substantial senior bond recovery coverage (>130%)."
-  },
-  {
-    "issuer_id": "thy",
-    "issuer_name": "Turkish Airlines (THY)",
-    "sector": "Aviation",
-    "topic": "Operating Margin & Hub Economics",
-    "source": "IATA Benchmarking",
-    "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
-  },
-  {
-    "issuer_id": "ttkom",
-    "issuer_name": "Türk Telekom",
-    "sector": "Technology",
-    "topic": "Master Lease Agreements & Indexation",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
-  },
-  {
-    "issuer_id": "ttkom",
-    "issuer_name": "Türk Telekom",
-    "sector": "Technology",
-    "topic": "Tenancy Ratio & Organic Leverage",
-    "source": "Company Disclosures",
-    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
-  },
-  {
-    "issuer_id": "ttkom",
-    "issuer_name": "Türk Telekom",
-    "sector": "Technology",
-    "topic": "Contracted Revenue Backlog",
-    "source": "Investor Presentations",
-    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
-  },
-  {
-    "issuer_id": "tullow",
-    "issuer_name": "Tullow Oil",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "tullow",
-    "issuer_name": "Tullow Oil",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "tullow",
-    "issuer_name": "Tullow Oil",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "tupras",
-    "issuer_name": "Tüpraş (Turkish Petroleum)",
-    "sector": "Energy",
-    "topic": "Offshore Debt Escrow Routing",
-    "source": "Cognitive Credit / Morgan Stanley",
-    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
-  },
-  {
-    "issuer_id": "tupras",
-    "issuer_name": "Tüpraş (Turkish Petroleum)",
-    "sector": "Energy",
-    "topic": "Lifting Costs & Break-even Floor",
-    "source": "Wood Mackenzie Benchmarking",
-    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
-  },
-  {
-    "issuer_id": "tupras",
-    "issuer_name": "Tüpraş (Turkish Petroleum)",
-    "sector": "Energy",
-    "topic": "Commercial Reserve Life (1P/2P)",
-    "source": "DeGolyer and MacNaughton / Ryder Scott",
-    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
-  },
-  {
-    "issuer_id": "turk_exim",
-    "issuer_name": "Türk Eximbank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "turk_exim",
-    "issuer_name": "Türk Eximbank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "turk_exim",
-    "issuer_name": "Türk Eximbank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "turkcell",
-    "issuer_name": "Turkcell İletişim",
-    "sector": "Technology",
-    "topic": "Master Lease Agreements & Indexation",
-    "source": "Cognitive Credit / Arqaam",
-    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
-  },
-  {
-    "issuer_id": "turkcell",
-    "issuer_name": "Turkcell İletişim",
-    "sector": "Technology",
-    "topic": "Tenancy Ratio & Organic Leverage",
-    "source": "Company Disclosures",
-    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
-  },
-  {
-    "issuer_id": "turkcell",
-    "issuer_name": "Turkcell İletişim",
-    "sector": "Technology",
-    "topic": "Contracted Revenue Backlog",
-    "source": "Investor Presentations",
-    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
-  },
-  {
-    "issuer_id": "ukr_rail",
-    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
-    "sector": "Transportation & Logistics (Railways)",
-    "topic": "Eurobond Debt Standstill & Restructuring Context",
-    "source": "J.P. Morgan / Morgan Stanley Distressed Credit",
-    "note": "The $595M 8.25% notes due July 2026 and $300M 7.875% notes due July 2028 were extended by 24 months in August 2022. Following Ukraine's $20.5B sovereign Eurobond restructuring in August 2024 (37% nominal haircut), market consensus expects UZ to execute standalone commercial maturity extensions (3-5 years) with partial PIK coupon features rather than deep principal haircuts due to its essential defense and grain export mandate."
-  },
-  {
-    "issuer_id": "ukr_rail",
-    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
-    "sector": "Transportation & Logistics (Railways)",
-    "topic": "Multilateral Grants & Standard-Gauge Integration",
-    "source": "EBRD / EIB / World Bank RELINC Filings",
-    "note": "Over $1.4B in non-repayable grants and subsidized loans committed by the EU Solidarity Lanes, EIB, and EBRD. Capital expenditures are heavily focused on converting strategic cross-border lines from 1520mm Russian broad-gauge to 1435mm European standard-gauge (Chop-Uzhhorod and Lviv-Warsaw corridors), permanently integrating Ukrainian rail into the EU single market."
-  },
-  {
-    "issuer_id": "ukr_rail",
-    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
-    "sector": "Transportation & Logistics (Railways)",
-    "topic": "Freight Traffic Recovery & Tariff Indexation",
-    "source": "Cabinet of Ministers / UZ Investor Disclosures",
-    "note": "Freight volumes rebounded to 175M tonnes in 2024A driven by naval de-mining of the Greater Odesa Black Sea corridor and European steel mill demand for Metinvest iron ore. State-approved freight tariff indexation (+70% in July 2022 plus ongoing inflation adjustments) and passenger social subsidies maintain positive EBITDA (~$380M)."
-  },
-  {
-    "issuer_id": "ukr_rail",
-    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
-    "sector": "Transportation & Logistics (Railways)",
-    "topic": "Forensic Recovery: Liquidation Scrap Floor vs Restructured Value",
-    "source": "Distressed PM Recovery Waterfall",
-    "note": "Physical asset base includes >80,000 wagons, 1,150 active locomotives, and 16,800+ km of operated track. Scrap steel and unencumbered rolling stock liquidation floor is $38.00. Base-case going-concern restructuring value is $68.00 - $74.00, offering attractive asymmetric risk/reward for high-beta credit portfolios."
-  },
-  {
-    "issuer_id": "vakifbank",
-    "issuer_name": "VakıfBank",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "vakifbank",
-    "issuer_name": "VakıfBank",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "vakifbank",
-    "issuer_name": "VakıfBank",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "yapi_kredi",
-    "issuer_name": "Yapı ve Kredi Bankası",
-    "sector": "Banks",
-    "topic": "NIM & Asset-Liability Repricing",
-    "source": "Cognitive Credit / J.P. Morgan",
-    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
-  },
-  {
-    "issuer_id": "yapi_kredi",
-    "issuer_name": "Yapı ve Kredi Bankası",
-    "sector": "Banks",
-    "topic": "Prudential Capital & AT1 Instruments",
-    "source": "Central Bank / Fitch Ratings",
-    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
-  },
-  {
-    "issuer_id": "yapi_kredi",
-    "issuer_name": "Yapı ve Kredi Bankası",
-    "sector": "Banks",
-    "topic": "Asset Quality & Stage 2 Risk",
-    "source": "BRSA / Audit Reports",
-    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
-  },
-  {
-    "issuer_id": "zorlu",
-    "issuer_name": "Zorlu Enerji",
-    "sector": "Utilities",
-    "topic": "Regulated Asset Base & Off-take PPA",
-    "source": "Cognitive Credit / Citi",
-    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
-  },
-  {
-    "issuer_id": "zorlu",
-    "issuer_name": "Zorlu Enerji",
-    "sector": "Utilities",
-    "topic": "Capex Phasing & FCF Conversion",
-    "source": "Company Filings",
-    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
-  },
-  {
-    "issuer_id": "zorlu",
-    "issuer_name": "Zorlu Enerji",
-    "sector": "Utilities",
-    "topic": "Sovereign Balancing & Guarantees",
-    "source": "Ministry of Finance Disclosures",
-    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
   }
 ];

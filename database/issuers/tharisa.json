@@ -716,5 +716,23 @@
       "fcf": 92.4,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Platinum Group Metals (PGM) & Chrome Ore",
+    "volume_metric_name": "Reef Mined & Concentrates Output",
+    "volume_unit": "Mt/yr",
+    "volume_guidance": 4.99,
+    "volume_guidance_range": "4.8 - 5.2 Mt/yr",
+    "volume_guidance_source": "Company Annual Operational Guidance",
+    "price_metric_name": "PGM Basket & Metallurgical Chrome Price",
+    "price_unit": "$/t",
+    "price_default": 290.0,
+    "price_source": "Current State of the World / Metal Bulletin Chrome 42%",
+    "cost_metric_name": "On-Mine Cash Cost",
+    "cost_unit": "$/t",
+    "cost_default": 140.0,
+    "hedged_pct": 0,
+    "hedge_floor_price": 0.0
+  }
 }

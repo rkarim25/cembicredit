@@ -716,5 +716,23 @@
       "fcf": 425.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Hot Rolled Coil (HRC) Finished Steel",
+    "volume_metric_name": "Crude & Flat Steel Finished Output",
+    "volume_unit": "Mt/yr",
+    "volume_guidance": 22.04,
+    "volume_guidance_range": "21 - 23 Mt/yr",
+    "volume_guidance_source": "Company Executive Mill Guidance",
+    "price_metric_name": "HRC Steel Export Benchmark",
+    "price_unit": "$/t",
+    "price_default": 620.0,
+    "price_source": "Current State of the World / Black Sea HRC Benchmark",
+    "cost_metric_name": "Scrap & Iron Cash Processing Cost",
+    "cost_unit": "$/t",
+    "cost_default": 450.0,
+    "hedged_pct": 0,
+    "hedge_floor_price": 0.0
+  }
 }

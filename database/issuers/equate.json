@@ -716,5 +716,23 @@
       "fcf": 490.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Monoethylene Glycol (MEG) & Polyethylene (PE)",
+    "volume_metric_name": "Petrochemical Nameplate Capacity",
+    "volume_unit": "Mt/yr",
+    "volume_guidance": 12.52,
+    "volume_guidance_range": "12 - 13 Mt/yr",
+    "volume_guidance_source": "EQUATE Operating Guidance Disclosures",
+    "price_metric_name": "Ethylene Derivatives Composite Benchmark",
+    "price_unit": "$/t",
+    "price_default": 550.0,
+    "price_source": "Current State of the World / ICIS Petrochemical Index",
+    "cost_metric_name": "Ethane Feedstock & Cash Conversion Cost",
+    "cost_unit": "$/t",
+    "cost_default": 290.0,
+    "hedged_pct": 0,
+    "hedge_floor_price": 0.0
+  }
 }

@@ -718,5 +718,23 @@
       "fcf": 900.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Refined Petroleum Products (Gasoline, Diesel, Jet)",
+    "volume_metric_name": "Refinery Crude Processing Throughput",
+    "volume_unit": "kboe/d",
+    "volume_guidance": 777.0,
+    "volume_guidance_range": "750 - 800 kboe/d",
+    "volume_guidance_source": "T\u00fcpra\u015f Annual Refinery Guidance",
+    "price_metric_name": "Net Refining Margin Benchmark",
+    "price_unit": "$/bbl net margin",
+    "price_default": 11.5,
+    "price_source": "Current State of the World / Mediterranean Clean Product Crack Spread",
+    "cost_metric_name": "Refinery Operating & Energy Cost",
+    "cost_unit": "$/bbl",
+    "cost_default": 4.8,
+    "hedged_pct": 50,
+    "hedge_floor_price": 9.5
+  }
 }

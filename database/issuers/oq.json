@@ -718,5 +718,23 @@
       "fcf": 2300.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Oman Crude Oil & Duqm Refining Stream",
+    "volume_metric_name": "Total Hydrocarbon Production Intake",
+    "volume_unit": "kboe/d",
+    "volume_guidance": 1344.0,
+    "volume_guidance_range": "1,300 - 1,400 kboe/d",
+    "volume_guidance_source": "OQ SAOC Management Operating Plan",
+    "price_metric_name": "DME Oman Crude Benchmark",
+    "price_unit": "$/bbl",
+    "price_default": 77.0,
+    "price_source": "Current State of the World / Dubai/Oman Benchmark",
+    "cost_metric_name": "Operating Lifting Cost",
+    "cost_unit": "$/boe",
+    "cost_default": 12.5,
+    "hedged_pct": 45,
+    "hedge_floor_price": 75.0
+  }
 }

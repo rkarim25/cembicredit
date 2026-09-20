@@ -718,5 +718,23 @@
       "fcf": 2400.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Kazakh Crude Oil (CPC Blend & KEBCO)",
+    "volume_metric_name": "Net Consolidated Oil & Gas Production",
+    "volume_unit": "kboe/d",
+    "volume_guidance": 764.4,
+    "volume_guidance_range": "740 - 780 kboe/d",
+    "volume_guidance_source": "KMG Executive Operational Guidance",
+    "price_metric_name": "CPC Blend FOB Novorossiysk Benchmark",
+    "price_unit": "$/bbl",
+    "price_default": 74.0,
+    "price_source": "Current State of the World / CPC Blend Discounted vs Brent",
+    "cost_metric_name": "Extraction Cash Cost",
+    "cost_unit": "$/boe",
+    "cost_default": 12.5,
+    "hedged_pct": 20,
+    "hedge_floor_price": 70.0
+  }
 }

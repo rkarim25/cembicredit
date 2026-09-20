@@ -718,5 +718,23 @@
       "fcf": 490.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Romanian Natural Gas & Neptun Deep",
+    "volume_metric_name": "Net Natural Gas Production",
+    "volume_unit": "kboe/d eq",
+    "volume_guidance": 88.2,
+    "volume_guidance_range": "85 - 92 kboe/d eq",
+    "volume_guidance_source": "Romgaz Executive Production Guidance",
+    "price_metric_name": "CEGH Central European Gas Benchmark",
+    "price_unit": "$/boe eq",
+    "price_default": 42.0,
+    "price_source": "Current State of the World / European Gas Benchmark",
+    "cost_metric_name": "Onshore Gas Extraction Cost",
+    "cost_unit": "$/boe eq",
+    "cost_default": 8.5,
+    "hedged_pct": 70,
+    "hedge_floor_price": 38.0
+  }
 }

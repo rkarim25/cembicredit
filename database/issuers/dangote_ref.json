@@ -729,5 +729,23 @@
       "fcf": 50.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Refined Petroleum & Euro-V Fuels",
+    "volume_metric_name": "Refinery Crude Processing Intake",
+    "volume_unit": "kboe/d",
+    "volume_guidance": 420.0,
+    "volume_guidance_range": "400 - 450 kboe/d",
+    "volume_guidance_source": "Lekki Free Zone Commissioning Guidance",
+    "price_metric_name": "Refining Margin & Product Benchmark",
+    "price_unit": "$/bbl net margin",
+    "price_default": 12.0,
+    "price_source": "Current State of the World / Atlantic Basin Refining Benchmark",
+    "cost_metric_name": "Refinery Cash Conversion Cost",
+    "cost_unit": "$/bbl",
+    "cost_default": 4.5,
+    "hedged_pct": 30,
+    "hedge_floor_price": 10.0
+  }
 }

@@ -716,5 +716,23 @@
       "fcf": 325.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Granular Urea Nitrogen Fertilizer",
+    "volume_metric_name": "Urea Plant Production Output",
+    "volume_unit": "Mt/yr",
+    "volume_guidance": 6.92,
+    "volume_guidance_range": "6.5 - 7.2 Mt/yr",
+    "volume_guidance_source": "Company Nameplate Capacity Guidance",
+    "price_metric_name": "Granular Urea FOB Nigeria Benchmark",
+    "price_unit": "$/t",
+    "price_default": 340.0,
+    "price_source": "Current State of the World / Global Urea Benchmark",
+    "cost_metric_name": "Feedstock Natural Gas & Conversion Cost",
+    "cost_unit": "$/t",
+    "cost_default": 110.0,
+    "hedged_pct": 0,
+    "hedge_floor_price": 0.0
+  }
 }

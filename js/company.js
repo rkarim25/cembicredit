@@ -34,6 +34,9 @@ function initCompanyPage() {
   renderHeroHeader();
   renderMetricsStrip();
 
+  // Render Commodity Assumptions Sandbox
+  renderCommoditySandbox();
+
   // Render Tabs
   renderModelSpreadsheet();
   renderUserNotes();
@@ -213,6 +216,288 @@ function switchCompanyTab(tabId) {
   history.replaceState(null, null, '#' + hashKey);
 }
 
+
+// ================= COMMODITY ASSUMPTIONS & SENSITIVITY ENGINE =================
+function getCommodityState() {
+  if (!currentIssuer || !currentIssuer.commodity_drivers) return null;
+  const cd = currentIssuer.commodity_drivers;
+  const storageKey = 'cembicredit_commodity_' + currentIssuer.metadata.id;
+  try {
+    const raw = localStorage.getItem(storageKey);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      return {
+        volume: Number(parsed.volume),
+        price: Number(parsed.price),
+        isCustom: true,
+        defaults: cd
+      };
+    }
+  } catch (e) {}
+
+  return {
+    volume: cd.volume_guidance,
+    price: cd.price_default,
+    isCustom: false,
+    defaults: cd
+  };
+}
+
+function saveCommodityState(volume, price, isCustom) {
+  if (!currentIssuer || !currentIssuer.commodity_drivers) return;
+  const storageKey = 'cembicredit_commodity_' + currentIssuer.metadata.id;
+  if (!isCustom) {
+    localStorage.removeItem(storageKey);
+  } else {
+    localStorage.setItem(storageKey, JSON.stringify({ volume, price, isCustom: true }));
+  }
+}
+
+function renderCommoditySandbox() {
+  const container = document.getElementById('commodity-sandbox-container');
+  if (!container) return;
+
+  const state = getCommodityState();
+  if (!state) {
+    container.innerHTML = '';
+    return;
+  }
+
+  const cd = state.defaults;
+  const isCustom = state.isCustom;
+
+  // Calculate live forecast delta for 2025E
+  const baseF25 = (currentIssuer.financials_multi_year || []).find(x => x.period === '2025E') || {};
+  const adjRev = computeAdjustedCommodityMetric(baseF25, 'revenue', '2025E', state);
+  const adjEb = computeAdjustedCommodityMetric(baseF25, 'calculated_ebitda', '2025E', state);
+  const adjFcf = computeAdjustedCommodityMetric(baseF25, 'fcf', '2025E', state);
+  const adjLev = computeAdjustedCommodityMetric(baseF25, 'net_leverage', '2025E', state);
+
+  const baseRev = baseF25.revenue || 1;
+  const deltaRevM = (adjRev !== null ? adjRev : baseRev) - baseRev;
+  const deltaRevPct = ((deltaRevM / baseRev) * 100);
+
+  const baseEb = baseF25.calculated_ebitda || baseF25.ebitda || 1;
+  const deltaEbM = (adjEb !== null ? adjEb : baseEb) - baseEb;
+  const deltaEbPct = ((deltaEbM / baseEb) * 100);
+
+  const baseFcf = baseF25.fcf || 0;
+  const deltaFcfM = (adjFcf !== null ? adjFcf : baseFcf) - baseFcf;
+
+  container.innerHTML = `
+    <div class="commodity-sandbox-card">
+      <div class="cs-header">
+        <div class="cs-title-group">
+          <div class="cs-title">
+            <span>🛢️</span>
+            <span>${cd.commodity_name} Assumptions &amp; Forecast Driver</span>
+            <span class="cs-badge ${isCustom ? 'custom' : 'guidance'}">
+              ${isCustom ? '⚡ Custom Sensitivity Active' : '✓ Management Guidance'}
+            </span>
+          </div>
+          <div class="cs-sub">
+            <strong>Volume:</strong> anchored by Company Executive Guidance. 
+            <strong>Price:</strong> rational macro state of the world benchmark. 
+            <span style="color:#fbbf24;">Adjusting inputs below recalculates 2025E–2027E financials in real-time.</span>
+          </div>
+        </div>
+        <div class="cs-actions">
+          <button class="cs-preset-btn" onclick="applyCommodityPreset('guidance')">↺ Guidance Base</button>
+          <button class="cs-preset-btn" onclick="applyCommodityPreset('bull')">📈 Bull (+10% Vol, +15% Px)</button>
+          <button class="cs-preset-btn" onclick="applyCommodityPreset('bear')">📉 Stress (-15% Vol, -20% Px)</button>
+          <button class="cs-preset-btn reset" onclick="resetCommodityAssumptions()">Reset Defaults</button>
+        </div>
+      </div>
+
+      <div class="cs-inputs-grid">
+        <!-- Volume Input -->
+        <div class="cs-input-box">
+          <div class="cs-input-label-row">
+            <span class="cs-input-label">Volume (${cd.volume_unit})</span>
+            <span class="cs-source-pill guidance" title="${cd.volume_guidance_source}">📋 Company Guidance</span>
+          </div>
+          <div class="cs-input-control">
+            <button class="cs-step-btn" onclick="stepCommodityVolume(-1)">−</button>
+            <input type="number" id="cs-vol-input" class="cs-number-input" step="${cd.volume_unit.includes('koz') ? '25' : (cd.volume_guidance > 500 ? '10' : '1')}" value="${state.volume}" onchange="onCommodityVolumeChange(this.value)">
+            <button class="cs-step-btn" onclick="stepCommodityVolume(1)">+</button>
+            <span class="cs-unit">${cd.volume_unit}</span>
+          </div>
+          <div class="cs-input-note">
+            Guidance Range: <strong>${cd.volume_guidance_range}</strong>
+          </div>
+        </div>
+
+        <!-- Price Input -->
+        <div class="cs-input-box">
+          <div class="cs-input-label-row">
+            <span class="cs-input-label">Realized Price (${cd.price_unit})</span>
+            <span class="cs-source-pill macro" title="${cd.price_source}">🌐 Rational State of World</span>
+          </div>
+          <div class="cs-input-control">
+            <button class="cs-step-btn" onclick="stepCommodityPrice(-1)">−</button>
+            <input type="number" id="cs-price-input" class="cs-number-input" step="${cd.price_default > 1000 ? '25' : (cd.price_default < 20 ? '0.5' : '1')}" value="${state.price}" onchange="onCommodityPriceChange(this.value)">
+            <button class="cs-step-btn" onclick="stepCommodityPrice(1)">+</button>
+            <span class="cs-unit">${cd.price_unit}</span>
+          </div>
+          <div class="cs-input-note">
+            Benchmark: <strong>${cd.price_source}</strong>
+          </div>
+        </div>
+
+        <!-- Dynamic Impact Readout -->
+        <div class="cs-impact-box">
+          <div class="cs-impact-title">Dynamic 2025E Forecast Cascading Impact:</div>
+          <div class="cs-impact-metrics">
+            <div class="cs-impact-item">
+              <span class="lbl">Rev Δ:</span>
+              <span class="val ${deltaRevM >= 0 ? 'pos' : 'neg'}">${deltaRevM >= 0 ? '+' : ''}$${deltaRevM.toFixed(1)}M (${deltaRevPct >= 0 ? '+' : ''}${deltaRevPct.toFixed(1)}%)</span>
+            </div>
+            <div class="cs-impact-item">
+              <span class="lbl">Cash EBITDA Δ:</span>
+              <span class="val ${deltaEbM >= 0 ? 'pos' : 'neg'}">${deltaEbM >= 0 ? '+' : ''}$${deltaEbM.toFixed(1)}M (${deltaEbPct >= 0 ? '+' : ''}${deltaEbPct.toFixed(1)}%)</span>
+            </div>
+            <div class="cs-impact-item">
+              <span class="lbl">FCF Δ:</span>
+              <span class="val ${deltaFcfM >= 0 ? 'pos' : 'neg'}">${deltaFcfM >= 0 ? '+' : ''}$${deltaFcfM.toFixed(1)}M</span>
+            </div>
+            <div class="cs-impact-item">
+              <span class="lbl">2025E Net Lev:</span>
+              <span class="val" style="color:#fbbf24;">${adjLev ? adjLev.toFixed(2) + 'x' : '--'}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function onCommodityVolumeChange(val) {
+  const num = parseFloat(val);
+  if (isNaN(num) || num <= 0) return;
+  const state = getCommodityState();
+  if (!state) return;
+  const isCustom = (Math.abs(num - state.defaults.volume_guidance) > 0.01) || (Math.abs(state.price - state.defaults.price_default) > 0.01);
+  saveCommodityState(num, state.price, isCustom);
+  renderCommoditySandbox();
+  renderModelSpreadsheet();
+}
+
+function onCommodityPriceChange(val) {
+  const num = parseFloat(val);
+  if (isNaN(num) || num <= 0) return;
+  const state = getCommodityState();
+  if (!state) return;
+  const isCustom = (Math.abs(state.volume - state.defaults.volume_guidance) > 0.01) || (Math.abs(num - state.defaults.price_default) > 0.01);
+  saveCommodityState(state.volume, num, isCustom);
+  renderCommoditySandbox();
+  renderModelSpreadsheet();
+}
+
+function stepCommodityVolume(direction) {
+  const state = getCommodityState();
+  if (!state) return;
+  const step = state.defaults.volume_unit.includes('koz') ? 50 : (state.defaults.volume_guidance > 500 ? 25 : (state.defaults.volume_guidance > 100 ? 5 : 1));
+  const newVol = Math.max(1, state.volume + (direction * step));
+  onCommodityVolumeChange(newVol);
+}
+
+function stepCommodityPrice(direction) {
+  const state = getCommodityState();
+  if (!state) return;
+  const step = state.defaults.price_default > 1000 ? 50 : (state.defaults.price_default < 20 ? 0.5 : (state.defaults.price_default > 300 ? 10 : 2));
+  const newPx = Math.max(1, state.price + (direction * step));
+  onCommodityPriceChange(newPx);
+}
+
+function applyCommodityPreset(presetKey) {
+  const state = getCommodityState();
+  if (!state) return;
+  const cd = state.defaults;
+
+  if (presetKey === 'guidance') {
+    saveCommodityState(cd.volume_guidance, cd.price_default, false);
+  } else if (presetKey === 'bull') {
+    const vol = parseFloat((cd.volume_guidance * 1.10).toFixed(1));
+    const px = parseFloat((cd.price_default * 1.15).toFixed(1));
+    saveCommodityState(vol, px, true);
+  } else if (presetKey === 'bear') {
+    const vol = parseFloat((cd.volume_guidance * 0.85).toFixed(1));
+    const px = parseFloat((cd.price_default * 0.80).toFixed(1));
+    saveCommodityState(vol, px, true);
+  }
+  renderCommoditySandbox();
+  renderModelSpreadsheet();
+}
+
+function resetCommodityAssumptions() {
+  saveCommodityState(0, 0, false);
+  renderCommoditySandbox();
+  renderModelSpreadsheet();
+}
+
+function computeAdjustedCommodityMetric(f, key, period, state) {
+  if (!state || !period.endsWith('E')) {
+    return null;
+  }
+  const cd = state.defaults;
+  const volRatio = state.volume / cd.volume_guidance;
+  
+  // Hedging price adjustment
+  let priceRatio = state.price / cd.price_default;
+  if (cd.hedged_pct && cd.hedged_pct > 0 && cd.hedge_floor_price) {
+    const hedgeWeight = cd.hedged_pct / 100.0;
+    const baseEff = (hedgeWeight * cd.hedge_floor_price) + ((1 - hedgeWeight) * cd.price_default);
+    const userEff = (hedgeWeight * cd.hedge_floor_price) + ((1 - hedgeWeight) * state.price);
+    priceRatio = userEff / baseEff;
+  }
+
+  const revScale = volRatio * priceRatio;
+  const baseRev = f.revenue || 0;
+  const adjRev = baseRev * revScale;
+
+  const baseCogs = Math.abs(f.cogs || (baseRev * 0.52));
+  const adjCogs = -(baseCogs * volRatio);
+
+  const baseSga = Math.abs(f.sga || (baseRev * 0.08));
+  const adjSga = -baseSga;
+
+  const adjEbitda = Math.max(0, adjRev + adjCogs + adjSga);
+  const baseCapex = Math.abs(f.capex || 0);
+  const baseCi = Math.abs(f.cash_interest || 0);
+  const baseDwc = f.change_in_working_capital || 0;
+  const adjTax = -(adjEbitda * 0.09);
+
+  const adjFcf = adjEbitda - baseCapex - baseCi - baseDwc + adjTax;
+
+  const baseGd = f.gross_debt || 0;
+  const baseCash = f.cash || 0;
+  const baseFcf = f.fcf || (adjEbitda - baseCapex - baseCi - baseDwc + adjTax);
+  const fcfDelta = adjFcf - baseFcf;
+  const adjNetDebt = Math.max(0, (f.net_debt || (baseGd - baseCash)) - fcfDelta);
+  const adjNetLev = adjEbitda > 0 ? (adjNetDebt / adjEbitda) : 0;
+  const adjCov = baseCi > 0 ? (adjEbitda / baseCi) : 0;
+
+  if (key === 'revenue') return adjRev;
+  if (key === 'cogs') return adjCogs;
+  if (key === 'gross_profit') return adjRev + adjCogs;
+  if (key === 'sga') return adjSga;
+  if (key === 'operating_profit') return adjRev + adjCogs + adjSga;
+  if (key === 'reported_ebitda') return adjEbitda;
+  if (key === 'calculated_ebitda' || key === 'calculated_ebitda_fcf') return adjEbitda;
+  if (key === 'ebitda_margin_pct') return adjRev > 0 ? ((adjEbitda / adjRev) * 100) : 0;
+  if (key === 'capex') return -baseCapex;
+  if (key === 'cash_interest') return -baseCi;
+  if (key === 'delta_wc') return baseDwc;
+  if (key === 'tax') return adjTax;
+  if (key === 'fcf') return adjFcf;
+  if (key === 'fcf_conversion_pct') return adjEbitda > 0 ? ((adjFcf / adjEbitda) * 100) : 0;
+  if (key === 'net_debt') return adjNetDebt;
+  if (key === 'net_leverage') return adjNetLev;
+  if (key === 'interest_coverage') return adjCov;
+
+  return null;
+}
+
 // ----------------- SPREADSHEET ENGINE -----------------
 function setModelViewSection(sec) {
   currentModelSection = sec;
@@ -339,6 +624,11 @@ function renderModelSpreadsheet() {
 }
 
 function getMetricVal(f, key, period) {
+  const commState = getCommodityState();
+  if (commState && period.endsWith('E')) {
+    const adj = computeAdjustedCommodityMetric(f, key, period, commState);
+    if (adj !== null) return adj;
+  }
   if (key === 'revenue') return f.revenue;
   if (key === 'cogs') return f.cogs || (f.revenue ? -(f.revenue * 0.52) : null);
   if (key === 'gross_profit') return f.gross_profit || (f.revenue ? (f.revenue * 0.48) : null);
@@ -414,6 +704,29 @@ function getForecastAuditMetadata(item, metricKey, period) {
   const f = (item.financials_multi_year || []).find(x => x.period === period) || {};
   const isForecast = period.endsWith('E');
   const cleanMetric = metricKey.replace(/_/g, ' ').toUpperCase();
+  const commState = getCommodityState();
+
+  if (commState && isForecast) {
+    const cd = commState.defaults;
+    const isCustom = commState.isCustom;
+    const vol = commState.volume;
+    const px = commState.price;
+    const adjVal = computeAdjustedCommodityMetric(f, metricKey, period, commState);
+    const adjEb = computeAdjustedCommodityMetric(f, 'calculated_ebitda', period, commState);
+    const adjFcf = computeAdjustedCommodityMetric(f, 'fcf', period, commState);
+
+    return {
+      metricTitle: cleanMetric,
+      period,
+      isForecast: true,
+      badgeType: isCustom ? 'stress' : 'guidance',
+      badgeText: isCustom ? '⚡ User Commodity Sensitivity' : '📋 Company Guidance Driven',
+      formula: `=${coordLetter(period)}12 * Vol(${vol} ${cd.volume_unit}) * Px($${px}/${cd.price_unit})`,
+      source: `Volume: ${cd.volume_guidance_source} | Price: ${cd.price_source}`,
+      commentary: `Dynamically forecasted from commodity assumptions: Volume = ${vol} ${cd.volume_unit} (${isCustom ? 'user adjusted vs ' : ''}guided: ${cd.volume_guidance_range}), Benchmark Price = $${px}/${cd.price_unit} (${isCustom ? 'user adjusted vs ' : ''}consensus: $${cd.price_default}). Cascading Desk Cash EBITDA: $${adjEb ? adjEb.toFixed(1) : '--'}M, Free Cash Flow: $${adjFcf ? adjFcf.toFixed(1) : '--'}M.`,
+      formulaCheck: `Vol: ${vol} (base ${cd.volume_guidance}) × Price: $${px} (base $${cd.price_default}) => ${cleanMetric}: ${adjVal !== null ? formatMetricDisplay(adjVal, { isPct: metricKey.includes('pct'), isRatio: metricKey.includes('leverage') || metricKey.includes('coverage') }) : ''}`
+    };
+  }
 
   if (!isForecast) {
     return {

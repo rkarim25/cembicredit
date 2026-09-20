@@ -718,5 +718,23 @@
       "fcf": 625.0,
       "guidance_status": "On Track"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Bahrain Crude & Refining Stream",
+    "volume_metric_name": "Consolidated Production & Refining Intake",
+    "volume_unit": "kboe/d",
+    "volume_guidance": 357.0,
+    "volume_guidance_range": "340 - 370 kboe/d",
+    "volume_guidance_source": "Bapco Energies BMP Modernization Guidance",
+    "price_metric_name": "Arab Medium / Brent Composite",
+    "price_unit": "$/bbl",
+    "price_default": 78.0,
+    "price_source": "Current State of the World / Benchmark Crude",
+    "cost_metric_name": "Operating & Refining Cost",
+    "cost_unit": "$/boe",
+    "cost_default": 12.5,
+    "hedged_pct": 45,
+    "hedge_floor_price": 75.0
+  }
 }

@@ -720,5 +720,23 @@
       "fcf": 4250,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Polish Refining Throughput & Baltic Upstream",
+    "volume_metric_name": "Consolidated Hydrocarbon Intake",
+    "volume_unit": "kboe/d eq",
+    "volume_guidance": 2856.0,
+    "volume_guidance_range": "2,800 - 2,900 kboe/d eq",
+    "volume_guidance_source": "PKN Orlen Strategic Guidance",
+    "price_metric_name": "Brent & European Crack Spread Benchmark",
+    "price_unit": "$/bbl eq",
+    "price_default": 78.0,
+    "price_source": "Current State of the World / European Energy Benchmark",
+    "cost_metric_name": "Refining & Upstream Operating Cost",
+    "cost_unit": "$/boe eq",
+    "cost_default": 12.5,
+    "hedged_pct": 45,
+    "hedge_floor_price": 75.0
+  }
 }

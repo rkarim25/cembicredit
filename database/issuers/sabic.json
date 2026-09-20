@@ -716,5 +716,23 @@
       "fcf": 2900.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Basic Chemicals, Polymers & Agri-Nutrients",
+    "volume_metric_name": "Consolidated Production Volume",
+    "volume_unit": "Mt/yr",
+    "volume_guidance": 110.8,
+    "volume_guidance_range": "105 - 115 Mt/yr",
+    "volume_guidance_source": "SABIC Annual Operational Targets",
+    "price_metric_name": "Global Polymer & Chemical Basket",
+    "price_unit": "$/t",
+    "price_default": 820.0,
+    "price_source": "Current State of the World / Global Commodity Benchmark",
+    "cost_metric_name": "Feedstock & Direct Production Cost",
+    "cost_unit": "$/t",
+    "cost_default": 480.0,
+    "hedged_pct": 0,
+    "hedge_floor_price": 0.0
+  }
 }

@@ -718,5 +718,23 @@
       "fcf": 1550.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "CEE Upstream Oil & Refining Throughput",
+    "volume_metric_name": "Upstream & Downstream Hydrocarbon Volume",
+    "volume_unit": "kboe/d",
+    "volume_guidance": 1008.0,
+    "volume_guidance_range": "980 - 1,030 kboe/d",
+    "volume_guidance_source": "MOL Group Guidance Guidance",
+    "price_metric_name": "Brent & Refining Crack Spread Composite",
+    "price_unit": "$/bbl",
+    "price_default": 78.0,
+    "price_source": "Current State of the World / European Energy Benchmark",
+    "cost_metric_name": "Operating Cost",
+    "cost_unit": "$/boe",
+    "cost_default": 12.5,
+    "hedged_pct": 45,
+    "hedge_floor_price": 75.0
+  }
 }

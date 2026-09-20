@@ -720,5 +720,23 @@
       "fcf": 1425,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Synthetic Fuels, Chemicals & Natural Gas",
+    "volume_metric_name": "Consolidated Synfuels & Upstream Volume",
+    "volume_unit": "kboe/d eq",
+    "volume_guidance": 596.4,
+    "volume_guidance_range": "580 - 610 kboe/d eq",
+    "volume_guidance_source": "Company Annual Operating Plan Guidance",
+    "price_metric_name": "Chemical & Energy Composite Benchmark",
+    "price_unit": "$/bbl eq",
+    "price_default": 78.0,
+    "price_source": "Current State of the World / Energy Benchmark Basket",
+    "cost_metric_name": "Cash Operating Cost",
+    "cost_unit": "$/boe",
+    "cost_default": 42.0,
+    "hedged_pct": 30,
+    "hedge_floor_price": 72.0
+  }
 }

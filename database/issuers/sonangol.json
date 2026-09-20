@@ -718,5 +718,23 @@
       "fcf": 2400.0,
       "guidance_status": "Ahead of Target"
     }
-  ]
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Angolan Girassol / Dalia Heavy Crude",
+    "volume_metric_name": "Attributable National Crude Production",
+    "volume_unit": "kboe/d",
+    "volume_guidance": 529.2,
+    "volume_guidance_range": "510 - 540 kboe/d",
+    "volume_guidance_source": "Sonangol National Production Allocation",
+    "price_metric_name": "Angola Girassol Crude Benchmark",
+    "price_unit": "$/bbl",
+    "price_default": 76.5,
+    "price_source": "Current State of the World / West Africa Crude vs Brent",
+    "cost_metric_name": "Offshore Lifting Cost",
+    "cost_unit": "$/boe",
+    "cost_default": 12.5,
+    "hedged_pct": 35,
+    "hedge_floor_price": 72.0
+  }
 }
