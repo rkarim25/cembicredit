@@ -225,7 +225,17 @@ function renderTable() {
     
     let html = `
       <td><strong>${m.ticker}</strong></td>
-      <td><a href="javascript:void(0)" onclick="toggleRowExpand('${m.id}')">${m.name}</a></td>
+      <td>
+      <a href="javascript:void(0)" onclick="toggleRowExpand('${m.id}')" style="font-weight:600;">${m.name}</a>
+      ${(() => {
+        const allN = window.CREDIT_NEWS_DATA || [];
+        const tN = allN.filter(n => n.ticker === m.ticker || (n.impacted_issuers && n.impacted_issuers.includes(m.ticker)));
+        if (tN.length > 0) {
+          return `<span class="badge badge-sector" style="font-size:9px; padding:1px 5px; margin-left:5px; cursor:pointer;" onclick="event.stopPropagation(); openNewsModalForIssuer('${m.ticker}')" title="${tN.length} Linked Credit & Macro Catalysts">📰 ${tN.length}</span>`;
+        }
+        return '';
+      })()}
+    </td>
       <td>${m.country}</td>
       <td><span class="badge badge-sector">${m.sector}</span></td>
       <td><span class="badge ${ratingBadge}">${m.rating}</span></td>
@@ -1116,6 +1126,93 @@ function renderTable() {
               `).join('')}
             </div>
           </div>
+
+          <!-- PANE 7: ISSUER CREDIT NEWS & WIDER MACRO TRANSMISSION -->
+          <div class="drawer-pane" data-pane="tab-news">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+              <div>
+                <h4 style="color:var(--accent-gold); font-size:13px; margin:0; text-transform:uppercase;">
+                  📰 Real-Time Credit Catalysts & Macro Transmission Channels
+                </h4>
+                <div style="font-size:11px; color:#94a3b8; margin-top:2px;">
+                  Company-specific filings and wider sovereign/macro transmission channels impacting ${m.name} (${m.ticker})
+                </div>
+              </div>
+              <button class="btn-action btn-gold" onclick="openNewsModal()" style="font-size:11px; padding:4px 10px;">
+                🌐 View Full 14-Catalyst Universe Feed
+              </button>
+            </div>
+
+            ${(() => {
+              const allNews = window.CREDIT_NEWS_DATA || [];
+              const ticker = m.ticker;
+              const relatedNews = allNews.filter(n => n.ticker === ticker || (n.impacted_issuers && n.impacted_issuers.includes(ticker)));
+              
+              if (relatedNews.length === 0) {
+                return `
+                  <div style="padding:20px; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; color:#94a3b8; font-size:12px; text-align:center;">
+                    No extraordinary credit stress alerts or active breaking catalysts for ${m.name} in the current monitoring window. Standard financial filing schedule applies.
+                  </div>
+                `;
+              }
+
+              return `
+                <div style="display:flex; flex-direction:column; gap:12px;">
+                  ${relatedNews.map(n => {
+                    const isMacro = n.category.includes('Macro') || n.ticker.startsWith('MACRO');
+                    const impactBadge = n.credit_impact === 'Positive' ? 'badge-ig' : (n.credit_impact === 'Negative' ? 'badge-stress' : 'badge-hy');
+                    const impactBorder = n.credit_impact === 'Positive' ? '#10b981' : (n.credit_impact === 'Negative' ? '#ef4444' : '#f59e0b');
+
+                    return `
+                      <div style="background:#111a2b; border:1px solid ${isMacro ? '#3b82f6' : '#1e2d45'}; border-radius:6px; padding:14px; position:relative;">
+                        ${isMacro ? `
+                          <div style="background:#1e3a8a; color:#93c5fd; font-size:10px; font-weight:700; padding:2px 8px; border-radius:3px; display:inline-block; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.5px;">
+                            🌐 WIDER MACRO TRANSMISSION: ${n.macro_transmission_channel || 'Sovereign / Macro Channel'}
+                          </div>
+                        ` : ''}
+
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                          <div style="display:flex; align-items:center; gap:8px;">
+                            <span style="font-size:11.5px; color:#f8fafc; font-weight:700;">${n.date}</span>
+                            <span class="badge ${isMacro ? 'badge-sector' : 'badge-hy'}">${n.ticker}</span>
+                            <span class="badge ${impactBadge}">${n.credit_impact} Impact</span>
+                            <span style="font-size:11px; color:#94a3b8;">${n.category}</span>
+                          </div>
+                          <span style="font-size:11px; color:#64748b;">Source: ${n.source}</span>
+                        </div>
+
+                        <div style="margin:4px 0 10px 0;">
+                          <a href="${n.url}" target="_blank" style="color:#38bdf8; font-size:14px; font-weight:700; text-decoration:none; line-height:1.4;">
+                            ${n.headline} <span style="font-size:11px; opacity:0.8;">↗</span>
+                          </a>
+                        </div>
+
+                        <!-- Credit Desk Concise Analysis & Transmission -->
+                        <div style="background:#0b1120; border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:#cbd5e1; margin-bottom:10px;">
+                          <div style="font-weight:700; color:#fff; margin-bottom:3px;">
+                            💡 Credit Desk Transmission Analysis (${m.ticker} Implications):
+                          </div>
+                          <div>${n.concise_analysis || n.credit_commentary}</div>
+                        </div>
+
+                        <!-- Clickable Peer Links -->
+                        ${n.impacted_issuers && n.impacted_issuers.length > 1 ? `
+                          <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:10.5px; color:#64748b;">
+                            <span>Also Transmits To Peers:</span>
+                            ${n.impacted_issuers.filter(t => t !== m.ticker).map(peerTicker => `
+                              <button class="badge badge-sector" style="cursor:pointer; border:1px solid #334155; padding:1px 6px; font-size:10px;" onclick="openIssuerFromNews('${peerTicker}')" title="Jump to ${peerTicker} Model & Analysis">
+                                ${peerTicker} ↗
+                              </button>
+                            `).join('')}
+                          </div>
+                        ` : ''}
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+              `;
+            })()}
+          </div>
           
         </div>
       </td>
@@ -1304,11 +1401,13 @@ function copyNoteMarkdown(issuer, topic, note) {
 }
 
 
-// ----------------- GLOBAL CREDIT & MACRO NEWS MODAL -----------------
+// ----------------- GLOBAL CREDIT & MACRO NEWS MODAL (LINKED) -----------------
 let currentNewsFilter = 'All';
+let currentNewsSearch = '';
 
 window.openNewsModal = function(filter = 'All') {
   currentNewsFilter = filter;
+  currentNewsSearch = '';
   let modal = document.getElementById("credit-news-modal");
   if (!modal) {
     modal = document.createElement("div");
@@ -1317,6 +1416,12 @@ window.openNewsModal = function(filter = 'All') {
     document.body.appendChild(modal);
   }
   modal.style.display = "flex";
+  renderNewsModalContent();
+};
+
+window.openNewsModalForIssuer = function(ticker) {
+  openNewsModal('All');
+  currentNewsSearch = ticker;
   renderNewsModalContent();
 };
 
@@ -1330,14 +1435,40 @@ window.filterNews = function(category) {
   renderNewsModalContent();
 };
 
+window.searchNews = function(query) {
+  currentNewsSearch = query.trim().toUpperCase();
+  renderNewsModalContent();
+};
+
+window.openIssuerFromNews = function(ticker) {
+  closeNewsModal();
+  
+  // Clear search filter so target issuer is visible in comp table
+  const searchInput = document.getElementById("search-input");
+  if (searchInput) searchInput.value = "";
+  
+  // Find issuer object
+  const targetIssuer = issuersData.find(i => i.metadata.ticker === ticker);
+  if (targetIssuer) {
+    const rowId = "expand-" + targetIssuer.metadata.id;
+    const tr = document.getElementById(rowId);
+    if (tr) {
+      tr.style.display = 'table-row';
+      switchDrawerTab(targetIssuer.metadata.id, 'tab-news');
+      tr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+};
+
 function renderNewsModalContent() {
   const modal = document.getElementById("credit-news-modal");
   if (!modal) return;
 
   const allNews = window.CREDIT_NEWS_DATA || [];
   let filtered = allNews;
+
   if (currentNewsFilter === 'Macro') {
-    filtered = allNews.filter(n => n.category.includes('Macro') || n.ticker === 'MACRO');
+    filtered = allNews.filter(n => n.category.includes('Macro') || n.ticker.startsWith('MACRO'));
   } else if (currentNewsFilter === 'Company') {
     filtered = allNews.filter(n => n.category.includes('Company'));
   } else if (currentNewsFilter === 'Capital Markets') {
@@ -1348,39 +1479,68 @@ function renderNewsModalContent() {
     filtered = allNews.filter(n => n.credit_impact === 'Watch' || n.credit_impact === 'Negative');
   }
 
+  if (currentNewsSearch) {
+    filtered = filtered.filter(n => 
+      n.headline.toUpperCase().includes(currentNewsSearch) ||
+      n.ticker.toUpperCase().includes(currentNewsSearch) ||
+      n.issuer_name.toUpperCase().includes(currentNewsSearch) ||
+      (n.impacted_issuers && n.impacted_issuers.some(t => t.includes(currentNewsSearch)))
+    );
+  }
+
   modal.innerHTML = `
-    <div style="background:#0f172a; border:1px solid #1e2d45; border-radius:8px; width:1000px; max-width:95vw; max-height:88vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.7); overflow:hidden;">
+    <div style="background:#0f172a; border:1px solid #1e2d45; border-radius:8px; width:1050px; max-width:96vw; max-height:90vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.8); overflow:hidden;">
       <!-- Header -->
       <div style="padding:16px 20px; background:#111a2b; border-bottom:1px solid #1e2d45; display:flex; justify-content:space-between; align-items:center;">
         <div style="display:flex; align-items:center; gap:12px;">
           <h3 style="margin:0; font-size:15px; color:var(--accent-gold); text-transform:uppercase; letter-spacing:0.5px;">
             📰 Institutional Credit & Macro News Feed
           </h3>
-          <span class="badge badge-ig">${allNews.length} Tracked Catalysts</span>
+          <span class="badge badge-ig">${filtered.length} of ${allNews.length} Catalysts</span>
+          <span style="font-size:11px; color:#94a3b8;">Click any issuer pill to open full credit model</span>
         </div>
-        <button onclick="closeNewsModal()" style="background:transparent; border:none; color:#94a3b8; font-size:18px; cursor:pointer; padding:4px 8px;">✕</button>
+        <button onclick="closeNewsModal()" style="background:transparent; border:none; color:#94a3b8; font-size:20px; cursor:pointer; padding:4px 8px;">✕</button>
       </div>
 
-      <!-- Filter Controls -->
-      <div style="padding:12px 20px; background:#0b1120; border-bottom:1px solid #1e2d45; display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
-        <span style="font-size:11px; color:#64748b; font-weight:600; text-transform:uppercase;">Filter:</span>
-        ${['All', 'Macro', 'Company', 'Capital Markets', 'Positive', 'Watch / Negative'].map(cat => `
-          <button onclick="filterNews('${cat}')" style="background:${currentNewsFilter === cat ? 'var(--accent-gold)' : '#1e293b'}; color:${currentNewsFilter === cat ? '#000' : '#cbd5e1'}; border:none; padding:4px 10px; border-radius:4px; font-size:11px; font-weight:700; cursor:pointer;">
-            ${cat}
-          </button>
-        `).join('')}
+      <!-- Controls: Category Filters + Company Search -->
+      <div style="padding:12px 20px; background:#0b1120; border-bottom:1px solid #1e2d45; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+        <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
+          <span style="font-size:11px; color:#64748b; font-weight:700; text-transform:uppercase;">Category:</span>
+          ${['All', 'Macro', 'Company', 'Capital Markets', 'Positive', 'Watch / Negative'].map(cat => `
+            <button onclick="filterNews('${cat}')" style="background:${currentNewsFilter === cat ? 'var(--accent-gold)' : '#1e293b'}; color:${currentNewsFilter === cat ? '#000' : '#cbd5e1'}; border:none; padding:4px 10px; border-radius:4px; font-size:11px; font-weight:700; cursor:pointer;">
+              ${cat}
+            </button>
+          `).join('')}
+        </div>
+
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="font-size:11px; color:#64748b;">Filter Company / Ticker:</span>
+          <input type="text" placeholder="e.g. ZOREN, DANGCEM, SISE..." value="${currentNewsSearch}" oninput="searchNews(this.value)" style="background:#1e293b; border:1px solid #334155; color:#fff; padding:4px 10px; border-radius:4px; font-size:11.5px; width:180px;">
+          ${currentNewsSearch ? `<button onclick="searchNews('')" style="background:#334155; color:#cbd5e1; border:none; border-radius:4px; padding:4px 8px; font-size:10px; cursor:pointer;">Clear</button>` : ''}
+        </div>
       </div>
 
       <!-- News Items List -->
-      <div style="padding:20px; overflow-y:auto; display:flex; flex-direction:column; gap:12px;">
-        ${filtered.map(n => {
+      <div style="padding:20px; overflow-y:auto; display:flex; flex-direction:column; gap:14px;">
+        ${filtered.length === 0 ? `
+          <div style="text-align:center; padding:40px; color:#94a3b8; font-size:13px;">
+            No credit catalysts match the selected criteria.
+          </div>
+        ` : filtered.map(n => {
           const impactBadge = n.credit_impact === 'Positive' ? 'badge-ig' : (n.credit_impact === 'Negative' ? 'badge-stress' : 'badge-hy');
-          const isMacro = n.ticker === 'MACRO';
-          
+          const isMacro = n.category.includes('Macro') || n.ticker.startsWith('MACRO');
+          const impactBorder = n.credit_impact === 'Positive' ? '#10b981' : (n.credit_impact === 'Negative' ? '#ef4444' : '#f59e0b');
+
           return `
-            <div style="background:#111a2b; border:1px solid ${isMacro ? '#2563eb' : '#1e2d45'}; border-radius:6px; padding:14px;">
+            <div style="background:#111a2b; border:1px solid ${isMacro ? '#2563eb' : '#1e2d45'}; border-radius:6px; padding:15px; transition:border 0.2s;">
+              ${isMacro ? `
+                <div style="background:#1e3a8a; color:#93c5fd; font-size:10px; font-weight:700; padding:2px 8px; border-radius:3px; display:inline-block; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.5px;">
+                  🌐 WIDER MACRO TRANSMISSION: ${n.macro_transmission_channel || 'Macro Channel'}
+                </div>
+              ` : ''}
+
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-                <div style="display:flex; align-items:center; gap:8px;">
+                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
                   <strong style="color:#f8fafc; font-size:12px;">${n.date}</strong>
                   <span class="badge ${isMacro ? 'badge-sector' : 'badge-hy'}">${n.ticker}</span>
                   <span class="badge ${impactBadge}">${n.credit_impact} Impact</span>
@@ -1395,9 +1555,29 @@ function renderNewsModalContent() {
                 </a>
               </div>
 
-              <div style="background:#0b1120; border-left:3px solid ${n.credit_impact === 'Positive' ? '#10b981' : (n.credit_impact === 'Negative' ? '#ef4444' : '#f59e0b')}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11px; line-height:1.5; color:#cbd5e1;">
-                <strong style="color:#fff;">💡 Credit Desk Transmission Commentary:</strong> ${n.credit_commentary}
+              <!-- Concise Credit Analysis Box -->
+              <div style="background:#0b1120; border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:#cbd5e1; margin-bottom:12px;">
+                <div style="font-weight:700; color:#fff; margin-bottom:3px;">
+                  💡 Credit Desk Transmission Analysis & Spread Trajectory:
+                </div>
+                <div>${n.concise_analysis || n.credit_commentary}</div>
               </div>
+
+              <!-- Clickable Impacted Issuers / Companies -->
+              ${n.impacted_issuers && n.impacted_issuers.length > 0 ? `
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:11px; color:#94a3b8; background:#0f172a; padding:8px 12px; border-radius:4px;">
+                  <strong style="color:#e2e8f0;">Linked CEMBI Companies:</strong>
+                  ${n.impacted_issuers.map(ticker => {
+                    const iss = issuersData.find(i => i.metadata.ticker === ticker);
+                    const name = iss ? iss.metadata.name : ticker;
+                    return `
+                      <button onclick="openIssuerFromNews('${ticker}')" class="badge badge-sector" style="cursor:pointer; border:1px solid #3b82f6; padding:2px 8px; font-size:10.5px; font-weight:600; color:#93c5fd; background:#1e293b;" title="Jump directly to ${name} (${ticker})">
+                        ${ticker} — ${name.length > 18 ? name.slice(0, 18) + '...' : name} ↗
+                      </button>
+                    `;
+                  }).join('')}
+                </div>
+              ` : ''}
             </div>
           `;
         }).join('')}
