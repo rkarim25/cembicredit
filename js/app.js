@@ -224,7 +224,7 @@ function renderTable() {
     else if (m.rating.includes("CCC") || m.rating.includes("D") || m.spread_bp >= 700) ratingBadge = "badge-stress";
     
     let html = `
-      <td style="white-space:nowrap;"><strong>${m.ticker}</strong><button class="btn-action" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Interactive Web Model in Browser" style="font-size:10px; padding:1px 5px; margin-left:6px; background:rgba(245,158,11,0.18); border:1px solid #f59e0b; color:#fbbf24; border-radius:3px; cursor:pointer; font-weight:700;">⚡ Model</button></td>
+      <td style="white-space:nowrap;"><strong>${m.ticker}</strong><button id="btn-model-${m.id}" class="btn-action" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Interactive Web Model in Browser" style="font-size:10px; padding:1px 5px; margin-left:6px; background:rgba(245,158,11,0.18); border:1px solid #f59e0b; color:#fbbf24; border-radius:3px; cursor:pointer; font-weight:700;">⚡ Model</button></td>
       <td>
       <a href="javascript:void(0)" onclick="toggleRowExpand('${m.id}')" style="font-weight:600;">${m.name}</a>
       ${(() => {
