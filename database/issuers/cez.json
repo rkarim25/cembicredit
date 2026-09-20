@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "cez",
-    "name": "ČEZ Group",
+    "name": "\u010cEZ Group",
     "ticker": "CEZ",
     "country": "Czech Republic",
     "region": "CEE",
@@ -18,7 +18,10 @@
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEZ_Group_Credit_Model.xlsx",
     "last_updated": "2026-09-19",
     "cognitive_credit_id": "cez",
-    "cognitive_credit_url": "https://app.cognitivecredit.com/company/cez/description"
+    "cognitive_credit_url": "https://app.cognitivecredit.com/company/cez/description",
+    "model_type": "corp",
+    "fcf_2024a": -1083.6,
+    "net_leverage_2024a": 1.4
   },
   "financials_multi_year": [
     {
@@ -28,8 +31,8 @@
       "ebitda": 2730,
       "ebitda_margin_pct": 26.4,
       "cfo": 2213.4,
-      "capex": 1029,
-      "fcf": 1184.4,
+      "capex": 2204.5,
+      "fcf": -227.5,
       "cash": 1732.5,
       "gross_debt": 7675.5,
       "net_debt": 5943,
@@ -48,17 +51,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$40.9M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 286.5,
-      "change_in_working_capital": -13.6,
-      "tax_expense": 243.7,
-      "fcf_conversion_pct": 43.4,
+      "change_in_working_capital": 248.1,
+      "tax_expense": 218.4,
+      "fcf_conversion_pct": -8.3,
       "fcf_bridge": {
         "calculated_ebitda": 2730,
-        "capex": 1029,
+        "capex": 2204.5,
         "cash_interest": 286.5,
-        "change_in_working_capital": -13.6,
-        "tax": 243.7,
-        "fcf": 1184.4,
-        "formula_check": "2730.0 - 1029.0 - 286.5 - (-13.6) - 243.7 = 1184.4"
+        "change_in_working_capital": 248.1,
+        "tax": 218.4,
+        "fcf": -227.5,
+        "formula_check": "2730.0 - 2204.5 - 286.5 - (248.1) - 218.4 = -227.5"
       }
     },
     {
@@ -68,8 +71,8 @@
       "ebitda": 3360,
       "ebitda_margin_pct": 27,
       "cfo": 2784.6,
-      "capex": 1249.5,
-      "fcf": 1535.1,
+      "capex": 3855.6,
+      "fcf": -1683.1,
       "cash": 2205,
       "gross_debt": 8307.6,
       "net_debt": 6102.6,
@@ -88,17 +91,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 357.8,
-      "change_in_working_capital": -81.5,
-      "tax_expense": 299.1,
-      "fcf_conversion_pct": 45.7,
+      "change_in_working_capital": 560.9,
+      "tax_expense": 268.8,
+      "fcf_conversion_pct": -50.1,
       "fcf_bridge": {
         "calculated_ebitda": 3360,
-        "capex": 1249.5,
+        "capex": 3855.6,
         "cash_interest": 357.8,
-        "change_in_working_capital": -81.5,
-        "tax": 299.1,
-        "fcf": 1535.1,
-        "formula_check": "3360.0 - 1249.5 - 357.8 - (-81.5) - 299.1 = 1535.1"
+        "change_in_working_capital": 560.9,
+        "tax": 268.8,
+        "fcf": -1683.1,
+        "formula_check": "3360.0 - 3855.6 - 357.8 - (560.9) - 268.8 = -1683.1"
       }
     },
     {
@@ -108,8 +111,8 @@
       "ebitda": 3780,
       "ebitda_margin_pct": 27,
       "cfo": 3141.6,
-      "capex": 1396.5,
-      "fcf": 1745.1,
+      "capex": 4337.6,
+      "fcf": -1918.8,
       "cash": 2677.5,
       "gross_debt": 8849.4,
       "net_debt": 6171.9,
@@ -128,17 +131,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 429.5,
-      "change_in_working_capital": -123.6,
-      "tax_expense": 332.5,
-      "fcf_conversion_pct": 46.2,
+      "change_in_working_capital": 629.3,
+      "tax_expense": 302.4,
+      "fcf_conversion_pct": -50.8,
       "fcf_bridge": {
         "calculated_ebitda": 3780,
-        "capex": 1396.5,
+        "capex": 4337.6,
         "cash_interest": 429.5,
-        "change_in_working_capital": -123.6,
-        "tax": 332.5,
-        "fcf": 1745.1,
-        "formula_check": "3780.0 - 1396.5 - 429.5 - (-123.6) - 332.5 = 1745.1"
+        "change_in_working_capital": 629.3,
+        "tax": 302.4,
+        "fcf": -1918.8,
+        "formula_check": "3780.0 - 4337.6 - 429.5 - (629.3) - 302.4 = -1918.8"
       }
     },
     {
@@ -148,8 +151,8 @@
       "ebitda": 4200,
       "ebitda_margin_pct": 27.6,
       "cfo": 3570,
-      "capex": 1470,
-      "fcf": 2100,
+      "capex": 4105.5,
+      "fcf": -1083.6,
       "cash": 3150,
       "gross_debt": 9030,
       "net_debt": 5880,
@@ -168,17 +171,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$63.0M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 477.3,
-      "change_in_working_capital": -216.7,
-      "tax_expense": 369.4,
-      "fcf_conversion_pct": 50,
+      "change_in_working_capital": 364.8,
+      "tax_expense": 336.0,
+      "fcf_conversion_pct": -25.8,
       "fcf_bridge": {
         "calculated_ebitda": 4200,
-        "capex": 1470,
+        "capex": 4105.5,
         "cash_interest": 477.3,
-        "change_in_working_capital": -216.7,
-        "tax": 369.4,
-        "fcf": 2100,
-        "formula_check": "4200.0 - 1470.0 - 477.3 - (-216.7) - 369.4 = 2100.0"
+        "change_in_working_capital": 364.8,
+        "tax": 336.0,
+        "fcf": -1083.6,
+        "formula_check": "4200.0 - 4105.5 - 477.3 - (364.8) - 336.0 = -1083.6"
       }
     },
     {
@@ -188,8 +191,8 @@
       "ebitda": 4620,
       "ebitda_margin_pct": 28.1,
       "cfo": 3927,
-      "capex": 1543.5,
-      "fcf": 2383.5,
+      "capex": 3730.6,
+      "fcf": -332.5,
       "cash": 3717,
       "gross_debt": 8849.4,
       "net_debt": 5132.4,
@@ -208,17 +211,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.3M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 458.3,
-      "change_in_working_capital": -181.7,
-      "tax_expense": 416.4,
-      "fcf_conversion_pct": 51.6,
+      "change_in_working_capital": 394.0,
+      "tax_expense": 369.6,
+      "fcf_conversion_pct": -7.2,
       "fcf_bridge": {
         "calculated_ebitda": 4620,
-        "capex": 1543.5,
+        "capex": 3730.6,
         "cash_interest": 458.3,
-        "change_in_working_capital": -181.7,
-        "tax": 416.4,
-        "fcf": 2383.5,
-        "formula_check": "4620.0 - 1543.5 - 458.3 - (-181.7) - 416.4 = 2383.5"
+        "change_in_working_capital": 394.0,
+        "tax": 369.6,
+        "fcf": -332.5,
+        "formula_check": "4620.0 - 3730.6 - 458.3 - (394.0) - 369.6 = -332.5"
       }
     },
     {
@@ -228,8 +231,8 @@
       "ebitda": 4956,
       "ebitda_margin_pct": 28.4,
       "cfo": 4212.6,
-      "capex": 1499.4,
-      "fcf": 2713.2,
+      "capex": 4002.0,
+      "fcf": -301.0,
       "cash": 4252.5,
       "gross_debt": 8578.5,
       "net_debt": 4326,
@@ -248,17 +251,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$74.3M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 439,
-      "change_in_working_capital": -150.1,
-      "tax_expense": 454.5,
-      "fcf_conversion_pct": 54.7,
+      "change_in_working_capital": 419.5,
+      "tax_expense": 396.5,
+      "fcf_conversion_pct": -6.1,
       "fcf_bridge": {
         "calculated_ebitda": 4956,
-        "capex": 1499.4,
+        "capex": 4002.0,
         "cash_interest": 439,
-        "change_in_working_capital": -150.1,
-        "tax": 454.5,
-        "fcf": 2713.2,
-        "formula_check": "4956.0 - 1499.4 - 439.0 - (-150.1) - 454.5 = 2713.2"
+        "change_in_working_capital": 419.5,
+        "tax": 396.5,
+        "fcf": -301.0,
+        "formula_check": "4956.0 - 4002.0 - 439.0 - (419.5) - 396.5 = -301.0"
       }
     },
     {
@@ -268,8 +271,8 @@
       "ebitda": 5208,
       "ebitda_margin_pct": 28.6,
       "cfo": 4462.5,
-      "capex": 1440.6,
-      "fcf": 3021.9,
+      "capex": 4205.5,
+      "fcf": -271.9,
       "cash": 4725,
       "gross_debt": 8127,
       "net_debt": 3402,
@@ -288,17 +291,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$78.1M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 420,
-      "change_in_working_capital": -158.3,
-      "tax_expense": 483.8,
-      "fcf_conversion_pct": 58,
+      "change_in_working_capital": 437.8,
+      "tax_expense": 416.6,
+      "fcf_conversion_pct": -5.2,
       "fcf_bridge": {
         "calculated_ebitda": 5208,
-        "capex": 1440.6,
+        "capex": 4205.5,
         "cash_interest": 420,
-        "change_in_working_capital": -158.3,
-        "tax": 483.8,
-        "fcf": 3021.9,
-        "formula_check": "5208.0 - 1440.6 - 420.0 - (-158.3) - 483.8 = 3021.9"
+        "change_in_working_capital": 437.8,
+        "tax": 416.6,
+        "fcf": -271.9,
+        "formula_check": "5208.0 - 4205.5 - 420.0 - (437.8) - 416.6 = -271.9"
       }
     }
   ],
@@ -325,12 +328,12 @@
     "recovery_base_pct": 100.5,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Czech Republic Commercial & Bankruptcy Code",
-    "thesis": "Czech integrated utility powerhouse; Temelín and Dukovany nuclear generation guarantees low-cost baseload."
+    "thesis": "Czech integrated utility powerhouse; Temel\u00edn and Dukovany nuclear generation guarantees low-cost baseload."
   },
   "annotations": [
     {
       "issuer_id": "cez",
-      "issuer_name": "ČEZ Group",
+      "issuer_name": "\u010cEZ Group",
       "sector": "Utilities",
       "topic": "Regulated Asset Base & Off-take PPA",
       "source": "Cognitive Credit / Citi",
@@ -338,7 +341,7 @@
     },
     {
       "issuer_id": "cez",
-      "issuer_name": "ČEZ Group",
+      "issuer_name": "\u010cEZ Group",
       "sector": "Utilities",
       "topic": "Capex Phasing & FCF Conversion",
       "source": "Company Filings",
@@ -346,7 +349,7 @@
     },
     {
       "issuer_id": "cez",
-      "issuer_name": "ČEZ Group",
+      "issuer_name": "\u010cEZ Group",
       "sector": "Utilities",
       "topic": "Sovereign Balancing & Guarantees",
       "source": "Ministry of Finance Disclosures",
@@ -354,7 +357,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+    "source_deck": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
@@ -501,7 +504,7 @@
       "current_runrate": "$16188.0M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $16416.0M (+8.0% YoY growth). With current run-rate at $16188.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -512,7 +515,7 @@
       "current_runrate": "$4536.0M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $4620.0M (28.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -523,7 +526,7 @@
       "current_runrate": "1.40x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 1.40x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -534,7 +537,7 @@
       "current_runrate": "$1420.0M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $1543.5M (Maximum growth and sustaining envelope). Current commitments stand at $1420.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -545,7 +548,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."

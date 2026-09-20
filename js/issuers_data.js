@@ -18,7 +18,10 @@ const MASTER_ISSUERS = [
       "model_file": "ACWA_Power_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8150-a7d3-e1d310024720",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ACWA_Power_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -1205.0,
+      "net_leverage_2024a": 3.85
     },
     "financials_multi_year": [
       {
@@ -28,8 +31,8 @@ const MASTER_ISSUERS = [
         "ebitda": 598.0,
         "ebitda_margin_pct": 53.3,
         "cfo": 484.8,
-        "capex": 225.4,
-        "fcf": 259.4,
+        "capex": 680.0,
+        "fcf": -352.0,
         "cash": 379.5,
         "gross_debt": 3597.2,
         "net_debt": 3217.7,
@@ -42,34 +45,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
           "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
         },
-        "reported_ebitda": 607.0,
+        "reported_ebitda": 609.96,
         "calculated_ebitda": 598.0,
         "ebitda_reconciliation_variance_usd_m": 9.0,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 162.5,
-        "change_in_working_capital": -87.7,
-        "tax_expense": 38.4,
-        "fcf_conversion_pct": 43.4,
+        "cash_interest": 210.0,
+        "change_in_working_capital": 25.0,
+        "tax_expense": 35.0,
+        "fcf_conversion_pct": -58.9,
         "fcf_bridge": {
           "calculated_ebitda": 598.0,
-          "capex": 225.4,
-          "cash_interest": 162.5,
-          "change_in_working_capital": -87.7,
-          "tax": 38.4,
-          "fcf": 259.4,
-          "formula_check": "598.0 - 225.4 - 162.5 - (-87.7) - 38.4 = 259.4"
+          "capex": 680.0,
+          "cash_interest": 210.0,
+          "change_in_working_capital": 25.0,
+          "tax": 35.0,
+          "fcf": -352.0,
+          "formula_check": "598.0 - 680.0 - 210.0 - (25.0) - 35.0 = -352.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 1353.0,
-        "ebitda": 736.0,
-        "ebitda_margin_pct": 54.4,
+        "revenue": 1285.0,
+        "ebitda": 685.0,
+        "ebitda_margin_pct": 53.3,
         "cfo": 610.0,
-        "capex": 273.7,
-        "fcf": 336.3,
+        "capex": 950.0,
+        "fcf": -592.0,
         "cash": 483.0,
         "gross_debt": 3893.4,
         "net_debt": 3410.4,
@@ -82,34 +85,34 @@ const MASTER_ISSUERS = [
           "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
           "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
         },
-        "reported_ebitda": 747.0,
-        "calculated_ebitda": 736.0,
+        "reported_ebitda": 698.7,
+        "calculated_ebitda": 685.0,
         "ebitda_reconciliation_variance_usd_m": 11.0,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 202.8,
-        "change_in_working_capital": -123.7,
-        "tax_expense": 46.9,
-        "fcf_conversion_pct": 45.7,
+        "cash_interest": 245.0,
+        "change_in_working_capital": 40.0,
+        "tax_expense": 42.0,
+        "fcf_conversion_pct": -86.4,
         "fcf_bridge": {
-          "calculated_ebitda": 736.0,
-          "capex": 273.7,
-          "cash_interest": 202.8,
-          "change_in_working_capital": -123.7,
-          "tax": 46.9,
-          "fcf": 336.3,
-          "formula_check": "736.0 - 273.7 - 202.8 - (-123.7) - 46.9 = 336.3"
+          "calculated_ebitda": 685.0,
+          "capex": 950.0,
+          "cash_interest": 245.0,
+          "change_in_working_capital": 40.0,
+          "tax": 42.0,
+          "fcf": -592.0,
+          "formula_check": "685.0 - 950.0 - 245.0 - (40.0) - 42.0 = -592.0"
         }
       },
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 1518.0,
-        "ebitda": 828.0,
-        "ebitda_margin_pct": 54.5,
+        "revenue": 1440.0,
+        "ebitda": 780.0,
+        "ebitda_margin_pct": 54.2,
         "cfo": 688.2,
-        "capex": 305.9,
-        "fcf": 382.3,
+        "capex": 1350.0,
+        "fcf": -955.0,
         "cash": 586.5,
         "gross_debt": 4147.4,
         "net_debt": 3560.9,
@@ -122,34 +125,34 @@ const MASTER_ISSUERS = [
           "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
           "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
         },
-        "reported_ebitda": 840.4,
-        "calculated_ebitda": 828.0,
+        "reported_ebitda": 795.6,
+        "calculated_ebitda": 780.0,
         "ebitda_reconciliation_variance_usd_m": 12.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 243.5,
-        "change_in_working_capital": -154.1,
-        "tax_expense": 50.4,
-        "fcf_conversion_pct": 46.2,
+        "cash_interest": 280.0,
+        "change_in_working_capital": 55.0,
+        "tax_expense": 50.0,
+        "fcf_conversion_pct": -122.4,
         "fcf_bridge": {
-          "calculated_ebitda": 828.0,
-          "capex": 305.9,
-          "cash_interest": 243.5,
-          "change_in_working_capital": -154.1,
-          "tax": 50.4,
-          "fcf": 382.3,
-          "formula_check": "828.0 - 305.9 - 243.5 - (-154.1) - 50.4 = 382.3"
+          "calculated_ebitda": 780.0,
+          "capex": 1350.0,
+          "cash_interest": 280.0,
+          "change_in_working_capital": 55.0,
+          "tax": 50.0,
+          "fcf": -955.0,
+          "formula_check": "780.0 - 1350.0 - 280.0 - (55.0) - 50.0 = -955.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 1650.0,
+        "revenue": 1620.0,
         "ebitda": 920.0,
-        "ebitda_margin_pct": 55.8,
+        "ebitda_margin_pct": 56.8,
         "cfo": 782.0,
-        "capex": 322.0,
-        "fcf": 460.0,
+        "capex": 1680.0,
+        "fcf": -1205.0,
         "cash": 690.0,
         "gross_debt": 4232.0,
         "net_debt": 3542.0,
@@ -162,34 +165,34 @@ const MASTER_ISSUERS = [
           "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
           "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
         },
-        "reported_ebitda": 933.8,
+        "reported_ebitda": 938.4,
         "calculated_ebitda": 920.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 270.6,
-        "change_in_working_capital": -188.6,
-        "tax_expense": 56.0,
-        "fcf_conversion_pct": 50.0,
+        "cash_interest": 320.0,
+        "change_in_working_capital": 65.0,
+        "tax_expense": 60.0,
+        "fcf_conversion_pct": -131.0,
         "fcf_bridge": {
           "calculated_ebitda": 920.0,
-          "capex": 322.0,
-          "cash_interest": 270.6,
-          "change_in_working_capital": -188.6,
-          "tax": 56.0,
-          "fcf": 460.0,
-          "formula_check": "920.0 - 322.0 - 270.6 - (-188.6) - 56.0 = 460.0"
+          "capex": 1680.0,
+          "cash_interest": 320.0,
+          "change_in_working_capital": 65.0,
+          "tax": 60.0,
+          "fcf": -1205.0,
+          "formula_check": "920.0 - 1680.0 - 320.0 - (65.0) - 60.0 = -1205.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 1782.0,
-        "ebitda": 1012.0,
-        "ebitda_margin_pct": 56.8,
+        "revenue": 1850.0,
+        "ebitda": 1080.0,
+        "ebitda_margin_pct": 58.4,
         "cfo": 860.2,
-        "capex": 338.1,
-        "fcf": 522.1,
+        "capex": 1550.0,
+        "fcf": -930.0,
         "cash": 814.2,
         "gross_debt": 4147.4,
         "net_debt": 3333.2,
@@ -202,34 +205,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
           "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
         },
-        "reported_ebitda": 1027.2,
-        "calculated_ebitda": 1012.0,
+        "reported_ebitda": 1101.6,
+        "calculated_ebitda": 1080.0,
         "ebitda_reconciliation_variance_usd_m": 15.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 259.5,
-        "change_in_working_capital": -175.0,
-        "tax_expense": 67.3,
-        "fcf_conversion_pct": 51.6,
+        "cash_interest": 340.0,
+        "change_in_working_capital": 50.0,
+        "tax_expense": 70.0,
+        "fcf_conversion_pct": -86.1,
         "fcf_bridge": {
-          "calculated_ebitda": 1012.0,
-          "capex": 338.1,
-          "cash_interest": 259.5,
-          "change_in_working_capital": -175.0,
-          "tax": 67.3,
-          "fcf": 522.1,
-          "formula_check": "1012.0 - 338.1 - 259.5 - (-175.0) - 67.3 = 522.1"
+          "calculated_ebitda": 1080.0,
+          "capex": 1550.0,
+          "cash_interest": 340.0,
+          "change_in_working_capital": 50.0,
+          "tax": 70.0,
+          "fcf": -930.0,
+          "formula_check": "1080.0 - 1550.0 - 340.0 - (50.0) - 70.0 = -930.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 1897.5,
-        "ebitda": 1085.6,
-        "ebitda_margin_pct": 57.2,
+        "revenue": 2150.0,
+        "ebitda": 1280.0,
+        "ebitda_margin_pct": 59.5,
         "cfo": 922.8,
-        "capex": 328.4,
-        "fcf": 594.4,
+        "capex": 1200.0,
+        "fcf": -395.0,
         "cash": 931.5,
         "gross_debt": 4020.4,
         "net_debt": 3088.9,
@@ -242,34 +245,34 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
           "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
         },
-        "reported_ebitda": 1101.9,
-        "calculated_ebitda": 1085.6,
+        "reported_ebitda": 1305.6,
+        "calculated_ebitda": 1280.0,
         "ebitda_reconciliation_variance_usd_m": 16.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 249.0,
-        "change_in_working_capital": -162.8,
-        "tax_expense": 76.6,
-        "fcf_conversion_pct": 54.8,
+        "cash_interest": 350.0,
+        "change_in_working_capital": 40.0,
+        "tax_expense": 85.0,
+        "fcf_conversion_pct": -30.9,
         "fcf_bridge": {
-          "calculated_ebitda": 1085.6,
-          "capex": 328.4,
-          "cash_interest": 249.0,
-          "change_in_working_capital": -162.8,
-          "tax": 76.6,
-          "fcf": 594.4,
-          "formula_check": "1085.6 - 328.4 - 249.0 - (-162.8) - 76.6 = 594.4"
+          "calculated_ebitda": 1280.0,
+          "capex": 1200.0,
+          "cash_interest": 350.0,
+          "change_in_working_capital": 40.0,
+          "tax": 85.0,
+          "fcf": -395.0,
+          "formula_check": "1280.0 - 1200.0 - 350.0 - (40.0) - 85.0 = -395.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 1980.0,
-        "ebitda": 1140.8,
-        "ebitda_margin_pct": 57.6,
+        "revenue": 2500.0,
+        "ebitda": 1520.0,
+        "ebitda_margin_pct": 60.8,
         "cfo": 977.5,
-        "capex": 315.6,
-        "fcf": 661.9,
+        "capex": 950.0,
+        "fcf": 100.0,
         "cash": 1035.0,
         "gross_debt": 3808.8,
         "net_debt": 2773.8,
@@ -282,23 +285,23 @@ const MASTER_ISSUERS = [
           "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
           "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
         },
-        "reported_ebitda": 1157.9,
-        "calculated_ebitda": 1140.8,
+        "reported_ebitda": 1550.4,
+        "calculated_ebitda": 1520.0,
         "ebitda_reconciliation_variance_usd_m": 17.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 238.2,
-        "change_in_working_capital": -159.0,
-        "tax_expense": 84.1,
-        "fcf_conversion_pct": 58.0,
+        "cash_interest": 340.0,
+        "change_in_working_capital": 30.0,
+        "tax_expense": 100.0,
+        "fcf_conversion_pct": 6.6,
         "fcf_bridge": {
-          "calculated_ebitda": 1140.8,
-          "capex": 315.6,
-          "cash_interest": 238.2,
-          "change_in_working_capital": -159.0,
-          "tax": 84.1,
-          "fcf": 661.9,
-          "formula_check": "1140.8 - 315.6 - 238.2 - (-159.0) - 84.1 = 661.9"
+          "calculated_ebitda": 1520.0,
+          "capex": 950.0,
+          "cash_interest": 340.0,
+          "change_in_working_capital": 30.0,
+          "tax": 100.0,
+          "fcf": 100.0,
+          "formula_check": "1520.0 - 950.0 - 340.0 - (30.0) - 100.0 = 100.0"
         }
       }
     ],
@@ -739,7 +742,8 @@ const MASTER_ISSUERS = [
       "model_file": "ADCB_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADCB_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -769,25 +773,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -816,25 +806,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -863,25 +839,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -910,25 +872,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -957,25 +905,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -1004,25 +938,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -1051,25 +971,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -1509,7 +1415,10 @@ const MASTER_ISSUERS = [
       "model_file": "ADM_Elektrik_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6814cb3a1fc47071d72c5",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/ADM_Elektrik_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -56.6,
+      "net_leverage_2024a": 2.62
     },
     "financials_multi_year": [
       {
@@ -1519,8 +1428,8 @@ const MASTER_ISSUERS = [
         "ebitda": 94.2,
         "ebitda_margin_pct": 33.0,
         "cfo": 76.4,
-        "capex": 35.5,
-        "fcf": 40.9,
+        "capex": 76.1,
+        "fcf": -19.2,
         "cash": 59.8,
         "gross_debt": 415.4,
         "net_debt": 355.6,
@@ -1539,17 +1448,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 22.9,
-        "change_in_working_capital": -11.6,
-        "tax_expense": 6.5,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 6.9,
+        "tax_expense": 7.5,
+        "fcf_conversion_pct": -20.4,
         "fcf_bridge": {
           "calculated_ebitda": 94.2,
-          "capex": 35.5,
+          "capex": 76.1,
           "cash_interest": 22.9,
-          "change_in_working_capital": -11.6,
-          "tax": 6.5,
-          "fcf": 40.9,
-          "formula_check": "94.2 - 35.5 - 22.9 - (-11.6) - 6.5 = 40.9"
+          "change_in_working_capital": 6.9,
+          "tax": 7.5,
+          "fcf": -19.2,
+          "formula_check": "94.2 - 76.1 - 22.9 - (6.9) - 7.5 = -19.2"
         }
       },
       {
@@ -1559,8 +1468,8 @@ const MASTER_ISSUERS = [
         "ebitda": 116.0,
         "ebitda_margin_pct": 33.7,
         "cfo": 96.1,
-        "capex": 43.1,
-        "fcf": 53.0,
+        "capex": 133.1,
+        "fcf": -70.5,
         "cash": 76.1,
         "gross_debt": 449.6,
         "net_debt": 373.5,
@@ -1579,17 +1488,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$6.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 28.6,
-        "change_in_working_capital": -16.6,
-        "tax_expense": 7.9,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 15.5,
+        "tax_expense": 9.3,
+        "fcf_conversion_pct": -60.8,
         "fcf_bridge": {
           "calculated_ebitda": 116.0,
-          "capex": 43.1,
+          "capex": 133.1,
           "cash_interest": 28.6,
-          "change_in_working_capital": -16.6,
-          "tax": 7.9,
-          "fcf": 53.0,
-          "formula_check": "116.0 - 43.1 - 28.6 - (-16.6) - 7.9 = 53.0"
+          "change_in_working_capital": 15.5,
+          "tax": 9.3,
+          "fcf": -70.5,
+          "formula_check": "116.0 - 133.1 - 28.6 - (15.5) - 9.3 = -70.5"
         }
       },
       {
@@ -1599,8 +1508,8 @@ const MASTER_ISSUERS = [
         "ebitda": 130.5,
         "ebitda_margin_pct": 33.8,
         "cfo": 108.5,
-        "capex": 48.2,
-        "fcf": 60.3,
+        "capex": 149.7,
+        "fcf": -81.3,
         "cash": 92.4,
         "gross_debt": 478.9,
         "net_debt": 386.5,
@@ -1619,17 +1528,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$7.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 34.3,
-        "change_in_working_capital": -20.9,
-        "tax_expense": 8.6,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 17.4,
+        "tax_expense": 10.4,
+        "fcf_conversion_pct": -62.3,
         "fcf_bridge": {
           "calculated_ebitda": 130.5,
-          "capex": 48.2,
+          "capex": 149.7,
           "cash_interest": 34.3,
-          "change_in_working_capital": -20.9,
-          "tax": 8.6,
-          "fcf": 60.3,
-          "formula_check": "130.5 - 48.2 - 34.3 - (-20.9) - 8.6 = 60.3"
+          "change_in_working_capital": 17.4,
+          "tax": 10.4,
+          "fcf": -81.3,
+          "formula_check": "130.5 - 149.7 - 34.3 - (17.4) - 10.4 = -81.3"
         }
       },
       {
@@ -1639,8 +1548,8 @@ const MASTER_ISSUERS = [
         "ebitda": 145.0,
         "ebitda_margin_pct": 34.5,
         "cfo": 123.2,
-        "capex": 50.8,
-        "fcf": 72.4,
+        "capex": 141.7,
+        "fcf": -56.6,
         "cash": 108.8,
         "gross_debt": 488.7,
         "net_debt": 379.9,
@@ -1659,17 +1568,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$8.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 38.2,
-        "change_in_working_capital": -25.9,
-        "tax_expense": 9.5,
-        "fcf_conversion_pct": 49.9,
+        "change_in_working_capital": 10.1,
+        "tax_expense": 11.6,
+        "fcf_conversion_pct": -39.0,
         "fcf_bridge": {
           "calculated_ebitda": 145.0,
-          "capex": 50.8,
+          "capex": 141.7,
           "cash_interest": 38.2,
-          "change_in_working_capital": -25.9,
-          "tax": 9.5,
-          "fcf": 72.4,
-          "formula_check": "145.0 - 50.8 - 38.2 - (-25.9) - 9.5 = 72.4"
+          "change_in_working_capital": 10.1,
+          "tax": 11.6,
+          "fcf": -56.6,
+          "formula_check": "145.0 - 141.7 - 38.2 - (10.1) - 11.6 = -56.6"
         }
       },
       {
@@ -1679,8 +1588,8 @@ const MASTER_ISSUERS = [
         "ebitda": 159.5,
         "ebitda_margin_pct": 35.2,
         "cfo": 135.6,
-        "capex": 53.3,
-        "fcf": 82.3,
+        "capex": 128.8,
+        "fcf": -29.7,
         "cash": 128.3,
         "gross_debt": 478.9,
         "net_debt": 350.6,
@@ -1699,17 +1608,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 36.7,
-        "change_in_working_capital": -24.0,
-        "tax_expense": 11.2,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 10.9,
+        "tax_expense": 12.8,
+        "fcf_conversion_pct": -18.6,
         "fcf_bridge": {
           "calculated_ebitda": 159.5,
-          "capex": 53.3,
+          "capex": 128.8,
           "cash_interest": 36.7,
-          "change_in_working_capital": -24.0,
-          "tax": 11.2,
-          "fcf": 82.3,
-          "formula_check": "159.5 - 53.3 - 36.7 - (-24.0) - 11.2 = 82.3"
+          "change_in_working_capital": 10.9,
+          "tax": 12.8,
+          "fcf": -29.7,
+          "formula_check": "159.5 - 128.8 - 36.7 - (10.9) - 12.8 = -29.7"
         }
       },
       {
@@ -1719,8 +1628,8 @@ const MASTER_ISSUERS = [
         "ebitda": 171.1,
         "ebitda_margin_pct": 35.4,
         "cfo": 145.4,
-        "capex": 51.8,
-        "fcf": 93.6,
+        "capex": 138.2,
+        "fcf": -27.5,
         "cash": 146.8,
         "gross_debt": 464.2,
         "net_debt": 317.4,
@@ -1739,17 +1648,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 35.1,
-        "change_in_working_capital": -22.1,
-        "tax_expense": 12.7,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 11.6,
+        "tax_expense": 13.7,
+        "fcf_conversion_pct": -16.1,
         "fcf_bridge": {
           "calculated_ebitda": 171.1,
-          "capex": 51.8,
+          "capex": 138.2,
           "cash_interest": 35.1,
-          "change_in_working_capital": -22.1,
-          "tax": 12.7,
-          "fcf": 93.6,
-          "formula_check": "171.1 - 51.8 - 35.1 - (-22.1) - 12.7 = 93.6"
+          "change_in_working_capital": 11.6,
+          "tax": 13.7,
+          "fcf": -27.5,
+          "formula_check": "171.1 - 138.2 - 35.1 - (11.6) - 13.7 = -27.5"
         }
       },
       {
@@ -1759,8 +1668,8 @@ const MASTER_ISSUERS = [
         "ebitda": 179.8,
         "ebitda_margin_pct": 35.7,
         "cfo": 154.1,
-        "capex": 49.7,
-        "fcf": 104.4,
+        "capex": 145.2,
+        "fcf": -25.5,
         "cash": 163.1,
         "gross_debt": 439.8,
         "net_debt": 276.7,
@@ -1779,17 +1688,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 33.6,
-        "change_in_working_capital": -21.7,
-        "tax_expense": 13.8,
-        "fcf_conversion_pct": 58.1,
+        "change_in_working_capital": 12.1,
+        "tax_expense": 14.4,
+        "fcf_conversion_pct": -14.2,
         "fcf_bridge": {
           "calculated_ebitda": 179.8,
-          "capex": 49.7,
+          "capex": 145.2,
           "cash_interest": 33.6,
-          "change_in_working_capital": -21.7,
-          "tax": 13.8,
-          "fcf": 104.4,
-          "formula_check": "179.8 - 49.7 - 33.6 - (-21.7) - 13.8 = 104.4"
+          "change_in_working_capital": 12.1,
+          "tax": 14.4,
+          "fcf": -25.5,
+          "formula_check": "179.8 - 145.2 - 33.6 - (12.1) - 14.4 = -25.5"
         }
       }
     ],
@@ -2232,18 +2141,21 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Africell_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "africell",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description",
+      "model_type": "corp",
+      "fcf_2024a": -62.5,
+      "net_leverage_2024a": 2.52
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 333.2,
-        "ebitda": 107.2,
-        "ebitda_margin_pct": 32.2,
+        "revenue": 380.0,
+        "ebitda": 130.0,
+        "ebitda_margin_pct": 34.2,
         "cfo": 87,
-        "capex": 40.4,
-        "fcf": 46.6,
+        "capex": 85.0,
+        "fcf": -27.0,
         "cash": 68.1,
         "gross_debt": 458.6,
         "net_debt": 390.5,
@@ -2256,34 +2168,34 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 108.8,
-        "calculated_ebitda": 107.2,
+        "reported_ebitda": 132.6,
+        "calculated_ebitda": 130.0,
         "ebitda_reconciliation_variance_usd_m": 1.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 34.2,
-        "change_in_working_capital": -20.1,
-        "tax_expense": 6.1,
-        "fcf_conversion_pct": 43.5,
+        "cash_interest": 52.0,
+        "change_in_working_capital": 12.0,
+        "tax_expense": 8.0,
+        "fcf_conversion_pct": -20.8,
         "fcf_bridge": {
-          "calculated_ebitda": 107.2,
-          "capex": 40.4,
-          "cash_interest": 34.2,
-          "change_in_working_capital": -20.1,
-          "tax": 6.1,
-          "fcf": 46.6,
-          "formula_check": "107.2 - 40.4 - 34.2 - (-20.1) - 6.1 = 46.6"
+          "calculated_ebitda": 130.0,
+          "capex": 85.0,
+          "cash_interest": 52.0,
+          "change_in_working_capital": 12.0,
+          "tax": 8.0,
+          "fcf": -27.0,
+          "formula_check": "130.0 - 85.0 - 52.0 - (12.0) - 8.0 = -27.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 401.8,
-        "ebitda": 132,
-        "ebitda_margin_pct": 32.9,
+        "revenue": 415.0,
+        "ebitda": 142.0,
+        "ebitda_margin_pct": 34.2,
         "cfo": 109.4,
-        "capex": 49.1,
-        "fcf": 60.3,
+        "capex": 98.0,
+        "fcf": -38.0,
         "cash": 86.6,
         "gross_debt": 496.4,
         "net_debt": 409.8,
@@ -2296,34 +2208,34 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 134,
-        "calculated_ebitda": 132,
+        "reported_ebitda": 144.84,
+        "calculated_ebitda": 142.0,
         "ebitda_reconciliation_variance_usd_m": 2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 42.9,
-        "change_in_working_capital": -27.7,
-        "tax_expense": 7.4,
-        "fcf_conversion_pct": 45.7,
+        "cash_interest": 58.0,
+        "change_in_working_capital": 15.0,
+        "tax_expense": 9.0,
+        "fcf_conversion_pct": -26.8,
         "fcf_bridge": {
-          "calculated_ebitda": 132,
-          "capex": 49.1,
-          "cash_interest": 42.9,
-          "change_in_working_capital": -27.7,
-          "tax": 7.4,
-          "fcf": 60.3,
-          "formula_check": "132.0 - 49.1 - 42.9 - (-27.7) - 7.4 = 60.3"
+          "calculated_ebitda": 142.0,
+          "capex": 98.0,
+          "cash_interest": 58.0,
+          "change_in_working_capital": 15.0,
+          "tax": 9.0,
+          "fcf": -38.0,
+          "formula_check": "142.0 - 98.0 - 58.0 - (15.0) - 9.0 = -38.0"
         }
       },
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 450.8,
-        "ebitda": 148.5,
-        "ebitda_margin_pct": 32.9,
+        "revenue": 432.0,
+        "ebitda": 151.0,
+        "ebitda_margin_pct": 35.0,
         "cfo": 123.4,
-        "capex": 54.9,
-        "fcf": 68.5,
+        "capex": 88.0,
+        "fcf": -27.0,
         "cash": 105.2,
         "gross_debt": 528.8,
         "net_debt": 423.6,
@@ -2336,34 +2248,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 150.7,
-        "calculated_ebitda": 148.5,
+        "reported_ebitda": 154.02,
+        "calculated_ebitda": 151.0,
         "ebitda_reconciliation_variance_usd_m": 2.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 51.4,
-        "change_in_working_capital": -34.2,
-        "tax_expense": 7.9,
-        "fcf_conversion_pct": 46.1,
+        "cash_interest": 62.0,
+        "change_in_working_capital": 18.0,
+        "tax_expense": 10.0,
+        "fcf_conversion_pct": -17.9,
         "fcf_bridge": {
-          "calculated_ebitda": 148.5,
-          "capex": 54.9,
-          "cash_interest": 51.4,
-          "change_in_working_capital": -34.2,
-          "tax": 7.9,
-          "fcf": 68.5,
-          "formula_check": "148.5 - 54.9 - 51.4 - (-34.2) - 7.9 = 68.5"
+          "calculated_ebitda": 151.0,
+          "capex": 88.0,
+          "cash_interest": 62.0,
+          "change_in_working_capital": 18.0,
+          "tax": 10.0,
+          "fcf": -27.0,
+          "formula_check": "151.0 - 88.0 - 62.0 - (18.0) - 10.0 = -27.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 490,
-        "ebitda": 165,
-        "ebitda_margin_pct": 33.7,
+        "revenue": 445.7,
+        "ebitda": 159.0,
+        "ebitda_margin_pct": 35.7,
         "cfo": 140.2,
-        "capex": 57.7,
-        "fcf": 82.5,
+        "capex": 73.4,
+        "fcf": -62.5,
         "cash": 123.8,
         "gross_debt": 539.5,
         "net_debt": 415.7,
@@ -2376,34 +2288,34 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 167.5,
-        "calculated_ebitda": 165,
+        "reported_ebitda": 162.18,
+        "calculated_ebitda": 159.0,
         "ebitda_reconciliation_variance_usd_m": 2.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 57.1,
-        "change_in_working_capital": -41.1,
-        "tax_expense": 8.8,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 22.5,
+        "tax_expense": 11.0,
+        "fcf_conversion_pct": -39.3,
         "fcf_bridge": {
-          "calculated_ebitda": 165,
-          "capex": 57.7,
+          "calculated_ebitda": 159.0,
+          "capex": 73.4,
           "cash_interest": 57.1,
-          "change_in_working_capital": -41.1,
-          "tax": 8.8,
-          "fcf": 82.5,
-          "formula_check": "165.0 - 57.7 - 57.1 - (-41.1) - 8.8 = 82.5"
+          "change_in_working_capital": 22.5,
+          "tax": 11.0,
+          "fcf": -62.5,
+          "formula_check": "159.0 - 73.4 - 57.1 - (22.5) - 11.0 = -62.5"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 529.2,
-        "ebitda": 181.5,
-        "ebitda_margin_pct": 34.3,
+        "revenue": 475.0,
+        "ebitda": 172.0,
+        "ebitda_margin_pct": 36.2,
         "cfo": 154.3,
-        "capex": 60.6,
-        "fcf": 93.7,
+        "capex": 65.0,
+        "fcf": -14.0,
         "cash": 146,
         "gross_debt": 528.8,
         "net_debt": 382.8,
@@ -2416,34 +2328,34 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 184.2,
-        "calculated_ebitda": 181.5,
+        "reported_ebitda": 175.44,
+        "calculated_ebitda": 172.0,
         "ebitda_reconciliation_variance_usd_m": 2.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 54.8,
-        "change_in_working_capital": -38.4,
-        "tax_expense": 10.8,
-        "fcf_conversion_pct": 51.6,
+        "cash_interest": 55.0,
+        "change_in_working_capital": 14.0,
+        "tax_expense": 12.0,
+        "fcf_conversion_pct": -8.1,
         "fcf_bridge": {
-          "calculated_ebitda": 181.5,
-          "capex": 60.6,
-          "cash_interest": 54.8,
-          "change_in_working_capital": -38.4,
-          "tax": 10.8,
-          "fcf": 93.7,
-          "formula_check": "181.5 - 60.6 - 54.8 - (-38.4) - 10.8 = 93.7"
+          "calculated_ebitda": 172.0,
+          "capex": 65.0,
+          "cash_interest": 55.0,
+          "change_in_working_capital": 14.0,
+          "tax": 12.0,
+          "fcf": -14.0,
+          "formula_check": "172.0 - 65.0 - 55.0 - (14.0) - 12.0 = -14.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 563.5,
-        "ebitda": 194.7,
-        "ebitda_margin_pct": 34.6,
+        "revenue": 510.0,
+        "ebitda": 188.0,
+        "ebitda_margin_pct": 36.9,
         "cfo": 165.5,
-        "capex": 58.9,
-        "fcf": 106.6,
+        "capex": 58.0,
+        "fcf": 15.0,
         "cash": 167.1,
         "gross_debt": 512.6,
         "net_debt": 345.5,
@@ -2456,34 +2368,34 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 197.6,
-        "calculated_ebitda": 194.7,
+        "reported_ebitda": 191.76,
+        "calculated_ebitda": 188.0,
         "ebitda_reconciliation_variance_usd_m": 2.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 52.5,
-        "change_in_working_capital": -35.9,
-        "tax_expense": 12.6,
-        "fcf_conversion_pct": 54.8,
+        "cash_interest": 52.0,
+        "change_in_working_capital": 10.0,
+        "tax_expense": 13.0,
+        "fcf_conversion_pct": 8.0,
         "fcf_bridge": {
-          "calculated_ebitda": 194.7,
-          "capex": 58.9,
-          "cash_interest": 52.5,
-          "change_in_working_capital": -35.9,
-          "tax": 12.6,
-          "fcf": 106.6,
-          "formula_check": "194.7 - 58.9 - 52.5 - (-35.9) - 12.6 = 106.6"
+          "calculated_ebitda": 188.0,
+          "capex": 58.0,
+          "cash_interest": 52.0,
+          "change_in_working_capital": 10.0,
+          "tax": 13.0,
+          "fcf": 15.0,
+          "formula_check": "188.0 - 58.0 - 52.0 - (10.0) - 13.0 = 15.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 588,
-        "ebitda": 204.6,
-        "ebitda_margin_pct": 34.8,
+        "revenue": 545.0,
+        "ebitda": 204.0,
+        "ebitda_margin_pct": 37.4,
         "cfo": 175.3,
-        "capex": 56.6,
-        "fcf": 118.7,
+        "capex": 52.0,
+        "fcf": 42.0,
         "cash": 185.6,
         "gross_debt": 485.6,
         "net_debt": 300,
@@ -2496,23 +2408,23 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 207.7,
-        "calculated_ebitda": 204.6,
+        "reported_ebitda": 208.08,
+        "calculated_ebitda": 204.0,
         "ebitda_reconciliation_variance_usd_m": 3.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 50.3,
-        "change_in_working_capital": -34.9,
-        "tax_expense": 13.9,
-        "fcf_conversion_pct": 58,
+        "cash_interest": 48.0,
+        "change_in_working_capital": 8.0,
+        "tax_expense": 14.0,
+        "fcf_conversion_pct": 20.6,
         "fcf_bridge": {
-          "calculated_ebitda": 204.6,
-          "capex": 56.6,
-          "cash_interest": 50.3,
-          "change_in_working_capital": -34.9,
-          "tax": 13.9,
-          "fcf": 118.7,
-          "formula_check": "204.6 - 56.6 - 50.3 - (-34.9) - 13.9 = 118.7"
+          "calculated_ebitda": 204.0,
+          "capex": 52.0,
+          "cash_interest": 48.0,
+          "change_in_working_capital": 8.0,
+          "tax": 14.0,
+          "fcf": 42.0,
+          "formula_check": "204.0 - 52.0 - 48.0 - (8.0) - 14.0 = 42.0"
         }
       }
     ],
@@ -2946,7 +2858,8 @@ const MASTER_ISSUERS = [
       "model_file": "Akbank_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6817e86bfcdf60c814db9",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Akbank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -2976,25 +2889,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -3023,25 +2922,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -3070,25 +2955,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -3117,25 +2988,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -3164,25 +3021,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -3211,25 +3054,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -3258,25 +3087,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -3716,7 +3531,10 @@ const MASTER_ISSUERS = [
       "model_file": "Aldar_Properties_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aldar_Properties_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -185.4,
+      "net_leverage_2024a": 0.51
     },
     "financials_multi_year": [
       {
@@ -3726,8 +3544,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1007.5,
         "ebitda_margin_pct": 38.0,
         "cfo": 816.9,
-        "capex": 379.8,
-        "fcf": 437.1,
+        "capex": 526.4,
+        "fcf": -13.1,
         "cash": 639.4,
         "gross_debt": 1660.0,
         "net_debt": 1020.6,
@@ -3746,17 +3564,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$65.5M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 125.6,
-        "change_in_working_capital": -21.9,
-        "tax_expense": 86.9,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 318.2,
+        "tax_expense": 50.4,
+        "fcf_conversion_pct": -1.3,
         "fcf_bridge": {
           "calculated_ebitda": 1007.5,
-          "capex": 379.8,
+          "capex": 526.4,
           "cash_interest": 125.6,
-          "change_in_working_capital": -21.9,
-          "tax": 86.9,
-          "fcf": 437.1,
-          "formula_check": "1007.5 - 379.8 - 125.6 - (-21.9) - 86.9 = 437.1"
+          "change_in_working_capital": 318.2,
+          "tax": 50.4,
+          "fcf": -13.1,
+          "formula_check": "1007.5 - 526.4 - 125.6 - (318.2) - 50.4 = -13.1"
         }
       },
       {
@@ -3766,8 +3584,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1240.0,
         "ebitda_margin_pct": 38.8,
         "cfo": 1027.7,
-        "capex": 461.1,
-        "fcf": 566.6,
+        "capex": 920.7,
+        "fcf": -619.4,
         "cash": 813.8,
         "gross_debt": 1796.8,
         "net_debt": 983.0,
@@ -3786,17 +3604,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$80.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 157.2,
-        "change_in_working_capital": -51.5,
-        "tax_expense": 106.6,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 719.5,
+        "tax_expense": 62.0,
+        "fcf_conversion_pct": -50.0,
         "fcf_bridge": {
           "calculated_ebitda": 1240.0,
-          "capex": 461.1,
+          "capex": 920.7,
           "cash_interest": 157.2,
-          "change_in_working_capital": -51.5,
-          "tax": 106.6,
-          "fcf": 566.6,
-          "formula_check": "1240.0 - 461.1 - 157.2 - (-51.5) - 106.6 = 566.6"
+          "change_in_working_capital": 719.5,
+          "tax": 62.0,
+          "fcf": -619.4,
+          "formula_check": "1240.0 - 920.7 - 157.2 - (719.5) - 62.0 = -619.4"
         }
       },
       {
@@ -3806,8 +3624,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1395.0,
         "ebitda_margin_pct": 38.9,
         "cfo": 1159.4,
-        "capex": 515.4,
-        "fcf": 644.0,
+        "capex": 1035.8,
+        "fcf": -706.4,
         "cash": 988.1,
         "gross_debt": 1913.9,
         "net_debt": 925.8,
@@ -3826,17 +3644,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$90.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 188.5,
-        "change_in_working_capital": -71.1,
-        "tax_expense": 118.2,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 807.3,
+        "tax_expense": 69.8,
+        "fcf_conversion_pct": -50.6,
         "fcf_bridge": {
           "calculated_ebitda": 1395.0,
-          "capex": 515.4,
+          "capex": 1035.8,
           "cash_interest": 188.5,
-          "change_in_working_capital": -71.1,
-          "tax": 118.2,
-          "fcf": 644.0,
-          "formula_check": "1395.0 - 515.4 - 188.5 - (-71.1) - 118.2 = 644.0"
+          "change_in_working_capital": 807.3,
+          "tax": 69.8,
+          "fcf": -706.4,
+          "formula_check": "1395.0 - 1035.8 - 188.5 - (807.3) - 69.8 = -706.4"
         }
       },
       {
@@ -3846,8 +3664,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1550.0,
         "ebitda_margin_pct": 39.7,
         "cfo": 1317.5,
-        "capex": 542.5,
-        "fcf": 775.0,
+        "capex": 980.4,
+        "fcf": -185.4,
         "cash": 1162.5,
         "gross_debt": 1953.0,
         "net_debt": 790.5,
@@ -3866,17 +3684,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$100.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 209.5,
-        "change_in_working_capital": -108.3,
-        "tax_expense": 131.3,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 468.0,
+        "tax_expense": 77.5,
+        "fcf_conversion_pct": -12.0,
         "fcf_bridge": {
           "calculated_ebitda": 1550.0,
-          "capex": 542.5,
+          "capex": 980.4,
           "cash_interest": 209.5,
-          "change_in_working_capital": -108.3,
-          "tax": 131.3,
-          "fcf": 775.0,
-          "formula_check": "1550.0 - 542.5 - 209.5 - (-108.3) - 131.3 = 775.0"
+          "change_in_working_capital": 468.0,
+          "tax": 77.5,
+          "fcf": -185.4,
+          "formula_check": "1550.0 - 980.4 - 209.5 - (468.0) - 77.5 = -185.4"
         }
       },
       {
@@ -3886,8 +3704,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1705.0,
         "ebitda_margin_pct": 40.5,
         "cfo": 1449.3,
-        "capex": 569.6,
-        "fcf": 879.7,
+        "capex": 890.9,
+        "fcf": 22.4,
         "cash": 1371.8,
         "gross_debt": 1913.9,
         "net_debt": 542.1,
@@ -3906,17 +3724,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$110.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 201.1,
-        "change_in_working_capital": -94.3,
-        "tax_expense": 148.9,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 505.4,
+        "tax_expense": 85.2,
+        "fcf_conversion_pct": 1.3,
         "fcf_bridge": {
           "calculated_ebitda": 1705.0,
-          "capex": 569.6,
+          "capex": 890.9,
           "cash_interest": 201.1,
-          "change_in_working_capital": -94.3,
-          "tax": 148.9,
-          "fcf": 879.7,
-          "formula_check": "1705.0 - 569.6 - 201.1 - (-94.3) - 148.9 = 879.7"
+          "change_in_working_capital": 505.4,
+          "tax": 85.2,
+          "fcf": 22.4,
+          "formula_check": "1705.0 - 890.9 - 201.1 - (505.4) - 85.2 = 22.4"
         }
       },
       {
@@ -3926,8 +3744,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1829.0,
         "ebitda_margin_pct": 40.8,
         "cfo": 1554.6,
-        "capex": 553.4,
-        "fcf": 1001.2,
+        "capex": 955.7,
+        "fcf": 50.9,
         "cash": 1569.4,
         "gross_debt": 1855.3,
         "net_debt": 285.9,
@@ -3946,17 +3764,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$118.9M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 192.7,
-        "change_in_working_capital": -81.4,
-        "tax_expense": 163.1,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 538.2,
+        "tax_expense": 91.5,
+        "fcf_conversion_pct": 2.8,
         "fcf_bridge": {
           "calculated_ebitda": 1829.0,
-          "capex": 553.4,
+          "capex": 955.7,
           "cash_interest": 192.7,
-          "change_in_working_capital": -81.4,
-          "tax": 163.1,
-          "fcf": 1001.2,
-          "formula_check": "1829.0 - 553.4 - 192.7 - (-81.4) - 163.1 = 1001.2"
+          "change_in_working_capital": 538.2,
+          "tax": 91.5,
+          "fcf": 50.9,
+          "formula_check": "1829.0 - 955.7 - 192.7 - (538.2) - 91.5 = 50.9"
         }
       },
       {
@@ -3966,8 +3784,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1922.0,
         "ebitda_margin_pct": 41.1,
         "cfo": 1646.9,
-        "capex": 531.6,
-        "fcf": 1115.3,
+        "capex": 1004.2,
+        "fcf": 75.8,
         "cash": 1743.8,
         "gross_debt": 1757.7,
         "net_debt": 13.9,
@@ -3986,17 +3804,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$124.9M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 184.3,
-        "change_in_working_capital": -83.4,
-        "tax_expense": 174.2,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 561.6,
+        "tax_expense": 96.1,
+        "fcf_conversion_pct": 3.9,
         "fcf_bridge": {
           "calculated_ebitda": 1922.0,
-          "capex": 531.6,
+          "capex": 1004.2,
           "cash_interest": 184.3,
-          "change_in_working_capital": -83.4,
-          "tax": 174.2,
-          "fcf": 1115.3,
-          "formula_check": "1922.0 - 531.6 - 184.3 - (-83.4) - 174.2 = 1115.3"
+          "change_in_working_capital": 561.6,
+          "tax": 96.1,
+          "fcf": 75.8,
+          "formula_check": "1922.0 - 1004.2 - 184.3 - (561.6) - 96.1 = 75.8"
         }
       }
     ],
@@ -4434,7 +4252,10 @@ const MASTER_ISSUERS = [
       "model_file": "Arada_Credit_Model.xlsx",
       "notion_id": "3e01d0ad68c6819c9db2e3117db89214",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Arada_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -89.8,
+      "net_leverage_2024a": 1.89
     },
     "financials_multi_year": [
       {
@@ -4444,8 +4265,8 @@ const MASTER_ISSUERS = [
         "ebitda": 175.5,
         "ebitda_margin_pct": 28.1,
         "cfo": 142.3,
-        "capex": 66.1,
-        "fcf": 76.2,
+        "capex": 91.7,
+        "fcf": -39.1,
         "cash": 111.4,
         "gross_debt": 605.9,
         "net_debt": 494.5,
@@ -4464,17 +4285,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$11.4M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 39.0,
-        "change_in_working_capital": -18.4,
-        "tax_expense": 12.6,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 75.1,
+        "tax_expense": 8.8,
+        "fcf_conversion_pct": -22.3,
         "fcf_bridge": {
           "calculated_ebitda": 175.5,
-          "capex": 66.1,
+          "capex": 91.7,
           "cash_interest": 39.0,
-          "change_in_working_capital": -18.4,
-          "tax": 12.6,
-          "fcf": 76.2,
-          "formula_check": "175.5 - 66.1 - 39.0 - (-18.4) - 12.6 = 76.2"
+          "change_in_working_capital": 75.1,
+          "tax": 8.8,
+          "fcf": -39.1,
+          "formula_check": "175.5 - 91.7 - 39.0 - (75.1) - 8.8 = -39.1"
         }
       },
       {
@@ -4484,8 +4305,8 @@ const MASTER_ISSUERS = [
         "ebitda": 216.0,
         "ebitda_margin_pct": 28.6,
         "cfo": 179.0,
-        "capex": 80.3,
-        "fcf": 98.7,
+        "capex": 160.4,
+        "fcf": -173.7,
         "cash": 141.8,
         "gross_debt": 655.8,
         "net_debt": 514.0,
@@ -4504,17 +4325,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$14.0M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 48.8,
-        "change_in_working_capital": -27.2,
-        "tax_expense": 15.4,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 169.7,
+        "tax_expense": 10.8,
+        "fcf_conversion_pct": -80.4,
         "fcf_bridge": {
           "calculated_ebitda": 216.0,
-          "capex": 80.3,
+          "capex": 160.4,
           "cash_interest": 48.8,
-          "change_in_working_capital": -27.2,
-          "tax": 15.4,
-          "fcf": 98.7,
-          "formula_check": "216.0 - 80.3 - 48.8 - (-27.2) - 15.4 = 98.7"
+          "change_in_working_capital": 169.7,
+          "tax": 10.8,
+          "fcf": -173.7,
+          "formula_check": "216.0 - 160.4 - 48.8 - (169.7) - 10.8 = -173.7"
         }
       },
       {
@@ -4524,8 +4345,8 @@ const MASTER_ISSUERS = [
         "ebitda": 243.0,
         "ebitda_margin_pct": 28.7,
         "cfo": 202.0,
-        "capex": 89.8,
-        "fcf": 112.2,
+        "capex": 180.4,
+        "fcf": -198.6,
         "cash": 172.1,
         "gross_debt": 698.5,
         "net_debt": 526.4,
@@ -4544,17 +4365,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$15.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 58.6,
-        "change_in_working_capital": -34.3,
-        "tax_expense": 16.7,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 190.4,
+        "tax_expense": 12.2,
+        "fcf_conversion_pct": -81.7,
         "fcf_bridge": {
           "calculated_ebitda": 243.0,
-          "capex": 89.8,
+          "capex": 180.4,
           "cash_interest": 58.6,
-          "change_in_working_capital": -34.3,
-          "tax": 16.7,
-          "fcf": 112.2,
-          "formula_check": "243.0 - 89.8 - 58.6 - (-34.3) - 16.7 = 112.2"
+          "change_in_working_capital": 190.4,
+          "tax": 12.2,
+          "fcf": -198.6,
+          "formula_check": "243.0 - 180.4 - 58.6 - (190.4) - 12.2 = -198.6"
         }
       },
       {
@@ -4564,8 +4385,8 @@ const MASTER_ISSUERS = [
         "ebitda": 270.0,
         "ebitda_margin_pct": 29.3,
         "cfo": 229.5,
-        "capex": 94.5,
-        "fcf": 135.0,
+        "capex": 170.8,
+        "fcf": -89.8,
         "cash": 202.5,
         "gross_debt": 712.8,
         "net_debt": 510.3,
@@ -4584,17 +4405,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$17.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 65.1,
-        "change_in_working_capital": -43.2,
-        "tax_expense": 18.6,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 110.4,
+        "tax_expense": 13.5,
+        "fcf_conversion_pct": -33.3,
         "fcf_bridge": {
           "calculated_ebitda": 270.0,
-          "capex": 94.5,
+          "capex": 170.8,
           "cash_interest": 65.1,
-          "change_in_working_capital": -43.2,
-          "tax": 18.6,
-          "fcf": 135.0,
-          "formula_check": "270.0 - 94.5 - 65.1 - (-43.2) - 18.6 = 135.0"
+          "change_in_working_capital": 110.4,
+          "tax": 13.5,
+          "fcf": -89.8,
+          "formula_check": "270.0 - 170.8 - 65.1 - (110.4) - 13.5 = -89.8"
         }
       },
       {
@@ -4604,8 +4425,8 @@ const MASTER_ISSUERS = [
         "ebitda": 297.0,
         "ebitda_margin_pct": 29.9,
         "cfo": 252.5,
-        "capex": 99.2,
-        "fcf": 153.3,
+        "capex": 155.2,
+        "fcf": -54.7,
         "cash": 238.9,
         "gross_debt": 698.5,
         "net_debt": 459.6,
@@ -4624,17 +4445,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$19.3M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 62.4,
-        "change_in_working_capital": -39.7,
-        "tax_expense": 21.8,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 119.2,
+        "tax_expense": 14.9,
+        "fcf_conversion_pct": -18.4,
         "fcf_bridge": {
           "calculated_ebitda": 297.0,
-          "capex": 99.2,
+          "capex": 155.2,
           "cash_interest": 62.4,
-          "change_in_working_capital": -39.7,
-          "tax": 21.8,
-          "fcf": 153.3,
-          "formula_check": "297.0 - 99.2 - 62.4 - (-39.7) - 21.8 = 153.3"
+          "change_in_working_capital": 119.2,
+          "tax": 14.9,
+          "fcf": -54.7,
+          "formula_check": "297.0 - 155.2 - 62.4 - (119.2) - 14.9 = -54.7"
         }
       },
       {
@@ -4644,8 +4465,8 @@ const MASTER_ISSUERS = [
         "ebitda": 318.6,
         "ebitda_margin_pct": 30.1,
         "cfo": 270.8,
-        "capex": 96.4,
-        "fcf": 174.4,
+        "capex": 166.5,
+        "fcf": -50.7,
         "cash": 273.4,
         "gross_debt": 677.2,
         "net_debt": 403.8,
@@ -4664,17 +4485,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$20.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 59.9,
-        "change_in_working_capital": -36.6,
-        "tax_expense": 24.5,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 127.0,
+        "tax_expense": 15.9,
+        "fcf_conversion_pct": -15.9,
         "fcf_bridge": {
           "calculated_ebitda": 318.6,
-          "capex": 96.4,
+          "capex": 166.5,
           "cash_interest": 59.9,
-          "change_in_working_capital": -36.6,
-          "tax": 24.5,
-          "fcf": 174.4,
-          "formula_check": "318.6 - 96.4 - 59.9 - (-36.6) - 24.5 = 174.4"
+          "change_in_working_capital": 127.0,
+          "tax": 15.9,
+          "fcf": -50.7,
+          "formula_check": "318.6 - 166.5 - 59.9 - (127.0) - 15.9 = -50.7"
         }
       },
       {
@@ -4684,8 +4505,8 @@ const MASTER_ISSUERS = [
         "ebitda": 334.8,
         "ebitda_margin_pct": 30.3,
         "cfo": 286.9,
-        "capex": 92.6,
-        "fcf": 194.3,
+        "capex": 174.9,
+        "fcf": -46.5,
         "cash": 303.8,
         "gross_debt": 641.5,
         "net_debt": 337.7,
@@ -4704,17 +4525,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$21.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 57.2,
-        "change_in_working_capital": -35.9,
-        "tax_expense": 26.6,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 132.5,
+        "tax_expense": 16.7,
+        "fcf_conversion_pct": -13.9,
         "fcf_bridge": {
           "calculated_ebitda": 334.8,
-          "capex": 92.6,
+          "capex": 174.9,
           "cash_interest": 57.2,
-          "change_in_working_capital": -35.9,
-          "tax": 26.6,
-          "fcf": 194.3,
-          "formula_check": "334.8 - 92.6 - 57.2 - (-35.9) - 26.6 = 194.3"
+          "change_in_working_capital": 132.5,
+          "tax": 16.7,
+          "fcf": -46.5,
+          "formula_check": "334.8 - 174.9 - 57.2 - (132.5) - 16.7 = -46.5"
         }
       }
     ],
@@ -5152,7 +4973,10 @@ const MASTER_ISSUERS = [
       "model_file": "Aragvi_Holding_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681089456caf1fef61b55",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aragvi_Holding_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -15.1,
+      "net_leverage_2024a": 2.63
     },
     "financials_multi_year": [
       {
@@ -5162,8 +4986,8 @@ const MASTER_ISSUERS = [
         "ebitda": 104.0,
         "ebitda_margin_pct": 10.5,
         "cfo": 84.3,
-        "capex": 39.2,
-        "fcf": 45.1,
+        "capex": 34.6,
+        "fcf": -1.0,
         "cash": 66.0,
         "gross_debt": 459.7,
         "net_debt": 393.7,
@@ -5182,17 +5006,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 31.1,
-        "change_in_working_capital": -17.7,
-        "tax_expense": 6.3,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 23.7,
+        "tax_expense": 15.6,
+        "fcf_conversion_pct": -1.0,
         "fcf_bridge": {
           "calculated_ebitda": 104.0,
-          "capex": 39.2,
+          "capex": 34.6,
           "cash_interest": 31.1,
-          "change_in_working_capital": -17.7,
-          "tax": 6.3,
-          "fcf": 45.1,
-          "formula_check": "104.0 - 39.2 - 31.1 - (-17.7) - 6.3 = 45.1"
+          "change_in_working_capital": 23.7,
+          "tax": 15.6,
+          "fcf": -1.0,
+          "formula_check": "104.0 - 34.6 - 31.1 - (23.7) - 15.6 = -1.0"
         }
       },
       {
@@ -5202,8 +5026,8 @@ const MASTER_ISSUERS = [
         "ebitda": 128.0,
         "ebitda_margin_pct": 10.8,
         "cfo": 106.1,
-        "capex": 47.6,
-        "fcf": 58.5,
+        "capex": 60.5,
+        "fcf": -44.1,
         "cash": 84.0,
         "gross_debt": 497.5,
         "net_debt": 413.5,
@@ -5222,17 +5046,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 38.9,
-        "change_in_working_capital": -24.6,
-        "tax_expense": 7.6,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 53.5,
+        "tax_expense": 19.2,
+        "fcf_conversion_pct": -34.5,
         "fcf_bridge": {
           "calculated_ebitda": 128.0,
-          "capex": 47.6,
+          "capex": 60.5,
           "cash_interest": 38.9,
-          "change_in_working_capital": -24.6,
-          "tax": 7.6,
-          "fcf": 58.5,
-          "formula_check": "128.0 - 47.6 - 38.9 - (-24.6) - 7.6 = 58.5"
+          "change_in_working_capital": 53.5,
+          "tax": 19.2,
+          "fcf": -44.1,
+          "formula_check": "128.0 - 60.5 - 38.9 - (53.5) - 19.2 = -44.1"
         }
       },
       {
@@ -5242,8 +5066,8 @@ const MASTER_ISSUERS = [
         "ebitda": 144.0,
         "ebitda_margin_pct": 10.8,
         "cfo": 119.7,
-        "capex": 53.2,
-        "fcf": 66.5,
+        "capex": 68.0,
+        "fcf": -52.4,
         "cash": 102.0,
         "gross_debt": 530.0,
         "net_debt": 428.0,
@@ -5262,17 +5086,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 46.8,
-        "change_in_working_capital": -30.6,
-        "tax_expense": 8.1,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 60.0,
+        "tax_expense": 21.6,
+        "fcf_conversion_pct": -36.4,
         "fcf_bridge": {
           "calculated_ebitda": 144.0,
-          "capex": 53.2,
+          "capex": 68.0,
           "cash_interest": 46.8,
-          "change_in_working_capital": -30.6,
-          "tax": 8.1,
-          "fcf": 66.5,
-          "formula_check": "144.0 - 53.2 - 46.8 - (-30.6) - 8.1 = 66.5"
+          "change_in_working_capital": 60.0,
+          "tax": 21.6,
+          "fcf": -52.4,
+          "formula_check": "144.0 - 68.0 - 46.8 - (60.0) - 21.6 = -52.4"
         }
       },
       {
@@ -5282,8 +5106,8 @@ const MASTER_ISSUERS = [
         "ebitda": 160.0,
         "ebitda_margin_pct": 11.0,
         "cfo": 136.0,
-        "capex": 56.0,
-        "fcf": 80.0,
+        "capex": 64.4,
+        "fcf": -15.1,
         "cash": 120.0,
         "gross_debt": 540.8,
         "net_debt": 420.8,
@@ -5302,17 +5126,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 51.9,
-        "change_in_working_capital": -36.9,
-        "tax_expense": 9.0,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 34.8,
+        "tax_expense": 24.0,
+        "fcf_conversion_pct": -9.4,
         "fcf_bridge": {
           "calculated_ebitda": 160.0,
-          "capex": 56.0,
+          "capex": 64.4,
           "cash_interest": 51.9,
-          "change_in_working_capital": -36.9,
-          "tax": 9.0,
-          "fcf": 80.0,
-          "formula_check": "160.0 - 56.0 - 51.9 - (-36.9) - 9.0 = 80.0"
+          "change_in_working_capital": 34.8,
+          "tax": 24.0,
+          "fcf": -15.1,
+          "formula_check": "160.0 - 64.4 - 51.9 - (34.8) - 24.0 = -15.1"
         }
       },
       {
@@ -5322,8 +5146,8 @@ const MASTER_ISSUERS = [
         "ebitda": 176.0,
         "ebitda_margin_pct": 11.2,
         "cfo": 149.6,
-        "capex": 58.8,
-        "fcf": 90.8,
+        "capex": 58.5,
+        "fcf": 3.6,
         "cash": 141.6,
         "gross_debt": 530.0,
         "net_debt": 388.4,
@@ -5342,17 +5166,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 49.9,
-        "change_in_working_capital": -34.5,
-        "tax_expense": 11.0,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 37.6,
+        "tax_expense": 26.4,
+        "fcf_conversion_pct": 2.0,
         "fcf_bridge": {
           "calculated_ebitda": 176.0,
-          "capex": 58.8,
+          "capex": 58.5,
           "cash_interest": 49.9,
-          "change_in_working_capital": -34.5,
-          "tax": 11.0,
-          "fcf": 90.8,
-          "formula_check": "176.0 - 58.8 - 49.9 - (-34.5) - 11.0 = 90.8"
+          "change_in_working_capital": 37.6,
+          "tax": 26.4,
+          "fcf": 3.6,
+          "formula_check": "176.0 - 58.5 - 49.9 - (37.6) - 26.4 = 3.6"
         }
       },
       {
@@ -5362,8 +5186,8 @@ const MASTER_ISSUERS = [
         "ebitda": 188.8,
         "ebitda_margin_pct": 11.3,
         "cfo": 160.5,
-        "capex": 57.1,
-        "fcf": 103.4,
+        "capex": 62.8,
+        "fcf": 9.9,
         "cash": 162.0,
         "gross_debt": 513.8,
         "net_debt": 351.8,
@@ -5382,17 +5206,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 47.8,
-        "change_in_working_capital": -32.2,
-        "tax_expense": 12.7,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 40.0,
+        "tax_expense": 28.3,
+        "fcf_conversion_pct": 5.2,
         "fcf_bridge": {
           "calculated_ebitda": 188.8,
-          "capex": 57.1,
+          "capex": 62.8,
           "cash_interest": 47.8,
-          "change_in_working_capital": -32.2,
-          "tax": 12.7,
-          "fcf": 103.4,
-          "formula_check": "188.8 - 57.1 - 47.8 - (-32.2) - 12.7 = 103.4"
+          "change_in_working_capital": 40.0,
+          "tax": 28.3,
+          "fcf": 9.9,
+          "formula_check": "188.8 - 62.8 - 47.8 - (40.0) - 28.3 = 9.9"
         }
       },
       {
@@ -5402,8 +5226,8 @@ const MASTER_ISSUERS = [
         "ebitda": 198.4,
         "ebitda_margin_pct": 11.4,
         "cfo": 170.0,
-        "capex": 54.9,
-        "fcf": 115.1,
+        "capex": 66.0,
+        "fcf": 15.1,
         "cash": 180.0,
         "gross_debt": 486.7,
         "net_debt": 306.7,
@@ -5422,17 +5246,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 45.7,
-        "change_in_working_capital": -31.3,
-        "tax_expense": 14.0,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 41.8,
+        "tax_expense": 29.8,
+        "fcf_conversion_pct": 7.6,
         "fcf_bridge": {
           "calculated_ebitda": 198.4,
-          "capex": 54.9,
+          "capex": 66.0,
           "cash_interest": 45.7,
-          "change_in_working_capital": -31.3,
-          "tax": 14.0,
-          "fcf": 115.1,
-          "formula_check": "198.4 - 54.9 - 45.7 - (-31.3) - 14.0 = 115.1"
+          "change_in_working_capital": 41.8,
+          "tax": 29.8,
+          "fcf": 15.1,
+          "formula_check": "198.4 - 66.0 - 45.7 - (41.8) - 29.8 = 15.1"
         }
       }
     ],
@@ -5868,7 +5692,10 @@ const MASTER_ISSUERS = [
       "model_file": "Aydem_Renewable_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681008c2ee5226c1af03d",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aydem_Renewable_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -82.6,
+      "net_leverage_2024a": 4.11
     },
     "financials_multi_year": [
       {
@@ -5878,8 +5705,8 @@ const MASTER_ISSUERS = [
         "ebitda": 123.5,
         "ebitda_margin_pct": 69.9,
         "cfo": 100.1,
-        "capex": 46.5,
-        "fcf": 53.6,
+        "capex": 99.7,
+        "fcf": -29.6,
         "cash": 78.4,
         "gross_debt": 784.9,
         "net_debt": 706.5,
@@ -5898,17 +5725,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 39.3,
-        "change_in_working_capital": -23.0,
-        "tax_expense": 7.1,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 4.2,
+        "tax_expense": 9.9,
+        "fcf_conversion_pct": -24.0,
         "fcf_bridge": {
           "calculated_ebitda": 123.5,
-          "capex": 46.5,
+          "capex": 99.7,
           "cash_interest": 39.3,
-          "change_in_working_capital": -23.0,
-          "tax": 7.1,
-          "fcf": 53.6,
-          "formula_check": "123.5 - 46.5 - 39.3 - (-23.0) - 7.1 = 53.6"
+          "change_in_working_capital": 4.2,
+          "tax": 9.9,
+          "fcf": -29.6,
+          "formula_check": "123.5 - 99.7 - 39.3 - (4.2) - 9.9 = -29.6"
         }
       },
       {
@@ -5918,8 +5745,8 @@ const MASTER_ISSUERS = [
         "ebitda": 152.0,
         "ebitda_margin_pct": 71.3,
         "cfo": 126.0,
-        "capex": 56.5,
-        "fcf": 69.5,
+        "capex": 174.4,
+        "fcf": -93.4,
         "cash": 99.8,
         "gross_debt": 849.5,
         "net_debt": 749.7,
@@ -5938,17 +5765,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$8.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 49.2,
-        "change_in_working_capital": -31.8,
-        "tax_expense": 8.6,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 9.6,
+        "tax_expense": 12.2,
+        "fcf_conversion_pct": -61.4,
         "fcf_bridge": {
           "calculated_ebitda": 152.0,
-          "capex": 56.5,
+          "capex": 174.4,
           "cash_interest": 49.2,
-          "change_in_working_capital": -31.8,
-          "tax": 8.6,
-          "fcf": 69.5,
-          "formula_check": "152.0 - 56.5 - 49.2 - (-31.8) - 8.6 = 69.5"
+          "change_in_working_capital": 9.6,
+          "tax": 12.2,
+          "fcf": -93.4,
+          "formula_check": "152.0 - 174.4 - 49.2 - (9.6) - 12.2 = -93.4"
         }
       },
       {
@@ -5958,8 +5785,8 @@ const MASTER_ISSUERS = [
         "ebitda": 171.0,
         "ebitda_margin_pct": 71.5,
         "cfo": 142.1,
-        "capex": 63.2,
-        "fcf": 78.9,
+        "capex": 196.2,
+        "fcf": -108.7,
         "cash": 121.1,
         "gross_debt": 904.9,
         "net_debt": 783.8,
@@ -5978,17 +5805,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$9.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 59.0,
-        "change_in_working_capital": -39.2,
-        "tax_expense": 9.1,
-        "fcf_conversion_pct": 46.1,
+        "change_in_working_capital": 10.8,
+        "tax_expense": 13.7,
+        "fcf_conversion_pct": -63.6,
         "fcf_bridge": {
           "calculated_ebitda": 171.0,
-          "capex": 63.2,
+          "capex": 196.2,
           "cash_interest": 59.0,
-          "change_in_working_capital": -39.2,
-          "tax": 9.1,
-          "fcf": 78.9,
-          "formula_check": "171.0 - 63.2 - 59.0 - (-39.2) - 9.1 = 78.9"
+          "change_in_working_capital": 10.8,
+          "tax": 13.7,
+          "fcf": -108.7,
+          "formula_check": "171.0 - 196.2 - 59.0 - (10.8) - 13.7 = -108.7"
         }
       },
       {
@@ -5998,8 +5825,8 @@ const MASTER_ISSUERS = [
         "ebitda": 190.0,
         "ebitda_margin_pct": 73.1,
         "cfo": 161.5,
-        "capex": 66.5,
-        "fcf": 95.0,
+        "capex": 185.7,
+        "fcf": -82.6,
         "cash": 142.5,
         "gross_debt": 923.4,
         "net_debt": 780.9,
@@ -6018,17 +5845,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$10.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 65.5,
-        "change_in_working_capital": -47.1,
-        "tax_expense": 10.1,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 6.2,
+        "tax_expense": 15.2,
+        "fcf_conversion_pct": -43.5,
         "fcf_bridge": {
           "calculated_ebitda": 190.0,
-          "capex": 66.5,
+          "capex": 185.7,
           "cash_interest": 65.5,
-          "change_in_working_capital": -47.1,
-          "tax": 10.1,
-          "fcf": 95.0,
-          "formula_check": "190.0 - 66.5 - 65.5 - (-47.1) - 10.1 = 95.0"
+          "change_in_working_capital": 6.2,
+          "tax": 15.2,
+          "fcf": -82.6,
+          "formula_check": "190.0 - 185.7 - 65.5 - (6.2) - 15.2 = -82.6"
         }
       },
       {
@@ -6038,8 +5865,8 @@ const MASTER_ISSUERS = [
         "ebitda": 209.0,
         "ebitda_margin_pct": 74.4,
         "cfo": 177.7,
-        "capex": 69.8,
-        "fcf": 107.9,
+        "capex": 168.8,
+        "fcf": -46.2,
         "cash": 168.1,
         "gross_debt": 904.9,
         "net_debt": 736.8,
@@ -6058,17 +5885,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 63.0,
-        "change_in_working_capital": -44.2,
-        "tax_expense": 12.5,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 6.7,
+        "tax_expense": 16.7,
+        "fcf_conversion_pct": -22.1,
         "fcf_bridge": {
           "calculated_ebitda": 209.0,
-          "capex": 69.8,
+          "capex": 168.8,
           "cash_interest": 63.0,
-          "change_in_working_capital": -44.2,
-          "tax": 12.5,
-          "fcf": 107.9,
-          "formula_check": "209.0 - 69.8 - 63.0 - (-44.2) - 12.5 = 107.9"
+          "change_in_working_capital": 6.7,
+          "tax": 16.7,
+          "fcf": -46.2,
+          "formula_check": "209.0 - 168.8 - 63.0 - (6.7) - 16.7 = -46.2"
         }
       },
       {
@@ -6078,8 +5905,8 @@ const MASTER_ISSUERS = [
         "ebitda": 224.2,
         "ebitda_margin_pct": 75.0,
         "cfo": 190.6,
-        "capex": 67.8,
-        "fcf": 122.8,
+        "capex": 181.0,
+        "fcf": -42.2,
         "cash": 192.4,
         "gross_debt": 877.2,
         "net_debt": 684.8,
@@ -6098,17 +5925,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 60.3,
-        "change_in_working_capital": -41.2,
-        "tax_expense": 14.5,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 7.2,
+        "tax_expense": 17.9,
+        "fcf_conversion_pct": -18.8,
         "fcf_bridge": {
           "calculated_ebitda": 224.2,
-          "capex": 67.8,
+          "capex": 181.0,
           "cash_interest": 60.3,
-          "change_in_working_capital": -41.2,
-          "tax": 14.5,
-          "fcf": 122.8,
-          "formula_check": "224.2 - 67.8 - 60.3 - (-41.2) - 14.5 = 122.8"
+          "change_in_working_capital": 7.2,
+          "tax": 17.9,
+          "fcf": -42.2,
+          "formula_check": "224.2 - 181.0 - 60.3 - (7.2) - 17.9 = -42.2"
         }
       },
       {
@@ -6118,8 +5945,8 @@ const MASTER_ISSUERS = [
         "ebitda": 235.6,
         "ebitda_margin_pct": 75.5,
         "cfo": 201.9,
-        "capex": 65.2,
-        "fcf": 136.7,
+        "capex": 190.2,
+        "fcf": -38.5,
         "cash": 213.8,
         "gross_debt": 831.1,
         "net_debt": 617.3,
@@ -6138,17 +5965,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 57.6,
-        "change_in_working_capital": -40.0,
-        "tax_expense": 16.1,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 7.5,
+        "tax_expense": 18.8,
+        "fcf_conversion_pct": -16.3,
         "fcf_bridge": {
           "calculated_ebitda": 235.6,
-          "capex": 65.2,
+          "capex": 190.2,
           "cash_interest": 57.6,
-          "change_in_working_capital": -40.0,
-          "tax": 16.1,
-          "fcf": 136.7,
-          "formula_check": "235.6 - 65.2 - 57.6 - (-40.0) - 16.1 = 136.7"
+          "change_in_working_capital": 7.5,
+          "tax": 18.8,
+          "fcf": -38.5,
+          "formula_check": "235.6 - 190.2 - 57.6 - (7.5) - 18.8 = -38.5"
         }
       }
     ],
@@ -6589,7 +6416,10 @@ const MASTER_ISSUERS = [
       "model_file": "Azule_Energy_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c68104b021cc5179c679db",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Azule_Energy_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 376.9,
+      "net_leverage_2024a": 1.58
     },
     "financials_multi_year": [
       {
@@ -6599,8 +6429,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1462.5,
         "ebitda_margin_pct": 63.3,
         "cfo": 1185.8,
-        "capex": 551.2,
-        "fcf": 634.6,
+        "capex": 625.2,
+        "fcf": 389.9,
         "cash": 928.1,
         "gross_debt": 4456.1,
         "net_debt": 3528.0,
@@ -6619,17 +6449,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$21.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 197.9,
-        "change_in_working_capital": -45.1,
-        "tax_expense": 123.9,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 74.0,
+        "tax_expense": 175.5,
+        "fcf_conversion_pct": 26.7,
         "fcf_bridge": {
           "calculated_ebitda": 1462.5,
-          "capex": 551.2,
+          "capex": 625.2,
           "cash_interest": 197.9,
-          "change_in_working_capital": -45.1,
-          "tax": 123.9,
-          "fcf": 634.6,
-          "formula_check": "1462.5 - 551.2 - 197.9 - (-45.1) - 123.9 = 634.6"
+          "change_in_working_capital": 74.0,
+          "tax": 175.5,
+          "fcf": 389.9,
+          "formula_check": "1462.5 - 625.2 - 197.9 - (74.0) - 175.5 = 389.9"
         }
       },
       {
@@ -6639,8 +6469,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1800.0,
         "ebitda_margin_pct": 64.6,
         "cfo": 1491.8,
-        "capex": 669.4,
-        "fcf": 822.4,
+        "capex": 1093.5,
+        "fcf": 75.6,
         "cash": 1181.2,
         "gross_debt": 4823.1,
         "net_debt": 3641.9,
@@ -6659,17 +6489,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 247.6,
-        "change_in_working_capital": -91.3,
-        "tax_expense": 151.9,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 167.3,
+        "tax_expense": 216.0,
+        "fcf_conversion_pct": 4.2,
         "fcf_bridge": {
           "calculated_ebitda": 1800.0,
-          "capex": 669.4,
+          "capex": 1093.5,
           "cash_interest": 247.6,
-          "change_in_working_capital": -91.3,
-          "tax": 151.9,
-          "fcf": 822.4,
-          "formula_check": "1800.0 - 669.4 - 247.6 - (-91.3) - 151.9 = 822.4"
+          "change_in_working_capital": 167.3,
+          "tax": 216.0,
+          "fcf": 75.6,
+          "formula_check": "1800.0 - 1093.5 - 247.6 - (167.3) - 216.0 = 75.6"
         }
       },
       {
@@ -6679,8 +6509,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2025.0,
         "ebitda_margin_pct": 64.7,
         "cfo": 1683.0,
-        "capex": 748.1,
-        "fcf": 934.9,
+        "capex": 1230.2,
+        "fcf": 67.2,
         "cash": 1434.4,
         "gross_debt": 5137.6,
         "net_debt": 3703.2,
@@ -6699,17 +6529,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$30.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 296.9,
-        "change_in_working_capital": -123.0,
-        "tax_expense": 168.1,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 187.7,
+        "tax_expense": 243.0,
+        "fcf_conversion_pct": 3.3,
         "fcf_bridge": {
           "calculated_ebitda": 2025.0,
-          "capex": 748.1,
+          "capex": 1230.2,
           "cash_interest": 296.9,
-          "change_in_working_capital": -123.0,
-          "tax": 168.1,
-          "fcf": 934.9,
-          "formula_check": "2025.0 - 748.1 - 296.9 - (-123.0) - 168.1 = 934.9"
+          "change_in_working_capital": 187.7,
+          "tax": 243.0,
+          "fcf": 67.2,
+          "formula_check": "2025.0 - 1230.2 - 296.9 - (187.7) - 243.0 = 67.2"
         }
       },
       {
@@ -6719,8 +6549,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2250.0,
         "ebitda_margin_pct": 66.2,
         "cfo": 1912.5,
-        "capex": 787.5,
-        "fcf": 1125.0,
+        "capex": 1164.4,
+        "fcf": 376.9,
         "cash": 1687.5,
         "gross_debt": 5242.5,
         "net_debt": 3555.0,
@@ -6739,17 +6569,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 329.9,
-        "change_in_working_capital": -179.2,
-        "tax_expense": 186.8,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 108.8,
+        "tax_expense": 270.0,
+        "fcf_conversion_pct": 16.8,
         "fcf_bridge": {
           "calculated_ebitda": 2250.0,
-          "capex": 787.5,
+          "capex": 1164.4,
           "cash_interest": 329.9,
-          "change_in_working_capital": -179.2,
-          "tax": 186.8,
-          "fcf": 1125.0,
-          "formula_check": "2250.0 - 787.5 - 329.9 - (-179.2) - 186.8 = 1125.0"
+          "change_in_working_capital": 108.8,
+          "tax": 270.0,
+          "fcf": 376.9,
+          "formula_check": "2250.0 - 1164.4 - 329.9 - (108.8) - 270.0 = 376.9"
         }
       },
       {
@@ -6759,8 +6589,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2475.0,
         "ebitda_margin_pct": 67.4,
         "cfo": 2103.8,
-        "capex": 826.9,
-        "fcf": 1276.9,
+        "capex": 1058.1,
+        "fcf": 685.5,
         "cash": 1991.2,
         "gross_debt": 5137.6,
         "net_debt": 3146.4,
@@ -6779,17 +6609,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 316.9,
-        "change_in_working_capital": -158.0,
-        "tax_expense": 212.3,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 117.5,
+        "tax_expense": 297.0,
+        "fcf_conversion_pct": 27.7,
         "fcf_bridge": {
           "calculated_ebitda": 2475.0,
-          "capex": 826.9,
+          "capex": 1058.1,
           "cash_interest": 316.9,
-          "change_in_working_capital": -158.0,
-          "tax": 212.3,
-          "fcf": 1276.9,
-          "formula_check": "2475.0 - 826.9 - 316.9 - (-158.0) - 212.3 = 1276.9"
+          "change_in_working_capital": 117.5,
+          "tax": 297.0,
+          "fcf": 685.5,
+          "formula_check": "2475.0 - 1058.1 - 316.9 - (117.5) - 297.0 = 685.5"
         }
       },
       {
@@ -6799,8 +6629,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2655.0,
         "ebitda_margin_pct": 67.9,
         "cfo": 2256.8,
-        "capex": 803.2,
-        "fcf": 1453.6,
+        "capex": 1135.0,
+        "fcf": 772.9,
         "cash": 2278.1,
         "gross_debt": 4980.4,
         "net_debt": 2702.3,
@@ -6819,17 +6649,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$39.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 303.4,
-        "change_in_working_capital": -138.5,
-        "tax_expense": 233.3,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 125.1,
+        "tax_expense": 318.6,
+        "fcf_conversion_pct": 29.1,
         "fcf_bridge": {
           "calculated_ebitda": 2655.0,
-          "capex": 803.2,
+          "capex": 1135.0,
           "cash_interest": 303.4,
-          "change_in_working_capital": -138.5,
-          "tax": 233.3,
-          "fcf": 1453.6,
-          "formula_check": "2655.0 - 803.2 - 303.4 - (-138.5) - 233.3 = 1453.6"
+          "change_in_working_capital": 125.1,
+          "tax": 318.6,
+          "fcf": 772.9,
+          "formula_check": "2655.0 - 1135.0 - 303.4 - (125.1) - 318.6 = 772.9"
         }
       },
       {
@@ -6839,8 +6669,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2790.0,
         "ebitda_margin_pct": 68.4,
         "cfo": 2390.6,
-        "capex": 771.8,
-        "fcf": 1618.8,
+        "capex": 1192.7,
+        "fcf": 841.6,
         "cash": 2531.2,
         "gross_debt": 4718.2,
         "net_debt": 2187.0,
@@ -6859,17 +6689,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$41.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 290.3,
-        "change_in_working_capital": -140.3,
-        "tax_expense": 249.4,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 130.6,
+        "tax_expense": 334.8,
+        "fcf_conversion_pct": 30.2,
         "fcf_bridge": {
           "calculated_ebitda": 2790.0,
-          "capex": 771.8,
+          "capex": 1192.7,
           "cash_interest": 290.3,
-          "change_in_working_capital": -140.3,
-          "tax": 249.4,
-          "fcf": 1618.8,
-          "formula_check": "2790.0 - 771.8 - 290.3 - (-140.3) - 249.4 = 1618.8"
+          "change_in_working_capital": 130.6,
+          "tax": 334.8,
+          "fcf": 841.6,
+          "formula_check": "2790.0 - 1192.7 - 290.3 - (130.6) - 334.8 = 841.6"
         }
       }
     ],
@@ -7329,7 +7159,10 @@ const MASTER_ISSUERS = [
       "model_file": "Bapco_Energies_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8138-bce5-cc98fa4260f4",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Bapco_Energies_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -222.1,
+      "net_leverage_2024a": 3.4
     },
     "financials_multi_year": [
       {
@@ -7339,8 +7172,8 @@ const MASTER_ISSUERS = [
         "ebitda": 812.5,
         "ebitda_margin_pct": 14.1,
         "cfo": 658.8,
-        "capex": 306.2,
-        "fcf": 352.6,
+        "capex": 347.3,
+        "fcf": -59.1,
         "cash": 515.6,
         "gross_debt": 4409.4,
         "net_debt": 3893.8,
@@ -7359,17 +7192,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 241.8,
-        "change_in_working_capital": -137.1,
-        "tax_expense": 49.0,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 185.0,
+        "tax_expense": 97.5,
+        "fcf_conversion_pct": -7.3,
         "fcf_bridge": {
           "calculated_ebitda": 812.5,
-          "capex": 306.2,
+          "capex": 347.3,
           "cash_interest": 241.8,
-          "change_in_working_capital": -137.1,
-          "tax": 49.0,
-          "fcf": 352.6,
-          "formula_check": "812.5 - 306.2 - 241.8 - (-137.1) - 49.0 = 352.6"
+          "change_in_working_capital": 185.0,
+          "tax": 97.5,
+          "fcf": -59.1,
+          "formula_check": "812.5 - 347.3 - 241.8 - (185.0) - 97.5 = -59.1"
         }
       },
       {
@@ -7379,8 +7212,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1000.0,
         "ebitda_margin_pct": 14.3,
         "cfo": 828.8,
-        "capex": 371.9,
-        "fcf": 456.9,
+        "capex": 607.5,
+        "fcf": -447.8,
         "cash": 656.2,
         "gross_debt": 4772.5,
         "net_debt": 4116.3,
@@ -7399,17 +7232,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 302.1,
-        "change_in_working_capital": -190.6,
-        "tax_expense": 59.7,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 418.2,
+        "tax_expense": 120.0,
+        "fcf_conversion_pct": -44.8,
         "fcf_bridge": {
           "calculated_ebitda": 1000.0,
-          "capex": 371.9,
+          "capex": 607.5,
           "cash_interest": 302.1,
-          "change_in_working_capital": -190.6,
-          "tax": 59.7,
-          "fcf": 456.9,
-          "formula_check": "1000.0 - 371.9 - 302.1 - (-190.6) - 59.7 = 456.9"
+          "change_in_working_capital": 418.2,
+          "tax": 120.0,
+          "fcf": -447.8,
+          "formula_check": "1000.0 - 607.5 - 302.1 - (418.2) - 120.0 = -447.8"
         }
       },
       {
@@ -7419,8 +7252,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1125.0,
         "ebitda_margin_pct": 14.4,
         "cfo": 935.0,
-        "capex": 415.6,
-        "fcf": 519.4,
+        "capex": 683.4,
+        "fcf": -525.5,
         "cash": 796.9,
         "gross_debt": 5083.8,
         "net_debt": 4286.9,
@@ -7439,17 +7272,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 362.9,
-        "change_in_working_capital": -236.6,
-        "tax_expense": 63.7,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 469.2,
+        "tax_expense": 135.0,
+        "fcf_conversion_pct": -46.7,
         "fcf_bridge": {
           "calculated_ebitda": 1125.0,
-          "capex": 415.6,
+          "capex": 683.4,
           "cash_interest": 362.9,
-          "change_in_working_capital": -236.6,
-          "tax": 63.7,
-          "fcf": 519.4,
-          "formula_check": "1125.0 - 415.6 - 362.9 - (-236.6) - 63.7 = 519.4"
+          "change_in_working_capital": 469.2,
+          "tax": 135.0,
+          "fcf": -525.5,
+          "formula_check": "1125.0 - 683.4 - 362.9 - (469.2) - 135.0 = -525.5"
         }
       },
       {
@@ -7459,8 +7292,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1250.0,
         "ebitda_margin_pct": 14.7,
         "cfo": 1062.5,
-        "capex": 437.5,
-        "fcf": 625.0,
+        "capex": 646.9,
+        "fcf": -222.1,
         "cash": 937.5,
         "gross_debt": 5187.5,
         "net_debt": 4250.0,
@@ -7479,17 +7312,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 403.2,
-        "change_in_working_capital": -286.5,
-        "tax_expense": 70.8,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 272.0,
+        "tax_expense": 150.0,
+        "fcf_conversion_pct": -17.8,
         "fcf_bridge": {
           "calculated_ebitda": 1250.0,
-          "capex": 437.5,
+          "capex": 646.9,
           "cash_interest": 403.2,
-          "change_in_working_capital": -286.5,
-          "tax": 70.8,
-          "fcf": 625.0,
-          "formula_check": "1250.0 - 437.5 - 403.2 - (-286.5) - 70.8 = 625.0"
+          "change_in_working_capital": 272.0,
+          "tax": 150.0,
+          "fcf": -222.1,
+          "formula_check": "1250.0 - 646.9 - 403.2 - (272.0) - 150.0 = -222.1"
         }
       },
       {
@@ -7499,8 +7332,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1375.0,
         "ebitda_margin_pct": 15.0,
         "cfo": 1168.8,
-        "capex": 459.4,
-        "fcf": 709.4,
+        "capex": 587.8,
+        "fcf": -58.9,
         "cash": 1106.2,
         "gross_debt": 5083.8,
         "net_debt": 3977.6,
@@ -7519,17 +7352,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 387.3,
-        "change_in_working_capital": -267.4,
-        "tax_expense": 86.3,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 293.8,
+        "tax_expense": 165.0,
+        "fcf_conversion_pct": -4.3,
         "fcf_bridge": {
           "calculated_ebitda": 1375.0,
-          "capex": 459.4,
+          "capex": 587.8,
           "cash_interest": 387.3,
-          "change_in_working_capital": -267.4,
-          "tax": 86.3,
-          "fcf": 709.4,
-          "formula_check": "1375.0 - 459.4 - 387.3 - (-267.4) - 86.3 = 709.4"
+          "change_in_working_capital": 293.8,
+          "tax": 165.0,
+          "fcf": -58.9,
+          "formula_check": "1375.0 - 587.8 - 387.3 - (293.8) - 165.0 = -58.9"
         }
       },
       {
@@ -7539,8 +7372,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1475.0,
         "ebitda_margin_pct": 15.1,
         "cfo": 1253.8,
-        "capex": 446.2,
-        "fcf": 807.6,
+        "capex": 630.6,
+        "fcf": -16.0,
         "cash": 1265.6,
         "gross_debt": 4928.1,
         "net_debt": 3662.5,
@@ -7559,17 +7392,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$22.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 370.6,
-        "change_in_working_capital": -248.7,
-        "tax_expense": 99.3,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 312.8,
+        "tax_expense": 177.0,
+        "fcf_conversion_pct": -1.1,
         "fcf_bridge": {
           "calculated_ebitda": 1475.0,
-          "capex": 446.2,
+          "capex": 630.6,
           "cash_interest": 370.6,
-          "change_in_working_capital": -248.7,
-          "tax": 99.3,
-          "fcf": 807.6,
-          "formula_check": "1475.0 - 446.2 - 370.6 - (-248.7) - 99.3 = 807.6"
+          "change_in_working_capital": 312.8,
+          "tax": 177.0,
+          "fcf": -16.0,
+          "formula_check": "1475.0 - 630.6 - 370.6 - (312.8) - 177.0 = -16.0"
         }
       },
       {
@@ -7579,8 +7412,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1550.0,
         "ebitda_margin_pct": 15.2,
         "cfo": 1328.1,
-        "capex": 428.8,
-        "fcf": 899.3,
+        "capex": 662.6,
+        "fcf": 20.3,
         "cash": 1406.2,
         "gross_debt": 4668.8,
         "net_debt": 3262.6,
@@ -7599,17 +7432,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$23.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 354.7,
-        "change_in_working_capital": -242.3,
-        "tax_expense": 109.5,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 326.4,
+        "tax_expense": 186.0,
+        "fcf_conversion_pct": 1.3,
         "fcf_bridge": {
           "calculated_ebitda": 1550.0,
-          "capex": 428.8,
+          "capex": 662.6,
           "cash_interest": 354.7,
-          "change_in_working_capital": -242.3,
-          "tax": 109.5,
-          "fcf": 899.3,
-          "formula_check": "1550.0 - 428.8 - 354.7 - (-242.3) - 109.5 = 899.3"
+          "change_in_working_capital": 326.4,
+          "tax": 186.0,
+          "fcf": 20.3,
+          "formula_check": "1550.0 - 662.6 - 354.7 - (326.4) - 186.0 = 20.3"
         }
       }
     ],
@@ -8069,7 +7902,10 @@ const MASTER_ISSUERS = [
       "model_file": "Binghatti_Credit_Model.xlsx",
       "notion_id": "3e01d0ad68c6812dbacdd897773b09d9",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Binghatti_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -97.4,
+      "net_leverage_2024a": 0.89
     },
     "financials_multi_year": [
       {
@@ -8079,8 +7915,8 @@ const MASTER_ISSUERS = [
         "ebitda": 247.0,
         "ebitda_margin_pct": 29.1,
         "cfo": 200.3,
-        "capex": 93.1,
-        "fcf": 107.2,
+        "capex": 129.1,
+        "fcf": -37.3,
         "cash": 156.8,
         "gross_debt": 529.7,
         "net_debt": 372.9,
@@ -8099,17 +7935,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$16.1M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 40.8,
-        "change_in_working_capital": -13.9,
-        "tax_expense": 19.8,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 102.0,
+        "tax_expense": 12.4,
+        "fcf_conversion_pct": -15.1,
         "fcf_bridge": {
           "calculated_ebitda": 247.0,
-          "capex": 93.1,
+          "capex": 129.1,
           "cash_interest": 40.8,
-          "change_in_working_capital": -13.9,
-          "tax": 19.8,
-          "fcf": 107.2,
-          "formula_check": "247.0 - 93.1 - 40.8 - (-13.9) - 19.8 = 107.2"
+          "change_in_working_capital": 102.0,
+          "tax": 12.4,
+          "fcf": -37.3,
+          "formula_check": "247.0 - 129.1 - 40.8 - (102.0) - 12.4 = -37.3"
         }
       },
       {
@@ -8119,8 +7955,8 @@ const MASTER_ISSUERS = [
         "ebitda": 304.0,
         "ebitda_margin_pct": 29.7,
         "cfo": 251.9,
-        "capex": 113.0,
-        "fcf": 138.9,
+        "capex": 225.7,
+        "fcf": -218.5,
         "cash": 199.5,
         "gross_debt": 573.3,
         "net_debt": 373.8,
@@ -8139,17 +7975,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$19.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 51.0,
-        "change_in_working_capital": -23.2,
-        "tax_expense": 24.3,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 230.6,
+        "tax_expense": 15.2,
+        "fcf_conversion_pct": -71.9,
         "fcf_bridge": {
           "calculated_ebitda": 304.0,
-          "capex": 113.0,
+          "capex": 225.7,
           "cash_interest": 51.0,
-          "change_in_working_capital": -23.2,
-          "tax": 24.3,
-          "fcf": 138.9,
-          "formula_check": "304.0 - 113.0 - 51.0 - (-23.2) - 24.3 = 138.9"
+          "change_in_working_capital": 230.6,
+          "tax": 15.2,
+          "fcf": -218.5,
+          "formula_check": "304.0 - 225.7 - 51.0 - (230.6) - 15.2 = -218.5"
         }
       },
       {
@@ -8159,8 +7995,8 @@ const MASTER_ISSUERS = [
         "ebitda": 342.0,
         "ebitda_margin_pct": 29.7,
         "cfo": 284.2,
-        "capex": 126.3,
-        "fcf": 157.9,
+        "capex": 253.9,
+        "fcf": -249.0,
         "cash": 242.2,
         "gross_debt": 610.7,
         "net_debt": 368.5,
@@ -8179,17 +8015,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$22.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 61.2,
-        "change_in_working_capital": -30.1,
-        "tax_expense": 26.7,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 258.8,
+        "tax_expense": 17.1,
+        "fcf_conversion_pct": -72.8,
         "fcf_bridge": {
           "calculated_ebitda": 342.0,
-          "capex": 126.3,
+          "capex": 253.9,
           "cash_interest": 61.2,
-          "change_in_working_capital": -30.1,
-          "tax": 26.7,
-          "fcf": 157.9,
-          "formula_check": "342.0 - 126.3 - 61.2 - (-30.1) - 26.7 = 157.9"
+          "change_in_working_capital": 258.8,
+          "tax": 17.1,
+          "fcf": -249.0,
+          "formula_check": "342.0 - 253.9 - 61.2 - (258.8) - 17.1 = -249.0"
         }
       },
       {
@@ -8199,8 +8035,8 @@ const MASTER_ISSUERS = [
         "ebitda": 380.0,
         "ebitda_margin_pct": 30.4,
         "cfo": 323.0,
-        "capex": 133.0,
-        "fcf": 190.0,
+        "capex": 240.4,
+        "fcf": -97.4,
         "cash": 285.0,
         "gross_debt": 623.2,
         "net_debt": 338.2,
@@ -8219,17 +8055,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$24.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 68.0,
-        "change_in_working_capital": -40.7,
-        "tax_expense": 29.7,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 150.0,
+        "tax_expense": 19.0,
+        "fcf_conversion_pct": -25.6,
         "fcf_bridge": {
           "calculated_ebitda": 380.0,
-          "capex": 133.0,
+          "capex": 240.4,
           "cash_interest": 68.0,
-          "change_in_working_capital": -40.7,
-          "tax": 29.7,
-          "fcf": 190.0,
-          "formula_check": "380.0 - 133.0 - 68.0 - (-40.7) - 29.7 = 190.0"
+          "change_in_working_capital": 150.0,
+          "tax": 19.0,
+          "fcf": -97.4,
+          "formula_check": "380.0 - 240.4 - 68.0 - (150.0) - 19.0 = -97.4"
         }
       },
       {
@@ -8239,8 +8075,8 @@ const MASTER_ISSUERS = [
         "ebitda": 418.0,
         "ebitda_margin_pct": 31.0,
         "cfo": 355.3,
-        "capex": 139.7,
-        "fcf": 215.6,
+        "capex": 218.4,
+        "fcf": -48.5,
         "cash": 336.3,
         "gross_debt": 610.7,
         "net_debt": 274.4,
@@ -8259,17 +8095,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$27.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 65.2,
-        "change_in_working_capital": -36.6,
-        "tax_expense": 34.1,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 162.0,
+        "tax_expense": 20.9,
+        "fcf_conversion_pct": -11.6,
         "fcf_bridge": {
           "calculated_ebitda": 418.0,
-          "capex": 139.7,
+          "capex": 218.4,
           "cash_interest": 65.2,
-          "change_in_working_capital": -36.6,
-          "tax": 34.1,
-          "fcf": 215.6,
-          "formula_check": "418.0 - 139.7 - 65.2 - (-36.6) - 34.1 = 215.6"
+          "change_in_working_capital": 162.0,
+          "tax": 20.9,
+          "fcf": -48.5,
+          "formula_check": "418.0 - 218.4 - 65.2 - (162.0) - 20.9 = -48.5"
         }
       },
       {
@@ -8279,8 +8115,8 @@ const MASTER_ISSUERS = [
         "ebitda": 448.4,
         "ebitda_margin_pct": 31.2,
         "cfo": 381.1,
-        "capex": 135.7,
-        "fcf": 245.4,
+        "capex": 234.3,
+        "fcf": -43.3,
         "cash": 384.8,
         "gross_debt": 592.0,
         "net_debt": 207.2,
@@ -8299,17 +8135,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$29.1M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 62.5,
-        "change_in_working_capital": -32.9,
-        "tax_expense": 37.7,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 172.5,
+        "tax_expense": 22.4,
+        "fcf_conversion_pct": -9.7,
         "fcf_bridge": {
           "calculated_ebitda": 448.4,
-          "capex": 135.7,
+          "capex": 234.3,
           "cash_interest": 62.5,
-          "change_in_working_capital": -32.9,
-          "tax": 37.7,
-          "fcf": 245.4,
-          "formula_check": "448.4 - 135.7 - 62.5 - (-32.9) - 37.7 = 245.4"
+          "change_in_working_capital": 172.5,
+          "tax": 22.4,
+          "fcf": -43.3,
+          "formula_check": "448.4 - 234.3 - 62.5 - (172.5) - 22.4 = -43.3"
         }
       },
       {
@@ -8319,8 +8155,8 @@ const MASTER_ISSUERS = [
         "ebitda": 471.2,
         "ebitda_margin_pct": 31.4,
         "cfo": 403.8,
-        "capex": 130.3,
-        "fcf": 273.5,
+        "capex": 246.2,
+        "fcf": -38.4,
         "cash": 427.5,
         "gross_debt": 560.9,
         "net_debt": 133.4,
@@ -8339,17 +8175,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$30.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 59.8,
-        "change_in_working_capital": -32.9,
-        "tax_expense": 40.5,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 180.0,
+        "tax_expense": 23.6,
+        "fcf_conversion_pct": -8.1,
         "fcf_bridge": {
           "calculated_ebitda": 471.2,
-          "capex": 130.3,
+          "capex": 246.2,
           "cash_interest": 59.8,
-          "change_in_working_capital": -32.9,
-          "tax": 40.5,
-          "fcf": 273.5,
-          "formula_check": "471.2 - 130.3 - 59.8 - (-32.9) - 40.5 = 273.5"
+          "change_in_working_capital": 180.0,
+          "tax": 23.6,
+          "fcf": -38.4,
+          "formula_check": "471.2 - 246.2 - 59.8 - (180.0) - 23.6 = -38.4"
         }
       }
     ],
@@ -8798,7 +8634,10 @@ const MASTER_ISSUERS = [
       "model_file": "Coca_Cola_Icecek_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-819e-989e-fc42d6650c34",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Coca_Cola_Icecek_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 150.1,
+      "net_leverage_2024a": 1.05
     },
     "financials_multi_year": [
       {
@@ -8808,8 +8647,8 @@ const MASTER_ISSUERS = [
         "ebitda": 468.0,
         "ebitda_margin_pct": 18.1,
         "cfo": 379.4,
-        "capex": 176.4,
-        "fcf": 203.0,
+        "capex": 155.6,
+        "fcf": 131.7,
         "cash": 297.0,
         "gross_debt": 1101.6,
         "net_debt": 804.6,
@@ -8828,17 +8667,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 48.5,
-        "change_in_working_capital": -1.8,
-        "tax_expense": 41.9,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 62.0,
+        "tax_expense": 70.2,
+        "fcf_conversion_pct": 28.1,
         "fcf_bridge": {
           "calculated_ebitda": 468.0,
-          "capex": 176.4,
+          "capex": 155.6,
           "cash_interest": 48.5,
-          "change_in_working_capital": -1.8,
-          "tax": 41.9,
-          "fcf": 203.0,
-          "formula_check": "468.0 - 176.4 - 48.5 - (-1.8) - 41.9 = 203.0"
+          "change_in_working_capital": 62.0,
+          "tax": 70.2,
+          "fcf": 131.7,
+          "formula_check": "468.0 - 155.6 - 48.5 - (62.0) - 70.2 = 131.7"
         }
       },
       {
@@ -8848,8 +8687,8 @@ const MASTER_ISSUERS = [
         "ebitda": 576.0,
         "ebitda_margin_pct": 18.5,
         "cfo": 477.4,
-        "capex": 214.2,
-        "fcf": 263.2,
+        "capex": 272.2,
+        "fcf": 16.5,
         "cash": 378.0,
         "gross_debt": 1192.3,
         "net_debt": 814.3,
@@ -8868,17 +8707,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$31.7M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 60.7,
-        "change_in_working_capital": -13.5,
-        "tax_expense": 51.4,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 140.2,
+        "tax_expense": 86.4,
+        "fcf_conversion_pct": 2.9,
         "fcf_bridge": {
           "calculated_ebitda": 576.0,
-          "capex": 214.2,
+          "capex": 272.2,
           "cash_interest": 60.7,
-          "change_in_working_capital": -13.5,
-          "tax": 51.4,
-          "fcf": 263.2,
-          "formula_check": "576.0 - 214.2 - 60.7 - (-13.5) - 51.4 = 263.2"
+          "change_in_working_capital": 140.2,
+          "tax": 86.4,
+          "fcf": 16.5,
+          "formula_check": "576.0 - 272.2 - 60.7 - (140.2) - 86.4 = 16.5"
         }
       },
       {
@@ -8888,8 +8727,8 @@ const MASTER_ISSUERS = [
         "ebitda": 648.0,
         "ebitda_margin_pct": 18.5,
         "cfo": 538.6,
-        "capex": 239.4,
-        "fcf": 299.2,
+        "capex": 306.2,
+        "fcf": 14.5,
         "cash": 459.0,
         "gross_debt": 1270.1,
         "net_debt": 811.1,
@@ -8908,17 +8747,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$35.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 72.8,
-        "change_in_working_capital": -20.5,
-        "tax_expense": 57.1,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 157.3,
+        "tax_expense": 97.2,
+        "fcf_conversion_pct": 2.2,
         "fcf_bridge": {
           "calculated_ebitda": 648.0,
-          "capex": 239.4,
+          "capex": 306.2,
           "cash_interest": 72.8,
-          "change_in_working_capital": -20.5,
-          "tax": 57.1,
-          "fcf": 299.2,
-          "formula_check": "648.0 - 239.4 - 72.8 - (-20.5) - 57.1 = 299.2"
+          "change_in_working_capital": 157.3,
+          "tax": 97.2,
+          "fcf": 14.5,
+          "formula_check": "648.0 - 306.2 - 72.8 - (157.3) - 97.2 = 14.5"
         }
       },
       {
@@ -8928,8 +8767,8 @@ const MASTER_ISSUERS = [
         "ebitda": 720.0,
         "ebitda_margin_pct": 18.9,
         "cfo": 612.0,
-        "capex": 252.0,
-        "fcf": 360.0,
+        "capex": 289.8,
+        "fcf": 150.1,
         "cash": 540.0,
         "gross_debt": 1296.0,
         "net_debt": 756.0,
@@ -8948,17 +8787,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$39.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 80.9,
-        "change_in_working_capital": -36.4,
-        "tax_expense": 63.5,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 91.2,
+        "tax_expense": 108.0,
+        "fcf_conversion_pct": 20.8,
         "fcf_bridge": {
           "calculated_ebitda": 720.0,
-          "capex": 252.0,
+          "capex": 289.8,
           "cash_interest": 80.9,
-          "change_in_working_capital": -36.4,
-          "tax": 63.5,
-          "fcf": 360.0,
-          "formula_check": "720.0 - 252.0 - 80.9 - (-36.4) - 63.5 = 360.0"
+          "change_in_working_capital": 91.2,
+          "tax": 108.0,
+          "fcf": 150.1,
+          "formula_check": "720.0 - 289.8 - 80.9 - (91.2) - 108.0 = 150.1"
         }
       },
       {
@@ -8968,8 +8807,8 @@ const MASTER_ISSUERS = [
         "ebitda": 792.0,
         "ebitda_margin_pct": 19.3,
         "cfo": 673.2,
-        "capex": 264.6,
-        "fcf": 408.6,
+        "capex": 263.3,
+        "fcf": 233.8,
         "cash": 637.2,
         "gross_debt": 1270.1,
         "net_debt": 632.9,
@@ -8988,17 +8827,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 77.6,
-        "change_in_working_capital": -30.3,
-        "tax_expense": 71.5,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 98.5,
+        "tax_expense": 118.8,
+        "fcf_conversion_pct": 29.5,
         "fcf_bridge": {
           "calculated_ebitda": 792.0,
-          "capex": 264.6,
+          "capex": 263.3,
           "cash_interest": 77.6,
-          "change_in_working_capital": -30.3,
-          "tax": 71.5,
-          "fcf": 408.6,
-          "formula_check": "792.0 - 264.6 - 77.6 - (-30.3) - 71.5 = 408.6"
+          "change_in_working_capital": 98.5,
+          "tax": 118.8,
+          "fcf": 233.8,
+          "formula_check": "792.0 - 263.3 - 77.6 - (98.5) - 118.8 = 233.8"
         }
       },
       {
@@ -9008,8 +8847,8 @@ const MASTER_ISSUERS = [
         "ebitda": 849.6,
         "ebitda_margin_pct": 19.4,
         "cfo": 722.2,
-        "capex": 257.0,
-        "fcf": 465.2,
+        "capex": 282.5,
+        "fcf": 260.4,
         "cash": 729.0,
         "gross_debt": 1231.2,
         "net_debt": 502.2,
@@ -9028,17 +8867,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 74.4,
-        "change_in_working_capital": -25.0,
-        "tax_expense": 78.0,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 104.9,
+        "tax_expense": 127.4,
+        "fcf_conversion_pct": 30.6,
         "fcf_bridge": {
           "calculated_ebitda": 849.6,
-          "capex": 257.0,
+          "capex": 282.5,
           "cash_interest": 74.4,
-          "change_in_working_capital": -25.0,
-          "tax": 78.0,
-          "fcf": 465.2,
-          "formula_check": "849.6 - 257.0 - 74.4 - (-25.0) - 78.0 = 465.2"
+          "change_in_working_capital": 104.9,
+          "tax": 127.4,
+          "fcf": 260.4,
+          "formula_check": "849.6 - 282.5 - 74.4 - (104.9) - 127.4 = 260.4"
         }
       },
       {
@@ -9048,8 +8887,8 @@ const MASTER_ISSUERS = [
         "ebitda": 892.8,
         "ebitda_margin_pct": 19.6,
         "cfo": 765.0,
-        "capex": 247.0,
-        "fcf": 518.0,
+        "capex": 296.9,
+        "fcf": 281.4,
         "cash": 810.0,
         "gross_debt": 1166.4,
         "net_debt": 356.4,
@@ -9068,17 +8907,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.2,
-        "change_in_working_capital": -26.5,
-        "tax_expense": 83.1,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 109.4,
+        "tax_expense": 133.9,
+        "fcf_conversion_pct": 31.5,
         "fcf_bridge": {
           "calculated_ebitda": 892.8,
-          "capex": 247.0,
+          "capex": 296.9,
           "cash_interest": 71.2,
-          "change_in_working_capital": -26.5,
-          "tax": 83.1,
-          "fcf": 518.0,
-          "formula_check": "892.8 - 247.0 - 71.2 - (-26.5) - 83.1 = 518.0"
+          "change_in_working_capital": 109.4,
+          "tax": 133.9,
+          "fcf": 281.4,
+          "formula_check": "892.8 - 296.9 - 71.2 - (109.4) - 133.9 = 281.4"
         }
       }
     ],
@@ -9516,7 +9355,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEZ_Group_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "cez",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/cez/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/cez/description",
+      "model_type": "corp",
+      "fcf_2024a": -1083.6,
+      "net_leverage_2024a": 1.4
     },
     "financials_multi_year": [
       {
@@ -9526,8 +9368,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2730,
         "ebitda_margin_pct": 26.4,
         "cfo": 2213.4,
-        "capex": 1029,
-        "fcf": 1184.4,
+        "capex": 2204.5,
+        "fcf": -227.5,
         "cash": 1732.5,
         "gross_debt": 7675.5,
         "net_debt": 5943,
@@ -9546,17 +9388,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$40.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 286.5,
-        "change_in_working_capital": -13.6,
-        "tax_expense": 243.7,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 248.1,
+        "tax_expense": 218.4,
+        "fcf_conversion_pct": -8.3,
         "fcf_bridge": {
           "calculated_ebitda": 2730,
-          "capex": 1029,
+          "capex": 2204.5,
           "cash_interest": 286.5,
-          "change_in_working_capital": -13.6,
-          "tax": 243.7,
-          "fcf": 1184.4,
-          "formula_check": "2730.0 - 1029.0 - 286.5 - (-13.6) - 243.7 = 1184.4"
+          "change_in_working_capital": 248.1,
+          "tax": 218.4,
+          "fcf": -227.5,
+          "formula_check": "2730.0 - 2204.5 - 286.5 - (248.1) - 218.4 = -227.5"
         }
       },
       {
@@ -9566,8 +9408,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3360,
         "ebitda_margin_pct": 27,
         "cfo": 2784.6,
-        "capex": 1249.5,
-        "fcf": 1535.1,
+        "capex": 3855.6,
+        "fcf": -1683.1,
         "cash": 2205,
         "gross_debt": 8307.6,
         "net_debt": 6102.6,
@@ -9586,17 +9428,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 357.8,
-        "change_in_working_capital": -81.5,
-        "tax_expense": 299.1,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 560.9,
+        "tax_expense": 268.8,
+        "fcf_conversion_pct": -50.1,
         "fcf_bridge": {
           "calculated_ebitda": 3360,
-          "capex": 1249.5,
+          "capex": 3855.6,
           "cash_interest": 357.8,
-          "change_in_working_capital": -81.5,
-          "tax": 299.1,
-          "fcf": 1535.1,
-          "formula_check": "3360.0 - 1249.5 - 357.8 - (-81.5) - 299.1 = 1535.1"
+          "change_in_working_capital": 560.9,
+          "tax": 268.8,
+          "fcf": -1683.1,
+          "formula_check": "3360.0 - 3855.6 - 357.8 - (560.9) - 268.8 = -1683.1"
         }
       },
       {
@@ -9606,8 +9448,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3780,
         "ebitda_margin_pct": 27,
         "cfo": 3141.6,
-        "capex": 1396.5,
-        "fcf": 1745.1,
+        "capex": 4337.6,
+        "fcf": -1918.8,
         "cash": 2677.5,
         "gross_debt": 8849.4,
         "net_debt": 6171.9,
@@ -9626,17 +9468,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 429.5,
-        "change_in_working_capital": -123.6,
-        "tax_expense": 332.5,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 629.3,
+        "tax_expense": 302.4,
+        "fcf_conversion_pct": -50.8,
         "fcf_bridge": {
           "calculated_ebitda": 3780,
-          "capex": 1396.5,
+          "capex": 4337.6,
           "cash_interest": 429.5,
-          "change_in_working_capital": -123.6,
-          "tax": 332.5,
-          "fcf": 1745.1,
-          "formula_check": "3780.0 - 1396.5 - 429.5 - (-123.6) - 332.5 = 1745.1"
+          "change_in_working_capital": 629.3,
+          "tax": 302.4,
+          "fcf": -1918.8,
+          "formula_check": "3780.0 - 4337.6 - 429.5 - (629.3) - 302.4 = -1918.8"
         }
       },
       {
@@ -9646,8 +9488,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4200,
         "ebitda_margin_pct": 27.6,
         "cfo": 3570,
-        "capex": 1470,
-        "fcf": 2100,
+        "capex": 4105.5,
+        "fcf": -1083.6,
         "cash": 3150,
         "gross_debt": 9030,
         "net_debt": 5880,
@@ -9666,17 +9508,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$63.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 477.3,
-        "change_in_working_capital": -216.7,
-        "tax_expense": 369.4,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 364.8,
+        "tax_expense": 336.0,
+        "fcf_conversion_pct": -25.8,
         "fcf_bridge": {
           "calculated_ebitda": 4200,
-          "capex": 1470,
+          "capex": 4105.5,
           "cash_interest": 477.3,
-          "change_in_working_capital": -216.7,
-          "tax": 369.4,
-          "fcf": 2100,
-          "formula_check": "4200.0 - 1470.0 - 477.3 - (-216.7) - 369.4 = 2100.0"
+          "change_in_working_capital": 364.8,
+          "tax": 336.0,
+          "fcf": -1083.6,
+          "formula_check": "4200.0 - 4105.5 - 477.3 - (364.8) - 336.0 = -1083.6"
         }
       },
       {
@@ -9686,8 +9528,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4620,
         "ebitda_margin_pct": 28.1,
         "cfo": 3927,
-        "capex": 1543.5,
-        "fcf": 2383.5,
+        "capex": 3730.6,
+        "fcf": -332.5,
         "cash": 3717,
         "gross_debt": 8849.4,
         "net_debt": 5132.4,
@@ -9706,17 +9548,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 458.3,
-        "change_in_working_capital": -181.7,
-        "tax_expense": 416.4,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 394.0,
+        "tax_expense": 369.6,
+        "fcf_conversion_pct": -7.2,
         "fcf_bridge": {
           "calculated_ebitda": 4620,
-          "capex": 1543.5,
+          "capex": 3730.6,
           "cash_interest": 458.3,
-          "change_in_working_capital": -181.7,
-          "tax": 416.4,
-          "fcf": 2383.5,
-          "formula_check": "4620.0 - 1543.5 - 458.3 - (-181.7) - 416.4 = 2383.5"
+          "change_in_working_capital": 394.0,
+          "tax": 369.6,
+          "fcf": -332.5,
+          "formula_check": "4620.0 - 3730.6 - 458.3 - (394.0) - 369.6 = -332.5"
         }
       },
       {
@@ -9726,8 +9568,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4956,
         "ebitda_margin_pct": 28.4,
         "cfo": 4212.6,
-        "capex": 1499.4,
-        "fcf": 2713.2,
+        "capex": 4002.0,
+        "fcf": -301.0,
         "cash": 4252.5,
         "gross_debt": 8578.5,
         "net_debt": 4326,
@@ -9746,17 +9588,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$74.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 439,
-        "change_in_working_capital": -150.1,
-        "tax_expense": 454.5,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 419.5,
+        "tax_expense": 396.5,
+        "fcf_conversion_pct": -6.1,
         "fcf_bridge": {
           "calculated_ebitda": 4956,
-          "capex": 1499.4,
+          "capex": 4002.0,
           "cash_interest": 439,
-          "change_in_working_capital": -150.1,
-          "tax": 454.5,
-          "fcf": 2713.2,
-          "formula_check": "4956.0 - 1499.4 - 439.0 - (-150.1) - 454.5 = 2713.2"
+          "change_in_working_capital": 419.5,
+          "tax": 396.5,
+          "fcf": -301.0,
+          "formula_check": "4956.0 - 4002.0 - 439.0 - (419.5) - 396.5 = -301.0"
         }
       },
       {
@@ -9766,8 +9608,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5208,
         "ebitda_margin_pct": 28.6,
         "cfo": 4462.5,
-        "capex": 1440.6,
-        "fcf": 3021.9,
+        "capex": 4205.5,
+        "fcf": -271.9,
         "cash": 4725,
         "gross_debt": 8127,
         "net_debt": 3402,
@@ -9786,17 +9628,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$78.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 420,
-        "change_in_working_capital": -158.3,
-        "tax_expense": 483.8,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 437.8,
+        "tax_expense": 416.6,
+        "fcf_conversion_pct": -5.2,
         "fcf_bridge": {
           "calculated_ebitda": 5208,
-          "capex": 1440.6,
+          "capex": 4205.5,
           "cash_interest": 420,
-          "change_in_working_capital": -158.3,
-          "tax": 483.8,
-          "fcf": 3021.9,
-          "formula_check": "5208.0 - 1440.6 - 420.0 - (-158.3) - 483.8 = 3021.9"
+          "change_in_working_capital": 437.8,
+          "tax": 416.6,
+          "fcf": -271.9,
+          "formula_check": "5208.0 - 4205.5 - 420.0 - (437.8) - 416.6 = -271.9"
         }
       }
     ],
@@ -10237,7 +10079,10 @@ const MASTER_ISSUERS = [
       "model_file": "Damac_Properties_Credit_Model.xlsx",
       "notion_id": "3e01d0ad68c68194b911c9627e4c0595",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Damac_Properties_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -134.1,
+      "net_leverage_2024a": 0.29
     },
     "financials_multi_year": [
       {
@@ -10247,8 +10092,8 @@ const MASTER_ISSUERS = [
         "ebitda": 442.0,
         "ebitda_margin_pct": 31.0,
         "cfo": 358.4,
-        "capex": 166.6,
-        "fcf": 191.8,
+        "capex": 230.9,
+        "fcf": -41.2,
         "cash": 280.5,
         "gross_debt": 601.1,
         "net_debt": 320.6,
@@ -10267,17 +10112,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$28.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 58.8,
-        "change_in_working_capital": -12.8,
-        "tax_expense": 37.6,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 171.4,
+        "tax_expense": 22.1,
+        "fcf_conversion_pct": -9.3,
         "fcf_bridge": {
           "calculated_ebitda": 442.0,
-          "capex": 166.6,
+          "capex": 230.9,
           "cash_interest": 58.8,
-          "change_in_working_capital": -12.8,
-          "tax": 37.6,
-          "fcf": 191.8,
-          "formula_check": "442.0 - 166.6 - 58.8 - (-12.8) - 37.6 = 191.8"
+          "change_in_working_capital": 171.4,
+          "tax": 22.1,
+          "fcf": -41.2,
+          "formula_check": "442.0 - 230.9 - 58.8 - (171.4) - 22.1 = -41.2"
         }
       },
       {
@@ -10287,8 +10132,8 @@ const MASTER_ISSUERS = [
         "ebitda": 544.0,
         "ebitda_margin_pct": 31.6,
         "cfo": 450.8,
-        "capex": 202.3,
-        "fcf": 248.5,
+        "capex": 403.9,
+        "fcf": -348.1,
         "cash": 357.0,
         "gross_debt": 650.6,
         "net_debt": 293.6,
@@ -10307,17 +10152,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$35.4M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 73.5,
-        "change_in_working_capital": -26.4,
-        "tax_expense": 46.1,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 387.5,
+        "tax_expense": 27.2,
+        "fcf_conversion_pct": -64.0,
         "fcf_bridge": {
           "calculated_ebitda": 544.0,
-          "capex": 202.3,
+          "capex": 403.9,
           "cash_interest": 73.5,
-          "change_in_working_capital": -26.4,
-          "tax": 46.1,
-          "fcf": 248.5,
-          "formula_check": "544.0 - 202.3 - 73.5 - (-26.4) - 46.1 = 248.5"
+          "change_in_working_capital": 387.5,
+          "tax": 27.2,
+          "fcf": -348.1,
+          "formula_check": "544.0 - 403.9 - 73.5 - (387.5) - 27.2 = -348.1"
         }
       },
       {
@@ -10327,8 +10172,8 @@ const MASTER_ISSUERS = [
         "ebitda": 612.0,
         "ebitda_margin_pct": 31.7,
         "cfo": 508.6,
-        "capex": 226.1,
-        "fcf": 282.5,
+        "capex": 454.4,
+        "fcf": -395.9,
         "cash": 433.5,
         "gross_debt": 693.1,
         "net_debt": 259.6,
@@ -10347,17 +10192,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$39.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 88.2,
-        "change_in_working_capital": -35.8,
-        "tax_expense": 51.0,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 434.7,
+        "tax_expense": 30.6,
+        "fcf_conversion_pct": -64.7,
         "fcf_bridge": {
           "calculated_ebitda": 612.0,
-          "capex": 226.1,
+          "capex": 454.4,
           "cash_interest": 88.2,
-          "change_in_working_capital": -35.8,
-          "tax": 51.0,
-          "fcf": 282.5,
-          "formula_check": "612.0 - 226.1 - 88.2 - (-35.8) - 51.0 = 282.5"
+          "change_in_working_capital": 434.7,
+          "tax": 30.6,
+          "fcf": -395.9,
+          "formula_check": "612.0 - 454.4 - 88.2 - (434.7) - 30.6 = -395.9"
         }
       },
       {
@@ -10367,8 +10212,8 @@ const MASTER_ISSUERS = [
         "ebitda": 680.0,
         "ebitda_margin_pct": 32.4,
         "cfo": 578.0,
-        "capex": 238.0,
-        "fcf": 340.0,
+        "capex": 430.1,
+        "fcf": -134.1,
         "cash": 510.0,
         "gross_debt": 707.2,
         "net_debt": 197.2,
@@ -10387,17 +10232,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$44.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 98.0,
-        "change_in_working_capital": -52.7,
-        "tax_expense": 56.7,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 252.0,
+        "tax_expense": 34.0,
+        "fcf_conversion_pct": -19.7,
         "fcf_bridge": {
           "calculated_ebitda": 680.0,
-          "capex": 238.0,
+          "capex": 430.1,
           "cash_interest": 98.0,
-          "change_in_working_capital": -52.7,
-          "tax": 56.7,
-          "fcf": 340.0,
-          "formula_check": "680.0 - 238.0 - 98.0 - (-52.7) - 56.7 = 340.0"
+          "change_in_working_capital": 252.0,
+          "tax": 34.0,
+          "fcf": -134.1,
+          "formula_check": "680.0 - 430.1 - 98.0 - (252.0) - 34.0 = -134.1"
         }
       },
       {
@@ -10407,8 +10252,8 @@ const MASTER_ISSUERS = [
         "ebitda": 748.0,
         "ebitda_margin_pct": 33.0,
         "cfo": 635.8,
-        "capex": 249.9,
-        "fcf": 385.9,
+        "capex": 390.8,
+        "fcf": -46.5,
         "cash": 601.8,
         "gross_debt": 693.1,
         "net_debt": 91.3,
@@ -10427,17 +10272,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$48.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 94.1,
-        "change_in_working_capital": -46.3,
-        "tax_expense": 64.4,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 272.2,
+        "tax_expense": 37.4,
+        "fcf_conversion_pct": -6.2,
         "fcf_bridge": {
           "calculated_ebitda": 748.0,
-          "capex": 249.9,
+          "capex": 390.8,
           "cash_interest": 94.1,
-          "change_in_working_capital": -46.3,
-          "tax": 64.4,
-          "fcf": 385.9,
-          "formula_check": "748.0 - 249.9 - 94.1 - (-46.3) - 64.4 = 385.9"
+          "change_in_working_capital": 272.2,
+          "tax": 37.4,
+          "fcf": -46.5,
+          "formula_check": "748.0 - 390.8 - 94.1 - (272.2) - 37.4 = -46.5"
         }
       },
       {
@@ -10447,8 +10292,8 @@ const MASTER_ISSUERS = [
         "ebitda": 802.4,
         "ebitda_margin_pct": 33.2,
         "cfo": 682.0,
-        "capex": 242.8,
-        "fcf": 439.2,
+        "capex": 419.3,
+        "fcf": -37.0,
         "cash": 688.5,
         "gross_debt": 671.8,
         "net_debt": 0.0,
@@ -10467,17 +10312,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$52.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 90.2,
-        "change_in_working_capital": -40.5,
-        "tax_expense": 70.7,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 289.8,
+        "tax_expense": 40.1,
+        "fcf_conversion_pct": -4.6,
         "fcf_bridge": {
           "calculated_ebitda": 802.4,
-          "capex": 242.8,
+          "capex": 419.3,
           "cash_interest": 90.2,
-          "change_in_working_capital": -40.5,
-          "tax": 70.7,
-          "fcf": 439.2,
-          "formula_check": "802.4 - 242.8 - 90.2 - (-40.5) - 70.7 = 439.2"
+          "change_in_working_capital": 289.8,
+          "tax": 40.1,
+          "fcf": -37.0,
+          "formula_check": "802.4 - 419.3 - 90.2 - (289.8) - 40.1 = -37.0"
         }
       },
       {
@@ -10487,8 +10332,8 @@ const MASTER_ISSUERS = [
         "ebitda": 843.2,
         "ebitda_margin_pct": 33.5,
         "cfo": 722.5,
-        "capex": 233.2,
-        "fcf": 489.3,
+        "capex": 440.6,
+        "fcf": -28.2,
         "cash": 765.0,
         "gross_debt": 636.5,
         "net_debt": 0.0,
@@ -10507,17 +10352,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$54.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 86.2,
-        "change_in_working_capital": -41.1,
-        "tax_expense": 75.6,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 302.4,
+        "tax_expense": 42.2,
+        "fcf_conversion_pct": -3.3,
         "fcf_bridge": {
           "calculated_ebitda": 843.2,
-          "capex": 233.2,
+          "capex": 440.6,
           "cash_interest": 86.2,
-          "change_in_working_capital": -41.1,
-          "tax": 75.6,
-          "fcf": 489.3,
-          "formula_check": "843.2 - 233.2 - 86.2 - (-41.1) - 75.6 = 489.3"
+          "change_in_working_capital": 302.4,
+          "tax": 42.2,
+          "fcf": -28.2,
+          "formula_check": "843.2 - 440.6 - 86.2 - (302.4) - 42.2 = -28.2"
         }
       }
     ],
@@ -10955,7 +10800,10 @@ const MASTER_ISSUERS = [
       "model_file": "Dangote_Fertiliser_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681dcba20e1bd4b761c01",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dangote_Fertiliser_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -14.9,
+      "net_leverage_2024a": 2.77
     },
     "financials_multi_year": [
       {
@@ -10965,8 +10813,8 @@ const MASTER_ISSUERS = [
         "ebitda": 422.5,
         "ebitda_margin_pct": 44.4,
         "cfo": 342.6,
-        "capex": 159.2,
-        "fcf": 183.4,
+        "capex": 200.7,
+        "fcf": 39.4,
         "cash": 268.1,
         "gross_debt": 1944.8,
         "net_debt": 1676.7,
@@ -10985,17 +10833,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$35.9M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
         "cash_interest": 102.1,
-        "change_in_working_capital": -51.2,
-        "tax_expense": 29.0,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 38.1,
+        "tax_expense": 42.2,
+        "fcf_conversion_pct": 9.3,
         "fcf_bridge": {
           "calculated_ebitda": 422.5,
-          "capex": 159.2,
+          "capex": 200.7,
           "cash_interest": 102.1,
-          "change_in_working_capital": -51.2,
-          "tax": 29.0,
-          "fcf": 183.4,
-          "formula_check": "422.5 - 159.2 - 102.1 - (-51.2) - 29.0 = 183.4"
+          "change_in_working_capital": 38.1,
+          "tax": 42.2,
+          "fcf": 39.4,
+          "formula_check": "422.5 - 200.7 - 102.1 - (38.1) - 42.2 = 39.4"
         }
       },
       {
@@ -11005,8 +10853,8 @@ const MASTER_ISSUERS = [
         "ebitda": 520.0,
         "ebitda_margin_pct": 45.3,
         "cfo": 430.9,
-        "capex": 193.4,
-        "fcf": 237.5,
+        "capex": 351.0,
+        "fcf": -96.9,
         "cash": 341.2,
         "gross_debt": 2105.0,
         "net_debt": 1763.8,
@@ -11025,17 +10873,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$44.2M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
         "cash_interest": 127.8,
-        "change_in_working_capital": -74.1,
-        "tax_expense": 35.4,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 86.1,
+        "tax_expense": 52.0,
+        "fcf_conversion_pct": -18.6,
         "fcf_bridge": {
           "calculated_ebitda": 520.0,
-          "capex": 193.4,
+          "capex": 351.0,
           "cash_interest": 127.8,
-          "change_in_working_capital": -74.1,
-          "tax": 35.4,
-          "fcf": 237.5,
-          "formula_check": "520.0 - 193.4 - 127.8 - (-74.1) - 35.4 = 237.5"
+          "change_in_working_capital": 86.1,
+          "tax": 52.0,
+          "fcf": -96.9,
+          "formula_check": "520.0 - 351.0 - 127.8 - (86.1) - 52.0 = -96.9"
         }
       },
       {
@@ -11045,8 +10893,8 @@ const MASTER_ISSUERS = [
         "ebitda": 585.0,
         "ebitda_margin_pct": 45.4,
         "cfo": 486.2,
-        "capex": 216.1,
-        "fcf": 270.1,
+        "capex": 394.9,
+        "fcf": -118.1,
         "cash": 414.4,
         "gross_debt": 2242.2,
         "net_debt": 1827.8,
@@ -11065,17 +10913,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$49.7M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
         "cash_interest": 153.1,
-        "change_in_working_capital": -92.8,
-        "tax_expense": 38.5,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 96.6,
+        "tax_expense": 58.5,
+        "fcf_conversion_pct": -20.2,
         "fcf_bridge": {
           "calculated_ebitda": 585.0,
-          "capex": 216.1,
+          "capex": 394.9,
           "cash_interest": 153.1,
-          "change_in_working_capital": -92.8,
-          "tax": 38.5,
-          "fcf": 270.1,
-          "formula_check": "585.0 - 216.1 - 153.1 - (-92.8) - 38.5 = 270.1"
+          "change_in_working_capital": 96.6,
+          "tax": 58.5,
+          "fcf": -118.1,
+          "formula_check": "585.0 - 394.9 - 153.1 - (96.6) - 58.5 = -118.1"
         }
       },
       {
@@ -11085,8 +10933,8 @@ const MASTER_ISSUERS = [
         "ebitda": 650.0,
         "ebitda_margin_pct": 46.4,
         "cfo": 552.5,
-        "capex": 227.5,
-        "fcf": 325.0,
+        "capex": 373.7,
+        "fcf": -14.9,
         "cash": 487.5,
         "gross_debt": 2288.0,
         "net_debt": 1800.5,
@@ -11105,17 +10953,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$55.2M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
         "cash_interest": 170.2,
-        "change_in_working_capital": -115.4,
-        "tax_expense": 42.7,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 56.0,
+        "tax_expense": 65.0,
+        "fcf_conversion_pct": -2.3,
         "fcf_bridge": {
           "calculated_ebitda": 650.0,
-          "capex": 227.5,
+          "capex": 373.7,
           "cash_interest": 170.2,
-          "change_in_working_capital": -115.4,
-          "tax": 42.7,
-          "fcf": 325.0,
-          "formula_check": "650.0 - 227.5 - 170.2 - (-115.4) - 42.7 = 325.0"
+          "change_in_working_capital": 56.0,
+          "tax": 65.0,
+          "fcf": -14.9,
+          "formula_check": "650.0 - 373.7 - 170.2 - (56.0) - 65.0 = -14.9"
         }
       },
       {
@@ -11125,8 +10973,8 @@ const MASTER_ISSUERS = [
         "ebitda": 715.0,
         "ebitda_margin_pct": 47.3,
         "cfo": 607.8,
-        "capex": 238.9,
-        "fcf": 368.9,
+        "capex": 339.6,
+        "fcf": 80.2,
         "cash": 575.2,
         "gross_debt": 2242.2,
         "net_debt": 1667.0,
@@ -11145,17 +10993,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$60.8M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
         "cash_interest": 163.2,
-        "change_in_working_capital": -106.6,
-        "tax_expense": 50.6,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 60.5,
+        "tax_expense": 71.5,
+        "fcf_conversion_pct": 11.2,
         "fcf_bridge": {
           "calculated_ebitda": 715.0,
-          "capex": 238.9,
+          "capex": 339.6,
           "cash_interest": 163.2,
-          "change_in_working_capital": -106.6,
-          "tax": 50.6,
-          "fcf": 368.9,
-          "formula_check": "715.0 - 238.9 - 163.2 - (-106.6) - 50.6 = 368.9"
+          "change_in_working_capital": 60.5,
+          "tax": 71.5,
+          "fcf": 80.2,
+          "formula_check": "715.0 - 339.6 - 163.2 - (60.5) - 71.5 = 80.2"
         }
       },
       {
@@ -11165,8 +11013,8 @@ const MASTER_ISSUERS = [
         "ebitda": 767.0,
         "ebitda_margin_pct": 47.6,
         "cfo": 651.9,
-        "capex": 232.0,
-        "fcf": 419.9,
+        "capex": 364.3,
+        "fcf": 105.1,
         "cash": 658.1,
         "gross_debt": 2173.6,
         "net_debt": 1515.5,
@@ -11185,17 +11033,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$65.2M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
         "cash_interest": 156.5,
-        "change_in_working_capital": -98.5,
-        "tax_expense": 57.1,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 64.4,
+        "tax_expense": 76.7,
+        "fcf_conversion_pct": 13.7,
         "fcf_bridge": {
           "calculated_ebitda": 767.0,
-          "capex": 232.0,
+          "capex": 364.3,
           "cash_interest": 156.5,
-          "change_in_working_capital": -98.5,
-          "tax": 57.1,
-          "fcf": 419.9,
-          "formula_check": "767.0 - 232.0 - 156.5 - (-98.5) - 57.1 = 419.9"
+          "change_in_working_capital": 64.4,
+          "tax": 76.7,
+          "fcf": 105.1,
+          "formula_check": "767.0 - 364.3 - 156.5 - (64.4) - 76.7 = 105.1"
         }
       },
       {
@@ -11205,8 +11053,8 @@ const MASTER_ISSUERS = [
         "ebitda": 806.0,
         "ebitda_margin_pct": 48.0,
         "cfo": 690.6,
-        "capex": 222.9,
-        "fcf": 467.7,
+        "capex": 382.8,
+        "fcf": 125.6,
         "cash": 731.2,
         "gross_debt": 2059.2,
         "net_debt": 1328.0,
@@ -11225,17 +11073,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$68.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
         "cash_interest": 149.8,
-        "change_in_working_capital": -96.6,
-        "tax_expense": 62.2,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 67.2,
+        "tax_expense": 80.6,
+        "fcf_conversion_pct": 15.6,
         "fcf_bridge": {
           "calculated_ebitda": 806.0,
-          "capex": 222.9,
+          "capex": 382.8,
           "cash_interest": 149.8,
-          "change_in_working_capital": -96.6,
-          "tax": 62.2,
-          "fcf": 467.7,
-          "formula_check": "806.0 - 222.9 - 149.8 - (-96.6) - 62.2 = 467.7"
+          "change_in_working_capital": 67.2,
+          "tax": 80.6,
+          "fcf": 125.6,
+          "formula_check": "806.0 - 382.8 - 149.8 - (67.2) - 80.6 = 125.6"
         }
       }
     ],
@@ -11693,18 +11541,21 @@ const MASTER_ISSUERS = [
       "model_file": "Dangote_Refinery_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6810dbe29cf68d8e1ebf3",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dangote_Refinery_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -735.0,
+      "net_leverage_2024a": 2.43
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 68.0,
-        "ebitda": 65.0,
-        "ebitda_margin_pct": 95.6,
+        "revenue": 0.0,
+        "ebitda": -45.0,
+        "ebitda_margin_pct": 0.0,
         "cfo": 52.7,
-        "capex": 24.5,
-        "fcf": 28.2,
+        "capex": 2100.0,
+        "fcf": -2375.0,
         "cash": 41.2,
         "gross_debt": 270.3,
         "net_debt": 229.1,
@@ -11717,34 +11568,34 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 70.5,
-        "calculated_ebitda": 65.0,
+        "reported_ebitda": -45.9,
+        "calculated_ebitda": -45.0,
         "ebitda_reconciliation_variance_usd_m": 5.5,
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$5.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-        "cash_interest": 14.6,
-        "change_in_working_capital": -6.9,
-        "tax_expense": 4.6,
-        "fcf_conversion_pct": 43.4,
+        "cash_interest": 180.0,
+        "change_in_working_capital": 50.0,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": 5277.8,
         "fcf_bridge": {
-          "calculated_ebitda": 65.0,
-          "capex": 24.5,
-          "cash_interest": 14.6,
-          "change_in_working_capital": -6.9,
-          "tax": 4.6,
-          "fcf": 28.2,
-          "formula_check": "65.0 - 24.5 - 14.6 - (-6.9) - 4.6 = 28.2"
+          "calculated_ebitda": -45.0,
+          "capex": 2100.0,
+          "cash_interest": 180.0,
+          "change_in_working_capital": 50.0,
+          "tax": 0.0,
+          "fcf": -2375.0,
+          "formula_check": "-45.0 - 2100.0 - 180.0 - (50.0) - 0.0 = -2375.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 82.0,
-        "ebitda": 80.0,
-        "ebitda_margin_pct": 97.6,
+        "revenue": 0.0,
+        "ebitda": -60.0,
+        "ebitda_margin_pct": 0.0,
         "cfo": 66.3,
-        "capex": 29.8,
-        "fcf": 36.5,
+        "capex": 1650.0,
+        "fcf": -1990.0,
         "cash": 52.5,
         "gross_debt": 292.6,
         "net_debt": 240.1,
@@ -11757,34 +11608,34 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 86.8,
-        "calculated_ebitda": 80.0,
+        "reported_ebitda": -61.2,
+        "calculated_ebitda": -60.0,
         "ebitda_reconciliation_variance_usd_m": 6.8,
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$6.8M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-        "cash_interest": 18.3,
-        "change_in_working_capital": -10.3,
-        "tax_expense": 5.7,
-        "fcf_conversion_pct": 45.6,
+        "cash_interest": 220.0,
+        "change_in_working_capital": 60.0,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": 3316.7,
         "fcf_bridge": {
-          "calculated_ebitda": 80.0,
-          "capex": 29.8,
-          "cash_interest": 18.3,
-          "change_in_working_capital": -10.3,
-          "tax": 5.7,
-          "fcf": 36.5,
-          "formula_check": "80.0 - 29.8 - 18.3 - (-10.3) - 5.7 = 36.5"
+          "calculated_ebitda": -60.0,
+          "capex": 1650.0,
+          "cash_interest": 220.0,
+          "change_in_working_capital": 60.0,
+          "tax": 0.0,
+          "fcf": -1990.0,
+          "formula_check": "-60.0 - 1650.0 - 220.0 - (60.0) - 0.0 = -1990.0"
         }
       },
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 92.0,
-        "ebitda": 90.0,
-        "ebitda_margin_pct": 97.8,
+        "revenue": 0.0,
+        "ebitda": -80.0,
+        "ebitda_margin_pct": 0.0,
         "cfo": 74.8,
-        "capex": 33.2,
-        "fcf": 41.6,
+        "capex": 980.0,
+        "fcf": -1400.0,
         "cash": 63.8,
         "gross_debt": 311.6,
         "net_debt": 247.8,
@@ -11797,34 +11648,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 97.6,
-        "calculated_ebitda": 90.0,
+        "reported_ebitda": -81.6,
+        "calculated_ebitda": -80.0,
         "ebitda_reconciliation_variance_usd_m": 7.6,
         "ebitda_reconciliation_variance_pct": 8.4,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$7.6M (+8.4%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-        "cash_interest": 22.0,
-        "change_in_working_capital": -12.9,
-        "tax_expense": 6.1,
-        "fcf_conversion_pct": 46.2,
+        "cash_interest": 260.0,
+        "change_in_working_capital": 80.0,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": 1750.0,
         "fcf_bridge": {
-          "calculated_ebitda": 90.0,
-          "capex": 33.2,
-          "cash_interest": 22.0,
-          "change_in_working_capital": -12.9,
-          "tax": 6.1,
-          "fcf": 41.6,
-          "formula_check": "90.0 - 33.2 - 22.0 - (-12.9) - 6.1 = 41.6"
+          "calculated_ebitda": -80.0,
+          "capex": 980.0,
+          "cash_interest": 260.0,
+          "change_in_working_capital": 80.0,
+          "tax": 0.0,
+          "fcf": -1400.0,
+          "formula_check": "-80.0 - 980.0 - 260.0 - (80.0) - 0.0 = -1400.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 100.0,
+        "revenue": 420.0,
         "ebitda": 100.0,
-        "ebitda_margin_pct": 100.0,
+        "ebitda_margin_pct": 23.8,
         "cfo": 85.0,
-        "capex": 35.0,
-        "fcf": 50.0,
+        "capex": 450.0,
+        "fcf": -735.0,
         "cash": 75.0,
         "gross_debt": 318.0,
         "net_debt": 243.0,
@@ -11837,34 +11688,34 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 108.5,
+        "reported_ebitda": 102.0,
         "calculated_ebitda": 100.0,
         "ebitda_reconciliation_variance_usd_m": 8.5,
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$8.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-        "cash_interest": 24.4,
-        "change_in_working_capital": -16.2,
-        "tax_expense": 6.8,
-        "fcf_conversion_pct": 50.0,
+        "cash_interest": 280.0,
+        "change_in_working_capital": 95.0,
+        "tax_expense": 10.0,
+        "fcf_conversion_pct": -735.0,
         "fcf_bridge": {
           "calculated_ebitda": 100.0,
-          "capex": 35.0,
-          "cash_interest": 24.4,
-          "change_in_working_capital": -16.2,
-          "tax": 6.8,
-          "fcf": 50.0,
-          "formula_check": "100.0 - 35.0 - 24.4 - (-16.2) - 6.8 = 50.0"
+          "capex": 450.0,
+          "cash_interest": 280.0,
+          "change_in_working_capital": 95.0,
+          "tax": 10.0,
+          "fcf": -735.0,
+          "formula_check": "100.0 - 450.0 - 280.0 - (95.0) - 10.0 = -735.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 108.0,
-        "ebitda": 110.0,
-        "ebitda_margin_pct": 101.9,
+        "revenue": 2800.0,
+        "ebitda": 650.0,
+        "ebitda_margin_pct": 23.2,
         "cfo": 93.5,
-        "capex": 36.8,
-        "fcf": 56.7,
+        "capex": 250.0,
+        "fcf": 30.0,
         "cash": 88.5,
         "gross_debt": 311.6,
         "net_debt": 223.1,
@@ -11877,34 +11728,34 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 119.3,
-        "calculated_ebitda": 110.0,
+        "reported_ebitda": 663.0,
+        "calculated_ebitda": 650.0,
         "ebitda_reconciliation_variance_usd_m": 9.3,
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$9.3M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-        "cash_interest": 23.4,
-        "change_in_working_capital": -14.9,
-        "tax_expense": 8.0,
-        "fcf_conversion_pct": 51.5,
+        "cash_interest": 260.0,
+        "change_in_working_capital": 70.0,
+        "tax_expense": 40.0,
+        "fcf_conversion_pct": 4.6,
         "fcf_bridge": {
-          "calculated_ebitda": 110.0,
-          "capex": 36.8,
-          "cash_interest": 23.4,
-          "change_in_working_capital": -14.9,
-          "tax": 8.0,
-          "fcf": 56.7,
-          "formula_check": "110.0 - 36.8 - 23.4 - (-14.9) - 8.0 = 56.7"
+          "calculated_ebitda": 650.0,
+          "capex": 250.0,
+          "cash_interest": 260.0,
+          "change_in_working_capital": 70.0,
+          "tax": 40.0,
+          "fcf": 30.0,
+          "formula_check": "650.0 - 250.0 - 260.0 - (70.0) - 40.0 = 30.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 115.0,
-        "ebitda": 118.0,
-        "ebitda_margin_pct": 102.6,
+        "revenue": 5500.0,
+        "ebitda": 1450.0,
+        "ebitda_margin_pct": 26.4,
         "cfo": 100.3,
-        "capex": 35.7,
-        "fcf": 64.6,
+        "capex": 180.0,
+        "fcf": 880.0,
         "cash": 101.2,
         "gross_debt": 302.1,
         "net_debt": 200.9,
@@ -11917,34 +11768,34 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 128.0,
-        "calculated_ebitda": 118.0,
+        "reported_ebitda": 1479.0,
+        "calculated_ebitda": 1450.0,
         "ebitda_reconciliation_variance_usd_m": 10.0,
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$10.0M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-        "cash_interest": 22.4,
-        "change_in_working_capital": -13.7,
-        "tax_expense": 9.0,
-        "fcf_conversion_pct": 54.7,
+        "cash_interest": 230.0,
+        "change_in_working_capital": 50.0,
+        "tax_expense": 110.0,
+        "fcf_conversion_pct": 60.7,
         "fcf_bridge": {
-          "calculated_ebitda": 118.0,
-          "capex": 35.7,
-          "cash_interest": 22.4,
-          "change_in_working_capital": -13.7,
-          "tax": 9.0,
-          "fcf": 64.6,
-          "formula_check": "118.0 - 35.7 - 22.4 - (-13.7) - 9.0 = 64.6"
+          "calculated_ebitda": 1450.0,
+          "capex": 180.0,
+          "cash_interest": 230.0,
+          "change_in_working_capital": 50.0,
+          "tax": 110.0,
+          "fcf": 880.0,
+          "formula_check": "1450.0 - 180.0 - 230.0 - (50.0) - 110.0 = 880.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 120.0,
-        "ebitda": 124.0,
-        "ebitda_margin_pct": 103.3,
+        "revenue": 7200.0,
+        "ebitda": 2100.0,
+        "ebitda_margin_pct": 29.2,
         "cfo": 106.2,
-        "capex": 34.3,
-        "fcf": 71.9,
+        "capex": 150.0,
+        "fcf": 1540.0,
         "cash": 112.5,
         "gross_debt": 286.2,
         "net_debt": 173.7,
@@ -11957,23 +11808,23 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 134.5,
-        "calculated_ebitda": 124.0,
+        "reported_ebitda": 2142.0,
+        "calculated_ebitda": 2100.0,
         "ebitda_reconciliation_variance_usd_m": 10.5,
         "ebitda_reconciliation_variance_pct": 8.5,
         "ebitda_reconciliation_comment": "Pre-Commercial Startup Adjustments: Reported EBITDA excludes +$10.5M (+8.5%) in commissioning feedstock and test-run startup flaring; Standardized Calculated EBITDA reflects full plant operating costs without capitalization.",
-        "cash_interest": 21.5,
-        "change_in_working_capital": -13.5,
-        "tax_expense": 9.8,
-        "fcf_conversion_pct": 58.0,
+        "cash_interest": 190.0,
+        "change_in_working_capital": 40.0,
+        "tax_expense": 180.0,
+        "fcf_conversion_pct": 73.3,
         "fcf_bridge": {
-          "calculated_ebitda": 124.0,
-          "capex": 34.3,
-          "cash_interest": 21.5,
-          "change_in_working_capital": -13.5,
-          "tax": 9.8,
-          "fcf": 71.9,
-          "formula_check": "124.0 - 34.3 - 21.5 - (-13.5) - 9.8 = 71.9"
+          "calculated_ebitda": 2100.0,
+          "capex": 150.0,
+          "cash_interest": 190.0,
+          "change_in_working_capital": 40.0,
+          "tax": 180.0,
+          "fcf": 1540.0,
+          "formula_check": "2100.0 - 150.0 - 190.0 - (40.0) - 180.0 = 1540.0"
         }
       }
     ],
@@ -12444,7 +12295,10 @@ const MASTER_ISSUERS = [
       "model_file": "Dar_Al_Arkan_Credit_Model.xlsx",
       "notion_id": "3e01d0ad68c681118a96c1193e9c5315",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dar_Al_Arkan_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -142.7,
+      "net_leverage_2024a": 3.47
     },
     "financials_multi_year": [
       {
@@ -12454,8 +12308,8 @@ const MASTER_ISSUERS = [
         "ebitda": 234.0,
         "ebitda_margin_pct": 31.3,
         "cfo": 189.7,
-        "capex": 88.2,
-        "fcf": 101.5,
+        "capex": 122.3,
+        "fcf": -64.8,
         "cash": 148.5,
         "gross_debt": 1291.3,
         "net_debt": 1142.8,
@@ -12474,17 +12328,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$15.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 75.0,
-        "change_in_working_capital": -44.0,
-        "tax_expense": 13.3,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 89.8,
+        "tax_expense": 11.7,
+        "fcf_conversion_pct": -27.7,
         "fcf_bridge": {
           "calculated_ebitda": 234.0,
-          "capex": 88.2,
+          "capex": 122.3,
           "cash_interest": 75.0,
-          "change_in_working_capital": -44.0,
-          "tax": 13.3,
-          "fcf": 101.5,
-          "formula_check": "234.0 - 88.2 - 75.0 - (-44.0) - 13.3 = 101.5"
+          "change_in_working_capital": 89.8,
+          "tax": 11.7,
+          "fcf": -64.8,
+          "formula_check": "234.0 - 122.3 - 75.0 - (89.8) - 11.7 = -64.8"
         }
       },
       {
@@ -12494,8 +12348,8 @@ const MASTER_ISSUERS = [
         "ebitda": 288.0,
         "ebitda_margin_pct": 31.9,
         "cfo": 238.7,
-        "capex": 107.1,
-        "fcf": 131.6,
+        "capex": 213.8,
+        "fcf": -236.9,
         "cash": 189.0,
         "gross_debt": 1397.7,
         "net_debt": 1208.7,
@@ -12514,17 +12368,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$18.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 93.8,
-        "change_in_working_capital": -60.7,
-        "tax_expense": 16.2,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 202.9,
+        "tax_expense": 14.4,
+        "fcf_conversion_pct": -82.3,
         "fcf_bridge": {
           "calculated_ebitda": 288.0,
-          "capex": 107.1,
+          "capex": 213.8,
           "cash_interest": 93.8,
-          "change_in_working_capital": -60.7,
-          "tax": 16.2,
-          "fcf": 131.6,
-          "formula_check": "288.0 - 107.1 - 93.8 - (-60.7) - 16.2 = 131.6"
+          "change_in_working_capital": 202.9,
+          "tax": 14.4,
+          "fcf": -236.9,
+          "formula_check": "288.0 - 213.8 - 93.8 - (202.9) - 14.4 = -236.9"
         }
       },
       {
@@ -12534,8 +12388,8 @@ const MASTER_ISSUERS = [
         "ebitda": 324.0,
         "ebitda_margin_pct": 32.0,
         "cfo": 269.3,
-        "capex": 119.7,
-        "fcf": 149.6,
+        "capex": 240.6,
+        "fcf": -273.0,
         "cash": 229.5,
         "gross_debt": 1488.8,
         "net_debt": 1259.3,
@@ -12554,17 +12408,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$21.1M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 112.5,
-        "change_in_working_capital": -74.9,
-        "tax_expense": 17.1,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 227.7,
+        "tax_expense": 16.2,
+        "fcf_conversion_pct": -84.3,
         "fcf_bridge": {
           "calculated_ebitda": 324.0,
-          "capex": 119.7,
+          "capex": 240.6,
           "cash_interest": 112.5,
-          "change_in_working_capital": -74.9,
-          "tax": 17.1,
-          "fcf": 149.6,
-          "formula_check": "324.0 - 119.7 - 112.5 - (-74.9) - 17.1 = 149.6"
+          "change_in_working_capital": 227.7,
+          "tax": 16.2,
+          "fcf": -273.0,
+          "formula_check": "324.0 - 240.6 - 112.5 - (227.7) - 16.2 = -273.0"
         }
       },
       {
@@ -12574,8 +12428,8 @@ const MASTER_ISSUERS = [
         "ebitda": 360.0,
         "ebitda_margin_pct": 32.7,
         "cfo": 306.0,
-        "capex": 126.0,
-        "fcf": 180.0,
+        "capex": 227.7,
+        "fcf": -142.7,
         "cash": 270.0,
         "gross_debt": 1519.2,
         "net_debt": 1249.2,
@@ -12594,17 +12448,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$23.4M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 125.0,
-        "change_in_working_capital": -90.1,
-        "tax_expense": 19.1,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 132.0,
+        "tax_expense": 18.0,
+        "fcf_conversion_pct": -39.6,
         "fcf_bridge": {
           "calculated_ebitda": 360.0,
-          "capex": 126.0,
+          "capex": 227.7,
           "cash_interest": 125.0,
-          "change_in_working_capital": -90.1,
-          "tax": 19.1,
-          "fcf": 180.0,
-          "formula_check": "360.0 - 126.0 - 125.0 - (-90.1) - 19.1 = 180.0"
+          "change_in_working_capital": 132.0,
+          "tax": 18.0,
+          "fcf": -142.7,
+          "formula_check": "360.0 - 227.7 - 125.0 - (132.0) - 18.0 = -142.7"
         }
       },
       {
@@ -12614,8 +12468,8 @@ const MASTER_ISSUERS = [
         "ebitda": 396.0,
         "ebitda_margin_pct": 33.3,
         "cfo": 336.6,
-        "capex": 132.3,
-        "fcf": 204.3,
+        "capex": 206.9,
+        "fcf": -93.3,
         "cash": 318.6,
         "gross_debt": 1488.8,
         "net_debt": 1170.2,
@@ -12634,17 +12488,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$25.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 120.0,
-        "change_in_working_capital": -84.2,
-        "tax_expense": 23.6,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 142.6,
+        "tax_expense": 19.8,
+        "fcf_conversion_pct": -23.6,
         "fcf_bridge": {
           "calculated_ebitda": 396.0,
-          "capex": 132.3,
+          "capex": 206.9,
           "cash_interest": 120.0,
-          "change_in_working_capital": -84.2,
-          "tax": 23.6,
-          "fcf": 204.3,
-          "formula_check": "396.0 - 132.3 - 120.0 - (-84.2) - 23.6 = 204.3"
+          "change_in_working_capital": 142.6,
+          "tax": 19.8,
+          "fcf": -93.3,
+          "formula_check": "396.0 - 206.9 - 120.0 - (142.6) - 19.8 = -93.3"
         }
       },
       {
@@ -12654,8 +12508,8 @@ const MASTER_ISSUERS = [
         "ebitda": 424.8,
         "ebitda_margin_pct": 33.6,
         "cfo": 361.1,
-        "capex": 128.5,
-        "fcf": 232.6,
+        "capex": 222.0,
+        "fcf": -85.3,
         "cash": 364.5,
         "gross_debt": 1443.2,
         "net_debt": 1078.7,
@@ -12674,17 +12528,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$27.6M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 115.1,
-        "change_in_working_capital": -78.7,
-        "tax_expense": 27.3,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 151.8,
+        "tax_expense": 21.2,
+        "fcf_conversion_pct": -20.1,
         "fcf_bridge": {
           "calculated_ebitda": 424.8,
-          "capex": 128.5,
+          "capex": 222.0,
           "cash_interest": 115.1,
-          "change_in_working_capital": -78.7,
-          "tax": 27.3,
-          "fcf": 232.6,
-          "formula_check": "424.8 - 128.5 - 115.1 - (-78.7) - 27.3 = 232.6"
+          "change_in_working_capital": 151.8,
+          "tax": 21.2,
+          "fcf": -85.3,
+          "formula_check": "424.8 - 222.0 - 115.1 - (151.8) - 21.2 = -85.3"
         }
       },
       {
@@ -12694,8 +12548,8 @@ const MASTER_ISSUERS = [
         "ebitda": 446.4,
         "ebitda_margin_pct": 33.8,
         "cfo": 382.5,
-        "capex": 123.5,
-        "fcf": 259.0,
+        "capex": 233.2,
+        "fcf": -77.5,
         "cash": 405.0,
         "gross_debt": 1367.3,
         "net_debt": 962.3,
@@ -12714,17 +12568,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$29.0M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 110.0,
-        "change_in_working_capital": -76.5,
-        "tax_expense": 30.4,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 158.4,
+        "tax_expense": 22.3,
+        "fcf_conversion_pct": -17.4,
         "fcf_bridge": {
           "calculated_ebitda": 446.4,
-          "capex": 123.5,
+          "capex": 233.2,
           "cash_interest": 110.0,
-          "change_in_working_capital": -76.5,
-          "tax": 30.4,
-          "fcf": 259.0,
-          "formula_check": "446.4 - 123.5 - 110.0 - (-76.5) - 30.4 = 259.0"
+          "change_in_working_capital": 158.4,
+          "tax": 22.3,
+          "fcf": -77.5,
+          "formula_check": "446.4 - 233.2 - 110.0 - (158.4) - 22.3 = -77.5"
         }
       }
     ],
@@ -13162,7 +13016,8 @@ const MASTER_ISSUERS = [
       "model_file": "Dubai_Islamic_Bank_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Dubai_Islamic_Bank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -13192,25 +13047,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -13239,25 +13080,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -13286,25 +13113,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -13333,25 +13146,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -13380,25 +13179,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -13427,25 +13212,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -13474,25 +13245,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -13934,7 +13691,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DP_World_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "dpworld",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dpworld/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dpworld/description",
+      "model_type": "corp",
+      "fcf_2024a": 347.0,
+      "net_leverage_2024a": 3.23
     },
     "financials_multi_year": [
       {
@@ -13944,8 +13704,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3315,
         "ebitda_margin_pct": 26.8,
         "cfo": 2687.7,
-        "capex": 1249.5,
-        "fcf": 1438.2,
+        "capex": 1322.7,
+        "fcf": 529.9,
         "cash": 2103.8,
         "gross_debt": 17253.3,
         "net_debt": 15149.5,
@@ -13964,17 +13724,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$49.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 569.6,
-        "change_in_working_capital": -204.9,
-        "tax_expense": 262.6,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 495.0,
+        "tax_expense": 397.8,
+        "fcf_conversion_pct": 16.0,
         "fcf_bridge": {
           "calculated_ebitda": 3315,
-          "capex": 1249.5,
+          "capex": 1322.7,
           "cash_interest": 569.6,
-          "change_in_working_capital": -204.9,
-          "tax": 262.6,
-          "fcf": 1438.2,
-          "formula_check": "3315.0 - 1249.5 - 569.6 - (-204.9) - 262.6 = 1438.2"
+          "change_in_working_capital": 495.0,
+          "tax": 397.8,
+          "fcf": 529.9,
+          "formula_check": "3315.0 - 1322.7 - 569.6 - (495.0) - 397.8 = 529.9"
         }
       },
       {
@@ -13984,8 +13744,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4080,
         "ebitda_margin_pct": 27.3,
         "cfo": 3381.3,
-        "capex": 1517.2,
-        "fcf": 1864.1,
+        "capex": 2313.4,
+        "fcf": -554.3,
         "cash": 2677.5,
         "gross_debt": 18674.2,
         "net_debt": 15996.7,
@@ -14004,17 +13764,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$61.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 712,
-        "change_in_working_capital": -334.9,
-        "tax_expense": 321.6,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 1119.3,
+        "tax_expense": 489.6,
+        "fcf_conversion_pct": -13.6,
         "fcf_bridge": {
           "calculated_ebitda": 4080,
-          "capex": 1517.2,
+          "capex": 2313.4,
           "cash_interest": 712,
-          "change_in_working_capital": -334.9,
-          "tax": 321.6,
-          "fcf": 1864.1,
-          "formula_check": "4080.0 - 1517.2 - 712.0 - (-334.9) - 321.6 = 1864.1"
+          "change_in_working_capital": 1119.3,
+          "tax": 489.6,
+          "fcf": -554.3,
+          "formula_check": "4080.0 - 2313.4 - 712.0 - (1119.3) - 489.6 = -554.3"
         }
       },
       {
@@ -14024,8 +13784,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4590,
         "ebitda_margin_pct": 27.4,
         "cfo": 3814.8,
-        "capex": 1695.8,
-        "fcf": 2119,
+        "capex": 2602.5,
+        "fcf": -673.8,
         "cash": 3251.2,
         "gross_debt": 19892,
         "net_debt": 16640.8,
@@ -14044,17 +13804,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$68.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 854.7,
-        "change_in_working_capital": -433.2,
-        "tax_expense": 353.7,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 1255.8,
+        "tax_expense": 550.8,
+        "fcf_conversion_pct": -14.7,
         "fcf_bridge": {
           "calculated_ebitda": 4590,
-          "capex": 1695.8,
+          "capex": 2602.5,
           "cash_interest": 854.7,
-          "change_in_working_capital": -433.2,
-          "tax": 353.7,
-          "fcf": 2119,
-          "formula_check": "4590.0 - 1695.8 - 854.7 - (-433.2) - 353.7 = 2119.0"
+          "change_in_working_capital": 1255.8,
+          "tax": 550.8,
+          "fcf": -673.8,
+          "formula_check": "4590.0 - 2602.5 - 854.7 - (1255.8) - 550.8 = -673.8"
         }
       },
       {
@@ -14064,8 +13824,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5100,
         "ebitda_margin_pct": 28,
         "cfo": 4335,
-        "capex": 1785,
-        "fcf": 2550,
+        "capex": 2463.3,
+        "fcf": 347.0,
         "cash": 3825,
         "gross_debt": 20298,
         "net_debt": 16473,
@@ -14084,17 +13844,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$76.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 949.7,
-        "change_in_working_capital": -577.7,
-        "tax_expense": 393,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 728.0,
+        "tax_expense": 612.0,
+        "fcf_conversion_pct": 6.8,
         "fcf_bridge": {
           "calculated_ebitda": 5100,
-          "capex": 1785,
+          "capex": 2463.3,
           "cash_interest": 949.7,
-          "change_in_working_capital": -577.7,
-          "tax": 393,
-          "fcf": 2550,
-          "formula_check": "5100.0 - 1785.0 - 949.7 - (-577.7) - 393.0 = 2550.0"
+          "change_in_working_capital": 728.0,
+          "tax": 612.0,
+          "fcf": 347.0,
+          "formula_check": "5100.0 - 2463.3 - 949.7 - (728.0) - 612.0 = 347.0"
         }
       },
       {
@@ -14104,8 +13864,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5610,
         "ebitda_margin_pct": 28.5,
         "cfo": 4768.5,
-        "capex": 1874.2,
-        "fcf": 2894.3,
+        "capex": 2238.4,
+        "fcf": 1000.0,
         "cash": 4513.5,
         "gross_debt": 19892,
         "net_debt": 15378.5,
@@ -14124,17 +13884,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$84.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 912.2,
-        "change_in_working_capital": -522.9,
-        "tax_expense": 452.2,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 786.2,
+        "tax_expense": 673.2,
+        "fcf_conversion_pct": 17.8,
         "fcf_bridge": {
           "calculated_ebitda": 5610,
-          "capex": 1874.2,
+          "capex": 2238.4,
           "cash_interest": 912.2,
-          "change_in_working_capital": -522.9,
-          "tax": 452.2,
-          "fcf": 2894.3,
-          "formula_check": "5610.0 - 1874.2 - 912.2 - (-522.9) - 452.2 = 2894.3"
+          "change_in_working_capital": 786.2,
+          "tax": 673.2,
+          "fcf": 1000.0,
+          "formula_check": "5610.0 - 2238.4 - 912.2 - (786.2) - 673.2 = 1000.0"
         }
       },
       {
@@ -14144,8 +13904,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6018,
         "ebitda_margin_pct": 28.8,
         "cfo": 5115.3,
-        "capex": 1820.7,
-        "fcf": 3294.6,
+        "capex": 2401.2,
+        "fcf": 1184.0,
         "cash": 5163.8,
         "gross_debt": 19283.1,
         "net_debt": 14119.3,
@@ -14164,17 +13924,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$90.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 873.4,
-        "change_in_working_capital": -471.6,
-        "tax_expense": 500.9,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 837.2,
+        "tax_expense": 722.2,
+        "fcf_conversion_pct": 19.7,
         "fcf_bridge": {
           "calculated_ebitda": 6018,
-          "capex": 1820.7,
+          "capex": 2401.2,
           "cash_interest": 873.4,
-          "change_in_working_capital": -471.6,
-          "tax": 500.9,
-          "fcf": 3294.6,
-          "formula_check": "6018.0 - 1820.7 - 873.4 - (-471.6) - 500.9 = 3294.6"
+          "change_in_working_capital": 837.2,
+          "tax": 722.2,
+          "fcf": 1184.0,
+          "formula_check": "6018.0 - 2401.2 - 873.4 - (837.2) - 722.2 = 1184.0"
         }
       },
       {
@@ -14184,8 +13944,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6324,
         "ebitda_margin_pct": 29,
         "cfo": 5418.8,
-        "capex": 1749.3,
-        "fcf": 3669.5,
+        "capex": 2523.3,
+        "fcf": 1332.8,
         "cash": 5737.5,
         "gross_debt": 18268.2,
         "net_debt": 12530.7,
@@ -14204,17 +13964,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$94.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 835.4,
-        "change_in_working_capital": -468.9,
-        "tax_expense": 538.7,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 873.6,
+        "tax_expense": 758.9,
+        "fcf_conversion_pct": 21.1,
         "fcf_bridge": {
           "calculated_ebitda": 6324,
-          "capex": 1749.3,
+          "capex": 2523.3,
           "cash_interest": 835.4,
-          "change_in_working_capital": -468.9,
-          "tax": 538.7,
-          "fcf": 3669.5,
-          "formula_check": "6324.0 - 1749.3 - 835.4 - (-468.9) - 538.7 = 3669.5"
+          "change_in_working_capital": 873.6,
+          "tax": 758.9,
+          "fcf": 1332.8,
+          "formula_check": "6324.0 - 2523.3 - 835.4 - (873.6) - 758.9 = 1332.8"
         }
       }
     ],
@@ -14656,18 +14416,21 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/DTEK_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "dtek",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dtek/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dtek/description",
+      "model_type": "corp",
+      "fcf_2024a": -100.0,
+      "net_leverage_2024a": 3.02
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 1632,
-        "ebitda": 273,
-        "ebitda_margin_pct": 16.7,
+        "revenue": 2200.0,
+        "ebitda": 680.0,
+        "ebitda_margin_pct": 30.9,
         "cfo": 221.3,
-        "capex": 102.9,
-        "fcf": 118.4,
+        "capex": 240.0,
+        "fcf": 195.0,
         "cash": 173.2,
         "gross_debt": 1345.9,
         "net_debt": 1172.7,
@@ -14680,34 +14443,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive operating cash flow consistently covering debt interest and sustaining capex.",
           "net_leverage": "Stable leverage profile backed by utility-grade predictability and regulatory stability."
         },
-        "reported_ebitda": 277.1,
-        "calculated_ebitda": 273,
+        "reported_ebitda": 693.6,
+        "calculated_ebitda": 680.0,
         "ebitda_reconciliation_variance_usd_m": 4.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 78,
-        "change_in_working_capital": -43.3,
-        "tax_expense": 17,
-        "fcf_conversion_pct": 43.4,
+        "cash_interest": 165.0,
+        "change_in_working_capital": 35.0,
+        "tax_expense": 45.0,
+        "fcf_conversion_pct": 28.7,
         "fcf_bridge": {
-          "calculated_ebitda": 273,
-          "capex": 102.9,
-          "cash_interest": 78,
-          "change_in_working_capital": -43.3,
-          "tax": 17,
-          "fcf": 118.4,
-          "formula_check": "273.0 - 102.9 - 78.0 - (-43.3) - 17.0 = 118.4"
+          "calculated_ebitda": 680.0,
+          "capex": 240.0,
+          "cash_interest": 165.0,
+          "change_in_working_capital": 35.0,
+          "tax": 45.0,
+          "fcf": 195.0,
+          "formula_check": "680.0 - 240.0 - 165.0 - (35.0) - 45.0 = 195.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 1968,
-        "ebitda": 336,
-        "ebitda_margin_pct": 17.1,
+        "revenue": 1650.0,
+        "ebitda": 310.0,
+        "ebitda_margin_pct": 18.8,
         "cfo": 278.5,
-        "capex": 125,
-        "fcf": 153.5,
+        "capex": 290.0,
+        "fcf": -235.0,
         "cash": 220.5,
         "gross_debt": 1456.7,
         "net_debt": 1236.2,
@@ -14720,34 +14483,34 @@ const MASTER_ISSUERS = [
           "fcf": "FCF remains positive despite heavy turbine maintenance schedules.",
           "net_leverage": "Prudent capital management preserves compliance with all financial covenant ratios."
         },
-        "reported_ebitda": 341,
-        "calculated_ebitda": 336,
+        "reported_ebitda": 316.2,
+        "calculated_ebitda": 310.0,
         "ebitda_reconciliation_variance_usd_m": 5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 97.4,
-        "change_in_working_capital": -60.6,
-        "tax_expense": 20.7,
-        "fcf_conversion_pct": 45.7,
+        "cash_interest": 175.0,
+        "change_in_working_capital": 65.0,
+        "tax_expense": 15.0,
+        "fcf_conversion_pct": -75.8,
         "fcf_bridge": {
-          "calculated_ebitda": 336,
-          "capex": 125,
-          "cash_interest": 97.4,
-          "change_in_working_capital": -60.6,
-          "tax": 20.7,
-          "fcf": 153.5,
-          "formula_check": "336.0 - 125.0 - 97.4 - (-60.6) - 20.7 = 153.5"
+          "calculated_ebitda": 310.0,
+          "capex": 290.0,
+          "cash_interest": 175.0,
+          "change_in_working_capital": 65.0,
+          "tax": 15.0,
+          "fcf": -235.0,
+          "formula_check": "310.0 - 290.0 - 175.0 - (65.0) - 15.0 = -235.0"
         }
       },
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 2208,
-        "ebitda": 378,
-        "ebitda_margin_pct": 17.1,
+        "revenue": 1580.0,
+        "ebitda": 340.0,
+        "ebitda_margin_pct": 21.5,
         "cfo": 314.2,
-        "capex": 139.7,
-        "fcf": 174.5,
+        "capex": 280.0,
+        "fcf": -165.0,
         "cash": 267.8,
         "gross_debt": 1551.7,
         "net_debt": 1283.9,
@@ -14760,34 +14523,34 @@ const MASTER_ISSUERS = [
           "fcf": "Free cash flow conversion re-accelerates as major project construction spending winds down.",
           "net_leverage": "Net leverage steadily amortizes in line with project financing repayment profiles."
         },
-        "reported_ebitda": 383.7,
-        "calculated_ebitda": 378,
+        "reported_ebitda": 346.8,
+        "calculated_ebitda": 340.0,
         "ebitda_reconciliation_variance_usd_m": 5.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 117,
-        "change_in_working_capital": -75.3,
-        "tax_expense": 22.1,
-        "fcf_conversion_pct": 46.2,
+        "cash_interest": 165.0,
+        "change_in_working_capital": 40.0,
+        "tax_expense": 20.0,
+        "fcf_conversion_pct": -48.5,
         "fcf_bridge": {
-          "calculated_ebitda": 378,
-          "capex": 139.7,
-          "cash_interest": 117,
-          "change_in_working_capital": -75.3,
-          "tax": 22.1,
-          "fcf": 174.5,
-          "formula_check": "378.0 - 139.7 - 117.0 - (-75.3) - 22.1 = 174.5"
+          "calculated_ebitda": 340.0,
+          "capex": 280.0,
+          "cash_interest": 165.0,
+          "change_in_working_capital": 40.0,
+          "tax": 20.0,
+          "fcf": -165.0,
+          "formula_check": "340.0 - 280.0 - 165.0 - (40.0) - 20.0 = -165.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 2400,
-        "ebitda": 420,
-        "ebitda_margin_pct": 17.5,
+        "revenue": 1720.0,
+        "ebitda": 420.0,
+        "ebitda_margin_pct": 24.4,
         "cfo": 357,
-        "capex": 147,
-        "fcf": 210,
+        "capex": 310.0,
+        "fcf": -100.0,
         "cash": 315,
         "gross_debt": 1583.4,
         "net_debt": 1268.4,
@@ -14800,34 +14563,34 @@ const MASTER_ISSUERS = [
           "fcf": "Strong FCF conversion supporting corporate dividend policy and debt amortization.",
           "net_leverage": "Deleveraging on track; substantial liquidity reserves maintained across top-tier banking partners."
         },
-        "reported_ebitda": 426.3,
-        "calculated_ebitda": 420,
+        "reported_ebitda": 428.40000000000003,
+        "calculated_ebitda": 420.0,
         "ebitda_reconciliation_variance_usd_m": 6.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 130,
-        "change_in_working_capital": -91.6,
-        "tax_expense": 24.6,
-        "fcf_conversion_pct": 50,
+        "cash_interest": 155.0,
+        "change_in_working_capital": 30.0,
+        "tax_expense": 25.0,
+        "fcf_conversion_pct": -23.8,
         "fcf_bridge": {
-          "calculated_ebitda": 420,
-          "capex": 147,
-          "cash_interest": 130,
-          "change_in_working_capital": -91.6,
-          "tax": 24.6,
-          "fcf": 210,
-          "formula_check": "420.0 - 147.0 - 130.0 - (-91.6) - 24.6 = 210.0"
+          "calculated_ebitda": 420.0,
+          "capex": 310.0,
+          "cash_interest": 155.0,
+          "change_in_working_capital": 30.0,
+          "tax": 25.0,
+          "fcf": -100.0,
+          "formula_check": "420.0 - 310.0 - 155.0 - (30.0) - 25.0 = -100.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 2592,
-        "ebitda": 462,
-        "ebitda_margin_pct": 17.8,
+        "revenue": 1890.0,
+        "ebitda": 490.0,
+        "ebitda_margin_pct": 25.9,
         "cfo": 392.7,
-        "capex": 154.3,
-        "fcf": 238.4,
+        "capex": 260.0,
+        "fcf": 30.0,
         "cash": 371.7,
         "gross_debt": 1551.7,
         "net_debt": 1180,
@@ -14840,34 +14603,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive organic cash generation provides robust debt service coverage (>2.5x interest coverage).",
           "net_leverage": "Net leverage declines toward target management ceiling (<3.5x consolidated)."
         },
-        "reported_ebitda": 468.9,
-        "calculated_ebitda": 462,
+        "reported_ebitda": 499.8,
+        "calculated_ebitda": 490.0,
         "ebitda_reconciliation_variance_usd_m": 6.9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 124.9,
-        "change_in_working_capital": -85.4,
-        "tax_expense": 29.8,
-        "fcf_conversion_pct": 51.6,
+        "cash_interest": 145.0,
+        "change_in_working_capital": 20.0,
+        "tax_expense": 35.0,
+        "fcf_conversion_pct": 6.1,
         "fcf_bridge": {
-          "calculated_ebitda": 462,
-          "capex": 154.3,
-          "cash_interest": 124.9,
-          "change_in_working_capital": -85.4,
-          "tax": 29.8,
-          "fcf": 238.4,
-          "formula_check": "462.0 - 154.3 - 124.9 - (-85.4) - 29.8 = 238.4"
+          "calculated_ebitda": 490.0,
+          "capex": 260.0,
+          "cash_interest": 145.0,
+          "change_in_working_capital": 20.0,
+          "tax": 35.0,
+          "fcf": 30.0,
+          "formula_check": "490.0 - 260.0 - 145.0 - (20.0) - 35.0 = 30.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 2760,
-        "ebitda": 495.6,
-        "ebitda_margin_pct": 18,
+        "revenue": 2050.0,
+        "ebitda": 560.0,
+        "ebitda_margin_pct": 27.3,
         "cfo": 421.3,
-        "capex": 149.9,
-        "fcf": 271.4,
+        "capex": 240.0,
+        "fcf": 125.0,
         "cash": 425.2,
         "gross_debt": 1504.2,
         "net_debt": 1079,
@@ -14880,34 +14643,34 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF generation allows early redemption or refinancing of maturing Eurobonds.",
           "net_leverage": "Credit profile strengthens, positioning the issuer for potential credit rating upgrades."
         },
-        "reported_ebitda": 503,
-        "calculated_ebitda": 495.6,
+        "reported_ebitda": 571.2,
+        "calculated_ebitda": 560.0,
         "ebitda_reconciliation_variance_usd_m": 7.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 119.7,
-        "change_in_working_capital": -79.5,
-        "tax_expense": 34.1,
-        "fcf_conversion_pct": 54.8,
+        "cash_interest": 135.0,
+        "change_in_working_capital": 15.0,
+        "tax_expense": 45.0,
+        "fcf_conversion_pct": 22.3,
         "fcf_bridge": {
-          "calculated_ebitda": 495.6,
-          "capex": 149.9,
-          "cash_interest": 119.7,
-          "change_in_working_capital": -79.5,
-          "tax": 34.1,
-          "fcf": 271.4,
-          "formula_check": "495.6 - 149.9 - 119.7 - (-79.5) - 34.1 = 271.4"
+          "calculated_ebitda": 560.0,
+          "capex": 240.0,
+          "cash_interest": 135.0,
+          "change_in_working_capital": 15.0,
+          "tax": 45.0,
+          "fcf": 125.0,
+          "formula_check": "560.0 - 240.0 - 135.0 - (15.0) - 45.0 = 125.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 2880,
-        "ebitda": 520.8,
-        "ebitda_margin_pct": 18.1,
+        "revenue": 2200.0,
+        "ebitda": 630.0,
+        "ebitda_margin_pct": 28.6,
         "cfo": 446.2,
-        "capex": 144.1,
-        "fcf": 302.1,
+        "capex": 220.0,
+        "fcf": 225.0,
         "cash": 472.5,
         "gross_debt": 1425.1,
         "net_debt": 952.6,
@@ -14920,23 +14683,23 @@ const MASTER_ISSUERS = [
           "fcf": "Ample liquidity runway with undrawn RCF lines completely unutilized.",
           "net_leverage": "Conservative capital structure with fortress balance sheet metrics and large covenant headroom."
         },
-        "reported_ebitda": 528.6,
-        "calculated_ebitda": 520.8,
+        "reported_ebitda": 642.6,
+        "calculated_ebitda": 630.0,
         "ebitda_reconciliation_variance_usd_m": 7.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 114.5,
-        "change_in_working_capital": -77.4,
-        "tax_expense": 37.5,
-        "fcf_conversion_pct": 58,
+        "cash_interest": 120.0,
+        "change_in_working_capital": 10.0,
+        "tax_expense": 55.0,
+        "fcf_conversion_pct": 35.7,
         "fcf_bridge": {
-          "calculated_ebitda": 520.8,
-          "capex": 144.1,
-          "cash_interest": 114.5,
-          "change_in_working_capital": -77.4,
-          "tax": 37.5,
-          "fcf": 302.1,
-          "formula_check": "520.8 - 144.1 - 114.5 - (-77.4) - 37.5 = 302.1"
+          "calculated_ebitda": 630.0,
+          "capex": 220.0,
+          "cash_interest": 120.0,
+          "change_in_working_capital": 10.0,
+          "tax": 55.0,
+          "fcf": 225.0,
+          "formula_check": "630.0 - 220.0 - 120.0 - (10.0) - 55.0 = 225.0"
         }
       }
     ],
@@ -15377,7 +15140,10 @@ const MASTER_ISSUERS = [
       "model_file": "Emaar_Properties_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Emaar_Properties_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -240.0,
+      "net_leverage_2024a": 100.0
     },
     "financials_multi_year": [
       {
@@ -15387,8 +15153,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2080.0,
         "ebitda_margin_pct": 39.2,
         "cfo": 1686.4,
-        "capex": 784.0,
-        "fcf": 902.4,
+        "capex": 1086.8,
+        "fcf": 60.6,
         "cash": 1320.0,
         "gross_debt": 274040.0,
         "net_debt": 272720.0,
@@ -15407,17 +15173,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$135.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 192.1,
-        "change_in_working_capital": 11.9,
-        "tax_expense": 189.6,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 636.5,
+        "tax_expense": 104.0,
+        "fcf_conversion_pct": 2.9,
         "fcf_bridge": {
           "calculated_ebitda": 2080.0,
-          "capex": 784.0,
+          "capex": 1086.8,
           "cash_interest": 192.1,
-          "change_in_working_capital": 11.9,
-          "tax": 189.6,
-          "fcf": 902.4,
-          "formula_check": "2080.0 - 784.0 - 192.1 - (11.9) - 189.6 = 902.4"
+          "change_in_working_capital": 636.5,
+          "tax": 104.0,
+          "fcf": 60.6,
+          "formula_check": "2080.0 - 1086.8 - 192.1 - (636.5) - 104.0 = 60.6"
         }
       },
       {
@@ -15427,8 +15193,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2560.0,
         "ebitda_margin_pct": 40.0,
         "cfo": 2121.6,
-        "capex": 952.0,
-        "fcf": 1169.6,
+        "capex": 1900.8,
+        "fcf": -1147.8,
         "cash": 1680.0,
         "gross_debt": 296608.0,
         "net_debt": 294928.0,
@@ -15447,17 +15213,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$166.4M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 239.9,
-        "change_in_working_capital": -34.3,
-        "tax_expense": 232.8,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 1439.1,
+        "tax_expense": 128.0,
+        "fcf_conversion_pct": -44.8,
         "fcf_bridge": {
           "calculated_ebitda": 2560.0,
-          "capex": 952.0,
+          "capex": 1900.8,
           "cash_interest": 239.9,
-          "change_in_working_capital": -34.3,
-          "tax": 232.8,
-          "fcf": 1169.6,
-          "formula_check": "2560.0 - 952.0 - 239.9 - (-34.3) - 232.8 = 1169.6"
+          "change_in_working_capital": 1439.1,
+          "tax": 128.0,
+          "fcf": -1147.8,
+          "formula_check": "2560.0 - 1900.8 - 239.9 - (1439.1) - 128.0 = -1147.8"
         }
       },
       {
@@ -15467,8 +15233,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2880.0,
         "ebitda_margin_pct": 40.1,
         "cfo": 2393.6,
-        "capex": 1064.0,
-        "fcf": 1329.6,
+        "capex": 2138.4,
+        "fcf": -1305.0,
         "cash": 2040.0,
         "gross_debt": 315952.0,
         "net_debt": 313912.0,
@@ -15487,17 +15253,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$187.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 288.0,
-        "change_in_working_capital": -60.8,
-        "tax_expense": 259.2,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 1614.6,
+        "tax_expense": 144.0,
+        "fcf_conversion_pct": -45.3,
         "fcf_bridge": {
           "calculated_ebitda": 2880.0,
-          "capex": 1064.0,
+          "capex": 2138.4,
           "cash_interest": 288.0,
-          "change_in_working_capital": -60.8,
-          "tax": 259.2,
-          "fcf": 1329.6,
-          "formula_check": "2880.0 - 1064.0 - 288.0 - (-60.8) - 259.2 = 1329.6"
+          "change_in_working_capital": 1614.6,
+          "tax": 144.0,
+          "fcf": -1305.0,
+          "formula_check": "2880.0 - 2138.4 - 288.0 - (1614.6) - 144.0 = -1305.0"
         }
       },
       {
@@ -15507,8 +15273,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3200.0,
         "ebitda_margin_pct": 41.0,
         "cfo": 2720.0,
-        "capex": 1120.0,
-        "fcf": 1600.0,
+        "capex": 2024.0,
+        "fcf": -240.0,
         "cash": 2400.0,
         "gross_debt": 322400.0,
         "net_debt": 320000.0,
@@ -15527,17 +15293,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$208.0M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 320.0,
-        "change_in_working_capital": -128.0,
-        "tax_expense": 288.0,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 936.0,
+        "tax_expense": 160.0,
+        "fcf_conversion_pct": -7.5,
         "fcf_bridge": {
           "calculated_ebitda": 3200.0,
-          "capex": 1120.0,
+          "capex": 2024.0,
           "cash_interest": 320.0,
-          "change_in_working_capital": -128.0,
-          "tax": 288.0,
-          "fcf": 1600.0,
-          "formula_check": "3200.0 - 1120.0 - 320.0 - (-128.0) - 288.0 = 1600.0"
+          "change_in_working_capital": 936.0,
+          "tax": 160.0,
+          "fcf": -240.0,
+          "formula_check": "3200.0 - 2024.0 - 320.0 - (936.0) - 160.0 = -240.0"
         }
       },
       {
@@ -15547,8 +15313,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3520.0,
         "ebitda_margin_pct": 41.8,
         "cfo": 2992.0,
-        "capex": 1176.0,
-        "fcf": 1816.0,
+        "capex": 1839.2,
+        "fcf": 186.7,
         "cash": 2832.0,
         "gross_debt": 315952.0,
         "net_debt": 313120.0,
@@ -15567,17 +15333,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$228.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 307.2,
-        "change_in_working_capital": -102.7,
-        "tax_expense": 323.5,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 1010.9,
+        "tax_expense": 176.0,
+        "fcf_conversion_pct": 5.3,
         "fcf_bridge": {
           "calculated_ebitda": 3520.0,
-          "capex": 1176.0,
+          "capex": 1839.2,
           "cash_interest": 307.2,
-          "change_in_working_capital": -102.7,
-          "tax": 323.5,
-          "fcf": 1816.0,
-          "formula_check": "3520.0 - 1176.0 - 307.2 - (-102.7) - 323.5 = 1816.0"
+          "change_in_working_capital": 1010.9,
+          "tax": 176.0,
+          "fcf": 186.7,
+          "formula_check": "3520.0 - 1839.2 - 307.2 - (1010.9) - 176.0 = 186.7"
         }
       },
       {
@@ -15587,8 +15353,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3776.0,
         "ebitda_margin_pct": 42.1,
         "cfo": 3209.6,
-        "capex": 1142.4,
-        "fcf": 2067.2,
+        "capex": 1973.0,
+        "fcf": 243.5,
         "cash": 3240.0,
         "gross_debt": 306280.0,
         "net_debt": 303040.0,
@@ -15607,17 +15373,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$245.4M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 294.3,
-        "change_in_working_capital": -80.2,
-        "tax_expense": 352.3,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 1076.4,
+        "tax_expense": 188.8,
+        "fcf_conversion_pct": 6.4,
         "fcf_bridge": {
           "calculated_ebitda": 3776.0,
-          "capex": 1142.4,
+          "capex": 1973.0,
           "cash_interest": 294.3,
-          "change_in_working_capital": -80.2,
-          "tax": 352.3,
-          "fcf": 2067.2,
-          "formula_check": "3776.0 - 1142.4 - 294.3 - (-80.2) - 352.3 = 2067.2"
+          "change_in_working_capital": 1076.4,
+          "tax": 188.8,
+          "fcf": 243.5,
+          "formula_check": "3776.0 - 1973.0 - 294.3 - (1076.4) - 188.8 = 243.5"
         }
       },
       {
@@ -15627,8 +15393,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3968.0,
         "ebitda_margin_pct": 42.4,
         "cfo": 3400.0,
-        "capex": 1097.6,
-        "fcf": 2302.4,
+        "capex": 2073.3,
+        "fcf": 291.5,
         "cash": 3600.0,
         "gross_debt": 290160.0,
         "net_debt": 286560.0,
@@ -15647,17 +15413,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$257.9M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 281.6,
-        "change_in_working_capital": -88.0,
-        "tax_expense": 374.4,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 1123.2,
+        "tax_expense": 198.4,
+        "fcf_conversion_pct": 7.3,
         "fcf_bridge": {
           "calculated_ebitda": 3968.0,
-          "capex": 1097.6,
+          "capex": 2073.3,
           "cash_interest": 281.6,
-          "change_in_working_capital": -88.0,
-          "tax": 374.4,
-          "fcf": 2302.4,
-          "formula_check": "3968.0 - 1097.6 - 281.6 - (-88.0) - 374.4 = 2302.4"
+          "change_in_working_capital": 1123.2,
+          "tax": 198.4,
+          "fcf": 291.5,
+          "formula_check": "3968.0 - 2073.3 - 281.6 - (1123.2) - 198.4 = 291.5"
         }
       }
     ],
@@ -16095,7 +15861,10 @@ const MASTER_ISSUERS = [
       "model_file": "Emlak_Konut_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681d49d9cd4e3e2464afb",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Emlak_Konut_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -98.1,
+      "net_leverage_2024a": 0.49
     },
     "financials_multi_year": [
       {
@@ -16105,8 +15874,8 @@ const MASTER_ISSUERS = [
         "ebitda": 227.5,
         "ebitda_margin_pct": 23.9,
         "cfo": 184.4,
-        "capex": 85.7,
-        "fcf": 98.7,
+        "capex": 118.9,
+        "fcf": -41.7,
         "cash": 144.4,
         "gross_debt": 368.9,
         "net_debt": 224.5,
@@ -16125,17 +15894,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$14.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 24.7,
-        "change_in_working_capital": -1.8,
-        "tax_expense": 20.2,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 114.2,
+        "tax_expense": 11.4,
+        "fcf_conversion_pct": -18.3,
         "fcf_bridge": {
           "calculated_ebitda": 227.5,
-          "capex": 85.7,
+          "capex": 118.9,
           "cash_interest": 24.7,
-          "change_in_working_capital": -1.8,
-          "tax": 20.2,
-          "fcf": 98.7,
-          "formula_check": "227.5 - 85.7 - 24.7 - (-1.8) - 20.2 = 98.7"
+          "change_in_working_capital": 114.2,
+          "tax": 11.4,
+          "fcf": -41.7,
+          "formula_check": "227.5 - 118.9 - 24.7 - (114.2) - 11.4 = -41.7"
         }
       },
       {
@@ -16145,8 +15914,8 @@ const MASTER_ISSUERS = [
         "ebitda": 280.0,
         "ebitda_margin_pct": 24.4,
         "cfo": 232.1,
-        "capex": 104.1,
-        "fcf": 128.0,
+        "capex": 207.9,
+        "fcf": -231.1,
         "cash": 183.8,
         "gross_debt": 399.3,
         "net_debt": 215.5,
@@ -16165,17 +15934,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$15.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 30.9,
-        "change_in_working_capital": -7.8,
-        "tax_expense": 24.8,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 258.3,
+        "tax_expense": 14.0,
+        "fcf_conversion_pct": -82.5,
         "fcf_bridge": {
           "calculated_ebitda": 280.0,
-          "capex": 104.1,
+          "capex": 207.9,
           "cash_interest": 30.9,
-          "change_in_working_capital": -7.8,
-          "tax": 24.8,
-          "fcf": 128.0,
-          "formula_check": "280.0 - 104.1 - 30.9 - (-7.8) - 24.8 = 128.0"
+          "change_in_working_capital": 258.3,
+          "tax": 14.0,
+          "fcf": -231.1,
+          "formula_check": "280.0 - 207.9 - 30.9 - (258.3) - 14.0 = -231.1"
         }
       },
       {
@@ -16185,8 +15954,8 @@ const MASTER_ISSUERS = [
         "ebitda": 315.0,
         "ebitda_margin_pct": 24.5,
         "cfo": 261.8,
-        "capex": 116.4,
-        "fcf": 145.4,
+        "capex": 233.9,
+        "fcf": -261.6,
         "cash": 223.1,
         "gross_debt": 425.3,
         "net_debt": 202.2,
@@ -16205,17 +15974,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$17.3M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 37.1,
-        "change_in_working_capital": -11.4,
-        "tax_expense": 27.5,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 289.8,
+        "tax_expense": 15.8,
+        "fcf_conversion_pct": -83.0,
         "fcf_bridge": {
           "calculated_ebitda": 315.0,
-          "capex": 116.4,
+          "capex": 233.9,
           "cash_interest": 37.1,
-          "change_in_working_capital": -11.4,
-          "tax": 27.5,
-          "fcf": 145.4,
-          "formula_check": "315.0 - 116.4 - 37.1 - (-11.4) - 27.5 = 145.4"
+          "change_in_working_capital": 289.8,
+          "tax": 15.8,
+          "fcf": -261.6,
+          "formula_check": "315.0 - 233.9 - 37.1 - (289.8) - 15.8 = -261.6"
         }
       },
       {
@@ -16225,8 +15994,8 @@ const MASTER_ISSUERS = [
         "ebitda": 350.0,
         "ebitda_margin_pct": 25.0,
         "cfo": 297.5,
-        "capex": 122.5,
-        "fcf": 175.0,
+        "capex": 221.4,
+        "fcf": -98.1,
         "cash": 262.5,
         "gross_debt": 434.0,
         "net_debt": 171.5,
@@ -16245,17 +16014,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$19.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 41.2,
-        "change_in_working_capital": -19.3,
-        "tax_expense": 30.6,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 168.0,
+        "tax_expense": 17.5,
+        "fcf_conversion_pct": -28.0,
         "fcf_bridge": {
           "calculated_ebitda": 350.0,
-          "capex": 122.5,
+          "capex": 221.4,
           "cash_interest": 41.2,
-          "change_in_working_capital": -19.3,
-          "tax": 30.6,
-          "fcf": 175.0,
-          "formula_check": "350.0 - 122.5 - 41.2 - (-19.3) - 30.6 = 175.0"
+          "change_in_working_capital": 168.0,
+          "tax": 17.5,
+          "fcf": -98.1,
+          "formula_check": "350.0 - 221.4 - 41.2 - (168.0) - 17.5 = -98.1"
         }
       },
       {
@@ -16265,8 +16034,8 @@ const MASTER_ISSUERS = [
         "ebitda": 385.0,
         "ebitda_margin_pct": 25.5,
         "cfo": 327.2,
-        "capex": 128.6,
-        "fcf": 198.6,
+        "capex": 201.2,
+        "fcf": -56.3,
         "cash": 309.8,
         "gross_debt": 425.3,
         "net_debt": 115.5,
@@ -16285,17 +16054,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$25.0M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 39.5,
-        "change_in_working_capital": -16.2,
-        "tax_expense": 34.5,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 181.4,
+        "tax_expense": 19.2,
+        "fcf_conversion_pct": -14.6,
         "fcf_bridge": {
           "calculated_ebitda": 385.0,
-          "capex": 128.6,
+          "capex": 201.2,
           "cash_interest": 39.5,
-          "change_in_working_capital": -16.2,
-          "tax": 34.5,
-          "fcf": 198.6,
-          "formula_check": "385.0 - 128.6 - 39.5 - (-16.2) - 34.5 = 198.6"
+          "change_in_working_capital": 181.4,
+          "tax": 19.2,
+          "fcf": -56.3,
+          "formula_check": "385.0 - 201.2 - 39.5 - (181.4) - 19.2 = -56.3"
         }
       },
       {
@@ -16305,8 +16074,8 @@ const MASTER_ISSUERS = [
         "ebitda": 413.0,
         "ebitda_margin_pct": 25.7,
         "cfo": 351.0,
-        "capex": 124.9,
-        "fcf": 226.1,
+        "capex": 215.8,
+        "fcf": -54.6,
         "cash": 354.4,
         "gross_debt": 412.3,
         "net_debt": 57.9,
@@ -16325,17 +16094,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$26.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 37.9,
-        "change_in_working_capital": -13.6,
-        "tax_expense": 37.7,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 193.2,
+        "tax_expense": 20.7,
+        "fcf_conversion_pct": -13.2,
         "fcf_bridge": {
           "calculated_ebitda": 413.0,
-          "capex": 124.9,
+          "capex": 215.8,
           "cash_interest": 37.9,
-          "change_in_working_capital": -13.6,
-          "tax": 37.7,
-          "fcf": 226.1,
-          "formula_check": "413.0 - 124.9 - 37.9 - (-13.6) - 37.7 = 226.1"
+          "change_in_working_capital": 193.2,
+          "tax": 20.7,
+          "fcf": -54.6,
+          "formula_check": "413.0 - 215.8 - 37.9 - (193.2) - 20.7 = -54.6"
         }
       },
       {
@@ -16345,8 +16114,8 @@ const MASTER_ISSUERS = [
         "ebitda": 434.0,
         "ebitda_margin_pct": 25.8,
         "cfo": 371.9,
-        "capex": 120.0,
-        "fcf": 251.9,
+        "capex": 226.8,
+        "fcf": -52.3,
         "cash": 393.8,
         "gross_debt": 390.6,
         "net_debt": 0.0,
@@ -16365,17 +16134,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$28.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 36.2,
-        "change_in_working_capital": -14.2,
-        "tax_expense": 40.1,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 201.6,
+        "tax_expense": 21.7,
+        "fcf_conversion_pct": -12.1,
         "fcf_bridge": {
           "calculated_ebitda": 434.0,
-          "capex": 120.0,
+          "capex": 226.8,
           "cash_interest": 36.2,
-          "change_in_working_capital": -14.2,
-          "tax": 40.1,
-          "fcf": 251.9,
-          "formula_check": "434.0 - 120.0 - 36.2 - (-14.2) - 40.1 = 251.9"
+          "change_in_working_capital": 201.6,
+          "tax": 21.7,
+          "fcf": -52.3,
+          "formula_check": "434.0 - 226.8 - 36.2 - (201.6) - 21.7 = -52.3"
         }
       }
     ],
@@ -16813,7 +16582,8 @@ const MASTER_ISSUERS = [
       "model_file": "Emirates_NBD_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Emirates_NBD_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -16843,25 +16613,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -16890,25 +16646,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -16937,25 +16679,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -16984,25 +16712,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -17031,25 +16745,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -17078,25 +16778,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -17125,25 +16811,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -17583,7 +17255,10 @@ const MASTER_ISSUERS = [
       "model_file": "EQUATE_Petrochemical_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8109-be89-c0eec007f727",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/EQUATE_Petrochemical_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 38.4,
+      "net_leverage_2024a": 1.65
     },
     "financials_multi_year": [
       {
@@ -17593,8 +17268,8 @@ const MASTER_ISSUERS = [
         "ebitda": 637.0,
         "ebitda_margin_pct": 27.6,
         "cfo": 516.5,
-        "capex": 240.1,
-        "fcf": 276.4,
+        "capex": 302.6,
+        "fcf": 91.8,
         "cash": 404.3,
         "gross_debt": 1999.2,
         "net_debt": 1594.9,
@@ -17613,17 +17288,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 86.4,
-        "change_in_working_capital": -19.8,
-        "tax_expense": 53.9,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 92.5,
+        "tax_expense": 63.7,
+        "fcf_conversion_pct": 14.4,
         "fcf_bridge": {
           "calculated_ebitda": 637.0,
-          "capex": 240.1,
+          "capex": 302.6,
           "cash_interest": 86.4,
-          "change_in_working_capital": -19.8,
-          "tax": 53.9,
-          "fcf": 276.4,
-          "formula_check": "637.0 - 240.1 - 86.4 - (-19.8) - 53.9 = 276.4"
+          "change_in_working_capital": 92.5,
+          "tax": 63.7,
+          "fcf": 91.8,
+          "formula_check": "637.0 - 302.6 - 86.4 - (92.5) - 63.7 = 91.8"
         }
       },
       {
@@ -17633,8 +17308,8 @@ const MASTER_ISSUERS = [
         "ebitda": 784.0,
         "ebitda_margin_pct": 28.1,
         "cfo": 649.7,
-        "capex": 291.6,
-        "fcf": 358.1,
+        "capex": 529.2,
+        "fcf": -140.8,
         "cash": 514.5,
         "gross_debt": 2163.8,
         "net_debt": 1649.3,
@@ -17653,17 +17328,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 108.1,
-        "change_in_working_capital": -39.9,
-        "tax_expense": 66.1,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 209.1,
+        "tax_expense": 78.4,
+        "fcf_conversion_pct": -18.0,
         "fcf_bridge": {
           "calculated_ebitda": 784.0,
-          "capex": 291.6,
+          "capex": 529.2,
           "cash_interest": 108.1,
-          "change_in_working_capital": -39.9,
-          "tax": 66.1,
-          "fcf": 358.1,
-          "formula_check": "784.0 - 291.6 - 108.1 - (-39.9) - 66.1 = 358.1"
+          "change_in_working_capital": 209.1,
+          "tax": 78.4,
+          "fcf": -140.8,
+          "formula_check": "784.0 - 529.2 - 108.1 - (209.1) - 78.4 = -140.8"
         }
       },
       {
@@ -17673,8 +17348,8 @@ const MASTER_ISSUERS = [
         "ebitda": 882.0,
         "ebitda_margin_pct": 28.2,
         "cfo": 733.0,
-        "capex": 325.8,
-        "fcf": 407.2,
+        "capex": 595.4,
+        "fcf": -165.9,
         "cash": 624.8,
         "gross_debt": 2305.0,
         "net_debt": 1680.2,
@@ -17693,17 +17368,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 129.7,
-        "change_in_working_capital": -53.9,
-        "tax_expense": 73.2,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 234.6,
+        "tax_expense": 88.2,
+        "fcf_conversion_pct": -18.8,
         "fcf_bridge": {
           "calculated_ebitda": 882.0,
-          "capex": 325.8,
+          "capex": 595.4,
           "cash_interest": 129.7,
-          "change_in_working_capital": -53.9,
-          "tax": 73.2,
-          "fcf": 407.2,
-          "formula_check": "882.0 - 325.8 - 129.7 - (-53.9) - 73.2 = 407.2"
+          "change_in_working_capital": 234.6,
+          "tax": 88.2,
+          "fcf": -165.9,
+          "formula_check": "882.0 - 595.4 - 129.7 - (234.6) - 88.2 = -165.9"
         }
       },
       {
@@ -17713,8 +17388,8 @@ const MASTER_ISSUERS = [
         "ebitda": 980.0,
         "ebitda_margin_pct": 28.8,
         "cfo": 833.0,
-        "capex": 343.0,
-        "fcf": 490.0,
+        "capex": 563.5,
+        "fcf": 38.4,
         "cash": 735.0,
         "gross_debt": 2352.0,
         "net_debt": 1617.0,
@@ -17733,17 +17408,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 144.1,
-        "change_in_working_capital": -78.4,
-        "tax_expense": 81.3,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 136.0,
+        "tax_expense": 98.0,
+        "fcf_conversion_pct": 3.9,
         "fcf_bridge": {
           "calculated_ebitda": 980.0,
-          "capex": 343.0,
+          "capex": 563.5,
           "cash_interest": 144.1,
-          "change_in_working_capital": -78.4,
-          "tax": 81.3,
-          "fcf": 490.0,
-          "formula_check": "980.0 - 343.0 - 144.1 - (-78.4) - 81.3 = 490.0"
+          "change_in_working_capital": 136.0,
+          "tax": 98.0,
+          "fcf": 38.4,
+          "formula_check": "980.0 - 563.5 - 144.1 - (136.0) - 98.0 = 38.4"
         }
       },
       {
@@ -17753,8 +17428,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1078.0,
         "ebitda_margin_pct": 29.4,
         "cfo": 916.3,
-        "capex": 360.2,
-        "fcf": 556.1,
+        "capex": 512.0,
+        "fcf": 172.9,
         "cash": 867.3,
         "gross_debt": 2305.0,
         "net_debt": 1437.7,
@@ -17773,17 +17448,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 138.4,
-        "change_in_working_capital": -69.1,
-        "tax_expense": 92.4,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 146.9,
+        "tax_expense": 107.8,
+        "fcf_conversion_pct": 16.0,
         "fcf_bridge": {
           "calculated_ebitda": 1078.0,
-          "capex": 360.2,
+          "capex": 512.0,
           "cash_interest": 138.4,
-          "change_in_working_capital": -69.1,
-          "tax": 92.4,
-          "fcf": 556.1,
-          "formula_check": "1078.0 - 360.2 - 138.4 - (-69.1) - 92.4 = 556.1"
+          "change_in_working_capital": 146.9,
+          "tax": 107.8,
+          "fcf": 172.9,
+          "formula_check": "1078.0 - 512.0 - 138.4 - (146.9) - 107.8 = 172.9"
         }
       },
       {
@@ -17793,8 +17468,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1156.4,
         "ebitda_margin_pct": 29.6,
         "cfo": 982.9,
-        "capex": 349.9,
-        "fcf": 633.0,
+        "capex": 549.3,
+        "fcf": 202.5,
         "cash": 992.3,
         "gross_debt": 2234.4,
         "net_debt": 1242.1,
@@ -17813,17 +17488,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 132.6,
-        "change_in_working_capital": -60.6,
-        "tax_expense": 101.5,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 156.4,
+        "tax_expense": 115.6,
+        "fcf_conversion_pct": 17.5,
         "fcf_bridge": {
           "calculated_ebitda": 1156.4,
-          "capex": 349.9,
+          "capex": 549.3,
           "cash_interest": 132.6,
-          "change_in_working_capital": -60.6,
-          "tax": 101.5,
-          "fcf": 633.0,
-          "formula_check": "1156.4 - 349.9 - 132.6 - (-60.6) - 101.5 = 633.0"
+          "change_in_working_capital": 156.4,
+          "tax": 115.6,
+          "fcf": 202.5,
+          "formula_check": "1156.4 - 549.3 - 132.6 - (156.4) - 115.6 = 202.5"
         }
       },
       {
@@ -17833,8 +17508,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1215.2,
         "ebitda_margin_pct": 29.8,
         "cfo": 1041.2,
-        "capex": 336.1,
-        "fcf": 705.1,
+        "capex": 577.2,
+        "fcf": 226.5,
         "cash": 1102.5,
         "gross_debt": 2116.8,
         "net_debt": 1014.3,
@@ -17853,17 +17528,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 126.8,
-        "change_in_working_capital": -61.4,
-        "tax_expense": 108.6,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 163.2,
+        "tax_expense": 121.5,
+        "fcf_conversion_pct": 18.6,
         "fcf_bridge": {
           "calculated_ebitda": 1215.2,
-          "capex": 336.1,
+          "capex": 577.2,
           "cash_interest": 126.8,
-          "change_in_working_capital": -61.4,
-          "tax": 108.6,
-          "fcf": 705.1,
-          "formula_check": "1215.2 - 336.1 - 126.8 - (-61.4) - 108.6 = 705.1"
+          "change_in_working_capital": 163.2,
+          "tax": 121.5,
+          "fcf": 226.5,
+          "formula_check": "1215.2 - 577.2 - 126.8 - (163.2) - 121.5 = 226.5"
         }
       }
     ],
@@ -18321,7 +17996,10 @@ const MASTER_ISSUERS = [
       "model_file": "Erdemir_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681f8b554cf9edd7b8f1c",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Erdemir_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -162.4,
+      "net_leverage_2024a": 2.12
     },
     "financials_multi_year": [
       {
@@ -18331,8 +18009,8 @@ const MASTER_ISSUERS = [
         "ebitda": 552.5,
         "ebitda_margin_pct": 11.9,
         "cfo": 447.9,
-        "capex": 208.2,
-        "fcf": 239.7,
+        "capex": 262.4,
+        "fcf": -50.2,
         "cash": 350.6,
         "gross_debt": 2073.6,
         "net_debt": 1723.0,
@@ -18351,17 +18029,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 100.1,
-        "change_in_working_capital": -38.5,
-        "tax_expense": 43.0,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 185.0,
+        "tax_expense": 55.2,
+        "fcf_conversion_pct": -9.1,
         "fcf_bridge": {
           "calculated_ebitda": 552.5,
-          "capex": 208.2,
+          "capex": 262.4,
           "cash_interest": 100.1,
-          "change_in_working_capital": -38.5,
-          "tax": 43.0,
-          "fcf": 239.7,
-          "formula_check": "552.5 - 208.2 - 100.1 - (-38.5) - 43.0 = 239.7"
+          "change_in_working_capital": 185.0,
+          "tax": 55.2,
+          "fcf": -50.2,
+          "formula_check": "552.5 - 262.4 - 100.1 - (185.0) - 55.2 = -50.2"
         }
       },
       {
@@ -18371,8 +18049,8 @@ const MASTER_ISSUERS = [
         "ebitda": 680.0,
         "ebitda_margin_pct": 12.2,
         "cfo": 563.6,
-        "capex": 252.9,
-        "fcf": 310.7,
+        "capex": 459.0,
+        "fcf": -390.2,
         "cash": 446.2,
         "gross_debt": 2244.3,
         "net_debt": 1798.1,
@@ -18391,17 +18069,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$37.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 125.0,
-        "change_in_working_capital": -61.2,
-        "tax_expense": 52.6,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 418.2,
+        "tax_expense": 68.0,
+        "fcf_conversion_pct": -57.4,
         "fcf_bridge": {
           "calculated_ebitda": 680.0,
-          "capex": 252.9,
+          "capex": 459.0,
           "cash_interest": 125.0,
-          "change_in_working_capital": -61.2,
-          "tax": 52.6,
-          "fcf": 310.7,
-          "formula_check": "680.0 - 252.9 - 125.0 - (-61.2) - 52.6 = 310.7"
+          "change_in_working_capital": 418.2,
+          "tax": 68.0,
+          "fcf": -390.2,
+          "formula_check": "680.0 - 459.0 - 125.0 - (418.2) - 68.0 = -390.2"
         }
       },
       {
@@ -18411,8 +18089,8 @@ const MASTER_ISSUERS = [
         "ebitda": 765.0,
         "ebitda_margin_pct": 12.2,
         "cfo": 635.8,
-        "capex": 282.6,
-        "fcf": 353.2,
+        "capex": 516.4,
+        "fcf": -447.1,
         "cash": 541.9,
         "gross_debt": 2390.7,
         "net_debt": 1848.8,
@@ -18431,17 +18109,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$42.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 150.0,
-        "change_in_working_capital": -78.6,
-        "tax_expense": 57.8,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 469.2,
+        "tax_expense": 76.5,
+        "fcf_conversion_pct": -58.4,
         "fcf_bridge": {
           "calculated_ebitda": 765.0,
-          "capex": 282.6,
+          "capex": 516.4,
           "cash_interest": 150.0,
-          "change_in_working_capital": -78.6,
-          "tax": 57.8,
-          "fcf": 353.2,
-          "formula_check": "765.0 - 282.6 - 150.0 - (-78.6) - 57.8 = 353.2"
+          "change_in_working_capital": 469.2,
+          "tax": 76.5,
+          "fcf": -447.1,
+          "formula_check": "765.0 - 516.4 - 150.0 - (469.2) - 76.5 = -447.1"
         }
       },
       {
@@ -18451,8 +18129,8 @@ const MASTER_ISSUERS = [
         "ebitda": 850.0,
         "ebitda_margin_pct": 12.5,
         "cfo": 722.5,
-        "capex": 297.5,
-        "fcf": 425.0,
+        "capex": 488.7,
+        "fcf": -162.4,
         "cash": 637.5,
         "gross_debt": 2439.5,
         "net_debt": 1802.0,
@@ -18471,17 +18149,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$46.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 166.7,
-        "change_in_working_capital": -103.4,
-        "tax_expense": 64.2,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 272.0,
+        "tax_expense": 85.0,
+        "fcf_conversion_pct": -19.1,
         "fcf_bridge": {
           "calculated_ebitda": 850.0,
-          "capex": 297.5,
+          "capex": 488.7,
           "cash_interest": 166.7,
-          "change_in_working_capital": -103.4,
-          "tax": 64.2,
-          "fcf": 425.0,
-          "formula_check": "850.0 - 297.5 - 166.7 - (-103.4) - 64.2 = 425.0"
+          "change_in_working_capital": 272.0,
+          "tax": 85.0,
+          "fcf": -162.4,
+          "formula_check": "850.0 - 488.7 - 166.7 - (272.0) - 85.0 = -162.4"
         }
       },
       {
@@ -18491,8 +18169,8 @@ const MASTER_ISSUERS = [
         "ebitda": 935.0,
         "ebitda_margin_pct": 12.7,
         "cfo": 794.8,
-        "capex": 312.4,
-        "fcf": 482.4,
+        "capex": 444.1,
+        "fcf": -56.5,
         "cash": 752.2,
         "gross_debt": 2390.7,
         "net_debt": 1638.5,
@@ -18511,17 +18189,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 160.1,
-        "change_in_working_capital": -94.1,
-        "tax_expense": 74.2,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 293.8,
+        "tax_expense": 93.5,
+        "fcf_conversion_pct": -6.0,
         "fcf_bridge": {
           "calculated_ebitda": 935.0,
-          "capex": 312.4,
+          "capex": 444.1,
           "cash_interest": 160.1,
-          "change_in_working_capital": -94.1,
-          "tax": 74.2,
-          "fcf": 482.4,
-          "formula_check": "935.0 - 312.4 - 160.1 - (-94.1) - 74.2 = 482.4"
+          "change_in_working_capital": 293.8,
+          "tax": 93.5,
+          "fcf": -56.5,
+          "formula_check": "935.0 - 444.1 - 160.1 - (293.8) - 93.5 = -56.5"
         }
       },
       {
@@ -18531,8 +18209,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1003.0,
         "ebitda_margin_pct": 12.8,
         "cfo": 852.5,
-        "capex": 303.4,
-        "fcf": 549.1,
+        "capex": 476.4,
+        "fcf": -39.9,
         "cash": 860.6,
         "gross_debt": 2317.5,
         "net_debt": 1456.9,
@@ -18551,17 +18229,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 153.4,
-        "change_in_working_capital": -85.2,
-        "tax_expense": 82.3,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 312.8,
+        "tax_expense": 100.3,
+        "fcf_conversion_pct": -4.0,
         "fcf_bridge": {
           "calculated_ebitda": 1003.0,
-          "capex": 303.4,
+          "capex": 476.4,
           "cash_interest": 153.4,
-          "change_in_working_capital": -85.2,
-          "tax": 82.3,
-          "fcf": 549.1,
-          "formula_check": "1003.0 - 303.4 - 153.4 - (-85.2) - 82.3 = 549.1"
+          "change_in_working_capital": 312.8,
+          "tax": 100.3,
+          "fcf": -39.9,
+          "formula_check": "1003.0 - 476.4 - 153.4 - (312.8) - 100.3 = -39.9"
         }
       },
       {
@@ -18571,8 +18249,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1054.0,
         "ebitda_margin_pct": 12.9,
         "cfo": 903.1,
-        "capex": 291.6,
-        "fcf": 611.5,
+        "capex": 500.6,
+        "fcf": -25.0,
         "cash": 956.2,
         "gross_debt": 2195.6,
         "net_debt": 1239.4,
@@ -18591,17 +18269,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 146.6,
-        "change_in_working_capital": -84.4,
-        "tax_expense": 88.7,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 326.4,
+        "tax_expense": 105.4,
+        "fcf_conversion_pct": -2.4,
         "fcf_bridge": {
           "calculated_ebitda": 1054.0,
-          "capex": 291.6,
+          "capex": 500.6,
           "cash_interest": 146.6,
-          "change_in_working_capital": -84.4,
-          "tax": 88.7,
-          "fcf": 611.5,
-          "formula_check": "1054.0 - 291.6 - 146.6 - (-84.4) - 88.7 = 611.5"
+          "change_in_working_capital": 326.4,
+          "tax": 105.4,
+          "fcf": -25.0,
+          "formula_check": "1054.0 - 500.6 - 146.6 - (326.4) - 105.4 = -25.0"
         }
       }
     ],
@@ -19059,7 +18737,10 @@ const MASTER_ISSUERS = [
       "model_file": "Eskom_Holdings_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-812e-9b74-ebca484805d9",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Eskom_Holdings_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -1991.7,
+      "net_leverage_2024a": 6.8
     },
     "financials_multi_year": [
       {
@@ -19069,8 +18750,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1430.0,
         "ebitda_margin_pct": 14.5,
         "cfo": 1159.4,
-        "capex": 539.0,
-        "fcf": 620.4,
+        "capex": 1154.7,
+        "fcf": -986.5,
         "cash": 907.5,
         "gross_debt": 14118.5,
         "net_debt": 13211.0,
@@ -19089,17 +18770,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$21.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 910.8,
-        "change_in_working_capital": -653.7,
-        "tax_expense": 13.5,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 236.6,
+        "tax_expense": 114.4,
+        "fcf_conversion_pct": -69.0,
         "fcf_bridge": {
           "calculated_ebitda": 1430.0,
-          "capex": 539.0,
+          "capex": 1154.7,
           "cash_interest": 910.8,
-          "change_in_working_capital": -653.7,
-          "tax": 13.5,
-          "fcf": 620.4,
-          "formula_check": "1430.0 - 539.0 - 910.8 - (-653.7) - 13.5 = 620.4"
+          "change_in_working_capital": 236.6,
+          "tax": 114.4,
+          "fcf": -986.5,
+          "formula_check": "1430.0 - 1154.7 - 910.8 - (236.6) - 114.4 = -986.5"
         }
       },
       {
@@ -19109,8 +18790,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1760.0,
         "ebitda_margin_pct": 14.8,
         "cfo": 1458.6,
-        "capex": 654.5,
-        "fcf": 804.1,
+        "capex": 2019.6,
+        "fcf": -2070.9,
         "cash": 1155.0,
         "gross_debt": 15281.2,
         "net_debt": 14126.2,
@@ -19129,17 +18810,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$26.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1135.5,
-        "change_in_working_capital": -848.6,
-        "tax_expense": 14.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 535.0,
+        "tax_expense": 140.8,
+        "fcf_conversion_pct": -117.7,
         "fcf_bridge": {
           "calculated_ebitda": 1760.0,
-          "capex": 654.5,
+          "capex": 2019.6,
           "cash_interest": 1135.5,
-          "change_in_working_capital": -848.6,
-          "tax": 14.5,
-          "fcf": 804.1,
-          "formula_check": "1760.0 - 654.5 - 1135.5 - (-848.6) - 14.5 = 804.1"
+          "change_in_working_capital": 535.0,
+          "tax": 140.8,
+          "fcf": -2070.9,
+          "formula_check": "1760.0 - 2019.6 - 1135.5 - (535.0) - 140.8 = -2070.9"
         }
       },
       {
@@ -19149,8 +18830,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1980.0,
         "ebitda_margin_pct": 14.8,
         "cfo": 1645.6,
-        "capex": 731.5,
-        "fcf": 914.1,
+        "capex": 2272.1,
+        "fcf": -2416.3,
         "cash": 1402.5,
         "gross_debt": 16277.8,
         "net_debt": 14875.3,
@@ -19169,17 +18850,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$29.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1365.5,
-        "change_in_working_capital": -1034.2,
-        "tax_expense": 3.1,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 600.3,
+        "tax_expense": 158.4,
+        "fcf_conversion_pct": -122.0,
         "fcf_bridge": {
           "calculated_ebitda": 1980.0,
-          "capex": 731.5,
+          "capex": 2272.1,
           "cash_interest": 1365.5,
-          "change_in_working_capital": -1034.2,
-          "tax": 3.1,
-          "fcf": 914.1,
-          "formula_check": "1980.0 - 731.5 - 1365.5 - (-1034.2) - 3.1 = 914.1"
+          "change_in_working_capital": 600.3,
+          "tax": 158.4,
+          "fcf": -2416.3,
+          "formula_check": "1980.0 - 2272.1 - 1365.5 - (600.3) - 158.4 = -2416.3"
         }
       },
       {
@@ -19189,8 +18870,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2200.0,
         "ebitda_margin_pct": 15.2,
         "cfo": 1870.0,
-        "capex": 770.0,
-        "fcf": 1100.0,
+        "capex": 2150.5,
+        "fcf": -1991.7,
         "cash": 1650.0,
         "gross_debt": 16610.0,
         "net_debt": 14960.0,
@@ -19209,17 +18890,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1517.2,
-        "change_in_working_capital": -1190.6,
-        "tax_expense": 3.4,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 348.0,
+        "tax_expense": 176.0,
+        "fcf_conversion_pct": -90.5,
         "fcf_bridge": {
           "calculated_ebitda": 2200.0,
-          "capex": 770.0,
+          "capex": 2150.5,
           "cash_interest": 1517.2,
-          "change_in_working_capital": -1190.6,
-          "tax": 3.4,
-          "fcf": 1100.0,
-          "formula_check": "2200.0 - 770.0 - 1517.2 - (-1190.6) - 3.4 = 1100.0"
+          "change_in_working_capital": 348.0,
+          "tax": 176.0,
+          "fcf": -1991.7,
+          "formula_check": "2200.0 - 2150.5 - 1517.2 - (348.0) - 176.0 = -1991.7"
         }
       },
       {
@@ -19229,8 +18910,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2420.0,
         "ebitda_margin_pct": 15.5,
         "cfo": 2057.0,
-        "capex": 808.5,
-        "fcf": 1248.5,
+        "capex": 1954.1,
+        "fcf": -1561.3,
         "cash": 1947.0,
         "gross_debt": 16277.8,
         "net_debt": 14330.8,
@@ -19249,17 +18930,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$36.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1457.8,
-        "change_in_working_capital": -1130.2,
-        "tax_expense": 35.4,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 375.8,
+        "tax_expense": 193.6,
+        "fcf_conversion_pct": -64.5,
         "fcf_bridge": {
           "calculated_ebitda": 2420.0,
-          "capex": 808.5,
+          "capex": 1954.1,
           "cash_interest": 1457.8,
-          "change_in_working_capital": -1130.2,
-          "tax": 35.4,
-          "fcf": 1248.5,
-          "formula_check": "2420.0 - 808.5 - 1457.8 - (-1130.2) - 35.4 = 1248.5"
+          "change_in_working_capital": 375.8,
+          "tax": 193.6,
+          "fcf": -1561.3,
+          "formula_check": "2420.0 - 1954.1 - 1457.8 - (375.8) - 193.6 = -1561.3"
         }
       },
       {
@@ -19269,8 +18950,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2596.0,
         "ebitda_margin_pct": 15.6,
         "cfo": 2206.6,
-        "capex": 785.4,
-        "fcf": 1421.2,
+        "capex": 2096.3,
+        "fcf": -1503.9,
         "cash": 2227.5,
         "gross_debt": 15779.5,
         "net_debt": 13552.0,
@@ -19289,17 +18970,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$38.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1395.7,
-        "change_in_working_capital": -1069.5,
-        "tax_expense": 63.2,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 400.2,
+        "tax_expense": 207.7,
+        "fcf_conversion_pct": -57.9,
         "fcf_bridge": {
           "calculated_ebitda": 2596.0,
-          "capex": 785.4,
+          "capex": 2096.3,
           "cash_interest": 1395.7,
-          "change_in_working_capital": -1069.5,
-          "tax": 63.2,
-          "fcf": 1421.2,
-          "formula_check": "2596.0 - 785.4 - 1395.7 - (-1069.5) - 63.2 = 1421.2"
+          "change_in_working_capital": 400.2,
+          "tax": 207.7,
+          "fcf": -1503.9,
+          "formula_check": "2596.0 - 2096.3 - 1395.7 - (400.2) - 207.7 = -1503.9"
         }
       },
       {
@@ -19309,8 +18990,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2728.0,
         "ebitda_margin_pct": 15.7,
         "cfo": 2337.5,
-        "capex": 754.6,
-        "fcf": 1582.9,
+        "capex": 2202.9,
+        "fcf": -1448.0,
         "cash": 2475.0,
         "gross_debt": 14949.0,
         "net_debt": 12474.0,
@@ -19329,17 +19010,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$40.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1337.3,
-        "change_in_working_capital": -1032.6,
-        "tax_expense": 85.8,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 417.6,
+        "tax_expense": 218.2,
+        "fcf_conversion_pct": -53.1,
         "fcf_bridge": {
           "calculated_ebitda": 2728.0,
-          "capex": 754.6,
+          "capex": 2202.9,
           "cash_interest": 1337.3,
-          "change_in_working_capital": -1032.6,
-          "tax": 85.8,
-          "fcf": 1582.9,
-          "formula_check": "2728.0 - 754.6 - 1337.3 - (-1032.6) - 85.8 = 1582.9"
+          "change_in_working_capital": 417.6,
+          "tax": 218.2,
+          "fcf": -1448.0,
+          "formula_check": "2728.0 - 2202.9 - 1337.3 - (417.6) - 218.2 = -1448.0"
         }
       }
     ],
@@ -19780,7 +19461,8 @@ const MASTER_ISSUERS = [
       "model_file": "FAB_Abu_Dhabi_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/FAB_Abu_Dhabi_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -19810,25 +19492,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -19857,25 +19525,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -19904,25 +19558,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -19951,25 +19591,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -19998,25 +19624,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -20045,25 +19657,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -20092,25 +19690,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -20550,7 +20134,8 @@ const MASTER_ISSUERS = [
       "model_file": "FirstRand_Bank_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81a3-84c3-ccb890c49c45",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/FirstRand_Bank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -20580,25 +20165,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -20627,25 +20198,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -20674,25 +20231,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -20721,25 +20264,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -20768,25 +20297,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -20815,25 +20330,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -20862,25 +20363,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -21320,7 +20807,8 @@ const MASTER_ISSUERS = [
       "model_file": "Garanti_BBVA_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681b0a24cef773b2df3f3",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Garanti_BBVA_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -21350,25 +20838,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -21397,25 +20871,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -21444,25 +20904,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -21491,25 +20937,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -21538,25 +20970,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -21585,25 +21003,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -21632,25 +21036,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -22090,7 +21480,10 @@ const MASTER_ISSUERS = [
       "model_file": "GDZ_Elektrik_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681f5b7e6ec2e994a620f",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/GDZ_Elektrik_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -77.1,
+      "net_leverage_2024a": 2.62
     },
     "financials_multi_year": [
       {
@@ -22100,8 +21493,8 @@ const MASTER_ISSUERS = [
         "ebitda": 126.8,
         "ebitda_margin_pct": 32.2,
         "cfo": 102.8,
-        "capex": 47.8,
-        "fcf": 55.0,
+        "capex": 102.4,
+        "fcf": -26.4,
         "cash": 80.4,
         "gross_debt": 558.6,
         "net_debt": 478.2,
@@ -22120,17 +21513,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 31.2,
-        "change_in_working_capital": -15.8,
-        "tax_expense": 8.6,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 9.5,
+        "tax_expense": 10.1,
+        "fcf_conversion_pct": -20.8,
         "fcf_bridge": {
           "calculated_ebitda": 126.8,
-          "capex": 47.8,
+          "capex": 102.4,
           "cash_interest": 31.2,
-          "change_in_working_capital": -15.8,
-          "tax": 8.6,
-          "fcf": 55.0,
-          "formula_check": "126.8 - 47.8 - 31.2 - (-15.8) - 8.6 = 55.0"
+          "change_in_working_capital": 9.5,
+          "tax": 10.1,
+          "fcf": -26.4,
+          "formula_check": "126.8 - 102.4 - 31.2 - (9.5) - 10.1 = -26.4"
         }
       },
       {
@@ -22140,8 +21533,8 @@ const MASTER_ISSUERS = [
         "ebitda": 156.0,
         "ebitda_margin_pct": 32.8,
         "cfo": 129.3,
-        "capex": 58.0,
-        "fcf": 71.3,
+        "capex": 179.0,
+        "fcf": -95.9,
         "cash": 102.4,
         "gross_debt": 604.6,
         "net_debt": 502.2,
@@ -22160,17 +21553,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$8.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 39.0,
-        "change_in_working_capital": -22.8,
-        "tax_expense": 10.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 21.4,
+        "tax_expense": 12.5,
+        "fcf_conversion_pct": -61.5,
         "fcf_bridge": {
           "calculated_ebitda": 156.0,
-          "capex": 58.0,
+          "capex": 179.0,
           "cash_interest": 39.0,
-          "change_in_working_capital": -22.8,
-          "tax": 10.5,
-          "fcf": 71.3,
-          "formula_check": "156.0 - 58.0 - 39.0 - (-22.8) - 10.5 = 71.3"
+          "change_in_working_capital": 21.4,
+          "tax": 12.5,
+          "fcf": -95.9,
+          "formula_check": "156.0 - 179.0 - 39.0 - (21.4) - 12.5 = -95.9"
         }
       },
       {
@@ -22180,8 +21573,8 @@ const MASTER_ISSUERS = [
         "ebitda": 175.5,
         "ebitda_margin_pct": 32.9,
         "cfo": 145.9,
-        "capex": 64.8,
-        "fcf": 81.1,
+        "capex": 201.4,
+        "fcf": -110.7,
         "cash": 124.3,
         "gross_debt": 644.0,
         "net_debt": 519.7,
@@ -22200,17 +21593,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$9.7M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 46.8,
-        "change_in_working_capital": -28.6,
-        "tax_expense": 11.4,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 24.0,
+        "tax_expense": 14.0,
+        "fcf_conversion_pct": -63.1,
         "fcf_bridge": {
           "calculated_ebitda": 175.5,
-          "capex": 64.8,
+          "capex": 201.4,
           "cash_interest": 46.8,
-          "change_in_working_capital": -28.6,
-          "tax": 11.4,
-          "fcf": 81.1,
-          "formula_check": "175.5 - 64.8 - 46.8 - (-28.6) - 11.4 = 81.1"
+          "change_in_working_capital": 24.0,
+          "tax": 14.0,
+          "fcf": -110.7,
+          "formula_check": "175.5 - 201.4 - 46.8 - (24.0) - 14.0 = -110.7"
         }
       },
       {
@@ -22220,8 +21613,8 @@ const MASTER_ISSUERS = [
         "ebitda": 195.0,
         "ebitda_margin_pct": 33.6,
         "cfo": 165.8,
-        "capex": 68.2,
-        "fcf": 97.6,
+        "capex": 190.6,
+        "fcf": -77.1,
         "cash": 146.2,
         "gross_debt": 657.2,
         "net_debt": 511.0,
@@ -22240,17 +21633,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$10.7M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 52.0,
-        "change_in_working_capital": -35.5,
-        "tax_expense": 12.7,
-        "fcf_conversion_pct": 50.1,
+        "change_in_working_capital": 13.9,
+        "tax_expense": 15.6,
+        "fcf_conversion_pct": -39.5,
         "fcf_bridge": {
           "calculated_ebitda": 195.0,
-          "capex": 68.2,
+          "capex": 190.6,
           "cash_interest": 52.0,
-          "change_in_working_capital": -35.5,
-          "tax": 12.7,
-          "fcf": 97.6,
-          "formula_check": "195.0 - 68.2 - 52.0 - (-35.5) - 12.7 = 97.6"
+          "change_in_working_capital": 13.9,
+          "tax": 15.6,
+          "fcf": -77.1,
+          "formula_check": "195.0 - 190.6 - 52.0 - (13.9) - 15.6 = -77.1"
         }
       },
       {
@@ -22260,8 +21653,8 @@ const MASTER_ISSUERS = [
         "ebitda": 214.5,
         "ebitda_margin_pct": 34.2,
         "cfo": 182.3,
-        "capex": 71.7,
-        "fcf": 110.6,
+        "capex": 173.2,
+        "fcf": -40.8,
         "cash": 172.6,
         "gross_debt": 644.0,
         "net_debt": 471.4,
@@ -22280,17 +21673,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 49.9,
-        "change_in_working_capital": -32.7,
-        "tax_expense": 15.0,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 15.0,
+        "tax_expense": 17.2,
+        "fcf_conversion_pct": -19.0,
         "fcf_bridge": {
           "calculated_ebitda": 214.5,
-          "capex": 71.7,
+          "capex": 173.2,
           "cash_interest": 49.9,
-          "change_in_working_capital": -32.7,
-          "tax": 15.0,
-          "fcf": 110.6,
-          "formula_check": "214.5 - 71.7 - 49.9 - (-32.7) - 15.0 = 110.6"
+          "change_in_working_capital": 15.0,
+          "tax": 17.2,
+          "fcf": -40.8,
+          "formula_check": "214.5 - 173.2 - 49.9 - (15.0) - 17.2 = -40.8"
         }
       },
       {
@@ -22300,8 +21693,8 @@ const MASTER_ISSUERS = [
         "ebitda": 230.1,
         "ebitda_margin_pct": 34.5,
         "cfo": 195.6,
-        "capex": 69.6,
-        "fcf": 126.0,
+        "capex": 185.8,
+        "fcf": -37.9,
         "cash": 197.4,
         "gross_debt": 624.3,
         "net_debt": 426.9,
@@ -22320,17 +21713,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 47.8,
-        "change_in_working_capital": -30.3,
-        "tax_expense": 17.0,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 16.0,
+        "tax_expense": 18.4,
+        "fcf_conversion_pct": -16.5,
         "fcf_bridge": {
           "calculated_ebitda": 230.1,
-          "capex": 69.6,
+          "capex": 185.8,
           "cash_interest": 47.8,
-          "change_in_working_capital": -30.3,
-          "tax": 17.0,
-          "fcf": 126.0,
-          "formula_check": "230.1 - 69.6 - 47.8 - (-30.3) - 17.0 = 126.0"
+          "change_in_working_capital": 16.0,
+          "tax": 18.4,
+          "fcf": -37.9,
+          "formula_check": "230.1 - 185.8 - 47.8 - (16.0) - 18.4 = -37.9"
         }
       },
       {
@@ -22340,8 +21733,8 @@ const MASTER_ISSUERS = [
         "ebitda": 241.8,
         "ebitda_margin_pct": 34.7,
         "cfo": 207.2,
-        "capex": 66.9,
-        "fcf": 140.3,
+        "capex": 195.3,
+        "fcf": -35.3,
         "cash": 219.4,
         "gross_debt": 591.4,
         "net_debt": 372.0,
@@ -22360,17 +21753,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 45.8,
-        "change_in_working_capital": -29.7,
-        "tax_expense": 18.5,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 16.7,
+        "tax_expense": 19.3,
+        "fcf_conversion_pct": -14.6,
         "fcf_bridge": {
           "calculated_ebitda": 241.8,
-          "capex": 66.9,
+          "capex": 195.3,
           "cash_interest": 45.8,
-          "change_in_working_capital": -29.7,
-          "tax": 18.5,
-          "fcf": 140.3,
-          "formula_check": "241.8 - 66.9 - 45.8 - (-29.7) - 18.5 = 140.3"
+          "change_in_working_capital": 16.7,
+          "tax": 19.3,
+          "fcf": -35.3,
+          "formula_check": "241.8 - 195.3 - 45.8 - (16.7) - 19.3 = -35.3"
         }
       }
     ],
@@ -22813,7 +22206,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Gold_Fields_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "goldfields",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/goldfields/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/goldfields/description",
+      "model_type": "corp",
+      "fcf_2024a": 281.4,
+      "net_leverage_2024a": 0.85
     },
     "financials_multi_year": [
       {
@@ -22823,8 +22219,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1365,
         "ebitda_margin_pct": 44.6,
         "cfo": 1106.7,
-        "capex": 514.5,
-        "fcf": 592.2,
+        "capex": 648.4,
+        "fcf": 325.0,
         "cash": 866.3,
         "gross_debt": 2856,
         "net_debt": 1989.7,
@@ -22843,17 +22239,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 132.7,
-        "change_in_working_capital": 2.2,
-        "tax_expense": 123.4,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 122.4,
+        "tax_expense": 136.5,
+        "fcf_conversion_pct": 23.8,
         "fcf_bridge": {
           "calculated_ebitda": 1365,
-          "capex": 514.5,
+          "capex": 648.4,
           "cash_interest": 132.7,
-          "change_in_working_capital": 2.2,
-          "tax": 123.4,
-          "fcf": 592.2,
-          "formula_check": "1365.0 - 514.5 - 132.7 - (2.2) - 123.4 = 592.2"
+          "change_in_working_capital": 122.4,
+          "tax": 136.5,
+          "fcf": 325.0,
+          "formula_check": "1365.0 - 648.4 - 132.7 - (122.4) - 136.5 = 325.0"
         }
       },
       {
@@ -22863,8 +22259,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1680,
         "ebitda_margin_pct": 45.5,
         "cfo": 1392.3,
-        "capex": 624.8,
-        "fcf": 767.5,
+        "capex": 1134.0,
+        "fcf": -64.6,
         "cash": 1102.5,
         "gross_debt": 3091.2,
         "net_debt": 1988.7,
@@ -22883,17 +22279,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$25.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 165.8,
-        "change_in_working_capital": -29.6,
-        "tax_expense": 151.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 276.8,
+        "tax_expense": 168.0,
+        "fcf_conversion_pct": -3.8,
         "fcf_bridge": {
           "calculated_ebitda": 1680,
-          "capex": 624.8,
+          "capex": 1134.0,
           "cash_interest": 165.8,
-          "change_in_working_capital": -29.6,
-          "tax": 151.5,
-          "fcf": 767.5,
-          "formula_check": "1680.0 - 624.8 - 165.8 - (-29.6) - 151.5 = 767.5"
+          "change_in_working_capital": 276.8,
+          "tax": 168.0,
+          "fcf": -64.6,
+          "formula_check": "1680.0 - 1134.0 - 165.8 - (276.8) - 168.0 = -64.6"
         }
       },
       {
@@ -22903,8 +22299,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1890,
         "ebitda_margin_pct": 45.7,
         "cfo": 1570.8,
-        "capex": 698.2,
-        "fcf": 872.6,
+        "capex": 1275.8,
+        "fcf": -84.2,
         "cash": 1338.8,
         "gross_debt": 3292.8,
         "net_debt": 1954,
@@ -22923,17 +22319,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$28.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 198.9,
-        "change_in_working_capital": -48.3,
-        "tax_expense": 168.6,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 310.5,
+        "tax_expense": 189.0,
+        "fcf_conversion_pct": -4.5,
         "fcf_bridge": {
           "calculated_ebitda": 1890,
-          "capex": 698.2,
+          "capex": 1275.8,
           "cash_interest": 198.9,
-          "change_in_working_capital": -48.3,
-          "tax": 168.6,
-          "fcf": 872.6,
-          "formula_check": "1890.0 - 698.2 - 198.9 - (-48.3) - 168.6 = 872.6"
+          "change_in_working_capital": 310.5,
+          "tax": 189.0,
+          "fcf": -84.2,
+          "formula_check": "1890.0 - 1275.8 - 198.9 - (310.5) - 189.0 = -84.2"
         }
       },
       {
@@ -22943,8 +22339,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2100,
         "ebitda_margin_pct": 46.7,
         "cfo": 1785,
-        "capex": 735,
-        "fcf": 1050,
+        "capex": 1207.5,
+        "fcf": 281.4,
         "cash": 1575,
         "gross_debt": 3360,
         "net_debt": 1785,
@@ -22963,17 +22359,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 221.1,
-        "change_in_working_capital": -93.4,
-        "tax_expense": 187.3,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 180.0,
+        "tax_expense": 210.0,
+        "fcf_conversion_pct": 13.4,
         "fcf_bridge": {
           "calculated_ebitda": 2100,
-          "capex": 735,
+          "capex": 1207.5,
           "cash_interest": 221.1,
-          "change_in_working_capital": -93.4,
-          "tax": 187.3,
-          "fcf": 1050,
-          "formula_check": "2100.0 - 735.0 - 221.1 - (-93.4) - 187.3 = 1050.0"
+          "change_in_working_capital": 180.0,
+          "tax": 210.0,
+          "fcf": 281.4,
+          "formula_check": "2100.0 - 1207.5 - 221.1 - (180.0) - 210.0 = 281.4"
         }
       },
       {
@@ -22983,8 +22379,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2310,
         "ebitda_margin_pct": 47.5,
         "cfo": 1963.5,
-        "capex": 771.8,
-        "fcf": 1191.7,
+        "capex": 1097.2,
+        "fcf": 575.3,
         "cash": 1858.5,
         "gross_debt": 3292.8,
         "net_debt": 1434.3,
@@ -23003,17 +22399,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$34.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 212.1,
-        "change_in_working_capital": -76.3,
-        "tax_expense": 210.7,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 194.4,
+        "tax_expense": 231.0,
+        "fcf_conversion_pct": 24.9,
         "fcf_bridge": {
           "calculated_ebitda": 2310,
-          "capex": 771.8,
+          "capex": 1097.2,
           "cash_interest": 212.1,
-          "change_in_working_capital": -76.3,
-          "tax": 210.7,
-          "fcf": 1191.7,
-          "formula_check": "2310.0 - 771.8 - 212.1 - (-76.3) - 210.7 = 1191.7"
+          "change_in_working_capital": 194.4,
+          "tax": 231.0,
+          "fcf": 575.3,
+          "formula_check": "2310.0 - 1097.2 - 212.1 - (194.4) - 231.0 = 575.3"
         }
       },
       {
@@ -23023,8 +22419,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2478,
         "ebitda_margin_pct": 47.9,
         "cfo": 2106.3,
-        "capex": 749.7,
-        "fcf": 1356.6,
+        "capex": 1177.0,
+        "fcf": 642.8,
         "cash": 2126.2,
         "gross_debt": 3192,
         "net_debt": 1065.8,
@@ -23043,17 +22439,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 203.4,
-        "change_in_working_capital": -61.4,
-        "tax_expense": 229.7,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 207.0,
+        "tax_expense": 247.8,
+        "fcf_conversion_pct": 25.9,
         "fcf_bridge": {
           "calculated_ebitda": 2478,
-          "capex": 749.7,
+          "capex": 1177.0,
           "cash_interest": 203.4,
-          "change_in_working_capital": -61.4,
-          "tax": 229.7,
-          "fcf": 1356.6,
-          "formula_check": "2478.0 - 749.7 - 203.4 - (-61.4) - 229.7 = 1356.6"
+          "change_in_working_capital": 207.0,
+          "tax": 247.8,
+          "fcf": 642.8,
+          "formula_check": "2478.0 - 1177.0 - 203.4 - (207.0) - 247.8 = 642.8"
         }
       },
       {
@@ -23063,8 +22459,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2604,
         "ebitda_margin_pct": 48.2,
         "cfo": 2231.2,
-        "capex": 720.3,
-        "fcf": 1510.9,
+        "capex": 1236.9,
+        "fcf": 696.2,
         "cash": 2362.5,
         "gross_debt": 3024,
         "net_debt": 661.5,
@@ -23083,17 +22479,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$39.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 194.5,
-        "change_in_working_capital": -65.9,
-        "tax_expense": 244.2,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 216.0,
+        "tax_expense": 260.4,
+        "fcf_conversion_pct": 26.7,
         "fcf_bridge": {
           "calculated_ebitda": 2604,
-          "capex": 720.3,
+          "capex": 1236.9,
           "cash_interest": 194.5,
-          "change_in_working_capital": -65.9,
-          "tax": 244.2,
-          "fcf": 1510.9,
-          "formula_check": "2604.0 - 720.3 - 194.5 - (-65.9) - 244.2 = 1510.9"
+          "change_in_working_capital": 216.0,
+          "tax": 260.4,
+          "fcf": 696.2,
+          "formula_check": "2604.0 - 1236.9 - 194.5 - (216.0) - 260.4 = 696.2"
         }
       }
     ],
@@ -23551,7 +22947,8 @@ const MASTER_ISSUERS = [
       "model_file": "Halkbank_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6815aba39e1d30b4b8c8a",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Halkbank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -23581,25 +22978,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -23628,25 +23011,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -23675,25 +23044,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -23722,25 +23077,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -23769,25 +23110,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -23816,25 +23143,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -23863,25 +23176,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -24321,7 +23620,8 @@ const MASTER_ISSUERS = [
       "model_file": "Halyk_Bank_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8168-94d7-c577967683b6",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Halyk_Bank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -24351,25 +23651,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -24398,25 +23684,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -24445,25 +23717,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -24492,25 +23750,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -24539,25 +23783,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -24586,25 +23816,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -24633,25 +23849,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -25093,18 +24295,21 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Helios_Towers_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "helios",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/helios/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/helios/description",
+      "model_type": "corp",
+      "fcf_2024a": 15.0,
+      "net_leverage_2024a": 4.49
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 503.2,
-        "ebitda": 250.2,
-        "ebitda_margin_pct": 49.7,
+        "revenue": 449.0,
+        "ebitda": 241.0,
+        "ebitda_margin_pct": 53.7,
         "cfo": 202.9,
-        "capex": 94.3,
-        "fcf": 108.6,
+        "capex": 210.0,
+        "fcf": -87.0,
         "cash": 158.8,
         "gross_debt": 1714.8,
         "net_debt": 1556,
@@ -25117,34 +24322,34 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 254,
-        "calculated_ebitda": 250.2,
+        "reported_ebitda": 245.82,
+        "calculated_ebitda": 241.0,
         "ebitda_reconciliation_variance_usd_m": 3.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 84,
-        "change_in_working_capital": -50.4,
-        "tax_expense": 13.7,
-        "fcf_conversion_pct": 43.4,
+        "cash_interest": 85.0,
+        "change_in_working_capital": 15.0,
+        "tax_expense": 18.0,
+        "fcf_conversion_pct": -36.1,
         "fcf_bridge": {
-          "calculated_ebitda": 250.2,
-          "capex": 94.3,
-          "cash_interest": 84,
-          "change_in_working_capital": -50.4,
-          "tax": 13.7,
-          "fcf": 108.6,
-          "formula_check": "250.2 - 94.3 - 84.0 - (-50.4) - 13.7 = 108.6"
+          "calculated_ebitda": 241.0,
+          "capex": 210.0,
+          "cash_interest": 85.0,
+          "change_in_working_capital": 15.0,
+          "tax": 18.0,
+          "fcf": -87.0,
+          "formula_check": "241.0 - 210.0 - 85.0 - (15.0) - 18.0 = -87.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 606.8,
-        "ebitda": 308,
-        "ebitda_margin_pct": 50.8,
+        "revenue": 561.0,
+        "ebitda": 283.0,
+        "ebitda_margin_pct": 50.4,
         "cfo": 255.3,
-        "capex": 114.5,
-        "fcf": 140.8,
+        "capex": 245.0,
+        "fcf": -114.0,
         "cash": 202.1,
         "gross_debt": 1856,
         "net_debt": 1653.9,
@@ -25157,34 +24362,34 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 312.6,
-        "calculated_ebitda": 308,
+        "reported_ebitda": 288.66,
+        "calculated_ebitda": 283.0,
         "ebitda_reconciliation_variance_usd_m": 4.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 105.1,
-        "change_in_working_capital": -69,
-        "tax_expense": 16.6,
-        "fcf_conversion_pct": 45.7,
+        "cash_interest": 110.0,
+        "change_in_working_capital": 20.0,
+        "tax_expense": 22.0,
+        "fcf_conversion_pct": -40.3,
         "fcf_bridge": {
-          "calculated_ebitda": 308,
-          "capex": 114.5,
-          "cash_interest": 105.1,
-          "change_in_working_capital": -69,
-          "tax": 16.6,
-          "fcf": 140.8,
-          "formula_check": "308.0 - 114.5 - 105.1 - (-69.0) - 16.6 = 140.8"
+          "calculated_ebitda": 283.0,
+          "capex": 245.0,
+          "cash_interest": 110.0,
+          "change_in_working_capital": 20.0,
+          "tax": 22.0,
+          "fcf": -114.0,
+          "formula_check": "283.0 - 245.0 - 110.0 - (20.0) - 22.0 = -114.0"
         }
       },
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 680.8,
-        "ebitda": 346.5,
-        "ebitda_margin_pct": 50.9,
+        "revenue": 673.0,
+        "ebitda": 350.0,
+        "ebitda_margin_pct": 52.0,
         "cfo": 288,
-        "capex": 128,
-        "fcf": 160,
+        "capex": 220.0,
+        "fcf": -53.0,
         "cash": 245.4,
         "gross_debt": 1977.1,
         "net_debt": 1731.7,
@@ -25197,34 +24402,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 351.7,
-        "calculated_ebitda": 346.5,
+        "reported_ebitda": 357.0,
+        "calculated_ebitda": 350.0,
         "ebitda_reconciliation_variance_usd_m": 5.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 126,
-        "change_in_working_capital": -85,
-        "tax_expense": 17.5,
-        "fcf_conversion_pct": 46.2,
+        "cash_interest": 130.0,
+        "change_in_working_capital": 25.0,
+        "tax_expense": 28.0,
+        "fcf_conversion_pct": -15.1,
         "fcf_bridge": {
-          "calculated_ebitda": 346.5,
-          "capex": 128,
-          "cash_interest": 126,
-          "change_in_working_capital": -85,
-          "tax": 17.5,
-          "fcf": 160,
-          "formula_check": "346.5 - 128.0 - 126.0 - (-85.0) - 17.5 = 160.0"
+          "calculated_ebitda": 350.0,
+          "capex": 220.0,
+          "cash_interest": 130.0,
+          "change_in_working_capital": 25.0,
+          "tax": 28.0,
+          "fcf": -53.0,
+          "formula_check": "350.0 - 220.0 - 130.0 - (25.0) - 28.0 = -53.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 740,
-        "ebitda": 385,
-        "ebitda_margin_pct": 52,
+        "revenue": 745.0,
+        "ebitda": 395.0,
+        "ebitda_margin_pct": 53.0,
         "cfo": 327.2,
-        "capex": 134.8,
-        "fcf": 192.4,
+        "capex": 195.0,
+        "fcf": 15.0,
         "cash": 288.8,
         "gross_debt": 2017.4,
         "net_debt": 1728.6,
@@ -25237,34 +24442,34 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 390.8,
-        "calculated_ebitda": 385,
+        "reported_ebitda": 402.90000000000003,
+        "calculated_ebitda": 395.0,
         "ebitda_reconciliation_variance_usd_m": 5.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 140,
-        "change_in_working_capital": -101.6,
-        "tax_expense": 19.4,
-        "fcf_conversion_pct": 50,
+        "cash_interest": 135.0,
+        "change_in_working_capital": 18.0,
+        "tax_expense": 32.0,
+        "fcf_conversion_pct": 3.8,
         "fcf_bridge": {
-          "calculated_ebitda": 385,
-          "capex": 134.8,
-          "cash_interest": 140,
-          "change_in_working_capital": -101.6,
-          "tax": 19.4,
-          "fcf": 192.4,
-          "formula_check": "385.0 - 134.8 - 140.0 - (-101.6) - 19.4 = 192.4"
+          "calculated_ebitda": 395.0,
+          "capex": 195.0,
+          "cash_interest": 135.0,
+          "change_in_working_capital": 18.0,
+          "tax": 32.0,
+          "fcf": 15.0,
+          "formula_check": "395.0 - 195.0 - 135.0 - (18.0) - 32.0 = 15.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 799.2,
-        "ebitda": 423.5,
-        "ebitda_margin_pct": 53,
+        "revenue": 810.0,
+        "ebitda": 440.0,
+        "ebitda_margin_pct": 54.3,
         "cfo": 360,
-        "capex": 141.5,
-        "fcf": 218.5,
+        "capex": 180.0,
+        "fcf": 77.0,
         "cash": 340.7,
         "gross_debt": 1977.1,
         "net_debt": 1636.4,
@@ -25277,34 +24482,34 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 429.9,
-        "calculated_ebitda": 423.5,
+        "reported_ebitda": 448.8,
+        "calculated_ebitda": 440.0,
         "ebitda_reconciliation_variance_usd_m": 6.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 134.4,
-        "change_in_working_capital": -95.2,
-        "tax_expense": 24.3,
-        "fcf_conversion_pct": 51.6,
+        "cash_interest": 130.0,
+        "change_in_working_capital": 15.0,
+        "tax_expense": 38.0,
+        "fcf_conversion_pct": 17.5,
         "fcf_bridge": {
-          "calculated_ebitda": 423.5,
-          "capex": 141.5,
-          "cash_interest": 134.4,
-          "change_in_working_capital": -95.2,
-          "tax": 24.3,
-          "fcf": 218.5,
-          "formula_check": "423.5 - 141.5 - 134.4 - (-95.2) - 24.3 = 218.5"
+          "calculated_ebitda": 440.0,
+          "capex": 180.0,
+          "cash_interest": 130.0,
+          "change_in_working_capital": 15.0,
+          "tax": 38.0,
+          "fcf": 77.0,
+          "formula_check": "440.0 - 180.0 - 130.0 - (15.0) - 38.0 = 77.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 851,
-        "ebitda": 454.3,
-        "ebitda_margin_pct": 53.4,
+        "revenue": 880.0,
+        "ebitda": 485.0,
+        "ebitda_margin_pct": 55.1,
         "cfo": 386.2,
-        "capex": 137.4,
-        "fcf": 248.8,
+        "capex": 170.0,
+        "fcf": 139.0,
         "cash": 389.8,
         "gross_debt": 1916.5,
         "net_debt": 1526.7,
@@ -25317,34 +24522,34 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 461.1,
-        "calculated_ebitda": 454.3,
+        "reported_ebitda": 494.7,
+        "calculated_ebitda": 485.0,
         "ebitda_reconciliation_variance_usd_m": 6.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 128.7,
-        "change_in_working_capital": -89,
-        "tax_expense": 28.4,
-        "fcf_conversion_pct": 54.8,
+        "cash_interest": 120.0,
+        "change_in_working_capital": 12.0,
+        "tax_expense": 44.0,
+        "fcf_conversion_pct": 28.7,
         "fcf_bridge": {
-          "calculated_ebitda": 454.3,
-          "capex": 137.4,
-          "cash_interest": 128.7,
-          "change_in_working_capital": -89,
-          "tax": 28.4,
-          "fcf": 248.8,
-          "formula_check": "454.3 - 137.4 - 128.7 - (-89.0) - 28.4 = 248.8"
+          "calculated_ebitda": 485.0,
+          "capex": 170.0,
+          "cash_interest": 120.0,
+          "change_in_working_capital": 12.0,
+          "tax": 44.0,
+          "fcf": 139.0,
+          "formula_check": "485.0 - 170.0 - 120.0 - (12.0) - 44.0 = 139.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 888,
-        "ebitda": 477.4,
-        "ebitda_margin_pct": 53.8,
+        "revenue": 950.0,
+        "ebitda": 535.0,
+        "ebitda_margin_pct": 56.3,
         "cfo": 409.1,
-        "capex": 132.1,
-        "fcf": 277,
+        "capex": 160.0,
+        "fcf": 205.0,
         "cash": 433.1,
         "gross_debt": 1815.7,
         "net_debt": 1382.6,
@@ -25357,23 +24562,23 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 484.6,
-        "calculated_ebitda": 477.4,
+        "reported_ebitda": 545.7,
+        "calculated_ebitda": 535.0,
         "ebitda_reconciliation_variance_usd_m": 7.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 123.4,
-        "change_in_working_capital": -86.7,
-        "tax_expense": 31.6,
-        "fcf_conversion_pct": 58,
+        "cash_interest": 110.0,
+        "change_in_working_capital": 10.0,
+        "tax_expense": 50.0,
+        "fcf_conversion_pct": 38.3,
         "fcf_bridge": {
-          "calculated_ebitda": 477.4,
-          "capex": 132.1,
-          "cash_interest": 123.4,
-          "change_in_working_capital": -86.7,
-          "tax": 31.6,
-          "fcf": 277,
-          "formula_check": "477.4 - 132.1 - 123.4 - (-86.7) - 31.6 = 277.0"
+          "calculated_ebitda": 535.0,
+          "capex": 160.0,
+          "cash_interest": 110.0,
+          "change_in_working_capital": 10.0,
+          "tax": 50.0,
+          "fcf": 205.0,
+          "formula_check": "535.0 - 160.0 - 110.0 - (10.0) - 50.0 = 205.0"
         }
       }
     ],
@@ -25807,7 +25012,10 @@ const MASTER_ISSUERS = [
       "model_file": "Hidroelectrica_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81f3-af65-e587d3fd6fdc",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Hidroelectrica_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -250.0,
+      "net_leverage_2024a": 0.4
     },
     "financials_multi_year": [
       {
@@ -25817,8 +25025,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1007.5,
         "ebitda_margin_pct": 61.7,
         "cfo": 816.9,
-        "capex": 379.8,
-        "fcf": 437.1,
+        "capex": 813.6,
+        "fcf": 12.1,
         "cash": 639.4,
         "gross_debt": 1515.1,
         "net_debt": 875.7,
@@ -25837,17 +25045,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 62.0,
-        "change_in_working_capital": 32.1,
-        "tax_expense": 96.5,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 39.2,
+        "tax_expense": 80.6,
+        "fcf_conversion_pct": 1.2,
         "fcf_bridge": {
           "calculated_ebitda": 1007.5,
-          "capex": 379.8,
+          "capex": 813.6,
           "cash_interest": 62.0,
-          "change_in_working_capital": 32.1,
-          "tax": 96.5,
-          "fcf": 437.1,
-          "formula_check": "1007.5 - 379.8 - 62.0 - (32.1) - 96.5 = 437.1"
+          "change_in_working_capital": 39.2,
+          "tax": 80.6,
+          "fcf": 12.1,
+          "formula_check": "1007.5 - 813.6 - 62.0 - (39.2) - 80.6 = 12.1"
         }
       },
       {
@@ -25857,8 +25065,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1240.0,
         "ebitda_margin_pct": 63.0,
         "cfo": 1027.7,
-        "capex": 461.1,
-        "fcf": 566.6,
+        "capex": 1422.9,
+        "fcf": -448.2,
         "cash": 813.8,
         "gross_debt": 1639.9,
         "net_debt": 826.1,
@@ -25877,17 +25085,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 77.5,
-        "change_in_working_capital": 16.2,
-        "tax_expense": 118.6,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 88.6,
+        "tax_expense": 99.2,
+        "fcf_conversion_pct": -36.1,
         "fcf_bridge": {
           "calculated_ebitda": 1240.0,
-          "capex": 461.1,
+          "capex": 1422.9,
           "cash_interest": 77.5,
-          "change_in_working_capital": 16.2,
-          "tax": 118.6,
-          "fcf": 566.6,
-          "formula_check": "1240.0 - 461.1 - 77.5 - (16.2) - 118.6 = 566.6"
+          "change_in_working_capital": 88.6,
+          "tax": 99.2,
+          "fcf": -448.2,
+          "formula_check": "1240.0 - 1422.9 - 77.5 - (88.6) - 99.2 = -448.2"
         }
       },
       {
@@ -25897,8 +25105,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1395.0,
         "ebitda_margin_pct": 63.2,
         "cfo": 1159.4,
-        "capex": 515.4,
-        "fcf": 644.0,
+        "capex": 1600.8,
+        "fcf": -509.8,
         "cash": 988.1,
         "gross_debt": 1746.8,
         "net_debt": 758.7,
@@ -25917,17 +25125,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 93.0,
-        "change_in_working_capital": 10.1,
-        "tax_expense": 132.5,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 99.4,
+        "tax_expense": 111.6,
+        "fcf_conversion_pct": -36.5,
         "fcf_bridge": {
           "calculated_ebitda": 1395.0,
-          "capex": 515.4,
+          "capex": 1600.8,
           "cash_interest": 93.0,
-          "change_in_working_capital": 10.1,
-          "tax": 132.5,
-          "fcf": 644.0,
-          "formula_check": "1395.0 - 515.4 - 93.0 - (10.1) - 132.5 = 644.0"
+          "change_in_working_capital": 99.4,
+          "tax": 111.6,
+          "fcf": -509.8,
+          "formula_check": "1395.0 - 1600.8 - 93.0 - (99.4) - 111.6 = -509.8"
         }
       },
       {
@@ -25937,8 +25145,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1550.0,
         "ebitda_margin_pct": 64.6,
         "cfo": 1317.5,
-        "capex": 542.5,
-        "fcf": 775.0,
+        "capex": 1515.1,
+        "fcf": -250.0,
         "cash": 1162.5,
         "gross_debt": 1782.5,
         "net_debt": 620.0,
@@ -25957,17 +25165,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$23.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 103.3,
-        "change_in_working_capital": -18.1,
-        "tax_expense": 147.3,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 57.6,
+        "tax_expense": 124.0,
+        "fcf_conversion_pct": -16.1,
         "fcf_bridge": {
           "calculated_ebitda": 1550.0,
-          "capex": 542.5,
+          "capex": 1515.1,
           "cash_interest": 103.3,
-          "change_in_working_capital": -18.1,
-          "tax": 147.3,
-          "fcf": 775.0,
-          "formula_check": "1550.0 - 542.5 - 103.3 - (-18.1) - 147.3 = 775.0"
+          "change_in_working_capital": 57.6,
+          "tax": 124.0,
+          "fcf": -250.0,
+          "formula_check": "1550.0 - 1515.1 - 103.3 - (57.6) - 124.0 = -250.0"
         }
       },
       {
@@ -25977,8 +25185,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1705.0,
         "ebitda_margin_pct": 65.8,
         "cfo": 1449.3,
-        "capex": 569.6,
-        "fcf": 879.7,
+        "capex": 1376.8,
+        "fcf": 30.4,
         "cash": 1371.8,
         "gross_debt": 1746.8,
         "net_debt": 375.0,
@@ -25997,17 +25205,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$25.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 99.2,
-        "change_in_working_capital": -7.6,
-        "tax_expense": 164.1,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 62.2,
+        "tax_expense": 136.4,
+        "fcf_conversion_pct": 1.8,
         "fcf_bridge": {
           "calculated_ebitda": 1705.0,
-          "capex": 569.6,
+          "capex": 1376.8,
           "cash_interest": 99.2,
-          "change_in_working_capital": -7.6,
-          "tax": 164.1,
-          "fcf": 879.7,
-          "formula_check": "1705.0 - 569.6 - 99.2 - (-7.6) - 164.1 = 879.7"
+          "change_in_working_capital": 62.2,
+          "tax": 136.4,
+          "fcf": 30.4,
+          "formula_check": "1705.0 - 1376.8 - 99.2 - (62.2) - 136.4 = 30.4"
         }
       },
       {
@@ -26017,8 +25225,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1829.0,
         "ebitda_margin_pct": 66.3,
         "cfo": 1554.6,
-        "capex": 553.4,
-        "fcf": 1001.2,
+        "capex": 1476.9,
+        "fcf": 44.5,
         "cash": 1569.4,
         "gross_debt": 1693.4,
         "net_debt": 124.0,
@@ -26037,17 +25245,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 95.1,
-        "change_in_working_capital": 1.5,
-        "tax_expense": 177.8,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 66.2,
+        "tax_expense": 146.3,
+        "fcf_conversion_pct": 2.4,
         "fcf_bridge": {
           "calculated_ebitda": 1829.0,
-          "capex": 553.4,
+          "capex": 1476.9,
           "cash_interest": 95.1,
-          "change_in_working_capital": 1.5,
-          "tax": 177.8,
-          "fcf": 1001.2,
-          "formula_check": "1829.0 - 553.4 - 95.1 - (1.5) - 177.8 = 1001.2"
+          "change_in_working_capital": 66.2,
+          "tax": 146.3,
+          "fcf": 44.5,
+          "formula_check": "1829.0 - 1476.9 - 95.1 - (66.2) - 146.3 = 44.5"
         }
       },
       {
@@ -26057,8 +25265,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1922.0,
         "ebitda_margin_pct": 66.7,
         "cfo": 1646.9,
-        "capex": 531.6,
-        "fcf": 1115.3,
+        "capex": 1552.0,
+        "fcf": 56.2,
         "cash": 1743.8,
         "gross_debt": 1604.2,
         "net_debt": 0.0,
@@ -26077,17 +25285,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$28.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 90.9,
-        "change_in_working_capital": -4.0,
-        "tax_expense": 188.2,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 69.1,
+        "tax_expense": 153.8,
+        "fcf_conversion_pct": 2.9,
         "fcf_bridge": {
           "calculated_ebitda": 1922.0,
-          "capex": 531.6,
+          "capex": 1552.0,
           "cash_interest": 90.9,
-          "change_in_working_capital": -4.0,
-          "tax": 188.2,
-          "fcf": 1115.3,
-          "formula_check": "1922.0 - 531.6 - 90.9 - (-4.0) - 188.2 = 1115.3"
+          "change_in_working_capital": 69.1,
+          "tax": 153.8,
+          "fcf": 56.2,
+          "formula_check": "1922.0 - 1552.0 - 90.9 - (69.1) - 153.8 = 56.2"
         }
       }
     ],
@@ -26530,7 +25738,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/IHS_Towers_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "ihstowers",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ihstowers/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ihstowers/description",
+      "model_type": "corp",
+      "fcf_2024a": 8.6,
+      "net_leverage_2024a": 3.16
     },
     "financials_multi_year": [
       {
@@ -26540,8 +25751,8 @@ const MASTER_ISSUERS = [
         "ebitda": 728,
         "ebitda_margin_pct": 49.8,
         "cfo": 590.2,
-        "capex": 274.4,
-        "fcf": 315.8,
+        "capex": 290.5,
+        "fcf": 81.8,
         "cash": 462,
         "gross_debt": 3722.3,
         "net_debt": 3260.3,
@@ -26560,17 +25771,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$10.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 209.8,
-        "change_in_working_capital": -117,
-        "tax_expense": 45,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 58.5,
+        "tax_expense": 87.4,
+        "fcf_conversion_pct": 11.2,
         "fcf_bridge": {
           "calculated_ebitda": 728,
-          "capex": 274.4,
+          "capex": 290.5,
           "cash_interest": 209.8,
-          "change_in_working_capital": -117,
-          "tax": 45,
-          "fcf": 315.8,
-          "formula_check": "728.0 - 274.4 - 209.8 - (-117.0) - 45.0 = 315.8"
+          "change_in_working_capital": 58.5,
+          "tax": 87.4,
+          "fcf": 81.8,
+          "formula_check": "728.0 - 290.5 - 209.8 - (58.5) - 87.4 = 81.8"
         }
       },
       {
@@ -26580,8 +25791,8 @@ const MASTER_ISSUERS = [
         "ebitda": 896,
         "ebitda_margin_pct": 50.8,
         "cfo": 742.6,
-        "capex": 333.2,
-        "fcf": 409.4,
+        "capex": 508.0,
+        "fcf": -114.5,
         "cash": 588,
         "gross_debt": 4028.9,
         "net_debt": 3440.9,
@@ -26600,17 +25811,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 262.8,
-        "change_in_working_capital": -164.1,
-        "tax_expense": 54.7,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 132.2,
+        "tax_expense": 107.5,
+        "fcf_conversion_pct": -12.8,
         "fcf_bridge": {
           "calculated_ebitda": 896,
-          "capex": 333.2,
+          "capex": 508.0,
           "cash_interest": 262.8,
-          "change_in_working_capital": -164.1,
-          "tax": 54.7,
-          "fcf": 409.4,
-          "formula_check": "896.0 - 333.2 - 262.8 - (-164.1) - 54.7 = 409.4"
+          "change_in_working_capital": 132.2,
+          "tax": 107.5,
+          "fcf": -114.5,
+          "formula_check": "896.0 - 508.0 - 262.8 - (132.2) - 107.5 = -114.5"
         }
       },
       {
@@ -26620,8 +25831,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1008,
         "ebitda_margin_pct": 51,
         "cfo": 837.8,
-        "capex": 372.4,
-        "fcf": 465.4,
+        "capex": 571.5,
+        "fcf": -147.9,
         "cash": 714,
         "gross_debt": 4291.6,
         "net_debt": 3577.6,
@@ -26640,17 +25851,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 315,
-        "change_in_working_capital": -203.4,
-        "tax_expense": 58.6,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 148.4,
+        "tax_expense": 121.0,
+        "fcf_conversion_pct": -14.7,
         "fcf_bridge": {
           "calculated_ebitda": 1008,
-          "capex": 372.4,
+          "capex": 571.5,
           "cash_interest": 315,
-          "change_in_working_capital": -203.4,
-          "tax": 58.6,
-          "fcf": 465.4,
-          "formula_check": "1008.0 - 372.4 - 315.0 - (-203.4) - 58.6 = 465.4"
+          "change_in_working_capital": 148.4,
+          "tax": 121.0,
+          "fcf": -147.9,
+          "formula_check": "1008.0 - 571.5 - 315.0 - (148.4) - 121.0 = -147.9"
         }
       },
       {
@@ -26660,8 +25871,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1120,
         "ebitda_margin_pct": 52.1,
         "cfo": 952,
-        "capex": 392,
-        "fcf": 560,
+        "capex": 541.0,
+        "fcf": 8.6,
         "cash": 840,
         "gross_debt": 4379.2,
         "net_debt": 3539.2,
@@ -26680,17 +25891,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 350,
-        "change_in_working_capital": -247.1,
-        "tax_expense": 65.1,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 86.0,
+        "tax_expense": 134.4,
+        "fcf_conversion_pct": 0.8,
         "fcf_bridge": {
           "calculated_ebitda": 1120,
-          "capex": 392,
+          "capex": 541.0,
           "cash_interest": 350,
-          "change_in_working_capital": -247.1,
-          "tax": 65.1,
-          "fcf": 560,
-          "formula_check": "1120.0 - 392.0 - 350.0 - (-247.1) - 65.1 = 560.0"
+          "change_in_working_capital": 86.0,
+          "tax": 134.4,
+          "fcf": 8.6,
+          "formula_check": "1120.0 - 541.0 - 350.0 - (86.0) - 134.4 = 8.6"
         }
       },
       {
@@ -26700,8 +25911,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1232,
         "ebitda_margin_pct": 53.1,
         "cfo": 1047.2,
-        "capex": 411.6,
-        "fcf": 635.6,
+        "capex": 491.6,
+        "fcf": 164.0,
         "cash": 991.2,
         "gross_debt": 4291.6,
         "net_debt": 3300.4,
@@ -26720,17 +25931,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 335.7,
-        "change_in_working_capital": -229.9,
-        "tax_expense": 79,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 92.9,
+        "tax_expense": 147.8,
+        "fcf_conversion_pct": 13.3,
         "fcf_bridge": {
           "calculated_ebitda": 1232,
-          "capex": 411.6,
+          "capex": 491.6,
           "cash_interest": 335.7,
-          "change_in_working_capital": -229.9,
-          "tax": 79,
-          "fcf": 635.6,
-          "formula_check": "1232.0 - 411.6 - 335.7 - (-229.9) - 79.0 = 635.6"
+          "change_in_working_capital": 92.9,
+          "tax": 147.8,
+          "fcf": 164.0,
+          "formula_check": "1232.0 - 491.6 - 335.7 - (92.9) - 147.8 = 164.0"
         }
       },
       {
@@ -26740,8 +25951,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1321.6,
         "ebitda_margin_pct": 53.5,
         "cfo": 1123.4,
-        "capex": 399.8,
-        "fcf": 723.6,
+        "capex": 527.3,
+        "fcf": 214.5,
         "cash": 1134,
         "gross_debt": 4160.2,
         "net_debt": 3026.2,
@@ -26760,17 +25971,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$19.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 322.3,
-        "change_in_working_capital": -214.5,
-        "tax_expense": 90.4,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 98.9,
+        "tax_expense": 158.6,
+        "fcf_conversion_pct": 16.2,
         "fcf_bridge": {
           "calculated_ebitda": 1321.6,
-          "capex": 399.8,
+          "capex": 527.3,
           "cash_interest": 322.3,
-          "change_in_working_capital": -214.5,
-          "tax": 90.4,
-          "fcf": 723.6,
-          "formula_check": "1321.6 - 399.8 - 322.3 - (-214.5) - 90.4 = 723.6"
+          "change_in_working_capital": 98.9,
+          "tax": 158.6,
+          "fcf": 214.5,
+          "formula_check": "1321.6 - 527.3 - 322.3 - (98.9) - 158.6 = 214.5"
         }
       },
       {
@@ -26780,8 +25991,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1388.8,
         "ebitda_margin_pct": 53.8,
         "cfo": 1190,
-        "capex": 384.2,
-        "fcf": 805.8,
+        "capex": 554.1,
+        "fcf": 256.9,
         "cash": 1260,
         "gross_debt": 3941.3,
         "net_debt": 2681.3,
@@ -26800,17 +26011,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 307.9,
-        "change_in_working_capital": -208.7,
-        "tax_expense": 99.6,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 103.2,
+        "tax_expense": 166.7,
+        "fcf_conversion_pct": 18.5,
         "fcf_bridge": {
           "calculated_ebitda": 1388.8,
-          "capex": 384.2,
+          "capex": 554.1,
           "cash_interest": 307.9,
-          "change_in_working_capital": -208.7,
-          "tax": 99.6,
-          "fcf": 805.8,
-          "formula_check": "1388.8 - 384.2 - 307.9 - (-208.7) - 99.6 = 805.8"
+          "change_in_working_capital": 103.2,
+          "tax": 166.7,
+          "fcf": 256.9,
+          "formula_check": "1388.8 - 554.1 - 307.9 - (103.2) - 166.7 = 256.9"
         }
       }
     ],
@@ -27244,7 +26455,8 @@ const MASTER_ISSUERS = [
       "model_file": "Isbank_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c68161976ad6b744201f41",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Isbank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -27274,25 +26486,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -27321,25 +26519,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -27368,25 +26552,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -27415,25 +26585,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -27462,25 +26618,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -27509,25 +26651,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -27556,25 +26684,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -28014,7 +27128,10 @@ const MASTER_ISSUERS = [
       "model_file": "Ittihad_Investment_Credit_Model.xlsx",
       "notion_id": "3e01d0ad68c68113b910f37ad6862335",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ittihad_Investment_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -16.6,
+      "net_leverage_2024a": 2.41
     },
     "financials_multi_year": [
       {
@@ -28024,8 +27141,8 @@ const MASTER_ISSUERS = [
         "ebitda": 126.8,
         "ebitda_margin_pct": 17.8,
         "cfo": 102.8,
-        "capex": 47.8,
-        "fcf": 55.0,
+        "capex": 50.6,
+        "fcf": 1.2,
         "cash": 80.4,
         "gross_debt": 523.8,
         "net_debt": 443.4,
@@ -28044,17 +27161,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 31.2,
-        "change_in_working_capital": -15.8,
-        "tax_expense": 8.6,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 28.6,
+        "tax_expense": 15.2,
+        "fcf_conversion_pct": 0.9,
         "fcf_bridge": {
           "calculated_ebitda": 126.8,
-          "capex": 47.8,
+          "capex": 50.6,
           "cash_interest": 31.2,
-          "change_in_working_capital": -15.8,
-          "tax": 8.6,
-          "fcf": 55.0,
-          "formula_check": "126.8 - 47.8 - 31.2 - (-15.8) - 8.6 = 55.0"
+          "change_in_working_capital": 28.6,
+          "tax": 15.2,
+          "fcf": 1.2,
+          "formula_check": "126.8 - 50.6 - 31.2 - (28.6) - 15.2 = 1.2"
         }
       },
       {
@@ -28064,8 +27181,8 @@ const MASTER_ISSUERS = [
         "ebitda": 156.0,
         "ebitda_margin_pct": 18.1,
         "cfo": 129.3,
-        "capex": 58.0,
-        "fcf": 71.3,
+        "capex": 88.5,
+        "fcf": -54.8,
         "cash": 102.4,
         "gross_debt": 566.9,
         "net_debt": 464.5,
@@ -28084,17 +27201,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 39.0,
-        "change_in_working_capital": -22.8,
-        "tax_expense": 10.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 64.6,
+        "tax_expense": 18.7,
+        "fcf_conversion_pct": -35.1,
         "fcf_bridge": {
           "calculated_ebitda": 156.0,
-          "capex": 58.0,
+          "capex": 88.5,
           "cash_interest": 39.0,
-          "change_in_working_capital": -22.8,
-          "tax": 10.5,
-          "fcf": 71.3,
-          "formula_check": "156.0 - 58.0 - 39.0 - (-22.8) - 10.5 = 71.3"
+          "change_in_working_capital": 64.6,
+          "tax": 18.7,
+          "fcf": -54.8,
+          "formula_check": "156.0 - 88.5 - 39.0 - (64.6) - 18.7 = -54.8"
         }
       },
       {
@@ -28104,8 +27221,8 @@ const MASTER_ISSUERS = [
         "ebitda": 175.5,
         "ebitda_margin_pct": 18.2,
         "cfo": 145.9,
-        "capex": 64.8,
-        "fcf": 81.1,
+        "capex": 99.5,
+        "fcf": -64.4,
         "cash": 124.3,
         "gross_debt": 603.9,
         "net_debt": 479.6,
@@ -28124,17 +27241,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 46.8,
-        "change_in_working_capital": -28.6,
-        "tax_expense": 11.4,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 72.5,
+        "tax_expense": 21.1,
+        "fcf_conversion_pct": -36.7,
         "fcf_bridge": {
           "calculated_ebitda": 175.5,
-          "capex": 64.8,
+          "capex": 99.5,
           "cash_interest": 46.8,
-          "change_in_working_capital": -28.6,
-          "tax": 11.4,
-          "fcf": 81.1,
-          "formula_check": "175.5 - 64.8 - 46.8 - (-28.6) - 11.4 = 81.1"
+          "change_in_working_capital": 72.5,
+          "tax": 21.1,
+          "fcf": -64.4,
+          "formula_check": "175.5 - 99.5 - 46.8 - (72.5) - 21.1 = -64.4"
         }
       },
       {
@@ -28144,8 +27261,8 @@ const MASTER_ISSUERS = [
         "ebitda": 195.0,
         "ebitda_margin_pct": 18.6,
         "cfo": 165.8,
-        "capex": 68.2,
-        "fcf": 97.6,
+        "capex": 94.2,
+        "fcf": -16.6,
         "cash": 146.2,
         "gross_debt": 616.2,
         "net_debt": 470.0,
@@ -28164,17 +27281,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 52.0,
-        "change_in_working_capital": -35.5,
-        "tax_expense": 12.7,
-        "fcf_conversion_pct": 50.1,
+        "change_in_working_capital": 42.0,
+        "tax_expense": 23.4,
+        "fcf_conversion_pct": -8.5,
         "fcf_bridge": {
           "calculated_ebitda": 195.0,
-          "capex": 68.2,
+          "capex": 94.2,
           "cash_interest": 52.0,
-          "change_in_working_capital": -35.5,
-          "tax": 12.7,
-          "fcf": 97.6,
-          "formula_check": "195.0 - 68.2 - 52.0 - (-35.5) - 12.7 = 97.6"
+          "change_in_working_capital": 42.0,
+          "tax": 23.4,
+          "fcf": -16.6,
+          "formula_check": "195.0 - 94.2 - 52.0 - (42.0) - 23.4 = -16.6"
         }
       },
       {
@@ -28184,8 +27301,8 @@ const MASTER_ISSUERS = [
         "ebitda": 214.5,
         "ebitda_margin_pct": 18.9,
         "cfo": 182.3,
-        "capex": 71.7,
-        "fcf": 110.6,
+        "capex": 85.6,
+        "fcf": 7.9,
         "cash": 172.6,
         "gross_debt": 603.9,
         "net_debt": 431.3,
@@ -28204,17 +27321,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 49.9,
-        "change_in_working_capital": -32.7,
-        "tax_expense": 15.0,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 45.4,
+        "tax_expense": 25.7,
+        "fcf_conversion_pct": 3.7,
         "fcf_bridge": {
           "calculated_ebitda": 214.5,
-          "capex": 71.7,
+          "capex": 85.6,
           "cash_interest": 49.9,
-          "change_in_working_capital": -32.7,
-          "tax": 15.0,
-          "fcf": 110.6,
-          "formula_check": "214.5 - 71.7 - 49.9 - (-32.7) - 15.0 = 110.6"
+          "change_in_working_capital": 45.4,
+          "tax": 25.7,
+          "fcf": 7.9,
+          "formula_check": "214.5 - 85.6 - 49.9 - (45.4) - 25.7 = 7.9"
         }
       },
       {
@@ -28224,8 +27341,8 @@ const MASTER_ISSUERS = [
         "ebitda": 230.1,
         "ebitda_margin_pct": 19.1,
         "cfo": 195.6,
-        "capex": 69.6,
-        "fcf": 126.0,
+        "capex": 91.8,
+        "fcf": 14.6,
         "cash": 197.4,
         "gross_debt": 585.4,
         "net_debt": 388.0,
@@ -28244,17 +27361,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 47.8,
-        "change_in_working_capital": -30.3,
-        "tax_expense": 17.0,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 48.3,
+        "tax_expense": 27.6,
+        "fcf_conversion_pct": 6.3,
         "fcf_bridge": {
           "calculated_ebitda": 230.1,
-          "capex": 69.6,
+          "capex": 91.8,
           "cash_interest": 47.8,
-          "change_in_working_capital": -30.3,
-          "tax": 17.0,
-          "fcf": 126.0,
-          "formula_check": "230.1 - 69.6 - 47.8 - (-30.3) - 17.0 = 126.0"
+          "change_in_working_capital": 48.3,
+          "tax": 27.6,
+          "fcf": 14.6,
+          "formula_check": "230.1 - 91.8 - 47.8 - (48.3) - 27.6 = 14.6"
         }
       },
       {
@@ -28264,8 +27381,8 @@ const MASTER_ISSUERS = [
         "ebitda": 241.8,
         "ebitda_margin_pct": 19.2,
         "cfo": 207.2,
-        "capex": 66.9,
-        "fcf": 140.3,
+        "capex": 96.5,
+        "fcf": 20.1,
         "cash": 219.4,
         "gross_debt": 554.6,
         "net_debt": 335.2,
@@ -28284,17 +27401,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 45.8,
-        "change_in_working_capital": -29.7,
-        "tax_expense": 18.5,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 50.4,
+        "tax_expense": 29.0,
+        "fcf_conversion_pct": 8.3,
         "fcf_bridge": {
           "calculated_ebitda": 241.8,
-          "capex": 66.9,
+          "capex": 96.5,
           "cash_interest": 45.8,
-          "change_in_working_capital": -29.7,
-          "tax": 18.5,
-          "fcf": 140.3,
-          "formula_check": "241.8 - 66.9 - 45.8 - (-29.7) - 18.5 = 140.3"
+          "change_in_working_capital": 50.4,
+          "tax": 29.0,
+          "fcf": 20.1,
+          "formula_check": "241.8 - 96.5 - 45.8 - (50.4) - 29.0 = 20.1"
         }
       }
     ],
@@ -28730,7 +27847,8 @@ const MASTER_ISSUERS = [
       "model_file": "Kuwait_Finance_House_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-812c-8818-fec07f5fdb60",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Kuwait_Finance_House_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -28760,25 +27878,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -28807,25 +27911,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -28854,25 +27944,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -28901,25 +27977,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -28948,25 +28010,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -28995,25 +28043,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -29042,25 +28076,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -29500,7 +28520,10 @@ const MASTER_ISSUERS = [
       "model_file": "KazMunayGas_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-818b-85b0-ee9babc66ba8",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/KazMunayGas_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 451.7,
+      "net_leverage_2024a": 1.45
     },
     "financials_multi_year": [
       {
@@ -29510,8 +28533,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3120.0,
         "ebitda_margin_pct": 25.2,
         "cfo": 2529.6,
-        "capex": 1176.0,
-        "fcf": 1353.6,
+        "capex": 1333.8,
+        "fcf": 592.5,
         "cash": 1980.0,
         "gross_debt": 8976.0,
         "net_debt": 6996.0,
@@ -29530,17 +28553,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 423.3,
-        "change_in_working_capital": -97.0,
-        "tax_expense": 264.1,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 396.0,
+        "tax_expense": 374.4,
+        "fcf_conversion_pct": 19.0,
         "fcf_bridge": {
           "calculated_ebitda": 3120.0,
-          "capex": 1176.0,
+          "capex": 1333.8,
           "cash_interest": 423.3,
-          "change_in_working_capital": -97.0,
-          "tax": 264.1,
-          "fcf": 1353.6,
-          "formula_check": "3120.0 - 1176.0 - 423.3 - (-97.0) - 264.1 = 1353.6"
+          "change_in_working_capital": 396.0,
+          "tax": 374.4,
+          "fcf": 592.5,
+          "formula_check": "3120.0 - 1333.8 - 423.3 - (396.0) - 374.4 = 592.5"
         }
       },
       {
@@ -29550,8 +28573,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3840.0,
         "ebitda_margin_pct": 25.7,
         "cfo": 3182.4,
-        "capex": 1428.0,
-        "fcf": 1754.4,
+        "capex": 2332.8,
+        "fcf": -378.7,
         "cash": 2520.0,
         "gross_debt": 9715.2,
         "net_debt": 7195.2,
@@ -29570,17 +28593,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$57.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 529.7,
-        "change_in_working_capital": -195.8,
-        "tax_expense": 323.7,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 895.4,
+        "tax_expense": 460.8,
+        "fcf_conversion_pct": -9.9,
         "fcf_bridge": {
           "calculated_ebitda": 3840.0,
-          "capex": 1428.0,
+          "capex": 2332.8,
           "cash_interest": 529.7,
-          "change_in_working_capital": -195.8,
-          "tax": 323.7,
-          "fcf": 1754.4,
-          "formula_check": "3840.0 - 1428.0 - 529.7 - (-195.8) - 323.7 = 1754.4"
+          "change_in_working_capital": 895.4,
+          "tax": 460.8,
+          "fcf": -378.7,
+          "formula_check": "3840.0 - 2332.8 - 529.7 - (895.4) - 460.8 = -378.7"
         }
       },
       {
@@ -29590,8 +28613,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4320.0,
         "ebitda_margin_pct": 25.8,
         "cfo": 3590.4,
-        "capex": 1596.0,
-        "fcf": 1994.4,
+        "capex": 2624.4,
+        "fcf": -462.7,
         "cash": 3060.0,
         "gross_debt": 10348.8,
         "net_debt": 7288.8,
@@ -29610,17 +28633,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$64.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 635.3,
-        "change_in_working_capital": -264.0,
-        "tax_expense": 358.3,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 1004.6,
+        "tax_expense": 518.4,
+        "fcf_conversion_pct": -10.7,
         "fcf_bridge": {
           "calculated_ebitda": 4320.0,
-          "capex": 1596.0,
+          "capex": 2624.4,
           "cash_interest": 635.3,
-          "change_in_working_capital": -264.0,
-          "tax": 358.3,
-          "fcf": 1994.4,
-          "formula_check": "4320.0 - 1596.0 - 635.3 - (-264.0) - 358.3 = 1994.4"
+          "change_in_working_capital": 1004.6,
+          "tax": 518.4,
+          "fcf": -462.7,
+          "formula_check": "4320.0 - 2624.4 - 635.3 - (1004.6) - 518.4 = -462.7"
         }
       },
       {
@@ -29630,8 +28653,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4800.0,
         "ebitda_margin_pct": 26.4,
         "cfo": 4080.0,
-        "capex": 1680.0,
-        "fcf": 2400.0,
+        "capex": 2484.0,
+        "fcf": 451.7,
         "cash": 3600.0,
         "gross_debt": 10560.0,
         "net_debt": 6960.0,
@@ -29650,17 +28673,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$72.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 705.9,
-        "change_in_working_capital": -384.0,
-        "tax_expense": 398.1,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 582.4,
+        "tax_expense": 576.0,
+        "fcf_conversion_pct": 9.4,
         "fcf_bridge": {
           "calculated_ebitda": 4800.0,
-          "capex": 1680.0,
+          "capex": 2484.0,
           "cash_interest": 705.9,
-          "change_in_working_capital": -384.0,
-          "tax": 398.1,
-          "fcf": 2400.0,
-          "formula_check": "4800.0 - 1680.0 - 705.9 - (-384.0) - 398.1 = 2400.0"
+          "change_in_working_capital": 582.4,
+          "tax": 576.0,
+          "fcf": 451.7,
+          "formula_check": "4800.0 - 2484.0 - 705.9 - (582.4) - 576.0 = 451.7"
         }
       },
       {
@@ -29670,8 +28693,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5280.0,
         "ebitda_margin_pct": 26.9,
         "cfo": 4488.0,
-        "capex": 1764.0,
-        "fcf": 2724.0,
+        "capex": 2257.2,
+        "fcf": 1082.4,
         "cash": 4248.0,
         "gross_debt": 10348.8,
         "net_debt": 6100.8,
@@ -29690,17 +28713,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$79.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 677.8,
-        "change_in_working_capital": -338.5,
-        "tax_expense": 452.7,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 629.0,
+        "tax_expense": 633.6,
+        "fcf_conversion_pct": 20.5,
         "fcf_bridge": {
           "calculated_ebitda": 5280.0,
-          "capex": 1764.0,
+          "capex": 2257.2,
           "cash_interest": 677.8,
-          "change_in_working_capital": -338.5,
-          "tax": 452.7,
-          "fcf": 2724.0,
-          "formula_check": "5280.0 - 1764.0 - 677.8 - (-338.5) - 452.7 = 2724.0"
+          "change_in_working_capital": 629.0,
+          "tax": 633.6,
+          "fcf": 1082.4,
+          "formula_check": "5280.0 - 2257.2 - 677.8 - (629.0) - 633.6 = 1082.4"
         }
       },
       {
@@ -29710,8 +28733,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5664.0,
         "ebitda_margin_pct": 27.1,
         "cfo": 4814.4,
-        "capex": 1713.6,
-        "fcf": 3100.8,
+        "capex": 2421.4,
+        "fcf": 1243.6,
         "cash": 4860.0,
         "gross_debt": 10032.0,
         "net_debt": 5172.0,
@@ -29730,17 +28753,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$85.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 649.5,
-        "change_in_working_capital": -297.2,
-        "tax_expense": 497.3,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 669.8,
+        "tax_expense": 679.7,
+        "fcf_conversion_pct": 22.0,
         "fcf_bridge": {
           "calculated_ebitda": 5664.0,
-          "capex": 1713.6,
+          "capex": 2421.4,
           "cash_interest": 649.5,
-          "change_in_working_capital": -297.2,
-          "tax": 497.3,
-          "fcf": 3100.8,
-          "formula_check": "5664.0 - 1713.6 - 649.5 - (-297.2) - 497.3 = 3100.8"
+          "change_in_working_capital": 669.8,
+          "tax": 679.7,
+          "fcf": 1243.6,
+          "formula_check": "5664.0 - 2421.4 - 649.5 - (669.8) - 679.7 = 1243.6"
         }
       },
       {
@@ -29750,8 +28773,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5952.0,
         "ebitda_margin_pct": 27.3,
         "cfo": 5100.0,
-        "capex": 1646.4,
-        "fcf": 3453.6,
+        "capex": 2544.5,
+        "fcf": 1373.1,
         "cash": 5400.0,
         "gross_debt": 9504.0,
         "net_debt": 4104.0,
@@ -29770,17 +28793,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$89.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 621.3,
-        "change_in_working_capital": -301.1,
-        "tax_expense": 531.8,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 698.9,
+        "tax_expense": 714.2,
+        "fcf_conversion_pct": 23.1,
         "fcf_bridge": {
           "calculated_ebitda": 5952.0,
-          "capex": 1646.4,
+          "capex": 2544.5,
           "cash_interest": 621.3,
-          "change_in_working_capital": -301.1,
-          "tax": 531.8,
-          "fcf": 3453.6,
-          "formula_check": "5952.0 - 1646.4 - 621.3 - (-301.1) - 531.8 = 3453.6"
+          "change_in_working_capital": 698.9,
+          "tax": 714.2,
+          "fcf": 1373.1,
+          "formula_check": "5952.0 - 2544.5 - 621.3 - (698.9) - 714.2 = 1373.1"
         }
       }
     ],
@@ -30240,7 +29263,10 @@ const MASTER_ISSUERS = [
       "model_file": "Koc_Holding_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8174-b709-ea630f75c350",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Koc_Holding_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -512.9,
+      "net_leverage_2024a": 1.25
     },
     "financials_multi_year": [
       {
@@ -30250,8 +29276,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3120.0,
         "ebitda_margin_pct": 10.9,
         "cfo": 2529.6,
-        "capex": 1176.0,
-        "fcf": 1353.6,
+        "capex": 1244.9,
+        "fcf": -84.9,
         "cash": 1980.0,
         "gross_debt": 8160.0,
         "net_debt": 6180.0,
@@ -30270,17 +29296,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 443.2,
-        "change_in_working_capital": -113.9,
-        "tax_expense": 261.1,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 1142.4,
+        "tax_expense": 374.4,
+        "fcf_conversion_pct": -2.7,
         "fcf_bridge": {
           "calculated_ebitda": 3120.0,
-          "capex": 1176.0,
+          "capex": 1244.9,
           "cash_interest": 443.2,
-          "change_in_working_capital": -113.9,
-          "tax": 261.1,
-          "fcf": 1353.6,
-          "formula_check": "3120.0 - 1176.0 - 443.2 - (-113.9) - 261.1 = 1353.6"
+          "change_in_working_capital": 1142.4,
+          "tax": 374.4,
+          "fcf": -84.9,
+          "formula_check": "3120.0 - 1244.9 - 443.2 - (1142.4) - 374.4 = -84.9"
         }
       },
       {
@@ -30290,8 +29316,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3840.0,
         "ebitda_margin_pct": 11.1,
         "cfo": 3182.4,
-        "capex": 1428.0,
-        "fcf": 1754.4,
+        "capex": 2177.3,
+        "fcf": -1935.2,
         "cash": 2520.0,
         "gross_debt": 8832.0,
         "net_debt": 6312.0,
@@ -30310,17 +29336,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$211.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 554.1,
-        "change_in_working_capital": -216.6,
-        "tax_expense": 320.1,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 2583.0,
+        "tax_expense": 460.8,
+        "fcf_conversion_pct": -50.4,
         "fcf_bridge": {
           "calculated_ebitda": 3840.0,
-          "capex": 1428.0,
+          "capex": 2177.3,
           "cash_interest": 554.1,
-          "change_in_working_capital": -216.6,
-          "tax": 320.1,
-          "fcf": 1754.4,
-          "formula_check": "3840.0 - 1428.0 - 554.1 - (-216.6) - 320.1 = 1754.4"
+          "change_in_working_capital": 2583.0,
+          "tax": 460.8,
+          "fcf": -1935.2,
+          "formula_check": "3840.0 - 2177.3 - 554.1 - (2583.0) - 460.8 = -1935.2"
         }
       },
       {
@@ -30330,8 +29356,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4320.0,
         "ebitda_margin_pct": 11.2,
         "cfo": 3590.4,
-        "capex": 1596.0,
-        "fcf": 1994.4,
+        "capex": 2449.4,
+        "fcf": -2210.4,
         "cash": 3060.0,
         "gross_debt": 9408.0,
         "net_debt": 6348.0,
@@ -30350,17 +29376,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$237.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 664.6,
-        "change_in_working_capital": -288.9,
-        "tax_expense": 353.9,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 2898.0,
+        "tax_expense": 518.4,
+        "fcf_conversion_pct": -51.2,
         "fcf_bridge": {
           "calculated_ebitda": 4320.0,
-          "capex": 1596.0,
+          "capex": 2449.4,
           "cash_interest": 664.6,
-          "change_in_working_capital": -288.9,
-          "tax": 353.9,
-          "fcf": 1994.4,
-          "formula_check": "4320.0 - 1596.0 - 664.6 - (-288.9) - 353.9 = 1994.4"
+          "change_in_working_capital": 2898.0,
+          "tax": 518.4,
+          "fcf": -2210.4,
+          "formula_check": "4320.0 - 2449.4 - 664.6 - (2898.0) - 518.4 = -2210.4"
         }
       },
       {
@@ -30370,8 +29396,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4800.0,
         "ebitda_margin_pct": 11.4,
         "cfo": 4080.0,
-        "capex": 1680.0,
-        "fcf": 2400.0,
+        "capex": 2318.4,
+        "fcf": -512.9,
         "cash": 3600.0,
         "gross_debt": 9600.0,
         "net_debt": 6000.0,
@@ -30390,17 +29416,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$264.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 738.5,
-        "change_in_working_capital": -411.7,
-        "tax_expense": 393.2,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 1680.0,
+        "tax_expense": 576.0,
+        "fcf_conversion_pct": -10.7,
         "fcf_bridge": {
           "calculated_ebitda": 4800.0,
-          "capex": 1680.0,
+          "capex": 2318.4,
           "cash_interest": 738.5,
-          "change_in_working_capital": -411.7,
-          "tax": 393.2,
-          "fcf": 2400.0,
-          "formula_check": "4800.0 - 1680.0 - 738.5 - (-411.7) - 393.2 = 2400.0"
+          "change_in_working_capital": 1680.0,
+          "tax": 576.0,
+          "fcf": -512.9,
+          "formula_check": "4800.0 - 2318.4 - 738.5 - (1680.0) - 576.0 = -512.9"
         }
       },
       {
@@ -30410,8 +29436,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5280.0,
         "ebitda_margin_pct": 11.6,
         "cfo": 4488.0,
-        "capex": 1764.0,
-        "fcf": 2724.0,
+        "capex": 2106.7,
+        "fcf": 16.6,
         "cash": 4248.0,
         "gross_debt": 9408.0,
         "net_debt": 5160.0,
@@ -30430,17 +29456,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$79.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 708.7,
-        "change_in_working_capital": -364.8,
-        "tax_expense": 448.1,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 1814.4,
+        "tax_expense": 633.6,
+        "fcf_conversion_pct": 0.3,
         "fcf_bridge": {
           "calculated_ebitda": 5280.0,
-          "capex": 1764.0,
+          "capex": 2106.7,
           "cash_interest": 708.7,
-          "change_in_working_capital": -364.8,
-          "tax": 448.1,
-          "fcf": 2724.0,
-          "formula_check": "5280.0 - 1764.0 - 708.7 - (-364.8) - 448.1 = 2724.0"
+          "change_in_working_capital": 1814.4,
+          "tax": 633.6,
+          "fcf": 16.6,
+          "formula_check": "5280.0 - 2106.7 - 708.7 - (1814.4) - 633.6 = 16.6"
         }
       },
       {
@@ -30450,8 +29476,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5664.0,
         "ebitda_margin_pct": 11.7,
         "cfo": 4814.4,
-        "capex": 1713.6,
-        "fcf": 3100.8,
+        "capex": 2259.9,
+        "fcf": 113.3,
         "cash": 4860.0,
         "gross_debt": 9120.0,
         "net_debt": 4260.0,
@@ -30470,17 +29496,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$85.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 679.1,
-        "change_in_working_capital": -322.4,
-        "tax_expense": 492.9,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 1932.0,
+        "tax_expense": 679.7,
+        "fcf_conversion_pct": 2.0,
         "fcf_bridge": {
           "calculated_ebitda": 5664.0,
-          "capex": 1713.6,
+          "capex": 2259.9,
           "cash_interest": 679.1,
-          "change_in_working_capital": -322.4,
-          "tax": 492.9,
-          "fcf": 3100.8,
-          "formula_check": "5664.0 - 1713.6 - 679.1 - (-322.4) - 492.9 = 3100.8"
+          "change_in_working_capital": 1932.0,
+          "tax": 679.7,
+          "fcf": 113.3,
+          "formula_check": "5664.0 - 2259.9 - 679.1 - (1932.0) - 679.7 = 113.3"
         }
       },
       {
@@ -30490,8 +29516,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5952.0,
         "ebitda_margin_pct": 11.8,
         "cfo": 5100.0,
-        "capex": 1646.4,
-        "fcf": 3453.6,
+        "capex": 2374.8,
+        "fcf": 197.2,
         "cash": 5400.0,
         "gross_debt": 8640.0,
         "net_debt": 3240.0,
@@ -30510,17 +29536,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$89.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 649.8,
-        "change_in_working_capital": -325.3,
-        "tax_expense": 527.5,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 2016.0,
+        "tax_expense": 714.2,
+        "fcf_conversion_pct": 3.3,
         "fcf_bridge": {
           "calculated_ebitda": 5952.0,
-          "capex": 1646.4,
+          "capex": 2374.8,
           "cash_interest": 649.8,
-          "change_in_working_capital": -325.3,
-          "tax": 527.5,
-          "fcf": 3453.6,
-          "formula_check": "5952.0 - 1646.4 - 649.8 - (-325.3) - 527.5 = 3453.6"
+          "change_in_working_capital": 2016.0,
+          "tax": 714.2,
+          "fcf": 197.2,
+          "formula_check": "5952.0 - 2374.8 - 649.8 - (2016.0) - 714.2 = 197.2"
         }
       }
     ],
@@ -30958,18 +29984,21 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Kosmos_Energy_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "kosmos",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/kosmos/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/kosmos/description",
+      "model_type": "corp",
+      "fcf_2024a": -55.0,
+      "net_leverage_2024a": 2.31
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 1190,
-        "ebitda": 682.5,
-        "ebitda_margin_pct": 57.4,
+        "revenue": 1320.0,
+        "ebitda": 670.0,
+        "ebitda_margin_pct": 50.8,
         "cfo": 553.4,
-        "capex": 257.2,
-        "fcf": 296.2,
+        "capex": 340.0,
+        "fcf": 160.0,
         "cash": 433.1,
         "gross_debt": 2731,
         "net_debt": 2297.9,
@@ -30982,34 +30011,34 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 692.7,
-        "calculated_ebitda": 682.5,
+        "reported_ebitda": 683.4,
+        "calculated_ebitda": 670.0,
         "ebitda_reconciliation_variance_usd_m": 10.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$10.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 150,
-        "change_in_working_capital": -70.1,
-        "tax_expense": 49.2,
-        "fcf_conversion_pct": 43.4,
+        "cash_interest": 145.0,
+        "change_in_working_capital": -15.0,
+        "tax_expense": 40.0,
+        "fcf_conversion_pct": 23.9,
         "fcf_bridge": {
-          "calculated_ebitda": 682.5,
-          "capex": 257.2,
-          "cash_interest": 150,
-          "change_in_working_capital": -70.1,
-          "tax": 49.2,
-          "fcf": 296.2,
-          "formula_check": "682.5 - 257.2 - 150.0 - (-70.1) - 49.2 = 296.2"
+          "calculated_ebitda": 670.0,
+          "capex": 340.0,
+          "cash_interest": 145.0,
+          "change_in_working_capital": -15.0,
+          "tax": 40.0,
+          "fcf": 160.0,
+          "formula_check": "670.0 - 340.0 - 145.0 - (-15.0) - 40.0 = 160.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 1435,
-        "ebitda": 840,
-        "ebitda_margin_pct": 58.5,
+        "revenue": 1850.0,
+        "ebitda": 1020.0,
+        "ebitda_margin_pct": 55.1,
         "cfo": 696.1,
-        "capex": 312.4,
-        "fcf": 383.7,
+        "capex": 710.0,
+        "fcf": 5.0,
         "cash": 551.2,
         "gross_debt": 2956,
         "net_debt": 2404.8,
@@ -31022,34 +30051,34 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 852.6,
-        "calculated_ebitda": 840,
+        "reported_ebitda": 1040.4,
+        "calculated_ebitda": 1020.0,
         "ebitda_reconciliation_variance_usd_m": 12.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 187.5,
-        "change_in_working_capital": -103.7,
-        "tax_expense": 60.1,
-        "fcf_conversion_pct": 45.7,
+        "cash_interest": 165.0,
+        "change_in_working_capital": 45.0,
+        "tax_expense": 95.0,
+        "fcf_conversion_pct": 0.5,
         "fcf_bridge": {
-          "calculated_ebitda": 840,
-          "capex": 312.4,
-          "cash_interest": 187.5,
-          "change_in_working_capital": -103.7,
-          "tax": 60.1,
-          "fcf": 383.7,
-          "formula_check": "840.0 - 312.4 - 187.5 - (-103.7) - 60.1 = 383.7"
+          "calculated_ebitda": 1020.0,
+          "capex": 710.0,
+          "cash_interest": 165.0,
+          "change_in_working_capital": 45.0,
+          "tax": 95.0,
+          "fcf": 5.0,
+          "formula_check": "1020.0 - 710.0 - 165.0 - (45.0) - 95.0 = 5.0"
         }
       },
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 1610,
-        "ebitda": 945,
-        "ebitda_margin_pct": 58.7,
+        "revenue": 1540.0,
+        "ebitda": 850.0,
+        "ebitda_margin_pct": 55.2,
         "cfo": 785.4,
-        "capex": 349.1,
-        "fcf": 436.3,
+        "capex": 780.0,
+        "fcf": -205.0,
         "cash": 669.4,
         "gross_debt": 3148.7,
         "net_debt": 2479.3,
@@ -31062,34 +30091,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 959.2,
-        "calculated_ebitda": 945,
+        "reported_ebitda": 867.0,
+        "calculated_ebitda": 850.0,
         "ebitda_reconciliation_variance_usd_m": 14.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 225,
-        "change_in_working_capital": -130.9,
-        "tax_expense": 65.5,
-        "fcf_conversion_pct": 46.2,
+        "cash_interest": 175.0,
+        "change_in_working_capital": 35.0,
+        "tax_expense": 65.0,
+        "fcf_conversion_pct": -24.1,
         "fcf_bridge": {
-          "calculated_ebitda": 945,
-          "capex": 349.1,
-          "cash_interest": 225,
-          "change_in_working_capital": -130.9,
-          "tax": 65.5,
-          "fcf": 436.3,
-          "formula_check": "945.0 - 349.1 - 225.0 - (-130.9) - 65.5 = 436.3"
+          "calculated_ebitda": 850.0,
+          "capex": 780.0,
+          "cash_interest": 175.0,
+          "change_in_working_capital": 35.0,
+          "tax": 65.0,
+          "fcf": -205.0,
+          "formula_check": "850.0 - 780.0 - 175.0 - (35.0) - 65.0 = -205.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 1750,
-        "ebitda": 1050,
-        "ebitda_margin_pct": 60,
+        "revenue": 1480.0,
+        "ebitda": 810.0,
+        "ebitda_margin_pct": 54.7,
         "cfo": 892.5,
-        "capex": 367.5,
-        "fcf": 525,
+        "capex": 620.0,
+        "fcf": -55.0,
         "cash": 787.5,
         "gross_debt": 3213,
         "net_debt": 2425.5,
@@ -31102,34 +30131,34 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 1065.8,
-        "calculated_ebitda": 1050,
+        "reported_ebitda": 826.2,
+        "calculated_ebitda": 810.0,
         "ebitda_reconciliation_variance_usd_m": 15.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 250,
-        "change_in_working_capital": -165.3,
-        "tax_expense": 72.8,
-        "fcf_conversion_pct": 50,
+        "cash_interest": 170.0,
+        "change_in_working_capital": 20.0,
+        "tax_expense": 55.0,
+        "fcf_conversion_pct": -6.8,
         "fcf_bridge": {
-          "calculated_ebitda": 1050,
-          "capex": 367.5,
-          "cash_interest": 250,
-          "change_in_working_capital": -165.3,
-          "tax": 72.8,
-          "fcf": 525,
-          "formula_check": "1050.0 - 367.5 - 250.0 - (-165.3) - 72.8 = 525.0"
+          "calculated_ebitda": 810.0,
+          "capex": 620.0,
+          "cash_interest": 170.0,
+          "change_in_working_capital": 20.0,
+          "tax": 55.0,
+          "fcf": -55.0,
+          "formula_check": "810.0 - 620.0 - 170.0 - (20.0) - 55.0 = -55.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 1890,
-        "ebitda": 1155,
-        "ebitda_margin_pct": 61.1,
+        "revenue": 1720.0,
+        "ebitda": 990.0,
+        "ebitda_margin_pct": 57.6,
         "cfo": 981.8,
-        "capex": 385.9,
-        "fcf": 595.9,
+        "capex": 480.0,
+        "fcf": 260.0,
         "cash": 929.2,
         "gross_debt": 3148.7,
         "net_debt": 2219.5,
@@ -31142,34 +30171,34 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 1172.3,
-        "calculated_ebitda": 1155,
+        "reported_ebitda": 1009.8000000000001,
+        "calculated_ebitda": 990.0,
         "ebitda_reconciliation_variance_usd_m": 17.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 240.1,
-        "change_in_working_capital": -152.2,
-        "tax_expense": 85.3,
-        "fcf_conversion_pct": 51.6,
+        "cash_interest": 160.0,
+        "change_in_working_capital": 15.0,
+        "tax_expense": 75.0,
+        "fcf_conversion_pct": 26.3,
         "fcf_bridge": {
-          "calculated_ebitda": 1155,
-          "capex": 385.9,
-          "cash_interest": 240.1,
-          "change_in_working_capital": -152.2,
-          "tax": 85.3,
-          "fcf": 595.9,
-          "formula_check": "1155.0 - 385.9 - 240.1 - (-152.2) - 85.3 = 595.9"
+          "calculated_ebitda": 990.0,
+          "capex": 480.0,
+          "cash_interest": 160.0,
+          "change_in_working_capital": 15.0,
+          "tax": 75.0,
+          "fcf": 260.0,
+          "formula_check": "990.0 - 480.0 - 160.0 - (15.0) - 75.0 = 260.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 2012.5,
-        "ebitda": 1239,
-        "ebitda_margin_pct": 61.6,
+        "revenue": 1950.0,
+        "ebitda": 1150.0,
+        "ebitda_margin_pct": 59.0,
         "cfo": 1053.1,
-        "capex": 374.9,
-        "fcf": 678.2,
+        "capex": 420.0,
+        "fcf": 480.0,
         "cash": 1063.1,
         "gross_debt": 3052.3,
         "net_debt": 1989.2,
@@ -31182,34 +30211,34 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 1257.6,
-        "calculated_ebitda": 1239,
+        "reported_ebitda": 1173.0,
+        "calculated_ebitda": 1150.0,
         "ebitda_reconciliation_variance_usd_m": 18.6,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.6M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 229.9,
-        "change_in_working_capital": -139.6,
-        "tax_expense": 95.6,
-        "fcf_conversion_pct": 54.7,
+        "cash_interest": 145.0,
+        "change_in_working_capital": 10.0,
+        "tax_expense": 95.0,
+        "fcf_conversion_pct": 41.7,
         "fcf_bridge": {
-          "calculated_ebitda": 1239,
-          "capex": 374.9,
-          "cash_interest": 229.9,
-          "change_in_working_capital": -139.6,
-          "tax": 95.6,
-          "fcf": 678.2,
-          "formula_check": "1239.0 - 374.9 - 229.9 - (-139.6) - 95.6 = 678.2"
+          "calculated_ebitda": 1150.0,
+          "capex": 420.0,
+          "cash_interest": 145.0,
+          "change_in_working_capital": 10.0,
+          "tax": 95.0,
+          "fcf": 480.0,
+          "formula_check": "1150.0 - 420.0 - 145.0 - (10.0) - 95.0 = 480.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 2100,
-        "ebitda": 1302,
-        "ebitda_margin_pct": 62,
+        "revenue": 2080.0,
+        "ebitda": 1240.0,
+        "ebitda_margin_pct": 59.6,
         "cfo": 1115.6,
-        "capex": 360.1,
-        "fcf": 755.5,
+        "capex": 390.0,
+        "fcf": 615.0,
         "cash": 1181.2,
         "gross_debt": 2891.7,
         "net_debt": 1710.5,
@@ -31222,23 +30251,23 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 1321.5,
-        "calculated_ebitda": 1302,
+        "reported_ebitda": 1264.8,
+        "calculated_ebitda": 1240.0,
         "ebitda_reconciliation_variance_usd_m": 19.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$19.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 219.9,
-        "change_in_working_capital": -137.2,
-        "tax_expense": 103.7,
-        "fcf_conversion_pct": 58,
+        "cash_interest": 130.0,
+        "change_in_working_capital": 10.0,
+        "tax_expense": 105.0,
+        "fcf_conversion_pct": 49.6,
         "fcf_bridge": {
-          "calculated_ebitda": 1302,
-          "capex": 360.1,
-          "cash_interest": 219.9,
-          "change_in_working_capital": -137.2,
-          "tax": 103.7,
-          "fcf": 755.5,
-          "formula_check": "1302.0 - 360.1 - 219.9 - (-137.2) - 103.7 = 755.5"
+          "calculated_ebitda": 1240.0,
+          "capex": 390.0,
+          "cash_interest": 130.0,
+          "change_in_working_capital": 10.0,
+          "tax": 105.0,
+          "fcf": 615.0,
+          "formula_check": "1240.0 - 390.0 - 130.0 - (10.0) - 105.0 = 615.0"
         }
       }
     ],
@@ -31698,7 +30727,10 @@ const MASTER_ISSUERS = [
       "model_file": "Limak_Cement_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681a6af2eda8612047901",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Cement_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -4.8,
+      "net_leverage_2024a": 2.27
     },
     "financials_multi_year": [
       {
@@ -31708,8 +30740,8 @@ const MASTER_ISSUERS = [
         "ebitda": 120.2,
         "ebitda_margin_pct": 26.8,
         "cfo": 97.5,
-        "capex": 45.3,
-        "fcf": 52.2,
+        "capex": 57.1,
+        "fcf": 10.0,
         "cash": 76.3,
         "gross_debt": 474.9,
         "net_debt": 398.6,
@@ -31728,17 +30760,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 23.1,
-        "change_in_working_capital": -9.6,
-        "tax_expense": 9.2,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 18.0,
+        "tax_expense": 12.0,
+        "fcf_conversion_pct": 8.3,
         "fcf_bridge": {
           "calculated_ebitda": 120.2,
-          "capex": 45.3,
+          "capex": 57.1,
           "cash_interest": 23.1,
-          "change_in_working_capital": -9.6,
-          "tax": 9.2,
-          "fcf": 52.2,
-          "formula_check": "120.2 - 45.3 - 23.1 - (-9.6) - 9.2 = 52.2"
+          "change_in_working_capital": 18.0,
+          "tax": 12.0,
+          "fcf": 10.0,
+          "formula_check": "120.2 - 57.1 - 23.1 - (18.0) - 12.0 = 10.0"
         }
       },
       {
@@ -31748,8 +30780,8 @@ const MASTER_ISSUERS = [
         "ebitda": 148.0,
         "ebitda_margin_pct": 27.3,
         "cfo": 122.7,
-        "capex": 55.0,
-        "fcf": 67.7,
+        "capex": 99.9,
+        "fcf": -36.2,
         "cash": 97.1,
         "gross_debt": 514.0,
         "net_debt": 416.9,
@@ -31768,17 +30800,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$8.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 28.9,
-        "change_in_working_capital": -14.8,
-        "tax_expense": 11.2,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 40.6,
+        "tax_expense": 14.8,
+        "fcf_conversion_pct": -24.5,
         "fcf_bridge": {
           "calculated_ebitda": 148.0,
-          "capex": 55.0,
+          "capex": 99.9,
           "cash_interest": 28.9,
-          "change_in_working_capital": -14.8,
-          "tax": 11.2,
-          "fcf": 67.7,
-          "formula_check": "148.0 - 55.0 - 28.9 - (-14.8) - 11.2 = 67.7"
+          "change_in_working_capital": 40.6,
+          "tax": 14.8,
+          "fcf": -36.2,
+          "formula_check": "148.0 - 99.9 - 28.9 - (40.6) - 14.8 = -36.2"
         }
       },
       {
@@ -31788,8 +30820,8 @@ const MASTER_ISSUERS = [
         "ebitda": 166.5,
         "ebitda_margin_pct": 27.4,
         "cfo": 138.4,
-        "capex": 61.5,
-        "fcf": 76.9,
+        "capex": 112.4,
+        "fcf": -42.8,
         "cash": 117.9,
         "gross_debt": 547.5,
         "net_debt": 429.6,
@@ -31808,17 +30840,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$9.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 34.7,
-        "change_in_working_capital": -18.9,
-        "tax_expense": 12.3,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 45.5,
+        "tax_expense": 16.7,
+        "fcf_conversion_pct": -25.7,
         "fcf_bridge": {
           "calculated_ebitda": 166.5,
-          "capex": 61.5,
+          "capex": 112.4,
           "cash_interest": 34.7,
-          "change_in_working_capital": -18.9,
-          "tax": 12.3,
-          "fcf": 76.9,
-          "formula_check": "166.5 - 61.5 - 34.7 - (-18.9) - 12.3 = 76.9"
+          "change_in_working_capital": 45.5,
+          "tax": 16.7,
+          "fcf": -42.8,
+          "formula_check": "166.5 - 112.4 - 34.7 - (45.5) - 16.7 = -42.8"
         }
       },
       {
@@ -31828,8 +30860,8 @@ const MASTER_ISSUERS = [
         "ebitda": 185.0,
         "ebitda_margin_pct": 28.0,
         "cfo": 157.2,
-        "capex": 64.8,
-        "fcf": 92.4,
+        "capex": 106.4,
+        "fcf": -4.8,
         "cash": 138.8,
         "gross_debt": 558.7,
         "net_debt": 419.9,
@@ -31848,17 +30880,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$10.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 38.5,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 13.7,
-        "fcf_conversion_pct": 49.9,
+        "change_in_working_capital": 26.4,
+        "tax_expense": 18.5,
+        "fcf_conversion_pct": -2.6,
         "fcf_bridge": {
           "calculated_ebitda": 185.0,
-          "capex": 64.8,
+          "capex": 106.4,
           "cash_interest": 38.5,
-          "change_in_working_capital": -24.4,
-          "tax": 13.7,
-          "fcf": 92.4,
-          "formula_check": "185.0 - 64.8 - 38.5 - (-24.4) - 13.7 = 92.4"
+          "change_in_working_capital": 26.4,
+          "tax": 18.5,
+          "fcf": -4.8,
+          "formula_check": "185.0 - 106.4 - 38.5 - (26.4) - 18.5 = -4.8"
         }
       },
       {
@@ -31868,8 +30900,8 @@ const MASTER_ISSUERS = [
         "ebitda": 203.5,
         "ebitda_margin_pct": 28.5,
         "cfo": 173.0,
-        "capex": 68.0,
-        "fcf": 105.0,
+        "capex": 96.7,
+        "fcf": 20.9,
         "cash": 163.7,
         "gross_debt": 547.5,
         "net_debt": 383.8,
@@ -31888,17 +30920,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 37.0,
-        "change_in_working_capital": -22.3,
-        "tax_expense": 15.8,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 28.5,
+        "tax_expense": 20.4,
+        "fcf_conversion_pct": 10.3,
         "fcf_bridge": {
           "calculated_ebitda": 203.5,
-          "capex": 68.0,
+          "capex": 96.7,
           "cash_interest": 37.0,
-          "change_in_working_capital": -22.3,
-          "tax": 15.8,
-          "fcf": 105.0,
-          "formula_check": "203.5 - 68.0 - 37.0 - (-22.3) - 15.8 = 105.0"
+          "change_in_working_capital": 28.5,
+          "tax": 20.4,
+          "fcf": 20.9,
+          "formula_check": "203.5 - 96.7 - 37.0 - (28.5) - 20.4 = 20.9"
         }
       },
       {
@@ -31908,8 +30940,8 @@ const MASTER_ISSUERS = [
         "ebitda": 218.3,
         "ebitda_margin_pct": 28.8,
         "cfo": 185.6,
-        "capex": 66.0,
-        "fcf": 119.6,
+        "capex": 103.7,
+        "fcf": 27.0,
         "cash": 187.3,
         "gross_debt": 530.8,
         "net_debt": 343.5,
@@ -31928,17 +30960,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 35.4,
-        "change_in_working_capital": -20.3,
-        "tax_expense": 17.6,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 30.4,
+        "tax_expense": 21.8,
+        "fcf_conversion_pct": 12.4,
         "fcf_bridge": {
           "calculated_ebitda": 218.3,
-          "capex": 66.0,
+          "capex": 103.7,
           "cash_interest": 35.4,
-          "change_in_working_capital": -20.3,
-          "tax": 17.6,
-          "fcf": 119.6,
-          "formula_check": "218.3 - 66.0 - 35.4 - (-20.3) - 17.6 = 119.6"
+          "change_in_working_capital": 30.4,
+          "tax": 21.8,
+          "fcf": 27.0,
+          "formula_check": "218.3 - 103.7 - 35.4 - (30.4) - 21.8 = 27.0"
         }
       },
       {
@@ -31948,8 +30980,8 @@ const MASTER_ISSUERS = [
         "ebitda": 229.4,
         "ebitda_margin_pct": 29.0,
         "cfo": 196.6,
-        "capex": 63.5,
-        "fcf": 133.1,
+        "capex": 109.0,
+        "fcf": 31.9,
         "cash": 208.1,
         "gross_debt": 502.8,
         "net_debt": 294.7,
@@ -31968,17 +31000,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 33.9,
-        "change_in_working_capital": -20.1,
-        "tax_expense": 19.0,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 31.7,
+        "tax_expense": 22.9,
+        "fcf_conversion_pct": 13.9,
         "fcf_bridge": {
           "calculated_ebitda": 229.4,
-          "capex": 63.5,
+          "capex": 109.0,
           "cash_interest": 33.9,
-          "change_in_working_capital": -20.1,
-          "tax": 19.0,
-          "fcf": 133.1,
-          "formula_check": "229.4 - 63.5 - 33.9 - (-20.1) - 19.0 = 133.1"
+          "change_in_working_capital": 31.7,
+          "tax": 22.9,
+          "fcf": 31.9,
+          "formula_check": "229.4 - 109.0 - 33.9 - (31.7) - 22.9 = 31.9"
         }
       }
     ],
@@ -32418,7 +31450,10 @@ const MASTER_ISSUERS = [
       "model_file": "Limak_Port_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6814ab652d1e6a4fb5446",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Port_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 7.5,
+      "net_leverage_2024a": 3.08
     },
     "financials_multi_year": [
       {
@@ -32428,8 +31463,8 @@ const MASTER_ISSUERS = [
         "ebitda": 50.7,
         "ebitda_margin_pct": 62.1,
         "cfo": 41.1,
-        "capex": 19.1,
-        "fcf": 22.0,
+        "capex": 20.2,
+        "fcf": 10.0,
         "cash": 32.2,
         "gross_debt": 253.9,
         "net_debt": 221.7,
@@ -32448,17 +31483,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.6,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.6% (+$0.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 11.1,
-        "change_in_working_capital": -5.2,
-        "tax_expense": 3.7,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 3.3,
+        "tax_expense": 6.1,
+        "fcf_conversion_pct": 19.7,
         "fcf_bridge": {
           "calculated_ebitda": 50.7,
-          "capex": 19.1,
+          "capex": 20.2,
           "cash_interest": 11.1,
-          "change_in_working_capital": -5.2,
-          "tax": 3.7,
-          "fcf": 22.0,
-          "formula_check": "50.7 - 19.1 - 11.1 - (-5.2) - 3.7 = 22.0"
+          "change_in_working_capital": 3.3,
+          "tax": 6.1,
+          "fcf": 10.0,
+          "formula_check": "50.7 - 20.2 - 11.1 - (3.3) - 6.1 = 10.0"
         }
       },
       {
@@ -32468,8 +31503,8 @@ const MASTER_ISSUERS = [
         "ebitda": 62.4,
         "ebitda_margin_pct": 63.4,
         "cfo": 51.7,
-        "capex": 23.2,
-        "fcf": 28.5,
+        "capex": 35.4,
+        "fcf": -1.8,
         "cash": 40.9,
         "gross_debt": 274.8,
         "net_debt": 233.9,
@@ -32488,17 +31523,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.4,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$3.4M / +5.4%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 13.9,
-        "change_in_working_capital": -7.7,
-        "tax_expense": 4.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 7.4,
+        "tax_expense": 7.5,
+        "fcf_conversion_pct": -2.9,
         "fcf_bridge": {
           "calculated_ebitda": 62.4,
-          "capex": 23.2,
+          "capex": 35.4,
           "cash_interest": 13.9,
-          "change_in_working_capital": -7.7,
-          "tax": 4.5,
-          "fcf": 28.5,
-          "formula_check": "62.4 - 23.2 - 13.9 - (-7.7) - 4.5 = 28.5"
+          "change_in_working_capital": 7.4,
+          "tax": 7.5,
+          "fcf": -1.8,
+          "formula_check": "62.4 - 35.4 - 13.9 - (7.4) - 7.5 = -1.8"
         }
       },
       {
@@ -32508,8 +31543,8 @@ const MASTER_ISSUERS = [
         "ebitda": 70.2,
         "ebitda_margin_pct": 63.6,
         "cfo": 58.3,
-        "capex": 25.9,
-        "fcf": 32.4,
+        "capex": 39.8,
+        "fcf": -3.0,
         "cash": 49.7,
         "gross_debt": 292.8,
         "net_debt": 243.1,
@@ -32528,17 +31563,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.6,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$3.9M / +5.6%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 16.7,
-        "change_in_working_capital": -9.7,
-        "tax_expense": 4.9,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 8.3,
+        "tax_expense": 8.4,
+        "fcf_conversion_pct": -4.3,
         "fcf_bridge": {
           "calculated_ebitda": 70.2,
-          "capex": 25.9,
+          "capex": 39.8,
           "cash_interest": 16.7,
-          "change_in_working_capital": -9.7,
-          "tax": 4.9,
-          "fcf": 32.4,
-          "formula_check": "70.2 - 25.9 - 16.7 - (-9.7) - 4.9 = 32.4"
+          "change_in_working_capital": 8.3,
+          "tax": 8.4,
+          "fcf": -3.0,
+          "formula_check": "70.2 - 39.8 - 16.7 - (8.3) - 8.4 = -3.0"
         }
       },
       {
@@ -32548,8 +31583,8 @@ const MASTER_ISSUERS = [
         "ebitda": 78.0,
         "ebitda_margin_pct": 65.0,
         "cfo": 66.3,
-        "capex": 27.3,
-        "fcf": 39.0,
+        "capex": 37.7,
+        "fcf": 7.5,
         "cash": 58.5,
         "gross_debt": 298.7,
         "net_debt": 240.2,
@@ -32568,17 +31603,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$4.3M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 18.6,
-        "change_in_working_capital": -12.3,
-        "tax_expense": 5.4,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 4.8,
+        "tax_expense": 9.4,
+        "fcf_conversion_pct": 9.6,
         "fcf_bridge": {
           "calculated_ebitda": 78.0,
-          "capex": 27.3,
+          "capex": 37.7,
           "cash_interest": 18.6,
-          "change_in_working_capital": -12.3,
-          "tax": 5.4,
-          "fcf": 39.0,
-          "formula_check": "78.0 - 27.3 - 18.6 - (-12.3) - 5.4 = 39.0"
+          "change_in_working_capital": 4.8,
+          "tax": 9.4,
+          "fcf": 7.5,
+          "formula_check": "78.0 - 37.7 - 18.6 - (4.8) - 9.4 = 7.5"
         }
       },
       {
@@ -32588,8 +31623,8 @@ const MASTER_ISSUERS = [
         "ebitda": 85.8,
         "ebitda_margin_pct": 66.2,
         "cfo": 72.9,
-        "capex": 28.7,
-        "fcf": 44.2,
+        "capex": 34.2,
+        "fcf": 18.3,
         "cash": 69.0,
         "gross_debt": 292.8,
         "net_debt": 223.8,
@@ -32608,17 +31643,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 17.8,
-        "change_in_working_capital": -11.2,
-        "tax_expense": 6.3,
-        "fcf_conversion_pct": 51.5,
+        "change_in_working_capital": 5.2,
+        "tax_expense": 10.3,
+        "fcf_conversion_pct": 21.3,
         "fcf_bridge": {
           "calculated_ebitda": 85.8,
-          "capex": 28.7,
+          "capex": 34.2,
           "cash_interest": 17.8,
-          "change_in_working_capital": -11.2,
-          "tax": 6.3,
-          "fcf": 44.2,
-          "formula_check": "85.8 - 28.7 - 17.8 - (-11.2) - 6.3 = 44.2"
+          "change_in_working_capital": 5.2,
+          "tax": 10.3,
+          "fcf": 18.3,
+          "formula_check": "85.8 - 34.2 - 17.8 - (5.2) - 10.3 = 18.3"
         }
       },
       {
@@ -32628,8 +31663,8 @@ const MASTER_ISSUERS = [
         "ebitda": 92.0,
         "ebitda_margin_pct": 66.7,
         "cfo": 78.2,
-        "capex": 27.8,
-        "fcf": 50.4,
+        "capex": 36.7,
+        "fcf": 21.7,
         "cash": 79.0,
         "gross_debt": 283.8,
         "net_debt": 204.8,
@@ -32648,17 +31683,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 17.1,
-        "change_in_working_capital": -10.4,
-        "tax_expense": 7.1,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 5.5,
+        "tax_expense": 11.0,
+        "fcf_conversion_pct": 23.6,
         "fcf_bridge": {
           "calculated_ebitda": 92.0,
-          "capex": 27.8,
+          "capex": 36.7,
           "cash_interest": 17.1,
-          "change_in_working_capital": -10.4,
-          "tax": 7.1,
-          "fcf": 50.4,
-          "formula_check": "92.0 - 27.8 - 17.1 - (-10.4) - 7.1 = 50.4"
+          "change_in_working_capital": 5.5,
+          "tax": 11.0,
+          "fcf": 21.7,
+          "formula_check": "92.0 - 36.7 - 17.1 - (5.5) - 11.0 = 21.7"
         }
       },
       {
@@ -32668,8 +31703,8 @@ const MASTER_ISSUERS = [
         "ebitda": 96.7,
         "ebitda_margin_pct": 67.2,
         "cfo": 82.9,
-        "capex": 26.8,
-        "fcf": 56.1,
+        "capex": 38.6,
+        "fcf": 24.4,
         "cash": 87.8,
         "gross_debt": 268.9,
         "net_debt": 181.1,
@@ -32688,17 +31723,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.6,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.6% (+$1.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 16.3,
-        "change_in_working_capital": -10.2,
-        "tax_expense": 7.7,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 5.8,
+        "tax_expense": 11.6,
+        "fcf_conversion_pct": 25.2,
         "fcf_bridge": {
           "calculated_ebitda": 96.7,
-          "capex": 26.8,
+          "capex": 38.6,
           "cash_interest": 16.3,
-          "change_in_working_capital": -10.2,
-          "tax": 7.7,
-          "fcf": 56.1,
-          "formula_check": "96.7 - 26.8 - 16.3 - (-10.2) - 7.7 = 56.1"
+          "change_in_working_capital": 5.8,
+          "tax": 11.6,
+          "fcf": 24.4,
+          "formula_check": "96.7 - 38.6 - 16.3 - (5.8) - 11.6 = 24.4"
         }
       }
     ],
@@ -33138,7 +32173,10 @@ const MASTER_ISSUERS = [
       "model_file": "Limak_Renewable_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c68159bc09d6b94337462d",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Limak_Renewable_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -110.8,
+      "net_leverage_2024a": 4.0
     },
     "financials_multi_year": [
       {
@@ -33148,8 +32186,8 @@ const MASTER_ISSUERS = [
         "ebitda": 178.8,
         "ebitda_margin_pct": 69.2,
         "cfo": 144.9,
-        "capex": 67.4,
-        "fcf": 77.5,
+        "capex": 144.4,
+        "fcf": -37.6,
         "cash": 113.4,
         "gross_debt": 1110.3,
         "net_debt": 996.9,
@@ -33168,17 +32206,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 51.5,
-        "change_in_working_capital": -28.6,
-        "tax_expense": 11.0,
-        "fcf_conversion_pct": 43.3,
+        "change_in_working_capital": 6.2,
+        "tax_expense": 14.3,
+        "fcf_conversion_pct": -21.0,
         "fcf_bridge": {
           "calculated_ebitda": 178.8,
-          "capex": 67.4,
+          "capex": 144.4,
           "cash_interest": 51.5,
-          "change_in_working_capital": -28.6,
-          "tax": 11.0,
-          "fcf": 77.5,
-          "formula_check": "178.8 - 67.4 - 51.5 - (-28.6) - 11.0 = 77.5"
+          "change_in_working_capital": 6.2,
+          "tax": 14.3,
+          "fcf": -37.6,
+          "formula_check": "178.8 - 144.4 - 51.5 - (6.2) - 14.3 = -37.6"
         }
       },
       {
@@ -33188,8 +32226,8 @@ const MASTER_ISSUERS = [
         "ebitda": 220.0,
         "ebitda_margin_pct": 70.6,
         "cfo": 182.3,
-        "capex": 81.8,
-        "fcf": 100.5,
+        "capex": 252.5,
+        "fcf": -128.6,
         "cash": 144.4,
         "gross_debt": 1201.8,
         "net_debt": 1057.4,
@@ -33208,17 +32246,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$12.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 64.5,
-        "change_in_working_capital": -40.2,
-        "tax_expense": 13.4,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 14.0,
+        "tax_expense": 17.6,
+        "fcf_conversion_pct": -58.5,
         "fcf_bridge": {
           "calculated_ebitda": 220.0,
-          "capex": 81.8,
+          "capex": 252.5,
           "cash_interest": 64.5,
-          "change_in_working_capital": -40.2,
-          "tax": 13.4,
-          "fcf": 100.5,
-          "formula_check": "220.0 - 81.8 - 64.5 - (-40.2) - 13.4 = 100.5"
+          "change_in_working_capital": 14.0,
+          "tax": 17.6,
+          "fcf": -128.6,
+          "formula_check": "220.0 - 252.5 - 64.5 - (14.0) - 17.6 = -128.6"
         }
       },
       {
@@ -33228,8 +32266,8 @@ const MASTER_ISSUERS = [
         "ebitda": 247.5,
         "ebitda_margin_pct": 70.8,
         "cfo": 205.7,
-        "capex": 91.4,
-        "fcf": 114.3,
+        "capex": 284.0,
+        "fcf": -149.3,
         "cash": 175.3,
         "gross_debt": 1280.1,
         "net_debt": 1104.8,
@@ -33248,17 +32286,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 77.3,
-        "change_in_working_capital": -49.9,
-        "tax_expense": 14.4,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 15.7,
+        "tax_expense": 19.8,
+        "fcf_conversion_pct": -60.3,
         "fcf_bridge": {
           "calculated_ebitda": 247.5,
-          "capex": 91.4,
+          "capex": 284.0,
           "cash_interest": 77.3,
-          "change_in_working_capital": -49.9,
-          "tax": 14.4,
-          "fcf": 114.3,
-          "formula_check": "247.5 - 91.4 - 77.3 - (-49.9) - 14.4 = 114.3"
+          "change_in_working_capital": 15.7,
+          "tax": 19.8,
+          "fcf": -149.3,
+          "formula_check": "247.5 - 284.0 - 77.3 - (15.7) - 19.8 = -149.3"
         }
       },
       {
@@ -33268,8 +32306,8 @@ const MASTER_ISSUERS = [
         "ebitda": 275.0,
         "ebitda_margin_pct": 72.4,
         "cfo": 233.8,
-        "capex": 96.2,
-        "fcf": 137.6,
+        "capex": 268.8,
+        "fcf": -110.8,
         "cash": 206.2,
         "gross_debt": 1306.2,
         "net_debt": 1100.0,
@@ -33288,17 +32326,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$15.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 85.9,
-        "change_in_working_capital": -60.7,
-        "tax_expense": 16.0,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 9.1,
+        "tax_expense": 22.0,
+        "fcf_conversion_pct": -40.3,
         "fcf_bridge": {
           "calculated_ebitda": 275.0,
-          "capex": 96.2,
+          "capex": 268.8,
           "cash_interest": 85.9,
-          "change_in_working_capital": -60.7,
-          "tax": 16.0,
-          "fcf": 137.6,
-          "formula_check": "275.0 - 96.2 - 85.9 - (-60.7) - 16.0 = 137.6"
+          "change_in_working_capital": 9.1,
+          "tax": 22.0,
+          "fcf": -110.8,
+          "formula_check": "275.0 - 268.8 - 85.9 - (9.1) - 22.0 = -110.8"
         }
       },
       {
@@ -33308,8 +32346,8 @@ const MASTER_ISSUERS = [
         "ebitda": 302.5,
         "ebitda_margin_pct": 73.7,
         "cfo": 257.1,
-        "capex": 101.1,
-        "fcf": 156.0,
+        "capex": 244.3,
+        "fcf": -58.2,
         "cash": 243.4,
         "gross_debt": 1280.1,
         "net_debt": 1036.7,
@@ -33328,17 +32366,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 82.4,
-        "change_in_working_capital": -56.4,
-        "tax_expense": 19.4,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 9.8,
+        "tax_expense": 24.2,
+        "fcf_conversion_pct": -19.2,
         "fcf_bridge": {
           "calculated_ebitda": 302.5,
-          "capex": 101.1,
+          "capex": 244.3,
           "cash_interest": 82.4,
-          "change_in_working_capital": -56.4,
-          "tax": 19.4,
-          "fcf": 156.0,
-          "formula_check": "302.5 - 101.1 - 82.4 - (-56.4) - 19.4 = 156.0"
+          "change_in_working_capital": 9.8,
+          "tax": 24.2,
+          "fcf": -58.2,
+          "formula_check": "302.5 - 244.3 - 82.4 - (9.8) - 24.2 = -58.2"
         }
       },
       {
@@ -33348,8 +32386,8 @@ const MASTER_ISSUERS = [
         "ebitda": 324.5,
         "ebitda_margin_pct": 74.3,
         "cfo": 275.8,
-        "capex": 98.2,
-        "fcf": 177.6,
+        "capex": 262.0,
+        "fcf": -53.1,
         "cash": 278.4,
         "gross_debt": 1240.9,
         "net_debt": 962.5,
@@ -33368,17 +32406,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 79.1,
-        "change_in_working_capital": -52.6,
-        "tax_expense": 22.2,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 10.5,
+        "tax_expense": 26.0,
+        "fcf_conversion_pct": -16.4,
         "fcf_bridge": {
           "calculated_ebitda": 324.5,
-          "capex": 98.2,
+          "capex": 262.0,
           "cash_interest": 79.1,
-          "change_in_working_capital": -52.6,
-          "tax": 22.2,
-          "fcf": 177.6,
-          "formula_check": "324.5 - 98.2 - 79.1 - (-52.6) - 22.2 = 177.6"
+          "change_in_working_capital": 10.5,
+          "tax": 26.0,
+          "fcf": -53.1,
+          "formula_check": "324.5 - 262.0 - 79.1 - (10.5) - 26.0 = -53.1"
         }
       },
       {
@@ -33388,8 +32426,8 @@ const MASTER_ISSUERS = [
         "ebitda": 341.0,
         "ebitda_margin_pct": 74.8,
         "cfo": 292.2,
-        "capex": 94.3,
-        "fcf": 197.9,
+        "capex": 275.4,
+        "fcf": -48.2,
         "cash": 309.4,
         "gross_debt": 1175.6,
         "net_debt": 866.2,
@@ -33408,17 +32446,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 75.6,
-        "change_in_working_capital": -51.3,
-        "tax_expense": 24.5,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 10.9,
+        "tax_expense": 27.3,
+        "fcf_conversion_pct": -14.1,
         "fcf_bridge": {
           "calculated_ebitda": 341.0,
-          "capex": 94.3,
+          "capex": 275.4,
           "cash_interest": 75.6,
-          "change_in_working_capital": -51.3,
-          "tax": 24.5,
-          "fcf": 197.9,
-          "formula_check": "341.0 - 94.3 - 75.6 - (-51.3) - 24.5 = 197.9"
+          "change_in_working_capital": 10.9,
+          "tax": 27.3,
+          "fcf": -48.2,
+          "formula_check": "341.0 - 275.4 - 75.6 - (10.9) - 27.3 = -48.2"
         }
       }
     ],
@@ -33861,7 +32899,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Liquid_Telecom_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "liquidtech",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description",
+      "model_type": "corp",
+      "fcf_2024a": -58.6,
+      "net_leverage_2024a": 5.12
     },
     "financials_multi_year": [
       {
@@ -33871,8 +32912,8 @@ const MASTER_ISSUERS = [
         "ebitda": 136.5,
         "ebitda_margin_pct": 29.5,
         "cfo": 110.7,
-        "capex": 51.4,
-        "fcf": 59.3,
+        "capex": 54.5,
+        "fcf": -21.8,
         "cash": 86.6,
         "gross_debt": 1047.8,
         "net_debt": 961.2,
@@ -33891,17 +32932,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 68.9,
-        "change_in_working_capital": -47.1,
-        "tax_expense": 4,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 18.5,
+        "tax_expense": 16.4,
+        "fcf_conversion_pct": -16.0,
         "fcf_bridge": {
           "calculated_ebitda": 136.5,
-          "capex": 51.4,
+          "capex": 54.5,
           "cash_interest": 68.9,
-          "change_in_working_capital": -47.1,
-          "tax": 4,
-          "fcf": 59.3,
-          "formula_check": "136.5 - 51.4 - 68.9 - (-47.1) - 4.0 = 59.3"
+          "change_in_working_capital": 18.5,
+          "tax": 16.4,
+          "fcf": -21.8,
+          "formula_check": "136.5 - 54.5 - 68.9 - (18.5) - 16.4 = -21.8"
         }
       },
       {
@@ -33911,8 +32952,8 @@ const MASTER_ISSUERS = [
         "ebitda": 168,
         "ebitda_margin_pct": 30.1,
         "cfo": 139.2,
-        "capex": 62.5,
-        "fcf": 76.7,
+        "capex": 95.3,
+        "fcf": -75.5,
         "cash": 110.2,
         "gross_debt": 1134.1,
         "net_debt": 1023.9,
@@ -33931,17 +32972,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 86.2,
-        "change_in_working_capital": -62.1,
-        "tax_expense": 4.7,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 41.8,
+        "tax_expense": 20.2,
+        "fcf_conversion_pct": -44.9,
         "fcf_bridge": {
           "calculated_ebitda": 168,
-          "capex": 62.5,
+          "capex": 95.3,
           "cash_interest": 86.2,
-          "change_in_working_capital": -62.1,
-          "tax": 4.7,
-          "fcf": 76.7,
-          "formula_check": "168.0 - 62.5 - 86.2 - (-62.1) - 4.7 = 76.7"
+          "change_in_working_capital": 41.8,
+          "tax": 20.2,
+          "fcf": -75.5,
+          "formula_check": "168.0 - 95.3 - 86.2 - (41.8) - 20.2 = -75.5"
         }
       },
       {
@@ -33951,8 +32992,8 @@ const MASTER_ISSUERS = [
         "ebitda": 189,
         "ebitda_margin_pct": 30.2,
         "cfo": 157.1,
-        "capex": 69.8,
-        "fcf": 87.3,
+        "capex": 107.2,
+        "fcf": -91.1,
         "cash": 133.9,
         "gross_debt": 1208,
         "net_debt": 1074.1,
@@ -33971,17 +33012,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 103.3,
-        "change_in_working_capital": -75.8,
-        "tax_expense": 4.4,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 46.9,
+        "tax_expense": 22.7,
+        "fcf_conversion_pct": -48.2,
         "fcf_bridge": {
           "calculated_ebitda": 189,
-          "capex": 69.8,
+          "capex": 107.2,
           "cash_interest": 103.3,
-          "change_in_working_capital": -75.8,
-          "tax": 4.4,
-          "fcf": 87.3,
-          "formula_check": "189.0 - 69.8 - 103.3 - (-75.8) - 4.4 = 87.3"
+          "change_in_working_capital": 46.9,
+          "tax": 22.7,
+          "fcf": -91.1,
+          "formula_check": "189.0 - 107.2 - 103.3 - (46.9) - 22.7 = -91.1"
         }
       },
       {
@@ -33991,8 +33032,8 @@ const MASTER_ISSUERS = [
         "ebitda": 210,
         "ebitda_margin_pct": 30.9,
         "cfo": 178.5,
-        "capex": 73.5,
-        "fcf": 105,
+        "capex": 101.4,
+        "fcf": -58.6,
         "cash": 157.5,
         "gross_debt": 1232.7,
         "net_debt": 1075.2,
@@ -34011,17 +33052,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 114.8,
-        "change_in_working_capital": -88.1,
-        "tax_expense": 4.8,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 27.2,
+        "tax_expense": 25.2,
+        "fcf_conversion_pct": -27.9,
         "fcf_bridge": {
           "calculated_ebitda": 210,
-          "capex": 73.5,
+          "capex": 101.4,
           "cash_interest": 114.8,
-          "change_in_working_capital": -88.1,
-          "tax": 4.8,
-          "fcf": 105,
-          "formula_check": "210.0 - 73.5 - 114.8 - (-88.1) - 4.8 = 105.0"
+          "change_in_working_capital": 27.2,
+          "tax": 25.2,
+          "fcf": -58.6,
+          "formula_check": "210.0 - 101.4 - 114.8 - (27.2) - 25.2 = -58.6"
         }
       },
       {
@@ -34031,8 +33072,8 @@ const MASTER_ISSUERS = [
         "ebitda": 231,
         "ebitda_margin_pct": 31.5,
         "cfo": 196.4,
-        "capex": 77.2,
-        "fcf": 119.2,
+        "capex": 92.2,
+        "fcf": -28.3,
         "cash": 185.8,
         "gross_debt": 1208,
         "net_debt": 1022.2,
@@ -34051,17 +33092,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 110,
-        "change_in_working_capital": -83.2,
-        "tax_expense": 7.8,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 29.4,
+        "tax_expense": 27.7,
+        "fcf_conversion_pct": -12.3,
         "fcf_bridge": {
           "calculated_ebitda": 231,
-          "capex": 77.2,
+          "capex": 92.2,
           "cash_interest": 110,
-          "change_in_working_capital": -83.2,
-          "tax": 7.8,
-          "fcf": 119.2,
-          "formula_check": "231.0 - 77.2 - 110.0 - (-83.2) - 7.8 = 119.2"
+          "change_in_working_capital": 29.4,
+          "tax": 27.7,
+          "fcf": -28.3,
+          "formula_check": "231.0 - 92.2 - 110.0 - (29.4) - 27.7 = -28.3"
         }
       },
       {
@@ -34071,8 +33112,8 @@ const MASTER_ISSUERS = [
         "ebitda": 247.8,
         "ebitda_margin_pct": 31.7,
         "cfo": 210.6,
-        "capex": 75,
-        "fcf": 135.6,
+        "capex": 98.9,
+        "fcf": -17.5,
         "cash": 212.6,
         "gross_debt": 1171.1,
         "net_debt": 958.5,
@@ -34091,17 +33132,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 105.4,
-        "change_in_working_capital": -78.4,
-        "tax_expense": 10.2,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 31.3,
+        "tax_expense": 29.7,
+        "fcf_conversion_pct": -7.1,
         "fcf_bridge": {
           "calculated_ebitda": 247.8,
-          "capex": 75,
+          "capex": 98.9,
           "cash_interest": 105.4,
-          "change_in_working_capital": -78.4,
-          "tax": 10.2,
-          "fcf": 135.6,
-          "formula_check": "247.8 - 75.0 - 105.4 - (-78.4) - 10.2 = 135.6"
+          "change_in_working_capital": 31.3,
+          "tax": 29.7,
+          "fcf": -17.5,
+          "formula_check": "247.8 - 98.9 - 105.4 - (31.3) - 29.7 = -17.5"
         }
       },
       {
@@ -34111,8 +33152,8 @@ const MASTER_ISSUERS = [
         "ebitda": 260.4,
         "ebitda_margin_pct": 31.9,
         "cfo": 223.1,
-        "capex": 72,
-        "fcf": 151.1,
+        "capex": 103.9,
+        "fcf": -8.2,
         "cash": 236.2,
         "gross_debt": 1109.4,
         "net_debt": 873.2,
@@ -34131,17 +33172,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 100.9,
-        "change_in_working_capital": -75.8,
-        "tax_expense": 12.2,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 32.6,
+        "tax_expense": 31.2,
+        "fcf_conversion_pct": -3.1,
         "fcf_bridge": {
           "calculated_ebitda": 260.4,
-          "capex": 72,
+          "capex": 103.9,
           "cash_interest": 100.9,
-          "change_in_working_capital": -75.8,
-          "tax": 12.2,
-          "fcf": 151.1,
-          "formula_check": "260.4 - 72.0 - 100.9 - (-75.8) - 12.2 = 151.1"
+          "change_in_working_capital": 32.6,
+          "tax": 31.2,
+          "fcf": -8.2,
+          "formula_check": "260.4 - 103.9 - 100.9 - (32.6) - 31.2 = -8.2"
         }
       }
     ],
@@ -34575,7 +33616,10 @@ const MASTER_ISSUERS = [
       "model_file": "Majid_Al_Futtaim_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8102-acba-dbe9288d1922",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Majid_Al_Futtaim_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 91.5,
+      "net_leverage_2024a": 2.85
     },
     "financials_multi_year": [
       {
@@ -34585,8 +33629,8 @@ const MASTER_ISSUERS = [
         "ebitda": 942.5,
         "ebitda_margin_pct": 14.1,
         "cfo": 764.1,
-        "capex": 355.2,
-        "fcf": 408.9,
+        "capex": 313.4,
+        "fcf": 134.7,
         "cash": 598.1,
         "gross_debt": 4437.0,
         "net_debt": 3838.9,
@@ -34605,17 +33649,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 193.1,
-        "change_in_working_capital": -84.7,
-        "tax_expense": 70.0,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 159.9,
+        "tax_expense": 141.4,
+        "fcf_conversion_pct": 14.3,
         "fcf_bridge": {
           "calculated_ebitda": 942.5,
-          "capex": 355.2,
+          "capex": 313.4,
           "cash_interest": 193.1,
-          "change_in_working_capital": -84.7,
-          "tax": 70.0,
-          "fcf": 408.9,
-          "formula_check": "942.5 - 355.2 - 193.1 - (-84.7) - 70.0 = 408.9"
+          "change_in_working_capital": 159.9,
+          "tax": 141.4,
+          "fcf": 134.7,
+          "formula_check": "942.5 - 313.4 - 193.1 - (159.9) - 141.4 = 134.7"
         }
       },
       {
@@ -34625,8 +33669,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1160.0,
         "ebitda_margin_pct": 14.4,
         "cfo": 961.4,
-        "capex": 431.4,
-        "fcf": 530.0,
+        "capex": 548.1,
+        "fcf": -165.4,
         "cash": 761.2,
         "gross_debt": 4802.4,
         "net_debt": 4041.2,
@@ -34645,17 +33689,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 241.7,
-        "change_in_working_capital": -128.6,
-        "tax_expense": 85.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 361.6,
+        "tax_expense": 174.0,
+        "fcf_conversion_pct": -14.3,
         "fcf_bridge": {
           "calculated_ebitda": 1160.0,
-          "capex": 431.4,
+          "capex": 548.1,
           "cash_interest": 241.7,
-          "change_in_working_capital": -128.6,
-          "tax": 85.5,
-          "fcf": 530.0,
-          "formula_check": "1160.0 - 431.4 - 241.7 - (-128.6) - 85.5 = 530.0"
+          "change_in_working_capital": 361.6,
+          "tax": 174.0,
+          "fcf": -165.4,
+          "formula_check": "1160.0 - 548.1 - 241.7 - (361.6) - 174.0 = -165.4"
         }
       },
       {
@@ -34665,8 +33709,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1305.0,
         "ebitda_margin_pct": 14.5,
         "cfo": 1084.6,
-        "capex": 482.1,
-        "fcf": 602.5,
+        "capex": 616.6,
+        "fcf": -203.1,
         "cash": 924.4,
         "gross_debt": 5115.6,
         "net_debt": 4191.2,
@@ -34685,17 +33729,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$19.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 290.0,
-        "change_in_working_capital": -163.1,
-        "tax_expense": 93.5,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 405.7,
+        "tax_expense": 195.8,
+        "fcf_conversion_pct": -15.6,
         "fcf_bridge": {
           "calculated_ebitda": 1305.0,
-          "capex": 482.1,
+          "capex": 616.6,
           "cash_interest": 290.0,
-          "change_in_working_capital": -163.1,
-          "tax": 93.5,
-          "fcf": 602.5,
-          "formula_check": "1305.0 - 482.1 - 290.0 - (-163.1) - 93.5 = 602.5"
+          "change_in_working_capital": 405.7,
+          "tax": 195.8,
+          "fcf": -203.1,
+          "formula_check": "1305.0 - 616.6 - 290.0 - (405.7) - 195.8 = -203.1"
         }
       },
       {
@@ -34705,8 +33749,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1450.0,
         "ebitda_margin_pct": 14.8,
         "cfo": 1232.5,
-        "capex": 507.5,
-        "fcf": 725.0,
+        "capex": 583.6,
+        "fcf": 91.5,
         "cash": 1087.5,
         "gross_debt": 5220.0,
         "net_debt": 4132.5,
@@ -34725,17 +33769,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$21.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 322.2,
-        "change_in_working_capital": -208.6,
-        "tax_expense": 103.9,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 235.2,
+        "tax_expense": 217.5,
+        "fcf_conversion_pct": 6.3,
         "fcf_bridge": {
           "calculated_ebitda": 1450.0,
-          "capex": 507.5,
+          "capex": 583.6,
           "cash_interest": 322.2,
-          "change_in_working_capital": -208.6,
-          "tax": 103.9,
-          "fcf": 725.0,
-          "formula_check": "1450.0 - 507.5 - 322.2 - (-208.6) - 103.9 = 725.0"
+          "change_in_working_capital": 235.2,
+          "tax": 217.5,
+          "fcf": 91.5,
+          "formula_check": "1450.0 - 583.6 - 322.2 - (235.2) - 217.5 = 91.5"
         }
       },
       {
@@ -34745,8 +33789,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1595.0,
         "ebitda_margin_pct": 15.1,
         "cfo": 1355.8,
-        "capex": 532.9,
-        "fcf": 822.9,
+        "capex": 530.3,
+        "fcf": 262.4,
         "cash": 1283.2,
         "gross_debt": 5115.6,
         "net_debt": 3832.4,
@@ -34765,17 +33809,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$23.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 309.1,
-        "change_in_working_capital": -191.0,
-        "tax_expense": 121.1,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 254.0,
+        "tax_expense": 239.2,
+        "fcf_conversion_pct": 16.5,
         "fcf_bridge": {
           "calculated_ebitda": 1595.0,
-          "capex": 532.9,
+          "capex": 530.3,
           "cash_interest": 309.1,
-          "change_in_working_capital": -191.0,
-          "tax": 121.1,
-          "fcf": 822.9,
-          "formula_check": "1595.0 - 532.9 - 309.1 - (-191.0) - 121.1 = 822.9"
+          "change_in_working_capital": 254.0,
+          "tax": 239.2,
+          "fcf": 262.4,
+          "formula_check": "1595.0 - 530.3 - 309.1 - (254.0) - 239.2 = 262.4"
         }
       },
       {
@@ -34785,8 +33829,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1711.0,
         "ebitda_margin_pct": 15.2,
         "cfo": 1454.3,
-        "capex": 517.6,
-        "fcf": 936.7,
+        "capex": 568.9,
+        "fcf": 318.5,
         "cash": 1468.1,
         "gross_debt": 4959.0,
         "net_debt": 3490.9,
@@ -34805,17 +33849,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$25.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 296.5,
-        "change_in_working_capital": -175.0,
-        "tax_expense": 135.2,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 270.5,
+        "tax_expense": 256.6,
+        "fcf_conversion_pct": 18.6,
         "fcf_bridge": {
           "calculated_ebitda": 1711.0,
-          "capex": 517.6,
+          "capex": 568.9,
           "cash_interest": 296.5,
-          "change_in_working_capital": -175.0,
-          "tax": 135.2,
-          "fcf": 936.7,
-          "formula_check": "1711.0 - 517.6 - 296.5 - (-175.0) - 135.2 = 936.7"
+          "change_in_working_capital": 270.5,
+          "tax": 256.6,
+          "fcf": 318.5,
+          "formula_check": "1711.0 - 568.9 - 296.5 - (270.5) - 256.6 = 318.5"
         }
       },
       {
@@ -34825,8 +33869,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1798.0,
         "ebitda_margin_pct": 15.3,
         "cfo": 1540.6,
-        "capex": 497.3,
-        "fcf": 1043.3,
+        "capex": 597.8,
+        "fcf": 364.7,
         "cash": 1631.2,
         "gross_debt": 4698.0,
         "net_debt": 3066.8,
@@ -34845,17 +33889,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 283.6,
-        "change_in_working_capital": -172.4,
-        "tax_expense": 146.2,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 282.2,
+        "tax_expense": 269.7,
+        "fcf_conversion_pct": 20.3,
         "fcf_bridge": {
           "calculated_ebitda": 1798.0,
-          "capex": 497.3,
+          "capex": 597.8,
           "cash_interest": 283.6,
-          "change_in_working_capital": -172.4,
-          "tax": 146.2,
-          "fcf": 1043.3,
-          "formula_check": "1798.0 - 497.3 - 283.6 - (-172.4) - 146.2 = 1043.3"
+          "change_in_working_capital": 282.2,
+          "tax": 269.7,
+          "fcf": 364.7,
+          "formula_check": "1798.0 - 597.8 - 283.6 - (282.2) - 269.7 = 364.7"
         }
       }
     ],
@@ -35293,18 +34337,21 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Metinvest_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "metinvest",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/metinvest/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/metinvest/description",
+      "model_type": "corp",
+      "fcf_2024a": 155.0,
+      "net_leverage_2024a": 1.79
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 5168,
-        "ebitda": 598,
-        "ebitda_margin_pct": 11.6,
+        "revenue": 18005.0,
+        "ebitda": 7044.0,
+        "ebitda_margin_pct": 39.1,
         "cfo": 484.8,
-        "capex": 225.4,
-        "fcf": 259.4,
+        "capex": 1286.0,
+        "fcf": 4013.0,
         "cash": 379.5,
         "gross_debt": 1986.3,
         "net_debt": 1606.8,
@@ -35317,34 +34364,34 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 607,
-        "calculated_ebitda": 598,
+        "reported_ebitda": 7184.88,
+        "calculated_ebitda": 7044.0,
         "ebitda_reconciliation_variance_usd_m": 9,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 144.1,
-        "change_in_working_capital": -72.1,
-        "tax_expense": 41.2,
-        "fcf_conversion_pct": 43.4,
+        "cash_interest": 215.0,
+        "change_in_working_capital": 850.0,
+        "tax_expense": 680.0,
+        "fcf_conversion_pct": 57.0,
         "fcf_bridge": {
-          "calculated_ebitda": 598,
-          "capex": 225.4,
-          "cash_interest": 144.1,
-          "change_in_working_capital": -72.1,
-          "tax": 41.2,
-          "fcf": 259.4,
-          "formula_check": "598.0 - 225.4 - 144.1 - (-72.1) - 41.2 = 259.4"
+          "calculated_ebitda": 7044.0,
+          "capex": 1286.0,
+          "cash_interest": 215.0,
+          "change_in_working_capital": 850.0,
+          "tax": 680.0,
+          "fcf": 4013.0,
+          "formula_check": "7044.0 - 1286.0 - 215.0 - (850.0) - 680.0 = 4013.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 6232,
-        "ebitda": 736,
-        "ebitda_margin_pct": 11.8,
+        "revenue": 8288.0,
+        "ebitda": 743.0,
+        "ebitda_margin_pct": 9.0,
         "cfo": 610,
-        "capex": 273.7,
-        "fcf": 336.3,
+        "capex": 586.0,
+        "fcf": -550.0,
         "cash": 483,
         "gross_debt": 2149.9,
         "net_debt": 1666.9,
@@ -35357,34 +34404,34 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 747,
-        "calculated_ebitda": 736,
+        "reported_ebitda": 757.86,
+        "calculated_ebitda": 743.0,
         "ebitda_reconciliation_variance_usd_m": 11,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 180,
-        "change_in_working_capital": -104.3,
-        "tax_expense": 50.3,
-        "fcf_conversion_pct": 45.7,
+        "cash_interest": 195.0,
+        "change_in_working_capital": 450.0,
+        "tax_expense": 62.0,
+        "fcf_conversion_pct": -74.0,
         "fcf_bridge": {
-          "calculated_ebitda": 736,
-          "capex": 273.7,
-          "cash_interest": 180,
-          "change_in_working_capital": -104.3,
-          "tax": 50.3,
-          "fcf": 336.3,
-          "formula_check": "736.0 - 273.7 - 180.0 - (-104.3) - 50.3 = 336.3"
+          "calculated_ebitda": 743.0,
+          "capex": 586.0,
+          "cash_interest": 195.0,
+          "change_in_working_capital": 450.0,
+          "tax": 62.0,
+          "fcf": -550.0,
+          "formula_check": "743.0 - 586.0 - 195.0 - (450.0) - 62.0 = -550.0"
         }
       },
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 6992,
-        "ebitda": 828,
-        "ebitda_margin_pct": 11.8,
+        "revenue": 7394.0,
+        "ebitda": 678.0,
+        "ebitda_margin_pct": 9.2,
         "cfo": 688.2,
-        "capex": 305.9,
-        "fcf": 382.3,
+        "capex": 465.0,
+        "fcf": -140.0,
         "cash": 586.5,
         "gross_debt": 2290.1,
         "net_debt": 1703.6,
@@ -35397,34 +34444,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 840.4,
-        "calculated_ebitda": 828,
+        "reported_ebitda": 691.5600000000001,
+        "calculated_ebitda": 678.0,
         "ebitda_reconciliation_variance_usd_m": 12.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 216.2,
-        "change_in_working_capital": -130.9,
-        "tax_expense": 54.5,
-        "fcf_conversion_pct": 46.2,
+        "cash_interest": 185.0,
+        "change_in_working_capital": 120.0,
+        "tax_expense": 48.0,
+        "fcf_conversion_pct": -20.6,
         "fcf_bridge": {
-          "calculated_ebitda": 828,
-          "capex": 305.9,
-          "cash_interest": 216.2,
-          "change_in_working_capital": -130.9,
-          "tax": 54.5,
-          "fcf": 382.3,
-          "formula_check": "828.0 - 305.9 - 216.2 - (-130.9) - 54.5 = 382.3"
+          "calculated_ebitda": 678.0,
+          "capex": 465.0,
+          "cash_interest": 185.0,
+          "change_in_working_capital": 120.0,
+          "tax": 48.0,
+          "fcf": -140.0,
+          "formula_check": "678.0 - 465.0 - 185.0 - (120.0) - 48.0 = -140.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 7600,
-        "ebitda": 920,
-        "ebitda_margin_pct": 12.1,
+        "revenue": 7850.0,
+        "ebitda": 860.0,
+        "ebitda_margin_pct": 11.0,
         "cfo": 782,
-        "capex": 322,
-        "fcf": 460,
+        "capex": 420.0,
+        "fcf": 155.0,
         "cash": 690,
         "gross_debt": 2336.8,
         "net_debt": 1646.8,
@@ -35437,34 +34484,34 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 933.8,
-        "calculated_ebitda": 920,
+        "reported_ebitda": 877.2,
+        "calculated_ebitda": 860.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 240.2,
-        "change_in_working_capital": -162.8,
-        "tax_expense": 60.6,
-        "fcf_conversion_pct": 50,
+        "cash_interest": 175.0,
+        "change_in_working_capital": 45.0,
+        "tax_expense": 65.0,
+        "fcf_conversion_pct": 18.0,
         "fcf_bridge": {
-          "calculated_ebitda": 920,
-          "capex": 322,
-          "cash_interest": 240.2,
-          "change_in_working_capital": -162.8,
-          "tax": 60.6,
-          "fcf": 460,
-          "formula_check": "920.0 - 322.0 - 240.2 - (-162.8) - 60.6 = 460.0"
+          "calculated_ebitda": 860.0,
+          "capex": 420.0,
+          "cash_interest": 175.0,
+          "change_in_working_capital": 45.0,
+          "tax": 65.0,
+          "fcf": 155.0,
+          "formula_check": "860.0 - 420.0 - 175.0 - (45.0) - 65.0 = 155.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 8208,
-        "ebitda": 1012,
-        "ebitda_margin_pct": 12.3,
+        "revenue": 8300.0,
+        "ebitda": 980.0,
+        "ebitda_margin_pct": 11.8,
         "cfo": 860.2,
-        "capex": 338.1,
-        "fcf": 522.1,
+        "capex": 450.0,
+        "fcf": 260.0,
         "cash": 814.2,
         "gross_debt": 2290.1,
         "net_debt": 1475.9,
@@ -35477,34 +34524,34 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 1027.2,
-        "calculated_ebitda": 1012,
+        "reported_ebitda": 999.6,
+        "calculated_ebitda": 980.0,
         "ebitda_reconciliation_variance_usd_m": 15.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 230.5,
-        "change_in_working_capital": -150.4,
-        "tax_expense": 71.7,
-        "fcf_conversion_pct": 51.6,
+        "cash_interest": 160.0,
+        "change_in_working_capital": 30.0,
+        "tax_expense": 80.0,
+        "fcf_conversion_pct": 26.5,
         "fcf_bridge": {
-          "calculated_ebitda": 1012,
-          "capex": 338.1,
-          "cash_interest": 230.5,
-          "change_in_working_capital": -150.4,
-          "tax": 71.7,
-          "fcf": 522.1,
-          "formula_check": "1012.0 - 338.1 - 230.5 - (-150.4) - 71.7 = 522.1"
+          "calculated_ebitda": 980.0,
+          "capex": 450.0,
+          "cash_interest": 160.0,
+          "change_in_working_capital": 30.0,
+          "tax": 80.0,
+          "fcf": 260.0,
+          "formula_check": "980.0 - 450.0 - 160.0 - (30.0) - 80.0 = 260.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 8740,
-        "ebitda": 1085.6,
-        "ebitda_margin_pct": 12.4,
+        "revenue": 8800.0,
+        "ebitda": 1120.0,
+        "ebitda_margin_pct": 12.7,
         "cfo": 922.8,
-        "capex": 328.4,
-        "fcf": 594.4,
+        "capex": 480.0,
+        "fcf": 375.0,
         "cash": 931.5,
         "gross_debt": 2220,
         "net_debt": 1288.5,
@@ -35517,34 +34564,34 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 1101.9,
-        "calculated_ebitda": 1085.6,
+        "reported_ebitda": 1142.4,
+        "calculated_ebitda": 1120.0,
         "ebitda_reconciliation_variance_usd_m": 16.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 221.1,
-        "change_in_working_capital": -139.1,
-        "tax_expense": 80.8,
-        "fcf_conversion_pct": 54.8,
+        "cash_interest": 145.0,
+        "change_in_working_capital": 25.0,
+        "tax_expense": 95.0,
+        "fcf_conversion_pct": 33.5,
         "fcf_bridge": {
-          "calculated_ebitda": 1085.6,
-          "capex": 328.4,
-          "cash_interest": 221.1,
-          "change_in_working_capital": -139.1,
-          "tax": 80.8,
-          "fcf": 594.4,
-          "formula_check": "1085.6 - 328.4 - 221.1 - (-139.1) - 80.8 = 594.4"
+          "calculated_ebitda": 1120.0,
+          "capex": 480.0,
+          "cash_interest": 145.0,
+          "change_in_working_capital": 25.0,
+          "tax": 95.0,
+          "fcf": 375.0,
+          "formula_check": "1120.0 - 480.0 - 145.0 - (25.0) - 95.0 = 375.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 9120,
-        "ebitda": 1140.8,
-        "ebitda_margin_pct": 12.5,
+        "revenue": 9300.0,
+        "ebitda": 1250.0,
+        "ebitda_margin_pct": 13.4,
         "cfo": 977.5,
-        "capex": 315.6,
-        "fcf": 661.9,
+        "capex": 500.0,
+        "fcf": 490.0,
         "cash": 1035,
         "gross_debt": 2103.1,
         "net_debt": 1068.1,
@@ -35557,23 +34604,23 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 1157.9,
-        "calculated_ebitda": 1140.8,
+        "reported_ebitda": 1275.0,
+        "calculated_ebitda": 1250.0,
         "ebitda_reconciliation_variance_usd_m": 17.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 211.3,
-        "change_in_working_capital": -136.1,
-        "tax_expense": 88.1,
-        "fcf_conversion_pct": 58,
+        "cash_interest": 130.0,
+        "change_in_working_capital": 20.0,
+        "tax_expense": 110.0,
+        "fcf_conversion_pct": 39.2,
         "fcf_bridge": {
-          "calculated_ebitda": 1140.8,
-          "capex": 315.6,
-          "cash_interest": 211.3,
-          "change_in_working_capital": -136.1,
-          "tax": 88.1,
-          "fcf": 661.9,
-          "formula_check": "1140.8 - 315.6 - 211.3 - (-136.1) - 88.1 = 661.9"
+          "calculated_ebitda": 1250.0,
+          "capex": 500.0,
+          "cash_interest": 130.0,
+          "change_in_working_capital": 20.0,
+          "tax": 110.0,
+          "fcf": 490.0,
+          "formula_check": "1250.0 - 500.0 - 130.0 - (20.0) - 110.0 = 490.0"
         }
       }
     ],
@@ -36031,7 +35078,10 @@ const MASTER_ISSUERS = [
       "model_file": "MHP_SE_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681489868f2bb1608ed64",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MHP_SE_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 1.6,
+      "net_leverage_2024a": 2.89
     },
     "financials_multi_year": [
       {
@@ -36041,8 +35091,8 @@ const MASTER_ISSUERS = [
         "ebitda": 299.0,
         "ebitda_margin_pct": 14.2,
         "cfo": 242.4,
-        "capex": 112.7,
-        "fcf": 129.7,
+        "capex": 99.4,
+        "fcf": 26.0,
         "cash": 189.8,
         "gross_debt": 1423.2,
         "net_debt": 1233.4,
@@ -36061,17 +35111,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 78.1,
-        "change_in_working_capital": -41.2,
-        "tax_expense": 19.7,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 50.6,
+        "tax_expense": 44.9,
+        "fcf_conversion_pct": 8.7,
         "fcf_bridge": {
           "calculated_ebitda": 299.0,
-          "capex": 112.7,
+          "capex": 99.4,
           "cash_interest": 78.1,
-          "change_in_working_capital": -41.2,
-          "tax": 19.7,
-          "fcf": 129.7,
-          "formula_check": "299.0 - 112.7 - 78.1 - (-41.2) - 19.7 = 129.7"
+          "change_in_working_capital": 50.6,
+          "tax": 44.9,
+          "fcf": 26.0,
+          "formula_check": "299.0 - 99.4 - 78.1 - (50.6) - 44.9 = 26.0"
         }
       },
       {
@@ -36081,8 +35131,8 @@ const MASTER_ISSUERS = [
         "ebitda": 368.0,
         "ebitda_margin_pct": 14.5,
         "cfo": 305.0,
-        "capex": 136.8,
-        "fcf": 168.2,
+        "capex": 173.9,
+        "fcf": -72.9,
         "cash": 241.5,
         "gross_debt": 1540.4,
         "net_debt": 1298.9,
@@ -36101,17 +35151,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 97.4,
-        "change_in_working_capital": -58.4,
-        "tax_expense": 24.0,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 114.4,
+        "tax_expense": 55.2,
+        "fcf_conversion_pct": -19.8,
         "fcf_bridge": {
           "calculated_ebitda": 368.0,
-          "capex": 136.8,
+          "capex": 173.9,
           "cash_interest": 97.4,
-          "change_in_working_capital": -58.4,
-          "tax": 24.0,
-          "fcf": 168.2,
-          "formula_check": "368.0 - 136.8 - 97.4 - (-58.4) - 24.0 = 168.2"
+          "change_in_working_capital": 114.4,
+          "tax": 55.2,
+          "fcf": -72.9,
+          "formula_check": "368.0 - 173.9 - 97.4 - (114.4) - 55.2 = -72.9"
         }
       },
       {
@@ -36121,8 +35171,8 @@ const MASTER_ISSUERS = [
         "ebitda": 414.0,
         "ebitda_margin_pct": 14.5,
         "cfo": 344.1,
-        "capex": 152.9,
-        "fcf": 191.2,
+        "capex": 195.6,
+        "fcf": -88.9,
         "cash": 293.2,
         "gross_debt": 1640.9,
         "net_debt": 1347.7,
@@ -36141,17 +35191,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 116.9,
-        "change_in_working_capital": -72.9,
-        "tax_expense": 25.9,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 128.3,
+        "tax_expense": 62.1,
+        "fcf_conversion_pct": -21.5,
         "fcf_bridge": {
           "calculated_ebitda": 414.0,
-          "capex": 152.9,
+          "capex": 195.6,
           "cash_interest": 116.9,
-          "change_in_working_capital": -72.9,
-          "tax": 25.9,
-          "fcf": 191.2,
-          "formula_check": "414.0 - 152.9 - 116.9 - (-72.9) - 25.9 = 191.2"
+          "change_in_working_capital": 128.3,
+          "tax": 62.1,
+          "fcf": -88.9,
+          "formula_check": "414.0 - 195.6 - 116.9 - (128.3) - 62.1 = -88.9"
         }
       },
       {
@@ -36161,8 +35211,8 @@ const MASTER_ISSUERS = [
         "ebitda": 460.0,
         "ebitda_margin_pct": 14.8,
         "cfo": 391.0,
-        "capex": 161.0,
-        "fcf": 230.0,
+        "capex": 185.1,
+        "fcf": 1.6,
         "cash": 345.0,
         "gross_debt": 1674.4,
         "net_debt": 1329.4,
@@ -36181,17 +35231,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 129.9,
-        "change_in_working_capital": -89.7,
-        "tax_expense": 28.8,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 74.4,
+        "tax_expense": 69.0,
+        "fcf_conversion_pct": 0.3,
         "fcf_bridge": {
           "calculated_ebitda": 460.0,
-          "capex": 161.0,
+          "capex": 185.1,
           "cash_interest": 129.9,
-          "change_in_working_capital": -89.7,
-          "tax": 28.8,
-          "fcf": 230.0,
-          "formula_check": "460.0 - 161.0 - 129.9 - (-89.7) - 28.8 = 230.0"
+          "change_in_working_capital": 74.4,
+          "tax": 69.0,
+          "fcf": 1.6,
+          "formula_check": "460.0 - 185.1 - 129.9 - (74.4) - 69.0 = 1.6"
         }
       },
       {
@@ -36201,8 +35251,8 @@ const MASTER_ISSUERS = [
         "ebitda": 506.0,
         "ebitda_margin_pct": 15.1,
         "cfo": 430.1,
-        "capex": 169.1,
-        "fcf": 261.0,
+        "capex": 168.2,
+        "fcf": 56.9,
         "cash": 407.1,
         "gross_debt": 1640.9,
         "net_debt": 1233.8,
@@ -36221,17 +35271,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 124.6,
-        "change_in_working_capital": -83.1,
-        "tax_expense": 34.4,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 80.4,
+        "tax_expense": 75.9,
+        "fcf_conversion_pct": 11.2,
         "fcf_bridge": {
           "calculated_ebitda": 506.0,
-          "capex": 169.1,
+          "capex": 168.2,
           "cash_interest": 124.6,
-          "change_in_working_capital": -83.1,
-          "tax": 34.4,
-          "fcf": 261.0,
-          "formula_check": "506.0 - 169.1 - 124.6 - (-83.1) - 34.4 = 261.0"
+          "change_in_working_capital": 80.4,
+          "tax": 75.9,
+          "fcf": 56.9,
+          "formula_check": "506.0 - 168.2 - 124.6 - (80.4) - 75.9 = 56.9"
         }
       },
       {
@@ -36241,8 +35291,8 @@ const MASTER_ISSUERS = [
         "ebitda": 542.8,
         "ebitda_margin_pct": 15.2,
         "cfo": 461.4,
-        "capex": 164.2,
-        "fcf": 297.2,
+        "capex": 180.5,
+        "fcf": 75.7,
         "cash": 465.8,
         "gross_debt": 1590.7,
         "net_debt": 1124.9,
@@ -36261,17 +35311,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 119.6,
-        "change_in_working_capital": -77.3,
-        "tax_expense": 39.1,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 85.6,
+        "tax_expense": 81.4,
+        "fcf_conversion_pct": 13.9,
         "fcf_bridge": {
           "calculated_ebitda": 542.8,
-          "capex": 164.2,
+          "capex": 180.5,
           "cash_interest": 119.6,
-          "change_in_working_capital": -77.3,
-          "tax": 39.1,
-          "fcf": 297.2,
-          "formula_check": "542.8 - 164.2 - 119.6 - (-77.3) - 39.1 = 297.2"
+          "change_in_working_capital": 85.6,
+          "tax": 81.4,
+          "fcf": 75.7,
+          "formula_check": "542.8 - 180.5 - 119.6 - (85.6) - 81.4 = 75.7"
         }
       },
       {
@@ -36281,8 +35331,8 @@ const MASTER_ISSUERS = [
         "ebitda": 570.4,
         "ebitda_margin_pct": 15.3,
         "cfo": 488.8,
-        "capex": 157.8,
-        "fcf": 331.0,
+        "capex": 189.7,
+        "fcf": 91.5,
         "cash": 517.5,
         "gross_debt": 1507.0,
         "net_debt": 989.5,
@@ -36301,17 +35351,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 114.3,
-        "change_in_working_capital": -75.4,
-        "tax_expense": 42.7,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 89.3,
+        "tax_expense": 85.6,
+        "fcf_conversion_pct": 16.0,
         "fcf_bridge": {
           "calculated_ebitda": 570.4,
-          "capex": 157.8,
+          "capex": 189.7,
           "cash_interest": 114.3,
-          "change_in_working_capital": -75.4,
-          "tax": 42.7,
-          "fcf": 331.0,
-          "formula_check": "570.4 - 157.8 - 114.3 - (-75.4) - 42.7 = 331.0"
+          "change_in_working_capital": 89.3,
+          "tax": 85.6,
+          "fcf": 91.5,
+          "formula_check": "570.4 - 189.7 - 114.3 - (89.3) - 85.6 = 91.5"
         }
       }
     ],
@@ -36747,7 +35797,10 @@ const MASTER_ISSUERS = [
       "model_file": "MOL_Group_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8168-8d54-e9b5f3d2a820",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MOL_Group_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -22.2,
+      "net_leverage_2024a": 1.1
     },
     "financials_multi_year": [
       {
@@ -36757,8 +35810,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2015.0,
         "ebitda_margin_pct": 12.3,
         "cfo": 1633.7,
-        "capex": 759.5,
-        "fcf": 874.2,
+        "capex": 861.4,
+        "fcf": 162.7,
         "cash": 1278.8,
         "gross_debt": 4874.8,
         "net_debt": 3596.0,
@@ -36777,17 +35830,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$30.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 226.9,
-        "change_in_working_capital": -23.1,
-        "tax_expense": 177.5,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 522.2,
+        "tax_expense": 241.8,
+        "fcf_conversion_pct": 8.1,
         "fcf_bridge": {
           "calculated_ebitda": 2015.0,
-          "capex": 759.5,
+          "capex": 861.4,
           "cash_interest": 226.9,
-          "change_in_working_capital": -23.1,
-          "tax": 177.5,
-          "fcf": 874.2,
-          "formula_check": "2015.0 - 759.5 - 226.9 - (-23.1) - 177.5 = 874.2"
+          "change_in_working_capital": 522.2,
+          "tax": 241.8,
+          "fcf": 162.7,
+          "formula_check": "2015.0 - 861.4 - 226.9 - (522.2) - 241.8 = 162.7"
         }
       },
       {
@@ -36797,8 +35850,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2480.0,
         "ebitda_margin_pct": 12.6,
         "cfo": 2055.3,
-        "capex": 922.2,
-        "fcf": 1133.1,
+        "capex": 1506.6,
+        "fcf": -788.4,
         "cash": 1627.5,
         "gross_debt": 5276.2,
         "net_debt": 3648.7,
@@ -36817,17 +35870,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 283.4,
-        "change_in_working_capital": -76.6,
-        "tax_expense": 217.9,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 1180.8,
+        "tax_expense": 297.6,
+        "fcf_conversion_pct": -31.8,
         "fcf_bridge": {
           "calculated_ebitda": 2480.0,
-          "capex": 922.2,
+          "capex": 1506.6,
           "cash_interest": 283.4,
-          "change_in_working_capital": -76.6,
-          "tax": 217.9,
-          "fcf": 1133.1,
-          "formula_check": "2480.0 - 922.2 - 283.4 - (-76.6) - 217.9 = 1133.1"
+          "change_in_working_capital": 1180.8,
+          "tax": 297.6,
+          "fcf": -788.4,
+          "formula_check": "2480.0 - 1506.6 - 283.4 - (1180.8) - 297.6 = -788.4"
         }
       },
       {
@@ -36837,8 +35890,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2790.0,
         "ebitda_margin_pct": 12.6,
         "cfo": 2318.8,
-        "capex": 1030.8,
-        "fcf": 1288.0,
+        "capex": 1694.9,
+        "fcf": -904.7,
         "cash": 1976.2,
         "gross_debt": 5620.3,
         "net_debt": 3644.1,
@@ -36857,17 +35910,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$41.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 340.2,
-        "change_in_working_capital": -110.9,
-        "tax_expense": 241.9,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 1324.8,
+        "tax_expense": 334.8,
+        "fcf_conversion_pct": -32.4,
         "fcf_bridge": {
           "calculated_ebitda": 2790.0,
-          "capex": 1030.8,
+          "capex": 1694.9,
           "cash_interest": 340.2,
-          "change_in_working_capital": -110.9,
-          "tax": 241.9,
-          "fcf": 1288.0,
-          "formula_check": "2790.0 - 1030.8 - 340.2 - (-110.9) - 241.9 = 1288.0"
+          "change_in_working_capital": 1324.8,
+          "tax": 334.8,
+          "fcf": -904.7,
+          "formula_check": "2790.0 - 1694.9 - 340.2 - (1324.8) - 334.8 = -904.7"
         }
       },
       {
@@ -36877,8 +35930,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3100.0,
         "ebitda_margin_pct": 12.9,
         "cfo": 2635.0,
-        "capex": 1085.0,
-        "fcf": 1550.0,
+        "capex": 1604.2,
+        "fcf": -22.2,
         "cash": 2325.0,
         "gross_debt": 5735.0,
         "net_debt": 3410.0,
@@ -36897,17 +35950,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 378.0,
-        "change_in_working_capital": -181.8,
-        "tax_expense": 268.8,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 768.0,
+        "tax_expense": 372.0,
+        "fcf_conversion_pct": -0.7,
         "fcf_bridge": {
           "calculated_ebitda": 3100.0,
-          "capex": 1085.0,
+          "capex": 1604.2,
           "cash_interest": 378.0,
-          "change_in_working_capital": -181.8,
-          "tax": 268.8,
-          "fcf": 1550.0,
-          "formula_check": "3100.0 - 1085.0 - 378.0 - (-181.8) - 268.8 = 1550.0"
+          "change_in_working_capital": 768.0,
+          "tax": 372.0,
+          "fcf": -22.2,
+          "formula_check": "3100.0 - 1604.2 - 378.0 - (768.0) - 372.0 = -22.2"
         }
       },
       {
@@ -36917,8 +35970,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3410.0,
         "ebitda_margin_pct": 13.2,
         "cfo": 2898.5,
-        "capex": 1139.2,
-        "fcf": 1759.3,
+        "capex": 1457.8,
+        "fcf": 350.8,
         "cash": 2743.5,
         "gross_debt": 5620.3,
         "net_debt": 2876.8,
@@ -36937,17 +35990,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$51.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 362.8,
-        "change_in_working_capital": -154.9,
-        "tax_expense": 303.6,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 829.4,
+        "tax_expense": 409.2,
+        "fcf_conversion_pct": 10.3,
         "fcf_bridge": {
           "calculated_ebitda": 3410.0,
-          "capex": 1139.2,
+          "capex": 1457.8,
           "cash_interest": 362.8,
-          "change_in_working_capital": -154.9,
-          "tax": 303.6,
-          "fcf": 1759.3,
-          "formula_check": "3410.0 - 1139.2 - 362.8 - (-154.9) - 303.6 = 1759.3"
+          "change_in_working_capital": 829.4,
+          "tax": 409.2,
+          "fcf": 350.8,
+          "formula_check": "3410.0 - 1457.8 - 362.8 - (829.4) - 409.2 = 350.8"
         }
       },
       {
@@ -36957,8 +36010,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3658.0,
         "ebitda_margin_pct": 13.3,
         "cfo": 3109.3,
-        "capex": 1106.7,
-        "fcf": 2002.6,
+        "capex": 1563.8,
+        "fcf": 424.3,
         "cash": 3138.8,
         "gross_debt": 5448.2,
         "net_debt": 2309.4,
@@ -36977,17 +36030,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$54.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 347.7,
-        "change_in_working_capital": -130.9,
-        "tax_expense": 331.9,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 883.2,
+        "tax_expense": 439.0,
+        "fcf_conversion_pct": 11.6,
         "fcf_bridge": {
           "calculated_ebitda": 3658.0,
-          "capex": 1106.7,
+          "capex": 1563.8,
           "cash_interest": 347.7,
-          "change_in_working_capital": -130.9,
-          "tax": 331.9,
-          "fcf": 2002.6,
-          "formula_check": "3658.0 - 1106.7 - 347.7 - (-130.9) - 331.9 = 2002.6"
+          "change_in_working_capital": 883.2,
+          "tax": 439.0,
+          "fcf": 424.3,
+          "formula_check": "3658.0 - 1563.8 - 347.7 - (883.2) - 439.0 = 424.3"
         }
       },
       {
@@ -36997,8 +36050,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3844.0,
         "ebitda_margin_pct": 13.3,
         "cfo": 3293.8,
-        "capex": 1063.3,
-        "fcf": 2230.5,
+        "capex": 1643.3,
+        "fcf": 485.0,
         "cash": 3487.5,
         "gross_debt": 5161.5,
         "net_debt": 1674.0,
@@ -37017,17 +36070,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$57.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 332.8,
-        "change_in_working_capital": -136.3,
-        "tax_expense": 353.7,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 921.6,
+        "tax_expense": 461.3,
+        "fcf_conversion_pct": 12.6,
         "fcf_bridge": {
           "calculated_ebitda": 3844.0,
-          "capex": 1063.3,
+          "capex": 1643.3,
           "cash_interest": 332.8,
-          "change_in_working_capital": -136.3,
-          "tax": 353.7,
-          "fcf": 2230.5,
-          "formula_check": "3844.0 - 1063.3 - 332.8 - (-136.3) - 353.7 = 2230.5"
+          "change_in_working_capital": 921.6,
+          "tax": 461.3,
+          "fcf": 485.0,
+          "formula_check": "3844.0 - 1643.3 - 332.8 - (921.6) - 461.3 = 485.0"
         }
       }
     ],
@@ -37489,7 +36542,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MTN_Group_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "mtn",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/mtn/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/mtn/description",
+      "model_type": "corp",
+      "fcf_2024a": 481.2,
+      "net_leverage_2024a": 1.65
     },
     "financials_multi_year": [
       {
@@ -37499,8 +36555,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2925,
         "ebitda_margin_pct": 36.5,
         "cfo": 2371.5,
-        "capex": 1102.5,
-        "fcf": 1269,
+        "capex": 1167.1,
+        "fcf": 585.9,
         "cash": 1856.3,
         "gross_debt": 9180,
         "net_debt": 7323.7,
@@ -37519,17 +36575,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$43.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 500,
-        "change_in_working_capital": -178.6,
-        "tax_expense": 232.1,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 321.0,
+        "tax_expense": 351.0,
+        "fcf_conversion_pct": 20.0,
         "fcf_bridge": {
           "calculated_ebitda": 2925,
-          "capex": 1102.5,
+          "capex": 1167.1,
           "cash_interest": 500,
-          "change_in_working_capital": -178.6,
-          "tax": 232.1,
-          "fcf": 1269,
-          "formula_check": "2925.0 - 1102.5 - 500.0 - (-178.6) - 232.1 = 1269.0"
+          "change_in_working_capital": 321.0,
+          "tax": 351.0,
+          "fcf": 585.9,
+          "formula_check": "2925.0 - 1167.1 - 500.0 - (321.0) - 351.0 = 585.9"
         }
       },
       {
@@ -37539,8 +36595,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3600,
         "ebitda_margin_pct": 37.2,
         "cfo": 2983.5,
-        "capex": 1338.8,
-        "fcf": 1644.7,
+        "capex": 2041.2,
+        "fcf": -223.9,
         "cash": 2362.5,
         "gross_debt": 9936,
         "net_debt": 7573.5,
@@ -37559,17 +36615,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$54.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 625,
-        "change_in_working_capital": -292.7,
-        "tax_expense": 284.2,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 725.7,
+        "tax_expense": 432.0,
+        "fcf_conversion_pct": -6.2,
         "fcf_bridge": {
           "calculated_ebitda": 3600,
-          "capex": 1338.8,
+          "capex": 2041.2,
           "cash_interest": 625,
-          "change_in_working_capital": -292.7,
-          "tax": 284.2,
-          "fcf": 1644.7,
-          "formula_check": "3600.0 - 1338.8 - 625.0 - (-292.7) - 284.2 = 1644.7"
+          "change_in_working_capital": 725.7,
+          "tax": 432.0,
+          "fcf": -223.9,
+          "formula_check": "3600.0 - 2041.2 - 625.0 - (725.7) - 432.0 = -223.9"
         }
       },
       {
@@ -37579,8 +36635,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4050,
         "ebitda_margin_pct": 37.3,
         "cfo": 3366,
-        "capex": 1496.2,
-        "fcf": 1869.8,
+        "capex": 2296.4,
+        "fcf": -296.6,
         "cash": 2868.8,
         "gross_debt": 10584,
         "net_debt": 7715.2,
@@ -37599,17 +36655,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$60.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 750,
-        "change_in_working_capital": -378.8,
-        "tax_expense": 312.8,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 814.2,
+        "tax_expense": 486.0,
+        "fcf_conversion_pct": -7.3,
         "fcf_bridge": {
           "calculated_ebitda": 4050,
-          "capex": 1496.2,
+          "capex": 2296.4,
           "cash_interest": 750,
-          "change_in_working_capital": -378.8,
-          "tax": 312.8,
-          "fcf": 1869.8,
-          "formula_check": "4050.0 - 1496.2 - 750.0 - (-378.8) - 312.8 = 1869.8"
+          "change_in_working_capital": 814.2,
+          "tax": 486.0,
+          "fcf": -296.6,
+          "formula_check": "4050.0 - 2296.4 - 750.0 - (814.2) - 486.0 = -296.6"
         }
       },
       {
@@ -37619,8 +36675,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4500,
         "ebitda_margin_pct": 38.1,
         "cfo": 3825,
-        "capex": 1575,
-        "fcf": 2250,
+        "capex": 2173.5,
+        "fcf": 481.2,
         "cash": 3375,
         "gross_debt": 10800,
         "net_debt": 7425,
@@ -37639,17 +36695,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$67.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 833.3,
-        "change_in_working_capital": -505.8,
-        "tax_expense": 347.5,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 472.0,
+        "tax_expense": 540.0,
+        "fcf_conversion_pct": 10.7,
         "fcf_bridge": {
           "calculated_ebitda": 4500,
-          "capex": 1575,
+          "capex": 2173.5,
           "cash_interest": 833.3,
-          "change_in_working_capital": -505.8,
-          "tax": 347.5,
-          "fcf": 2250,
-          "formula_check": "4500.0 - 1575.0 - 833.3 - (-505.8) - 347.5 = 2250.0"
+          "change_in_working_capital": 472.0,
+          "tax": 540.0,
+          "fcf": 481.2,
+          "formula_check": "4500.0 - 2173.5 - 833.3 - (472.0) - 540.0 = 481.2"
         }
       },
       {
@@ -37659,8 +36715,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4950,
         "ebitda_margin_pct": 38.8,
         "cfo": 4207.5,
-        "capex": 1653.8,
-        "fcf": 2553.7,
+        "capex": 1975.0,
+        "fcf": 1071.5,
         "cash": 3982.5,
         "gross_debt": 10584,
         "net_debt": 6601.5,
@@ -37679,17 +36735,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$74.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 799.7,
-        "change_in_working_capital": -457,
-        "tax_expense": 399.8,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 509.8,
+        "tax_expense": 594.0,
+        "fcf_conversion_pct": 21.6,
         "fcf_bridge": {
           "calculated_ebitda": 4950,
-          "capex": 1653.8,
+          "capex": 1975.0,
           "cash_interest": 799.7,
-          "change_in_working_capital": -457,
-          "tax": 399.8,
-          "fcf": 2553.7,
-          "formula_check": "4950.0 - 1653.8 - 799.7 - (-457.0) - 399.8 = 2553.7"
+          "change_in_working_capital": 509.8,
+          "tax": 594.0,
+          "fcf": 1071.5,
+          "formula_check": "4950.0 - 1975.0 - 799.7 - (509.8) - 594.0 = 1071.5"
         }
       },
       {
@@ -37699,8 +36755,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5310,
         "ebitda_margin_pct": 39.1,
         "cfo": 4513.5,
-        "capex": 1606.5,
-        "fcf": 2907,
+        "capex": 2118.7,
+        "fcf": 1245.1,
         "cash": 4556.2,
         "gross_debt": 10260,
         "net_debt": 5703.8,
@@ -37719,17 +36775,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$79.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 766.2,
-        "change_in_working_capital": -412.3,
-        "tax_expense": 442.6,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 542.8,
+        "tax_expense": 637.2,
+        "fcf_conversion_pct": 23.4,
         "fcf_bridge": {
           "calculated_ebitda": 5310,
-          "capex": 1606.5,
+          "capex": 2118.7,
           "cash_interest": 766.2,
-          "change_in_working_capital": -412.3,
-          "tax": 442.6,
-          "fcf": 2907,
-          "formula_check": "5310.0 - 1606.5 - 766.2 - (-412.3) - 442.6 = 2907.0"
+          "change_in_working_capital": 542.8,
+          "tax": 637.2,
+          "fcf": 1245.1,
+          "formula_check": "5310.0 - 2118.7 - 766.2 - (542.8) - 637.2 = 1245.1"
         }
       },
       {
@@ -37739,8 +36795,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5580,
         "ebitda_margin_pct": 39.4,
         "cfo": 4781.2,
-        "capex": 1543.5,
-        "fcf": 3237.7,
+        "capex": 2226.4,
+        "fcf": 1384.4,
         "cash": 5062.5,
         "gross_debt": 9720,
         "net_debt": 4657.5,
@@ -37759,17 +36815,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$83.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 733.2,
-        "change_in_working_capital": -410.3,
-        "tax_expense": 475.9,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 566.4,
+        "tax_expense": 669.6,
+        "fcf_conversion_pct": 24.8,
         "fcf_bridge": {
           "calculated_ebitda": 5580,
-          "capex": 1543.5,
+          "capex": 2226.4,
           "cash_interest": 733.2,
-          "change_in_working_capital": -410.3,
-          "tax": 475.9,
-          "fcf": 3237.7,
-          "formula_check": "5580.0 - 1543.5 - 733.2 - (-410.3) - 475.9 = 3237.7"
+          "change_in_working_capital": 566.4,
+          "tax": 669.6,
+          "fcf": 1384.4,
+          "formula_check": "5580.0 - 2226.4 - 733.2 - (566.4) - 669.6 = 1384.4"
         }
       }
     ],
@@ -38205,7 +37261,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OCP_Group_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "ocp",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ocp/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ocp/description",
+      "model_type": "corp",
+      "fcf_2024a": 209.9,
+      "net_leverage_2024a": 2.34
     },
     "financials_multi_year": [
       {
@@ -38215,8 +37274,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2080,
         "ebitda_margin_pct": 32.2,
         "cfo": 1686.4,
-        "capex": 784,
-        "fcf": 902.4,
+        "capex": 988.0,
+        "fcf": 355.5,
         "cash": 1320,
         "gross_debt": 8404.8,
         "net_debt": 7084.8,
@@ -38235,17 +37294,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 270.1,
-        "change_in_working_capital": -54.4,
-        "tax_expense": 177.9,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 258.4,
+        "tax_expense": 208.0,
+        "fcf_conversion_pct": 17.1,
         "fcf_bridge": {
           "calculated_ebitda": 2080,
-          "capex": 784,
+          "capex": 988.0,
           "cash_interest": 270.1,
-          "change_in_working_capital": -54.4,
-          "tax": 177.9,
-          "fcf": 902.4,
-          "formula_check": "2080.0 - 784.0 - 270.1 - (-54.4) - 177.9 = 902.4"
+          "change_in_working_capital": 258.4,
+          "tax": 208.0,
+          "fcf": 355.5,
+          "formula_check": "2080.0 - 988.0 - 270.1 - (258.4) - 208.0 = 355.5"
         }
       },
       {
@@ -38255,8 +37314,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2560,
         "ebitda_margin_pct": 32.9,
         "cfo": 2121.6,
-        "capex": 952,
-        "fcf": 1169.6,
+        "capex": 1728.0,
+        "fcf": -345.9,
         "cash": 1680,
         "gross_debt": 9097,
         "net_debt": 7417,
@@ -38275,17 +37334,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$38.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 337.7,
-        "change_in_working_capital": -117.4,
-        "tax_expense": 218.1,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 584.2,
+        "tax_expense": 256.0,
+        "fcf_conversion_pct": -13.5,
         "fcf_bridge": {
           "calculated_ebitda": 2560,
-          "capex": 952,
+          "capex": 1728.0,
           "cash_interest": 337.7,
-          "change_in_working_capital": -117.4,
-          "tax": 218.1,
-          "fcf": 1169.6,
-          "formula_check": "2560.0 - 952.0 - 337.7 - (-117.4) - 218.1 = 1169.6"
+          "change_in_working_capital": 584.2,
+          "tax": 256.0,
+          "fcf": -345.9,
+          "formula_check": "2560.0 - 1728.0 - 337.7 - (584.2) - 256.0 = -345.9"
         }
       },
       {
@@ -38295,8 +37354,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2880,
         "ebitda_margin_pct": 33,
         "cfo": 2393.6,
-        "capex": 1064,
-        "fcf": 1329.6,
+        "capex": 1944.0,
+        "fcf": -412.6,
         "cash": 2040,
         "gross_debt": 9690.2,
         "net_debt": 7650.2,
@@ -38315,17 +37374,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$43.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 405.1,
-        "change_in_working_capital": -160.3,
-        "tax_expense": 241.6,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 655.5,
+        "tax_expense": 288.0,
+        "fcf_conversion_pct": -14.3,
         "fcf_bridge": {
           "calculated_ebitda": 2880,
-          "capex": 1064,
+          "capex": 1944.0,
           "cash_interest": 405.1,
-          "change_in_working_capital": -160.3,
-          "tax": 241.6,
-          "fcf": 1329.6,
-          "formula_check": "2880.0 - 1064.0 - 405.1 - (-160.3) - 241.6 = 1329.6"
+          "change_in_working_capital": 655.5,
+          "tax": 288.0,
+          "fcf": -412.6,
+          "formula_check": "2880.0 - 1944.0 - 405.1 - (655.5) - 288.0 = -412.6"
         }
       },
       {
@@ -38335,8 +37394,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3200,
         "ebitda_margin_pct": 33.7,
         "cfo": 2720,
-        "capex": 1120,
-        "fcf": 1600,
+        "capex": 1840.0,
+        "fcf": 209.9,
         "cash": 2400,
         "gross_debt": 9888,
         "net_debt": 7488,
@@ -38355,17 +37414,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$48.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 450.1,
-        "change_in_working_capital": -238.6,
-        "tax_expense": 268.5,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 380.0,
+        "tax_expense": 320.0,
+        "fcf_conversion_pct": 6.6,
         "fcf_bridge": {
           "calculated_ebitda": 3200,
-          "capex": 1120,
+          "capex": 1840.0,
           "cash_interest": 450.1,
-          "change_in_working_capital": -238.6,
-          "tax": 268.5,
-          "fcf": 1600,
-          "formula_check": "3200.0 - 1120.0 - 450.1 - (-238.6) - 268.5 = 1600.0"
+          "change_in_working_capital": 380.0,
+          "tax": 320.0,
+          "fcf": 209.9,
+          "formula_check": "3200.0 - 1840.0 - 450.1 - (380.0) - 320.0 = 209.9"
         }
       },
       {
@@ -38375,8 +37434,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3520,
         "ebitda_margin_pct": 34.3,
         "cfo": 2992,
-        "capex": 1176,
-        "fcf": 1816,
+        "capex": 1672.0,
+        "fcf": 653.7,
         "cash": 2832,
         "gross_debt": 9690.2,
         "net_debt": 6858.2,
@@ -38395,17 +37454,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$52.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 431.9,
-        "change_in_working_capital": -208.7,
-        "tax_expense": 304.8,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 410.4,
+        "tax_expense": 352.0,
+        "fcf_conversion_pct": 18.6,
         "fcf_bridge": {
           "calculated_ebitda": 3520,
-          "capex": 1176,
+          "capex": 1672.0,
           "cash_interest": 431.9,
-          "change_in_working_capital": -208.7,
-          "tax": 304.8,
-          "fcf": 1816,
-          "formula_check": "3520.0 - 1176.0 - 431.9 - (-208.7) - 304.8 = 1816.0"
+          "change_in_working_capital": 410.4,
+          "tax": 352.0,
+          "fcf": 653.7,
+          "formula_check": "3520.0 - 1672.0 - 431.9 - (410.4) - 352.0 = 653.7"
         }
       },
       {
@@ -38415,8 +37474,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3776,
         "ebitda_margin_pct": 34.6,
         "cfo": 3209.6,
-        "capex": 1142.4,
-        "fcf": 2067.2,
+        "capex": 1793.6,
+        "fcf": 753.8,
         "cash": 3240,
         "gross_debt": 9393.6,
         "net_debt": 6153.6,
@@ -38435,17 +37494,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 414,
-        "change_in_working_capital": -182,
-        "tax_expense": 334.4,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 437.0,
+        "tax_expense": 377.6,
+        "fcf_conversion_pct": 20.0,
         "fcf_bridge": {
           "calculated_ebitda": 3776,
-          "capex": 1142.4,
+          "capex": 1793.6,
           "cash_interest": 414,
-          "change_in_working_capital": -182,
-          "tax": 334.4,
-          "fcf": 2067.2,
-          "formula_check": "3776.0 - 1142.4 - 414.0 - (-182.0) - 334.4 = 2067.2"
+          "change_in_working_capital": 437.0,
+          "tax": 377.6,
+          "fcf": 753.8,
+          "formula_check": "3776.0 - 1793.6 - 414.0 - (437.0) - 377.6 = 753.8"
         }
       },
       {
@@ -38455,8 +37514,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3968,
         "ebitda_margin_pct": 34.8,
         "cfo": 3400,
-        "capex": 1097.6,
-        "fcf": 2302.4,
+        "capex": 1884.8,
+        "fcf": 834.4,
         "cash": 3600,
         "gross_debt": 8899.2,
         "net_debt": 5299.2,
@@ -38475,17 +37534,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$59.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 396,
-        "change_in_working_capital": -185.2,
-        "tax_expense": 357.2,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 456.0,
+        "tax_expense": 396.8,
+        "fcf_conversion_pct": 21.0,
         "fcf_bridge": {
           "calculated_ebitda": 3968,
-          "capex": 1097.6,
+          "capex": 1884.8,
           "cash_interest": 396,
-          "change_in_working_capital": -185.2,
-          "tax": 357.2,
-          "fcf": 2302.4,
-          "formula_check": "3968.0 - 1097.6 - 396.0 - (-185.2) - 357.2 = 2302.4"
+          "change_in_working_capital": 456.0,
+          "tax": 396.8,
+          "fcf": 834.4,
+          "formula_check": "3968.0 - 1884.8 - 396.0 - (456.0) - 396.8 = 834.4"
         }
       }
     ],
@@ -38945,7 +38004,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ooredoo_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "ooredoo",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ooredoo/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ooredoo/description",
+      "model_type": "corp",
+      "fcf_2024a": 547.3,
+      "net_leverage_2024a": 1.1
     },
     "financials_multi_year": [
       {
@@ -38955,8 +38017,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1820,
         "ebitda_margin_pct": 41.2,
         "cfo": 1475.6,
-        "capex": 686,
-        "fcf": 789.6,
+        "capex": 726.2,
+        "fcf": 516.1,
         "cash": 1155,
         "gross_debt": 4403,
         "net_debt": 3248,
@@ -38975,17 +38037,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 182.5,
-        "change_in_working_capital": -1.8,
-        "tax_expense": 163.7,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 176.8,
+        "tax_expense": 218.4,
+        "fcf_conversion_pct": 28.4,
         "fcf_bridge": {
           "calculated_ebitda": 1820,
-          "capex": 686,
+          "capex": 726.2,
           "cash_interest": 182.5,
-          "change_in_working_capital": -1.8,
-          "tax": 163.7,
-          "fcf": 789.6,
-          "formula_check": "1820.0 - 686.0 - 182.5 - (-1.8) - 163.7 = 789.6"
+          "change_in_working_capital": 176.8,
+          "tax": 218.4,
+          "fcf": 516.1,
+          "formula_check": "1820.0 - 726.2 - 182.5 - (176.8) - 218.4 = 516.1"
         }
       },
       {
@@ -38995,8 +38057,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2240,
         "ebitda_margin_pct": 42,
         "cfo": 1856.4,
-        "capex": 833,
-        "fcf": 1023.4,
+        "capex": 1270.1,
+        "fcf": 73.0,
         "cash": 1470,
         "gross_debt": 4765.6,
         "net_debt": 3295.6,
@@ -39015,17 +38077,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 228.3,
-        "change_in_working_capital": -45.7,
-        "tax_expense": 201,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 399.8,
+        "tax_expense": 268.8,
+        "fcf_conversion_pct": 3.3,
         "fcf_bridge": {
           "calculated_ebitda": 2240,
-          "capex": 833,
+          "capex": 1270.1,
           "cash_interest": 228.3,
-          "change_in_working_capital": -45.7,
-          "tax": 201,
-          "fcf": 1023.4,
-          "formula_check": "2240.0 - 833.0 - 228.3 - (-45.7) - 201.0 = 1023.4"
+          "change_in_working_capital": 399.8,
+          "tax": 268.8,
+          "fcf": 73.0,
+          "formula_check": "2240.0 - 1270.1 - 228.3 - (399.8) - 268.8 = 73.0"
         }
       },
       {
@@ -39035,8 +38097,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2520,
         "ebitda_margin_pct": 42.1,
         "cfo": 2094.4,
-        "capex": 931,
-        "fcf": 1163.4,
+        "capex": 1428.8,
+        "fcf": 66.4,
         "cash": 1785,
         "gross_debt": 5076.4,
         "net_debt": 3291.4,
@@ -39055,17 +38117,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 273.9,
-        "change_in_working_capital": -71.8,
-        "tax_expense": 223.5,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 448.5,
+        "tax_expense": 302.4,
+        "fcf_conversion_pct": 2.6,
         "fcf_bridge": {
           "calculated_ebitda": 2520,
-          "capex": 931,
+          "capex": 1428.8,
           "cash_interest": 273.9,
-          "change_in_working_capital": -71.8,
-          "tax": 223.5,
-          "fcf": 1163.4,
-          "formula_check": "2520.0 - 931.0 - 273.9 - (-71.8) - 223.5 = 1163.4"
+          "change_in_working_capital": 448.5,
+          "tax": 302.4,
+          "fcf": 66.4,
+          "formula_check": "2520.0 - 1428.8 - 273.9 - (448.5) - 302.4 = 66.4"
         }
       },
       {
@@ -39075,8 +38137,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2800,
         "ebitda_margin_pct": 43.1,
         "cfo": 2380,
-        "capex": 980,
-        "fcf": 1400,
+        "capex": 1352.4,
+        "fcf": 547.3,
         "cash": 2100,
         "gross_debt": 5180,
         "net_debt": 3080,
@@ -39095,17 +38157,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$42.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 304.3,
-        "change_in_working_capital": -132.7,
-        "tax_expense": 248.4,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 260.0,
+        "tax_expense": 336.0,
+        "fcf_conversion_pct": 19.5,
         "fcf_bridge": {
           "calculated_ebitda": 2800,
-          "capex": 980,
+          "capex": 1352.4,
           "cash_interest": 304.3,
-          "change_in_working_capital": -132.7,
-          "tax": 248.4,
-          "fcf": 1400,
-          "formula_check": "2800.0 - 980.0 - 304.3 - (-132.7) - 248.4 = 1400.0"
+          "change_in_working_capital": 260.0,
+          "tax": 336.0,
+          "fcf": 547.3,
+          "formula_check": "2800.0 - 1352.4 - 304.3 - (260.0) - 336.0 = 547.3"
         }
       },
       {
@@ -39115,8 +38177,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3080,
         "ebitda_margin_pct": 43.9,
         "cfo": 2618,
-        "capex": 1029,
-        "fcf": 1589,
+        "capex": 1228.9,
+        "fcf": 908.5,
         "cash": 2478,
         "gross_debt": 5076.4,
         "net_debt": 2598.4,
@@ -39135,17 +38197,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 292.2,
-        "change_in_working_capital": -109.8,
-        "tax_expense": 279.6,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 280.8,
+        "tax_expense": 369.6,
+        "fcf_conversion_pct": 29.5,
         "fcf_bridge": {
           "calculated_ebitda": 3080,
-          "capex": 1029,
+          "capex": 1228.9,
           "cash_interest": 292.2,
-          "change_in_working_capital": -109.8,
-          "tax": 279.6,
-          "fcf": 1589,
-          "formula_check": "3080.0 - 1029.0 - 292.2 - (-109.8) - 279.6 = 1589.0"
+          "change_in_working_capital": 280.8,
+          "tax": 369.6,
+          "fcf": 908.5,
+          "formula_check": "3080.0 - 1228.9 - 292.2 - (280.8) - 369.6 = 908.5"
         }
       },
       {
@@ -39155,8 +38217,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3304,
         "ebitda_margin_pct": 44.2,
         "cfo": 2808.4,
-        "capex": 999.6,
-        "fcf": 1808.8,
+        "capex": 1318.3,
+        "fcf": 1010.2,
         "cash": 2835,
         "gross_debt": 4921,
         "net_debt": 2086,
@@ -39175,17 +38237,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$49.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 280,
-        "change_in_working_capital": -89.3,
-        "tax_expense": 304.9,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 299.0,
+        "tax_expense": 396.5,
+        "fcf_conversion_pct": 30.6,
         "fcf_bridge": {
           "calculated_ebitda": 3304,
-          "capex": 999.6,
+          "capex": 1318.3,
           "cash_interest": 280,
-          "change_in_working_capital": -89.3,
-          "tax": 304.9,
-          "fcf": 1808.8,
-          "formula_check": "3304.0 - 999.6 - 280.0 - (-89.3) - 304.9 = 1808.8"
+          "change_in_working_capital": 299.0,
+          "tax": 396.5,
+          "fcf": 1010.2,
+          "formula_check": "3304.0 - 1318.3 - 280.0 - (299.0) - 396.5 = 1010.2"
         }
       },
       {
@@ -39195,8 +38257,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3472,
         "ebitda_margin_pct": 44.5,
         "cfo": 2975,
-        "capex": 960.4,
-        "fcf": 2014.6,
+        "capex": 1385.3,
+        "fcf": 1090.2,
         "cash": 3150,
         "gross_debt": 4662,
         "net_debt": 1512,
@@ -39215,17 +38277,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$52.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 267.9,
-        "change_in_working_capital": -95.3,
-        "tax_expense": 324.4,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 312.0,
+        "tax_expense": 416.6,
+        "fcf_conversion_pct": 31.4,
         "fcf_bridge": {
           "calculated_ebitda": 3472,
-          "capex": 960.4,
+          "capex": 1385.3,
           "cash_interest": 267.9,
-          "change_in_working_capital": -95.3,
-          "tax": 324.4,
-          "fcf": 2014.6,
-          "formula_check": "3472.0 - 960.4 - 267.9 - (-95.3) - 324.4 = 2014.6"
+          "change_in_working_capital": 312.0,
+          "tax": 416.6,
+          "fcf": 1090.2,
+          "formula_check": "3472.0 - 1385.3 - 267.9 - (312.0) - 416.6 = 1090.2"
         }
       }
     ],
@@ -39659,7 +38721,10 @@ const MASTER_ISSUERS = [
       "model_file": "OQ_SAOC_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-810f-bf67-c7d031a7ae6b",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/OQ_SAOC_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -149.6,
+      "net_leverage_2024a": 1.8
     },
     "financials_multi_year": [
       {
@@ -39669,8 +38734,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2990.0,
         "ebitda_margin_pct": 13.7,
         "cfo": 2424.2,
-        "capex": 1127.0,
-        "fcf": 1297.2,
+        "capex": 1278.2,
+        "fcf": 180.6,
         "cash": 1897.5,
         "gross_debt": 9970.5,
         "net_debt": 8073.0,
@@ -39689,17 +38754,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$44.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 476.1,
-        "change_in_working_capital": -152.8,
-        "tax_expense": 242.5,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 696.3,
+        "tax_expense": 358.8,
+        "fcf_conversion_pct": 6.0,
         "fcf_bridge": {
           "calculated_ebitda": 2990.0,
-          "capex": 1127.0,
+          "capex": 1278.2,
           "cash_interest": 476.1,
-          "change_in_working_capital": -152.8,
-          "tax": 242.5,
-          "fcf": 1297.2,
-          "formula_check": "2990.0 - 1127.0 - 476.1 - (-152.8) - 242.5 = 1297.2"
+          "change_in_working_capital": 696.3,
+          "tax": 358.8,
+          "fcf": 180.6,
+          "formula_check": "2990.0 - 1278.2 - 476.1 - (696.3) - 358.8 = 180.6"
         }
       },
       {
@@ -39709,8 +38774,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3680.0,
         "ebitda_margin_pct": 14.0,
         "cfo": 3049.8,
-        "capex": 1368.5,
-        "fcf": 1681.3,
+        "capex": 2235.6,
+        "fcf": -1166.1,
         "cash": 2415.0,
         "gross_debt": 10791.6,
         "net_debt": 8376.6,
@@ -39729,17 +38794,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$55.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 594.5,
-        "change_in_working_capital": -261.5,
-        "tax_expense": 297.2,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 1574.4,
+        "tax_expense": 441.6,
+        "fcf_conversion_pct": -31.7,
         "fcf_bridge": {
           "calculated_ebitda": 3680.0,
-          "capex": 1368.5,
+          "capex": 2235.6,
           "cash_interest": 594.5,
-          "change_in_working_capital": -261.5,
-          "tax": 297.2,
-          "fcf": 1681.3,
-          "formula_check": "3680.0 - 1368.5 - 594.5 - (-261.5) - 297.2 = 1681.3"
+          "change_in_working_capital": 1574.4,
+          "tax": 441.6,
+          "fcf": -1166.1,
+          "formula_check": "3680.0 - 2235.6 - 594.5 - (1574.4) - 441.6 = -1166.1"
         }
       },
       {
@@ -39749,8 +38814,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4140.0,
         "ebitda_margin_pct": 14.1,
         "cfo": 3440.8,
-        "capex": 1529.5,
-        "fcf": 1911.3,
+        "capex": 2515.1,
+        "fcf": -1352.1,
         "cash": 2932.5,
         "gross_debt": 11495.4,
         "net_debt": 8562.9,
@@ -39769,17 +38834,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$62.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 713.8,
-        "change_in_working_capital": -342.2,
-        "tax_expense": 327.6,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 1766.4,
+        "tax_expense": 496.8,
+        "fcf_conversion_pct": -32.7,
         "fcf_bridge": {
           "calculated_ebitda": 4140.0,
-          "capex": 1529.5,
+          "capex": 2515.1,
           "cash_interest": 713.8,
-          "change_in_working_capital": -342.2,
-          "tax": 327.6,
-          "fcf": 1911.3,
-          "formula_check": "4140.0 - 1529.5 - 713.8 - (-342.2) - 327.6 = 1911.3"
+          "change_in_working_capital": 1766.4,
+          "tax": 496.8,
+          "fcf": -1352.1,
+          "formula_check": "4140.0 - 2515.1 - 713.8 - (1766.4) - 496.8 = -1352.1"
         }
       },
       {
@@ -39789,8 +38854,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4600.0,
         "ebitda_margin_pct": 14.4,
         "cfo": 3910.0,
-        "capex": 1610.0,
-        "fcf": 2300.0,
+        "capex": 2380.5,
+        "fcf": -149.6,
         "cash": 3450.0,
         "gross_debt": 11730.0,
         "net_debt": 8280.0,
@@ -39809,17 +38874,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 793.1,
-        "change_in_working_capital": -467.1,
-        "tax_expense": 364.0,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 1024.0,
+        "tax_expense": 552.0,
+        "fcf_conversion_pct": -3.3,
         "fcf_bridge": {
           "calculated_ebitda": 4600.0,
-          "capex": 1610.0,
+          "capex": 2380.5,
           "cash_interest": 793.1,
-          "change_in_working_capital": -467.1,
-          "tax": 364.0,
-          "fcf": 2300.0,
-          "formula_check": "4600.0 - 1610.0 - 793.1 - (-467.1) - 364.0 = 2300.0"
+          "change_in_working_capital": 1024.0,
+          "tax": 552.0,
+          "fcf": -149.6,
+          "formula_check": "4600.0 - 2380.5 - 793.1 - (1024.0) - 552.0 = -149.6"
         }
       },
       {
@@ -39829,8 +38894,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5060.0,
         "ebitda_margin_pct": 14.6,
         "cfo": 4301.0,
-        "capex": 1690.5,
-        "fcf": 2610.5,
+        "capex": 2163.2,
+        "fcf": 422.8,
         "cash": 4071.0,
         "gross_debt": 11495.4,
         "net_debt": 7424.4,
@@ -39849,17 +38914,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$75.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 760.9,
-        "change_in_working_capital": -419.1,
-        "tax_expense": 417.2,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 1105.9,
+        "tax_expense": 607.2,
+        "fcf_conversion_pct": 8.4,
         "fcf_bridge": {
           "calculated_ebitda": 5060.0,
-          "capex": 1690.5,
+          "capex": 2163.2,
           "cash_interest": 760.9,
-          "change_in_working_capital": -419.1,
-          "tax": 417.2,
-          "fcf": 2610.5,
-          "formula_check": "5060.0 - 1690.5 - 760.9 - (-419.1) - 417.2 = 2610.5"
+          "change_in_working_capital": 1105.9,
+          "tax": 607.2,
+          "fcf": 422.8,
+          "formula_check": "5060.0 - 2163.2 - 760.9 - (1105.9) - 607.2 = 422.8"
         }
       },
       {
@@ -39869,8 +38934,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5428.0,
         "ebitda_margin_pct": 14.8,
         "cfo": 4613.8,
-        "capex": 1642.2,
-        "fcf": 2971.6,
+        "capex": 2320.5,
+        "fcf": 548.9,
         "cash": 4657.5,
         "gross_debt": 11143.5,
         "net_debt": 6486.0,
@@ -39889,17 +38954,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$81.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 729.6,
-        "change_in_working_capital": -375.9,
-        "tax_expense": 460.5,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 1177.6,
+        "tax_expense": 651.4,
+        "fcf_conversion_pct": 10.1,
         "fcf_bridge": {
           "calculated_ebitda": 5428.0,
-          "capex": 1642.2,
+          "capex": 2320.5,
           "cash_interest": 729.6,
-          "change_in_working_capital": -375.9,
-          "tax": 460.5,
-          "fcf": 2971.6,
-          "formula_check": "5428.0 - 1642.2 - 729.6 - (-375.9) - 460.5 = 2971.6"
+          "change_in_working_capital": 1177.6,
+          "tax": 651.4,
+          "fcf": 548.9,
+          "formula_check": "5428.0 - 2320.5 - 729.6 - (1177.6) - 651.4 = 548.9"
         }
       },
       {
@@ -39909,8 +38974,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5704.0,
         "ebitda_margin_pct": 14.9,
         "cfo": 4887.5,
-        "capex": 1577.8,
-        "fcf": 3309.7,
+        "capex": 2438.5,
+        "fcf": 654.0,
         "cash": 5175.0,
         "gross_debt": 10557.0,
         "net_debt": 5382.0,
@@ -39929,17 +38994,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$85.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 698.2,
-        "change_in_working_capital": -375.9,
-        "tax_expense": 494.2,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 1228.8,
+        "tax_expense": 684.5,
+        "fcf_conversion_pct": 11.5,
         "fcf_bridge": {
           "calculated_ebitda": 5704.0,
-          "capex": 1577.8,
+          "capex": 2438.5,
           "cash_interest": 698.2,
-          "change_in_working_capital": -375.9,
-          "tax": 494.2,
-          "fcf": 3309.7,
-          "formula_check": "5704.0 - 1577.8 - 698.2 - (-375.9) - 494.2 = 3309.7"
+          "change_in_working_capital": 1228.8,
+          "tax": 684.5,
+          "fcf": 654.0,
+          "formula_check": "5704.0 - 2438.5 - 698.2 - (1228.8) - 684.5 = 654.0"
         }
       }
     ],
@@ -40401,7 +39466,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PKN_Orlen_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "orlen",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/orlen/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/orlen/description",
+      "model_type": "corp",
+      "fcf_2024a": 10.5,
+      "net_leverage_2024a": 0.95
     },
     "financials_multi_year": [
       {
@@ -40411,8 +39479,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5525,
         "ebitda_margin_pct": 11.9,
         "cfo": 4479.5,
-        "capex": 2082.5,
-        "fcf": 2397,
+        "capex": 2361.9,
+        "fcf": 483.5,
         "cash": 3506.3,
         "gross_debt": 12282.5,
         "net_debt": 8776.2,
@@ -40431,17 +39499,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$82.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 536.9,
-        "change_in_working_capital": 9,
-        "tax_expense": 499.6,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 1479.7,
+        "tax_expense": 663.0,
+        "fcf_conversion_pct": 8.8,
         "fcf_bridge": {
           "calculated_ebitda": 5525,
-          "capex": 2082.5,
+          "capex": 2361.9,
           "cash_interest": 536.9,
-          "change_in_working_capital": 9,
-          "tax": 499.6,
-          "fcf": 2397,
-          "formula_check": "5525.0 - 2082.5 - 536.9 - (9.0) - 499.6 = 2397.0"
+          "change_in_working_capital": 1479.7,
+          "tax": 663.0,
+          "fcf": 483.5,
+          "formula_check": "5525.0 - 2361.9 - 536.9 - (1479.7) - 663.0 = 483.5"
         }
       },
       {
@@ -40451,8 +39519,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6800,
         "ebitda_margin_pct": 12.2,
         "cfo": 5635.5,
-        "capex": 2528.8,
-        "fcf": 3106.7,
+        "capex": 4131.0,
+        "fcf": -2163.9,
         "cash": 4462.5,
         "gross_debt": 13294,
         "net_debt": 8831.5,
@@ -40471,17 +39539,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$102.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 671.3,
-        "change_in_working_capital": -120.1,
-        "tax_expense": 613.3,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 3345.6,
+        "tax_expense": 816.0,
+        "fcf_conversion_pct": -31.8,
         "fcf_bridge": {
           "calculated_ebitda": 6800,
-          "capex": 2528.8,
+          "capex": 4131.0,
           "cash_interest": 671.3,
-          "change_in_working_capital": -120.1,
-          "tax": 613.3,
-          "fcf": 3106.7,
-          "formula_check": "6800.0 - 2528.8 - 671.3 - (-120.1) - 613.3 = 3106.7"
+          "change_in_working_capital": 3345.6,
+          "tax": 816.0,
+          "fcf": -2163.9,
+          "formula_check": "6800.0 - 4131.0 - 671.3 - (3345.6) - 816.0 = -2163.9"
         }
       },
       {
@@ -40491,8 +39559,8 @@ const MASTER_ISSUERS = [
         "ebitda": 7650,
         "ebitda_margin_pct": 12.2,
         "cfo": 6358,
-        "capex": 2826.2,
-        "fcf": 3531.8,
+        "capex": 4647.4,
+        "fcf": -2474.3,
         "cash": 5418.8,
         "gross_debt": 14161,
         "net_debt": 8742.2,
@@ -40511,17 +39579,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$114.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 805.3,
-        "change_in_working_capital": -195.8,
-        "tax_expense": 682.5,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 3753.6,
+        "tax_expense": 918.0,
+        "fcf_conversion_pct": -32.3,
         "fcf_bridge": {
           "calculated_ebitda": 7650,
-          "capex": 2826.2,
+          "capex": 4647.4,
           "cash_interest": 805.3,
-          "change_in_working_capital": -195.8,
-          "tax": 682.5,
-          "fcf": 3531.8,
-          "formula_check": "7650.0 - 2826.2 - 805.3 - (-195.8) - 682.5 = 3531.8"
+          "change_in_working_capital": 3753.6,
+          "tax": 918.0,
+          "fcf": -2474.3,
+          "formula_check": "7650.0 - 4647.4 - 805.3 - (3753.6) - 918.0 = -2474.3"
         }
       },
       {
@@ -40531,8 +39599,8 @@ const MASTER_ISSUERS = [
         "ebitda": 8500,
         "ebitda_margin_pct": 12.5,
         "cfo": 7225,
-        "capex": 2975,
-        "fcf": 4250,
+        "capex": 4398.8,
+        "fcf": 10.5,
         "cash": 6375,
         "gross_debt": 14450,
         "net_debt": 8075,
@@ -40551,17 +39619,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$127.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 894.7,
-        "change_in_working_capital": -378,
-        "tax_expense": 758.3,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 2176.0,
+        "tax_expense": 1020.0,
+        "fcf_conversion_pct": 0.1,
         "fcf_bridge": {
           "calculated_ebitda": 8500,
-          "capex": 2975,
+          "capex": 4398.8,
           "cash_interest": 894.7,
-          "change_in_working_capital": -378,
-          "tax": 758.3,
-          "fcf": 4250,
-          "formula_check": "8500.0 - 2975.0 - 894.7 - (-378.0) - 758.3 = 4250.0"
+          "change_in_working_capital": 2176.0,
+          "tax": 1020.0,
+          "fcf": 10.5,
+          "formula_check": "8500.0 - 4398.8 - 894.7 - (2176.0) - 1020.0 = 10.5"
         }
       },
       {
@@ -40571,8 +39639,8 @@ const MASTER_ISSUERS = [
         "ebitda": 9350,
         "ebitda_margin_pct": 12.7,
         "cfo": 7947.5,
-        "capex": 3123.8,
-        "fcf": 4823.7,
+        "capex": 3997.1,
+        "fcf": 1022.2,
         "cash": 7522.5,
         "gross_debt": 14161,
         "net_debt": 6638.5,
@@ -40591,17 +39659,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$140.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 858.6,
-        "change_in_working_capital": -309.1,
-        "tax_expense": 853,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 2350.1,
+        "tax_expense": 1122.0,
+        "fcf_conversion_pct": 10.9,
         "fcf_bridge": {
           "calculated_ebitda": 9350,
-          "capex": 3123.8,
+          "capex": 3997.1,
           "cash_interest": 858.6,
-          "change_in_working_capital": -309.1,
-          "tax": 853,
-          "fcf": 4823.7,
-          "formula_check": "9350.0 - 3123.8 - 858.6 - (-309.1) - 853.0 = 4823.7"
+          "change_in_working_capital": 2350.1,
+          "tax": 1122.0,
+          "fcf": 1022.2,
+          "formula_check": "9350.0 - 3997.1 - 858.6 - (2350.1) - 1122.0 = 1022.2"
         }
       },
       {
@@ -40611,8 +39679,8 @@ const MASTER_ISSUERS = [
         "ebitda": 10030,
         "ebitda_margin_pct": 12.8,
         "cfo": 8525.5,
-        "capex": 3034.5,
-        "fcf": 5491,
+        "capex": 4287.8,
+        "fcf": 1212.7,
         "cash": 8606.2,
         "gross_debt": 13727.5,
         "net_debt": 5121.3,
@@ -40631,17 +39699,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$150.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 823.5,
-        "change_in_working_capital": -248.6,
-        "tax_expense": 929.6,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 2502.4,
+        "tax_expense": 1203.6,
+        "fcf_conversion_pct": 12.1,
         "fcf_bridge": {
           "calculated_ebitda": 10030,
-          "capex": 3034.5,
+          "capex": 4287.8,
           "cash_interest": 823.5,
-          "change_in_working_capital": -248.6,
-          "tax": 929.6,
-          "fcf": 5491,
-          "formula_check": "10030.0 - 3034.5 - 823.5 - (-248.6) - 929.6 = 5491.0"
+          "change_in_working_capital": 2502.4,
+          "tax": 1203.6,
+          "fcf": 1212.7,
+          "formula_check": "10030.0 - 4287.8 - 823.5 - (2502.4) - 1203.6 = 1212.7"
         }
       },
       {
@@ -40651,8 +39719,8 @@ const MASTER_ISSUERS = [
         "ebitda": 10540,
         "ebitda_margin_pct": 12.9,
         "cfo": 9031.2,
-        "capex": 2915.5,
-        "fcf": 6115.7,
+        "capex": 4505.8,
+        "fcf": 1371.0,
         "cash": 9562.5,
         "gross_debt": 13005,
         "net_debt": 3442.5,
@@ -40671,17 +39739,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$158.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 787.2,
-        "change_in_working_capital": -267,
-        "tax_expense": 988.6,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 2611.2,
+        "tax_expense": 1264.8,
+        "fcf_conversion_pct": 13.0,
         "fcf_bridge": {
           "calculated_ebitda": 10540,
-          "capex": 2915.5,
+          "capex": 4505.8,
           "cash_interest": 787.2,
-          "change_in_working_capital": -267,
-          "tax": 988.6,
-          "fcf": 6115.7,
-          "formula_check": "10540.0 - 2915.5 - 787.2 - (-267.0) - 988.6 = 6115.7"
+          "change_in_working_capital": 2611.2,
+          "tax": 1264.8,
+          "fcf": 1371.0,
+          "formula_check": "10540.0 - 4505.8 - 787.2 - (2611.2) - 1264.8 = 1371.0"
         }
       }
     ],
@@ -41141,7 +40209,10 @@ const MASTER_ISSUERS = [
       "model_file": "Pegasus_Airlines_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8107-8fe0-db205df2e609",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Pegasus_Airlines_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 23.0,
+      "net_leverage_2024a": 2.1
     },
     "financials_multi_year": [
       {
@@ -41151,8 +40222,8 @@ const MASTER_ISSUERS = [
         "ebitda": 617.5,
         "ebitda_margin_pct": 28.4,
         "cfo": 500.6,
-        "capex": 232.7,
-        "fcf": 267.9,
+        "capex": 246.4,
+        "fcf": 74.3,
         "cash": 391.9,
         "gross_debt": 2301.4,
         "net_debt": 1909.5,
@@ -41171,17 +40242,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 135.7,
-        "change_in_working_capital": -63.3,
-        "tax_expense": 44.5,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 87.0,
+        "tax_expense": 74.1,
+        "fcf_conversion_pct": 12.0,
         "fcf_bridge": {
           "calculated_ebitda": 617.5,
-          "capex": 232.7,
+          "capex": 246.4,
           "cash_interest": 135.7,
-          "change_in_working_capital": -63.3,
-          "tax": 44.5,
-          "fcf": 267.9,
-          "formula_check": "617.5 - 232.7 - 135.7 - (-63.3) - 44.5 = 267.9"
+          "change_in_working_capital": 87.0,
+          "tax": 74.1,
+          "fcf": 74.3,
+          "formula_check": "617.5 - 246.4 - 135.7 - (87.0) - 74.1 = 74.3"
         }
       },
       {
@@ -41191,8 +40262,8 @@ const MASTER_ISSUERS = [
         "ebitda": 760.0,
         "ebitda_margin_pct": 29.0,
         "cfo": 629.9,
-        "capex": 282.6,
-        "fcf": 347.3,
+        "capex": 430.9,
+        "fcf": -128.5,
         "cash": 498.7,
         "gross_debt": 2490.9,
         "net_debt": 1992.2,
@@ -41211,17 +40282,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$41.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 169.6,
-        "change_in_working_capital": -93.9,
-        "tax_expense": 54.4,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 196.8,
+        "tax_expense": 91.2,
+        "fcf_conversion_pct": -16.9,
         "fcf_bridge": {
           "calculated_ebitda": 760.0,
-          "capex": 282.6,
+          "capex": 430.9,
           "cash_interest": 169.6,
-          "change_in_working_capital": -93.9,
-          "tax": 54.4,
-          "fcf": 347.3,
-          "formula_check": "760.0 - 282.6 - 169.6 - (-93.9) - 54.4 = 347.3"
+          "change_in_working_capital": 196.8,
+          "tax": 91.2,
+          "fcf": -128.5,
+          "formula_check": "760.0 - 430.9 - 169.6 - (196.8) - 91.2 = -128.5"
         }
       },
       {
@@ -41231,8 +40302,8 @@ const MASTER_ISSUERS = [
         "ebitda": 855.0,
         "ebitda_margin_pct": 29.0,
         "cfo": 710.6,
-        "capex": 315.9,
-        "fcf": 394.7,
+        "capex": 484.8,
+        "fcf": -156.8,
         "cash": 605.6,
         "gross_debt": 2653.3,
         "net_debt": 2047.7,
@@ -41251,17 +40322,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$47.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 203.6,
-        "change_in_working_capital": -118.4,
-        "tax_expense": 59.2,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 220.8,
+        "tax_expense": 102.6,
+        "fcf_conversion_pct": -18.3,
         "fcf_bridge": {
           "calculated_ebitda": 855.0,
-          "capex": 315.9,
+          "capex": 484.8,
           "cash_interest": 203.6,
-          "change_in_working_capital": -118.4,
-          "tax": 59.2,
-          "fcf": 394.7,
-          "formula_check": "855.0 - 315.9 - 203.6 - (-118.4) - 59.2 = 394.7"
+          "change_in_working_capital": 220.8,
+          "tax": 102.6,
+          "fcf": -156.8,
+          "formula_check": "855.0 - 484.8 - 203.6 - (220.8) - 102.6 = -156.8"
         }
       },
       {
@@ -41271,8 +40342,8 @@ const MASTER_ISSUERS = [
         "ebitda": 950.0,
         "ebitda_margin_pct": 29.7,
         "cfo": 807.5,
-        "capex": 332.5,
-        "fcf": 475.0,
+        "capex": 458.8,
+        "fcf": 23.0,
         "cash": 712.5,
         "gross_debt": 2707.5,
         "net_debt": 1995.0,
@@ -41291,17 +40362,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$52.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 226.2,
-        "change_in_working_capital": -149.5,
-        "tax_expense": 65.8,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 128.0,
+        "tax_expense": 114.0,
+        "fcf_conversion_pct": 2.4,
         "fcf_bridge": {
           "calculated_ebitda": 950.0,
-          "capex": 332.5,
+          "capex": 458.8,
           "cash_interest": 226.2,
-          "change_in_working_capital": -149.5,
-          "tax": 65.8,
-          "fcf": 475.0,
-          "formula_check": "950.0 - 332.5 - 226.2 - (-149.5) - 65.8 = 475.0"
+          "change_in_working_capital": 128.0,
+          "tax": 114.0,
+          "fcf": 23.0,
+          "formula_check": "950.0 - 458.8 - 226.2 - (128.0) - 114.0 = 23.0"
         }
       },
       {
@@ -41311,8 +40382,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1045.0,
         "ebitda_margin_pct": 30.2,
         "cfo": 888.3,
-        "capex": 349.1,
-        "fcf": 539.2,
+        "capex": 417.0,
+        "fcf": 147.1,
         "cash": 840.8,
         "gross_debt": 2653.3,
         "net_debt": 1812.5,
@@ -41331,17 +40402,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 217.3,
-        "change_in_working_capital": -137.7,
-        "tax_expense": 77.1,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 138.2,
+        "tax_expense": 125.4,
+        "fcf_conversion_pct": 14.1,
         "fcf_bridge": {
           "calculated_ebitda": 1045.0,
-          "capex": 349.1,
+          "capex": 417.0,
           "cash_interest": 217.3,
-          "change_in_working_capital": -137.7,
-          "tax": 77.1,
-          "fcf": 539.2,
-          "formula_check": "1045.0 - 349.1 - 217.3 - (-137.7) - 77.1 = 539.2"
+          "change_in_working_capital": 138.2,
+          "tax": 125.4,
+          "fcf": 147.1,
+          "formula_check": "1045.0 - 417.0 - 217.3 - (138.2) - 125.4 = 147.1"
         }
       },
       {
@@ -41351,8 +40422,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1121.0,
         "ebitda_margin_pct": 30.5,
         "cfo": 952.8,
-        "capex": 339.2,
-        "fcf": 613.6,
+        "capex": 447.3,
+        "fcf": 184.0,
         "cash": 961.9,
         "gross_debt": 2572.1,
         "net_debt": 1610.2,
@@ -41371,17 +40442,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 208.0,
-        "change_in_working_capital": -126.3,
-        "tax_expense": 86.5,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 147.2,
+        "tax_expense": 134.5,
+        "fcf_conversion_pct": 16.4,
         "fcf_bridge": {
           "calculated_ebitda": 1121.0,
-          "capex": 339.2,
+          "capex": 447.3,
           "cash_interest": 208.0,
-          "change_in_working_capital": -126.3,
-          "tax": 86.5,
-          "fcf": 613.6,
-          "formula_check": "1121.0 - 339.2 - 208.0 - (-126.3) - 86.5 = 613.6"
+          "change_in_working_capital": 147.2,
+          "tax": 134.5,
+          "fcf": 184.0,
+          "formula_check": "1121.0 - 447.3 - 208.0 - (147.2) - 134.5 = 184.0"
         }
       },
       {
@@ -41391,8 +40462,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1178.0,
         "ebitda_margin_pct": 30.7,
         "cfo": 1009.4,
-        "capex": 325.8,
-        "fcf": 683.6,
+        "capex": 470.0,
+        "fcf": 214.0,
         "cash": 1068.8,
         "gross_debt": 2436.8,
         "net_debt": 1368.0,
@@ -41411,17 +40482,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 199.0,
-        "change_in_working_capital": -124.2,
-        "tax_expense": 93.8,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 153.6,
+        "tax_expense": 141.4,
+        "fcf_conversion_pct": 18.2,
         "fcf_bridge": {
           "calculated_ebitda": 1178.0,
-          "capex": 325.8,
+          "capex": 470.0,
           "cash_interest": 199.0,
-          "change_in_working_capital": -124.2,
-          "tax": 93.8,
-          "fcf": 683.6,
-          "formula_check": "1178.0 - 325.8 - 199.0 - (-124.2) - 93.8 = 683.6"
+          "change_in_working_capital": 153.6,
+          "tax": 141.4,
+          "fcf": 214.0,
+          "formula_check": "1178.0 - 470.0 - 199.0 - (153.6) - 141.4 = 214.0"
         }
       }
     ],
@@ -41858,7 +40929,10 @@ const MASTER_ISSUERS = [
       "model_file": "PGE_Poland_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81f6-b482-cbf468f60b59",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/PGE_Poland_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -1080.6,
+      "net_leverage_2024a": 1.85
     },
     "financials_multi_year": [
       {
@@ -41868,8 +40942,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1820.0,
         "ebitda_margin_pct": 13.7,
         "cfo": 1475.6,
-        "capex": 686.0,
-        "fcf": 789.6,
+        "capex": 1469.6,
+        "fcf": -384.2,
         "cash": 1155.0,
         "gross_debt": 6188.0,
         "net_debt": 5033.0,
@@ -41888,17 +40962,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 270.8,
-        "change_in_working_capital": -76.9,
-        "tax_expense": 150.5,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 318.2,
+        "tax_expense": 145.6,
+        "fcf_conversion_pct": -21.1,
         "fcf_bridge": {
           "calculated_ebitda": 1820.0,
-          "capex": 686.0,
+          "capex": 1469.6,
           "cash_interest": 270.8,
-          "change_in_working_capital": -76.9,
-          "tax": 150.5,
-          "fcf": 789.6,
-          "formula_check": "1820.0 - 686.0 - 270.8 - (-76.9) - 150.5 = 789.6"
+          "change_in_working_capital": 318.2,
+          "tax": 145.6,
+          "fcf": -384.2,
+          "formula_check": "1820.0 - 1469.6 - 270.8 - (318.2) - 145.6 = -384.2"
         }
       },
       {
@@ -41908,8 +40982,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2240.0,
         "ebitda_margin_pct": 14.0,
         "cfo": 1856.4,
-        "capex": 833.0,
-        "fcf": 1023.4,
+        "capex": 2570.4,
+        "fcf": -1568.0,
         "cash": 1470.0,
         "gross_debt": 6697.6,
         "net_debt": 5227.6,
@@ -41928,17 +41002,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 338.9,
-        "change_in_working_capital": -139.7,
-        "tax_expense": 184.4,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 719.5,
+        "tax_expense": 179.2,
+        "fcf_conversion_pct": -70.0,
         "fcf_bridge": {
           "calculated_ebitda": 2240.0,
-          "capex": 833.0,
+          "capex": 2570.4,
           "cash_interest": 338.9,
-          "change_in_working_capital": -139.7,
-          "tax": 184.4,
-          "fcf": 1023.4,
-          "formula_check": "2240.0 - 833.0 - 338.9 - (-139.7) - 184.4 = 1023.4"
+          "change_in_working_capital": 719.5,
+          "tax": 179.2,
+          "fcf": -1568.0,
+          "formula_check": "2240.0 - 2570.4 - 338.9 - (719.5) - 179.2 = -1568.0"
         }
       },
       {
@@ -41948,8 +41022,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2520.0,
         "ebitda_margin_pct": 14.0,
         "cfo": 2094.4,
-        "capex": 931.0,
-        "fcf": 1163.4,
+        "capex": 2891.7,
+        "fcf": -1787.1,
         "cash": 1785.0,
         "gross_debt": 7134.4,
         "net_debt": 5349.4,
@@ -41968,17 +41042,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$37.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 406.5,
-        "change_in_working_capital": -184.5,
-        "tax_expense": 203.6,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 807.3,
+        "tax_expense": 201.6,
+        "fcf_conversion_pct": -70.9,
         "fcf_bridge": {
           "calculated_ebitda": 2520.0,
-          "capex": 931.0,
+          "capex": 2891.7,
           "cash_interest": 406.5,
-          "change_in_working_capital": -184.5,
-          "tax": 203.6,
-          "fcf": 1163.4,
-          "formula_check": "2520.0 - 931.0 - 406.5 - (-184.5) - 203.6 = 1163.4"
+          "change_in_working_capital": 807.3,
+          "tax": 201.6,
+          "fcf": -1787.1,
+          "formula_check": "2520.0 - 2891.7 - 406.5 - (807.3) - 201.6 = -1787.1"
         }
       },
       {
@@ -41988,8 +41062,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2800.0,
         "ebitda_margin_pct": 14.4,
         "cfo": 2380.0,
-        "capex": 980.0,
-        "fcf": 1400.0,
+        "capex": 2737.0,
+        "fcf": -1080.6,
         "cash": 2100.0,
         "gross_debt": 7280.0,
         "net_debt": 5180.0,
@@ -42008,17 +41082,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$42.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 451.6,
-        "change_in_working_capital": -257.9,
-        "tax_expense": 226.3,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 468.0,
+        "tax_expense": 224.0,
+        "fcf_conversion_pct": -38.6,
         "fcf_bridge": {
           "calculated_ebitda": 2800.0,
-          "capex": 980.0,
+          "capex": 2737.0,
           "cash_interest": 451.6,
-          "change_in_working_capital": -257.9,
-          "tax": 226.3,
-          "fcf": 1400.0,
-          "formula_check": "2800.0 - 980.0 - 451.6 - (-257.9) - 226.3 = 1400.0"
+          "change_in_working_capital": 468.0,
+          "tax": 224.0,
+          "fcf": -1080.6,
+          "formula_check": "2800.0 - 2737.0 - 451.6 - (468.0) - 224.0 = -1080.6"
         }
       },
       {
@@ -42028,8 +41102,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3080.0,
         "ebitda_margin_pct": 14.6,
         "cfo": 2618.0,
-        "capex": 1029.0,
-        "fcf": 1589.0,
+        "capex": 2487.1,
+        "fcf": -592.7,
         "cash": 2478.0,
         "gross_debt": 7134.4,
         "net_debt": 4656.4,
@@ -42048,17 +41122,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 433.8,
-        "change_in_working_capital": -230.1,
-        "tax_expense": 258.3,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 505.4,
+        "tax_expense": 246.4,
+        "fcf_conversion_pct": -19.2,
         "fcf_bridge": {
           "calculated_ebitda": 3080.0,
-          "capex": 1029.0,
+          "capex": 2487.1,
           "cash_interest": 433.8,
-          "change_in_working_capital": -230.1,
-          "tax": 258.3,
-          "fcf": 1589.0,
-          "formula_check": "3080.0 - 1029.0 - 433.8 - (-230.1) - 258.3 = 1589.0"
+          "change_in_working_capital": 505.4,
+          "tax": 246.4,
+          "fcf": -592.7,
+          "formula_check": "3080.0 - 2487.1 - 433.8 - (505.4) - 246.4 = -592.7"
         }
       },
       {
@@ -42068,8 +41142,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3304.0,
         "ebitda_margin_pct": 14.7,
         "cfo": 2808.4,
-        "capex": 999.6,
-        "fcf": 1808.8,
+        "capex": 2668.0,
+        "fcf": -582.1,
         "cash": 2835.0,
         "gross_debt": 6916.0,
         "net_debt": 4081.0,
@@ -42088,17 +41162,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$49.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 415.6,
-        "change_in_working_capital": -204.6,
-        "tax_expense": 284.6,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 538.2,
+        "tax_expense": 264.3,
+        "fcf_conversion_pct": -17.6,
         "fcf_bridge": {
           "calculated_ebitda": 3304.0,
-          "capex": 999.6,
+          "capex": 2668.0,
           "cash_interest": 415.6,
-          "change_in_working_capital": -204.6,
-          "tax": 284.6,
-          "fcf": 1808.8,
-          "formula_check": "3304.0 - 999.6 - 415.6 - (-204.6) - 284.6 = 1808.8"
+          "change_in_working_capital": 538.2,
+          "tax": 264.3,
+          "fcf": -582.1,
+          "formula_check": "3304.0 - 2668.0 - 415.6 - (538.2) - 264.3 = -582.1"
         }
       },
       {
@@ -42108,8 +41182,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3472.0,
         "ebitda_margin_pct": 14.8,
         "cfo": 2975.0,
-        "capex": 960.4,
-        "fcf": 2014.6,
+        "capex": 2803.6,
+        "fcf": -568.3,
         "cash": 3150.0,
         "gross_debt": 6552.0,
         "net_debt": 3402.0,
@@ -42128,17 +41202,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$52.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 397.3,
-        "change_in_working_capital": -205.3,
-        "tax_expense": 305.0,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 561.6,
+        "tax_expense": 277.8,
+        "fcf_conversion_pct": -16.4,
         "fcf_bridge": {
           "calculated_ebitda": 3472.0,
-          "capex": 960.4,
+          "capex": 2803.6,
           "cash_interest": 397.3,
-          "change_in_working_capital": -205.3,
-          "tax": 305.0,
-          "fcf": 2014.6,
-          "formula_check": "3472.0 - 960.4 - 397.3 - (-205.3) - 305.0 = 2014.6"
+          "change_in_working_capital": 561.6,
+          "tax": 277.8,
+          "fcf": -568.3,
+          "formula_check": "3472.0 - 2803.6 - 397.3 - (561.6) - 277.8 = -568.3"
         }
       }
     ],
@@ -42579,7 +41653,10 @@ const MASTER_ISSUERS = [
       "model_file": "QazaqGaz_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81a3-958e-f261c82a5611",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/QazaqGaz_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 107.4,
+      "net_leverage_2024a": 1.2
     },
     "financials_multi_year": [
       {
@@ -42589,8 +41666,8 @@ const MASTER_ISSUERS = [
         "ebitda": 552.5,
         "ebitda_margin_pct": 29.0,
         "cfo": 447.9,
-        "capex": 208.2,
-        "fcf": 239.7,
+        "capex": 220.4,
+        "fcf": 118.8,
         "cash": 350.6,
         "gross_debt": 1408.9,
         "net_debt": 1058.3,
@@ -42609,17 +41686,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 70.8,
-        "change_in_working_capital": -13.6,
-        "tax_expense": 47.4,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 76.2,
+        "tax_expense": 66.3,
+        "fcf_conversion_pct": 21.5,
         "fcf_bridge": {
           "calculated_ebitda": 552.5,
-          "capex": 208.2,
+          "capex": 220.4,
           "cash_interest": 70.8,
-          "change_in_working_capital": -13.6,
-          "tax": 47.4,
-          "fcf": 239.7,
-          "formula_check": "552.5 - 208.2 - 70.8 - (-13.6) - 47.4 = 239.7"
+          "change_in_working_capital": 76.2,
+          "tax": 66.3,
+          "fcf": 118.8,
+          "formula_check": "552.5 - 220.4 - 70.8 - (76.2) - 66.3 = 118.8"
         }
       },
       {
@@ -42629,8 +41706,8 @@ const MASTER_ISSUERS = [
         "ebitda": 680.0,
         "ebitda_margin_pct": 29.6,
         "cfo": 563.6,
-        "capex": 252.9,
-        "fcf": 310.7,
+        "capex": 385.6,
+        "fcf": -47.9,
         "cash": 446.2,
         "gross_debt": 1524.9,
         "net_debt": 1078.7,
@@ -42649,17 +41726,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$10.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 88.5,
-        "change_in_working_capital": -30.2,
-        "tax_expense": 58.1,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 172.2,
+        "tax_expense": 81.6,
+        "fcf_conversion_pct": -7.0,
         "fcf_bridge": {
           "calculated_ebitda": 680.0,
-          "capex": 252.9,
+          "capex": 385.6,
           "cash_interest": 88.5,
-          "change_in_working_capital": -30.2,
-          "tax": 58.1,
-          "fcf": 310.7,
-          "formula_check": "680.0 - 252.9 - 88.5 - (-30.2) - 58.1 = 310.7"
+          "change_in_working_capital": 172.2,
+          "tax": 81.6,
+          "fcf": -47.9,
+          "formula_check": "680.0 - 385.6 - 88.5 - (172.2) - 81.6 = -47.9"
         }
       },
       {
@@ -42669,8 +41746,8 @@ const MASTER_ISSUERS = [
         "ebitda": 765.0,
         "ebitda_margin_pct": 29.7,
         "cfo": 635.8,
-        "capex": 282.6,
-        "fcf": 353.2,
+        "capex": 433.8,
+        "fcf": -60.0,
         "cash": 541.9,
         "gross_debt": 1624.3,
         "net_debt": 1082.4,
@@ -42689,17 +41766,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 106.2,
-        "change_in_working_capital": -41.4,
-        "tax_expense": 64.4,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 193.2,
+        "tax_expense": 91.8,
+        "fcf_conversion_pct": -7.8,
         "fcf_bridge": {
           "calculated_ebitda": 765.0,
-          "capex": 282.6,
+          "capex": 433.8,
           "cash_interest": 106.2,
-          "change_in_working_capital": -41.4,
-          "tax": 64.4,
-          "fcf": 353.2,
-          "formula_check": "765.0 - 282.6 - 106.2 - (-41.4) - 64.4 = 353.2"
+          "change_in_working_capital": 193.2,
+          "tax": 91.8,
+          "fcf": -60.0,
+          "formula_check": "765.0 - 433.8 - 106.2 - (193.2) - 91.8 = -60.0"
         }
       },
       {
@@ -42709,8 +41786,8 @@ const MASTER_ISSUERS = [
         "ebitda": 850.0,
         "ebitda_margin_pct": 30.4,
         "cfo": 722.5,
-        "capex": 297.5,
-        "fcf": 425.0,
+        "capex": 410.5,
+        "fcf": 107.4,
         "cash": 637.5,
         "gross_debt": 1657.5,
         "net_debt": 1020.0,
@@ -42729,17 +41806,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 118.1,
-        "change_in_working_capital": -62.1,
-        "tax_expense": 71.5,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 112.0,
+        "tax_expense": 102.0,
+        "fcf_conversion_pct": 12.6,
         "fcf_bridge": {
           "calculated_ebitda": 850.0,
-          "capex": 297.5,
+          "capex": 410.5,
           "cash_interest": 118.1,
-          "change_in_working_capital": -62.1,
-          "tax": 71.5,
-          "fcf": 425.0,
-          "formula_check": "850.0 - 297.5 - 118.1 - (-62.1) - 71.5 = 425.0"
+          "change_in_working_capital": 112.0,
+          "tax": 102.0,
+          "fcf": 107.4,
+          "formula_check": "850.0 - 410.5 - 118.1 - (112.0) - 102.0 = 107.4"
         }
       },
       {
@@ -42749,8 +41826,8 @@ const MASTER_ISSUERS = [
         "ebitda": 935.0,
         "ebitda_margin_pct": 30.9,
         "cfo": 794.8,
-        "capex": 312.4,
-        "fcf": 482.4,
+        "capex": 373.1,
+        "fcf": 215.4,
         "cash": 752.2,
         "gross_debt": 1624.3,
         "net_debt": 872.1,
@@ -42769,17 +41846,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 113.3,
-        "change_in_working_capital": -54.3,
-        "tax_expense": 81.2,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 121.0,
+        "tax_expense": 112.2,
+        "fcf_conversion_pct": 23.0,
         "fcf_bridge": {
           "calculated_ebitda": 935.0,
-          "capex": 312.4,
+          "capex": 373.1,
           "cash_interest": 113.3,
-          "change_in_working_capital": -54.3,
-          "tax": 81.2,
-          "fcf": 482.4,
-          "formula_check": "935.0 - 312.4 - 113.3 - (-54.3) - 81.2 = 482.4"
+          "change_in_working_capital": 121.0,
+          "tax": 112.2,
+          "fcf": 215.4,
+          "formula_check": "935.0 - 373.1 - 113.3 - (121.0) - 112.2 = 215.4"
         }
       },
       {
@@ -42789,8 +41866,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1003.0,
         "ebitda_margin_pct": 31.1,
         "cfo": 852.5,
-        "capex": 303.4,
-        "fcf": 549.1,
+        "capex": 400.2,
+        "fcf": 244.9,
         "cash": 860.6,
         "gross_debt": 1574.6,
         "net_debt": 714.0,
@@ -42809,17 +41886,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 108.7,
-        "change_in_working_capital": -47.2,
-        "tax_expense": 89.0,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 128.8,
+        "tax_expense": 120.4,
+        "fcf_conversion_pct": 24.4,
         "fcf_bridge": {
           "calculated_ebitda": 1003.0,
-          "capex": 303.4,
+          "capex": 400.2,
           "cash_interest": 108.7,
-          "change_in_working_capital": -47.2,
-          "tax": 89.0,
-          "fcf": 549.1,
-          "formula_check": "1003.0 - 303.4 - 108.7 - (-47.2) - 89.0 = 549.1"
+          "change_in_working_capital": 128.8,
+          "tax": 120.4,
+          "fcf": 244.9,
+          "formula_check": "1003.0 - 400.2 - 108.7 - (128.8) - 120.4 = 244.9"
         }
       },
       {
@@ -42829,8 +41906,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1054.0,
         "ebitda_margin_pct": 31.4,
         "cfo": 903.1,
-        "capex": 291.6,
-        "fcf": 611.5,
+        "capex": 420.5,
+        "fcf": 268.8,
         "cash": 956.2,
         "gross_debt": 1491.8,
         "net_debt": 535.6,
@@ -42849,17 +41926,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 103.8,
-        "change_in_working_capital": -48.0,
-        "tax_expense": 95.1,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 134.4,
+        "tax_expense": 126.5,
+        "fcf_conversion_pct": 25.5,
         "fcf_bridge": {
           "calculated_ebitda": 1054.0,
-          "capex": 291.6,
+          "capex": 420.5,
           "cash_interest": 103.8,
-          "change_in_working_capital": -48.0,
-          "tax": 95.1,
-          "fcf": 611.5,
-          "formula_check": "1054.0 - 291.6 - 103.8 - (-48.0) - 95.1 = 611.5"
+          "change_in_working_capital": 134.4,
+          "tax": 126.5,
+          "fcf": 268.8,
+          "formula_check": "1054.0 - 420.5 - 103.8 - (134.4) - 126.5 = 268.8"
         }
       }
     ],
@@ -43299,7 +42376,8 @@ const MASTER_ISSUERS = [
       "model_file": "Qatar_National_Bank_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8117-94c5-eab03b70e22b",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Qatar_National_Bank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -43329,25 +42407,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -43376,25 +42440,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -43423,25 +42473,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -43470,25 +42506,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -43517,25 +42539,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -43564,25 +42572,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -43611,25 +42605,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -44069,7 +43049,8 @@ const MASTER_ISSUERS = [
       "model_file": "Al_Rajhi_Bank_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681638bc7f769eb59d81d",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Al_Rajhi_Bank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -44099,25 +43080,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -44146,25 +43113,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -44193,25 +43146,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -44240,25 +43179,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -44287,25 +43212,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -44334,25 +43245,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -44381,25 +43278,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -44839,7 +43722,8 @@ const MASTER_ISSUERS = [
       "model_file": "Riyad_Bank_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681638bc7f769eb59d81d",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Riyad_Bank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -44869,25 +43753,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -44916,25 +43786,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -44963,25 +43819,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -45010,25 +43852,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -45057,25 +43885,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -45104,25 +43918,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -45151,25 +43951,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -45609,7 +44395,10 @@ const MASTER_ISSUERS = [
       "model_file": "Romgaz_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81a2-b091-d537c2acc0a5",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Romgaz_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 206.4,
+      "net_leverage_2024a": 0.65
     },
     "financials_multi_year": [
       {
@@ -45619,8 +44408,8 @@ const MASTER_ISSUERS = [
         "ebitda": 637.0,
         "ebitda_margin_pct": 44.6,
         "cfo": 516.5,
-        "capex": 240.1,
-        "fcf": 276.4,
+        "capex": 272.3,
+        "fcf": 193.6,
         "cash": 404.3,
         "gross_debt": 1166.2,
         "net_debt": 761.9,
@@ -45639,17 +44428,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 49.0,
-        "change_in_working_capital": 12.0,
-        "tax_expense": 59.5,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 45.7,
+        "tax_expense": 76.4,
+        "fcf_conversion_pct": 30.4,
         "fcf_bridge": {
           "calculated_ebitda": 637.0,
-          "capex": 240.1,
+          "capex": 272.3,
           "cash_interest": 49.0,
-          "change_in_working_capital": 12.0,
-          "tax": 59.5,
-          "fcf": 276.4,
-          "formula_check": "637.0 - 240.1 - 49.0 - (12.0) - 59.5 = 276.4"
+          "change_in_working_capital": 45.7,
+          "tax": 76.4,
+          "fcf": 193.6,
+          "formula_check": "637.0 - 272.3 - 49.0 - (45.7) - 76.4 = 193.6"
         }
       },
       {
@@ -45659,8 +44448,8 @@ const MASTER_ISSUERS = [
         "ebitda": 784.0,
         "ebitda_margin_pct": 45.5,
         "cfo": 649.7,
-        "capex": 291.6,
-        "fcf": 358.1,
+        "capex": 476.3,
+        "fcf": 49.1,
         "cash": 514.5,
         "gross_debt": 1262.2,
         "net_debt": 747.7,
@@ -45679,17 +44468,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 61.2,
-        "change_in_working_capital": 0.0,
-        "tax_expense": 73.1,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 103.3,
+        "tax_expense": 94.1,
+        "fcf_conversion_pct": 6.3,
         "fcf_bridge": {
           "calculated_ebitda": 784.0,
-          "capex": 291.6,
+          "capex": 476.3,
           "cash_interest": 61.2,
-          "change_in_working_capital": 0.0,
-          "tax": 73.1,
-          "fcf": 358.1,
-          "formula_check": "784.0 - 291.6 - 61.2 - (0.0) - 73.1 = 358.1"
+          "change_in_working_capital": 103.3,
+          "tax": 94.1,
+          "fcf": 49.1,
+          "formula_check": "784.0 - 476.3 - 61.2 - (103.3) - 94.1 = 49.1"
         }
       },
       {
@@ -45699,8 +44488,8 @@ const MASTER_ISSUERS = [
         "ebitda": 882.0,
         "ebitda_margin_pct": 45.7,
         "cfo": 733.0,
-        "capex": 325.8,
-        "fcf": 407.2,
+        "capex": 535.8,
+        "fcf": 51.0,
         "cash": 624.8,
         "gross_debt": 1344.6,
         "net_debt": 719.8,
@@ -45719,17 +44508,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 73.5,
-        "change_in_working_capital": -6.1,
-        "tax_expense": 81.6,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 115.9,
+        "tax_expense": 105.8,
+        "fcf_conversion_pct": 5.8,
         "fcf_bridge": {
           "calculated_ebitda": 882.0,
-          "capex": 325.8,
+          "capex": 535.8,
           "cash_interest": 73.5,
-          "change_in_working_capital": -6.1,
-          "tax": 81.6,
-          "fcf": 407.2,
-          "formula_check": "882.0 - 325.8 - 73.5 - (-6.1) - 81.6 = 407.2"
+          "change_in_working_capital": 115.9,
+          "tax": 105.8,
+          "fcf": 51.0,
+          "formula_check": "882.0 - 535.8 - 73.5 - (115.9) - 105.8 = 51.0"
         }
       },
       {
@@ -45739,8 +44528,8 @@ const MASTER_ISSUERS = [
         "ebitda": 980.0,
         "ebitda_margin_pct": 46.7,
         "cfo": 833.0,
-        "capex": 343.0,
-        "fcf": 490.0,
+        "capex": 507.1,
+        "fcf": 206.4,
         "cash": 735.0,
         "gross_debt": 1372.0,
         "net_debt": 637.0,
@@ -45759,17 +44548,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 81.7,
-        "change_in_working_capital": -25.3,
-        "tax_expense": 90.6,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 67.2,
+        "tax_expense": 117.6,
+        "fcf_conversion_pct": 21.1,
         "fcf_bridge": {
           "calculated_ebitda": 980.0,
-          "capex": 343.0,
+          "capex": 507.1,
           "cash_interest": 81.7,
-          "change_in_working_capital": -25.3,
-          "tax": 90.6,
-          "fcf": 490.0,
-          "formula_check": "980.0 - 343.0 - 81.7 - (-25.3) - 90.6 = 490.0"
+          "change_in_working_capital": 67.2,
+          "tax": 117.6,
+          "fcf": 206.4,
+          "formula_check": "980.0 - 507.1 - 81.7 - (67.2) - 117.6 = 206.4"
         }
       },
       {
@@ -45779,8 +44568,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1078.0,
         "ebitda_margin_pct": 47.5,
         "cfo": 916.3,
-        "capex": 360.2,
-        "fcf": 556.1,
+        "capex": 460.8,
+        "fcf": 336.8,
         "cash": 867.3,
         "gross_debt": 1344.6,
         "net_debt": 477.3,
@@ -45799,17 +44588,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 78.4,
-        "change_in_working_capital": -18.1,
-        "tax_expense": 101.4,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 72.6,
+        "tax_expense": 129.4,
+        "fcf_conversion_pct": 31.2,
         "fcf_bridge": {
           "calculated_ebitda": 1078.0,
-          "capex": 360.2,
+          "capex": 460.8,
           "cash_interest": 78.4,
-          "change_in_working_capital": -18.1,
-          "tax": 101.4,
-          "fcf": 556.1,
-          "formula_check": "1078.0 - 360.2 - 78.4 - (-18.1) - 101.4 = 556.1"
+          "change_in_working_capital": 72.6,
+          "tax": 129.4,
+          "fcf": 336.8,
+          "formula_check": "1078.0 - 460.8 - 78.4 - (72.6) - 129.4 = 336.8"
         }
       },
       {
@@ -45819,8 +44608,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1156.4,
         "ebitda_margin_pct": 47.9,
         "cfo": 982.9,
-        "capex": 349.9,
-        "fcf": 633.0,
+        "capex": 494.4,
+        "fcf": 370.8,
         "cash": 992.3,
         "gross_debt": 1303.4,
         "net_debt": 311.1,
@@ -45839,17 +44628,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 75.1,
-        "change_in_working_capital": -11.8,
-        "tax_expense": 110.2,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 77.3,
+        "tax_expense": 138.8,
+        "fcf_conversion_pct": 32.1,
         "fcf_bridge": {
           "calculated_ebitda": 1156.4,
-          "capex": 349.9,
+          "capex": 494.4,
           "cash_interest": 75.1,
-          "change_in_working_capital": -11.8,
-          "tax": 110.2,
-          "fcf": 633.0,
-          "formula_check": "1156.4 - 349.9 - 75.1 - (-11.8) - 110.2 = 633.0"
+          "change_in_working_capital": 77.3,
+          "tax": 138.8,
+          "fcf": 370.8,
+          "formula_check": "1156.4 - 494.4 - 75.1 - (77.3) - 138.8 = 370.8"
         }
       },
       {
@@ -45859,8 +44648,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1215.2,
         "ebitda_margin_pct": 48.2,
         "cfo": 1041.2,
-        "capex": 336.1,
-        "fcf": 705.1,
+        "capex": 519.5,
+        "fcf": 397.4,
         "cash": 1102.5,
         "gross_debt": 1234.8,
         "net_debt": 132.3,
@@ -45879,17 +44668,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.9,
-        "change_in_working_capital": -14.7,
-        "tax_expense": 116.8,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 80.6,
+        "tax_expense": 145.8,
+        "fcf_conversion_pct": 32.7,
         "fcf_bridge": {
           "calculated_ebitda": 1215.2,
-          "capex": 336.1,
+          "capex": 519.5,
           "cash_interest": 71.9,
-          "change_in_working_capital": -14.7,
-          "tax": 116.8,
-          "fcf": 705.1,
-          "formula_check": "1215.2 - 336.1 - 71.9 - (-14.7) - 116.8 = 705.1"
+          "change_in_working_capital": 80.6,
+          "tax": 145.8,
+          "fcf": 397.4,
+          "formula_check": "1215.2 - 519.5 - 71.9 - (80.6) - 145.8 = 397.4"
         }
       }
     ],
@@ -46349,7 +45138,10 @@ const MASTER_ISSUERS = [
       "model_file": "SABIC_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81ff-9075-f5032be66b0e",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/SABIC_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -398.6,
+      "net_leverage_2024a": 1.15
     },
     "financials_multi_year": [
       {
@@ -46359,8 +45151,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3770.0,
         "ebitda_margin_pct": 14.4,
         "cfo": 3056.6,
-        "capex": 1421.0,
-        "fcf": 1635.6,
+        "capex": 1790.8,
+        "fcf": 108.8,
         "cash": 2392.5,
         "gross_debt": 9367.0,
         "net_debt": 6974.5,
@@ -46379,17 +45171,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$56.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 446.2,
-        "change_in_working_capital": -61.7,
-        "tax_expense": 328.9,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 1047.2,
+        "tax_expense": 377.0,
+        "fcf_conversion_pct": 2.9,
         "fcf_bridge": {
           "calculated_ebitda": 3770.0,
-          "capex": 1421.0,
+          "capex": 1790.8,
           "cash_interest": 446.2,
-          "change_in_working_capital": -61.7,
-          "tax": 328.9,
-          "fcf": 1635.6,
-          "formula_check": "3770.0 - 1421.0 - 446.2 - (-61.7) - 328.9 = 1635.6"
+          "change_in_working_capital": 1047.2,
+          "tax": 377.0,
+          "fcf": 108.8,
+          "formula_check": "3770.0 - 1790.8 - 446.2 - (1047.2) - 377.0 = 108.8"
         }
       },
       {
@@ -46399,8 +45191,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4640.0,
         "ebitda_margin_pct": 14.7,
         "cfo": 3845.4,
-        "capex": 1725.5,
-        "fcf": 2119.9,
+        "capex": 3132.0,
+        "fcf": -1881.5,
         "cash": 3045.0,
         "gross_debt": 10138.4,
         "net_debt": 7093.4,
@@ -46419,17 +45211,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$69.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 557.7,
-        "change_in_working_capital": -166.6,
-        "tax_expense": 403.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 2367.8,
+        "tax_expense": 464.0,
+        "fcf_conversion_pct": -40.5,
         "fcf_bridge": {
           "calculated_ebitda": 4640.0,
-          "capex": 1725.5,
+          "capex": 3132.0,
           "cash_interest": 557.7,
-          "change_in_working_capital": -166.6,
-          "tax": 403.5,
-          "fcf": 2119.9,
-          "formula_check": "4640.0 - 1725.5 - 557.7 - (-166.6) - 403.5 = 2119.9"
+          "change_in_working_capital": 2367.8,
+          "tax": 464.0,
+          "fcf": -1881.5,
+          "formula_check": "4640.0 - 3132.0 - 557.7 - (2367.8) - 464.0 = -1881.5"
         }
       },
       {
@@ -46439,8 +45231,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5220.0,
         "ebitda_margin_pct": 14.7,
         "cfo": 4338.4,
-        "capex": 1928.5,
-        "fcf": 2409.9,
+        "capex": 3523.5,
+        "fcf": -2151.2,
         "cash": 3697.5,
         "gross_debt": 10799.6,
         "net_debt": 7102.1,
@@ -46459,17 +45251,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$78.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 669.2,
-        "change_in_working_capital": -235.3,
-        "tax_expense": 447.7,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 2656.5,
+        "tax_expense": 522.0,
+        "fcf_conversion_pct": -41.2,
         "fcf_bridge": {
           "calculated_ebitda": 5220.0,
-          "capex": 1928.5,
+          "capex": 3523.5,
           "cash_interest": 669.2,
-          "change_in_working_capital": -235.3,
-          "tax": 447.7,
-          "fcf": 2409.9,
-          "formula_check": "5220.0 - 1928.5 - 669.2 - (-235.3) - 447.7 = 2409.9"
+          "change_in_working_capital": 2656.5,
+          "tax": 522.0,
+          "fcf": -2151.2,
+          "formula_check": "5220.0 - 3523.5 - 669.2 - (2656.5) - 522.0 = -2151.2"
         }
       },
       {
@@ -46479,8 +45271,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5800.0,
         "ebitda_margin_pct": 15.1,
         "cfo": 4930.0,
-        "capex": 2030.0,
-        "fcf": 2900.0,
+        "capex": 3335.0,
+        "fcf": -398.6,
         "cash": 4350.0,
         "gross_debt": 11020.0,
         "net_debt": 6670.0,
@@ -46499,17 +45291,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$87.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 743.6,
-        "change_in_working_capital": -371.1,
-        "tax_expense": 497.5,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 1540.0,
+        "tax_expense": 580.0,
+        "fcf_conversion_pct": -6.9,
         "fcf_bridge": {
           "calculated_ebitda": 5800.0,
-          "capex": 2030.0,
+          "capex": 3335.0,
           "cash_interest": 743.6,
-          "change_in_working_capital": -371.1,
-          "tax": 497.5,
-          "fcf": 2900.0,
-          "formula_check": "5800.0 - 2030.0 - 743.6 - (-371.1) - 497.5 = 2900.0"
+          "change_in_working_capital": 1540.0,
+          "tax": 580.0,
+          "fcf": -398.6,
+          "formula_check": "5800.0 - 3335.0 - 743.6 - (1540.0) - 580.0 = -398.6"
         }
       },
       {
@@ -46519,8 +45311,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6380.0,
         "ebitda_margin_pct": 15.3,
         "cfo": 5423.0,
-        "capex": 2131.5,
-        "fcf": 3291.5,
+        "capex": 3030.5,
+        "fcf": 334.7,
         "cash": 5133.0,
         "gross_debt": 10799.6,
         "net_debt": 5666.6,
@@ -46539,17 +45331,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$95.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 713.6,
-        "change_in_working_capital": -319.5,
-        "tax_expense": 562.9,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 1663.2,
+        "tax_expense": 638.0,
+        "fcf_conversion_pct": 5.2,
         "fcf_bridge": {
           "calculated_ebitda": 6380.0,
-          "capex": 2131.5,
+          "capex": 3030.5,
           "cash_interest": 713.6,
-          "change_in_working_capital": -319.5,
-          "tax": 562.9,
-          "fcf": 3291.5,
-          "formula_check": "6380.0 - 2131.5 - 713.6 - (-319.5) - 562.9 = 3291.5"
+          "change_in_working_capital": 1663.2,
+          "tax": 638.0,
+          "fcf": 334.7,
+          "formula_check": "6380.0 - 3030.5 - 713.6 - (1663.2) - 638.0 = 334.7"
         }
       },
       {
@@ -46559,8 +45351,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6844.0,
         "ebitda_margin_pct": 15.5,
         "cfo": 5817.4,
-        "capex": 2070.6,
-        "fcf": 3746.8,
+        "capex": 3250.9,
+        "fcf": 453.3,
         "cash": 5872.5,
         "gross_debt": 10469.0,
         "net_debt": 4596.5,
@@ -46579,17 +45371,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$102.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 684.4,
-        "change_in_working_capital": -273.8,
-        "tax_expense": 616.0,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 1771.0,
+        "tax_expense": 684.4,
+        "fcf_conversion_pct": 6.6,
         "fcf_bridge": {
           "calculated_ebitda": 6844.0,
-          "capex": 2070.6,
+          "capex": 3250.9,
           "cash_interest": 684.4,
-          "change_in_working_capital": -273.8,
-          "tax": 616.0,
-          "fcf": 3746.8,
-          "formula_check": "6844.0 - 2070.6 - 684.4 - (-273.8) - 616.0 = 3746.8"
+          "change_in_working_capital": 1771.0,
+          "tax": 684.4,
+          "fcf": 453.3,
+          "formula_check": "6844.0 - 3250.9 - 684.4 - (1771.0) - 684.4 = 453.3"
         }
       },
       {
@@ -46599,8 +45391,8 @@ const MASTER_ISSUERS = [
         "ebitda": 7192.0,
         "ebitda_margin_pct": 15.6,
         "cfo": 6162.5,
-        "capex": 1989.4,
-        "fcf": 4173.1,
+        "capex": 3416.2,
+        "fcf": 554.2,
         "cash": 6525.0,
         "gross_debt": 9918.0,
         "net_debt": 3393.0,
@@ -46619,17 +45411,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$107.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 654.4,
-        "change_in_working_capital": -281.9,
-        "tax_expense": 657.0,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 1848.0,
+        "tax_expense": 719.2,
+        "fcf_conversion_pct": 7.7,
         "fcf_bridge": {
           "calculated_ebitda": 7192.0,
-          "capex": 1989.4,
+          "capex": 3416.2,
           "cash_interest": 654.4,
-          "change_in_working_capital": -281.9,
-          "tax": 657.0,
-          "fcf": 4173.1,
-          "formula_check": "7192.0 - 1989.4 - 654.4 - (-281.9) - 657.0 = 4173.1"
+          "change_in_working_capital": 1848.0,
+          "tax": 719.2,
+          "fcf": 554.2,
+          "formula_check": "7192.0 - 3416.2 - 654.4 - (1848.0) - 719.2 = 554.2"
         }
       }
     ],
@@ -47087,7 +45879,10 @@ const MASTER_ISSUERS = [
       "model_file": "Sampa_Otomotiv_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681f7b42fd45e6b8cf51e",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sampa_Otomotiv_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 8.7,
+      "net_leverage_2024a": 1.54
     },
     "financials_multi_year": [
       {
@@ -47097,8 +45892,8 @@ const MASTER_ISSUERS = [
         "ebitda": 50.7,
         "ebitda_margin_pct": 21.9,
         "cfo": 41.1,
-        "capex": 19.1,
-        "fcf": 22.0,
+        "capex": 16.9,
+        "fcf": 9.9,
         "cash": 32.2,
         "gross_debt": 151.8,
         "net_debt": 119.6,
@@ -47117,17 +45912,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.6,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.6% (+$0.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 10.8,
-        "change_in_working_capital": -4.9,
-        "tax_expense": 3.7,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 5.5,
+        "tax_expense": 7.6,
+        "fcf_conversion_pct": 19.5,
         "fcf_bridge": {
           "calculated_ebitda": 50.7,
-          "capex": 19.1,
+          "capex": 16.9,
           "cash_interest": 10.8,
-          "change_in_working_capital": -4.9,
-          "tax": 3.7,
-          "fcf": 22.0,
-          "formula_check": "50.7 - 19.1 - 10.8 - (-4.9) - 3.7 = 22.0"
+          "change_in_working_capital": 5.5,
+          "tax": 7.6,
+          "fcf": 9.9,
+          "formula_check": "50.7 - 16.9 - 10.8 - (5.5) - 7.6 = 9.9"
         }
       },
       {
@@ -47137,8 +45932,8 @@ const MASTER_ISSUERS = [
         "ebitda": 62.4,
         "ebitda_margin_pct": 22.4,
         "cfo": 51.7,
-        "capex": 23.2,
-        "fcf": 28.5,
+        "capex": 29.5,
+        "fcf": -2.5,
         "cash": 40.9,
         "gross_debt": 164.3,
         "net_debt": 123.4,
@@ -47157,17 +45952,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.4,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$3.4M / +5.4%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 13.5,
-        "change_in_working_capital": -7.3,
-        "tax_expense": 4.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 12.5,
+        "tax_expense": 9.4,
+        "fcf_conversion_pct": -4.0,
         "fcf_bridge": {
           "calculated_ebitda": 62.4,
-          "capex": 23.2,
+          "capex": 29.5,
           "cash_interest": 13.5,
-          "change_in_working_capital": -7.3,
-          "tax": 4.5,
-          "fcf": 28.5,
-          "formula_check": "62.4 - 23.2 - 13.5 - (-7.3) - 4.5 = 28.5"
+          "change_in_working_capital": 12.5,
+          "tax": 9.4,
+          "fcf": -2.5,
+          "formula_check": "62.4 - 29.5 - 13.5 - (12.5) - 9.4 = -2.5"
         }
       },
       {
@@ -47177,8 +45972,8 @@ const MASTER_ISSUERS = [
         "ebitda": 70.2,
         "ebitda_margin_pct": 22.4,
         "cfo": 58.3,
-        "capex": 25.9,
-        "fcf": 32.4,
+        "capex": 33.2,
+        "fcf": -3.8,
         "cash": 49.7,
         "gross_debt": 175.0,
         "net_debt": 125.3,
@@ -47197,17 +45992,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.6,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$3.9M / +5.6%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 16.2,
-        "change_in_working_capital": -9.2,
-        "tax_expense": 4.9,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 14.1,
+        "tax_expense": 10.5,
+        "fcf_conversion_pct": -5.4,
         "fcf_bridge": {
           "calculated_ebitda": 70.2,
-          "capex": 25.9,
+          "capex": 33.2,
           "cash_interest": 16.2,
-          "change_in_working_capital": -9.2,
-          "tax": 4.9,
-          "fcf": 32.4,
-          "formula_check": "70.2 - 25.9 - 16.2 - (-9.2) - 4.9 = 32.4"
+          "change_in_working_capital": 14.1,
+          "tax": 10.5,
+          "fcf": -3.8,
+          "formula_check": "70.2 - 33.2 - 16.2 - (14.1) - 10.5 = -3.8"
         }
       },
       {
@@ -47217,8 +46012,8 @@ const MASTER_ISSUERS = [
         "ebitda": 78.0,
         "ebitda_margin_pct": 22.9,
         "cfo": 66.3,
-        "capex": 27.3,
-        "fcf": 39.0,
+        "capex": 31.4,
+        "fcf": 8.7,
         "cash": 58.5,
         "gross_debt": 178.6,
         "net_debt": 120.1,
@@ -47237,17 +46032,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$4.3M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 18.0,
-        "change_in_working_capital": -11.8,
-        "tax_expense": 5.5,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 8.2,
+        "tax_expense": 11.7,
+        "fcf_conversion_pct": 11.2,
         "fcf_bridge": {
           "calculated_ebitda": 78.0,
-          "capex": 27.3,
+          "capex": 31.4,
           "cash_interest": 18.0,
-          "change_in_working_capital": -11.8,
-          "tax": 5.5,
-          "fcf": 39.0,
-          "formula_check": "78.0 - 27.3 - 18.0 - (-11.8) - 5.5 = 39.0"
+          "change_in_working_capital": 8.2,
+          "tax": 11.7,
+          "fcf": 8.7,
+          "formula_check": "78.0 - 31.4 - 18.0 - (8.2) - 11.7 = 8.7"
         }
       },
       {
@@ -47257,8 +46052,8 @@ const MASTER_ISSUERS = [
         "ebitda": 85.8,
         "ebitda_margin_pct": 23.4,
         "cfo": 72.9,
-        "capex": 28.7,
-        "fcf": 44.2,
+        "capex": 28.5,
+        "fcf": 18.3,
         "cash": 69.0,
         "gross_debt": 175.0,
         "net_debt": 106.0,
@@ -47277,17 +46072,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 17.3,
-        "change_in_working_capital": -10.8,
-        "tax_expense": 6.4,
-        "fcf_conversion_pct": 51.5,
+        "change_in_working_capital": 8.8,
+        "tax_expense": 12.9,
+        "fcf_conversion_pct": 21.3,
         "fcf_bridge": {
           "calculated_ebitda": 85.8,
-          "capex": 28.7,
+          "capex": 28.5,
           "cash_interest": 17.3,
-          "change_in_working_capital": -10.8,
-          "tax": 6.4,
-          "fcf": 44.2,
-          "formula_check": "85.8 - 28.7 - 17.3 - (-10.8) - 6.4 = 44.2"
+          "change_in_working_capital": 8.8,
+          "tax": 12.9,
+          "fcf": 18.3,
+          "formula_check": "85.8 - 28.5 - 17.3 - (8.8) - 12.9 = 18.3"
         }
       },
       {
@@ -47297,8 +46092,8 @@ const MASTER_ISSUERS = [
         "ebitda": 92.0,
         "ebitda_margin_pct": 23.5,
         "cfo": 78.2,
-        "capex": 27.8,
-        "fcf": 50.4,
+        "capex": 30.6,
+        "fcf": 21.6,
         "cash": 79.0,
         "gross_debt": 169.7,
         "net_debt": 90.7,
@@ -47317,17 +46112,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 16.6,
-        "change_in_working_capital": -10.0,
-        "tax_expense": 7.2,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 9.4,
+        "tax_expense": 13.8,
+        "fcf_conversion_pct": 23.5,
         "fcf_bridge": {
           "calculated_ebitda": 92.0,
-          "capex": 27.8,
+          "capex": 30.6,
           "cash_interest": 16.6,
-          "change_in_working_capital": -10.0,
-          "tax": 7.2,
-          "fcf": 50.4,
-          "formula_check": "92.0 - 27.8 - 16.6 - (-10.0) - 7.2 = 50.4"
+          "change_in_working_capital": 9.4,
+          "tax": 13.8,
+          "fcf": 21.6,
+          "formula_check": "92.0 - 30.6 - 16.6 - (9.4) - 13.8 = 21.6"
         }
       },
       {
@@ -47337,8 +46132,8 @@ const MASTER_ISSUERS = [
         "ebitda": 96.7,
         "ebitda_margin_pct": 23.7,
         "cfo": 82.9,
-        "capex": 26.8,
-        "fcf": 56.1,
+        "capex": 32.2,
+        "fcf": 24.3,
         "cash": 87.8,
         "gross_debt": 160.8,
         "net_debt": 73.0,
@@ -47357,17 +46152,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.6,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.6% (+$1.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 15.9,
-        "change_in_working_capital": -9.9,
-        "tax_expense": 7.8,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 9.8,
+        "tax_expense": 14.5,
+        "fcf_conversion_pct": 25.1,
         "fcf_bridge": {
           "calculated_ebitda": 96.7,
-          "capex": 26.8,
+          "capex": 32.2,
           "cash_interest": 15.9,
-          "change_in_working_capital": -9.9,
-          "tax": 7.8,
-          "fcf": 56.1,
-          "formula_check": "96.7 - 26.8 - 15.9 - (-9.9) - 7.8 = 56.1"
+          "change_in_working_capital": 9.8,
+          "tax": 14.5,
+          "fcf": 24.3,
+          "formula_check": "96.7 - 32.2 - 15.9 - (9.8) - 14.5 = 24.3"
         }
       }
     ],
@@ -47805,18 +46600,21 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sasol_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "sasol",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/sasol/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/sasol/description",
+      "model_type": "corp",
+      "fcf_2024a": -230.0,
+      "net_leverage_2024a": 2.04
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 9656,
-        "ebitda": 1852.5,
-        "ebitda_margin_pct": 19.2,
+        "revenue": 12500.0,
+        "ebitda": 2850.0,
+        "ebitda_margin_pct": 22.8,
         "cfo": 1502,
-        "capex": 698.2,
-        "fcf": 803.8,
+        "capex": 1150.0,
+        "fcf": 920.0,
         "cash": 1175.6,
         "gross_debt": 6758.8,
         "net_debt": 5583.2,
@@ -47829,34 +46627,34 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 1880.3,
-        "calculated_ebitda": 1852.5,
+        "reported_ebitda": 2907.0,
+        "calculated_ebitda": 2850.0,
         "ebitda_reconciliation_variance_usd_m": 27.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 330.2,
-        "change_in_working_capital": -124.7,
-        "tax_expense": 145,
-        "fcf_conversion_pct": 43.4,
+        "cash_interest": 420.0,
+        "change_in_working_capital": 120.0,
+        "tax_expense": 240.0,
+        "fcf_conversion_pct": 32.3,
         "fcf_bridge": {
-          "calculated_ebitda": 1852.5,
-          "capex": 698.2,
-          "cash_interest": 330.2,
-          "change_in_working_capital": -124.7,
-          "tax": 145,
-          "fcf": 803.8,
-          "formula_check": "1852.5 - 698.2 - 330.2 - (-124.7) - 145.0 = 803.8"
+          "calculated_ebitda": 2850.0,
+          "capex": 1150.0,
+          "cash_interest": 420.0,
+          "change_in_working_capital": 120.0,
+          "tax": 240.0,
+          "fcf": 920.0,
+          "formula_check": "2850.0 - 1150.0 - 420.0 - (120.0) - 240.0 = 920.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 11644,
-        "ebitda": 2280,
-        "ebitda_margin_pct": 19.6,
+        "revenue": 16800.0,
+        "ebitda": 4200.0,
+        "ebitda_margin_pct": 25.0,
         "cfo": 1889.5,
-        "capex": 847.9,
-        "fcf": 1041.6,
+        "capex": 1450.0,
+        "fcf": 1580.0,
         "cash": 1496.2,
         "gross_debt": 7315.4,
         "net_debt": 5819.2,
@@ -47869,34 +46667,34 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 2314.2,
-        "calculated_ebitda": 2280,
+        "reported_ebitda": 4284.0,
+        "calculated_ebitda": 4200.0,
         "ebitda_reconciliation_variance_usd_m": 34.2,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$34.2M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 412.3,
-        "change_in_working_capital": -199.4,
-        "tax_expense": 177.6,
-        "fcf_conversion_pct": 45.7,
+        "cash_interest": 410.0,
+        "change_in_working_capital": 280.0,
+        "tax_expense": 480.0,
+        "fcf_conversion_pct": 37.6,
         "fcf_bridge": {
-          "calculated_ebitda": 2280,
-          "capex": 847.9,
-          "cash_interest": 412.3,
-          "change_in_working_capital": -199.4,
-          "tax": 177.6,
-          "fcf": 1041.6,
-          "formula_check": "2280.0 - 847.9 - 412.3 - (-199.4) - 177.6 = 1041.6"
+          "calculated_ebitda": 4200.0,
+          "capex": 1450.0,
+          "cash_interest": 410.0,
+          "change_in_working_capital": 280.0,
+          "tax": 480.0,
+          "fcf": 1580.0,
+          "formula_check": "4200.0 - 1450.0 - 410.0 - (280.0) - 480.0 = 1580.0"
         }
       },
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 13064,
-        "ebitda": 2565,
-        "ebitda_margin_pct": 19.6,
+        "revenue": 15400.0,
+        "ebitda": 3350.0,
+        "ebitda_margin_pct": 21.8,
         "cfo": 2131.8,
-        "capex": 947.6,
-        "fcf": 1184.2,
+        "capex": 1780.0,
+        "fcf": 610.0,
         "cash": 1816.9,
         "gross_debt": 7792.5,
         "net_debt": 5975.6,
@@ -47909,34 +46707,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 2603.5,
-        "calculated_ebitda": 2565,
+        "reported_ebitda": 3417.0,
+        "calculated_ebitda": 3350.0,
         "ebitda_reconciliation_variance_usd_m": 38.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$38.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 495.2,
-        "change_in_working_capital": -257,
-        "tax_expense": 195,
-        "fcf_conversion_pct": 46.2,
+        "cash_interest": 430.0,
+        "change_in_working_capital": 190.0,
+        "tax_expense": 340.0,
+        "fcf_conversion_pct": 18.2,
         "fcf_bridge": {
-          "calculated_ebitda": 2565,
-          "capex": 947.6,
-          "cash_interest": 495.2,
-          "change_in_working_capital": -257,
-          "tax": 195,
-          "fcf": 1184.2,
-          "formula_check": "2565.0 - 947.6 - 495.2 - (-257.0) - 195.0 = 1184.2"
+          "calculated_ebitda": 3350.0,
+          "capex": 1780.0,
+          "cash_interest": 430.0,
+          "change_in_working_capital": 190.0,
+          "tax": 340.0,
+          "fcf": 610.0,
+          "formula_check": "3350.0 - 1780.0 - 430.0 - (190.0) - 340.0 = 610.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 14200,
-        "ebitda": 2850,
-        "ebitda_margin_pct": 20.1,
+        "revenue": 14700.0,
+        "ebitda": 2450.0,
+        "ebitda_margin_pct": 16.7,
         "cfo": 2422.5,
-        "capex": 997.5,
-        "fcf": 1425,
+        "capex": 1890.0,
+        "fcf": -230.0,
         "cash": 2137.5,
         "gross_debt": 7951.5,
         "net_debt": 5814,
@@ -47949,34 +46747,34 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 2892.7,
-        "calculated_ebitda": 2850,
+        "reported_ebitda": 2499.0,
+        "calculated_ebitda": 2450.0,
         "ebitda_reconciliation_variance_usd_m": 42.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$42.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 550.2,
-        "change_in_working_capital": -339.4,
-        "tax_expense": 216.7,
-        "fcf_conversion_pct": 50,
+        "cash_interest": 450.0,
+        "change_in_working_capital": 160.0,
+        "tax_expense": 180.0,
+        "fcf_conversion_pct": -9.4,
         "fcf_bridge": {
-          "calculated_ebitda": 2850,
-          "capex": 997.5,
-          "cash_interest": 550.2,
-          "change_in_working_capital": -339.4,
-          "tax": 216.7,
-          "fcf": 1425,
-          "formula_check": "2850.0 - 997.5 - 550.2 - (-339.4) - 216.7 = 1425.0"
+          "calculated_ebitda": 2450.0,
+          "capex": 1890.0,
+          "cash_interest": 450.0,
+          "change_in_working_capital": 160.0,
+          "tax": 180.0,
+          "fcf": -230.0,
+          "formula_check": "2450.0 - 1890.0 - 450.0 - (160.0) - 180.0 = -230.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 15336,
-        "ebitda": 3135,
-        "ebitda_margin_pct": 20.4,
+        "revenue": 15200.0,
+        "ebitda": 2780.0,
+        "ebitda_margin_pct": 18.3,
         "cfo": 2664.8,
-        "capex": 1047.4,
-        "fcf": 1617.4,
+        "capex": 1650.0,
+        "fcf": 390.0,
         "cash": 2522.2,
         "gross_debt": 7792.5,
         "net_debt": 5270.3,
@@ -47989,34 +46787,34 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 3182,
-        "calculated_ebitda": 3135,
+        "reported_ebitda": 2835.6,
+        "calculated_ebitda": 2780.0,
         "ebitda_reconciliation_variance_usd_m": 47,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$47.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 527.8,
-        "change_in_working_capital": -307.6,
-        "tax_expense": 250,
-        "fcf_conversion_pct": 51.6,
+        "cash_interest": 420.0,
+        "change_in_working_capital": 110.0,
+        "tax_expense": 210.0,
+        "fcf_conversion_pct": 14.0,
         "fcf_bridge": {
-          "calculated_ebitda": 3135,
-          "capex": 1047.4,
-          "cash_interest": 527.8,
-          "change_in_working_capital": -307.6,
-          "tax": 250,
-          "fcf": 1617.4,
-          "formula_check": "3135.0 - 1047.4 - 527.8 - (-307.6) - 250.0 = 1617.4"
+          "calculated_ebitda": 2780.0,
+          "capex": 1650.0,
+          "cash_interest": 420.0,
+          "change_in_working_capital": 110.0,
+          "tax": 210.0,
+          "fcf": 390.0,
+          "formula_check": "2780.0 - 1650.0 - 420.0 - (110.0) - 210.0 = 390.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 16330,
-        "ebitda": 3363,
-        "ebitda_margin_pct": 20.6,
+        "revenue": 15900.0,
+        "ebitda": 3150.0,
+        "ebitda_margin_pct": 19.8,
         "cfo": 2858.5,
-        "capex": 1017.4,
-        "fcf": 1841.1,
+        "capex": 1520.0,
+        "fcf": 890.0,
         "cash": 2885.6,
         "gross_debt": 7553.9,
         "net_debt": 4668.3,
@@ -48029,34 +46827,34 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 3413.4,
-        "calculated_ebitda": 3363,
+        "reported_ebitda": 3213.0,
+        "calculated_ebitda": 3150.0,
         "ebitda_reconciliation_variance_usd_m": 50.4,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 506.5,
-        "change_in_working_capital": -279.1,
-        "tax_expense": 277.1,
-        "fcf_conversion_pct": 54.7,
+        "cash_interest": 390.0,
+        "change_in_working_capital": 90.0,
+        "tax_expense": 260.0,
+        "fcf_conversion_pct": 28.3,
         "fcf_bridge": {
-          "calculated_ebitda": 3363,
-          "capex": 1017.4,
-          "cash_interest": 506.5,
-          "change_in_working_capital": -279.1,
-          "tax": 277.1,
-          "fcf": 1841.1,
-          "formula_check": "3363.0 - 1017.4 - 506.5 - (-279.1) - 277.1 = 1841.1"
+          "calculated_ebitda": 3150.0,
+          "capex": 1520.0,
+          "cash_interest": 390.0,
+          "change_in_working_capital": 90.0,
+          "tax": 260.0,
+          "fcf": 890.0,
+          "formula_check": "3150.0 - 1520.0 - 390.0 - (90.0) - 260.0 = 890.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 17040,
-        "ebitda": 3534,
-        "ebitda_margin_pct": 20.7,
+        "revenue": 16600.0,
+        "ebitda": 3480.0,
+        "ebitda_margin_pct": 21.0,
         "cfo": 3028.1,
-        "capex": 977.5,
-        "fcf": 2050.6,
+        "capex": 1450.0,
+        "fcf": 1290.0,
         "cash": 3206.2,
         "gross_debt": 7156.4,
         "net_debt": 3950.2,
@@ -48069,23 +46867,23 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 3587,
-        "calculated_ebitda": 3534,
+        "reported_ebitda": 3549.6,
+        "calculated_ebitda": 3480.0,
         "ebitda_reconciliation_variance_usd_m": 53,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$53.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 484.1,
-        "change_in_working_capital": -276.7,
-        "tax_expense": 298.5,
-        "fcf_conversion_pct": 58,
+        "cash_interest": 360.0,
+        "change_in_working_capital": 80.0,
+        "tax_expense": 300.0,
+        "fcf_conversion_pct": 37.1,
         "fcf_bridge": {
-          "calculated_ebitda": 3534,
-          "capex": 977.5,
-          "cash_interest": 484.1,
-          "change_in_working_capital": -276.7,
-          "tax": 298.5,
-          "fcf": 2050.6,
-          "formula_check": "3534.0 - 977.5 - 484.1 - (-276.7) - 298.5 = 2050.6"
+          "calculated_ebitda": 3480.0,
+          "capex": 1450.0,
+          "cash_interest": 360.0,
+          "change_in_working_capital": 80.0,
+          "tax": 300.0,
+          "fcf": 1290.0,
+          "formula_check": "3480.0 - 1450.0 - 360.0 - (80.0) - 300.0 = 1290.0"
         }
       }
     ],
@@ -48545,7 +47343,10 @@ const MASTER_ISSUERS = [
       "model_file": "Saudi_Electricity_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8163-b1bb-dffb5ff226e3",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Saudi_Electricity_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -3030.2,
+      "net_leverage_2024a": 3.2
     },
     "financials_multi_year": [
       {
@@ -48555,8 +47356,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5460.0,
         "ebitda_margin_pct": 35.2,
         "cfo": 4426.8,
-        "capex": 2058.0,
-        "fcf": 2368.8,
+        "capex": 4408.9,
+        "fcf": -957.8,
         "cash": 3465.0,
         "gross_debt": 28203.0,
         "net_debt": 24738.0,
@@ -48575,17 +47376,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$81.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1200.0,
-        "change_in_working_capital": -560.1,
-        "tax_expense": 393.3,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 372.1,
+        "tax_expense": 436.8,
+        "fcf_conversion_pct": -17.5,
         "fcf_bridge": {
           "calculated_ebitda": 5460.0,
-          "capex": 2058.0,
+          "capex": 4408.9,
           "cash_interest": 1200.0,
-          "change_in_working_capital": -560.1,
-          "tax": 393.3,
-          "fcf": 2368.8,
-          "formula_check": "5460.0 - 2058.0 - 1200.0 - (-560.1) - 393.3 = 2368.8"
+          "change_in_working_capital": 372.1,
+          "tax": 436.8,
+          "fcf": -957.8,
+          "formula_check": "5460.0 - 4408.9 - 1200.0 - (372.1) - 436.8 = -957.8"
         }
       },
       {
@@ -48595,8 +47396,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6720.0,
         "ebitda_margin_pct": 35.9,
         "cfo": 5569.2,
-        "capex": 2499.0,
-        "fcf": 3070.2,
+        "capex": 7711.2,
+        "fcf": -3870.1,
         "cash": 4410.0,
         "gross_debt": 30525.6,
         "net_debt": 26115.6,
@@ -48615,17 +47416,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$100.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1500.0,
-        "change_in_working_capital": -829.8,
-        "tax_expense": 480.6,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 841.3,
+        "tax_expense": 537.6,
+        "fcf_conversion_pct": -57.6,
         "fcf_bridge": {
           "calculated_ebitda": 6720.0,
-          "capex": 2499.0,
+          "capex": 7711.2,
           "cash_interest": 1500.0,
-          "change_in_working_capital": -829.8,
-          "tax": 480.6,
-          "fcf": 3070.2,
-          "formula_check": "6720.0 - 2499.0 - 1500.0 - (-829.8) - 480.6 = 3070.2"
+          "change_in_working_capital": 841.3,
+          "tax": 537.6,
+          "fcf": -3870.1,
+          "formula_check": "6720.0 - 7711.2 - 1500.0 - (841.3) - 537.6 = -3870.1"
         }
       },
       {
@@ -48635,8 +47436,8 @@ const MASTER_ISSUERS = [
         "ebitda": 7560.0,
         "ebitda_margin_pct": 36.0,
         "cfo": 6283.2,
-        "capex": 2793.0,
-        "fcf": 3490.2,
+        "capex": 8675.1,
+        "fcf": -4463.8,
         "cash": 5355.0,
         "gross_debt": 32516.4,
         "net_debt": 27161.4,
@@ -48655,17 +47456,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$113.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1800.0,
-        "change_in_working_capital": -1047.0,
-        "tax_expense": 523.8,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 943.9,
+        "tax_expense": 604.8,
+        "fcf_conversion_pct": -59.0,
         "fcf_bridge": {
           "calculated_ebitda": 7560.0,
-          "capex": 2793.0,
+          "capex": 8675.1,
           "cash_interest": 1800.0,
-          "change_in_working_capital": -1047.0,
-          "tax": 523.8,
-          "fcf": 3490.2,
-          "formula_check": "7560.0 - 2793.0 - 1800.0 - (-1047.0) - 523.8 = 3490.2"
+          "change_in_working_capital": 943.9,
+          "tax": 604.8,
+          "fcf": -4463.8,
+          "formula_check": "7560.0 - 8675.1 - 1800.0 - (943.9) - 604.8 = -4463.8"
         }
       },
       {
@@ -48675,8 +47476,8 @@ const MASTER_ISSUERS = [
         "ebitda": 8400.0,
         "ebitda_margin_pct": 36.8,
         "cfo": 7140.0,
-        "capex": 2940.0,
-        "fcf": 4200.0,
+        "capex": 8211.0,
+        "fcf": -3030.2,
         "cash": 6300.0,
         "gross_debt": 33180.0,
         "net_debt": 26880.0,
@@ -48695,17 +47496,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$126.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 2000.0,
-        "change_in_working_capital": -1322.0,
-        "tax_expense": 582.0,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 547.2,
+        "tax_expense": 672.0,
+        "fcf_conversion_pct": -36.1,
         "fcf_bridge": {
           "calculated_ebitda": 8400.0,
-          "capex": 2940.0,
+          "capex": 8211.0,
           "cash_interest": 2000.0,
-          "change_in_working_capital": -1322.0,
-          "tax": 582.0,
-          "fcf": 4200.0,
-          "formula_check": "8400.0 - 2940.0 - 2000.0 - (-1322.0) - 582.0 = 4200.0"
+          "change_in_working_capital": 547.2,
+          "tax": 672.0,
+          "fcf": -3030.2,
+          "formula_check": "8400.0 - 8211.0 - 2000.0 - (547.2) - 672.0 = -3030.2"
         }
       },
       {
@@ -48715,8 +47516,8 @@ const MASTER_ISSUERS = [
         "ebitda": 9240.0,
         "ebitda_margin_pct": 37.5,
         "cfo": 7854.0,
-        "capex": 3087.0,
-        "fcf": 4767.0,
+        "capex": 7461.3,
+        "fcf": -1472.5,
         "cash": 7434.0,
         "gross_debt": 32516.4,
         "net_debt": 25082.4,
@@ -48735,17 +47536,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$138.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1921.0,
-        "change_in_working_capital": -1217.0,
-        "tax_expense": 682.0,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 591.0,
+        "tax_expense": 739.2,
+        "fcf_conversion_pct": -15.9,
         "fcf_bridge": {
           "calculated_ebitda": 9240.0,
-          "capex": 3087.0,
+          "capex": 7461.3,
           "cash_interest": 1921.0,
-          "change_in_working_capital": -1217.0,
-          "tax": 682.0,
-          "fcf": 4767.0,
-          "formula_check": "9240.0 - 3087.0 - 1921.0 - (-1217.0) - 682.0 = 4767.0"
+          "change_in_working_capital": 591.0,
+          "tax": 739.2,
+          "fcf": -1472.5,
+          "formula_check": "9240.0 - 7461.3 - 1921.0 - (591.0) - 739.2 = -1472.5"
         }
       },
       {
@@ -48755,8 +47556,8 @@ const MASTER_ISSUERS = [
         "ebitda": 9912.0,
         "ebitda_margin_pct": 37.8,
         "cfo": 8425.2,
-        "capex": 2998.8,
-        "fcf": 5426.4,
+        "capex": 8003.9,
+        "fcf": -1353.2,
         "cash": 8505.0,
         "gross_debt": 31521.0,
         "net_debt": 23016.0,
@@ -48775,17 +47576,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$148.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1839.0,
-        "change_in_working_capital": -1117.1,
-        "tax_expense": 764.9,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 629.3,
+        "tax_expense": 793.0,
+        "fcf_conversion_pct": -13.7,
         "fcf_bridge": {
           "calculated_ebitda": 9912.0,
-          "capex": 2998.8,
+          "capex": 8003.9,
           "cash_interest": 1839.0,
-          "change_in_working_capital": -1117.1,
-          "tax": 764.9,
-          "fcf": 5426.4,
-          "formula_check": "9912.0 - 2998.8 - 1839.0 - (-1117.1) - 764.9 = 5426.4"
+          "change_in_working_capital": 629.3,
+          "tax": 793.0,
+          "fcf": -1353.2,
+          "formula_check": "9912.0 - 8003.9 - 1839.0 - (629.3) - 793.0 = -1353.2"
         }
       },
       {
@@ -48795,8 +47596,8 @@ const MASTER_ISSUERS = [
         "ebitda": 10416.0,
         "ebitda_margin_pct": 38.1,
         "cfo": 8925.0,
-        "capex": 2881.2,
-        "fcf": 6043.8,
+        "capex": 8410.9,
+        "fcf": -1244.3,
         "cash": 9450.0,
         "gross_debt": 29862.0,
         "net_debt": 20412.0,
@@ -48815,17 +47616,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$156.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 1759.5,
-        "change_in_working_capital": -1098.3,
-        "tax_expense": 829.8,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 656.6,
+        "tax_expense": 833.3,
+        "fcf_conversion_pct": -11.9,
         "fcf_bridge": {
           "calculated_ebitda": 10416.0,
-          "capex": 2881.2,
+          "capex": 8410.9,
           "cash_interest": 1759.5,
-          "change_in_working_capital": -1098.3,
-          "tax": 829.8,
-          "fcf": 6043.8,
-          "formula_check": "10416.0 - 2881.2 - 1759.5 - (-1098.3) - 829.8 = 6043.8"
+          "change_in_working_capital": 656.6,
+          "tax": 833.3,
+          "fcf": -1244.3,
+          "formula_check": "10416.0 - 8410.9 - 1759.5 - (656.6) - 833.3 = -1244.3"
         }
       }
     ],
@@ -49266,7 +48067,10 @@ const MASTER_ISSUERS = [
       "model_file": "Sisecam_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681d7b10bd431e8514935",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sisecam_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -66.2,
+      "net_leverage_2024a": 2.18
     },
     "financials_multi_year": [
       {
@@ -49276,8 +48080,8 @@ const MASTER_ISSUERS = [
         "ebitda": 715.0,
         "ebitda_margin_pct": 19.1,
         "cfo": 579.7,
-        "capex": 269.5,
-        "fcf": 310.2,
+        "capex": 339.6,
+        "fcf": 32.1,
         "cash": 453.8,
         "gross_debt": 2739.5,
         "net_debt": 2285.7,
@@ -49296,17 +48100,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$10.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 122.2,
-        "change_in_working_capital": -43.6,
-        "tax_expense": 56.7,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 149.6,
+        "tax_expense": 71.5,
+        "fcf_conversion_pct": 4.5,
         "fcf_bridge": {
           "calculated_ebitda": 715.0,
-          "capex": 269.5,
+          "capex": 339.6,
           "cash_interest": 122.2,
-          "change_in_working_capital": -43.6,
-          "tax": 56.7,
-          "fcf": 310.2,
-          "formula_check": "715.0 - 269.5 - 122.2 - (-43.6) - 56.7 = 310.2"
+          "change_in_working_capital": 149.6,
+          "tax": 71.5,
+          "fcf": 32.1,
+          "formula_check": "715.0 - 339.6 - 122.2 - (149.6) - 71.5 = 32.1"
         }
       },
       {
@@ -49316,8 +48120,8 @@ const MASTER_ISSUERS = [
         "ebitda": 880.0,
         "ebitda_margin_pct": 19.5,
         "cfo": 729.3,
-        "capex": 327.2,
-        "fcf": 402.1,
+        "capex": 594.0,
+        "fcf": -293.0,
         "cash": 577.5,
         "gross_debt": 2965.2,
         "net_debt": 2387.7,
@@ -49336,17 +48140,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$48.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 152.8,
-        "change_in_working_capital": -71.6,
-        "tax_expense": 69.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 338.2,
+        "tax_expense": 88.0,
+        "fcf_conversion_pct": -33.3,
         "fcf_bridge": {
           "calculated_ebitda": 880.0,
-          "capex": 327.2,
+          "capex": 594.0,
           "cash_interest": 152.8,
-          "change_in_working_capital": -71.6,
-          "tax": 69.5,
-          "fcf": 402.1,
-          "formula_check": "880.0 - 327.2 - 152.8 - (-71.6) - 69.5 = 402.1"
+          "change_in_working_capital": 338.2,
+          "tax": 88.0,
+          "fcf": -293.0,
+          "formula_check": "880.0 - 594.0 - 152.8 - (338.2) - 88.0 = -293.0"
         }
       },
       {
@@ -49356,8 +48160,8 @@ const MASTER_ISSUERS = [
         "ebitda": 990.0,
         "ebitda_margin_pct": 19.6,
         "cfo": 822.8,
-        "capex": 365.8,
-        "fcf": 457.0,
+        "capex": 668.2,
+        "fcf": -340.0,
         "cash": 701.2,
         "gross_debt": 3158.5,
         "net_debt": 2457.3,
@@ -49376,17 +48180,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$54.5M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 183.3,
-        "change_in_working_capital": -92.6,
-        "tax_expense": 76.5,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 379.5,
+        "tax_expense": 99.0,
+        "fcf_conversion_pct": -34.3,
         "fcf_bridge": {
           "calculated_ebitda": 990.0,
-          "capex": 365.8,
+          "capex": 668.2,
           "cash_interest": 183.3,
-          "change_in_working_capital": -92.6,
-          "tax": 76.5,
-          "fcf": 457.0,
-          "formula_check": "990.0 - 365.8 - 183.3 - (-92.6) - 76.5 = 457.0"
+          "change_in_working_capital": 379.5,
+          "tax": 99.0,
+          "fcf": -340.0,
+          "formula_check": "990.0 - 668.2 - 183.3 - (379.5) - 99.0 = -340.0"
         }
       },
       {
@@ -49396,8 +48200,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1100.0,
         "ebitda_margin_pct": 20.0,
         "cfo": 935.0,
-        "capex": 385.0,
-        "fcf": 550.0,
+        "capex": 632.5,
+        "fcf": -66.2,
         "cash": 825.0,
         "gross_debt": 3223.0,
         "net_debt": 2398.0,
@@ -49416,17 +48220,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$60.5M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 203.7,
-        "change_in_working_capital": -123.6,
-        "tax_expense": 84.9,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 220.0,
+        "tax_expense": 110.0,
+        "fcf_conversion_pct": -6.0,
         "fcf_bridge": {
           "calculated_ebitda": 1100.0,
-          "capex": 385.0,
+          "capex": 632.5,
           "cash_interest": 203.7,
-          "change_in_working_capital": -123.6,
-          "tax": 84.9,
-          "fcf": 550.0,
-          "formula_check": "1100.0 - 385.0 - 203.7 - (-123.6) - 84.9 = 550.0"
+          "change_in_working_capital": 220.0,
+          "tax": 110.0,
+          "fcf": -66.2,
+          "formula_check": "1100.0 - 632.5 - 203.7 - (220.0) - 110.0 = -66.2"
         }
       },
       {
@@ -49436,8 +48240,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1210.0,
         "ebitda_margin_pct": 20.4,
         "cfo": 1028.5,
-        "capex": 404.2,
-        "fcf": 624.3,
+        "capex": 574.8,
+        "fcf": 81.1,
         "cash": 973.5,
         "gross_debt": 3158.5,
         "net_debt": 2185.0,
@@ -49456,17 +48260,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 195.5,
-        "change_in_working_capital": -111.7,
-        "tax_expense": 97.7,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 237.6,
+        "tax_expense": 121.0,
+        "fcf_conversion_pct": 6.7,
         "fcf_bridge": {
           "calculated_ebitda": 1210.0,
-          "capex": 404.2,
+          "capex": 574.8,
           "cash_interest": 195.5,
-          "change_in_working_capital": -111.7,
-          "tax": 97.7,
-          "fcf": 624.3,
-          "formula_check": "1210.0 - 404.2 - 195.5 - (-111.7) - 97.7 = 624.3"
+          "change_in_working_capital": 237.6,
+          "tax": 121.0,
+          "fcf": 81.1,
+          "formula_check": "1210.0 - 574.8 - 195.5 - (237.6) - 121.0 = 81.1"
         }
       },
       {
@@ -49476,8 +48280,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1298.0,
         "ebitda_margin_pct": 20.5,
         "cfo": 1103.3,
-        "capex": 392.7,
-        "fcf": 710.6,
+        "capex": 616.5,
+        "fcf": 111.4,
         "cash": 1113.8,
         "gross_debt": 3061.8,
         "net_debt": 1948.0,
@@ -49496,17 +48300,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$19.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 187.3,
-        "change_in_working_capital": -100.8,
-        "tax_expense": 108.2,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 253.0,
+        "tax_expense": 129.8,
+        "fcf_conversion_pct": 8.6,
         "fcf_bridge": {
           "calculated_ebitda": 1298.0,
-          "capex": 392.7,
+          "capex": 616.5,
           "cash_interest": 187.3,
-          "change_in_working_capital": -100.8,
-          "tax": 108.2,
-          "fcf": 710.6,
-          "formula_check": "1298.0 - 392.7 - 187.3 - (-100.8) - 108.2 = 710.6"
+          "change_in_working_capital": 253.0,
+          "tax": 129.8,
+          "fcf": 111.4,
+          "formula_check": "1298.0 - 616.5 - 187.3 - (253.0) - 129.8 = 111.4"
         }
       },
       {
@@ -49516,8 +48320,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1364.0,
         "ebitda_margin_pct": 20.7,
         "cfo": 1168.8,
-        "capex": 377.3,
-        "fcf": 791.5,
+        "capex": 647.9,
+        "fcf": 136.5,
         "cash": 1237.5,
         "gross_debt": 2900.7,
         "net_debt": 1663.2,
@@ -49536,17 +48340,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 179.2,
-        "change_in_working_capital": -100.3,
-        "tax_expense": 116.3,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 264.0,
+        "tax_expense": 136.4,
+        "fcf_conversion_pct": 10.0,
         "fcf_bridge": {
           "calculated_ebitda": 1364.0,
-          "capex": 377.3,
+          "capex": 647.9,
           "cash_interest": 179.2,
-          "change_in_working_capital": -100.3,
-          "tax": 116.3,
-          "fcf": 791.5,
-          "formula_check": "1364.0 - 377.3 - 179.2 - (-100.3) - 116.3 = 791.5"
+          "change_in_working_capital": 264.0,
+          "tax": 136.4,
+          "fcf": 136.5,
+          "formula_check": "1364.0 - 647.9 - 179.2 - (264.0) - 136.4 = 136.5"
         }
       }
     ],
@@ -49986,7 +48790,8 @@ const MASTER_ISSUERS = [
       "model_file": "Saudi_National_Bank_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681638bc7f769eb59d81d",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Saudi_National_Bank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -50016,25 +48821,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -50063,25 +48854,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -50110,25 +48887,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -50157,25 +48920,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -50204,25 +48953,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -50251,25 +48986,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -50298,25 +49019,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -50756,7 +49463,10 @@ const MASTER_ISSUERS = [
       "model_file": "Sobha_Realty_Credit_Model.xlsx",
       "notion_id": "3e01d0ad68c6814fa4cfff9fdb4e339d",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sobha_Realty_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -127.7,
+      "net_leverage_2024a": 0.83
     },
     "financials_multi_year": [
       {
@@ -50766,8 +49476,8 @@ const MASTER_ISSUERS = [
         "ebitda": 312.0,
         "ebitda_margin_pct": 27.8,
         "cfo": 253.0,
-        "capex": 117.6,
-        "fcf": 135.4,
+        "capex": 163.0,
+        "fcf": -50.4,
         "cash": 198.0,
         "gross_debt": 644.6,
         "net_debt": 446.6,
@@ -50786,17 +49496,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$20.3M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 49.2,
-        "change_in_working_capital": -15.6,
-        "tax_expense": 25.4,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 134.6,
+        "tax_expense": 15.6,
+        "fcf_conversion_pct": -16.2,
         "fcf_bridge": {
           "calculated_ebitda": 312.0,
-          "capex": 117.6,
+          "capex": 163.0,
           "cash_interest": 49.2,
-          "change_in_working_capital": -15.6,
-          "tax": 25.4,
-          "fcf": 135.4,
-          "formula_check": "312.0 - 117.6 - 49.2 - (-15.6) - 25.4 = 135.4"
+          "change_in_working_capital": 134.6,
+          "tax": 15.6,
+          "fcf": -50.4,
+          "formula_check": "312.0 - 163.0 - 49.2 - (134.6) - 15.6 = -50.4"
         }
       },
       {
@@ -50806,8 +49516,8 @@ const MASTER_ISSUERS = [
         "ebitda": 384.0,
         "ebitda_margin_pct": 28.4,
         "cfo": 318.2,
-        "capex": 142.8,
-        "fcf": 175.4,
+        "capex": 285.1,
+        "fcf": -286.2,
         "cash": 252.0,
         "gross_debt": 697.7,
         "net_debt": 445.7,
@@ -50826,17 +49536,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$25.0M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 61.5,
-        "change_in_working_capital": -26.8,
-        "tax_expense": 31.1,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 304.4,
+        "tax_expense": 19.2,
+        "fcf_conversion_pct": -74.5,
         "fcf_bridge": {
           "calculated_ebitda": 384.0,
-          "capex": 142.8,
+          "capex": 285.1,
           "cash_interest": 61.5,
-          "change_in_working_capital": -26.8,
-          "tax": 31.1,
-          "fcf": 175.4,
-          "formula_check": "384.0 - 142.8 - 61.5 - (-26.8) - 31.1 = 175.4"
+          "change_in_working_capital": 304.4,
+          "tax": 19.2,
+          "fcf": -286.2,
+          "formula_check": "384.0 - 285.1 - 61.5 - (304.4) - 19.2 = -286.2"
         }
       },
       {
@@ -50846,8 +49556,8 @@ const MASTER_ISSUERS = [
         "ebitda": 432.0,
         "ebitda_margin_pct": 28.5,
         "cfo": 359.0,
-        "capex": 159.6,
-        "fcf": 199.4,
+        "capex": 320.8,
+        "fcf": -325.7,
         "cash": 306.0,
         "gross_debt": 743.2,
         "net_debt": 437.2,
@@ -50866,17 +49576,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$28.1M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 73.8,
-        "change_in_working_capital": -35.1,
-        "tax_expense": 34.3,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 341.5,
+        "tax_expense": 21.6,
+        "fcf_conversion_pct": -75.4,
         "fcf_bridge": {
           "calculated_ebitda": 432.0,
-          "capex": 159.6,
+          "capex": 320.8,
           "cash_interest": 73.8,
-          "change_in_working_capital": -35.1,
-          "tax": 34.3,
-          "fcf": 199.4,
-          "formula_check": "432.0 - 159.6 - 73.8 - (-35.1) - 34.3 = 199.4"
+          "change_in_working_capital": 341.5,
+          "tax": 21.6,
+          "fcf": -325.7,
+          "formula_check": "432.0 - 320.8 - 73.8 - (341.5) - 21.6 = -325.7"
         }
       },
       {
@@ -50886,8 +49596,8 @@ const MASTER_ISSUERS = [
         "ebitda": 480.0,
         "ebitda_margin_pct": 29.1,
         "cfo": 408.0,
-        "capex": 168.0,
-        "fcf": 240.0,
+        "capex": 303.6,
+        "fcf": -127.7,
         "cash": 360.0,
         "gross_debt": 758.4,
         "net_debt": 398.4,
@@ -50906,17 +49616,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$31.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 82.1,
-        "change_in_working_capital": -48.2,
-        "tax_expense": 38.1,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 198.0,
+        "tax_expense": 24.0,
+        "fcf_conversion_pct": -26.6,
         "fcf_bridge": {
           "calculated_ebitda": 480.0,
-          "capex": 168.0,
+          "capex": 303.6,
           "cash_interest": 82.1,
-          "change_in_working_capital": -48.2,
-          "tax": 38.1,
-          "fcf": 240.0,
-          "formula_check": "480.0 - 168.0 - 82.1 - (-48.2) - 38.1 = 240.0"
+          "change_in_working_capital": 198.0,
+          "tax": 24.0,
+          "fcf": -127.7,
+          "formula_check": "480.0 - 303.6 - 82.1 - (198.0) - 24.0 = -127.7"
         }
       },
       {
@@ -50926,8 +49636,8 @@ const MASTER_ISSUERS = [
         "ebitda": 528.0,
         "ebitda_margin_pct": 29.6,
         "cfo": 448.8,
-        "capex": 176.4,
-        "fcf": 272.4,
+        "capex": 275.9,
+        "fcf": -66.9,
         "cash": 424.8,
         "gross_debt": 743.2,
         "net_debt": 318.4,
@@ -50946,17 +49656,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$34.3M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 78.8,
-        "change_in_working_capital": -43.2,
-        "tax_expense": 43.6,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 213.8,
+        "tax_expense": 26.4,
+        "fcf_conversion_pct": -12.7,
         "fcf_bridge": {
           "calculated_ebitda": 528.0,
-          "capex": 176.4,
+          "capex": 275.9,
           "cash_interest": 78.8,
-          "change_in_working_capital": -43.2,
-          "tax": 43.6,
-          "fcf": 272.4,
-          "formula_check": "528.0 - 176.4 - 78.8 - (-43.2) - 43.6 = 272.4"
+          "change_in_working_capital": 213.8,
+          "tax": 26.4,
+          "fcf": -66.9,
+          "formula_check": "528.0 - 275.9 - 78.8 - (213.8) - 26.4 = -66.9"
         }
       },
       {
@@ -50966,8 +49676,8 @@ const MASTER_ISSUERS = [
         "ebitda": 566.4,
         "ebitda_margin_pct": 29.8,
         "cfo": 481.4,
-        "capex": 171.4,
-        "fcf": 310.0,
+        "capex": 295.9,
+        "fcf": -61.0,
         "cash": 486.0,
         "gross_debt": 720.5,
         "net_debt": 234.5,
@@ -50986,17 +49696,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$36.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 75.5,
-        "change_in_working_capital": -38.6,
-        "tax_expense": 48.1,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 227.7,
+        "tax_expense": 28.3,
+        "fcf_conversion_pct": -10.8,
         "fcf_bridge": {
           "calculated_ebitda": 566.4,
-          "capex": 171.4,
+          "capex": 295.9,
           "cash_interest": 75.5,
-          "change_in_working_capital": -38.6,
-          "tax": 48.1,
-          "fcf": 310.0,
-          "formula_check": "566.4 - 171.4 - 75.5 - (-38.6) - 48.1 = 310.0"
+          "change_in_working_capital": 227.7,
+          "tax": 28.3,
+          "fcf": -61.0,
+          "formula_check": "566.4 - 295.9 - 75.5 - (227.7) - 28.3 = -61.0"
         }
       },
       {
@@ -51006,8 +49716,8 @@ const MASTER_ISSUERS = [
         "ebitda": 595.2,
         "ebitda_margin_pct": 30.1,
         "cfo": 510.0,
-        "capex": 164.6,
-        "fcf": 345.4,
+        "capex": 311.0,
+        "fcf": -55.4,
         "cash": 540.0,
         "gross_debt": 682.6,
         "net_debt": 142.6,
@@ -51026,17 +49736,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 6.5,
         "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$38.7M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
         "cash_interest": 72.2,
-        "change_in_working_capital": -38.7,
-        "tax_expense": 51.7,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 237.6,
+        "tax_expense": 29.8,
+        "fcf_conversion_pct": -9.3,
         "fcf_bridge": {
           "calculated_ebitda": 595.2,
-          "capex": 164.6,
+          "capex": 311.0,
           "cash_interest": 72.2,
-          "change_in_working_capital": -38.7,
-          "tax": 51.7,
-          "fcf": 345.4,
-          "formula_check": "595.2 - 164.6 - 72.2 - (-38.7) - 51.7 = 345.4"
+          "change_in_working_capital": 237.6,
+          "tax": 29.8,
+          "fcf": -55.4,
+          "formula_check": "595.2 - 311.0 - 72.2 - (237.6) - 29.8 = -55.4"
         }
       }
     ],
@@ -51474,7 +50184,10 @@ const MASTER_ISSUERS = [
       "model_file": "Sonangol_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6812aa10ee048b87d945b",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sonangol_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 586.8,
+      "net_leverage_2024a": 1.29
     },
     "financials_multi_year": [
       {
@@ -51484,8 +50197,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3120.0,
         "ebitda_margin_pct": 36.4,
         "cfo": 2529.6,
-        "capex": 1176.0,
-        "fcf": 1353.6,
+        "capex": 1333.8,
+        "fcf": 687.4,
         "cash": 1980.0,
         "gross_debt": 8323.2,
         "net_debt": 6343.2,
@@ -51504,17 +50217,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$46.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 450.2,
-        "change_in_working_capital": -119.9,
-        "tax_expense": 260.1,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 274.2,
+        "tax_expense": 374.4,
+        "fcf_conversion_pct": 22.0,
         "fcf_bridge": {
           "calculated_ebitda": 3120.0,
-          "capex": 1176.0,
+          "capex": 1333.8,
           "cash_interest": 450.2,
-          "change_in_working_capital": -119.9,
-          "tax": 260.1,
-          "fcf": 1353.6,
-          "formula_check": "3120.0 - 1176.0 - 450.2 - (-119.9) - 260.1 = 1353.6"
+          "change_in_working_capital": 274.2,
+          "tax": 374.4,
+          "fcf": 687.4,
+          "formula_check": "3120.0 - 1333.8 - 450.2 - (274.2) - 374.4 = 687.4"
         }
       },
       {
@@ -51524,8 +50237,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3840.0,
         "ebitda_margin_pct": 37.2,
         "cfo": 3182.4,
-        "capex": 1428.0,
-        "fcf": 1754.4,
+        "capex": 2332.8,
+        "fcf": -135.7,
         "cash": 2520.0,
         "gross_debt": 9008.6,
         "net_debt": 6488.6,
@@ -51544,17 +50257,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$57.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 562.2,
-        "change_in_working_capital": -223.5,
-        "tax_expense": 318.9,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 619.9,
+        "tax_expense": 460.8,
+        "fcf_conversion_pct": -3.5,
         "fcf_bridge": {
           "calculated_ebitda": 3840.0,
-          "capex": 1428.0,
+          "capex": 2332.8,
           "cash_interest": 562.2,
-          "change_in_working_capital": -223.5,
-          "tax": 318.9,
-          "fcf": 1754.4,
-          "formula_check": "3840.0 - 1428.0 - 562.2 - (-223.5) - 318.9 = 1754.4"
+          "change_in_working_capital": 619.9,
+          "tax": 460.8,
+          "fcf": -135.7,
+          "formula_check": "3840.0 - 2332.8 - 562.2 - (619.9) - 460.8 = -135.7"
         }
       },
       {
@@ -51564,8 +50277,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4320.0,
         "ebitda_margin_pct": 37.3,
         "cfo": 3590.4,
-        "capex": 1596.0,
-        "fcf": 1994.4,
+        "capex": 2624.4,
+        "fcf": -193.3,
         "cash": 3060.0,
         "gross_debt": 9596.2,
         "net_debt": 6536.2,
@@ -51584,17 +50297,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$64.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 675.0,
-        "change_in_working_capital": -297.7,
-        "tax_expense": 352.3,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 695.5,
+        "tax_expense": 518.4,
+        "fcf_conversion_pct": -4.5,
         "fcf_bridge": {
           "calculated_ebitda": 4320.0,
-          "capex": 1596.0,
+          "capex": 2624.4,
           "cash_interest": 675.0,
-          "change_in_working_capital": -297.7,
-          "tax": 352.3,
-          "fcf": 1994.4,
-          "formula_check": "4320.0 - 1596.0 - 675.0 - (-297.7) - 352.3 = 1994.4"
+          "change_in_working_capital": 695.5,
+          "tax": 518.4,
+          "fcf": -193.3,
+          "formula_check": "4320.0 - 2624.4 - 675.0 - (695.5) - 518.4 = -193.3"
         }
       },
       {
@@ -51604,8 +50317,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4800.0,
         "ebitda_margin_pct": 38.1,
         "cfo": 4080.0,
-        "capex": 1680.0,
-        "fcf": 2400.0,
+        "capex": 2484.0,
+        "fcf": 586.8,
         "cash": 3600.0,
         "gross_debt": 9792.0,
         "net_debt": 6192.0,
@@ -51624,17 +50337,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$72.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 750.0,
-        "change_in_working_capital": -421.5,
-        "tax_expense": 391.5,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 403.2,
+        "tax_expense": 576.0,
+        "fcf_conversion_pct": 12.2,
         "fcf_bridge": {
           "calculated_ebitda": 4800.0,
-          "capex": 1680.0,
+          "capex": 2484.0,
           "cash_interest": 750.0,
-          "change_in_working_capital": -421.5,
-          "tax": 391.5,
-          "fcf": 2400.0,
-          "formula_check": "4800.0 - 1680.0 - 750.0 - (-421.5) - 391.5 = 2400.0"
+          "change_in_working_capital": 403.2,
+          "tax": 576.0,
+          "fcf": 586.8,
+          "formula_check": "4800.0 - 2484.0 - 750.0 - (403.2) - 576.0 = 586.8"
         }
       },
       {
@@ -51644,8 +50357,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5280.0,
         "ebitda_margin_pct": 38.8,
         "cfo": 4488.0,
-        "capex": 1764.0,
-        "fcf": 2724.0,
+        "capex": 2257.2,
+        "fcf": 1233.4,
         "cash": 4248.0,
         "gross_debt": 9596.2,
         "net_debt": 5348.2,
@@ -51664,17 +50377,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$79.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 720.3,
-        "change_in_working_capital": -374.7,
-        "tax_expense": 446.4,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 435.5,
+        "tax_expense": 633.6,
+        "fcf_conversion_pct": 23.4,
         "fcf_bridge": {
           "calculated_ebitda": 5280.0,
-          "capex": 1764.0,
+          "capex": 2257.2,
           "cash_interest": 720.3,
-          "change_in_working_capital": -374.7,
-          "tax": 446.4,
-          "fcf": 2724.0,
-          "formula_check": "5280.0 - 1764.0 - 720.3 - (-374.7) - 446.4 = 2724.0"
+          "change_in_working_capital": 435.5,
+          "tax": 633.6,
+          "fcf": 1233.4,
+          "formula_check": "5280.0 - 2257.2 - 720.3 - (435.5) - 633.6 = 1233.4"
         }
       },
       {
@@ -51684,8 +50397,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5664.0,
         "ebitda_margin_pct": 39.1,
         "cfo": 4814.4,
-        "capex": 1713.6,
-        "fcf": 3100.8,
+        "capex": 2421.4,
+        "fcf": 1409.3,
         "cash": 4860.0,
         "gross_debt": 9302.4,
         "net_debt": 4442.4,
@@ -51704,17 +50417,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$85.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 689.9,
-        "change_in_working_capital": -331.5,
-        "tax_expense": 491.2,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 463.7,
+        "tax_expense": 679.7,
+        "fcf_conversion_pct": 24.9,
         "fcf_bridge": {
           "calculated_ebitda": 5664.0,
-          "capex": 1713.6,
+          "capex": 2421.4,
           "cash_interest": 689.9,
-          "change_in_working_capital": -331.5,
-          "tax": 491.2,
-          "fcf": 3100.8,
-          "formula_check": "5664.0 - 1713.6 - 689.9 - (-331.5) - 491.2 = 3100.8"
+          "change_in_working_capital": 463.7,
+          "tax": 679.7,
+          "fcf": 1409.3,
+          "formula_check": "5664.0 - 2421.4 - 689.9 - (463.7) - 679.7 = 1409.3"
         }
       },
       {
@@ -51724,8 +50437,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5952.0,
         "ebitda_margin_pct": 39.4,
         "cfo": 5100.0,
-        "capex": 1646.4,
-        "fcf": 3453.6,
+        "capex": 2544.5,
+        "fcf": 1549.6,
         "cash": 5400.0,
         "gross_debt": 8812.8,
         "net_debt": 3412.8,
@@ -51744,17 +50457,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$89.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 659.9,
-        "change_in_working_capital": -333.9,
-        "tax_expense": 526.0,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 483.8,
+        "tax_expense": 714.2,
+        "fcf_conversion_pct": 26.0,
         "fcf_bridge": {
           "calculated_ebitda": 5952.0,
-          "capex": 1646.4,
+          "capex": 2544.5,
           "cash_interest": 659.9,
-          "change_in_working_capital": -333.9,
-          "tax": 526.0,
-          "fcf": 3453.6,
-          "formula_check": "5952.0 - 1646.4 - 659.9 - (-333.9) - 526.0 = 3453.6"
+          "change_in_working_capital": 483.8,
+          "tax": 714.2,
+          "fcf": 1549.6,
+          "formula_check": "5952.0 - 2544.5 - 659.9 - (483.8) - 714.2 = 1549.6"
         }
       }
     ],
@@ -52214,7 +50927,8 @@ const MASTER_ISSUERS = [
       "model_file": "Standard_Bank_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81d5-a689-ed9573171257",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Standard_Bank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -52244,25 +50958,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -52291,25 +50991,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -52338,25 +51024,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -52385,25 +51057,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -52432,25 +51090,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -52479,25 +51123,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -52526,25 +51156,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -52986,7 +51602,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/STC_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "stc",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/stc/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/stc/description",
+      "model_type": "corp",
+      "fcf_2024a": 1649.2,
+      "net_leverage_2024a": 0.65
     },
     "financials_multi_year": [
       {
@@ -52996,8 +51615,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4680,
         "ebitda_margin_pct": 33.6,
         "cfo": 3794.4,
-        "capex": 1764,
-        "fcf": 2030.4,
+        "capex": 1867.3,
+        "fcf": 1460.0,
         "cash": 2970,
         "gross_debt": 8568,
         "net_debt": 5598,
@@ -53016,17 +51635,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$70.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 233.5,
-        "change_in_working_capital": 195.7,
-        "tax_expense": 456.4,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 557.6,
+        "tax_expense": 561.6,
+        "fcf_conversion_pct": 31.2,
         "fcf_bridge": {
           "calculated_ebitda": 4680,
-          "capex": 1764,
+          "capex": 1867.3,
           "cash_interest": 233.5,
-          "change_in_working_capital": 195.7,
-          "tax": 456.4,
-          "fcf": 2030.4,
-          "formula_check": "4680.0 - 1764.0 - 233.5 - (195.7) - 456.4 = 2030.4"
+          "change_in_working_capital": 557.6,
+          "tax": 561.6,
+          "fcf": 1460.0,
+          "formula_check": "4680.0 - 1867.3 - 233.5 - (557.6) - 561.6 = 1460.0"
         }
       },
       {
@@ -53036,8 +51655,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5760,
         "ebitda_margin_pct": 34.3,
         "cfo": 4773.6,
-        "capex": 2142,
-        "fcf": 2631.6,
+        "capex": 3265.9,
+        "fcf": 250.2,
         "cash": 3780,
         "gross_debt": 9273.6,
         "net_debt": 5493.6,
@@ -53056,17 +51675,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$86.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 291.9,
-        "change_in_working_capital": 133.5,
-        "tax_expense": 561,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 1260.8,
+        "tax_expense": 691.2,
+        "fcf_conversion_pct": 4.3,
         "fcf_bridge": {
           "calculated_ebitda": 5760,
-          "capex": 2142,
+          "capex": 3265.9,
           "cash_interest": 291.9,
-          "change_in_working_capital": 133.5,
-          "tax": 561,
-          "fcf": 2631.6,
-          "formula_check": "5760.0 - 2142.0 - 291.9 - (133.5) - 561.0 = 2631.6"
+          "change_in_working_capital": 1260.8,
+          "tax": 691.2,
+          "fcf": 250.2,
+          "formula_check": "5760.0 - 3265.9 - 291.9 - (1260.8) - 691.2 = 250.2"
         }
       },
       {
@@ -53076,8 +51695,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6480,
         "ebitda_margin_pct": 34.4,
         "cfo": 5385.6,
-        "capex": 2394,
-        "fcf": 2991.6,
+        "capex": 3674.2,
+        "fcf": 263.4,
         "cash": 4590,
         "gross_debt": 9878.4,
         "net_debt": 5288.4,
@@ -53096,17 +51715,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$97.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 350.3,
-        "change_in_working_capital": 116.2,
-        "tax_expense": 627.9,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 1414.5,
+        "tax_expense": 777.6,
+        "fcf_conversion_pct": 4.1,
         "fcf_bridge": {
           "calculated_ebitda": 6480,
-          "capex": 2394,
+          "capex": 3674.2,
           "cash_interest": 350.3,
-          "change_in_working_capital": 116.2,
-          "tax": 627.9,
-          "fcf": 2991.6,
-          "formula_check": "6480.0 - 2394.0 - 350.3 - (116.2) - 627.9 = 2991.6"
+          "change_in_working_capital": 1414.5,
+          "tax": 777.6,
+          "fcf": 263.4,
+          "formula_check": "6480.0 - 3674.2 - 350.3 - (1414.5) - 777.6 = 263.4"
         }
       },
       {
@@ -53116,8 +51735,8 @@ const MASTER_ISSUERS = [
         "ebitda": 7200,
         "ebitda_margin_pct": 35.1,
         "cfo": 6120,
-        "capex": 2520,
-        "fcf": 3600,
+        "capex": 3477.6,
+        "fcf": 1649.2,
         "cash": 5400,
         "gross_debt": 10080,
         "net_debt": 4680,
@@ -53136,17 +51755,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$108.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 389.2,
-        "change_in_working_capital": -6.8,
-        "tax_expense": 697.6,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 820.0,
+        "tax_expense": 864.0,
+        "fcf_conversion_pct": 22.9,
         "fcf_bridge": {
           "calculated_ebitda": 7200,
-          "capex": 2520,
+          "capex": 3477.6,
           "cash_interest": 389.2,
-          "change_in_working_capital": -6.8,
-          "tax": 697.6,
-          "fcf": 3600,
-          "formula_check": "7200.0 - 2520.0 - 389.2 - (-6.8) - 697.6 = 3600.0"
+          "change_in_working_capital": 820.0,
+          "tax": 864.0,
+          "fcf": 1649.2,
+          "formula_check": "7200.0 - 3477.6 - 389.2 - (820.0) - 864.0 = 1649.2"
         }
       },
       {
@@ -53156,8 +51775,8 @@ const MASTER_ISSUERS = [
         "ebitda": 7920,
         "ebitda_margin_pct": 35.8,
         "cfo": 6732,
-        "capex": 2646,
-        "fcf": 4086,
+        "capex": 3160.1,
+        "fcf": 2550.3,
         "cash": 6372,
         "gross_debt": 9878.4,
         "net_debt": 3506.4,
@@ -53176,17 +51795,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$118.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 373.6,
-        "change_in_working_capital": 38.8,
-        "tax_expense": 775.6,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 885.6,
+        "tax_expense": 950.4,
+        "fcf_conversion_pct": 32.2,
         "fcf_bridge": {
           "calculated_ebitda": 7920,
-          "capex": 2646,
+          "capex": 3160.1,
           "cash_interest": 373.6,
-          "change_in_working_capital": 38.8,
-          "tax": 775.6,
-          "fcf": 4086,
-          "formula_check": "7920.0 - 2646.0 - 373.6 - (38.8) - 775.6 = 4086.0"
+          "change_in_working_capital": 885.6,
+          "tax": 950.4,
+          "fcf": 2550.3,
+          "formula_check": "7920.0 - 3160.1 - 373.6 - (885.6) - 950.4 = 2550.3"
         }
       },
       {
@@ -53196,8 +51815,8 @@ const MASTER_ISSUERS = [
         "ebitda": 8496,
         "ebitda_margin_pct": 36,
         "cfo": 7221.6,
-        "capex": 2570.4,
-        "fcf": 4651.2,
+        "capex": 3389.9,
+        "fcf": 2785.6,
         "cash": 7290,
         "gross_debt": 9576,
         "net_debt": 2286,
@@ -53216,17 +51835,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$127.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 358,
-        "change_in_working_capital": 78,
-        "tax_expense": 838.4,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 943.0,
+        "tax_expense": 1019.5,
+        "fcf_conversion_pct": 32.8,
         "fcf_bridge": {
           "calculated_ebitda": 8496,
-          "capex": 2570.4,
+          "capex": 3389.9,
           "cash_interest": 358,
-          "change_in_working_capital": 78,
-          "tax": 838.4,
-          "fcf": 4651.2,
-          "formula_check": "8496.0 - 2570.4 - 358.0 - (78.0) - 838.4 = 4651.2"
+          "change_in_working_capital": 943.0,
+          "tax": 1019.5,
+          "fcf": 2785.6,
+          "formula_check": "8496.0 - 3389.9 - 358.0 - (943.0) - 1019.5 = 2785.6"
         }
       },
       {
@@ -53236,8 +51855,8 @@ const MASTER_ISSUERS = [
         "ebitda": 8928,
         "ebitda_margin_pct": 36.3,
         "cfo": 7650,
-        "capex": 2469.6,
-        "fcf": 5180.4,
+        "capex": 3562.3,
+        "fcf": 2967.8,
         "cash": 8100,
         "gross_debt": 9072,
         "net_debt": 972,
@@ -53256,17 +51875,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$133.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 342.5,
-        "change_in_working_capital": 49.4,
-        "tax_expense": 886.1,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 984.0,
+        "tax_expense": 1071.4,
+        "fcf_conversion_pct": 33.2,
         "fcf_bridge": {
           "calculated_ebitda": 8928,
-          "capex": 2469.6,
+          "capex": 3562.3,
           "cash_interest": 342.5,
-          "change_in_working_capital": 49.4,
-          "tax": 886.1,
-          "fcf": 5180.4,
-          "formula_check": "8928.0 - 2469.6 - 342.5 - (49.4) - 886.1 = 5180.4"
+          "change_in_working_capital": 984.0,
+          "tax": 1071.4,
+          "fcf": 2967.8,
+          "formula_check": "8928.0 - 3562.3 - 342.5 - (984.0) - 1071.4 = 2967.8"
         }
       }
     ],
@@ -53700,7 +52319,10 @@ const MASTER_ISSUERS = [
       "model_file": "TAQA_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-8107-91c8-c494c0ae0794",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/TAQA_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -1321.6,
+      "net_leverage_2024a": 1.85
     },
     "financials_multi_year": [
       {
@@ -53710,8 +52332,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3640.0,
         "ebitda_margin_pct": 37.7,
         "cfo": 2951.2,
-        "capex": 1372.0,
-        "fcf": 1579.2,
+        "capex": 2939.3,
+        "fcf": -217.4,
         "cash": 2310.0,
         "gross_debt": 12376.0,
         "net_debt": 10066.0,
@@ -53730,17 +52352,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$54.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 395.2,
-        "change_in_working_capital": -29.3,
-        "tax_expense": 322.9,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 231.7,
+        "tax_expense": 291.2,
+        "fcf_conversion_pct": -6.0,
         "fcf_bridge": {
           "calculated_ebitda": 3640.0,
-          "capex": 1372.0,
+          "capex": 2939.3,
           "cash_interest": 395.2,
-          "change_in_working_capital": -29.3,
-          "tax": 322.9,
-          "fcf": 1579.2,
-          "formula_check": "3640.0 - 1372.0 - 395.2 - (-29.3) - 322.9 = 1579.2"
+          "change_in_working_capital": 231.7,
+          "tax": 291.2,
+          "fcf": -217.4,
+          "formula_check": "3640.0 - 2939.3 - 395.2 - (231.7) - 291.2 = -217.4"
         }
       },
       {
@@ -53750,8 +52372,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4480.0,
         "ebitda_margin_pct": 38.5,
         "cfo": 3712.8,
-        "capex": 1666.0,
-        "fcf": 2046.8,
+        "capex": 5140.8,
+        "fcf": -2037.1,
         "cash": 2940.0,
         "gross_debt": 13395.2,
         "net_debt": 10455.2,
@@ -53770,17 +52392,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$67.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 493.9,
-        "change_in_working_capital": -123.0,
-        "tax_expense": 396.3,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 524.0,
+        "tax_expense": 358.4,
+        "fcf_conversion_pct": -45.5,
         "fcf_bridge": {
           "calculated_ebitda": 4480.0,
-          "capex": 1666.0,
+          "capex": 5140.8,
           "cash_interest": 493.9,
-          "change_in_working_capital": -123.0,
-          "tax": 396.3,
-          "fcf": 2046.8,
-          "formula_check": "4480.0 - 1666.0 - 493.9 - (-123.0) - 396.3 = 2046.8"
+          "change_in_working_capital": 524.0,
+          "tax": 358.4,
+          "fcf": -2037.1,
+          "formula_check": "4480.0 - 5140.8 - 493.9 - (524.0) - 358.4 = -2037.1"
         }
       },
       {
@@ -53790,8 +52412,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5040.0,
         "ebitda_margin_pct": 38.6,
         "cfo": 4188.8,
-        "capex": 1862.0,
-        "fcf": 2326.8,
+        "capex": 5783.4,
+        "fcf": -2327.4,
         "cash": 3570.0,
         "gross_debt": 14268.8,
         "net_debt": 10698.8,
@@ -53810,17 +52432,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$75.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 592.9,
-        "change_in_working_capital": -182.0,
-        "tax_expense": 440.3,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 587.9,
+        "tax_expense": 403.2,
+        "fcf_conversion_pct": -46.2,
         "fcf_bridge": {
           "calculated_ebitda": 5040.0,
-          "capex": 1862.0,
+          "capex": 5783.4,
           "cash_interest": 592.9,
-          "change_in_working_capital": -182.0,
-          "tax": 440.3,
-          "fcf": 2326.8,
-          "formula_check": "5040.0 - 1862.0 - 592.9 - (-182.0) - 440.3 = 2326.8"
+          "change_in_working_capital": 587.9,
+          "tax": 403.2,
+          "fcf": -2327.4,
+          "formula_check": "5040.0 - 5783.4 - 592.9 - (587.9) - 403.2 = -2327.4"
         }
       },
       {
@@ -53830,8 +52452,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5600.0,
         "ebitda_margin_pct": 39.4,
         "cfo": 4760.0,
-        "capex": 1960.0,
-        "fcf": 2800.0,
+        "capex": 5474.0,
+        "fcf": -1321.6,
         "cash": 4200.0,
         "gross_debt": 14560.0,
         "net_debt": 10360.0,
@@ -53850,17 +52472,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$84.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 658.8,
-        "change_in_working_capital": -308.0,
-        "tax_expense": 489.2,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 340.8,
+        "tax_expense": 448.0,
+        "fcf_conversion_pct": -23.6,
         "fcf_bridge": {
           "calculated_ebitda": 5600.0,
-          "capex": 1960.0,
+          "capex": 5474.0,
           "cash_interest": 658.8,
-          "change_in_working_capital": -308.0,
-          "tax": 489.2,
-          "fcf": 2800.0,
-          "formula_check": "5600.0 - 1960.0 - 658.8 - (-308.0) - 489.2 = 2800.0"
+          "change_in_working_capital": 340.8,
+          "tax": 448.0,
+          "fcf": -1321.6,
+          "formula_check": "5600.0 - 5474.0 - 658.8 - (340.8) - 448.0 = -1321.6"
         }
       },
       {
@@ -53870,8 +52492,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6160.0,
         "ebitda_margin_pct": 40.2,
         "cfo": 5236.0,
-        "capex": 2058.0,
-        "fcf": 3178.0,
+        "capex": 4974.2,
+        "fcf": -307.5,
         "cash": 4956.0,
         "gross_debt": 14268.8,
         "net_debt": 9312.8,
@@ -53890,17 +52512,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$92.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 632.4,
-        "change_in_working_capital": -260.3,
-        "tax_expense": 551.9,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 368.1,
+        "tax_expense": 492.8,
+        "fcf_conversion_pct": -5.0,
         "fcf_bridge": {
           "calculated_ebitda": 6160.0,
-          "capex": 2058.0,
+          "capex": 4974.2,
           "cash_interest": 632.4,
-          "change_in_working_capital": -260.3,
-          "tax": 551.9,
-          "fcf": 3178.0,
-          "formula_check": "6160.0 - 2058.0 - 632.4 - (-260.3) - 551.9 = 3178.0"
+          "change_in_working_capital": 368.1,
+          "tax": 492.8,
+          "fcf": -307.5,
+          "formula_check": "6160.0 - 4974.2 - 632.4 - (368.1) - 492.8 = -307.5"
         }
       },
       {
@@ -53910,8 +52532,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6608.0,
         "ebitda_margin_pct": 40.5,
         "cfo": 5616.8,
-        "capex": 1999.2,
-        "fcf": 3617.6,
+        "capex": 5336.0,
+        "fcf": -254.7,
         "cash": 5670.0,
         "gross_debt": 13832.0,
         "net_debt": 8162.0,
@@ -53930,17 +52552,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$99.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 606.2,
-        "change_in_working_capital": -217.9,
-        "tax_expense": 602.9,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 391.9,
+        "tax_expense": 528.6,
+        "fcf_conversion_pct": -3.9,
         "fcf_bridge": {
           "calculated_ebitda": 6608.0,
-          "capex": 1999.2,
+          "capex": 5336.0,
           "cash_interest": 606.2,
-          "change_in_working_capital": -217.9,
-          "tax": 602.9,
-          "fcf": 3617.6,
-          "formula_check": "6608.0 - 1999.2 - 606.2 - (-217.9) - 602.9 = 3617.6"
+          "change_in_working_capital": 391.9,
+          "tax": 528.6,
+          "fcf": -254.7,
+          "formula_check": "6608.0 - 5336.0 - 606.2 - (391.9) - 528.6 = -254.7"
         }
       },
       {
@@ -53950,8 +52572,8 @@ const MASTER_ISSUERS = [
         "ebitda": 6944.0,
         "ebitda_margin_pct": 40.8,
         "cfo": 5950.0,
-        "capex": 1920.8,
-        "fcf": 4029.2,
+        "capex": 5607.3,
+        "fcf": -207.4,
         "cash": 6300.0,
         "gross_debt": 13104.0,
         "net_debt": 6804.0,
@@ -53970,17 +52592,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$104.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 579.6,
-        "change_in_working_capital": -227.8,
-        "tax_expense": 642.2,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 409.0,
+        "tax_expense": 555.5,
+        "fcf_conversion_pct": -3.0,
         "fcf_bridge": {
           "calculated_ebitda": 6944.0,
-          "capex": 1920.8,
+          "capex": 5607.3,
           "cash_interest": 579.6,
-          "change_in_working_capital": -227.8,
-          "tax": 642.2,
-          "fcf": 4029.2,
-          "formula_check": "6944.0 - 1920.8 - 579.6 - (-227.8) - 642.2 = 4029.2"
+          "change_in_working_capital": 409.0,
+          "tax": 555.5,
+          "fcf": -207.4,
+          "formula_check": "6944.0 - 5607.3 - 579.6 - (409.0) - 555.5 = -207.4"
         }
       }
     ],
@@ -54421,7 +53043,10 @@ const MASTER_ISSUERS = [
       "model_file": "Tharisa_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6815aa0c2e66138027562",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tharisa_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 9.7,
+      "net_leverage_2024a": 0.38
     },
     "financials_multi_year": [
       {
@@ -54431,8 +53056,8 @@ const MASTER_ISSUERS = [
         "ebitda": 120.2,
         "ebitda_margin_pct": 24.9,
         "cfo": 97.5,
-        "capex": 45.3,
-        "fcf": 52.2,
+        "capex": 57.1,
+        "fcf": 18.6,
         "cash": 76.3,
         "gross_debt": 177.7,
         "net_debt": 101.4,
@@ -54451,17 +53076,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 13.2,
-        "change_in_working_capital": -1.1,
-        "tax_expense": 10.6,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 19.3,
+        "tax_expense": 12.0,
+        "fcf_conversion_pct": 15.5,
         "fcf_bridge": {
           "calculated_ebitda": 120.2,
-          "capex": 45.3,
+          "capex": 57.1,
           "cash_interest": 13.2,
-          "change_in_working_capital": -1.1,
-          "tax": 10.6,
-          "fcf": 52.2,
-          "formula_check": "120.2 - 45.3 - 13.2 - (-1.1) - 10.6 = 52.2"
+          "change_in_working_capital": 19.3,
+          "tax": 12.0,
+          "fcf": 18.6,
+          "formula_check": "120.2 - 57.1 - 13.2 - (19.3) - 12.0 = 18.6"
         }
       },
       {
@@ -54471,8 +53096,8 @@ const MASTER_ISSUERS = [
         "ebitda": 148.0,
         "ebitda_margin_pct": 25.4,
         "cfo": 122.7,
-        "capex": 55.0,
-        "fcf": 67.7,
+        "capex": 99.9,
+        "fcf": -26.9,
         "cash": 97.1,
         "gross_debt": 192.3,
         "net_debt": 95.2,
@@ -54491,17 +53116,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 16.5,
-        "change_in_working_capital": -4.3,
-        "tax_expense": 13.1,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 43.7,
+        "tax_expense": 14.8,
+        "fcf_conversion_pct": -18.2,
         "fcf_bridge": {
           "calculated_ebitda": 148.0,
-          "capex": 55.0,
+          "capex": 99.9,
           "cash_interest": 16.5,
-          "change_in_working_capital": -4.3,
-          "tax": 13.1,
-          "fcf": 67.7,
-          "formula_check": "148.0 - 55.0 - 16.5 - (-4.3) - 13.1 = 67.7"
+          "change_in_working_capital": 43.7,
+          "tax": 14.8,
+          "fcf": -26.9,
+          "formula_check": "148.0 - 99.9 - 16.5 - (43.7) - 14.8 = -26.9"
         }
       },
       {
@@ -54511,8 +53136,8 @@ const MASTER_ISSUERS = [
         "ebitda": 166.5,
         "ebitda_margin_pct": 25.5,
         "cfo": 138.4,
-        "capex": 61.5,
-        "fcf": 76.9,
+        "capex": 112.4,
+        "fcf": -31.4,
         "cash": 117.9,
         "gross_debt": 204.9,
         "net_debt": 87.0,
@@ -54531,17 +53156,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 19.8,
-        "change_in_working_capital": -6.2,
-        "tax_expense": 14.5,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 49.0,
+        "tax_expense": 16.7,
+        "fcf_conversion_pct": -18.9,
         "fcf_bridge": {
           "calculated_ebitda": 166.5,
-          "capex": 61.5,
+          "capex": 112.4,
           "cash_interest": 19.8,
-          "change_in_working_capital": -6.2,
-          "tax": 14.5,
-          "fcf": 76.9,
-          "formula_check": "166.5 - 61.5 - 19.8 - (-6.2) - 14.5 = 76.9"
+          "change_in_working_capital": 49.0,
+          "tax": 16.7,
+          "fcf": -31.4,
+          "formula_check": "166.5 - 112.4 - 19.8 - (49.0) - 16.7 = -31.4"
         }
       },
       {
@@ -54551,8 +53176,8 @@ const MASTER_ISSUERS = [
         "ebitda": 185.0,
         "ebitda_margin_pct": 26.1,
         "cfo": 157.2,
-        "capex": 64.8,
-        "fcf": 92.4,
+        "capex": 106.4,
+        "fcf": 9.7,
         "cash": 138.8,
         "gross_debt": 209.1,
         "net_debt": 70.3,
@@ -54571,17 +53196,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 22.0,
-        "change_in_working_capital": -10.3,
-        "tax_expense": 16.1,
-        "fcf_conversion_pct": 49.9,
+        "change_in_working_capital": 28.4,
+        "tax_expense": 18.5,
+        "fcf_conversion_pct": 5.2,
         "fcf_bridge": {
           "calculated_ebitda": 185.0,
-          "capex": 64.8,
+          "capex": 106.4,
           "cash_interest": 22.0,
-          "change_in_working_capital": -10.3,
-          "tax": 16.1,
-          "fcf": 92.4,
-          "formula_check": "185.0 - 64.8 - 22.0 - (-10.3) - 16.1 = 92.4"
+          "change_in_working_capital": 28.4,
+          "tax": 18.5,
+          "fcf": 9.7,
+          "formula_check": "185.0 - 106.4 - 22.0 - (28.4) - 18.5 = 9.7"
         }
       },
       {
@@ -54591,8 +53216,8 @@ const MASTER_ISSUERS = [
         "ebitda": 203.5,
         "ebitda_margin_pct": 26.5,
         "cfo": 173.0,
-        "capex": 68.0,
-        "fcf": 105.0,
+        "capex": 96.7,
+        "fcf": 34.6,
         "cash": 163.7,
         "gross_debt": 204.9,
         "net_debt": 41.2,
@@ -54611,17 +53236,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 21.1,
-        "change_in_working_capital": -8.8,
-        "tax_expense": 18.2,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 30.7,
+        "tax_expense": 20.4,
+        "fcf_conversion_pct": 17.0,
         "fcf_bridge": {
           "calculated_ebitda": 203.5,
-          "capex": 68.0,
+          "capex": 96.7,
           "cash_interest": 21.1,
-          "change_in_working_capital": -8.8,
-          "tax": 18.2,
-          "fcf": 105.0,
-          "formula_check": "203.5 - 68.0 - 21.1 - (-8.8) - 18.2 = 105.0"
+          "change_in_working_capital": 30.7,
+          "tax": 20.4,
+          "fcf": 34.6,
+          "formula_check": "203.5 - 96.7 - 21.1 - (30.7) - 20.4 = 34.6"
         }
       },
       {
@@ -54631,8 +53256,8 @@ const MASTER_ISSUERS = [
         "ebitda": 218.3,
         "ebitda_margin_pct": 26.7,
         "cfo": 185.6,
-        "capex": 66.0,
-        "fcf": 119.6,
+        "capex": 103.7,
+        "fcf": 39.9,
         "cash": 187.3,
         "gross_debt": 198.6,
         "net_debt": 11.3,
@@ -54651,17 +53276,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 20.2,
-        "change_in_working_capital": -7.4,
-        "tax_expense": 19.9,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 32.7,
+        "tax_expense": 21.8,
+        "fcf_conversion_pct": 18.3,
         "fcf_bridge": {
           "calculated_ebitda": 218.3,
-          "capex": 66.0,
+          "capex": 103.7,
           "cash_interest": 20.2,
-          "change_in_working_capital": -7.4,
-          "tax": 19.9,
-          "fcf": 119.6,
-          "formula_check": "218.3 - 66.0 - 20.2 - (-7.4) - 19.9 = 119.6"
+          "change_in_working_capital": 32.7,
+          "tax": 21.8,
+          "fcf": 39.9,
+          "formula_check": "218.3 - 103.7 - 20.2 - (32.7) - 21.8 = 39.9"
         }
       },
       {
@@ -54671,8 +53296,8 @@ const MASTER_ISSUERS = [
         "ebitda": 229.4,
         "ebitda_margin_pct": 26.9,
         "cfo": 196.6,
-        "capex": 63.5,
-        "fcf": 133.1,
+        "capex": 109.0,
+        "fcf": 44.0,
         "cash": 208.1,
         "gross_debt": 188.1,
         "net_debt": 0.0,
@@ -54691,17 +53316,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.4M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 19.4,
-        "change_in_working_capital": -7.8,
-        "tax_expense": 21.2,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 34.1,
+        "tax_expense": 22.9,
+        "fcf_conversion_pct": 19.2,
         "fcf_bridge": {
           "calculated_ebitda": 229.4,
-          "capex": 63.5,
+          "capex": 109.0,
           "cash_interest": 19.4,
-          "change_in_working_capital": -7.8,
-          "tax": 21.2,
-          "fcf": 133.1,
-          "formula_check": "229.4 - 63.5 - 19.4 - (-7.8) - 21.2 = 133.1"
+          "change_in_working_capital": 34.1,
+          "tax": 22.9,
+          "fcf": 44.0,
+          "formula_check": "229.4 - 109.0 - 19.4 - (34.1) - 22.9 = 44.0"
         }
       }
     ],
@@ -55159,7 +53784,10 @@ const MASTER_ISSUERS = [
       "model_file": "Turkish_Airlines_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-813e-bd1b-e6fc5ac9fd7f",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turkish_Airlines_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -9.9,
+      "net_leverage_2024a": 1.95
     },
     "financials_multi_year": [
       {
@@ -55169,8 +53797,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2860.0,
         "ebitda_margin_pct": 20.0,
         "cfo": 2318.8,
-        "capex": 1078.0,
-        "fcf": 1240.8,
+        "capex": 1141.1,
+        "fcf": 254.5,
         "cash": 1815.0,
         "gross_debt": 10098.0,
         "net_debt": 8283.0,
@@ -55189,17 +53817,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$42.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 550.0,
-        "change_in_working_capital": -226.6,
-        "tax_expense": 217.8,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 571.2,
+        "tax_expense": 343.2,
+        "fcf_conversion_pct": 8.9,
         "fcf_bridge": {
           "calculated_ebitda": 2860.0,
-          "capex": 1078.0,
+          "capex": 1141.1,
           "cash_interest": 550.0,
-          "change_in_working_capital": -226.6,
-          "tax": 217.8,
-          "fcf": 1240.8,
-          "formula_check": "2860.0 - 1078.0 - 550.0 - (-226.6) - 217.8 = 1240.8"
+          "change_in_working_capital": 571.2,
+          "tax": 343.2,
+          "fcf": 254.5,
+          "formula_check": "2860.0 - 1141.1 - 550.0 - (571.2) - 343.2 = 254.5"
         }
       },
       {
@@ -55209,8 +53837,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3520.0,
         "ebitda_margin_pct": 20.4,
         "cfo": 2917.2,
-        "capex": 1309.0,
-        "fcf": 1608.2,
+        "capex": 1995.8,
+        "fcf": -877.2,
         "cash": 2310.0,
         "gross_debt": 10929.6,
         "net_debt": 8619.6,
@@ -55229,17 +53857,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$193.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 687.5,
-        "change_in_working_capital": -351.2,
-        "tax_expense": 266.5,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 1291.5,
+        "tax_expense": 422.4,
+        "fcf_conversion_pct": -24.9,
         "fcf_bridge": {
           "calculated_ebitda": 3520.0,
-          "capex": 1309.0,
+          "capex": 1995.8,
           "cash_interest": 687.5,
-          "change_in_working_capital": -351.2,
-          "tax": 266.5,
-          "fcf": 1608.2,
-          "formula_check": "3520.0 - 1309.0 - 687.5 - (-351.2) - 266.5 = 1608.2"
+          "change_in_working_capital": 1291.5,
+          "tax": 422.4,
+          "fcf": -877.2,
+          "formula_check": "3520.0 - 1995.8 - 687.5 - (1291.5) - 422.4 = -877.2"
         }
       },
       {
@@ -55249,8 +53877,8 @@ const MASTER_ISSUERS = [
         "ebitda": 3960.0,
         "ebitda_margin_pct": 20.5,
         "cfo": 3291.2,
-        "capex": 1463.0,
-        "fcf": 1828.2,
+        "capex": 2245.3,
+        "fcf": -1034.5,
         "cash": 2805.0,
         "gross_debt": 11642.4,
         "net_debt": 8837.4,
@@ -55269,17 +53897,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$217.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 825.0,
-        "change_in_working_capital": -448.3,
-        "tax_expense": 292.1,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 1449.0,
+        "tax_expense": 475.2,
+        "fcf_conversion_pct": -26.1,
         "fcf_bridge": {
           "calculated_ebitda": 3960.0,
-          "capex": 1463.0,
+          "capex": 2245.3,
           "cash_interest": 825.0,
-          "change_in_working_capital": -448.3,
-          "tax": 292.1,
-          "fcf": 1828.2,
-          "formula_check": "3960.0 - 1463.0 - 825.0 - (-448.3) - 292.1 = 1828.2"
+          "change_in_working_capital": 1449.0,
+          "tax": 475.2,
+          "fcf": -1034.5,
+          "formula_check": "3960.0 - 2245.3 - 825.0 - (1449.0) - 475.2 = -1034.5"
         }
       },
       {
@@ -55289,8 +53917,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4400.0,
         "ebitda_margin_pct": 21.0,
         "cfo": 3740.0,
-        "capex": 1540.0,
-        "fcf": 2200.0,
+        "capex": 2125.2,
+        "fcf": -9.9,
         "cash": 3300.0,
         "gross_debt": 11880.0,
         "net_debt": 8580.0,
@@ -55309,17 +53937,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$242.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 916.7,
-        "change_in_working_capital": -581.2,
-        "tax_expense": 324.5,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 840.0,
+        "tax_expense": 528.0,
+        "fcf_conversion_pct": -0.2,
         "fcf_bridge": {
           "calculated_ebitda": 4400.0,
-          "capex": 1540.0,
+          "capex": 2125.2,
           "cash_interest": 916.7,
-          "change_in_working_capital": -581.2,
-          "tax": 324.5,
-          "fcf": 2200.0,
-          "formula_check": "4400.0 - 1540.0 - 916.7 - (-581.2) - 324.5 = 2200.0"
+          "change_in_working_capital": 840.0,
+          "tax": 528.0,
+          "fcf": -9.9,
+          "formula_check": "4400.0 - 2125.2 - 916.7 - (840.0) - 528.0 = -9.9"
         }
       },
       {
@@ -55329,8 +53957,8 @@ const MASTER_ISSUERS = [
         "ebitda": 4840.0,
         "ebitda_margin_pct": 21.3,
         "cfo": 4114.0,
-        "capex": 1617.0,
-        "fcf": 2497.0,
+        "capex": 1931.2,
+        "fcf": 540.8,
         "cash": 3894.0,
         "gross_debt": 11642.4,
         "net_debt": 7748.4,
@@ -55349,17 +53977,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$72.6M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 880.0,
-        "change_in_working_capital": -530.2,
-        "tax_expense": 376.2,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 907.2,
+        "tax_expense": 580.8,
+        "fcf_conversion_pct": 11.2,
         "fcf_bridge": {
           "calculated_ebitda": 4840.0,
-          "capex": 1617.0,
+          "capex": 1931.2,
           "cash_interest": 880.0,
-          "change_in_working_capital": -530.2,
-          "tax": 376.2,
-          "fcf": 2497.0,
-          "formula_check": "4840.0 - 1617.0 - 880.0 - (-530.2) - 376.2 = 2497.0"
+          "change_in_working_capital": 907.2,
+          "tax": 580.8,
+          "fcf": 540.8,
+          "formula_check": "4840.0 - 1931.2 - 880.0 - (907.2) - 580.8 = 540.8"
         }
       },
       {
@@ -55369,8 +53997,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5192.0,
         "ebitda_margin_pct": 21.5,
         "cfo": 4413.2,
-        "capex": 1570.8,
-        "fcf": 2842.4,
+        "capex": 2071.6,
+        "fcf": 688.5,
         "cash": 4455.0,
         "gross_debt": 11286.0,
         "net_debt": 6831.0,
@@ -55389,17 +54017,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$77.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 842.9,
-        "change_in_working_capital": -482.8,
-        "tax_expense": 418.7,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 966.0,
+        "tax_expense": 623.0,
+        "fcf_conversion_pct": 13.3,
         "fcf_bridge": {
           "calculated_ebitda": 5192.0,
-          "capex": 1570.8,
+          "capex": 2071.6,
           "cash_interest": 842.9,
-          "change_in_working_capital": -482.8,
-          "tax": 418.7,
-          "fcf": 2842.4,
-          "formula_check": "5192.0 - 1570.8 - 842.9 - (-482.8) - 418.7 = 2842.4"
+          "change_in_working_capital": 966.0,
+          "tax": 623.0,
+          "fcf": 688.5,
+          "formula_check": "5192.0 - 2071.6 - 842.9 - (966.0) - 623.0 = 688.5"
         }
       },
       {
@@ -55409,8 +54037,8 @@ const MASTER_ISSUERS = [
         "ebitda": 5456.0,
         "ebitda_margin_pct": 21.7,
         "cfo": 4675.0,
-        "capex": 1509.2,
-        "fcf": 3165.8,
+        "capex": 2176.9,
+        "fcf": 809.3,
         "cash": 4950.0,
         "gross_debt": 10692.0,
         "net_debt": 5742.0,
@@ -55429,17 +54057,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$81.8M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 807.1,
-        "change_in_working_capital": -477.9,
-        "tax_expense": 451.8,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 1008.0,
+        "tax_expense": 654.7,
+        "fcf_conversion_pct": 14.8,
         "fcf_bridge": {
           "calculated_ebitda": 5456.0,
-          "capex": 1509.2,
+          "capex": 2176.9,
           "cash_interest": 807.1,
-          "change_in_working_capital": -477.9,
-          "tax": 451.8,
-          "fcf": 3165.8,
-          "formula_check": "5456.0 - 1509.2 - 807.1 - (-477.9) - 451.8 = 3165.8"
+          "change_in_working_capital": 1008.0,
+          "tax": 654.7,
+          "fcf": 809.3,
+          "formula_check": "5456.0 - 2176.9 - 807.1 - (1008.0) - 654.7 = 809.3"
         }
       }
     ],
@@ -55876,7 +54504,10 @@ const MASTER_ISSUERS = [
       "model_file": "Turk_Telekom_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81b8-a403-f39bd0b0ad41",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turk_Telekom_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": 127.3,
+      "net_leverage_2024a": 1.45
     },
     "financials_multi_year": [
       {
@@ -55886,8 +54517,8 @@ const MASTER_ISSUERS = [
         "ebitda": 877.5,
         "ebitda_margin_pct": 35.8,
         "cfo": 711.5,
-        "capex": 330.7,
-        "fcf": 380.8,
+        "capex": 350.1,
+        "fcf": 165.2,
         "cash": 556.9,
         "gross_debt": 2524.5,
         "net_debt": 1967.6,
@@ -55906,17 +54537,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.2M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 159.0,
-        "change_in_working_capital": -61.3,
-        "tax_expense": 68.3,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 97.9,
+        "tax_expense": 105.3,
+        "fcf_conversion_pct": 18.8,
         "fcf_bridge": {
           "calculated_ebitda": 877.5,
-          "capex": 330.7,
+          "capex": 350.1,
           "cash_interest": 159.0,
-          "change_in_working_capital": -61.3,
-          "tax": 68.3,
-          "fcf": 380.8,
-          "formula_check": "877.5 - 330.7 - 159.0 - (-61.3) - 68.3 = 380.8"
+          "change_in_working_capital": 97.9,
+          "tax": 105.3,
+          "fcf": 165.2,
+          "formula_check": "877.5 - 350.1 - 159.0 - (97.9) - 105.3 = 165.2"
         }
       },
       {
@@ -55926,8 +54557,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1080.0,
         "ebitda_margin_pct": 36.6,
         "cfo": 895.1,
-        "capex": 401.6,
-        "fcf": 493.5,
+        "capex": 612.4,
+        "fcf": -81.9,
         "cash": 708.8,
         "gross_debt": 2732.4,
         "net_debt": 2023.6,
@@ -55946,17 +54577,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$59.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 198.5,
-        "change_in_working_capital": -97.2,
-        "tax_expense": 83.6,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 221.4,
+        "tax_expense": 129.6,
+        "fcf_conversion_pct": -7.6,
         "fcf_bridge": {
           "calculated_ebitda": 1080.0,
-          "capex": 401.6,
+          "capex": 612.4,
           "cash_interest": 198.5,
-          "change_in_working_capital": -97.2,
-          "tax": 83.6,
-          "fcf": 493.5,
-          "formula_check": "1080.0 - 401.6 - 198.5 - (-97.2) - 83.6 = 493.5"
+          "change_in_working_capital": 221.4,
+          "tax": 129.6,
+          "fcf": -81.9,
+          "formula_check": "1080.0 - 612.4 - 198.5 - (221.4) - 129.6 = -81.9"
         }
       },
       {
@@ -55966,8 +54597,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1215.0,
         "ebitda_margin_pct": 36.7,
         "cfo": 1009.8,
-        "capex": 448.9,
-        "fcf": 560.9,
+        "capex": 688.9,
+        "fcf": -106.3,
         "cash": 860.6,
         "gross_debt": 2910.6,
         "net_debt": 2050.0,
@@ -55986,17 +54617,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$66.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 238.2,
-        "change_in_working_capital": -124.8,
-        "tax_expense": 91.8,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 248.4,
+        "tax_expense": 145.8,
+        "fcf_conversion_pct": -8.7,
         "fcf_bridge": {
           "calculated_ebitda": 1215.0,
-          "capex": 448.9,
+          "capex": 688.9,
           "cash_interest": 238.2,
-          "change_in_working_capital": -124.8,
-          "tax": 91.8,
-          "fcf": 560.9,
-          "formula_check": "1215.0 - 448.9 - 238.2 - (-124.8) - 91.8 = 560.9"
+          "change_in_working_capital": 248.4,
+          "tax": 145.8,
+          "fcf": -106.3,
+          "formula_check": "1215.0 - 688.9 - 238.2 - (248.4) - 145.8 = -106.3"
         }
       },
       {
@@ -56006,8 +54637,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1350.0,
         "ebitda_margin_pct": 37.5,
         "cfo": 1147.5,
-        "capex": 472.5,
-        "fcf": 675.0,
+        "capex": 652.0,
+        "fcf": 127.3,
         "cash": 1012.5,
         "gross_debt": 2970.0,
         "net_debt": 1957.5,
@@ -56026,17 +54657,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$74.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 264.7,
-        "change_in_working_capital": -164.2,
-        "tax_expense": 102.0,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 144.0,
+        "tax_expense": 162.0,
+        "fcf_conversion_pct": 9.4,
         "fcf_bridge": {
           "calculated_ebitda": 1350.0,
-          "capex": 472.5,
+          "capex": 652.0,
           "cash_interest": 264.7,
-          "change_in_working_capital": -164.2,
-          "tax": 102.0,
-          "fcf": 675.0,
-          "formula_check": "1350.0 - 472.5 - 264.7 - (-164.2) - 102.0 = 675.0"
+          "change_in_working_capital": 144.0,
+          "tax": 162.0,
+          "fcf": 127.3,
+          "formula_check": "1350.0 - 652.0 - 264.7 - (144.0) - 162.0 = 127.3"
         }
       },
       {
@@ -56046,8 +54677,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1485.0,
         "ebitda_margin_pct": 38.2,
         "cfo": 1262.2,
-        "capex": 496.1,
-        "fcf": 766.1,
+        "capex": 592.5,
+        "fcf": 304.5,
         "cash": 1194.8,
         "gross_debt": 2910.6,
         "net_debt": 1715.8,
@@ -56066,17 +54697,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$22.3M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 254.3,
-        "change_in_working_capital": -149.3,
-        "tax_expense": 117.8,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 155.5,
+        "tax_expense": 178.2,
+        "fcf_conversion_pct": 20.5,
         "fcf_bridge": {
           "calculated_ebitda": 1485.0,
-          "capex": 496.1,
+          "capex": 592.5,
           "cash_interest": 254.3,
-          "change_in_working_capital": -149.3,
-          "tax": 117.8,
-          "fcf": 766.1,
-          "formula_check": "1485.0 - 496.1 - 254.3 - (-149.3) - 117.8 = 766.1"
+          "change_in_working_capital": 155.5,
+          "tax": 178.2,
+          "fcf": 304.5,
+          "formula_check": "1485.0 - 592.5 - 254.3 - (155.5) - 178.2 = 304.5"
         }
       },
       {
@@ -56086,8 +54717,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1593.0,
         "ebitda_margin_pct": 38.5,
         "cfo": 1354.0,
-        "capex": 481.9,
-        "fcf": 872.1,
+        "capex": 635.6,
+        "fcf": 357.0,
         "cash": 1366.9,
         "gross_debt": 2821.5,
         "net_debt": 1454.6,
@@ -56106,17 +54737,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$23.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 243.6,
-        "change_in_working_capital": -135.3,
-        "tax_expense": 130.7,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 165.6,
+        "tax_expense": 191.2,
+        "fcf_conversion_pct": 22.4,
         "fcf_bridge": {
           "calculated_ebitda": 1593.0,
-          "capex": 481.9,
+          "capex": 635.6,
           "cash_interest": 243.6,
-          "change_in_working_capital": -135.3,
-          "tax": 130.7,
-          "fcf": 872.1,
-          "formula_check": "1593.0 - 481.9 - 243.6 - (-135.3) - 130.7 = 872.1"
+          "change_in_working_capital": 165.6,
+          "tax": 191.2,
+          "fcf": 357.0,
+          "formula_check": "1593.0 - 635.6 - 243.6 - (165.6) - 191.2 = 357.0"
         }
       },
       {
@@ -56126,8 +54757,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1674.0,
         "ebitda_margin_pct": 38.8,
         "cfo": 1434.4,
-        "capex": 463.0,
-        "fcf": 971.4,
+        "capex": 667.9,
+        "fcf": 399.6,
         "cash": 1518.8,
         "gross_debt": 2673.0,
         "net_debt": 1154.2,
@@ -56146,17 +54777,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$25.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 232.8,
-        "change_in_working_capital": -134.0,
-        "tax_expense": 140.8,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 172.8,
+        "tax_expense": 200.9,
+        "fcf_conversion_pct": 23.9,
         "fcf_bridge": {
           "calculated_ebitda": 1674.0,
-          "capex": 463.0,
+          "capex": 667.9,
           "cash_interest": 232.8,
-          "change_in_working_capital": -134.0,
-          "tax": 140.8,
-          "fcf": 971.4,
-          "formula_check": "1674.0 - 463.0 - 232.8 - (-134.0) - 140.8 = 971.4"
+          "change_in_working_capital": 172.8,
+          "tax": 200.9,
+          "fcf": 399.6,
+          "formula_check": "1674.0 - 667.9 - 232.8 - (172.8) - 200.9 = 399.6"
         }
       }
     ],
@@ -56592,18 +55223,21 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tullow_Oil_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "tullowoil",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description",
+      "model_type": "corp",
+      "fcf_2024a": 152.0,
+      "net_leverage_2024a": 2.3
     },
     "financials_multi_year": [
       {
         "period": "2021A",
         "is_audited": true,
-        "revenue": 938.4,
-        "ebitda": 533,
-        "ebitda_margin_pct": 56.8,
+        "revenue": 1438.3,
+        "ebitda": 972.9,
+        "ebitda_margin_pct": 67.6,
         "cfo": 432.1,
-        "capex": 200.9,
-        "fcf": 231.2,
+        "capex": 236.5,
+        "fcf": 245.0,
         "cash": 338.2,
         "gross_debt": 2125.8,
         "net_debt": 1787.6,
@@ -56616,34 +55250,34 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 541,
-        "calculated_ebitda": 533,
+        "reported_ebitda": 992.358,
+        "calculated_ebitda": 972.9,
         "ebitda_reconciliation_variance_usd_m": 8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 143.7,
-        "change_in_working_capital": -77.2,
-        "tax_expense": 34.4,
-        "fcf_conversion_pct": 43.4,
+        "cash_interest": 234.9,
+        "change_in_working_capital": -12.0,
+        "tax_expense": 56.1,
+        "fcf_conversion_pct": 25.2,
         "fcf_bridge": {
-          "calculated_ebitda": 533,
-          "capex": 200.9,
-          "cash_interest": 143.7,
-          "change_in_working_capital": -77.2,
-          "tax": 34.4,
-          "fcf": 231.2,
-          "formula_check": "533.0 - 200.9 - 143.7 - (-77.2) - 34.4 = 231.2"
+          "calculated_ebitda": 972.9,
+          "capex": 236.5,
+          "cash_interest": 234.9,
+          "change_in_working_capital": -12.0,
+          "tax": 56.1,
+          "fcf": 245.0,
+          "formula_check": "972.9 - 236.5 - 234.9 - (-12.0) - 56.1 = 245.0"
         }
       },
       {
         "period": "2022A",
         "is_audited": true,
-        "revenue": 1131.6,
-        "ebitda": 656,
-        "ebitda_margin_pct": 58,
+        "revenue": 1783.1,
+        "ebitda": 1468.9,
+        "ebitda_margin_pct": 82.4,
         "cfo": 543.7,
-        "capex": 243.9,
-        "fcf": 299.8,
+        "capex": 306.4,
+        "fcf": 267.0,
         "cash": 430.5,
         "gross_debt": 2300.9,
         "net_debt": 1870.4,
@@ -56656,34 +55290,34 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 665.8,
-        "calculated_ebitda": 656,
+        "reported_ebitda": 1498.278,
+        "calculated_ebitda": 1468.9,
         "ebitda_reconciliation_variance_usd_m": 9.8,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 179.7,
-        "change_in_working_capital": -109.3,
-        "tax_expense": 41.9,
-        "fcf_conversion_pct": 45.7,
+        "cash_interest": 249.0,
+        "change_in_working_capital": 35.0,
+        "tax_expense": 229.3,
+        "fcf_conversion_pct": 18.2,
         "fcf_bridge": {
-          "calculated_ebitda": 656,
-          "capex": 243.9,
-          "cash_interest": 179.7,
-          "change_in_working_capital": -109.3,
-          "tax": 41.9,
-          "fcf": 299.8,
-          "formula_check": "656.0 - 243.9 - 179.7 - (-109.3) - 41.9 = 299.8"
+          "calculated_ebitda": 1468.9,
+          "capex": 306.4,
+          "cash_interest": 249.0,
+          "change_in_working_capital": 35.0,
+          "tax": 229.3,
+          "fcf": 267.0,
+          "formula_check": "1468.9 - 306.4 - 249.0 - (35.0) - 229.3 = 267.0"
         }
       },
       {
         "period": "2023A",
         "is_audited": true,
-        "revenue": 1269.6,
-        "ebitda": 738,
-        "ebitda_margin_pct": 58.1,
+        "revenue": 1634.1,
+        "ebitda": 1151.4,
+        "ebitda_margin_pct": 70.5,
         "cfo": 613.4,
-        "capex": 272.6,
-        "fcf": 340.8,
+        "capex": 292.5,
+        "fcf": 170.0,
         "cash": 522.8,
         "gross_debt": 2451,
         "net_debt": 1928.2,
@@ -56696,34 +55330,34 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 749.1,
-        "calculated_ebitda": 738,
+        "reported_ebitda": 1174.428,
+        "calculated_ebitda": 1151.4,
         "ebitda_reconciliation_variance_usd_m": 11.1,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 215.8,
-        "change_in_working_capital": -136.3,
-        "tax_expense": 45.1,
-        "fcf_conversion_pct": 46.2,
+        "cash_interest": 240.0,
+        "change_in_working_capital": 18.0,
+        "tax_expense": 274.5,
+        "fcf_conversion_pct": 14.8,
         "fcf_bridge": {
-          "calculated_ebitda": 738,
-          "capex": 272.6,
-          "cash_interest": 215.8,
-          "change_in_working_capital": -136.3,
-          "tax": 45.1,
-          "fcf": 340.8,
-          "formula_check": "738.0 - 272.6 - 215.8 - (-136.3) - 45.1 = 340.8"
+          "calculated_ebitda": 1151.4,
+          "capex": 292.5,
+          "cash_interest": 240.0,
+          "change_in_working_capital": 18.0,
+          "tax": 274.5,
+          "fcf": 170.0,
+          "formula_check": "1151.4 - 292.5 - 240.0 - (18.0) - 274.5 = 170.0"
         }
       },
       {
         "period": "2024A",
         "is_audited": true,
-        "revenue": 1380,
-        "ebitda": 820,
-        "ebitda_margin_pct": 59.4,
+        "revenue": 1287.2,
+        "ebitda": 1008.1,
+        "ebitda_margin_pct": 78.3,
         "cfo": 697,
-        "capex": 287,
-        "fcf": 410,
+        "capex": 224.5,
+        "fcf": 152.0,
         "cash": 615,
         "gross_debt": 2501,
         "net_debt": 1886,
@@ -56736,34 +55370,34 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 832.3,
-        "calculated_ebitda": 820,
+        "reported_ebitda": 1028.262,
+        "calculated_ebitda": 1008.1,
         "ebitda_reconciliation_variance_usd_m": 12.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 239.8,
-        "change_in_working_capital": -166.9,
-        "tax_expense": 50.1,
-        "fcf_conversion_pct": 50,
+        "cash_interest": 223.2,
+        "change_in_working_capital": 25.1,
+        "tax_expense": 160.3,
+        "fcf_conversion_pct": 15.1,
         "fcf_bridge": {
-          "calculated_ebitda": 820,
-          "capex": 287,
-          "cash_interest": 239.8,
-          "change_in_working_capital": -166.9,
-          "tax": 50.1,
-          "fcf": 410,
-          "formula_check": "820.0 - 287.0 - 239.8 - (-166.9) - 50.1 = 410.0"
+          "calculated_ebitda": 1008.1,
+          "capex": 224.5,
+          "cash_interest": 223.2,
+          "change_in_working_capital": 25.1,
+          "tax": 160.3,
+          "fcf": 152.0,
+          "formula_check": "1008.1 - 224.5 - 223.2 - (25.1) - 160.3 = 152.0"
         }
       },
       {
         "period": "2025E",
         "is_audited": false,
-        "revenue": 1490.4,
-        "ebitda": 902,
-        "ebitda_margin_pct": 60.5,
+        "revenue": 1320.0,
+        "ebitda": 920.0,
+        "ebitda_margin_pct": 69.7,
         "cfo": 766.7,
-        "capex": 301.4,
-        "fcf": 465.3,
+        "capex": 240.0,
+        "fcf": 160.0,
         "cash": 725.7,
         "gross_debt": 2451,
         "net_debt": 1725.3,
@@ -56776,34 +55410,34 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 915.5,
-        "calculated_ebitda": 902,
+        "reported_ebitda": 938.4,
+        "calculated_ebitda": 920.0,
         "ebitda_reconciliation_variance_usd_m": 13.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 230.1,
-        "change_in_working_capital": -155,
-        "tax_expense": 60.2,
-        "fcf_conversion_pct": 51.6,
+        "cash_interest": 210.0,
+        "change_in_working_capital": 10.0,
+        "tax_expense": 140.0,
+        "fcf_conversion_pct": 17.4,
         "fcf_bridge": {
-          "calculated_ebitda": 902,
-          "capex": 301.4,
-          "cash_interest": 230.1,
-          "change_in_working_capital": -155,
-          "tax": 60.2,
-          "fcf": 465.3,
-          "formula_check": "902.0 - 301.4 - 230.1 - (-155.0) - 60.2 = 465.3"
+          "calculated_ebitda": 920.0,
+          "capex": 240.0,
+          "cash_interest": 210.0,
+          "change_in_working_capital": 10.0,
+          "tax": 140.0,
+          "fcf": 160.0,
+          "formula_check": "920.0 - 240.0 - 210.0 - (10.0) - 140.0 = 160.0"
         }
       },
       {
         "period": "2026E",
         "is_audited": false,
-        "revenue": 1587,
-        "ebitda": 967.6,
-        "ebitda_margin_pct": 61,
+        "revenue": 1360.0,
+        "ebitda": 950.0,
+        "ebitda_margin_pct": 69.9,
         "cfo": 822.5,
-        "capex": 292.7,
-        "fcf": 529.8,
+        "capex": 230.0,
+        "fcf": 182.0,
         "cash": 830.2,
         "gross_debt": 2375.9,
         "net_debt": 1545.7,
@@ -56816,34 +55450,34 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 982.1,
-        "calculated_ebitda": 967.6,
+        "reported_ebitda": 969.0,
+        "calculated_ebitda": 950.0,
         "ebitda_reconciliation_variance_usd_m": 14.5,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.5M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 220.4,
-        "change_in_working_capital": -143.8,
-        "tax_expense": 68.5,
-        "fcf_conversion_pct": 54.8,
+        "cash_interest": 195.0,
+        "change_in_working_capital": 8.0,
+        "tax_expense": 145.0,
+        "fcf_conversion_pct": 19.2,
         "fcf_bridge": {
-          "calculated_ebitda": 967.6,
-          "capex": 292.7,
-          "cash_interest": 220.4,
-          "change_in_working_capital": -143.8,
-          "tax": 68.5,
-          "fcf": 529.8,
-          "formula_check": "967.6 - 292.7 - 220.4 - (-143.8) - 68.5 = 529.8"
+          "calculated_ebitda": 950.0,
+          "capex": 230.0,
+          "cash_interest": 195.0,
+          "change_in_working_capital": 8.0,
+          "tax": 145.0,
+          "fcf": 182.0,
+          "formula_check": "950.0 - 230.0 - 195.0 - (8.0) - 145.0 = 182.0"
         }
       },
       {
         "period": "2027E",
         "is_audited": false,
-        "revenue": 1656,
-        "ebitda": 1016.8,
-        "ebitda_margin_pct": 61.4,
+        "revenue": 1410.0,
+        "ebitda": 985.0,
+        "ebitda_margin_pct": 69.9,
         "cfo": 871.2,
-        "capex": 281.3,
-        "fcf": 589.9,
+        "capex": 220.0,
+        "fcf": 210.0,
         "cash": 922.5,
         "gross_debt": 2250.9,
         "net_debt": 1328.4,
@@ -56856,23 +55490,23 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 1032.1,
-        "calculated_ebitda": 1016.8,
+        "reported_ebitda": 1004.7,
+        "calculated_ebitda": 985.0,
         "ebitda_reconciliation_variance_usd_m": 15.3,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-        "cash_interest": 211,
-        "change_in_working_capital": -140.5,
-        "tax_expense": 75.1,
-        "fcf_conversion_pct": 58,
+        "cash_interest": 180.0,
+        "change_in_working_capital": 5.0,
+        "tax_expense": 150.0,
+        "fcf_conversion_pct": 21.3,
         "fcf_bridge": {
-          "calculated_ebitda": 1016.8,
-          "capex": 281.3,
-          "cash_interest": 211,
-          "change_in_working_capital": -140.5,
-          "tax": 75.1,
-          "fcf": 589.9,
-          "formula_check": "1016.8 - 281.3 - 211.0 - (-140.5) - 75.1 = 589.9"
+          "calculated_ebitda": 985.0,
+          "capex": 220.0,
+          "cash_interest": 180.0,
+          "change_in_working_capital": 5.0,
+          "tax": 150.0,
+          "fcf": 210.0,
+          "formula_check": "985.0 - 220.0 - 180.0 - (5.0) - 150.0 = 210.0"
         }
       }
     ],
@@ -57332,7 +55966,10 @@ const MASTER_ISSUERS = [
       "model_file": "Tupras_Credit_Model.xlsx",
       "notion_id": "3e01d0ad-68c6-81f7-91db-f79841d25390",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tupras_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -179.5,
+      "net_leverage_2024a": 0.75
     },
     "financials_multi_year": [
       {
@@ -57342,8 +55979,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1170.0,
         "ebitda_margin_pct": 9.3,
         "cfo": 948.6,
-        "capex": 441.0,
-        "fcf": 507.6,
+        "capex": 500.2,
+        "fcf": -17.3,
         "cash": 742.5,
         "gross_debt": 2295.0,
         "net_debt": 1552.5,
@@ -57362,17 +55999,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 144.1,
-        "change_in_working_capital": -23.9,
-        "tax_expense": 101.2,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 402.6,
+        "tax_expense": 140.4,
+        "fcf_conversion_pct": -1.5,
         "fcf_bridge": {
           "calculated_ebitda": 1170.0,
-          "capex": 441.0,
+          "capex": 500.2,
           "cash_interest": 144.1,
-          "change_in_working_capital": -23.9,
-          "tax": 101.2,
-          "fcf": 507.6,
-          "formula_check": "1170.0 - 441.0 - 144.1 - (-23.9) - 101.2 = 507.6"
+          "change_in_working_capital": 402.6,
+          "tax": 140.4,
+          "fcf": -17.3,
+          "formula_check": "1170.0 - 500.2 - 144.1 - (402.6) - 140.4 = -17.3"
         }
       },
       {
@@ -57382,8 +56019,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1440.0,
         "ebitda_margin_pct": 9.5,
         "cfo": 1193.4,
-        "capex": 535.5,
-        "fcf": 657.9,
+        "capex": 874.8,
+        "fcf": -697.8,
         "cash": 945.0,
         "gross_debt": 2484.0,
         "net_debt": 1539.0,
@@ -57402,17 +56039,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$79.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 180.0,
-        "change_in_working_capital": -57.6,
-        "tax_expense": 124.2,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 910.2,
+        "tax_expense": 172.8,
+        "fcf_conversion_pct": -48.5,
         "fcf_bridge": {
           "calculated_ebitda": 1440.0,
-          "capex": 535.5,
+          "capex": 874.8,
           "cash_interest": 180.0,
-          "change_in_working_capital": -57.6,
-          "tax": 124.2,
-          "fcf": 657.9,
-          "formula_check": "1440.0 - 535.5 - 180.0 - (-57.6) - 124.2 = 657.9"
+          "change_in_working_capital": 910.2,
+          "tax": 172.8,
+          "fcf": -697.8,
+          "formula_check": "1440.0 - 874.8 - 180.0 - (910.2) - 172.8 = -697.8"
         }
       },
       {
@@ -57422,8 +56059,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1620.0,
         "ebitda_margin_pct": 9.5,
         "cfo": 1346.4,
-        "capex": 598.5,
-        "fcf": 747.9,
+        "capex": 984.2,
+        "fcf": -795.8,
         "cash": 1147.5,
         "gross_debt": 2646.0,
         "net_debt": 1498.5,
@@ -57442,17 +56079,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$89.1M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 216.0,
-        "change_in_working_capital": -80.1,
-        "tax_expense": 137.7,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 1021.2,
+        "tax_expense": 194.4,
+        "fcf_conversion_pct": -49.1,
         "fcf_bridge": {
           "calculated_ebitda": 1620.0,
-          "capex": 598.5,
+          "capex": 984.2,
           "cash_interest": 216.0,
-          "change_in_working_capital": -80.1,
-          "tax": 137.7,
-          "fcf": 747.9,
-          "formula_check": "1620.0 - 598.5 - 216.0 - (-80.1) - 137.7 = 747.9"
+          "change_in_working_capital": 1021.2,
+          "tax": 194.4,
+          "fcf": -795.8,
+          "formula_check": "1620.0 - 984.2 - 216.0 - (1021.2) - 194.4 = -795.8"
         }
       },
       {
@@ -57462,8 +56099,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1800.0,
         "ebitda_margin_pct": 9.7,
         "cfo": 1530.0,
-        "capex": 630.0,
-        "fcf": 900.0,
+        "capex": 931.5,
+        "fcf": -179.5,
         "cash": 1350.0,
         "gross_debt": 2700.0,
         "net_debt": 1350.0,
@@ -57482,17 +56119,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$99.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 240.0,
-        "change_in_working_capital": -123.0,
-        "tax_expense": 153.0,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 592.0,
+        "tax_expense": 216.0,
+        "fcf_conversion_pct": -10.0,
         "fcf_bridge": {
           "calculated_ebitda": 1800.0,
-          "capex": 630.0,
+          "capex": 931.5,
           "cash_interest": 240.0,
-          "change_in_working_capital": -123.0,
-          "tax": 153.0,
-          "fcf": 900.0,
-          "formula_check": "1800.0 - 630.0 - 240.0 - (-123.0) - 153.0 = 900.0"
+          "change_in_working_capital": 592.0,
+          "tax": 216.0,
+          "fcf": -179.5,
+          "formula_check": "1800.0 - 931.5 - 240.0 - (592.0) - 216.0 = -179.5"
         }
       },
       {
@@ -57502,8 +56139,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1980.0,
         "ebitda_margin_pct": 9.9,
         "cfo": 1683.0,
-        "capex": 661.5,
-        "fcf": 1021.5,
+        "capex": 846.4,
+        "fcf": 26.1,
         "cash": 1593.0,
         "gross_debt": 2646.0,
         "net_debt": 1053.0,
@@ -57522,17 +56159,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$29.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 230.5,
-        "change_in_working_capital": -106.8,
-        "tax_expense": 173.3,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 639.4,
+        "tax_expense": 237.6,
+        "fcf_conversion_pct": 1.3,
         "fcf_bridge": {
           "calculated_ebitda": 1980.0,
-          "capex": 661.5,
+          "capex": 846.4,
           "cash_interest": 230.5,
-          "change_in_working_capital": -106.8,
-          "tax": 173.3,
-          "fcf": 1021.5,
-          "formula_check": "1980.0 - 661.5 - 230.5 - (-106.8) - 173.3 = 1021.5"
+          "change_in_working_capital": 639.4,
+          "tax": 237.6,
+          "fcf": 26.1,
+          "formula_check": "1980.0 - 846.4 - 230.5 - (639.4) - 237.6 = 26.1"
         }
       },
       {
@@ -57542,8 +56179,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2124.0,
         "ebitda_margin_pct": 10.0,
         "cfo": 1805.4,
-        "capex": 642.6,
-        "fcf": 1162.8,
+        "capex": 908.0,
+        "fcf": 59.5,
         "cash": 1822.5,
         "gross_debt": 2565.0,
         "net_debt": 742.5,
@@ -57562,17 +56199,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 220.8,
-        "change_in_working_capital": -92.1,
-        "tax_expense": 189.9,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 680.8,
+        "tax_expense": 254.9,
+        "fcf_conversion_pct": 2.8,
         "fcf_bridge": {
           "calculated_ebitda": 2124.0,
-          "capex": 642.6,
+          "capex": 908.0,
           "cash_interest": 220.8,
-          "change_in_working_capital": -92.1,
-          "tax": 189.9,
-          "fcf": 1162.8,
-          "formula_check": "2124.0 - 642.6 - 220.8 - (-92.1) - 189.9 = 1162.8"
+          "change_in_working_capital": 680.8,
+          "tax": 254.9,
+          "fcf": 59.5,
+          "formula_check": "2124.0 - 908.0 - 220.8 - (680.8) - 254.9 = 59.5"
         }
       },
       {
@@ -57582,8 +56219,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2232.0,
         "ebitda_margin_pct": 10.1,
         "cfo": 1912.5,
-        "capex": 617.4,
-        "fcf": 1295.1,
+        "capex": 954.2,
+        "fcf": 88.4,
         "cash": 2025.0,
         "gross_debt": 2430.0,
         "net_debt": 405.0,
@@ -57602,17 +56239,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$33.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 211.2,
-        "change_in_working_capital": -94.4,
-        "tax_expense": 202.7,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 710.4,
+        "tax_expense": 267.8,
+        "fcf_conversion_pct": 4.0,
         "fcf_bridge": {
           "calculated_ebitda": 2232.0,
-          "capex": 617.4,
+          "capex": 954.2,
           "cash_interest": 211.2,
-          "change_in_working_capital": -94.4,
-          "tax": 202.7,
-          "fcf": 1295.1,
-          "formula_check": "2232.0 - 617.4 - 211.2 - (-94.4) - 202.7 = 1295.1"
+          "change_in_working_capital": 710.4,
+          "tax": 267.8,
+          "fcf": 88.4,
+          "formula_check": "2232.0 - 954.2 - 211.2 - (710.4) - 267.8 = 88.4"
         }
       }
     ],
@@ -58072,7 +56709,8 @@ const MASTER_ISSUERS = [
       "model_file": "Turk_Eximbank_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6815aba39e1d30b4b8c8a",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turk_Eximbank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -58102,25 +56740,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -58149,25 +56773,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -58196,25 +56806,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -58243,25 +56839,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -58290,25 +56872,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -58337,25 +56905,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -58384,25 +56938,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -58844,7 +57384,10 @@ const MASTER_ISSUERS = [
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Turkcell_Credit_Model.xlsx",
       "last_updated": "2026-09-19",
       "cognitive_credit_id": "turkcell",
-      "cognitive_credit_url": "https://app.cognitivecredit.com/company/turkcell/description"
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/turkcell/description",
+      "model_type": "corp",
+      "fcf_2024a": 244.5,
+      "net_leverage_2024a": 1.15
     },
     "financials_multi_year": [
       {
@@ -58854,8 +57397,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1137.5,
         "ebitda_margin_pct": 39.8,
         "cfo": 922.2,
-        "capex": 428.8,
-        "fcf": 493.4,
+        "capex": 453.9,
+        "fcf": 263.6,
         "cash": 721.9,
         "gross_debt": 2826.2,
         "net_debt": 2104.3,
@@ -58874,17 +57417,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.1M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 169.3,
-        "change_in_working_capital": -48,
-        "tax_expense": 94,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 114.2,
+        "tax_expense": 136.5,
+        "fcf_conversion_pct": 23.2,
         "fcf_bridge": {
           "calculated_ebitda": 1137.5,
-          "capex": 428.8,
+          "capex": 453.9,
           "cash_interest": 169.3,
-          "change_in_working_capital": -48,
-          "tax": 94,
-          "fcf": 493.4,
-          "formula_check": "1137.5 - 428.8 - 169.3 - (-48.0) - 94.0 = 493.4"
+          "change_in_working_capital": 114.2,
+          "tax": 136.5,
+          "fcf": 263.6,
+          "formula_check": "1137.5 - 453.9 - 169.3 - (114.2) - 136.5 = 263.6"
         }
       },
       {
@@ -58894,8 +57437,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1400,
         "ebitda_margin_pct": 40.7,
         "cfo": 1160.2,
-        "capex": 520.6,
-        "fcf": 639.6,
+        "capex": 793.8,
+        "fcf": -31.9,
         "cash": 918.7,
         "gross_debt": 3059,
         "net_debt": 2140.3,
@@ -58914,17 +57457,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$77.0M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 211.8,
-        "change_in_working_capital": -87.2,
-        "tax_expense": 115.2,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 258.3,
+        "tax_expense": 168.0,
+        "fcf_conversion_pct": -2.3,
         "fcf_bridge": {
           "calculated_ebitda": 1400,
-          "capex": 520.6,
+          "capex": 793.8,
           "cash_interest": 211.8,
-          "change_in_working_capital": -87.2,
-          "tax": 115.2,
-          "fcf": 639.6,
-          "formula_check": "1400.0 - 520.6 - 211.8 - (-87.2) - 115.2 = 639.6"
+          "change_in_working_capital": 258.3,
+          "tax": 168.0,
+          "fcf": -31.9,
+          "formula_check": "1400.0 - 793.8 - 211.8 - (258.3) - 168.0 = -31.9"
         }
       },
       {
@@ -58934,8 +57477,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1575,
         "ebitda_margin_pct": 40.8,
         "cfo": 1309,
-        "capex": 581.9,
-        "fcf": 727.1,
+        "capex": 893.0,
+        "fcf": -50.8,
         "cash": 1115.6,
         "gross_debt": 3258.5,
         "net_debt": 2142.9,
@@ -58954,17 +57497,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$86.6M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 254,
-        "change_in_working_capital": -115.3,
-        "tax_expense": 127.3,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 289.8,
+        "tax_expense": 189.0,
+        "fcf_conversion_pct": -3.2,
         "fcf_bridge": {
           "calculated_ebitda": 1575,
-          "capex": 581.9,
+          "capex": 893.0,
           "cash_interest": 254,
-          "change_in_working_capital": -115.3,
-          "tax": 127.3,
-          "fcf": 727.1,
-          "formula_check": "1575.0 - 581.9 - 254.0 - (-115.3) - 127.3 = 727.1"
+          "change_in_working_capital": 289.8,
+          "tax": 189.0,
+          "fcf": -50.8,
+          "formula_check": "1575.0 - 893.0 - 254.0 - (289.8) - 189.0 = -50.8"
         }
       },
       {
@@ -58974,8 +57517,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1750,
         "ebitda_margin_pct": 41.7,
         "cfo": 1487.5,
-        "capex": 612.5,
-        "fcf": 875,
+        "capex": 845.2,
+        "fcf": 244.5,
         "cash": 1312.5,
         "gross_debt": 3325,
         "net_debt": 2012.5,
@@ -58994,17 +57537,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$96.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 282.3,
-        "change_in_working_capital": -161.2,
-        "tax_expense": 141.4,
-        "fcf_conversion_pct": 50,
+        "change_in_working_capital": 168.0,
+        "tax_expense": 210.0,
+        "fcf_conversion_pct": 14.0,
         "fcf_bridge": {
           "calculated_ebitda": 1750,
-          "capex": 612.5,
+          "capex": 845.2,
           "cash_interest": 282.3,
-          "change_in_working_capital": -161.2,
-          "tax": 141.4,
-          "fcf": 875,
-          "formula_check": "1750.0 - 612.5 - 282.3 - (-161.2) - 141.4 = 875.0"
+          "change_in_working_capital": 168.0,
+          "tax": 210.0,
+          "fcf": 244.5,
+          "formula_check": "1750.0 - 845.2 - 282.3 - (168.0) - 210.0 = 244.5"
         }
       },
       {
@@ -59014,8 +57557,8 @@ const MASTER_ISSUERS = [
         "ebitda": 1925,
         "ebitda_margin_pct": 42.4,
         "cfo": 1636.3,
-        "capex": 643.1,
-        "fcf": 993.2,
+        "capex": 768.1,
+        "fcf": 473.4,
         "cash": 1548.8,
         "gross_debt": 3258.5,
         "net_debt": 1709.7,
@@ -59034,17 +57577,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$28.9M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 271.1,
-        "change_in_working_capital": -143.9,
-        "tax_expense": 161.5,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 181.4,
+        "tax_expense": 231.0,
+        "fcf_conversion_pct": 24.6,
         "fcf_bridge": {
           "calculated_ebitda": 1925,
-          "capex": 643.1,
+          "capex": 768.1,
           "cash_interest": 271.1,
-          "change_in_working_capital": -143.9,
-          "tax": 161.5,
-          "fcf": 993.2,
-          "formula_check": "1925.0 - 643.1 - 271.1 - (-143.9) - 161.5 = 993.2"
+          "change_in_working_capital": 181.4,
+          "tax": 231.0,
+          "fcf": 473.4,
+          "formula_check": "1925.0 - 768.1 - 271.1 - (181.4) - 231.0 = 473.4"
         }
       },
       {
@@ -59054,8 +57597,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2065,
         "ebitda_margin_pct": 42.8,
         "cfo": 1755.2,
-        "capex": 624.8,
-        "fcf": 1130.4,
+        "capex": 823.9,
+        "fcf": 540.4,
         "cash": 1771.9,
         "gross_debt": 3158.8,
         "net_debt": 1386.9,
@@ -59074,17 +57617,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$31.0M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 259.7,
-        "change_in_working_capital": -127.8,
-        "tax_expense": 177.9,
-        "fcf_conversion_pct": 54.7,
+        "change_in_working_capital": 193.2,
+        "tax_expense": 247.8,
+        "fcf_conversion_pct": 26.2,
         "fcf_bridge": {
           "calculated_ebitda": 2065,
-          "capex": 624.8,
+          "capex": 823.9,
           "cash_interest": 259.7,
-          "change_in_working_capital": -127.8,
-          "tax": 177.9,
-          "fcf": 1130.4,
-          "formula_check": "2065.0 - 624.8 - 259.7 - (-127.8) - 177.9 = 1130.4"
+          "change_in_working_capital": 193.2,
+          "tax": 247.8,
+          "fcf": 540.4,
+          "formula_check": "2065.0 - 823.9 - 259.7 - (193.2) - 247.8 = 540.4"
         }
       },
       {
@@ -59094,8 +57637,8 @@ const MASTER_ISSUERS = [
         "ebitda": 2170,
         "ebitda_margin_pct": 43.1,
         "cfo": 1859.4,
-        "capex": 600.2,
-        "fcf": 1259.2,
+        "capex": 865.8,
+        "fcf": 593.9,
         "cash": 1968.8,
         "gross_debt": 2992.5,
         "net_debt": 1023.7,
@@ -59114,17 +57657,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$32.5M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 248.3,
-        "change_in_working_capital": -128.3,
-        "tax_expense": 190.6,
-        "fcf_conversion_pct": 58,
+        "change_in_working_capital": 201.6,
+        "tax_expense": 260.4,
+        "fcf_conversion_pct": 27.4,
         "fcf_bridge": {
           "calculated_ebitda": 2170,
-          "capex": 600.2,
+          "capex": 865.8,
           "cash_interest": 248.3,
-          "change_in_working_capital": -128.3,
-          "tax": 190.6,
-          "fcf": 1259.2,
-          "formula_check": "2170.0 - 600.2 - 248.3 - (-128.3) - 190.6 = 1259.2"
+          "change_in_working_capital": 201.6,
+          "tax": 260.4,
+          "fcf": 593.9,
+          "formula_check": "2170.0 - 865.8 - 248.3 - (201.6) - 260.4 = 593.9"
         }
       }
     ],
@@ -59558,7 +58101,10 @@ const MASTER_ISSUERS = [
       "model_file": "Ukraine_Rail_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6816bb15ffe27db5eeb55",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Ukraine_Rail_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -98.3,
+      "net_leverage_2024a": 3.86
     },
     "financials_multi_year": [
       {
@@ -59568,8 +58114,8 @@ const MASTER_ISSUERS = [
         "ebitda": 485.0,
         "ebitda_margin_pct": 15.3,
         "cfo": 410.0,
-        "capex": 280.0,
-        "fcf": 130.0,
+        "capex": 193.5,
+        "fcf": -18.5,
         "cash": 190.0,
         "gross_debt": 1620.0,
         "net_debt": 1430.0,
@@ -59588,17 +58134,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 2.0,
         "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$9.7M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
         "cash_interest": 125.0,
-        "change_in_working_capital": -82.2,
-        "tax_expense": 32.2,
-        "fcf_conversion_pct": 26.8,
+        "change_in_working_capital": 126.8,
+        "tax_expense": 58.2,
+        "fcf_conversion_pct": -3.8,
         "fcf_bridge": {
           "calculated_ebitda": 485.0,
-          "capex": 280.0,
+          "capex": 193.5,
           "cash_interest": 125.0,
-          "change_in_working_capital": -82.2,
-          "tax": 32.2,
-          "fcf": 130.0,
-          "formula_check": "485.0 - 280.0 - 125.0 - (-82.2) - 32.2 = 130.0"
+          "change_in_working_capital": 126.8,
+          "tax": 58.2,
+          "fcf": -18.5,
+          "formula_check": "485.0 - 193.5 - 125.0 - (126.8) - 58.2 = -18.5"
         }
       },
       {
@@ -59608,8 +58154,8 @@ const MASTER_ISSUERS = [
         "ebitda": 190.0,
         "ebitda_margin_pct": 8.1,
         "cfo": 240.0,
-        "capex": 345.0,
-        "fcf": -105.0,
+        "capex": 107.7,
+        "fcf": -231.2,
         "cash": 245.0,
         "gross_debt": 1665.0,
         "net_debt": 1420.0,
@@ -59628,17 +58174,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 18.5,
         "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$35.2M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow.",
         "cash_interest": 115.2,
-        "change_in_working_capital": -167.9,
-        "tax_expense": 2.7,
-        "fcf_conversion_pct": -55.3,
+        "change_in_working_capital": 175.5,
+        "tax_expense": 22.8,
+        "fcf_conversion_pct": -121.7,
         "fcf_bridge": {
           "calculated_ebitda": 190.0,
-          "capex": 345.0,
+          "capex": 107.7,
           "cash_interest": 115.2,
-          "change_in_working_capital": -167.9,
-          "tax": 2.7,
-          "fcf": -105.0,
-          "formula_check": "190.0 - 345.0 - 115.2 - (-167.9) - 2.7 = -105.0"
+          "change_in_working_capital": 175.5,
+          "tax": 22.8,
+          "fcf": -231.2,
+          "formula_check": "190.0 - 107.7 - 115.2 - (175.5) - 22.8 = -231.2"
         }
       },
       {
@@ -59648,8 +58194,8 @@ const MASTER_ISSUERS = [
         "ebitda": 340.0,
         "ebitda_margin_pct": 12.9,
         "cfo": 380.0,
-        "capex": 365.0,
-        "fcf": 15.0,
+        "capex": 192.8,
+        "fcf": -220.6,
         "cash": 280.0,
         "gross_debt": 1695.0,
         "net_debt": 1415.0,
@@ -59668,17 +58214,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 18.5,
         "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$62.9M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow.",
         "cash_interest": 129.8,
-        "change_in_working_capital": -186.0,
-        "tax_expense": 16.2,
-        "fcf_conversion_pct": 4.4,
+        "change_in_working_capital": 197.2,
+        "tax_expense": 40.8,
+        "fcf_conversion_pct": -64.9,
         "fcf_bridge": {
           "calculated_ebitda": 340.0,
-          "capex": 365.0,
+          "capex": 192.8,
           "cash_interest": 129.8,
-          "change_in_working_capital": -186.0,
-          "tax": 16.2,
-          "fcf": 15.0,
-          "formula_check": "340.0 - 365.0 - 129.8 - (-186.0) - 16.2 = 15.0"
+          "change_in_working_capital": 197.2,
+          "tax": 40.8,
+          "fcf": -220.6,
+          "formula_check": "340.0 - 192.8 - 129.8 - (197.2) - 40.8 = -220.6"
         }
       },
       {
@@ -59688,8 +58234,8 @@ const MASTER_ISSUERS = [
         "ebitda": 380.0,
         "ebitda_margin_pct": 13.3,
         "cfo": 420.0,
-        "capex": 400.0,
-        "fcf": 20.0,
+        "capex": 183.5,
+        "fcf": -98.3,
         "cash": 265.0,
         "gross_debt": 1730.0,
         "net_debt": 1465.0,
@@ -59708,17 +58254,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 18.5,
         "ebitda_reconciliation_comment": "Significant Divergence: Reported EBITDA includes +$70.3M (+18.5%) in non-repayable multilateral humanitarian donor grants (World Bank/EBRD/EIB) recognized as other operating income; Standardized Credit Desk Calculated EBITDA strictly measures core railway freight tariffs and operational commercial cash flow.",
         "cash_interest": 135.2,
-        "change_in_working_capital": -194.8,
-        "tax_expense": 19.6,
-        "fcf_conversion_pct": 5.3,
+        "change_in_working_capital": 114.0,
+        "tax_expense": 45.6,
+        "fcf_conversion_pct": -25.9,
         "fcf_bridge": {
           "calculated_ebitda": 380.0,
-          "capex": 400.0,
+          "capex": 183.5,
           "cash_interest": 135.2,
-          "change_in_working_capital": -194.8,
-          "tax": 19.6,
-          "fcf": 20.0,
-          "formula_check": "380.0 - 400.0 - 135.2 - (-194.8) - 19.6 = 20.0"
+          "change_in_working_capital": 114.0,
+          "tax": 45.6,
+          "fcf": -98.3,
+          "formula_check": "380.0 - 183.5 - 135.2 - (114.0) - 45.6 = -98.3"
         }
       },
       {
@@ -59728,8 +58274,8 @@ const MASTER_ISSUERS = [
         "ebitda": 440.0,
         "ebitda_margin_pct": 13.9,
         "cfo": 460.0,
-        "capex": 400.0,
-        "fcf": 60.0,
+        "capex": 175.6,
+        "fcf": -54.9,
         "cash": 290.0,
         "gross_debt": 1710.0,
         "net_debt": 1420.0,
@@ -59748,17 +58294,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 2.0,
         "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$8.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
         "cash_interest": 140.1,
-        "change_in_working_capital": -185.3,
-        "tax_expense": 25.2,
-        "fcf_conversion_pct": 13.6,
+        "change_in_working_capital": 126.4,
+        "tax_expense": 52.8,
+        "fcf_conversion_pct": -12.5,
         "fcf_bridge": {
           "calculated_ebitda": 440.0,
-          "capex": 400.0,
+          "capex": 175.6,
           "cash_interest": 140.1,
-          "change_in_working_capital": -185.3,
-          "tax": 25.2,
-          "fcf": 60.0,
-          "formula_check": "440.0 - 400.0 - 140.1 - (-185.3) - 25.2 = 60.0"
+          "change_in_working_capital": 126.4,
+          "tax": 52.8,
+          "fcf": -54.9,
+          "formula_check": "440.0 - 175.6 - 140.1 - (126.4) - 52.8 = -54.9"
         }
       },
       {
@@ -59768,8 +58314,8 @@ const MASTER_ISSUERS = [
         "ebitda": 510.0,
         "ebitda_margin_pct": 14.5,
         "cfo": 520.0,
-        "capex": 400.0,
-        "fcf": 120.0,
+        "capex": 203.5,
+        "fcf": -25.6,
         "cash": 320.0,
         "gross_debt": 1640.0,
         "net_debt": 1320.0,
@@ -59788,17 +58334,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 2.0,
         "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$10.2M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
         "cash_interest": 130.1,
-        "change_in_working_capital": -174.1,
-        "tax_expense": 34.0,
-        "fcf_conversion_pct": 23.5,
+        "change_in_working_capital": 140.8,
+        "tax_expense": 61.2,
+        "fcf_conversion_pct": -5.0,
         "fcf_bridge": {
           "calculated_ebitda": 510.0,
-          "capex": 400.0,
+          "capex": 203.5,
           "cash_interest": 130.1,
-          "change_in_working_capital": -174.1,
-          "tax": 34.0,
-          "fcf": 120.0,
-          "formula_check": "510.0 - 400.0 - 130.1 - (-174.1) - 34.0 = 120.0"
+          "change_in_working_capital": 140.8,
+          "tax": 61.2,
+          "fcf": -25.6,
+          "formula_check": "510.0 - 203.5 - 130.1 - (140.8) - 61.2 = -25.6"
         }
       },
       {
@@ -59808,8 +58354,8 @@ const MASTER_ISSUERS = [
         "ebitda": 590.0,
         "ebitda_margin_pct": 14.9,
         "cfo": 590.0,
-        "capex": 400.0,
-        "fcf": 190.0,
+        "capex": 235.4,
+        "fcf": 5.9,
         "cash": 360.0,
         "gross_debt": 1445.0,
         "net_debt": 1085.0,
@@ -59828,17 +58374,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 2.0,
         "ebitda_reconciliation_comment": "Reconciled: Pre/post-war normalized railway operations; minor +$11.8M (+2.0%) variance reflecting statutory scrap metal sales and passenger subsidy reimbursements.",
         "cash_interest": 119.9,
-        "change_in_working_capital": -163.9,
-        "tax_expense": 44.0,
-        "fcf_conversion_pct": 32.2,
+        "change_in_working_capital": 158.0,
+        "tax_expense": 70.8,
+        "fcf_conversion_pct": 1.0,
         "fcf_bridge": {
           "calculated_ebitda": 590.0,
-          "capex": 400.0,
+          "capex": 235.4,
           "cash_interest": 119.9,
-          "change_in_working_capital": -163.9,
-          "tax": 44.0,
-          "fcf": 190.0,
-          "formula_check": "590.0 - 400.0 - 119.9 - (-163.9) - 44.0 = 190.0"
+          "change_in_working_capital": 158.0,
+          "tax": 70.8,
+          "fcf": 5.9,
+          "formula_check": "590.0 - 235.4 - 119.9 - (158.0) - 70.8 = 5.9"
         }
       }
     ],
@@ -60308,7 +58854,8 @@ const MASTER_ISSUERS = [
       "model_file": "Vakifbank_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c6815aba39e1d30b4b8c8a",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Vakifbank_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -60338,25 +58885,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -60385,25 +58918,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -60432,25 +58951,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -60479,25 +58984,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -60526,25 +59017,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -60573,25 +59050,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -60620,25 +59083,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -61078,7 +59527,8 @@ const MASTER_ISSUERS = [
       "model_file": "Yapi_Kredi_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c68174ad07d63b80bcd45c",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Yapi_Kredi_Credit_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "bank"
     },
     "financials_multi_year": [
       {
@@ -61108,25 +59558,11 @@ const MASTER_ISSUERS = [
           "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
           "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2022A",
@@ -61155,25 +59591,11 @@ const MASTER_ISSUERS = [
           "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
           "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2023A",
@@ -61202,25 +59624,11 @@ const MASTER_ISSUERS = [
           "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
           "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2024A",
@@ -61249,25 +59657,11 @@ const MASTER_ISSUERS = [
           "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
           "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
         },
-        "reported_ebitda": 263.8,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 13.8,
         "ebitda_reconciliation_variance_pct": 5.5,
         "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2025E",
@@ -61296,25 +59690,11 @@ const MASTER_ISSUERS = [
           "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
           "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2026E",
@@ -61343,25 +59723,11 @@ const MASTER_ISSUERS = [
           "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
           "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       },
       {
         "period": "2027E",
@@ -61390,25 +59756,11 @@ const MASTER_ISSUERS = [
           "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
           "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
         },
-        "reported_ebitda": 253.7,
-        "calculated_ebitda": 250.0,
         "ebitda_reconciliation_variance_usd_m": 3.7,
         "ebitda_reconciliation_variance_pct": 1.5,
         "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
         "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax_expense": 15.5,
-        "fcf": 87.5,
-        "fcf_conversion_pct": 35.0,
-        "fcf_bridge": {
-          "calculated_ebitda": 250.0,
-          "capex": 100.0,
-          "cash_interest": 71.4,
-          "change_in_working_capital": -24.4,
-          "tax": 15.5,
-          "fcf": 87.5,
-          "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-        }
+        "tax_expense": 15.5
       }
     ],
     "supplementary_data": {
@@ -61848,7 +60200,10 @@ const MASTER_ISSUERS = [
       "model_file": "Zorlu_Enerji_Model.xlsx",
       "notion_id": "3df1d0ad68c6814f921ef33f2b2f199b",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Zorlu_Enerji_Model.xlsx",
-      "last_updated": "2026-09-19"
+      "last_updated": "2026-09-19",
+      "model_type": "corp",
+      "fcf_2024a": -198.1,
+      "net_leverage_2024a": 4.82
     },
     "financials_multi_year": [
       {
@@ -61858,8 +60213,8 @@ const MASTER_ISSUERS = [
         "ebitda": 208.0,
         "ebitda_margin_pct": 25.5,
         "cfo": 168.6,
-        "capex": 78.4,
-        "fcf": 90.2,
+        "capex": 168.0,
+        "fcf": -86.6,
         "cash": 132.0,
         "gross_debt": 1515.0,
         "net_debt": 1383.0,
@@ -61878,17 +60233,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 7.5,
         "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$15.6M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
         "cash_interest": 90.4,
-        "change_in_working_capital": -59.3,
-        "tax_expense": 8.3,
-        "fcf_conversion_pct": 43.4,
+        "change_in_working_capital": 19.6,
+        "tax_expense": 16.6,
+        "fcf_conversion_pct": -41.6,
         "fcf_bridge": {
           "calculated_ebitda": 208.0,
-          "capex": 78.4,
+          "capex": 168.0,
           "cash_interest": 90.4,
-          "change_in_working_capital": -59.3,
-          "tax": 8.3,
-          "fcf": 90.2,
-          "formula_check": "208.0 - 78.4 - 90.4 - (-59.3) - 8.3 = 90.2"
+          "change_in_working_capital": 19.6,
+          "tax": 16.6,
+          "fcf": -86.6,
+          "formula_check": "208.0 - 168.0 - 90.4 - (19.6) - 16.6 = -86.6"
         }
       },
       {
@@ -61898,8 +60253,8 @@ const MASTER_ISSUERS = [
         "ebitda": 256.0,
         "ebitda_margin_pct": 26.0,
         "cfo": 212.2,
-        "capex": 95.2,
-        "fcf": 117.0,
+        "capex": 293.8,
+        "fcf": -215.9,
         "cash": 168.0,
         "gross_debt": 1639.8,
         "net_debt": 1471.8,
@@ -61918,17 +60273,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 7.5,
         "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$19.2M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
         "cash_interest": 113.3,
-        "change_in_working_capital": -79.4,
-        "tax_expense": 9.9,
-        "fcf_conversion_pct": 45.7,
+        "change_in_working_capital": 44.3,
+        "tax_expense": 20.5,
+        "fcf_conversion_pct": -84.3,
         "fcf_bridge": {
           "calculated_ebitda": 256.0,
-          "capex": 95.2,
+          "capex": 293.8,
           "cash_interest": 113.3,
-          "change_in_working_capital": -79.4,
-          "tax": 9.9,
-          "fcf": 117.0,
-          "formula_check": "256.0 - 95.2 - 113.3 - (-79.4) - 9.9 = 117.0"
+          "change_in_working_capital": 44.3,
+          "tax": 20.5,
+          "fcf": -215.9,
+          "formula_check": "256.0 - 293.8 - 113.3 - (44.3) - 20.5 = -215.9"
         }
       },
       {
@@ -61938,8 +60293,8 @@ const MASTER_ISSUERS = [
         "ebitda": 288.0,
         "ebitda_margin_pct": 26.1,
         "cfo": 239.4,
-        "capex": 106.4,
-        "fcf": 133.0,
+        "capex": 330.5,
+        "fcf": -251.0,
         "cash": 204.0,
         "gross_debt": 1746.8,
         "net_debt": 1542.8,
@@ -61958,17 +60313,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 7.5,
         "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$21.6M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
         "cash_interest": 135.8,
-        "change_in_working_capital": -97.1,
-        "tax_expense": 9.9,
-        "fcf_conversion_pct": 46.2,
+        "change_in_working_capital": 49.7,
+        "tax_expense": 23.0,
+        "fcf_conversion_pct": -87.2,
         "fcf_bridge": {
           "calculated_ebitda": 288.0,
-          "capex": 106.4,
+          "capex": 330.5,
           "cash_interest": 135.8,
-          "change_in_working_capital": -97.1,
-          "tax": 9.9,
-          "fcf": 133.0,
-          "formula_check": "288.0 - 106.4 - 135.8 - (-97.1) - 9.9 = 133.0"
+          "change_in_working_capital": 49.7,
+          "tax": 23.0,
+          "fcf": -251.0,
+          "formula_check": "288.0 - 330.5 - 135.8 - (49.7) - 23.0 = -251.0"
         }
       },
       {
@@ -61978,8 +60333,8 @@ const MASTER_ISSUERS = [
         "ebitda": 320.0,
         "ebitda_margin_pct": 26.7,
         "cfo": 272.0,
-        "capex": 112.0,
-        "fcf": 160.0,
+        "capex": 312.8,
+        "fcf": -198.1,
         "cash": 240.0,
         "gross_debt": 1782.4,
         "net_debt": 1542.4,
@@ -61998,17 +60353,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 7.5,
         "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$24.0M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
         "cash_interest": 150.9,
-        "change_in_working_capital": -113.9,
-        "tax_expense": 11.0,
-        "fcf_conversion_pct": 50.0,
+        "change_in_working_capital": 28.8,
+        "tax_expense": 25.6,
+        "fcf_conversion_pct": -61.9,
         "fcf_bridge": {
           "calculated_ebitda": 320.0,
-          "capex": 112.0,
+          "capex": 312.8,
           "cash_interest": 150.9,
-          "change_in_working_capital": -113.9,
-          "tax": 11.0,
-          "fcf": 160.0,
-          "formula_check": "320.0 - 112.0 - 150.9 - (-113.9) - 11.0 = 160.0"
+          "change_in_working_capital": 28.8,
+          "tax": 25.6,
+          "fcf": -198.1,
+          "formula_check": "320.0 - 312.8 - 150.9 - (28.8) - 25.6 = -198.1"
         }
       },
       {
@@ -62018,8 +60373,8 @@ const MASTER_ISSUERS = [
         "ebitda": 352.0,
         "ebitda_margin_pct": 27.2,
         "cfo": 299.2,
-        "capex": 117.6,
-        "fcf": 181.6,
+        "capex": 284.2,
+        "fcf": -136.4,
         "cash": 283.2,
         "gross_debt": 1746.8,
         "net_debt": 1463.6,
@@ -62038,17 +60393,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 7.5,
         "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$26.4M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
         "cash_interest": 144.9,
-        "change_in_working_capital": -107.3,
-        "tax_expense": 15.2,
-        "fcf_conversion_pct": 51.6,
+        "change_in_working_capital": 31.1,
+        "tax_expense": 28.2,
+        "fcf_conversion_pct": -38.8,
         "fcf_bridge": {
           "calculated_ebitda": 352.0,
-          "capex": 117.6,
+          "capex": 284.2,
           "cash_interest": 144.9,
-          "change_in_working_capital": -107.3,
-          "tax": 15.2,
-          "fcf": 181.6,
-          "formula_check": "352.0 - 117.6 - 144.9 - (-107.3) - 15.2 = 181.6"
+          "change_in_working_capital": 31.1,
+          "tax": 28.2,
+          "fcf": -136.4,
+          "formula_check": "352.0 - 284.2 - 144.9 - (31.1) - 28.2 = -136.4"
         }
       },
       {
@@ -62058,8 +60413,8 @@ const MASTER_ISSUERS = [
         "ebitda": 377.6,
         "ebitda_margin_pct": 27.4,
         "cfo": 321.0,
-        "capex": 114.2,
-        "fcf": 206.8,
+        "capex": 304.9,
+        "fcf": -129.4,
         "cash": 324.0,
         "gross_debt": 1693.3,
         "net_debt": 1369.3,
@@ -62078,17 +60433,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 7.5,
         "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$28.3M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
         "cash_interest": 138.8,
-        "change_in_working_capital": -101.0,
-        "tax_expense": 18.8,
-        "fcf_conversion_pct": 54.8,
+        "change_in_working_capital": 33.1,
+        "tax_expense": 30.2,
+        "fcf_conversion_pct": -34.3,
         "fcf_bridge": {
           "calculated_ebitda": 377.6,
-          "capex": 114.2,
+          "capex": 304.9,
           "cash_interest": 138.8,
-          "change_in_working_capital": -101.0,
-          "tax": 18.8,
-          "fcf": 206.8,
-          "formula_check": "377.6 - 114.2 - 138.8 - (-101.0) - 18.8 = 206.8"
+          "change_in_working_capital": 33.1,
+          "tax": 30.2,
+          "fcf": -129.4,
+          "formula_check": "377.6 - 304.9 - 138.8 - (33.1) - 30.2 = -129.4"
         }
       },
       {
@@ -62098,8 +60453,8 @@ const MASTER_ISSUERS = [
         "ebitda": 396.8,
         "ebitda_margin_pct": 27.6,
         "cfo": 340.0,
-        "capex": 109.8,
-        "fcf": 230.2,
+        "capex": 320.4,
+        "fcf": -122.6,
         "cash": 360.0,
         "gross_debt": 1604.2,
         "net_debt": 1244.2,
@@ -62118,17 +60473,17 @@ const MASTER_ISSUERS = [
         "ebitda_reconciliation_variance_pct": 7.5,
         "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$29.8M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
         "cash_interest": 132.7,
-        "change_in_working_capital": -97.7,
-        "tax_expense": 21.8,
-        "fcf_conversion_pct": 58.0,
+        "change_in_working_capital": 34.6,
+        "tax_expense": 31.7,
+        "fcf_conversion_pct": -30.9,
         "fcf_bridge": {
           "calculated_ebitda": 396.8,
-          "capex": 109.8,
+          "capex": 320.4,
           "cash_interest": 132.7,
-          "change_in_working_capital": -97.7,
-          "tax": 21.8,
-          "fcf": 230.2,
-          "formula_check": "396.8 - 109.8 - 132.7 - (-97.7) - 21.8 = 230.2"
+          "change_in_working_capital": 34.6,
+          "tax": 31.7,
+          "fcf": -122.6,
+          "formula_check": "396.8 - 320.4 - 132.7 - (34.6) - 31.7 = -122.6"
         }
       }
     ],

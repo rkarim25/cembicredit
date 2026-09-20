@@ -16,7 +16,10 @@
     "model_file": "Emaar_Properties_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681afbac4c1e95132bc44",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Emaar_Properties_Credit_Model.xlsx",
-    "last_updated": "2026-09-19"
+    "last_updated": "2026-09-19",
+    "model_type": "corp",
+    "fcf_2024a": -240.0,
+    "net_leverage_2024a": 100.0
   },
   "financials_multi_year": [
     {
@@ -26,8 +29,8 @@
       "ebitda": 2080.0,
       "ebitda_margin_pct": 39.2,
       "cfo": 1686.4,
-      "capex": 784.0,
-      "fcf": 902.4,
+      "capex": 1086.8,
+      "fcf": 60.6,
       "cash": 1320.0,
       "gross_debt": 274040.0,
       "net_debt": 272720.0,
@@ -46,17 +49,17 @@
       "ebitda_reconciliation_variance_pct": 6.5,
       "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$135.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
       "cash_interest": 192.1,
-      "change_in_working_capital": 11.9,
-      "tax_expense": 189.6,
-      "fcf_conversion_pct": 43.4,
+      "change_in_working_capital": 636.5,
+      "tax_expense": 104.0,
+      "fcf_conversion_pct": 2.9,
       "fcf_bridge": {
         "calculated_ebitda": 2080.0,
-        "capex": 784.0,
+        "capex": 1086.8,
         "cash_interest": 192.1,
-        "change_in_working_capital": 11.9,
-        "tax": 189.6,
-        "fcf": 902.4,
-        "formula_check": "2080.0 - 784.0 - 192.1 - (11.9) - 189.6 = 902.4"
+        "change_in_working_capital": 636.5,
+        "tax": 104.0,
+        "fcf": 60.6,
+        "formula_check": "2080.0 - 1086.8 - 192.1 - (636.5) - 104.0 = 60.6"
       }
     },
     {
@@ -66,8 +69,8 @@
       "ebitda": 2560.0,
       "ebitda_margin_pct": 40.0,
       "cfo": 2121.6,
-      "capex": 952.0,
-      "fcf": 1169.6,
+      "capex": 1900.8,
+      "fcf": -1147.8,
       "cash": 1680.0,
       "gross_debt": 296608.0,
       "net_debt": 294928.0,
@@ -86,17 +89,17 @@
       "ebitda_reconciliation_variance_pct": 6.5,
       "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$166.4M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
       "cash_interest": 239.9,
-      "change_in_working_capital": -34.3,
-      "tax_expense": 232.8,
-      "fcf_conversion_pct": 45.7,
+      "change_in_working_capital": 1439.1,
+      "tax_expense": 128.0,
+      "fcf_conversion_pct": -44.8,
       "fcf_bridge": {
         "calculated_ebitda": 2560.0,
-        "capex": 952.0,
+        "capex": 1900.8,
         "cash_interest": 239.9,
-        "change_in_working_capital": -34.3,
-        "tax": 232.8,
-        "fcf": 1169.6,
-        "formula_check": "2560.0 - 952.0 - 239.9 - (-34.3) - 232.8 = 1169.6"
+        "change_in_working_capital": 1439.1,
+        "tax": 128.0,
+        "fcf": -1147.8,
+        "formula_check": "2560.0 - 1900.8 - 239.9 - (1439.1) - 128.0 = -1147.8"
       }
     },
     {
@@ -106,8 +109,8 @@
       "ebitda": 2880.0,
       "ebitda_margin_pct": 40.1,
       "cfo": 2393.6,
-      "capex": 1064.0,
-      "fcf": 1329.6,
+      "capex": 2138.4,
+      "fcf": -1305.0,
       "cash": 2040.0,
       "gross_debt": 315952.0,
       "net_debt": 313912.0,
@@ -126,17 +129,17 @@
       "ebitda_reconciliation_variance_pct": 6.5,
       "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$187.2M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
       "cash_interest": 288.0,
-      "change_in_working_capital": -60.8,
-      "tax_expense": 259.2,
-      "fcf_conversion_pct": 46.2,
+      "change_in_working_capital": 1614.6,
+      "tax_expense": 144.0,
+      "fcf_conversion_pct": -45.3,
       "fcf_bridge": {
         "calculated_ebitda": 2880.0,
-        "capex": 1064.0,
+        "capex": 2138.4,
         "cash_interest": 288.0,
-        "change_in_working_capital": -60.8,
-        "tax": 259.2,
-        "fcf": 1329.6,
-        "formula_check": "2880.0 - 1064.0 - 288.0 - (-60.8) - 259.2 = 1329.6"
+        "change_in_working_capital": 1614.6,
+        "tax": 144.0,
+        "fcf": -1305.0,
+        "formula_check": "2880.0 - 2138.4 - 288.0 - (1614.6) - 144.0 = -1305.0"
       }
     },
     {
@@ -146,8 +149,8 @@
       "ebitda": 3200.0,
       "ebitda_margin_pct": 41.0,
       "cfo": 2720.0,
-      "capex": 1120.0,
-      "fcf": 1600.0,
+      "capex": 2024.0,
+      "fcf": -240.0,
       "cash": 2400.0,
       "gross_debt": 322400.0,
       "net_debt": 320000.0,
@@ -166,17 +169,17 @@
       "ebitda_reconciliation_variance_pct": 6.5,
       "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$208.0M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
       "cash_interest": 320.0,
-      "change_in_working_capital": -128.0,
-      "tax_expense": 288.0,
-      "fcf_conversion_pct": 50.0,
+      "change_in_working_capital": 936.0,
+      "tax_expense": 160.0,
+      "fcf_conversion_pct": -7.5,
       "fcf_bridge": {
         "calculated_ebitda": 3200.0,
-        "capex": 1120.0,
+        "capex": 2024.0,
         "cash_interest": 320.0,
-        "change_in_working_capital": -128.0,
-        "tax": 288.0,
-        "fcf": 1600.0,
-        "formula_check": "3200.0 - 1120.0 - 320.0 - (-128.0) - 288.0 = 1600.0"
+        "change_in_working_capital": 936.0,
+        "tax": 160.0,
+        "fcf": -240.0,
+        "formula_check": "3200.0 - 2024.0 - 320.0 - (936.0) - 160.0 = -240.0"
       }
     },
     {
@@ -186,8 +189,8 @@
       "ebitda": 3520.0,
       "ebitda_margin_pct": 41.8,
       "cfo": 2992.0,
-      "capex": 1176.0,
-      "fcf": 1816.0,
+      "capex": 1839.2,
+      "fcf": 186.7,
       "cash": 2832.0,
       "gross_debt": 315952.0,
       "net_debt": 313120.0,
@@ -206,17 +209,17 @@
       "ebitda_reconciliation_variance_pct": 6.5,
       "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$228.8M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
       "cash_interest": 307.2,
-      "change_in_working_capital": -102.7,
-      "tax_expense": 323.5,
-      "fcf_conversion_pct": 51.6,
+      "change_in_working_capital": 1010.9,
+      "tax_expense": 176.0,
+      "fcf_conversion_pct": 5.3,
       "fcf_bridge": {
         "calculated_ebitda": 3520.0,
-        "capex": 1176.0,
+        "capex": 1839.2,
         "cash_interest": 307.2,
-        "change_in_working_capital": -102.7,
-        "tax": 323.5,
-        "fcf": 1816.0,
-        "formula_check": "3520.0 - 1176.0 - 307.2 - (-102.7) - 323.5 = 1816.0"
+        "change_in_working_capital": 1010.9,
+        "tax": 176.0,
+        "fcf": 186.7,
+        "formula_check": "3520.0 - 1839.2 - 307.2 - (1010.9) - 176.0 = 186.7"
       }
     },
     {
@@ -226,8 +229,8 @@
       "ebitda": 3776.0,
       "ebitda_margin_pct": 42.1,
       "cfo": 3209.6,
-      "capex": 1142.4,
-      "fcf": 2067.2,
+      "capex": 1973.0,
+      "fcf": 243.5,
       "cash": 3240.0,
       "gross_debt": 306280.0,
       "net_debt": 303040.0,
@@ -246,17 +249,17 @@
       "ebitda_reconciliation_variance_pct": 6.5,
       "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$245.4M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
       "cash_interest": 294.3,
-      "change_in_working_capital": -80.2,
-      "tax_expense": 352.3,
-      "fcf_conversion_pct": 54.7,
+      "change_in_working_capital": 1076.4,
+      "tax_expense": 188.8,
+      "fcf_conversion_pct": 6.4,
       "fcf_bridge": {
         "calculated_ebitda": 3776.0,
-        "capex": 1142.4,
+        "capex": 1973.0,
         "cash_interest": 294.3,
-        "change_in_working_capital": -80.2,
-        "tax": 352.3,
-        "fcf": 2067.2,
-        "formula_check": "3776.0 - 1142.4 - 294.3 - (-80.2) - 352.3 = 2067.2"
+        "change_in_working_capital": 1076.4,
+        "tax": 188.8,
+        "fcf": 243.5,
+        "formula_check": "3776.0 - 1973.0 - 294.3 - (1076.4) - 188.8 = 243.5"
       }
     },
     {
@@ -266,8 +269,8 @@
       "ebitda": 3968.0,
       "ebitda_margin_pct": 42.4,
       "cfo": 3400.0,
-      "capex": 1097.6,
-      "fcf": 2302.4,
+      "capex": 2073.3,
+      "fcf": 291.5,
       "cash": 3600.0,
       "gross_debt": 290160.0,
       "net_debt": 286560.0,
@@ -286,17 +289,17 @@
       "ebitda_reconciliation_variance_pct": 6.5,
       "ebitda_reconciliation_comment": "Fair Value Property Revaluations: Reported EBITDA reflects +$257.9M (+6.5%) non-cash fair value gains on commercial/retail investment properties (IAS 40); Credit Desk Calculated EBITDA strictly isolates real development cash margins and cash rental receipts.",
       "cash_interest": 281.6,
-      "change_in_working_capital": -88.0,
-      "tax_expense": 374.4,
-      "fcf_conversion_pct": 58.0,
+      "change_in_working_capital": 1123.2,
+      "tax_expense": 198.4,
+      "fcf_conversion_pct": 7.3,
       "fcf_bridge": {
         "calculated_ebitda": 3968.0,
-        "capex": 1097.6,
+        "capex": 2073.3,
         "cash_interest": 281.6,
-        "change_in_working_capital": -88.0,
-        "tax": 374.4,
-        "fcf": 2302.4,
-        "formula_check": "3968.0 - 1097.6 - 281.6 - (-88.0) - 374.4 = 2302.4"
+        "change_in_working_capital": 1123.2,
+        "tax": 198.4,
+        "fcf": 291.5,
+        "formula_check": "3968.0 - 2073.3 - 281.6 - (1123.2) - 198.4 = 291.5"
       }
     }
   ],

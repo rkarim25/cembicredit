@@ -16,7 +16,10 @@
     "model_file": "Zorlu_Enerji_Model.xlsx",
     "notion_id": "3df1d0ad68c6814f921ef33f2b2f199b",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Zorlu_Enerji_Model.xlsx",
-    "last_updated": "2026-09-19"
+    "last_updated": "2026-09-19",
+    "model_type": "corp",
+    "fcf_2024a": -198.1,
+    "net_leverage_2024a": 4.82
   },
   "financials_multi_year": [
     {
@@ -26,8 +29,8 @@
       "ebitda": 208.0,
       "ebitda_margin_pct": 25.5,
       "cfo": 168.6,
-      "capex": 78.4,
-      "fcf": 90.2,
+      "capex": 168.0,
+      "fcf": -86.6,
       "cash": 132.0,
       "gross_debt": 1515.0,
       "net_debt": 1383.0,
@@ -46,17 +49,17 @@
       "ebitda_reconciliation_variance_pct": 7.5,
       "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$15.6M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
       "cash_interest": 90.4,
-      "change_in_working_capital": -59.3,
-      "tax_expense": 8.3,
-      "fcf_conversion_pct": 43.4,
+      "change_in_working_capital": 19.6,
+      "tax_expense": 16.6,
+      "fcf_conversion_pct": -41.6,
       "fcf_bridge": {
         "calculated_ebitda": 208.0,
-        "capex": 78.4,
+        "capex": 168.0,
         "cash_interest": 90.4,
-        "change_in_working_capital": -59.3,
-        "tax": 8.3,
-        "fcf": 90.2,
-        "formula_check": "208.0 - 78.4 - 90.4 - (-59.3) - 8.3 = 90.2"
+        "change_in_working_capital": 19.6,
+        "tax": 16.6,
+        "fcf": -86.6,
+        "formula_check": "208.0 - 168.0 - 90.4 - (19.6) - 16.6 = -86.6"
       }
     },
     {
@@ -66,8 +69,8 @@
       "ebitda": 256.0,
       "ebitda_margin_pct": 26.0,
       "cfo": 212.2,
-      "capex": 95.2,
-      "fcf": 117.0,
+      "capex": 293.8,
+      "fcf": -215.9,
       "cash": 168.0,
       "gross_debt": 1639.8,
       "net_debt": 1471.8,
@@ -86,17 +89,17 @@
       "ebitda_reconciliation_variance_pct": 7.5,
       "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$19.2M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
       "cash_interest": 113.3,
-      "change_in_working_capital": -79.4,
-      "tax_expense": 9.9,
-      "fcf_conversion_pct": 45.7,
+      "change_in_working_capital": 44.3,
+      "tax_expense": 20.5,
+      "fcf_conversion_pct": -84.3,
       "fcf_bridge": {
         "calculated_ebitda": 256.0,
-        "capex": 95.2,
+        "capex": 293.8,
         "cash_interest": 113.3,
-        "change_in_working_capital": -79.4,
-        "tax": 9.9,
-        "fcf": 117.0,
-        "formula_check": "256.0 - 95.2 - 113.3 - (-79.4) - 9.9 = 117.0"
+        "change_in_working_capital": 44.3,
+        "tax": 20.5,
+        "fcf": -215.9,
+        "formula_check": "256.0 - 293.8 - 113.3 - (44.3) - 20.5 = -215.9"
       }
     },
     {
@@ -106,8 +109,8 @@
       "ebitda": 288.0,
       "ebitda_margin_pct": 26.1,
       "cfo": 239.4,
-      "capex": 106.4,
-      "fcf": 133.0,
+      "capex": 330.5,
+      "fcf": -251.0,
       "cash": 204.0,
       "gross_debt": 1746.8,
       "net_debt": 1542.8,
@@ -126,17 +129,17 @@
       "ebitda_reconciliation_variance_pct": 7.5,
       "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$21.6M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
       "cash_interest": 135.8,
-      "change_in_working_capital": -97.1,
-      "tax_expense": 9.9,
-      "fcf_conversion_pct": 46.2,
+      "change_in_working_capital": 49.7,
+      "tax_expense": 23.0,
+      "fcf_conversion_pct": -87.2,
       "fcf_bridge": {
         "calculated_ebitda": 288.0,
-        "capex": 106.4,
+        "capex": 330.5,
         "cash_interest": 135.8,
-        "change_in_working_capital": -97.1,
-        "tax": 9.9,
-        "fcf": 133.0,
-        "formula_check": "288.0 - 106.4 - 135.8 - (-97.1) - 9.9 = 133.0"
+        "change_in_working_capital": 49.7,
+        "tax": 23.0,
+        "fcf": -251.0,
+        "formula_check": "288.0 - 330.5 - 135.8 - (49.7) - 23.0 = -251.0"
       }
     },
     {
@@ -146,8 +149,8 @@
       "ebitda": 320.0,
       "ebitda_margin_pct": 26.7,
       "cfo": 272.0,
-      "capex": 112.0,
-      "fcf": 160.0,
+      "capex": 312.8,
+      "fcf": -198.1,
       "cash": 240.0,
       "gross_debt": 1782.4,
       "net_debt": 1542.4,
@@ -166,17 +169,17 @@
       "ebitda_reconciliation_variance_pct": 7.5,
       "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$24.0M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
       "cash_interest": 150.9,
-      "change_in_working_capital": -113.9,
-      "tax_expense": 11.0,
-      "fcf_conversion_pct": 50.0,
+      "change_in_working_capital": 28.8,
+      "tax_expense": 25.6,
+      "fcf_conversion_pct": -61.9,
       "fcf_bridge": {
         "calculated_ebitda": 320.0,
-        "capex": 112.0,
+        "capex": 312.8,
         "cash_interest": 150.9,
-        "change_in_working_capital": -113.9,
-        "tax": 11.0,
-        "fcf": 160.0,
-        "formula_check": "320.0 - 112.0 - 150.9 - (-113.9) - 11.0 = 160.0"
+        "change_in_working_capital": 28.8,
+        "tax": 25.6,
+        "fcf": -198.1,
+        "formula_check": "320.0 - 312.8 - 150.9 - (28.8) - 25.6 = -198.1"
       }
     },
     {
@@ -186,8 +189,8 @@
       "ebitda": 352.0,
       "ebitda_margin_pct": 27.2,
       "cfo": 299.2,
-      "capex": 117.6,
-      "fcf": 181.6,
+      "capex": 284.2,
+      "fcf": -136.4,
       "cash": 283.2,
       "gross_debt": 1746.8,
       "net_debt": 1463.6,
@@ -206,17 +209,17 @@
       "ebitda_reconciliation_variance_pct": 7.5,
       "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$26.4M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
       "cash_interest": 144.9,
-      "change_in_working_capital": -107.3,
-      "tax_expense": 15.2,
-      "fcf_conversion_pct": 51.6,
+      "change_in_working_capital": 31.1,
+      "tax_expense": 28.2,
+      "fcf_conversion_pct": -38.8,
       "fcf_bridge": {
         "calculated_ebitda": 352.0,
-        "capex": 117.6,
+        "capex": 284.2,
         "cash_interest": 144.9,
-        "change_in_working_capital": -107.3,
-        "tax": 15.2,
-        "fcf": 181.6,
-        "formula_check": "352.0 - 117.6 - 144.9 - (-107.3) - 15.2 = 181.6"
+        "change_in_working_capital": 31.1,
+        "tax": 28.2,
+        "fcf": -136.4,
+        "formula_check": "352.0 - 284.2 - 144.9 - (31.1) - 28.2 = -136.4"
       }
     },
     {
@@ -226,8 +229,8 @@
       "ebitda": 377.6,
       "ebitda_margin_pct": 27.4,
       "cfo": 321.0,
-      "capex": 114.2,
-      "fcf": 206.8,
+      "capex": 304.9,
+      "fcf": -129.4,
       "cash": 324.0,
       "gross_debt": 1693.3,
       "net_debt": 1369.3,
@@ -246,17 +249,17 @@
       "ebitda_reconciliation_variance_pct": 7.5,
       "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$28.3M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
       "cash_interest": 138.8,
-      "change_in_working_capital": -101.0,
-      "tax_expense": 18.8,
-      "fcf_conversion_pct": 54.8,
+      "change_in_working_capital": 33.1,
+      "tax_expense": 30.2,
+      "fcf_conversion_pct": -34.3,
       "fcf_bridge": {
         "calculated_ebitda": 377.6,
-        "capex": 114.2,
+        "capex": 304.9,
         "cash_interest": 138.8,
-        "change_in_working_capital": -101.0,
-        "tax": 18.8,
-        "fcf": 206.8,
-        "formula_check": "377.6 - 114.2 - 138.8 - (-101.0) - 18.8 = 206.8"
+        "change_in_working_capital": 33.1,
+        "tax": 30.2,
+        "fcf": -129.4,
+        "formula_check": "377.6 - 304.9 - 138.8 - (33.1) - 30.2 = -129.4"
       }
     },
     {
@@ -266,8 +269,8 @@
       "ebitda": 396.8,
       "ebitda_margin_pct": 27.6,
       "cfo": 340.0,
-      "capex": 109.8,
-      "fcf": 230.2,
+      "capex": 320.4,
+      "fcf": -122.6,
       "cash": 360.0,
       "gross_debt": 1604.2,
       "net_debt": 1244.2,
@@ -286,17 +289,17 @@
       "ebitda_reconciliation_variance_pct": 7.5,
       "ebitda_reconciliation_comment": "Material Add-backs: Reported EBITDA includes +$29.8M (+7.5%) addback for unrealized FX provisions on foreign currency trade debt and equity dividends from Dorad Energy (Israel); Standardized Credit Desk Calculated EBITDA isolates pure Turkish renewable generation and regulated OEDAS grid cash flow.",
       "cash_interest": 132.7,
-      "change_in_working_capital": -97.7,
-      "tax_expense": 21.8,
-      "fcf_conversion_pct": 58.0,
+      "change_in_working_capital": 34.6,
+      "tax_expense": 31.7,
+      "fcf_conversion_pct": -30.9,
       "fcf_bridge": {
         "calculated_ebitda": 396.8,
-        "capex": 109.8,
+        "capex": 320.4,
         "cash_interest": 132.7,
-        "change_in_working_capital": -97.7,
-        "tax": 21.8,
-        "fcf": 230.2,
-        "formula_check": "396.8 - 109.8 - 132.7 - (-97.7) - 21.8 = 230.2"
+        "change_in_working_capital": 34.6,
+        "tax": 31.7,
+        "fcf": -122.6,
+        "formula_check": "396.8 - 320.4 - 132.7 - (34.6) - 31.7 = -122.6"
       }
     }
   ],

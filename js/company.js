@@ -162,6 +162,7 @@ function renderMetricsStrip() {
   const m = currentIssuer.metadata;
   const f24 = currentIssuer.financials_multi_year.find(f => f.period === '2024A') || {};
   const f25 = currentIssuer.financials_multi_year.find(f => f.period === '2025E') || {};
+  const isBank = (m.model_type === 'bank' || m.sector === 'Banks' || m.sector === 'Financial Services');
 
   document.getElementById('mb-price').textContent = `$${m.price.toFixed(2)}`;
   document.getElementById('mb-bond-sub').textContent = m.benchmark_bond;
@@ -169,25 +170,80 @@ function renderMetricsStrip() {
   document.getElementById('mb-ytm').textContent = `${m.ytm.toFixed(2)}%`;
   document.getElementById('mb-spread').textContent = `+${m.spread_bp} bp`;
 
-  const rev = f24.revenue ? `$${f24.revenue.toLocaleString()}M` : 'N/A';
-  document.getElementById('mb-rev').textContent = rev;
+  const mb4Label = document.querySelector('#mb-rev').previousElementSibling;
+  const mb5Label = document.querySelector('#mb-ebitda').previousElementSibling;
+  const mb6Label = document.querySelector('#mb-leverage').previousElementSibling;
+  const mb7Label = document.querySelector('#mb-coverage').previousElementSibling;
+  const mb8Label = document.querySelector('#mb-fcf').previousElementSibling;
 
-  const eb = f24.calculated_ebitda || f24.ebitda || 0;
-  document.getElementById('mb-ebitda').textContent = `$${eb.toLocaleString()}M`;
-  document.getElementById('mb-margin-sub').textContent = `Margin: ${(f24.ebitda_margin_pct || 0).toFixed(1)}%`;
+  if (isBank) {
+    if (mb4Label) mb4Label.textContent = 'Total Assets';
+    document.getElementById('mb-rev').textContent = f24.assets ? `$${f24.assets.toLocaleString()}M` : 'N/A';
+    document.getElementById('mb-rev').nextElementSibling.textContent = f24.loans ? `Loans: $${f24.loans.toLocaleString()}M` : 'Commercial Bank';
 
-  const lev24 = f24.net_leverage ? `${f24.net_leverage.toFixed(2)}x` : 'N/A';
-  const lev25 = f25.net_leverage ? `${f25.net_leverage.toFixed(2)}x` : 'N/A';
-  document.getElementById('mb-leverage').textContent = lev24;
-  document.getElementById('mb-fwd-leverage').textContent = `2025E: ${lev25}`;
+    if (mb5Label) mb5Label.textContent = 'Net Interest Income (NII)';
+    document.getElementById('mb-ebitda').textContent = f24.nii ? `$${f24.nii.toLocaleString()}M` : 'N/A';
+    document.getElementById('mb-margin-sub').textContent = f24.nim_pct ? `NIM: ${f24.nim_pct.toFixed(2)}%` : 'Net Margin';
 
-  const cov = f24.interest_coverage ? `${f24.interest_coverage.toFixed(2)}x` : 'N/A';
-  document.getElementById('mb-coverage').textContent = cov;
+    if (mb6Label) mb6Label.textContent = 'Operating Profit (PPOP)';
+    document.getElementById('mb-leverage').textContent = f24.ppop ? `$${f24.ppop.toLocaleString()}M` : 'N/A';
+    document.getElementById('mb-fwd-leverage').textContent = f24.cir_pct ? `Cost/Inc: ${f24.cir_pct.toFixed(1)}%` : 'Pre-Provision';
 
-  const fcf = f24.fcf !== undefined ? `$${f24.fcf.toLocaleString()}M` : 'N/A';
-  const conv = f24.fcf_conversion_pct !== undefined ? `${f24.fcf_conversion_pct.toFixed(1)}%` : (eb > 0 && f24.fcf ? `${((f24.fcf/eb)*100).toFixed(1)}%` : '--%');
-  document.getElementById('mb-fcf').textContent = fcf;
-  document.getElementById('mb-fcf-conv').textContent = `Conversion: ${conv}`;
+    if (mb7Label) mb7Label.textContent = 'Return on Equity (ROE)';
+    document.getElementById('mb-coverage').textContent = f24.roe_pct ? `${f24.roe_pct.toFixed(1)}%` : 'N/A';
+    document.getElementById('mb-coverage').nextElementSibling.textContent = f24.provisions ? `Prov: $${f24.provisions.toLocaleString()}M` : 'Credit Cost';
+
+    if (mb8Label) mb8Label.textContent = 'Capital Adequacy (CAR)';
+    const car = f24.car_pct ? `${f24.car_pct.toFixed(1)}%` : 'N/A';
+    document.getElementById('mb-fcf').textContent = car;
+    document.getElementById('mb-fcf').style.color = '#34d399';
+    document.getElementById('mb-fcf-conv').textContent = f24.npl_pct ? `NPL: ${f24.npl_pct.toFixed(1)}%` : 'Tier 1 Capital';
+  } else {
+    // Corporate Model
+    if (mb4Label) mb4Label.textContent = '2024A Revenue';
+    document.getElementById('mb-rev').textContent = f24.revenue ? `$${f24.revenue.toLocaleString()}M` : 'N/A';
+    document.getElementById('mb-rev').nextElementSibling.textContent = 'Audited IFRS';
+
+    if (mb5Label) mb5Label.textContent = '2024A Cash EBITDA';
+    const eb = f24.calculated_ebitda || f24.ebitda || 0;
+    document.getElementById('mb-ebitda').textContent = `$${eb.toLocaleString()}M`;
+    document.getElementById('mb-margin-sub').textContent = `Margin: ${(f24.ebitda_margin_pct || 0).toFixed(1)}%`;
+
+    if (mb6Label) mb6Label.textContent = 'Net Leverage';
+    const lev24 = f24.net_leverage ? `${f24.net_leverage.toFixed(2)}x` : 'N/A';
+    const lev25 = f25.net_leverage ? `${f25.net_leverage.toFixed(2)}x` : 'N/A';
+    document.getElementById('mb-leverage').textContent = lev24;
+    document.getElementById('mb-fwd-leverage').textContent = `2025E: ${lev25}`;
+
+    if (mb7Label) mb7Label.textContent = 'Interest Coverage';
+    const cov = f24.interest_coverage ? `${f24.interest_coverage.toFixed(2)}x` : 'N/A';
+    document.getElementById('mb-coverage').textContent = cov;
+    document.getElementById('mb-coverage').nextElementSibling.textContent = 'EBITDA / Cash Int';
+
+    if (mb8Label) mb8Label.textContent = 'Free Cash Flow';
+    const fcfVal = f24.fcf;
+    const fcfEl = document.getElementById('mb-fcf');
+    const fcfSub = document.getElementById('mb-fcf-conv');
+
+    if (fcfVal !== undefined && fcfVal !== null) {
+      if (fcfVal < 0) {
+        fcfEl.textContent = `($${Math.abs(fcfVal).toLocaleString()}M)`;
+        fcfEl.style.color = '#f87171'; // Red for cash burn
+        fcfSub.textContent = '⚠️ Cash Deficit / Capex Cycle';
+        fcfSub.style.color = '#fca5a5';
+      } else {
+        fcfEl.textContent = `$${fcfVal.toLocaleString()}M`;
+        fcfEl.style.color = '#34d399'; // Green for positive FCF
+        const conv = f24.fcf_conversion_pct !== undefined ? `${f24.fcf_conversion_pct.toFixed(1)}%` : (eb > 0 ? `${((fcfVal/eb)*100).toFixed(1)}%` : '--%');
+        fcfSub.textContent = `Conversion: ${conv}`;
+        fcfSub.style.color = 'var(--text-muted)';
+      }
+    } else {
+      fcfEl.textContent = 'N/A';
+      fcfEl.style.color = '#fff';
+      fcfSub.textContent = '--';
+    }
+  }
 }
 
 // ----------------- TAB SWITCHING -----------------
@@ -512,8 +568,89 @@ function renderModelSpreadsheet() {
   const fin = currentIssuer.financials_multi_year || [];
   const periods = ['2021A', '2022A', '2023A', '2024A', '2025E', '2026E', '2027E'];
   const m = currentIssuer.metadata;
+  const isBank = (m.model_type === 'bank' || m.sector === 'Banks' || m.sector === 'Financial Services');
   const highlights = getStoredHighlights(m.ticker);
   const notes = getStoredNotes(m.ticker);
+
+  if (isBank) {
+    // Bank Financial Statements Table
+    const bankSections = [
+      {
+        id: 'pnl',
+        title: 'Banking Operating Income, Margins & PPOP ($M)',
+        rows: [
+          { key: 'nii', label: 'Net Interest Income (NII)', rowNum: 12, isNum: true, isBold: true, isGold: true },
+          { key: 'fees', label: '  Net Fee & Commission Income', rowNum: 13, isNum: true },
+          { key: 'total_income', label: 'Total Operating Income', rowNum: 14, isNum: true, isBold: true },
+          { key: 'opex', label: '  Operating Expenses (Staff, IT, Admin)', rowNum: 15, isNum: true, isNegative: true },
+          { key: 'ppop', label: 'Pre-Provision Operating Profit (PPOP)', rowNum: 16, isNum: true, isBold: true, isHighlightRow: true },
+          { key: 'provisions', label: '  Loan Impairment Provisions (Cost of Risk)', rowNum: 17, isNum: true, isNegative: true },
+          { key: 'net_profit', label: 'Attributable Net Profit', rowNum: 18, isNum: true, isBold: true, isGold: true }
+        ]
+      },
+      {
+        id: 'bs',
+        title: 'Balance Sheet Assets, Loans & Deposits ($M)',
+        rows: [
+          { key: 'assets', label: 'Total Consolidated Assets', rowNum: 20, isNum: true, isBold: true },
+          { key: 'loans', label: 'Gross Customer Loans & Advances', rowNum: 21, isNum: true },
+          { key: 'deposits', label: 'Total Customer Deposits', rowNum: 22, isNum: true },
+          { key: 'equity', label: 'Total Shareholders Equity', rowNum: 23, isNum: true, isBold: true },
+          { key: 'ldr_pct', label: 'Loan-to-Deposit Ratio (LDR %)', rowNum: 24, isPct: true }
+        ]
+      },
+      {
+        id: 'ratios',
+        title: 'Banking Profitability, Asset Quality & Capital Ratios',
+        rows: [
+          { key: 'nim_pct', label: 'Net Interest Margin (NIM %)', rowNum: 26, isPct: true, isBold: true },
+          { key: 'cir_pct', label: 'Cost-to-Income Ratio (CIR %)', rowNum: 27, isPct: true },
+          { key: 'roe_pct', label: 'Return on Equity (ROE %)', rowNum: 28, isPct: true },
+          { key: 'npl_pct', label: 'Non-Performing Loan Ratio (NPL %)', rowNum: 29, isPct: true, isBold: true },
+          { key: 'car_pct', label: 'Capital Adequacy Ratio (CAR %)', rowNum: 30, isPct: true, isBold: true, isHighlightRow: true }
+        ]
+      }
+    ];
+
+    let bHtml = `
+      <thead>
+        <tr>
+          <th style="min-width:280px; text-align:left;">Banking Financial Metric ($M)</th>
+          ${periods.map(p => `<th style="min-width:110px;">${p}</th>`).join('')}
+        </tr>
+      </thead>
+      <tbody>
+    `;
+
+    bankSections.forEach(sec => {
+      if (currentModelSection !== 'all' && currentModelSection !== sec.id) return;
+      bHtml += `<tr class="header-row"><td colspan="${periods.length + 1}">${sec.title}</td></tr>`;
+      sec.rows.forEach(r => {
+        const isSum = r.isHighlightRow ? 'summary-row' : '';
+        bHtml += `<tr class="${isSum}"><td style="font-weight:${r.isBold ? '700' : '500'}; color:${r.isGold ? '#fbbf24' : '#f3f4f6'};">${r.label}</td>`;
+        periods.forEach(p => {
+          const f = fin.find(x => x.period === p) || {};
+          const val = f[r.key];
+          const colLetter = { '2021A':'B', '2022A':'C', '2023A':'D', '2024A':'E', '2025E':'F', '2026E':'G', '2027E':'H' }[p] || 'B';
+          const coord = `${colLetter}${r.rowNum}`;
+          const isAct = (activeSelectedCell.coord === coord) ? 'cell-active' : '';
+          const hlClass = highlights[coord] || '';
+          const hasNote = notes[coord] ? 'cell-has-note' : '';
+          const displayStr = formatMetricDisplay(val, r);
+          const isNeg = (typeof val === 'number' && val < 0);
+          const negColorClass = isNeg ? 'style="color:#f87171;"' : '';
+
+          bHtml += `<td class="${isAct} ${hlClass} ${hasNote}" ${negColorClass} data-coord="${coord}" data-metric="${r.key}" data-period="${p}" onclick="selectModelCell('${coord}', '${r.key}', '${p}')">${displayStr}</td>`;
+        });
+        bHtml += `</tr>`;
+      });
+    });
+
+    bHtml += `</tbody>`;
+    table.innerHTML = bHtml;
+    updateFormulaBar(activeSelectedCell.coord, activeSelectedCell.metric, activeSelectedCell.period);
+    return;
+  }
 
   const sections = [
     {
@@ -600,9 +737,12 @@ function renderModelSpreadsheet() {
         const hasNote = notes[coord] ? 'cell-has-note' : '';
 
         let displayStr = formatMetricDisplay(val, r);
+        const isNegativeVal = (typeof val === 'number' && val < 0);
+        const negColorClass = (isNegativeVal && (r.key === 'fcf' || r.key === 'operating_profit')) ? 'style="color:#f87171 !important; font-weight:700;"' : '';
 
         html += `
           <td class="${isAct} ${hlClass} ${hasNote}" 
+              ${negColorClass}
               data-coord="${coord}" 
               data-metric="${r.key}" 
               data-period="${p}"

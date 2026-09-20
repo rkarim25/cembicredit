@@ -16,7 +16,8 @@
     "model_file": "Vakifbank_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c6815aba39e1d30b4b8c8a",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Vakifbank_Credit_Model.xlsx",
-    "last_updated": "2026-09-19"
+    "last_updated": "2026-09-19",
+    "model_type": "bank"
   },
   "financials_multi_year": [
     {
@@ -46,25 +47,11 @@
         "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
         "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
       },
-      "reported_ebitda": 253.7,
-      "calculated_ebitda": 250.0,
       "ebitda_reconciliation_variance_usd_m": 3.7,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 71.4,
-      "change_in_working_capital": -24.4,
-      "tax_expense": 15.5,
-      "fcf": 87.5,
-      "fcf_conversion_pct": 35.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 250.0,
-        "capex": 100.0,
-        "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax": 15.5,
-        "fcf": 87.5,
-        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-      }
+      "tax_expense": 15.5
     },
     {
       "period": "2022A",
@@ -93,25 +80,11 @@
         "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
         "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
       },
-      "reported_ebitda": 263.8,
-      "calculated_ebitda": 250.0,
       "ebitda_reconciliation_variance_usd_m": 13.8,
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 71.4,
-      "change_in_working_capital": -24.4,
-      "tax_expense": 15.5,
-      "fcf": 87.5,
-      "fcf_conversion_pct": 35.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 250.0,
-        "capex": 100.0,
-        "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax": 15.5,
-        "fcf": 87.5,
-        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-      }
+      "tax_expense": 15.5
     },
     {
       "period": "2023A",
@@ -140,25 +113,11 @@
         "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
         "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
       },
-      "reported_ebitda": 263.8,
-      "calculated_ebitda": 250.0,
       "ebitda_reconciliation_variance_usd_m": 13.8,
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 71.4,
-      "change_in_working_capital": -24.4,
-      "tax_expense": 15.5,
-      "fcf": 87.5,
-      "fcf_conversion_pct": 35.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 250.0,
-        "capex": 100.0,
-        "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax": 15.5,
-        "fcf": 87.5,
-        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-      }
+      "tax_expense": 15.5
     },
     {
       "period": "2024A",
@@ -187,25 +146,11 @@
         "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
         "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
       },
-      "reported_ebitda": 263.8,
-      "calculated_ebitda": 250.0,
       "ebitda_reconciliation_variance_usd_m": 13.8,
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 71.4,
-      "change_in_working_capital": -24.4,
-      "tax_expense": 15.5,
-      "fcf": 87.5,
-      "fcf_conversion_pct": 35.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 250.0,
-        "capex": 100.0,
-        "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax": 15.5,
-        "fcf": 87.5,
-        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-      }
+      "tax_expense": 15.5
     },
     {
       "period": "2025E",
@@ -234,25 +179,11 @@
         "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
         "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
       },
-      "reported_ebitda": 253.7,
-      "calculated_ebitda": 250.0,
       "ebitda_reconciliation_variance_usd_m": 3.7,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 71.4,
-      "change_in_working_capital": -24.4,
-      "tax_expense": 15.5,
-      "fcf": 87.5,
-      "fcf_conversion_pct": 35.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 250.0,
-        "capex": 100.0,
-        "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax": 15.5,
-        "fcf": 87.5,
-        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-      }
+      "tax_expense": 15.5
     },
     {
       "period": "2026E",
@@ -281,25 +212,11 @@
         "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
         "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
       },
-      "reported_ebitda": 253.7,
-      "calculated_ebitda": 250.0,
       "ebitda_reconciliation_variance_usd_m": 3.7,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 71.4,
-      "change_in_working_capital": -24.4,
-      "tax_expense": 15.5,
-      "fcf": 87.5,
-      "fcf_conversion_pct": 35.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 250.0,
-        "capex": 100.0,
-        "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax": 15.5,
-        "fcf": 87.5,
-        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-      }
+      "tax_expense": 15.5
     },
     {
       "period": "2027E",
@@ -328,25 +245,11 @@
         "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
         "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
       },
-      "reported_ebitda": 253.7,
-      "calculated_ebitda": 250.0,
       "ebitda_reconciliation_variance_usd_m": 3.7,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 71.4,
-      "change_in_working_capital": -24.4,
-      "tax_expense": 15.5,
-      "fcf": 87.5,
-      "fcf_conversion_pct": 35.0,
-      "fcf_bridge": {
-        "calculated_ebitda": 250.0,
-        "capex": 100.0,
-        "cash_interest": 71.4,
-        "change_in_working_capital": -24.4,
-        "tax": 15.5,
-        "fcf": 87.5,
-        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
-      }
+      "tax_expense": 15.5
     }
   ],
   "supplementary_data": {
