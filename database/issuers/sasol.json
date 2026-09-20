@@ -16,16 +16,18 @@
     "model_file": "Sasol_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c68168a6b6e3b7106bfdda",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Sasol_Credit_Model.xlsx",
-    "last_updated": "2026-09-19"
+    "last_updated": "2026-09-19",
+    "cognitive_credit_id": "sasol",
+    "cognitive_credit_url": "https://app.cognitivecredit.com/company/sasol/description"
   },
   "financials_multi_year": [
     {
       "period": "2021A",
       "is_audited": true,
-      "revenue": 9656.0,
+      "revenue": 9656,
       "ebitda": 1852.5,
       "ebitda_margin_pct": 19.2,
-      "cfo": 1502.0,
+      "cfo": 1502,
       "capex": 698.2,
       "fcf": 803.8,
       "cash": 1175.6,
@@ -47,14 +49,14 @@
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$27.8M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 330.2,
       "change_in_working_capital": -124.7,
-      "tax_expense": 145.0,
+      "tax_expense": 145,
       "fcf_conversion_pct": 43.4,
       "fcf_bridge": {
         "calculated_ebitda": 1852.5,
         "capex": 698.2,
         "cash_interest": 330.2,
         "change_in_working_capital": -124.7,
-        "tax": 145.0,
+        "tax": 145,
         "fcf": 803.8,
         "formula_check": "1852.5 - 698.2 - 330.2 - (-124.7) - 145.0 = 803.8"
       }
@@ -62,8 +64,8 @@
     {
       "period": "2022A",
       "is_audited": true,
-      "revenue": 11644.0,
-      "ebitda": 2280.0,
+      "revenue": 11644,
+      "ebitda": 2280,
       "ebitda_margin_pct": 19.6,
       "cfo": 1889.5,
       "capex": 847.9,
@@ -81,7 +83,7 @@
         "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
       },
       "reported_ebitda": 2314.2,
-      "calculated_ebitda": 2280.0,
+      "calculated_ebitda": 2280,
       "ebitda_reconciliation_variance_usd_m": 34.2,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$34.2M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -90,7 +92,7 @@
       "tax_expense": 177.6,
       "fcf_conversion_pct": 45.7,
       "fcf_bridge": {
-        "calculated_ebitda": 2280.0,
+        "calculated_ebitda": 2280,
         "capex": 847.9,
         "cash_interest": 412.3,
         "change_in_working_capital": -199.4,
@@ -102,8 +104,8 @@
     {
       "period": "2023A",
       "is_audited": true,
-      "revenue": 13064.0,
-      "ebitda": 2565.0,
+      "revenue": 13064,
+      "ebitda": 2565,
       "ebitda_margin_pct": 19.6,
       "cfo": 2131.8,
       "capex": 947.6,
@@ -121,20 +123,20 @@
         "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
       },
       "reported_ebitda": 2603.5,
-      "calculated_ebitda": 2565.0,
+      "calculated_ebitda": 2565,
       "ebitda_reconciliation_variance_usd_m": 38.5,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$38.5M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 495.2,
-      "change_in_working_capital": -257.0,
-      "tax_expense": 195.0,
+      "change_in_working_capital": -257,
+      "tax_expense": 195,
       "fcf_conversion_pct": 46.2,
       "fcf_bridge": {
-        "calculated_ebitda": 2565.0,
+        "calculated_ebitda": 2565,
         "capex": 947.6,
         "cash_interest": 495.2,
-        "change_in_working_capital": -257.0,
-        "tax": 195.0,
+        "change_in_working_capital": -257,
+        "tax": 195,
         "fcf": 1184.2,
         "formula_check": "2565.0 - 947.6 - 495.2 - (-257.0) - 195.0 = 1184.2"
       }
@@ -142,15 +144,15 @@
     {
       "period": "2024A",
       "is_audited": true,
-      "revenue": 14200.0,
-      "ebitda": 2850.0,
+      "revenue": 14200,
+      "ebitda": 2850,
       "ebitda_margin_pct": 20.1,
       "cfo": 2422.5,
       "capex": 997.5,
-      "fcf": 1425.0,
+      "fcf": 1425,
       "cash": 2137.5,
       "gross_debt": 7951.5,
-      "net_debt": 5814.0,
+      "net_debt": 5814,
       "net_leverage": 2.04,
       "interest_coverage": 5.18,
       "observations": {
@@ -161,29 +163,29 @@
         "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
       },
       "reported_ebitda": 2892.7,
-      "calculated_ebitda": 2850.0,
+      "calculated_ebitda": 2850,
       "ebitda_reconciliation_variance_usd_m": 42.7,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$42.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 550.2,
       "change_in_working_capital": -339.4,
       "tax_expense": 216.7,
-      "fcf_conversion_pct": 50.0,
+      "fcf_conversion_pct": 50,
       "fcf_bridge": {
-        "calculated_ebitda": 2850.0,
+        "calculated_ebitda": 2850,
         "capex": 997.5,
         "cash_interest": 550.2,
         "change_in_working_capital": -339.4,
         "tax": 216.7,
-        "fcf": 1425.0,
+        "fcf": 1425,
         "formula_check": "2850.0 - 997.5 - 550.2 - (-339.4) - 216.7 = 1425.0"
       }
     },
     {
       "period": "2025E",
       "is_audited": false,
-      "revenue": 15336.0,
-      "ebitda": 3135.0,
+      "revenue": 15336,
+      "ebitda": 3135,
       "ebitda_margin_pct": 20.4,
       "cfo": 2664.8,
       "capex": 1047.4,
@@ -200,21 +202,21 @@
         "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
         "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
       },
-      "reported_ebitda": 3182.0,
-      "calculated_ebitda": 3135.0,
-      "ebitda_reconciliation_variance_usd_m": 47.0,
+      "reported_ebitda": 3182,
+      "calculated_ebitda": 3135,
+      "ebitda_reconciliation_variance_usd_m": 47,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$47.0M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 527.8,
       "change_in_working_capital": -307.6,
-      "tax_expense": 250.0,
+      "tax_expense": 250,
       "fcf_conversion_pct": 51.6,
       "fcf_bridge": {
-        "calculated_ebitda": 3135.0,
+        "calculated_ebitda": 3135,
         "capex": 1047.4,
         "cash_interest": 527.8,
         "change_in_working_capital": -307.6,
-        "tax": 250.0,
+        "tax": 250,
         "fcf": 1617.4,
         "formula_check": "3135.0 - 1047.4 - 527.8 - (-307.6) - 250.0 = 1617.4"
       }
@@ -222,8 +224,8 @@
     {
       "period": "2026E",
       "is_audited": false,
-      "revenue": 16330.0,
-      "ebitda": 3363.0,
+      "revenue": 16330,
+      "ebitda": 3363,
       "ebitda_margin_pct": 20.6,
       "cfo": 2858.5,
       "capex": 1017.4,
@@ -241,7 +243,7 @@
         "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
       },
       "reported_ebitda": 3413.4,
-      "calculated_ebitda": 3363.0,
+      "calculated_ebitda": 3363,
       "ebitda_reconciliation_variance_usd_m": 50.4,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$50.4M) of Calculated EBITDA with zero aggressive management add-backs.",
@@ -250,7 +252,7 @@
       "tax_expense": 277.1,
       "fcf_conversion_pct": 54.7,
       "fcf_bridge": {
-        "calculated_ebitda": 3363.0,
+        "calculated_ebitda": 3363,
         "capex": 1017.4,
         "cash_interest": 506.5,
         "change_in_working_capital": -279.1,
@@ -262,8 +264,8 @@
     {
       "period": "2027E",
       "is_audited": false,
-      "revenue": 17040.0,
-      "ebitda": 3534.0,
+      "revenue": 17040,
+      "ebitda": 3534,
       "ebitda_margin_pct": 20.7,
       "cfo": 3028.1,
       "capex": 977.5,
@@ -280,17 +282,17 @@
         "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
         "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
       },
-      "reported_ebitda": 3587.0,
-      "calculated_ebitda": 3534.0,
-      "ebitda_reconciliation_variance_usd_m": 53.0,
+      "reported_ebitda": 3587,
+      "calculated_ebitda": 3534,
+      "ebitda_reconciliation_variance_usd_m": 53,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$53.0M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 484.1,
       "change_in_working_capital": -276.7,
       "tax_expense": 298.5,
-      "fcf_conversion_pct": 58.0,
+      "fcf_conversion_pct": 58,
       "fcf_bridge": {
-        "calculated_ebitda": 3534.0,
+        "calculated_ebitda": 3534,
         "capex": 977.5,
         "cash_interest": 484.1,
         "change_in_working_capital": -276.7,
@@ -303,10 +305,10 @@
   "supplementary_data": {
     "net_production_kboed": 596.4,
     "lifting_cost_usd_per_boe": 12.5,
-    "realized_price_usd_per_bbl": 78.0,
-    "reserve_life_2p_years": 15.0,
-    "offshore_escrow_routing_pct": 100.0,
-    "hedged_production_pct": 45.0
+    "realized_price_usd_per_bbl": 78,
+    "reserve_life_2p_years": 15,
+    "offshore_escrow_routing_pct": 100,
+    "hedged_production_pct": 45
   },
   "debt_maturities": {
     "2025": 697.7,
@@ -315,13 +317,13 @@
     "2028": 1046.5,
     "2029": 697.7,
     "2030_plus": 581.4,
-    "total_outstanding_usd_m": 5814.0
+    "total_outstanding_usd_m": 5814
   },
   "recovery_analysis": {
-    "distressed_floor_px": 64.0,
-    "base_case_px": 99.0,
-    "recovery_floor_pct": 64.0,
-    "recovery_base_pct": 99.0,
+    "distressed_floor_px": 64,
+    "base_case_px": 99,
+    "recovery_floor_pct": 64,
+    "recovery_base_pct": 99,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "South Africa Commercial & Bankruptcy Code",
     "thesis": "Secunda coal-to-liquids synthetic fuels monopoly; global specialty chemicals cash flow; crossover rating tier."
@@ -426,7 +428,7 @@
       "amount_issued_usd_m": 1550.5,
       "amount_outstanding_usd_m": 1192.7,
       "coupon": "SOFR + 185 bps",
-      "clean_price": 100.0,
+      "clean_price": 100,
       "ytm": 6.85,
       "spread_bp": 185,
       "maturity_date": "2031-03-31",
@@ -441,7 +443,7 @@
       "amount_issued_usd_m": 2783.2,
       "amount_outstanding_usd_m": 795.2,
       "coupon": "SOFR + 150 bps",
-      "clean_price": 100.0,
+      "clean_price": 100,
       "ytm": 6.5,
       "spread_bp": 150,
       "maturity_date": "2028-06-30",
@@ -584,8 +586,8 @@
       "ytm": 9.2,
       "spread_bp": 456,
       "net_leverage": 2.39,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -597,8 +599,8 @@
       "ytm": 8.8,
       "spread_bp": 431,
       "net_leverage": 2.29,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -610,8 +612,8 @@
       "ytm": 8.45,
       "spread_bp": 409,
       "net_leverage": 2.19,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -623,8 +625,8 @@
       "ytm": 8.15,
       "spread_bp": 383,
       "net_leverage": 2.09,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -632,12 +634,12 @@
       "period_name": "Q1 2025",
       "timestamp": "2025-03-31T16:00:00Z",
       "rating": "BB+ / Ba1",
-      "price": 98.0,
-      "ytm": 8.0,
+      "price": 98,
+      "ytm": 8,
       "spread_bp": 376,
       "net_leverage": 2.06,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -649,8 +651,8 @@
       "ytm": 7.75,
       "spread_bp": 358,
       "net_leverage": 1.99,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -658,12 +660,12 @@
       "period_name": "Q3 2025",
       "timestamp": "2025-09-30T16:00:00Z",
       "rating": "BB+ / Ba1",
-      "price": 99.0,
+      "price": 99,
       "ytm": 7.65,
       "spread_bp": 350,
       "net_leverage": 1.94,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -675,8 +677,8 @@
       "ytm": 7.6,
       "spread_bp": 347,
       "net_leverage": 1.92,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -688,8 +690,8 @@
       "ytm": 7.7,
       "spread_bp": 354,
       "net_leverage": 1.96,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -701,8 +703,8 @@
       "ytm": 7.8,
       "spread_bp": 361,
       "net_leverage": 2.02,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -714,8 +716,8 @@
       "ytm": 7.85,
       "spread_bp": 365,
       "net_leverage": 2.04,
-      "ebitda": 2850.0,
-      "fcf": 1425.0,
+      "ebitda": 2850,
+      "fcf": 1425,
       "guidance_status": "Ahead of Target"
     }
   ]

@@ -339,6 +339,11 @@ function renderTable() {
               <a href="${m.github_model_url}" class="btn-action btn-gold" download title="Download Excel Model (.xlsx)">
                 📥 Download Excel (.xlsx)
               </a>
+              ${m.cognitive_credit_id ? `
+                <a href="https://app.cognitivecredit.com/company/${m.cognitive_credit_id}/description" class="btn-action" target="_blank" title="Open Detailed Financial Model on Cognitive Credit" style="background:rgba(59,130,246,0.18); border:1px solid #3b82f6; color:#93c5fd; font-weight:600;">
+                  🔗 Cognitive Credit
+                </a>
+              ` : ''}
               ${m.notion_id ? `
                 <a href="https://notion.so/${m.notion_id}" class="btn-action" target="_blank" style="background:#1e293b; color:#e2e8f0;">
                   📑 Open Notion Dossier
@@ -2099,6 +2104,17 @@ window.openInstitutionalModel = function(issuerId, targetSheet = 'sheet-fin') {
   if (dlBtn) {
     dlBtn.href = m.github_model_url;
     dlBtn.download = m.model_file;
+  }
+
+  // Update Cognitive Credit Deep Link
+  const ccBtn = document.getElementById('modal-cc-btn');
+  if (ccBtn) {
+    if (m.cognitive_credit_id) {
+      ccBtn.href = `https://app.cognitivecredit.com/company/${m.cognitive_credit_id}/description`;
+      ccBtn.style.display = 'inline-flex';
+    } else {
+      ccBtn.style.display = 'none';
+    }
   }
 
   // Set Sheet Tab

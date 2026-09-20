@@ -2215,6 +2215,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "africell",
+      "cognitive_credit_id": "africell",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description",
       "name": "Africell",
       "ticker": "AFRCEL",
       "country": "Angola",
@@ -9461,6 +9463,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "cez",
+      "cognitive_credit_id": "cez",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/cez/description",
       "name": "ČEZ Group",
       "ticker": "CEZ",
       "country": "Czech Republic",
@@ -13841,6 +13845,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "dp_world",
+      "cognitive_credit_id": "dpworld",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dpworld/description",
       "name": "DP World",
       "ticker": "DPW",
       "country": "UAE",
@@ -14561,6 +14567,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "dtek",
+      "cognitive_credit_id": "dtek",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/dtek/description",
       "name": "DTEK Energy",
       "ticker": "DTEKUA",
       "country": "Ukraine",
@@ -22680,6 +22688,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "goldfields",
+      "cognitive_credit_id": "goldfields",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/goldfields/description",
       "name": "Gold Fields Ltd",
       "ticker": "GFI",
       "country": "South Africa",
@@ -24940,6 +24950,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "helios",
+      "cognitive_credit_id": "helios",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/helios/description",
       "name": "Helios Towers",
       "ticker": "HT",
       "country": "Pan-Africa",
@@ -26375,6 +26387,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "ihs",
+      "cognitive_credit_id": "ihstowers",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ihstowers/description",
       "name": "IHS Towers",
       "ticker": "IHS",
       "country": "Nigeria",
@@ -30783,6 +30797,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "kosmos",
+      "cognitive_credit_id": "kosmos",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/kosmos/description",
       "name": "Kosmos Energy",
       "ticker": "KOS",
       "country": "Ghana",
@@ -33666,6 +33682,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "liqtel",
+      "cognitive_credit_id": "liquidtech",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/liquidtech/description",
       "name": "Liquid Telecom",
       "ticker": "LIQTEL",
       "country": "South Africa",
@@ -35096,6 +35114,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "metinvest",
+      "cognitive_credit_id": "metinvest",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/metinvest/description",
       "name": "Metinvest",
       "ticker": "METINV",
       "country": "Ukraine",
@@ -37254,6 +37274,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "mtn",
+      "cognitive_credit_id": "mtn",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/mtn/description",
       "name": "MTN Group",
       "ticker": "MTNSJ",
       "country": "South Africa",
@@ -37968,6 +37990,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "ocp",
+      "cognitive_credit_id": "ocp",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ocp/description",
       "name": "OCP Group",
       "ticker": "OCP",
       "country": "Morocco",
@@ -38688,6 +38712,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "ooredoo",
+      "cognitive_credit_id": "ooredoo",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/ooredoo/description",
       "name": "Ooredoo QPSC",
       "ticker": "ORDS",
       "country": "Qatar",
@@ -40124,6 +40150,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "orlen",
+      "cognitive_credit_id": "orlen",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/orlen/description",
       "name": "PKN Orlen",
       "ticker": "PKN",
       "country": "Poland",
@@ -47472,6 +47500,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "sasol",
+      "cognitive_credit_id": "sasol",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/sasol/description",
       "name": "Sasol Ltd",
       "ticker": "SOLSJ",
       "country": "South Africa",
@@ -52615,6 +52645,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "stc",
+      "cognitive_credit_id": "stc",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/stc/description",
       "name": "Saudi Telecom Company (STC)",
       "ticker": "STC",
       "country": "Saudi Arabia",
@@ -56201,6 +56233,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "tullow",
+      "cognitive_credit_id": "tullowoil",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description",
       "name": "Tullow Oil",
       "ticker": "TLW",
       "country": "Ghana",
@@ -58415,6 +58449,8 @@ const MASTER_ISSUERS = [
   {
     "metadata": {
       "id": "turkcell",
+      "cognitive_credit_id": "turkcell",
+      "cognitive_credit_url": "https://app.cognitivecredit.com/company/turkcell/description",
       "name": "Turkcell İletişim",
       "ticker": "TCELL",
       "country": "Turkey",
