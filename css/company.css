@@ -1179,4 +1179,186 @@
   transform: translate(-50%, -50%);
 }
 
+/* =========================================================
+   SPREADSHEET BOTTOM BAR & EXCEL EXPORT (COGNITIVE CREDIT STYLE)
+   ========================================================= */
+.spreadsheet-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: #080d1a;
+  border: 1px solid #1e2d45;
+  border-top: 1px solid #14213d;
+  border-radius: 0 0 8px 8px;
+  padding: 8px 14px;
+  margin-bottom: 16px;
+  font-size: 11px;
+}
+.sb-left, .sb-center, .sb-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sb-tabs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+  padding: 2px;
+}
+.sb-tab-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.12s;
+}
+.sb-tab-btn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+}
+.sb-tab-btn.active {
+  background: #1e293b;
+  color: #fbbf24;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+.sb-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #94a3b8;
+  font-size: 11px;
+  font-weight: 500;
+}
+.sb-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 6px rgba(16, 185, 129, 0.6);
+}
+.sb-zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+  padding: 2px 4px;
+}
+.sb-zoom-btn {
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  font-weight: 700;
+  font-size: 13px;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.sb-zoom-btn:hover {
+  background: #334155;
+  color: #fff;
+}
+.sb-zoom-val {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: #fbbf24;
+  min-width: 42px;
+  text-align: center;
+  cursor: pointer;
+}
+.sb-action-btn {
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid #334155;
+  color: #cbd5e1;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 11px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.sb-action-btn:hover {
+  background: #334155;
+  color: #fff;
+}
+.sb-excel-btn {
+  background: linear-gradient(135deg, #107c41, #0b5a2f);
+  color: #ffffff;
+  border: 1px solid #16a34a;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 11px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(16, 124, 65, 0.35);
+  transition: all 0.15s;
+}
+.sb-excel-btn:hover {
+  background: linear-gradient(135deg, #15803d, #14532d);
+  box-shadow: 0 4px 12px rgba(16, 124, 65, 0.5);
+  transform: translateY(-1px);
+}
+.sb-excel-icon {
+  background: #ffffff;
+  color: #107c41;
+  font-size: 9px;
+  font-weight: 900;
+  padding: 1px 4px;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+}
+
+/* In-cell Formula Display Mode */
+.company-sheet-table.formulas-mode td.has-formula {
+  color: #38bdf8 !important;
+  font-size: 11px !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  letter-spacing: -0.3px;
+  background: rgba(56, 189, 248, 0.05) !important;
+}
+
+/* Table Zoom Container */
+#table-zoom-wrapper {
+  transform-origin: top left;
+  transition: transform 0.15s ease-out;
+  width: 100%;
+}
+
+/* Fullscreen Snapshot View */
+body.screenshot-view-active .company-navbar,
+body.screenshot-view-active .company-hero,
+body.screenshot-view-active .company-tabs-nav,
+body.screenshot-view-active .model-workspace-header,
+body.screenshot-view-active .cell-audit-detail-card,
+body.screenshot-view-active #commodity-sandbox-container {
+  display: none !important;
+}
+body.screenshot-view-active .company-content-container {
+  padding: 10px !important;
+}
+body.screenshot-view-active #table-scroll-container {
+  border: 1px solid #38bdf8 !important;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
+
 

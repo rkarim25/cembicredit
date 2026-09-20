@@ -214,11 +214,54 @@
         </div>
       </div>
 
-      <!-- Interactive Spreadsheet Table -->
-      <div style="overflow-x:auto; border-radius:8px;">
-        <table class="company-sheet-table" id="company-sheet-table">
-          <!-- Populated dynamically by js/company.js -->
-        </table>
+      <!-- Interactive Spreadsheet Table & Zoom Wrapper -->
+      <div id="table-scroll-container" style="overflow-x:auto; border-radius:8px 8px 0 0; border: 1px solid #1e2d45; border-bottom: none; background: #0a0f1c;">
+        <div id="table-zoom-wrapper">
+          <table class="company-sheet-table" id="company-sheet-table">
+            <!-- Populated dynamically by js/company.js -->
+          </table>
+        </div>
+      </div>
+
+      <!-- Cognitive Credit Style Spreadsheet Bottom Status & Action Bar -->
+      <div class="spreadsheet-bottom-bar" id="spreadsheet-bottom-bar">
+        <div class="sb-left">
+          <div class="sb-tabs">
+            <button class="sb-tab-btn active" id="sb-tab-standard" onclick="switchSheetView('standard')">📊 Annual &amp; Forecast</button>
+            <button class="sb-tab-btn" id="sb-tab-cc" onclick="switchSheetView('cognitive_credit')" style="display:none;">📑 Cognitive Credit Disclosures (300+ Lines)</button>
+            <button class="sb-tab-btn" id="sb-tab-formulas" onclick="toggleShowFormulasMode()" title="Toggle in-cell formula strings (Ctrl + ~)">
+              <span style="font-family:'JetBrains Mono', monospace; font-weight:700; color:#38bdf8;">fx</span> Show Formulas
+            </button>
+          </div>
+        </div>
+
+        <div class="sb-center">
+          <span class="sb-status-pill">
+            <span class="sb-dot"></span>
+            <span id="sb-status-text">Dynamic Formulas Linked &amp; Retained</span>
+          </span>
+        </div>
+
+        <div class="sb-right">
+          <!-- Zoom Controls (Zoom out to screenshot) -->
+          <div class="sb-zoom-controls">
+            <button class="sb-zoom-btn" onclick="adjustGridZoom(-0.1)" title="Zoom Out (scale down to capture wide screenshot)">−</button>
+            <span class="sb-zoom-val" id="sb-zoom-label" onclick="resetGridZoom()" title="Click to reset zoom to 100%">100%</span>
+            <button class="sb-zoom-btn" onclick="adjustGridZoom(0.1)" title="Zoom In">+</button>
+            <button class="sb-zoom-btn" onclick="resetGridZoom()" style="font-size:10px; width:auto; padding:0 5px;" title="Reset Zoom">100%</button>
+          </div>
+
+          <!-- Screenshot View Mode -->
+          <button class="sb-action-btn" id="btn-screenshot-toggle" onclick="toggleScreenshotView()" title="Expand table for wide screen capture">
+            📷 Snapshot View
+          </button>
+
+          <!-- Excel Model Download Button (Bottom Right) -->
+          <button class="sb-excel-btn" id="bottom-excel-dl-btn" onclick="downloadCompanyExcel()" title="Download full financial model (.xlsx) with all formulas and calculation precedents retained">
+            <span class="sb-excel-icon">XLSX</span>
+            <span>Download Model (.xlsx)</span>
+          </button>
+        </div>
       </div>
 
       <!-- Cell Audit & Verification Detail Card -->
@@ -696,6 +739,6 @@
   </div>
 
   <!-- Main Company JS Logic -->
-  <script src="js/company.js?v=20260920e_contextmenu"></script>
+  <script src="js/company.js?v=20260920f_cognitivecredit"></script>
 </body>
 </html>

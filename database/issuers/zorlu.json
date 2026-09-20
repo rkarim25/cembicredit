@@ -358,8 +358,8 @@
     "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
     "reporting_currency": "USD / TRY (with natural USD hedge disclosures)",
     "generation_fleet_breakdown": {
-      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) — Turkey's largest and lowest-cost baseload renewable fleet",
-      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) — long-term high wind resource capacity factor (>34%)",
+      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) \u2014 Turkey's largest and lowest-cost baseload renewable fleet",
+      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) \u2014 long-term high wind resource capacity factor (>34%)",
       "hydroelectric_capacity_hes": "118.6 MW across 7 operating run-of-river and reservoir plants (Ikizdere, Atabey, Camlica, Kuzgun, Mercan, Tercan, Beykoy)",
       "solar_and_hybrid_capacity": "84.0 MW installed and under development (hybrid solar installations co-located at Kizildere geothermal sites)",
       "thermal_and_industrial_cogen": "341.0 MW domestic gas cogeneration and district heating (Bursa, Luleburgaz)",
@@ -438,7 +438,7 @@
     "geographic_and_fx_exposure": {
       "usd_revenue_share": "68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM mechanism",
       "try_regulated_revenue_share": "31.5% of revenue earned in Turkish Lira via OEDAS/OEPSAS with full CPI inflation pass-through",
-      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY — natural dollar hedge covers 100% of USD net interest payments",
+      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY \u2014 natural dollar hedge covers 100% of USD net interest payments",
       "fx_risk_mitigation": "Bilateral FX forward hedges covering next 12-month EUR debt principal amortizations"
     },
     "contract_backlog_and_commercial_terms": {
@@ -870,5 +870,85 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
+  },
+  "cognitive_credit_model": {
+    "source_file": "cognitive-credit-zorluenerji-financials-18-Sep-2026.xlsx",
+    "ingested_at": "2026-09-20T22:37:45.974243",
+    "sheets_available": [
+      "Annual and Quarterly",
+      "Quarterly YTD",
+      "Rolling LTM"
+    ],
+    "summary": {
+      "Annual and Quarterly": {
+        "currency_unit": "TRYmm, Dec year-end",
+        "periods": [
+          "FY23",
+          "FY24",
+          "FY25",
+          "LTM",
+          "1Q23",
+          "2Q23",
+          "3Q23",
+          "4Q23",
+          "1Q24",
+          "2Q24",
+          "3Q24",
+          "4Q24",
+          "1Q25",
+          "2Q25",
+          "3Q25",
+          "4Q25",
+          "1Q26",
+          "2Q26",
+          "Q/o/Q",
+          "Y/o/Y"
+        ],
+        "row_count": 298,
+        "formula_count": 2714
+      },
+      "Quarterly YTD": {
+        "currency_unit": "TRYmm, Dec year-end",
+        "periods": [
+          "1Q23",
+          "1H23",
+          "3Q23",
+          "FY23",
+          "1Q24",
+          "1H24",
+          "3Q24",
+          "FY24",
+          "1Q25",
+          "1H25",
+          "3Q25",
+          "FY25",
+          "1Q26",
+          "1H26"
+        ],
+        "row_count": 299,
+        "formula_count": 1457
+      },
+      "Rolling LTM": {
+        "currency_unit": "TRYmm, Dec year-end",
+        "periods": [
+          "1Q23",
+          "2Q23",
+          "3Q23",
+          "FY23",
+          "1Q24",
+          "2Q24",
+          "3Q24",
+          "FY24",
+          "1Q25",
+          "2Q25",
+          "3Q25",
+          "FY25",
+          "1Q26",
+          "2Q26"
+        ],
+        "row_count": 297,
+        "formula_count": 2466
+      }
+    }
   }
 }

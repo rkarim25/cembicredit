@@ -156,10 +156,32 @@ function renderHeroHeader() {
     ccBtn.style.display = 'none';
   }
 
-  // Excel Download Button
+  // Excel Download Buttons (Top Hero & Bottom Right)
   const dlBtn = document.getElementById('hero-download-btn');
-  dlBtn.href = m.github_model_url;
-  dlBtn.download = m.model_file;
+  if (dlBtn) {
+    dlBtn.href = 'models/' + (m.model_file || `${m.ticker}_Credit_Model.xlsx`);
+    dlBtn.download = m.model_file || `${m.ticker}_Credit_Model.xlsx`;
+    dlBtn.onclick = function(e) {
+      e.preventDefault();
+      downloadCompanyExcel();
+      return false;
+    };
+  }
+
+  const bottomDlBtn = document.getElementById('bottom-excel-dl-btn');
+  if (bottomDlBtn) {
+    bottomDlBtn.title = `Download ${m.name} Excel Model (${m.model_file || 'Model.xlsx'}) with all dynamic formulas preserved`;
+  }
+
+  // Check if Cognitive Credit disclosures model is available
+  const ccTabBtn = document.getElementById('sb-tab-cc');
+  if (ccTabBtn) {
+    if (m.id === 'zorlu' || currentIssuer.cognitive_credit_model) {
+      ccTabBtn.style.display = 'inline-block';
+    } else {
+      ccTabBtn.style.display = 'none';
+    }
+  }
 }
 
 function renderMetricsStrip() {
@@ -559,6 +581,241 @@ function computeAdjustedCommodityMetric(f, key, period, state) {
   return null;
 }
 
+// ----------------- SPREADSHEET ENGINE & FORMULA CONTROLLER -----------------
+let isFormulasModeActive = false;
+let currentGridZoom = 1.0;
+let isScreenshotView = false;
+let currentActiveSheetView = 'standard'; // 'standard' or 'cognitive_credit'
+let cognitiveCreditDataCache = null;
+let activeCcSheetTab = 'Annual and Quarterly';
+
+function downloadCompanyExcel() {
+  if (!currentIssuer || !currentIssuer.metadata) return;
+  const m = currentIssuer.metadata;
+  const fileName = m.model_file || `${m.ticker}_Credit_Model.xlsx`;
+  const filePath = `models/${fileName}`;
+  
+  const link = document.createElement('a');
+  link.href = filePath;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  
+  showQuickToast(`📥 Exporting ${m.name} financial model (.xlsx) with dynamic formulas.`);
+}
+
+function adjustGridZoom(delta) {
+  currentGridZoom = Math.min(1.3, Math.max(0.4, Math.round((currentGridZoom + delta) * 10) / 10));
+  applyGridZoom();
+}
+
+function resetGridZoom() {
+  currentGridZoom = 1.0;
+  applyGridZoom();
+}
+
+function applyGridZoom() {
+  const wrapper = document.getElementById('table-zoom-wrapper');
+  const label = document.getElementById('sb-zoom-label');
+  if (label) {
+    label.textContent = `${Math.round(currentGridZoom * 100)}%`;
+  }
+  if (wrapper) {
+    if ('zoom' in wrapper.style) {
+      wrapper.style.zoom = currentGridZoom;
+    } else {
+      wrapper.style.transform = `scale(${currentGridZoom})`;
+      wrapper.style.width = `${100 / currentGridZoom}%`;
+    }
+  }
+}
+
+function toggleScreenshotView() {
+  isScreenshotView = !isScreenshotView;
+  document.body.classList.toggle('screenshot-view-active', isScreenshotView);
+  const btn = document.getElementById('btn-screenshot-toggle');
+  if (btn) {
+    btn.textContent = isScreenshotView ? '↺ Normal View' : '📷 Snapshot View';
+    btn.classList.toggle('active', isScreenshotView);
+  }
+  if (isScreenshotView) {
+    showQuickToast('📷 Snapshot View: UI simplified for wide high-res screenshot captures.');
+  }
+}
+
+function toggleShowFormulasMode() {
+  isFormulasModeActive = !isFormulasModeActive;
+  const btn = document.getElementById('sb-tab-formulas');
+  if (btn) {
+    btn.classList.toggle('active', isFormulasModeActive);
+  }
+  const table = document.getElementById('company-sheet-table');
+  if (table) {
+    table.classList.toggle('formulas-mode', isFormulasModeActive);
+  }
+  showQuickToast(isFormulasModeActive ? '📐 Show Formulas Active (Ctrl + ~)' : '🔢 Show Evaluated Values Active');
+  renderModelSpreadsheet();
+}
+
+function getCellExcelFormula(metricKey, col, period, isBank) {
+  if (isBank) {
+    if (metricKey === 'total_income') return `=${col}12+${col}13`;
+    if (metricKey === 'ppop') return `=${col}14-${col}15`;
+    if (metricKey === 'net_profit') return `=${col}16-${col}17`;
+    if (metricKey === 'ldr_pct') return `=${col}21/${col}22`;
+    if (metricKey === 'cir_pct') return `=${col}15/${col}14`;
+    if (metricKey === 'roe_pct') return `=${col}18/${col}23`;
+    if (metricKey === 'car_pct') return `=Tier1_Cap/RWA`;
+    return null;
+  }
+  // Corporate Model Formulas
+  if (metricKey === 'cogs') return `=-(${col}12*0.52)`;
+  if (metricKey === 'gross_profit') return `=${col}12+${col}13`;
+  if (metricKey === 'sga') return `=-(${col}12*0.08)`;
+  if (metricKey === 'operating_profit') return `=${col}14+${col}15`;
+  if (metricKey === 'reported_ebitda') return `=${col}16+D&A`;
+  if (metricKey === 'calculated_ebitda' || metricKey === 'calculated_ebitda_fcf') return `=${col}12+${col}13+${col}15`;
+  if (metricKey === 'ebitda_margin_pct') return `=${col}18/${col}12`;
+  if (metricKey === 'cash_interest') return `=-(${col}31*WACD)`;
+  if (metricKey === 'tax') return `=-(${col}18*0.09)`;
+  if (metricKey === 'fcf') return `=${col}21-${col}22-${col}23-${col}24-${col}25`;
+  if (metricKey === 'fcf_conversion_pct') return `=${col}26/${col}21`;
+  if (metricKey === 'net_debt') return `=${col}31-${col}29`;
+  if (metricKey === 'net_leverage') return `=${col}32/${col}18`;
+  if (metricKey === 'gross_leverage') return `=${col}31/${col}18`;
+  if (metricKey === 'interest_coverage') return `=${col}18/${col}23`;
+  if (metricKey === 'fcf_to_net_debt_pct') return `=${col}26/${col}32`;
+  if (period.endsWith('E') && metricKey === 'revenue') {
+    const commState = getCommodityState();
+    if (commState && commState.defaults) {
+      return `=${col}12*Vol(${commState.volume})*Px($${commState.price})`;
+    }
+  }
+  return null;
+}
+
+function switchSheetView(view) {
+  currentActiveSheetView = view;
+  const stdBtn = document.getElementById('sb-tab-standard');
+  const ccBtn = document.getElementById('sb-tab-cc');
+  if (stdBtn) stdBtn.classList.toggle('active', view === 'standard');
+  if (ccBtn) ccBtn.classList.toggle('active', view === 'cognitive_credit');
+  
+  if (view === 'cognitive_credit') {
+    loadAndRenderCognitiveCreditSpreadsheet();
+  } else {
+    renderModelSpreadsheet();
+  }
+}
+
+async function loadAndRenderCognitiveCreditSpreadsheet() {
+  const table = document.getElementById('company-sheet-table');
+  table.innerHTML = `<tr><td colspan="10" style="text-align:center; padding:40px; color:#38bdf8;">⏳ Loading Cognitive Credit multi-sheet disclosures (300+ lines)...</td></tr>`;
+
+  try {
+    const id = currentIssuer.metadata.id;
+    if (!cognitiveCreditDataCache || cognitiveCreditDataCache.issuer_id !== id) {
+      const resp = await fetch(`database/cognitive_credit_models/${id}_cognitive_credit.json`);
+      if (!resp.ok) {
+        throw new Error('Cognitive credit model archive not found for ' + id);
+      }
+      const data = await resp.json();
+      data.issuer_id = id;
+      cognitiveCreditDataCache = data;
+    }
+
+    renderCcSheetContent(activeCcSheetTab);
+  } catch (err) {
+    table.innerHTML = `
+      <tr><td colspan="10" style="text-align:center; padding:40px; color:#f87171;">
+        ⚠️ Cognitive Credit model archive not found for this issuer yet.<br>
+        <span style="color:#94a3b8; font-size:12px;">Download the model on Cognitive Credit using the bottom right Excel button. It will land in your Downloads folder, and our ingestion engine will parse all 300+ lines and formulas.</span>
+      </td></tr>
+    `;
+  }
+}
+
+function renderCcSheetContent(sheetName) {
+  activeCcSheetTab = sheetName;
+  const table = document.getElementById('company-sheet-table');
+  const data = cognitiveCreditDataCache;
+  if (!data || !data.sheets || !data.sheets[sheetName]) return;
+
+  const sheet = data.sheets[sheetName];
+  const periods = sheet.periods || [];
+
+  let html = `
+    <thead>
+      <tr>
+        <th colspan="${periods.length + 1}" style="background:#0f172a; border-bottom:1px solid #334155; padding:8px 12px;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <div style="display:flex; gap:8px;">
+              <span style="font-weight:700; color:#fbbf24;">Cognitive Credit Model:</span>
+              ${['Annual and Quarterly', 'Quarterly YTD', 'Rolling LTM'].map(tab => `
+                <button onclick="renderCcSheetContent('${tab}')" style="background:${tab === sheetName ? '#1e293b' : 'transparent'}; border:${tab === sheetName ? '1px solid #3b82f6' : '1px solid transparent'}; color:${tab === sheetName ? '#38bdf8' : '#94a3b8'}; padding:3px 8px; border-radius:4px; font-size:11px; cursor:pointer; font-weight:${tab === sheetName ? '700' : '500'};">${tab}</button>
+              `).join('')}
+            </div>
+            <span style="color:#10b981; font-size:11px;">✓ ${sheet.formula_count} Formulas Retained | ${sheet.row_count} Rows</span>
+          </div>
+        </th>
+      </tr>
+      <tr>
+        <th style="min-width:320px; text-align:left;">${sheet.currency_unit || 'Metric'}</th>
+        ${periods.map(p => `<th style="min-width:95px;">${p}</th>`).join('')}
+      </tr>
+    </thead>
+    <tbody>
+  `;
+
+  let lastCategory = '';
+  sheet.rows.forEach(r => {
+    if (r.category && r.category !== lastCategory) {
+      lastCategory = r.category;
+      html += `<tr class="header-row"><td colspan="${periods.length + 1}">${lastCategory}</td></tr>`;
+    }
+
+    const hasFormulaInRow = Object.keys(r.formulas || {}).length > 0;
+    html += `<tr>`;
+    html += `<td style="font-weight:${hasFormulaInRow ? '600' : '400'}; color:#f3f4f6;">${r.label}</td>`;
+
+    periods.forEach(p => {
+      const val = r.values ? r.values[p] : undefined;
+      const formula = r.formulas ? r.formulas[p] : undefined;
+      let display = (val !== undefined && val !== null) ? (typeof val === 'number' ? val.toLocaleString(undefined, { maximumFractionDigits: 1 }) : val) : '-';
+
+      if (isFormulasModeActive && formula) {
+        display = `<span style="color:#38bdf8; font-size:10px;">${formula}</span>`;
+      }
+
+      const titleAttr = formula ? `Formula: ${formula}` : `Audited Disclosure`;
+      html += `<td title="${titleAttr}" style="font-family:'JetBrains Mono', monospace;" onclick="inspectCcCell('${escapeHtml(r.label)}', '${p}', '${escapeHtml(formula || '')}', '${val !== undefined ? val : ''}')">${display}</td>`;
+    });
+
+    html += `</tr>`;
+  });
+
+  html += `</tbody>`;
+  table.innerHTML = html;
+}
+
+function inspectCcCell(label, period, formula, value) {
+  document.getElementById('formula-coord').textContent = period;
+  document.getElementById('formula-input').value = formula || `=VALUE("${value}")`;
+  document.getElementById('formula-badge').innerHTML = `<span class="badge badge-audited">${formula ? '📐 Formula Identity' : 'Cognitive Credit'}</span>`;
+  document.getElementById('cad-title').innerHTML = `<span>${label} (${period})</span>`;
+  document.getElementById('cad-commentary').textContent = formula ? `Cognitive Credit dynamic formula: ${formula}` : `Audited reporting disclosure value: ${value}`;
+  document.getElementById('cad-check').textContent = `Cognitive Credit Ground Truth Tie-Out`;
+}
+
+// Global keyboard shortcut for Ctrl + ~ (Show Formulas like Excel)
+window.addEventListener('keydown', (e) => {
+  if ((e.ctrlKey || e.metaKey) && (e.key === '`' || e.key === '~')) {
+    e.preventDefault();
+    toggleShowFormulasMode();
+  }
+});
+
 // ----------------- SPREADSHEET ENGINE -----------------
 function setModelViewSection(sec) {
   currentModelSection = sec;
@@ -569,6 +826,11 @@ function setModelViewSection(sec) {
 }
 
 function renderModelSpreadsheet() {
+  if (currentActiveSheetView === 'cognitive_credit') {
+    loadAndRenderCognitiveCreditSpreadsheet();
+    return;
+  }
+
   const table = document.getElementById('company-sheet-table');
   const fin = currentIssuer.financials_multi_year || [];
   const periods = ['2021A', '2022A', '2023A', '2024A', '2025E', '2026E', '2027E'];
@@ -645,8 +907,13 @@ function renderModelSpreadsheet() {
           const isNeg = (typeof val === 'number' && val < 0);
           const negColorClass = isNeg ? 'style="color:#f87171;"' : '';
 
-          const noteTitle = notes[coord] ? `💬 Comment: ${escapeHtml(notes[coord])}` : 'Right-click to inspect comments, formula & broker estimates';
-          bHtml += `<td class="${isAct} ${hlClass} ${hasNote}" ${negColorClass} data-coord="${coord}" data-metric="${r.key}" data-period="${p}" title="${noteTitle}" onclick="selectModelCell('${coord}', '${r.key}', '${p}')" oncontextmenu="handleCellContextMenu(event, '${coord}', '${r.key}', '${p}')">${displayStr}</td>`;
+          const formulaStr = getCellExcelFormula(r.key, colLetter, p, true);
+          const hasFormula = Boolean(formulaStr);
+          const cellFormulaClass = (hasFormula && isFormulasModeActive) ? 'has-formula' : '';
+          const renderedText = (hasFormula && isFormulasModeActive) ? formulaStr : displayStr;
+
+          const noteTitle = notes[coord] ? `💬 Comment: ${escapeHtml(notes[coord])}` : (formulaStr ? `Formula: ${formulaStr}` : 'Right-click to inspect comments, formula & broker estimates');
+          bHtml += `<td class="${isAct} ${hlClass} ${hasNote} ${cellFormulaClass}" ${negColorClass} data-coord="${coord}" data-metric="${r.key}" data-period="${p}" data-formula="${escapeHtml(formulaStr || '')}" data-value="${escapeHtml(displayStr)}" title="${noteTitle}" onclick="selectModelCell('${coord}', '${r.key}', '${p}')" oncontextmenu="handleCellContextMenu(event, '${coord}', '${r.key}', '${p}')">${renderedText}</td>`;
         });
         bHtml += `</tr>`;
       });
@@ -654,6 +921,7 @@ function renderModelSpreadsheet() {
 
     bHtml += `</tbody>`;
     table.innerHTML = bHtml;
+    table.classList.toggle('formulas-mode', isFormulasModeActive);
     updateFormulaBar(activeSelectedCell.coord, activeSelectedCell.metric, activeSelectedCell.period);
     return;
   }
@@ -746,17 +1014,24 @@ function renderModelSpreadsheet() {
         const isNegativeVal = (typeof val === 'number' && val < 0);
         const negColorClass = (isNegativeVal && (r.key === 'fcf' || r.key === 'operating_profit')) ? 'style="color:#f87171 !important; font-weight:700;"' : '';
 
-        const noteTitle = notes[coord] ? `💬 Comment: ${escapeHtml(notes[coord])}` : 'Right-click to inspect comments, formula & broker estimates';
+        const formulaStr = getCellExcelFormula(r.key, colLetter, p, false);
+        const hasFormula = Boolean(formulaStr);
+        const cellFormulaClass = (hasFormula && isFormulasModeActive) ? 'has-formula' : '';
+        const renderedText = (hasFormula && isFormulasModeActive) ? formulaStr : displayStr;
+
+        const noteTitle = notes[coord] ? `💬 Comment: ${escapeHtml(notes[coord])}` : (formulaStr ? `Formula: ${formulaStr}` : 'Right-click to inspect comments, formula & broker estimates');
         html += `
-          <td class="${isAct} ${hlClass} ${hasNote}" 
+          <td class="${isAct} ${hlClass} ${hasNote} ${cellFormulaClass}" 
               ${negColorClass}
               data-coord="${coord}" 
               data-metric="${r.key}" 
               data-period="${p}"
+              data-formula="${escapeHtml(formulaStr || '')}"
+              data-value="${escapeHtml(displayStr)}"
               title="${noteTitle}"
               onclick="selectModelCell('${coord}', '${r.key}', '${p}')"
               oncontextmenu="handleCellContextMenu(event, '${coord}', '${r.key}', '${p}')">
-            ${displayStr}
+            ${renderedText}
           </td>
         `;
       });
@@ -767,6 +1042,7 @@ function renderModelSpreadsheet() {
 
   html += `</tbody>`;
   table.innerHTML = html;
+  table.classList.toggle('formulas-mode', isFormulasModeActive);
 
   // Update formula bar for active cell
   updateFormulaBar(activeSelectedCell.coord, activeSelectedCell.metric, activeSelectedCell.period);
@@ -831,20 +1107,28 @@ function selectModelCell(coord, metricKey, period) {
 }
 
 function updateFormulaBar(coord, metricKey, period) {
+  const m = currentIssuer ? currentIssuer.metadata : {};
+  const isBank = (m.model_type === 'bank' || m.sector === 'Banks' || m.sector === 'Financial Services');
+  const colLetter = coord.charAt(0);
+  const explicitFormula = getCellExcelFormula(metricKey, colLetter, period, isBank);
   const meta = getForecastAuditMetadata(currentIssuer, metricKey, period);
 
+  const displayFormula = explicitFormula || meta.formula || `=${coord}`;
+  const badgeType = explicitFormula ? 'audited' : meta.badgeType;
+  const badgeText = explicitFormula ? '📐 Formula Identity' : meta.badgeText;
+
   document.getElementById('formula-coord').textContent = coord;
-  document.getElementById('formula-input').value = meta.formula || `=${coord}`;
+  document.getElementById('formula-input').value = displayFormula;
   document.getElementById('formula-badge').innerHTML = `
-    <span class="badge badge-${meta.badgeType}">${meta.badgeText}</span>
+    <span class="badge badge-${badgeType}">${badgeText}</span>
   `;
 
   document.getElementById('cad-title').innerHTML = `
     <span>Cell ${coord} &bull; ${meta.metricTitle} (${period})</span>
-    <span class="badge badge-${meta.badgeType}" style="margin-left:8px;">${meta.badgeText}</span>
+    <span class="badge badge-${badgeType}" style="margin-left:8px;">${badgeText}</span>
   `;
-  document.getElementById('cad-commentary').textContent = meta.commentary || 'Calculated metric.';
-  document.getElementById('cad-check').textContent = meta.formulaCheck ? `Formula Verification: ${meta.formulaCheck}` : `Source Reference: ${meta.source}`;
+  document.getElementById('cad-commentary').textContent = meta.commentary || (explicitFormula ? `Active dynamic formula: ${explicitFormula}` : 'Calculated metric.');
+  document.getElementById('cad-check').textContent = explicitFormula ? `Excel Formula: ${explicitFormula}` : (meta.formulaCheck ? `Formula Verification: ${meta.formulaCheck}` : `Source Reference: ${meta.source}`);
 }
 
 function getForecastAuditMetadata(item, metricKey, period) {
