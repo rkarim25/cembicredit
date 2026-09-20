@@ -678,9 +678,11 @@ tr:hover td {
   transition: opacity 0.2s ease;
 }
 
+#institutional-model-modal.active,
 .model-modal-overlay.active {
-  opacity: 1;
-  pointer-events: auto;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  visibility: visible !important;
 }
 
 .model-modal-container {

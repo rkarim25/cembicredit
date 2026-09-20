@@ -2094,12 +2094,22 @@ window.openInstitutionalModel = function(issuerId, targetSheet = 'sheet-fin') {
   switchModelSheet(currentModelSheet);
 
   modal.classList.add('active');
+  modal.style.display = 'flex';
+  modal.style.opacity = '1';
+  modal.style.pointerEvents = 'auto';
+  modal.style.visibility = 'visible';
   document.body.style.overflow = 'hidden';
 };
 
 window.closeInstitutionalModel = function() {
   const modal = document.getElementById('institutional-model-modal');
-  if (modal) modal.classList.remove('active');
+  if (modal) {
+    modal.classList.remove('active');
+    modal.style.display = 'none';
+    modal.style.opacity = '0';
+    modal.style.pointerEvents = 'none';
+    modal.style.visibility = 'hidden';
+  }
   closeCellComment();
   document.body.style.overflow = '';
 };
