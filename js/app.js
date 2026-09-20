@@ -224,7 +224,7 @@ function renderTable() {
     else if (m.rating.includes("CCC") || m.rating.includes("D") || m.spread_bp >= 700) ratingBadge = "badge-stress";
     
     let html = `
-      <td><strong>${m.ticker}</strong></td>
+      <td style="white-space:nowrap;"><strong>${m.ticker}</strong><button class="btn-action" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Interactive Web Model in Browser" style="font-size:10px; padding:1px 5px; margin-left:6px; background:rgba(245,158,11,0.18); border:1px solid #f59e0b; color:#fbbf24; border-radius:3px; cursor:pointer; font-weight:700;">⚡ Model</button></td>
       <td>
       <a href="javascript:void(0)" onclick="toggleRowExpand('${m.id}')" style="font-weight:600;">${m.name}</a>
       ${(() => {
@@ -1742,7 +1742,7 @@ function renderTrendChart() {
   // Render sector notes
   const notesDiv = document.getElementById("trend-sector-notes");
   if (notesDiv) {
-    const secNotes = MASTER_ANNOTATIONS.filter(a => a.sector === sec).slice(0, 6);
+    const secNotes = (typeof MASTER_ANNOTATIONS !== 'undefined' ? MASTER_ANNOTATIONS : []).filter(a => a.sector === sec).slice(0, 6);
     notesDiv.innerHTML = secNotes.map(n => `
       <div class="note-card" style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:12px; margin-bottom:12px;">
         <div style="font-size:10px; color:var(--accent-gold); text-transform:uppercase; margin-bottom:4px;">[${n.source}] ${n.topic} &bull; ${n.issuer_name || ''}</div>
@@ -1768,7 +1768,7 @@ function renderNotes() {
   const src = document.getElementById("note-source-select").value;
   const container = document.getElementById("notes-container");
   
-  const matches = MASTER_ANNOTATIONS.filter(a => {
+  const matches = (typeof MASTER_ANNOTATIONS !== 'undefined' ? MASTER_ANNOTATIONS : []).filter(a => {
     if (src && !a.source.toLowerCase().includes(src.toLowerCase())) return false;
     if (q) {
       const txt = (a.issuer_name + " " + a.sector + " " + a.topic + " " + a.note).toLowerCase();
@@ -1852,7 +1852,7 @@ window.openIssuerFromNews = function(ticker) {
   if (searchInput) searchInput.value = "";
   
   // Find issuer object
-  const targetIssuer = issuersData.find(i => i.metadata.ticker === ticker);
+  const targetIssuer = (typeof MASTER_ISSUERS !== 'undefined' ? MASTER_ISSUERS : []).find(i => i.metadata.ticker === ticker);
   if (targetIssuer) {
     const rowId = "expand-" + targetIssuer.metadata.id;
     const tr = document.getElementById(rowId);
@@ -1972,7 +1972,7 @@ function renderNewsModalContent() {
                 <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:11px; color:#94a3b8; background:#0f172a; padding:8px 12px; border-radius:4px;">
                   <strong style="color:#e2e8f0;">Linked CEMBI Companies:</strong>
                   ${n.impacted_issuers.map(ticker => {
-                    const iss = issuersData.find(i => i.metadata.ticker === ticker);
+                    const iss = (typeof MASTER_ISSUERS !== 'undefined' ? MASTER_ISSUERS : []).find(i => i.metadata.ticker === ticker);
                     const name = iss ? iss.metadata.name : ticker;
                     return `
                       <button onclick="openIssuerFromNews('${ticker}')" class="badge badge-sector" style="cursor:pointer; border:1px solid #3b82f6; padding:2px 8px; font-size:10.5px; font-weight:600; color:#93c5fd; background:#1e293b;" title="Jump directly to ${name} (${ticker})">
