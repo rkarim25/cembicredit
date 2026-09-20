@@ -537,5 +537,21 @@
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/ROMGAZ",
     "days_to_earnings": 54
-  }
+  },
+  "management_questions": [
+    {
+      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+    },
+    {
+      "focus_area": "State Royalty & Windfall Tax Stability",
+      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+    }
+  ]
 }

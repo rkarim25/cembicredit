@@ -353,6 +353,9 @@ function renderTable() {
             <button class="drawer-nav-btn" data-tab="tab-news" onclick="switchDrawerTab('${m.id}', 'tab-news')">
               📰 Credit News & Catalysts
             </button>
+            <button class="drawer-nav-btn" data-tab="tab-mgmt" onclick="switchDrawerTab('${m.id}', 'tab-mgmt')">
+              🎯 Management Questions (${(item.management_questions || []).length})
+            </button>
           </div>
           
           <!-- PANE 1: 7-YEAR MULTI-PERIOD FINANCIALS -->
@@ -1125,6 +1128,85 @@ function renderTable() {
                 </div>
               `).join('')}
             </div>
+          </div>
+
+          <!-- PANE 8: MANAGEMENT QUESTIONS & CONVICTION DRIVERS -->
+          <div class="drawer-pane" data-pane="tab-mgmt">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+              <div>
+                <h4 style="color:var(--accent-gold); font-size:13px; margin:0; text-transform:uppercase;">
+                  🎯 Institutional Management Questions & Conviction Drivers
+                </h4>
+                <div style="font-size:11px; color:#94a3b8; margin-top:2px;">
+                  High-conviction questions for CFO/Treasurer calls targeting deduced structural risks, unannounced policies, and conviction triggers for ${m.name} (${m.ticker})
+                </div>
+              </div>
+              <span class="badge badge-ig">Desk Interrogation Protocol</span>
+            </div>
+
+            ${(() => {
+              const mq = item.management_questions || [];
+              if (mq.length === 0) {
+                return `
+                  <div style="padding:20px; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; color:#94a3b8; font-size:12px; text-align:center;">
+                    Standard disclosure review complete. No abnormal structural ambiguities flagged for management questioning.
+                  </div>
+                `;
+              }
+
+              return `
+                <div style="display:flex; flex-direction:column; gap:16px;">
+                  ${mq.map((q, idx) => `
+                    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:8px; padding:16px; box-shadow:0 4px 6px -1px rgba(0,0,0,0.2);">
+                      <!-- Card Header -->
+                      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                        <div style="display:flex; align-items:center; gap:8px;">
+                          <span class="badge badge-sector" style="font-size:11px; font-weight:700;">Question #${idx+1}</span>
+                          <span style="color:var(--accent-gold); font-size:12px; font-weight:700;">Focus: ${q.focus_area}</span>
+                        </div>
+                        <button class="btn-action" onclick="navigator.clipboard.writeText('${q.question.replace(/'/g, "\\'")}'); alert('Question copied to clipboard for conference call!')" style="font-size:10.5px; padding:3px 8px;">
+                          📋 Copy Question
+                        </button>
+                      </div>
+
+                      <!-- The Question to Ask -->
+                      <div style="background:#0b1120; border:1px solid #334155; border-radius:6px; padding:12px 14px; margin-bottom:12px;">
+                        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; font-weight:700; margin-bottom:4px; letter-spacing:0.5px;">
+                          Direct Question to CFO / Treasurer:
+                        </div>
+                        <div style="color:#38bdf8; font-size:13.5px; font-weight:700; line-height:1.5;">
+                          "${q.question}"
+                        </div>
+                      </div>
+
+                      <!-- Analysis Blocks -->
+                      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+                        <!-- Why Relevant Block -->
+                        <div style="background:#0f172a; border-left:3px solid var(--accent-gold); padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:#cbd5e1;">
+                          <div style="color:var(--accent-gold); font-weight:700; margin-bottom:4px;">
+                            🔍 Why This Information Is Relevant (Deduced Structural Risk):
+                          </div>
+                          <div>${q.relevance}</div>
+                          ${q.deduced_from ? `
+                            <div style="margin-top:6px; font-size:10.5px; color:#64748b;">
+                              <em>Deduced from:</em> ${q.deduced_from}
+                            </div>
+                          ` : ''}
+                        </div>
+
+                        <!-- Conviction Decision Rule Block -->
+                        <div style="background:#0f172a; border-left:3px solid #10b981; padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:#cbd5e1;">
+                          <div style="color:#10b981; font-weight:700; margin-bottom:4px;">
+                            🎯 Conviction Trigger & Credit Decision Rule:
+                          </div>
+                          <div>${q.conviction_trigger}</div>
+                        </div>
+                      </div>
+                    </div>
+                  `).join('')}
+                </div>
+              `;
+            })()}
           </div>
 
           <!-- PANE 7: ISSUER CREDIT NEWS & WIDER MACRO TRANSMISSION -->

@@ -585,5 +585,21 @@
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/EXCRTU",
     "days_to_earnings": 54
-  }
+  },
+  "management_questions": [
+    {
+      "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+      "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+      "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+      "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+      "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+    },
+    {
+      "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+      "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+      "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+      "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+      "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+    }
+  ]
 }

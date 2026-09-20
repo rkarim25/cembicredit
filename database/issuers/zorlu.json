@@ -594,5 +594,28 @@
     "call_time": "18:00 Istanbul (Post-Market)",
     "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
     "days_to_earnings": 48
-  }
+  },
+  "management_questions": [
+    {
+      "focus_area": "YEKDEM Dollar Conversion & Central Bank FX Surrender Lag",
+      "question": "Can you provide the exact operational mechanics and timeline for converting TRY electricity sales into hard-currency USD under the YEKDEM mechanism? Specifically, does Zorlu face any repatriation friction or mandatory central bank surrender ratios that delay offshore debt service on the 2026 Eurobonds?",
+      "relevance": "Public disclosures state YEKDEM is dollar-denominated ($132/MWh for Kizildere), but initial billing is settled in Turkish Lira through EPAS. If there is a 30-60 day conversion lag during sharp TRY devaluations, dollar cash generation suffers hidden margin erosion that is not evident in annual IFRS figures.",
+      "conviction_trigger": "If management confirms immediate daily FX spot conversion rights without Central Bank friction, our conviction in the 2026 cash flow coverage rises to High (maintain Overweight). If conversions face weekly quotas, widen fair value spread by +45 bps.",
+      "deduced_from": "Deduced from the $18.5M FX provision add-back in 2024 P&L and discrepancy between headline revenues and cash collected."
+    },
+    {
+      "focus_area": "Dorad Energy (Israel) Dividend Repatriation & Legal Insulation",
+      "question": "Given ongoing Middle East geopolitical tensions, what is the exact legal status of dividend distributions from Dorad Energy (in which Zorlu holds a 25% stake)? Are cash flows currently being remitted to Istanbul, and are there any debt cross-default provisions if Dorad were to suspend distributions?",
+      "relevance": "Zorlu regularly adds back equity income from Dorad Energy into reported EBITDA ($12M-$18M annually). If geopolitical friction halts cross-border cash remittances, desk Calculated EBITDA is the only true liquidity anchor and debt service coverage tightens from 2.3x to 1.85x.",
+      "conviction_trigger": "Verification that Dorad cash dividends are ring-fenced and non-recourse to parent debt supports credit stability. If parent is required to inject equity or collateral, trigger Underweight recommendation.",
+      "deduced_from": "Deduced from recurring other operating income line items and equity method investee disclosures in 2023-2024 annual footnotes."
+    },
+    {
+      "focus_area": "OEDAS Regulated Asset Base (RAB) Inflation Indexation Schedule",
+      "question": "For the OEDAS electricity distribution business, what is the exact regulatory lag before EMRA (EPDK) adjusts distribution tariffs for 2025-2026 CPI inflation, and what percentage of the $650M RAB capex is pre-funded through government reimbursement schemes?",
+      "relevance": "Distribution provides Zorlu's domestic cash anchor (~35% of EBITDA). A regulatory lag exceeding 6 months during 40%+ inflation periods creates severe working capital drains that absorb operating cash before debt service.",
+      "conviction_trigger": "Quarterly indexation confirmation confirms debt service resilience. Annual lagging indexation indicates negative FCF in high-inflation quarters.",
+      "deduced_from": "Working capital fluctuations in 2022-2024 cash flow statements."
+    }
+  ]
 }

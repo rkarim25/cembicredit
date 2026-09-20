@@ -537,7 +537,23 @@ const MASTER_ISSUERS = [
       "call_time": "15:00 Riyadh / 12:00 UK",
       "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
       "days_to_earnings": 45
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -1126,7 +1142,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADCBUH",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -1666,7 +1698,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADMELE",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -2206,7 +2254,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+        "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+        "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+        "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+        "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ]
   },
   {
     "metadata": {
@@ -2795,7 +2852,23 @@ const MASTER_ISSUERS = [
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.akbankinvestorrelations.com",
       "days_to_earnings": 38
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -3339,7 +3412,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Abu Dhabi / 10:00 UK",
       "ir_webcast_url": "https://www.aldar.com/en/investor-relations",
       "days_to_earnings": 40
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
+        "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
+        "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
+        "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
+        "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ]
   },
   {
     "metadata": {
@@ -3883,7 +3965,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://arada.com/en/investor-relations/",
       "days_to_earnings": 60
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
+        "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
+        "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
+        "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
+        "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ]
   },
   {
     "metadata": {
@@ -4418,7 +4509,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -4958,7 +5065,23 @@ const MASTER_ISSUERS = [
       "call_time": "18:30 Istanbul",
       "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
       "days_to_earnings": 51
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -5499,7 +5622,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -6040,7 +6179,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -6595,7 +6750,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
+        "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
+        "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
+        "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
+        "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ]
   },
   {
     "metadata": {
@@ -7130,7 +7294,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CCOLA",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -7670,7 +7850,23 @@ const MASTER_ISSUERS = [
       "call_time": "10:00 Prague / 09:00 UK",
       "ir_webcast_url": "https://www.cez.cz/en/investors",
       "days_to_earnings": 52
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -8214,7 +8410,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://www.damacproperties.com/en/investor-relations/",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
+        "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
+        "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
+        "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
+        "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ]
   },
   {
     "metadata": {
@@ -8753,7 +8958,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANFER",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -9305,7 +9526,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANREF",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -9849,7 +10086,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DARARK",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
+        "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
+        "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
+        "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
+        "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ]
   },
   {
     "metadata": {
@@ -10438,7 +10684,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DIBUH",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -10977,7 +11239,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Dubai / 10:00 UK",
       "ir_webcast_url": "https://www.dpworld.com/investors",
       "days_to_earnings": 68
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -11517,7 +11795,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -12061,7 +12355,16 @@ const MASTER_ISSUERS = [
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
       "days_to_earnings": 53
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
+        "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
+        "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
+        "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
+        "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ]
   },
   {
     "metadata": {
@@ -12605,7 +12908,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EKGYO",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
+        "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
+        "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
+        "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
+        "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ]
   },
   {
     "metadata": {
@@ -13194,7 +13506,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EMIRAT",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -13733,7 +14061,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EQUATE",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -14272,7 +14616,23 @@ const MASTER_ISSUERS = [
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.erdemir.com.tr/investor-relations/",
       "days_to_earnings": 46
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -14812,7 +15172,23 @@ const MASTER_ISSUERS = [
       "call_time": "11:00 Johannesburg",
       "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
       "days_to_earnings": 72
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -15401,7 +15777,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FABUH",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -15990,7 +16382,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FIRSTR",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -16579,7 +16987,23 @@ const MASTER_ISSUERS = [
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.garantibbvainvestorrelations.com",
       "days_to_earnings": 39
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -17119,7 +17543,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -17658,7 +18098,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Johannesburg",
       "ir_webcast_url": "https://www.goldfields.com/investors.php",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -18247,7 +18703,23 @@ const MASTER_ISSUERS = [
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
       "days_to_earnings": 51
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -18836,7 +19308,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HSBKK",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -19376,7 +19864,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HT",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+        "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+        "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+        "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+        "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ]
   },
   {
     "metadata": {
@@ -19916,7 +20413,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HIDRO",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -20456,7 +20969,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:30 London / 09:30 EST",
       "ir_webcast_url": "https://www.ihstowers.com/investors",
       "days_to_earnings": 59
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+        "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+        "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+        "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+        "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ]
   },
   {
     "metadata": {
@@ -21045,7 +21567,23 @@ const MASTER_ISSUERS = [
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.isbank.com.tr/en/investor-relations",
       "days_to_earnings": 42
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -21580,7 +22118,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ITTIHAD",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -22169,7 +22723,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KFH",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -22710,7 +23280,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -23245,7 +23831,23 @@ const MASTER_ISSUERS = [
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
       "days_to_earnings": 47
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -23786,7 +24388,23 @@ const MASTER_ISSUERS = [
       "call_time": "16:00 London / 11:00 EST",
       "ir_webcast_url": "https://investors.kosmosenergy.com/",
       "days_to_earnings": 46
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -24325,7 +24943,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKCEM",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -24864,7 +25498,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -25404,7 +26054,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKREN",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -25944,7 +26610,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+        "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+        "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+        "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+        "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ]
   },
   {
     "metadata": {
@@ -26479,7 +27154,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -27018,7 +27709,23 @@ const MASTER_ISSUERS = [
       "call_time": "13:00 London",
       "ir_webcast_url": "https://metinvestholding.com/en/investors",
       "days_to_earnings": 60
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -27553,7 +28260,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 London / 09:00 EST",
       "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
       "days_to_earnings": 59
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -28094,7 +28817,23 @@ const MASTER_ISSUERS = [
       "call_time": "08:00 Budapest",
       "ir_webcast_url": "https://molgroup.info/en/investor-relations",
       "days_to_earnings": 48
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -28634,7 +29373,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MTNSJ",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+        "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+        "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+        "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+        "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ]
   },
   {
     "metadata": {
@@ -29173,7 +29921,23 @@ const MASTER_ISSUERS = [
       "call_time": "15:00 Casablanca",
       "ir_webcast_url": "https://www.ocpgroup.ma/investors",
       "days_to_earnings": 62
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -29713,7 +30477,16 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+        "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+        "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+        "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+        "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ]
   },
   {
     "metadata": {
@@ -30254,7 +31027,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/OQ",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -30795,7 +31584,23 @@ const MASTER_ISSUERS = [
       "call_time": "08:00 Warsaw / 07:00 UK",
       "ir_webcast_url": "https://www.orlen.pl/en/investor-relations",
       "days_to_earnings": 40
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -31331,7 +32136,23 @@ const MASTER_ISSUERS = [
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.pegasusinvestorrelations.com",
       "days_to_earnings": 51
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -31871,7 +32692,23 @@ const MASTER_ISSUERS = [
       "call_time": "09:00 Warsaw",
       "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
       "days_to_earnings": 59
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -32410,7 +33247,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QAZGAS",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -32999,7 +33852,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QNBK",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -33588,7 +34457,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RJHI",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -34177,7 +35062,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RIBL",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -34718,7 +35619,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ROMGAZ",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -35257,7 +36174,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Riyadh / 11:00 UK",
       "ir_webcast_url": "https://www.sabic.com/en/investors",
       "days_to_earnings": 39
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -35792,7 +36725,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SAMPA",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -36333,7 +37282,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SOLSJ",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -36873,7 +37838,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SECO",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -37412,7 +38393,23 @@ const MASTER_ISSUERS = [
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.sisecam.com.tr/en/investor-relations",
       "days_to_earnings": 41
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -38001,7 +38998,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SNB",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -38545,7 +39558,16 @@ const MASTER_ISSUERS = [
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://sobhadxb.com/investor-relations",
       "days_to_earnings": 58
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
+        "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
+        "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
+        "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
+        "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+      }
+    ]
   },
   {
     "metadata": {
@@ -39086,7 +40108,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SONANG",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -39675,7 +40713,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/STANBI",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -40215,7 +41269,16 @@ const MASTER_ISSUERS = [
       "call_time": "15:30 Riyadh / 12:30 UK",
       "ir_webcast_url": "https://www.stc.com.sa/content/stc/sa/en/investor-relations.html",
       "days_to_earnings": 37
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+        "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+        "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+        "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+        "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ]
   },
   {
     "metadata": {
@@ -40755,7 +41818,23 @@ const MASTER_ISSUERS = [
       "call_time": "13:00 Abu Dhabi",
       "ir_webcast_url": "https://www.taqa.com/investors/",
       "days_to_earnings": 51
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -41294,7 +42373,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/THARISA",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -41830,7 +42925,23 @@ const MASTER_ISSUERS = [
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://investor.turkishairlines.com/en",
       "days_to_earnings": 45
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+        "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+        "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+        "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+        "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+      },
+      {
+        "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+        "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+        "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+        "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+        "deduced_from": "Debt schedule notes and capital management disclosures."
+      }
+    ]
   },
   {
     "metadata": {
@@ -42370,7 +43481,16 @@ const MASTER_ISSUERS = [
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
       "days_to_earnings": 52
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+        "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+        "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+        "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+        "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ]
   },
   {
     "metadata": {
@@ -42911,7 +44031,23 @@ const MASTER_ISSUERS = [
       "call_time": "08:30 London",
       "ir_webcast_url": "https://www.tullowoil.com/investors/",
       "days_to_earnings": 53
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -43452,7 +44588,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+        "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+        "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+        "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+        "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+      },
+      {
+        "focus_area": "State Royalty & Windfall Tax Stability",
+        "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+        "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+        "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+        "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+      }
+    ]
   },
   {
     "metadata": {
@@ -44041,7 +45193,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EXCRTU",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -44581,7 +45749,16 @@ const MASTER_ISSUERS = [
       "call_time": "18:30 Istanbul / 15:30 UK",
       "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
       "days_to_earnings": 54
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+        "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+        "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+        "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+        "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+      }
+    ]
   },
   {
     "metadata": {
@@ -45150,7 +46327,23 @@ const MASTER_ISSUERS = [
       "call_time": "14:00 Kyiv / 12:00 UK",
       "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
       "days_to_earnings": 62
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Ring-Fencing of Multilateral Donor Grants vs. Commercial Freight Working Capital",
+        "question": "Are the $240M EBRD/World Bank Western rail corridor facilities strictly ring-fenced for capital track/locomotive purchases, or can surplus funds be fungibly deployed toward operational fuel, electricity, and rolling stock maintenance to preserve commercial liquidity?",
+        "relevance": "Ukraine Rail reported positive EBITDA in 2023-2024 primarily due to $195M in donor grant recognition. If multilateral lenders mandate strict project-specific escrow accounts, that cash cannot be touched to service commercial liabilities or bridge domestic freight receivables.",
+        "conviction_trigger": "If operational fungibility is permitted, default risk on commercial bank lines drops dramatically. If strictly ring-fenced, desk must evaluate the credit purely on domestic cash freight margins without grant subsidies.",
+        "deduced_from": "EBITDA reconciliation divergence analysis (+18.5% variance) between reported and calculated cash metrics."
+      },
+      {
+        "focus_area": "Commercial Debt Moratorium Exit Strategy & Seniority Ranking",
+        "question": "Following Ukraine's sovereign Eurobond restructuring, what specific framework is being discussed with the Ad Hoc Creditor Committee for the 2026 and 2028 Eurobonds? Will Ukrzaliznytsia seek a standalone state guarantee or a coupon step-up tied to Black Sea freight volume recovery?",
+        "relevance": "Eurobonds currently trade in the 60-70 context reflecting moratorium extensions. Understanding whether management intends to treat commercial bondholders pari passu with multilateral lenders or demand principal haircuts dictates recovery valuation.",
+        "conviction_trigger": "Confirmation of no principal haircut and coupon resumption tied to freight index raises recovery target to 75-80 cents.",
+        "deduced_from": "Sovereign restructuring documentation and historical corporate-sovereign debt linkage."
+      }
+    ]
   },
   {
     "metadata": {
@@ -45739,7 +46932,23 @@ const MASTER_ISSUERS = [
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
       "days_to_earnings": 48
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -46328,7 +47537,23 @@ const MASTER_ISSUERS = [
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.yapikrediinvestorrelations.com",
       "days_to_earnings": 40
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "Stage 2 Loan Migration & Restructured Corporate Exposures",
+        "question": "What proportion of Stage 2 watch-list loans represent restructured corporate exposures, and what is the specific cash recovery rate on collateral upon foreclosure under current local court procedures?",
+        "relevance": "Reported NPL ratios often mask asset quality stress through maturity extensions. Stage 2 loans are the true indicator of future provisioning spikes that erode Common Equity Tier 1 (CET1) capital.",
+        "conviction_trigger": "Stage 2 coverage >25% and stable migration rates confirm balance sheet resilience.",
+        "deduced_from": "IFRS 9 staging matrix footnotes and credit risk disclosure tables."
+      },
+      {
+        "focus_area": "Foreign Currency Liquidity Coverage & Wholesale Refinancing Roll Rates",
+        "question": "What is the bank's net foreign currency liquidity buffer in unencumbered Nostro balances, and what roll-rates were achieved on syndicated loan / bilateral loan facilities over the past 6 months?",
+        "relevance": "Emerging market banks face acute dollar refinancing risk when global liquidity tightens. High roll-rates confirm institutional counterparty confidence.",
+        "conviction_trigger": "Roll-rates exceeding 100% with tighter pricing spreads indicate strong market access.",
+        "deduced_from": "Disclosures on syndicated borrowings and maturity breakdown of assets and liabilities."
+      }
+    ]
   },
   {
     "metadata": {
@@ -46926,6 +48151,29 @@ const MASTER_ISSUERS = [
       "call_time": "18:00 Istanbul (Post-Market)",
       "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
       "days_to_earnings": 48
-    }
+    },
+    "management_questions": [
+      {
+        "focus_area": "YEKDEM Dollar Conversion & Central Bank FX Surrender Lag",
+        "question": "Can you provide the exact operational mechanics and timeline for converting TRY electricity sales into hard-currency USD under the YEKDEM mechanism? Specifically, does Zorlu face any repatriation friction or mandatory central bank surrender ratios that delay offshore debt service on the 2026 Eurobonds?",
+        "relevance": "Public disclosures state YEKDEM is dollar-denominated ($132/MWh for Kizildere), but initial billing is settled in Turkish Lira through EPAS. If there is a 30-60 day conversion lag during sharp TRY devaluations, dollar cash generation suffers hidden margin erosion that is not evident in annual IFRS figures.",
+        "conviction_trigger": "If management confirms immediate daily FX spot conversion rights without Central Bank friction, our conviction in the 2026 cash flow coverage rises to High (maintain Overweight). If conversions face weekly quotas, widen fair value spread by +45 bps.",
+        "deduced_from": "Deduced from the $18.5M FX provision add-back in 2024 P&L and discrepancy between headline revenues and cash collected."
+      },
+      {
+        "focus_area": "Dorad Energy (Israel) Dividend Repatriation & Legal Insulation",
+        "question": "Given ongoing Middle East geopolitical tensions, what is the exact legal status of dividend distributions from Dorad Energy (in which Zorlu holds a 25% stake)? Are cash flows currently being remitted to Istanbul, and are there any debt cross-default provisions if Dorad were to suspend distributions?",
+        "relevance": "Zorlu regularly adds back equity income from Dorad Energy into reported EBITDA ($12M-$18M annually). If geopolitical friction halts cross-border cash remittances, desk Calculated EBITDA is the only true liquidity anchor and debt service coverage tightens from 2.3x to 1.85x.",
+        "conviction_trigger": "Verification that Dorad cash dividends are ring-fenced and non-recourse to parent debt supports credit stability. If parent is required to inject equity or collateral, trigger Underweight recommendation.",
+        "deduced_from": "Deduced from recurring other operating income line items and equity method investee disclosures in 2023-2024 annual footnotes."
+      },
+      {
+        "focus_area": "OEDAS Regulated Asset Base (RAB) Inflation Indexation Schedule",
+        "question": "For the OEDAS electricity distribution business, what is the exact regulatory lag before EMRA (EPDK) adjusts distribution tariffs for 2025-2026 CPI inflation, and what percentage of the $650M RAB capex is pre-funded through government reimbursement schemes?",
+        "relevance": "Distribution provides Zorlu's domestic cash anchor (~35% of EBITDA). A regulatory lag exceeding 6 months during 40%+ inflation periods creates severe working capital drains that absorb operating cash before debt service.",
+        "conviction_trigger": "Quarterly indexation confirmation confirms debt service resilience. Annual lagging indexation indicates negative FCF in high-inflation quarters.",
+        "deduced_from": "Working capital fluctuations in 2022-2024 cash flow statements."
+      }
+    ]
   }
 ];

@@ -565,5 +565,21 @@
     "call_time": "14:00 Kyiv / 12:00 UK",
     "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
     "days_to_earnings": 62
-  }
+  },
+  "management_questions": [
+    {
+      "focus_area": "Ring-Fencing of Multilateral Donor Grants vs. Commercial Freight Working Capital",
+      "question": "Are the $240M EBRD/World Bank Western rail corridor facilities strictly ring-fenced for capital track/locomotive purchases, or can surplus funds be fungibly deployed toward operational fuel, electricity, and rolling stock maintenance to preserve commercial liquidity?",
+      "relevance": "Ukraine Rail reported positive EBITDA in 2023-2024 primarily due to $195M in donor grant recognition. If multilateral lenders mandate strict project-specific escrow accounts, that cash cannot be touched to service commercial liabilities or bridge domestic freight receivables.",
+      "conviction_trigger": "If operational fungibility is permitted, default risk on commercial bank lines drops dramatically. If strictly ring-fenced, desk must evaluate the credit purely on domestic cash freight margins without grant subsidies.",
+      "deduced_from": "EBITDA reconciliation divergence analysis (+18.5% variance) between reported and calculated cash metrics."
+    },
+    {
+      "focus_area": "Commercial Debt Moratorium Exit Strategy & Seniority Ranking",
+      "question": "Following Ukraine's sovereign Eurobond restructuring, what specific framework is being discussed with the Ad Hoc Creditor Committee for the 2026 and 2028 Eurobonds? Will Ukrzaliznytsia seek a standalone state guarantee or a coupon step-up tied to Black Sea freight volume recovery?",
+      "relevance": "Eurobonds currently trade in the 60-70 context reflecting moratorium extensions. Understanding whether management intends to treat commercial bondholders pari passu with multilateral lenders or demand principal haircuts dictates recovery valuation.",
+      "conviction_trigger": "Confirmation of no principal haircut and coupon resumption tied to freight index raises recovery target to 75-80 cents.",
+      "deduced_from": "Sovereign restructuring documentation and historical corporate-sovereign debt linkage."
+    }
+  ]
 }

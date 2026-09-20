@@ -535,5 +535,21 @@
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
     "days_to_earnings": 54
-  }
+  },
+  "management_questions": [
+    {
+      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+    },
+    {
+      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+      "deduced_from": "Debt schedule notes and capital management disclosures."
+    }
+  ]
 }

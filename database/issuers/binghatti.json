@@ -551,5 +551,14 @@
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
     "days_to_earnings": 54
-  }
+  },
+  "management_questions": [
+    {
+      "focus_area": "Off-Plan Default Rates & Secondary Market Resale Absorption",
+      "question": "What percentage of off-plan buyers have defaulted or requested payment rescheduling on their second and third installments, and what is the secondary market price differential versus original launch prices?",
+      "relevance": "High initial booking numbers can be misleading if speculative buyers cannot fund subsequent construction installments.",
+      "conviction_trigger": "Default rate <3% and secondary prices >10% above launch validate real end-user demand.",
+      "deduced_from": "Customer advance balances and cancellation provisions in annual reports."
+    }
+  ]
 }

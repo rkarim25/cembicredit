@@ -536,5 +536,14 @@
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
     "days_to_earnings": 54
-  }
+  },
+  "management_questions": [
+    {
+      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+    }
+  ]
 }
