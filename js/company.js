@@ -645,7 +645,8 @@ function renderModelSpreadsheet() {
           const isNeg = (typeof val === 'number' && val < 0);
           const negColorClass = isNeg ? 'style="color:#f87171;"' : '';
 
-          bHtml += `<td class="${isAct} ${hlClass} ${hasNote}" ${negColorClass} data-coord="${coord}" data-metric="${r.key}" data-period="${p}" onclick="selectModelCell('${coord}', '${r.key}', '${p}')">${displayStr}</td>`;
+          const noteTitle = notes[coord] ? `💬 Comment: ${escapeHtml(notes[coord])}` : 'Right-click to inspect comments, formula & broker estimates';
+          bHtml += `<td class="${isAct} ${hlClass} ${hasNote}" ${negColorClass} data-coord="${coord}" data-metric="${r.key}" data-period="${p}" title="${noteTitle}" onclick="selectModelCell('${coord}', '${r.key}', '${p}')" oncontextmenu="handleCellContextMenu(event, '${coord}', '${r.key}', '${p}')">${displayStr}</td>`;
         });
         bHtml += `</tr>`;
       });
@@ -745,13 +746,16 @@ function renderModelSpreadsheet() {
         const isNegativeVal = (typeof val === 'number' && val < 0);
         const negColorClass = (isNegativeVal && (r.key === 'fcf' || r.key === 'operating_profit')) ? 'style="color:#f87171 !important; font-weight:700;"' : '';
 
+        const noteTitle = notes[coord] ? `💬 Comment: ${escapeHtml(notes[coord])}` : 'Right-click to inspect comments, formula & broker estimates';
         html += `
           <td class="${isAct} ${hlClass} ${hasNote}" 
               ${negColorClass}
               data-coord="${coord}" 
               data-metric="${r.key}" 
               data-period="${p}"
-              onclick="selectModelCell('${coord}', '${r.key}', '${p}')">
+              title="${noteTitle}"
+              onclick="selectModelCell('${coord}', '${r.key}', '${p}')"
+              oncontextmenu="handleCellContextMenu(event, '${coord}', '${r.key}', '${p}')">
             ${displayStr}
           </td>
         `;
@@ -981,16 +985,339 @@ function getStoredNotes(ticker) {
 }
 function promptAddCellComment() {
   const m = currentIssuer.metadata;
+  openCellContextMenu(window.innerWidth / 2 - 220, 200, activeSelectedCell.coord, activeSelectedCell.metric, activeSelectedCell.period);
+}
+
+// ================= RIGHT-CLICK DATA CONTEXT MENU & COMMENT ENGINE =================
+let activeContextMenuCoord = null;
+let activeContextMenuMetric = null;
+let activeContextMenuPeriod = null;
+
+function handleCellContextMenu(e, coord, metricKey, period) {
+  e.preventDefault();
+  e.stopPropagation();
+
+  // Select the cell
+  selectModelCell(coord, metricKey, period);
+
+  // Open context menu at mouse position
+  openCellContextMenu(e.clientX, e.clientY, coord, metricKey, period);
+}
+
+function openCellContextMenu(clientX, clientY, coord, metricKey, period) {
+  activeContextMenuCoord = coord;
+  activeContextMenuMetric = metricKey;
+  activeContextMenuPeriod = period;
+
+  let menu = document.getElementById('credit-cell-context-menu');
+  if (!menu) {
+    menu = document.createElement('div');
+    menu.id = 'credit-cell-context-menu';
+    menu.className = 'credit-context-menu';
+    document.body.appendChild(menu);
+  }
+
+  const meta = getForecastAuditMetadata(currentIssuer, metricKey, period);
+  const m = currentIssuer.metadata;
   const notes = getStoredNotes(m.ticker);
-  const current = notes[activeSelectedCell.coord] || '';
-  const text = prompt(`Enter custom comment for Cell ${activeSelectedCell.coord} (${activeSelectedCell.metric.toUpperCase()} - ${activeSelectedCell.period}):`, current);
-  if (text !== null) {
-    if (!text.trim()) delete notes[activeSelectedCell.coord];
-    else notes[activeSelectedCell.coord] = text.trim();
-    localStorage.setItem('cembicredit_notes_' + m.ticker, JSON.stringify(notes));
-    renderModelSpreadsheet();
+  const cellNote = notes[coord] || '';
+  const highlights = getStoredHighlights(m.ticker);
+
+  const f = (currentIssuer.financials_multi_year || []).find(x => x.period === period) || {};
+  const currentVal = getMetricVal(f, metricKey, period);
+  const displayVal = formatMetricDisplay(currentVal, {
+    isPct: metricKey.endsWith('_pct'),
+    isRatio: metricKey.includes('leverage') || metricKey.includes('coverage')
+  });
+
+  // Desk observations from audited filings
+  const deskObs = f.observations ? f.observations[metricKey] : null;
+
+  // Broker coverage for this period/metric (e.g. 2025E)
+  const brokers = currentIssuer.broker_snapshots || [];
+  const brokerEstimates = [];
+  brokers.forEach(b => {
+    const pModel = (b.audited_model && b.audited_model[period]) || (b.raw_model && b.raw_model[period]);
+    if (pModel && pModel[metricKey] !== undefined) {
+      brokerEstimates.push({
+        broker: b.broker,
+        analyst: b.analyst,
+        val: pModel[metricKey],
+        isError: (b.errors_caught || []).some(err => err.field === metricKey && err.period === period)
+      });
+    }
+  });
+
+  // Build Context Menu HTML
+  menu.innerHTML = `
+    <div class="cm-header">
+      <div>
+        <div class="cm-title">
+          <span>Cell ${coord} &bull; ${meta.metricTitle}</span>
+          <span class="badge badge-${meta.badgeType}" style="font-size:10px; margin-left:6px;">${meta.badgeText}</span>
+        </div>
+        <div style="font-size:11px; color:#94a3b8; margin-top:2px;">
+          ${period} Period &bull; Value: <strong style="color:${currentVal < 0 ? '#f87171' : '#34d399'};">${displayVal}</strong>
+        </div>
+      </div>
+      <button class="cm-close" onclick="closeCellContextMenu()">&times;</button>
+    </div>
+
+    <div class="cm-tabs">
+      <button class="cm-tab active" data-cmpane="cm-pane-comments" onclick="switchContextPane('cm-pane-comments')">
+        💬 Comments (${cellNote ? '1' : '0'})
+      </button>
+      <button class="cm-tab" data-cmpane="cm-pane-audit" onclick="switchContextPane('cm-pane-audit')">
+        🔍 Formula &amp; Audit
+      </button>
+      <button class="cm-tab" data-cmpane="cm-pane-brokers" onclick="switchContextPane('cm-pane-brokers')">
+        📑 Brokers (${brokerEstimates.length})
+      </button>
+      <button class="cm-tab" data-cmpane="cm-pane-whatif" onclick="switchContextPane('cm-pane-whatif')">
+        🧪 What-If Plug
+      </button>
+    </div>
+
+    <div class="cm-body">
+      <!-- PANE 1: COMMENTS & NOTES -->
+      <div class="cm-pane active" id="cm-pane-comments">
+        ${deskObs ? `
+          <div style="background:rgba(245,158,11,0.08); border-left:3px solid #f59e0b; border-radius:4px; padding:8px 10px; margin-bottom:10px; font-size:11px; line-height:1.4;">
+            <strong style="color:#fbbf24;">Audited Filing Footnote:</strong> ${escapeHtml(deskObs)}
+          </div>
+        ` : ''}
+
+        <div style="margin-bottom:6px; font-size:11px; font-weight:600; color:#cbd5e1;">
+          Custom Analyst Comment / Diligence Note:
+        </div>
+        <textarea id="cm-note-input" class="cm-textarea" placeholder="Record cell-specific credit comment, thesis note, or Preply inquiry...">${escapeHtml(cellNote)}</textarea>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:10px;">
+          <button onclick="clearCellNote('${coord}')" class="btn-action" style="padding:4px 10px; font-size:11px; background:#1e293b; color:#94a3b8;">
+            🗑️ Clear Note
+          </button>
+          <button onclick="saveCellNoteFromMenu('${coord}')" class="btn-action btn-gold" style="padding:5px 14px; font-size:11px; font-weight:700;">
+            💾 Save Comment
+          </button>
+        </div>
+      </div>
+
+      <!-- PANE 2: FORMULA & AUDIT TRACE -->
+      <div class="cm-pane" id="cm-pane-audit">
+        <div style="font-size:11px; color:#94a3b8; margin-bottom:6px;">Calculation Formula / Precedents:</div>
+        <div style="background:#080f1e; border:1px solid #1e293b; border-radius:6px; padding:8px 10px; font-family:'JetBrains Mono', monospace; font-size:11px; color:#38bdf8; margin-bottom:12px;">
+          ${escapeHtml(meta.formula || `=${coord}`)}
+        </div>
+
+        <div style="font-size:11px; color:#cbd5e1; line-height:1.5; margin-bottom:10px;">
+          <strong style="color:#fff;">Audit Observation:</strong> ${escapeHtml(meta.commentary || 'Calculated line item.')}
+        </div>
+
+        <div style="font-size:11px; color:#94a3b8; border-top:1px solid #1e293b; padding-top:8px;">
+          <strong>Ground-Truth Source:</strong> ${escapeHtml(meta.source || 'Audited Financial Statements')}
+        </div>
+      </div>
+
+      <!-- PANE 3: BROKER VARIANCE & DISPERSION -->
+      <div class="cm-pane" id="cm-pane-brokers">
+        ${brokerEstimates.length === 0 ? `
+          <div style="color:var(--text-dim); font-size:12px; text-align:center; padding:16px;">
+            No individual broker models broken out for this historical period.
+          </div>
+        ` : `
+          <div style="font-size:11px; color:#94a3b8; margin-bottom:8px;">
+            Sell-side estimates for <strong>${meta.metricTitle} (${period})</strong>:
+          </div>
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            ${brokerEstimates.map(be => `
+              <div style="display:flex; justify-content:space-between; align-items:center; background:#080f1e; padding:8px 10px; border-radius:6px; border:1px solid ${be.isError ? '#ef4444' : '#1e293b'};">
+                <div>
+                  <div style="font-weight:700; color:#fff; font-size:11px;">${escapeHtml(be.broker)}</div>
+                  <div style="font-size:10px; color:#94a3b8;">${escapeHtml(be.analyst)}</div>
+                </div>
+                <div style="text-align:right;">
+                  <div style="font-family:'JetBrains Mono',monospace; font-weight:700; color:${be.val < 0 ? '#f87171' : '#34d399'}; font-size:12px;">
+                    ${formatMetricDisplay(be.val, { isPct: metricKey.endsWith('_pct') })}
+                  </div>
+                  ${be.isError ? '<span style="font-size:9px; color:#ef4444; font-weight:700;">⚠️ Mistake Reconciled</span>' : '<span style="font-size:9px; color:#10b981;">✓ Tied Out</span>'}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        `}
+      </div>
+
+      <!-- PANE 4: WHAT-IF SENSITIVITY TEST -->
+      <div class="cm-pane" id="cm-pane-whatif">
+        <div style="font-size:11px; color:#94a3b8; margin-bottom:8px;">
+          Override this cell with a custom stress value to evaluate sensitivity:
+        </div>
+        <div style="display:flex; gap:8px; margin-bottom:12px;">
+          <input type="number" step="0.1" id="cm-whatif-val" placeholder="Stress value" value="${currentVal !== null ? currentVal : ''}" style="flex:1; background:#111a2e; border:1px solid #23334d; color:#fff; padding:6px 10px; border-radius:6px; font-size:12px;">
+          <button onclick="applyWhatIfTest('${metricKey}', '${period}')" class="btn-action btn-gold" style="padding:6px 12px; font-size:11px; font-weight:700;">
+            ⚡ Run Test
+          </button>
+        </div>
+        <div id="cm-whatif-result" style="font-size:11px; color:#cbd5e1; background:#080f1e; padding:10px; border-radius:6px; border:1px solid #1e293b;">
+          Enter a value above and click 'Run Test' to observe immediate impact on FCF conversion and Net Leverage.
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Action Bar -->
+    <div class="cm-footer">
+      <div class="cm-hl-palette" title="Flag cell with highlight color">
+        <span style="font-size:10px; color:#94a3b8; margin-right:2px;">Highlight:</span>
+        <div class="cm-hl-dot cm-hl-yellow" onclick="setCellHighlight('${coord}', 'hl-yellow')" title="Flag for Review (Yellow)"></div>
+        <div class="cm-hl-dot cm-hl-green" onclick="setCellHighlight('${coord}', 'hl-green')" title="Verified / Strong (Green)"></div>
+        <div class="cm-hl-dot cm-hl-amber" onclick="setCellHighlight('${coord}', 'hl-amber')" title="Critical / Stress (Red)"></div>
+        <div class="cm-hl-dot cm-hl-cyan" onclick="setCellHighlight('${coord}', 'hl-cyan')" title="Guidance Focus (Cyan)"></div>
+        <div class="cm-hl-dot cm-hl-clear" onclick="setCellHighlight('${coord}', '')" title="Clear Highlight"></div>
+      </div>
+
+      <div style="display:flex; gap:6px;">
+        <button onclick="copyCellVal('${displayVal}')" class="btn-action" style="padding:4px 8px; font-size:10.5px;" title="Copy value to clipboard">
+          📋 Copy
+        </button>
+        <button onclick="pinCellToNotes('${coord}', '${meta.metricTitle}', '${period}', '${displayVal}')" class="btn-action" style="padding:4px 8px; font-size:10.5px; background:rgba(59,130,246,0.15); color:#93c5fd; border-color:#3b82f6;" title="Pin to research notes">
+          📌 Pin
+        </button>
+      </div>
+    </div>
+  `;
+
+  menu.style.display = 'block';
+
+  // Smart Collision Positioning
+  const menuWidth = 440;
+  const menuHeight = 440;
+  let left = clientX + 12;
+  let top = clientY + 12;
+
+  if (left + menuWidth > window.innerWidth) {
+    left = clientX - menuWidth - 12;
+  }
+  if (top + menuHeight > window.innerHeight) {
+    top = clientY - menuHeight - 12;
+  }
+  if (left < 10) left = 10;
+  if (top < 10) top = 10;
+
+  menu.style.left = `${left}px`;
+  menu.style.top = `${top}px`;
+}
+
+function closeCellContextMenu() {
+  const menu = document.getElementById('credit-cell-context-menu');
+  if (menu) menu.style.display = 'none';
+}
+
+function switchContextPane(paneId) {
+  document.querySelectorAll('.cm-tab').forEach(t => {
+    t.classList.toggle('active', t.getAttribute('data-cmpane') === paneId);
+  });
+  document.querySelectorAll('.cm-pane').forEach(p => {
+    p.classList.toggle('active', p.id === paneId);
+  });
+}
+
+function saveCellNoteFromMenu(coord) {
+  const text = document.getElementById('cm-note-input').value.trim();
+  const m = currentIssuer.metadata;
+  const notes = getStoredNotes(m.ticker);
+
+  if (!text) {
+    delete notes[coord];
+  } else {
+    notes[coord] = text;
+  }
+
+  localStorage.setItem('cembicredit_notes_' + m.ticker, JSON.stringify(notes));
+  renderModelSpreadsheet();
+  closeCellContextMenu();
+}
+
+function clearCellNote(coord) {
+  const m = currentIssuer.metadata;
+  const notes = getStoredNotes(m.ticker);
+  delete notes[coord];
+  localStorage.setItem('cembicredit_notes_' + m.ticker, JSON.stringify(notes));
+  renderModelSpreadsheet();
+  closeCellContextMenu();
+}
+
+function setCellHighlight(coord, hlClass) {
+  const m = currentIssuer.metadata;
+  const map = getStoredHighlights(m.ticker);
+  if (!hlClass) delete map[coord];
+  else map[coord] = hlClass;
+  localStorage.setItem('cembicredit_highlights_' + m.ticker, JSON.stringify(map));
+  renderModelSpreadsheet();
+}
+
+function copyCellVal(val) {
+  navigator.clipboard.writeText(val).then(() => {
+    alert(`Copied ${val} to clipboard!`);
+  });
+}
+
+function pinCellToNotes(coord, metricTitle, period, val) {
+  const noteText = `[DATA PIN] Cell ${coord} • ${metricTitle} (${period}) = ${val}\nPinned for investment committee review.`;
+  const notes = getStoredUserNotes();
+  notes.unshift({
+    id: 'pin_' + Date.now(),
+    text: noteText,
+    category: 'model',
+    createdAt: new Date().toISOString(),
+    pinned: true
+  });
+  saveStoredUserNotes(notes);
+  renderUserNotes();
+  alert(`Pinned Cell ${coord} (${metricTitle}: ${val}) to My Notes & Comments!`);
+}
+
+function applyWhatIfTest(metricKey, period) {
+  const val = parseFloat(document.getElementById('cm-whatif-val').value);
+  const resultDiv = document.getElementById('cm-whatif-result');
+  if (isNaN(val)) {
+    resultDiv.textContent = 'Please enter a valid numeric value to test.';
+    return;
+  }
+  const f = (currentIssuer.financials_multi_year || []).find(x => x.period === period) || {};
+  const baseEb = f.calculated_ebitda || f.ebitda || 1;
+  const baseNd = f.net_debt || 0;
+
+  if (metricKey === 'ebitda' || metricKey === 'calculated_ebitda') {
+    const newLev = (baseNd / val).toFixed(2);
+    resultDiv.innerHTML = `
+      <div><strong>EBITDA Stress Result (${period}):</strong></div>
+      <div>Tested EBITDA: <strong>$${val.toFixed(1)}M</strong></div>
+      <div>Implied Net Leverage: <strong style="color:#fbbf24;">${newLev}x</strong> (vs current ${(baseNd / baseEb).toFixed(2)}x)</div>
+    `;
+  } else if (metricKey === 'capex') {
+    const diff = Math.abs(val) - Math.abs(f.capex || 0);
+    const newFcf = (f.fcf || 0) - diff;
+    resultDiv.innerHTML = `
+      <div><strong>Capex Stress Result (${period}):</strong></div>
+      <div>Tested Capex: <strong>-$${Math.abs(val).toFixed(1)}M</strong></div>
+      <div>Implied FCF: <strong style="color:${newFcf < 0 ? '#f87171' : '#34d399'};">${newFcf < 0 ? `($${Math.abs(newFcf).toFixed(1)}M)` : `$${newFcf.toFixed(1)}M`}</strong></div>
+    `;
+  } else {
+    resultDiv.innerHTML = `Tested override of ${metricKey} to <strong>${val.toFixed(1)}</strong> logged for sensitivity review.`;
   }
 }
+
+// Global click dismiss for context menu
+document.addEventListener('click', (e) => {
+  const menu = document.getElementById('credit-cell-context-menu');
+  if (menu && menu.style.display !== 'none' && !menu.contains(e.target)) {
+    closeCellContextMenu();
+  }
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeCellContextMenu();
+});
 
 // ----------------- TAB 2: MY NOTES & COMMENTS SYSTEM -----------------
 function getUserNotesKey() {
