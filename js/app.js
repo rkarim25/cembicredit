@@ -224,7 +224,7 @@ function renderTable() {
     else if (m.rating.includes("CCC") || m.rating.includes("D") || m.spread_bp >= 700) ratingBadge = "badge-stress";
     
     let html = `
-      <td style="white-space:nowrap;"><strong>${m.ticker}</strong><button id="btn-model-${m.id}" class="btn-action" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Interactive Web Model in Browser" style="font-size:10px; padding:1px 5px; margin-left:6px; background:rgba(245,158,11,0.18); border:1px solid #f59e0b; color:#fbbf24; border-radius:3px; cursor:pointer; font-weight:700;">⚡ Model</button></td>
+      <td style="white-space:nowrap;"><strong>${m.ticker}</strong><button id="btn-model-${m.id}" class="btn-action" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Model" style="font-size:10px; padding:1px 5px; margin-left:6px; background:rgba(245,158,11,0.18); border:1px solid #f59e0b; color:#fbbf24; border-radius:3px; cursor:pointer; font-weight:700;">⚡ Model</button></td>
       <td>
       <a href="javascript:void(0)" onclick="toggleRowExpand('${m.id}')" style="font-weight:600;">${m.name}</a>
       ${(() => {
@@ -272,10 +272,10 @@ function renderTable() {
     
     html += `
       <td style="text-align:center; white-space:nowrap;">
-        <button class="btn-action btn-gold" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Interactive Web Model in Browser" style="font-size:11px; padding:3px 8px; font-weight:700; margin-right:4px; background:rgba(245,158,11,0.18); border-color:#f59e0b; color:#fbbf24; cursor:pointer;">
+        <button class="btn-action btn-gold" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Model" style="font-size:11px; padding:3px 8px; font-weight:700; margin-right:4px; background:rgba(245,158,11,0.18); border-color:#f59e0b; color:#fbbf24; cursor:pointer;">
           ⚡ Model
         </button>
-        <a class="btn-action" href="${m.github_model_url}" target="_blank" title="Download Full Institutional Excel Model (.xlsx)" style="font-size:11px; padding:3px 7px; border-color:#334155; color:#94a3b8;">
+        <a class="btn-action" href="${m.github_model_url}" target="_blank" title="Download Excel Model (.xlsx)" style="font-size:11px; padding:3px 7px; border-color:#334155; color:#94a3b8;">
           📥 .xlsx
         </a>
       </td>
@@ -333,10 +333,10 @@ function renderTable() {
             </div>
             
             <div class="drawer-actions">
-              <button class="btn-action btn-gold" onclick="openInstitutionalModel('${m.id}')" title="Open Full-Screen Interactive Web Model" style="background:var(--accent-blue); border-color:var(--accent-blue); color:#fff; font-weight:700;">
-                ⚡ Open Interactive Web Model
+              <button class="btn-action btn-gold" onclick="openInstitutionalModel('${m.id}')" title="Open Financial Model" style="background:var(--accent-blue); border-color:var(--accent-blue); color:#fff; font-weight:700;">
+                ⚡ Open Financial Model
               </button>
-              <a href="${m.github_model_url}" class="btn-action btn-gold" download title="Download Full Institutional Excel Model (.xlsx)">
+              <a href="${m.github_model_url}" class="btn-action btn-gold" download title="Download Excel Model (.xlsx)">
                 📥 Download Excel (.xlsx)
               </a>
               ${m.notion_id ? `
@@ -393,7 +393,7 @@ function renderTable() {
                 <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                   📝 Line-by-Line Period Observations & Operational Variance Drivers
                 </h4>
-                <span class="badge badge-ig">Institutional Desk Verified</span>
+                <span class="badge badge-ig">Desk Verified</span>
               </div>
               <div style="overflow-x:auto;">
                 <table class="drawer-table" style="margin:0; font-size:11px;">
@@ -462,7 +462,7 @@ function renderTable() {
                       <td><strong>${f.period}</strong></td>
                       <td>
                         <span class="badge" style="font-size:10px; background:${f.is_audited ? 'rgba(16,185,129,0.15)' : 'rgba(59,130,246,0.15)'}; color:${f.is_audited ? '#10b981' : '#3b82f6'};">
-                          ${f.is_audited ? 'Audited IFRS' : 'Institutional Forecast'}
+                          ${f.is_audited ? 'Audited IFRS' : 'Forecast'}
                         </span>
                       </td>
                       ${currentView === 'corp' ? `
@@ -498,7 +498,7 @@ function renderTable() {
               </table>
             </div>
             <div style="margin-top:10px; font-size:11px; color:var(--text-dim); display:flex; justify-content:space-between;">
-              <span>Source: Audited Annual Reports (IFRS) / Company Disclosures / Institutional Consensus Projections</span>
+              <span>Source: Audited Annual Reports (IFRS) / Company Disclosures / Consensus Projections</span>
               <span>All figures in USD Millions unless otherwise stated.</span>
             </div>
 
@@ -1231,7 +1231,7 @@ function renderTable() {
                   Audit past baseline guidance against current actual run-rates and interrogate non-public structural credit risks for ${m.name} (${m.ticker})
                 </div>
               </div>
-              <span class="badge badge-ig">Institutional Due Diligence</span>
+              <span class="badge badge-ig">Due Diligence</span>
             </div>
 
             <!-- SECTION I: PRIOR MANAGEMENT GUIDANCE & VERIFICATION AUDIT -->
@@ -1311,7 +1311,7 @@ function renderTable() {
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
               <div>
                 <h4 style="color:var(--accent-gold); font-size:13px; margin:0; text-transform:uppercase;">
-                  🎯 Institutional Management Questions & Conviction Drivers
+                  🎯 Management Diligence Questions & Conviction Drivers
                 </h4>
                 <div style="font-size:11px; color:#94a3b8; margin-top:2px;">
                   High-conviction questions for CFO/Treasurer calls targeting deduced structural risks, unannounced policies, and conviction triggers for ${m.name} (${m.ticker})
@@ -1547,7 +1547,7 @@ function setTrendMode(mode) {
     if (subtextElem) subtextElem.textContent = "Multi-period market snapshots tracking rating drift, secondary spreads, bond pricing, and guidance status.";
   } else {
     if (titleElem) titleElem.textContent = "Multi-Period Financial Statement Trajectory (2021A - 2027E)";
-    if (subtextElem) subtextElem.textContent = "Data spans 2021A - 2027E (Historical Audited Statements + Institutional Projections).";
+    if (subtextElem) subtextElem.textContent = "Data spans 2021A - 2027E (Audited Financials + Consensus Projections).";
   }
 
   populateMetricOptions();
@@ -1719,7 +1719,7 @@ function renderTrendChart() {
               } else {
                 const pIdx = items[0].dataIndex;
                 const per = labels[pIdx];
-                return "\n" + (per.includes("A") ? "[Audited Financials]" : "[Institutional Forecast]");
+                return "\n" + (per.includes("A") ? "[Audited Financials]" : "[Forecast]");
               }
               return "";
             }
@@ -1898,7 +1898,7 @@ function renderNewsModalContent() {
       <div style="padding:16px 20px; background:#111a2b; border-bottom:1px solid #1e2d45; display:flex; justify-content:space-between; align-items:center;">
         <div style="display:flex; align-items:center; gap:12px;">
           <h3 style="margin:0; font-size:15px; color:var(--accent-gold); text-transform:uppercase; letter-spacing:0.5px;">
-            📰 Institutional Credit & Macro News Feed
+            📰 Credit & Macro News Feed
           </h3>
           <span class="badge badge-ig">${filtered.length} of ${allNews.length} Catalysts</span>
           <span style="font-size:11px; color:#94a3b8;">Click any issuer pill to open full credit model</span>
@@ -2350,7 +2350,7 @@ function renderSheetSummary(item) {
     <!-- Executive Summary Credit Thesis -->
     <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:8px; padding:18px; margin-bottom:20px;">
       <h3 style="color:var(--accent-gold); font-size:13.5px; margin:0 0 10px 0; text-transform:uppercase;">
-        🏛️ Institutional Desk Credit Thesis & Structural Profile
+        🏛️ Credit Thesis & Capital Structure Profile
       </h3>
       <p style="color:#cbd5e1; font-size:12.5px; line-height:1.6; margin:0 0 12px 0;">
         ${rec.thesis || `${m.name} (${m.ticker}) is a leading ${m.country} ${m.sector} issuer benchmarked via ${m.benchmark_bond}. The desk model maintains strict dual EBITDA tracking reconciling management reported numbers to calculated cash generation.`}
@@ -2770,7 +2770,7 @@ function renderSheetMgmtQuestions(item) {
   return `
     <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:16px;">
       <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">
-        🎯 Institutional Management Questions & Structural Conviction Drivers
+        🎯 Management Diligence Questions & Conviction Drivers
       </h4>
       <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:14px;">
         ${qList.map(q => `
