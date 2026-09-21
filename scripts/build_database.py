@@ -37,6 +37,8 @@ def compile_all():
     with open(WEB_DATA_PATH, "w", encoding="utf-8") as f:
         f.write("const MASTER_ISSUERS = " + json.dumps(issuers, indent=2, ensure_ascii=False) + ";\n")
         f.write("const MASTER_ANNOTATIONS = " + json.dumps(annotations, indent=2, ensure_ascii=False) + ";\n")
+        all_map = {doc["metadata"]["id"]: doc for doc in issuers}
+        f.write("window.CEMBI_DATA = " + json.dumps(all_map, indent=2, ensure_ascii=False) + ";\n")
         
     # SQLite
     if os.path.exists(DB_PATH): os.remove(DB_PATH)

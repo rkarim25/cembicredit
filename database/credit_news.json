@@ -1,5 +1,24 @@
 [
   {
+    "id": "NEWS-2026-09-CIMKOC-01",
+    "date": "2026-09-21",
+    "ticker": "CIMKOC",
+    "issuer_name": "Çimko Çimento",
+    "headline": "Çimko Çimento (CIMKOC) 2Q26 results: EBITDA -24% yoy to TRY 2,066mn (margin 31.2%); Net leverage rises to 2.3x (YE26E 2.5-3.0x); J.P. Morgan remains OW CIMKOC 30s",
+    "source": "J.P. Morgan Credit Research",
+    "url": "https://app.notion.com/p/3e21d0ad68c681c39b09cd72a8ecc96e",
+    "category": "Corporate Earnings / Relative Value",
+    "macro_transmission_channel": "Turkish Construction Normalisation, Hard Currency Cement Pricing & Syria Moat",
+    "credit_impact": "Positive / Defensive Carry",
+    "impacted_issuers": [
+      "CIMKOC",
+      "ERDEMIR",
+      "KOC"
+    ],
+    "concise_analysis": "Çimko reported 2Q26 revenue of TRY 6.63bn (-22% yoy in TRY, -12% in USD) and EBITDA of TRY 2,066mn (-24% yoy, 31.2% margin) as post-earthquake peak unwinds. Average cement pricing rose to /t vs /t in 1H25. Free cash flow positive at TRY 164mn (~), net debt , net leverage 2.3x with >7x interest coverage.",
+    "credit_commentary": "J.P. Morgan maintains Overweight on CIMKOC 8.600% 2030s offered at 105 (z+391, YTW 8.6%). Despite volume normalisation and weather disruptions in 1Q, robust pricing (/t), high interest coverage (>7x), and  planned Syrian export border expansion support a strong defensive credit thesis."
+  },
+  {
     "id": "NEWS-2026-09-01",
     "date": "2026-09-21",
     "ticker": "MACRO-OIL",

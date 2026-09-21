@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "id": "cimkoc",
+    "name": "Çimko Çimento",
+    "ticker": "CIMKOC",
+    "country": "Turkey",
+    "region": "CEEMEA",
+    "sector": "Materials / Cement",
+    "type": "corp",
+    "rating": "B / B3",
+    "tier": "High Yield",
+    "benchmark_bond": "CIMKOC 8.60% 2030",
+    "price": 105.0,
+    "ytm": 8.6,
+    "spread_bp": 391,
+    "model_file": "Cimko_Cimento_Credit_Model.xlsx",
+    "notion_id": "3e21d0ad-68c6-81c3-9b09-cd72a8ecc96e",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Cimko_Cimento_Credit_Model.xlsx",
+    "last_updated": "2026-09-21",
+    "model_type": "corp",
+    "fcf_2024a": 18.5,
+    "net_leverage_2024a": 1.8
+  },
+  "financials_multi_year": [
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 310.0,
+      "ebitda": 88.0,
+      "ebitda_margin_pct": 28.4,
+      "cfo": 72.0,
+      "capex": 25.0,
+      "fcf": 22.0,
+      "cash": 45.0,
+      "gross_debt": 210.0,
+      "net_debt": 165.0,
+      "net_leverage": 1.88,
+      "interest_coverage": 6.2,
+      "reported_ebitda": 92.0,
+      "calculated_ebitda": 88.0,
+      "cash_interest": 18.0,
+      "change_in_working_capital": -5.0,
+      "tax_expense": 12.0
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 445.0,
+      "ebitda": 142.0,
+      "ebitda_margin_pct": 31.9,
+      "cfo": 120.0,
+      "capex": 42.0,
+      "fcf": 48.0,
+      "cash": 68.0,
+      "gross_debt": 310.0,
+      "net_debt": 242.0,
+      "net_leverage": 1.7,
+      "interest_coverage": 7.5,
+      "reported_ebitda": 146.0,
+      "calculated_ebitda": 142.0,
+      "cash_interest": 22.0,
+      "change_in_working_capital": -8.0,
+      "tax_expense": 18.0
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 520.0,
+      "ebitda": 165.0,
+      "ebitda_margin_pct": 31.7,
+      "cfo": 138.0,
+      "capex": 54.0,
+      "fcf": 18.5,
+      "cash": 92.0,
+      "gross_debt": 389.0,
+      "net_debt": 297.0,
+      "net_leverage": 1.8,
+      "interest_coverage": 7.8,
+      "reported_ebitda": 168.5,
+      "calculated_ebitda": 165.0,
+      "cash_interest": 28.0,
+      "change_in_working_capital": 12.0,
+      "tax_expense": 21.0
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "revenue": 565.0,
+      "ebitda": 178.0,
+      "ebitda_margin_pct": 31.5,
+      "cfo": 145.0,
+      "capex": 58.0,
+      "fcf": 24.0,
+      "cash": 104.0,
+      "gross_debt": 424.0,
+      "net_debt": 320.0,
+      "net_leverage": 1.8,
+      "interest_coverage": 7.6,
+      "reported_ebitda": 182.0,
+      "calculated_ebitda": 178.0,
+      "cash_interest": 31.0,
+      "change_in_working_capital": 8.0,
+      "tax_expense": 23.0
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 495.0,
+      "ebitda": 154.0,
+      "ebitda_margin_pct": 31.1,
+      "cfo": 118.0,
+      "capex": 55.0,
+      "fcf": 14.0,
+      "cash": 104.0,
+      "gross_debt": 514.0,
+      "net_debt": 410.0,
+      "net_leverage": 2.66,
+      "interest_coverage": 7.1,
+      "reported_ebitda": 158.0,
+      "calculated_ebitda": 154.0,
+      "cash_interest": 34.0,
+      "change_in_working_capital": 15.0,
+      "tax_expense": 20.0
+    }
+  ],
+  "supplementary_data": {
+    "cement_capacity_mtpa": 5.4,
+    "clinker_capacity_mtpa": 4.2,
+    "rmc_plants_count": 18,
+    "hard_currency_export_pct": 28.0,
+    "avg_domestic_cement_price_usd_t": 73.0,
+    "syria_expansion_capex_usd_m": 20.0,
+    "cash_cost_quartile": "Q1 Domestic Low Cost"
+  },
+  "debt_maturities": {
+    "2025": 28.0,
+    "2026": 42.0,
+    "2027": 55.0,
+    "2028": 65.0,
+    "2029": 74.0,
+    "2030_plus": 250.0,
+    "total_outstanding_usd_m": 514.0
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 58.0,
+    "base_case_px": 92.0,
+    "recovery_floor_pct": 55.0,
+    "recovery_base_pct": 87.5,
+    "implied_stress_ev_multiple": "4.5x EV/EBITDA",
+    "restructuring_framework": "English Law / Turkish Enforcement",
+    "thesis": "High domestic market share across southeastern Turkey (earthquake reconstruction hub) and proximity to Syrian border provide irreplaceable logistics moat and strategic plant value."
+  },
+  "annotations": [
+    {
+      "sector": "Materials / Cement",
+      "topic": "Earnings / Normalisation",
+      "source": "J.P. Morgan",
+      "note": "2Q26 results show post-earthquake reconstruction volume peak normalising with revenue -22% yoy in TRY and EBITDA -24% yoy to TRY 2,066M. Operating cash costs down 21% yoy protecting margins at 31.2%."
+    },
+    {
+      "sector": "Materials / Cement",
+      "topic": "Pricing Power & Syria Moat",
+      "source": "J.P. Morgan",
+      "note": "Domestic cement pricing resilient at /t (+11% yoy in USD). Management guiding -60M capex including  to build dedicated export grinding and clinker capacity across the Syrian border."
+    },
+    {
+      "sector": "Materials / Cement",
+      "topic": "Leverage & Relative Value",
+      "source": "J.P. Morgan",
+      "note": "Net leverage rose to 2.3x (expected 2.5-3.0x peak by YE26) following  post-period dividend and capex ramp. Net debt  against  cash. Interest coverage >7x offers attractive defensive carry in CIMKOC 30s at z+391 (8.6% YTW)."
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "CIMKOC 8.600% 2030 Senior Unsecured Eurobond",
+      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 350.0,
+      "amount_outstanding_usd_m": 340.0,
+      "coupon": "8.600%",
+      "clean_price": 105.0,
+      "ytm": 8.6,
+      "spread_bp": 391,
+      "maturity_date": "2030-04-15",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English Law",
+      "observation": "Benchmark USD Eurobond; tapped in 1Q26 for ~. Offered at 105 (z+391, 8.6% yield)."
+    },
+    {
+      "tranche_name": "Turkish Commercial Bank Term Facilities",
+      "instrument_type": "Bilateral Term Loans",
+      "currency": "TRY / EUR / USD",
+      "amount_issued_usd_m": 130.0,
+      "amount_outstanding_usd_m": 114.0,
+      "coupon": "SOFR / Euribor + 325 bps",
+      "clean_price": 100.0,
+      "ytm": 7.8,
+      "spread_bp": 325,
+      "maturity_date": "2027-12-31",
+      "seniority": "Senior Secured / Pari Passu",
+      "governing_law": "Turkish Law",
+      "observation": "Working capital and equipment financing term loans."
+    },
+    {
+      "tranche_name": "RCF & Short-Term Trade Lines",
+      "instrument_type": "Working Capital Lines",
+      "currency": "TRY / USD",
+      "amount_issued_usd_m": 80.0,
+      "amount_outstanding_usd_m": 60.0,
+      "coupon": "Fixed TRY / Floating USD",
+      "clean_price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 300,
+      "maturity_date": "2026-12-31",
+      "seniority": "Senior Unsecured",
+      "governing_law": "Turkish Law",
+      "observation": "Bilateral revolving credit and letter of credit trade lines."
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "Bilateral RCF Consortium & Trade Facility",
+    "total_committed_capacity_usd_m": 120.0,
+    "drawn_amount_usd_m": 60.0,
+    "undrawn_available_usd_m": 60.0,
+    "drawn_margin": "SOFR + 275 bps",
+    "undrawn_commitment_fee": "75 bps",
+    "maturity": "2027-06-30",
+    "syndicate_banks": [
+      "Garanti BBVA",
+      "Isbank",
+      "Akbank"
+    ],
+    "rcf_financial_covenants": "Net Debt / EBITDA < 3.5x, Interest Coverage > 3.0x"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": "3.50x maximum consolidated net leverage",
+    "interest_coverage_ratio": "3.00x minimum EBITDA / interest coverage",
+    "priority_secured_debt_basket": "15% of consolidated total assets",
+    "change_of_control_put": "101% investor put upon rating downgrade and change of control",
+    "restricted_payments_basket": "50% of CNI builder basket plus general carveout of ",
+    "cross_default_threshold": ".0M threshold across material indebtedness"
+  },
+  "management_guidance_tracker": [
+    {
+      "metric": "FY26 Baseline Capex",
+      "guidance_value": ".0M",
+      "desk_expectation": ".0M - .0M",
+      "status": "ON_TRACK"
+    },
+    {
+      "metric": "Syrian Export Expansion Capex",
+      "guidance_value": "Up to .0M",
+      "desk_expectation": ".0M - .0M",
+      "status": "MONITORING"
+    },
+    {
+      "metric": "YE26 Net Leverage Target",
+      "guidance_value": "2.5x - 3.0x",
+      "desk_expectation": "2.66x (Comfortable within covenant of 3.5x)",
+      "status": "ON_TRACK"
+    },
+    {
+      "metric": "Domestic Cement Pricing",
+      "guidance_value": "> / tonne",
+      "desk_expectation": ".0 / tonne (Achieved in 1H26)",
+      "status": "BEATING_GUIDANCE"
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-12",
+    "period_reporting": "3Q26",
+    "confirmation_status": "Estimated",
+    "call_time": "15:00 Istanbul / 12:00 UK",
+    "ir_webcast_url": "https://www.cimko.com.tr/investor-relations",
+    "days_to_earnings": 52
+  },
+  "management_questions": [
+    {
+      "question": "What is the projected IRR and commercial commissioning date for the  Syrian export border grinding expansion?",
+      "rationale": "Direct Syrian reconstruction off-take provides premium pricing in USD, insulating the business from Turkish domestic macro volatility."
+    },
+    {
+      "question": "How will working capital requirements evolve as post-earthquake reconstruction projects transition to completion in late 2026?",
+      "rationale": "Normalising working capital release will support 2027 FCF and facilitate debt paydown back towards 2.0x."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-06-30",
+      "price": 103.5,
+      "ytm": 8.95,
+      "spread_bp": 420
+    },
+    {
+      "date": "2026-07-31",
+      "price": 104.2,
+      "ytm": 8.8,
+      "spread_bp": 405
+    },
+    {
+      "date": "2026-08-31",
+      "price": 104.8,
+      "ytm": 8.68,
+      "spread_bp": 398
+    },
+    {
+      "date": "2026-09-21",
+      "price": 105.0,
+      "ytm": 8.6,
+      "spread_bp": 391
+    }
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Cement",
+    "volume_metric_name": "Cement Sales Volume",
+    "volume_unit": "Million Tonnes",
+    "volume_guidance": "5.2 Mt",
+    "price_metric_name": "Average Cement Price",
+    "price_unit": "USD/t",
+    "price_default": 73.0,
+    "cost_metric_name": "Petcoke / Energy Cash Cost",
+    "cost_unit": "USD/t",
+    "cost_default": 32.0,
+    "hedged_pct": 45.0,
+    "hedge_floor_price": 65.0
+  },
+  "broker_snapshots": [
+    {
+      "broker": "J.P. Morgan",
+      "analyst": "CEEMEA Corporate Credit Desk",
+      "report_date": "2026-09-21",
+      "report_title": "Çimko Çimento (CIMKOC) 2Q26 results: EBITDA -24% yoy to TRY 2,066mn (margin 31.2%); Net leverage rises to 2.3x (YE26E 2.5-3.0x); Broker remains OW CIMKOC 30s",
+      "recommendation": "Overweight",
+      "target_spread_bps": 350,
+      "raw_model": {
+        "2026E": {
+          "revenue": 495.0,
+          "cogs": 312.0,
+          "gross_profit": 183.0,
+          "ebitda": 154.0,
+          "capex": -55.0,
+          "cash_interest": -34.0,
+          "change_wc": -15.0,
+          "tax": -20.0,
+          "fcf": 30.0,
+          "gross_debt": 514.0,
+          "cash": 104.0,
+          "net_debt": 410.0
+        }
+      },
+      "notes": "Overweight CIMKOC 30s offering 8.6% yield at 105 (z+391). Normalisation in earthquake demand and bad weather headwind, but pricing resilient at /t and >7x interest coverage provides robust defensive carry.",
+      "audited_model": {
+        "2026E": {
+          "revenue": 495.0,
+          "cogs": 312.0,
+          "gross_profit": 183.0,
+          "ebitda": 154.0,
+          "capex": -55.0,
+          "cash_interest": -34.0,
+          "change_wc": -15.0,
+          "tax": -20.0,
+          "fcf": 30.0,
+          "gross_debt": 514.0,
+          "cash": 104.0,
+          "net_debt": 410.0
+        }
+      },
+      "errors_caught": [],
+      "audit_status": "CLEAN_PASS"
+    }
+  ],
+  "analyst_mistakes_caught": [],
+  "broker_consensus": {
+    "period": "2026E",
+    "coverage_count": 1,
+    "revenue": 495.0,
+    "ebitda": 154.0,
+    "capex": -55.0,
+    "cash_interest": -34.0,
+    "change_wc": -15.0,
+    "tax": -20.0,
+    "fcf": 30.0,
+    "net_debt": 410.0,
+    "net_leverage": 2.66,
+    "total_mistakes_caught": 0,
+    "last_reconciled": "2026-09-21"
+  }
+}
