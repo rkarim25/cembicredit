@@ -720,6 +720,19 @@ const MASTER_ISSUERS = [
         "ebitda": 920.0,
         "fcf": 460.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Baa2 / BBB",
+        "price": 96.5,
+        "ytm": 6.45,
+        "spread_bp": 235,
+        "net_leverage": 3.85,
+        "ebitda": 920.0,
+        "fcf": -1205.0,
+        "guidance_status": "On Track"
       }
     ],
     "broker_snapshots": [
@@ -1477,6 +1490,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A",
+        "price": 99.8,
+        "ytm": 5.05,
+        "spread_bp": 85,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -2287,6 +2313,19 @@ const MASTER_ISSUERS = [
         "ebitda": 145.0,
         "fcf": 72.4,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 98.0,
+        "ytm": 9.25,
+        "spread_bp": 485,
+        "net_leverage": 2.62,
+        "ebitda": 145.0,
+        "fcf": -56.6,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -2963,7 +3002,7 @@ const MASTER_ISSUERS = [
         "ytm": 12.8,
         "spread_bp": 888,
         "net_leverage": 2.87,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2976,7 +3015,7 @@ const MASTER_ISSUERS = [
         "ytm": 12.4,
         "spread_bp": 838,
         "net_leverage": 2.77,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -2989,7 +3028,7 @@ const MASTER_ISSUERS = [
         "ytm": 12.05,
         "spread_bp": 795,
         "net_leverage": 2.67,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -3002,7 +3041,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.75,
         "spread_bp": 746,
         "net_leverage": 2.57,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -3015,7 +3054,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.6,
         "spread_bp": 731,
         "net_leverage": 2.54,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -3028,7 +3067,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.35,
         "spread_bp": 696,
         "net_leverage": 2.47,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -3041,7 +3080,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.25,
         "spread_bp": 682,
         "net_leverage": 2.42,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -3054,7 +3093,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.2,
         "spread_bp": 674,
         "net_leverage": 2.4,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -3067,7 +3106,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.3,
         "spread_bp": 689,
         "net_leverage": 2.44,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -3080,7 +3119,7 @@ const MASTER_ISSUERS = [
         "ytm": 11.4,
         "spread_bp": 703,
         "net_leverage": 2.5,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
       },
@@ -3089,12 +3128,25 @@ const MASTER_ISSUERS = [
         "period_name": "2026-09-20",
         "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "B- / B3",
-        "price": 92,
+        "price": 92.0,
         "ytm": 11.45,
         "spread_bp": 710,
         "net_leverage": 2.52,
-        "ebitda": 165,
+        "ebitda": 165.0,
         "fcf": 82.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / B3",
+        "price": 103.01,
+        "ytm": 9.35,
+        "spread_bp": 457,
+        "net_leverage": 1.52,
+        "ebitda": 339.4,
+        "fcf": -62.5,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -3853,6 +3905,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 100.2,
+        "ytm": 6.45,
+        "spread_bp": 185,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -4659,6 +4724,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 0.51,
         "ebitda": 1550.0,
         "fcf": 775.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / Baa2",
+        "price": 100.1,
+        "ytm": 5.25,
+        "spread_bp": 105,
+        "net_leverage": 0.51,
+        "ebitda": 1550.0,
+        "fcf": -185.4,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -5470,6 +5548,19 @@ const MASTER_ISSUERS = [
         "ebitda": 270.0,
         "fcf": 135.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B1",
+        "price": 99.66,
+        "ytm": 8.13,
+        "spread_bp": 329,
+        "net_leverage": 2.74,
+        "ebitda": 414.0,
+        "fcf": -185.0,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -6273,6 +6364,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.63,
         "ebitda": 160.0,
         "fcf": 80.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B-",
+        "price": 89.0,
+        "ytm": 12.15,
+        "spread_bp": 780,
+        "net_leverage": 2.63,
+        "ebitda": 160.0,
+        "fcf": -15.1,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -7083,6 +7187,19 @@ const MASTER_ISSUERS = [
         "ebitda": 190.0,
         "fcf": 95.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B3",
+        "price": 96.5,
+        "ytm": 8.95,
+        "spread_bp": 455,
+        "net_leverage": 4.11,
+        "ebitda": 190.0,
+        "fcf": -82.6,
+        "guidance_status": "On Track"
       }
     ],
     "broker_snapshots": [
@@ -7892,6 +8009,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 1.58,
         "ebitda": 2250.0,
         "fcf": 1125.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / Ba3",
+        "price": 98.5,
+        "ytm": 8.45,
+        "spread_bp": 410,
+        "net_leverage": 1.58,
+        "ebitda": 2250.0,
+        "fcf": 376.9,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -8720,6 +8850,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.4,
         "ebitda": 1250.0,
         "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B+",
+        "price": 101.8,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 3.4,
+        "ebitda": 1250.0,
+        "fcf": -222.1,
         "guidance_status": "On Track"
       }
     ],
@@ -9556,6 +9699,19 @@ const MASTER_ISSUERS = [
         "ebitda": 380.0,
         "fcf": 190.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B",
+        "price": 101.5,
+        "ytm": 8.85,
+        "spread_bp": 480,
+        "net_leverage": 0.89,
+        "ebitda": 380.0,
+        "fcf": -97.4,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -10360,6 +10516,19 @@ const MASTER_ISSUERS = [
         "ebitda": 720.0,
         "fcf": 360.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / BBB",
+        "price": 97.2,
+        "ytm": 5.35,
+        "spread_bp": 130,
+        "net_leverage": 1.05,
+        "ebitda": 720.0,
+        "fcf": 150.1,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -11038,8 +11207,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.3,
         "spread_bp": 112,
         "net_leverage": 1.75,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11047,12 +11216,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q2 2024",
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "A- / A3",
-        "price": 97,
+        "price": 97.0,
         "ytm": 5.9,
         "spread_bp": 106,
         "net_leverage": 1.65,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11064,8 +11233,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.55,
         "spread_bp": 101,
         "net_leverage": 1.55,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11073,12 +11242,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2024",
         "timestamp": "2024-12-31T16:00:00Z",
         "rating": "A- / A3",
-        "price": 99,
+        "price": 99.0,
         "ytm": 5.25,
         "spread_bp": 94,
         "net_leverage": 1.45,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11090,8 +11259,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.1,
         "spread_bp": 93,
         "net_leverage": 1.42,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11103,8 +11272,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.85,
         "spread_bp": 88,
         "net_leverage": 1.35,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11116,8 +11285,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.75,
         "spread_bp": 86,
         "net_leverage": 1.3,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11129,8 +11298,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.7,
         "spread_bp": 86,
         "net_leverage": 1.28,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11142,8 +11311,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.8,
         "spread_bp": 87,
         "net_leverage": 1.32,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11155,8 +11324,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.9,
         "spread_bp": 89,
         "net_leverage": 1.38,
-        "ebitda": 4200,
-        "fcf": 2100,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -11168,8 +11337,21 @@ const MASTER_ISSUERS = [
         "ytm": 4.95,
         "spread_bp": 90,
         "net_leverage": 1.4,
+        "ebitda": 4200.0,
+        "fcf": 2100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A- / A3",
+        "price": 99.8,
+        "ytm": 4.95,
+        "spread_bp": 90,
+        "net_leverage": 1.4,
         "ebitda": 4200,
-        "fcf": 2100,
+        "fcf": -1083.6,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -11976,6 +12158,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 0.29,
         "ebitda": 680.0,
         "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / Ba3",
+        "price": 101.0,
+        "ytm": 7.25,
+        "spread_bp": 320,
+        "net_leverage": 0.29,
+        "ebitda": 680.0,
+        "fcf": -134.1,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -12784,6 +12979,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.77,
         "ebitda": 650.0,
         "fcf": 325.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 96.0,
+        "ytm": 11.5,
+        "spread_bp": 715,
+        "net_leverage": 2.77,
+        "ebitda": 650.0,
+        "fcf": -14.9,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -13624,6 +13832,19 @@ const MASTER_ISSUERS = [
         "ebitda": 100.0,
         "fcf": 50.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 95.0,
+        "ytm": 12.5,
+        "spread_bp": 815,
+        "net_leverage": 2.43,
+        "ebitda": 100.0,
+        "fcf": -735.0,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "commodity_drivers": {
@@ -14448,6 +14669,19 @@ const MASTER_ISSUERS = [
         "ebitda": 360.0,
         "fcf": 180.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / Ba3 / B+",
+        "price": 99.5,
+        "ytm": 8.15,
+        "spread_bp": 410,
+        "net_leverage": 3.47,
+        "ebitda": 360.0,
+        "fcf": -142.7,
+        "guidance_status": "On Track"
       }
     ],
     "broker_snapshots": [
@@ -15206,6 +15440,19 @@ const MASTER_ISSUERS = [
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A3 / A",
+        "price": 99.7,
+        "ytm": 5.1,
+        "spread_bp": 90,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -15883,8 +16130,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.7,
         "spread_bp": 150,
         "net_leverage": 3.58,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -15896,8 +16143,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.3,
         "spread_bp": 142,
         "net_leverage": 3.48,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -15909,8 +16156,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.95,
         "spread_bp": 134,
         "net_leverage": 3.38,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -15922,8 +16169,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.65,
         "spread_bp": 126,
         "net_leverage": 3.28,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -15935,8 +16182,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.5,
         "spread_bp": 124,
         "net_leverage": 3.25,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -15948,8 +16195,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.25,
         "spread_bp": 118,
         "net_leverage": 3.18,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -15961,8 +16208,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.15,
         "spread_bp": 115,
         "net_leverage": 3.13,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -15974,8 +16221,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.1,
         "spread_bp": 114,
         "net_leverage": 3.11,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -15987,8 +16234,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.2,
         "spread_bp": 116,
         "net_leverage": 3.15,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -16000,8 +16247,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.3,
         "spread_bp": 119,
         "net_leverage": 3.21,
-        "ebitda": 5100,
-        "fcf": 2550,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
         "guidance_status": "On Track"
       },
       {
@@ -16009,12 +16256,25 @@ const MASTER_ISSUERS = [
         "period_name": "2026-09-20",
         "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "BBB+ / Baa2",
+        "price": 98.0,
+        "ytm": 5.35,
+        "spread_bp": 120,
+        "net_leverage": 3.23,
+        "ebitda": 5100.0,
+        "fcf": 2550.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB+ / Baa2",
         "price": 98,
         "ytm": 5.35,
         "spread_bp": 120,
         "net_leverage": 3.23,
         "ebitda": 5100,
-        "fcf": 2550,
+        "fcf": 347.0,
         "guidance_status": "On Track"
       }
     ],
@@ -16694,8 +16954,8 @@ const MASTER_ISSUERS = [
         "ytm": 19.85,
         "spread_bp": 1762,
         "net_leverage": 3.37,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16707,8 +16967,8 @@ const MASTER_ISSUERS = [
         "ytm": 19.45,
         "spread_bp": 1664,
         "net_leverage": 3.27,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16716,12 +16976,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "CCC / Caa3",
-        "price": 67,
+        "price": 67.0,
         "ytm": 19.1,
         "spread_bp": 1579,
         "net_leverage": 3.17,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16733,8 +16993,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.8,
         "spread_bp": 1480,
         "net_leverage": 3.07,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16746,8 +17006,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.65,
         "spread_bp": 1452,
         "net_leverage": 3.04,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16759,8 +17019,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.4,
         "spread_bp": 1382,
         "net_leverage": 2.97,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16772,8 +17032,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.3,
         "spread_bp": 1354,
         "net_leverage": 2.92,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16785,8 +17045,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.25,
         "spread_bp": 1340,
         "net_leverage": 2.9,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16798,8 +17058,8 @@ const MASTER_ISSUERS = [
         "ytm": 18.35,
         "spread_bp": 1368,
         "net_leverage": 2.94,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16810,9 +17070,9 @@ const MASTER_ISSUERS = [
         "price": 68.6,
         "ytm": 18.45,
         "spread_bp": 1396,
-        "net_leverage": 3,
-        "ebitda": 420,
-        "fcf": 210,
+        "net_leverage": 3.0,
+        "ebitda": 420.0,
+        "fcf": 210.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -16824,8 +17084,21 @@ const MASTER_ISSUERS = [
         "ytm": 18.5,
         "spread_bp": 1410,
         "net_leverage": 3.02,
-        "ebitda": 420,
-        "fcf": 210,
+        "ebitda": 420.0,
+        "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "CCC / Caa3",
+        "price": 68.5,
+        "ytm": 18.5,
+        "spread_bp": 1410,
+        "net_leverage": 3.02,
+        "ebitda": 420.0,
+        "fcf": -100.0,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -17633,6 +17906,19 @@ const MASTER_ISSUERS = [
         "ebitda": 3200.0,
         "fcf": 1600.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB / Baa2",
+        "price": 100.2,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": 100.0,
+        "ebitda": 3200.0,
+        "fcf": -240.0,
+        "guidance_status": "On Track"
       }
     ],
     "broker_snapshots": [
@@ -18439,6 +18725,19 @@ const MASTER_ISSUERS = [
         "ebitda": 350.0,
         "fcf": 175.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- Local",
+        "price": 97.5,
+        "ytm": 10.5,
+        "spread_bp": 610,
+        "net_leverage": 0.49,
+        "ebitda": 350.0,
+        "fcf": -98.1,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -19196,6 +19495,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A2 / A+",
+        "price": 100.25,
+        "ytm": 4.9,
+        "spread_bp": 70,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -20004,6 +20316,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 1.65,
         "ebitda": 980.0,
         "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Baa2 / BBB",
+        "price": 98.2,
+        "ytm": 5.55,
+        "spread_bp": 150,
+        "net_leverage": 1.65,
+        "ebitda": 980.0,
+        "fcf": 38.4,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -20830,6 +21155,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.12,
         "ebitda": 850.0,
         "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 98.5,
+        "ytm": 7.95,
+        "spread_bp": 355,
+        "net_leverage": 2.12,
+        "ebitda": 850.0,
+        "fcf": -162.4,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -21658,6 +21996,19 @@ const MASTER_ISSUERS = [
         "ebitda": 2200.0,
         "fcf": 1100.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B-",
+        "price": 99.0,
+        "ytm": 8.5,
+        "spread_bp": 445,
+        "net_leverage": 6.8,
+        "ebitda": 2200.0,
+        "fcf": -1991.7,
+        "guidance_status": "On Track"
       }
     ],
     "broker_snapshots": [
@@ -22415,6 +22766,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Aa3 / AA-",
+        "price": 100.5,
+        "ytm": 4.85,
+        "spread_bp": 65,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -23174,6 +23538,19 @@ const MASTER_ISSUERS = [
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Ba2 / BB-",
+        "price": 98.8,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -23931,6 +24308,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.55,
+        "spread_bp": 195,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -24741,6 +25131,19 @@ const MASTER_ISSUERS = [
         "ebitda": 195.0,
         "fcf": 97.6,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 98.2,
+        "ytm": 9.1,
+        "spread_bp": 470,
+        "net_leverage": 2.62,
+        "ebitda": 195.0,
+        "fcf": -77.1,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -25414,12 +25817,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q1 2024",
         "timestamp": "2024-03-31T16:00:00Z",
         "rating": "BBB- / Baa3",
-        "price": 96,
+        "price": 96.0,
         "ytm": 7.4,
         "spread_bp": 250,
         "net_leverage": 1.2,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25428,11 +25831,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "BBB- / Baa3",
         "price": 97.4,
-        "ytm": 7,
+        "ytm": 7.0,
         "spread_bp": 236,
         "net_leverage": 1.1,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25443,9 +25846,9 @@ const MASTER_ISSUERS = [
         "price": 98.7,
         "ytm": 6.65,
         "spread_bp": 224,
-        "net_leverage": 1,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "net_leverage": 1.0,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25457,8 +25860,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.35,
         "spread_bp": 210,
         "net_leverage": 0.9,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25470,8 +25873,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.2,
         "spread_bp": 206,
         "net_leverage": 0.87,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25483,8 +25886,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.95,
         "spread_bp": 196,
         "net_leverage": 0.8,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25496,8 +25899,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.85,
         "spread_bp": 192,
         "net_leverage": 0.75,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25505,12 +25908,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2025",
         "timestamp": "2025-12-31T16:00:00Z",
         "rating": "BBB- / Baa3",
-        "price": 101,
+        "price": 101.0,
         "ytm": 5.8,
         "spread_bp": 190,
         "net_leverage": 0.73,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25522,8 +25925,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.9,
         "spread_bp": 194,
         "net_leverage": 0.77,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25532,11 +25935,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2026-06-30T16:00:00Z",
         "rating": "BBB- / Baa3",
         "price": 100.3,
-        "ytm": 6,
+        "ytm": 6.0,
         "spread_bp": 198,
         "net_leverage": 0.83,
-        "ebitda": 2100,
-        "fcf": 1050,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -25548,8 +25951,21 @@ const MASTER_ISSUERS = [
         "ytm": 6.05,
         "spread_bp": 200,
         "net_leverage": 0.85,
+        "ebitda": 2100.0,
+        "fcf": 1050.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / Baa3",
+        "price": 100.2,
+        "ytm": 6.05,
+        "spread_bp": 200,
+        "net_leverage": 0.85,
         "ebitda": 2100,
-        "fcf": 1050,
+        "fcf": 281.4,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -26327,6 +26743,19 @@ const MASTER_ISSUERS = [
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B3",
+        "price": 98.1,
+        "ytm": 7.35,
+        "spread_bp": 275,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -27085,6 +27514,19 @@ const MASTER_ISSUERS = [
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Baa1 / BBB-",
+        "price": 99.0,
+        "ytm": 6.2,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -27756,7 +28198,7 @@ const MASTER_ISSUERS = [
         "ytm": 10.1,
         "spread_bp": 550,
         "net_leverage": 4.84,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27769,7 +28211,7 @@ const MASTER_ISSUERS = [
         "ytm": 9.7,
         "spread_bp": 519,
         "net_leverage": 4.74,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27782,7 +28224,7 @@ const MASTER_ISSUERS = [
         "ytm": 9.35,
         "spread_bp": 493,
         "net_leverage": 4.64,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27795,7 +28237,7 @@ const MASTER_ISSUERS = [
         "ytm": 9.05,
         "spread_bp": 462,
         "net_leverage": 4.54,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27808,7 +28250,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.9,
         "spread_bp": 453,
         "net_leverage": 4.51,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27821,7 +28263,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.65,
         "spread_bp": 431,
         "net_leverage": 4.44,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27834,7 +28276,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.55,
         "spread_bp": 422,
         "net_leverage": 4.39,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27847,7 +28289,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.5,
         "spread_bp": 418,
         "net_leverage": 4.37,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27860,7 +28302,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.6,
         "spread_bp": 427,
         "net_leverage": 4.41,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27873,7 +28315,7 @@ const MASTER_ISSUERS = [
         "ytm": 8.7,
         "spread_bp": 436,
         "net_leverage": 4.47,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
         "guidance_status": "On Track"
       },
@@ -27886,8 +28328,21 @@ const MASTER_ISSUERS = [
         "ytm": 8.75,
         "spread_bp": 440,
         "net_leverage": 4.49,
-        "ebitda": 385,
+        "ebitda": 385.0,
         "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 94.25,
+        "ytm": 8.75,
+        "spread_bp": 440,
+        "net_leverage": 4.49,
+        "ebitda": 395.0,
+        "fcf": 15.0,
         "guidance_status": "On Track"
       }
     ],
@@ -28698,6 +29153,19 @@ const MASTER_ISSUERS = [
         "ebitda": 1550.0,
         "fcf": 775.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB-",
+        "price": 99.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 0.4,
+        "ebitda": 1550.0,
+        "fcf": -250.0,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -29369,8 +29837,8 @@ const MASTER_ISSUERS = [
         "ytm": 11.6,
         "spread_bp": 738,
         "net_leverage": 3.51,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29382,8 +29850,8 @@ const MASTER_ISSUERS = [
         "ytm": 11.2,
         "spread_bp": 696,
         "net_leverage": 3.41,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29391,12 +29859,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "B+ / B2",
-        "price": 90,
+        "price": 90.0,
         "ytm": 10.85,
         "spread_bp": 661,
         "net_leverage": 3.31,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29408,8 +29876,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.55,
         "spread_bp": 620,
         "net_leverage": 3.21,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29421,8 +29889,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.4,
         "spread_bp": 608,
         "net_leverage": 3.18,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29434,8 +29902,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.15,
         "spread_bp": 578,
         "net_leverage": 3.11,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29447,8 +29915,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.05,
         "spread_bp": 566,
         "net_leverage": 3.06,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29457,11 +29925,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2025-12-31T16:00:00Z",
         "rating": "B+ / B2",
         "price": 92.3,
-        "ytm": 10,
+        "ytm": 10.0,
         "spread_bp": 560,
         "net_leverage": 3.04,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29473,8 +29941,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.1,
         "spread_bp": 572,
         "net_leverage": 3.08,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29486,8 +29954,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.2,
         "spread_bp": 584,
         "net_leverage": 3.14,
-        "ebitda": 1120,
-        "fcf": 560,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
         "guidance_status": "On Track"
       },
       {
@@ -29499,8 +29967,21 @@ const MASTER_ISSUERS = [
         "ytm": 10.25,
         "spread_bp": 590,
         "net_leverage": 3.16,
+        "ebitda": 1120.0,
+        "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B2",
+        "price": 91.5,
+        "ytm": 10.25,
+        "spread_bp": 590,
+        "net_leverage": 3.16,
         "ebitda": 1120,
-        "fcf": 560,
+        "fcf": 8.6,
         "guidance_status": "On Track"
       }
     ],
@@ -30259,6 +30740,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 225,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -31064,6 +31558,19 @@ const MASTER_ISSUERS = [
         "ebitda": 195.0,
         "fcf": 97.6,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B1",
+        "price": 98.5,
+        "ytm": 9.1,
+        "spread_bp": 505,
+        "net_leverage": 2.41,
+        "ebitda": 195.0,
+        "fcf": -16.6,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -31821,6 +32328,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A2 / A",
+        "price": 99.2,
+        "ytm": 5.2,
+        "spread_bp": 115,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -32631,6 +33151,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 1.45,
         "ebitda": 4800.0,
         "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / Baa2",
+        "price": 88.5,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": 1.45,
+        "ebitda": 4800.0,
+        "fcf": 451.7,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -33454,6 +33987,19 @@ const MASTER_ISSUERS = [
         "ebitda": 4800.0,
         "fcf": 2400.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB / BB+",
+        "price": 98.5,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 1.25,
+        "ebitda": 4800.0,
+        "fcf": -512.9,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -34133,8 +34679,8 @@ const MASTER_ISSUERS = [
         "ytm": 11.8,
         "spread_bp": 762,
         "net_leverage": 2.66,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34146,8 +34692,8 @@ const MASTER_ISSUERS = [
         "ytm": 11.4,
         "spread_bp": 720,
         "net_leverage": 2.56,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34155,12 +34701,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "B- / B3",
-        "price": 88,
+        "price": 88.0,
         "ytm": 11.05,
         "spread_bp": 683,
         "net_leverage": 2.46,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34172,8 +34718,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.75,
         "spread_bp": 640,
         "net_leverage": 2.36,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34185,8 +34731,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.6,
         "spread_bp": 628,
         "net_leverage": 2.33,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34198,8 +34744,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.35,
         "spread_bp": 598,
         "net_leverage": 2.26,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34211,8 +34757,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.25,
         "spread_bp": 586,
         "net_leverage": 2.21,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34224,8 +34770,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.2,
         "spread_bp": 580,
         "net_leverage": 2.19,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34237,8 +34783,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.3,
         "spread_bp": 592,
         "net_leverage": 2.23,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34250,8 +34796,8 @@ const MASTER_ISSUERS = [
         "ytm": 10.4,
         "spread_bp": 604,
         "net_leverage": 2.29,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -34263,8 +34809,21 @@ const MASTER_ISSUERS = [
         "ytm": 10.45,
         "spread_bp": 610,
         "net_leverage": 2.31,
-        "ebitda": 1050,
-        "fcf": 525,
+        "ebitda": 1050.0,
+        "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / B3",
+        "price": 89.5,
+        "ytm": 10.45,
+        "spread_bp": 610,
+        "net_leverage": 2.99,
+        "ebitda": 810.0,
+        "fcf": -55.0,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -35092,6 +35651,19 @@ const MASTER_ISSUERS = [
         "ebitda": 185.0,
         "fcf": 92.4,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B",
+        "price": 98.8,
+        "ytm": 8.25,
+        "spread_bp": 385,
+        "net_leverage": 2.27,
+        "ebitda": 185.0,
+        "fcf": -4.8,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -35899,6 +36471,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.08,
         "ebitda": 78.0,
         "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B3",
+        "price": 98.5,
+        "ytm": 7.85,
+        "spread_bp": 345,
+        "net_leverage": 3.08,
+        "ebitda": 78.0,
+        "fcf": 7.5,
         "guidance_status": "On Track"
       }
     ],
@@ -36709,6 +37294,19 @@ const MASTER_ISSUERS = [
         "ebitda": 275.0,
         "fcf": 137.6,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B2",
+        "price": 98.2,
+        "ytm": 8.75,
+        "spread_bp": 435,
+        "net_leverage": 4.0,
+        "ebitda": 275.0,
+        "fcf": -110.8,
+        "guidance_status": "On Track"
       }
     ],
     "broker_snapshots": [
@@ -37384,8 +37982,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.6,
         "spread_bp": 1238,
         "net_leverage": 5.47,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37397,8 +37995,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.2,
         "spread_bp": 1168,
         "net_leverage": 5.37,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37406,12 +38004,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "B- / Caa1",
-        "price": 80,
+        "price": 80.0,
         "ytm": 14.85,
         "spread_bp": 1109,
         "net_leverage": 5.27,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37423,8 +38021,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.55,
         "spread_bp": 1040,
         "net_leverage": 5.17,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37436,8 +38034,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.4,
         "spread_bp": 1020,
         "net_leverage": 5.14,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37449,8 +38047,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.15,
         "spread_bp": 970,
         "net_leverage": 5.07,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37462,8 +38060,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.05,
         "spread_bp": 950,
         "net_leverage": 5.02,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37472,11 +38070,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2025-12-31T16:00:00Z",
         "rating": "B- / Caa1",
         "price": 82.3,
-        "ytm": 14,
+        "ytm": 14.0,
         "spread_bp": 940,
-        "net_leverage": 5,
-        "ebitda": 210,
-        "fcf": 105,
+        "net_leverage": 5.0,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37488,8 +38086,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.1,
         "spread_bp": 960,
         "net_leverage": 5.04,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37501,8 +38099,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.2,
         "spread_bp": 980,
         "net_leverage": 5.1,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
         "guidance_status": "On Track"
       },
       {
@@ -37514,8 +38112,21 @@ const MASTER_ISSUERS = [
         "ytm": 14.25,
         "spread_bp": 990,
         "net_leverage": 5.12,
-        "ebitda": 210,
-        "fcf": 105,
+        "ebitda": 210.0,
+        "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / Caa1",
+        "price": 104.22,
+        "ytm": 9.58,
+        "spread_bp": 471,
+        "net_leverage": 4.13,
+        "ebitda": 185.0,
+        "fcf": 26.8,
         "guidance_status": "On Track"
       }
     ],
@@ -38321,6 +38932,19 @@ const MASTER_ISSUERS = [
         "ebitda": 1450.0,
         "fcf": 725.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB / BBB",
+        "price": 98.0,
+        "ytm": 5.65,
+        "spread_bp": 160,
+        "net_leverage": 2.85,
+        "ebitda": 1450.0,
+        "fcf": 91.5,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -38999,11 +39623,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2024-03-31T16:00:00Z",
         "rating": "CCC+ / Caa3",
         "price": 71.8,
-        "ytm": 17,
+        "ytm": 17.0,
         "spread_bp": 1406,
         "net_leverage": 2.14,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39015,8 +39639,8 @@ const MASTER_ISSUERS = [
         "ytm": 16.6,
         "spread_bp": 1328,
         "net_leverage": 2.04,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39028,8 +39652,8 @@ const MASTER_ISSUERS = [
         "ytm": 16.25,
         "spread_bp": 1260,
         "net_leverage": 1.94,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39041,8 +39665,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.95,
         "spread_bp": 1181,
         "net_leverage": 1.84,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39054,8 +39678,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.8,
         "spread_bp": 1159,
         "net_leverage": 1.81,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39067,8 +39691,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.55,
         "spread_bp": 1102,
         "net_leverage": 1.74,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39080,8 +39704,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.45,
         "spread_bp": 1080,
         "net_leverage": 1.69,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39093,8 +39717,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.4,
         "spread_bp": 1069,
         "net_leverage": 1.67,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39106,8 +39730,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.5,
         "spread_bp": 1091,
         "net_leverage": 1.71,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39119,8 +39743,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.6,
         "spread_bp": 1114,
         "net_leverage": 1.77,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -39128,12 +39752,25 @@ const MASTER_ISSUERS = [
         "period_name": "2026-09-20",
         "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "CCC+ / Caa3",
-        "price": 76,
+        "price": 76.0,
         "ytm": 15.65,
         "spread_bp": 1125,
         "net_leverage": 1.79,
-        "ebitda": 920,
-        "fcf": 460,
+        "ebitda": 920.0,
+        "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "CCC+",
+        "price": 93.27,
+        "ytm": 14.98,
+        "spread_bp": 1022,
+        "net_leverage": 1.18,
+        "ebitda": 737.0,
+        "fcf": -193.0,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -40025,6 +40662,19 @@ const MASTER_ISSUERS = [
         "ebitda": 460.0,
         "fcf": 230.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "CCC+ / Caa2",
+        "price": 82.5,
+        "ytm": 13.1,
+        "spread_bp": 875,
+        "net_leverage": 2.89,
+        "ebitda": 460.0,
+        "fcf": 1.6,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -40835,6 +41485,19 @@ const MASTER_ISSUERS = [
         "ebitda": 3100.0,
         "fcf": 1550.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB-",
+        "price": 98.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 1.1,
+        "ebitda": 3100.0,
+        "fcf": -22.2,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "commodity_drivers": {
@@ -41523,9 +42186,9 @@ const MASTER_ISSUERS = [
         "price": 95.2,
         "ytm": 8.25,
         "spread_bp": 356,
-        "net_leverage": 2,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "net_leverage": 2.0,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41537,8 +42200,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.85,
         "spread_bp": 336,
         "net_leverage": 1.9,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41550,8 +42213,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.5,
         "spread_bp": 319,
         "net_leverage": 1.8,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41563,8 +42226,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.2,
         "spread_bp": 299,
         "net_leverage": 1.7,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41572,12 +42235,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q1 2025",
         "timestamp": "2025-03-31T16:00:00Z",
         "rating": "Ba2 / BB+",
-        "price": 99,
+        "price": 99.0,
         "ytm": 7.05,
         "spread_bp": 294,
         "net_leverage": 1.67,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41589,8 +42252,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.8,
         "spread_bp": 279,
         "net_leverage": 1.6,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41598,12 +42261,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2025",
         "timestamp": "2025-09-30T16:00:00Z",
         "rating": "Ba2 / BB+",
-        "price": 100,
+        "price": 100.0,
         "ytm": 6.7,
         "spread_bp": 274,
         "net_leverage": 1.55,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41615,8 +42278,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.65,
         "spread_bp": 271,
         "net_leverage": 1.53,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41628,8 +42291,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.75,
         "spread_bp": 276,
         "net_leverage": 1.57,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41641,8 +42304,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.85,
         "spread_bp": 282,
         "net_leverage": 1.63,
-        "ebitda": 4500,
-        "fcf": 2250,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -41654,8 +42317,21 @@ const MASTER_ISSUERS = [
         "ytm": 6.9,
         "spread_bp": 285,
         "net_leverage": 1.65,
+        "ebitda": 4500.0,
+        "fcf": 2250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Ba2 / BB+",
+        "price": 99.4,
+        "ytm": 6.9,
+        "spread_bp": 285,
+        "net_leverage": 1.65,
         "ebitda": 4500,
-        "fcf": 2250,
+        "fcf": 481.2,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -42334,8 +43010,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.8,
         "spread_bp": 194,
         "net_leverage": 2.69,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42347,8 +43023,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.4,
         "spread_bp": 183,
         "net_leverage": 2.59,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42356,12 +43032,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "BBB- / Baa3",
-        "price": 98,
+        "price": 98.0,
         "ytm": 7.05,
         "spread_bp": 174,
         "net_leverage": 2.49,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42373,8 +43049,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.75,
         "spread_bp": 163,
         "net_leverage": 2.39,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42386,8 +43062,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.6,
         "spread_bp": 160,
         "net_leverage": 2.36,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42399,8 +43075,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.35,
         "spread_bp": 152,
         "net_leverage": 2.29,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42412,8 +43088,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.25,
         "spread_bp": 149,
         "net_leverage": 2.24,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42425,8 +43101,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.2,
         "spread_bp": 147,
         "net_leverage": 2.22,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42438,8 +43114,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.3,
         "spread_bp": 150,
         "net_leverage": 2.26,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42451,8 +43127,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.4,
         "spread_bp": 153,
         "net_leverage": 2.32,
-        "ebitda": 3200,
-        "fcf": 1600,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -42464,8 +43140,21 @@ const MASTER_ISSUERS = [
         "ytm": 6.45,
         "spread_bp": 155,
         "net_leverage": 2.34,
+        "ebitda": 3200.0,
+        "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / Baa3",
+        "price": 99.5,
+        "ytm": 6.45,
+        "spread_bp": 155,
+        "net_leverage": 2.34,
         "ebitda": 3200,
-        "fcf": 1600,
+        "fcf": 209.9,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -43156,8 +43845,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.35,
         "spread_bp": 119,
         "net_leverage": 1.45,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43165,12 +43854,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q2 2024",
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "A2 / A-",
-        "price": 95,
+        "price": 95.0,
         "ytm": 5.95,
         "spread_bp": 112,
         "net_leverage": 1.35,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43182,8 +43871,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.6,
         "spread_bp": 106,
         "net_leverage": 1.25,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43191,12 +43880,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2024",
         "timestamp": "2024-12-31T16:00:00Z",
         "rating": "A2 / A-",
-        "price": 97,
+        "price": 97.0,
         "ytm": 5.3,
         "spread_bp": 100,
         "net_leverage": 1.15,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43208,8 +43897,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.15,
         "spread_bp": 98,
         "net_leverage": 1.12,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43221,8 +43910,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.9,
         "spread_bp": 93,
         "net_leverage": 1.05,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43233,9 +43922,9 @@ const MASTER_ISSUERS = [
         "price": 98.4,
         "ytm": 4.8,
         "spread_bp": 91,
-        "net_leverage": 1,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "net_leverage": 1.0,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43247,8 +43936,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.75,
         "spread_bp": 90,
         "net_leverage": 0.98,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43260,8 +43949,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.85,
         "spread_bp": 92,
         "net_leverage": 1.02,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43273,8 +43962,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.95,
         "spread_bp": 94,
         "net_leverage": 1.08,
-        "ebitda": 2800,
-        "fcf": 1400,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -43283,11 +43972,24 @@ const MASTER_ISSUERS = [
         "timestamp": "2026-09-20T19:59:49.383781",
         "rating": "A2 / A-",
         "price": 97.8,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "net_leverage": 1.1,
+        "ebitda": 2800.0,
+        "fcf": 1400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A2 / A-",
+        "price": 97.8,
         "ytm": 5,
         "spread_bp": 95,
         "net_leverage": 1.1,
         "ebitda": 2800,
-        "fcf": 1400,
+        "fcf": 547.3,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -44099,6 +44801,19 @@ const MASTER_ISSUERS = [
         "ebitda": 4600.0,
         "fcf": 2300.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB+ / BBB-",
+        "price": 99.5,
+        "ytm": 5.9,
+        "spread_bp": 185,
+        "net_leverage": 1.8,
+        "ebitda": 4600.0,
+        "fcf": -149.6,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "commodity_drivers": {
@@ -44796,8 +45511,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.4,
         "spread_bp": 125,
         "net_leverage": 1.3,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44805,12 +45520,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q2 2024",
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "BBB+ / A3",
-        "price": 96,
-        "ytm": 6,
+        "price": 96.0,
+        "ytm": 6.0,
         "spread_bp": 118,
         "net_leverage": 1.2,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44822,8 +45537,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.65,
         "spread_bp": 112,
         "net_leverage": 1.1,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44831,12 +45546,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2024",
         "timestamp": "2024-12-31T16:00:00Z",
         "rating": "BBB+ / A3",
-        "price": 98,
+        "price": 98.0,
         "ytm": 5.35,
         "spread_bp": 105,
-        "net_leverage": 1,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "net_leverage": 1.0,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44848,8 +45563,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.2,
         "spread_bp": 103,
         "net_leverage": 0.97,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44861,8 +45576,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.95,
         "spread_bp": 98,
         "net_leverage": 0.9,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44874,8 +45589,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.85,
         "spread_bp": 96,
         "net_leverage": 0.85,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44887,8 +45602,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.8,
         "spread_bp": 95,
         "net_leverage": 0.83,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44900,8 +45615,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.9,
         "spread_bp": 97,
         "net_leverage": 0.87,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44910,11 +45625,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2026-06-30T16:00:00Z",
         "rating": "BBB+ / A3",
         "price": 98.9,
-        "ytm": 5,
+        "ytm": 5.0,
         "spread_bp": 99,
         "net_leverage": 0.93,
-        "ebitda": 8500,
-        "fcf": 4250,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -44926,8 +45641,21 @@ const MASTER_ISSUERS = [
         "ytm": 5.05,
         "spread_bp": 100,
         "net_leverage": 0.95,
+        "ebitda": 8500.0,
+        "fcf": 4250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB+ / A3",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 0.95,
         "ebitda": 8500,
-        "fcf": 4250,
+        "fcf": 10.5,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -45752,6 +46480,19 @@ const MASTER_ISSUERS = [
         "ebitda": 950.0,
         "fcf": 475.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / BB-",
+        "price": 103.5,
+        "ytm": 7.65,
+        "spread_bp": 360,
+        "net_leverage": 2.1,
+        "ebitda": 950.0,
+        "fcf": 23.0,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -46561,6 +47302,19 @@ const MASTER_ISSUERS = [
         "ebitda": 2800.0,
         "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB+",
+        "price": 99.2,
+        "ytm": 5.3,
+        "spread_bp": 125,
+        "net_leverage": 1.85,
+        "ebitda": 2800.0,
+        "fcf": -1080.6,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -47369,6 +48123,19 @@ const MASTER_ISSUERS = [
         "ebitda": 850.0,
         "fcf": 425.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB-",
+        "price": 97.2,
+        "ytm": 5.95,
+        "spread_bp": 190,
+        "net_leverage": 1.2,
+        "ebitda": 850.0,
+        "fcf": 107.4,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -48126,6 +48893,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Aa3 / A+",
+        "price": 99.5,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -48885,6 +49665,19 @@ const MASTER_ISSUERS = [
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A-",
+        "price": 100.8,
+        "ytm": 4.75,
+        "spread_bp": 55,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -49642,6 +50435,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A2 / A",
+        "price": 99.6,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -50452,6 +51258,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 0.65,
         "ebitda": 980.0,
         "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB-",
+        "price": 98.5,
+        "ytm": 5.75,
+        "spread_bp": 170,
+        "net_leverage": 0.65,
+        "ebitda": 980.0,
+        "fcf": 206.4,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -51279,6 +52098,19 @@ const MASTER_ISSUERS = [
         "ebitda": 5800.0,
         "fcf": 2900.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A+",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 1.15,
+        "ebitda": 5800.0,
+        "fcf": -398.6,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "commodity_drivers": {
@@ -52101,6 +52933,19 @@ const MASTER_ISSUERS = [
         "ebitda": 78.0,
         "fcf": 39.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2 Implied",
+        "price": 97.5,
+        "ytm": 10.4,
+        "spread_bp": 600,
+        "net_leverage": 1.54,
+        "ebitda": 78.0,
+        "fcf": 8.7,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -52780,8 +53625,8 @@ const MASTER_ISSUERS = [
         "ytm": 9.2,
         "spread_bp": 456,
         "net_leverage": 2.39,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52793,8 +53638,8 @@ const MASTER_ISSUERS = [
         "ytm": 8.8,
         "spread_bp": 431,
         "net_leverage": 2.29,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52806,8 +53651,8 @@ const MASTER_ISSUERS = [
         "ytm": 8.45,
         "spread_bp": 409,
         "net_leverage": 2.19,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52819,8 +53664,8 @@ const MASTER_ISSUERS = [
         "ytm": 8.15,
         "spread_bp": 383,
         "net_leverage": 2.09,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52828,12 +53673,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q1 2025",
         "timestamp": "2025-03-31T16:00:00Z",
         "rating": "BB+ / Ba1",
-        "price": 98,
-        "ytm": 8,
+        "price": 98.0,
+        "ytm": 8.0,
         "spread_bp": 376,
         "net_leverage": 2.06,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52845,8 +53690,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.75,
         "spread_bp": 358,
         "net_leverage": 1.99,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52854,12 +53699,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2025",
         "timestamp": "2025-09-30T16:00:00Z",
         "rating": "BB+ / Ba1",
-        "price": 99,
+        "price": 99.0,
         "ytm": 7.65,
         "spread_bp": 350,
         "net_leverage": 1.94,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52871,8 +53716,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.6,
         "spread_bp": 347,
         "net_leverage": 1.92,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52884,8 +53729,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.7,
         "spread_bp": 354,
         "net_leverage": 1.96,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52897,8 +53742,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.8,
         "spread_bp": 361,
         "net_leverage": 2.02,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -52910,8 +53755,21 @@ const MASTER_ISSUERS = [
         "ytm": 7.85,
         "spread_bp": 365,
         "net_leverage": 2.04,
-        "ebitda": 2850,
-        "fcf": 1425,
+        "ebitda": 2850.0,
+        "fcf": 1425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB+ / Ba1",
+        "price": 98.4,
+        "ytm": 7.85,
+        "spread_bp": 365,
+        "net_leverage": 2.37,
+        "ebitda": 2450.0,
+        "fcf": -230.0,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -53740,6 +54598,19 @@ const MASTER_ISSUERS = [
         "ebitda": 8400.0,
         "fcf": 4200.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A",
+        "price": 99.2,
+        "ytm": 5.15,
+        "spread_bp": 110,
+        "net_leverage": 3.2,
+        "ebitda": 8400.0,
+        "fcf": -3030.2,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -54548,6 +55419,19 @@ const MASTER_ISSUERS = [
         "ebitda": 1100.0,
         "fcf": 550.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 245,
+        "net_leverage": 2.18,
+        "ebitda": 1100.0,
+        "fcf": -66.2,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -55305,6 +56189,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A-",
+        "price": 100.1,
+        "ytm": 4.95,
+        "spread_bp": 75,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -56111,6 +57008,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 0.83,
         "ebitda": 480.0,
         "fcf": 240.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / Ba3",
+        "price": 102.0,
+        "ytm": 7.95,
+        "spread_bp": 390,
+        "net_leverage": 0.83,
+        "ebitda": 480.0,
+        "fcf": -127.7,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -56922,6 +57832,19 @@ const MASTER_ISSUERS = [
         "ebitda": 4800.0,
         "fcf": 2400.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / B3",
+        "price": 97.2,
+        "ytm": 9.15,
+        "spread_bp": 475,
+        "net_leverage": 1.29,
+        "ebitda": 4800.0,
+        "fcf": 586.8,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "commodity_drivers": {
@@ -57698,6 +58621,19 @@ const MASTER_ISSUERS = [
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Ba2 / BB-",
+        "price": 98.0,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -58368,9 +59304,9 @@ const MASTER_ISSUERS = [
         "price": 93.3,
         "ytm": 6.2,
         "spread_bp": 100,
-        "net_leverage": 1,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "net_leverage": 1.0,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58382,8 +59318,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.8,
         "spread_bp": 94,
         "net_leverage": 0.9,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58391,12 +59327,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "A1 / A+",
-        "price": 96,
+        "price": 96.0,
         "ytm": 5.45,
         "spread_bp": 90,
         "net_leverage": 0.8,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58408,8 +59344,8 @@ const MASTER_ISSUERS = [
         "ytm": 5.15,
         "spread_bp": 84,
         "net_leverage": 0.7,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58418,11 +59354,11 @@ const MASTER_ISSUERS = [
         "timestamp": "2025-03-31T16:00:00Z",
         "rating": "A1 / A+",
         "price": 97.1,
-        "ytm": 5,
+        "ytm": 5.0,
         "spread_bp": 82,
         "net_leverage": 0.67,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58434,8 +59370,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.75,
         "spread_bp": 78,
         "net_leverage": 0.6,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58447,8 +59383,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.65,
         "spread_bp": 77,
         "net_leverage": 0.55,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58460,8 +59396,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.6,
         "spread_bp": 76,
         "net_leverage": 0.53,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58473,8 +59409,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.7,
         "spread_bp": 78,
         "net_leverage": 0.57,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58486,8 +59422,8 @@ const MASTER_ISSUERS = [
         "ytm": 4.8,
         "spread_bp": 79,
         "net_leverage": 0.63,
-        "ebitda": 7200,
-        "fcf": 3600,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -58499,8 +59435,21 @@ const MASTER_ISSUERS = [
         "ytm": 4.85,
         "spread_bp": 80,
         "net_leverage": 0.65,
+        "ebitda": 7200.0,
+        "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A+",
+        "price": 97.5,
+        "ytm": 4.85,
+        "spread_bp": 80,
+        "net_leverage": 0.65,
         "ebitda": 7200,
-        "fcf": 3600,
+        "fcf": 1649.2,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -59311,6 +60260,19 @@ const MASTER_ISSUERS = [
         "ebitda": 5600.0,
         "fcf": 2800.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Aa3 / AA-",
+        "price": 98.5,
+        "ytm": 4.9,
+        "spread_bp": 85,
+        "net_leverage": 1.85,
+        "ebitda": 5600.0,
+        "fcf": -1321.6,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -60118,6 +61080,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 0.38,
         "ebitda": 185.0,
         "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.0,
+        "ytm": 9.85,
+        "spread_bp": 550,
+        "net_leverage": 0.38,
+        "ebitda": 185.0,
+        "fcf": 9.7,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -60942,6 +61917,19 @@ const MASTER_ISSUERS = [
         "ebitda": 4400.0,
         "fcf": 2200.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / BB-",
+        "price": 99.2,
+        "ytm": 7.45,
+        "spread_bp": 340,
+        "net_leverage": 1.95,
+        "ebitda": 4400.0,
+        "fcf": -9.9,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -61744,6 +62732,19 @@ const MASTER_ISSUERS = [
         "ebitda": 1350.0,
         "fcf": 675.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB / BB-",
+        "price": 99.8,
+        "ytm": 7.15,
+        "spread_bp": 310,
+        "net_leverage": 1.45,
+        "ebitda": 1350.0,
+        "fcf": 127.3,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -62435,8 +63436,8 @@ const MASTER_ISSUERS = [
         "ytm": 15.15,
         "spread_bp": 1181,
         "net_leverage": 2.65,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62448,8 +63449,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.75,
         "spread_bp": 1115,
         "net_leverage": 2.55,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62457,12 +63458,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q3 2024",
         "timestamp": "2024-09-30T16:00:00Z",
         "rating": "B- / Caa1",
-        "price": 85,
+        "price": 85.0,
         "ytm": 14.4,
         "spread_bp": 1058,
         "net_leverage": 2.45,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62474,8 +63475,8 @@ const MASTER_ISSUERS = [
         "ytm": 14.1,
         "spread_bp": 992,
         "net_leverage": 2.35,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62487,8 +63488,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.95,
         "spread_bp": 973,
         "net_leverage": 2.32,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62500,8 +63501,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.7,
         "spread_bp": 926,
         "net_leverage": 2.25,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62513,8 +63514,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.6,
         "spread_bp": 907,
         "net_leverage": 2.2,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62526,8 +63527,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.55,
         "spread_bp": 898,
         "net_leverage": 2.18,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62539,8 +63540,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.65,
         "spread_bp": 917,
         "net_leverage": 2.22,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62552,8 +63553,8 @@ const MASTER_ISSUERS = [
         "ytm": 13.75,
         "spread_bp": 936,
         "net_leverage": 2.28,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -62565,8 +63566,21 @@ const MASTER_ISSUERS = [
         "ytm": 13.8,
         "spread_bp": 945,
         "net_leverage": 2.3,
-        "ebitda": 820,
-        "fcf": 410,
+        "ebitda": 820.0,
+        "fcf": 410.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / Caa1",
+        "price": 86.5,
+        "ytm": 13.8,
+        "spread_bp": 945,
+        "net_leverage": 1.3,
+        "ebitda": 1093.7,
+        "fcf": 152.0,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -63486,6 +64500,19 @@ const MASTER_ISSUERS = [
         "ebitda": 1800.0,
         "fcf": 900.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB / BB-",
+        "price": 99.5,
+        "ytm": 7.2,
+        "spread_bp": 315,
+        "net_leverage": 0.75,
+        "ebitda": 1800.0,
+        "fcf": -179.5,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "commodity_drivers": {
@@ -64262,6 +65289,19 @@ const MASTER_ISSUERS = [
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -64933,8 +65973,8 @@ const MASTER_ISSUERS = [
         "ytm": 8.3,
         "spread_bp": 362,
         "net_leverage": 1.5,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -64942,12 +65982,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q2 2024",
         "timestamp": "2024-06-30T16:00:00Z",
         "rating": "BB / BB-",
-        "price": 94,
+        "price": 94.0,
         "ytm": 7.9,
         "spread_bp": 342,
         "net_leverage": 1.4,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -64959,8 +65999,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.55,
         "spread_bp": 325,
         "net_leverage": 1.3,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -64968,12 +66008,12 @@ const MASTER_ISSUERS = [
         "period_name": "Q4 2024",
         "timestamp": "2024-12-31T16:00:00Z",
         "rating": "BB / BB-",
-        "price": 96,
+        "price": 96.0,
         "ytm": 7.25,
         "spread_bp": 304,
         "net_leverage": 1.2,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -64985,8 +66025,8 @@ const MASTER_ISSUERS = [
         "ytm": 7.1,
         "spread_bp": 299,
         "net_leverage": 1.17,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -64998,8 +66038,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.85,
         "spread_bp": 284,
         "net_leverage": 1.1,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -65011,8 +66051,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.75,
         "spread_bp": 278,
         "net_leverage": 1.05,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -65024,8 +66064,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.7,
         "spread_bp": 276,
         "net_leverage": 1.03,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -65037,8 +66077,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.8,
         "spread_bp": 281,
         "net_leverage": 1.07,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -65050,8 +66090,8 @@ const MASTER_ISSUERS = [
         "ytm": 6.9,
         "spread_bp": 287,
         "net_leverage": 1.13,
-        "ebitda": 1750,
-        "fcf": 875,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
         "guidance_status": "Ahead of Target"
       },
       {
@@ -65063,8 +66103,21 @@ const MASTER_ISSUERS = [
         "ytm": 6.95,
         "spread_bp": 290,
         "net_leverage": 1.15,
+        "ebitda": 1750.0,
+        "fcf": 875.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB / BB-",
+        "price": 96.8,
+        "ytm": 6.95,
+        "spread_bp": 290,
+        "net_leverage": 1.15,
         "ebitda": 1750,
-        "fcf": 875,
+        "fcf": 244.5,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -65904,6 +66957,19 @@ const MASTER_ISSUERS = [
         "ebitda": 380.0,
         "fcf": 20.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "CCC / Caa3",
+        "price": 64.0,
+        "ytm": 19.25,
+        "spread_bp": 1485,
+        "net_leverage": 3.86,
+        "ebitda": 380.0,
+        "fcf": -98.3,
+        "guidance_status": "On Track"
       }
     ],
     "broker_snapshots": [
@@ -66662,6 +67728,19 @@ const MASTER_ISSUERS = [
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.2,
+        "ytm": 6.95,
+        "spread_bp": 235,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -67419,6 +68498,19 @@ const MASTER_ISSUERS = [
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.4,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ],
@@ -68293,6 +69385,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 4.82,
         "ebitda": 320.0,
         "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / CCC+",
+        "price": 94.5,
+        "ytm": 11.2,
+        "spread_bp": 680,
+        "net_leverage": 4.82,
+        "ebitda": 320.0,
+        "fcf": -198.1,
         "guidance_status": "Under Watch"
       }
     ],

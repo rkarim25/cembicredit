@@ -147,6 +147,19 @@
       "ebitda": 320.0,
       "fcf": 160.0,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:43:27.084957",
+      "rating": "B- / CCC+",
+      "price": 94.5,
+      "ytm": 11.2,
+      "spread_bp": 680,
+      "net_leverage": 4.82,
+      "ebitda": 320.0,
+      "fcf": -198.1,
+      "guidance_status": "Under Watch"
     }
   ]
 }

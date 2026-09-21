@@ -580,9 +580,9 @@
       "price": 95.2,
       "ytm": 8.25,
       "spread_bp": 356,
-      "net_leverage": 2,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "net_leverage": 2.0,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -594,8 +594,8 @@
       "ytm": 7.85,
       "spread_bp": 336,
       "net_leverage": 1.9,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -607,8 +607,8 @@
       "ytm": 7.5,
       "spread_bp": 319,
       "net_leverage": 1.8,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -620,8 +620,8 @@
       "ytm": 7.2,
       "spread_bp": 299,
       "net_leverage": 1.7,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -629,12 +629,12 @@
       "period_name": "Q1 2025",
       "timestamp": "2025-03-31T16:00:00Z",
       "rating": "Ba2 / BB+",
-      "price": 99,
+      "price": 99.0,
       "ytm": 7.05,
       "spread_bp": 294,
       "net_leverage": 1.67,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -646,8 +646,8 @@
       "ytm": 6.8,
       "spread_bp": 279,
       "net_leverage": 1.6,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -655,12 +655,12 @@
       "period_name": "Q3 2025",
       "timestamp": "2025-09-30T16:00:00Z",
       "rating": "Ba2 / BB+",
-      "price": 100,
+      "price": 100.0,
       "ytm": 6.7,
       "spread_bp": 274,
       "net_leverage": 1.55,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -672,8 +672,8 @@
       "ytm": 6.65,
       "spread_bp": 271,
       "net_leverage": 1.53,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -685,8 +685,8 @@
       "ytm": 6.75,
       "spread_bp": 276,
       "net_leverage": 1.57,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -698,8 +698,8 @@
       "ytm": 6.85,
       "spread_bp": 282,
       "net_leverage": 1.63,
-      "ebitda": 4500,
-      "fcf": 2250,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -711,8 +711,21 @@
       "ytm": 6.9,
       "spread_bp": 285,
       "net_leverage": 1.65,
+      "ebitda": 4500.0,
+      "fcf": 2250.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:43:27.084957",
+      "rating": "Ba2 / BB+",
+      "price": 99.4,
+      "ytm": 6.9,
+      "spread_bp": 285,
+      "net_leverage": 1.65,
       "ebitda": 4500,
-      "fcf": 2250,
+      "fcf": 481.2,
       "guidance_status": "Ahead of Target"
     }
   ],

@@ -2167,14 +2167,25 @@ function renderGuidanceAndNews() {
   } else {
     let nHtml = '<div style="display:flex; flex-direction:column; gap:10px;">';
     relatedNews.forEach(n => {
+      const impactBadge = n.credit_impact === 'Positive' ? 'badge-ig' : (n.credit_impact === 'Negative' ? 'badge-stress' : 'badge-hy');
       nHtml += `
-        <div style="background:#0d1525; border:1px solid #1e2d45; border-radius:6px; padding:10px 12px;">
-          <div style="display:flex; justify-content:space-between; font-size:11px; margin-bottom:4px;">
-            <span style="color:#fbbf24; font-weight:700;">${n.date}</span>
-            <span style="color:var(--text-dim);">${n.source || 'News Wire'}</span>
+        <div style="background:#0d1525; border:1px solid #1e2d45; border-radius:6px; padding:12px 14px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; font-size:11px; margin-bottom:6px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+              <span style="color:#fbbf24; font-weight:700;">${n.date}</span>
+              <span class="badge ${impactBadge}" style="font-size:9.5px; padding:1px 6px;">${n.credit_impact}</span>
+              <span style="color:#94a3b8; font-size:10.5px;">${n.category}</span>
+            </div>
+            <span style="color:var(--text-dim); font-size:10.5px;">Source: ${n.source || 'News Wire'}</span>
           </div>
-          <div style="font-weight:700; color:#fff; font-size:12px; margin-bottom:4px;">${escapeHtml(n.headline)}</div>
-          <div style="font-size:11px; color:#94a3b8; line-height:1.4;">${escapeHtml(n.concise_analysis || n.credit_commentary || '')}</div>
+          <div style="margin-bottom:6px;">
+            <a href="${n.url}" target="_blank" rel="noopener noreferrer" style="font-weight:700; color:#38bdf8; font-size:12.5px; text-decoration:none; line-height:1.4;">
+              ${escapeHtml(n.headline)} <span style="font-size:10px; opacity:0.8;">↗</span>
+            </a>
+          </div>
+          <div style="font-size:11.5px; color:#cbd5e1; line-height:1.45; background:#080e1a; padding:8px 10px; border-radius:4px; border-left:3px solid ${n.credit_impact === 'Positive' ? '#10b981' : (n.credit_impact === 'Negative' ? '#ef4444' : '#f59e0b')};">
+            <strong style="color:#fff;">Credit Desk Analysis:</strong> ${escapeHtml(n.concise_analysis || n.credit_commentary || '')}
+          </div>
         </div>
       `;
     });

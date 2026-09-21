@@ -1,5 +1,5 @@
 // CEMBI Credit Master Platform - Cumulative Historical Snapshots Time Series
-// Last Snapshot Recorded: 2026-09-20 (2026-09-20T19:59:49.383781)
+// Last Snapshot Recorded: 2026-09-21 (2026-09-21T06:43:27.084957)
 // Total Issuers: 85
 
 window.CREDIT_HISTORY_DATA = {
@@ -151,6 +151,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 3.85,
         "ebitda": 920.0,
         "fcf": 460.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Baa2 / BBB",
+        "price": 96.5,
+        "ytm": 6.45,
+        "spread_bp": 235,
+        "net_leverage": 3.85,
+        "ebitda": 920.0,
+        "fcf": -1205.0,
         "guidance_status": "On Track"
       }
     ]
@@ -304,6 +317,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A",
+        "price": 99.8,
+        "ytm": 5.05,
+        "spread_bp": 85,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -455,6 +481,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 2.62,
         "ebitda": 145.0,
         "fcf": 72.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 98.0,
+        "ytm": 9.25,
+        "spread_bp": 485,
+        "net_leverage": 2.62,
+        "ebitda": 145.0,
+        "fcf": -56.6,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -608,6 +647,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 165.0,
         "fcf": 82.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / B3",
+        "price": 103.01,
+        "ytm": 9.35,
+        "spread_bp": 457,
+        "net_leverage": 1.52,
+        "ebitda": 339.4,
+        "fcf": -62.5,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -759,6 +811,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 100.2,
+        "ytm": 6.45,
+        "spread_bp": 185,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -912,6 +977,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 1550.0,
         "fcf": 775.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / Baa2",
+        "price": 100.1,
+        "ytm": 5.25,
+        "spread_bp": 105,
+        "net_leverage": 0.51,
+        "ebitda": 1550.0,
+        "fcf": -185.4,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -1063,6 +1141,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.89,
         "ebitda": 270.0,
         "fcf": 135.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B1",
+        "price": 99.66,
+        "ytm": 8.13,
+        "spread_bp": 329,
+        "net_leverage": 2.74,
+        "ebitda": 414.0,
+        "fcf": -185.0,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -1216,6 +1307,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 160.0,
         "fcf": 80.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B-",
+        "price": 89.0,
+        "ytm": 12.15,
+        "spread_bp": 780,
+        "net_leverage": 2.63,
+        "ebitda": 160.0,
+        "fcf": -15.1,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -1367,6 +1471,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 4.11,
         "ebitda": 190.0,
         "fcf": 95.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B3",
+        "price": 96.5,
+        "ytm": 8.95,
+        "spread_bp": 455,
+        "net_leverage": 4.11,
+        "ebitda": 190.0,
+        "fcf": -82.6,
         "guidance_status": "On Track"
       }
     ]
@@ -1520,6 +1637,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 2250.0,
         "fcf": 1125.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / Ba3",
+        "price": 98.5,
+        "ytm": 8.45,
+        "spread_bp": 410,
+        "net_leverage": 1.58,
+        "ebitda": 2250.0,
+        "fcf": 376.9,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -1671,6 +1801,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 3.4,
         "ebitda": 1250.0,
         "fcf": 625.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B+",
+        "price": 101.8,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 3.4,
+        "ebitda": 1250.0,
+        "fcf": -222.1,
         "guidance_status": "On Track"
       }
     ]
@@ -1824,6 +1967,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 380.0,
         "fcf": 190.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B",
+        "price": 101.5,
+        "ytm": 8.85,
+        "spread_bp": 480,
+        "net_leverage": 0.89,
+        "ebitda": 380.0,
+        "fcf": -97.4,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -1975,6 +2131,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.05,
         "ebitda": 720.0,
         "fcf": 360.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / BBB",
+        "price": 97.2,
+        "ytm": 5.35,
+        "spread_bp": 130,
+        "net_leverage": 1.05,
+        "ebitda": 720.0,
+        "fcf": 150.1,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -2128,6 +2297,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 4200.0,
         "fcf": 2100.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A- / A3",
+        "price": 99.8,
+        "ytm": 4.95,
+        "spread_bp": 90,
+        "net_leverage": 1.4,
+        "ebitda": 4200,
+        "fcf": -1083.6,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -2279,6 +2461,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 0.29,
         "ebitda": 680.0,
         "fcf": 340.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / Ba3",
+        "price": 101.0,
+        "ytm": 7.25,
+        "spread_bp": 320,
+        "net_leverage": 0.29,
+        "ebitda": 680.0,
+        "fcf": -134.1,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -2432,6 +2627,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 650.0,
         "fcf": 325.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 96.0,
+        "ytm": 11.5,
+        "spread_bp": 715,
+        "net_leverage": 2.77,
+        "ebitda": 650.0,
+        "fcf": -14.9,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -2583,6 +2791,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 2.43,
         "ebitda": 100.0,
         "fcf": 50.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 95.0,
+        "ytm": 12.5,
+        "spread_bp": 815,
+        "net_leverage": 2.43,
+        "ebitda": 100.0,
+        "fcf": -735.0,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -2736,6 +2957,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 360.0,
         "fcf": 180.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / Ba3 / B+",
+        "price": 99.5,
+        "ytm": 8.15,
+        "spread_bp": 410,
+        "net_leverage": 3.47,
+        "ebitda": 360.0,
+        "fcf": -142.7,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -2887,6 +3121,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A3 / A",
+        "price": 99.7,
+        "ytm": 5.1,
+        "spread_bp": 90,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -3040,6 +3287,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 5100.0,
         "fcf": 2550.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB+ / Baa2",
+        "price": 98,
+        "ytm": 5.35,
+        "spread_bp": 120,
+        "net_leverage": 3.23,
+        "ebitda": 5100,
+        "fcf": 347.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -3191,6 +3451,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 3.02,
         "ebitda": 420.0,
         "fcf": 210.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "CCC / Caa3",
+        "price": 68.5,
+        "ytm": 18.5,
+        "spread_bp": 1410,
+        "net_leverage": 3.02,
+        "ebitda": 420.0,
+        "fcf": -100.0,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -3344,6 +3617,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 3200.0,
         "fcf": 1600.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB / Baa2",
+        "price": 100.2,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": 100.0,
+        "ebitda": 3200.0,
+        "fcf": -240.0,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -3495,6 +3781,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 0.49,
         "ebitda": 350.0,
         "fcf": 175.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- Local",
+        "price": 97.5,
+        "ytm": 10.5,
+        "spread_bp": 610,
+        "net_leverage": 0.49,
+        "ebitda": 350.0,
+        "fcf": -98.1,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -3648,6 +3947,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A2 / A+",
+        "price": 100.25,
+        "ytm": 4.9,
+        "spread_bp": 70,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -3799,6 +4111,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.65,
         "ebitda": 980.0,
         "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Baa2 / BBB",
+        "price": 98.2,
+        "ytm": 5.55,
+        "spread_bp": 150,
+        "net_leverage": 1.65,
+        "ebitda": 980.0,
+        "fcf": 38.4,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -3952,6 +4277,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 850.0,
         "fcf": 425.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 98.5,
+        "ytm": 7.95,
+        "spread_bp": 355,
+        "net_leverage": 2.12,
+        "ebitda": 850.0,
+        "fcf": -162.4,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -4103,6 +4441,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 6.8,
         "ebitda": 2200.0,
         "fcf": 1100.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B-",
+        "price": 99.0,
+        "ytm": 8.5,
+        "spread_bp": 445,
+        "net_leverage": 6.8,
+        "ebitda": 2200.0,
+        "fcf": -1991.7,
         "guidance_status": "On Track"
       }
     ]
@@ -4256,6 +4607,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Aa3 / AA-",
+        "price": 100.5,
+        "ytm": 4.85,
+        "spread_bp": 65,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -4407,6 +4771,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Ba2 / BB-",
+        "price": 98.8,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -4560,6 +4937,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.55,
+        "spread_bp": 195,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -4711,6 +5101,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 2.62,
         "ebitda": 195.0,
         "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 98.2,
+        "ytm": 9.1,
+        "spread_bp": 470,
+        "net_leverage": 2.62,
+        "ebitda": 195.0,
+        "fcf": -77.1,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -4864,6 +5267,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 2100.0,
         "fcf": 1050.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / Baa3",
+        "price": 100.2,
+        "ytm": 6.05,
+        "spread_bp": 200,
+        "net_leverage": 0.85,
+        "ebitda": 2100,
+        "fcf": 281.4,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -5015,6 +5431,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B3",
+        "price": 98.1,
+        "ytm": 7.35,
+        "spread_bp": 275,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -5168,6 +5597,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Baa1 / BBB-",
+        "price": 99.0,
+        "ytm": 6.2,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -5319,6 +5761,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 4.49,
         "ebitda": 385.0,
         "fcf": 192.4,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2",
+        "price": 94.25,
+        "ytm": 8.75,
+        "spread_bp": 440,
+        "net_leverage": 4.49,
+        "ebitda": 395.0,
+        "fcf": 15.0,
         "guidance_status": "On Track"
       }
     ]
@@ -5472,6 +5927,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 1550.0,
         "fcf": 775.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB-",
+        "price": 99.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 0.4,
+        "ebitda": 1550.0,
+        "fcf": -250.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -5623,6 +6091,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 3.16,
         "ebitda": 1120.0,
         "fcf": 560.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B2",
+        "price": 91.5,
+        "ytm": 10.25,
+        "spread_bp": 590,
+        "net_leverage": 3.16,
+        "ebitda": 1120,
+        "fcf": 8.6,
         "guidance_status": "On Track"
       }
     ]
@@ -5776,6 +6257,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 225,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -5927,6 +6421,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 2.41,
         "ebitda": 195.0,
         "fcf": 97.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B1",
+        "price": 98.5,
+        "ytm": 9.1,
+        "spread_bp": 505,
+        "net_leverage": 2.41,
+        "ebitda": 195.0,
+        "fcf": -16.6,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -6080,6 +6587,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A2 / A",
+        "price": 99.2,
+        "ytm": 5.2,
+        "spread_bp": 115,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -6231,6 +6751,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.45,
         "ebitda": 4800.0,
         "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / Baa2",
+        "price": 88.5,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": 1.45,
+        "ebitda": 4800.0,
+        "fcf": 451.7,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -6384,6 +6917,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 4800.0,
         "fcf": 2400.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB / BB+",
+        "price": 98.5,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 1.25,
+        "ebitda": 4800.0,
+        "fcf": -512.9,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -6535,6 +7081,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 2.31,
         "ebitda": 1050.0,
         "fcf": 525.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / B3",
+        "price": 89.5,
+        "ytm": 10.45,
+        "spread_bp": 610,
+        "net_leverage": 2.99,
+        "ebitda": 810.0,
+        "fcf": -55.0,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -6688,6 +7247,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 185.0,
         "fcf": 92.4,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B",
+        "price": 98.8,
+        "ytm": 8.25,
+        "spread_bp": 385,
+        "net_leverage": 2.27,
+        "ebitda": 185.0,
+        "fcf": -4.8,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -6839,6 +7411,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 3.08,
         "ebitda": 78.0,
         "fcf": 39.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B3",
+        "price": 98.5,
+        "ytm": 7.85,
+        "spread_bp": 345,
+        "net_leverage": 3.08,
+        "ebitda": 78.0,
+        "fcf": 7.5,
         "guidance_status": "On Track"
       }
     ]
@@ -6992,6 +7577,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 275.0,
         "fcf": 137.6,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / B2",
+        "price": 98.2,
+        "ytm": 8.75,
+        "spread_bp": 435,
+        "net_leverage": 4.0,
+        "ebitda": 275.0,
+        "fcf": -110.8,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -7143,6 +7741,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 5.12,
         "ebitda": 210.0,
         "fcf": 105.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / Caa1",
+        "price": 104.22,
+        "ytm": 9.58,
+        "spread_bp": 471,
+        "net_leverage": 4.13,
+        "ebitda": 185.0,
+        "fcf": 26.8,
         "guidance_status": "On Track"
       }
     ]
@@ -7296,6 +7907,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 1450.0,
         "fcf": 725.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB / BBB",
+        "price": 98.0,
+        "ytm": 5.65,
+        "spread_bp": 160,
+        "net_leverage": 2.85,
+        "ebitda": 1450.0,
+        "fcf": 91.5,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -7447,6 +8071,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.79,
         "ebitda": 920.0,
         "fcf": 460.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "CCC+",
+        "price": 93.27,
+        "ytm": 14.98,
+        "spread_bp": 1022,
+        "net_leverage": 1.18,
+        "ebitda": 737.0,
+        "fcf": -193.0,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -7600,6 +8237,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 460.0,
         "fcf": 230.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "CCC+ / Caa2",
+        "price": 82.5,
+        "ytm": 13.1,
+        "spread_bp": 875,
+        "net_leverage": 2.89,
+        "ebitda": 460.0,
+        "fcf": 1.6,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -7751,6 +8401,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.1,
         "ebitda": 3100.0,
         "fcf": 1550.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB-",
+        "price": 98.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 1.1,
+        "ebitda": 3100.0,
+        "fcf": -22.2,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -7904,6 +8567,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 4500.0,
         "fcf": 2250.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Ba2 / BB+",
+        "price": 99.4,
+        "ytm": 6.9,
+        "spread_bp": 285,
+        "net_leverage": 1.65,
+        "ebitda": 4500,
+        "fcf": 481.2,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -8055,6 +8731,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 2.34,
         "ebitda": 3200.0,
         "fcf": 1600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB- / Baa3",
+        "price": 99.5,
+        "ytm": 6.45,
+        "spread_bp": 155,
+        "net_leverage": 2.34,
+        "ebitda": 3200,
+        "fcf": 209.9,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -8208,6 +8897,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 2800.0,
         "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A2 / A-",
+        "price": 97.8,
+        "ytm": 5,
+        "spread_bp": 95,
+        "net_leverage": 1.1,
+        "ebitda": 2800,
+        "fcf": 547.3,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -8359,6 +9061,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.8,
         "ebitda": 4600.0,
         "fcf": 2300.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB+ / BBB-",
+        "price": 99.5,
+        "ytm": 5.9,
+        "spread_bp": 185,
+        "net_leverage": 1.8,
+        "ebitda": 4600.0,
+        "fcf": -149.6,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -8512,6 +9227,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 8500.0,
         "fcf": 4250.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB+ / A3",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 0.95,
+        "ebitda": 8500,
+        "fcf": 10.5,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -8663,6 +9391,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 2.1,
         "ebitda": 950.0,
         "fcf": 475.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B+ / BB-",
+        "price": 103.5,
+        "ytm": 7.65,
+        "spread_bp": 360,
+        "net_leverage": 2.1,
+        "ebitda": 950.0,
+        "fcf": 23.0,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -8816,6 +9557,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 2800.0,
         "fcf": 1400.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB+",
+        "price": 99.2,
+        "ytm": 5.3,
+        "spread_bp": 125,
+        "net_leverage": 1.85,
+        "ebitda": 2800.0,
+        "fcf": -1080.6,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -8967,6 +9721,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.2,
         "ebitda": 850.0,
         "fcf": 425.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB-",
+        "price": 97.2,
+        "ytm": 5.95,
+        "spread_bp": 190,
+        "net_leverage": 1.2,
+        "ebitda": 850.0,
+        "fcf": 107.4,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -9120,6 +9887,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Aa3 / A+",
+        "price": 99.5,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -9271,6 +10051,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A-",
+        "price": 100.8,
+        "ytm": 4.75,
+        "spread_bp": 55,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -9424,6 +10217,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A2 / A",
+        "price": 99.6,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -9575,6 +10381,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 0.65,
         "ebitda": 980.0,
         "fcf": 490.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BBB-",
+        "price": 98.5,
+        "ytm": 5.75,
+        "spread_bp": 170,
+        "net_leverage": 0.65,
+        "ebitda": 980.0,
+        "fcf": 206.4,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -9728,6 +10547,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 5800.0,
         "fcf": 2900.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A+",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 1.15,
+        "ebitda": 5800.0,
+        "fcf": -398.6,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -9879,6 +10711,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.54,
         "ebitda": 78.0,
         "fcf": 39.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B / B2 Implied",
+        "price": 97.5,
+        "ytm": 10.4,
+        "spread_bp": 600,
+        "net_leverage": 1.54,
+        "ebitda": 78.0,
+        "fcf": 8.7,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -10032,6 +10877,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 2850.0,
         "fcf": 1425.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB+ / Ba1",
+        "price": 98.4,
+        "ytm": 7.85,
+        "spread_bp": 365,
+        "net_leverage": 2.37,
+        "ebitda": 2450.0,
+        "fcf": -230.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -10183,6 +11041,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 3.2,
         "ebitda": 8400.0,
         "fcf": 4200.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A",
+        "price": 99.2,
+        "ytm": 5.15,
+        "spread_bp": 110,
+        "net_leverage": 3.2,
+        "ebitda": 8400.0,
+        "fcf": -3030.2,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -10336,6 +11207,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 1100.0,
         "fcf": 550.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 245,
+        "net_leverage": 2.18,
+        "ebitda": 1100.0,
+        "fcf": -66.2,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -10487,6 +11371,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A-",
+        "price": 100.1,
+        "ytm": 4.95,
+        "spread_bp": 75,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -10640,6 +11537,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 480.0,
         "fcf": 240.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / Ba3",
+        "price": 102.0,
+        "ytm": 7.95,
+        "spread_bp": 390,
+        "net_leverage": 0.83,
+        "ebitda": 480.0,
+        "fcf": -127.7,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -10791,6 +11701,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.29,
         "ebitda": 4800.0,
         "fcf": 2400.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / B3",
+        "price": 97.2,
+        "ytm": 9.15,
+        "spread_bp": 475,
+        "net_leverage": 1.29,
+        "ebitda": 4800.0,
+        "fcf": 586.8,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -10944,6 +11867,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Ba2 / BB-",
+        "price": 98.0,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -11095,6 +12031,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 0.65,
         "ebitda": 7200.0,
         "fcf": 3600.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "A1 / A+",
+        "price": 97.5,
+        "ytm": 4.85,
+        "spread_bp": 80,
+        "net_leverage": 0.65,
+        "ebitda": 7200,
+        "fcf": 1649.2,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -11248,6 +12197,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 5600.0,
         "fcf": 2800.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "Aa3 / AA-",
+        "price": 98.5,
+        "ytm": 4.9,
+        "spread_bp": 85,
+        "net_leverage": 1.85,
+        "ebitda": 5600.0,
+        "fcf": -1321.6,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -11399,6 +12361,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 0.38,
         "ebitda": 185.0,
         "fcf": 92.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.0,
+        "ytm": 9.85,
+        "spread_bp": 550,
+        "net_leverage": 0.38,
+        "ebitda": 185.0,
+        "fcf": 9.7,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -11552,6 +12527,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 4400.0,
         "fcf": 2200.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / BB-",
+        "price": 99.2,
+        "ytm": 7.45,
+        "spread_bp": 340,
+        "net_leverage": 1.95,
+        "ebitda": 4400.0,
+        "fcf": -9.9,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -11703,6 +12691,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 1.45,
         "ebitda": 1350.0,
         "fcf": 675.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB / BB-",
+        "price": 99.8,
+        "ytm": 7.15,
+        "spread_bp": 310,
+        "net_leverage": 1.45,
+        "ebitda": 1350.0,
+        "fcf": 127.3,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -11856,6 +12857,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 820.0,
         "fcf": 410.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / Caa1",
+        "price": 86.5,
+        "ytm": 13.8,
+        "spread_bp": 945,
+        "net_leverage": 1.3,
+        "ebitda": 1093.7,
+        "fcf": 152.0,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -12007,6 +13021,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 0.75,
         "ebitda": 1800.0,
         "fcf": 900.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB / BB-",
+        "price": 99.5,
+        "ytm": 7.2,
+        "spread_bp": 315,
+        "net_leverage": 0.75,
+        "ebitda": 1800.0,
+        "fcf": -179.5,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -12160,6 +13187,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 1750.0,
         "fcf": 875.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB / BB-",
+        "price": 96.8,
+        "ytm": 6.95,
+        "spread_bp": 290,
+        "net_leverage": 1.15,
+        "ebitda": 1750,
+        "fcf": 244.5,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -12311,6 +13351,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -12464,6 +13517,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": 380.0,
         "fcf": 20.0,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "CCC / Caa3",
+        "price": 64.0,
+        "ytm": 19.25,
+        "spread_bp": 1485,
+        "net_leverage": 3.86,
+        "ebitda": 380.0,
+        "fcf": -98.3,
+        "guidance_status": "On Track"
       }
     ]
   },
@@ -12615,6 +13681,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": null,
         "ebitda": null,
         "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.2,
+        "ytm": 6.95,
+        "spread_bp": 235,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
         "guidance_status": "Ahead of Target"
       }
     ]
@@ -12768,6 +13847,19 @@ window.CREDIT_HISTORY_DATA = {
         "ebitda": null,
         "fcf": 87.5,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "BB- / B1",
+        "price": 99.4,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": null,
+        "guidance_status": "Ahead of Target"
       }
     ]
   },
@@ -12919,6 +14011,19 @@ window.CREDIT_HISTORY_DATA = {
         "net_leverage": 4.82,
         "ebitda": 320.0,
         "fcf": 160.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2026-09-21",
+        "period_name": "2026-09-21",
+        "timestamp": "2026-09-21T06:43:27.084957",
+        "rating": "B- / CCC+",
+        "price": 94.5,
+        "ytm": 11.2,
+        "spread_bp": 680,
+        "net_leverage": 4.82,
+        "ebitda": 320.0,
+        "fcf": -198.1,
         "guidance_status": "Under Watch"
       }
     ]

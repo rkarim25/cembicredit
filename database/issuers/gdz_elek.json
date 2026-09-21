@@ -326,7 +326,7 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "İzmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
+    "thesis": "\u0130zmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
   },
   "annotations": [
     {
@@ -718,6 +718,19 @@
       "net_leverage": 2.62,
       "ebitda": 195.0,
       "fcf": 97.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:43:27.084957",
+      "rating": "B / B2",
+      "price": 98.2,
+      "ytm": 9.1,
+      "spread_bp": 470,
+      "net_leverage": 2.62,
+      "ebitda": 195.0,
+      "fcf": -77.1,
       "guidance_status": "Ahead of Target"
     }
   ],

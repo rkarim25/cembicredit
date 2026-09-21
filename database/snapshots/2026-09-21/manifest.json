@@ -1,0 +1,10 @@
+{
+  "run_id": "SNAP-20260921-407",
+  "snapshot_date": "2026-09-21",
+  "timestamp": "2026-09-21T06:43:27.084957",
+  "trigger_source": "Credit & Macro News Update",
+  "total_issuers": 85,
+  "total_tranches": 340,
+  "total_guidance_metrics": 425,
+  "notes": "Updated news transmission and rating actions."
+}

@@ -52,6 +52,33 @@ def main():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
+    # Ensure historical tables exist
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS snapshot_runs (
+        id TEXT PRIMARY KEY, snapshot_date TEXT, timestamp TEXT, trigger_source TEXT,
+        issuers_count INTEGER, tranches_count INTEGER, guidance_count INTEGER, notes TEXT
+    );
+    """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS historical_market_snapshots (
+        snapshot_run_id TEXT, snapshot_date TEXT, timestamp TEXT, ticker TEXT, issuer_id TEXT, issuer_name TEXT,
+        country TEXT, sector TEXT, rating TEXT, tier TEXT, benchmark_bond TEXT, price REAL, ytm REAL, spread_bp REAL,
+        net_leverage REAL, calculated_ebitda REAL, fcf REAL, guidance_status TEXT
+    );
+    """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS historical_tranche_snapshots (
+        snapshot_run_id TEXT, snapshot_date TEXT, timestamp TEXT, ticker TEXT, tranche_name TEXT, instrument_type TEXT,
+        currency TEXT, amount_outstanding_usd_m REAL, coupon REAL, clean_price REAL, ytm REAL
+    );
+    """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS historical_guidance_snapshots (
+        snapshot_run_id TEXT, snapshot_date TEXT, timestamp TEXT, ticker TEXT, guidance_metric TEXT,
+        management_target TEXT, current_runrate TEXT, tracking_status TEXT
+    );
+    """)
+
     # 2. Load all issuer files
     issuer_files = glob.glob(os.path.join(ISSUERS_DIR, "*.json"))
     mkt_snapshot_list = []

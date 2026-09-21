@@ -102,6 +102,30 @@ def compile_all():
                         
     cur.execute("CREATE INDEX idx_issuers_sec ON issuers(sector)")
     cur.execute("CREATE INDEX idx_issuers_cty ON issuers(country)")
+
+    # Ingest credit_news if available
+    news_json_path = os.path.join(ROOT_DIR, "database", "credit_news.json")
+    if os.path.exists(news_json_path):
+        with open(news_json_path, "r", encoding="utf-8") as nf:
+            news_items = json.load(nf)
+        cur.execute("DROP TABLE IF EXISTS credit_news;")
+        cur.execute("""
+        CREATE TABLE credit_news (
+            id TEXT PRIMARY KEY, date TEXT, ticker TEXT, issuer_name TEXT, headline TEXT,
+            source TEXT, url TEXT, category TEXT, macro_transmission_channel TEXT,
+            credit_impact TEXT, impacted_issuers TEXT, concise_analysis TEXT, credit_commentary TEXT
+        );
+        """)
+        for n in news_items:
+            cur.execute("""
+                INSERT INTO credit_news VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                n["id"], n["date"], n["ticker"], n["issuer_name"], n["headline"], n["source"],
+                n["url"], n["category"], n.get("macro_transmission_channel", ""), n["credit_impact"],
+                json.dumps(n.get("impacted_issuers", [])), n.get("concise_analysis", ""), n.get("credit_commentary", "")
+            ))
+        print(f"Ingested {len(news_items)} credit news items into SQLite.")
+
     conn.commit()
     conn.close()
     print("Database compiled successfully.")

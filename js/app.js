@@ -37,6 +37,11 @@ document.addEventListener("DOMContentLoaded", () => {
 function initScreener() {
   updateKPIs();
   populateDropdowns();
+
+  const newsBadge = document.getElementById("nav-news-badge");
+  if (newsBadge && window.CREDIT_NEWS_DATA) {
+    newsBadge.textContent = `${window.CREDIT_NEWS_DATA.length} Live`;
+  }
   
   // Attach listeners
   document.getElementById("search-input").addEventListener("input", applyFilters);
@@ -1416,7 +1421,7 @@ function renderTable() {
                 </div>
               </div>
               <button class="btn-action btn-gold" onclick="openNewsModal()" style="font-size:11px; padding:4px 10px;">
-                🌐 View Full 14-Catalyst Universe Feed
+                🌐 View Full Universe Feed (${(window.CREDIT_NEWS_DATA || []).length} Catalysts)
               </button>
             </div>
 

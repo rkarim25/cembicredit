@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "cez",
-    "name": "ČEZ Group",
+    "name": "\u010cEZ Group",
     "ticker": "CEZ",
     "country": "Czech Republic",
     "region": "CEE",
@@ -328,12 +328,12 @@
     "recovery_base_pct": 100.5,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Czech Republic Commercial & Bankruptcy Code",
-    "thesis": "Czech integrated utility powerhouse; Temelín and Dukovany nuclear generation guarantees low-cost baseload."
+    "thesis": "Czech integrated utility powerhouse; Temel\u00edn and Dukovany nuclear generation guarantees low-cost baseload."
   },
   "annotations": [
     {
       "issuer_id": "cez",
-      "issuer_name": "ČEZ Group",
+      "issuer_name": "\u010cEZ Group",
       "sector": "Utilities",
       "topic": "Regulated Asset Base & Off-take PPA",
       "source": "Cognitive Credit / Citi",
@@ -341,7 +341,7 @@
     },
     {
       "issuer_id": "cez",
-      "issuer_name": "ČEZ Group",
+      "issuer_name": "\u010cEZ Group",
       "sector": "Utilities",
       "topic": "Capex Phasing & FCF Conversion",
       "source": "Company Filings",
@@ -349,7 +349,7 @@
     },
     {
       "issuer_id": "cez",
-      "issuer_name": "ČEZ Group",
+      "issuer_name": "\u010cEZ Group",
       "sector": "Utilities",
       "topic": "Sovereign Balancing & Guarantees",
       "source": "Ministry of Finance Disclosures",
@@ -357,7 +357,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+    "source_deck": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "contracted_ebitda_share": "> 90.0% contracted under long-term take-or-pay Power Purchase Agreements (PPAs)",
@@ -504,7 +504,7 @@
       "current_runrate": "$16188.0M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $16416.0M (+8.0% YoY growth). With current run-rate at $16188.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -515,7 +515,7 @@
       "current_runrate": "$4536.0M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $4620.0M (28.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -526,7 +526,7 @@
       "current_runrate": "1.40x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 3.10x buffer below covenant limit.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 4.00x Net Debt / EBITDA. Current actual leverage stands at 1.40x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -537,7 +537,7 @@
       "current_runrate": "$1420.0M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $1543.5M (Maximum growth and sustaining envelope). Current commitments stand at $1420.0M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -548,7 +548,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "ČEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
+      "last_guided_source": "\u010cEZ Group FY2024 Strategic Investor Presentation & Capital Markets Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -588,8 +588,8 @@
       "ytm": 6.3,
       "spread_bp": 112,
       "net_leverage": 1.75,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -597,12 +597,12 @@
       "period_name": "Q2 2024",
       "timestamp": "2024-06-30T16:00:00Z",
       "rating": "A- / A3",
-      "price": 97,
+      "price": 97.0,
       "ytm": 5.9,
       "spread_bp": 106,
       "net_leverage": 1.65,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -614,8 +614,8 @@
       "ytm": 5.55,
       "spread_bp": 101,
       "net_leverage": 1.55,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -623,12 +623,12 @@
       "period_name": "Q4 2024",
       "timestamp": "2024-12-31T16:00:00Z",
       "rating": "A- / A3",
-      "price": 99,
+      "price": 99.0,
       "ytm": 5.25,
       "spread_bp": 94,
       "net_leverage": 1.45,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -640,8 +640,8 @@
       "ytm": 5.1,
       "spread_bp": 93,
       "net_leverage": 1.42,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -653,8 +653,8 @@
       "ytm": 4.85,
       "spread_bp": 88,
       "net_leverage": 1.35,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -666,8 +666,8 @@
       "ytm": 4.75,
       "spread_bp": 86,
       "net_leverage": 1.3,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -679,8 +679,8 @@
       "ytm": 4.7,
       "spread_bp": 86,
       "net_leverage": 1.28,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -692,8 +692,8 @@
       "ytm": 4.8,
       "spread_bp": 87,
       "net_leverage": 1.32,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -705,8 +705,8 @@
       "ytm": 4.9,
       "spread_bp": 89,
       "net_leverage": 1.38,
-      "ebitda": 4200,
-      "fcf": 2100,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
       "guidance_status": "Ahead of Target"
     },
     {
@@ -718,8 +718,21 @@
       "ytm": 4.95,
       "spread_bp": 90,
       "net_leverage": 1.4,
+      "ebitda": 4200.0,
+      "fcf": 2100.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:43:27.084957",
+      "rating": "A- / A3",
+      "price": 99.8,
+      "ytm": 4.95,
+      "spread_bp": 90,
+      "net_leverage": 1.4,
       "ebitda": 4200,
-      "fcf": 2100,
+      "fcf": -1083.6,
       "guidance_status": "Ahead of Target"
     }
   ],
@@ -728,7 +741,7 @@
       "broker": "Consensus Sell-Side",
       "analyst": "Composite EM Credit Desk",
       "report_date": "2024-12-01",
-      "report_title": "ČEZ Group: Forward Earnings & Refinancing Profile",
+      "report_title": "\u010cEZ Group: Forward Earnings & Refinancing Profile",
       "recommendation": "Neutral",
       "target_spread_bps": 450,
       "raw_model": {

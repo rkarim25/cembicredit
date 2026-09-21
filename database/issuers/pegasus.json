@@ -326,7 +326,7 @@
     "recovery_base_pct": 102.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Ultra-low-cost carrier based at Sabiha Gökçen; highest EBITDAR margin among European low-cost carriers."
+    "thesis": "Ultra-low-cost carrier based at Sabiha G\u00f6k\u00e7en; highest EBITDAR margin among European low-cost carriers."
   },
   "annotations": [
     {
@@ -714,6 +714,19 @@
       "net_leverage": 2.1,
       "ebitda": 950.0,
       "fcf": 475.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:43:27.084957",
+      "rating": "B+ / BB-",
+      "price": 103.5,
+      "ytm": 7.65,
+      "spread_bp": 360,
+      "net_leverage": 2.1,
+      "ebitda": 950.0,
+      "fcf": 23.0,
       "guidance_status": "Ahead of Target"
     }
   ],
