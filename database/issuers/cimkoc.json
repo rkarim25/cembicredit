@@ -242,28 +242,49 @@
   },
   "management_guidance_tracker": [
     {
-      "metric": "FY26 Baseline Capex",
-      "guidance_value": ".0M",
-      "desk_expectation": ".0M - .0M",
-      "status": "ON_TRACK"
+      "guidance_metric": "FY26 Total Capex Program",
+      "metric": "FY26 Total Capex Program",
+      "management_target": ".0M - .0M Total Capex",
+      "previous_target": ".0M baseline only",
+      "revision_status": "REVISED_UP_EXPANSION",
+      "revision_highlight": "Expanded from  baseline to -60M (+67% to +100%) to include  dedicated Syrian export capacity.",
+      "details": "Comprises  baseline sustaining and environmental capex plus up to  for Syrian export grinding and clinker loading capacity near the border to capture premium USD reconstruction demand.",
+      "current_runrate": "2Q26 capex was minimal (<); spending ramps in 2H26.",
+      "tracking_status": "On Track",
+      "variance_analysis": "Management actively deploying export capital; cash reserves of  comfortably fund the ramp without external debt.",
+      "forecasting_impact": "Directly anchored into 2026E Capex line at -.0M (midpoint), driving 2026E FCF to .0M.",
+      "last_guided_source": "J.P. Morgan 2Q26 Earnings Review & Management Conference Call",
+      "last_verified_period": "2Q26 / 1H26"
     },
     {
-      "metric": "Syrian Export Expansion Capex",
-      "guidance_value": "Up to .0M",
-      "desk_expectation": ".0M - .0M",
-      "status": "MONITORING"
+      "guidance_metric": "YE26 Net Leverage Trajectory",
+      "metric": "YE26 Net Leverage Trajectory",
+      "management_target": "2.5x - 3.0x Peak Net Leverage",
+      "previous_target": "< 2.0x (Historical YE25 1.8x)",
+      "revision_status": "REVISED_UP_CYCLICAL",
+      "revision_highlight": "Leverage cresting at 2.5-3.0x by YE26 (up from 1.8x at YE25 and 2.3x in 2Q26) following  post-period dividend and capex ramp.",
+      "details": "Includes full lease liabilities and reflects temporary working capital absorption. Guided to crest in late 2026 before deleveraging back towards 2.0x in 2027 as Syrian cash flows ramp.",
+      "current_runrate": "2.3x as of 2Q26 (Net Debt  / TRY 19.2B against cash of  / TRY 4.87B).",
+      "tracking_status": "On Track",
+      "variance_analysis": "Comfortable 50-100 bps headroom below the 3.50x bond incurrence covenant; interest coverage remains solid at >7.0x.",
+      "forecasting_impact": "Enforces 2026E Net Debt forecast bound () and validates desk Overweight carry thesis on CIMKOC 30s.",
+      "last_guided_source": "J.P. Morgan 2Q26 Earnings Review & Management Guidance",
+      "last_verified_period": "2Q26"
     },
     {
-      "metric": "YE26 Net Leverage Target",
-      "guidance_value": "2.5x - 3.0x",
-      "desk_expectation": "2.66x (Comfortable within covenant of 3.5x)",
-      "status": "ON_TRACK"
-    },
-    {
-      "metric": "Domestic Cement Pricing",
-      "guidance_value": "> / tonne",
-      "desk_expectation": ".0 / tonne (Achieved in 1H26)",
-      "status": "BEATING_GUIDANCE"
+      "guidance_metric": "Domestic Cement Pricing Corridor",
+      "metric": "Domestic Cement Pricing Corridor",
+      "management_target": ">.0 / tonne",
+      "previous_target": ".0 - .0 / tonne",
+      "revision_status": "REVISED_UP_PRICING",
+      "revision_highlight": "Pricing raised above /t following 1H26 print of /t (up +11% YoY from /t in 1H25).",
+      "details": "Southeastern regional supply tightness and rebuilding momentum in earthquake zones provide localized pricing power, insulating margins against raw material inflation.",
+      "current_runrate": ".0 / tonne in 1H26 (vs /t in 1H25 and /t in FY25).",
+      "tracking_status": "Beating Target",
+      "variance_analysis": "Realized pricing +4.3% ahead of initial budget corridor, supporting 31.2% EBITDA margin despite -22% volume unwind.",
+      "forecasting_impact": "Locks in 2026E Revenue floor of .0M and protects EBITDA margin at 31.1%.",
+      "last_guided_source": "J.P. Morgan 2Q26 Earnings Review",
+      "last_verified_period": "1H26"
     }
   ],
   "next_earnings_release": {

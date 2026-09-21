@@ -2129,13 +2129,35 @@ function renderGuidanceAndNews() {
   } else {
     let html = '';
     guides.forEach(g => {
+      const metricName = g.guidance_metric || g.metric || 'Guidance Target';
+      const target = g.management_target || g.guidance_value || '—';
+      const runrate = g.current_runrate || g.desk_expectation || '—';
+      const status = g.tracking_status || g.status || 'Tracking';
+      const isRevised = (g.revision_status && g.revision_status !== 'UNCHANGED') || g.revision_highlight;
+      const revisionBadge = isRevised ? `<div style="margin-top:5px;"><span class="badge badge-hy" style="font-size:9px; background:#451a03; color:#f59e0b; border:1px solid #b45309; padding:2px 6px;">⚡ ${escapeHtml(g.revision_highlight || 'Guidance Revised')}</span></div>` : '';
+      const previousTarget = g.previous_target ? `<div style="font-size:10px; color:#94a3b8; text-decoration:line-through; margin-top:2px;">Prior: ${escapeHtml(g.previous_target)}</div>` : '';
+      const detailsBlock = g.details ? `<div style="font-size:10.5px; color:#94a3b8; margin-top:5px; background:rgba(15,23,42,0.6); padding:6px 8px; border-radius:4px; border-left:2px solid #3b82f6;"><strong style="color:#e2e8f0;">Details:</strong> ${escapeHtml(g.details)}</div>` : '';
+      const forecastBlock = g.forecasting_impact ? `<div style="font-size:10.5px; color:#38bdf8; margin-top:4px; background:rgba(14,116,144,0.15); padding:6px 8px; border-radius:4px; border-left:2px solid #06b6d4;"><strong style="color:#67e8f9;">Forecasting Impact:</strong> ${escapeHtml(g.forecasting_impact)}</div>` : '';
+      const variance = g.variance_analysis || g.rationale || 'Tracking within guidance corridor.';
+      const isPositive = status === 'On Track' || status === 'ON_TRACK' || status === 'Beating Target';
+
       html += `
         <tr>
-          <td><strong>${g.metric}</strong></td>
-          <td style="color:#fbbf24; font-weight:700;">${g.management_target}</td>
-          <td style="color:#fff;">${g.current_runrate}</td>
-          <td><span class="badge ${g.tracking_status === 'On Track' ? 'badge-ig' : 'badge-stress'}" style="font-size:10px;">${g.tracking_status}</span></td>
-          <td style="font-size:11px; color:#cbd5e1;">${g.variance_analysis || 'Tracking within guidance corridor.'}</td>
+          <td style="vertical-align:top;">
+            <strong style="color:#fff; font-size:12.5px;">${escapeHtml(metricName)}</strong>
+            ${revisionBadge}
+          </td>
+          <td style="color:#fbbf24; font-weight:700; vertical-align:top; font-size:12px;">
+            ${escapeHtml(target)}
+            ${previousTarget}
+          </td>
+          <td style="color:#fff; vertical-align:top; font-size:11.5px;">${escapeHtml(runrate)}</td>
+          <td style="vertical-align:top;"><span class="badge ${isPositive ? 'badge-ig' : 'badge-stress'}" style="font-size:10px;">${escapeHtml(status)}</span></td>
+          <td style="font-size:11px; color:#cbd5e1; vertical-align:top;">
+            <div>${escapeHtml(variance)}</div>
+            ${detailsBlock}
+            ${forecastBlock}
+          </td>
         </tr>
       `;
     });
