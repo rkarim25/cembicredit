@@ -1,8 +1,8 @@
 [
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ACWA",
     "tranche_name": "ACWA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -13,9 +13,9 @@
     "ytm": 6.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ACWA",
     "tranche_name": "ACWA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -26,9 +26,9 @@
     "ytm": 5.8
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ACWA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -39,9 +39,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ACWA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -52,9 +52,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ADCBUH",
     "tranche_name": "ADCBUH Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -65,9 +65,9 @@
     "ytm": 5.05
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ADCBUH",
     "tranche_name": "ADCBUH Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -78,9 +78,9 @@
     "ytm": 6.55
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ADCBUH",
     "tranche_name": "ADCBUH Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -91,9 +91,9 @@
     "ytm": 7.3
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ADCBUH",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -104,9 +104,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ADMELE",
     "tranche_name": "ADMELE Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -117,9 +117,9 @@
     "ytm": 9.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ADMELE",
     "tranche_name": "ADMELE Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -130,9 +130,9 @@
     "ytm": 8.6
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ADMELE",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -143,9 +143,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ADMELE",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -156,9 +156,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AFRCEL",
     "tranche_name": "AFRCEL Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -169,9 +169,9 @@
     "ytm": 11.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AFRCEL",
     "tranche_name": "AFRCEL Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -182,9 +182,9 @@
     "ytm": 10.799999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AFRCEL",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -195,9 +195,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AFRCEL",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -208,9 +208,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AKBNK",
     "tranche_name": "AKBNK Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -221,9 +221,9 @@
     "ytm": 6.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AKBNK",
     "tranche_name": "AKBNK Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -234,9 +234,9 @@
     "ytm": 7.95
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AKBNK",
     "tranche_name": "AKBNK Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -247,9 +247,9 @@
     "ytm": 8.7
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AKBNK",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -260,9 +260,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ALDAR",
     "tranche_name": "ALDAR Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -273,9 +273,9 @@
     "ytm": 5.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ALDAR",
     "tranche_name": "ALDAR Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -286,9 +286,9 @@
     "ytm": 4.6
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ALDAR",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -299,9 +299,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ALDAR",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -312,9 +312,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ARADA",
     "tranche_name": "ARADA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -325,9 +325,9 @@
     "ytm": 8.05
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ARADA",
     "tranche_name": "ARADA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -338,9 +338,9 @@
     "ytm": 7.4
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ARADA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -351,9 +351,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ARADA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -364,9 +364,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ARAGVI",
     "tranche_name": "ARAGVI Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -377,9 +377,9 @@
     "ytm": 12.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ARAGVI",
     "tranche_name": "ARAGVI Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -390,9 +390,9 @@
     "ytm": 11.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ARAGVI",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -403,9 +403,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ARAGVI",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -416,9 +416,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AYDEM",
     "tranche_name": "AYDEM Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -429,9 +429,9 @@
     "ytm": 8.95
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AYDEM",
     "tranche_name": "AYDEM Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -442,9 +442,9 @@
     "ytm": 8.299999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AYDEM",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -455,9 +455,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AYDEM",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -468,9 +468,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AZULE",
     "tranche_name": "AZULE Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -481,9 +481,9 @@
     "ytm": 8.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AZULE",
     "tranche_name": "AZULE Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -494,9 +494,9 @@
     "ytm": 7.799999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AZULE",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -507,9 +507,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "AZULE",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -520,9 +520,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "BAPCO",
     "tranche_name": "BAPCO Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -533,9 +533,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "BAPCO",
     "tranche_name": "BAPCO Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -546,9 +546,9 @@
     "ytm": 6.199999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "BAPCO",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -559,9 +559,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "BAPCO",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -572,9 +572,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "BINGHA",
     "tranche_name": "BINGHA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -585,9 +585,9 @@
     "ytm": 8.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "BINGHA",
     "tranche_name": "BINGHA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -598,9 +598,9 @@
     "ytm": 8.2
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "BINGHA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -611,9 +611,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "BINGHA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -624,9 +624,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "CCOLA",
     "tranche_name": "CCOLA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -637,9 +637,9 @@
     "ytm": 5.35
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "CCOLA",
     "tranche_name": "CCOLA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -650,9 +650,9 @@
     "ytm": 4.699999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "CCOLA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -663,9 +663,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "CCOLA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -676,9 +676,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "CEZ",
     "tranche_name": "CEZ Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -689,9 +689,9 @@
     "ytm": 4.95
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "CEZ",
     "tranche_name": "CEZ Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -702,9 +702,9 @@
     "ytm": 4.3
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "CEZ",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -715,9 +715,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "CEZ",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -728,9 +728,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DAMAC",
     "tranche_name": "DAMAC Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -741,9 +741,9 @@
     "ytm": 7.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DAMAC",
     "tranche_name": "DAMAC Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -754,9 +754,9 @@
     "ytm": 6.6
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DAMAC",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -767,9 +767,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DAMAC",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -780,9 +780,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DANFER",
     "tranche_name": "DANFER Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -793,9 +793,9 @@
     "ytm": 11.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DANFER",
     "tranche_name": "DANFER Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -806,9 +806,9 @@
     "ytm": 10.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DANFER",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -819,9 +819,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DANFER",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -832,9 +832,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DANREF",
     "tranche_name": "DANREF Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -845,9 +845,9 @@
     "ytm": 12.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DANREF",
     "tranche_name": "DANREF Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -858,9 +858,9 @@
     "ytm": 11.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DANREF",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -871,9 +871,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DANREF",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -884,9 +884,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DARARK",
     "tranche_name": "DARARK Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -897,9 +897,9 @@
     "ytm": 8.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DARARK",
     "tranche_name": "DARARK Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -910,9 +910,9 @@
     "ytm": 7.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DARARK",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -923,9 +923,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DARARK",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -936,9 +936,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DIBUH",
     "tranche_name": "DIBUH Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -949,9 +949,9 @@
     "ytm": 5.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DIBUH",
     "tranche_name": "DIBUH Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -962,9 +962,9 @@
     "ytm": 6.6
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DIBUH",
     "tranche_name": "DIBUH Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -975,9 +975,9 @@
     "ytm": 7.35
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DIBUH",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -988,9 +988,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DPW",
     "tranche_name": "DPW Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1001,9 +1001,9 @@
     "ytm": 5.35
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DPW",
     "tranche_name": "DPW Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1014,9 +1014,9 @@
     "ytm": 4.699999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DPW",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1027,9 +1027,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DPW",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1040,9 +1040,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DTEKUA",
     "tranche_name": "DTEKUA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1053,9 +1053,9 @@
     "ytm": 18.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DTEKUA",
     "tranche_name": "DTEKUA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1066,9 +1066,9 @@
     "ytm": 17.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DTEKUA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1079,9 +1079,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "DTEKUA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1092,9 +1092,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EMAAR",
     "tranche_name": "EMAAR Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1105,9 +1105,9 @@
     "ytm": 5.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EMAAR",
     "tranche_name": "EMAAR Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1118,9 +1118,9 @@
     "ytm": 4.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EMAAR",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1131,9 +1131,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EMAAR",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1144,9 +1144,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EKGYO",
     "tranche_name": "EKGYO Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1157,9 +1157,9 @@
     "ytm": 10.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EKGYO",
     "tranche_name": "EKGYO Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1170,9 +1170,9 @@
     "ytm": 9.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EKGYO",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1183,9 +1183,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EKGYO",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1196,9 +1196,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EMIRAT",
     "tranche_name": "EMIRAT Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -1209,9 +1209,9 @@
     "ytm": 4.9
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EMIRAT",
     "tranche_name": "EMIRAT Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -1222,9 +1222,9 @@
     "ytm": 6.4
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EMIRAT",
     "tranche_name": "EMIRAT Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -1235,9 +1235,9 @@
     "ytm": 7.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EMIRAT",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -1248,9 +1248,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EQUATE",
     "tranche_name": "EQUATE Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1261,9 +1261,9 @@
     "ytm": 5.55
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EQUATE",
     "tranche_name": "EQUATE Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1274,9 +1274,9 @@
     "ytm": 4.8999999999999995
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EQUATE",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1287,9 +1287,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EQUATE",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1300,9 +1300,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EREGL",
     "tranche_name": "EREGL Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1313,9 +1313,9 @@
     "ytm": 7.95
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EREGL",
     "tranche_name": "EREGL Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1326,9 +1326,9 @@
     "ytm": 7.3
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EREGL",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1339,9 +1339,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EREGL",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1352,9 +1352,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ESKOM",
     "tranche_name": "ESKOM Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1365,9 +1365,9 @@
     "ytm": 8.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ESKOM",
     "tranche_name": "ESKOM Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1378,9 +1378,9 @@
     "ytm": 7.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ESKOM",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1391,9 +1391,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ESKOM",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1404,9 +1404,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "FABUH",
     "tranche_name": "FABUH Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -1417,9 +1417,9 @@
     "ytm": 4.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "FABUH",
     "tranche_name": "FABUH Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -1430,9 +1430,9 @@
     "ytm": 6.35
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "FABUH",
     "tranche_name": "FABUH Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -1443,9 +1443,9 @@
     "ytm": 7.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "FABUH",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -1456,9 +1456,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "FIRSTR",
     "tranche_name": "FIRSTR Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -1469,9 +1469,9 @@
     "ytm": 6.75
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "FIRSTR",
     "tranche_name": "FIRSTR Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -1482,9 +1482,9 @@
     "ytm": 8.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "FIRSTR",
     "tranche_name": "FIRSTR Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -1495,9 +1495,9 @@
     "ytm": 9.0
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "FIRSTR",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -1508,9 +1508,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GARAN",
     "tranche_name": "GARAN Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -1521,9 +1521,9 @@
     "ytm": 6.55
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GARAN",
     "tranche_name": "GARAN Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -1534,9 +1534,9 @@
     "ytm": 8.05
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GARAN",
     "tranche_name": "GARAN Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -1547,9 +1547,9 @@
     "ytm": 8.8
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GARAN",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -1560,9 +1560,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GDZELE",
     "tranche_name": "GDZELE Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1573,9 +1573,9 @@
     "ytm": 9.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GDZELE",
     "tranche_name": "GDZELE Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1586,9 +1586,9 @@
     "ytm": 8.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GDZELE",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1599,9 +1599,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GDZELE",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1612,9 +1612,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GFI",
     "tranche_name": "GFI Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1625,9 +1625,9 @@
     "ytm": 6.05
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GFI",
     "tranche_name": "GFI Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1638,9 +1638,9 @@
     "ytm": 5.3999999999999995
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GFI",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1651,9 +1651,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "GFI",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1664,9 +1664,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HALKB",
     "tranche_name": "HALKB Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -1677,9 +1677,9 @@
     "ytm": 7.35
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HALKB",
     "tranche_name": "HALKB Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -1690,9 +1690,9 @@
     "ytm": 8.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HALKB",
     "tranche_name": "HALKB Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -1703,9 +1703,9 @@
     "ytm": 9.6
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HALKB",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -1716,9 +1716,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HSBKK",
     "tranche_name": "HSBKK Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -1729,9 +1729,9 @@
     "ytm": 6.2
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HSBKK",
     "tranche_name": "HSBKK Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -1742,9 +1742,9 @@
     "ytm": 7.7
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HSBKK",
     "tranche_name": "HSBKK Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -1755,9 +1755,9 @@
     "ytm": 8.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HSBKK",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -1768,9 +1768,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HT",
     "tranche_name": "HT Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1781,9 +1781,9 @@
     "ytm": 8.75
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HT",
     "tranche_name": "HT Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1794,9 +1794,9 @@
     "ytm": 8.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HT",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1807,9 +1807,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HT",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1820,9 +1820,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HIDRO",
     "tranche_name": "HIDRO Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1833,9 +1833,9 @@
     "ytm": 5.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HIDRO",
     "tranche_name": "HIDRO Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1846,9 +1846,9 @@
     "ytm": 4.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HIDRO",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1859,9 +1859,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "HIDRO",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1872,9 +1872,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "IHS",
     "tranche_name": "IHS Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1885,9 +1885,9 @@
     "ytm": 10.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "IHS",
     "tranche_name": "IHS Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -1898,9 +1898,9 @@
     "ytm": 9.6
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "IHS",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -1911,9 +1911,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "IHS",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -1924,9 +1924,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ISCTR",
     "tranche_name": "ISCTR Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -1937,9 +1937,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ISCTR",
     "tranche_name": "ISCTR Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -1950,9 +1950,9 @@
     "ytm": 8.35
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ISCTR",
     "tranche_name": "ISCTR Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -1963,9 +1963,9 @@
     "ytm": 9.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ISCTR",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -1976,9 +1976,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ITTIHAD",
     "tranche_name": "ITTIHAD Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -1989,9 +1989,9 @@
     "ytm": 9.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ITTIHAD",
     "tranche_name": "ITTIHAD Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2002,9 +2002,9 @@
     "ytm": 8.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ITTIHAD",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2015,9 +2015,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ITTIHAD",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2028,9 +2028,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KFH",
     "tranche_name": "KFH Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -2041,9 +2041,9 @@
     "ytm": 5.2
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KFH",
     "tranche_name": "KFH Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -2054,9 +2054,9 @@
     "ytm": 6.7
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KFH",
     "tranche_name": "KFH Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -2067,9 +2067,9 @@
     "ytm": 7.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KFH",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -2080,9 +2080,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KZOK",
     "tranche_name": "KZOK Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2093,9 +2093,9 @@
     "ytm": 6.75
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KZOK",
     "tranche_name": "KZOK Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2106,9 +2106,9 @@
     "ytm": 6.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KZOK",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2119,9 +2119,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KZOK",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2132,9 +2132,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KCHOL",
     "tranche_name": "KCHOL Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2145,9 +2145,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KCHOL",
     "tranche_name": "KCHOL Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2158,9 +2158,9 @@
     "ytm": 6.199999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KCHOL",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2171,9 +2171,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KCHOL",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2184,9 +2184,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KOS",
     "tranche_name": "KOS Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2197,9 +2197,9 @@
     "ytm": 10.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KOS",
     "tranche_name": "KOS Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2210,9 +2210,9 @@
     "ytm": 9.799999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KOS",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2223,9 +2223,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "KOS",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2236,9 +2236,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKCEM",
     "tranche_name": "LMKCEM Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2249,9 +2249,9 @@
     "ytm": 8.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKCEM",
     "tranche_name": "LMKCEM Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2262,9 +2262,9 @@
     "ytm": 7.6
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKCEM",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2275,9 +2275,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKCEM",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2288,9 +2288,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKPRT",
     "tranche_name": "LMKPRT Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2301,9 +2301,9 @@
     "ytm": 7.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKPRT",
     "tranche_name": "LMKPRT Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2314,9 +2314,9 @@
     "ytm": 7.199999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKPRT",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2327,9 +2327,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKPRT",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2340,9 +2340,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKREN",
     "tranche_name": "LMKREN Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2353,9 +2353,9 @@
     "ytm": 8.75
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKREN",
     "tranche_name": "LMKREN Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2366,9 +2366,9 @@
     "ytm": 8.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKREN",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2379,9 +2379,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LMKREN",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2392,9 +2392,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LIQTEL",
     "tranche_name": "LIQTEL Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2405,9 +2405,9 @@
     "ytm": 14.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LIQTEL",
     "tranche_name": "LIQTEL Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2418,9 +2418,9 @@
     "ytm": 13.6
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LIQTEL",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2431,9 +2431,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "LIQTEL",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2444,9 +2444,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MAF",
     "tranche_name": "MAF Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2457,9 +2457,9 @@
     "ytm": 5.65
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MAF",
     "tranche_name": "MAF Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2470,9 +2470,9 @@
     "ytm": 5.0
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MAF",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2483,9 +2483,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MAF",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2496,9 +2496,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "METINV",
     "tranche_name": "METINV Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2509,9 +2509,9 @@
     "ytm": 15.65
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "METINV",
     "tranche_name": "METINV Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2522,9 +2522,9 @@
     "ytm": 15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "METINV",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2535,9 +2535,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "METINV",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2548,9 +2548,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MHPSA",
     "tranche_name": "MHPSA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2561,9 +2561,9 @@
     "ytm": 13.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MHPSA",
     "tranche_name": "MHPSA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2574,9 +2574,9 @@
     "ytm": 12.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MHPSA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2587,9 +2587,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MHPSA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2600,9 +2600,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MOL",
     "tranche_name": "MOL Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2613,9 +2613,9 @@
     "ytm": 5.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MOL",
     "tranche_name": "MOL Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2626,9 +2626,9 @@
     "ytm": 4.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MOL",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2639,9 +2639,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MOL",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2652,9 +2652,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MTNSJ",
     "tranche_name": "MTNSJ Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2665,9 +2665,9 @@
     "ytm": 6.9
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MTNSJ",
     "tranche_name": "MTNSJ Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2678,9 +2678,9 @@
     "ytm": 6.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MTNSJ",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2691,9 +2691,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "MTNSJ",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2704,9 +2704,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "OCP",
     "tranche_name": "OCP Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2717,9 +2717,9 @@
     "ytm": 6.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "OCP",
     "tranche_name": "OCP Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2730,9 +2730,9 @@
     "ytm": 5.8
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "OCP",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2743,9 +2743,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "OCP",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2756,9 +2756,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ORDS",
     "tranche_name": "ORDS Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2769,9 +2769,9 @@
     "ytm": 5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ORDS",
     "tranche_name": "ORDS Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2782,9 +2782,9 @@
     "ytm": 4.35
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ORDS",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2795,9 +2795,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ORDS",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2808,9 +2808,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "OQ",
     "tranche_name": "OQ Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2821,9 +2821,9 @@
     "ytm": 5.9
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "OQ",
     "tranche_name": "OQ Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2834,9 +2834,9 @@
     "ytm": 5.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "OQ",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2847,9 +2847,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "OQ",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2860,9 +2860,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PKN",
     "tranche_name": "PKN Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2873,9 +2873,9 @@
     "ytm": 5.05
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PKN",
     "tranche_name": "PKN Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2886,9 +2886,9 @@
     "ytm": 4.3999999999999995
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PKN",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2899,9 +2899,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PKN",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2912,9 +2912,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PGSUS",
     "tranche_name": "PGSUS Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2925,9 +2925,9 @@
     "ytm": 7.65
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PGSUS",
     "tranche_name": "PGSUS Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2938,9 +2938,9 @@
     "ytm": 7.0
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PGSUS",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -2951,9 +2951,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PGSUS",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -2964,9 +2964,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PGE",
     "tranche_name": "PGE Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -2977,9 +2977,9 @@
     "ytm": 5.3
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PGE",
     "tranche_name": "PGE Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -2990,9 +2990,9 @@
     "ytm": 4.6499999999999995
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PGE",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3003,9 +3003,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "PGE",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3016,9 +3016,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "QAZGAS",
     "tranche_name": "QAZGAS Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3029,9 +3029,9 @@
     "ytm": 5.95
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "QAZGAS",
     "tranche_name": "QAZGAS Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3042,9 +3042,9 @@
     "ytm": 5.3
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "QAZGAS",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3055,9 +3055,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "QAZGAS",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3068,9 +3068,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "QNBK",
     "tranche_name": "QNBK Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -3081,9 +3081,9 @@
     "ytm": 5.0
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "QNBK",
     "tranche_name": "QNBK Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -3094,9 +3094,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "QNBK",
     "tranche_name": "QNBK Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -3107,9 +3107,9 @@
     "ytm": 7.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "QNBK",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -3120,9 +3120,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RJHI",
     "tranche_name": "RJHI Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -3133,9 +3133,9 @@
     "ytm": 4.75
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RJHI",
     "tranche_name": "RJHI Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -3146,9 +3146,9 @@
     "ytm": 6.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RJHI",
     "tranche_name": "RJHI Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -3159,9 +3159,9 @@
     "ytm": 7.0
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RJHI",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -3172,9 +3172,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RIBL",
     "tranche_name": "RIBL Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -3185,9 +3185,9 @@
     "ytm": 5.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RIBL",
     "tranche_name": "RIBL Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -3198,9 +3198,9 @@
     "ytm": 6.65
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RIBL",
     "tranche_name": "RIBL Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -3211,9 +3211,9 @@
     "ytm": 7.4
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RIBL",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -3224,9 +3224,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ROMGAZ",
     "tranche_name": "ROMGAZ Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3237,9 +3237,9 @@
     "ytm": 5.75
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ROMGAZ",
     "tranche_name": "ROMGAZ Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3250,9 +3250,9 @@
     "ytm": 5.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ROMGAZ",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3263,9 +3263,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ROMGAZ",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3276,9 +3276,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SABIC",
     "tranche_name": "SABIC Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3289,9 +3289,9 @@
     "ytm": 5.05
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SABIC",
     "tranche_name": "SABIC Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3302,9 +3302,9 @@
     "ytm": 4.3999999999999995
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SABIC",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3315,9 +3315,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SABIC",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3328,9 +3328,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SAMPA",
     "tranche_name": "SAMPA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3341,9 +3341,9 @@
     "ytm": 10.4
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SAMPA",
     "tranche_name": "SAMPA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3354,9 +3354,9 @@
     "ytm": 9.75
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SAMPA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3367,9 +3367,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SAMPA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3380,9 +3380,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SOLSJ",
     "tranche_name": "SOLSJ Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3393,9 +3393,9 @@
     "ytm": 7.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SOLSJ",
     "tranche_name": "SOLSJ Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3406,9 +3406,9 @@
     "ytm": 7.199999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SOLSJ",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3419,9 +3419,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SOLSJ",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3432,9 +3432,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SECO",
     "tranche_name": "SECO Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3445,9 +3445,9 @@
     "ytm": 5.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SECO",
     "tranche_name": "SECO Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3458,9 +3458,9 @@
     "ytm": 4.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SECO",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3471,9 +3471,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SECO",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3484,9 +3484,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SISE",
     "tranche_name": "SISE Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3497,9 +3497,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SISE",
     "tranche_name": "SISE Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3510,9 +3510,9 @@
     "ytm": 6.199999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SISE",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3523,9 +3523,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SISE",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3536,9 +3536,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SNB",
     "tranche_name": "SNB Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -3549,9 +3549,9 @@
     "ytm": 4.95
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SNB",
     "tranche_name": "SNB Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -3562,9 +3562,9 @@
     "ytm": 6.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SNB",
     "tranche_name": "SNB Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -3575,9 +3575,9 @@
     "ytm": 7.2
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SNB",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -3588,9 +3588,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SOBHA",
     "tranche_name": "SOBHA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3601,9 +3601,9 @@
     "ytm": 7.95
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SOBHA",
     "tranche_name": "SOBHA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3614,9 +3614,9 @@
     "ytm": 7.3
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SOBHA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3627,9 +3627,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SOBHA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3640,9 +3640,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SONANG",
     "tranche_name": "SONANG Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3653,9 +3653,9 @@
     "ytm": 9.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SONANG",
     "tranche_name": "SONANG Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3666,9 +3666,9 @@
     "ytm": 8.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SONANG",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3679,9 +3679,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "SONANG",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3692,9 +3692,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "STANBI",
     "tranche_name": "STANBI Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -3705,9 +3705,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "STANBI",
     "tranche_name": "STANBI Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -3718,9 +3718,9 @@
     "ytm": 8.35
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "STANBI",
     "tranche_name": "STANBI Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -3731,9 +3731,9 @@
     "ytm": 9.1
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "STANBI",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -3744,9 +3744,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "STC",
     "tranche_name": "STC Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3757,9 +3757,9 @@
     "ytm": 4.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "STC",
     "tranche_name": "STC Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3770,9 +3770,9 @@
     "ytm": 4.199999999999999
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "STC",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3783,9 +3783,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "STC",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3796,9 +3796,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TAQA",
     "tranche_name": "TAQA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3809,9 +3809,9 @@
     "ytm": 4.9
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TAQA",
     "tranche_name": "TAQA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3822,9 +3822,9 @@
     "ytm": 4.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TAQA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3835,9 +3835,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TAQA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3848,9 +3848,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "THARISA",
     "tranche_name": "THARISA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3861,9 +3861,9 @@
     "ytm": 9.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "THARISA",
     "tranche_name": "THARISA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3874,9 +3874,9 @@
     "ytm": 9.2
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "THARISA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3887,9 +3887,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "THARISA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3900,9 +3900,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "THYAO",
     "tranche_name": "THYAO Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3913,9 +3913,9 @@
     "ytm": 7.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "THYAO",
     "tranche_name": "THYAO Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3926,9 +3926,9 @@
     "ytm": 6.8
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "THYAO",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3939,9 +3939,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "THYAO",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -3952,9 +3952,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TTKOM",
     "tranche_name": "TTKOM Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -3965,9 +3965,9 @@
     "ytm": 7.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TTKOM",
     "tranche_name": "TTKOM Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -3978,9 +3978,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TTKOM",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -3991,9 +3991,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TTKOM",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -4004,9 +4004,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TLW",
     "tranche_name": "TLW Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -4017,9 +4017,9 @@
     "ytm": 13.8
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TLW",
     "tranche_name": "TLW Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -4030,9 +4030,9 @@
     "ytm": 13.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TLW",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -4043,9 +4043,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TLW",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -4056,9 +4056,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TUPRAS",
     "tranche_name": "TUPRAS Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -4069,9 +4069,9 @@
     "ytm": 7.2
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TUPRAS",
     "tranche_name": "TUPRAS Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -4082,9 +4082,9 @@
     "ytm": 6.55
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TUPRAS",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -4095,9 +4095,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TUPRAS",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -4108,9 +4108,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TCELL",
     "tranche_name": "TCELL Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -4121,9 +4121,9 @@
     "ytm": 6.95
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TCELL",
     "tranche_name": "TCELL Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -4134,9 +4134,9 @@
     "ytm": 6.3
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TCELL",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -4147,9 +4147,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "TCELL",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -4160,9 +4160,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EXCRTU",
     "tranche_name": "EXCRTU Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -4173,9 +4173,9 @@
     "ytm": 6.75
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EXCRTU",
     "tranche_name": "EXCRTU Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -4186,9 +4186,9 @@
     "ytm": 8.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EXCRTU",
     "tranche_name": "EXCRTU Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -4199,9 +4199,9 @@
     "ytm": 9.0
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "EXCRTU",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -4212,9 +4212,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RAILUA",
     "tranche_name": "RAILUA Benchmark Senior Notes",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -4225,9 +4225,9 @@
     "ytm": 19.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RAILUA",
     "tranche_name": "RAILUA Secondary Eurobond / Sukuk Tranche 2",
     "instrument_type": "Senior Unsecured Notes",
@@ -4238,9 +4238,9 @@
     "ytm": 18.6
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RAILUA",
     "tranche_name": "Syndicated Commercial Bank Term Facility",
     "instrument_type": "Senior Secured / Priority Amortizing Loan",
@@ -4251,9 +4251,9 @@
     "ytm": 6.85
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "RAILUA",
     "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
     "instrument_type": "Revolving Working Capital Credit Line",
@@ -4264,9 +4264,9 @@
     "ytm": 6.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "VAKBN",
     "tranche_name": "VAKBN Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -4277,9 +4277,9 @@
     "ytm": 6.95
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "VAKBN",
     "tranche_name": "VAKBN Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -4290,9 +4290,9 @@
     "ytm": 8.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "VAKBN",
     "tranche_name": "VAKBN Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -4303,9 +4303,9 @@
     "ytm": 9.2
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "VAKBN",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -4316,9 +4316,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "YKBNK",
     "tranche_name": "YKBNK Benchmark Senior Unsecured Notes",
     "instrument_type": "Senior Unsecured RegS/144A",
@@ -4329,9 +4329,9 @@
     "ytm": 6.75
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "YKBNK",
     "tranche_name": "YKBNK Tier 2 Subordinated Notes",
     "instrument_type": "Subordinated Tier 2 Capital Note",
@@ -4342,9 +4342,9 @@
     "ytm": 8.25
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "YKBNK",
     "tranche_name": "YKBNK Additional Tier 1 (AT1) Perpetual",
     "instrument_type": "Perpetual Subordinated Contingent Convertible",
@@ -4355,9 +4355,9 @@
     "ytm": 9.0
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "YKBNK",
     "tranche_name": "Bilateral Interbank & Central Bank Repos",
     "instrument_type": "Secured Money Market Borrowing",
@@ -4368,9 +4368,9 @@
     "ytm": 5.45
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ZOREN",
     "tranche_name": "ZOREN 9.000% Senior Notes Due 2026 (Eurobond)",
     "instrument_type": "Senior Unsecured RegS/144A Eurobond",
@@ -4381,9 +4381,9 @@
     "ytm": 11.2
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ZOREN",
     "tranche_name": "Kizildere & Alasehir Geothermal Project Finance Facilities",
     "instrument_type": "Senior Secured Amortizing Project Finance Loans (EBRD / IFC / Commercial)",
@@ -4394,9 +4394,9 @@
     "ytm": 8.15
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ZOREN",
     "tranche_name": "OEDAS Regulated Grid Distribution Investment Loans",
     "instrument_type": "Senior Secured Capex Facilities & TLREF Bonds",
@@ -4407,9 +4407,9 @@
     "ytm": 14.5
   },
   {
-    "snapshot_run_id": "SNAP-20260921-407",
+    "snapshot_run_id": "SNAP-20260921-974",
     "snapshot_date": "2026-09-21",
-    "timestamp": "2026-09-21T06:43:27.084957",
+    "timestamp": "2026-09-21T06:52:54.613504",
     "ticker": "ZOREN",
     "tranche_name": "Zorlu Enerji Syndicated Multi-Currency RCF & Bilateral Working Capital",
     "instrument_type": "Revolving Working Capital Credit Facilities",

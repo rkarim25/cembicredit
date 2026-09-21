@@ -1,5 +1,5 @@
 // CEMBI Credit Master Platform - Cumulative Historical Snapshots Time Series
-// Last Snapshot Recorded: 2026-09-21 (2026-09-21T06:43:27.084957)
+// Last Snapshot Recorded: 2026-09-21 (2026-09-21T06:52:54.613504)
 // Total Issuers: 85
 
 window.CREDIT_HISTORY_DATA = {
@@ -156,7 +156,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "Baa2 / BBB",
         "price": 96.5,
         "ytm": 6.45,
@@ -321,7 +321,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A1 / A",
         "price": 99.8,
         "ytm": 5.05,
@@ -486,7 +486,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B2",
         "price": 98.0,
         "ytm": 9.25,
@@ -651,7 +651,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B- / B3",
         "price": 103.01,
         "ytm": 9.35,
@@ -816,7 +816,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / B1",
         "price": 100.2,
         "ytm": 6.45,
@@ -981,7 +981,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB- / Baa2",
         "price": 100.1,
         "ytm": 5.25,
@@ -1146,7 +1146,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B+ / B1",
         "price": 99.66,
         "ytm": 8.13,
@@ -1311,7 +1311,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B-",
         "price": 89.0,
         "ytm": 12.15,
@@ -1476,7 +1476,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B3",
         "price": 96.5,
         "ytm": 8.95,
@@ -1641,7 +1641,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B+ / Ba3",
         "price": 98.5,
         "ytm": 8.45,
@@ -1806,7 +1806,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B+ / B+",
         "price": 101.8,
         "ytm": 6.85,
@@ -1971,7 +1971,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B+ / B",
         "price": 101.5,
         "ytm": 8.85,
@@ -2136,7 +2136,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB- / BBB",
         "price": 97.2,
         "ytm": 5.35,
@@ -2301,7 +2301,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A- / A3",
         "price": 99.8,
         "ytm": 4.95,
@@ -2466,7 +2466,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / Ba3",
         "price": 101.0,
         "ytm": 7.25,
@@ -2631,7 +2631,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B2",
         "price": 96.0,
         "ytm": 11.5,
@@ -2796,7 +2796,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B2",
         "price": 95.0,
         "ytm": 12.5,
@@ -2961,7 +2961,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / Ba3 / B+",
         "price": 99.5,
         "ytm": 8.15,
@@ -3126,7 +3126,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A3 / A",
         "price": 99.7,
         "ytm": 5.1,
@@ -3291,7 +3291,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB+ / Baa2",
         "price": 98,
         "ytm": 5.35,
@@ -3456,7 +3456,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "CCC / Caa3",
         "price": 68.5,
         "ytm": 18.5,
@@ -3621,7 +3621,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB / Baa2",
         "price": 100.2,
         "ytm": 5.15,
@@ -3786,7 +3786,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- Local",
         "price": 97.5,
         "ytm": 10.5,
@@ -3951,7 +3951,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A2 / A+",
         "price": 100.25,
         "ytm": 4.9,
@@ -4116,7 +4116,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "Baa2 / BBB",
         "price": 98.2,
         "ytm": 5.55,
@@ -4281,7 +4281,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / B1",
         "price": 98.5,
         "ytm": 7.95,
@@ -4446,7 +4446,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B-",
         "price": 99.0,
         "ytm": 8.5,
@@ -4611,7 +4611,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "Aa3 / AA-",
         "price": 100.5,
         "ytm": 4.85,
@@ -4776,7 +4776,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "Ba2 / BB-",
         "price": 98.8,
         "ytm": 6.75,
@@ -4941,7 +4941,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / B1",
         "price": 99.8,
         "ytm": 6.55,
@@ -5106,7 +5106,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B2",
         "price": 98.2,
         "ytm": 9.1,
@@ -5271,7 +5271,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB- / Baa3",
         "price": 100.2,
         "ytm": 6.05,
@@ -5436,7 +5436,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B3",
         "price": 98.1,
         "ytm": 7.35,
@@ -5601,7 +5601,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "Baa1 / BBB-",
         "price": 99.0,
         "ytm": 6.2,
@@ -5766,7 +5766,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B2",
         "price": 94.25,
         "ytm": 8.75,
@@ -5931,7 +5931,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB-",
         "price": 99.0,
         "ytm": 5.5,
@@ -6096,7 +6096,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B+ / B2",
         "price": 91.5,
         "ytm": 10.25,
@@ -6261,7 +6261,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / B1",
         "price": 99.5,
         "ytm": 6.85,
@@ -6426,7 +6426,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B+ / B1",
         "price": 98.5,
         "ytm": 9.1,
@@ -6591,7 +6591,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A2 / A",
         "price": 99.2,
         "ytm": 5.2,
@@ -6756,7 +6756,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB- / Baa2",
         "price": 88.5,
         "ytm": 6.75,
@@ -6921,7 +6921,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB / BB+",
         "price": 98.5,
         "ytm": 6.85,
@@ -7086,7 +7086,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B- / B3",
         "price": 89.5,
         "ytm": 10.45,
@@ -7251,7 +7251,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B+ / B",
         "price": 98.8,
         "ytm": 8.25,
@@ -7416,7 +7416,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B3",
         "price": 98.5,
         "ytm": 7.85,
@@ -7581,7 +7581,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B+ / B2",
         "price": 98.2,
         "ytm": 8.75,
@@ -7746,7 +7746,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B- / Caa1",
         "price": 104.22,
         "ytm": 9.58,
@@ -7911,7 +7911,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB / BBB",
         "price": 98.0,
         "ytm": 5.65,
@@ -8076,7 +8076,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "CCC+",
         "price": 93.27,
         "ytm": 14.98,
@@ -8241,7 +8241,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "CCC+ / Caa2",
         "price": 82.5,
         "ytm": 13.1,
@@ -8406,7 +8406,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB-",
         "price": 98.0,
         "ytm": 5.5,
@@ -8571,7 +8571,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "Ba2 / BB+",
         "price": 99.4,
         "ytm": 6.9,
@@ -8736,7 +8736,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB- / Baa3",
         "price": 99.5,
         "ytm": 6.45,
@@ -8901,7 +8901,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A2 / A-",
         "price": 97.8,
         "ytm": 5,
@@ -9066,7 +9066,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB+ / BBB-",
         "price": 99.5,
         "ytm": 5.9,
@@ -9231,7 +9231,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB+ / A3",
         "price": 98.8,
         "ytm": 5.05,
@@ -9396,7 +9396,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B+ / BB-",
         "price": 103.5,
         "ytm": 7.65,
@@ -9561,7 +9561,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB+",
         "price": 99.2,
         "ytm": 5.3,
@@ -9726,7 +9726,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB-",
         "price": 97.2,
         "ytm": 5.95,
@@ -9891,7 +9891,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "Aa3 / A+",
         "price": 99.5,
         "ytm": 5.0,
@@ -10056,7 +10056,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A1 / A-",
         "price": 100.8,
         "ytm": 4.75,
@@ -10221,7 +10221,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A2 / A",
         "price": 99.6,
         "ytm": 5.15,
@@ -10386,7 +10386,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BBB-",
         "price": 98.5,
         "ytm": 5.75,
@@ -10551,7 +10551,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A1 / A+",
         "price": 98.8,
         "ytm": 5.05,
@@ -10716,7 +10716,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B / B2 Implied",
         "price": 97.5,
         "ytm": 10.4,
@@ -10881,7 +10881,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB+ / Ba1",
         "price": 98.4,
         "ytm": 7.85,
@@ -11046,7 +11046,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A1 / A",
         "price": 99.2,
         "ytm": 5.15,
@@ -11211,7 +11211,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / B1",
         "price": 99.5,
         "ytm": 6.85,
@@ -11376,7 +11376,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A1 / A-",
         "price": 100.1,
         "ytm": 4.95,
@@ -11541,7 +11541,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / Ba3",
         "price": 102.0,
         "ytm": 7.95,
@@ -11706,7 +11706,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B- / B3",
         "price": 97.2,
         "ytm": 9.15,
@@ -11871,7 +11871,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "Ba2 / BB-",
         "price": 98.0,
         "ytm": 6.85,
@@ -12036,7 +12036,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "A1 / A+",
         "price": 97.5,
         "ytm": 4.85,
@@ -12201,7 +12201,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "Aa3 / AA-",
         "price": 98.5,
         "ytm": 4.9,
@@ -12366,7 +12366,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / Ba3 Implied",
         "price": 98.0,
         "ytm": 9.85,
@@ -12531,7 +12531,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / BB-",
         "price": 99.2,
         "ytm": 7.45,
@@ -12696,7 +12696,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB / BB-",
         "price": 99.8,
         "ytm": 7.15,
@@ -12861,7 +12861,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B- / Caa1",
         "price": 86.5,
         "ytm": 13.8,
@@ -13026,7 +13026,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB / BB-",
         "price": 99.5,
         "ytm": 7.2,
@@ -13191,7 +13191,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB / BB-",
         "price": 96.8,
         "ytm": 6.95,
@@ -13356,7 +13356,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / B1",
         "price": 99.8,
         "ytm": 6.75,
@@ -13521,7 +13521,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "CCC / Caa3",
         "price": 64.0,
         "ytm": 19.25,
@@ -13686,7 +13686,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / B1",
         "price": 99.2,
         "ytm": 6.95,
@@ -13851,7 +13851,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "BB- / B1",
         "price": 99.4,
         "ytm": 6.75,
@@ -14016,7 +14016,7 @@ window.CREDIT_HISTORY_DATA = {
       {
         "date": "2026-09-21",
         "period_name": "2026-09-21",
-        "timestamp": "2026-09-21T06:43:27.084957",
+        "timestamp": "2026-09-21T06:52:54.613504",
         "rating": "B- / CCC+",
         "price": 94.5,
         "ytm": 11.2,

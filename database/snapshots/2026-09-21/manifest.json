@@ -1,10 +1,10 @@
 {
-  "run_id": "SNAP-20260921-407",
+  "run_id": "SNAP-20260921-974",
   "snapshot_date": "2026-09-21",
-  "timestamp": "2026-09-21T06:43:27.084957",
-  "trigger_source": "Credit & Macro News Update",
+  "timestamp": "2026-09-21T06:52:54.613504",
+  "trigger_source": "Full Universe News Audit & Date Integrity Synchronisation",
   "total_issuers": 85,
   "total_tranches": 340,
   "total_guidance_metrics": 425,
-  "notes": "Updated news transmission and rating actions."
+  "notes": "Autonomous credit snapshot for 2026-09-21 across universe."
 }
