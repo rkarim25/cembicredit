@@ -672,5 +672,115 @@
     "us_polypropylene_capacity_kt": 2100,
     "bio_polyethylene_capacity_kt": 260,
     "maceio_pcf_claims_completed_pct": 99.6
-  }
+  },
+  "broker_snapshots": [
+    {
+      "broker": "Jefferies",
+      "analyst": "Cheryl Pate / EM Credit Strategy",
+      "report_date": "2026-09-21",
+      "report_title": "Jefferies EM Daily: BRASKM & BAKIDE Restructuring Analysis",
+      "recommendation": "Constructive / Overweight Selected Tranches",
+      "target_spread_bps": 650,
+      "raw_model": {
+        "2026E": {
+          "revenue": 15400.0,
+          "cogs": 13600.0,
+          "gross_profit": 1800.0,
+          "ebitda": 1250.0,
+          "capex": -850.0,
+          "cash_interest": -340.0,
+          "change_wc": -120.0,
+          "tax": -60.0,
+          "fcf": -120.0,
+          "gross_debt": 10740.0,
+          "cash": 900.0,
+          "net_debt": 9840.0
+        },
+        "2027E": {
+          "revenue": 16200.0,
+          "cogs": 14100.0,
+          "gross_profit": 2100.0,
+          "ebitda": 1450.0,
+          "capex": -820.0,
+          "cash_interest": -360.0,
+          "change_wc": -80.0,
+          "tax": -90.0,
+          "fcf": 100.0,
+          "gross_debt": 11080.0,
+          "cash": 950.0,
+          "net_debt": 10130.0
+        }
+      },
+      "restructuring_assumptions": {
+        "process": "Recuperação Extrajudicial (Lei 11.101)",
+        "approval_threshold": "50% plus one of subject creditors",
+        "current_signatory_support_pct": 39.6,
+        "agreement_in_principle_target": "2026-10-09",
+        "creditor_protection_deadline": "2026-11-22",
+        "petrobras_liquidity_facility_brl_b": 2.35,
+        "petrobras_facility_expiry": "2026-12-31",
+        "maturity_extension_years": 3,
+        "pik_period_years": 3,
+        "interest_split": "50% Cash / 50% PIK",
+        "coupon_rate": "Existing coupon rates preserved",
+        "past_due_interest": "Capitalised until mid-2027 exit",
+        "exit_yield_pct": 10.0,
+        "preferred_bonds": [
+          "BRASKM 5.875% 2050",
+          "BRASKM 7.125% 2041 (US Holdout)",
+          "BRASKM 4.500% 2028",
+          "BAKIDE 2029s"
+        ]
+      },
+      "bakide_linkage": {
+        "carveout_status": "Braskem plan explicitly permits BAKIDE investment, DIP funding and SPV put obligations",
+        "current_bakide_px": 68.5,
+        "recommendation": "Overweight 2029s over 2032s",
+        "rationale": "2029s senior secured on Ethylene XXI complex with Advario ethane terminal operational tailwind; PETBRA raw-material facility to Braskem indirectly guarantees DIP execution"
+      },
+      "notes": "Jefferies assumes 0% nominal principal haircut with 3Y A&E and 50% PIK. Audited by desk: PIK interest balloons gross debt to .4B by 2029, leaving exit leverage at an unviable 8.16x under a 10% exit yield. Ad hoc creditors will mandate equitisation or equity check.",
+      "errors_caught": [
+        {
+          "code": "E7_EXIT_LEVERAGE_BALLOON_TRAP",
+          "severity": "CRITICAL_RESTRUCTURING_FLAW",
+          "field": "gross_debt",
+          "stated_val": 10400.0,
+          "reconciled_val": 6400.0,
+          "variance": 4000.0,
+          "rationale": "Exit Leverage & PIK Balloon Trap: Jefferies models 3-year 50% PIK with 0% principal haircut, causing gross debt to compound from .4B to .4B+ by 2029. At a 10% exit yield, annual cash interest (,142M) would consume 82% of normalized EBITDA (,400M), generating persistent - FCF deficits and triggering immediate re-default. Desk reconciles plan with 35% debt-for-equity equitisation, resizing exit debt to .4B (3.9x Net Leverage)."
+        },
+        {
+          "code": "E8_CREDITOR_HOLDOUT_IMPASSE",
+          "severity": "VOTING_THRESHOLD_BREACH",
+          "field": "approval_threshold",
+          "stated_val": 39.6,
+          "reconciled_val": 50.1,
+          "variance": 10.5,
+          "rationale": "Creditor Voting Impasse: Ad hoc bondholder group (>40% of claims) rejected the 0% haircut low-ball proposal. Creditors will not accept 50% PIK at legacy coupons (4.5%-5.8%) without 25%-35% reorganized equity dilution of Novonor or an enforceable Petrobras equity backstop."
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E7_EXIT_LEVERAGE_BALLOON_TRAP",
+      "severity": "CRITICAL_RESTRUCTURING_FLAW",
+      "field": "gross_debt",
+      "stated_val": 10400.0,
+      "reconciled_val": 6400.0,
+      "variance": 4000.0,
+      "rationale": "Exit Leverage & PIK Balloon Trap: Jefferies models 3-year 50% PIK with 0% principal haircut, causing gross debt to compound from .4B to .4B+ by 2029. At a 10% exit yield, annual cash interest (,142M) would consume 82% of normalized EBITDA (,400M), generating persistent - FCF deficits and triggering immediate re-default. Desk reconciles plan with 35% debt-for-equity equitisation, resizing exit debt to .4B (3.9x Net Leverage)."
+    },
+    {
+      "code": "E8_CREDITOR_HOLDOUT_IMPASSE",
+      "severity": "VOTING_THRESHOLD_BREACH",
+      "field": "approval_threshold",
+      "stated_val": 39.6,
+      "reconciled_val": 50.1,
+      "variance": 10.5,
+      "rationale": "Creditor Voting Impasse: Ad hoc bondholder group (>40% of claims) rejected the 0% haircut low-ball proposal. Creditors will not accept 50% PIK at legacy coupons (4.5%-5.8%) without 25%-35% reorganized equity dilution of Novonor or an enforceable Petrobras equity backstop."
+    }
+  ],
+  "last_reconciled": "2026-09-22"
 }
