@@ -167,6 +167,10 @@ function renderHeroHeader() {
       bgBtn.style.display = 'inline-flex';
       bgBtn.href = 'zoren_background.html';
       bgBtn.title = 'Deep dive into Zorlu Enerji asset inputs/outputs, EV volatility & interactive pricing engine';
+    } else if (m.id === 'aragvi') {
+      bgBtn.style.display = 'inline-flex';
+      bgBtn.href = 'aragvi_background.html';
+      bgBtn.title = 'Deep dive into Aragvi asset inputs/outputs, EV volatility & interactive pricing engine';
     } else {
       bgBtn.style.display = 'none';
     }
@@ -181,6 +185,10 @@ function renderHeroHeader() {
     } else if (m.id === 'zorlu') {
       calcBtn.style.display = 'inline-flex';
       calcBtn.href = 'zoren_calculator.html';
+      calcBtn.innerHTML = '⚖️ Refinancing Sandbox';
+    } else if (m.id === 'aragvi') {
+      calcBtn.style.display = 'inline-flex';
+      calcBtn.href = 'aragvi_calculator.html';
       calcBtn.innerHTML = '⚖️ Refinancing Sandbox';
     } else {
       calcBtn.style.display = 'none';
@@ -2222,7 +2230,22 @@ function renderCovenantsAndRecovery() {
             Launch Sandbox →
           </a>
         </div>
-      ` : '')}
+      ` : (currentIssuer.metadata.id === 'aragvi' ? `
+        <div style="margin-top:14px; background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+          <div>
+            <div style="font-weight:700; color:#fff; font-size:12px; display:flex; align-items:center; gap:6px;">
+              <span>⚖️ Interactive Refinancing &amp; SOTP Sandbox</span>
+              <span class="badge badge-ig" style="font-size:9px;">Live Sandbox</span>
+            </div>
+            <div style="font-size:11px; color:#94a3b8; margin-top:3px;">
+              Calibrate July 2026 Eurobond roll, SOTP crushing &amp; port multiples, PXF commodity debt, and Moldovan geopolitical friction.
+            </div>
+          </div>
+          <a href="aragvi_calculator.html" class="btn-action btn-gold" style="font-weight:700; font-size:11px; padding:6px 14px; text-decoration:none;">
+            Launch Sandbox →
+          </a>
+        </div>
+      ` : ''))}
     </div>
   `;
 
@@ -2234,29 +2257,49 @@ function renderCovenantsAndRecovery() {
     const steps = rec.waterfall_steps || [];
     const isZorlu = currentIssuer.metadata.id === 'zorlu';
     const isBraskem = currentIssuer.metadata.id === 'braskem';
+    const isAragvi = currentIssuer.metadata.id === 'aragvi';
 
     if (steps.length > 0) {
       fullCard.style.display = 'block';
 
       // Tier banner values
-      const t1Val = isZorlu ? "$2,340M" : (isBraskem ? "$7,900M" : "$2,500M");
-      const t1Sub = isZorlu ? "$2,100M Base EV + $240M Cash" : (isBraskem ? "$7,000M Base EV + $900M Cash" : "EV + Unrestricted Cash");
-      const t2Val = isZorlu ? "-$1,230M" : (isBraskem ? "-$1,800M" : "-$1,000M");
-      const t2Sub = isZorlu ? "$720M Geothermal PF + $480M Grid + $30M Fees" : (isBraskem ? "$1.1B PPE + $600M Maceió + $100M Fees" : "Priority Secured Debt");
-      const t3Val = isZorlu ? "$1,110M" : (isBraskem ? "$6,100M" : "$1,500M");
-      const t3Sub = isZorlu ? "<strong>100.0c (1.91x Cover)</strong> on $582M Debt" : (isBraskem ? "<strong>66.3c Recovery</strong> ($9.2B Claims)" : "Available to Senior Debt");
-      const t4Val = isZorlu ? "$528M" : (isBraskem ? "$0 - $140M" : "$0M");
-      const t4Sub = isZorlu ? "Zorlu Holding Equity Value Cushion" : (isBraskem ? "10–18c Hybrid warrants / Stub Equity" : "Residual Equity");
+      const t1Val = isAragvi ? "$1,153M" : (isZorlu ? "$2,340M" : (isBraskem ? "$7,900M" : "$2,500M"));
+      const t1Sub = isAragvi ? "$1,033M Base EV + $120M Cash" : (isZorlu ? "$2,100M Base EV + $240M Cash" : (isBraskem ? "$7,000M Base EV + $900M Cash" : "EV + Unrestricted Cash"));
+      const t2Val = isAragvi ? "-$283M" : (isZorlu ? "-$1,230M" : (isBraskem ? "-$1,800M" : "-$1,000M"));
+      const t2Sub = isAragvi ? "$186.5M PXF + $81.1M DFI Loans + $15M Fees" : (isZorlu ? "$720M Geothermal PF + $480M Grid + $30M Fees" : (isBraskem ? "$1.1B PPE + $600M Maceió + $100M Fees" : "Priority Secured Debt"));
+      const t3Val = isAragvi ? "$870M" : (isZorlu ? "$1,110M" : (isBraskem ? "$6,100M" : "$1,500M"));
+      const t3Sub = isAragvi ? "<strong>100.0c (2.19x Cover)</strong> on $398M Debt" : (isZorlu ? "<strong>100.0c (1.91x Cover)</strong> on $582M Debt" : (isBraskem ? "<strong>66.3c Recovery</strong> ($9.2B Claims)" : "Available to Senior Debt"));
+      const t4Val = isAragvi ? "$473M" : (isZorlu ? "$528M" : (isBraskem ? "$0 - $140M" : "$0M"));
+      const t4Sub = isAragvi ? "Sponsor Equity Value Cushion" : (isZorlu ? "Zorlu Holding Equity Value Cushion" : (isBraskem ? "10–18c Hybrid warrants / Stub Equity" : "Residual Equity"));
 
       // Commentary & Sandbox URL
-      const sandboxUrl = isZorlu ? "zoren_calculator.html" : "braskem_calculator.html";
-      const bgUrl = isZorlu ? "zoren_background.html" : "braskem_background.html";
-      const deskCommentary = isZorlu 
-        ? "Under Absolute Priority, ZOREN 9.00% 2026 Eurobonds ($300M) are backed by <strong>190.6% asset coverage</strong> ($1,110M net value available vs $582M senior claims), anchoring a solid 100c par recovery. At 94.5c market quote, notes offer an attractive 11.2% YTM with high refinancing probability upon Zorlu Yenilenebilir IPO execution."
-        : "Under Absolute Priority, Senior Unsecured notes (2030s @ 48.6c / 2050s @ 44.7c) are backed by <strong>66.3c</strong> Base Case recovery value (+36% to +48% upside). Conversely, the Subordinated Hybrid 2081 (trading at 31.8c) recovers only <strong>10c–18c</strong> via warrants, offering an asymmetric short/underweight opportunity.";
+      const sandboxUrl = isAragvi ? "aragvi_calculator.html" : (isZorlu ? "zoren_calculator.html" : "braskem_calculator.html");
+      const bgUrl = isAragvi ? "aragvi_background.html" : (isZorlu ? "zoren_background.html" : "braskem_background.html");
+      const deskCommentary = isAragvi
+        ? "Under Absolute Priority, ARAGVI 12.15% 2026 Eurobonds ($243.4M) are backed by <strong>219.0% asset coverage</strong> ($870M net value available vs $398M senior claims), anchoring a solid 100c par recovery. At 89.0c market quote, notes offer an attractive 12.15% coupon carry (+8.0c capital upside to 97.0c fair value) with high probability of consensual 4Y maturity extension supported by EBRD/DFI umbrella."
+        : (isZorlu 
+          ? "Under Absolute Priority, ZOREN 9.00% 2026 Eurobonds ($300M) are backed by <strong>190.6% asset coverage</strong> ($1,110M net value available vs $582M senior claims), anchoring a solid 100c par recovery. At 94.5c market quote, notes offer an attractive 11.2% YTM with high refinancing probability upon Zorlu Yenilenebilir IPO execution."
+          : "Under Absolute Priority, Senior Unsecured notes (2030s @ 48.6c / 2050s @ 44.7c) are backed by <strong>66.3c</strong> Base Case recovery value (+36% to +48% upside). Conversely, the Subordinated Hybrid 2081 (trading at 31.8c) recovers only <strong>10c–18c</strong> via warrants, offering an asymmetric short/underweight opportunity.");
 
       // Step descriptions mapping for APR clarity
-      const stepDescriptions = isZorlu ? [
+      const stepDescriptions = isAragvi ? [
+        "Normalized run-rate recurring cash EBITDA before working capital swings across port, crushing, and silos.",
+        "Market multiple applied to core operations based on agribusiness comps and Danube port strategic value.",
+        "Implied operational Enterprise Value (EBITDA × Multiple) of port terminal, crushing plants, and silo hubs.",
+        "Unrestricted cash and liquid bank balances held across Swiss, Moldovan, and Romanian operating accounts.",
+        "Committed equity proceeds from founder Vaja Jhashi or strategic Western agribusiness partner injection.",
+        "Total enterprise value plus cash pool available for distribution across all claimant tiers.",
+        "Cumulative legal, restructuring, advisory, and syndication fees during maturity extension.",
+        "Priority senior secured Pre-Export Finance (PXF) commodity revolvers secured on grain inventories (100% par).",
+        "Priority senior secured term loans from multilateral development finance institutions EBRD, BSTDB, IFC (100% par).",
+        "Senior priority secured debt charges that must be satisfied in full prior to Eurobond distribution.",
+        "Unencumbered distributable asset value directly available to satisfy General Senior Unsecured claims.",
+        "Aggregate Senior Unsecured claims across ARAGVI 12.15% 2026s, 2031s, and drawn bank lines ($397.5M).",
+        "Percentage of face value recovered under Absolute Priority Rule (Net Available ÷ Claims).",
+        "Trading and exit recovery valuation per bond (cents on the dollar) comparing floor vs base case vs bull.",
+        "Aragvi Holding has no subordinated hybrid capital instruments in its active capital structure.",
+        "Residual equity value remaining for founder Vaja Jhashi / sponsors after satisfying all debt tiers."
+      ] : (isZorlu ? [
         "Normalized run-rate recurring cash EBITDA before non-cash provisions and FX translation.",
         "Market multiple applied to core operations based on Turkish utility comps and YEKDEM duration.",
         "Implied operational Enterprise Value (EBITDA × Multiple) of geothermal, wind, hydro & grid assets.",
@@ -2290,7 +2333,7 @@ function renderCovenantsAndRecovery() {
         "Trading and exit recovery valuation per bond (cents on the dollar) comparing floor vs base case vs bull.",
         "Junior subordinated perpetual capital instrument. Contractually subordinated to all senior claims.",
         "Residual value surviving for existing equity sponsors after all creditor tiers are satisfied."
-      ];
+      ]);
 
       fullContainer.innerHTML = `
         <!-- Visual APR Priority Flow Banner -->
