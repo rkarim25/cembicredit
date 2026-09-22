@@ -70014,7 +70014,176 @@ const MASTER_ISSUERS = [
       "recovery_base_pct": 95.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "High geothermal/hydro cash margins; AlJomaih asset divestment and deleveraging underway."
+      "thesis": "High geothermal/hydro cash margins; AlJomaih asset divestment and deleveraging underway.",
+      "senior_debt_coverage_pct": 190.6,
+      "recovery_commentary": "Base Case Distributable Value Waterfall: Total Enterprise Value (,100M at 6.0x normalized  EBITDA) + Unrestricted Cash () = ,340M. Deduct Priority Claims: Advisory/refinancing costs (), Priority Senior Secured Geothermal Project Loans ( at 100% par), and OEDAŞ Regulated Grid Loans ( at 100% par) = ,230M. Net value distributable to General Senior Unsecured claims (.4M across ZOREN 9.00% 2026 Eurobonds  and Drawn RCF .4M) is ,110M, providing 190.6% asset coverage (100c full par recovery). Residual equity value remaining for Zorlu Holding is .6M.",
+      "scenarios": [
+        {
+          "tranche": "Kızıldere & Alaşehir Geothermal Project Loans (EBRD/IFC)",
+          "claim_usd_m": 720.0,
+          "market_px": "100.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Reinstated"
+        },
+        {
+          "tranche": "OEDAŞ Regulated Grid Distribution Loans",
+          "claim_usd_m": 480.0,
+          "market_px": "100.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Reinstated"
+        },
+        {
+          "tranche": "ZOREN 9.000% 2026 Senior Notes (Eurobond)",
+          "claim_usd_m": 300.0,
+          "market_px": "94.5c",
+          "floor_recovery": "58.0c (58%)",
+          "base_recovery": "98.0c - 100.0c",
+          "bull_recovery": "102.5c (Call)",
+          "asymmetry": "+3.7% to +8.5% Upside to Base"
+        },
+        {
+          "tranche": "Syndicated RCF & Working Capital Facilities",
+          "claim_usd_m": 282.4,
+          "market_px": "100.0c",
+          "floor_recovery": "58.0c (58%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Rollover"
+        },
+        {
+          "tranche": "Total Senior Unsecured Tranches (Pari Passu Pool)",
+          "claim_usd_m": 582.4,
+          "market_px": "~97.2c",
+          "floor_recovery": "58.0c (58%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "101.3c (Par+)",
+          "asymmetry": "Fully Asset Covered"
+        }
+      ],
+      "waterfall_steps": [
+        {
+          "step": "1. Operating Cash EBITDA ()",
+          "floor": ".0M (Distress)",
+          "base": ".0M (Mid-Cycle)",
+          "bull": ".0M (Peak)",
+          "is_subtotal": false
+        },
+        {
+          "step": "2. Implied EV / EBITDA Multiple",
+          "floor": "5.0x EV Multiple",
+          "base": "6.0x EV Multiple",
+          "bull": "7.3x EV Multiple",
+          "is_subtotal": false
+        },
+        {
+          "step": "3. Enterprise Value (EV)",
+          "floor": ",200.0M",
+          "base": ",100.0M",
+          "bull": ",000.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "4. Add: Balance Sheet Cash",
+          "floor": ".0M",
+          "base": ".0M",
+          "bull": ".0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "5. Add: Sponsor Equity / Renewable IPO Proceeds",
+          "floor": ".0M (None)",
+          "base": ".0M (Internal Cash)",
+          "bull": ".0M (Zorlu Yenilenebilir IPO)",
+          "is_subtotal": false
+        },
+        {
+          "step": "6. TOTAL DISTRIBUTABLE ASSET VALUE",
+          "floor": ",380.0M",
+          "base": ",340.0M",
+          "bull": ",550.0M",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        },
+        {
+          "step": "7. Less: Refinancing & Professional Advisory Fees",
+          "floor": "-.0M",
+          "base": "-.0M",
+          "bull": "-.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "8. Less: Geothermal Project Loans (EBRD/IFC) ()",
+          "floor": "-.0M (100% Par)",
+          "base": "-.0M (100% Par)",
+          "bull": "-.0M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "9. Less: OEDAŞ Regulated Grid Loans ()",
+          "floor": "-.0M (100% Par)",
+          "base": "-.0M (100% Par)",
+          "bull": "-.0M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "10. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "floor": "-,240.0M",
+          "base": "-,230.0M",
+          "bull": "-,220.0M",
+          "is_subtotal": true,
+          "color": "#f87171"
+        },
+        {
+          "step": "11. NET VALUE AVAILABLE TO SENIOR UNSECURED",
+          "floor": ".0M",
+          "base": ",110.0M",
+          "bull": ",330.0M",
+          "is_subtotal": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "12. Total Senior Unsecured Claims Pool (.4M)",
+          "floor": ".4M",
+          "base": ".4M",
+          "bull": ".4M",
+          "is_subtotal": false
+        },
+        {
+          "step": "13. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
+          "floor": "24.0% - 58.0%",
+          "base": "100.0% (1.91x Covered)",
+          "bull": "100.0% (Fully Covered)",
+          "is_highlight": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "14. SENIOR UNSECURED RECOVERY PRICE (CENTS)",
+          "floor": "24.0c - 58.0c",
+          "base": "98.0c - 100.0c (Par)",
+          "bull": "102.5c (Call Premium)",
+          "is_highlight": true,
+          "color": "#fbbf24"
+        },
+        {
+          "step": "15. VALUE AVAILABLE TO SUBORDINATED CLAIMS",
+          "floor": ".0M (None)",
+          "base": ".0M (None)",
+          "bull": ".0M (None)",
+          "is_subtotal": false
+        },
+        {
+          "step": "16. VALUE REMAINING FOR EXISTING EQUITY (Zorlu Holding)",
+          "floor": ".0M (Wiped Out)",
+          "base": ".6M Equity Cushion",
+          "bull": ",747.6M Equity Upside",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        }
+      ]
     },
     "annotations": [
       {
@@ -142762,7 +142931,176 @@ window.CEMBI_DATA = {
       "recovery_base_pct": 95.0,
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "High geothermal/hydro cash margins; AlJomaih asset divestment and deleveraging underway."
+      "thesis": "High geothermal/hydro cash margins; AlJomaih asset divestment and deleveraging underway.",
+      "senior_debt_coverage_pct": 190.6,
+      "recovery_commentary": "Base Case Distributable Value Waterfall: Total Enterprise Value (,100M at 6.0x normalized  EBITDA) + Unrestricted Cash () = ,340M. Deduct Priority Claims: Advisory/refinancing costs (), Priority Senior Secured Geothermal Project Loans ( at 100% par), and OEDAŞ Regulated Grid Loans ( at 100% par) = ,230M. Net value distributable to General Senior Unsecured claims (.4M across ZOREN 9.00% 2026 Eurobonds  and Drawn RCF .4M) is ,110M, providing 190.6% asset coverage (100c full par recovery). Residual equity value remaining for Zorlu Holding is .6M.",
+      "scenarios": [
+        {
+          "tranche": "Kızıldere & Alaşehir Geothermal Project Loans (EBRD/IFC)",
+          "claim_usd_m": 720.0,
+          "market_px": "100.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Reinstated"
+        },
+        {
+          "tranche": "OEDAŞ Regulated Grid Distribution Loans",
+          "claim_usd_m": 480.0,
+          "market_px": "100.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Reinstated"
+        },
+        {
+          "tranche": "ZOREN 9.000% 2026 Senior Notes (Eurobond)",
+          "claim_usd_m": 300.0,
+          "market_px": "94.5c",
+          "floor_recovery": "58.0c (58%)",
+          "base_recovery": "98.0c - 100.0c",
+          "bull_recovery": "102.5c (Call)",
+          "asymmetry": "+3.7% to +8.5% Upside to Base"
+        },
+        {
+          "tranche": "Syndicated RCF & Working Capital Facilities",
+          "claim_usd_m": 282.4,
+          "market_px": "100.0c",
+          "floor_recovery": "58.0c (58%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Rollover"
+        },
+        {
+          "tranche": "Total Senior Unsecured Tranches (Pari Passu Pool)",
+          "claim_usd_m": 582.4,
+          "market_px": "~97.2c",
+          "floor_recovery": "58.0c (58%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "101.3c (Par+)",
+          "asymmetry": "Fully Asset Covered"
+        }
+      ],
+      "waterfall_steps": [
+        {
+          "step": "1. Operating Cash EBITDA ()",
+          "floor": ".0M (Distress)",
+          "base": ".0M (Mid-Cycle)",
+          "bull": ".0M (Peak)",
+          "is_subtotal": false
+        },
+        {
+          "step": "2. Implied EV / EBITDA Multiple",
+          "floor": "5.0x EV Multiple",
+          "base": "6.0x EV Multiple",
+          "bull": "7.3x EV Multiple",
+          "is_subtotal": false
+        },
+        {
+          "step": "3. Enterprise Value (EV)",
+          "floor": ",200.0M",
+          "base": ",100.0M",
+          "bull": ",000.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "4. Add: Balance Sheet Cash",
+          "floor": ".0M",
+          "base": ".0M",
+          "bull": ".0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "5. Add: Sponsor Equity / Renewable IPO Proceeds",
+          "floor": ".0M (None)",
+          "base": ".0M (Internal Cash)",
+          "bull": ".0M (Zorlu Yenilenebilir IPO)",
+          "is_subtotal": false
+        },
+        {
+          "step": "6. TOTAL DISTRIBUTABLE ASSET VALUE",
+          "floor": ",380.0M",
+          "base": ",340.0M",
+          "bull": ",550.0M",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        },
+        {
+          "step": "7. Less: Refinancing & Professional Advisory Fees",
+          "floor": "-.0M",
+          "base": "-.0M",
+          "bull": "-.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "8. Less: Geothermal Project Loans (EBRD/IFC) ()",
+          "floor": "-.0M (100% Par)",
+          "base": "-.0M (100% Par)",
+          "bull": "-.0M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "9. Less: OEDAŞ Regulated Grid Loans ()",
+          "floor": "-.0M (100% Par)",
+          "base": "-.0M (100% Par)",
+          "bull": "-.0M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "10. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "floor": "-,240.0M",
+          "base": "-,230.0M",
+          "bull": "-,220.0M",
+          "is_subtotal": true,
+          "color": "#f87171"
+        },
+        {
+          "step": "11. NET VALUE AVAILABLE TO SENIOR UNSECURED",
+          "floor": ".0M",
+          "base": ",110.0M",
+          "bull": ",330.0M",
+          "is_subtotal": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "12. Total Senior Unsecured Claims Pool (.4M)",
+          "floor": ".4M",
+          "base": ".4M",
+          "bull": ".4M",
+          "is_subtotal": false
+        },
+        {
+          "step": "13. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
+          "floor": "24.0% - 58.0%",
+          "base": "100.0% (1.91x Covered)",
+          "bull": "100.0% (Fully Covered)",
+          "is_highlight": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "14. SENIOR UNSECURED RECOVERY PRICE (CENTS)",
+          "floor": "24.0c - 58.0c",
+          "base": "98.0c - 100.0c (Par)",
+          "bull": "102.5c (Call Premium)",
+          "is_highlight": true,
+          "color": "#fbbf24"
+        },
+        {
+          "step": "15. VALUE AVAILABLE TO SUBORDINATED CLAIMS",
+          "floor": ".0M (None)",
+          "base": ".0M (None)",
+          "bull": ".0M (None)",
+          "is_subtotal": false
+        },
+        {
+          "step": "16. VALUE REMAINING FOR EXISTING EQUITY (Zorlu Holding)",
+          "floor": ".0M (Wiped Out)",
+          "base": ".6M Equity Cushion",
+          "bull": ",747.6M Equity Upside",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        }
+      ]
     },
     "annotations": [
       {

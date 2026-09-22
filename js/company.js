@@ -162,6 +162,11 @@ function renderHeroHeader() {
     if (m.id === 'braskem') {
       bgBtn.style.display = 'inline-flex';
       bgBtn.href = 'braskem_background.html';
+      bgBtn.title = 'Deep dive into Braskem asset inputs/outputs, EV volatility & interactive pricing engine';
+    } else if (m.id === 'zorlu') {
+      bgBtn.style.display = 'inline-flex';
+      bgBtn.href = 'zoren_background.html';
+      bgBtn.title = 'Deep dive into Zorlu Enerji asset inputs/outputs, EV volatility & interactive pricing engine';
     } else {
       bgBtn.style.display = 'none';
     }
@@ -172,6 +177,11 @@ function renderHeroHeader() {
     if (m.id === 'braskem') {
       calcBtn.style.display = 'inline-flex';
       calcBtn.href = 'braskem_calculator.html';
+      calcBtn.innerHTML = '⚖️ Restructuring Sandbox';
+    } else if (m.id === 'zorlu') {
+      calcBtn.style.display = 'inline-flex';
+      calcBtn.href = 'zoren_calculator.html';
+      calcBtn.innerHTML = '⚖️ Refinancing Sandbox';
     } else {
       calcBtn.style.display = 'none';
     }
@@ -2197,7 +2207,22 @@ function renderCovenantsAndRecovery() {
             Launch Sandbox →
           </a>
         </div>
-      ` : ''}
+      ` : (currentIssuer.metadata.id === 'zorlu' ? `
+        <div style="margin-top:14px; background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+          <div>
+            <div style="font-weight:700; color:#fff; font-size:12px; display:flex; align-items:center; gap:6px;">
+              <span>⚖️ Interactive Refinancing &amp; SOTP Sandbox</span>
+              <span class="badge badge-ig" style="font-size:9px;">Live Sandbox</span>
+            </div>
+            <div style="font-size:11px; color:#94a3b8; margin-top:3px;">
+              Calibrate June 2026 Eurobond roll, SOTP geothermal &amp; grid multiples, Zorlu Yenilenebilir IPO cash, and Turkish macro friction.
+            </div>
+          </div>
+          <a href="zoren_calculator.html" class="btn-action btn-gold" style="font-weight:700; font-size:11px; padding:6px 14px; text-decoration:none;">
+            Launch Sandbox →
+          </a>
+        </div>
+      ` : '')}
     </div>
   `;
 
@@ -2207,11 +2232,48 @@ function renderCovenantsAndRecovery() {
 
   if (fullCard && fullContainer) {
     const steps = rec.waterfall_steps || [];
+    const isZorlu = currentIssuer.metadata.id === 'zorlu';
+    const isBraskem = currentIssuer.metadata.id === 'braskem';
+
     if (steps.length > 0) {
       fullCard.style.display = 'block';
 
+      // Tier banner values
+      const t1Val = isZorlu ? "$2,340M" : (isBraskem ? "$7,900M" : "$2,500M");
+      const t1Sub = isZorlu ? "$2,100M Base EV + $240M Cash" : (isBraskem ? "$7,000M Base EV + $900M Cash" : "EV + Unrestricted Cash");
+      const t2Val = isZorlu ? "-$1,230M" : (isBraskem ? "-$1,800M" : "-$1,000M");
+      const t2Sub = isZorlu ? "$720M Geothermal PF + $480M Grid + $30M Fees" : (isBraskem ? "$1.1B PPE + $600M Maceió + $100M Fees" : "Priority Secured Debt");
+      const t3Val = isZorlu ? "$1,110M" : (isBraskem ? "$6,100M" : "$1,500M");
+      const t3Sub = isZorlu ? "<strong>100.0c (1.91x Cover)</strong> on $582M Debt" : (isBraskem ? "<strong>66.3c Recovery</strong> ($9.2B Claims)" : "Available to Senior Debt");
+      const t4Val = isZorlu ? "$528M" : (isBraskem ? "$0 - $140M" : "$0M");
+      const t4Sub = isZorlu ? "Zorlu Holding Equity Value Cushion" : (isBraskem ? "10–18c Hybrid warrants / Stub Equity" : "Residual Equity");
+
+      // Commentary & Sandbox URL
+      const sandboxUrl = isZorlu ? "zoren_calculator.html" : "braskem_calculator.html";
+      const bgUrl = isZorlu ? "zoren_background.html" : "braskem_background.html";
+      const deskCommentary = isZorlu 
+        ? "Under Absolute Priority, ZOREN 9.00% 2026 Eurobonds ($300M) are backed by <strong>190.6% asset coverage</strong> ($1,110M net value available vs $582M senior claims), anchoring a solid 100c par recovery. At 94.5c market quote, notes offer an attractive 11.2% YTM with high refinancing probability upon Zorlu Yenilenebilir IPO execution."
+        : "Under Absolute Priority, Senior Unsecured notes (2030s @ 48.6c / 2050s @ 44.7c) are backed by <strong>66.3c</strong> Base Case recovery value (+36% to +48% upside). Conversely, the Subordinated Hybrid 2081 (trading at 31.8c) recovers only <strong>10c–18c</strong> via warrants, offering an asymmetric short/underweight opportunity.";
+
       // Step descriptions mapping for APR clarity
-      const stepDescriptions = [
+      const stepDescriptions = isZorlu ? [
+        "Normalized run-rate recurring cash EBITDA before non-cash provisions and FX translation.",
+        "Market multiple applied to core operations based on Turkish utility comps and YEKDEM duration.",
+        "Implied operational Enterprise Value (EBITDA × Multiple) of geothermal, wind, hydro & grid assets.",
+        "Unrestricted cash and liquid bank balances held across Akbank, Garanti BBVA, and Turkiye Is Bankasi.",
+        "Committed equity proceeds from Zorlu Yenilenebilir minority IPO or strategic Gulf stake sale.",
+        "Total enterprise value plus cash pool available for distribution across all claimant tiers.",
+        "Cumulative legal, syndication, rating agency, and advisory fees during maturity extension.",
+        "Priority senior secured project loans (EBRD/IFC) on Kızıldere & Alaşehir geothermal plants (100% par).",
+        "Priority senior secured capex facilities and TLREF loans secured on OEDAŞ regulated grid receivables (100% par).",
+        "Senior priority secured debt charges that must be satisfied in full prior to Eurobond distribution.",
+        "Unencumbered distributable asset value directly available to satisfy General Senior Unsecured claims.",
+        "Aggregate Senior Unsecured claims across ZOREN 9.00% 2026 Eurobonds ($300M) and drawn syndicated RCF ($282M).",
+        "Percentage of face value recovered under Absolute Priority Rule (Net Available ÷ Claims).",
+        "Trading and exit recovery valuation per bond (cents on the dollar) comparing floor vs base case vs bull.",
+        "Zorlu Enerji has no subordinated hybrid capital instruments in its active capital structure.",
+        "Residual equity value remaining for parent Zorlu Holding after satisfying all debt tiers."
+      ] : [
         "Normalized or cyclically adjusted recurring cash EBITDA baseline before non-cash provisions.",
         "Market multiple applied to core operations based on historical petrochemical cycle medians and M&A comps.",
         "Implied operational Enterprise Value (EBITDA × Multiple). Irreplaceable assets defend floor.",
@@ -2235,23 +2297,23 @@ function renderCovenantsAndRecovery() {
         <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:20px; margin-top:10px;">
           <div style="background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.3); border-radius:8px; padding:12px 14px;">
             <div style="font-size:10px; text-transform:uppercase; color:#38bdf8; font-weight:700; letter-spacing:0.5px;">Tier 1: Distributable Pool</div>
-            <div style="font-size:18px; font-weight:800; color:#fff; font-family:'JetBrains Mono',monospace; margin-top:4px;">$7,900M</div>
-            <div style="font-size:11px; color:#94a3b8; margin-top:2px;">$7,000M Base EV + $900M Cash</div>
+            <div style="font-size:18px; font-weight:800; color:#fff; font-family:'JetBrains Mono',monospace; margin-top:4px;">${t1Val}</div>
+            <div style="font-size:11px; color:#94a3b8; margin-top:2px;">${t1Sub}</div>
           </div>
           <div style="background:rgba(248,113,113,0.08); border:1px solid rgba(248,113,113,0.3); border-radius:8px; padding:12px 14px;">
             <div style="font-size:10px; text-transform:uppercase; color:#f87171; font-weight:700; letter-spacing:0.5px;">Tier 2: Priority Claims</div>
-            <div style="font-size:18px; font-weight:800; color:#f87171; font-family:'JetBrains Mono',monospace; margin-top:4px;">-$1,800M</div>
-            <div style="font-size:11px; color:#94a3b8; margin-top:2px;">$1.1B PPE + $600M Maceió + $100M Fees</div>
+            <div style="font-size:18px; font-weight:800; color:#f87171; font-family:'JetBrains Mono',monospace; margin-top:4px;">${t2Val}</div>
+            <div style="font-size:11px; color:#94a3b8; margin-top:2px;">${t2Sub}</div>
           </div>
           <div style="background:rgba(52,211,153,0.08); border:1px solid rgba(52,211,153,0.3); border-radius:8px; padding:12px 14px;">
             <div style="font-size:10px; text-transform:uppercase; color:#34d399; font-weight:700; letter-spacing:0.5px;">Tier 3: Available to Senior Debt</div>
-            <div style="font-size:18px; font-weight:800; color:#34d399; font-family:'JetBrains Mono',monospace; margin-top:4px;">$6,100M</div>
-            <div style="font-size:11px; color:#cbd5e1; margin-top:2px;"><strong>66.3c Recovery</strong> ($9.2B Claims)</div>
+            <div style="font-size:18px; font-weight:800; color:#34d399; font-family:'JetBrains Mono',monospace; margin-top:4px;">${t3Val}</div>
+            <div style="font-size:11px; color:#cbd5e1; margin-top:2px;">${t3Sub}</div>
           </div>
           <div style="background:rgba(192,132,252,0.08); border:1px solid rgba(192,132,252,0.3); border-radius:8px; padding:12px 14px;">
             <div style="font-size:10px; text-transform:uppercase; color:#c084fc; font-weight:700; letter-spacing:0.5px;">Tier 4: Subordinated &amp; Equity</div>
-            <div style="font-size:18px; font-weight:800; color:#c084fc; font-family:'JetBrains Mono',monospace; margin-top:4px;">$0 - $140M</div>
-            <div style="font-size:11px; color:#94a3b8; margin-top:2px;">10–18c Hybrid warrants / Stub Equity</div>
+            <div style="font-size:18px; font-weight:800; color:#c084fc; font-family:'JetBrains Mono',monospace; margin-top:4px;">${t4Val}</div>
+            <div style="font-size:11px; color:#94a3b8; margin-top:2px;">${t4Sub}</div>
           </div>
         </div>
 
@@ -2316,13 +2378,15 @@ function renderCovenantsAndRecovery() {
               <span>💡</span> Desk Takeaway &amp; Capital Structure Strategy
             </div>
             <div style="font-size:11.5px; color:#cbd5e1; line-height:1.5;">
-              Under the Absolute Priority Rule, Senior Unsecured notes (2030s @ 48.6c / 2050s @ 44.7c) are backed by <strong>66.3c</strong> Base Case recovery value (+36% to +48% upside).
-              Conversely, the Subordinated Hybrid 2081 (trading at 31.8c) recovers only <strong>10c–18c</strong> via warrants, offering an asymmetric short/underweight opportunity.
+              ${deskCommentary}
             </div>
           </div>
-          <div>
-            <a href="braskem_calculator.html" class="btn-action btn-gold" style="font-size:11px; padding:8px 16px; font-weight:700; text-decoration:none; white-space:nowrap;">
-              Launch Restructuring Sandbox →
+          <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+            <a href="${bgUrl}" class="btn-action" style="font-size:11px; padding:8px 14px; background:rgba(56,189,248,0.15); border-color:#38bdf8; color:#93c5fd; font-weight:700; text-decoration:none; white-space:nowrap;">
+              📖 Asset Inputs &amp; EV Vol →
+            </a>
+            <a href="${sandboxUrl}" class="btn-action btn-gold" style="font-size:11px; padding:8px 16px; font-weight:700; text-decoration:none; white-space:nowrap;">
+              Launch Sandbox →
             </a>
           </div>
         </div>
