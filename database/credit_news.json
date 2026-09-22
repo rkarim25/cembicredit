@@ -1,5 +1,39 @@
 [
   {
+    "id": "NEWS-2026-09-AIRGLO-01",
+    "date": "2026-09-22",
+    "ticker": "AIRGLO",
+    "issuer_name": "Air Global (Advanced Inhalation Rituals)",
+    "headline": "Air Global Reports FY25A Results: 35% EBITDA Margin, $116M OCF, Net Leverage at 2.1x; 99% Hard-Currency Revenue Moat",
+    "source": "EMD Credit Research",
+    "url": "https://rkarim25.github.io/cembicredit/company.html?id=air_global",
+    "category": "Corporate Earnings / Credit Note",
+    "macro_transmission_channel": "Consumer Staples Resilience, Hard Currency Cash Flows & Global Nicotine Regulations",
+    "credit_impact": "Positive / Solid BB Profile",
+    "impacted_issuers": [
+      "AIRGLO"
+    ],
+    "concise_analysis": "Air Global (Al Fakher shisha leader) posted FY25A revenue of $400M (+6.1% YoY) and Adj. EBITDA of $139M (35% margin) with $116M in operating cash flow (83% cash conversion). Core MEAA business generated $158M EBITDA at ~40% margin, offsetting -$19M NGC early-stage losses. Capex intensity remains minimal at 3.7% of revenue ($15M total, $9M maintenance), yielding $101M in FCF. Working capital optimization reduced NWC/Revenue from 29.5% in 2023 to 12.4% in 2025.",
+    "credit_commentary": "Solid BB- / B1 fundamental credit profile with durable cash flow generation and conservative 2.1x net leverage. Low default risk is anchored by high margins and 99% hard-currency revenue. Valuation multiples remain constrained by ESG exclusion criteria and flavoured nicotine regulation rather than balance sheet fragility."
+  },
+  {
+    "id": "NEWS-2026-09-GLNG-01",
+    "date": "2026-09-22",
+    "ticker": "GLNG",
+    "issuer_name": "Golar LNG Limited",
+    "headline": "Golar LNG Launches $500M 5NC2 Senior Unsecured Bond Offering; Desk Flags HoldCo Structural Subordination Behind $1.74B Priority Debt",
+    "source": "Desk Energy Infrastructure Strategy",
+    "url": "https://rkarim25.github.io/cembicredit/company.html?id=golar",
+    "category": "New Issue / Capital Structure",
+    "macro_transmission_channel": "Global FLNG Demand, Argentina Vaca Muerta Gas Monetisation & RIGI Framework",
+    "credit_impact": "Neutral / Cautious on Pricing",
+    "impacted_issuers": [
+      "GLNG"
+    ],
+    "concise_analysis": "Golar LNG is marketing a $500M 5NC2 senior unsecured HoldCo bond (IPTs high-7% area) to refinance October 2025 notes. Desk estimates blended fair value at 7.8%–7.9%. While supported by $17B in contracted EBITDA backlog and operational Gimi cash flows under BP contract, notes sit at HoldCo without operating company guarantees, structurally subordinated to $1.74B priority asset debt (55.8% of total). Peak gross leverage reaches 15–17x during Hilli relocation and MKII build before falling to 1.6x net leverage on 2028 run-rate ($865M EBITDA).",
+    "credit_commentary": "Recommend Underweight / Cautious if pricing clears in mid-7% area due to structural subordination, lack of OpCo guarantees, execution risks during Hilli's 10–12 month relocation, and 80% Argentine EBITDA concentration by 2028."
+  },
+  {
     "id": "NEWS-2026-09-BRASKEM-01",
     "date": "2026-09-22",
     "ticker": "BRASKM",

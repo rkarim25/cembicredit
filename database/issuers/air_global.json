@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "id": "air_global",
+    "name": "Air Global (Advanced Inhalation Rituals)",
+    "ticker": "AIRGLO",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Consumer",
+    "type": "corp",
+    "rating": "BB- / B1",
+    "tier": "BB",
+    "benchmark_bond": "AIRGLO 2029",
+    "price": 100.0,
+    "ytm": 7.5,
+    "spread_bp": 385,
+    "model_file": "Air_Global_Credit_Model.xlsx",
+    "notion_id": "3e31d0ad-68c6-81e5-9e01-f9353fde4a7f",
+    "last_updated": "2026-09-22",
+    "fcf_2024a": 134.0,
+    "net_leverage_2024a": 2.2
+  },
+  "financials_multi_year": [
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 364.0,
+      "ebitda": 118.0,
+      "ebitda_margin_pct": 32.4,
+      "cfo": 65.0,
+      "capex": -16.0,
+      "fcf": 49.0,
+      "cash": 45.0,
+      "gross_debt": 330.0,
+      "net_debt": 285.0,
+      "net_leverage": 2.42,
+      "interest_coverage": 4.8
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 377.0,
+      "ebitda": 130.0,
+      "ebitda_margin_pct": 34.5,
+      "cfo": 151.0,
+      "capex": -17.0,
+      "fcf": 134.0,
+      "cash": 60.0,
+      "gross_debt": 345.0,
+      "net_debt": 285.0,
+      "net_leverage": 2.19,
+      "interest_coverage": 5.2
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "revenue": 400.0,
+      "ebitda": 139.0,
+      "ebitda_margin_pct": 34.8,
+      "cfo": 116.0,
+      "capex": -15.0,
+      "fcf": 101.0,
+      "cash": 70.0,
+      "gross_debt": 362.0,
+      "net_debt": 292.0,
+      "net_leverage": 2.1,
+      "interest_coverage": 5.6
+    }
+  ],
+  "segment_performance": {
+    "meaa_revenue_2025": 255.0,
+    "europe_revenue_2025": 45.0,
+    "americas_revenue_2025": 79.0,
+    "new_growth_revenue_2025": 21.0,
+    "core_ebitda_2025": 158.0,
+    "new_growth_ebitda_2025": -19.0
+  },
+  "desk_verdict": {
+    "profile": "Solid BB- / B1 Consumer Staple",
+    "cash_conversion_pct": 83.5,
+    "capex_intensity_pct": 3.7,
+    "hard_currency_pct": 99.0,
+    "recommendation": "Neutral / Hold (Default risk low; capped by tobacco ESG exclusions and flavour regulations)"
+  }
+}

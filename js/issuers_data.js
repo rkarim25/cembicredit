@@ -3238,6 +3238,90 @@ const MASTER_ISSUERS = [
   },
   {
     "metadata": {
+      "id": "air_global",
+      "name": "Air Global (Advanced Inhalation Rituals)",
+      "ticker": "AIRGLO",
+      "country": "UAE",
+      "region": "Middle East",
+      "sector": "Consumer",
+      "type": "corp",
+      "rating": "BB- / B1",
+      "tier": "BB",
+      "benchmark_bond": "AIRGLO 2029",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "model_file": "Air_Global_Credit_Model.xlsx",
+      "notion_id": "3e31d0ad-68c6-81e5-9e01-f9353fde4a7f",
+      "last_updated": "2026-09-22",
+      "fcf_2024a": 134.0,
+      "net_leverage_2024a": 2.2
+    },
+    "financials_multi_year": [
+      {
+        "period": "2023A",
+        "is_audited": true,
+        "revenue": 364.0,
+        "ebitda": 118.0,
+        "ebitda_margin_pct": 32.4,
+        "cfo": 65.0,
+        "capex": -16.0,
+        "fcf": 49.0,
+        "cash": 45.0,
+        "gross_debt": 330.0,
+        "net_debt": 285.0,
+        "net_leverage": 2.42,
+        "interest_coverage": 4.8
+      },
+      {
+        "period": "2024A",
+        "is_audited": true,
+        "revenue": 377.0,
+        "ebitda": 130.0,
+        "ebitda_margin_pct": 34.5,
+        "cfo": 151.0,
+        "capex": -17.0,
+        "fcf": 134.0,
+        "cash": 60.0,
+        "gross_debt": 345.0,
+        "net_debt": 285.0,
+        "net_leverage": 2.19,
+        "interest_coverage": 5.2
+      },
+      {
+        "period": "2025A",
+        "is_audited": true,
+        "revenue": 400.0,
+        "ebitda": 139.0,
+        "ebitda_margin_pct": 34.8,
+        "cfo": 116.0,
+        "capex": -15.0,
+        "fcf": 101.0,
+        "cash": 70.0,
+        "gross_debt": 362.0,
+        "net_debt": 292.0,
+        "net_leverage": 2.1,
+        "interest_coverage": 5.6
+      }
+    ],
+    "segment_performance": {
+      "meaa_revenue_2025": 255.0,
+      "europe_revenue_2025": 45.0,
+      "americas_revenue_2025": 79.0,
+      "new_growth_revenue_2025": 21.0,
+      "core_ebitda_2025": 158.0,
+      "new_growth_ebitda_2025": -19.0
+    },
+    "desk_verdict": {
+      "profile": "Solid BB- / B1 Consumer Staple",
+      "cash_conversion_pct": 83.5,
+      "capex_intensity_pct": 3.7,
+      "hard_currency_pct": 99.0,
+      "recommendation": "Neutral / Hold (Default risk low; capped by tobacco ESG exclusions and flavour regulations)"
+    }
+  },
+  {
+    "metadata": {
       "id": "akbank",
       "name": "Akbank TAS",
       "ticker": "AKBNK",
@@ -26426,6 +26510,150 @@ const MASTER_ISSUERS = [
       "net_leverage": 2.12,
       "total_mistakes_caught": 1,
       "last_reconciled": "2026-09-20"
+    }
+  },
+  {
+    "metadata": {
+      "id": "golar",
+      "name": "Golar LNG Limited",
+      "ticker": "GLNG",
+      "country": "Bermuda",
+      "region": "Global EM / LatAm & Africa",
+      "sector": "Energy",
+      "type": "corp",
+      "rating": "B2 / B",
+      "tier": "B",
+      "benchmark_bond": "GLNG $500M 5NC2",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "model_file": "Golar_LNG_Credit_Model.xlsx",
+      "notion_id": "3e31d0ad-68c6-8104-ab60-c609ed22a0d9",
+      "last_updated": "2026-09-22",
+      "fcf_2024a": -80.0,
+      "net_leverage_2024a": 6.4,
+      "ebitda_backlog_usd_b": 17.0
+    },
+    "financials_multi_year": [
+      {
+        "period": "2020A",
+        "is_audited": true,
+        "revenue": 261.0,
+        "ebitda": 162.0,
+        "ebitda_margin_pct": 62.1,
+        "cfo": 54.0,
+        "capex": -298.0,
+        "fcf": -258.0,
+        "cash": 226.0,
+        "gross_debt": 1652.0,
+        "net_debt": 1314.0,
+        "net_leverage": 7.2,
+        "interest_coverage": 3.2
+      },
+      {
+        "period": "2021A",
+        "is_audited": true,
+        "revenue": 260.0,
+        "ebitda": 182.0,
+        "ebitda_margin_pct": 70.0,
+        "cfo": 121.0,
+        "capex": -213.0,
+        "fcf": -106.0,
+        "cash": 338.0,
+        "gross_debt": 1210.0,
+        "net_debt": 197.0,
+        "net_leverage": 0.5,
+        "interest_coverage": 3.5
+      },
+      {
+        "period": "2022A",
+        "is_audited": true,
+        "revenue": 268.0,
+        "ebitda": 363.0,
+        "ebitda_margin_pct": 135.4,
+        "cfo": 279.0,
+        "capex": -249.0,
+        "fcf": 20.0,
+        "cash": 1013.0,
+        "gross_debt": 1217.0,
+        "net_debt": 445.0,
+        "net_leverage": 1.3,
+        "interest_coverage": 5.8
+      },
+      {
+        "period": "2023A",
+        "is_audited": true,
+        "revenue": 298.0,
+        "ebitda": 356.0,
+        "ebitda_margin_pct": 119.5,
+        "cfo": 135.0,
+        "capex": -281.0,
+        "fcf": -158.0,
+        "cash": 771.0,
+        "gross_debt": 1716.0,
+        "net_debt": 999.0,
+        "net_leverage": 4.2,
+        "interest_coverage": 4.6
+      },
+      {
+        "period": "2024A",
+        "is_audited": true,
+        "revenue": 260.0,
+        "ebitda": 241.0,
+        "ebitda_margin_pct": 92.7,
+        "cfo": 280.0,
+        "capex": -330.0,
+        "fcf": -80.0,
+        "cash": 717.0,
+        "gross_debt": 2241.0,
+        "net_debt": 1334.0,
+        "net_leverage": 6.4,
+        "interest_coverage": 3.4
+      },
+      {
+        "period": "1H25A",
+        "is_audited": false,
+        "revenue": 138.0,
+        "ebitda": 90.0,
+        "ebitda_margin_pct": 65.2,
+        "cfo": 192.0,
+        "capex": -425.0,
+        "fcf": -244.0,
+        "cash": 907.0,
+        "gross_debt": 2242.0,
+        "net_debt": 1335.0,
+        "net_leverage": 6.4,
+        "interest_coverage": 2.8
+      },
+      {
+        "period": "2028E_RunRate",
+        "is_audited": false,
+        "revenue": 1150.0,
+        "ebitda": 865.0,
+        "ebitda_margin_pct": 75.2,
+        "cfo": 750.0,
+        "capex": -150.0,
+        "fcf": 450.0,
+        "cash": 600.0,
+        "gross_debt": 1942.0,
+        "net_debt": 1342.0,
+        "net_leverage": 1.6,
+        "interest_coverage": 6.5
+      }
+    ],
+    "capital_structure_pf": {
+      "asset_level_debt_usd_m": 1735,
+      "holdco_debt_usd_m": 1375,
+      "total_debt_usd_m": 3110,
+      "gross_cash_usd_m": 1768,
+      "unrestricted_cash_usd_m": 1644,
+      "net_debt_usd_m": 1342,
+      "priority_debt_pct": 55.8
+    },
+    "valuation": {
+      "fair_value_yield": "7.8% - 7.9%",
+      "ipt_yield": "High-7%",
+      "recommendation": "Underweight / Cautious on mid-7% tight pricing given HoldCo structural subordination and 15-17x peak gross leverage."
     }
   },
   {
@@ -76263,6 +76491,90 @@ window.CEMBI_DATA = {
       "last_reconciled": "2026-09-20"
     }
   },
+  "air_global": {
+    "metadata": {
+      "id": "air_global",
+      "name": "Air Global (Advanced Inhalation Rituals)",
+      "ticker": "AIRGLO",
+      "country": "UAE",
+      "region": "Middle East",
+      "sector": "Consumer",
+      "type": "corp",
+      "rating": "BB- / B1",
+      "tier": "BB",
+      "benchmark_bond": "AIRGLO 2029",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "model_file": "Air_Global_Credit_Model.xlsx",
+      "notion_id": "3e31d0ad-68c6-81e5-9e01-f9353fde4a7f",
+      "last_updated": "2026-09-22",
+      "fcf_2024a": 134.0,
+      "net_leverage_2024a": 2.2
+    },
+    "financials_multi_year": [
+      {
+        "period": "2023A",
+        "is_audited": true,
+        "revenue": 364.0,
+        "ebitda": 118.0,
+        "ebitda_margin_pct": 32.4,
+        "cfo": 65.0,
+        "capex": -16.0,
+        "fcf": 49.0,
+        "cash": 45.0,
+        "gross_debt": 330.0,
+        "net_debt": 285.0,
+        "net_leverage": 2.42,
+        "interest_coverage": 4.8
+      },
+      {
+        "period": "2024A",
+        "is_audited": true,
+        "revenue": 377.0,
+        "ebitda": 130.0,
+        "ebitda_margin_pct": 34.5,
+        "cfo": 151.0,
+        "capex": -17.0,
+        "fcf": 134.0,
+        "cash": 60.0,
+        "gross_debt": 345.0,
+        "net_debt": 285.0,
+        "net_leverage": 2.19,
+        "interest_coverage": 5.2
+      },
+      {
+        "period": "2025A",
+        "is_audited": true,
+        "revenue": 400.0,
+        "ebitda": 139.0,
+        "ebitda_margin_pct": 34.8,
+        "cfo": 116.0,
+        "capex": -15.0,
+        "fcf": 101.0,
+        "cash": 70.0,
+        "gross_debt": 362.0,
+        "net_debt": 292.0,
+        "net_leverage": 2.1,
+        "interest_coverage": 5.6
+      }
+    ],
+    "segment_performance": {
+      "meaa_revenue_2025": 255.0,
+      "europe_revenue_2025": 45.0,
+      "americas_revenue_2025": 79.0,
+      "new_growth_revenue_2025": 21.0,
+      "core_ebitda_2025": 158.0,
+      "new_growth_ebitda_2025": -19.0
+    },
+    "desk_verdict": {
+      "profile": "Solid BB- / B1 Consumer Staple",
+      "cash_conversion_pct": 83.5,
+      "capex_intensity_pct": 3.7,
+      "hard_currency_pct": 99.0,
+      "recommendation": "Neutral / Hold (Default risk low; capped by tobacco ESG exclusions and flavour regulations)"
+    }
+  },
   "akbank": {
     "metadata": {
       "id": "akbank",
@@ -99453,6 +99765,150 @@ window.CEMBI_DATA = {
       "net_leverage": 2.12,
       "total_mistakes_caught": 1,
       "last_reconciled": "2026-09-20"
+    }
+  },
+  "golar": {
+    "metadata": {
+      "id": "golar",
+      "name": "Golar LNG Limited",
+      "ticker": "GLNG",
+      "country": "Bermuda",
+      "region": "Global EM / LatAm & Africa",
+      "sector": "Energy",
+      "type": "corp",
+      "rating": "B2 / B",
+      "tier": "B",
+      "benchmark_bond": "GLNG $500M 5NC2",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "model_file": "Golar_LNG_Credit_Model.xlsx",
+      "notion_id": "3e31d0ad-68c6-8104-ab60-c609ed22a0d9",
+      "last_updated": "2026-09-22",
+      "fcf_2024a": -80.0,
+      "net_leverage_2024a": 6.4,
+      "ebitda_backlog_usd_b": 17.0
+    },
+    "financials_multi_year": [
+      {
+        "period": "2020A",
+        "is_audited": true,
+        "revenue": 261.0,
+        "ebitda": 162.0,
+        "ebitda_margin_pct": 62.1,
+        "cfo": 54.0,
+        "capex": -298.0,
+        "fcf": -258.0,
+        "cash": 226.0,
+        "gross_debt": 1652.0,
+        "net_debt": 1314.0,
+        "net_leverage": 7.2,
+        "interest_coverage": 3.2
+      },
+      {
+        "period": "2021A",
+        "is_audited": true,
+        "revenue": 260.0,
+        "ebitda": 182.0,
+        "ebitda_margin_pct": 70.0,
+        "cfo": 121.0,
+        "capex": -213.0,
+        "fcf": -106.0,
+        "cash": 338.0,
+        "gross_debt": 1210.0,
+        "net_debt": 197.0,
+        "net_leverage": 0.5,
+        "interest_coverage": 3.5
+      },
+      {
+        "period": "2022A",
+        "is_audited": true,
+        "revenue": 268.0,
+        "ebitda": 363.0,
+        "ebitda_margin_pct": 135.4,
+        "cfo": 279.0,
+        "capex": -249.0,
+        "fcf": 20.0,
+        "cash": 1013.0,
+        "gross_debt": 1217.0,
+        "net_debt": 445.0,
+        "net_leverage": 1.3,
+        "interest_coverage": 5.8
+      },
+      {
+        "period": "2023A",
+        "is_audited": true,
+        "revenue": 298.0,
+        "ebitda": 356.0,
+        "ebitda_margin_pct": 119.5,
+        "cfo": 135.0,
+        "capex": -281.0,
+        "fcf": -158.0,
+        "cash": 771.0,
+        "gross_debt": 1716.0,
+        "net_debt": 999.0,
+        "net_leverage": 4.2,
+        "interest_coverage": 4.6
+      },
+      {
+        "period": "2024A",
+        "is_audited": true,
+        "revenue": 260.0,
+        "ebitda": 241.0,
+        "ebitda_margin_pct": 92.7,
+        "cfo": 280.0,
+        "capex": -330.0,
+        "fcf": -80.0,
+        "cash": 717.0,
+        "gross_debt": 2241.0,
+        "net_debt": 1334.0,
+        "net_leverage": 6.4,
+        "interest_coverage": 3.4
+      },
+      {
+        "period": "1H25A",
+        "is_audited": false,
+        "revenue": 138.0,
+        "ebitda": 90.0,
+        "ebitda_margin_pct": 65.2,
+        "cfo": 192.0,
+        "capex": -425.0,
+        "fcf": -244.0,
+        "cash": 907.0,
+        "gross_debt": 2242.0,
+        "net_debt": 1335.0,
+        "net_leverage": 6.4,
+        "interest_coverage": 2.8
+      },
+      {
+        "period": "2028E_RunRate",
+        "is_audited": false,
+        "revenue": 1150.0,
+        "ebitda": 865.0,
+        "ebitda_margin_pct": 75.2,
+        "cfo": 750.0,
+        "capex": -150.0,
+        "fcf": 450.0,
+        "cash": 600.0,
+        "gross_debt": 1942.0,
+        "net_debt": 1342.0,
+        "net_leverage": 1.6,
+        "interest_coverage": 6.5
+      }
+    ],
+    "capital_structure_pf": {
+      "asset_level_debt_usd_m": 1735,
+      "holdco_debt_usd_m": 1375,
+      "total_debt_usd_m": 3110,
+      "gross_cash_usd_m": 1768,
+      "unrestricted_cash_usd_m": 1644,
+      "net_debt_usd_m": 1342,
+      "priority_debt_pct": 55.8
+    },
+    "valuation": {
+      "fair_value_yield": "7.8% - 7.9%",
+      "ipt_yield": "High-7%",
+      "recommendation": "Underweight / Cautious on mid-7% tight pricing given HoldCo structural subordination and 15-17x peak gross leverage."
     }
   },
   "goldfields": {
