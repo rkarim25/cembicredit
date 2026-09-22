@@ -156,7 +156,17 @@ function renderHeroHeader() {
     ccBtn.style.display = 'none';
   }
 
-  // Interactive Restructuring Sandbox Button
+  // Interactive Restructuring Sandbox & Background Deep Dive Buttons
+  const bgBtn = document.getElementById('hero-background-btn');
+  if (bgBtn) {
+    if (m.id === 'braskem') {
+      bgBtn.style.display = 'inline-flex';
+      bgBtn.href = 'braskem_background.html';
+    } else {
+      bgBtn.style.display = 'none';
+    }
+  }
+
   const calcBtn = document.getElementById('hero-calculator-btn');
   if (calcBtn) {
     if (m.id === 'braskem') {
