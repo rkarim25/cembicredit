@@ -1,5 +1,22 @@
 [
   {
+    "id": "NEWS-2026-09-BRASKEM-01",
+    "date": "2026-09-22",
+    "ticker": "BRASKM",
+    "issuer_name": "Braskem S.A.",
+    "headline": "Braskem Restructuring Standoff: Creditors Reject  Debt Tender Proposal, Demand  Petrobras Equity Check; Desk Evaluates 66.3c Senior Recovery vs 10-18c Hybrid Impairment",
+    "source": "Desk Distressed Credit Strategy & Court Disclosures",
+    "url": "https://app.notion.com/p/Braskem-S-A-Restructuring-Recovery-Waterfall-Capital-Structure-Analysis-3e31d0ad68c6819baaa2de6d03346ec9",
+    "category": "Corporate Restructuring / Recovery Waterfall",
+    "macro_transmission_channel": "Petrochemical Cycle Trough, Latin American Distressed Debt & Brazilian Insolvency Law",
+    "credit_impact": "Positive for Senior Unsecured (Recovery Arbitrage) / Highly Negative for Subordinated Hybrid 2081",
+    "impacted_issuers": [
+      "BRASKM"
+    ],
+    "concise_analysis": "Braskem's ongoing Recuperação Extrajudicial covering ~ of debt hit an impasse as ad hoc bondholder committees rejected the company's  tender offer at up to a 50% discount. Creditors demand an enforceable  equity injection from controlling shareholders Petrobras and Novonor. Our recovery waterfall indicates Senior Unsecured Eurobonds & Debentures recover 66.3 cents on the dollar (–) under Base Case 5.0x mid-cycle EBITDA (,400M). With 2030s trading at ~48.6c and 2050s at ~44.7c, Senior notes offer +35% to +48% upside. In contrast, Subordinated 2081 Hybrid notes face 10–18c recovery under absolute priority and are significantly overvalued at 31.8c.",
+    "credit_commentary": "Maintain Speculative Overweight on Senior Unsecured Eurobonds (BRASKM 2030s, 2033s, 2050s) funded by Underweight/Short Subordinated 2081 Hybrid notes. Irreplaceable domestic physical infrastructure (70% resin share) and Petrobras operational integration ensure strong enterprise value preservation."
+  },
+  {
     "id": "NEWS-2026-09-CIMKOC-01",
     "date": "2026-09-21",
     "ticker": "CIMKOC",

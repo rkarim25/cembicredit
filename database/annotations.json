@@ -288,6 +288,30 @@
     "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
   },
   {
+    "sector": "Materials / Chemicals",
+    "topic": "Restructuring & Creditor Impasse",
+    "source": "Desk Distressed Credit Strategy",
+    "note": "Braskem's filing for Recuperação Extrajudicial covering ~$11B of debt in late August 2026 marks the beginning of an intense game of chicken between bondholders and controlling shareholders Petrobras and Novonor. Creditors rightly rejected the company's low-ball proposal to inject $2B of debt buybacks at a 50% discount and are demanding an enforceable $3B equity check from Petrobras. Senior Unsecured notes at 45–56c are fundamentally backed by 66.3c Base Case recovery value."
+  },
+  {
+    "sector": "Materials / Chemicals",
+    "topic": "Capital Structure Arbitrage (Long Senior / Short Hybrid)",
+    "source": "Desk Distressed Credit Strategy",
+    "note": "The most compelling trade in the capital structure is Long Senior Unsecured Eurobonds (2030s @ 48.6c / 2050s @ 44.7c) versus Underweight/Short Subordinated Hybrid 2081s (@ 31.8c). Under any contested judicial restructuring or Chapter 11 plan, the 2081 notes sit below $9.2B of senior unsecured claims and will be almost entirely wiped out (10–18c recovery). The market is severely under-pricing the subordination risk of the 2081s."
+  },
+  {
+    "sector": "Materials / Chemicals",
+    "topic": "Strategic Value & Petrobras Integration Moat",
+    "source": "J.P. Morgan Credit Research",
+    "note": "Braskem is the sole petrochemical cracker operator in Brazil, supplying over 70% of the country's resins and buying ~70% of Petrobras' domestic naphtha output. Petrobras cannot permit an uncontrolled operational liquidation of Braskem without paralyzing Brazilian industrial manufacturing. This strategic alignment ensures significant enterprise value preservation in restructuring."
+  },
+  {
+    "sector": "Materials / Chemicals",
+    "topic": "Maceió Liabilities De-risking",
+    "source": "Fitch Ratings",
+    "note": "Downgrade to 'RD' reflects standstill on coupon payments during restructuring negotiations. However, the operational execution of the Maceió relocation program (99.6% complete) and the long-dated installment structure of the R$1.2B Alagoas State settlement significantly reduce the probability of unforeseen cash-drain surprises."
+  },
+  {
     "issuer_id": "cci",
     "issuer_name": "Coca-Cola İçecek (CCI)",
     "sector": "Consumer",

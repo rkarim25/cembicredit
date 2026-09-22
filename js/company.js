@@ -2098,6 +2098,51 @@ function renderCovenantsAndRecovery() {
   // Recovery
   const rec = currentIssuer.recovery_analysis || {};
   const recDiv = document.getElementById('recovery-breakdown');
+
+  let scenariosHtml = '';
+  if (rec.scenarios && rec.scenarios.length > 0) {
+    scenariosHtml = `
+      <div style="margin-top:14px; padding-top:12px; border-top:1px solid #1e2d45;">
+        <div style="font-size:11px; font-weight:700; color:#fbbf24; text-transform:uppercase; margin-bottom:8px;">
+          📊 Tranche Recovery Waterfall & Trading Asymmetry
+        </div>
+        <div style="overflow-x:auto;">
+          <table class="tranche-table" style="width:100%; font-size:11px;">
+            <thead>
+              <tr>
+                <th>Tranche</th>
+                <th style="text-align:right;">Claim ($M)</th>
+                <th style="text-align:right;">Market Px</th>
+                <th style="text-align:right;">Floor (A)</th>
+                <th style="text-align:right;">Base (B)</th>
+                <th style="text-align:right;">Bull (C)</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${rec.scenarios.map(s => {
+                const isUpside = s.asymmetry && s.asymmetry.includes('Upside');
+                const isDownside = s.asymmetry && s.asymmetry.includes('Downside');
+                const badgeClass = isUpside ? 'badge-ig' : (isDownside ? 'badge-stress' : 'badge-hy');
+                return `
+                  <tr>
+                    <td><strong>${escapeHtml(s.tranche)}</strong></td>
+                    <td style="text-align:right;">$${(s.claim_usd_m || 0).toLocaleString()}</td>
+                    <td style="text-align:right; font-family:'JetBrains Mono',monospace;">${s.market_px}</td>
+                    <td style="text-align:right; color:#f87171; font-weight:700;">${s.floor_recovery}</td>
+                    <td style="text-align:right; color:#34d399; font-weight:700;">${s.base_recovery}</td>
+                    <td style="text-align:right; color:#38bdf8; font-weight:700;">${s.bull_recovery}</td>
+                    <td><span class="badge ${badgeClass}" style="font-size:9px; padding:2px 6px;">${escapeHtml(s.asymmetry)}</span></td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }
+
   recDiv.innerHTML = `
     <div style="background:#0d1525; border:1px solid #1e2d45; border-radius:8px; padding:16px;">
       <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
@@ -2115,6 +2160,7 @@ function renderCovenantsAndRecovery() {
       <div style="margin-top:12px; padding-top:8px; border-top:1px solid #1a2538; font-size:12px; color:#cbd5e1; line-height:1.5;">
         ${rec.recovery_commentary || 'Recovery anchored by primary operating assets, physical export infrastructure, and minimum liquidation value under distressed restructuring scenarios.'}
       </div>
+      ${scenariosHtml}
     </div>
   `;
 }
