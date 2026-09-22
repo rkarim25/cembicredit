@@ -156,6 +156,17 @@ function renderHeroHeader() {
     ccBtn.style.display = 'none';
   }
 
+  // Interactive Restructuring Sandbox Button
+  const calcBtn = document.getElementById('hero-calculator-btn');
+  if (calcBtn) {
+    if (m.id === 'braskem') {
+      calcBtn.style.display = 'inline-flex';
+      calcBtn.href = 'braskem_calculator.html';
+    } else {
+      calcBtn.style.display = 'none';
+    }
+  }
+
   // Excel Download Buttons (Top Hero & Bottom Right)
   const dlBtn = document.getElementById('hero-download-btn');
   if (dlBtn) {
@@ -2161,6 +2172,22 @@ function renderCovenantsAndRecovery() {
         ${rec.recovery_commentary || 'Recovery anchored by primary operating assets, physical export infrastructure, and minimum liquidation value under distressed restructuring scenarios.'}
       </div>
       ${scenariosHtml}
+      ${currentIssuer.metadata.id === 'braskem' ? `
+        <div style="margin-top:14px; background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+          <div>
+            <div style="font-weight:700; color:#fff; font-size:12px; display:flex; align-items:center; gap:6px;">
+              <span>⚖️ Interactive SOTP Recovery &amp; Pricing Band Engine</span>
+              <span class="badge badge-ig" style="font-size:9px;">Live Sandbox</span>
+            </div>
+            <div style="font-size:11px; color:#94a3b8; margin-top:3px;">
+              Select individual cracker complexes, adjust EV multiples, calibrate haircut/extension, and model Petrobras qualitative friction.
+            </div>
+          </div>
+          <a href="braskem_calculator.html" class="btn-action btn-gold" style="font-weight:700; font-size:11px; padding:6px 14px; text-decoration:none;">
+            Launch Sandbox →
+          </a>
+        </div>
+      ` : ''}
     </div>
   `;
 }
