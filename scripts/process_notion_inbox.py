@@ -28,7 +28,9 @@ HEADERS = {
 }
 
 INBOX_PAGE_ID = "3df1d0ad-68c6-813c-9f07-e7c847880346"
-RECEIPTS_TABLE_ID = "3df1d0ad-68c6-81f5-89f7-e450bf669dcc"
+SUMMARY_PAGE_ID = "3e31d0ad-68c6-8187-998a-f440604c1a21"
+SUMMARY_TABLE_ID = "3e31d0ad-68c6-8114-a4ae-d197a933a2a2"
+SUMMARY_HEADER_ROW_ID = "3e31d0ad-68c6-81db-90b9-e621b8e4eda3"
 RESEARCH_DB_ID = "3df1d0ad-68c6-815e-b5c2-cffb3b540b1b"
 
 def get_inbox_blocks():
@@ -88,8 +90,11 @@ def persist_to_website(issuer_id, issuer_doc, news_entry=None, commit_msg=None):
         print(f"[NOTE] Git deployment note: {e}")
 
 def log_receipt(entity_name, details_text, date_str=None):
-    """Logs an executive receipt into the Notion Processed Receipts Table."""
-    print(f"--> [Notion Receipts] Logging receipt for {entity_name}...")
+    """
+    Logs an executive receipt into the separate Processed Receipts Table.
+    Prepends immediately after the header row so most recent data is first display!
+    """
+    print(f"--> [Notion Receipts] Prepending receipt for {entity_name} to top of Summary page...")
     d_str = date_str or datetime.now().strftime("%d %b %Y")
     payload = {
         "children": [
@@ -103,29 +108,25 @@ def log_receipt(entity_name, details_text, date_str=None):
                     ]
                 }
             }
-        ]
+        ],
+        "after": SUMMARY_HEADER_ROW_ID
     }
-    res = requests.patch(f"https://api.notion.com/v1/blocks/{RECEIPTS_TABLE_ID}/children", headers=HEADERS, json=payload)
+    res = requests.patch(f"https://api.notion.com/v1/blocks/{SUMMARY_TABLE_ID}/children", headers=HEADERS, json=payload)
     if res.status_code == 200:
-        print("[PASS] Receipt row appended to Notion table.")
+        print("[PASS] Receipt row prepended to top of Notion Summary table (most recent first)!")
     else:
-        print(f"[WARN] Receipt row append returned: {res.status_code}")
+        print(f"[WARN] Receipt row prepend returned: {res.status_code} {res.text}")
 
 def clean_inbox_blocks():
-    """Deletes processed raw dump blocks and restores clean placeholder."""
+    """Deletes processed raw dump blocks and restores clean placeholder in plain Inbox."""
     print("--> [Inbox Cleanup] Scanning raw dump blocks to whisk away...")
     blocks = get_inbox_blocks()
     to_delete = []
-    found_start = False
     
-    for b in blocks:
-        bid = b["id"]
-        if bid == "3df1d0ad-68c6-81a1-b0ee-c9f2c9344ae4":  # Divider above receipts
-            break
-        if found_start:
-            to_delete.append(bid)
-        if bid == "3df1d0ad-68c6-8110-a556-e65f433ca21b":  # Divider after 'Raw Data Dump'
-            found_start = True
+    # Preserve only the top callout and top divider
+    for i, b in enumerate(blocks):
+        if i >= 2: # Delete everything below top callout & divider
+            to_delete.append(b["id"])
 
     deleted_count = 0
     for bid in to_delete:
@@ -134,26 +135,6 @@ def clean_inbox_blocks():
             deleted_count += 1
             
     print(f"[PASS] Whisked away {deleted_count} raw dump blocks from Notion Inbox.")
-
-    # Mark to_do checked
-    for b in blocks:
-        if b.get("type") == "to_do":
-            todo_id = b["id"]
-            todo_update = {
-                "to_do": {
-                    "checked": True,
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": "⚡ PROCESS INBOX DUMP (Processed & Dual-Persisted to Website Database and Live Platform)"
-                            }
-                        }
-                    ]
-                }
-            }
-            requests.patch(f"https://api.notion.com/v1/blocks/{todo_id}", headers=HEADERS, json=todo_update)
-            break
 
     # Restore clean placeholder
     placeholder_payload = {
@@ -173,6 +154,7 @@ def clean_inbox_blocks():
         ]
     }
     requests.patch(f"https://api.notion.com/v1/blocks/{INBOX_PAGE_ID}/children", headers=HEADERS, json=placeholder_payload)
+    print("[PASS] Clean placeholder restored in plain Notion Inbox.")
     print("[PASS] Clean placeholder restored in Notion Inbox.")
 
 if __name__ == "__main__":
