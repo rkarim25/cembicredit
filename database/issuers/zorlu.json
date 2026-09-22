@@ -1132,5 +1132,85 @@
         "formula_count": 2466
       }
     }
-  }
+  },
+  "credit_view": {
+    "last_updated": "2026-09-22",
+    "verdict": {
+      "stance": "Overweight / Consensual Workout",
+      "target_price": 95.3,
+      "current_price": 94.5,
+      "ytm": 11.2,
+      "spread_bp": 680,
+      "summary": "190.6% asset coverage (,598M EV vs ,363M Net Debt) supports 100c fundamental par recovery. Secondary market discounts notes at 94.5c due to 2026 maturity wall and bank subordination, but domestic bank alignment unlocks 95.3c-100c under consensual 3-year extension."
+    },
+    "positives": [
+      "Strong fundamental asset backing: ,598M normalized Enterprise Value provides 190.6% senior coverage across generation assets and regulated utility grid.",
+      "Lucrative USD-denominated feed-in tariffs (YEKDEM): Kızıldere I, II, III and Alaşehir geothermal plants receive –/MWh guaranteed hard-currency revenue through 2028.",
+      "Regulated, inflation-protected utility cash flows: OEDAŞ distribution grid provides predictable, CPI-indexed tariff remuneration serving 3M+ population in Central Anatolia.",
+      "Nationwide EV charging monopoly: ZES is Turkey's #1 fast-charging network with 38% market share and 1,850+ public sockets, expanding into Southern Europe."
+    ],
+    "negatives": [
+      "Structural subordination:  ZOREN 2026 Eurobonds sit at HoldCo level, structurally junior to ~ in senior secured OpCo project finance and bank facilities.",
+      "Potential for creditor-on-creditor friction: Domestic bank syndicate holds direct asset mortgages and OEDAŞ share pledges, creating holdout risk if extensions are asymmetric.",
+      "2028 YEKDEM regulatory cliff: Hard-currency geothermal guarantees expire at end-2028, cutting unit realization from /MWh to merchant PTF prices.",
+      "Corporate governance and related-party cash leakage:  upstream uncollateralized loan to Zorlu Holding creates group contagion risk."
+    ],
+    "background": {
+      "business_overview": "Zorlu Enerji Elektrik Üretim A.Ş. is Turkey's premier renewable-focused independent power producer and utility, operating 991 MW of installed capacity across geothermal (305 MW), wind (344 MW), hydro (119 MW), and solar (116 MW), alongside the OEDAŞ electricity distribution grid.",
+      "asset_perimeter": "Core generation footprint concentrated in Aegean geothermal belt (Denizli, Aydın, Manisa), OEDAŞ distribution network across 5 Anatolian provinces, plus international minority stakes in Israel (25% Dorad Energy 860 MW CCGT, Ashdod, Ramat Negev) and Pakistan (ZEPL 56.4 MW wind).",
+      "ownership_governance": "Controlled by Korteks Mensucat (Zorlu Holding / Zorlu family conglomerate). Retained Houlihan Lokey and Turkish legal counsel in September 2026 for capital structure advisory."
+    },
+    "recent_drivers": [
+      "Advisory mandate: In mid-September 2026, Zorlu appointed Houlihan Lokey as financial advisor to lead bilateral maturity extension talks ahead of the 2026 bullet.",
+      "October coupon test: October 23, 2026 coupon payment (.75M) on the 2026 Eurobonds represents the nearest immediate cash liquidity test.",
+      "ADB multilateral facility: August 2026 closing of TRY 3.98B (~) ADB facility ring-fenced for OEDAŞ grid capex, removing capex drag from HoldCo.",
+      "Desk Restructuring Sandbox active: Deployed 16-row APR recovery waterfall, exit yield sensitivity matrix, and 3-scenario payoff engine."
+    ],
+    "catalysts": [
+      {
+        "date": "2026-10-23",
+        "event": "October 2026 Eurobond Coupon Payment (.75M)",
+        "impact": "Near-term liquidity test; payment signals consensual extension path vs formal standstill."
+      },
+      {
+        "date": "2026-11-06",
+        "event": "Q3 2026 / 9M Financials & Tariff Revisions",
+        "impact": "Updates normalized cash EBITDA run-rate and TRY FX translation adjustments."
+      },
+      {
+        "date": "2027-06-01",
+        "event": "ZOREN 9.00% 2026 Final Maturity Bullet ()",
+        "impact": "Maturity wall requiring exchange into 3-year extension paper or par refinancing."
+      },
+      {
+        "date": "2028-12-31",
+        "event": "YEKDEM Geothermal Guarantee Expiry (Kızıldere I & II)",
+        "impact": "Transition from –/MWh hard-currency tariff to Turkish merchant PTF market."
+      }
+    ],
+    "management_questions": [
+      "Will the domestic bank syndicate (İşbank, Garanti BBVA) agree to extend OpCo debt maturities pari passu with HoldCo Eurobond amendments?",
+      "Can management confirm whether Turkish Lira electricity receipts under YEKDEM are immediately convertible into USD without central bank FX surrender lags or queue friction?",
+      "What is the legal status and dividend remittance timeline for Dorad Energy cash flows given regional Middle East tensions?",
+      "What is the binding schedule for Zorlu Holding to repay the  upstream related-party loan to bolster HoldCo liquidity?"
+    ]
+  },
+  "historical_notes": [
+    {
+      "id": "note-20260922-zoren",
+      "date": "2026-09-22",
+      "title": "Creditor Violence Deep Dive, Domestic Bank Syndicate Alignment & Scenario Restructuring Matrix",
+      "source": "Desk Research Memo & Interactive Valuation Suite",
+      "status": "Archived / Previous Note Run",
+      "summary": "Comprehensive game theory analysis of domestic bank syndicate cooperation incentives vs creditor violence. Established 16-row APR recovery waterfall, dynamic secondary pricing bands with friction layers, 2D exit yield sensitivity matrix, and 3 core scenarios (Bear: 24-58c, Base: 95.3c, Bull: 102.5c)."
+    },
+    {
+      "id": "note-20260919-zoren",
+      "date": "2026-09-19",
+      "title": "Distressed Workout, Situational Breakdown & Restructuring Memo",
+      "source": "Initial Distressed Dossier Setup",
+      "status": "Archived / Previous Note Run",
+      "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDAŞ vs merchant),  related-party loan leakage, and HoldCo structural subordination."
+    }
+  ]
 }

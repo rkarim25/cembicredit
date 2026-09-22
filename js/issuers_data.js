@@ -6054,13 +6054,191 @@ const MASTER_ISSUERS = [
       "total_outstanding_usd_m": 420.8
     },
     "recovery_analysis": {
-      "distressed_floor_px": 54.0,
-      "base_case_px": 93.0,
-      "recovery_floor_pct": 54.0,
-      "recovery_base_pct": 93.0,
-      "implied_stress_ev_multiple": 4.2,
-      "restructuring_framework": "Moldova Commercial & Bankruptcy Code",
-      "thesis": "Danube Giurgiulesti export port terminal; 100% USD grain & sunflower oil exports; Oaktree Capital backing."
+      "distressed_floor_px": 55.0,
+      "base_case_px": 97.0,
+      "recovery_floor_pct": 55.0,
+      "recovery_base_pct": 100.0,
+      "implied_stress_ev_multiple": 4.5,
+      "restructuring_framework": "English Law Scheme / Moldovan Restructuring Code",
+      "thesis": "Danube Giurgiulesti export port monopoly; 68%+ USD export revenues; DFI governance umbrella; 219% senior asset coverage.",
+      "senior_debt_coverage_pct": 219.0,
+      "recovery_commentary": "Base Case Distributable Value Waterfall: Total Enterprise Value ($1,033.0M at 5.74x normalized EBITDA across Port, Crushing, and Silos) + Unrestricted Cash ($120.0M) = $1,153.0M. Deduct Priority Claims: Advisory/refinancing costs ($15.0M), Priority Senior Secured Pre-Export Finance Commodity Lines ($186.5M at 100% par), and Multilateral DFI Loans ($81.1M at 100% par) = $282.6M. Net value distributable to General Senior Unsecured claims ($397.5M across ARAGVI 12.15% 2026 Eurobonds, 2031 Eurobonds, and drawn bank lines) is $870.4M, providing 219.0% asset coverage (100.0c full par recovery). Residual equity value remaining for founder Vaja Jhashi / sponsors is $472.9M.",
+      "scenarios": [
+        {
+          "tranche": "Pre-Export Finance (PXF) Facilities (ING, Rabobank, SocGen)",
+          "claim_usd_m": 186.5,
+          "market_px": "100.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Reinstated"
+        },
+        {
+          "tranche": "Multilateral DFI Term Loans (EBRD, BSTDB, FMO, IFC)",
+          "claim_usd_m": 81.1,
+          "market_px": "100.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Reinstated"
+        },
+        {
+          "tranche": "ARAGVI 12.150% 2026 Senior Unsecured Notes (Benchmark)",
+          "claim_usd_m": 243.4,
+          "market_px": "89.0c",
+          "floor_recovery": "55.0c (55%)",
+          "base_recovery": "97.0c - 100.0c",
+          "bull_recovery": "102.5c (Call)",
+          "asymmetry": "+9.0% to +15.2% Upside to Base"
+        },
+        {
+          "tranche": "ARAGVI 12.750% 2031 Senior Unsecured Notes",
+          "claim_usd_m": 100.0,
+          "market_px": "86.5c",
+          "floor_recovery": "55.0c (55%)",
+          "base_recovery": "95.0c - 98.0c",
+          "bull_recovery": "102.0c (Par)",
+          "asymmetry": "+9.8% to +13.3% Upside"
+        },
+        {
+          "tranche": "Bilateral Working Capital Lines (Pari Passu with Notes)",
+          "claim_usd_m": 54.1,
+          "market_px": "100.0c",
+          "floor_recovery": "55.0c (55%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Rollover"
+        },
+        {
+          "tranche": "Total Senior Unsecured Tranches (Pari Passu Pool)",
+          "claim_usd_m": 397.5,
+          "market_px": "~90.0c",
+          "floor_recovery": "55.0c (55%)",
+          "base_recovery": "97.0c (100% Asset Cover)",
+          "bull_recovery": "102.3c (Par+)",
+          "asymmetry": "Fully Asset Covered (219%)"
+        }
+      ],
+      "waterfall_steps": [
+        {
+          "step": "1. Operating Cash EBITDA ($M)",
+          "floor": "$120.0M (Drought / Stress)",
+          "base": "$180.0M (Mid-Cycle)",
+          "bull": "$220.0M (Peak Crush Spread)",
+          "is_subtotal": false
+        },
+        {
+          "step": "2. Implied EV / EBITDA Multiple",
+          "floor": "4.50x EV Multiple",
+          "base": "5.74x EV Multiple",
+          "bull": "6.50x EV Multiple",
+          "is_subtotal": false
+        },
+        {
+          "step": "3. Enterprise Value (EV)",
+          "floor": "$540.0M",
+          "base": "$1,033.0M",
+          "bull": "$1,430.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "4. Add: Balance Sheet Cash",
+          "floor": "$90.0M",
+          "base": "$120.0M",
+          "bull": "$140.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "5. Add: Sponsor / Strategic Equity",
+          "floor": "$0.0M (None)",
+          "base": "$0.0M (Internal Cash)",
+          "bull": "$75.0M (Strategic Stake)",
+          "is_subtotal": false
+        },
+        {
+          "step": "6. TOTAL DISTRIBUTABLE ASSET VALUE",
+          "floor": "$630.0M",
+          "base": "$1,153.0M",
+          "bull": "$1,645.0M",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        },
+        {
+          "step": "7. Less: Refinancing & Professional Advisory Fees",
+          "floor": "-$15.0M",
+          "base": "-$15.0M",
+          "bull": "-$15.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "8. Less: Priority Pre-Export Finance Lines (PXF)",
+          "floor": "-$186.5M (100% Par)",
+          "base": "-$186.5M (100% Par)",
+          "bull": "-$186.5M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "9. Less: Multilateral DFI Term Loans (EBRD/BSTDB)",
+          "floor": "-$81.1M (100% Par)",
+          "base": "-$81.1M (100% Par)",
+          "bull": "-$81.1M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "10. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "floor": "-$282.6M",
+          "base": "-$282.6M",
+          "bull": "-$282.6M",
+          "is_subtotal": true,
+          "color": "#f87171"
+        },
+        {
+          "step": "11. NET VALUE AVAILABLE TO SENIOR UNSECURED",
+          "floor": "$347.4M",
+          "base": "$870.4M",
+          "bull": "$1,362.4M",
+          "is_subtotal": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "12. Total Senior Unsecured Claims Pool ($397.5M)",
+          "floor": "$397.5M",
+          "base": "$397.5M",
+          "bull": "$397.5M",
+          "is_subtotal": false
+        },
+        {
+          "step": "13. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
+          "floor": "87.4%",
+          "base": "100.0% (2.19x Covered)",
+          "bull": "100.0% (Fully Covered)",
+          "is_highlight": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "14. SENIOR UNSECURED RECOVERY PRICE (CENTS)",
+          "floor": "55.0c - 75.0c",
+          "base": "97.0c - 100.0c (Par)",
+          "bull": "102.5c (Call Premium)",
+          "is_highlight": true,
+          "color": "#fbbf24"
+        },
+        {
+          "step": "15. VALUE AVAILABLE TO SUBORDINATED CLAIMS",
+          "floor": "$0.0M (None)",
+          "base": "$0.0M (None)",
+          "bull": "$0.0M (None)",
+          "is_subtotal": false
+        },
+        {
+          "step": "16. VALUE REMAINING FOR EXISTING EQUITY (Sponsor)",
+          "floor": "$0.0M (Diluted)",
+          "base": "$472.9M Equity Cushion",
+          "bull": "$964.9M Equity Upside",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        }
+      ]
     },
     "annotations": [
       {
@@ -71158,7 +71336,87 @@ const MASTER_ISSUERS = [
           "formula_count": 2466
         }
       }
-    }
+    },
+    "credit_view": {
+      "last_updated": "2026-09-22",
+      "verdict": {
+        "stance": "Overweight / Consensual Workout",
+        "target_price": 95.3,
+        "current_price": 94.5,
+        "ytm": 11.2,
+        "spread_bp": 680,
+        "summary": "190.6% asset coverage (,598M EV vs ,363M Net Debt) supports 100c fundamental par recovery. Secondary market discounts notes at 94.5c due to 2026 maturity wall and bank subordination, but domestic bank alignment unlocks 95.3c-100c under consensual 3-year extension."
+      },
+      "positives": [
+        "Strong fundamental asset backing: ,598M normalized Enterprise Value provides 190.6% senior coverage across generation assets and regulated utility grid.",
+        "Lucrative USD-denominated feed-in tariffs (YEKDEM): Kızıldere I, II, III and Alaşehir geothermal plants receive –/MWh guaranteed hard-currency revenue through 2028.",
+        "Regulated, inflation-protected utility cash flows: OEDAŞ distribution grid provides predictable, CPI-indexed tariff remuneration serving 3M+ population in Central Anatolia.",
+        "Nationwide EV charging monopoly: ZES is Turkey's #1 fast-charging network with 38% market share and 1,850+ public sockets, expanding into Southern Europe."
+      ],
+      "negatives": [
+        "Structural subordination:  ZOREN 2026 Eurobonds sit at HoldCo level, structurally junior to ~ in senior secured OpCo project finance and bank facilities.",
+        "Potential for creditor-on-creditor friction: Domestic bank syndicate holds direct asset mortgages and OEDAŞ share pledges, creating holdout risk if extensions are asymmetric.",
+        "2028 YEKDEM regulatory cliff: Hard-currency geothermal guarantees expire at end-2028, cutting unit realization from /MWh to merchant PTF prices.",
+        "Corporate governance and related-party cash leakage:  upstream uncollateralized loan to Zorlu Holding creates group contagion risk."
+      ],
+      "background": {
+        "business_overview": "Zorlu Enerji Elektrik Üretim A.Ş. is Turkey's premier renewable-focused independent power producer and utility, operating 991 MW of installed capacity across geothermal (305 MW), wind (344 MW), hydro (119 MW), and solar (116 MW), alongside the OEDAŞ electricity distribution grid.",
+        "asset_perimeter": "Core generation footprint concentrated in Aegean geothermal belt (Denizli, Aydın, Manisa), OEDAŞ distribution network across 5 Anatolian provinces, plus international minority stakes in Israel (25% Dorad Energy 860 MW CCGT, Ashdod, Ramat Negev) and Pakistan (ZEPL 56.4 MW wind).",
+        "ownership_governance": "Controlled by Korteks Mensucat (Zorlu Holding / Zorlu family conglomerate). Retained Houlihan Lokey and Turkish legal counsel in September 2026 for capital structure advisory."
+      },
+      "recent_drivers": [
+        "Advisory mandate: In mid-September 2026, Zorlu appointed Houlihan Lokey as financial advisor to lead bilateral maturity extension talks ahead of the 2026 bullet.",
+        "October coupon test: October 23, 2026 coupon payment (.75M) on the 2026 Eurobonds represents the nearest immediate cash liquidity test.",
+        "ADB multilateral facility: August 2026 closing of TRY 3.98B (~) ADB facility ring-fenced for OEDAŞ grid capex, removing capex drag from HoldCo.",
+        "Desk Restructuring Sandbox active: Deployed 16-row APR recovery waterfall, exit yield sensitivity matrix, and 3-scenario payoff engine."
+      ],
+      "catalysts": [
+        {
+          "date": "2026-10-23",
+          "event": "October 2026 Eurobond Coupon Payment (.75M)",
+          "impact": "Near-term liquidity test; payment signals consensual extension path vs formal standstill."
+        },
+        {
+          "date": "2026-11-06",
+          "event": "Q3 2026 / 9M Financials & Tariff Revisions",
+          "impact": "Updates normalized cash EBITDA run-rate and TRY FX translation adjustments."
+        },
+        {
+          "date": "2027-06-01",
+          "event": "ZOREN 9.00% 2026 Final Maturity Bullet ()",
+          "impact": "Maturity wall requiring exchange into 3-year extension paper or par refinancing."
+        },
+        {
+          "date": "2028-12-31",
+          "event": "YEKDEM Geothermal Guarantee Expiry (Kızıldere I & II)",
+          "impact": "Transition from –/MWh hard-currency tariff to Turkish merchant PTF market."
+        }
+      ],
+      "management_questions": [
+        "Will the domestic bank syndicate (İşbank, Garanti BBVA) agree to extend OpCo debt maturities pari passu with HoldCo Eurobond amendments?",
+        "Can management confirm whether Turkish Lira electricity receipts under YEKDEM are immediately convertible into USD without central bank FX surrender lags or queue friction?",
+        "What is the legal status and dividend remittance timeline for Dorad Energy cash flows given regional Middle East tensions?",
+        "What is the binding schedule for Zorlu Holding to repay the  upstream related-party loan to bolster HoldCo liquidity?"
+      ]
+    },
+    "historical_notes": [
+      {
+        "id": "note-20260922-zoren",
+        "date": "2026-09-22",
+        "title": "Creditor Violence Deep Dive, Domestic Bank Syndicate Alignment & Scenario Restructuring Matrix",
+        "source": "Desk Research Memo & Interactive Valuation Suite",
+        "status": "Archived / Previous Note Run",
+        "summary": "Comprehensive game theory analysis of domestic bank syndicate cooperation incentives vs creditor violence. Established 16-row APR recovery waterfall, dynamic secondary pricing bands with friction layers, 2D exit yield sensitivity matrix, and 3 core scenarios (Bear: 24-58c, Base: 95.3c, Bull: 102.5c)."
+      },
+      {
+        "id": "note-20260919-zoren",
+        "date": "2026-09-19",
+        "title": "Distressed Workout, Situational Breakdown & Restructuring Memo",
+        "source": "Initial Distressed Dossier Setup",
+        "status": "Archived / Previous Note Run",
+        "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDAŞ vs merchant),  related-party loan leakage, and HoldCo structural subordination."
+      }
+    ]
   }
 ];
 const MASTER_ANNOTATIONS = [
@@ -79309,13 +79567,191 @@ window.CEMBI_DATA = {
       "total_outstanding_usd_m": 420.8
     },
     "recovery_analysis": {
-      "distressed_floor_px": 54.0,
-      "base_case_px": 93.0,
-      "recovery_floor_pct": 54.0,
-      "recovery_base_pct": 93.0,
-      "implied_stress_ev_multiple": 4.2,
-      "restructuring_framework": "Moldova Commercial & Bankruptcy Code",
-      "thesis": "Danube Giurgiulesti export port terminal; 100% USD grain & sunflower oil exports; Oaktree Capital backing."
+      "distressed_floor_px": 55.0,
+      "base_case_px": 97.0,
+      "recovery_floor_pct": 55.0,
+      "recovery_base_pct": 100.0,
+      "implied_stress_ev_multiple": 4.5,
+      "restructuring_framework": "English Law Scheme / Moldovan Restructuring Code",
+      "thesis": "Danube Giurgiulesti export port monopoly; 68%+ USD export revenues; DFI governance umbrella; 219% senior asset coverage.",
+      "senior_debt_coverage_pct": 219.0,
+      "recovery_commentary": "Base Case Distributable Value Waterfall: Total Enterprise Value ($1,033.0M at 5.74x normalized EBITDA across Port, Crushing, and Silos) + Unrestricted Cash ($120.0M) = $1,153.0M. Deduct Priority Claims: Advisory/refinancing costs ($15.0M), Priority Senior Secured Pre-Export Finance Commodity Lines ($186.5M at 100% par), and Multilateral DFI Loans ($81.1M at 100% par) = $282.6M. Net value distributable to General Senior Unsecured claims ($397.5M across ARAGVI 12.15% 2026 Eurobonds, 2031 Eurobonds, and drawn bank lines) is $870.4M, providing 219.0% asset coverage (100.0c full par recovery). Residual equity value remaining for founder Vaja Jhashi / sponsors is $472.9M.",
+      "scenarios": [
+        {
+          "tranche": "Pre-Export Finance (PXF) Facilities (ING, Rabobank, SocGen)",
+          "claim_usd_m": 186.5,
+          "market_px": "100.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Reinstated"
+        },
+        {
+          "tranche": "Multilateral DFI Term Loans (EBRD, BSTDB, FMO, IFC)",
+          "claim_usd_m": 81.1,
+          "market_px": "100.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Reinstated"
+        },
+        {
+          "tranche": "ARAGVI 12.150% 2026 Senior Unsecured Notes (Benchmark)",
+          "claim_usd_m": 243.4,
+          "market_px": "89.0c",
+          "floor_recovery": "55.0c (55%)",
+          "base_recovery": "97.0c - 100.0c",
+          "bull_recovery": "102.5c (Call)",
+          "asymmetry": "+9.0% to +15.2% Upside to Base"
+        },
+        {
+          "tranche": "ARAGVI 12.750% 2031 Senior Unsecured Notes",
+          "claim_usd_m": 100.0,
+          "market_px": "86.5c",
+          "floor_recovery": "55.0c (55%)",
+          "base_recovery": "95.0c - 98.0c",
+          "bull_recovery": "102.0c (Par)",
+          "asymmetry": "+9.8% to +13.3% Upside"
+        },
+        {
+          "tranche": "Bilateral Working Capital Lines (Pari Passu with Notes)",
+          "claim_usd_m": 54.1,
+          "market_px": "100.0c",
+          "floor_recovery": "55.0c (55%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "asymmetry": "Par Rollover"
+        },
+        {
+          "tranche": "Total Senior Unsecured Tranches (Pari Passu Pool)",
+          "claim_usd_m": 397.5,
+          "market_px": "~90.0c",
+          "floor_recovery": "55.0c (55%)",
+          "base_recovery": "97.0c (100% Asset Cover)",
+          "bull_recovery": "102.3c (Par+)",
+          "asymmetry": "Fully Asset Covered (219%)"
+        }
+      ],
+      "waterfall_steps": [
+        {
+          "step": "1. Operating Cash EBITDA ($M)",
+          "floor": "$120.0M (Drought / Stress)",
+          "base": "$180.0M (Mid-Cycle)",
+          "bull": "$220.0M (Peak Crush Spread)",
+          "is_subtotal": false
+        },
+        {
+          "step": "2. Implied EV / EBITDA Multiple",
+          "floor": "4.50x EV Multiple",
+          "base": "5.74x EV Multiple",
+          "bull": "6.50x EV Multiple",
+          "is_subtotal": false
+        },
+        {
+          "step": "3. Enterprise Value (EV)",
+          "floor": "$540.0M",
+          "base": "$1,033.0M",
+          "bull": "$1,430.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "4. Add: Balance Sheet Cash",
+          "floor": "$90.0M",
+          "base": "$120.0M",
+          "bull": "$140.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "5. Add: Sponsor / Strategic Equity",
+          "floor": "$0.0M (None)",
+          "base": "$0.0M (Internal Cash)",
+          "bull": "$75.0M (Strategic Stake)",
+          "is_subtotal": false
+        },
+        {
+          "step": "6. TOTAL DISTRIBUTABLE ASSET VALUE",
+          "floor": "$630.0M",
+          "base": "$1,153.0M",
+          "bull": "$1,645.0M",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        },
+        {
+          "step": "7. Less: Refinancing & Professional Advisory Fees",
+          "floor": "-$15.0M",
+          "base": "-$15.0M",
+          "bull": "-$15.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "8. Less: Priority Pre-Export Finance Lines (PXF)",
+          "floor": "-$186.5M (100% Par)",
+          "base": "-$186.5M (100% Par)",
+          "bull": "-$186.5M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "9. Less: Multilateral DFI Term Loans (EBRD/BSTDB)",
+          "floor": "-$81.1M (100% Par)",
+          "base": "-$81.1M (100% Par)",
+          "bull": "-$81.1M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "10. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "floor": "-$282.6M",
+          "base": "-$282.6M",
+          "bull": "-$282.6M",
+          "is_subtotal": true,
+          "color": "#f87171"
+        },
+        {
+          "step": "11. NET VALUE AVAILABLE TO SENIOR UNSECURED",
+          "floor": "$347.4M",
+          "base": "$870.4M",
+          "bull": "$1,362.4M",
+          "is_subtotal": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "12. Total Senior Unsecured Claims Pool ($397.5M)",
+          "floor": "$397.5M",
+          "base": "$397.5M",
+          "bull": "$397.5M",
+          "is_subtotal": false
+        },
+        {
+          "step": "13. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
+          "floor": "87.4%",
+          "base": "100.0% (2.19x Covered)",
+          "bull": "100.0% (Fully Covered)",
+          "is_highlight": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "14. SENIOR UNSECURED RECOVERY PRICE (CENTS)",
+          "floor": "55.0c - 75.0c",
+          "base": "97.0c - 100.0c (Par)",
+          "bull": "102.5c (Call Premium)",
+          "is_highlight": true,
+          "color": "#fbbf24"
+        },
+        {
+          "step": "15. VALUE AVAILABLE TO SUBORDINATED CLAIMS",
+          "floor": "$0.0M (None)",
+          "base": "$0.0M (None)",
+          "bull": "$0.0M (None)",
+          "is_subtotal": false
+        },
+        {
+          "step": "16. VALUE REMAINING FOR EXISTING EQUITY (Sponsor)",
+          "floor": "$0.0M (Diluted)",
+          "base": "$472.9M Equity Cushion",
+          "bull": "$964.9M Equity Upside",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        }
+      ]
     },
     "annotations": [
       {
@@ -144413,6 +144849,86 @@ window.CEMBI_DATA = {
           "formula_count": 2466
         }
       }
-    }
+    },
+    "credit_view": {
+      "last_updated": "2026-09-22",
+      "verdict": {
+        "stance": "Overweight / Consensual Workout",
+        "target_price": 95.3,
+        "current_price": 94.5,
+        "ytm": 11.2,
+        "spread_bp": 680,
+        "summary": "190.6% asset coverage (,598M EV vs ,363M Net Debt) supports 100c fundamental par recovery. Secondary market discounts notes at 94.5c due to 2026 maturity wall and bank subordination, but domestic bank alignment unlocks 95.3c-100c under consensual 3-year extension."
+      },
+      "positives": [
+        "Strong fundamental asset backing: ,598M normalized Enterprise Value provides 190.6% senior coverage across generation assets and regulated utility grid.",
+        "Lucrative USD-denominated feed-in tariffs (YEKDEM): Kızıldere I, II, III and Alaşehir geothermal plants receive –/MWh guaranteed hard-currency revenue through 2028.",
+        "Regulated, inflation-protected utility cash flows: OEDAŞ distribution grid provides predictable, CPI-indexed tariff remuneration serving 3M+ population in Central Anatolia.",
+        "Nationwide EV charging monopoly: ZES is Turkey's #1 fast-charging network with 38% market share and 1,850+ public sockets, expanding into Southern Europe."
+      ],
+      "negatives": [
+        "Structural subordination:  ZOREN 2026 Eurobonds sit at HoldCo level, structurally junior to ~ in senior secured OpCo project finance and bank facilities.",
+        "Potential for creditor-on-creditor friction: Domestic bank syndicate holds direct asset mortgages and OEDAŞ share pledges, creating holdout risk if extensions are asymmetric.",
+        "2028 YEKDEM regulatory cliff: Hard-currency geothermal guarantees expire at end-2028, cutting unit realization from /MWh to merchant PTF prices.",
+        "Corporate governance and related-party cash leakage:  upstream uncollateralized loan to Zorlu Holding creates group contagion risk."
+      ],
+      "background": {
+        "business_overview": "Zorlu Enerji Elektrik Üretim A.Ş. is Turkey's premier renewable-focused independent power producer and utility, operating 991 MW of installed capacity across geothermal (305 MW), wind (344 MW), hydro (119 MW), and solar (116 MW), alongside the OEDAŞ electricity distribution grid.",
+        "asset_perimeter": "Core generation footprint concentrated in Aegean geothermal belt (Denizli, Aydın, Manisa), OEDAŞ distribution network across 5 Anatolian provinces, plus international minority stakes in Israel (25% Dorad Energy 860 MW CCGT, Ashdod, Ramat Negev) and Pakistan (ZEPL 56.4 MW wind).",
+        "ownership_governance": "Controlled by Korteks Mensucat (Zorlu Holding / Zorlu family conglomerate). Retained Houlihan Lokey and Turkish legal counsel in September 2026 for capital structure advisory."
+      },
+      "recent_drivers": [
+        "Advisory mandate: In mid-September 2026, Zorlu appointed Houlihan Lokey as financial advisor to lead bilateral maturity extension talks ahead of the 2026 bullet.",
+        "October coupon test: October 23, 2026 coupon payment (.75M) on the 2026 Eurobonds represents the nearest immediate cash liquidity test.",
+        "ADB multilateral facility: August 2026 closing of TRY 3.98B (~) ADB facility ring-fenced for OEDAŞ grid capex, removing capex drag from HoldCo.",
+        "Desk Restructuring Sandbox active: Deployed 16-row APR recovery waterfall, exit yield sensitivity matrix, and 3-scenario payoff engine."
+      ],
+      "catalysts": [
+        {
+          "date": "2026-10-23",
+          "event": "October 2026 Eurobond Coupon Payment (.75M)",
+          "impact": "Near-term liquidity test; payment signals consensual extension path vs formal standstill."
+        },
+        {
+          "date": "2026-11-06",
+          "event": "Q3 2026 / 9M Financials & Tariff Revisions",
+          "impact": "Updates normalized cash EBITDA run-rate and TRY FX translation adjustments."
+        },
+        {
+          "date": "2027-06-01",
+          "event": "ZOREN 9.00% 2026 Final Maturity Bullet ()",
+          "impact": "Maturity wall requiring exchange into 3-year extension paper or par refinancing."
+        },
+        {
+          "date": "2028-12-31",
+          "event": "YEKDEM Geothermal Guarantee Expiry (Kızıldere I & II)",
+          "impact": "Transition from –/MWh hard-currency tariff to Turkish merchant PTF market."
+        }
+      ],
+      "management_questions": [
+        "Will the domestic bank syndicate (İşbank, Garanti BBVA) agree to extend OpCo debt maturities pari passu with HoldCo Eurobond amendments?",
+        "Can management confirm whether Turkish Lira electricity receipts under YEKDEM are immediately convertible into USD without central bank FX surrender lags or queue friction?",
+        "What is the legal status and dividend remittance timeline for Dorad Energy cash flows given regional Middle East tensions?",
+        "What is the binding schedule for Zorlu Holding to repay the  upstream related-party loan to bolster HoldCo liquidity?"
+      ]
+    },
+    "historical_notes": [
+      {
+        "id": "note-20260922-zoren",
+        "date": "2026-09-22",
+        "title": "Creditor Violence Deep Dive, Domestic Bank Syndicate Alignment & Scenario Restructuring Matrix",
+        "source": "Desk Research Memo & Interactive Valuation Suite",
+        "status": "Archived / Previous Note Run",
+        "summary": "Comprehensive game theory analysis of domestic bank syndicate cooperation incentives vs creditor violence. Established 16-row APR recovery waterfall, dynamic secondary pricing bands with friction layers, 2D exit yield sensitivity matrix, and 3 core scenarios (Bear: 24-58c, Base: 95.3c, Bull: 102.5c)."
+      },
+      {
+        "id": "note-20260919-zoren",
+        "date": "2026-09-19",
+        "title": "Distressed Workout, Situational Breakdown & Restructuring Memo",
+        "source": "Initial Distressed Dossier Setup",
+        "status": "Archived / Previous Note Run",
+        "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDAŞ vs merchant),  related-party loan leakage, and HoldCo structural subordination."
+      }
+    ]
   }
 };

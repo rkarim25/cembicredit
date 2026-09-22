@@ -155,9 +155,84 @@ def clean_inbox_blocks():
     }
     requests.patch(f"https://api.notion.com/v1/blocks/{INBOX_PAGE_ID}/children", headers=HEADERS, json=placeholder_payload)
     print("[PASS] Clean placeholder restored in plain Notion Inbox.")
-    print("[PASS] Clean placeholder restored in Notion Inbox.")
+
+def process_issuer_research_entry(issuer_id, company_name, ticker, sector, country, region, rec, credit_view, historical_note, raw_text=None, commit_msg=None):
+    """
+    Standard Dual-Persistence Workflow for Issuer Research:
+    1. Reads/updates database/issuers/<issuer_id>.json with living credit_view & prepends historical_notes
+    2. Syncs/updates living Notion Research Dossier via notion_dossier_helper
+    3. Rebuilds website SQLite DB and compiles web bundles
+    4. Prepends receipt to Notion Processed Summaries table (most recent first)
+    5. Cleans raw inbox blocks and restores plain placeholder
+    6. Deploys live to GitHub Pages
+    """
+    import notion_dossier_helper
+
+    print(f"=== Processing Dual-Persistence Research Intake: {company_name} ({ticker}) ===")
+
+    # 1. Update Website Issuer Document
+    target_json = os.path.join(ISSUERS_DIR, f"{issuer_id}.json")
+    if os.path.exists(target_json):
+        with open(target_json, "r", encoding="utf-8") as f:
+            issuer_doc = json.load(f)
+    else:
+        issuer_doc = {
+            "metadata": {
+                "id": issuer_id,
+                "name": company_name,
+                "ticker": ticker,
+                "sector": sector,
+                "country": country,
+                "region": region,
+                "tier": "B"
+            }
+        }
+
+    # Update living credit view
+    issuer_doc["credit_view"] = credit_view
+
+    # Prepend historical note (most recent first)
+    if "historical_notes" not in issuer_doc:
+        issuer_doc["historical_notes"] = []
+    
+    # Check if note already exists by id
+    note_id = historical_note.get("id")
+    issuer_doc["historical_notes"] = [n for n in issuer_doc["historical_notes"] if n.get("id") != note_id]
+    issuer_doc["historical_notes"].insert(0, historical_note)
+
+    # 2. Notion Dossier Update / Creation
+    existing_notion_id = issuer_doc.get("metadata", {}).get("notion_id")
+    notion_title = f"{company_name} — Credit Assessment & Intelligence Dossier"
+    notion_id = notion_dossier_helper.update_or_create_dossier(
+        title=notion_title,
+        sector=sector,
+        country=country,
+        region=region,
+        rec=rec,
+        credit_view=credit_view,
+        historical_note=historical_note,
+        existing_page_id=existing_notion_id
+    )
+    if notion_id:
+        issuer_doc["metadata"]["notion_id"] = notion_id
+
+    # 3. Dual-Persistence to Website & SQLite Compile
+    msg = commit_msg or f"feat({issuer_id}): update living credit view & prepend research note run [Dual-Persistence]"
+    persist_to_website(issuer_id, issuer_doc, commit_msg=msg)
+
+    # 4. Prepend Receipt to Summary Table
+    d_str = historical_note.get("date", datetime.now().strftime("%d %b %Y"))
+    receipt_details = f"Living credit view updated (Stance: {credit_view.get('verdict', {}).get('stance', '—')}). Prepended archived run '{historical_note.get('title')}'. Rebuilt SQLite master & deployed live."
+    log_receipt(f"{company_name} ({ticker})", receipt_details, date_str=d_str)
+
+    # 5. Whisk away raw inbox blocks
+    clean_inbox_blocks()
+
+    print(f"[PASS] Ingestion complete for {company_name}!")
+    return issuer_doc
 
 if __name__ == "__main__":
     print("=== Process Notion Inbox & Website Dual-Persistence Engine ===")
     blocks = get_inbox_blocks()
     print(f"Total blocks currently in inbox: {len(blocks)}")
+

@@ -329,7 +329,7 @@ function switchCompanyTab(tabId) {
     'tab-broker-audit': 'Broker Coverage & Error Audit',
     'tab-operations': 'Operational Drivers',
     'tab-recovery': 'Covenants & Recovery',
-    'tab-guidance': 'Guidance & Catalysts'
+    'tab-guidance': 'Credit Thesis, Guidance & Notes'
   };
   document.getElementById('bc-tab-label').textContent = tabLabels[tabId] || 'Dossier';
 
@@ -2443,6 +2443,138 @@ function renderCovenantsAndRecovery() {
 
 // ----------------- TAB 8: GUIDANCE & QUESTIONS -----------------
 function renderGuidanceAndNews() {
+  // 1. Living Credit View & Desk Stance (Top - Most Recent First)
+  const cv = currentIssuer.credit_view;
+  const cvContainer = document.getElementById('living-credit-view-container');
+  if (cv && cvContainer) {
+    cvContainer.style.display = 'block';
+    const v = cv.verdict || {};
+    const pos = cv.positives || [];
+    const neg = cv.negatives || [];
+    const bg = cv.background || {};
+    const drivers = cv.recent_drivers || [];
+    const catalysts = cv.catalysts || [];
+
+    let stanceColor = '#3b82f6';
+    const stanceLower = (v.stance || '').toLowerCase();
+    if (stanceLower.includes('overweight') || stanceLower.includes('buy')) stanceColor = '#10b981';
+    else if (stanceLower.includes('underweight') || stanceLower.includes('sell')) stanceColor = '#ef4444';
+    else if (stanceLower.includes('neutral') || stanceLower.includes('hold')) stanceColor = '#f59e0b';
+
+    let cvHtml = `
+      <div class="company-card" style="border-top:3px solid ${stanceColor}; margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
+          <div>
+            <div class="company-card-title" style="margin-bottom:4px;">
+              <span>📌 Current Up-to-Date Credit View &amp; Desk Thesis</span>
+              <span class="badge" style="background:${stanceColor}22; color:${stanceColor}; border:1px solid ${stanceColor}; font-size:10.5px; font-weight:700;">
+                ${escapeHtml(v.stance || 'Desk Stance')}
+              </span>
+            </div>
+            <div style="font-size:11px; color:#94a3b8;">
+              Most Recent Synthesis &bull; Last Updated: <strong style="color:#f8fafc;">${cv.last_updated || 'Recent'}</strong>
+            </div>
+          </div>
+          <div style="display:flex; gap:16px; align-items:center; background:rgba(15,23,42,0.8); padding:8px 14px; border-radius:6px; border:1px solid #1e293b; font-family:'JetBrains Mono',monospace;">
+            <div>
+              <span style="font-size:10px; color:#94a3b8; display:block;">Target Px</span>
+              <span style="font-size:13px; font-weight:800; color:#10b981;">${v.target_price ? v.target_price.toFixed(1) + 'c' : '—'}</span>
+            </div>
+            <div>
+              <span style="font-size:10px; color:#94a3b8; display:block;">Market Px</span>
+              <span style="font-size:13px; font-weight:800; color:#fff;">${v.current_price ? v.current_price.toFixed(1) + 'c' : '—'}</span>
+            </div>
+            <div>
+              <span style="font-size:10px; color:#94a3b8; display:block;">YTM</span>
+              <span style="font-size:13px; font-weight:800; color:#fbbf24;">${v.ytm ? v.ytm.toFixed(1) + '%' : '—'}</span>
+            </div>
+            <div>
+              <span style="font-size:10px; color:#94a3b8; display:block;">Spread</span>
+              <span style="font-size:13px; font-weight:800; color:#38bdf8;">${v.spread_bp ? v.spread_bp + ' bps' : '—'}</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="font-size:12px; color:#cbd5e1; line-height:1.55; background:#080e1a; padding:12px 14px; border-radius:6px; border-left:3px solid ${stanceColor}; margin-bottom:16px;">
+          <strong style="color:#fff;">Executive Verdict:</strong> ${escapeHtml(v.summary || '')}
+        </div>
+
+        <!-- 2-Column: Positives vs Negatives -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+          <div style="background:rgba(16,185,129,0.06); border:1px solid rgba(16,185,129,0.25); border-radius:6px; padding:14px;">
+            <div style="font-size:12px; font-weight:700; color:#34d399; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+              <span>🟢</span> Key Credit Strengths (Positives)
+            </div>
+            <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11.5px; color:#e2e8f0; line-height:1.45;">
+              ${pos.map(p => `<li>${escapeHtml(p)}</li>`).join('')}
+            </ul>
+          </div>
+
+          <div style="background:rgba(239,68,68,0.06); border:1px solid rgba(239,68,68,0.25); border-radius:6px; padding:14px;">
+            <div style="font-size:12px; font-weight:700; color:#f87171; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+              <span>🔴</span> Key Credit Vulnerabilities (Negatives)
+            </div>
+            <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11.5px; color:#e2e8f0; line-height:1.45;">
+              ${neg.map(n => `<li>${escapeHtml(n)}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2-Column: Background & Recent Drivers -->
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
+          <div style="background:#0d1525; border:1px solid #1e293b; border-radius:6px; padding:14px;">
+            <div style="font-size:12px; font-weight:700; color:#38bdf8; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+              <span>🏢</span> Operational Perimeter &amp; Background
+            </div>
+            <div style="font-size:11.5px; color:#cbd5e1; line-height:1.5; display:flex; flex-direction:column; gap:6px;">
+              ${bg.business_overview ? `<div><strong style="color:#f8fafc;">Overview:</strong> ${escapeHtml(bg.business_overview)}</div>` : ''}
+              ${bg.asset_perimeter ? `<div><strong style="color:#f8fafc;">Perimeter:</strong> ${escapeHtml(bg.asset_perimeter)}</div>` : ''}
+              ${bg.ownership_governance ? `<div><strong style="color:#f8fafc;">Governance:</strong> ${escapeHtml(bg.ownership_governance)}</div>` : ''}
+            </div>
+          </div>
+
+          <div style="background:#0d1525; border:1px solid #1e293b; border-radius:6px; padding:14px;">
+            <div style="font-size:12px; font-weight:700; color:#fbbf24; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+              <span>⚡</span> Recent Drivers &amp; Earnings Pulse
+            </div>
+            <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11.5px; color:#cbd5e1; line-height:1.45;">
+              ${drivers.map(d => `<li>${escapeHtml(d)}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+
+        <!-- Catalysts Timeline Strip -->
+        ${catalysts.length > 0 ? `
+          <div style="background:#090d16; border:1px solid #1e293b; border-radius:6px; padding:14px;">
+            <div style="font-size:12px; font-weight:700; color:#a78bfa; margin-bottom:10px; display:flex; align-items:center; gap:6px;">
+              <span>📅</span> Upcoming Catalysts &amp; Key Refinancing Milestones
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px;">
+              ${catalysts.map(c => `
+                <div style="background:rgba(15,23,42,0.8); border:1px solid #1e2d45; border-radius:5px; padding:10px;">
+                  <div style="font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#fbbf24; font-weight:700; margin-bottom:4px;">
+                    ${escapeHtml(c.date || 'TBD')}
+                  </div>
+                  <div style="font-size:11.5px; font-weight:700; color:#f8fafc; margin-bottom:4px;">
+                    ${escapeHtml(c.event || 'Catalyst Event')}
+                  </div>
+                  <div style="font-size:10.5px; color:#94a3b8; line-height:1.4;">
+                    ${escapeHtml(c.impact || '')}
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        ` : ''}
+
+      </div>
+    `;
+    cvContainer.innerHTML = cvHtml;
+  } else if (cvContainer) {
+    cvContainer.style.display = 'none';
+  }
+
+  // 2. Executive Management Guidance Tracker
   const guides = currentIssuer.management_guidance_tracker || [];
   const tbody = document.getElementById('guidance-tbody');
 
@@ -2486,21 +2618,34 @@ function renderGuidanceAndNews() {
     tbody.innerHTML = html;
   }
 
-  // 5 Diligence Questions
+  // 3. 5 Diligence Questions (Rich Objects or Strings)
   const qs = currentIssuer.management_questions || [];
   const qDiv = document.getElementById('management-questions-list');
   if (qs.length === 0) {
     qDiv.innerHTML = '<div style="color:var(--text-dim); font-size:12px;">No diligence questions loaded.</div>';
   } else {
-    let qHtml = '<ol style="padding-left:18px; display:flex; flex-direction:column; gap:10px; font-size:12px; color:#cbd5e1; line-height:1.5;">';
+    let qHtml = '<ol style="padding-left:18px; display:flex; flex-direction:column; gap:12px; font-size:12px; color:#cbd5e1; line-height:1.5;">';
     qs.forEach(q => {
-      qHtml += `<li><strong style="color:#fff;">${escapeHtml(q)}</strong></li>`;
+      if (typeof q === 'object' && q !== null) {
+        qHtml += `
+          <li>
+            <div style="display:flex; align-items:center; gap:8px; margin-bottom:2px;">
+              <strong style="color:#fff;">${escapeHtml(q.question || q.focus_area || 'Diligence Question')}</strong>
+              ${q.focus_area ? `<span class="badge badge-hy" style="font-size:9.5px; padding:1px 6px;">${escapeHtml(q.focus_area)}</span>` : ''}
+            </div>
+            ${q.relevance ? `<div style="font-size:11px; color:#94a3b8; margin-top:3px;"><strong style="color:#cbd5e1;">Relevance:</strong> ${escapeHtml(q.relevance)}</div>` : ''}
+            ${q.conviction_trigger ? `<div style="font-size:10.5px; color:#38bdf8; margin-top:3px;"><strong style="color:#7dd3fc;">Conviction Trigger:</strong> ${escapeHtml(q.conviction_trigger)}</div>` : ''}
+          </li>
+        `;
+      } else {
+        qHtml += `<li><strong style="color:#fff;">${escapeHtml(String(q))}</strong></li>`;
+      }
     });
     qHtml += '</ol>';
     qDiv.innerHTML = qHtml;
   }
 
-  // News
+  // 4. News
   const ticker = currentIssuer.metadata.ticker;
   const allNews = window.CREDIT_NEWS_DATA || [];
   const relatedNews = allNews.filter(n => n.ticker === ticker || (n.impacted_issuers && n.impacted_issuers.includes(ticker)));
@@ -2535,6 +2680,55 @@ function renderGuidanceAndNews() {
     });
     nHtml += '</div>';
     newsDiv.innerHTML = nHtml;
+  }
+
+  // 5. Historical Notes & Chronological Intelligence Timeline (Archived Runs)
+  const hNotes = currentIssuer.historical_notes || [];
+  const hContainer = document.getElementById('historical-notes-timeline-container');
+  if (hContainer) {
+    if (hNotes.length > 0) {
+      hContainer.style.display = 'block';
+      let hHtml = `
+        <div class="company-card" style="border-top:2px dashed #334155; margin-top:10px;">
+          <div class="company-card-title" style="margin-bottom:6px;">
+            <span>📜 Historical Notes &amp; Chronological Intelligence Timeline</span>
+            <span class="badge badge-hy" style="background:#1e293b; color:#94a3b8; border:1px solid #334155; font-size:10px;">
+              ${hNotes.length} Archived Run${hNotes.length > 1 ? 's' : ''} (Reverse Chronological)
+            </span>
+          </div>
+          <div style="font-size:11.5px; color:var(--text-muted); margin-bottom:14px; line-height:1.5;">
+            Preserves previous research runs, broker memos, and earlier restructuring analyses in chronological order. Each note is explicitly demarked as an archived run.
+          </div>
+          <div style="display:flex; flex-direction:column; gap:12px;">
+      `;
+
+      hNotes.forEach((hn, idx) => {
+        hHtml += `
+          <div style="background:#0a101d; border:1px solid #1e293b; border-radius:6px; padding:14px; border-left:3px solid #64748b;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:8px;">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span class="badge" style="background:rgba(100,116,139,0.15); color:#94a3b8; border:1px solid #475569; font-size:10px; font-weight:700;">
+                  [Archived Run: ${hn.date}]
+                </span>
+                <strong style="color:#f8fafc; font-size:13px;">${escapeHtml(hn.title)}</strong>
+              </div>
+              <span style="font-size:11px; color:#64748b; font-family:'JetBrains Mono',monospace;">Source: ${escapeHtml(hn.source || 'Desk Research')}</span>
+            </div>
+            <div style="font-size:11.5px; color:#cbd5e1; line-height:1.5; background:rgba(15,23,42,0.6); padding:10px 12px; border-radius:4px; border:1px solid #1a2436;">
+              ${escapeHtml(hn.summary)}
+            </div>
+          </div>
+        `;
+      });
+
+      hHtml += `
+          </div>
+        </div>
+      `;
+      hContainer.innerHTML = hHtml;
+    } else {
+      hContainer.style.display = 'none';
+    }
   }
 }
 

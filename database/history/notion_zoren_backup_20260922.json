@@ -1,0 +1,4998 @@
+[
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81e6-b96f-e4fbceb917b2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "SITUATION BRIEFING: DISTRESSED WORKOUT & RESTRUCTURING\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "SITUATION BRIEFING: DISTRESSED WORKOUT & RESTRUCTURING\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Target: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Target: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu Enerji Elektrik Üretim A.Ş. (ZOREN TI)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu Enerji Elektrik Üretim A.Ş. (ZOREN TI)",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " | Capital Structure: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " | Capital Structure: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "$1.48B Total Debt / $1.1B Eurobond",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "$1.48B Total Debt / $1.1B Eurobond",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "\nAdvisers Mandated: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\nAdvisers Mandated: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Houlihan Lokey & Servo Capital",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Houlihan Lokey & Servo Capital",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " | Secondary Price: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " | Secondary Price: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "~63.50¢ (YTM ~27.2%)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "~63.50¢ (YTM ~27.2%)",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "\nPrimary Recommendation: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\nPrimary Recommendation: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "DO NOT BUY AT 63.5¢. Accumulate at 50¢–53¢ post-Oct 23 coupon default. Target Exit 72¢–76¢ (+42% gain, +60% IRR).",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "green"
+          },
+          "plain_text": "DO NOT BUY AT 63.5¢. Accumulate at 50¢–53¢ post-Oct 23 coupon default. Target Exit 72¢–76¢ (+42% gain, +60% IRR).",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🚨"
+      },
+      "color": "red_background"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81f1-9aee-f30e27cf7e12",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "📥 Financial Model & Recovery Workbook",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "📥 Financial Model & Recovery Workbook",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81c8-8e39-d9aa4d016118",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "file",
+    "file": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu_Enerji_Credit_Model_and_Recovery.xlsx",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu_Enerji_Credit_Model_and_Recovery.xlsx",
+          "href": null
+        }
+      ],
+      "type": "external",
+      "external": {
+        "url": "https://raw.githubusercontent.com/rkarim25/Strategy/main/Zorlu_Enerji_Credit_Model_and_Recovery.xlsx"
+      },
+      "name": "Zorlu_Enerji_Credit_Model_and_Recovery.xlsx"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81ba-a936-c9ae857412a6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Financial Model Attached: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Financial Model Attached: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu_Enerji_Credit_Model_and_Recovery.xlsx\nDirect Download Link: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu_Enerji_Credit_Model_and_Recovery.xlsx\nDirect Download Link: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Download Updated Excel Model (.xlsx)",
+            "link": {
+              "url": "https://raw.githubusercontent.com/rkarim25/Strategy/main/Zorlu_Enerji_Credit_Model_and_Recovery.xlsx"
+            }
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "Download Updated Excel Model (.xlsx)",
+          "href": "https://raw.githubusercontent.com/rkarim25/Strategy/main/Zorlu_Enerji_Credit_Model_and_Recovery.xlsx"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "\n\nWorkbook Structure (10 Integrated Tabs):\n1. Executive Summary | 2. EBITDA Quality Structure | 3. Financial Model USD | 4. Balance Sheet Deep Dive | 5. Debt Capital Structure | 6. Bond Recovery Waterfall | 7. Restructuring Pathways | 8. Distressed Trading Strategy | 9. Generation Only Stress Test | 10. Interactive Fair Value Calc.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\n\nWorkbook Structure (10 Integrated Tabs):\n1. Executive Summary | 2. EBITDA Quality Structure | 3. Financial Model USD | 4. Balance Sheet Deep Dive | 5. Debt Capital Structure | 6. Bond Recovery Waterfall | 7. Restructuring Pathways | 8. Distressed Trading Strategy | 9. Generation Only Stress Test | 10. Interactive Fair Value Calc.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "📊"
+      },
+      "color": "gray_background"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81d9-ab7a-db1b9a15171e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81af-bf3d-dbb57e743dbb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "⚡ Live Interactive Restructuring & Fair Value Calculator",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "⚡ Live Interactive Restructuring & Fair Value Calculator",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-816d-8b91-db2203ec8626",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "INTERACTIVE STRESS-TEST ENGINE (EMBEDDED LIVE)\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "INTERACTIVE STRESS-TEST ENGINE (EMBEDDED LIVE)\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Adjust sliders below to test different workout terms: Negotiation Duration, Haircut %, Maturity Extension, Cash & PIK Coupons, Advisory Fees, Consent Sweeteners, and Exit Yields.\n\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Adjust sliders below to test different workout terms: Negotiation Duration, Haircut %, Maturity Extension, Cash & PIK Coupons, Advisory Fees, Consent Sweeteners, and Exit Yields.\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "To Resize in Notion: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "To Resize in Notion: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Hover over the bottom border of the calculator below until you see the gray handle (━), then drag downward to expand. In Notion top-right (···) menu, toggle ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Hover over the bottom border of the calculator below until you see the gray handle (━), then drag downward to expand. In Notion top-right (···) menu, toggle ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Full width",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Full width",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " to stretch across your entire screen.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " to stretch across your entire screen.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "External Full-Screen View: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "External Full-Screen View: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Open Standalone Web App",
+            "link": {
+              "url": "https://rkarim25.github.io/Strategy/zoren_calculator.html"
+            }
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "Open Standalone Web App",
+          "href": "https://rkarim25.github.io/Strategy/zoren_calculator.html"
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🎛️"
+      },
+      "color": "blue_background"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8103-b2e3-fbe4ba6b1922",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "embed",
+    "embed": {
+      "caption": [],
+      "url": "https://rkarim25.github.io/Strategy/zoren_calculator.html"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81a5-b966-f784f26c52e0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8169-a224-db0b760e3aca",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "1. Situational Breakdown & Distress Triggers",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "1. Situational Breakdown & Distress Triggers",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-817e-99c7-e5f945afd9e6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "In mid-September 2026, Zorlu Enerji appointed ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "In mid-September 2026, Zorlu Enerji appointed ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Houlihan Lokey and Servo Capital",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Houlihan Lokey and Servo Capital",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " as financial advisers to evaluate restructuring options for its debt load. Following the news, its benchmark ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " as financial advisers to evaluate restructuring options for its debt load. Following the news, its benchmark ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "$1.1B 11.00% Senior Unsecured Eurobond due April 2030 (XS2926261426)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "$1.1B 11.00% Senior Unsecured Eurobond due April 2030 (XS2926261426)",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " dropped 11 points in secondary trading to ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " dropped 11 points in secondary trading to ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "~63.50¢ on the dollar (yielding ~27.2%)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "~63.50¢ on the dollar (yielding ~27.2%)",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ". Concurrently, management abruptly canceled its scheduled appearance at a JPMorgan institutional investor conference in London, confirming acute distress and an uncommunicative stance toward international creditors.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ". Concurrently, management abruptly canceled its scheduled appearance at a JPMorgan institutional investor conference in London, confirming acute distress and an uncommunicative stance toward international creditors.",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8141-aeab-eb5f9a232694",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "October 23, 2026 Coupon Test: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "October 23, 2026 Coupon Test: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "A semi-annual coupon payment of $60.5M is due on October 23, 2026. If management enters the 30-day grace period or formally skips payment, rating agencies (S&P/Fitch) will downgrade the bond to 'D' / 'RD', triggering forced institutional liquidation by EM mandate-constrained funds.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A semi-annual coupon payment of $60.5M is due on October 23, 2026. If management enters the 30-day grace period or formally skips payment, rating agencies (S&P/Fitch) will downgrade the bond to 'D' / 'RD', triggering forced institutional liquidation by EM mandate-constrained funds.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-816a-a386-fdda87aa8f8f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The August 2026 ADB Facility (TRY 3.98B / ~$115M): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The August 2026 ADB Facility (TRY 3.98B / ~$115M): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Signed on August 15, 2026, specifically to fund grid capex for Osmangazi Elektrik Dağıtım A.Ş. (OEDAŞ). This facility contains strict ring-fencing covenants that prevent cash leakage from the distribution utility up to the holding company.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Signed on August 15, 2026, specifically to fund grid capex for Osmangazi Elektrik Dağıtım A.Ş. (OEDAŞ). This facility contains strict ring-fencing covenants that prevent cash leakage from the distribution utility up to the holding company.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-811e-ab3c-da8eef65edbc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "2. Operational Reality: EBITDA Quality & The 2028 YEKDEM Cliff",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2. Operational Reality: EBITDA Quality & The 2028 YEKDEM Cliff",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-811b-ade1-c230f85a578a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu Enerji's headline operational EBITDA ($305.8M reported FY25; normalized ~$275M) is segmented across four distinct business units with starkly divergent cash security:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu Enerji's headline operational EBITDA ($305.8M reported FY25; normalized ~$275M) is segmented across four distinct business units with starkly divergent cash security:",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81b3-9440-ed17da7501bc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "1. Regulated Utility Core (OEDAŞ Distribution & Retail): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "1. Regulated Utility Core (OEDAŞ Distribution & Retail): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "$172.5M EBITDA (56.4% of total). Operates as a regulated local monopoly under EPDK with guaranteed RAB return and CPI indexation. Highly defensive, but legally ring-fenced at the OpCo level.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "$172.5M EBITDA (56.4% of total). Operates as a regulated local monopoly under EPDK with guaranteed RAB return and CPI indexation. Highly defensive, but legally ring-fenced at the OpCo level.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81f9-9a29-ceacc25a8bf2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "2. Contracted Renewables (YEKDEM Feed-in Tariff): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2. Contracted Renewables (YEKDEM Feed-in Tariff): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "$82.5M EBITDA (27.0% of total). Fixed hard-USD off-take ($105–$120/MWh) from geothermal (Kızıldere 3 - 165 MW) and Pakistan wind. Operates at a high 90%+ baseload capacity factor.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "$82.5M EBITDA (27.0% of total). Fixed hard-USD off-take ($105–$120/MWh) from geothermal (Kızıldere 3 - 165 MW) and Pakistan wind. Operates at a high 90%+ baseload capacity factor.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81a8-a773-d48421ab82c4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "3. Merchant Generation (Spot PTF): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "3. Merchant Generation (Spot PTF): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "$27.5M EBITDA (9.0% of total). Fully exposed to volatile Turkish power clearing prices and AUF price caps.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "$27.5M EBITDA (9.0% of total). Fully exposed to volatile Turkish power clearing prices and AUF price caps.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81d4-8f10-c7fd98deae9f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "4. EV Charging (ZES) & Trading: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "4. EV Charging (ZES) & Trading: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "$23.3M EBITDA (7.6% of total). High capex requirements result in negative net free cash flow.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "$23.3M EBITDA (7.6% of total). High capex requirements result in negative net free cash flow.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81fd-83c8-e586c1e89f86",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "THE 2028 YEKDEM CLIFF:\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "THE 2028 YEKDEM CLIFF:\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Kızıldere 3 (165 MW) is the crown jewel of Zorlu's generation fleet, generating ~$60M–$65M in hard-USD EBITDA. Its 10-year YEKDEM contract expires on ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kızıldere 3 (165 MW) is the crown jewel of Zorlu's generation fleet, generating ~$60M–$65M in hard-USD EBITDA. Its 10-year YEKDEM contract expires on ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "December 31, 2027",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "December 31, 2027",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ". In 2028, power will transition to local Turkish spot prices (PTF), causing a permanent ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ". In 2028, power will transition to local Turkish spot prices (PTF), causing a permanent ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "~$20M–$25M annual EBITDA loss",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "~$20M–$25M annual EBITDA loss",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " right before the 2030 Eurobond principal maturity. Any restructuring proposal that fails to address this cliff is fundamentally unviable.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " right before the 2030 Eurobond principal maturity. Any restructuring proposal that fails to address this cliff is fundamentally unviable.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "⚠️"
+      },
+      "color": "orange_background"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-817e-8336-cc4e195f8cd2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "3. Balance Sheet Forensics & Group Traps",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "3. Balance Sheet Forensics & Group Traps",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-815a-8fa4-c0c4c0ad8a1c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IFRIC 12 Concession Asset (TRY 16.7B / ~$389M): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IFRIC 12 Concession Asset (TRY 16.7B / ~$389M): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Under IFRS/TMS, OEDAŞ grid investments are booked as an intangible concession service asset, not physical PPE. This asset cannot be pledged to offshore Eurobond holders and terminates upon concession expiry (2036).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Under IFRS/TMS, OEDAŞ grid investments are booked as an intangible concession service asset, not physical PPE. This asset cannot be pledged to offshore Eurobond holders and terminates upon concession expiry (2036).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81f2-a953-c40efece1fb2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Related-Party Loan Leakage ($85M to Zorlu Holding): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Related-Party Loan Leakage ($85M to Zorlu Holding): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu Enerji has extended substantial cash advances and receivables to parent Zorlu Holding. As the parent group restructures $4B+ under the Turkish Financial Restructuring Framework (FYYK), this $85M asset is virtually uncollectible.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu Enerji has extended substantial cash advances and receivables to parent Zorlu Holding. As the parent group restructures $4B+ under the Turkish Financial Restructuring Framework (FYYK), this $85M asset is virtually uncollectible.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-814a-b755-c7dc96a63fe4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pakistan Wind Asset (ZEPL 56.4 MW): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pakistan Wind Asset (ZEPL 56.4 MW): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Management previously announced the divestment of Zorlu Enerji Pakistan Ltd. In reality, the asset has NOT been sold; cash flows remain trapped under sovereign capital controls and FX repatriation restrictions by the State Bank of Pakistan.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Management previously announced the divestment of Zorlu Enerji Pakistan Ltd. In reality, the asset has NOT been sold; cash flows remain trapped under sovereign capital controls and FX repatriation restrictions by the State Bank of Pakistan.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81fb-9f36-d07e6e57a712",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "4. Capital Structure & Structural Subordination",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "4. Capital Structure & Structural Subordination",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81ac-bf5d-fafaea94d6f3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu Enerji's debt structure exhibits severe structural subordination between OpCo senior secured lenders and the offshore HoldCo Eurobond:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu Enerji's debt structure exhibits severe structural subordination between OpCo senior secured lenders and the offshore HoldCo Eurobond:",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81f8-8843-d1790f5ad7ea",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "OpCo Level (Priority Claim): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "OpCo Level (Priority Claim): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "ADB Loan ($115M equivalent) + Turkish Bank Project Finance (~$265M). First-ranking security on OEDAŞ distribution network, grid receivables, and power plants. Total Priority Debt: ~$380M.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ADB Loan ($115M equivalent) + Turkish Bank Project Finance (~$265M). First-ranking security on OEDAŞ distribution network, grid receivables, and power plants. Total Priority Debt: ~$380M.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81cc-a625-d7f9cb8bd201",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "HoldCo Level (Subordinated Claim): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "HoldCo Level (Subordinated Claim): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "$1,100M Senior Unsecured Eurobond (11.00% due 2030). Holds no direct asset liens; relies entirely on dividend upstreaming from operating subsidiaries.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "$1,100M Senior Unsecured Eurobond (11.00% due 2030). Holds no direct asset liens; relies entirely on dividend upstreaming from operating subsidiaries.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8120-beb7-fe4d18ca5c93",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "5. Restructuring Pathways & Economic Valuation Matrix",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "5. Restructuring Pathways & Economic Valuation Matrix",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8104-865e-c77eb5b22e40",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pathway 1: Amend & Extend (15% Probability): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pathway 1: Amend & Extend (15% Probability): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Maturity extended by 3 years to 2033; coupon reduced from 11% to 8.5% Cash. No nominal haircut. Economic Realized Recovery: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Maturity extended by 3 years to 2033; coupon reduced from 11% to 8.5% Cash. No nominal haircut. Economic Realized Recovery: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "~72.3¢",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "~72.3¢",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " (Negotiation duration: 6–9 months).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " (Negotiation duration: 6–9 months).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81c2-93bb-db96180fa5a0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pathway 2: Hard Haircut & Equitization (10% Probability): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pathway 2: Hard Haircut & Equitization (10% Probability): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "27.5% nominal debt write-down; 2-year extension to 2032; 8.5% coupon; 15% equity warrant kicker. Economic Realized Recovery: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "27.5% nominal debt write-down; 2-year extension to 2032; 8.5% coupon; 15% equity warrant kicker. Economic Realized Recovery: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "~58.5¢",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "orange"
+          },
+          "plain_text": "~58.5¢",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " (Duration: 8–12 months).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " (Duration: 8–12 months).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81f0-a726-d578b7113801",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pathway 3: The Houlihan Hybrid (BASE CASE - 65% Probability): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "green"
+          },
+          "plain_text": "Pathway 3: The Houlihan Hybrid (BASE CASE - 65% Probability): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "15.0% nominal haircut; 3-year extension to April 2033; coupon modified to 5.0% Cash + 5.5% PIK for 3 years (stepping up to 9.5% cash in 2029); 80% asset-sale cash sweep from ZES/non-core sales. ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "15.0% nominal haircut; 3-year extension to April 2033; coupon modified to 5.0% Cash + 5.5% PIK for 3 years (stepping up to 9.5% cash in 2029); 80% asset-sale cash sweep from ZES/non-core sales. ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Economic Realized Recovery: ~64.5¢",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "green"
+          },
+          "plain_text": "Economic Realized Recovery: ~64.5¢",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " (Duration: 6–9 months; precisely aligns with current secondary market pricing of ~63.5¢).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " (Duration: 6–9 months; precisely aligns with current secondary market pricing of ~63.5¢).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8131-b133-f0fd19350c4c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pathway 4: Stalled Negotiations & In-Court Litigation (10% Probability): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "Pathway 4: Stalled Negotiations & In-Court Litigation (10% Probability): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Hostile deadlock; English courts enforce acceleration; EPDK moves to revoke or re-tender the OEDAŞ concession license. Economic Realized Recovery: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Hostile deadlock; English courts enforce acceleration; EPDK moves to revoke or re-tender the OEDAŞ concession license. Economic Realized Recovery: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "~15.4¢",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "~15.4¢",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " (Duration: 18–24+ months).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " (Duration: 18–24+ months).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8186-93fe-caeea4f5846a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "6. Hydrology Stress & Standalone Generation Carve-Out",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "6. Hydrology Stress & Standalone Generation Carve-Out",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8161-aa6f-c83abdd47bb8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "What happens if severe drought hits Turkey (-35% hydro output) and OEDAŞ is excluded from Eurobond recoveries? Under this scenario, generation EBITDA falls from $110M to ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "What happens if severe drought hits Turkey (-35% hydro output) and OEDAŞ is excluded from Eurobond recoveries? Under this scenario, generation EBITDA falls from $110M to ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "$85M–$90M",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "$85M–$90M",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ". Key outcomes modeled in Tab 9 of the workbook:\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ". Key outcomes modeled in Tab 9 of the workbook:\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Standalone Recovery: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Standalone Recovery: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Drops to ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Drops to ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "31¢ – 38¢ on the dollar",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "31¢ – 38¢ on the dollar",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".\n• Secondary Market Trough: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".\n• Secondary Market Trough: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Bonds would trade down into the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Bonds would trade down into the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "28¢ – 38¢ range.\n• Restructuring Timeline: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "28¢ – 38¢ range.\n• Restructuring Timeline: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Expands to ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Expands to ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "14 to 18 months",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "14 to 18 months",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " due to EPDK generation license change-of-control approvals.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " due to EPDK generation license change-of-control approvals.",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81ff-b09f-d3d69d0a4964",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "7. Zorlu Workout History & Creditor-on-Creditor Violence",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "7. Zorlu Workout History & Creditor-on-Creditor Violence",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-814e-a992-d31d47262126",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu Holding has a 20-year history of repeated bank restructurings (2001, 2008, 2019, 2021, and its June 2026 FYYK restructuring of $4B+ debt). In this workout, expect three dynamics:\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu Holding has a 20-year history of repeated bank restructurings (2001, 2008, 2019, 2021, and its June 2026 FYYK restructuring of $4B+ debt). In this workout, expect three dynamics:\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "1. 25%+ Blocking Stake Hostage Play: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "1. 25%+ Blocking Stake Hostage Play: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Under English law CACs (75% threshold), a hedge fund buying 25.1% ($276M face / ~$150M cash outlay) can block an exchange offer to extract private consent fees or warrants.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Under English law CACs (75% threshold), a hedge fund buying 25.1% ($276M face / ~$150M cash outlay) can block an exchange offer to extract private consent fees or warrants.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "2. Turkish Bank Priming: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2. Turkish Bank Priming: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Domestic banks holding project loans will demand that 100% of OEDAŞ dividend capacity be swept to them under the FYYK framework before any cash leaves for offshore Eurobonds.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Domestic banks holding project loans will demand that 100% of OEDAŞ dividend capacity be swept to them under the FYYK framework before any cash leaves for offshore Eurobonds.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "3. Cross-Default Contagion: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "3. Cross-Default Contagion: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Accelerating Zorlu Enerji's $1.1B bond risks triggering cross-defaults across sister company Vestel Elektronik ($500M bond) and parent Zorlu Holding's $4B debt pile.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Accelerating Zorlu Enerji's $1.1B bond risks triggering cross-defaults across sister company Vestel Elektronik ($500M bond) and parent Zorlu Holding's $4B debt pile.",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8159-bce1-c8bdde2c6ca9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "8. Tactical Distressed Trading Playbook",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "8. Tactical Distressed Trading Playbook",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-817c-ba16-f14fa092aa33",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T20:29:00.000Z",
+    "last_edited_time": "2026-09-18T20:29:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "THE TRADE EXECUTION PROTOCOL\n• Current Status (63.5¢): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "THE TRADE EXECUTION PROTOCOL\n• Current Status (63.5¢): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "DO NOT BUY TODAY. Bonds are currently pricing in the optimistic Houlihan Hybrid without pricing in the upcoming forced-selling technical shock.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "DO NOT BUY TODAY. Bonds are currently pricing in the optimistic Houlihan Hybrid without pricing in the upcoming forced-selling technical shock.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Catalyst & Forced Selling: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Catalyst & Forced Selling: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "On October 23, 2026, the company will either skip the $60.5M coupon or enter grace period. S&P/Fitch downgrade to 'RD' will trigger indiscriminate selling by high-yield and benchmark-tracking EM funds.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "On October 23, 2026, the company will either skip the $60.5M coupon or enter grace period. S&P/Fitch downgrade to 'RD' will trigger indiscriminate selling by high-yield and benchmark-tracking EM funds.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Target Accumulation Range: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Target Accumulation Range: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "50.0¢ – 53.0¢ (Target Entry: 52.0¢)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "50.0¢ – 53.0¢ (Target Entry: 52.0¢)",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " in November/December 2026.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " in November/December 2026.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Target Exit Range: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Target Exit Range: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "72.0¢ – 76.0¢ (Target Exit: 74.0¢)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "green"
+          },
+          "plain_text": "72.0¢ – 76.0¢ (Target Exit: 74.0¢)",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " upon formal execution and settlement of the Pathway 3 restructuring in Q2/Q3 2027.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " upon formal execution and settlement of the Pathway 3 restructuring in Q2/Q3 2027.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Expected Trade Economics: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Expected Trade Economics: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "+42.3% Nominal Capital Gain (+60.1% Annualized IRR over 9 months) with a 3.14x Risk/Reward ratio.",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "green"
+          },
+          "plain_text": "+42.3% Nominal Capital Gain (+60.1% Annualized IRR over 9 months) with a 3.14x Risk/Reward ratio.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🎯"
+      },
+      "color": "blue_background"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8151-a9ca-e621841138e2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T21:15:00.000Z",
+    "last_edited_time": "2026-09-18T21:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81fe-bbb9-ff9bec6fab61",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T21:15:00.000Z",
+    "last_edited_time": "2026-09-18T21:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "⏱️ Intelligence Timeline & Research Flow",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "⏱️ Intelligence Timeline & Research Flow",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-8125-bbe0-c6de859586b3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T21:15:00.000Z",
+    "last_edited_time": "2026-09-18T21:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "18 Sep 2026 — London Roadshow Canceled & Price Drops to 63.5¢\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "18 Sep 2026 — London Roadshow Canceled & Price Drops to 63.5¢\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Context: Management abruptly canceled appearance at JPMorgan London conference following Houlihan Lokey / Servo Capital hiring.\n• Discrepancy Found: Sell-side reports pitching OEDAŞ distribution EBITDA ($172.5M) as hard collateral for Eurobond ignore the August 2026 ADB facility covenants which legally ring-fence OEDAŞ cash.\n• PM Action: Reaffirmed 'Wait / Accumulate' directive. Do not touch at 63.5¢; wait for October 23 coupon default capitulation into 50¢–53¢.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Context: Management abruptly canceled appearance at JPMorgan London conference following Houlihan Lokey / Servo Capital hiring.\n• Discrepancy Found: Sell-side reports pitching OEDAŞ distribution EBITDA ($172.5M) as hard collateral for Eurobond ignore the August 2026 ADB facility covenants which legally ring-fence OEDAŞ cash.\n• PM Action: Reaffirmed 'Wait / Accumulate' directive. Do not touch at 63.5¢; wait for October 23 coupon default capitulation into 50¢–53¢.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "⏱️"
+      },
+      "color": "gray_background"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-815a-9607-fa05169f4ba6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T21:15:00.000Z",
+    "last_edited_time": "2026-09-18T21:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "15 Aug 2026 — ADB Signs TRY 3.98B Grid Facility with OEDAŞ\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "15 Aug 2026 — ADB Signs TRY 3.98B Grid Facility with OEDAŞ\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Context: Asian Development Bank facility closed to fund distribution grid capex.\n• Credit Implication: Senior secured priority claim created at OpCo level, deepening structural subordination of the HoldCo Eurobond.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Context: Asian Development Bank facility closed to fund distribution grid capex.\n• Credit Implication: Senior secured priority claim created at OpCo level, deepening structural subordination of the HoldCo Eurobond.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "📌"
+      },
+      "color": "gray_background"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81cf-b0c2-d009e949b676",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T21:15:00.000Z",
+    "last_edited_time": "2026-09-18T21:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-81dc-b902-e89d9419150e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T21:15:00.000Z",
+    "last_edited_time": "2026-09-18T21:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "🗄️ Archived Views & Version History",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "🗄️ Archived Views & Version History",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3df1d0ad-68c6-815d-9b41-e3dde269d84e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-18T21:15:00.000Z",
+    "last_edited_time": "2026-09-18T21:15:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": true,
+    "in_trash": false,
+    "type": "toggle",
+    "toggle": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Version 1.0 — Initial Issue & Geothermal Expansion View (April 2024)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Version 1.0 — Initial Issue & Geothermal Expansion View (April 2024)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8162-8b37-df324cb8631c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "⚡ Comprehensive Valuation Infrastructure & Dedicated Interactive Engines",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "⚡ Comprehensive Valuation Infrastructure & Dedicated Interactive Engines",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-819a-9c0a-f62736af69d6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "🔗 Live Interactive Platform Tools for Zorlu Enerji (ZOREN):\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "🔗 Live Interactive Platform Tools for Zorlu Enerji (ZOREN):\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Interactive Refinancing & SOTP Restructuring Sandbox: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Interactive Refinancing & SOTP Restructuring Sandbox: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "https://rkarim25.github.io/cembicredit/zoren_calculator.html\n",
+            "link": {
+              "url": "https://rkarim25.github.io/cembicredit/zoren_calculator.html"
+            }
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "https://rkarim25.github.io/cembicredit/zoren_calculator.html\n",
+          "href": "https://rkarim25.github.io/cembicredit/zoren_calculator.html"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Asset Blueprint, EV Volatility & Interactive Pricing Engine: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Asset Blueprint, EV Volatility & Interactive Pricing Engine: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "https://rkarim25.github.io/cembicredit/zoren_background.html\n",
+            "link": {
+              "url": "https://rkarim25.github.io/cembicredit/zoren_background.html"
+            }
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "https://rkarim25.github.io/cembicredit/zoren_background.html\n",
+          "href": "https://rkarim25.github.io/cembicredit/zoren_background.html"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Master Company Dossier & Financial Model: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Master Company Dossier & Financial Model: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "https://rkarim25.github.io/cembicredit/company.html?id=zorlu\n",
+            "link": {
+              "url": "https://rkarim25.github.io/cembicredit/company.html?id=zorlu"
+            }
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "https://rkarim25.github.io/cembicredit/company.html?id=zorlu\n",
+          "href": "https://rkarim25.github.io/cembicredit/company.html?id=zorlu"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Strategy Platform Live Mirror: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Strategy Platform Live Mirror: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "https://rkarim25.github.io/Strategy/zoren_calculator.html",
+            "link": {
+              "url": "https://rkarim25.github.io/Strategy/zoren_calculator.html"
+            }
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "blue"
+          },
+          "plain_text": "https://rkarim25.github.io/Strategy/zoren_calculator.html",
+          "href": "https://rkarim25.github.io/Strategy/zoren_calculator.html"
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "⚡"
+      },
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8134-8293-c237b45e9d98",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "🏭 Asset-by-Asset Operational Blueprint: Resource Inputs & Energy Outputs",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "🏭 Asset-by-Asset Operational Blueprint: Resource Inputs & Energy Outputs",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81c8-91e9-d36b3eee3eb4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu Enerji operates 8 discrete power and infrastructure asset clusters across Turkey, Israel, and Pakistan spanning 1,266 MW of generation capacity and 1.95M regulated electricity distribution meters. 68.5% of generation EBITDA is earned directly in US Dollars under the statutory YEKDEM mechanism, with the remaining 31.5% backed by OEDAŞ's CPI-indexed regulated distribution network. The table below details the input enthalpy, energy outputs, normalized EBITDA contribution, and economic moats:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu Enerji operates 8 discrete power and infrastructure asset clusters across Turkey, Israel, and Pakistan spanning 1,266 MW of generation capacity and 1.95M regulated electricity distribution meters. 68.5% of generation EBITDA is earned directly in US Dollars under the statutory YEKDEM mechanism, with the remaining 31.5% backed by OEDAŞ's CPI-indexed regulated distribution network. The table below details the input enthalpy, energy outputs, normalized EBITDA contribution, and economic moats:",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8137-a401-f29adbcd6983",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": true,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 6,
+      "has_column_header": true,
+      "has_row_header": false
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81b9-88c3-cfe84e1302b2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "📊 Enterprise Value (EV) Volatility Framework: Quantification & Drivers",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "📊 Enterprise Value (EV) Volatility Framework: Quantification & Drivers",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8160-980a-c7e4fa33afde",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu Enerji exhibits an annualized EV volatility of ~28.0% driven by four structural forces: (1) Hydrology and geothermal steam reinjection variations (±$35M EBITDA swing); (2) Turkish Lira FX depreciation versus USD debt service obligations (mitigated by statutory USD YEKDEM cash flows); (3) EMRA/EPDK regulatory tariff reviews and Regulated Asset Base (RAB) inflation indexing; and (4) Post-YEKDEM merchant spot power price realizations (PTF). Below is the historical EV percentile distribution matrix:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu Enerji exhibits an annualized EV volatility of ~28.0% driven by four structural forces: (1) Hydrology and geothermal steam reinjection variations (±$35M EBITDA swing); (2) Turkish Lira FX depreciation versus USD debt service obligations (mitigated by statutory USD YEKDEM cash flows); (3) EMRA/EPDK regulatory tariff reviews and Regulated Asset Base (RAB) inflation indexing; and (4) Post-YEKDEM merchant spot power price realizations (PTF). Below is the historical EV percentile distribution matrix:",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8130-8e36-ec9d7b4f184e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": true,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 6,
+      "has_column_header": true,
+      "has_row_header": false
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-813a-9e9f-c7b080e535e5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "🎯 'What Is Priced In?' & Scenario Return Payoff Matrix",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "🎯 'What Is Priced In?' & Scenario Return Payoff Matrix",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81ca-ac0d-d1022f2d140b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "At the benchmark ZOREN 9.000% 2026 Eurobond price of 94.5c ($94.50, yielding ~16.8% YTM ahead of its June 2026 maturity wall), the market is pricing in an implied Enterprise Value of $1,850M (5.28x EV/EBITDA on normalized $350M EBITDA) and an implied 22% probability of bank restructuring friction. The table below details total return ROI, net dollar profit/loss per $1M face value, and annualized IRR across 5 restructuring and refinancing outcomes over a 10-month horizon:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "At the benchmark ZOREN 9.000% 2026 Eurobond price of 94.5c ($94.50, yielding ~16.8% YTM ahead of its June 2026 maturity wall), the market is pricing in an implied Enterprise Value of $1,850M (5.28x EV/EBITDA on normalized $350M EBITDA) and an implied 22% probability of bank restructuring friction. The table below details total return ROI, net dollar profit/loss per $1M face value, and annualized IRR across 5 restructuring and refinancing outcomes over a 10-month horizon:",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-817e-9ffe-e93b579d93e5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": true,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 6,
+      "has_column_header": true,
+      "has_row_header": false
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8104-a1d6-c2f3b67cf54d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "⚖️ 16-Row Comprehensive Priority Recovery Waterfall Analysis",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "⚖️ 16-Row Comprehensive Priority Recovery Waterfall Analysis",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-812c-b528-fa8c856d605c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The table below details the full 16-row institutional recovery waterfall for Zorlu Enerji across Floor, Base Case, and Bull Case scenarios, quantifying priority claims, net value available to General Senior Unsecured creditors, coverage percentages, and residual equity cushions:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The table below details the full 16-row institutional recovery waterfall for Zorlu Enerji across Floor, Base Case, and Bull Case scenarios, quantifying priority claims, net value available to General Senior Unsecured creditors, coverage percentages, and residual equity cushions:",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81c2-a8ac-ffac1a24a955",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": true,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 4,
+      "has_column_header": true,
+      "has_row_header": false
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81f4-ab6b-fd87b8ef5bdf",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "KEY WATERFALL TAKEAWAYS & ASSET COVERAGE VERDICT:\n• Base Case Senior Coverage of 190.6%: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "KEY WATERFALL TAKEAWAYS & ASSET COVERAGE VERDICT:\n• Base Case Senior Coverage of 190.6%: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Under mid-cycle valuation ($2,100M EV + $240M Cash - $1,230M Priority Claims), distributable value available to Senior Unsecured claims is $1,110M against total senior claims of $582.4M (ZOREN Eurobonds $300M + Drawn RCF $282.4M). Senior creditors are covered 1.91x, supporting 100c full par recovery.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Under mid-cycle valuation ($2,100M EV + $240M Cash - $1,230M Priority Claims), distributable value available to Senior Unsecured claims is $1,110M against total senior claims of $582.4M (ZOREN Eurobonds $300M + Drawn RCF $282.4M). Senior creditors are covered 1.91x, supporting 100c full par recovery.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Structural Subordination is Contained: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Structural Subordination is Contained: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "While $1,200M in project loans sits at the OpCo level (Geothermal & OEDAŞ), Zorlu's crown-jewel assets generate more than enough cash flow to service these ring-fenced facilities and leave a massive $1,110M net value cushion for HoldCo Eurobonds.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "While $1,200M in project loans sits at the OpCo level (Geothermal & OEDAŞ), Zorlu's crown-jewel assets generate more than enough cash flow to service these ring-fenced facilities and leave a massive $1,110M net value cushion for HoldCo Eurobonds.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Huge Equity Cushion ($527.6M): ",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Huge Equity Cushion ($527.6M): ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Zorlu Holding has over $520M of equity value at stake under the base case, providing overwhelming incentive for the sponsor to complete a consensual maturity extension or refinance the June 2026 notes rather than trigger default.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zorlu Holding has over $520M of equity value at stake under the base case, providing overwhelming incentive for the sponsor to complete a consensual maturity extension or refinance the June 2026 notes rather than trigger default.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "💡"
+      },
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81fb-81f2-c28b463b57ce",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "🏷️ Dynamic Secondary Pricing Bands & Friction Layers",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "🏷️ Dynamic Secondary Pricing Bands & Friction Layers",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8198-865b-c28322fb2448",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "To translate fundamental asset coverage into actionable trading signals, the desk evaluates qualitative frictions: (1) Turkish sovereign macro & CDS volatility (15%), (2) OEDAŞ RAB tariff timing (10%), (3) Bank syndication rollover inertia (10%), and (4) Secondary liquidity discount (8%):",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "To translate fundamental asset coverage into actionable trading signals, the desk evaluates qualitative frictions: (1) Turkish sovereign macro & CDS volatility (15%), (2) OEDAŞ RAB tariff timing (10%), (3) Bank syndication rollover inertia (10%), and (4) Secondary liquidity discount (8%):",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81cc-bbf1-c8834998dd8a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": true,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 7,
+      "has_column_header": true,
+      "has_row_header": false
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-811f-8af2-e816be7f83d1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:17:00.000Z",
+    "last_edited_time": "2026-09-22T12:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "DESK TRADING ACTION: OVERWEIGHT ZOREN 2026s AT 94.5c\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "DESK TRADING ACTION: OVERWEIGHT ZOREN 2026s AT 94.5c\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "ZOREN 9.000% 2026 Eurobonds offer an asymmetric risk/reward: downside is protected by 190.6% fundamental asset coverage and $527.6M of sponsor equity cushion, while delivering +15.3% total return (+18.7% annualized IRR) on a consensual 10-month rollover to par.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ZOREN 9.000% 2026 Eurobonds offer an asymmetric risk/reward: downside is protected by 190.6% fundamental asset coverage and $527.6M of sponsor equity cushion, while delivering +15.3% total return (+18.7% annualized IRR) on a consensual 10-month rollover to par.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🎯"
+      },
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8169-bac5-f112c2a6314a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:31:00.000Z",
+    "last_edited_time": "2026-09-22T12:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "📉 Exit Yield Sensitivity Matrix: 2026 Extension Paper Valuation",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "📉 Exit Yield Sensitivity Matrix: 2026 Extension Paper Valuation",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81fe-814f-fc1fa3c1def3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:31:00.000Z",
+    "last_edited_time": "2026-09-22T12:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Why do ZOREN 2026 notes trade at 94.5c today despite 190.6% asset coverage? The secondary quote is not pricing an asset deficit; it is the exact present value of an extended 4-year note (9.50% coupon) discounted at an 11.00% market Exit Yield (+425 bps over Turkish sovereign Eurobonds). The sensitivity matrix below displays pricing across clearing yields:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Why do ZOREN 2026 notes trade at 94.5c today despite 190.6% asset coverage? The secondary quote is not pricing an asset deficit; it is the exact present value of an extended 4-year note (9.50% coupon) discounted at an 11.00% market Exit Yield (+425 bps over Turkish sovereign Eurobonds). The sensitivity matrix below displays pricing across clearing yields:",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81e1-b650-e4bbcf0a1c2b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:31:00.000Z",
+    "last_edited_time": "2026-09-22T12:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": true,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 6,
+      "has_column_header": true,
+      "has_row_header": false
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8162-aea9-ee3728d78880",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:31:00.000Z",
+    "last_edited_time": "2026-09-22T12:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "📐 Scenario Anatomy: What Gets You Bear, Base & Bull?",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "📐 Scenario Anatomy: What Gets You Bear, Base & Bull?",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8160-9823-e2c1cda17266",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:31:00.000Z",
+    "last_edited_time": "2026-09-22T12:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "BEAR / DROUGHT SQUEEZE SCENARIO (24.0c – 58.0c Senior Recovery):\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "red"
+          },
+          "plain_text": "BEAR / DROUGHT SQUEEZE SCENARIO (24.0c – 58.0c Senior Recovery):\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Cash EBITDA: $240.0M (Severe drought slashes hydro output by -35%; geothermal steam pressures drop).\n• Valuation Multiple: 5.0x EV multiple (Distressed valuation = $1,200M EV).\n• Structural Subordination: $1,200M OpCo project loans (EBRD + OEDAŞ TLREF) ring-fenced and consume all cash flow.\n• Sponsor Support: $0.0M (Zorlu Holding liquidity depleted; banks freeze credit lines).\n• Legal Pathway: Bank syndicate impasse; forced debt standstill.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Cash EBITDA: $240.0M (Severe drought slashes hydro output by -35%; geothermal steam pressures drop).\n• Valuation Multiple: 5.0x EV multiple (Distressed valuation = $1,200M EV).\n• Structural Subordination: $1,200M OpCo project loans (EBRD + OEDAŞ TLREF) ring-fenced and consume all cash flow.\n• Sponsor Support: $0.0M (Zorlu Holding liquidity depleted; banks freeze credit lines).\n• Legal Pathway: Bank syndicate impasse; forced debt standstill.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Final Outcome: Only $140M left for $582M HoldCo claims (24.0c fundamental / 58c secondary floor). Existing equity completely wiped out.",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Final Outcome: Only $140M left for $582M HoldCo claims (24.0c fundamental / 58c secondary floor). Existing equity completely wiped out.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🔴"
+      },
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-81c3-b2cf-dd9c8f125007",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:31:00.000Z",
+    "last_edited_time": "2026-09-22T12:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "BASE CASE CONSENSUAL REFINANCING (95.3c Mkt / 100.0c Par Coverage):\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "yellow"
+          },
+          "plain_text": "BASE CASE CONSENSUAL REFINANCING (95.3c Mkt / 100.0c Par Coverage):\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Cash EBITDA: $350.0M (Geothermal >90% CF earning statutory USD YEKDEM $105–$132/MWh; OEDAŞ 12.3% ROE on $650M RAB).\n• Valuation Multiple: 6.0x EV multiple ($2,100M EV + $240M Cash = $2,340M total distributable value).\n• OpCo Debt Ring-Fenced: $1,200M priority secured project loans serviced normally from plant revenues.\n• Refinancing Pathway: Consensual 4-year Amend-and-Extend to June 2030 at 9.50% coupon (+50 bps step-up).\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Cash EBITDA: $350.0M (Geothermal >90% CF earning statutory USD YEKDEM $105–$132/MWh; OEDAŞ 12.3% ROE on $650M RAB).\n• Valuation Multiple: 6.0x EV multiple ($2,100M EV + $240M Cash = $2,340M total distributable value).\n• OpCo Debt Ring-Fenced: $1,200M priority secured project loans serviced normally from plant revenues.\n• Refinancing Pathway: Consensual 4-year Amend-and-Extend to June 2030 at 9.50% coupon (+50 bps step-up).\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Final Outcome: $1,110M net value for $582M senior claims (190.6% asset coverage / 100c Par). At 11.0% exit yield, paper trades at 95.3c today (in line with 94.5c quote).",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Final Outcome: $1,110M net value for $582M senior claims (190.6% asset coverage / 100c Par). At 11.0% exit yield, paper trades at 95.3c today (in line with 94.5c quote).",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🟡"
+      },
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8193-b7c9-c7689d02da57",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T12:31:00.000Z",
+    "last_edited_time": "2026-09-22T12:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "BULL / RENEWABLE IPO CALL & TENDER (102.5c Par Call / Tender):\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "green"
+          },
+          "plain_text": "BULL / RENEWABLE IPO CALL & TENDER (102.5c Par Call / Tender):\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Cash EBITDA: $410.0M (Peak hydrology; industrial electricity demand pushes spot PTF; ZES charging network profitable).\n• Valuation Multiple: 7.3x peer multiple ($3,000M EV, matching Turkish pure-play renewable comps).\n• Sponsor Catalyst: Zorlu Yenilenebilir minority IPO raises +$250M cash or stake sale to Gulf strategic (ADQ/ACWA).\n• Capital Action: Cash tender or early make-whole call at 102.5c takes out June 2026 Eurobonds at premium.\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Cash EBITDA: $410.0M (Peak hydrology; industrial electricity demand pushes spot PTF; ZES charging network profitable).\n• Valuation Multiple: 7.3x peer multiple ($3,000M EV, matching Turkish pure-play renewable comps).\n• Sponsor Catalyst: Zorlu Yenilenebilir minority IPO raises +$250M cash or stake sale to Gulf strategic (ADQ/ACWA).\n• Capital Action: Cash tender or early make-whole call at 102.5c takes out June 2026 Eurobonds at premium.\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "• Final Outcome: Full par redemption + carry. $1,747.6M residual equity value preserved for parent Zorlu Holding.",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "• Final Outcome: Full par redemption + carry. $1,747.6M residual equity value preserved for parent Zorlu Holding.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "🟢"
+      },
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-815c-8a23-d5dffdd2786a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T13:55:00.000Z",
+    "last_edited_time": "2026-09-22T13:55:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "📘 Qualitative Risk Assessment Demystified: What Does Each % Mean?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "📘 Qualitative Risk Assessment Demystified: What Does Each % Mean?",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8197-a494-ec3bb64c4e84",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T13:55:00.000Z",
+    "last_edited_time": "2026-09-22T13:55:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "While Zorlu Enerji provides 190.6% asset coverage ($2,598M EV vs $1,363M net debt), the 2026 notes trade at ~94.5c. The Qualitative % is an explicit Probability-Weighted Friction Haircut capturing macro, regulatory, and parent contagion risks that explain the paper discount.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "While Zorlu Enerji provides 190.6% asset coverage ($2,598M EV vs $1,363M net debt), the 2026 notes trade at ~94.5c. The Qualitative % is an explicit Probability-Weighted Friction Haircut capturing macro, regulatory, and parent contagion risks that explain the paper discount.",
+          "href": null
+        }
+      ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-817b-91ba-e0e24819135c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T13:55:00.000Z",
+    "last_edited_time": "2026-09-22T13:55:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": true,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 5,
+      "has_column_header": true,
+      "has_row_header": false
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3e31d0ad-68c6-8148-be2e-e512bee4ea5e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3df1d0ad-68c6-814f-921e-f33f2b2f199b"
+    },
+    "created_time": "2026-09-22T13:55:00.000Z",
+    "last_edited_time": "2026-09-22T13:55:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3df1d0ad-68c6-81bb-8091-002705b007ca"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "callout",
+    "callout": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "PRICING BAND FORMULA & SYNTHESIS:\nComposite Friction Factor (Φ) = (Macro × 0.35) + (YEKDEM × 0.30) + (Dorad × 0.20) + (Illiquidity × 0.15)\n• Bear (Floor): max(50.0c, Raw Recovery × 0.65 × (1 - Φ))\n• Base (Fair): Raw Recovery × (1 - Φ × 0.35)\n• Bull (Upside): min(100.0c, Raw Recovery × 1.15)\nIn the Desk Base Case, Φ = 15.00%. At an 11.0% Exit Yield, the 4-year A&E paper trades at 95.3c, perfectly validating today's 94.5c secondary price.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "PRICING BAND FORMULA & SYNTHESIS:\nComposite Friction Factor (Φ) = (Macro × 0.35) + (YEKDEM × 0.30) + (Dorad × 0.20) + (Illiquidity × 0.15)\n• Bear (Floor): max(50.0c, Raw Recovery × 0.65 × (1 - Φ))\n• Base (Fair): Raw Recovery × (1 - Φ × 0.35)\n• Bull (Upside): min(100.0c, Raw Recovery × 1.15)\nIn the Desk Base Case, Φ = 15.00%. At an 11.0% Exit Yield, the 4-year A&E paper trades at 95.3c, perfectly validating today's 94.5c secondary price.",
+          "href": null
+        }
+      ],
+      "icon": {
+        "type": "emoji",
+        "emoji": "⚙️"
+      },
+      "color": "default"
+    },
+    "archived": false
+  }
+]
