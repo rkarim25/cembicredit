@@ -10150,6 +10150,126 @@ const MASTER_ISSUERS = [
           "bull_recovery": "48.0c (48%)",
           "asymmetry": "-56.0% Downside (Avoid / Short)"
         }
+      ],
+      "waterfall_steps": [
+        {
+          "step": "1. Operating Cash EBITDA ($M)",
+          "floor": "$800.0M (Trough)",
+          "base": "$1,400.0M (Mid-Cycle)",
+          "bull": "$1,800.0M (Peak Rebound)",
+          "is_subtotal": false
+        },
+        {
+          "step": "2. Implied EV / EBITDA Multiple",
+          "floor": "3.5x EV Multiple",
+          "base": "5.0x EV Multiple",
+          "bull": "5.5x EV Multiple",
+          "is_subtotal": false
+        },
+        {
+          "step": "3. Enterprise Value (EV)",
+          "floor": "$2,800.0M",
+          "base": "$7,000.0M",
+          "bull": "$9,900.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "4. Add: Balance Sheet Cash",
+          "floor": "$850.0M",
+          "base": "$900.0M",
+          "bull": "$1,100.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "5. Add: Sponsor Cash Equity Injection",
+          "floor": "$0.0M (None)",
+          "base": "$0.0M (Debt-funded)",
+          "bull": "$2,500.0M (Petrobras Cash)",
+          "is_subtotal": false
+        },
+        {
+          "step": "6. TOTAL DISTRIBUTABLE ASSET VALUE",
+          "floor": "$3,650.0M",
+          "base": "$7,900.0M",
+          "bull": "$13,500.0M",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        },
+        {
+          "step": "7. Less: Restructuring & Legal Advisor Fees",
+          "floor": "-$150.0M ($15M/mo bleed)",
+          "base": "-$100.0M (Consensual)",
+          "bull": "-$100.0M (Accelerated)",
+          "is_subtotal": false
+        },
+        {
+          "step": "8. Less: Priority PPE Bank Debt ($1,100M)",
+          "floor": "-$1,100.0M (100% Par)",
+          "base": "-$1,100.0M (100% Par)",
+          "bull": "-$1,100.0M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "9. Less: Maceió Settlement NPV Obligations",
+          "floor": "-$850.0M (Escalated claims)",
+          "base": "-$600.0M (Scheduled)",
+          "bull": "-$500.0M (State cap)",
+          "is_subtotal": false
+        },
+        {
+          "step": "10. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "floor": "-$2,100.0M",
+          "base": "-$1,800.0M",
+          "bull": "-$1,700.0M",
+          "is_subtotal": true,
+          "color": "#f87171"
+        },
+        {
+          "step": "11. NET VALUE AVAILABLE TO SENIOR UNSECURED BONDHOLDERS",
+          "floor": "$1,550.0M",
+          "base": "$6,100.0M",
+          "bull": "$11,800.0M",
+          "is_subtotal": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "12. Total Senior Unsecured Claims ($M)",
+          "floor": "$9,200.0M",
+          "base": "$9,200.0M",
+          "bull": "$9,200.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "13. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
+          "floor": "16.8% - 22.0%",
+          "base": "66.3%",
+          "bull": "100.0%",
+          "is_highlight": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "14. SENIOR UNSECURED RECOVERY PRICE (CENTS ON DOLLAR)",
+          "floor": "17.0c - 22.0c",
+          "base": "66.3c ($63 - $70c)",
+          "bull": "100.0c (Par)",
+          "is_highlight": true,
+          "color": "#fbbf24"
+        },
+        {
+          "step": "15. VALUE AVAILABLE TO SUBORDINATED 2081 HYBRID ($M / CENTS)",
+          "floor": "$0.0M (0.0c / Wiped Out)",
+          "base": "10.0% - 18.0% (14.0c)",
+          "bull": "40.0% - 55.0% (50.0c)",
+          "is_subtotal": true,
+          "color": "#c084fc"
+        },
+        {
+          "step": "16. VALUE REMAINING FOR EXISTING EQUITY (Novonor/Petrobras)",
+          "floor": "0% (Wiped Out)",
+          "base": "5% - 10% Stub Equity",
+          "bull": "Retained / Re-capitalized",
+          "is_subtotal": false
+        }
       ]
     },
     "capital_structure_tranches": [
@@ -82777,6 +82897,126 @@ window.CEMBI_DATA = {
           "base_recovery": "14.0c (14%)",
           "bull_recovery": "48.0c (48%)",
           "asymmetry": "-56.0% Downside (Avoid / Short)"
+        }
+      ],
+      "waterfall_steps": [
+        {
+          "step": "1. Operating Cash EBITDA ($M)",
+          "floor": "$800.0M (Trough)",
+          "base": "$1,400.0M (Mid-Cycle)",
+          "bull": "$1,800.0M (Peak Rebound)",
+          "is_subtotal": false
+        },
+        {
+          "step": "2. Implied EV / EBITDA Multiple",
+          "floor": "3.5x EV Multiple",
+          "base": "5.0x EV Multiple",
+          "bull": "5.5x EV Multiple",
+          "is_subtotal": false
+        },
+        {
+          "step": "3. Enterprise Value (EV)",
+          "floor": "$2,800.0M",
+          "base": "$7,000.0M",
+          "bull": "$9,900.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "4. Add: Balance Sheet Cash",
+          "floor": "$850.0M",
+          "base": "$900.0M",
+          "bull": "$1,100.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "5. Add: Sponsor Cash Equity Injection",
+          "floor": "$0.0M (None)",
+          "base": "$0.0M (Debt-funded)",
+          "bull": "$2,500.0M (Petrobras Cash)",
+          "is_subtotal": false
+        },
+        {
+          "step": "6. TOTAL DISTRIBUTABLE ASSET VALUE",
+          "floor": "$3,650.0M",
+          "base": "$7,900.0M",
+          "bull": "$13,500.0M",
+          "is_subtotal": true,
+          "color": "#38bdf8"
+        },
+        {
+          "step": "7. Less: Restructuring & Legal Advisor Fees",
+          "floor": "-$150.0M ($15M/mo bleed)",
+          "base": "-$100.0M (Consensual)",
+          "bull": "-$100.0M (Accelerated)",
+          "is_subtotal": false
+        },
+        {
+          "step": "8. Less: Priority PPE Bank Debt ($1,100M)",
+          "floor": "-$1,100.0M (100% Par)",
+          "base": "-$1,100.0M (100% Par)",
+          "bull": "-$1,100.0M (100% Par)",
+          "is_subtotal": false
+        },
+        {
+          "step": "9. Less: Maceió Settlement NPV Obligations",
+          "floor": "-$850.0M (Escalated claims)",
+          "base": "-$600.0M (Scheduled)",
+          "bull": "-$500.0M (State cap)",
+          "is_subtotal": false
+        },
+        {
+          "step": "10. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "floor": "-$2,100.0M",
+          "base": "-$1,800.0M",
+          "bull": "-$1,700.0M",
+          "is_subtotal": true,
+          "color": "#f87171"
+        },
+        {
+          "step": "11. NET VALUE AVAILABLE TO SENIOR UNSECURED BONDHOLDERS",
+          "floor": "$1,550.0M",
+          "base": "$6,100.0M",
+          "bull": "$11,800.0M",
+          "is_subtotal": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "12. Total Senior Unsecured Claims ($M)",
+          "floor": "$9,200.0M",
+          "base": "$9,200.0M",
+          "bull": "$9,200.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "13. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
+          "floor": "16.8% - 22.0%",
+          "base": "66.3%",
+          "bull": "100.0%",
+          "is_highlight": true,
+          "color": "#34d399"
+        },
+        {
+          "step": "14. SENIOR UNSECURED RECOVERY PRICE (CENTS ON DOLLAR)",
+          "floor": "17.0c - 22.0c",
+          "base": "66.3c ($63 - $70c)",
+          "bull": "100.0c (Par)",
+          "is_highlight": true,
+          "color": "#fbbf24"
+        },
+        {
+          "step": "15. VALUE AVAILABLE TO SUBORDINATED 2081 HYBRID ($M / CENTS)",
+          "floor": "$0.0M (0.0c / Wiped Out)",
+          "base": "10.0% - 18.0% (14.0c)",
+          "bull": "40.0% - 55.0% (50.0c)",
+          "is_subtotal": true,
+          "color": "#c084fc"
+        },
+        {
+          "step": "16. VALUE REMAINING FOR EXISTING EQUITY (Novonor/Petrobras)",
+          "floor": "0% (Wiped Out)",
+          "base": "5% - 10% Stub Equity",
+          "bull": "Retained / Re-capitalized",
+          "is_subtotal": false
         }
       ]
     },

@@ -2190,6 +2190,138 @@ function renderCovenantsAndRecovery() {
       ` : ''}
     </div>
   `;
+
+  // Render Full Step-by-Step Recovery Waterfall if available
+  const fullCard = document.getElementById('recovery-waterfall-full-card');
+  const fullContainer = document.getElementById('recovery-waterfall-table-container');
+
+  if (fullCard && fullContainer) {
+    const steps = rec.waterfall_steps || [];
+    if (steps.length > 0) {
+      fullCard.style.display = 'block';
+
+      // Step descriptions mapping for APR clarity
+      const stepDescriptions = [
+        "Normalized or cyclically adjusted recurring cash EBITDA baseline before non-cash provisions.",
+        "Market multiple applied to core operations based on historical petrochemical cycle medians and M&A comps.",
+        "Implied operational Enterprise Value (EBITDA × Multiple). Irreplaceable assets defend floor.",
+        "Unrestricted cash and liquid cash equivalents available on balance sheet at restructuring entry.",
+        "Committed fresh cash equity from sponsors (Petrobras / Novonor / IG4) to avoid liquidation.",
+        "Total enterprise value plus cash pool available for distribution across all claimant tiers.",
+        "Cumulative legal, restructuring, financial advisory, and trustee fees (bleeding ~$15M/month).",
+        "Export Pre-Payment (PPE) facilities & bilateral bank debt secured on export contracts (reinstated 100% par).",
+        "Net Present Value of remaining Alagoas State settlement and environmental obligations under Brazilian law.",
+        "Senior priority charges that must be satisfied in full prior to any distribution to bondholders.",
+        "Unencumbered distributable asset value directly available to satisfy General Unsecured Creditors.",
+        "Aggregate Senior Unsecured claims across 144A/RegS Eurobonds ($7.8B) and local Debentures ($1.4B).",
+        "Percentage of face value recovered under Absolute Priority Rule (Net Value Available ÷ Claims).",
+        "Trading and exit recovery valuation per bond (cents on the dollar) comparing floor vs base case vs bull.",
+        "Junior subordinated perpetual capital instrument. Contractually subordinated to all senior claims.",
+        "Residual value surviving for existing equity sponsors after all creditor tiers are satisfied."
+      ];
+
+      fullContainer.innerHTML = `
+        <!-- Visual APR Priority Flow Banner -->
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:20px; margin-top:10px;">
+          <div style="background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.3); border-radius:8px; padding:12px 14px;">
+            <div style="font-size:10px; text-transform:uppercase; color:#38bdf8; font-weight:700; letter-spacing:0.5px;">Tier 1: Distributable Pool</div>
+            <div style="font-size:18px; font-weight:800; color:#fff; font-family:'JetBrains Mono',monospace; margin-top:4px;">$7,900M</div>
+            <div style="font-size:11px; color:#94a3b8; margin-top:2px;">$7,000M Base EV + $900M Cash</div>
+          </div>
+          <div style="background:rgba(248,113,113,0.08); border:1px solid rgba(248,113,113,0.3); border-radius:8px; padding:12px 14px;">
+            <div style="font-size:10px; text-transform:uppercase; color:#f87171; font-weight:700; letter-spacing:0.5px;">Tier 2: Priority Claims</div>
+            <div style="font-size:18px; font-weight:800; color:#f87171; font-family:'JetBrains Mono',monospace; margin-top:4px;">-$1,800M</div>
+            <div style="font-size:11px; color:#94a3b8; margin-top:2px;">$1.1B PPE + $600M Maceió + $100M Fees</div>
+          </div>
+          <div style="background:rgba(52,211,153,0.08); border:1px solid rgba(52,211,153,0.3); border-radius:8px; padding:12px 14px;">
+            <div style="font-size:10px; text-transform:uppercase; color:#34d399; font-weight:700; letter-spacing:0.5px;">Tier 3: Available to Senior Debt</div>
+            <div style="font-size:18px; font-weight:800; color:#34d399; font-family:'JetBrains Mono',monospace; margin-top:4px;">$6,100M</div>
+            <div style="font-size:11px; color:#cbd5e1; margin-top:2px;"><strong>66.3c Recovery</strong> ($9.2B Claims)</div>
+          </div>
+          <div style="background:rgba(192,132,252,0.08); border:1px solid rgba(192,132,252,0.3); border-radius:8px; padding:12px 14px;">
+            <div style="font-size:10px; text-transform:uppercase; color:#c084fc; font-weight:700; letter-spacing:0.5px;">Tier 4: Subordinated &amp; Equity</div>
+            <div style="font-size:18px; font-weight:800; color:#c084fc; font-family:'JetBrains Mono',monospace; margin-top:4px;">$0 - $140M</div>
+            <div style="font-size:11px; color:#94a3b8; margin-top:2px;">10–18c Hybrid warrants / Stub Equity</div>
+          </div>
+        </div>
+
+        <!-- Waterfall Table -->
+        <div style="overflow-x:auto;">
+          <table class="tranche-table" style="width:100%; font-size:11.5px; border-collapse:collapse;">
+            <thead>
+              <tr style="background:#0f172a;">
+                <th style="padding:10px 12px; width:28%;">Step / Valuation Layer</th>
+                <th style="padding:10px 12px; text-align:right; width:17%; color:#f87171;">Scenario A: Stress Floor</th>
+                <th style="padding:10px 12px; text-align:right; width:18%; color:#34d399;">Scenario B: Base Case</th>
+                <th style="padding:10px 12px; text-align:right; width:17%; color:#38bdf8;">Scenario C: Bull Rebound</th>
+                <th style="padding:10px 12px; width:20%; color:#94a3b8;">APR Mechanics &amp; Legal Priority</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${steps.map((st, idx) => {
+                const isSub = st.is_subtotal;
+                const isHigh = st.is_highlight;
+                let rowBg = 'transparent';
+                let borderTop = '1px solid #1e293b';
+                let fontWeight = isSub || isHigh ? '700' : '400';
+
+                if (isHigh) {
+                  rowBg = 'rgba(251,191,36,0.07)';
+                  borderTop = '2px solid rgba(251,191,36,0.3)';
+                } else if (isSub) {
+                  rowBg = 'rgba(255,255,255,0.03)';
+                  borderTop = '1px solid #334155';
+                }
+
+                const desc = stepDescriptions[idx] || '';
+
+                return `
+                  <tr style="background:${rowBg}; border-top:${borderTop};">
+                    <td style="padding:9px 12px; font-weight:${fontWeight}; color:${isHigh ? '#fbbf24' : (isSub ? (st.color || '#fff') : '#cbd5e1')};">
+                      ${escapeHtml(st.step)}
+                    </td>
+                    <td style="padding:9px 12px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${isHigh ? '#f87171' : (isSub ? (st.color || '#f87171') : '#cbd5e1')};">
+                      ${escapeHtml(st.floor)}
+                    </td>
+                    <td style="padding:9px 12px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${isHigh ? '#34d399' : (isSub ? (st.color || '#34d399') : '#fff')};">
+                      ${escapeHtml(st.base)}
+                    </td>
+                    <td style="padding:9px 12px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${isHigh ? '#38bdf8' : (isSub ? (st.color || '#38bdf8') : '#93c5fd')};">
+                      ${escapeHtml(st.bull)}
+                    </td>
+                    <td style="padding:9px 12px; font-size:10.5px; color:#94a3b8; line-height:1.4;">
+                      ${escapeHtml(desc)}
+                    </td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Analytical Strategy Commentary Box -->
+        <div style="margin-top:18px; padding:14px 16px; background:#0b1329; border:1px solid #1e3a8a; border-radius:8px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px;">
+          <div style="flex:1; min-width:280px;">
+            <div style="font-weight:700; color:#38bdf8; font-size:12px; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
+              <span>💡</span> Desk Takeaway &amp; Capital Structure Strategy
+            </div>
+            <div style="font-size:11.5px; color:#cbd5e1; line-height:1.5;">
+              Under the Absolute Priority Rule, Senior Unsecured notes (2030s @ 48.6c / 2050s @ 44.7c) are backed by <strong>66.3c</strong> Base Case recovery value (+36% to +48% upside).
+              Conversely, the Subordinated Hybrid 2081 (trading at 31.8c) recovers only <strong>10c–18c</strong> via warrants, offering an asymmetric short/underweight opportunity.
+            </div>
+          </div>
+          <div>
+            <a href="braskem_calculator.html" class="btn-action btn-gold" style="font-size:11px; padding:8px 16px; font-weight:700; text-decoration:none; white-space:nowrap;">
+              Launch Restructuring Sandbox →
+            </a>
+          </div>
+        </div>
+      `;
+    } else {
+      fullCard.style.display = 'none';
+      fullContainer.innerHTML = '';
+    }
+  }
 }
 
 // ----------------- TAB 8: GUIDANCE & QUESTIONS -----------------
