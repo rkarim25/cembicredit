@@ -50,11 +50,13 @@ header {
   background: rgba(18, 24, 36, 0.95);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border-color);
-  height: var(--nav-height);
+  min-height: var(--nav-height);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24px;
+  padding: 8px 24px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .brand {

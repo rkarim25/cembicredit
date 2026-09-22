@@ -124,11 +124,11 @@ Update or create the structured research dossier in the Notion Research Database
 ### Step 6: Commit & Deploy Live to GitHub Pages
 ```powershell
 cd "C:\Users\Reza Karim\cembicredit"
-git add database/ js/issuers_data.js
+git add database/ js/issuers_data.js credit_news.json
 git commit -m "Process Notion Inbox: update <company> database, compile SQLite master & sync web [Automated]"
 git push origin main
 ```
-If relevant models or calculators were modified, mirror to `C:\Users\Reza Karim\Strategy` and push both repos.
+*Note: All EM macro, corporate credit models, calculators, and database persistence belong exclusively in `cembicredit`. Never deploy credit files to `Strategy`.*
 
 ---
 

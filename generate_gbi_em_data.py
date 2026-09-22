@@ -1,0 +1,1172 @@
+#!/usr/bin/env python3
+"""
+Generate gbi_em_data.json for GBI-EM Local Currency Sovereign Debt & FX Strategy Desk
+Strategy Dashboard (rkarim25.github.io/Strategy).
+Includes:
+- Real Rates Breakdown (Policy Rate, Trailing CPI, 12M Forward Inflation, Ex-Ante Math)
+- Terms of Trade (ToT) & REER Valuation Decision Quadrants
+- Geopolitical Transmission Channels & Dated Catalysts Calendar
+- Live Commodity Anchors & Macro Trade Recommendation Tracker
+"""
+
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+DATA_JSON = ROOT / "gbi_em_data.json"
+TRACKER_JSON = ROOT / "macro_trade_tracker.json"
+
+# Global Commodity & Macro Benchmark Anchors
+GLOBAL_MACRO_ANCHORS = {
+    "brent_crude": {
+        "value": 74.20,
+        "unit": "$/bbl",
+        "change_1d_pct": -1.2,
+        "comment": "Sub-$75 Brent acts as a disinflationary tailwind for net energy importers (India, South Africa, Turkey), but narrows fiscal revenue headroom for Colombia and Brazil.",
+    },
+    "copper": {
+        "value": 4.22,
+        "unit": "$/lb",
+        "change_1d_pct": +0.8,
+        "comment": "Resilient copper demand anchors Latin American mining terms of trade and capital goods imports.",
+    },
+    "gold": {
+        "value": 2580.00,
+        "unit": "$/oz",
+        "change_1d_pct": +1.4,
+        "comment": "All-time highs in gold provide massive external account support for South Africa (ZAR) mining exports and external buffers.",
+    },
+    "dxy_index": {
+        "value": 101.40,
+        "unit": "Index",
+        "change_1d_pct": -0.3,
+        "comment": "Subdued dollar index eases capital outflow pressures across emerging market currencies.",
+    },
+    "ust_10y": {
+        "value": 4.96,
+        "unit": "%",
+        "change_1d_bps": -1.4,
+        "comment": "Elevated US risk-free benchmark demands high sovereign real yield hurdle rates across GBI-EM local curves.",
+    },
+}
+
+COUNTRIES = {
+    "brazil": {
+        "id": "brazil",
+        "name": "Brazil",
+        "flag": "🇧🇷",
+        "currency": "BRL",
+        "region": "LatAm",
+        "credit_rating": "BB (S&P) / Ba2 (Moody's)",
+        "real_rate_breakdown": {
+            "policy_rate": 10.50,
+            "policy_rate_name": "Copom Selic Target Rate",
+            "trailing_cpi_yoy": 4.20,
+            "forward_inflation_12m": 3.90,
+            "forward_inflation_source": "Banco Central do Brasil Focus Survey (12M Ahead)",
+            "ex_ante_real_policy_rate": 6.60,
+            "ex_ante_math": "10.50% (Policy Rate) − 3.90% (12M Forward CPI) = +6.60%",
+            "yield_10y_nominal": 12.20,
+            "ex_ante_real_yield_10y": 8.30,
+            "ex_post_real_yield_10y": 8.00,
+            "ex_post_math": "12.20% (10Y Yield) − 4.20% (Trailing CPI) = +8.00%",
+        },
+        "tot_reer_framework": {
+            "reer_deviation_pct": -9.2,
+            "reer_valuation_tag": "Undervalued (-9.2% vs 10Y Real Mean)",
+            "terms_of_trade_index": 104.5,
+            "terms_of_trade_trend": "Neutral / Resilient (Commodity agriculture + oil)",
+            "current_account_pct_gdp": -1.8,
+            "fx_reserves_bn": 355.0,
+            "import_cover_months": 12.2,
+            "quadrant_id": "quadrant_2",
+            "quadrant_name": "Quadrant 2: High Real Rate + Cheap REER + High Carry",
+            "framework_recommendation": "Overweight 5Y Belly Rates (NTN-F 2029) Unhedged for carry or 3M NDF hedged to harvest +6.5% carry over SOFR without currency volatility.",
+        },
+        "rates": {
+            "policy_rate": 10.50,
+            "yield_10y": 12.20,
+            "yield_5y": 12.05,
+            "yield_2y": 11.75,
+            "cpi_yoy": 4.20,
+            "real_yield_10y": 8.00,
+            "ex_ante_real_rate": 6.60,
+            "stance": "Overweight Rates (Top Real Yield in EM)",
+            "curve_point": "5-Year Belly (Jan 2029)",
+            "instrument": "NTN-F 10.00% 01/01/2029 (Fixed-Rate Sovereign)",
+            "hedging_recommendation": "Unhedged for High Carry, or FX-Hedged via 3M USD/BRL NDF to Lock in ~12% Nominal",
+        },
+        "fx": {
+            "pair": "USD/BRL",
+            "spot": 5.48,
+            "sma50": 5.54,
+            "sma200": 5.28,
+            "rsi14": 46.2,
+            "carry_3m_ann": 10.2,
+            "reer_valuation": "-9.2% (Cheap)",
+            "stance": "Neutral / High Carry Buffer",
+        },
+        "macro_anchors": {
+            "net_oil_exposure": "+14% Net Energy Exporter (Petrobras royalties)",
+            "fx_reserves_bn": "$355.0B (12.2 months import cover)",
+            "current_account_pct_gdp": "-1.8% of GDP",
+            "fiscal_deficit_pct_gdp": "-7.2% of GDP (Fiscal target scrutiny)",
+            "key_commodity_metric": "Brent Crude: $74.20/bbl (Fiscal Breakeven: ~$65/bbl)",
+        },
+        "geopolitics": {
+            "headline_theme": "Fiscal Target Credibility, Petrobras Capital Allocation & BRICS Energy Trade",
+            "transmission_channel": "Government debates over primary budget surplus targets directly impact the DI curve risk premium. In contrast, massive foreign reserves ($355B) and agricultural/energy exports insulate the sovereign from external Middle East supply shocks.",
+            "macro_data_anchor": "Brent Crude: $74.20/bbl · FX Reserves: $355B (Fortress buffer against global liquidity shocks)",
+            "trade_influence": "High real yield (+6.6% ex-ante) provides an immense cushion against currency volatility. If domestic fiscal debates intensify or oil dips below $70/bbl, hedge BRL via 3M NDFs to lock in a pure ~6.5% carry spread over SOFR without currency drawdown risk.",
+        },
+        "executive_summary": (
+            "Brazil offers the highest real yields in the entire GBI-EM benchmark (~6.6% ex-ante real policy rate, 8.0% nominal ex-post), "
+            "providing an enormous margin of safety against currency volatility. The Copom central bank maintains an orthodox "
+            "stance amidst fiscal debate. The 5Y belly of the DI curve (NTN-F 2029) is the optimal risk-adjusted point, offering "
+            "steep roll-down. If currency volatility is a concern, hedging FX via 3M NDFs leaves an attractive ~6.5% carry spread over SOFR."
+        ),
+        "catalysts": [
+            {
+                "date": "2026-09-18",
+                "event": "Copom Monetary Policy Rate Decision",
+                "consensus": "Hold at 10.50% (Hawkish guidance on inflation expectations)",
+                "trade_implication": "Reaffirms commitment to inflation targeting; catalyst to lock in 12.05% 5Y yields.",
+            },
+            {
+                "date": "2026-09-25",
+                "event": "IPCA-15 Mid-Month CPI Release",
+                "consensus": "+0.22% MoM / 4.15% YoY",
+                "trade_implication": "Confirmation of sub-4.3% trajectory validates real yield buffer.",
+            },
+            {
+                "date": "2026-11-06",
+                "event": "Copom Rate Decision & Q4 Inflation Projections",
+                "consensus": "Hold at 10.50% or discuss potential terminal rate path",
+                "trade_implication": "Key signal for curve roll-down trade.",
+            },
+        ],
+        "sideways_condition": "If BRL trades in 5.40-5.60 range, clip high carry and avoid aggressive duration extensions beyond 5Y.",
+    },
+    "mexico": {
+        "id": "mexico",
+        "name": "Mexico",
+        "flag": "🇲🇽",
+        "currency": "MXN",
+        "region": "LatAm",
+        "credit_rating": "BBB (S&P) / Baa2 (Moody's)",
+        "real_rate_breakdown": {
+            "policy_rate": 10.50,
+            "policy_rate_name": "Banxico Target Rate (TIIE)",
+            "trailing_cpi_yoy": 5.00,
+            "forward_inflation_12m": 3.80,
+            "forward_inflation_source": "Banxico Survey of Economic Specialists (12M Ahead)",
+            "ex_ante_real_policy_rate": 6.70,
+            "ex_ante_math": "10.50% (Policy Rate) − 3.80% (12M Forward CPI) = +6.70%",
+            "yield_10y_nominal": 9.47,
+            "ex_ante_real_yield_10y": 5.67,
+            "ex_post_real_yield_10y": 4.47,
+            "ex_post_math": "9.47% (10Y Yield) − 5.00% (Trailing CPI) = +4.47%",
+        },
+        "tot_reer_framework": {
+            "reer_deviation_pct": +4.1,
+            "reer_valuation_tag": "Slightly Rich (+4.1% vs 10Y Real Mean)",
+            "terms_of_trade_index": 98.2,
+            "terms_of_trade_trend": "Pressured (US manufacturing slowdown & tariff threat)",
+            "current_account_pct_gdp": -1.2,
+            "fx_reserves_bn": 221.5,
+            "import_cover_months": 6.2,
+            "quadrant_id": "quadrant_3",
+            "quadrant_name": "Quadrant 3: High Real Rate + Rich REER + Vulnerable ToT",
+            "framework_recommendation": "Overweight 10Y M-Bonos strictly on an FX-Hedged basis or 2s10s curve flattener. Avoid unhedged MXN currency risk.",
+        },
+        "rates": {
+            "policy_rate": 10.50,
+            "yield_10y": 9.47,
+            "yield_5y": 9.25,
+            "yield_2y": 9.70,
+            "cpi_yoy": 5.00,
+            "real_yield_10y": 4.47,
+            "ex_ante_real_rate": 6.70,
+            "stance": "Neutral / Sideways Range (Flattener Bias)",
+            "curve_point": "10-Year Duration vs 2Y Short (2s10s Flattener)",
+            "instrument": "M-Bono 7.75% 13/11/2034 vs Short M-Bono Mar 2026",
+            "hedging_recommendation": "FX-Hedged Recommended (High political & US election tariff noise on MXN)",
+        },
+        "fx": {
+            "pair": "USD/MXN",
+            "spot": 19.32,
+            "sma50": 19.10,
+            "sma200": 17.85,
+            "rsi14": 57.4,
+            "carry_3m_ann": 9.8,
+            "reer_valuation": "+4.1% (Fair to Slightly Rich)",
+            "stance": "Sideways / Volatile Range",
+        },
+        "macro_anchors": {
+            "net_oil_exposure": "-2% Neutral (Pemex export decline offset by refined imports)",
+            "fx_reserves_bn": "$221.5B (6.2 months import cover)",
+            "current_account_pct_gdp": "-1.2% of GDP (Nearshoring FDI support)",
+            "fiscal_deficit_pct_gdp": "-5.0% of GDP (2024 election spending expansion)",
+            "key_commodity_metric": "US Manufacturing ISM: 47.2 (Direct correlation to Mexican cross-border factory demand)",
+        },
+        "geopolitics": {
+            "headline_theme": "US Election Protectionism, Universal Tariff Threats & Judicial Reform Volatility",
+            "transmission_channel": "USMCA 2026 review timeline and US campaign rhetoric targeting Mexican automotive and manufacturing exports with 10-20% universal tariffs directly inject risk premia into MXN. Domestic constitutional judicial reforms also create institutional friction.",
+            "macro_data_anchor": "US Export Dependency: 80% of exports destined for US · USD/MXN spot testing 19.32",
+            "trade_influence": "Because geopolitical tariff risk heavily penalizes spot currency holding, unhedged MXN exposure is vulnerable to sudden headline gaps. Trade recommendation: Express high 9.47% nominal M-Bono yields strictly on an FX-Hedged basis or via a 2s10s curve flattener.",
+        },
+        "executive_summary": (
+            "Mexico presents a classic divergence between high interest rate carry and elevated institutional uncertainty. "
+            "Banxico has cautiously initiated rate cuts, but judicial reform headlines and prospective USMCA tariff discussions "
+            "have driven USD/MXN from 16.50 up toward 19.30+. Nominal 10Y M-Bono yields near 9.50% are historically attractive, but "
+            "we recommend expressing this strictly on an FX-Hedged basis or via a 2s10s curve flattener to isolate Banxico's easing cycle."
+        ),
+        "catalysts": [
+            {
+                "date": "2026-09-26",
+                "event": "Banxico Monetary Policy Decision",
+                "consensus": "25bp cut to 10.25% (Paced, cautious easing)",
+                "trade_implication": "Steepens front-end rally; supports 2s10s flattener position.",
+            },
+            {
+                "date": "2026-10-09",
+                "event": "INEGI Headline & Core CPI Release",
+                "consensus": "4.85% YoY headline / 4.00% core",
+                "trade_implication": "Confirmation of core disinflation allows Banxico to maintain easing.",
+            },
+            {
+                "date": "2026-11-03",
+                "event": "US Presidential Election & Tariff Horizon",
+                "consensus": "Major geopolitical volatility catalyst for MXN",
+                "trade_implication": "Maintain strict FX hedges on all M-Bono positions into election week.",
+            },
+            {
+                "date": "2026-11-14",
+                "event": "Banxico Monetary Policy Meeting",
+                "consensus": "25bp cut to 10.00%",
+                "trade_implication": "Cumulative 50bp easing marks inflection for short-end yields.",
+            },
+        ],
+        "sideways_condition": "Market is currently sideways/rangebound (19.00 - 19.80). Avoid unhedged directional long MXN bets; focus on yield carry.",
+    },
+    "south_africa": {
+        "id": "south_africa",
+        "name": "South Africa",
+        "flag": "🇿🇦",
+        "currency": "ZAR",
+        "region": "EMEA",
+        "credit_rating": "BB- (S&P) / Ba2 (Moody's)",
+        "real_rate_breakdown": {
+            "policy_rate": 8.25,
+            "policy_rate_name": "SARB Repo Rate",
+            "trailing_cpi_yoy": 4.60,
+            "forward_inflation_12m": 4.35,
+            "forward_inflation_source": "Bureau for Economic Research (BER) Inflation Survey (12M Ahead)",
+            "ex_ante_real_policy_rate": 3.90,
+            "ex_ante_math": "8.25% (Policy Rate) − 4.35% (12M Forward CPI) = +3.90%",
+            "yield_10y_nominal": 9.15,
+            "ex_ante_real_yield_10y": 4.80,
+            "ex_post_real_yield_10y": 4.55,
+            "ex_post_math": "9.15% (10Y Yield) − 4.60% (Trailing CPI) = +4.55%",
+        },
+        "tot_reer_framework": {
+            "reer_deviation_pct": -14.5,
+            "reer_valuation_tag": "Extremely Undervalued (-14.5% vs 10Y Real Mean)",
+            "terms_of_trade_index": 112.8,
+            "terms_of_trade_trend": "Sharply Expanding (Gold $2,580/oz + Sub-$75 Brent oil)",
+            "current_account_pct_gdp": -1.6,
+            "fx_reserves_bn": 63.5,
+            "import_cover_months": 5.8,
+            "quadrant_id": "quadrant_1",
+            "quadrant_name": "Quadrant 1: High Real Rate + Deeply Undervalued REER + Expanding ToT",
+            "framework_recommendation": "Double Alpha: Unhedged Long 10Y SAGB R2035 (9.15%) + Long ZAR Currency targeting rally toward 17.20.",
+        },
+        "rates": {
+            "policy_rate": 8.25,
+            "yield_10y": 9.15,
+            "yield_5y": 8.55,
+            "yield_2y": 8.10,
+            "cpi_yoy": 4.60,
+            "real_yield_10y": 4.55,
+            "ex_ante_real_rate": 3.90,
+            "stance": "Overweight Rates & FX (Top Pick EMEA)",
+            "curve_point": "10-Year / Long End (R2035 Benchmark)",
+            "instrument": "SAGB 8.875% 28/02/2035 (R2035)",
+            "hedging_recommendation": "Unhedged (Capture Dual Tailwind of Sovereign Compression & ZAR Appreciation)",
+        },
+        "fx": {
+            "pair": "USD/ZAR",
+            "spot": 17.65,
+            "sma50": 17.95,
+            "sma200": 18.52,
+            "rsi14": 42.1,
+            "carry_3m_ann": 7.9,
+            "reer_valuation": "-14.5% (Extremely Undervalued)",
+            "stance": "Bullish ZAR",
+        },
+        "macro_anchors": {
+            "net_oil_exposure": "-18% Net Importer (Disinflationary fuel benefit)",
+            "fx_reserves_bn": "$63.5B (5.8 months import cover)",
+            "current_account_pct_gdp": "-1.6% of GDP",
+            "fiscal_deficit_pct_gdp": "-4.5% of GDP (Primary budget surplus achieved)",
+            "key_commodity_metric": "Gold: $2,580/oz (+1.4% 1D) · Platinum: $995/oz (Massive terms of trade boost)",
+        },
+        "geopolitics": {
+            "headline_theme": "GNU Coalition Stability, AGOA Trade Access & Critical Mineral Diplomacy",
+            "transmission_channel": "The historic Government of National Unity (GNU) uniting the ANC and business-friendly DA has dismantled the domestic political risk premium. Over 170 days without power cuts (loadshedding) has revitalized mining and logistics output. Record gold prices ($2,580/oz) provide massive current account tailwinds.",
+            "macro_data_anchor": "Gold: $2,580/oz (Record mining terms of trade) · Sub-$75 Brent oil slashes fuel import bills",
+            "trade_influence": "The confluence of GNU political stability, gold export windfall, and disinflation from lower oil prices creates the most potent unhedged long trade in GBI-EM. Trade recommendation: Unhedged Long 10Y SAGB R2035 (yielding 9.15%) targeting ZAR rally toward 17.20.",
+        },
+        "executive_summary": (
+            "South Africa is the premier turnaround story in GBI-EM following the formation of the Government of National Unity (GNU). "
+            "Structural power outages (loadshedding) have ceased for over 170 consecutive days, boosting GDP growth expectations. "
+            "Inflation has dropped toward the SARB's 4.5% midpoint, clearing the runway for easing. The 10Y SAGB (R2035) yields ~9.15% "
+            "with steep roll-down, and ZAR remains significantly undervalued on REER models. Unhedged long duration is our highest conviction EMEA call."
+        ),
+        "catalysts": [
+            {
+                "date": "2026-09-19",
+                "event": "SARB Monetary Policy Committee Interest Rate Cut",
+                "consensus": "25bp cut to 8.00% (Launch of easing cycle)",
+                "trade_implication": "Front-end confirmation of easing sparks bull steepening rally in R2035.",
+            },
+            {
+                "date": "2026-10-23",
+                "event": "Medium-Term Budget Policy Statement (MTBPS)",
+                "consensus": "Finance Minister Godongwana targets 4.3% deficit ceiling",
+                "trade_implication": "Fiscal consolidation proof point; sovereign rating outlook upgrades possible.",
+            },
+            {
+                "date": "2026-11-21",
+                "event": "SARB MPC Final 2026 Policy Decision",
+                "consensus": "25bp cut to 7.75%",
+                "trade_implication": "Cementing lower terminal rate profile.",
+            },
+        ],
+        "sideways_condition": "If USD/ZAR holds below 17.90 (200d SMA), bullish trend remains intact with a target of 17.20.",
+    },
+    "indonesia": {
+        "id": "indonesia",
+        "name": "Indonesia",
+        "flag": "🇮🇩",
+        "currency": "IDR",
+        "region": "Asia",
+        "credit_rating": "BBB (S&P) / Baa2 (Moody's)",
+        "real_rate_breakdown": {
+            "policy_rate": 6.25,
+            "policy_rate_name": "Bank Indonesia 7-Day Reverse Repo",
+            "trailing_cpi_yoy": 2.12,
+            "forward_inflation_12m": 2.40,
+            "forward_inflation_source": "Bank Indonesia Consensus Inflation Forecast (12M Ahead)",
+            "ex_ante_real_policy_rate": 3.85,
+            "ex_ante_math": "6.25% (Policy Rate) − 2.40% (12M Forward CPI) = +3.85%",
+            "yield_10y_nominal": 6.55,
+            "ex_ante_real_yield_10y": 4.15,
+            "ex_post_real_yield_10y": 4.43,
+            "ex_post_math": "6.55% (10Y Yield) − 2.12% (Trailing CPI) = +4.43%",
+        },
+        "tot_reer_framework": {
+            "reer_deviation_pct": -3.2,
+            "reer_valuation_tag": "Fair Value (-3.2% vs 10Y Real Mean)",
+            "terms_of_trade_index": 102.0,
+            "terms_of_trade_trend": "Stable (Nickel downstreaming volumes offset coal price soften)",
+            "current_account_pct_gdp": -0.9,
+            "fx_reserves_bn": 150.2,
+            "import_cover_months": 6.5,
+            "quadrant_id": "quadrant_2",
+            "quadrant_name": "Quadrant 2: Subdued Inflation + Solid Real Yield + Moderate CA Deficit",
+            "framework_recommendation": "Overweight 10Y SUN FR0100 on an FX-Hedged basis via NDFs to lock in 6.55% yield without IDR currency drift.",
+        },
+        "rates": {
+            "policy_rate": 6.25,
+            "yield_10y": 6.55,
+            "yield_5y": 6.40,
+            "yield_2y": 6.30,
+            "cpi_yoy": 2.12,
+            "real_yield_10y": 4.43,
+            "ex_ante_real_rate": 3.85,
+            "stance": "Overweight Rates (FX-Hedged) / Neutral FX",
+            "curve_point": "10-Year Benchmark (FR0100)",
+            "instrument": "Surat Utang Negara (SUN) Series FR0100 6.625% 15/02/2034",
+            "hedging_recommendation": "FX-Hedged via USD/IDR NDF (Current Account deficit transition implies IDR drift)",
+        },
+        "fx": {
+            "pair": "USD/IDR",
+            "spot": 15410,
+            "sma50": 15720,
+            "sma200": 15840,
+            "rsi14": 44.0,
+            "carry_3m_ann": 5.8,
+            "reer_valuation": "-3.2% (Fair Value)",
+            "stance": "Neutral / Sideways",
+        },
+        "macro_anchors": {
+            "net_oil_exposure": "-15% Net Oil Importer (Offset by Coal & Nickel exports)",
+            "fx_reserves_bn": "$150.2B (6.5 months import cover)",
+            "current_account_pct_gdp": "-0.9% of GDP (Mild deficit transition)",
+            "fiscal_deficit_pct_gdp": "-2.7% of GDP (Strict 3% statutory ceiling intact)",
+            "key_commodity_metric": "LME Nickel: $16,200/MT · Thermal Coal: $138/MT",
+        },
+        "geopolitics": {
+            "headline_theme": "Commodity Downstreaming Mandates & US-China Polarization in Malacca Strait",
+            "transmission_channel": "Indonesia's mineral downstreaming policy (banning unprocessed nickel and bauxite exports) has drawn billions in Chinese processing capital. Bilateral negotiations for a US Critical Minerals Agreement aim to ensure IRA subsidy access. Strait of Malacca maritime shipping stability is vital for energy transit.",
+            "macro_data_anchor": "Nickel Processing Dominance: >50% of global refined nickel output · FX Reserves: $150.2B",
+            "trade_influence": "Headline CPI is exceptionally stable at 2.12%, giving Bank Indonesia scope to ease. However, expanding capital goods imports for infrastructure create a mild current account deficit. Trade recommendation: Overweight 10Y SUN bonds (FR0100 yielding 6.55%) on an FX-Hedged basis.",
+        },
+        "executive_summary": (
+            "Indonesia boasts exceptional price stability, with headline CPI at just 2.12%, giving Bank Indonesia (BI) substantial "
+            "headroom to cut policy rates. Foreign ownership of government bonds (SUN) is historically low (~14%), providing "
+            "technical headroom for inflows as global rates ease. However, transition to a modest current account deficit under "
+            "the incoming administration's fiscal spending plans warrants hedging IDR currency risk via NDFs."
+        ),
+        "catalysts": [
+            {
+                "date": "2026-09-18",
+                "event": "Bank Indonesia Board of Governors Rate Decision",
+                "consensus": "Hold at 6.25% (Dovish tone pending Fed cut)",
+                "trade_implication": "Greenlight for bond duration rally.",
+            },
+            {
+                "date": "2026-10-01",
+                "event": "BPS Monthly Inflation & Trade Balance",
+                "consensus": "2.10% YoY CPI / Trade surplus +$2.5B",
+                "trade_implication": "Validates low inflation thesis.",
+            },
+            {
+                "date": "2026-10-20",
+                "event": "Presidential Inauguration & Economic Cabinet Announcement",
+                "consensus": "Fiscal discipline commitment confirmed",
+                "trade_implication": "Removes fiscal expansion overhang on SUN curve.",
+            },
+        ],
+        "sideways_condition": "USD/IDR trading within 15,300 - 15,600 band. Rangebound carry play.",
+    },
+    "poland": {
+        "id": "poland",
+        "name": "Poland",
+        "flag": "🇵🇱",
+        "currency": "PLN",
+        "region": "EMEA",
+        "credit_rating": "A- (S&P) / A2 (Moody's)",
+        "real_rate_breakdown": {
+            "policy_rate": 5.75,
+            "policy_rate_name": "NBP Reference Rate",
+            "trailing_cpi_yoy": 4.30,
+            "forward_inflation_12m": 3.70,
+            "forward_inflation_source": "NBP Survey of Professional Forecasters (12M Ahead)",
+            "ex_ante_real_policy_rate": 2.05,
+            "ex_ante_math": "5.75% (Policy Rate) − 3.70% (12M Forward CPI) = +2.05%",
+            "yield_10y_nominal": 5.35,
+            "ex_ante_real_yield_10y": 1.65,
+            "ex_post_real_yield_10y": 1.05,
+            "ex_post_math": "5.35% (10Y Yield) − 4.30% (Trailing CPI) = +1.05%",
+        },
+        "tot_reer_framework": {
+            "reer_deviation_pct": +2.0,
+            "reer_valuation_tag": "Fair Value (+2.0% vs 10Y Real Mean)",
+            "terms_of_trade_index": 99.5,
+            "terms_of_trade_trend": "Stable / Capital Inflow Dominated (€60B+ EU KPO Funds)",
+            "current_account_pct_gdp": +1.1,
+            "fx_reserves_bn": 212.0,
+            "import_cover_months": 6.0,
+            "quadrant_id": "quadrant_4",
+            "quadrant_name": "Quadrant 4: Low Real Rate + Heavy Defense Supply + EU Capital Windfall",
+            "framework_recommendation": "Long PLN vs EUR to harvest structural EU convergence flows; Underweight domestic POLGB bond duration.",
+        },
+        "rates": {
+            "policy_rate": 5.75,
+            "yield_10y": 5.35,
+            "yield_5y": 5.20,
+            "yield_2y": 4.95,
+            "cpi_yoy": 4.30,
+            "real_yield_10y": 1.05,
+            "ex_ante_real_rate": 2.05,
+            "stance": "Underweight Rates / Bullish PLN vs EUR",
+            "curve_point": "Short 5Y POLGB vs Long German Bunds; Long PLN vs EUR",
+            "instrument": "POLGB 5.75% 25/04/2029 (DS0429)",
+            "hedging_recommendation": "Long PLN currency vs EUR; Avoid domestic unhedged duration",
+        },
+        "fx": {
+            "pair": "EUR/PLN",
+            "spot": 4.28,
+            "sma50": 4.29,
+            "sma200": 4.31,
+            "rsi14": 47.0,
+            "carry_3m_ann": 3.8,
+            "reer_valuation": "+2.0% (Fair)",
+            "stance": "Bullish PLN (Structural Fund Inflows)",
+        },
+        "macro_anchors": {
+            "net_oil_exposure": "-100% Net Energy Importer (Transitioning to US LNG & Baltic Pipe)",
+            "fx_reserves_bn": "$212.0B (6.0 months import cover)",
+            "current_account_pct_gdp": "+1.1% of GDP (Current Account Surplus)",
+            "fiscal_deficit_pct_gdp": "-5.5% of GDP (Heavy defense spending)",
+            "key_commodity_metric": "TTF Natural Gas: €36.50/MWh · Brent: $74.20/bbl",
+        },
+        "geopolitics": {
+            "headline_theme": "NATO Eastern Flank Defense Burden, Russia-Ukraine Proximity & EU Fund Flows",
+            "transmission_channel": "Poland leads NATO with defense expenditure exceeding 4.7% of GDP, requiring heavy bond issuance that crowds out local debt yields. Conversely, normalized EU relations have unlocked €60B+ in EU KPO funds, providing direct hard currency inflows that strongly support the Zloty.",
+            "macro_data_anchor": "Defense Spending: 4.7% of GDP · EU KPO Funds Inflow: €60B+ scheduled through 2026",
+            "trade_influence": "Massive government defense borrowing depresses POLGB real yields to only 1.05% (least attractive in GBI-EM). Trade recommendation: Underweight local bond duration while executing Long PLN vs EUR to harvest structural EU convergence flows.",
+        },
+        "executive_summary": (
+            "Poland has the slimmest real yields in GBI-EM (~1.05% on 10Y), rendering local bonds unappealing compared to LatAm or "
+            "South Africa. The Monetary Policy Council (NBP) remains hawkish due to unfreezing energy prices, keeping policy rates "
+            "at 5.75%. Conversely, substantial EU Recovery Fund disbursements provide powerful balance-of-payments support for the Zloty. "
+            "The trade is Long PLN vs EUR, while underweighting domestic bond duration."
+        ),
+        "catalysts": [
+            {
+                "date": "2026-10-02",
+                "event": "NBP Monetary Policy Council Decision",
+                "consensus": "Hold at 5.75% (Hawkish hold on energy tariff unfreezing)",
+                "trade_implication": "Maintains high carry buffer vs ECB cuts.",
+            },
+            {
+                "date": "2026-10-15",
+                "event": "2027 Draft Budget Deficit Submission to EU",
+                "consensus": "Fiscal deficit around 5.4% GDP",
+                "trade_implication": "Highlights heavy bond supply; affirms underweight rates stance.",
+            },
+            {
+                "date": "2026-11-06",
+                "event": "NBP Rate Decision & Inflation Projection Report",
+                "consensus": "Hold at 5.75%",
+                "trade_implication": "Confirms prolonged pause into mid-2025.",
+            },
+        ],
+        "sideways_condition": "EUR/PLN is pinned tightly around 4.26-4.30. Low volatility carry collector.",
+    },
+    "india": {
+        "id": "india",
+        "name": "India",
+        "flag": "🇮🇳",
+        "currency": "INR",
+        "region": "Asia",
+        "credit_rating": "BBB- (S&P) / Baa3 (Moody's)",
+        "real_rate_breakdown": {
+            "policy_rate": 6.50,
+            "policy_rate_name": "RBI Repo Rate",
+            "trailing_cpi_yoy": 3.65,
+            "forward_inflation_12m": 4.10,
+            "forward_inflation_source": "RBI Survey of Professional Forecasters (12M Ahead)",
+            "ex_ante_real_policy_rate": 2.40,
+            "ex_ante_math": "6.50% (Policy Rate) − 4.10% (12M Forward CPI) = +2.40%",
+            "yield_10y_nominal": 6.78,
+            "ex_ante_real_yield_10y": 2.68,
+            "ex_post_real_yield_10y": 3.13,
+            "ex_post_math": "6.78% (10Y Yield) − 3.65% (Trailing CPI) = +3.13%",
+        },
+        "tot_reer_framework": {
+            "reer_deviation_pct": +3.5,
+            "reer_valuation_tag": "Slightly Rich / Managed (+3.5% vs 10Y Real Mean)",
+            "terms_of_trade_index": 96.0,
+            "terms_of_trade_trend": "Vulnerable to Oil Surges (85% crude imported)",
+            "current_account_pct_gdp": -1.2,
+            "fx_reserves_bn": 683.0,
+            "import_cover_months": 11.5,
+            "quadrant_id": "quadrant_4",
+            "quadrant_name": "Quadrant 4: Managed Currency Anchor + Passive Index Inflows ($2B/mo)",
+            "framework_recommendation": "Unhedged Long 10Y IGB (7.18% GS 2033) FAR Category. RBI pins USD/INR in ultra-tight range, transforming IGB into a low-volatility 6.78% dollar carry proxy.",
+        },
+        "rates": {
+            "policy_rate": 6.50,
+            "yield_10y": 6.78,
+            "yield_5y": 6.72,
+            "yield_2y": 6.65,
+            "cpi_yoy": 3.65,
+            "real_yield_10y": 3.13,
+            "ex_ante_real_rate": 2.40,
+            "stance": "Overweight Rates / Steady Low-Vol FX Carry",
+            "curve_point": "10-Year Benchmark (7.18% GS 2033)",
+            "instrument": "Indian Government Bond (IGB) 7.18% 14/08/2033 (FAR Category)",
+            "hedging_recommendation": "Unhedged (RBI suppresses INR volatility; capture full 6.78% yield)",
+        },
+        "fx": {
+            "pair": "USD/INR",
+            "spot": 83.88,
+            "sma50": 83.82,
+            "sma200": 83.45,
+            "rsi14": 58.0,
+            "carry_3m_ann": 4.5,
+            "reer_valuation": "+3.5% (Stable Peg-like)",
+            "stance": "Ultra-Low Volatility Carry",
+        },
+        "macro_anchors": {
+            "net_oil_exposure": "-85% Heavily Dependent on Imported Crude (Key sensitivity: +$10/bbl oil = -0.5% GDP current account)",
+            "fx_reserves_bn": "$683.0B (All-time high fortress; 11.5 months cover)",
+            "current_account_pct_gdp": "-1.2% of GDP (Comfortably within 2.5% threshold)",
+            "fiscal_deficit_pct_gdp": "-4.9% of GDP (Glide path toward 4.5% FY26)",
+            "key_commodity_metric": "Brent Crude: $74.20/bbl · Russian Urals Discount: ~$12/bbl",
+        },
+        "geopolitics": {
+            "headline_theme": "Middle East Hormuz Chokepoint Sensitivity vs Strategic Autonomy & Russian Crude Inflows",
+            "transmission_channel": "India imports ~85% of crude oil needs; any Middle East conflict expanding to the Strait of Hormuz directly threatens domestic fuel inflation and trade deficits. However, strategic autonomy enables discounted Russian crude imports (~35% of total), while the RBI maintains a record $683B reserve stockpile to suppress rupee volatility.",
+            "macro_data_anchor": "Crude Import Dependency: 85% · RBI FX Reserves: $683B (World's 4th largest buffer)",
+            "trade_influence": "Phased 10% weight inclusion in the J.P. Morgan GBI-EM index delivers $2B/month of passive institutional buying. Because the RBI pins USD/INR tightly around 83.70-84.00, 10Y IGB functions as an unhedged quasi-dollar carry asset yielding 6.78%.",
+        },
+        "executive_summary": (
+            "India is the anchor asset of the GBI-EM universe following its phased 10% weight inclusion in the J.P. Morgan GBI-EM "
+            "Global Diversified index. Foreign institutional inflows have averaged ~$2B/month through the Fully Accessible Route (FAR). "
+            "The Reserve Bank of India (RBI) aggressively manages the rupee in an extremely narrow band (83.70 - 83.95), effectively "
+            "converting IGBs into a low-volatility 6.8% dollar-equivalent carry asset. Unhedged 10Y IGB is an essential core allocation."
+        ),
+        "catalysts": [
+            {
+                "date": "2026-10-09",
+                "event": "RBI Monetary Policy Committee Meeting",
+                "consensus": "Hold repo rate at 6.50%; shift stance to Neutral",
+                "trade_implication": "Official start of policy pivot; bull steepening trigger for IGBs.",
+            },
+            {
+                "date": "2026-10-12",
+                "event": "MoSPI Headline CPI Release",
+                "consensus": "3.55% YoY (Within RBI 4% midpoint target)",
+                "trade_implication": "Low inflation cements real yield advantage.",
+            },
+            {
+                "date": "2026-11-30",
+                "event": "J.P. Morgan GBI-EM Index Weight Tranche 6 Inclusion",
+                "consensus": "Monthly +1% index weight addition (~$2.2B passive inflow)",
+                "trade_implication": "Guaranteed index inflow support for FAR bonds.",
+            },
+        ],
+        "sideways_condition": "USD/INR is artificially pinned by RBI intervention. Pristine sideways carry environment.",
+    },
+    "colombia": {
+        "id": "colombia",
+        "name": "Colombia",
+        "flag": "🇨🇴",
+        "currency": "COP",
+        "region": "LatAm",
+        "credit_rating": "BB+ (S&P) / Baa2 (Moody's)",
+        "real_rate_breakdown": {
+            "policy_rate": 10.75,
+            "policy_rate_name": "BanRep Overnight Intervention Rate",
+            "trailing_cpi_yoy": 6.12,
+            "forward_inflation_12m": 4.80,
+            "forward_inflation_source": "Banco de la República Monthly Economic Survey (12M Ahead)",
+            "ex_ante_real_policy_rate": 5.95,
+            "ex_ante_math": "10.75% (Policy Rate) − 4.80% (12M Forward CPI) = +5.95%",
+            "yield_10y_nominal": 10.50,
+            "ex_ante_real_yield_10y": 5.70,
+            "ex_post_real_yield_10y": 4.38,
+            "ex_post_math": "10.50% (10Y Yield) − 6.12% (Trailing CPI) = +4.38%",
+        },
+        "tot_reer_framework": {
+            "reer_deviation_pct": -4.8,
+            "reer_valuation_tag": "Slightly Undervalued (-4.8% vs 10Y Real Mean)",
+            "terms_of_trade_index": 101.5,
+            "terms_of_trade_trend": "Volatile / Brent Sensitive (Oil & coal 50% exports)",
+            "current_account_pct_gdp": -2.4,
+            "fx_reserves_bn": 59.5,
+            "import_cover_months": 6.8,
+            "quadrant_id": "quadrant_3",
+            "quadrant_name": "Quadrant 3: High Real Yield + Oil Sensitivity + Fiscal Rule Tension",
+            "framework_recommendation": "FX-Hedged 5Y TES (Nov 2029 yielding 10.15%). Use long COP strictly as an opportunistic tactical hedge against Middle East energy price shocks.",
+        },
+        "rates": {
+            "policy_rate": 10.75,
+            "yield_10y": 10.50,
+            "yield_5y": 10.15,
+            "yield_2y": 9.80,
+            "cpi_yoy": 6.12,
+            "real_yield_10y": 4.38,
+            "ex_ante_real_rate": 5.95,
+            "stance": "Sideways Range / Selective Belly Carry",
+            "curve_point": "5-Year TES (Nov 2029)",
+            "instrument": "TES B 10.75% 28/11/2029",
+            "hedging_recommendation": "FX-Hedged (Oil price volatility and fiscal deficit debate pressure COP)",
+        },
+        "fx": {
+            "pair": "USD/COP",
+            "spot": 4210,
+            "sma50": 4120,
+            "sma200": 3980,
+            "rsi14": 62.5,
+            "carry_3m_ann": 9.2,
+            "reer_valuation": "-4.8% (Slightly Cheap)",
+            "stance": "Neutral / Sideways Volatility",
+        },
+        "macro_anchors": {
+            "net_oil_exposure": "+38% of Total Exports (Highly sensitive to Brent Crude)",
+            "fx_reserves_bn": "$59.5B (6.8 months import cover)",
+            "current_account_pct_gdp": "-2.4% of GDP",
+            "fiscal_deficit_pct_gdp": "-5.6% of GDP (Fiscal Rule CARF committee tension)",
+            "key_commodity_metric": "Brent Crude: $74.20/bbl (Breakeven ~$70/bbl for oil tax revenue)",
+        },
+        "geopolitics": {
+            "headline_theme": "Hydrocarbon Exploration Moratoriums & Fiscal Rule Sustainability Debates",
+            "transmission_channel": "Government policy halts new oil/gas exploration contracts, challenging long-term fiscal royalties and external energy export generation. Oil price fluctuations transmit directly into the Colombian Peso.",
+            "macro_data_anchor": "Oil Share of Exports: ~40% · Fiscal Deficit: -5.6% GDP",
+            "trade_influence": "Sub-$75 oil strains fiscal accounts and limits BanRep's rate cut trajectory. Trade recommendation: Clip high 10.15% nominal yields in the 5Y TES belly on an FX-Hedged basis, using unhedged long COP strictly as an opportunistic tactical hedge against Middle East energy price surges.",
+        },
+        "executive_summary": (
+            "Colombia offers high nominal yields (~10.50%) and double-digit policy rates (10.75%), but fiscal rule flexibility "
+            "debates and oil production decline risks create drag. While carry is attractive, COP is prone to sudden headline "
+            "depreciation spikes. We classify Colombia as Sideways Range: clip carry in the 5Y TES belly on an FX-hedged basis, "
+            "with tight stop losses on unhedged exposure above 4,300 on USD/COP."
+        ),
+        "catalysts": [
+            {
+                "date": "2026-09-30",
+                "event": "BanRep Board of Directors Rate Decision",
+                "consensus": "50bp cut to 10.25% (Pacing acceleration)",
+                "trade_implication": "Bullish for 5Y TES belly duration.",
+            },
+            {
+                "date": "2026-10-05",
+                "event": "DANE CPI Inflation Release",
+                "consensus": "5.95% YoY (Slowing toward 5% handle)",
+                "trade_implication": "Reinforces easing path.",
+            },
+            {
+                "date": "2026-10-31",
+                "event": "BanRep Monetary Policy Report & Rate Decision",
+                "consensus": "50bp cut to 9.75%",
+                "trade_implication": "Critical test of policy accommodation rate.",
+            },
+        ],
+        "sideways_condition": "Market is sideways/choppy between 4,050 and 4,300 USD/COP. Stand aside or hedge.",
+    },
+    "turkey": {
+        "id": "turkey",
+        "name": "Turkey",
+        "flag": "🇹🇷",
+        "currency": "TRY",
+        "region": "EMEA",
+        "credit_rating": "BB- (S&P) / B1 (Moody's)",
+        "real_rate_breakdown": {
+            "policy_rate": 50.00,
+            "policy_rate_name": "TCMB 1-Week Repo Auction Rate",
+            "trailing_cpi_yoy": 51.97,
+            "forward_inflation_12m": 28.50,
+            "forward_inflation_source": "TCMB Survey of Market Participants (12M Ahead)",
+            "ex_ante_real_policy_rate": 21.50,
+            "ex_ante_math": "50.00% (Policy Rate) − 28.50% (12M Forward CPI) = +21.50%",
+            "yield_10y_nominal": 32.50,
+            "ex_ante_real_yield_10y": 4.00,
+            "ex_post_real_yield_10y": -19.47,
+            "ex_post_math": "32.50% (10Y Yield) − 51.97% (Trailing CPI) = -19.47%",
+        },
+        "tot_reer_framework": {
+            "reer_deviation_pct": +12.0,
+            "reer_valuation_tag": "Significantly Rich (+12.0% driven by high domestic inflation)",
+            "terms_of_trade_index": 91.5,
+            "terms_of_trade_trend": "Pressured by Energy Import Dependence",
+            "current_account_pct_gdp": -1.8,
+            "fx_reserves_bn": 153.0,
+            "import_cover_months": 5.2,
+            "quadrant_id": "quadrant_hypercarry",
+            "quadrant_name": "Special Regime: Hyper-Carry Front-End Roll (50% Nominal / +21.5% Ex-Ante)",
+            "framework_recommendation": "1M - 3M Short-Dated Turkish Treasury Bills / TRY Cash Deposits Unhedged. 50% nominal carry comfortably beats the controlled ~20-25% annual TRY crawl.",
+        },
+        "rates": {
+            "policy_rate": 50.00,
+            "yield_10y": 32.50,
+            "yield_5y": 36.80,
+            "yield_2y": 42.10,
+            "cpi_yoy": 51.97,
+            "real_yield_10y": -19.47,
+            "ex_ante_real_rate": 21.50,
+            "stance": "Ultra-Short Carry Only / Avoid Long-End Duration",
+            "curve_point": "1M - 3M Front-End Deposits & T-Bills",
+            "instrument": "Short-dated Turkish Treasury Bills / TRY Cash Deposits",
+            "hedging_recommendation": "Unhedged Short-Term Roll (50% annualized nominal carry exceeds 25-30% annualized TRY depreciation)",
+        },
+        "fx": {
+            "pair": "USD/TRY",
+            "spot": 33.95,
+            "sma50": 33.50,
+            "sma200": 32.10,
+            "rsi14": 68.0,
+            "carry_3m_ann": 44.0,
+            "reer_valuation": "+12.0% (Real Appreciation Driven by Inflation)",
+            "stance": "Controlled Depreciation (High Carry Play)",
+        },
+        "macro_anchors": {
+            "net_oil_exposure": "-95% Net Energy Importer (Every $10/bbl crude adds ~$4B to import bill)",
+            "fx_reserves_bn": "$153.0B (Gross; Net reserves positive at +$45B)",
+            "current_account_pct_gdp": "-1.8% of GDP (Rapid deficit narrowing)",
+            "fiscal_deficit_pct_gdp": "-5.2% of GDP (Earthquake recovery spending)",
+            "key_commodity_metric": "Brent Crude: $74.20/bbl · Gold: $2,580/oz",
+        },
+        "geopolitics": {
+            "headline_theme": "NATO-Russia Balancing Act, Middle East Diplomacy & Gulf FDI Swap Inflows",
+            "transmission_channel": "Turkey balances NATO commitments with Russian energy trade while normalizing ties with Gulf monarchies (UAE, Saudi Arabia), unlocking over $50B in swap lines and direct capital flows that anchor the central bank's foreign exchange reserves.",
+            "macro_data_anchor": "Net Energy Import Burden: ~$50B/year · TCMB Total Reserves: $153B",
+            "trade_influence": "Return to orthodox monetary policy under Minister Simsek and Governor Karahan has rebuilt reserve buffers. Inverted curve (10Y at 32.5% vs 2Y at 42.1%) offers unanchored long duration. Trade recommendation: Harvest ~50% annualized yield strictly in 1M-3M cash/T-bills, as carry comfortably outpaces the controlled 20-25% annual currency slide.",
+        },
+        "executive_summary": (
+            "Turkey's transition to orthodox economic management under Minister Simsek and TCMB Governor Karahan has rebuilt foreign "
+            "exchange reserves to record highs and triggered sovereign credit upgrades. While nominal headline inflation is ~52%, "
+            "it is rapidly decelerating toward ~38% year-end. Long-end bonds (10Y at 32.5%) have deeply inverted curves and unanchored "
+            "term premiums. The trade is strictly 1M to 3M front-end cash carry (earning ~45-50% annualized) where carry comfortably "
+            "outpaces the controlled ~20-25% annual pace of currency depreciation."
+        ),
+        "catalysts": [
+            {
+                "date": "2026-09-19",
+                "event": "TCMB Monetary Policy Committee Policy Rate Decision",
+                "consensus": "Hold 1-week repo at 50.00% (Hawkish hold)",
+                "trade_implication": "Maintains world-leading front-end carry cushion.",
+            },
+            {
+                "date": "2026-10-03",
+                "event": "TurkStat Monthly CPI Release",
+                "consensus": "48.2% YoY headline (Deceleration confirmed)",
+                "trade_implication": "Validates disinflation pathway.",
+            },
+            {
+                "date": "2026-10-17",
+                "event": "TCMB Rate Decision & Q4 Inflation Assessment",
+                "consensus": "Hold at 50.00%",
+                "trade_implication": "Preserves short-end carry roll.",
+            },
+        ],
+        "sideways_condition": "USD/TRY crawls upward in a controlled linear slope. Continuous roll required.",
+    },
+}
+
+# Cross-Desk Geopolitical Risk Matrix
+GEOPOLITICAL_RISK_MATRIX = {
+    "energy_shock_hormuz": {
+        "title": "Middle East Energy Shock & Strait of Hormuz Chokepoint",
+        "macro_metric": "Brent Crude ($74.20/bbl)",
+        "winners": ["Colombia (COP)", "Brazil (BRL)"],
+        "losers": ["India (INR)", "South Africa (ZAR)", "Turkey (TRY)"],
+        "neutral": ["Indonesia (IDR)", "Poland (PLN)"],
+        "strategic_guidance": "Every $10/bbl surge in Brent expands LatAm terms of trade while widening India's current account by 0.5% GDP. Long Colombia COP serves as an organic portfolio hedge against Middle East energy spikes.",
+    },
+    "us_election_tariffs": {
+        "title": "US Election Protectionism & 10-20% Universal Tariffs",
+        "macro_metric": "US Dollar Index (DXY 101.40) & US 10Y (4.96%)",
+        "winners": ["India (Domestic demand / service exports)", "South Africa (Commodity insulation)"],
+        "losers": ["Mexico (MXN manufacturing supply chain)", "Poland (German export linkage)"],
+        "neutral": ["Brazil (BRL)", "Indonesia (IDR)"],
+        "strategic_guidance": "Looming USMCA review requires strict FX hedging on Mexican M-Bonos to isolate domestic interest rate carry without unhedged currency beta.",
+    },
+    "eastern_flank_defense": {
+        "title": "NATO Eastern Flank Defense Burden & Russia-Ukraine War",
+        "macro_metric": "Poland Defense Spending (4.7% of GDP)",
+        "winners": ["Poland Zloty (via €60B+ EU Recovery Fund disbursements)"],
+        "losers": ["Poland Local Sovereign Bonds (Heavy supply crowding out real yields)"],
+        "neutral": ["LatAm & Asia GBI-EM"],
+        "strategic_guidance": "Long PLN vs EUR captures sovereign EU structural conversion flows, while underweighting domestic bond duration.",
+    },
+}
+
+# ToT & REER Valuation Quadrants Matrix
+TOT_REER_QUADRANT_MATRIX = [
+    {
+        "quadrant": "Quadrant 1: Double Alpha",
+        "theme": "High Real Rate + Deeply Undervalued REER + Expanding ToT",
+        "countries": ["South Africa (ZAR)"],
+        "macro_driver": "Gold at record $2,580/oz + ZAR undervalued by -14.5% + GNU political stability",
+        "trade_directive": "Unhedged Long 10Y SAGB R2035 (9.15%) + Long ZAR Currency",
+    },
+    {
+        "quadrant": "Quadrant 2: High Carry Belly Rates",
+        "theme": "High Real Policy Rate + Cheap REER + Resilient ToT",
+        "countries": ["Brazil (BRL)", "Indonesia (IDR)"],
+        "macro_driver": "Ex-ante real policy rates +3.85% to +6.60% provide huge carry buffer against FX noise",
+        "trade_directive": "Overweight 5Y-10Y Belly Rates (NTN-F 2029, SUN FR0100) unhedged or NDF hedged",
+    },
+    {
+        "quadrant": "Quadrant 3: FX-Hedged Duration",
+        "theme": "High Real Rate + Rich/Fair REER + Tariff / Energy Shock Exposure",
+        "countries": ["Mexico (MXN)", "Colombia (COP)"],
+        "macro_driver": "US election tariff risk (Mexico) and oil exploration halts (Colombia) penalize spot currency",
+        "trade_directive": "10Y M-Bono 2034 & 5Y TES strictly on an FX-Hedged basis or curve flattener",
+    },
+    {
+        "quadrant": "Quadrant 4: Capital Inflows / Peg Anchor",
+        "theme": "Low Real Rate or Managed FX + Massive Capital Inflow Support",
+        "countries": ["Poland (PLN)", "India (INR)"],
+        "macro_driver": "Poland €60B+ EU KPO fund conversion; India $683B RBI reserves & $2B/mo index inflows",
+        "trade_directive": "Poland: Long PLN vs EUR (short duration); India: Unhedged 10Y IGB (quasi-dollar anchor)",
+    },
+    {
+        "quadrant": "Special Regime: Hyper-Carry Roll",
+        "theme": "50% Nominal Policy Rate + Massive Forward Ex-Ante Real Rate (+21.5%)",
+        "countries": ["Turkey (TRY)"],
+        "macro_driver": "Rapid disinflation toward 38% makes 50% cash deposit carry comfortably beat TRY crawl",
+        "trade_directive": "1M - 3M Front-End T-Bills and TRY cash deposits unhedged (avoid long-end duration)",
+    },
+]
+
+# -*- coding: utf-8 -*-
+"""
+patch_gbi_rates_execution.py
+Adds rates_execution and rates_pay_receive_matrix to generate_gbi_em_data.py
+and runs it to update gbi_em_data.json.
+"""
+
+import sys
+import json
+sys.stdout.reconfigure(encoding='utf-8')
+
+# The 8 rates execution profiles
+RATES_EXECUTION = {
+    "brazil": {
+        "directive": "Receive Fixed (5Y Belly Duration)",
+        "swap_instrument": "B3 DI1F29 (Jan 2029 DI Futures) & DI1F27 (Jan 2027)",
+        "cash_instrument": "NTN-F 10.00% 01/01/2029 (Fixed Sovereign) / NTN-B 2030 (IPCA Linker)",
+        "liquidity_tier": "Tier 1 (Ultra-Liquid - $20B+ Daily B3 Derivatives Turnover)",
+        "bid_ask_spread": "0.5 - 1.0 bps (0.5 tick on DI1)",
+        "standard_market_clip": "R$50M - R$100M ($10M - $20M USD notional)",
+        "clearing_venue": "B3 (Brasil, Bolsa, Balcão - São Paulo)",
+        "dv01_per_unit": "~R$42 / contract (DI1F29 duration ~3.6y)",
+        "recommended_sizing": "Target $10,000 DV01 ($10k / 1 bp move; ~R$54,000 DV01)",
+        "recommended_notional": "1,280 DI1F29 contracts or R$60M cash NTN-F 2029 (~$11.1M USD)",
+        "trader_lingo_playbook": "Receive DI1F29 vs paying Copom Selic path. Curve prices terminal Selic at ~10.75%; 5Y belly at 12.05% gives +130 bps term premium cushion. If fiscal noise widens DI, hedge spot BRL via 3M NDFs to isolate the +6.5% carry spread over SOFR."
+    },
+    "mexico": {
+        "directive": "Pay 2Y vs Receive 10Y TIIE (2s10s Flattener) or Pay TIIE vs Receive M-Bono",
+        "swap_instrument": "MXN TIIE 28D IRS / TIIE Fondeo: 130x1 (10Y) vs 26x1 (2Y)",
+        "cash_instrument": "M-Bono 7.75% 05/29/2034 (10Y) & M-Bono 5.75% 03/05/2026 (2Y)",
+        "liquidity_tier": "Tier 1 (Ultra-Liquid - Standardized 28D Compounding Swaps)",
+        "bid_ask_spread": "0.75 - 1.25 bps on TIIE swaps; 1.0 - 1.5 bps on M-Bonos",
+        "standard_market_clip": "MXN 200M - MXN 500M ($10M - $25M USD notional)",
+        "clearing_venue": "CME / LCH Cleared (Offshore ISDA/CSA) or Asigna / MexDer onshore",
+        "dv01_per_unit": "~MXN 13,500 DV01 per MXN 20M 10Y (~$700 USD DV01 / $1M)",
+        "recommended_sizing": "DV01-Neutral 2s10s Flattener ($10,000 DV01 per leg)",
+        "recommended_notional": "Receive MXN 285M 10Y (130x1) vs Pay MXN 1,070M 2Y (26x1) (3.75x DV01 ratio)",
+        "trader_lingo_playbook": "Pay 2Y TIIE vs Receive 10Y TIIE at -23 bps spread. Banxico front-end easing cuts the 10.50% policy rate while US election tariff threats anchor 10Y term premiums. Curve will flatten out of inversion toward -50 bps."
+    },
+    "south_africa": {
+        "directive": "Receive Fixed (Long 10Y Duration Unhedged ZAR)",
+        "swap_instrument": "ZAR 10Y Interest Rate Swaps (3M JIBAR / ZARONIA OIS)",
+        "cash_instrument": "SAGB 8.875% 28/02/2035 (R2035 Benchmark) & R2032",
+        "liquidity_tier": "Tier 1 (Cash SAGB Benchmark) / Tier 2 (Long-End IRS)",
+        "bid_ask_spread": "1.0 - 2.0 bps in SAGB R2035; 1.5 - 2.5 bps in 10Y IRS",
+        "standard_market_clip": "ZAR 100M - ZAR 250M ($5.5M - $14M USD notional)",
+        "clearing_venue": "LCH Cleared (Offshore) / JSE Clear onshore",
+        "dv01_per_unit": "~$720 USD DV01 per $1,000,000 notional (ZAR 12,800 DV01 / ZAR 18M)",
+        "recommended_sizing": "Target $10,000 DV01 ($10k / 1 bp move; ~ZAR 178,000 DV01)",
+        "recommended_notional": "Buy ZAR 250M SAGB R2035 (~$14.0M USD notional) Unhedged",
+        "trader_lingo_playbook": "Receive 10Y SAGB R2035 unhedged. Gold at $2,580/oz terms-of-trade windfall plus Government of National Unity (GNU) fiscal consolidation creates the premier 'Double Alpha' trade in EM. Target 8.50% (-65 bps rally)."
+    },
+    "indonesia": {
+        "directive": "Receive Fixed (10Y SUN FR0100) on an FX-Hedged Basis",
+        "swap_instrument": "IDR 5Y/10Y Non-Deliverable Swaps (NDS) / IndONIA OIS",
+        "cash_instrument": "Surat Utang Negara (SUN) FR0100 6.625% 15/02/2034 (10Y)",
+        "liquidity_tier": "Tier 2 (Liquid Cash SUN; Semi-Liquid Offshore NDS)",
+        "bid_ask_spread": "1.5 - 2.5 bps in SUN FR0100; 2.5 - 4.0 bps in NDS",
+        "standard_market_clip": "IDR 100B - IDR 250B ($6.5M - $16M USD notional)",
+        "clearing_venue": "Bank Indonesia BI-SSSS onshore / Offshore bilateral ISDA NDS",
+        "dv01_per_unit": "~$760 USD DV01 per $1M notional (~IDR 11.7M DV01 / IDR 15.4B)",
+        "recommended_sizing": "Target $7,500 DV01 ($7.5k / 1 bp move)",
+        "recommended_notional": "Buy IDR 150 Billion SUN FR0100 (~$9.75M USD) + Sell $9.75M 3M NDF forward",
+        "trader_lingo_playbook": "Receive 10Y SUN FR0100 at 6.55%. Headline inflation is subdued at 2.12% giving Bank Indonesia room to cut. Always hedge spot IDR via 3M NDFs to strip out currency noise from government deficit expansions."
+    },
+    "poland": {
+        "directive": "Pay Fixed 10Y WIBOR IRS (Underweight Duration) + Long PLN vs EUR",
+        "swap_instrument": "PLN WIBOR IRS (6M WIBOR / POLONIA OIS): 5Y & 10Y tenors",
+        "cash_instrument": "POLGB DS1033 (6.00% 10/2033 Benchmark) & PS0729",
+        "liquidity_tier": "Tier 1 (Ultra-Liquid Swaps - Fully cleared on LCH)",
+        "bid_ask_spread": "0.75 - 1.25 bps in 5Y/10Y IRS; 1.0 - 1.5 bps in POLGB",
+        "standard_market_clip": "PLN 50M - PLN 100M ($13M - $26M USD notional)",
+        "clearing_venue": "LCH Cleared (Offshore) / KDPW_CCP (Warsaw)",
+        "dv01_per_unit": "~$740 USD DV01 per $1M notional (~PLN 2,850 DV01 / PLN 3.85M)",
+        "recommended_sizing": "Target $10,000 DV01 on Pay 10Y IRS leg (~PLN 38,500 DV01)",
+        "recommended_notional": "Pay PLN 52M 10Y WIBOR IRS + Long €10M PLN vs EUR (Spot / 3M Fwd)",
+        "trader_lingo_playbook": "Pay 10Y WIBOR IRS or underweight POLGB bonds. Poland's 4.7% GDP defense spending crowds out domestic real yields (+1.65% ex-ante is slimmest in GBI-EM). Express Polish bullishness exclusively via Long PLN vs EUR to ride €60B+ EU KPO inflows."
+    },
+    "india": {
+        "directive": "Receive Fixed (10Y IGB FAR) Unhedged Quasi-Dollar Anchor",
+        "swap_instrument": "INR MIBOR OIS (Overnight Indexed Swaps): 1Y, 2Y, 5Y tenors",
+        "cash_instrument": "7.18% GS 2033 & 7.10% GS 2034 (Fully Accessible Route - FAR Category)",
+        "liquidity_tier": "Tier 1 (Cash IGB FAR - $3B - $5B Daily Turnover)",
+        "bid_ask_spread": "0.5 - 1.0 bps in on-the-run IGB benchmark; 1.0 - 1.5 bps in MIBOR OIS",
+        "standard_market_clip": "INR 500M - INR 1,000M (INR 50 - 100 Crore; ~$6M - $12M USD)",
+        "clearing_venue": "Clearing Corporation of India Limited (CCIL) / NDS-OM",
+        "dv01_per_unit": "~$720 USD DV01 per $1M notional (~INR 60,000 DV01 / INR 8.35 Crore)",
+        "recommended_sizing": "Target $10,000 DV01 ($10k / 1 bp move; ~INR 835,000 DV01)",
+        "recommended_notional": "Buy INR 115 Crore (INR 1.15B) GS 2033 (~$13.8M USD notional) Unhedged",
+        "trader_lingo_playbook": "Receive 10Y IGB GS 2033 at 6.78% unhedged. Phased J.P. Morgan GBI-EM index inclusion brings ~$2B/month passive inflows. RBI pins USD/INR in a 83.70-84.00 range, converting IGB into an ultra-low-volatility 6.78% dollar yield surrogate."
+    },
+    "colombia": {
+        "directive": "Receive 5Y TES Tasa Fija on an FX-Hedged Basis",
+        "swap_instrument": "COP IBR OIS Swaps (Indicador Bancario de Referencia): 2Y & 5Y",
+        "cash_instrument": "TES Tasa Fija 03/11/2029 (5Y Benchmark at 10.15%) & TES 2034 (10.50%)",
+        "liquidity_tier": "Tier 2 (Moderate Liquidity; Belly liquid, Long-End semi-liquid)",
+        "bid_ask_spread": "2.0 - 3.5 bps in 5Y TES; 2.5 - 4.0 bps in IBR swaps",
+        "standard_market_clip": "COP 20,000M - COP 50,000M (COP 20B - 50B; ~$4.8M - $12M USD)",
+        "clearing_venue": "CRCC (Cámara de Riesgo Central de Contraparte de Colombia) / Bilateral",
+        "dv01_per_unit": "~$400 USD DV01 per $1M 5Y notional (~COP 1.68M DV01 / COP 4.2B)",
+        "recommended_sizing": "Target $5,000 DV01 ($5k / 1 bp move; ~COP 21,000,000 DV01)",
+        "recommended_notional": "Buy COP 52 Billion TES 2029 (~$12.5M USD notional) + FX Hedge",
+        "trader_lingo_playbook": "Receive 5Y TES 2029 at 10.15%. BanRep at 10.75% has high ex-ante real rate buffer (+5.95%). Keep position sized to $5k DV01 and hedge currency, as oil exploration bans and fiscal rule flex debates inject COP beta."
+    },
+    "turkey": {
+        "directive": "Clip 1M-3M Front-End Cash Carry / Do NOT Receive Long Duration",
+        "swap_instrument": "TRY Cross-Currency Swaps (XCCY) & TLREF OIS (Short tenors only)",
+        "cash_instrument": "1M - 3M Turkish Treasury Bills (Hazine Bonosu) & Central Bank Deposit Facility",
+        "liquidity_tier": "Tier 1 (Front-End 1M-3M Cash/Repo) / Tier 3 (Long-End Bond Curve Inverted)",
+        "bid_ask_spread": "10 - 20 bps in 1M-3M T-Bills; 50 - 100 bps in 10Y cash bonds",
+        "standard_market_clip": "TRY 100M - TRY 250M ($3M - $7.5M USD notional) in front-end bills",
+        "clearing_venue": "Borsa Istanbul (BIST) Takasbank onshore",
+        "dv01_per_unit": "N/A - Cash carry instrument managed on notional, not duration DV01",
+        "recommended_sizing": "Target $5M - $10M USD notional allocation in 1M-3M roll",
+        "recommended_notional": "TRY 200 Million 3M T-Bills (~$5.9M USD notional) Unhedged",
+        "trader_lingo_playbook": "Clip the front-end roll at ~46-50% annualized, never touch long-end duration (10Y yield at 32.5% is inverted by 1,000 bps vs 2Y at 42%). The 50% nominal carry generates ~$225k/month on $5.9M notional, easily covering the controlled ~1.5% monthly TRY depreciation."
+    }
+}
+
+print(f"[OK] Loaded {len(RATES_EXECUTION)} institutional rates execution profiles.")
+
+try:
+    from additional_gbi_countries import (
+        NEW_COUNTRIES,
+        EXPANDED_TOT_REER_QUADRANT_MATRIX,
+        EXPANDED_GEOPOLITICAL_RISK_MATRIX
+    )
+    COUNTRIES.update(NEW_COUNTRIES)
+    TOT_REER_QUADRANT_MATRIX = EXPANDED_TOT_REER_QUADRANT_MATRIX
+    GEOPOLITICAL_RISK_MATRIX = EXPANDED_GEOPOLITICAL_RISK_MATRIX
+    print(f"[OK] Successfully integrated 17-country GBI-EM benchmark universe ({len(COUNTRIES)} sovereigns).")
+except ImportError as e:
+    print(f"[WARN] Could not load additional_gbi_countries: {e}")
+
+try:
+    from sovereign_dossiers_data import SOVEREIGN_DOSSIERS
+    for c_id, dos in SOVEREIGN_DOSSIERS.items():
+        if c_id in COUNTRIES:
+            COUNTRIES[c_id].update(dos)
+    print(f"[OK] Injected {len(SOVEREIGN_DOSSIERS)} institutional sovereign dossiers into GBI-EM universe.")
+except ImportError as e:
+    print(f"[WARN] Could not load sovereign_dossiers_data: {e}")
+
+
+
+def main():
+    print("Generating GBI-EM Local Currency Sovereign Debt & FX dataset with ToT-REER and Real Rates...")
+
+    all_catalysts = []
+    for c_id, c_data in COUNTRIES.items():
+        for cat in c_data.get("catalysts", []):
+            all_catalysts.append({
+                "country_id": c_id,
+                "country_name": c_data["name"],
+                "flag": c_data["flag"],
+                "currency": c_data["currency"],
+                "date": cat["date"],
+                "event": cat["event"],
+                "consensus": cat["consensus"],
+                "trade_implication": cat["trade_implication"],
+            })
+
+    all_catalysts.append({
+        "country_id": "us_fomc",
+        "country_name": "United States (Global Spillover)",
+        "flag": "🇺🇸",
+        "currency": "USD",
+        "date": "2026-09-18",
+        "event": "US FOMC Interest Rate Decision & Dot Plot Summary",
+        "consensus": "25bp Cut to 5.00-5.25% (Launch of Fed Easing Cycle)",
+        "trade_implication": "Weaker USD and lower US risk-free yields ignite broad EM capital inflows into high real-yield GBI-EM curves.",
+    })
+    all_catalysts.append({
+        "country_id": "us_election",
+        "country_name": "United States (Trade Policy)",
+        "flag": "🇺🇸",
+        "currency": "USD",
+        "date": "2026-11-03",
+        "event": "US Presidential Election & Tariff Policy Horizon",
+        "consensus": "Binary trade outcome on universal tariffs and USMCA review",
+        "trade_implication": "Maintain strict FX hedges on Mexico M-Bonos into election week.",
+    })
+
+    all_catalysts.sort(key=lambda x: x["date"])
+
+    ranked_by_ex_ante_real_rate = sorted(
+        COUNTRIES.values(),
+        key=lambda x: x["real_rate_breakdown"]["ex_ante_real_policy_rate"],
+        reverse=True
+    )
+    ranked_by_ex_post_real_yield = sorted(
+        COUNTRIES.values(),
+        key=lambda x: x["rates"]["real_yield_10y"],
+        reverse=True
+    )
+    ranked_by_carry = sorted(
+        COUNTRIES.values(),
+        key=lambda x: x["fx"]["carry_3m_ann"],
+        reverse=True
+    )
+
+    # Load Trade Tracker
+    trade_tracker_payload = {}
+    if TRACKER_JSON.exists():
+        try:
+            with open(TRACKER_JSON, "r", encoding="utf-8") as f:
+                trade_tracker_payload = json.load(f)
+        except Exception as e:
+            print("Warning: Could not read TRACKER_JSON", e)
+
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    # Inject rates execution into each country
+    for c_key, ex in RATES_EXECUTION.items():
+        if c_key in COUNTRIES:
+            COUNTRIES[c_key]["rates_execution"] = ex
+
+    rates_matrix = []
+    for c_key, c in COUNTRIES.items():
+        ex = c.get("rates_execution", {})
+        rates_matrix.append({
+            "id": c["id"],
+            "country": c["name"],
+            "flag": c["flag"],
+            "currency": c["currency"],
+            "directive": ex.get("directive", ""),
+            "swap_instrument": ex.get("swap_instrument", ""),
+            "cash_instrument": ex.get("cash_instrument", ""),
+            "liquidity_tier": ex.get("liquidity_tier", ""),
+            "bid_ask_spread": ex.get("bid_ask_spread", ""),
+            "standard_clip": ex.get("standard_market_clip", ""),
+            "clearing_venue": ex.get("clearing_venue", ""),
+            "dv01_sizing": ex.get("recommended_sizing", ""),
+            "recommended_notional": ex.get("recommended_notional", "")
+        })
+
+    payload = {
+        "rates_pay_receive_matrix": rates_matrix,
+        "as_of_date": now_utc,
+        "desk_name": "GBI-EM Local Currency Sovereign Debt & FX Strategy Desk",
+        "benchmark": "J.P. Morgan GBI-EM Global Diversified",
+        "macro_anchors": GLOBAL_MACRO_ANCHORS,
+        "tot_reer_quadrant_matrix": TOT_REER_QUADRANT_MATRIX,
+        "geopolitical_risk_matrix": GEOPOLITICAL_RISK_MATRIX,
+        "upcoming_catalysts_calendar": all_catalysts,
+        "trade_tracker": trade_tracker_payload,
+        "executive_paragraph": (
+            "The J.P. Morgan GBI-EM Global Diversified local currency sovereign benchmark universe spans 17 liquid "
+            "sovereign debt markets across Latin America, Central & Eastern Europe, the Middle East & Africa, and Emerging Asia. "
+            "The asset class is characterized by historic real yield dispersion, anchored by sub-$75 Brent Crude ($74.20/bbl) "
+            "acting as a disinflationary dividend for major net energy importers (India, South Africa, Thailand, Turkey) while "
+            "commodity exporters (Brazil, Chile, Colombia, Peru) harvest terms of trade tailwinds. Our highest-conviction unhedged "
+            "duration recommendations are centered in the Andean & South African commodity exporters: South Africa 10Y SAGB R2035 (9.15%) "
+            "on record gold and GNU stability, Chile 10Y BTP (5.35%) and Peru 10Y Soberano (5.85%) on pristine 2% inflation anchors and copper strength. "
+            "In high-beta carry markets, Brazil (NTN-F 2029 at 12.05%) and Egypt (3M T-Bills at 29.50% roll) offer unparalleled real cushions "
+            "(+6.6% and +10.75% ex-ante). In trade-exposed sovereigns (Mexico M-Bonos, Czech CZGBs, Romania ROMGBs), duration must be isolated "
+            "via 2s10s curve flatteners or strict forward FX hedging against US election tariff risk and European industrial drag. In Emerging Asia, "
+            "India 10Y IGBs and Malaysia MYR provide ultra-liquid, low-volatility balance of payments anchor allocations."
+        ),
+        "rankings": {
+            "by_ex_ante_real_policy_rate": [c["id"] for c in ranked_by_ex_ante_real_rate],
+            "by_real_yield": [c["id"] for c in ranked_by_ex_post_real_yield],
+            "by_carry": [c["id"] for c in ranked_by_carry],
+        },
+        "countries": COUNTRIES,
+    }
+
+    with open(DATA_JSON, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    print(f"[OK] Wrote {DATA_JSON} with Real Rates Breakdown, ToT-REER Quadrants, and Live Trade Tracker.")
+
+if __name__ == "__main__":
+    main()
