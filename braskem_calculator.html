@@ -600,14 +600,14 @@
           </div>
           <div style="text-align:right;">
             <div style="font-family:'JetBrains Mono',monospace; font-size:22px; font-weight:800; color:var(--accent-cyan); line-height:1;" id="stream1-val">71.5c PV</div>
-            <span style="font-size:9px; color:#94a3b8;">Nominal: <strong id="s1-nominal-rec" style="color:#34d399;">78.6c</strong></span>
+            <span style="font-size:9px; color:#94a3b8;">Nominal Coverage: <strong id="s1-nominal-rec" style="color:#34d399;">78.6c</strong></span>
           </div>
         </div>
         <div style="font-size:10px; color:#cbd5e1; line-height:1.5; margin-top:8px;">
           <div>&bull; <strong>SOTP EV:</strong> <span id="s1-senior-pool">$7,230M</span> Net Senior Pool</div>
           <div>&bull; <strong>EBITDA &bull; Multiple:</strong> <span id="s1-ebitda">$1,340M</span> &bull; <span id="s1-mult">6.5x</span></div>
           <div>&bull; <strong>Priority Carve-Outs:</strong> $1.1B Bank + <span id="s1-maceio">$600M</span> Maceió + Burn</div>
-          <div>&bull; <strong>Standstill Bleed:</strong> <span id="s1-duration">12M</span> @ <span id="s1-yield">9.75%</span> = <span id="s1-time-factor" style="color:#f87171; font-weight:700;">-9.1%</span></div>
+          <div>&bull; <strong>Standstill Drag (12M @ <span id="s1-yield">9.75%</span>):</strong> <span id="s1-duration">12M</span> &bull; <span id="s1-time-factor" style="color:#f87171; font-weight:700;">-9.1%</span> (78.6c &rarr; 71.5c PV)</div>
           <div style="margin-top:6px; border-top:1px dashed #334155; padding-top:4px; color:#94a3b8; font-size:9.5px;">
             <strong>Anchor:</strong> What are assets worth if liquidated/reorganized under APR?
           </div>
@@ -931,7 +931,7 @@
             </div>
             <div style="display:flex; justify-content:space-between; align-items:baseline; padding-top:4px; border-top:1px dashed rgba(255,255,255,0.1);">
               <span style="font-size:10.5px; color:#cbd5e1;">Senior Bond Recovery:</span>
-              <strong id="disp-pv-senior-rec" style="font-family:'JetBrains Mono',monospace; color:var(--accent-emerald); font-size:13px;">88.8%</strong>
+              <strong id="disp-pv-senior-rec" style="font-family:'JetBrains Mono',monospace; color:var(--accent-emerald); font-size:13px;">78.6c</strong>
             </div>
           </div>
         </div>
@@ -1734,65 +1734,6 @@
             </a>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- TWO-STREAM RECONCILIATION BRIDGE: FUNDAMENTAL EV VS MARKET-BASED PRICING -->
-  <div style="background:var(--bg-card-sub); border:1px solid #334155; border-radius:8px; padding:14px; margin-bottom:14px;">
-    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:8px;">
-      <span style="font-size:11.5px; font-weight:800; color:var(--accent-cyan); text-transform:uppercase; letter-spacing:0.5px;">
-        ⚖️ Two-Stream Valuation Reconciliation: Fundamental EV vs Market-Based Pricing
-      </span>
-      <span id="reconcile-action-badge" style="font-size:10px; font-weight:800; padding:3px 8px; border-radius:4px; font-family:'JetBrains Mono',monospace; background:rgba(245,158,11,0.15); color:var(--accent-amber); border:1px solid rgba(245,158,11,0.3);">HOLD / FAIR VALUE</span>
-    </div>
-
-    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:12px; font-size:11px;">
-      <!-- STREAM 1: FUNDAMENTAL EV WATERFALL -->
-      <div style="background:#060913; border:1px solid #1e293b; border-radius:6px; padding:10px;">
-        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding-bottom:4px; margin-bottom:6px;">
-          <strong style="color:var(--accent-emerald);">STREAM 1: FUNDAMENTAL EV RECOVERY</strong>
-          <span style="font-family:'JetBrains Mono',monospace; font-weight:800; color:var(--accent-emerald);" id="stream1-val">71.5c PV</span>
-        </div>
-        <div style="font-size:10px; color:#94a3b8; line-height:1.5;">
-          <div><span style="color:#fbbf24; font-weight:700;">[ASSUMPTION]</span> EBITDA: <span id="s1-ebitda">$1,340M</span> &bull; Multiple: <span id="s1-mult">6.5x</span> &bull; Cash: $900M</div>
-          <div><span style="color:#fbbf24; font-weight:700;">[ASSUMPTION]</span> Priority Claims: $1.1B Bank + <span id="s1-maceio">$600M</span> Maceió + Legal Burn</div>
-          <div><span style="color:#38bdf8; font-weight:700;">[CALCULATION]</span> Net Distributable Senior Pool: <strong style="color:#fff;" id="s1-senior-pool">$7,230M</strong> ($9.2B Claims)</div>
-          <div><span style="color:#38bdf8; font-weight:700;">[CALCULATION]</span> Nominal Asset Coverage: <strong style="color:#34d399;" id="s1-nominal-rec">78.6c</strong></div>
-          <div><span style="color:#f87171; font-weight:700;">[STANDSTILL DRAG]</span> <span id="s1-duration">12M</span> negotiation @ <span id="s1-yield">9.75%</span> = <strong style="color:#f87171;" id="s1-time-factor">-9.1%</strong></div>
-          <div style="margin-top:6px; border-top:1px dashed #334155; padding-top:4px; color:#cbd5e1;">
-            <strong>Anchor Question:</strong> What are assets worth if liquidated/reorganized without exchange concessions?
-          </div>
-        </div>
-      </div>
-
-      <!-- STREAM 2: MARKET-BASED PRICING -->
-      <div style="background:#060913; border:1px solid #1e293b; border-radius:6px; padding:10px;">
-        <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #1e293b; padding-bottom:4px; margin-bottom:6px;">
-          <strong style="color:#38bdf8;">STREAM 2: MARKET-BASED EXCHANGE PV</strong>
-          <span style="font-family:'JetBrains Mono',monospace; font-weight:800; color:#38bdf8;" id="stream2-val">54.0c PV</span>
-        </div>
-        <div style="font-size:10px; color:#94a3b8; line-height:1.5;">
-          <div><span style="color:#fbbf24; font-weight:700;">[ASSUMPTION]</span> Terms: <span id="s2-haircut">35%</span> Cut &bull; <span id="s2-swap">30%</span> Eq Swap &bull; <span id="s2-coupon">7.50%</span> Cpn &bull; <span id="s2-tenor">8Y</span> Tenor</div>
-          <div><span style="color:#38bdf8; font-weight:700;">[CALCULATION]</span> Pro-Forma Leverage: <strong style="color:#fff;" id="s2-leverage">3.40x</strong> &rarr; Implied Exit Yield: <strong style="color:#fbbf24;" id="s2-exit-yield">9.75%</strong></div>
-          <div><span style="color:#38bdf8; font-weight:700;">[CALCULATION]</span> New Paper Trading Px: <strong style="color:#fbbf24;" id="s2-paper-px">87.7c</strong> (Reinstated Debt: <span id="s2-debt-pot">39.9c</span> + Eq: <span id="s2-eq-pot">19.5c</span>)</div>
-          <div><span style="color:#38bdf8; font-weight:700;">[CALCULATION]</span> Undiscounted Emergence Pot: <strong style="color:#fff;" id="s2-emergence-pot">59.4c</strong></div>
-          <div><span style="color:#f87171; font-weight:700;">[STANDSTILL DRAG]</span> <span id="s2-duration">12M</span> carrying bleed @ <span id="s2-yield">9.75%</span> = <strong style="color:#f87171;" id="s2-time-factor">-9.1%</strong></div>
-          <div style="margin-top:6px; border-top:1px dashed #334155; padding-top:4px; color:#cbd5e1;">
-            <strong>Anchor Question:</strong> What will the secondary market pay for the restructured paper on Day 1?
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- RECONCILIATION SUMMARY BAR & BUY/SELL SIGNAL -->
-    <div style="margin-top:10px; background:rgba(15,23,42,0.9); border:1px solid #1e293b; border-radius:6px; padding:8px 12px; font-size:10.5px; color:#cbd5e1; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-      <div>
-        <strong>Reconciliation Gap:</strong> <span style="font-family:'JetBrains Mono',monospace; font-weight:700; color:#f87171;" id="reconcile-gap">-17.5c</span> 
-        <span style="color:var(--text-muted); font-size:9.5px;">(Market PV sits below Fundamental Asset Coverage due to 35% haircut &amp; 9.75% exit yield)</span>
-      </div>
-      <div>
-        <strong>Trading Signal vs Market (<span id="reconcile-mkt-px">54.0c</span>):</strong> <span id="reconcile-signal-text" style="font-weight:700; color:var(--accent-amber);">Fairly Priced &bull; Asset Cushion Prevents Crash</span>
       </div>
     </div>
   </div>
@@ -2638,7 +2579,7 @@
       const rawSeniorRecoveryCents = rawSeniorRecoveryPct * 100.0;
 
       if (document.getElementById("disp-pv-senior-rec")) {
-        document.getElementById("disp-pv-senior-rec").textContent = `${rawSeniorRecoveryCents.toFixed(1)}%`;
+        document.getElementById("disp-pv-senior-rec").textContent = `${rawSeniorRecoveryCents.toFixed(1)}c`;
       }
 
       // 5. Post-Restructuring Balance Sheet Pro-Forma Metrics
@@ -3297,46 +3238,7 @@
           sigText.style.color = "var(--accent-amber)";
         }
       }
-    }
 
-    function calcBondPrice(couponPct, exitYieldPct, tenorYears, pikCouponPct = 0, pikYears = 0) {
-      const n = Math.max(1, Math.round(tenorYears * 2));
-      const r = (exitYieldPct / 100.0) / 2.0;
-      if (r <= 0) return 100.0;
-      const cCash = (couponPct / 100.0) / 2.0;
-      const cPik = (pikCouponPct / 100.0) / 2.0;
-      const nPik = Math.min(n, Math.max(0, Math.round(pikYears * 2)));
-      let pv = 0.0;
-      let currentFace = 100.0;
-      for (let i = 1; i <= n; i++) {
-        const discount = Math.pow(1.0 + r, -i);
-        if (i <= nPik) {
-          pv += (currentFace * cCash) * discount;
-          currentFace *= (1.0 + cPik);
-        } else {
-          pv += (currentFace * (cCash + cPik)) * discount;
-        }
-      }
-      pv += currentFace * Math.pow(1.0 + r, -n);
-      return pv;
-    }
-
-    function toggleQualGuide() {
-      const content = document.getElementById("qual-guide-content");
-      const icon = document.getElementById("qual-guide-icon");
-      if (content.style.display === "none") {
-        content.style.display = "block";
-        icon.textContent = "▲ Click to Collapse Guide";
-      } else {
-        content.style.display = "none";
-        icon.textContent = "▼ Click to Expand Guide";
-      }
-    }
-
-    // Initialize on page load
-    document.addEventListener("DOMContentLoaded", () => {
-      initPage();
-    
       // === NEW SUITE CALCULATIONS ===
       // 1. Balance Sheet Sustainability Requirements
       const targetLev = 3.0;
@@ -3405,9 +3307,46 @@
       // Top bar sync
       const elTopS1 = document.getElementById("top-s1-pv");
       if (elTopS1) elTopS1.innerHTML = stream1PV.toFixed(1) + "<span>c</span>";
-
     }
-);
+
+    function calcBondPrice(couponPct, exitYieldPct, tenorYears, pikCouponPct = 0, pikYears = 0) {
+      const n = Math.max(1, Math.round(tenorYears * 2));
+      const r = (exitYieldPct / 100.0) / 2.0;
+      if (r <= 0) return 100.0;
+      const cCash = (couponPct / 100.0) / 2.0;
+      const cPik = (pikCouponPct / 100.0) / 2.0;
+      const nPik = Math.min(n, Math.max(0, Math.round(pikYears * 2)));
+      let pv = 0.0;
+      let currentFace = 100.0;
+      for (let i = 1; i <= n; i++) {
+        const discount = Math.pow(1.0 + r, -i);
+        if (i <= nPik) {
+          pv += (currentFace * cCash) * discount;
+          currentFace *= (1.0 + cPik);
+        } else {
+          pv += (currentFace * (cCash + cPik)) * discount;
+        }
+      }
+      pv += currentFace * Math.pow(1.0 + r, -n);
+      return pv;
+    }
+
+    function toggleQualGuide() {
+      const content = document.getElementById("qual-guide-content");
+      const icon = document.getElementById("qual-guide-icon");
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        icon.textContent = "▲ Click to Collapse Guide";
+      } else {
+        content.style.display = "none";
+        icon.textContent = "▼ Click to Expand Guide";
+      }
+    }
+
+    // Initialize on page load
+    document.addEventListener("DOMContentLoaded", () => {
+      initPage();
+    });
   </script>
 </body>
 </html>
