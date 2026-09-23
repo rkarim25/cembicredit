@@ -5958,10 +5958,21 @@ const MASTER_ISSUERS = [
       "model_file": "Aragvi_Holding_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681089456caf1fef61b55",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aragvi_Holding_Credit_Model.xlsx",
-      "last_updated": "2026-09-19",
+      "last_updated": "2026-09-23",
       "model_type": "corp",
       "fcf_2024a": -15.1,
-      "net_leverage_2024a": 2.63
+      "net_leverage_2024a": 2.63,
+      "cognitive_credit_source": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+      "cognitive_credit_ltm_usd": {
+        "period": "1H26_LTM",
+        "revenue_usd_m": 2256.6,
+        "ebitda_usd_m": 207.9,
+        "gross_debt_usd_m": 1361.8,
+        "cash_usd_m": 194.8,
+        "net_debt_usd_m": 1167.0,
+        "net_leverage": 5.61,
+        "reported_fcf_ltm_usd_m": -174.6
+      }
     },
     "financials_multi_year": [
       {
@@ -6243,6 +6254,34 @@ const MASTER_ISSUERS = [
           "fcf": 15.1,
           "formula_check": "198.4 - 66.0 - 45.7 - (57.6) - 14.0 = 15.1"
         }
+      },
+      {
+        "period": "2026_LTM",
+        "is_audited": true,
+        "revenue": 2256.6,
+        "ebitda": 207.9,
+        "ebitda_margin_pct": 9.2,
+        "cfo": 145.0,
+        "capex": 63.4,
+        "fcf": -174.6,
+        "cash": 194.8,
+        "gross_debt": 1361.8,
+        "net_debt": 1167.0,
+        "net_leverage": 5.61,
+        "interest_coverage": 1.9,
+        "observations": {
+          "revenue": "Audited Cognitive Credit LTM revenue reached $2,256.6M ($1,213.0M in 1H26, up 7.2% YoY), driven by high Danube export volumes.",
+          "ebitda": "LTM EBITDA of $207.9M ($118.8M in 1H26) maintained 9.2% margin despite Black Sea logistics friction.",
+          "capex": "Gross capex of $31.7M in 1H26 ($63.4M annualized) invested in crushing modernization and port grain handling.",
+          "fcf": "LTM FCF of -$174.6M reflects seasonal agricultural working capital absorption (-$226.1M in 1H26).",
+          "net_leverage": "Cognitive Credit consolidated Net Leverage is 5.61x (Net Debt $1,167.0M), which includes seasonal PXF lines and commodity trading facilities alongside Eurobonds."
+        },
+        "reported_ebitda": 207.9,
+        "calculated_ebitda": 207.9,
+        "cash_interest": 109.3,
+        "change_in_working_capital": -226.1,
+        "tax_expense": 24.5,
+        "fcf_conversion_pct": -84.0
       }
     ],
     "supplementary_data": {
@@ -6445,7 +6484,19 @@ const MASTER_ISSUERS = [
           "is_subtotal": true,
           "color": "#38bdf8"
         }
-      ]
+      ],
+      "cognitive_credit_reconciliation": {
+        "audited_source": "Cognitive Credit LTM Export (23-Sep-2026)",
+        "revenue_usd_m": 2256.6,
+        "ebitda_usd_m": 207.9,
+        "total_gross_debt_usd_m": 1361.8,
+        "total_cash_usd_m": 194.8,
+        "total_net_debt_usd_m": 1167.0,
+        "total_net_leverage": 5.61,
+        "bonded_and_term_debt_usd_m": 665.1,
+        "short_term_trade_finance_lines_usd_m": 696.7,
+        "reconciliation_analysis": "The delta between our $665.1M core term debt model and Cognitive Credit's $1,361.8M gross debt perimeter is exactly $696.7M in seasonal commodity pre-export financing (PXF) and trade working capital credit lines. These trade lines are secured by self-liquidating crop inventories and grain export receivables, insulating Eurobond recoveries under our English Scheme / Moldovan restructuring framework."
+      }
     },
     "annotations": [
       {
@@ -6933,6 +6984,79 @@ const MASTER_ISSUERS = [
       "net_leverage": 2.12,
       "total_mistakes_caught": 1,
       "last_reconciled": "2026-09-20"
+    },
+    "cognitive_credit_model": {
+      "source_file": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+      "ingested_at": "2026-09-23T09:14:01.459357",
+      "sheets_available": [
+        "Annual and Half-Yearly",
+        "Rolling LTM"
+      ],
+      "summary": {
+        "Annual and Half-Yearly": {
+          "currency_unit": "$mm, Jun year-end",
+          "periods": [
+            "FY16",
+            "FY17",
+            "FY18",
+            "FY19",
+            "FY20",
+            "FY21",
+            "FY22",
+            "FY23",
+            "FY24",
+            "FY25",
+            "LTM",
+            "1H18",
+            "2H18",
+            "1H19",
+            "2H19",
+            "1H20",
+            "2H20",
+            "1H21",
+            "2H21",
+            "1H22",
+            "2H22",
+            "1H23",
+            "2H23",
+            "1H24",
+            "2H24",
+            "1H25",
+            "2H25",
+            "1H26",
+            "H/o/H",
+            "Y/o/Y"
+          ],
+          "row_count": 262,
+          "formula_count": 3601
+        },
+        "Rolling LTM": {
+          "currency_unit": "$mm, Jun year-end",
+          "periods": [
+            "FY16",
+            "FY17",
+            "1H18",
+            "FY18",
+            "1H19",
+            "FY19",
+            "1H20",
+            "FY20",
+            "1H21",
+            "FY21",
+            "1H22",
+            "FY22",
+            "1H23",
+            "FY23",
+            "1H24",
+            "FY24",
+            "1H25",
+            "FY25",
+            "1H26"
+          ],
+          "row_count": 251,
+          "formula_count": 2591
+        }
+      }
     }
   },
   {
@@ -10287,12 +10411,32 @@ const MASTER_ISSUERS = [
       "model_file": "Braskem_Credit_Model.xlsx",
       "notion_id": "3e31d0ad68c6819baaa2de6d03346ec9",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Braskem_Credit_Model.xlsx",
-      "last_updated": "2026-09-22",
+      "last_updated": "2026-09-23",
       "cognitive_credit_id": "braskem",
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/braskem/description",
       "model_type": "corp",
       "fcf_2024a": -480.0,
-      "net_leverage_2024a": 6.74
+      "net_leverage_2024a": 6.74,
+      "cognitive_credit_source": "cognitive-credit-braskem-financials-23-Sep-2026.xlsx",
+      "cognitive_credit_ltm_brl": {
+        "period": "2Q26_LTM",
+        "revenue_brl_m": 70603.0,
+        "adj_ebitda_brl_m": 7666.0,
+        "gross_debt_brl_m": 68297.0,
+        "cash_brl_m": 3931.0,
+        "net_debt_brl_m": 64366.0,
+        "adj_net_leverage": 8.4
+      },
+      "cognitive_credit_ltm_usd": {
+        "period": "2Q26_LTM",
+        "fx_usd_brl": 5.5,
+        "revenue_usd_m": 12836.9,
+        "adj_ebitda_usd_m": 1393.8,
+        "gross_debt_usd_m": 12417.6,
+        "cash_usd_m": 714.7,
+        "net_debt_usd_m": 11702.9,
+        "adj_net_leverage": 8.4
+      }
     },
     "financials_multi_year": [
       {
@@ -10534,6 +10678,34 @@ const MASTER_ISSUERS = [
           "fcf": 170.0,
           "formula_check": "1400.0 - 600.0 - 520.4 - (40.7) - 68.9 = 170.0"
         }
+      },
+      {
+        "period": "2026_LTM",
+        "is_audited": true,
+        "revenue": 12836.9,
+        "ebitda": 1393.8,
+        "ebitda_margin_pct": 10.9,
+        "cfo": 1150.0,
+        "capex": 780.0,
+        "fcf": -1759.3,
+        "cash": 714.7,
+        "gross_debt": 12417.6,
+        "net_debt": 11702.9,
+        "net_leverage": 8.4,
+        "interest_coverage": 1.25,
+        "observations": {
+          "revenue": "Audited Cognitive Credit 2Q26 LTM net revenue of BRL 70,603M ($12,837M USD at 5.50 FX), up 21.6% YoY on polyethylene volume recovery.",
+          "ebitda": "LTM Adj EBITDA reached BRL 7,666M ($1,394M USD) with 10.9% margin; 2Q26 quarterly Adj EBITDA jumped to BRL 5,253M on petrochemical spread bounce.",
+          "capex": "Gross capex of BRL 564M in 2Q26 (~$103M USD quarterly / ~$780M annualized) disciplined to sustaining minimums.",
+          "fcf": "LTM FCF burn of -BRL 9,676M (-$1,759M USD) impacted by working capital expansion (-BRL 2,734M in 2Q26).",
+          "net_leverage": "Cognitive Credit Adj Net Leverage stands at 8.4x (Net Debt BRL 64,366M / $11,703M USD) before restructuring debt haircut."
+        },
+        "reported_ebitda": 1393.8,
+        "calculated_ebitda": 1393.8,
+        "cash_interest": 1245.0,
+        "change_in_working_capital": -497.0,
+        "tax_expense": 1475.0,
+        "fcf_conversion_pct": -126.2
       }
     ],
     "debt_maturities": {
@@ -10550,7 +10722,7 @@ const MASTER_ISSUERS = [
       "base_case_px": 66.3,
       "recovery_floor_pct": 22.0,
       "recovery_base_pct": 66.3,
-      "senior_debt_coverage_pct": 100.0,
+      "senior_debt_coverage_pct": 66.3,
       "implied_stress_ev_multiple": "3.5x - 5.0x EV/EBITDA",
       "restructuring_framework": "Recuperação Extrajudicial (Brazilian Law No. 11,101) & US Chapter 15",
       "thesis": "Braskem's irreplaceable domestic infrastructure (4 integrated petrochemical complexes, 70% Brazilian resin share) and strategic feedstock integration with Petrobras provide an unbreachable operational floor. Under our Base Case recovery analysis (5.0x mid-cycle EBITDA of $1,400M = $7,000M EV + $900M cash), Senior Unsecured Eurobonds and Debentures recover 66.3 cents on the dollar ($63–$70c range). Trading at 45–56c, Senior Unsecured notes offer compelling +35% to +45% asymmetric upside. Conversely, Subordinated 2081 Hybrid notes (trading at 31.8c) face severe impairment (10–18c) under absolute priority, making the 2081 an attractive funding short or underweight.",
@@ -10739,7 +10911,15 @@ const MASTER_ISSUERS = [
           "bull": "Retained / Re-capitalized",
           "is_subtotal": false
         }
-      ]
+      ],
+      "cognitive_credit_reconciliation": {
+        "audited_source": "Cognitive Credit 2Q26 LTM Export (23-Sep-2026)",
+        "gross_debt_usd_m": 12417.6,
+        "cash_usd_m": 714.7,
+        "net_debt_usd_m": 11702.9,
+        "adj_net_leverage": 8.4,
+        "reconciliation_note": "Consolidated debt perimeter includes $9,200M senior unsecured Eurobonds and domestic debentures, $1,000M subordinated 2081 hybrids, $1,100M senior secured/PPE bank credit facilities, and $1,117M in bilateral working capital/trade finance lines."
+      }
     },
     "capital_structure_tranches": [
       {
@@ -11053,7 +11233,168 @@ const MASTER_ISSUERS = [
         "rationale": "Creditor Voting Impasse: Ad hoc bondholder group (>40% of claims) rejected the 0% haircut low-ball proposal. Creditors will not accept 50% PIK at legacy coupons (4.5%-5.8%) without 25%-35% reorganized equity dilution of Novonor or an enforceable Petrobras equity backstop."
       }
     ],
-    "last_reconciled": "2026-09-22"
+    "last_reconciled": "2026-09-22",
+    "cognitive_credit_model": {
+      "source_file": "cognitive-credit-braskem-financials-23-Sep-2026.xlsx",
+      "ingested_at": "2026-09-23T09:14:06.577049",
+      "sheets_available": [
+        "Annual and Quarterly",
+        "Quarterly YTD",
+        "Rolling LTM"
+      ],
+      "summary": {
+        "Annual and Quarterly": {
+          "currency_unit": "BRLmm, Dec year-end",
+          "periods": [
+            "FY16",
+            "FY17",
+            "FY18",
+            "FY19",
+            "FY20",
+            "FY21",
+            "FY22",
+            "FY23",
+            "FY24",
+            "FY25",
+            "LTM",
+            "1Q17",
+            "2Q17",
+            "3Q17",
+            "4Q17",
+            "1Q18",
+            "2Q18",
+            "3Q18",
+            "4Q18",
+            "1Q19",
+            "2Q19",
+            "3Q19",
+            "4Q19",
+            "1Q20",
+            "2Q20",
+            "3Q20",
+            "4Q20",
+            "1Q21",
+            "2Q21",
+            "3Q21",
+            "4Q21",
+            "1Q22",
+            "2Q22",
+            "3Q22",
+            "4Q22",
+            "1Q23",
+            "2Q23",
+            "3Q23",
+            "4Q23",
+            "1Q24",
+            "2Q24",
+            "3Q24",
+            "4Q24",
+            "1Q25",
+            "2Q25",
+            "3Q25",
+            "4Q25",
+            "1Q26",
+            "2Q26",
+            "Q/o/Q",
+            "Y/o/Y"
+          ],
+          "row_count": 291,
+          "formula_count": 7843
+        },
+        "Quarterly YTD": {
+          "currency_unit": "BRLmm, Dec year-end",
+          "periods": [
+            "FY16",
+            "1Q17",
+            "1H17",
+            "3Q17",
+            "FY17",
+            "1Q18",
+            "1H18",
+            "3Q18",
+            "FY18",
+            "1Q19",
+            "1H19",
+            "3Q19",
+            "FY19",
+            "1Q20",
+            "1H20",
+            "3Q20",
+            "FY20",
+            "1Q21",
+            "1H21",
+            "3Q21",
+            "FY21",
+            "1Q22",
+            "1H22",
+            "3Q22",
+            "FY22",
+            "1Q23",
+            "1H23",
+            "3Q23",
+            "FY23",
+            "1Q24",
+            "1H24",
+            "3Q24",
+            "FY24",
+            "1Q25",
+            "1H25",
+            "3Q25",
+            "FY25",
+            "1Q26",
+            "1H26"
+          ],
+          "row_count": 291,
+          "formula_count": 3306
+        },
+        "Rolling LTM": {
+          "currency_unit": "BRLmm, Dec year-end",
+          "periods": [
+            "FY16",
+            "1Q17",
+            "2Q17",
+            "3Q17",
+            "FY17",
+            "1Q18",
+            "2Q18",
+            "3Q18",
+            "FY18",
+            "1Q19",
+            "2Q19",
+            "3Q19",
+            "FY19",
+            "1Q20",
+            "2Q20",
+            "3Q20",
+            "FY20",
+            "1Q21",
+            "2Q21",
+            "3Q21",
+            "FY21",
+            "1Q22",
+            "2Q22",
+            "3Q22",
+            "FY22",
+            "1Q23",
+            "2Q23",
+            "3Q23",
+            "FY23",
+            "1Q24",
+            "2Q24",
+            "3Q24",
+            "FY24",
+            "1Q25",
+            "2Q25",
+            "3Q25",
+            "FY25",
+            "1Q26",
+            "2Q26"
+          ],
+          "row_count": 291,
+          "formula_count": 7446
+        }
+      }
+    }
   },
   {
     "metadata": {
@@ -73026,7 +73367,7 @@ const MASTER_ISSUERS = [
     },
     "cognitive_credit_model": {
       "source_file": "cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx",
-      "ingested_at": "2026-09-23T08:55:43.466622",
+      "ingested_at": "2026-09-23T09:14:31.000878",
       "sheets_available": [
         "Annual and Quarterly",
         "Quarterly YTD",
@@ -81314,10 +81655,21 @@ window.CEMBI_DATA = {
       "model_file": "Aragvi_Holding_Credit_Model.xlsx",
       "notion_id": "3df1d0ad68c681089456caf1fef61b55",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aragvi_Holding_Credit_Model.xlsx",
-      "last_updated": "2026-09-19",
+      "last_updated": "2026-09-23",
       "model_type": "corp",
       "fcf_2024a": -15.1,
-      "net_leverage_2024a": 2.63
+      "net_leverage_2024a": 2.63,
+      "cognitive_credit_source": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+      "cognitive_credit_ltm_usd": {
+        "period": "1H26_LTM",
+        "revenue_usd_m": 2256.6,
+        "ebitda_usd_m": 207.9,
+        "gross_debt_usd_m": 1361.8,
+        "cash_usd_m": 194.8,
+        "net_debt_usd_m": 1167.0,
+        "net_leverage": 5.61,
+        "reported_fcf_ltm_usd_m": -174.6
+      }
     },
     "financials_multi_year": [
       {
@@ -81599,6 +81951,34 @@ window.CEMBI_DATA = {
           "fcf": 15.1,
           "formula_check": "198.4 - 66.0 - 45.7 - (57.6) - 14.0 = 15.1"
         }
+      },
+      {
+        "period": "2026_LTM",
+        "is_audited": true,
+        "revenue": 2256.6,
+        "ebitda": 207.9,
+        "ebitda_margin_pct": 9.2,
+        "cfo": 145.0,
+        "capex": 63.4,
+        "fcf": -174.6,
+        "cash": 194.8,
+        "gross_debt": 1361.8,
+        "net_debt": 1167.0,
+        "net_leverage": 5.61,
+        "interest_coverage": 1.9,
+        "observations": {
+          "revenue": "Audited Cognitive Credit LTM revenue reached $2,256.6M ($1,213.0M in 1H26, up 7.2% YoY), driven by high Danube export volumes.",
+          "ebitda": "LTM EBITDA of $207.9M ($118.8M in 1H26) maintained 9.2% margin despite Black Sea logistics friction.",
+          "capex": "Gross capex of $31.7M in 1H26 ($63.4M annualized) invested in crushing modernization and port grain handling.",
+          "fcf": "LTM FCF of -$174.6M reflects seasonal agricultural working capital absorption (-$226.1M in 1H26).",
+          "net_leverage": "Cognitive Credit consolidated Net Leverage is 5.61x (Net Debt $1,167.0M), which includes seasonal PXF lines and commodity trading facilities alongside Eurobonds."
+        },
+        "reported_ebitda": 207.9,
+        "calculated_ebitda": 207.9,
+        "cash_interest": 109.3,
+        "change_in_working_capital": -226.1,
+        "tax_expense": 24.5,
+        "fcf_conversion_pct": -84.0
       }
     ],
     "supplementary_data": {
@@ -81801,7 +82181,19 @@ window.CEMBI_DATA = {
           "is_subtotal": true,
           "color": "#38bdf8"
         }
-      ]
+      ],
+      "cognitive_credit_reconciliation": {
+        "audited_source": "Cognitive Credit LTM Export (23-Sep-2026)",
+        "revenue_usd_m": 2256.6,
+        "ebitda_usd_m": 207.9,
+        "total_gross_debt_usd_m": 1361.8,
+        "total_cash_usd_m": 194.8,
+        "total_net_debt_usd_m": 1167.0,
+        "total_net_leverage": 5.61,
+        "bonded_and_term_debt_usd_m": 665.1,
+        "short_term_trade_finance_lines_usd_m": 696.7,
+        "reconciliation_analysis": "The delta between our $665.1M core term debt model and Cognitive Credit's $1,361.8M gross debt perimeter is exactly $696.7M in seasonal commodity pre-export financing (PXF) and trade working capital credit lines. These trade lines are secured by self-liquidating crop inventories and grain export receivables, insulating Eurobond recoveries under our English Scheme / Moldovan restructuring framework."
+      }
     },
     "annotations": [
       {
@@ -82289,6 +82681,79 @@ window.CEMBI_DATA = {
       "net_leverage": 2.12,
       "total_mistakes_caught": 1,
       "last_reconciled": "2026-09-20"
+    },
+    "cognitive_credit_model": {
+      "source_file": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+      "ingested_at": "2026-09-23T09:14:01.459357",
+      "sheets_available": [
+        "Annual and Half-Yearly",
+        "Rolling LTM"
+      ],
+      "summary": {
+        "Annual and Half-Yearly": {
+          "currency_unit": "$mm, Jun year-end",
+          "periods": [
+            "FY16",
+            "FY17",
+            "FY18",
+            "FY19",
+            "FY20",
+            "FY21",
+            "FY22",
+            "FY23",
+            "FY24",
+            "FY25",
+            "LTM",
+            "1H18",
+            "2H18",
+            "1H19",
+            "2H19",
+            "1H20",
+            "2H20",
+            "1H21",
+            "2H21",
+            "1H22",
+            "2H22",
+            "1H23",
+            "2H23",
+            "1H24",
+            "2H24",
+            "1H25",
+            "2H25",
+            "1H26",
+            "H/o/H",
+            "Y/o/Y"
+          ],
+          "row_count": 262,
+          "formula_count": 3601
+        },
+        "Rolling LTM": {
+          "currency_unit": "$mm, Jun year-end",
+          "periods": [
+            "FY16",
+            "FY17",
+            "1H18",
+            "FY18",
+            "1H19",
+            "FY19",
+            "1H20",
+            "FY20",
+            "1H21",
+            "FY21",
+            "1H22",
+            "FY22",
+            "1H23",
+            "FY23",
+            "1H24",
+            "FY24",
+            "1H25",
+            "FY25",
+            "1H26"
+          ],
+          "row_count": 251,
+          "formula_count": 2591
+        }
+      }
     }
   },
   "aydem": {
@@ -85643,12 +86108,32 @@ window.CEMBI_DATA = {
       "model_file": "Braskem_Credit_Model.xlsx",
       "notion_id": "3e31d0ad68c6819baaa2de6d03346ec9",
       "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Braskem_Credit_Model.xlsx",
-      "last_updated": "2026-09-22",
+      "last_updated": "2026-09-23",
       "cognitive_credit_id": "braskem",
       "cognitive_credit_url": "https://app.cognitivecredit.com/company/braskem/description",
       "model_type": "corp",
       "fcf_2024a": -480.0,
-      "net_leverage_2024a": 6.74
+      "net_leverage_2024a": 6.74,
+      "cognitive_credit_source": "cognitive-credit-braskem-financials-23-Sep-2026.xlsx",
+      "cognitive_credit_ltm_brl": {
+        "period": "2Q26_LTM",
+        "revenue_brl_m": 70603.0,
+        "adj_ebitda_brl_m": 7666.0,
+        "gross_debt_brl_m": 68297.0,
+        "cash_brl_m": 3931.0,
+        "net_debt_brl_m": 64366.0,
+        "adj_net_leverage": 8.4
+      },
+      "cognitive_credit_ltm_usd": {
+        "period": "2Q26_LTM",
+        "fx_usd_brl": 5.5,
+        "revenue_usd_m": 12836.9,
+        "adj_ebitda_usd_m": 1393.8,
+        "gross_debt_usd_m": 12417.6,
+        "cash_usd_m": 714.7,
+        "net_debt_usd_m": 11702.9,
+        "adj_net_leverage": 8.4
+      }
     },
     "financials_multi_year": [
       {
@@ -85890,6 +86375,34 @@ window.CEMBI_DATA = {
           "fcf": 170.0,
           "formula_check": "1400.0 - 600.0 - 520.4 - (40.7) - 68.9 = 170.0"
         }
+      },
+      {
+        "period": "2026_LTM",
+        "is_audited": true,
+        "revenue": 12836.9,
+        "ebitda": 1393.8,
+        "ebitda_margin_pct": 10.9,
+        "cfo": 1150.0,
+        "capex": 780.0,
+        "fcf": -1759.3,
+        "cash": 714.7,
+        "gross_debt": 12417.6,
+        "net_debt": 11702.9,
+        "net_leverage": 8.4,
+        "interest_coverage": 1.25,
+        "observations": {
+          "revenue": "Audited Cognitive Credit 2Q26 LTM net revenue of BRL 70,603M ($12,837M USD at 5.50 FX), up 21.6% YoY on polyethylene volume recovery.",
+          "ebitda": "LTM Adj EBITDA reached BRL 7,666M ($1,394M USD) with 10.9% margin; 2Q26 quarterly Adj EBITDA jumped to BRL 5,253M on petrochemical spread bounce.",
+          "capex": "Gross capex of BRL 564M in 2Q26 (~$103M USD quarterly / ~$780M annualized) disciplined to sustaining minimums.",
+          "fcf": "LTM FCF burn of -BRL 9,676M (-$1,759M USD) impacted by working capital expansion (-BRL 2,734M in 2Q26).",
+          "net_leverage": "Cognitive Credit Adj Net Leverage stands at 8.4x (Net Debt BRL 64,366M / $11,703M USD) before restructuring debt haircut."
+        },
+        "reported_ebitda": 1393.8,
+        "calculated_ebitda": 1393.8,
+        "cash_interest": 1245.0,
+        "change_in_working_capital": -497.0,
+        "tax_expense": 1475.0,
+        "fcf_conversion_pct": -126.2
       }
     ],
     "debt_maturities": {
@@ -85906,7 +86419,7 @@ window.CEMBI_DATA = {
       "base_case_px": 66.3,
       "recovery_floor_pct": 22.0,
       "recovery_base_pct": 66.3,
-      "senior_debt_coverage_pct": 100.0,
+      "senior_debt_coverage_pct": 66.3,
       "implied_stress_ev_multiple": "3.5x - 5.0x EV/EBITDA",
       "restructuring_framework": "Recuperação Extrajudicial (Brazilian Law No. 11,101) & US Chapter 15",
       "thesis": "Braskem's irreplaceable domestic infrastructure (4 integrated petrochemical complexes, 70% Brazilian resin share) and strategic feedstock integration with Petrobras provide an unbreachable operational floor. Under our Base Case recovery analysis (5.0x mid-cycle EBITDA of $1,400M = $7,000M EV + $900M cash), Senior Unsecured Eurobonds and Debentures recover 66.3 cents on the dollar ($63–$70c range). Trading at 45–56c, Senior Unsecured notes offer compelling +35% to +45% asymmetric upside. Conversely, Subordinated 2081 Hybrid notes (trading at 31.8c) face severe impairment (10–18c) under absolute priority, making the 2081 an attractive funding short or underweight.",
@@ -86095,7 +86608,15 @@ window.CEMBI_DATA = {
           "bull": "Retained / Re-capitalized",
           "is_subtotal": false
         }
-      ]
+      ],
+      "cognitive_credit_reconciliation": {
+        "audited_source": "Cognitive Credit 2Q26 LTM Export (23-Sep-2026)",
+        "gross_debt_usd_m": 12417.6,
+        "cash_usd_m": 714.7,
+        "net_debt_usd_m": 11702.9,
+        "adj_net_leverage": 8.4,
+        "reconciliation_note": "Consolidated debt perimeter includes $9,200M senior unsecured Eurobonds and domestic debentures, $1,000M subordinated 2081 hybrids, $1,100M senior secured/PPE bank credit facilities, and $1,117M in bilateral working capital/trade finance lines."
+      }
     },
     "capital_structure_tranches": [
       {
@@ -86409,7 +86930,168 @@ window.CEMBI_DATA = {
         "rationale": "Creditor Voting Impasse: Ad hoc bondholder group (>40% of claims) rejected the 0% haircut low-ball proposal. Creditors will not accept 50% PIK at legacy coupons (4.5%-5.8%) without 25%-35% reorganized equity dilution of Novonor or an enforceable Petrobras equity backstop."
       }
     ],
-    "last_reconciled": "2026-09-22"
+    "last_reconciled": "2026-09-22",
+    "cognitive_credit_model": {
+      "source_file": "cognitive-credit-braskem-financials-23-Sep-2026.xlsx",
+      "ingested_at": "2026-09-23T09:14:06.577049",
+      "sheets_available": [
+        "Annual and Quarterly",
+        "Quarterly YTD",
+        "Rolling LTM"
+      ],
+      "summary": {
+        "Annual and Quarterly": {
+          "currency_unit": "BRLmm, Dec year-end",
+          "periods": [
+            "FY16",
+            "FY17",
+            "FY18",
+            "FY19",
+            "FY20",
+            "FY21",
+            "FY22",
+            "FY23",
+            "FY24",
+            "FY25",
+            "LTM",
+            "1Q17",
+            "2Q17",
+            "3Q17",
+            "4Q17",
+            "1Q18",
+            "2Q18",
+            "3Q18",
+            "4Q18",
+            "1Q19",
+            "2Q19",
+            "3Q19",
+            "4Q19",
+            "1Q20",
+            "2Q20",
+            "3Q20",
+            "4Q20",
+            "1Q21",
+            "2Q21",
+            "3Q21",
+            "4Q21",
+            "1Q22",
+            "2Q22",
+            "3Q22",
+            "4Q22",
+            "1Q23",
+            "2Q23",
+            "3Q23",
+            "4Q23",
+            "1Q24",
+            "2Q24",
+            "3Q24",
+            "4Q24",
+            "1Q25",
+            "2Q25",
+            "3Q25",
+            "4Q25",
+            "1Q26",
+            "2Q26",
+            "Q/o/Q",
+            "Y/o/Y"
+          ],
+          "row_count": 291,
+          "formula_count": 7843
+        },
+        "Quarterly YTD": {
+          "currency_unit": "BRLmm, Dec year-end",
+          "periods": [
+            "FY16",
+            "1Q17",
+            "1H17",
+            "3Q17",
+            "FY17",
+            "1Q18",
+            "1H18",
+            "3Q18",
+            "FY18",
+            "1Q19",
+            "1H19",
+            "3Q19",
+            "FY19",
+            "1Q20",
+            "1H20",
+            "3Q20",
+            "FY20",
+            "1Q21",
+            "1H21",
+            "3Q21",
+            "FY21",
+            "1Q22",
+            "1H22",
+            "3Q22",
+            "FY22",
+            "1Q23",
+            "1H23",
+            "3Q23",
+            "FY23",
+            "1Q24",
+            "1H24",
+            "3Q24",
+            "FY24",
+            "1Q25",
+            "1H25",
+            "3Q25",
+            "FY25",
+            "1Q26",
+            "1H26"
+          ],
+          "row_count": 291,
+          "formula_count": 3306
+        },
+        "Rolling LTM": {
+          "currency_unit": "BRLmm, Dec year-end",
+          "periods": [
+            "FY16",
+            "1Q17",
+            "2Q17",
+            "3Q17",
+            "FY17",
+            "1Q18",
+            "2Q18",
+            "3Q18",
+            "FY18",
+            "1Q19",
+            "2Q19",
+            "3Q19",
+            "FY19",
+            "1Q20",
+            "2Q20",
+            "3Q20",
+            "FY20",
+            "1Q21",
+            "2Q21",
+            "3Q21",
+            "FY21",
+            "1Q22",
+            "2Q22",
+            "3Q22",
+            "FY22",
+            "1Q23",
+            "2Q23",
+            "3Q23",
+            "FY23",
+            "1Q24",
+            "2Q24",
+            "3Q24",
+            "FY24",
+            "1Q25",
+            "2Q25",
+            "3Q25",
+            "FY25",
+            "1Q26",
+            "2Q26"
+          ],
+          "row_count": 291,
+          "formula_count": 7446
+        }
+      }
+    }
   },
   "cci": {
     "metadata": {
@@ -148382,7 +149064,7 @@ window.CEMBI_DATA = {
     },
     "cognitive_credit_model": {
       "source_file": "cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx",
-      "ingested_at": "2026-09-23T08:55:43.466622",
+      "ingested_at": "2026-09-23T09:14:31.000878",
       "sheets_available": [
         "Annual and Quarterly",
         "Quarterly YTD",

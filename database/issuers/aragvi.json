@@ -16,10 +16,21 @@
     "model_file": "Aragvi_Holding_Credit_Model.xlsx",
     "notion_id": "3df1d0ad68c681089456caf1fef61b55",
     "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aragvi_Holding_Credit_Model.xlsx",
-    "last_updated": "2026-09-19",
+    "last_updated": "2026-09-23",
     "model_type": "corp",
     "fcf_2024a": -15.1,
-    "net_leverage_2024a": 2.63
+    "net_leverage_2024a": 2.63,
+    "cognitive_credit_source": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+    "cognitive_credit_ltm_usd": {
+      "period": "1H26_LTM",
+      "revenue_usd_m": 2256.6,
+      "ebitda_usd_m": 207.9,
+      "gross_debt_usd_m": 1361.8,
+      "cash_usd_m": 194.8,
+      "net_debt_usd_m": 1167.0,
+      "net_leverage": 5.61,
+      "reported_fcf_ltm_usd_m": -174.6
+    }
   },
   "financials_multi_year": [
     {
@@ -301,6 +312,34 @@
         "fcf": 15.1,
         "formula_check": "198.4 - 66.0 - 45.7 - (57.6) - 14.0 = 15.1"
       }
+    },
+    {
+      "period": "2026_LTM",
+      "is_audited": true,
+      "revenue": 2256.6,
+      "ebitda": 207.9,
+      "ebitda_margin_pct": 9.2,
+      "cfo": 145.0,
+      "capex": 63.4,
+      "fcf": -174.6,
+      "cash": 194.8,
+      "gross_debt": 1361.8,
+      "net_debt": 1167.0,
+      "net_leverage": 5.61,
+      "interest_coverage": 1.9,
+      "observations": {
+        "revenue": "Audited Cognitive Credit LTM revenue reached $2,256.6M ($1,213.0M in 1H26, up 7.2% YoY), driven by high Danube export volumes.",
+        "ebitda": "LTM EBITDA of $207.9M ($118.8M in 1H26) maintained 9.2% margin despite Black Sea logistics friction.",
+        "capex": "Gross capex of $31.7M in 1H26 ($63.4M annualized) invested in crushing modernization and port grain handling.",
+        "fcf": "LTM FCF of -$174.6M reflects seasonal agricultural working capital absorption (-$226.1M in 1H26).",
+        "net_leverage": "Cognitive Credit consolidated Net Leverage is 5.61x (Net Debt $1,167.0M), which includes seasonal PXF lines and commodity trading facilities alongside Eurobonds."
+      },
+      "reported_ebitda": 207.9,
+      "calculated_ebitda": 207.9,
+      "cash_interest": 109.3,
+      "change_in_working_capital": -226.1,
+      "tax_expense": 24.5,
+      "fcf_conversion_pct": -84.0
     }
   ],
   "supplementary_data": {
@@ -503,7 +542,19 @@
         "is_subtotal": true,
         "color": "#38bdf8"
       }
-    ]
+    ],
+    "cognitive_credit_reconciliation": {
+      "audited_source": "Cognitive Credit LTM Export (23-Sep-2026)",
+      "revenue_usd_m": 2256.6,
+      "ebitda_usd_m": 207.9,
+      "total_gross_debt_usd_m": 1361.8,
+      "total_cash_usd_m": 194.8,
+      "total_net_debt_usd_m": 1167.0,
+      "total_net_leverage": 5.61,
+      "bonded_and_term_debt_usd_m": 665.1,
+      "short_term_trade_finance_lines_usd_m": 696.7,
+      "reconciliation_analysis": "The delta between our $665.1M core term debt model and Cognitive Credit's $1,361.8M gross debt perimeter is exactly $696.7M in seasonal commodity pre-export financing (PXF) and trade working capital credit lines. These trade lines are secured by self-liquidating crop inventories and grain export receivables, insulating Eurobond recoveries under our English Scheme / Moldovan restructuring framework."
+    }
   },
   "annotations": [
     {
@@ -991,5 +1042,78 @@
     "net_leverage": 2.12,
     "total_mistakes_caught": 1,
     "last_reconciled": "2026-09-20"
+  },
+  "cognitive_credit_model": {
+    "source_file": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+    "ingested_at": "2026-09-23T09:14:01.459357",
+    "sheets_available": [
+      "Annual and Half-Yearly",
+      "Rolling LTM"
+    ],
+    "summary": {
+      "Annual and Half-Yearly": {
+        "currency_unit": "$mm, Jun year-end",
+        "periods": [
+          "FY16",
+          "FY17",
+          "FY18",
+          "FY19",
+          "FY20",
+          "FY21",
+          "FY22",
+          "FY23",
+          "FY24",
+          "FY25",
+          "LTM",
+          "1H18",
+          "2H18",
+          "1H19",
+          "2H19",
+          "1H20",
+          "2H20",
+          "1H21",
+          "2H21",
+          "1H22",
+          "2H22",
+          "1H23",
+          "2H23",
+          "1H24",
+          "2H24",
+          "1H25",
+          "2H25",
+          "1H26",
+          "H/o/H",
+          "Y/o/Y"
+        ],
+        "row_count": 262,
+        "formula_count": 3601
+      },
+      "Rolling LTM": {
+        "currency_unit": "$mm, Jun year-end",
+        "periods": [
+          "FY16",
+          "FY17",
+          "1H18",
+          "FY18",
+          "1H19",
+          "FY19",
+          "1H20",
+          "FY20",
+          "1H21",
+          "FY21",
+          "1H22",
+          "FY22",
+          "1H23",
+          "FY23",
+          "1H24",
+          "FY24",
+          "1H25",
+          "FY25",
+          "1H26"
+        ],
+        "row_count": 251,
+        "formula_count": 2591
+      }
+    }
   }
 }

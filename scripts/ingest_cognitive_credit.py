@@ -71,7 +71,10 @@ CC_MAPPING = {
     'hidroelectrica': 'hidro',
     'pknorlen': 'pkn',
     'pge': 'pge',
-    'cez': 'cez'
+    'cez': 'cez',
+    'braskem': 'braskem',
+    'transoil': 'aragvi',
+    'aragvi': 'aragvi'
 }
 
 def scan_downloads():

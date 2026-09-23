@@ -2182,6 +2182,46 @@ function renderCovenantsAndRecovery() {
     `;
   }
 
+  let ccReconHtml = '';
+  if (rec.cognitive_credit_reconciliation) {
+    const ccr = rec.cognitive_credit_reconciliation;
+    const gd = ccr.gross_debt_usd_m || ccr.total_gross_debt_usd_m || 0;
+    const cs = ccr.cash_usd_m || ccr.total_cash_usd_m || 0;
+    const nd = ccr.net_debt_usd_m || ccr.total_net_debt_usd_m || 0;
+    const nl = ccr.adj_net_leverage || ccr.total_net_leverage || 0;
+    ccReconHtml = `
+      <div style="margin-top:14px; background:rgba(15,23,42,0.9); border:1px solid rgba(56,189,248,0.35); border-radius:6px; padding:12px 14px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+          <div style="font-size:11px; font-weight:700; color:#38bdf8; text-transform:uppercase;">
+            🔗 Cognitive Credit Audited Debt &amp; Leverage Baseline
+          </div>
+          <span class="badge badge-ig" style="font-size:9px;">${escapeHtml(ccr.audited_source || 'Cognitive Credit')}</span>
+        </div>
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap:8px; font-size:11px; margin-bottom:8px;">
+          <div style="background:rgba(0,0,0,0.3); padding:6px 8px; border-radius:4px; border:1px solid #1e293b;">
+            <div style="color:#94a3b8; font-size:9px; text-transform:uppercase;">Gross Debt</div>
+            <strong style="color:#f87171; font-family:'JetBrains Mono',monospace;">$${gd.toLocaleString()}M</strong>
+          </div>
+          <div style="background:rgba(0,0,0,0.3); padding:6px 8px; border-radius:4px; border:1px solid #1e293b;">
+            <div style="color:#94a3b8; font-size:9px; text-transform:uppercase;">Cash Cushion</div>
+            <strong style="color:#34d399; font-family:'JetBrains Mono',monospace;">$${cs.toLocaleString()}M</strong>
+          </div>
+          <div style="background:rgba(0,0,0,0.3); padding:6px 8px; border-radius:4px; border:1px solid #1e293b;">
+            <div style="color:#94a3b8; font-size:9px; text-transform:uppercase;">Net Debt</div>
+            <strong style="color:#fff; font-family:'JetBrains Mono',monospace;">$${nd.toLocaleString()}M</strong>
+          </div>
+          <div style="background:rgba(0,0,0,0.3); padding:6px 8px; border-radius:4px; border:1px solid #1e293b;">
+            <div style="color:#94a3b8; font-size:9px; text-transform:uppercase;">Net Leverage</div>
+            <strong style="color:#fbbf24; font-family:'JetBrains Mono',monospace;">${nl.toFixed(2)}x</strong>
+          </div>
+        </div>
+        <div style="font-size:11px; color:#cbd5e1; line-height:1.4;">
+          ${escapeHtml(ccr.reconciliation_note || ccr.reconciliation_analysis || '')}
+        </div>
+      </div>
+    `;
+  }
+
   recDiv.innerHTML = `
     <div style="background:#0d1525; border:1px solid #1e2d45; border-radius:8px; padding:16px;">
       <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
@@ -2199,6 +2239,7 @@ function renderCovenantsAndRecovery() {
       <div style="margin-top:12px; padding-top:8px; border-top:1px solid #1a2538; font-size:12px; color:#cbd5e1; line-height:1.5;">
         ${rec.recovery_commentary || 'Recovery anchored by primary operating assets, physical export infrastructure, and minimum liquidation value under distressed restructuring scenarios.'}
       </div>
+      ${ccReconHtml}
       ${scenariosHtml}
       ${currentIssuer.metadata.id === 'braskem' ? `
         <div style="margin-top:14px; background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
