@@ -7,19 +7,22 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-main: #0a0e1a;
-      --bg-card: #121929;
-      --bg-card-sub: #172237;
-      --border-color: #1e2c45;
-      --border-highlight: #2c4166;
-      --text-main: #f1f5f9;
-      --text-muted: #8493a8;
-      --accent-cyan: #38bdf8;
-      --accent-emerald: #10b981;
-      --accent-rose: #f43f5e;
-      --accent-amber: #f59e0b;
-      --accent-gold: #fbbf24;
-      --accent-purple: #c084fc;
+      color-scheme: light;
+      --bg-main: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-card-sub: #f1f5f9;
+      --bg-hover: #e2e8f0;
+      --border-color: #e2e8f0;
+      --border-highlight: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-dim: #64748b;
+      --accent-cyan: #0071e3;
+      --accent-emerald: #15803d;
+      --accent-rose: #dc2626;
+      --accent-amber: #b45309;
+      --accent-gold: #b45309;
+      --accent-purple: #7c3aed;
     }
 
     * {
@@ -43,7 +46,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(18, 25, 41, 0.96);
+      background: rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(10px);
       border: 1px solid var(--border-highlight);
       border-radius: 8px;
@@ -54,7 +57,7 @@
       align-items: center;
       flex-wrap: wrap;
       gap: 12px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
     }
 
     .brand-section {
@@ -66,7 +69,7 @@
     .brand-title {
       font-size: 13px;
       font-weight: 700;
-      color: #fff;
+      color: var(--text-main);
       display: flex;
       align-items: center;
       gap: 8px;

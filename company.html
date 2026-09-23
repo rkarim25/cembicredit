@@ -32,12 +32,12 @@
     <nav>
       <a href="index.html" class="nav-link">Comp Sheet & Screener</a>
       <a href="javascript:void(0)" class="nav-link active" id="nav-dedicated-link">Company Page</a>
-      <a href="local_em.html" class="nav-link" style="color:#38bdf8; font-weight:700;">🌐 GBI-EM Desk</a>
-      <a href="cdx.html" class="nav-link" style="color:#c084fc; font-weight:700;">📊 CDX Desk</a>
-      <a href="ust.html" class="nav-link" style="color:#34d399; font-weight:700;">📈 UST Curve</a>
-      <a href="braskem_calculator.html" class="nav-link" style="color:#fb7185; font-weight:700;" title="Braskem Reorg & Haircut Engine">🔨 Braskem</a>
-      <a href="zoren_calculator.html" class="nav-link" style="color:#fb7185; font-weight:700;" title="Zorlu Enerji Creditor Recovery Waterfall">⚡ Zorlu</a>
-      <a href="aragvi_calculator.html" class="nav-link" style="color:#fb7185; font-weight:700;" title="Aragvi Agro SOTP Valuation">🌻 Aragvi</a>
+      <a href="local_em.html" class="nav-link" style="color:#0284c7; font-weight:700;">🌐 GBI-EM Desk</a>
+      <a href="cdx.html" class="nav-link" style="color:#7c3aed; font-weight:700;">📊 CDX Desk</a>
+      <a href="ust.html" class="nav-link" style="color:#059669; font-weight:700;">📈 UST Curve</a>
+      <a href="braskem_calculator.html" class="nav-link" style="color:#e11d48; font-weight:700;" title="Braskem Reorg & Haircut Engine">🔨 Braskem</a>
+      <a href="zoren_calculator.html" class="nav-link" style="color:#e11d48; font-weight:700;" title="Zorlu Enerji Creditor Recovery Waterfall">⚡ Zorlu</a>
+      <a href="aragvi_calculator.html" class="nav-link" style="color:#e11d48; font-weight:700;" title="Aragvi Agro SOTP Valuation">🌻 Aragvi</a>
       <a href="trends.html" class="nav-link">Zero-AI Trends</a>
       <a href="notes.html" class="nav-link">Footnotes</a>
       <a href="https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEMBI_Master_Comp_Sheet.xlsx" class="btn-action btn-primary" download>
@@ -54,7 +54,7 @@
     <div class="company-breadcrumb">
       <a href="index.html">← Back to Master Screener</a>
       <span class="sep">/</span>
-      <span id="bc-company-name" style="font-weight:600; color:#f3f4f6;">Loading Issuer...</span>
+      <span id="bc-company-name" style="font-weight:600; color:var(--text-main);">Loading Issuer...</span>
       <span class="sep">/</span>
       <span id="bc-tab-label" style="color:var(--text-dim);">Financial Model</span>
     </div>
@@ -79,23 +79,23 @@
         </div>
         <div class="company-hero-meta">
           <span>Country: <strong id="hero-country">--</strong></span>
-          <span style="color:#334155;">&bull;</span>
+          <span style="color:#cbd5e1;">&bull;</span>
           <span>Region: <strong id="hero-region">--</strong></span>
-          <span style="color:#334155;">&bull;</span>
+          <span style="color:#cbd5e1;">&bull;</span>
           <span>Benchmark Bond: <strong id="hero-bond" style="color:var(--accent-gold);">--</strong></span>
-          <span style="color:#334155;">&bull;</span>
-          <span>Next Earnings / Filing: <strong id="hero-earnings" style="color:#38bdf8;">--</strong></span>
+          <span style="color:#cbd5e1;">&bull;</span>
+          <span>Next Earnings / Filing: <strong id="hero-earnings" style="color:#0071e3;">--</strong></span>
         </div>
       </div>
 
       <div class="company-hero-actions">
-        <button class="btn-action" onclick="openNotionIntakeModal()" style="padding:6px 12px; font-size:12px; background:rgba(59,130,246,0.15); border-color:#3b82f6; color:#93c5fd;" title="Ingest or paste broker research and run analyst error auditor">
+        <button class="btn-action" onclick="openNotionIntakeModal()" style="padding:6px 12px; font-size:12px; background:#eff6ff; border-color:#bfdbfe; color:#1d4ed8;" title="Ingest or paste broker research and run analyst error auditor">
           ⚡ Ingest Research / Notion
         </button>
-        <a id="hero-background-btn" href="braskem_background.html" class="btn-action" style="display:none; padding:6px 12px; font-size:12px; background:rgba(56,189,248,0.15); border-color:#38bdf8; color:#93c5fd; font-weight:700;" title="Deep dive into asset inputs/outputs, EV volatility & interactive pricing engine">
+        <a id="hero-background-btn" href="braskem_background.html" class="btn-action" style="display:none; padding:6px 12px; font-size:12px; background:#eff6ff; border-color:#bfdbfe; color:#0284c7; font-weight:700;" title="Deep dive into asset inputs/outputs, EV volatility & interactive pricing engine">
           📖 Asset Deep Dive &amp; EV Vol
         </a>
-        <a id="hero-calculator-btn" href="braskem_calculator.html" class="btn-action" style="display:none; padding:6px 12px; font-size:12px; background:rgba(251,191,36,0.15); border-color:#f59e0b; color:#fbbf24; font-weight:700;" title="Open interactive SOTP recovery, haircut & pricing band engine">
+        <a id="hero-calculator-btn" href="braskem_calculator.html" class="btn-action" style="display:none; padding:6px 12px; font-size:12px; background:#fffbeb; border-color:#fde68a; color:#b45309; font-weight:700;" title="Open interactive SOTP recovery, haircut & pricing band engine">
           ⚖️ Restructuring Sandbox
         </a>
         <a id="hero-cc-btn" href="#" target="_blank" class="btn-cc-deep" style="display:none;" title="Open live model on Cognitive Credit">
@@ -119,12 +119,12 @@
       </div>
       <div class="metric-box">
         <div class="metric-box-label">Yield to Maturity</div>
-        <div class="metric-box-value" id="mb-ytm" style="color:#fbbf24;">--</div>
+        <div class="metric-box-value" id="mb-ytm" style="color:#b45309;">--</div>
         <div class="metric-box-sub" id="mb-ytm-sub">Annualized</div>
       </div>
       <div class="metric-box">
         <div class="metric-box-label">Z-Spread / OAS</div>
-        <div class="metric-box-value" id="mb-spread" style="color:#60a5fa;">--</div>
+        <div class="metric-box-value" id="mb-spread" style="color:#0071e3;">--</div>
         <div class="metric-box-sub" id="mb-spread-sub">vs UST Curve</div>
       </div>
       <div class="metric-box">
@@ -622,7 +622,7 @@
           <div>
             <div class="company-card-title" style="margin-bottom:4px;">
               <span>Sell-Side Broker Coverage &amp; Automated Analyst Error Audit</span>
-              <span class="badge badge-hy" style="background:#1e3a8a; color:#93c5fd; border:1px solid #3b82f6;" id="ba-header-badge">Multi-Broker Normalized</span>
+              <span class="badge badge-hy" style="background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe;" id="ba-header-badge">Multi-Broker Normalized</span>
             </div>
             <div style="font-size:12px; color:var(--text-muted); line-height:1.5;">
               Ingests research dumps from Notion, tear-sheet images, and broker models (J.P. Morgan, Citi, Morgan Stanley, etc.). 
@@ -630,7 +630,7 @@
             </div>
           </div>
           <div style="display:flex; gap:10px; align-items:center;">
-            <button class="btn-action" onclick="triggerNotionSync()" id="btn-sync-notion" style="background:rgba(59,130,246,0.15); border-color:#3b82f6; color:#93c5fd; font-size:12px; padding:6px 14px;">
+            <button class="btn-action" onclick="triggerNotionSync()" id="btn-sync-notion" style="background:#eff6ff; border-color:#bfdbfe; color:#1d4ed8; font-size:12px; padding:6px 14px;">
               🔄 Sync Notion Dump
             </button>
             <button class="btn-action btn-gold" onclick="openNotionIntakeModal()" style="font-size:12px; padding:6px 14px; font-weight:700;">
@@ -641,24 +641,24 @@
 
         <!-- Metric KPI Strip -->
         <div class="broker-kpi-strip" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:12px; margin-top:16px;">
-          <div class="metric-box" style="background:rgba(15,23,42,0.6); padding:12px; border-radius:6px; border:1px solid #1e293b;">
-            <div class="metric-box-label" style="font-size:11px; color:#94a3b8;">Broker Coverage</div>
-            <div class="metric-box-value" id="ba-stat-coverage" style="font-size:20px; font-weight:800; color:#38bdf8;">--</div>
+          <div class="metric-box" style="background:#f8fafc; padding:12px; border-radius:6px; border:1px solid #e2e8f0;">
+            <div class="metric-box-label" style="font-size:11px; color:#64748b;">Broker Coverage</div>
+            <div class="metric-box-value" id="ba-stat-coverage" style="font-size:20px; font-weight:800; color:#0071e3;">--</div>
             <div class="metric-box-sub" style="font-size:10px; color:#64748b;">Active Models Parsed</div>
           </div>
-          <div class="metric-box" style="background:rgba(15,23,42,0.6); padding:12px; border-radius:6px; border:1px solid #1e293b;">
-            <div class="metric-box-label" style="font-size:11px; color:#94a3b8;">Analyst Mistakes Trapped</div>
-            <div class="metric-box-value" id="ba-stat-errors" style="font-size:20px; font-weight:800; color:#f87171;">--</div>
+          <div class="metric-box" style="background:#f8fafc; padding:12px; border-radius:6px; border:1px solid #e2e8f0;">
+            <div class="metric-box-label" style="font-size:11px; color:#64748b;">Analyst Mistakes Trapped</div>
+            <div class="metric-box-value" id="ba-stat-errors" style="font-size:20px; font-weight:800; color:#dc2626;">--</div>
             <div class="metric-box-sub" style="font-size:10px; color:#64748b;">Math / Guidance Mismatches</div>
           </div>
-          <div class="metric-box" style="background:rgba(15,23,42,0.6); padding:12px; border-radius:6px; border:1px solid #1e293b;">
-            <div class="metric-box-label" style="font-size:11px; color:#94a3b8;">Consensus 2025E FCF</div>
-            <div class="metric-box-value" id="ba-stat-fcf" style="font-size:20px; font-weight:800;">--</div>
+          <div class="metric-box" style="background:#f8fafc; padding:12px; border-radius:6px; border:1px solid #e2e8f0;">
+            <div class="metric-box-label" style="font-size:11px; color:#64748b;">Consensus 2025E FCF</div>
+            <div class="metric-box-value" id="ba-stat-fcf" style="font-size:20px; font-weight:800; color:#0f172a;">--</div>
             <div class="metric-box-sub" id="ba-stat-fcf-sub" style="font-size:10px; color:#64748b;">Desk Reconciled</div>
           </div>
-          <div class="metric-box" style="background:rgba(15,23,42,0.6); padding:12px; border-radius:6px; border:1px solid #1e293b;">
-            <div class="metric-box-label" style="font-size:11px; color:#94a3b8;">Consensus Net Leverage</div>
-            <div class="metric-box-value" id="ba-stat-lev" style="font-size:20px; font-weight:800; color:#fbbf24;">--</div>
+          <div class="metric-box" style="background:#f8fafc; padding:12px; border-radius:6px; border:1px solid #e2e8f0;">
+            <div class="metric-box-label" style="font-size:11px; color:#64748b;">Consensus Net Leverage</div>
+            <div class="metric-box-value" id="ba-stat-lev" style="font-size:20px; font-weight:800; color:#b45309;">--</div>
             <div class="metric-box-sub" style="font-size:10px; color:#64748b;">Net Debt / Cash EBITDA</div>
           </div>
         </div>
@@ -714,58 +714,58 @@
 
   <!-- Notion Ingestion & Quick Intake Modal -->
   <div id="notion-intake-modal" class="modal-overlay" style="display:none;">
-    <div class="modal-box" style="max-width:680px; width:92%; background:#0f172a; border:1px solid #334155; border-radius:12px; padding:24px; box-shadow:0 20px 40px rgba(0,0,0,0.6);">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; border-bottom:1px solid #1e293b; padding-bottom:12px;">
-        <h3 style="margin:0; font-size:16px; font-weight:700; color:#f8fafc; display:flex; align-items:center; gap:8px;">
+    <div class="modal-box" style="max-width:680px; width:92%; background:#ffffff; border:1px solid #cbd5e1; border-radius:12px; padding:24px; box-shadow:0 20px 40px rgba(0,0,0,0.15);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; border-bottom:1px solid #e2e8f0; padding-bottom:12px;">
+        <h3 style="margin:0; font-size:16px; font-weight:700; color:#0f172a; display:flex; align-items:center; gap:8px;">
           <span>⚡</span> Ingest Broker Research &amp; Run Error Auditor
         </h3>
-        <button onclick="closeNotionIntakeModal()" style="background:none; border:none; color:#94a3b8; font-size:20px; cursor:pointer;">&times;</button>
+        <button onclick="closeNotionIntakeModal()" style="background:none; border:none; color:#64748b; font-size:20px; cursor:pointer;">&times;</button>
       </div>
 
-      <div style="font-size:12px; color:#94a3b8; margin-bottom:16px; line-height:1.5;">
+      <div style="font-size:12px; color:#475569; margin-bottom:16px; line-height:1.5;">
         Paste a raw broker research note, text dump, or financial table. The auditor will automatically map line items, catch mathematical mismatches, check guidance compliance, and update the coherent snapshot.
       </div>
 
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:12px;">
         <div>
-          <label style="font-size:11px; color:#cbd5e1; font-weight:600; display:block; margin-bottom:4px;">Broker Source</label>
-          <input type="text" id="intake-broker" placeholder="e.g. J.P. Morgan, Citi, Morgan Stanley" style="width:100%; background:#1e293b; border:1px solid #334155; color:#f8fafc; padding:8px 10px; border-radius:6px; font-size:12px;">
+          <label style="font-size:11px; color:#334155; font-weight:600; display:block; margin-bottom:4px;">Broker Source</label>
+          <input type="text" id="intake-broker" placeholder="e.g. J.P. Morgan, Citi, Morgan Stanley" style="width:100%; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:8px 10px; border-radius:6px; font-size:12px;">
         </div>
         <div>
-          <label style="font-size:11px; color:#cbd5e1; font-weight:600; display:block; margin-bottom:4px;">Analyst Name &amp; Title</label>
-          <input type="text" id="intake-analyst" placeholder="e.g. Christian Malek / Lead Oil Analyst" style="width:100%; background:#1e293b; border:1px solid #334155; color:#f8fafc; padding:8px 10px; border-radius:6px; font-size:12px;">
+          <label style="font-size:11px; color:#334155; font-weight:600; display:block; margin-bottom:4px;">Analyst Name &amp; Title</label>
+          <input type="text" id="intake-analyst" placeholder="e.g. Christian Malek / Lead Oil Analyst" style="width:100%; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:8px 10px; border-radius:6px; font-size:12px;">
         </div>
       </div>
 
       <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; margin-bottom:12px;">
         <div>
-          <label style="font-size:11px; color:#cbd5e1; font-weight:600; display:block; margin-bottom:4px;">2025E Revenue ($M)</label>
-          <input type="number" step="0.1" id="intake-rev" placeholder="e.g. 1280.0" style="width:100%; background:#1e293b; border:1px solid #334155; color:#f8fafc; padding:8px 10px; border-radius:6px; font-size:12px;">
+          <label style="font-size:11px; color:#334155; font-weight:600; display:block; margin-bottom:4px;">2025E Revenue ($M)</label>
+          <input type="number" step="0.1" id="intake-rev" placeholder="e.g. 1280.0" style="width:100%; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:8px 10px; border-radius:6px; font-size:12px;">
         </div>
         <div>
-          <label style="font-size:11px; color:#cbd5e1; font-weight:600; display:block; margin-bottom:4px;">2025E EBITDA ($M)</label>
-          <input type="number" step="0.1" id="intake-ebitda" placeholder="e.g. 950.0" style="width:100%; background:#1e293b; border:1px solid #334155; color:#f8fafc; padding:8px 10px; border-radius:6px; font-size:12px;">
+          <label style="font-size:11px; color:#334155; font-weight:600; display:block; margin-bottom:4px;">2025E EBITDA ($M)</label>
+          <input type="number" step="0.1" id="intake-ebitda" placeholder="e.g. 950.0" style="width:100%; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:8px 10px; border-radius:6px; font-size:12px;">
         </div>
         <div>
-          <label style="font-size:11px; color:#cbd5e1; font-weight:600; display:block; margin-bottom:4px;">2025E Capex ($M)</label>
-          <input type="number" step="0.1" id="intake-capex" placeholder="e.g. -220.0" style="width:100%; background:#1e293b; border:1px solid #334155; color:#f8fafc; padding:8px 10px; border-radius:6px; font-size:12px;">
+          <label style="font-size:11px; color:#334155; font-weight:600; display:block; margin-bottom:4px;">2025E Capex ($M)</label>
+          <input type="number" step="0.1" id="intake-capex" placeholder="e.g. -220.0" style="width:100%; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:8px 10px; border-radius:6px; font-size:12px;">
         </div>
       </div>
 
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:12px;">
         <div>
-          <label style="font-size:11px; color:#cbd5e1; font-weight:600; display:block; margin-bottom:4px;">2025E Stated FCF ($M)</label>
-          <input type="number" step="0.1" id="intake-fcf" placeholder="e.g. 140.0" style="width:100%; background:#1e293b; border:1px solid #334155; color:#f8fafc; padding:8px 10px; border-radius:6px; font-size:12px;">
+          <label style="font-size:11px; color:#334155; font-weight:600; display:block; margin-bottom:4px;">2025E Stated FCF ($M)</label>
+          <input type="number" step="0.1" id="intake-fcf" placeholder="e.g. 140.0" style="width:100%; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:8px 10px; border-radius:6px; font-size:12px;">
         </div>
         <div>
-          <label style="font-size:11px; color:#cbd5e1; font-weight:600; display:block; margin-bottom:4px;">2025E Net Debt ($M)</label>
-          <input type="number" step="0.1" id="intake-netdebt" placeholder="e.g. 2030.0" style="width:100%; background:#1e293b; border:1px solid #334155; color:#f8fafc; padding:8px 10px; border-radius:6px; font-size:12px;">
+          <label style="font-size:11px; color:#334155; font-weight:600; display:block; margin-bottom:4px;">2025E Net Debt ($M)</label>
+          <input type="number" step="0.1" id="intake-netdebt" placeholder="e.g. 2030.0" style="width:100%; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:8px 10px; border-radius:6px; font-size:12px;">
         </div>
       </div>
 
       <div style="margin-bottom:16px;">
-        <label style="font-size:11px; color:#cbd5e1; font-weight:600; display:block; margin-bottom:4px;">Raw Notes / Thesis / Notion Block Dump</label>
-        <textarea id="intake-notes" rows="4" placeholder="Paste analyst commentary, guidance references, or Notion text..." style="width:100%; background:#1e293b; border:1px solid #334155; color:#f8fafc; padding:8px 10px; border-radius:6px; font-size:12px; resize:vertical; font-family:inherit;"></textarea>
+        <label style="font-size:11px; color:#334155; font-weight:600; display:block; margin-bottom:4px;">Raw Notes / Thesis / Notion Block Dump</label>
+        <textarea id="intake-notes" rows="4" placeholder="Paste analyst commentary, guidance references, or Notion text..." style="width:100%; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:8px 10px; border-radius:6px; font-size:12px; resize:vertical; font-family:inherit;"></textarea>
       </div>
 
       <div id="intake-audit-preview" style="display:none; margin-bottom:16px; padding:12px; border-radius:6px; background:rgba(239,68,68,0.1); border:1px solid #ef4444;">

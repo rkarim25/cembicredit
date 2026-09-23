@@ -23,12 +23,12 @@
     <nav>
       <a href="index.html" class="nav-link">Comp Sheet & Screener</a>
       <a href="company.html" class="nav-link">Company Page</a>
-      <a href="local_em.html" class="nav-link" style="color:#38bdf8; font-weight:700;">🌐 GBI-EM Desk</a>
-      <a href="cdx.html" class="nav-link" style="color:#c084fc; font-weight:700;">📊 CDX Desk</a>
-      <a href="ust.html" class="nav-link" style="color:#34d399; font-weight:700;">📈 UST Curve</a>
-      <a href="braskem_calculator.html" class="nav-link" style="color:#fb7185; font-weight:700;" title="Braskem Reorg & Haircut Engine">🔨 Braskem</a>
-      <a href="zoren_calculator.html" class="nav-link" style="color:#fb7185; font-weight:700;" title="Zorlu Enerji Creditor Recovery Waterfall">⚡ Zorlu</a>
-      <a href="aragvi_calculator.html" class="nav-link" style="color:#fb7185; font-weight:700;" title="Aragvi Agro SOTP Valuation">🌻 Aragvi</a>
+      <a href="local_em.html" class="nav-link" style="color:#0284c7; font-weight:700;">🌐 GBI-EM Desk</a>
+      <a href="cdx.html" class="nav-link" style="color:#7c3aed; font-weight:700;">📊 CDX Desk</a>
+      <a href="ust.html" class="nav-link" style="color:#059669; font-weight:700;">📈 UST Curve</a>
+      <a href="braskem_calculator.html" class="nav-link" style="color:#e11d48; font-weight:700;" title="Braskem Reorg & Haircut Engine">🔨 Braskem</a>
+      <a href="zoren_calculator.html" class="nav-link" style="color:#e11d48; font-weight:700;" title="Zorlu Enerji Creditor Recovery Waterfall">⚡ Zorlu</a>
+      <a href="aragvi_calculator.html" class="nav-link" style="color:#e11d48; font-weight:700;" title="Aragvi Agro SOTP Valuation">🌻 Aragvi</a>
       <a href="trends.html" class="nav-link active">Zero-AI Trends</a>
       <a href="notes.html" class="nav-link">Footnotes</a>
       <a href="https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEMBI_Master_Comp_Sheet.xlsx" class="btn-action btn-primary" download>
@@ -44,19 +44,19 @@
 
         <div class="filter-card">
       <div style="display:flex; gap:10px; margin-bottom:14px; flex-wrap:wrap;">
-        <button type="button" id="btn-mode-mkt" class="btn-action" onclick="setTrendMode('mkt')" style="font-size:12px; padding:6px 14px; background:var(--accent-blue); color:#fff; border-radius:4px; border:1px solid var(--accent-blue); cursor:pointer; font-weight:600;">
+        <button type="button" id="btn-mode-mkt" class="btn-action" onclick="setTrendMode('mkt')" style="font-size:12px; padding:6px 14px; background:var(--accent-blue); color:#fff; border-radius:6px; border:1px solid var(--accent-blue); cursor:pointer; font-weight:700;">
           📈 Secondary Market History (Rating, Spreads & Bond Prices)
         </button>
-        <button type="button" id="btn-mode-fin" class="btn-action" onclick="setTrendMode('fin')" style="font-size:12px; padding:6px 14px; background:#1e293b; color:#94a3b8; border-radius:4px; border:1px solid #334155; cursor:pointer; font-weight:600;">
+        <button type="button" id="btn-mode-fin" class="btn-action" onclick="setTrendMode('fin')" style="font-size:12px; padding:6px 14px; background:#ffffff; color:#475569; border-radius:6px; border:1px solid #cbd5e1; cursor:pointer; font-weight:600;">
           📊 Multi-Period Financials (2021A - 2027E)
         </button>
       </div>
       <div class="filter-group">
-        <span style="font-weight:700; color:#fff;">Select Sector Peer Group:</span>
+        <span style="font-weight:700; color:var(--text-main);">Select Sector Peer Group:</span>
         <select id="trend-sector" class="filter-input">
           <!-- Populated dynamically -->
         </select>
-        <span style="font-weight:700; color:#fff; margin-left:12px;">Metric to Plot:</span>
+        <span style="font-weight:700; color:var(--text-main); margin-left:12px;">Metric to Plot:</span>
         <select id="trend-metric" class="filter-input">
           <!-- Populated dynamically based on mode -->
         </select>
@@ -78,7 +78,7 @@
     </div>
 
     <!-- Sector Qualitative Annotations -->
-    <h3 style="font-size:14px; margin-bottom:12px; color:#fff;">Key Analyst Notes &amp; Data Inflection Points for Selected Sector</h3>
+    <h3 style="font-size:14px; margin-bottom:12px; color:var(--text-main);">Key Analyst Notes &amp; Data Inflection Points for Selected Sector</h3>
     <div id="trend-sector-notes" class="notes-grid">
       <!-- Populated dynamically -->
     </div>

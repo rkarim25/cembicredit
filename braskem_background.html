@@ -14,21 +14,22 @@
   
   <style>
     :root {
-      --bg-main: #060913;
-      --bg-card: #0b1120;
-      --bg-card-sub: #0f172a;
-      --bg-hover: #172237;
-      --border-color: #1e293b;
-      --border-highlight: #334155;
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
+      color-scheme: light;
+      --bg-main: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-card-sub: #f1f5f9;
+      --bg-hover: #e2e8f0;
+      --border-color: #e2e8f0;
+      --border-highlight: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #475569;
       --text-dim: #64748b;
-      --accent-cyan: #38bdf8;
-      --accent-emerald: #10b981;
-      --accent-rose: #f43f5e;
-      --accent-amber: #f59e0b;
-      --accent-gold: #fbbf24;
-      --accent-purple: #c084fc;
+      --accent-cyan: #0071e3;
+      --accent-emerald: #15803d;
+      --accent-rose: #dc2626;
+      --accent-amber: #b45309;
+      --accent-gold: #b45309;
+      --accent-purple: #7c3aed;
     }
 
     * {
@@ -52,7 +53,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(11, 17, 32, 0.95);
+      background: rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(12px);
       border: 1px solid var(--border-color);
       border-radius: 8px;
@@ -76,7 +77,7 @@
     .brand-title {
       font-size: 13px;
       font-weight: 700;
-      color: #fff;
+      color: var(--text-main);
       display: flex;
       align-items: center;
       gap: 8px;

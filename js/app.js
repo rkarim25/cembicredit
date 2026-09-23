@@ -280,7 +280,7 @@ function renderTable() {
         <button class="btn-action btn-gold" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Model" style="font-size:11px; padding:3px 8px; font-weight:700; margin-right:4px; background:rgba(245,158,11,0.18); border-color:#f59e0b; color:#fbbf24; cursor:pointer;">
           ⚡ Model
         </button>
-        <a class="btn-action" href="${m.github_model_url}" target="_blank" title="Download Excel Model (.xlsx)" style="font-size:11px; padding:3px 7px; border-color:#334155; color:#94a3b8;">
+        <a class="btn-action" href="${m.github_model_url}" target="_blank" title="Download Excel Model (.xlsx)" style="font-size:11px; padding:3px 7px; border-color:#334155; color:var(--text-dim);">
           📥 .xlsx
         </a>
       </td>
@@ -310,14 +310,14 @@ function renderTable() {
                 <span class="badge badge-sector">${m.sector}</span>
               </h3>
               <div class="meta-tags">
-                <span style="color:var(--text-dim);">Country:</span> <strong style="color:#fff;">${m.country} (${m.region})</strong>
-                <span style="color:#334155;">|</span>
+                <span style="color:var(--text-dim);">Country:</span> <strong style="color:var(--text-main);">${m.country} (${m.region})</strong>
+                <span style="color:#cbd5e1;">|</span>
                 <span style="color:var(--text-dim);">Benchmark:</span> <strong style="color:var(--accent-gold);">${m.benchmark_bond}</strong>
-                <span style="color:#334155;">|</span>
-                <span style="color:var(--text-dim);">Clean Px:</span> <strong style="color:#fff;">$${m.price.toFixed(2)}</strong>
-                <span style="color:#334155;">|</span>
+                <span style="color:#cbd5e1;">|</span>
+                <span style="color:var(--text-dim);">Clean Px:</span> <strong style="color:var(--text-main);">$${m.price.toFixed(2)}</strong>
+                <span style="color:#cbd5e1;">|</span>
                 <span style="color:var(--text-dim);">YTM:</span> <strong style="color:var(--accent-gold);">${m.ytm.toFixed(2)}%</strong>
-                <span style="color:#334155;">|</span>
+                <span style="color:#cbd5e1;">|</span>
                 <span style="color:var(--text-dim);">Spread:</span> <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong>
                 ${(() => {
                   const hist = item.market_history || (window.CREDIT_HISTORY_DATA && window.CREDIT_HISTORY_DATA[m.ticker] ? window.CREDIT_HISTORY_DATA[m.ticker].snapshots : []);
@@ -329,11 +329,11 @@ function renderTable() {
                   const d1y = latest - prior1y;
                   const col90 = d90 <= 0 ? '#10b981' : '#f43f5e';
                   const col1y = d1y <= 0 ? '#10b981' : '#f43f5e';
-                  return `<span style="font-size:10px; padding:2px 6px; border-radius:3px; background:#0f172a; border:1px solid #334155; margin-left:4px; font-weight:normal;" title="Historical spread change over 90 days and 1 year">
+                  return `<span style="font-size:10px; padding:2px 6px; border-radius:3px; background:#f1f5f9; border:1px solid #cbd5e1; color:#334155; margin-left:4px; font-weight:normal;" title="Historical spread change over 90 days and 1 year">
                     90d: <strong style="color:${col90};">${d90 <= 0 ? '' : '+'}${d90}bp</strong> | 1Y: <strong style="color:${col1y};">${d1y <= 0 ? '' : '+'}${d1y}bp</strong>
                   </span>`;
                 })()}
-                ${isUkrRail ? '<span style="color:#334155;">|</span> <span class="badge badge-stress">Eurobond Moratorium / Standstill</span>' : ''}
+                ${isUkrRail ? '<span style="color:#cbd5e1;">|</span> <span class="badge badge-stress">Eurobond Moratorium / Standstill</span>' : ''}
               </div>
             </div>
             
@@ -341,7 +341,7 @@ function renderTable() {
               <a href="company.html?id=${m.id}" class="btn-action" title="Open Dedicated Company Dossier & Notes Page" style="background:rgba(245,158,11,0.22); border:1px solid #f59e0b; color:#fbbf24; font-weight:700; text-decoration:none;">
                 Dedicated Page &gt;
               </a>
-              <button class="btn-action btn-gold" onclick="openInstitutionalModel('${m.id}')" title="Open Financial Model" style="background:var(--accent-blue); border-color:var(--accent-blue); color:#fff; font-weight:700;">
+              <button class="btn-action btn-gold" onclick="openInstitutionalModel('${m.id}')" title="Open Financial Model" style="background:var(--accent-blue); border-color:var(--accent-blue); color:var(--text-main); font-weight:700;">
                 ⚡ Open Financial Model
               </button>
               <a href="${m.github_model_url}" class="btn-action btn-gold" download title="Download Excel Model (.xlsx)">
@@ -357,7 +357,7 @@ function renderTable() {
                   📑 Open Notion Dossier
                 </a>
               ` : ''}
-              <button class="btn-action" onclick="toggleRowExpand('${m.id}')" style="background:transparent; border-color:#334155; color:#94a3b8;">
+              <button class="btn-action" onclick="toggleRowExpand('${m.id}')" style="background:transparent; border-color:#334155; color:var(--text-dim);">
                 ✕ Close
               </button>
             </div>
@@ -400,19 +400,19 @@ function renderTable() {
               <div class="fx-symbol">fx</div>
               <div class="fx-formula-input" id="drawer-fx-text-${m.id}">Click any cell below to inspect its forecast formula, management guidance, or operational drivers.</div>
               <div class="fx-badge-container" id="drawer-fx-badge-${m.id}">
-                <span class="badge" style="background:#1e293b; color:#94a3b8; font-size:10.5px;">Formula Engine</span>
+                <span class="badge" style="background:#1e293b; color:var(--text-dim); font-size:10.5px;">Formula Engine</span>
               </div>
             </div>
 
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
-              <span style="font-size:11px; color:#94a3b8;">Hover over any cell or click below for line-by-line financial variance explanations:</span>
+              <span style="font-size:11px; color:var(--text-dim);">Hover over any cell or click below for line-by-line financial variance explanations:</span>
               <button class="btn-action" id="btn-obs-${m.id}" onclick="toggleFinancialObservations('${m.id}')" style="font-size:11px; padding:4px 12px; background:rgba(245,158,11,0.15); border:1px solid #f59e0b; color:#fbbf24;">
                 💬 Show Analyst Observations & Explanations
               </button>
             </div>
 
             <!-- Expandable Observations Panel -->
-            <div id="obs-panel-${m.id}" style="display:none; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+            <div id="obs-panel-${m.id}" style="display:none; background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px; margin-bottom:14px;">
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                 <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                   📝 Line-by-Line Period Observations & Operational Variance Drivers
@@ -437,11 +437,11 @@ function renderTable() {
                       return `
                         <tr>
                           <td><strong style="color:var(--accent-gold);">${f.period}</strong></td>
-                          <td style="color:#cbd5e1;">${obs.revenue || 'Solid revenue trajectory across core operating activities.'}</td>
-                          <td style="color:#cbd5e1;">${obs.ebitda || 'Operational margins maintained via disciplined cost controls.'}</td>
-                          <td style="color:#cbd5e1;">${obs.capex || 'Sustaining maintenance and priority growth capex fully funded.'}</td>
-                          <td style="color:#cbd5e1;">${obs.fcf || 'Positive organic cash flow supports continuous balance sheet strength.'}</td>
-                          <td style="color:#cbd5e1;">${obs.net_leverage || 'Leverage maintained within conservative covenant parameters.'}</td>
+                          <td style="color:var(--text-muted);">${obs.revenue || 'Solid revenue trajectory across core operating activities.'}</td>
+                          <td style="color:var(--text-muted);">${obs.ebitda || 'Operational margins maintained via disciplined cost controls.'}</td>
+                          <td style="color:var(--text-muted);">${obs.capex || 'Sustaining maintenance and priority growth capex fully funded.'}</td>
+                          <td style="color:var(--text-muted);">${obs.fcf || 'Positive organic cash flow supports continuous balance sheet strength.'}</td>
+                          <td style="color:var(--text-muted);">${obs.net_leverage || 'Leverage maintained within conservative covenant parameters.'}</td>
                         </tr>
                       `;
                     }).join('')}
@@ -528,7 +528,7 @@ function renderTable() {
 
             <!-- Section: Free Cash Flow (FCF) Waterfall Bridge -->
             ${currentView === 'corp' ? `
-              <div style="margin-top:14px; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+              <div style="margin-top:14px; background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                   <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                     🌊 Free Cash Flow (FCF) Waterfall Bridge & Conversion Dynamics
@@ -572,14 +572,14 @@ function renderTable() {
                             <td class="num" style="color:${deltaWc > 0 ? '#ef4444' : '#10b981'};">
                               ${deltaWc > 0 ? '-' : '+'}$${Math.abs(deltaWc).toFixed(1)}M
                             </td>
-                            <td class="num" style="color:#cbd5e1;">-$${tax.toFixed(1)}M</td>
+                            <td class="num" style="color:var(--text-muted);">-$${tax.toFixed(1)}M</td>
                             <td class="num" style="background:#1e293b; color:${isPositive ? '#10b981' : '#ef4444'}; font-weight:800; font-size:12px;">
                               ${fcf < 0 ? '-' : ''}$${Math.abs(fcf).toFixed(1)}M
                             </td>
                             <td class="num" style="font-weight:700; color:${conv > 30 ? '#10b981' : (conv > 0 ? '#f59e0b' : '#ef4444')};">
                               ${conv}%
                             </td>
-                            <td style="color:#cbd5e1; font-size:11px; line-height:1.4;">${comm}</td>
+                            <td style="color:var(--text-muted); font-size:11px; line-height:1.4;">${comm}</td>
                           </tr>
                         `;
                       }).join('')}
@@ -591,7 +591,7 @@ function renderTable() {
 
             <!-- Section: Reported vs. Calculated EBITDA Reconciliation & Audit Footnotes -->
             ${currentView === 'corp' ? `
-              <div style="margin-top:14px; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+              <div style="margin-top:14px; background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                   <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                     ⚖️ Reported vs. Calculated EBITDA Reconciliation & Variance Analysis
@@ -626,7 +626,7 @@ function renderTable() {
                         return `
                           <tr>
                             <td><strong style="color:var(--accent-gold);">${f.period}</strong></td>
-                            <td class="num" style="color:#fff; font-weight:700;">$${rep.toFixed(1)}M</td>
+                            <td class="num" style="color:var(--text-main); font-weight:700;">$${rep.toFixed(1)}M</td>
                             <td class="num" style="color:#38bdf8; font-weight:700;">$${calc.toFixed(1)}M</td>
                             <td class="num" style="color:${diff > 0 ? '#f59e0b' : (diff < 0 ? '#ef4444' : '#10b981')}; font-weight:600;">
                               ${diff > 0 ? '+' : ''}$${diff.toFixed(1)}M
@@ -637,7 +637,7 @@ function renderTable() {
                             <td style="text-align:center;">
                               <span class="badge ${statusBadge}">${statusLabel}</span>
                             </td>
-                            <td style="color:#cbd5e1; font-size:11px; line-height:1.4;">${comment}</td>
+                            <td style="color:var(--text-muted); font-size:11px; line-height:1.4;">${comment}</td>
                           </tr>
                         `;
                       }).join('')}
@@ -675,7 +675,7 @@ function renderTable() {
               </div>
               
               <div style="display:grid; grid-template-columns: 1fr 1fr; gap:16px;">
-                <div style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                   <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
                     Multi-Year Physical Traffic Volumes (Million Metric Tonnes)
                   </h4>
@@ -701,11 +701,11 @@ function renderTable() {
                   </table>
                 </div>
                 
-                <div style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                   <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
                     Cargo Mix & Infrastructure Resilience
                   </h4>
-                  <ul style="list-style:none; padding:0; margin:0; font-size:11.5px; line-height:1.8; color:#cbd5e1;">
+                  <ul style="list-style:none; padding:0; margin:0; font-size:11.5px; line-height:1.8; color:var(--text-muted);">
                     <li>🌾 <strong>Grain & Agricultural Products:</strong> 38.5 Mt (22.0% share) — Main export currency generator via Odesa/Pivdennyi ports.</li>
                     <li>⛏️ <strong>Iron & Manganese Ores:</strong> 41.2 Mt (23.5% share) — Ferrexpo and Metinvest mining flows to Central Europe.</li>
                     <li>🏗️ <strong>Building & Mineral Materials:</strong> 36.2 Mt (20.7% share) — Wartime fortifications and civil infrastructure repairs.</li>
@@ -756,12 +756,12 @@ function renderTable() {
               
               return `
                 <!-- Section 1: Detailed Capital Structure Tranche Table -->
-                <div style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+                <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:6px; padding:14px; margin-bottom:14px;">
                   <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                     <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                       🏛️ Comprehensive Capital Structure & Debt Tranche Detail
                     </h4>
-                    <span style="font-size:11px; color:#94a3b8;">Consolidated Gross Debt: <strong>$${(f24.gross_debt || 0).toLocaleString()}M</strong></span>
+                    <span style="font-size:11px; color:var(--text-dim);">Consolidated Gross Debt: <strong>$${(f24.gross_debt || 0).toLocaleString()}M</strong></span>
                   </div>
                   <div style="overflow-x:auto;">
                     <table class="drawer-table" style="margin:0;">
@@ -783,13 +783,13 @@ function renderTable() {
                           <tr>
                             <td><strong>${t.tranche_name}</strong></td>
                             <td>${t.instrument_type}</td>
-                            <td><span class="badge" style="font-size:9px; background:#1e293b; color:#cbd5e1;">${t.currency}</span></td>
-                            <td class="num" style="color:#fff; font-weight:700;">$${(t.amount_outstanding_usd_m || 0).toFixed(1)}M</td>
+                            <td><span class="badge" style="font-size:9px; background:#1e293b; color:var(--text-muted);">${t.currency}</span></td>
+                            <td class="num" style="color:var(--text-main); font-weight:700;">$${(t.amount_outstanding_usd_m || 0).toFixed(1)}M</td>
                             <td class="num">${t.coupon}</td>
                             <td class="num" style="color:var(--accent-gold); font-weight:600;">$${Number(t.clean_price || 100).toFixed(2)}</td>
                             <td class="num">${Number(t.ytm || 0).toFixed(2)}%</td>
                             <td><span class="badge ${t.seniority.includes('Secured') ? 'badge-ig' : (t.seniority.includes('Subordinated') ? 'badge-stress' : 'badge-hy')}">${t.seniority}</span></td>
-                            <td style="color:#94a3b8; font-size:10.5px;">${t.governing_law}</td>
+                            <td style="color:var(--text-dim); font-size:10.5px;">${t.governing_law}</td>
                           </tr>
                         `).join('')}
                       </tbody>
@@ -800,14 +800,14 @@ function renderTable() {
                 <div style="display:grid; grid-template-columns: 1fr 1fr; gap:14px; margin-bottom:14px;">
                   
                   <!-- Section 2: Dedicated RCF Facility & Drawn/Undrawn Headroom Box -->
-                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                  <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
                       <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                         🔄 Revolving Credit Facility (RCF) & Bank Liquidity
                       </h4>
                       <span class="badge badge-ig">Active Facility</span>
                     </div>
-                    <div style="font-size:11px; color:#cbd5e1; margin-bottom:12px;">
+                    <div style="font-size:11px; color:var(--text-muted); margin-bottom:12px;">
                       <strong>${rcf.facility_name || 'Syndicated Multi-Currency Revolving Credit Facility'}</strong>
                     </div>
                     
@@ -824,7 +824,7 @@ function renderTable() {
 
                     <!-- Progress Bar for Drawn vs Undrawn -->
                     <div style="margin-bottom:12px;">
-                      <div style="display:flex; justify-content:space-between; font-size:10.5px; color:#94a3b8; margin-bottom:4px;">
+                      <div style="display:flex; justify-content:space-between; font-size:10.5px; color:var(--text-dim); margin-bottom:4px;">
                         <span>Drawn: $${drawn.toFixed(1)}M (${drawnPct}%)</span>
                         <span style="color:#10b981; font-weight:600;">Undrawn Available: $${undrawn.toFixed(1)}M (${undrawnPct}%)</span>
                       </div>
@@ -835,16 +835,16 @@ function renderTable() {
                     </div>
 
                     <table class="drawer-table" style="margin:0; font-size:10.5px;">
-                      <tr><td style="color:#94a3b8; width:45%;">Drawn Borrowing Margin</td><td style="color:#fff; font-weight:600;">${rcf.drawn_margin || 'SOFR + 150 bps'}</td></tr>
-                      <tr><td style="color:#94a3b8;">Undrawn Commitment Fee</td><td style="color:#fff;">${rcf.undrawn_commitment_fee || '52.5 bps (35% of margin)'}</td></tr>
-                      <tr><td style="color:#94a3b8;">Maturity & Extension</td><td style="color:#fff;">${rcf.maturity || '2028-06-30 (with 1+1 extension options)'}</td></tr>
-                      <tr><td style="color:#94a3b8;">Syndicate Lenders</td><td style="color:#cbd5e1; font-size:10px;">${rcf.syndicate_banks || 'Tier-1 international commercial banks'}</td></tr>
-                      <tr><td style="color:#94a3b8;">RCF Financial Covenants</td><td style="color:#cbd5e1; font-size:10px;">${rcf.rcf_financial_covenants || 'Tested semi-annually: Max Net Lev & Min Coverage'}</td></tr>
+                      <tr><td style="color:var(--text-dim); width:45%;">Drawn Borrowing Margin</td><td style="color:var(--text-main); font-weight:600;">${rcf.drawn_margin || 'SOFR + 150 bps'}</td></tr>
+                      <tr><td style="color:var(--text-dim);">Undrawn Commitment Fee</td><td style="color:var(--text-main);">${rcf.undrawn_commitment_fee || '52.5 bps (35% of margin)'}</td></tr>
+                      <tr><td style="color:var(--text-dim);">Maturity & Extension</td><td style="color:var(--text-main);">${rcf.maturity || '2028-06-30 (with 1+1 extension options)'}</td></tr>
+                      <tr><td style="color:var(--text-dim);">Syndicate Lenders</td><td style="color:var(--text-muted); font-size:10px;">${rcf.syndicate_banks || 'Tier-1 international commercial banks'}</td></tr>
+                      <tr><td style="color:var(--text-dim);">RCF Financial Covenants</td><td style="color:var(--text-muted); font-size:10px;">${rcf.rcf_financial_covenants || 'Tested semi-annually: Max Net Lev & Min Coverage'}</td></tr>
                     </table>
                   </div>
 
                   <!-- Section 3: Bond Covenant Analysis & Headroom Scorecard -->
-                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                  <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                       <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                         ⚖️ Bond Covenants & Headroom Analysis
@@ -865,39 +865,39 @@ function renderTable() {
                         <tr>
                           <td><strong>${levCov.covenant_type || 'Debt Incurrence Net Leverage'}</strong></td>
                           <td style="color:#f59e0b; font-weight:600;">${levCov.covenant_threshold || '3.75x'}</td>
-                          <td style="color:#fff; font-weight:700;">${levCov.actual_current || (f24.net_leverage || 0).toFixed(2) + 'x'}</td>
+                          <td style="color:var(--text-main); font-weight:700;">${levCov.actual_current || (f24.net_leverage || 0).toFixed(2) + 'x'}</td>
                           <td><span class="badge badge-ig">${levCov.headroom || 'Compliant'}</span></td>
                         </tr>
                         <tr>
                           <td><strong>${intCov.covenant_type || 'Interest Coverage (FCCR)'}</strong></td>
                           <td style="color:#f59e0b; font-weight:600;">${intCov.covenant_threshold || 'min 2.50x'}</td>
-                          <td style="color:#fff; font-weight:700;">${intCov.actual_current || (f24.interest_coverage || 0).toFixed(2) + 'x'}</td>
+                          <td style="color:var(--text-main); font-weight:700;">${intCov.actual_current || (f24.interest_coverage || 0).toFixed(2) + 'x'}</td>
                           <td><span class="badge badge-ig">${intCov.headroom || 'Compliant'}</span></td>
                         </tr>
                         <tr>
                           <td><strong>${secCov.covenant_type || 'Priority Secured Debt Basket'}</strong></td>
                           <td style="color:#f59e0b; font-weight:600;">${secCov.covenant_threshold || '15.0% Assets'}</td>
-                          <td style="color:#fff;">${secCov.actual_current || '4.2% Assets'}</td>
+                          <td style="color:var(--text-main);">${secCov.actual_current || '4.2% Assets'}</td>
                           <td><span class="badge badge-ig">${secCov.headroom || 'Compliant'}</span></td>
                         </tr>
                       </tbody>
                     </table>
 
-                    <div style="margin-top:10px; padding:10px; background:#141f33; border:1px solid #1e293b; border-radius:5px; font-size:10.5px; color:#cbd5e1; line-height:1.5;">
+                    <div style="margin-top:10px; padding:10px; background:var(--bg-sub); border:1px solid var(--border-color); border-radius:5px; font-size:10.5px; color:var(--text-muted); line-height:1.5;">
                       <div style="margin-bottom:4px;">
-                        <strong style="color:#fff;">Change of Control Put:</strong> ${coc.covenant_terms || '101.00% Put Option upon Change of Control accompanied by a Rating Downgrade trigger within 90 days.'}
+                        <strong style="color:var(--text-main);">Change of Control Put:</strong> ${coc.covenant_terms || '101.00% Put Option upon Change of Control accompanied by a Rating Downgrade trigger within 90 days.'}
                       </div>
                       <div style="margin-bottom:4px;">
-                        <strong style="color:#fff;">Restricted Payments:</strong> ${rp.covenant_terms || '50% Consolidated Net Income builder basket gated by 2.50x FCCR gateway.'}
+                        <strong style="color:var(--text-main);">Restricted Payments:</strong> ${rp.covenant_terms || '50% Consolidated Net Income builder basket gated by 2.50x FCCR gateway.'}
                       </div>
                       <div>
-                        <strong style="color:#fff;">Cross-Default:</strong> ${cov.cross_default_threshold || '$50.0M cross-acceleration threshold.'}
+                        <strong style="color:var(--text-main);">Cross-Default:</strong> ${cov.cross_default_threshold || '$50.0M cross-acceleration threshold.'}
                       </div>
                     </div>
                   </div>
 
                   <!-- Section 4: Historical Snapshot Audit Trail & Secondary Pricing Drift -->
-                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-top:14px;">
+                  <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px; margin-top:14px;">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                       <div style="display:flex; align-items:center; gap:8px;">
                         <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
@@ -980,10 +980,10 @@ function renderTable() {
                     <span class="scenario-title">Scenario A: Standalone 3-Year Maturity Extension</span>
                     <span class="scenario-recovery rec-base">BASE CASE: $71.50</span>
                   </div>
-                  <p style="font-size:11.5px; color:#cbd5e1; line-height:1.5; margin:0 0 8px 0;">
+                  <p style="font-size:11.5px; color:var(--text-muted); line-height:1.5; margin:0 0 8px 0;">
                     Commercial consensus extension: 2026 notes extended to July 2029; 2028 notes to July 2031. 0% principal haircut. Coupon restructured to 6.00% cash + 2.00% PIK during wartime.
                   </p>
-                  <div style="font-size:11px; color:#94a3b8;">
+                  <div style="font-size:11px; color:var(--text-dim);">
                     <strong>Implied Upside:</strong> +11.7% from current $64.00 | <strong>Rationale:</strong> UZ generates positive EBITDA ($380M) and receives heavy multilateral grant funding ($280M+).
                   </div>
                 </div>
@@ -993,10 +993,10 @@ function renderTable() {
                     <span class="scenario-title">Scenario B: Sovereign Parity Restructuring</span>
                     <span class="scenario-recovery rec-floor">PARITY: $61.00</span>
                   </div>
-                  <p style="font-size:11.5px; color:#cbd5e1; line-height:1.5; margin:0 0 8px 0;">
+                  <p style="font-size:11.5px; color:var(--text-muted); line-height:1.5; margin:0 0 8px 0;">
                     Eurobonds mirrored under sovereign debt restructuring umbrella: 25% nominal principal reduction, exchange into new 2030/2034 Step-Up notes (3% to 7%) + GDP-linked warrants.
                   </p>
-                  <div style="font-size:11px; color:#94a3b8;">
+                  <div style="font-size:11px; color:var(--text-dim);">
                     <strong>Implied Downside:</strong> -4.7% from current $64.00 | <strong>Rationale:</strong> Ministry of Finance enforces comparability of treatment across all state-owned entities.
                   </div>
                 </div>
@@ -1006,10 +1006,10 @@ function renderTable() {
                     <span class="scenario-title">Scenario C: Severe War Escalation & Grid Disruption</span>
                     <span class="scenario-recovery rec-floor">STRESS FLOOR: $38.00</span>
                   </div>
-                  <p style="font-size:11.5px; color:#cbd5e1; line-height:1.5; margin:0 0 8px 0;">
+                  <p style="font-size:11.5px; color:var(--text-muted); line-height:1.5; margin:0 0 8px 0;">
                     Sustained ballistic strikes permanently incapacitate traction substations; Black Sea ports interdicted; freight drops below 90 Mt. Operations rely solely on emergency sovereign subsidies.
                   </p>
-                  <div style="font-size:11px; color:#94a3b8;">
+                  <div style="font-size:11px; color:var(--text-dim);">
                     <strong>Downside Risk:</strong> -40.6% from current $64.00 | <strong>Support:</strong> Hard liquidation scrap value of locomotive fleet, 80k rail wagons, and track real estate.
                   </div>
                 </div>
@@ -1019,17 +1019,17 @@ function renderTable() {
                     <span class="scenario-title">Scenario D: Rapid EU Rail Integration & Marshall Plan</span>
                     <span class="scenario-recovery rec-upside">BULL CASE: $88.50</span>
                   </div>
-                  <p style="font-size:11.5px; color:#cbd5e1; line-height:1.5; margin:0 0 8px 0;">
+                  <p style="font-size:11.5px; color:var(--text-muted); line-height:1.5; margin:0 0 8px 0;">
                     Active war cessation; $50B+ multilateral reconstruction fund deployed. Full par reinstatement with multilateral credit enhancement guarantees from EIB/EBRD.
                   </p>
-                  <div style="font-size:11px; color:#94a3b8;">
+                  <div style="font-size:11px; color:var(--text-dim);">
                     <strong>Upside Potential:</strong> +38.3% from current $64.00 | <strong>Catalyst:</strong> Accelerated Ukrainian accession to the EU TEN-T transportation network.
                   </div>
                 </div>
                 
               </div>
               
-              <div style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:12px 16px; font-size:11.5px; color:#cbd5e1;">
+              <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:6px; padding:12px 16px; font-size:11.5px; color:var(--text-muted);">
                 <strong>Restructuring Legal Framework:</strong> English Law Eurobonds (LPN structure via Rail Capital Markets PLC). Cross-acceleration with sovereign debt explicitly waived in 2022 consent solicitation. Governed under Paris Club & G7 Creditor Group debt standstill framework.
               </div>
             ` : `
@@ -1041,7 +1041,7 @@ function renderTable() {
                     <span class="scenario-recovery rec-base" style="margin-left:6px;">Base Case: $${(rec.base_case_px || 0).toFixed(2)}</span>
                   </div>
                 </div>
-                <div style="margin-top:8px; font-size:11.5px; color:#cbd5e1; line-height:1.6;">
+                <div style="margin-top:8px; font-size:11.5px; color:var(--text-muted); line-height:1.6;">
                   <p><strong>Jurisdiction & Legal Framework:</strong> ${rec.restructuring_framework || 'Standard CEMBI Insolvency Code'}</p>
                   <p><strong>Valuation Multiple:</strong> ${rec.implied_stress_ev_multiple || '4.0x - 5.5x Stress EV/EBITDA'}</p>
                   <p><strong>Credit Thesis:</strong> ${rec.thesis || 'Comprehensive multi-year recovery and restructuring thesis.'}</p>
@@ -1061,10 +1061,10 @@ function renderTable() {
               const liq = ed.liquidity_waterfall || ed.quarterly_cadence_and_highlights || {};
               
               return `
-                <div style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:12px 16px; margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:6px; padding:12px 16px; margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
                   <div>
                     <span style="color:var(--accent-gold); font-size:12px; font-weight:700;">SOURCE EARNINGS DECK:</span>
-                    <span style="color:#fff; font-size:12px; margin-left:6px;">${ed.source_deck || 'Latest Corporate Investor Presentation & Earnings Call'}</span>
+                    <span style="color:var(--text-main); font-size:12px; margin-left:6px;">${ed.source_deck || 'Latest Corporate Investor Presentation & Earnings Call'}</span>
                   </div>
                   <span class="badge badge-sector">${ed.reporting_currency || 'USD'} Disclosures</span>
                 </div>
@@ -1073,7 +1073,7 @@ function renderTable() {
                   
                   
                 <!-- Dedicated Management Guidance Tracker Table -->
-                <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+                <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px; margin-bottom:14px;">
                   <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                     <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                       📊 Management Strategic Guidance Tracker & Variance Analysis
@@ -1094,7 +1094,7 @@ function renderTable() {
                       <tbody>
                         ${(item.management_guidance_tracker || []).map(g => `
                           <tr>
-                            <td><strong style="color:#fff;">${g.guidance_metric}</strong></td>
+                            <td><strong style="color:var(--text-main);">${g.guidance_metric}</strong></td>
                             <td style="color:var(--accent-gold); font-weight:600;">${g.management_target}</td>
                             <td style="color:#38bdf8; font-weight:700;">${g.current_runrate}</td>
                             <td style="text-align:center;">
@@ -1102,7 +1102,7 @@ function renderTable() {
                                 ${g.tracking_status}
                               </span>
                             </td>
-                            <td style="color:#cbd5e1; font-size:11px;">${g.variance_analysis}</td>
+                            <td style="color:var(--text-muted); font-size:11px;">${g.variance_analysis}</td>
                           </tr>
                         `).join('')}
                       </tbody>
@@ -1110,60 +1110,60 @@ function renderTable() {
                   </div>
                 </div>
     <!-- Management Guidance Targets -->
-                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                  <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                     <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
                       🎯 Management Strategic Guidance Targets
                     </h4>
                     <table class="drawer-table" style="margin:0;">
                       ${Object.entries(targets).map(([k, v]) => `
                         <tr>
-                          <td style="font-weight:600; color:#94a3b8; width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
-                          <td style="color:#fff; font-weight:700;">${v}</td>
+                          <td style="font-weight:600; color:var(--text-dim); width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
+                          <td style="color:var(--text-main); font-weight:700;">${v}</td>
                         </tr>
                       `).join('')}
                     </table>
                   </div>
                   
                   <!-- Capex & Capital Allocation -->
-                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                  <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                     <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
                       🏗️ ${currentView === 'corp' ? 'Capital Allocation & Project Pipeline' : 'Capital Adequacy & Reg Targets'}
                     </h4>
                     <table class="drawer-table" style="margin:0;">
                       ${Object.entries(capexProj).map(([k, v]) => `
                         <tr>
-                          <td style="font-weight:600; color:#94a3b8; width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
-                          <td style="color:#cbd5e1;">${v}</td>
+                          <td style="font-weight:600; color:var(--text-dim); width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
+                          <td style="color:var(--text-muted);">${v}</td>
                         </tr>
                       `).join('')}
                     </table>
                   </div>
                   
                   <!-- Geographic & FX Exposure -->
-                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                  <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                     <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
                       🌍 ${currentView === 'corp' ? 'Geographic & FX Exposure Matrix' : 'Funding & Liquidity Profile'}
                     </h4>
                     <table class="drawer-table" style="margin:0;">
                       ${Object.entries(geoFx).map(([k, v]) => `
                         <tr>
-                          <td style="font-weight:600; color:#94a3b8; width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
-                          <td style="color:#cbd5e1;">${v}</td>
+                          <td style="font-weight:600; color:var(--text-dim); width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
+                          <td style="color:var(--text-muted);">${v}</td>
                         </tr>
                       `).join('')}
                     </table>
                   </div>
                   
                   <!-- Liquidity Waterfall & Backlog -->
-                  <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+                  <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
                     <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
                       💧 Liquidity Waterfall & Headroom
                     </h4>
                     <table class="drawer-table" style="margin:0;">
                       ${Object.entries(liq).map(([k, v]) => `
                         <tr>
-                          <td style="font-weight:600; color:#94a3b8; width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
-                          <td style="color:#fff; font-weight:700;">${v}</td>
+                          <td style="font-weight:600; color:var(--text-dim); width:45%;">${k.replace(/_/g, ' ').toUpperCase()}</td>
+                          <td style="color:var(--text-main); font-weight:700;">${v}</td>
                         </tr>
                       `).join('')}
                     </table>
@@ -1191,7 +1191,7 @@ function renderTable() {
                     if (typeof bData !== 'object' || !bData) return '';
                     
                     return `
-                      <div style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+                      <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:6px; padding:14px; margin-bottom:14px;">
                         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                           <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                             ⚡ ${bKey.replace(/_/g, ' ')}
@@ -1208,8 +1208,8 @@ function renderTable() {
                           <tbody>
                             ${Object.entries(bData).map(([k, v]) => `
                               <tr>
-                                <td style="color:#fff; font-weight:600;">${k.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
-                                <td style="color:#cbd5e1; font-size:11px; line-height:1.5;">${v}</td>
+                                <td style="color:var(--text-main); font-weight:600;">${k.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}</td>
+                                <td style="color:var(--text-muted); font-size:11px; line-height:1.5;">${v}</td>
                               </tr>
                             `).join('')}
                           </tbody>
@@ -1230,8 +1230,8 @@ function renderTable() {
                     <span style="color:var(--accent-gold); font-weight:700; font-size:12px;">[${a.source}]</span>
                     <span class="badge badge-sector">${a.sector}</span>
                   </div>
-                  <div class="note-topic" style="color:#fff; font-size:12px; font-weight:600; margin:4px 0 6px 0;">${a.topic}</div>
-                  <div class="note-body" style="font-size:11.5px; color:#cbd5e1; line-height:1.5;">${a.note}</div>
+                  <div class="note-topic" style="color:var(--text-main); font-size:12px; font-weight:600; margin:4px 0 6px 0;">${a.topic}</div>
+                  <div class="note-body" style="font-size:11.5px; color:var(--text-muted); line-height:1.5;">${a.note}</div>
                   <div class="note-footer" style="margin-top:8px; padding-top:6px;">
                     <span style="font-size:10px; color:#64748b;">Verified Analyst Intelligence</span>
                     <button class="btn-action" onclick="copyNoteMarkdown('${m.name}', '${a.topic}', '${a.note}')" style="padding:2px 8px; font-size:10px;">
@@ -1251,7 +1251,7 @@ function renderTable() {
                 <h4 style="color:var(--accent-gold); font-size:14px; margin:0; text-transform:uppercase; letter-spacing:0.5px;">
                   🎯 Management Guidance Audit & Conviction Drivers
                 </h4>
-                <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+                <div style="font-size:11.5px; color:var(--text-dim); margin-top:3px;">
                   Audit past baseline guidance against current actual run-rates and interrogate non-public structural credit risks for ${m.name} (${m.ticker})
                 </div>
               </div>
@@ -1259,7 +1259,7 @@ function renderTable() {
             </div>
 
             <!-- SECTION I: PRIOR MANAGEMENT GUIDANCE & VERIFICATION AUDIT -->
-            <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:8px; padding:16px; margin-bottom:20px;">
+            <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:8px; padding:16px; margin-bottom:20px;">
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
                 <div style="display:flex; align-items:center; gap:8px;">
                   <h5 style="color:#f8fafc; font-size:12.5px; margin:0; text-transform:uppercase;">
@@ -1273,7 +1273,7 @@ function renderTable() {
               ${(() => {
                 const gList = item.management_guidance_tracker || [];
                 if (gList.length === 0) {
-                  return `<div style="color:#94a3b8; font-size:11.5px;">No official quantitative guidance tracker recorded for this issuer.</div>`;
+                  return `<div style="color:var(--text-dim); font-size:11.5px;">No official quantitative guidance tracker recorded for this issuer.</div>`;
                 }
 
                 return `
@@ -1298,7 +1298,7 @@ function renderTable() {
                           
                           return `
                             <tr>
-                              <td><strong style="color:#fff;">${g.guidance_metric}</strong></td>
+                              <td><strong style="color:var(--text-main);">${g.guidance_metric}</strong></td>
                               <td style="color:var(--accent-gold); font-weight:700;">${g.management_target}</td>
                               <td style="color:#38bdf8; font-weight:600;">${g.current_runrate}</td>
                               <td style="text-align:center;">
@@ -1307,7 +1307,7 @@ function renderTable() {
                               <td style="color:#e2e8f0; font-size:11px; line-height:1.4;">
                                 "${g.verification_question || 'Has management reaffirmed this target?'}"
                               </td>
-                              <td style="color:#94a3b8; font-size:10.5px; line-height:1.35;">
+                              <td style="color:var(--text-dim); font-size:10.5px; line-height:1.35;">
                                 ${g.relevance_to_credit || 'Directly drives cash flow visibility and covenant headroom.'}
                               </td>
                               <td style="text-align:center;">
@@ -1337,7 +1337,7 @@ function renderTable() {
                 <h4 style="color:var(--accent-gold); font-size:13px; margin:0; text-transform:uppercase;">
                   🎯 Management Diligence Questions & Conviction Drivers
                 </h4>
-                <div style="font-size:11px; color:#94a3b8; margin-top:2px;">
+                <div style="font-size:11px; color:var(--text-dim); margin-top:2px;">
                   High-conviction questions for CFO/Treasurer calls targeting deduced structural risks, unannounced policies, and conviction triggers for ${m.name} (${m.ticker})
                 </div>
               </div>
@@ -1348,7 +1348,7 @@ function renderTable() {
               const mq = item.management_questions || [];
               if (mq.length === 0) {
                 return `
-                  <div style="padding:20px; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; color:#94a3b8; font-size:12px; text-align:center;">
+                  <div style="padding:20px; background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; color:var(--text-dim); font-size:12px; text-align:center;">
                     Standard disclosure review complete. No abnormal structural ambiguities flagged for management questioning.
                   </div>
                 `;
@@ -1357,7 +1357,7 @@ function renderTable() {
               return `
                 <div style="display:flex; flex-direction:column; gap:16px;">
                   ${mq.map((q, idx) => `
-                    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:8px; padding:16px; box-shadow:0 4px 6px -1px rgba(0,0,0,0.2);">
+                    <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:8px; padding:16px; box-shadow:0 4px 6px -1px rgba(0,0,0,0.2);">
                       <!-- Card Header -->
                       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
                         <div style="display:flex; align-items:center; gap:8px;">
@@ -1371,7 +1371,7 @@ function renderTable() {
 
                       <!-- The Question to Ask -->
                       <div style="background:#0b1120; border:1px solid #334155; border-radius:6px; padding:12px 14px; margin-bottom:12px;">
-                        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; font-weight:700; margin-bottom:4px; letter-spacing:0.5px;">
+                        <div style="font-size:10.5px; color:var(--text-dim); text-transform:uppercase; font-weight:700; margin-bottom:4px; letter-spacing:0.5px;">
                           Direct Question to CFO / Treasurer:
                         </div>
                         <div style="color:#38bdf8; font-size:13.5px; font-weight:700; line-height:1.5;">
@@ -1382,7 +1382,7 @@ function renderTable() {
                       <!-- Analysis Blocks -->
                       <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
                         <!-- Why Relevant Block -->
-                        <div style="background:#0f172a; border-left:3px solid var(--accent-gold); padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:#cbd5e1;">
+                        <div style="background:#0f172a; border-left:3px solid var(--accent-gold); padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted);">
                           <div style="color:var(--accent-gold); font-weight:700; margin-bottom:4px;">
                             🔍 Why This Information Is Relevant (Deduced Structural Risk):
                           </div>
@@ -1395,7 +1395,7 @@ function renderTable() {
                         </div>
 
                         <!-- Conviction Decision Rule Block -->
-                        <div style="background:#0f172a; border-left:3px solid #10b981; padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:#cbd5e1;">
+                        <div style="background:#0f172a; border-left:3px solid #10b981; padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted);">
                           <div style="color:#10b981; font-weight:700; margin-bottom:4px;">
                             🎯 Conviction Trigger & Credit Decision Rule:
                           </div>
@@ -1416,7 +1416,7 @@ function renderTable() {
                 <h4 style="color:var(--accent-gold); font-size:13px; margin:0; text-transform:uppercase;">
                   📰 Real-Time Credit Catalysts & Macro Transmission Channels
                 </h4>
-                <div style="font-size:11px; color:#94a3b8; margin-top:2px;">
+                <div style="font-size:11px; color:var(--text-dim); margin-top:2px;">
                   Company-specific filings and wider sovereign/macro transmission channels impacting ${m.name} (${m.ticker})
                 </div>
               </div>
@@ -1432,7 +1432,7 @@ function renderTable() {
               
               if (relatedNews.length === 0) {
                 return `
-                  <div style="padding:20px; background:#111a2b; border:1px solid #1e2d45; border-radius:6px; color:#94a3b8; font-size:12px; text-align:center;">
+                  <div style="padding:20px; background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; color:var(--text-dim); font-size:12px; text-align:center;">
                     No extraordinary credit stress alerts or active breaking catalysts for ${m.name} in the current monitoring window. Standard financial filing schedule applies.
                   </div>
                 `;
@@ -1446,7 +1446,7 @@ function renderTable() {
                     const impactBorder = n.credit_impact === 'Positive' ? '#10b981' : (n.credit_impact === 'Negative' ? '#ef4444' : '#f59e0b');
 
                     return `
-                      <div style="background:#111a2b; border:1px solid ${isMacro ? '#3b82f6' : '#1e2d45'}; border-radius:6px; padding:14px; position:relative;">
+                      <div style="background:var(--bg-sub); border:1px solid ${isMacro ? '#3b82f6' : '#1e2d45'}; border-radius:6px; padding:14px; position:relative;">
                         ${isMacro ? `
                           <div style="background:#1e3a8a; color:#93c5fd; font-size:10px; font-weight:700; padding:2px 8px; border-radius:3px; display:inline-block; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.5px;">
                             🌐 WIDER MACRO TRANSMISSION: ${n.macro_transmission_channel || 'Sovereign / Macro Channel'}
@@ -1458,7 +1458,7 @@ function renderTable() {
                             <span style="font-size:11.5px; color:#f8fafc; font-weight:700;">${n.date}</span>
                             <span class="badge ${isMacro ? 'badge-sector' : 'badge-hy'}">${n.ticker}</span>
                             <span class="badge ${impactBadge}">${n.credit_impact} Impact</span>
-                            <span style="font-size:11px; color:#94a3b8;">${n.category}</span>
+                            <span style="font-size:11px; color:var(--text-dim);">${n.category}</span>
                           </div>
                           <span style="font-size:11px; color:#64748b;">Source: ${n.source}</span>
                         </div>
@@ -1470,8 +1470,8 @@ function renderTable() {
                         </div>
 
                         <!-- Credit Desk Concise Analysis & Transmission -->
-                        <div style="background:#0b1120; border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:#cbd5e1; margin-bottom:10px;">
-                          <div style="font-weight:700; color:#fff; margin-bottom:3px;">
+                        <div style="background:#0b1120; border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted); margin-bottom:10px;">
+                          <div style="font-weight:700; color:var(--text-main); margin-bottom:3px;">
                             💡 Credit Desk Transmission Analysis (${m.ticker} Implications):
                           </div>
                           <div>${n.concise_analysis || n.credit_commentary}</div>
@@ -1551,14 +1551,14 @@ function setTrendMode(mode) {
       btnMkt.style.background = "var(--accent-blue)";
       btnMkt.style.color = "#fff";
       btnMkt.style.borderColor = "var(--accent-blue)";
-      btnFin.style.background = "#1e293b";
+      btnFin.style.background = "#ffffff"; btnFin.style.color = "#475569"; btnFin.style.borderColor = "#cbd5e1";
       btnFin.style.color = "#94a3b8";
       btnFin.style.borderColor = "#334155";
     } else {
       btnFin.style.background = "var(--accent-blue)";
       btnFin.style.color = "#fff";
       btnFin.style.borderColor = "var(--accent-blue)";
-      btnMkt.style.background = "#1e293b";
+      btnMkt.style.background = "#ffffff"; btnMkt.style.color = "#475569"; btnMkt.style.borderColor = "#cbd5e1";
       btnMkt.style.color = "#94a3b8";
       btnMkt.style.borderColor = "#334155";
     }
@@ -1710,13 +1710,13 @@ function renderTrendChart() {
       },
       plugins: {
         legend: {
-          labels: { color: '#9ca3af', font: { size: 11 } }
+          labels: { color: '#475569', font: { size: 11 } }
         },
         tooltip: {
-          backgroundColor: '#162030',
-          titleColor: '#f59e0b',
-          bodyColor: '#f3f4f6',
-          borderColor: '#212c40',
+          backgroundColor: '#ffffff',
+          titleColor: '#0f172a',
+          bodyColor: '#334155',
+          borderColor: '#cbd5e1',
           borderWidth: 1,
           padding: 10,
           callbacks: {
@@ -1752,12 +1752,12 @@ function renderTrendChart() {
       },
       scales: {
         x: {
-          grid: { color: '#1f293d' },
-          ticks: { color: '#9ca3af' }
+          grid: { color: 'rgba(0, 0, 0, 0.06)' },
+          ticks: { color: '#64748b' }
         },
         y: {
-          grid: { color: '#1f293d' },
-          ticks: { color: '#9ca3af' }
+          grid: { color: 'rgba(0, 0, 0, 0.06)' },
+          ticks: { color: '#64748b' }
         }
       }
     }
@@ -1768,9 +1768,9 @@ function renderTrendChart() {
   if (notesDiv) {
     const secNotes = (typeof MASTER_ANNOTATIONS !== 'undefined' ? MASTER_ANNOTATIONS : []).filter(a => a.sector === sec).slice(0, 6);
     notesDiv.innerHTML = secNotes.map(n => `
-      <div class="note-card" style="background:#131d2e; border:1px solid #1e2d45; border-radius:6px; padding:12px; margin-bottom:12px;">
+      <div class="note-card" style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:6px; padding:12px; margin-bottom:12px;">
         <div style="font-size:10px; color:var(--accent-gold); text-transform:uppercase; margin-bottom:4px;">[${n.source}] ${n.topic} &bull; ${n.issuer_name || ''}</div>
-        <div style="font-size:12px; color:#fff; line-height:1.4;">${n.note}</div>
+        <div style="font-size:12px; color:var(--text-main); line-height:1.4;">${n.note}</div>
       </div>
     `).join('');
   }
@@ -1917,17 +1917,17 @@ function renderNewsModalContent() {
   }
 
   modal.innerHTML = `
-    <div style="background:#0f172a; border:1px solid #1e2d45; border-radius:8px; width:1050px; max-width:96vw; max-height:90vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.8); overflow:hidden;">
+    <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:12px; box-shadow:0 20px 50px rgba(0,0,0,0.15); width:1050px; max-width:96vw; max-height:90vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.8); overflow:hidden;">
       <!-- Header -->
-      <div style="padding:16px 20px; background:#111a2b; border-bottom:1px solid #1e2d45; display:flex; justify-content:space-between; align-items:center;">
+      <div style="padding:16px 20px; background:var(--bg-sub); border-bottom:1px solid #1e2d45; display:flex; justify-content:space-between; align-items:center;">
         <div style="display:flex; align-items:center; gap:12px;">
           <h3 style="margin:0; font-size:15px; color:var(--accent-gold); text-transform:uppercase; letter-spacing:0.5px;">
             📰 Credit & Macro News Feed
           </h3>
           <span class="badge badge-ig">${filtered.length} of ${allNews.length} Catalysts</span>
-          <span style="font-size:11px; color:#94a3b8;">Click any issuer pill to open full credit model</span>
+          <span style="font-size:11px; color:var(--text-dim);">Click any issuer pill to open full credit model</span>
         </div>
-        <button onclick="closeNewsModal()" style="background:transparent; border:none; color:#94a3b8; font-size:20px; cursor:pointer; padding:4px 8px;">✕</button>
+        <button onclick="closeNewsModal()" style="background:transparent; border:none; color:var(--text-dim); font-size:20px; cursor:pointer; padding:4px 8px;">✕</button>
       </div>
 
       <!-- Controls: Category Filters + Company Search -->
@@ -1943,15 +1943,15 @@ function renderNewsModalContent() {
 
         <div style="display:flex; align-items:center; gap:8px;">
           <span style="font-size:11px; color:#64748b;">Filter Company / Ticker:</span>
-          <input type="text" placeholder="e.g. ZOREN, DANGCEM, SISE..." value="${currentNewsSearch}" oninput="searchNews(this.value)" style="background:#1e293b; border:1px solid #334155; color:#fff; padding:4px 10px; border-radius:4px; font-size:11.5px; width:180px;">
-          ${currentNewsSearch ? `<button onclick="searchNews('')" style="background:#334155; color:#cbd5e1; border:none; border-radius:4px; padding:4px 8px; font-size:10px; cursor:pointer;">Clear</button>` : ''}
+          <input type="text" placeholder="e.g. ZOREN, DANGCEM, SISE..." value="${currentNewsSearch}" oninput="searchNews(this.value)" style="background:#1e293b; border:1px solid #334155; color:var(--text-main); padding:4px 10px; border-radius:4px; font-size:11.5px; width:180px;">
+          ${currentNewsSearch ? `<button onclick="searchNews('')" style="background:#334155; color:var(--text-muted); border:none; border-radius:4px; padding:4px 8px; font-size:10px; cursor:pointer;">Clear</button>` : ''}
         </div>
       </div>
 
       <!-- News Items List -->
       <div style="padding:20px; overflow-y:auto; display:flex; flex-direction:column; gap:14px;">
         ${filtered.length === 0 ? `
-          <div style="text-align:center; padding:40px; color:#94a3b8; font-size:13px;">
+          <div style="text-align:center; padding:40px; color:var(--text-dim); font-size:13px;">
             No credit catalysts match the selected criteria.
           </div>
         ` : filtered.map(n => {
@@ -1960,7 +1960,7 @@ function renderNewsModalContent() {
           const impactBorder = n.credit_impact === 'Positive' ? '#10b981' : (n.credit_impact === 'Negative' ? '#ef4444' : '#f59e0b');
 
           return `
-            <div style="background:#111a2b; border:1px solid ${isMacro ? '#2563eb' : '#1e2d45'}; border-radius:6px; padding:15px; transition:border 0.2s;">
+            <div style="background:var(--bg-sub); border:1px solid ${isMacro ? '#2563eb' : '#1e2d45'}; border-radius:6px; padding:15px; transition:border 0.2s;">
               ${isMacro ? `
                 <div style="background:#1e3a8a; color:#93c5fd; font-size:10px; font-weight:700; padding:2px 8px; border-radius:3px; display:inline-block; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.5px;">
                   🌐 WIDER MACRO TRANSMISSION: ${n.macro_transmission_channel || 'Macro Channel'}
@@ -1972,7 +1972,7 @@ function renderNewsModalContent() {
                   <strong style="color:#f8fafc; font-size:12px;">${n.date}</strong>
                   <span class="badge ${isMacro ? 'badge-sector' : 'badge-hy'}">${n.ticker}</span>
                   <span class="badge ${impactBadge}">${n.credit_impact} Impact</span>
-                  <span style="font-size:11px; color:#94a3b8;">${n.category}</span>
+                  <span style="font-size:11px; color:var(--text-dim);">${n.category}</span>
                 </div>
                 <span style="font-size:11px; color:#64748b;">Source: ${n.source}</span>
               </div>
@@ -1984,8 +1984,8 @@ function renderNewsModalContent() {
               </div>
 
               <!-- Concise Credit Analysis Box -->
-              <div style="background:#0b1120; border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:#cbd5e1; margin-bottom:12px;">
-                <div style="font-weight:700; color:#fff; margin-bottom:3px;">
+              <div style="background:#0b1120; border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted); margin-bottom:12px;">
+                <div style="font-weight:700; color:var(--text-main); margin-bottom:3px;">
                   💡 Credit Desk Transmission Analysis & Spread Trajectory:
                 </div>
                 <div>${n.concise_analysis || n.credit_commentary}</div>
@@ -1993,7 +1993,7 @@ function renderNewsModalContent() {
 
               <!-- Clickable Impacted Issuers / Companies -->
               ${n.impacted_issuers && n.impacted_issuers.length > 0 ? `
-                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:11px; color:#94a3b8; background:#0f172a; padding:8px 12px; border-radius:4px;">
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:11px; color:var(--text-dim); background:#0f172a; padding:8px 12px; border-radius:4px;">
                   <strong style="color:#e2e8f0;">Linked CEMBI Companies:</strong>
                   ${n.impacted_issuers.map(ticker => {
                     const iss = (typeof MASTER_ISSUERS !== 'undefined' ? MASTER_ISSUERS : []).find(i => i.metadata.ticker === ticker);
@@ -2094,17 +2094,17 @@ window.openInstitutionalModel = function(issuerId, targetSheet = 'sheet-fin') {
   `;
 
   document.getElementById('modal-model-meta').innerHTML = `
-    <span>Country: <strong style="color:#fff;">${m.country} (${m.region})</strong></span>
-    <span style="color:#334155;">|</span>
+    <span>Country: <strong style="color:var(--text-main);">${m.country} (${m.region})</strong></span>
+    <span style="color:#cbd5e1;">|</span>
     <span>Benchmark: <strong style="color:var(--accent-gold);">${m.benchmark_bond}</strong></span>
-    <span style="color:#334155;">|</span>
-    <span>Price: <strong style="color:#fff;">$${m.price.toFixed(2)}</strong></span>
-    <span style="color:#334155;">|</span>
+    <span style="color:#cbd5e1;">|</span>
+    <span>Price: <strong style="color:var(--text-main);">$${m.price.toFixed(2)}</strong></span>
+    <span style="color:#cbd5e1;">|</span>
     <span>YTM: <strong style="color:var(--accent-gold);">${m.ytm.toFixed(2)}%</strong></span>
-    <span style="color:#334155;">|</span>
+    <span style="color:#cbd5e1;">|</span>
     <span>Spread: <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong></span>
-    <span style="color:#334155;">|</span>
-    <span>2024A Net Lev: <strong style="color:#fff;">${f24.net_leverage ? f24.net_leverage.toFixed(2) + 'x' : 'N/A'}</strong></span>
+    <span style="color:#cbd5e1;">|</span>
+    <span>2024A Net Lev: <strong style="color:var(--text-main);">${f24.net_leverage ? f24.net_leverage.toFixed(2) + 'x' : 'N/A'}</strong></span>
   `;
 
   // Update Download Button
@@ -2822,46 +2822,46 @@ function renderSheetSummary(item) {
   return `
     <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:14px; margin-bottom:20px;">
       
-      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
-        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">Benchmark Secondary Pricing</div>
+      <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:var(--text-dim); text-transform:uppercase; margin-bottom:4px;">Benchmark Secondary Pricing</div>
         <div style="font-size:18px; font-weight:700; color:var(--accent-gold);">$${m.price.toFixed(2)}</div>
-        <div style="font-size:11.5px; color:#cbd5e1; margin-top:3px;">
+        <div style="font-size:11.5px; color:var(--text-muted); margin-top:3px;">
           YTM: <strong>${m.ytm.toFixed(2)}%</strong> | Spread: <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong>
         </div>
       </div>
 
-      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
-        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">Credit Rating & Category</div>
-        <div style="font-size:18px; font-weight:700; color:#fff;">${m.rating}</div>
-        <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+      <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:var(--text-dim); text-transform:uppercase; margin-bottom:4px;">Credit Rating & Category</div>
+        <div style="font-size:18px; font-weight:700; color:var(--text-main);">${m.rating}</div>
+        <div style="font-size:11.5px; color:var(--text-dim); margin-top:3px;">
           Tier: <span class="badge badge-sector">${m.tier}</span> | Type: <strong>${m.type.toUpperCase()}</strong>
         </div>
       </div>
 
-      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
-        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">${isBank ? '2024A Net Interest Margin' : '2024A Calculated Cash EBITDA'}</div>
+      <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:var(--text-dim); text-transform:uppercase; margin-bottom:4px;">${isBank ? '2024A Net Interest Margin' : '2024A Calculated Cash EBITDA'}</div>
         <div style="font-size:18px; font-weight:700; color:#10b981;">
           ${isBank ? (f24.nim_pct ? f24.nim_pct.toFixed(2) + '%' : 'N/A') : '$' + (f24.ebitda || 0).toLocaleString() + 'M'}
         </div>
-        <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+        <div style="font-size:11.5px; color:var(--text-dim); margin-top:3px;">
           ${isBank ? `Cost-to-Income: <strong>${f24.cir_pct ? f24.cir_pct.toFixed(1) + '%' : 'N/A'}</strong>` : `Reported: <strong>$${(eRec.company_reported_ebitda || f24.ebitda || 0).toLocaleString()}M</strong>`}
         </div>
       </div>
 
-      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
-        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">${isBank ? 'Capital Adequacy (CAR %)' : '2024A Net Leverage'}</div>
-        <div style="font-size:18px; font-weight:700; color:#fff;">
+      <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:var(--text-dim); text-transform:uppercase; margin-bottom:4px;">${isBank ? 'Capital Adequacy (CAR %)' : '2024A Net Leverage'}</div>
+        <div style="font-size:18px; font-weight:700; color:var(--text-main);">
           ${isBank ? (f24.car_pct ? f24.car_pct.toFixed(1) + '%' : 'N/A') : (f24.net_leverage ? f24.net_leverage.toFixed(2) + 'x' : 'N/A')}
         </div>
-        <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+        <div style="font-size:11.5px; color:var(--text-dim); margin-top:3px;">
           ${isBank ? `NPL Ratio: <strong>${f24.npl_pct ? f24.npl_pct.toFixed(2) + '%' : 'N/A'}</strong>` : `Coverage: <strong>${f24.interest_coverage ? f24.interest_coverage.toFixed(2) + 'x' : 'N/A'}</strong>`}
         </div>
       </div>
 
-      <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
-        <div style="font-size:10.5px; color:#94a3b8; text-transform:uppercase; margin-bottom:4px;">Restructuring Floor Price</div>
+      <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
+        <div style="font-size:10.5px; color:var(--text-dim); text-transform:uppercase; margin-bottom:4px;">Restructuring Floor Price</div>
         <div style="font-size:18px; font-weight:700; color:#f43f5e;">$${Number(rec.distressed_floor_px || 45).toFixed(2)}</div>
-        <div style="font-size:11.5px; color:#94a3b8; margin-top:3px;">
+        <div style="font-size:11.5px; color:var(--text-dim); margin-top:3px;">
           Base Recovery: <strong style="color:#10b981;">$${Number(rec.base_case_px || 85).toFixed(2)}</strong> (${rec.recovery_floor_pct || 50}%)
         </div>
       </div>
@@ -2869,11 +2869,11 @@ function renderSheetSummary(item) {
     </div>
 
     <!-- Executive Summary Credit Thesis -->
-    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:8px; padding:18px; margin-bottom:20px;">
+    <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:8px; padding:18px; margin-bottom:20px;">
       <h3 style="color:var(--accent-gold); font-size:13.5px; margin:0 0 10px 0; text-transform:uppercase;">
         🏛️ Credit Thesis & Capital Structure Profile
       </h3>
-      <p style="color:#cbd5e1; font-size:12.5px; line-height:1.6; margin:0 0 12px 0;">
+      <p style="color:var(--text-muted); font-size:12.5px; line-height:1.6; margin:0 0 12px 0;">
         ${rec.thesis || `${m.name} (${m.ticker}) is a leading ${m.country} ${m.sector} issuer benchmarked via ${m.benchmark_bond}. The desk model maintains strict dual EBITDA tracking reconciling management reported numbers to calculated cash generation.`}
       </p>
       <div style="display:flex; gap:10px; flex-wrap:wrap;">
@@ -2982,7 +2982,7 @@ function renderSheetFinancials(item, mode, isBank) {
 
   return `
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-      <div style="font-size:11.5px; color:#94a3b8;">
+      <div style="font-size:11.5px; color:var(--text-dim);">
         💡 Click any data cell to highlight or add analyst notes. Cells with 💬 indicators contain desk observations.
       </div>
       <div style="display:flex; gap:8px; align-items:center;">
@@ -3077,7 +3077,7 @@ function renderSheetOperational(item) {
   ];
 
   return `
-    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+    <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px; margin-bottom:14px;">
       <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
         🏭 Operational Drivers, Production Capacity & Hard-Currency Unit Economics
       </h4>
@@ -3094,7 +3094,7 @@ function renderSheetOperational(item) {
             ${opsData.map(row => `
               <tr>
                 <td class="col-metric"><strong>${row.metric}</strong></td>
-                <td style="color:#94a3b8; font-size:10.5px;">${row.uom}</td>
+                <td style="color:var(--text-dim); font-size:10.5px;">${row.uom}</td>
                 ${row.vals.map(v => `<td class="grid-cell">${v}</td>`).join('')}
               </tr>
             `).join('')}
@@ -3115,12 +3115,12 @@ function renderSheetCapitalStructure(item) {
 
   return `
     <!-- Tranches -->
-    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+    <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px; margin-bottom:14px;">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
         <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
           🏛️ Debt Capital Structure & Tranche Pricing
         </h4>
-        <span style="font-size:11px; color:#94a3b8;">Consolidated Gross Debt: <strong>$${(f24.gross_debt || 0).toLocaleString()}M</strong></span>
+        <span style="font-size:11px; color:var(--text-dim);">Consolidated Gross Debt: <strong>$${(f24.gross_debt || 0).toLocaleString()}M</strong></span>
       </div>
       <div style="overflow-x:auto;">
         <table class="drawer-table" style="margin:0; font-size:11.5px;">
@@ -3157,7 +3157,7 @@ function renderSheetCapitalStructure(item) {
     </div>
 
     <!-- RCF Liquidity -->
-    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:14px; margin-bottom:14px;">
+    <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px; margin-bottom:14px;">
       <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 10px 0; text-transform:uppercase;">
         💧 Revolving Credit Facility (RCF) Capacity & Undrawn Liquidity Headroom
       </h4>
@@ -3175,22 +3175,22 @@ function renderSheetCapitalStructure(item) {
 function renderSheetRecovery(item) {
   const rec = item.recovery_analysis || {};
   return `
-    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:16px;">
+    <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:16px;">
       <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">
         ⚖️ Restructuring Framework & Recovery Scenarios
       </h4>
       <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px;">
         <div style="background:#0b111e; border:1px solid #1e2d45; border-radius:6px; padding:12px;">
           <div style="color:#ef4444; font-weight:700; font-size:12px; margin-bottom:4px;">Stressed Liquidation Floor</div>
-          <div style="font-size:20px; font-weight:700; color:#fff;">$${Number(rec.distressed_floor_px || 45).toFixed(2)}</div>
-          <div style="font-size:11px; color:#94a3b8; margin-top:4px;">Floor Recovery: <strong>${rec.recovery_floor_pct || 48}%</strong></div>
+          <div style="font-size:20px; font-weight:700; color:var(--text-main);">$${Number(rec.distressed_floor_px || 45).toFixed(2)}</div>
+          <div style="font-size:11px; color:var(--text-dim); margin-top:4px;">Floor Recovery: <strong>${rec.recovery_floor_pct || 48}%</strong></div>
           <div style="font-size:11px; color:#64748b; margin-top:4px;">EV Multiple: <strong>${rec.stress_ev_multiple || '4.0x'}</strong></div>
         </div>
 
         <div style="background:#0b111e; border:1px solid #1e2d45; border-radius:6px; padding:12px;">
           <div style="color:#10b981; font-weight:700; font-size:12px; margin-bottom:4px;">Base Going-Concern Case</div>
-          <div style="font-size:20px; font-weight:700; color:#fff;">$${Number(rec.base_case_px || 85).toFixed(2)}</div>
-          <div style="font-size:11px; color:#94a3b8; margin-top:4px;">Base Recovery: <strong>${rec.recovery_base_pct || 90}%</strong></div>
+          <div style="font-size:20px; font-weight:700; color:var(--text-main);">$${Number(rec.base_case_px || 85).toFixed(2)}</div>
+          <div style="font-size:11px; color:var(--text-dim); margin-top:4px;">Base Recovery: <strong>${rec.recovery_base_pct || 90}%</strong></div>
           <div style="font-size:11px; color:#64748b; margin-top:4px;">Framework: <strong>${rec.restructuring_framework || 'Consensual Scheme of Arrangement'}</strong></div>
         </div>
       </div>
@@ -3202,7 +3202,7 @@ function renderSheetRecovery(item) {
 function renderSheetGuidance(item) {
   const gList = item.management_guidance_tracker || [];
   return `
-    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:16px;">
+    <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:16px;">
       <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">
         📢 Prior Management Guidance vs. Actual Run-Rate (Audit Tracker)
       </h4>
@@ -3225,7 +3225,7 @@ function renderSheetGuidance(item) {
                 <td><span style="color:var(--accent-gold); font-weight:600;">${g.management_target}</span></td>
                 <td>${g.current_runrate}</td>
                 <td><span class="badge ${g.tracking_status === 'On Track' ? 'badge-ig' : 'badge-hy'}">${g.tracking_status}</span></td>
-                <td style="font-size:11px; color:#cbd5e1;">${g.verification_question || g.variance_analysis}</td>
+                <td style="font-size:11px; color:var(--text-muted);">${g.verification_question || g.variance_analysis}</td>
                 <td>
                   <button class="btn-action" onclick="copyTextToClipboard('${(g.verification_question || '').replace(/'/g, "\\'")}')" style="font-size:10px; padding:3px 7px;">
                     📋 Copy
@@ -3244,7 +3244,7 @@ function renderSheetGuidance(item) {
 function renderSheetHistory(item) {
   const hist = item.market_history || [];
   return `
-    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:16px;">
+    <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:16px;">
       <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">
         📈 Historical Market Snapshots & Secondary Spread Drift (${hist.length} Snapshots)
       </h4>
@@ -3293,7 +3293,7 @@ function renderSheetHistory(item) {
 function renderSheetMgmtQuestions(item) {
   const qList = item.management_questions || [];
   return `
-    <div style="background:#111a2b; border:1px solid #1e2d45; border-radius:6px; padding:16px;">
+    <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:16px;">
       <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">
         🎯 Management Diligence Questions & Conviction Drivers
       </h4>
@@ -3306,13 +3306,13 @@ function renderSheetMgmtQuestions(item) {
                 📋 Copy
               </button>
             </div>
-            <div style="font-size:12.5px; font-weight:600; color:#fff; margin-bottom:8px;">
+            <div style="font-size:12.5px; font-weight:600; color:var(--text-main); margin-bottom:8px;">
               "${q.question}"
             </div>
-            <div style="font-size:11px; color:#cbd5e1; margin-bottom:6px;">
+            <div style="font-size:11px; color:var(--text-muted); margin-bottom:6px;">
               <strong style="color:var(--accent-gold);">Relevance:</strong> ${q.relevance || ''}
             </div>
-            <div style="font-size:11px; color:#94a3b8;">
+            <div style="font-size:11px; color:var(--text-dim);">
               <strong style="color:#10b981;">Conviction Trigger:</strong> ${q.conviction_trigger || ''}
             </div>
           </div>
