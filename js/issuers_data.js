@@ -73229,29 +73229,113 @@ const MASTER_ISSUERS = [
         "tranche_name": "ZOREN 11.000% Senior Notes Due 2030 (Eurobond)",
         "instrument_type": "Senior Guaranteed Sustainability-Linked Notes (RegS/144A)",
         "currency": "USD",
+        "amount_issued_usd_m": 1100.0,
         "amount_outstanding_usd_m": 1100.0,
+        "reported_amount_try_m": 45655.32,
         "coupon": "11.000%",
         "clean_price": 63.5,
         "ytm": 27.2,
         "spread_bp": 2250,
         "maturity": "2030-04-23",
-        "seniority": "Senior Guaranteed (Subordinated to OpCo Asset Liens)",
+        "seniority": "Senior Unsecured HoldCo (Structurally Subordinated)",
         "governing_law": "English Law / Euronext Dublin (ISIN: XS2926261426)",
-        "observation": "Benchmark $1.1B bond issued in Oct 2024 and tapped. Appointed Houlihan Lokey and Servo Capital in Sep 2026; trading in secondary distress at ~63.5c."
+        "observation": "Benchmark .1B bond issued in Oct 2024 to refinance subsidiary debt. Carried on Turkish balance sheet under long-term issued debt at TRY 45,655M (amortized cost). Houlihan Lokey and Servo Capital appointed in Sep 2026 for debt restructuring."
       },
       {
-        "tranche_name": "OpCo Priority Secured Loans (ADB Geothermal & Domestic Bank PF)",
-        "instrument_type": "Senior Secured Project Finance & Concession Facilities",
-        "currency": "USD/EUR",
-        "amount_outstanding_usd_m": 380.0,
-        "coupon": "SOFR + 2.75% / Fixed 6.50%",
+        "tranche_name": "ADB Distribution Rehabilitation Concessional Loan",
+        "instrument_type": "Multilateral DFI Concessional Loan (Asian Development Bank)",
+        "currency": "TRY",
+        "amount_issued_usd_m": 115.0,
+        "amount_outstanding_usd_m": 115.0,
+        "reported_amount_try_m": 3979.8,
+        "coupon": "Concessional Reference + Margin",
         "clean_price": 100.0,
-        "ytm": 7.8,
-        "spread_bp": 350,
-        "maturity": "2027-2032",
-        "seniority": "OpCo Senior Secured (First-ranking liens on Kizildere geothermal & OEDAS grid)",
+        "ytm": 6.5,
+        "spread_bp": 250,
+        "maturity": "2034-12-31",
+        "seniority": "OpCo Senior Secured (OEDAŞ Grid Receivables & IFRIC 12 Assets)",
+        "governing_law": "English / Turkish Law",
+        "observation": "Concessional facility signed in Aug 2024 at USD/TRY 34.61 ( equivalent). At 30.06.2026 TCMB rate (46.5551), carrying value is .5M. Sits 100% senior to HoldCo Eurobonds."
+      },
+      {
+        "tranche_name": "Turkish Commercial Bank Project Finance Facilities (Akbank, Garanti, İşbank)",
+        "instrument_type": "Syndicated & Bilateral Project Finance Facilities",
+        "currency": "TRY / USD",
+        "amount_issued_usd_m": 300.0,
+        "amount_outstanding_usd_m": 265.0,
+        "reported_amount_try_m": 12337.0,
+        "coupon": "SOFR + 3.75% / Fixed 12.5%",
+        "clean_price": 100.0,
+        "ytm": 8.5,
+        "spread_bp": 380,
+        "maturity": "2027-2030",
+        "seniority": "Senior Secured OpCo / Commercial Enterprise Pledge (Ticari İşletme Rehni)",
+        "governing_law": "Turkish Law",
+        "observation": "Local bank syndicates enforce notarized account pledges over EPİAŞ YEKDEM dollar collections and OEDAŞ grid revenues, sweeping domestic cash before HoldCo."
+      },
+      {
+        "tranche_name": "Geothermal & Wind Operating Project Loans (Kızıldere / Alaşehir)",
+        "instrument_type": "Senior Secured Project Finance",
+        "currency": "USD",
+        "amount_issued_usd_m": 120.0,
+        "amount_outstanding_usd_m": 80.0,
+        "reported_amount_try_m": 3724.4,
+        "coupon": "SOFR + 3.75%",
+        "clean_price": 100.0,
+        "ytm": 8.2,
+        "spread_bp": 360,
+        "maturity": "2028-2030",
+        "seniority": "Senior Secured (1st Mortgages on Geothermal Fleet)",
         "governing_law": "Turkish / English Law",
-        "observation": "Priority debt reduced from $1.2B to $380M following PALMET gas distribution divestment (March 2024) and Dorad Energy stake monetization (2025)."
+        "observation": "Directly secured by plant assets and statutory USD YEKDEM feed-in tariff receipts."
+      },
+      {
+        "tranche_name": "Local TL Corporate Bonds & Sukuk (Özel Sektör Tahvili - ÖST)",
+        "instrument_type": "Domestic Turkish Lira Corporate Bonds & Sukuk",
+        "currency": "TRY",
+        "amount_issued_usd_m": 250.0,
+        "amount_outstanding_usd_m": 75.0,
+        "reported_amount_try_m": 3650.0,
+        "coupon": "TLREF + 3.50%",
+        "clean_price": 92.0,
+        "ytm": 48.5,
+        "spread_bp": 350,
+        "maturity": "2026-2027",
+        "seniority": "Senior Unsecured Issuer Level (Pari Passu with Eurobond)",
+        "governing_law": "Turkish Capital Markets Law (SPK / BIST)",
+        "observation": "Domestic corporate paper held by Turkish mutual funds. Converted at 48.67 TRY/USD in debt waterfall (). In total domestic bond claims, up to TRY 8.7B () has been carried across maturities."
+      },
+      {
+        "tranche_name": "HoldCo Bilateral Bank Lines & Overdrafts",
+        "instrument_type": "Short-Term Commercial Facilities & Bank Credit Lines",
+        "currency": "TRY / USD",
+        "amount_issued_usd_m": 100.0,
+        "amount_outstanding_usd_m": 50.0,
+        "reported_amount_try_m": 2328.0,
+        "coupon": "Commercial Floating",
+        "clean_price": 100.0,
+        "ytm": 12.0,
+        "spread_bp": 450,
+        "maturity": "2026-2027",
+        "seniority": "Senior Unsecured Issuer Level",
+        "governing_law": "Turkish Commercial Code",
+        "observation": "Working capital lines with Turkish commercial banks (Vakıf, Halk, Akbank, İşbank)."
+      },
+      {
+        "tranche_name": "Lease Liabilities (TFRS 16)",
+        "instrument_type": "Capital & Operating Lease Obligations",
+        "currency": "TRY",
+        "amount_issued_usd_m": 10.0,
+        "amount_outstanding_usd_m": 5.2,
+        "reported_amount_try_m": 243.26,
+        "coupon": "Implied Discount Rate",
+        "clean_price": 100.0,
+        "ytm": 7.0,
+        "spread_bp": 200,
+        "maturity": "2026-2032",
+        "seniority": "Senior Operating Liabilities",
+        "governing_law": "Turkish Law",
+        "observation": "TRY 228.1M non-current and TRY 15.1M current lease liabilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -73978,7 +74062,74 @@ const MASTER_ISSUERS = [
         "status": "Archived / Previous Note Run",
         "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDAŞ vs merchant),  related-party loan leakage, and HoldCo structural subordination."
       }
-    ]
+    ],
+    "latest_reported_financials_1h26": {
+      "reporting_period": "1H 2026 / 2Q 2026 (Six months ended 30 June 2026)",
+      "filing_source": "Zorlu Enerji Elektrik Üretim A.Ş. KAP Consolidated Financial Statements & Cognitive Credit (23-Sep-2026)",
+      "accounting_standard": "Turkish Accounting Standards (TAS / TFRS) with TMS 29 Hyperinflation Accounting",
+      "reporting_currency": "TRY (Turkish Lira Millions)",
+      "balance_sheet_summary_try_m": {
+        "total_assets": 142511.235,
+        "total_current_assets": 36585.833,
+        "cash_and_cash_equivalents": 2386.625,
+        "total_liabilities": 79127.042,
+        "total_current_liabilities": 25917.946,
+        "total_non_current_liabilities": 53209.096,
+        "total_equity": 63384.193,
+        "equity_attributable_to_owners": 63383.079,
+        "non_controlling_interests": 1.114
+      },
+      "debt_note_breakdown_try_m": {
+        "issued_debt_instruments_total": 54317.994,
+        "long_term_issued_debt_instruments": 45655.324,
+        "short_term_portion_of_long_term_issued_debt": 7414.425,
+        "short_term_issued_debt_instruments": 1248.245,
+        "bank_loans_total": 6200.943,
+        "long_term_secured_bank_loans": 2762.292,
+        "short_term_portion_of_long_term_bank_loans": 2434.09,
+        "short_term_secured_bank_loans": 1004.561,
+        "lease_liabilities_total": 243.262,
+        "long_term_lease_liabilities": 228.117,
+        "short_term_lease_liabilities": 15.145,
+        "total_gross_debt": 60762.199,
+        "cash_and_cash_equivalents": 2386.625,
+        "total_net_debt": 58375.574
+      },
+      "lira_to_usd_exchange_rate_mechanics": {
+        "rate_1_official_tcmb_period_end": {
+          "rate": 46.5551,
+          "source": "TCMB (Central Bank of Turkey) Foreign Exchange Rate at 30 June 2026",
+          "implied_gross_debt_usd_m": 1305.17,
+          "implied_net_debt_usd_m": 1253.9,
+          "implied_cash_usd_m": 51.26,
+          "implied_total_assets_usd_m": 3061.13,
+          "implied_total_equity_usd_m": 1361.49,
+          "description": "Statutory period-end balance sheet translation rate under IFRS / TAS."
+        },
+        "rate_2_credit_desk_spot_1h26": {
+          "rate": 48.7,
+          "source": "Desk Financial Model Period-End Spot Rate (Financial_Model_USD row 28)",
+          "implied_gross_debt_usd_m": 1247.68,
+          "implied_net_debt_usd_m": 1198.68,
+          "implied_cash_usd_m": 49.01,
+          "description": "Current trading spot rate used in 1H 2026 desk models and for converting local TRY bonds (TRY 3,650M / 48.67 = .0M)."
+        },
+        "rate_3_historical_balance_sheet_deepdive": {
+          "rate": 42.85,
+          "source": "Model Balance_Sheet_DeepDive constant rate (FY25 year-end rate)",
+          "implied_gross_debt_usd_m": 1418.02,
+          "description": "Applied in Balance_Sheet_DeepDive where ,100M Eurobond was translated as TRY 47,135M (,100M * 42.85) and Gross Debt was TRY 65,985M / 42.85 = ,540M."
+        },
+        "rate_4_adb_loan_inception_rate": {
+          "rate": 34.61,
+          "source": "Asian Development Bank loan signing exchange rate (August 2024)",
+          "description": "Loan of TRY 3,979.8M booked as .0M concessional facility (3,979.8 / 115 = 34.61)."
+        },
+        "rate_5_hybrid_tranche_desk_method": {
+          "description": "The institutional desk standard: Fix the USD 1,100.0M Eurobond and USD 80.0M Geothermal Project Finance at face value in USD, and convert only the TRY-denominated bank loans and local bonds at market spot, yielding ,480M (1H26 model) to ,555M (recovery waterfall) Total Gross Debt."
+        }
+      }
+    }
   }
 ];
 const MASTER_ANNOTATIONS = [
@@ -149304,29 +149455,113 @@ window.CEMBI_DATA = {
         "tranche_name": "ZOREN 11.000% Senior Notes Due 2030 (Eurobond)",
         "instrument_type": "Senior Guaranteed Sustainability-Linked Notes (RegS/144A)",
         "currency": "USD",
+        "amount_issued_usd_m": 1100.0,
         "amount_outstanding_usd_m": 1100.0,
+        "reported_amount_try_m": 45655.32,
         "coupon": "11.000%",
         "clean_price": 63.5,
         "ytm": 27.2,
         "spread_bp": 2250,
         "maturity": "2030-04-23",
-        "seniority": "Senior Guaranteed (Subordinated to OpCo Asset Liens)",
+        "seniority": "Senior Unsecured HoldCo (Structurally Subordinated)",
         "governing_law": "English Law / Euronext Dublin (ISIN: XS2926261426)",
-        "observation": "Benchmark $1.1B bond issued in Oct 2024 and tapped. Appointed Houlihan Lokey and Servo Capital in Sep 2026; trading in secondary distress at ~63.5c."
+        "observation": "Benchmark .1B bond issued in Oct 2024 to refinance subsidiary debt. Carried on Turkish balance sheet under long-term issued debt at TRY 45,655M (amortized cost). Houlihan Lokey and Servo Capital appointed in Sep 2026 for debt restructuring."
       },
       {
-        "tranche_name": "OpCo Priority Secured Loans (ADB Geothermal & Domestic Bank PF)",
-        "instrument_type": "Senior Secured Project Finance & Concession Facilities",
-        "currency": "USD/EUR",
-        "amount_outstanding_usd_m": 380.0,
-        "coupon": "SOFR + 2.75% / Fixed 6.50%",
+        "tranche_name": "ADB Distribution Rehabilitation Concessional Loan",
+        "instrument_type": "Multilateral DFI Concessional Loan (Asian Development Bank)",
+        "currency": "TRY",
+        "amount_issued_usd_m": 115.0,
+        "amount_outstanding_usd_m": 115.0,
+        "reported_amount_try_m": 3979.8,
+        "coupon": "Concessional Reference + Margin",
         "clean_price": 100.0,
-        "ytm": 7.8,
-        "spread_bp": 350,
-        "maturity": "2027-2032",
-        "seniority": "OpCo Senior Secured (First-ranking liens on Kizildere geothermal & OEDAS grid)",
+        "ytm": 6.5,
+        "spread_bp": 250,
+        "maturity": "2034-12-31",
+        "seniority": "OpCo Senior Secured (OEDAŞ Grid Receivables & IFRIC 12 Assets)",
+        "governing_law": "English / Turkish Law",
+        "observation": "Concessional facility signed in Aug 2024 at USD/TRY 34.61 ( equivalent). At 30.06.2026 TCMB rate (46.5551), carrying value is .5M. Sits 100% senior to HoldCo Eurobonds."
+      },
+      {
+        "tranche_name": "Turkish Commercial Bank Project Finance Facilities (Akbank, Garanti, İşbank)",
+        "instrument_type": "Syndicated & Bilateral Project Finance Facilities",
+        "currency": "TRY / USD",
+        "amount_issued_usd_m": 300.0,
+        "amount_outstanding_usd_m": 265.0,
+        "reported_amount_try_m": 12337.0,
+        "coupon": "SOFR + 3.75% / Fixed 12.5%",
+        "clean_price": 100.0,
+        "ytm": 8.5,
+        "spread_bp": 380,
+        "maturity": "2027-2030",
+        "seniority": "Senior Secured OpCo / Commercial Enterprise Pledge (Ticari İşletme Rehni)",
+        "governing_law": "Turkish Law",
+        "observation": "Local bank syndicates enforce notarized account pledges over EPİAŞ YEKDEM dollar collections and OEDAŞ grid revenues, sweeping domestic cash before HoldCo."
+      },
+      {
+        "tranche_name": "Geothermal & Wind Operating Project Loans (Kızıldere / Alaşehir)",
+        "instrument_type": "Senior Secured Project Finance",
+        "currency": "USD",
+        "amount_issued_usd_m": 120.0,
+        "amount_outstanding_usd_m": 80.0,
+        "reported_amount_try_m": 3724.4,
+        "coupon": "SOFR + 3.75%",
+        "clean_price": 100.0,
+        "ytm": 8.2,
+        "spread_bp": 360,
+        "maturity": "2028-2030",
+        "seniority": "Senior Secured (1st Mortgages on Geothermal Fleet)",
         "governing_law": "Turkish / English Law",
-        "observation": "Priority debt reduced from $1.2B to $380M following PALMET gas distribution divestment (March 2024) and Dorad Energy stake monetization (2025)."
+        "observation": "Directly secured by plant assets and statutory USD YEKDEM feed-in tariff receipts."
+      },
+      {
+        "tranche_name": "Local TL Corporate Bonds & Sukuk (Özel Sektör Tahvili - ÖST)",
+        "instrument_type": "Domestic Turkish Lira Corporate Bonds & Sukuk",
+        "currency": "TRY",
+        "amount_issued_usd_m": 250.0,
+        "amount_outstanding_usd_m": 75.0,
+        "reported_amount_try_m": 3650.0,
+        "coupon": "TLREF + 3.50%",
+        "clean_price": 92.0,
+        "ytm": 48.5,
+        "spread_bp": 350,
+        "maturity": "2026-2027",
+        "seniority": "Senior Unsecured Issuer Level (Pari Passu with Eurobond)",
+        "governing_law": "Turkish Capital Markets Law (SPK / BIST)",
+        "observation": "Domestic corporate paper held by Turkish mutual funds. Converted at 48.67 TRY/USD in debt waterfall (). In total domestic bond claims, up to TRY 8.7B () has been carried across maturities."
+      },
+      {
+        "tranche_name": "HoldCo Bilateral Bank Lines & Overdrafts",
+        "instrument_type": "Short-Term Commercial Facilities & Bank Credit Lines",
+        "currency": "TRY / USD",
+        "amount_issued_usd_m": 100.0,
+        "amount_outstanding_usd_m": 50.0,
+        "reported_amount_try_m": 2328.0,
+        "coupon": "Commercial Floating",
+        "clean_price": 100.0,
+        "ytm": 12.0,
+        "spread_bp": 450,
+        "maturity": "2026-2027",
+        "seniority": "Senior Unsecured Issuer Level",
+        "governing_law": "Turkish Commercial Code",
+        "observation": "Working capital lines with Turkish commercial banks (Vakıf, Halk, Akbank, İşbank)."
+      },
+      {
+        "tranche_name": "Lease Liabilities (TFRS 16)",
+        "instrument_type": "Capital & Operating Lease Obligations",
+        "currency": "TRY",
+        "amount_issued_usd_m": 10.0,
+        "amount_outstanding_usd_m": 5.2,
+        "reported_amount_try_m": 243.26,
+        "coupon": "Implied Discount Rate",
+        "clean_price": 100.0,
+        "ytm": 7.0,
+        "spread_bp": 200,
+        "maturity": "2026-2032",
+        "seniority": "Senior Operating Liabilities",
+        "governing_law": "Turkish Law",
+        "observation": "TRY 228.1M non-current and TRY 15.1M current lease liabilities."
       }
     ],
     "rcf_facility_liquidity": {
@@ -150053,6 +150288,73 @@ window.CEMBI_DATA = {
         "status": "Archived / Previous Note Run",
         "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDAŞ vs merchant),  related-party loan leakage, and HoldCo structural subordination."
       }
-    ]
+    ],
+    "latest_reported_financials_1h26": {
+      "reporting_period": "1H 2026 / 2Q 2026 (Six months ended 30 June 2026)",
+      "filing_source": "Zorlu Enerji Elektrik Üretim A.Ş. KAP Consolidated Financial Statements & Cognitive Credit (23-Sep-2026)",
+      "accounting_standard": "Turkish Accounting Standards (TAS / TFRS) with TMS 29 Hyperinflation Accounting",
+      "reporting_currency": "TRY (Turkish Lira Millions)",
+      "balance_sheet_summary_try_m": {
+        "total_assets": 142511.235,
+        "total_current_assets": 36585.833,
+        "cash_and_cash_equivalents": 2386.625,
+        "total_liabilities": 79127.042,
+        "total_current_liabilities": 25917.946,
+        "total_non_current_liabilities": 53209.096,
+        "total_equity": 63384.193,
+        "equity_attributable_to_owners": 63383.079,
+        "non_controlling_interests": 1.114
+      },
+      "debt_note_breakdown_try_m": {
+        "issued_debt_instruments_total": 54317.994,
+        "long_term_issued_debt_instruments": 45655.324,
+        "short_term_portion_of_long_term_issued_debt": 7414.425,
+        "short_term_issued_debt_instruments": 1248.245,
+        "bank_loans_total": 6200.943,
+        "long_term_secured_bank_loans": 2762.292,
+        "short_term_portion_of_long_term_bank_loans": 2434.09,
+        "short_term_secured_bank_loans": 1004.561,
+        "lease_liabilities_total": 243.262,
+        "long_term_lease_liabilities": 228.117,
+        "short_term_lease_liabilities": 15.145,
+        "total_gross_debt": 60762.199,
+        "cash_and_cash_equivalents": 2386.625,
+        "total_net_debt": 58375.574
+      },
+      "lira_to_usd_exchange_rate_mechanics": {
+        "rate_1_official_tcmb_period_end": {
+          "rate": 46.5551,
+          "source": "TCMB (Central Bank of Turkey) Foreign Exchange Rate at 30 June 2026",
+          "implied_gross_debt_usd_m": 1305.17,
+          "implied_net_debt_usd_m": 1253.9,
+          "implied_cash_usd_m": 51.26,
+          "implied_total_assets_usd_m": 3061.13,
+          "implied_total_equity_usd_m": 1361.49,
+          "description": "Statutory period-end balance sheet translation rate under IFRS / TAS."
+        },
+        "rate_2_credit_desk_spot_1h26": {
+          "rate": 48.7,
+          "source": "Desk Financial Model Period-End Spot Rate (Financial_Model_USD row 28)",
+          "implied_gross_debt_usd_m": 1247.68,
+          "implied_net_debt_usd_m": 1198.68,
+          "implied_cash_usd_m": 49.01,
+          "description": "Current trading spot rate used in 1H 2026 desk models and for converting local TRY bonds (TRY 3,650M / 48.67 = .0M)."
+        },
+        "rate_3_historical_balance_sheet_deepdive": {
+          "rate": 42.85,
+          "source": "Model Balance_Sheet_DeepDive constant rate (FY25 year-end rate)",
+          "implied_gross_debt_usd_m": 1418.02,
+          "description": "Applied in Balance_Sheet_DeepDive where ,100M Eurobond was translated as TRY 47,135M (,100M * 42.85) and Gross Debt was TRY 65,985M / 42.85 = ,540M."
+        },
+        "rate_4_adb_loan_inception_rate": {
+          "rate": 34.61,
+          "source": "Asian Development Bank loan signing exchange rate (August 2024)",
+          "description": "Loan of TRY 3,979.8M booked as .0M concessional facility (3,979.8 / 115 = 34.61)."
+        },
+        "rate_5_hybrid_tranche_desk_method": {
+          "description": "The institutional desk standard: Fix the USD 1,100.0M Eurobond and USD 80.0M Geothermal Project Finance at face value in USD, and convert only the TRY-denominated bank loans and local bonds at market spot, yielding ,480M (1H26 model) to ,555M (recovery waterfall) Total Gross Debt."
+        }
+      }
+    }
   }
 };
