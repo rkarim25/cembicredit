@@ -703,6 +703,9 @@
           <button type="button" id="btn-mode-consolidated" class="mode-tab-btn" onclick="setEbitdaValuationMode('consolidated')" style="padding:4px 10px; font-size:10.5px; font-weight:700; border-radius:4px; border:none; cursor:pointer; background:transparent; color:#94a3b8; transition:all 0.15s ease;">
             ⚡ Top-Down Consolidated EBITDA
           </button>
+          <button type="button" id="btn-mode-pv" class="mode-tab-btn" onclick="setEbitdaValuationMode('pv')" style="padding:4px 10px; font-size:10.5px; font-weight:700; border-radius:4px; border:none; cursor:pointer; background:transparent; color:#94a3b8; transition:all 0.15s ease;">
+            📦 Price × Volume Drivers
+          </button>
         </div>
       </div>
 
@@ -800,6 +803,140 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- PRICE X VOLUME / UNIT ECONOMICS OVERRIDE PANEL -->
+      <div id="panel-pv-drivers" style="display:none; background:rgba(15,23,42,0.95); border:1px solid rgba(192,132,252,0.35); border-radius:8px; padding:14px; margin-bottom:14px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid rgba(255,255,255,0.06); padding-bottom:8px; flex-wrap:wrap; gap:8px;">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:12px; font-weight:800; color:#c084fc; text-transform:uppercase; letter-spacing:0.5px;">📦 Price × Volume / Unit Economics Sandbox</span>
+            <span style="font-size:9.5px; background:rgba(192,132,252,0.15); color:#c084fc; padding:2px 6px; border-radius:3px; font-weight:700;">ACTIVE VALUATION DRIVER</span>
+          </div>
+          <div style="display:flex; gap:6px; align-items:center; flex-wrap:wrap;">
+            <button type="button" onclick="syncPvFromSotp()" style="background:rgba(255,255,255,0.06); border:1px solid var(--border-color); color:#cbd5e1; font-size:10px; padding:3px 8px; border-radius:4px; cursor:pointer;" title="Reset PV drivers to baseline run-rates">
+              🔄 Reset to Base P×V
+            </button>
+            <button type="button" onclick="applyPvToSotpTable()" style="background:rgba(192,132,252,0.2); border:1px solid #c084fc; color:#f3e8ff; font-size:10px; font-weight:700; padding:3px 10px; border-radius:4px; cursor:pointer;" title="Push calculated EBITDA into Bottom-Up SOTP table inputs">
+              ⚡ Apply P×V to SOTP Table
+            </button>
+          </div>
+        </div>
+
+        <!-- Top-Down Group Unit Economics Sandbox -->
+        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr 1.2fr; gap:12px; align-items:start; margin-bottom:12px;">
+          <!-- 1. Total Generation & Grid Volume Input -->
+          <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:6px; padding:10px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+              <span style="font-size:11px; font-weight:700; color:#fff;">Total Utility Volume</span>
+              <div style="display:flex; align-items:center; gap:4px;">
+                <input type="number" id="input-pv-total-vol" min="4000" max="14000" step="50" value="8145" oninput="onPvVolInput(this.value)" style="width:75px; background:#0b1120; border:1px solid #c084fc; color:#fff; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
+                <span style="font-size:10px; color:var(--text-muted);">GWh</span>
+              </div>
+            </div>
+            <input type="range" id="slider-pv-total-vol" min="5000" max="12000" step="50" value="8145" oninput="onPvVolSlider(this.value)" style="width:100%; accent-color:#c084fc; margin:6px 0;">
+            <div style="display:flex; justify-content:space-between; font-size:9px; color:var(--text-muted); margin-bottom:8px;">
+              <span>6,500 GWh (Drought)</span>
+              <span>8,145 GWh (Base)</span>
+              <span>10,500 GWh (Peak)</span>
+            </div>
+            <div style="display:flex; flex-wrap:wrap; gap:4px;">
+              <button type="button" class="preset-pill" onclick="setPvVolume(6500)" style="font-size:9.5px; padding:2px 6px;">Drought 6,500</button>
+              <button type="button" class="preset-pill" onclick="setPvVolume(7400)" style="font-size:9.5px; padding:2px 6px;">Dry 7,400</button>
+              <button type="button" class="preset-pill active" id="btn-pv-vol-base" onclick="setPvVolume(8145)" style="font-size:9.5px; padding:2px 6px;">Base 8,145</button>
+              <button type="button" class="preset-pill" onclick="setPvVolume(9200)" style="font-size:9.5px; padding:2px 6px;">Peak 9,200</button>
+            </div>
+          </div>
+
+          <!-- 2. Blended Realized Power Margin / Tariff -->
+          <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:6px; padding:10px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+              <span style="font-size:11px; font-weight:700; color:#fff;">Blended Realized Margin</span>
+              <div style="display:flex; align-items:center; gap:4px;">
+                <span style="font-size:10px; color:var(--text-muted);">$</span>
+                <input type="number" id="input-pv-blended-margin" min="20" max="100" step="1" value="43" oninput="onPvMarginInput(this.value)" style="width:65px; background:#0b1120; border:1px solid #c084fc; color:#fff; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
+                <span style="font-size:10px; color:var(--text-muted);">/MWh</span>
+              </div>
+            </div>
+            <input type="range" id="slider-pv-blended-margin" min="25" max="75" step="1" value="43" oninput="onPvMarginSlider(this.value)" style="width:100%; accent-color:#c084fc; margin:6px 0;">
+            <div style="display:flex; justify-content:space-between; font-size:9px; color:var(--text-muted); margin-bottom:8px;">
+              <span>$30/MWh (Trough)</span>
+              <span>$43/MWh (Base)</span>
+              <span>$60/MWh (High PTF)</span>
+            </div>
+            <div style="display:flex; flex-wrap:wrap; gap:4px;">
+              <button type="button" class="preset-pill" onclick="setPvMargin(32)" style="font-size:9.5px; padding:2px 6px;">TL Squeeze $32</button>
+              <button type="button" class="preset-pill" onclick="setPvMargin(38)" style="font-size:9.5px; padding:2px 6px;">Soft $38</button>
+              <button type="button" class="preset-pill active" id="btn-pv-margin-base" onclick="setPvMargin(43)" style="font-size:9.5px; padding:2px 6px;">Base $43</button>
+              <button type="button" class="preset-pill" onclick="setPvMargin(52)" style="font-size:9.5px; padding:2px 6px;">Peak $52</button>
+            </div>
+          </div>
+
+          <!-- 3. Valuation Multiple -->
+          <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:6px; padding:10px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+              <span style="font-size:11px; font-weight:700; color:#fff;">Valuation Multiple</span>
+              <div style="display:flex; align-items:center; gap:4px;">
+                <input type="number" id="input-pv-multiple" min="2.0" max="10.0" step="0.25" value="6.00" oninput="onPvMultipleInput(this.value)" style="width:65px; background:#0b1120; border:1px solid #c084fc; color:#fff; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
+                <span style="font-size:10px; color:var(--text-muted);">x</span>
+              </div>
+            </div>
+            <input type="range" id="slider-pv-multiple" min="3.0" max="9.0" step="0.25" value="6.00" oninput="onPvMultipleSlider(this.value)" style="width:100%; accent-color:#c084fc; margin:6px 0;">
+            <div style="display:flex; justify-content:space-between; font-size:9px; color:var(--text-muted); margin-bottom:8px;">
+              <span>4.0x (Distressed)</span>
+              <span>6.00x (Blended)</span>
+              <span>8.5x (Peak)</span>
+            </div>
+            <div style="display:flex; flex-wrap:wrap; gap:4px;">
+              <button type="button" class="preset-pill" onclick="setPvMultiple(4.75)" style="font-size:9.5px; padding:2px 6px;">Trough 4.75x</button>
+              <button type="button" class="preset-pill active" id="btn-pv-mult-base" onclick="setPvMultiple(6.00)" style="font-size:9.5px; padding:2px 6px;">Base 6.00x</button>
+              <button type="button" class="preset-pill" onclick="setPvMultiple(7.25)" style="font-size:9.5px; padding:2px 6px;">Comps 7.25x</button>
+            </div>
+          </div>
+
+          <!-- 4. Real-Time Fundamental Value Output Card -->
+          <div style="background:rgba(192,132,252,0.08); border:1px solid rgba(192,132,252,0.35); border-radius:6px; padding:10px;">
+            <div style="font-size:10px; font-weight:800; color:#c084fc; text-transform:uppercase; margin-bottom:6px;">Calculated P×V Realization</div>
+            <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:4px;">
+              <span style="font-size:10.5px; color:#cbd5e1;">Implied EBITDA:</span>
+              <strong id="disp-pv-calc-ebitda" style="font-family:'JetBrains Mono',monospace; color:#38bdf8; font-size:13.5px;">$350.2M</strong>
+            </div>
+            <div style="font-size:9.5px; color:#94a3b8; margin-bottom:4px; font-family:'JetBrains Mono',monospace;">
+              Formula: <span id="disp-pv-formula">8,145 GWh × $43.0/MWh</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:4px;">
+              <span style="font-size:10.5px; color:#cbd5e1;">Operating EV:</span>
+              <strong id="disp-pv-op-ev" style="font-family:'JetBrains Mono',monospace; color:#fff; font-size:13px;">$2,101.4M</strong>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:baseline; padding-top:4px; border-top:1px dashed rgba(255,255,255,0.1);">
+              <span style="font-size:10.5px; color:#cbd5e1;">Senior Bond Recovery:</span>
+              <strong id="disp-pv-senior-rec" style="font-family:'JetBrains Mono',monospace; color:var(--accent-emerald); font-size:13px;">100.0c</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Granular Segment P×V Driver Accordion -->
+        <details style="background:rgba(0,0,0,0.25); border:1px solid rgba(255,255,255,0.06); border-radius:6px; padding:8px 12px;">
+          <summary style="cursor:pointer; font-size:11px; font-weight:700; color:#c084fc; user-select:none;">
+            🔍 Granular Segment-by-Segment Unit Economics (Click to expand individual plant volumes &amp; realized power tariffs)
+          </summary>
+          <div style="margin-top:10px; overflow-x:auto;">
+            <table style="width:100%; border-collapse:collapse; font-size:10.5px;">
+              <thead>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.1); color:#94a3b8; text-align:left;">
+                  <th style="padding:6px;">Operating Asset / Fleet</th>
+                  <th style="padding:6px; text-align:right;">Volume (GWh)</th>
+                  <th style="padding:6px; text-align:right;">Realized Tariff / Margin ($/MWh)</th>
+                  <th style="padding:6px; text-align:right;">Calculated EBITDA ($M)</th>
+                  <th style="padding:6px; text-align:right;">Multiple</th>
+                  <th style="padding:6px; text-align:right;">Enterprise Value ($M)</th>
+                </tr>
+              </thead>
+              <tbody id="pv-segment-table-body">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+        </details>
       </div>
 
       <!-- SOTP ASSET TABLE -->
@@ -1602,14 +1739,14 @@
   
     // Asset SOTP Baseline Definitions for Zorlu Enerji
     const ASSETS = [
-      { id: "kizildere", name: "Kızıldere Geothermal Complex", capacity: "260 MW (Units I-III, 88.5% CF)", ebitda: 135.0, multiple: 6.5, included: true },
-      { id: "alasehir", name: "Alaşehir Geothermal Plant", capacity: "45 MW (YEKDEM $105/MWh USD)", ebitda: 25.0, multiple: 6.0, included: true },
-      { id: "gokcedag", name: "Gökçedağ Wind Power Plant", capacity: "135 MW (54 GE Turbines, >34% CF)", ebitda: 28.0, multiple: 6.0, included: true },
-      { id: "hydro_fleet", name: "Hydroelectric Fleet (7 Plants)", capacity: "118.6 MW (Run-of-River/Reservoir)", ebitda: 22.0, multiple: 5.5, included: true },
-      { id: "oedas_grid", name: "OEDAŞ Regulated Distribution Grid", capacity: "1.95M Meters, RAB ~$650M", ebitda: 85.0, multiple: 6.5, included: true },
-      { id: "zes_charging", name: "ZES EV Fast-Charging Network", capacity: "1,850+ Sockets (#1 in Turkey)", ebitda: 15.0, multiple: 8.0, included: true },
-      { id: "cogen_thermal", name: "Domestic Gas Cogeneration", capacity: "341 MW (Bursa & Lüleburgaz)", ebitda: 20.0, multiple: 4.5, included: true },
-      { id: "international", name: "International Assets (Dorad/Pak)", capacity: "266.4 MW Net Share (USD PPAs)", ebitda: 20.0, multiple: 5.0, included: true }
+      { id: "kizildere", name: "Kızıldere Geothermal Complex", capacity: "260 MW (Units I-III, 88.5% CF)", baseVol: 2000, volUnit: "GWh", baseMargin: 67.5, marginUnit: "$/MWh", ebitda: 135.0, multiple: 6.5, included: true },
+      { id: "alasehir", name: "Alaşehir Geothermal Plant", capacity: "45 MW (YEKDEM $105/MWh USD)", baseVol: 330, volUnit: "GWh", baseMargin: 75.8, marginUnit: "$/MWh", ebitda: 25.0, multiple: 6.0, included: true },
+      { id: "gokcedag", name: "Gökçedağ Wind Power Plant", capacity: "135 MW (54 GE Turbines, >34% CF)", baseVol: 400, volUnit: "GWh", baseMargin: 70.0, marginUnit: "$/MWh", ebitda: 28.0, multiple: 6.0, included: true },
+      { id: "hydro_fleet", name: "Hydroelectric Fleet (7 Plants)", capacity: "118.6 MW (Run-of-River/Reservoir)", baseVol: 370, volUnit: "GWh", baseMargin: 59.5, marginUnit: "$/MWh", ebitda: 22.0, multiple: 5.5, included: true },
+      { id: "oedas_grid", name: "OEDAŞ Regulated Distribution Grid", capacity: "1.95M Meters, RAB ~$650M", baseVol: 3800, volUnit: "GWh", baseMargin: 22.37, marginUnit: "$/MWh", ebitda: 85.0, multiple: 6.5, included: true },
+      { id: "zes_charging", name: "ZES EV Fast-Charging Network", capacity: "1,850+ Sockets (#1 in Turkey)", baseVol: 45, volUnit: "GWh", baseMargin: 333.3, marginUnit: "$/MWh", ebitda: 15.0, multiple: 8.0, included: true },
+      { id: "cogen_thermal", name: "Domestic Gas Cogeneration", capacity: "341 MW (Bursa & Lüleburgaz)", baseVol: 800, volUnit: "GWh", baseMargin: 25.0, marginUnit: "$/MWh", ebitda: 20.0, multiple: 4.5, included: true },
+      { id: "international", name: "International Assets (Dorad/Pak)", capacity: "266.4 MW Net Share (USD PPAs)", baseVol: 400, volUnit: "GWh", baseMargin: 50.0, marginUnit: "$/MWh", ebitda: 20.0, multiple: 5.0, included: true }
     ];
 
     // Tranche Debt Baseline Definitions
@@ -1766,13 +1903,15 @@
       recalcEngine();
     }
 
-    let ebitdaValuationMode = 'sotp'; // 'sotp' or 'consolidated'
+    let ebitdaValuationMode = 'sotp'; // 'sotp', 'consolidated', or 'pv'
 
     function setEbitdaValuationMode(mode) {
       ebitdaValuationMode = mode;
       const btnSotp = document.getElementById("btn-mode-sotp");
       const btnCons = document.getElementById("btn-mode-consolidated");
+      const btnPv = document.getElementById("btn-mode-pv");
       const panelCons = document.getElementById("panel-consolidated-ebitda");
+      const panelPv = document.getElementById("panel-pv-drivers");
       const containerTable = document.getElementById("container-sotp-table");
 
       if (btnSotp) {
@@ -1783,11 +1922,18 @@
         btnCons.style.background = mode === 'consolidated' ? 'var(--accent-cyan)' : 'transparent';
         btnCons.style.color = mode === 'consolidated' ? '#0b1120' : '#94a3b8';
       }
+      if (btnPv) {
+        btnPv.style.background = mode === 'pv' ? '#c084fc' : 'transparent';
+        btnPv.style.color = mode === 'pv' ? '#0b1120' : '#94a3b8';
+      }
       if (panelCons) {
         panelCons.style.display = mode === 'consolidated' ? 'block' : 'none';
       }
+      if (panelPv) {
+        panelPv.style.display = mode === 'pv' ? 'block' : 'none';
+      }
       if (containerTable) {
-        containerTable.style.opacity = mode === 'consolidated' ? '0.65' : '1.0';
+        containerTable.style.opacity = (mode === 'consolidated' || mode === 'pv') ? '0.65' : '1.0';
       }
       recalcEngine();
     }
@@ -1869,8 +2015,175 @@
       else recalcEngine();
     }
 
+    // --- PRICE X VOLUME DRIVER ENGINE ---
+    function syncPvFromSotp() {
+      let sumVol = 0;
+      let sumEb = 0;
+      let sumEv = 0;
+      ASSETS.forEach(a => {
+        const isInc = document.getElementById(`chk-${a.id}`) ? document.getElementById(`chk-${a.id}`).checked : a.included;
+        const v = a.currentVol !== undefined ? a.currentVol : (a.baseVol || 0);
+        const eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || 0;
+        const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || 0;
+        if (isInc) {
+          sumVol += v;
+          sumEb += eb;
+          sumEv += (eb * m);
+        }
+      });
+      const blendedMargin = sumVol > 0 ? ((sumEb * 1000.0) / sumVol) : 43.0;
+      const blendedMult = sumEb > 0 ? (sumEv / sumEb) : 6.00;
+
+      const elVol = document.getElementById("input-pv-total-vol");
+      const slVol = document.getElementById("slider-pv-total-vol");
+      const elMar = document.getElementById("input-pv-blended-margin");
+      const slMar = document.getElementById("slider-pv-blended-margin");
+      const elMult = document.getElementById("input-pv-multiple");
+      const slMult = document.getElementById("slider-pv-multiple");
+
+      if (elVol) elVol.value = Math.round(sumVol);
+      if (slVol) slVol.value = Math.round(sumVol);
+      if (elMar) elMar.value = Math.round(blendedMargin);
+      if (slMar) slMar.value = Math.round(blendedMargin);
+      if (elMult) elMult.value = blendedMult.toFixed(2);
+      if (slMult) slMult.value = blendedMult.toFixed(2);
+      recalcEngine();
+    }
+
+    function setPvVolume(val) {
+      const el = document.getElementById("input-pv-total-vol");
+      const sl = document.getElementById("slider-pv-total-vol");
+      if (el) el.value = val;
+      if (sl) sl.value = val;
+      if (ebitdaValuationMode !== 'pv') setEbitdaValuationMode('pv');
+      else recalcEngine();
+    }
+
+    function onPvVolInput(val) {
+      const sl = document.getElementById("slider-pv-total-vol");
+      if (sl) sl.value = val;
+      if (ebitdaValuationMode !== 'pv') setEbitdaValuationMode('pv');
+      else recalcEngine();
+    }
+
+    function onPvVolSlider(val) {
+      const el = document.getElementById("input-pv-total-vol");
+      if (el) el.value = val;
+      if (ebitdaValuationMode !== 'pv') setEbitdaValuationMode('pv');
+      else recalcEngine();
+    }
+
+    function setPvMargin(val) {
+      const el = document.getElementById("input-pv-blended-margin");
+      const sl = document.getElementById("slider-pv-blended-margin");
+      if (el) el.value = val;
+      if (sl) sl.value = val;
+      if (ebitdaValuationMode !== 'pv') setEbitdaValuationMode('pv');
+      else recalcEngine();
+    }
+
+    function onPvMarginInput(val) {
+      const sl = document.getElementById("slider-pv-blended-margin");
+      if (sl) sl.value = val;
+      if (ebitdaValuationMode !== 'pv') setEbitdaValuationMode('pv');
+      else recalcEngine();
+    }
+
+    function onPvMarginSlider(val) {
+      const el = document.getElementById("input-pv-blended-margin");
+      if (el) el.value = val;
+      if (ebitdaValuationMode !== 'pv') setEbitdaValuationMode('pv');
+      else recalcEngine();
+    }
+
+    function setPvMultiple(val) {
+      const el = document.getElementById("input-pv-multiple");
+      const sl = document.getElementById("slider-pv-multiple");
+      if (el) el.value = val;
+      if (sl) sl.value = val;
+      if (ebitdaValuationMode !== 'pv') setEbitdaValuationMode('pv');
+      else recalcEngine();
+    }
+
+    function onPvMultipleInput(val) {
+      const sl = document.getElementById("slider-pv-multiple");
+      if (sl) sl.value = val;
+      if (ebitdaValuationMode !== 'pv') setEbitdaValuationMode('pv');
+      else recalcEngine();
+    }
+
+    function onPvMultipleSlider(val) {
+      const el = document.getElementById("input-pv-multiple");
+      if (el) el.value = val;
+      if (ebitdaValuationMode !== 'pv') setEbitdaValuationMode('pv');
+      else recalcEngine();
+    }
+
+    function renderPvSegmentTable() {
+      const tbody = document.getElementById("pv-segment-table-body");
+      if (!tbody) return;
+      tbody.innerHTML = ASSETS.map(a => {
+        const curVol = a.currentVol !== undefined ? a.currentVol : (a.baseVol || 0);
+        const curMargin = a.currentMargin !== undefined ? a.currentMargin : (a.baseMargin || 0);
+        const curEb = ((curVol * curMargin) / 1000.0).toFixed(1);
+        const curEv = (((curVol * curMargin) / 1000.0) * a.multiple).toFixed(1);
+        return `
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+            <td style="padding:6px;">
+              <strong style="color:#fff;">${a.name}</strong>
+              <div style="font-size:9.5px; color:var(--text-muted);">${a.capacity}</div>
+            </td>
+            <td style="padding:6px; text-align:right;">
+              <input type="number" id="pv-vol-${a.id}" value="${curVol}" step="10" onchange="onSegmentPvChange('${a.id}')" style="width:75px; background:#0b1120; border:1px solid rgba(255,255,255,0.15); color:#fff; font-family:'JetBrains Mono',monospace; font-size:11px; padding:2px 4px; border-radius:3px; text-align:right;">
+            </td>
+            <td style="padding:6px; text-align:right;">
+              <input type="number" id="pv-margin-${a.id}" value="${curMargin}" step="1" onchange="onSegmentPvChange('${a.id}')" style="width:75px; background:#0b1120; border:1px solid rgba(255,255,255,0.15); color:#fff; font-family:'JetBrains Mono',monospace; font-size:11px; padding:2px 4px; border-radius:3px; text-align:right;">
+            </td>
+            <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#38bdf8;" id="pv-ebitda-${a.id}">
+              $${curEb}M
+            </td>
+            <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; color:#cbd5e1;">
+              ${a.multiple.toFixed(1)}x
+            </td>
+            <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--accent-cyan);" id="pv-ev-${a.id}">
+              $${curEv}M
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function onSegmentPvChange(id) {
+      const asset = ASSETS.find(a => a.id === id);
+      if (!asset) return;
+      const vol = parseFloat(document.getElementById(`pv-vol-${id}`)?.value) || 0;
+      const margin = parseFloat(document.getElementById(`pv-margin-${id}`)?.value) || 0;
+      asset.currentVol = vol;
+      asset.currentMargin = margin;
+      const calcEb = (vol * margin) / 1000.0;
+      const calcEv = calcEb * asset.multiple;
+      if (document.getElementById(`pv-ebitda-${id}`)) {
+        document.getElementById(`pv-ebitda-${id}`).textContent = `$${calcEb.toFixed(1)}M`;
+      }
+      if (document.getElementById(`pv-ev-${id}`)) {
+        document.getElementById(`pv-ev-${id}`).textContent = `$${calcEv.toFixed(1)}M`;
+      }
+    }
+
+    function applyPvToSotpTable() {
+      ASSETS.forEach(a => {
+        const vol = parseFloat(document.getElementById(`pv-vol-${a.id}`)?.value) || (a.currentVol !== undefined ? a.currentVol : a.baseVol);
+        const margin = parseFloat(document.getElementById(`pv-margin-${a.id}`)?.value) || (a.currentMargin !== undefined ? a.currentMargin : a.baseMargin);
+        const calcEb = Math.round((vol * margin) / 1000.0);
+        const el = document.getElementById(`ebitda-${a.id}`);
+        if (el) el.value = calcEb;
+      });
+      setEbitdaValuationMode('sotp');
+    }
+
     function initPage() {
       renderAssetTable();
+      renderPvSegmentTable();
       recalcEngine();
     }
 
@@ -2055,11 +2368,30 @@
       let totalOperatingEbitda = 0;
       let totalSotpEv = 0;
 
+      const pvVolVal = parseFloat(document.getElementById("input-pv-total-vol")?.value) || 8145;
+      const pvMarginVal = parseFloat(document.getElementById("input-pv-blended-margin")?.value) || 43.0;
+      const pvMultVal = parseFloat(document.getElementById("input-pv-multiple")?.value) || 6.00;
+      const pvCalcEb = (pvVolVal * pvMarginVal) / 1000.0;
+      const pvCalcEv = pvCalcEb * pvMultVal;
+
+      if (document.getElementById("disp-pv-calc-ebitda")) {
+        document.getElementById("disp-pv-calc-ebitda").textContent = `$${pvCalcEb.toLocaleString(undefined, {minimumFractionDigits: 1, maximumFractionDigits: 1})}M`;
+      }
+      if (document.getElementById("disp-pv-formula")) {
+        document.getElementById("disp-pv-formula").textContent = `${Math.round(pvVolVal).toLocaleString()} GWh × $${pvMarginVal.toFixed(1)}/MWh`;
+      }
+      if (document.getElementById("disp-pv-op-ev")) {
+        document.getElementById("disp-pv-op-ev").textContent = `$${pvCalcEv.toLocaleString(undefined, {minimumFractionDigits: 1, maximumFractionDigits: 1})}M`;
+      }
+
       if (ebitdaValuationMode === 'consolidated') {
         const consEb = parseFloat(document.getElementById("input-consolidated-ebitda")?.value) || 350.0;
         const consMult = parseFloat(document.getElementById("input-consolidated-multiple")?.value) || 6.00;
         totalOperatingEbitda = consEb;
         totalSotpEv = consEb * consMult;
+      } else if (ebitdaValuationMode === 'pv') {
+        totalOperatingEbitda = pvCalcEb;
+        totalSotpEv = pvCalcEv;
       } else {
         totalOperatingEbitda = sotpSumEbitda;
         totalSotpEv = sotpSumEv;
@@ -2083,6 +2415,10 @@
       const netDistributableToSenior = Math.max(0, totalDistributableAssetValue - totalPriorityDeductions);
       const rawSeniorRecoveryPct = Math.min(1.0, netDistributableToSenior / totalSeniorClaims);
       const rawSeniorRecoveryCents = rawSeniorRecoveryPct * 100.0;
+
+      if (document.getElementById("disp-pv-senior-rec")) {
+        document.getElementById("disp-pv-senior-rec").textContent = `${rawSeniorRecoveryCents.toFixed(1)}c`;
+      }
 
       // 5. Post-Restructuring Balance Sheet Pro-Forma Metrics
       const eurobondClaims = 300.0;
