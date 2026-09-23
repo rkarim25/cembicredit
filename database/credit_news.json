@@ -1,5 +1,22 @@
 [
   {
+    "id": "news-africell-20260923-2q26-results",
+    "date": "2026-09-23",
+    "ticker": "AFRCEL",
+    "issuer_name": "Africell",
+    "headline": "Africell 2Q26 Results: EBITDA Surges +37.8% YoY to $40.5M; Net Leverage Drops to 3.52x (-2.56x vs FY24 Peak) as Angola Subscriber Base Breaks 6M+",
+    "source": "Cognitive Credit AI / Company Financial Report 2Q26",
+    "url": "https://rkarim25.github.io/cembicredit/company.html?issuer=africell",
+    "category": "Earnings / Capital Structure",
+    "macro_transmission_channel": "Sub-Saharan Africa MNO / US DFC Sovereign Shielding / Lobito Corridor",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "africell"
+    ],
+    "concise_analysis": "Africell reported strong 2Q26 operational momentum with revenue growing +16.1% YoY to $116.5M and Adjusted EBITDA expanding +37.8% YoY to $40.5M (34.8% margin, +546 bps YoY). LTM revenue stands at $445.7M with LTM Adjusted EBITDA at $159.0M (+76.9% YoY). Consolidated Net Debt closed at $560.4M, bringing Net Leverage down to 3.52x, extending a dramatic deleveraging trajectory from 6.08x in FY24. Quarterly FCF improved markedly to -$4.7M despite aggressive $22.7M network densification capex (+101.8% YoY) across Angola's provinces.",
+    "credit_commentary": "Desk View: Africell continues to demonstrate superior commercial execution in Angola, converting local market share into hard operating leverage while benefiting from US DFC sovereign umbrella protection. The benchmark AFRCEL 10.500% 2029 notes (XS2855412479, $360M) trade at 103.24 yielding 9.26% YTM (+452 bps spread) and 8.76% YTW to the 23 Oct 2026 call at 105.00. We maintain an Overweight stance for defensive high-coupon carry with a short call duration."
+  },
+  {
     "id": "news-zoren-20260809-jpm-upgrade",
     "date": "2026-08-09",
     "ticker": "ZOREN",
