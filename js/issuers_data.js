@@ -2533,7 +2533,9 @@ const MASTER_ISSUERS = [
       "coupon": 10.5,
       "maturity": "2029-10-23",
       "next_call_date": "2026-10-23",
-      "next_call_price": 105.0
+      "next_call_price": 105.0,
+      "cognitive_credit_financials_model": "cognitive-credit-africell-financials-23-Sep-2026.xlsx",
+      "cognitive_credit_forecasting_model": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx"
     },
     "financials_multi_year": [
       {
@@ -3198,7 +3200,7 @@ const MASTER_ISSUERS = [
         "ytm": "9.26%",
         "ytw": "8.76%",
         "spread_bp": 452,
-        "thesis_summary": "Africell represents a premier frontier telecoms credit combining rapid market-share capture in Angola with sovereign risk mitigation from the US International Development Finance Corporation (DFC). The credit has executed a remarkable deleveraging turnaround, reducing Net Leverage from 6.08x in FY24 to 3.52x in 2Q26 as 2Q26 Adj EBITDA surged +37.8% YoY to $40.5M (LTM $159.0M, +76.9% YoY). The 10.500% 2029 notes trade at 103.24 yielding 9.26% YTM (+452 bp spread), offering compelling high-coupon carry. Upside is bounded by the 23 October 2026 call date at 105.00 (8.76% YTW), creating an attractive short-duration defensive yield play with preferred creditor backing."
+        "thesis_summary": "Africell represents a premier frontier telecoms credit combining rapid market-share capture in Angola with sovereign risk mitigation from the US International Development Finance Corporation (DFC). The credit has executed a remarkable operational turnaround, reducing Net Leverage from 6.08x in FY24 to 3.52x in 2Q26 as 2Q26 Adj EBITDA surged +37.8% YoY to $40.5M (LTM $159.0M, +76.9% YoY). Cognitive Credit's forward forecast engine models a decisive Free Cash Flow inflection from -$62.5M LTM to +$52.2M in FY26F and +$36M+/yr through FY31, with net leverage falling to 2.99x by FY31. The 10.500% 2029 notes trade at 103.24 yielding 9.26% YTM (+452 bp spread), offering compelling high-coupon carry. Upside is bounded by the 23 October 2026 call date at 105.00 (8.76% YTW), creating an attractive short-duration defensive yield play with preferred creditor backing."
       },
       "positives": [
         "High-Velocity Angola Commercial Growth: Broke the state-aligned Unitel/Movicel duopoly; active subscriber base surpassed 6M+ users, driving 2Q26 revenue up +16.1% YoY to $116.5M.",
@@ -3262,9 +3264,48 @@ const MASTER_ISSUERS = [
         "title": "Africell (AFRCEL) 2Q26 Earnings Intake & Comprehensive Credit Assessment",
         "source": "Cognitive Credit AI / Financial Report 2Q26 / S&P & Fitch Bond Desk",
         "status": "Archived / Previous Note Run: 2026-09-23",
-        "summary": "Comprehensive credit review following 2Q26 financial report release. Top-line revenue increased +16.1% YoY to $116.5M; Adjusted EBITDA surged +37.8% YoY to $40.5M (34.8% margin, +546 bps YoY). LTM revenue stands at $445.7M with Adjusted EBITDA of $159.0M (+76.9% YoY). Net leverage improved to 3.52x, reflecting a continuous -2.56x deleveraging from 6.08x in FY24. FCF burn narrowed sharply to -$4.7M in 2Q26 despite heavy growth capex of $22.7M in Angola. The AFRCEL 10.500% 2029 Senior Secured Notes (XS2855412479, $360M) trade at 103.24 yielding 9.26% YTM (+452 bps spread) with an 8.76% YTW to the 23 Oct 2026 call at 105.00. Maintained Overweight stance as a high-coupon carry and short-duration call play backed by US DFC sovereign shielding."
+        "summary": "Comprehensive credit review following 2Q26 financial report release. Top-line revenue increased +16.1% YoY to $116.5M; Adjusted EBITDA surged +37.8% YoY to $40.5M (34.8% margin, +546 bps YoY). LTM revenue stands at $445.7M with Adjusted EBITDA of $159.0M (+76.9% YoY). Net leverage improved to 3.52x, reflecting a continuous -2.56x deleveraging from 6.08x in FY24. FCF burn narrowed sharply to -$4.7M in 2Q26 despite heavy growth capex of $22.7M in Angola. The AFRCEL 10.500% 2029 Senior Secured Notes (XS2855412479, $360M) trade at 103.24 yielding 9.26% YTM (+452 bps spread) with an 8.76% YTW to the 23 Oct 2026 call at 105.00. Maintained Overweight stance as a high-coupon carry and short-duration call play backed by US DFC sovereign shielding. Downloaded Cognitive Credit AI forecasting model (FY26F-FY31F) confirming forward FCF turnaround to +$52.2M in FY26F and steady deleveraging to 2.99x by FY31."
       }
-    ]
+    ],
+    "cognitive_credit_forecast": {
+      "forecast_model_file": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx",
+      "forecast_generation_date": "2026-09-23",
+      "source": "Cognitive Credit AI Forecast Engine",
+      "fcf_inflection_milestones": {
+        "FY24A": -33.9,
+        "FY25A": -38.8,
+        "LTM_2Q26": -62.5,
+        "FY26F": 52.2,
+        "FY27F": 36.8,
+        "FY28F": 36.5,
+        "FY29F": 36.3,
+        "FY30F": 36.2,
+        "FY31F": 35.7
+      },
+      "net_leverage_trajectory": {
+        "FY24A": 6.08,
+        "FY25A": 3.72,
+        "LTM_2Q26": 3.53,
+        "FY26F": 4.73,
+        "FY27F": 4.47,
+        "FY28F": 4.19,
+        "FY29F": 3.89,
+        "FY30F": 3.59,
+        "FY31F": 2.99
+      },
+      "fcff_annual_average_usd_m": 103.5,
+      "gross_capex_guidance_usd_m": {
+        "FY26F": 59.2,
+        "FY27F": 62.2,
+        "FY28F": 65.7
+      },
+      "key_takeaways": [
+        "FCF Inflection: After peak rollout burn of -$62.5M LTM, organic Free Cash Flow inflects to +$52.2M in FY26F and stabilizes at +$36M+ annually through FY31.",
+        "FCFF Coverage of Debt Service: Unlevered Free Cash Flow to Firm (FCFF) of $100M-$121M/yr covers net cash interest ($45M-$54M) by over 2.0x, providing substantial organic liquidity cushion.",
+        "Long-Term Deleveraging to Sub-3.0x: Modeled net leverage trends steadily downward from 4.73x in FY26F to 2.99x by FY31F.",
+        "Capex Normalization: Capex/sales ratio stabilizes at 14.5%-16.0% ($59M-$65M/yr), down from peak expansion intensity (>30% in FY22)."
+      ]
+    }
   },
   {
     "metadata": {
@@ -78567,7 +78608,9 @@ window.CEMBI_DATA = {
       "coupon": 10.5,
       "maturity": "2029-10-23",
       "next_call_date": "2026-10-23",
-      "next_call_price": 105.0
+      "next_call_price": 105.0,
+      "cognitive_credit_financials_model": "cognitive-credit-africell-financials-23-Sep-2026.xlsx",
+      "cognitive_credit_forecasting_model": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx"
     },
     "financials_multi_year": [
       {
@@ -79232,7 +79275,7 @@ window.CEMBI_DATA = {
         "ytm": "9.26%",
         "ytw": "8.76%",
         "spread_bp": 452,
-        "thesis_summary": "Africell represents a premier frontier telecoms credit combining rapid market-share capture in Angola with sovereign risk mitigation from the US International Development Finance Corporation (DFC). The credit has executed a remarkable deleveraging turnaround, reducing Net Leverage from 6.08x in FY24 to 3.52x in 2Q26 as 2Q26 Adj EBITDA surged +37.8% YoY to $40.5M (LTM $159.0M, +76.9% YoY). The 10.500% 2029 notes trade at 103.24 yielding 9.26% YTM (+452 bp spread), offering compelling high-coupon carry. Upside is bounded by the 23 October 2026 call date at 105.00 (8.76% YTW), creating an attractive short-duration defensive yield play with preferred creditor backing."
+        "thesis_summary": "Africell represents a premier frontier telecoms credit combining rapid market-share capture in Angola with sovereign risk mitigation from the US International Development Finance Corporation (DFC). The credit has executed a remarkable operational turnaround, reducing Net Leverage from 6.08x in FY24 to 3.52x in 2Q26 as 2Q26 Adj EBITDA surged +37.8% YoY to $40.5M (LTM $159.0M, +76.9% YoY). Cognitive Credit's forward forecast engine models a decisive Free Cash Flow inflection from -$62.5M LTM to +$52.2M in FY26F and +$36M+/yr through FY31, with net leverage falling to 2.99x by FY31. The 10.500% 2029 notes trade at 103.24 yielding 9.26% YTM (+452 bp spread), offering compelling high-coupon carry. Upside is bounded by the 23 October 2026 call date at 105.00 (8.76% YTW), creating an attractive short-duration defensive yield play with preferred creditor backing."
       },
       "positives": [
         "High-Velocity Angola Commercial Growth: Broke the state-aligned Unitel/Movicel duopoly; active subscriber base surpassed 6M+ users, driving 2Q26 revenue up +16.1% YoY to $116.5M.",
@@ -79296,9 +79339,48 @@ window.CEMBI_DATA = {
         "title": "Africell (AFRCEL) 2Q26 Earnings Intake & Comprehensive Credit Assessment",
         "source": "Cognitive Credit AI / Financial Report 2Q26 / S&P & Fitch Bond Desk",
         "status": "Archived / Previous Note Run: 2026-09-23",
-        "summary": "Comprehensive credit review following 2Q26 financial report release. Top-line revenue increased +16.1% YoY to $116.5M; Adjusted EBITDA surged +37.8% YoY to $40.5M (34.8% margin, +546 bps YoY). LTM revenue stands at $445.7M with Adjusted EBITDA of $159.0M (+76.9% YoY). Net leverage improved to 3.52x, reflecting a continuous -2.56x deleveraging from 6.08x in FY24. FCF burn narrowed sharply to -$4.7M in 2Q26 despite heavy growth capex of $22.7M in Angola. The AFRCEL 10.500% 2029 Senior Secured Notes (XS2855412479, $360M) trade at 103.24 yielding 9.26% YTM (+452 bps spread) with an 8.76% YTW to the 23 Oct 2026 call at 105.00. Maintained Overweight stance as a high-coupon carry and short-duration call play backed by US DFC sovereign shielding."
+        "summary": "Comprehensive credit review following 2Q26 financial report release. Top-line revenue increased +16.1% YoY to $116.5M; Adjusted EBITDA surged +37.8% YoY to $40.5M (34.8% margin, +546 bps YoY). LTM revenue stands at $445.7M with Adjusted EBITDA of $159.0M (+76.9% YoY). Net leverage improved to 3.52x, reflecting a continuous -2.56x deleveraging from 6.08x in FY24. FCF burn narrowed sharply to -$4.7M in 2Q26 despite heavy growth capex of $22.7M in Angola. The AFRCEL 10.500% 2029 Senior Secured Notes (XS2855412479, $360M) trade at 103.24 yielding 9.26% YTM (+452 bps spread) with an 8.76% YTW to the 23 Oct 2026 call at 105.00. Maintained Overweight stance as a high-coupon carry and short-duration call play backed by US DFC sovereign shielding. Downloaded Cognitive Credit AI forecasting model (FY26F-FY31F) confirming forward FCF turnaround to +$52.2M in FY26F and steady deleveraging to 2.99x by FY31."
       }
-    ]
+    ],
+    "cognitive_credit_forecast": {
+      "forecast_model_file": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx",
+      "forecast_generation_date": "2026-09-23",
+      "source": "Cognitive Credit AI Forecast Engine",
+      "fcf_inflection_milestones": {
+        "FY24A": -33.9,
+        "FY25A": -38.8,
+        "LTM_2Q26": -62.5,
+        "FY26F": 52.2,
+        "FY27F": 36.8,
+        "FY28F": 36.5,
+        "FY29F": 36.3,
+        "FY30F": 36.2,
+        "FY31F": 35.7
+      },
+      "net_leverage_trajectory": {
+        "FY24A": 6.08,
+        "FY25A": 3.72,
+        "LTM_2Q26": 3.53,
+        "FY26F": 4.73,
+        "FY27F": 4.47,
+        "FY28F": 4.19,
+        "FY29F": 3.89,
+        "FY30F": 3.59,
+        "FY31F": 2.99
+      },
+      "fcff_annual_average_usd_m": 103.5,
+      "gross_capex_guidance_usd_m": {
+        "FY26F": 59.2,
+        "FY27F": 62.2,
+        "FY28F": 65.7
+      },
+      "key_takeaways": [
+        "FCF Inflection: After peak rollout burn of -$62.5M LTM, organic Free Cash Flow inflects to +$52.2M in FY26F and stabilizes at +$36M+ annually through FY31.",
+        "FCFF Coverage of Debt Service: Unlevered Free Cash Flow to Firm (FCFF) of $100M-$121M/yr covers net cash interest ($45M-$54M) by over 2.0x, providing substantial organic liquidity cushion.",
+        "Long-Term Deleveraging to Sub-3.0x: Modeled net leverage trends steadily downward from 4.73x in FY26F to 2.99x by FY31F.",
+        "Capex Normalization: Capex/sales ratio stabilizes at 14.5%-16.0% ($59M-$65M/yr), down from peak expansion intensity (>30% in FY22)."
+      ]
+    }
   },
   "air_global": {
     "metadata": {
