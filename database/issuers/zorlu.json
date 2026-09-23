@@ -1474,7 +1474,79 @@
       "Can management mitigate the $20M annual regulatory capex penalty through accelerated grid investments under the ADB facility?"
     ]
   },
+  "aljomaih_stake_sale_analysis": {
+    "target_company": "Zorlu Yenilenebilir Enerji A.Ş.",
+    "asset_base": "305 MW Geothermal (Kızıldere I, II, III & Alaşehir) + 135 MW Wind (Gökçedağ)",
+    "investor": "AlJomaih Energy & Water (Saudi Arabia)",
+    "stake_acquired_pct": 30.0,
+    "gross_proceeds_usd_m": 450.0,
+    "implied_equity_valuation_usd_m": 1500.0,
+    "implied_enterprise_value_usd_m": 2185.0,
+    "closing_target": "Pre-October 31, 2027 Eurobond Amortisation Milestone",
+    "use_of_proceeds": {
+      "dfi_repayment_usd_m": 115.0,
+      "dfi_facility": "ADB & EBRD Geothermal Senior Secured Facility (Repaid in full, unencumbering Kızıldere assets)",
+      "eurobond_amortisation_escrow_usd_m": 150.0,
+      "eurobond_escrow_terms": "Pre-funds first 2027 principal amortisation into segregated trustee-controlled offshore account",
+      "turkish_bank_debt_paydown_usd_m": 185.0,
+      "bank_paydown_impact": "Reduces high-cost short-term bank credit lines, saving ~$15.7M/yr in cash interest"
+    },
+    "credit_metrics_impact": {
+      "pre_aljomaih_net_debt_usd_m": 1464.0,
+      "post_aljomaih_net_debt_usd_m": 804.0,
+      "net_debt_reduction_usd_m": 660.0,
+      "pre_aljomaih_net_leverage": 4.16,
+      "post_aljomaih_net_leverage": 2.28,
+      "net_leverage_delta": -1.88,
+      "secondary_pricing_target": "88.0c - 95.0c (+38% to +50% capital gain vs 63.5c quote)"
+    },
+    "governance_condition": "Bondholders must require proceeds to be deposited in segregated offshore escrow under English law to prevent Zorlu Holding upstreaming leakage."
+  },
+  "local_bond_equity_kicker_terms": {
+    "instrument": "Özel Sektör Tahvili (ÖST) - Domestic TL Corporate Bonds",
+    "total_principal_usd_m": 228.0,
+    "total_principal_try_b": 8.7,
+    "investor_base": "Domestic Turkish mutual funds, private pension funds (BES), insurance asset managers",
+    "status_quo_terms": "Short-dated (3-12 month) maturities with astronomical coupons (35%-45% TL), generating TRY 3.5B ($95M) annual interest drain",
+    "proposed_consensual_terms": {
+      "tenor_extension": "3-Year Maturity Rollover to June 2029",
+      "coupon_reform": "Capped at BIST TLREF + 300 bps or USD-linked 10.00%",
+      "annual_interest_savings_usd_m": 32.0,
+      "equity_kicker_stake_pct": 5.0,
+      "kicker_instrument": "Equity warrants or newly issued BIST ZOREN common shares"
+    },
+    "syndicate_alignment": {
+      "turkish_banks_claim_usd_m": 428.2,
+      "local_bonds_claim_usd_m": 228.0,
+      "total_domestic_claims_usd_m": 656.2,
+      "pooled_equity_stake_pct": 31.3,
+      "pooled_breakdown": "26.3% Turkish Banks (from 50% DfE) + 5.0% ÖST Local Bondholders",
+      "strategic_rationale": "Creates a permanent 31.3% domestic institutional shareholder consortium, completely eliminating bank foreclosure violence and local bond run-risk."
+    }
+  },
+  "restructuring_qa_dossier": {
+    "url": "zoren_qa.html",
+    "total_questions": 8,
+    "key_topics": [
+      "Secondary Pricing Paradox (63.5c vs >150% asset backing)",
+      "Related-Party IOU Forensic Audit ($756.8M gross IOUs / +$744.5M net asset)",
+      "Turkish Bank Super-Priority (Ticari İşletme Rehni & BDDK FYY framework)",
+      "Covenant Cross-Default Channels (101% CoC Put, $40M Acceleration, SPK Going Concern, WC Freeze)",
+      "Turkish Bank 50% Debt-for-Equity (DfE) Swap Blueprint",
+      "Local TL Corporate Bond ($228M ÖST) 3Y Rollover & Equity Kicker Alignment",
+      "AlJomaih $450M Strategic Minority Sale & Pre-2027 De-Leveraging",
+      "Trading Desk Trade Verdict (Accumulate 2030 Eurobonds at 63.5c)"
+    ]
+  },
   "historical_notes": [
+    {
+      "id": "zoren-20260923-qa-desk-aljomaih-kicker",
+      "date": "2026-09-23",
+      "title": "Forensic Restructuring Q&A Desk, Bank & ÖST Equity Kicker Alignment, and AlJomaih $450M Pre-2027 De-leveraging Model",
+      "source": "Institutional Restructuring Desk Dossier & Dedicated Q&A Engine (zoren_qa.html)",
+      "status": "Active Desk Analysis",
+      "summary": "Published dedicated 8-question institutional Restructuring Q&A Desk (zoren_qa.html) resolving all core dilemmas of Zorlu Enerji's capital structure. Modeled the AlJomaih $450M renewable stake sale closing pre-October 2027, reducing net debt from $1,464M to $804M and lowering Net Leverage from 4.16x to 2.28x. Formulated the unified Turkish Bank ($428M) and Local TL Corporate Bond ($228M ÖST) equity kicker package (31.3% combined domestic equity) that stops TRY 3.5B/yr interest bleed and insulates Eurobond par priority."
+    },
     {
       "id": "zoren-20260923-cross-default-dfe",
       "date": "2026-09-23",

@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zorlu Enerji (ZOREN) — Forensic Restructuring &amp; Distressed Workout Q&amp;A Desk | CEMBI</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-main: #060913;
+      --bg-card: #0b1120;
+      --bg-card-sub: #0f172a;
+      --bg-hover: #172237;
+      --border-color: #1e293b;
+      --border-highlight: #334155;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --accent-cyan: #38bdf8;
+      --accent-emerald: #10b981;
+      --accent-rose: #f43f5e;
+      --accent-amber: #f59e0b;
+      --accent-gold: #fbbf24;
+      --accent-purple: #c084fc;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      padding: 12px 18px 40px;
+      line-height: 1.45;
+      font-size: 12px;
+      overflow-x: hidden;
+    }
+
+    /* Top Sticky Navigation Bar */
+    .sticky-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(11, 17, 32, 0.95);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px 16px;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    .brand-section {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .brand-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .badge-rating {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      padding: 2px 7px;
+      border-radius: 4px;
+      background: rgba(244, 63, 94, 0.15);
+      color: var(--accent-rose);
+      border: 1px solid rgba(244, 63, 94, 0.35);
+      font-weight: 700;
+    }
+
+    .nav-links-wrap {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-btn {
+      background: var(--bg-card-sub);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 5px 11px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 11px;
+      font-weight: 600;
+      transition: all 0.15s;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .nav-btn:hover {
+      border-color: var(--accent-cyan);
+      color: var(--accent-cyan);
+    }
+
+    .nav-btn.active {
+      background: rgba(192, 132, 252, 0.15);
+      border-color: var(--accent-purple);
+      color: var(--accent-purple);
+    }
+
+    .nav-btn.gold {
+      background: rgba(245, 158, 11, 0.12);
+      border-color: rgba(245, 158, 11, 0.4);
+      color: var(--accent-gold);
+    }
+
+    /* Hero Banner */
+    .hero-banner {
+      background: linear-gradient(135deg, rgba(15,23,42,0.95), rgba(11,17,32,0.98));
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+
+    .hero-title-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .hero-title-wrap h1 {
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      letter-spacing: -0.2px;
+    }
+
+    .ticker-pill {
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+    }
+
+    .hero-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 6px;
+      max-width: 1000px;
+      line-height: 1.55;
+    }
+
+    /* KPI Highlights Strip */
+    .kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .kpi-card {
+      background: rgba(6, 9, 19, 0.7);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 10px 12px;
+    }
+
+    .kpi-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-dim);
+    }
+
+    .kpi-value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+      margin-top: 2px;
+    }
+
+    .kpi-sub {
+      font-size: 9.5px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    /* Filter & Search Bar */
+    .filter-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 16px;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #060913;
+      border: 1px solid var(--border-color);
+      border-radius: 5px;
+      padding: 6px 10px;
+      width: 320px;
+      max-width: 100%;
+    }
+
+    .search-input {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-size: 11px;
+      width: 100%;
+      font-family: inherit;
+    }
+
+    .category-chips {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .chip-btn {
+      background: var(--bg-card-sub);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 4px 9px;
+      border-radius: 4px;
+      font-size: 10.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .chip-btn:hover {
+      border-color: var(--accent-cyan);
+      color: #fff;
+    }
+
+    .chip-btn.active {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--accent-cyan);
+      color: var(--accent-cyan);
+    }
+
+    /* Q&A Accordion Item */
+    .qa-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+
+    .qa-card:hover {
+      border-color: var(--border-highlight);
+    }
+
+    .qa-header {
+      padding: 14px 16px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      user-select: none;
+      background: rgba(15, 23, 42, 0.4);
+    }
+
+    .qa-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 1;
+    }
+
+    .qa-num-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 7px;
+      border-radius: 4px;
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      white-space: nowrap;
+    }
+
+    .qa-question {
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.35;
+    }
+
+    .qa-tag-badge {
+      font-size: 9.5px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .qa-toggle-icon {
+      font-size: 14px;
+      color: var(--text-dim);
+      transition: transform 0.2s;
+    }
+
+    .qa-card.open .qa-toggle-icon {
+      transform: rotate(180deg);
+      color: var(--accent-cyan);
+    }
+
+    .qa-body {
+      display: none;
+      padding: 16px 18px;
+      border-top: 1px solid var(--border-color);
+      font-size: 11.5px;
+      color: #cbd5e1;
+      line-height: 1.6;
+      background: #080d1a;
+    }
+
+    .qa-card.open .qa-body {
+      display: block;
+    }
+
+    .qa-takeaway-box {
+      background: rgba(56, 189, 248, 0.05);
+      border-left: 3px solid var(--accent-cyan);
+      padding: 10px 14px;
+      border-radius: 0 4px 4px 0;
+      margin: 12px 0;
+      font-size: 11px;
+      color: #e2e8f0;
+    }
+
+    .qa-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10.5px;
+      margin: 12px 0;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    .qa-table th {
+      background: #0f172a;
+      color: #94a3b8;
+      text-align: left;
+      padding: 6px 8px;
+      border-bottom: 1px solid var(--border-color);
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    .qa-table td {
+      padding: 6px 8px;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+
+    .metric-callout {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      padding: 1px 5px;
+      border-radius: 3px;
+    }
+
+    .mc-cyan { background: rgba(56, 189, 248, 0.15); color: var(--accent-cyan); }
+    .mc-emerald { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); }
+    .mc-rose { background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); }
+    .mc-gold { background: rgba(245, 158, 11, 0.15); color: var(--accent-gold); }
+    .mc-purple { background: rgba(192, 132, 252, 0.15); color: var(--accent-purple); }
+
+    /* Cross-Links Footer */
+    .desk-footer {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar -->
+  <div class="sticky-bar">
+    <div class="brand-section">
+      <a href="index.html" class="nav-btn">🏠 CEMBI Platform</a>
+      <a href="company.html?id=zorlu" class="nav-btn">← Master Dossier</a>
+      <a href="zoren_background.html" class="nav-btn">📖 Asset Inputs &amp; EV Vol</a>
+      <a href="zoren_calculator.html" class="nav-btn gold">⚖️ Restructuring Sandbox</a>
+      <a href="zoren_qa.html" class="nav-btn active">❓ Restructuring Q&amp;A</a>
+      <div class="brand-title">
+        <span>Zorlu Enerji (ZOREN)</span>
+        <span class="badge-rating">DISTRESSED WORKOUT &bull; 63.5c</span>
+      </div>
+    </div>
+    <div class="nav-links-wrap">
+      <button class="nav-btn" onclick="expandAllQa()">▼ Expand All</button>
+      <button class="nav-btn" onclick="collapseAllQa()">▲ Collapse All</button>
+    </div>
+  </div>
+
+  <!-- Hero Header -->
+  <div class="hero-banner">
+    <div class="hero-title-wrap">
+      <div>
+        <h1>
+          Institutional Restructuring &amp; Forensic Q&amp;A Desk
+          <span class="ticker-pill">ZOREN 11.000% 2030 (XS2926261426)</span>
+        </h1>
+        <div class="hero-subtitle">
+          Exhaustive credit desk analysis addressing the core dilemmas of Zorlu Enerji's capital structure: 
+          resolving why notes trade at 63.5c despite >150% standalone asset coverage, quantifying the $756.8M related-party leakage to Zorlu Holding, 
+          unpacking Turkish commercial bank super-priority liens, detailing the four covenant cross-default channels, 
+          evaluating bank and local bond equity kickers, and sizing the AlJomaih $450M equity recap ahead of the October 2027 amortisation wall.
+        </div>
+      </div>
+    </div>
+
+    <!-- KPI Strip -->
+    <div class="kpi-strip">
+      <div class="kpi-card">
+        <div class="kpi-label">Secondary Note Quote</div>
+        <div class="kpi-value" style="color:var(--accent-rose);">63.50c</div>
+        <div class="kpi-sub">Yield: 27.2% &bull; Houlihan / Servo retained</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Related-Party Net Balance</div>
+        <div class="kpi-value" style="color:var(--accent-amber);">+$744.5M</div>
+        <div class="kpi-sub">$756.8M IOUs less $12.3M payables</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Bank &amp; DFI Priority Debt</div>
+        <div class="kpi-value" style="color:var(--accent-cyan);">$543.2M</div>
+        <div class="kpi-sub">$115M DFI + $428.2M Turkish bank syndicates</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Recommended Bank DfE</div>
+        <div class="kpi-value" style="color:var(--accent-emerald);">50% ($214M)</div>
+        <div class="kpi-sub">+$18.2M/yr interest saved &bull; 26.3% equity</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">AlJomaih Stake Monetization</div>
+        <div class="kpi-value" style="color:var(--accent-purple);">$450.0M</div>
+        <div class="kpi-sub">30% Zorlu Yenilenebilir &bull; Clears Oct 2027</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search & Filter Bar -->
+  <div class="filter-bar">
+    <div class="search-box">
+      <span style="color:var(--text-dim);">🔍</span>
+      <input type="text" id="qa-search" class="search-input" placeholder="Search questions, covenants, bank debt, multiples..." oninput="filterQa()">
+    </div>
+    <div class="category-chips">
+      <button class="chip-btn active" onclick="setCategoryFilter('all', this)">All Questions (8)</button>
+      <button class="chip-btn" onclick="setCategoryFilter('holding', this)">Holding Contagion</button>
+      <button class="chip-btn" onclick="setCategoryFilter('banks', this)">Bank Liens &amp; Priority</button>
+      <button class="chip-btn" onclick="setCategoryFilter('covenants', this)">Cross-Default Triggers</button>
+      <button class="chip-btn" onclick="setCategoryFilter('dfe', this)">Bank &amp; ÖST Kickers</button>
+      <button class="chip-btn" onclick="setCategoryFilter('aljomaih', this)">AlJomaih &amp; 2027</button>
+      <button class="chip-btn" onclick="setCategoryFilter('strategy', this)">Desk Trade Strategy</button>
+    </div>
+  </div>
+
+  <!-- Q&A ACCORDION CONTAINER -->
+  <div id="qa-container">
+
+    <!-- QUESTION 1 -->
+    <div class="qa-card open" data-category="holding">
+      <div class="qa-header" onclick="toggleQa(this)">
+        <div class="qa-title-wrap">
+          <span class="qa-num-badge">Q1</span>
+          <span class="qa-question">Why does ZOREN 11.000% 2030 trade at 63.5c when standalone SOTP enterprise value covers senior claims by &gt;150%?</span>
+          <span class="qa-tag-badge" style="background:rgba(244,63,94,0.15); color:var(--accent-rose); border:1px solid rgba(244,63,94,0.35);">MARKET PRICING ANOMALY</span>
+        </div>
+        <span class="qa-toggle-icon">▼</span>
+      </div>
+      <div class="qa-body">
+        <p>
+          On paper, a pure standalone Sum-of-the-Parts (SOTP) liquidation analysis of Zorlu Enerji yields <strong>$2,276.5M in operational Enterprise Value</strong> ($1,626.5M Renewable Generation DCF + $650.0M OEDAŞ Regulated Distribution Grid on a 1.00x EV/RAB basis). Adding $240.0M in balance sheet cash and deducting $30M in advisory fees and $380M in OpCo project finance leaves <strong>$2,121.5M in distributable value</strong>. Against $1,100M in Eurobonds, asset coverage is <strong>192.9% (100c Par Coverage)</strong> with over $1.0B in residual equity value for Zorlu Holding.
+        </p>
+
+        <div class="qa-takeaway-box">
+          <strong style="color:var(--accent-cyan);">The Desk Synthesis:</strong> The secondary price of <strong>63.5c</strong> is not pricing the standalone assets of Zorlu Enerji; it is pricing <strong>Zorlu Group / Holding Contagion</strong>, <strong>Turkish Bank Super-Priority Cash Sweeps</strong>, and the complete write-off of <strong>$756.8M in related-party receivables</strong>.
+        </div>
+
+        <p>
+          When you model the real-world distressed restructuring scenario:
+        </p>
+        <ul style="margin-left:18px; margin-top:6px; display:flex; flex-direction:column; gap:4px;">
+          <li><strong>Holding Insolvency Write-off:</strong> The $756.8M gross advance owed by parent Zorlu Holding is written down to $0.0M.</li>
+          <li><strong>Operational Working Capital Deduction:</strong> $126.0M in third-party operating working capital deficit ($175M receivables vs $301M payables owed to BOTAŞ gas and EPDK grid contractors) is carved out to prevent plant shutdown.</li>
+          <li><strong>Turkish Bank Priority Sweep:</strong> Turkish banks enforce notarized account pledges over EPİAŞ USD settlements and EPDK tariff accounts, sweeping <strong>$543.2M</strong> ahead of foreign Eurobonds.</li>
+          <li><strong>Multiple Compression:</strong> Stressed asset multiples compress SOTP EV to <strong>$1,170.0M</strong>.</li>
+        </ul>
+        <p style="margin-top:8px;">
+          Under this reconciled waterfall, net distributable value available to senior claims drops to <strong>$680.8M</strong>, implying a recovery of <strong>52.0c – 64.8c</strong>. The 63.5c trading price reflects the market precisely pricing this holding contagion scenario.
+        </p>
+      </div>
+    </div>
+
+    <!-- QUESTION 2 -->
+    <div class="qa-card" data-category="holding">
+      <div class="qa-header" onclick="toggleQa(this)">
+        <div class="qa-title-wrap">
+          <span class="qa-num-badge">Q2</span>
+          <span class="qa-question">What is the exact breakdown of related-party receivables and payables between Zorlu Enerji and Zorlu Holding?</span>
+          <span class="qa-tag-badge" style="background:rgba(245,158,11,0.15); color:var(--accent-amber); border:1px solid rgba(245,158,11,0.35);">BALANCE SHEET FORENSICS</span>
+        </div>
+        <span class="qa-toggle-icon">▼</span>
+      </div>
+      <div class="qa-body">
+        <p>
+          Audited balance sheet disclosures under Turkish Capital Markets Board (SPK) standards reveal a massive structural cash drain from Zorlu Enerji (OpCo) upstreamed to parent Zorlu Holding A.Ş. and sister affiliates:
+        </p>
+
+        <table class="qa-table">
+          <thead>
+            <tr>
+              <th>Balance Sheet Item</th>
+              <th>TRY Equivalent</th>
+              <th>USD Value ($M)</th>
+              <th>Maturity / Counterparty Entity</th>
+              <th>Distressed Recovery Risk</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="color:#fff; font-weight:600;">Non-Current Related-Party Advances</td>
+              <td>TRY 22.05B</td>
+              <td style="color:var(--accent-gold); font-weight:700;">$579.4M</td>
+              <td>Zorlu Holding A.Ş. (Long-Term Corporate Advances)</td>
+              <td style="color:var(--accent-rose);">100% Impairment in Holding Moratorium</td>
+            </tr>
+            <tr>
+              <td style="color:#fff; font-weight:600;">Current Trade &amp; Operational Receivables</td>
+              <td>TRY 6.75B</td>
+              <td style="color:var(--accent-gold); font-weight:700;">$177.4M</td>
+              <td>Vestel Elektronik, Meta Nikel, Zorlu Gayrimenkul</td>
+              <td style="color:var(--accent-amber);">High write-down / illiquid offsets</td>
+            </tr>
+            <tr style="background:rgba(255,255,255,0.02); font-weight:700;">
+              <td>Total Gross Related-Party Receivables</td>
+              <td>TRY 28.80B</td>
+              <td style="color:var(--accent-cyan);">$756.8M</td>
+              <td>Gross Claim Owed TO Zorlu Enerji</td>
+              <td style="color:var(--accent-rose);">Key Contagion Channel</td>
+            </tr>
+            <tr>
+              <td style="color:var(--text-dim);">Less: Related-Party Payables Owed by Zoren</td>
+              <td>(TRY 0.47B)</td>
+              <td style="color:#94a3b8;">-$12.3M</td>
+              <td>Holding corporate management fees &amp; shared IT</td>
+              <td>Offset against gross receivables</td>
+            </tr>
+            <tr style="background:rgba(56,189,248,0.08); font-weight:800;">
+              <td style="color:var(--accent-cyan);">NET RELATED-PARTY ASSET DUE TO ZOREN</td>
+              <td style="color:var(--accent-cyan);">TRY 28.33B</td>
+              <td style="color:var(--accent-emerald); font-size:12px;">+$744.5M</td>
+              <td>Unsecured, subordinated IOU on Holding Balance Sheet</td>
+              <td style="color:var(--accent-emerald);">30% Base Dial ($223M) vs 0% Contagion</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="qa-takeaway-box">
+          <strong style="color:var(--accent-gold);">The Parent Drain Mechanism:</strong> Zorlu Holding used Zorlu Enerji as an internal capital bank to cover cash burn at sister companies (consumer electronics margin compression at Vestel, nickel processing losses at Meta Nikel, and real estate debt service). In an out-of-court restructuring, ZOREN bondholders must demand formal ring-fencing and a binding asset-backed pledge from Holding assets to capture any portion of this $744.5M net balance.
+        </div>
+      </div>
+    </div>
+
+    <!-- QUESTION 3 -->
+    <div class="qa-card" data-category="banks">
+      <div class="qa-header" onclick="toggleQa(this)">
+        <div class="qa-title-wrap">
+          <span class="qa-num-badge">Q3</span>
+          <span class="qa-question">How do domestic Turkish banks exercise super-priority over foreign Eurobonds in practice?</span>
+          <span class="qa-tag-badge" style="background:rgba(56,189,248,0.15); color:var(--accent-cyan); border:1px solid rgba(56,189,248,0.35);">LEGAL MECHANICS</span>
+        </div>
+        <span class="qa-toggle-icon">▼</span>
+      </div>
+      <div class="qa-body">
+        <p>
+          While foreign Eurobonds ($1,100M ZOREN 2030s) are governed by English law and rank <em>pari passu</em> in form with general unsecured obligations, <strong>domestic Turkish banks possess absolute practical and structural super-priority under Turkish jurisdiction</strong>:
+        </p>
+
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:10px; margin:12px 0;">
+          <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:5px; padding:10px;">
+            <strong style="color:var(--accent-cyan); font-size:11px;">1. Registered Commercial Enterprise Pledges (Ticari İşletme Rehni)</strong>
+            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+              Turkish commercial banks (Akbank, Garanti BBVA, Türkiye İş Bankası, Halkbank, VakıfBank) hold registered notarized pledges over operating bank accounts where statutory YEKDEM hard-currency feed-in tariffs from EPİAŞ and retail collections from OEDAŞ are deposited daily. Banks execute automated debt service sweeps before cash ever reaches holding accounts.
+            </p>
+          </div>
+          <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:5px; padding:10px;">
+            <strong style="color:var(--accent-gold); font-size:11px;">2. BDDK Financial Restructuring Framework (FYY)</strong>
+            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+              Under Turkish banking authority (BDDK) framework agreements (*Finansal Yeniden Yapılandırma*), domestic lenders form a statutory Consortium. If lenders representing 2/3 of bank claims agree, the agreement binds all Turkish institutions. BDDK rules grant local banks legal preference, standstill protections, and regulatory forbearance that offshore 144A/Reg S investors cannot contest.
+            </p>
+          </div>
+          <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:5px; padding:10px;">
+            <strong style="color:var(--accent-rose); font-size:11px;">3. Structural Subordination of HoldCo Eurobonds</strong>
+            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+              Eurobonds were issued at the parent level without direct mortgages on geothermal steam turbines or transmission substations. Total Turkish bank debt of <strong>$428.2M</strong> plus multilateral DFI loans (ADB/EBRD) of <strong>$115.0M</strong> represents <strong>$543.2M in senior priority claims</strong> that sit directly between operational utility cash flows and Eurobond holders.
+            </p>
+          </div>
+        </div>
+
+        <div class="qa-takeaway-box">
+          <strong style="color:var(--accent-rose);">Restructuring Reality:</strong> In any workout, Turkish banks will not take a nominal principal haircut. They demand 100c par reinstatement or substantial equity stakes. Foreign Eurobond holders are the flexible tranche that absorbs maturity extensions and yield step-downs.
+        </div>
+      </div>
+    </div>
+
+    <!-- QUESTION 4 -->
+    <div class="qa-card" data-category="covenants">
+      <div class="qa-header" onclick="toggleQa(this)">
+        <div class="qa-title-wrap">
+          <span class="qa-num-badge">Q4</span>
+          <span class="qa-question">What are the four contractual and covenant cross-default triggers between Zorlu Holding and ZOREN Eurobonds?</span>
+          <span class="qa-tag-badge" style="background:rgba(244,63,94,0.15); color:var(--accent-rose); border:1px solid rgba(244,63,94,0.35);">INDENTURE ANALYSIS</span>
+        </div>
+        <span class="qa-toggle-icon">▼</span>
+      </div>
+      <div class="qa-body">
+        <p>
+          Institutional investors often assume that ring-fenced utility subsidiaries are insulated from parent bankruptcy. For Zorlu Enerji, <strong>four legally enforceable indenture and regulatory triggers ensure immediate acceleration upon parent distress</strong>:
+        </p>
+
+        <div style="display:flex; flex-direction:column; gap:10px; margin:12px 0;">
+          <div style="background:rgba(6,9,19,0.7); border-left:3px solid var(--accent-rose); padding:10px 12px; border-radius:0 5px 5px 0;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong style="color:var(--accent-rose);">Trigger 1: Share Pledge Enforcement &amp; Change of Control Put (101% of Par)</strong>
+              <span class="metric-callout mc-rose">INDENTURE §4.08</span>
+            </div>
+            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+              Zorlu Holding owns ~56.4% of ZOREN, but has pledged massive share blocks to Turkish banks as collateral for parent margin loans. If Holding defaults, banks foreclose on pledged shares. This drops Holding voting control below 50.0%, triggering Section 4.08 of the Eurobond Indenture (*Mandatory Change of Control Offer at 101% plus accrued interest*). Since ZOREN cannot fund $1.1B in cash, failure to close the put within 30 days becomes a non-curable Event of Default.
+            </p>
+          </div>
+
+          <div style="background:rgba(6,9,19,0.7); border-left:3px solid var(--accent-amber); padding:10px 12px; border-radius:0 5px 5px 0;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong style="color:var(--accent-amber);">Trigger 2: Bank Cross-Acceleration Threshold ($40.0M Indenture Carve-out)</strong>
+              <span class="metric-callout mc-gold">INDENTURE §6.01(e)</span>
+            </div>
+            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+              Under Section 6.01(e), default on or acceleration of any Indebtedness of the Issuer or any Significant Subsidiary exceeding $40.0M constitutes an immediate Event of Default. Turkish banks accelerating local bilateral facilities ($163.2M) instantly breaches this threshold, granting Eurobond trustees or 25% of noteholders the statutory right to accelerate the entire $1,100M note principal.
+            </p>
+          </div>
+
+          <div style="background:rgba(6,9,19,0.7); border-left:3px solid var(--accent-cyan); padding:10px 12px; border-radius:0 5px 5px 0;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong style="color:var(--accent-cyan);">Trigger 3: SPK Arm's-Length Advance Violation &amp; Going-Concern Audit Qualification</strong>
+              <span class="metric-callout mc-cyan">SPK II-17.1 REGULATION</span>
+            </div>
+            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+              The $756.8M advance to Zorlu Holding breaches Capital Markets Board rules on related-party transfers. In a Holding moratorium, independent auditors must take a 100% ECL impairment and attach a "Going Concern Material Uncertainty" qualification, which breaches loan covenants across domestic bank facilities and triggers unilateral loan cancellations.
+            </p>
+          </div>
+
+          <div style="background:rgba(6,9,19,0.7); border-left:3px solid var(--accent-purple); padding:10px 12px; border-radius:0 5px 5px 0;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <strong style="color:var(--accent-purple);">Trigger 4: Working Capital Freeze &amp; Essential Vendor License Revocation</strong>
+              <span class="metric-callout mc-purple">OPERATIONAL CRISIS</span>
+            </div>
+            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+              Operating with a <strong>-$126.0M working capital deficit</strong>, freezing credit lines prevents ZOREN from paying BOTAŞ for natural gas ($207.4M payables) and TEİAŞ for grid transmission. Non-payment to BOTAŞ shuts down gas cogen plants within 14 days, while default on TEİAŞ triggers EPDK regulatory revocation of generation licenses.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- QUESTION 5 -->
+    <div class="qa-card" data-category="dfe">
+      <div class="qa-header" onclick="toggleQa(this)">
+        <div class="qa-title-wrap">
+          <span class="qa-num-badge">Q5</span>
+          <span class="qa-question">How does the 50% Turkish Bank Debt-for-Equity (DfE) Swap work and what are its balance sheet economics?</span>
+          <span class="qa-tag-badge" style="background:rgba(16,185,129,0.15); color:var(--accent-emerald); border:1px solid rgba(16,185,129,0.35);">WORKOUT BLUEPRINT</span>
+        </div>
+        <span class="qa-toggle-icon">▼</span>
+      </div>
+      <div class="qa-body">
+        <p>
+          To prevent a messy bankruptcy filing under Turkish bankruptcy code and insulate ZOREN from holding company collapse, advisors (Houlihan Lokey / Servo Capital) have formulated a <strong>50% Debt-for-Equity (DfE) conversion framework</strong> under the BDDK Financial Restructuring (FYY) framework:
+        </p>
+
+        <table class="qa-table">
+          <thead>
+            <tr>
+              <th>Metric / Dimension</th>
+              <th>Status Quo (0% DfE)</th>
+              <th>Recommended Blueprint (50% DfE)</th>
+              <th>Variance / Financial Benefit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Turkish Bank Debt Converted to Equity</td>
+              <td>$0.0M</td>
+              <td style="color:var(--accent-emerald); font-weight:700;">$214.1M</td>
+              <td>50% of $428.2M commercial bank debt</td>
+            </tr>
+            <tr>
+              <td>Residual Bank Debt Reinstated</td>
+              <td>$428.2M</td>
+              <td style="color:var(--accent-cyan); font-weight:700;">$214.1M</td>
+              <td>Extended to 2031 with 2Y grace period</td>
+            </tr>
+            <tr>
+              <td>Pro-Forma Bank Equity Stake in ZOREN</td>
+              <td>0.0%</td>
+              <td style="color:var(--accent-emerald); font-weight:700;">26.3% Pro-Forma Stake</td>
+              <td>Based on $600M pre-money BIST equity baseline</td>
+            </tr>
+            <tr>
+              <td>Annual Cash Interest Drain</td>
+              <td>$145.0M</td>
+              <td style="color:var(--accent-emerald); font-weight:700;">$126.8M</td>
+              <td style="color:var(--accent-emerald);">+$18.2M/yr recurring cash savings</td>
+            </tr>
+            <tr>
+              <td>Cash Interest Coverage</td>
+              <td>2.43x</td>
+              <td style="color:var(--accent-emerald); font-weight:700;">3.15x</td>
+              <td>Well above the 2.00x covenant threshold</td>
+            </tr>
+            <tr>
+              <td>Pro-Forma Net Leverage</td>
+              <td>4.16x</td>
+              <td style="color:var(--accent-cyan); font-weight:700;">3.42x</td>
+              <td style="color:var(--accent-cyan);">&le;3.50x target sustainability ceiling achieved</td>
+            </tr>
+            <tr>
+              <td>Eurobond Distributable Asset Pool</td>
+              <td>$680.8M</td>
+              <td style="color:var(--accent-emerald); font-weight:700;">$894.9M</td>
+              <td>+$214.1M freed from bank priority sweep</td>
+            </tr>
+            <tr style="background:rgba(16,185,129,0.06); font-weight:800;">
+              <td>Eurobond Contagion Recovery</td>
+              <td style="color:var(--accent-rose);">51.3c - 63.5c</td>
+              <td style="color:var(--accent-emerald); font-size:12px;">68.5c - 76.0c</td>
+              <td style="color:var(--accent-emerald);">+16.5c direct fundamental uplift</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="qa-takeaway-box">
+          <strong style="color:var(--accent-emerald);">Why Banks Agree:</strong> Turkish banks trade an illiquid debt claim facing haircut risk for a 26.3% equity stake in Turkey's premier baseload renewable producer, capturing massive upside when the AlJomaih stake sale closes or when Zorlu Yenilenebilir completes its public IPO.
+        </div>
+      </div>
+    </div>
+
+    <!-- QUESTION 6 -->
+    <div class="qa-card" data-category="dfe">
+      <div class="qa-header" onclick="toggleQa(this)">
+        <div class="qa-title-wrap">
+          <span class="qa-num-badge">Q6</span>
+          <span class="qa-question">How do Local TL Corporate Bonds ($228M ÖST) and bank equity kickers interact in a consensual restructuring?</span>
+          <span class="qa-tag-badge" style="background:rgba(192,132,252,0.15); color:var(--accent-purple); border:1px solid rgba(192,132,252,0.35);">LOCAL MARKET WORKOUT</span>
+        </div>
+        <span class="qa-toggle-icon">▼</span>
+      </div>
+      <div class="qa-body">
+        <p>
+          In addition to bank debt, Zorlu Enerji has approximately <strong>$228.0M (TRY 8.7B) in domestic corporate bonds (*Özel Sektör Tahvili* - ÖST)</strong> held by Turkish mutual funds, private pension funds (BES), and domestic insurance companies. These bonds carry astronomical coupon rates (35%–45% in nominal TRY) and short 3–12 month maturities.
+        </p>
+
+        <p>
+          In a comprehensive consensual restructuring, domestic bondholders cannot be left unaddressed:
+        </p>
+        <ul style="margin-left:18px; margin-top:6px; display:flex; flex-direction:column; gap:6px;">
+          <li>
+            <strong>The Equity Kicker Package (ÖST Rollover):</strong> Rather than suffering principal haircuts, domestic funds receive an <strong>Equity Kicker</strong> (10%–15% warrant coverage or newly issued shares representing ~5%–7% of ZOREN) in exchange for rolling short-dated paper into a <strong>3-year standardized maturity note (due 2029)</strong> with an indexed coupon capped at BIST TLREF + 300 bps.
+          </li>
+          <li>
+            <strong>Bank &amp; ÖST Syndicate Alignment:</strong> Turkish banks and domestic bondholders form a unified local creditor class (*Yerli Alacaklılar*). Combined, banks ($428M) and local bondholders ($228M) total <strong>$656M in claims</strong>. Offering a pooled <strong>30%–33% equity stake</strong> across both groups completely aligns domestic creditors against demanding hostile liquidation.
+          </li>
+          <li>
+            <strong>Protection for Foreign Eurobonds:</strong> By satisfying domestic bondholders with equity kickers, ZOREN avoids immediate local cash insolvency, halts the TRY 3.5B annual cash interest bleed on ÖST paper, and ensures that Eurobond holders retain a clean, unimpaired claim on hard-currency YEKDEM cash flows.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- QUESTION 7 -->
+    <div class="qa-card" data-category="aljomaih">
+      <div class="qa-header" onclick="toggleQa(this)">
+        <div class="qa-title-wrap">
+          <span class="qa-num-badge">Q7</span>
+          <span class="qa-question">What is the exact impact if the AlJomaih $450M renewable stake sale closes before the October 2027 amortisation?</span>
+          <span class="qa-tag-badge" style="background:rgba(56,189,248,0.15); color:var(--accent-cyan); border:1px solid rgba(56,189,248,0.35);">CATALYST DE-LEVERAGING</span>
+        </div>
+        <span class="qa-toggle-icon">▼</span>
+      </div>
+      <div class="qa-body">
+        <p>
+          The most powerful near-term fundamental de-leveraging catalyst for Zorlu Enerji is the planned sale of a <strong>30% strategic minority stake in Zorlu Yenilenebilir Enerji A.Ş.</strong> (which holds ZOREN's 305 MW geothermal and 135 MW wind fleet) to Saudi industrial conglomerate <strong>AlJomaih Energy &amp; Water</strong> for <strong>$450.0M in gross cash proceeds</strong>.
+        </p>
+
+        <div style="background:rgba(56,189,248,0.06); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px; margin:12px 0;">
+          <div style="font-size:11.5px; font-weight:800; color:var(--accent-cyan); margin-bottom:6px;">
+            The October 31, 2027 Amortisation Milestone:
+          </div>
+          <p style="font-size:11px; color:#cbd5e1; line-height:1.5;">
+            The $1,100M ZOREN 2030 Eurobond structure is not a bullet maturity; it features a mandatory <strong>scheduled principal amortisation schedule beginning October 31, 2027</strong> (~$110M-$150M first tranche). Without asset sale proceeds, ZOREN's cash balance ($51M) and quarterly interest burden (~$64M) create an insurmountable refinancing deficit by mid-2027.
+          </p>
+        </div>
+
+        <table class="qa-table">
+          <thead>
+            <tr>
+              <th>Financial Metric</th>
+              <th>Pre-AlJomaih (Current Run-Rate)</th>
+              <th>Post-AlJomaih ($450M Injected Pre-Oct 2027)</th>
+              <th>De-Risking Impact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Balance Sheet Cash</td>
+              <td>$240.0M (Unrestricted Base)</td>
+              <td style="color:var(--accent-emerald); font-weight:700;">$690.0M ($240M + $450M)</td>
+              <td>Massive liquidity buffer for 2027 amortisation</td>
+            </tr>
+            <tr>
+              <td>OpCo Priority Debt Paydown</td>
+              <td>$115.0M (DFI) + $428.2M (Banks)</td>
+              <td style="color:var(--accent-cyan); font-weight:700;">$208.2M ($335M debt paid down)</td>
+              <td>Wipes out ADB project debt + bank bilaterals</td>
+            </tr>
+            <tr>
+              <td>Pro-Forma Net Debt</td>
+              <td>$1,464.0M</td>
+              <td style="color:var(--accent-emerald); font-weight:700;">$804.0M (-$660M reduction)</td>
+              <td>Net debt drops below $1.0B threshold</td>
+            </tr>
+            <tr>
+              <td>Pro-Forma Net Leverage</td>
+              <td>4.16x</td>
+              <td style="color:var(--accent-emerald); font-weight:800; font-size:12px;">2.28x Net Leverage</td>
+              <td style="color:var(--accent-emerald);">Achieves Investment-Grade Utility leverage (&lt;2.5x)</td>
+            </tr>
+            <tr style="background:rgba(56,189,248,0.06); font-weight:800;">
+              <td>Eurobond Secondary Fair Value</td>
+              <td style="color:var(--accent-rose);">63.5c (Distressed Discount)</td>
+              <td style="color:var(--accent-cyan); font-size:12px;">88.0c - 95.0c Re-Rating</td>
+              <td style="color:var(--accent-cyan);">+38.5% to +49.6% capital upside</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="qa-takeaway-box">
+          <strong style="color:var(--accent-cyan);">Execution Pre-Condition:</strong> Bondholders must ensure that AlJomaih transaction proceeds are legally deposited into dedicated offshore escrow accounts (under English law / indenture trustee control) to prevent parent Zorlu Holding from upstreaming the $450M to service debt at Vestel or other holding affiliates.
+        </div>
+      </div>
+    </div>
+
+    <!-- QUESTION 8 -->
+    <div class="qa-card" data-category="strategy">
+      <div class="qa-header" onclick="toggleQa(this)">
+        <div class="qa-title-wrap">
+          <span class="qa-num-badge">Q8</span>
+          <span class="qa-question">What is the credit desk trading recommendation across the Zorlu capital structure?</span>
+          <span class="qa-tag-badge" style="background:rgba(16,185,129,0.15); color:var(--accent-emerald); border:1px solid rgba(16,185,129,0.35);">DESK VERDICT &bull; ACCUMULATE</span>
+        </div>
+        <span class="qa-toggle-icon">▼</span>
+      </div>
+      <div class="qa-body">
+        <p>
+          Synthesizing asset backing, related-party leakage, Turkish bank dominance, and restructuring game theory, the desk maintains an <strong>ACCUMULATE / BUY recommendation on ZOREN 11.000% 2030 Eurobonds at 63.5c</strong>:
+        </p>
+
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:10px; margin:12px 0;">
+          <div style="background:rgba(6,9,19,0.8); border:1px solid rgba(16,185,129,0.3); border-radius:6px; padding:12px;">
+            <div style="font-size:11px; font-weight:800; color:var(--accent-emerald); text-transform:uppercase;">
+              1. ZOREN 11.000% 2030 Eurobonds @ 63.5c
+            </div>
+            <div style="font-size:10px; color:#cbd5e1; margin-top:4px; line-height:1.5;">
+              <div>&bull; <strong>Verdict:</strong> <strong style="color:var(--accent-emerald);">STRONG BUY / ACCUMULATE</strong></div>
+              <div>&bull; <strong>Asymmetry:</strong> Downside is firmly floored at <strong>51.3c – 58.0c</strong> even in a catastrophic holding default. Consensual Amend &amp; Extend yields <strong>72c – 76c (+13% to +20%)</strong>, while AlJomaih closing or par reinstatement targets <strong>95c – 100c (+49% to +57%)</strong>.</div>
+              <div>&bull; <strong>Running Yield:</strong> 17.3% current cash yield bridges the holding period.</div>
+            </div>
+          </div>
+
+          <div style="background:rgba(6,9,19,0.8); border:1px solid #1e293b; border-radius:6px; padding:12px;">
+            <div style="font-size:11px; font-weight:800; color:var(--accent-amber); text-transform:uppercase;">
+              2. Domestic Turkish Bank Debt ($428M)
+            </div>
+            <div style="font-size:10px; color:#cbd5e1; margin-top:4px; line-height:1.5;">
+              <div>&bull; <strong>Verdict:</strong> <strong style="color:var(--accent-amber);">HOLD / CONVERT 50% TO EQUITY</strong></div>
+              <div>&bull; <strong>Strategy:</strong> Banks should avoid hostile enforcement (which triggers Eurobond cross-acceleration and turbine shutdown) and instead execute the 50% DfE swap to capture renewable equity upside.</div>
+            </div>
+          </div>
+
+          <div style="background:rgba(6,9,19,0.8); border:1px solid #1e293b; border-radius:6px; padding:12px;">
+            <div style="font-size:11px; font-weight:800; color:var(--accent-rose); text-transform:uppercase;">
+              3. Zorlu Holding Equity (BIST: ZOREN)
+            </div>
+            <div style="font-size:10px; color:#cbd5e1; margin-top:4px; line-height:1.5;">
+              <div>&bull; <strong>Verdict:</strong> <strong style="color:var(--accent-rose);">UNDERWEIGHT / AVOID</strong></div>
+              <div>&bull; <strong>Rationale:</strong> Existing equity faces massive dilution (26% to banks, 5% to local bondholders, 30% to AlJomaih), eroding holding equity cushion to near-zero. Senior debt offers superior risk-adjusted return.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="qa-takeaway-box">
+          <strong style="color:var(--accent-emerald);">Institutional Bottom Line:</strong> Secondary markets are pricing in an un-hedged, catastrophic liquidation that will never occur. Turkish banks, DFI lenders (ADB), and the Turkish government cannot allow a national renewable champion generating 8,145 GWh to shut down. Consensual restructuring under the BDDK framework will deliver a <strong>75c–88c exit value</strong> for Eurobond holders.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer Navigation Strip -->
+  <div class="desk-footer">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <span style="font-size:11px; font-weight:700; color:#fff;">Interactive Restructuring Tools:</span>
+      <a href="zoren_calculator.html" class="nav-btn gold">⚖️ Launch Dynamic Valuation Sandbox</a>
+      <a href="zoren_background.html" class="nav-btn">📖 View Granular Asset Footprint &amp; EV Vol</a>
+      <a href="company.html?id=zorlu" class="nav-btn">🏛️ Return to Zorlu Master Dossier</a>
+    </div>
+    <div style="font-size:10px; color:var(--text-dim); font-family:'JetBrains Mono',monospace;">
+      CEMBI Institutional Credit Intelligence Desk &bull; Updated September 2026
+    </div>
+  </div>
+
+  <script>
+    function toggleQa(headerEl) {
+      const card = headerEl.parentElement;
+      card.classList.toggle('open');
+    }
+
+    function expandAllQa() {
+      document.querySelectorAll('.qa-card').forEach(card => card.classList.add('open'));
+    }
+
+    function collapseAllQa() {
+      document.querySelectorAll('.qa-card').forEach(card => card.classList.remove('open'));
+    }
+
+    function setCategoryFilter(cat, btnEl) {
+      document.querySelectorAll('.chip-btn').forEach(btn => btn.classList.remove('active'));
+      btnEl.classList.add('active');
+
+      const cards = document.querySelectorAll('.qa-card');
+      cards.forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-category') === cat) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    function filterQa() {
+      const q = document.getElementById('qa-search').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.qa-card');
+
+      cards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        if (q === '' || text.includes(q)) {
+          card.style.display = 'block';
+          if (q.length > 2) card.classList.add('open');
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>

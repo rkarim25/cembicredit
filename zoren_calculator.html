@@ -501,6 +501,7 @@
       <a href="index.html" class="nav-btn" style="background:rgba(255,255,255,0.08); color:#f3f4f6;">🏠 CEMBI Platform</a>
       <a href="company.html?id=zorlu" class="nav-btn">← Back to Zorlu Dossier</a>
       <a href="zoren_background.html" class="nav-btn" style="background:rgba(56,189,248,0.12); color:#38bdf8; border-color:rgba(56,189,248,0.35);">📖 Asset Inputs &amp; EV Vol</a>
+      <a href="zoren_qa.html" class="nav-btn" style="background:rgba(192,132,252,0.12); color:#c084fc; border-color:rgba(192,132,252,0.35);">❓ Restructuring Q&amp;A</a>
       <div class="brand-title">
         <span>Zorlu Enerji (ZOREN)</span>
         <span class="badge">REFINANCING &amp; SOTP ENGINE</span>
@@ -513,6 +514,8 @@
         <button class="preset-pill" onclick="loadPreset('crisis')">Severe FX Crisis (Floor)</button>
         <button class="preset-pill" onclick="loadPreset('contagion')" style="border-color:rgba(192,132,252,0.5); color:var(--accent-purple);">⚡ Zorlu Group Contagion</button>
         <button class="preset-pill" onclick="loadPreset('tb_dfe')" style="border-color:rgba(16,185,129,0.5); color:var(--accent-emerald);">🔄 Bank DfE Swap (50%)</button>
+        <button class="preset-pill" onclick="loadPreset('aljomaih')" style="border-color:rgba(56,189,248,0.5); color:var(--accent-cyan);">🌱 AlJomaih Pre-2027 ($450M)</button>
+        <button class="preset-pill" onclick="loadPreset('kicker_package')" style="border-color:rgba(251,191,36,0.5); color:var(--accent-gold);">🎁 Bank &amp; ÖST Equity Kicker</button>
       </div>
     </div>
 
@@ -1278,6 +1281,47 @@
             <span>Include Local TL Corporate Bonds ($228M) in Senior Claims Pool</span>
           </label>
         </div>
+
+        <!-- Local TL Corporate Bond (ÖST) Equity Kicker Package -->
+        <div style="background:rgba(251,191,36,0.05); border:1px solid rgba(251,191,36,0.25); border-radius:4px; padding:8px; margin-top:8px;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <label style="display:flex; align-items:center; gap:6px; font-size:9.5px; color:#cbd5e1; cursor:pointer; font-weight:700;">
+              <input type="checkbox" id="chk-ost-kicker" onchange="recalcEngine()" style="accent-color:var(--accent-gold); width:12px; height:12px;">
+              <span>🎁 Local Bond (ÖST $228M) 3Y Rollover + 5% Equity Kicker</span>
+            </label>
+            <span id="badge-ost-status" style="font-size:9px; font-family:'JetBrains Mono',monospace; padding:1px 6px; border-radius:3px; background:rgba(251,191,36,0.15); color:var(--accent-gold);">
+              STANDALONE
+            </span>
+          </div>
+          <div style="font-size:9px; color:#94a3b8; margin-top:3px; line-height:1.35;">
+            Domestic mutual &amp; pension funds roll short-term ÖST notes into 2029 paper with capped BIST TLREF + 300 bps coupons (halting TRY 3.5B/yr interest bleed) in exchange for 5% equity warrants.
+          </div>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:6px; margin-top:6px; font-size:9.5px; border-top:1px dashed rgba(255,255,255,0.08); padding-top:6px;">
+            <div>ÖST Interest Saved: <strong id="lbl-ost-interest-saved" style="color:var(--accent-gold); font-family:'JetBrains Mono',monospace;">+$0.0M/yr</strong></div>
+            <div>Combined Domestic Stake: <strong id="lbl-combined-domestic-equity" style="color:var(--accent-cyan); font-family:'JetBrains Mono',monospace;">0.0%</strong></div>
+          </div>
+        </div>
+
+        <!-- AlJomaih Strategic Minority Sale ($450M Pre-Oct 2027) -->
+        <div style="background:rgba(56,189,248,0.05); border:1px solid rgba(56,189,248,0.3); border-radius:4px; padding:8px; margin-top:8px;">
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <label style="display:flex; align-items:center; gap:6px; font-size:9.5px; color:#cbd5e1; cursor:pointer; font-weight:700;">
+              <input type="checkbox" id="chk-aljomaih" onchange="recalcEngine()" style="accent-color:var(--accent-cyan); width:12px; height:12px;">
+              <span>🌱 AlJomaih $450M Strategic Stake Sale (Closes Pre-Oct 2027)</span>
+            </label>
+            <span id="badge-aljomaih-status" style="font-size:9px; font-family:'JetBrains Mono',monospace; padding:1px 6px; border-radius:3px; background:rgba(56,189,248,0.15); color:var(--accent-cyan);">
+              INACTIVE
+            </span>
+          </div>
+          <div style="font-size:9px; color:#94a3b8; margin-top:3px; line-height:1.35;">
+            Sale of 30% strategic minority in Zorlu Yenilenebilir (305MW geothermal + 135MW wind) to AlJomaih Energy for $450M cash. Repays $115M DFI debt, pre-funds $150M Oct 2027 amortisation in escrow, and pays down $185M bank debt.
+          </div>
+          <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:4px; margin-top:6px; font-size:9px; border-top:1px dashed rgba(255,255,255,0.08); padding-top:6px;">
+            <div>DFI Debt: <strong id="lbl-aljomaih-dfi" style="color:var(--accent-emerald); font-family:'JetBrains Mono',monospace;">$115.0M</strong></div>
+            <div>Oct '27 Escrow: <strong id="lbl-aljomaih-escrow" style="color:var(--accent-purple); font-family:'JetBrains Mono',monospace;">$0.0M</strong></div>
+            <div>Net Lev Impact: <strong id="lbl-aljomaih-leverage" style="color:var(--accent-cyan); font-family:'JetBrains Mono',monospace;">-0.00x</strong></div>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -1851,8 +1895,9 @@
           At Base Case: 100.0c fundamental par asset coverage vs ~63.5c secondary market quote &rarr; <strong>Target Workout Exit: 72.0c - 76.0c (+13.4% to +19.7% capital gain, +60% IRR)</strong>.
         </p>
 
-        <div style="margin-top:8px; text-align:right;">
-          <a href="zoren_background.html#creditor-violence" target="_blank" style="color:var(--accent-rose); text-decoration:none; font-weight:700; font-size:10px; margin-right:12px;">⚔️ Read Full Creditor Violence Deep Dive in Background Page &rarr;</a>
+        <div style="margin-top:8px; text-align:right; display:flex; justify-content:flex-end; gap:12px; flex-wrap:wrap;">
+          <a href="zoren_qa.html" target="_blank" style="color:var(--accent-purple); text-decoration:none; font-weight:700; font-size:10px;">❓ Restructuring Q&amp;A Desk &rarr;</a>
+          <a href="zoren_background.html#creditor-violence" target="_blank" style="color:var(--accent-rose); text-decoration:none; font-weight:700; font-size:10px;">⚔️ Read Full Creditor Violence Deep Dive in Background Page &rarr;</a>
           <a href="zoren_background.html#qualitative-guide" target="_blank" style="color:#38bdf8; text-decoration:none; font-weight:700; font-size:10px;">📖 Complete Qualitative Guide &rarr;</a>
         </div>
       </div>
@@ -2240,6 +2285,48 @@
         qualDorad: 0.0,
         qualMacro: 0.0,
         qualDiscount: 1.0,
+        assets: { kizildere: [135, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [650, 1.00, true], zes_charging: [15, 8.0, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
+      },
+      aljomaih: {
+        duration: 4,
+        sponsorEquity: 50,
+        seniorHaircut: 0,
+        extension: 3,
+        coupon: 10.0,
+        debtEquity: 0,
+        pikCoupon: 0.0,
+        pikYears: 0,
+        relatedRecovery: 40,
+        wcReserve: true,
+        tbPriorityMode: 'super',
+        tbDfe: 25,
+        aljomaihActive: true,
+        ostKickerActive: true,
+        qualYekdem: 0.0,
+        qualDorad: 0.0,
+        qualMacro: 0.0,
+        qualDiscount: 1.0,
+        assets: { kizildere: [135, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [650, 1.00, true], zes_charging: [15, 8.0, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
+      },
+      kicker_package: {
+        duration: 6,
+        sponsorEquity: 30,
+        seniorHaircut: 0,
+        extension: 4,
+        coupon: 9.5,
+        debtEquity: 0,
+        pikCoupon: 0.0,
+        pikYears: 0,
+        relatedRecovery: 30,
+        wcReserve: true,
+        tbPriorityMode: 'super',
+        tbDfe: 50,
+        aljomaihActive: false,
+        ostKickerActive: true,
+        qualYekdem: 0.0,
+        qualDorad: 0.0,
+        qualMacro: 0.0,
+        qualDiscount: 0.5,
         assets: { kizildere: [135, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [650, 1.00, true], zes_charging: [15, 8.0, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
       }
     };
@@ -2786,6 +2873,12 @@
       if (document.getElementById("input-tb-dfe")) {
         document.getElementById("input-tb-dfe").value = p.tbDfe !== undefined ? p.tbDfe : 0;
       }
+      if (document.getElementById("chk-aljomaih")) {
+        document.getElementById("chk-aljomaih").checked = p.aljomaihActive !== undefined ? p.aljomaihActive : false;
+      }
+      if (document.getElementById("chk-ost-kicker")) {
+        document.getElementById("chk-ost-kicker").checked = p.ostKickerActive !== undefined ? p.ostKickerActive : false;
+      }
 
       // Update assets
       let presetEb = 0;
@@ -3008,7 +3101,19 @@
         document.getElementById("lbl-wc-reserve-val").textContent = `${effectiveWcReserve.toFixed(1)}M`;
       }
 
-      const balanceSheetCash = 240.0;
+      // AlJomaih Pre-2027 Strategic Equity Sale ($450M)
+      const isAljomaihActive = document.getElementById("chk-aljomaih")?.checked ?? false;
+      const aljomaihProceeds = isAljomaihActive ? 450.0 : 0.0;
+      const aljomaihDfiPayoff = isAljomaihActive ? 115.0 : 0.0; // DFI debt fully retired
+      const aljomaihOct27Escrow = isAljomaihActive ? 150.0 : 0.0; // Pre-funds Oct 2027 Eurobond amortisation in segregated escrow
+      const aljomaihBankPaydown = isAljomaihActive ? 185.0 : 0.0; // Reduces bank commercial debt
+
+      // Local TL Corporate Bond (ÖST) Equity Kicker & Rollover ($228M)
+      const isOstKickerActive = document.getElementById("chk-ost-kicker")?.checked ?? false;
+      const ostInterestSaved = isOstKickerActive ? 32.0 : 0.0; // Saves ~$32M/yr by capping 45% TL coupon bleed to TLREF
+      const ostEquityStakePct = isOstKickerActive ? 5.0 : 0.0; // 5% equity warrants sweetener
+
+      const balanceSheetCash = 240.0 + aljomaihOct27Escrow;
       const totalDistributableAssetValue = Math.max(0, totalSotpEv + balanceSheetCash + sponsorEquity + collectedRelatedCash + effectiveWcReserve);
       const blendedMultiple = totalOperatingEbitda > 0 ? (totalSotpEv / totalOperatingEbitda) : 0;
       document.getElementById("top-sotp-ev").innerHTML = `$${Math.round(totalSotpEv).toLocaleString()}<span>M</span>`;
@@ -3020,7 +3125,7 @@
 
       // Turkish Bank Debt-for-Equity (DfE) Dial
       const tbDfePct = parseFloat(document.getElementById("input-tb-dfe")?.value ?? 0) / 100.0;
-      const totalBankCommercialDebt = 428.2;
+      const totalBankCommercialDebt = Math.max(0, 428.2 - aljomaihBankPaydown);
       const tbDfeDebtSwapped = totalBankCommercialDebt * tbDfePct;
       const bankInterestRate = 0.085; // 8.5% blended cost of local bank facilities
       const tbDfeInterestSaved = tbDfeDebtSwapped * bankInterestRate;
@@ -3039,17 +3144,50 @@
         document.getElementById("lbl-tb-dfe-equity-stake").textContent = `${bankEquityStakePct.toFixed(1)}%`;
       }
 
-      // Priority Debt Breakdown (net of DfE conversion):
-      const dfiSecuredDebt = 115.0; // ADB & EBRD geothermal
-      let turkishBankPriorityDebt = 428.2 - tbDfeDebtSwapped; // All bank PF + bilaterals net of equity swap
+      // Update ÖST badges & displays
+      if (document.getElementById("badge-ost-status")) {
+        const b = document.getElementById("badge-ost-status");
+        b.textContent = isOstKickerActive ? "ACTIVE: 3Y A&E + KICKER" : "STANDALONE";
+        b.style.color = isOstKickerActive ? "var(--accent-emerald)" : "var(--accent-gold)";
+        b.style.background = isOstKickerActive ? "rgba(16,185,129,0.15)" : "rgba(251,191,36,0.15)";
+      }
+      if (document.getElementById("lbl-ost-interest-saved")) {
+        document.getElementById("lbl-ost-interest-saved").textContent = `+$${ostInterestSaved.toFixed(1)}M/yr`;
+      }
+      if (document.getElementById("lbl-combined-domestic-equity")) {
+        const combEquity = bankEquityStakePct + ostEquityStakePct;
+        document.getElementById("lbl-combined-domestic-equity").textContent = `${combEquity.toFixed(1)}% (${bankEquityStakePct.toFixed(1)}% Banks + ${ostEquityStakePct.toFixed(1)}% ÖST)`;
+      }
+
+      // Update AlJomaih badges & displays
+      if (document.getElementById("badge-aljomaih-status")) {
+        const b = document.getElementById("badge-aljomaih-status");
+        b.textContent = isAljomaihActive ? "ACTIVE: +$450M PROCEEDS" : "INACTIVE";
+        b.style.color = isAljomaihActive ? "var(--accent-cyan)" : "var(--text-muted)";
+        b.style.background = isAljomaihActive ? "rgba(56,189,248,0.2)" : "rgba(255,255,255,0.05)";
+      }
+      if (document.getElementById("lbl-aljomaih-dfi")) {
+        document.getElementById("lbl-aljomaih-dfi").textContent = isAljomaihActive ? "$0.0M (Repaid)" : "$115.0M";
+        document.getElementById("lbl-aljomaih-dfi").style.color = isAljomaihActive ? "var(--accent-emerald)" : "var(--text-main)";
+      }
+      if (document.getElementById("lbl-aljomaih-escrow")) {
+        document.getElementById("lbl-aljomaih-escrow").textContent = isAljomaihActive ? "+$150.0M Escrow" : "$0.0M";
+        document.getElementById("lbl-aljomaih-escrow").style.color = isAljomaihActive ? "var(--accent-purple)" : "var(--text-muted)";
+      }
+
+      // Priority Debt Breakdown (net of DfE conversion and AlJomaih paydown):
+      const dfiSecuredDebt = isAljomaihActive ? 0.0 : 115.0; // ADB & EBRD geothermal (repaid in full by AlJomaih if active)
+      let turkishBankPriorityDebt = Math.max(0, totalBankCommercialDebt - tbDfeDebtSwapped); // All bank PF + bilaterals net of equity swap
       let turkishBankSeniorUnsecured = 0.0;
 
       if (tbPriorityMode === 'pf_only') {
-        turkishBankPriorityDebt = 265.0 * (1.0 - tbDfePct); // PF syndications only
-        turkishBankSeniorUnsecured = 163.2 * (1.0 - tbDfePct); // Bilaterals drop to senior unsecured
+        const effectivePfPool = Math.max(0, 265.0 - (isAljomaihActive ? Math.min(185.0, 265.0) : 0.0));
+        const effectiveBilatPool = Math.max(0, 163.2 - (isAljomaihActive ? Math.max(0, 185.0 - 265.0) : 0.0));
+        turkishBankPriorityDebt = effectivePfPool * (1.0 - tbDfePct); // PF syndications only
+        turkishBankSeniorUnsecured = effectiveBilatPool * (1.0 - tbDfePct); // Bilaterals drop to senior unsecured
       } else if (tbPriorityMode === 'dfi_only') {
         turkishBankPriorityDebt = 0.0;
-        turkishBankSeniorUnsecured = 428.2 * (1.0 - tbDfePct); // All bank debt drops to senior unsecured
+        turkishBankSeniorUnsecured = totalBankCommercialDebt * (1.0 - tbDfePct); // All bank debt drops to senior unsecured
       }
 
       const prioritySecuredDebt = dfiSecuredDebt + turkishBankPriorityDebt;
@@ -3089,6 +3227,11 @@
       const proFormaNetDebt = proFormaGrossDebt - postReorgCash;
       const proFormaNetLeverage = totalOperatingEbitda > 0 ? (proFormaNetDebt / totalOperatingEbitda) : 99.0;
 
+      if (document.getElementById("lbl-aljomaih-leverage")) {
+        const levDelta = Math.max(0, 4.16 - proFormaNetLeverage);
+        document.getElementById("lbl-aljomaih-leverage").textContent = isAljomaihActive ? `-${levDelta.toFixed(2)}x` : "-0.00x";
+      }
+
       const annualPikSavings = pikYears > 0 ? (seniorReinstatedDebt * (pikCouponPct / 100.0)) : 0.0;
       const compoundedFace = 100.0 * Math.pow(1.0 + (pikCouponPct / 200.0), 2.0 * pikYears);
 
@@ -3105,7 +3248,7 @@
       const proFormaSeniorInterest = seniorReinstatedDebt * newCouponPct;
       const effectiveSeniorCashInterest = Math.max(0, proFormaSeniorInterest - annualPikSavings);
       const priorityLoansInterest = prioritySecuredDebt * 0.078; // ADB 7.5% & Bank PF/Loans 8.0%
-      const proFormaTotalCashInterest = effectiveSeniorCashInterest + priorityLoansInterest;
+      const proFormaTotalCashInterest = Math.max(0, effectiveSeniorCashInterest + priorityLoansInterest - ostInterestSaved);
       const proFormaInterestCoverage = proFormaTotalCashInterest > 0 ? (totalOperatingEbitda / proFormaTotalCashInterest) : 0;
       const proFormaCapex = 115.0;
       const proFormaFcf = totalOperatingEbitda - proFormaCapex - proFormaTotalCashInterest - 30.0 - 28.0; // WC & Tax
