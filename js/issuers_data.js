@@ -72708,33 +72708,55 @@ const MASTER_ISSUERS = [
       "total_outstanding_usd_m": 1480.0
     },
     "recovery_analysis": {
-      "distressed_floor_px": 58.0,
-      "base_case_px": 95.0,
-      "recovery_floor_pct": 58.0,
-      "recovery_base_pct": 95.0,
-      "implied_stress_ev_multiple": 4.2,
-      "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "High geothermal/hydro cash margins; AlJomaih asset divestment and deleveraging underway.",
-      "senior_debt_coverage_pct": 192.9,
-      "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value (,276.5M SOTP operational EV comprising ,626.5M Renewable Generation DCF/multiples and .0M OEDAŞ Regulated Distribution Grid based on 1.00x EV/RAB on its  EPDK rate base) + Unrestricted Cash () = ,516.5M. Deduct Priority Claims: Advisory/workout costs () + OpCo Senior Secured Priority Debt ( ADB and Turkish bank project finance) = . Net value distributable to General Senior Unsecured claims (,100M ZOREN 11.00% 2030 Eurobond) is ,121.5M, providing 192.9% asset coverage (100c fundamental par coverage). Residual equity cushion for Zorlu Holding is ,021.5M. Despite >190% asset coverage, the 2030 notes trade at ~63.5c in secondary trading (yielding 27.2%) following the appointment of Houlihan Lokey and Servo Capital, offering substantial fundamental asset-backed upside.",
+      "distressed_floor_px": 52.0,
+      "base_case_px": 75.0,
+      "recovery_floor_pct": 52.0,
+      "recovery_base_pct": 75.0,
+      "implied_stress_ev_multiple": 4.5,
+      "restructuring_framework": "Turkey Enforcement & Bankruptcy Code / BDDK Financial Restructuring (FYY)",
+      "thesis": "High geothermal/hydro cash margins offset by .8M related-party leakage to Zorlu Holding, - working capital deficit, and .2M Turkish bank senior security over EPİAŞ/EPDK cashflows. In Group Contagion, Eurobond recovery compresses to 52.0c-64.8c, directly matching 63.5c market trading.",
+      "senior_debt_coverage_pct": 153.7,
+      "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value (,276.5M SOTP operational EV comprising ,626.5M Renewable Generation DCF/multiples and .0M OEDAŞ Regulated Distribution Grid based on 1.00x EV/RAB on its EPDK rate base) + Unrestricted Cash (.0M) + 30% Related-Party Recovery from Zorlu Holding (+.4M of .5M net IOU) less Third-Party Working Capital Deficit (-.0M BOTAŞ gas/EPDK contractors) = ,613.9M Total Distributable Asset Value. Deduct Priority Claims: Advisory/workout costs (-.0M) + Turkish Bank & Multilateral DFI Priority Debt (-.2M:  ADB/EBRD and .2M Turkish bank syndicates exercising notarized account pledges over EPİAŞ YEKDEM and EPDK collections) = -.2M total priority claims. Net value distributable to General Senior Unsecured claims (,100M ZOREN 11.00% 2030 Eurobonds +  local TL corporate bonds = ,328.0M) is ,040.7M, providing 153.7% asset coverage (100c fundamental par coverage) with .7M residual equity cushion in the Base Case. However, under the Zorlu Group Contagion scenario (0% related-party recovery, - WC deficit, .2M Turkish bank super-priority sweep, and distressed SOTP EV of ,170.0M), net distributable value to senior claims falls to .8M (.8M pre-fee), compressing Eurobond recovery to 52.0c - 64.8c, which directly resolves why ZOREN 2030 trades at 63.5c in secondary markets despite standalone asset coverage.",
       "scenarios": [
         {
-          "tranche": "OpCo Priority Loans (ADB Geothermal & Turkish Bank PF)",
-          "claim_usd_m": 380.0,
+          "tranche": "Multilateral DFI Priority Debt (ADB / EBRD)",
+          "claim_usd_m": 115.0,
           "market_px": "100.0c",
           "floor_recovery": "100.0c (100%)",
           "base_recovery": "100.0c (100%)",
           "bull_recovery": "100.0c (100%)",
-          "asymmetry": "Par Reinstated (First-ranking security on OpCo assets)"
+          "contagion_recovery": "100.0c (100%)",
+          "asymmetry": "Super-Senior / Concessional Multilateral Carveout"
         },
         {
-          "tranche": "ZOREN 11.000% 2030 Senior Notes (Eurobond)",
+          "tranche": "Turkish Bank Credit Facilities & Project Debt",
+          "claim_usd_m": 428.2,
+          "market_px": "98.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "contagion_recovery": "100.0c (100%)",
+          "asymmetry": "Super-Priority (Protected by Notarized EPİAŞ/EPDK Cash Account Pledges & BDDK FYY Framework)"
+        },
+        {
+          "tranche": "ZOREN 11.000% 2030 Senior Notes (Eurobonds)",
           "claim_usd_m": 1100.0,
           "market_px": "63.5c",
-          "floor_recovery": "50.0c - 53.0c (Distressed Floor)",
+          "floor_recovery": "50.0c - 55.0c (Distressed Floor)",
           "base_recovery": "72.0c - 76.0c (Consensual A&E Target)",
           "bull_recovery": "95.0c - 100.0c (Par Coverage)",
-          "asymmetry": "+13.4% to +57.5% Upside to Workout Target"
+          "contagion_recovery": "52.0c - 64.8c (Parent Contagion Reconciled)",
+          "asymmetry": "Secondary Discount (63.5c) Directly Reflects Zorlu Group Contagion & Bank Structural Priority"
+        },
+        {
+          "tranche": "Local TL Corporate Bonds (ÖST / Private Placements)",
+          "claim_usd_m": 228.0,
+          "market_px": "85.0c",
+          "floor_recovery": "50.0c - 65.0c (Local Market Roll)",
+          "base_recovery": "80.0c - 90.0c (Consensual Roll)",
+          "bull_recovery": "100.0c (Par Coverage)",
+          "contagion_recovery": "48.6c - 58.7c (Pro-Rata Pari Passu Impairment)",
+          "asymmetry": "Pari Passu Senior Unsecured / Domestic TL Market Rollover Risk"
         }
       ],
       "waterfall_steps": [
@@ -72743,6 +72765,7 @@ const MASTER_ISSUERS = [
           "floor": ".0M (Distress)",
           "base": ".0M (Normalized SOTP)",
           "bull": ".0M (Peak)",
+          "contagion": ".0M (Stress Collapse)",
           "is_subtotal": false
         },
         {
@@ -72750,6 +72773,7 @@ const MASTER_ISSUERS = [
           "floor": "5.0x Gen / 0.80x RAB",
           "base": "6.0x Gen / 1.00x RAB",
           "bull": "7.0x Gen / 1.15x RAB",
+          "contagion": "4.5x Gen / 0.70x RAB",
           "is_subtotal": false
         },
         {
@@ -72757,81 +72781,108 @@ const MASTER_ISSUERS = [
           "floor": ",450.0M",
           "base": ",276.5M",
           "bull": ",950.0M",
+          "contagion": ",170.0M",
           "is_subtotal": false
         },
         {
           "step": "4. Add: Balance Sheet Cash",
-          "floor": "$180.0M",
-          "base": "$240.0M",
-          "bull": "$312.0M",
+          "floor": ".0M",
+          "base": ".0M",
+          "bull": ".0M",
+          "contagion": ".0M",
           "is_subtotal": false
         },
         {
-          "step": "5. TOTAL DISTRIBUTABLE ASSET VALUE",
-          "floor": ",630.0M",
-          "base": ",516.5M",
-          "bull": ",262.0M",
+          "step": "5. Add: Related-Party Recovery (Zorlu Holding .8M)",
+          "floor": ".0M (0%)",
+          "base": "+.4M (30%)",
+          "bull": "+.5M (100%)",
+          "contagion": ".0M (0% Parent Contagion)",
+          "is_subtotal": false
+        },
+        {
+          "step": "6. Less: Third-Party Working Capital Deficit",
+          "floor": "-.0M",
+          "base": "-.0M",
+          "bull": "-.0M",
+          "contagion": "-.0M (BOTAŞ / Grid Deficit)",
+          "is_subtotal": false
+        },
+        {
+          "step": "7. TOTAL DISTRIBUTABLE ASSET VALUE",
+          "floor": ",504.0M",
+          "base": ",613.9M",
+          "bull": ",880.5M",
+          "contagion": ",224.0M",
           "is_subtotal": true,
           "color": "#38bdf8"
         },
         {
-          "step": "6. Less: Refinancing & Advisory Fees",
-          "floor": "-$40.0M",
-          "base": "-$30.0M",
-          "bull": "-$25.0M",
-          "is_subtotal": false
-        },
-        {
-          "step": "7. Less: OpCo Priority Secured Debt (ADB & Bank PF)",
-          "floor": "-$380.0M (100% Par)",
-          "base": "-$380.0M (100% Par)",
-          "bull": "-$380.0M (100% Par)",
-          "is_subtotal": false
-        },
-        {
-          "step": "8. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "step": "8. Less: Refinancing & Advisory Fees",
           "floor": "-.0M",
           "base": "-.0M",
           "bull": "-.0M",
+          "contagion": "-.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "9. Less: Turkish Bank & DFI Super-Priority Sweep",
+          "floor": "-.0M (OpCo PF)",
+          "base": "-.2M (Full Priority)",
+          "bull": "-.2M (Full Priority)",
+          "contagion": "-.2M (Super-Priority Sweep)",
+          "is_subtotal": false
+        },
+        {
+          "step": "10. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "floor": "-.0M",
+          "base": "-.2M",
+          "bull": "-.2M",
+          "contagion": "-.2M",
           "is_subtotal": true,
           "color": "#f87171"
         },
         {
-          "step": "9. NET VALUE AVAILABLE TO SENIOR UNSECURED",
-          "floor": ",210.0M",
-          "base": ",121.5M",
-          "bull": ",872.0M",
+          "step": "11. NET VALUE AVAILABLE TO SENIOR CLAIMS",
+          "floor": ",084.0M",
+          "base": ",040.7M",
+          "bull": ",312.3M",
+          "contagion": ".8M",
           "is_subtotal": true,
           "color": "#34d399"
         },
         {
-          "step": "10. Total Senior Eurobond Claims Pool ($1,100M)",
-          "floor": "$1,100.0M",
-          "base": "$1,100.0M",
-          "bull": "$1,100.0M",
+          "step": "12. Total Senior Unsecured Claims Pool (Eurobonds + ÖST)",
+          "floor": ",100.0M",
+          "base": ",328.0M",
+          "bull": ",328.0M",
+          "contagion": ",328.0M",
           "is_subtotal": false
         },
         {
-          "step": "11. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
-          "floor": "100.0% (1.10x Covered)",
-          "base": "100.0% (1.93x Covered)",
-          "bull": "100.0% (2.61x Covered)",
+          "step": "13. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
+          "floor": "98.5% Par",
+          "base": "100.0% Par (1.54x Covered)",
+          "bull": "100.0% Par (2.49x Covered)",
+          "contagion": "48.6% - 58.7% (Impaired)",
           "is_highlight": true,
           "color": "#34d399"
         },
         {
-          "step": "12. SENIOR UNSECURED RECOVERY PRICE (CENTS)",
-          "floor": "50.0c - 55.0c (Secondary Floor)",
+          "step": "14. SENIOR EUROBOND RECOVERY PRICE (CENTS)",
+          "floor": "50.0c - 55.0c (Distressed Floor)",
           "base": "72.0c - 76.0c (Workout Target)",
           "bull": "100.0c (Par Asset Coverage)",
+          "contagion": "52.0c - 64.8c (Matches 63.5c Market)",
           "is_highlight": true,
           "color": "#fbbf24"
         },
         {
-          "step": "13. VALUE REMAINING FOR EXISTING EQUITY (Zorlu Holding)",
+          "step": "15. VALUE REMAINING FOR EXISTING EQUITY (Zorlu Holding)",
           "floor": ".0M",
-          "base": ",021.5M Equity Cushion",
-          "bull": ",772.0M Equity Upside",
+          "base": ".7M Equity Cushion",
+          "bull": ",984.3M Equity Upside",
+          "contagion": ".0M (Equity Wiped Out)",
           "is_subtotal": true,
           "color": "#38bdf8"
         }
@@ -72862,7 +72913,128 @@ const MASTER_ISSUERS = [
           "adb_proforma_expanded_1.10x_usd_m": 819.5
         },
         "rationale": "EV/EBITDA is inadequate for OEDAŞ because headline EBITDA is distorted by inflation indexation lags and EPDK's -/yr capex underinvestment clawback. Regulated electricity distribution grids are universally valued on EV/RAB by institutional lenders (ADB, EBRD), rating agencies, and infrastructure M&A markets."
-      }
+      },
+      "restructuring_scenarios": {
+        "base_case": {
+          "name": "Base SOTP Waterfall",
+          "description": "Normalized geothermal/hydro cash EBITDA () + OEDAŞ grid at 1.00x EV/RAB (). 30% related-party recovery (+.4M), - WC deficit, .2M bank priority sweep.",
+          "distributable_ev_usd_m": 2613.9,
+          "eurobond_coverage_pct": 153.7,
+          "eurobond_recovery_cents": 100.0,
+          "market_target_px": "72.0c - 76.0c"
+        },
+        "extension_consent": {
+          "name": "Extension & Consent (A&E)",
+          "description": "Houlihan Lokey consensual amend-and-extend to 2033; 11% coupon maintained with 2% PIK toggle; amortization rescheduled beyond 2029.",
+          "distributable_ev_usd_m": 2516.5,
+          "eurobond_coverage_pct": 192.9,
+          "eurobond_recovery_cents": 100.0,
+          "market_target_px": "75.0c"
+        },
+        "ipo_monetization": {
+          "name": "IPO & Strategic Recapitalization",
+          "description": "Successful IPO of Zorlu Yenilenebilir / 30% stake sale to AlJomaih yielding  equity monetization to de-lever capital structure.",
+          "distributable_ev_usd_m": 2726.5,
+          "eurobond_coverage_pct": 211.5,
+          "eurobond_recovery_cents": 100.0,
+          "market_target_px": "92.0c"
+        },
+        "asset_haircut": {
+          "name": "Forced Asset Sale & Haircut",
+          "description": "Forced divestment of OEDAŞ grid (0.85x RAB) and merchant gas cogen under regulatory pressure; 20% principal haircut to .",
+          "distributable_ev_usd_m": 1976.5,
+          "eurobond_coverage_pct": 143.3,
+          "eurobond_recovery_cents": 80.0,
+          "market_target_px": "68.0c"
+        },
+        "crisis_haircut": {
+          "name": "Power Price Collapse & Subordinated Haircut",
+          "description": "Spot power falls to /MWh; YEKDEM expiry unmitigated; 40% principal haircut + 5-year maturity extension.",
+          "distributable_ev_usd_m": 1600.0,
+          "eurobond_coverage_pct": 109.1,
+          "eurobond_recovery_cents": 55.0,
+          "market_target_px": "55.0c"
+        },
+        "zorlu_group_contagion": {
+          "name": "Zorlu Group / Holding Contagion",
+          "description": "Zorlu Holding default; 0% related-party recovery (.8M written off); - working capital reserve deducted; Turkish banks exercise notarized account pledges over EPİAŞ/EPDK cash sweeps (.2M senior sweep); SOTP EV compressed to ,170M.",
+          "distributable_ev_usd_m": 1224.0,
+          "eurobond_coverage_pct": 52.0,
+          "eurobond_recovery_cents": 52.0,
+          "market_target_px": "63.5c (Reconciled with Secondary Market)"
+        }
+      },
+      "related_party_balances": {
+        "gross_receivable_try_b": 28.8,
+        "gross_receivable_usd_m": 756.8,
+        "non_current_advances_usd_m": 579.0,
+        "non_current_advances_try_b": 22.0,
+        "current_trade_other_usd_m": 177.8,
+        "current_trade_other_try_b": 6.7,
+        "related_party_payables_usd_m": 12.3,
+        "related_party_payables_try_b": 0.47,
+        "net_receivable_usd_m": 744.5,
+        "debtor_entities": "Zorlu Holding A.Ş. and sister entities (Vestel Elektronik, Zorlu Gayrimenkul, Meta Nikel)",
+        "dial_presets": {
+          "contagion_pct": 0.0,
+          "contagion_recovery_usd_m": 0.0,
+          "base_pct": 30.0,
+          "base_recovery_usd_m": 223.35,
+          "bull_pct": 100.0,
+          "bull_recovery_usd_m": 744.5
+        },
+        "analysis": "Zorlu Enerji has advanced .8M (TRY 28.8B) to its ultimate parent Zorlu Holding and sister affiliates to fund group liquidity drains (consumer electronics margin compression at Vestel, nickel mining capex at Meta Nikel, and real estate servicing). If Zorlu Holding enters bankruptcy or debt moratorium, this receivable faces 100% write-off ( recovery)."
+      },
+      "third_party_working_capital": {
+        "operating_receivables_usd_m": 175.2,
+        "operating_payables_usd_m": 301.2,
+        "net_working_capital_deficit_usd_m": -126.0,
+        "key_payables": "BOTAŞ (state gas supplier for cogen plants), TEİAŞ/EPİAŞ (transmission and grid balancing), EPDK concession regulatory fees, and grid EPC contractors",
+        "treatment": "Mandatory senior operational deduction; failure to satisfy BOTAŞ halts gas generation, while grid maintenance payables risk EPDK concession revocation."
+      },
+      "turkish_bank_priority_analysis": {
+        "multilateral_dfi_usd_m": 115.0,
+        "turkish_commercial_banks_usd_m": 428.2,
+        "total_bank_priority_usd_m": 543.2,
+        "syndicate_members": "Garanti BBVA, Akbank, Türkiye İş Bankası, Yapı Kredi, Türkiye Sınai Kalkınma Bankası (TSKB), Asian Development Bank (ADB), EBRD",
+        "security_package": "Notarized Commercial Enterprise Pledges (Ticari İşletme Rehni) and direct account control over EPİAŞ YEKDEM hard-currency settlement accounts and EPDK tariff collection escrows",
+        "legal_framework": "BDDK Financial Restructuring Framework (FYY) and Turkish Enforcement and Bankruptcy Code (İcra ve İflas Kanunu)",
+        "structural_subordination_mechanics": "Turkish banks sweep operating cash flow at the OpCo generation and distribution level before any cash can reach holding company escrow accounts. Foreign Eurobond holders (,100M ZOREN 2030) hold unsecured claims at the holding company level without direct account control, making them structurally subordinate to local lenders."
+      },
+      "capital_structure_tranches": [
+        {
+          "id": "dfi",
+          "name": "Multilateral DFI Priority Debt (ADB / EBRD)",
+          "amount_usd_m": 115.0,
+          "seniority": "Super-Senior Secured",
+          "coupon_pct": 5.5,
+          "security": "Pari passu project security / concessional distribution financing"
+        },
+        {
+          "id": "banks",
+          "name": "Turkish Commercial Bank Credit Facilities",
+          "amount_usd_m": 428.2,
+          "seniority": "Senior Secured / Local Syndicate Priority",
+          "coupon_pct": 8.5,
+          "security": "Notarized Commercial Enterprise Pledges (EPİAŞ YEKDEM & EPDK Accounts)"
+        },
+        {
+          "id": "eurobonds",
+          "name": "ZOREN 11.000% 2030 Senior Notes (Eurobonds)",
+          "amount_usd_m": 1100.0,
+          "seniority": "Senior Unsecured HoldCo Notes",
+          "coupon_pct": 11.0,
+          "security": "Unsecured HoldCo guarantee (structurally subordinate to bank pledges)"
+        },
+        {
+          "id": "local_tl",
+          "name": "Local TL Corporate Bonds (ÖST / Private Placements)",
+          "amount_usd_m": 228.0,
+          "seniority": "Senior Unsecured Domestic",
+          "coupon_pct": 42.0,
+          "security": "Unsecured domestic corporate paper"
+        }
+      ]
     },
     "annotations": [
       {
@@ -73547,6 +73719,14 @@ const MASTER_ISSUERS = [
       ]
     },
     "historical_notes": [
+      {
+        "id": "zoren-20260923-group-contagion",
+        "date": "2026-09-23",
+        "title": "Zorlu Group Contagion, Related-Party Receivable Leakage & Turkish Bank Priority Analysis",
+        "source": "Institutional Restructuring Desk Memo",
+        "status": "Active Desk Analysis",
+        "summary": "Comprehensive balance sheet forensics resolving the 63.5c secondary market discount against >150% standalone asset coverage. Quantified .8M gross related-party advances to Zorlu Holding (TRY 28.8B), -.0M third-party operating working capital deficit (BOTAŞ gas payables & EPDK grid obligations), and .2M Turkish bank and multilateral priority debt protected by notarized commercial enterprise pledges (Ticari İşletme Rehni) over EPİAŞ YEKDEM and EPDK cash sweeps. In a Zorlu Group contagion default, zero related-party recovery and bank priority sweep compress Eurobond recovery to 52.0c - 64.8c, perfectly reconciling secondary pricing."
+      },
       {
         "id": "zoren-20260923-evolution",
         "date": "2026-09-23",
@@ -148432,33 +148612,55 @@ window.CEMBI_DATA = {
       "total_outstanding_usd_m": 1480.0
     },
     "recovery_analysis": {
-      "distressed_floor_px": 58.0,
-      "base_case_px": 95.0,
-      "recovery_floor_pct": 58.0,
-      "recovery_base_pct": 95.0,
-      "implied_stress_ev_multiple": 4.2,
-      "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-      "thesis": "High geothermal/hydro cash margins; AlJomaih asset divestment and deleveraging underway.",
-      "senior_debt_coverage_pct": 192.9,
-      "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value (,276.5M SOTP operational EV comprising ,626.5M Renewable Generation DCF/multiples and .0M OEDAŞ Regulated Distribution Grid based on 1.00x EV/RAB on its  EPDK rate base) + Unrestricted Cash () = ,516.5M. Deduct Priority Claims: Advisory/workout costs () + OpCo Senior Secured Priority Debt ( ADB and Turkish bank project finance) = . Net value distributable to General Senior Unsecured claims (,100M ZOREN 11.00% 2030 Eurobond) is ,121.5M, providing 192.9% asset coverage (100c fundamental par coverage). Residual equity cushion for Zorlu Holding is ,021.5M. Despite >190% asset coverage, the 2030 notes trade at ~63.5c in secondary trading (yielding 27.2%) following the appointment of Houlihan Lokey and Servo Capital, offering substantial fundamental asset-backed upside.",
+      "distressed_floor_px": 52.0,
+      "base_case_px": 75.0,
+      "recovery_floor_pct": 52.0,
+      "recovery_base_pct": 75.0,
+      "implied_stress_ev_multiple": 4.5,
+      "restructuring_framework": "Turkey Enforcement & Bankruptcy Code / BDDK Financial Restructuring (FYY)",
+      "thesis": "High geothermal/hydro cash margins offset by .8M related-party leakage to Zorlu Holding, - working capital deficit, and .2M Turkish bank senior security over EPİAŞ/EPDK cashflows. In Group Contagion, Eurobond recovery compresses to 52.0c-64.8c, directly matching 63.5c market trading.",
+      "senior_debt_coverage_pct": 153.7,
+      "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value (,276.5M SOTP operational EV comprising ,626.5M Renewable Generation DCF/multiples and .0M OEDAŞ Regulated Distribution Grid based on 1.00x EV/RAB on its EPDK rate base) + Unrestricted Cash (.0M) + 30% Related-Party Recovery from Zorlu Holding (+.4M of .5M net IOU) less Third-Party Working Capital Deficit (-.0M BOTAŞ gas/EPDK contractors) = ,613.9M Total Distributable Asset Value. Deduct Priority Claims: Advisory/workout costs (-.0M) + Turkish Bank & Multilateral DFI Priority Debt (-.2M:  ADB/EBRD and .2M Turkish bank syndicates exercising notarized account pledges over EPİAŞ YEKDEM and EPDK collections) = -.2M total priority claims. Net value distributable to General Senior Unsecured claims (,100M ZOREN 11.00% 2030 Eurobonds +  local TL corporate bonds = ,328.0M) is ,040.7M, providing 153.7% asset coverage (100c fundamental par coverage) with .7M residual equity cushion in the Base Case. However, under the Zorlu Group Contagion scenario (0% related-party recovery, - WC deficit, .2M Turkish bank super-priority sweep, and distressed SOTP EV of ,170.0M), net distributable value to senior claims falls to .8M (.8M pre-fee), compressing Eurobond recovery to 52.0c - 64.8c, which directly resolves why ZOREN 2030 trades at 63.5c in secondary markets despite standalone asset coverage.",
       "scenarios": [
         {
-          "tranche": "OpCo Priority Loans (ADB Geothermal & Turkish Bank PF)",
-          "claim_usd_m": 380.0,
+          "tranche": "Multilateral DFI Priority Debt (ADB / EBRD)",
+          "claim_usd_m": 115.0,
           "market_px": "100.0c",
           "floor_recovery": "100.0c (100%)",
           "base_recovery": "100.0c (100%)",
           "bull_recovery": "100.0c (100%)",
-          "asymmetry": "Par Reinstated (First-ranking security on OpCo assets)"
+          "contagion_recovery": "100.0c (100%)",
+          "asymmetry": "Super-Senior / Concessional Multilateral Carveout"
         },
         {
-          "tranche": "ZOREN 11.000% 2030 Senior Notes (Eurobond)",
+          "tranche": "Turkish Bank Credit Facilities & Project Debt",
+          "claim_usd_m": 428.2,
+          "market_px": "98.0c",
+          "floor_recovery": "100.0c (100%)",
+          "base_recovery": "100.0c (100%)",
+          "bull_recovery": "100.0c (100%)",
+          "contagion_recovery": "100.0c (100%)",
+          "asymmetry": "Super-Priority (Protected by Notarized EPİAŞ/EPDK Cash Account Pledges & BDDK FYY Framework)"
+        },
+        {
+          "tranche": "ZOREN 11.000% 2030 Senior Notes (Eurobonds)",
           "claim_usd_m": 1100.0,
           "market_px": "63.5c",
-          "floor_recovery": "50.0c - 53.0c (Distressed Floor)",
+          "floor_recovery": "50.0c - 55.0c (Distressed Floor)",
           "base_recovery": "72.0c - 76.0c (Consensual A&E Target)",
           "bull_recovery": "95.0c - 100.0c (Par Coverage)",
-          "asymmetry": "+13.4% to +57.5% Upside to Workout Target"
+          "contagion_recovery": "52.0c - 64.8c (Parent Contagion Reconciled)",
+          "asymmetry": "Secondary Discount (63.5c) Directly Reflects Zorlu Group Contagion & Bank Structural Priority"
+        },
+        {
+          "tranche": "Local TL Corporate Bonds (ÖST / Private Placements)",
+          "claim_usd_m": 228.0,
+          "market_px": "85.0c",
+          "floor_recovery": "50.0c - 65.0c (Local Market Roll)",
+          "base_recovery": "80.0c - 90.0c (Consensual Roll)",
+          "bull_recovery": "100.0c (Par Coverage)",
+          "contagion_recovery": "48.6c - 58.7c (Pro-Rata Pari Passu Impairment)",
+          "asymmetry": "Pari Passu Senior Unsecured / Domestic TL Market Rollover Risk"
         }
       ],
       "waterfall_steps": [
@@ -148467,6 +148669,7 @@ window.CEMBI_DATA = {
           "floor": ".0M (Distress)",
           "base": ".0M (Normalized SOTP)",
           "bull": ".0M (Peak)",
+          "contagion": ".0M (Stress Collapse)",
           "is_subtotal": false
         },
         {
@@ -148474,6 +148677,7 @@ window.CEMBI_DATA = {
           "floor": "5.0x Gen / 0.80x RAB",
           "base": "6.0x Gen / 1.00x RAB",
           "bull": "7.0x Gen / 1.15x RAB",
+          "contagion": "4.5x Gen / 0.70x RAB",
           "is_subtotal": false
         },
         {
@@ -148481,81 +148685,108 @@ window.CEMBI_DATA = {
           "floor": ",450.0M",
           "base": ",276.5M",
           "bull": ",950.0M",
+          "contagion": ",170.0M",
           "is_subtotal": false
         },
         {
           "step": "4. Add: Balance Sheet Cash",
-          "floor": "$180.0M",
-          "base": "$240.0M",
-          "bull": "$312.0M",
+          "floor": ".0M",
+          "base": ".0M",
+          "bull": ".0M",
+          "contagion": ".0M",
           "is_subtotal": false
         },
         {
-          "step": "5. TOTAL DISTRIBUTABLE ASSET VALUE",
-          "floor": ",630.0M",
-          "base": ",516.5M",
-          "bull": ",262.0M",
+          "step": "5. Add: Related-Party Recovery (Zorlu Holding .8M)",
+          "floor": ".0M (0%)",
+          "base": "+.4M (30%)",
+          "bull": "+.5M (100%)",
+          "contagion": ".0M (0% Parent Contagion)",
+          "is_subtotal": false
+        },
+        {
+          "step": "6. Less: Third-Party Working Capital Deficit",
+          "floor": "-.0M",
+          "base": "-.0M",
+          "bull": "-.0M",
+          "contagion": "-.0M (BOTAŞ / Grid Deficit)",
+          "is_subtotal": false
+        },
+        {
+          "step": "7. TOTAL DISTRIBUTABLE ASSET VALUE",
+          "floor": ",504.0M",
+          "base": ",613.9M",
+          "bull": ",880.5M",
+          "contagion": ",224.0M",
           "is_subtotal": true,
           "color": "#38bdf8"
         },
         {
-          "step": "6. Less: Refinancing & Advisory Fees",
-          "floor": "-$40.0M",
-          "base": "-$30.0M",
-          "bull": "-$25.0M",
-          "is_subtotal": false
-        },
-        {
-          "step": "7. Less: OpCo Priority Secured Debt (ADB & Bank PF)",
-          "floor": "-$380.0M (100% Par)",
-          "base": "-$380.0M (100% Par)",
-          "bull": "-$380.0M (100% Par)",
-          "is_subtotal": false
-        },
-        {
-          "step": "8. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "step": "8. Less: Refinancing & Advisory Fees",
           "floor": "-.0M",
           "base": "-.0M",
           "bull": "-.0M",
+          "contagion": "-.0M",
+          "is_subtotal": false
+        },
+        {
+          "step": "9. Less: Turkish Bank & DFI Super-Priority Sweep",
+          "floor": "-.0M (OpCo PF)",
+          "base": "-.2M (Full Priority)",
+          "bull": "-.2M (Full Priority)",
+          "contagion": "-.2M (Super-Priority Sweep)",
+          "is_subtotal": false
+        },
+        {
+          "step": "10. TOTAL PRIORITY CLAIMS DEDUCTED",
+          "floor": "-.0M",
+          "base": "-.2M",
+          "bull": "-.2M",
+          "contagion": "-.2M",
           "is_subtotal": true,
           "color": "#f87171"
         },
         {
-          "step": "9. NET VALUE AVAILABLE TO SENIOR UNSECURED",
-          "floor": ",210.0M",
-          "base": ",121.5M",
-          "bull": ",872.0M",
+          "step": "11. NET VALUE AVAILABLE TO SENIOR CLAIMS",
+          "floor": ",084.0M",
+          "base": ",040.7M",
+          "bull": ",312.3M",
+          "contagion": ".8M",
           "is_subtotal": true,
           "color": "#34d399"
         },
         {
-          "step": "10. Total Senior Eurobond Claims Pool ($1,100M)",
-          "floor": "$1,100.0M",
-          "base": "$1,100.0M",
-          "bull": "$1,100.0M",
+          "step": "12. Total Senior Unsecured Claims Pool (Eurobonds + ÖST)",
+          "floor": ",100.0M",
+          "base": ",328.0M",
+          "bull": ",328.0M",
+          "contagion": ",328.0M",
           "is_subtotal": false
         },
         {
-          "step": "11. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
-          "floor": "100.0% (1.10x Covered)",
-          "base": "100.0% (1.93x Covered)",
-          "bull": "100.0% (2.61x Covered)",
+          "step": "13. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
+          "floor": "98.5% Par",
+          "base": "100.0% Par (1.54x Covered)",
+          "bull": "100.0% Par (2.49x Covered)",
+          "contagion": "48.6% - 58.7% (Impaired)",
           "is_highlight": true,
           "color": "#34d399"
         },
         {
-          "step": "12. SENIOR UNSECURED RECOVERY PRICE (CENTS)",
-          "floor": "50.0c - 55.0c (Secondary Floor)",
+          "step": "14. SENIOR EUROBOND RECOVERY PRICE (CENTS)",
+          "floor": "50.0c - 55.0c (Distressed Floor)",
           "base": "72.0c - 76.0c (Workout Target)",
           "bull": "100.0c (Par Asset Coverage)",
+          "contagion": "52.0c - 64.8c (Matches 63.5c Market)",
           "is_highlight": true,
           "color": "#fbbf24"
         },
         {
-          "step": "13. VALUE REMAINING FOR EXISTING EQUITY (Zorlu Holding)",
+          "step": "15. VALUE REMAINING FOR EXISTING EQUITY (Zorlu Holding)",
           "floor": ".0M",
-          "base": ",021.5M Equity Cushion",
-          "bull": ",772.0M Equity Upside",
+          "base": ".7M Equity Cushion",
+          "bull": ",984.3M Equity Upside",
+          "contagion": ".0M (Equity Wiped Out)",
           "is_subtotal": true,
           "color": "#38bdf8"
         }
@@ -148586,7 +148817,128 @@ window.CEMBI_DATA = {
           "adb_proforma_expanded_1.10x_usd_m": 819.5
         },
         "rationale": "EV/EBITDA is inadequate for OEDAŞ because headline EBITDA is distorted by inflation indexation lags and EPDK's -/yr capex underinvestment clawback. Regulated electricity distribution grids are universally valued on EV/RAB by institutional lenders (ADB, EBRD), rating agencies, and infrastructure M&A markets."
-      }
+      },
+      "restructuring_scenarios": {
+        "base_case": {
+          "name": "Base SOTP Waterfall",
+          "description": "Normalized geothermal/hydro cash EBITDA () + OEDAŞ grid at 1.00x EV/RAB (). 30% related-party recovery (+.4M), - WC deficit, .2M bank priority sweep.",
+          "distributable_ev_usd_m": 2613.9,
+          "eurobond_coverage_pct": 153.7,
+          "eurobond_recovery_cents": 100.0,
+          "market_target_px": "72.0c - 76.0c"
+        },
+        "extension_consent": {
+          "name": "Extension & Consent (A&E)",
+          "description": "Houlihan Lokey consensual amend-and-extend to 2033; 11% coupon maintained with 2% PIK toggle; amortization rescheduled beyond 2029.",
+          "distributable_ev_usd_m": 2516.5,
+          "eurobond_coverage_pct": 192.9,
+          "eurobond_recovery_cents": 100.0,
+          "market_target_px": "75.0c"
+        },
+        "ipo_monetization": {
+          "name": "IPO & Strategic Recapitalization",
+          "description": "Successful IPO of Zorlu Yenilenebilir / 30% stake sale to AlJomaih yielding  equity monetization to de-lever capital structure.",
+          "distributable_ev_usd_m": 2726.5,
+          "eurobond_coverage_pct": 211.5,
+          "eurobond_recovery_cents": 100.0,
+          "market_target_px": "92.0c"
+        },
+        "asset_haircut": {
+          "name": "Forced Asset Sale & Haircut",
+          "description": "Forced divestment of OEDAŞ grid (0.85x RAB) and merchant gas cogen under regulatory pressure; 20% principal haircut to .",
+          "distributable_ev_usd_m": 1976.5,
+          "eurobond_coverage_pct": 143.3,
+          "eurobond_recovery_cents": 80.0,
+          "market_target_px": "68.0c"
+        },
+        "crisis_haircut": {
+          "name": "Power Price Collapse & Subordinated Haircut",
+          "description": "Spot power falls to /MWh; YEKDEM expiry unmitigated; 40% principal haircut + 5-year maturity extension.",
+          "distributable_ev_usd_m": 1600.0,
+          "eurobond_coverage_pct": 109.1,
+          "eurobond_recovery_cents": 55.0,
+          "market_target_px": "55.0c"
+        },
+        "zorlu_group_contagion": {
+          "name": "Zorlu Group / Holding Contagion",
+          "description": "Zorlu Holding default; 0% related-party recovery (.8M written off); - working capital reserve deducted; Turkish banks exercise notarized account pledges over EPİAŞ/EPDK cash sweeps (.2M senior sweep); SOTP EV compressed to ,170M.",
+          "distributable_ev_usd_m": 1224.0,
+          "eurobond_coverage_pct": 52.0,
+          "eurobond_recovery_cents": 52.0,
+          "market_target_px": "63.5c (Reconciled with Secondary Market)"
+        }
+      },
+      "related_party_balances": {
+        "gross_receivable_try_b": 28.8,
+        "gross_receivable_usd_m": 756.8,
+        "non_current_advances_usd_m": 579.0,
+        "non_current_advances_try_b": 22.0,
+        "current_trade_other_usd_m": 177.8,
+        "current_trade_other_try_b": 6.7,
+        "related_party_payables_usd_m": 12.3,
+        "related_party_payables_try_b": 0.47,
+        "net_receivable_usd_m": 744.5,
+        "debtor_entities": "Zorlu Holding A.Ş. and sister entities (Vestel Elektronik, Zorlu Gayrimenkul, Meta Nikel)",
+        "dial_presets": {
+          "contagion_pct": 0.0,
+          "contagion_recovery_usd_m": 0.0,
+          "base_pct": 30.0,
+          "base_recovery_usd_m": 223.35,
+          "bull_pct": 100.0,
+          "bull_recovery_usd_m": 744.5
+        },
+        "analysis": "Zorlu Enerji has advanced .8M (TRY 28.8B) to its ultimate parent Zorlu Holding and sister affiliates to fund group liquidity drains (consumer electronics margin compression at Vestel, nickel mining capex at Meta Nikel, and real estate servicing). If Zorlu Holding enters bankruptcy or debt moratorium, this receivable faces 100% write-off ( recovery)."
+      },
+      "third_party_working_capital": {
+        "operating_receivables_usd_m": 175.2,
+        "operating_payables_usd_m": 301.2,
+        "net_working_capital_deficit_usd_m": -126.0,
+        "key_payables": "BOTAŞ (state gas supplier for cogen plants), TEİAŞ/EPİAŞ (transmission and grid balancing), EPDK concession regulatory fees, and grid EPC contractors",
+        "treatment": "Mandatory senior operational deduction; failure to satisfy BOTAŞ halts gas generation, while grid maintenance payables risk EPDK concession revocation."
+      },
+      "turkish_bank_priority_analysis": {
+        "multilateral_dfi_usd_m": 115.0,
+        "turkish_commercial_banks_usd_m": 428.2,
+        "total_bank_priority_usd_m": 543.2,
+        "syndicate_members": "Garanti BBVA, Akbank, Türkiye İş Bankası, Yapı Kredi, Türkiye Sınai Kalkınma Bankası (TSKB), Asian Development Bank (ADB), EBRD",
+        "security_package": "Notarized Commercial Enterprise Pledges (Ticari İşletme Rehni) and direct account control over EPİAŞ YEKDEM hard-currency settlement accounts and EPDK tariff collection escrows",
+        "legal_framework": "BDDK Financial Restructuring Framework (FYY) and Turkish Enforcement and Bankruptcy Code (İcra ve İflas Kanunu)",
+        "structural_subordination_mechanics": "Turkish banks sweep operating cash flow at the OpCo generation and distribution level before any cash can reach holding company escrow accounts. Foreign Eurobond holders (,100M ZOREN 2030) hold unsecured claims at the holding company level without direct account control, making them structurally subordinate to local lenders."
+      },
+      "capital_structure_tranches": [
+        {
+          "id": "dfi",
+          "name": "Multilateral DFI Priority Debt (ADB / EBRD)",
+          "amount_usd_m": 115.0,
+          "seniority": "Super-Senior Secured",
+          "coupon_pct": 5.5,
+          "security": "Pari passu project security / concessional distribution financing"
+        },
+        {
+          "id": "banks",
+          "name": "Turkish Commercial Bank Credit Facilities",
+          "amount_usd_m": 428.2,
+          "seniority": "Senior Secured / Local Syndicate Priority",
+          "coupon_pct": 8.5,
+          "security": "Notarized Commercial Enterprise Pledges (EPİAŞ YEKDEM & EPDK Accounts)"
+        },
+        {
+          "id": "eurobonds",
+          "name": "ZOREN 11.000% 2030 Senior Notes (Eurobonds)",
+          "amount_usd_m": 1100.0,
+          "seniority": "Senior Unsecured HoldCo Notes",
+          "coupon_pct": 11.0,
+          "security": "Unsecured HoldCo guarantee (structurally subordinate to bank pledges)"
+        },
+        {
+          "id": "local_tl",
+          "name": "Local TL Corporate Bonds (ÖST / Private Placements)",
+          "amount_usd_m": 228.0,
+          "seniority": "Senior Unsecured Domestic",
+          "coupon_pct": 42.0,
+          "security": "Unsecured domestic corporate paper"
+        }
+      ]
     },
     "annotations": [
       {
@@ -149271,6 +149623,14 @@ window.CEMBI_DATA = {
       ]
     },
     "historical_notes": [
+      {
+        "id": "zoren-20260923-group-contagion",
+        "date": "2026-09-23",
+        "title": "Zorlu Group Contagion, Related-Party Receivable Leakage & Turkish Bank Priority Analysis",
+        "source": "Institutional Restructuring Desk Memo",
+        "status": "Active Desk Analysis",
+        "summary": "Comprehensive balance sheet forensics resolving the 63.5c secondary market discount against >150% standalone asset coverage. Quantified .8M gross related-party advances to Zorlu Holding (TRY 28.8B), -.0M third-party operating working capital deficit (BOTAŞ gas payables & EPDK grid obligations), and .2M Turkish bank and multilateral priority debt protected by notarized commercial enterprise pledges (Ticari İşletme Rehni) over EPİAŞ YEKDEM and EPDK cash sweeps. In a Zorlu Group contagion default, zero related-party recovery and bank priority sweep compress Eurobond recovery to 52.0c - 64.8c, perfectly reconciling secondary pricing."
+      },
       {
         "id": "zoren-20260923-evolution",
         "date": "2026-09-23",

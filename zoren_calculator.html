@@ -511,6 +511,7 @@
         <button class="preset-pill" onclick="loadPreset('ipo_recap')">Renewable IPO Recap</button>
         <button class="preset-pill" onclick="loadPreset('haircut')">Maturity Haircut (20%)</button>
         <button class="preset-pill" onclick="loadPreset('crisis')">Severe FX Crisis (Floor)</button>
+        <button class="preset-pill" onclick="loadPreset('contagion')" style="border-color:rgba(192,132,252,0.5); color:var(--accent-purple);">⚡ Zorlu Group Contagion</button>
       </div>
     </div>
 
@@ -583,7 +584,7 @@
         <div style="font-size:10px; color:#cbd5e1; line-height:1.5; margin-top:8px;">
           <div>&bull; <strong>SOTP EV:</strong> <span id="s1-senior-pool">$1,945M</span> Net Distributable Pool</div>
           <div>&bull; <strong>EBITDA &bull; Multiple:</strong> <span id="s1-ebitda">$350M</span> &bull; <span id="s1-mult">6.0x</span></div>
-          <div>&bull; <strong>Priority Carve-Outs:</strong> $380M OpCo Loans + Advisor Burn</div>
+          <div>&bull; <strong>Priority Carve-Outs:</strong> <span id="s1-priority-carveouts">$558M DFI &amp; Banks + Fees</span></div>
           <div>&bull; <strong>Standstill Bleed:</strong> <span id="s1-duration">6M</span> @ <span id="s1-yield">11.00%</span> = <span id="s1-time-factor" style="color:#38bdf8; font-weight:700;">Performing (0.0c drag)</span></div>
           <div style="margin-top:6px; border-top:1px dashed #334155; padding-top:4px; color:#94a3b8; font-size:9.5px;">
             <strong>Anchor:</strong> What are assets worth if liquidated/reorganized under APR?
@@ -1134,6 +1135,132 @@
           Fresh capital injection from Zorlu Holding or Zorlu Yenilenebilir minority IPO
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- WORKING CAPITAL, RELATED-PARTY BALANCES & TURKISH BANK DEBT PRIORITY DESK -->
+  <div class="card" style="margin-bottom:14px; border:1px solid rgba(192, 132, 252, 0.4); box-shadow:0 4px 16px rgba(0,0,0,0.3);">
+    <div class="card-title" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <div>
+        <span style="display:flex; align-items:center; gap:8px;">
+          <span>🏢</span> Related-Party Holding Balances, Working Capital &amp; Turkish Bank Priority Desk
+        </span>
+        <span class="sub">Audited Balance Sheet: $756.8M Owed by Zorlu Holding &bull; -$126M Third-Party Deficit &bull; Domestic Bank Pledges</span>
+      </div>
+      <div style="font-size:10px; background:rgba(192,132,252,0.15); color:var(--accent-purple); border:1px solid rgba(192,132,252,0.3); padding:3px 8px; border-radius:4px; font-family:'JetBrains Mono',monospace; font-weight:700;">
+        BALANCE SHEET RESOLUTION
+      </div>
+    </div>
+
+    <!-- 3-Column Grid: Related-Party Balances, Third-Party Working Capital, Turkish Bank Priority -->
+    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:12px; margin-top:10px;">
+      
+      <!-- 1. Related-Party Intercompany Receivables (Zorlu Holding) -->
+      <div style="background:rgba(6,9,19,0.85); border:1px solid #1e293b; border-radius:6px; padding:12px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <div style="font-size:11px; font-weight:700; color:#fff; display:flex; align-items:center; gap:6px;">
+            <span>🤝</span> Related-Party (Holding) Net Receivables
+          </div>
+          <span id="lbl-related-cash-collected" style="font-family:'JetBrains Mono',monospace; font-weight:800; color:var(--accent-emerald); font-size:12px;">+$223.4M</span>
+        </div>
+        <div style="font-size:10px; color:#94a3b8; line-height:1.45; margin-bottom:8px;">
+          <div>&bull; Gross Receivables Owed to Zoren: <strong style="color:#fff;">$756.8M</strong> (TRY 28.8B)</div>
+          <div style="padding-left:10px; font-size:9.5px; color:#64748b;">
+            &bull; Non-Current Holding Advances: $579.4M (TRY 22.0B)<br>
+            &bull; Current Trade &amp; Other IOUs: $177.4M (TRY 6.7B)
+          </div>
+          <div>&bull; Related-Party Payables Owed by Zoren: <strong style="color:#cbd5e1;">-$12.3M</strong> (TRY 468M)</div>
+          <div>&bull; <strong>Net Holding Balance: <span style="color:var(--accent-cyan);">+$744.5M USD</span></strong></div>
+        </div>
+
+        <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); border-radius:4px; padding:8px; margin-top:6px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; font-size:10px; margin-bottom:4px;">
+            <span style="font-weight:600; color:#cbd5e1;">Holding IOU Collectibility / Recovery Dial:</span>
+            <span id="val-related-recovery" style="font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--accent-emerald);">30% (+$223M)</span>
+          </div>
+          <input type="range" id="input-related-recovery" min="0" max="100" step="5" value="30" oninput="recalcEngine()" style="width:100%; accent-color:var(--accent-emerald);">
+          <div style="display:flex; justify-content:space-between; font-size:9px; color:var(--text-muted); margin-top:3px;">
+            <span style="color:var(--accent-rose);">0% (Holding Insolvency)</span>
+            <span style="color:var(--accent-amber);">30% (Desk Base)</span>
+            <span style="color:var(--accent-cyan);">100% (Full Solvency)</span>
+          </div>
+        </div>
+        <div style="font-size:9px; color:#94a3b8; margin-top:6px; line-height:1.35;">
+          <em>Contagion Channel:</em> If Zorlu Holding defaults, this $744M net asset is wiped out (0% recovery), collapsing Eurobond pool coverage!
+        </div>
+      </div>
+
+      <!-- 2. Third-Party Operating Working Capital Reserve -->
+      <div style="background:rgba(6,9,19,0.85); border:1px solid #1e293b; border-radius:6px; padding:12px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <div style="font-size:11px; font-weight:700; color:#fff; display:flex; align-items:center; gap:6px;">
+            <span>⚡</span> Third-Party Operating Working Capital
+          </div>
+          <span id="lbl-wc-reserve-val" style="font-family:'JetBrains Mono',monospace; font-weight:800; color:var(--accent-rose); font-size:12px;">-$126.0M</span>
+        </div>
+        <div style="font-size:10px; color:#94a3b8; line-height:1.45; margin-bottom:8px;">
+          <div>&bull; Operating Receivables (EPDK, TEİAŞ, Retail): <strong style="color:#fff;">$175.2M</strong> (TRY 6.7B)</div>
+          <div>&bull; Operating Trade Payables (BOTAŞ Gas &amp; O&amp;M): <strong style="color:var(--accent-rose);">-$207.4M</strong> (TRY 7.9B)</div>
+          <div>&bull; Other Accrued Liabilities &amp; Taxes: <strong style="color:var(--accent-rose);">-$93.8M</strong> (TRY 3.6B)</div>
+          <div>&bull; <strong>Net Operating WC Deficit: <span style="color:var(--accent-rose);">-$126.0M USD</span></strong></div>
+        </div>
+
+        <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); border-radius:4px; padding:8px; margin-top:6px;">
+          <label style="display:flex; align-items:center; gap:8px; font-size:10.5px; color:#cbd5e1; cursor:pointer;">
+            <input type="checkbox" id="chk-wc-reserve" checked onchange="recalcEngine()" style="accent-color:var(--accent-cyan); width:14px; height:14px;">
+            <span><strong>Deduct Working Capital Reserve from Asset Pool</strong></span>
+          </label>
+          <div style="font-size:9.5px; color:#94a3b8; margin-top:4px; line-height:1.35;">
+            Operational necessity: BOTAŞ natural gas and grid maintenance vendors cannot be stayed or defaulted without shutting down revenue-generating turbines.
+          </div>
+        </div>
+        <div style="margin-top:6px; font-size:9px; color:#94a3b8;">
+          <em>Pool Protection:</em> Protects operational going-concern value vs unencumbered liquidation.
+        </div>
+      </div>
+
+      <!-- 3. Turkish Bank Debt Breakdown & Priority Status -->
+      <div style="background:rgba(6,9,19,0.85); border:1px solid #1e293b; border-radius:6px; padding:12px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+          <div style="font-size:11px; font-weight:700; color:#fff; display:flex; align-items:center; gap:6px;">
+            <span>🏛️</span> Turkish Bank Debt Priority &amp; Power
+          </div>
+          <span id="lbl-tb-priority-total" style="font-family:'JetBrains Mono',monospace; font-weight:800; color:var(--accent-cyan); font-size:12px;">$543.2M Priority</span>
+        </div>
+        <div style="font-size:10px; color:#94a3b8; line-height:1.45; margin-bottom:8px;">
+          <div>&bull; Multilateral DFI (ADB &amp; EBRD Geothermal): <strong style="color:#fff;">$115.0M</strong> (1st lien)</div>
+          <div>&bull; Turkish Bank Bilaterals (Akbank, Garanti, İşbank): <strong style="color:#cbd5e1;">$163.2M</strong> (TRY 6.2B)</div>
+          <div>&bull; Turkish Bank Project Finance Syndicates: <strong style="color:#cbd5e1;">$265.0M</strong></div>
+          <div>&bull; <strong>Total Turkish Bank Debt: <span style="color:var(--accent-cyan);">$428.2M</span></strong> (+$115M DFI = $543.2M)</div>
+          <div>&bull; Domestic TL Corporate Bonds (ÖST): <strong style="color:#94a3b8;">$228.0M</strong> (TRY 8.7B)</div>
+        </div>
+
+        <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.06); border-radius:4px; padding:8px; margin-top:6px;">
+          <div style="font-size:9.5px; font-weight:700; color:#cbd5e1; margin-bottom:4px;">Bank Priority Treatment Policy:</div>
+          <div style="display:flex; flex-direction:column; gap:4px; font-size:10px; color:#cbd5e1;">
+            <label style="display:flex; align-items:flex-start; gap:6px; cursor:pointer;">
+              <input type="radio" name="tb-priority-mode" id="tb-priority-super" value="super" checked onchange="recalcEngine()" style="accent-color:var(--accent-cyan); margin-top:2px;">
+              <span><strong>Turkish Bank Super-Priority Sweep ($543.2M)</strong><br><span style="font-size:9px; color:#94a3b8;">Local account pledges on YEKDEM/EPDK cash flow + BDDK FYY framework rank banks ahead of foreign Eurobonds.</span></span>
+            </label>
+            <label style="display:flex; align-items:flex-start; gap:6px; cursor:pointer;">
+              <input type="radio" name="tb-priority-mode" id="tb-priority-pf" value="pf_only" onchange="recalcEngine()" style="accent-color:var(--accent-cyan); margin-top:2px;">
+              <span><strong>Project Finance Only Priority ($380.0M)</strong><br><span style="font-size:9px; color:#94a3b8;">Only DFI ($115M) and PF loans ($265M) are priority; bank bilaterals share pari passu.</span></span>
+            </label>
+            <label style="display:flex; align-items:flex-start; gap:6px; cursor:pointer;">
+              <input type="radio" name="tb-priority-mode" id="tb-priority-dfi" value="dfi_only" onchange="recalcEngine()" style="accent-color:var(--accent-cyan); margin-top:2px;">
+              <span><strong>Multilateral DFI Only ($115.0M)</strong><br><span style="font-size:9px; color:#94a3b8;">Pure equality: commercial bank debt ranks alongside Eurobonds.</span></span>
+            </label>
+          </div>
+        </div>
+
+        <div style="margin-top:6px;">
+          <label style="display:flex; align-items:center; gap:6px; font-size:9.5px; color:#cbd5e1; cursor:pointer;">
+            <input type="checkbox" id="chk-local-bonds-senior" checked onchange="recalcEngine()" style="accent-color:var(--accent-gold); width:12px; height:12px;">
+            <span>Include Local TL Corporate Bonds ($228M) in Senior Claims Pool</span>
+          </label>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -1765,6 +1892,25 @@
             </a>
           </div>
         </div>
+
+        <!-- Zorlu Group Contagion Assumptions -->
+        <div style="border-left:3px solid var(--accent-purple); padding-left:10px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+            <strong style="color:var(--accent-purple); font-size:11px;">🟣 Zorlu Group Contagion</strong>
+            <button type="button" onclick="loadPreset('contagion')" style="background:rgba(192,132,252,0.15); border:1px solid rgba(192,132,252,0.35); color:var(--accent-purple); border-radius:3px; padding:2px 7px; font-size:9.5px; font-weight:700; cursor:pointer;">⚡ Load</button>
+          </div>
+          <div style="font-size:10px; color:#94a3b8; line-height:1.45;">
+            <div>&bull; <strong>Holding IOUs:</strong> 0% recovery ($0M collected from parent)</div>
+            <div>&bull; <strong>Turkish Banks:</strong> $543M super-priority cash sweep</div>
+            <div>&bull; <strong>Working Capital:</strong> -$126M vendor reserve (BOTAŞ gas)</div>
+            <div>&bull; <strong>Distressed Val:</strong> 5.0x Gen / 0.75x RAB &bull; <strong>Floor: 52c–65c</strong></div>
+          </div>
+          <div style="margin-top:6px;">
+            <a href="zoren_background.html#scenario-contagion" target="_blank" style="color:var(--accent-purple); font-size:10px; font-weight:700; text-decoration:none;">
+              📖 View Full Group Contagion Analysis &rarr;
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -1838,6 +1984,21 @@
         </div>
       </div>
 
+      <!-- ZORLU GROUP CONTAGION CARD -->
+      <div style="background:rgba(192, 132, 252, 0.05); border:1px solid rgba(192, 132, 252, 0.35); border-radius:8px; padding:12px 14px; display:flex; flex-direction:column; gap:8px;">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <span style="font-size:12px; font-weight:800; color:var(--accent-purple); letter-spacing:0.5px; text-transform:uppercase;">🟣 Zorlu Group Contagion</span>
+          <span style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:800; color:var(--accent-purple); background:rgba(192,132,252,0.15); padding:2px 6px; border-radius:4px;">52.0c – 65.0c Floor</span>
+        </div>
+        <div style="font-size:11px; color:#cbd5e1; line-height:1.45;">
+          <div style="margin-bottom:4px;"><strong>• Related-Party Drain:</strong> $756.8M IOUs from Zorlu Holding completely written off (0c recovery).</div>
+          <div style="margin-bottom:4px;"><strong>• Turkish Bank Priority Sweep:</strong> $543.2M ($115M DFI + $428.2M Bank syndicates) enforce notarized pledges over domestic electricity cash flow.</div>
+          <div style="margin-bottom:4px;"><strong>• Working Capital Deficit:</strong> -$126.0M reserve deducted for essential operating suppliers (BOTAŞ gas).</div>
+          <div style="margin-bottom:4px;"><strong>• Distressed Asset Multiples:</strong> 5.0x generation / 0.75x RAB ($1,170M SOTP EV).</div>
+          <div><strong>• Market Price Explanation:</strong> Solves the secondary anomaly: explains why Eurobonds trade at <strong>63.5c</strong> rather than 100c par.</div>
+        </div>
+      </div>
+
     </div>
   </div>
   </div>
@@ -1871,8 +2032,10 @@
 
     // Tranche Debt Baseline Definitions
     const TRANCHES = [
-      { id: "z2030", name: "ZOREN 11.000% 2030 Eurobond", claim: 1100.0, marketPx: 63.50, seniority: "senior" },
-      { id: "priority_opco", name: "OpCo Priority Loans (ADB & Turkish Bank PF)", claim: 380.0, marketPx: 100.00, seniority: "priority_secured" }
+      { id: "priority_dfi", name: "Multilateral DFI Secured Loans (ADB & EBRD Geothermal)", claim: 115.0, marketPx: 100.00, seniority: "priority_secured" },
+      { id: "priority_tb", name: "Turkish Bank Syndicate Facilities (Akbank, Garanti, İşbank)", claim: 428.2, marketPx: 100.00, seniority: "priority_secured" },
+      { id: "z2030", name: "ZOREN 11.000% 2030 Eurobond (XS2926261426)", claim: 1100.0, marketPx: 63.50, seniority: "senior" },
+      { id: "local_ost", name: "Domestic TL Corporate Bonds (Özel Sektör Tahvili)", claim: 228.0, marketPx: 92.00, seniority: "senior" }
     ];
 
     // Presets definitions
@@ -1886,6 +2049,9 @@
         debtEquity: 0,
         pikCoupon: 0.0,
         pikYears: 0,
+        relatedRecovery: 30,
+        wcReserve: true,
+        tbPriorityMode: 'super',
         qualYekdem: -1.5,
         qualDorad: -0.5,
         qualMacro: -1.0,
@@ -1901,6 +2067,9 @@
         debtEquity: 0,
         pikCoupon: 0.0,
         pikYears: 0,
+        relatedRecovery: 50,
+        wcReserve: true,
+        tbPriorityMode: 'super',
         qualYekdem: -0.5,
         qualDorad: 0.0,
         qualMacro: -0.5,
@@ -1916,6 +2085,9 @@
         debtEquity: 0,
         pikCoupon: 0.0,
         pikYears: 0,
+        relatedRecovery: 100,
+        wcReserve: true,
+        tbPriorityMode: 'super',
         qualYekdem: 2.0,
         qualDorad: 1.0,
         qualMacro: 1.5,
@@ -1931,6 +2103,9 @@
         debtEquity: 15,
         pikCoupon: 2.0,
         pikYears: 2,
+        relatedRecovery: 15,
+        wcReserve: true,
+        tbPriorityMode: 'super',
         qualYekdem: -3.0,
         qualDorad: -2.0,
         qualMacro: -2.5,
@@ -1946,10 +2121,31 @@
         debtEquity: 30,
         pikCoupon: 3.5,
         pikYears: 3,
+        relatedRecovery: 0,
+        wcReserve: true,
+        tbPriorityMode: 'super',
         qualYekdem: -4.5,
         qualDorad: -3.5,
         qualMacro: -4.0,
         qualDiscount: -2.5,
+        assets: { kizildere: [100, 4.5, true], alasehir: [15, 4.0, true], gokcedag: [18, 4.0, true], hydro_fleet: [12, 3.5, true], oedas_grid: [600, 0.75, true], zes_charging: [8, 4.5, true], cogen_thermal: [10, 3.0, true], international: [10, 3.0, true] }
+      },
+      contagion: {
+        duration: 24,
+        sponsorEquity: 0,
+        seniorHaircut: 35,
+        extension: 6,
+        coupon: 7.5,
+        debtEquity: 25,
+        pikCoupon: 2.5,
+        pikYears: 3,
+        relatedRecovery: 0,
+        wcReserve: true,
+        tbPriorityMode: 'super',
+        qualYekdem: -4.0,
+        qualDorad: -3.0,
+        qualMacro: -4.5,
+        qualDiscount: -3.5,
         assets: { kizildere: [100, 4.5, true], alasehir: [15, 4.0, true], gokcedag: [18, 4.0, true], hydro_fleet: [12, 3.5, true], oedas_grid: [600, 0.75, true], zes_charging: [8, 4.5, true], cogen_thermal: [10, 3.0, true], international: [10, 3.0, true] }
       }
     };
@@ -2484,6 +2680,16 @@
       document.getElementById("input-qual-dorad").value = p.qualDorad;
       document.getElementById("input-qual-discount").value = p.qualDiscount;
 
+      if (p.relatedRecovery !== undefined && document.getElementById("input-related-recovery")) {
+        document.getElementById("input-related-recovery").value = p.relatedRecovery;
+      }
+      if (p.wcReserve !== undefined && document.getElementById("chk-wc-reserve")) {
+        document.getElementById("chk-wc-reserve").checked = p.wcReserve;
+      }
+      if (p.tbPriorityMode && document.getElementById(`tb-priority-${p.tbPriorityMode}`)) {
+        document.getElementById(`tb-priority-${p.tbPriorityMode}`).checked = true;
+      }
+
       // Update assets
       let presetEb = 0;
       let presetEv = 0;
@@ -2675,8 +2881,38 @@
         totalSotpEv = sotpSumEv;
       }
 
+      // Related-Party & Working Capital Inputs
+      const relatedRecPct = parseFloat(document.getElementById("input-related-recovery")?.value ?? 30) / 100.0;
+      const isWcReserveActive = document.getElementById("chk-wc-reserve")?.checked ?? true;
+      const isLocalBondsSenior = document.getElementById("chk-local-bonds-senior")?.checked ?? true;
+
+      let tbPriorityMode = 'super';
+      if (document.getElementById("tb-priority-pf")?.checked) tbPriorityMode = 'pf_only';
+      if (document.getElementById("tb-priority-dfi")?.checked) tbPriorityMode = 'dfi_only';
+
+      // Related-party net balance: Gross Receivables $756.8M - Payables $12.3M = Net Asset $744.5M
+      const grossRelatedReceivables = 756.8;
+      const grossRelatedPayables = 12.3;
+      const netRelatedReceivable = 744.5;
+      const collectedRelatedCash = netRelatedReceivable * relatedRecPct;
+
+      // Third-party net operating working capital: Receivables $175.2M - Payables $301.2M = -$126.0M
+      const thirdPartyWcDeficit = -126.0;
+      const effectiveWcReserve = isWcReserveActive ? thirdPartyWcDeficit : 0.0;
+
+      // Update UI displays for related-party and working capital
+      if (document.getElementById("val-related-recovery")) {
+        document.getElementById("val-related-recovery").textContent = `${Math.round(relatedRecPct * 100)}% (+$${Math.round(collectedRelatedCash)}M collected)`;
+      }
+      if (document.getElementById("lbl-related-cash-collected")) {
+        document.getElementById("lbl-related-cash-collected").textContent = `+$${collectedRelatedCash.toFixed(1)}M`;
+      }
+      if (document.getElementById("lbl-wc-reserve-val")) {
+        document.getElementById("lbl-wc-reserve-val").textContent = `${effectiveWcReserve.toFixed(1)}M`;
+      }
+
       const balanceSheetCash = 240.0;
-      const totalDistributableAssetValue = totalSotpEv + balanceSheetCash + sponsorEquity;
+      const totalDistributableAssetValue = Math.max(0, totalSotpEv + balanceSheetCash + sponsorEquity + collectedRelatedCash + effectiveWcReserve);
       const blendedMultiple = totalOperatingEbitda > 0 ? (totalSotpEv / totalOperatingEbitda) : 0;
       document.getElementById("top-sotp-ev").innerHTML = `$${Math.round(totalSotpEv).toLocaleString()}<span>M</span>`;
 
@@ -2685,11 +2921,34 @@
       const totalAdvisorDrain = durationMonths * monthlyAdvisorBurn;
       document.getElementById("lbl-advisor-drain").textContent = `-$${totalAdvisorDrain.toFixed(0)}M`;
 
-      const prioritySecuredDebt = 380.0; // $115M ADB loan + $265M Turkish bank PF
+      // Priority Debt Breakdown:
+      const dfiSecuredDebt = 115.0; // ADB & EBRD geothermal
+      let turkishBankPriorityDebt = 428.2; // All bank PF + bilaterals
+      let turkishBankSeniorUnsecured = 0.0;
+
+      if (tbPriorityMode === 'pf_only') {
+        turkishBankPriorityDebt = 265.0; // PF syndications only
+        turkishBankSeniorUnsecured = 163.2; // Bilaterals drop to senior unsecured
+      } else if (tbPriorityMode === 'dfi_only') {
+        turkishBankPriorityDebt = 0.0;
+        turkishBankSeniorUnsecured = 428.2; // All bank debt drops to senior unsecured
+      }
+
+      const prioritySecuredDebt = dfiSecuredDebt + turkishBankPriorityDebt;
       const totalPriorityDeductions = totalAdvisorDrain + prioritySecuredDebt;
 
+      if (document.getElementById("lbl-tb-priority-total")) {
+        document.getElementById("lbl-tb-priority-total").textContent = `$${prioritySecuredDebt.toFixed(1)}M Priority`;
+      }
+      if (document.getElementById("s1-priority-carveouts")) {
+        document.getElementById("s1-priority-carveouts").textContent = `$${Math.round(totalPriorityDeductions)}M Priority (DFI & Banks)`;
+      }
+
       // 4. Net Distributable to Senior Unsecured Debt Pool
-      const totalSeniorClaims = 1100.0; // $1,100M ZOREN 11.00% 2030 Eurobond (XS2926261426)
+      const eurobondClaims = 1100.0; // $1,100M ZOREN 11.00% 2030 Eurobond (XS2926261426)
+      const localBondClaims = isLocalBondsSenior ? 228.0 : 0.0; // $228M local TL corporate bonds
+      const totalSeniorClaims = eurobondClaims + localBondClaims + turkishBankSeniorUnsecured;
+
       const netDistributableToSenior = Math.max(0, totalDistributableAssetValue - totalPriorityDeductions);
       const rawSeniorRecoveryPct = Math.min(1.0, netDistributableToSenior / totalSeniorClaims);
       const rawSeniorRecoveryCents = rawSeniorRecoveryPct * 100.0;
@@ -2700,15 +2959,14 @@
       }
 
       // 5. Post-Restructuring Balance Sheet Pro-Forma Metrics
-      const eurobondClaims = 1100.0;
       const rcfClaims = 0.0;
-      const seniorHaircutDollar = totalSeniorClaims * seniorHaircutPct;
+      const seniorHaircutDollar = eurobondClaims * seniorHaircutPct;
       document.getElementById("lbl-senior-debt-cut").textContent = `-$${Math.round(seniorHaircutDollar)}M`;
 
-      const seniorDebtAfterHaircut = totalSeniorClaims * (1.0 - seniorHaircutPct);
+      const seniorDebtAfterHaircut = eurobondClaims * (1.0 - seniorHaircutPct);
       const seniorReinstatedDebt = seniorDebtAfterHaircut * (1.0 - debtToEquityPct);
 
-      const proFormaGrossDebt = prioritySecuredDebt + seniorReinstatedDebt;
+      const proFormaGrossDebt = prioritySecuredDebt + seniorReinstatedDebt + (isLocalBondsSenior ? localBondClaims : 0);
       const postReorgCash = Math.max(120, balanceSheetCash + sponsorEquity - totalAdvisorDrain);
       const proFormaNetDebt = proFormaGrossDebt - postReorgCash;
       const proFormaNetLeverage = totalOperatingEbitda > 0 ? (proFormaNetDebt / totalOperatingEbitda) : 99.0;
@@ -2728,7 +2986,7 @@
 
       const proFormaSeniorInterest = seniorReinstatedDebt * newCouponPct;
       const effectiveSeniorCashInterest = Math.max(0, proFormaSeniorInterest - annualPikSavings);
-      const priorityLoansInterest = 380.0 * 0.078; // ADB 7.5% & Bank PF 8.0%
+      const priorityLoansInterest = prioritySecuredDebt * 0.078; // ADB 7.5% & Bank PF/Loans 8.0%
       const proFormaTotalCashInterest = effectiveSeniorCashInterest + priorityLoansInterest;
       const proFormaInterestCoverage = proFormaTotalCashInterest > 0 ? (totalOperatingEbitda / proFormaTotalCashInterest) : 0;
       const proFormaCapex = 115.0;
@@ -2815,17 +3073,18 @@
         let bullRecovery = 0;
 
         if (t.seniority === "senior") {
-          // 1. Base Case: Uses your active model PV + qualitative adjustments:
-          baseRecovery = adjustedSeniorFairVal;
-
-          // 2. Bear Case (Refinancing Crisis): 20% haircut, 13.50% exit yield, severe FX/drought stress:
-          // Produces a realistic senior paper trading price of 72.0c–75.0c:
-          bearRecovery = 74.0 + Math.min(0.0, totalQualDeltaCents * 0.7);
-
-          // 3. Bull Case (Renewable IPO Recapitalization): Par tender or call at 102.5c:
-          bullRecovery = 102.5 + Math.max(0.0, totalQualDeltaCents * 0.5);
+          if (t.id === "z2030") {
+            baseRecovery = adjustedSeniorFairVal;
+            bearRecovery = Math.min(adjustedSeniorFairVal, 58.0 + Math.min(0.0, totalQualDeltaCents * 0.7));
+            bullRecovery = 102.5 + Math.max(0.0, totalQualDeltaCents * 0.5);
+          } else {
+            // Local TL Corporate Bonds (ÖST):
+            baseRecovery = Math.min(100.0, adjustedSeniorFairVal + 12.0);
+            bearRecovery = 72.0;
+            bullRecovery = 100.0;
+          }
         } else {
-          // Priority Secured Project Loans:
+          // Priority Secured DFI & Turkish Bank Facilities:
           baseRecovery = 100.0;
           bearRecovery = 98.0;
           bullRecovery = 100.0;
@@ -2897,23 +3156,25 @@
       document.getElementById("wf-legend-senior").textContent = `$${Math.round(seniorAllocatedValue).toLocaleString()}M (${pctSenior.toFixed(1)}%)`;
       document.getElementById("wf-legend-equity").textContent = `$${Math.round(equityResidual).toLocaleString()}M (${pctEquity.toFixed(1)}%)`;
 
-      // 16-Row Step-by-Step Waterfall
+      // 17-Row Step-by-Step Waterfall
       const waterfallRows = [
         { num: "01", name: "Consolidated Cash EBITDA Baseline", val: `$${totalOperatingEbitda.toFixed(1)}M`, unit: "Run-Rate Cash Flow", desc: "Aggregated across all active geothermal, wind, hydro & grid operations", isSub: false },
         { num: "02", name: "Implied Blended SOTP EV Multiple", val: `${blendedMultiple.toFixed(2)}x`, unit: "EV / EBITDA", desc: "Weighted operational multiple across selected renewable & utility assets", isSub: false },
         { num: "03", name: "Operational Enterprise Value (EV)", val: `$${totalSotpEv.toFixed(1)}M`, unit: "EV Baseline", desc: "Total core operating utility valuation derived from SOTP asset selections", isSub: false },
         { num: "04", name: "Add: Balance Sheet Unrestricted Cash", val: `+$${balanceSheetCash.toFixed(1)}M`, unit: "Liquid Reserves", desc: "Unrestricted cash and liquid bank balances held across Akbank, Garanti, Isbank", isSub: false },
         { num: "05", name: "Add: Sponsor Equity / Renewable IPO Proceeds", val: `+$${sponsorEquity.toFixed(1)}M`, unit: "Fresh Equity Check", desc: "Fresh capital injection from Zorlu Holding or minority Zorlu Yenilenebilir IPO", isSub: false },
-        { num: "06", name: "TOTAL DISTRIBUTABLE ASSET VALUE", val: `$${totalDistributableAssetValue.toFixed(1)}M`, unit: "100.0% Distributable Pot", desc: "Aggregate gross dollar liquidity pool available across all capital layers", isSub: true, color: "#38bdf8" },
-        { num: "07", name: "Less: Refinancing & Professional Advisory Fees", val: `-$${totalAdvisorDrain.toFixed(1)}M`, unit: `-$2.5M/mo x ${durationMonths}M`, desc: `Legal, audit, trustee and advisor burn during maturity negotiation`, isSub: false },
-        { num: "08", name: "Less: OpCo Senior Secured Priority Debt (ADB & Bank PF)", val: `-$${prioritySecuredDebt.toFixed(1)}M`, unit: "100.0% Par Reinstated", desc: "First lien on Kızıldere, Alaşehir geothermal & OEDAŞ grid receivables", isSub: false },
-        { num: "09", name: "TOTAL PRIORITY CLAIMS DEDUCTED", val: `-$${totalPriorityDeductions.toFixed(1)}M`, unit: `-${pctPriority.toFixed(1)}% of Total Pot`, desc: "Senior secured project finance debt ranking ahead of Eurobonds under APR", isSub: true, color: "#f87171" },
-        { num: "10", name: "NET VALUE AVAILABLE TO SENIOR UNSECURED", val: `$${netDistributableToSenior.toFixed(1)}M`, unit: `$${Math.min(totalSeniorClaims, seniorAllocatedValue).toFixed(0)}M of $${totalSeniorClaims.toFixed(0)}M`, desc: "Unencumbered asset value legally available to satisfy Eurobonds", isSub: true, color: "#34d399" },
-        { num: "11", name: "Total Senior Unsecured Claims Pool", val: `$${totalSeniorClaims.toFixed(1)}M`, unit: "Pari Passu Claims", desc: "Aggregate face value of ZOREN 11.000% 2030 Eurobonds (XS2926261426)", isSub: false },
-        { num: "12", name: "SENIOR UNSECURED RECOVERY PERCENTAGE (%)", val: `${(rawSeniorRecoveryPct * 100).toFixed(1)}%`, unit: `Coverage: ${uncappedSeniorCoveragePct.toFixed(1)}%`, desc: "Exact entitlement under Absolute Priority Rule (Net Available ÷ Total Claims)", isHighlight: true, color: "#34d399" },
-        { num: "13", name: "SENIOR UNSECURED RECOVERY PRICE (CENTS)", val: `${rawSeniorRecoveryCents.toFixed(1)}c`, unit: "Per $1.00 Face Value", desc: "Clean fundamental asset-backed recovery floor (100.0c Par Backing)", isHighlight: true, color: "#fbbf24" },
-        { num: "14", name: "Value Residual to Junior Guarantees / Subordinated", val: `$0.0M`, unit: "0.0c (None Outstanding)", desc: "Zorlu Enerji has no subordinated hybrid tranches in active capital structure", isSub: false },
-        { num: "16", name: "Value Residual Remaining for Existing Equity", val: `$${equityResidual.toFixed(1)}M`, unit: `${equityResidual > 0 ? ((equityResidual / safeTotalPot) * 100).toFixed(1) + '% equity pot' : '0.0% (Wiped Out)'}`, desc: "Zorlu Holding common equity value after satisfying all secured and senior claims", isSub: true, color: "#38bdf8" }
+        { num: "06", name: "Add: Net Related-Party Receivables Recovered (Zorlu Holding)", val: `+$${collectedRelatedCash.toFixed(1)}M`, unit: `${Math.round(relatedRecPct*100)}% of $744.5M`, desc: "Intercompany cash collection from Zorlu Holding ($756.8M gross IOUs less $12.3M payables)", isSub: false, color: collectedRelatedCash > 0 ? "var(--accent-emerald)" : "var(--text-muted)" },
+        { num: "07", name: "Less: Essential Third-Party Working Capital Deficit", val: `${effectiveWcReserve.toFixed(1)}M`, unit: "Operating Buffer", desc: "Priority trade payables (BOTAŞ gas, EPDK grid contractors $301.2M less $175.2M receivables)", isSub: false, color: "#f87171" },
+        { num: "08", name: "TOTAL DISTRIBUTABLE ASSET VALUE", val: `$${totalDistributableAssetValue.toFixed(1)}M`, unit: "100.0% Distributable Pot", desc: "Aggregate gross dollar liquidity pool available across all capital layers", isSub: true, color: "#38bdf8" },
+        { num: "09", name: "Less: Refinancing & Professional Advisory Fees", val: `-$${totalAdvisorDrain.toFixed(1)}M`, unit: `-$2.5M/mo x ${durationMonths}M`, desc: `Legal, audit, trustee and advisor burn during maturity negotiation`, isSub: false },
+        { num: "10", name: "Less: Multilateral DFI Priority Secured Loans (ADB & EBRD)", val: `-$${dfiSecuredDebt.toFixed(1)}M`, unit: "1st Lien Geothermal", desc: "Senior project finance security on Kızıldere & Alaşehir geothermal concessions", isSub: false },
+        { num: "11", name: "Less: Turkish Bank Priority Debt (BDDK FYY / PF Sweep)", val: `-$${turkishBankPriorityDebt.toFixed(1)}M`, unit: tbPriorityMode === 'super' ? "Super-Priority Sweep" : (tbPriorityMode === 'pf_only' ? "PF Liens Only" : "Pari Passu"), desc: "Akbank, Garanti, İşbank, Halk, Vakıf notarized account pledges on electricity revenue", isSub: false },
+        { num: "12", name: "TOTAL PRIORITY CLAIMS DEDUCTED", val: `-$${totalPriorityDeductions.toFixed(1)}M`, unit: `-${pctPriority.toFixed(1)}% of Total Pot`, desc: "Senior secured and domestic bank priority debt ranking ahead of Eurobonds", isSub: true, color: "#f87171" },
+        { num: "13", name: "NET VALUE AVAILABLE TO SENIOR UNSECURED", val: `$${netDistributableToSenior.toFixed(1)}M`, unit: `$${Math.min(totalSeniorClaims, seniorAllocatedValue).toFixed(0)}M of $${totalSeniorClaims.toFixed(0)}M`, desc: "Unencumbered asset value legally available to satisfy Eurobonds & unsecured creditors", isSub: true, color: "#34d399" },
+        { num: "14", name: "Total Senior Unsecured Claims Pool", val: `$${totalSeniorClaims.toFixed(1)}M`, unit: isLocalBondsSenior ? "Eurobond + Local Bonds" : "Eurobond (XS2926261426)", desc: `Eurobond ($1,100M)${isLocalBondsSenior ? ' + Local TL Corporate Bonds ($228M)' : ''}${turkishBankSeniorUnsecured > 0 ? ` + Unsecured Bank Debt ($${turkishBankSeniorUnsecured.toFixed(1)}M)` : ''}`, isSub: false },
+        { num: "15", name: "SENIOR UNSECURED RECOVERY PERCENTAGE (%)", val: `${(rawSeniorRecoveryPct * 100).toFixed(1)}%`, unit: `Coverage: ${uncappedSeniorCoveragePct.toFixed(1)}%`, desc: "Exact entitlement under Absolute Priority Rule (Net Available ÷ Total Claims)", isHighlight: true, color: "#34d399" },
+        { num: "16", name: "SENIOR UNSECURED RECOVERY PRICE (CENTS)", val: `${rawSeniorRecoveryCents.toFixed(1)}c`, unit: "Per $1.00 Face Value", desc: "Clean fundamental asset-backed recovery floor (Asset Backing)", isHighlight: true, color: "#fbbf24" },
+        { num: "17", name: "Value Residual Remaining for Existing Equity", val: `$${equityResidual.toFixed(1)}M`, unit: `${equityResidual > 0 ? ((equityResidual / safeTotalPot) * 100).toFixed(1) + '% equity pot' : '0.0% (Wiped Out)'}`, desc: "Zorlu Holding common equity value after satisfying all secured, bank and senior claims", isSub: true, color: "#38bdf8" }
       ];
 
       const tbodyWf = document.getElementById("dynamic-waterfall-tbody");
@@ -2947,8 +3208,10 @@
 
       // Tranche Allocation Table
       const allInstruments = [
-        { name: "OpCo Senior Secured Loans (ADB Geothermal & Bank PF)", tier: "Senior Secured", claim: 380.0, marketPx: 100.0, allocVal: 380.0, cleanPx: 100.0, exitPx: 100.0, isPriority: true },
-        { name: "ZOREN 11.000% 2030 Senior Notes (Eurobond)", tier: "Senior Guaranteed", claim: 1100.0, marketPx: 63.50, allocVal: 1100.0 * rawSeniorRecoveryPct, cleanPx: rawSeniorRecoveryCents, exitPx: adjustedSeniorFairVal }
+        { name: "Multilateral DFI Secured Debt (ADB & EBRD Geothermal)", tier: "Senior Secured", claim: dfiSecuredDebt, marketPx: 100.0, allocVal: dfiSecuredDebt, cleanPx: 100.0, exitPx: 100.0, isPriority: true },
+        { name: "Turkish Bank Syndicate Facilities (Akbank, Garanti, İşbank)", tier: tbPriorityMode === 'super' ? "Super-Priority Pledged" : (tbPriorityMode === 'pf_only' ? "PF Secured / Pari Passu" : "Pari Passu Bank Debt"), claim: 428.2, marketPx: 100.0, allocVal: tbPriorityMode === 'super' ? 428.2 : (turkishBankPriorityDebt + (turkishBankSeniorUnsecured * rawSeniorRecoveryPct)), cleanPx: tbPriorityMode === 'super' ? 100.0 : ((turkishBankPriorityDebt + (turkishBankSeniorUnsecured * rawSeniorRecoveryPct)) / 428.2) * 100.0, exitPx: tbPriorityMode === 'super' ? 100.0 : adjustedSeniorFairVal, isPriority: tbPriorityMode === 'super' },
+        { name: "ZOREN 11.000% 2030 Senior Notes (Eurobond)", tier: "Senior Unsecured", claim: eurobondClaims, marketPx: 63.50, allocVal: eurobondClaims * rawSeniorRecoveryPct, cleanPx: rawSeniorRecoveryCents, exitPx: adjustedSeniorFairVal },
+        { name: "Domestic TL Corporate Bonds (Özel Sektör Tahvili)", tier: "Senior Unsecured", claim: 228.0, marketPx: 92.00, allocVal: 228.0 * (isLocalBondsSenior ? rawSeniorRecoveryPct : 1.0), cleanPx: isLocalBondsSenior ? rawSeniorRecoveryCents : 100.0, exitPx: isLocalBondsSenior ? adjustedSeniorFairVal : 98.0 }
       ];
 
       const tbodyAlloc = document.getElementById("tranche-allocation-tbody");
