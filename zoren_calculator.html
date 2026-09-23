@@ -512,6 +512,7 @@
         <button class="preset-pill" onclick="loadPreset('haircut')">Maturity Haircut (20%)</button>
         <button class="preset-pill" onclick="loadPreset('crisis')">Severe FX Crisis (Floor)</button>
         <button class="preset-pill" onclick="loadPreset('contagion')" style="border-color:rgba(192,132,252,0.5); color:var(--accent-purple);">⚡ Zorlu Group Contagion</button>
+        <button class="preset-pill" onclick="loadPreset('tb_dfe')" style="border-color:rgba(16,185,129,0.5); color:var(--accent-emerald);">🔄 Bank DfE Swap (50%)</button>
       </div>
     </div>
 
@@ -1253,6 +1254,24 @@
           </div>
         </div>
 
+        <!-- Turkish Bank Debt-for-Equity (DfE) Conversion Dial -->
+        <div style="background:rgba(16,185,129,0.05); border:1px solid rgba(16,185,129,0.25); border-radius:4px; padding:8px; margin-top:8px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; font-size:10px; margin-bottom:4px;">
+            <span style="font-weight:700; color:var(--accent-emerald);">🔄 Turkish Bank Debt-for-Equity (DfE) Dial:</span>
+            <span id="val-tb-dfe" style="font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--accent-emerald);">0% ($0M Converted)</span>
+          </div>
+          <input type="range" id="input-tb-dfe" min="0" max="100" step="5" value="0" oninput="recalcEngine()" style="width:100%; accent-color:var(--accent-emerald);">
+          <div style="display:flex; justify-content:space-between; font-size:9px; color:var(--text-muted); margin-top:3px;">
+            <span>0% (Status Quo)</span>
+            <span style="color:var(--accent-emerald);">50% (Recommended)</span>
+            <span>100% (Full Recap)</span>
+          </div>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:6px; margin-top:6px; font-size:9.5px; border-top:1px dashed rgba(255,255,255,0.08); padding-top:6px;">
+            <div>Interest Saved: <strong id="lbl-tb-dfe-interest-saved" style="color:var(--accent-emerald); font-family:'JetBrains Mono',monospace;">+$0.0M/yr</strong></div>
+            <div>Bank Equity Stake: <strong id="lbl-tb-dfe-equity-stake" style="color:var(--accent-cyan); font-family:'JetBrains Mono',monospace;">0.0%</strong></div>
+          </div>
+        </div>
+
         <div style="margin-top:6px;">
           <label style="display:flex; align-items:center; gap:6px; font-size:9.5px; color:#cbd5e1; cursor:pointer;">
             <input type="checkbox" id="chk-local-bonds-senior" checked onchange="recalcEngine()" style="accent-color:var(--accent-gold); width:12px; height:12px;">
@@ -1261,6 +1280,56 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- COVENANT CROSS-DEFAULT TRIGGER STATUS PANEL -->
+    <div style="margin-top:12px; background:rgba(0,0,0,0.3); border-top:1px solid #1e293b; padding-top:10px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+        <span style="font-size:11px; font-weight:800; color:var(--accent-rose); text-transform:uppercase; letter-spacing:0.5px; display:flex; align-items:center; gap:6px;">
+          <span>⚡</span> Indenture Covenant Cross-Default Triggers (Zorlu Holding ➔ ZOREN 2030)
+        </span>
+        <span id="badge-cross-default-status" style="font-size:9.5px; font-family:'JetBrains Mono',monospace; font-weight:700; padding:2px 8px; border-radius:3px; background:rgba(244,63,94,0.15); color:var(--accent-rose); border:1px solid rgba(244,63,94,0.3);">
+          ACTIVE CONTAGION RISK
+        </span>
+      </div>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:8px;">
+        <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:4px; padding:8px; font-size:10px;">
+          <div style="display:flex; justify-content:space-between; color:#fff; font-weight:700; margin-bottom:2px;">
+            <span>1. Share Pledge / 101% CoC Put</span>
+            <span style="color:var(--accent-rose);" id="stat-cd-1">TRIGGERED IN CONTAGION</span>
+          </div>
+          <div style="color:#94a3b8; font-size:9px; line-height:1.35;">
+            Holding pledges ~56% ZOREN shares to banks. Foreclosure breaks 50% voting control, triggering mandatory 101% par put under Indenture §4.08.
+          </div>
+        </div>
+        <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:4px; padding:8px; font-size:10px;">
+          <div style="display:flex; justify-content:space-between; color:#fff; font-weight:700; margin-bottom:2px;">
+            <span>2. Bank Cross-Acceleration ($40M)</span>
+            <span style="color:var(--accent-amber);" id="stat-cd-2">BREACHED &gt;$40M</span>
+          </div>
+          <div style="color:#94a3b8; font-size:9px; line-height:1.35;">
+            Indenture §6.01(e) triggers EoD if any OpCo debt &gt;$40M is accelerated. Domestic bank syndicate call ($163M-$428M) automatically accelerates 2030 notes.
+          </div>
+        </div>
+        <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:4px; padding:8px; font-size:10px;">
+          <div style="display:flex; justify-content:space-between; color:#fff; font-weight:700; margin-bottom:2px;">
+            <span>3. SPK Arm's-Length Advance</span>
+            <span style="color:var(--accent-cyan);" id="stat-cd-3">AUDIT GOING CONCERN</span>
+          </div>
+          <div style="color:#94a3b8; font-size:9px; line-height:1.35;">
+            $756.8M related-party advance to Holding faces 100% ECL write-down in holding insolvency, triggering auditor qualification and bank facility cancellations.
+          </div>
+        </div>
+        <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:4px; padding:8px; font-size:10px;">
+          <div style="display:flex; justify-content:space-between; color:#fff; font-weight:700; margin-bottom:2px;">
+            <span>4. Working Capital Freeze</span>
+            <span style="color:var(--accent-purple);" id="stat-cd-4">-$126M DEFICIT</span>
+          </div>
+          <div style="color:#94a3b8; font-size:9px; line-height:1.35;">
+            Bank account freeze prevents paying BOTAŞ gas ($207M) and TEİAŞ grid fees, risking generation curtailment and license revocation within 30 days.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -2052,6 +2121,7 @@
         relatedRecovery: 30,
         wcReserve: true,
         tbPriorityMode: 'super',
+        tbDfe: 0,
         qualYekdem: -1.5,
         qualDorad: -0.5,
         qualMacro: -1.0,
@@ -2070,6 +2140,7 @@
         relatedRecovery: 50,
         wcReserve: true,
         tbPriorityMode: 'super',
+        tbDfe: 0,
         qualYekdem: -0.5,
         qualDorad: 0.0,
         qualMacro: -0.5,
@@ -2088,6 +2159,7 @@
         relatedRecovery: 100,
         wcReserve: true,
         tbPriorityMode: 'super',
+        tbDfe: 50,
         qualYekdem: 2.0,
         qualDorad: 1.0,
         qualMacro: 1.5,
@@ -2106,6 +2178,7 @@
         relatedRecovery: 15,
         wcReserve: true,
         tbPriorityMode: 'super',
+        tbDfe: 25,
         qualYekdem: -3.0,
         qualDorad: -2.0,
         qualMacro: -2.5,
@@ -2124,6 +2197,7 @@
         relatedRecovery: 0,
         wcReserve: true,
         tbPriorityMode: 'super',
+        tbDfe: 0,
         qualYekdem: -4.5,
         qualDorad: -3.5,
         qualMacro: -4.0,
@@ -2142,11 +2216,31 @@
         relatedRecovery: 0,
         wcReserve: true,
         tbPriorityMode: 'super',
+        tbDfe: 0,
         qualYekdem: -4.0,
         qualDorad: -3.0,
         qualMacro: -4.5,
         qualDiscount: -3.5,
         assets: { kizildere: [100, 4.5, true], alasehir: [15, 4.0, true], gokcedag: [18, 4.0, true], hydro_fleet: [12, 3.5, true], oedas_grid: [600, 0.75, true], zes_charging: [8, 4.5, true], cogen_thermal: [10, 3.0, true], international: [10, 3.0, true] }
+      },
+      tb_dfe: {
+        duration: 6,
+        sponsorEquity: 50,
+        seniorHaircut: 0,
+        extension: 4,
+        coupon: 9.0,
+        debtEquity: 0,
+        pikCoupon: 0.0,
+        pikYears: 0,
+        relatedRecovery: 30,
+        wcReserve: true,
+        tbPriorityMode: 'super',
+        tbDfe: 50,
+        qualYekdem: 0.0,
+        qualDorad: 0.0,
+        qualMacro: 0.0,
+        qualDiscount: 1.0,
+        assets: { kizildere: [135, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [650, 1.00, true], zes_charging: [15, 8.0, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
       }
     };
 
@@ -2689,6 +2783,9 @@
       if (p.tbPriorityMode && document.getElementById(`tb-priority-${p.tbPriorityMode}`)) {
         document.getElementById(`tb-priority-${p.tbPriorityMode}`).checked = true;
       }
+      if (document.getElementById("input-tb-dfe")) {
+        document.getElementById("input-tb-dfe").value = p.tbDfe !== undefined ? p.tbDfe : 0;
+      }
 
       // Update assets
       let presetEb = 0;
@@ -2921,17 +3018,38 @@
       const totalAdvisorDrain = durationMonths * monthlyAdvisorBurn;
       document.getElementById("lbl-advisor-drain").textContent = `-$${totalAdvisorDrain.toFixed(0)}M`;
 
-      // Priority Debt Breakdown:
+      // Turkish Bank Debt-for-Equity (DfE) Dial
+      const tbDfePct = parseFloat(document.getElementById("input-tb-dfe")?.value ?? 0) / 100.0;
+      const totalBankCommercialDebt = 428.2;
+      const tbDfeDebtSwapped = totalBankCommercialDebt * tbDfePct;
+      const bankInterestRate = 0.085; // 8.5% blended cost of local bank facilities
+      const tbDfeInterestSaved = tbDfeDebtSwapped * bankInterestRate;
+      
+      // Pro-forma equity valuation (pre-money baseline ~$600M undisturbed BIST cap)
+      const baseEquityValuation = 600.0;
+      const bankEquityStakePct = tbDfeDebtSwapped > 0 ? (tbDfeDebtSwapped / (baseEquityValuation + tbDfeDebtSwapped)) * 100.0 : 0.0;
+      
+      if (document.getElementById("val-tb-dfe")) {
+        document.getElementById("val-tb-dfe").textContent = `${Math.round(tbDfePct * 100)}% ($${Math.round(tbDfeDebtSwapped)}M Converted)`;
+      }
+      if (document.getElementById("lbl-tb-dfe-interest-saved")) {
+        document.getElementById("lbl-tb-dfe-interest-saved").textContent = `+$${tbDfeInterestSaved.toFixed(1)}M/yr`;
+      }
+      if (document.getElementById("lbl-tb-dfe-equity-stake")) {
+        document.getElementById("lbl-tb-dfe-equity-stake").textContent = `${bankEquityStakePct.toFixed(1)}%`;
+      }
+
+      // Priority Debt Breakdown (net of DfE conversion):
       const dfiSecuredDebt = 115.0; // ADB & EBRD geothermal
-      let turkishBankPriorityDebt = 428.2; // All bank PF + bilaterals
+      let turkishBankPriorityDebt = 428.2 - tbDfeDebtSwapped; // All bank PF + bilaterals net of equity swap
       let turkishBankSeniorUnsecured = 0.0;
 
       if (tbPriorityMode === 'pf_only') {
-        turkishBankPriorityDebt = 265.0; // PF syndications only
-        turkishBankSeniorUnsecured = 163.2; // Bilaterals drop to senior unsecured
+        turkishBankPriorityDebt = 265.0 * (1.0 - tbDfePct); // PF syndications only
+        turkishBankSeniorUnsecured = 163.2 * (1.0 - tbDfePct); // Bilaterals drop to senior unsecured
       } else if (tbPriorityMode === 'dfi_only') {
         turkishBankPriorityDebt = 0.0;
-        turkishBankSeniorUnsecured = 428.2; // All bank debt drops to senior unsecured
+        turkishBankSeniorUnsecured = 428.2 * (1.0 - tbDfePct); // All bank debt drops to senior unsecured
       }
 
       const prioritySecuredDebt = dfiSecuredDebt + turkishBankPriorityDebt;
@@ -3052,6 +3170,43 @@
           <strong style="color:var(--accent-rose);">Plan Verdict: ELEVATED RE-DEFAULT &amp; ROLLOVER RISK.</strong> 
           Debt burden is unmanageable at ${proFormaNetLeverage.toFixed(2)}x Net Leverage with $${Math.round(excessDebt)}M in excess debt. Eurobonds will face severe rollover resistance upon the June 2026 maturity wall without structural equitization.
         `;
+      }
+
+      // Cross-Default Trigger Status Update
+      const cdBadge = document.getElementById("badge-cross-default-status");
+      const cd1 = document.getElementById("stat-cd-1");
+      const cd2 = document.getElementById("stat-cd-2");
+      const cd3 = document.getElementById("stat-cd-3");
+      const cd4 = document.getElementById("stat-cd-4");
+      if (cdBadge) {
+        if (tbDfePct >= 0.5) {
+          cdBadge.textContent = "CONSENSUAL FYY RECAP (TRIGGERS CURED)";
+          cdBadge.style.color = "var(--accent-emerald)";
+          cdBadge.style.borderColor = "rgba(16,185,129,0.4)";
+          cdBadge.style.background = "rgba(16,185,129,0.15)";
+          if (cd1) { cd1.textContent = "STANDSTILL / CURED"; cd1.style.color = "var(--accent-emerald)"; }
+          if (cd2) { cd2.textContent = "CONVERTED / EXTENDED"; cd2.style.color = "var(--accent-emerald)"; }
+          if (cd3) { cd3.textContent = "RING-FENCED OPCO"; cd3.style.color = "var(--accent-emerald)"; }
+          if (cd4) { cd4.textContent = "LIQUIDITY INJECTED"; cd4.style.color = "var(--accent-emerald)"; }
+        } else if (relatedRecPct === 0) {
+          cdBadge.textContent = "ACTIVE HOLDING CONTAGION (ALL 4 TRIGGERED)";
+          cdBadge.style.color = "var(--accent-rose)";
+          cdBadge.style.borderColor = "rgba(244,63,94,0.4)";
+          cdBadge.style.background = "rgba(244,63,94,0.15)";
+          if (cd1) { cd1.textContent = "TRIGGERED (PLEDGE FORECLOSURE)"; cd1.style.color = "var(--accent-rose)"; }
+          if (cd2) { cd2.textContent = "BREACHED (> $40M BANK ACCEL)"; cd2.style.color = "var(--accent-rose)"; }
+          if (cd3) { cd3.textContent = "100% ECL AUDIT IMPAIRMENT"; cd3.style.color = "var(--accent-rose)"; }
+          if (cd4) { cd4.textContent = "-$126M DEFICIT (FREEZE)"; cd4.style.color = "var(--accent-rose)"; }
+        } else {
+          cdBadge.textContent = "CROSS-DEFAULT MONITORED";
+          cdBadge.style.color = "var(--accent-amber)";
+          cdBadge.style.borderColor = "rgba(245,158,11,0.4)";
+          cdBadge.style.background = "rgba(245,158,11,0.15)";
+          if (cd1) { cd1.textContent = "HOLDING PLEDGES AT RISK"; cd1.style.color = "var(--accent-amber)"; }
+          if (cd2) { cd2.textContent = "STANDSTILL ACTIVE"; cd2.style.color = "var(--accent-cyan)"; }
+          if (cd3) { cd3.textContent = "PARTIAL RECOVERY DIAL"; cd3.style.color = "var(--accent-cyan)"; }
+          if (cd4) { cd4.textContent = "ESSENTIAL RESERVE DEDUCTED"; cd4.style.color = "var(--accent-amber)"; }
+        }
       }
 
       // 6. Direct Cents Qualitative Adjustment to Produce Dynamic Pricing Bands
@@ -3209,7 +3364,26 @@
       // Tranche Allocation Table
       const allInstruments = [
         { name: "Multilateral DFI Secured Debt (ADB & EBRD Geothermal)", tier: "Senior Secured", claim: dfiSecuredDebt, marketPx: 100.0, allocVal: dfiSecuredDebt, cleanPx: 100.0, exitPx: 100.0, isPriority: true },
-        { name: "Turkish Bank Syndicate Facilities (Akbank, Garanti, İşbank)", tier: tbPriorityMode === 'super' ? "Super-Priority Pledged" : (tbPriorityMode === 'pf_only' ? "PF Secured / Pari Passu" : "Pari Passu Bank Debt"), claim: 428.2, marketPx: 100.0, allocVal: tbPriorityMode === 'super' ? 428.2 : (turkishBankPriorityDebt + (turkishBankSeniorUnsecured * rawSeniorRecoveryPct)), cleanPx: tbPriorityMode === 'super' ? 100.0 : ((turkishBankPriorityDebt + (turkishBankSeniorUnsecured * rawSeniorRecoveryPct)) / 428.2) * 100.0, exitPx: tbPriorityMode === 'super' ? 100.0 : adjustedSeniorFairVal, isPriority: tbPriorityMode === 'super' },
+        { 
+          name: tbDfeDebtSwapped > 0 ? `Turkish Bank Facilities (Akbank, Garanti, İşbank) [-$${Math.round(tbDfeDebtSwapped)}M DfE Swapped]` : "Turkish Bank Syndicate Facilities (Akbank, Garanti, İşbank)", 
+          tier: tbDfeDebtSwapped > 0 ? "Bank Priority / Equity Converted" : (tbPriorityMode === 'super' ? "Super-Priority Pledged" : (tbPriorityMode === 'pf_only' ? "PF Secured / Pari Passu" : "Pari Passu Bank Debt")), 
+          claim: 428.2 - tbDfeDebtSwapped, 
+          marketPx: 100.0, 
+          allocVal: tbPriorityMode === 'super' ? (428.2 - tbDfeDebtSwapped) : (turkishBankPriorityDebt + (turkishBankSeniorUnsecured * rawSeniorRecoveryPct)), 
+          cleanPx: 100.0, 
+          exitPx: 100.0, 
+          isPriority: true 
+        },
+        ...(tbDfeDebtSwapped > 0 ? [{
+          name: `Turkish Bank Equity Stake (${bankEquityStakePct.toFixed(1)}% Pro-Forma Shareholding)`,
+          tier: "New Common Equity",
+          claim: tbDfeDebtSwapped,
+          marketPx: 100.0,
+          allocVal: tbDfeDebtSwapped,
+          cleanPx: 100.0,
+          exitPx: 100.0,
+          isPriority: false
+        }] : []),
         { name: "ZOREN 11.000% 2030 Senior Notes (Eurobond)", tier: "Senior Unsecured", claim: eurobondClaims, marketPx: 63.50, allocVal: eurobondClaims * rawSeniorRecoveryPct, cleanPx: rawSeniorRecoveryCents, exitPx: adjustedSeniorFairVal },
         { name: "Domestic TL Corporate Bonds (Özel Sektör Tahvili)", tier: "Senior Unsecured", claim: 228.0, marketPx: 92.00, allocVal: 228.0 * (isLocalBondsSenior ? rawSeniorRecoveryPct : 1.0), cleanPx: isLocalBondsSenior ? rawSeniorRecoveryCents : 100.0, exitPx: isLocalBondsSenior ? adjustedSeniorFairVal : 98.0 }
       ];

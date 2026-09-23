@@ -73034,7 +73034,84 @@ const MASTER_ISSUERS = [
           "coupon_pct": 42.0,
           "security": "Unsecured domestic corporate paper"
         }
-      ]
+      ],
+      "covenant_cross_default_analysis": {
+        "summary": "Four legally enforceable cross-default and operational transmission channels formally link Zorlu Holding distress to Zorlu Enerji 2030 Eurobonds, guaranteeing simultaneous restructuring contagion.",
+        "triggers": [
+          {
+            "id": "trigger_1_share_pledge_coc",
+            "name": "1. Share Pledge Foreclosure & 101% Change of Control Put",
+            "indenture_clause": "Section 4.08 (Change of Control Repurchase Offer)",
+            "mechanism": "Zorlu Holding owns ~56.4% of ZOREN equity but has pledged substantial shares to Turkish banks (İşbank, Garanti, Akbank) for Holding-level loans. Bank foreclosure drops Holding ownership below 50.0%.",
+            "legal_consequence": "Mandatory Change of Control Offer at 101% of principal (,111M cash required). Inability to fund the put within 30 days constitutes an immediate, non-curable Event of Default (EoD)."
+          },
+          {
+            "id": "trigger_2_bank_cross_acceleration",
+            "name": "2. Bank Syndicate Cross-Acceleration Threshold ()",
+            "indenture_clause": "Section 6.01(e) (Cross-Acceleration of Indebtedness)",
+            "threshold_usd_m": 40.0,
+            "bank_debt_exposed_usd_m": 428.2,
+            "mechanism": "Default or acceleration of any debt of ZOREN or Significant Subsidiaries exceeding .0M triggers immediate Eurobond cross-default.",
+            "legal_consequence": "If Turkish banks accelerate bilateral credit lines (.2M) or call guarantees due to Holding distress, trustees or 25% of noteholders can immediately declare all ,100M notes due and payable."
+          },
+          {
+            "id": "trigger_3_spk_related_party_violation",
+            "name": "3. SPK Arm's-Length Breach & Auditor Going-Concern Flag",
+            "regulatory_standard": "Turkish Capital Markets Board (SPK) Series II-17.1 Corporate Governance Communiqué",
+            "advance_amount_usd_m": 756.8,
+            "mechanism": ".8M (TRY 28.8B) in unsecured related-party advances to Zorlu Holding breaches arm's-length transfer pricing rules.",
+            "legal_consequence": "Parent debt moratorium forces 100% ECL impairment and a Going Concern audit qualification, violating standard Turkish bank loan representations and triggering unilateral facility cancellations."
+          },
+          {
+            "id": "trigger_4_working_capital_freeze",
+            "name": "4. Working Capital Freeze & Essential Vendor Defaults",
+            "wc_deficit_usd_m": -126.0,
+            "critical_creditors": "BOTAŞ (.4M gas payables) and TEİAŞ/EPİAŞ (.8M grid fees)",
+            "mechanism": "Bank cash sweeps prevent servicing trade payables for natural gas and grid transmission.",
+            "legal_consequence": "BOTAŞ gas disconnection shuts down Bursa and Lüleburgaz cogen plants within 14 days; TEİAŞ balancing default triggers EPDK generation license revocation."
+          }
+        ]
+      },
+      "bank_debt_for_equity_swap_blueprint": {
+        "framework": "BDDK Financial Restructuring Framework (FYY)",
+        "rationale": "Converts senior bank claims into common equity, insulating ZOREN from holding insolvency, eliminating cash interest drain, and enhancing Eurobond recovery headroom.",
+        "total_bank_debt_usd_m": 428.2,
+        "scenarios": {
+          "status_quo_0pct": {
+            "debt_swapped_usd_m": 0.0,
+            "residual_bank_debt_usd_m": 428.2,
+            "bank_equity_stake_pct": 0.0,
+            "annual_interest_saved_usd_m": 0.0,
+            "pro_forma_net_leverage": 4.16,
+            "contagion_eurobond_recovery": "51.3c - 63.5c"
+          },
+          "minor_recap_25pct": {
+            "debt_swapped_usd_m": 107.1,
+            "residual_bank_debt_usd_m": 321.1,
+            "bank_equity_stake_pct": 15.1,
+            "annual_interest_saved_usd_m": 9.1,
+            "pro_forma_net_leverage": 3.79,
+            "contagion_eurobond_recovery": "59.4c - 69.8c"
+          },
+          "recommended_blueprint_50pct": {
+            "debt_swapped_usd_m": 214.1,
+            "residual_bank_debt_usd_m": 214.1,
+            "bank_equity_stake_pct": 26.3,
+            "annual_interest_saved_usd_m": 18.2,
+            "pro_forma_net_leverage": 3.42,
+            "contagion_eurobond_recovery": "68.5c - 76.0c"
+          },
+          "full_recap_75pct": {
+            "debt_swapped_usd_m": 321.2,
+            "residual_bank_debt_usd_m": 107.0,
+            "bank_equity_stake_pct": 34.8,
+            "annual_interest_saved_usd_m": 27.3,
+            "pro_forma_net_leverage": 3.05,
+            "contagion_eurobond_recovery": "77.6c - 84.5c"
+          }
+        },
+        "eurobond_recovery_impact": "Eliminating .1M of Turkish bank priority debt carve-outs expands net distributable value to general senior claims from .8M to .9M, boosting contagion Eurobond recovery from ~52c up to 68.5c-76.0c (+16.5c uplift)."
+      }
     },
     "annotations": [
       {
@@ -73719,6 +73796,14 @@ const MASTER_ISSUERS = [
       ]
     },
     "historical_notes": [
+      {
+        "id": "zoren-20260923-cross-default-dfe",
+        "date": "2026-09-23",
+        "title": "Covenant Cross-Default Analysis & Turkish Bank Debt-for-Equity (DfE) Restructuring Blueprint",
+        "source": "Desk Restructuring Memorandum & Interactive Engine Suite",
+        "status": "Active Desk Analysis",
+        "summary": "Detailed legal forensics mapping the four contractual transmission channels between Zorlu Holding and ZOREN Eurobonds (Share pledge foreclosure / 101% CoC put,  cross-acceleration threshold breach, SPK Series II-17.1 affiliate violation / Going Concern audit flag, and - working capital essential vendor freeze). Modeled the 50% Debt-for-Equity swap blueprint under the BDDK FYY framework converting .1M of Turkish bank debt into a 26.3% pro-forma equity stake, saving .2M/yr in cash interest, lowering Net Leverage to 3.42x (<3.50x ceiling), and lifting contagion Eurobond recovery from ~52c to 68.5c-76.0c."
+      },
       {
         "id": "zoren-20260923-group-contagion",
         "date": "2026-09-23",
@@ -148938,7 +149023,84 @@ window.CEMBI_DATA = {
           "coupon_pct": 42.0,
           "security": "Unsecured domestic corporate paper"
         }
-      ]
+      ],
+      "covenant_cross_default_analysis": {
+        "summary": "Four legally enforceable cross-default and operational transmission channels formally link Zorlu Holding distress to Zorlu Enerji 2030 Eurobonds, guaranteeing simultaneous restructuring contagion.",
+        "triggers": [
+          {
+            "id": "trigger_1_share_pledge_coc",
+            "name": "1. Share Pledge Foreclosure & 101% Change of Control Put",
+            "indenture_clause": "Section 4.08 (Change of Control Repurchase Offer)",
+            "mechanism": "Zorlu Holding owns ~56.4% of ZOREN equity but has pledged substantial shares to Turkish banks (İşbank, Garanti, Akbank) for Holding-level loans. Bank foreclosure drops Holding ownership below 50.0%.",
+            "legal_consequence": "Mandatory Change of Control Offer at 101% of principal (,111M cash required). Inability to fund the put within 30 days constitutes an immediate, non-curable Event of Default (EoD)."
+          },
+          {
+            "id": "trigger_2_bank_cross_acceleration",
+            "name": "2. Bank Syndicate Cross-Acceleration Threshold ()",
+            "indenture_clause": "Section 6.01(e) (Cross-Acceleration of Indebtedness)",
+            "threshold_usd_m": 40.0,
+            "bank_debt_exposed_usd_m": 428.2,
+            "mechanism": "Default or acceleration of any debt of ZOREN or Significant Subsidiaries exceeding .0M triggers immediate Eurobond cross-default.",
+            "legal_consequence": "If Turkish banks accelerate bilateral credit lines (.2M) or call guarantees due to Holding distress, trustees or 25% of noteholders can immediately declare all ,100M notes due and payable."
+          },
+          {
+            "id": "trigger_3_spk_related_party_violation",
+            "name": "3. SPK Arm's-Length Breach & Auditor Going-Concern Flag",
+            "regulatory_standard": "Turkish Capital Markets Board (SPK) Series II-17.1 Corporate Governance Communiqué",
+            "advance_amount_usd_m": 756.8,
+            "mechanism": ".8M (TRY 28.8B) in unsecured related-party advances to Zorlu Holding breaches arm's-length transfer pricing rules.",
+            "legal_consequence": "Parent debt moratorium forces 100% ECL impairment and a Going Concern audit qualification, violating standard Turkish bank loan representations and triggering unilateral facility cancellations."
+          },
+          {
+            "id": "trigger_4_working_capital_freeze",
+            "name": "4. Working Capital Freeze & Essential Vendor Defaults",
+            "wc_deficit_usd_m": -126.0,
+            "critical_creditors": "BOTAŞ (.4M gas payables) and TEİAŞ/EPİAŞ (.8M grid fees)",
+            "mechanism": "Bank cash sweeps prevent servicing trade payables for natural gas and grid transmission.",
+            "legal_consequence": "BOTAŞ gas disconnection shuts down Bursa and Lüleburgaz cogen plants within 14 days; TEİAŞ balancing default triggers EPDK generation license revocation."
+          }
+        ]
+      },
+      "bank_debt_for_equity_swap_blueprint": {
+        "framework": "BDDK Financial Restructuring Framework (FYY)",
+        "rationale": "Converts senior bank claims into common equity, insulating ZOREN from holding insolvency, eliminating cash interest drain, and enhancing Eurobond recovery headroom.",
+        "total_bank_debt_usd_m": 428.2,
+        "scenarios": {
+          "status_quo_0pct": {
+            "debt_swapped_usd_m": 0.0,
+            "residual_bank_debt_usd_m": 428.2,
+            "bank_equity_stake_pct": 0.0,
+            "annual_interest_saved_usd_m": 0.0,
+            "pro_forma_net_leverage": 4.16,
+            "contagion_eurobond_recovery": "51.3c - 63.5c"
+          },
+          "minor_recap_25pct": {
+            "debt_swapped_usd_m": 107.1,
+            "residual_bank_debt_usd_m": 321.1,
+            "bank_equity_stake_pct": 15.1,
+            "annual_interest_saved_usd_m": 9.1,
+            "pro_forma_net_leverage": 3.79,
+            "contagion_eurobond_recovery": "59.4c - 69.8c"
+          },
+          "recommended_blueprint_50pct": {
+            "debt_swapped_usd_m": 214.1,
+            "residual_bank_debt_usd_m": 214.1,
+            "bank_equity_stake_pct": 26.3,
+            "annual_interest_saved_usd_m": 18.2,
+            "pro_forma_net_leverage": 3.42,
+            "contagion_eurobond_recovery": "68.5c - 76.0c"
+          },
+          "full_recap_75pct": {
+            "debt_swapped_usd_m": 321.2,
+            "residual_bank_debt_usd_m": 107.0,
+            "bank_equity_stake_pct": 34.8,
+            "annual_interest_saved_usd_m": 27.3,
+            "pro_forma_net_leverage": 3.05,
+            "contagion_eurobond_recovery": "77.6c - 84.5c"
+          }
+        },
+        "eurobond_recovery_impact": "Eliminating .1M of Turkish bank priority debt carve-outs expands net distributable value to general senior claims from .8M to .9M, boosting contagion Eurobond recovery from ~52c up to 68.5c-76.0c (+16.5c uplift)."
+      }
     },
     "annotations": [
       {
@@ -149623,6 +149785,14 @@ window.CEMBI_DATA = {
       ]
     },
     "historical_notes": [
+      {
+        "id": "zoren-20260923-cross-default-dfe",
+        "date": "2026-09-23",
+        "title": "Covenant Cross-Default Analysis & Turkish Bank Debt-for-Equity (DfE) Restructuring Blueprint",
+        "source": "Desk Restructuring Memorandum & Interactive Engine Suite",
+        "status": "Active Desk Analysis",
+        "summary": "Detailed legal forensics mapping the four contractual transmission channels between Zorlu Holding and ZOREN Eurobonds (Share pledge foreclosure / 101% CoC put,  cross-acceleration threshold breach, SPK Series II-17.1 affiliate violation / Going Concern audit flag, and - working capital essential vendor freeze). Modeled the 50% Debt-for-Equity swap blueprint under the BDDK FYY framework converting .1M of Turkish bank debt into a 26.3% pro-forma equity stake, saving .2M/yr in cash interest, lowering Net Leverage to 3.42x (<3.50x ceiling), and lifting contagion Eurobond recovery from ~52c to 68.5c-76.0c."
+      },
       {
         "id": "zoren-20260923-group-contagion",
         "date": "2026-09-23",
