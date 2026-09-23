@@ -73845,10 +73845,37 @@ const MASTER_ISSUERS = [
         "strategic_rationale": "Creates a permanent 31.3% domestic institutional shareholder consortium, completely eliminating bank foreclosure violence and local bond run-risk."
       }
     },
+    "capital_structure_hierarchy": {
+      "issuer": "Zorlu Enerji Elektrik Üretim A.Ş. (BIST: ZOREN)",
+      "ultimate_parent": "Zorlu Holding A.Ş. (56.8% common equity ownership; non-recourse)",
+      "benchmark_eurobond": {
+        "instrument": "ZOREN 11.000% Senior Notes due 2030 (XS2926261426)",
+        "ranking": "Senior Unsecured Direct Obligation of Issuer",
+        "governing_law": "English Law (Trustee: BNY Mellon)",
+        "claim_size_usd_m": 1100.0,
+        "original_face_usd_m": 800.0,
+        "guarantor_structure": "No downstream upstream guarantees from primary operating subsidiaries (Zorlu Yenilenebilir or OEDAŞ)",
+        "structural_subordination_status": "Structurally subordinated to $380M-$543M in OpCo-level DFI mortgages and Turkish bank project finance account pledges",
+        "pari_passu_claims_pool": "$228M Local TL Corporate Bonds (ÖST) + $163M Turkish Bank Bilateral Lines",
+        "total_senior_unsecured_claims_usd_m": 1491.2
+      },
+      "priority_secured_debt": {
+        "dfi_facility_usd_m": 115.0,
+        "dfi_security": "1st mortgage on Kızıldere & Alaşehir geothermal concessions (ADB & EBRD)",
+        "turkish_bank_pf_usd_m": 265.0,
+        "bank_pf_security": "Commercial enterprise pledge (Ticari İşletme Rehni) on EPİAŞ YEKDEM USD revenue accounts"
+      },
+      "junior_equity_layer": {
+        "undisturbed_market_cap_usd_m": 600.0,
+        "sponsor_stake_pct": 56.8,
+        "free_float_pct": 43.2
+      }
+    },
     "restructuring_qa_dossier": {
       "url": "zoren_qa.html",
-      "total_questions": 8,
+      "total_questions": 9,
       "key_topics": [
+        "Corporate Legal Hierarchy & Where the 2030 Eurobond Sits (Structural Subordination)",
         "Secondary Pricing Paradox (63.5c vs >150% asset backing)",
         "Related-Party IOU Forensic Audit ($756.8M gross IOUs / +$744.5M net asset)",
         "Turkish Bank Super-Priority (Ticari İşletme Rehni & BDDK FYY framework)",
@@ -149906,10 +149933,37 @@ window.CEMBI_DATA = {
         "strategic_rationale": "Creates a permanent 31.3% domestic institutional shareholder consortium, completely eliminating bank foreclosure violence and local bond run-risk."
       }
     },
+    "capital_structure_hierarchy": {
+      "issuer": "Zorlu Enerji Elektrik Üretim A.Ş. (BIST: ZOREN)",
+      "ultimate_parent": "Zorlu Holding A.Ş. (56.8% common equity ownership; non-recourse)",
+      "benchmark_eurobond": {
+        "instrument": "ZOREN 11.000% Senior Notes due 2030 (XS2926261426)",
+        "ranking": "Senior Unsecured Direct Obligation of Issuer",
+        "governing_law": "English Law (Trustee: BNY Mellon)",
+        "claim_size_usd_m": 1100.0,
+        "original_face_usd_m": 800.0,
+        "guarantor_structure": "No downstream upstream guarantees from primary operating subsidiaries (Zorlu Yenilenebilir or OEDAŞ)",
+        "structural_subordination_status": "Structurally subordinated to $380M-$543M in OpCo-level DFI mortgages and Turkish bank project finance account pledges",
+        "pari_passu_claims_pool": "$228M Local TL Corporate Bonds (ÖST) + $163M Turkish Bank Bilateral Lines",
+        "total_senior_unsecured_claims_usd_m": 1491.2
+      },
+      "priority_secured_debt": {
+        "dfi_facility_usd_m": 115.0,
+        "dfi_security": "1st mortgage on Kızıldere & Alaşehir geothermal concessions (ADB & EBRD)",
+        "turkish_bank_pf_usd_m": 265.0,
+        "bank_pf_security": "Commercial enterprise pledge (Ticari İşletme Rehni) on EPİAŞ YEKDEM USD revenue accounts"
+      },
+      "junior_equity_layer": {
+        "undisturbed_market_cap_usd_m": 600.0,
+        "sponsor_stake_pct": 56.8,
+        "free_float_pct": 43.2
+      }
+    },
     "restructuring_qa_dossier": {
       "url": "zoren_qa.html",
-      "total_questions": 8,
+      "total_questions": 9,
       "key_topics": [
+        "Corporate Legal Hierarchy & Where the 2030 Eurobond Sits (Structural Subordination)",
         "Secondary Pricing Paradox (63.5c vs >150% asset backing)",
         "Related-Party IOU Forensic Audit ($756.8M gross IOUs / +$744.5M net asset)",
         "Turkish Bank Super-Priority (Ticari İşletme Rehni & BDDK FYY framework)",

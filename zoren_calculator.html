@@ -1388,6 +1388,24 @@
       <span class="sub">Absolute Priority Rule (APR) &bull; Dynamic Capital Structure Value Allocation</span>
     </div>
 
+    <!-- Capital Structure Position Callout Strip -->
+    <div style="background:rgba(251,191,36,0.06); border:1px solid rgba(251,191,36,0.3); border-radius:6px; padding:10px 14px; margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+      <div style="max-width:850px;">
+        <div style="display:flex; align-items:center; gap:6px;">
+          <span style="font-size:10px; background:var(--accent-gold); color:#000; font-weight:800; padding:2px 6px; border-radius:3px;">CAPITAL STRUCTURE HIERARCHY</span>
+          <strong style="color:#fff; font-size:11.5px;">Where the Eurobond Sits in Zorlu Enerji's Capital Structure:</strong>
+        </div>
+        <div style="font-size:10px; color:#cbd5e1; margin-top:4px; line-height:1.45;">
+          The <strong>ZOREN 11.000% 2030 Eurobond ($1,100M claim &bull; XS2926261426)</strong> is a <strong>Tier 2 Senior Unsecured direct obligation of Zorlu Enerji Elektrik Üretim A.Ş. (Issuer)</strong>. 
+          It sits <em>beneath</em> <strong>$380M–$543M of OpCo-level project finance &amp; DFI loans</strong> (structurally senior, holding direct asset mortgages and YEKDEM cash pledges), 
+          ranks <em>pari passu</em> with <strong>$228M local TL bonds (ÖST)</strong> and bank bilaterals, and ranks <em>ahead</em> of <strong>Zorlu Holding's 56.8% equity cushion</strong>.
+        </div>
+      </div>
+      <a href="zoren_qa.html" class="nav-btn" style="color:var(--accent-purple); border-color:rgba(192,132,252,0.4); font-size:10px; padding:5px 10px; white-space:nowrap;">
+        ❓ Legal Hierarchy in Q&amp;A Desk &rarr;
+      </a>
+    </div>
+
     <!-- Visual Stacked Capital Structure Allocation Bar -->
     <div style="margin-bottom:16px;">
       <div style="display:flex; justify-content:space-between; font-size:11px; font-weight:700; color:var(--text-muted); margin-bottom:6px;">
@@ -3527,8 +3545,17 @@
           exitPx: 100.0,
           isPriority: false
         }] : []),
-        { name: "ZOREN 11.000% 2030 Senior Notes (Eurobond)", tier: "Senior Unsecured", claim: eurobondClaims, marketPx: 63.50, allocVal: eurobondClaims * rawSeniorRecoveryPct, cleanPx: rawSeniorRecoveryCents, exitPx: adjustedSeniorFairVal },
-        { name: "Domestic TL Corporate Bonds (Özel Sektör Tahvili)", tier: "Senior Unsecured", claim: 228.0, marketPx: 92.00, allocVal: 228.0 * (isLocalBondsSenior ? rawSeniorRecoveryPct : 1.0), cleanPx: isLocalBondsSenior ? rawSeniorRecoveryCents : 100.0, exitPx: isLocalBondsSenior ? adjustedSeniorFairVal : 98.0 }
+        { 
+          name: "★ ZOREN 11.000% 2030 Senior Notes (Eurobond &bull; XS2926261426) ★", 
+          tier: "Issuer Senior Unsecured (Structurally Subordinated to OpCo PF)", 
+          claim: eurobondClaims, 
+          marketPx: 63.50, 
+          allocVal: eurobondClaims * rawSeniorRecoveryPct, 
+          cleanPx: rawSeniorRecoveryCents, 
+          exitPx: adjustedSeniorFairVal,
+          isEurobond: true 
+        },
+        { name: "Domestic TL Corporate Bonds (Özel Sektör Tahvili)", tier: "Senior Unsecured (Pari Passu with Eurobonds)", claim: 228.0, marketPx: 92.00, allocVal: 228.0 * (isLocalBondsSenior ? rawSeniorRecoveryPct : 1.0), cleanPx: isLocalBondsSenior ? rawSeniorRecoveryCents : 100.0, exitPx: isLocalBondsSenior ? adjustedSeniorFairVal : 98.0 }
       ];
 
       const tbodyAlloc = document.getElementById("tranche-allocation-tbody");
@@ -3536,6 +3563,8 @@
         const upsideDollar = inst.exitPx - inst.marketPx;
         const upsidePct = inst.marketPx > 0 ? (upsideDollar / inst.marketPx) * 100.0 : 0;
         const isUp = upsidePct > 0;
+        const rowBg = inst.isEurobond ? 'rgba(251,191,36,0.06)' : 'transparent';
+        const borderLeft = inst.isEurobond ? '3px solid var(--accent-gold)' : 'none';
 
         let badge = "";
         if (inst.isPriority) {
@@ -3549,9 +3578,9 @@
         }
 
         return `
-          <tr>
-            <td style="font-weight:600; color:#fff;">${inst.name}</td>
-            <td style="color:#94a3b8; font-size:10.5px;">${inst.tier}</td>
+          <tr style="background:${rowBg}; border-left:${borderLeft};">
+            <td style="font-weight:${inst.isEurobond ? '700' : '600'}; color:${inst.isEurobond ? 'var(--accent-gold)' : '#fff'};">${inst.name}</td>
+            <td style="color:${inst.isEurobond ? 'var(--accent-cyan)' : '#94a3b8'}; font-size:10.5px; font-weight:${inst.isEurobond ? '600' : '400'};">${inst.tier}</td>
             <td style="text-align:right; font-family:'JetBrains Mono',monospace;">$${inst.claim.toFixed(0)}M</td>
             <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#cbd5e1;">${inst.marketPx.toFixed(1)}c</td>
             <td style="text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:${inst.isPriority ? '#38bdf8' : '#34d399'};">$${inst.allocVal.toFixed(1)}M</td>
