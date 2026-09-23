@@ -17,12 +17,12 @@
       color-scheme: light;
       --bg-main: #f8fafc;
       --bg-card: #ffffff;
-      --bg-card-sub: #f1f5f9;
+      --bg-card-sub: #f8fafc;
       --bg-hover: #e2e8f0;
-      --border-color: #e2e8f0;
-      --border-highlight: #cbd5e1;
+      --border-color: var(--text-muted);
+      --border-highlight: #94a3b8;
       --text-main: #0f172a;
-      --text-muted: #475569;
+      --text-muted: #334155;
       --text-dim: #64748b;
       --accent-cyan: #0071e3;
       --accent-emerald: #15803d;
@@ -137,7 +137,7 @@
     .hero-title-wrap h1 {
       font-size: 20px;
       font-weight: 800;
-      color: #fff;
+      color: var(--text-main);
       display: flex;
       align-items: center;
       gap: 10px;
@@ -145,8 +145,8 @@
     }
 
     .ticker-pill {
-      background: #1e293b;
-      border: 1px solid #334155;
+      background:#f1f5f9; border:1px solid #cbd5e1;
+      border:1px solid #cbd5e1;
       padding: 2px 8px;
       border-radius: 4px;
       font-family: 'JetBrains Mono', monospace;
@@ -186,7 +186,7 @@
       border-radius: 5px;
       padding: 4px 9px;
       font-size: 10.5px;
-      color: #cbd5e1;
+      color: var(--text-muted);
     }
 
     .hero-kpi-pill strong {
@@ -243,7 +243,7 @@
       font-size: 10px;
       text-transform: uppercase;
       border-bottom: 1px solid var(--border-color);
-      background: rgba(15, 23, 42, 0.6);
+      background:#f8fafc; border:1px solid #cbd5e1;
     }
 
     .data-table td {
@@ -294,7 +294,7 @@
     .asset-name {
       font-size: 12.5px;
       font-weight: 700;
-      color: #fff;
+      color: var(--text-main);
     }
 
     .asset-loc {
@@ -319,7 +319,7 @@
       grid-template-columns: 1fr 1fr;
       gap: 10px;
       margin-top: 8px;
-      background: rgba(0,0,0,0.2);
+      background:#f8fafc;
       padding: 8px;
       border-radius: 5px;
       border: 1px solid rgba(255,255,255,0.03);
@@ -338,14 +338,14 @@
 
     .in-out-col-body {
       font-size: 10.5px;
-      color: #cbd5e1;
+      color: var(--text-main);
       line-height: 1.35;
     }
 
     .asset-moat-box {
       margin-top: 8px;
       font-size: 10.5px;
-      color: #94a3b8;
+      color: #475569;
       line-height: 1.4;
       border-left: 2px solid var(--accent-cyan);
       padding-left: 6px;
@@ -377,7 +377,7 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 18px;
       font-weight: 800;
-      color: #fff;
+      color: var(--text-main);
       margin-top: 3px;
     }
 
@@ -418,7 +418,7 @@
     .control-label {
       font-size: 11px;
       font-weight: 700;
-      color: #cbd5e1;
+      color: var(--text-muted);
     }
 
     .control-display-val {
@@ -432,7 +432,7 @@
       width: 100%;
       height: 6px;
       border-radius: 3px;
-      background: #1e293b;
+      background:#f1f5f9; border:1px solid #cbd5e1;
       outline: none;
       -webkit-appearance: none;
       cursor: pointer;
@@ -452,7 +452,7 @@
     .quick-pill-btn {
       background: rgba(255,255,255,0.04);
       border: 1px solid var(--border-color);
-      color: #94a3b8;
+      color: var(--text-muted);
       font-size: 10px;
       font-weight: 600;
       padding: 3px 8px;
@@ -462,7 +462,7 @@
     }
 
     .quick-pill-btn:hover, .quick-pill-btn.active {
-      color: #fff;
+      color: var(--accent-cyan); font-weight: 700;
       border-color: var(--accent-cyan);
       background: rgba(56,189,248,0.15);
     }
@@ -475,7 +475,7 @@
     }
 
     .diag-card {
-      background: rgba(15, 23, 42, 0.7);
+      background:#f8fafc; border:1px solid #cbd5e1;
       border: 1px solid var(--border-color);
       border-radius: 5px;
       padding: 8px 10px;
@@ -492,7 +492,7 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 14px;
       font-weight: 800;
-      color: #fff;
+      color: var(--text-main);
       margin-top: 2px;
     }
 
@@ -625,7 +625,7 @@
         <tbody>
           <tr>
             <td>
-              <strong style="color:#fff;">Camaçari Complex</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Camaçari Complex</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Bahia, Northeast Brazil</span>
             </td>
             <td>
@@ -636,13 +636,13 @@
             </td>
             <td style="text-align:right;" class="mono">1,400 kt Ethylene</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$380.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Largest petrochemical complex in the Southern Hemisphere. Captive supplier to northeastern plastics conversion and chlor-alkali.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Triunfo Complex</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Triunfo Complex</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Rio Grande do Sul, South Brazil</span>
             </td>
             <td>
@@ -653,13 +653,13 @@
             </td>
             <td style="text-align:right;" class="mono">1,450 kt Ethylene</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$420.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Gateway to Mercosur (Argentina, Uruguay). Highly efficient flexible crackers supplying agricultural film and consumer packaging.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">São Paulo / ABC Complex</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">São Paulo / ABC Complex</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Capuava / Mauá, SP</span>
             </td>
             <td>
@@ -670,13 +670,13 @@
             </td>
             <td style="text-align:right;" class="mono">700 kt Ethylene</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$180.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Embedded directly within Greater São Paulo industrial basin. Zero ocean freight to automotive and industrial converter customers.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Duque de Caxias</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Duque de Caxias</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Rio de Janeiro, Brazil</span>
             </td>
             <td>
@@ -687,13 +687,13 @@
             </td>
             <td style="text-align:right;" class="mono">520 kt Ethylene</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$140.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               100% gas-based cracking yields structurally lower cash cost per ton than naphtha when global oil prices trade high. Highest margin/ton.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">United States PP Fleet</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">United States PP Fleet</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">5 Plants (TX, PA, WV)</span>
             </td>
             <td>
@@ -704,13 +704,13 @@
             </td>
             <td style="text-align:right;" class="mono">2,100 kt PP</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$220.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               #1 Polypropylene producer in the United States. State-of-the-art Delta plant (Oyster Creek, 450 kt) commissioned in 2020.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">European PP Fleet</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">European PP Fleet</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Schkopau &amp; Wesseling, Germany</span>
             </td>
             <td>
@@ -721,13 +721,13 @@
             </td>
             <td style="text-align:right;" class="mono">540 kt PP</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$60.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               High-margin specialty niche products embedded inside major German chemical clusters; long-term over-the-fence feedstock pipeline.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Braskem Idesa</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Braskem Idesa</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Veracruz, Mexico (75% JV)</span>
             </td>
             <td>
@@ -738,13 +738,13 @@
             </td>
             <td style="text-align:right;" class="mono">1,050 kt PE</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$50.0M (Share)</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Most modern ethane cracker in Mexico. Project debt is ring-fenced and non-recourse to Braskem S.A. parent. Terminal eliminates Pemex bottleneck.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Bio-Polymers "I'm green"</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Bio-Polymers "I'm green"</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Triunfo, RS, Brazil</span>
             </td>
             <td>
@@ -755,7 +755,7 @@
             </td>
             <td style="text-align:right;" class="mono">260 kt Bio-PE</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$70.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Global pioneer and #1 producer of bio-based polyethylene worldwide. Commands 25%–40% premium pricing from ESG brand partners (Danone, Lego).
             </td>
           </tr>
@@ -933,7 +933,7 @@
         <div style="font-size:11px; font-weight:700; color:var(--accent-gold); text-transform:uppercase; margin-bottom:6px;">
           The 4 Primary Drivers of Braskem's EV Volatility
         </div>
-        <div style="font-size:11.5px; color:#cbd5e1; line-height:1.55;">
+        <div style="font-size:11.5px; color:#334155; line-height:1.55;">
           <p style="margin-bottom:8px;">
             <strong>1. The Global Petrochemical Spread Super-Cycle:</strong> Polyethylene (PE) cash spreads over naphtha fluctuate between 
             historical troughs of <strong>$150–$250/t</strong> (seen in 2023–2024 following massive Chinese capacity additions) and peak levels of 
@@ -1059,7 +1059,7 @@
             </div>
             <input type="range" id="slider-notional" class="styled-slider" min="100000" max="10000000" step="100000" value="1000000" oninput="onNotionalChange(this.value)">
             <div style="font-size:9.5px; color:var(--text-muted); margin-top:4px;">
-              Cash Capital Invested: <strong id="lbl-cash-invested" style="color:#fff;">$486,000</strong>
+              Cash Capital Invested: <strong id="lbl-cash-invested" style="color:#0f172a;">$486,000</strong>
             </div>
           </div>
 
@@ -1163,7 +1163,7 @@
       <span class="sub">Bridging Theoretical Enterprise Value to Secondary Market Clearing Prices for All Traded Bonds</span>
     </div>
 
-    <div style="font-size:11.5px; color:#cbd5e1; line-height:1.5; margin-bottom:12px;">
+    <div style="font-size:11.5px; color:#334155; line-height:1.5; margin-bottom:12px;">
       In an extrajudicial or Chapter 11 restructuring, senior creditors do not receive a single static cash recovery. 
       Instead, consideration is paid in a package of <strong>reinstated exit notes</strong> and <strong>reorganized equity</strong>. 
       The fair market value of that package depends on four dynamic, interacting variables: the <strong>Exit Yield ($Y_{\text{exit}}$)</strong>, 
@@ -1173,7 +1173,7 @@
     </div>
 
     <!-- Live Base Case Decomposition Strip -->
-    <div class="recovery-formula-strip" style="background:rgba(15,23,42,0.85); border:1px solid #1e293b; border-radius:6px; padding:10px 14px; margin-bottom:14px; font-size:11px;">
+    <div class="recovery-formula-strip" style="background:#f8fafc; border:1px solid #cbd5e1; border:1px solid #cbd5e1; border-radius:6px; padding:10px 14px; margin-bottom:14px; font-size:11px;">
       <div>
         <div style="color:var(--text-muted); font-size:9.5px; text-transform:uppercase; font-weight:600;">Pillar 1: Exit Paper Px (P<sub>new</sub>)</div>
         <div style="font-weight:700; color:#fbbf24; font-family:'JetBrains Mono',monospace; font-size:13px; margin-top:2px;">87.7c (-12.3% Disct)</div>
@@ -1203,16 +1203,16 @@
       </div>
       <div style="display:grid; grid-template-columns: 1fr 1fr; gap:14px; font-size:11px; line-height:1.5;">
         <div>
-          <div style="color:#cbd5e1; margin-bottom:4px;"><strong>1. Reinstated Exit Debt Pricing ($P_{\text{new}}$):</strong></div>
-          <div style="background:#060913; border:1px solid #1e293b; border-radius:5px; padding:6px 10px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#fbbf24; margin-bottom:6px;">
+          <div style="color:#334155; margin-bottom:4px;"><strong>1. Reinstated Exit Debt Pricing ($P_{\text{new}}$):</strong></div>
+          <div style="background:#060913; border:1px solid #cbd5e1; border-radius:5px; padding:6px 10px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#fbbf24; margin-bottom:6px;">
             P<sub>new</sub> = &sum; [ (C/2) / (1 + Y<sub>exit</sub>/2)<sup>t</sup> ] + [ 100 / (1 + Y<sub>exit</sub>/2)<sup>2&times;T<sub>ext</sub></sup> ]
           </div>
           <p style="color:var(--text-muted); font-size:10px;">
             Exit debt issued with coupon $C$ below the market clearing yield $Y_{\text{exit}}$ trades at an immediate day-one discount. At Base ($C = 7.50\%$, $Y_{\text{exit}} = 9.75\%$, $T_{\text{ext}} = 8\text{Y}$), the new paper trades at <strong>87.7c</strong>.
           </p>
 
-          <div style="color:#cbd5e1; margin-top:8px; margin-bottom:4px;"><strong>2. Plan Emergence Pot ($\text{Rec}_{\text{emergence}}$):</strong></div>
-          <div style="background:#060913; border:1px solid #1e293b; border-radius:5px; padding:6px 10px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#38bdf8; margin-bottom:6px;">
+          <div style="color:#334155; margin-top:8px; margin-bottom:4px;"><strong>2. Plan Emergence Pot ($\text{Rec}_{\text{emergence}}$):</strong></div>
+          <div style="background:#060913; border:1px solid #cbd5e1; border-radius:5px; padding:6px 10px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#38bdf8; margin-bottom:6px;">
             Rec<sub>emergence</sub> = [ (1 - H) &middot; (1 - E<sub>swap</sub>) &middot; P<sub>new</sub> ] + [ (1 - H) &middot; E<sub>swap</sub> &middot; 100 &middot; &mu;<sub>eq</sub> ]
           </div>
           <p style="color:var(--text-muted); font-size:10px;">
@@ -1221,16 +1221,16 @@
         </div>
 
         <div>
-          <div style="color:#cbd5e1; margin-bottom:4px;"><strong>3. Standstill Negotiation Time Drag ($\text{DF}_{\text{nego}}$):</strong></div>
-          <div style="background:#060913; border:1px solid #1e293b; border-radius:5px; padding:6px 10px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#f87171; margin-bottom:6px;">
+          <div style="color:#334155; margin-bottom:4px;"><strong>3. Standstill Negotiation Time Drag ($\text{DF}_{\text{nego}}$):</strong></div>
+          <div style="background:#060913; border:1px solid #cbd5e1; border-radius:5px; padding:6px 10px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#f87171; margin-bottom:6px;">
             DF<sub>nego</sub> = 1 / (1 + Y<sub>exit</sub> / 2)<sup>2 &times; (T<sub>nego</sub> / 12)</sup>
           </div>
           <p style="color:var(--text-muted); font-size:10px;">
             Creditors suffer zero coupon flow during negotiations while legal fees bleed -$15M/month. A 12-month standstill discounts emergence proceeds by <strong>-9.08% ($\text{DF} = 0.9092$)</strong>.
           </p>
 
-          <div style="color:#cbd5e1; margin-top:8px; margin-bottom:4px;"><strong>4. Present Economic Recovery ($\text{Rec}_{\text{PV}}$):</strong></div>
-          <div style="background:#060913; border:1px solid #1e293b; border-radius:5px; padding:6px 10px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:var(--accent-emerald); margin-bottom:6px;">
+          <div style="color:#334155; margin-top:8px; margin-bottom:4px;"><strong>4. Present Economic Recovery ($\text{Rec}_{\text{PV}}$):</strong></div>
+          <div style="background:#060913; border:1px solid #cbd5e1; border-radius:5px; padding:6px 10px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:var(--accent-emerald); margin-bottom:6px;">
             Rec<sub>PV</sub> = Rec<sub>emergence</sub> &times; DF<sub>nego</sub> = 59.4c &times; 0.9092 = 54.0c Net PV
           </div>
           <p style="color:var(--text-muted); font-size:10px;">
@@ -1245,11 +1245,11 @@
       <div style="font-size:11px; font-weight:700; color:var(--accent-purple); text-transform:uppercase; margin-bottom:6px; display:flex; align-items:center; gap:6px;">
         <span>⚡</span> 5. Senior PIK (Payment-in-Kind) Provision &amp; Compounding Accretion Framework
       </div>
-      <div style="font-size:11px; color:#cbd5e1; line-height:1.5; margin-bottom:8px;">
+      <div style="font-size:11px; color:#334155; line-height:1.5; margin-bottom:8px;">
         In stressed restructurings, debtors often negotiate a <strong>Payment-in-Kind (PIK)</strong> toggle to preserve precious liquidity while plant margins recover. Our valuation engine explicitly models both sides of the PIK contract:
       </div>
       <div style="display:grid; grid-template-columns: 1fr 1fr; gap:12px; font-size:10.5px; line-height:1.45;">
-        <div style="background:#060913; border:1px solid #1e293b; border-radius:6px; padding:10px;">
+        <div style="background:#060913; border:1px solid #cbd5e1; border-radius:6px; padding:10px;">
           <div style="color:var(--accent-emerald); font-weight:700; margin-bottom:4px;">A. Debtor Liquidity Relief &amp; FCF Expansion:</div>
           <div style="color:var(--text-muted); margin-bottom:6px;">
             During the PIK window ($T_{\text{pik}}$ years), the company capitalizes the PIK rate ($C_{\text{pik}}$) onto face value rather than distributing cash from its treasury:
@@ -1262,7 +1262,7 @@
           </div>
         </div>
 
-        <div style="background:#060913; border:1px solid #1e293b; border-radius:6px; padding:10px;">
+        <div style="background:#060913; border:1px solid #cbd5e1; border-radius:6px; padding:10px;">
           <div style="color:#fbbf24; font-weight:700; margin-bottom:4px;">B. Creditor Principal Accretion &amp; Valuation:</div>
           <div style="color:var(--text-muted); margin-bottom:6px;">
             Creditors suffer lower initial cash inflow in exchange for semi-annual principal compounding at the rate $C_{\text{pik}}/2$:
@@ -1307,7 +1307,7 @@
             <td style="text-align:center;"><span style="color:var(--accent-emerald); font-weight:700; font-size:10px;">CONVICTION BUY</span></td>
           </tr>
           <tr>
-            <td style="font-weight:700; color:#fff;">9.25% (Base Tight)</td>
+            <td style="font-weight:700; color:#0f172a;">9.25% (Base Tight)</td>
             <td style="text-align:right;" class="mono">+550 bps</td>
             <td style="text-align:right; color:#fbbf24; font-weight:700;" class="mono">90.3c</td>
             <td style="text-align:right; color:#93c5fd;" class="mono">60.6c</td>
@@ -1327,7 +1327,7 @@
             <td style="text-align:center;"><span style="color:var(--accent-amber); font-weight:700; font-size:10px;">HOLD / FAIR</span></td>
           </tr>
           <tr>
-            <td style="font-weight:700; color:#fff;">10.50% (Stress Exit)</td>
+            <td style="font-weight:700; color:#0f172a;">10.50% (Stress Exit)</td>
             <td style="text-align:right;" class="mono">+675 bps</td>
             <td style="text-align:right; color:#fbbf24; font-weight:700;" class="mono">84.0c</td>
             <td style="text-align:right; color:#93c5fd;" class="mono">57.7c</td>
@@ -1370,8 +1370,8 @@
         </thead>
         <tbody>
           <tr>
-            <td><strong style="color:#fff;">BRASKM 7.250% 2030</strong><br><span style="color:var(--text-dim); font-size:10px;">Senior Unsecured (USD)</span></td>
-            <td style="font-size:10.5px; color:#cbd5e1;">Shorter 4Y maturity; institutional blocking minority; <strong style="color:var(--accent-emerald);">+2.0c holdout premium</strong></td>
+            <td><strong style="color:#0f172a; font-weight:700;">BRASKM 7.250% 2030</strong><br><span style="color:var(--text-dim); font-size:10px;">Senior Unsecured (USD)</span></td>
+            <td style="font-size:10.5px; color:#334155;">Shorter 4Y maturity; institutional blocking minority; <strong style="color:var(--accent-emerald);">+2.0c holdout premium</strong></td>
             <td style="text-align:right;" class="mono">48.60c</td>
             <td style="text-align:right; color:var(--accent-rose);" class="mono">21.0c</td>
             <td style="text-align:right; color:var(--accent-gold); font-weight:700;" class="mono">52.2c</td>
@@ -1380,8 +1380,8 @@
             <td style="text-align:center;"><span style="color:var(--accent-emerald); font-weight:700; font-size:10px;">BUY (Top Pick)</span></td>
           </tr>
           <tr style="background:rgba(255,255,255,0.02);">
-            <td><strong style="color:#fff;">BRASKM 8.500% 2033</strong><br><span style="color:var(--text-dim); font-size:10px;">Senior Unsecured (USD)</span></td>
-            <td style="font-size:10.5px; color:#cbd5e1;">Liquid desk benchmark; reference tranche; <strong style="color:var(--accent-cyan);">0.0c base delta</strong></td>
+            <td><strong style="color:#0f172a; font-weight:700;">BRASKM 8.500% 2033</strong><br><span style="color:var(--text-dim); font-size:10px;">Senior Unsecured (USD)</span></td>
+            <td style="font-size:10.5px; color:#334155;">Liquid desk benchmark; reference tranche; <strong style="color:var(--accent-cyan);">0.0c base delta</strong></td>
             <td style="text-align:right;" class="mono">56.30c</td>
             <td style="text-align:right; color:var(--accent-rose);" class="mono">19.0c</td>
             <td style="text-align:right; color:var(--accent-gold); font-weight:700;" class="mono">50.2c</td>
@@ -1390,8 +1390,8 @@
             <td style="text-align:center;"><span style="color:var(--accent-amber); font-weight:700; font-size:10px;">HOLD / FAIR</span></td>
           </tr>
           <tr>
-            <td><strong style="color:#fff;">BRASKM 5.875% 2050</strong><br><span style="color:var(--text-dim); font-size:10px;">Senior Unsecured (USD)</span></td>
-            <td style="font-size:10.5px; color:#cbd5e1;">Ultra-long duration (24Y tail); rate sensitive; <strong style="color:var(--accent-rose);">-2.5c duration discount</strong></td>
+            <td><strong style="color:#0f172a; font-weight:700;">BRASKM 5.875% 2050</strong><br><span style="color:var(--text-dim); font-size:10px;">Senior Unsecured (USD)</span></td>
+            <td style="font-size:10.5px; color:#334155;">Ultra-long duration (24Y tail); rate sensitive; <strong style="color:var(--accent-rose);">-2.5c duration discount</strong></td>
             <td style="text-align:right;" class="mono">44.70c</td>
             <td style="text-align:right; color:var(--accent-rose);" class="mono">16.5c</td>
             <td style="text-align:right; color:var(--accent-gold); font-weight:700;" class="mono">47.7c</td>
@@ -1400,8 +1400,8 @@
             <td style="text-align:center;"><span style="color:var(--accent-emerald); font-weight:700; font-size:10px;">BUY (Duration Upside)</span></td>
           </tr>
           <tr style="background:rgba(255,255,255,0.02);">
-            <td><strong style="color:#fff;">BRASKM 7.125% 2034</strong><br><span style="color:var(--text-dim); font-size:10px;">Senior Unsecured (USD)</span></td>
-            <td style="font-size:10.5px; color:#cbd5e1;">High running coupon carry; intermediate maturity; <strong style="color:var(--accent-emerald);">+1.5c carry delta</strong></td>
+            <td><strong style="color:#0f172a; font-weight:700;">BRASKM 7.125% 2034</strong><br><span style="color:var(--text-dim); font-size:10px;">Senior Unsecured (USD)</span></td>
+            <td style="font-size:10.5px; color:#334155;">High running coupon carry; intermediate maturity; <strong style="color:var(--accent-emerald);">+1.5c carry delta</strong></td>
             <td style="text-align:right;" class="mono">49.50c</td>
             <td style="text-align:right; color:var(--accent-rose);" class="mono">20.5c</td>
             <td style="text-align:right; color:var(--accent-gold); font-weight:700;" class="mono">51.7c</td>
@@ -1410,8 +1410,8 @@
             <td style="text-align:center;"><span style="color:var(--accent-emerald); font-weight:700; font-size:10px;">BUY</span></td>
           </tr>
           <tr>
-            <td><strong style="color:#fff;">Debentures (BRL / CDI)</strong><br><span style="color:var(--text-dim); font-size:10px;">Local Debentures</span></td>
-            <td style="font-size:10.5px; color:#cbd5e1;">Local Brazilian jurisdiction subject to court delays; <strong style="color:var(--accent-rose);">-0.5c jurisdiction delta</strong></td>
+            <td><strong style="color:#0f172a; font-weight:700;">Debentures (BRL / CDI)</strong><br><span style="color:var(--text-dim); font-size:10px;">Local Debentures</span></td>
+            <td style="font-size:10.5px; color:#334155;">Local Brazilian jurisdiction subject to court delays; <strong style="color:var(--accent-rose);">-0.5c jurisdiction delta</strong></td>
             <td style="text-align:right;" class="mono">52.00c</td>
             <td style="text-align:right; color:var(--accent-rose);" class="mono">18.5c</td>
             <td style="text-align:right; color:var(--accent-gold); font-weight:700;" class="mono">49.7c</td>
@@ -1451,35 +1451,35 @@
         <tbody>
           <tr>
             <td style="font-weight:700; color:#38bdf8;">8.50% (Tight Exit)</td>
-            <td style="text-align:right; color:#fff;" class="mono">59.8c</td>
+            <td style="text-align:right; color:#0f172a;" class="mono">59.8c</td>
             <td style="text-align:right; color:var(--accent-emerald); font-weight:700; background:rgba(56,189,248,0.08);" class="mono">57.4c</td>
-            <td style="text-align:right; color:#cbd5e1;" class="mono">55.1c</td>
-            <td style="text-align:right; color:#94a3b8;" class="mono">52.8c</td>
+            <td style="text-align:right; color:#334155;" class="mono">55.1c</td>
+            <td style="text-align:right; color:#475569;" class="mono">52.8c</td>
           </tr>
           <tr>
-            <td style="font-weight:700; color:#fff;">9.25% (Base Tight)</td>
-            <td style="text-align:right; color:#fff;" class="mono">57.9c</td>
+            <td style="font-weight:700; color:#0f172a;">9.25% (Base Tight)</td>
+            <td style="text-align:right; color:#0f172a;" class="mono">57.9c</td>
             <td style="text-align:right; color:var(--accent-emerald); font-weight:700; background:rgba(56,189,248,0.08);" class="mono">55.4c</td>
-            <td style="text-align:right; color:#cbd5e1;" class="mono">52.9c</td>
-            <td style="text-align:right; color:#94a3b8;" class="mono">50.6c</td>
+            <td style="text-align:right; color:#334155;" class="mono">52.9c</td>
+            <td style="text-align:right; color:#475569;" class="mono">50.6c</td>
           </tr>
           <tr style="background:rgba(251,191,36,0.08); font-weight:700;">
             <td style="color:var(--accent-gold);">9.75% (Desk Base Case)</td>
-            <td style="text-align:right; color:#fff;" class="mono">56.6c</td>
+            <td style="text-align:right; color:#0f172a;" class="mono">56.6c</td>
             <td style="text-align:right; color:var(--accent-emerald); font-weight:800; font-size:12px; background:rgba(56,189,248,0.18);" class="mono">54.0c</td>
-            <td style="text-align:right; color:#cbd5e1;" class="mono">51.5c</td>
+            <td style="text-align:right; color:#334155;" class="mono">51.5c</td>
             <td style="text-align:right; color:#f87171;" class="mono">49.1c</td>
           </tr>
           <tr>
-            <td style="font-weight:700; color:#fff;">10.50% (Stress Exit)</td>
-            <td style="text-align:right; color:#fff;" class="mono">54.8c</td>
+            <td style="font-weight:700; color:#0f172a;">10.50% (Stress Exit)</td>
+            <td style="text-align:right; color:#0f172a;" class="mono">54.8c</td>
             <td style="text-align:right; color:var(--accent-amber); font-weight:700; background:rgba(56,189,248,0.08);" class="mono">52.1c</td>
-            <td style="text-align:right; color:#cbd5e1;" class="mono">49.5c</td>
+            <td style="text-align:right; color:#334155;" class="mono">49.5c</td>
             <td style="text-align:right; color:#f87171;" class="mono">47.0c</td>
           </tr>
           <tr>
             <td style="font-weight:700; color:var(--accent-rose);">11.25% (Distressed Exit)</td>
-            <td style="text-align:right; color:#fff;" class="mono">53.2c</td>
+            <td style="text-align:right; color:#0f172a;" class="mono">53.2c</td>
             <td style="text-align:right; color:var(--accent-rose); font-weight:700; background:rgba(56,189,248,0.08);" class="mono">50.4c</td>
             <td style="text-align:right; color:#f87171;" class="mono">47.7c</td>
             <td style="text-align:right; color:var(--accent-rose); font-weight:700;" class="mono">45.2c</td>
@@ -1506,7 +1506,7 @@
           <span style="font-size:12px; font-weight:800; color:var(--accent-rose); letter-spacing:0.5px; text-transform:uppercase;">🔴 Bear / Distressed Floor</span>
           <span style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:800; color:var(--accent-rose); background:rgba(244,63,94,0.15); padding:2px 6px; border-radius:4px;">17.0c – 22.0c Senior</span>
         </div>
-        <div style="font-size:11px; color:#cbd5e1; line-height:1.5;">
+        <div style="font-size:11px; color:#334155; line-height:1.5;">
           <div style="margin-bottom:4px;"><strong>• Cash EBITDA:</strong> $800.0M (Global resin spreads crushed at $150/t by China supply dumping).</div>
           <div style="margin-bottom:4px;"><strong>• Valuation Multiple:</strong> 3.5x EV multiple (Distressed fire-sale / liquidation valuation = $2,800M EV).</div>
           <div style="margin-bottom:4px;"><strong>• Maceió Liabilities:</strong> -$850.0M (Dutch class action expands liabilities; un-capped cross-border claim).</div>
@@ -1522,7 +1522,7 @@
           <span style="font-size:12px; font-weight:800; color:var(--accent-gold); letter-spacing:0.5px; text-transform:uppercase;">🟡 Base Case Reorg</span>
           <span style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:800; color:var(--accent-emerald); background:rgba(16,185,129,0.15); padding:2px 6px; border-radius:4px;">61.8c – 66.3c Senior</span>
         </div>
-        <div style="font-size:11px; color:#cbd5e1; line-height:1.5;">
+        <div style="font-size:11px; color:#334155; line-height:1.5;">
           <div style="margin-bottom:4px;"><strong>• Cash EBITDA:</strong> $1,400.0M (Normalized mid-cycle spreads $350–$400/t; Brazilian domestic demand stable).</div>
           <div style="margin-bottom:4px;"><strong>• Valuation Multiple:</strong> 5.0x EV multiple ($7,000M EV; sole Brazilian cracker with 70% share).</div>
           <div style="margin-bottom:4px;"><strong>• Maceió Liabilities:</strong> -$600.0M (Scheduled settlement provisions capped).</div>
@@ -1538,7 +1538,7 @@
           <span style="font-size:12px; font-weight:800; color:var(--accent-cyan); letter-spacing:0.5px; text-transform:uppercase;">🟢 Bull / Strategic Buyout</span>
           <span style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:800; color:#38bdf8; background:rgba(56,189,248,0.15); padding:2px 6px; border-radius:4px;">95.0c – 100.0c Par</span>
         </div>
-        <div style="font-size:11px; color:#cbd5e1; line-height:1.5;">
+        <div style="font-size:11px; color:#334155; line-height:1.5;">
           <div style="margin-bottom:4px;"><strong>• Cash EBITDA:</strong> $1,800.0M–$2,150.0M (Petrochemical super-cycle spike; PE cash spreads &gt;$600/t).</div>
           <div style="margin-bottom:4px;"><strong>• Valuation Multiple:</strong> 5.5x–6.0x multiple expansion ($9,900M–$12,900M EV).</div>
           <div style="margin-bottom:4px;"><strong>• Maceió Liabilities:</strong> -$500.0M (Final federal judicial release and liability cap).</div>
@@ -1582,7 +1582,7 @@
         <tbody>
           <tr>
             <td>
-              <strong style="color:#fff;">Petrobras Sponsor Action &amp; Governance</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Petrobras Sponsor Action &amp; Governance</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Shareholder Deficit vs Equity Injection</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-gold);">-6.0c to +4.0c</td>
@@ -1597,7 +1597,7 @@
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Maceió Litigation &amp; Dutch Class Action Tail</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Maceió Litigation &amp; Dutch Class Action Tail</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Cross-Border Contingent Overhang</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-gold);">-6.0c to +1.0c</td>
@@ -1612,7 +1612,7 @@
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Judicial Resolution Pathway (Consensual vs RJ)</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Judicial Resolution Pathway (Consensual vs RJ)</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Extrajudicial Plan vs 24M In-Court Bleed</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-gold);">-8.0c to +2.0c</td>
@@ -1626,7 +1626,7 @@
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Secondary Market Liquidity &amp; Mandate Selling</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Secondary Market Liquidity &amp; Mandate Selling</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Market Microstructure &amp; Dealer Inventory</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-gold);">-5.0c to 0.0c</td>
@@ -1649,10 +1649,10 @@
       </div>
       <div style="display:grid; grid-template-columns: 1fr 1fr; gap:14px; font-size:11px; line-height:1.5;">
         <div>
-          <p style="color:#cbd5e1; margin-bottom:8px;">
+          <p style="color:#334155; margin-bottom:8px;">
             The engine sums the 4 qualitative sliders into a single <strong>Net Qualitative Adjustment (&Delta;<sub>qual</sub>)</strong>:
           </p>
-          <div style="background:#060913; border:1px solid #1e293b; border-radius:5px; padding:8px 12px; font-family:'JetBrains Mono',monospace; font-size:11px; color:#fbbf24; margin-bottom:8px;">
+          <div style="background:#060913; border:1px solid #cbd5e1; border-radius:5px; padding:8px 12px; font-family:'JetBrains Mono',monospace; font-size:11px; color:#fbbf24; margin-bottom:8px;">
             &Delta;<sub>qual</sub> = &Delta;<sub>Petrobras</sub> + &Delta;<sub>Maceió</sub> + &Delta;<sub>RJ</sub> + &Delta;<sub>Liquidity</sub>
           </div>
           <p style="color:var(--text-muted); font-size:10.5px;">
@@ -1661,7 +1661,7 @@
           </p>
         </div>
         <div>
-          <p style="color:#cbd5e1; margin-bottom:6px;">
+          <p style="color:#334155; margin-bottom:6px;">
             <strong>Secondary Trading Band per Scenario (Floor vs Fair vs Upside):</strong>
           </p>
           <p style="color:var(--text-muted); font-size:10px; margin-bottom:8px;">
@@ -1670,15 +1670,15 @@
           <ul style="margin-left:14px; display:flex; flex-direction:column; gap:6px; font-family:'JetBrains Mono',monospace; font-size:10.5px;">
             <li>
               <span style="color:var(--accent-rose); font-weight:700;">Trading Floor (Stress Exit):</span> 
-              <span style="color:#e2e8f0;">max(16.0c, (Rec<sub>PV</sub> + &Delta;<sub>tranche</sub>) &times; 0.45 + min(-6.0c, &Delta;<sub>qual</sub> &times; 1.5))</span>
+              <span style="color:#334155;">max(16.0c, (Rec<sub>PV</sub> + &Delta;<sub>tranche</sub>) &times; 0.45 + min(-6.0c, &Delta;<sub>qual</sub> &times; 1.5))</span>
             </li>
             <li>
               <span style="color:var(--accent-emerald); font-weight:700;">Desk Fair Value (Model PV):</span> 
-              <span style="color:#e2e8f0;">max(10.0c, Rec<sub>PV</sub> + &Delta;<sub>tranche</sub> + &Delta;<sub>qual</sub>)</span>
+              <span style="color:#334155;">max(10.0c, Rec<sub>PV</sub> + &Delta;<sub>tranche</sub> + &Delta;<sub>qual</sub>)</span>
             </li>
             <li>
               <span style="color:var(--accent-cyan); font-weight:700;">Emergence Upside (Re-Rating):</span> 
-              <span style="color:#e2e8f0;">min(100.0c, Rec<sub>emergence</sub> + &Delta;<sub>tranche</sub> + max(0.0c, &Delta;<sub>qual</sub>) + 20.0c)</span>
+              <span style="color:#334155;">min(100.0c, Rec<sub>emergence</sub> + &Delta;<sub>tranche</sub> + max(0.0c, &Delta;<sub>qual</sub>) + 20.0c)</span>
             </li>
           </ul>
         </div>
@@ -1696,7 +1696,7 @@
         <div style="font-size:11.5px; font-weight:800; color:var(--accent-rose); text-transform:uppercase; margin-bottom:6px;">
           🔴 What Gets You Bear (17c–22c Recovery)
         </div>
-        <ul style="font-size:10.5px; color:#cbd5e1; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
+        <ul style="font-size:10.5px; color:#334155; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
           <li><strong>Macro Cycle:</strong> Global PE spreads collapse &lt;$180/t under heavy Chinese capacity dumping; domestic Brazilian sales drop 15%.</li>
           <li><strong>Operating EBITDA:</strong> Shrinks to $800M (cash burn territory after maintenance capex and debt service).</li>
           <li><strong>Valuation Multiple:</strong> Compresses to 3.5x EV ($2,800M EV), reflecting distressed liquidation / hostile takeover pricing.</li>
@@ -1711,7 +1711,7 @@
         <div style="font-size:11.5px; font-weight:800; color:var(--accent-gold); text-transform:uppercase; margin-bottom:6px;">
           🟡 What Gets You Base (62c–66c Recovery)
         </div>
-        <ul style="font-size:10.5px; color:#cbd5e1; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
+        <ul style="font-size:10.5px; color:#334155; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
           <li><strong>Macro Cycle:</strong> Spreads normalize to mid-cycle $320–$360/t PE; domestic packaging and agricultural demand remains steady.</li>
           <li><strong>Operating EBITDA:</strong> $1,400M mid-cycle cash generation.</li>
           <li><strong>Valuation Multiple:</strong> 5.0x blended EV ($7,000M EV), reflecting irreplaceable monopoly position in Brazilian basic petrochemicals.</li>
@@ -1726,7 +1726,7 @@
         <div style="font-size:11.5px; font-weight:800; color:var(--accent-cyan); text-transform:uppercase; margin-bottom:6px;">
           🟢 What Gets You Bull (95c–100c Par)
         </div>
-        <ul style="font-size:10.5px; color:#cbd5e1; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
+        <ul style="font-size:10.5px; color:#334155; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
           <li><strong>Macro Cycle:</strong> Global petrochemical supply chain squeeze; PE spreads surge &gt;$600/t; Brazilian tariff protection enacted.</li>
           <li><strong>Operating EBITDA:</strong> Rebounds to $2,100M peak cycle run-rate.</li>
           <li><strong>Valuation Multiple:</strong> Expands to 6.0x EV ($12,600M EV).</li>
@@ -1749,7 +1749,7 @@
         </span>
       </div>
 
-      <p style="font-size:11.5px; color:#cbd5e1; line-height:1.6; margin-bottom:14px;">
+      <p style="font-size:11.5px; color:#334155; line-height:1.6; margin-bottom:14px;">
         Distressed restructuring analysis often creates confusion because analysts conflate <strong>Stream 1: Fundamental EV Recovery</strong> (asset-backed capacity under Absolute Priority) with <strong>Methodology 2: Market-Based Instrument Pricing</strong> (what new paper trades at on Day 1 post-exchange). Our framework bifurcates both streams, explicitly flags what is an <em>[ASSUMPTION]</em> versus a <em>[CALCULATION]</em>, links exit yield dynamically to pro-forma net leverage, and establishes an unambiguous Buy / Hold / Sell signal against secondary market prices.
       </p>
 
@@ -1764,10 +1764,10 @@
             </span>
             <span style="font-size:9px; background:rgba(56, 189, 248, 0.2); color:var(--accent-cyan); padding:2px 6px; border-radius:3px; font-weight:700;">ASSET-BACKED</span>
           </div>
-          <div style="font-size:11px; color:#94a3b8; line-height:1.5; margin-bottom:10px;">
+          <div style="font-size:11px; color:#475569; line-height:1.5; margin-bottom:10px;">
             <strong>Core Question:</strong> <em>"If Braskem were liquidated or reorganized strictly on operational enterprise value, what is the maximum economic asset coverage available to senior noteholders?"</em>
           </div>
-          <ul style="font-size:10.5px; color:#cbd5e1; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:5px;">
+          <ul style="font-size:10.5px; color:#334155; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:5px;">
             <li><strong><span style="color:var(--accent-amber);">[ASSUMPTION]</span> EBITDA:</strong> $1,400M mid-cycle cash flow baseline.</li>
             <li><strong><span style="color:var(--accent-amber);">[ASSUMPTION]</span> EV Multiple:</strong> 5.0x blended multiple based on Latin American petrochemical asset replacement value ($7,000M EV).</li>
             <li><strong><span style="color:var(--accent-amber);">[ASSUMPTION]</span> Carve-Outs:</strong> $600M Maceió environmental settlement + $1,450M local secured working capital claims carved out at 100c par.</li>
@@ -1785,10 +1785,10 @@
             </span>
             <span style="font-size:9px; background:rgba(16, 185, 129, 0.2); color:var(--accent-emerald); padding:2px 6px; border-radius:3px; font-weight:700;">EXCHANGE TERMS</span>
           </div>
-          <div style="font-size:11px; color:#94a3b8; line-height:1.5; margin-bottom:10px;">
+          <div style="font-size:11px; color:#475569; line-height:1.5; margin-bottom:10px;">
             <strong>Core Question:</strong> <em>"If noteholders accept a debt-for-equity swap and principal haircut in an Extrajudicial Plan, what will the newly issued paper trade at in the secondary market on Day 1?"</em>
           </div>
-          <ul style="font-size:10.5px; color:#cbd5e1; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:5px;">
+          <ul style="font-size:10.5px; color:#334155; line-height:1.5; margin-left:14px; display:flex; flex-direction:column; gap:5px;">
             <li><strong><span style="color:var(--accent-amber);">[ASSUMPTION]</span> Exchange Package:</strong> 35% principal haircut + 30% debt-for-equity swap = 35c reinstated debt per $1 claim.</li>
             <li><strong><span style="color:var(--accent-amber);">[ASSUMPTION]</span> Restructured Terms:</strong> 7-year senior secured note, 7.50% cash coupon (or 9.0% PIK toggle for Y1-Y2).</li>
             <li><strong><span style="color:var(--accent-emerald);">[CALCULATION]</span> Pro-Forma Net Leverage:</strong> Senior debt drops to $4,030M &rarr; Net debt / $1,400M EBITDA = <strong>3.40x</strong>.</li>
@@ -1808,64 +1808,64 @@
         </div>
         <table style="width:100%; border-collapse:collapse; font-size:10.5px; text-align:left;">
           <thead>
-            <tr style="border-bottom:1px solid var(--border-color); color:#94a3b8;">
+            <tr style="border-bottom:1px solid var(--border-color); color:#475569;">
               <th style="padding:5px 8px;">Parameter</th>
               <th style="padding:5px 8px;">Type</th>
               <th style="padding:5px 8px;">Methodology</th>
               <th style="padding:5px 8px;">Methodology &amp; Economic Source</th>
             </tr>
           </thead>
-          <tbody style="color:#cbd5e1; font-family:'JetBrains Mono', monospace; font-size:10px;">
+          <tbody style="color:#334155; font-family:'JetBrains Mono', monospace; font-size:10px;">
             <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
-              <td style="padding:5px 8px; color:#fff; font-weight:600;">Operating EBITDA</td>
+              <td style="padding:5px 8px; color:#0f172a; font-weight:600;">Operating EBITDA</td>
               <td style="padding:5px 8px;"><span style="background:rgba(245, 158, 11, 0.2); color:var(--accent-amber); padding:1px 5px; border-radius:3px;">ASSUMPTION</span></td>
               <td style="padding:5px 8px; color:var(--accent-cyan);">Methodology 1</td>
               <td style="padding:5px 8px; font-family:'Inter', sans-serif;">Mid-cycle margin run-rate ($800M Bear, $1,400M Base, $2,100M Bull)</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
-              <td style="padding:5px 8px; color:#fff; font-weight:600;">EV Multiple</td>
+              <td style="padding:5px 8px; color:#0f172a; font-weight:600;">EV Multiple</td>
               <td style="padding:5px 8px;"><span style="background:rgba(245, 158, 11, 0.2); color:var(--accent-amber); padding:1px 5px; border-radius:3px;">ASSUMPTION</span></td>
               <td style="padding:5px 8px; color:var(--accent-cyan);">Methodology 1</td>
               <td style="padding:5px 8px; font-family:'Inter', sans-serif;">Global petrochemical M&amp;A replacement comps (3.5x liquidation to 6.0x monopoly)</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
-              <td style="padding:5px 8px; color:#fff; font-weight:600;">Priority Carve-Outs</td>
+              <td style="padding:5px 8px; color:#0f172a; font-weight:600;">Priority Carve-Outs</td>
               <td style="padding:5px 8px;"><span style="background:rgba(245, 158, 11, 0.2); color:var(--accent-amber); padding:1px 5px; border-radius:3px;">ASSUMPTION</span></td>
               <td style="padding:5px 8px; color:var(--accent-cyan);">Methodology 1</td>
               <td style="padding:5px 8px; font-family:'Inter', sans-serif;">Court-approved Maceió environmental reserves + local bank secured working capital lines</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
-              <td style="padding:5px 8px; color:#fff; font-weight:600;">Distributable Senior Pool</td>
+              <td style="padding:5px 8px; color:#0f172a; font-weight:600;">Distributable Senior Pool</td>
               <td style="padding:5px 8px;"><span style="background:rgba(16, 185, 129, 0.2); color:var(--accent-emerald); padding:1px 5px; border-radius:3px;">CALCULATION</span></td>
               <td style="padding:5px 8px; color:var(--accent-cyan);">Methodology 1</td>
               <td style="padding:5px 8px; font-family:'Inter', sans-serif;">max(0, Total Enterprise Value - Priority Secured Claims)</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
-              <td style="padding:5px 8px; color:#fff; font-weight:600;">Haircut / Swap / PIK Terms</td>
+              <td style="padding:5px 8px; color:#0f172a; font-weight:600;">Haircut / Swap / PIK Terms</td>
               <td style="padding:5px 8px;"><span style="background:rgba(245, 158, 11, 0.2); color:var(--accent-amber); padding:1px 5px; border-radius:3px;">ASSUMPTION</span></td>
               <td style="padding:5px 8px; color:var(--accent-emerald);">Methodology 2</td>
               <td style="padding:5px 8px; font-family:'Inter', sans-serif;">Negotiated plan terms (35% haircut, 30% debt-for-equity swap, 7.50% cash coupon)</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
-              <td style="padding:5px 8px; color:#fff; font-weight:600;">Pro-Forma Net Leverage</td>
+              <td style="padding:5px 8px; color:#0f172a; font-weight:600;">Pro-Forma Net Leverage</td>
               <td style="padding:5px 8px;"><span style="background:rgba(16, 185, 129, 0.2); color:var(--accent-emerald); padding:1px 5px; border-radius:3px;">CALCULATION</span></td>
               <td style="padding:5px 8px; color:var(--accent-emerald);">Methodology 2</td>
               <td style="padding:5px 8px; font-family:'Inter', sans-serif;">(Total Restructured Debt - Operating Cash) / Operating EBITDA</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
-              <td style="padding:5px 8px; color:#fff; font-weight:600;">Dynamic Exit Yield</td>
+              <td style="padding:5px 8px; color:#0f172a; font-weight:600;">Dynamic Exit Yield</td>
               <td style="padding:5px 8px;"><span style="background:rgba(16, 185, 129, 0.2); color:var(--accent-emerald); padding:1px 5px; border-radius:3px;">CALCULATION</span></td>
               <td style="padding:5px 8px; color:var(--accent-emerald);">Methodology 2</td>
               <td style="padding:5px 8px; font-family:'Inter', sans-serif;">3.75% Benchmark + [150 bps + (Net Leverage &times; 135 bps)], clamped [3.75%, 14.25%]</td>
             </tr>
             <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
-              <td style="padding:5px 8px; color:#fff; font-weight:600;">New Paper Day-1 Price</td>
+              <td style="padding:5px 8px; color:#0f172a; font-weight:600;">New Paper Day-1 Price</td>
               <td style="padding:5px 8px;"><span style="background:rgba(16, 185, 129, 0.2); color:var(--accent-emerald); padding:1px 5px; border-radius:3px;">CALCULATION</span></td>
               <td style="padding:5px 8px; color:var(--accent-emerald);">Methodology 2</td>
               <td style="padding:5px 8px; font-family:'Inter', sans-serif;">Discounted cash flow of coupon stream + bullet principal discounted at Exit Yield</td>
             </tr>
             <tr>
-              <td style="padding:5px 8px; color:#fff; font-weight:600;">Time Discount Factor</td>
+              <td style="padding:5px 8px; color:#0f172a; font-weight:600;">Time Discount Factor</td>
               <td style="padding:5px 8px;"><span style="background:rgba(16, 185, 129, 0.2); color:var(--accent-emerald); padding:1px 5px; border-radius:3px;">CALCULATION</span></td>
               <td style="padding:5px 8px; color:var(--accent-purple);">Both</td>
               <td style="padding:5px 8px; font-family:'Inter', sans-serif;">1 / [1 + (Exit Yield / 2)] ^ (2 &times; Negotiation Months / 12)</td>
@@ -1882,14 +1882,14 @@
           <div style="font-size:11px; font-weight:700; color:var(--accent-cyan); text-transform:uppercase; margin-bottom:8px;">
             🔗 The Dynamic Leverage-to-Exit-Yield Transmission Mechanism
           </div>
-          <p style="font-size:10.5px; color:#cbd5e1; line-height:1.5; margin-bottom:8px;">
+          <p style="font-size:10.5px; color:#334155; line-height:1.5; margin-bottom:8px;">
             In market-based restructuring, you cannot arbitrarily assume a high haircut AND a high exit yield simultaneously. When noteholders suffer a larger haircut or swap debt into equity, <strong>the remaining company emerges with low net leverage</strong>, commanding tighter credit spreads and higher bond dollar prices:
           </p>
-          <div style="background:rgba(0,0,0,0.3); border-radius:4px; padding:8px; font-family:'JetBrains Mono', monospace; font-size:9.5px; color:#38bdf8; margin-bottom:8px;">
+          <div style="background:#f8fafc; border-radius:4px; padding:8px; font-family:'JetBrains Mono', monospace; font-size:9.5px; color:#38bdf8; margin-bottom:8px;">
             Spread (bps) = 150 + (Pro-Forma Net Leverage &times; 135 bps)<br>
             Exit Yield = 3.75% (US 5Y) + Spread
           </div>
-          <ul style="font-size:10px; color:#94a3b8; line-height:1.5; margin-left:14px;">
+          <ul style="font-size:10px; color:#475569; line-height:1.5; margin-left:14px;">
             <li><strong>Low Leverage (2.2x):</strong> BB+ Rating &rarr; 8.00% Exit Yield &rarr; New Paper = 96.5c</li>
             <li><strong>Base Leverage (3.4x):</strong> BB- Rating &rarr; 9.75% Exit Yield &rarr; New Paper = 87.7c</li>
             <li><strong>Uncut Leverage (6.0x):</strong> CCC Rating &rarr; 13.75% Exit Yield &rarr; New Paper = 68.2c</li>
@@ -1901,21 +1901,21 @@
           <div style="font-size:11px; font-weight:700; color:var(--accent-emerald); text-transform:uppercase; margin-bottom:8px;">
             🎯 Buy / Sell / Hold Decision Matrix
           </div>
-          <p style="font-size:10.5px; color:#cbd5e1; line-height:1.5; margin-bottom:8px;">
+          <p style="font-size:10.5px; color:#334155; line-height:1.5; margin-bottom:8px;">
             By comparing Methodology 1 (Asset Backing PV) and Methodology 2 (Exchange Package PV) through the Qualitative Bridge against Secondary Market Price (54.0c) across the Secondary Bond Pricing Band, we derive unambiguous trader guidance:
           </p>
           <div style="display:flex; flex-direction:column; gap:6px;">
             <div style="background:rgba(16, 185, 129, 0.1); border:1px solid rgba(16, 185, 129, 0.3); border-radius:4px; padding:6px 8px;">
               <span style="font-size:10px; font-weight:800; color:var(--accent-emerald);">STRONG BUY:</span>
-              <span style="font-size:10px; color:#cbd5e1;"> Methodology 2 PV &gt; Secondary Price AND Methodology 1 PV &gt; Secondary Price. (High margin of safety + immediate upside upon emergence).</span>
+              <span style="font-size:10px; color:#334155;"> Methodology 2 PV &gt; Secondary Price AND Methodology 1 PV &gt; Secondary Price. (High margin of safety + immediate upside upon emergence).</span>
             </div>
             <div style="background:rgba(245, 158, 11, 0.1); border:1px solid rgba(245, 158, 11, 0.3); border-radius:4px; padding:6px 8px;">
               <span style="font-size:10px; font-weight:800; color:var(--accent-gold);">HOLD / ACCUMULATE ON DIPS (Current Braskem 2033):</span>
-              <span style="font-size:10px; color:#cbd5e1;"> Methodology 1 PV (71.5c) &gt; Market (54.0c), but Methodology 2 PV (54.0c) &approx; Market. Asset backing protects downside, but Day-1 paper fair value equals current market price. Accumulate sub-48c; trim above 60c.</span>
+              <span style="font-size:10px; color:#334155;"> Methodology 1 PV (71.5c) &gt; Market (54.0c), but Methodology 2 PV (54.0c) &approx; Market. Asset backing protects downside, but Day-1 paper fair value equals current market price. Accumulate sub-48c; trim above 60c.</span>
             </div>
             <div style="background:rgba(244, 63, 94, 0.1); border:1px solid rgba(244, 63, 94, 0.3); border-radius:4px; padding:6px 8px;">
               <span style="font-size:10px; font-weight:800; color:var(--accent-rose);">SELL / UNDERWEIGHT:</span>
-              <span style="font-size:10px; color:#cbd5e1;"> Methodology 2 PV &lt; Secondary Price AND Methodology 1 PV &lt; Secondary Price. (Overvalued on both operational asset coverage and exchange realization).</span>
+              <span style="font-size:10px; color:#334155;"> Methodology 2 PV &lt; Secondary Price AND Methodology 1 PV &lt; Secondary Price. (Overvalued on both operational asset coverage and exchange realization).</span>
             </div>
           </div>
         </div>
@@ -2093,7 +2093,7 @@
             <strong style="color:${td.color};">${td.name}</strong><br>
             <span style="font-size:10px; color:var(--text-dim);">${td.desc}</span>
           </td>
-          <td style="text-align:right; font-weight:700; color:#fff;" class="mono">${td.exitPx.toFixed(1)}c</td>
+          <td style="text-align:right; font-weight:700; color:#0f172a;" class="mono">${td.exitPx.toFixed(1)}c</td>
           <td style="text-align:right;" class="mono">$${Math.round(td.proceeds).toLocaleString()}</td>
           <td style="text-align:right; font-weight:700; color:${td.profit >= 0 ? 'var(--accent-emerald)' : 'var(--accent-rose)'};" class="mono">
             ${td.profit >= 0 ? '+' : ''}$${Math.round(td.profit).toLocaleString()}

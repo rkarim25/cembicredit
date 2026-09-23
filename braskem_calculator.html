@@ -10,12 +10,12 @@
       color-scheme: light;
       --bg-main: #f8fafc;
       --bg-card: #ffffff;
-      --bg-card-sub: #f1f5f9;
+      --bg-card-sub: #f8fafc;
       --bg-hover: #e2e8f0;
-      --border-color: #e2e8f0;
-      --border-highlight: #cbd5e1;
+      --border-color: #cbd5e1;
+      --border-highlight: #94a3b8;
       --text-main: #0f172a;
-      --text-muted: #475569;
+      --text-muted: #334155;
       --text-dim: #64748b;
       --accent-cyan: #0071e3;
       --accent-emerald: #15803d;
@@ -105,7 +105,7 @@
     }
 
     .preset-pill:hover {
-      color: #fff;
+      color: var(--accent-cyan);
       border-color: var(--accent-cyan);
     }
 
@@ -155,7 +155,7 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 18px;
       font-weight: 700;
-      color: #fff;
+      color: var(--text-main);
       line-height: 1;
     }
 
@@ -265,27 +265,11 @@
     }
 
     /* Asset Table */
-    .asset-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 11px;
-    }
+    
 
-    .asset-table th {
-      text-align: left;
-      color: var(--text-muted);
-      font-weight: 600;
-      padding: 6px 8px;
-      border-bottom: 1px solid var(--border-color);
-      font-size: 10px;
-      text-transform: uppercase;
-    }
+    
 
-    .asset-table td {
-      padding: 7px 8px;
-      border-bottom: 1px solid rgba(255,255,255,0.04);
-      vertical-align: middle;
-    }
+    
 
     .asset-checkbox {
       accent-color: var(--accent-cyan);
@@ -295,15 +279,22 @@
     }
 
     .num-input {
-      background: var(--bg-main);
-      border: 1px solid var(--border-color);
-      color: #fff;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #0f172a;
       padding: 4px 6px;
       border-radius: 4px;
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
-      width: 70px;
+      width: 65px;
       text-align: right;
+      font-weight: 600;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.04);
+    }
+    .num-input:focus {
+      outline: none;
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.15);
     }
 
     .num-input:focus {
@@ -381,7 +372,7 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 16px;
       font-weight: 700;
-      color: #fff;
+      color: var(--text-main);
     }
 
     .meter-sub {
@@ -391,32 +382,16 @@
     }
 
     /* Pricing Band Table */
-    .band-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 11px;
-    }
+    
 
-    .band-table th {
-      background: #0f172a;
-      color: var(--text-muted);
-      padding: 6px 8px;
-      font-size: 10px;
-      text-transform: uppercase;
-      border-bottom: 1px solid var(--border-color);
-    }
+    
 
-    .band-table td {
-      padding: 7px 8px;
-      border-bottom: 1px solid rgba(255,255,255,0.04);
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-    }
+    
 
     .band-table td.name {
       font-family: 'Inter', sans-serif;
       font-weight: 600;
-      color: #fff;
+      color: var(--text-main);
     }
 
     .callout-box {
@@ -427,13 +402,13 @@
       margin-top: 10px;
       font-size: 11px;
       line-height: 1.45;
-      color: #e2e8f0;
+      color: var(--text-main);
     }
   
     /* Pricing Band Track */
     .pricing-band-container {
       background: #060913;
-      border: 1px solid #1e293b;
+      border:1px solid #cbd5e1;
       border-radius: 6px;
       padding: 12px 16px;
       margin: 10px 0;
@@ -441,7 +416,7 @@
     .pricing-band-track {
       position: relative;
       height: 8px;
-      background: #1e293b;
+      background:#f1f5f9; border:1px solid #cbd5e1;
       border-radius: 4px;
       margin: 24px 10px 18px;
     }
@@ -466,7 +441,7 @@
     }
     .pricing-marker.distressed { color: var(--accent-rose); }
     .pricing-marker.distressed::after { background: var(--accent-rose); }
-    .pricing-marker.market { color: #fff; }
+    .pricing-marker.market { color: var(--text-main); }
     .pricing-marker.market::after { background: #fff; border: 2px solid var(--accent-cyan); }
     .pricing-marker.fair-value { color: var(--accent-emerald); }
     .pricing-marker.fair-value::after { background: var(--accent-emerald); }
@@ -474,7 +449,37 @@
     .pricing-marker.asset-floor::after { background: var(--accent-cyan); }
     .pricing-marker.target { color: var(--accent-purple); }
     .pricing-marker.target::after { background: var(--accent-purple); }
-  </style>
+  
+    .asset-table, .band-table, table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11px;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+    }
+    .asset-table th, .band-table th, table.data-table th {
+      text-align: left;
+      background: #f1f5f9;
+      color: #1e293b;
+      font-weight: 700;
+      padding: 7px 8px;
+      border-bottom: 2px solid #cbd5e1;
+      border-right: 1px solid #e2e8f0;
+      font-size: 10.5px;
+      text-transform: uppercase;
+    }
+    .asset-table td, .band-table td, table.data-table td {
+      padding: 6px 8px;
+      border-bottom: 1px solid #e2e8f0;
+      border-right: 1px solid #f8fafc;
+      color: #0f172a;
+      vertical-align: middle;
+    }
+    .asset-table tr:hover td, .band-table tr:hover td, table.data-table tr:hover td {
+      background: #f0f7ff;
+    }
+    
+</style>
 </head>
 <body>
   <!-- Top Sticky Navigation & Live Output Header -->
@@ -507,7 +512,7 @@
       </div>
       <div class="metric-hero" style="border-color:rgba(255,255,255,0.2);">
         <div class="lbl">Secondary Market Price</div>
-        <div class="val" style="color:#fff;">54.0<span>c</span></div>
+        <div class="val" style="color:#0f172a;">54.0<span>c</span></div>
       </div>
       <div class="metric-hero gold">
         <div class="lbl">Pro-Forma Net Lev</div>
@@ -526,7 +531,7 @@
   
 
     <!-- COGNITIVE CREDIT AUDITED FINANCIAL & CAPITAL STRUCTURE RECONCILIATION -->
-    <div class="card" style="border:1px solid rgba(56,189,248,0.3); background:rgba(15,23,42,0.85); margin-bottom:16px; padding:12px 16px;">
+    <div class="card" style="border:1px solid rgba(56,189,248,0.3); background:#f8fafc; border:1px solid #cbd5e1; margin-bottom:16px; padding:12px 16px;">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:8px;">
         <div style="display:flex; align-items:center; gap:8px;">
           <span style="font-size:12px; font-weight:800; color:#38bdf8; text-transform:uppercase; letter-spacing:0.5px;">
@@ -536,34 +541,34 @@
             Synced: 23-Sep-2026 Export
           </span>
         </div>
-        <div style="font-size:11px; color:#94a3b8; font-family:'JetBrains Mono',monospace;">
-          Reported Currency: <strong style="color:#fff;">BRL</strong> &bull; Converted @ <strong style="color:#fbbf24;">5.50 USD/BRL</strong>
+        <div style="font-size:11px; color:#475569; font-family:'JetBrains Mono',monospace;">
+          Reported Currency: <strong style="color:#0f172a; font-weight:700;">BRL</strong> &bull; Converted @ <strong style="color:#fbbf24;">5.50 USD/BRL</strong>
         </div>
       </div>
       <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:10px; font-size:11px;">
-        <div style="background:rgba(0,0,0,0.3); border:1px solid #1e293b; border-radius:4px; padding:8px 10px;">
-          <div style="color:#94a3b8; font-size:9.5px; text-transform:uppercase;">Gross Revenue (LTM)</div>
-          <div style="font-size:14px; font-weight:700; color:#fff; font-family:'JetBrains Mono',monospace;">BRL 70,603M <span style="font-size:11px; color:#38bdf8;">($12,837M)</span></div>
+        <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:4px; padding:8px 10px;">
+          <div style="color:#475569; font-size:9.5px; text-transform:uppercase;">Gross Revenue (LTM)</div>
+          <div style="font-size:14px; font-weight:700; color:#0f172a; font-family:'JetBrains Mono',monospace;">BRL 70,603M <span style="font-size:11px; color:#38bdf8;">($12,837M)</span></div>
           <div style="color:#34d399; font-size:9.5px; margin-top:2px;">+21.6% YoY Volume Bounce</div>
         </div>
-        <div style="background:rgba(0,0,0,0.3); border:1px solid #1e293b; border-radius:4px; padding:8px 10px;">
-          <div style="color:#94a3b8; font-size:9.5px; text-transform:uppercase;">Adj EBITDA (LTM)</div>
+        <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:4px; padding:8px 10px;">
+          <div style="color:#475569; font-size:9.5px; text-transform:uppercase;">Adj EBITDA (LTM)</div>
           <div style="font-size:14px; font-weight:700; color:#fbbf24; font-family:'JetBrains Mono',monospace;">BRL 7,666M <span style="font-size:11px; color:#fbbf24;">($1,394M)</span></div>
-          <div style="color:#94a3b8; font-size:9.5px; margin-top:2px;">10.9% Margin &bull; 2Q Jump</div>
+          <div style="color:#475569; font-size:9.5px; margin-top:2px;">10.9% Margin &bull; 2Q Jump</div>
         </div>
-        <div style="background:rgba(0,0,0,0.3); border:1px solid #1e293b; border-radius:4px; padding:8px 10px;">
-          <div style="color:#94a3b8; font-size:9.5px; text-transform:uppercase;">Gross Debt (Pre-Haircut)</div>
+        <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:4px; padding:8px 10px;">
+          <div style="color:#475569; font-size:9.5px; text-transform:uppercase;">Gross Debt (Pre-Haircut)</div>
           <div style="font-size:14px; font-weight:700; color:#f87171; font-family:'JetBrains Mono',monospace;">BRL 68,297M <span style="font-size:11px; color:#f87171;">($12,418M)</span></div>
-          <div style="color:#94a3b8; font-size:9.5px; margin-top:2px;">Consolidated Perimeter</div>
+          <div style="color:#475569; font-size:9.5px; margin-top:2px;">Consolidated Perimeter</div>
         </div>
-        <div style="background:rgba(0,0,0,0.3); border:1px solid #1e293b; border-radius:4px; padding:8px 10px;">
-          <div style="color:#94a3b8; font-size:9.5px; text-transform:uppercase;">Total Cash (Unrestricted)</div>
+        <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:4px; padding:8px 10px;">
+          <div style="color:#475569; font-size:9.5px; text-transform:uppercase;">Total Cash (Unrestricted)</div>
           <div style="font-size:14px; font-weight:700; color:#34d399; font-family:'JetBrains Mono',monospace;">BRL 3,931M <span style="font-size:11px; color:#34d399;">($715M)</span></div>
-          <div style="color:#94a3b8; font-size:9.5px; margin-top:2px;">Cushion against FCF burn</div>
+          <div style="color:#475569; font-size:9.5px; margin-top:2px;">Cushion against FCF burn</div>
         </div>
-        <div style="background:rgba(0,0,0,0.3); border:1px solid #1e293b; border-radius:4px; padding:8px 10px;">
-          <div style="color:#94a3b8; font-size:9.5px; text-transform:uppercase;">Net Debt &amp; Leverage</div>
-          <div style="font-size:14px; font-weight:700; color:#fff; font-family:'JetBrains Mono',monospace;">BRL 64,366M <span style="font-size:11px; color:#f87171;">(8.40x)</span></div>
+        <div style="background:#f8fafc; border:1px solid #cbd5e1; border-radius:4px; padding:8px 10px;">
+          <div style="color:#475569; font-size:9.5px; text-transform:uppercase;">Net Debt &amp; Leverage</div>
+          <div style="font-size:14px; font-weight:700; color:#0f172a; font-family:'JetBrains Mono',monospace;">BRL 64,366M <span style="font-size:11px; color:#f87171;">(8.40x)</span></div>
           <div style="color:#fbbf24; font-size:9.5px; margin-top:2px;">$11,703M Net Debt Baseline</div>
         </div>
       </div>
@@ -573,7 +578,7 @@
   <div class="card" style="border-color:#334155; box-shadow:0 4px 20px rgba(0,0,0,0.5); margin-bottom:16px;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:12px; border-bottom:1px solid #1e293b; padding-bottom:8px;">
       <div style="display:flex; align-items:center; gap:8px;">
-        <span style="font-size:13px; font-weight:800; color:#fff; text-transform:uppercase; letter-spacing:0.5px;">
+        <span style="font-size:13px; font-weight:800; color:#0f172a; text-transform:uppercase; letter-spacing:0.5px;">
           ⚖️ The Executive Valuation Bridge &amp; Secondary Bond Pricing Band
         </span>
         <span style="font-size:9.5px; background:rgba(192, 132, 252, 0.15); color:var(--accent-purple); border:1px solid rgba(192, 132, 252, 0.3); padding:2px 7px; border-radius:4px; font-family:'JetBrains Mono',monospace; font-weight:700;">
@@ -581,7 +586,7 @@
         </span>
       </div>
       <div style="display:flex; align-items:center; gap:8px;">
-        <span style="font-size:10.5px; color:#94a3b8;">Trading Verdict:</span>
+        <span style="font-size:10.5px; color:#475569;">Trading Verdict:</span>
         <span id="reconcile-action-badge" style="font-size:11px; font-weight:800; padding:4px 10px; border-radius:4px; font-family:'JetBrains Mono',monospace; background:rgba(245,158,11,0.15); color:var(--accent-amber); border:1px solid rgba(245,158,11,0.4);">
           HOLD / FAIR VALUE
         </span>
@@ -598,20 +603,20 @@
             <span style="font-size:9px; font-weight:800; color:var(--accent-cyan); background:rgba(56,189,248,0.15); padding:2px 6px; border-radius:3px; text-transform:uppercase;">
               METHODOLOGY 1 &bull; ASSET-BACKED
             </span>
-            <div style="font-size:12px; font-weight:800; color:#fff; margin-top:4px;">Fundamental EV Recovery</div>
-            <div style="font-size:9.5px; color:#94a3b8;">Absolute Priority Enterprise Value Waterfall</div>
+            <div style="font-size:12px; font-weight:800; color:#0f172a; margin-top:4px;">Fundamental EV Recovery</div>
+            <div style="font-size:9.5px; color:#475569;">Absolute Priority Enterprise Value Waterfall</div>
           </div>
           <div style="text-align:right;">
             <div style="font-family:'JetBrains Mono',monospace; font-size:22px; font-weight:800; color:var(--accent-cyan); line-height:1;" id="stream1-val">71.5c PV</div>
-            <span style="font-size:9px; color:#94a3b8;">Nominal Coverage: <strong id="s1-nominal-rec" style="color:#34d399;">78.6c</strong></span>
+            <span style="font-size:9px; color:#475569;">Nominal Coverage: <strong id="s1-nominal-rec" style="color:#34d399;">78.6c</strong></span>
           </div>
         </div>
-        <div style="font-size:10px; color:#cbd5e1; line-height:1.5; margin-top:8px;">
+        <div style="font-size:10px; color:#334155; line-height:1.5; margin-top:8px;">
           <div>&bull; <strong>SOTP EV:</strong> <span id="s1-senior-pool">$7,230M</span> Net Senior Pool</div>
           <div>&bull; <strong>EBITDA &bull; Multiple:</strong> <span id="s1-ebitda">$1,340M</span> &bull; <span id="s1-mult">6.5x</span></div>
           <div>&bull; <strong>Priority Carve-Outs:</strong> $1.1B Bank + <span id="s1-maceio">$600M</span> Maceió + Burn</div>
           <div>&bull; <strong>Standstill Drag (12M @ <span id="s1-yield">9.75%</span>):</strong> <span id="s1-duration">12M</span> &bull; <span id="s1-time-factor" style="color:#f87171; font-weight:700;">-9.1%</span> (78.6c &rarr; 71.5c PV)</div>
-          <div style="margin-top:6px; border-top:1px dashed #334155; padding-top:4px; color:#94a3b8; font-size:9.5px;">
+          <div style="margin-top:6px; border-top:1px dashed #334155; padding-top:4px; color:#475569; font-size:9.5px;">
             <strong>Anchor:</strong> What are assets worth if liquidated/reorganized under APR?
           </div>
         </div>
@@ -624,17 +629,17 @@
             <span style="font-size:9px; font-weight:800; color:var(--accent-purple); background:rgba(192,132,252,0.15); padding:2px 6px; border-radius:3px; text-transform:uppercase;">
               THE QUALITATIVE BRIDGE
             </span>
-            <span style="font-size:10px; color:#94a3b8; font-family:'JetBrains Mono',monospace;">Secondary Quote: <strong style="color:#fff;" id="reconcile-mkt-px">54.0c</strong></span>
+            <span style="font-size:10px; color:#475569; font-family:'JetBrains Mono',monospace;">Secondary Quote: <strong style="color:#0f172a;" id="reconcile-mkt-px">54.0c</strong></span>
           </div>
-          <div style="font-size:10px; color:#cbd5e1; line-height:1.4; margin-bottom:8px;">
+          <div style="font-size:10px; color:#334155; line-height:1.4; margin-bottom:8px;">
             Qualitative risk drivers (Petrobras support, Maceió litigation, RJ court friction) bridge Asset Coverage to Exchange Realization:
           </div>
 
           <!-- Pricing Band Track -->
           <div class="pricing-band-container">
-            <div style="display:flex; justify-content:space-between; font-size:9.5px; color:#94a3b8; margin-bottom:4px; font-family:'JetBrains Mono',monospace;">
+            <div style="display:flex; justify-content:space-between; font-size:9.5px; color:#475569; margin-bottom:4px; font-family:'JetBrains Mono',monospace;">
               <span>Bear Floor: <strong id="pricing-band-distressed" style="color:var(--accent-rose);">44.0c</strong></span>
-              <span>Secondary Mkt: <strong id="pricing-band-mkt" style="color:#fff;">54.0c</strong></span>
+              <span>Secondary Mkt: <strong id="pricing-band-mkt" style="color:#0f172a;">54.0c</strong></span>
               <span>Fair Value: <strong id="pricing-band-fv" style="color:var(--accent-emerald);">54.0c</strong></span>
               <span>Asset Floor: <strong id="pricing-band-asset" style="color:var(--accent-cyan);">71.5c</strong></span>
               <span>Bull Target: <strong id="pricing-band-target" style="color:var(--accent-purple);">88.0c</strong></span>
@@ -651,11 +656,11 @@
 
         <div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; font-size:10px; margin-top:6px; background:rgba(255,255,255,0.02); padding:6px 10px; border-radius:4px;">
           <div>
-            <span style="color:#94a3b8;">Upside to Fair Value:</span>
+            <span style="color:#475569;">Upside to Fair Value:</span>
             <strong id="lbl-upside-fv" style="color:var(--accent-amber); margin-left:4px;">+0.0c (+0.0%)</strong>
           </div>
           <div>
-            <span style="color:#94a3b8;">Downside Protection (Asset Floor):</span>
+            <span style="color:#475569;">Downside Protection (Asset Floor):</span>
             <strong id="lbl-upside-asset" style="color:var(--accent-cyan); margin-left:4px;">+17.5c (+32.4%)</strong>
           </div>
         </div>
@@ -668,20 +673,20 @@
             <span style="font-size:9px; font-weight:800; color:var(--accent-emerald); background:rgba(16,185,129,0.15); padding:2px 6px; border-radius:3px; text-transform:uppercase;">
               METHODOLOGY 2 &bull; EXCHANGE TERMS
             </span>
-            <div style="font-size:12px; font-weight:800; color:#fff; margin-top:4px;">Market-Based Instrument Pricing</div>
-            <div style="font-size:9.5px; color:#94a3b8;">Restructured Paper Trading &amp; Day-1 Valuation</div>
+            <div style="font-size:12px; font-weight:800; color:#0f172a; margin-top:4px;">Market-Based Instrument Pricing</div>
+            <div style="font-size:9.5px; color:#475569;">Restructured Paper Trading &amp; Day-1 Valuation</div>
           </div>
           <div style="text-align:right;">
             <div style="font-family:'JetBrains Mono',monospace; font-size:22px; font-weight:800; color:var(--accent-emerald); line-height:1;" id="stream2-val">54.0c PV</div>
-            <span style="font-size:9px; color:#94a3b8;">Undiscounted: <strong id="s2-emergence-pot" style="color:#fff;">59.4c</strong></span>
+            <span style="font-size:9px; color:#475569;">Undiscounted: <strong id="s2-emergence-pot" style="color:#0f172a;">59.4c</strong></span>
           </div>
         </div>
-        <div style="font-size:10px; color:#cbd5e1; line-height:1.5; margin-top:8px;">
+        <div style="font-size:10px; color:#334155; line-height:1.5; margin-top:8px;">
           <div>&bull; <strong>Terms:</strong> <span id="s2-haircut">35%</span> Cut &bull; <span id="s2-swap">30%</span> Eq Swap &bull; <span id="s2-coupon">7.50%</span> Cpn &bull; <span id="s2-tenor">8Y</span> Tenor</div>
           <div>&bull; <strong>Leverage &amp; Yield:</strong> <span id="s2-leverage">3.40x</span> &rarr; <span id="s2-exit-yield" style="color:#fbbf24; font-weight:700;">9.75%</span> Exit Yield</div>
           <div>&bull; <strong>New Paper Px:</strong> <span id="s2-paper-px" style="color:#fbbf24; font-weight:700;">87.7c</span> (Debt: <span id="s2-debt-pot">39.9c</span> + Eq: <span id="s2-eq-pot">19.5c</span>)</div>
           <div>&bull; <strong>Carrying Drag:</strong> <span id="s2-duration">12M</span> @ <span id="s2-yield">9.75%</span> = <span id="s2-time-factor" style="color:#f87171; font-weight:700;">-9.1%</span></div>
-          <div style="margin-top:6px; border-top:1px dashed #334155; padding-top:4px; color:#94a3b8; font-size:9.5px;">
+          <div style="margin-top:6px; border-top:1px dashed #334155; padding-top:4px; color:#475569; font-size:9.5px;">
             <strong>Anchor:</strong> What will the secondary market pay for restructured paper on Day 1?
           </div>
         </div>
@@ -690,15 +695,15 @@
     </div>
 
     <!-- Live Execution Directive Banner -->
-    <div style="background:rgba(15,23,42,0.9); border:1px solid #1e293b; border-radius:6px; padding:8px 14px; font-size:11px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+    <div style="background:#f8fafc; border:1px solid #cbd5e1; border:1px solid #cbd5e1; border-radius:6px; padding:8px 14px; font-size:11px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
       <div>
-        <span style="color:#94a3b8; text-transform:uppercase; font-size:9.5px; font-weight:700;">Desk Action Directive:</span>
+        <span style="color:#475569; text-transform:uppercase; font-size:9.5px; font-weight:700;">Desk Action Directive:</span>
         <span id="reconcile-signal-text" style="font-weight:700; color:var(--accent-amber); margin-left:6px;">
           Fairly Priced &bull; Asset Cushion Prevents Crash (Accumulate sub-48c; trim above 60c)
         </span>
       </div>
       <div>
-        <span style="color:#94a3b8; text-transform:uppercase; font-size:9.5px;">Reconciliation Gap (Method 2 - Method 1):</span>
+        <span style="color:#475569; text-transform:uppercase; font-size:9.5px;">Reconciliation Gap (Method 2 - Method 1):</span>
         <span style="font-family:'JetBrains Mono',monospace; font-weight:700; color:#f87171; font-size:12px; margin-left:4px;" id="reconcile-gap">-17.5c</span>
       </div>
     </div>
@@ -722,27 +727,27 @@
           <span class="sub">Sum-of-the-Parts (SOTP) asset clusters or direct consolidated EBITDA input</span>
         </div>
         <!-- Valuation Mode Toggle Pill -->
-        <div style="display:flex; gap:4px; background:rgba(15,23,42,0.9); border:1px solid var(--border-color); border-radius:6px; padding:3px;">
+        <div style="display:flex; gap:4px; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid var(--border-color); border-radius:6px; padding:3px;">
           <button type="button" id="btn-mode-sotp" class="mode-tab-btn active" onclick="setEbitdaValuationMode('sotp')" style="padding:4px 10px; font-size:10.5px; font-weight:700; border-radius:4px; border:none; cursor:pointer; background:var(--accent-cyan); color:#0b1120; transition:all 0.15s ease;">
             🏢 Bottom-Up Asset SOTP
           </button>
-          <button type="button" id="btn-mode-consolidated" class="mode-tab-btn" onclick="setEbitdaValuationMode('consolidated')" style="padding:4px 10px; font-size:10.5px; font-weight:700; border-radius:4px; border:none; cursor:pointer; background:transparent; color:#94a3b8; transition:all 0.15s ease;">
+          <button type="button" id="btn-mode-consolidated" class="mode-tab-btn" onclick="setEbitdaValuationMode('consolidated')" style="padding:4px 10px; font-size:10.5px; font-weight:700; border-radius:4px; border:none; cursor:pointer; background:transparent; color:#475569; transition:all 0.15s ease;">
             ⚡ Top-Down Consolidated EBITDA
           </button>
-          <button type="button" id="btn-mode-pv" class="mode-tab-btn" onclick="setEbitdaValuationMode('pv')" style="padding:4px 10px; font-size:10.5px; font-weight:700; border-radius:4px; border:none; cursor:pointer; background:transparent; color:#94a3b8; transition:all 0.15s ease;">
+          <button type="button" id="btn-mode-pv" class="mode-tab-btn" onclick="setEbitdaValuationMode('pv')" style="padding:4px 10px; font-size:10.5px; font-weight:700; border-radius:4px; border:none; cursor:pointer; background:transparent; color:#475569; transition:all 0.15s ease;">
             📦 Price × Volume Drivers
           </button>
         </div>
       </div>
 
       <!-- TOP-DOWN CONSOLIDATED EBITDA OVERRIDE PANEL -->
-      <div id="panel-consolidated-ebitda" style="display:none; background:rgba(15,23,42,0.95); border:1px solid rgba(56,189,248,0.35); border-radius:8px; padding:14px; margin-bottom:14px;">
+      <div id="panel-consolidated-ebitda" style="display:none; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid rgba(56,189,248,0.35); border-radius:8px; padding:14px; margin-bottom:14px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid rgba(255,255,255,0.06); padding-bottom:8px; flex-wrap:wrap; gap:8px;">
           <div style="display:flex; align-items:center; gap:8px;">
             <span style="font-size:12px; font-weight:800; color:var(--accent-cyan); text-transform:uppercase; letter-spacing:0.5px;">⚡ Direct Consolidated EBITDA &amp; Multiple Sandbox</span>
             <span style="font-size:9.5px; background:rgba(56,189,248,0.15); color:var(--accent-cyan); padding:2px 6px; border-radius:3px; font-weight:700;">ACTIVE VALUATION DRIVER</span>
           </div>
-          <button type="button" onclick="syncConsolidatedFromSotp()" style="background:rgba(255,255,255,0.06); border:1px solid var(--border-color); color:#cbd5e1; font-size:10px; padding:3px 8px; border-radius:4px; cursor:pointer;" title="Pull current sum of included assets and blended multiple">
+          <button type="button" onclick="syncConsolidatedFromSotp()" style="background:rgba(255,255,255,0.06); border:1px solid var(--border-color); color:#334155; font-size:10px; padding:3px 8px; border-radius:4px; cursor:pointer;" title="Pull current sum of included assets and blended multiple">
             🔄 Pull Sum from Asset SOTP (<span id="btn-pull-sotp-ebitda">$1,520M</span> @ <span id="btn-pull-sotp-mult">5.14x</span>)
           </button>
         </div>
@@ -751,10 +756,10 @@
           <!-- 1. Total Group EBITDA Input -->
           <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:6px; padding:10px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-              <span style="font-size:11px; font-weight:700; color:#fff;">Total Consolidated EBITDA</span>
+              <span style="font-size:11px; font-weight:700; color:#0f172a;">Total Consolidated EBITDA</span>
               <div style="display:flex; align-items:center; gap:4px;">
                 <span style="font-size:10px; color:var(--text-muted);">$</span>
-                <input type="number" id="input-consolidated-ebitda" min="200" max="3500" step="25" value="1520" oninput="onConsolidatedEbitdaInput(this.value)" style="width:75px; background:#0b1120; border:1px solid var(--accent-cyan); color:#fff; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
+                <input type="number" id="input-consolidated-ebitda" min="200" max="3500" step="25" value="1520" oninput="onConsolidatedEbitdaInput(this.value)" style="width:75px; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid var(--accent-cyan); color:#0f172a; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
                 <span style="font-size:10px; color:var(--text-muted);">M</span>
               </div>
             </div>
@@ -776,9 +781,9 @@
           <!-- 2. Consolidated Multiple Input -->
           <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:6px; padding:10px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-              <span style="font-size:11px; font-weight:700; color:#fff;">Consolidated EV Multiple</span>
+              <span style="font-size:11px; font-weight:700; color:#0f172a;">Consolidated EV Multiple</span>
               <div style="display:flex; align-items:center; gap:4px;">
-                <input type="number" id="input-consolidated-multiple" min="2.0" max="10.0" step="0.1" value="5.14" oninput="onConsolidatedMultipleInput(this.value)" style="width:65px; background:#0b1120; border:1px solid var(--accent-cyan); color:#fff; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
+                <input type="number" id="input-consolidated-multiple" min="2.0" max="10.0" step="0.1" value="5.14" oninput="onConsolidatedMultipleInput(this.value)" style="width:65px; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid var(--accent-cyan); color:#0f172a; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
                 <span style="font-size:10px; color:var(--text-muted);">x</span>
               </div>
             </div>
@@ -801,15 +806,15 @@
           <div style="background:rgba(56,189,248,0.06); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:10px;">
             <div style="font-size:10px; font-weight:800; color:var(--accent-cyan); text-transform:uppercase; margin-bottom:6px;">Fundamental Value Realization</div>
             <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:4px;">
-              <span style="font-size:10.5px; color:#cbd5e1;">Operating EV:</span>
-              <strong id="disp-cons-op-ev" style="font-family:'JetBrains Mono',monospace; color:#fff; font-size:13px;">$7,805.0M</strong>
+              <span style="font-size:10.5px; color:#334155;">Operating EV:</span>
+              <strong id="disp-cons-op-ev" style="font-family:'JetBrains Mono',monospace; color:#0f172a; font-size:13px;">$7,805.0M</strong>
             </div>
             <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:4px;">
-              <span style="font-size:10px; color:#94a3b8;">+ Cash ($900M) + Equity:</span>
-              <strong id="disp-cons-gross-pot" style="font-family:'JetBrains Mono',monospace; color:#cbd5e1; font-size:11px;">$8,705.0M</strong>
+              <span style="font-size:10px; color:#475569;">+ Cash ($900M) + Equity:</span>
+              <strong id="disp-cons-gross-pot" style="font-family:'JetBrains Mono',monospace; color:#334155; font-size:11px;">$8,705.0M</strong>
             </div>
             <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:6px; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:4px;">
-              <span style="font-size:10px; color:#94a3b8;">- Priority ($1.1B Bank+Maceió+Burn):</span>
+              <span style="font-size:10px; color:#475569;">- Priority ($1.1B Bank+Maceió+Burn):</span>
               <strong id="disp-cons-senior-pool" style="font-family:'JetBrains Mono',monospace; color:var(--accent-rose); font-size:11px;">-$1,880.0M</strong>
             </div>
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
@@ -822,9 +827,9 @@
                 <div style="font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; color:#fbbf24;" id="disp-cons-fund-nominal">78.6c</div>
               </div>
             </div>
-            <div style="display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#94a3b8; border-top:1px dashed rgba(255,255,255,0.1); padding-top:4px; margin-top:4px;">
-              <span>Net Lev: <strong id="disp-cons-lev" style="color:#fff;">3.40x</strong></span>
-              <span>Coverage: <strong id="disp-cons-cov" style="color:#fff;">2.1x</strong></span>
+            <div style="display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#475569; border-top:1px dashed rgba(255,255,255,0.1); padding-top:4px; margin-top:4px;">
+              <span>Net Lev: <strong id="disp-cons-lev" style="color:#0f172a;">3.40x</strong></span>
+              <span>Coverage: <strong id="disp-cons-cov" style="color:#0f172a;">2.1x</strong></span>
               <span id="disp-cons-verdict" style="font-weight:700; color:var(--accent-emerald);">✓ Sustainable</span>
             </div>
           </div>
@@ -832,14 +837,14 @@
       </div>
 
       <!-- PRICE X VOLUME / UNIT ECONOMICS OVERRIDE PANEL -->
-      <div id="panel-pv-drivers" style="display:none; background:rgba(15,23,42,0.95); border:1px solid rgba(192,132,252,0.35); border-radius:8px; padding:14px; margin-bottom:14px;">
+      <div id="panel-pv-drivers" style="display:none; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid rgba(192,132,252,0.35); border-radius:8px; padding:14px; margin-bottom:14px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; border-bottom:1px solid rgba(255,255,255,0.06); padding-bottom:8px; flex-wrap:wrap; gap:8px;">
           <div style="display:flex; align-items:center; gap:8px;">
             <span style="font-size:12px; font-weight:800; color:#c084fc; text-transform:uppercase; letter-spacing:0.5px;">📦 Price × Volume / Unit Economics Sandbox</span>
             <span style="font-size:9.5px; background:rgba(192,132,252,0.15); color:#c084fc; padding:2px 6px; border-radius:3px; font-weight:700;">ACTIVE VALUATION DRIVER</span>
           </div>
           <div style="display:flex; gap:6px; align-items:center; flex-wrap:wrap;">
-            <button type="button" onclick="syncPvFromSotp()" style="background:rgba(255,255,255,0.06); border:1px solid var(--border-color); color:#cbd5e1; font-size:10px; padding:3px 8px; border-radius:4px; cursor:pointer;" title="Reset PV drivers to baseline run-rates">
+            <button type="button" onclick="syncPvFromSotp()" style="background:rgba(255,255,255,0.06); border:1px solid var(--border-color); color:#334155; font-size:10px; padding:3px 8px; border-radius:4px; cursor:pointer;" title="Reset PV drivers to baseline run-rates">
               🔄 Reset to Base P×V
             </button>
             <button type="button" onclick="applyPvToSotpTable()" style="background:rgba(192,132,252,0.2); border:1px solid #c084fc; color:#f3e8ff; font-size:10px; font-weight:700; padding:3px 10px; border-radius:4px; cursor:pointer;" title="Push calculated EBITDA into Bottom-Up SOTP table inputs">
@@ -853,9 +858,9 @@
           <!-- 1. Total Volume Input -->
           <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:6px; padding:10px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-              <span style="font-size:11px; font-weight:700; color:#fff;">Total Petrochem Volume</span>
+              <span style="font-size:11px; font-weight:700; color:#0f172a;">Total Petrochem Volume</span>
               <div style="display:flex; align-items:center; gap:4px;">
-                <input type="number" id="input-pv-total-vol" min="3000" max="10000" step="50" value="6750" oninput="onPvVolInput(this.value)" style="width:75px; background:#0b1120; border:1px solid #c084fc; color:#fff; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
+                <input type="number" id="input-pv-total-vol" min="3000" max="10000" step="50" value="6750" oninput="onPvVolInput(this.value)" style="width:75px; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid #c084fc; color:#0f172a; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
                 <span style="font-size:10px; color:var(--text-muted);">kt</span>
               </div>
             </div>
@@ -875,10 +880,10 @@
           <!-- 2. Blended Petrochemical Margin / Spread -->
           <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:6px; padding:10px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-              <span style="font-size:11px; font-weight:700; color:#fff;">Blended Spread / Margin</span>
+              <span style="font-size:11px; font-weight:700; color:#0f172a;">Blended Spread / Margin</span>
               <div style="display:flex; align-items:center; gap:4px;">
                 <span style="font-size:10px; color:var(--text-muted);">$</span>
-                <input type="number" id="input-pv-blended-margin" min="50" max="500" step="5" value="225" oninput="onPvMarginInput(this.value)" style="width:65px; background:#0b1120; border:1px solid #c084fc; color:#fff; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
+                <input type="number" id="input-pv-blended-margin" min="50" max="500" step="5" value="225" oninput="onPvMarginInput(this.value)" style="width:65px; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid #c084fc; color:#0f172a; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
                 <span style="font-size:10px; color:var(--text-muted);">/t</span>
               </div>
             </div>
@@ -899,9 +904,9 @@
           <!-- 3. Valuation Multiple -->
           <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:6px; padding:10px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
-              <span style="font-size:11px; font-weight:700; color:#fff;">Valuation Multiple</span>
+              <span style="font-size:11px; font-weight:700; color:#0f172a;">Valuation Multiple</span>
               <div style="display:flex; align-items:center; gap:4px;">
-                <input type="number" id="input-pv-multiple" min="2.0" max="10.0" step="0.1" value="5.14" oninput="onPvMultipleInput(this.value)" style="width:65px; background:#0b1120; border:1px solid #c084fc; color:#fff; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
+                <input type="number" id="input-pv-multiple" min="2.0" max="10.0" step="0.1" value="5.14" oninput="onPvMultipleInput(this.value)" style="width:65px; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid #c084fc; color:#0f172a; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; padding:2px 6px; border-radius:4px; text-align:right;">
                 <span style="font-size:10px; color:var(--text-muted);">x</span>
               </div>
             </div>
@@ -922,32 +927,32 @@
           <div style="background:rgba(192,132,252,0.08); border:1px solid rgba(192,132,252,0.35); border-radius:6px; padding:10px;">
             <div style="font-size:10px; font-weight:800; color:#c084fc; text-transform:uppercase; margin-bottom:6px;">Calculated P×V Realization</div>
             <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:4px;">
-              <span style="font-size:10.5px; color:#cbd5e1;">Implied EBITDA:</span>
+              <span style="font-size:10.5px; color:#334155;">Implied EBITDA:</span>
               <strong id="disp-pv-calc-ebitda" style="font-family:'JetBrains Mono',monospace; color:#38bdf8; font-size:13.5px;">$1,518.8M</strong>
             </div>
-            <div style="font-size:9.5px; color:#94a3b8; margin-bottom:4px; font-family:'JetBrains Mono',monospace;">
+            <div style="font-size:9.5px; color:#475569; margin-bottom:4px; font-family:'JetBrains Mono',monospace;">
               Formula: <span id="disp-pv-formula">6,750 kt × $225/t</span>
             </div>
             <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:4px;">
-              <span style="font-size:10.5px; color:#cbd5e1;">Operating EV:</span>
-              <strong id="disp-pv-op-ev" style="font-family:'JetBrains Mono',monospace; color:#fff; font-size:13px;">$7,806.4M</strong>
+              <span style="font-size:10.5px; color:#334155;">Operating EV:</span>
+              <strong id="disp-pv-op-ev" style="font-family:'JetBrains Mono',monospace; color:#0f172a; font-size:13px;">$7,806.4M</strong>
             </div>
             <div style="display:flex; justify-content:space-between; align-items:baseline; padding-top:4px; border-top:1px dashed rgba(255,255,255,0.1);">
-              <span style="font-size:10.5px; color:#cbd5e1;">Senior Bond Recovery:</span>
+              <span style="font-size:10.5px; color:#334155;">Senior Bond Recovery:</span>
               <strong id="disp-pv-senior-rec" style="font-family:'JetBrains Mono',monospace; color:var(--accent-emerald); font-size:13px;">78.6c</strong>
             </div>
           </div>
         </div>
 
         <!-- Granular Segment P×V Driver Accordion -->
-        <details style="background:rgba(0,0,0,0.25); border:1px solid rgba(255,255,255,0.06); border-radius:6px; padding:8px 12px;">
+        <details style="background:#f8fafc; border:1px solid rgba(255,255,255,0.06); border-radius:6px; padding:8px 12px;">
           <summary style="cursor:pointer; font-size:11px; font-weight:700; color:#c084fc; user-select:none;">
             🔍 Granular Segment-by-Segment Unit Economics (Click to expand individual plant volumes &amp; margins)
           </summary>
           <div style="margin-top:10px; overflow-x:auto;">
             <table style="width:100%; border-collapse:collapse; font-size:10.5px;">
               <thead>
-                <tr style="border-bottom:1px solid rgba(255,255,255,0.1); color:#94a3b8; text-align:left;">
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.1); color:#475569; text-align:left;">
                   <th style="padding:6px;">Operating Segment</th>
                   <th style="padding:6px; text-align:right;">Volume (kt)</th>
                   <th style="padding:6px; text-align:right;">Spread / Margin ($/t)</th>
@@ -981,10 +986,10 @@
             <!-- Populated dynamically via JS -->
           </tbody>
           <tfoot>
-            <tr style="font-weight:700; border-top:2px solid #334155; background:rgba(255,255,255,0.02);">
-              <td colspan="3" style="text-align:right; color:#cbd5e1; padding:8px 6px;">Total Selected SOTP Operating Assets:</td>
+            <tr style="font-weight:700; border-top:2px solid #cbd5e1; background:rgba(255,255,255,0.02);">
+              <td colspan="3" style="text-align:right; color:#334155; padding:8px 6px;">Total Selected SOTP Operating Assets:</td>
               <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:var(--accent-gold); font-size:12px; padding:8px 6px;" id="sotp-total-ebitda">$1,520.0M</td>
-              <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#94a3b8; font-size:11px; padding:8px 6px;" id="sotp-blended-mult">5.14x</td>
+              <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#475569; font-size:11px; padding:8px 6px;" id="sotp-blended-mult">5.14x</td>
               <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:var(--accent-cyan); font-size:13px; font-weight:800; padding:8px 6px;" id="sotp-table-total-ev">$7,805.0M</td>
             </tr>
           </tfoot>
@@ -994,9 +999,9 @@
           <div style="display:flex; align-items:center; gap:12px;">
             <span style="color:var(--text-muted);">Total Active EBITDA: <strong style="color:var(--accent-gold); font-family:'JetBrains Mono',monospace;" id="lbl-total-ebitda">$1,520.0M</strong></span>
             <span style="color:var(--text-muted);">&bull;</span>
-            <span style="color:var(--text-muted);">Blended Multiple: <strong style="color:#fff; font-family:'JetBrains Mono',monospace;" id="lbl-blended-mult">5.14x</strong></span>
+            <span style="color:var(--text-muted);">Blended Multiple: <strong style="color:#0f172a; font-family:'JetBrains Mono',monospace;" id="lbl-blended-mult">5.14x</strong></span>
             <span style="color:var(--text-muted);">&bull;</span>
-            <span style="color:var(--text-muted);">Unrestricted Cash Added: <strong style="color:#fff;" id="lbl-cash-add">+$900M</strong></span>
+            <span style="color:var(--text-muted);">Unrestricted Cash Added: <strong style="color:#0f172a;" id="lbl-cash-add">+$900M</strong></span>
           </div>
           <div>
             <span style="color:var(--text-muted); margin-right:8px;">Total SOTP Enterprise Value:</span>
@@ -1055,27 +1060,27 @@
     <div style="margin-bottom:16px;">
       <div style="display:flex; justify-content:space-between; font-size:11px; font-weight:700; color:var(--text-muted); margin-bottom:6px;">
         <span>Enterprise Value Allocation by Priority Tier:</span>
-        <span id="wf-bar-total-label" style="color:#fff; font-family:'JetBrains Mono',monospace;">Total Distributable Value: $7,900M</span>
+        <span id="wf-bar-total-label" style="color:#0f172a; font-family:'JetBrains Mono',monospace;">Total Distributable Value: $7,900M</span>
       </div>
-      <div style="height:26px; border-radius:6px; overflow:hidden; display:flex; background:#0f172a; border:1px solid #1e293b; box-shadow:inset 0 2px 4px rgba(0,0,0,0.5);" id="wf-stacked-bar">
+      <div style="height:26px; border-radius:6px; overflow:hidden; display:flex; background:#f1f5f9; border:1px solid #cbd5e1; border:1px solid #cbd5e1; box-shadow:inset 0 2px 4px rgba(0,0,0,0.5);" id="wf-stacked-bar">
         <!-- Filled dynamically -->
       </div>
       <div style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; margin-top:8px; font-size:10.5px;">
         <div style="display:flex; align-items:center; gap:5px;">
           <span style="width:10px; height:10px; background:#f87171; border-radius:2px; display:inline-block;"></span>
-          <span style="color:#94a3b8;">Priority Claims (PPE/Maceió/Fees): <strong id="wf-legend-priority" style="color:#f87171;">$1,800M (22.8%)</strong></span>
+          <span style="color:#475569;">Priority Claims (PPE/Maceió/Fees): <strong id="wf-legend-priority" style="color:#f87171;">$1,800M (22.8%)</strong></span>
         </div>
         <div style="display:flex; align-items:center; gap:5px;">
           <span style="width:10px; height:10px; background:#34d399; border-radius:2px; display:inline-block;"></span>
-          <span style="color:#94a3b8;">Senior Unsecured Pool: <strong id="wf-legend-senior" style="color:#34d399;">$6,100M (77.2%)</strong></span>
+          <span style="color:#475569;">Senior Unsecured Pool: <strong id="wf-legend-senior" style="color:#34d399;">$6,100M (77.2%)</strong></span>
         </div>
         <div style="display:flex; align-items:center; gap:5px;">
           <span style="width:10px; height:10px; background:#c084fc; border-radius:2px; display:inline-block;"></span>
-          <span style="color:#94a3b8;">Subordinated 2081 Hybrid: <strong id="wf-legend-hybrid" style="color:#c084fc;">$0M (0.0%)</strong></span>
+          <span style="color:#475569;">Subordinated 2081 Hybrid: <strong id="wf-legend-hybrid" style="color:#c084fc;">$0M (0.0%)</strong></span>
         </div>
         <div style="display:flex; align-items:center; gap:5px;">
           <span style="width:10px; height:10px; background:#38bdf8; border-radius:2px; display:inline-block;"></span>
-          <span style="color:#94a3b8;">Existing Equity Residual: <strong id="wf-legend-equity" style="color:#38bdf8;">$0M (0.0%)</strong></span>
+          <span style="color:#475569;">Existing Equity Residual: <strong id="wf-legend-equity" style="color:#38bdf8;">$0M (0.0%)</strong></span>
         </div>
       </div>
     </div>
@@ -1084,7 +1089,7 @@
     <div style="overflow-x:auto;">
       <table class="band-table" id="dynamic-waterfall-table" style="width:100%; font-size:11px;">
         <thead>
-          <tr style="background:#0f172a;">
+          <tr style="background:#f1f5f9; border:1px solid #cbd5e1;">
             <th style="text-align:left; width:4%;">#</th>
             <th style="text-align:left; width:34%;">Waterfall Step / Capital Tier</th>
             <th style="text-align:right; width:16%;">Current Scenario ($M)</th>
@@ -1192,8 +1197,8 @@
       <div style="font-size:11px; font-weight:800; color:var(--accent-amber); text-transform:uppercase; margin-bottom:6px;">
         🎯 Required Balance Sheet Concessions to Achieve Sustainability
       </div>
-      <ul style="font-size:10.5px; color:#cbd5e1; line-height:1.6; margin-left:14px;">
-        <li><strong>Gross Debt Reduction Needed:</strong> <strong id="lbl-required-debt-cut" style="color:#fff;">$4,480M</strong> of total debt reduction.</li>
+      <ul style="font-size:10.5px; color:#334155; line-height:1.6; margin-left:14px;">
+        <li><strong>Gross Debt Reduction Needed:</strong> <strong id="lbl-required-debt-cut" style="color:#0f172a;">$4,480M</strong> of total debt reduction.</li>
         <li><strong>Minimum Required Haircut:</strong> <strong id="lbl-required-haircut" style="color:var(--accent-amber);">35% Haircut</strong> (or 25% Haircut + 20% Equity Swap) to reach &le;3.0x net leverage.</li>
         <li><strong>Minimum Maturity Extension:</strong> <strong id="lbl-required-extension" style="color:var(--accent-cyan);">At least 5 Years</strong> to clear the $3.8B 2025–2028 refinancing wall.</li>
       </ul>
@@ -1204,7 +1209,7 @@
       <div style="font-size:11px; font-weight:800; color:var(--accent-cyan); text-transform:uppercase; margin-bottom:6px;">
         💡 Indication of Terms Justified by Fundamental EV Recovery
       </div>
-      <div id="lbl-ev-guidance" style="font-size:10.5px; color:#cbd5e1; line-height:1.5;">
+      <div id="lbl-ev-guidance" style="font-size:10.5px; color:#334155; line-height:1.5;">
         Because your Fundamental EV Recovery is <strong>71.5c</strong>, creditors will demand that the total consideration package equals or exceeds 65c–70c. A 35% haircut paired with a 30% equity swap provides 60.7c emergence value. Proposals cutting debt by &gt;40% without significant equity compensation will face unanimous creditor rejection and trigger hostile in-court RJ.
       </div>
     </div>
@@ -1232,7 +1237,7 @@
     </div>
 
     <!-- Tenor Extension Architecture Selector & Container -->
-    <div style="background:rgba(15,23,42,0.7); border:1px solid #1e293b; border-radius:6px; padding:10px 12px; margin-bottom:12px;">
+    <div style="background:#f8fafc; border:1px solid #cbd5e1; border:1px solid #cbd5e1; border-radius:6px; padding:10px 12px; margin-bottom:12px;">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
         <div>
           <span style="font-size:11px; font-weight:800; color:var(--accent-cyan); text-transform:uppercase;">
@@ -1273,7 +1278,7 @@
             </div>
             <input type="range" id="input-coupon" min="4.0" max="12.0" step="0.25" value="7.50" oninput="syncCoupon(this.value)">
             <div style="font-size:9.5px; color:var(--text-muted); margin-top:3px;">
-              New annual senior interest burden: <strong style="color:#fff;" id="lbl-new-interest">$448M</strong>
+              New annual senior interest burden: <strong style="color:#0f172a;" id="lbl-new-interest">$448M</strong>
             </div>
           </div>
         </div>
@@ -1282,7 +1287,7 @@
       <!-- CONTAINER FOR MODE B: FIXED CONSOLIDATED EXIT NOTES -->
       <div id="container-ext-fixed" style="display:none;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-          <div style="font-size:10.5px; color:#cbd5e1;">
+          <div style="font-size:10.5px; color:#334155;">
             Consolidate existing notes into a fixed set of newly issued benchmark exit notes:
           </div>
           <div style="display:flex; align-items:center; gap:6px;">
@@ -1402,7 +1407,7 @@
       <div class="meter-card">
         <div class="meter-title">True Senior Economic Recovery</div>
         <div class="meter-val" id="meter-exit-economic-rec" style="color:var(--accent-emerald);">62.0c</div>
-        <div class="meter-sub" id="meter-exit-nominal-rec" style="color:#94a3b8;">vs 66.3c Nominal Plan Coverage</div>
+        <div class="meter-sub" id="meter-exit-nominal-rec" style="color:#475569;">vs 66.3c Nominal Plan Coverage</div>
       </div>
 
       <div class="meter-card">
@@ -1413,7 +1418,7 @@
     </div>
 
     <!-- Exit Yield Sensitivity Matrix Grid Directly in Methodology 2 -->
-    <div style="margin-top:14px; background:rgba(6,9,19,0.5); border:1px solid #1e293b; border-radius:6px; padding:10px 12px;">
+    <div style="margin-top:14px; background:rgba(6,9,19,0.5); border:1px solid #cbd5e1; border-radius:6px; padding:10px 12px;">
       <div style="font-size:11px; font-weight:700; color:var(--accent-gold); text-transform:uppercase; margin-bottom:6px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px;">
         <span>📈 Exit Yield Sensitivity Matrix: Post-Emergence Trading Value</span>
         <span style="font-size:10px; color:var(--text-muted); text-transform:none;">Coupon: <span id="matrix-coupon-label">7.50%</span> | PIK: <span id="matrix-pik-label" style="color:var(--accent-purple); font-weight:700;">0.00% (0Y)</span> | Tenor: <span id="matrix-tenor-label">8Y</span></span>
@@ -1505,8 +1510,8 @@
     </div>
 
     <!-- Net Qualitative Adjustment Metric Strip -->
-    <div style="background:rgba(15,23,42,0.85); border:1px solid #1e293b; border-radius:6px; padding:8px 12px; margin-top:8px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-      <div style="font-size:11px; font-weight:700; color:#cbd5e1;">
+    <div style="background:#f8fafc; border:1px solid #cbd5e1; border:1px solid #cbd5e1; border-radius:6px; padding:8px 12px; margin-top:8px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <div style="font-size:11px; font-weight:700; color:#334155;">
         Net Qualitative Adjustment: 
         <span id="lbl-total-qual-delta" style="font-family:'JetBrains Mono',monospace; font-weight:800; color:var(--accent-rose); font-size:12px;">-4.0c</span>
       </div>
@@ -1523,7 +1528,7 @@
         <span id="qual-guide-icon">▼ Click to Expand Guide</span>
       </button>
       
-      <div id="qual-guide-content" style="display:none; background:rgba(15,23,42,0.95); border:1px solid rgba(56,189,248,0.25); border-radius:6px; padding:12px 14px; margin-top:6px; font-size:11px; line-height:1.5; color:#cbd5e1;">
+      <div id="qual-guide-content" style="display:none; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid rgba(56,189,248,0.25); border-radius:6px; padding:12px 14px; margin-top:6px; font-size:11px; line-height:1.5; color:#334155;">
         <div style="font-weight:700; color:#38bdf8; margin-bottom:6px; text-transform:uppercase; font-size:10.5px;">
           1. Why Express Qualitative Factors in Cents Rather Than Abstract %?
         </div>
@@ -1534,19 +1539,19 @@
         </p>
         <ul style="margin-left:16px; margin-bottom:10px; display:flex; flex-direction:column; gap:6px;">
           <li>
-            <strong style="color:#fff;">Petrobras Sponsor Governance (-6.0c to +4.0c):</strong> 
+            <strong style="color:#0f172a; font-weight:700;">Petrobras Sponsor Governance (-6.0c to +4.0c):</strong> 
             Refusal to fund Novonor forces heavy creditor equitization (-6c discount). A direct sponsor equity check or ADNOC buyout provides +4c upside.
           </li>
           <li>
-            <strong style="color:#fff;">Maceió Litigation Overhang (-6.0c to +1.0c):</strong> 
+            <strong style="color:#0f172a; font-weight:700;">Maceió Litigation Overhang (-6.0c to +1.0c):</strong> 
             Rotterdam class action piercing provisions threatens priority cash sweeps (-6c discount). Final federal judicial release caps liabilities (+1c upside).
           </li>
           <li>
-            <strong style="color:#fff;">Judicial Resolution Pathway (-8.0c to +2.0c):</strong> 
+            <strong style="color:#0f172a; font-weight:700;">Judicial Resolution Pathway (-8.0c to +2.0c):</strong> 
             Collapse into a 24-month in-court RJ burns $15M/mo in advisor fees and adds DIP super-priority (-8c discount). Fast-track consensual plan approval preserves +2c.
           </li>
           <li>
-            <strong style="color:#fff;">Secondary Market Liquidity (-5.0c to 0.0c):</strong> 
+            <strong style="color:#0f172a; font-weight:700;">Secondary Market Liquidity (-5.0c to 0.0c):</strong> 
             Mandate-driven forced-selling and wide dealer bid/ask spreads during restructuring impose a -5c to 0c illiquidity haircut.
           </li>
         </ul>
@@ -1557,7 +1562,7 @@
         <p style="margin-bottom:6px;">
           Secondary bond fair value is governed by the closed-loop link between Exit Yield ($Y_{\text{exit}}$), Tenor ($T_{\text{ext}}$), Haircut ($H$), and Negotiation Duration ($T_{\text{nego}}$), adjusted directly by qualitative cents:
         </p>
-        <div style="background:#090d16; border:1px solid #1e293b; border-radius:4px; padding:8px 10px; font-family:'JetBrains Mono',monospace; font-size:10px; color:#38bdf8; margin-bottom:8px; line-height:1.6;">
+        <div style="background:#090d16; border:1px solid #cbd5e1; border-radius:4px; padding:8px 10px; font-family:'JetBrains Mono',monospace; font-size:10px; color:#38bdf8; margin-bottom:8px; line-height:1.6;">
           <div><strong>1. Exit Paper Price (P<sub>new</sub>):</strong> P<sub>new</sub> = &sum; [ (C/2) / (1 + Y<sub>exit</sub>/2)<sup>t</sup> ] + 100 / (1 + Y<sub>exit</sub>/2)<sup>2T<sub>ext</sub></sup></div>
           <div><strong>2. Standstill Time Discount (DF<sub>nego</sub>):</strong> DF<sub>nego</sub> = 1 / (1 + Y<sub>exit</sub>/2)<sup>2 &times; (T<sub>nego</sub> / 12)</sup></div>
           <div><strong>3. Present Economic Recovery:</strong> Rec<sub>PV</sub> = [ (1 - H) &times; (1 - E<sub>swap</sub>) &times; P<sub>new</sub> + (1 - H) &times; E<sub>swap</sub> &times; &mu;<sub>eq</sub> ] &times; DF<sub>nego</sub></div>
@@ -1572,8 +1577,8 @@
           A crucial distinction in institutional distressed credit is between <strong>Macro Fundamental Regimes (The Scenario Presets)</strong> and <strong>Secondary Market Trading Bands (Market Execution Dispersion)</strong>:
         </p>
         <div style="display:grid; grid-template-columns: 1fr; gap:6px; font-size:10.5px; margin-bottom:10px;">
-          <div style="background:rgba(15,23,42,0.6); border:1px solid #1e293b; padding:8px 10px; border-radius:4px;">
-            <strong style="color:#fff;">• The Scenario Presets / Sliders (The Fundamental Reality):</strong>
+          <div style="background:#f8fafc; border:1px solid #cbd5e1; border:1px solid #cbd5e1; padding:8px 10px; border-radius:4px;">
+            <strong style="color:#0f172a; font-weight:700;">• The Scenario Presets / Sliders (The Fundamental Reality):</strong>
             Sets the macro balance sheet parameters: Operating EBITDA ($1,400M Base), Multiple (5.0x), Haircut (35%), Equitization (30%), Exit Yield (9.75%), Standstill (18M), and Net Qualitative Friction (-4.0c).
           </div>
           <div style="border-left:3px solid var(--accent-rose); background:rgba(244,63,94,0.06); padding:6px 10px; border-radius:0 4px 4px 0;">
@@ -1615,7 +1620,7 @@
     </div>
 
     <!-- Real-Time Valuation Breakdown Strip -->
-    <div class="recovery-formula-strip" style="background:rgba(15,23,42,0.85); border:1px solid #1e293b; border-radius:6px; padding:8px 12px; margin-top:10px; margin-bottom:10px; font-size:11px;">
+    <div class="recovery-formula-strip" style="background:#f8fafc; border:1px solid #cbd5e1; border:1px solid #cbd5e1; border-radius:6px; padding:8px 12px; margin-top:10px; margin-bottom:10px; font-size:11px;">
       <div>
         <div style="color:var(--text-muted); font-size:9px; text-transform:uppercase; font-weight:600;">Exit Paper Px (P<sub>new</sub>)</div>
         <div style="font-weight:700; color:#fbbf24; font-family:'JetBrains Mono',monospace;" id="strip-paper-px">87.7c (-12.3%)</div>
@@ -1637,7 +1642,7 @@
     <!-- Secondary Market Pricing Across Core Scenarios -->
     <div style="margin-top:12px;">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:6px;">
-        <div style="font-size:11px; font-weight:800; color:#fff; text-transform:uppercase; letter-spacing:0.5px;">
+        <div style="font-size:11px; font-weight:800; color:#0f172a; text-transform:uppercase; letter-spacing:0.5px;">
           📊 Secondary Market Pricing Across Core Scenarios (Bear &bull; Base &bull; Bull)
         </div>
         <div style="font-size:9.5px; color:var(--text-muted);">
@@ -1680,14 +1685,14 @@
       </table>
 
       <!-- Scenario Assumptions & Subpage Deep-Dive Card -->
-      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:10px; margin-top:12px; background:rgba(6,9,19,0.8); border:1px solid #1e293b; border-radius:6px; padding:12px;">
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:10px; margin-top:12px; background:rgba(6,9,19,0.8); border:1px solid #cbd5e1; border-radius:6px; padding:12px;">
         <!-- Bear Assumptions -->
         <div style="border-left:3px solid var(--accent-rose); padding-left:10px;">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
             <strong style="color:var(--accent-rose); font-size:11px;">🔴 Bear Scenario Assumptions</strong>
             <button type="button" onclick="loadPreset('rj')" style="background:rgba(244,63,94,0.15); border:1px solid rgba(244,63,94,0.35); color:#f87171; border-radius:3px; padding:2px 7px; font-size:9.5px; font-weight:700; cursor:pointer;">⚡ Load</button>
           </div>
-          <div style="font-size:10px; color:#94a3b8; line-height:1.45;">
+          <div style="font-size:10px; color:#475569; line-height:1.45;">
             <div>&bull; <strong>EBITDA &bull; Mult:</strong> $800M &bull; 3.5x ($2.8B EV)</div>
             <div>&bull; <strong>Standstill:</strong> 24–30M hostile court delay</div>
             <div>&bull; <strong>Terms:</strong> 50% Cut &bull; 13.00% Exit Yield</div>
@@ -1706,7 +1711,7 @@
             <strong style="color:var(--accent-gold); font-size:11px;">🟡 Base Scenario Assumptions</strong>
             <button type="button" onclick="loadPreset('base')" style="background:rgba(245,158,11,0.15); border:1px solid rgba(245,158,11,0.35); color:#fbbf24; border-radius:3px; padding:2px 7px; font-size:9.5px; font-weight:700; cursor:pointer;">⚡ Load</button>
           </div>
-          <div style="font-size:10px; color:#94a3b8; line-height:1.45;">
+          <div style="font-size:10px; color:#475569; line-height:1.45;">
             <div>&bull; <strong>EBITDA &bull; Mult:</strong> $1,340M &bull; 5.0x ($6.7B EV)</div>
             <div>&bull; <strong>Standstill:</strong> 12M consensual out-of-court</div>
             <div>&bull; <strong>Terms:</strong> 35% Cut + 30% Eq &bull; 9.75% Yield</div>
@@ -1725,7 +1730,7 @@
             <strong style="color:var(--accent-cyan); font-size:11px;">🟢 Bull Scenario Assumptions</strong>
             <button type="button" onclick="loadPreset('recap')" style="background:rgba(56,189,248,0.15); border:1px solid rgba(56,189,248,0.35); color:#38bdf8; border-radius:3px; padding:2px 7px; font-size:9.5px; font-weight:700; cursor:pointer;">⚡ Load</button>
           </div>
-          <div style="font-size:10px; color:#94a3b8; line-height:1.45;">
+          <div style="font-size:10px; color:#475569; line-height:1.45;">
             <div>&bull; <strong>EBITDA &bull; Mult:</strong> $1,640M &bull; 6.0x ($9.8B EV)</div>
             <div>&bull; <strong>Standstill:</strong> 6M quick consensual recap</div>
             <div>&bull; <strong>Terms:</strong> 15% Cut &bull; 8.25% Exit Yield</div>
@@ -1772,7 +1777,7 @@
           <span style="font-size:12px; font-weight:800; color:var(--accent-rose); letter-spacing:0.5px; text-transform:uppercase;">🔴 Bear / Distressed Floor</span>
           <span style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:800; color:var(--accent-rose); background:rgba(244,63,94,0.15); padding:2px 6px; border-radius:4px;">17.0c – 22.0c Senior</span>
         </div>
-        <div style="font-size:11px; color:#cbd5e1; line-height:1.45;">
+        <div style="font-size:11px; color:#334155; line-height:1.45;">
           <div style="margin-bottom:4px;"><strong>• Cash EBITDA:</strong> $800.0M (Global resin spreads crushed at $150/t by China supply dumping).</div>
           <div style="margin-bottom:4px;"><strong>• Valuation Multiple:</strong> 3.5x EV multiple (Distressed fire-sale / liquidation valuation = $2,800M EV).</div>
           <div style="margin-bottom:4px;"><strong>• Maceió Liabilities:</strong> -$850.0M (Dutch class action expands liabilities; un-capped cross-border claim).</div>
@@ -1788,7 +1793,7 @@
           <span style="font-size:12px; font-weight:800; color:var(--accent-gold); letter-spacing:0.5px; text-transform:uppercase;">🟡 Base Case Reorg</span>
           <span style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:800; color:var(--accent-emerald); background:rgba(16,185,129,0.15); padding:2px 6px; border-radius:4px;">61.8c – 66.3c Senior</span>
         </div>
-        <div style="font-size:11px; color:#cbd5e1; line-height:1.45;">
+        <div style="font-size:11px; color:#334155; line-height:1.45;">
           <div style="margin-bottom:4px;"><strong>• Cash EBITDA:</strong> $1,400.0M (Normalized mid-cycle spreads $350–$400/t; Brazilian domestic demand stable).</div>
           <div style="margin-bottom:4px;"><strong>• Valuation Multiple:</strong> 5.0x EV multiple ($7,000M EV; sole Brazilian cracker with 70% share).</div>
           <div style="margin-bottom:4px;"><strong>• Maceió Liabilities:</strong> -$600.0M (Scheduled settlement provisions capped).</div>
@@ -1804,7 +1809,7 @@
           <span style="font-size:12px; font-weight:800; color:var(--accent-cyan); letter-spacing:0.5px; text-transform:uppercase;">🟢 Bull / Strategic Buyout</span>
           <span style="font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:800; color:#38bdf8; background:rgba(56,189,248,0.15); padding:2px 6px; border-radius:4px;">95.0c – 100.0c Par</span>
         </div>
-        <div style="font-size:11px; color:#cbd5e1; line-height:1.45;">
+        <div style="font-size:11px; color:#334155; line-height:1.45;">
           <div style="margin-bottom:4px;"><strong>• Cash EBITDA:</strong> $1,800.0M–$2,150.0M (Petrochemical super-cycle spike; PE cash spreads &gt;$600/t).</div>
           <div style="margin-bottom:4px;"><strong>• Valuation Multiple:</strong> 5.5x–6.0x multiple expansion ($9,900M–$12,900M EV).</div>
           <div style="margin-bottom:4px;"><strong>• Maceió Liabilities:</strong> -$500.0M (Final federal judicial release and liability cap).</div>
@@ -2273,19 +2278,19 @@
         return `
           <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
             <td style="padding:6px;">
-              <strong style="color:#fff;">${a.name}</strong>
+              <strong style="color:#0f172a; font-weight:700;">${a.name}</strong>
               <div style="font-size:9.5px; color:var(--text-muted);">${a.capacity}</div>
             </td>
             <td style="padding:6px; text-align:right;">
-              <input type="number" id="pv-vol-${a.id}" value="${curVol}" step="10" onchange="onSegmentPvChange('${a.id}')" style="width:75px; background:#0b1120; border:1px solid rgba(255,255,255,0.15); color:#fff; font-family:'JetBrains Mono',monospace; font-size:11px; padding:2px 4px; border-radius:3px; text-align:right;">
+              <input type="number" id="pv-vol-${a.id}" value="${curVol}" step="10" onchange="onSegmentPvChange('${a.id}')" style="width:75px; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid rgba(255,255,255,0.15); color:#0f172a; font-family:'JetBrains Mono',monospace; font-size:11px; padding:2px 4px; border-radius:3px; text-align:right;">
             </td>
             <td style="padding:6px; text-align:right;">
-              <input type="number" id="pv-margin-${a.id}" value="${curMargin}" step="5" onchange="onSegmentPvChange('${a.id}')" style="width:75px; background:#0b1120; border:1px solid rgba(255,255,255,0.15); color:#fff; font-family:'JetBrains Mono',monospace; font-size:11px; padding:2px 4px; border-radius:3px; text-align:right;">
+              <input type="number" id="pv-margin-${a.id}" value="${curMargin}" step="5" onchange="onSegmentPvChange('${a.id}')" style="width:75px; background:#f8fafc; border:1px solid #cbd5e1; border:1px solid rgba(255,255,255,0.15); color:#0f172a; font-family:'JetBrains Mono',monospace; font-size:11px; padding:2px 4px; border-radius:3px; text-align:right;">
             </td>
             <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#38bdf8;" id="pv-ebitda-${a.id}">
               $${curEb}M
             </td>
-            <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; color:#cbd5e1;">
+            <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; color:#334155;">
               ${a.multiple.toFixed(1)}x
             </td>
             <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--accent-cyan);" id="pv-ev-${a.id}">
@@ -2337,7 +2342,7 @@
           <td style="text-align:center;">
             <input type="checkbox" class="asset-checkbox" id="chk-${a.id}" ${a.included ? 'checked' : ''} onchange="onAssetToggle('${a.id}')">
           </td>
-          <td><strong style="color:#fff;">${a.name}</strong></td>
+          <td><strong style="color:#0f172a; font-weight:700;">${a.name}</strong></td>
           <td style="color:var(--text-muted); font-size:10px;">${a.capacity}</td>
           <td style="text-align:right;">
             <input type="number" step="5" class="num-input" id="ebitda-${a.id}" value="${a.ebitda}" onchange="recalcEngine()">
@@ -2742,7 +2747,7 @@
         if (tfoot) {
           tfoot.innerHTML = `
             <tr>
-              <td style="padding:6px; color:#fff;">Blended Package</td>
+              <td style="padding:6px; color:#0f172a;">Blended Package</td>
               <td style="padding:6px; font-family:'JetBrains Mono',monospace; color:#38bdf8;">${blendedTenor.toFixed(1)} Yrs</td>
               <td style="padding:6px; font-family:'JetBrains Mono',monospace; color:#fbbf24;">${blendedCoupon.toFixed(2)}%</td>
               <td style="padding:6px; font-family:'JetBrains Mono',monospace; color:${isSplitValid ? 'var(--accent-emerald)' : 'var(--accent-rose)'};">${totalSplit.toFixed(0)}% ${isSplitValid ? '✓' : '⚠️'}</td>
@@ -2898,7 +2903,7 @@
               ${t.name}
               <div style="font-size:9px; color:var(--text-muted); font-weight:400;">${TRANCHE_DELTAS[t.id]?.desc || ''}</div>
             </td>
-            <td style="text-align:right; color:#cbd5e1; font-family:'JetBrains Mono',monospace;">${t.marketPx.toFixed(1)}c</td>
+            <td style="text-align:right; color:#334155; font-family:'JetBrains Mono',monospace;">${t.marketPx.toFixed(1)}c</td>
             <td style="text-align:right; color:#f87171; font-weight:700; font-family:'JetBrains Mono',monospace;">${bearRecovery.toFixed(1)}c</td>
             <td style="text-align:right; color:#34d399; font-weight:700; font-family:'JetBrains Mono',monospace;">${baseRecovery.toFixed(1)}c</td>
             <td style="text-align:right; color:#38bdf8; font-weight:700; font-family:'JetBrains Mono',monospace;">${bullRecovery.toFixed(1)}c</td>
@@ -2931,13 +2936,13 @@
       
       const stackedBar = document.getElementById("wf-stacked-bar");
       stackedBar.innerHTML = `
-        <div style="width:${pctPriority.toFixed(1)}%; background:linear-gradient(90deg, #ef4444, #f87171); display:flex; align-items:center; justify-content:center; color:#fff; font-size:9.5px; font-weight:700; font-family:'JetBrains Mono',monospace; overflow:hidden; white-space:nowrap;" title="Priority Claims: $${Math.round(totalPriorityDeductions).toLocaleString()}M (${pctPriority.toFixed(1)}%)">
+        <div style="width:${pctPriority.toFixed(1)}%; background:linear-gradient(90deg, #ef4444, #f87171); display:flex; align-items:center; justify-content:center; color:#0f172a; font-size:9.5px; font-weight:700; font-family:'JetBrains Mono',monospace; overflow:hidden; white-space:nowrap;" title="Priority Claims: $${Math.round(totalPriorityDeductions).toLocaleString()}M (${pctPriority.toFixed(1)}%)">
           ${pctPriority > 8 ? `Priority: $${Math.round(totalPriorityDeductions)}M (${pctPriority.toFixed(0)}%)` : ''}
         </div>
         <div style="width:${pctSenior.toFixed(1)}%; background:linear-gradient(90deg, #059669, #34d399); display:flex; align-items:center; justify-content:center; color:#0f172a; font-size:9.5px; font-weight:800; font-family:'JetBrains Mono',monospace; overflow:hidden; white-space:nowrap;" title="Senior Unsecured: $${Math.round(seniorAllocatedValue).toLocaleString()}M (${pctSenior.toFixed(1)}%)">
           ${pctSenior > 12 ? `Senior Unsecured: $${Math.round(seniorAllocatedValue)}M (${pctSenior.toFixed(0)}%)` : (pctSenior > 5 ? `${pctSenior.toFixed(0)}%` : '')}
         </div>
-        <div style="width:${pctHybrid.toFixed(1)}%; background:linear-gradient(90deg, #9333ea, #c084fc); display:flex; align-items:center; justify-content:center; color:#fff; font-size:9.5px; font-weight:700; font-family:'JetBrains Mono',monospace; overflow:hidden; white-space:nowrap;" title="Subordinated Hybrid: $${Math.round(hybridAllocatedValue).toLocaleString()}M (${pctHybrid.toFixed(1)}%)">
+        <div style="width:${pctHybrid.toFixed(1)}%; background:linear-gradient(90deg, #9333ea, #c084fc); display:flex; align-items:center; justify-content:center; color:#0f172a; font-size:9.5px; font-weight:700; font-family:'JetBrains Mono',monospace; overflow:hidden; white-space:nowrap;" title="Subordinated Hybrid: $${Math.round(hybridAllocatedValue).toLocaleString()}M (${pctHybrid.toFixed(1)}%)">
           ${pctHybrid > 6 ? `Hybrid: $${Math.round(hybridAllocatedValue)}M` : ''}
         </div>
         <div style="width:${pctEquity.toFixed(1)}%; background:linear-gradient(90deg, #0284c7, #38bdf8); display:flex; align-items:center; justify-content:center; color:#0f172a; font-size:9.5px; font-weight:800; font-family:'JetBrains Mono',monospace; overflow:hidden; white-space:nowrap;" title="Existing Equity: $${Math.round(equityResidual).toLocaleString()}M (${pctEquity.toFixed(1)}%)">
@@ -2996,7 +3001,7 @@
             <td style="font-weight:${fontWeight}; color:${textColor};">${r.name}</td>
             <td style="text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${textColor}; font-size:${isHigh ? '13px' : '11px'};">${r.val}</td>
             <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:${isHigh ? (r.color || '#fbbf24') : '#94a3b8'}; font-weight:${fontWeight};">${r.unit}</td>
-            <td style="color:#94a3b8; font-size:10.5px;">${r.desc}</td>
+            <td style="color:#475569; font-size:10.5px;">${r.desc}</td>
           </tr>
         `;
       }).join('');
@@ -3050,10 +3055,10 @@
 
         return `
           <tr>
-            <td style="font-weight:600; color:#fff;">${inst.name}</td>
-            <td style="color:#94a3b8; font-size:10.5px;">${inst.tier}</td>
+            <td style="font-weight:600; color:#0f172a;">${inst.name}</td>
+            <td style="color:#475569; font-size:10.5px;">${inst.tier}</td>
             <td style="text-align:right; font-family:'JetBrains Mono',monospace;">$${inst.claim.toFixed(0)}M</td>
-            <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#cbd5e1;">${inst.marketPx.toFixed(1)}c</td>
+            <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#334155;">${inst.marketPx.toFixed(1)}c</td>
             <td style="text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:${inst.isPriority ? '#38bdf8' : (inst.isHybrid ? '#c084fc' : '#34d399')};">$${inst.allocVal.toFixed(1)}M</td>
             <td style="text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#fbbf24;">${inst.cleanPx.toFixed(1)}c</td>
             <td style="text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:${isUp ? 'var(--accent-emerald)' : 'var(--accent-rose)'};">${inst.exitPx.toFixed(1)}c</td>
@@ -3118,8 +3123,8 @@
           const rowBg = step.isSelected ? 'background:rgba(56,189,248,0.1); font-weight:700;' : '';
           return `
             <tr style="${rowBg}">
-              <td style="font-weight:600; color:${step.isSelected ? '#38bdf8' : '#fff'};">${yVal.toFixed(2)}% <span style="font-size:10px; color:#94a3b8;">(${step.label})</span></td>
-              <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#cbd5e1;">+${sprd} bps</td>
+              <td style="font-weight:600; color:${step.isSelected ? '#38bdf8' : '#fff'};">${yVal.toFixed(2)}% <span style="font-size:10px; color:#475569;">(${step.label})</span></td>
+              <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#334155;">+${sprd} bps</td>
               <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#fbbf24; font-weight:700;">${px.toFixed(1)}c</td>
               <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#93c5fd;">${debtVal.toFixed(1)}c</td>
               <td style="text-align:right; font-family:'JetBrains Mono',monospace; color:#c084fc;">${eqVal.toFixed(1)}c</td>

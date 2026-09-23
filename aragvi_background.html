@@ -17,12 +17,12 @@
       color-scheme: light;
       --bg-main: #f8fafc;
       --bg-card: #ffffff;
-      --bg-card-sub: #f1f5f9;
+      --bg-card-sub: #f8fafc;
       --bg-hover: #e2e8f0;
-      --border-color: #e2e8f0;
-      --border-highlight: #cbd5e1;
+      --border-color: var(--text-muted);
+      --border-highlight: #94a3b8;
       --text-main: #0f172a;
-      --text-muted: #475569;
+      --text-muted: #334155;
       --text-dim: #64748b;
       --accent-cyan: #0071e3;
       --accent-emerald: #15803d;
@@ -137,7 +137,7 @@
     .hero-title-wrap h1 {
       font-size: 20px;
       font-weight: 800;
-      color: #fff;
+      color: var(--text-main);
       display: flex;
       align-items: center;
       gap: 10px;
@@ -145,8 +145,8 @@
     }
 
     .ticker-pill {
-      background: #1e293b;
-      border: 1px solid #334155;
+      background:#f1f5f9; border:1px solid #cbd5e1;
+      border:1px solid #cbd5e1;
       padding: 2px 8px;
       border-radius: 4px;
       font-family: 'JetBrains Mono', monospace;
@@ -186,7 +186,7 @@
       border-radius: 5px;
       padding: 4px 9px;
       font-size: 10.5px;
-      color: #cbd5e1;
+      color: var(--text-muted);
     }
 
     .hero-kpi-pill strong {
@@ -245,7 +245,7 @@
       font-size: 10px;
       text-transform: uppercase;
       border-bottom: 1px solid var(--border-color);
-      background: rgba(15, 23, 42, 0.6);
+      background:#f8fafc; border:1px solid #cbd5e1;
     }
 
     .data-table td {
@@ -292,7 +292,7 @@
     .asset-name {
       font-size: 12px;
       font-weight: 700;
-      color: #fff;
+      color: var(--text-main);
     }
 
     .asset-loc {
@@ -331,12 +331,12 @@
     .in-out-col-title.out-col { color: var(--accent-cyan); }
 
     .in-out-col-body {
-      color: #cbd5e1;
+      color: var(--text-main);
       line-height: 1.45;
     }
 
     .asset-moat-box {
-      background: rgba(0,0,0,0.3);
+      background:#f8fafc;
       border-left: 3px solid var(--accent-cyan);
       padding: 6px 9px;
       border-radius: 0 4px 4px 0;
@@ -364,7 +364,7 @@
     .control-label {
       font-size: 11px;
       font-weight: 700;
-      color: #cbd5e1;
+      color: var(--text-muted);
     }
 
     .control-display-val {
@@ -378,7 +378,7 @@
       width: 100%;
       height: 6px;
       border-radius: 3px;
-      background: #1e293b;
+      background:#f1f5f9; border:1px solid #cbd5e1;
       outline: none;
       -webkit-appearance: none;
       cursor: pointer;
@@ -398,7 +398,7 @@
     .quick-pill-btn {
       background: rgba(255,255,255,0.04);
       border: 1px solid var(--border-color);
-      color: #94a3b8;
+      color: var(--text-muted);
       font-size: 10px;
       font-weight: 600;
       padding: 3px 8px;
@@ -408,7 +408,7 @@
     }
 
     .quick-pill-btn:hover, .quick-pill-btn.active {
-      color: #fff;
+      color: var(--accent-cyan); font-weight: 700;
       border-color: var(--accent-cyan);
       background: rgba(56,189,248,0.15);
     }
@@ -421,7 +421,7 @@
     }
 
     .diag-card {
-      background: rgba(15, 23, 42, 0.7);
+      background:#f8fafc; border:1px solid #cbd5e1;
       border: 1px solid var(--border-color);
       border-radius: 5px;
       padding: 8px 10px;
@@ -438,7 +438,7 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 14px;
       font-weight: 800;
-      color: #fff;
+      color: var(--text-main);
       margin-top: 2px;
     }
 
@@ -540,7 +540,7 @@
         <tbody>
           <tr>
             <td>
-              <strong style="color:#fff;">Giurgiulești Port Terminal</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Giurgiulești Port Terminal</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Danube River / Maritime Channel, MD</span>
             </td>
             <td>
@@ -551,13 +551,13 @@
             </td>
             <td style="text-align:right;" class="mono">1.6M MT / 70k MT Silos</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$55.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Moldova's <strong>sole deep-water maritime access</strong> point. Natural regional export monopoly handling &gt;80% of Moldovan agricultural exports under concession through 2055.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Floarea Soarelui Crushing</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Floarea Soarelui Crushing</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Bălți, Northern Moldova</span>
             </td>
             <td>
@@ -568,13 +568,13 @@
             </td>
             <td style="text-align:right;" class="mono">1,200 MT/day (~400k MT/yr)</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$45.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Largest oilseed extraction facility in Moldova. Integrated biomass generation uses sunflower seed husks to produce 100% of required steam, insulating plant from gas price spikes.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Trans Oil Refinery (Ceadîr)</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Trans Oil Refinery (Ceadîr)</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Ceadîr-Lunga, Gagauzia, South MD</span>
             </td>
             <td>
@@ -585,13 +585,13 @@
             </td>
             <td style="text-align:right;" class="mono">700 MT/day (~220k MT/yr)</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$22.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Strategic location adjacent to southern grain belt with direct dedicated rail sidings running directly to the Giurgiulești port complex.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Țăndărei Crushing Plant</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Țăndărei Crushing Plant</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Ialomița, Romania (EU Member State)</span>
             </td>
             <td>
@@ -602,13 +602,13 @@
             </td>
             <td style="text-align:right;" class="mono">750 MT/day (~250k MT/yr)</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$28.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               <strong>EU Single Market Asset:</strong> Zero import tariffs into the European Union. Direct access to Constanța Black Sea port, bypassing Moldovan border formalities entirely.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Danube Silo &amp; Elevator Network</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Danube Silo &amp; Elevator Network</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">16 Inland Silo Hubs across MD</span>
             </td>
             <td>
@@ -619,13 +619,13 @@
             </td>
             <td style="text-align:right;" class="mono">1,000,000+ MT Storage</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$18.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Unmatched rural collection density. Captive grain farmer origination backed by Aragvi pre-export seed and fertilizer financing agreements.
             </td>
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Danube Barges &amp; Logistics Fleet</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Danube Barges &amp; Logistics Fleet</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Danube Riverway / Rail Corridors</span>
             </td>
             <td>
@@ -636,7 +636,7 @@
             </td>
             <td style="text-align:right;" class="mono">60+ Barges &amp; 500+ Hoppers</td>
             <td style="text-align:right; font-weight:700; color:var(--accent-emerald);" class="mono">$12.0M</td>
-            <td style="font-size:10.5px; color:#cbd5e1;">
+            <td style="font-size:10.5px; color:#334155;">
               Essential component of European Union "Solidarity Lanes". Complete logistics independence protects Aragvi from Black Sea freight and insurance spikes.
             </td>
           </tr>
@@ -861,21 +861,21 @@
     <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:12px; margin-bottom:14px;">
       <div style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:6px; padding:10px 12px;">
         <div style="font-size:11px; font-weight:700; color:var(--accent-amber); margin-bottom:4px;">🌾 Sunflower Seed Crush Margins</div>
-        <div style="font-size:10.5px; color:#cbd5e1; line-height:1.45;">
+        <div style="font-size:10.5px; color:#334155; line-height:1.45;">
           Crush margin is the spread between raw sunflower seed cost and the combined revenue from refined oil and meal. 
           Historically ranges from $60/MT (stress) to $140/MT (peak), averaging $90/MT across Aragvi's 1.2M MT crushing fleet.
         </div>
       </div>
       <div style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:6px; padding:10px 12px;">
         <div style="font-size:11px; font-weight:700; color:var(--accent-cyan); margin-bottom:4px;">⚓ Danube Export Volume &amp; Tariffs</div>
-        <div style="font-size:10.5px; color:#cbd5e1; line-height:1.45;">
+        <div style="font-size:10.5px; color:#334155; line-height:1.45;">
           Giurgiulești port transshipment fees and storage tariffs generate high-margin cash flow ($30–$40/MT handled). 
           Volume is supported by EU "Solidarity Lanes", ensuring stable throughput even when domestic Moldovan crop yields dip.
         </div>
       </div>
       <div style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:6px; padding:10px 12px;">
         <div style="font-size:11px; font-weight:700; color:var(--accent-emerald); margin-bottom:4px;">💵 Hard-Currency USD Working Capital</div>
-        <div style="font-size:10.5px; color:#cbd5e1; line-height:1.45;">
+        <div style="font-size:10.5px; color:#334155; line-height:1.45;">
           Pre-Export Finance (PXF) commodity facilities ($186.5M drawn) fund seasonal crop procurement in USD. 
           When crops are exported and sold to international buyers (Bunge, Cargill, ADM), revenues automatically retire revolving lines in hard currency.
         </div>
@@ -979,7 +979,7 @@
           </div>
           <input type="range" class="styled-slider" id="slider-notional" min="100000" max="10000000" step="100000" value="1000000" oninput="onNotionalChange(this.value)">
           <div style="font-size:10px; color:var(--text-dim); margin-top:4px;">
-            Cash Capital Invested: <strong id="lbl-cash-invested" style="color:#fff;">$890,000</strong>
+            Cash Capital Invested: <strong id="lbl-cash-invested" style="color:#0f172a;">$890,000</strong>
           </div>
         </div>
 
@@ -991,7 +991,7 @@
           </div>
           <input type="range" class="styled-slider" id="slider-horizon" min="6" max="36" step="3" value="12" oninput="onHorizonChange(this.value)">
           <div style="font-size:10px; color:var(--text-dim); margin-top:4px;">
-            Target Exit Date: <strong id="lbl-exit-date" style="color:#fff;">Oct 2027</strong> &bull; Accrued Carry Rate: <strong>12.15%</strong>
+            Target Exit Date: <strong id="lbl-exit-date" style="color:#0f172a;">Oct 2027</strong> &bull; Accrued Carry Rate: <strong>12.15%</strong>
           </div>
         </div>
       </div>
@@ -1086,7 +1086,7 @@
     <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:12px;">
       <div style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:6px; padding:12px;">
         <div style="font-size:11px; font-weight:700; color:var(--accent-emerald); margin-bottom:4px;">✅ Organic Debt Service Capacity</div>
-        <p style="font-size:10.5px; color:#cbd5e1; line-height:1.5;">
+        <p style="font-size:10.5px; color:#334155; line-height:1.5;">
           Under normal operations, Aragvi generates $180M EBITDA. Deducting $60M maintenance capex, $48M cash interest, and $25M tax/working capital leaves 
           <strong>$47M in free cash flow</strong> annually, sufficient to pay down $180M+ of principal over a 4-year extension period.
         </p>
@@ -1094,7 +1094,7 @@
 
       <div style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:6px; padding:12px;">
         <div style="font-size:11px; font-weight:700; color:var(--accent-amber); margin-bottom:4px;">⚠️ Working Capital Seasonal Swing</div>
-        <p style="font-size:10.5px; color:#cbd5e1; line-height:1.5;">
+        <p style="font-size:10.5px; color:#334155; line-height:1.5;">
           During harvest season (July–October), working capital absorbs $80M–$120M in cash to procure sunflower seeds and grain from farmers. 
           This requires unhindered access to commercial PXF lines; if banks freeze revolvers, cash flow is temporarily squeezed.
         </p>
@@ -1102,7 +1102,7 @@
 
       <div style="background:var(--bg-card-sub); border:1px solid var(--border-color); border-radius:6px; padding:12px;">
         <div style="font-size:11px; font-weight:700; color:var(--accent-cyan); margin-bottom:4px;">🎯 The Optimal A&amp;E Exchange Structure</div>
-        <p style="font-size:10.5px; color:#cbd5e1; line-height:1.5;">
+        <p style="font-size:10.5px; color:#334155; line-height:1.5;">
           Exchange existing 12.15% 2026 notes into new 12.50% Senior Secured Notes due July 2030, sweetened with first-lien mortgages over the 
           Țăndărei Romanian crushing plant and an annual 10% cash amortization sweep tied to excess Danube port EBITDA.
         </p>
@@ -1126,11 +1126,11 @@
           <span style="font-size:12px; font-weight:800; color:var(--accent-rose); text-transform:uppercase;">🔴 Bear: War Escalation &amp; Port Disruption</span>
           <span style="font-size:10.5px; font-weight:800; font-family:'JetBrains Mono',monospace; color:var(--accent-rose); background:rgba(244,63,94,0.15); padding:2px 6px; border-radius:3px;">65c–75c Recovery</span>
         </div>
-        <p style="font-size:10.5px; color:#cbd5e1; line-height:1.5;">
+        <p style="font-size:10.5px; color:#334155; line-height:1.5;">
           Regional war spills into Danube shipping fairway; Russian drone strikes damage nearby Danube port facilities; shipping insurance spikes; 
           trade finance banks freeze seasonal PXF lines.
         </p>
-        <ul style="font-size:10px; color:#94a3b8; line-height:1.5; margin-left:14px;">
+        <ul style="font-size:10px; color:#475569; line-height:1.5; margin-left:14px;">
           <li><strong>EBITDA:</strong> Drops to $120.0M due to grain export bottlenecks and high freight charges.</li>
           <li><strong>Valuation Multiple:</strong> Compresses to 4.50x EV ($540M operational EV).</li>
           <li><strong>Distributable Value:</strong> $350.0M after $280M priority debt &amp; fees.</li>
@@ -1144,11 +1144,11 @@
           <span style="font-size:12px; font-weight:800; color:var(--accent-gold); text-transform:uppercase;">🟡 Base: Consensual 4Y A&amp;E Rollover</span>
           <span style="font-size:10.5px; font-weight:800; font-family:'JetBrains Mono',monospace; color:var(--accent-gold); background:rgba(245,158,11,0.15); padding:2px 6px; border-radius:3px;">95c–98c Fair Value</span>
         </div>
-        <p style="font-size:10.5px; color:#cbd5e1; line-height:1.5;">
+        <p style="font-size:10.5px; color:#334155; line-height:1.5;">
           Danube navigation remains stable under EU "Solidarity Lanes"; EBRD and commercial banks maintain bilateral PXF facilities; 
           consensual 4-year maturity extension executed with zero principal haircut.
         </p>
-        <ul style="font-size:10px; color:#94a3b8; line-height:1.5; margin-left:14px;">
+        <ul style="font-size:10px; color:#475569; line-height:1.5; margin-left:14px;">
           <li><strong>EBITDA:</strong> Steady at $180.0M baseline across crushing, port, and silos.</li>
           <li><strong>Valuation Multiple:</strong> 5.74x SOTP weighted multiple ($1,033M operational EV).</li>
           <li><strong>Senior Coverage:</strong> 219.0% asset coverage ($870.4M net distributable value).</li>
@@ -1162,11 +1162,11 @@
           <span style="font-size:12px; font-weight:800; color:var(--accent-cyan); text-transform:uppercase;">🟢 Bull: EU Accession &amp; Strategic Stake</span>
           <span style="font-size:10.5px; font-weight:800; font-family:'JetBrains Mono',monospace; color:var(--accent-cyan); background:rgba(56,189,248,0.15); padding:2px 6px; border-radius:3px;">100c–105c Full Par+</span>
         </div>
-        <p style="font-size:10.5px; color:#cbd5e1; line-height:1.5;">
+        <p style="font-size:10.5px; color:#334155; line-height:1.5;">
           Moldova EU accession negotiations accelerate; global grain major (ADM, Bunge, Cargill) acquires 25%+ strategic equity stake; 
           notes called early at make-whole / par tender.
         </p>
-        <ul style="font-size:10px; color:#94a3b8; line-height:1.5; margin-left:14px;">
+        <ul style="font-size:10px; color:#475569; line-height:1.5; margin-left:14px;">
           <li><strong>EBITDA:</strong> Expands to $220.0M on bumper harvest and widening European crush spreads.</li>
           <li><strong>Valuation Multiple:</strong> Re-rates to 6.50x EV ($1,430M operational EV).</li>
           <li><strong>Senior Coverage:</strong> 324.5% coverage; $100M+ strategic equity injection.</li>
@@ -1210,7 +1210,7 @@
         <tbody>
           <tr>
             <td>
-              <strong style="color:#fff;">Trade Finance &amp; PXF Syndicate Rollover</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Trade Finance &amp; PXF Syndicate Rollover</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Commercial Commodity Banks (ING, Rabo, SocGen)</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-gold);">-4.5c to +1.5c</td>
@@ -1224,7 +1224,7 @@
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Moldovan Sovereign &amp; Transnistria Beta</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Moldovan Sovereign &amp; Transnistria Beta</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Geopolitical Stability &amp; EU Candidacy Anchoring</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-gold);">-4.0c to +2.0c</td>
@@ -1238,7 +1238,7 @@
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Danube &amp; Black Sea Shipping Risk</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Danube &amp; Black Sea Shipping Risk</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">War Insurance Premiums &amp; River Fairway Safety</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-gold);">-3.5c to +1.5c</td>
@@ -1252,7 +1252,7 @@
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Sponsor Governance &amp; Key-Man Discount</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Sponsor Governance &amp; Key-Man Discount</strong><br>
               <span style="color:var(--text-dim); font-size:10px;">Vaja Jhashi Control &amp; Swiss HoldCo Structure</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-gold);">-3.0c to +1.0c</td>
@@ -1275,10 +1275,10 @@
       </div>
       <div style="display:grid; grid-template-columns: 1fr 1fr; gap:14px; font-size:11px; line-height:1.5;">
         <div>
-          <p style="color:#cbd5e1; margin-bottom:8px;">
+          <p style="color:#334155; margin-bottom:8px;">
             The engine sums the 4 qualitative sliders into a single <strong>Net Qualitative Adjustment (&Delta;<sub>qual</sub>)</strong>:
           </p>
-          <div style="background:#060913; border:1px solid #1e293b; border-radius:5px; padding:8px 12px; font-family:'JetBrains Mono',monospace; font-size:11px; color:#fbbf24; margin-bottom:8px;">
+          <div style="background:#060913; border:1px solid #cbd5e1; border-radius:5px; padding:8px 12px; font-family:'JetBrains Mono',monospace; font-size:11px; color:#fbbf24; margin-bottom:8px;">
             &Delta;<sub>qual</sub> = &Delta;<sub>PXF</sub> + &Delta;<sub>Sovereign</sub> + &Delta;<sub>Shipping</sub> + &Delta;<sub>Governance</sub>
           </div>
           <p style="color:var(--text-muted); font-size:10.5px;">
@@ -1287,21 +1287,21 @@
           </p>
         </div>
         <div>
-          <p style="color:#cbd5e1; margin-bottom:6px;">
+          <p style="color:#334155; margin-bottom:6px;">
             <strong>Secondary Trading Band per Scenario (Floor vs Fair vs Upside):</strong>
           </p>
           <ul style="margin-left:14px; display:flex; flex-direction:column; gap:6px; font-family:'JetBrains Mono',monospace; font-size:10.5px;">
             <li>
               <span style="color:var(--accent-rose); font-weight:700;">Trading Floor (Stress Exit):</span> 
-              <span style="color:#e2e8f0;">max(50.0c, Raw Recovery &times; 0.65 + min(-6.0c, &Delta;<sub>qual</sub> &times; 1.5)) &rarr; ~58.0c</span>
+              <span style="color:#334155;">max(50.0c, Raw Recovery &times; 0.65 + min(-6.0c, &Delta;<sub>qual</sub> &times; 1.5)) &rarr; ~58.0c</span>
             </li>
             <li>
               <span style="color:var(--accent-emerald); font-weight:700;">Desk Fair Value (Model PV):</span> 
-              <span style="color:#e2e8f0;">min(100.0c, Raw Recovery + &Delta;<sub>qual</sub> + Carry) &rarr; 97.0c</span>
+              <span style="color:#334155;">min(100.0c, Raw Recovery + &Delta;<sub>qual</sub> + Carry) &rarr; 97.0c</span>
             </li>
             <li>
               <span style="color:var(--accent-cyan); font-weight:700;">Emergence Upside (Re-Rating):</span> 
-              <span style="color:#e2e8f0;">min(105.0c, Raw Recovery + max(0.0c, &Delta;<sub>qual</sub>) + 2.5c) &rarr; 102.5c</span>
+              <span style="color:#334155;">min(105.0c, Raw Recovery + max(0.0c, &Delta;<sub>qual</sub>) + 2.5c) &rarr; 102.5c</span>
             </li>
           </ul>
         </div>
@@ -1319,7 +1319,7 @@
     </div>
 
     <!-- Executive Overview -->
-    <div style="font-size:11.5px; color:#cbd5e1; line-height:1.6; margin-bottom:14px;">
+    <div style="font-size:11.5px; color:#334155; line-height:1.6; margin-bottom:14px;">
       In an emerging market agribusiness distress situation, the primary threat to offshore bondholders is rarely raw asset inadequacy, 
       but rather <strong>creditor-on-creditor violence</strong>: international commodity trade finance banks (ING, Rabobank, Société Générale, UniCredit) 
       holding senior pledges over grain inventories, warehouse receipts, and export receivables seizing physical collateral, shutting off working capital, 
@@ -1341,10 +1341,10 @@
             STRUCTURAL PRIORITY
           </span>
         </div>
-        <p style="font-size:10.5px; color:#94a3b8; line-height:1.5; margin-bottom:8px;">
+        <p style="font-size:10.5px; color:#475569; line-height:1.5; margin-bottom:8px;">
           HoldCo Eurobond investors are structurally subordinated to $267.6M of operating priority debt:
         </p>
-        <ul style="font-size:10px; color:#cbd5e1; line-height:1.6; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
+        <ul style="font-size:10px; color:#334155; line-height:1.6; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
           <li>
             <strong>Pre-Export Finance (PXF) Revolvers ($186.5M drawn):</strong>
             First-lien security over grain inventories in 16 silos, export contracts, and Swiss collection accounts. Lenders: ING, Rabobank, UniCredit, SocGen.
@@ -1374,10 +1374,10 @@
             DOWNGRADE THREATS
           </span>
         </div>
-        <p style="font-size:10.5px; color:#94a3b8; line-height:1.5; margin-bottom:8px;">
+        <p style="font-size:10.5px; color:#475569; line-height:1.5; margin-bottom:8px;">
           How secured commodity lenders could aggressively pressure HoldCo Eurobond holders:
         </p>
-        <ul style="font-size:10px; color:#cbd5e1; line-height:1.6; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
+        <ul style="font-size:10px; color:#334155; line-height:1.6; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
           <li>
             <strong>PXF Revolver Freeze &amp; Inventory Seizure (-4.5c drag):</strong>
             Trade finance banks could refuse to roll seasonal procurement facilities upon bond maturity default, enforcing warehouse liens and liquidating grain stocks at distressed auction prices.
@@ -1403,10 +1403,10 @@
             DOMINANT STRATEGY
           </span>
         </div>
-        <p style="font-size:10.5px; color:#94a3b8; line-height:1.5; margin-bottom:8px;">
+        <p style="font-size:10.5px; color:#475569; line-height:1.5; margin-bottom:8px;">
           Four systemic forces compel commercial banks and DFIs to support a consensual maturity extension:
         </p>
-        <ul style="font-size:10px; color:#cbd5e1; line-height:1.6; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
+        <ul style="font-size:10px; color:#334155; line-height:1.6; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
           <li>
             <strong>The EBRD / BSTDB DFI Governance Anchor:</strong>
             EBRD and BSTDB are core lenders committed to Moldovan economic survival. They strictly oppose predatory liquidation and mediate consensual standstill agreements.
@@ -1433,7 +1433,7 @@
       <div style="font-size:11px; font-weight:800; color:var(--accent-gold); text-transform:uppercase; margin-bottom:8px;">
         📊 Quantitative Cents Attribution Matrix: Translating Bank Dynamics into Secondary Bond Pricing
       </div>
-      <p style="font-size:10.5px; color:#cbd5e1; line-height:1.5; margin-bottom:10px;">
+      <p style="font-size:10.5px; color:#334155; line-height:1.5; margin-bottom:10px;">
         The desk models the net effect of creditor dynamics directly in cents per dollar of claim across Core Scenarios:
       </p>
 
@@ -1450,7 +1450,7 @@
         <tbody>
           <tr>
             <td>
-              <strong style="color:#fff;">PXF Bank Cooperation vs Liquidity Freeze</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">PXF Bank Cooperation vs Liquidity Freeze</strong><br>
               <span style="color:var(--text-dim); font-size:9.5px;">Revolving Commodity Credit Lines</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-rose); font-weight:700;">-4.5c</td>
@@ -1462,7 +1462,7 @@
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Structural Priming &amp; Asset Pledges</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Structural Priming &amp; Asset Pledges</strong><br>
               <span style="color:var(--text-dim); font-size:9.5px;">Țăndărei Romania &amp; Swiss Trading Arm</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-rose); font-weight:700;">-3.5c</td>
@@ -1474,7 +1474,7 @@
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Danube &amp; Regional War Risk Transmission</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Danube &amp; Regional War Risk Transmission</strong><br>
               <span style="color:var(--text-dim); font-size:9.5px;">Shipping Insurance &amp; Port Access</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-rose); font-weight:700;">-4.0c</td>
@@ -1486,7 +1486,7 @@
           </tr>
           <tr>
             <td>
-              <strong style="color:#fff;">Sponsor &amp; Strategic Equity Injection</strong><br>
+              <strong style="color:#0f172a; font-weight:700;">Sponsor &amp; Strategic Equity Injection</strong><br>
               <span style="color:var(--text-dim); font-size:9.5px;">Vaja Jhashi / Western Agribusiness Partner</span>
             </td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-rose); font-weight:700;">-3.0c</td>
@@ -1497,7 +1497,7 @@
             </td>
           </tr>
           <tr style="background:rgba(255,255,255,0.03); border-top:1px solid #334155; font-weight:700;">
-            <td style="color:#fff;">NET QUALITATIVE ADJUSTMENT</td>
+            <td style="color:#0f172a;">NET QUALITATIVE ADJUSTMENT</td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-rose); font-size:12px;">-15.0c</td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-gold); font-size:12px;">-3.5c</td>
             <td style="text-align:center; font-family:'JetBrains Mono',monospace; color:var(--accent-emerald); font-size:12px;">+7.0c</td>
@@ -1515,7 +1515,7 @@
         <div style="font-size:11.5px; font-weight:800; color:var(--accent-emerald); text-transform:uppercase; margin-bottom:3px;">
           ⚖️ Desk Strategic Takeaway on Bank Cooperation
         </div>
-        <div style="font-size:10.5px; color:#cbd5e1; line-height:1.5; max-width:900px;">
+        <div style="font-size:10.5px; color:#334155; line-height:1.5; max-width:900px;">
           Creditor-on-creditor violence against offshore Eurobond holders by commodity trade finance banks is strongly deterred by the EBRD/DFI governance umbrella, 
           the perishable nature of agribusiness collateral, and the European Union's strategic mandate to preserve the Danube "Solidarity Lanes". 
           This firmly anchors a <strong>consensual 4-year Amend &amp; Extend (A&amp;E)</strong> rollover to July 2030 at 12.50% coupon. 
@@ -1702,7 +1702,7 @@
             <strong style="color:${td.color};">${td.name}</strong><br>
             <span style="font-size:10px; color:var(--text-dim);">${td.desc}</span>
           </td>
-          <td style="text-align:right; font-weight:700; color:#fff;" class="mono">${td.exitPx.toFixed(1)}c</td>
+          <td style="text-align:right; font-weight:700; color:#0f172a;" class="mono">${td.exitPx.toFixed(1)}c</td>
           <td style="text-align:right;" class="mono">$${Math.round(td.proceeds).toLocaleString()}</td>
           <td style="text-align:right; font-weight:700; color:${td.profit >= 0 ? 'var(--accent-emerald)' : 'var(--accent-rose)'};" class="mono">
             ${td.profit >= 0 ? '+' : ''}$${Math.round(td.profit).toLocaleString()}

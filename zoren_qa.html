@@ -14,12 +14,12 @@
       color-scheme: light;
       --bg-main: #f8fafc;
       --bg-card: #ffffff;
-      --bg-card-sub: #f1f5f9;
+      --bg-card-sub: #f8fafc;
       --bg-hover: #e2e8f0;
-      --border-color: #e2e8f0;
-      --border-highlight: #cbd5e1;
+      --border-color: var(--text-muted);
+      --border-highlight: #94a3b8;
       --text-main: #0f172a;
-      --text-muted: #475569;
+      --text-muted: #334155;
       --text-dim: #64748b;
       --accent-cyan: #0071e3;
       --accent-emerald: #15803d;
@@ -151,7 +151,7 @@
     .hero-title-wrap h1 {
       font-size: 18px;
       font-weight: 800;
-      color: #fff;
+      color: var(--text-main);
       display: flex;
       align-items: center;
       gap: 10px;
@@ -202,7 +202,7 @@
       font-family: 'JetBrains Mono', monospace;
       font-size: 16px;
       font-weight: 800;
-      color: #fff;
+      color: var(--text-main);
       margin-top: 2px;
     }
 
@@ -242,7 +242,7 @@
       background: transparent;
       border: none;
       outline: none;
-      color: #fff;
+      color: var(--text-main);
       font-size: 11px;
       width: 100%;
       font-family: inherit;
@@ -268,7 +268,7 @@
 
     .chip-btn:hover {
       border-color: var(--accent-cyan);
-      color: #fff;
+      color: var(--accent-cyan); font-weight:700;
     }
 
     .chip-btn.active {
@@ -299,7 +299,7 @@
       align-items: center;
       gap: 12px;
       user-select: none;
-      background: rgba(15, 23, 42, 0.4);
+      background:#f8fafc; border:1px solid #cbd5e1;
     }
 
     .qa-title-wrap {
@@ -324,7 +324,7 @@
     .qa-question {
       font-size: 13px;
       font-weight: 700;
-      color: #fff;
+      color: var(--text-main);
       line-height: 1.35;
     }
 
@@ -354,9 +354,9 @@
       padding: 16px 18px;
       border-top: 1px solid var(--border-color);
       font-size: 11.5px;
-      color: #cbd5e1;
+      color: var(--text-main);
       line-height: 1.6;
-      background: #080d1a;
+      background: #ffffff; border: 1px solid #cbd5e1;
     }
 
     .qa-card.open .qa-body {
@@ -370,7 +370,7 @@
       border-radius: 0 4px 4px 0;
       margin: 12px 0;
       font-size: 11px;
-      color: #e2e8f0;
+      color: var(--text-muted);
     }
 
     .qa-table {
@@ -382,8 +382,8 @@
     }
 
     .qa-table th {
-      background: #0f172a;
-      color: #94a3b8;
+      background:#f1f5f9; border:1px solid #cbd5e1;
+      color: #1e293b; background: #f1f5f9;
       text-align: left;
       padding: 6px 8px;
       border-bottom: 1px solid var(--border-color);
@@ -515,7 +515,7 @@
   <!-- EXECUTIVE CAPITAL STRUCTURE & ENTITY HIERARCHY MAP -->
   <div class="cap-struct-card" style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:8px; padding:16px; margin-bottom:16px;">
     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:12px; border-bottom:1px solid var(--border-color); padding-bottom:10px;">
-      <div style="font-size:13px; font-weight:800; color:#fff; text-transform:uppercase; letter-spacing:0.5px; display:flex; align-items:center; gap:8px;">
+      <div style="font-size:13px; font-weight:800; color:#0f172a; text-transform:uppercase; letter-spacing:0.5px; display:flex; align-items:center; gap:8px;">
         <span style="color:var(--accent-gold);">🏛️</span> Corporate Legal Hierarchy &amp; Capital Structure Map: Where the 2030 Eurobond Sits
       </div>
       <span style="font-size:9.5px; font-family:'JetBrains Mono',monospace; padding:3px 8px; border-radius:4px; background:rgba(56,189,248,0.15); color:var(--accent-cyan); border:1px solid rgba(56,189,248,0.3); font-weight:700;">
@@ -527,15 +527,15 @@
     <div style="display:grid; grid-template-columns: 1fr; gap:12px;">
       
       <!-- TIER 1: TOPCO -->
-      <div style="background:rgba(15,23,42,0.8); border:1px solid rgba(244,63,94,0.3); border-radius:6px; padding:12px;">
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border:1px solid rgba(244,63,94,0.3); border-radius:6px; padding:12px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:6px;">
           <div style="display:flex; align-items:center; gap:6px;">
             <span style="background:rgba(244,63,94,0.2); color:var(--accent-rose); font-size:9.5px; font-weight:800; padding:2px 6px; border-radius:3px;">TIER 1 &bull; ULTIMATE SPONSOR</span>
-            <strong style="font-size:12px; color:#fff;">Zorlu Holding A.Ş. (Parent TopCo)</strong>
+            <strong style="font-size:12px; color:#0f172a;">Zorlu Holding A.Ş. (Parent TopCo)</strong>
           </div>
           <span style="font-size:9.5px; color:#f87171; font-family:'JetBrains Mono',monospace;">Unlisted Family Conglomerate &bull; Non-Recourse to ZOREN</span>
         </div>
-        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:8px; font-size:10.5px; color:#cbd5e1; margin-top:8px; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:8px; font-size:10.5px; color:#334155; margin-top:8px; background:#f8fafc; padding:8px; border-radius:4px;">
           <div>&bull; <strong>Equity Ownership:</strong> Holds ~56.8% of ZOREN common shares (pledged to Turkish banks for holding facilities).</div>
           <div>&bull; <strong>Related-Party Leakage:</strong> Drained <strong style="color:var(--accent-amber);">$756.8M in gross intercompany IOUs</strong> from ZOREN.</div>
           <div>&bull; <strong>Creditor Standing:</strong> Holding creditors have <strong style="color:var(--accent-rose);">ZERO direct legal claim</strong> on ZOREN utility operating assets.</div>
@@ -554,7 +554,7 @@
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
           <div style="display:flex; align-items:center; gap:8px;">
             <span style="background:var(--accent-gold); color:#000; font-size:10px; font-weight:800; padding:2px 8px; border-radius:3px;">TIER 2 &bull; DEBT ISSUER</span>
-            <strong style="font-size:13px; color:#fff;">Zorlu Enerji Elektrik Üretim A.Ş. (BIST: ZOREN)</strong>
+            <strong style="font-size:13px; color:#0f172a;">Zorlu Enerji Elektrik Üretim A.Ş. (BIST: ZOREN)</strong>
           </div>
           <span style="background:rgba(251,191,36,0.15); border:1px solid rgba(251,191,36,0.4); color:var(--accent-gold); font-size:10px; font-weight:800; padding:2px 8px; border-radius:3px;">
             ★ WHERE THE EUROBOND SITS ★
@@ -566,9 +566,9 @@
           <div style="background:rgba(251,191,36,0.06); border:1px solid rgba(251,191,36,0.35); border-radius:5px; padding:10px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
               <strong style="color:var(--accent-gold); font-size:11px;">ZOREN 11.000% 2030 Eurobond</strong>
-              <span style="font-family:'JetBrains Mono',monospace; color:#fff; font-weight:700;">$800M Face / $1,100M Claim</span>
+              <span style="font-family:'JetBrains Mono',monospace; color:#0f172a; font-weight:700;">$800M Face / $1,100M Claim</span>
             </div>
-            <div style="font-size:10px; color:#cbd5e1; line-height:1.45;">
+            <div style="font-size:10px; color:#334155; line-height:1.45;">
               <div>&bull; <strong>Legal Status:</strong> Direct, senior unsecured, unsubordinated obligation of ZOREN.</div>
               <div>&bull; <strong>Governing Law:</strong> English Law (Trustee: BNY Mellon; Reg S / 144A &bull; ISIN: XS2926261426).</div>
               <div>&bull; <strong>Collateral:</strong> Negative pledge covenant only. <strong style="color:var(--accent-rose);">NO asset mortgages or account pledges</strong>.</div>
@@ -578,12 +578,12 @@
           </div>
 
           <!-- Local Bonds & Bank Bilaterals -->
-          <div style="background:rgba(15,23,42,0.6); border:1px solid var(--border-color); border-radius:5px; padding:10px;">
+          <div style="background:#f8fafc; border:1px solid #cbd5e1; border:1px solid var(--border-color); border-radius:5px; padding:10px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
-              <strong style="color:#cbd5e1; font-size:11px;">Pari Passu Issuer Debt (Domestic TL)</strong>
-              <span style="font-family:'JetBrains Mono',monospace; color:#94a3b8;">$391.2M Total</span>
+              <strong style="color:#334155; font-size:11px;">Pari Passu Issuer Debt (Domestic TL)</strong>
+              <span style="font-family:'JetBrains Mono',monospace; color:#475569;">$391.2M Total</span>
             </div>
-            <div style="font-size:10px; color:#94a3b8; line-height:1.45;">
+            <div style="font-size:10px; color:#475569; line-height:1.45;">
               <div>&bull; <strong>Local TL Corporate Bonds (ÖST):</strong> $228.0M (TRY 8.7B). Contractually pari passu with Eurobonds under Turkish capital markets law (SPK), but short maturities (3-12 mo) and ~45% TL coupon bleed.</div>
               <div>&bull; <strong>Unsecured Bank Bilaterals:</strong> $163.2M Turkish bank revolving lines (Akbank, Garanti, İşbank). Subject to BDDK FYY restructuring.</div>
               <div>&bull; <strong>Intercompany Payables:</strong> $12.3M trade obligations to affiliates.</div>
@@ -600,20 +600,20 @@
       </div>
 
       <!-- TIER 3: OPCOS (STRUCTURALLY SENIOR) -->
-      <div style="background:rgba(15,23,42,0.8); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px;">
+      <div style="background:#f8fafc; border:1px solid #cbd5e1; border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:6px;">
           <div style="display:flex; align-items:center; gap:6px;">
             <span style="background:rgba(56,189,248,0.2); color:var(--accent-cyan); font-size:9.5px; font-weight:800; padding:2px 6px; border-radius:3px;">TIER 3 &bull; OPERATING SUBSIDIARIES</span>
-            <strong style="font-size:12px; color:#fff;">Asset Concessions (Structurally Senior Debt Perimeter)</strong>
+            <strong style="font-size:12px; color:#0f172a;">Asset Concessions (Structurally Senior Debt Perimeter)</strong>
           </div>
           <span style="font-size:9.5px; color:var(--accent-cyan); font-family:'JetBrains Mono',monospace;">$380M - $543M Project &amp; Priority Liens</span>
         </div>
 
         <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:8px; margin-top:8px;">
           <!-- OpCo 1 -->
-          <div style="background:rgba(0,0,0,0.3); border:1px solid rgba(56,189,248,0.2); border-radius:4px; padding:8px; font-size:10px;">
+          <div style="background:#f8fafc; border:1px solid rgba(56,189,248,0.2); border-radius:4px; padding:8px; font-size:10px;">
             <div style="font-weight:700; color:var(--accent-cyan); margin-bottom:2px;">1. Zorlu Yenilenebilir Enerji A.Ş. (100% Owned)</div>
-            <div style="color:#cbd5e1; line-height:1.4;">
+            <div style="color:#334155; line-height:1.4;">
               <div>&bull; <strong>Assets:</strong> 305 MW Geothermal (Kızıldere I-III, Alaşehir) + 135 MW Wind (Gökçedağ).</div>
               <div>&bull; <strong>DFI Priority Debt:</strong> <strong style="color:var(--accent-rose);">$115.0M ADB &amp; EBRD loans</strong> secured by 1st mortgages over power plants.</div>
               <div>&bull; <strong>Bank PF Syndications:</strong> <strong style="color:var(--accent-amber);">$265.0M Turkish bank facilities</strong> with direct pledges on EPİAŞ YEKDEM dollar cash accounts.</div>
@@ -622,9 +622,9 @@
           </div>
 
           <!-- OpCo 2 -->
-          <div style="background:rgba(0,0,0,0.3); border:1px solid rgba(16,185,129,0.2); border-radius:4px; padding:8px; font-size:10px;">
+          <div style="background:#f8fafc; border:1px solid rgba(16,185,129,0.2); border-radius:4px; padding:8px; font-size:10px;">
             <div style="font-weight:700; color:var(--accent-emerald); margin-bottom:2px;">2. Osmangazi Elektrik Dağıtım (OEDAŞ) (100% Owned)</div>
-            <div style="color:#cbd5e1; line-height:1.4;">
+            <div style="color:#334155; line-height:1.4;">
               <div>&bull; <strong>Assets:</strong> Regulated electricity distribution grid covering 5 provinces ($650M RAB, 1.95M customers).</div>
               <div>&bull; <strong>Ring-Fence:</strong> Regulated by EMRA; revenues are consumer electricity tariffs in TRY.</div>
               <div>&bull; <strong>Working Capital Priority:</strong> $126M net deficit owed to BOTAŞ and grid vendors; cannot be diverted to HoldCo debt service.</div>
@@ -632,9 +632,9 @@
           </div>
 
           <!-- OpCo 3 -->
-          <div style="background:rgba(0,0,0,0.3); border:1px solid rgba(192,132,252,0.2); border-radius:4px; padding:8px; font-size:10px;">
+          <div style="background:#f8fafc; border:1px solid rgba(192,132,252,0.2); border-radius:4px; padding:8px; font-size:10px;">
             <div style="font-weight:700; color:var(--accent-purple); margin-bottom:2px;">3. ZES (EV Charging) &amp; Rotor Thermal (100% Owned)</div>
-            <div style="color:#cbd5e1; line-height:1.4;">
+            <div style="color:#334155; line-height:1.4;">
               <div>&bull; <strong>Assets:</strong> 8,000+ EV charging sockets across Turkey &amp; SE Europe + thermal cogen.</div>
               <div>&bull; <strong>Collateral Status:</strong> Unencumbered; primary candidate for strategic carve-out or equity monetization.</div>
             </div>
@@ -678,31 +678,31 @@
             <td style="padding:8px; color:var(--accent-gold); font-weight:800; font-size:11px;">
               ★ 3. ZOREN 2030 Eurobonds ★
             </td>
-            <td style="padding:8px; font-weight:700; color:#fff;">Zorlu Enerji (Issuer / MidCo)</td>
+            <td style="padding:8px; font-weight:700; color:#0f172a;">Zorlu Enerji (Issuer / MidCo)</td>
             <td style="padding:8px;">English Law (Trustee: BNY Mellon)</td>
-            <td style="padding:8px; font-family:'JetBrains Mono',monospace; font-weight:700; color:#fff;">$800M - $1,100M</td>
+            <td style="padding:8px; font-family:'JetBrains Mono',monospace; font-weight:700; color:#0f172a;">$800M - $1,100M</td>
             <td style="padding:8px;">Negative pledge only; NO subsidiary guarantees</td>
             <td style="padding:8px; color:var(--accent-gold); font-weight:800;">
               Senior Unsecured (Structurally Subordinated to OpCo PF)
             </td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
-            <td style="padding:6px 8px; color:#cbd5e1;">4. Local TL Corporate Bonds (ÖST)</td>
+            <td style="padding:6px 8px; color:#334155;">4. Local TL Corporate Bonds (ÖST)</td>
             <td style="padding:6px 8px;">Zorlu Enerji (Issuer / MidCo)</td>
             <td style="padding:6px 8px;">Turkish Law (SPK)</td>
             <td style="padding:6px 8px; font-family:'JetBrains Mono',monospace;">$228.0M</td>
             <td style="padding:6px 8px;">Unsecured; held by domestic pension/mutual funds</td>
-            <td style="padding:6px 8px; color:#94a3b8;">Contractually Pari Passu with Eurobonds</td>
+            <td style="padding:6px 8px; color:#475569;">Contractually Pari Passu with Eurobonds</td>
           </tr>
           <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
-            <td style="padding:6px 8px; color:#cbd5e1;">5. Turkish Bank Bilateral Lines</td>
+            <td style="padding:6px 8px; color:#334155;">5. Turkish Bank Bilateral Lines</td>
             <td style="padding:6px 8px;">Zorlu Enerji (Issuer / MidCo)</td>
             <td style="padding:6px 8px;">Turkish Law</td>
             <td style="padding:6px 8px; font-family:'JetBrains Mono',monospace;">$163.2M</td>
             <td style="padding:6px 8px;">Unsecured working capital lines (Akbank, Garanti, İşbank)</td>
-            <td style="padding:6px 8px; color:#94a3b8;">Contractually Pari Passu (BDDK FYY Restructuring)</td>
+            <td style="padding:6px 8px; color:#475569;">Contractually Pari Passu (BDDK FYY Restructuring)</td>
           </tr>
-          <tr style="border-bottom:1px solid rgba(255,255,255,0.04); background:rgba(0,0,0,0.2);">
+          <tr style="border-bottom:1px solid rgba(255,255,255,0.04); background:#f8fafc;">
             <td style="padding:6px 8px; color:var(--text-dim);">6. Intercompany Payables</td>
             <td style="padding:6px 8px;">Zorlu Enerji (Issuer / MidCo)</td>
             <td style="padding:6px 8px;">Turkish Law</td>
@@ -745,7 +745,7 @@
           <div style="font-weight:700; color:var(--accent-gold); font-size:11.5px; margin-bottom:6px;">
             📌 The Five Defining Indenture Realities for ZOREN 2030 Eurobond Holders:
           </div>
-          <ol style="margin-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11px; color:#cbd5e1;">
+          <ol style="margin-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11px; color:#334155;">
             <li>
               <strong>Direct Legal Obligor (Tier 2 Issuer):</strong> The notes are direct, senior, unsecured obligations of <strong>Zorlu Enerji Elektrik Üretim A.Ş.</strong> (the Borsa Istanbul-listed corporate parent). They are governed by <strong>English Law</strong> under a trust indenture (BNY Mellon as Trustee).
             </li>
@@ -832,14 +832,14 @@
           </thead>
           <tbody>
             <tr>
-              <td style="color:#fff; font-weight:600;">Non-Current Related-Party Advances</td>
+              <td style="color:#0f172a; font-weight:600;">Non-Current Related-Party Advances</td>
               <td>TRY 22.05B</td>
               <td style="color:var(--accent-gold); font-weight:700;">$579.4M</td>
               <td>Zorlu Holding A.Ş. (Long-Term Corporate Advances)</td>
               <td style="color:var(--accent-rose);">100% Impairment in Holding Moratorium</td>
             </tr>
             <tr>
-              <td style="color:#fff; font-weight:600;">Current Trade &amp; Operational Receivables</td>
+              <td style="color:#0f172a; font-weight:600;">Current Trade &amp; Operational Receivables</td>
               <td>TRY 6.75B</td>
               <td style="color:var(--accent-gold); font-weight:700;">$177.4M</td>
               <td>Vestel Elektronik, Meta Nikel, Zorlu Gayrimenkul</td>
@@ -855,7 +855,7 @@
             <tr>
               <td style="color:var(--text-dim);">Less: Related-Party Payables Owed by Zoren</td>
               <td>(TRY 0.47B)</td>
-              <td style="color:#94a3b8;">-$12.3M</td>
+              <td style="color:#475569;">-$12.3M</td>
               <td>Holding corporate management fees &amp; shared IT</td>
               <td>Offset against gross receivables</td>
             </tr>
@@ -891,21 +891,21 @@
         </p>
 
         <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:10px; margin:12px 0;">
-          <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:5px; padding:10px;">
+          <div style="background:rgba(6,9,19,0.7); border:1px solid #cbd5e1; border-radius:5px; padding:10px;">
             <strong style="color:var(--accent-cyan); font-size:11px;">1. Registered Commercial Enterprise Pledges (Ticari İşletme Rehni)</strong>
-            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+            <p style="font-size:10.5px; color:#475569; margin-top:4px;">
               Turkish commercial banks (Akbank, Garanti BBVA, Türkiye İş Bankası, Halkbank, VakıfBank) hold registered notarized pledges over operating bank accounts where statutory YEKDEM hard-currency feed-in tariffs from EPİAŞ and retail collections from OEDAŞ are deposited daily. Banks execute automated debt service sweeps before cash ever reaches holding accounts.
             </p>
           </div>
-          <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:5px; padding:10px;">
+          <div style="background:rgba(6,9,19,0.7); border:1px solid #cbd5e1; border-radius:5px; padding:10px;">
             <strong style="color:var(--accent-gold); font-size:11px;">2. BDDK Financial Restructuring Framework (FYY)</strong>
-            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+            <p style="font-size:10.5px; color:#475569; margin-top:4px;">
               Under Turkish banking authority (BDDK) framework agreements (*Finansal Yeniden Yapılandırma*), domestic lenders form a statutory Consortium. If lenders representing 2/3 of bank claims agree, the agreement binds all Turkish institutions. BDDK rules grant local banks legal preference, standstill protections, and regulatory forbearance that offshore 144A/Reg S investors cannot contest.
             </p>
           </div>
-          <div style="background:rgba(6,9,19,0.7); border:1px solid #1e293b; border-radius:5px; padding:10px;">
+          <div style="background:rgba(6,9,19,0.7); border:1px solid #cbd5e1; border-radius:5px; padding:10px;">
             <strong style="color:var(--accent-rose); font-size:11px;">3. Structural Subordination of HoldCo Eurobonds</strong>
-            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+            <p style="font-size:10.5px; color:#475569; margin-top:4px;">
               Eurobonds were issued at the parent level without direct mortgages on geothermal steam turbines or transmission substations. Total Turkish bank debt of <strong>$428.2M</strong> plus multilateral DFI loans (ADB/EBRD) of <strong>$115.0M</strong> represents <strong>$543.2M in senior priority claims</strong> that sit directly between operational utility cash flows and Eurobond holders.
             </p>
           </div>
@@ -938,7 +938,7 @@
               <strong style="color:var(--accent-rose);">Trigger 1: Share Pledge Enforcement &amp; Change of Control Put (101% of Par)</strong>
               <span class="metric-callout mc-rose">INDENTURE §4.08</span>
             </div>
-            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+            <p style="font-size:10.5px; color:#475569; margin-top:4px;">
               Zorlu Holding owns ~56.4% of ZOREN, but has pledged massive share blocks to Turkish banks as collateral for parent margin loans. If Holding defaults, banks foreclose on pledged shares. This drops Holding voting control below 50.0%, triggering Section 4.08 of the Eurobond Indenture (*Mandatory Change of Control Offer at 101% plus accrued interest*). Since ZOREN cannot fund $1.1B in cash, failure to close the put within 30 days becomes a non-curable Event of Default.
             </p>
           </div>
@@ -948,7 +948,7 @@
               <strong style="color:var(--accent-amber);">Trigger 2: Bank Cross-Acceleration Threshold ($40.0M Indenture Carve-out)</strong>
               <span class="metric-callout mc-gold">INDENTURE §6.01(e)</span>
             </div>
-            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+            <p style="font-size:10.5px; color:#475569; margin-top:4px;">
               Under Section 6.01(e), default on or acceleration of any Indebtedness of the Issuer or any Significant Subsidiary exceeding $40.0M constitutes an immediate Event of Default. Turkish banks accelerating local bilateral facilities ($163.2M) instantly breaches this threshold, granting Eurobond trustees or 25% of noteholders the statutory right to accelerate the entire $1,100M note principal.
             </p>
           </div>
@@ -958,7 +958,7 @@
               <strong style="color:var(--accent-cyan);">Trigger 3: SPK Arm's-Length Advance Violation &amp; Going-Concern Audit Qualification</strong>
               <span class="metric-callout mc-cyan">SPK II-17.1 REGULATION</span>
             </div>
-            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+            <p style="font-size:10.5px; color:#475569; margin-top:4px;">
               The $756.8M advance to Zorlu Holding breaches Capital Markets Board rules on related-party transfers. In a Holding moratorium, independent auditors must take a 100% ECL impairment and attach a "Going Concern Material Uncertainty" qualification, which breaches loan covenants across domestic bank facilities and triggers unilateral loan cancellations.
             </p>
           </div>
@@ -968,7 +968,7 @@
               <strong style="color:var(--accent-purple);">Trigger 4: Working Capital Freeze &amp; Essential Vendor License Revocation</strong>
               <span class="metric-callout mc-purple">OPERATIONAL CRISIS</span>
             </div>
-            <p style="font-size:10.5px; color:#94a3b8; margin-top:4px;">
+            <p style="font-size:10.5px; color:#475569; margin-top:4px;">
               Operating with a <strong>-$126.0M working capital deficit</strong>, freezing credit lines prevents ZOREN from paying BOTAŞ for natural gas ($207.4M payables) and TEİAŞ for grid transmission. Non-payment to BOTAŞ shuts down gas cogen plants within 14 days, while default on TEİAŞ triggers EPDK regulatory revocation of generation licenses.
             </p>
           </div>
@@ -1109,7 +1109,7 @@
           <div style="font-size:11.5px; font-weight:800; color:var(--accent-cyan); margin-bottom:6px;">
             The October 31, 2027 Amortisation Milestone:
           </div>
-          <p style="font-size:11px; color:#cbd5e1; line-height:1.5;">
+          <p style="font-size:11px; color:#334155; line-height:1.5;">
             The $1,100M ZOREN 2030 Eurobond structure is not a bullet maturity; it features a mandatory <strong>scheduled principal amortisation schedule beginning October 31, 2027</strong> (~$110M-$150M first tranche). Without asset sale proceeds, ZOREN's cash balance ($51M) and quarterly interest burden (~$64M) create an insurmountable refinancing deficit by mid-2027.
           </p>
         </div>
@@ -1183,28 +1183,28 @@
             <div style="font-size:11px; font-weight:800; color:var(--accent-emerald); text-transform:uppercase;">
               1. ZOREN 11.000% 2030 Eurobonds @ 63.5c
             </div>
-            <div style="font-size:10px; color:#cbd5e1; margin-top:4px; line-height:1.5;">
+            <div style="font-size:10px; color:#334155; margin-top:4px; line-height:1.5;">
               <div>&bull; <strong>Verdict:</strong> <strong style="color:var(--accent-emerald);">STRONG BUY / ACCUMULATE</strong></div>
               <div>&bull; <strong>Asymmetry:</strong> Downside is firmly floored at <strong>51.3c – 58.0c</strong> even in a catastrophic holding default. Consensual Amend &amp; Extend yields <strong>72c – 76c (+13% to +20%)</strong>, while AlJomaih closing or par reinstatement targets <strong>95c – 100c (+49% to +57%)</strong>.</div>
               <div>&bull; <strong>Running Yield:</strong> 17.3% current cash yield bridges the holding period.</div>
             </div>
           </div>
 
-          <div style="background:rgba(6,9,19,0.8); border:1px solid #1e293b; border-radius:6px; padding:12px;">
+          <div style="background:rgba(6,9,19,0.8); border:1px solid #cbd5e1; border-radius:6px; padding:12px;">
             <div style="font-size:11px; font-weight:800; color:var(--accent-amber); text-transform:uppercase;">
               2. Domestic Turkish Bank Debt ($428M)
             </div>
-            <div style="font-size:10px; color:#cbd5e1; margin-top:4px; line-height:1.5;">
+            <div style="font-size:10px; color:#334155; margin-top:4px; line-height:1.5;">
               <div>&bull; <strong>Verdict:</strong> <strong style="color:var(--accent-amber);">HOLD / CONVERT 50% TO EQUITY</strong></div>
               <div>&bull; <strong>Strategy:</strong> Banks should avoid hostile enforcement (which triggers Eurobond cross-acceleration and turbine shutdown) and instead execute the 50% DfE swap to capture renewable equity upside.</div>
             </div>
           </div>
 
-          <div style="background:rgba(6,9,19,0.8); border:1px solid #1e293b; border-radius:6px; padding:12px;">
+          <div style="background:rgba(6,9,19,0.8); border:1px solid #cbd5e1; border-radius:6px; padding:12px;">
             <div style="font-size:11px; font-weight:800; color:var(--accent-rose); text-transform:uppercase;">
               3. Zorlu Holding Equity (BIST: ZOREN)
             </div>
-            <div style="font-size:10px; color:#cbd5e1; margin-top:4px; line-height:1.5;">
+            <div style="font-size:10px; color:#334155; margin-top:4px; line-height:1.5;">
               <div>&bull; <strong>Verdict:</strong> <strong style="color:var(--accent-rose);">UNDERWEIGHT / AVOID</strong></div>
               <div>&bull; <strong>Rationale:</strong> Existing equity faces massive dilution (26% to banks, 5% to local bondholders, 30% to AlJomaih), eroding holding equity cushion to near-zero. Senior debt offers superior risk-adjusted return.</div>
             </div>
@@ -1222,7 +1222,7 @@
   <!-- Footer Navigation Strip -->
   <div class="desk-footer">
     <div style="display:flex; align-items:center; gap:12px;">
-      <span style="font-size:11px; font-weight:700; color:#fff;">Interactive Restructuring Tools:</span>
+      <span style="font-size:11px; font-weight:700; color:#0f172a;">Interactive Restructuring Tools:</span>
       <a href="zoren_calculator.html" class="nav-btn gold">⚖️ Launch Dynamic Valuation Sandbox</a>
       <a href="zoren_background.html" class="nav-btn">📖 View Granular Asset Footprint &amp; EV Vol</a>
       <a href="company.html?id=zorlu" class="nav-btn">🏛️ Return to Zorlu Master Dossier</a>
