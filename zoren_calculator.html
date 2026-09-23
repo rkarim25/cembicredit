@@ -947,9 +947,9 @@
               <tr>
                 <th style="width:30px; text-align:center;">Inc</th>
                 <th>Asset Complex</th>
-                <th>Capacity / Type</th>
-                <th style="text-align:right;">EBITDA ($M)</th>
-                <th style="text-align:right;">EV Multiple</th>
+                <th>Capacity / Valuation Basis</th>
+                <th style="text-align:right;">EBITDA / RAB ($M)</th>
+                <th style="text-align:right;">Multiple / EV to RAB</th>
                 <th style="text-align:right;">Implied EV</th>
               </tr>
             </thead>
@@ -978,6 +978,126 @@
           <div>
             <span style="color:var(--text-muted); margin-right:8px;">Total SOTP Enterprise Value:</span>
             <strong style="color:var(--accent-cyan); font-family:'JetBrains Mono',monospace; font-size:14px;" id="sotp-summary-ev">$2,100.0M</strong>
+          </div>
+        </div>
+
+        <!-- OEDAŞ REGULATED ASSET BASE (RAB) DEEP DIVE & TARIFF BUILDING BLOCKS -->
+        <div style="margin-top:14px; background:rgba(56,189,248,0.03); border:1px solid rgba(56,189,248,0.25); border-radius:6px; padding:12px 14px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:8px;">
+            <div style="display:flex; align-items:center; gap:8px;">
+              <span style="font-size:12px; font-weight:800; color:var(--accent-cyan); text-transform:uppercase;">
+                ⚡ OEDAŞ Regulated Asset Base (RAB) Institutional Valuation Desk
+              </span>
+              <span style="font-size:9.5px; background:rgba(56,189,248,0.2); color:var(--accent-cyan); padding:2px 6px; border-radius:3px; font-weight:700;">
+                EPDK TARIFF BUILDING BLOCKS
+              </span>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <button type="button" id="btn-toggle-adb" onclick="toggleOedasAdb(this)" style="background:rgba(56,189,248,0.15); border:1px solid rgba(56,189,248,0.4); color:var(--accent-cyan); font-size:10.5px; font-weight:700; padding:3px 8px; border-radius:4px; cursor:pointer;">
+                + Expand with $95M ADB Loan ($745M RAB)
+              </button>
+              <div style="font-size:11px; color:#cbd5e1;">
+                Implied OEDAŞ EV: <strong style="color:var(--accent-cyan); font-family:'JetBrains Mono',monospace; font-size:13.5px;" id="disp-oedas-ev">$650.0M</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Regulatory Building Block Waterfall Cards -->
+          <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:8px; margin-bottom:12px;">
+            <div style="background:#0b1120; border:1px solid #1e293b; border-radius:5px; padding:8px 10px;">
+              <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase;">1. Regulated Asset Base (RAB)</div>
+              <div style="font-family:'JetBrains Mono',monospace; font-size:14px; font-weight:800; color:var(--accent-cyan);" id="disp-oedas-rab-current">$650M</div>
+              <div style="font-size:9px; color:#94a3b8;">EPDK approved rate base (Osmangazi 5 provinces)</div>
+            </div>
+            <div style="background:#0b1120; border:1px solid #1e293b; border-radius:5px; padding:8px 10px;">
+              <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase;">2. EPDK Real Pre-Tax WACC</div>
+              <div style="font-family:'JetBrains Mono',monospace; font-size:14px; font-weight:800; color:var(--accent-emerald);">12.30%</div>
+              <div style="font-size:9px; color:#94a3b8;">Guaranteed return on capital = <strong>+$80.0M/yr</strong></div>
+            </div>
+            <div style="background:#0b1120; border:1px solid #1e293b; border-radius:5px; padding:8px 10px;">
+              <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase;">3. Regulatory Depreciation</div>
+              <div style="font-family:'JetBrains Mono',monospace; font-size:14px; font-weight:800; color:#fbbf24;">+$25.0M</div>
+              <div style="font-size:9px; color:#94a3b8;">Tariff recovery allowance for grid capex</div>
+            </div>
+            <div style="background:#0b1120; border:1px solid #1e293b; border-radius:5px; padding:8px 10px;">
+              <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase;">4. Regulatory Capex Clawback</div>
+              <div style="font-family:'JetBrains Mono',monospace; font-size:14px; font-weight:800; color:var(--accent-rose);">-$20.0M</div>
+              <div style="font-size:9px; color:#94a3b8;">-$10M/half penalty for 2021-25 underspend</div>
+            </div>
+            <div style="background:#0b1120; border:1px solid #1e293b; border-radius:5px; padding:8px 10px;">
+              <div style="font-size:10px; color:var(--text-muted); text-transform:uppercase;">5. Norm. Operating Cash Flow</div>
+              <div style="font-family:'JetBrains Mono',monospace; font-size:14px; font-weight:800; color:var(--accent-gold);">$85.0M</div>
+              <div style="font-size:9px; color:#94a3b8;">Allowed Return + Depr - Penalty</div>
+            </div>
+          </div>
+
+          <!-- EV / RAB Sensitivity & Multiple Benchmarks -->
+          <div style="background:#0b1120; border:1px solid #1e293b; border-radius:5px; padding:10px 12px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
+              <span style="font-size:10.5px; font-weight:700; color:var(--accent-gold); text-transform:uppercase;">
+                📊 EV / RAB Multiple Sensitivity Matrix &amp; M&amp;A Benchmarks
+              </span>
+              <div style="display:flex; gap:4px; flex-wrap:wrap;">
+                <button type="button" onclick="setOedasMultiple(0.80)" style="background:#1e293b; border:1px solid #334155; color:#cbd5e1; font-size:9.5px; padding:2px 6px; border-radius:3px; cursor:pointer;">0.80x (Distress)</button>
+                <button type="button" onclick="setOedasMultiple(0.85)" style="background:#1e293b; border:1px solid #334155; color:#cbd5e1; font-size:9.5px; padding:2px 6px; border-radius:3px; cursor:pointer;">0.85x (Clawback)</button>
+                <button type="button" onclick="setOedasMultiple(1.00)" style="background:rgba(56,189,248,0.2); border:1px solid var(--accent-cyan); color:var(--accent-cyan); font-size:9.5px; font-weight:700; padding:2px 6px; border-radius:3px; cursor:pointer;">1.00x (Par Baseline)</button>
+                <button type="button" onclick="setOedasMultiple(1.10)" style="background:#1e293b; border:1px solid #334155; color:#cbd5e1; font-size:9.5px; padding:2px 6px; border-radius:3px; cursor:pointer;">1.10x (Modernized)</button>
+                <button type="button" onclick="setOedasMultiple(1.15)" style="background:#1e293b; border:1px solid #334155; color:#cbd5e1; font-size:9.5px; padding:2px 6px; border-radius:3px; cursor:pointer;">1.15x (Strategic M&amp;A)</button>
+              </div>
+            </div>
+            <div style="overflow-x:auto;">
+              <table style="width:100%; border-collapse:collapse; font-size:10.5px; text-align:left;">
+                <thead>
+                  <tr style="border-bottom:1px solid #1e293b; color:#94a3b8;">
+                    <th style="padding:4px 6px;">Valuation Scenario</th>
+                    <th style="padding:4px 6px; text-align:center;">EV / RAB</th>
+                    <th style="padding:4px 6px; text-align:right;">Baseline RAB ($650M)</th>
+                    <th style="padding:4px 6px; text-align:right;">ADB Expanded ($745M)</th>
+                    <th style="padding:4px 6px;">Market Context &amp; Comps</th>
+                  </tr>
+                </thead>
+                <tbody style="color:#cbd5e1; font-family:'JetBrains Mono',monospace; font-size:10px;">
+                  <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
+                    <td style="padding:4px 6px; color:var(--accent-rose); font-weight:600; font-family:'Inter',sans-serif;">Stressed Regulatory Freeze</td>
+                    <td style="padding:4px 6px; text-align:center;">0.80x</td>
+                    <td style="padding:4px 6px; text-align:right; color:var(--accent-rose); font-weight:700;">$520.0M</td>
+                    <td style="padding:4px 6px; text-align:right;">$596.0M</td>
+                    <td style="padding:4px 6px; font-family:'Inter',sans-serif; color:#94a3b8;">High capex penalties, prolonged tariff indexation lag, severe sovereign risk</td>
+                  </tr>
+                  <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
+                    <td style="padding:4px 6px; color:var(--accent-amber); font-weight:600; font-family:'Inter',sans-serif;">Capex Penalty Drag Case</td>
+                    <td style="padding:4px 6px; text-align:center;">0.85x</td>
+                    <td style="padding:4px 6px; text-align:right; color:var(--accent-amber); font-weight:700;">$552.5M</td>
+                    <td style="padding:4px 6px; text-align:right;">$633.3M</td>
+                    <td style="padding:4px 6px; font-family:'Inter',sans-serif; color:#94a3b8;">EPDK -$20M/yr underinvestment penalty fully priced in</td>
+                  </tr>
+                  <tr style="border-bottom:1px solid rgba(255,255,255,0.03); background:rgba(56,189,248,0.05);">
+                    <td style="padding:4px 6px; color:var(--accent-cyan); font-weight:700; font-family:'Inter',sans-serif;">Par Regulated Asset Base (Fair Value)</td>
+                    <td style="padding:4px 6px; text-align:center; color:var(--accent-cyan); font-weight:700;">1.00x</td>
+                    <td style="padding:4px 6px; text-align:right; color:var(--accent-cyan); font-weight:800;">$650.0M</td>
+                    <td style="padding:4px 6px; text-align:right; color:var(--accent-cyan); font-weight:800;">$745.0M</td>
+                    <td style="padding:4px 6px; font-family:'Inter',sans-serif; color:#cbd5e1;">Fundamental utility baseline: 1.00x RAB = par asset value</td>
+                  </tr>
+                  <tr style="border-bottom:1px solid rgba(255,255,255,0.03);">
+                    <td style="padding:4px 6px; color:var(--accent-emerald); font-weight:600; font-family:'Inter',sans-serif;">Grid Modernization &amp; Efficiency</td>
+                    <td style="padding:4px 6px; text-align:center;">1.10x</td>
+                    <td style="padding:4px 6px; text-align:right; color:var(--accent-emerald); font-weight:700;">$715.0M</td>
+                    <td style="padding:4px 6px; text-align:right; color:var(--accent-emerald); font-weight:700;">$819.5M</td>
+                    <td style="padding:4px 6px; font-family:'Inter',sans-serif; color:#94a3b8;">Smart meter rollout, reduced technical losses, incentive outperformance</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:4px 6px; color:#c084fc; font-weight:600; font-family:'Inter',sans-serif;">Strategic Infrastructure M&amp;A</td>
+                    <td style="padding:4px 6px; text-align:center;">1.15x</td>
+                    <td style="padding:4px 6px; text-align:right; color:#c084fc; font-weight:700;">$747.5M</td>
+                    <td style="padding:4px 6px; text-align:right; color:#c084fc; font-weight:700;">$856.8M</td>
+                    <td style="padding:4px 6px; font-family:'Inter',sans-serif; color:#94a3b8;">Gulf sovereign fund / international infrastructure utility benchmark transaction</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div style="font-size:9.5px; color:#94a3b8; margin-top:8px; line-height:1.4;">
+              💡 <strong>Why EV/EBITDA is Inappropriate:</strong> Unlike generation assets driven by power price and volume, electricity distribution networks are legally mandated natural monopolies. EBITDA is heavily distorted year-to-year by inflation indexation lags, working capital swings, and temporary capex clawbacks. Regulated Asset Base ($\text{RAB}$) represents the audited, inflation-indexed capital rate base upon which EPDK guarantees a 12.3% real return. Valuation on $\text{EV}/\text{RAB}$ is the standard institutional framework utilized by international lenders (ADB, EBRD), credit rating agencies, and M&amp;A desks.
+            </div>
           </div>
         </div>
       </div>
@@ -1743,7 +1863,7 @@
       { id: "alasehir", name: "Alaşehir Geothermal Plant", capacity: "45 MW (YEKDEM $105/MWh USD)", baseVol: 330, volUnit: "GWh", baseMargin: 75.8, marginUnit: "$/MWh", ebitda: 25.0, multiple: 6.0, included: true },
       { id: "gokcedag", name: "Gökçedağ Wind Power Plant", capacity: "135 MW (54 GE Turbines, >34% CF)", baseVol: 400, volUnit: "GWh", baseMargin: 70.0, marginUnit: "$/MWh", ebitda: 28.0, multiple: 6.0, included: true },
       { id: "hydro_fleet", name: "Hydroelectric Fleet (7 Plants)", capacity: "118.6 MW (Run-of-River/Reservoir)", baseVol: 370, volUnit: "GWh", baseMargin: 59.5, marginUnit: "$/MWh", ebitda: 22.0, multiple: 5.5, included: true },
-      { id: "oedas_grid", name: "OEDAŞ Regulated Distribution Grid", capacity: "1.95M Meters, RAB ~$650M", baseVol: 3800, volUnit: "GWh", baseMargin: 22.37, marginUnit: "$/MWh", ebitda: 85.0, multiple: 6.5, included: true },
+      { id: "oedas_grid", name: "OEDAŞ Regulated Distribution Grid", capacity: "1.95M Meters • EPDK Concession to 2036", baseVol: 8650, volUnit: "GWh", baseMargin: 9.83, marginUnit: "$/MWh", isRab: true, rabBase: 650.0, rabMultiple: 1.00, regWacc: 12.3, regDeprec: 25.0, capexPenalty: -20.0, ebitda: 85.0, multiple: 1.00, included: true },
       { id: "zes_charging", name: "ZES EV Fast-Charging Network", capacity: "1,850+ Sockets (#1 in Turkey)", baseVol: 45, volUnit: "GWh", baseMargin: 333.3, marginUnit: "$/MWh", ebitda: 15.0, multiple: 8.0, included: true },
       { id: "cogen_thermal", name: "Domestic Gas Cogeneration", capacity: "341 MW (Bursa & Lüleburgaz)", baseVol: 800, volUnit: "GWh", baseMargin: 25.0, marginUnit: "$/MWh", ebitda: 20.0, multiple: 4.5, included: true },
       { id: "international", name: "International Assets (Dorad/Pak)", capacity: "266.4 MW Net Share (USD PPAs)", baseVol: 400, volUnit: "GWh", baseMargin: 50.0, marginUnit: "$/MWh", ebitda: 20.0, multiple: 5.0, included: true }
@@ -1770,7 +1890,7 @@
         qualDorad: -0.5,
         qualMacro: -1.0,
         qualDiscount: -0.5,
-        assets: { kizildere: [135, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [85, 6.5, true], zes_charging: [15, 8.0, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
+        assets: { kizildere: [135, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [650, 1.00, true], zes_charging: [15, 8.0, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
       },
       extend: {
         duration: 6,
@@ -1785,7 +1905,7 @@
         qualDorad: 0.0,
         qualMacro: -0.5,
         qualDiscount: 0.0,
-        assets: { kizildere: [140, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [90, 6.5, true], zes_charging: [18, 8.5, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
+        assets: { kizildere: [140, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [650, 1.00, true], zes_charging: [18, 8.5, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
       },
       ipo_recap: {
         duration: 6,
@@ -1800,7 +1920,7 @@
         qualDorad: 1.0,
         qualMacro: 1.5,
         qualDiscount: 3.5,
-        assets: { kizildere: [145, 7.0, true], alasehir: [28, 6.5, true], gokcedag: [30, 6.5, true], hydro_fleet: [25, 6.0, true], oedas_grid: [95, 7.0, true], zes_charging: [20, 10.0, true], cogen_thermal: [20, 4.5, true], international: [22, 5.5, true] }
+        assets: { kizildere: [145, 7.0, true], alasehir: [28, 6.5, true], gokcedag: [30, 6.5, true], hydro_fleet: [25, 6.0, true], oedas_grid: [745, 1.10, true], zes_charging: [20, 10.0, true], cogen_thermal: [20, 4.5, true], international: [22, 5.5, true] }
       },
       haircut: {
         duration: 18,
@@ -1815,7 +1935,7 @@
         qualDorad: -2.0,
         qualMacro: -2.5,
         qualDiscount: -1.5,
-        assets: { kizildere: [120, 5.5, true], alasehir: [20, 5.0, true], gokcedag: [24, 5.0, true], hydro_fleet: [18, 4.5, true], oedas_grid: [75, 5.5, true], zes_charging: [12, 6.0, true], cogen_thermal: [15, 3.5, true], international: [15, 4.0, true] }
+        assets: { kizildere: [120, 5.5, true], alasehir: [20, 5.0, true], gokcedag: [24, 5.0, true], hydro_fleet: [18, 4.5, true], oedas_grid: [650, 0.85, true], zes_charging: [12, 6.0, true], cogen_thermal: [15, 3.5, true], international: [15, 4.0, true] }
       },
       crisis: {
         duration: 24,
@@ -1830,7 +1950,7 @@
         qualDorad: -3.5,
         qualMacro: -4.0,
         qualDiscount: -2.5,
-        assets: { kizildere: [100, 4.5, true], alasehir: [15, 4.0, true], gokcedag: [18, 4.0, true], hydro_fleet: [12, 3.5, true], oedas_grid: [60, 4.5, true], zes_charging: [8, 4.5, true], cogen_thermal: [10, 3.0, true], international: [10, 3.0, true] }
+        assets: { kizildere: [100, 4.5, true], alasehir: [15, 4.0, true], gokcedag: [18, 4.0, true], hydro_fleet: [12, 3.5, true], oedas_grid: [600, 0.75, true], zes_charging: [8, 4.5, true], cogen_thermal: [10, 3.0, true], international: [10, 3.0, true] }
       }
     };
 
@@ -1941,11 +2061,21 @@
       let sumEv = 0;
       ASSETS.forEach(a => {
         const isInc = document.getElementById(`chk-${a.id}`) ? document.getElementById(`chk-${a.id}`).checked : a.included;
-        const eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || 0;
-        const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || 0;
+        let eb = 0;
+        let ev = 0;
+        if (a.isRab) {
+          const rab = parseFloat(document.getElementById(`rab-${a.id}`)?.value) || a.rabBase;
+          const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || a.rabMultiple;
+          eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || a.ebitda;
+          ev = rab * m;
+        } else {
+          eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || 0;
+          const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || 0;
+          ev = eb * m;
+        }
         if (isInc) {
           sumEb += eb;
-          sumEv += (eb * m);
+          sumEv += ev;
         }
       });
       const blendedMult = sumEb > 0 ? (sumEv / sumEb) : 6.00;
@@ -2020,13 +2150,25 @@
       let sumEv = 0;
       ASSETS.forEach(a => {
         const isInc = document.getElementById(`chk-${a.id}`) ? document.getElementById(`chk-${a.id}`).checked : a.included;
-        const v = a.currentVol !== undefined ? a.currentVol : (a.baseVol || 0);
-        const eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || 0;
-        const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || 0;
+        let v = 0;
+        let eb = 0;
+        let ev = 0;
+        if (a.isRab) {
+          v = 8650;
+          const rab = parseFloat(document.getElementById(`rab-${a.id}`)?.value) || a.rabBase;
+          const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || a.rabMultiple;
+          eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || a.ebitda;
+          ev = rab * m;
+        } else {
+          v = a.currentVol !== undefined ? a.currentVol : (a.baseVol || 0);
+          eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || 0;
+          const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || 0;
+          ev = eb * m;
+        }
         if (isInc) {
           sumVol += v;
           sumEb += eb;
-          sumEv += (eb * m);
+          sumEv += ev;
         }
       });
       const blendedMargin = sumVol > 0 ? ((sumEb * 1000.0) / sumVol) : 43.0;
@@ -2121,6 +2263,36 @@
       const tbody = document.getElementById("pv-segment-table-body");
       if (!tbody) return;
       tbody.innerHTML = ASSETS.map(a => {
+        if (a.isRab) {
+          const curRab = document.getElementById(`rab-${a.id}`) ? parseFloat(document.getElementById(`rab-${a.id}`).value) : a.rabBase;
+          const curMult = document.getElementById(`mult-${a.id}`) ? parseFloat(document.getElementById(`mult-${a.id}`).value) : a.rabMultiple;
+          const curEb = a.ebitda;
+          const curEv = (curRab * curMult).toFixed(1);
+          return `
+            <tr style="border-bottom:1px solid rgba(255,255,255,0.04); background:rgba(56,189,248,0.02);">
+              <td style="padding:6px;">
+                <strong style="color:#fff;">${a.name}</strong>
+                <span style="background:rgba(56,189,248,0.18); color:var(--accent-cyan); font-size:8.5px; padding:1px 4px; border-radius:2px; margin-left:4px;">RAB BASE</span>
+                <div style="font-size:9.5px; color:var(--text-muted);">${a.capacity}</div>
+              </td>
+              <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; color:#cbd5e1;">
+                8,650 GWh
+              </td>
+              <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; color:var(--accent-cyan);">
+                RAB: $${curRab.toFixed(0)}M
+              </td>
+              <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#38bdf8;" id="pv-ebitda-${a.id}">
+                $${curEb.toFixed(1)}M
+              </td>
+              <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; color:#cbd5e1;">
+                ${curMult.toFixed(2)}x RAB
+              </td>
+              <td style="padding:6px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--accent-cyan);" id="pv-ev-${a.id}">
+                $${curEv}M
+              </td>
+            </tr>
+          `;
+        }
         const curVol = a.currentVol !== undefined ? a.currentVol : (a.baseVol || 0);
         const curMargin = a.currentMargin !== undefined ? a.currentMargin : (a.baseMargin || 0);
         const curEb = ((curVol * curMargin) / 1000.0).toFixed(1);
@@ -2170,13 +2342,49 @@
 
     function applyPvToSotpTable() {
       ASSETS.forEach(a => {
-        const vol = parseFloat(document.getElementById(`pv-vol-${a.id}`)?.value) || (a.currentVol !== undefined ? a.currentVol : a.baseVol);
-        const margin = parseFloat(document.getElementById(`pv-margin-${a.id}`)?.value) || (a.currentMargin !== undefined ? a.currentMargin : a.baseMargin);
-        const calcEb = Math.round((vol * margin) / 1000.0);
-        const el = document.getElementById(`ebitda-${a.id}`);
-        if (el) el.value = calcEb;
+        if (!a.isRab) {
+          const vol = parseFloat(document.getElementById(`pv-vol-${a.id}`)?.value) || (a.currentVol !== undefined ? a.currentVol : a.baseVol);
+          const margin = parseFloat(document.getElementById(`pv-margin-${a.id}`)?.value) || (a.currentMargin !== undefined ? a.currentMargin : a.baseMargin);
+          const calcEb = Math.round((vol * margin) / 1000.0);
+          const el = document.getElementById(`ebitda-${a.id}`);
+          if (el) el.value = calcEb;
+        }
       });
       setEbitdaValuationMode('sotp');
+    }
+
+    function setOedasRab(rabVal) {
+      const el = document.getElementById("rab-oedas_grid");
+      if (el) el.value = rabVal;
+      recalcEngine();
+    }
+
+    function setOedasMultiple(multVal) {
+      const el = document.getElementById("mult-oedas_grid");
+      if (el) el.value = multVal;
+      recalcEngine();
+    }
+
+    function toggleOedasAdb(btn) {
+      const el = document.getElementById("rab-oedas_grid");
+      if (!el) return;
+      const current = parseFloat(el.value) || 650;
+      if (current < 700) {
+        el.value = 745;
+        if (btn) {
+          btn.style.background = "var(--accent-cyan)";
+          btn.style.color = "#0b1120";
+          btn.textContent = "✓ ADB Expansion Active ($745M RAB)";
+        }
+      } else {
+        el.value = 650;
+        if (btn) {
+          btn.style.background = "rgba(56,189,248,0.15)";
+          btn.style.color = "var(--accent-cyan)";
+          btn.textContent = "+ Expand with $95M ADB Loan ($745M RAB)";
+        }
+      }
+      recalcEngine();
     }
 
     function initPage() {
@@ -2187,24 +2395,59 @@
 
     function renderAssetTable() {
       const tbody = document.querySelector("#asset-table tbody");
-      tbody.innerHTML = ASSETS.map((a, idx) => `
-        <tr id="row-${a.id}">
-          <td style="text-align:center;">
-            <input type="checkbox" class="asset-checkbox" id="chk-${a.id}" ${a.included ? 'checked' : ''} onchange="onAssetToggle('${a.id}')">
-          </td>
-          <td><strong style="color:#fff;">${a.name}</strong></td>
-          <td style="color:var(--text-muted); font-size:10px;">${a.capacity}</td>
-          <td style="text-align:right;">
-            <input type="number" step="5" class="num-input" id="ebitda-${a.id}" value="${a.ebitda}" onchange="recalcEngine()">
-          </td>
-          <td style="text-align:right;">
-            <input type="number" step="0.5" class="num-input" id="mult-${a.id}" value="${a.multiple}" onchange="recalcEngine()">
-          </td>
-          <td style="text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--accent-cyan);" id="ev-${a.id}">
-            $${(a.ebitda * a.multiple).toFixed(1)}M
-          </td>
-        </tr>
-      `).join('');
+      tbody.innerHTML = ASSETS.map((a, idx) => {
+        if (a.isRab) {
+          return `
+            <tr id="row-${a.id}" style="background:rgba(56,189,248,0.03); border-left:3px solid var(--accent-cyan);">
+              <td style="text-align:center;">
+                <input type="checkbox" class="asset-checkbox" id="chk-${a.id}" ${a.included ? 'checked' : ''} onchange="onAssetToggle('${a.id}')">
+              </td>
+              <td>
+                <div style="display:flex; align-items:center; gap:6px;">
+                  <strong style="color:#fff;">${a.name}</strong>
+                  <span style="background:rgba(56,189,248,0.18); color:var(--accent-cyan); font-size:9px; padding:1px 5px; border-radius:3px; font-weight:700;">RAB FRAMEWORK</span>
+                </div>
+                <div style="font-size:9.5px; color:var(--text-muted); margin-top:2px;">
+                  12.3% EPDK Real WACC &bull; Norm. EBITDA: <input type="number" step="5" id="ebitda-${a.id}" value="${a.ebitda}" onchange="recalcEngine()" style="width:55px; background:#0b1120; border:1px solid rgba(255,255,255,0.15); color:var(--accent-gold); font-size:9.5px; padding:1px 3px; border-radius:3px; text-align:right;"> $M
+                </div>
+              </td>
+              <td style="color:var(--text-muted); font-size:10px;">
+                <div>${a.capacity}</div>
+                <div style="color:var(--accent-cyan); font-size:9.5px; font-weight:600;" id="rab-val-disp-${a.id}">$${a.rabBase}M @ ${a.rabMultiple.toFixed(2)}x RAB</div>
+              </td>
+              <td style="text-align:right;">
+                <div style="font-size:9px; color:var(--accent-cyan); margin-bottom:2px;">Regulated Base</div>
+                <input type="number" step="10" class="num-input" id="rab-${a.id}" value="${a.rabBase}" onchange="recalcEngine()" style="border-color:rgba(56,189,248,0.4); color:var(--accent-cyan); font-weight:700;" title="Regulated Asset Base ($M)">
+              </td>
+              <td style="text-align:right;">
+                <div style="font-size:9px; color:var(--accent-cyan); margin-bottom:2px;">EV / RAB (x)</div>
+                <input type="number" step="0.05" class="num-input" id="mult-${a.id}" value="${a.rabMultiple}" onchange="recalcEngine()" style="border-color:rgba(56,189,248,0.4); color:var(--accent-cyan); font-weight:700;" title="Enterprise Value to Regulated Asset Base Multiple">
+              </td>
+              <td style="text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--accent-cyan);" id="ev-${a.id}">
+                $${(a.rabBase * a.rabMultiple).toFixed(1)}M
+              </td>
+            </tr>
+          `;
+        }
+        return `
+          <tr id="row-${a.id}">
+            <td style="text-align:center;">
+              <input type="checkbox" class="asset-checkbox" id="chk-${a.id}" ${a.included ? 'checked' : ''} onchange="onAssetToggle('${a.id}')">
+            </td>
+            <td><strong style="color:#fff;">${a.name}</strong></td>
+            <td style="color:var(--text-muted); font-size:10px;">${a.capacity}</td>
+            <td style="text-align:right;">
+              <input type="number" step="5" class="num-input" id="ebitda-${a.id}" value="${a.ebitda}" onchange="recalcEngine()">
+            </td>
+            <td style="text-align:right;">
+              <input type="number" step="0.5" class="num-input" id="mult-${a.id}" value="${a.multiple}" onchange="recalcEngine()">
+            </td>
+            <td style="text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--accent-cyan);" id="ev-${a.id}">
+              $${(a.ebitda * a.multiple).toFixed(1)}M
+            </td>
+          </tr>
+        `;
+      }).join('');
     }
 
     function onAssetToggle(id) {
@@ -2246,15 +2489,31 @@
       let presetEv = 0;
       ASSETS.forEach(a => {
         if (p.assets[a.id]) {
-          const [eb, m, inc] = p.assets[a.id];
-          document.getElementById(`ebitda-${a.id}`).value = eb;
-          document.getElementById(`mult-${a.id}`).value = m;
-          document.getElementById(`chk-${a.id}`).checked = inc;
-          a.included = inc;
-          document.getElementById(`row-${a.id}`).style.opacity = inc ? "1.0" : "0.4";
-          if (inc) {
-            presetEb += eb;
-            presetEv += (eb * m);
+          const [val1, val2, inc] = p.assets[a.id];
+          if (a.isRab) {
+            const elRab = document.getElementById(`rab-${a.id}`);
+            if (elRab) elRab.value = val1;
+            const elMult = document.getElementById(`mult-${a.id}`);
+            if (elMult) elMult.value = val2;
+            const elEb = document.getElementById(`ebitda-${a.id}`);
+            if (elEb) elEb.value = a.ebitda;
+            document.getElementById(`chk-${a.id}`).checked = inc;
+            a.included = inc;
+            document.getElementById(`row-${a.id}`).style.opacity = inc ? "1.0" : "0.4";
+            if (inc) {
+              presetEb += a.ebitda;
+              presetEv += (val1 * val2);
+            }
+          } else {
+            document.getElementById(`ebitda-${a.id}`).value = val1;
+            document.getElementById(`mult-${a.id}`).value = val2;
+            document.getElementById(`chk-${a.id}`).checked = inc;
+            a.included = inc;
+            document.getElementById(`row-${a.id}`).style.opacity = inc ? "1.0" : "0.4";
+            if (inc) {
+              presetEb += val1;
+              presetEv += (val1 * val2);
+            }
           }
         }
       });
@@ -2323,11 +2582,32 @@
 
       ASSETS.forEach(a => {
         const isInc = document.getElementById(`chk-${a.id}`) ? document.getElementById(`chk-${a.id}`).checked : a.included;
-        const eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || 0;
-        const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || 0;
-        const assetEv = isInc ? (eb * m) : 0;
-        if (document.getElementById(`ev-${a.id}`)) {
-          document.getElementById(`ev-${a.id}`).textContent = `$${assetEv.toFixed(1)}M`;
+        let assetEv = 0;
+        let eb = 0;
+        if (a.isRab) {
+          const rab = parseFloat(document.getElementById(`rab-${a.id}`)?.value) || a.rabBase;
+          const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || a.rabMultiple;
+          eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || a.ebitda;
+          assetEv = isInc ? (rab * m) : 0;
+          if (document.getElementById(`ev-${a.id}`)) {
+            document.getElementById(`ev-${a.id}`).textContent = `$${assetEv.toFixed(1)}M`;
+          }
+          if (document.getElementById(`rab-val-disp-${a.id}`)) {
+            document.getElementById(`rab-val-disp-${a.id}`).textContent = `$${rab.toFixed(0)}M @ ${m.toFixed(2)}x RAB`;
+          }
+          if (document.getElementById("disp-oedas-ev")) {
+            document.getElementById("disp-oedas-ev").textContent = `$${assetEv.toFixed(1)}M`;
+          }
+          if (document.getElementById("disp-oedas-rab-current")) {
+            document.getElementById("disp-oedas-rab-current").textContent = `$${rab.toFixed(0)}M`;
+          }
+        } else {
+          eb = parseFloat(document.getElementById(`ebitda-${a.id}`)?.value) || 0;
+          const m = parseFloat(document.getElementById(`mult-${a.id}`)?.value) || 0;
+          assetEv = isInc ? (eb * m) : 0;
+          if (document.getElementById(`ev-${a.id}`)) {
+            document.getElementById(`ev-${a.id}`).textContent = `$${assetEv.toFixed(1)}M`;
+          }
         }
         if (isInc) {
           sotpSumEv += assetEv;

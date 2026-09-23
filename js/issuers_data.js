@@ -72715,8 +72715,8 @@ const MASTER_ISSUERS = [
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
       "thesis": "High geothermal/hydro cash margins; AlJomaih asset divestment and deleveraging underway.",
-      "senior_debt_coverage_pct": 171.8,
-      "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value ($2,050M mid-cycle SOTP operational EV) + Unrestricted Cash ($240M) = $2,290M. Deduct Priority Claims: Advisory/workout costs ($30M) + OpCo Senior Secured Priority Debt ($380M ADB and Turkish bank project finance) = $410M. Net value distributable to General Senior Unsecured claims ($1,100M ZOREN 11.00% 2030 Eurobond) is $1,880M, providing 171.8% asset coverage (100c fundamental par coverage). Residual equity cushion for Zorlu Holding is $780M. Despite >170% asset coverage, the 2030 notes trade at ~63.5c in secondary trading (yielding 27.2%) following the appointment of Houlihan Lokey and Servo Capital.",
+      "senior_debt_coverage_pct": 192.9,
+      "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value (,276.5M SOTP operational EV comprising ,626.5M Renewable Generation DCF/multiples and .0M OEDAŞ Regulated Distribution Grid based on 1.00x EV/RAB on its  EPDK rate base) + Unrestricted Cash () = ,516.5M. Deduct Priority Claims: Advisory/workout costs () + OpCo Senior Secured Priority Debt ( ADB and Turkish bank project finance) = . Net value distributable to General Senior Unsecured claims (,100M ZOREN 11.00% 2030 Eurobond) is ,121.5M, providing 192.9% asset coverage (100c fundamental par coverage). Residual equity cushion for Zorlu Holding is ,021.5M. Despite >190% asset coverage, the 2030 notes trade at ~63.5c in secondary trading (yielding 27.2%) following the appointment of Houlihan Lokey and Servo Capital, offering substantial fundamental asset-backed upside.",
       "scenarios": [
         {
           "tranche": "OpCo Priority Loans (ADB Geothermal & Turkish Bank PF)",
@@ -72739,24 +72739,24 @@ const MASTER_ISSUERS = [
       ],
       "waterfall_steps": [
         {
-          "step": "1. Operating Cash EBITDA",
-          "floor": "$240.0M (Distress)",
-          "base": "$317.0M (Mid-Cycle)",
-          "bull": "$375.0M (Peak)",
+          "step": "1. Operating Cash EBITDA / Distribution Tariff CF",
+          "floor": ".0M (Distress)",
+          "base": ".0M (Normalized SOTP)",
+          "bull": ".0M (Peak)",
           "is_subtotal": false
         },
         {
-          "step": "2. Implied EV / EBITDA Multiple",
-          "floor": "5.0x EV Multiple",
-          "base": "6.5x EV Multiple",
-          "bull": "7.5x EV Multiple",
+          "step": "2. Valuation Framework (Generation Multiples & Grid EV/RAB)",
+          "floor": "5.0x Gen / 0.80x RAB",
+          "base": "6.0x Gen / 1.00x RAB",
+          "bull": "7.0x Gen / 1.15x RAB",
           "is_subtotal": false
         },
         {
           "step": "3. SOTP Enterprise Value (EV)",
-          "floor": "$1,200.0M",
-          "base": "$2,050.0M",
-          "bull": "$2,812.5M",
+          "floor": ",450.0M",
+          "base": ",276.5M",
+          "bull": ",950.0M",
           "is_subtotal": false
         },
         {
@@ -72768,9 +72768,9 @@ const MASTER_ISSUERS = [
         },
         {
           "step": "5. TOTAL DISTRIBUTABLE ASSET VALUE",
-          "floor": "$1,380.0M",
-          "base": "$2,290.0M",
-          "bull": "$3,124.5M",
+          "floor": ",630.0M",
+          "base": ",516.5M",
+          "bull": ",262.0M",
           "is_subtotal": true,
           "color": "#38bdf8"
         },
@@ -72790,17 +72790,17 @@ const MASTER_ISSUERS = [
         },
         {
           "step": "8. TOTAL PRIORITY CLAIMS DEDUCTED",
-          "floor": "-$420.0M",
-          "base": "-$410.0M",
-          "bull": "-$405.0M",
+          "floor": "-.0M",
+          "base": "-.0M",
+          "bull": "-.0M",
           "is_subtotal": true,
           "color": "#f87171"
         },
         {
           "step": "9. NET VALUE AVAILABLE TO SENIOR UNSECURED",
-          "floor": "$960.0M",
-          "base": "$1,880.0M",
-          "bull": "$2,719.5M",
+          "floor": ",210.0M",
+          "base": ",121.5M",
+          "bull": ",872.0M",
           "is_subtotal": true,
           "color": "#34d399"
         },
@@ -72813,9 +72813,9 @@ const MASTER_ISSUERS = [
         },
         {
           "step": "11. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
-          "floor": "87.3%",
-          "base": "100.0% (1.71x Covered)",
-          "bull": "100.0% (Fully Covered)",
+          "floor": "100.0% (1.10x Covered)",
+          "base": "100.0% (1.93x Covered)",
+          "bull": "100.0% (2.61x Covered)",
           "is_highlight": true,
           "color": "#34d399"
         },
@@ -72829,13 +72829,40 @@ const MASTER_ISSUERS = [
         },
         {
           "step": "13. VALUE REMAINING FOR EXISTING EQUITY (Zorlu Holding)",
-          "floor": "$0.0M (Wiped Out)",
-          "base": "$780.0M Equity Cushion",
-          "bull": "$1,619.5M Equity Upside",
+          "floor": ".0M",
+          "base": ",021.5M Equity Cushion",
+          "bull": ",772.0M Equity Upside",
           "is_subtotal": true,
           "color": "#38bdf8"
         }
-      ]
+      ],
+      "distribution_asset_valuation_framework": {
+        "methodology": "Regulated Asset Base (RAB / Düzenlenmiş Varlık Tabanı)",
+        "asset_name": "OEDAŞ (Osmangazi Elektrik Dağıtım A.Ş.)",
+        "concession_term": "EPDK natural distribution monopoly through 2036",
+        "customer_base": "1.95M registered meters (~2.9M population across 5 Turkish provinces: Eskişehir, Bilecik, Kütahya, Uşak, Afyonkarahisar)",
+        "distributed_volume_gwh": 8650,
+        "base_rab_usd_m": 650.0,
+        "adb_expanded_rab_usd_m": 745.0,
+        "epdk_real_pretax_wacc_pct": 12.3,
+        "allowed_capital_return_usd_m": 80.0,
+        "regulatory_depreciation_usd_m": 25.0,
+        "annual_capex_underinvestment_penalty_usd_m": -20.0,
+        "normalized_cash_ebitda_usd_m": 85.0,
+        "base_ev_rab_multiple": 1.0,
+        "base_implied_ev_usd_m": 650.0,
+        "sensitivity_bands": {
+          "distressed_0.80x_usd_m": 520.0,
+          "regulatory_drag_0.85x_usd_m": 552.5,
+          "conservative_0.90x_usd_m": 585.0,
+          "fair_value_par_1.00x_usd_m": 650.0,
+          "efficiency_outperformance_1.10x_usd_m": 715.0,
+          "strategic_infrastructure_mna_1.15x_usd_m": 747.5,
+          "adb_proforma_expanded_1.00x_usd_m": 745.0,
+          "adb_proforma_expanded_1.10x_usd_m": 819.5
+        },
+        "rationale": "EV/EBITDA is inadequate for OEDAŞ because headline EBITDA is distorted by inflation indexation lags and EPDK's -/yr capex underinvestment clawback. Regulated electricity distribution grids are universally valued on EV/RAB by institutional lenders (ADB, EBRD), rating agencies, and infrastructure M&A markets."
+      }
     },
     "annotations": [
       {
@@ -148412,8 +148439,8 @@ window.CEMBI_DATA = {
       "implied_stress_ev_multiple": 4.2,
       "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
       "thesis": "High geothermal/hydro cash margins; AlJomaih asset divestment and deleveraging underway.",
-      "senior_debt_coverage_pct": 171.8,
-      "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value ($2,050M mid-cycle SOTP operational EV) + Unrestricted Cash ($240M) = $2,290M. Deduct Priority Claims: Advisory/workout costs ($30M) + OpCo Senior Secured Priority Debt ($380M ADB and Turkish bank project finance) = $410M. Net value distributable to General Senior Unsecured claims ($1,100M ZOREN 11.00% 2030 Eurobond) is $1,880M, providing 171.8% asset coverage (100c fundamental par coverage). Residual equity cushion for Zorlu Holding is $780M. Despite >170% asset coverage, the 2030 notes trade at ~63.5c in secondary trading (yielding 27.2%) following the appointment of Houlihan Lokey and Servo Capital.",
+      "senior_debt_coverage_pct": 192.9,
+      "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value (,276.5M SOTP operational EV comprising ,626.5M Renewable Generation DCF/multiples and .0M OEDAŞ Regulated Distribution Grid based on 1.00x EV/RAB on its  EPDK rate base) + Unrestricted Cash () = ,516.5M. Deduct Priority Claims: Advisory/workout costs () + OpCo Senior Secured Priority Debt ( ADB and Turkish bank project finance) = . Net value distributable to General Senior Unsecured claims (,100M ZOREN 11.00% 2030 Eurobond) is ,121.5M, providing 192.9% asset coverage (100c fundamental par coverage). Residual equity cushion for Zorlu Holding is ,021.5M. Despite >190% asset coverage, the 2030 notes trade at ~63.5c in secondary trading (yielding 27.2%) following the appointment of Houlihan Lokey and Servo Capital, offering substantial fundamental asset-backed upside.",
       "scenarios": [
         {
           "tranche": "OpCo Priority Loans (ADB Geothermal & Turkish Bank PF)",
@@ -148436,24 +148463,24 @@ window.CEMBI_DATA = {
       ],
       "waterfall_steps": [
         {
-          "step": "1. Operating Cash EBITDA",
-          "floor": "$240.0M (Distress)",
-          "base": "$317.0M (Mid-Cycle)",
-          "bull": "$375.0M (Peak)",
+          "step": "1. Operating Cash EBITDA / Distribution Tariff CF",
+          "floor": ".0M (Distress)",
+          "base": ".0M (Normalized SOTP)",
+          "bull": ".0M (Peak)",
           "is_subtotal": false
         },
         {
-          "step": "2. Implied EV / EBITDA Multiple",
-          "floor": "5.0x EV Multiple",
-          "base": "6.5x EV Multiple",
-          "bull": "7.5x EV Multiple",
+          "step": "2. Valuation Framework (Generation Multiples & Grid EV/RAB)",
+          "floor": "5.0x Gen / 0.80x RAB",
+          "base": "6.0x Gen / 1.00x RAB",
+          "bull": "7.0x Gen / 1.15x RAB",
           "is_subtotal": false
         },
         {
           "step": "3. SOTP Enterprise Value (EV)",
-          "floor": "$1,200.0M",
-          "base": "$2,050.0M",
-          "bull": "$2,812.5M",
+          "floor": ",450.0M",
+          "base": ",276.5M",
+          "bull": ",950.0M",
           "is_subtotal": false
         },
         {
@@ -148465,9 +148492,9 @@ window.CEMBI_DATA = {
         },
         {
           "step": "5. TOTAL DISTRIBUTABLE ASSET VALUE",
-          "floor": "$1,380.0M",
-          "base": "$2,290.0M",
-          "bull": "$3,124.5M",
+          "floor": ",630.0M",
+          "base": ",516.5M",
+          "bull": ",262.0M",
           "is_subtotal": true,
           "color": "#38bdf8"
         },
@@ -148487,17 +148514,17 @@ window.CEMBI_DATA = {
         },
         {
           "step": "8. TOTAL PRIORITY CLAIMS DEDUCTED",
-          "floor": "-$420.0M",
-          "base": "-$410.0M",
-          "bull": "-$405.0M",
+          "floor": "-.0M",
+          "base": "-.0M",
+          "bull": "-.0M",
           "is_subtotal": true,
           "color": "#f87171"
         },
         {
           "step": "9. NET VALUE AVAILABLE TO SENIOR UNSECURED",
-          "floor": "$960.0M",
-          "base": "$1,880.0M",
-          "bull": "$2,719.5M",
+          "floor": ",210.0M",
+          "base": ",121.5M",
+          "bull": ",872.0M",
           "is_subtotal": true,
           "color": "#34d399"
         },
@@ -148510,9 +148537,9 @@ window.CEMBI_DATA = {
         },
         {
           "step": "11. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
-          "floor": "87.3%",
-          "base": "100.0% (1.71x Covered)",
-          "bull": "100.0% (Fully Covered)",
+          "floor": "100.0% (1.10x Covered)",
+          "base": "100.0% (1.93x Covered)",
+          "bull": "100.0% (2.61x Covered)",
           "is_highlight": true,
           "color": "#34d399"
         },
@@ -148526,13 +148553,40 @@ window.CEMBI_DATA = {
         },
         {
           "step": "13. VALUE REMAINING FOR EXISTING EQUITY (Zorlu Holding)",
-          "floor": "$0.0M (Wiped Out)",
-          "base": "$780.0M Equity Cushion",
-          "bull": "$1,619.5M Equity Upside",
+          "floor": ".0M",
+          "base": ",021.5M Equity Cushion",
+          "bull": ",772.0M Equity Upside",
           "is_subtotal": true,
           "color": "#38bdf8"
         }
-      ]
+      ],
+      "distribution_asset_valuation_framework": {
+        "methodology": "Regulated Asset Base (RAB / Düzenlenmiş Varlık Tabanı)",
+        "asset_name": "OEDAŞ (Osmangazi Elektrik Dağıtım A.Ş.)",
+        "concession_term": "EPDK natural distribution monopoly through 2036",
+        "customer_base": "1.95M registered meters (~2.9M population across 5 Turkish provinces: Eskişehir, Bilecik, Kütahya, Uşak, Afyonkarahisar)",
+        "distributed_volume_gwh": 8650,
+        "base_rab_usd_m": 650.0,
+        "adb_expanded_rab_usd_m": 745.0,
+        "epdk_real_pretax_wacc_pct": 12.3,
+        "allowed_capital_return_usd_m": 80.0,
+        "regulatory_depreciation_usd_m": 25.0,
+        "annual_capex_underinvestment_penalty_usd_m": -20.0,
+        "normalized_cash_ebitda_usd_m": 85.0,
+        "base_ev_rab_multiple": 1.0,
+        "base_implied_ev_usd_m": 650.0,
+        "sensitivity_bands": {
+          "distressed_0.80x_usd_m": 520.0,
+          "regulatory_drag_0.85x_usd_m": 552.5,
+          "conservative_0.90x_usd_m": 585.0,
+          "fair_value_par_1.00x_usd_m": 650.0,
+          "efficiency_outperformance_1.10x_usd_m": 715.0,
+          "strategic_infrastructure_mna_1.15x_usd_m": 747.5,
+          "adb_proforma_expanded_1.00x_usd_m": 745.0,
+          "adb_proforma_expanded_1.10x_usd_m": 819.5
+        },
+        "rationale": "EV/EBITDA is inadequate for OEDAŞ because headline EBITDA is distorted by inflation indexation lags and EPDK's -/yr capex underinvestment clawback. Regulated electricity distribution grids are universally valued on EV/RAB by institutional lenders (ADB, EBRD), rating agencies, and infrastructure M&A markets."
+      }
     },
     "annotations": [
       {
