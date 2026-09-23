@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "sisecam",
-    "name": "\u015ei\u015fecam",
+    "name": "Şişecam",
     "ticker": "SISE",
     "country": "Turkey",
     "region": "CEEMEA",
@@ -49,17 +49,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$10.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 122.2,
-      "change_in_working_capital": 149.6,
-      "tax_expense": 71.5,
+      "change_in_working_capital": 164.4,
+      "tax_expense": 56.7,
       "fcf_conversion_pct": 4.5,
       "fcf_bridge": {
         "calculated_ebitda": 715.0,
         "capex": 339.6,
         "cash_interest": 122.2,
-        "change_in_working_capital": 149.6,
-        "tax": 71.5,
+        "change_in_working_capital": 164.4,
+        "tax": 56.7,
         "fcf": 32.1,
-        "formula_check": "715.0 - 339.6 - 122.2 - (149.6) - 71.5 = 32.1"
+        "formula_check": "715.0 - 339.6 - 122.2 - (164.4) - 56.7 = 32.1"
       }
     },
     {
@@ -89,17 +89,17 @@
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$48.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 152.8,
-      "change_in_working_capital": 338.2,
-      "tax_expense": 88.0,
+      "change_in_working_capital": 356.7,
+      "tax_expense": 69.5,
       "fcf_conversion_pct": -33.3,
       "fcf_bridge": {
         "calculated_ebitda": 880.0,
         "capex": 594.0,
         "cash_interest": 152.8,
-        "change_in_working_capital": 338.2,
-        "tax": 88.0,
+        "change_in_working_capital": 356.7,
+        "tax": 69.5,
         "fcf": -293.0,
-        "formula_check": "880.0 - 594.0 - 152.8 - (338.2) - 88.0 = -293.0"
+        "formula_check": "880.0 - 594.0 - 152.8 - (356.7) - 69.5 = -293.0"
       }
     },
     {
@@ -129,17 +129,17 @@
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$54.5M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 183.3,
-      "change_in_working_capital": 379.5,
-      "tax_expense": 99.0,
+      "change_in_working_capital": 402.0,
+      "tax_expense": 76.5,
       "fcf_conversion_pct": -34.3,
       "fcf_bridge": {
         "calculated_ebitda": 990.0,
         "capex": 668.2,
         "cash_interest": 183.3,
-        "change_in_working_capital": 379.5,
-        "tax": 99.0,
+        "change_in_working_capital": 402.0,
+        "tax": 76.5,
         "fcf": -340.0,
-        "formula_check": "990.0 - 668.2 - 183.3 - (379.5) - 99.0 = -340.0"
+        "formula_check": "990.0 - 668.2 - 183.3 - (402.0) - 76.5 = -340.0"
       }
     },
     {
@@ -169,17 +169,17 @@
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$60.5M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 203.7,
-      "change_in_working_capital": 220.0,
-      "tax_expense": 110.0,
+      "change_in_working_capital": 245.1,
+      "tax_expense": 84.9,
       "fcf_conversion_pct": -6.0,
       "fcf_bridge": {
         "calculated_ebitda": 1100.0,
         "capex": 632.5,
         "cash_interest": 203.7,
-        "change_in_working_capital": 220.0,
-        "tax": 110.0,
+        "change_in_working_capital": 245.1,
+        "tax": 84.9,
         "fcf": -66.2,
-        "formula_check": "1100.0 - 632.5 - 203.7 - (220.0) - 110.0 = -66.2"
+        "formula_check": "1100.0 - 632.5 - 203.7 - (245.1) - 84.9 = -66.2"
       }
     },
     {
@@ -209,17 +209,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$18.1M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 195.5,
-      "change_in_working_capital": 237.6,
-      "tax_expense": 121.0,
+      "change_in_working_capital": 260.9,
+      "tax_expense": 97.7,
       "fcf_conversion_pct": 6.7,
       "fcf_bridge": {
         "calculated_ebitda": 1210.0,
         "capex": 574.8,
         "cash_interest": 195.5,
-        "change_in_working_capital": 237.6,
-        "tax": 121.0,
+        "change_in_working_capital": 260.9,
+        "tax": 97.7,
         "fcf": 81.1,
-        "formula_check": "1210.0 - 574.8 - 195.5 - (237.6) - 121.0 = 81.1"
+        "formula_check": "1210.0 - 574.8 - 195.5 - (260.9) - 97.7 = 81.1"
       }
     },
     {
@@ -249,17 +249,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$19.5M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 187.3,
-      "change_in_working_capital": 253.0,
-      "tax_expense": 129.8,
+      "change_in_working_capital": 274.6,
+      "tax_expense": 108.2,
       "fcf_conversion_pct": 8.6,
       "fcf_bridge": {
         "calculated_ebitda": 1298.0,
         "capex": 616.5,
         "cash_interest": 187.3,
-        "change_in_working_capital": 253.0,
-        "tax": 129.8,
+        "change_in_working_capital": 274.6,
+        "tax": 108.2,
         "fcf": 111.4,
-        "formula_check": "1298.0 - 616.5 - 187.3 - (253.0) - 129.8 = 111.4"
+        "formula_check": "1298.0 - 616.5 - 187.3 - (274.6) - 108.2 = 111.4"
       }
     },
     {
@@ -289,17 +289,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$20.5M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 179.2,
-      "change_in_working_capital": 264.0,
-      "tax_expense": 136.4,
+      "change_in_working_capital": 284.1,
+      "tax_expense": 116.3,
       "fcf_conversion_pct": 10.0,
       "fcf_bridge": {
         "calculated_ebitda": 1364.0,
         "capex": 647.9,
         "cash_interest": 179.2,
-        "change_in_working_capital": 264.0,
-        "tax": 136.4,
+        "change_in_working_capital": 284.1,
+        "tax": 116.3,
         "fcf": 136.5,
-        "formula_check": "1364.0 - 647.9 - 179.2 - (264.0) - 136.4 = 136.5"
+        "formula_check": "1364.0 - 647.9 - 179.2 - (284.1) - 116.3 = 136.5"
       }
     }
   ],
@@ -330,7 +330,7 @@
   "annotations": [
     {
       "issuer_id": "sisecam",
-      "issuer_name": "\u015ei\u015fecam",
+      "issuer_name": "Şişecam",
       "sector": "Materials",
       "topic": "Global Cost Curve Advantage",
       "source": "Cognitive Credit / CRU Group",
@@ -338,7 +338,7 @@
     },
     {
       "issuer_id": "sisecam",
-      "issuer_name": "\u015ei\u015fecam",
+      "issuer_name": "Şişecam",
       "sector": "Materials",
       "topic": "Hard-Currency Export Share",
       "source": "Audited Financial Statements",
@@ -346,7 +346,7 @@
     },
     {
       "issuer_id": "sisecam",
-      "issuer_name": "\u015ei\u015fecam",
+      "issuer_name": "Şişecam",
       "sector": "Materials",
       "topic": "Strategic Sovereign Resource Moat",
       "source": "Credit Rating Agency Memo",
@@ -354,7 +354,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+    "source_deck": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
@@ -501,7 +501,7 @@
       "current_runrate": "$5857.5M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $5940.0M (+8.0% YoY growth). With current run-rate at $5857.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -512,7 +512,7 @@
       "current_runrate": "$1188.0M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $1210.0M (20.4% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -523,7 +523,7 @@
       "current_runrate": "2.18x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 1.57x buffer below covenant limit.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.18x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -534,7 +534,7 @@
       "current_runrate": "$371.9M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $404.2M (Maximum growth and sustaining envelope). Current commitments stand at $371.9M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -545,7 +545,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "\u015ei\u015fecam FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_guided_source": "Şişecam FY2024 Earnings Conference Call & Strategy Day Deck",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -738,7 +738,7 @@
       "broker": "Consensus Sell-Side",
       "analyst": "Composite EM Credit Desk",
       "report_date": "2024-12-01",
-      "report_title": "\u015ei\u015fecam: Forward Earnings & Refinancing Profile",
+      "report_title": "Şişecam: Forward Earnings & Refinancing Profile",
       "recommendation": "Neutral",
       "target_spread_bps": 450,
       "raw_model": {

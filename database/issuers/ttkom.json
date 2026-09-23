@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "ttkom",
-    "name": "T\u00fcrk Telekom",
+    "name": "Türk Telekom",
     "ticker": "TTKOM",
     "country": "Turkey",
     "region": "Turkey",
@@ -49,17 +49,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.2M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 159.0,
-      "change_in_working_capital": 97.9,
-      "tax_expense": 105.3,
+      "change_in_working_capital": 134.9,
+      "tax_expense": 68.3,
       "fcf_conversion_pct": 18.8,
       "fcf_bridge": {
         "calculated_ebitda": 877.5,
         "capex": 350.1,
         "cash_interest": 159.0,
-        "change_in_working_capital": 97.9,
-        "tax": 105.3,
+        "change_in_working_capital": 134.9,
+        "tax": 68.3,
         "fcf": 165.2,
-        "formula_check": "877.5 - 350.1 - 159.0 - (97.9) - 105.3 = 165.2"
+        "formula_check": "877.5 - 350.1 - 159.0 - (134.9) - 68.3 = 165.2"
       }
     },
     {
@@ -89,17 +89,17 @@
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$59.4M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 198.5,
-      "change_in_working_capital": 221.4,
-      "tax_expense": 129.6,
+      "change_in_working_capital": 267.4,
+      "tax_expense": 83.6,
       "fcf_conversion_pct": -7.6,
       "fcf_bridge": {
         "calculated_ebitda": 1080.0,
         "capex": 612.4,
         "cash_interest": 198.5,
-        "change_in_working_capital": 221.4,
-        "tax": 129.6,
+        "change_in_working_capital": 267.4,
+        "tax": 83.6,
         "fcf": -81.9,
-        "formula_check": "1080.0 - 612.4 - 198.5 - (221.4) - 129.6 = -81.9"
+        "formula_check": "1080.0 - 612.4 - 198.5 - (267.4) - 83.6 = -81.9"
       }
     },
     {
@@ -129,17 +129,17 @@
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$66.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 238.2,
-      "change_in_working_capital": 248.4,
-      "tax_expense": 145.8,
+      "change_in_working_capital": 302.4,
+      "tax_expense": 91.8,
       "fcf_conversion_pct": -8.7,
       "fcf_bridge": {
         "calculated_ebitda": 1215.0,
         "capex": 688.9,
         "cash_interest": 238.2,
-        "change_in_working_capital": 248.4,
-        "tax": 145.8,
+        "change_in_working_capital": 302.4,
+        "tax": 91.8,
         "fcf": -106.3,
-        "formula_check": "1215.0 - 688.9 - 238.2 - (248.4) - 145.8 = -106.3"
+        "formula_check": "1215.0 - 688.9 - 238.2 - (302.4) - 91.8 = -106.3"
       }
     },
     {
@@ -169,17 +169,17 @@
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$74.2M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 264.7,
-      "change_in_working_capital": 144.0,
-      "tax_expense": 162.0,
+      "change_in_working_capital": 204.0,
+      "tax_expense": 102.0,
       "fcf_conversion_pct": 9.4,
       "fcf_bridge": {
         "calculated_ebitda": 1350.0,
         "capex": 652.0,
         "cash_interest": 264.7,
-        "change_in_working_capital": 144.0,
-        "tax": 162.0,
+        "change_in_working_capital": 204.0,
+        "tax": 102.0,
         "fcf": 127.3,
-        "formula_check": "1350.0 - 652.0 - 264.7 - (144.0) - 162.0 = 127.3"
+        "formula_check": "1350.0 - 652.0 - 264.7 - (204.0) - 102.0 = 127.3"
       }
     },
     {
@@ -209,17 +209,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$22.3M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 254.3,
-      "change_in_working_capital": 155.5,
-      "tax_expense": 178.2,
+      "change_in_working_capital": 215.9,
+      "tax_expense": 117.8,
       "fcf_conversion_pct": 20.5,
       "fcf_bridge": {
         "calculated_ebitda": 1485.0,
         "capex": 592.5,
         "cash_interest": 254.3,
-        "change_in_working_capital": 155.5,
-        "tax": 178.2,
+        "change_in_working_capital": 215.9,
+        "tax": 117.8,
         "fcf": 304.5,
-        "formula_check": "1485.0 - 592.5 - 254.3 - (155.5) - 178.2 = 304.5"
+        "formula_check": "1485.0 - 592.5 - 254.3 - (215.9) - 117.8 = 304.5"
       }
     },
     {
@@ -249,17 +249,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$23.9M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 243.6,
-      "change_in_working_capital": 165.6,
-      "tax_expense": 191.2,
+      "change_in_working_capital": 226.1,
+      "tax_expense": 130.7,
       "fcf_conversion_pct": 22.4,
       "fcf_bridge": {
         "calculated_ebitda": 1593.0,
         "capex": 635.6,
         "cash_interest": 243.6,
-        "change_in_working_capital": 165.6,
-        "tax": 191.2,
+        "change_in_working_capital": 226.1,
+        "tax": 130.7,
         "fcf": 357.0,
-        "formula_check": "1593.0 - 635.6 - 243.6 - (165.6) - 191.2 = 357.0"
+        "formula_check": "1593.0 - 635.6 - 243.6 - (226.1) - 130.7 = 357.0"
       }
     },
     {
@@ -289,17 +289,17 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$25.1M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 232.8,
-      "change_in_working_capital": 172.8,
-      "tax_expense": 200.9,
+      "change_in_working_capital": 232.9,
+      "tax_expense": 140.8,
       "fcf_conversion_pct": 23.9,
       "fcf_bridge": {
         "calculated_ebitda": 1674.0,
         "capex": 667.9,
         "cash_interest": 232.8,
-        "change_in_working_capital": 172.8,
-        "tax": 200.9,
+        "change_in_working_capital": 232.9,
+        "tax": 140.8,
         "fcf": 399.6,
-        "formula_check": "1674.0 - 667.9 - 232.8 - (172.8) - 200.9 = 399.6"
+        "formula_check": "1674.0 - 667.9 - 232.8 - (232.9) - 140.8 = 399.6"
       }
     }
   ],
@@ -331,7 +331,7 @@
   "annotations": [
     {
       "issuer_id": "ttkom",
-      "issuer_name": "T\u00fcrk Telekom",
+      "issuer_name": "Türk Telekom",
       "sector": "Technology",
       "topic": "Master Lease Agreements & Indexation",
       "source": "Cognitive Credit / Arqaam",
@@ -339,7 +339,7 @@
     },
     {
       "issuer_id": "ttkom",
-      "issuer_name": "T\u00fcrk Telekom",
+      "issuer_name": "Türk Telekom",
       "sector": "Technology",
       "topic": "Tenancy Ratio & Organic Leverage",
       "source": "Company Disclosures",
@@ -347,7 +347,7 @@
     },
     {
       "issuer_id": "ttkom",
-      "issuer_name": "T\u00fcrk Telekom",
+      "issuer_name": "Türk Telekom",
       "sector": "Technology",
       "topic": "Contracted Revenue Backlog",
       "source": "Investor Presentations",
@@ -355,7 +355,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+    "source_deck": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
     "reporting_currency": "USD / Local Currency",
     "management_guidance_targets": {
       "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
@@ -502,7 +502,7 @@
       "current_runrate": "$3834.0M (+6.5% YoY)",
       "tracking_status": "On Track",
       "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
-      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of $3888.0M (+8.0% YoY growth). With current run-rate at $3834.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -513,7 +513,7 @@
       "current_runrate": "$1458.0M",
       "tracking_status": "On Track",
       "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
-      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of $1485.0M (38.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -524,7 +524,7 @@
       "current_runrate": "1.45x",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Deleveraging on track with 2.30x buffer below covenant limit.",
-      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.45x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
       "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
@@ -535,7 +535,7 @@
       "current_runrate": "$456.4M committed",
       "tracking_status": "On Track",
       "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
-      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "You guided a maximum capex envelope of $496.1M (Maximum growth and sustaining envelope). Current commitments stand at $456.4M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
       "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
@@ -546,7 +546,7 @@
       "current_runrate": "35% payout policy maintained",
       "tracking_status": "On Track",
       "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
-      "last_guided_source": "T\u00fcrk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_guided_source": "Türk Telekom FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -732,7 +732,7 @@
       "broker": "Consensus Sell-Side",
       "analyst": "Composite EM Credit Desk",
       "report_date": "2024-12-01",
-      "report_title": "T\u00fcrk Telekom: Forward Earnings & Refinancing Profile",
+      "report_title": "Türk Telekom: Forward Earnings & Refinancing Profile",
       "recommendation": "Neutral",
       "target_spread_bps": 450,
       "raw_model": {

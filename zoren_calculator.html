@@ -525,7 +525,7 @@
       </div>
       <div class="metric-hero" style="border-color:rgba(255,255,255,0.2);">
         <div class="lbl">Secondary Market Price</div>
-        <div class="val" style="color:#fff;">94.5<span>c</span></div>
+        <div class="val" style="color:#fff;">63.5<span>c</span></div>
       </div>
       <div class="metric-hero gold">
         <div class="lbl">Pro-Forma Net Lev</div>
@@ -583,7 +583,7 @@
         <div style="font-size:10px; color:#cbd5e1; line-height:1.5; margin-top:8px;">
           <div>&bull; <strong>SOTP EV:</strong> <span id="s1-senior-pool">$1,110M</span> Net Distributable Pool</div>
           <div>&bull; <strong>EBITDA &bull; Multiple:</strong> <span id="s1-ebitda">$350M</span> &bull; <span id="s1-mult">6.0x</span></div>
-          <div>&bull; <strong>Priority Carve-Outs:</strong> $1,200M Project Loans + Advisor Burn</div>
+          <div>&bull; <strong>Priority Carve-Outs:</strong> $380M OpCo Loans + Advisor Burn</div>
           <div>&bull; <strong>Standstill Bleed:</strong> <span id="s1-duration">6M</span> @ <span id="s1-yield">11.00%</span> = <span id="s1-time-factor" style="color:#38bdf8; font-weight:700;">Performing (0.0c drag)</span></div>
           <div style="margin-top:6px; border-top:1px dashed #334155; padding-top:4px; color:#94a3b8; font-size:9.5px;">
             <strong>Anchor:</strong> What are assets worth if liquidated/reorganized under APR?
@@ -608,7 +608,7 @@
           <div class="pricing-band-container">
             <div style="display:flex; justify-content:space-between; font-size:9.5px; color:#94a3b8; margin-bottom:4px; font-family:'JetBrains Mono',monospace;">
               <span>Bear Floor: <strong id="pricing-band-distressed" style="color:var(--accent-rose);">82.0c</strong></span>
-              <span>Secondary Mkt: <strong id="pricing-band-mkt" style="color:#fff;">94.5c</strong></span>
+              <span>Secondary Mkt: <strong id="pricing-band-mkt" style="color:#fff;">63.5c</strong></span>
               <span>Fair Value: <strong id="pricing-band-fv" style="color:var(--accent-emerald);">95.3c</strong></span>
               <span>Asset Floor: <strong id="pricing-band-asset" style="color:var(--accent-cyan);">100.0c</strong></span>
               <span>Bull Target: <strong id="pricing-band-target" style="color:var(--accent-purple);">102.5c</strong></span>
@@ -1350,7 +1350,7 @@
       <div class="meter-card">
         <div class="meter-title">Trading Px of Extended Note</div>
         <div class="meter-val" id="meter-exit-bond-px" style="color:#fbbf24;">95.3c</div>
-        <div class="meter-sub" id="meter-exit-bond-discount" style="color:var(--accent-amber);">-4.7% Discount to Par (Matches Mkt: 94.5c)</div>
+        <div class="meter-sub" id="meter-exit-bond-discount" style="color:var(--accent-amber);">Secondary Market Quote: 63.5c (Yield: 27.2%)</div>
       </div>
 
       <div class="meter-card">
@@ -1480,7 +1480,7 @@
           1. Creditor-on-Creditor Violence vs Bank Syndicate Cooperation: The Game Theory
         </div>
         <p style="margin-bottom:8px;">
-          While Zorlu's fundamental asset coverage is <strong>190.6%</strong> ($2,100M operational EV + $240M cash vs $1,200M OpCo loans and $582M HoldCo claims), offshore Eurobond holders ($300M ZOREN 9.00% 2026) are structurally subordinated to project finance banks (EBRD, IFC, Garanti BBVA, Akbank, İşbank).
+          While Zorlu's fundamental asset coverage is <strong>171.8%</strong> ($2,050M operational EV + $240M cash vs $380M OpCo loans and $1,100M Eurobond claims), offshore Eurobond holders ($1.1B ZOREN 11.00% 2030) are structurally subordinated to operating company bank facilities (ADB and Turkish commercial banks).
           Rather than abstract percentage haircuts, the desk quantifies the real conflict between banks and bondholders in <strong>cents per dollar of claim (+upside or -discount)</strong>:
         </p>
         <ul style="margin-left:16px; margin-bottom:10px; display:flex; flex-direction:column; gap:6px;">
@@ -1532,7 +1532,7 @@
           Base: (-1.5c) + (-0.5c) + (-1.0c) + (-0.5c) = -3.5c Net Qualitative Adjustment
         </div>
         <p style="margin-bottom:8px;">
-          At Base Case: 100.0c fundamental asset coverage + (-3.5c) net qualitative adjustments = <strong>96.5c Desk Fair Value</strong> (vs 94.5c secondary market quote &rarr; +2.0c discount + 9.50% carry &rarr; <strong>ACCUMULATE / BUY</strong>).
+          At Base Case: 100.0c fundamental par asset coverage vs ~63.5c secondary market quote &rarr; <strong>Target Workout Exit: 72.0c - 76.0c (+13.4% to +19.7% capital gain, +60% IRR)</strong>.
         </p>
 
         <div style="margin-top:8px; text-align:right;">
@@ -1684,7 +1684,7 @@
           <div style="margin-bottom:4px;"><strong>• Structural Subordination:</strong> $1,200M OpCo project loans (EBRD + OEDAŞ TLREF) ring-fenced and consume all cash flow.</div>
           <div style="margin-bottom:4px;"><strong>• Sponsor Support:</strong> $0.0M (Zorlu Holding liquidity depleted; banks freeze credit).</div>
           <div style="margin-bottom:4px;"><strong>• Legal Pathway:</strong> Bank syndicate impasse; forced debt standstill.</div>
-          <div><strong>• Final Verdict:</strong> Only $140M left for $582M HoldCo claims (24.0c fundamental / 58c secondary floor). <strong>Equity wiped out.</strong></div>
+          <div><strong>• Final Verdict:</strong> Distressed floor of ~50.0c–53.0c post-coupon default with $1,100M claims pool. <strong>Equity wiped out.</strong></div>
         </div>
       </div>
 
@@ -1699,7 +1699,7 @@
           <div style="margin-bottom:4px;"><strong>• Valuation Multiple:</strong> 6.0x EV multiple ($2,100M EV + $240M Cash = $2,340M total distributable value).</div>
           <div style="margin-bottom:4px;"><strong>• OpCo Debt Ring-Fenced:</strong> $1,200M priority secured project loans serviced normally from plant revenues.</div>
           <div style="margin-bottom:4px;"><strong>• Refinancing Pathway:</strong> Consensual 4-year Amend-and-Extend to June 2030 at 9.50% coupon (+50 bps step-up).</div>
-          <div><strong>• Final Verdict:</strong> $1,110M net value for $582M senior claims (<strong>190.6% asset coverage / 100c Par</strong>). <strong>At 11% exit yield, trades at 95.3c today.</strong></div>
+          <div><strong>• Final Verdict:</strong> $1,880M net value for $1,100M senior claims (<strong>171.8% asset coverage / 100c Par</strong>). <strong>Workout target 72.0c–76.0c vs 63.5c market quote.</strong></div>
         </div>
       </div>
 
@@ -1751,10 +1751,8 @@
 
     // Tranche Debt Baseline Definitions
     const TRANCHES = [
-      { id: "z2026", name: "ZOREN 9.000% 2026 Eurobond", claim: 300.0, marketPx: 94.50, seniority: "senior" },
-      { id: "geothermal_pf", name: "Geothermal Project Loans (EBRD/IFC)", claim: 720.0, marketPx: 100.00, seniority: "priority_secured" },
-      { id: "oedas_loans", name: "OEDAŞ Regulated Grid Loans (TLREF)", claim: 480.0, marketPx: 100.00, seniority: "priority_secured" },
-      { id: "rcf_working", name: "Syndicated RCF & Working Capital", claim: 282.4, marketPx: 100.00, seniority: "senior" }
+      { id: "z2030", name: "ZOREN 11.000% 2030 Eurobond", claim: 1100.0, marketPx: 63.50, seniority: "senior" },
+      { id: "priority_opco", name: "OpCo Priority Loans (ADB & Turkish Bank PF)", claim: 380.0, marketPx: 100.00, seniority: "priority_secured" }
     ];
 
     // Presets definitions
@@ -2407,11 +2405,11 @@
       const totalAdvisorDrain = durationMonths * monthlyAdvisorBurn;
       document.getElementById("lbl-advisor-drain").textContent = `-$${totalAdvisorDrain.toFixed(0)}M`;
 
-      const prioritySecuredDebt = 1200.0; // $720M Geothermal PF + $480M OEDAS Grid loans
+      const prioritySecuredDebt = 380.0; // $115M ADB loan + $265M Turkish bank PF
       const totalPriorityDeductions = totalAdvisorDrain + prioritySecuredDebt;
 
       // 4. Net Distributable to Senior Unsecured Debt Pool
-      const totalSeniorClaims = 582.4; // $300M Eurobonds + $282.4M RCF
+      const totalSeniorClaims = 1100.0; // $1,100M ZOREN 11.00% 2030 Eurobond (XS2926261426)
       const netDistributableToSenior = Math.max(0, totalDistributableAssetValue - totalPriorityDeductions);
       const rawSeniorRecoveryPct = Math.min(1.0, netDistributableToSenior / totalSeniorClaims);
       const rawSeniorRecoveryCents = rawSeniorRecoveryPct * 100.0;
@@ -2421,8 +2419,8 @@
       }
 
       // 5. Post-Restructuring Balance Sheet Pro-Forma Metrics
-      const eurobondClaims = 300.0;
-      const rcfClaims = 282.4;
+      const eurobondClaims = 1100.0;
+      const rcfClaims = 0.0;
       const seniorHaircutDollar = totalSeniorClaims * seniorHaircutPct;
       document.getElementById("lbl-senior-debt-cut").textContent = `-$${Math.round(seniorHaircutDollar)}M`;
 
@@ -2449,7 +2447,7 @@
 
       const proFormaSeniorInterest = seniorReinstatedDebt * newCouponPct;
       const effectiveSeniorCashInterest = Math.max(0, proFormaSeniorInterest - annualPikSavings);
-      const priorityLoansInterest = (720.0 * 0.0815) + (480.0 * 0.125); // PF SOFR+325 & Grid TLREF
+      const priorityLoansInterest = 380.0 * 0.078; // ADB 7.5% & Bank PF 8.0%
       const proFormaTotalCashInterest = effectiveSeniorCashInterest + priorityLoansInterest;
       const proFormaInterestCoverage = proFormaTotalCashInterest > 0 ? (totalOperatingEbitda / proFormaTotalCashInterest) : 0;
       const proFormaCapex = 115.0;
@@ -2459,7 +2457,7 @@
       document.getElementById("top-senior-recovery").innerHTML = `${rawSeniorRecoveryCents.toFixed(1)}<span>c</span>`;
       document.getElementById("top-proforma-lev").innerHTML = `${proFormaNetLeverage.toFixed(2)}<span>x</span>`;
       document.getElementById("meter-net-debt").textContent = `$${Math.round(proFormaNetDebt).toLocaleString()}M`;
-      document.getElementById("meter-net-debt-delta").textContent = `${proFormaNetDebt < 1542 ? '-' : '+'}$${Math.abs(Math.round(proFormaNetDebt - 1542)).toLocaleString()}M vs FY24`;
+      document.getElementById("meter-net-debt-delta").textContent = `${proFormaNetDebt < 1168 ? '-' : '+'}$${Math.abs(Math.round(proFormaNetDebt - 1168)).toLocaleString()}M vs FY25 ($1,168M)`;
       document.getElementById("meter-leverage").textContent = `${proFormaNetLeverage.toFixed(2)}x`;
       document.getElementById("meter-coverage").textContent = `${proFormaInterestCoverage.toFixed(2)}x`;
       document.getElementById("meter-interest").textContent = `$${Math.round(proFormaTotalCashInterest)}M`;
@@ -2669,10 +2667,8 @@
 
       // Tranche Allocation Table
       const allInstruments = [
-        { name: "Kızıldere & Alaşehir Geothermal Project Loans", tier: "Senior Secured", claim: 720.0, marketPx: 100.0, allocVal: 720.0, cleanPx: 100.0, exitPx: 100.0, isPriority: true },
-        { name: "OEDAŞ Regulated Grid Capex Loans", tier: "Senior Secured", claim: 480.0, marketPx: 100.0, allocVal: 480.0, cleanPx: 100.0, exitPx: 100.0, isPriority: true },
-        { name: "ZOREN 9.000% 2026 Senior Notes (Eurobond)", tier: "Senior Unsecured", claim: 300.0, marketPx: 94.50, allocVal: 300.0 * rawSeniorRecoveryPct, cleanPx: rawSeniorRecoveryCents, exitPx: adjustedSeniorFairVal },
-        { name: "Syndicated RCF & Working Capital Facilities", tier: "Senior Unsecured", claim: 282.4, marketPx: 100.0, allocVal: 282.4 * rawSeniorRecoveryPct, cleanPx: rawSeniorRecoveryCents, exitPx: adjustedSeniorFairVal }
+        { name: "OpCo Senior Secured Loans (ADB Geothermal & Bank PF)", tier: "Senior Secured", claim: 380.0, marketPx: 100.0, allocVal: 380.0, cleanPx: 100.0, exitPx: 100.0, isPriority: true },
+        { name: "ZOREN 11.000% 2030 Senior Notes (Eurobond)", tier: "Senior Guaranteed", claim: 1100.0, marketPx: 63.50, allocVal: 1100.0 * rawSeniorRecoveryPct, cleanPx: rawSeniorRecoveryCents, exitPx: adjustedSeniorFairVal }
       ];
 
       const tbodyAlloc = document.getElementById("tranche-allocation-tbody");
@@ -2951,7 +2947,7 @@
         elGap.style.color = reconcileGap >= 0 ? "var(--accent-emerald)" : "var(--accent-amber)";
       }
 
-      const refMktPx = 94.5;
+      const refMktPx = 63.5;
       if (document.getElementById("reconcile-mkt-px")) document.getElementById("reconcile-mkt-px").textContent = `${refMktPx.toFixed(1)}c`;
       const badge = document.getElementById("reconcile-action-badge");
       const sigText = document.getElementById("reconcile-signal-text");
@@ -3043,7 +3039,7 @@
 
       // 2. Secondary Bond Pricing Band updates
       const distressedFloor = Math.max(50.0, rawSeniorRecoveryCents * 0.82);
-      const mktPx = 94.5;
+      const mktPx = 63.5;
       const fairVal = stream2PV;
       const assetFloor = stream1PV;
       const bullTarget = Math.min(105.0, stream2PV + 7.5);

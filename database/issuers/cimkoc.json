@@ -38,9 +38,19 @@
       "interest_coverage": 6.2,
       "reported_ebitda": 92.0,
       "calculated_ebitda": 88.0,
-      "cash_interest": 18.0,
-      "change_in_working_capital": -5.0,
-      "tax_expense": 12.0
+      "cash_interest": 14.2,
+      "change_in_working_capital": 19.7,
+      "tax_expense": 7.1,
+      "fcf_conversion_pct": 25.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 88.0,
+        "capex": 25.0,
+        "cash_interest": 14.2,
+        "change_in_working_capital": 19.7,
+        "tax": 7.1,
+        "fcf": 22.0,
+        "formula_check": "88.0 - 25.0 - 14.2 - (19.7) - 7.1 = 22.0"
+      }
     },
     {
       "period": "2023A",
@@ -58,9 +68,19 @@
       "interest_coverage": 7.5,
       "reported_ebitda": 146.0,
       "calculated_ebitda": 142.0,
-      "cash_interest": 22.0,
-      "change_in_working_capital": -8.0,
-      "tax_expense": 18.0
+      "cash_interest": 18.9,
+      "change_in_working_capital": 21.0,
+      "tax_expense": 12.1,
+      "fcf_conversion_pct": 33.8,
+      "fcf_bridge": {
+        "calculated_ebitda": 142.0,
+        "capex": 42.0,
+        "cash_interest": 18.9,
+        "change_in_working_capital": 21.0,
+        "tax": 12.1,
+        "fcf": 48.0,
+        "formula_check": "142.0 - 42.0 - 18.9 - (21.0) - 12.1 = 48.0"
+      }
     },
     {
       "period": "2024A",
@@ -78,9 +98,19 @@
       "interest_coverage": 7.8,
       "reported_ebitda": 168.5,
       "calculated_ebitda": 165.0,
-      "cash_interest": 28.0,
-      "change_in_working_capital": 12.0,
-      "tax_expense": 21.0
+      "cash_interest": 21.2,
+      "change_in_working_capital": 57.2,
+      "tax_expense": 14.1,
+      "fcf_conversion_pct": 11.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 165.0,
+        "capex": 54.0,
+        "cash_interest": 21.2,
+        "change_in_working_capital": 57.2,
+        "tax": 14.1,
+        "fcf": 18.5,
+        "formula_check": "165.0 - 54.0 - 21.2 - (57.2) - 14.1 = 18.5"
+      }
     },
     {
       "period": "2025A",
@@ -98,9 +128,19 @@
       "interest_coverage": 7.6,
       "reported_ebitda": 182.0,
       "calculated_ebitda": 178.0,
-      "cash_interest": 31.0,
-      "change_in_working_capital": 8.0,
-      "tax_expense": 23.0
+      "cash_interest": 23.4,
+      "change_in_working_capital": 57.4,
+      "tax_expense": 15.2,
+      "fcf_conversion_pct": 13.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 178.0,
+        "capex": 58.0,
+        "cash_interest": 23.4,
+        "change_in_working_capital": 57.4,
+        "tax": 15.2,
+        "fcf": 24.0,
+        "formula_check": "178.0 - 58.0 - 23.4 - (57.4) - 15.2 = 24.0"
+      }
     },
     {
       "period": "2026E",
@@ -118,9 +158,19 @@
       "interest_coverage": 7.1,
       "reported_ebitda": 158.0,
       "calculated_ebitda": 154.0,
-      "cash_interest": 34.0,
-      "change_in_working_capital": 15.0,
-      "tax_expense": 20.0
+      "cash_interest": 21.7,
+      "change_in_working_capital": 50.4,
+      "tax_expense": 12.9,
+      "fcf_conversion_pct": 9.1,
+      "fcf_bridge": {
+        "calculated_ebitda": 154.0,
+        "capex": 55.0,
+        "cash_interest": 21.7,
+        "change_in_working_capital": 50.4,
+        "tax": 12.9,
+        "fcf": 14.0,
+        "formula_check": "154.0 - 55.0 - 21.7 - (50.4) - 12.9 = 14.0"
+      }
     }
   ],
   "supplementary_data": {

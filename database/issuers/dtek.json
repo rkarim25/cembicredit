@@ -50,18 +50,18 @@
       "ebitda_reconciliation_variance_usd_m": 4.1,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.1M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 165.0,
-      "change_in_working_capital": 35.0,
-      "tax_expense": 45.0,
+      "cash_interest": 194.3,
+      "change_in_working_capital": 8.4,
+      "tax_expense": 42.3,
       "fcf_conversion_pct": 28.7,
       "fcf_bridge": {
         "calculated_ebitda": 680.0,
         "capex": 240.0,
-        "cash_interest": 165.0,
-        "change_in_working_capital": 35.0,
-        "tax": 45.0,
+        "cash_interest": 194.3,
+        "change_in_working_capital": 8.4,
+        "tax": 42.3,
         "fcf": 195.0,
-        "formula_check": "680.0 - 240.0 - 165.0 - (35.0) - 45.0 = 195.0"
+        "formula_check": "680.0 - 240.0 - 194.3 - (8.4) - 42.3 = 195.0"
       }
     },
     {
@@ -90,18 +90,18 @@
       "ebitda_reconciliation_variance_usd_m": 5,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.0M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 175.0,
-      "change_in_working_capital": 65.0,
-      "tax_expense": 15.0,
+      "cash_interest": 89.9,
+      "change_in_working_capital": 146.0,
+      "tax_expense": 19.1,
       "fcf_conversion_pct": -75.8,
       "fcf_bridge": {
         "calculated_ebitda": 310.0,
         "capex": 290.0,
-        "cash_interest": 175.0,
-        "change_in_working_capital": 65.0,
-        "tax": 15.0,
+        "cash_interest": 89.9,
+        "change_in_working_capital": 146.0,
+        "tax": 19.1,
         "fcf": -235.0,
-        "formula_check": "310.0 - 290.0 - 175.0 - (65.0) - 15.0 = -235.0"
+        "formula_check": "310.0 - 290.0 - 89.9 - (146.0) - 19.1 = -235.0"
       }
     },
     {
@@ -130,18 +130,18 @@
       "ebitda_reconciliation_variance_usd_m": 5.7,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.7M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 165.0,
-      "change_in_working_capital": 40.0,
-      "tax_expense": 20.0,
+      "cash_interest": 105.3,
+      "change_in_working_capital": 99.8,
+      "tax_expense": 19.9,
       "fcf_conversion_pct": -48.5,
       "fcf_bridge": {
         "calculated_ebitda": 340.0,
         "capex": 280.0,
-        "cash_interest": 165.0,
-        "change_in_working_capital": 40.0,
-        "tax": 20.0,
+        "cash_interest": 105.3,
+        "change_in_working_capital": 99.8,
+        "tax": 19.9,
         "fcf": -165.0,
-        "formula_check": "340.0 - 280.0 - 165.0 - (40.0) - 20.0 = -165.0"
+        "formula_check": "340.0 - 280.0 - 105.3 - (99.8) - 19.9 = -165.0"
       }
     },
     {
@@ -170,18 +170,18 @@
       "ebitda_reconciliation_variance_usd_m": 6.3,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.3M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 155.0,
-      "change_in_working_capital": 30.0,
-      "tax_expense": 25.0,
+      "cash_interest": 130.0,
+      "change_in_working_capital": 55.4,
+      "tax_expense": 24.6,
       "fcf_conversion_pct": -23.8,
       "fcf_bridge": {
         "calculated_ebitda": 420.0,
         "capex": 310.0,
-        "cash_interest": 155.0,
-        "change_in_working_capital": 30.0,
-        "tax": 25.0,
+        "cash_interest": 130.0,
+        "change_in_working_capital": 55.4,
+        "tax": 24.6,
         "fcf": -100.0,
-        "formula_check": "420.0 - 310.0 - 155.0 - (30.0) - 25.0 = -100.0"
+        "formula_check": "420.0 - 310.0 - 130.0 - (55.4) - 24.6 = -100.0"
       }
     },
     {
@@ -210,18 +210,18 @@
       "ebitda_reconciliation_variance_usd_m": 6.9,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.9M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 145.0,
-      "change_in_working_capital": 20.0,
-      "tax_expense": 35.0,
+      "cash_interest": 132.4,
+      "change_in_working_capital": 36.0,
+      "tax_expense": 31.6,
       "fcf_conversion_pct": 6.1,
       "fcf_bridge": {
         "calculated_ebitda": 490.0,
         "capex": 260.0,
-        "cash_interest": 145.0,
-        "change_in_working_capital": 20.0,
-        "tax": 35.0,
+        "cash_interest": 132.4,
+        "change_in_working_capital": 36.0,
+        "tax": 31.6,
         "fcf": 30.0,
-        "formula_check": "490.0 - 260.0 - 145.0 - (20.0) - 35.0 = 30.0"
+        "formula_check": "490.0 - 260.0 - 132.4 - (36.0) - 31.6 = 30.0"
       }
     },
     {
@@ -250,18 +250,18 @@
       "ebitda_reconciliation_variance_usd_m": 7.4,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.4M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 135.0,
-      "change_in_working_capital": 15.0,
-      "tax_expense": 45.0,
+      "cash_interest": 135.3,
+      "change_in_working_capital": 21.2,
+      "tax_expense": 38.5,
       "fcf_conversion_pct": 22.3,
       "fcf_bridge": {
         "calculated_ebitda": 560.0,
         "capex": 240.0,
-        "cash_interest": 135.0,
-        "change_in_working_capital": 15.0,
-        "tax": 45.0,
+        "cash_interest": 135.3,
+        "change_in_working_capital": 21.2,
+        "tax": 38.5,
         "fcf": 125.0,
-        "formula_check": "560.0 - 240.0 - 135.0 - (15.0) - 45.0 = 125.0"
+        "formula_check": "560.0 - 240.0 - 135.3 - (21.2) - 38.5 = 125.0"
       }
     },
     {
@@ -290,18 +290,18 @@
       "ebitda_reconciliation_variance_usd_m": 7.8,
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.8M) of Calculated EBITDA with zero aggressive management add-backs.",
-      "cash_interest": 120.0,
-      "change_in_working_capital": 10.0,
-      "tax_expense": 55.0,
+      "cash_interest": 138.5,
+      "change_in_working_capital": 1.1,
+      "tax_expense": 45.4,
       "fcf_conversion_pct": 35.7,
       "fcf_bridge": {
         "calculated_ebitda": 630.0,
         "capex": 220.0,
-        "cash_interest": 120.0,
-        "change_in_working_capital": 10.0,
-        "tax": 55.0,
+        "cash_interest": 138.5,
+        "change_in_working_capital": 1.1,
+        "tax": 45.4,
         "fcf": 225.0,
-        "formula_check": "630.0 - 220.0 - 120.0 - (10.0) - 55.0 = 225.0"
+        "formula_check": "630.0 - 220.0 - 138.5 - (1.1) - 45.4 = 225.0"
       }
     }
   ],

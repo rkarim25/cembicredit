@@ -33,7 +33,20 @@
       "gross_debt": 330.0,
       "net_debt": 285.0,
       "net_leverage": 2.42,
-      "interest_coverage": 4.8
+      "interest_coverage": 4.8,
+      "cash_interest": 24.6,
+      "change_in_working_capital": 51.7,
+      "tax_expense": 8.7,
+      "fcf_conversion_pct": 41.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 118.0,
+        "capex": -16.0,
+        "cash_interest": 24.6,
+        "change_in_working_capital": 51.7,
+        "tax": 8.7,
+        "fcf": 49.0,
+        "formula_check": "118.0 - -16.0 - 24.6 - (51.7) - 8.7 = 49.0"
+      }
     },
     {
       "period": "2024A",
@@ -48,7 +61,20 @@
       "gross_debt": 345.0,
       "net_debt": 285.0,
       "net_leverage": 2.19,
-      "interest_coverage": 5.2
+      "interest_coverage": 5.2,
+      "cash_interest": 25.0,
+      "change_in_working_capital": -21.9,
+      "tax_expense": 9.9,
+      "fcf_conversion_pct": 103.1,
+      "fcf_bridge": {
+        "calculated_ebitda": 130.0,
+        "capex": -17.0,
+        "cash_interest": 25.0,
+        "change_in_working_capital": -21.9,
+        "tax": 9.9,
+        "fcf": 134.0,
+        "formula_check": "130.0 - -17.0 - 25.0 - (-21.9) - 9.9 = 134.0"
+      }
     },
     {
       "period": "2025A",
@@ -63,7 +89,20 @@
       "gross_debt": 362.0,
       "net_debt": 292.0,
       "net_leverage": 2.1,
-      "interest_coverage": 5.6
+      "interest_coverage": 5.6,
+      "cash_interest": 24.8,
+      "change_in_working_capital": 17.3,
+      "tax_expense": 10.9,
+      "fcf_conversion_pct": 72.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 139.0,
+        "capex": -15.0,
+        "cash_interest": 24.8,
+        "change_in_working_capital": 17.3,
+        "tax": 10.9,
+        "fcf": 101.0,
+        "formula_check": "139.0 - -15.0 - 24.8 - (17.3) - 10.9 = 101.0"
+      }
     }
   ],
   "segment_performance": {

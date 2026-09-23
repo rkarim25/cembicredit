@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "yapi_kredi",
-    "name": "Yap\u0131 ve Kredi Bankas\u0131",
+    "name": "Yapı ve Kredi Bankası",
     "ticker": "YKBNK",
     "country": "Turkey",
     "region": "CEEMEA",
@@ -51,7 +51,19 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 71.4,
-      "tax_expense": 15.5
+      "tax_expense": 15.5,
+      "change_in_working_capital": -24.4,
+      "fcf": 87.5,
+      "fcf_conversion_pct": 35.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 250.0,
+        "capex": 100.0,
+        "cash_interest": 71.4,
+        "change_in_working_capital": -24.4,
+        "tax": 15.5,
+        "fcf": 87.5,
+        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
+      }
     },
     {
       "period": "2022A",
@@ -84,7 +96,19 @@
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 71.4,
-      "tax_expense": 15.5
+      "tax_expense": 15.5,
+      "change_in_working_capital": -24.4,
+      "fcf": 87.5,
+      "fcf_conversion_pct": 35.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 250.0,
+        "capex": 100.0,
+        "cash_interest": 71.4,
+        "change_in_working_capital": -24.4,
+        "tax": 15.5,
+        "fcf": 87.5,
+        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
+      }
     },
     {
       "period": "2023A",
@@ -117,7 +141,19 @@
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 71.4,
-      "tax_expense": 15.5
+      "tax_expense": 15.5,
+      "change_in_working_capital": -24.4,
+      "fcf": 87.5,
+      "fcf_conversion_pct": 35.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 250.0,
+        "capex": 100.0,
+        "cash_interest": 71.4,
+        "change_in_working_capital": -24.4,
+        "tax": 15.5,
+        "fcf": 87.5,
+        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
+      }
     },
     {
       "period": "2024A",
@@ -150,7 +186,19 @@
       "ebitda_reconciliation_variance_pct": 5.5,
       "ebitda_reconciliation_comment": "Hyperinflation Accounting (IAS 29 / TMS 29): Reported EBITDA restated under inflation accounting with monetary gain adjustments (+$13.8M / +5.5%); Standardized Calculated EBITDA reflects nominal operating cash receipts minus direct cash expenses.",
       "cash_interest": 71.4,
-      "tax_expense": 15.5
+      "tax_expense": 15.5,
+      "change_in_working_capital": -24.4,
+      "fcf": 87.5,
+      "fcf_conversion_pct": 35.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 250.0,
+        "capex": 100.0,
+        "cash_interest": 71.4,
+        "change_in_working_capital": -24.4,
+        "tax": 15.5,
+        "fcf": 87.5,
+        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
+      }
     },
     {
       "period": "2025E",
@@ -183,7 +231,19 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 71.4,
-      "tax_expense": 15.5
+      "tax_expense": 15.5,
+      "change_in_working_capital": -24.4,
+      "fcf": 87.5,
+      "fcf_conversion_pct": 35.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 250.0,
+        "capex": 100.0,
+        "cash_interest": 71.4,
+        "change_in_working_capital": -24.4,
+        "tax": 15.5,
+        "fcf": 87.5,
+        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
+      }
     },
     {
       "period": "2026E",
@@ -216,7 +276,19 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 71.4,
-      "tax_expense": 15.5
+      "tax_expense": 15.5,
+      "change_in_working_capital": -24.4,
+      "fcf": 87.5,
+      "fcf_conversion_pct": 35.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 250.0,
+        "capex": 100.0,
+        "cash_interest": 71.4,
+        "change_in_working_capital": -24.4,
+        "tax": 15.5,
+        "fcf": 87.5,
+        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
+      }
     },
     {
       "period": "2027E",
@@ -249,7 +321,19 @@
       "ebitda_reconciliation_variance_pct": 1.5,
       "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.7M) of Calculated EBITDA with zero aggressive management add-backs.",
       "cash_interest": 71.4,
-      "tax_expense": 15.5
+      "tax_expense": 15.5,
+      "change_in_working_capital": -24.4,
+      "fcf": 87.5,
+      "fcf_conversion_pct": 35.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 250.0,
+        "capex": 100.0,
+        "cash_interest": 71.4,
+        "change_in_working_capital": -24.4,
+        "tax": 15.5,
+        "fcf": 87.5,
+        "formula_check": "250.0 - 100.0 - 71.4 - (-24.4) - 15.5 = 87.5"
+      }
     }
   ],
   "supplementary_data": {
@@ -276,12 +360,12 @@
     "recovery_base_pct": 102.0,
     "implied_stress_ev_multiple": "Prudential Resolution",
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "Ko\u00e7 Group backing; #1 credit card issuing market share in Turkey; AT1 yielding 9.15%."
+    "thesis": "Koç Group backing; #1 credit card issuing market share in Turkey; AT1 yielding 9.15%."
   },
   "annotations": [
     {
       "issuer_id": "yapi_kredi",
-      "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
+      "issuer_name": "Yapı ve Kredi Bankası",
       "sector": "Banks",
       "topic": "NIM & Asset-Liability Repricing",
       "source": "Cognitive Credit / J.P. Morgan",
@@ -289,7 +373,7 @@
     },
     {
       "issuer_id": "yapi_kredi",
-      "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
+      "issuer_name": "Yapı ve Kredi Bankası",
       "sector": "Banks",
       "topic": "Prudential Capital & AT1 Instruments",
       "source": "Central Bank / Fitch Ratings",
@@ -297,7 +381,7 @@
     },
     {
       "issuer_id": "yapi_kredi",
-      "issuer_name": "Yap\u0131 ve Kredi Bankas\u0131",
+      "issuer_name": "Yapı ve Kredi Bankası",
       "sector": "Banks",
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
@@ -305,7 +389,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+    "source_deck": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
     "reporting_currency": "USD / Local Currency Statutory",
     "management_guidance_targets": {
       "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -451,7 +535,7 @@
       "current_runrate": "+13.8% YoY annualized loan disbursement",
       "tracking_status": "On Track",
       "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-      "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -462,7 +546,7 @@
       "current_runrate": "5.42%",
       "tracking_status": "On Track",
       "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-      "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of 5.30% - 5.55%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -473,7 +557,7 @@
       "current_runrate": "36.8%",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-      "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -484,7 +568,7 @@
       "current_runrate": "68 bps annualized credit cost",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-      "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -495,7 +579,7 @@
       "current_runrate": "40.0% payout proposed",
       "tracking_status": "On Track",
       "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-      "last_guided_source": "Yap\u0131 ve Kredi Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "Yapı ve Kredi Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -688,7 +772,7 @@
       "broker": "Consensus Sell-Side",
       "analyst": "Composite EM Credit Desk",
       "report_date": "2024-12-01",
-      "report_title": "Yap\u0131 ve Kredi Bankas\u0131: Forward Earnings & Refinancing Profile",
+      "report_title": "Yapı ve Kredi Bankası: Forward Earnings & Refinancing Profile",
       "recommendation": "Neutral",
       "target_spread_bps": 450,
       "raw_model": {

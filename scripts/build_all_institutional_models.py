@@ -1289,7 +1289,7 @@ def build_corporate_model(d, filepath):
     ]
     for r_label, r_val, is_num, n_fmt in rcf_rows:
         ws6[f"B{row_c}"] = r_label
-        ws6[f"C{row_c}"] = r_val
+        ws6[f"C{row_c}"] = ", ".join(str(x) for x in r_val) if isinstance(r_val, list) else r_val
         ws6.merge_cells(f"C{row_c}:F{row_c}")
         is_highlight = "UNDRAWN" in r_label or "Committed" in r_label
         style_cell(ws6[f"B{row_c}"], font=font_bold if is_highlight else font_regular, fill=fill_accent_gold if "UNDRAWN" in r_label else None)
@@ -1316,11 +1316,16 @@ def build_corporate_model(d, filepath):
         style_cell(ws6[f"{col_l}{row_c}"], font=font_tbl_hdr, fill=fill_navy_hdr, alignment=align_left)
     row_c += 1
     
-    lev_cov = cov.get('debt_incurrence_net_leverage', {})
-    int_cov = cov.get('interest_coverage_ratio', {})
-    sec_cov = cov.get('priority_secured_debt_basket', {})
-    coc_cov = cov.get('change_of_control_put', {})
-    rp_cov = cov.get('restricted_payments_basket', {})
+    lev_raw = cov.get('debt_incurrence_net_leverage', {})
+    lev_cov = lev_raw if isinstance(lev_raw, dict) else {'covenant_terms': str(lev_raw), 'covenant_threshold': str(lev_raw)}
+    int_raw = cov.get('interest_coverage_ratio', {})
+    int_cov = int_raw if isinstance(int_raw, dict) else {'covenant_terms': str(int_raw), 'covenant_threshold': str(int_raw)}
+    sec_raw = cov.get('priority_secured_debt_basket', {})
+    sec_cov = sec_raw if isinstance(sec_raw, dict) else {'covenant_terms': str(sec_raw), 'covenant_threshold': str(sec_raw)}
+    coc_raw = cov.get('change_of_control_put', {})
+    coc_cov = coc_raw if isinstance(coc_raw, dict) else {'covenant_terms': str(coc_raw)}
+    rp_raw = cov.get('restricted_payments_basket', {})
+    rp_cov = rp_raw if isinstance(rp_raw, dict) else {'covenant_terms': str(rp_raw)}
     
     cov_rows = [
         (lev_cov.get('covenant_type', 'Debt Incurrence Net Leverage Limit'), lev_cov.get('covenant_threshold', 'max 3.75x'), lev_cov.get('actual_current', '2.20x'), lev_cov.get('headroom', '1.55x ($450M EBITDA headroom)'), 'Incurrence covenant for additional senior debt issuance'),
@@ -2099,7 +2104,7 @@ def build_bank_model(d, filepath):
     ]
     for r_label, r_val, is_num, n_fmt in b_rcf_rows:
         ws5[f"B{row_b}"] = r_label
-        ws5[f"C{row_b}"] = r_val
+        ws5[f"C{row_b}"] = ", ".join(str(x) for x in r_val) if isinstance(r_val, list) else r_val
         ws5.merge_cells(f"C{row_b}:F{row_b}")
         is_highlight = "UNDRAWN" in r_label or "Committed" in r_label
         style_cell(ws5[f"B{row_b}"], font=font_bold if is_highlight else font_regular, fill=fill_accent_gold if "UNDRAWN" in r_label else None)

@@ -539,7 +539,7 @@
       <h1>
         Zorlu Enerji Elektrik Üretim A.Ş.
         <span class="ticker-pill">ZOREN</span>
-        <span class="badge-rating">YTM 11.2% &bull; 94.5c</span>
+        <span class="badge-rating" style="background:rgba(244,63,94,0.15); color:var(--accent-rose); border:1px solid rgba(244,63,94,0.3);">YTM 27.2% &bull; 63.5c (Distressed Workout)</span>
       </h1>
       <div class="hero-subtitle">
         Deep operational intelligence across Zorlu Enerji's 8 power generation and regulated distribution asset clusters, 
@@ -550,7 +550,7 @@
         <div class="hero-kpi-pill">OEDAŞ Grid: <strong>1.95M Customers (8,650 GWh)</strong></div>
         <div class="hero-kpi-pill">YEKDEM Hard Currency: <strong>68.5% USD EBITDA</strong></div>
         <div class="hero-kpi-pill">EV Network: <strong>1,850+ ZES Sockets (#1 in Turkey)</strong></div>
-        <div class="hero-kpi-pill">Benchmark Bond: <strong>ZOREN 9.000% 2026 ($300M)</strong></div>
+        <div class="hero-kpi-pill">Benchmark Bond: <strong>ZOREN 11.000% 2030 ($1,100M &bull; XS2926261426)</strong></div>
       </div>
     </div>
   </div>
@@ -982,7 +982,7 @@
       <span style="display:flex; align-items:center; gap:8px;">
         <span>🎯</span> 3. Interactive Pricing Engine: "What's Priced In?" &amp; Scenario Return Payoff Matrix
       </span>
-      <span class="sub">Input your purchase price for ZOREN 9.00% 2026 to reveal implied market valuation &amp; scenario returns</span>
+      <span class="sub">Input your purchase price for ZOREN 11.00% 2030 to reveal implied market valuation &amp; scenario returns</span>
     </div>
 
     <div class="calc-engine-grid">
@@ -994,7 +994,7 @@
             Step 1: Select Price Preset or Enter Custom Entry Price
           </div>
           <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px;">
-            <button class="quick-pill-btn active" onclick="setEntryPrice(94.5)">Market Quote @ 94.5c</button>
+            <button class="quick-pill-btn active" onclick="setEntryPrice(63.5)">Market Quote @ 63.5c</button>
             <button class="quick-pill-btn" onclick="setEntryPrice(88.0)">Maturity Dip @ 88.0c</button>
             <button class="quick-pill-btn" onclick="setEntryPrice(75.0)">Distress Stress @ 75.0c</button>
             <button class="quick-pill-btn" onclick="setEntryPrice(58.0)">Floor Valuation @ 58.0c</button>
@@ -1004,9 +1004,9 @@
           <!-- Price Slider -->
           <div class="control-label-row">
             <span class="control-label">Your Entry / Secondary Market Price:</span>
-            <span class="control-display-val" id="lbl-entry-price">94.50c ($94.50)</span>
+            <span class="control-display-val" id="lbl-entry-price">63.50c ($63.50)</span>
           </div>
-          <input type="range" id="slider-entry-price" class="styled-slider" min="40.0" max="105.0" step="0.5" value="94.5" oninput="onPriceSliderChange(this.value)">
+          <input type="range" id="slider-entry-price" class="styled-slider" min="40.0" max="105.0" step="0.5" value="63.5" oninput="onPriceSliderChange(this.value)">
           
           <div style="display:flex; justify-content:space-between; font-size:9.5px; color:var(--text-dim); margin-top:4px;">
             <span>40.0c (Sovereign Default)</span>
@@ -1042,7 +1042,7 @@
 
         <!-- "What Is Priced In?" Analytical Strip -->
         <div style="font-size:11px; font-weight:700; color:var(--accent-gold); text-transform:uppercase; margin-top:6px; margin-bottom:6px;">
-          Analytical Diagnostics: What the Market Is Implying at <span id="diag-current-price-header">94.5c</span>
+          Analytical Diagnostics: What the Market Is Implying at <span id="diag-current-price-header">63.5c</span>
         </div>
 
         <div class="diagnostics-banner">
@@ -1074,7 +1074,7 @@
         <div class="chart-box">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
             <span style="font-size:10.5px; font-weight:700; color:var(--accent-gold); text-transform:uppercase;">
-              Scenario Total Return &amp; PnL vs Entry Price (<span id="chart-entry-px-lbl">94.5c</span>)
+              Scenario Total Return &amp; PnL vs Entry Price (<span id="chart-entry-px-lbl">63.5c</span>)
             </span>
             <span style="font-size:9.5px; color:var(--text-dim);">Chart.js Real-time Payoff</span>
           </div>
@@ -1096,7 +1096,7 @@
     <!-- Scenario Return Table -->
     <div style="margin-top:16px; padding-top:12px; border-top:1px solid rgba(255,255,255,0.06);">
       <div style="font-size:11px; font-weight:700; color:var(--accent-gold); text-transform:uppercase; margin-bottom:8px;">
-        Detailed Scenario Payoff Matrix &amp; Annualized IRR Table (Calibrated to <span id="table-entry-px-lbl">94.50c</span> Entry)
+        Detailed Scenario Payoff Matrix &amp; Annualized IRR Table (Calibrated to <span id="table-entry-px-lbl">63.50c</span> Entry)
       </div>
       <div style="overflow-x:auto;">
         <table class="data-table" id="scenario-return-table">
@@ -1125,12 +1125,12 @@
       <span style="display:flex; align-items:center; gap:8px;">
         <span>📉</span> 4. Exit Yield Sensitivity Matrix: 2026 Extension Paper Valuation
       </span>
-      <span class="sub">Why ZOREN 2026 Eurobonds Trade at 94.5c Today Despite 190.6% Fundamental Asset Coverage</span>
+      <span class="sub">Why ZOREN 2030 Eurobonds Trade at 63.5c Today Despite &gt;170% Fundamental Asset Coverage</span>
     </div>
 
     <div style="font-size:11.5px; color:#cbd5e1; line-height:1.5; margin-bottom:12px;">
       In an Amend-and-Extend (A&E) agreement ahead of June 2026, ZOREN notes ($300M) are extended by 4 years to 2030 with a <strong>9.50% cash coupon</strong> (+50 bps step-up). 
-      The market is not pricing an asset deficit; rather, the secondary quote of <strong>94.5c</strong> is the exact present value of an extended note discounted at an <strong>11.00% market Exit Yield</strong> (Turkey sovereign 4Y curve 6.75% + 425 bps corporate spread):
+      The market is not pricing an asset deficit; rather, the secondary quote of <strong>63.5c</strong> reflects acute duration and restructuring uncertainty following Houlihan Lokey and Servo Capital's mandate, despite an extended note discounted at an <strong>11.00% market Exit Yield</strong> (Turkey sovereign 4Y curve 6.75% + 425 bps corporate spread):
     </div>
 
     <div style="overflow-x:auto;">
@@ -1259,7 +1259,7 @@
           <div style="margin-bottom:4px;"><strong>• Structural Subordination:</strong> $1,200M OpCo project loans (EBRD + OEDAŞ TLREF) ring-fenced and consume all cash flow.</div>
           <div style="margin-bottom:4px;"><strong>• Sponsor Support:</strong> $0.0M (Zorlu Holding liquidity depleted; banks freeze credit).</div>
           <div style="margin-bottom:4px;"><strong>• Legal Pathway:</strong> Bank syndicate impasse; forced debt standstill.</div>
-          <div><strong>• Final Verdict:</strong> Only $140M left for $582M HoldCo claims (24.0c fundamental / 58c secondary floor). <strong>Equity wiped out.</strong></div>
+          <div><strong>• Final Verdict:</strong> Floor of ~50c–53c with $1,100M claims pool under severe distress standstills. <strong>Equity wiped out.</strong></div>
         </div>
       </div>
 
@@ -1274,7 +1274,7 @@
           <div style="margin-bottom:4px;"><strong>• Valuation Multiple:</strong> 6.0x EV multiple ($2,100M EV + $240M Cash = $2,340M total distributable value).</div>
           <div style="margin-bottom:4px;"><strong>• OpCo Debt Ring-Fenced:</strong> $1,200M priority secured project loans serviced normally from plant revenues.</div>
           <div style="margin-bottom:4px;"><strong>• Refinancing Pathway:</strong> Consensual 4-year Amend-and-Extend to June 2030 at 9.50% coupon (+50 bps step-up).</div>
-          <div><strong>• Final Verdict:</strong> $1,110M net value for $582M senior claims (<strong>190.6% asset coverage / 100c Par</strong>). <strong>At 11% exit yield, trades at 95.3c today.</strong></div>
+          <div><strong>• Final Verdict:</strong> $1,880M net value for $1,100M senior claims (<strong>171.8% asset coverage / 100c Par</strong>). <strong>Target workout exit: 72c–76c vs 63.5c quote.</strong></div>
         </div>
       </div>
 
@@ -1309,7 +1309,7 @@
       On a pure unencumbered asset liquidation basis, Zorlu Enerji provides <strong>190.6% asset coverage</strong> for its senior unsecured Eurobonds:
       Enterprise Value ($2,100M operational EV + $240M unrestricted cash) minus Priority Secured Project Debt ($1,200M) leaves $1,140M of net asset value to cover $582.4M of senior claims ($300M Eurobond + $282.4M RCF). 
       Under classical asset coverage math, clean recovery is <strong>100.0c</strong>. 
-      Yet, the 2026 notes trade at <strong>~94.5c</strong>. 
+      Yet, the 2030 notes trade at <strong>~63.5c</strong>. 
       Rather than using obscure percentage multipliers (e.g. 15% friction), institutional credit desks demand direct attribution: <em>"How many cents per dollar does each specific risk or catalyst move my bond?"</em>
       By expressing qualitative risk factors directly as <strong>Cents of Upside (+cents) or Discount (-cents) to Recovery</strong>, the bridge between theoretical asset coverage and market pricing is transparent and direct:
       <span style="font-family:'JetBrains Mono',monospace; color:var(--accent-cyan); font-weight:700;">Desk Fair Value = Fundamental Senior Recovery + &sum;(&Delta; Cents)</span>.
@@ -1495,7 +1495,7 @@
       </div>
 
       <p style="font-size:11.5px; color:#cbd5e1; line-height:1.6; margin-bottom:14px;">
-        For Zorlu Enerji (ZOREN 9.00% 2026), bondholders face a critical distinction between <strong>Stream 1: Fundamental EV Recovery</strong> (which demonstrates 146.7% par asset coverage from geothermal and grid assets) and <strong>Methodology 2: Market-Based Instrument Pricing</strong> (which prices the 4-year maturity rollover paper at 95.3c under an 11.00% exit yield). Both streams exceed the current secondary quote of 94.5c, underpinning a clear <strong>BUY</strong> signal.
+        For Zorlu Enerji (ZOREN 11.00% 2030), bondholders face a critical distinction between <strong>Stream 1: Fundamental EV Recovery</strong> (which demonstrates 146.7% par asset coverage from geothermal and grid assets) and <strong>Methodology 2: Market-Based Instrument Pricing</strong> (which prices the 4-year maturity rollover paper at 95.3c under an 11.00% exit yield). Both streams exceed the current secondary quote of 94.5c, underpinning a clear <strong>BUY</strong> signal.
       </p>
 
       <!-- Grid comparing Stream 1 vs Stream 2 -->
@@ -1702,7 +1702,7 @@
           </span>
         </div>
         <p style="font-size:10.5px; color:#94a3b8; line-height:1.5; margin-bottom:8px;">
-          HoldCo Eurobond investors are structurally subordinated to $1,200M of project finance and utility concession debt:
+          HoldCo Eurobond investors are structurally subordinated to $380M of project finance and utility concession debt:
         </p>
         <ul style="font-size:10px; color:#cbd5e1; line-height:1.6; margin-left:14px; display:flex; flex-direction:column; gap:4px;">
           <li>
@@ -1928,7 +1928,7 @@
       }
     ];
 
-    let currentEntryPrice = 94.50;
+    let currentEntryPrice = 63.50;
     let currentNotional = 1000000;
     let currentHorizonMonths = 14;
 
@@ -1982,8 +1982,8 @@
       // Total Senior Unsecured Pool: $582.4M ($300M Eurobond + $282.4M RCF)
       // Priority Secured Debt: $1,200M ($720M Geothermal PF + $480M OEDAS Grid)
       // Balance Sheet Cash: $240M
-      const seniorUnsecuredPool = 582.4;
-      const prioritySecuredDebt = 1200.0;
+      const seniorUnsecuredPool = 1100.0;
+      const prioritySecuredDebt = 380.0;
       const balanceSheetCash = 240.0;
       const recoveryPct = currentEntryPrice / 100.0;
 
