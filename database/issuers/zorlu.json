@@ -157,11 +157,11 @@
       "net_leverage": 3.62,
       "interest_coverage": 2.12,
       "observations": {
-        "revenue": "Revenue achieved $1,200M anchored by OEDA\u015e distribution network and 305 MW baseload geothermal fleet.",
+        "revenue": "Revenue achieved $1,200M anchored by OEDAŞ distribution network and 305 MW baseload geothermal fleet.",
         "ebitda": "EBITDA reached $320M; 68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM.",
         "capex": "Capex strictly capped at $112M, preserving liquidity ahead of the 2026 Eurobond maturity wall.",
         "fcf": "Strong FCF of $160M generated, maintaining unrestricted cash reserves at $240M across partner banks.",
-        "net_leverage": "Net financial debt reported at $1,350M (3.62x net leverage) following March 2024 Gazda\u015f gas distribution divestment and initial $800M 2030 bond issuance."
+        "net_leverage": "Net financial debt reported at $1,350M (3.62x net leverage) following March 2024 Gazdaş gas distribution divestment and initial $800M 2030 bond issuance."
       },
       "reported_ebitda": 372.5,
       "calculated_ebitda": 320.0,
@@ -308,7 +308,74 @@
     "generation_volume_gwh": 8460.0,
     "renewable_capacity_pct": 65.0,
     "fx_indexed_tariffs_pct": 82.0,
-    "capacity_utilization_factor_pct": 54.0
+    "capacity_utilization_factor_pct": 54.0,
+    "quarterly_operating_metrics_2025_2026": {
+      "1Q25": {
+        "spot_power_price_usd_mwh": 66.0,
+        "generation_gwh": 504.0,
+        "cash_ebitda_generation_usd_m": 29.0,
+        "cash_ebitda_distribution_usd_m": 30.0,
+        "total_cash_ebitda_usd_m": 59.0,
+        "cash_balance_usd_m": 82.0,
+        "net_debt_usd_m": 1308.0,
+        "net_leverage": 4.1
+      },
+      "2Q25": {
+        "spot_power_price_usd_mwh": 61.0,
+        "generation_gwh": 586.0,
+        "cash_ebitda_generation_usd_m": 34.0,
+        "cash_ebitda_distribution_usd_m": 53.0,
+        "total_cash_ebitda_usd_m": 87.0,
+        "cash_balance_usd_m": 70.0,
+        "net_debt_usd_m": 1287.0,
+        "net_leverage": 3.9
+      },
+      "1Q26": {
+        "spot_power_price_usd_mwh": 51.0,
+        "generation_gwh": 453.0,
+        "cash_ebitda_generation_usd_m": 24.0,
+        "cash_ebitda_distribution_usd_m": 22.0,
+        "total_cash_ebitda_usd_m": 46.0,
+        "cash_balance_usd_m": 81.0,
+        "net_debt_usd_m": 1241.0,
+        "net_leverage": 4.0
+      },
+      "2Q26": {
+        "spot_power_price_usd_mwh": 20.0,
+        "generation_gwh": 501.0,
+        "cash_ebitda_generation_usd_m": 24.0,
+        "cash_ebitda_distribution_usd_m": 32.0,
+        "total_cash_ebitda_usd_m": 56.0,
+        "cash_balance_usd_m": 51.0,
+        "net_debt_usd_m": 1251.0,
+        "net_leverage": 4.5,
+        "fcf_burn_usd_m": -15.0,
+        "escrow_cash_release_usd_m": 29.0
+      }
+    },
+    "adb_facility_terms": {
+      "amount_usd_m": 95.0,
+      "facility_type": "Concessional multilateral project debt",
+      "lender": "Asian Development Bank (ADB)",
+      "intended_use": "Distribution grid (OEDAŞ) capex financing",
+      "tenor_years": 6,
+      "grace_period_years": 2,
+      "seniority": "Pari passu with Senior Notes",
+      "guarantors": "None",
+      "disbursement_target": "September 2026 (Final approval stage)"
+    },
+    "distribution_capex_penalties": {
+      "reason": "Regulatory penalties linked to capex underinvestment during 2021-2025 regulatory cycle",
+      "1h26_drag_usd_m": 10.0,
+      "2h26_drag_usd_m": 10.0,
+      "annual_drag_until_2030_usd_m": 20.0
+    },
+    "local_try_debt_trajectory": {
+      "1q26_usd_m": 83.0,
+      "2q26_usd_m": 70.0,
+      "current_sep26_usd_m": 55.0,
+      "target": "Repay most local bank debt by YE27"
+    }
   },
   "debt_maturities": {
     "2025": 110.0,
@@ -479,8 +546,8 @@
     "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
     "reporting_currency": "USD / TRY (with natural USD hedge disclosures)",
     "generation_fleet_breakdown": {
-      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) \u2014 Turkey's largest and lowest-cost baseload renewable fleet",
-      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) \u2014 long-term high wind resource capacity factor (>34%)",
+      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) — Turkey's largest and lowest-cost baseload renewable fleet",
+      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) — long-term high wind resource capacity factor (>34%)",
       "hydroelectric_capacity_hes": "118.6 MW across 7 operating run-of-river and reservoir plants (Ikizdere, Atabey, Camlica, Kuzgun, Mercan, Tercan, Beykoy)",
       "solar_and_hybrid_capacity": "84.0 MW installed and under development (hybrid solar installations co-located at Kizildere geothermal sites)",
       "thermal_and_industrial_cogen": "341.0 MW domestic gas cogeneration and district heating (Bursa, Luleburgaz)",
@@ -559,7 +626,7 @@
     "geographic_and_fx_exposure": {
       "usd_revenue_share": "68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM mechanism",
       "try_regulated_revenue_share": "31.5% of revenue earned in Turkish Lira via OEDAS/OEPSAS with full CPI inflation pass-through",
-      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY \u2014 natural dollar hedge covers 100% of USD net interest payments",
+      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY — natural dollar hedge covers 100% of USD net interest payments",
       "fx_risk_mitigation": "Bilateral FX forward hedges covering next 12-month EUR debt principal amortizations"
     },
     "contract_backlog_and_commercial_terms": {
@@ -1058,68 +1125,144 @@
     }
   },
   "credit_view": {
-    "last_updated": "2026-09-22",
     "verdict": {
-      "stance": "Overweight / Consensual Workout",
-      "target_price": 95.3,
-      "current_price": 94.5,
-      "ytm": 11.2,
-      "spread_bp": 680,
-      "summary": "190.6% asset coverage (,598M EV vs ,363M Net Debt) supports 100c fundamental par recovery. Secondary market discounts notes at 94.5c due to 2026 maturity wall and bank subordination, but domestic bank alignment unlocks 95.3c-100c under consensual 3-year extension."
+      "stance": "Tactical Overweight / Refinancing Watch",
+      "price": "63.50",
+      "target_price": "75.00",
+      "ytm": "27.2%",
+      "spread_bp": 2350,
+      "thesis_summary": "Near-term liquidity through the first amortisation (Oct 2027) is materially de-risked by the impending closing of the $95M ADB concessional facility (6y maturity, 2y grace period, pari passu, no guarantors) and ~$29M escrow cash release. However, capital structure remains inverted: quarterly interest (~$64M) exceeds quarterly cash EBITDA (~$56M in 2Q26), and distribution EBITDA is penalized by ~$20M/yr capex underinvestment clawbacks through 2030. Deleveraging beyond 2027 hinges on 375MW wind/storage portfolio monetisation, Pakistan disposal, and related-party loan recovery from Zorlu Holding."
     },
     "positives": [
-      "Strong fundamental asset backing: ,598M normalized Enterprise Value provides 190.6% senior coverage across generation assets and regulated utility grid.",
-      "Lucrative USD-denominated feed-in tariffs (YEKDEM): K\u0131z\u0131ldere I, II, III and Ala\u015fehir geothermal plants receive \u2013/MWh guaranteed hard-currency revenue through 2028.",
-      "Regulated, inflation-protected utility cash flows: OEDA\u015e distribution grid provides predictable, CPI-indexed tariff remuneration serving 3M+ population in Central Anatolia.",
-      "Nationwide EV charging monopoly: ZES is Turkey's #1 fast-charging network with 38% market share and 1,850+ public sockets, expanding into Southern Europe."
+      "Impending $95M ADB Facility Closing: Concessional multilateral financing for OEDAŞ distribution capex (6-year tenor, 2-year grace period, ranking pari passu with Eurobonds with no guarantors) provides decisive runway through Oct 2027.",
+      "Escrow Release Liquidity Injection: ~$29M released into unrestricted cash in 2Q26, cushioning liquidity during seasonal working capital troughs.",
+      "Strong FiT Insulation Against Merchant Spot Volatility: While spot power prices collapsed to $20/MWh in 2Q26 (vs $61/MWh in 2Q25), ZOREN's high proportion of statutory YEKDEM geothermal and hydro generation cushioned EBITDA ($24M generation cash EBITDA maintained in 1Q26 and 2Q26).",
+      "Aggressive Domestic TRY Bank Deleveraging: Local TRY debt reduced from $83M in 1Q26 to $70M in 2Q26 and ~$55M currently, with target to extinguish most domestic bank debt by YE27.",
+      "Pipeline of Monetisable Strategic Assets: Non-dilutive liquidity catalysts include 375MW wind/storage pipeline (monetisable mid-2027 post-licence conversion), Pakistan generation assets, and Electrip JV exit."
     ],
     "negatives": [
-      "Structural subordination:  ZOREN 2026 Eurobonds sit at HoldCo level, structurally junior to ~ in senior secured OpCo project finance and bank facilities.",
-      "Potential for creditor-on-creditor friction: Domestic bank syndicate holds direct asset mortgages and OEDA\u015e share pledges, creating holdout risk if extensions are asymmetric.",
-      "2028 YEKDEM regulatory cliff: Hard-currency geothermal guarantees expire at end-2028, cutting unit realization from /MWh to merchant PTF prices.",
-      "Corporate governance and related-party cash leakage:  upstream uncollateralized loan to Zorlu Holding creates group contagion risk."
+      "Interest Coverage Inversion: Quarterly interest expense (~$64M) exceeds quarterly cash EBITDA ($56M in 2Q26; 1H26 cash EBITDA reached only $102M vs $270M management full-year guidance).",
+      "Regulatory Capex Clawback Drag: Distribution EBITDA suffers from regulatory clawbacks due to 2021-25 capex underinvestment (~$10M in 1H26, ~$10M in 2H26, and ~$20M annually through 2030).",
+      "Dorad Energy Proceeds Leakage: Only 21-40% of the ~$210M Dorad gross proceeds went toward debt reduction (down from 60% initially guided), diluting deleveraging velocity.",
+      "Elevated Refinancing Cliff Post-2027: While ADB loan covers the October 2027 amortisation, April 2028 amortisation and 2030 maturity remain vulnerable without major asset sales or parent equity support.",
+      "Related-Party Exposure: Substantial upstream loans to Zorlu Holding remain uncollateralized, creating parent contagion risk and capital trap."
     ],
     "background": {
-      "business_overview": "Zorlu Enerji Elektrik \u00dcretim A.\u015e. is Turkey's premier renewable-focused independent power producer and utility, operating 991 MW of installed capacity across geothermal (305 MW), wind (344 MW), hydro (119 MW), and solar (116 MW), alongside the OEDA\u015e electricity distribution grid.",
-      "asset_perimeter": "Core generation footprint concentrated in Aegean geothermal belt (Denizli, Ayd\u0131n, Manisa), OEDA\u015e distribution network across 5 Anatolian provinces, plus international minority stakes in Israel (25% Dorad Energy 860 MW CCGT, Ashdod, Ramat Negev) and Pakistan (ZEPL 56.4 MW wind).",
-      "ownership_governance": "Controlled by Korteks Mensucat (Zorlu Holding / Zorlu family conglomerate). Retained Houlihan Lokey and Turkish legal counsel in September 2026 for capital structure advisory."
+      "business_overview": "Zorlu Enerji Elektrik Üretim A.Ş. is Turkey's premier renewable IPP and regulated utility, operating 991 MW of installed capacity (305 MW geothermal, 344 MW wind, 119 MW hydro, 116 MW solar) alongside the OEDAŞ distribution grid serving 3M+ population in Central Anatolia.",
+      "asset_perimeter": "Aegean geothermal core (Kızıldere I, II, III and Alaşehir), OEDAŞ electricity distribution grid across 5 Anatolian provinces, international wind in Pakistan (56.4 MW), and nationwide ZES fast-charging network.",
+      "ownership_governance": "Controlled by Korteks Mensucat / Zorlu Holding. Financial advisors retained for capital structure and debt advisory."
     },
     "recent_drivers": [
-      "Advisory mandate: In mid-September 2026, Zorlu appointed Houlihan Lokey as financial advisor to lead bilateral maturity extension talks ahead of the 2026 bullet.",
-      "October coupon test: October 23, 2026 coupon payment (.75M) on the 2026 Eurobonds represents the nearest immediate cash liquidity test.",
-      "ADB multilateral facility: August 2026 closing of TRY 3.98B (~) ADB facility ring-fenced for OEDA\u015e grid capex, removing capex drag from HoldCo.",
-      "Desk Restructuring Sandbox active: Deployed 16-row APR recovery waterfall, exit yield sensitivity matrix, and 3-scenario payoff engine."
+      "JPMorgan Rating Upgrade to Overweight (Aug 2026): JPM upgraded ZOREN 30s to OW (73.25 px / 23.3% YTW), citing high confidence that the $95M ADB loan secures cash flow through Oct 2027.",
+      "2Q26 Results Performance: Cash EBITDA of $56M ($24M generation, $32M distribution), FCF burn of ~$15M, and cash balance of ~$51M (supported by $29M escrow release).",
+      "Tariff Support vs Capex Drag: Distribution EBITDA benefited from April 2026 tariff adjustments, offset by $10M 1H26 underinvestment regulatory penalties.",
+      "Spot Power Price Compression: Average Turkish spot prices dropped to $20/MWh in 2Q26 (vs $61/MWh in 2Q25), demonstrating importance of FiT insulation."
     ],
     "catalysts": [
       {
+        "date": "2026-09-30",
+        "event": "ADB $95M Distribution Loan Closing & Initial Disbursement",
+        "impact": "Crucial liquidity event securing distribution capex and ring-fencing cash for Oct 2027 amortisation."
+      },
+      {
         "date": "2026-10-23",
-        "event": "October 2026 Eurobond Coupon Payment (.75M)",
-        "impact": "Near-term liquidity test; payment signals consensual extension path vs formal standstill."
+        "event": "ZOREN 2030 Semi-Annual Coupon Test ($60.5M)",
+        "impact": "Immediate cash liquidity test across HoldCo and generation cash accounts."
       },
       {
-        "date": "2026-11-06",
-        "event": "Q3 2026 / 9M Financials & Tariff Revisions",
-        "impact": "Updates normalized cash EBITDA run-rate and TRY FX translation adjustments."
+        "date": "2026-10-31",
+        "event": "3Q26 Quarterly Financial Results",
+        "impact": "Assessment of 2H26 EBITDA catch-up toward revised $260-265M management guidance."
       },
       {
-        "date": "2027-06-01",
-        "event": "ZOREN 9.00% 2026 Final Maturity Bullet ()",
-        "impact": "Maturity wall requiring exchange into 3-year extension paper or par refinancing."
+        "date": "2027-06-30",
+        "event": "375MW Wind/Storage Portfolio Licence Conversion",
+        "impact": "Unlocks asset sale/monetisation options to pre-fund 2028 amortisation."
+      },
+      {
+        "date": "2027-10-31",
+        "event": "First Eurobond Principal Amortisation",
+        "impact": "First capital structure bullet amortisation milestone."
       },
       {
         "date": "2028-12-31",
-        "event": "YEKDEM Geothermal Guarantee Expiry (K\u0131z\u0131ldere I & II)",
-        "impact": "Transition from \u2013/MWh hard-currency tariff to Turkish merchant PTF market."
+        "event": "Kızıldere I & II Statutory YEKDEM FiT Expiry",
+        "impact": "Transition from fixed hard-currency feed-in tariff to merchant pricing."
       }
     ],
     "management_questions": [
-      "Will the domestic bank syndicate (\u0130\u015fbank, Garanti BBVA) agree to extend OpCo debt maturities pari passu with HoldCo Eurobond amendments?",
-      "Can management confirm whether Turkish Lira electricity receipts under YEKDEM are immediately convertible into USD without central bank FX surrender lags or queue friction?",
-      "What is the legal status and dividend remittance timeline for Dorad Energy cash flows given regional Middle East tensions?",
-      "What is the binding schedule for Zorlu Holding to repay the  upstream related-party loan to bolster HoldCo liquidity?"
+      "What is the exact disbursement schedule for the $95M ADB facility and are proceeds held in dedicated ring-fenced project accounts?",
+      "With quarterly interest (~$64M) exceeding 2Q26 cash EBITDA ($56M), what interim liquidity measures bridge the cash gap before 2027?",
+      "What is the realistic timeline and expected valuation for the 375MW wind/storage asset sale and Pakistan divestment?",
+      "What is the binding repayment agreement for Zorlu Holding's related-party receivables to upstream cash to HoldCo?",
+      "Can management mitigate the $20M annual regulatory capex penalty through accelerated grid investments under the ADB facility?"
     ]
   },
   "historical_notes": [
+    {
+      "id": "zoren-20260923-evolution",
+      "date": "2026-09-23",
+      "title": "Desk Synthesis: Core Credit Evolution (2024–2026) & Capital Structure Refinancing",
+      "source": "Research Desk Synthesis / Notion Inbox Processing",
+      "status": "Archived / Previous Note Run",
+      "summary": "Multi-year credit thesis evolution: 2024 new bond issuance consolidated debt at HoldCo ($800M at 11%); 2025 Dorad Energy sale ($210M) improved cash but disappointed with only 21-40% allocated to debt paydown; 2026 hinges on closing the $95M ADB concessional loan which secures liquidity through Oct 2027 amortisation. Beyond 2027, asset sales (375MW portfolio, Pakistan), parent support, and debt extension determine recovery value."
+    },
+    {
+      "id": "zoren-20260819-jefferies",
+      "date": "2026-08-19",
+      "title": "Jefferies: 2Q26 Financial Results Review & Liquidity Analysis",
+      "source": "Jefferies Equity & Credit Research",
+      "status": "Archived / Previous Note Run",
+      "summary": "2Q26 results broadly neutral. Cash EBITDA reached $56M ($24M generation, $32M distribution), cash balance at ~$51M with FCF burn of ~$15M. Escrow release of ~$29M supported liquidity. Distribution EBITDA benefited from April tariff hike but suffered from capex penalties. Local TRY debt reduced from $83M (1Q26) to $70M (2Q26) and $55M currently. Near-term liquidity manageable through 1st amortisation under ADB loan, but refi risk elevated post-2027."
+    },
+    {
+      "id": "zoren-20260814-jpm",
+      "date": "2026-08-14",
+      "title": "JPMorgan: 2Q26 Pre-Call Results Review — Interest Coverage Inversion",
+      "source": "JPMorgan Credit Research",
+      "status": "Archived / Previous Note Run",
+      "summary": "Neutral rating maintained. Cash declined to ~$51M as quarterly interest expense (~$64M) exceeded cash EBITDA ($56M). 1H26 cash EBITDA totaled $102M vs full-year guidance of $270M (downside acknowledged to $260-265M). Electricity spot prices recovered from 2Q26 lows ($20/MWh) but lagged 2025. Fundamental issue remains capital structure and high interest burden; preferred solution is asset sales or equity injection."
+    },
+    {
+      "id": "zoren-20260809-jpm-ow",
+      "date": "2026-08-09",
+      "title": "JPMorgan: Upgrade ZOREN 30s to Overweight on $95M ADB Concessional Facility Visibility",
+      "source": "JPMorgan Credit Research",
+      "status": "Archived / Previous Note Run",
+      "summary": "Upgraded ZOREN 30s to Overweight at 73.25 price (23.3% YTW). ADB $95M Distribution loan at final approval for September 2026 disbursement with 6-year maturity, 2-year grace period, ranking pari passu with no guarantors. Distribution EBITDA impacted by regulatory underinvestment penalties (~$10M in 1H26, $10M in 2H26, $20M/yr to 2030). High confidence ADB loan covers Oct 2027 amortisation, though April 2028 requires asset sales or equity support."
+    },
+    {
+      "id": "zoren-20260701-jpm-power",
+      "date": "2026-07-01",
+      "title": "JPMorgan: Turkish Power Sector Update — FiT Insulation vs Spot Power Volatility",
+      "source": "JPMorgan Utilities & Energy Research",
+      "status": "Archived / Previous Note Run",
+      "summary": "YTD Jan-May 2026 generation reached 731 GWh (-4% YoY; Geothermal 614 GWh, Hydro 117 GWh). Average spot power prices collapsed to $20/MWh in 2Q26 (vs $61/MWh in 2Q25 and $64/MWh in 1H25). ZOREN remains far less exposed to spot market volatility than peers (e.g. Aydem) due to statutory high-tariff YEKDEM feed-in contract coverage."
+    },
+    {
+      "id": "zoren-20250818-jefferies-dorad",
+      "date": "2025-08-18",
+      "title": "Jefferies: 2Q25 Review — Dorad Energy Monetisation Proceeds Allocation Concerns",
+      "source": "Jefferies Credit Research",
+      "status": "Archived / Previous Note Run",
+      "summary": "Distribution EBITDA benefited from a 35% tariff increase. Dorad transaction closed with ~$210M gross proceeds, but management allocated only 21-40% toward debt reduction (below initial 60% guidance). EBITDA guided broadly stable in 2026 with leverage falling gradually. Pakistan asset sale postponed."
+    },
+    {
+      "id": "zoren-20250515-jpm-fireside",
+      "date": "2025-05-15",
+      "title": "JPMorgan Fireside Chat: Management Ring-Fencing & Vestel Contagion Insulation",
+      "source": "JPMorgan Credit Research",
+      "status": "Archived / Previous Note Run",
+      "summary": "Management confirmed Zorlu Enerji is not expected to support Vestel; no material dividends or loans upstreamed to holding company. Dorad proceeds ring-fenced within energy perimeter for debt paydown and network capex. Overweight maintained on limited contagion risk."
+    },
+    {
+      "id": "zoren-20241017-jefferies-bond",
+      "date": "2024-10-17",
+      "title": "Jefferies: New Bond Issue Analysis — $800M 11.00% Senior Notes Launch",
+      "source": "Jefferies Fixed Income Strategy",
+      "status": "Archived / Previous Note Run",
+      "summary": "New $800M 5.5-year bond issued at IPT 11-11.25% (Jefferies fair value ~10%). Bond refinanced project-level bank debt and consolidated capital structure at HoldCo. International assets earmarked for disposal to deleverage below $1B net debt. Identified risks: high interest burden, FiT expiry post-2027, and related-party loans to Zorlu Holding."
+    },
     {
       "id": "note-20260922-zoren",
       "date": "2026-09-22",
@@ -1134,7 +1277,7 @@
       "title": "Distressed Workout, Situational Breakdown & Restructuring Memo",
       "source": "Initial Distressed Dossier Setup",
       "status": "Archived / Previous Note Run",
-      "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDA\u015e vs merchant),  related-party loan leakage, and HoldCo structural subordination."
+      "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDAŞ vs merchant),  related-party loan leakage, and HoldCo structural subordination."
     }
   ]
 }

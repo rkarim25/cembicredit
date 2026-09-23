@@ -1,5 +1,39 @@
 [
   {
+    "id": "news-zoren-20260809-jpm-upgrade",
+    "date": "2026-08-09",
+    "ticker": "ZOREN",
+    "issuer_name": "Zorlu Enerji",
+    "headline": "JPMorgan Upgrades ZOREN 2030 Senior Notes to Overweight (73.25 / 23.3% YTW) on Imminent $95M ADB Concessional Facility Closing",
+    "source": "JPMorgan Credit Research",
+    "url": "https://rkarim25.github.io/cembicredit/company.html?issuer=zorlu",
+    "category": "Rating Action / Recommendation",
+    "macro_transmission_channel": "Multilateral Development Financing / Turkish Power Grid",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "zorlu"
+    ],
+    "concise_analysis": "JPMorgan upgraded ZOREN 30s to Overweight, highlighting that the $95M ADB loan for OEDAŞ distribution is in final stages for September 2026 disbursement. The 6-year facility features a 2-year grace period, ranks pari passu with senior bonds, and requires no corporate guarantors. Full-year 2026 cash EBITDA guidance is $260-270M.",
+    "credit_commentary": "Desk View: ADB financing significantly de-risks the first principal amortisation in October 2027. We hold a tactical constructive stance into the ADB closing, while monitoring 2028 refinancing needs which will require 375MW wind/storage portfolio monetisation."
+  },
+  {
+    "id": "news-zoren-20260819-results",
+    "date": "2026-08-19",
+    "ticker": "ZOREN",
+    "issuer_name": "Zorlu Enerji",
+    "headline": "Zorlu Enerji 2Q26 Cash EBITDA $56M, Cash ~$51M; Liquidity Bolstered by $29M Escrow Release & $95M ADB Facility Visibility",
+    "source": "Jefferies / Company Filings",
+    "url": "https://rkarim25.github.io/cembicredit/company.html?issuer=zorlu",
+    "category": "Earnings / Liquidity",
+    "macro_transmission_channel": "Turkish Utility Tariffs / Multilateral Project Debt",
+    "credit_impact": "Neutral",
+    "impacted_issuers": [
+      "zorlu"
+    ],
+    "concise_analysis": "Zorlu Enerji 2Q26 results showed quarterly cash EBITDA of $56M ($24M generation, $32M distribution), with cash burn of ~$15M cushioned by ~$29M escrow cash release. Net leverage stands at 4.5x ($1,251M net debt). Local TRY debt was reduced to $70M ($55M currently). The upcoming $95M ADB concessional facility provides visibility on financing OEDAŞ distribution capex through the October 2027 amortisation.",
+    "credit_commentary": "Credit Desk Assessment: The key positive is liquidity bridging through October 2027 via the ADB loan. However, coverage inversion remains the primary concern, with quarterly interest (~$64M) exceeding cash EBITDA ($56M), while capex underinvestment penalties subtract ~$20M annually from distribution EBITDA."
+  },
+  {
     "id": "NEWS-2026-09-AIRGLO-01",
     "date": "2026-09-22",
     "ticker": "AIRGLO",
