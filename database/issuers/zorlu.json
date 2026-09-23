@@ -157,11 +157,11 @@
       "net_leverage": 3.62,
       "interest_coverage": 2.12,
       "observations": {
-        "revenue": "Revenue achieved $1,200M anchored by OEDAŞ distribution network and 305 MW baseload geothermal fleet.",
+        "revenue": "Revenue achieved $1,200M anchored by OEDA\u015e distribution network and 305 MW baseload geothermal fleet.",
         "ebitda": "EBITDA reached $320M; 68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM.",
         "capex": "Capex strictly capped at $112M, preserving liquidity ahead of the 2026 Eurobond maturity wall.",
         "fcf": "Strong FCF of $160M generated, maintaining unrestricted cash reserves at $240M across partner banks.",
-        "net_leverage": "Net financial debt reported at $1,350M (3.62x net leverage) following March 2024 Gazdaş gas distribution divestment and initial $800M 2030 bond issuance."
+        "net_leverage": "Net financial debt reported at $1,350M (3.62x net leverage) following March 2024 Gazda\u015f gas distribution divestment and initial $800M 2030 bond issuance."
       },
       "reported_ebitda": 372.5,
       "calculated_ebitda": 320.0,
@@ -479,8 +479,8 @@
     "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
     "reporting_currency": "USD / TRY (with natural USD hedge disclosures)",
     "generation_fleet_breakdown": {
-      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) — Turkey's largest and lowest-cost baseload renewable fleet",
-      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) — long-term high wind resource capacity factor (>34%)",
+      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) \u2014 Turkey's largest and lowest-cost baseload renewable fleet",
+      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) \u2014 long-term high wind resource capacity factor (>34%)",
       "hydroelectric_capacity_hes": "118.6 MW across 7 operating run-of-river and reservoir plants (Ikizdere, Atabey, Camlica, Kuzgun, Mercan, Tercan, Beykoy)",
       "solar_and_hybrid_capacity": "84.0 MW installed and under development (hybrid solar installations co-located at Kizildere geothermal sites)",
       "thermal_and_industrial_cogen": "341.0 MW domestic gas cogeneration and district heating (Bursa, Luleburgaz)",
@@ -559,7 +559,7 @@
     "geographic_and_fx_exposure": {
       "usd_revenue_share": "68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM mechanism",
       "try_regulated_revenue_share": "31.5% of revenue earned in Turkish Lira via OEDAS/OEPSAS with full CPI inflation pass-through",
-      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY — natural dollar hedge covers 100% of USD net interest payments",
+      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY \u2014 natural dollar hedge covers 100% of USD net interest payments",
       "fx_risk_mitigation": "Bilateral FX forward hedges covering next 12-month EUR debt principal amortizations"
     },
     "contract_backlog_and_commercial_terms": {
@@ -978,8 +978,8 @@
     "last_reconciled": "2026-09-20"
   },
   "cognitive_credit_model": {
-    "source_file": "cognitive-credit-zorluenerji-financials-18-Sep-2026.xlsx",
-    "ingested_at": "2026-09-20T22:37:45.974243",
+    "source_file": "cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx",
+    "ingested_at": "2026-09-23T08:55:43.466622",
     "sheets_available": [
       "Annual and Quarterly",
       "Quarterly YTD",
@@ -1069,25 +1069,25 @@
     },
     "positives": [
       "Strong fundamental asset backing: ,598M normalized Enterprise Value provides 190.6% senior coverage across generation assets and regulated utility grid.",
-      "Lucrative USD-denominated feed-in tariffs (YEKDEM): Kızıldere I, II, III and Alaşehir geothermal plants receive –/MWh guaranteed hard-currency revenue through 2028.",
-      "Regulated, inflation-protected utility cash flows: OEDAŞ distribution grid provides predictable, CPI-indexed tariff remuneration serving 3M+ population in Central Anatolia.",
+      "Lucrative USD-denominated feed-in tariffs (YEKDEM): K\u0131z\u0131ldere I, II, III and Ala\u015fehir geothermal plants receive \u2013/MWh guaranteed hard-currency revenue through 2028.",
+      "Regulated, inflation-protected utility cash flows: OEDA\u015e distribution grid provides predictable, CPI-indexed tariff remuneration serving 3M+ population in Central Anatolia.",
       "Nationwide EV charging monopoly: ZES is Turkey's #1 fast-charging network with 38% market share and 1,850+ public sockets, expanding into Southern Europe."
     ],
     "negatives": [
       "Structural subordination:  ZOREN 2026 Eurobonds sit at HoldCo level, structurally junior to ~ in senior secured OpCo project finance and bank facilities.",
-      "Potential for creditor-on-creditor friction: Domestic bank syndicate holds direct asset mortgages and OEDAŞ share pledges, creating holdout risk if extensions are asymmetric.",
+      "Potential for creditor-on-creditor friction: Domestic bank syndicate holds direct asset mortgages and OEDA\u015e share pledges, creating holdout risk if extensions are asymmetric.",
       "2028 YEKDEM regulatory cliff: Hard-currency geothermal guarantees expire at end-2028, cutting unit realization from /MWh to merchant PTF prices.",
       "Corporate governance and related-party cash leakage:  upstream uncollateralized loan to Zorlu Holding creates group contagion risk."
     ],
     "background": {
-      "business_overview": "Zorlu Enerji Elektrik Üretim A.Ş. is Turkey's premier renewable-focused independent power producer and utility, operating 991 MW of installed capacity across geothermal (305 MW), wind (344 MW), hydro (119 MW), and solar (116 MW), alongside the OEDAŞ electricity distribution grid.",
-      "asset_perimeter": "Core generation footprint concentrated in Aegean geothermal belt (Denizli, Aydın, Manisa), OEDAŞ distribution network across 5 Anatolian provinces, plus international minority stakes in Israel (25% Dorad Energy 860 MW CCGT, Ashdod, Ramat Negev) and Pakistan (ZEPL 56.4 MW wind).",
+      "business_overview": "Zorlu Enerji Elektrik \u00dcretim A.\u015e. is Turkey's premier renewable-focused independent power producer and utility, operating 991 MW of installed capacity across geothermal (305 MW), wind (344 MW), hydro (119 MW), and solar (116 MW), alongside the OEDA\u015e electricity distribution grid.",
+      "asset_perimeter": "Core generation footprint concentrated in Aegean geothermal belt (Denizli, Ayd\u0131n, Manisa), OEDA\u015e distribution network across 5 Anatolian provinces, plus international minority stakes in Israel (25% Dorad Energy 860 MW CCGT, Ashdod, Ramat Negev) and Pakistan (ZEPL 56.4 MW wind).",
       "ownership_governance": "Controlled by Korteks Mensucat (Zorlu Holding / Zorlu family conglomerate). Retained Houlihan Lokey and Turkish legal counsel in September 2026 for capital structure advisory."
     },
     "recent_drivers": [
       "Advisory mandate: In mid-September 2026, Zorlu appointed Houlihan Lokey as financial advisor to lead bilateral maturity extension talks ahead of the 2026 bullet.",
       "October coupon test: October 23, 2026 coupon payment (.75M) on the 2026 Eurobonds represents the nearest immediate cash liquidity test.",
-      "ADB multilateral facility: August 2026 closing of TRY 3.98B (~) ADB facility ring-fenced for OEDAŞ grid capex, removing capex drag from HoldCo.",
+      "ADB multilateral facility: August 2026 closing of TRY 3.98B (~) ADB facility ring-fenced for OEDA\u015e grid capex, removing capex drag from HoldCo.",
       "Desk Restructuring Sandbox active: Deployed 16-row APR recovery waterfall, exit yield sensitivity matrix, and 3-scenario payoff engine."
     ],
     "catalysts": [
@@ -1108,12 +1108,12 @@
       },
       {
         "date": "2028-12-31",
-        "event": "YEKDEM Geothermal Guarantee Expiry (Kızıldere I & II)",
-        "impact": "Transition from –/MWh hard-currency tariff to Turkish merchant PTF market."
+        "event": "YEKDEM Geothermal Guarantee Expiry (K\u0131z\u0131ldere I & II)",
+        "impact": "Transition from \u2013/MWh hard-currency tariff to Turkish merchant PTF market."
       }
     ],
     "management_questions": [
-      "Will the domestic bank syndicate (İşbank, Garanti BBVA) agree to extend OpCo debt maturities pari passu with HoldCo Eurobond amendments?",
+      "Will the domestic bank syndicate (\u0130\u015fbank, Garanti BBVA) agree to extend OpCo debt maturities pari passu with HoldCo Eurobond amendments?",
       "Can management confirm whether Turkish Lira electricity receipts under YEKDEM are immediately convertible into USD without central bank FX surrender lags or queue friction?",
       "What is the legal status and dividend remittance timeline for Dorad Energy cash flows given regional Middle East tensions?",
       "What is the binding schedule for Zorlu Holding to repay the  upstream related-party loan to bolster HoldCo liquidity?"
@@ -1134,7 +1134,7 @@
       "title": "Distressed Workout, Situational Breakdown & Restructuring Memo",
       "source": "Initial Distressed Dossier Setup",
       "status": "Archived / Previous Note Run",
-      "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDAŞ vs merchant),  related-party loan leakage, and HoldCo structural subordination."
+      "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDA\u015e vs merchant),  related-party loan leakage, and HoldCo structural subordination."
     }
   ]
 }

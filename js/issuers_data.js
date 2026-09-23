@@ -72958,8 +72958,8 @@ const MASTER_ISSUERS = [
       "last_reconciled": "2026-09-20"
     },
     "cognitive_credit_model": {
-      "source_file": "cognitive-credit-zorluenerji-financials-18-Sep-2026.xlsx",
-      "ingested_at": "2026-09-20T22:37:45.974243",
+      "source_file": "cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx",
+      "ingested_at": "2026-09-23T08:55:43.466622",
       "sheets_available": [
         "Annual and Quarterly",
         "Quarterly YTD",
@@ -148171,8 +148171,8 @@ window.CEMBI_DATA = {
       "last_reconciled": "2026-09-20"
     },
     "cognitive_credit_model": {
-      "source_file": "cognitive-credit-zorluenerji-financials-18-Sep-2026.xlsx",
-      "ingested_at": "2026-09-20T22:37:45.974243",
+      "source_file": "cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx",
+      "ingested_at": "2026-09-23T08:55:43.466622",
       "sheets_available": [
         "Annual and Quarterly",
         "Quarterly YTD",

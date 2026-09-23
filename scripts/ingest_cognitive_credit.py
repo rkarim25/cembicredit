@@ -235,13 +235,19 @@ def main():
     for f in cc_files:
         print(f"  - {os.path.basename(f)}")
 
+    seen_issuers = set()
     for filepath in cc_files:
         issuer_id = identify_issuer_from_filename(filepath)
         if not issuer_id:
             print(f"Could not automatically identify issuer for {filepath}")
             continue
 
-        print(f"\nProcessing {os.path.basename(filepath)} -> Issuer: {issuer_id}")
+        if issuer_id in seen_issuers:
+            print(f"Skipping older export for {issuer_id}: {os.path.basename(filepath)}")
+            continue
+        seen_issuers.add(issuer_id)
+
+        print(f"\nProcessing newest export: {os.path.basename(filepath)} -> Issuer: {issuer_id}")
         parsed = parse_cognitive_credit_workbook(filepath)
         for s_name, s_data in parsed['sheets'].items():
             print(f"  Sheet '{s_name}': {s_data['row_count']} line items, {s_data['formula_count']} formulas retained.")
