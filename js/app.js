@@ -501,7 +501,7 @@ function renderTable() {
                         <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'cash', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'cash', this, event)">$${(f.cash || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
                         <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'gross_debt', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'gross_debt', this, event)">$${(f.gross_debt || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
                         <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'net_debt', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'net_debt', this, event)">$${(f.net_debt || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'net_leverage', f.period).badgeType}" style="font-weight:700; color:${(f.net_leverage||0) > 4.5 ? '#ef4444' : '#f8fafc'}; cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'net_leverage', this, event)" title="[${getForecastAuditMetadata(item, 'net_leverage', f.period).badgeText}] ${getForecastAuditMetadata(item, 'net_leverage', f.period).formula}">
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'net_leverage', f.period).badgeType}" style="font-weight:700; color:${(f.net_leverage||0) > 4.5 ? '#dc2626' : 'var(--text-main)'}; cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'net_leverage', this, event)" title="[${getForecastAuditMetadata(item, 'net_leverage', f.period).badgeText}] ${getForecastAuditMetadata(item, 'net_leverage', f.period).formula}">
                           ${(f.net_leverage || 0).toFixed(2)}x
                         </td>
                         <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'interest_coverage', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'interest_coverage', this, event)">${(f.interest_coverage || 0).toFixed(2)}x</td>
@@ -573,7 +573,7 @@ function renderTable() {
                               ${deltaWc > 0 ? '-' : '+'}$${Math.abs(deltaWc).toFixed(1)}M
                             </td>
                             <td class="num" style="color:var(--text-muted);">-$${tax.toFixed(1)}M</td>
-                            <td class="num" style="background:#1e293b; color:${isPositive ? '#10b981' : '#ef4444'}; font-weight:800; font-size:12px;">
+                            <td class="num" style="background:var(--bg-sub); color:${isPositive ? '#10b981' : '#ef4444'}; font-weight:800; font-size:12px;">
                               ${fcf < 0 ? '-' : ''}$${Math.abs(fcf).toFixed(1)}M
                             </td>
                             <td class="num" style="font-weight:700; color:${conv > 30 ? '#10b981' : (conv > 0 ? '#f59e0b' : '#ef4444')};">
@@ -1370,7 +1370,7 @@ function renderTable() {
                       </div>
 
                       <!-- The Question to Ask -->
-                      <div style="background:#0b1120; border:1px solid #334155; border-radius:6px; padding:12px 14px; margin-bottom:12px;">
+                      <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:12px 14px; margin-bottom:12px;">
                         <div style="font-size:10.5px; color:var(--text-dim); text-transform:uppercase; font-weight:700; margin-bottom:4px; letter-spacing:0.5px;">
                           Direct Question to CFO / Treasurer:
                         </div>
@@ -1382,7 +1382,7 @@ function renderTable() {
                       <!-- Analysis Blocks -->
                       <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
                         <!-- Why Relevant Block -->
-                        <div style="background:#0f172a; border-left:3px solid var(--accent-gold); padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted);">
+                        <div style="background:var(--bg-card); border-left:3px solid var(--accent-gold); padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted);">
                           <div style="color:var(--accent-gold); font-weight:700; margin-bottom:4px;">
                             🔍 Why This Information Is Relevant (Deduced Structural Risk):
                           </div>
@@ -1395,7 +1395,7 @@ function renderTable() {
                         </div>
 
                         <!-- Conviction Decision Rule Block -->
-                        <div style="background:#0f172a; border-left:3px solid #10b981; padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted);">
+                        <div style="background:var(--bg-card); border-left:3px solid #10b981; padding:10px 14px; border-radius:0 6px 6px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted);">
                           <div style="color:#10b981; font-weight:700; margin-bottom:4px;">
                             🎯 Conviction Trigger & Credit Decision Rule:
                           </div>
@@ -1470,7 +1470,7 @@ function renderTable() {
                         </div>
 
                         <!-- Credit Desk Concise Analysis & Transmission -->
-                        <div style="background:#0b1120; border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted); margin-bottom:10px;">
+                        <div style="background:var(--bg-sub); border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted); margin-bottom:10px;">
                           <div style="font-weight:700; color:var(--text-main); margin-bottom:3px;">
                             💡 Credit Desk Transmission Analysis (${m.ticker} Implications):
                           </div>
@@ -1482,7 +1482,7 @@ function renderTable() {
                           <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:10.5px; color:#64748b;">
                             <span>Also Transmits To Peers:</span>
                             ${n.impacted_issuers.filter(t => t !== m.ticker).map(peerTicker => `
-                              <button class="badge badge-sector" style="cursor:pointer; border:1px solid #334155; padding:1px 6px; font-size:10px;" onclick="openIssuerFromNews('${peerTicker}')" title="Jump to ${peerTicker} Model & Analysis">
+                              <button class="badge badge-sector" style="cursor:pointer; border:1px solid var(--border-color); padding:1px 6px; font-size:10px;" onclick="openIssuerFromNews('${peerTicker}')" title="Jump to ${peerTicker} Model & Analysis">
                                 ${peerTicker} ↗
                               </button>
                             `).join('')}
@@ -1919,7 +1919,7 @@ function renderNewsModalContent() {
   modal.innerHTML = `
     <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:12px; box-shadow:0 20px 50px rgba(0,0,0,0.15); width:1050px; max-width:96vw; max-height:90vh; display:flex; flex-direction:column; box-shadow:0 25px 50px -12px rgba(0,0,0,0.8); overflow:hidden;">
       <!-- Header -->
-      <div style="padding:16px 20px; background:var(--bg-sub); border-bottom:1px solid #1e2d45; display:flex; justify-content:space-between; align-items:center;">
+      <div style="padding:16px 20px; background:var(--bg-sub); border-bottom:1px solid var(--border-color); display:flex; justify-content:space-between; align-items:center;">
         <div style="display:flex; align-items:center; gap:12px;">
           <h3 style="margin:0; font-size:15px; color:var(--accent-gold); text-transform:uppercase; letter-spacing:0.5px;">
             📰 Credit & Macro News Feed
@@ -1931,7 +1931,7 @@ function renderNewsModalContent() {
       </div>
 
       <!-- Controls: Category Filters + Company Search -->
-      <div style="padding:12px 20px; background:#0b1120; border-bottom:1px solid #1e2d45; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+      <div style="padding:12px 20px; background:var(--bg-sub); border-bottom:1px solid var(--border-color); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
         <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
           <span style="font-size:11px; color:#64748b; font-weight:700; text-transform:uppercase;">Category:</span>
           ${['All', 'Macro', 'Company', 'Capital Markets', 'Positive', 'Watch / Negative'].map(cat => `
@@ -1943,7 +1943,7 @@ function renderNewsModalContent() {
 
         <div style="display:flex; align-items:center; gap:8px;">
           <span style="font-size:11px; color:#64748b;">Filter Company / Ticker:</span>
-          <input type="text" placeholder="e.g. ZOREN, DANGCEM, SISE..." value="${currentNewsSearch}" oninput="searchNews(this.value)" style="background:#1e293b; border:1px solid #334155; color:var(--text-main); padding:4px 10px; border-radius:4px; font-size:11.5px; width:180px;">
+          <input type="text" placeholder="e.g. ZOREN, DANGCEM, SISE..." value="${currentNewsSearch}" oninput="searchNews(this.value)" style="background:#1e293b; border:1px solid var(--border-color); color:var(--text-main); padding:4px 10px; border-radius:4px; font-size:11.5px; width:180px;">
           ${currentNewsSearch ? `<button onclick="searchNews('')" style="background:#334155; color:var(--text-muted); border:none; border-radius:4px; padding:4px 8px; font-size:10px; cursor:pointer;">Clear</button>` : ''}
         </div>
       </div>
@@ -1984,7 +1984,7 @@ function renderNewsModalContent() {
               </div>
 
               <!-- Concise Credit Analysis Box -->
-              <div style="background:#0b1120; border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted); margin-bottom:12px;">
+              <div style="background:var(--bg-sub); border-left:3px solid ${impactBorder}; padding:10px 14px; border-radius:0 4px 4px 0; font-size:11.5px; line-height:1.5; color:var(--text-muted); margin-bottom:12px;">
                 <div style="font-weight:700; color:var(--text-main); margin-bottom:3px;">
                   💡 Credit Desk Transmission Analysis & Spread Trajectory:
                 </div>
@@ -1993,7 +1993,7 @@ function renderNewsModalContent() {
 
               <!-- Clickable Impacted Issuers / Companies -->
               ${n.impacted_issuers && n.impacted_issuers.length > 0 ? `
-                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:11px; color:var(--text-dim); background:#0f172a; padding:8px 12px; border-radius:4px;">
+                <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; font-size:11px; color:var(--text-dim); background:var(--bg-card); padding:8px 12px; border-radius:4px;">
                   <strong style="color:#e2e8f0;">Linked CEMBI Companies:</strong>
                   ${n.impacted_issuers.map(ticker => {
                     const iss = (typeof MASTER_ISSUERS !== 'undefined' ? MASTER_ISSUERS : []).find(i => i.metadata.ticker === ticker);
@@ -3180,14 +3180,14 @@ function renderSheetRecovery(item) {
         ⚖️ Restructuring Framework & Recovery Scenarios
       </h4>
       <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px;">
-        <div style="background:#0b111e; border:1px solid #1e2d45; border-radius:6px; padding:12px;">
+        <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:12px;">
           <div style="color:#ef4444; font-weight:700; font-size:12px; margin-bottom:4px;">Stressed Liquidation Floor</div>
           <div style="font-size:20px; font-weight:700; color:var(--text-main);">$${Number(rec.distressed_floor_px || 45).toFixed(2)}</div>
           <div style="font-size:11px; color:var(--text-dim); margin-top:4px;">Floor Recovery: <strong>${rec.recovery_floor_pct || 48}%</strong></div>
           <div style="font-size:11px; color:#64748b; margin-top:4px;">EV Multiple: <strong>${rec.stress_ev_multiple || '4.0x'}</strong></div>
         </div>
 
-        <div style="background:#0b111e; border:1px solid #1e2d45; border-radius:6px; padding:12px;">
+        <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:12px;">
           <div style="color:#10b981; font-weight:700; font-size:12px; margin-bottom:4px;">Base Going-Concern Case</div>
           <div style="font-size:20px; font-weight:700; color:var(--text-main);">$${Number(rec.base_case_px || 85).toFixed(2)}</div>
           <div style="font-size:11px; color:var(--text-dim); margin-top:4px;">Base Recovery: <strong>${rec.recovery_base_pct || 90}%</strong></div>
@@ -3299,7 +3299,7 @@ function renderSheetMgmtQuestions(item) {
       </h4>
       <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:14px;">
         ${qList.map(q => `
-          <div style="background:#0b111e; border:1px solid #1e2d45; border-radius:6px; padding:14px;">
+          <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
               <span class="badge badge-sector">${q.focus_area || 'Structural Credit Risk'}</span>
               <button class="btn-action" onclick="copyTextToClipboard('${(q.question || '').replace(/'/g, "\\'")}')" style="font-size:10px; padding:2px 7px;">
