@@ -113,11 +113,11 @@ def build_excel_model():
 
     sizing_rows = [
         (6, "Portfolio NAV (USD)", 100000000, "$#,##0", "Total USD Portfolio Base Capital", True),
-        (7, "Position Stance", "SELL", "@", "SELL = Long Risk (Tightener) / BUY = Short Risk (Widener)", True),
+        (7, "Position Stance (Underlying CDS)", "SELL", "@", "SELL = Long Risk [LONG EUR / SHORT USD]. BUY = Short Risk [SHORT EUR / LONG USD]", True),
         (8, "Target Spread Duration Contribution", 0.50, '0.00" yrs"', "Target portfolio spread duration contribution (years)", True),
         (9, "Benchmark Xover Spread Duration", 4.30, '0.00" yrs"', "Standard 5-year iTraxx Crossover spread duration", True),
         (10, "FX Hedge Ratio (% of Portfolio)", 0.10, "0.0%", "Overlay currency hedge sized as % of portfolio NAV", True),
-        (11, "FX Hedge Stance", "SHORT EUR", "@", "SHORT EUR = Sell EUR / Buy USD (Standard hedge for Long EUR risk)", True),
+        (11, "FX Hedge Stance (Overlay Forward)", "SHORT EUR", "@", "SHORT EUR = Sell EUR / Buy USD [SHORT EUR, LONG USD]. LONG EUR = Buy EUR / Sell USD [LONG EUR, SHORT USD]", True),
     ]
 
     for r_idx, label, val, num_fmt, note, is_input in sizing_rows:
@@ -150,12 +150,13 @@ def build_excel_model():
 
     calc_sizing = [
         (13, "Implied USD Notional Equivalent", "=(C6*C8)/C9", "$#,##0", "= (NAV * Target_SD) / Benchmark_SD"),
-        (14, "Implied EUR CDS Notional", "=C13/C27", "€#,##0", "= USD_Notional / Entry_EURUSD"),
+        (14, "Implied EUR CDS Notional [EUR ASSET]", "=C13/C27", "€#,##0", "= USD_Notional / Entry_EURUSD (Asset risk held in EUR: Long EUR when Selling)"),
         (15, "Position DV01 (EUR)", "=C14*C9*0.0001", "€#,##0", "= EUR_Notional * Benchmark_SD * 1bp"),
         (16, "Position DV01 (USD)", "=C15*C27", "$#,##0", "= EUR_DV01 * Entry_EURUSD"),
         (17, "Portfolio Spread Sensitivity", "=(C16/C6)*10000", '0.00" bps/bp"', "= (USD_DV01 / NAV) * 10,000 (bps return per 1 bp move)"),
         (18, "FX Hedge Notional (USD)", "=C6*C10", "$#,##0", "= NAV * FX_Hedge_Pct"),
-        (19, "FX Hedge Notional (EUR)", "=C18/C27", "€#,##0", "= Hedge_USD / Entry_EURUSD"),
+        (19, "FX Hedge Notional (EUR) [FORWARD OVERLAY]", "=C18/C27", "€#,##0", "= Hedge_USD / Entry_EURUSD (Forward hedge selling EUR when SHORT EUR)"),
+        (20, "Portfolio Net Currency Exposure (EUR)", '=IF(C7="SELL", C14, -C14) + IF(C11="SHORT EUR", -C19, IF(C11="LONG EUR", C19, 0))', '+€#,##0;-€#,##0;€0', "= Net EUR Exposure. Positive = Net LONG EUR / SHORT USD; Negative = Net SHORT EUR / LONG USD"),
     ]
 
     for r_idx, label, formula, num_fmt, note in calc_sizing:
@@ -389,37 +390,37 @@ def build_excel_model():
         ws_model[cell_id].border = border_cell
 
     attribution_rows = [
-        (34, "Credit Capital Spread Return",
+        (34, "Credit Capital Spread Return [EUR ASSET]",
          '=IF(C7="SELL", C14*C9*(-(C26-C25)/10000), C14*C9*((C26-C25)/10000))',
          '=C34*C28',
          '=(D34/C6)*10000',
          '= EUR_Notional * SD * (-Δs) * Exit_FX'),
 
-        (35, "CDS Running Coupon Carry",
+        (35, "CDS Running Coupon Carry [EUR CASH FLOW]",
          '=IF(C7="SELL", C14*(C29/10000)*(C30/360), -C14*(C29/10000)*(C30/360))',
          '=C35*C28',
          '=(D35/C6)*10000',
          '= EUR_Notional * Carry * (Days/360) * Exit_FX'),
 
-        (36, "Subtotal: EUR CDS Position Return",
+        (36, "Subtotal: EUR CDS Position Return [EUR ASSET]",
          '=C34+C35',
          '=C36*C28',
          '=(D36/C6)*10000',
          '= EUR_Spread_PnL + EUR_Carry_PnL'),
 
-        (37, "FX Translation Drag / Boost on CDS MTM",
+        (37, "FX Translation Drag / Boost on CDS MTM [LONG EUR / SHORT USD]",
          '"—"',
          '=C36*(C28-C27)',
          '=(D37/C6)*10000',
-         '= Total_EUR_CDS * (Exit_FX - Entry_FX)'),
+         '= Total_EUR_CDS * (Exit_FX - Entry_FX) [EUR weakens = dollar drag]'),
 
-        (38, "FX Overlay Hedge Return",
+        (38, "FX Overlay Hedge Return [SHORT EUR / LONG USD]",
          '"—"',
          '=IF(C11="SHORT EUR", -C19*(C28-C27), IF(C11="LONG EUR", C19*(C28-C27), 0))',
          '=(D38/C6)*10000',
-         '= -Hedge_EUR * (Exit_FX - Entry_FX) [Short EUR]'),
+         '= -Hedge_EUR * (Exit_FX - Entry_FX) [Short EUR profits if EUR weakens]'),
 
-        (39, "NET COMBINED PORTFOLIO IMPACT",
+        (39, "NET COMBINED PORTFOLIO IMPACT [USD BASE]",
          '=C36',
          '=D36+D38',
          '=(D39/C6)*10000',
@@ -460,8 +461,8 @@ def build_excel_model():
 
     # Diagnostic Hedge Comparison (Rows 41-42)
     diag_rows = [
-        (41, "Unhedged Portfolio Return (0% Hedge)", "=D36", "=E36", "Performance if 100% unhedged to currency volatility"),
-        (42, "FX Overlay Hedge Alpha Contribution", "=D38", "=E38", "Net protection / alpha delivered by currency hedge overlay"),
+        (41, "Unhedged Portfolio Return (100% Unhedged FX Exposure)", "=D36", "=E36", "Performance if 100% unhedged to currency volatility"),
+        (42, "FX Overlay Hedge Alpha Contribution (Short EUR Forward Protection)", "=D38", "=E38", "Net protection / alpha delivered by currency hedge overlay"),
     ]
     for r_idx, label, f_usd, f_bps, note in diag_rows:
         ws_model[f"B{r_idx}"] = label
@@ -677,6 +678,13 @@ def build_excel_model():
         (33, "5. Combined Portfolio Return (Basis Points)", [
             ("Total Portfolio P&L (USD)", "Total_USD = Realized_USD_CDS + PnL_Hedge_USD", "Net combined dollar return across credit spread, carry, translation, and FX hedge."),
             ("Net Portfolio Return (bps)", "Portfolio_Return_bps = (Total_USD / NAV_USD) * 10,000", "Total basis points generated on portfolio base capital."),
+        ]),
+        (40, "6. Currency Polarity Framework (Which Currency is LONG vs. SHORT)", [
+            ("Sell Protection (Long Risk)", "Underlying CDS is LONG EUR / SHORT USD", "Investor receives EUR premium; holding EUR credit asset. EUR slide hurts USD P&L."),
+            ("Buy Protection (Short Risk)", "Underlying CDS is SHORT EUR / LONG USD", "Investor pays EUR premium; long EUR credit default payout."),
+            ("Short EUR Forward Hedge", "FX Overlay is SHORT EUR / LONG USD", "Sells EUR forward to buy USD. Profits in USD when EUR depreciates."),
+            ("Long EUR Forward Hedge", "FX Overlay is LONG EUR / SHORT USD", "Buys EUR forward against USD. Profits in USD when EUR appreciates."),
+            ("Net Portfolio Currency Stance", "Net_EUR = CDS_EUR_Exposure + FX_Hedge_EUR", "Net currency exposure remaining after overlay hedge (Long EUR if > 0)."),
         ]),
     ]
 

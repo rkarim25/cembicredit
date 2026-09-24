@@ -362,6 +362,65 @@
         b.className = "modeler-chip " + (state.fxHedgeStance === st ? "active" : "");
       }
     });
+
+    // Underlying CDS Currency Polarity
+    const isSell = state.direction === "sell";
+    const elCdsPol = el("xoCdsCurrencyPolarity");
+    if (elCdsPol) {
+      elCdsPol.textContent = `Underlying CDS: ${isSell ? "LONG EUR / SHORT USD" : "SHORT EUR / LONG USD"} (Denominated in EUR)`;
+    }
+
+    // Dynamic Net Portfolio Currency Exposure Banner & Status Badge
+    const cdsEurExp = isSell ? state.notionalEur : -state.notionalEur;
+    const cdsUsdExp = isSell ? -state.notionalUsd : state.notionalUsd;
+
+    let hedgeEurExp = 0;
+    let hedgeUsdExp = 0;
+    if (state.fxHedgeStance === "short_eur") {
+      hedgeEurExp = -hedgeEur;
+      hedgeUsdExp = hedgeUsd;
+    } else if (state.fxHedgeStance === "long_eur") {
+      hedgeEurExp = hedgeEur;
+      hedgeUsdExp = -hedgeUsd;
+    }
+
+    const netEurExp = cdsEurExp + hedgeEurExp;
+    const netEurPctNav = (netEurExp * state.entryEurUsd / state.portfolioNavUsd) * 100.0;
+
+    const elBannerText = el("xoNetCurrencyBannerText");
+    if (elBannerText) {
+      const cdsText = isSell
+        ? `LONG EUR (+€${(state.notionalEur / 1e6).toFixed(2)}M) / SHORT USD (-$${(state.notionalUsd / 1e6).toFixed(2)}M)`
+        : `SHORT EUR (-€${(state.notionalEur / 1e6).toFixed(2)}M) / LONG USD (+$${(state.notionalUsd / 1e6).toFixed(2)}M)`;
+
+      const hedgeText = state.fxHedgeStance === "short_eur"
+        ? `SHORT EUR (-€${(hedgeEur / 1e6).toFixed(2)}M) / LONG USD (+$${(hedgeUsd / 1e6).toFixed(2)}M)`
+        : state.fxHedgeStance === "long_eur"
+          ? `LONG EUR (+€${(hedgeEur / 1e6).toFixed(2)}M) / SHORT USD (-$${(hedgeUsd / 1e6).toFixed(2)}M)`
+          : `No Forward Hedge [100% Unhedged FX Exposure]`;
+
+      elBannerText.textContent = `Underlying CDS: ${cdsText} · FX Overlay Forward: ${hedgeText}`;
+    }
+
+    const elStatusBadge = el("xoNetCurrencyStatusBadge");
+    if (elStatusBadge) {
+      if (Math.abs(netEurExp) < 1000) {
+        elStatusBadge.textContent = "FULLY FX HEDGED (0.0% Net Currency Exposure)";
+        elStatusBadge.style.background = "rgba(0, 113, 227, 0.12)";
+        elStatusBadge.style.color = "var(--blue)";
+        elStatusBadge.style.borderColor = "rgba(0, 113, 227, 0.3)";
+      } else if (netEurExp > 0) {
+        elStatusBadge.textContent = `NET LONG EUR / SHORT USD: +€${Math.round(netEurExp).toLocaleString("en-US")} (+${netEurPctNav.toFixed(1)}% of NAV)`;
+        elStatusBadge.style.background = "rgba(36, 138, 61, 0.14)";
+        elStatusBadge.style.color = "var(--good)";
+        elStatusBadge.style.borderColor = "rgba(36, 138, 61, 0.3)";
+      } else {
+        elStatusBadge.textContent = `NET SHORT EUR / LONG USD: -€${Math.round(Math.abs(netEurExp)).toLocaleString("en-US")} (${netEurPctNav.toFixed(1)}% of NAV)`;
+        elStatusBadge.style.background = "rgba(255, 149, 0, 0.14)";
+        elStatusBadge.style.color = "var(--orange)";
+        elStatusBadge.style.borderColor = "rgba(255, 149, 0, 0.3)";
+      }
+    }
   }
 
   function renderHistoricalBacktestSection() {
@@ -447,16 +506,38 @@
       isGood: res.carryPnlBps >= 0,
     });
 
+    const isSell = state.direction === "sell";
+    const elFxTransTitle = el("xoRow_FxTrans_title");
+    if (elFxTransTitle) {
+      elFxTransTitle.innerHTML = `FX Translation on CDS MTM <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[${isSell ? "LONG EUR / SHORT USD" : "SHORT EUR / LONG USD"}]</span>`;
+    }
+
+    const elFxHedgeTitle = el("xoRow_FxHedge_title");
+    if (elFxHedgeTitle) {
+      const hedgePolarity = state.fxHedgeStance === "short_eur"
+        ? "SHORT EUR / LONG USD"
+        : state.fxHedgeStance === "long_eur"
+          ? "LONG EUR / SHORT USD"
+          : "UNHEDGED";
+      elFxHedgeTitle.innerHTML = `FX Hedge Overlay P&L <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[${hedgePolarity}]</span>`;
+    }
+
     setRowData("FxTrans", {
-      detail: `EUR/USD moved ${state.entryEurUsd.toFixed(4)} → ${state.exitEurUsd.toFixed(4)} (${fmtPct(((state.exitEurUsd - state.entryEurUsd) / state.entryEurUsd) * 100)}) on CDS MTM`,
+      detail: `EUR/USD moved ${state.entryEurUsd.toFixed(4)} → ${state.exitEurUsd.toFixed(4)} (${fmtPct(((state.exitEurUsd - state.entryEurUsd) / state.entryEurUsd) * 100)}) on ${isSell ? "LONG EUR" : "SHORT EUR"} CDS profits`,
       eur: "—",
       usd: fmtUsd(res.fxTranslationUsd),
       bps: fmtBps(res.fxTranslationBps, 2),
       isGood: res.fxTranslationBps >= 0,
     });
 
+    const hedgeDetail = state.fxHedgeStance === "short_eur"
+      ? `${state.fxHedgePct.toFixed(1)}% NAV Overlay [SHORT EUR / LONG USD]: EUR depreciation generates dollar gain`
+      : state.fxHedgeStance === "long_eur"
+        ? `${state.fxHedgePct.toFixed(1)}% NAV Overlay [LONG EUR / SHORT USD]: EUR appreciation generates dollar gain`
+        : `0% Overlay (100% unhedged currency exposure)`;
+
     setRowData("FxHedge", {
-      detail: `${state.fxHedgePct.toFixed(1)}% Portfolio Overlay (${state.fxHedgeStance.replace("_", " ").toUpperCase()})`,
+      detail: hedgeDetail,
       eur: "—",
       usd: fmtUsd(res.fxHedgePnlUsd),
       bps: fmtBps(res.fxHedgeBps, 2),

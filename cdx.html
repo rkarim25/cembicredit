@@ -790,9 +790,12 @@
             <span>Position Stance</span>
             <span style="font-size: 10px; color: var(--muted);">Xover 5Y CDS</span>
           </div>
-          <div style="display: flex; gap: 6px; margin-bottom: 12px;">
+          <div style="display: flex; gap: 6px; margin-bottom: 8px;">
             <button type="button" class="modeler-pill-btn active sell-active" id="xoDirSell">Sell Protection (Long Risk)</button>
             <button type="button" class="modeler-pill-btn" id="xoDirBuy">Buy Protection (Short Risk)</button>
+          </div>
+          <div style="font-size: 11px; font-weight: 700; color: var(--purple); margin-bottom: 12px;" id="xoCdsCurrencyPolarity">
+            Underlying: LONG EUR / SHORT USD
           </div>
 
           <div class="modeler-input-group">
@@ -871,17 +874,37 @@
           </div>
 
           <div class="modeler-label" style="margin-top: 10px;">
-            <span>FX Hedge Stance</span>
+            <span>FX Hedge Stance (Overlay Forward)</span>
           </div>
           <div class="modeler-chips-wrap" style="margin-bottom: 8px;">
-            <button type="button" class="modeler-chip active" id="xoHedgeStance_short_eur">Short EUR (Sell EUR)</button>
-            <button type="button" class="modeler-chip" id="xoHedgeStance_long_eur">Long EUR (Buy EUR)</button>
-            <button type="button" class="modeler-chip" id="xoHedgeStance_none">Unhedged (0%)</button>
+            <button type="button" class="modeler-chip active" id="xoHedgeStance_short_eur" title="Sell EUR / Buy USD forward contract: gains when EUR depreciates">Sell EUR / Buy USD [SHORT EUR, LONG USD]</button>
+            <button type="button" class="modeler-chip" id="xoHedgeStance_long_eur" title="Buy EUR / Sell USD forward contract: gains when EUR appreciates">Buy EUR / Sell USD [LONG EUR, SHORT USD]</button>
+            <button type="button" class="modeler-chip" id="xoHedgeStance_none" title="No FX forward overlay">No Hedge [100% Unhedged FX]</button>
           </div>
 
           <div style="font-size: 11.5px; color: var(--muted); margin-top: 6px;">
             Hedge Notional: <strong id="xoHedgeNotionalUsdReadout" style="color: var(--text);">$10,000,000</strong> (<span id="xoHedgeNotionalEurReadout">€8,775,000</span>)
           </div>
+        </div>
+      </div>
+
+      <!-- Explicit Net Currency Exposure Summary Banner -->
+      <div style="margin-top: 14px; padding: 12px 16px; border-radius: 14px; background: linear-gradient(135deg, rgba(175, 82, 222, .08), rgba(0, 113, 227, .05)); border: 1px solid rgba(175, 82, 222, .25); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 20px;">🌐</span>
+          <div>
+            <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--purple); letter-spacing: 0.04em;">
+              Portfolio Net Currency Exposure (Which Currency is Long vs. Short)
+            </div>
+            <div id="xoNetCurrencyBannerText" style="font-size: 13.5px; font-weight: 800; color: var(--text); margin-top: 2px;">
+              Underlying CDS: LONG EUR (+€9.93M) / SHORT USD (-$11.63M) · FX Overlay: SHORT EUR (-€8.78M) / LONG USD (+$10.00M)
+            </div>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <span id="xoNetCurrencyStatusBadge" class="as-of-badge" style="margin: 0; font-size: 12px; font-weight: 800; background: rgba(36, 138, 61, 0.14); color: var(--good); border-color: rgba(36, 138, 61, 0.3);">
+            NET LONG EUR: +€1,159,137 (+1.2% Unhedged)
+          </span>
         </div>
       </div>
     </div>
@@ -1044,7 +1067,7 @@
             <tbody>
               <tr>
                 <td>
-                  <strong>Credit Spread Capital Return</strong>
+                  <strong>Credit Spread Capital Return <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[EUR ASSET]</span></strong>
                   <div style="font-size: 11px; color: var(--muted);" id="xoRow_CapSpread_detail">Spread move: 329.7 → 296.0 bps (-33.7 bps)</div>
                 </td>
                 <td class="num" id="xoRow_CapSpread_eur">+€143,957</td>
@@ -1053,7 +1076,7 @@
               </tr>
               <tr>
                 <td>
-                  <strong>CDS Running Coupon Carry</strong>
+                  <strong>CDS Running Coupon Carry <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[EUR CASH FLOW]</span></strong>
                   <div style="font-size: 11px; color: var(--muted);" id="xoRow_Carry_detail">Carry accrued over 262d @ 329.7 bps</div>
                 </td>
                 <td class="num" id="xoRow_Carry_eur">+€238,150</td>
@@ -1062,7 +1085,7 @@
               </tr>
               <tr>
                 <td>
-                  <strong>FX Translation on CDS MTM</strong>
+                  <strong id="xoRow_FxTrans_title">FX Translation on CDS MTM <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[LONG EUR / SHORT USD]</span></strong>
                   <div style="font-size: 11px; color: var(--muted);" id="xoRow_FxTrans_detail">EUR moved 1.1705 → 1.1392 (-2.67%) on EUR CDS gains</div>
                 </td>
                 <td class="num" id="xoRow_FxTrans_eur">—</td>
@@ -1071,7 +1094,7 @@
               </tr>
               <tr>
                 <td>
-                  <strong>FX Hedge Overlay P&L</strong>
+                  <strong id="xoRow_FxHedge_title">FX Hedge Overlay P&L <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[SHORT EUR / LONG USD]</span></strong>
                   <div style="font-size: 11px; color: var(--muted);" id="xoRow_FxHedge_detail">10.0% Portfolio Short EUR Overlay</div>
                 </td>
                 <td class="num" id="xoRow_FxHedge_eur">—</td>
@@ -1080,7 +1103,7 @@
               </tr>
               <tr>
                 <td>
-                  <strong>Net Portfolio Realization</strong>
+                  <strong>Net Portfolio Realization <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[USD BASE]</span></strong>
                   <div style="font-size: 11px; color: var(--muted);" id="xoRow_NetTotal_detail">Combined Net Return on $100M NAV</div>
                 </td>
                 <td class="num" id="xoRow_NetTotal_eur">+€382,107</td>
