@@ -670,6 +670,7 @@
     <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px;">
       <a href="#creditChartCanvas" class="modeler-chip" style="text-decoration: none; padding: 6px 12px; font-size: 12px;">📊 Benchmark Trajectory</a>
       <a href="#xoverModelerSection" class="modeler-chip active" style="text-decoration: none; padding: 6px 14px; font-size: 12.5px; background: var(--purple); border-color: var(--purple); color: #fff;">⚡ Xover USD Investor PnL & FX Modeler</a>
+      <a href="models/iTraxx_Xover_USD_Investor_Model.xlsx" download="iTraxx_Xover_USD_Investor_Model.xlsx" class="modeler-chip" style="text-decoration: none; padding: 6px 12px; font-size: 12px; background: rgba(36, 138, 61, 0.12); color: var(--good); border-color: rgba(36, 138, 61, 0.3); font-weight: 700;">📥 Download Excel (.xlsx)</a>
       <a href="#creditTriggersContainer" class="modeler-chip" style="text-decoration: none; padding: 6px 12px; font-size: 12px;">🎯 Invalidation Triggers</a>
       <a href="#creditDetailsContainer" class="modeler-chip" style="text-decoration: none; padding: 6px 12px; font-size: 12px;">📑 Index Deep Dives</a>
     </div>
@@ -763,9 +764,15 @@
           Quantify the joint portfolio return from <strong>European credit spread movements</strong> and <strong>EUR/USD currency volatility</strong> for a USD investor. Size exposure via <strong>spread duration</strong>, test historical entry/exit dates with <strong>overridable indicative levels</strong>, simulate <strong>FX overlay hedges</strong> (% of portfolio), and stress test arbitrary spread and FX regimes on a <strong>2D sensitivity matrix</strong>.
         </p>
       </div>
-      <div class="button-group" style="margin-top: 6px;">
-        <button type="button" class="chart-btn active" id="tabHistoricalBacktest">Historical Trade Review</button>
-        <button type="button" class="chart-btn" id="tabScenarioStress">2D Scenario & Stress Matrix</button>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 6px;">
+        <div class="button-group">
+          <button type="button" class="chart-btn active" id="tabHistoricalBacktest">Historical Trade Review</button>
+          <button type="button" class="chart-btn" id="tabScenarioStress">2D Scenario & Stress Matrix</button>
+        </div>
+        <a href="models/iTraxx_Xover_USD_Investor_Model.xlsx" download="iTraxx_Xover_USD_Investor_Model.xlsx" class="chart-btn" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px; background: rgba(36, 138, 61, 0.12); color: var(--good); border: 1px solid rgba(36, 138, 61, 0.3); font-weight: 700; padding: 7px 14px;" title="Download complete Excel workbook with all live formulas, lookups, and 2D scenario matrix">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Download Excel Model (.xlsx)
+        </a>
       </div>
     </div>
 
