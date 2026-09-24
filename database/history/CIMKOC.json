@@ -1,0 +1,22 @@
+{
+  "ticker": "CIMKOC",
+  "name": "\u00c7imko \u00c7imento",
+  "sector": "Materials / Cement",
+  "country": "Turkey",
+  "benchmark_bond": "CIMKOC 8.60% 2030",
+  "snapshots": [
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B / B3",
+      "price": 105.0,
+      "ytm": 8.6,
+      "spread_bp": 391,
+      "net_leverage": 1.8,
+      "ebitda": 165.0,
+      "fcf": 18.5,
+      "guidance_status": "On Track"
+    }
+  ]
+}

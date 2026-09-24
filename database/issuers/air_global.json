@@ -119,5 +119,28 @@
     "capex_intensity_pct": 3.7,
     "hard_currency_pct": 99.0,
     "recommendation": "Neutral / Hold (Default risk low; capped by tobacco ESG exclusions and flavour regulations)"
-  }
+  },
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-12",
+    "period_reporting": "Q3 2026 / 9M",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local / Pre-Market",
+    "ir_webcast_url": "https://www.google.com/finance/quote/AIRGLO",
+    "days_to_earnings": 54
+  },
+  "market_history": [
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    }
+  ]
 }

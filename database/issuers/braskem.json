@@ -101,7 +101,7 @@
       "observations": {
         "revenue": "Topline remained elevated but margins contracted sharply as global chemical supply normalized.",
         "ebitda": "Sharp compression in polyethylene and polypropylene spreads following massive capacity additions in China.",
-        "capex": "Higher capex driven by scheduled maintenance turnarounds at Camaçari and Triunfo crackers.",
+        "capex": "Higher capex driven by scheduled maintenance turnarounds at Cama\u00e7ari and Triunfo crackers.",
         "fcf": "FCF compressed to $190M due to working capital build and rising interest rates.",
         "net_leverage": "Net leverage expanded to 3.02x."
       },
@@ -142,7 +142,7 @@
         "revenue": "Industry-wide cyclical trough; weak international polymer demand and Chinese self-sufficiency surge.",
         "ebitda": "EBITDA fell 63% yoy as global cracker operating rates hit decade lows (~78%).",
         "capex": "Discretionary growth capex frozen; sustaining capex maintained for safety compliance.",
-        "fcf": "Severe cash burn of -$745M exacerbated by R$3.2B cash disbursements for Maceió relocation program.",
+        "fcf": "Severe cash burn of -$745M exacerbated by R$3.2B cash disbursements for Macei\u00f3 relocation program.",
         "net_leverage": "Trailing net leverage blew out to 10.74x; rating agencies revised outlooks to negative."
       },
       "reported_ebitda": 820.0,
@@ -307,10 +307,19 @@
       },
       "reported_ebitda": 1393.8,
       "calculated_ebitda": 1393.8,
-      "cash_interest": 1245.0,
-      "change_in_working_capital": -497.0,
-      "tax_expense": 1475.0,
-      "fcf_conversion_pct": -126.2
+      "cash_interest": 1115.0,
+      "change_in_working_capital": 1258.1,
+      "tax_expense": 0.0,
+      "fcf_conversion_pct": -126.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 1393.8,
+        "capex": 780.0,
+        "cash_interest": 1115.0,
+        "change_in_working_capital": 1258.1,
+        "tax": 0.0,
+        "fcf": -1759.3,
+        "formula_check": "1393.8 - 780.0 - 1115.0 - (1258.1) - 0.0 = -1759.3"
+      }
     }
   ],
   "debt_maturities": {
@@ -329,9 +338,9 @@
     "recovery_base_pct": 66.3,
     "senior_debt_coverage_pct": 66.3,
     "implied_stress_ev_multiple": "3.5x - 5.0x EV/EBITDA",
-    "restructuring_framework": "Recuperação Extrajudicial (Brazilian Law No. 11,101) & US Chapter 15",
-    "thesis": "Braskem's irreplaceable domestic infrastructure (4 integrated petrochemical complexes, 70% Brazilian resin share) and strategic feedstock integration with Petrobras provide an unbreachable operational floor. Under our Base Case recovery analysis (5.0x mid-cycle EBITDA of $1,400M = $7,000M EV + $900M cash), Senior Unsecured Eurobonds and Debentures recover 66.3 cents on the dollar ($63–$70c range). Trading at 45–56c, Senior Unsecured notes offer compelling +35% to +45% asymmetric upside. Conversely, Subordinated 2081 Hybrid notes (trading at 31.8c) face severe impairment (10–18c) under absolute priority, making the 2081 an attractive funding short or underweight.",
-    "recovery_commentary": "Base Case Distributable Value Waterfall: Total Enterprise Value ($7,000M) + Unrestricted Cash ($900M) = $7,900M. Deduct Priority Claims: Admin/legal costs ($100M), Senior Secured / PPE Bank Facilities ($1,100M at 100% par), and Maceió settlement NPV provisions ($600M) = $1,800M. Net value distributable to General Senior Unsecured claims ($9,200M total claims across Eurobonds and local Debentures) is $6,100M, yielding exactly 66.3% recovery (~63–70 cents on the dollar). Consideration expected as 35% new 8-year senior secured notes + 30% reorganised equity. Subordinated Hybrid 2081s receive out-of-the-money warrants/stub equity valued at 10–18c.",
+    "restructuring_framework": "Recupera\u00e7\u00e3o Extrajudicial (Brazilian Law No. 11,101) & US Chapter 15",
+    "thesis": "Braskem's irreplaceable domestic infrastructure (4 integrated petrochemical complexes, 70% Brazilian resin share) and strategic feedstock integration with Petrobras provide an unbreachable operational floor. Under our Base Case recovery analysis (5.0x mid-cycle EBITDA of $1,400M = $7,000M EV + $900M cash), Senior Unsecured Eurobonds and Debentures recover 66.3 cents on the dollar ($63\u2013$70c range). Trading at 45\u201356c, Senior Unsecured notes offer compelling +35% to +45% asymmetric upside. Conversely, Subordinated 2081 Hybrid notes (trading at 31.8c) face severe impairment (10\u201318c) under absolute priority, making the 2081 an attractive funding short or underweight.",
+    "recovery_commentary": "Base Case Distributable Value Waterfall: Total Enterprise Value ($7,000M) + Unrestricted Cash ($900M) = $7,900M. Deduct Priority Claims: Admin/legal costs ($100M), Senior Secured / PPE Bank Facilities ($1,100M at 100% par), and Macei\u00f3 settlement NPV provisions ($600M) = $1,800M. Net value distributable to General Senior Unsecured claims ($9,200M total claims across Eurobonds and local Debentures) is $6,100M, yielding exactly 66.3% recovery (~63\u201370 cents on the dollar). Consideration expected as 35% new 8-year senior secured notes + 30% reorganised equity. Subordinated Hybrid 2081s receive out-of-the-money warrants/stub equity valued at 10\u201318c.",
     "scenarios": [
       {
         "tranche": "Export Pre-Payment & Priority Bank Facilities",
@@ -456,7 +465,7 @@
         "is_subtotal": false
       },
       {
-        "step": "9. Less: Maceió Settlement NPV Obligations",
+        "step": "9. Less: Macei\u00f3 Settlement NPV Obligations",
         "floor": "-$850.0M (Escalated claims)",
         "base": "-$600.0M (Scheduled)",
         "bull": "-$500.0M (State cap)",
@@ -630,14 +639,14 @@
       "maturity_date": "2081-01-23",
       "seniority": "Junior Subordinated",
       "governing_law": "New York Law",
-      "observation": "Deeply junior capital instrument with coupon deferral rights. Heavily overvalued at ~31.8c relative to 10–18c recovery under absolute priority."
+      "observation": "Deeply junior capital instrument with coupon deferral rights. Heavily overvalued at ~31.8c relative to 10\u201318c recovery under absolute priority."
     }
   ],
   "covenant_analysis": {
     "debt_incurrence_covenant": "Consolidated Net Debt / EBITDA < 3.50x (Suspended / Breached under Restructuring Standstill)",
     "restricted_payments_covenant": "Dividends and shareholder distributions prohibited until Net Debt / EBITDA < 2.50x and default cured",
     "change_of_control_put": "Put at 101% triggered upon Change of Control accompanied by rating downgrade below Investment Grade",
-    "negative_pledge": "Restricts liens on core petrochemical complexes (Camaçari, Triunfo) with standard export financing carve-outs"
+    "negative_pledge": "Restricts liens on core petrochemical complexes (Cama\u00e7ari, Triunfo) with standard export financing carve-outs"
   },
   "management_guidance_tracker": [
     {
@@ -645,7 +654,7 @@
       "management_target": "$1,300M - $1,500M normalized mid-cycle EBITDA",
       "current_runrate": "$1,043M in 2Q26 annualized (~$1,200M run-rate)",
       "tracking_status": "On Track",
-      "variance_analysis": "Polymer spreads in South America and US recovering from historic 2023–2024 lows, driven by Asian supply discipline.",
+      "variance_analysis": "Polymer spreads in South America and US recovering from historic 2023\u20132024 lows, driven by Asian supply discipline.",
       "forecasting_impact": "Directly anchors desk Base Case Enterprise Valuation of $7,000M at 5.0x EV/EBITDA."
     },
     {
@@ -657,17 +666,17 @@
       "forecasting_impact": "Protects post-reorganization cash flow conversion; ensures positive FCF generation of +$170M in 2026E."
     },
     {
-      "guidance_metric": "Maceió Environmental Provisions Settlement Program",
+      "guidance_metric": "Macei\u00f3 Environmental Provisions Settlement Program",
       "management_target": "Complete PCF program and execute Alagoas State settlement",
       "current_runrate": "99.6% PCF claims disbursed; R$3.5B provisions remaining",
       "tracking_status": "Ahead of Target",
-      "variance_analysis": "Primary relocation completed; remaining obligations scheduled as R$80M–$120M annual disbursements through 2030+.",
+      "variance_analysis": "Primary relocation completed; remaining obligations scheduled as R$80M\u2013$120M annual disbursements through 2030+.",
       "forecasting_impact": "Deducts $600M NPV from total enterprise value in recovery waterfall."
     },
     {
       "guidance_metric": "Debt Deleveraging & Balance Sheet Right-Sizing",
       "management_target": "Reduce gross debt from $10.4B to < $5.5B via restructuring",
-      "current_runrate": "Recuperação Extrajudicial negotiations ongoing with bondholder committees",
+      "current_runrate": "Recupera\u00e7\u00e3o Extrajudicial negotiations ongoing with bondholder committees",
       "tracking_status": "Under Watch",
       "variance_analysis": "Creditors rejected initial $2B tender plan, demanding $3B sponsor equity check from Petrobras/Novonor.",
       "forecasting_impact": "Binds post-reorganization capital structure to 3.20x Net Leverage ceiling."
@@ -678,13 +687,13 @@
       "sector": "Materials / Chemicals",
       "topic": "Restructuring & Creditor Impasse",
       "source": "Desk Distressed Credit Strategy",
-      "note": "Braskem's filing for Recuperação Extrajudicial covering ~$11B of debt in late August 2026 marks the beginning of an intense game of chicken between bondholders and controlling shareholders Petrobras and Novonor. Creditors rightly rejected the company's low-ball proposal to inject $2B of debt buybacks at a 50% discount and are demanding an enforceable $3B equity check from Petrobras. Senior Unsecured notes at 45–56c are fundamentally backed by 66.3c Base Case recovery value."
+      "note": "Braskem's filing for Recupera\u00e7\u00e3o Extrajudicial covering ~$11B of debt in late August 2026 marks the beginning of an intense game of chicken between bondholders and controlling shareholders Petrobras and Novonor. Creditors rightly rejected the company's low-ball proposal to inject $2B of debt buybacks at a 50% discount and are demanding an enforceable $3B equity check from Petrobras. Senior Unsecured notes at 45\u201356c are fundamentally backed by 66.3c Base Case recovery value."
     },
     {
       "sector": "Materials / Chemicals",
       "topic": "Capital Structure Arbitrage (Long Senior / Short Hybrid)",
       "source": "Desk Distressed Credit Strategy",
-      "note": "The most compelling trade in the capital structure is Long Senior Unsecured Eurobonds (2030s @ 48.6c / 2050s @ 44.7c) versus Underweight/Short Subordinated Hybrid 2081s (@ 31.8c). Under any contested judicial restructuring or Chapter 11 plan, the 2081 notes sit below $9.2B of senior unsecured claims and will be almost entirely wiped out (10–18c recovery). The market is severely under-pricing the subordination risk of the 2081s."
+      "note": "The most compelling trade in the capital structure is Long Senior Unsecured Eurobonds (2030s @ 48.6c / 2050s @ 44.7c) versus Underweight/Short Subordinated Hybrid 2081s (@ 31.8c). Under any contested judicial restructuring or Chapter 11 plan, the 2081 notes sit below $9.2B of senior unsecured claims and will be almost entirely wiped out (10\u201318c recovery). The market is severely under-pricing the subordination risk of the 2081s."
     },
     {
       "sector": "Materials / Chemicals",
@@ -694,15 +703,15 @@
     },
     {
       "sector": "Materials / Chemicals",
-      "topic": "Maceió Liabilities De-risking",
+      "topic": "Macei\u00f3 Liabilities De-risking",
       "source": "Fitch Ratings",
-      "note": "Downgrade to 'RD' reflects standstill on coupon payments during restructuring negotiations. However, the operational execution of the Maceió relocation program (99.6% complete) and the long-dated installment structure of the R$1.2B Alagoas State settlement significantly reduce the probability of unforeseen cash-drain surprises."
+      "note": "Downgrade to 'RD' reflects standstill on coupon payments during restructuring negotiations. However, the operational execution of the Macei\u00f3 relocation program (99.6% complete) and the long-dated installment structure of the R$1.2B Alagoas State settlement significantly reduce the probability of unforeseen cash-drain surprises."
     }
   ],
   "diligence_questions": [
     {
       "id": "Q1",
-      "question": "What is the minimum cash equity check Petrobras and Novonor/IG4 are prepared to commit to avoid conversion of the Recuperação Extrajudicial into a formal in-court Recuperação Judicial (RJ)?"
+      "question": "What is the minimum cash equity check Petrobras and Novonor/IG4 are prepared to commit to avoid conversion of the Recupera\u00e7\u00e3o Extrajudicial into a formal in-court Recupera\u00e7\u00e3o Judicial (RJ)?"
     },
     {
       "id": "Q2",
@@ -768,7 +777,7 @@
         }
       },
       "restructuring_assumptions": {
-        "process": "Recuperação Extrajudicial (Lei 11.101)",
+        "process": "Recupera\u00e7\u00e3o Extrajudicial (Lei 11.101)",
         "approval_threshold": "50% plus one of subject creditors",
         "current_signatory_support_pct": 39.6,
         "agreement_in_principle_target": "2026-10-09",
@@ -999,5 +1008,28 @@
         "formula_count": 7446
       }
     }
-  }
+  },
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-12",
+    "period_reporting": "Q3 2026 / 9M",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local / Pre-Market",
+    "ir_webcast_url": "https://www.google.com/finance/quote/BRASKM",
+    "days_to_earnings": 54
+  },
+  "market_history": [
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "RD / D",
+      "price": 48.6,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "net_leverage": 6.74,
+      "ebitda": 850.0,
+      "fcf": -480.0,
+      "guidance_status": "Under Watch"
+    }
+  ]
 }

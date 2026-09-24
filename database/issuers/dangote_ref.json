@@ -391,7 +391,7 @@
       "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
     },
     "refinery_commercial_scale_and_yield": {
-      "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos — world's largest single-train facility",
+      "nameplate_capacity": "650,000 barrels per day (bpd) single-train crude oil refinery located in Lekki Free Trade Zone, Lagos \u2014 world's largest single-train facility",
       "crude_processing_slate": "Configured to process Nigerian light sweet crudes (Bonny Light, Forcados, Qua Iboe) and global medium sour barrels with maximum distillation efficiency",
       "transportation_fuels_output": "Capable of producing 330,000 bpd of Euro-V premium gasoline (PMS), 220,000 bpd of Ultra-Low Sulfur Diesel (ULSD), and 50,000 bpd of Aviation Jet A-1",
       "naira_crude_sales_agreement": "Bespoke agreement with NNPC / Federal Government of Nigeria for 385,000 bpd of domestic crude supply payable in Nigerian Naira (NGN), eliminating foreign exchange rationing risks"
@@ -736,6 +736,19 @@
       "date": "2026-09-21",
       "period_name": "2026-09-21",
       "timestamp": "2026-09-21T06:52:54.613504",
+      "rating": "B / B2",
+      "price": 95.0,
+      "ytm": 12.5,
+      "spread_bp": 815,
+      "net_leverage": 2.43,
+      "ebitda": 100.0,
+      "fcf": -735.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
       "rating": "B / B2",
       "price": 95.0,
       "ytm": 12.5,

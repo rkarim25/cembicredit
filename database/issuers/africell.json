@@ -55,8 +55,8 @@
       "net_leverage": 4.54,
       "interest_coverage": 2.45,
       "cash_interest": 42.8,
-      "change_in_working_capital": -12.5,
-      "tax_expense": 5.8,
+      "change_in_working_capital": 167.8,
+      "tax_expense": 4.6,
       "fcf_conversion_pct": -10.4,
       "observations": {
         "revenue": "Initial commercial launch in Luanda, Angola, initiating rapid subscriber uptake.",
@@ -64,6 +64,15 @@
         "capex": "High network deployment capex across Angola 4G infrastructure.",
         "fcf": "Negative FCF reflecting peak initial rollout investment.",
         "net_leverage": "Leverage reflects initial debt funding for Angolan market entry."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 104.9,
+        "capex": -99.4,
+        "cash_interest": 42.8,
+        "change_in_working_capital": 167.8,
+        "tax": 4.6,
+        "fcf": -10.9,
+        "formula_check": "104.9 - -99.4 - 42.8 - (167.8) - 4.6 = -10.9"
       }
     },
     {
@@ -83,8 +92,8 @@
       "net_leverage": 4.23,
       "interest_coverage": 16.25,
       "cash_interest": 7.0,
-      "change_in_working_capital": 60.0,
-      "tax_expense": 5.8,
+      "change_in_working_capital": 184.5,
+      "tax_expense": 11.0,
       "fcf_conversion_pct": 9.2,
       "observations": {
         "revenue": "Top-line expands +8.4% YoY as Angola subscriber base breaks through 3M active users.",
@@ -92,6 +101,15 @@
         "capex": "Sustained tower rollout and 4G densification across major Angolan population centers.",
         "fcf": "Positive FCF generation supported by favorable working capital collections.",
         "net_leverage": "Net leverage drops to 4.23x as EBITDA scales."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 114.3,
+        "capex": -98.7,
+        "cash_interest": 7.0,
+        "change_in_working_capital": 184.5,
+        "tax": 11.0,
+        "fcf": 10.5,
+        "formula_check": "114.3 - -98.7 - 7.0 - (184.5) - 11.0 = 10.5"
       }
     },
     {
@@ -111,8 +129,8 @@
       "net_leverage": 6.08,
       "interest_coverage": 4.97,
       "cash_interest": 16.0,
-      "change_in_working_capital": -8.3,
-      "tax_expense": 7.2,
+      "change_in_working_capital": 141.2,
+      "tax_expense": 5.9,
       "fcf_conversion_pct": -42.6,
       "observations": {
         "revenue": "Revenue flat in USD terms (-0.1%) due to severe Angolan Kwanza (AOA) and Congolese Franc (CDF) devaluations.",
@@ -120,6 +138,15 @@
         "capex": "Disciplined capex throttling to $49.7M (-49.6% YoY) to preserve cash liquidity.",
         "fcf": "Negative FCF of -$33.9M absorbed through existing liquidity reserves.",
         "net_leverage": "Net leverage spikes to 6.08x trough due to the EBITDA translation denominator hit."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 79.5,
+        "capex": -49.7,
+        "cash_interest": 16.0,
+        "change_in_working_capital": 141.2,
+        "tax": 5.9,
+        "fcf": -33.9,
+        "formula_check": "79.5 - -49.7 - 16.0 - (141.2) - 5.9 = -33.9"
       }
     },
     {
@@ -139,8 +166,8 @@
       "net_leverage": 3.72,
       "interest_coverage": 3.08,
       "cash_interest": 45.0,
-      "change_in_working_capital": -42.7,
-      "tax_expense": 6.1,
+      "change_in_working_capital": 180.4,
+      "tax_expense": 7.8,
       "fcf_conversion_pct": -28.0,
       "observations": {
         "revenue": "Revenue rebounds +14.8% YoY to $408.6M driven by local tariff increases and data usage growth in Angola.",
@@ -148,6 +175,15 @@
         "capex": "Capex normalized to $55.8M (13.7% of sales) focused on 4G LTE coverage and core network modernization.",
         "fcf": "FCF burn narrows to -$38.8M as operating cashflow expands.",
         "net_leverage": "Rapid deleveraging from 6.08x to 3.72x (-2.36x drop) on operational EBITDA recovery."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 138.6,
+        "capex": -55.8,
+        "cash_interest": 45.0,
+        "change_in_working_capital": 180.4,
+        "tax": 7.8,
+        "fcf": -38.8,
+        "formula_check": "138.6 - -55.8 - 45.0 - (180.4) - 7.8 = -38.8"
       }
     },
     {
@@ -167,15 +203,24 @@
       "net_leverage": 3.52,
       "interest_coverage": 3.23,
       "cash_interest": 49.2,
-      "change_in_working_capital": -59.3,
-      "tax_expense": 6.5,
-      "fcf_conversion_pct": -39.3,
+      "change_in_working_capital": 230.8,
+      "tax_expense": 9.3,
+      "fcf_conversion_pct": -39.4,
       "observations": {
         "revenue": "LTM revenue reaches $445.7M; 2Q26 quarterly revenue rose +16.1% YoY to $116.5M.",
         "ebitda": "LTM Adj EBITDA reaches $159.0M (+76.9% YoY); 2Q26 Adj EBITDA hit $40.5M (+37.8% YoY, margin 34.8%).",
         "capex": "Gross capex of $68.0M LTM ($22.7M in 2Q26) supporting nationwide expansion in Benguela and Huambo.",
         "fcf": "Quarterly FCF improved sharply to -$4.7M in 2Q26 vs -$43.5M in 1Q26; LTM FCF stands at -$62.5M.",
         "net_leverage": "Net leverage declined to 3.52x, down -2.56x from the FY24 peak, with 3.23x EBITDA interest coverage."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 158.8,
+        "capex": -68.0,
+        "cash_interest": 49.2,
+        "change_in_working_capital": 230.8,
+        "tax": 9.3,
+        "fcf": -62.5,
+        "formula_check": "158.8 - -68.0 - 49.2 - (230.8) - 9.3 = -62.5"
       }
     }
   ],
@@ -604,6 +649,19 @@
       "net_leverage": 1.52,
       "ebitda": 339.4,
       "fcf": -62.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
       "guidance_status": "Ahead of Target"
     }
   ],

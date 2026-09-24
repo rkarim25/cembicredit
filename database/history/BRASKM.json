@@ -1,0 +1,22 @@
+{
+  "ticker": "BRASKM",
+  "name": "Braskem S.A.",
+  "sector": "Materials",
+  "country": "Brazil",
+  "benchmark_bond": "BRASKM 4.500% 2030",
+  "snapshots": [
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "RD / D",
+      "price": 48.6,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "net_leverage": 6.74,
+      "ebitda": 850.0,
+      "fcf": -480.0,
+      "guidance_status": "Under Watch"
+    }
+  ]
+}

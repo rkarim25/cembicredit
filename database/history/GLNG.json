@@ -1,0 +1,22 @@
+{
+  "ticker": "GLNG",
+  "name": "Golar LNG Limited",
+  "sector": "Energy",
+  "country": "Bermuda",
+  "benchmark_bond": "GLNG $500M 5NC2",
+  "snapshots": [
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    }
+  ]
+}

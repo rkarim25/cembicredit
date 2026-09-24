@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "cimkoc",
-    "name": "Çimko Çimento",
+    "name": "\u00c7imko \u00c7imento",
     "ticker": "CIMKOC",
     "country": "Turkey",
     "region": "CEEMEA",
@@ -339,11 +339,11 @@
   ],
   "next_earnings_release": {
     "scheduled_date": "2026-11-12",
-    "period_reporting": "3Q26",
+    "period_reporting": "Q3 2026 / 9M",
     "confirmation_status": "Estimated",
-    "call_time": "15:00 Istanbul / 12:00 UK",
-    "ir_webcast_url": "https://www.cimko.com.tr/investor-relations",
-    "days_to_earnings": 52
+    "call_time": "14:00 Local / Pre-Market",
+    "ir_webcast_url": "https://www.google.com/finance/quote/CIMKOC",
+    "days_to_earnings": 54
   },
   "management_questions": [
     {
@@ -357,28 +357,17 @@
   ],
   "market_history": [
     {
-      "date": "2026-06-30",
-      "price": 103.5,
-      "ytm": 8.95,
-      "spread_bp": 420
-    },
-    {
-      "date": "2026-07-31",
-      "price": 104.2,
-      "ytm": 8.8,
-      "spread_bp": 405
-    },
-    {
-      "date": "2026-08-31",
-      "price": 104.8,
-      "ytm": 8.68,
-      "spread_bp": 398
-    },
-    {
-      "date": "2026-09-21",
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B / B3",
       "price": 105.0,
       "ytm": 8.6,
-      "spread_bp": 391
+      "spread_bp": 391,
+      "net_leverage": 1.8,
+      "ebitda": 165.0,
+      "fcf": 18.5,
+      "guidance_status": "On Track"
     }
   ],
   "commodity_drivers": {
@@ -401,7 +390,7 @@
       "broker": "J.P. Morgan",
       "analyst": "CEEMEA Corporate Credit Desk",
       "report_date": "2026-09-21",
-      "report_title": "Çimko Çimento (CIMKOC) 2Q26 results: EBITDA -24% yoy to TRY 2,066mn (margin 31.2%); Net leverage rises to 2.3x (YE26E 2.5-3.0x); Broker remains OW CIMKOC 30s",
+      "report_title": "\u00c7imko \u00c7imento (CIMKOC) 2Q26 results: EBITDA -24% yoy to TRY 2,066mn (margin 31.2%); Net leverage rises to 2.3x (YE26E 2.5-3.0x); Broker remains OW CIMKOC 30s",
       "recommendation": "Overweight",
       "target_spread_bps": 350,
       "raw_model": {

@@ -157,11 +157,11 @@
       "net_leverage": 3.62,
       "interest_coverage": 2.12,
       "observations": {
-        "revenue": "Revenue achieved $1,200M anchored by OEDAŞ distribution network and 305 MW baseload geothermal fleet.",
+        "revenue": "Revenue achieved $1,200M anchored by OEDA\u015e distribution network and 305 MW baseload geothermal fleet.",
         "ebitda": "EBITDA reached $320M; 68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM.",
         "capex": "Capex strictly capped at $112M, preserving liquidity ahead of the 2026 Eurobond maturity wall.",
         "fcf": "Strong FCF of $160M generated, maintaining unrestricted cash reserves at $240M across partner banks.",
-        "net_leverage": "Net financial debt reported at $1,350M (3.62x net leverage) following March 2024 Gazdaş gas distribution divestment and initial $800M 2030 bond issuance."
+        "net_leverage": "Net financial debt reported at $1,350M (3.62x net leverage) following March 2024 Gazda\u015f gas distribution divestment and initial $800M 2030 bond issuance."
       },
       "reported_ebitda": 372.5,
       "calculated_ebitda": 320.0,
@@ -357,7 +357,7 @@
       "amount_usd_m": 95.0,
       "facility_type": "Concessional multilateral project debt",
       "lender": "Asian Development Bank (ADB)",
-      "intended_use": "Distribution grid (OEDAŞ) capex financing",
+      "intended_use": "Distribution grid (OEDA\u015e) capex financing",
       "tenor_years": 6,
       "grace_period_years": 2,
       "seniority": "Pari passu with Senior Notes",
@@ -393,9 +393,9 @@
     "recovery_base_pct": 75.0,
     "implied_stress_ev_multiple": 4.5,
     "restructuring_framework": "Turkey Enforcement & Bankruptcy Code / BDDK Financial Restructuring (FYY)",
-    "thesis": "High geothermal/hydro cash margins offset by .8M related-party leakage to Zorlu Holding, - working capital deficit, and .2M Turkish bank senior security over EPİAŞ/EPDK cashflows. In Group Contagion, Eurobond recovery compresses to 52.0c-64.8c, directly matching 63.5c market trading.",
+    "thesis": "High geothermal/hydro cash margins offset by .8M related-party leakage to Zorlu Holding, - working capital deficit, and .2M Turkish bank senior security over EP\u0130A\u015e/EPDK cashflows. In Group Contagion, Eurobond recovery compresses to 52.0c-64.8c, directly matching 63.5c market trading.",
     "senior_debt_coverage_pct": 153.7,
-    "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value (,276.5M SOTP operational EV comprising ,626.5M Renewable Generation DCF/multiples and .0M OEDAŞ Regulated Distribution Grid based on 1.00x EV/RAB on its EPDK rate base) + Unrestricted Cash (.0M) + 30% Related-Party Recovery from Zorlu Holding (+.4M of .5M net IOU) less Third-Party Working Capital Deficit (-.0M BOTAŞ gas/EPDK contractors) = ,613.9M Total Distributable Asset Value. Deduct Priority Claims: Advisory/workout costs (-.0M) + Turkish Bank & Multilateral DFI Priority Debt (-.2M:  ADB/EBRD and .2M Turkish bank syndicates exercising notarized account pledges over EPİAŞ YEKDEM and EPDK collections) = -.2M total priority claims. Net value distributable to General Senior Unsecured claims (,100M ZOREN 11.00% 2030 Eurobonds +  local TL corporate bonds = ,328.0M) is ,040.7M, providing 153.7% asset coverage (100c fundamental par coverage) with .7M residual equity cushion in the Base Case. However, under the Zorlu Group Contagion scenario (0% related-party recovery, - WC deficit, .2M Turkish bank super-priority sweep, and distressed SOTP EV of ,170.0M), net distributable value to senior claims falls to .8M (.8M pre-fee), compressing Eurobond recovery to 52.0c - 64.8c, which directly resolves why ZOREN 2030 trades at 63.5c in secondary markets despite standalone asset coverage.",
+    "recovery_commentary": "Distributable Value Waterfall: Total Enterprise Value (,276.5M SOTP operational EV comprising ,626.5M Renewable Generation DCF/multiples and .0M OEDA\u015e Regulated Distribution Grid based on 1.00x EV/RAB on its EPDK rate base) + Unrestricted Cash (.0M) + 30% Related-Party Recovery from Zorlu Holding (+.4M of .5M net IOU) less Third-Party Working Capital Deficit (-.0M BOTA\u015e gas/EPDK contractors) = ,613.9M Total Distributable Asset Value. Deduct Priority Claims: Advisory/workout costs (-.0M) + Turkish Bank & Multilateral DFI Priority Debt (-.2M:  ADB/EBRD and .2M Turkish bank syndicates exercising notarized account pledges over EP\u0130A\u015e YEKDEM and EPDK collections) = -.2M total priority claims. Net value distributable to General Senior Unsecured claims (,100M ZOREN 11.00% 2030 Eurobonds +  local TL corporate bonds = ,328.0M) is ,040.7M, providing 153.7% asset coverage (100c fundamental par coverage) with .7M residual equity cushion in the Base Case. However, under the Zorlu Group Contagion scenario (0% related-party recovery, - WC deficit, .2M Turkish bank super-priority sweep, and distressed SOTP EV of ,170.0M), net distributable value to senior claims falls to .8M (.8M pre-fee), compressing Eurobond recovery to 52.0c - 64.8c, which directly resolves why ZOREN 2030 trades at 63.5c in secondary markets despite standalone asset coverage.",
     "scenarios": [
       {
         "tranche": "Multilateral DFI Priority Debt (ADB / EBRD)",
@@ -415,7 +415,7 @@
         "base_recovery": "100.0c (100%)",
         "bull_recovery": "100.0c (100%)",
         "contagion_recovery": "100.0c (100%)",
-        "asymmetry": "Super-Priority (Protected by Notarized EPİAŞ/EPDK Cash Account Pledges & BDDK FYY Framework)"
+        "asymmetry": "Super-Priority (Protected by Notarized EP\u0130A\u015e/EPDK Cash Account Pledges & BDDK FYY Framework)"
       },
       {
         "tranche": "ZOREN 11.000% 2030 Senior Notes (Eurobonds)",
@@ -428,7 +428,7 @@
         "asymmetry": "Secondary Discount (63.5c) Directly Reflects Zorlu Group Contagion & Bank Structural Priority"
       },
       {
-        "tranche": "Local TL Corporate Bonds (ÖST / Private Placements)",
+        "tranche": "Local TL Corporate Bonds (\u00d6ST / Private Placements)",
         "claim_usd_m": 228.0,
         "market_px": "85.0c",
         "floor_recovery": "50.0c - 65.0c (Local Market Roll)",
@@ -484,7 +484,7 @@
         "floor": "-.0M",
         "base": "-.0M",
         "bull": "-.0M",
-        "contagion": "-.0M (BOTAŞ / Grid Deficit)",
+        "contagion": "-.0M (BOTA\u015e / Grid Deficit)",
         "is_subtotal": false
       },
       {
@@ -531,7 +531,7 @@
         "color": "#34d399"
       },
       {
-        "step": "12. Total Senior Unsecured Claims Pool (Eurobonds + ÖST)",
+        "step": "12. Total Senior Unsecured Claims Pool (Eurobonds + \u00d6ST)",
         "floor": ",100.0M",
         "base": ",328.0M",
         "bull": ",328.0M",
@@ -567,10 +567,10 @@
       }
     ],
     "distribution_asset_valuation_framework": {
-      "methodology": "Regulated Asset Base (RAB / Düzenlenmiş Varlık Tabanı)",
-      "asset_name": "OEDAŞ (Osmangazi Elektrik Dağıtım A.Ş.)",
+      "methodology": "Regulated Asset Base (RAB / D\u00fczenlenmi\u015f Varl\u0131k Taban\u0131)",
+      "asset_name": "OEDA\u015e (Osmangazi Elektrik Da\u011f\u0131t\u0131m A.\u015e.)",
       "concession_term": "EPDK natural distribution monopoly through 2036",
-      "customer_base": "1.95M registered meters (~2.9M population across 5 Turkish provinces: Eskişehir, Bilecik, Kütahya, Uşak, Afyonkarahisar)",
+      "customer_base": "1.95M registered meters (~2.9M population across 5 Turkish provinces: Eski\u015fehir, Bilecik, K\u00fctahya, U\u015fak, Afyonkarahisar)",
       "distributed_volume_gwh": 8650,
       "base_rab_usd_m": 650.0,
       "adb_expanded_rab_usd_m": 745.0,
@@ -591,12 +591,12 @@
         "adb_proforma_expanded_1.00x_usd_m": 745.0,
         "adb_proforma_expanded_1.10x_usd_m": 819.5
       },
-      "rationale": "EV/EBITDA is inadequate for OEDAŞ because headline EBITDA is distorted by inflation indexation lags and EPDK's -/yr capex underinvestment clawback. Regulated electricity distribution grids are universally valued on EV/RAB by institutional lenders (ADB, EBRD), rating agencies, and infrastructure M&A markets."
+      "rationale": "EV/EBITDA is inadequate for OEDA\u015e because headline EBITDA is distorted by inflation indexation lags and EPDK's -/yr capex underinvestment clawback. Regulated electricity distribution grids are universally valued on EV/RAB by institutional lenders (ADB, EBRD), rating agencies, and infrastructure M&A markets."
     },
     "restructuring_scenarios": {
       "base_case": {
         "name": "Base SOTP Waterfall",
-        "description": "Normalized geothermal/hydro cash EBITDA () + OEDAŞ grid at 1.00x EV/RAB (). 30% related-party recovery (+.4M), - WC deficit, .2M bank priority sweep.",
+        "description": "Normalized geothermal/hydro cash EBITDA () + OEDA\u015e grid at 1.00x EV/RAB (). 30% related-party recovery (+.4M), - WC deficit, .2M bank priority sweep.",
         "distributable_ev_usd_m": 2613.9,
         "eurobond_coverage_pct": 153.7,
         "eurobond_recovery_cents": 100.0,
@@ -620,7 +620,7 @@
       },
       "asset_haircut": {
         "name": "Forced Asset Sale & Haircut",
-        "description": "Forced divestment of OEDAŞ grid (0.85x RAB) and merchant gas cogen under regulatory pressure; 20% principal haircut to .",
+        "description": "Forced divestment of OEDA\u015e grid (0.85x RAB) and merchant gas cogen under regulatory pressure; 20% principal haircut to .",
         "distributable_ev_usd_m": 1976.5,
         "eurobond_coverage_pct": 143.3,
         "eurobond_recovery_cents": 80.0,
@@ -636,7 +636,7 @@
       },
       "zorlu_group_contagion": {
         "name": "Zorlu Group / Holding Contagion",
-        "description": "Zorlu Holding default; 0% related-party recovery (.8M written off); - working capital reserve deducted; Turkish banks exercise notarized account pledges over EPİAŞ/EPDK cash sweeps (.2M senior sweep); SOTP EV compressed to ,170M.",
+        "description": "Zorlu Holding default; 0% related-party recovery (.8M written off); - working capital reserve deducted; Turkish banks exercise notarized account pledges over EP\u0130A\u015e/EPDK cash sweeps (.2M senior sweep); SOTP EV compressed to ,170M.",
         "distributable_ev_usd_m": 1224.0,
         "eurobond_coverage_pct": 52.0,
         "eurobond_recovery_cents": 52.0,
@@ -653,7 +653,7 @@
       "related_party_payables_usd_m": 12.3,
       "related_party_payables_try_b": 0.47,
       "net_receivable_usd_m": 744.5,
-      "debtor_entities": "Zorlu Holding A.Ş. and sister entities (Vestel Elektronik, Zorlu Gayrimenkul, Meta Nikel)",
+      "debtor_entities": "Zorlu Holding A.\u015e. and sister entities (Vestel Elektronik, Zorlu Gayrimenkul, Meta Nikel)",
       "dial_presets": {
         "contagion_pct": 0.0,
         "contagion_recovery_usd_m": 0.0,
@@ -668,16 +668,16 @@
       "operating_receivables_usd_m": 175.2,
       "operating_payables_usd_m": 301.2,
       "net_working_capital_deficit_usd_m": -126.0,
-      "key_payables": "BOTAŞ (state gas supplier for cogen plants), TEİAŞ/EPİAŞ (transmission and grid balancing), EPDK concession regulatory fees, and grid EPC contractors",
-      "treatment": "Mandatory senior operational deduction; failure to satisfy BOTAŞ halts gas generation, while grid maintenance payables risk EPDK concession revocation."
+      "key_payables": "BOTA\u015e (state gas supplier for cogen plants), TE\u0130A\u015e/EP\u0130A\u015e (transmission and grid balancing), EPDK concession regulatory fees, and grid EPC contractors",
+      "treatment": "Mandatory senior operational deduction; failure to satisfy BOTA\u015e halts gas generation, while grid maintenance payables risk EPDK concession revocation."
     },
     "turkish_bank_priority_analysis": {
       "multilateral_dfi_usd_m": 115.0,
       "turkish_commercial_banks_usd_m": 428.2,
       "total_bank_priority_usd_m": 543.2,
-      "syndicate_members": "Garanti BBVA, Akbank, Türkiye İş Bankası, Yapı Kredi, Türkiye Sınai Kalkınma Bankası (TSKB), Asian Development Bank (ADB), EBRD",
-      "security_package": "Notarized Commercial Enterprise Pledges (Ticari İşletme Rehni) and direct account control over EPİAŞ YEKDEM hard-currency settlement accounts and EPDK tariff collection escrows",
-      "legal_framework": "BDDK Financial Restructuring Framework (FYY) and Turkish Enforcement and Bankruptcy Code (İcra ve İflas Kanunu)",
+      "syndicate_members": "Garanti BBVA, Akbank, T\u00fcrkiye \u0130\u015f Bankas\u0131, Yap\u0131 Kredi, T\u00fcrkiye S\u0131nai Kalk\u0131nma Bankas\u0131 (TSKB), Asian Development Bank (ADB), EBRD",
+      "security_package": "Notarized Commercial Enterprise Pledges (Ticari \u0130\u015fletme Rehni) and direct account control over EP\u0130A\u015e YEKDEM hard-currency settlement accounts and EPDK tariff collection escrows",
+      "legal_framework": "BDDK Financial Restructuring Framework (FYY) and Turkish Enforcement and Bankruptcy Code (\u0130cra ve \u0130flas Kanunu)",
       "structural_subordination_mechanics": "Turkish banks sweep operating cash flow at the OpCo generation and distribution level before any cash can reach holding company escrow accounts. Foreign Eurobond holders (,100M ZOREN 2030) hold unsecured claims at the holding company level without direct account control, making them structurally subordinate to local lenders."
     },
     "capital_structure_tranches": [
@@ -695,7 +695,7 @@
         "amount_usd_m": 428.2,
         "seniority": "Senior Secured / Local Syndicate Priority",
         "coupon_pct": 8.5,
-        "security": "Notarized Commercial Enterprise Pledges (EPİAŞ YEKDEM & EPDK Accounts)"
+        "security": "Notarized Commercial Enterprise Pledges (EP\u0130A\u015e YEKDEM & EPDK Accounts)"
       },
       {
         "id": "eurobonds",
@@ -707,7 +707,7 @@
       },
       {
         "id": "local_tl",
-        "name": "Local TL Corporate Bonds (ÖST / Private Placements)",
+        "name": "Local TL Corporate Bonds (\u00d6ST / Private Placements)",
         "amount_usd_m": 228.0,
         "seniority": "Senior Unsecured Domestic",
         "coupon_pct": 42.0,
@@ -721,7 +721,7 @@
           "id": "trigger_1_share_pledge_coc",
           "name": "1. Share Pledge Foreclosure & 101% Change of Control Put",
           "indenture_clause": "Section 4.08 (Change of Control Repurchase Offer)",
-          "mechanism": "Zorlu Holding owns ~56.4% of ZOREN equity but has pledged substantial shares to Turkish banks (İşbank, Garanti, Akbank) for Holding-level loans. Bank foreclosure drops Holding ownership below 50.0%.",
+          "mechanism": "Zorlu Holding owns ~56.4% of ZOREN equity but has pledged substantial shares to Turkish banks (\u0130\u015fbank, Garanti, Akbank) for Holding-level loans. Bank foreclosure drops Holding ownership below 50.0%.",
           "legal_consequence": "Mandatory Change of Control Offer at 101% of principal (,111M cash required). Inability to fund the put within 30 days constitutes an immediate, non-curable Event of Default (EoD)."
         },
         {
@@ -736,7 +736,7 @@
         {
           "id": "trigger_3_spk_related_party_violation",
           "name": "3. SPK Arm's-Length Breach & Auditor Going-Concern Flag",
-          "regulatory_standard": "Turkish Capital Markets Board (SPK) Series II-17.1 Corporate Governance Communiqué",
+          "regulatory_standard": "Turkish Capital Markets Board (SPK) Series II-17.1 Corporate Governance Communiqu\u00e9",
           "advance_amount_usd_m": 756.8,
           "mechanism": ".8M (TRY 28.8B) in unsecured related-party advances to Zorlu Holding breaches arm's-length transfer pricing rules.",
           "legal_consequence": "Parent debt moratorium forces 100% ECL impairment and a Going Concern audit qualification, violating standard Turkish bank loan representations and triggering unilateral facility cancellations."
@@ -745,9 +745,9 @@
           "id": "trigger_4_working_capital_freeze",
           "name": "4. Working Capital Freeze & Essential Vendor Defaults",
           "wc_deficit_usd_m": -126.0,
-          "critical_creditors": "BOTAŞ (.4M gas payables) and TEİAŞ/EPİAŞ (.8M grid fees)",
+          "critical_creditors": "BOTA\u015e (.4M gas payables) and TE\u0130A\u015e/EP\u0130A\u015e (.8M grid fees)",
           "mechanism": "Bank cash sweeps prevent servicing trade payables for natural gas and grid transmission.",
-          "legal_consequence": "BOTAŞ gas disconnection shuts down Bursa and Lüleburgaz cogen plants within 14 days; TEİAŞ balancing default triggers EPDK generation license revocation."
+          "legal_consequence": "BOTA\u015e gas disconnection shuts down Bursa and L\u00fcleburgaz cogen plants within 14 days; TE\u0130A\u015e balancing default triggers EPDK generation license revocation."
         }
       ]
     },
@@ -822,8 +822,8 @@
     "source_deck": "Zorlu Enerji FY2024 Strategic Investor Presentation & Borsa Istanbul Capital Markets Day",
     "reporting_currency": "USD / TRY (with natural USD hedge disclosures)",
     "generation_fleet_breakdown": {
-      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) — Turkey's largest and lowest-cost baseload renewable fleet",
-      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) — long-term high wind resource capacity factor (>34%)",
+      "geothermal_capacity_jes": "305.0 MW total geothermal capacity: Kizildere I (15.0 MW), Kizildere II (80.0 MW), Kizildere III Unit 1 (99.5 MW), Kizildere III Unit 2 (65.5 MW), Alasehir I (45.0 MW) \u2014 Turkey's largest and lowest-cost baseload renewable fleet",
+      "wind_capacity_res": "135.0 MW Gokcedag Wind Power Plant (Osmaniye) \u2014 long-term high wind resource capacity factor (>34%)",
       "hydroelectric_capacity_hes": "118.6 MW across 7 operating run-of-river and reservoir plants (Ikizdere, Atabey, Camlica, Kuzgun, Mercan, Tercan, Beykoy)",
       "solar_and_hybrid_capacity": "84.0 MW installed and under development (hybrid solar installations co-located at Kizildere geothermal sites)",
       "thermal_and_industrial_cogen": "341.0 MW domestic gas cogeneration and district heating (Bursa, Luleburgaz)",
@@ -902,7 +902,7 @@
     "geographic_and_fx_exposure": {
       "usd_revenue_share": "68.5% of generation EBITDA earned in US Dollars directly under statutory YEKDEM mechanism",
       "try_regulated_revenue_share": "31.5% of revenue earned in Turkish Lira via OEDAS/OEPSAS with full CPI inflation pass-through",
-      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY — natural dollar hedge covers 100% of USD net interest payments",
+      "debt_currency_denomination": "58% USD, 24% EUR, 18% TRY \u2014 natural dollar hedge covers 100% of USD net interest payments",
       "fx_risk_mitigation": "Bilateral FX forward hedges covering next 12-month EUR debt principal amortizations"
     },
     "contract_backlog_and_commercial_terms": {
@@ -945,12 +945,12 @@
       "ytm": 6.5,
       "spread_bp": 250,
       "maturity": "2034-12-31",
-      "seniority": "OpCo Senior Secured (OEDAŞ Grid Receivables & IFRIC 12 Assets)",
+      "seniority": "OpCo Senior Secured (OEDA\u015e Grid Receivables & IFRIC 12 Assets)",
       "governing_law": "English / Turkish Law",
       "observation": "Concessional facility signed in Aug 2024 at USD/TRY 34.61 ( equivalent). At 30.06.2026 TCMB rate (46.5551), carrying value is .5M. Sits 100% senior to HoldCo Eurobonds."
     },
     {
-      "tranche_name": "Turkish Commercial Bank Project Finance Facilities (Akbank, Garanti, İşbank)",
+      "tranche_name": "Turkish Commercial Bank Project Finance Facilities (Akbank, Garanti, \u0130\u015fbank)",
       "instrument_type": "Syndicated & Bilateral Project Finance Facilities",
       "currency": "TRY / USD",
       "amount_issued_usd_m": 300.0,
@@ -961,12 +961,12 @@
       "ytm": 8.5,
       "spread_bp": 380,
       "maturity": "2027-2030",
-      "seniority": "Senior Secured OpCo / Commercial Enterprise Pledge (Ticari İşletme Rehni)",
+      "seniority": "Senior Secured OpCo / Commercial Enterprise Pledge (Ticari \u0130\u015fletme Rehni)",
       "governing_law": "Turkish Law",
-      "observation": "Local bank syndicates enforce notarized account pledges over EPİAŞ YEKDEM dollar collections and OEDAŞ grid revenues, sweeping domestic cash before HoldCo."
+      "observation": "Local bank syndicates enforce notarized account pledges over EP\u0130A\u015e YEKDEM dollar collections and OEDA\u015e grid revenues, sweeping domestic cash before HoldCo."
     },
     {
-      "tranche_name": "Geothermal & Wind Operating Project Loans (Kızıldere / Alaşehir)",
+      "tranche_name": "Geothermal & Wind Operating Project Loans (K\u0131z\u0131ldere / Ala\u015fehir)",
       "instrument_type": "Senior Secured Project Finance",
       "currency": "USD",
       "amount_issued_usd_m": 120.0,
@@ -982,7 +982,7 @@
       "observation": "Directly secured by plant assets and statutory USD YEKDEM feed-in tariff receipts."
     },
     {
-      "tranche_name": "Local TL Corporate Bonds & Sukuk (Özel Sektör Tahvili - ÖST)",
+      "tranche_name": "Local TL Corporate Bonds & Sukuk (\u00d6zel Sekt\u00f6r Tahvili - \u00d6ST)",
       "instrument_type": "Domestic Turkish Lira Corporate Bonds & Sukuk",
       "currency": "TRY",
       "amount_issued_usd_m": 250.0,
@@ -1011,7 +1011,7 @@
       "maturity": "2026-2027",
       "seniority": "Senior Unsecured Issuer Level",
       "governing_law": "Turkish Commercial Code",
-      "observation": "Working capital lines with Turkish commercial banks (Vakıf, Halk, Akbank, İşbank)."
+      "observation": "Working capital lines with Turkish commercial banks (Vak\u0131f, Halk, Akbank, \u0130\u015fbank)."
     },
     {
       "tranche_name": "Lease Liabilities (TFRS 16)",
@@ -1317,6 +1317,19 @@
       "ebitda": 320.0,
       "fcf": -198.1,
       "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B- / CCC+",
+      "price": 63.5,
+      "ytm": 27.2,
+      "spread_bp": 2250,
+      "net_leverage": 3.62,
+      "ebitda": 320.0,
+      "fcf": -198.1,
+      "guidance_status": "Under Watch"
     }
   ],
   "broker_snapshots": [
@@ -1494,7 +1507,7 @@
       "thesis_summary": "Near-term liquidity through the first amortisation (Oct 2027) is materially de-risked by the impending closing of the $95M ADB concessional facility (6y maturity, 2y grace period, pari passu, no guarantors) and ~$29M escrow cash release. However, capital structure remains inverted: quarterly interest (~$64M) exceeds quarterly cash EBITDA (~$56M in 2Q26), and distribution EBITDA is penalized by ~$20M/yr capex underinvestment clawbacks through 2030. Deleveraging beyond 2027 hinges on 375MW wind/storage portfolio monetisation, Pakistan disposal, and related-party loan recovery from Zorlu Holding."
     },
     "positives": [
-      "Impending $95M ADB Facility Closing: Concessional multilateral financing for OEDAŞ distribution capex (6-year tenor, 2-year grace period, ranking pari passu with Eurobonds with no guarantors) provides decisive runway through Oct 2027.",
+      "Impending $95M ADB Facility Closing: Concessional multilateral financing for OEDA\u015e distribution capex (6-year tenor, 2-year grace period, ranking pari passu with Eurobonds with no guarantors) provides decisive runway through Oct 2027.",
       "Escrow Release Liquidity Injection: ~$29M released into unrestricted cash in 2Q26, cushioning liquidity during seasonal working capital troughs.",
       "Strong FiT Insulation Against Merchant Spot Volatility: While spot power prices collapsed to $20/MWh in 2Q26 (vs $61/MWh in 2Q25), ZOREN's high proportion of statutory YEKDEM geothermal and hydro generation cushioned EBITDA ($24M generation cash EBITDA maintained in 1Q26 and 2Q26).",
       "Aggressive Domestic TRY Bank Deleveraging: Local TRY debt reduced from $83M in 1Q26 to $70M in 2Q26 and ~$55M currently, with target to extinguish most domestic bank debt by YE27.",
@@ -1508,8 +1521,8 @@
       "Related-Party Exposure: Substantial upstream loans to Zorlu Holding remain uncollateralized, creating parent contagion risk and capital trap."
     ],
     "background": {
-      "business_overview": "Zorlu Enerji Elektrik Üretim A.Ş. is Turkey's premier renewable IPP and regulated utility, operating 991 MW of installed capacity (305 MW geothermal, 344 MW wind, 119 MW hydro, 116 MW solar) alongside the OEDAŞ distribution grid serving 3M+ population in Central Anatolia.",
-      "asset_perimeter": "Aegean geothermal core (Kızıldere I, II, III and Alaşehir), OEDAŞ electricity distribution grid across 5 Anatolian provinces, international wind in Pakistan (56.4 MW), and nationwide ZES fast-charging network.",
+      "business_overview": "Zorlu Enerji Elektrik \u00dcretim A.\u015e. is Turkey's premier renewable IPP and regulated utility, operating 991 MW of installed capacity (305 MW geothermal, 344 MW wind, 119 MW hydro, 116 MW solar) alongside the OEDA\u015e distribution grid serving 3M+ population in Central Anatolia.",
+      "asset_perimeter": "Aegean geothermal core (K\u0131z\u0131ldere I, II, III and Ala\u015fehir), OEDA\u015e electricity distribution grid across 5 Anatolian provinces, international wind in Pakistan (56.4 MW), and nationwide ZES fast-charging network.",
       "ownership_governance": "Controlled by Korteks Mensucat / Zorlu Holding. Financial advisors retained for capital structure and debt advisory."
     },
     "recent_drivers": [
@@ -1546,7 +1559,7 @@
       },
       {
         "date": "2028-12-31",
-        "event": "Kızıldere I & II Statutory YEKDEM FiT Expiry",
+        "event": "K\u0131z\u0131ldere I & II Statutory YEKDEM FiT Expiry",
         "impact": "Transition from fixed hard-currency feed-in tariff to merchant pricing."
       }
     ],
@@ -1559,8 +1572,8 @@
     ]
   },
   "aljomaih_stake_sale_analysis": {
-    "target_company": "Zorlu Yenilenebilir Enerji A.Ş.",
-    "asset_base": "305 MW Geothermal (Kızıldere I, II, III & Alaşehir) + 135 MW Wind (Gökçedağ)",
+    "target_company": "Zorlu Yenilenebilir Enerji A.\u015e.",
+    "asset_base": "305 MW Geothermal (K\u0131z\u0131ldere I, II, III & Ala\u015fehir) + 135 MW Wind (G\u00f6k\u00e7eda\u011f)",
     "investor": "AlJomaih Energy & Water (Saudi Arabia)",
     "stake_acquired_pct": 30.0,
     "gross_proceeds_usd_m": 450.0,
@@ -1569,7 +1582,7 @@
     "closing_target": "Pre-October 31, 2027 Eurobond Amortisation Milestone",
     "use_of_proceeds": {
       "dfi_repayment_usd_m": 115.0,
-      "dfi_facility": "ADB & EBRD Geothermal Senior Secured Facility (Repaid in full, unencumbering Kızıldere assets)",
+      "dfi_facility": "ADB & EBRD Geothermal Senior Secured Facility (Repaid in full, unencumbering K\u0131z\u0131ldere assets)",
       "eurobond_amortisation_escrow_usd_m": 150.0,
       "eurobond_escrow_terms": "Pre-funds first 2027 principal amortisation into segregated trustee-controlled offshore account",
       "turkish_bank_debt_paydown_usd_m": 185.0,
@@ -1587,7 +1600,7 @@
     "governance_condition": "Bondholders must require proceeds to be deposited in segregated offshore escrow under English law to prevent Zorlu Holding upstreaming leakage."
   },
   "local_bond_equity_kicker_terms": {
-    "instrument": "Özel Sektör Tahvili (ÖST) - Domestic TL Corporate Bonds",
+    "instrument": "\u00d6zel Sekt\u00f6r Tahvili (\u00d6ST) - Domestic TL Corporate Bonds",
     "total_principal_usd_m": 228.0,
     "total_principal_try_b": 8.7,
     "investor_base": "Domestic Turkish mutual funds, private pension funds (BES), insurance asset managers",
@@ -1604,29 +1617,29 @@
       "local_bonds_claim_usd_m": 228.0,
       "total_domestic_claims_usd_m": 656.2,
       "pooled_equity_stake_pct": 31.3,
-      "pooled_breakdown": "26.3% Turkish Banks (from 50% DfE) + 5.0% ÖST Local Bondholders",
+      "pooled_breakdown": "26.3% Turkish Banks (from 50% DfE) + 5.0% \u00d6ST Local Bondholders",
       "strategic_rationale": "Creates a permanent 31.3% domestic institutional shareholder consortium, completely eliminating bank foreclosure violence and local bond run-risk."
     }
   },
   "capital_structure_hierarchy": {
-    "issuer": "Zorlu Enerji Elektrik Üretim A.Ş. (BIST: ZOREN)",
-    "ultimate_parent": "Zorlu Holding A.Ş. (56.8% common equity ownership; non-recourse)",
+    "issuer": "Zorlu Enerji Elektrik \u00dcretim A.\u015e. (BIST: ZOREN)",
+    "ultimate_parent": "Zorlu Holding A.\u015e. (56.8% common equity ownership; non-recourse)",
     "benchmark_eurobond": {
       "instrument": "ZOREN 11.000% Senior Notes due 2030 (XS2926261426)",
       "ranking": "Senior Unsecured Direct Obligation of Issuer",
       "governing_law": "English Law (Trustee: BNY Mellon)",
       "claim_size_usd_m": 1100.0,
       "original_face_usd_m": 800.0,
-      "guarantor_structure": "No downstream upstream guarantees from primary operating subsidiaries (Zorlu Yenilenebilir or OEDAŞ)",
+      "guarantor_structure": "No downstream upstream guarantees from primary operating subsidiaries (Zorlu Yenilenebilir or OEDA\u015e)",
       "structural_subordination_status": "Structurally subordinated to $380M-$543M in OpCo-level DFI mortgages and Turkish bank project finance account pledges",
-      "pari_passu_claims_pool": "$228M Local TL Corporate Bonds (ÖST) + $163M Turkish Bank Bilateral Lines",
+      "pari_passu_claims_pool": "$228M Local TL Corporate Bonds (\u00d6ST) + $163M Turkish Bank Bilateral Lines",
       "total_senior_unsecured_claims_usd_m": 1491.2
     },
     "priority_secured_debt": {
       "dfi_facility_usd_m": 115.0,
-      "dfi_security": "1st mortgage on Kızıldere & Alaşehir geothermal concessions (ADB & EBRD)",
+      "dfi_security": "1st mortgage on K\u0131z\u0131ldere & Ala\u015fehir geothermal concessions (ADB & EBRD)",
       "turkish_bank_pf_usd_m": 265.0,
-      "bank_pf_security": "Commercial enterprise pledge (Ticari İşletme Rehni) on EPİAŞ YEKDEM USD revenue accounts"
+      "bank_pf_security": "Commercial enterprise pledge (Ticari \u0130\u015fletme Rehni) on EP\u0130A\u015e YEKDEM USD revenue accounts"
     },
     "junior_equity_layer": {
       "undisturbed_market_cap_usd_m": 600.0,
@@ -1641,10 +1654,10 @@
       "Corporate Legal Hierarchy & Where the 2030 Eurobond Sits (Structural Subordination)",
       "Secondary Pricing Paradox (63.5c vs >150% asset backing)",
       "Related-Party IOU Forensic Audit ($756.8M gross IOUs / +$744.5M net asset)",
-      "Turkish Bank Super-Priority (Ticari İşletme Rehni & BDDK FYY framework)",
+      "Turkish Bank Super-Priority (Ticari \u0130\u015fletme Rehni & BDDK FYY framework)",
       "Covenant Cross-Default Channels (101% CoC Put, $40M Acceleration, SPK Going Concern, WC Freeze)",
       "Turkish Bank 50% Debt-for-Equity (DfE) Swap Blueprint",
-      "Local TL Corporate Bond ($228M ÖST) 3Y Rollover & Equity Kicker Alignment",
+      "Local TL Corporate Bond ($228M \u00d6ST) 3Y Rollover & Equity Kicker Alignment",
       "AlJomaih $450M Strategic Minority Sale & Pre-2027 De-Leveraging",
       "Trading Desk Trade Verdict (Accumulate 2030 Eurobonds at 63.5c)"
     ]
@@ -1653,10 +1666,10 @@
     {
       "id": "zoren-20260923-qa-desk-aljomaih-kicker",
       "date": "2026-09-23",
-      "title": "Forensic Restructuring Q&A Desk, Bank & ÖST Equity Kicker Alignment, and AlJomaih $450M Pre-2027 De-leveraging Model",
+      "title": "Forensic Restructuring Q&A Desk, Bank & \u00d6ST Equity Kicker Alignment, and AlJomaih $450M Pre-2027 De-leveraging Model",
       "source": "Institutional Restructuring Desk Dossier & Dedicated Q&A Engine (zoren_qa.html)",
       "status": "Active Desk Analysis",
-      "summary": "Published dedicated 8-question institutional Restructuring Q&A Desk (zoren_qa.html) resolving all core dilemmas of Zorlu Enerji's capital structure. Modeled the AlJomaih $450M renewable stake sale closing pre-October 2027, reducing net debt from $1,464M to $804M and lowering Net Leverage from 4.16x to 2.28x. Formulated the unified Turkish Bank ($428M) and Local TL Corporate Bond ($228M ÖST) equity kicker package (31.3% combined domestic equity) that stops TRY 3.5B/yr interest bleed and insulates Eurobond par priority."
+      "summary": "Published dedicated 8-question institutional Restructuring Q&A Desk (zoren_qa.html) resolving all core dilemmas of Zorlu Enerji's capital structure. Modeled the AlJomaih $450M renewable stake sale closing pre-October 2027, reducing net debt from $1,464M to $804M and lowering Net Leverage from 4.16x to 2.28x. Formulated the unified Turkish Bank ($428M) and Local TL Corporate Bond ($228M \u00d6ST) equity kicker package (31.3% combined domestic equity) that stops TRY 3.5B/yr interest bleed and insulates Eurobond par priority."
     },
     {
       "id": "zoren-20260923-cross-default-dfe",
@@ -1672,12 +1685,12 @@
       "title": "Zorlu Group Contagion, Related-Party Receivable Leakage & Turkish Bank Priority Analysis",
       "source": "Institutional Restructuring Desk Memo",
       "status": "Active Desk Analysis",
-      "summary": "Comprehensive balance sheet forensics resolving the 63.5c secondary market discount against >150% standalone asset coverage. Quantified .8M gross related-party advances to Zorlu Holding (TRY 28.8B), -.0M third-party operating working capital deficit (BOTAŞ gas payables & EPDK grid obligations), and .2M Turkish bank and multilateral priority debt protected by notarized commercial enterprise pledges (Ticari İşletme Rehni) over EPİAŞ YEKDEM and EPDK cash sweeps. In a Zorlu Group contagion default, zero related-party recovery and bank priority sweep compress Eurobond recovery to 52.0c - 64.8c, perfectly reconciling secondary pricing."
+      "summary": "Comprehensive balance sheet forensics resolving the 63.5c secondary market discount against >150% standalone asset coverage. Quantified .8M gross related-party advances to Zorlu Holding (TRY 28.8B), -.0M third-party operating working capital deficit (BOTA\u015e gas payables & EPDK grid obligations), and .2M Turkish bank and multilateral priority debt protected by notarized commercial enterprise pledges (Ticari \u0130\u015fletme Rehni) over EP\u0130A\u015e YEKDEM and EPDK cash sweeps. In a Zorlu Group contagion default, zero related-party recovery and bank priority sweep compress Eurobond recovery to 52.0c - 64.8c, perfectly reconciling secondary pricing."
     },
     {
       "id": "zoren-20260923-evolution",
       "date": "2026-09-23",
-      "title": "Desk Synthesis: Core Credit Evolution (2024–2026) & Capital Structure Refinancing",
+      "title": "Desk Synthesis: Core Credit Evolution (2024\u20132026) & Capital Structure Refinancing",
       "source": "Research Desk Synthesis / Notion Inbox Processing",
       "status": "Archived / Previous Note Run",
       "summary": "Multi-year credit thesis evolution: 2024 new bond issuance consolidated debt at HoldCo ($800M at 11%); 2025 Dorad Energy sale ($210M) improved cash but disappointed with only 21-40% allocated to debt paydown; 2026 hinges on closing the $95M ADB concessional loan which secures liquidity through Oct 2027 amortisation. Beyond 2027, asset sales (375MW portfolio, Pakistan), parent support, and debt extension determine recovery value."
@@ -1693,7 +1706,7 @@
     {
       "id": "zoren-20260814-jpm",
       "date": "2026-08-14",
-      "title": "JPMorgan: 2Q26 Pre-Call Results Review — Interest Coverage Inversion",
+      "title": "JPMorgan: 2Q26 Pre-Call Results Review \u2014 Interest Coverage Inversion",
       "source": "JPMorgan Credit Research",
       "status": "Archived / Previous Note Run",
       "summary": "Neutral rating maintained. Cash declined to ~$51M as quarterly interest expense (~$64M) exceeded cash EBITDA ($56M). 1H26 cash EBITDA totaled $102M vs full-year guidance of $270M (downside acknowledged to $260-265M). Electricity spot prices recovered from 2Q26 lows ($20/MWh) but lagged 2025. Fundamental issue remains capital structure and high interest burden; preferred solution is asset sales or equity injection."
@@ -1709,7 +1722,7 @@
     {
       "id": "zoren-20260701-jpm-power",
       "date": "2026-07-01",
-      "title": "JPMorgan: Turkish Power Sector Update — FiT Insulation vs Spot Power Volatility",
+      "title": "JPMorgan: Turkish Power Sector Update \u2014 FiT Insulation vs Spot Power Volatility",
       "source": "JPMorgan Utilities & Energy Research",
       "status": "Archived / Previous Note Run",
       "summary": "YTD Jan-May 2026 generation reached 731 GWh (-4% YoY; Geothermal 614 GWh, Hydro 117 GWh). Average spot power prices collapsed to $20/MWh in 2Q26 (vs $61/MWh in 2Q25 and $64/MWh in 1H25). ZOREN remains far less exposed to spot market volatility than peers (e.g. Aydem) due to statutory high-tariff YEKDEM feed-in contract coverage."
@@ -1717,7 +1730,7 @@
     {
       "id": "zoren-20250818-jefferies-dorad",
       "date": "2025-08-18",
-      "title": "Jefferies: 2Q25 Review — Dorad Energy Monetisation Proceeds Allocation Concerns",
+      "title": "Jefferies: 2Q25 Review \u2014 Dorad Energy Monetisation Proceeds Allocation Concerns",
       "source": "Jefferies Credit Research",
       "status": "Archived / Previous Note Run",
       "summary": "Distribution EBITDA benefited from a 35% tariff increase. Dorad transaction closed with ~$210M gross proceeds, but management allocated only 21-40% toward debt reduction (below initial 60% guidance). EBITDA guided broadly stable in 2026 with leverage falling gradually. Pakistan asset sale postponed."
@@ -1733,7 +1746,7 @@
     {
       "id": "zoren-20241017-jefferies-bond",
       "date": "2024-10-17",
-      "title": "Jefferies: New Bond Issue Analysis — $800M 11.00% Senior Notes Launch",
+      "title": "Jefferies: New Bond Issue Analysis \u2014 $800M 11.00% Senior Notes Launch",
       "source": "Jefferies Fixed Income Strategy",
       "status": "Archived / Previous Note Run",
       "summary": "New $800M 5.5-year bond issued at IPT 11-11.25% (Jefferies fair value ~10%). Bond refinanced project-level bank debt and consolidated capital structure at HoldCo. International assets earmarked for disposal to deleverage below $1B net debt. Identified risks: high interest burden, FiT expiry post-2027, and related-party loans to Zorlu Holding."
@@ -1752,12 +1765,12 @@
       "title": "Distressed Workout, Situational Breakdown & Restructuring Memo",
       "source": "Initial Distressed Dossier Setup",
       "status": "Archived / Previous Note Run",
-      "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDAŞ vs merchant),  related-party loan leakage, and HoldCo structural subordination."
+      "summary": "Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDA\u015e vs merchant),  related-party loan leakage, and HoldCo structural subordination."
     }
   ],
   "latest_reported_financials_1h26": {
     "reporting_period": "1H 2026 / 2Q 2026 (Six months ended 30 June 2026)",
-    "filing_source": "Zorlu Enerji Elektrik Üretim A.Ş. KAP Consolidated Financial Statements & Cognitive Credit (23-Sep-2026)",
+    "filing_source": "Zorlu Enerji Elektrik \u00dcretim A.\u015e. KAP Consolidated Financial Statements & Cognitive Credit (23-Sep-2026)",
     "accounting_standard": "Turkish Accounting Standards (TAS / TFRS) with TMS 29 Hyperinflation Accounting",
     "reporting_currency": "TRY (Turkish Lira Millions)",
     "balance_sheet_summary_try_m": {

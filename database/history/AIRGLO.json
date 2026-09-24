@@ -1,0 +1,22 @@
+{
+  "ticker": "AIRGLO",
+  "name": "Air Global (Advanced Inhalation Rituals)",
+  "sector": "Consumer",
+  "country": "UAE",
+  "benchmark_bond": "AIRGLO 2029",
+  "snapshots": [
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    }
+  ]
+}

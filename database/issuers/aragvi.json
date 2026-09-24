@@ -336,10 +336,19 @@
       },
       "reported_ebitda": 207.9,
       "calculated_ebitda": 207.9,
-      "cash_interest": 109.3,
-      "change_in_working_capital": -226.1,
-      "tax_expense": 24.5,
-      "fcf_conversion_pct": -84.0
+      "cash_interest": 109.4,
+      "change_in_working_capital": 204.3,
+      "tax_expense": 5.4,
+      "fcf_conversion_pct": -84.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 207.9,
+        "capex": 63.4,
+        "cash_interest": 109.4,
+        "change_in_working_capital": 204.3,
+        "tax": 5.4,
+        "fcf": -174.6,
+        "formula_check": "207.9 - 63.4 - 109.4 - (204.3) - 5.4 = -174.6"
+      }
     }
   ],
   "supplementary_data": {
@@ -948,6 +957,19 @@
       "date": "2026-09-21",
       "period_name": "2026-09-21",
       "timestamp": "2026-09-21T06:52:54.613504",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
       "rating": "B / B-",
       "price": 89.0,
       "ytm": 12.15,

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "isbank",
-    "name": "Türkiye İş Bankası",
+    "name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
     "ticker": "ISCTR",
     "country": "Turkey",
     "region": "CEEMEA",
@@ -365,7 +365,7 @@
   "annotations": [
     {
       "issuer_id": "isbank",
-      "issuer_name": "Türkiye İş Bankası",
+      "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
       "sector": "Banks",
       "topic": "NIM & Asset-Liability Repricing",
       "source": "Cognitive Credit / J.P. Morgan",
@@ -373,7 +373,7 @@
     },
     {
       "issuer_id": "isbank",
-      "issuer_name": "Türkiye İş Bankası",
+      "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
       "sector": "Banks",
       "topic": "Prudential Capital & AT1 Instruments",
       "source": "Central Bank / Fitch Ratings",
@@ -381,7 +381,7 @@
     },
     {
       "issuer_id": "isbank",
-      "issuer_name": "Türkiye İş Bankası",
+      "issuer_name": "T\u00fcrkiye \u0130\u015f Bankas\u0131",
       "sector": "Banks",
       "topic": "Asset Quality & Stage 2 Risk",
       "source": "BRSA / Audit Reports",
@@ -389,7 +389,7 @@
     }
   ],
   "earnings_presentation_intelligence": {
-    "source_deck": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+    "source_deck": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
     "reporting_currency": "USD / Local Currency Statutory",
     "management_guidance_targets": {
       "loan_growth_target": "12.0% - 16.0% YoY organic loan expansion",
@@ -535,7 +535,7 @@
       "current_runrate": "+13.8% YoY annualized loan disbursement",
       "tracking_status": "On Track",
       "variance_analysis": "Corporate trade finance and residential mortgage origination performing strongly.",
-      "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "On your last call, management guided full-year revenue of +12.0% - 15.0% YoY organic lending expansion. With current run-rate at +13.8% YoY annualized loan disbursement, do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
       "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
@@ -546,7 +546,7 @@
       "current_runrate": "5.52%",
       "tracking_status": "On Track",
       "variance_analysis": "Asset yield repricing outpacing deposit cost inflation; sticky CASA base.",
-      "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management committed to an EBITDA target of 5.40% - 5.65%. Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
       "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
@@ -557,7 +557,7 @@
       "current_runrate": "36.8%",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Digital branch automation and back-office straight-through processing cutting overhead.",
-      "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of < 38.0% for Cost-to-Income Ratio (CIR). Can you confirm whether current execution at 36.8% remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -568,7 +568,7 @@
       "current_runrate": "68 bps annualized credit cost",
       "tracking_status": "Ahead of Target",
       "variance_analysis": "Conservative underwriting and robust commercial recoveries preserving asset quality.",
-      "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of < 75 - 90 bps of gross loans for Cost of Risk (Credit Impairment). Can you confirm whether current execution at 68 bps annualized credit cost remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -579,7 +579,7 @@
       "current_runrate": "40.0% payout proposed",
       "tracking_status": "On Track",
       "variance_analysis": "Internal capital generation (+160 bps) comfortably funds organic balance sheet growth.",
-      "last_guided_source": "Türkiye İş Bankası Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
+      "last_guided_source": "T\u00fcrkiye \u0130\u015f Bankas\u0131 Q4 / FY2024 & Q1 2025 Investor Presentation & Earnings Conference Call",
       "last_verified_period": "H1 / 6M 2025 Review",
       "verification_question": "Management guided a target of 40.0% of annual attributable net profit for Dividend Payout Ratio. Can you confirm whether current execution at 40.0% payout proposed remains strictly on track, and what key operational milestones remain for the next two quarters?",
       "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
@@ -765,6 +765,19 @@
       "ebitda": null,
       "fcf": null,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "BB- / B1",
+      "price": 99.5,
+      "ytm": 6.85,
+      "spread_bp": 225,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "broker_snapshots": [
@@ -772,7 +785,7 @@
       "broker": "Consensus Sell-Side",
       "analyst": "Composite EM Credit Desk",
       "report_date": "2024-12-01",
-      "report_title": "Türkiye İş Bankası: Forward Earnings & Refinancing Profile",
+      "report_title": "T\u00fcrkiye \u0130\u015f Bankas\u0131: Forward Earnings & Refinancing Profile",
       "recommendation": "Neutral",
       "target_spread_bps": 450,
       "raw_model": {

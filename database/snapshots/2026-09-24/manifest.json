@@ -1,0 +1,10 @@
+{
+  "run_id": "SNAP-20260924-333",
+  "snapshot_date": "2026-09-24",
+  "timestamp": "2026-09-24T05:15:33.459561",
+  "trigger_source": "Autonomous Model & News Refresh",
+  "total_issuers": 89,
+  "total_tranches": 353,
+  "total_guidance_metrics": 432,
+  "notes": "Updated financials, EBITDA reconciliation, FCF waterfalls, and credit news across CEMBI universe."
+}
