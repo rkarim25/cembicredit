@@ -217,78 +217,112 @@
   }
 
   /**
-   * Core Mathematical PnL Attribution Engine
+   * Core Mathematical PnL Attribution Engine (Pure Spread Duration & Portfolio % Framework)
+   * All returns, sensitivities, and risk attributions are calculated natively in
+   * Portfolio Basis Points (bps) and Percentages (%), invariant to portfolio dollar size.
    */
   function calculateTradePnl(params) {
     const {
-      navUsd,
-      direction, // "sell" (Long Risk) or "buy" (Short Risk)
-      notionalEur,
-      sdXover,
-      entrySpread,
-      exitSpread,
-      carryBps,
-      days,
-      entryFx,
-      exitFx,
-      hedgePct,
-      hedgeStance, // "short_eur", "long_eur", "none"
+      direction = "sell", // "sell" (Long Risk) or "buy" (Short Risk)
+      targetSd, // Target spread duration in years (e.g. 0.50)
+      sdXover = 4.30, // Benchmark duration in years (e.g. 4.30)
+      entrySpread = 252.0,
+      exitSpread = 296.0,
+      carryBps = 252.0,
+      days = 262,
+      entryFx = 1.1392,
+      exitFx = 1.1392,
+      hedgePct = 10.0, // % of portfolio NAV
+      hedgeStance = "short_eur", // "short_eur", "long_eur", "none"
+      navUsd = 100000000, // Optional illustrative NAV for dollar scaling
     } = params;
 
-    const spreadDelta = exitSpread - entrySpread; // in bps
+    // Resolve target spread duration (defaults to active state if not passed)
+    const sdTarget = targetSd != null ? targetSd :
+      (params.notionalEur != null && entryFx > 0 && navUsd > 0
+        ? (params.notionalEur * sdXover * entryFx) / navUsd
+        : state.targetSpreadDurationYears || 0.50);
 
-    // 1. Credit Capital Spread PnL (in EUR)
-    // Sell Protection: benefits from spread tightening (spreadDelta < 0)
-    // Buy Protection: benefits from spread widening (spreadDelta > 0)
-    const spreadPnlEur =
-      direction === "sell"
-        ? notionalEur * sdXover * (-spreadDelta / 10000.0)
-        : notionalEur * sdXover * (spreadDelta / 10000.0);
+    // 1. Implied Portfolio Weight of CDS (%)
+    // w_CDS = Target_SD / Benchmark_SD (e.g. 0.50 / 4.30 = 11.63% of portfolio)
+    const cdsWeight = sdTarget / (sdXover > 0 ? sdXover : 4.30);
+    const cdsWeightPct = cdsWeight * 100.0;
 
-    // 2. Carry PnL (in EUR)
-    // Sell Protection: receives carry; Buy Protection: pays carry
-    const carryPnlEur =
-      direction === "sell"
-        ? notionalEur * (carryBps / 10000.0) * (days / 360.0)
-        : -notionalEur * (carryBps / 10000.0) * (days / 360.0);
+    // Spread change in bps
+    const spreadDelta = exitSpread - entrySpread;
 
-    const totalCdsPnlEur = spreadPnlEur + carryPnlEur;
+    // FX Scaling factor and percentage shift
+    const fxScale = entryFx > 0 ? exitFx / entryFx : 1.0;
+    const fxDeltaFrac = entryFx > 0 ? (exitFx - entryFx) / entryFx : 0.0;
 
-    // 3. Conversion to USD at Exit FX
-    const totalCdsPnlUsd = totalCdsPnlEur * exitFx;
-    const baseCdsPnlUsd = totalCdsPnlEur * entryFx;
-    // FX Translation Drag/Boost on EUR CDS PnL
-    const fxTranslationUsd = totalCdsPnlUsd - baseCdsPnlUsd;
+    // 2. Credit Spread Capital Return (in portfolio bps)
+    // Sell Protection: -sdTarget * spreadDelta * (exitFx / entryFx)
+    // Buy Protection: +sdTarget * spreadDelta * (exitFx / entryFx)
+    const localSpreadBps = direction === "sell"
+      ? -sdTarget * spreadDelta
+      : sdTarget * spreadDelta;
+    const spreadPnlBps = localSpreadBps * fxScale;
 
-    const spreadPnlUsd = spreadPnlEur * exitFx;
-    const carryPnlUsd = carryPnlEur * exitFx;
+    // 3. Running Coupon Carry Return (in portfolio bps)
+    // Sell Protection: +w_CDS * carryBps * (days / 360) * (exitFx / entryFx)
+    // Buy Protection: -w_CDS * carryBps * (days / 360) * (exitFx / entryFx)
+    const localCarryBps = direction === "sell"
+      ? cdsWeight * carryBps * (days / 360.0)
+      : -cdsWeight * carryBps * (days / 360.0);
+    const carryPnlBps = localCarryBps * fxScale;
 
-    // 4. FX Hedge Overlay
-    const hedgeNotionalUsd = navUsd * (hedgePct / 100.0);
-    const hedgeNotionalEur = hedgeNotionalUsd / entryFx;
+    // 4. FX Translation Drag / Boost on CDS Profits (in portfolio bps)
+    const localTotalBps = localSpreadBps + localCarryBps;
+    const fxTranslationBps = localTotalBps * fxDeltaFrac;
 
-    let fxHedgePnlUsd = 0;
+    // 5. FX Overlay Hedge Return (in portfolio bps)
+    const hedgeWeight = (hedgePct || 0.0) / 100.0;
+    let fxHedgeBps = 0;
     if (hedgeStance === "short_eur") {
-      // Short EUR / Buy USD: gains when EUR weakens (exitFx < entryFx)
-      fxHedgePnlUsd = -hedgeNotionalEur * (exitFx - entryFx);
+      // Short EUR / Long USD forward: gains when EUR depreciates (fxDeltaFrac < 0)
+      fxHedgeBps = -hedgeWeight * fxDeltaFrac * 10000.0;
     } else if (hedgeStance === "long_eur") {
-      // Long EUR / Sell USD: gains when EUR strengthens (exitFx > entryFx)
-      fxHedgePnlUsd = hedgeNotionalEur * (exitFx - entryFx);
+      // Long EUR / Short USD forward: gains when EUR appreciates (fxDeltaFrac > 0)
+      fxHedgeBps = hedgeWeight * fxDeltaFrac * 10000.0;
     }
 
-    // 5. Net Combined Portfolio Totals
-    const totalNetPnlUsd = totalCdsPnlUsd + fxHedgePnlUsd;
-    const totalNetPnlBps = (totalNetPnlUsd / navUsd) * 10000.0;
+    // 6. Net Combined Portfolio Return (in bps & %)
+    const totalNetPnlBps = spreadPnlBps + carryPnlBps + fxHedgeBps;
+    const unhedgedNetPnlBps = spreadPnlBps + carryPnlBps;
+    const totalReturnPct = totalNetPnlBps / 100.0;
+    const unhedgedReturnPct = unhedgedNetPnlBps / 100.0;
 
-    const unhedgedNetPnlUsd = totalCdsPnlUsd;
-    const unhedgedNetPnlBps = (unhedgedNetPnlUsd / navUsd) * 10000.0;
+    // 7. Net Currency Exposure (% of Portfolio)
+    // Sell Protection = Long EUR asset; Buy Protection = Short EUR
+    const cdsEurExpPct = direction === "sell" ? cdsWeightPct : -cdsWeightPct;
+    let hedgeEurExpPct = 0;
+    if (hedgeStance === "short_eur") hedgeEurExpPct = -hedgePct;
+    else if (hedgeStance === "long_eur") hedgeEurExpPct = hedgePct;
+    const netEurExposurePct = cdsEurExpPct + hedgeEurExpPct;
 
-    const spreadPnlBps = (spreadPnlUsd / navUsd) * 10000.0;
-    const carryPnlBps = (carryPnlUsd / navUsd) * 10000.0;
-    const fxTranslationBps = (fxTranslationUsd / navUsd) * 10000.0;
-    const fxHedgeBps = (fxHedgePnlUsd / navUsd) * 10000.0;
+    // 8. Optional Illustrative Dollar / EUR amounts (scaled to navUsd)
+    const nav = navUsd || 100000000;
+    const spreadPnlUsd = (spreadPnlBps / 10000.0) * nav;
+    const carryPnlUsd = (carryPnlBps / 10000.0) * nav;
+    const fxTranslationUsd = (fxTranslationBps / 10000.0) * nav;
+    const fxHedgePnlUsd = (fxHedgeBps / 10000.0) * nav;
+    const totalNetPnlUsd = (totalNetPnlBps / 10000.0) * nav;
+    const unhedgedNetPnlUsd = (unhedgedNetPnlBps / 10000.0) * nav;
+
+    const notionalUsd = nav * cdsWeight;
+    const notionalEur = entryFx > 0 ? notionalUsd / entryFx : notionalUsd;
+    const spreadPnlEur = exitFx > 0 ? spreadPnlUsd / exitFx : spreadPnlUsd;
+    const carryPnlEur = exitFx > 0 ? carryPnlUsd / exitFx : carryPnlUsd;
+    const totalCdsPnlEur = spreadPnlEur + carryPnlEur;
+    const totalCdsPnlUsd = spreadPnlUsd + carryPnlUsd;
+    const hedgeNotionalUsd = nav * hedgeWeight;
+    const hedgeNotionalEur = entryFx > 0 ? hedgeNotionalUsd / entryFx : hedgeNotionalUsd;
 
     return {
+      sdTarget,
+      cdsWeight,
+      cdsWeightPct,
+      netEurExposurePct,
       spreadDelta,
       spreadPnlEur,
       spreadPnlUsd,
@@ -308,6 +342,10 @@
       unhedgedNetPnlBps,
       totalNetPnlUsd,
       totalNetPnlBps,
+      totalReturnPct,
+      unhedgedReturnPct,
+      notionalUsd,
+      notionalEur,
     };
   }
 
@@ -344,43 +382,34 @@
     // Spread Duration Inputs
     const inSd = el("xoTargetSd");
     const slSd = el("xoTargetSdSlider");
+    const elSdDisplay = el("xoTargetSdDisplay");
     if (inSd && document.activeElement !== inSd) inSd.value = state.targetSpreadDurationYears.toFixed(2);
     if (slSd) slSd.value = state.targetSpreadDurationYears;
+    if (elSdDisplay) elSdDisplay.textContent = `${state.targetSpreadDurationYears.toFixed(2)} yrs`;
 
     const inBmSd = el("xoBenchmarkSd");
     if (inBmSd && document.activeElement !== inBmSd) inBmSd.value = state.xoverSpreadDuration.toFixed(2);
 
-    // Notional readouts
-    const elNotionalEur = el("xoNotionalEurReadout");
-    const elNotionalUsd = el("xoNotionalUsdReadout");
-    const elDv01Eur = el("xoDv01EurReadout");
-    const elDv01Usd = el("xoDv01UsdReadout");
+    // Pure Duration & Percentage Sizing Metrics
+    const targetSd = state.targetSpreadDurationYears;
+    const bmSd = state.xoverSpreadDuration || 4.30;
+    const cdsWeight = targetSd / bmSd;
+    const cdsWeightPct = cdsWeight * 100.0;
+    const portSensBps = targetSd; // exactly 0.50 bps per bp of spread move!
+
+    const elCdsWeight = el("xoCdsWeightReadout");
+    if (elCdsWeight) elCdsWeight.textContent = `${cdsWeightPct.toFixed(1)}% of Portfolio`;
+
     const elPortSens = el("xoPortSensReadout");
-
-    const dv01Eur = state.notionalEur * state.xoverSpreadDuration * 0.0001;
-    const dv01Usd = dv01Eur * state.entryEurUsd;
-
-    if (elNotionalEur) elNotionalEur.textContent = `€${Math.round(state.notionalEur).toLocaleString("en-US")}`;
-    if (elNotionalUsd) elNotionalUsd.textContent = `$${Math.round(state.notionalUsd).toLocaleString("en-US")}`;
-    if (elDv01Eur) elDv01Eur.textContent = `€${Math.round(dv01Eur).toLocaleString("en-US")} / bp`;
-    if (elDv01Usd) elDv01Usd.textContent = `$${Math.round(dv01Usd).toLocaleString("en-US")} / bp`;
-    if (elPortSens) {
-      const portSensBps = (dv01Usd / state.portfolioNavUsd) * 10000.0;
-      elPortSens.textContent = `${portSensBps.toFixed(2)} bps / bp spread move`;
-    }
+    if (elPortSens) elPortSens.textContent = `${portSensBps.toFixed(2)} bps / bp spread move`;
 
     // FX Hedge controls
     const inHedge = el("xoFxHedgePct");
     const slHedge = el("xoFxHedgeSlider");
+    const elHedgeDisp = el("xoFxHedgePctDisplay");
     if (inHedge && document.activeElement !== inHedge) inHedge.value = state.fxHedgePct.toFixed(1);
     if (slHedge) slHedge.value = state.fxHedgePct;
-
-    const elHedgeNotionalUsd = el("xoHedgeNotionalUsdReadout");
-    const elHedgeNotionalEur = el("xoHedgeNotionalEurReadout");
-    const hedgeUsd = state.portfolioNavUsd * (state.fxHedgePct / 100.0);
-    const hedgeEur = hedgeUsd / state.entryEurUsd;
-    if (elHedgeNotionalUsd) elHedgeNotionalUsd.textContent = `$${Math.round(hedgeUsd).toLocaleString("en-US")}`;
-    if (elHedgeNotionalEur) elHedgeNotionalEur.textContent = `€${Math.round(hedgeEur).toLocaleString("en-US")}`;
+    if (elHedgeDisp) elHedgeDisp.textContent = `${state.fxHedgePct.toFixed(1)}%`;
 
     // Stance Buttons
     ["short_eur", "long_eur", "none"].forEach((st) => {
@@ -397,33 +426,42 @@
       elCdsPol.textContent = `Underlying CDS: ${isSell ? "LONG EUR / SHORT USD" : "SHORT EUR / LONG USD"} (Denominated in EUR)`;
     }
 
-    // Dynamic Net Portfolio Currency Exposure Banner & Status Badge
-    const cdsEurExp = isSell ? state.notionalEur : -state.notionalEur;
-    const cdsUsdExp = isSell ? -state.notionalUsd : state.notionalUsd;
+    // Dynamic Net Portfolio Currency Exposure (% of Portfolio)
+    const cdsEurPct = isSell ? cdsWeightPct : -cdsWeightPct;
+    let hedgeEurPct = 0;
+    if (state.fxHedgeStance === "short_eur") hedgeEurPct = -state.fxHedgePct;
+    else if (state.fxHedgeStance === "long_eur") hedgeEurPct = state.fxHedgePct;
 
-    let hedgeEurExp = 0;
-    let hedgeUsdExp = 0;
-    if (state.fxHedgeStance === "short_eur") {
-      hedgeEurExp = -hedgeEur;
-      hedgeUsdExp = hedgeUsd;
-    } else if (state.fxHedgeStance === "long_eur") {
-      hedgeEurExp = hedgeEur;
-      hedgeUsdExp = -hedgeUsd;
+    const netEurPct = cdsEurPct + hedgeEurPct;
+
+    const elNetCurrencyPct = el("xoNetCurrencyPctReadout");
+    const elNetCurrencyDetail = el("xoNetCurrencyDetailReadout");
+    if (elNetCurrencyPct) {
+      if (Math.abs(netEurPct) < 0.05) {
+        elNetCurrencyPct.textContent = "0.0% (Fully FX Hedged)";
+        elNetCurrencyPct.style.color = "var(--blue)";
+      } else if (netEurPct > 0) {
+        elNetCurrencyPct.textContent = `+${netEurPct.toFixed(1)}% Net Long EUR`;
+        elNetCurrencyPct.style.color = "var(--good)";
+      } else {
+        elNetCurrencyPct.textContent = `${netEurPct.toFixed(1)}% Net Short EUR`;
+        elNetCurrencyPct.style.color = "var(--orange)";
+      }
     }
-
-    const netEurExp = cdsEurExp + hedgeEurExp;
-    const netEurPctNav = (netEurExp * state.entryEurUsd / state.portfolioNavUsd) * 100.0;
+    if (elNetCurrencyDetail) {
+      elNetCurrencyDetail.textContent = `CDS EUR weight (${cdsEurPct >= 0 ? "+" : ""}${cdsEurPct.toFixed(1)}%) + FX Forward (${hedgeEurPct >= 0 ? "+" : ""}${hedgeEurPct.toFixed(1)}%)`;
+    }
 
     const elBannerText = el("xoNetCurrencyBannerText");
     if (elBannerText) {
       const cdsText = isSell
-        ? `LONG EUR (+€${(state.notionalEur / 1e6).toFixed(2)}M) / SHORT USD (-$${(state.notionalUsd / 1e6).toFixed(2)}M)`
-        : `SHORT EUR (-€${(state.notionalEur / 1e6).toFixed(2)}M) / LONG USD (+$${(state.notionalUsd / 1e6).toFixed(2)}M)`;
+        ? `+${cdsWeightPct.toFixed(1)}% LONG EUR / -${cdsWeightPct.toFixed(1)}% SHORT USD`
+        : `-${cdsWeightPct.toFixed(1)}% SHORT EUR / +${cdsWeightPct.toFixed(1)}% LONG USD`;
 
       const hedgeText = state.fxHedgeStance === "short_eur"
-        ? `SHORT EUR (-€${(hedgeEur / 1e6).toFixed(2)}M) / LONG USD (+$${(hedgeUsd / 1e6).toFixed(2)}M)`
+        ? `-${state.fxHedgePct.toFixed(1)}% SHORT EUR / +${state.fxHedgePct.toFixed(1)}% LONG USD`
         : state.fxHedgeStance === "long_eur"
-          ? `LONG EUR (+€${(hedgeEur / 1e6).toFixed(2)}M) / SHORT USD (-$${(hedgeUsd / 1e6).toFixed(2)}M)`
+          ? `+${state.fxHedgePct.toFixed(1)}% LONG EUR / -${state.fxHedgePct.toFixed(1)}% SHORT USD`
           : `No Forward Hedge [100% Unhedged FX Exposure]`;
 
       elBannerText.textContent = `Underlying CDS: ${cdsText} · FX Overlay Forward: ${hedgeText}`;
@@ -431,18 +469,18 @@
 
     const elStatusBadge = el("xoNetCurrencyStatusBadge");
     if (elStatusBadge) {
-      if (Math.abs(netEurExp) < 1000) {
+      if (Math.abs(netEurPct) < 0.05) {
         elStatusBadge.textContent = "FULLY FX HEDGED (0.0% Net Currency Exposure)";
         elStatusBadge.style.background = "rgba(0, 113, 227, 0.12)";
         elStatusBadge.style.color = "var(--blue)";
         elStatusBadge.style.borderColor = "rgba(0, 113, 227, 0.3)";
-      } else if (netEurExp > 0) {
-        elStatusBadge.textContent = `NET LONG EUR / SHORT USD: +€${Math.round(netEurExp).toLocaleString("en-US")} (+${netEurPctNav.toFixed(1)}% of NAV)`;
+      } else if (netEurPct > 0) {
+        elStatusBadge.textContent = `NET LONG EUR / SHORT USD: +${netEurPct.toFixed(1)}% of Portfolio (Unhedged)`;
         elStatusBadge.style.background = "rgba(36, 138, 61, 0.14)";
         elStatusBadge.style.color = "var(--good)";
         elStatusBadge.style.borderColor = "rgba(36, 138, 61, 0.3)";
       } else {
-        elStatusBadge.textContent = `NET SHORT EUR / LONG USD: -€${Math.round(Math.abs(netEurExp)).toLocaleString("en-US")} (${netEurPctNav.toFixed(1)}% of NAV)`;
+        elStatusBadge.textContent = `NET SHORT EUR / LONG USD: ${netEurPct.toFixed(1)}% of Portfolio (Overhedged)`;
         elStatusBadge.style.background = "rgba(255, 149, 0, 0.14)";
         elStatusBadge.style.color = "var(--orange)";
         elStatusBadge.style.borderColor = "rgba(255, 149, 0, 0.3)";
@@ -481,10 +519,9 @@
 
     // Compute PnL
     const res = calculateTradePnl({
-      navUsd: state.portfolioNavUsd,
-      direction: state.direction,
-      notionalEur: state.notionalEur,
+      targetSd: state.targetSpreadDurationYears,
       sdXover: state.xoverSpreadDuration,
+      direction: state.direction,
       entrySpread: state.entrySpreadBps,
       exitSpread: state.exitSpreadBps,
       carryBps: state.annualCarryBps,
@@ -493,12 +530,13 @@
       exitFx: state.exitEurUsd,
       hedgePct: state.fxHedgePct,
       hedgeStance: state.fxHedgeStance,
+      navUsd: state.portfolioNavUsd,
     });
 
     // Populate Headline KPI
     const elHeroBps = el("xoHeroBps");
+    const elHeroPct = el("xoHeroPct");
     const elHeroUsd = el("xoHeroUsd");
-    const elHeroEur = el("xoHeroEur");
     const elHeroBadge = el("xoHeroBadge");
     const elHeroUnhedged = el("xoHeroUnhedged");
 
@@ -506,10 +544,15 @@
       elHeroBps.textContent = fmtBps(res.totalNetPnlBps, 1);
       elHeroBps.className = "modeler-hero-metric " + (res.totalNetPnlBps >= 0 ? "good" : "bad");
     }
-    if (elHeroUsd) elHeroUsd.textContent = fmtUsd(res.totalNetPnlUsd);
-    if (elHeroEur) elHeroEur.textContent = fmtEur(res.totalCdsPnlEur);
+    if (elHeroPct) {
+      elHeroPct.textContent = `${res.totalReturnPct >= 0 ? "+" : ""}${res.totalReturnPct.toFixed(2)}% Return`;
+      elHeroPct.className = res.totalReturnPct >= 0 ? "good" : "bad";
+    }
+    if (elHeroUsd) {
+      elHeroUsd.textContent = `(Illustrative: ${fmtUsd(res.totalNetPnlUsd)} on $${(state.portfolioNavUsd / 1e6).toFixed(0)}M NAV)`;
+    }
     if (elHeroUnhedged) {
-      elHeroUnhedged.textContent = `Unhedged: ${fmtBps(res.unhedgedNetPnlBps, 1)} (${fmtUsd(res.unhedgedNetPnlUsd)}) · FX Hedge Alpha: ${fmtBps(res.fxHedgeBps, 1)}`;
+      elHeroUnhedged.textContent = `Unhedged: ${fmtBps(res.unhedgedNetPnlBps, 1)} (${fmtPct(res.unhedgedReturnPct)}) · FX Hedge Alpha: ${fmtBps(res.fxHedgeBps, 1)} (${fmtPct(res.fxHedgeBps / 100.0)})`;
     }
     if (elHeroBadge) {
       const isSell = state.direction === "sell";
@@ -519,17 +562,19 @@
     // Populate Detailed 4-Pillar Table
     setRowData("CapSpread", {
       detail: `Spread move: ${state.entrySpreadBps.toFixed(1)} → ${state.exitSpreadBps.toFixed(1)} (${fmtBps(res.spreadDelta, 1)})`,
+      bps: fmtBps(res.spreadPnlBps, 2),
+      pct: fmtPct(res.spreadPnlBps / 100.0, 2),
       eur: fmtEur(res.spreadPnlEur),
       usd: fmtUsd(res.spreadPnlUsd),
-      bps: fmtBps(res.spreadPnlBps, 2),
       isGood: res.spreadPnlBps >= 0,
     });
 
     setRowData("Carry", {
       detail: `Coupon carry @ ${state.annualCarryBps.toFixed(1)} bps over ${state.holdingDays}d`,
+      bps: fmtBps(res.carryPnlBps, 2),
+      pct: fmtPct(res.carryPnlBps / 100.0, 2),
       eur: fmtEur(res.carryPnlEur),
       usd: fmtUsd(res.carryPnlUsd),
-      bps: fmtBps(res.carryPnlBps, 2),
       isGood: res.carryPnlBps >= 0,
     });
 
@@ -551,31 +596,34 @@
 
     setRowData("FxTrans", {
       detail: `EUR/USD moved ${state.entryEurUsd.toFixed(4)} → ${state.exitEurUsd.toFixed(4)} (${fmtPct(((state.exitEurUsd - state.entryEurUsd) / state.entryEurUsd) * 100)}) on ${isSell ? "LONG EUR" : "SHORT EUR"} CDS profits`,
+      bps: fmtBps(res.fxTranslationBps, 2),
+      pct: fmtPct(res.fxTranslationBps / 100.0, 2),
       eur: "—",
       usd: fmtUsd(res.fxTranslationUsd),
-      bps: fmtBps(res.fxTranslationBps, 2),
       isGood: res.fxTranslationBps >= 0,
     });
 
     const hedgeDetail = state.fxHedgeStance === "short_eur"
-      ? `${state.fxHedgePct.toFixed(1)}% NAV Overlay [SHORT EUR / LONG USD]: EUR depreciation generates dollar gain`
+      ? `${state.fxHedgePct.toFixed(1)}% Portfolio Overlay [SHORT EUR / LONG USD]: EUR depreciation generates dollar gain`
       : state.fxHedgeStance === "long_eur"
-        ? `${state.fxHedgePct.toFixed(1)}% NAV Overlay [LONG EUR / SHORT USD]: EUR appreciation generates dollar gain`
+        ? `${state.fxHedgePct.toFixed(1)}% Portfolio Overlay [LONG EUR / SHORT USD]: EUR appreciation generates dollar gain`
         : `0% Overlay (100% unhedged currency exposure)`;
 
     setRowData("FxHedge", {
       detail: hedgeDetail,
+      bps: fmtBps(res.fxHedgeBps, 2),
+      pct: fmtPct(res.fxHedgeBps / 100.0, 2),
       eur: "—",
       usd: fmtUsd(res.fxHedgePnlUsd),
-      bps: fmtBps(res.fxHedgeBps, 2),
       isGood: res.fxHedgeBps >= 0,
     });
 
     setRowData("NetTotal", {
-      detail: "Combined Net Portfolio Impact (USD Base)",
+      detail: "Combined Net Portfolio Impact",
+      bps: fmtBps(res.totalNetPnlBps, 1),
+      pct: fmtPct(res.totalReturnPct, 2),
       eur: fmtEur(res.totalCdsPnlEur),
       usd: fmtUsd(res.totalNetPnlUsd),
-      bps: fmtBps(res.totalNetPnlBps, 1),
       isGood: res.totalNetPnlBps >= 0,
     });
 
@@ -588,16 +636,21 @@
     const elEur = el(`xoRow_${key}_eur`);
     const elUsd = el(`xoRow_${key}_usd`);
     const elBps = el(`xoRow_${key}_bps`);
+    const elPct = el(`xoRow_${key}_pct`);
 
     if (elDet) elDet.textContent = data.detail;
-    if (elEur) elEur.textContent = data.eur;
-    if (elUsd) {
-      elUsd.textContent = data.usd;
-      elUsd.className = data.isGood ? "good" : "bad";
-    }
     if (elBps) {
       elBps.textContent = data.bps;
       elBps.className = "modeler-table-pill " + (data.isGood ? "pill-good" : "pill-bad");
+    }
+    if (elPct) {
+      elPct.textContent = data.pct;
+      elPct.className = "num " + (data.isGood ? "good" : "bad");
+    }
+    if (elEur) elEur.textContent = data.eur;
+    if (elUsd) {
+      elUsd.textContent = data.usd;
+      elUsd.className = "num " + (data.isGood ? "good" : "bad");
     }
   }
 
@@ -944,15 +997,14 @@
 
   function renderScenarioBaselineControls() {
     const sd = state.scenarioSpreadDuration || state.targetSpreadDurationYears;
-    const bm = state.xoverSpreadDuration;
-    const nav = state.portfolioNavUsd;
+    const bm = state.xoverSpreadDuration || 4.30;
+    const nav = state.portfolioNavUsd || 100000000;
     const fx0 = state.scenarioEntryFx || 1.1392;
     const sp0 = state.scenarioEntrySpread || 296.0;
 
-    const notionalUsd = (nav * sd) / bm;
-    const notionalEur = notionalUsd / fx0;
-    const dv01Usd = (nav * sd) / 10000.0;
-    const portSens = (dv01Usd / nav) * 10000.0;
+    const cdsWeight = sd / bm;
+    const cdsWeightPct = cdsWeight * 100.0;
+    const portSens = sd; // exactly sd bps / bp
 
     const elSdDisplay = el("xoScenTargetSdDisplay");
     const elSdInput = el("xoScenTargetSd");
@@ -963,10 +1015,12 @@
     const elDaysInput = el("xoScenDaysInput");
     const elMonthsDisp = el("xoScenMonthsDisplay");
     const elFxHedgePct = el("xoScenFxHedgePct");
+    const elFxHedgeDisp = el("xoScenFxHedgePctDisplay");
     const elDv01Usd = el("xoScenDv01UsdReadout");
     const elPortSens = el("xoScenPortSensReadout");
-    const elNotionalUsd = el("xoScenNotionalUsdReadout");
-    const elNotionalEur = el("xoScenNotionalEurReadout");
+
+    const elScenWeight = el("xoScenWeightReadout");
+    const elScenSens = el("xoScenSensReadout");
     const elStance = el("xoScenStanceReadout");
     const elHedgeBadge = el("xoScenNetHedgeBadge");
 
@@ -979,11 +1033,14 @@
     if (elDaysInput && document.activeElement !== elDaysInput) elDaysInput.value = state.scenarioDays;
     if (elMonthsDisp) elMonthsDisp.textContent = `${(state.scenarioDays / 30).toFixed(1)}M`;
     if (elFxHedgePct && document.activeElement !== elFxHedgePct) elFxHedgePct.value = state.fxHedgePct.toFixed(1);
+    if (elFxHedgeDisp) elFxHedgeDisp.textContent = `${state.fxHedgePct.toFixed(1)}%`;
 
+    const dv01Usd = (nav * sd) / 10000.0;
     if (elDv01Usd) elDv01Usd.textContent = fmtUsd(dv01Usd) + " / bp";
     if (elPortSens) elPortSens.textContent = `${portSens.toFixed(2)} bps/bp`;
-    if (elNotionalUsd) elNotionalUsd.textContent = fmtUsd(notionalUsd);
-    if (elNotionalEur) elNotionalEur.textContent = fmtEur(notionalEur);
+
+    if (elScenWeight) elScenWeight.textContent = `${cdsWeightPct.toFixed(1)}% of Portfolio`;
+    if (elScenSens) elScenSens.textContent = `${portSens.toFixed(2)} bps / bp`;
 
     const isSell = state.direction === "sell";
     if (elStance) {
@@ -1000,16 +1057,15 @@
     if (bLong) bLong.className = "modeler-chip" + (state.fxHedgeStance === "long_eur" ? " active" : "");
     if (bNone) bNone.className = "modeler-chip" + (state.fxHedgeStance === "none" ? " active" : "");
 
-    const hedgeUsd = nav * (state.fxHedgePct / 100.0);
-    const hedgeEur = hedgeUsd / fx0;
-    let netEur = isSell ? notionalEur : -notionalEur;
-    if (state.fxHedgeStance === "short_eur") netEur -= hedgeEur;
-    else if (state.fxHedgeStance === "long_eur") netEur += hedgeEur;
-    const netEurPct = (netEur * fx0 / nav) * 100.0;
+    const cdsEurPct = isSell ? cdsWeightPct : -cdsWeightPct;
+    let hedgeEurPct = 0;
+    if (state.fxHedgeStance === "short_eur") hedgeEurPct = -state.fxHedgePct;
+    else if (state.fxHedgeStance === "long_eur") hedgeEurPct = state.fxHedgePct;
+    const netEurPct = cdsEurPct + hedgeEurPct;
 
     if (elHedgeBadge) {
       const hedgeDesc = state.fxHedgeStance === "short_eur" ? "Short EUR" : state.fxHedgeStance === "long_eur" ? "Long EUR" : "Unhedged";
-      elHedgeBadge.textContent = `Hedge Notional: ${fmtUsd(hedgeUsd)} (${hedgeDesc}) · Net EUR Exposure: ${netEur >= 0 ? "+" : ""}${fmtEur(netEur)} (${fmtPct(netEurPct)} unhedged)`;
+      elHedgeBadge.textContent = `Hedge Sizing: ${state.fxHedgePct.toFixed(1)}% (${hedgeDesc}) · Net EUR Exposure: ${netEurPct >= 0 ? "+" : ""}${netEurPct.toFixed(1)}% of Portfolio (Unhedged)`;
     }
   }
 
@@ -1019,13 +1075,11 @@
 
     tbody.replaceChildren();
 
-    const nav = state.portfolioNavUsd;
+    const nav = state.portfolioNavUsd || 100000000;
     const sd = state.scenarioSpreadDuration || state.targetSpreadDurationYears;
-    const bm = state.xoverSpreadDuration;
+    const bm = state.xoverSpreadDuration || 4.30;
     const fx0 = state.scenarioEntryFx || 1.1392;
     const sp0 = state.scenarioEntrySpread || 296.0;
-    const notionalUsd = (nav * sd) / bm;
-    const notionalEur = notionalUsd / fx0;
 
     state.scenarioList.forEach((sc, idx) => {
       const tr = document.createElement("tr");
@@ -1034,10 +1088,9 @@
       const targetFx = fx0 * (1 + sc.fxPct / 100.0);
 
       const res = calculateTradePnl({
-        navUsd: nav,
-        direction: state.direction,
-        notionalEur: notionalEur,
+        targetSd: sd,
         sdXover: bm,
+        direction: state.direction,
         entrySpread: sp0,
         exitSpread: targetSpread,
         carryBps: sp0,
@@ -1046,6 +1099,7 @@
         exitFx: targetFx,
         hedgePct: state.fxHedgePct,
         hedgeStance: state.fxHedgeStance,
+        navUsd: nav,
       });
 
       if (sc.spreadShift === state.scenarioSpreadShift && sc.fxPct === state.scenarioFxPct && sc.days === state.scenarioDays) {
@@ -1136,7 +1190,7 @@
       tdDays.appendChild(inDays);
       tr.appendChild(tdDays);
 
-      // Col 7: Spread PnL (bps)
+      // Col 7: Spread Return (bps)
       const tdSpPnl = document.createElement("td");
       tdSpPnl.style.textAlign = "right";
       tdSpPnl.className = res.spreadPnlBps >= 0 ? "good" : "bad";
@@ -1144,7 +1198,7 @@
       tdSpPnl.textContent = fmtBps(res.spreadPnlBps, 1);
       tr.appendChild(tdSpPnl);
 
-      // Col 8: Carry PnL (bps)
+      // Col 8: Carry Yield (bps)
       const tdCarryPnl = document.createElement("td");
       tdCarryPnl.style.textAlign = "right";
       tdCarryPnl.className = res.carryPnlBps >= 0 ? "good" : "bad";
@@ -1175,15 +1229,23 @@
       tdTotBps.appendChild(pill);
       tr.appendChild(tdTotBps);
 
-      // Col 12: Total Return ($)
+      // Col 12: Unhedged Return (bps)
+      const tdUnhedgedBps = document.createElement("td");
+      tdUnhedgedBps.style.textAlign = "right";
+      tdUnhedgedBps.style.fontWeight = "600";
+      tdUnhedgedBps.className = res.unhedgedNetPnlBps >= 0 ? "good" : "bad";
+      tdUnhedgedBps.textContent = fmtBps(res.unhedgedNetPnlBps, 1);
+      tr.appendChild(tdUnhedgedBps);
+
+      // Col 13: Illustrative USD ($)
       const tdTotUsd = document.createElement("td");
       tdTotUsd.style.textAlign = "right";
       tdTotUsd.className = res.totalNetPnlUsd >= 0 ? "good" : "bad";
-      tdTotUsd.style.fontWeight = "700";
+      tdTotUsd.style.fontWeight = "600";
       tdTotUsd.textContent = fmtUsd(res.totalNetPnlUsd);
       tr.appendChild(tdTotUsd);
 
-      // Col 13: Action
+      // Col 14: Action
       const tdAct = document.createElement("td");
       tdAct.style.textAlign = "center";
       const btnInspect = document.createElement("button");
@@ -1248,11 +1310,9 @@
     tableBody.replaceChildren();
     const baseSpread = state.scenarioEntrySpread || 296.0;
     const baseFx = state.scenarioEntryFx || 1.1392;
-    const nav = state.portfolioNavUsd;
+    const nav = state.portfolioNavUsd || 100000000;
     const sd = state.scenarioSpreadDuration || state.targetSpreadDurationYears;
-    const bm = state.xoverSpreadDuration;
-    const notionalUsd = (nav * sd) / bm;
-    const notionalEur = notionalUsd / baseFx;
+    const bm = state.xoverSpreadDuration || 4.30;
 
     spreadShifts.forEach((sShift) => {
       const tr = document.createElement("tr");
@@ -1269,10 +1329,9 @@
         const targetFx = baseFx * (1 + fMove / 100.0);
 
         const res = calculateTradePnl({
-          navUsd: nav,
-          direction: state.direction,
-          notionalEur: notionalEur,
+          targetSd: sd,
           sdXover: bm,
+          direction: state.direction,
           entrySpread: baseSpread,
           exitSpread: targetSpread,
           carryBps: baseSpread,
@@ -1281,6 +1340,7 @@
           exitFx: targetFx,
           hedgePct: state.fxHedgePct,
           hedgeStance: state.fxHedgeStance,
+          navUsd: nav,
         });
 
         let displayVal = "";
@@ -1318,7 +1378,7 @@
           td.classList.add("active-cell");
         }
 
-        td.title = `Spread: ${sShift > 0 ? "+" : ""}${sShift} bps | EUR: ${fMove > 0 ? "+" : ""}${fMove}% -> PnL: ${fmtBps(res.totalNetPnlBps, 1)} (${fmtUsd(res.totalNetPnlUsd)})`;
+        td.title = `Spread: ${sShift > 0 ? "+" : ""}${sShift} bps | EUR: ${fMove > 0 ? "+" : ""}${fMove}% -> PnL: ${fmtBps(res.totalNetPnlBps, 1)} (${fmtPct(res.totalReturnPct)})`;
         td.addEventListener("click", () => {
           state.scenarioSpreadShift = sShift;
           state.scenarioFxPct = fMove;
@@ -1358,20 +1418,17 @@
 
     const baseSpread = state.scenarioEntrySpread || 296.0;
     const baseFx = state.scenarioEntryFx || 1.1392;
-    const nav = state.portfolioNavUsd;
+    const nav = state.portfolioNavUsd || 100000000;
     const sd = state.scenarioSpreadDuration || state.targetSpreadDurationYears;
-    const bm = state.xoverSpreadDuration;
-    const notionalUsd = (nav * sd) / bm;
-    const notionalEur = notionalUsd / baseFx;
+    const bm = state.xoverSpreadDuration || 4.30;
 
     const targetSpread = baseSpread + state.scenarioSpreadShift;
     const targetFx = baseFx * (1 + state.scenarioFxPct / 100.0);
 
     const res = calculateTradePnl({
-      navUsd: nav,
-      direction: state.direction,
-      notionalEur: notionalEur,
+      targetSd: sd,
       sdXover: bm,
+      direction: state.direction,
       entrySpread: baseSpread,
       exitSpread: targetSpread,
       carryBps: baseSpread,
@@ -1380,9 +1437,11 @@
       exitFx: targetFx,
       hedgePct: state.fxHedgePct,
       hedgeStance: state.fxHedgeStance,
+      navUsd: nav,
     });
 
     const elScenBps = el("xoScenarioBpsReadout");
+    const elScenPct = el("xoScenarioPctReadout");
     const elScenUsd = el("xoScenarioUsdReadout");
     const elScenAnn = el("xoScenarioAnnualizedReadout");
     const elScenDesc = el("xoScenarioDescReadout");
@@ -1391,7 +1450,13 @@
       elScenBps.textContent = fmtBps(res.totalNetPnlBps, 1);
       elScenBps.className = "modeler-hero-metric " + (res.totalNetPnlBps >= 0 ? "good" : "bad");
     }
-    if (elScenUsd) elScenUsd.textContent = fmtUsd(res.totalNetPnlUsd);
+    if (elScenPct) {
+      elScenPct.textContent = `${res.totalReturnPct >= 0 ? "+" : ""}${res.totalReturnPct.toFixed(2)}% Return`;
+      elScenPct.className = res.totalReturnPct >= 0 ? "good" : "bad";
+    }
+    if (elScenUsd) {
+      elScenUsd.textContent = `(Illustrative: ${fmtUsd(res.totalNetPnlUsd)} on $${(nav / 1e6).toFixed(0)}M NAV)`;
+    }
     if (elScenAnn && state.scenarioDays > 0) {
       const annReturn = (res.totalNetPnlBps / 100.0) * (365.0 / state.scenarioDays);
       elScenAnn.textContent = `(Ann: ${annReturn >= 0 ? "+" : ""}${annReturn.toFixed(2)}%)`;
@@ -1516,11 +1581,23 @@
     const btnMatchNotional = el("xoHedgeMatchNotional");
     if (btnMatchNotional) {
       btnMatchNotional.addEventListener("click", () => {
-        const matchPct = (state.notionalUsd / state.portfolioNavUsd) * 100.0;
-        state.fxHedgePct = round2(matchPct);
+        const bm = state.xoverSpreadDuration > 0 ? state.xoverSpreadDuration : 4.30;
+        const matchPct = (state.targetSpreadDurationYears / bm) * 100.0;
+        state.fxHedgePct = Math.round(matchPct * 10) / 10;
         renderAll();
       });
     }
+
+    // Quick hedge chips
+    document.querySelectorAll(".xo-hedge-quick-chip").forEach((chip) => {
+      chip.addEventListener("click", () => {
+        const p = parseFloat(chip.dataset.pct);
+        if (!isNaN(p)) {
+          state.fxHedgePct = p;
+          renderAll();
+        }
+      });
+    });
 
     // Historical Date Inputs
     const inEntryDate = el("xoEntryDate");

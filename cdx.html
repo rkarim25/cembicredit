@@ -848,13 +848,13 @@
 
     <!-- SIZING & PORTFOLIO RISK CONTROL BAR -->
     <div class="modeler-card" style="background: rgba(255, 255, 255, .88); margin-bottom: 20px;">
-      <div style="font-size: 15px; font-weight: 800; margin-bottom: 14px; display: flex; align-items: center; justify-content: space-between;">
-        <span>1. Portfolio Sizing, Benchmark Duration & FX Overlay Configuration</span>
-        <span style="font-size: 12px; font-weight: 600; color: var(--muted);">Base Currency: USD ($)</span>
+      <div style="font-size: 15px; font-weight: 800; margin-bottom: 14px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+        <span>1. Spread Duration Sizing, % Portfolio Allocation & FX Overlay Configuration</span>
+        <span style="font-size: 12px; font-weight: 600; color: var(--accent);">Pure Duration & % Sizing Framework · Return: Portfolio Basis Points (bps)</span>
       </div>
 
       <div class="modeler-grid-4">
-        <!-- Col 1: Position Direction & Portfolio Size -->
+        <!-- Col 1: Position Direction & Duration Target -->
         <div>
           <div class="modeler-label">
             <span>Position Stance</span>
@@ -864,26 +864,10 @@
             <button type="button" class="modeler-pill-btn active sell-active" id="xoDirSell">Sell Protection (Long Risk)</button>
             <button type="button" class="modeler-pill-btn" id="xoDirBuy">Buy Protection (Short Risk)</button>
           </div>
-          <div style="font-size: 11px; font-weight: 700; color: var(--purple); margin-bottom: 12px;" id="xoCdsCurrencyPolarity">
+          <div style="font-size: 11px; font-weight: 700; color: var(--purple); margin-bottom: 10px;" id="xoCdsCurrencyPolarity">
             Underlying: LONG EUR / SHORT USD
           </div>
 
-          <div class="modeler-input-group">
-            <div class="modeler-label">
-              <span>Portfolio NAV (USD)</span>
-            </div>
-            <input type="text" class="modeler-input" id="xoPortfolioNav" value="100,000,000" />
-            <div class="modeler-chips-wrap">
-              <span class="modeler-chip xo-nav-chip" data-nav="10000000">$10M</span>
-              <span class="modeler-chip xo-nav-chip" data-nav="50000000">$50M</span>
-              <span class="modeler-chip xo-nav-chip active" data-nav="100000000">$100M</span>
-              <span class="modeler-chip xo-nav-chip" data-nav="250000000">$250M</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Col 2: Spread Duration Sizing -->
-        <div>
           <div class="modeler-label">
             <span>Spread Duration Target</span>
             <span style="font-size: 11px; font-weight: 700; color: var(--accent);" id="xoTargetSdDisplay">0.50 yrs</span>
@@ -893,53 +877,61 @@
             <input type="range" min="0.05" max="2.00" step="0.05" value="0.50" class="modeler-slider" id="xoTargetSdSlider" />
           </div>
 
-          <div class="modeler-input-group">
+          <div class="modeler-input-group" style="margin-top: 8px;">
             <div class="modeler-label">
               <span>Benchmark Spread Duration</span>
             </div>
-            <input type="number" step="0.05" min="2.0" max="6.0" class="modeler-input" id="xoBenchmarkSd" value="4.30" title="Typical 5Y iTraxx Crossover spread duration is ~4.30 years" />
+            <input type="number" step="0.05" min="2.0" max="6.0" class="modeler-input" id="xoBenchmarkSd" value="4.30" title="Standard 5Y iTraxx Crossover spread duration is ~4.30 years" />
           </div>
         </div>
 
-        <!-- Col 3: Calculated CDS Sizing & DV01 -->
+        <!-- Col 2: Implied Portfolio Sizing & Sensitivity -->
         <div>
           <div class="modeler-label">
-            <span>Implied Notional & DV01</span>
+            <span>Implied Sizing & Sensitivity</span>
+            <span style="font-size: 10px; color: var(--muted);">Pure % & bps</span>
           </div>
-          <div style="background: rgba(0, 0, 0, 0.02); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px;">
-            <div class="modeler-readout-row">
-              <span style="color: var(--muted);">EUR Notional:</span>
-              <span class="modeler-readout-val" id="xoNotionalEurReadout">€9,934,137</span>
+          <div style="background: rgba(0, 0, 0, 0.02); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px;">
+            <div class="modeler-readout-row" style="margin-bottom: 8px;">
+              <span style="color: var(--muted); font-size: 12px;">Implied CDS Weight:</span>
+              <span class="modeler-readout-val" style="font-size: 15px; font-weight: 800; color: var(--accent);" id="xoCdsWeightReadout">11.6% of Portfolio</span>
             </div>
-            <div class="modeler-readout-row">
-              <span style="color: var(--muted);">USD Equivalent:</span>
-              <span class="modeler-readout-val" id="xoNotionalUsdReadout">$11,627,907</span>
+            <div style="font-size: 10.5px; color: var(--muted); margin-top: -4px; margin-bottom: 10px;">
+              = Target SD (0.50 yrs) ÷ Benchmark SD (4.30 yrs)
             </div>
-            <div class="modeler-readout-row">
-              <span style="color: var(--muted);">EUR DV01:</span>
-              <span class="modeler-readout-val" id="xoDv01EurReadout">€4,272 / bp</span>
+
+            <div class="modeler-readout-row" style="margin-bottom: 8px;">
+              <span style="color: var(--muted); font-size: 12px;">Spread Sensitivity (DV01):</span>
+              <span class="modeler-readout-val" style="font-size: 15px; font-weight: 800; color: var(--text);" id="xoPortSensReadout">0.50 bps / bp</span>
             </div>
-            <div class="modeler-readout-row">
-              <span style="color: var(--muted);">USD DV01:</span>
-              <span class="modeler-readout-val" id="xoDv01UsdReadout">$4,868 / bp</span>
+            <div style="font-size: 10.5px; color: var(--muted); margin-top: -4px; margin-bottom: 10px;">
+              Every 1 bp tightening generates +0.50 bps portfolio return
             </div>
-            <div class="modeler-readout-row">
-              <span style="color: var(--muted);">Portfolio Impact:</span>
-              <span class="modeler-readout-val" style="color: var(--accent);" id="xoPortSensReadout">0.50 bps / bp</span>
+
+            <div class="modeler-readout-row" style="margin-bottom: 4px;">
+              <span style="color: var(--muted); font-size: 12px;">Asset Denomination:</span>
+              <span class="modeler-readout-val" style="font-size: 12px; font-weight: 700; color: var(--purple);">EUR (€) Credit Derivative</span>
+            </div>
+            <div style="font-size: 10px; color: var(--muted); line-height: 1.4; margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--line);">
+              ✓ Pure duration model: Zero dependency on fund size. All returns calculate directly in portfolio basis points.
             </div>
           </div>
         </div>
 
-        <!-- Col 4: FX Overlay Hedging (% of Portfolio) -->
+        <!-- Col 3: FX Overlay Forward Sizing (% of Portfolio) -->
         <div>
           <div class="modeler-label">
             <span>FX Hedge Ratio (% of Portfolio)</span>
+            <span style="font-size: 11px; font-weight: 700; color: var(--purple);" id="xoFxHedgePctDisplay">10.0%</span>
           </div>
           <div class="modeler-input-group">
             <input type="number" step="0.5" min="0" max="50" class="modeler-input" id="xoFxHedgePct" value="10.0" />
             <input type="range" min="0" max="25" step="0.5" value="10.0" class="modeler-slider" id="xoFxHedgeSlider" />
             <div class="modeler-chips-wrap">
-              <button type="button" class="modeler-chip" id="xoHedgeMatchNotional" title="Matches 100% of the CDS USD notional equivalent">Match CDS (~11.6%)</button>
+              <button type="button" class="modeler-chip" id="xoHedgeMatchNotional" title="Matches 100% of the CDS position weight (~11.6%)">Match CDS (~11.6%)</button>
+              <button type="button" class="modeler-chip xo-hedge-quick-chip" data-pct="5.0">5.0%</button>
+              <button type="button" class="modeler-chip xo-hedge-quick-chip" data-pct="10.0">10.0%</button>
+              <button type="button" class="modeler-chip xo-hedge-quick-chip" data-pct="0.0">0% (Unhedged)</button>
             </div>
           </div>
 
@@ -951,9 +943,37 @@
             <button type="button" class="modeler-chip" id="xoHedgeStance_long_eur" title="Buy EUR / Sell USD forward contract: gains when EUR appreciates">Buy EUR / Sell USD [LONG EUR, SHORT USD]</button>
             <button type="button" class="modeler-chip" id="xoHedgeStance_none" title="No FX forward overlay">No Hedge [100% Unhedged FX]</button>
           </div>
+        </div>
 
-          <div style="font-size: 11.5px; color: var(--muted); margin-top: 6px;">
-            Hedge Notional: <strong id="xoHedgeNotionalUsdReadout" style="color: var(--text);">$10,000,000</strong> (<span id="xoHedgeNotionalEurReadout">€8,775,000</span>)
+        <!-- Col 4: Net Currency Exposure & Optional Fund Scale -->
+        <div>
+          <div class="modeler-label">
+            <span>Net Portfolio Currency Exposure</span>
+          </div>
+          <div style="background: rgba(0, 0, 0, 0.02); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px;">
+            <div style="font-size: 11px; color: var(--muted); text-transform: uppercase; font-weight: 700; letter-spacing: 0.03em;">Unhedged Currency Tilt</div>
+            <div id="xoNetCurrencyPctReadout" style="font-size: 18px; font-weight: 800; color: var(--good); margin: 4px 0;">+1.6% Net Long EUR</div>
+            <div style="font-size: 11px; color: var(--muted); line-height: 1.4;" id="xoNetCurrencyDetailReadout">
+              Underlying CDS (+11.6% EUR) + FX Forward (-10.0% EUR)
+            </div>
+          </div>
+
+          <!-- Optional Illustrative Scale -->
+          <div style="padding-top: 8px; border-top: 1px dashed var(--line);">
+            <div class="modeler-label">
+              <span>Illustrative Portfolio NAV (Optional $)</span>
+              <span style="font-size: 10px; color: var(--muted);">Dollar Translation</span>
+            </div>
+            <input type="text" class="modeler-input" id="xoPortfolioNav" value="100,000,000" />
+            <div class="modeler-chips-wrap" style="margin-top: 4px;">
+              <span class="modeler-chip xo-nav-chip" data-nav="10000000">$10M</span>
+              <span class="modeler-chip xo-nav-chip" data-nav="50000000">$50M</span>
+              <span class="modeler-chip xo-nav-chip active" data-nav="100000000">$100M</span>
+              <span class="modeler-chip xo-nav-chip" data-nav="250000000">$250M</span>
+            </div>
+            <div style="font-size: 10px; color: var(--muted); margin-top: 4px;">
+              Optional reference scale to convert bps returns into nominal dollars.
+            </div>
           </div>
         </div>
       </div>
@@ -967,13 +987,13 @@
               Portfolio Net Currency Exposure (Which Currency is Long vs. Short)
             </div>
             <div id="xoNetCurrencyBannerText" style="font-size: 13.5px; font-weight: 800; color: var(--text); margin-top: 2px;">
-              Underlying CDS: LONG EUR (+€9.93M) / SHORT USD (-$11.63M) · FX Overlay: SHORT EUR (-€8.78M) / LONG USD (+$10.00M)
+              Underlying CDS: +11.6% LONG EUR / -11.6% SHORT USD · FX Overlay Forward: -10.0% SHORT EUR / +10.0% LONG USD
             </div>
           </div>
         </div>
         <div style="display: flex; align-items: center; gap: 8px;">
           <span id="xoNetCurrencyStatusBadge" class="as-of-badge" style="margin: 0; font-size: 12px; font-weight: 800; background: rgba(36, 138, 61, 0.14); color: var(--good); border-color: rgba(36, 138, 61, 0.3);">
-            NET LONG EUR: +€1,159,137 (+1.2% Unhedged)
+            NET LONG EUR / SHORT USD: +1.6% of Portfolio (Unhedged)
           </span>
         </div>
       </div>
@@ -1113,12 +1133,12 @@
 
           <div style="display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;">
             <div class="modeler-hero-metric good" id="xoHeroBps">+70.1 bps</div>
-            <div style="font-size: 20px; font-weight: 700; color: var(--text);" id="xoHeroUsd">+$701,155 USD</div>
-            <div style="font-size: 14px; font-weight: 600; color: var(--muted);" id="xoHeroEur">(+€383,604 EUR)</div>
+            <div style="font-size: 20px; font-weight: 700; color: var(--text);" id="xoHeroPct">+0.70% Return</div>
+            <div style="font-size: 13px; font-weight: 600; color: var(--muted);" id="xoHeroUsd">(Illustrative: +$701,155 on $100M NAV)</div>
           </div>
 
           <div style="font-size: 12.5px; color: var(--muted); margin-bottom: 12px;" id="xoHeroUnhedged">
-            Unhedged: +42.5 bps (+$425,147) · FX Hedge Alpha: +27.4 bps
+            Unhedged: +42.5 bps (+0.43%) · FX Hedge Alpha: +27.4 bps (+0.27%)
           </div>
 
           <!-- Stacked Waterfall Bar -->
@@ -1129,9 +1149,10 @@
             <thead>
               <tr>
                 <th>P&L Component Driver</th>
-                <th class="num">EUR Impact</th>
-                <th class="num">USD Realized</th>
-                <th class="num">Portfolio Impact</th>
+                <th class="num">Portfolio Impact (bps)</th>
+                <th class="num">Return (%)</th>
+                <th class="num">EUR Local Impact</th>
+                <th class="num">Illustrative USD ($)</th>
               </tr>
             </thead>
             <tbody>
@@ -1140,45 +1161,50 @@
                   <strong>Credit Spread Capital Return <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[EUR ASSET]</span></strong>
                   <div style="font-size: 11px; color: var(--muted);" id="xoRow_CapSpread_detail">Spread move: 252.0 → 296.0 bps (+44.0 bps)</div>
                 </td>
+                <td class="num"><span class="modeler-table-pill pill-good" id="xoRow_CapSpread_bps">+16.4 bps</span></td>
+                <td class="num good" id="xoRow_CapSpread_pct">+0.16%</td>
                 <td class="num" id="xoRow_CapSpread_eur">+€143,957</td>
                 <td class="num good" id="xoRow_CapSpread_usd">+$163,995</td>
-                <td class="num"><span class="modeler-table-pill pill-good" id="xoRow_CapSpread_bps">+16.4 bps</span></td>
               </tr>
               <tr>
                 <td>
                   <strong>CDS Running Coupon Carry <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[EUR CASH FLOW]</span></strong>
                   <div style="font-size: 11px; color: var(--muted);" id="xoRow_Carry_detail">Carry accrued over 262d @ 252.0 bps</div>
                 </td>
+                <td class="num"><span class="modeler-table-pill pill-good" id="xoRow_Carry_bps">+27.1 bps</span></td>
+                <td class="num good" id="xoRow_Carry_pct">+0.27%</td>
                 <td class="num" id="xoRow_Carry_eur">+€238,150</td>
                 <td class="num good" id="xoRow_Carry_usd">+$271,299</td>
-                <td class="num"><span class="modeler-table-pill pill-good" id="xoRow_Carry_bps">+27.1 bps</span></td>
               </tr>
               <tr>
                 <td>
                   <strong id="xoRow_FxTrans_title">FX Translation on CDS MTM <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[LONG EUR / SHORT USD]</span></strong>
                   <div style="font-size: 11px; color: var(--muted);" id="xoRow_FxTrans_detail">EUR moved 1.1705 → 1.1390 (-2.69%) on EUR CDS gains</div>
                 </td>
+                <td class="num"><span class="modeler-table-pill pill-bad" id="xoRow_FxTrans_bps">-1.2 bps</span></td>
+                <td class="num bad" id="xoRow_FxTrans_pct">-0.01%</td>
                 <td class="num" id="xoRow_FxTrans_eur">—</td>
                 <td class="num bad" id="xoRow_FxTrans_usd">-$11,960</td>
-                <td class="num"><span class="modeler-table-pill pill-bad" id="xoRow_FxTrans_bps">-1.2 bps</span></td>
               </tr>
               <tr>
                 <td>
                   <strong id="xoRow_FxHedge_title">FX Hedge Overlay P&L <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[SHORT EUR / LONG USD]</span></strong>
                   <div style="font-size: 11px; color: var(--muted);" id="xoRow_FxHedge_detail">10.0% Portfolio Short EUR Overlay</div>
                 </td>
+                <td class="num"><span class="modeler-table-pill pill-good" id="xoRow_FxHedge_bps">+26.7 bps</span></td>
+                <td class="num good" id="xoRow_FxHedge_pct">+0.27%</td>
                 <td class="num" id="xoRow_FxHedge_eur">—</td>
                 <td class="num good" id="xoRow_FxHedge_usd">+$267,407</td>
-                <td class="num"><span class="modeler-table-pill pill-good" id="xoRow_FxHedge_bps">+26.7 bps</span></td>
               </tr>
               <tr>
                 <td>
                   <strong>Net Portfolio Realization <span style="font-size: 10px; color: var(--purple); font-weight: 700;">[USD BASE]</span></strong>
-                  <div style="font-size: 11px; color: var(--muted);" id="xoRow_NetTotal_detail">Combined Net Return on $100M NAV</div>
+                  <div style="font-size: 11px; color: var(--muted);" id="xoRow_NetTotal_detail">Combined Net Return on Portfolio</div>
                 </td>
+                <td class="num"><span class="modeler-table-pill pill-good" style="font-size: 13px;" id="xoRow_NetTotal_bps">+69.1 bps</span></td>
+                <td class="num good" style="font-size: 13px; font-weight: 700;" id="xoRow_NetTotal_pct">+0.69%</td>
                 <td class="num" id="xoRow_NetTotal_eur">+€382,107</td>
                 <td class="num good" id="xoRow_NetTotal_usd">+$690,741</td>
-                <td class="num"><span class="modeler-table-pill pill-good" style="font-size: 13px;" id="xoRow_NetTotal_bps">+69.1 bps</span></td>
               </tr>
             </tbody>
           </table>
@@ -1254,7 +1280,8 @@
           <!-- Col 4: FX Overlay Hedge Ratio & Implied Risk -->
           <div>
             <div class="modeler-label">
-              <span>FX Overlay Hedge (% NAV)</span>
+              <span>FX Overlay Hedge (% of Portfolio)</span>
+              <span style="font-size: 11px; font-weight: 700; color: var(--purple);" id="xoScenFxHedgePctDisplay">10.0%</span>
             </div>
             <div class="modeler-input-group">
               <input type="number" step="0.5" min="0" max="50" class="modeler-input" id="xoScenFxHedgePct" value="10.0" />
@@ -1265,7 +1292,7 @@
               </div>
             </div>
             <div style="font-size: 11px; color: var(--muted); margin-top: 6px;">
-              Implied USD DV01: <strong id="xoScenDv01UsdReadout" style="color: var(--text);">$5,000 / bp</strong> (<span id="xoScenPortSensReadout">0.50 bps/bp</span>)
+              Portfolio Spread Sensitivity: <strong id="xoScenPortSensReadout" style="color: var(--accent);">0.50 bps/bp</strong> (<span id="xoScenDv01UsdReadout">$5,000 / bp</span>)
             </div>
           </div>
         </div>
@@ -1273,10 +1300,10 @@
         <!-- Sizing & Exposure Readout Strip -->
         <div style="margin-top: 12px; padding: 8px 14px; border-radius: 10px; background: rgba(0, 0, 0, 0.025); border: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; font-size: 12px;">
           <div>
-            USD Notional: <strong id="xoScenNotionalUsdReadout">$11,627,907</strong> · EUR Notional: <strong id="xoScenNotionalEurReadout">€10,207,081</strong> · Stance: <strong id="xoScenStanceReadout" style="color: var(--purple);">SELL PROTECTION [LONG EUR / SHORT USD]</strong>
+            Implied CDS Weight: <strong id="xoScenWeightReadout" style="color: var(--accent);">11.6% of Portfolio</strong> · Spread Sensitivity: <strong id="xoScenSensReadout">0.50 bps/bp</strong> · Stance: <strong id="xoScenStanceReadout" style="color: var(--purple);">SELL PROTECTION [LONG EUR / SHORT USD]</strong>
           </div>
           <div id="xoScenNetHedgeBadge" style="font-weight: 700; color: var(--accent);">
-            Hedge Notional: $10,000,000 (Short EUR) · Net EUR Exposure: +€1,428,991 (+1.6% unhedged)
+            Hedge Sizing: 10.0% (Short EUR) · Net EUR Exposure: +1.6% of Portfolio (Unhedged)
           </div>
         </div>
       </div>
@@ -1305,12 +1332,13 @@
                 <th style="text-align: right;">EUR Move (%)</th>
                 <th style="text-align: right;">Exit EUR/USD</th>
                 <th style="text-align: right;">Horizon</th>
-                <th style="text-align: right;">Spread PnL</th>
-                <th style="text-align: right;">Carry PnL</th>
-                <th style="text-align: right;">FX Trans</th>
-                <th style="text-align: right;">FX Hedge</th>
+                <th style="text-align: right;">Spread Return (bps)</th>
+                <th style="text-align: right;">Carry Yield (bps)</th>
+                <th style="text-align: right;">FX Trans (bps)</th>
+                <th style="text-align: right;">FX Hedge (bps)</th>
                 <th style="text-align: right;">Total Return (bps)</th>
-                <th style="text-align: right;">Total USD ($)</th>
+                <th style="text-align: right;">Unhedged (bps)</th>
+                <th style="text-align: right;">Illustrative USD ($)</th>
                 <th style="text-align: center;">Deep Dive</th>
               </tr>
             </thead>
@@ -1320,8 +1348,8 @@
           </table>
         </div>
         <div style="font-size: 11px; color: var(--muted); margin-top: 8px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px;">
-          <span>* Spread Move: negative = tightening / compression; positive = widening / decompression.</span>
-          <span>* Carry PnL accrues proportionally based on time horizon (Days/360) and entry spread level.</span>
+          <span>* All returns calculated directly in portfolio basis points (bps) from Spread Duration (0.50 yrs) and % sizing. Illustrative USD scaled to optional NAV.</span>
+          <span>* Spread Move: negative = tightening / compression; positive = widening / decompression. Carry accrues @ (Days/360).</span>
         </div>
       </div>
 
@@ -1417,8 +1445,9 @@
             <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;">
               <span style="font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase;">Simulated Net Return:</span>
               <div class="modeler-hero-metric good" style="font-size: 32px; margin: 0;" id="xoScenarioBpsReadout">+45.6 bps</div>
-              <div style="font-size: 16px; font-weight: 700; color: var(--text);" id="xoScenarioUsdReadout">+$455,770 USD</div>
-              <div style="font-size: 12.5px; font-weight: 600; color: var(--muted);" id="xoScenarioAnnualizedReadout">(Ann: +1.85%)</div>
+              <div style="font-size: 18px; font-weight: 700; color: var(--text);" id="xoScenarioPctReadout">+0.46% Return</div>
+              <div style="font-size: 13px; font-weight: 600; color: var(--muted);" id="xoScenarioAnnualizedReadout">(Ann: +1.85%)</div>
+              <div style="font-size: 12px; font-weight: 600; color: var(--muted);" id="xoScenarioUsdReadout">(Illustrative: +$455,770 on $100M NAV)</div>
             </div>
             <div style="font-size: 12px; color: var(--muted);" id="xoScenarioDescReadout">
               Spread: 296.0 → 271.0 bps (-25.0 bps) · EUR/USD: 1.1392 → 1.1107 (-2.50%) over 90d
