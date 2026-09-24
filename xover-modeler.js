@@ -25,19 +25,19 @@
     // Historical Backtest & Indicative Levels
     entryDate: "2026-01-05",
     exitDate: "2026-09-24",
-    entrySpreadBps: 329.7,
+    entrySpreadBps: 252.0,
     exitSpreadBps: 296.0,
     entryEurUsd: 1.1705,
-    exitEurUsd: 1.1392,
-    annualCarryBps: 329.7,
+    exitEurUsd: 1.1390,
+    annualCarryBps: 252.0,
     holdingDays: 262,
 
     // Historical baseline values for override tracking
-    histEntrySpread: 329.7,
+    histEntrySpread: 252.0,
     histExitSpread: 296.0,
     histEntryEurUsd: 1.1705,
-    histExitEurUsd: 1.1392,
-    histHoldingDays: 262,
+    histExitEurUsd: 1.1390,
+    holdingDays: 262,
 
     // Override flags
     overrideEntrySpread: false,
@@ -120,9 +120,11 @@
     const latestRow = rawHistory[rawHistory.length - 1];
     state.exitDate = latestRow.date;
 
-    // Pick entry date ~6M ago or Jan 2026
-    const targetEntryIdx = Math.max(0, rawHistory.length - 180);
-    state.entryDate = rawHistory[targetEntryIdx].date;
+    // Preserve initial entry date if present in history, else default to Jan 2026 / 6M ago
+    if (!rawHistory.some((r) => r.date === state.entryDate)) {
+      const janIdx = rawHistory.findIndex((r) => r.date >= "2026-01-05");
+      state.entryDate = janIdx >= 0 ? rawHistory[janIdx].date : rawHistory[Math.max(0, rawHistory.length - 180)].date;
+    }
 
     // Populate indicative levels from historical data
     syncDatesFromHistory();

@@ -242,7 +242,7 @@ def build_excel_model():
     ws_model["C25"].number_format = '0.0" bps"'
     ws_model["C25"].alignment = align_right
     ws_model["C25"].border = border_cell
-    ws_model["D25"] = '=IFERROR(INDEX(Historical_Data!$B$2:$B$600, MATCH(C23, Historical_Data!$A$2:$A$600, 0)), 329.7)'
+    ws_model["D25"] = '=IFERROR(INDEX(Historical_Data!$B$2:$B$600, MATCH(C23, Historical_Data!$A$2:$A$600, 0)), 252.0)'
     ws_model["D25"].number_format = '0.0" bps"'
     ws_model["D25"].alignment = align_right
     ws_model["D25"].border = border_cell
