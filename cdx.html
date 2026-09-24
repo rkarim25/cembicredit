@@ -640,6 +640,76 @@
       position: relative;
     }
 
+    .scen-table-wrap {
+      overflow-x: auto;
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #ffffff;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+    }
+    .scen-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12.5px;
+    }
+    .scen-table th {
+      padding: 10px 8px;
+      background: rgba(0, 0, 0, 0.03);
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid var(--line);
+      white-space: nowrap;
+    }
+    .scen-table td {
+      padding: 9px 8px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+      vertical-align: middle;
+      color: var(--text);
+    }
+    .scen-table tr:hover {
+      background: rgba(0, 113, 227, 0.025);
+    }
+    .scen-table tr.selected-row {
+      background: rgba(0, 113, 227, 0.06);
+    }
+    .scen-row-input {
+      width: 66px;
+      padding: 3px 6px;
+      font-size: 11.5px;
+      font-weight: 700;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-radius: 6px;
+      background: #ffffff;
+      color: var(--text);
+      text-align: right;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .scen-row-input:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(0, 113, 227, 0.2);
+    }
+    .scen-row-btn {
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: 6px;
+      border: 1px solid rgba(0, 113, 227, 0.3);
+      background: rgba(0, 113, 227, 0.08);
+      color: var(--accent);
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .scen-row-btn:hover {
+      background: var(--accent);
+      color: #ffffff;
+    }
+
     @media (max-width: 1024px) {
       .modeler-grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .modeler-grid-2 { grid-template-columns: 1fr; }
@@ -767,7 +837,7 @@
       <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 6px;">
         <div class="button-group">
           <button type="button" class="chart-btn active" id="tabHistoricalBacktest">Historical Trade Review</button>
-          <button type="button" class="chart-btn" id="tabScenarioStress">2D Scenario & Stress Matrix</button>
+          <button type="button" class="chart-btn" id="tabScenarioStress">Scenario Analysis & Stress Testing</button>
         </div>
         <a href="models/iTraxx_Xover_USD_Investor_Model.xlsx" download="iTraxx_Xover_USD_Investor_Model.xlsx" class="chart-btn" style="text-decoration: none; display: inline-flex; align-items: center; gap: 6px; background: rgba(36, 138, 61, 0.12); color: var(--good); border: 1px solid rgba(36, 138, 61, 0.3); font-weight: 700; padding: 7px 14px;" title="Download complete Excel workbook with all live formulas, lookups, and 2D scenario matrix">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
@@ -1116,47 +1186,197 @@
       </div>
     </div>
 
-    <!-- VIEW 2: 2D SCENARIO ANALYSIS & STRESS MATRIX -->
+    <!-- VIEW 2: FORWARD SCENARIO ANALYSIS & STRESS MATRIX -->
     <div id="secScenarioStress" style="display: none;">
-      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 14px;">
-        <div>
-          <h3 style="font-size: 18px; margin: 0 0 4px;">2D Scenario Matrix: Credit Spread Shift vs. EUR/USD Move</h3>
-          <p style="margin: 0; font-size: 13px;">Joint portfolio P&L in basis points (bps) across credit tightening/widening and currency appreciation/depreciation.</p>
+
+      <!-- 1. Scenario Baseline Parameters & Sizing Bar -->
+      <div class="modeler-card" style="margin-bottom: 20px; background: rgba(255, 255, 255, .92);">
+        <div style="font-size: 15px; font-weight: 800; margin-bottom: 14px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+          <span>1. Scenario Baseline Inputs: Spread Duration Sizing, Entry Spread & Time Horizon</span>
+          <span style="font-size: 12px; font-weight: 600; color: var(--accent);">Directly Override Any Parameter</span>
         </div>
-        <div class="button-group">
-          <button type="button" class="chart-btn xo-matrix-mode-btn active" data-mode="bps">Portfolio bps</button>
-          <button type="button" class="chart-btn xo-matrix-mode-btn" data-mode="usd">Total USD ($k)</button>
-          <button type="button" class="chart-btn xo-matrix-mode-btn" data-mode="hedge_contrib">Hedge Impact (bps)</button>
-          <button type="button" class="chart-btn xo-matrix-mode-btn" data-mode="unhedged_bps">Unhedged bps</button>
+
+        <div class="modeler-grid-4">
+          <!-- Col 1: Spread Duration Target -->
+          <div>
+            <div class="modeler-label">
+              <span>Spread Duration Target</span>
+              <span style="font-size: 11px; font-weight: 700; color: var(--accent);" id="xoScenTargetSdDisplay">0.50 yrs</span>
+            </div>
+            <div class="modeler-input-group">
+              <input type="number" step="0.05" min="0.05" max="3.0" class="modeler-input" id="xoScenTargetSd" value="0.50" />
+              <input type="range" min="0.05" max="2.00" step="0.05" value="0.50" class="modeler-slider" id="xoScenTargetSdSlider" />
+            </div>
+            <div style="font-size: 11px; color: var(--muted); margin-top: 4px;">
+              Benchmark SD: <strong id="xoScenBenchmarkSdDisplay">4.30 yrs</strong>
+            </div>
+          </div>
+
+          <!-- Col 2: Entry Spread Level -->
+          <div>
+            <div class="modeler-label">
+              <span>Entry Spread Level (bps)</span>
+              <span style="font-size: 10px; color: var(--muted);">Starting Level</span>
+            </div>
+            <div class="modeler-input-group">
+              <input type="number" step="0.5" class="modeler-input" id="xoScenEntrySpread" value="296.0" />
+              <div class="modeler-chips-wrap">
+                <button type="button" class="modeler-chip" id="xoScenResetSpread" title="Reset to current market level">Current (296 bps)</button>
+                <button type="button" class="modeler-chip" id="xoScenSpread250" title="Set to 250 bps">250 bps</button>
+                <button type="button" class="modeler-chip" id="xoScenSpread350" title="Set to 350 bps">350 bps</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col 3: Base EUR/USD & Time Horizon -->
+          <div>
+            <div class="modeler-label">
+              <span>Base EUR/USD & Time Horizon</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+              <div>
+                <input type="number" step="0.0005" class="modeler-input" id="xoScenEntryFx" value="1.1392" title="Starting EUR/USD Exchange Rate" />
+                <span style="font-size: 10px; color: var(--muted);">Base FX</span>
+              </div>
+              <div>
+                <input type="number" step="15" min="1" max="730" class="modeler-input" id="xoScenDaysInput" value="90" title="Scenario Horizon Days" />
+                <span style="font-size: 10px; color: var(--muted);">Days (<span id="xoScenMonthsDisplay">3M</span>)</span>
+              </div>
+            </div>
+            <div class="modeler-chips-wrap" style="margin-top: 6px;">
+              <button type="button" class="modeler-chip xo-scen-day-chip" data-days="30">1M (30d)</button>
+              <button type="button" class="modeler-chip xo-scen-day-chip active" data-days="90">3M (90d)</button>
+              <button type="button" class="modeler-chip xo-scen-day-chip" data-days="180">6M (180d)</button>
+              <button type="button" class="modeler-chip xo-scen-day-chip" data-days="365">1Y (365d)</button>
+            </div>
+          </div>
+
+          <!-- Col 4: FX Overlay Hedge Ratio & Implied Risk -->
+          <div>
+            <div class="modeler-label">
+              <span>FX Overlay Hedge (% NAV)</span>
+            </div>
+            <div class="modeler-input-group">
+              <input type="number" step="0.5" min="0" max="50" class="modeler-input" id="xoScenFxHedgePct" value="10.0" />
+              <div class="modeler-chips-wrap">
+                <button type="button" class="modeler-chip active" id="xoScenHedgeShort" title="Short EUR / Long USD forward contract">Short EUR</button>
+                <button type="button" class="modeler-chip" id="xoScenHedgeLong" title="Long EUR / Short USD forward contract">Long EUR</button>
+                <button type="button" class="modeler-chip" id="xoScenHedgeNone" title="Unhedged FX">No Hedge</button>
+              </div>
+            </div>
+            <div style="font-size: 11px; color: var(--muted); margin-top: 6px;">
+              Implied USD DV01: <strong id="xoScenDv01UsdReadout" style="color: var(--text);">$5,000 / bp</strong> (<span id="xoScenPortSensReadout">0.50 bps/bp</span>)
+            </div>
+          </div>
+        </div>
+
+        <!-- Sizing & Exposure Readout Strip -->
+        <div style="margin-top: 12px; padding: 8px 14px; border-radius: 10px; background: rgba(0, 0, 0, 0.025); border: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; font-size: 12px;">
+          <div>
+            USD Notional: <strong id="xoScenNotionalUsdReadout">$11,627,907</strong> · EUR Notional: <strong id="xoScenNotionalEurReadout">€10,207,081</strong> · Stance: <strong id="xoScenStanceReadout" style="color: var(--purple);">SELL PROTECTION [LONG EUR / SHORT USD]</strong>
+          </div>
+          <div id="xoScenNetHedgeBadge" style="font-weight: 700; color: var(--accent);">
+            Hedge Notional: $10,000,000 (Short EUR) · Net EUR Exposure: +€1,428,991 (+1.6% unhedged)
+          </div>
         </div>
       </div>
 
-      <!-- Sensitivity Matrix Heatmap -->
-      <div class="modeler-matrix-wrap">
-        <table class="modeler-matrix-table">
-          <thead id="xoMatrixTableHead"></thead>
-          <tbody id="xoMatrixTableBody"></tbody>
-        </table>
-      </div>
-      <div style="font-size: 11.5px; color: var(--muted); margin-top: 6px; text-align: right;">
-        * Rows = Xover spread change (bps) · Columns = EUR/USD percentage change (%) · Click any cell to load into custom simulator.
+      <!-- 2. Sensible Pre-Configured Scenarios Table (with Live Inline Overrides) -->
+      <div class="modeler-card" style="margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 6px;">
+          <div>
+            <h3 style="font-size: 17px; margin: 0 0 4px;">2. Multi-Scenario Analysis (Sensible Presets with Direct Inline Overrides)</h3>
+            <p style="margin: 0; font-size: 12.5px; color: var(--muted);">
+              Total return simulated across macro regimes based on <strong>spread move</strong>, <strong>EUR/USD move</strong>, and <strong>time horizon</strong>. Directly edit any input cell to recalculate in real-time.
+            </p>
+          </div>
+          <div>
+            <button type="button" class="modeler-chip" id="xoResetScenariosBtn" title="Reset all scenarios to default sensible ranges">Reset All Scenarios</button>
+          </div>
+        </div>
+
+        <div class="scen-table-wrap">
+          <table class="scen-table">
+            <thead>
+              <tr>
+                <th style="text-align: left; min-width: 200px;">Scenario Regime & Thesis</th>
+                <th style="text-align: right;">Spread Move (bps)</th>
+                <th style="text-align: right;">Exit Spread</th>
+                <th style="text-align: right;">EUR Move (%)</th>
+                <th style="text-align: right;">Exit EUR/USD</th>
+                <th style="text-align: right;">Horizon</th>
+                <th style="text-align: right;">Spread PnL</th>
+                <th style="text-align: right;">Carry PnL</th>
+                <th style="text-align: right;">FX Trans</th>
+                <th style="text-align: right;">FX Hedge</th>
+                <th style="text-align: right;">Total Return (bps)</th>
+                <th style="text-align: right;">Total USD ($)</th>
+                <th style="text-align: center;">Deep Dive</th>
+              </tr>
+            </thead>
+            <tbody id="xoScenarioTableBody">
+              <!-- Dynamically populated and live editable by xover-modeler.js -->
+            </tbody>
+          </table>
+        </div>
+        <div style="font-size: 11px; color: var(--muted); margin-top: 8px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px;">
+          <span>* Spread Move: negative = tightening / compression; positive = widening / decompression.</span>
+          <span>* Carry PnL accrues proportionally based on time horizon (Days/360) and entry spread level.</span>
+        </div>
       </div>
 
-      <!-- Custom Scenario Simulator Sliders -->
-      <div class="modeler-card" style="margin-top: 20px;">
+      <!-- 3. 2D Scenario Matrix & Range Presets -->
+      <div class="modeler-card" style="margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 12px;">
+          <div>
+            <h3 style="font-size: 17px; margin: 0 0 4px;">3. 2D Sensitivity Matrix: Spread Shift vs. EUR/USD Move</h3>
+            <p style="margin: 0; font-size: 12.5px; color: var(--muted);">
+              Joint portfolio P&L grid across arbitrary spread and currency combinations for the selected horizon (<span id="xoMatrixDaysLabel">90 days</span>).
+            </p>
+          </div>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+            <div class="button-group">
+              <button type="button" class="chart-btn xo-matrix-preset-btn active" data-preset="standard">Standard (±100 bps / ±10% EUR)</button>
+              <button type="button" class="chart-btn xo-matrix-preset-btn" data-preset="tight">Tight (±40 bps / ±4% EUR)</button>
+              <button type="button" class="chart-btn xo-matrix-preset-btn" data-preset="stress">Stress Widening (+0 to +200 bps)</button>
+              <button type="button" class="chart-btn xo-matrix-preset-btn" data-preset="rally">Rally Tightening (-120 to +20 bps)</button>
+            </div>
+            <div class="button-group">
+              <button type="button" class="chart-btn xo-matrix-mode-btn active" data-mode="bps">Portfolio bps</button>
+              <button type="button" class="chart-btn xo-matrix-mode-btn" data-mode="usd">Total USD ($k)</button>
+              <button type="button" class="chart-btn xo-matrix-mode-btn" data-mode="hedge_contrib">Hedge (bps)</button>
+              <button type="button" class="chart-btn xo-matrix-mode-btn" data-mode="unhedged_bps">Unhedged bps</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sensitivity Matrix Heatmap -->
+        <div class="modeler-matrix-wrap">
+          <table class="modeler-matrix-table">
+            <thead id="xoMatrixTableHead"></thead>
+            <tbody id="xoMatrixTableBody"></tbody>
+          </table>
+        </div>
+        <div style="font-size: 11.5px; color: var(--muted); margin-top: 6px; text-align: right;">
+          * Rows = Xover spread change (bps) · Columns = EUR/USD percentage change (%) · Click any cell to load into custom simulator below.
+        </div>
+      </div>
+
+      <!-- 4. Custom Scenario Simulator & Attribution Waterfall -->
+      <div class="modeler-card">
         <div style="font-size: 16px; font-weight: 800; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center;">
-          <span>Custom Scenario Simulator & Stress Tester</span>
+          <span>4. Custom Scenario Simulator & Attribution Waterfall Deep Dive</span>
           <span style="font-size: 12px; font-weight: 600; color: var(--muted);">Real-Time Sensitivity Sliders</span>
         </div>
 
-        <!-- Macro Preset Chips -->
+        <!-- Macro Preset Quick Chips -->
         <div style="margin-bottom: 16px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center;">
-          <span style="font-size: 11.5px; font-weight: 700; color: var(--muted); margin-right: 4px;">Macro Regimes:</span>
-          <button type="button" class="modeler-chip xo-macro-preset" data-spread="-50" data-fx="4.0" style="color: var(--good); font-weight: 700;">🟢 Aggressive Risk-On (-50 bps, +4.0% EUR)</button>
-          <button type="button" class="modeler-chip xo-macro-preset" data-spread="75" data-fx="-5.0" style="color: var(--bad); font-weight: 700;">🔴 European Stagflation (+75 bps, -5.0% EUR)</button>
-          <button type="button" class="modeler-chip xo-macro-preset" data-spread="40" data-fx="-7.5" style="color: var(--warn); font-weight: 700;">⚡ Sovereign Flight Shock (+40 bps, -7.5% EUR)</button>
-          <button type="button" class="modeler-chip xo-macro-preset" data-spread="0" data-fx="-6.0">🟡 Isolated FX Shock (0 bps, -6.0% EUR)</button>
-          <button type="button" class="modeler-chip xo-macro-preset" data-spread="-35" data-fx="0.0">🔵 Pure Spread Compression (-35 bps, 0% EUR)</button>
+          <span style="font-size: 11.5px; font-weight: 700; color: var(--muted); margin-right: 4px;">Quick Regimes:</span>
+          <button type="button" class="modeler-chip xo-macro-preset" data-spread="-50" data-fx="3.5" data-days="180" style="color: var(--good); font-weight: 700;">🟢 Aggressive Risk-On (-50 bps, +3.5% EUR, 180d)</button>
+          <button type="button" class="modeler-chip xo-macro-preset" data-spread="75" data-fx="-5.0" data-days="90" style="color: var(--bad); font-weight: 700;">🔴 European Stagflation (+75 bps, -5.0% EUR, 90d)</button>
+          <button type="button" class="modeler-chip xo-macro-preset" data-spread="40" data-fx="-7.5" data-days="90" style="color: var(--warn); font-weight: 700;">⚡ Sovereign Shock (+40 bps, -7.5% EUR, 90d)</button>
+          <button type="button" class="modeler-chip xo-macro-preset" data-spread="0" data-fx="-5.0" data-days="90">🟡 Isolated FX Shock (0 bps, -5.0% EUR, 90d)</button>
+          <button type="button" class="modeler-chip xo-macro-preset" data-spread="-25" data-fx="1.5" data-days="90">🔵 Soft Landing (-25 bps, +1.5% EUR, 90d)</button>
         </div>
 
         <div class="modeler-grid-3">
@@ -1164,6 +1384,7 @@
           <div>
             <div class="modeler-label">
               <span>Spread Shift (bps)</span>
+              <span id="xoScenarioSpreadVal" style="font-weight: 700; color: var(--accent);">-25.0 bps</span>
             </div>
             <input type="number" step="5" class="modeler-input" id="xoScenarioSpreadInput" value="-25" />
             <input type="range" min="-150" max="150" step="5" value="-25" class="modeler-slider" id="xoScenarioSpreadSlider" />
@@ -1173,6 +1394,7 @@
           <div>
             <div class="modeler-label">
               <span>EUR/USD Currency Move (%)</span>
+              <span id="xoScenarioFxVal" style="font-weight: 700; color: var(--purple);">-2.5%</span>
             </div>
             <input type="number" step="0.5" class="modeler-input" id="xoScenarioFxInput" value="-2.5" />
             <input type="range" min="-15" max="15" step="0.5" value="-2.5" class="modeler-slider" id="xoScenarioFxSlider" />
@@ -1182,19 +1404,21 @@
           <div>
             <div class="modeler-label">
               <span>Scenario Horizon (Days)</span>
+              <span id="xoScenarioDaysVal" style="font-weight: 700; color: var(--text);">90 days</span>
             </div>
-            <input type="number" step="15" min="0" max="365" class="modeler-input" id="xoScenarioDaysInput" value="90" />
-            <input type="range" min="0" max="365" step="15" value="90" class="modeler-slider" id="xoScenarioDaysSlider" />
+            <input type="number" step="15" min="1" max="730" class="modeler-input" id="xoScenarioDaysInput" value="90" />
+            <input type="range" min="1" max="365" step="15" value="90" class="modeler-slider" id="xoScenarioDaysSlider" />
           </div>
         </div>
 
         <!-- Custom Scenario Output Card -->
         <div style="background: rgba(0, 0, 0, 0.02); border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin-top: 14px;">
           <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 10px;">
-            <div style="display: flex; align-items: baseline; gap: 12px;">
+            <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;">
               <span style="font-size: 13px; font-weight: 700; color: var(--muted); text-transform: uppercase;">Simulated Net Return:</span>
-              <div class="modeler-hero-metric good" style="font-size: 32px; margin: 0;" id="xoScenarioBpsReadout">+41.2 bps</div>
-              <div style="font-size: 16px; font-weight: 700; color: var(--text);" id="xoScenarioUsdReadout">+$412,500 USD</div>
+              <div class="modeler-hero-metric good" style="font-size: 32px; margin: 0;" id="xoScenarioBpsReadout">+45.6 bps</div>
+              <div style="font-size: 16px; font-weight: 700; color: var(--text);" id="xoScenarioUsdReadout">+$455,770 USD</div>
+              <div style="font-size: 12.5px; font-weight: 600; color: var(--muted);" id="xoScenarioAnnualizedReadout">(Ann: +1.85%)</div>
             </div>
             <div style="font-size: 12px; color: var(--muted);" id="xoScenarioDescReadout">
               Spread: 296.0 → 271.0 bps (-25.0 bps) · EUR/USD: 1.1392 → 1.1107 (-2.50%) over 90d

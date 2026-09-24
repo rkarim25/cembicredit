@@ -52,13 +52,32 @@
     hoverIdx: null,
 
     // Scenario Analysis
+    scenarioSpreadDuration: 0.50,
+    scenarioEntrySpread: 296.0,
+    scenarioEntryFx: 1.1392,
+    scenarioDays: 90,
     scenarioSpreadShift: -25.0, // bps
     scenarioFxPct: -2.5, // %
-    scenarioDays: 90, // days
     scenarioCarryBps: 296.0,
     matrixViewMode: "bps", // "bps", "usd", "hedge_contrib", "unhedged_bps"
+    matrixPreset: "standard", // "standard", "tight", "stress", "rally"
     activeSection: "backtest", // "backtest" or "scenario"
+    scenarioList: [],
   };
+
+  const DEFAULT_SCENARIOS = [
+    { id: "base", name: "Status Quo (Pure Carry Harvest)", desc: "Spreads & FX unchanged; clip coupon carry", spreadShift: 0, fxPct: 0.0, days: 90 },
+    { id: "soft_land", name: "Soft Landing (Mild Compression)", desc: "Spreads compress 25 bps with modest EUR rally", spreadShift: -25, fxPct: 1.5, days: 90 },
+    { id: "risk_on", name: "Aggressive Risk-On Rally", desc: "Broad compression to cycle lows; strong EUR", spreadShift: -50, fxPct: 3.5, days: 180 },
+    { id: "mild_decomp", name: "Mild European Decompression", desc: "Growth slowdown decompresses spreads; EUR dips", spreadShift: 35, fxPct: -2.5, days: 90 },
+    { id: "stagflation", name: "European Stagflation / Decompression", desc: "Energy shock / recession; ECB easing weakens EUR", spreadShift: 75, fxPct: -5.0, days: 90 },
+    { id: "crisis_blowout", name: "Severe Blowout (Tariff / Crisis)", desc: "Rapid decompression shock (April 2025 style); EUR drops", spreadShift: 130, fxPct: -8.0, days: 60 },
+    { id: "dollar_surge", name: "Isolated FX Shock (Dollar Spike)", desc: "Spreads flat; USD strength drives EUR down 5%", spreadShift: 0, fxPct: -5.0, days: 90 },
+    { id: "custom_1", name: "Custom Scenario A", desc: "User-defined custom macro scenario", spreadShift: -35, fxPct: -2.0, days: 90 },
+    { id: "custom_2", name: "Custom Scenario B", desc: "User-defined custom stress scenario", spreadShift: 50, fxPct: 0.0, days: 120 },
+  ];
+
+  state.scenarioList = JSON.parse(JSON.stringify(DEFAULT_SCENARIOS));
 
   let rawHistory = [];
   let fxSummary = null;
@@ -129,6 +148,12 @@
     // Populate indicative levels from historical data
     syncDatesFromHistory();
     syncSizing("duration");
+
+    state.scenarioEntrySpread = latestRow.itraxx_xover || 296.0;
+    state.scenarioEntryFx = latestRow.eur_usd || 1.1392;
+    state.scenarioCarryBps = state.scenarioEntrySpread;
+    state.scenarioSpreadDuration = state.targetSpreadDurationYears;
+
     setupDomListeners();
     renderAll();
   }
@@ -911,61 +936,276 @@
    * 2D Scenario Sensitivity Matrix & Custom Simulator
    */
   function renderScenarioSection() {
-    renderScenarioCustomControls();
+    renderScenarioBaselineControls();
+    renderScenarioTable();
     renderSensitivityMatrix();
+    renderScenarioCustomControls();
   }
 
-  function renderScenarioCustomControls() {
-    const slSp = el("xoScenarioSpreadSlider");
-    const inSp = el("xoScenarioSpreadInput");
-    const slFx = el("xoScenarioFxSlider");
-    const inFx = el("xoScenarioFxInput");
-    const slDays = el("xoScenarioDaysSlider");
-    const inDays = el("xoScenarioDaysInput");
+  function renderScenarioBaselineControls() {
+    const sd = state.scenarioSpreadDuration || state.targetSpreadDurationYears;
+    const bm = state.xoverSpreadDuration;
+    const nav = state.portfolioNavUsd;
+    const fx0 = state.scenarioEntryFx || 1.1392;
+    const sp0 = state.scenarioEntrySpread || 296.0;
 
-    if (slSp) slSp.value = state.scenarioSpreadShift;
-    if (inSp && document.activeElement !== inSp) inSp.value = state.scenarioSpreadShift;
-    if (slFx) slFx.value = state.scenarioFxPct;
-    if (inFx && document.activeElement !== inFx) inFx.value = state.scenarioFxPct;
-    if (slDays) slDays.value = state.scenarioDays;
-    if (inDays && document.activeElement !== inDays) inDays.value = state.scenarioDays;
+    const notionalUsd = (nav * sd) / bm;
+    const notionalEur = notionalUsd / fx0;
+    const dv01Usd = (nav * sd) / 10000.0;
+    const portSens = (dv01Usd / nav) * 10000.0;
 
-    // Compute custom scenario PnL
-    const baseSpread = state.exitSpreadBps;
-    const baseFx = state.exitEurUsd;
+    const elSdDisplay = el("xoScenTargetSdDisplay");
+    const elSdInput = el("xoScenTargetSd");
+    const elSdSlider = el("xoScenTargetSdSlider");
+    const elBmDisplay = el("xoScenBenchmarkSdDisplay");
+    const elEntrySp = el("xoScenEntrySpread");
+    const elEntryFx = el("xoScenEntryFx");
+    const elDaysInput = el("xoScenDaysInput");
+    const elMonthsDisp = el("xoScenMonthsDisplay");
+    const elFxHedgePct = el("xoScenFxHedgePct");
+    const elDv01Usd = el("xoScenDv01UsdReadout");
+    const elPortSens = el("xoScenPortSensReadout");
+    const elNotionalUsd = el("xoScenNotionalUsdReadout");
+    const elNotionalEur = el("xoScenNotionalEurReadout");
+    const elStance = el("xoScenStanceReadout");
+    const elHedgeBadge = el("xoScenNetHedgeBadge");
 
-    const targetSpread = baseSpread + state.scenarioSpreadShift;
-    const targetFx = baseFx * (1 + state.scenarioFxPct / 100.0);
+    if (elSdDisplay) elSdDisplay.textContent = `${sd.toFixed(2)} yrs`;
+    if (elSdInput && document.activeElement !== elSdInput) elSdInput.value = sd.toFixed(2);
+    if (elSdSlider) elSdSlider.value = sd;
+    if (elBmDisplay) elBmDisplay.textContent = `${bm.toFixed(2)} yrs`;
+    if (elEntrySp && document.activeElement !== elEntrySp) elEntrySp.value = sp0.toFixed(1);
+    if (elEntryFx && document.activeElement !== elEntryFx) elEntryFx.value = fx0.toFixed(4);
+    if (elDaysInput && document.activeElement !== elDaysInput) elDaysInput.value = state.scenarioDays;
+    if (elMonthsDisp) elMonthsDisp.textContent = `${(state.scenarioDays / 30).toFixed(1)}M`;
+    if (elFxHedgePct && document.activeElement !== elFxHedgePct) elFxHedgePct.value = state.fxHedgePct.toFixed(1);
 
-    const res = calculateTradePnl({
-      navUsd: state.portfolioNavUsd,
-      direction: state.direction,
-      notionalEur: state.notionalEur,
-      sdXover: state.xoverSpreadDuration,
-      entrySpread: baseSpread,
-      exitSpread: targetSpread,
-      carryBps: state.scenarioCarryBps || baseSpread,
-      days: state.scenarioDays,
-      entryFx: baseFx,
-      exitFx: targetFx,
-      hedgePct: state.fxHedgePct,
-      hedgeStance: state.fxHedgeStance,
+    if (elDv01Usd) elDv01Usd.textContent = fmtUsd(dv01Usd) + " / bp";
+    if (elPortSens) elPortSens.textContent = `${portSens.toFixed(2)} bps/bp`;
+    if (elNotionalUsd) elNotionalUsd.textContent = fmtUsd(notionalUsd);
+    if (elNotionalEur) elNotionalEur.textContent = fmtEur(notionalEur);
+
+    const isSell = state.direction === "sell";
+    if (elStance) {
+      elStance.textContent = isSell
+        ? "SELL PROTECTION [LONG EUR / SHORT USD]"
+        : "BUY PROTECTION [SHORT EUR / LONG USD]";
+      elStance.style.color = isSell ? "var(--good)" : "var(--warn)";
+    }
+
+    const bShort = el("xoScenHedgeShort");
+    const bLong = el("xoScenHedgeLong");
+    const bNone = el("xoScenHedgeNone");
+    if (bShort) bShort.className = "modeler-chip" + (state.fxHedgeStance === "short_eur" ? " active" : "");
+    if (bLong) bLong.className = "modeler-chip" + (state.fxHedgeStance === "long_eur" ? " active" : "");
+    if (bNone) bNone.className = "modeler-chip" + (state.fxHedgeStance === "none" ? " active" : "");
+
+    const hedgeUsd = nav * (state.fxHedgePct / 100.0);
+    const hedgeEur = hedgeUsd / fx0;
+    let netEur = isSell ? notionalEur : -notionalEur;
+    if (state.fxHedgeStance === "short_eur") netEur -= hedgeEur;
+    else if (state.fxHedgeStance === "long_eur") netEur += hedgeEur;
+    const netEurPct = (netEur * fx0 / nav) * 100.0;
+
+    if (elHedgeBadge) {
+      const hedgeDesc = state.fxHedgeStance === "short_eur" ? "Short EUR" : state.fxHedgeStance === "long_eur" ? "Long EUR" : "Unhedged";
+      elHedgeBadge.textContent = `Hedge Notional: ${fmtUsd(hedgeUsd)} (${hedgeDesc}) · Net EUR Exposure: ${netEur >= 0 ? "+" : ""}${fmtEur(netEur)} (${fmtPct(netEurPct)} unhedged)`;
+    }
+  }
+
+  function renderScenarioTable() {
+    const tbody = el("xoScenarioTableBody");
+    if (!tbody) return;
+
+    tbody.replaceChildren();
+
+    const nav = state.portfolioNavUsd;
+    const sd = state.scenarioSpreadDuration || state.targetSpreadDurationYears;
+    const bm = state.xoverSpreadDuration;
+    const fx0 = state.scenarioEntryFx || 1.1392;
+    const sp0 = state.scenarioEntrySpread || 296.0;
+    const notionalUsd = (nav * sd) / bm;
+    const notionalEur = notionalUsd / fx0;
+
+    state.scenarioList.forEach((sc, idx) => {
+      const tr = document.createElement("tr");
+
+      const targetSpread = sp0 + sc.spreadShift;
+      const targetFx = fx0 * (1 + sc.fxPct / 100.0);
+
+      const res = calculateTradePnl({
+        navUsd: nav,
+        direction: state.direction,
+        notionalEur: notionalEur,
+        sdXover: bm,
+        entrySpread: sp0,
+        exitSpread: targetSpread,
+        carryBps: sp0,
+        days: sc.days,
+        entryFx: fx0,
+        exitFx: targetFx,
+        hedgePct: state.fxHedgePct,
+        hedgeStance: state.fxHedgeStance,
+      });
+
+      if (sc.spreadShift === state.scenarioSpreadShift && sc.fxPct === state.scenarioFxPct && sc.days === state.scenarioDays) {
+        tr.classList.add("selected-row");
+      }
+
+      // Col 1: Regime Name & Thesis
+      const tdName = document.createElement("td");
+      tdName.innerHTML = `<strong>${sc.name}</strong><div style="font-size: 11px; color: var(--muted);">${sc.desc}</div>`;
+      tr.appendChild(tdName);
+
+      // Col 2: Spread Move (Editable Input)
+      const tdSpMove = document.createElement("td");
+      tdSpMove.style.textAlign = "right";
+      const inSpMove = document.createElement("input");
+      inSpMove.type = "number";
+      inSpMove.step = "5";
+      inSpMove.className = "scen-row-input";
+      inSpMove.value = sc.spreadShift;
+      inSpMove.addEventListener("change", (e) => {
+        const val = parseFloat(e.target.value);
+        if (!isNaN(val)) {
+          sc.spreadShift = val;
+          renderScenarioTable();
+          renderSensitivityMatrix();
+          if (idx === 0) {
+            state.scenarioSpreadShift = val;
+            renderScenarioCustomControls();
+          }
+        }
+      });
+      tdSpMove.appendChild(inSpMove);
+      tr.appendChild(tdSpMove);
+
+      // Col 3: Exit Spread (Computed)
+      const tdExitSp = document.createElement("td");
+      tdExitSp.style.textAlign = "right";
+      tdExitSp.style.fontWeight = "700";
+      tdExitSp.textContent = `${targetSpread.toFixed(1)} bps`;
+      tr.appendChild(tdExitSp);
+
+      // Col 4: EUR Move (%) (Editable Input)
+      const tdFxMove = document.createElement("td");
+      tdFxMove.style.textAlign = "right";
+      const inFxMove = document.createElement("input");
+      inFxMove.type = "number";
+      inFxMove.step = "0.5";
+      inFxMove.className = "scen-row-input";
+      inFxMove.value = sc.fxPct;
+      inFxMove.addEventListener("change", (e) => {
+        const val = parseFloat(e.target.value);
+        if (!isNaN(val)) {
+          sc.fxPct = val;
+          renderScenarioTable();
+          renderSensitivityMatrix();
+          if (idx === 0) {
+            state.scenarioFxPct = val;
+            renderScenarioCustomControls();
+          }
+        }
+      });
+      tdFxMove.appendChild(inFxMove);
+      tr.appendChild(tdFxMove);
+
+      // Col 5: Exit EUR/USD (Computed)
+      const tdExitFx = document.createElement("td");
+      tdExitFx.style.textAlign = "right";
+      tdExitFx.style.fontWeight = "700";
+      tdExitFx.textContent = targetFx.toFixed(4);
+      tr.appendChild(tdExitFx);
+
+      // Col 6: Horizon (Editable Input)
+      const tdDays = document.createElement("td");
+      tdDays.style.textAlign = "right";
+      const inDays = document.createElement("input");
+      inDays.type = "number";
+      inDays.step = "15";
+      inDays.className = "scen-row-input";
+      inDays.value = sc.days;
+      inDays.addEventListener("change", (e) => {
+        const val = parseInt(e.target.value, 10);
+        if (!isNaN(val) && val > 0) {
+          sc.days = val;
+          renderScenarioTable();
+          renderSensitivityMatrix();
+        }
+      });
+      tdDays.appendChild(inDays);
+      tr.appendChild(tdDays);
+
+      // Col 7: Spread PnL (bps)
+      const tdSpPnl = document.createElement("td");
+      tdSpPnl.style.textAlign = "right";
+      tdSpPnl.className = res.spreadPnlBps >= 0 ? "good" : "bad";
+      tdSpPnl.style.fontWeight = "600";
+      tdSpPnl.textContent = fmtBps(res.spreadPnlBps, 1);
+      tr.appendChild(tdSpPnl);
+
+      // Col 8: Carry PnL (bps)
+      const tdCarryPnl = document.createElement("td");
+      tdCarryPnl.style.textAlign = "right";
+      tdCarryPnl.className = res.carryPnlBps >= 0 ? "good" : "bad";
+      tdCarryPnl.style.fontWeight = "600";
+      tdCarryPnl.textContent = fmtBps(res.carryPnlBps, 1);
+      tr.appendChild(tdCarryPnl);
+
+      // Col 9: FX Translation (bps)
+      const tdFxTrans = document.createElement("td");
+      tdFxTrans.style.textAlign = "right";
+      tdFxTrans.className = res.fxTranslationBps >= 0 ? "good" : "bad";
+      tdFxTrans.textContent = fmtBps(res.fxTranslationBps, 1);
+      tr.appendChild(tdFxTrans);
+
+      // Col 10: FX Hedge (bps)
+      const tdFxHedge = document.createElement("td");
+      tdFxHedge.style.textAlign = "right";
+      tdFxHedge.className = res.fxHedgeBps >= 0 ? "good" : "bad";
+      tdFxHedge.textContent = fmtBps(res.fxHedgeBps, 1);
+      tr.appendChild(tdFxHedge);
+
+      // Col 11: Total Return (bps)
+      const tdTotBps = document.createElement("td");
+      tdTotBps.style.textAlign = "right";
+      const pill = document.createElement("span");
+      pill.className = "modeler-table-pill " + (res.totalNetPnlBps >= 0 ? "pill-good" : "pill-bad");
+      pill.textContent = fmtBps(res.totalNetPnlBps, 1);
+      tdTotBps.appendChild(pill);
+      tr.appendChild(tdTotBps);
+
+      // Col 12: Total Return ($)
+      const tdTotUsd = document.createElement("td");
+      tdTotUsd.style.textAlign = "right";
+      tdTotUsd.className = res.totalNetPnlUsd >= 0 ? "good" : "bad";
+      tdTotUsd.style.fontWeight = "700";
+      tdTotUsd.textContent = fmtUsd(res.totalNetPnlUsd);
+      tr.appendChild(tdTotUsd);
+
+      // Col 13: Action
+      const tdAct = document.createElement("td");
+      tdAct.style.textAlign = "center";
+      const btnInspect = document.createElement("button");
+      btnInspect.type = "button";
+      btnInspect.className = "scen-row-btn";
+      btnInspect.textContent = "Inspect ▾";
+      btnInspect.title = "Load this scenario into the Waterfall simulator below";
+      btnInspect.addEventListener("click", () => {
+        state.scenarioSpreadShift = sc.spreadShift;
+        state.scenarioFxPct = sc.fxPct;
+        state.scenarioDays = sc.days;
+        renderScenarioTable();
+        renderSensitivityMatrix();
+        renderScenarioCustomControls();
+        const customCard = el("xoScenarioWaterfall");
+        if (customCard) customCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      });
+      tdAct.appendChild(btnInspect);
+      tr.appendChild(tdAct);
+
+      tbody.appendChild(tr);
     });
-
-    const elScenBps = el("xoScenarioBpsReadout");
-    const elScenUsd = el("xoScenarioUsdReadout");
-    const elScenDesc = el("xoScenarioDescReadout");
-
-    if (elScenBps) {
-      elScenBps.textContent = fmtBps(res.totalNetPnlBps, 1);
-      elScenBps.className = "modeler-hero-metric " + (res.totalNetPnlBps >= 0 ? "good" : "bad");
-    }
-    if (elScenUsd) elScenUsd.textContent = fmtUsd(res.totalNetPnlUsd);
-    if (elScenDesc) {
-      elScenDesc.textContent = `Spread: ${baseSpread.toFixed(1)} → ${targetSpread.toFixed(1)} bps (${fmtBps(state.scenarioSpreadShift, 1)}) · EUR/USD: ${baseFx.toFixed(4)} → ${targetFx.toFixed(4)} (${fmtPct(state.scenarioFxPct)}) over ${state.scenarioDays}d`;
-    }
-
-    renderWaterfallBar("xoScenarioWaterfall", res);
   }
 
   function renderSensitivityMatrix() {
@@ -973,11 +1213,23 @@
     const tableHead = el("xoMatrixTableHead");
     if (!tableBody || !tableHead) return;
 
-    // Grid definition
-    const spreadShifts = [-100, -75, -50, -25, 0, 25, 50, 75, 100];
-    const fxMoves = [-10.0, -7.5, -5.0, -2.5, 0.0, 2.5, 5.0, 7.5, 10.0];
+    let spreadShifts = [-100, -75, -50, -25, 0, 25, 50, 75, 100];
+    let fxMoves = [-10.0, -7.5, -5.0, -2.5, 0.0, 2.5, 5.0, 7.5, 10.0];
 
-    // Build Header
+    if (state.matrixPreset === "tight") {
+      spreadShifts = [-40, -30, -20, -10, 0, 10, 20, 30, 40];
+      fxMoves = [-4.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 4.0];
+    } else if (state.matrixPreset === "stress") {
+      spreadShifts = [0, 25, 50, 75, 100, 125, 150, 175, 200];
+      fxMoves = [-12.0, -9.0, -6.0, -3.0, 0.0, 1.5, 3.0, 4.5, 6.0];
+    } else if (state.matrixPreset === "rally") {
+      spreadShifts = [-120, -100, -80, -60, -40, -20, 0, 20, 40];
+      fxMoves = [-4.0, -2.0, 0.0, 2.0, 4.0, 6.0, 8.0, 10.0, 12.0];
+    }
+
+    const elDaysLbl = el("xoMatrixDaysLabel");
+    if (elDaysLbl) elDaysLbl.textContent = `${state.scenarioDays} days (${(state.scenarioDays / 30).toFixed(1)}M)`;
+
     tableHead.replaceChildren();
     const trHead = document.createElement("tr");
     const thCorner = document.createElement("th");
@@ -993,10 +1245,14 @@
     });
     tableHead.appendChild(trHead);
 
-    // Build Rows
     tableBody.replaceChildren();
-    const baseSpread = state.exitSpreadBps;
-    const baseFx = state.exitEurUsd;
+    const baseSpread = state.scenarioEntrySpread || 296.0;
+    const baseFx = state.scenarioEntryFx || 1.1392;
+    const nav = state.portfolioNavUsd;
+    const sd = state.scenarioSpreadDuration || state.targetSpreadDurationYears;
+    const bm = state.xoverSpreadDuration;
+    const notionalUsd = (nav * sd) / bm;
+    const notionalEur = notionalUsd / baseFx;
 
     spreadShifts.forEach((sShift) => {
       const tr = document.createElement("tr");
@@ -1013,13 +1269,13 @@
         const targetFx = baseFx * (1 + fMove / 100.0);
 
         const res = calculateTradePnl({
-          navUsd: state.portfolioNavUsd,
+          navUsd: nav,
           direction: state.direction,
-          notionalEur: state.notionalEur,
-          sdXover: state.xoverSpreadDuration,
+          notionalEur: notionalEur,
+          sdXover: bm,
           entrySpread: baseSpread,
           exitSpread: targetSpread,
-          carryBps: state.scenarioCarryBps || baseSpread,
+          carryBps: baseSpread,
           days: state.scenarioDays,
           entryFx: baseFx,
           exitFx: targetFx,
@@ -1046,7 +1302,6 @@
 
         td.textContent = displayVal;
 
-        // Color coding
         const isGood = numVal >= 0;
         const absVal = Math.min(100, Math.abs(numVal));
         const alpha = Math.min(0.75, 0.08 + (absVal / 100.0) * 0.65);
@@ -1059,12 +1314,10 @@
           td.style.color = alpha > 0.4 ? "#ffffff" : "#1d1d1f";
         }
 
-        // Active highlight if matching custom scenario
         if (sShift === state.scenarioSpreadShift && fMove === state.scenarioFxPct) {
           td.classList.add("active-cell");
         }
 
-        // Click to load into custom simulator
         td.title = `Spread: ${sShift > 0 ? "+" : ""}${sShift} bps | EUR: ${fMove > 0 ? "+" : ""}${fMove}% -> PnL: ${fmtBps(res.totalNetPnlBps, 1)} (${fmtUsd(res.totalNetPnlUsd)})`;
         td.addEventListener("click", () => {
           state.scenarioSpreadShift = sShift;
@@ -1078,6 +1331,76 @@
 
       tableBody.appendChild(tr);
     });
+  }
+
+  function renderScenarioCustomControls() {
+    const slSp = el("xoScenarioSpreadSlider");
+    const inSp = el("xoScenarioSpreadInput");
+    const slFx = el("xoScenarioFxSlider");
+    const inFx = el("xoScenarioFxInput");
+    const slDays = el("xoScenarioDaysSlider");
+    const inDays = el("xoScenarioDaysInput");
+
+    const elSpVal = el("xoScenarioSpreadVal");
+    const elFxVal = el("xoScenarioFxVal");
+    const elDaysVal = el("xoScenarioDaysVal");
+
+    if (slSp) slSp.value = state.scenarioSpreadShift;
+    if (inSp && document.activeElement !== inSp) inSp.value = state.scenarioSpreadShift;
+    if (slFx) slFx.value = state.scenarioFxPct;
+    if (inFx && document.activeElement !== inFx) inFx.value = state.scenarioFxPct;
+    if (slDays) slDays.value = state.scenarioDays;
+    if (inDays && document.activeElement !== inDays) inDays.value = state.scenarioDays;
+
+    if (elSpVal) elSpVal.textContent = fmtBps(state.scenarioSpreadShift, 1);
+    if (elFxVal) elFxVal.textContent = fmtPct(state.scenarioFxPct, 1);
+    if (elDaysVal) elDaysVal.textContent = `${state.scenarioDays} days`;
+
+    const baseSpread = state.scenarioEntrySpread || 296.0;
+    const baseFx = state.scenarioEntryFx || 1.1392;
+    const nav = state.portfolioNavUsd;
+    const sd = state.scenarioSpreadDuration || state.targetSpreadDurationYears;
+    const bm = state.xoverSpreadDuration;
+    const notionalUsd = (nav * sd) / bm;
+    const notionalEur = notionalUsd / baseFx;
+
+    const targetSpread = baseSpread + state.scenarioSpreadShift;
+    const targetFx = baseFx * (1 + state.scenarioFxPct / 100.0);
+
+    const res = calculateTradePnl({
+      navUsd: nav,
+      direction: state.direction,
+      notionalEur: notionalEur,
+      sdXover: bm,
+      entrySpread: baseSpread,
+      exitSpread: targetSpread,
+      carryBps: baseSpread,
+      days: state.scenarioDays,
+      entryFx: baseFx,
+      exitFx: targetFx,
+      hedgePct: state.fxHedgePct,
+      hedgeStance: state.fxHedgeStance,
+    });
+
+    const elScenBps = el("xoScenarioBpsReadout");
+    const elScenUsd = el("xoScenarioUsdReadout");
+    const elScenAnn = el("xoScenarioAnnualizedReadout");
+    const elScenDesc = el("xoScenarioDescReadout");
+
+    if (elScenBps) {
+      elScenBps.textContent = fmtBps(res.totalNetPnlBps, 1);
+      elScenBps.className = "modeler-hero-metric " + (res.totalNetPnlBps >= 0 ? "good" : "bad");
+    }
+    if (elScenUsd) elScenUsd.textContent = fmtUsd(res.totalNetPnlUsd);
+    if (elScenAnn && state.scenarioDays > 0) {
+      const annReturn = (res.totalNetPnlBps / 100.0) * (365.0 / state.scenarioDays);
+      elScenAnn.textContent = `(Ann: ${annReturn >= 0 ? "+" : ""}${annReturn.toFixed(2)}%)`;
+    }
+    if (elScenDesc) {
+      elScenDesc.textContent = `Spread: ${baseSpread.toFixed(1)} → ${targetSpread.toFixed(1)} bps (${fmtBps(state.scenarioSpreadShift, 1)}) · EUR/USD: ${baseFx.toFixed(4)} → ${targetFx.toFixed(4)} (${fmtPct(state.scenarioFxPct)}) over ${state.scenarioDays}d`;
+    }
+
+    renderWaterfallBar("xoScenarioWaterfall", res);
   }
 
   /**
@@ -1353,11 +1676,159 @@
     setupScenarioInputs("Fx", (v) => (state.scenarioFxPct = v));
     setupScenarioInputs("Days", (v) => (state.scenarioDays = Math.round(v)));
 
+    // Scenario Baseline Inputs
+    const inScenSd = el("xoScenTargetSd");
+    const slScenSd = el("xoScenTargetSdSlider");
+    if (inScenSd) {
+      inScenSd.addEventListener("change", (e) => {
+        const v = parseFloat(e.target.value);
+        if (!isNaN(v) && v > 0) {
+          state.scenarioSpreadDuration = v;
+          state.targetSpreadDurationYears = v;
+          syncSizing("duration");
+          renderAll();
+        }
+      });
+    }
+    if (slScenSd) {
+      slScenSd.addEventListener("input", (e) => {
+        const v = parseFloat(e.target.value);
+        state.scenarioSpreadDuration = v;
+        state.targetSpreadDurationYears = v;
+        syncSizing("duration");
+        renderAll();
+      });
+    }
+
+    const inScenEntrySp = el("xoScenEntrySpread");
+    if (inScenEntrySp) {
+      inScenEntrySp.addEventListener("change", (e) => {
+        const v = parseFloat(e.target.value);
+        if (!isNaN(v) && v > 0) {
+          state.scenarioEntrySpread = v;
+          renderScenarioSection();
+        }
+      });
+    }
+
+    const btnResetSp = el("xoScenResetSpread");
+    if (btnResetSp) {
+      btnResetSp.addEventListener("click", () => {
+        const nowRow = rawHistory[rawHistory.length - 1];
+        state.scenarioEntrySpread = nowRow ? nowRow.itraxx_xover : 296.0;
+        renderScenarioSection();
+      });
+    }
+
+    const btnSp250 = el("xoScenSpread250");
+    if (btnSp250) {
+      btnSp250.addEventListener("click", () => {
+        state.scenarioEntrySpread = 250.0;
+        renderScenarioSection();
+      });
+    }
+
+    const btnSp350 = el("xoScenSpread350");
+    if (btnSp350) {
+      btnSp350.addEventListener("click", () => {
+        state.scenarioEntrySpread = 350.0;
+        renderScenarioSection();
+      });
+    }
+
+    const inScenFx = el("xoScenEntryFx");
+    if (inScenFx) {
+      inScenFx.addEventListener("change", (e) => {
+        const v = parseFloat(e.target.value);
+        if (!isNaN(v) && v > 0) {
+          state.scenarioEntryFx = v;
+          renderScenarioSection();
+        }
+      });
+    }
+
+    const inScenDays = el("xoScenDaysInput");
+    if (inScenDays) {
+      inScenDays.addEventListener("change", (e) => {
+        const v = parseInt(e.target.value, 10);
+        if (!isNaN(v) && v > 0) {
+          state.scenarioDays = v;
+          document.querySelectorAll(".xo-scen-day-chip").forEach((c) => {
+            c.classList.toggle("active", parseInt(c.dataset.days, 10) === v);
+          });
+          renderScenarioSection();
+        }
+      });
+    }
+
+    document.querySelectorAll(".xo-scen-day-chip").forEach((chip) => {
+      chip.addEventListener("click", () => {
+        document.querySelectorAll(".xo-scen-day-chip").forEach((c) => c.classList.remove("active"));
+        chip.classList.add("active");
+        state.scenarioDays = parseInt(chip.dataset.days, 10);
+        renderScenarioSection();
+      });
+    });
+
+    const inScenHedgePct = el("xoScenFxHedgePct");
+    if (inScenHedgePct) {
+      inScenHedgePct.addEventListener("change", (e) => {
+        const v = parseFloat(e.target.value);
+        if (!isNaN(v) && v >= 0) {
+          state.fxHedgePct = v;
+          renderAll();
+        }
+      });
+    }
+
+    const bScenHedgeShort = el("xoScenHedgeShort");
+    const bScenHedgeLong = el("xoScenHedgeLong");
+    const bScenHedgeNone = el("xoScenHedgeNone");
+    if (bScenHedgeShort) {
+      bScenHedgeShort.addEventListener("click", () => {
+        state.fxHedgeStance = "short_eur";
+        renderAll();
+      });
+    }
+    if (bScenHedgeLong) {
+      bScenHedgeLong.addEventListener("click", () => {
+        state.fxHedgeStance = "long_eur";
+        renderAll();
+      });
+    }
+    if (bScenHedgeNone) {
+      bScenHedgeNone.addEventListener("click", () => {
+        state.fxHedgeStance = "none";
+        renderAll();
+      });
+    }
+
+    const btnResetScens = el("xoResetScenariosBtn");
+    if (btnResetScens) {
+      btnResetScens.addEventListener("click", () => {
+        state.scenarioList = JSON.parse(JSON.stringify(DEFAULT_SCENARIOS));
+        renderScenarioTable();
+      });
+    }
+
+    // Matrix Range Preset Buttons
+    document.querySelectorAll(".xo-matrix-preset-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".xo-matrix-preset-btn").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        state.matrixPreset = btn.dataset.preset;
+        renderSensitivityMatrix();
+      });
+    });
+
     // Scenario Macro Presets
     document.querySelectorAll(".xo-macro-preset").forEach((btn) => {
       btn.addEventListener("click", () => {
         state.scenarioSpreadShift = parseFloat(btn.dataset.spread);
         state.scenarioFxPct = parseFloat(btn.dataset.fx);
+        if (btn.dataset.days) {
+          state.scenarioDays = parseInt(btn.dataset.days, 10);
+        }
         renderScenarioSection();
       });
     });
@@ -1392,7 +1863,7 @@
         tabBacktest.classList.remove("active");
         secBacktest.style.display = "none";
         secScenario.style.display = "block";
-        renderSensitivityMatrix();
+        renderScenarioSection();
       });
     }
 

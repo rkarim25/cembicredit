@@ -489,37 +489,218 @@ def build_excel_model():
         ws_model[f"F{r_idx}"].font = font_muted
         ws_model[f"F{r_idx}"].border = border_cell
 
-    # Section 4: 2D Scenario Sensitivity Matrix (Rows 45-56)
-    ws_model.merge_cells("B44:K44")
-    ws_model["B44"] = "4. 2D SCENARIO SENSITIVITY MATRIX (PORTFOLIO IMPACT IN BPS)"
-    ws_model["B44"].font = font_sec_head
-    ws_model["B44"].fill = fill_ice
-    ws_model["B44"].alignment = align_left
-    for col_l in ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]:
-        ws_model[f"{col_l}44"].border = border_sec_head
-    ws_model.row_dimensions[44].height = 22
+    # Section 4: Forward Scenario Sizing & Baseline Inputs (Rows 44-52)
+    set_sec_header(44, "4. FORWARD SCENARIO SIZING & BASELINE INPUTS")
 
-    ws_model.merge_cells("B45:K45")
-    ws_model["B45"] = "Rows = Xover Spread Shift (bps) · Columns = EUR/USD Currency Move (%) · Cells = Net Portfolio Impact in basis points (bps)"
-    ws_model["B45"].font = font_muted
-    ws_model["B45"].alignment = align_left
-    for col_l in ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]:
-        ws_model[f"{col_l}45"].border = border_cell
+    scen_inputs = [
+        (45, "Scenario Target Spread Duration (yrs)", "=C8", '0.00" yrs"', "Portfolio spread duration target (defaults to C8, overridable)", True),
+        (46, "Scenario Benchmark Spread Duration (yrs)", "=C9", '0.00" yrs"', "Benchmark iTraxx Xover 5Y spread duration", False),
+        (47, "Scenario Entry Spread Level (bps)", "=C26", '0.0" bps"', "Starting Xover spread level (defaults to exit spread C26, overridable)", True),
+        (48, "Scenario Base EUR/USD Exchange Rate", "=C28", "0.0000", "Starting EUR/USD exchange rate (defaults to exit FX C28, overridable)", True),
+        (49, "Scenario Default Time Horizon (Days)", 90, '0" days"', "Scenario evaluation holding horizon in calendar days", True),
+        (50, "Scenario Implied USD Notional", "=($C$6*C45)/C46", "$#,##0", "= (NAV * Scenario_SD) / Benchmark_SD", False),
+        (51, "Scenario Implied EUR CDS Notional", "=C50/C48", "€#,##0", "= Scenario_USD_Notional / Base_EURUSD", False),
+        (52, "Scenario Spread DV01 (USD)", "=(C51*C46*0.0001)*C48", "$#,##0", "= (EUR_Notional * Benchmark_SD * 1bp) * Base_EURUSD", False),
+    ]
 
-    # Column Headers for Matrix (Row 46)
+    for r_idx, label, val_or_f, num_fmt, note, is_input in scen_inputs:
+        ws_model[f"B{r_idx}"] = label
+        ws_model[f"B{r_idx}"].font = font_bold
+        ws_model[f"B{r_idx}"].border = border_cell
+
+        ws_model[f"C{r_idx}"] = val_or_f
+        ws_model[f"C{r_idx}"].font = font_input if is_input else font_bold
+        ws_model[f"C{r_idx}"].number_format = num_fmt
+        ws_model[f"C{r_idx}"].alignment = align_right
+        ws_model[f"C{r_idx}"].border = border_cell
+        if is_input:
+            ws_model[f"C{r_idx}"].fill = fill_input
+
+        ws_model.merge_cells(f"D{r_idx}:F{r_idx}")
+        ws_model[f"D{r_idx}"] = note
+        ws_model[f"D{r_idx}"].font = font_muted
+        ws_model[f"D{r_idx}"].alignment = align_left
+        for col_l in ["D", "E", "F"]:
+            ws_model[f"{col_l}{r_idx}"].border = border_cell
+
+    # Section 5: Sensible Macro Regimes & Scenario Table (Rows 54-66)
+    ws_model.merge_cells("B54:N54")
+    ws_model["B54"] = "5. MULTI-SCENARIO ANALYSIS: SENSIBLE REGIMES & DIRECT OVERRIDES"
+    ws_model["B54"].font = font_sec_head
+    ws_model["B54"].fill = fill_ice
+    ws_model["B54"].alignment = align_left
+    for col_l in ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"]:
+        ws_model[f"{col_l}54"].border = border_sec_head
+    ws_model.row_dimensions[54].height = 22
+
+    ws_model.merge_cells("B55:N55")
+    ws_model["B55"] = "Simulate joint portfolio return across spread moves, currency shifts, and time horizons. Directly edit Spread Move (Col C), EUR Move (Col E), or Horizon (Col G) in any row."
+    ws_model["B55"].font = font_muted
+    ws_model["B55"].alignment = align_left
+    for col_l in ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"]:
+        ws_model[f"{col_l}55"].border = border_cell
+
+    # Header Row 56
+    scen_headers = [
+        ("B56", "Scenario Regime & Thesis", align_left),
+        ("C56", "Spread Move (bps)", align_right),
+        ("D56", "Exit Spread", align_right),
+        ("E56", "EUR Move (%)", align_right),
+        ("F56", "Exit EUR/USD", align_right),
+        ("G56", "Horizon (Days)", align_right),
+        ("H56", "Spread Capital ($)", align_right),
+        ("I56", "Carry Yield ($)", align_right),
+        ("J56", "FX Trans ($)", align_right),
+        ("K56", "FX Hedge ($)", align_right),
+        ("L56", "Total Net USD ($)", align_right),
+        ("M56", "Total Return (bps)", align_right),
+        ("N56", "Unhedged (bps)", align_right),
+    ]
+    for cell_id, text, al in scen_headers:
+        ws_model[cell_id] = text
+        ws_model[cell_id].font = Font(name="Segoe UI", size=9, bold=True, color=NAVY)
+        ws_model[cell_id].fill = fill_ice
+        ws_model[cell_id].alignment = al
+        ws_model[cell_id].border = border_cell
+
+    # 9 Sensible Scenarios
+    scenarios = [
+        ("Status Quo (Pure Carry Harvest)", 0, 0.0, 90),
+        ("Soft Landing (Mild Compression)", -25, 0.015, 90),
+        ("Aggressive Risk-On Rally", -50, 0.035, 180),
+        ("Mild European Decompression", 35, -0.025, 90),
+        ("European Stagflation / Widening", 75, -0.05, 90),
+        ("Severe Crisis / Blowout Shock", 130, -0.08, 60),
+        ("Isolated FX Shock (Dollar Spike)", 0, -0.05, 90),
+        ("Custom Scenario A", -35, -0.02, 90),
+        ("Custom Scenario B", 50, 0.0, 120),
+    ]
+
+    for idx, (scen_name, sp_move, fx_move, days) in enumerate(scenarios):
+        row = 57 + idx
+        # Name
+        ws_model[f"B{row}"] = scen_name
+        ws_model[f"B{row}"].font = font_bold
+        ws_model[f"B{row}"].border = border_cell
+
+        # Spread Move (Input)
+        ws_model[f"C{row}"] = sp_move
+        ws_model[f"C{row}"].font = font_input
+        ws_model[f"C{row}"].fill = fill_input
+        ws_model[f"C{row}"].number_format = '+0.0" bps";-0.0" bps";0.0" bps"'
+        ws_model[f"C{row}"].alignment = align_right
+        ws_model[f"C{row}"].border = border_cell
+
+        # Exit Spread (Formula)
+        ws_model[f"D{row}"] = f"=$C$47+C{row}"
+        ws_model[f"D{row}"].font = font_bold
+        ws_model[f"D{row}"].number_format = '0.0" bps"'
+        ws_model[f"D{row}"].alignment = align_right
+        ws_model[f"D{row}"].border = border_cell
+
+        # EUR Move (Input)
+        ws_model[f"E{row}"] = fx_move
+        ws_model[f"E{row}"].font = font_input
+        ws_model[f"E{row}"].fill = fill_input
+        ws_model[f"E{row}"].number_format = "+0.0%;-0.0%;0.0%"
+        ws_model[f"E{row}"].alignment = align_right
+        ws_model[f"E{row}"].border = border_cell
+
+        # Exit EUR/USD (Formula)
+        ws_model[f"F{row}"] = f"=$C$48*(1+E{row})"
+        ws_model[f"F{row}"].font = font_bold
+        ws_model[f"F{row}"].number_format = "0.0000"
+        ws_model[f"F{row}"].alignment = align_right
+        ws_model[f"F{row}"].border = border_cell
+
+        # Horizon Days (Input)
+        ws_model[f"G{row}"] = days
+        ws_model[f"G{row}"].font = font_input
+        ws_model[f"G{row}"].fill = fill_input
+        ws_model[f"G{row}"].number_format = '0" days"'
+        ws_model[f"G{row}"].alignment = align_right
+        ws_model[f"G{row}"].border = border_cell
+
+        # Spread Capital ($)
+        ws_model[f"H{row}"] = f'=IF($C$7="SELL", $C$51*$C$46*(-C{row}/10000), $C$51*$C$46*(C{row}/10000))*F{row}'
+        ws_model[f"H{row}"].font = font_regular
+        ws_model[f"H{row}"].number_format = "$#,##0;($#,##0);$0"
+        ws_model[f"H{row}"].alignment = align_right
+        ws_model[f"H{row}"].border = border_cell
+
+        # Carry Yield ($)
+        ws_model[f"I{row}"] = f'=IF($C$7="SELL", $C$51*($C$47/10000)*(G{row}/360), -$C$51*($C$47/10000)*(G{row}/360))*F{row}'
+        ws_model[f"I{row}"].font = font_regular
+        ws_model[f"I{row}"].number_format = "$#,##0;($#,##0);$0"
+        ws_model[f"I{row}"].alignment = align_right
+        ws_model[f"I{row}"].border = border_cell
+
+        # FX Trans ($)
+        ws_model[f"J{row}"] = f'=(IF($C$7="SELL", $C$51*$C$46*(-C{row}/10000)+$C$51*($C$47/10000)*(G{row}/360), -$C$51*$C$46*(C{row}/10000)-$C$51*($C$47/10000)*(G{row}/360)))*(F{row}-$C$48)'
+        ws_model[f"J{row}"].font = font_muted
+        ws_model[f"J{row}"].number_format = "$#,##0;($#,##0);$0"
+        ws_model[f"J{row}"].alignment = align_right
+        ws_model[f"J{row}"].border = border_cell
+
+        # FX Hedge ($)
+        ws_model[f"K{row}"] = f'=IF($C$11="SHORT EUR", -$C$19*(F{row}-$C$48), IF($C$11="LONG EUR", $C$19*(F{row}-$C$48), 0))'
+        ws_model[f"K{row}"].font = font_regular
+        ws_model[f"K{row}"].number_format = "$#,##0;($#,##0);$0"
+        ws_model[f"K{row}"].alignment = align_right
+        ws_model[f"K{row}"].border = border_cell
+
+        # Total Net USD ($)
+        ws_model[f"L{row}"] = f"=H{row}+I{row}+K{row}"
+        ws_model[f"L{row}"].font = font_bold
+        ws_model[f"L{row}"].number_format = "$#,##0;($#,##0);$0"
+        ws_model[f"L{row}"].alignment = align_right
+        ws_model[f"L{row}"].border = border_cell
+
+        # Total Return (bps)
+        ws_model[f"M{row}"] = f"=(L{row}/$C$6)*10000"
+        ws_model[f"M{row}"].font = Font(name="Segoe UI", size=10, bold=True)
+        ws_model[f"M{row}"].number_format = '+0.0" bps";-0.0" bps";0.0" bps"'
+        ws_model[f"M{row}"].alignment = align_right
+        ws_model[f"M{row}"].border = border_cell
+
+        # Unhedged Return (bps)
+        ws_model[f"N{row}"] = f"=((H{row}+I{row})/$C$6)*10000"
+        ws_model[f"N{row}"].font = font_muted
+        ws_model[f"N{row}"].number_format = '+0.0" bps";-0.0" bps";0.0" bps"'
+        ws_model[f"N{row}"].alignment = align_right
+        ws_model[f"N{row}"].border = border_cell
+
+    # Section 6: 2D Scenario Sensitivity Matrix (Rows 68-80)
+    ws_model.merge_cells("B68:K68")
+    ws_model["B68"] = "6. 2D SCENARIO SENSITIVITY MATRIX (PORTFOLIO IMPACT IN BPS)"
+    ws_model["B68"].font = font_sec_head
+    ws_model["B68"].fill = fill_ice
+    ws_model["B68"].alignment = align_left
+    for col_l in ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]:
+        ws_model[f"{col_l}68"].border = border_sec_head
+    ws_model.row_dimensions[68].height = 22
+
+    ws_model.merge_cells("B69:K69")
+    ws_model["B69"] = "Rows = Spread Shift (bps) · Columns = EUR/USD Move (%) · Holding Horizon = $C$49 days · Cell Values = Total Return in basis points (bps)"
+    ws_model["B69"].font = font_muted
+    ws_model["B69"].alignment = align_left
+    for col_l in ["B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]:
+        ws_model[f"{col_l}69"].border = border_cell
+
+    # Column Headers for Matrix (Row 70)
     fx_moves = [-0.10, -0.075, -0.05, -0.025, 0.0, 0.025, 0.05, 0.075, 0.10]
     spread_shifts = [-100, -75, -50, -25, 0, 25, 50, 75, 100]
 
-    ws_model["B46"] = "Spread \\ EUR"
-    ws_model["B46"].font = Font(name="Segoe UI", size=9, bold=True, color=NAVY)
-    ws_model["B46"].fill = PatternFill(start_color="D6E4F0", end_color="D6E4F0", fill_type="solid")
-    ws_model["B46"].alignment = align_left
-    ws_model["B46"].border = border_cell
+    ws_model["B70"] = "Spread \\ EUR"
+    ws_model["B70"].font = Font(name="Segoe UI", size=9, bold=True, color=NAVY)
+    ws_model["B70"].fill = PatternFill(start_color="D6E4F0", end_color="D6E4F0", fill_type="solid")
+    ws_model["B70"].alignment = align_left
+    ws_model["B70"].border = border_cell
 
     matrix_cols = ["C", "D", "E", "F", "G", "H", "I", "J", "K"]
     for idx, fx in enumerate(fx_moves):
         c_letter = matrix_cols[idx]
-        cell = ws_model[f"{c_letter}46"]
+        cell = ws_model[f"{c_letter}70"]
         cell.value = fx
         cell.font = Font(name="Segoe UI", size=9, bold=True, color=NAVY)
         cell.number_format = "+0.0%;-0.0%;0.0%"
@@ -527,9 +708,9 @@ def build_excel_model():
         cell.fill = fill_ice
         cell.border = border_cell
 
-    # Matrix Body (Rows 47-55)
+    # Matrix Body (Rows 71-79)
     for r_idx, s_shift in enumerate(spread_shifts):
-        row_num = 47 + r_idx
+        row_num = 71 + r_idx
         # Row Header
         ws_model[f"B{row_num}"] = s_shift
         ws_model[f"B{row_num}"].font = Font(name="Segoe UI", size=9, bold=True, color=NAVY)
@@ -540,13 +721,12 @@ def build_excel_model():
 
         for c_idx, fx in enumerate(fx_moves):
             c_letter = matrix_cols[c_idx]
-            # Comprehensive Formula linking all dynamic inputs
             formula = (
-                f"=(((IF($C$7=\"SELL\", $C$14*$C$9*(-$B{row_num}/10000), $C$14*$C$9*($B{row_num}/10000))"
-                f"+ IF($C$7=\"SELL\", $C$14*($C$29/10000)*($C$30/360), -$C$14*($C$29/10000)*($C$30/360)))"
-                f"* ($C$28*(1+{c_letter}$46))"
-                f"+ IF($C$11=\"SHORT EUR\", -$C$19*($C$28*(1+{c_letter}$46)-$C$27),"
-                f"IF($C$11=\"LONG EUR\", $C$19*($C$28*(1+{c_letter}$46)-$C$27), 0)))"
+                f"=(((IF($C$7=\"SELL\", $C$51*$C$46*(-$B{row_num}/10000), $C$51*$C$46*($B{row_num}/10000))"
+                f"+ IF($C$7=\"SELL\", $C$51*($C$47/10000)*($C$49/360), -$C$51*($C$47/10000)*($C$49/360)))"
+                f"* ($C$48*(1+{c_letter}$70))"
+                f"+ IF($C$11=\"SHORT EUR\", -$C$19*($C$48*(1+{c_letter}$70)-$C$48),"
+                f"IF($C$11=\"LONG EUR\", $C$19*($C$48*(1+{c_letter}$70)-$C$48), 0)))"
                 f"/ $C$6) * 10000"
             )
             cell = ws_model[f"{c_letter}{row_num}"]
@@ -562,21 +742,24 @@ def build_excel_model():
         mid_type="num", mid_value=0, mid_color="FFFFFF",         # white
         end_type="num", end_value=60, end_color="D4EFDF"         # soft green
     )
-    ws_model.conditional_formatting.add("C47:K55", color_scale)
+    ws_model.conditional_formatting.add("C71:K79", color_scale)
 
     # Set column widths for Tab 1
     col_widths = {
         "A": 3,
         "B": 38,
-        "C": 22,
-        "D": 22,
-        "E": 18,
-        "F": 32,
-        "G": 10,
-        "H": 10,
-        "I": 10,
-        "J": 10,
-        "K": 10,
+        "C": 18,
+        "D": 16,
+        "E": 16,
+        "F": 16,
+        "G": 14,
+        "H": 18,
+        "I": 18,
+        "J": 18,
+        "K": 18,
+        "L": 18,
+        "M": 18,
+        "N": 16,
     }
     for c_letter, w in col_widths.items():
         ws_model.column_dimensions[c_letter].width = w
