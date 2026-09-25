@@ -559,7 +559,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "14:00 Johannesburg",
     "ir_webcast_url": "https://www.goldfields.com/investors.php",
-    "days_to_earnings": 54
+    "days_to_earnings": 48
   },
   "management_questions": [
     {
@@ -738,6 +738,19 @@
       "date": "2026-09-24",
       "period_name": "2026-09-24",
       "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "BBB- / Baa3",
+      "price": 100.2,
+      "ytm": 6.05,
+      "spread_bp": 200,
+      "net_leverage": 0.85,
+      "ebitda": 2100,
+      "fcf": 281.4,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
       "rating": "BBB- / Baa3",
       "price": 100.2,
       "ytm": 6.05,

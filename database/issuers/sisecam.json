@@ -557,7 +557,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "17:30 Istanbul",
     "ir_webcast_url": "https://www.sisecam.com.tr/en/investor-relations",
-    "days_to_earnings": 41
+    "days_to_earnings": 35
   },
   "management_questions": [
     {
@@ -736,6 +736,19 @@
       "date": "2026-09-24",
       "period_name": "2026-09-24",
       "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "BB- / B1",
+      "price": 99.5,
+      "ytm": 6.85,
+      "spread_bp": 245,
+      "net_leverage": 2.18,
+      "ebitda": 1100.0,
+      "fcf": -66.2,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
       "rating": "BB- / B1",
       "price": 99.5,
       "ytm": 6.85,

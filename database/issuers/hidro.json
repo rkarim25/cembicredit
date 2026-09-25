@@ -558,7 +558,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/HIDRO",
-    "days_to_earnings": 54
+    "days_to_earnings": 48
   },
   "management_questions": [
     {
@@ -737,6 +737,19 @@
       "date": "2026-09-24",
       "period_name": "2026-09-24",
       "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "BBB-",
+      "price": 99.0,
+      "ytm": 5.5,
+      "spread_bp": 145,
+      "net_leverage": 0.4,
+      "ebitda": 1550.0,
+      "fcf": -250.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
       "rating": "BBB-",
       "price": 99.0,
       "ytm": 5.5,

@@ -573,7 +573,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "08:30 London",
     "ir_webcast_url": "https://www.tullowoil.com/investors/",
-    "days_to_earnings": 53
+    "days_to_earnings": 47
   },
   "management_questions": [
     {
@@ -752,6 +752,19 @@
       "date": "2026-09-24",
       "period_name": "2026-09-24",
       "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
       "rating": "B- / Caa1",
       "price": 86.5,
       "ytm": 13.8,

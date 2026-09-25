@@ -558,7 +558,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "13:00 Abu Dhabi",
     "ir_webcast_url": "https://www.taqa.com/investors/",
-    "days_to_earnings": 51
+    "days_to_earnings": 45
   },
   "management_questions": [
     {
@@ -737,6 +737,19 @@
       "date": "2026-09-24",
       "period_name": "2026-09-24",
       "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "Aa3 / AA-",
+      "price": 98.5,
+      "ytm": 4.9,
+      "spread_bp": 85,
+      "net_leverage": 1.85,
+      "ebitda": 5600.0,
+      "fcf": -1321.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
       "rating": "Aa3 / AA-",
       "price": 98.5,
       "ytm": 4.9,

@@ -558,7 +558,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
-    "days_to_earnings": 52
+    "days_to_earnings": 46
   },
   "management_questions": [
     {
@@ -730,6 +730,19 @@
       "date": "2026-09-24",
       "period_name": "2026-09-24",
       "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "BB / BB-",
+      "price": 99.8,
+      "ytm": 7.15,
+      "spread_bp": 310,
+      "net_leverage": 1.45,
+      "ebitda": 1350.0,
+      "fcf": 127.3,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
       "rating": "BB / BB-",
       "price": 99.8,
       "ytm": 7.15,

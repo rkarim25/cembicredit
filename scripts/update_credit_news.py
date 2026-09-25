@@ -26,6 +26,107 @@ DB_SQLITE = os.path.join(REPO_ROOT, "database", "credit_master.db")
 
 CREDIT_NEWS_DATA = [
   {
+    "id": "NEWS-2026-09-25-01",
+    "date": "2026-09-25",
+    "ticker": "MACRO-TURK",
+    "issuer_name": "Central Bank of the Republic of Turkey (CBRT) / Turkish Corporates",
+    "headline": "CBRT Holds One-Week Repo Rate at 50.0% in Hawkish Pause; Pledges Tight Stance Until Monthly Disinflation Persists",
+    "source": "Central Bank of the Republic of Turkey (TCMB)",
+    "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2026",
+    "category": "Macro / Sovereign Transmission",
+    "macro_transmission_channel": "Turkish Monetary Orthodoxy, Lira Real Carry & Corporate Refinancing Spreads",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "ZOREN",
+      "SISE",
+      "TUPRS",
+      "EREGL",
+      "KCHOL",
+      "AKBNK",
+      "GARAN",
+      "ISCTR",
+      "YKBNK"
+    ],
+    "concise_analysis": "CBRT's resolute commitment to a 50.0% policy rate anchors the real exchange rate and prevents FX pass-through spikes. For Turkish bank issuers, elevated funding costs compress loan-deposit spreads, but international market access remains wide open with 5Y CDS tight at 265 bps. For exporting corporates (SISE, TUPRS, EREGL), hard-currency debt remains manageable while domestic FX volatility stays suppressed.",
+    "credit_commentary": "CBRT's resolute commitment to a 50.0% policy rate anchors the real exchange rate and prevents FX pass-through spikes. For Turkish bank issuers, elevated funding costs compress loan-deposit spreads, but international market access remains wide open with 5Y CDS tight at 265 bps. For exporting corporates (SISE, TUPRS, EREGL), hard-currency debt remains manageable while domestic FX volatility stays suppressed."
+  },
+  {
+    "id": "NEWS-2026-09-25-02",
+    "date": "2026-09-25",
+    "ticker": "MACRO-SA",
+    "issuer_name": "South African Reserve Bank (SARB) / South African Corporates",
+    "headline": "SARB Cuts Repo Rate by 25 bps to 8.00% Following Favorable CPI Print; Eases Domestic Debt Servicing Burden",
+    "source": "South African Reserve Bank",
+    "url": "https://www.resbank.co.za/en/home/publications/statements/monetary-policy-statements",
+    "category": "Macro / Sovereign Transmission",
+    "macro_transmission_channel": "South African Sovereign Yield Curve Compression & Domestic Refinancing Costs",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "ESKOM",
+      "SOL",
+      "MTN",
+      "GFI"
+    ],
+    "concise_analysis": "SARB's 25bp policy cut to 8.00% begins the long-awaited easing cycle as headline CPI slowed to 4.4%. The move lowers floating-rate debt service costs for Eskom and Sasol, while strengthening the Rand against the USD. Sovereign bond yields compressed 12 bps along the SAGB curve, supporting CEEMEA local and external bond valuations.",
+    "credit_commentary": "SARB's 25bp policy cut to 8.00% begins the long-awaited easing cycle as headline CPI slowed to 4.4%. The move lowers floating-rate debt service costs for Eskom and Sasol, while strengthening the Rand against the USD. Sovereign bond yields compressed 12 bps along the SAGB curve, supporting CEEMEA local and external bond valuations."
+  },
+  {
+    "id": "NEWS-2026-09-24-01",
+    "date": "2026-09-24",
+    "ticker": "BRASKM",
+    "issuer_name": "Braskem S.A.",
+    "headline": "Braskem Reaches Final Environmental Settlement Addendum in Alagoas, Capping Future Cash Provisions at R$1.2B",
+    "source": "CVM Comissão de Valores Mobiliários / Braskem IR",
+    "url": "https://www.braskem-ri.com.br/en",
+    "category": "Company Specific",
+    "macro_transmission_channel": "Legal Tail-Risk De-escalation & LatAm Chemical Spread Compression",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "BRASKM"
+    ],
+    "concise_analysis": "Braskem and federal authorities executed an addendum defining the final indemnity and geotechnical closure obligations for the Maceió rock salt cavity subsidence, capping remaining disbursements over 2026-2027 at R$1.2B ($220M). This removes the open-ended legal uncertainty that had penalized Braskem's 2030 and 2081 subordinated debt, triggering a 40 bps spread tightening.",
+    "credit_commentary": "Braskem and federal authorities executed an addendum defining the final indemnity and geotechnical closure obligations for the Maceió rock salt cavity subsidence, capping remaining disbursements over 2026-2027 at R$1.2B ($220M). This removes the open-ended legal uncertainty that had penalized Braskem's 2030 and 2081 subordinated debt, triggering a 40 bps spread tightening."
+  },
+  {
+    "id": "NEWS-2026-09-24-02",
+    "date": "2026-09-24",
+    "ticker": "DANGCEM",
+    "issuer_name": "Dangote Refinery & Petrochemicals",
+    "headline": "Dangote Refinery Reaches Full 650,000 bpd Secondary Unit Commissioning; Expands Low-Sulfur Gasoil Export Volume",
+    "source": "Nigerian Upstream Petroleum Regulatory Commission (NUPRC) / Dangote Group",
+    "url": "https://www.dangote.com/investor-relations/",
+    "category": "Company Specific",
+    "macro_transmission_channel": "West African Downstream Hydrocarbon Trade Flows & Hard Currency Inflows",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "DANGCEM",
+      "DANGFERT"
+    ],
+    "concise_analysis": "Operational ramp-up of the fluid catalytic cracker (FCC) and mild hydrocracker units allows Dangote to run at full nameplate 650 kbpd capacity with high-value distillate yields. The group commenced direct pipeline and seaborne shipments across ECOWAS, boosting monthly cash flow to ~$180M and accelerating scheduled amortization of syndicated term bank facilities.",
+    "credit_commentary": "Operational ramp-up of the fluid catalytic cracker (FCC) and mild hydrocracker units allows Dangote to run at full nameplate 650 kbpd capacity with high-value distillate yields. The group commenced direct pipeline and seaborne shipments across ECOWAS, boosting monthly cash flow to ~$180M and accelerating scheduled amortization of syndicated term bank facilities."
+  },
+  {
+    "id": "NEWS-2026-09-24-03",
+    "date": "2026-09-24",
+    "ticker": "TAQA",
+    "issuer_name": "Abu Dhabi National Energy Company (TAQA)",
+    "headline": "TAQA Successfully Prices $1.0B Dual-Tranche Green Bond (5Y & 10Y) at Tightest Spreads of the Year (T+60 / T+75 bps)",
+    "source": "Abu Dhabi Securities Exchange (ADX)",
+    "url": "https://www.adx.ae/English/Pages/ProductsAndServices/Securities/CompanyProfile.aspx?isin=AEA000801014",
+    "category": "Capital Markets",
+    "macro_transmission_channel": "GCC Quasi-Sovereign Green Financing & Global Benchmark Pricing",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "TAQA",
+      "ACWA",
+      "SEC",
+      "DPW",
+      "ALDAR"
+    ],
+    "concise_analysis": "TAQA's order book exceeded $4.8B (almost 5x covered), allowing pricing inside secondaries with zero concession. Proceeds will refinance existing bank facilities and fund renewable grid interconnectors in the UAE. Spreads of +60 bps (5Y) and +75 bps (10Y) affirm pristine AA- tier institutional market reception.",
+    "credit_commentary": "TAQA's order book exceeded $4.8B (almost 5x covered), allowing pricing inside secondaries with zero concession. Proceeds will refinance existing bank facilities and fund renewable grid interconnectors in the UAE. Spreads of +60 bps (5Y) and +75 bps (10Y) affirm pristine AA- tier institutional market reception."
+  },
+  {
     "id": "NEWS-2026-09-01",
     "date": "2026-09-21",
     "ticker": "MACRO-OIL",

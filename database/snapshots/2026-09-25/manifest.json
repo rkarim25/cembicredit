@@ -1,0 +1,10 @@
+{
+  "run_id": "SNAP-20260925-946",
+  "snapshot_date": "2026-09-25",
+  "timestamp": "2026-09-25T05:19:06.250613",
+  "trigger_source": "Autonomous Model Update",
+  "total_issuers": 89,
+  "total_tranches": 353,
+  "total_guidance_metrics": 432,
+  "notes": "Updated financials, EBITDA reconciliation, FCF waterfalls, and credit news across universe."
+}

@@ -560,7 +560,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "15:30 Riyadh / 12:30 UK",
     "ir_webcast_url": "https://www.stc.com.sa/content/stc/sa/en/investor-relations.html",
-    "days_to_earnings": 37
+    "days_to_earnings": 31
   },
   "management_questions": [
     {
@@ -732,6 +732,19 @@
       "date": "2026-09-24",
       "period_name": "2026-09-24",
       "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "A1 / A+",
+      "price": 97.5,
+      "ytm": 4.85,
+      "spread_bp": 80,
+      "net_leverage": 0.65,
+      "ebitda": 7200,
+      "fcf": 1649.2,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
       "rating": "A1 / A+",
       "price": 97.5,
       "ytm": 4.85,

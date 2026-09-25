@@ -553,7 +553,7 @@
     "confirmation_status": "Estimated",
     "call_time": "17:00 Istanbul",
     "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
-    "days_to_earnings": 47
+    "days_to_earnings": 41
   },
   "management_questions": [
     {
@@ -732,6 +732,19 @@
       "date": "2026-09-24",
       "period_name": "2026-09-24",
       "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "BB / BB+",
+      "price": 98.5,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": 1.25,
+      "ebitda": 4800.0,
+      "fcf": -512.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
       "rating": "BB / BB+",
       "price": 98.5,
       "ytm": 6.85,
