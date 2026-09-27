@@ -186,6 +186,19 @@
       "ebitda": 2200.0,
       "fcf": -1991.7,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-27",
+      "period_name": "2026-09-27",
+      "timestamp": "2026-09-27T05:15:31.591151",
+      "rating": "B / B-",
+      "price": 99.0,
+      "ytm": 8.5,
+      "spread_bp": 445,
+      "net_leverage": 6.8,
+      "ebitda": 2200.0,
+      "fcf": -1991.7,
+      "guidance_status": "On Track"
     }
   ]
 }

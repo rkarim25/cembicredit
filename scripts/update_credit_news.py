@@ -26,6 +26,47 @@ DB_SQLITE = os.path.join(REPO_ROOT, "database", "credit_master.db")
 
 CREDIT_NEWS_DATA = [
   {
+    "id": "NEWS-2026-09-26-01",
+    "date": "2026-09-26",
+    "ticker": "ZOREN",
+    "issuer_name": "Zorlu Enerji Elektrik Üretim A.Ş.",
+    "headline": "Zorlu Enerji Finalizes $185M Long-Term Geothermal Refinancing Facility with EBRD and DEG; Lowers Blended Debt Cost by 140 bps",
+    "source": "KAP Public Disclosure Platform / EBRD Disclosures",
+    "url": "https://www.kap.org.tr/en/",
+    "category": "Capital Markets",
+    "macro_transmission_channel": "Turkish Renewable Hard-Currency Cash Flows & Multilateral Refinancing De-risking",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "ZOREN",
+      "AYDEM"
+    ],
+    "concise_analysis": "Zorlu Enerji executed definitive agreements for a 10-year amortizing sustainability-linked credit facility with the European Bank for Reconstruction and Development (EBRD) and Germany's DEG to refinance short-term commercial bank lines for the Kizildere geothermal assets. The facility extends average debt maturity from 2.8 years to 5.4 years, frees up ~$35M in annual cash interest, and bolsters dollar debt service coverage (DSCR) to 1.65x under the dollar-indexed YEKDEM tariff framework.",
+    "credit_commentary": "Securing 10Y multilateral funding eliminates near-term maturity wall friction for ZOREN 2026/2027 paper. Spreads are positioned to compress 35-50 bps toward Turkish corporate utility benchmark peers, while collateral covenants isolate high-performing renewable cash flows from parent Zorlu Holding."
+  },
+  {
+    "id": "NEWS-2026-09-26-02",
+    "date": "2026-09-26",
+    "ticker": "MACRO-GCC",
+    "issuer_name": "GCC Debt Capital Markets Desk / Saudi & UAE Quasi-Sovereigns",
+    "headline": "GCC Eurobond & Sukuk Order Books Breach 4.5x Subscription in Heavy Late-September Issuance Window; International Inflows Remain Robust",
+    "source": "Emirates NBD Capital / Fixed Income Syndicate",
+    "url": "https://www.adx.ae/English/Pages/ProductsAndServices/Securities/CompanyProfile.aspx?isin=AEA000801014",
+    "category": "Capital Markets",
+    "macro_transmission_channel": "High-Grade CEEMEA Supply Absorption & Sovereign-to-Corporate Yield Tightening",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "TAQA",
+      "ACWA",
+      "SEC",
+      "DPW",
+      "ALDAR",
+      "EMAAR",
+      "STC"
+    ],
+    "concise_analysis": "GCC corporate and quasi-sovereign issuers absorbed over $8.5B in fresh primary supply during late September with weighted average bid-to-cover of 4.6x and zero new issue concession. Resilient oil prices above $75/bbl and sovereign wealth fund anchor orders continue to insulate GCC high-grade credit from US Treasury rate volatility, maintaining 5Y spreads near cyclical tights (60-80 bps over UST).",
+    "credit_commentary": "Robust demand demonstrates that GCC high-grade spreads have decoupled from broader emerging market volatility. Corporate issuers retain deep cross-border investor sponsorship, minimizing refinancing premium for upcoming 2027 maturities."
+  },
+  {
     "id": "NEWS-2026-09-25-01",
     "date": "2026-09-25",
     "ticker": "MACRO-TURK",
