@@ -1,0 +1,68 @@
+EM conf
+September 15, 2026
+
+Overview
+
+The discussion focuses on the current state and outlook for emerging market (EM) asset classes, emphasizing differentiation and selective strategies.
+
+Market Outlook
+Reza, Sid, and Matt evaluate the resilience of EM fundamentals despite global volatility. While fundamental indicators like improving balance payments and high carry remain strong, valuations are increasingly a concern.
+*   Reza notes that while EM is fundamentally sound, valuations have become less attractive due to recent optimism.
+*   Sid highlights that a stable US dollar has been a necessary condition for EM performance, though he remains cautious regarding potential shifts in dollar strength.
+*   Matt suggests that the primary risk involves the speed of rate changes rather than just the absolute level of US Treasuries.
+
+Asset Strategies
+The panel discusses specific opportunities across local currency, frontier markets, and credit sectors through bottom-up analysis.
+*   Local Markets: Sid advises against blindly chasing high carry; instead, investors should look for catalysts such as domestic slowdowns or improved terms of trade. Matt expresses interest in Brazil due to anticipated domestic slowdowns in households and companies.
+*   Frontier Markets: Brad identifies Nigeria and Kazakhstan as standout opportunities with significant potential for capital inflows. He views Egypt's recent currency adjustment as a positive signal but maintains a more secondary position there compared to others.
+*   Credit Markets: The group agrees there is little value in broad beta; instead, they prefer focusing on the front end of the curve in resilient countries like Argentina. Reza indicates a material short position on tight investment grade (IG) sovereign spreads, citing competition for capital from AI capex and US fiscal needs.
+
+Risk Assessment
+The participants identify several macro-level risks that could disrupt current trends over the next year or decade.
+*   Potential drivers for instability include central bank errors in developed markets causing rapid shifts in long-end yields or prolonged geopolitical conflicts in the Middle East.
+*   Long-term structural risks include climate change, exploding dependency ratios, and the profound impact of AI on economic structures and social stability.
+
+Outline
+
+EM Asset Class Outlook
+
+- Speaker 2 argues that while the EM story has been resilient, it has not been easy due to high dispersion and currency volatility.
+- Speaker 3 notes that EM is entering periods of volatility from a position of strength with high carry and improving balance sheets.
+- Speaker 4 suggests that while fundamentals remain resilient, valuations are no longer as attractive as they were at the start of the year.
+- The group agrees that success in EM currently requires heavy differentiation and selective country picking rather than broad beta exposure.
+
+Local Markets and Currency Dynamics
+
+- Speaker 3 highlights that a soft dollar is a necessary but not sufficient condition for local currency performance, citing Colombia as an example where catalysts were required.
+- Speaker 4 observes that EM central banks have responded aggressively to energy shocks by raising rates, which has helped manage inflation compared to 2022.
+- The panel discusses political catalysts, noting that Brazil's upcoming elections will likely be a major market mover.
+- Specific positive views are shared on Brazil due to domestic slowdowns and on Turkey due to effective policy management despite compressed positioning.
+
+Frontier Market Opportunities
+
+- Speaker 3 maintains a strong thesis for frontier markets, particularly focusing on Nigeria and Egypt despite their inherent risks.
+- Speaker 2 identifies Nigeria and Kazakhstan as standout opportunities within the frontier space.
+- The discussion touches upon the potential for Argentina to offer frontier-like returns in foreign exchange markets.
+- Speakers express caution regarding liquidity risks and the speed of central bank reaction functions in these markets.
+
+Emerging Market Credit Analysis
+
+- Speaker 4 advises avoiding the long end of the credit curve where competition for capital is intense due to AI capex and infrastructure spending.
+- Speaker 3 notes that investment grade (IG) space does not look attractive, whereas there are better stories in the high yield sector, specifically in the single B range.
+- Speaker 2 reveals a net short position on credit, particularly targeting tight sovereign spreads and long-dated IG debt.
+- The panel compares corporate credit to sovereign debt, noting that corporate indices often act as defensive carry during sell-offs due to lower duration and higher quality.
+
+Distressed Debt Restructuring
+
+- Speaker 2 discusses Venezuela's restructuring prospects, suggesting significant haircuts may be justifiable given its massive debt envelope relative to GDP.
+- The panel expresses skepticism regarding Lebanon’s long-term investability due to its inability to produce hard currency naturally.
+- Senegal is viewed as a potentially easy restructuring deal via the common framework, though monitoring is required for local creditors.
+- Ukraine remains a notable mention for potential upside if a resolution or increased funding occurs through hydrocarbons or US support.
+
+Macro Risks and Top Trades
+
+- The speakers identify several tail risks, including central bank mistakes in developed markets and unexpected escalations in Middle East geopolitical tensions.
+- Discussion turns toward structural long-term shifts driven by AI technology and changing global dependency ratios/demographics.
+- For the remainder of the year, top trade ideas include high carry in Nigeria, Kazakhstan plays, and shorting long-dated sovereign spreads at tight levels.
+
+Generated by https://otter.ai

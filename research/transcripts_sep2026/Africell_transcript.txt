@@ -1,0 +1,257 @@
+Speaker 1  00:03
+Okay, so yeah,
+
+Speaker 2  00:05
+it's it's it's it's not a loan yet. Okay. So we've been working. I'll just give you a bit of background around this whole thing. So we we started working with Exim and and just the the State Department back in 2020 when we were in when we were negotiating our entry into the endorsement market, and and then they were just trying to understand China's hold on telecoms globally, and so we've got to we've sort of aligned ourselves very closely with the with the U.S. government bipartisan. And when we were going into Angola, we also got a lot of support from this would have been Trump one in application. We had them in our licence negotiations, and it helped that the Angolan government was also trying to to establish closer closer ties with the U.S. and move away from Russia and China. So when we started that approach, we decided it wasn't a requirement that we would build that network, but 100% no Chinese influence. So the equipment was Nokia, and there's zero China component in that network. And that was one of the case studies. I know they they worked with other operators globally to compare pricing and efficiencies of Chinese vendors versus, unfortunately, the two Western vendors, which is Nokia and Ericsson. There's no one else. So, under the Biden administration, they then passed this new legislation called the CTAP programme, which was the Rip and Replace, which was implemented in the U.S. where they gave grants to operators to rip Chinese equipment and replace it with Western vendors. Nokia were actually working close with them, agreeing a jobs plan where they would create x amount x number of jobs in the U.S. And once that was agreed, then Nokia qualified for U.S. exemps support. So XM usually supposed to only support American vendors to create jobs. So Nokia then qualified, and therefore they're eligible for for Exim support. When they they qualified in 24, we already were just about to launch our initial our debut issuance. So we didn't need to go down the ECA route with with Exim, but just kept the process going, updating them and the the application was just in the system. And then this year, there's just seemed to be some impetus from from them again around trying to get this thing approved, and it was approved in August, and as you saw, all of those publications were pushed by them, and a lot of them were sort of focused more around. I think you would have seen a lot of them around creating jobs in America, and recently we're seeing even a big push around AI and to China, so it's all linked to that. Now, on this facility, there's still quite a lot of work to do. We we still need to do legal due diligence, and
+
+Speaker 3  03:32
+then it
+
+Speaker 2  03:32
+takes it takes a while. It takes it's going to take a while, and at the end of the day, it's still linked to or 50, it's still linked to supporting Nokia equipment, right? So it would be limited to Angola and DRC, where we are looking at rolling out a non-Chinese network in the Katanga region, the whole of Buta corridors, so Katanga region, from the minerals-rich area through the corridor into Angola, where for the U.S. they see this as a critical region trying to have access for critical minerals. So that that's that's the whole dynamic around this exit facility and why there was so much focus on it from that side.
+
+Speaker 4  04:22
+So it was going to be ring fenced against Angola and DSC. It
+
+Speaker 2  04:26
+wouldn't be. It wouldn't be necessarily ring fence. It's just we we we are told by by the State Department that they don't really Gambia and Sierra Leone don't really matter for them in terms of Huawei versus secure technology. So the DRC is a big is a is a big focus point for them right now, and obviously in Angola, where we've already invested in Nokia, we would just continue on that, but it would sit at the same level as where the notes sit. The idea is that it has to it has to rank parry with with the notes.
+
+Speaker 4  05:08
+Yeah, it it it.
+
+Speaker 2  05:15
+So that it was one of these things where you think the the it's quite a hassle, you know, to to have this in place, but it does also provide, as especially as Angola is growing so fast, and ideas for for DRC to Angola and DRC to be our biggest markets, it does provide cover, right? Having the the U.S. government as an investor in those markets, does provide some cover. So that, from a strategic perspective, you probably you probably just have it there. That's why there's there's no need to be going and taking all of this additional effort in Gambia and Sierra Leone, where already even from a coverage perspective, it's we've got the whole country covered over there, and at the end of the day, having despite what anyone may say, Huawei is better technology than Nokia at the moment. It's better, it's cheaper. They are more efficient. You know, Nokia will take several six to eight months to ship and deliver and come and instal equipment, whereas the Chinese will do it in two months, right? So it's just more efficient.
+
+Speaker 3  06:33
+But if you get this, it's alone, right? I mean, it would be cheap, right? I assume that it's very low.
+
+Speaker 2  06:39
+It's it's it's 4.9% seven years. There's a premium that you pay to them, but it still comes out at 8% Right, all in. It's it's it's it's cheaper. It's it's it's just it's it's a the process is a lot more boring than going to the markets next year, for example.
+
+Speaker 4  07:11
+And presumably some amortisation on this campus. Yeah,
+
+Speaker 2  07:14
+yeah, yeah. Fully amortisable.
+
+Speaker 4  07:16
+Seven years.
+
+Speaker 2  07:22
+But so, as for we we aren't even taking that into account for the purpose of our capex planning for 2027, because who knows when that will be in place, right? So our plan for 27 is we're still just basing it on internally generated cash flow when and if that comes, we'll obviously we could relook at that maybe fast track 28 capex into 27, but for now the base cases we're going to be funding our own capex.
+
+Speaker 4  08:00
+Do you mind just bridging the run rate gap from Q1 EBITDA to the guidance of the year, and then maybe just talk about the incremental revenue and earnings you're expecting from the Molan sites?
+
+Speaker 2  08:10
+Yeah, I mean, maybe.
+
+Speaker 5  08:14
+I'm happy to take this one. Maybe you can talk about the strategy. Yeah. So,
+
+Speaker 2  08:19
+so, So, if you look at so the the way the the growth has been happening, so we had quite a strong q4 25 and q1, and the result was that was simply that we saw we were basically reaping the benefits of the investment that had been made earlier on in 2025 end of 2425, because those sites were coming. We were coming live in q3, q2, q3, and q4. We then had the tap in January, and then orders were were placed end of q1. So q2 in general, you don't really see much of that growth coming. It was still the benefits of the previous year's worth of capex, and we expected that. So some of those sites in Angola started coming. The expansion on a network up there started coming live towards the end of May June, and so we go into the second half of the year. We are seeing that's where already we're seeing record recharges across the four markets. So q3 is is going to be higher than q1 of of the year, which never happens because q3 is typically the slower quarter, it's the rainy season in Gambia and Sierra Leone, but because of the investment that has been made, we're seeing the results of that. And then also, Angola has seen some tremendous growth, and is seeing that in Q3 because of various factors. One being the the network upgrades, we will have two new regions coming up now in the next couple of weeks, and then there was also the cyber attack on on our competitor where the network, the entire network, was down for 10 days, which saw a surge in subscriber numbers and revenues for us. So, in terms of the guidance that we're given there, I think we're not everyone's pretty comfortable around being able to to to hit that number. It's more about how much more there will be in terms of the incremental growth.
+
+Speaker 3  10:40
+Sorry, so on the cyber attack, like what? I mean, were they targeted for a particular reason? Like, what stops you from being targeted? I guess this this stuff happens like all the
+
+Speaker 2  10:50
+time, and you you've got obviously you put in place or various measures to mitigate against this. This one was it's a there's there's sources various sources out there that have come out around this whole situation with Unital but the attack happened a day before the IPO was due to close yeah and so if you if you know the history of Unitals, it used to be owned by Isabel de Santos, so her interests were expropriated by the government. She's wanted, and there was a general who's now an OFAC. His shares were also expropriated, so these some of their shareholding was was was being put out there, and then used as that in in the days leading up to this. They were told, "Don't go ahead with this. Don't go ahead with this. And the day before, it happened. And from us, when we speak to our technical guys, if you have three data centres, right? Two should be redundancy. So if if you get hit in one, just simply stop one and sort of start right in the network. From all three went down, which indicates that this wasn't just external. So there could have been some internal elements into this, and for the network to go down for for 10 days is is quite drastic, yeah.
+
+Speaker 3  12:31
+I guess you know. I think I sat in your offices with J.P. Morgan. April, we squeezed a lot of people into one room, and it was, but April probably of last year, you got a lot of questions on year-end guidance. It seems like you've made a lot of progress on Angola. There were a lot of questions. Yeah, yeah. And so, and it seems like you now also have what tailwinds for third quarter, which you said never happened. I guess what is the plan you have? Your jet stack consists of what the 360 million of the 10 and a half percent bonds. I mean, do you have plans to refi? Do you want to do that? Yeah, I think we we we will up a little bit. I mean,
+
+Speaker 2  13:10
+we we will. We generally would still want to keep this the the structure simple, right? In in our previous life, not going back there. We're managing multiple facilities. This is definitely a lot simpler. But in terms of refinancing, in terms of the current plan, we've always said we we were going to show that we can delever from when we entered, and the target was to go close to the two and a half times, and thankfully, the current trajectory I think that is very achievable by around Q2 of 27.
+
+Speaker 3  13:56
+Sorry, that's sorry, two two and a half.
+
+Speaker 2  13:58
+Closer to the two and a half times. Okay. So you are
+
+Speaker 1  14:01
+talking about gross or net? Sorry, because gross leverage target it was three and a half, right? Gross. Okay. Yeah,
+
+Speaker 2  14:07
+gross on the gross leverage. So that that is to like around in yeah in second half of of next year, and if we are there at that time, then I think we'll definitely be coming out and having a conversation with people around looking at a refinancing, possibly with some up-sizing to really go have that final push, especially in the DRC, where there's been a bit of a shift in terms of strategy of how we're going to deploy. There's going to be more of a. We're building more of our towers now, rather than just solely leasing. So that that would require slightly more capex than than just leasing. So that that that's the thinking. That's why I said with with this whole exit thing, you know, it's it's it's it's nice, but that's more not really in terms of when we think of the basing our growth on. It's not on that. It's it's that will just be something that will just be there for the relationship with the U.S. government, and whatever benefits comes from that, we'll take.
+
+Speaker 4  15:29
+I mean, you've had great success in Angola. If liquidity or balance sheet weren't constrained, how much would you be investing in a given year if you could? You talked about rolling 28 capex. Yeah,
+
+Speaker 2  15:40
+so like we, so so as as much as we could. Look, it's it's in these markets. There's also other factors that are at play, right? It's not it's not just liquidity. It's also you go also need to go build these things on the ground, right? You need resources, human resources, to go and build the towers, acquire the land, get the stuff shipped over. So that takes time to be able to do this. But if all of those things, oh yeah, we could, we would ideally look to try and get the whole country covered by the end of next year, right? Yeah. And the same with the DRC, where we're finding now because we're building our own towers that it's it's slightly it's even more complicated in terms of just doing the the land acquisition for sites before you can even ship to try because you know there's no there's no road infrastructure there's no rail infrastructure so moving steel from the port into the sites takes time, so all of those factors you've got to take into account.
+
+Speaker 4  16:46
+And so, for Angola and DRC, what does full coverage look like in terms of no, no number of sites?
+
+Speaker 2  16:51
+DRC, no, not we have no intention of having full coverage, just given the vastness of that of that of that land. Angola, we could double it. We could double. We're about 1500 sites now. We could we could double it, and we I think we would we would then be have nationwide coverage.
+
+Speaker 4  17:08
+And and a rough like cost per site.
+
+Speaker 2  17:10
+It's a about 100 to 110. Do
+
+Speaker 1  17:26
+you electrify every site, or there are some power generation?
+
+Speaker 2  17:31
+There's yeah DRC. It's it's unfortunately there's no the grid in in the in the main cities is is not reliable, so you have to rely on on generators. Angola is slightly better in terms of their being a grid, but as you go into the more rural areas, you also need to have contingencies, so you're relying on on on diesel generators. But in our other countries where we've got nationwide coverage, and we started about the with diesel generators. We're now transitioning to to solar. It's it's not it's not a straightforward flip because solar requires more space, but that transition is going. But unfortunately, we are we don't benefit from having Grid
+
+Speaker 1  18:24
+and the cost impact of fire, diesel prices, and so on, or any availability issue
+
+Speaker 2  18:30
+on
+
+Speaker 1  18:31
+on diesel.
+
+Speaker 2  18:32
+We it's it's more it's mostly in in Sierra Leone. That's where historically we've been impacted by by that, so historically we used to boil our sights on diesel. So now we're rapidly trying to catch up and sort of transition to solar. But it does it does have. I mean, you're looking at quite a big big hit on OPEX when when the diesel price goes up.
+
+Speaker 5  19:01
+But I think just to clarify, overall fuel costs is a very small portion of our overall cost basis, like 5% of the overall cost. So even if there is a big increase, it's now going to be a huge hit.
+
+Speaker 1  19:14
+And there is no availability issue in terms of sourcing the diesel or the places. No,
+
+Speaker 2  19:19
+no. I'm look. I I can't speak for others, but we, in some of these places, so for example, we've been there for a good 20 years, right? So you you make sure that this is something that you're always secured when it comes to Angola. Not so much; they don't. There's no issues there, and it's still subsidised, so that's fine. DRC Helios provides that. So that's more with them, and they're worth. I mean, from time to time, there are some issues around availability, but I think they too make sure that it's not terribly bad. But just just in general around q3, as I said, quite positive. We will we'll certainly see our high highest Q3 we've we've ever had. Angola will is it was actually quite behind in in in the Q in Q2 on on our internal projections. It's it's already it's by far it's caught up and it's it's quite far ahead with the new regions coming up. That's quite exciting. We we even put up following the outages. Normally, what we would do is because you're putting building towers, it's connected, but you just don't turn it on. When that happened, we started pulling up towers without make announcing that we've got coverage in those areas. And you know, the moment you put it on, a day later, you've got 1000 subscribers on there. You ask yourself, how do people even get SIM cards in that part? So there's already people are already anticipating. So to the point where we've just announced that we're coming in these regions. So that's quite exciting to see that even though we haven't had a lodge, they're already generating site revenues from from those sites, which is quite exciting. We'll we'll see some really really promising numbers coming from there. We we were before the outage we were averaging around 500 $550,000 a day in Angola at the peak of the outage that went to about eight 880,000 a day, and now it's normalised around 740. So there's a big, big jump from that from that outage. So it's just making sure we just keep on capitalising on that on this new momentum, and also rapidly expand while the sentiment around Unitel is still still out there. DRC splits. We are slower than where we would have liked to, but we sort of see this as a bit self-imposed. Given we had a shift in in tactics, we recently, a month ago, increased had to increase prices on data to try and relieve the congestion on the network, and we've seen we've seen an uptick in revenues, but unfortunately, the congestion has still continued. So the demand is there, despite it being a four-player market with three other large operators, so that's still the most exciting opportunity from a revenue perspective. So we're seeing that, but we're not going to see the big big numbers coming from the DRC, given the limitation that we have, which is which is the the network, and it's going to take longer to deploy, given we're building our own sites, and then Sierra Leone, which personally I think is still our best performer. Despite Angola, from a numbers perspective, obviously is far bigger, but Sierra Leone is is a more established market. With we look at penetration is almost 100 percent, and we compete with with Orange to still be taking away market share from them and growing, and we're going to start seeing the the benefits of the investment that we made in Q2 now and in the fourth quarter. So that's quite encouraging, and then Gambia is has recovered from the prize wars that we had of 2025, and that's just going along nicely. So I think it's it's it's all all promising, and and very encouraging that the guidance we're not worried about that anymore. It's just to try and capitalise on the on the on the strong momentum that we have in those two growth markets.
+
+Speaker 4  24:25
+What's the current pricing gap between yourselves and UNITA?
+
+Speaker 2  24:28
+It's still the 35 40% They tried to three times this year. They tried to increase tariffs, and were denied that by by the government, I think they're probably gonna they're gonna push again, given what's happened to try and increase some revenues. But it's election season next year over there, so I think there's also going to be some some of those dynamics will play out, especially that from in terms of the current administrations, vote today's their large bases still more in the in the rural areas where Unitel has the coverage than in in the major cities where we are challenging for leadership.
+
+Speaker 4  25:15
+Could you summarise in the other markets as well how your price versus peers?
+
+Speaker 2  25:19
+So in in Gambia we are yeah significantly higher than than the others, but that's just expected given we are we are significant leader in that market. So there we it's about competing as being the premium the premium brand, and we've been there for 26 years, so we are by far the most expensive there in Sierra Leone. It's tight between us and Orange, given the dynamics. There is a third player there called QSell, who is sometimes even breaking the floor pricing. So there's in serial, there's a floor pricing on voice and data, and we it's it's quite we're quite competitive on pricing. And then DRC, there's a floor pricing on voice. Everyone stays on the on on the on the floor, and typically we've on the data. That's where we've been. We've we've tried to be the most competitive. I'm in some regions we still are a good 30, 40% cheaper than the others, but in general, I would say we are pretty much on on on par in those markets.
+
+Speaker 1  26:37
+Can you remind us what's the strategy for the forex and managing the forex in all of the local currency and also hedging to the U.S.
+
+Speaker 2  26:48
+Yeah, we don't we don't have any financial products that we can rely on in in in in terms of hedging. What we do is, we we we don't keep cash that we don't need in local currency. We make sure everything is upstream and kept in our UK bank accounts. We always try. There's also some national heights that we sort of just rely on in in in. in in in terms of the way our the market dynamics work. DRC is not so much of an issue because of the dollarized market. Gambia is fairly stable, but again, we upstream all the time in Gambia and Sierra Leone, and then Angola. What we are doing now is making sure we're upstreaming all of our cash, and then another another fact that we also try and make sure we we we always try and mitigate against would be in terms of our cost base. So we we try and keep, with the exception of the capex to the large vendors, is keep everything in local currency, and thankfully we where we do have leases, which is for for operators in our region. That's where the biggest hit usually comes when there's significant devaluation is on on lease payments. That's in the DRC, where it's a dollarized economy. So thankfully, we don't we don't have those dynamics over there. But yeah, and also just general diversification, which I think in in in in the near future, we probably need to start thinking about growing, making sure the DRC grows significantly more, given how how much Angola has grown, where it could easily be 40% of revenue needed by end of this year.
+
+Speaker 4  29:00
+I guess, as you said, heading into elections and go on issue rather than normally comes hand in hand with some currency. How do you kind of so yeah? So
+
+Speaker 2  29:09
+we we are we we're having conversations with them, and so they were here last week, and they were here this week, and next week we're meeting them again in in New York, around trying to come up and introduce them to the idea of what we have in Sierra Leone, which is the the floor pricing, where that is regulated by the regulator. So, and that conversation is currently ongoing in Sierra Leone, where you basically go to them, you say, "Look, the fuel price is gone up by this much, inflation is up by this much, therefore the full pricing on voice and data needs to go up by a certain point to be able to address that. So that yeah, so you go to them as a as a as a as a sector. What we're what we are trying to do in in Angola is to say to the to the Angolans before the elections come up, right, is to say you need to try and consider if you want the level of investment to continue, is to have a floor pricing where tariffs, if if there's a devaluation by X amount, the the floor needs to go up by X amount. So it's not necessarily driven by us; it's driven by the market. Yeah, and that's we're having those conversations with them at the moment. And and the idea is to try and have that in place before elections. But in order to get that, they also need to see that you are doing significant investments in the market.
+
+Speaker 1  30:46
+Just remind me, in terms of the upstreaming capacity of the countries, in terms of cash upstream.
+
+Speaker 2  30:52
+You got a breakdown there, Lucy?
+
+Speaker 5  30:53
+Yeah. So, for the first half of the year, we managed to upstream across the countries more than 40 million, but you know, as Mahasi has mentioned, we upstream in small amounts very consistently. So we've never had any issues with the countries in terms of upstreaming. There's also no you know apex restrictions in the countries.
+
+Speaker 3  31:34
+Can you just remind what you said before? If that multilateral financing or the Exxon comment, what is the size of Something like that. Okay.
+
+Speaker 2  31:50
+Yeah, and it's it's it's it's obviously multiple draws, so you could be utilising it in 2028. Right. Yeah.
+
+Speaker 4  32:04
+Sorry, I should know this, but of the towers you have now, what's the percentage that are leased first? DSC is all least, right?
+
+Speaker 2  32:12
+TSC is all leased, yeah. Angola is about 68, 70% Every Sierra Leone, pretty much 100% owned.
+
+Speaker 4  32:20
+And in terms of like the capex outlook and the growth plans in a few years, how does that lease liability track over time? Because there is growth in DLC, right? So more leases.
+
+Speaker 2  32:28
+Yeah. So it's not. It's not. So when I say we're building our own, that's not saying we are gonna now exclusively grow through our own. This also creates that competitive dynamics. You you can negotiate better with with the tower because when they see that you're also doing things on your own, right? So there there will be some growth through leases, but I would say it'll pretty much it should it should be staying the same because you're also reducing the attendance on existing, on existing sites. So we shouldn't see the idea is we don't want to see a spike because we're growing to try and keep it on the same level.
+
+Speaker 4  33:09
+But ultimately, capital allocation call. What's the kind of embedded interest cost in a lease for a town?
+
+Speaker 2  33:16
+What do we have there?
+
+Speaker 6  33:17
+We have discounted like Around 10, 11% discount rate to get to the Reza liability.
+
+Speaker 4  33:27
+That's kind of on par with what the bond was.
+
+Speaker 1  33:29
+Yeah. Yeah.
+
+Speaker 6  33:42
+So if you're looking at total capacity, right, for the debt, let's say if we are three and a half leverage BTA around, let's say next year around 222 50, so that gives you like around 80 total capacity, which is gonna be 500 million new bonds, 100 million exim, 200 million lis liabilities, plus 40 50 million of local debt. So that's more or less how you get to 10 half times.
+
+Speaker 4  34:14
+And and I guess in in that framework, what's the optimal amount of cash to have on the balance sheet that keeps investors and agents as
+
+Speaker 6  34:22
+as minimum. So so there's yeah it's
+
+Speaker 2  34:27
+it's it's it's like this this this this dynamic right that we have to manage which is we are we we've never been a business that has always been sitting on cash. Most of the stuff is we've just always had to invest in ourselves, and sort of understanding the dynamic. Okay, you know you've got some, you've got investors that may not necessarily they're not in your hands, and you need to give them some comfort that if something were to blow up, you're okay. At I'd say if if it wasn't, if we didn't have this big, big need to rapidly expand all the time, it'd probably just say maximum one year's worth of coupon, max, right? But right now, and it goes, it'll probably go slightly down now in Q3 because of the big push that we sort of accelerating, even in the way the guys are rolling down the sites in Angola and DRC to try and make sure that we capitalise. Go slow, guys. So it's it's it's just trying to balance cash sitting versus expanding and and maximising on the opportunity. So I would say the maximum will probably be the one year. What
+
+Speaker 4  35:44
+about like rainy day sources of liquidity? Let's say we get a big move in the Kwanza, and suddenly you're cash burn territory next year. In $1 perspective, what what do you turn to tap the bond again?
+
+Speaker 2  35:57
+We've we've got an RCF that's sitting there for for just just the idea is that you know if something were to go catastrophically bad, at least you guys don't have to worry. Shareholder, the shareholder, yes, he would, he would, he would have to put in some, some, some equity. I mean, I've never thought that tapping the bonds when something's gone bad. It's going to be an option. Yeah. Trick
+
+Speaker 1  36:35
+question. You did well. So on the sorry, on the RCF, was it remind me the size?
+
+Speaker 2  36:40
+30 million.
+
+Speaker 1  36:40
+30 million. Yeah. Okay. And it's not wrong.
+
+Speaker 2  36:42
+It's not
+
+Speaker 1  36:43
+wrong. Okay.
+
+Speaker 2  36:45
+It's J.P. Morgan, Citi, and Standard Bank.
+
+Speaker 4  37:04
+Local financing and option is
+
+Speaker 2  37:05
+this? We've got we've got we've got some local lies, but there's just they they small, just RCA like roll and create facilities for the operations for capital. There's also just limited liquidity in these in these places, and it's it's it's just too expensive. You you don't look at that as a as a source of of financing.
+
+Speaker 1  37:50
+What are the next steps for you to be upgraded by the credit agencies?
+
+Speaker 2  37:55
+It's it's it's it's the point he raised. So the conversations are all very positive with them. They they they've all indicate they've both indicated that they've got there's some fixed requirements in terms of what it would take to up to to to upgrade, and their their cash is is is that's that's the main the main one. So yeah, if we if if that cash position went up to 60,000,100% I think you'd see both of them go
+
+Speaker 7  38:30
+up.
+
+Speaker 6  38:31
+Cash and never yeah
+
+Speaker 5  38:33
+yeah.
+
+Speaker 6  38:34
+So they want ideally they want as minimum as possible, two and a half. Do we want to get two and a half? No.
+
+Speaker 5  38:49
+S and P indicated to be below history consistently.
+
+Speaker 6  38:57
+Plus, imagine so out of our podium is Gambia Celiona rated price. So the IC Angola is B minus B flat. So we are now B flat with S and P. So if we would be B plus, that means too much is above our sovereign ratings, which is a bit tricky for them as well to justify for now. Okay, so we would also welcome Jenny to get upgraded by OneNote.
+
+
+Transcribed by https://otter.ai

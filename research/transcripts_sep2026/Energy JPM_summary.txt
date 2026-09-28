@@ -1,0 +1,74 @@
+Energy JPM
+September 16, 2026
+
+Overview
+
+Energy experts discuss the impact of geopolitical tensions on oil supplies and refining margins.
+
+Market Dynamics
+David and Natasha provided an analysis of current global energy shifts driven by conflict in the Middle East and the Russia-Ukraine war.
+Supply and Pricing Trends
+*   Seaborne supplies have experienced extreme volatility, swinging between 40 million and 50 million barrels per day.
+*   While geopolitical risks have pushed prices toward $100-$108 Brent, Natasha argues that global demand has actually declined by approximately 5%, which acts as a deflationary force.
+*   Onshore inventories are seeing significant drawdowns, but Natasha notes that policymakers are hesitant to release strategic reserves due to uncertainty regarding conflict duration.
+
+Logistics and Transits
+*   Shipments through the Strait of Hormuz are around 12 million barrels per day of oil and products, roughly 60% of pre-war levels.
+*   To mitigate risk, producers are using ship-to-ship transfers to create shuttle services near the Strait.
+*   Freight prices from the Middle East to Asia have increased thirtyfold compared to historical levels.
+
+Regional Impacts
+The discussion highlighted how different nations respond to supply disruptions and shifting demand patterns.
+
+China's Role
+*   David noted that China has shown immense flexibility by optimising supply sources (Russia, Iran) and switching feedstock from naphtha to LPG and ethane from the U.S., which reached 1.2 million barrels per day recently.
+*   Instead of "demand destruction", Natasha describes "demand substitution," where consumers switch to electric vehicles or public transport, allowing the economy to grow while oil demand falls.
+
+Refining Dislocation
+*   Refined product markets remain extremely tight because significant refining capacity (roughly 6%) has been lost across the Middle East, Russia, and China due to climate targets or conflict.
+*   European diesel is particularly exposed because major suppliers like Russia have banned exports to protect domestic needs following precision drone attacks on Russian infrastructure.
+
+Future Outlook
+The participants examined long-term price trajectories based on potential conflict resolutions.
+
+Scenario Modelling
+*   If a peace agreement is reached in both the Middle East and Ukraine, David predicts crude prices could drop toward $60 per barrel as supply stabilises.
+*   However, Natasha’s model suggests a baseline value for Brent at $90 if conflicts persist, despite immediate market panic causing spikes above $100.
+
+Can the global economy maintain growth with such high levels of oil demand substitution? Will the current "forever war" scenario lead to permanent structural changes in refining capacity?
+
+Outline
+
+Global Energy Supply Dynamics
+
+- David from Vortecha notes that global seaborne crude supplies have experienced significant volatility, swinging by as much as 10 million barrels per day during the conflict.
+- While oil on the water reached an all-time high in early July, onshore inventories are now showing a significant downward trend.
+- Current Middle East exports are approximately 50 million barrels per day, representing a loss of about 10 million barrels per day compared to pre-war levels.
+- A shuttle service has been established via ship-to-ship transfers near the Strait of Hormuz to mitigate risks for consuming markets like China and Japan.
+
+Market Resilience and Demand Substitution
+
+- Natasha Karimal explains that oil is a fungible commodity and that markets often avoid non-linear price moves through demand destruction or substitution.
+- Global oil demand has declined by approximately 5%, which is described as an unprecedented level comparable to COVID-era trends.
+- China has played a major role in rebalancing the market by substituting oil demand with electric transport and more efficient modes like subways and trains.
+- Despite economic growth in tech-heavy regions like Taiwan and South Korea, these economies are becoming increasingly oil-efficient rather than oil-intensive.
+
+China's Strategic Market Flexibility
+
+- China has successfully reduced its crude imports by drawing down existing stocks and switching feedstocks from naphtha to LPG and ethane.
+- The country significantly optimised its supply chain by reducing its dependence on expensive crude and shortening cargo transit distances to save costs.
+- Chinese refining activity has been managed through increased product export reductions and adjusting feedstock slates toward US-sourced gases.
+
+Refining Dislocation and Product Scarcity
+
+- While crude prices can be stabilised, refined products like diesel face extreme scarcity due to limited global refining capacity.
+- Europe is particularly exposed to tight diesel markets because traditional suppliers like Russia and the Middle East have faced major disruptions.
+- Refining capacity remains constrained globally because many plants in California, Europe, and China are being shut down due to climate targets.
+
+Geopolitical Risks and Future Outlook
+
+- The ongoing conflicts in the Middle East and Ukraine are viewed by analysts as potentially becoming "forever wars" with no immediate resolution in sight.
+- Natasha suggests that while Brent might trade around 90 dollars based on fundamentals, geopolitical tensions currently command a significant price premium.
+- If peace is achieved, experts predict a significant drop in oil prices toward 60 dollars due to strong supply potential from the US and Latin America.
+
+Generated by https://otter.ai

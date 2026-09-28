@@ -1,0 +1,82 @@
+Liqtel
+September 15, 2026
+
+Overview
+
+The Liqtel management team discussed recent refinancing outcomes, financial guidance, and operational stability in key markets.
+
+Financial Outlook
+Hardy and Speaker 5 provided high-level guidance regarding the company's cash flow and capital expenditure.
+* EBITDA: The group generates approximately $300 million in EBITDA annually with high conversion to cash.
+* Capex: Guidance for the year is set at $60–$70 million, primarily covering maintenance and customer connection.
+* Debt: Gross debt was reported at approximately $880 million for Q1, with net debt reduced to roughly $770 million.
+* Repayments: A significant amortisation of nearly $130 million (USD and ZAR term loans) is due on 28 February.
+* Equity: There is a requirement for an additional $50 million equity injection into the perimeter by 28 2027, which may involve external parties or existing shareholders.
+
+Regional Operations
+The discussion addressed specific market dynamics in Zimbabwe and South Africa.
+Zimbabwe Performance
+Hardy described the Zimbabwean economy as stable, noting that the country has been removed from the World Bank's fragile economies list.
+* The business remains a dominant player with high margins across connectivity, cloud, and cybersecurity.
+* Cash upstreaming is guided at $3–$4 million, supported by a stable local currency (ZiG) and strong mineral exports.
+* Infrastructure resilience is being bolstered by strengthening fibre routes near borders.
+
+South Africa Dynamics
+Speaker 5 addressed the impact of spectrum farming on margins.
+* Initial spectrum farming revenues in South Africa were thin on margins due to the asset swap nature of the transaction.
+* Management expects margins to recover to historic levels over the next 12–18 months as they monetise data capacity for the SME sector.
+* The ECG contract continues to drive revenue growth despite incremental lease costs from sale and leaseback arrangements in Zimbabwe.
+
+Debt Management
+Management clarified the status of intercompany debts and refinancing goals.
+* Intercompany debt between the Data Centres business and the bond perimeter stands at approximately $25 million.
+* Total intercompany receivables are in the region of $100 million, down from $200 million following recent de-leveraging efforts.
+* The primary focus remains on building cash balances to ensure the upcoming February debt maturity is a "non-event".
+
+Outline
+
+Leadership Transition and New CFO
+
+- Speaker 1 discussed the departure of Lorraine and the seamless handover to Fayaz, who is currently serving as the interim CFO.
+- The company has completed a rigorous selection process to ensure a long-term leadership fit.
+- Fayaz will be tasked with demonstrating his ability to generate cash before potentially becoming permanent.
+
+Financial Outlook and Cash Flow
+
+- Management expects EBITDA to remain around 300 million per year with high conversion into cash.
+- Capital expenditure guidance for the year is set between 60 and 70 million, though there is potential downside risk to this figure.
+- Finance costs are expected to decrease, with bond interest estimated at just over 30 million.
+- Lease costs are projected to grow slightly due to the ECG contract in South Africa and a sale and leaseback in Zimbabwe.
+
+Refinancing and Debt Management
+
+- The company recently completed a refinancing aimed at reducing debt levels through an equity injection from selling an interest in the data centres business.
+- Gross debt was reported at approximately 880 million in Q1, while net debt decreased to about 770 million from a previous 900 million.
+- An additional equity injection of 50 million is required by February 2027, which may come from existing shareholders or external parties.
+- This capital will be used to transform the network into an AI transport network and to stabilise cash flow.
+
+Capital Expenditure Breakdown
+
+- Capex is divided into three main buckets: maintenance, customer connection (growth), and discretionary spending.
+- Maintenance capex covers fibre repairs, such as those caused by municipal roadworks, and upgrading older network gear like Nokia or Cisco cards across 1,100 points of presence.
+- Customer connection capex involves laying fibre from main lines to customer premises, typically generating revenue within 60 days.
+
+Zimbabwe Operations Update
+
+- The Zimbabwean economy is currently described as being in a "honeymoon period" due to strong exports in lithium, gold, and platinum.
+- The local currency remains relatively stable, though much of the trade on the street continues to occur in US dollars.
+- Management views the Zimbabwe business as a "green" priority with high margins and significant EBITDA contribution despite potential regional risks like El Nino.
+
+Intercompany Debt and Asset Sales
+
+- Total intercompany receivables stand at roughly 100 million following significant reductions from prior periods.
+- Major intercompany balances exist between Liquid South Africa and the Eastern Cape government structure, as well as between Liquid and its data centres business via an SPV.
+- There is an outstanding short-term receivable of 25 million involving discussions with the DFC regarding repayment speed via ZAL financing.
+
+Future Priorities and Margins
+
+- Management's primary focus is building healthy cash balances ahead of a major amortisation payment of approximately 130 million due on 28 February.
+- The company does not plan for inorganic growth or dividend payments, instead prioritising deleveraging and organic growth needs.
+- Group margins are expected to recover toward historic levels over the next 12 to 18 months following initial softness caused by spectrum farming transactions in South Africa.
+
+Generated by https://otter.ai

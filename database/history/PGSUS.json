@@ -199,6 +199,19 @@
       "ebitda": 950.0,
       "fcf": 23.0,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-28",
+      "period_name": "2026-09-28",
+      "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "B+ / BB-",
+      "price": 103.5,
+      "ytm": 7.65,
+      "spread_bp": 360,
+      "net_leverage": 2.1,
+      "ebitda": 950.0,
+      "fcf": 23.0,
+      "guidance_status": "Ahead of Target"
     }
   ]
 }

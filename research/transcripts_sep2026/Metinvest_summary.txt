@@ -1,0 +1,84 @@
+Metinvest
+September 15, 2026
+
+Overview
+
+Metinvest executives discussed the operational and financial impacts of recent Russian attacks on Ukrainian steelmaking infrastructure and their subsequent mitigation strategies.
+
+Operational Impact
+Speaker 2 provided updates on the damage sustained by key steelmaking assets following systematic attacks.
+* Prestal: The first attack in mid-August damaged critical infrastructure, including gas, oxygen, water, and electricity pipes. While the blast furnace was not the primary target, repairs are estimated at $10–$15 million per furnace, with a timeline of several months. Currently, only one furnace is operating.
+* Kamak Steel: An attack in early September affected two furnaces. One remains undamaged and operational, while the second requires approximately $15 million in repairs over several months.
+* Strategic Outlook: The company is evaluating whether to rebuild all facilities or focus on those producing products for European markets (like billets) versus those requiring high-cost logistics for US markets (like pig iron).
+
+Financial Position
+Speaker 2 and Speaker 11 addressed liquidity, debt management, and capital expenditure concerns.
+* Cash Flow: As of June, the company held $199 million in cash. However, Speaker 2 noted that August was a difficult month due to suspended Black Sea port exports and frozen coal shipments.
+* Debt Management: The company plans to pay the bond coupon in November and has a bond repayment due in October 2027. Speaker 11 explained that a previous attempt to enter the market was deferred because the spread between Metinvest and MHP was too high and investors preferred longer-term paper.
+* Financing: Discussions are ongoing with Ukrainian banks regarding capital constraints. While IFIs like DFC and IFC are active, their current mandates focus on critical minerals rather than debt refinancing.
+
+Asset Strategy
+The participants discussed the future of non-core or struggling business units.
+* United Core: Speaker 11 confirmed they are in advanced talks with a second group of investors to dispose of this asset by year-end to stop the cash burn.
+* Italian Project: There is no change since June; the project is paused as the board seeks to decrease exposure or exit entirely through a sale or partnership.
+* Iron Ore: To mitigate lower demand in Ukraine and high logistics costs for China, the company is attempting to ramp up sales to Eastern Europe by roughly 25%.
+
+Will the systematic nature of the attacks make long-term capital investment in certain blast furnaces economically unviable?
+
+Action Items
+
+- Pay the November bond coupon, allowing time to assess the business situation before the next coupon in March.
+- Complete the assessment of third-party steel supplies for Prometey Steel and proceed if the economics are reasonable.
+- Dispose of the United Coal Company asset by the end of the year.
+- Find a partner for the Italian project or sell the project entirely, with the outcome clarified by the end of the year.
+
+Outline
+
+Impact of Recent Attacks on Steelmakers
+
+- Speaker 2 reported that the Primetal joint venture faced an attack in mid-August that damaged critical infrastructure like gas, oxygen, and water pipes.
+- Repairing a single blast furnace is estimated to cost between $10 million and $15 million and will take a couple of months.
+- Kamak Steel was attacked in early September; while one furnace sustained no damage and resumed operations within two days, the second furnace requires similar repairs and timelines as Primetal.
+- The company noted these attacks appear to be a systematic effort by Russia to target key Ukrainian industries rather than isolated incidents.
+
+Air Defence and Systematic Risks
+
+- Speaker 2 expressed doubt regarding the ability to protect assets in Ukraine due to limitations in private air defence capabilities.
+- There is significant concern regarding the inefficiency of using expensive Patriot missiles to intercept cheap drones.
+- The emergence of high-speed jet drones flying up to 600 kilometres per hour presents a new technological challenge for which effective interception methods are not yet widely available.
+- Systematic strikes on fuel stations and railway infrastructure near the Polish border illustrate the ongoing volatility of the security situation.
+
+Financial Outlook and Cash Flow
+
+- Management stated that June ended with $199 million in cash, but they cautioned that this level may not sustain operations for another two years if conditions do not improve.
+- Logistics challenges have emerged as coal shipments heading to Black Sea ports were halted, leading to frozen capital.
+- Despite current difficulties, the company plans to pay its November coupon as there is time before the October next year bond repayment.
+- Speaker 2 noted that generating free cash flow is difficult while major steelmakers are partially suspended and export routes are restricted.
+
+Capital Markets and Debt Strategy
+
+- Regarding previous plans for a new bond issue, management explained they chose not to proceed because the spread between Metinvest and MHP was too high at the time.
+- The decision to delay was also influenced by a desire for sustainable, long-term financing rather than short-term solutions after repaying recent debt.
+- The current debt burden is approximately $1 billion, which management considers manageable compared to previous levels of $1.5 billion.
+- Interest expenses have been reduced from approximately $130 million per year down to roughly $70 million per year following recent deleveraging efforts.
+
+Mining Operations and Logistics
+
+- Exporting iron ore concentrate to China has become economically unviable due to increased logistical costs of roughly $50 per tonne.
+- The company intends to redirect volumes toward Eastern Europe, though they can only potentially compensate for about 25 percent of previous Chinese sales volumes via this route.
+- For re-rolling mills like Promet Steel, the company is evaluating whether to continue relying on internal feedstock or secure third-party supplies if Ukrainian production remains limited.
+- Management indicated that if European demand increases due to higher prices caused by CBAM regulations, it could benefit their mining business long-term.
+
+United Core Sale Update
+
+- Management confirmed they are still planning to exit United Core by the end of the year as part of a strategic decision process.
+- While a previous buyer failed because they could not secure financing, advanced talks are currently underway with a second group of investors including current UCC management.
+- The sale is expected into have a negligible impact on cash balances given United Core's loss-making status but will remove its cash burn from future balance sheets.
+
+Italian Project Status
+
+- There has been no significant change regarding the Italian project since June as it remains too large for Metinvest's current investment capacity.
+- The board has declined further substantial spending on Adria through this project unless shares can be sold or exposure decreased.
+- Management is exploring options to either sell their stake completely or find partners for a substantial portion of their shares through tier one strategic or financial investors.
+
+Generated by https://otter.ai

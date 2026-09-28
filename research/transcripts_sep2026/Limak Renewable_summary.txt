@@ -1,0 +1,76 @@
+Limak Renewable
+September 17, 2026
+
+Overview
+
+Limak Renewable discussed its current hydropower portfolio, upcoming project pipelines, and the evolving Turkish energy market dynamics.
+
+Project Pipeline
+Speaker 1 provided updates on major growth projects and shifts in capital allocation:
+* Injures and Tarawari: These projects are under construction with Injures reaching over 70% physical completion. The first unit of Injures is expected to reach commercial operation by 1 April next year.
+* Pervari: A large-scale project with a 320 MW capacity and a budget exceeding $300 million. Electromechanical tendering has initiated, and the company aims to finalise main procurement contracts by the end of this year.
+* Kosovo Diversification: Due to grid capacity allocation delays for the Alconbu Hybrid project in Turkey, the company is pivoting to solar projects in Kosovo. This includes Project Pezza (11.5 MW, €6 million) expected to be operational by November 2026, and the potential development of Project Drenas.
+
+Market Outlook
+The discussion addressed regulatory challenges and price expectations within the Turkish power market:
+* Pricing and Hydrology: After record low generation in 2025, hydrology is expected to normalise. Speaker 1 forecasts average spot prices of $50/MWh this year, rising to the $60s next year.
+* Regulatory Lobbying: The company is lobbying against market caps applied to electricity models (approximately $85–$90/MWh) and seeking more stable pricing structures. There is also interest in floor prices for hydro assets, though probability remains low.
+* Subsidies: While Botash tariffs are currently below actual costs, causing significant losses, the company does not expect a full removal of subsidies before the May 2028 elections. However, a 40% increase in tariffs over nine months could push spot prices back to $60–$70 levels.
+
+Financial Position
+Speaker 5 detailed the company's cash flow and leverage projections:
+* Cash Flow: Starting the year with $253 million, the company expects to end with approximately $184 million after accounting for $160 million in capex, $51 million in bond payments, and debt servicing.
+* Dividends: No dividends will be paid this year due to accumulated losses; however, dividends from the JV are expected to commence in 2027 at approximately $24 million.
+* Leverage: Leverage is expected to peak in 2027 at 4.2x before decreasing to 3.4x in 2028 as new projects like Injures begin operating.
+* Financing: An ECA loan of approximately $100 million is anticipated for Pervari to serve as a buffer for investments.
+
+Action Items
+
+- Ask a colleague to confirm the exact US-dollar market cap applied to gas-fired power plants.
+- Arrange an ECA loan for Karvari, expected to provide approximately $100 million of financing.
+- Proceed with the Drenas project if the Paya project performs satisfactorily and reaches its planned commercial operation date.
+
+Outline
+
+Company Overview and Financial Performance
+
+- Limak Renewable is a Turkish renewable energy company with a one gigawatt capacity, primarily dominated by hydropower plants.
+- More than 50 percent of the portfolio is eligible for the feed-in tariff, providing protection against market volatility.
+- Following a record low generation of 1.5 terawatt hours in 2025 due to poor hydrology, the company expects to reach 3.2 terawatt hours by the end of this year.
+- Combined EBIT is projected to rise from 80 million dollars in 2025 to approximately 150 million dollars by the end of 2026.
+
+Project Pipeline and Development Updates
+
+- The Injerent Tarawari project is under construction with a physical completion rate exceeding 70 percent and expected commercial operation in Q2 next year.
+- Pervari is a major upcoming project with a 320 megawatt capacity and an estimated budget exceeding 300 million dollars.
+- Approximately 110 million dollars of the Pervari budget is allocated for the mechanical scope, while remaining costs cover construction and hydromechanical work.
+- Construction costs for Injerent have remained within budget despite slight increases aligned with US CPI.
+
+Energy Market Outlook and Regulatory Environment
+
+- Management expects Turkish spot prices to recover from current levels toward a range of 60 to 70 US dollars per megawatt hour as hydrology normalises.
+- The company lobbies against market price caps on electricity, arguing they are inconsistent with deregulated markets and hinder competition.
+- There are discussions regarding potential floor prices for hydro assets, though management considers this unlikely to be implemented soon.
+- While COP31 in Antalya may attract investment, management does not expect it to fundamentally change supply and demand dynamics in the immediate term.
+
+Strategic Diversification into Kosovo
+
+- Due to delays in grid capacity allocation for the Alconbu Hybrid project in Turkey, the company has pivoted toward solar projects in Kosovo.
+- Project Pezza, an 11.5 megawatt solar plant costing roughly six million euros, is expected to be operational by November 2026.
+- The company is also considering Project Drenas in Kosovo as a potential follow-up once successful results are seen from Pezza.
+- Moving into Kosovo allows for Power Purchase Agreements (PPAs) and provides diversification into markets linked to Eastern European hub prices.
+
+Financial Projections and Cash Flow Management
+
+- Capital expenditure for Injerent is forecasted at 80 million dollars for 2026 and increasing thereafter, while Pervari's spending will ramp up significantly through 2027–2029.
+- Dividend payments from joint ventures are not expected this year due to inflation adjustments but should resume in 2027 with an estimated 24 million dollars expected next year.
+- The company anticipates ending the current year with a cash balance of approximately 184 million dollars after accounting for capex, bond payments, and debt servicing.
+- Leverage is expected to peak around late 2027 before decreasing as projects come online through several years of operation.
+
+Long Term Energy Trends and Asset Valuations
+
+- Management believes that without additional support mechanisms for CCGTs, Turkish spot prices will eventually need to rise back towards historical norms because electricity remains cheap compared to Europe.
+- The entry of nuclear power units into the grid is expected to create a must-run effect that may suppress prices slightly during their operation phase starting late next year.
+- In terms of asset preference, management views reservoir hydropower as highly valuable due to its ability to provide essential grid flexibility compared to geothermal or solar assets.
+
+Generated by https://otter.ai

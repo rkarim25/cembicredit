@@ -1,0 +1,77 @@
+Africell
+September 16, 2026
+
+Overview
+
+Africell discussed its strategic alignment with US interests, infrastructure expansion in Angola and DRC, and financial targets for deleveraging.
+
+Strategic Financing
+Mahasi provided background on the Exim support facility, which was approved in August to facilitate a non-Chinese network using Nokia equipment. This initiative aligns with US efforts to secure critical mineral corridors in the Katanga region of the DRC and parts of Angola.
+*   The facility is expected to offer a rate of 4.9% over seven years, fully amortisable.
+*   While the facility provides strategic cover in Angola and the DRC, it is not being used for capital expenditure planning for 2027, as the company intends to fund that period via internally generated cash flow.
+*   The company aims to reach a gross leverage target of 2.5x by Q2 2027.
+
+Operational Performance
+Mahasi highlighted strong momentum in Angola, noting that recent network upgrades and a competitor's (Unitel) 10-day outage led to increased subscriber numbers and revenue. In Angola, daily revenue has normalised around $740,000 following a peak of $880,000 during the outage.
+*   DRC Strategy: The company is shifting from leasing towers to building its own infrastructure to manage growth, despite higher capex requirements and logistical challenges.
+*   Sierra Leone: Remains a top performer with nearly 100% penetration; the company is transitioning from diesel to solar power to mitigate OPEX volatility.
+*   Pricing Dynamics: In Angola, Africell remains 35-40% cheaper than Unitel. The company is advocating for "floor pricing" regulated by the government to protect against currency devaluation and inflation.
+
+Financial Management
+The leadership team discussed managing liquidity and forex risks through consistent upstreaming of cash to UK accounts.
+*   Liquidity: The company maintains a $30 million RCF with J.P. Morgan, Citi, and Standard Bank for emergency purposes.
+*   Credit Ratings: Current ratings include a B-flat with S&P. Upgrades are contingent on maintaining higher cash positions and achieving deleveraging targets.
+*   Forex Mitigation: To combat devaluation, the company attempts to keep most costs in local currency while keeping excess cash in USD/GBP.
+
+Will the current strategy of building owned towers in the DRC sufficiently offset the increased lease liabilities? How will upcoming elections in Angola impact the progress of floor pricing negotiations?
+
+Action Items
+
+- Continue discussions with the Angolan authorities to introduce regulated floor pricing that adjusts for currency devaluation, with the aim of having it in place before the elections.
+- If gross leverage reaches approximately 2.5 times by around Q2 2027, engage lenders and investors about refinancing the existing debt, potentially with an up-sizing to support DRC expansion.
+
+Outline
+
+US Exim Support and Strategy
+
+- Africell has aligned itself with the US government to avoid Chinese influence in its telecommunications networks, specifically using Nokia equipment in Angola.
+- The company qualified for US Exim support through the CTAP programme after Nokia agreed to a US jobs plan.
+- An Exim facility was approved in August to support non-Chinese network rollouts in Angola and the DRC, particularly in the minerals-rich Katanga region.
+- This facility is expected to offer more favourable terms, such as 4.9% over seven years, though it remains linked to supporting Nokia equipment.
+
+Growth Drivers and Market Performance
+
+- Strong growth in Q4 2025 and Q1 2026 resulted from previous capital expenditure investments coming live.
+- Management expects Q3 to be higher than Q1 due to network upgrades and expansion in Angola.
+- A competitor's ten-day network outage in Angola led to a surge in subscriber numbers and revenue for Africell.
+- Sierra Leone remains a top performer with almost 100% market penetration, while Gambia has recovered from previous price wars.
+
+DRC Strategy and Infrastructure
+
+- Africell is shifting its strategy in the DRC from solely leasing towers to building its own infrastructure.
+- Building owned towers requires higher capital expenditure and faces logistical challenges due to poor road and rail infrastructure.
+- Despite being a four-player market, the DRC remains a highly attractive revenue opportunity due to high demand.
+- The company aims to increase the DRC's contribution to revenue, potentially reaching 40% by the end of the year.
+
+Financial Management and Refinancing
+
+- The company aims to deleverage towards a gross leverage target of 2.5x by approximately Q2 2027.
+- Management may consider refinancing and up-sizing debt in the second half of next year once deleveraging targets are met.
+- Capital expenditure for 2027 is currently being planned based on internally generated cash flow rather than the Exim facility.
+- The company maintains a 30 million revolving credit facility (RCF) with J.P. Morgan, Citi, and Standard Bank for liquidity.
+
+Operational Costs and Currency Risks
+
+- Fuel costs represent a small portion of the overall cost basis, at approximately 5%.
+- The company is transitioning from diesel generators to solar power in several markets to mitigate OPEX hits from rising fuel prices.
+- To manage forex risk, Africell upstreamed cash to UK accounts and keeps most costs in local currency, except for large vendor capex.
+- Management is advocating for regulated floor pricing in Angola to protect against currency devaluation and inflation.
+
+Credit Ratings and Liquidity Outlook
+
+- Credit agencies have indicated that increasing the cash position would be a primary requirement for an upgrade.
+- Current S&P ratings are around B flat, but achieving a B plus rating is complicated by sovereign rating ceilings.
+- The company balances holding cash for investor comfort against the need to reinvest heavily for rapid expansion.
+- Management prefers not to rely on tapping bonds as a solution for catastrophic financial issues, noting that shareholders would likely need to provide equity.
+
+Generated by https://otter.ai

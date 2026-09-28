@@ -1,0 +1,92 @@
+Sibanye
+September 17, 2026
+
+Overview
+
+Sibanye presented its financial results and strategic update, focusing on organic growth projects, debt reduction, and operational challenges in the US.
+
+Financial Performance
+Speaker 1 reported significant growth with revenue up over 60% and EBITDA increasing by more than 100%. Key highlights include:
+*   A declared dividend of between 7% and 8%.
+*   An 18% reduction in gross debt, with a long-term target of a 50% reduction (approximately R1 billion).
+*   The convertible bond is expected to convert by the end of the year, potentially reducing debt by an additional R500 million.
+
+Working Capital Management
+A steady build-up in working capital occurred due to rising commodity prices, though recent price normalisation has increased working capital release. The implementation of a metal consignment line in the US also impacted these figures.
+
+Strategic Projects
+Management is prioritising organic brownfield projects over M&A for at least the next three years.
+*   PGM Projects: Sipumalele and Timbulani require approximately R2.5 billion in capex each to arrest production decline. K4 is 99% complete.
+*   Burnstone: A gold project with R6 billion total capex (R2.5 billion pre-production; R3.5 billion project capex) and an NPV of R19 billion.
+*   Mount Lyell: A copper-gold project in Tasmania requiring $350 million in capex with an estimated contribution of $100–$200 million.
+*   Kalibore Lithium: Mining has commenced; management is evaluating whether to start the refinery based on market volatility and Chinese influence on spodumene prices.
+
+Operational Updates
+The US operations face significant hurdles due to ongoing labour disputes and economic pressures.
+
+US PGM Operations
+Strikes at Stillwater have entered their second week, causing a monthly cash burn of $10 million, potentially rising to $25 million by December once stockpiles are depleted. To ensure long-term viability, Speaker 1 aims to reduce all-in sustaining costs from $1,350/oz to $1,000/oz via:
+1.  Implementing a larger, mechanised fleet for a 30% production uplift.
+2.  Optimising mining sequencing through improved development flexibility.
+3.  Revising employee incentives from individual to team-based models (currently contested).
+
+Tax Credits and Closures
+The company expects approximately $200 million from Section 45x production tax credits for the 23/24 period after IRS processing. Regarding site closures, Kloof may operate for two or three more years if a price floor of R2.4 million per kilo is secured, while Quazi is nearing end-of-life with union engagements underway regarding its closure.
+
+Action Items
+
+- Calculate and provide the incremental EBIT contribution of the Calibre, Burnstone and Mount Lyell projects at current prices.
+- Dispose of the equity interests in the Canadian and South American projects and exit the Australian phosphate project, securing cash where possible and transferring the rehabilitation liability.
+
+Outline
+
+Financial Performance and Strategy
+
+- Revenue increased by more than 60% and EBITDA grew by more than 100%.
+- The company declared a dividend between 7% and 8% depending on the specific period.
+- Gross debt has been reduced by 18%, with a long-term target of a 50% reduction.
+- Management is focusing on improving cash conversion alongside record cash flows.
+
+PGM and Growth Projects
+
+- PGM projects including Sipumalele and Timbulani require approximately 2.5 billion rand in capex each to arrest production decline.
+- The K4 project is reported to be 99% complete.
+- The Burnstone gold project has a capex requirement of approximately 6 billion rand and a net present value of 19 billion rand.
+- Mount Lyell is a copper-gold project in Tasmania with a capex requirement of roughly $350 million.
+- Total annual capex is expected to be around 20 billion rand, split equally between sustaining and project capex.
+
+Working Capital and US Operations
+
+- Working capital is heavily influenced by commodity prices within the recycling business due to direct correlations in material acquisition costs.
+- US PGM operations are currently facing strikes at Stillwater, with employees entering their second week of industrial action.
+- Management aims to reduce US all-in sustaining costs from $1,350 per ounce to $1,000 per ounce through mechanisation and revised incentive structures.
+- Cash burn during the US strike is estimated at $10 million per month, potentially rising to $25 million per month after December when stockpiles are depleted.
+
+US Tax Credits and Labour Negotiations
+
+- The company expects to receive significant production tax credits under Section 45x, totaling approximately $200 million for the 23/24 period.
+- Future annual tax credits are estimated at approximately $120 million per annum.
+- Negotiations regarding worker incentives remain difficult as unions are resistant to moving from individual to team-based incentive models.
+- Management noted that if the strike is legally classified as being for economic reasons rather than unfair processes, they may have the option to use contractors.
+
+Lithium Project Status
+
+- The Kalgoorlie lithium project is partially operational with mining and the concentrator phase underway.
+- Management is focused on improving concentrate grades but remains cautious about starting the refinery due to potential Chinese market volatility.
+- The decision to start the refinery will be made later in the year based on price outlooks and European supply chain support.
+
+Debt Management and Dividends
+
+- The company intends to focus on dividends, debt reduction, and organic brownfield projects rather than mergers and acquisitions for the next three years.
+- There is a high probability that convertible bonds will convert at the end of this year, reducing debt by approximately $500 million.
+- The target is to reach a debt level of approximately one billion rand within two years.
+- The dividend policy remains tied to earnings, typically paying out between 25% and 35% of earnings.
+
+Portfolio Cleanup and Mine Closures
+
+- Sibanye is divesting equity interests in projects in Canada and South America while abandoning a phosphate project in Australia to reduce liabilities.
+- The Klipfontein operation is being managed to extend its life by potentially two or three years if a price floor of 2.4 million rand per kilo is secured.
+- The Quazi shaft in Rustenburg is approaching the end of its life, affecting approximately 800 employees.
+- Management believes environmental rehabilitation provisions for these closures are largely sufficient or already provided for.
+
+Generated by https://otter.ai
