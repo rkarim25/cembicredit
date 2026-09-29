@@ -283,6 +283,13 @@
       margin-bottom: 8px;
     }
 
+    .slider-row-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
     .slider-box {
       background: var(--bg-card-sub);
       border: 1px solid var(--border-color);
@@ -338,7 +345,7 @@
     /* Meters & Gauges */
     .meter-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 8px;
       margin-bottom: 10px;
     }
@@ -1626,26 +1633,52 @@
 
       <!-- CONTAINER FOR MODE A: UNIFORM EXTENSION -->
       <div id="container-ext-uniform">
-        <div class="slider-row" style="margin-bottom:0;">
+        <div class="slider-row slider-row-3" style="margin-bottom:0;">
+          <!-- Maturity Extension Tenor -->
           <div class="slider-box">
-            <div class="slider-header">
-              <span class="slider-label">Uniform Maturity Extension Tenor (from June 2026)</span>
-              <span class="slider-val" id="val-extension">4 Years</span>
+            <div class="slider-header" style="align-items:center;">
+              <span class="slider-label">Maturity Extension Tenor</span>
+              <div style="display:flex; align-items:center; gap:4px;">
+                <input type="number" id="num-extension" min="1" max="10" step="1" value="4" oninput="syncExtension(this.value)" class="num-input" style="width:48px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#b45309; border:1px solid #cbd5e1; border-radius:4px; padding:2px 4px; font-size:11px;">
+                <span style="font-size:10px; color:var(--text-muted);">Yrs</span>
+              </div>
             </div>
-            <input type="range" id="input-extension" min="1" max="7" step="1" value="4" oninput="recalcEngine()">
+            <input type="range" id="input-extension" min="1" max="10" step="1" value="4" oninput="syncExtension(this.value)">
             <div style="font-size:9.5px; color:var(--text-muted); margin-top:3px;">
-              Extended Eurobond maturity wall: <strong style="color:#fbbf24;" id="lbl-new-maturity">2030</strong>
+              Extended Eurobond wall: <strong style="color:#b45309;" id="lbl-new-maturity">2030</strong>
             </div>
           </div>
 
+          <!-- Reinstated Coupon -->
           <div class="slider-box">
-            <div class="slider-header">
+            <div class="slider-header" style="align-items:center;">
               <span class="slider-label">Reinstated Cash Coupon Rate</span>
-              <span class="slider-val" id="val-coupon">9.50%</span>
+              <div style="display:flex; align-items:center; gap:4px;">
+                <input type="number" id="num-coupon" min="0.0" max="16.0" step="0.25" value="9.50" oninput="syncCoupon(this.value)" class="num-input" style="width:58px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#b45309; border:1px solid #cbd5e1; border-radius:4px; padding:2px 4px; font-size:11px;">
+                <span style="font-size:10px; color:var(--text-muted);">%</span>
+              </div>
             </div>
-            <input type="range" id="input-coupon" min="7.0" max="14.0" step="0.25" value="9.50" oninput="recalcEngine()">
+            <input type="range" id="input-coupon" min="0.0" max="16.0" step="0.25" value="9.50" oninput="syncCoupon(this.value)">
             <div style="font-size:9.5px; color:var(--text-muted); margin-top:3px;">
-              Annual senior interest burden: <strong style="color:#0f172a;" id="lbl-new-interest">$28.5M</strong>
+              Annual senior interest: <strong style="color:#0f172a;" id="lbl-new-interest">$28.5M</strong>
+            </div>
+          </div>
+
+          <!-- Required Market Exit Yield -->
+          <div class="slider-box" style="border:1px solid rgba(2,132,199,0.35); background:rgba(2,132,199,0.03);">
+            <div class="slider-header" style="align-items:center;">
+              <span class="slider-label" style="color:#0284c7; font-weight:700;">Required Market Exit Yield (r<sub>exit</sub>)</span>
+              <div style="display:flex; align-items:center; gap:4px;">
+                <input type="number" id="num-exit-yield" min="5.0" max="25.0" step="0.25" value="11.00" oninput="onManualExitYield(this.value)" class="num-input" style="width:58px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#0284c7; border:1px solid #cbd5e1; border-radius:4px; padding:2px 4px; font-size:11px;">
+                <span style="font-size:10px; color:var(--text-muted);">%</span>
+              </div>
+            </div>
+            <input type="range" id="input-exit-yield" min="5.0" max="25.0" step="0.25" value="11.00" oninput="onManualExitYield(this.value)">
+            <div style="font-size:9.5px; color:var(--text-muted); margin-top:3px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:4px;">
+              <span>Sovereign (6.75%) + Spread</span>
+              <label style="color:#0284c7; display:flex; align-items:center; gap:4px; cursor:pointer; font-weight:600;">
+                <input type="checkbox" id="chk-auto-exit-yield" checked onchange="toggleAutoExitYield(this.checked)"> Auto (<span id="lbl-implied-rating">4.16x &rarr; 11.00%</span>)
+              </label>
             </div>
           </div>
         </div>
@@ -1758,6 +1791,12 @@
         <div class="meter-val" id="meter-exit-spread" style="color:#38bdf8;">+425 bps</div>
         <div class="meter-sub">Over Turkish Sovereign 4Y Curve (6.75%)</div>
       </div>
+
+      <div class="meter-card">
+        <div class="meter-title">Capital Gain Upside</div>
+        <div class="meter-val" id="meter-exit-upside" style="color:var(--accent-emerald);">+31.8c</div>
+        <div class="meter-sub" id="meter-exit-upside-sub" style="color:var(--accent-emerald);">+50.1% vs Secondary Quote (63.5c)</div>
+      </div>
     </div>
 
     <!-- Exit Yield Sensitivity Matrix Grid Directly in Methodology 2 -->
@@ -1793,18 +1832,18 @@
       <span class="sub">Closed-loop link: Exit Yield &bull; Duration &bull; Sovereign Beta &bull; YEKDEM Cliff</span>
     </div>
 
-    <!-- Market Exit Yield Slider with Auto-Leverage Link -->
+    <!-- Market Exit Yield Slider with Auto-Leverage Link (Synchronized with Card 2) -->
     <div class="slider-row" style="margin-bottom:10px;">
-      <div class="slider-box" style="border:1px solid rgba(56,189,248,0.35); background:rgba(56,189,248,0.04); grid-column:span 2;">
-        <div class="slider-header">
-          <span class="slider-label" style="color:#38bdf8; font-weight:700;">🎯 Required Market Exit Yield (r<sub>exit</sub>)</span>
-          <span class="slider-val" id="val-exit-yield" style="color:#38bdf8; font-weight:800;">11.00%</span>
+      <div class="slider-box" style="border:1px solid rgba(2,132,199,0.35); background:rgba(2,132,199,0.03); grid-column:span 2;">
+        <div class="slider-header" style="align-items:center;">
+          <span class="slider-label" style="color:#0284c7; font-weight:700;">🎯 Required Market Exit Yield (r<sub>exit</sub>)</span>
+          <span class="slider-val" id="val-exit-yield-card4" style="color:#0284c7; font-weight:800;">11.00%</span>
         </div>
-        <input type="range" id="input-exit-yield" min="8.0" max="15.0" step="0.25" value="11.00" oninput="onManualExitYield(this.value)">
+        <input type="range" id="input-exit-yield-card4" min="5.0" max="25.0" step="0.25" value="11.00" oninput="onManualExitYield(this.value)">
         <div style="font-size:9.5px; color:var(--text-muted); margin-top:2px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:4px;">
           <span>Market-clearing yield for post-extension paper &bull; Calibrated to Turkish sovereign curve + credit spread</span>
-          <label style="color:var(--accent-cyan); display:flex; align-items:center; gap:4px; cursor:pointer; font-weight:600;">
-            <input type="checkbox" id="chk-auto-exit-yield" checked onchange="toggleAutoExitYield(this.checked)"> Auto-link to Net Leverage (<span id="lbl-implied-rating">4.16x &rarr; 11.00%</span>)
+          <label style="color:#0284c7; display:flex; align-items:center; gap:4px; cursor:pointer; font-weight:600;">
+            <input type="checkbox" id="chk-auto-exit-yield-card4" checked onchange="toggleAutoExitYield(this.checked)"> Auto-link to Net Leverage (<span id="lbl-implied-rating-card4">4.16x &rarr; 11.00%</span>)
           </label>
         </div>
       </div>
@@ -2205,10 +2244,11 @@
       },
       extend: {
         duration: 6,
-        sponsorEquity: 50,
+        sponsorEquity: 0,
         seniorHaircut: 0,
-        extension: 5,
-        coupon: 9.0,
+        extension: 3,
+        coupon: 7.0,
+        exitYield: 13.0,
         debtEquity: 0,
         pikCoupon: 0.0,
         pikYears: 0,
@@ -2216,11 +2256,11 @@
         wcReserve: true,
         tbPriorityMode: 'super',
         tbDfe: 0,
-        qualYekdem: -0.5,
+        qualYekdem: 0.0,
         qualDorad: 0.0,
-        qualMacro: -0.5,
+        qualMacro: 0.0,
         qualDiscount: 0.0,
-        assets: { kizildere: [140, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [650, 1.00, true], zes_charging: [18, 8.5, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
+        assets: { kizildere: [135, 6.5, true], alasehir: [25, 6.0, true], gokcedag: [28, 6.0, true], hydro_fleet: [22, 5.5, true], oedas_grid: [650, 1.00, true], zes_charging: [15, 8.0, true], cogen_thermal: [20, 4.5, true], international: [20, 5.0, true] }
       },
       ipo_recap: {
         duration: 6,
@@ -2361,15 +2401,51 @@
       }
     };
 
+    function syncExtension(val) {
+      const ext = parseInt(val) || 1;
+      const elRange = document.getElementById("input-extension");
+      const elNum = document.getElementById("num-extension");
+      if (elRange && parseInt(elRange.value) !== ext) elRange.value = ext;
+      if (elNum && parseInt(elNum.value) !== ext) elNum.value = ext;
+      recalcEngine();
+    }
+
+    function syncCoupon(val) {
+      const cpn = parseFloat(val) || 0;
+      const elRange = document.getElementById("input-coupon");
+      const elNum = document.getElementById("num-coupon");
+      if (elRange && parseFloat(elRange.value) !== cpn) elRange.value = cpn;
+      if (elNum && parseFloat(elNum.value) !== cpn) elNum.value = cpn;
+      recalcEngine();
+    }
+
     function onManualExitYield(val) {
       const chk = document.getElementById("chk-auto-exit-yield");
       if (chk) chk.checked = false;
-      const y = parseFloat(val);
-      if (document.getElementById("val-exit-yield")) document.getElementById("val-exit-yield").textContent = `${y.toFixed(2)}%`;
+      const chk4 = document.getElementById("chk-auto-exit-yield-card4");
+      if (chk4) chk4.checked = false;
+
+      const y = parseFloat(val) || 0;
+      const elRange = document.getElementById("input-exit-yield");
+      const elNum = document.getElementById("num-exit-yield");
+      const elVal = document.getElementById("val-exit-yield");
+      const elRange4 = document.getElementById("input-exit-yield-card4");
+      const elVal4 = document.getElementById("val-exit-yield-card4");
+
+      if (elRange && parseFloat(elRange.value) !== y) elRange.value = y;
+      if (elNum && parseFloat(elNum.value) !== y) elNum.value = y;
+      if (elVal) elVal.textContent = `${y.toFixed(2)}%`;
+      if (elRange4 && parseFloat(elRange4.value) !== y) elRange4.value = y;
+      if (elVal4) elVal4.textContent = `${y.toFixed(2)}%`;
+
       recalcEngine();
     }
 
     function toggleAutoExitYield(isChecked) {
+      const chk = document.getElementById("chk-auto-exit-yield");
+      if (chk && chk.checked !== isChecked) chk.checked = isChecked;
+      const chk4 = document.getElementById("chk-auto-exit-yield-card4");
+      if (chk4 && chk4.checked !== isChecked) chk4.checked = isChecked;
       recalcEngine();
     }
 
@@ -2881,10 +2957,24 @@
       document.getElementById("input-sponsor-equity").value = p.sponsorEquity;
       document.getElementById("input-senior-haircut").value = p.seniorHaircut;
       document.getElementById("input-extension").value = p.extension;
+      if (document.getElementById("num-extension")) document.getElementById("num-extension").value = p.extension;
       document.getElementById("input-coupon").value = p.coupon;
+      if (document.getElementById("num-coupon")) document.getElementById("num-coupon").value = p.coupon;
       document.getElementById("input-debt-equity").value = p.debtEquity;
       document.getElementById("input-pik-coupon").value = p.pikCoupon !== undefined ? p.pikCoupon : 0.0;
       document.getElementById("input-pik-years").value = p.pikYears !== undefined ? p.pikYears : 0;
+
+      if (p.exitYield !== undefined) {
+        if (document.getElementById("input-exit-yield")) document.getElementById("input-exit-yield").value = p.exitYield;
+        if (document.getElementById("num-exit-yield")) document.getElementById("num-exit-yield").value = p.exitYield;
+        if (document.getElementById("input-exit-yield-card4")) document.getElementById("input-exit-yield-card4").value = p.exitYield;
+        if (document.getElementById("val-exit-yield")) document.getElementById("val-exit-yield").textContent = `${p.exitYield.toFixed(2)}%`;
+        if (document.getElementById("val-exit-yield-card4")) document.getElementById("val-exit-yield-card4").textContent = `${p.exitYield.toFixed(2)}%`;
+        const chk = document.getElementById("chk-auto-exit-yield");
+        if (chk) chk.checked = false;
+        const chk4 = document.getElementById("chk-auto-exit-yield-card4");
+        if (chk4) chk4.checked = false;
+      }
 
       document.getElementById("input-qual-macro").value = p.qualMacro;
       document.getElementById("input-qual-yekdem").value = p.qualYekdem;
@@ -2982,8 +3072,14 @@
       document.getElementById("val-duration").textContent = `${durationMonths} Months`;
       document.getElementById("val-sponsor-equity").textContent = `$${sponsorEquity.toLocaleString()}M`;
       document.getElementById("val-senior-haircut").textContent = `${(seniorHaircutPct * 100).toFixed(0)}%`;
-      document.getElementById("val-extension").textContent = `${extensionYears} Years`;
-      document.getElementById("val-coupon").textContent = `${(newCouponPct * 100).toFixed(2)}%`;
+      if (document.getElementById("val-extension")) document.getElementById("val-extension").textContent = `${extensionYears} Years`;
+      if (document.getElementById("num-extension") && parseInt(document.getElementById("num-extension").value) !== extensionYears) {
+        document.getElementById("num-extension").value = extensionYears;
+      }
+      if (document.getElementById("val-coupon")) document.getElementById("val-coupon").textContent = `${(newCouponPct * 100).toFixed(2)}%`;
+      if (document.getElementById("num-coupon") && parseFloat(document.getElementById("num-coupon").value) !== (newCouponPct * 100)) {
+        document.getElementById("num-coupon").value = (newCouponPct * 100).toFixed(2);
+      }
       document.getElementById("val-debt-equity").textContent = `${(debtToEquityPct * 100).toFixed(0)}%`;
       if (document.getElementById("val-pik-coupon")) document.getElementById("val-pik-coupon").textContent = `${pikCouponPct.toFixed(2)}%`;
       if (document.getElementById("val-pik-years")) document.getElementById("val-pik-years").textContent = `${pikYears} Year${pikYears === 1 ? '' : 's'}`;
@@ -3405,13 +3501,23 @@
         
         const elY = document.getElementById("input-exit-yield");
         if (elY && parseFloat(elY.value) !== effectiveExitYield) elY.value = effectiveExitYield;
+        const elNumY = document.getElementById("num-exit-yield");
+        if (elNumY && parseFloat(elNumY.value) !== effectiveExitYield) elNumY.value = effectiveExitYield.toFixed(2);
+        const elY4 = document.getElementById("input-exit-yield-card4");
+        if (elY4 && parseFloat(elY4.value) !== effectiveExitYield) elY4.value = effectiveExitYield;
+      } else {
+        const elNumY = document.getElementById("num-exit-yield");
+        if (elNumY && parseFloat(elNumY.value) !== effectiveExitYield) elNumY.value = effectiveExitYield.toFixed(2);
+        const elY4 = document.getElementById("input-exit-yield-card4");
+        if (elY4 && parseFloat(elY4.value) !== effectiveExitYield) elY4.value = effectiveExitYield;
       }
       if (document.getElementById("val-exit-yield")) document.getElementById("val-exit-yield").textContent = `${effectiveExitYield.toFixed(2)}%`;
-      if (document.getElementById("lbl-implied-rating")) {
-        document.getElementById("lbl-implied-rating").textContent = isAutoYield
-          ? `${proFormaNetLeverage.toFixed(2)}x → ${effectiveExitYield.toFixed(2)}%`
-          : 'Manual Mode (Unlinked)';
-      }
+      if (document.getElementById("val-exit-yield-card4")) document.getElementById("val-exit-yield-card4").textContent = `${effectiveExitYield.toFixed(2)}%`;
+      const ratingText = isAutoYield
+        ? `${proFormaNetLeverage.toFixed(2)}x → ${effectiveExitYield.toFixed(2)}%`
+        : 'Manual Mode (Unlinked)';
+      if (document.getElementById("lbl-implied-rating")) document.getElementById("lbl-implied-rating").textContent = ratingText;
+      if (document.getElementById("lbl-implied-rating-card4")) document.getElementById("lbl-implied-rating-card4").textContent = ratingText;
 
       let effectiveNewDebtTradingPx = 0;
       let effectiveCoupon = exitCoupon;
@@ -3534,6 +3640,17 @@
       if (document.getElementById("meter-exit-economic-rec")) document.getElementById("meter-exit-economic-rec").textContent = `${stream2PV.toFixed(1)}c`;
       if (document.getElementById("meter-exit-nominal-rec")) document.getElementById("meter-exit-nominal-rec").textContent = `vs ${rawSeniorRecoveryCents.toFixed(1)}c Nominal Asset Coverage`;
       if (document.getElementById("meter-exit-spread")) document.getElementById("meter-exit-spread").textContent = `+${impliedSpreadBps} bps`;
+
+      const mktPxRef = 63.5;
+      const upsideDollar = stream2PV - mktPxRef;
+      const upsidePct = (upsideDollar / mktPxRef) * 100.0;
+      if (document.getElementById("meter-exit-upside")) {
+        const sign = upsideDollar >= 0 ? '+' : '';
+        document.getElementById("meter-exit-upside").textContent = `${sign}${upsideDollar.toFixed(1)}c`;
+        document.getElementById("meter-exit-upside-sub").textContent = `${sign}${upsidePct.toFixed(1)}% vs Secondary Quote (${mktPxRef}c)`;
+        document.getElementById("meter-exit-upside").style.color = upsideDollar >= 0 ? 'var(--accent-emerald)' : 'var(--accent-rose)';
+        document.getElementById("meter-exit-upside-sub").style.color = upsideDollar >= 0 ? 'var(--accent-emerald)' : 'var(--accent-rose)';
+      }
 
       if (document.getElementById("matrix-coupon-label")) document.getElementById("matrix-coupon-label").textContent = `${effectiveCoupon.toFixed(2)}%${extensionMode === 'fixed' ? ' (Blended)' : ''}`;
       if (document.getElementById("matrix-pik-label")) document.getElementById("matrix-pik-label").textContent = `${pikCouponPct.toFixed(2)}% (${pikYears}Y)`;

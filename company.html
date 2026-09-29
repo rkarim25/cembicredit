@@ -227,10 +227,16 @@
       </div>
 
       <!-- Interactive Spreadsheet Table & Zoom Wrapper -->
-      <div id="table-scroll-container" style="overflow-x:auto; border-radius:8px 8px 0 0; border: 1px solid #1e2d45; border-bottom: none; background: #0a0f1c;">
+      <div id="table-scroll-container" style="overflow-x:auto; border-radius:8px 8px 0 0; border: 1px solid var(--company-card-border); border-bottom: none; background: #ffffff;">
         <div id="table-zoom-wrapper">
           <table class="company-sheet-table" id="company-sheet-table">
-            <!-- Populated dynamically by js/company.js?v=20260923_excel_v1"spreadsheet-bottom-bar" id="spreadsheet-bottom-bar">
+            <!-- Populated dynamically by js/company.js -->
+          </table>
+        </div>
+      </div>
+
+      <!-- Cognitive Credit Style Spreadsheet Bottom Status & Action Bar -->
+      <div class="spreadsheet-bottom-bar" id="spreadsheet-bottom-bar">
         <div class="sb-left">
           <div class="sb-tabs">
             <button class="sb-tab-btn active" id="sb-tab-standard" onclick="switchSheetView('standard')">📊 Annual &amp; Forecast</button>
@@ -538,7 +544,7 @@
             </span>
             <span class="sub">Absolute Priority Rule (APR) Enterprise Value Allocation ($M &amp; Cents on the Dollar)</span>
           </div>
-          <a href="braskem_calculator.html" class="btn-action btn-gold" style="font-size:11px; padding:6px 14px; text-decoration:none; font-weight:700;">
+          <a href="braskem_calculator.html" id="waterfall-sandbox-btn" class="btn-action btn-gold" style="font-size:11px; padding:6px 14px; text-decoration:none; font-weight:700;">
             ⚖️ Open Interactive Restructuring Sandbox →
           </a>
         </div>

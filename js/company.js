@@ -792,7 +792,7 @@ function renderCcSheetContent(sheetName) {
             <div style="display:flex; gap:8px;">
               <span style="font-weight:700; color:#b45309;">Cognitive Credit Model:</span>
               ${['Annual and Quarterly', 'Quarterly YTD', 'Rolling LTM'].map(tab => `
-                <button onclick="renderCcSheetContent('${tab}')" style="background:${tab === sheetName ? '#1e293b' : 'transparent'}; border:${tab === sheetName ? '1px solid #3b82f6' : '1px solid transparent'}; color:${tab === sheetName ? '#38bdf8' : '#94a3b8'}; padding:3px 8px; border-radius:4px; font-size:11px; cursor:pointer; font-weight:${tab === sheetName ? '700' : '500'};">${tab}</button>
+                <button onclick="renderCcSheetContent('${tab}')" style="background:${tab === sheetName ? '#0284c7' : 'transparent'}; border:${tab === sheetName ? '1px solid #0284c7' : '1px solid #cbd5e1'}; color:${tab === sheetName ? '#ffffff' : '#475569'}; padding:3px 8px; border-radius:4px; font-size:11px; cursor:pointer; font-weight:${tab === sheetName ? '700' : '500'};">${tab}</button>
               `).join('')}
             </div>
             <span style="color:#10b981; font-size:11px;">✓ ${sheet.formula_count} Formulas Retained | ${sheet.row_count} Rows</span>
@@ -1416,7 +1416,7 @@ function openCellContextMenu(clientX, clientY, coord, metricKey, period) {
         <textarea id="cm-note-input" class="cm-textarea" placeholder="Record cell-specific credit comment, thesis note, or Preply inquiry...">${escapeHtml(cellNote)}</textarea>
 
         <div style="display:flex; justify-content:space-between; align-items:center; margin-top:10px;">
-          <button onclick="clearCellNote('${coord}')" class="btn-action" style="padding:4px 10px; font-size:11px; background:#1e293b; color:var(--text-dim);">
+          <button onclick="clearCellNote('${coord}')" class="btn-action" style="padding:4px 10px; font-size:11px; background:#f1f5f9; color:var(--text-dim); border:1px solid #cbd5e1;">
             🗑️ Clear Note
           </button>
           <button onclick="saveCellNoteFromMenu('${coord}')" class="btn-action btn-gold" style="padding:5px 14px; font-size:11px; font-weight:700;">
@@ -1428,7 +1428,7 @@ function openCellContextMenu(clientX, clientY, coord, metricKey, period) {
       <!-- PANE 2: FORMULA & AUDIT TRACE -->
       <div class="cm-pane" id="cm-pane-audit">
         <div style="font-size:11px; color:var(--text-dim); margin-bottom:6px;">Calculation Formula / Precedents:</div>
-        <div style="background:#f8fafc; border:1px solid var(--company-card-border); border-radius:6px; padding:8px 10px; font-family:'JetBrains Mono', monospace; font-size:11px; color:#38bdf8; margin-bottom:12px;">
+        <div style="background:#f8fafc; border:1px solid var(--company-card-border); border-radius:6px; padding:8px 10px; font-family:'JetBrains Mono', monospace; font-size:11px; color:#0284c7; margin-bottom:12px;">
           ${escapeHtml(meta.formula || `=${coord}`)}
         </div>
 
@@ -1436,7 +1436,7 @@ function openCellContextMenu(clientX, clientY, coord, metricKey, period) {
           <strong style="color:var(--text-main);">Audit Observation:</strong> ${escapeHtml(meta.commentary || 'Calculated line item.')}
         </div>
 
-        <div style="font-size:11px; color:var(--text-dim); border-top:1px solid #1e293b; padding-top:8px;">
+        <div style="font-size:11px; color:var(--text-dim); border-top:1px solid #e2e8f0; padding-top:8px;">
           <strong>Ground-Truth Source:</strong> ${escapeHtml(meta.source || 'Audited Financial Statements')}
         </div>
       </div>
@@ -1453,13 +1453,13 @@ function openCellContextMenu(clientX, clientY, coord, metricKey, period) {
           </div>
           <div style="display:flex; flex-direction:column; gap:8px;">
             ${brokerEstimates.map(be => `
-              <div style="display:flex; justify-content:space-between; align-items:center; background:#f8fafc; padding:8px 10px; border-radius:6px; border:1px solid ${be.isError ? '#ef4444' : '#1e293b'};">
+              <div style="display:flex; justify-content:space-between; align-items:center; background:#f8fafc; padding:8px 10px; border-radius:6px; border:1px solid ${be.isError ? '#ef4444' : '#e2e8f0'};">
                 <div>
                   <div style="font-weight:700; color:var(--text-main); font-size:11px;">${escapeHtml(be.broker)}</div>
                   <div style="font-size:10px; color:var(--text-dim);">${escapeHtml(be.analyst)}</div>
                 </div>
                 <div style="text-align:right;">
-                  <div style="font-family:'JetBrains Mono',monospace; font-weight:700; color:${be.val < 0 ? '#f87171' : '#34d399'}; font-size:12px;">
+                  <div style="font-family:'JetBrains Mono',monospace; font-weight:700; color:${be.val < 0 ? '#dc2626' : '#15803d'}; font-size:12px;">
                     ${formatMetricDisplay(be.val, { isPct: metricKey.endsWith('_pct') })}
                   </div>
                   ${be.isError ? '<span style="font-size:9px; color:#ef4444; font-weight:700;">⚠️ Mistake Reconciled</span>' : '<span style="font-size:9px; color:#10b981;">✓ Tied Out</span>'}
@@ -1476,7 +1476,7 @@ function openCellContextMenu(clientX, clientY, coord, metricKey, period) {
           Override this cell with a custom stress value to evaluate sensitivity:
         </div>
         <div style="display:flex; gap:8px; margin-bottom:12px;">
-          <input type="number" step="0.1" id="cm-whatif-val" placeholder="Stress value" value="${currentVal !== null ? currentVal : ''}" style="flex:1; background:#111a2e; border:1px solid #23334d; color:var(--text-main); padding:6px 10px; border-radius:6px; font-size:12px;">
+          <input type="number" step="0.1" id="cm-whatif-val" placeholder="Stress value" value="${currentVal !== null ? currentVal : ''}" style="flex:1; background:#ffffff; border:1px solid #cbd5e1; color:var(--text-main); padding:6px 10px; border-radius:6px; font-size:12px;">
           <button onclick="applyWhatIfTest('${metricKey}', '${period}')" class="btn-action btn-gold" style="padding:6px 12px; font-size:11px; font-weight:700;">
             ⚡ Run Test
           </button>
@@ -2141,7 +2141,7 @@ function renderCovenantsAndRecovery() {
   let scenariosHtml = '';
   if (rec.scenarios && rec.scenarios.length > 0) {
     scenariosHtml = `
-      <div style="margin-top:14px; padding-top:12px; border-top:1px solid #1e2d45;">
+      <div style="margin-top:14px; padding-top:12px; border-top:1px solid var(--company-card-border);">
         <div style="font-size:11px; font-weight:700; color:#b45309; text-transform:uppercase; margin-bottom:8px;">
           📊 Tranche Recovery Waterfall & Trading Asymmetry
         </div>
@@ -2190,27 +2190,27 @@ function renderCovenantsAndRecovery() {
     const nd = ccr.net_debt_usd_m || ccr.total_net_debt_usd_m || 0;
     const nl = ccr.adj_net_leverage || ccr.total_net_leverage || 0;
     ccReconHtml = `
-      <div style="margin-top:14px; background:rgba(15,23,42,0.9); border:1px solid rgba(56,189,248,0.35); border-radius:6px; padding:12px 14px;">
+      <div style="margin-top:14px; background:#f8fafc; border:1px solid #cbd5e1; border-radius:6px; padding:12px 14px;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:6px;">
-          <div style="font-size:11px; font-weight:700; color:#38bdf8; text-transform:uppercase;">
+          <div style="font-size:11px; font-weight:700; color:var(--accent-cyan); text-transform:uppercase;">
             🔗 Cognitive Credit Audited Debt &amp; Leverage Baseline
           </div>
           <span class="badge badge-ig" style="font-size:9px;">${escapeHtml(ccr.audited_source || 'Cognitive Credit')}</span>
         </div>
         <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap:8px; font-size:11px; margin-bottom:8px;">
-          <div style="background:rgba(0,0,0,0.3); padding:6px 8px; border-radius:4px; border:1px solid var(--company-card-border);">
+          <div style="background:#ffffff; padding:6px 8px; border-radius:4px; border:1px solid var(--company-card-border);">
             <div style="color:var(--text-dim); font-size:9px; text-transform:uppercase;">Gross Debt</div>
-            <strong style="color:#f87171; font-family:'JetBrains Mono',monospace;">$${gd.toLocaleString()}M</strong>
+            <strong style="color:#dc2626; font-family:'JetBrains Mono',monospace;">$${gd.toLocaleString()}M</strong>
           </div>
-          <div style="background:rgba(0,0,0,0.3); padding:6px 8px; border-radius:4px; border:1px solid var(--company-card-border);">
+          <div style="background:#ffffff; padding:6px 8px; border-radius:4px; border:1px solid var(--company-card-border);">
             <div style="color:var(--text-dim); font-size:9px; text-transform:uppercase;">Cash Cushion</div>
-            <strong style="color:#34d399; font-family:'JetBrains Mono',monospace;">$${cs.toLocaleString()}M</strong>
+            <strong style="color:#15803d; font-family:'JetBrains Mono',monospace;">$${cs.toLocaleString()}M</strong>
           </div>
-          <div style="background:rgba(0,0,0,0.3); padding:6px 8px; border-radius:4px; border:1px solid var(--company-card-border);">
+          <div style="background:#ffffff; padding:6px 8px; border-radius:4px; border:1px solid var(--company-card-border);">
             <div style="color:var(--text-dim); font-size:9px; text-transform:uppercase;">Net Debt</div>
             <strong style="color:var(--text-main); font-family:'JetBrains Mono',monospace;">$${nd.toLocaleString()}M</strong>
           </div>
-          <div style="background:rgba(0,0,0,0.3); padding:6px 8px; border-radius:4px; border:1px solid var(--company-card-border);">
+          <div style="background:#ffffff; padding:6px 8px; border-radius:4px; border:1px solid var(--company-card-border);">
             <div style="color:var(--text-dim); font-size:9px; text-transform:uppercase;">Net Leverage</div>
             <strong style="color:#b45309; font-family:'JetBrains Mono',monospace;">${nl.toFixed(2)}x</strong>
           </div>
@@ -2236,13 +2236,13 @@ function renderCovenantsAndRecovery() {
         <span style="color:var(--text-muted);">Senior Debt Coverage:</span>
         <strong style="color:#b45309;">${(rec.senior_debt_coverage_pct || 115).toFixed(1)}%</strong>
       </div>
-      <div style="margin-top:12px; padding-top:8px; border-top:1px solid #1a2538; font-size:12px; color:var(--text-muted); line-height:1.5;">
+      <div style="margin-top:12px; padding-top:8px; border-top:1px solid var(--company-card-border); font-size:12px; color:var(--text-muted); line-height:1.5;">
         ${rec.recovery_commentary || 'Recovery anchored by primary operating assets, physical export infrastructure, and minimum liquidation value under distressed restructuring scenarios.'}
       </div>
       ${ccReconHtml}
       ${scenariosHtml}
       ${currentIssuer.metadata.id === 'braskem' ? `
-        <div style="margin-top:14px; background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+        <div style="margin-top:14px; background:rgba(2,132,199,0.06); border:1px solid rgba(2,132,199,0.25); border-radius:6px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
           <div>
             <div style="font-weight:700; color:var(--text-main); font-size:12px; display:flex; align-items:center; gap:6px;">
               <span>⚖️ Interactive SOTP Recovery &amp; Pricing Band Engine</span>
@@ -2257,22 +2257,104 @@ function renderCovenantsAndRecovery() {
           </a>
         </div>
       ` : (currentIssuer.metadata.id === 'zorlu' ? `
-        <div style="margin-top:14px; background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
-          <div>
-            <div style="font-weight:700; color:var(--text-main); font-size:12px; display:flex; align-items:center; gap:6px;">
-              <span>⚖️ Interactive Refinancing &amp; SOTP Sandbox</span>
-              <span class="badge badge-ig" style="font-size:9px;">Live Sandbox</span>
+        <!-- Live Interactive Bond NPV & Recovery Desk for Zorlu -->
+        <div style="margin-top:14px; background:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:14px 16px; box-shadow:0 1px 3px rgba(0,0,0,0.03);">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; border-bottom:1px solid #e2e8f0; padding-bottom:8px; flex-wrap:wrap; gap:6px;">
+            <div style="font-weight:700; color:#0f172a; font-size:12px; display:flex; align-items:center; gap:6px;">
+              <span>🧮</span> Interactive Bond NPV &amp; Recovery Valuation Desk
+              <span class="badge badge-ig" style="font-size:9px;">Live Calculator</span>
             </div>
-            <div style="font-size:11px; color:var(--text-dim); margin-top:3px;">
-              Calibrate June 2026 Eurobond roll, SOTP geothermal &amp; grid multiples, Zorlu Yenilenebilir IPO cash, and Turkish macro friction.
+            <span style="font-size:10px; color:#64748b; font-family:'JetBrains Mono',monospace;">ZOREN 11.00% 2030 (XS2926261426) &bull; Ref: 63.5c</span>
+          </div>
+
+          <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap:10px; margin-bottom:12px;">
+            <!-- Tenor Extension -->
+            <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:6px; padding:8px 10px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; font-size:10px; font-weight:600; color:#334155;">
+                <span>Maturity Extension</span>
+                <div style="display:flex; align-items:center; gap:4px;">
+                  <input type="number" id="tab-num-ext" min="1" max="10" step="1" value="3" oninput="syncTabZorenInput('ext', this.value)" style="width:48px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#b45309; border:1px solid #cbd5e1; border-radius:4px; padding:2px 4px; font-size:11px;">
+                  <span style="font-size:10px; color:#64748b;">Yrs</span>
+                </div>
+              </div>
+              <input type="range" id="tab-input-ext" min="1" max="10" step="1" value="3" oninput="syncTabZorenInput('ext', this.value)" style="width:100%;">
+            </div>
+
+            <!-- Reinstated Coupon -->
+            <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:6px; padding:8px 10px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; font-size:10px; font-weight:600; color:#334155;">
+                <span>Reinstated Coupon</span>
+                <div style="display:flex; align-items:center; gap:4px;">
+                  <input type="number" id="tab-num-cpn" min="0.0" max="16.0" step="0.25" value="7.00" oninput="syncTabZorenInput('cpn', this.value)" style="width:58px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#b45309; border:1px solid #cbd5e1; border-radius:4px; padding:2px 4px; font-size:11px;">
+                  <span style="font-size:10px; color:#64748b;">%</span>
+                </div>
+              </div>
+              <input type="range" id="tab-input-cpn" min="0.0" max="16.0" step="0.25" value="7.00" oninput="syncTabZorenInput('cpn', this.value)" style="width:100%;">
+            </div>
+
+            <!-- Required Exit Yield -->
+            <div style="background:#ffffff; border:1px solid #bae6fd; border-radius:6px; padding:8px 10px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; font-size:10px; font-weight:600; color:#0369a1;">
+                <span>Required Exit Yield</span>
+                <div style="display:flex; align-items:center; gap:4px;">
+                  <input type="number" id="tab-num-yld" min="5.0" max="25.0" step="0.25" value="13.00" oninput="syncTabZorenInput('yld', this.value)" style="width:58px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#0284c7; border:1px solid #cbd5e1; border-radius:4px; padding:2px 4px; font-size:11px;">
+                  <span style="font-size:10px; color:#64748b;">%</span>
+                </div>
+              </div>
+              <input type="range" id="tab-input-yld" min="5.0" max="25.0" step="0.25" value="13.00" oninput="syncTabZorenInput('yld', this.value)" style="width:100%;">
+            </div>
+
+            <!-- Senior Haircut -->
+            <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:6px; padding:8px 10px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; font-size:10px; font-weight:600; color:#334155;">
+                <span>Principal Haircut</span>
+                <div style="display:flex; align-items:center; gap:4px;">
+                  <input type="number" id="tab-num-cut" min="0" max="50" step="5" value="0" oninput="syncTabZorenInput('cut', this.value)" style="width:48px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:700; color:#dc2626; border:1px solid #cbd5e1; border-radius:4px; padding:2px 4px; font-size:11px;">
+                  <span style="font-size:10px; color:#64748b;">%</span>
+                </div>
+              </div>
+              <input type="range" id="tab-input-cut" min="0" max="50" step="5" value="0" oninput="syncTabZorenInput('cut', this.value)" style="width:100%;">
             </div>
           </div>
-          <a href="zoren_calculator.html" class="btn-action btn-gold" style="font-weight:700; font-size:11px; padding:6px 14px; text-decoration:none;">
-            Launch Sandbox →
-          </a>
+
+          <!-- Output Metrics Strip -->
+          <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap:8px; margin-bottom:12px; text-align:center;">
+            <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:6px; padding:8px 6px;">
+              <div style="font-size:9.5px; text-transform:uppercase; color:#15803d; font-weight:700;">Extended Bond NPV</div>
+              <div id="tab-disp-npv" style="font-family:'JetBrains Mono',monospace; font-size:17px; font-weight:800; color:#15803d; margin-top:2px;">85.5c</div>
+              <div id="tab-disp-npv-sub" style="font-size:9px; color:#15803d;">$85.48 per $100 par</div>
+            </div>
+
+            <div style="background:#f0f9ff; border:1px solid #bae6fd; border-radius:6px; padding:8px 6px;">
+              <div style="font-size:9.5px; text-transform:uppercase; color:#0284c7; font-weight:700;">Senior Economic Recovery</div>
+              <div id="tab-disp-rec" style="font-family:'JetBrains Mono',monospace; font-size:17px; font-weight:800; color:#0284c7; margin-top:2px;">85.5c</div>
+              <div style="font-size:9px; color:#64748b;">100% Asset Coverage</div>
+            </div>
+
+            <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:6px; padding:8px 6px;">
+              <div style="font-size:9.5px; text-transform:uppercase; color:#475569; font-weight:700;">Secondary Market Px</div>
+              <div style="font-family:'JetBrains Mono',monospace; font-size:17px; font-weight:800; color:#0f172a; margin-top:2px;">63.5c</div>
+              <div style="font-size:9px; color:#64748b;">Distressed Quote (27.2% YTM)</div>
+            </div>
+
+            <div style="background:#fefce8; border:1px solid #fef08a; border-radius:6px; padding:8px 6px;">
+              <div style="font-size:9.5px; text-transform:uppercase; color:#b45309; font-weight:700;">Implied Capital Upside</div>
+              <div id="tab-disp-upside" style="font-family:'JetBrains Mono',monospace; font-size:17px; font-weight:800; color:#b45309; margin-top:2px;">+22.0c</div>
+              <div id="tab-disp-upside-sub" style="font-size:9px; color:#b45309;">+34.6% vs Secondary Px</div>
+            </div>
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+            <div style="font-size:10.5px; color:#334155;">
+              💡 <strong>Direct Mathematical Calculation:</strong> 6 semi-annual payments of $3.50 discounted at 6.50% (13.00% p.a.) + $100 par at $t=3$ yrs = <strong>85.48c</strong>.
+            </div>
+            <a href="zoren_calculator.html" class="btn-action btn-gold" style="font-size:11px; padding:6px 14px; font-weight:700; text-decoration:none;">
+              Launch Full SOTP &amp; Waterfall Sandbox →
+            </a>
+          </div>
         </div>
       ` : (currentIssuer.metadata.id === 'aragvi' ? `
-        <div style="margin-top:14px; background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+        <div style="margin-top:14px; background:rgba(2,132,199,0.06); border:1px solid rgba(2,132,199,0.25); border-radius:6px; padding:12px 14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
           <div>
             <div style="font-weight:700; color:var(--text-main); font-size:12px; display:flex; align-items:center; gap:6px;">
               <span>⚖️ Interactive Refinancing &amp; SOTP Sandbox</span>
@@ -2418,31 +2500,31 @@ function renderCovenantsAndRecovery() {
                 const isSub = st.is_subtotal;
                 const isHigh = st.is_highlight;
                 let rowBg = 'transparent';
-                let borderTop = '1px solid #1e293b';
+                let borderTop = '1px solid #e2e8f0';
                 let fontWeight = isSub || isHigh ? '700' : '400';
 
                 if (isHigh) {
-                  rowBg = 'rgba(251,191,36,0.07)';
-                  borderTop = '2px solid rgba(251,191,36,0.3)';
+                  rowBg = 'rgba(251,191,36,0.08)';
+                  borderTop = '2px solid rgba(251,191,36,0.4)';
                 } else if (isSub) {
-                  rowBg = 'rgba(255,255,255,0.03)';
-                  borderTop = '1px solid #334155';
+                  rowBg = '#f8fafc';
+                  borderTop = '1px solid #cbd5e1';
                 }
 
                 const desc = stepDescriptions[idx] || '';
 
                 return `
                   <tr style="background:${rowBg}; border-top:${borderTop};">
-                    <td style="padding:9px 12px; font-weight:${fontWeight}; color:${isHigh ? '#fbbf24' : (isSub ? (st.color || '#fff') : '#cbd5e1')};">
+                    <td style="padding:9px 12px; font-weight:${fontWeight}; color:${isHigh ? '#b45309' : (isSub ? (st.color || '#0f172a') : '#334155')};">
                       ${escapeHtml(st.step)}
                     </td>
-                    <td style="padding:9px 12px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${isHigh ? '#f87171' : (isSub ? (st.color || '#f87171') : '#cbd5e1')};">
+                    <td style="padding:9px 12px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${isHigh ? '#dc2626' : (isSub ? (st.color || '#dc2626') : '#334155')};">
                       ${escapeHtml(st.floor)}
                     </td>
-                    <td style="padding:9px 12px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${isHigh ? '#34d399' : (isSub ? (st.color || '#34d399') : '#fff')};">
+                    <td style="padding:9px 12px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${isHigh ? '#15803d' : (isSub ? (st.color || '#15803d') : '#0f172a')};">
                       ${escapeHtml(st.base)}
                     </td>
-                    <td style="padding:9px 12px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${isHigh ? '#38bdf8' : (isSub ? (st.color || '#38bdf8') : '#93c5fd')};">
+                    <td style="padding:9px 12px; text-align:right; font-family:'JetBrains Mono',monospace; font-weight:${fontWeight}; color:${isHigh ? '#0284c7' : (isSub ? (st.color || '#0284c7') : '#0284c7')};">
                       ${escapeHtml(st.bull)}
                     </td>
                     <td style="padding:9px 12px; font-size:10.5px; color:var(--text-dim); line-height:1.4;">
@@ -2456,17 +2538,17 @@ function renderCovenantsAndRecovery() {
         </div>
 
         <!-- Analytical Strategy Commentary Box -->
-        <div style="margin-top:18px; padding:14px 16px; background:#0b1329; border:1px solid #1e3a8a; border-radius:8px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px;">
+        <div style="margin-top:18px; padding:14px 16px; background:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px;">
           <div style="flex:1; min-width:280px;">
-            <div style="font-weight:700; color:#38bdf8; font-size:12px; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
+            <div style="font-weight:700; color:#0284c7; font-size:12px; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
               <span>💡</span> Desk Takeaway &amp; Capital Structure Strategy
             </div>
-            <div style="font-size:11.5px; color:var(--text-muted); line-height:1.5;">
+            <div style="font-size:11.5px; color:#334155; line-height:1.5;">
               ${deskCommentary}
             </div>
           </div>
           <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-            <a href="${bgUrl}" class="btn-action" style="font-size:11px; padding:8px 14px; background:rgba(56,189,248,0.15); border-color:#38bdf8; color:#93c5fd; font-weight:700; text-decoration:none; white-space:nowrap;">
+            <a href="${bgUrl}" class="btn-action" style="font-size:11px; padding:8px 14px; background:rgba(2,132,199,0.08); border-color:#0284c7; color:#0284c7; font-weight:700; text-decoration:none; white-space:nowrap;">
               📖 Asset Inputs &amp; EV Vol →
             </a>
             <a href="${sandboxUrl}" class="btn-action btn-gold" style="font-size:11px; padding:8px 16px; font-weight:700; text-decoration:none; white-space:nowrap;">
@@ -2475,12 +2557,88 @@ function renderCovenantsAndRecovery() {
           </div>
         </div>
       `;
+
+      const wsBtn = document.getElementById('waterfall-sandbox-btn');
+      if (wsBtn) {
+        wsBtn.href = sandboxUrl;
+        wsBtn.innerHTML = isZorlu ? '⚖️ Open Zorlu Refinancing Sandbox →' : (isAragvi ? '⚖️ Open Aragvi Restructuring Sandbox →' : '⚖️ Open Interactive Restructuring Sandbox →');
+      }
     } else {
       fullCard.style.display = 'none';
       fullContainer.innerHTML = '';
     }
   }
+
+  // Trigger live calculation if Zorlu calculator elements exist
+  setTimeout(() => {
+    if (typeof window.recalcCompanyZorenNpv === 'function') {
+      window.recalcCompanyZorenNpv();
+    }
+  }, 60);
 }
+
+// Global input synchronizer for Zorlu desk in Tab 7
+window.syncTabZorenInput = function(key, val) {
+  const rangeEl = document.getElementById(`tab-input-${key}`);
+  const numEl = document.getElementById(`tab-num-${key}`);
+  if (rangeEl && rangeEl.value != val) rangeEl.value = val;
+  if (numEl && numEl.value != val) numEl.value = val;
+  window.recalcCompanyZorenNpv();
+};
+
+// Global live bond NPV calculation for Zorlu in Tab 7
+window.recalcCompanyZorenNpv = function() {
+  const extEl = document.getElementById('tab-input-ext');
+  const cpnEl = document.getElementById('tab-input-cpn');
+  const yldEl = document.getElementById('tab-input-yld');
+  const cutEl = document.getElementById('tab-input-cut');
+  if (!extEl || !cpnEl || !yldEl) return;
+
+  const ext = parseInt(extEl.value || 3);
+  const cpn = parseFloat(cpnEl.value || 7.0);
+  const yld = parseFloat(yldEl.value || 13.0);
+  const cut = parseFloat(cutEl ? cutEl.value : 0) / 100.0;
+
+  const numExt = document.getElementById('tab-num-ext');
+  if (numExt && parseInt(numExt.value) !== ext) numExt.value = ext;
+  const numCpn = document.getElementById('tab-num-cpn');
+  if (numCpn && parseFloat(numCpn.value) !== cpn) numCpn.value = cpn.toFixed(2);
+  const numYld = document.getElementById('tab-num-yld');
+  if (numYld && parseFloat(numYld.value) !== yld) numYld.value = yld.toFixed(2);
+  const numCut = document.getElementById('tab-num-cut');
+  if (numCut && parseFloat(numCut.value) !== (cut * 100)) numCut.value = (cut * 100).toFixed(0);
+
+  if (document.getElementById('tab-val-ext')) document.getElementById('tab-val-ext').textContent = `${ext} Years`;
+  if (document.getElementById('tab-val-cpn')) document.getElementById('tab-val-cpn').textContent = `${cpn.toFixed(2)}%`;
+  if (document.getElementById('tab-val-yld')) document.getElementById('tab-val-yld').textContent = `${yld.toFixed(2)}%`;
+  if (document.getElementById('tab-val-cut')) document.getElementById('tab-val-cut').textContent = `${(cut * 100).toFixed(0)}%`;
+
+  const n = ext * 2;
+  const r = (yld / 100.0) / 2.0;
+  const c = (cpn / 100.0) / 2.0;
+  let pv = 0.0;
+  let face = 100.0;
+  for (let i = 1; i <= n; i++) {
+    pv += (face * c) / Math.pow(1.0 + r, i);
+  }
+  pv += face / Math.pow(1.0 + r, n);
+
+  const reinstatedDebtFace = 100.0 * (1.0 - cut);
+  const packageVal = reinstatedDebtFace * (pv / 100.0);
+  const mktPx = 63.5;
+  const upsideDollar = packageVal - mktPx;
+  const upsidePct = (upsideDollar / mktPx) * 100.0;
+
+  if (document.getElementById('tab-disp-npv')) document.getElementById('tab-disp-npv').textContent = `${pv.toFixed(1)}c`;
+  if (document.getElementById('tab-disp-npv-sub')) document.getElementById('tab-disp-npv-sub').textContent = `$${pv.toFixed(2)} per $100 par`;
+  if (document.getElementById('tab-disp-rec')) document.getElementById('tab-disp-rec').textContent = `${packageVal.toFixed(1)}c`;
+  if (document.getElementById('tab-disp-upside')) {
+    const sign = upsideDollar >= 0 ? '+' : '';
+    document.getElementById('tab-disp-upside').textContent = `${sign}${upsideDollar.toFixed(1)}c`;
+    document.getElementById('tab-disp-upside-sub').textContent = `${sign}${upsidePct.toFixed(1)}% vs Secondary Px`;
+    document.getElementById('tab-disp-upside').style.color = upsideDollar >= 0 ? '#b45309' : '#dc2626';
+  }
+};
 
 // ----------------- TAB 8: GUIDANCE & QUESTIONS -----------------
 function renderGuidanceAndNews() {
@@ -2513,13 +2671,13 @@ function renderGuidanceAndNews() {
               </span>
             </div>
             <div style="font-size:11px; color:var(--text-dim);">
-              Most Recent Synthesis &bull; Last Updated: <strong style="color:#f8fafc;">${cv.last_updated || 'Recent'}</strong>
+              Most Recent Synthesis &bull; Last Updated: <strong style="color:#0f172a;">${cv.last_updated || 'Recent'}</strong>
             </div>
           </div>
-          <div style="display:flex; gap:16px; align-items:center; background:rgba(15,23,42,0.8); padding:8px 14px; border-radius:6px; border:1px solid var(--company-card-border); font-family:'JetBrains Mono',monospace;">
+          <div style="display:flex; gap:16px; align-items:center; background:#f8fafc; padding:8px 14px; border-radius:6px; border:1px solid var(--company-card-border); font-family:'JetBrains Mono',monospace;">
             <div>
               <span style="font-size:10px; color:var(--text-dim); display:block;">Target Px</span>
-              <span style="font-size:13px; font-weight:800; color:#10b981;">${v.target_price ? v.target_price.toFixed(1) + 'c' : '—'}</span>
+              <span style="font-size:13px; font-weight:800; color:#15803d;">${v.target_price ? v.target_price.toFixed(1) + 'c' : '—'}</span>
             </div>
             <div>
               <span style="font-size:10px; color:var(--text-dim); display:block;">Market Px</span>
@@ -2531,31 +2689,31 @@ function renderGuidanceAndNews() {
             </div>
             <div>
               <span style="font-size:10px; color:var(--text-dim); display:block;">Spread</span>
-              <span style="font-size:13px; font-weight:800; color:#38bdf8;">${v.spread_bp ? v.spread_bp + ' bps' : '—'}</span>
+              <span style="font-size:13px; font-weight:800; color:#0284c7;">${v.spread_bp ? v.spread_bp + ' bps' : '—'}</span>
             </div>
           </div>
         </div>
 
-        <div style="font-size:12px; color:var(--text-muted); line-height:1.55; background:#080e1a; padding:12px 14px; border-radius:6px; border-left:3px solid ${stanceColor}; margin-bottom:16px;">
+        <div style="font-size:12px; color:var(--text-muted); line-height:1.55; background:#f8fafc; padding:12px 14px; border-radius:6px; border:1px solid #cbd5e1; border-left:3px solid ${stanceColor}; margin-bottom:16px;">
           <strong style="color:var(--text-main);">Executive Verdict:</strong> ${escapeHtml(v.summary || '')}
         </div>
 
         <!-- 2-Column: Positives vs Negatives -->
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
-          <div style="background:rgba(16,185,129,0.06); border:1px solid rgba(16,185,129,0.25); border-radius:6px; padding:14px;">
-            <div style="font-size:12px; font-weight:700; color:#34d399; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+          <div style="background:rgba(21,128,61,0.06); border:1px solid rgba(21,128,61,0.25); border-radius:6px; padding:14px;">
+            <div style="font-size:12px; font-weight:700; color:#15803d; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
               <span>🟢</span> Key Credit Strengths (Positives)
             </div>
-            <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11.5px; color:#e2e8f0; line-height:1.45;">
+            <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11.5px; color:#334155; line-height:1.45;">
               ${pos.map(p => `<li>${escapeHtml(p)}</li>`).join('')}
             </ul>
           </div>
 
-          <div style="background:rgba(239,68,68,0.06); border:1px solid rgba(239,68,68,0.25); border-radius:6px; padding:14px;">
-            <div style="font-size:12px; font-weight:700; color:#f87171; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+          <div style="background:rgba(220,38,38,0.06); border:1px solid rgba(220,38,38,0.25); border-radius:6px; padding:14px;">
+            <div style="font-size:12px; font-weight:700; color:#dc2626; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
               <span>🔴</span> Key Credit Vulnerabilities (Negatives)
             </div>
-            <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11.5px; color:#e2e8f0; line-height:1.45;">
+            <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11.5px; color:#334155; line-height:1.45;">
               ${neg.map(n => `<li>${escapeHtml(n)}</li>`).join('')}
             </ul>
           </div>
@@ -2564,13 +2722,13 @@ function renderGuidanceAndNews() {
         <!-- 2-Column: Background & Recent Drivers -->
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px;">
           <div style="background:var(--company-card-bg); border:1px solid var(--company-card-border); border-radius:6px; padding:14px;">
-            <div style="font-size:12px; font-weight:700; color:#38bdf8; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+            <div style="font-size:12px; font-weight:700; color:#0284c7; margin-bottom:8px; display:flex; align-items:center; gap:6px;">
               <span>🏢</span> Operational Perimeter &amp; Background
             </div>
             <div style="font-size:11.5px; color:var(--text-muted); line-height:1.5; display:flex; flex-direction:column; gap:6px;">
-              ${bg.business_overview ? `<div><strong style="color:#f8fafc;">Overview:</strong> ${escapeHtml(bg.business_overview)}</div>` : ''}
-              ${bg.asset_perimeter ? `<div><strong style="color:#f8fafc;">Perimeter:</strong> ${escapeHtml(bg.asset_perimeter)}</div>` : ''}
-              ${bg.ownership_governance ? `<div><strong style="color:#f8fafc;">Governance:</strong> ${escapeHtml(bg.ownership_governance)}</div>` : ''}
+              ${bg.business_overview ? `<div><strong style="color:#0f172a;">Overview:</strong> ${escapeHtml(bg.business_overview)}</div>` : ''}
+              ${bg.asset_perimeter ? `<div><strong style="color:#0f172a;">Perimeter:</strong> ${escapeHtml(bg.asset_perimeter)}</div>` : ''}
+              ${bg.ownership_governance ? `<div><strong style="color:#0f172a;">Governance:</strong> ${escapeHtml(bg.ownership_governance)}</div>` : ''}
             </div>
           </div>
 
@@ -2587,16 +2745,16 @@ function renderGuidanceAndNews() {
         <!-- Catalysts Timeline Strip -->
         ${catalysts.length > 0 ? `
           <div style="background:#f8fafc; border:1px solid var(--company-card-border); border-radius:6px; padding:14px;">
-            <div style="font-size:12px; font-weight:700; color:#a78bfa; margin-bottom:10px; display:flex; align-items:center; gap:6px;">
+            <div style="font-size:12px; font-weight:700; color:#7c3aed; margin-bottom:10px; display:flex; align-items:center; gap:6px;">
               <span>📅</span> Upcoming Catalysts &amp; Key Refinancing Milestones
             </div>
             <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px;">
               ${catalysts.map(c => `
-                <div style="background:rgba(15,23,42,0.8); border:1px solid var(--company-card-border); border-radius:5px; padding:10px;">
+                <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:5px; padding:10px;">
                   <div style="font-family:'JetBrains Mono',monospace; font-size:10.5px; color:#b45309; font-weight:700; margin-bottom:4px;">
                     ${escapeHtml(c.date || 'TBD')}
                   </div>
-                  <div style="font-size:11.5px; font-weight:700; color:#f8fafc; margin-bottom:4px;">
+                  <div style="font-size:11.5px; font-weight:700; color:#0f172a; margin-bottom:4px;">
                     ${escapeHtml(c.event || 'Catalyst Event')}
                   </div>
                   <div style="font-size:10.5px; color:var(--text-dim); line-height:1.4;">
@@ -2629,10 +2787,10 @@ function renderGuidanceAndNews() {
       const runrate = g.current_runrate || g.desk_expectation || '—';
       const status = g.tracking_status || g.status || 'Tracking';
       const isRevised = (g.revision_status && g.revision_status !== 'UNCHANGED') || g.revision_highlight;
-      const revisionBadge = isRevised ? `<div style="margin-top:5px;"><span class="badge badge-hy" style="font-size:9px; background:#451a03; color:#f59e0b; border:1px solid #b45309; padding:2px 6px;">⚡ ${escapeHtml(g.revision_highlight || 'Guidance Revised')}</span></div>` : '';
+      const revisionBadge = isRevised ? `<div style="margin-top:5px;"><span class="badge badge-hy" style="font-size:9px; background:#fef3c7; color:#92400e; border:1px solid #fde68a; padding:2px 6px;">⚡ ${escapeHtml(g.revision_highlight || 'Guidance Revised')}</span></div>` : '';
       const previousTarget = g.previous_target ? `<div style="font-size:10px; color:var(--text-dim); text-decoration:line-through; margin-top:2px;">Prior: ${escapeHtml(g.previous_target)}</div>` : '';
-      const detailsBlock = g.details ? `<div style="font-size:10.5px; color:var(--text-dim); margin-top:5px; background:rgba(15,23,42,0.6); padding:6px 8px; border-radius:4px; border-left:2px solid #3b82f6;"><strong style="color:#e2e8f0;">Details:</strong> ${escapeHtml(g.details)}</div>` : '';
-      const forecastBlock = g.forecasting_impact ? `<div style="font-size:10.5px; color:#38bdf8; margin-top:4px; background:rgba(14,116,144,0.15); padding:6px 8px; border-radius:4px; border-left:2px solid #06b6d4;"><strong style="color:#67e8f9;">Forecasting Impact:</strong> ${escapeHtml(g.forecasting_impact)}</div>` : '';
+      const detailsBlock = g.details ? `<div style="font-size:10.5px; color:var(--text-dim); margin-top:5px; background:#f8fafc; padding:6px 8px; border-radius:4px; border:1px solid var(--company-card-border); border-left:3px solid #2563eb;"><strong style="color:var(--text-main);">Details:</strong> ${escapeHtml(g.details)}</div>` : '';
+      const forecastBlock = g.forecasting_impact ? `<div style="font-size:10.5px; color:#166534; margin-top:4px; background:#f0fdf4; padding:6px 8px; border-radius:4px; border:1px solid #bbf7d0; border-left:3px solid #16a34a;"><strong style="color:#15803d;">Forecasting Impact:</strong> ${escapeHtml(g.forecasting_impact)}</div>` : '';
       const variance = g.variance_analysis || g.rationale || 'Tracking within guidance corridor.';
       const isPositive = status === 'On Track' || status === 'ON_TRACK' || status === 'Beating Target';
 
@@ -2709,11 +2867,11 @@ function renderGuidanceAndNews() {
             <span style="color:var(--text-dim); font-size:10.5px;">Source: ${n.source || 'News Wire'}</span>
           </div>
           <div style="margin-bottom:6px;">
-            <a href="${n.url}" target="_blank" rel="noopener noreferrer" style="font-weight:700; color:#38bdf8; font-size:12.5px; text-decoration:none; line-height:1.4;">
+            <a href="${n.url}" target="_blank" rel="noopener noreferrer" style="font-weight:700; color:#0284c7; font-size:12.5px; text-decoration:none; line-height:1.4;">
               ${escapeHtml(n.headline)} <span style="font-size:10px; opacity:0.8;">↗</span>
             </a>
           </div>
-          <div style="font-size:11.5px; color:var(--text-muted); line-height:1.45; background:#080e1a; padding:8px 10px; border-radius:4px; border-left:3px solid ${n.credit_impact === 'Positive' ? '#10b981' : (n.credit_impact === 'Negative' ? '#ef4444' : '#f59e0b')};">
+          <div style="font-size:11.5px; color:var(--text-muted); line-height:1.45; background:#f8fafc; border:1px solid var(--company-card-border); padding:8px 10px; border-radius:4px; border-left:3px solid ${n.credit_impact === 'Positive' ? '#10b981' : (n.credit_impact === 'Negative' ? '#ef4444' : '#f59e0b')};">
             <strong style="color:var(--text-main);">Credit Desk Analysis:</strong> ${escapeHtml(n.concise_analysis || n.credit_commentary || '')}
           </div>
         </div>
@@ -2730,10 +2888,10 @@ function renderGuidanceAndNews() {
     if (hNotes.length > 0) {
       hContainer.style.display = 'block';
       let hHtml = `
-        <div class="company-card" style="border-top:2px dashed #334155; margin-top:10px;">
+        <div class="company-card" style="border-top:2px dashed #cbd5e1; margin-top:10px;">
           <div class="company-card-title" style="margin-bottom:6px;">
             <span>📜 Historical Notes &amp; Chronological Intelligence Timeline</span>
-            <span class="badge badge-hy" style="background:#1e293b; color:var(--text-dim); border:1px solid #334155; font-size:10px;">
+            <span class="badge badge-hy" style="background:#f1f5f9; color:var(--text-dim); border:1px solid #cbd5e1; font-size:10px;">
               ${hNotes.length} Archived Run${hNotes.length > 1 ? 's' : ''} (Reverse Chronological)
             </span>
           </div>
@@ -2748,14 +2906,14 @@ function renderGuidanceAndNews() {
           <div style="background:#f8fafc; border:1px solid var(--company-card-border); border-radius:6px; padding:14px; border-left:3px solid #64748b;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; flex-wrap:wrap; gap:8px;">
               <div style="display:flex; align-items:center; gap:8px;">
-                <span class="badge" style="background:rgba(100,116,139,0.15); color:var(--text-dim); border:1px solid #475569; font-size:10px; font-weight:700;">
+                <span class="badge" style="background:#f1f5f9; color:#475569; border:1px solid #cbd5e1; font-size:10px; font-weight:700;">
                   [Archived Run: ${hn.date}]
                 </span>
-                <strong style="color:#f8fafc; font-size:13px;">${escapeHtml(hn.title)}</strong>
+                <strong style="color:var(--text-main); font-size:13px;">${escapeHtml(hn.title)}</strong>
               </div>
               <span style="font-size:11px; color:#64748b; font-family:'JetBrains Mono',monospace;">Source: ${escapeHtml(hn.source || 'Desk Research')}</span>
             </div>
-            <div style="font-size:11.5px; color:var(--text-muted); line-height:1.5; background:rgba(15,23,42,0.6); padding:10px 12px; border-radius:4px; border:1px solid #1a2436;">
+            <div style="font-size:11.5px; color:var(--text-muted); line-height:1.5; background:#ffffff; padding:10px 12px; border-radius:4px; border:1px solid var(--company-card-border);">
               ${escapeHtml(hn.summary)}
             </div>
           </div>
@@ -2892,7 +3050,7 @@ function renderAnalystMistakesList(mistakes) {
           <span style="font-size:11px; color:var(--text-dim);">Field: <strong style="color:var(--text-main);">${escapeHtml(err.field || 'metric').toUpperCase()}</strong></span>
         </div>
 
-        <div style="display:grid; grid-template-columns: auto auto auto 1fr; gap:16px; align-items:center; background:rgba(15,23,42,0.8); padding:8px 14px; border-radius:6px; margin-bottom:10px; font-family:'JetBrains Mono',monospace; font-size:12px;">
+        <div style="display:grid; grid-template-columns: auto auto auto 1fr; gap:16px; align-items:center; background:#f8fafc; border:1px solid var(--company-card-border); padding:8px 14px; border-radius:6px; margin-bottom:10px; font-family:'JetBrains Mono',monospace; font-size:12px;">
           <div>
             <span style="color:var(--text-dim); font-size:10px; display:block;">ANALYST STATED:</span>
             <span style="text-decoration:line-through; color:#f87171; font-weight:700;">${statedDisplay}</span>
@@ -2909,7 +3067,7 @@ function renderAnalystMistakesList(mistakes) {
         </div>
 
         <div style="font-size:11px; color:var(--text-muted); line-height:1.5;">
-          <strong style="color:#93c5fd;">Audit Trap Finding:</strong> ${escapeHtml(err.rationale || '')}
+          <strong style="color:#1d4ed8;">Audit Trap Finding:</strong> ${escapeHtml(err.rationale || '')}
         </div>
       </div>
     `;
@@ -3039,12 +3197,12 @@ function renderBrokerReportsList(snapshots) {
           </div>
         </div>
 
-        <div style="font-size:12px; font-weight:600; color:#e2e8f0; line-height:1.4;">
+        <div style="font-size:12px; font-weight:600; color:var(--text-main); line-height:1.4;">
           ${escapeHtml(s.report_title || 'Credit Research Dossier')}
         </div>
 
         ${s.target_spread_bps ? `
-          <div style="font-size:11px; color:var(--text-muted); background:rgba(15,23,42,0.8); padding:6px 10px; border-radius:4px; font-family:'JetBrains Mono',monospace;">
+          <div style="font-size:11px; color:var(--text-muted); background:#f8fafc; border:1px solid var(--company-card-border); padding:6px 10px; border-radius:4px; font-family:'JetBrains Mono',monospace;">
             Target Spread: <strong style="color:#b45309;">${s.target_spread_bps} bps</strong>
           </div>
         ` : ''}
