@@ -1,5 +1,5 @@
 # Notes Data Part 3: Energy JPM, Hungary, Brazil Election, EM Conf
-# Strict 2-column Turkey Master Note standard
+# Professional institutional buy-side credit language & strict 2-column tables.
 
 NOTES_PART3 = [{'id': 'energy_jpm',
   'short_name': 'Energy JPM',
@@ -98,7 +98,7 @@ NOTES_PART3 = [{'id': 'energy_jpm',
                      'depressing older European refining economics.'),
                     ('Shipping & Tanker Financing',
                      'Clean and dirty tanker freight rates elevated; VLCC and Suezmax charter rates delivering strong '
-                     'cash flow. Maritime logistics bottlenecks generate bumper earnings for commodity transport '
+                     'cash flow. Maritime logistics bottlenecks generate strong earnings for commodity transport '
                      'credits.')],
   'watch_items': ['Maritime security developments and military escort operations in the Strait of Hormuz and Bab '
                   'el-Mandeb.',
@@ -258,8 +258,8 @@ NOTES_PART3 = [{'id': 'energy_jpm',
                   'prematurely.'),
                  ('Agribusiness and commodity buffer',
                   "Brazil's structural trade surplus remains exceptionally robust ($80–90bn annualised), driven by "
-                  'bumper soybean, corn, and iron ore export volumes, providing an essential balance-of-payments '
-                  'cushion that defends the Brazilian Real (BRL).'),
+                  'high soybean, corn, and iron ore export volumes, providing an essential balance-of-payments cushion '
+                  'that defends the Brazilian Real (BRL).'),
                  ('Market reform pricing',
                   'Fixed-income markets are already pricing a substantial fiscal risk premium into the NTN-F and '
                   'sovereign Eurobond curves, creating asymmetrical upside if post-election politics deliver '
@@ -289,10 +289,10 @@ NOTES_PART3 = [{'id': 'energy_jpm',
                  'pressure for rate cuts would immediately steepen the yield curve and trigger capital flight.'),
                 ('The agricultural and energy balance-of-payments shield.',
                  'Crucially, panelists highlighted that Brazil does not face an external solvency crisis. Foreign '
-                 'exchange reserves exceed $350bn, external debt is low, and the trade surplus continues to smash '
-                 'records thanks to agricultural productivity and offshore pre-salt oil production from Petrobras. '
-                 'This external strength isolates Brazil from traditional balance-of-payments crises, meaning the '
-                 'sovereign risk is entirely fiscal and domestic.')],
+                 'exchange reserves exceed $350bn, external debt is low, and the trade surplus remains at record '
+                 'levels thanks to agricultural productivity and offshore pre-salt oil production from Petrobras. This '
+                 'external strength isolates Brazil from traditional balance-of-payments crises, meaning the sovereign '
+                 'risk is entirely fiscal and domestic.')],
   'guidance_table': [('Primary Fiscal Balance',
                       'Targeting primary balance around 0.0% of GDP; market consensus projects primary deficit of '
                       '0.6–0.8% of GDP. Persistent primary deficits require structural expenditure reforms; revenue '
@@ -390,7 +390,7 @@ NOTES_PART3 = [{'id': 'energy_jpm',
                  'CFOs prioritized cash preservation and utilized local banking markets, gross Eurobond issuance has '
                  'fallen far short of scheduled debt amortisation. With more than $60bn in net negative supply exiting '
                  'the market in 2026, institutional investors facing large cash coupon reinvestment needs are forced '
-                 'to bid for secondary paper, creating an impenetrable technical floor for bond prices.'),
+                 'to bid for secondary paper, creating an strong technical floor for bond prices.'),
                 ('Navigating the global easing cycle and crossover inflows.',
                  'With the US Fed and ECB actively cutting policy rates, cash yields on developed money market funds '
                  'are collapsing from 5% toward 3%. This is driving global asset allocators into emerging market '

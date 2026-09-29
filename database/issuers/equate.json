@@ -557,7 +557,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/EQUATE",
-    "days_to_earnings": 48
+    "days_to_earnings": 44
   },
   "management_questions": [
     {
@@ -775,6 +775,19 @@
       "date": "2026-09-28",
       "period_name": "2026-09-28",
       "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "Baa2 / BBB",
+      "price": 98.2,
+      "ytm": 5.55,
+      "spread_bp": 150,
+      "net_leverage": 1.65,
+      "ebitda": 980.0,
+      "fcf": 38.4,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
       "rating": "Baa2 / BBB",
       "price": 98.2,
       "ytm": 5.55,

@@ -554,7 +554,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://investor.turkishairlines.com/en",
-    "days_to_earnings": 39
+    "days_to_earnings": 35
   },
   "management_questions": [
     {
@@ -772,6 +772,19 @@
       "date": "2026-09-28",
       "period_name": "2026-09-28",
       "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "BB- / BB-",
+      "price": 99.2,
+      "ytm": 7.45,
+      "spread_bp": 340,
+      "net_leverage": 1.95,
+      "ebitda": 4400.0,
+      "fcf": -9.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
       "rating": "BB- / BB-",
       "price": 99.2,
       "ytm": 7.45,

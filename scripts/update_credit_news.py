@@ -26,6 +26,79 @@ DB_SQLITE = os.path.join(REPO_ROOT, "database", "credit_master.db")
 
 CREDIT_NEWS_DATA = [
   {
+    "id": "NEWS-2026-09-29-01",
+    "date": "2026-09-29",
+    "ticker": "MACRO-TURK",
+    "issuer_name": "Republic of Türkiye / Turkish Corporate & Bank Borrowers",
+    "headline": "Türkiye Finalizes $1.5B 2037 Sustainable Eurobond at 7.65%; Order Book Exceeds $4.5B Opening Q4 Corporate Refinancing Window",
+    "source": "Ministry of Treasury and Finance / KAP / Debt Management Office",
+    "url": "https://en.hmb.gov.tr/",
+    "category": "Capital Markets",
+    "macro_transmission_channel": "Sovereign Curve Benchmark Extension & Corporate Eurobond Spread Compression",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "SISE",
+      "TUPRS",
+      "EREGL",
+      "KCHOL",
+      "ZOREN",
+      "AKBNK",
+      "GARAN",
+      "ISCTR",
+      "YKBNK"
+    ],
+    "concise_analysis": "The Republic of Türkiye successfully priced a $1.50B 11-year sustainable Eurobond maturing in 2037 at a yield of 7.65% (coupon 7.375%), with books reaching $4.5B across 180+ global accounts. Mandated to BNP Paribas, Citi, ING, and J.P. Morgan, the transaction extends the sovereign duration curve past 2035 and provides a tight new pricing benchmark for upcoming Turkish corporate and banking Eurobond taps scheduled for Q4 2026.",
+    "credit_commentary": "The tight pricing at 7.65% demonstrates deep foreign institutional demand and cements orthodox macroeconomic credibility. This tightens corporate primary new issue concessions by 20-30 bps for top-tier industrials (SISE, TUPRS, KCHOL) and high-quality private banks looking to refinance upcoming 2027 maturities."
+  },
+  {
+    "id": "NEWS-2026-09-28-01",
+    "date": "2026-09-28",
+    "ticker": "MACRO-GCC",
+    "issuer_name": "Fitch Ratings / GCC Debt Capital Markets Desk",
+    "headline": "Fitch: GCC Debt Capital Markets Exceed $1.2 Trillion Milestone; Sukuk Reaches 42% as Corporate Liquidity Deepens",
+    "source": "Fitch Ratings DCM Research & Disclosures",
+    "url": "https://www.fitchratings.com/research/corporate-finance",
+    "category": "Capital Markets",
+    "macro_transmission_channel": "Regional Liquidity Depth, Offshore Sukuk Listings & Refinancing Resilience",
+    "credit_impact": "Positive",
+    "impacted_issuers": [
+      "TAQA",
+      "ACWA",
+      "SEC",
+      "ALDAR",
+      "EMAAR",
+      "DPW",
+      "STC",
+      "ARADA"
+    ],
+    "concise_analysis": "Fitch Ratings reported that GCC outstanding debt capital markets crossed $1.2 Trillion in late September 2026, with Sukuk representing 42% ($504B). Despite elevated global benchmark yields, regional institutional liquidity, sovereign wealth fund support, and strong local bank balance sheets continue to insulate GCC high-grade corporate spreads, keeping 5Y blended spreads near cyclical tights (70-95 bps over UST).",
+    "credit_commentary": "The structural deepening of the GCC DCM ecosystem ensures ample liquidity and tight spread compression for high-grade regional corporates and developers. Refinancing risk across investment-grade UAE and Saudi issuers remains virtually de-minimis through 2027."
+  },
+  {
+    "id": "NEWS-2026-09-27-01",
+    "date": "2026-09-27",
+    "ticker": "MACRO-OIL",
+    "issuer_name": "Global Energy & Emerging Market Commodity Desk",
+    "headline": "Brent Crude Surges Toward $107/bbl on Middle East Tensions; Widens CEMBI Net Exporter vs Net Importer Spread Dispersion",
+    "source": "ICE / Energy Information Administration (EIA)",
+    "url": "https://www.eia.gov/petroleum/",
+    "category": "Macro / Sovereign Transmission",
+    "macro_transmission_channel": "Hydrocarbon Windfalls vs Net Energy Importer Margin Compression",
+    "credit_impact": "Watch",
+    "impacted_issuers": [
+      "TUPRS",
+      "KMG",
+      "TLW",
+      "KOS",
+      "PETBRA",
+      "PEMEX",
+      "SISE",
+      "EREGL"
+    ],
+    "concise_analysis": "Brent crude oil spiked to near $107/bbl in late September amid intensifying Middle East supply corridor concerns and disciplined OPEC+ output management. The price surge dramatically enhances upstream cash flows and dollar liquidity for national oil champions (KazMunayGas, Petrobras, Tullow, Kosmos), but introduces margin pressure and working capital cash drag for downstream heavy-energy consumers and Turkish industrials (Erdemir, Sisecam).",
+    "credit_commentary": "Energy exporters enjoy expanding FCF headroom, accelerating net deleveraging and driving spread tightening across CEMBI Energy. Conversely, for non-integrated importers, sustained >$100 oil elevates working capital financing requirements and tests gross margin resiliency."
+  },
+  {
     "id": "NEWS-2026-09-26-01",
     "date": "2026-09-26",
     "ticker": "ZOREN",

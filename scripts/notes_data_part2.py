@@ -1,5 +1,5 @@
 # Notes Data Part 2: Sibanye, Endeavour, Omniyat, Mota-Engil, WE Soda, First Quantum
-# Strict 2-column Turkey Master Note standard
+# Professional institutional buy-side credit language & strict 2-column tables.
 
 NOTES_PART2 = [{'id': 'sibanye',
   'short_name': 'Sibanye',
@@ -15,7 +15,7 @@ NOTES_PART2 = [{'id': 'sibanye',
               'rhodium (South Africa & US) and gold. Bond Silo: Senior notes (SSW 2026s, 2029s) and convertible bonds. '
               'Ratings: Fitch BB / S&P BB-.',
   'key_points': [('Earnings surge on commodity recovery',
-                  'Delivered explosive financial performance: revenue increased by over 60% and EBITDA surged by more '
+                  'Delivered strong financial performance: revenue increased by over 60% and EBITDA surged by more '
                   'than 100% y/y, driven by soaring gold prices and the stabilization of platinum and rhodium '
                   'benchmarks.'),
                  ('Substantial gross debt reduction',
@@ -43,7 +43,7 @@ NOTES_PART2 = [{'id': 'sibanye',
                  "Sibanye-Stillwater's diversified precious metals portfolio demonstrated tremendous operating "
                  'leverage during the reporting period. With gold prices reaching record highs and South African PGM '
                  'basket prices stabilizing following deep industry restructuring, group revenues climbed >60% and '
-                 'EBITDA more than doubled. The South African gold operations generated bumper cash margins, while the '
+                 'EBITDA more than doubled. The South African gold operations generated strong cash margins, while the '
                  'mechanized South African PGM operations (Rustenburg, Kroondal, Marikana) maintained excellent cost '
                  'discipline.'),
                 ('Aggressive balance sheet deleveraging underway.',
@@ -59,7 +59,7 @@ NOTES_PART2 = [{'id': 'sibanye',
                  "management clarified that the asset's structural economics have been transformed by US legislation. "
                  'Under Section 45X of the IRA, Sibanye qualifies for substantial production tax credits. For the '
                  'first five years, these credits are paid out as direct cash refunds from the US government, '
-                 'converting an otherwise cash-draining asset into a net cash contributor.'),
+                 'converting an otherwise cash-absorbing asset into a net cash contributor.'),
                 ('Working capital optimization in auto-catalyst recycling.',
                  "Sibanye's Columbus recycling facility in Montana—one of the world's largest processors of spent "
                  'automotive catalytic converters—has transitioned from working capital absorption to aggressive cash '
@@ -197,7 +197,7 @@ NOTES_PART2 = [{'id': 'sibanye',
                       'additions from Lafigué and BIOX expansion underpin high-volume execution.'),
                      ('AISC Cost Profile',
                       'Industry-leading all-in sustaining costs (AISC) maintained at $950–1,050/oz. Bottom-quartile '
-                      'global cost structure guarantees fat EBITDA margins (>55%) even if gold prices correct.'),
+                      'global cost structure guarantees healthy EBITDA margins (>55%) even if gold prices correct.'),
                      ('Capex Trajectory',
                       'Growth capex dropping sharply following Lafigué and BIOX completions; minimal spend ahead of '
                       'Assafou FID. Capex trough unlocks immense free cash flow generation in H2-26 and FY27.'),
@@ -206,7 +206,7 @@ NOTES_PART2 = [{'id': 'sibanye',
                       'World-class asset; fully funded from internal operational cash flow without debt issuance.'),
                      ('Financial Leverage',
                       'Zero net debt; operating in a sustained net cash position across FY26–27. Balance sheet '
-                      'strength provides impregnable bondholder protection against geopolitical volatility.'),
+                      'strength provides robust bondholder protection against geopolitical volatility.'),
                      ('Free Cash Flow Generation',
                       'Exceptional FCF yield exceeding 15–20% at prevailing gold prices. Robust organic cash '
                       'generation comfortably covers dividends, buybacks, and project capex.')],
@@ -215,7 +215,8 @@ NOTES_PART2 = [{'id': 'sibanye',
                      'sheet; zero refinancing risk.'),
                     ('Available Liquidity',
                      'Over $800m in available liquidity across unrestricted cash and undrawn syndicated bank lines. '
-                     'Immense liquidity fortress covering all operational and debt obligations multiple times over.'),
+                     'Immense strong liquidity position covering all operational and debt obligations multiple times '
+                     'over.'),
                     ('Corporate RCF',
                      'Committed revolving credit facility with international syndicate (Citi, Standard Chartered, '
                      'ING); undrawn. Provides immediate multi-currency flexibility for offshore treasury operations.'),
@@ -225,13 +226,12 @@ NOTES_PART2 = [{'id': 'sibanye',
   'watch_items': ["Final Investment Decision (FID) on the Assafou project in Côte d'Ivoire in Q4 2026.",
                   'Full-year 2026 gold output print confirming delivery within the 1.1–1.3 Moz guidance range.',
                   'Redemption or refinancing announcement regarding the 2026 senior notes.',
-                  'Quarterly AISC cost discipline amidst global mining consumable inflation (cyanide, explosives, '
-                  'tires).',
+                  'Quarterly AISC cost discipline amidst global mining consumable inflation (cyanide, sharps, tires).',
                   'Updates on preliminary exploration reconnaissance in Kazakhstan or the Americas.'],
-  'in_our_view': ['Endeavour Mining is an operational and financial powerhouse in the global gold mining industry. Its '
-                  'delivery of Lafigué and the Sabodala-Massawa BIOX facility on time and on budget cements its '
+  'in_our_view': ['Endeavour Mining is an established, high-performing producer in the global gold mining industry. '
+                  'Its delivery of Lafigué and the Sabodala-Massawa BIOX facility on time and on budget cements its '
                   'reputation as the premier mining operator in West Africa. With gold prices at historic highs and '
-                  'production costs locked below $1,050/oz, Endeavour is printing extraordinary free cash flow, '
+                  'production costs locked below $1,050/oz, Endeavour is generating substantial free cash flow, '
                   'operating in a net cash posture that makes credit default risk virtually non-existent.',
                   'The BB- credit rating assigned to Endeavour by S&P and Fitch is an artificial byproduct of '
                   "sovereign ceiling caps on Côte d'Ivoire and Senegal, entirely divorced from the company's "
@@ -284,7 +284,7 @@ NOTES_PART2 = [{'id': 'sibanye',
                 ('Generating $3.0bn in surplus net project cash.',
                  'Management walked investors through the cash conversion mechanics of the backlog. Out of the $6.1bn '
                  'backlog, all remaining construction costs, contractor payables, and project-level financing will '
-                 'absorb ~$3.1bn, leaving a staggering $3.0 billion in net surplus cash flow that will be released '
+                 'absorb ~$3.1bn, leaving a substantial $3.0 billion in net surplus cash flow that will be released '
                  'directly to corporate treasury as projects reach completion. An additional $3.0bn of cash surplus is '
                  'embedded in the remaining 33% of unlaunched/unsold inventory within the active $11.7bn development '
                  'portfolio.'),
@@ -295,7 +295,7 @@ NOTES_PART2 = [{'id': 'sibanye',
                  "has astutely broadened its addressable market. The launch of the 'Beyond' brand allows the company "
                  'to develop high-margin residences in the upper-mid luxury segment, capturing strong demand from '
                  'affluent European and Asian expatriates relocating to Dubai.'),
-                ('Impenetrable liquidity fortress protects against market cycles.',
+                ('Strong strong liquidity position protects against market cycles.',
                  'Omniyat holds $1.4 billion in consolidated cash balances. Unrestricted corporate cash accounts for '
                  '$750m, providing an enormous standalone liquidity buffer that covers corporate debt obligations '
                  'multiple times over. The remaining ~$650m resides in legally isolated project escrow accounts. '
@@ -342,7 +342,7 @@ NOTES_PART2 = [{'id': 'sibanye',
                      'Self-liquidating project debt repaid directly from escrow releases upon milestone handovers.'),
                     ('Debt Issuance Pipeline',
                      'Evaluating debut capital markets Sukuk / Eurobond issuance to establish institutional credit '
-                     'benchmarking. High-quality collateral base and $1.4bn cash fortress would ensure strong '
+                     'benchmarking. High-quality collateral base and $1.4bn strong cash position would ensure strong '
                      'institutional demand.')],
   'watch_items': ['H2-26 and FY26 collection velocity on the $6.1bn contracted revenue backlog.',
                   'Delivery and handover certification for two major luxury developments completing in late 2026.',
@@ -353,8 +353,8 @@ NOTES_PART2 = [{'id': 'sibanye',
   'in_our_view': ["Omniyat stands in an elite tier of privately-owned Gulf developers. By dominating Dubai's "
                   'ultra-luxury residential and hospitality sector through landmark architectural assets and exclusive '
                   'brand partnerships (Dorchester Collection), the company has established unparalleled pricing power. '
-                  'Its $6.1 billion contracted backlog and $1.4 billion cash hoard ($750m unrestricted) place it in an '
-                  'extraordinarily liquid, self-funding position that rivals the largest publicly traded GCC '
+                  'Its $6.1 billion contracted backlog and $1.4 billion cash reserves ($750m unrestricted) place it in '
+                  'an extraordinarily liquid, self-funding position that rivals the largest publicly traded GCC '
                   'developers.',
                   'For credit investors evaluating potential capital markets issuance, Omniyat presents exceptional '
                   'credit strength. The $3.0 billion in projected net cash surplus from completed projects and the '
@@ -411,12 +411,12 @@ NOTES_PART2 = [{'id': 'sibanye',
                  'revenue predictability across core markets including Angola, Mozambique, Nigeria, and Côte '
                  "d'Ivoire."),
                 ('Contract mining vertical delivers 30% EBITDA margins.',
-                 'The Natural Resources / Industrial Engineering division has emerged as a premier profit engine. '
-                 'Mota-Engil Africa operates as the largest contract mining service provider in Africa (and #5 '
-                 'globally), performing specialized open-pit drilling, blasting, extraction, and hauling for tier-one '
-                 'gold and mineral miners (such as Endeavour Mining). While this vertical requires capital-intensive '
-                 'heavy equipment (excavators, dump trucks, drill rigs), it yields superior operating EBITDA margins '
-                 'of approximately 30% under multi-year, hard-currency cost-plus contracts.'),
+                 'The Natural Resources / Industrial Engineering division has emerged as a primary earnings '
+                 'contributor. Mota-Engil Africa operates as the largest contract mining service provider in Africa '
+                 '(and #5 globally), performing specialized open-pit drilling, blasting, extraction, and hauling for '
+                 'tier-one gold and mineral miners (such as Endeavour Mining). While this vertical requires '
+                 'capital-intensive heavy equipment (excavators, dump trucks, drill rigs), it yields superior '
+                 'operating EBITDA margins of approximately 30% under multi-year, hard-currency cost-plus contracts.'),
                 ('Flagship concessions: Lobito Rail Corridor and International Airports.',
                  'The Concessions vertical provides long-term annuity cash flows. Mota-Engil Africa is a cornerstone '
                  'partner in the landmark Lobito Atlantic Railway (LAR) concession in Angola (a 30-year concession '
@@ -426,7 +426,7 @@ NOTES_PART2 = [{'id': 'sibanye',
                  'airport hubs in Nigeria (Abuja and Kano International Airports).'),
                 ('Operating holding company structure centralizes cash collection.',
                  "Management clarified the group's legal and cash flow architecture. Mota-Engil Africa acts as the "
-                 'central contracting and treasury engine: it generates $600m in standalone turnover through direct '
+                 'central contracting and treasury platform: it generates $600m in standalone turnover through direct '
                  'operational branches and directly collects 98% of the cash flows generated by all African '
                  'subsidiaries and joint ventures. Cash is aggregated into offshore European bank accounts, minimizing '
                  'sub-Saharan currency convertibility and trapped cash risks.'),
@@ -477,12 +477,12 @@ NOTES_PART2 = [{'id': 'sibanye',
                   'Performance and renewal of major tier-one contract mining agreements (e.g. Endeavour Mining).',
                   'Bilateral infrastructure financing disbursements from Chinese and European development '
                   'institutions.'],
-  'in_our_view': ['Mota-Engil Africa is an industrial powerhouse with an unmatched 80-year operating heritage on the '
-                  'African continent. Unlike Western construction contractors that retreated from Africa, Mota-Engil '
-                  'leaned into the continent, pairing Portuguese engineering expertise with the financial and '
-                  'geopolitical muscle of its 32% shareholder, Chinese state giant CCCC. Its $10.5 billion order book '
-                  'is exceptionally high quality, composed entirely of funded, multilateral-backed infrastructure and '
-                  'high-margin contract mining contracts (~30% EBITDA margin).',
+  'in_our_view': ['Mota-Engil Africa is an established industrial contractor with an unmatched 80-year operating '
+                  'heritage on the African continent. Unlike Western construction contractors that retreated from '
+                  'Africa, Mota-Engil leaned into the continent, pairing Portuguese engineering expertise with the '
+                  'financial and geopolitical muscle of its 32% shareholder, Chinese state giant CCCC. Its $10.5 '
+                  'billion order book is exceptionally high quality, composed entirely of funded, multilateral-backed '
+                  'infrastructure and high-margin contract mining contracts (~30% EBITDA margin).',
                   "The company's planned $300m debut capital markets bond represents an intriguing upcoming credit "
                   'opportunity. With 98% of cash flow centralized at the offshore holding company level and '
                   'hard-currency contracts insulating the business from local currency devaluations, the credit '
@@ -603,7 +603,7 @@ NOTES_PART2 = [{'id': 'sibanye',
   'in_our_view': ["WE Soda occupies an enviable position on the global soda ash cost curve. As the world's preeminent "
                   'natural solution-miner, its production costs in Turkey (~$40–50/ton across Kazan and Eti) and '
                   'Wyoming (~$80–90/ton) sit at a massive discount to synthetic producers in China and Europe '
-                  '($180–220/ton), guaranteeing fat EBITDA margins (>40%) even at the cyclical trough of global '
+                  '($180–220/ton), guaranteeing healthy EBITDA margins (>40%) even at the cyclical trough of global '
                   'chemical pricing. The successful collection of >$60m in related-party receivables represents a '
                   'critical governance milestone that significantly de-risks the credit.',
                   'The WESODA 9.500% 2028 notes (trading near par with attractive high-single-digit carry) offer '

@@ -559,7 +559,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Riyadh / 12:00 UK",
       "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
-      "days_to_earnings": 39
+      "days_to_earnings": 35
     },
     "management_questions": [
       {
@@ -777,6 +777,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Baa2 / BBB",
+        "price": 96.5,
+        "ytm": 6.45,
+        "spread_bp": 235,
+        "net_leverage": 3.85,
+        "ebitda": 920.0,
+        "fcf": -1205.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Baa2 / BBB",
         "price": 96.5,
         "ytm": 6.45,
@@ -1466,7 +1479,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADCBUH",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -1684,6 +1697,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A",
+        "price": 99.8,
+        "ytm": 5.05,
+        "spread_bp": 85,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A",
         "price": 99.8,
         "ytm": 5.05,
@@ -2340,7 +2366,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADMELE",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -2558,6 +2584,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 98.0,
+        "ytm": 9.25,
+        "spread_bp": 485,
+        "net_leverage": 2.62,
+        "ebitda": 145.0,
+        "fcf": -56.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 98.0,
         "ytm": 9.25,
@@ -3139,7 +3178,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -3350,6 +3389,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / B3",
+        "price": 103.24,
+        "ytm": 9.26,
+        "spread_bp": 452,
+        "net_leverage": 6.08,
+        "ebitda": 79.5,
+        "fcf": -33.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / B3",
         "price": 103.24,
         "ytm": 9.26,
@@ -3696,7 +3748,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AIRGLO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "market_history": [
       {
@@ -3742,6 +3794,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 100.0,
+        "ytm": 7.5,
+        "spread_bp": 385,
+        "net_leverage": 2.19,
+        "ebitda": 130.0,
+        "fcf": 134.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 100.0,
         "ytm": 7.5,
@@ -4346,7 +4411,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.akbankinvestorrelations.com",
-      "days_to_earnings": 32
+      "days_to_earnings": 28
     },
     "management_questions": [
       {
@@ -4564,6 +4629,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 100.2,
+        "ytm": 6.45,
+        "spread_bp": 185,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 100.2,
         "ytm": 6.45,
@@ -5224,7 +5302,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Abu Dhabi / 10:00 UK",
       "ir_webcast_url": "https://www.aldar.com/en/investor-relations",
-      "days_to_earnings": 34
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -5435,6 +5513,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / Baa2",
+        "price": 100.1,
+        "ytm": 5.25,
+        "spread_bp": 105,
+        "net_leverage": 0.51,
+        "ebitda": 1550.0,
+        "fcf": -185.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / Baa2",
         "price": 100.1,
         "ytm": 5.25,
@@ -6099,7 +6190,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://arada.com/en/investor-relations/",
-      "days_to_earnings": 54
+      "days_to_earnings": 50
     },
     "management_questions": [
       {
@@ -6318,6 +6409,19 @@ const MASTER_ISSUERS = [
         "ebitda": 414.0,
         "fcf": -185.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
+        "rating": "B+ / B1",
+        "price": 99.66,
+        "ytm": 8.13,
+        "spread_bp": 329,
+        "net_leverage": 2.74,
+        "ebitda": 414.0,
+        "fcf": -185.0,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -6412,7 +6516,7 @@ const MASTER_ISSUERS = [
         "source": "J.P. Morgan EM Credit Conference (15-17 Sep 2026)",
         "status": "Enriched Research Note (Strict 2-Column Tables)",
         "summary": "Following early signs of market softening in February 2026, Arada's leadership immediately instituted a conservative capital allocation strategy: deferring non-committed capex, halting discretionary land purchases, deferring dividend payments, and prioritizing balance sheet liquidity.",
-        "details": "# Arada Developments — Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (CFO / Treasury) | Issuer Profile: Sharjah and Dubai master real estate developer, backed by Sharjah ruling family and Prince Khaled bin Alwaleed. Bond Silo: ARADA Sukuk (ARADA 8.000% 2029, $500m o/s). Ratings: Fitch BB- / Moody's Ba3.\n\n---\n\n### Key Points\n\n* **Proactive cash conservation posture**: Following early signs of market softening in February 2026, Arada's leadership immediately instituted a conservative capital allocation strategy: deferring non-committed capex, halting discretionary land purchases, deferring dividend payments, and prioritizing balance sheet liquidity.\n* **Robust liquidity buffer**: Ended H1 2026 with $963m in total cash, comprising $340m in project escrow accounts (primarily dedicated to Dubai construction milestones) and $620m in unrestricted cash. Historical treasury policy strictly mandates closing each financial year with $1.0bn+ in cash.\n* **High pre-sales and escrow funding match**: Active projects under construction maintain an average pre-sold inventory of 65%. Construction costs are fully matched against existing escrow cash and contractually committed installment receivables, eliminating speculative cash burn.\n* **Sharjah stronghold vs Dubai diversification**: Maintains dominant master-developer positioning in Sharjah across flagship communities: Masaar (AED 9.5bn / $2.6bn GDV, 3,000 villas across 7 gated districts, 100% sold out across first 5 phases) and Aljada (AED 25bn / $6.8bn GDV, 24m sq ft mega-development), while selectively expanding into ultra-prime Dubai segments (Armani Beach Residences on Palm Jumeirah, 53 bespoke units designed by Tadao Ando achieving >AED 10,000/sq ft, and Jouri Hills in Jumeirah Golf Estates).\n* **Contractor cost management**: Construction cost inflation is neutralized through fixed-price turnkey EPC contracts with tier-one contractors, with selective project phasing adopted to protect gross profit margins.\n* **Sukuk debt structure**: Capital structure anchored by the $500m ARADA 8.000% 2029 Sukuk (ISIN: XS2751473211, tapped for $100m in May-2024 at 7.85%); comfortable leverage ratios with net debt to equity well within bank covenant limits and zero significant near-term bond maturities.\n\n### Takeaways\n\n**Immediate transition to capital preservation mode.**  \nArada's executive committee responded swiftly to broader regional property cooling signals in early 2026 by shifting from aggressive expansion to cash preservation. Management placed an immediate hold on non-essential capital expenditure, paused uncommitted land acquisitions, deferred shareholder distributions, and instituted tight controls on overhead. This disciplined counter-cyclical posture ensures the developer operates with substantial liquidity buffers throughout any market adjustment.\n\n**Strong cash visibility and escrow ring-fencing.**  \nTotal cash stood at $963m at the close of H1 2026. Of this, $340m is segregated within legally mandated project escrow accounts (governed by RERA in Dubai and Sharjah real estate authorities), perfectly matching upcoming construction payables. The remaining $620m is fully unencumbered corporate cash held across top UAE financial institutions, providing robust protection against potential collection slowdowns.\n\n**De-risked construction and sales backlog.**  \nAcross Arada's active development pipeline, 65% of residential inventory is pre-sold. In Dubai, off-plan payment structures are heavily front-loaded (typically 60–70% collected during construction and 30–40% on handover), ensuring that project cash inflows precede contractor outflows. Even in a severe stress scenario assuming zero new project launches for the next 12 months, rolling 24-month cash flow models indicate no funding deficit.\n\n**Geographic resilience: Sharjah anchor with selective Dubai prime.**  \nArada benefits from structural differentiation: unlike pure Dubai developers exposed to volatile speculative demand, Arada's core master communities in Sharjah (Aljada, Masaar) cater to genuine end-user residential demand with limited local competition. Masaar's 3,000 wooded villas have seen extraordinary delivery velocity with over 4,000 units across Sharjah handed over or in final inspection. Its Dubai projects are targeted at high-margin, super-prime branded residences (e.g. Armani Beach Residences on Palm Jumeirah), where buyers are less sensitive to mortgage rate fluctuations.\n\n**Debt structure and Sukuk covenants.**  \nThe balance sheet is funded by a conservative blend of equity, accumulated retained earnings, and long-term capital markets debt via its $500m 8.000% 2029 Sukuk. The business carries modest corporate bank debt, relying instead on project-level milestone financing and escrow self-funding. Covenant headroom remains extensive, with net leverage running below 2.0x.\n\n\n### Guidance — Arada\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **Sales Run-Rate** | Moderating from peak 2024–2025 velocity; annual sales targeted around $2.0–2.2bn, driven by phased delivery of Masaar and Aljada phases. |\n| **Revenue & Backlog** | Multi-year revenue backlog exceeding $4.5bn provides clear earnings visibility through 2028. |\n| **Gross Margin** | Targeted at 32–35%, supported by low historical land acquisition costs in Sharjah and branded pricing premiums in Dubai. |\n| **Capex & Land Outlays** | Discretionary land acquisition capex halted; construction spend strictly phased against escrow receivables. |\n| **Treasury Cash Target** | Year-end cash target maintained at $1.0bn+ (H1-26 actual $963m, of which $620m unrestricted corporate cash). |\n| **Net Leverage Ceiling** | Net debt to equity maintained below 35–40% ceiling (bank covenant limit). |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Sukuk** | ARADA 8.000% due 2029 (ISIN: XS2751473211) — $500m o/s ($400m issued Feb-2024 + $100m tap at 7.85%); rated BB- (Fitch) / Ba3 (Moody's). |\n| **Bank Facilities** | Bilateral project lines with leading UAE banks (Emirates NBD, Dubai Islamic Bank, ADCB) utilized for project construction guarantees. |\n| **Liquidity Position** | $963m total cash as of 30-Jun-2026 ($620m unrestricted corporate cash, $340m in regulated escrow accounts). |\n| **Debt Maturity Profile** | No major public debt maturities until the 2029 Sukuk; corporate liquidity fully covers outstanding bond debt. |\n\n### Watch Items\n\n* H2-26 and FY26 collection rates on Dubai off-plan receivables.\n* Full-year cash balance print (verifying compliance with the $1.0bn+ treasury target).\n* Handover milestones and escrow cash releases at Aljada and Masaar communities.\n* Contractor delivery pace and potential supply chain bottlenecks in the UAE building materials sector.\n* New project launch cadence and pre-sale absorption rates in Dubai.\n\n### In Our View\n\nArada is managing the real estate cycle with exemplary institutional discipline. While many regional developers accelerated speculative launches into the 2024–2025 market peak, Arada's management proactively pulled back in early 2026—cutting discretionary capex, pausing land purchases, deferring dividends, and amassing a near-$1bn cash fortress ($620m unrestricted). This conservative posture drastically reduces default risk for bondholders.\n\nThe ARADA 8.000% 2029 Sukuk represents one of the highest-quality high-yield paper names in the GCC. With unrestricted cash alone covering the entire $500m Sukuk issuance and active projects 65% pre-sold with matched escrow funding, the credit provides an exceptional risk-adjusted yield (~7.8–8.1%). We view Arada as an anchor Overweight allocation within GCC real estate, supported by unbeatable royal sponsor backing and structural dominance in the Sharjah end-user market.\n\n\n---\n"
+        "details": "# Arada Developments — Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (CFO / Treasury) | Issuer Profile: Sharjah and Dubai master real estate developer, backed by Sharjah ruling family and Prince Khaled bin Alwaleed. Bond Silo: ARADA Sukuk (ARADA 8.000% 2029, $500m o/s). Ratings: Fitch BB- / Moody's Ba3.\n\n---\n\n### Key Points\n\n* **Proactive cash conservation posture**: Following early signs of market softening in February 2026, Arada's leadership immediately instituted a conservative capital allocation strategy: deferring non-committed capex, halting discretionary land purchases, deferring dividend payments, and prioritizing balance sheet liquidity.\n* **Robust liquidity buffer**: Ended H1 2026 with $963m in total cash, comprising $340m in project escrow accounts (primarily dedicated to Dubai construction milestones) and $620m in unrestricted cash. Historical treasury policy strictly mandates closing each financial year with $1.0bn+ in cash.\n* **High pre-sales and escrow funding match**: Active projects under construction maintain an average pre-sold inventory of 65%. Construction costs are fully matched against existing escrow cash and contractually committed installment receivables, eliminating speculative cash burn.\n* **Sharjah stronghold vs Dubai diversification**: Maintains dominant master-developer positioning in Sharjah across flagship communities: Masaar (AED 9.5bn / $2.6bn GDV, 3,000 villas across 7 gated districts, 100% sold out across first 5 phases) and Aljada (AED 25bn / $6.8bn GDV, 24m sq ft mega-development), while selectively expanding into ultra-prime Dubai segments (Armani Beach Residences on Palm Jumeirah, 53 bespoke units designed by Tadao Ando achieving >AED 10,000/sq ft, and Jouri Hills in Jumeirah Golf Estates).\n* **Contractor cost management**: Construction cost inflation is neutralized through fixed-price turnkey EPC contracts with tier-one contractors, with selective project phasing adopted to protect gross profit margins.\n* **Sukuk debt structure**: Capital structure anchored by the $500m ARADA 8.000% 2029 Sukuk (ISIN: XS2751473211, tapped for $100m in May-2024 at 7.85%); comfortable leverage ratios with net debt to equity well within bank covenant limits and zero significant near-term bond maturities.\n\n### Takeaways\n\n**Immediate transition to capital preservation mode.**  \nArada's executive committee responded swiftly to broader regional property cooling signals in early 2026 by shifting from aggressive expansion to cash preservation. Management placed an immediate hold on non-essential capital expenditure, paused uncommitted land acquisitions, deferred shareholder distributions, and instituted tight controls on overhead. This disciplined counter-cyclical posture ensures the developer operates with substantial liquidity buffers throughout any market adjustment.\n\n**Strong cash visibility and escrow ring-fencing.**  \nTotal cash stood at $963m at the close of H1 2026. Of this, $340m is segregated within legally mandated project escrow accounts (governed by RERA in Dubai and Sharjah real estate authorities), perfectly matching upcoming construction payables. The remaining $620m is fully unencumbered corporate cash held across top UAE financial institutions, providing robust protection against potential collection slowdowns.\n\n**De-risked construction and sales backlog.**  \nAcross Arada's active development pipeline, 65% of residential inventory is pre-sold. In Dubai, off-plan payment structures are heavily front-loaded (typically 60–70% collected during construction and 30–40% on handover), ensuring that project cash inflows precede contractor outflows. Even in a severe stress scenario assuming zero new project launches for the next 12 months, rolling 24-month cash flow models indicate no funding deficit.\n\n**Geographic resilience: Sharjah anchor with selective Dubai prime.**  \nArada benefits from structural differentiation: unlike pure Dubai developers exposed to volatile speculative demand, Arada's core master communities in Sharjah (Aljada, Masaar) cater to genuine end-user residential demand with limited local competition. Masaar's 3,000 wooded villas have seen extraordinary delivery velocity with over 4,000 units across Sharjah handed over or in final inspection. Its Dubai projects are targeted at high-margin, super-prime branded residences (e.g. Armani Beach Residences on Palm Jumeirah), where buyers are less sensitive to mortgage rate fluctuations.\n\n**Debt structure and Sukuk covenants.**  \nThe balance sheet is funded by a conservative blend of equity, accumulated retained earnings, and long-term capital markets debt via its $500m 8.000% 2029 Sukuk. The business carries modest corporate bank debt, relying instead on project-level milestone financing and escrow self-funding. Covenant headroom remains extensive, with net leverage running below 2.0x.\n\n\n### Guidance — Arada\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **Sales Run-Rate** | Moderating from peak 2024–2025 velocity; annual sales targeted around $2.0–2.2bn, driven by phased delivery of Masaar and Aljada phases. |\n| **Revenue & Backlog** | Multi-year revenue backlog exceeding $4.5bn provides clear earnings visibility through 2028. |\n| **Gross Margin** | Targeted at 32–35%, supported by low historical land acquisition costs in Sharjah and branded pricing premiums in Dubai. |\n| **Capex & Land Outlays** | Discretionary land acquisition capex halted; construction spend strictly phased against escrow receivables. |\n| **Treasury Cash Target** | Year-end cash target maintained at $1.0bn+ (H1-26 actual $963m, of which $620m unrestricted corporate cash). |\n| **Net Leverage Ceiling** | Net debt to equity maintained below 35–40% ceiling (bank covenant limit). |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Sukuk** | ARADA 8.000% due 2029 (ISIN: XS2751473211) — $500m o/s ($400m issued Feb-2024 + $100m tap at 7.85%); rated BB- (Fitch) / Ba3 (Moody's). |\n| **Bank Facilities** | Bilateral project lines with leading UAE banks (Emirates NBD, Dubai Islamic Bank, ADCB) utilized for project construction guarantees. |\n| **Liquidity Position** | $963m total cash as of 30-Jun-2026 ($620m unrestricted corporate cash, $340m in regulated escrow accounts). |\n| **Debt Maturity Profile** | No major public debt maturities until the 2029 Sukuk; corporate liquidity fully covers outstanding bond debt. |\n\n### Watch Items\n\n* H2-26 and FY26 collection rates on Dubai off-plan receivables.\n* Full-year cash balance print (verifying compliance with the $1.0bn+ treasury target).\n* Handover milestones and escrow cash releases at Aljada and Masaar communities.\n* Contractor delivery pace and potential supply chain bottlenecks in the UAE building materials sector.\n* New project launch cadence and pre-sale absorption rates in Dubai.\n\n### In Our View\n\nArada is managing the real estate cycle with exemplary institutional discipline. While many regional developers accelerated speculative launches into the 2024–2025 market peak, Arada's management proactively pulled back in early 2026—cutting discretionary capex, pausing land purchases, deferring dividends, and amassing a near-$1bn cash position ($620m unrestricted). This conservative posture drastically reduces default risk for bondholders.\n\nThe ARADA 8.000% 2029 Sukuk represents one of the highest-quality high-yield paper names in the GCC. With unrestricted cash alone covering the entire $500m Sukuk issuance and active projects 65% pre-sold with matched escrow funding, the credit provides an exceptional risk-adjusted yield (~7.8–8.1%). We view Arada as an anchor Overweight allocation within GCC real estate, supported by unbeatable royal sponsor backing and structural dominance in the Sharjah end-user market.\n\n\n---\n"
       }
     ]
   },
@@ -7209,7 +7313,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -7427,6 +7531,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B-",
+        "price": 89.0,
+        "ytm": 12.15,
+        "spread_bp": 780,
+        "net_leverage": 2.63,
+        "ebitda": 160.0,
+        "fcf": -15.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B-",
         "price": 89.0,
         "ytm": 12.15,
@@ -8156,7 +8273,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:30 Istanbul",
       "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-      "days_to_earnings": 45
+      "days_to_earnings": 41
     },
     "management_questions": [
       {
@@ -8374,6 +8491,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B3",
+        "price": 96.5,
+        "ytm": 8.95,
+        "spread_bp": 455,
+        "net_leverage": 4.11,
+        "ebitda": 190.0,
+        "fcf": -82.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B3",
         "price": 96.5,
         "ytm": 8.95,
@@ -9031,7 +9161,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -9249,6 +9379,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / Ba3",
+        "price": 98.5,
+        "ytm": 8.45,
+        "spread_bp": 410,
+        "net_leverage": 1.58,
+        "ebitda": 2250.0,
+        "fcf": 376.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / Ba3",
         "price": 98.5,
         "ytm": 8.45,
@@ -9924,7 +10067,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -10142,6 +10285,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B+",
+        "price": 101.8,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 3.4,
+        "ebitda": 1250.0,
+        "fcf": -222.1,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B+",
         "price": 101.8,
         "ytm": 6.85,
@@ -10831,7 +10987,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -11042,6 +11198,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B",
+        "price": 101.5,
+        "ytm": 8.85,
+        "spread_bp": 480,
+        "net_leverage": 0.89,
+        "ebitda": 380.0,
+        "fcf": -97.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B",
         "price": 101.5,
         "ytm": 8.85,
@@ -12155,7 +12324,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BRASKM",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "market_history": [
       {
@@ -12201,6 +12370,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "RD / D",
+        "price": 48.6,
+        "ytm": 19.8,
+        "spread_bp": 1580,
+        "net_leverage": 6.74,
+        "ebitda": 850.0,
+        "fcf": -480.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "RD / D",
         "price": 48.6,
         "ytm": 19.8,
@@ -12767,7 +12949,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CCOLA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -12985,6 +13167,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / BBB",
+        "price": 97.2,
+        "ytm": 5.35,
+        "spread_bp": 130,
+        "net_leverage": 1.05,
+        "ebitda": 720.0,
+        "fcf": 150.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / BBB",
         "price": 97.2,
         "ytm": 5.35,
@@ -13643,7 +13838,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "10:00 Prague / 09:00 UK",
       "ir_webcast_url": "https://www.cez.cz/en/investors",
-      "days_to_earnings": 46
+      "days_to_earnings": 42
     },
     "management_questions": [
       {
@@ -13861,6 +14056,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A- / A3",
+        "price": 99.8,
+        "ytm": 4.95,
+        "spread_bp": 90,
+        "net_leverage": 1.4,
+        "ebitda": 4200,
+        "fcf": -1083.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A- / A3",
         "price": 99.8,
         "ytm": 4.95,
@@ -14302,7 +14510,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CIMKOC",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -14358,6 +14566,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B3",
+        "price": 105.0,
+        "ytm": 8.6,
+        "spread_bp": 391,
+        "net_leverage": 1.8,
+        "ebitda": 165.0,
+        "fcf": 18.5,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B3",
         "price": 105.0,
         "ytm": 8.6,
@@ -15009,7 +15230,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://www.damacproperties.com/en/investor-relations/",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -15220,6 +15441,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / Ba3",
+        "price": 101.0,
+        "ytm": 7.25,
+        "spread_bp": 320,
+        "net_leverage": 0.29,
+        "ebitda": 680.0,
+        "fcf": -134.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / Ba3",
         "price": 101.0,
         "ytm": 7.25,
@@ -15875,7 +16109,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANFER",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -16093,6 +16327,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 96.0,
+        "ytm": 11.5,
+        "spread_bp": 715,
+        "net_leverage": 2.77,
+        "ebitda": 650.0,
+        "fcf": -14.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 96.0,
         "ytm": 11.5,
@@ -16779,7 +17026,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANREF",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -16997,6 +17244,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 95.0,
+        "ytm": 12.5,
+        "spread_bp": 815,
+        "net_leverage": 2.43,
+        "ebitda": 100.0,
+        "fcf": -735.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 95.0,
         "ytm": 12.5,
@@ -17675,7 +17935,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DARARK",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -17886,6 +18146,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / Ba3 / B+",
+        "price": 99.5,
+        "ytm": 8.15,
+        "spread_bp": 410,
+        "net_leverage": 3.47,
+        "ebitda": 360.0,
+        "fcf": -142.7,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / Ba3 / B+",
         "price": 99.5,
         "ytm": 8.15,
@@ -18575,7 +18848,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DIBUH",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -18793,6 +19066,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A3 / A",
+        "price": 99.7,
+        "ytm": 5.1,
+        "spread_bp": 90,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A3 / A",
         "price": 99.7,
         "ytm": 5.1,
@@ -19450,7 +19736,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai / 10:00 UK",
       "ir_webcast_url": "https://www.dpworld.com/investors",
-      "days_to_earnings": 62
+      "days_to_earnings": 58
     },
     "management_questions": [
       {
@@ -19668,6 +19954,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB+ / Baa2",
+        "price": 98,
+        "ytm": 5.35,
+        "spread_bp": 120,
+        "net_leverage": 3.23,
+        "ebitda": 5100,
+        "fcf": 347.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB+ / Baa2",
         "price": 98,
         "ytm": 5.35,
@@ -20326,7 +20625,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -20544,6 +20843,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "CCC / Caa3",
+        "price": 68.5,
+        "ytm": 18.5,
+        "spread_bp": 1410,
+        "net_leverage": 3.02,
+        "ebitda": 420.0,
+        "fcf": -100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "CCC / Caa3",
         "price": 68.5,
         "ytm": 18.5,
@@ -21204,7 +21516,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-      "days_to_earnings": 47
+      "days_to_earnings": 43
     },
     "management_questions": [
       {
@@ -21415,6 +21727,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB / Baa2",
+        "price": 100.2,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": 100.0,
+        "ebitda": 3200.0,
+        "fcf": -240.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB / Baa2",
         "price": 100.2,
         "ytm": 5.15,
@@ -22075,7 +22400,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EKGYO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -22286,6 +22611,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- Local",
+        "price": 97.5,
+        "ytm": 10.5,
+        "spread_bp": 610,
+        "net_leverage": 0.49,
+        "ebitda": 350.0,
+        "fcf": -98.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- Local",
         "price": 97.5,
         "ytm": 10.5,
@@ -22975,7 +23313,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EMIRAT",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -23193,6 +23531,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A2 / A+",
+        "price": 100.25,
+        "ytm": 4.9,
+        "spread_bp": 70,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A2 / A+",
         "price": 100.25,
         "ytm": 4.9,
@@ -23848,7 +24199,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EQUATE",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -24066,6 +24417,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Baa2 / BBB",
+        "price": 98.2,
+        "ytm": 5.55,
+        "spread_bp": 150,
+        "net_leverage": 1.65,
+        "ebitda": 980.0,
+        "fcf": 38.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Baa2 / BBB",
         "price": 98.2,
         "ytm": 5.55,
@@ -24739,7 +25103,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.erdemir.com.tr/investor-relations/",
-      "days_to_earnings": 40
+      "days_to_earnings": 36
     },
     "management_questions": [
       {
@@ -24957,6 +25321,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 98.5,
+        "ytm": 7.95,
+        "spread_bp": 355,
+        "net_leverage": 2.12,
+        "ebitda": 850.0,
+        "fcf": -162.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 98.5,
         "ytm": 7.95,
@@ -25631,7 +26008,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "11:00 Johannesburg",
       "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
-      "days_to_earnings": 66
+      "days_to_earnings": 62
     },
     "management_questions": [
       {
@@ -25849,6 +26226,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B-",
+        "price": 99.0,
+        "ytm": 8.5,
+        "spread_bp": 445,
+        "net_leverage": 6.8,
+        "ebitda": 2200.0,
+        "fcf": -1991.7,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B-",
         "price": 99.0,
         "ytm": 8.5,
@@ -26538,7 +26928,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FABUH",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -26756,6 +27146,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Aa3 / AA-",
+        "price": 100.5,
+        "ytm": 4.85,
+        "spread_bp": 65,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Aa3 / AA-",
         "price": 100.5,
         "ytm": 4.85,
@@ -27445,7 +27848,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FIRSTR",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -27663,6 +28066,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Ba2 / BB-",
+        "price": 98.8,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Ba2 / BB-",
         "price": 98.8,
         "ytm": 6.75,
@@ -28352,7 +28768,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.garantibbvainvestorrelations.com",
-      "days_to_earnings": 33
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -28570,6 +28986,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.55,
+        "spread_bp": 195,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.8,
         "ytm": 6.55,
@@ -29226,7 +29655,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -29444,6 +29873,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 98.2,
+        "ytm": 9.1,
+        "spread_bp": 470,
+        "net_leverage": 2.62,
+        "ebitda": 195.0,
+        "fcf": -77.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 98.2,
         "ytm": 9.1,
@@ -29780,7 +30222,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GLNG",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "market_history": [
       {
@@ -29826,6 +30268,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B2 / B",
+        "price": 99.5,
+        "ytm": 7.85,
+        "spread_bp": 420,
+        "net_leverage": 6.4,
+        "ebitda": 241.0,
+        "fcf": -80.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B2 / B",
         "price": 99.5,
         "ytm": 7.85,
@@ -30398,7 +30853,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Johannesburg",
       "ir_webcast_url": "https://www.goldfields.com/investors.php",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -30616,6 +31071,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / Baa3",
+        "price": 100.2,
+        "ytm": 6.05,
+        "spread_bp": 200,
+        "net_leverage": 0.85,
+        "ebitda": 2100,
+        "fcf": 281.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / Baa3",
         "price": 100.2,
         "ytm": 6.05,
@@ -31323,7 +31791,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
-      "days_to_earnings": 45
+      "days_to_earnings": 41
     },
     "management_questions": [
       {
@@ -31541,6 +32009,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B3",
+        "price": 98.1,
+        "ytm": 7.35,
+        "spread_bp": 275,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B3",
         "price": 98.1,
         "ytm": 7.35,
@@ -32230,7 +32711,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HSBKK",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -32448,6 +32929,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Baa1 / BBB-",
+        "price": 99.0,
+        "ytm": 6.2,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Baa1 / BBB-",
         "price": 99.0,
         "ytm": 6.2,
@@ -33106,7 +33600,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HT",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -33317,6 +33811,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 94.25,
+        "ytm": 8.75,
+        "spread_bp": 440,
+        "net_leverage": 4.49,
+        "ebitda": 395.0,
+        "fcf": 15.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 94.25,
         "ytm": 8.75,
@@ -33973,7 +34480,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HIDRO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -34191,6 +34698,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB-",
+        "price": 99.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 0.4,
+        "ebitda": 1550.0,
+        "fcf": -250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB-",
         "price": 99.0,
         "ytm": 5.5,
@@ -34849,7 +35369,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:30 London / 09:30 EST",
       "ir_webcast_url": "https://www.ihstowers.com/investors",
-      "days_to_earnings": 53
+      "days_to_earnings": 49
     },
     "management_questions": [
       {
@@ -35060,6 +35580,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B2",
+        "price": 91.5,
+        "ytm": 10.25,
+        "spread_bp": 590,
+        "net_leverage": 3.16,
+        "ebitda": 1120,
+        "fcf": 8.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B2",
         "price": 91.5,
         "ytm": 10.25,
@@ -35749,7 +36282,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.isbank.com.tr/en/investor-relations",
-      "days_to_earnings": 36
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -35967,6 +36500,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 225,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.5,
         "ytm": 6.85,
@@ -36618,7 +37164,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ITTIHAD",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -36844,6 +37390,19 @@ const MASTER_ISSUERS = [
         "ebitda": 195.0,
         "fcf": -16.6,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
+        "rating": "B+ / B1",
+        "price": 98.5,
+        "ytm": 9.1,
+        "spread_bp": 505,
+        "net_leverage": 2.41,
+        "ebitda": 195.0,
+        "fcf": -16.6,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -36938,7 +37497,7 @@ const MASTER_ISSUERS = [
         "source": "J.P. Morgan EM Credit Conference (15-17 Sep 2026)",
         "status": "Enriched Research Note (Strict 2-Column Tables)",
         "summary": "Closure and shipping disruptions across the Strait of Hormuz prompted Ittihad to rapidly activate alternative logistics corridors through Fujairah, Dibba, and Jebel Ali, maintaining uninterrupted raw material imports (pulp, copper cathode) and product exports to Egypt, Saudi Arabia, and Jordan.",
-        "details": "# Ittihad International — Management Meeting, EM Investor Conference (16-Sep-2026)\n\n**Metadata**: Date: 16-Sep-2026 | Format: Group credit-investor meeting (CFO / Senior Leadership) | Issuer Profile: Abu Dhabi diversified industrial manufacturing conglomerate (paper, tissue, copper rods, chemicals, building materials). Bond Silo: ITTIHD 8.500% 2028 senior notes ($350m o/s). Ratings: Fitch B+ / S&P B+.\n\n---\n\n### Key Points\n\n* **Operational resilience during Hormuz disruption**: Closure and shipping disruptions across the Strait of Hormuz prompted Ittihad to rapidly activate alternative logistics corridors through Fujairah, Dibba, and Jebel Ali, maintaining uninterrupted raw material imports (pulp, copper cathode) and product exports to Egypt, Saudi Arabia, and Jordan.\n* **Industrial footprint & core capacities**: Operates dominant manufacturing market shares via Crown Paper Mill (100,000 MT/yr tissue jumbo rolls across Abu Dhabi and Ajman), Ittihad Paper Mill in ICAD II Abu Dhabi (320,000 MT/yr woodfree uncoated printing and writing paper, the largest in MENA), and Union Copper Rod (175,000 MT/yr copper rod facility operating on tolling margins).\n* **Pricing power & margin expansion**: Counterintuitively, EBITDA margins improved during the geopolitical crisis. While Ittihad incurred higher logistics costs, competing imported finished goods (notably Asian tissue and printing paper) were completely blocked by maritime disruptions, enabling Ittihad to implement full cost pass-throughs and gain substantial market share.\n* **Bulk shipping cost advantage**: Ittihad's strategic shift toward importing raw materials via chartered bulk break-bulk vessels rather than containerised freight gave it a massive structural freight cost advantage over competitors who were stranded by sky-high container rates.\n* **Healthy cash conversion cycle**: Cash conversion cycle remained stable at 23 days across H1 2026, fully in line with historical 2023–2025 performance. First-half working capital outflows were driven by strategic bulk raw material pre-purchases and inventory timing rather than structural cash burn.\n* **Capital structure & Sukuk headroom**: Leverage remains well contained under 3.0x net debt/EBITDA (targeted 2.5x–2.8x at year-end); comfortable liquidity supported by strong relationship banking lines across Abu Dhabi and the $350m ITTIHD 8.500% 2028 notes.\n\n### Takeaways\n\n**Logistical agility bypasses Strait of Hormuz choke points.**  \nWhen maritime security risks escalated in the Strait of Hormuz, Ittihad redirected its logistics architecture within days. Raw pulp for Crown Paper Mill (100k MT capacity) and Ittihad Paper Mill (320k MT capacity), alongside copper cathodes for Union Copper Rod (175k MT capacity), were rerouted to East Coast ports (Fujairah, Dibba) and cross-trucked inland. Export shipments of finished tissue rolls and paper reels to high-demand GCC and regional markets (Saudi Arabia, Jordan, Egypt) were shifted to overland trucking and specialized feeder vessels, avoiding port congestion.\n\n**Supply disruption creates domestic pricing moat and margin gains.**  \nThe disruption of regional container shipping severely curtailed imports of finished consumer tissue and office paper from China, Indonesia, and India. With local distributors facing empty shelves, Ittihad exercised strong pricing power. All incremental transport surcharges and energy tariffs were passed directly into wholesale pricing, allowing operating EBITDA margins in the consumer goods and paper divisions to widen year-over-year.\n\n**Bulk raw material logistics delivers structural cost arbitrage.**  \nManagement highlighted that importing bulk commodities (pulp, scrap, copper) in full-vessel charter shipments insulated the group from the container freight rate spikes that hobbled smaller regional converters. While bulk shipments cause periodic lumpy working capital outflows upon cargo arrivals, the unit freight cost savings more than compensate for the temporary inventory build.\n\n**Working capital seasonality and cash conversion stability.**  \nThe reported negative change in working capital during H1 2026 was directly tied to the strategic pre-stocking of critical raw materials ahead of anticipated logistics bottlenecks. Management reiterated that the core cash conversion cycle remains tightly disciplined at 23 days. Receivables aging is healthy, backed by credit insurance and sovereign/corporate offtake contracts across the UAE and Saudi Arabia.\n\n**Capital structure discipline and banking support.**  \nIttihad continues to operate with modest leverage relative to its industrial asset base. The $350m 8.500% 2028 senior notes are well covered by domestic operating cash flow and undrawn bilateral lines with Abu Dhabi government-linked banks, reflecting Ittihad's status as a core domestic industrial champion under the UAE's 'Operation 300bn' industrial strategy.\n\n\n### Guidance — Ittihad\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **EBITDA Trajectory** | FY26 EBITDA guided to grow moderately over FY25, driven by market share expansion in paper/tissue and full freight cost pass-throughs. |\n| **Revenue Dynamics** | Top line supported by firm paper prices and higher nominal copper prices, though copper gross profit is purely conversion-fee driven. |\n| **Capex Budget** | Growth capex normalized following recent tissue mill expansions; FY26 capex primarily maintenance and debottlenecking ($40–50m). |\n| **Working Capital Cycle** | Cash conversion cycle guided to remain within historical 20–25 days range (23 days actual H1-26); H2 working capital release expected. |\n| **Cash Taxes & Interest** | Minimal cash tax exposure under UAE corporate tax regime with industrial exemptions; cash interest ~$30m/yr ($350m @ 8.50%). |\n| **Net Leverage Target** | Targeting net debt / EBITDA between 2.5x and 2.8x at year-end (comfortably within covenant ceilings). |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Eurobond** | ITTIHD 8.500% due Nov-2028 (ISIN: XS2680456766) — $350m o/s; rated B+ (Fitch / S&P); trading near par (~8.30% YTM). |\n| **Bank Facilities & Lines** | Over $200m in committed revolving working capital and trade finance lines across First Abu Dhabi Bank (FAB), ADCB, and Mashreq. |\n| **Debt Structure** | Long-term bond debt represents majority of funded debt; bank debt utilized strictly for self-liquidating trade finance and LC discounting. |\n| **Maturity Runway** | Zero debt maturities in 2026–2027; next refinancing focus is the November 2028 bond maturity. |\n\n### Watch Items\n\n* H2-26 working capital unwind and inventory cash conversion prints.\n* Shipping lane normalization around Hormuz and the impact on competing Asian imports.\n* Global wood pulp benchmark price trajectory (NBSK and BHKP pricing).\n* Execution of domestic paper supply contracts across GCC export markets.\n* Maintenance of net leverage below the 3.0x threshold.\n\n### In Our View\n\nIttihad has proven its operational mettle by transforming an acute geopolitical logistics shock into a commercial triumph. The management team's rapid mobilization of alternative logistics through Fujairah and Jebel Ali—coupled with bulk freight procurement—enabled the company to steal market share while competing imported goods were stranded. The resulting pricing power drove EBITDA margin expansion, dispelling investor fears regarding raw material cost inflation.\n\nThe ITTIHD 8.500% 2028 notes (yielding ~8.30%) offer solid, defensive industrial carry. The business generates high-quality cash flow across essential non-discretionary product lines (tissue, packaging, basic industrial copper), supported by deep banking relationships in Abu Dhabi. With working capital set to normalize in H2 and no debt maturities until late 2028, we view Ittihad as a steady, reliable high-yield credit and maintain an Overweight recommendation.\n\n\n---\n"
+        "details": "# Ittihad International — Management Meeting, EM Investor Conference (16-Sep-2026)\n\n**Metadata**: Date: 16-Sep-2026 | Format: Group credit-investor meeting (CFO / Senior Leadership) | Issuer Profile: Abu Dhabi diversified industrial manufacturing conglomerate (paper, tissue, copper rods, chemicals, building materials). Bond Silo: ITTIHD 8.500% 2028 senior notes ($350m o/s). Ratings: Fitch B+ / S&P B+.\n\n---\n\n### Key Points\n\n* **Operational resilience during Hormuz disruption**: Closure and shipping disruptions across the Strait of Hormuz prompted Ittihad to rapidly activate alternative logistics corridors through Fujairah, Dibba, and Jebel Ali, maintaining uninterrupted raw material imports (pulp, copper cathode) and product exports to Egypt, Saudi Arabia, and Jordan.\n* **Industrial footprint & core capacities**: Operates dominant manufacturing market shares via Crown Paper Mill (100,000 MT/yr tissue jumbo rolls across Abu Dhabi and Ajman), Ittihad Paper Mill in ICAD II Abu Dhabi (320,000 MT/yr woodfree uncoated printing and writing paper, the largest in MENA), and Union Copper Rod (175,000 MT/yr copper rod facility operating on tolling margins).\n* **Pricing power & margin expansion**: Counterintuitively, EBITDA margins improved during the geopolitical crisis. While Ittihad incurred higher logistics costs, competing imported finished goods (notably Asian tissue and printing paper) were completely blocked by maritime disruptions, enabling Ittihad to implement full cost pass-throughs and gain substantial market share.\n* **Bulk shipping cost advantage**: Ittihad's strategic shift toward importing raw materials via chartered bulk break-bulk vessels rather than containerised freight gave it a massive structural freight cost advantage over competitors who were stranded by elevated container rates.\n* **Healthy cash conversion cycle**: Cash conversion cycle remained stable at 23 days across H1 2026, fully in line with historical 2023–2025 performance. First-half working capital outflows were driven by strategic bulk raw material pre-purchases and inventory timing rather than structural cash burn.\n* **Capital structure & Sukuk headroom**: Leverage remains well contained under 3.0x net debt/EBITDA (targeted 2.5x–2.8x at year-end); comfortable liquidity supported by strong relationship banking lines across Abu Dhabi and the $350m ITTIHD 8.500% 2028 notes.\n\n### Takeaways\n\n**Logistical agility bypasses Strait of Hormuz choke points.**  \nWhen maritime security risks escalated in the Strait of Hormuz, Ittihad redirected its logistics architecture within days. Raw pulp for Crown Paper Mill (100k MT capacity) and Ittihad Paper Mill (320k MT capacity), alongside copper cathodes for Union Copper Rod (175k MT capacity), were rerouted to East Coast ports (Fujairah, Dibba) and cross-trucked inland. Export shipments of finished tissue rolls and paper reels to high-demand GCC and regional markets (Saudi Arabia, Jordan, Egypt) were shifted to overland trucking and specialized feeder vessels, avoiding port congestion.\n\n**Supply disruption creates domestic pricing moat and margin gains.**  \nThe disruption of regional container shipping severely curtailed imports of finished consumer tissue and office paper from China, Indonesia, and India. With local distributors facing empty shelves, Ittihad exercised strong pricing power. All incremental transport surcharges and energy tariffs were passed directly into wholesale pricing, allowing operating EBITDA margins in the consumer goods and paper divisions to widen year-over-year.\n\n**Bulk raw material logistics delivers structural cost arbitrage.**  \nManagement highlighted that importing bulk commodities (pulp, scrap, copper) in full-vessel charter shipments insulated the group from the container freight rate spikes that hobbled smaller regional converters. While bulk shipments cause periodic lumpy working capital outflows upon cargo arrivals, the unit freight cost savings more than compensate for the temporary inventory build.\n\n**Working capital seasonality and cash conversion stability.**  \nThe reported negative change in working capital during H1 2026 was directly tied to the strategic pre-stocking of critical raw materials ahead of anticipated logistics bottlenecks. Management reiterated that the core cash conversion cycle remains tightly disciplined at 23 days. Receivables aging is healthy, backed by credit insurance and sovereign/corporate offtake contracts across the UAE and Saudi Arabia.\n\n**Capital structure discipline and banking support.**  \nIttihad continues to operate with modest leverage relative to its industrial asset base. The $350m 8.500% 2028 senior notes are well covered by domestic operating cash flow and undrawn bilateral lines with Abu Dhabi government-linked banks, reflecting Ittihad's status as a core domestic industrial champion under the UAE's 'Operation 300bn' industrial strategy.\n\n\n### Guidance — Ittihad\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **EBITDA Trajectory** | FY26 EBITDA guided to grow moderately over FY25, driven by market share expansion in paper/tissue and full freight cost pass-throughs. |\n| **Revenue Dynamics** | Top line supported by firm paper prices and higher nominal copper prices, though copper gross profit is purely conversion-fee driven. |\n| **Capex Budget** | Growth capex normalized following recent tissue mill expansions; FY26 capex primarily maintenance and debottlenecking ($40–50m). |\n| **Working Capital Cycle** | Cash conversion cycle guided to remain within historical 20–25 days range (23 days actual H1-26); H2 working capital release expected. |\n| **Cash Taxes & Interest** | Minimal cash tax exposure under UAE corporate tax regime with industrial exemptions; cash interest ~$30m/yr ($350m @ 8.50%). |\n| **Net Leverage Target** | Targeting net debt / EBITDA between 2.5x and 2.8x at year-end (comfortably within covenant ceilings). |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Eurobond** | ITTIHD 8.500% due Nov-2028 (ISIN: XS2680456766) — $350m o/s; rated B+ (Fitch / S&P); trading near par (~8.30% YTM). |\n| **Bank Facilities & Lines** | Over $200m in committed revolving working capital and trade finance lines across First Abu Dhabi Bank (FAB), ADCB, and Mashreq. |\n| **Debt Structure** | Long-term bond debt represents majority of funded debt; bank debt utilized strictly for self-liquidating trade finance and LC discounting. |\n| **Maturity Runway** | Zero debt maturities in 2026–2027; next refinancing focus is the November 2028 bond maturity. |\n\n### Watch Items\n\n* H2-26 working capital unwind and inventory cash conversion prints.\n* Shipping lane normalization around Hormuz and the impact on competing Asian imports.\n* Global wood pulp benchmark price trajectory (NBSK and BHKP pricing).\n* Execution of domestic paper supply contracts across GCC export markets.\n* Maintenance of net leverage below the 3.0x threshold.\n\n### In Our View\n\nIttihad has proven its operational mettle by transforming an acute geopolitical logistics shock into a commercial triumph. The management team's rapid mobilization of alternative logistics through Fujairah and Jebel Ali—coupled with bulk freight procurement—enabled the company to steal market share while competing imported goods were stranded. The resulting pricing power drove EBITDA margin expansion, dispelling investor fears regarding raw material cost inflation.\n\nThe ITTIHD 8.500% 2028 notes (yielding ~8.30%) offer solid, defensive industrial carry. The business generates high-quality cash flow across essential non-discretionary product lines (tissue, packaging, basic industrial copper), supported by deep banking relationships in Abu Dhabi. With working capital set to normalize in H2 and no debt maturities until late 2028, we view Ittihad as a steady, reliable high-yield credit and maintain an Overweight recommendation.\n\n\n---\n"
       }
     ]
   },
@@ -37535,7 +38094,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KFH",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -37753,6 +38312,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A2 / A",
+        "price": 99.2,
+        "ytm": 5.2,
+        "spread_bp": 115,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A2 / A",
         "price": 99.2,
         "ytm": 5.2,
@@ -38410,7 +38982,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -38628,6 +39200,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / Baa2",
+        "price": 88.5,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": 1.45,
+        "ebitda": 4800.0,
+        "fcf": 451.7,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / Baa2",
         "price": 88.5,
         "ytm": 6.75,
@@ -39297,7 +39882,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
-      "days_to_earnings": 41
+      "days_to_earnings": 37
     },
     "management_questions": [
       {
@@ -39515,6 +40100,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB / BB+",
+        "price": 98.5,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 1.25,
+        "ebitda": 4800.0,
+        "fcf": -512.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB / BB+",
         "price": 98.5,
         "ytm": 6.85,
@@ -40174,7 +40772,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "16:00 London / 11:00 EST",
       "ir_webcast_url": "https://investors.kosmosenergy.com/",
-      "days_to_earnings": 40
+      "days_to_earnings": 36
     },
     "management_questions": [
       {
@@ -40392,6 +40990,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / B3",
+        "price": 89.5,
+        "ytm": 10.45,
+        "spread_bp": 610,
+        "net_leverage": 2.99,
+        "ebitda": 810.0,
+        "fcf": -55.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / B3",
         "price": 89.5,
         "ytm": 10.45,
@@ -41065,7 +41676,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKCEM",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -41283,6 +41894,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B",
+        "price": 98.8,
+        "ytm": 8.25,
+        "spread_bp": 385,
+        "net_leverage": 2.27,
+        "ebitda": 185.0,
+        "fcf": -4.8,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B",
         "price": 98.8,
         "ytm": 8.25,
@@ -41938,7 +42562,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -42156,6 +42780,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B3",
+        "price": 98.5,
+        "ytm": 7.85,
+        "spread_bp": 345,
+        "net_leverage": 3.08,
+        "ebitda": 78.0,
+        "fcf": 7.5,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B3",
         "price": 98.5,
         "ytm": 7.85,
@@ -42812,7 +43449,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKREN",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -43030,6 +43667,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B2",
+        "price": 98.2,
+        "ytm": 8.75,
+        "spread_bp": 435,
+        "net_leverage": 4.0,
+        "ebitda": 275.0,
+        "fcf": -110.8,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B2",
         "price": 98.2,
         "ytm": 8.75,
@@ -43702,7 +44352,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -43921,6 +44571,19 @@ const MASTER_ISSUERS = [
         "ebitda": 185.0,
         "fcf": 26.8,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
+        "rating": "B- / Caa1",
+        "price": 104.22,
+        "ytm": 9.58,
+        "spread_bp": 471,
+        "net_leverage": 4.13,
+        "ebitda": 185.0,
+        "fcf": 26.8,
+        "guidance_status": "On Track"
       }
     ],
     "broker_snapshots": [
@@ -44015,7 +44678,7 @@ const MASTER_ISSUERS = [
         "source": "J.P. Morgan EM Credit Conference (15-17 Sep 2026)",
         "status": "Enriched Research Note (Strict 2-Column Tables)",
         "summary": "Group generates approximately $300m in annual EBITDA with high operating cash conversion across its >110,000 km long-haul fiber backbone connecting 14 African nations from Cape Town to Cairo.",
-        "details": "# Liquid Telecom — Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (Hardy Pemhiwa - Group CEO Cassava, Finance Leadership) | Issuer Profile: Pan-African fiber backbone, cloud and digital infrastructure provider across 14+ countries (>110,000 km network). Bond Silo: Senior secured notes (LIQTEL 2027s/2028s). Ratings: Fitch B- / Moody's Caa1.\n\n---\n\n### Key Points\n\n* **Core cash generation run-rate**: Group generates approximately $300m in annual EBITDA with high operating cash conversion across its >110,000 km long-haul fiber backbone connecting 14 African nations from Cape Town to Cairo.\n* **Disciplined capex reduction**: Capex guidance for FY26 is capped at $60–70m (primarily maintenance and success-based customer-connection drops), a dramatic decline from historical peaks of $120m+ as the cross-continental fiber mesh reaches operational maturity.\n* **Debt position and upcoming amortisation wall**: Gross debt stood at approximately $880m at Q1, with net debt reduced to ~$770m. However, a major debt test looms on 28 February 2027, when nearly $130m in amortisation payments fall due across USD and ZAR term loans (representing ~1/3 of total term facilities).\n* **Committed $50m equity injection for AI pivot**: Under existing refinancing agreements, shareholders and strategic investors (Cassava Technologies / Strive Masiyiwa) are required to inject an additional $50m in equity into the restricted group by 28-Feb-2027. Proceeds are earmarked to upgrade the fiber grid into an ultra-low-latency 'AI transport network' serving global hyperscalers.\n* **Zimbabwe exposure and upstreaming**: Zimbabwe represents 30–35% of group EBITDA, with collections stabilized at a 60/40 USD/local currency ratio. Cash upstreaming operates steadily in small clips, with group tax expenses largely reflecting Zimbabwe statutory profitability.\n* **Liquidity buffer and covenant headroom**: Maintains $66–67m in usable balance sheet cash alongside an undrawn RCF, providing ~$95m of total liquidity. Significant headroom reported across all 7–8 debt covenants, with zero shareholder dividends expected from the operating perimeter.\n\n### Takeaways\n\n**Capital expenditure tapering unlocks sustained cash conversion.**  \nLiquid Telecom has crossed the inflection point of its multi-year capital expenditure cycle. Having deployed over 110,000 km of terrestrial fiber across sub-Saharan Africa, capex has been scaled down from historical levels of $120m+ to a run-rate of $60–70m. With growth capex now restricted to success-based enterprise connections, the group's ~$300m EBITDA converts cleanly into operational cash flow, shielding the business from external funding dependency.\n\n**The February 2027 term loan amortisation milestone.**  \nWhile near-term liquidity is stable, management is acutely focused on the 28 February 2027 maturity wall, where ~$130m of principal amortisation comes due across USD and ZAR commercial term loans. This represents approximately one-third of the outstanding term loan stack. Management expects to service this through a combination of accumulated internal cash flow, ongoing operational cash generation, and the mandatory equity injection.\n\n**Mandatory $50m equity injection to fund AI transport infrastructure.**  \nA key condition of the previous comprehensive refinancing agreement was a requirement for an incremental $50m equity injection into the credit group by 28-Feb-2027. Management confirmed active discussions with both core shareholders (Strive Masiyiwa / Cassava Technologies) and prospective international strategic partners. The capital will be utilized to equip existing fiber routes with coherent optics to support hyperscaler AI data traffic between landing stations and inland data centres.\n\n**Managing Zimbabwean currency risk and dividend upstreaming.**  \nZimbabwe contributes 30–35% of group EBITDA, making it the most significant jurisdictional risk factor. Management emphasized that recent monetary stabilization and dollarization of retail tariffs have stabilized collections at ~60% USD and 40% local currency. Upstreaming of funds to the HoldCo operates consistently through regular dividend transfers, with tax payments heavily concentrated in Zimbabwe due to the subsidiary's high statutory profitability.\n\n**Broad covenant headroom across multiple debt metrics.**  \nFollowing the previous debt reprofiling, Liquid Telecom operates with substantial headroom across all 7–8 financial covenants embedded in its debt documents. Gross debt of ~$880m excludes roughly $100m of subordinated intercompany debt (which was reduced from ~$200m). With no dividend leakage to HoldCo shareholders, all retained cash is preserved for debt service.\n\n\n### Guidance — Liquid Telecom\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **EBITDA Run-Rate** | Guided at ~$300m annual run-rate; Q1 softness expected to reverse in H2 with enterprise margin recovery. |\n| **Capex Guidance** | Strictly guided at $60–70m for FY26 (maintenance + customer connections); down from $120m+ historical peak. |\n| **Term Loan Amortisation** | ~$130m bullet amortisation due 28-Feb-2027 across USD and ZAR term loan tranches (~33% of term debt). |\n| **Mandatory Equity Injection** | $50m additional equity required by 28-Feb-2027 under lender agreement terms. |\n| **Zimbabwe EBITDA Share** | 30–35% of group EBITDA; collections running ~60% USD / 40% local currency. |\n| **Free Cash Flow** | Structurally positive operating cash flow after lower capex; primary call on cash is debt amortisation. |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Debt Stack** | Gross debt ~$880m (Q1 actual); net debt ~$770m. Syndicated term loans in USD and ZAR tranches alongside senior secured notes. |\n| **Liquidity Position** | $66–67m usable cash on balance sheet + undrawn RCF = ~$95m total available liquidity. |\n| **Subordinated Debt** | ~$100m in subordinated shareholder / intercompany loans (down from ~$200m pre-refinancing). |\n| **Equity Commitment** | Legally binding $50m equity injection commitment due by 28-Feb-2027 from Cassava / sponsor. |\n\n### Watch Items\n\n* Execution and receipt of the mandatory $50m shareholder equity injection ahead of 28-Feb-2027.\n* Refinancing or cash accumulation progress toward meeting the $130m term loan amortisation in Feb-2027.\n* Stability of Zimbabwean collections and ongoing US dollar dividend upstreaming.\n* Margin recovery in H2-26 following first-quarter enterprise pricing softness.\n* Hyperscaler AI transport contracts signing and fiber capacity utilization rates across the >110,000 km network.\n\n### In Our View\n\nLiquid Telecom has engineered a commendable operational turnaround by reining in capital expenditure ($60–70m vs $120m+) and converting its dominant pan-African fiber network into a consistent ~$300m EBITDA cash generator. The business possesses unmatched strategic infrastructure value, as global hyperscalers (Microsoft, Google, AWS) cannot route traffic across Africa without Liquid's fiber backbone. The planned pivot to AI transport networks provides a compelling medium-term revenue driver.\n\nHowever, credit investors must remain vigilant regarding the 28 February 2027 maturity hurdle, when ~$130m of term loan amortisation falls due. While available liquidity ($95m) and strong operating cash flow cover a significant portion, full execution requires the timely delivery of the $50m equity injection from Cassava / strategic backers. Furthermore, reliance on Zimbabwe for a third of EBITDA exposes the group to sudden currency shocks. We hold a Neutral stance on LIQTEL debt, awaiting confirmation of the equity funding before considering an upgrade.\n\n\n---\n"
+        "details": "# Liquid Telecom — Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (Hardy Pemhiwa - Group CEO Cassava, Finance Leadership) | Issuer Profile: Pan-African fiber backbone, cloud and digital infrastructure provider across 14+ countries (>110,000 km network). Bond Silo: Senior secured notes (LIQTEL 2027s/2028s). Ratings: Fitch B- / Moody's Caa1.\n\n---\n\n### Key Points\n\n* **Core cash generation run-rate**: Group generates approximately $300m in annual EBITDA with high operating cash conversion across its >110,000 km long-haul fiber backbone connecting 14 African nations from Cape Town to Cairo.\n* **Disciplined capex reduction**: Capex guidance for FY26 is capped at $60–70m (primarily maintenance and success-based customer-connection drops), a sharp decline from historical peaks of $120m+ as the cross-continental fiber mesh reaches operational maturity.\n* **Debt position and upcoming amortisation wall**: Gross debt stood at approximately $880m at Q1, with net debt reduced to ~$770m. However, a major debt test looms on 28 February 2027, when nearly $130m in amortisation payments fall due across USD and ZAR term loans (representing ~1/3 of total term facilities).\n* **Committed $50m equity injection for AI pivot**: Under existing refinancing agreements, shareholders and strategic investors (Cassava Technologies / Strive Masiyiwa) are required to inject an additional $50m in equity into the restricted group by 28-Feb-2027. Proceeds are earmarked to upgrade the fiber grid into an ultra-low-latency 'AI transport network' serving global hyperscalers.\n* **Zimbabwe exposure and upstreaming**: Zimbabwe represents 30–35% of group EBITDA, with collections stabilized at a 60/40 USD/local currency ratio. Cash upstreaming operates steadily in small clips, with group tax expenses largely reflecting Zimbabwe statutory profitability.\n* **Liquidity buffer and covenant headroom**: Maintains $66–67m in usable balance sheet cash alongside an undrawn RCF, providing ~$95m of total liquidity. Significant headroom reported across all 7–8 debt covenants, with zero shareholder dividends expected from the operating perimeter.\n\n### Takeaways\n\n**Capital expenditure tapering unlocks sustained cash conversion.**  \nLiquid Telecom has crossed the inflection point of its multi-year capital expenditure cycle. Having deployed over 110,000 km of terrestrial fiber across sub-Saharan Africa, capex has been scaled down from historical levels of $120m+ to a run-rate of $60–70m. With growth capex now restricted to success-based enterprise connections, the group's ~$300m EBITDA converts cleanly into operational cash flow, shielding the business from external funding dependency.\n\n**The February 2027 term loan amortisation milestone.**  \nWhile near-term liquidity is stable, management is acutely focused on the 28 February 2027 maturity wall, where ~$130m of principal amortisation comes due across USD and ZAR commercial term loans. This represents approximately one-third of the outstanding term loan stack. Management expects to service this through a combination of accumulated internal cash flow, ongoing operational cash generation, and the mandatory equity injection.\n\n**Mandatory $50m equity injection to fund AI transport infrastructure.**  \nA key condition of the previous comprehensive refinancing agreement was a requirement for an incremental $50m equity injection into the credit group by 28-Feb-2027. Management confirmed active discussions with both core shareholders (Strive Masiyiwa / Cassava Technologies) and prospective international strategic partners. The capital will be utilized to equip existing fiber routes with coherent optics to support hyperscaler AI data traffic between landing stations and inland data centres.\n\n**Managing Zimbabwean currency risk and dividend upstreaming.**  \nZimbabwe contributes 30–35% of group EBITDA, making it the most significant jurisdictional risk factor. Management emphasized that recent monetary stabilization and dollarization of retail tariffs have stabilized collections at ~60% USD and 40% local currency. Upstreaming of funds to the HoldCo operates consistently through regular dividend transfers, with tax payments heavily concentrated in Zimbabwe due to the subsidiary's high statutory profitability.\n\n**Broad covenant headroom across multiple debt metrics.**  \nFollowing the previous debt reprofiling, Liquid Telecom operates with substantial headroom across all 7–8 financial covenants embedded in its debt documents. Gross debt of ~$880m excludes roughly $100m of subordinated intercompany debt (which was reduced from ~$200m). With no dividend leakage to HoldCo shareholders, all retained cash is preserved for debt service.\n\n\n### Guidance — Liquid Telecom\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **EBITDA Run-Rate** | Guided at ~$300m annual run-rate; Q1 softness expected to reverse in H2 with enterprise margin recovery. |\n| **Capex Guidance** | Strictly guided at $60–70m for FY26 (maintenance + customer connections); down from $120m+ historical peak. |\n| **Term Loan Amortisation** | ~$130m bullet amortisation due 28-Feb-2027 across USD and ZAR term loan tranches (~33% of term debt). |\n| **Mandatory Equity Injection** | $50m additional equity required by 28-Feb-2027 under lender agreement terms. |\n| **Zimbabwe EBITDA Share** | 30–35% of group EBITDA; collections running ~60% USD / 40% local currency. |\n| **Free Cash Flow** | Structurally positive operating cash flow after lower capex; primary call on cash is debt amortisation. |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Debt Stack** | Gross debt ~$880m (Q1 actual); net debt ~$770m. Syndicated term loans in USD and ZAR tranches alongside senior secured notes. |\n| **Liquidity Position** | $66–67m usable cash on balance sheet + undrawn RCF = ~$95m total available liquidity. |\n| **Subordinated Debt** | ~$100m in subordinated shareholder / intercompany loans (down from ~$200m pre-refinancing). |\n| **Equity Commitment** | Legally binding $50m equity injection commitment due by 28-Feb-2027 from Cassava / sponsor. |\n\n### Watch Items\n\n* Execution and receipt of the mandatory $50m shareholder equity injection ahead of 28-Feb-2027.\n* Refinancing or cash accumulation progress toward meeting the $130m term loan amortisation in Feb-2027.\n* Stability of Zimbabwean collections and ongoing US dollar dividend upstreaming.\n* Margin recovery in H2-26 following first-quarter enterprise pricing softness.\n* Hyperscaler AI transport contracts signing and fiber capacity utilization rates across the >110,000 km network.\n\n### In Our View\n\nLiquid Telecom has engineered a commendable operational turnaround by reining in capital expenditure ($60–70m vs $120m+) and converting its dominant pan-African fiber network into a consistent ~$300m EBITDA cash generator. The business possesses unmatched strategic infrastructure value, as global hyperscalers (Microsoft, Google, AWS) cannot route traffic across Africa without Liquid's fiber backbone. The planned pivot to AI transport networks provides a compelling medium-term revenue driver.\n\nHowever, credit investors must remain vigilant regarding the 28 February 2027 maturity hurdle, when ~$130m of term loan amortisation falls due. While available liquidity ($95m) and strong operating cash flow cover a significant portion, full execution requires the timely delivery of the $50m equity injection from Cassava / strategic backers. Furthermore, reliance on Zimbabwe for a third of EBITDA exposes the group to sudden currency shocks. We hold a Neutral stance on LIQTEL debt, awaiting confirmation of the equity funding before considering an upgrade.\n\n\n---\n"
       }
     ]
   },
@@ -44574,7 +45237,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -44792,6 +45455,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB / BBB",
+        "price": 98.0,
+        "ytm": 5.65,
+        "spread_bp": 160,
+        "net_leverage": 2.85,
+        "ebitda": 1450.0,
+        "fcf": 91.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB / BBB",
         "price": 98.0,
         "ytm": 5.65,
@@ -45453,7 +46129,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "13:00 London",
       "ir_webcast_url": "https://metinvestholding.com/en/investors",
-      "days_to_earnings": 54
+      "days_to_earnings": 50
     },
     "management_questions": [
       {
@@ -45671,6 +46347,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "CCC+",
+        "price": 93.27,
+        "ytm": 14.98,
+        "spread_bp": 1022,
+        "net_leverage": 1.18,
+        "ebitda": 737.0,
+        "fcf": -193.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "CCC+",
         "price": 93.27,
         "ytm": 14.98,
@@ -46418,7 +47107,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 London / 09:00 EST",
       "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
-      "days_to_earnings": 53
+      "days_to_earnings": 49
     },
     "management_questions": [
       {
@@ -46636,6 +47325,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "CCC+ / Caa2",
+        "price": 82.5,
+        "ytm": 13.1,
+        "spread_bp": 875,
+        "net_leverage": 2.89,
+        "ebitda": 460.0,
+        "fcf": 1.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "CCC+ / Caa2",
         "price": 82.5,
         "ytm": 13.1,
@@ -47293,7 +47995,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Budapest",
       "ir_webcast_url": "https://molgroup.info/en/investor-relations",
-      "days_to_earnings": 42
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -47511,6 +48213,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB-",
+        "price": 98.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 1.1,
+        "ebitda": 3100.0,
+        "fcf": -22.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB-",
         "price": 98.0,
         "ytm": 5.5,
@@ -48187,7 +48902,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MTNSJ",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -48398,6 +49113,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Ba2 / BB+",
+        "price": 99.4,
+        "ytm": 6.9,
+        "spread_bp": 285,
+        "net_leverage": 1.65,
+        "ebitda": 4500,
+        "fcf": 481.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Ba2 / BB+",
         "price": 99.4,
         "ytm": 6.9,
@@ -49055,7 +49783,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "15:00 Casablanca",
       "ir_webcast_url": "https://www.ocpgroup.ma/investors",
-      "days_to_earnings": 56
+      "days_to_earnings": 52
     },
     "management_questions": [
       {
@@ -49273,6 +50001,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / Baa3",
+        "price": 99.5,
+        "ytm": 6.45,
+        "spread_bp": 155,
+        "net_leverage": 2.34,
+        "ebitda": 3200,
+        "fcf": 209.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / Baa3",
         "price": 99.5,
         "ytm": 6.45,
@@ -49949,7 +50690,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -50160,6 +50901,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A2 / A-",
+        "price": 97.8,
+        "ytm": 5,
+        "spread_bp": 95,
+        "net_leverage": 1.1,
+        "ebitda": 2800,
+        "fcf": 547.3,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A2 / A-",
         "price": 97.8,
         "ytm": 5,
@@ -50817,7 +51571,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/OQ",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -51035,6 +51789,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB+ / BBB-",
+        "price": 99.5,
+        "ytm": 5.9,
+        "spread_bp": 185,
+        "net_leverage": 1.8,
+        "ebitda": 4600.0,
+        "fcf": -149.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB+ / BBB-",
         "price": 99.5,
         "ytm": 5.9,
@@ -51712,7 +52479,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Warsaw / 07:00 UK",
       "ir_webcast_url": "https://www.orlen.pl/en/investor-relations",
-      "days_to_earnings": 34
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -51930,6 +52697,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB+ / A3",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 0.95,
+        "ebitda": 8500,
+        "fcf": 10.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB+ / A3",
         "price": 98.8,
         "ytm": 5.05,
@@ -52600,7 +53380,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.pegasusinvestorrelations.com",
-      "days_to_earnings": 45
+      "days_to_earnings": 41
     },
     "management_questions": [
       {
@@ -52818,6 +53598,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / BB-",
+        "price": 103.5,
+        "ytm": 7.65,
+        "spread_bp": 360,
+        "net_leverage": 2.1,
+        "ebitda": 950.0,
+        "fcf": 23.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / BB-",
         "price": 103.5,
         "ytm": 7.65,
@@ -53474,7 +54267,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "09:00 Warsaw",
       "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
-      "days_to_earnings": 53
+      "days_to_earnings": 49
     },
     "management_questions": [
       {
@@ -53692,6 +54485,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB+",
+        "price": 99.2,
+        "ytm": 5.3,
+        "spread_bp": 125,
+        "net_leverage": 1.85,
+        "ebitda": 2800.0,
+        "fcf": -1080.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB+",
         "price": 99.2,
         "ytm": 5.3,
@@ -54347,7 +55153,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QAZGAS",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -54565,6 +55371,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB-",
+        "price": 97.2,
+        "ytm": 5.95,
+        "spread_bp": 190,
+        "net_leverage": 1.2,
+        "ebitda": 850.0,
+        "fcf": 107.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB-",
         "price": 97.2,
         "ytm": 5.95,
@@ -55254,7 +56073,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QNBK",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -55472,6 +56291,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Aa3 / A+",
+        "price": 99.5,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Aa3 / A+",
         "price": 99.5,
         "ytm": 5.0,
@@ -56161,7 +56993,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RJHI",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -56379,6 +57211,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A-",
+        "price": 100.8,
+        "ytm": 4.75,
+        "spread_bp": 55,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A-",
         "price": 100.8,
         "ytm": 4.75,
@@ -57068,7 +57913,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RIBL",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -57286,6 +58131,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A2 / A",
+        "price": 99.6,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A2 / A",
         "price": 99.6,
         "ytm": 5.15,
@@ -57943,7 +58801,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ROMGAZ",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -58161,6 +59019,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB-",
+        "price": 98.5,
+        "ytm": 5.75,
+        "spread_bp": 170,
+        "net_leverage": 0.65,
+        "ebitda": 980.0,
+        "fcf": 206.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB-",
         "price": 98.5,
         "ytm": 5.75,
@@ -58834,7 +59705,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Riyadh / 11:00 UK",
       "ir_webcast_url": "https://www.sabic.com/en/investors",
-      "days_to_earnings": 33
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -59052,6 +59923,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A+",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 1.15,
+        "ebitda": 5800.0,
+        "fcf": -398.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A+",
         "price": 98.8,
         "ytm": 5.05,
@@ -59721,7 +60605,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SAMPA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -59939,6 +60823,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2 Implied",
+        "price": 97.5,
+        "ytm": 10.4,
+        "spread_bp": 600,
+        "net_leverage": 1.54,
+        "ebitda": 78.0,
+        "fcf": 8.7,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2 Implied",
         "price": 97.5,
         "ytm": 10.4,
@@ -60598,7 +61495,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SOLSJ",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -60816,6 +61713,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB+ / Ba1",
+        "price": 98.4,
+        "ytm": 7.85,
+        "spread_bp": 365,
+        "net_leverage": 2.37,
+        "ebitda": 2450.0,
+        "fcf": -230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB+ / Ba1",
         "price": 98.4,
         "ytm": 7.85,
@@ -61490,7 +62400,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SECO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -61708,6 +62618,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A",
+        "price": 99.2,
+        "ytm": 5.15,
+        "spread_bp": 110,
+        "net_leverage": 3.2,
+        "ebitda": 8400.0,
+        "fcf": -3030.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A",
         "price": 99.2,
         "ytm": 5.15,
@@ -62363,7 +63286,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.sisecam.com.tr/en/investor-relations",
-      "days_to_earnings": 35
+      "days_to_earnings": 31
     },
     "management_questions": [
       {
@@ -62581,6 +63504,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 245,
+        "net_leverage": 2.18,
+        "ebitda": 1100.0,
+        "fcf": -66.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.5,
         "ytm": 6.85,
@@ -63270,7 +64206,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SNB",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -63488,6 +64424,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A-",
+        "price": 100.1,
+        "ytm": 4.95,
+        "spread_bp": 75,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A-",
         "price": 100.1,
         "ytm": 4.95,
@@ -64148,7 +65097,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://sobhadxb.com/investor-relations",
-      "days_to_earnings": 52
+      "days_to_earnings": 48
     },
     "management_questions": [
       {
@@ -64359,6 +65308,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / Ba3",
+        "price": 102.0,
+        "ytm": 7.95,
+        "spread_bp": 390,
+        "net_leverage": 0.83,
+        "ebitda": 480.0,
+        "fcf": -127.7,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / Ba3",
         "price": 102.0,
         "ytm": 7.95,
@@ -65016,7 +65978,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SONANG",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -65234,6 +66196,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / B3",
+        "price": 97.2,
+        "ytm": 9.15,
+        "spread_bp": 475,
+        "net_leverage": 1.29,
+        "ebitda": 4800.0,
+        "fcf": 586.8,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / B3",
         "price": 97.2,
         "ytm": 9.15,
@@ -65941,7 +66916,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/STANBI",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -66159,6 +67134,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Ba2 / BB-",
+        "price": 98.0,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Ba2 / BB-",
         "price": 98.0,
         "ytm": 6.85,
@@ -66817,7 +67805,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "15:30 Riyadh / 12:30 UK",
       "ir_webcast_url": "https://www.stc.com.sa/content/stc/sa/en/investor-relations.html",
-      "days_to_earnings": 31
+      "days_to_earnings": 27
     },
     "management_questions": [
       {
@@ -67028,6 +68016,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A+",
+        "price": 97.5,
+        "ytm": 4.85,
+        "spread_bp": 80,
+        "net_leverage": 0.65,
+        "ebitda": 7200,
+        "fcf": 1649.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A+",
         "price": 97.5,
         "ytm": 4.85,
@@ -67684,7 +68685,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "13:00 Abu Dhabi",
       "ir_webcast_url": "https://www.taqa.com/investors/",
-      "days_to_earnings": 45
+      "days_to_earnings": 41
     },
     "management_questions": [
       {
@@ -67902,6 +68903,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Aa3 / AA-",
+        "price": 98.5,
+        "ytm": 4.9,
+        "spread_bp": 85,
+        "net_leverage": 1.85,
+        "ebitda": 5600.0,
+        "fcf": -1321.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Aa3 / AA-",
         "price": 98.5,
         "ytm": 4.9,
@@ -68557,7 +69571,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/THARISA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -68775,6 +69789,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.0,
+        "ytm": 9.85,
+        "spread_bp": 550,
+        "net_leverage": 0.38,
+        "ebitda": 185.0,
+        "fcf": 9.7,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / Ba3 Implied",
         "price": 98.0,
         "ytm": 9.85,
@@ -69445,7 +70472,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://investor.turkishairlines.com/en",
-      "days_to_earnings": 39
+      "days_to_earnings": 35
     },
     "management_questions": [
       {
@@ -69663,6 +70690,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / BB-",
+        "price": 99.2,
+        "ytm": 7.45,
+        "spread_bp": 340,
+        "net_leverage": 1.95,
+        "ebitda": 4400.0,
+        "fcf": -9.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / BB-",
         "price": 99.2,
         "ytm": 7.45,
@@ -70319,7 +71359,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
-      "days_to_earnings": 46
+      "days_to_earnings": 42
     },
     "management_questions": [
       {
@@ -70530,6 +71570,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB / BB-",
+        "price": 99.8,
+        "ytm": 7.15,
+        "spread_bp": 310,
+        "net_leverage": 1.45,
+        "ebitda": 1350.0,
+        "fcf": 127.3,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB / BB-",
         "price": 99.8,
         "ytm": 7.15,
@@ -71201,7 +72254,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "08:30 London",
       "ir_webcast_url": "https://www.tullowoil.com/investors/",
-      "days_to_earnings": 47
+      "days_to_earnings": 43
     },
     "management_questions": [
       {
@@ -71419,6 +72472,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / Caa1",
+        "price": 86.5,
+        "ytm": 13.8,
+        "spread_bp": 945,
+        "net_leverage": 1.3,
+        "ebitda": 1093.7,
+        "fcf": 152.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / Caa1",
         "price": 86.5,
         "ytm": 13.8,
@@ -72184,7 +73250,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -72402,6 +73468,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB / BB-",
+        "price": 99.5,
+        "ytm": 7.2,
+        "spread_bp": 315,
+        "net_leverage": 0.75,
+        "ebitda": 1800.0,
+        "fcf": -179.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB / BB-",
         "price": 99.5,
         "ytm": 7.2,
@@ -73109,7 +74188,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EXCRTU",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -73327,6 +74406,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.8,
         "ytm": 6.75,
@@ -73985,7 +75077,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "18:30 Istanbul / 15:30 UK",
       "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -74196,6 +75288,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB / BB-",
+        "price": 96.8,
+        "ytm": 6.95,
+        "spread_bp": 290,
+        "net_leverage": 1.15,
+        "ebitda": 1750,
+        "fcf": 244.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB / BB-",
         "price": 96.8,
         "ytm": 6.95,
@@ -74881,7 +75986,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Kyiv / 12:00 UK",
       "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
-      "days_to_earnings": 56
+      "days_to_earnings": 52
     },
     "management_questions": [
       {
@@ -75099,6 +76204,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "CCC / Caa3",
+        "price": 64.0,
+        "ytm": 19.25,
+        "spread_bp": 1485,
+        "net_leverage": 3.86,
+        "ebitda": 380.0,
+        "fcf": -98.3,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "CCC / Caa3",
         "price": 64.0,
         "ytm": 19.25,
@@ -75788,7 +76906,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
-      "days_to_earnings": 42
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -76006,6 +77124,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.2,
+        "ytm": 6.95,
+        "spread_bp": 235,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.2,
         "ytm": 6.95,
@@ -76695,7 +77826,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.yapikrediinvestorrelations.com",
-      "days_to_earnings": 34
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -76913,6 +78044,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.4,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.4,
         "ytm": 6.75,
@@ -78147,7 +79291,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul (Post-Market)",
       "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-      "days_to_earnings": 42
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -78372,6 +79516,19 @@ const MASTER_ISSUERS = [
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / CCC+",
+        "price": 63.5,
+        "ytm": 27.2,
+        "spread_bp": 2250,
+        "net_leverage": 3.62,
+        "ebitda": 320.0,
+        "fcf": -198.1,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / CCC+",
         "price": 63.5,
         "ytm": 27.2,
@@ -81540,7 +82697,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Riyadh / 12:00 UK",
       "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
-      "days_to_earnings": 39
+      "days_to_earnings": 35
     },
     "management_questions": [
       {
@@ -81758,6 +82915,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Baa2 / BBB",
+        "price": 96.5,
+        "ytm": 6.45,
+        "spread_bp": 235,
+        "net_leverage": 3.85,
+        "ebitda": 920.0,
+        "fcf": -1205.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Baa2 / BBB",
         "price": 96.5,
         "ytm": 6.45,
@@ -82447,7 +83617,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADCBUH",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -82665,6 +83835,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A",
+        "price": 99.8,
+        "ytm": 5.05,
+        "spread_bp": 85,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A",
         "price": 99.8,
         "ytm": 5.05,
@@ -83321,7 +84504,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADMELE",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -83539,6 +84722,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 98.0,
+        "ytm": 9.25,
+        "spread_bp": 485,
+        "net_leverage": 2.62,
+        "ebitda": 145.0,
+        "fcf": -56.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 98.0,
         "ytm": 9.25,
@@ -84120,7 +85316,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -84331,6 +85527,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / B3",
+        "price": 103.24,
+        "ytm": 9.26,
+        "spread_bp": 452,
+        "net_leverage": 6.08,
+        "ebitda": 79.5,
+        "fcf": -33.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / B3",
         "price": 103.24,
         "ytm": 9.26,
@@ -84677,7 +85886,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AIRGLO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "market_history": [
       {
@@ -84723,6 +85932,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 100.0,
+        "ytm": 7.5,
+        "spread_bp": 385,
+        "net_leverage": 2.19,
+        "ebitda": 130.0,
+        "fcf": 134.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 100.0,
         "ytm": 7.5,
@@ -85327,7 +86549,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.akbankinvestorrelations.com",
-      "days_to_earnings": 32
+      "days_to_earnings": 28
     },
     "management_questions": [
       {
@@ -85545,6 +86767,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 100.2,
+        "ytm": 6.45,
+        "spread_bp": 185,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 100.2,
         "ytm": 6.45,
@@ -86205,7 +87440,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Abu Dhabi / 10:00 UK",
       "ir_webcast_url": "https://www.aldar.com/en/investor-relations",
-      "days_to_earnings": 34
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -86416,6 +87651,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / Baa2",
+        "price": 100.1,
+        "ytm": 5.25,
+        "spread_bp": 105,
+        "net_leverage": 0.51,
+        "ebitda": 1550.0,
+        "fcf": -185.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / Baa2",
         "price": 100.1,
         "ytm": 5.25,
@@ -87080,7 +88328,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://arada.com/en/investor-relations/",
-      "days_to_earnings": 54
+      "days_to_earnings": 50
     },
     "management_questions": [
       {
@@ -87299,6 +88547,19 @@ window.CEMBI_DATA = {
         "ebitda": 414.0,
         "fcf": -185.0,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
+        "rating": "B+ / B1",
+        "price": 99.66,
+        "ytm": 8.13,
+        "spread_bp": 329,
+        "net_leverage": 2.74,
+        "ebitda": 414.0,
+        "fcf": -185.0,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -87393,7 +88654,7 @@ window.CEMBI_DATA = {
         "source": "J.P. Morgan EM Credit Conference (15-17 Sep 2026)",
         "status": "Enriched Research Note (Strict 2-Column Tables)",
         "summary": "Following early signs of market softening in February 2026, Arada's leadership immediately instituted a conservative capital allocation strategy: deferring non-committed capex, halting discretionary land purchases, deferring dividend payments, and prioritizing balance sheet liquidity.",
-        "details": "# Arada Developments — Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (CFO / Treasury) | Issuer Profile: Sharjah and Dubai master real estate developer, backed by Sharjah ruling family and Prince Khaled bin Alwaleed. Bond Silo: ARADA Sukuk (ARADA 8.000% 2029, $500m o/s). Ratings: Fitch BB- / Moody's Ba3.\n\n---\n\n### Key Points\n\n* **Proactive cash conservation posture**: Following early signs of market softening in February 2026, Arada's leadership immediately instituted a conservative capital allocation strategy: deferring non-committed capex, halting discretionary land purchases, deferring dividend payments, and prioritizing balance sheet liquidity.\n* **Robust liquidity buffer**: Ended H1 2026 with $963m in total cash, comprising $340m in project escrow accounts (primarily dedicated to Dubai construction milestones) and $620m in unrestricted cash. Historical treasury policy strictly mandates closing each financial year with $1.0bn+ in cash.\n* **High pre-sales and escrow funding match**: Active projects under construction maintain an average pre-sold inventory of 65%. Construction costs are fully matched against existing escrow cash and contractually committed installment receivables, eliminating speculative cash burn.\n* **Sharjah stronghold vs Dubai diversification**: Maintains dominant master-developer positioning in Sharjah across flagship communities: Masaar (AED 9.5bn / $2.6bn GDV, 3,000 villas across 7 gated districts, 100% sold out across first 5 phases) and Aljada (AED 25bn / $6.8bn GDV, 24m sq ft mega-development), while selectively expanding into ultra-prime Dubai segments (Armani Beach Residences on Palm Jumeirah, 53 bespoke units designed by Tadao Ando achieving >AED 10,000/sq ft, and Jouri Hills in Jumeirah Golf Estates).\n* **Contractor cost management**: Construction cost inflation is neutralized through fixed-price turnkey EPC contracts with tier-one contractors, with selective project phasing adopted to protect gross profit margins.\n* **Sukuk debt structure**: Capital structure anchored by the $500m ARADA 8.000% 2029 Sukuk (ISIN: XS2751473211, tapped for $100m in May-2024 at 7.85%); comfortable leverage ratios with net debt to equity well within bank covenant limits and zero significant near-term bond maturities.\n\n### Takeaways\n\n**Immediate transition to capital preservation mode.**  \nArada's executive committee responded swiftly to broader regional property cooling signals in early 2026 by shifting from aggressive expansion to cash preservation. Management placed an immediate hold on non-essential capital expenditure, paused uncommitted land acquisitions, deferred shareholder distributions, and instituted tight controls on overhead. This disciplined counter-cyclical posture ensures the developer operates with substantial liquidity buffers throughout any market adjustment.\n\n**Strong cash visibility and escrow ring-fencing.**  \nTotal cash stood at $963m at the close of H1 2026. Of this, $340m is segregated within legally mandated project escrow accounts (governed by RERA in Dubai and Sharjah real estate authorities), perfectly matching upcoming construction payables. The remaining $620m is fully unencumbered corporate cash held across top UAE financial institutions, providing robust protection against potential collection slowdowns.\n\n**De-risked construction and sales backlog.**  \nAcross Arada's active development pipeline, 65% of residential inventory is pre-sold. In Dubai, off-plan payment structures are heavily front-loaded (typically 60–70% collected during construction and 30–40% on handover), ensuring that project cash inflows precede contractor outflows. Even in a severe stress scenario assuming zero new project launches for the next 12 months, rolling 24-month cash flow models indicate no funding deficit.\n\n**Geographic resilience: Sharjah anchor with selective Dubai prime.**  \nArada benefits from structural differentiation: unlike pure Dubai developers exposed to volatile speculative demand, Arada's core master communities in Sharjah (Aljada, Masaar) cater to genuine end-user residential demand with limited local competition. Masaar's 3,000 wooded villas have seen extraordinary delivery velocity with over 4,000 units across Sharjah handed over or in final inspection. Its Dubai projects are targeted at high-margin, super-prime branded residences (e.g. Armani Beach Residences on Palm Jumeirah), where buyers are less sensitive to mortgage rate fluctuations.\n\n**Debt structure and Sukuk covenants.**  \nThe balance sheet is funded by a conservative blend of equity, accumulated retained earnings, and long-term capital markets debt via its $500m 8.000% 2029 Sukuk. The business carries modest corporate bank debt, relying instead on project-level milestone financing and escrow self-funding. Covenant headroom remains extensive, with net leverage running below 2.0x.\n\n\n### Guidance — Arada\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **Sales Run-Rate** | Moderating from peak 2024–2025 velocity; annual sales targeted around $2.0–2.2bn, driven by phased delivery of Masaar and Aljada phases. |\n| **Revenue & Backlog** | Multi-year revenue backlog exceeding $4.5bn provides clear earnings visibility through 2028. |\n| **Gross Margin** | Targeted at 32–35%, supported by low historical land acquisition costs in Sharjah and branded pricing premiums in Dubai. |\n| **Capex & Land Outlays** | Discretionary land acquisition capex halted; construction spend strictly phased against escrow receivables. |\n| **Treasury Cash Target** | Year-end cash target maintained at $1.0bn+ (H1-26 actual $963m, of which $620m unrestricted corporate cash). |\n| **Net Leverage Ceiling** | Net debt to equity maintained below 35–40% ceiling (bank covenant limit). |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Sukuk** | ARADA 8.000% due 2029 (ISIN: XS2751473211) — $500m o/s ($400m issued Feb-2024 + $100m tap at 7.85%); rated BB- (Fitch) / Ba3 (Moody's). |\n| **Bank Facilities** | Bilateral project lines with leading UAE banks (Emirates NBD, Dubai Islamic Bank, ADCB) utilized for project construction guarantees. |\n| **Liquidity Position** | $963m total cash as of 30-Jun-2026 ($620m unrestricted corporate cash, $340m in regulated escrow accounts). |\n| **Debt Maturity Profile** | No major public debt maturities until the 2029 Sukuk; corporate liquidity fully covers outstanding bond debt. |\n\n### Watch Items\n\n* H2-26 and FY26 collection rates on Dubai off-plan receivables.\n* Full-year cash balance print (verifying compliance with the $1.0bn+ treasury target).\n* Handover milestones and escrow cash releases at Aljada and Masaar communities.\n* Contractor delivery pace and potential supply chain bottlenecks in the UAE building materials sector.\n* New project launch cadence and pre-sale absorption rates in Dubai.\n\n### In Our View\n\nArada is managing the real estate cycle with exemplary institutional discipline. While many regional developers accelerated speculative launches into the 2024–2025 market peak, Arada's management proactively pulled back in early 2026—cutting discretionary capex, pausing land purchases, deferring dividends, and amassing a near-$1bn cash fortress ($620m unrestricted). This conservative posture drastically reduces default risk for bondholders.\n\nThe ARADA 8.000% 2029 Sukuk represents one of the highest-quality high-yield paper names in the GCC. With unrestricted cash alone covering the entire $500m Sukuk issuance and active projects 65% pre-sold with matched escrow funding, the credit provides an exceptional risk-adjusted yield (~7.8–8.1%). We view Arada as an anchor Overweight allocation within GCC real estate, supported by unbeatable royal sponsor backing and structural dominance in the Sharjah end-user market.\n\n\n---\n"
+        "details": "# Arada Developments — Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (CFO / Treasury) | Issuer Profile: Sharjah and Dubai master real estate developer, backed by Sharjah ruling family and Prince Khaled bin Alwaleed. Bond Silo: ARADA Sukuk (ARADA 8.000% 2029, $500m o/s). Ratings: Fitch BB- / Moody's Ba3.\n\n---\n\n### Key Points\n\n* **Proactive cash conservation posture**: Following early signs of market softening in February 2026, Arada's leadership immediately instituted a conservative capital allocation strategy: deferring non-committed capex, halting discretionary land purchases, deferring dividend payments, and prioritizing balance sheet liquidity.\n* **Robust liquidity buffer**: Ended H1 2026 with $963m in total cash, comprising $340m in project escrow accounts (primarily dedicated to Dubai construction milestones) and $620m in unrestricted cash. Historical treasury policy strictly mandates closing each financial year with $1.0bn+ in cash.\n* **High pre-sales and escrow funding match**: Active projects under construction maintain an average pre-sold inventory of 65%. Construction costs are fully matched against existing escrow cash and contractually committed installment receivables, eliminating speculative cash burn.\n* **Sharjah stronghold vs Dubai diversification**: Maintains dominant master-developer positioning in Sharjah across flagship communities: Masaar (AED 9.5bn / $2.6bn GDV, 3,000 villas across 7 gated districts, 100% sold out across first 5 phases) and Aljada (AED 25bn / $6.8bn GDV, 24m sq ft mega-development), while selectively expanding into ultra-prime Dubai segments (Armani Beach Residences on Palm Jumeirah, 53 bespoke units designed by Tadao Ando achieving >AED 10,000/sq ft, and Jouri Hills in Jumeirah Golf Estates).\n* **Contractor cost management**: Construction cost inflation is neutralized through fixed-price turnkey EPC contracts with tier-one contractors, with selective project phasing adopted to protect gross profit margins.\n* **Sukuk debt structure**: Capital structure anchored by the $500m ARADA 8.000% 2029 Sukuk (ISIN: XS2751473211, tapped for $100m in May-2024 at 7.85%); comfortable leverage ratios with net debt to equity well within bank covenant limits and zero significant near-term bond maturities.\n\n### Takeaways\n\n**Immediate transition to capital preservation mode.**  \nArada's executive committee responded swiftly to broader regional property cooling signals in early 2026 by shifting from aggressive expansion to cash preservation. Management placed an immediate hold on non-essential capital expenditure, paused uncommitted land acquisitions, deferred shareholder distributions, and instituted tight controls on overhead. This disciplined counter-cyclical posture ensures the developer operates with substantial liquidity buffers throughout any market adjustment.\n\n**Strong cash visibility and escrow ring-fencing.**  \nTotal cash stood at $963m at the close of H1 2026. Of this, $340m is segregated within legally mandated project escrow accounts (governed by RERA in Dubai and Sharjah real estate authorities), perfectly matching upcoming construction payables. The remaining $620m is fully unencumbered corporate cash held across top UAE financial institutions, providing robust protection against potential collection slowdowns.\n\n**De-risked construction and sales backlog.**  \nAcross Arada's active development pipeline, 65% of residential inventory is pre-sold. In Dubai, off-plan payment structures are heavily front-loaded (typically 60–70% collected during construction and 30–40% on handover), ensuring that project cash inflows precede contractor outflows. Even in a severe stress scenario assuming zero new project launches for the next 12 months, rolling 24-month cash flow models indicate no funding deficit.\n\n**Geographic resilience: Sharjah anchor with selective Dubai prime.**  \nArada benefits from structural differentiation: unlike pure Dubai developers exposed to volatile speculative demand, Arada's core master communities in Sharjah (Aljada, Masaar) cater to genuine end-user residential demand with limited local competition. Masaar's 3,000 wooded villas have seen extraordinary delivery velocity with over 4,000 units across Sharjah handed over or in final inspection. Its Dubai projects are targeted at high-margin, super-prime branded residences (e.g. Armani Beach Residences on Palm Jumeirah), where buyers are less sensitive to mortgage rate fluctuations.\n\n**Debt structure and Sukuk covenants.**  \nThe balance sheet is funded by a conservative blend of equity, accumulated retained earnings, and long-term capital markets debt via its $500m 8.000% 2029 Sukuk. The business carries modest corporate bank debt, relying instead on project-level milestone financing and escrow self-funding. Covenant headroom remains extensive, with net leverage running below 2.0x.\n\n\n### Guidance — Arada\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **Sales Run-Rate** | Moderating from peak 2024–2025 velocity; annual sales targeted around $2.0–2.2bn, driven by phased delivery of Masaar and Aljada phases. |\n| **Revenue & Backlog** | Multi-year revenue backlog exceeding $4.5bn provides clear earnings visibility through 2028. |\n| **Gross Margin** | Targeted at 32–35%, supported by low historical land acquisition costs in Sharjah and branded pricing premiums in Dubai. |\n| **Capex & Land Outlays** | Discretionary land acquisition capex halted; construction spend strictly phased against escrow receivables. |\n| **Treasury Cash Target** | Year-end cash target maintained at $1.0bn+ (H1-26 actual $963m, of which $620m unrestricted corporate cash). |\n| **Net Leverage Ceiling** | Net debt to equity maintained below 35–40% ceiling (bank covenant limit). |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Sukuk** | ARADA 8.000% due 2029 (ISIN: XS2751473211) — $500m o/s ($400m issued Feb-2024 + $100m tap at 7.85%); rated BB- (Fitch) / Ba3 (Moody's). |\n| **Bank Facilities** | Bilateral project lines with leading UAE banks (Emirates NBD, Dubai Islamic Bank, ADCB) utilized for project construction guarantees. |\n| **Liquidity Position** | $963m total cash as of 30-Jun-2026 ($620m unrestricted corporate cash, $340m in regulated escrow accounts). |\n| **Debt Maturity Profile** | No major public debt maturities until the 2029 Sukuk; corporate liquidity fully covers outstanding bond debt. |\n\n### Watch Items\n\n* H2-26 and FY26 collection rates on Dubai off-plan receivables.\n* Full-year cash balance print (verifying compliance with the $1.0bn+ treasury target).\n* Handover milestones and escrow cash releases at Aljada and Masaar communities.\n* Contractor delivery pace and potential supply chain bottlenecks in the UAE building materials sector.\n* New project launch cadence and pre-sale absorption rates in Dubai.\n\n### In Our View\n\nArada is managing the real estate cycle with exemplary institutional discipline. While many regional developers accelerated speculative launches into the 2024–2025 market peak, Arada's management proactively pulled back in early 2026—cutting discretionary capex, pausing land purchases, deferring dividends, and amassing a near-$1bn cash position ($620m unrestricted). This conservative posture drastically reduces default risk for bondholders.\n\nThe ARADA 8.000% 2029 Sukuk represents one of the highest-quality high-yield paper names in the GCC. With unrestricted cash alone covering the entire $500m Sukuk issuance and active projects 65% pre-sold with matched escrow funding, the credit provides an exceptional risk-adjusted yield (~7.8–8.1%). We view Arada as an anchor Overweight allocation within GCC real estate, supported by unbeatable royal sponsor backing and structural dominance in the Sharjah end-user market.\n\n\n---\n"
       }
     ]
   },
@@ -88190,7 +89451,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -88408,6 +89669,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B-",
+        "price": 89.0,
+        "ytm": 12.15,
+        "spread_bp": 780,
+        "net_leverage": 2.63,
+        "ebitda": 160.0,
+        "fcf": -15.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B-",
         "price": 89.0,
         "ytm": 12.15,
@@ -89137,7 +90411,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:30 Istanbul",
       "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-      "days_to_earnings": 45
+      "days_to_earnings": 41
     },
     "management_questions": [
       {
@@ -89355,6 +90629,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B3",
+        "price": 96.5,
+        "ytm": 8.95,
+        "spread_bp": 455,
+        "net_leverage": 4.11,
+        "ebitda": 190.0,
+        "fcf": -82.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B3",
         "price": 96.5,
         "ytm": 8.95,
@@ -90012,7 +91299,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -90230,6 +91517,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / Ba3",
+        "price": 98.5,
+        "ytm": 8.45,
+        "spread_bp": 410,
+        "net_leverage": 1.58,
+        "ebitda": 2250.0,
+        "fcf": 376.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / Ba3",
         "price": 98.5,
         "ytm": 8.45,
@@ -90905,7 +92205,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -91123,6 +92423,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B+",
+        "price": 101.8,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 3.4,
+        "ebitda": 1250.0,
+        "fcf": -222.1,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B+",
         "price": 101.8,
         "ytm": 6.85,
@@ -91812,7 +93125,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -92023,6 +93336,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B",
+        "price": 101.5,
+        "ytm": 8.85,
+        "spread_bp": 480,
+        "net_leverage": 0.89,
+        "ebitda": 380.0,
+        "fcf": -97.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B",
         "price": 101.5,
         "ytm": 8.85,
@@ -93136,7 +94462,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BRASKM",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "market_history": [
       {
@@ -93182,6 +94508,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "RD / D",
+        "price": 48.6,
+        "ytm": 19.8,
+        "spread_bp": 1580,
+        "net_leverage": 6.74,
+        "ebitda": 850.0,
+        "fcf": -480.0,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "RD / D",
         "price": 48.6,
         "ytm": 19.8,
@@ -93748,7 +95087,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CCOLA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -93966,6 +95305,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / BBB",
+        "price": 97.2,
+        "ytm": 5.35,
+        "spread_bp": 130,
+        "net_leverage": 1.05,
+        "ebitda": 720.0,
+        "fcf": 150.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / BBB",
         "price": 97.2,
         "ytm": 5.35,
@@ -94624,7 +95976,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "10:00 Prague / 09:00 UK",
       "ir_webcast_url": "https://www.cez.cz/en/investors",
-      "days_to_earnings": 46
+      "days_to_earnings": 42
     },
     "management_questions": [
       {
@@ -94842,6 +96194,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A- / A3",
+        "price": 99.8,
+        "ytm": 4.95,
+        "spread_bp": 90,
+        "net_leverage": 1.4,
+        "ebitda": 4200,
+        "fcf": -1083.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A- / A3",
         "price": 99.8,
         "ytm": 4.95,
@@ -95283,7 +96648,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CIMKOC",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -95339,6 +96704,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B3",
+        "price": 105.0,
+        "ytm": 8.6,
+        "spread_bp": 391,
+        "net_leverage": 1.8,
+        "ebitda": 165.0,
+        "fcf": 18.5,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B3",
         "price": 105.0,
         "ytm": 8.6,
@@ -95990,7 +97368,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://www.damacproperties.com/en/investor-relations/",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -96201,6 +97579,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / Ba3",
+        "price": 101.0,
+        "ytm": 7.25,
+        "spread_bp": 320,
+        "net_leverage": 0.29,
+        "ebitda": 680.0,
+        "fcf": -134.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / Ba3",
         "price": 101.0,
         "ytm": 7.25,
@@ -96856,7 +98247,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANFER",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -97074,6 +98465,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 96.0,
+        "ytm": 11.5,
+        "spread_bp": 715,
+        "net_leverage": 2.77,
+        "ebitda": 650.0,
+        "fcf": -14.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 96.0,
         "ytm": 11.5,
@@ -97760,7 +99164,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANREF",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -97978,6 +99382,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 95.0,
+        "ytm": 12.5,
+        "spread_bp": 815,
+        "net_leverage": 2.43,
+        "ebitda": 100.0,
+        "fcf": -735.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 95.0,
         "ytm": 12.5,
@@ -98656,7 +100073,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DARARK",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -98867,6 +100284,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / Ba3 / B+",
+        "price": 99.5,
+        "ytm": 8.15,
+        "spread_bp": 410,
+        "net_leverage": 3.47,
+        "ebitda": 360.0,
+        "fcf": -142.7,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / Ba3 / B+",
         "price": 99.5,
         "ytm": 8.15,
@@ -99556,7 +100986,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DIBUH",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -99774,6 +101204,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A3 / A",
+        "price": 99.7,
+        "ytm": 5.1,
+        "spread_bp": 90,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A3 / A",
         "price": 99.7,
         "ytm": 5.1,
@@ -100431,7 +101874,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai / 10:00 UK",
       "ir_webcast_url": "https://www.dpworld.com/investors",
-      "days_to_earnings": 62
+      "days_to_earnings": 58
     },
     "management_questions": [
       {
@@ -100649,6 +102092,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB+ / Baa2",
+        "price": 98,
+        "ytm": 5.35,
+        "spread_bp": 120,
+        "net_leverage": 3.23,
+        "ebitda": 5100,
+        "fcf": 347.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB+ / Baa2",
         "price": 98,
         "ytm": 5.35,
@@ -101307,7 +102763,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -101525,6 +102981,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "CCC / Caa3",
+        "price": 68.5,
+        "ytm": 18.5,
+        "spread_bp": 1410,
+        "net_leverage": 3.02,
+        "ebitda": 420.0,
+        "fcf": -100.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "CCC / Caa3",
         "price": 68.5,
         "ytm": 18.5,
@@ -102185,7 +103654,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-      "days_to_earnings": 47
+      "days_to_earnings": 43
     },
     "management_questions": [
       {
@@ -102396,6 +103865,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB / Baa2",
+        "price": 100.2,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": 100.0,
+        "ebitda": 3200.0,
+        "fcf": -240.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB / Baa2",
         "price": 100.2,
         "ytm": 5.15,
@@ -103056,7 +104538,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EKGYO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -103267,6 +104749,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- Local",
+        "price": 97.5,
+        "ytm": 10.5,
+        "spread_bp": 610,
+        "net_leverage": 0.49,
+        "ebitda": 350.0,
+        "fcf": -98.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- Local",
         "price": 97.5,
         "ytm": 10.5,
@@ -103956,7 +105451,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EMIRAT",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -104174,6 +105669,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A2 / A+",
+        "price": 100.25,
+        "ytm": 4.9,
+        "spread_bp": 70,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A2 / A+",
         "price": 100.25,
         "ytm": 4.9,
@@ -104829,7 +106337,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EQUATE",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -105047,6 +106555,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Baa2 / BBB",
+        "price": 98.2,
+        "ytm": 5.55,
+        "spread_bp": 150,
+        "net_leverage": 1.65,
+        "ebitda": 980.0,
+        "fcf": 38.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Baa2 / BBB",
         "price": 98.2,
         "ytm": 5.55,
@@ -105720,7 +107241,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.erdemir.com.tr/investor-relations/",
-      "days_to_earnings": 40
+      "days_to_earnings": 36
     },
     "management_questions": [
       {
@@ -105938,6 +107459,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 98.5,
+        "ytm": 7.95,
+        "spread_bp": 355,
+        "net_leverage": 2.12,
+        "ebitda": 850.0,
+        "fcf": -162.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 98.5,
         "ytm": 7.95,
@@ -106612,7 +108146,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "11:00 Johannesburg",
       "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
-      "days_to_earnings": 66
+      "days_to_earnings": 62
     },
     "management_questions": [
       {
@@ -106830,6 +108364,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B-",
+        "price": 99.0,
+        "ytm": 8.5,
+        "spread_bp": 445,
+        "net_leverage": 6.8,
+        "ebitda": 2200.0,
+        "fcf": -1991.7,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B-",
         "price": 99.0,
         "ytm": 8.5,
@@ -107519,7 +109066,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FABUH",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -107737,6 +109284,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Aa3 / AA-",
+        "price": 100.5,
+        "ytm": 4.85,
+        "spread_bp": 65,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Aa3 / AA-",
         "price": 100.5,
         "ytm": 4.85,
@@ -108426,7 +109986,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FIRSTR",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -108644,6 +110204,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Ba2 / BB-",
+        "price": 98.8,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Ba2 / BB-",
         "price": 98.8,
         "ytm": 6.75,
@@ -109333,7 +110906,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.garantibbvainvestorrelations.com",
-      "days_to_earnings": 33
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -109551,6 +111124,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.55,
+        "spread_bp": 195,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.8,
         "ytm": 6.55,
@@ -110207,7 +111793,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -110425,6 +112011,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 98.2,
+        "ytm": 9.1,
+        "spread_bp": 470,
+        "net_leverage": 2.62,
+        "ebitda": 195.0,
+        "fcf": -77.1,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 98.2,
         "ytm": 9.1,
@@ -110761,7 +112360,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GLNG",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "market_history": [
       {
@@ -110807,6 +112406,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B2 / B",
+        "price": 99.5,
+        "ytm": 7.85,
+        "spread_bp": 420,
+        "net_leverage": 6.4,
+        "ebitda": 241.0,
+        "fcf": -80.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B2 / B",
         "price": 99.5,
         "ytm": 7.85,
@@ -111379,7 +112991,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Johannesburg",
       "ir_webcast_url": "https://www.goldfields.com/investors.php",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -111597,6 +113209,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / Baa3",
+        "price": 100.2,
+        "ytm": 6.05,
+        "spread_bp": 200,
+        "net_leverage": 0.85,
+        "ebitda": 2100,
+        "fcf": 281.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / Baa3",
         "price": 100.2,
         "ytm": 6.05,
@@ -112304,7 +113929,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
-      "days_to_earnings": 45
+      "days_to_earnings": 41
     },
     "management_questions": [
       {
@@ -112522,6 +114147,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B3",
+        "price": 98.1,
+        "ytm": 7.35,
+        "spread_bp": 275,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B3",
         "price": 98.1,
         "ytm": 7.35,
@@ -113211,7 +114849,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HSBKK",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -113429,6 +115067,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Baa1 / BBB-",
+        "price": 99.0,
+        "ytm": 6.2,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Baa1 / BBB-",
         "price": 99.0,
         "ytm": 6.2,
@@ -114087,7 +115738,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HT",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -114298,6 +115949,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2",
+        "price": 94.25,
+        "ytm": 8.75,
+        "spread_bp": 440,
+        "net_leverage": 4.49,
+        "ebitda": 395.0,
+        "fcf": 15.0,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2",
         "price": 94.25,
         "ytm": 8.75,
@@ -114954,7 +116618,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HIDRO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -115172,6 +116836,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB-",
+        "price": 99.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 0.4,
+        "ebitda": 1550.0,
+        "fcf": -250.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB-",
         "price": 99.0,
         "ytm": 5.5,
@@ -115830,7 +117507,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:30 London / 09:30 EST",
       "ir_webcast_url": "https://www.ihstowers.com/investors",
-      "days_to_earnings": 53
+      "days_to_earnings": 49
     },
     "management_questions": [
       {
@@ -116041,6 +117718,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B2",
+        "price": 91.5,
+        "ytm": 10.25,
+        "spread_bp": 590,
+        "net_leverage": 3.16,
+        "ebitda": 1120,
+        "fcf": 8.6,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B2",
         "price": 91.5,
         "ytm": 10.25,
@@ -116730,7 +118420,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.isbank.com.tr/en/investor-relations",
-      "days_to_earnings": 36
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -116948,6 +118638,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 225,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.5,
         "ytm": 6.85,
@@ -117599,7 +119302,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ITTIHAD",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -117825,6 +119528,19 @@ window.CEMBI_DATA = {
         "ebitda": 195.0,
         "fcf": -16.6,
         "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
+        "rating": "B+ / B1",
+        "price": 98.5,
+        "ytm": 9.1,
+        "spread_bp": 505,
+        "net_leverage": 2.41,
+        "ebitda": 195.0,
+        "fcf": -16.6,
+        "guidance_status": "Ahead of Target"
       }
     ],
     "broker_snapshots": [
@@ -117919,7 +119635,7 @@ window.CEMBI_DATA = {
         "source": "J.P. Morgan EM Credit Conference (15-17 Sep 2026)",
         "status": "Enriched Research Note (Strict 2-Column Tables)",
         "summary": "Closure and shipping disruptions across the Strait of Hormuz prompted Ittihad to rapidly activate alternative logistics corridors through Fujairah, Dibba, and Jebel Ali, maintaining uninterrupted raw material imports (pulp, copper cathode) and product exports to Egypt, Saudi Arabia, and Jordan.",
-        "details": "# Ittihad International — Management Meeting, EM Investor Conference (16-Sep-2026)\n\n**Metadata**: Date: 16-Sep-2026 | Format: Group credit-investor meeting (CFO / Senior Leadership) | Issuer Profile: Abu Dhabi diversified industrial manufacturing conglomerate (paper, tissue, copper rods, chemicals, building materials). Bond Silo: ITTIHD 8.500% 2028 senior notes ($350m o/s). Ratings: Fitch B+ / S&P B+.\n\n---\n\n### Key Points\n\n* **Operational resilience during Hormuz disruption**: Closure and shipping disruptions across the Strait of Hormuz prompted Ittihad to rapidly activate alternative logistics corridors through Fujairah, Dibba, and Jebel Ali, maintaining uninterrupted raw material imports (pulp, copper cathode) and product exports to Egypt, Saudi Arabia, and Jordan.\n* **Industrial footprint & core capacities**: Operates dominant manufacturing market shares via Crown Paper Mill (100,000 MT/yr tissue jumbo rolls across Abu Dhabi and Ajman), Ittihad Paper Mill in ICAD II Abu Dhabi (320,000 MT/yr woodfree uncoated printing and writing paper, the largest in MENA), and Union Copper Rod (175,000 MT/yr copper rod facility operating on tolling margins).\n* **Pricing power & margin expansion**: Counterintuitively, EBITDA margins improved during the geopolitical crisis. While Ittihad incurred higher logistics costs, competing imported finished goods (notably Asian tissue and printing paper) were completely blocked by maritime disruptions, enabling Ittihad to implement full cost pass-throughs and gain substantial market share.\n* **Bulk shipping cost advantage**: Ittihad's strategic shift toward importing raw materials via chartered bulk break-bulk vessels rather than containerised freight gave it a massive structural freight cost advantage over competitors who were stranded by sky-high container rates.\n* **Healthy cash conversion cycle**: Cash conversion cycle remained stable at 23 days across H1 2026, fully in line with historical 2023–2025 performance. First-half working capital outflows were driven by strategic bulk raw material pre-purchases and inventory timing rather than structural cash burn.\n* **Capital structure & Sukuk headroom**: Leverage remains well contained under 3.0x net debt/EBITDA (targeted 2.5x–2.8x at year-end); comfortable liquidity supported by strong relationship banking lines across Abu Dhabi and the $350m ITTIHD 8.500% 2028 notes.\n\n### Takeaways\n\n**Logistical agility bypasses Strait of Hormuz choke points.**  \nWhen maritime security risks escalated in the Strait of Hormuz, Ittihad redirected its logistics architecture within days. Raw pulp for Crown Paper Mill (100k MT capacity) and Ittihad Paper Mill (320k MT capacity), alongside copper cathodes for Union Copper Rod (175k MT capacity), were rerouted to East Coast ports (Fujairah, Dibba) and cross-trucked inland. Export shipments of finished tissue rolls and paper reels to high-demand GCC and regional markets (Saudi Arabia, Jordan, Egypt) were shifted to overland trucking and specialized feeder vessels, avoiding port congestion.\n\n**Supply disruption creates domestic pricing moat and margin gains.**  \nThe disruption of regional container shipping severely curtailed imports of finished consumer tissue and office paper from China, Indonesia, and India. With local distributors facing empty shelves, Ittihad exercised strong pricing power. All incremental transport surcharges and energy tariffs were passed directly into wholesale pricing, allowing operating EBITDA margins in the consumer goods and paper divisions to widen year-over-year.\n\n**Bulk raw material logistics delivers structural cost arbitrage.**  \nManagement highlighted that importing bulk commodities (pulp, scrap, copper) in full-vessel charter shipments insulated the group from the container freight rate spikes that hobbled smaller regional converters. While bulk shipments cause periodic lumpy working capital outflows upon cargo arrivals, the unit freight cost savings more than compensate for the temporary inventory build.\n\n**Working capital seasonality and cash conversion stability.**  \nThe reported negative change in working capital during H1 2026 was directly tied to the strategic pre-stocking of critical raw materials ahead of anticipated logistics bottlenecks. Management reiterated that the core cash conversion cycle remains tightly disciplined at 23 days. Receivables aging is healthy, backed by credit insurance and sovereign/corporate offtake contracts across the UAE and Saudi Arabia.\n\n**Capital structure discipline and banking support.**  \nIttihad continues to operate with modest leverage relative to its industrial asset base. The $350m 8.500% 2028 senior notes are well covered by domestic operating cash flow and undrawn bilateral lines with Abu Dhabi government-linked banks, reflecting Ittihad's status as a core domestic industrial champion under the UAE's 'Operation 300bn' industrial strategy.\n\n\n### Guidance — Ittihad\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **EBITDA Trajectory** | FY26 EBITDA guided to grow moderately over FY25, driven by market share expansion in paper/tissue and full freight cost pass-throughs. |\n| **Revenue Dynamics** | Top line supported by firm paper prices and higher nominal copper prices, though copper gross profit is purely conversion-fee driven. |\n| **Capex Budget** | Growth capex normalized following recent tissue mill expansions; FY26 capex primarily maintenance and debottlenecking ($40–50m). |\n| **Working Capital Cycle** | Cash conversion cycle guided to remain within historical 20–25 days range (23 days actual H1-26); H2 working capital release expected. |\n| **Cash Taxes & Interest** | Minimal cash tax exposure under UAE corporate tax regime with industrial exemptions; cash interest ~$30m/yr ($350m @ 8.50%). |\n| **Net Leverage Target** | Targeting net debt / EBITDA between 2.5x and 2.8x at year-end (comfortably within covenant ceilings). |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Eurobond** | ITTIHD 8.500% due Nov-2028 (ISIN: XS2680456766) — $350m o/s; rated B+ (Fitch / S&P); trading near par (~8.30% YTM). |\n| **Bank Facilities & Lines** | Over $200m in committed revolving working capital and trade finance lines across First Abu Dhabi Bank (FAB), ADCB, and Mashreq. |\n| **Debt Structure** | Long-term bond debt represents majority of funded debt; bank debt utilized strictly for self-liquidating trade finance and LC discounting. |\n| **Maturity Runway** | Zero debt maturities in 2026–2027; next refinancing focus is the November 2028 bond maturity. |\n\n### Watch Items\n\n* H2-26 working capital unwind and inventory cash conversion prints.\n* Shipping lane normalization around Hormuz and the impact on competing Asian imports.\n* Global wood pulp benchmark price trajectory (NBSK and BHKP pricing).\n* Execution of domestic paper supply contracts across GCC export markets.\n* Maintenance of net leverage below the 3.0x threshold.\n\n### In Our View\n\nIttihad has proven its operational mettle by transforming an acute geopolitical logistics shock into a commercial triumph. The management team's rapid mobilization of alternative logistics through Fujairah and Jebel Ali—coupled with bulk freight procurement—enabled the company to steal market share while competing imported goods were stranded. The resulting pricing power drove EBITDA margin expansion, dispelling investor fears regarding raw material cost inflation.\n\nThe ITTIHD 8.500% 2028 notes (yielding ~8.30%) offer solid, defensive industrial carry. The business generates high-quality cash flow across essential non-discretionary product lines (tissue, packaging, basic industrial copper), supported by deep banking relationships in Abu Dhabi. With working capital set to normalize in H2 and no debt maturities until late 2028, we view Ittihad as a steady, reliable high-yield credit and maintain an Overweight recommendation.\n\n\n---\n"
+        "details": "# Ittihad International — Management Meeting, EM Investor Conference (16-Sep-2026)\n\n**Metadata**: Date: 16-Sep-2026 | Format: Group credit-investor meeting (CFO / Senior Leadership) | Issuer Profile: Abu Dhabi diversified industrial manufacturing conglomerate (paper, tissue, copper rods, chemicals, building materials). Bond Silo: ITTIHD 8.500% 2028 senior notes ($350m o/s). Ratings: Fitch B+ / S&P B+.\n\n---\n\n### Key Points\n\n* **Operational resilience during Hormuz disruption**: Closure and shipping disruptions across the Strait of Hormuz prompted Ittihad to rapidly activate alternative logistics corridors through Fujairah, Dibba, and Jebel Ali, maintaining uninterrupted raw material imports (pulp, copper cathode) and product exports to Egypt, Saudi Arabia, and Jordan.\n* **Industrial footprint & core capacities**: Operates dominant manufacturing market shares via Crown Paper Mill (100,000 MT/yr tissue jumbo rolls across Abu Dhabi and Ajman), Ittihad Paper Mill in ICAD II Abu Dhabi (320,000 MT/yr woodfree uncoated printing and writing paper, the largest in MENA), and Union Copper Rod (175,000 MT/yr copper rod facility operating on tolling margins).\n* **Pricing power & margin expansion**: Counterintuitively, EBITDA margins improved during the geopolitical crisis. While Ittihad incurred higher logistics costs, competing imported finished goods (notably Asian tissue and printing paper) were completely blocked by maritime disruptions, enabling Ittihad to implement full cost pass-throughs and gain substantial market share.\n* **Bulk shipping cost advantage**: Ittihad's strategic shift toward importing raw materials via chartered bulk break-bulk vessels rather than containerised freight gave it a massive structural freight cost advantage over competitors who were stranded by elevated container rates.\n* **Healthy cash conversion cycle**: Cash conversion cycle remained stable at 23 days across H1 2026, fully in line with historical 2023–2025 performance. First-half working capital outflows were driven by strategic bulk raw material pre-purchases and inventory timing rather than structural cash burn.\n* **Capital structure & Sukuk headroom**: Leverage remains well contained under 3.0x net debt/EBITDA (targeted 2.5x–2.8x at year-end); comfortable liquidity supported by strong relationship banking lines across Abu Dhabi and the $350m ITTIHD 8.500% 2028 notes.\n\n### Takeaways\n\n**Logistical agility bypasses Strait of Hormuz choke points.**  \nWhen maritime security risks escalated in the Strait of Hormuz, Ittihad redirected its logistics architecture within days. Raw pulp for Crown Paper Mill (100k MT capacity) and Ittihad Paper Mill (320k MT capacity), alongside copper cathodes for Union Copper Rod (175k MT capacity), were rerouted to East Coast ports (Fujairah, Dibba) and cross-trucked inland. Export shipments of finished tissue rolls and paper reels to high-demand GCC and regional markets (Saudi Arabia, Jordan, Egypt) were shifted to overland trucking and specialized feeder vessels, avoiding port congestion.\n\n**Supply disruption creates domestic pricing moat and margin gains.**  \nThe disruption of regional container shipping severely curtailed imports of finished consumer tissue and office paper from China, Indonesia, and India. With local distributors facing empty shelves, Ittihad exercised strong pricing power. All incremental transport surcharges and energy tariffs were passed directly into wholesale pricing, allowing operating EBITDA margins in the consumer goods and paper divisions to widen year-over-year.\n\n**Bulk raw material logistics delivers structural cost arbitrage.**  \nManagement highlighted that importing bulk commodities (pulp, scrap, copper) in full-vessel charter shipments insulated the group from the container freight rate spikes that hobbled smaller regional converters. While bulk shipments cause periodic lumpy working capital outflows upon cargo arrivals, the unit freight cost savings more than compensate for the temporary inventory build.\n\n**Working capital seasonality and cash conversion stability.**  \nThe reported negative change in working capital during H1 2026 was directly tied to the strategic pre-stocking of critical raw materials ahead of anticipated logistics bottlenecks. Management reiterated that the core cash conversion cycle remains tightly disciplined at 23 days. Receivables aging is healthy, backed by credit insurance and sovereign/corporate offtake contracts across the UAE and Saudi Arabia.\n\n**Capital structure discipline and banking support.**  \nIttihad continues to operate with modest leverage relative to its industrial asset base. The $350m 8.500% 2028 senior notes are well covered by domestic operating cash flow and undrawn bilateral lines with Abu Dhabi government-linked banks, reflecting Ittihad's status as a core domestic industrial champion under the UAE's 'Operation 300bn' industrial strategy.\n\n\n### Guidance — Ittihad\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **EBITDA Trajectory** | FY26 EBITDA guided to grow moderately over FY25, driven by market share expansion in paper/tissue and full freight cost pass-throughs. |\n| **Revenue Dynamics** | Top line supported by firm paper prices and higher nominal copper prices, though copper gross profit is purely conversion-fee driven. |\n| **Capex Budget** | Growth capex normalized following recent tissue mill expansions; FY26 capex primarily maintenance and debottlenecking ($40–50m). |\n| **Working Capital Cycle** | Cash conversion cycle guided to remain within historical 20–25 days range (23 days actual H1-26); H2 working capital release expected. |\n| **Cash Taxes & Interest** | Minimal cash tax exposure under UAE corporate tax regime with industrial exemptions; cash interest ~$30m/yr ($350m @ 8.50%). |\n| **Net Leverage Target** | Targeting net debt / EBITDA between 2.5x and 2.8x at year-end (comfortably within covenant ceilings). |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Eurobond** | ITTIHD 8.500% due Nov-2028 (ISIN: XS2680456766) — $350m o/s; rated B+ (Fitch / S&P); trading near par (~8.30% YTM). |\n| **Bank Facilities & Lines** | Over $200m in committed revolving working capital and trade finance lines across First Abu Dhabi Bank (FAB), ADCB, and Mashreq. |\n| **Debt Structure** | Long-term bond debt represents majority of funded debt; bank debt utilized strictly for self-liquidating trade finance and LC discounting. |\n| **Maturity Runway** | Zero debt maturities in 2026–2027; next refinancing focus is the November 2028 bond maturity. |\n\n### Watch Items\n\n* H2-26 working capital unwind and inventory cash conversion prints.\n* Shipping lane normalization around Hormuz and the impact on competing Asian imports.\n* Global wood pulp benchmark price trajectory (NBSK and BHKP pricing).\n* Execution of domestic paper supply contracts across GCC export markets.\n* Maintenance of net leverage below the 3.0x threshold.\n\n### In Our View\n\nIttihad has proven its operational mettle by transforming an acute geopolitical logistics shock into a commercial triumph. The management team's rapid mobilization of alternative logistics through Fujairah and Jebel Ali—coupled with bulk freight procurement—enabled the company to steal market share while competing imported goods were stranded. The resulting pricing power drove EBITDA margin expansion, dispelling investor fears regarding raw material cost inflation.\n\nThe ITTIHD 8.500% 2028 notes (yielding ~8.30%) offer solid, defensive industrial carry. The business generates high-quality cash flow across essential non-discretionary product lines (tissue, packaging, basic industrial copper), supported by deep banking relationships in Abu Dhabi. With working capital set to normalize in H2 and no debt maturities until late 2028, we view Ittihad as a steady, reliable high-yield credit and maintain an Overweight recommendation.\n\n\n---\n"
       }
     ]
   },
@@ -118516,7 +120232,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KFH",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -118734,6 +120450,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A2 / A",
+        "price": 99.2,
+        "ytm": 5.2,
+        "spread_bp": 115,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A2 / A",
         "price": 99.2,
         "ytm": 5.2,
@@ -119391,7 +121120,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -119609,6 +121338,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / Baa2",
+        "price": 88.5,
+        "ytm": 6.75,
+        "spread_bp": 270,
+        "net_leverage": 1.45,
+        "ebitda": 4800.0,
+        "fcf": 451.7,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / Baa2",
         "price": 88.5,
         "ytm": 6.75,
@@ -120278,7 +122020,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
-      "days_to_earnings": 41
+      "days_to_earnings": 37
     },
     "management_questions": [
       {
@@ -120496,6 +122238,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB / BB+",
+        "price": 98.5,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": 1.25,
+        "ebitda": 4800.0,
+        "fcf": -512.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB / BB+",
         "price": 98.5,
         "ytm": 6.85,
@@ -121155,7 +122910,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "16:00 London / 11:00 EST",
       "ir_webcast_url": "https://investors.kosmosenergy.com/",
-      "days_to_earnings": 40
+      "days_to_earnings": 36
     },
     "management_questions": [
       {
@@ -121373,6 +123128,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / B3",
+        "price": 89.5,
+        "ytm": 10.45,
+        "spread_bp": 610,
+        "net_leverage": 2.99,
+        "ebitda": 810.0,
+        "fcf": -55.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / B3",
         "price": 89.5,
         "ytm": 10.45,
@@ -122046,7 +123814,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKCEM",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -122264,6 +124032,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B",
+        "price": 98.8,
+        "ytm": 8.25,
+        "spread_bp": 385,
+        "net_leverage": 2.27,
+        "ebitda": 185.0,
+        "fcf": -4.8,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B",
         "price": 98.8,
         "ytm": 8.25,
@@ -122919,7 +124700,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -123137,6 +124918,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B3",
+        "price": 98.5,
+        "ytm": 7.85,
+        "spread_bp": 345,
+        "net_leverage": 3.08,
+        "ebitda": 78.0,
+        "fcf": 7.5,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B3",
         "price": 98.5,
         "ytm": 7.85,
@@ -123793,7 +125587,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKREN",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -124011,6 +125805,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / B2",
+        "price": 98.2,
+        "ytm": 8.75,
+        "spread_bp": 435,
+        "net_leverage": 4.0,
+        "ebitda": 275.0,
+        "fcf": -110.8,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / B2",
         "price": 98.2,
         "ytm": 8.75,
@@ -124683,7 +126490,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -124902,6 +126709,19 @@ window.CEMBI_DATA = {
         "ebitda": 185.0,
         "fcf": 26.8,
         "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
+        "rating": "B- / Caa1",
+        "price": 104.22,
+        "ytm": 9.58,
+        "spread_bp": 471,
+        "net_leverage": 4.13,
+        "ebitda": 185.0,
+        "fcf": 26.8,
+        "guidance_status": "On Track"
       }
     ],
     "broker_snapshots": [
@@ -124996,7 +126816,7 @@ window.CEMBI_DATA = {
         "source": "J.P. Morgan EM Credit Conference (15-17 Sep 2026)",
         "status": "Enriched Research Note (Strict 2-Column Tables)",
         "summary": "Group generates approximately $300m in annual EBITDA with high operating cash conversion across its >110,000 km long-haul fiber backbone connecting 14 African nations from Cape Town to Cairo.",
-        "details": "# Liquid Telecom — Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (Hardy Pemhiwa - Group CEO Cassava, Finance Leadership) | Issuer Profile: Pan-African fiber backbone, cloud and digital infrastructure provider across 14+ countries (>110,000 km network). Bond Silo: Senior secured notes (LIQTEL 2027s/2028s). Ratings: Fitch B- / Moody's Caa1.\n\n---\n\n### Key Points\n\n* **Core cash generation run-rate**: Group generates approximately $300m in annual EBITDA with high operating cash conversion across its >110,000 km long-haul fiber backbone connecting 14 African nations from Cape Town to Cairo.\n* **Disciplined capex reduction**: Capex guidance for FY26 is capped at $60–70m (primarily maintenance and success-based customer-connection drops), a dramatic decline from historical peaks of $120m+ as the cross-continental fiber mesh reaches operational maturity.\n* **Debt position and upcoming amortisation wall**: Gross debt stood at approximately $880m at Q1, with net debt reduced to ~$770m. However, a major debt test looms on 28 February 2027, when nearly $130m in amortisation payments fall due across USD and ZAR term loans (representing ~1/3 of total term facilities).\n* **Committed $50m equity injection for AI pivot**: Under existing refinancing agreements, shareholders and strategic investors (Cassava Technologies / Strive Masiyiwa) are required to inject an additional $50m in equity into the restricted group by 28-Feb-2027. Proceeds are earmarked to upgrade the fiber grid into an ultra-low-latency 'AI transport network' serving global hyperscalers.\n* **Zimbabwe exposure and upstreaming**: Zimbabwe represents 30–35% of group EBITDA, with collections stabilized at a 60/40 USD/local currency ratio. Cash upstreaming operates steadily in small clips, with group tax expenses largely reflecting Zimbabwe statutory profitability.\n* **Liquidity buffer and covenant headroom**: Maintains $66–67m in usable balance sheet cash alongside an undrawn RCF, providing ~$95m of total liquidity. Significant headroom reported across all 7–8 debt covenants, with zero shareholder dividends expected from the operating perimeter.\n\n### Takeaways\n\n**Capital expenditure tapering unlocks sustained cash conversion.**  \nLiquid Telecom has crossed the inflection point of its multi-year capital expenditure cycle. Having deployed over 110,000 km of terrestrial fiber across sub-Saharan Africa, capex has been scaled down from historical levels of $120m+ to a run-rate of $60–70m. With growth capex now restricted to success-based enterprise connections, the group's ~$300m EBITDA converts cleanly into operational cash flow, shielding the business from external funding dependency.\n\n**The February 2027 term loan amortisation milestone.**  \nWhile near-term liquidity is stable, management is acutely focused on the 28 February 2027 maturity wall, where ~$130m of principal amortisation comes due across USD and ZAR commercial term loans. This represents approximately one-third of the outstanding term loan stack. Management expects to service this through a combination of accumulated internal cash flow, ongoing operational cash generation, and the mandatory equity injection.\n\n**Mandatory $50m equity injection to fund AI transport infrastructure.**  \nA key condition of the previous comprehensive refinancing agreement was a requirement for an incremental $50m equity injection into the credit group by 28-Feb-2027. Management confirmed active discussions with both core shareholders (Strive Masiyiwa / Cassava Technologies) and prospective international strategic partners. The capital will be utilized to equip existing fiber routes with coherent optics to support hyperscaler AI data traffic between landing stations and inland data centres.\n\n**Managing Zimbabwean currency risk and dividend upstreaming.**  \nZimbabwe contributes 30–35% of group EBITDA, making it the most significant jurisdictional risk factor. Management emphasized that recent monetary stabilization and dollarization of retail tariffs have stabilized collections at ~60% USD and 40% local currency. Upstreaming of funds to the HoldCo operates consistently through regular dividend transfers, with tax payments heavily concentrated in Zimbabwe due to the subsidiary's high statutory profitability.\n\n**Broad covenant headroom across multiple debt metrics.**  \nFollowing the previous debt reprofiling, Liquid Telecom operates with substantial headroom across all 7–8 financial covenants embedded in its debt documents. Gross debt of ~$880m excludes roughly $100m of subordinated intercompany debt (which was reduced from ~$200m). With no dividend leakage to HoldCo shareholders, all retained cash is preserved for debt service.\n\n\n### Guidance — Liquid Telecom\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **EBITDA Run-Rate** | Guided at ~$300m annual run-rate; Q1 softness expected to reverse in H2 with enterprise margin recovery. |\n| **Capex Guidance** | Strictly guided at $60–70m for FY26 (maintenance + customer connections); down from $120m+ historical peak. |\n| **Term Loan Amortisation** | ~$130m bullet amortisation due 28-Feb-2027 across USD and ZAR term loan tranches (~33% of term debt). |\n| **Mandatory Equity Injection** | $50m additional equity required by 28-Feb-2027 under lender agreement terms. |\n| **Zimbabwe EBITDA Share** | 30–35% of group EBITDA; collections running ~60% USD / 40% local currency. |\n| **Free Cash Flow** | Structurally positive operating cash flow after lower capex; primary call on cash is debt amortisation. |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Debt Stack** | Gross debt ~$880m (Q1 actual); net debt ~$770m. Syndicated term loans in USD and ZAR tranches alongside senior secured notes. |\n| **Liquidity Position** | $66–67m usable cash on balance sheet + undrawn RCF = ~$95m total available liquidity. |\n| **Subordinated Debt** | ~$100m in subordinated shareholder / intercompany loans (down from ~$200m pre-refinancing). |\n| **Equity Commitment** | Legally binding $50m equity injection commitment due by 28-Feb-2027 from Cassava / sponsor. |\n\n### Watch Items\n\n* Execution and receipt of the mandatory $50m shareholder equity injection ahead of 28-Feb-2027.\n* Refinancing or cash accumulation progress toward meeting the $130m term loan amortisation in Feb-2027.\n* Stability of Zimbabwean collections and ongoing US dollar dividend upstreaming.\n* Margin recovery in H2-26 following first-quarter enterprise pricing softness.\n* Hyperscaler AI transport contracts signing and fiber capacity utilization rates across the >110,000 km network.\n\n### In Our View\n\nLiquid Telecom has engineered a commendable operational turnaround by reining in capital expenditure ($60–70m vs $120m+) and converting its dominant pan-African fiber network into a consistent ~$300m EBITDA cash generator. The business possesses unmatched strategic infrastructure value, as global hyperscalers (Microsoft, Google, AWS) cannot route traffic across Africa without Liquid's fiber backbone. The planned pivot to AI transport networks provides a compelling medium-term revenue driver.\n\nHowever, credit investors must remain vigilant regarding the 28 February 2027 maturity hurdle, when ~$130m of term loan amortisation falls due. While available liquidity ($95m) and strong operating cash flow cover a significant portion, full execution requires the timely delivery of the $50m equity injection from Cassava / strategic backers. Furthermore, reliance on Zimbabwe for a third of EBITDA exposes the group to sudden currency shocks. We hold a Neutral stance on LIQTEL debt, awaiting confirmation of the equity funding before considering an upgrade.\n\n\n---\n"
+        "details": "# Liquid Telecom — Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (Hardy Pemhiwa - Group CEO Cassava, Finance Leadership) | Issuer Profile: Pan-African fiber backbone, cloud and digital infrastructure provider across 14+ countries (>110,000 km network). Bond Silo: Senior secured notes (LIQTEL 2027s/2028s). Ratings: Fitch B- / Moody's Caa1.\n\n---\n\n### Key Points\n\n* **Core cash generation run-rate**: Group generates approximately $300m in annual EBITDA with high operating cash conversion across its >110,000 km long-haul fiber backbone connecting 14 African nations from Cape Town to Cairo.\n* **Disciplined capex reduction**: Capex guidance for FY26 is capped at $60–70m (primarily maintenance and success-based customer-connection drops), a sharp decline from historical peaks of $120m+ as the cross-continental fiber mesh reaches operational maturity.\n* **Debt position and upcoming amortisation wall**: Gross debt stood at approximately $880m at Q1, with net debt reduced to ~$770m. However, a major debt test looms on 28 February 2027, when nearly $130m in amortisation payments fall due across USD and ZAR term loans (representing ~1/3 of total term facilities).\n* **Committed $50m equity injection for AI pivot**: Under existing refinancing agreements, shareholders and strategic investors (Cassava Technologies / Strive Masiyiwa) are required to inject an additional $50m in equity into the restricted group by 28-Feb-2027. Proceeds are earmarked to upgrade the fiber grid into an ultra-low-latency 'AI transport network' serving global hyperscalers.\n* **Zimbabwe exposure and upstreaming**: Zimbabwe represents 30–35% of group EBITDA, with collections stabilized at a 60/40 USD/local currency ratio. Cash upstreaming operates steadily in small clips, with group tax expenses largely reflecting Zimbabwe statutory profitability.\n* **Liquidity buffer and covenant headroom**: Maintains $66–67m in usable balance sheet cash alongside an undrawn RCF, providing ~$95m of total liquidity. Significant headroom reported across all 7–8 debt covenants, with zero shareholder dividends expected from the operating perimeter.\n\n### Takeaways\n\n**Capital expenditure tapering unlocks sustained cash conversion.**  \nLiquid Telecom has crossed the inflection point of its multi-year capital expenditure cycle. Having deployed over 110,000 km of terrestrial fiber across sub-Saharan Africa, capex has been scaled down from historical levels of $120m+ to a run-rate of $60–70m. With growth capex now restricted to success-based enterprise connections, the group's ~$300m EBITDA converts cleanly into operational cash flow, shielding the business from external funding dependency.\n\n**The February 2027 term loan amortisation milestone.**  \nWhile near-term liquidity is stable, management is acutely focused on the 28 February 2027 maturity wall, where ~$130m of principal amortisation comes due across USD and ZAR commercial term loans. This represents approximately one-third of the outstanding term loan stack. Management expects to service this through a combination of accumulated internal cash flow, ongoing operational cash generation, and the mandatory equity injection.\n\n**Mandatory $50m equity injection to fund AI transport infrastructure.**  \nA key condition of the previous comprehensive refinancing agreement was a requirement for an incremental $50m equity injection into the credit group by 28-Feb-2027. Management confirmed active discussions with both core shareholders (Strive Masiyiwa / Cassava Technologies) and prospective international strategic partners. The capital will be utilized to equip existing fiber routes with coherent optics to support hyperscaler AI data traffic between landing stations and inland data centres.\n\n**Managing Zimbabwean currency risk and dividend upstreaming.**  \nZimbabwe contributes 30–35% of group EBITDA, making it the most significant jurisdictional risk factor. Management emphasized that recent monetary stabilization and dollarization of retail tariffs have stabilized collections at ~60% USD and 40% local currency. Upstreaming of funds to the HoldCo operates consistently through regular dividend transfers, with tax payments heavily concentrated in Zimbabwe due to the subsidiary's high statutory profitability.\n\n**Broad covenant headroom across multiple debt metrics.**  \nFollowing the previous debt reprofiling, Liquid Telecom operates with substantial headroom across all 7–8 financial covenants embedded in its debt documents. Gross debt of ~$880m excludes roughly $100m of subordinated intercompany debt (which was reduced from ~$200m). With no dividend leakage to HoldCo shareholders, all retained cash is preserved for debt service.\n\n\n### Guidance — Liquid Telecom\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **EBITDA Run-Rate** | Guided at ~$300m annual run-rate; Q1 softness expected to reverse in H2 with enterprise margin recovery. |\n| **Capex Guidance** | Strictly guided at $60–70m for FY26 (maintenance + customer connections); down from $120m+ historical peak. |\n| **Term Loan Amortisation** | ~$130m bullet amortisation due 28-Feb-2027 across USD and ZAR term loan tranches (~33% of term debt). |\n| **Mandatory Equity Injection** | $50m additional equity required by 28-Feb-2027 under lender agreement terms. |\n| **Zimbabwe EBITDA Share** | 30–35% of group EBITDA; collections running ~60% USD / 40% local currency. |\n| **Free Cash Flow** | Structurally positive operating cash flow after lower capex; primary call on cash is debt amortisation. |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Debt Stack** | Gross debt ~$880m (Q1 actual); net debt ~$770m. Syndicated term loans in USD and ZAR tranches alongside senior secured notes. |\n| **Liquidity Position** | $66–67m usable cash on balance sheet + undrawn RCF = ~$95m total available liquidity. |\n| **Subordinated Debt** | ~$100m in subordinated shareholder / intercompany loans (down from ~$200m pre-refinancing). |\n| **Equity Commitment** | Legally binding $50m equity injection commitment due by 28-Feb-2027 from Cassava / sponsor. |\n\n### Watch Items\n\n* Execution and receipt of the mandatory $50m shareholder equity injection ahead of 28-Feb-2027.\n* Refinancing or cash accumulation progress toward meeting the $130m term loan amortisation in Feb-2027.\n* Stability of Zimbabwean collections and ongoing US dollar dividend upstreaming.\n* Margin recovery in H2-26 following first-quarter enterprise pricing softness.\n* Hyperscaler AI transport contracts signing and fiber capacity utilization rates across the >110,000 km network.\n\n### In Our View\n\nLiquid Telecom has engineered a commendable operational turnaround by reining in capital expenditure ($60–70m vs $120m+) and converting its dominant pan-African fiber network into a consistent ~$300m EBITDA cash generator. The business possesses unmatched strategic infrastructure value, as global hyperscalers (Microsoft, Google, AWS) cannot route traffic across Africa without Liquid's fiber backbone. The planned pivot to AI transport networks provides a compelling medium-term revenue driver.\n\nHowever, credit investors must remain vigilant regarding the 28 February 2027 maturity hurdle, when ~$130m of term loan amortisation falls due. While available liquidity ($95m) and strong operating cash flow cover a significant portion, full execution requires the timely delivery of the $50m equity injection from Cassava / strategic backers. Furthermore, reliance on Zimbabwe for a third of EBITDA exposes the group to sudden currency shocks. We hold a Neutral stance on LIQTEL debt, awaiting confirmation of the equity funding before considering an upgrade.\n\n\n---\n"
       }
     ]
   },
@@ -125555,7 +127375,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -125773,6 +127593,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB / BBB",
+        "price": 98.0,
+        "ytm": 5.65,
+        "spread_bp": 160,
+        "net_leverage": 2.85,
+        "ebitda": 1450.0,
+        "fcf": 91.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB / BBB",
         "price": 98.0,
         "ytm": 5.65,
@@ -126434,7 +128267,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "13:00 London",
       "ir_webcast_url": "https://metinvestholding.com/en/investors",
-      "days_to_earnings": 54
+      "days_to_earnings": 50
     },
     "management_questions": [
       {
@@ -126652,6 +128485,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "CCC+",
+        "price": 93.27,
+        "ytm": 14.98,
+        "spread_bp": 1022,
+        "net_leverage": 1.18,
+        "ebitda": 737.0,
+        "fcf": -193.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "CCC+",
         "price": 93.27,
         "ytm": 14.98,
@@ -127399,7 +129245,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 London / 09:00 EST",
       "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
-      "days_to_earnings": 53
+      "days_to_earnings": 49
     },
     "management_questions": [
       {
@@ -127617,6 +129463,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "CCC+ / Caa2",
+        "price": 82.5,
+        "ytm": 13.1,
+        "spread_bp": 875,
+        "net_leverage": 2.89,
+        "ebitda": 460.0,
+        "fcf": 1.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "CCC+ / Caa2",
         "price": 82.5,
         "ytm": 13.1,
@@ -128274,7 +130133,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Budapest",
       "ir_webcast_url": "https://molgroup.info/en/investor-relations",
-      "days_to_earnings": 42
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -128492,6 +130351,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB-",
+        "price": 98.0,
+        "ytm": 5.5,
+        "spread_bp": 145,
+        "net_leverage": 1.1,
+        "ebitda": 3100.0,
+        "fcf": -22.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB-",
         "price": 98.0,
         "ytm": 5.5,
@@ -129168,7 +131040,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MTNSJ",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -129379,6 +131251,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Ba2 / BB+",
+        "price": 99.4,
+        "ytm": 6.9,
+        "spread_bp": 285,
+        "net_leverage": 1.65,
+        "ebitda": 4500,
+        "fcf": 481.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Ba2 / BB+",
         "price": 99.4,
         "ytm": 6.9,
@@ -130036,7 +131921,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "15:00 Casablanca",
       "ir_webcast_url": "https://www.ocpgroup.ma/investors",
-      "days_to_earnings": 56
+      "days_to_earnings": 52
     },
     "management_questions": [
       {
@@ -130254,6 +132139,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB- / Baa3",
+        "price": 99.5,
+        "ytm": 6.45,
+        "spread_bp": 155,
+        "net_leverage": 2.34,
+        "ebitda": 3200,
+        "fcf": 209.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB- / Baa3",
         "price": 99.5,
         "ytm": 6.45,
@@ -130930,7 +132828,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -131141,6 +133039,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A2 / A-",
+        "price": 97.8,
+        "ytm": 5,
+        "spread_bp": 95,
+        "net_leverage": 1.1,
+        "ebitda": 2800,
+        "fcf": 547.3,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A2 / A-",
         "price": 97.8,
         "ytm": 5,
@@ -131798,7 +133709,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/OQ",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -132016,6 +133927,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB+ / BBB-",
+        "price": 99.5,
+        "ytm": 5.9,
+        "spread_bp": 185,
+        "net_leverage": 1.8,
+        "ebitda": 4600.0,
+        "fcf": -149.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB+ / BBB-",
         "price": 99.5,
         "ytm": 5.9,
@@ -132693,7 +134617,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Warsaw / 07:00 UK",
       "ir_webcast_url": "https://www.orlen.pl/en/investor-relations",
-      "days_to_earnings": 34
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -132911,6 +134835,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB+ / A3",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 0.95,
+        "ebitda": 8500,
+        "fcf": 10.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB+ / A3",
         "price": 98.8,
         "ytm": 5.05,
@@ -133581,7 +135518,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.pegasusinvestorrelations.com",
-      "days_to_earnings": 45
+      "days_to_earnings": 41
     },
     "management_questions": [
       {
@@ -133799,6 +135736,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B+ / BB-",
+        "price": 103.5,
+        "ytm": 7.65,
+        "spread_bp": 360,
+        "net_leverage": 2.1,
+        "ebitda": 950.0,
+        "fcf": 23.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B+ / BB-",
         "price": 103.5,
         "ytm": 7.65,
@@ -134455,7 +136405,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "09:00 Warsaw",
       "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
-      "days_to_earnings": 53
+      "days_to_earnings": 49
     },
     "management_questions": [
       {
@@ -134673,6 +136623,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB+",
+        "price": 99.2,
+        "ytm": 5.3,
+        "spread_bp": 125,
+        "net_leverage": 1.85,
+        "ebitda": 2800.0,
+        "fcf": -1080.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB+",
         "price": 99.2,
         "ytm": 5.3,
@@ -135328,7 +137291,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QAZGAS",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -135546,6 +137509,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB-",
+        "price": 97.2,
+        "ytm": 5.95,
+        "spread_bp": 190,
+        "net_leverage": 1.2,
+        "ebitda": 850.0,
+        "fcf": 107.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB-",
         "price": 97.2,
         "ytm": 5.95,
@@ -136235,7 +138211,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QNBK",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -136453,6 +138429,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Aa3 / A+",
+        "price": 99.5,
+        "ytm": 5.0,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Aa3 / A+",
         "price": 99.5,
         "ytm": 5.0,
@@ -137142,7 +139131,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RJHI",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -137360,6 +139349,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A-",
+        "price": 100.8,
+        "ytm": 4.75,
+        "spread_bp": 55,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A-",
         "price": 100.8,
         "ytm": 4.75,
@@ -138049,7 +140051,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RIBL",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -138267,6 +140269,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A2 / A",
+        "price": 99.6,
+        "ytm": 5.15,
+        "spread_bp": 95,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A2 / A",
         "price": 99.6,
         "ytm": 5.15,
@@ -138924,7 +140939,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ROMGAZ",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -139142,6 +141157,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BBB-",
+        "price": 98.5,
+        "ytm": 5.75,
+        "spread_bp": 170,
+        "net_leverage": 0.65,
+        "ebitda": 980.0,
+        "fcf": 206.4,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BBB-",
         "price": 98.5,
         "ytm": 5.75,
@@ -139815,7 +141843,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Riyadh / 11:00 UK",
       "ir_webcast_url": "https://www.sabic.com/en/investors",
-      "days_to_earnings": 33
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -140033,6 +142061,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A+",
+        "price": 98.8,
+        "ytm": 5.05,
+        "spread_bp": 100,
+        "net_leverage": 1.15,
+        "ebitda": 5800.0,
+        "fcf": -398.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A+",
         "price": 98.8,
         "ytm": 5.05,
@@ -140702,7 +142743,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SAMPA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -140920,6 +142961,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B / B2 Implied",
+        "price": 97.5,
+        "ytm": 10.4,
+        "spread_bp": 600,
+        "net_leverage": 1.54,
+        "ebitda": 78.0,
+        "fcf": 8.7,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B / B2 Implied",
         "price": 97.5,
         "ytm": 10.4,
@@ -141579,7 +143633,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SOLSJ",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -141797,6 +143851,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB+ / Ba1",
+        "price": 98.4,
+        "ytm": 7.85,
+        "spread_bp": 365,
+        "net_leverage": 2.37,
+        "ebitda": 2450.0,
+        "fcf": -230.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB+ / Ba1",
         "price": 98.4,
         "ytm": 7.85,
@@ -142471,7 +144538,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SECO",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -142689,6 +144756,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A",
+        "price": 99.2,
+        "ytm": 5.15,
+        "spread_bp": 110,
+        "net_leverage": 3.2,
+        "ebitda": 8400.0,
+        "fcf": -3030.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A",
         "price": 99.2,
         "ytm": 5.15,
@@ -143344,7 +145424,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.sisecam.com.tr/en/investor-relations",
-      "days_to_earnings": 35
+      "days_to_earnings": 31
     },
     "management_questions": [
       {
@@ -143562,6 +145642,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.5,
+        "ytm": 6.85,
+        "spread_bp": 245,
+        "net_leverage": 2.18,
+        "ebitda": 1100.0,
+        "fcf": -66.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.5,
         "ytm": 6.85,
@@ -144251,7 +146344,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SNB",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -144469,6 +146562,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A-",
+        "price": 100.1,
+        "ytm": 4.95,
+        "spread_bp": 75,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A-",
         "price": 100.1,
         "ytm": 4.95,
@@ -145129,7 +147235,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://sobhadxb.com/investor-relations",
-      "days_to_earnings": 52
+      "days_to_earnings": 48
     },
     "management_questions": [
       {
@@ -145340,6 +147446,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / Ba3",
+        "price": 102.0,
+        "ytm": 7.95,
+        "spread_bp": 390,
+        "net_leverage": 0.83,
+        "ebitda": 480.0,
+        "fcf": -127.7,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / Ba3",
         "price": 102.0,
         "ytm": 7.95,
@@ -145997,7 +148116,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SONANG",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -146215,6 +148334,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / B3",
+        "price": 97.2,
+        "ytm": 9.15,
+        "spread_bp": 475,
+        "net_leverage": 1.29,
+        "ebitda": 4800.0,
+        "fcf": 586.8,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / B3",
         "price": 97.2,
         "ytm": 9.15,
@@ -146922,7 +149054,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/STANBI",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -147140,6 +149272,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Ba2 / BB-",
+        "price": 98.0,
+        "ytm": 6.85,
+        "spread_bp": 280,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Ba2 / BB-",
         "price": 98.0,
         "ytm": 6.85,
@@ -147798,7 +149943,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "15:30 Riyadh / 12:30 UK",
       "ir_webcast_url": "https://www.stc.com.sa/content/stc/sa/en/investor-relations.html",
-      "days_to_earnings": 31
+      "days_to_earnings": 27
     },
     "management_questions": [
       {
@@ -148009,6 +150154,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "A1 / A+",
+        "price": 97.5,
+        "ytm": 4.85,
+        "spread_bp": 80,
+        "net_leverage": 0.65,
+        "ebitda": 7200,
+        "fcf": 1649.2,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "A1 / A+",
         "price": 97.5,
         "ytm": 4.85,
@@ -148665,7 +150823,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "13:00 Abu Dhabi",
       "ir_webcast_url": "https://www.taqa.com/investors/",
-      "days_to_earnings": 45
+      "days_to_earnings": 41
     },
     "management_questions": [
       {
@@ -148883,6 +151041,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "Aa3 / AA-",
+        "price": 98.5,
+        "ytm": 4.9,
+        "spread_bp": 85,
+        "net_leverage": 1.85,
+        "ebitda": 5600.0,
+        "fcf": -1321.6,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "Aa3 / AA-",
         "price": 98.5,
         "ytm": 4.9,
@@ -149538,7 +151709,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/THARISA",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -149756,6 +151927,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / Ba3 Implied",
+        "price": 98.0,
+        "ytm": 9.85,
+        "spread_bp": 550,
+        "net_leverage": 0.38,
+        "ebitda": 185.0,
+        "fcf": 9.7,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / Ba3 Implied",
         "price": 98.0,
         "ytm": 9.85,
@@ -150426,7 +152610,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://investor.turkishairlines.com/en",
-      "days_to_earnings": 39
+      "days_to_earnings": 35
     },
     "management_questions": [
       {
@@ -150644,6 +152828,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / BB-",
+        "price": 99.2,
+        "ytm": 7.45,
+        "spread_bp": 340,
+        "net_leverage": 1.95,
+        "ebitda": 4400.0,
+        "fcf": -9.9,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / BB-",
         "price": 99.2,
         "ytm": 7.45,
@@ -151300,7 +153497,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
-      "days_to_earnings": 46
+      "days_to_earnings": 42
     },
     "management_questions": [
       {
@@ -151511,6 +153708,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB / BB-",
+        "price": 99.8,
+        "ytm": 7.15,
+        "spread_bp": 310,
+        "net_leverage": 1.45,
+        "ebitda": 1350.0,
+        "fcf": 127.3,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB / BB-",
         "price": 99.8,
         "ytm": 7.15,
@@ -152182,7 +154392,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "08:30 London",
       "ir_webcast_url": "https://www.tullowoil.com/investors/",
-      "days_to_earnings": 47
+      "days_to_earnings": 43
     },
     "management_questions": [
       {
@@ -152400,6 +154610,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / Caa1",
+        "price": 86.5,
+        "ytm": 13.8,
+        "spread_bp": 945,
+        "net_leverage": 1.3,
+        "ebitda": 1093.7,
+        "fcf": 152.0,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / Caa1",
         "price": 86.5,
         "ytm": 13.8,
@@ -153165,7 +155388,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -153383,6 +155606,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB / BB-",
+        "price": 99.5,
+        "ytm": 7.2,
+        "spread_bp": 315,
+        "net_leverage": 0.75,
+        "ebitda": 1800.0,
+        "fcf": -179.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB / BB-",
         "price": 99.5,
         "ytm": 7.2,
@@ -154090,7 +156326,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EXCRTU",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -154308,6 +156544,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.8,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.8,
         "ytm": 6.75,
@@ -154966,7 +157215,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "18:30 Istanbul / 15:30 UK",
       "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
-      "days_to_earnings": 48
+      "days_to_earnings": 44
     },
     "management_questions": [
       {
@@ -155177,6 +157426,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB / BB-",
+        "price": 96.8,
+        "ytm": 6.95,
+        "spread_bp": 290,
+        "net_leverage": 1.15,
+        "ebitda": 1750,
+        "fcf": 244.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB / BB-",
         "price": 96.8,
         "ytm": 6.95,
@@ -155862,7 +158124,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Kyiv / 12:00 UK",
       "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
-      "days_to_earnings": 56
+      "days_to_earnings": 52
     },
     "management_questions": [
       {
@@ -156080,6 +158342,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "CCC / Caa3",
+        "price": 64.0,
+        "ytm": 19.25,
+        "spread_bp": 1485,
+        "net_leverage": 3.86,
+        "ebitda": 380.0,
+        "fcf": -98.3,
+        "guidance_status": "On Track"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "CCC / Caa3",
         "price": 64.0,
         "ytm": 19.25,
@@ -156769,7 +159044,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
-      "days_to_earnings": 42
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -156987,6 +159262,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.2,
+        "ytm": 6.95,
+        "spread_bp": 235,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.2,
         "ytm": 6.95,
@@ -157676,7 +159964,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.yapikrediinvestorrelations.com",
-      "days_to_earnings": 34
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -157894,6 +160182,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "BB- / B1",
+        "price": 99.4,
+        "ytm": 6.75,
+        "spread_bp": 215,
+        "net_leverage": null,
+        "ebitda": null,
+        "fcf": 87.5,
+        "guidance_status": "Ahead of Target"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "BB- / B1",
         "price": 99.4,
         "ytm": 6.75,
@@ -159128,7 +161429,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul (Post-Market)",
       "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-      "days_to_earnings": 42
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -159353,6 +161654,19 @@ window.CEMBI_DATA = {
         "date": "2026-09-28",
         "period_name": "2026-09-28",
         "timestamp": "2026-09-28T05:16:51.107336",
+        "rating": "B- / CCC+",
+        "price": 63.5,
+        "ytm": 27.2,
+        "spread_bp": 2250,
+        "net_leverage": 3.62,
+        "ebitda": 320.0,
+        "fcf": -198.1,
+        "guidance_status": "Under Watch"
+      },
+      {
+        "date": "2026-09-29",
+        "period_name": "2026-09-29",
+        "timestamp": "2026-09-29T05:16:49.764213",
         "rating": "B- / CCC+",
         "price": 63.5,
         "ytm": 27.2,

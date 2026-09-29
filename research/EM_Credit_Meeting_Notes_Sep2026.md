@@ -38,7 +38,7 @@
 
 ### Key Points
 
-* **Earnings surge on commodity recovery**: Delivered explosive financial performance: revenue increased by over 60% and EBITDA surged by more than 100% y/y, driven by soaring gold prices and the stabilization of platinum and rhodium benchmarks.
+* **Earnings surge on commodity recovery**: Delivered strong financial performance: revenue increased by over 60% and EBITDA surged by more than 100% y/y, driven by soaring gold prices and the stabilization of platinum and rhodium benchmarks.
 * **Substantial gross debt reduction**: Gross debt has been reduced by 18%, with management executing toward an ultimate target of a 50% debt reduction (~R1.0bn+ in South African rand terms). An outstanding R500m convertible bond is trading deep in-the-money and is projected to convert into equity before year-end.
 * **US PGM union strike at Stillwater**: Operations at Stillwater East mine and Columbus metallurgical plant in Montana were struck on 3-Sep-2026 at 7:00 AM MT by United Steelworkers (USW) Local 11-0001, incurring an estimated financial drag of ~$40m over four months. The East Boulder mine is not striking and continues full production.
 * **US Section 45X tax credit cash inflow**: The financial drag in Montana is powerfully offset by the US Inflation Reduction Act's Section 45X Advanced Manufacturing Production Tax Credit. Under finalized US regulations, Sibanye receives direct non-taxable cash payments from the US Treasury for the first 5 years, followed by 5 years of phased tax offsets (phasing out between 2031 and 2034 under 2025 legislative updates).
@@ -48,13 +48,13 @@
 ### Takeaways
 
 **Operational leverage drives 100%+ EBITDA expansion.**  
-Sibanye-Stillwater's diversified precious metals portfolio demonstrated tremendous operating leverage during the reporting period. With gold prices reaching record highs and South African PGM basket prices stabilizing following deep industry restructuring, group revenues climbed >60% and EBITDA more than doubled. The South African gold operations generated bumper cash margins, while the mechanized South African PGM operations (Rustenburg, Kroondal, Marikana) maintained excellent cost discipline.
+Sibanye-Stillwater's diversified precious metals portfolio demonstrated tremendous operating leverage during the reporting period. With gold prices reaching record highs and South African PGM basket prices stabilizing following deep industry restructuring, group revenues climbed >60% and EBITDA more than doubled. The South African gold operations generated strong cash margins, while the mechanized South African PGM operations (Rustenburg, Kroondal, Marikana) maintained excellent cost discipline.
 
 **Aggressive balance sheet deleveraging underway.**  
 Management is deploying surge cash flows into rapid balance sheet de-risking. Gross debt has been trimmed by 18%, with corporate treasury pursuing a permanent 50% gross debt contraction. Deleveraging will be accelerated by the anticipated conversion of the R500m convertible bond by end-2026, which will extinguish debt without requiring cash outlays and eliminate annual interest carrying charges.
 
 **Managing Montana strike headwinds via US Section 45X subsidies.**  
-The US PGM operations at Stillwater, Montana, remain challenging. On 3-Sep-2026 at 7:00 AM MT, USW Local 11-0001 initiated a strike at the Stillwater East mine and Columbus metallurgical processing complex (costing ~$40m over 4 months), while East Boulder continues operating normally. However, management clarified that the asset's structural economics have been transformed by US legislation. Under Section 45X of the IRA, Sibanye qualifies for substantial production tax credits. For the first five years, these credits are paid out as direct cash refunds from the US government, converting an otherwise cash-draining asset into a net cash contributor.
+The US PGM operations at Stillwater, Montana, remain challenging. On 3-Sep-2026 at 7:00 AM MT, USW Local 11-0001 initiated a strike at the Stillwater East mine and Columbus metallurgical processing complex (costing ~$40m over 4 months), while East Boulder continues operating normally. However, management clarified that the asset's structural economics have been transformed by US legislation. Under Section 45X of the IRA, Sibanye qualifies for substantial production tax credits. For the first five years, these credits are paid out as direct cash refunds from the US government, converting an otherwise cash-absorbing asset into a net cash contributor.
 
 **Working capital optimization in auto-catalyst recycling.**  
 Sibanye's Columbus recycling facility in Montana—one of the world's largest processors of spent automotive catalytic converters—has transitioned from working capital absorption to aggressive cash release. In previous quarters, rapid metal price fluctuations trapped hundreds of millions of dollars in unprocessed pipeline inventory. As metal pricing stabilized and processing throughput normalized, pipeline working capital was liquidated into cash flow.
@@ -123,12 +123,12 @@ The US Stillwater asset, historically viewed as an operational headache, has bee
 Omniyat presented exceptional revenue visibility backed by audited off-plan sales contracts. The group's $6.1 billion revenue backlog represents contracted property sales that will convert into accounting revenue and free cash flow as construction milestones are certified over the next 48 months. Management emphasized that this backlog is highly de-risked: off-plan buyers have already deposited non-refundable down-payments and progressive construction installments into regulated escrow accounts.
 
 **Generating $3.0bn in surplus net project cash.**  
-Management walked investors through the cash conversion mechanics of the backlog. Out of the $6.1bn backlog, all remaining construction costs, contractor payables, and project-level financing will absorb ~$3.1bn, leaving a staggering $3.0 billion in net surplus cash flow that will be released directly to corporate treasury as projects reach completion. An additional $3.0bn of cash surplus is embedded in the remaining 33% of unlaunched/unsold inventory within the active $11.7bn development portfolio.
+Management walked investors through the cash conversion mechanics of the backlog. Out of the $6.1bn backlog, all remaining construction costs, contractor payables, and project-level financing will absorb ~$3.1bn, leaving a substantial $3.0 billion in net surplus cash flow that will be released directly to corporate treasury as projects reach completion. An additional $3.0bn of cash surplus is embedded in the remaining 33% of unlaunched/unsold inventory within the active $11.7bn development portfolio.
 
 **Strategic expansion into the 'Beyond' luxury segment.**  
 While Omniyat established its global reputation as an ultra-luxury boutique developer catering to ultra-high-net-worth individuals (partnering with Dorchester Collection on architectural icons like One Palm, AVA at Palm Jumeirah, The Lana in Business Bay, and The Alba on Palm Jumeirah), management has astutely broadened its addressable market. The launch of the 'Beyond' brand allows the company to develop high-margin residences in the upper-mid luxury segment, capturing strong demand from affluent European and Asian expatriates relocating to Dubai.
 
-**Impenetrable liquidity fortress protects against market cycles.**  
+**Strong strong liquidity position protects against market cycles.**  
 Omniyat holds $1.4 billion in consolidated cash balances. Unrestricted corporate cash accounts for $750m, providing an enormous standalone liquidity buffer that covers corporate debt obligations multiple times over. The remaining ~$650m resides in legally isolated project escrow accounts. Construction spend is fully covered by escrow balances and scheduled buyer installments, completely eliminating speculative funding deficits.
 
 **Clean debt architecture and equity ownership.**  
@@ -153,7 +153,7 @@ Omniyat's balance sheet is bifurcated cleanly between modest corporate lines and
 | **Unrestricted Corporate Cash** | $750m in unrestricted corporate bank accounts across top UAE institutions. Massive standalone liquidity cushion providing total coverage over corporate credit lines. |
 | **Regulated Escrow Balances** | ~$650m held in RERA-governed project escrow accounts. Ring-fenced strictly for project construction payables, insulating buyers and project contractors. |
 | **Project Construction Lines** | Bilateral milestone facilities with leading UAE banks (Emirates NBD, Mashreq, DIB). Self-liquidating project debt repaid directly from escrow releases upon milestone handovers. |
-| **Debt Issuance Pipeline** | Evaluating debut capital markets Sukuk / Eurobond issuance to establish institutional credit benchmarking. High-quality collateral base and $1.4bn cash fortress would ensure strong institutional demand. |
+| **Debt Issuance Pipeline** | Evaluating debut capital markets Sukuk / Eurobond issuance to establish institutional credit benchmarking. High-quality collateral base and $1.4bn strong cash position would ensure strong institutional demand. |
 
 ### Watch Items
 
@@ -165,7 +165,7 @@ Omniyat's balance sheet is bifurcated cleanly between modest corporate lines and
 
 ### In Our View
 
-Omniyat stands in an elite tier of privately-owned Gulf developers. By dominating Dubai's ultra-luxury residential and hospitality sector through landmark architectural assets and exclusive brand partnerships (Dorchester Collection), the company has established unparalleled pricing power. Its $6.1 billion contracted backlog and $1.4 billion cash hoard ($750m unrestricted) place it in an extraordinarily liquid, self-funding position that rivals the largest publicly traded GCC developers.
+Omniyat stands in an elite tier of privately-owned Gulf developers. By dominating Dubai's ultra-luxury residential and hospitality sector through landmark architectural assets and exclusive brand partnerships (Dorchester Collection), the company has established unparalleled pricing power. Its $6.1 billion contracted backlog and $1.4 billion cash reserves ($750m unrestricted) place it in an extraordinarily liquid, self-funding position that rivals the largest publicly traded GCC developers.
 
 For credit investors evaluating potential capital markets issuance, Omniyat presents exceptional credit strength. The $3.0 billion in projected net cash surplus from completed projects and the complete absence of debt maturities through 2027 provide immense downside protection. Should Omniyat access the public Eurobond or Sukuk market, its debt would represent an attractive, highly secured instrument supported by Dubai's premier luxury real estate collateral. We view the credit profile as exceptionally robust.
 
@@ -284,10 +284,10 @@ Management voiced candid frustration regarding credit rating agency methodologie
 | Metric | Guidance / Desk Assessment |
 | :--- | :--- |
 | **Gold Production Target** | Reaffirmed at 1.1 to 1.3 million ounces of gold for FY26. Consistent operational delivery; additions from Lafigué and BIOX expansion underpin high-volume execution. |
-| **AISC Cost Profile** | Industry-leading all-in sustaining costs (AISC) maintained at $950–1,050/oz. Bottom-quartile global cost structure guarantees fat EBITDA margins (>55%) even if gold prices correct. |
+| **AISC Cost Profile** | Industry-leading all-in sustaining costs (AISC) maintained at $950–1,050/oz. Bottom-quartile global cost structure guarantees healthy EBITDA margins (>55%) even if gold prices correct. |
 | **Capex Trajectory** | Growth capex dropping sharply following Lafigué and BIOX completions; minimal spend ahead of Assafou FID. Capex trough unlocks immense free cash flow generation in H2-26 and FY27. |
 | **Assafou Project Metrics** | 5.0 Moz M&I / 4.4 Moz P&P reserves; 5.0 Mtpa plant, ~320 koz/yr @ $1,026/oz AISC; $550m capex. World-class asset; fully funded from internal operational cash flow without debt issuance. |
-| **Financial Leverage** | Zero net debt; operating in a sustained net cash position across FY26–27. Balance sheet strength provides impregnable bondholder protection against geopolitical volatility. |
+| **Financial Leverage** | Zero net debt; operating in a sustained net cash position across FY26–27. Balance sheet strength provides robust bondholder protection against geopolitical volatility. |
 | **Free Cash Flow Generation** | Exceptional FCF yield exceeding 15–20% at prevailing gold prices. Robust organic cash generation comfortably covers dividends, buybacks, and project capex. |
 
 ### Funding & Issuance
@@ -295,7 +295,7 @@ Management voiced candid frustration regarding credit rating agency methodologie
 | Item | Detail |
 | :--- | :--- |
 | **EDV 5.000% 2026 Senior Notes** | Senior notes due 2026; small remaining maturity. Easily redeemable directly from cash on balance sheet; zero refinancing risk. |
-| **Available Liquidity** | Over $800m in available liquidity across unrestricted cash and undrawn syndicated bank lines. Immense liquidity fortress covering all operational and debt obligations multiple times over. |
+| **Available Liquidity** | Over $800m in available liquidity across unrestricted cash and undrawn syndicated bank lines. Immense strong liquidity position covering all operational and debt obligations multiple times over. |
 | **Corporate RCF** | Committed revolving credit facility with international syndicate (Citi, Standard Chartered, ING); undrawn. Provides immediate multi-currency flexibility for offshore treasury operations. |
 | **Agency Credit Ratings** | Fitch BB- / S&P BB- (artificially capped by West African sovereign ceilings). Credit profile trades like investment grade; bond spreads significantly tighter than BB- peers. |
 
@@ -304,12 +304,12 @@ Management voiced candid frustration regarding credit rating agency methodologie
 * Final Investment Decision (FID) on the Assafou project in Côte d'Ivoire in Q4 2026.
 * Full-year 2026 gold output print confirming delivery within the 1.1–1.3 Moz guidance range.
 * Redemption or refinancing announcement regarding the 2026 senior notes.
-* Quarterly AISC cost discipline amidst global mining consumable inflation (cyanide, explosives, tires).
+* Quarterly AISC cost discipline amidst global mining consumable inflation (cyanide, sharps, tires).
 * Updates on preliminary exploration reconnaissance in Kazakhstan or the Americas.
 
 ### In Our View
 
-Endeavour Mining is an operational and financial powerhouse in the global gold mining industry. Its delivery of Lafigué and the Sabodala-Massawa BIOX facility on time and on budget cements its reputation as the premier mining operator in West Africa. With gold prices at historic highs and production costs locked below $1,050/oz, Endeavour is printing extraordinary free cash flow, operating in a net cash posture that makes credit default risk virtually non-existent.
+Endeavour Mining is an established, high-performing producer in the global gold mining industry. Its delivery of Lafigué and the Sabodala-Massawa BIOX facility on time and on budget cements its reputation as the premier mining operator in West Africa. With gold prices at historic highs and production costs locked below $1,050/oz, Endeavour is generating substantial free cash flow, operating in a net cash posture that makes credit default risk virtually non-existent.
 
 The BB- credit rating assigned to Endeavour by S&P and Fitch is an artificial byproduct of sovereign ceiling caps on Côte d'Ivoire and Senegal, entirely divorced from the company's investment-grade financial reality. With zero net debt, over $800m in liquidity, and the tier-one Assafou discovery (5.0 Moz DFS) ready to be built from organic cash flow, Endeavour's Eurobonds represent an elite, ultra-safe defensive holding for EM fixed-income portfolios. We maintain a high-conviction Overweight recommendation.
 
@@ -340,13 +340,13 @@ The BB- credit rating assigned to Endeavour by S&P and Fitch is an artificial by
 Management provided detailed transparency regarding its $10.5 billion African order book. Unlike peers who report speculative memorandums of understanding, Mota-Engil Africa only records projects that have achieved full commercial financial close, with sovereign or multilateral funding secured (via World Bank, African Development Bank, US DFC, or ECA export credits). This provides ironclad revenue predictability across core markets including Angola, Mozambique, Nigeria, and Côte d'Ivoire.
 
 **Contract mining vertical delivers 30% EBITDA margins.**  
-The Natural Resources / Industrial Engineering division has emerged as a premier profit engine. Mota-Engil Africa operates as the largest contract mining service provider in Africa (and #5 globally), performing specialized open-pit drilling, blasting, extraction, and hauling for tier-one gold and mineral miners (such as Endeavour Mining). While this vertical requires capital-intensive heavy equipment (excavators, dump trucks, drill rigs), it yields superior operating EBITDA margins of approximately 30% under multi-year, hard-currency cost-plus contracts.
+The Natural Resources / Industrial Engineering division has emerged as a primary earnings contributor. Mota-Engil Africa operates as the largest contract mining service provider in Africa (and #5 globally), performing specialized open-pit drilling, blasting, extraction, and hauling for tier-one gold and mineral miners (such as Endeavour Mining). While this vertical requires capital-intensive heavy equipment (excavators, dump trucks, drill rigs), it yields superior operating EBITDA margins of approximately 30% under multi-year, hard-currency cost-plus contracts.
 
 **Flagship concessions: Lobito Rail Corridor and International Airports.**  
 The Concessions vertical provides long-term annuity cash flows. Mota-Engil Africa is a cornerstone partner in the landmark Lobito Atlantic Railway (LAR) concession in Angola (a 30-year concession consortium with Trafigura and Vecturis, supported by $250m in US DFC direct funding and $200m from the Africa Finance Corporation to evacuate DRC critical minerals). In the aviation sector, the company holds operating concessions for the new International Airport of Luanda (Angola) and major airport hubs in Nigeria (Abuja and Kano International Airports).
 
 **Operating holding company structure centralizes cash collection.**  
-Management clarified the group's legal and cash flow architecture. Mota-Engil Africa acts as the central contracting and treasury engine: it generates $600m in standalone turnover through direct operational branches and directly collects 98% of the cash flows generated by all African subsidiaries and joint ventures. Cash is aggregated into offshore European bank accounts, minimizing sub-Saharan currency convertibility and trapped cash risks.
+Management clarified the group's legal and cash flow architecture. Mota-Engil Africa acts as the central contracting and treasury platform: it generates $600m in standalone turnover through direct operational branches and directly collects 98% of the cash flows generated by all African subsidiaries and joint ventures. Cash is aggregated into offshore European bank accounts, minimizing sub-Saharan currency convertibility and trapped cash risks.
 
 **Capital expenditure funding strategy and planned bond debut.**  
 Annual capital expenditure runs at ~$280–300m, driven by machinery fleet renewals for contract mining and major rail works. Management's strategic objective is to fund heavy equipment capex with matched long-term debt rather than drawing down short-term operating cash. To achieve this, the company is preparing an inaugural institutional bond offering of approximately $300m, which will establish an independent capital markets presence and refinance local bank credit lines.
@@ -382,7 +382,7 @@ Annual capital expenditure runs at ~$280–300m, driven by machinery fleet renew
 
 ### In Our View
 
-Mota-Engil Africa is an industrial powerhouse with an unmatched 80-year operating heritage on the African continent. Unlike Western construction contractors that retreated from Africa, Mota-Engil leaned into the continent, pairing Portuguese engineering expertise with the financial and geopolitical muscle of its 32% shareholder, Chinese state giant CCCC. Its $10.5 billion order book is exceptionally high quality, composed entirely of funded, multilateral-backed infrastructure and high-margin contract mining contracts (~30% EBITDA margin).
+Mota-Engil Africa is an established industrial contractor with an unmatched 80-year operating heritage on the African continent. Unlike Western construction contractors that retreated from Africa, Mota-Engil leaned into the continent, pairing Portuguese engineering expertise with the financial and geopolitical muscle of its 32% shareholder, Chinese state giant CCCC. Its $10.5 billion order book is exceptionally high quality, composed entirely of funded, multilateral-backed infrastructure and high-margin contract mining contracts (~30% EBITDA margin).
 
 The company's planned $300m debut capital markets bond represents an intriguing upcoming credit opportunity. With 98% of cash flow centralized at the offshore holding company level and hard-currency contracts insulating the business from local currency devaluations, the credit profile is far more robust than typical frontier corporate issuers. The Lobito Corridor rail concession further cements Mota-Engil as a critical geopolitical partner to both the United States and the EU. We view Mota-Engil Africa as a high-potential new issuer to monitor closely.
 
@@ -402,7 +402,7 @@ The company's planned $300m debut capital markets bond represents an intriguing 
 * **Operational resilience during Hormuz disruption**: Closure and shipping disruptions across the Strait of Hormuz prompted Ittihad to rapidly activate alternative logistics corridors through Fujairah, Dibba, and Jebel Ali, maintaining uninterrupted raw material imports (pulp, copper cathode) and product exports to Egypt, Saudi Arabia, and Jordan.
 * **Industrial footprint & core capacities**: Operates dominant manufacturing market shares via Crown Paper Mill (100,000 MT/yr tissue jumbo rolls across Abu Dhabi and Ajman), Ittihad Paper Mill in ICAD II Abu Dhabi (320,000 MT/yr woodfree uncoated printing and writing paper, the largest in MENA), and Union Copper Rod (175,000 MT/yr copper rod facility operating on tolling margins).
 * **Pricing power & margin expansion**: Counterintuitively, EBITDA margins improved during the geopolitical crisis. While Ittihad incurred higher logistics costs, competing imported finished goods (notably Asian tissue and printing paper) were completely blocked by maritime disruptions, enabling Ittihad to implement full cost pass-throughs and gain substantial market share.
-* **Bulk shipping cost advantage**: Ittihad's strategic shift toward importing raw materials via chartered bulk break-bulk vessels rather than containerised freight gave it a massive structural freight cost advantage over competitors who were stranded by sky-high container rates.
+* **Bulk shipping cost advantage**: Ittihad's strategic shift toward importing raw materials via chartered bulk break-bulk vessels rather than containerised freight gave it a massive structural freight cost advantage over competitors who were stranded by elevated container rates.
 * **Healthy cash conversion cycle**: Cash conversion cycle remained stable at 23 days across H1 2026, fully in line with historical 2023–2025 performance. First-half working capital outflows were driven by strategic bulk raw material pre-purchases and inventory timing rather than structural cash burn.
 * **Capital structure & Sukuk headroom**: Leverage remains well contained under 3.0x net debt/EBITDA (targeted 2.5x–2.8x at year-end); comfortable liquidity supported by strong relationship banking lines across Abu Dhabi and the $350m ITTIHD 8.500% 2028 notes.
 
@@ -510,7 +510,7 @@ European refining assets are experiencing terminal structural decline. On top of
 | :--- | :--- |
 | **Global Upstream Capex** | Upstream capital expenditure remains disciplined; oil majors allocating cash to buybacks rather than mega-projects. Maintains structural supply discipline, keeping market tight and supporting medium-term energy debt. |
 | **Downstream Mega-Projects** | New global refining additions concentrated in the Middle East (Al-Zour, Duqm, Jazan) and China (Yulong Petrochemical). Massive, modern complexes capture lowest unit operating costs, depressing older European refining economics. |
-| **Shipping & Tanker Financing** | Clean and dirty tanker freight rates elevated; VLCC and Suezmax charter rates delivering strong cash flow. Maritime logistics bottlenecks generate bumper earnings for commodity transport credits. |
+| **Shipping & Tanker Financing** | Clean and dirty tanker freight rates elevated; VLCC and Suezmax charter rates delivering strong cash flow. Maritime logistics bottlenecks generate strong earnings for commodity transport credits. |
 
 ### Watch Items
 
@@ -672,7 +672,7 @@ Addressing long-standing investor sensitivity regarding Ciner Group corporate go
 
 ### In Our View
 
-WE Soda occupies an enviable position on the global soda ash cost curve. As the world's preeminent natural solution-miner, its production costs in Turkey (~$40–50/ton across Kazan and Eti) and Wyoming (~$80–90/ton) sit at a massive discount to synthetic producers in China and Europe ($180–220/ton), guaranteeing fat EBITDA margins (>40%) even at the cyclical trough of global chemical pricing. The successful collection of >$60m in related-party receivables represents a critical governance milestone that significantly de-risks the credit.
+WE Soda occupies an enviable position on the global soda ash cost curve. As the world's preeminent natural solution-miner, its production costs in Turkey (~$40–50/ton across Kazan and Eti) and Wyoming (~$80–90/ton) sit at a massive discount to synthetic producers in China and Europe ($180–220/ton), guaranteeing healthy EBITDA margins (>40%) even at the cyclical trough of global chemical pricing. The successful collection of >$60m in related-party receivables represents a critical governance milestone that significantly de-risks the credit.
 
 The WESODA 9.500% 2028 notes (trading near par with attractive high-single-digit carry) offer superior risk-reward. By integrating the US Genesis Alkali assets into the credit group, management is creating a genuine transatlantic blue-chip collateral package that should compress borrowing costs when the 2028s are refinanced. We view the ~$570m EBITDA guidance as highly credible and maintain an Overweight stance on WE Soda paper.
 
@@ -768,7 +768,7 @@ From a credit perspective, bondholders are shielded in the near term by the $190
 ### Key Points
 
 * **Core cash generation run-rate**: Group generates approximately $300m in annual EBITDA with high operating cash conversion across its >110,000 km long-haul fiber backbone connecting 14 African nations from Cape Town to Cairo.
-* **Disciplined capex reduction**: Capex guidance for FY26 is capped at $60–70m (primarily maintenance and success-based customer-connection drops), a dramatic decline from historical peaks of $120m+ as the cross-continental fiber mesh reaches operational maturity.
+* **Disciplined capex reduction**: Capex guidance for FY26 is capped at $60–70m (primarily maintenance and success-based customer-connection drops), a sharp decline from historical peaks of $120m+ as the cross-continental fiber mesh reaches operational maturity.
 * **Debt position and upcoming amortisation wall**: Gross debt stood at approximately $880m at Q1, with net debt reduced to ~$770m. However, a major debt test looms on 28 February 2027, when nearly $130m in amortisation payments fall due across USD and ZAR term loans (representing ~1/3 of total term facilities).
 * **Committed $50m equity injection for AI pivot**: Under existing refinancing agreements, shareholders and strategic investors (Cassava Technologies / Strive Masiyiwa) are required to inject an additional $50m in equity into the restricted group by 28-Feb-2027. Proceeds are earmarked to upgrade the fiber grid into an ultra-low-latency 'AI transport network' serving global hyperscalers.
 * **Zimbabwe exposure and upstreaming**: Zimbabwe represents 30–35% of group EBITDA, with collections stabilized at a 60/40 USD/local currency ratio. Cash upstreaming operates steadily in small clips, with group tax expenses largely reflecting Zimbabwe statutory profitability.
@@ -992,7 +992,7 @@ From a credit perspective, First Quantum's senior notes (FMCN 9.375% 2029 and FM
 Conference strategists highlighted the persistent mispricing of EM corporate credit relative to EM sovereigns. Over the past five years, emerging market corporate issuers have operated with rigorous financial conservatism—curbing debt-financed M&A, paying down expensive dollar debt, and extending debt maturity profiles. Consequently, average net leverage (2.4x) and interest coverage (>5.0x) are superior to US and European corporate peers. Crucially, corporate default rates have decoupled from sovereign distress, demonstrating that private sector champions can thrive even within macro-challenged jurisdictions.
 
 **The technical tailwind of negative net debt issuance.**  
-The conference placed heavy emphasis on favorable supply-demand technicals. Because EM corporate CFOs prioritized cash preservation and utilized local banking markets, gross Eurobond issuance has fallen far short of scheduled debt amortisation. With more than $60bn in net negative supply exiting the market in 2026, institutional investors facing large cash coupon reinvestment needs are forced to bid for secondary paper, creating an impenetrable technical floor for bond prices.
+The conference placed heavy emphasis on favorable supply-demand technicals. Because EM corporate CFOs prioritized cash preservation and utilized local banking markets, gross Eurobond issuance has fallen far short of scheduled debt amortisation. With more than $60bn in net negative supply exiting the market in 2026, institutional investors facing large cash coupon reinvestment needs are forced to bid for secondary paper, creating an strong technical floor for bond prices.
 
 **Navigating the global easing cycle and crossover inflows.**  
 With the US Fed and ECB actively cutting policy rates, cash yields on developed money market funds are collapsing from 5% toward 3%. This is driving global asset allocators into emerging market corporate fixed income to preserve yield. Strategists noted that institutional 'crossover' investors (US and European high-yield and investment-grade managers) are allocating aggressively to BB-rated EM corporates, where they can capture 150–200 bps of spread pick-up without taking excessive default risk.
@@ -1050,7 +1050,7 @@ The combination of global monetary easing and severe negative net supply creates
 * **Fiscal framework credibility under pressure**: The fiscal framework (arcabouço fiscal) is facing extreme credibility strains: mandatory social spending growth (health, education, social security) is colliding with revenue shortfalls, leaving the primary surplus targets consistently missed without aggressive accounting maneuvers.
 * **Debt-to-GDP trajectory approaching 80%**: Gross general government debt is projected to approach 80–82% of GDP by late 2026 / 2027, raising alarms among institutional investors regarding long-term fiscal solvency in the absence of constitutional spending caps.
 * **Central bank autonomy under Galípolo**: The upcoming leadership transition at the Banco Central do Brasil (BCB) is under intense market scrutiny. The incoming governor (Gabriel Galípolo) must establish anti-inflation credibility and prove institutional independence from executive pressure to slash Selic interest rates prematurely.
-* **Agribusiness and commodity buffer**: Brazil's structural trade surplus remains exceptionally robust ($80–90bn annualised), driven by bumper soybean, corn, and iron ore export volumes, providing an essential balance-of-payments cushion that defends the Brazilian Real (BRL).
+* **Agribusiness and commodity buffer**: Brazil's structural trade surplus remains exceptionally robust ($80–90bn annualised), driven by high soybean, corn, and iron ore export volumes, providing an essential balance-of-payments cushion that defends the Brazilian Real (BRL).
 * **Market reform pricing**: Fixed-income markets are already pricing a substantial fiscal risk premium into the NTN-F and sovereign Eurobond curves, creating asymmetrical upside if post-election politics deliver structural administrative and tax reform.
 
 ### Takeaways
@@ -1065,7 +1065,7 @@ Economists presented a detailed critique of Finance Minister Fernando Haddad's f
 The panel addressed market anxiety surrounding the monetary policy committee (Copom) as Gabriel Galípolo assumes the governorship. To anchor de-anchored inflation expectations and prevent a sharp depreciation of the BRL, Copom will be forced to maintain a restrictive Selic policy rate (running at high real interest rates of 6.0–7.0%). Panelists argued that any political surrender to executive pressure for rate cuts would immediately steepen the yield curve and trigger capital flight.
 
 **The agricultural and energy balance-of-payments shield.**  
-Crucially, panelists highlighted that Brazil does not face an external solvency crisis. Foreign exchange reserves exceed $350bn, external debt is low, and the trade surplus continues to smash records thanks to agricultural productivity and offshore pre-salt oil production from Petrobras. This external strength isolates Brazil from traditional balance-of-payments crises, meaning the sovereign risk is entirely fiscal and domestic.
+Crucially, panelists highlighted that Brazil does not face an external solvency crisis. Foreign exchange reserves exceed $350bn, external debt is low, and the trade surplus remains at record levels thanks to agricultural productivity and offshore pre-salt oil production from Petrobras. This external strength isolates Brazil from traditional balance-of-payments crises, meaning the sovereign risk is entirely fiscal and domestic.
 
 
 ### Guidance — Brazil Election
@@ -1169,7 +1169,7 @@ The balance sheet is funded by a conservative blend of equity, accumulated retai
 
 ### In Our View
 
-Arada is managing the real estate cycle with exemplary institutional discipline. While many regional developers accelerated speculative launches into the 2024–2025 market peak, Arada's management proactively pulled back in early 2026—cutting discretionary capex, pausing land purchases, deferring dividends, and amassing a near-$1bn cash fortress ($620m unrestricted). This conservative posture drastically reduces default risk for bondholders.
+Arada is managing the real estate cycle with exemplary institutional discipline. While many regional developers accelerated speculative launches into the 2024–2025 market peak, Arada's management proactively pulled back in early 2026—cutting discretionary capex, pausing land purchases, deferring dividends, and amassing a near-$1bn cash position ($620m unrestricted). This conservative posture drastically reduces default risk for bondholders.
 
 The ARADA 8.000% 2029 Sukuk represents one of the highest-quality high-yield paper names in the GCC. With unrestricted cash alone covering the entire $500m Sukuk issuance and active projects 65% pre-sold with matched escrow funding, the credit provides an exceptional risk-adjusted yield (~7.8–8.1%). We view Arada as an anchor Overweight allocation within GCC real estate, supported by unbeatable royal sponsor backing and structural dominance in the Sharjah end-user market.
 

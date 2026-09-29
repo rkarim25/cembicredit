@@ -559,7 +559,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
-    "days_to_earnings": 48
+    "days_to_earnings": 44
   },
   "management_questions": [
     {
@@ -777,6 +777,19 @@
       "date": "2026-09-28",
       "period_name": "2026-09-28",
       "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "B+ / Ba3",
+      "price": 98.5,
+      "ytm": 8.45,
+      "spread_bp": 410,
+      "net_leverage": 1.58,
+      "ebitda": 2250.0,
+      "fcf": 376.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
       "rating": "B+ / Ba3",
       "price": 98.5,
       "ytm": 8.45,

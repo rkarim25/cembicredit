@@ -560,7 +560,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
-    "days_to_earnings": 48
+    "days_to_earnings": 44
   },
   "management_questions": [
     {
@@ -771,6 +771,19 @@
       "date": "2026-09-28",
       "period_name": "2026-09-28",
       "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "A2 / A-",
+      "price": 97.8,
+      "ytm": 5,
+      "spread_bp": 95,
+      "net_leverage": 1.1,
+      "ebitda": 2800,
+      "fcf": 547.3,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
       "rating": "A2 / A-",
       "price": 97.8,
       "ytm": 5,
