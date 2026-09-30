@@ -561,7 +561,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/SOLSJ",
-    "days_to_earnings": 44
+    "days_to_earnings": 42
   },
   "management_questions": [
     {
@@ -792,6 +792,19 @@
       "date": "2026-09-29",
       "period_name": "2026-09-29",
       "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "BB+ / Ba1",
+      "price": 98.4,
+      "ytm": 7.85,
+      "spread_bp": 365,
+      "net_leverage": 2.37,
+      "ebitda": 2450.0,
+      "fcf": -230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
       "rating": "BB+ / Ba1",
       "price": 98.4,
       "ytm": 7.85,

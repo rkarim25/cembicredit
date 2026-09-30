@@ -558,7 +558,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/SECO",
-    "days_to_earnings": 44
+    "days_to_earnings": 42
   },
   "management_questions": [
     {
@@ -789,6 +789,19 @@
       "date": "2026-09-29",
       "period_name": "2026-09-29",
       "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "A1 / A",
+      "price": 99.2,
+      "ytm": 5.15,
+      "spread_bp": 110,
+      "net_leverage": 3.2,
+      "ebitda": 8400.0,
+      "fcf": -3030.2,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
       "rating": "A1 / A",
       "price": 99.2,
       "ytm": 5.15,

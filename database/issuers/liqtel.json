@@ -564,7 +564,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
-    "days_to_earnings": 44
+    "days_to_earnings": 42
   },
   "management_questions": [
     {
@@ -788,6 +788,19 @@
       "date": "2026-09-29",
       "period_name": "2026-09-29",
       "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "B- / Caa1",
+      "price": 104.22,
+      "ytm": 9.58,
+      "spread_bp": 471,
+      "net_leverage": 4.13,
+      "ebitda": 185.0,
+      "fcf": 26.8,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
       "rating": "B- / Caa1",
       "price": 104.22,
       "ytm": 9.58,

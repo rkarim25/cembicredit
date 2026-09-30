@@ -101,7 +101,7 @@ for fname in issuer_files:
         "confirmation_status": sched["status"],
         "call_time": sched["time"],
         "ir_webcast_url": sched["url"],
-        "days_to_earnings": max(0, (datetime.strptime(sched["date"], "%Y-%m-%d") - datetime(2026, 9, 29)).days)
+        "days_to_earnings": max(0, (datetime.strptime(sched["date"], "%Y-%m-%d") - datetime.now()).days)
     }
     
     with open(fpath, "w", encoding="utf-8") as f:

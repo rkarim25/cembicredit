@@ -26,6 +26,51 @@ DB_SQLITE = os.path.join(REPO_ROOT, "database", "credit_master.db")
 
 CREDIT_NEWS_DATA = [
   {
+    "id": "NEWS-2026-09-30-01",
+    "date": "2026-09-30",
+    "ticker": "BRKISM",
+    "issuer_name": "Braskem S.A.",
+    "headline": "São Paulo Court Lifts Financing Unit Protections as Bondholders Demand $3B Petrobras Equity Ahead of Oct 9 Restructuring Milestone",
+    "source": "São Paulo Bankruptcy Court / Argus / Bloomberg Restructuring Desk",
+    "url": "https://www.braskem.com.br/investor-relations",
+    "category": "Company Specific",
+    "macro_transmission_channel": "Restructuring Standstill Friction, Offshore Subsidiary Protection & Sponsor Equity Backstop",
+    "credit_impact": "Watch",
+    "impacted_issuers": ["BRKISM"],
+    "concise_analysis": "A São Paulo bankruptcy court lifted creditor protections for two offshore financing entities (Braskem Netherlands and Braskem America Finance) and issued an injunction blocking extraordinary cash transfers to Braskem Idesa in Mexico. Meanwhile, the ad-hoc creditor committee is demanding a $3B fresh equity commitment from Petrobras and IG4 Capital before the October 9 negotiation progress checkpoint.",
+    "credit_commentary": "The lifting of subsidiary stay protections escalates legal leverage against Braskem, while Petrobras maintains strict conditionality against unreciprocated capital injections. Secondary notes trade depressed at 60-65¢ as the 90-day consensual window approaches key October deadlines; failure to establish a framework risks formal judicial reorganization."
+  },
+  {
+    "id": "NEWS-2026-09-30-02",
+    "date": "2026-09-30",
+    "ticker": "MACRO-CEMBI",
+    "issuer_name": "J.P. Morgan CEMBI / Emerging Market Corporate Research Desk",
+    "headline": "CEMBI Broad Spreads Anchor at 151 bps (IG: 92 bps, HY: 271 bps); Corporate Fundamentals Insulate Against US Yield Selloff",
+    "source": "J.P. Morgan Emerging Markets Research / Index Disclosures",
+    "url": "https://www.jpmorgan.com/insights/markets/emerging-markets",
+    "category": "Capital Markets",
+    "macro_transmission_channel": "Index Technical Spread Compression & EMD Corporate Cash Flow Resilience",
+    "credit_impact": "Positive",
+    "impacted_issuers": ["ZOREN", "ARAGVI", "SISE", "TUPRS", "KMG", "DANGCEM", "TAQA", "MOL"],
+    "concise_analysis": "J.P. Morgan reported CEMBI Broad Diversified spreads holding resilient at 151 bps (-5 bps weekly change), with Investment Grade at 92 bps and High Yield at 271 bps, despite 10Y UST yields pressing 5.00%. Note: J.P. Morgan's September methodology adjustment excluding defaulted bonds from aggregate index calculations continues to provide optical spread compression.",
+    "credit_commentary": "Underlying EM corporate balance sheets remain well-hedged with robust net leverage headroom (averaging <2.4x net debt/EBITDA across investment-grade CEEMEA). Conservative cash conservation and strong ex-ante real yields continue to buffer spreads against external duration headwinds."
+  },
+  {
+    "id": "NEWS-2026-09-30-03",
+    "date": "2026-09-30",
+    "ticker": "ZOREN",
+    "issuer_name": "Zorlu Enerji Elektrik Üretim A.Ş.",
+    "headline": "Zorlu Enerji Advances Bank Syndicate Bilateral Framework on KAP Disclosure; 190.6% Asset Coverage Anchors Oct 23 Coupon",
+    "source": "Kamuyu Aydınlatma Platformu (KAP) / Borsa Istanbul Debt Securities Market",
+    "url": "https://www.kap.org.tr/en/",
+    "category": "Company Specific",
+    "macro_transmission_channel": "Domestic Bank Consortium Refinancing & Geothermal Hard-Currency Cash Flow Floor",
+    "credit_impact": "Positive",
+    "impacted_issuers": ["ZOREN"],
+    "concise_analysis": "Following updated credit rating disclosures on KAP on September 28, Zorlu Enerji continues bilateral discussions with primary domestic syndicate banks (İşbank, Garanti BBVA) alongside financial adviser Houlihan Lokey to solidify an operational debt service framework ahead of its $33.75M semiannual Eurobond coupon due October 23, 2026.",
+    "credit_commentary": "Strong asset coverage of 190.6% ($2,598M EV vs $1,363M Net Debt) and sustained dollar revenues from renewable geothermal/wind assets provide solid backing for consensual 3-year extension talks. Secondary 2026 notes trade at 94.5¢ reflecting high conviction in par recovery."
+  },
+  {
     "id": "NEWS-2026-09-29-01",
     "date": "2026-09-29",
     "ticker": "MACRO-TURK",

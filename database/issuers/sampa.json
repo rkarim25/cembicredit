@@ -553,7 +553,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/SAMPA",
-    "days_to_earnings": 44
+    "days_to_earnings": 42
   },
   "management_questions": [
     {
@@ -784,6 +784,19 @@
       "date": "2026-09-29",
       "period_name": "2026-09-29",
       "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "B / B2 Implied",
+      "price": 97.5,
+      "ytm": 10.4,
+      "spread_bp": 600,
+      "net_leverage": 1.54,
+      "ebitda": 78.0,
+      "fcf": 8.7,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
       "rating": "B / B2 Implied",
       "price": 97.5,
       "ytm": 10.4,
