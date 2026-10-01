@@ -560,7 +560,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
-    "days_to_earnings": 42
+    "days_to_earnings": 41
   },
   "management_questions": [
     {
@@ -804,6 +804,19 @@
       "date": "2026-09-30",
       "period_name": "2026-09-30",
       "timestamp": "2026-09-30T05:16:57.000293",
+      "rating": "CCC / Caa3",
+      "price": 68.5,
+      "ytm": 18.5,
+      "spread_bp": 1410,
+      "net_leverage": 3.02,
+      "ebitda": 420.0,
+      "fcf": -100.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-01",
+      "period_name": "2026-10-01",
+      "timestamp": "2026-10-01T05:16:24.259494",
       "rating": "CCC / Caa3",
       "price": 68.5,
       "ytm": 18.5,

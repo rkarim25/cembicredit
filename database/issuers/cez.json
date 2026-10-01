@@ -560,7 +560,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "10:00 Prague / 09:00 UK",
     "ir_webcast_url": "https://www.cez.cz/en/investors",
-    "days_to_earnings": 40
+    "days_to_earnings": 39
   },
   "management_questions": [
     {
@@ -804,6 +804,19 @@
       "date": "2026-09-30",
       "period_name": "2026-09-30",
       "timestamp": "2026-09-30T05:16:57.000293",
+      "rating": "A- / A3",
+      "price": 99.8,
+      "ytm": 4.95,
+      "spread_bp": 90,
+      "net_leverage": 1.4,
+      "ebitda": 4200,
+      "fcf": -1083.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-01",
+      "period_name": "2026-10-01",
+      "timestamp": "2026-10-01T05:16:24.259494",
       "rating": "A- / A3",
       "price": 99.8,
       "ytm": 4.95,

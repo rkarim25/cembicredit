@@ -26,6 +26,36 @@ DB_SQLITE = os.path.join(REPO_ROOT, "database", "credit_master.db")
 
 CREDIT_NEWS_DATA = [
   {
+    "id": "NEWS-2026-10-01-01",
+    "date": "2026-10-01",
+    "ticker": "BRKISM",
+    "issuer_name": "Braskem S.A.",
+    "headline": "Braskem-Petrobras Standoff Deepens Over Demanded $3B Equity Injection as Oct 9 Consensual Restructuring Deadline Looms",
+    "source": "São Paulo Bankruptcy Court / Bloomberg Restructuring / ICIS",
+    "url": "https://www.braskem.com.br/investor-relations",
+    "category": "Company Specific",
+    "macro_transmission_channel": "Out-of-Court Restructuring Impasse, Petrobras Conditionality & Injunction on Mexican Unit Payments",
+    "credit_impact": "Negative",
+    "impacted_issuers": ["BRKISM"],
+    "concise_analysis": "As October begins, negotiations over Braskem's $11B debt restructuring remain deadlocked. Creditors are demanding a $3B capital injection, but Petrobras CEO Magda Chambriard reiterated that Petrobras will not provide unilateral equity or increase its stake without equal capital commitment from IG4 Capital. Secondary notes trade at 58-62¢ ahead of the crucial October 9 consensual progress checkpoint, with creditors threatening to force a formal judicial reorganization if terms are not reached.",
+    "credit_commentary": "The widening rift between ad-hoc bondholders and controlling shareholders Petrobras/IG4 severely limits recovery optionality. With the São Paulo court already stripping financing unit protections and blocking support to Braskem Idesa, debt holders face heightened risk of a disorderly in-court filing. Senior unsecured recovery estimates compress to 55-60¢ under a non-consensual scenario."
+  },
+  {
+    "id": "NEWS-2026-10-01-02",
+    "date": "2026-10-01",
+    "ticker": "MACRO-CEMBI",
+    "issuer_name": "J.P. Morgan CEMBI / Emerging Market Corporate Research Desk",
+    "headline": "CEMBI Spread Dispersion Widens in Q4 Kickoff as 10Y UST Yield Touches 5.00%; High-Grade CEEMEA Insulated by High Liquidity Buffers",
+    "source": "J.P. Morgan Emerging Markets Research / Index Disclosures",
+    "url": "https://www.jpmorgan.com/insights/markets/emerging-markets",
+    "category": "Capital Markets",
+    "macro_transmission_channel": "Global Duration Selloff, Sovereign-to-Corporate Yield Floor & Refinancing Bifurcation",
+    "credit_impact": "Watch",
+    "impacted_issuers": ["ZOREN", "ARAGVI", "SISE", "TUPRS", "KMG", "DANGCEM", "TAQA", "MOL"],
+    "concise_analysis": "Q4 2026 opened with intensified rate volatility as the 10-year US Treasury yield touched 5.00%, driving CEMBI High Yield spreads wider by +18 bps while Investment Grade corporate spreads held firm at 92-95 bps. Over $18B in new debt was priced in late September across sovereign and blue-chip corporate names, but single-B and CCC issuers face prohibitive coupons exceeding 10.5%.",
+    "credit_commentary": "The bifurcation between high-grade CEEMEA issuers (GCC utilities, blue-chip exporters) and speculative-grade credits is accelerating. Issuers with upcoming 2027 maturities without committed revolving credit lines or hard-currency export cash flows face severe refinancing headwinds."
+  },
+  {
     "id": "NEWS-2026-09-30-01",
     "date": "2026-09-30",
     "ticker": "BRKISM",
