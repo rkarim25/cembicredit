@@ -1,0 +1,119 @@
+{
+  "country": "Angola",
+  "region": "Africa",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "managed float (AOA/USD ~912-913)",
+    "period": "",
+    "source": "BNA",
+    "asof": "Sep-26"
+  },
+  "commodity_exposure": {
+    "value": "Oil exporter: crude 1.00-1.05M bpd after Jan-24 OPEC exit; Brent drives fiscal and external accounts",
+    "period": "",
+    "source": "ANPG / IMF",
+    "asof": "May-26"
+  },
+  "politics": {
+    "next_election": "Aug-27 (general)",
+    "note": "MPLA majority since 2022 election",
+    "source": "Government of Angola",
+    "asof": "May-26"
+  },
+  "indicators": {
+    "real_gdp_growth_pct": {
+      "value": 3.6,
+      "period": "2026E",
+      "source": "IMF",
+      "asof": "May-26"
+    },
+    "cpi_latest_yoy_pct": {
+      "value": 8.78,
+      "period": "Aug-26",
+      "source": "INE",
+      "asof": "Sep-26"
+    },
+    "policy_rate_pct": {
+      "value": 14.75,
+      "period": "Sep-26",
+      "source": "BNA",
+      "asof": "Sep-26"
+    },
+    "current_account_pct_gdp": {
+      "value": 2.2,
+      "period": "2026E",
+      "source": "BNA / IMF",
+      "asof": "May-26"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 14.9,
+      "period": "Q2-26",
+      "source": "BNA",
+      "asof": "Jun-26",
+      "definition": "gross international reserves"
+    },
+    "import_cover_months": {
+      "value": 6.8,
+      "period": "Q2-26",
+      "source": "BNA",
+      "asof": "Jun-26"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 49.2,
+      "period": "end-2025",
+      "source": "MINFIN / IMF",
+      "asof": "May-26",
+      "definition": "public debt"
+    },
+    "eurobonds_outstanding_usd_bn": {
+      "value": 13.06,
+      "period": "Sep-26",
+      "source": "MINFIN / UGD",
+      "asof": "Sep-26"
+    },
+    "next_eurobond_maturity": {
+      "value": "09-May-28 $1.75B 8.250%",
+      "period": "",
+      "source": "MINFIN / UGD",
+      "asof": "Sep-26"
+    }
+  },
+  "ratings": {
+    "moodys": {
+      "rating": "B3",
+      "outlook": "Positive",
+      "date": "25-Sep-26"
+    },
+    "sp": {
+      "rating": "B-",
+      "outlook": "Stable",
+      "date": "14-Aug-26"
+    },
+    "fitch": {
+      "rating": "B-",
+      "outlook": "Stable",
+      "date": "08-May-26"
+    }
+  },
+  "series": {
+    "real_gdp_growth_pct": {
+      "2026E": 3.6
+    },
+    "gov_debt_pct_gdp": {
+      "2025": 49.2
+    },
+    "current_account_pct_gdp": {
+      "2026E": 2.2
+    }
+  },
+  "series_sources": {
+    "gov_debt_pct_gdp": "MINFIN / IMF, May-26"
+  },
+  "slug": "angola",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 5.97,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "country": "Iraq",
+  "region": "Middle East",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "official rate devalued 15.2% to 1,520 IQD/USD on 07-Oct-26; parallel above 1,700",
+    "period": "",
+    "source": "Central Bank of Iraq",
+    "asof": "07-Oct-26"
+  },
+  "commodity_exposure": {
+    "value": "Oil over 90% of fiscal revenue and 95% of exports; OPEC+ quota ~3.9 mbpd; fiscal breakeven above $90/bbl",
+    "period": "",
+    "source": "IMF",
+    "asof": "20-May-25"
+  },
+  "imf": {
+    "programme": "None (Article IV / Post-Financing Assessment)",
+    "size_usd_bn": null,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "20-May-25"
+  },
+  "indicators": {
+    "real_gdp_growth_pct": {
+      "value": -6.8,
+      "period": "2026E",
+      "source": "IMF",
+      "asof": "20-May-25"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 80.6,
+      "period": "Jul-26",
+      "source": "Central Bank of Iraq",
+      "asof": "31-Jul-26",
+      "definition": "gross official FX reserves; $97.4bn end-2025"
+    },
+    "import_cover_months": {
+      "value": 9.6,
+      "period": "Jul-26",
+      "source": "Central Bank of Iraq",
+      "asof": "31-Jul-26"
+    },
+    "parallel_fx_premium_pct": {
+      "value": 11.8,
+      "period": "07-Oct-26",
+      "source": "Central Bank of Iraq / press",
+      "asof": "07-Oct-26",
+      "definition": "computed: parallel ~1,700 vs official 1,520"
+    },
+    "eurobonds_outstanding_usd_bn": {
+      "value": 0.506,
+      "period": "08-Oct-26",
+      "source": "LuxSE / Bondblox",
+      "asof": "08-Oct-26",
+      "definition": "single amortising 5.80% 2028"
+    },
+    "next_eurobond_maturity": {
+      "value": "15-Jan-28 $506.25m 5.80% (XS0240295575)",
+      "period": "",
+      "source": "LuxSE",
+      "asof": "08-Oct-26"
+    }
+  },
+  "ratings": {
+    "sp": {
+      "rating": "B-",
+      "outlook": "Negative",
+      "date": "12-Jun-26"
+    },
+    "moodys": {
+      "rating": "Caa1",
+      "outlook": "Negative",
+      "date": "21-Apr-26"
+    },
+    "fitch": {
+      "rating": "B-",
+      "outlook": "Stable",
+      "date": "24-Nov-25"
+    }
+  },
+  "series": {
+    "real_gdp_growth_pct": {
+      "2026E": -6.8
+    },
+    "gross_reserves_usd_bn": {
+      "2025": 97.4
+    }
+  },
+  "series_sources": {},
+  "slug": "iraq",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {}
+}

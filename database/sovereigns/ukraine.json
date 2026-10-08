@@ -1,0 +1,95 @@
+{
+  "country": "Ukraine",
+  "region": "Europe",
+  "fiscal_year": "Calendar year",
+  "commodity_exposure": {
+    "value": "Grain and steel exporter under wartime port and asset attacks; energy importer; financing by IMF EFF and EU Ukraine Facility",
+    "period": "",
+    "source": "NBU / IMF",
+    "asof": "Oct-26"
+  },
+  "imf": {
+    "programme": "EFF (4-year)",
+    "size_usd_bn": 15.6,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "20-Jul-26"
+  },
+  "politics": {
+    "next_election": null,
+    "note": "Paris Club bilateral debt service suspension expires 31-Mar-27",
+    "source": "Paris Club",
+    "asof": "Mar-23"
+  },
+  "indicators": {
+    "cpi_latest_yoy_pct": {
+      "value": 8.1,
+      "period": "Aug-26",
+      "source": "Ukrstat",
+      "asof": "Sep-26",
+      "definition": "core 8.1%"
+    },
+    "policy_rate_pct": {
+      "value": 16.0,
+      "period": "18-Sep-26",
+      "source": "NBU",
+      "asof": "18-Sep-26",
+      "definition": "raised 50 bps"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 47.1,
+      "period": "01-Oct-26",
+      "source": "NBU",
+      "asof": "06-Oct-26",
+      "definition": "gross international reserves; $48.7B end-Aug-26"
+    },
+    "import_cover_months": {
+      "value": 5.6,
+      "period": "01-Oct-26",
+      "source": "NBU",
+      "asof": "06-Oct-26"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 98.4,
+      "period": "end-2025",
+      "source": "Ministry of Finance / IMF",
+      "asof": "Jul-26",
+      "definition": "state debt; 2026 projected 105-122.6%"
+    }
+  },
+  "ratings": {
+    "sp": {
+      "rating": "CCC+",
+      "outlook": "Stable",
+      "date": "22-Jan-26"
+    },
+    "fitch": {
+      "rating": "CCC",
+      "outlook": null,
+      "date": "22-Dec-25"
+    },
+    "moodys": {
+      "rating": "Ca",
+      "outlook": null,
+      "date": "Jan-26"
+    }
+  },
+  "series": {
+    "gov_debt_pct_gdp": {
+      "2025": 98.4
+    },
+    "gross_reserves_usd_bn": {
+      "2026E": 47.1
+    }
+  },
+  "series_sources": {},
+  "slug": "ukraine",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 7.9,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

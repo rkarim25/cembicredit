@@ -1,0 +1,120 @@
+{
+  "country": "Egypt",
+  "region": "Middle East",
+  "fiscal_year": "Jul-Jun",
+  "fx_regime": {
+    "value": "float since Mar-24; parallel premium eliminated",
+    "period": "",
+    "source": "CBE",
+    "asof": "Oct-26"
+  },
+  "commodity_exposure": {
+    "value": "Oil/gas and wheat importer; Suez Canal receipts down 50-60% (Red Sea); remittances and tourism",
+    "period": "",
+    "source": "Suez Canal Authority",
+    "asof": "Sep-26"
+  },
+  "imf": {
+    "programme": "EFF",
+    "size_usd_bn": 8.0,
+    "approved": null,
+    "next_review": "15-Dec-26 (8th and final)",
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "31-Jul-26"
+  },
+  "indicators": {
+    "cpi_latest_yoy_pct": {
+      "value": 12.7,
+      "period": "Aug-26",
+      "source": "CAPMAS",
+      "asof": "10-Sep-26",
+      "definition": "nationwide headline; urban 14.5%"
+    },
+    "policy_rate_pct": {
+      "value": 19.0,
+      "period": "24-Sep-26",
+      "source": "CBE",
+      "asof": "24-Sep-26",
+      "definition": "overnight deposit rate; lending 20.0%"
+    },
+    "net_reserves_usd_bn": {
+      "value": 57.35,
+      "period": "end-Sep-26",
+      "source": "CBE",
+      "asof": "07-Oct-26",
+      "definition": "net international reserves"
+    },
+    "import_cover_months": {
+      "value": 7.5,
+      "period": "end-Sep-26",
+      "source": "CBE",
+      "asof": "07-Oct-26",
+      "definition": "stated as over 7.5"
+    },
+    "primary_balance_pct_gdp": {
+      "value": 4.0,
+      "period": "FY25/26 budget",
+      "source": "Ministry of Finance",
+      "asof": "Sep-26"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 79.7,
+      "period": "Q2-26",
+      "source": "Ministry of Finance / IIF",
+      "asof": "Jun-26",
+      "definition": "budget sector debt"
+    },
+    "interest_pct_revenue": {
+      "value": 50.0,
+      "period": "FY25/26",
+      "source": "Ministry of Finance / IIF",
+      "asof": "Jun-26",
+      "definition": "stated as exceeding 50% of budget revenue"
+    },
+    "next_eurobond_maturity": {
+      "value": "01-Mar-29 $2.0B 7.600% (earliest of listed benchmarks)",
+      "period": "",
+      "source": "LuxSE / MoF",
+      "asof": "Oct-26"
+    }
+  },
+  "ratings": {
+    "sp": {
+      "rating": "B",
+      "outlook": "Stable",
+      "date": "10-Oct-25"
+    },
+    "fitch": {
+      "rating": "B",
+      "outlook": "Stable",
+      "date": "01-Nov-24"
+    },
+    "moodys": {
+      "rating": "Caa1",
+      "outlook": "Positive",
+      "date": "18-Mar-24"
+    }
+  },
+  "series": {
+    "primary_balance_pct_gdp": {
+      "FY24/25": 3.5,
+      "FY25/26E": 4.0
+    },
+    "gov_debt_pct_gdp": {
+      "FY23/24": 96.4,
+      "2026E": 79.7
+    }
+  },
+  "series_sources": {
+    "primary_balance_pct_gdp": "Ministry of Finance, Sep-26",
+    "gov_debt_pct_gdp": "Ministry of Finance / IIF, Jun-26"
+  },
+  "slug": "egypt",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 6.3,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

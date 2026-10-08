@@ -1,0 +1,106 @@
+{
+  "country": "Cote d'Ivoire",
+  "region": "Africa",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "CFA franc pegged to EUR at 655.957 (WAEMU)",
+    "period": "",
+    "source": "BCEAO",
+    "asof": "Sep-26"
+  },
+  "commodity_exposure": {
+    "value": "Cocoa, cashew, gold; oil and gas ramp (Baleine Phase 3 FID May-26: 150k bpd, 200 mmcf/d)",
+    "period": "",
+    "source": "Eni / INS",
+    "asof": "May-26"
+  },
+  "imf": {
+    "programme": "EFF/ECF ($3.5B) and RSF ($1.3B) completed Jun-26",
+    "size_usd_bn": 4.8,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": "low",
+    "source": "IMF",
+    "asof": "Jun-26"
+  },
+  "politics": {
+    "next_election": null,
+    "note": "Ouattara re-elected 25-Oct-25 (89.8%)",
+    "source": "CEI",
+    "asof": "Oct-25"
+  },
+  "indicators": {
+    "real_gdp_growth_pct": {
+      "value": 6.0,
+      "period": "2026E",
+      "source": "IMF",
+      "asof": "Jun-26"
+    },
+    "cpi_latest_yoy_pct": {
+      "value": 1.2,
+      "period": "Aug-26",
+      "source": "INS",
+      "asof": "Aug-26"
+    },
+    "policy_rate_pct": {
+      "value": 3.0,
+      "period": "09-Sep-26",
+      "source": "BCEAO",
+      "asof": "09-Sep-26",
+      "definition": "BCEAO main rate; marginal lending 5.0%"
+    },
+    "fiscal_balance_pct_gdp": {
+      "value": -3.8,
+      "period": "2026E",
+      "source": "IMF / Ministry of Finance",
+      "asof": "Jun-26"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 55.1,
+      "period": "2026E",
+      "source": "IMF / Ministry of Finance",
+      "asof": "Jun-26"
+    }
+  },
+  "ratings": {
+    "sp": {
+      "rating": "BB",
+      "outlook": "Stable",
+      "date": "14-Nov-25"
+    },
+    "fitch": {
+      "rating": "BB",
+      "outlook": "Stable",
+      "date": "12-Jun-26"
+    },
+    "moodys": {
+      "rating": "Ba2",
+      "outlook": "Stable",
+      "date": "Mar-26"
+    }
+  },
+  "series": {
+    "real_gdp_growth_pct": {
+      "2025": 6.5,
+      "2026E": 6.0
+    },
+    "gov_debt_pct_gdp": {
+      "2025": 56.3,
+      "2026E": 55.1
+    },
+    "fiscal_balance_pct_gdp": {
+      "2026E": -3.8
+    }
+  },
+  "series_sources": {
+    "real_gdp_growth_pct": "IMF, Jun-26",
+    "gov_debt_pct_gdp": "IMF / Ministry of Finance, Jun-26"
+  },
+  "slug": "cote-d-ivoire",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 1.8,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

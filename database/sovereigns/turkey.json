@@ -1,0 +1,124 @@
+{
+  "country": "Turkey",
+  "region": "Europe",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "managed float",
+    "period": "",
+    "source": "TCMB",
+    "asof": "Sep-26"
+  },
+  "commodity_exposure": {
+    "value": "Energy importer; tourism and exports; investment-fund liquidation crisis (131 funds, >USD 18bn) in Sep-26",
+    "period": "",
+    "source": "run 2026-10-07_2235",
+    "asof": "Oct-26"
+  },
+  "imf": {
+    "programme": "None (Article IV)",
+    "size_usd_bn": null,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "2026"
+  },
+  "indicators": {
+    "cpi_latest_yoy_pct": {
+      "value": 29.73,
+      "period": "Sep-26",
+      "source": "TurkStat",
+      "asof": "03-Oct-26",
+      "definition": "core CPI-C 28.70%"
+    },
+    "policy_rate_pct": {
+      "value": 37.0,
+      "period": "Sep-26",
+      "source": "TCMB",
+      "asof": "Sep-26",
+      "definition": "1-week repo; definition of 37% (repo vs overnight lending) was an open item"
+    },
+    "current_account_pct_gdp": {
+      "value": -2.7,
+      "period": "FY26E",
+      "source": "TCMB",
+      "asof": "Jul-26",
+      "definition": "projected 2.6-2.8% deficit; Jul-26 monthly surplus $36M"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 61.56,
+      "period": "25-Sep-26",
+      "source": "TCMB",
+      "asof": "25-Sep-26",
+      "definition": "FX reserves ex gold; total gross incl. gold $174.4B at 18-Sep-26 (run 2026-10-07_2235)"
+    },
+    "short_term_external_debt_usd_bn": {
+      "value": 170.7,
+      "period": "30-Jun-26",
+      "source": "TCMB",
+      "asof": "30-Jun-26",
+      "definition": "remaining maturity, all sectors"
+    },
+    "external_debt_pct_gdp": {
+      "value": 31.8,
+      "period": "30-Jun-26",
+      "source": "HMB",
+      "asof": "30-Jun-26",
+      "definition": "gross external debt stock $539.0B"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 29.5,
+      "period": "Q2-26",
+      "source": "HMB",
+      "asof": "30-Jun-26",
+      "definition": "central government"
+    },
+    "fiscal_balance_pct_gdp": {
+      "value": -5.2,
+      "period": "FY26E",
+      "source": "HMB",
+      "asof": "Aug-26",
+      "definition": "central government budget, tracking"
+    }
+  },
+  "ratings": {
+    "fitch": {
+      "rating": "BB-",
+      "outlook": "Stable",
+      "date": "17-Jul-26"
+    },
+    "sp": {
+      "rating": "BB-",
+      "outlook": "Stable",
+      "date": "17-Apr-26"
+    },
+    "moodys": {
+      "rating": "Ba3",
+      "outlook": "Stable",
+      "date": "Jan-26"
+    }
+  },
+  "series": {
+    "fiscal_balance_pct_gdp": {
+      "2026E": -5.2
+    },
+    "current_account_pct_gdp": {
+      "2026E": -2.7
+    },
+    "gov_debt_pct_gdp": {
+      "2026E": 29.5
+    },
+    "external_debt_pct_gdp": {
+      "2026E": 31.8
+    }
+  },
+  "series_sources": {},
+  "slug": "turkey",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 7.27,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+    "reserves_to_std": 0.36
+  }
+}

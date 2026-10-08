@@ -1,0 +1,115 @@
+{
+  "country": "Morocco",
+  "region": "Middle East",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "basket peg 60% EUR / 40% USD, +/-5% band",
+    "period": "",
+    "source": "Bank Al-Maghrib",
+    "asof": "Sep-26"
+  },
+  "commodity_exposure": {
+    "value": "Phosphates (OCP) exporter; energy and wheat importer; tourism, remittances, autos",
+    "period": "",
+    "source": "Ministry of Economy and Finance",
+    "asof": "Sep-26"
+  },
+  "imf": {
+    "programme": "FCL (2-year, precautionary)",
+    "size_usd_bn": 4.5,
+    "approved": "02-Apr-25",
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "Mar-26"
+  },
+  "indicators": {
+    "policy_rate_pct": {
+      "value": 2.25,
+      "period": "Sep-26",
+      "source": "Bank Al-Maghrib",
+      "asof": "Sep-26"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 55.65,
+      "period": "end-2026E",
+      "source": "Bank Al-Maghrib",
+      "asof": "Sep-26",
+      "definition": "projection: MAD 502.8bn official FX reserves"
+    },
+    "import_cover_months": {
+      "value": 5.5,
+      "period": "end-2026E",
+      "source": "Bank Al-Maghrib",
+      "asof": "Sep-26"
+    },
+    "fiscal_balance_pct_gdp": {
+      "value": -3.0,
+      "period": "2026E",
+      "source": "Ministry of Economy and Finance",
+      "asof": "Sep-26",
+      "definition": "central government budget"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 66.5,
+      "period": "2026E",
+      "source": "Ministry of Economy and Finance",
+      "asof": "Sep-26",
+      "definition": "Treasury debt"
+    },
+    "interest_pct_revenue": {
+      "value": 11.5,
+      "period": "2025",
+      "source": "Ministry of Economy and Finance",
+      "asof": "Sep-26",
+      "definition": "approximate"
+    },
+    "next_eurobond_maturity": {
+      "value": "08-Mar-28 $1.25bn 5.950% (US60416SAE28)",
+      "period": "",
+      "source": "Ministry of Economy and Finance",
+      "asof": "Sep-26"
+    }
+  },
+  "ratings": {
+    "sp": {
+      "rating": "BBB-",
+      "outlook": "Stable",
+      "date": "27-Mar-26"
+    },
+    "moodys": {
+      "rating": "Ba1",
+      "outlook": "Positive",
+      "date": "06-Mar-26"
+    },
+    "fitch": {
+      "rating": "BB+",
+      "outlook": "Stable",
+      "date": "17-Sep-26"
+    }
+  },
+  "series": {
+    "fiscal_balance_pct_gdp": {
+      "2025": -3.5,
+      "2026E": -3.0
+    },
+    "gov_debt_pct_gdp": {
+      "2024": 67.7,
+      "2025": 67.2,
+      "2026E": 66.5
+    },
+    "cpi_avg_pct": {
+      "2026E": 0.7,
+      "2027F": 1.5
+    }
+  },
+  "series_sources": {
+    "fiscal_balance_pct_gdp": "Ministry of Economy and Finance, Sep-26",
+    "gov_debt_pct_gdp": "Ministry of Economy and Finance, Sep-26",
+    "cpi_avg_pct": "Bank Al-Maghrib, Sep-26"
+  },
+  "slug": "morocco",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {}
+}

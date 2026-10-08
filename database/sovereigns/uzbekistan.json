@@ -1,0 +1,117 @@
+{
+  "country": "Uzbekistan",
+  "region": "CIS",
+  "fiscal_year": "Calendar year",
+  "commodity_exposure": {
+    "value": "Gold ~90% of reserves (~439 tonnes); gas, copper, cotton; energy tariff deregulation",
+    "period": "",
+    "source": "Central Bank of Uzbekistan",
+    "asof": "01-Sep-26"
+  },
+  "imf": {
+    "programme": "None (Article IV)",
+    "size_usd_bn": null,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "01-Jun-26"
+  },
+  "indicators": {
+    "real_gdp_growth_pct": {
+      "value": 6.8,
+      "period": "2026E",
+      "source": "IMF",
+      "asof": "Jun-26",
+      "definition": "2025 actual 7.7%; Q1-26 8.7% y/y"
+    },
+    "cpi_latest_yoy_pct": {
+      "value": 6.2,
+      "period": "Aug-26",
+      "source": "Central Bank of Uzbekistan",
+      "asof": "12-Sep-26"
+    },
+    "policy_rate_pct": {
+      "value": 14.0,
+      "period": "Sep-26",
+      "source": "Central Bank of Uzbekistan",
+      "asof": "12-Sep-26"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 72.13,
+      "period": "01-Sep-26",
+      "source": "Central Bank of Uzbekistan",
+      "asof": "01-Sep-26",
+      "definition": "gross international reserves incl. gold (~90%)"
+    },
+    "import_cover_months": {
+      "value": 12.0,
+      "period": "01-Sep-26",
+      "source": "Central Bank of Uzbekistan",
+      "asof": "01-Sep-26",
+      "definition": "stated as over 12"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 27.0,
+      "period": "01-Jul-26",
+      "source": "Ministry of Economy and Finance",
+      "asof": "Jul-26",
+      "definition": "total public debt $48.31bn ($40.71bn external, $7.60bn domestic)"
+    },
+    "fiscal_balance_pct_gdp": {
+      "value": -2.1,
+      "period": "2025",
+      "source": "IMF / Ministry of Economy and Finance",
+      "asof": "Jun-26",
+      "definition": "consolidated"
+    },
+    "next_eurobond_maturity": {
+      "value": "12-Oct-28 $660m 7.850% (XS2701166717)",
+      "period": "",
+      "source": "LuxSE",
+      "asof": "08-Oct-26"
+    }
+  },
+  "ratings": {
+    "sp": {
+      "rating": "BB",
+      "outlook": "Stable",
+      "date": "22-May-26"
+    },
+    "fitch": {
+      "rating": "BB",
+      "outlook": "Positive",
+      "date": "03-Jun-26"
+    },
+    "moodys": {
+      "rating": "Ba2",
+      "outlook": "Stable",
+      "date": "25-Jun-26"
+    }
+  },
+  "series": {
+    "real_gdp_growth_pct": {
+      "2025": 7.7,
+      "2026E": 6.8,
+      "2027F": 6.0
+    },
+    "fiscal_balance_pct_gdp": {
+      "2024": -3.0,
+      "2025": -2.1
+    },
+    "gov_debt_pct_gdp": {
+      "2026E": 27.0
+    }
+  },
+  "series_sources": {
+    "real_gdp_growth_pct": "IMF / Statistics Agency, Jun-26",
+    "fiscal_balance_pct_gdp": "IMF / Ministry of Economy and Finance, Jun-26"
+  },
+  "slug": "uzbekistan",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 7.8,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

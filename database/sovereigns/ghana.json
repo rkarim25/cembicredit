@@ -1,0 +1,79 @@
+{
+  "country": "Ghana",
+  "region": "Africa",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "float",
+    "period": "",
+    "source": "Bank of Ghana",
+    "asof": "Sep-26"
+  },
+  "commodity_exposure": {
+    "value": "Gold (GoldBod FX purchases $1.871B in Sep-26), cocoa, oil",
+    "period": "",
+    "source": "GoldBod",
+    "asof": "Sep-26"
+  },
+  "imf": {
+    "programme": "PCI (36-month, non-financing) after ECF $3.0B completed 27-Jul-26",
+    "size_usd_bn": null,
+    "approved": "Jul-26",
+    "next_review": "15-Dec-26 (first monitoring mission)",
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "27-Jul-26"
+  },
+  "indicators": {
+    "cpi_latest_yoy_pct": {
+      "value": 5.2,
+      "period": "Sep-26",
+      "source": "Ghana Statistical Service",
+      "asof": "07-Oct-26"
+    },
+    "policy_rate_pct": {
+      "value": 14.0,
+      "period": "28-Sep-26",
+      "source": "Bank of Ghana",
+      "asof": "28-Sep-26"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 12.0,
+      "period": "end-Sep-26",
+      "source": "Bank of Ghana",
+      "asof": "28-Sep-26",
+      "definition": "gross international reserves"
+    },
+    "import_cover_months": {
+      "value": 5.2,
+      "period": "end-Sep-26",
+      "source": "Bank of Ghana",
+      "asof": "28-Sep-26"
+    }
+  },
+  "ratings": {
+    "fitch": {
+      "rating": "B",
+      "outlook": "Positive",
+      "date": "22-May-26"
+    },
+    "sp": {
+      "rating": "B-",
+      "outlook": "Stable",
+      "date": "18-Sep-26"
+    },
+    "moodys": {
+      "rating": "Caa1",
+      "outlook": "Positive",
+      "date": "16-Apr-26"
+    }
+  },
+  "series": {},
+  "series_sources": {},
+  "slug": "ghana",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 8.8,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

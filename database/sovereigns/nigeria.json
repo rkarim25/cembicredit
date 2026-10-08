@@ -1,0 +1,98 @@
+{
+  "country": "Nigeria",
+  "region": "Africa",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "float (unified since 2023-24)",
+    "period": "",
+    "source": "CBN",
+    "asof": "Sep-26"
+  },
+  "commodity_exposure": {
+    "value": "Oil exporter: output 1.68M bpd (crude 1.50M bpd at OPEC quota); Dangote refinery 736k bpd cutting fuel imports",
+    "period": "",
+    "source": "NUPRC",
+    "asof": "Aug-26"
+  },
+  "imf": {
+    "programme": "None (Article IV)",
+    "size_usd_bn": null,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "Jun-26"
+  },
+  "indicators": {
+    "cpi_latest_yoy_pct": {
+      "value": 15.39,
+      "period": "Aug-26",
+      "source": "NBS",
+      "asof": "15-Sep-26"
+    },
+    "policy_rate_pct": {
+      "value": 23.0,
+      "period": "22-Sep-26",
+      "source": "CBN",
+      "asof": "22-Sep-26",
+      "definition": "MPR"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 54.98,
+      "period": "05-Oct-26",
+      "source": "CBN",
+      "asof": "05-Oct-26",
+      "definition": "gross FX reserves"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 32.3,
+      "period": "end-Jun-26",
+      "source": "IMF",
+      "asof": "01-Jun-26",
+      "definition": "federal government; total public debt N166.79tn / $120.93bn (DMO 25-Sep-26)"
+    },
+    "interest_pct_revenue": {
+      "value": 55.0,
+      "period": "2026",
+      "source": "IMF Article IV",
+      "asof": "01-Jun-26",
+      "definition": "stated as over 55% of retained budget revenue"
+    },
+    "next_eurobond_maturity": {
+      "value": "28-Nov-27 $1.50B 6.500%",
+      "period": "",
+      "source": "DMO",
+      "asof": "Sep-26"
+    }
+  },
+  "ratings": {
+    "sp": {
+      "rating": "B",
+      "outlook": "Stable",
+      "date": "15-May-26"
+    },
+    "fitch": {
+      "rating": "B",
+      "outlook": "Stable",
+      "date": "10-Apr-26"
+    },
+    "moodys": {
+      "rating": "B3",
+      "outlook": "Positive",
+      "date": "Aug-26"
+    }
+  },
+  "series": {
+    "gov_debt_pct_gdp": {
+      "2026E": 32.3
+    }
+  },
+  "series_sources": {},
+  "slug": "nigeria",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 7.61,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

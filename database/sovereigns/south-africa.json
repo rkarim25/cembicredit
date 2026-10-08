@@ -1,0 +1,107 @@
+{
+  "country": "South Africa",
+  "region": "Africa",
+  "fiscal_year": "Apr-Mar",
+  "fx_regime": {
+    "value": "float",
+    "period": "",
+    "source": "SARB",
+    "asof": "Sep-26"
+  },
+  "commodity_exposure": {
+    "value": "Gold, PGMs, coal, iron ore exporter; oil importer",
+    "period": "",
+    "source": "SARB",
+    "asof": "Sep-26"
+  },
+  "imf": {
+    "programme": "None (Article IV)",
+    "size_usd_bn": null,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "2026"
+  },
+  "politics": {
+    "next_election": null,
+    "note": "GNU (ANC, DA, IFP) since May-24",
+    "source": "Presidency",
+    "asof": "Jun-26"
+  },
+  "indicators": {
+    "cpi_latest_yoy_pct": {
+      "value": 4.4,
+      "period": "Aug-26",
+      "source": "Stats SA",
+      "asof": "23-Sep-26"
+    },
+    "policy_rate_pct": {
+      "value": 7.25,
+      "period": "23-Sep-26",
+      "source": "SARB",
+      "asof": "23-Sep-26",
+      "definition": "REVIEW NOTE: reported as a hike in Sep-26; unverified (see knowledge page)"
+    },
+    "current_account_pct_gdp": {
+      "value": -1.6,
+      "period": "2026E",
+      "source": "SARB",
+      "asof": "Aug-26",
+      "definition": "tracking"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 63.5,
+      "period": "Sep-26",
+      "source": "SARB",
+      "asof": "Sep-26",
+      "definition": "gross official FX reserves"
+    },
+    "import_cover_months": {
+      "value": 5.8,
+      "period": "Sep-26",
+      "source": "SARB",
+      "asof": "Sep-26"
+    },
+    "fiscal_balance_pct_gdp": {
+      "value": -4.5,
+      "period": "FY25/26",
+      "source": "National Treasury MTBPS",
+      "asof": "2026",
+      "definition": "consolidated"
+    }
+  },
+  "ratings": {
+    "fitch": {
+      "rating": "BB",
+      "outlook": "Stable",
+      "date": "05-Jun-26"
+    },
+    "sp": {
+      "rating": "BB",
+      "outlook": "Positive",
+      "date": "29-May-26"
+    },
+    "moodys": {
+      "rating": "Ba2",
+      "outlook": "Positive",
+      "date": "May-26"
+    }
+  },
+  "series": {
+    "fiscal_balance_pct_gdp": {
+      "FY25/26E": -4.5,
+      "FY26/27F": -3.8
+    }
+  },
+  "series_sources": {
+    "fiscal_balance_pct_gdp": "National Treasury MTBPS, 2026; gross debt projected to peak 75.5-77.2% of GDP (range, not stored)"
+  },
+  "slug": "south-africa",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 2.85,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

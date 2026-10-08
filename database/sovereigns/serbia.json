@@ -1,0 +1,97 @@
+{
+  "country": "Serbia",
+  "region": "Europe",
+  "fiscal_year": "Calendar year",
+  "commodity_exposure": {
+    "value": "Export manufacturing (FDI-led), Expo 2027 investment EUR 17.8bn 2024-27; energy importer",
+    "period": "",
+    "source": "Ministry of Finance",
+    "asof": "Aug-26"
+  },
+  "imf": {
+    "programme": "PCI (36-month, non-financing)",
+    "size_usd_bn": null,
+    "approved": null,
+    "next_review": "15-Dec-26 (4th review mission)",
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "15-Jun-26"
+  },
+  "indicators": {
+    "real_gdp_growth_pct": {
+      "value": 3.3,
+      "period": "2026E",
+      "source": "Statistical Office of Serbia",
+      "asof": "Sep-26",
+      "definition": "projection range 3.2-3.4; Q2-26 3.8% y/y"
+    },
+    "cpi_latest_yoy_pct": {
+      "value": 2.2,
+      "period": "Aug-26",
+      "source": "Statistical Office of Serbia",
+      "asof": "Sep-26"
+    },
+    "policy_rate_pct": {
+      "value": 5.75,
+      "period": "Sep-26",
+      "source": "National Bank of Serbia",
+      "asof": "Sep-26"
+    },
+    "current_account_pct_gdp": {
+      "value": -4.1,
+      "period": "2026E",
+      "source": "National Bank of Serbia / IMF",
+      "asof": "Jun-26",
+      "definition": "net FDI EUR 3.8-4.2bn covers it"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 43.3,
+      "period": "end-Aug-26",
+      "source": "Public Debt Administration",
+      "asof": "Aug-26",
+      "definition": "general government, EUR 41.93bn"
+    },
+    "next_eurobond_maturity": {
+      "value": "15-May-27 EUR 1.13bn 3.125% (XS2170186923)",
+      "period": "",
+      "source": "Public Debt Administration",
+      "asof": "May-26"
+    }
+  },
+  "ratings": {
+    "sp": {
+      "rating": "BBB-",
+      "outlook": "Stable",
+      "date": "04-Oct-24"
+    },
+    "fitch": {
+      "rating": "BB+",
+      "outlook": "Positive",
+      "date": "10-Jul-26"
+    },
+    "moodys": {
+      "rating": "Ba2",
+      "outlook": "Stable",
+      "date": "27-Feb-26"
+    }
+  },
+  "series": {
+    "real_gdp_growth_pct": {
+      "2026E": 3.3
+    },
+    "current_account_pct_gdp": {
+      "2026E": -4.1
+    },
+    "gov_debt_pct_gdp": {
+      "2026E": 43.3
+    }
+  },
+  "series_sources": {},
+  "slug": "serbia",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {
+    "ex_ante_real_rate_pct": 3.55,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

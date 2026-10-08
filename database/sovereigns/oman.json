@@ -1,0 +1,107 @@
+{
+  "country": "Oman",
+  "region": "Middle East",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "peg 0.3845 OMR/USD since 1986",
+    "period": "",
+    "source": "Central Bank of Oman",
+    "asof": "Sep-26"
+  },
+  "commodity_exposure": {
+    "value": "Oil and gas exporter; fiscal breakeven ~$65-70/bbl; OIA assets $59.7bn",
+    "period": "",
+    "source": "Ministry of Finance / IMF",
+    "asof": "Jun-26"
+  },
+  "imf": {
+    "programme": "None (Article IV)",
+    "size_usd_bn": null,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "Jun-26"
+  },
+  "indicators": {
+    "real_gdp_growth_pct": {
+      "value": 2.1,
+      "period": "2024",
+      "source": "NCSI",
+      "asof": "Jun-25",
+      "definition": "non-hydrocarbon ~3.5%"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 18.38,
+      "period": "end-2024",
+      "source": "Central Bank of Oman",
+      "asof": "Dec-24",
+      "definition": "gross foreign assets and gold, OMR 7.068bn"
+    },
+    "import_cover_months": {
+      "value": 5.0,
+      "period": "end-2024",
+      "source": "Central Bank of Oman",
+      "asof": "Dec-24"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 34.7,
+      "period": "end-2025",
+      "source": "Ministry of Finance",
+      "asof": "Dec-25"
+    },
+    "fiscal_balance_pct_gdp": {
+      "value": 0.65,
+      "period": "2025",
+      "source": "Ministry of Finance",
+      "asof": "Dec-25",
+      "definition": "stated as ~0.6-0.7% surplus"
+    },
+    "next_eurobond_maturity": {
+      "value": "17-Jan-28 $1.75bn 5.625% (XS1750113479)",
+      "period": "",
+      "source": "Ministry of Finance",
+      "asof": "Sep-26"
+    }
+  },
+  "ratings": {
+    "sp": {
+      "rating": "BBB-",
+      "outlook": "Stable",
+      "date": "27-Sep-24"
+    },
+    "moodys": {
+      "rating": "Baa3",
+      "outlook": "Stable",
+      "date": "10-Jul-25"
+    },
+    "fitch": {
+      "rating": "BBB-",
+      "outlook": "Stable",
+      "date": "08-Dec-25"
+    }
+  },
+  "series": {
+    "gov_debt_pct_gdp": {
+      "2020": 68.0,
+      "2024": 35.0,
+      "2025": 34.7
+    },
+    "fiscal_balance_pct_gdp": {
+      "2024": 3.3,
+      "2025": 0.65,
+      "2026E": 4.5
+    },
+    "real_gdp_growth_pct": {
+      "2024": 2.1
+    }
+  },
+  "series_sources": {
+    "gov_debt_pct_gdp": "Ministry of Finance, Dec-25",
+    "fiscal_balance_pct_gdp": "Ministry of Finance / IMF, Jun-26 (2026E from report view)"
+  },
+  "slug": "oman",
+  "asof": "08-Oct-26",
+  "run": "seeded 08-Oct-26 from the 'Knowledge base updates' of each sovereign run (Gemini-only runs; see knowledge page review notes)",
+  "derived": {}
+}
