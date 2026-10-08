@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CEMBI Credit | Home</title>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/site-header.css?v=1">
+<script defer src="js/site-header.js?v=1"></script>
+<meta name="site-updated" content="08-Oct-26">
+<style>
+  .hm-wrap { padding: 18px 24px 40px; max-width: 1500px; margin: 0 auto; color: var(--text-main, #0f172a); }
+  .hm-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+  .hm-card { border: 1px solid var(--border-color, #e2e8f0); border-radius: 10px; background: var(--bg-card, #fff); padding: 14px 16px; box-shadow: var(--shadow-sm); }
+  .hm-card h3 { margin: 0 0 8px; font-size: 15px; }
+  .hm-card ul { list-style: none; margin: 0; padding: 0; }
+  .hm-card li { padding: 5px 0; border-bottom: 1px solid var(--border-subtle, rgba(0,0,0,.07)); font-size: 13px; display: flex; justify-content: space-between; gap: 10px; }
+  .hm-card li:last-child { border-bottom: 0; }
+  .hm-card a { color: var(--accent-blue, #0071e3); text-decoration: none; }
+  .hm-meta { font-size: 12px; color: var(--text-muted, #475569); }
+  .hm-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin: 12px 0 18px; }
+  .hm-tile { border: 1px solid var(--border-color, #e2e8f0); border-radius: 10px; background: var(--bg-card, #fff); padding: 12px 14px; text-decoration: none; color: inherit; }
+  .hm-tile:hover { background: var(--bg-card-hover, #f1f5f9); }
+  .hm-tile b { display: block; font-size: 14px; }
+  .hm-tile span { font-size: 12px; color: var(--text-muted, #475569); }
+  .hm-badge { font-size: 11px; padding: 1px 7px; border-radius: 10px; border: 1px solid currentColor; white-space: nowrap; }
+  .hm-open { color: var(--accent-gold, #b45309); } .hm-cur { color: var(--accent-emerald, #15803d); }
+</style>
+</head>
+<body>
+<div class="hm-wrap">
+  <h2 style="margin:4px 0 2px">CEMBI Credit research</h2>
+  <p class="hm-meta">EM debt research system: corporates, sovereigns, local markets and macro. Everything here is produced by the research pipeline from captures, filings and public data, with a source and date on every number.</p>
+  <div class="hm-tiles">
+    <a class="hm-tile" href="index.html"><b>Corporate screener</b><span>85 issuers, filters, models</span></a>
+    <a class="hm-tile" href="comps.html"><b>Peer comparison</b><span>Peer groups, metrics, charts</span></a>
+    <a class="hm-tile" href="sovereigns.html"><b>Sovereign dashboard</b><span>34 sovereigns, history, compare</span></a>
+    <a class="hm-tile" href="reports.html"><b>Reports</b><span>One truth document per topic</span></a>
+    <a class="hm-tile" href="knowledge.html"><b>Knowledge base</b><span>Frameworks, country pages, sources</span></a>
+    <a class="hm-tile" href="local_em.html"><b>Local EM desk</b><span>GBI-EM rates and FX</span></a>
+    <a class="hm-tile" href="cdx.html"><b>CDX desk</b><span>Credit derivatives</span></a>
+    <a class="hm-tile" href="restructuring.html"><b>Restructuring hub</b><span>Workout sandboxes</span></a>
+  </div>
+  <div class="hm-grid">
+    <div class="hm-card"><h3>Latest reports</h3><ul id="latest"><li class="hm-meta">Loading…</li></ul><p class="hm-meta"><a href="reports.html">All reports →</a></p></div>
+    <div class="hm-card"><h3>Open items awaiting you</h3><ul id="open"><li class="hm-meta">Loading…</li></ul><p class="hm-meta">Questions tagged [REZA] and [BBG] in the reports; answer in Keep or in chat.</p></div>
+    <div class="hm-card"><h3>Catalyst calendar, next 60 days</h3><ul id="cal"><li class="hm-meta">Loading…</li></ul><p class="hm-meta"><a href="knowledge.html#knowledge/themes/calendar.md">Full calendar →</a></p></div>
+    <div class="hm-card"><h3>Sovereign coverage</h3><ul id="sov"><li class="hm-meta">Loading…</li></ul><p class="hm-meta"><a href="sovereigns.html">Dashboard →</a></p></div>
+  </div>
+</div>
+<script src="js/sovereigns_data.js"></script>
+<script>
+(async function () {
+  const esc = s => String(s || '').replace(/</g, '&lt;');
+  try {
+    const reps = await (await fetch('reports/index.json?ts=' + Date.now())).json();
+    document.getElementById('latest').innerHTML = reps.slice(0, 10).map(r => `<li><a href="reports.html#${r.slug}">${esc(r.topic)}</a><span class="hm-meta">${r.updated} <span class="hm-badge ${r.open_items ? 'hm-open' : 'hm-cur'}">${r.open_items ? r.open_items + ' open' : r.status}</span></span></li>`).join('');
+    const open = reps.filter(r => r.open_items > 0).sort((a, b) => b.open_items - a.open_items);
+    document.getElementById('open').innerHTML = open.slice(0, 10).map(r => `<li><a href="reports.html#${r.slug}">${esc(r.topic)}</a><span class="hm-badge hm-open">${r.open_items} open</span></li>`).join('') || '<li class="hm-meta">None</li>';
+  } catch (e) { document.getElementById('latest').innerHTML = '<li class="hm-meta">No reports index.</li>'; }
+  try {
+    const md = await (await fetch('knowledge/themes/calendar.md?ts=' + Date.now())).text();
+    const months = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11 };
+    const now = new Date(), horizon = new Date(now.getTime() + 60 * 86400000);
+    const items = [];
+    md.split('\n').forEach(l => { const m = l.match(/^-\s*(\d{2})-([A-Za-z]{3})-(\d{2})[:\s]+(.+)$/); if (!m) return; const d = new Date(2000 + +m[3], months[m[2].toLowerCase()], +m[1]); if (d >= now && d <= horizon) items.push({ d, text: m[4].replace(/\s*\([^)]*,\s*re-filed\)\s*$/, '').replace(/\s*\([A-Za-z' ]+ sovereign credit, run [^)]*\)\s*$/, '') }); });
+    items.sort((a, b) => a.d - b.d);
+    document.getElementById('cal').innerHTML = items.slice(0, 12).map(i => `<li><span>${esc(i.text).slice(0, 110)}</span><span class="hm-meta" style="white-space:nowrap">${i.d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' })}</span></li>`).join('') || '<li class="hm-meta">Nothing in the next 60 days.</li>';
+  } catch (e) { document.getElementById('cal').innerHTML = '<li class="hm-meta">No calendar.</li>'; }
+  const sov = window.SOVEREIGNS || [];
+  const withRep = sov.filter(s => s.report && s.report.updated);
+  document.getElementById('sov').innerHTML = `<li><span>Sovereigns with a data record</span><b>${sov.length}</b></li><li><span>With a published report</span><b>${withRep.length}</b></li><li><span>With official history (IMF / World Bank)</span><b>${sov.filter(s => s.hist && Object.keys(s.hist).length).length}</b></li><li><span>Open items across sovereign reports</span><b>${withRep.reduce((a, s) => a + (+s.report.open_items || 0), 0)}</b></li>`;
+})();
+</script>
+</body>
+</html>
