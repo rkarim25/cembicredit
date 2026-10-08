@@ -1488,6 +1488,86 @@ window.SOVEREIGNS = [
    "updated": "08-Oct-26",
    "status": "Draft"
   }
+ },
+ {
+  "slug": "zambia",
+  "country": "Zambia",
+  "region": "Africa",
+  "asof": "08-Oct-26",
+  "fx_regime": "managed float",
+  "commodity": "Copper mining export receipts and vulnerability to hydroelectric generation deficits",
+  "ratings": {
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable",
+    "date": "28-Nov-25"
+   },
+   "sp": {
+    "rating": "CCC+",
+    "outlook": "Stable",
+    "date": "08-Jun-26"
+   },
+   "moodys": {
+    "rating": "Caa2",
+    "outlook": "Positive",
+    "date": "14-Apr-25"
+   }
+  },
+  "imf": {
+   "programme": "Concluded 38-month US$1.3bn ECF in Jan-26; negotiating successor program",
+   "size_usd_bn": 1.3,
+   "approved": "31-Aug-22",
+   "next_review": null,
+   "risk_of_debt_distress": null,
+   "source": "IMF",
+   "asof": "22-Jan-26"
+  },
+  "politics": {
+   "next_election": null,
+   "note": "President Hakainde Hichilema re-elected to second five-year term on 13-Aug-26 with 60.49% of the vote",
+   "source": "Electoral Commission of Zambia",
+   "asof": "15-Aug-26"
+  },
+  "ind": {
+   "cpi_latest_yoy_pct": 6.1,
+   "policy_rate_pct": 10.75,
+   "gross_reserves_usd_bn": 5.8,
+   "import_cover_months": 4.2,
+   "gov_debt_pct_gdp": 91.0,
+   "interest_pct_revenue": 35.0,
+   "next_eurobond_maturity": "30-Jun-33 USD 5.75%/7.50% amortising Bond A (XS2837240261)",
+   "ex_ante_real_rate_pct": 4.65
+  },
+  "src": {
+   "cpi_latest_yoy_pct": "Bank of Zambia 29-Sep-26",
+   "policy_rate_pct": "Bank of Zambia 29-Sep-26",
+   "gross_reserves_usd_bn": "Bank of Zambia 30-Sep-26",
+   "import_cover_months": "Bank of Zambia 30-Sep-26",
+   "gov_debt_pct_gdp": "MoFNP 30-Jun-26",
+   "interest_pct_revenue": "IMF Jan-26",
+   "next_eurobond_maturity": "MoFNP 11-Jun-24",
+   "ex_ante_real_rate_pct": "derived"
+  },
+  "derived": {
+   "ex_ante_real_rate_pct": 4.65,
+   "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  },
+  "series": {
+   "gov_debt_pct_gdp": {
+    "2026": 91.0
+   },
+   "gross_reserves_usd_bn": {
+    "2026": 5.8
+   },
+   "interest_pct_revenue": {
+    "2026": 35.0
+   }
+  },
+  "report": {
+   "open_items": "4",
+   "updated": "08-Oct-26",
+   "status": "Draft"
+  }
  }
 ];
 window.SOVEREIGN_INDICATORS = [{"key": "real_gdp_growth_pct", "label": "Real GDP growth", "unit": "%", "group": "growth", "dir": "up", "th": [4, 1]}, {"key": "cpi_latest_yoy_pct", "label": "CPI latest y/y", "unit": "%", "group": "monetary", "dir": "down", "th": [5, 20]}, {"key": "policy_rate_pct", "label": "Policy rate", "unit": "%", "group": "monetary", "dir": null, "th": null}, {"key": "ex_ante_real_rate_pct", "label": "Ex-ante real rate", "unit": "%", "group": "monetary", "dir": "up", "th": [3, 0]}, {"key": "current_account_pct_gdp", "label": "Current account", "unit": "% GDP", "group": "external", "dir": "up", "th": [0, -5]}, {"key": "gross_reserves_usd_bn", "label": "Gross reserves", "unit": "USD bn", "group": "external", "dir": null, "th": null}, {"key": "import_cover_months", "label": "Import cover", "unit": "months", "group": "external", "dir": "up", "th": [5, 3]}, {"key": "reserves_to_std", "label": "Reserves / ST ext. debt", "unit": "x", "group": "external", "dir": "up", "th": [1.5, 0.8]}, {"key": "external_debt_pct_gdp", "label": "External debt", "unit": "% GDP", "group": "external", "dir": "down", "th": [40, 80]}, {"key": "gov_debt_pct_gdp", "label": "Government debt", "unit": "% GDP", "group": "fiscal", "dir": "down", "th": [50, 90]}, {"key": "fiscal_balance_pct_gdp", "label": "Fiscal balance", "unit": "% GDP", "group": "fiscal", "dir": "up", "th": [-2, -6]}, {"key": "primary_balance_pct_gdp", "label": "Primary balance", "unit": "% GDP", "group": "fiscal", "dir": "up", "th": [1, -2]}, {"key": "interest_pct_revenue", "label": "Interest / revenue", "unit": "%", "group": "fiscal", "dir": "down", "th": [10, 30]}, {"key": "revenue_pct_gdp", "label": "Revenue", "unit": "% GDP", "group": "fiscal", "dir": "up", "th": [20, 12]}, {"key": "gfn_pct_gdp", "label": "Gross financing need", "unit": "% GDP", "group": "fiscal", "dir": "down", "th": [10, 15]}, {"key": "debt_stabilising_pb_pct_gdp", "label": "Debt-stabilising PB", "unit": "% GDP", "group": "fiscal", "dir": null, "th": null}, {"key": "pb_gap_pct_gdp", "label": "PB gap (actual \u2212 pb*)", "unit": "% GDP", "group": "fiscal", "dir": "up", "th": [0, -2]}, {"key": "eurobonds_outstanding_usd_bn", "label": "Eurobonds outstanding", "unit": "USD bn", "group": "market", "dir": null, "th": null}, {"key": "eurobond_10y_spread_bp", "label": "10y spread", "unit": "bp", "group": "market", "dir": "down", "th": [300, 700]}, {"key": "cds_5y_bp", "label": "5y CDS", "unit": "bp", "group": "market", "dir": "down", "th": [250, 600]}];

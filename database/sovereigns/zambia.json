@@ -1,0 +1,116 @@
+{
+  "country": "Zambia",
+  "region": "Africa",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "managed float",
+    "source": "Bank of Zambia",
+    "asof": "Sep-26"
+  },
+  "commodity_exposure": {
+    "value": "Copper mining export receipts and vulnerability to hydroelectric generation deficits",
+    "source": "Bank of Zambia / ZESCO",
+    "asof": "Sep-26"
+  },
+  "imf": {
+    "programme": "Concluded 38-month US$1.3bn ECF in Jan-26; negotiating successor program",
+    "size_usd_bn": 1.3,
+    "approved": "31-Aug-22",
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "22-Jan-26"
+  },
+  "politics": {
+    "next_election": null,
+    "note": "President Hakainde Hichilema re-elected to second five-year term on 13-Aug-26 with 60.49% of the vote",
+    "source": "Electoral Commission of Zambia",
+    "asof": "15-Aug-26"
+  },
+  "indicators": {
+    "cpi_latest_yoy_pct": {
+      "value": 6.1,
+      "period": "Sep-26",
+      "source": "Bank of Zambia",
+      "asof": "29-Sep-26"
+    },
+    "policy_rate_pct": {
+      "value": 10.75,
+      "period": "Sep-26",
+      "source": "Bank of Zambia",
+      "asof": "29-Sep-26"
+    },
+    "gross_reserves_usd_bn": {
+      "value": 5.8,
+      "definition": "gross international reserves",
+      "period": "Sep-26",
+      "source": "Bank of Zambia",
+      "asof": "30-Sep-26"
+    },
+    "import_cover_months": {
+      "value": 4.2,
+      "period": "Sep-26",
+      "source": "Bank of Zambia",
+      "asof": "30-Sep-26"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 91.0,
+      "definition": "total public debt stock (~91% of GDP)",
+      "period": "Jun-26",
+      "source": "MoFNP",
+      "asof": "30-Jun-26"
+    },
+    "interest_pct_revenue": {
+      "value": 35.0,
+      "period": "2026",
+      "source": "IMF",
+      "asof": "Jan-26"
+    },
+    "next_eurobond_maturity": {
+      "value": "30-Jun-33 USD 5.75%/7.50% amortising Bond A (XS2837240261)",
+      "note": "Bond A amortising due 30-Jun-33",
+      "source": "MoFNP",
+      "asof": "11-Jun-24"
+    }
+  },
+  "ratings": {
+    "fitch": {
+      "rating": "B-",
+      "outlook": "Stable",
+      "date": "28-Nov-25"
+    },
+    "sp": {
+      "rating": "CCC+",
+      "outlook": "Stable",
+      "date": "08-Jun-26"
+    },
+    "moodys": {
+      "rating": "Caa2",
+      "outlook": "Positive",
+      "date": "14-Apr-25"
+    }
+  },
+  "series": {
+    "gov_debt_pct_gdp": {
+      "2026": 91.0
+    },
+    "gross_reserves_usd_bn": {
+      "2026": 5.8
+    },
+    "interest_pct_revenue": {
+      "2026": 35.0
+    }
+  },
+  "series_sources": {
+    "gov_debt_pct_gdp": "MoFNP, 30-Jun-26",
+    "gross_reserves_usd_bn": "Bank of Zambia, 30-Sep-26",
+    "interest_pct_revenue": "IMF, Jan-26"
+  },
+  "slug": "zambia",
+  "asof": "08-Oct-26",
+  "run": "2026-10-08_1730_zambia-sovereign-credit",
+  "derived": {
+    "ex_ante_real_rate_pct": 4.65,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}
