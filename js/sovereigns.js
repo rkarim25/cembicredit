@@ -34,7 +34,7 @@
     list.forEach(d => {
       h += `<tr><td class="name" data-slug="${d.slug}">${d.country || d.slug}<br><span class="sv-meta">${d.region || ''}</span></td>`;
       h += `<td title="${(d.ratings.fitch||{}).date||''} / ${(d.ratings.sp||{}).date||''} / ${(d.ratings.moodys||{}).date||''}">${rating(d.ratings.fitch)} / ${rating(d.ratings.sp)} / ${rating(d.ratings.moodys)}</td>`;
-      h += `<td title="${d.imf.size_usd_bn ? 'USD ' + d.imf.size_usd_bn + 'bn, next review ' + (d.imf.next_review || '?') : ''}">${d.imf.programme || ''}</td>`;
+      h += `<td title="${((d.imf.programme || '') + (d.imf.size_usd_bn ? ' | USD ' + d.imf.size_usd_bn + 'bn' : '') + (d.imf.next_review ? ' | next review ' + d.imf.next_review : '')).replace(/"/g, '')}">${(d.imf.programme || '').replace(/\s*\(.*$/, '').slice(0, 34)}</td>`;
       inds.forEach(i => { const v = d.ind[i.key]; h += `<td class="${cls(i, v)}" title="${(d.src[i.key] || '').replace(/"/g, '')}">${fmt(v, i.unit)}</td>`; });
       h += `<td class="sv-meta">${d.asof || ''}</td><td>${d.report.open_items ?? ''}</td></tr>`;
     });

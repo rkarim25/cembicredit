@@ -7,25 +7,32 @@
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="css/style.css">
 <style>
-  .sv-wrap { padding: 16px 24px; max-width: 1700px; margin: 0 auto; }
+  .sv-wrap { padding: 16px 24px; max-width: 1750px; margin: 0 auto; color: var(--text-main, #0f172a); }
   .sv-bar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 8px 0 12px; }
-  .sv-bar select, .sv-bar input { padding: 6px 8px; border-radius: 6px; border: 1px solid rgba(128,128,128,.4); background: transparent; color: inherit; }
-  .sv-meta { font-size: 12px; opacity: .7; }
-  .sv-table-wrap { overflow-x: auto; }
-  table.sv { border-collapse: collapse; font-size: 12.5px; white-space: nowrap; }
-  table.sv th, table.sv td { border-bottom: 1px solid rgba(128,128,128,.25); padding: 5px 8px; text-align: right; }
-  table.sv th { position: sticky; top: 0; background: var(--bg, #0f172a); cursor: pointer; user-select: none; }
-  table.sv th:first-child, table.sv td:first-child { text-align: left; position: sticky; left: 0; background: var(--bg, #0f172a); }
-  table.sv td.good { background: rgba(16,185,129,.22); }
-  table.sv td.mid { background: rgba(245,158,11,.18); }
-  table.sv td.bad { background: rgba(239,68,68,.25); }
-  table.sv tr:hover td { filter: brightness(1.15); }
-  table.sv td.name { font-weight: 600; cursor: pointer; }
-  .sv-detail { margin-top: 18px; padding: 14px; border: 1px solid rgba(128,128,128,.3); border-radius: 8px; }
+  .sv-bar select, .sv-bar input { padding: 6px 8px; border-radius: 6px; border: 1px solid var(--border-color, #e2e8f0); background: var(--bg-card, #fff); color: inherit; }
+  .sv-meta { font-size: 12px; color: var(--text-muted, #475569); }
+  .sv-table-wrap { overflow-x: auto; border: 1px solid var(--border-color, #e2e8f0); border-radius: 8px; background: var(--bg-card, #fff); }
+  table.sv { border-collapse: separate; border-spacing: 0; font-size: 12.5px; white-space: nowrap; width: max-content; min-width: 100%; }
+  table.sv th, table.sv td { border-bottom: 1px solid var(--border-color, #e2e8f0); padding: 6px 9px; text-align: right; vertical-align: middle; }
+  table.sv th { position: sticky; top: 0; z-index: 2; background: var(--bg-sub, #f8fafc); color: var(--text-main, #0f172a); font-weight: 600; cursor: pointer; user-select: none; white-space: normal; min-width: 72px; line-height: 1.2; border-bottom: 2px solid var(--border-color, #e2e8f0); }
+  table.sv th:first-child, table.sv td:first-child { text-align: left; position: sticky; left: 0; z-index: 1; background: var(--bg-card, #fff); min-width: 150px; border-right: 1px solid var(--border-color, #e2e8f0); }
+  table.sv th:first-child { z-index: 3; background: var(--bg-sub, #f8fafc); }
+  table.sv th:nth-child(2), table.sv td:nth-child(2) { text-align: center; min-width: 150px; }
+  table.sv th:nth-child(3), table.sv td:nth-child(3) { text-align: left; max-width: 230px; overflow: hidden; text-overflow: ellipsis; }
+  table.sv td.good { background: rgba(21,128,61,.14); }
+  table.sv td.mid { background: rgba(180,83,9,.12); }
+  table.sv td.bad { background: rgba(220,38,38,.16); }
+  table.sv tr:hover td { background-color: var(--bg-card-hover, #f1f5f9); }
+  table.sv tr:hover td.good { background-color: rgba(21,128,61,.24); }
+  table.sv tr:hover td.mid { background-color: rgba(180,83,9,.2); }
+  table.sv tr:hover td.bad { background-color: rgba(220,38,38,.26); }
+  table.sv td.name { font-weight: 600; cursor: pointer; color: var(--accent-blue, #0071e3); }
+  table.sv td.name .sv-meta { font-weight: 400; }
+  .sv-detail { margin-top: 18px; padding: 14px; border: 1px solid var(--border-color, #e2e8f0); border-radius: 8px; background: var(--bg-card, #fff); }
   .sv-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
   .sv-charts canvas { max-height: 180px; }
   .sv-tag { display: inline-block; font-size: 11px; padding: 1px 7px; border: 1px solid currentColor; border-radius: 10px; margin-right: 6px; }
-  .sv-src { font-size: 11px; opacity: .7; }
+  .sv-src { font-size: 11px; color: var(--text-muted, #475569); }
 </style>
 </head>
 <body>
