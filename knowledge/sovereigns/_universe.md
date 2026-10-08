@@ -5,7 +5,7 @@ _Status table regenerated 08-Oct-26 by the pipeline from knowledge pages and rep
 | Sovereign | Page | Latest report | Updated | Open items | Ratings (as filed) |
 |---|---|---|---|---|---|
 | Albania | `knowledge/sovereigns/albania.md` | `reports/albania-sovereign-credit.md` | 08-Oct-26 | 9 |  |
-| Angola | `knowledge/sovereigns/angola.md` | `reports/angola-sovereign-credit.md` | 08-Oct-26 | 8 | Ratings: Moody's B3/Positive (25-Sep-26, revised from Stable), S&P B-/Stable (14-Aug-26), Fitch B-/Stable (08-May-26) (Rating Agencies, Sep- |
+| Angola | `knowledge/sovereigns/angola.md` | `reports/angola-sovereign-credit.md` | 08-Oct-26 | 13 | Ratings: Moody's B3/Positive (25-Sep-26, revised from Stable), S&P B-/Stable (14-Aug-26), Fitch B-/Stable (08-May-26) (Rating Agencies, Sep- |
 | Armenia | `knowledge/sovereigns/armenia.md` | `reports/armenia-sovereign-credit.md` | 08-Oct-26 | 5 | Fitch rating BB-, Positive outlook (Fitch, 10-Jul-26) |
 | Azerbaijan | `knowledge/sovereigns/azerbaijan.md` | `reports/azerbaijan-sovereign-credit.md` | 08-Oct-26 | 7 | Fitch rating BBB- (Stable) affirmed 05-Jun-26; Moody's rating Baa3 (Stable) affirmed Jun-26; S&P unsolicited rating BB+ (Stable) following c |
 | Bahrain | `knowledge/sovereigns/bahrain.md` | `reports/bahrain-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: Fitch B (Stable, 23-Feb-26); S&P B (Stable, 21-Nov-25, affirmed May-26); Moody's B2 (Negative, 17-Apr-26) (Rating Agencies, Apr-26) |

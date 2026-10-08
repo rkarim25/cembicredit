@@ -10,16 +10,29 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 - IMF: programme type, size, approval and review dates, or none: to be filled.
 - Ratings: Moody's B3/Positive (25-Sep-26, revised from Stable), S&P B-/Stable (14-Aug-26), Fitch B-/Stable (08-May-26) (Rating Agencies, Sep-26) [08-Oct-26]
 - Eurobonds: $13.06B total stock; $1.75B 8.250% 2028 (XS1819680288), $1.50B 8.000% 2029 (XS2083302419), $1.75B 8.750% 2032 (XS2446175577), $1.25B 9.375% 2048 (XS1819680528), $1.75B 9.125% 2049 (XS2083302500) (MINFIN / UGD, Sep-26) [08-Oct-26]
+- Ratings: Moody's B3/Positive (25-Sep-26, outlook revised from Stable), S&P B-/Stable (14-Aug-26), Fitch B-/Stable (08-May-26) (rating agency actions, as held in knowledge base, 08-Oct-26) [08-Oct-26]
+- Five Eurobonds listed sum to $8.0B ($1.75B 8.250% 2028, $1.50B 8.000% 2029, $1.75B 8.750% 2032, $1.25B 9.375% 2048, $1.75B 9.125% 2049) against a stated total stock of $13.06B; the $5.06B difference is unreconciled (MINFIN/UGD, Sep-26) [08-Oct-26]
 
 ## 1. External position
 - Bilateral Chinese oil-collateralized debt reduced from $16.3B (2020) to $6.83B (mid-2026), targeting full elimination by 2028 and releasing DSRA escrow liquidity (MINFIN / IMF, May-26) [08-Oct-26]
 - Gross international reserves stood at $14.9B in Q2 2026, providing 6.8 months of import cover; 2026 current account surplus projected at 2.2% of GDP (BNA / IMF, May-26) [08-Oct-26]
+- Current account USD bn: 2025-Q3 +0.31, 2025-Q4 -1.067, 2026-Q1 +1.484, 2026-Q2 +2.078; last-four-quarter sum +2.8 (IMF BOP, 08-Oct-26) [08-Oct-26]
+- Gross reserves incl. gold $15.821B (reserves ex gold $13.192B plus gold $2.629B), Aug-26 (IMF International Liquidity, 08-Oct-26) [08-Oct-26]
+- Reserves net of one-year predetermined and contingent drains $0.618B, Jul-26; official reserve assets $15.075B, predetermined drains $14.457B, contingent drains $1.567B; the May-26 value of -$208.8B is a data error (IMF reserve template, 08-Oct-26) [08-Oct-26]
+- Net FDI 1.814% of GDP in 2025 (World Bank WDI, 08-Oct-26) [08-Oct-26]
+- Bilateral Chinese oil-collateralised debt fell from $16.3B (2020) to $6.83B (mid-2026), with elimination targeted by 2028 (MINFIN/IMF, May-26) [08-Oct-26]
 ## 2. Fiscal position
 - Public debt-to-GDP declined to ~49.2% at end-2025, complying with 60% ceiling under Fiscal Sustainability Law (MINFIN / IMF, May-26) [08-Oct-26]
+- Public debt about 49.2% of GDP at end-2025; fiscal balance -2.4% of GDP and nominal GDP $152.354B for 2026E (MINFIN/IMF, May-26; IMF WEO, 08-Oct-26) [08-Oct-26]
 ## 3. Monetary and financial
 - Banco Nacional de Angola cut benchmark policy rate by 100 bps to 14.75% in Sep-26; headline inflation fell to 8.78% YoY in Aug-26; AOA/USD stable at ~912–913 (BNA / INE, Sep-26) [08-Oct-26]
+- CPI y/y: 12.42% (Mar-26), 10.88% (May-26), 8.78% (Aug-26) (INE, 08-Oct-26) [08-Oct-26]
+- Policy rate recorded as 14.75% for Sep-26 in the BNA communiqué data record, but the IMF policy-rate series shows 17.0% for May–Aug-26 and 17.5% for Mar–Apr-26; unreconciled (BNA; IMF data portal, 08-Oct-26) [08-Oct-26]
+- AOA/USD average 912.1–913.1 over Mar–Aug-26 (BIS, 08-Oct-26) [08-Oct-26]
+- IMF FSI deposit takers, Q3-25: CAR 24.14%, tier 1 23.12%, NPL 12.54%, provisions to NPL 132.06%, ROE 22.05% (IMF FSI, 08-Oct-26) [08-Oct-26]
 ## 4. Growth and structure
 - Upstream crude oil production stabilized at 1.00–1.05M bpd following OPEC exit in Jan-2024; real GDP growth estimated at 3.6% in 2026 (ANPG / IMF, May-26) [08-Oct-26]
+- Commodity terms-of-trade index (net exports to GDP weights) 79.30 (Dec-25) to 94.75 (May-26), with a step from 82.23 (Feb-26) to 96.38 (Mar-26); +17.5% over 12 months to May-26 (IMF CTOT, 08-Oct-26) [08-Oct-26]
 ## 5. Institutions, politics, willingness
 - President João Lourenço and MPLA maintain parliamentary majority following 2022 general election victory; next general election scheduled for Aug-2027 (Government of Angola, May-26) [08-Oct-26]
 ## 6. IMF and official sector
@@ -30,6 +43,10 @@ _(levels from Reza via [BBG]; never from memory)_
 - 15-Nov-26: Banco Nacional de Angola (BNA) Monetary Policy Committee meeting (BNA, Sep-26) [08-Oct-26]
 - 31-Dec-26: National Assembly approval of 2027 State General Budget (OGE 2027) (MINFIN, Sep-26) [08-Oct-26]
 - 09-May-28: Republic of Angola $1.75B 8.250% Eurobond maturity (MINFIN / UGD, Sep-26) [08-Oct-26]
+- 15-Nov-26: BNA Monetary Policy Committee meeting (BNA, Sep-26) [08-Oct-26]
+- 31-Dec-26: National Assembly approval of OGE 2027 (MINFIN, Sep-26) [08-Oct-26]
+- Aug-27: general election (Government of Angola, May-26) [08-Oct-26]
+- 09-May-28: $1.75B 8.250% Eurobond maturity (MINFIN/UGD, Sep-26) [08-Oct-26]
 ## 10. Questions for the finance ministry / IMF mission
 
 ## Data sources
@@ -54,3 +71,22 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [Calendar] 15-Nov-26: Banco Nacional de Angola (BNA) Monetary Policy Committee meeting (BNA, Sep-26)
 - [Calendar] 31-Dec-26: National Assembly approval of 2027 State General Budget (OGE 2027) (MINFIN, Sep-26)
 - [Calendar] 09-May-28: Republic of Angola $1.75B 8.250% Eurobond maturity (MINFIN / UGD, Sep-26)
+
+### 08-Oct-26 (run 2026-10-08_2133_angola-sovereign-credit)
+- [Snapshot] Ratings: Moody's B3/Positive (25-Sep-26, outlook revised from Stable), S&P B-/Stable (14-Aug-26), Fitch B-/Stable (08-May-26) (rating agency actions, as held in knowledge base, 08-Oct-26)
+- [Snapshot] Five Eurobonds listed sum to $8.0B ($1.75B 8.250% 2028, $1.50B 8.000% 2029, $1.75B 8.750% 2032, $1.25B 9.375% 2048, $1.75B 9.125% 2049) against a stated total stock of $13.06B; the $5.06B difference is unreconciled (MINFIN/UGD, Sep-26)
+- [External] Current account USD bn: 2025-Q3 +0.31, 2025-Q4 -1.067, 2026-Q1 +1.484, 2026-Q2 +2.078; last-four-quarter sum +2.8 (IMF BOP, 08-Oct-26)
+- [External] Gross reserves incl. gold $15.821B (reserves ex gold $13.192B plus gold $2.629B), Aug-26 (IMF International Liquidity, 08-Oct-26)
+- [External] Reserves net of one-year predetermined and contingent drains $0.618B, Jul-26; official reserve assets $15.075B, predetermined drains $14.457B, contingent drains $1.567B; the May-26 value of -$208.8B is a data error (IMF reserve template, 08-Oct-26)
+- [External] Net FDI 1.814% of GDP in 2025 (World Bank WDI, 08-Oct-26)
+- [External] Bilateral Chinese oil-collateralised debt fell from $16.3B (2020) to $6.83B (mid-2026), with elimination targeted by 2028 (MINFIN/IMF, May-26)
+- [Fiscal] Public debt about 49.2% of GDP at end-2025; fiscal balance -2.4% of GDP and nominal GDP $152.354B for 2026E (MINFIN/IMF, May-26; IMF WEO, 08-Oct-26)
+- [Monetary] CPI y/y: 12.42% (Mar-26), 10.88% (May-26), 8.78% (Aug-26) (INE, 08-Oct-26)
+- [Monetary] Policy rate recorded as 14.75% for Sep-26 in the BNA communiqué data record, but the IMF policy-rate series shows 17.0% for May–Aug-26 and 17.5% for Mar–Apr-26; unreconciled (BNA; IMF data portal, 08-Oct-26)
+- [Monetary] AOA/USD average 912.1–913.1 over Mar–Aug-26 (BIS, 08-Oct-26)
+- [Monetary] IMF FSI deposit takers, Q3-25: CAR 24.14%, tier 1 23.12%, NPL 12.54%, provisions to NPL 132.06%, ROE 22.05% (IMF FSI, 08-Oct-26)
+- [Growth] Commodity terms-of-trade index (net exports to GDP weights) 79.30 (Dec-25) to 94.75 (May-26), with a step from 82.23 (Feb-26) to 96.38 (Mar-26); +17.5% over 12 months to May-26 (IMF CTOT, 08-Oct-26)
+- [Calendar] 15-Nov-26: BNA Monetary Policy Committee meeting (BNA, Sep-26)
+- [Calendar] 31-Dec-26: National Assembly approval of OGE 2027 (MINFIN, Sep-26)
+- [Calendar] Aug-27: general election (Government of Angola, May-26)
+- [Calendar] 09-May-28: $1.75B 8.250% Eurobond maturity (MINFIN/UGD, Sep-26)

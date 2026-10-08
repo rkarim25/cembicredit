@@ -2882,7 +2882,7 @@ window.SOVEREIGNS = [
   "region": "Sub-Saharan Africa",
   "asof": "08-Oct-26",
   "fx_regime": "managed float",
-  "commodity": "Crude oil is the main export (output 1.00-1.05M bpd); Brent price is the key driver, with downside risk below $65/bbl",
+  "commodity": "Crude oil exports (output 1.00-1.05M bpd after OPEC exit); oil price drives the goods surplus and the OGE 2027 assumption",
   "ratings": {
    "moodys": {
     "rating": "B3",
@@ -2906,49 +2906,51 @@ window.SOVEREIGNS = [
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF, 2026 Article IV Consultation and Post-Program Monitoring Review",
-   "asof": "01-May-26"
+   "source": "IMF 2026 Article IV Consultation, 01-May-26",
+   "asof": "08-Oct-26"
   },
   "politics": {
-   "next_election": "Aug-2027",
-   "note": "President Jo\u00e3o Louren\u00e7o and MPLA hold power following Aug-2022 victory; discontent over fuel subsidy removal and living costs",
-   "source": "Government of Angola",
-   "asof": "01-May-26"
+   "next_election": "Aug-27",
+   "note": "General election; OGE 2027 approval by National Assembly due 31-Dec-26, so the budget is pre-election",
+   "source": "Government of Angola; MINFIN",
+   "asof": "May-26"
   },
   "ind": {
    "real_gdp_growth_pct": 3.6,
    "cpi_latest_yoy_pct": 8.78,
    "policy_rate_pct": 14.75,
    "current_account_pct_gdp": 2.2,
-   "gross_reserves_usd_bn": 14.9,
+   "gross_reserves_usd_bn": 15.821,
    "import_cover_months": 6.8,
    "gov_debt_pct_gdp": 49.2,
    "eurobonds_outstanding_usd_bn": 13.06,
-   "next_eurobond_maturity": "09-May-28",
+   "next_eurobond_maturity": "09-May-28, $1.75B 8.250%",
    "fdi_net_pct_gdp": 1.814,
    "fiscal_balance_pct_gdp": -2.4,
-   "nominal_gdp_usd_bn": 152.354,
+   "nominal_gdp_usd_bn": 152.4,
    "current_account_4q_usd_bn": 2.8,
    "reserves_net_of_drains_usd_bn": 0.618,
+   "net_reserves_usd_bn": 0.618,
    "ex_ante_real_rate_pct": 5.97,
    "reserves_12m_pct": 4.2,
    "ctot_12m_pct": 17.5
   },
   "src": {
-   "real_gdp_growth_pct": "IMF, 2026 Article IV Consultation 01-May-26",
-   "cpi_latest_yoy_pct": "INE, IPCN Aug-26 30-Aug-26",
+   "real_gdp_growth_pct": "IMF 08-Oct-26",
+   "cpi_latest_yoy_pct": "INE 08-Oct-26",
    "policy_rate_pct": "BNA, Comit\u00e9 de Pol\u00edtica Monet\u00e1ria communiqu\u00e9 18-Sep-26",
-   "current_account_pct_gdp": "IMF / BNA 01-May-26",
-   "gross_reserves_usd_bn": "BNA 30-Jun-26 | BNA gross international reserves",
-   "import_cover_months": "BNA 30-Jun-26",
-   "gov_debt_pct_gdp": "MINFIN / IMF 01-May-26 | Public debt, end-2025; statutory ceiling 60% under Fiscal Sustainability Law",
-   "eurobonds_outstanding_usd_bn": "MINFIN / UGD 30-Sep-26",
-   "next_eurobond_maturity": "MINFIN / UGD 30-Sep-26",
-   "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
+   "current_account_pct_gdp": "IMF/BNA 08-Oct-26",
+   "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | gross incl. gold ($13.192B ex gold plus $2.629B gold)",
+   "import_cover_months": "BNA 08-Oct-26",
+   "gov_debt_pct_gdp": "MINFIN/IMF 08-Oct-26 | public debt, approx., end-2025",
+   "eurobonds_outstanding_usd_bn": "MINFIN/UGD (stated stock; the five listed bonds sum to $8.0B, unreconciled) Sep-26",
+   "next_eurobond_maturity": "MINFIN/UGD Sep-26",
+   "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
+   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 08-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
+   "net_reserves_usd_bn": "IMF reserve template 08-Oct-26 | official reserve assets net of one-year predetermined and contingent drains (IMF reserve template)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity))",
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
@@ -2970,6 +2972,12 @@ window.SOVEREIGNS = [
    },
    "current_account_pct_gdp": {
     "2026E": 2.2
+   },
+   "fiscal_balance_pct_gdp": {
+    "2026E": -2.4
+   },
+   "nominal_gdp_usd_bn": {
+    "2026E": 152.4
    }
   },
   "hist": {
@@ -5346,22 +5354,23 @@ window.SOVEREIGNS = [
    "cpi_latest_yoy_pct": "Aug-26",
    "policy_rate_pct": "Sep-26",
    "current_account_pct_gdp": "2026E",
-   "gross_reserves_usd_bn": "Q2-26",
+   "gross_reserves_usd_bn": "Aug-26",
    "import_cover_months": "Q2-26",
    "gov_debt_pct_gdp": "2025",
    "eurobonds_outstanding_usd_bn": "Sep-26",
-   "next_eurobond_maturity": "30-Sep-26",
+   "next_eurobond_maturity": "Sep-26",
    "fdi_net_pct_gdp": "2025",
    "fiscal_balance_pct_gdp": "2026E",
    "nominal_gdp_usd_bn": "2026E",
    "current_account_4q_usd_bn": "2025-Q3 to 2026-Q2",
    "reserves_net_of_drains_usd_bn": "2026-07",
+   "net_reserves_usd_bn": "Jul-26",
    "ex_ante_real_rate_pct": "derived",
    "reserves_12m_pct": "derived",
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "8",
+   "open_items": "13",
    "updated": "08-Oct-26",
    "status": "Draft"
   }
