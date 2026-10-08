@@ -1,16 +1,16 @@
 {
   "country": "Bahrain",
-  "region": "MENA / GCC",
+  "region": "CEEMEA (GCC)",
   "fiscal_year": "Calendar year",
   "fx_regime": {
-    "value": "peg to USD (0.376 BHD per USD since 1980)",
-    "source": "Central Bank of Bahrain (cbb.gov.bh)",
-    "asof": "01-Sep-26"
+    "value": "peg to USD (0.3760 BHD per USD since 1980)",
+    "source": "Central Bank of Bahrain",
+    "asof": "Sep-26"
   },
   "commodity_exposure": {
-    "value": "Hydrocarbon exporter (crude, refined products, aluminium); fiscal breakeven oil price ~$90-100/bbl Brent",
+    "value": "Hydrocarbon exporter; Brent matters, fiscal breakeven ~$90-100/bbl",
     "source": "Rating Agencies / IMF",
-    "asof": "23-Jan-26"
+    "asof": "Jan-26"
   },
   "imf": {
     "programme": null,
@@ -18,21 +18,21 @@
     "approved": null,
     "next_review": null,
     "risk_of_debt_distress": null,
-    "source": "IMF 2025 Article IV press release (no programme stated; full staff report and DSA not published)",
+    "source": "IMF Article IV press release",
     "asof": "23-Jan-26"
   },
   "indicators": {
     "gov_debt_pct_gdp": {
-      "value": 133,
-      "definition": "Gross government debt; projected 'above 133%' for 2026 (lower bound as stated)",
-      "period": "2026F",
-      "source": "IMF 2025 Article IV",
+      "value": 134,
+      "definition": "gross government debt",
+      "period": "2024",
+      "source": "IMF Article IV",
       "asof": "23-Jan-26"
     },
     "fiscal_balance_pct_gdp": {
-      "value": 10.8,
-      "period": "2025E",
-      "source": "IMF 2025 Article IV (deficit; sign negative)",
+      "value": -11.0,
+      "period": "2024",
+      "source": "IMF Article IV",
       "asof": "23-Jan-26"
     },
     "import_cover_months": {
@@ -42,10 +42,10 @@
       "asof": "23-Jan-26"
     },
     "next_eurobond_maturity": {
-      "value": "26-Jan-28",
-      "note": "26-Jan-28, USD 1.25bn BHRAIN 7.000% (XS1324931882)",
+      "value": "26-Jan-28, $1.25bn BHRAIN 7.000% (XS1324931882)",
+      "note": "26-Jan-28, $1.25bn",
       "source": "Ministry of Finance",
-      "asof": "01-Sep-26"
+      "asof": "Sep-26"
     },
     "gross_reserves_usd_bn": {
       "value": 6.671,
@@ -132,8 +132,8 @@
     }
   },
   "series_sources": {
-    "fiscal_balance_pct_gdp": "IMF 2025 Article IV, 23-Jan-26",
-    "gov_debt_pct_gdp": "IMF 2025 Article IV, 23-Jan-26 (2025E/2026F shown as lower bound 'above 133%')"
+    "fiscal_balance_pct_gdp": "IMF Article IV, 23-Jan-26 (2025E is the ~10.8% point estimate within a 10.8-11.0% range)",
+    "gov_debt_pct_gdp": "IMF Article IV, 23-Jan-26"
   },
   "slug": "bahrain",
   "asof": "08-Oct-26",
@@ -1586,6 +1586,101 @@
         }
       },
       "derived": {}
+    },
+    {
+      "asof": "08-Oct-26",
+      "run": "2026-10-08_1350_bahrain-sovereign-credit",
+      "indicators": {
+        "gov_debt_pct_gdp": {
+          "value": 134,
+          "definition": "gross government debt",
+          "period": "2024",
+          "source": "IMF Article IV",
+          "asof": "23-Jan-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -11.0,
+          "period": "2024",
+          "source": "IMF Article IV",
+          "asof": "23-Jan-26"
+        },
+        "import_cover_months": {
+          "value": 2,
+          "period": "2025-26",
+          "source": "IMF Article IV (gross reserves vs prospective non-hydrocarbon imports; 'barely/slightly over two months')",
+          "asof": "23-Jan-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "26-Jan-28, $1.25bn BHRAIN 7.000% (XS1324931882)",
+          "note": "26-Jan-28, $1.25bn",
+          "source": "Ministry of Finance",
+          "asof": "Sep-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 6.671,
+          "period": "2026-03",
+          "source": "IMF International Liquidity",
+          "asof": "08-Oct-26",
+          "definition": "Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 1.677,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": -0.5,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": 3.9,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 48.849,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "interest_pct_revenue": {
+          "value": 27.5,
+          "period": "2025-26",
+          "source": "Rating Agencies / IMF (stated range ~25-30%; midpoint)",
+          "asof": "23-Jan-26"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 2.9329,
+          "period": "2026-08",
+          "source": "IMF CPI database",
+          "asof": "08-Oct-26",
+          "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": 2.28,
+          "period": "2024-Q1 to 2024-Q4",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "reer_z_10y": -1.58,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
+        "reer_latest": 99.9005,
+        "reserves_12m_pct": 86.4,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-03 to 2026-03 (IMF International Liquidity)",
+        "ctot_12m_pct": 5.3,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "politics": {

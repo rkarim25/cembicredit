@@ -217,7 +217,7 @@ function renderTable() {
     if (tb) tb.textContent = "Banks (" + nBank + ")";
   }
   
-  filteredIssuers.forEach(item => {
+  filteredIssuers.forEach(item => { try {
     const m = item.metadata;
     const f24 = item.financials_multi_year.find(f => f.period === '2024A') || {};
     const f25 = item.financials_multi_year.find(f => f.period === '2025E') || {};
@@ -814,7 +814,7 @@ function renderTable() {
                             <td class="num">${t.coupon}</td>
                             <td class="num" style="color:var(--accent-gold); font-weight:600;">$${Number(t.clean_price || 100).toFixed(2)}</td>
                             <td class="num">${Number(t.ytm || 0).toFixed(2)}%</td>
-                            <td><span class="badge ${t.seniority.includes('Secured') ? 'badge-ig' : (t.seniority.includes('Subordinated') ? 'badge-stress' : 'badge-hy')}">${t.seniority}</span></td>
+                            <td><span class="badge ${(t.seniority || '').includes('Secured') ? 'badge-ig' : ((t.seniority || '').includes('Subordinated') ? 'badge-stress' : 'badge-hy')}">${t.seniority || 'n/a'}</span></td>
                             <td style="color:var(--text-dim); font-size:10.5px;">${t.governing_law}</td>
                           </tr>
                         `).join('')}
@@ -1574,7 +1574,7 @@ function renderTable() {
     
     expandTr.innerHTML = drawerHtml;
     tbody.appendChild(expandTr);
-  });
+  } catch (e) { console.error('screener: row render failed for', item && item.metadata && item.metadata.ticker, e); const tr = document.createElement('tr'); tr.innerHTML = '<td colspan="12" style="color:#b91c1c;font-size:11px">' + ((item && item.metadata && item.metadata.ticker) || '?') + ': record incomplete (' + (e && e.message) + '); rebuild it from filings</td>'; tbody.appendChild(tr); } });
 }
 
 function exportFilteredCSV() {

@@ -4,35 +4,35 @@
   "fiscal_year": "Calendar year",
   "fx_regime": {
     "value": "peg to EUR",
-    "source": "BEAC (CFA franc peg to the euro, as cited in adjudicated document)",
-    "asof": "01-Jun-26"
+    "source": "BEAC (CFA franc peg to the euro)",
+    "asof": "Jun-26"
   },
   "commodity_exposure": {
-    "value": "Crude oil: ~60% of fiscal revenue and ~75% of merchandise exports; oil price is the key driver (downside below USD 65/bbl flagged)",
+    "value": "Crude oil is ~60% of fiscal revenue and ~75% of merchandise exports; the oil price (USD 65/bbl is the flagged downside threshold) is the key driver",
     "source": "IMF 2024 Article IV Staff Report",
     "asof": "24-May-24"
   },
   "imf": {
-    "programme": "None (2021 EFF expired; technical surveillance mission 14-25 Sep-26, no SLA)",
+    "programme": "None (2021 EFF expired; Sep-26 staff mission was technical surveillance of the mid-2026 debt audit)",
     "size_usd_bn": null,
     "approved": null,
     "next_review": null,
     "risk_of_debt_distress": null,
-    "source": "IMF staff mission press statement",
+    "source": "IMF Staff Mission Press Statement on Gabon",
     "asof": "25-Sep-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Constitutional referendum 16-Nov-24 (91.6% approval); President Brice Oligui Nguema elected 12-Apr-25 with 94.85% of the vote; transition to Fifth Republic completed",
-    "source": "MoI Gabon",
-    "asof": "30-Apr-25"
+    "note": "Constitutional referendum approved 16-Nov-24 (91.6%); President Brice Oligui Nguema won the 12-Apr-25 presidential election with 94.85%; transition to the Fifth Republic completed",
+    "source": "Gabon Ministry of Interior Election Results",
+    "asof": "Apr-25"
   },
   "indicators": {
     "gov_debt_pct_gdp": {
       "value": 70,
       "definition": "Total public debt, approximate ('near 70%')",
       "period": "latest",
-      "source": "Fitch",
+      "source": "Fitch Ratings Sovereign Rating Action on Gabon",
       "asof": "22-May-26"
     },
     "gfn_pct_gdp": {
@@ -44,8 +44,8 @@
     "next_eurobond_maturity": {
       "value": "06-Feb-31, USD 1.0bn 6.625% (XS2113615228)",
       "note": "06-Feb-31, USD 1.0bn",
-      "source": "Bond prospectus Feb-20; CBonds",
-      "asof": "01-Jul-26"
+      "source": "Prospectus Feb-20; CBonds Eurobond Issuance and Maturity Profile",
+      "asof": "Jul-26"
     },
     "gross_reserves_usd_bn": {
       "value": 0.673,
@@ -106,7 +106,7 @@
   },
   "ratings": {
     "fitch": {
-      "rating": "CCC-",
+      "rating": "CCC- (LTFC IDR); LTLC CC",
       "outlook": null,
       "date": "22-May-26"
     },
@@ -1605,6 +1605,96 @@
         }
       },
       "derived": {}
+    },
+    {
+      "asof": "08-Oct-26",
+      "run": "2026-10-08_1623_gabon-sovereign-credit",
+      "indicators": {
+        "gov_debt_pct_gdp": {
+          "value": 70,
+          "definition": "Total public debt, approximate ('near 70%')",
+          "period": "latest",
+          "source": "Fitch Ratings Sovereign Rating Action on Gabon",
+          "asof": "22-May-26"
+        },
+        "gfn_pct_gdp": {
+          "value": 17.5,
+          "period": "2026E",
+          "source": "Fitch",
+          "asof": "22-May-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "06-Feb-31, USD 1.0bn 6.625% (XS2113615228)",
+          "note": "06-Feb-31, USD 1.0bn",
+          "source": "Prospectus Feb-20; CBonds Eurobond Issuance and Maturity Profile",
+          "asof": "Jul-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 0.673,
+          "period": "2024-12",
+          "source": "IMF International Liquidity",
+          "asof": "08-Oct-26",
+          "definition": "Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "import_cover_months": {
+          "value": 4.247,
+          "period": "2015",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 1.768,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 2.7,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": -4.3,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -10,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 23.363,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 1.597,
+          "period": "2025-12",
+          "source": "IMF CPI database",
+          "asof": "08-Oct-26",
+          "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
+        }
+      },
+      "derived": {
+        "reer_z_10y": 0.69,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
+        "reer_latest": 104.8576,
+        "reserves_12m_pct": -51.4,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2023-11 to 2024-12 (IMF International Liquidity)",
+        "ctot_12m_pct": 22.6,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "fsi": {
