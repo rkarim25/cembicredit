@@ -75,12 +75,19 @@
     } else {
       h += '<p class="sv-meta">No official history fetched yet for this sovereign (run pipeline/sovereign_data_fetch.py).</p>';
     }
-    const MONTHLY = [['policy_rate_pct', 'Policy rate (%)'], ['fx_per_usd', 'FX, local currency per USD'], ['reer_broad_real', 'Real effective exchange rate (BIS broad, 2020=100)'], ['cpi_yoy_pct', 'CPI inflation, y/y (%)'], ['policy_rate_imf_pct', 'Policy-related rate, IMF (%)'], ['gross_reserves_usd_bn', 'Gross reserves incl. gold (USD bn)'], ['reserves_ex_gold_usd_bn', 'Reserves excluding gold (USD bn)'], ['reer_imf_2010', 'Real effective exchange rate, IMF (2010=100)'], ['ctot_net_export_gdp_idx', 'Commodity terms of trade, IMF (Jun-2012=100)']];
+    const MONTHLY = [['policy_rate_pct', 'Policy rate (%)'], ['fx_per_usd', 'FX, local currency per USD'], ['reer_broad_real', 'Real effective exchange rate (BIS broad, 2020=100)'], ['cpi_yoy_pct', 'CPI inflation, y/y (%)'], ['policy_rate_imf_pct', 'Policy-related rate, IMF (%)'], ['gross_reserves_usd_bn', 'Gross reserves incl. gold (USD bn)'], ['reserves_ex_gold_usd_bn', 'Reserves excluding gold (USD bn)'], ['reer_imf_2010', 'Real effective exchange rate, IMF (2010=100)'], ['ctot_net_export_gdp_idx', 'Commodity terms of trade, IMF (Jun-2012=100)'], ['official_reserve_assets_usd_bn', 'Official reserve assets, IMF template (USD bn)'], ['predetermined_drains_usd_bn', 'Predetermined 1y net drains on FX assets (USD bn)'], ['reserves_net_of_drains_usd_bn', 'Reserves net of 1y predetermined drains (USD bn)'], ['contingent_drains_usd_bn', 'Contingent 1y net drains (USD bn)']];
     const mon = d.monthly || {}, mavail = MONTHLY.filter(([k]) => mon[k] && Object.keys(mon[k]).length);
     if (mavail.length) {
       const z = (d.derived || {}).reer_z_10y;
       h += `<div class="sv-hist-bar" style="margin-top:10px"><strong>Monthly</strong> <span class="sv-meta">From 2015. BIS: policy rate (end of month), local currency per USD (monthly average), real effective exchange rate (broad basket). IMF data portal: CPI inflation y/y, policy-related rate, reserves (excluding gold, and gross including gold at national valuation), CPI-based REER, commodity terms of trade (net exports to GDP weights). REER up = real appreciation.${z != null ? ' REER z-score vs trailing ten years: <b>' + z + '</b> sd.' : ''}</span></div>`;
       h += '<div class="sv-charts">' + mavail.map(([k, l]) => `<div class="sv-chart"><div class="sv-src">${l} <span class="sv-src2">${(d.monthly_src[k] || '').split(';')[0]}</span></div><div class="sv-canvas"><canvas id="m_${k}"></canvas></div></div>`).join('') + '</div>';
+    }
+    const QUARTERLY = [['current_account_usd_bn', 'Current account balance (USD bn)'], ['goods_balance_usd_bn', 'Goods balance (USD bn)'], ['services_balance_usd_bn', 'Services balance (USD bn)'], ['primary_income_usd_bn', 'Primary income (USD bn)'], ['secondary_income_usd_bn', 'Secondary income, incl. remittances (USD bn)'], ['fdi_liabilities_usd_bn', 'Inward FDI equity flow (USD bn)']];
+    const qtr = d.quarterly || {}, qavail = QUARTERLY.filter(([k]) => qtr[k] && Object.keys(qtr[k]).length);
+    if (qavail.length) {
+      const ca = (d.ind || {}).current_account_4q_usd_bn;
+      h += `<div class="sv-hist-bar" style="margin-top:10px"><strong>Balance of payments</strong> <span class="sv-meta">IMF BOP (BPM6), quarterly, USD bn, net (credits less debits).${ca != null ? ' Last four quarters: current account <b>' + ca + '</b> bn.' : ''}</span></div>`;
+      h += '<div class="sv-charts">' + qavail.map(([k, l]) => `<div class="sv-chart"><div class="sv-src">${l} <span class="sv-src2">IMF BOP</span></div><div class="sv-canvas"><canvas id="q_${k}"></canvas></div></div>`).join('') + '</div>';
     }
     const FSI = [['car_pct', 'Regulatory capital / RWA'], ['tier1_pct', 'Tier 1 / RWA'], ['npl_pct', 'NPL ratio'], ['provisions_to_npl_pct', 'Provisions / NPLs'], ['roa_pct', 'Return on assets'], ['roe_pct', 'Return on equity'], ['fx_open_position_to_capital_pct', 'Net FX open position / capital']];
     const fsi = d.fsi || {}, favail = FSI.filter(([k]) => fsi[k] && Object.keys(fsi[k]).length);
@@ -101,6 +108,11 @@
         { label: l, data: actual, borderColor: '#0071e3', backgroundColor: 'rgba(0,113,227,.12)', fill: true, tension: .25 },
         { label: 'IMF projection', data: proj, borderColor: '#0071e3', borderDash: [5, 4], tension: .25, pointRadius: 0 }]));
     });
+    qavail.forEach(([k, l]) => {
+      const s = qtr[k], qs = Object.keys(s).sort();
+      charts.push(new Chart(document.getElementById('q_' + k), { type: 'bar', data: { labels: qs, datasets: [{ label: l, data: qs.map(q => s[q]), backgroundColor: qs.map(q => s[q] < 0 ? 'rgba(200,60,60,.6)' : 'rgba(0,113,227,.55)') }] },
+        options: { plugins: { legend: { display: false }, tooltip: { mode: 'index', intersect: false } }, scales: { x: { grid: { display: false }, ticks: { maxTicksLimit: 12, font: { size: 10 }, callback: (v, i) => qs[i] && qs[i].endsWith('Q1') ? qs[i].slice(0, 4) : '' } }, y: { ticks: { font: { size: 10 } } } }, animation: false, responsive: true, maintainAspectRatio: false } }));
+    });
     mavail.forEach(([k, l]) => {
       const s = mon[k], ms = Object.keys(s).sort();
       charts.push(lineChart(document.getElementById('m_' + k), ms, [{ label: l, data: ms.map(m => s[m]), borderColor: '#b5651d', backgroundColor: 'rgba(181,101,29,.10)', fill: true, tension: .2, pointRadius: 0 }],
@@ -113,14 +125,14 @@
   // ---- compare countries on one indicator over time
   function buildCompare() {
     if (!compare) return;
-    let h = `<h3 style="margin:0 0 6px">Compare over time</h3><div class="sv-hist-bar"><label class="sv-meta">Indicator <select id="cmp-ind">${HIST.map(([k, l]) => `<option value="${k}">${l}</option>`).join('')}<optgroup label="Monthly (BIS, IMF)"><option value="m:policy_rate_pct">Policy rate (%)</option><option value="m:fx_per_usd_idx">FX vs USD, rebased to 100 at start</option><option value="m:reer_broad_real">Real effective exchange rate (2020=100)</option><option value="m:cpi_yoy_pct">CPI inflation y/y (%, IMF)</option><option value="m:policy_rate_imf_pct">Policy-related rate (%, IMF)</option><option value="m:gross_reserves_usd_bn">Gross reserves incl. gold (USD bn, IMF)</option><option value="m:gross_reserves_usd_bn_idx">Gross reserves, rebased to 100 at start</option><option value="m:reer_imf_2010">REER, IMF (2010=100)</option><option value="m:ctot_net_export_gdp_idx">Commodity terms of trade (IMF)</option></optgroup></select></label> <label class="sv-meta">Countries (ctrl-click for several) <select id="cmp-ctry" multiple size="6">${data.map(d => `<option value="${d.slug}">${d.country}</option>`).join('')}</select></label> <label class="sv-meta">From <input id="cmp-from" type="number" value="2010" min="2005" max="2031" style="width:70px"></label> <button type="button" id="cmp-go" class="sh-back">Chart</button> <button type="button" id="cmp-table" class="sh-back">Table</button></div><div class="sv-canvas-wide"><canvas id="cmp-canvas"></canvas></div><div id="cmp-tbl" class="sv-table-wrap" style="margin-top:10px;display:none"></div>`;
+    let h = `<h3 style="margin:0 0 6px">Compare over time</h3><div class="sv-hist-bar"><label class="sv-meta">Indicator <select id="cmp-ind">${HIST.map(([k, l]) => `<option value="${k}">${l}</option>`).join('')}<optgroup label="Monthly (BIS, IMF)"><option value="m:policy_rate_pct">Policy rate (%)</option><option value="m:fx_per_usd_idx">FX vs USD, rebased to 100 at start</option><option value="m:reer_broad_real">Real effective exchange rate (2020=100)</option><option value="m:cpi_yoy_pct">CPI inflation y/y (%, IMF)</option><option value="m:policy_rate_imf_pct">Policy-related rate (%, IMF)</option><option value="m:gross_reserves_usd_bn">Gross reserves incl. gold (USD bn, IMF)</option><option value="m:gross_reserves_usd_bn_idx">Gross reserves, rebased to 100 at start</option><option value="m:reer_imf_2010">REER, IMF (2010=100)</option><option value="m:ctot_net_export_gdp_idx">Commodity terms of trade (IMF)</option><option value="m:reserves_net_of_drains_usd_bn">Reserves net of 1y drains (USD bn, IMF template)</option></optgroup><optgroup label="Quarterly (IMF BOP)"><option value="q:current_account_usd_bn">Current account balance (USD bn)</option><option value="q:goods_balance_usd_bn">Goods balance (USD bn)</option><option value="q:secondary_income_usd_bn">Secondary income (USD bn)</option><option value="q:fdi_liabilities_usd_bn">Inward FDI equity flow (USD bn)</option></optgroup></select></label> <label class="sv-meta">Countries (ctrl-click for several) <select id="cmp-ctry" multiple size="6">${data.map(d => `<option value="${d.slug}">${d.country}</option>`).join('')}</select></label> <label class="sv-meta">From <input id="cmp-from" type="number" value="2010" min="2005" max="2031" style="width:70px"></label> <button type="button" id="cmp-go" class="sh-back">Chart</button> <button type="button" id="cmp-table" class="sh-back">Table</button></div><div class="sv-canvas-wide"><canvas id="cmp-canvas"></canvas></div><div id="cmp-tbl" class="sv-table-wrap" style="margin-top:10px;display:none"></div>`;
     compare.innerHTML = h;
     const ind = document.getElementById('cmp-ind'), ctry = document.getElementById('cmp-ctry'), from = document.getElementById('cmp-from');
     const picked = () => [...ctry.selectedOptions].map(o => o.value).slice(0, 10);
     function draw() {
       const k = ind.value, slugs = picked(); if (!slugs.length) return;
-      const monthly = k.startsWith('m:'), mk = monthly ? k.slice(2).replace(/_idx$/, '') : k;
-      const serOf = d => monthly ? ((d.monthly || {})[mk] || {}) : ((d.hist || {})[mk] || {});
+      const monthly = k.startsWith('m:') || k.startsWith('q:'), mk = monthly ? k.slice(2).replace(/_idx$/, '') : k;
+      const serOf = d => k.startsWith('q:') ? ((d.quarterly || {})[mk] || {}) : monthly ? ((d.monthly || {})[mk] || {}) : ((d.hist || {})[mk] || {});
       let ys = [...new Set(slugs.flatMap(s => Object.keys(serOf(data.find(d => d.slug === s)))))].filter(y => +y.slice(0, 4) >= +from.value).sort();
       const datasets = slugs.map((s, i) => { const d = data.find(x => x.slug === s), ser = serOf(d); let base = null;
         if (k.endsWith('_idx')) { const first = ys.find(y => ser[y] != null); base = first != null ? ser[first] : null; }
@@ -128,7 +140,7 @@
       if (cmpChart) cmpChart.destroy();
       cmpChart = lineChart(document.getElementById('cmp-canvas'), ys, datasets, { plugins: { legend: { display: true, position: 'bottom' }, tooltip: { mode: 'index', intersect: false } } });
       const t = document.getElementById('cmp-tbl');
-      const tys = monthly ? ys.filter(y => y.endsWith('-12') || y === ys[ys.length - 1]) : ys;
+      const tys = k.startsWith('q:') ? ys.filter(y => y.endsWith('Q4') || y === ys[ys.length - 1]) : monthly ? ys.filter(y => y.endsWith('-12') || y === ys[ys.length - 1]) : ys;
       t.innerHTML = `<table class="sv"><thead><tr><th>Country</th>${tys.map(y => `<th>${y}</th>`).join('')}</tr></thead><tbody>${datasets.map(ds => `<tr><td class="name">${ds.label}</td>${tys.map(y => { const v = ds.data[ys.indexOf(y)]; return `<td>${v != null ? (+v).toFixed(1) : ''}</td>`; }).join('')}</tr>`).join('')}</tbody></table>`;
     }
     document.getElementById('cmp-go').onclick = draw;

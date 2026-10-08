@@ -23,46 +23,46 @@
   },
   "politics": {
     "next_election": null,
-    "note": "Government of National Unity (ANC, DA, IFP) formed after May 2024 elections; municipal election cycle preparations under way; MTBPS due 23-Oct-26.",
-    "source": "Presidency of South Africa, Jun-26; National Treasury, Oct-26",
-    "asof": "08-Oct-26"
+    "note": "GNU (ANC, DA, IFP) in place since the May 2024 elections",
+    "source": "Presidency, Jun-26",
+    "asof": "30-Jun-26"
   },
   "indicators": {
     "cpi_latest_yoy_pct": {
       "value": 4.4,
       "period": "Aug-26",
-      "source": "Stats SA, CPI August 2026",
-      "asof": "23-Sep-26"
+      "source": "Stats SA via IMF data portal",
+      "asof": "08-Oct-26"
     },
     "policy_rate_pct": {
       "value": 7.25,
       "period": "Sep-26",
-      "source": "SARB MPC Statement",
-      "asof": "23-Sep-26"
+      "source": "BIS monthly policy rate series",
+      "asof": "08-Oct-26"
     },
     "current_account_pct_gdp": {
       "value": -1.6,
       "period": "Sep-26",
       "source": "SARB Quarterly Bulletin",
-      "asof": "23-Sep-26"
+      "asof": "08-Oct-26"
     },
     "gross_reserves_usd_bn": {
-      "value": 63.5,
-      "definition": "gross official FX reserves",
-      "period": "Sep-26",
-      "source": "SARB",
-      "asof": "23-Sep-26"
+      "value": 75.96,
+      "definition": "gross incl. gold ($57.96B ex-gold plus $18.0B gold); SARB headline of $63.5B (Sep-26) has an unresolved definition",
+      "period": "Aug-26",
+      "source": "IMF International Liquidity",
+      "asof": "08-Oct-26"
     },
     "import_cover_months": {
       "value": 5.8,
       "period": "Sep-26",
-      "source": "SARB",
-      "asof": "23-Sep-26"
+      "source": "SARB (tied to the $63.5B headline reserve figure)",
+      "asof": "08-Oct-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": -4.5,
       "period": "FY25/26",
-      "source": "National Treasury MTBPS",
+      "source": "National Treasury (vintage unverified)",
       "asof": "08-Oct-26"
     },
     "fdi_net_pct_gdp": {
@@ -76,8 +76,7 @@
       "value": 1,
       "period": "2026E",
       "source": "IMF WEO",
-      "asof": "08-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "asof": "08-Oct-26"
     },
     "gov_debt_pct_gdp": {
       "value": 77.2,
@@ -87,17 +86,16 @@
       "asof": "08-Oct-26"
     },
     "nominal_gdp_usd_bn": {
-      "value": 479.964,
+      "value": 480,
       "period": "2026E",
       "source": "IMF WEO",
-      "asof": "08-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "asof": "08-Oct-26"
     },
     "inflation_expectation_12m_pct": {
       "value": 4.35,
-      "period": "12m forward",
-      "source": "BER surveys, cited in adjudicated document",
-      "asof": "23-Sep-26"
+      "period": "Sep-26",
+      "source": "BER 12-month expectation (as cited in the data record; survey not independently sourced)",
+      "asof": "08-Oct-26"
     },
     "interest_pct_revenue": {
       "value": 20,
@@ -113,7 +111,7 @@
       "date": "05-Jun-26"
     },
     "sp": {
-      "rating": "BB",
+      "rating": "BB (foreign) / BB+ (local)",
       "outlook": "Positive",
       "date": "29-May-26"
     },
@@ -129,14 +127,22 @@
       "FY26/27F": -3.8,
       "2026E": -4.5,
       "2027F": -3.8
+    },
+    "real_gdp_growth_pct": {
+      "2026E": 1.0
+    },
+    "nominal_gdp_usd_bn": {
+      "2026E": 480.0
     }
   },
   "series_sources": {
-    "fiscal_balance_pct_gdp": "National Treasury MTBPS, 08-Oct-26 (FY25/26 mapped to 2026E, FY26/27 to 2027F; fiscal year Apr-Mar)"
+    "fiscal_balance_pct_gdp": "National Treasury MTBPS, 08-Oct-26 (FY25/26 mapped to 2026E, FY26/27 to 2027F; fiscal year Apr-Mar)",
+    "real_gdp_growth_pct": "IMF WEO, 08-Oct-26",
+    "nominal_gdp_usd_bn": "IMF WEO, 08-Oct-26"
   },
   "slug": "south-africa",
   "asof": "08-Oct-26",
-  "run": "2026-10-08_1131_south-africa-sovereign-credit",
+  "run": "2026-10-08_2106_south-africa-sovereign-credit",
   "derived": {
     "ex_ante_real_rate_pct": 2.9,
     "reer_z_10y": 1.23,
@@ -2127,6 +2133,97 @@
         "reer_z_10y": 1.23,
         "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
         "reer_latest": 115.03
+      }
+    },
+    {
+      "asof": "08-Oct-26",
+      "run": "2026-10-08_1131_south-africa-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 4.4,
+          "period": "Aug-26",
+          "source": "Stats SA via IMF data portal",
+          "asof": "08-Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 7.25,
+          "period": "Sep-26",
+          "source": "BIS monthly policy rate series",
+          "asof": "08-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -1.6,
+          "period": "Sep-26",
+          "source": "SARB Quarterly Bulletin",
+          "asof": "08-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 75.96,
+          "definition": "gross incl. gold ($57.96B ex-gold plus $18.0B gold); SARB headline of $63.5B (Sep-26) has an unresolved definition",
+          "period": "Aug-26",
+          "source": "IMF International Liquidity",
+          "asof": "08-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 5.8,
+          "period": "Sep-26",
+          "source": "SARB (tied to the $63.5B headline reserve figure)",
+          "asof": "08-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -4.5,
+          "period": "FY25/26",
+          "source": "National Treasury (vintage unverified)",
+          "asof": "08-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": -0.506,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 1,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 77.2,
+          "definition": "gross debt, upper end of projected peak range 75.5%-77.2% of GDP",
+          "period": "medium-term peak",
+          "source": "National Treasury MTBPS",
+          "asof": "08-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 480,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "inflation_expectation_12m_pct": {
+          "value": 4.35,
+          "period": "Sep-26",
+          "source": "BER 12-month expectation (as cited in the data record; survey not independently sourced)",
+          "asof": "08-Oct-26"
+        },
+        "interest_pct_revenue": {
+          "value": 20,
+          "period": "FY25/26",
+          "source": "National Treasury, Jun-26 (debt service 'over 20%' of revenue; floor value)",
+          "asof": "08-Oct-26"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 2.9,
+        "reer_z_10y": 1.23,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "reer_latest": 115.03,
+        "reserves_12m_pct": 7.8,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": -0.9,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
     }
   ],

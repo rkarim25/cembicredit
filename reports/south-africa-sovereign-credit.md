@@ -2,97 +2,117 @@
 topic: South Africa sovereign credit
 slug: south-africa-sovereign-credit
 updated: 08-Oct-26
-run: 2026-10-08_1131_south-africa-sovereign-credit
+run: 2026-10-08_2106_south-africa-sovereign-credit
 status: Draft
-open_items: 6
+open_items: 12
 ---
 
 # South Africa sovereign credit
 
-_Updated 08-Oct-26 · run 2026-10-08_1131_south-africa-sovereign-credit_
+_Updated 08-Oct-26 · run 2026-10-08_2106_south-africa-sovereign-credit_
 
 ## Open items
-1. [BBG: SOAF 5.875 06/22/2030 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the benchmark 2030 Eurobond?
-2. [BBG: SOAF 5.875 04/20/2032 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the benchmark 2032 Eurobond?
-3. [BBG: SOAF 7.300 04/20/2052 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the benchmark 2052 Eurobond?
-4. [BBG: SOAF CDS USD SR 5Y / PX_LAST] What is the current 5Y senior sovereign CDS spread and 52-week percentile?
-5. [BBG: SAGB R2035 8.875 02/28/2035 / PX_LAST and YAS yield] What is the live clean price and yield to maturity on the 10Y local benchmark?
-6. [REZA] Do we hold unhedged local currency duration (SAGB R2035 at 9.15%) as the primary expression, or add USD Eurobond paper (SOAF 2032/2052) for dollar benchmark mandates?
+1. [REZA] Paste the latest Fitch, S&P and Moody's press releases (date, rating, outlook) so the ratings move from tier 2 to tier 1.
+2. [REZA] Paste the SARB MPC statement for the September 2026 meeting (decision date, vote split, forward guidance). The 7.25% rate is corroborated by the monthly series, but the 23-Sep-26 date is not (23-Sep-26 is a Wednesday).
+3. [BBG: SARB / MPC calendar 2026] Confirm the November 2026 MPC date. 21-Nov-26 is a Saturday and cannot be a decision date.
+4. [BBG: SAGB R2035 8.875 02/28/2035 / PX_LAST and YAS yield] What are the live yield and price? The stored ~9.15% has no Bloomberg source.
+5. [BBG: SOAF 5.875 04/20/2032 / YAS yield and Z-spread] Where does the benchmark 2032 trade against the EMBI GD BB sub-index?
+6. [BBG: SOAF 5.875 06/22/2030 / YAS yield and Z-spread] Same for the 2030.
+7. [BBG: SOAF 7.300 04/20/2052 / YAS yield and Z-spread] Same for the 2052.
+8. [BBG: SOAF CDS USD SR 5Y / PX_LAST] What are the current 5Y CDS and its 52-week percentile?
+9. [BBG: SARB / SDDS international reserves template] Which definition gives $63.5B (Sep-26)? The official record has $57.96B ex-gold and $75.96B gross incl. gold (Aug-26). Also needed: the net open forward position.
+10. [BBG: South Africa Budget 2026 Review / debt service cost, primary balance, gross debt peak year] The 4.5% and 3.8% deficits and the 75.5-77.2% debt peak are attributed to an "MTBPS 2026" that has not been tabled. What are the true source and vintage?
+11. [BBG: National Treasury / MTBPS 2026 date] Confirm the date. 23-Oct-26 is a Friday.
+12. [BBG: gold spot XAU / PX_LAST] What is gold today? The stored "$2,580/oz" is not credible against the $18.0B gold reserve line.
 
 ## View
-- South Africa presents an asymmetric sovereign turnaround where political stabilization under the Government of National Unity (GNU) and over 170 days of grid reliability have unlocked latent growth and catalysed rating momentum (Fitch/S&P/Moody's, May-Jun 2026, High).
-- Fitch upgraded South Africa to BB (Stable) on 05-Jun-26, ending a 21-year downgrade cycle, while S&P affirmed BB foreign / BB+ local with Positive outlook on 29-May-26, and Moody's maintains Ba2 with Positive outlook (Rating Agencies, Jun-26, High).
-- SARB maintains monetary orthodoxy, hiking the repo rate to 7.25% in Sep-26 as headline CPI printed 4.4% YoY in Aug-26, keeping the ex-ante real policy rate above +285 bps against inflation expectations (SARB / Stats SA, 23-Sep-26, High).
-- External terms of trade are sharply positive with record gold ($2,580/oz) and sub-$75/bbl Brent oil narrowing the current account deficit toward -1.6% of GDP (SARB / GBI-EM, Sep-26, High).
-- Consolidated fiscal deficit is tracking ~4.5% of GDP for FY25/26, with gross debt projected to peak at 75.5%–77.2% of GDP as National Treasury defends a primary budget surplus anchor (National Treasury MTBPS, 2026, High).
-- Gross official FX reserves stand at $63.5B (5.8 months of import cover), shielding external financing needs against flighty capital flows (SARB, Sep-26, High).
-- Local currency SAGB 10Y benchmarks (R2035 at 8.875%) yield ~9.15%, offering +4.55% ex-post real yield and steep roll-down, with unhedged ZAR upside supported by -14.5% 10Y REER undervaluation (GBI-EM Desk, Oct-26, High).
-- The primary downside risks are GNU coalition friction ahead of municipal cycles, Transnet freight rail bottlenecks, and high sovereign debt service (>20% of revenue) (National Treasury / SARB, Oct-26, Medium).
-- We are least sure about Transnet freight recovery velocity and final expenditure ceiling adjustments in the upcoming 23-Oct-26 MTBPS (National Treasury, Oct-26, Medium).
-- Overall confidence: High on macroeconomic stabilization and central bank credibility, Medium on SOE restructuring speed, Low on USD Eurobond secondary pricing until Bloomberg terminals confirm.
+- The view is constructive but verification-limited. Fiscal consolidation, an orthodox central bank, a stable GNU and positive agency momentum point to a BB credit moving towards BB+/Ba1. Ratings, fiscal vintage and market levels remain tier 2 or unsourced.
+- SARB policy rate path in 2026: 6.75% (Apr), 7.00% (May-Aug), 7.25% (Sep). That is a tightening, not an easing, cycle (BIS, IMF monthly series, tier 2, Medium). The earlier expectation of "easing on 21-Nov-26" is unsourced and is withdrawn.
+- Ex-ante real policy rate is +290 bps (7.25% less 4.35% BER 12-month expectation). It is +285 bps on Aug-26 headline CPI of 4.4%. CPI rose from 2.96% (Feb-26) to 4.98% (Jun-26) and is 4.4% in Aug-26, so part of the cushion reflects a base-effect rebound (Stats SA, IMF, Medium-High).
+- External liquidity looks adequate: current account about -1.6% of GDP and 5.8 months of import cover (SARB, Sep-26, Medium). Reserve definitions conflict ($63.5B vs $57.96B ex-gold vs $75.96B incl. gold), so no usable-reserves figure is stated.
+- The earlier claim that the 10Y REER is 14.5% undervalued is withdrawn. The BIS real broad REER is 115.03 (Aug-26), +1.23 standard deviations above its 10Y mean, so the currency is modestly rich against its own history (BIS, High).
+- Binding constraints are growth of 1% in 2026E (IMF WEO) and interest/revenue of at least 20%, with gross debt peaking at 75.5-77.2% of GDP. Neither the effective interest rate nor nominal growth is sourced, so the debt-stabilising primary balance (pb*) is not computed.
+- Biggest risk: the MTBPS (stated 23-Oct-26, unconfirmed) shows slippage on the wage bill, SOE support or revenue, which would stall the S&P and Moody's positive outlooks.
+- Not verified this run: rating actions, MTBPS date, Brent and gold levels, "170 days without loadshedding". No web research was available.
+- Confidence: Medium on macro direction and monetary credibility; Low on ratings, fiscal vintage and all market levels.
 
 ## What changed
-First version for South Africa sovereign credit. Establishes the hard-currency sovereign debt profile, fiscal trajectory under the GNU, and external terms-of-trade baseline to anchor sovereign research.
+- Corrected the ex-ante real rate: +290 bps against the BER 12-month expectation, not +285 bps (which is against headline CPI).
+- Withdrew the "-14.5% REER undervaluation" claim. The official series shows a +1.23 z-score (modestly overvalued).
+- Withdrew the gold "$2,580/oz record" and "Brent below $75" statements as unsourced. The gold reserve line of $18.0B is inconsistent with $2,580.
+- Withdrew the expected easing in November. The 2026 policy path is a hike from 6.75% to 7.25%.
+- Flagged the 21-Nov-26 MPC date (a Saturday) and the 23-Sep-26 decision date (a Wednesday, unusual for SARB) as unverified.
+- Flagged misattribution of the deficit forecasts to an MTBPS that has not been tabled. Added reserve-definition conflict, the unreconciled "4.55% real yield", FX and banking data, and downgraded overall confidence from the earlier High.
+- Added open items for the MPC statement, reserve definitions, Budget Review and gold.
 
 ## Analysis
 
-### External debt, reserves, and balance of payments
-- South Africa's gross official foreign exchange reserves stood at $63.5B as of late September 2026, equivalent to approximately 5.8 months of import cover (SARB, Sep-26, High).
-- The current account deficit has compressed toward -1.6% of GDP, benefiting substantially from a commodity terms-of-trade windfall where spot gold reached record highs above $2,580/oz while Brent crude stabilized below $75/bbl (SARB Quarterly Bulletin, Sep-26, High).
-- External debt remains predominantly sovereign and public-sector long-dated paper, with external debt servicing representing a manageable burden compared to local-currency debt service (National Treasury, Jun-26, High).
-- The SARB maintains a clean, floating exchange rate regime with no parallel-market distortion; net forward FX book liabilities are negligible compared to gross reserve holdings (SARB, Sep-26, High).
+### Monetary and inflation
+- Policy rate: 6.75% (Apr-26), 7.00% (May-Aug-26), 7.25% (Sep-26) (BIS monthly series, tier 2, Medium). The IMF series agrees through May-26 (6.75% to 7.00%). No primary SARB statement was read.
+- CPI y/y: 2.96% (Feb-26), 3.15% (Mar), 4.02% (Apr), 4.51% (May), 4.98% (Jun), 4.26% (Jul), 4.4% (Aug-26) (IMF data portal, Stats SA, Medium-High). It is inside the 3-6% band.
+- Ex-ante real policy rate is +2.90% on the BER 12-month expectation of 4.35% (derived signal, Medium; the BER survey itself is not independently sourced). The stored "+285 bps" divided headline CPI, not an expectation.
+- The R2035 "+4.55% ex-post real yield" does not reconcile: 9.15% less 4.4% CPI is 4.75%. The yield is attributed to a "GBI-EM Desk" rather than Bloomberg, so it is Low until [BBG] confirms it.
+- ZAR was 16.21 per USD in Sep-26, from 16.54 in Apr-26 (BIS, Medium-High). The REER is 115.03 (Aug-26), up from 109.29 (Mar-26), z-score +1.23 (BIS real broad, High). Rising real appreciation with a rising policy rate is consistent with a carry-supported currency.
 
-### Monetary policy and inflation dynamics
-- The South African Reserve Bank (SARB) Monetary Policy Committee (MPC) maintained its orthodox mandate, increasing the repo rate to 7.25% at its 23-Sep-26 meeting (SARB, 23-Sep-26, High).
-- Statistics South Africa (Stats SA) reported August 2026 annual headline CPI at 4.4% YoY (up slightly from 4.3% in July), sitting directly below the midpoint of the SARB's 3.0%–6.0% target band (Stats SA, 23-Sep-26, High).
-- The ex-ante real policy rate sits at +285 bps against 12-month forward inflation expectations (tracking 4.35% per BER surveys), anchoring consumer inflation expectations and supporting foreign portfolio carry flows (SARB / BER, Sep-26, High).
-- The next SARB MPC policy meeting is scheduled for 21-Nov-26, where the MPC is expected to initiate a cautious easing cycle if disinflation persists (SARB Calendar, Sep-26, Medium).
+### External position
+- Current account: -1.6% of GDP (SARB Quarterly Bulletin, Sep-26, Medium). No gross external financing requirement is sourced.
+- Reserves, three definitions (Medium, definitions unresolved):
+  - SARB headline: $63.5B, 5.8 months of import cover (Sep-26).
+  - Ex-gold: $57.96B (Aug-26), down from $59.26B (Mar-26).
+  - Gross incl. gold: $75.96B (Aug-26), +7.8% over 12 months.
+- Gold reserves were $18.0B (Aug-26), from $16.3B (Jun-26).
+- Commodity terms-of-trade index: -0.9% over 12 months to May-26 (IMF CTOT, Medium-High). This does not support a "sharply positive" terms-of-trade narrative.
+- The SARB net forward book and usable reserves are not in the brief.
 
-### Fiscal consolidation, debt trajectory, and SOE contingent liabilities
-- National Treasury projects the consolidated budget deficit narrowing from 4.7% of GDP in FY24/25 to 4.5% in FY25/26 and 3.8% in FY26/27 (National Treasury MTBPS, 2026, High).
-- The debt-to-GDP ratio is projected to stabilize and peak between 75.5% and 77.2% of GDP over the medium term, anchored by an achieved primary budget surplus (National Treasury, Jun-26, High).
-- Debt service costs remain the fastest-growing expenditure line, absorbing over 20% of consolidated fiscal revenue and limiting discretionary social and infrastructure capital expenditure (National Treasury, Jun-26, High).
-- Eskom grid performance has marked a structural turning point with over 170 consecutive days without loadshedding, but Transnet's freight rail and port bottlenecks remain a key contingent liability and logistics drag on mining exports (Eskom / Transnet / Presidency, Aug-26, High).
+### Fiscal
+- Fiscal balance: -4.5% of GDP in FY25/26 and -3.8% in FY26/27, with the debt peak at 75.5-77.2% of GDP (National Treasury, cited as "MTBPS 2026" and "Jun-26"; vintage unverified, Low-Medium). The fiscal year runs Apr-Mar.
+- Interest/revenue is at least 20% (FY25/26; floor value, Medium).
+- The earlier statement that debt service is the fastest-growing expenditure line is unsourced (Low).
+- The 4.7% FY24/25 deficit stated previously is not in the brief and is dropped.
+- Contingent liabilities (Eskom, Transnet, SANRAL) are unquantified.
 
-### Political economy under the GNU and structural reforms
-- Following the May 2024 national elections, the establishment of the Government of National Unity (GNU) combining the ANC, Democratic Alliance (DA), and Inkatha Freedom Party (IFP) has significantly reduced domestic political risk premia (Presidency of South Africa, Jun-26, High).
-- The Operation Vulindlela reform initiative has expedited private sector participation in electricity generation and rail freight logistics corridors (Operation Vulindlela Progress Report, Aug-26, High).
-- Upcoming political milestones include the municipal election cycle preparations and the tabling of the Medium-Term Budget Policy Statement (MTBPS) on 23-Oct-26 by Finance Minister Enoch Godongwana (National Treasury, Oct-26, High).
+### Growth, banking and politics
+- Real GDP growth is 1% in 2026E, nominal GDP $480B (IMF WEO, Medium).
+- Banks (IMF FSIs, deposit takers, 2025-Q2, Medium): CAR 16.06%, Tier 1 14.38%, NPL 4.51%, provisions/NPL 47.85%, ROE 16.9%, FX open position 0.42% of capital. The data is 15 months stale.
+- The GNU (ANC, DA, IFP) has held since the May 2024 elections (Presidency, Jun-26, Medium). The "ended loadshedding for >170 days" and Transnet statements are unverified (Low).
 
-### Sovereign ratings and market access
-- Fitch Ratings upgraded South Africa’s long-term foreign currency issuer default rating to BB from BB- on 05-Jun-26 with a Stable outlook, citing fiscal stabilization and the end of load-shedding (Fitch Ratings, 05-Jun-26, High).
-- S&P Global affirmed South Africa's rating at BB (Foreign Currency) and BB+ (Local Currency) with a Positive outlook on 29-May-26 (S&P Global Ratings, 29-May-26, High).
-- Moody's Investors Service maintains South Africa at Ba2 with a Positive outlook (Moody's, May-26, High).
-- Both S&P and Moody's maintain positive outlooks, placing South Africa on the path toward an upgrade to BB+ / Ba1 within the next 12 to 18 months if fiscal targets are met (Rating Agencies, Jun-26, High).
+### Ratings
+- Stored (tier 2, not verified against agency releases, Low-Medium): Fitch BB/Stable (05-Jun-26), S&P BB foreign / BB+ local, Positive (29-May-26), Moody's Ba2/Positive (May-26).
+- If correct, two of three agencies have positive outlooks. The "upgrade within 12 to 18 months" statement is an inference and is not sourced.
+- Fitch's "ending a 21-year downgrade cycle" is dropped as unsourced.
+
+### Market
+- No hard-currency bond, CDS or EMBI data is in the brief. Relative value is not assessable this run.
 
 ## Where the models disagreed
-Only Gemini submitted a position in this run; Claude did not complete a position. Therefore, no inter-model dispute arose. Gemini's baseline findings on rating actions (Fitch BB/Stable upgrade, S&P BB Positive outlook), SARB monetary orthodoxy (7.25% repo rate, 4.4% YoY CPI), and fiscal debt stabilization (peaking at ~75.5%–77.2% of GDP) were validated directly against official primary sources (SARB, Stats SA, National Treasury, Fitch Ratings) per Rule 2 of the evidence hierarchy.
+Only Claude's position was available to the judge, and there were no rebuttals. The points below are therefore corrections to the previous (Gemini-only) document rather than a two-sided dispute.
+1. **Ex-ante real rate:** the previous document gave +285 bps against 4.35% expectations; Claude showed this is the headline-CPI figure and the expectation-based figure is 2.90%. Resolved to 2.90%: the tier 2 data record plus the framework definition.
+2. **Real yield on R2035:** the previous document stated +4.55%; Claude showed the stated inputs give 4.75%. The figure is dropped; the yield is a market level needing [BBG] (rules: market levels from Reza).
+3. **Policy cycle and gold:** the previous document implied easing and a $2,580 gold price; the tier 2 series show a hiking cycle and a gold reserve value inconsistent with $2,580. The claims are withdrawn. The hike to 7.25% is kept at Medium confidence on the monthly series (rule: highest tier available, no primary source in hand).
+4. **REER:** the previous document said undervalued by 14.5%; the BIS series gives z +1.23. Resolved to the BIS series (tier 2 official data over an unsourced desk claim).
 
 ## Management questions
-1. What are the National Treasury's updated gross borrowing requirements and foreign debt issuance targets for the 2026/27 fiscal year to be tabled in the 23-Oct-26 MTBPS?
-2. What explicit contingent liability guarantee conditions are attached to Transnet's ongoing turnaround facility, and will freight rail private third-party access be fully operational by Q1 2027?
-3. What is the National Treasury's baseline trajectory for interest-to-revenue compression over the Medium-Term Expenditure Framework (MTEF) given debt service currently absorbing over 20% of revenue?
-4. How does the government plan to handle Eskom's remaining municipal debt arrears without expanding National Treasury debt absorption beyond the existing debt relief package?
+1. What do Budget 2026 and the coming MTBPS show for debt-service-to-revenue, the primary surplus path and the peak-debt year, and on what r and g assumptions?
+2. How much Eskom and Transnet support is included in the medium-term framework, and under what guarantee conditions?
+3. What are the gross borrowing and foreign-currency issuance plans for FY26/27?
+4. Is the MTBPS on a revenue-shortfall or wage-bill risk path, and what expenditure ceiling adjustments are planned?
 
 ## Knowledge base updates
-- [Snapshot] Sovereign credit ratings: Fitch BB/Stable (05-Jun-26), S&P BB Foreign / BB+ Local with Positive outlook (29-May-26), Moody's Ba2/Positive (May-26) (Fitch, S&P, Moody's, Jun-26)
-- [Snapshot] GBI-EM Global Diversified index constituent: South Africa (ZAR) benchmark 10Y SAGB R2035 (8.875% 28-Feb-2035) (J.P. Morgan, Oct-26)
-- [External] Gross official foreign exchange reserves stood at $63.5B, providing 5.8 months of import cover (SARB, Sep-26)
-- [External] Current account deficit tracks approximately -1.6% of GDP supported by gold above $2,580/oz and lower oil import costs (SARB, Aug-26)
-- [Fiscal] Consolidated budget deficit projected at 4.5% of GDP for FY25/26 and 3.8% of GDP for FY26/27 (National Treasury MTBPS, 2026)
-- [Fiscal] Gross debt-to-GDP ratio projected to peak between 75.5% and 77.2% of GDP as primary budget surplus is maintained (National Treasury, Jun-26)
-- [Monetary] SARB MPC repo rate raised to 7.25% on 23-Sep-26 with headline CPI printing at 4.4% YoY in August 2026, delivering an ex-ante real policy rate of +285 bps (SARB / Stats SA, 23-Sep-26)
-- [Politics] Government of National Unity (GNU) formed between ANC, DA, and IFP following May 2024 elections, delivering policy consensus and ending loadshedding for >170 days (Presidency of South Africa, Jun-26)
-- [Market] 10-year benchmark government bond SAGB R2035 yielding ~9.15%, providing +4.55% ex-post real yield against trailing inflation (GBI-EM Desk, Oct-26)
-- [Calendar] 23-Oct-26: Medium-Term Budget Policy Statement (MTBPS) tabled by Finance Minister Enoch Godongwana (National Treasury, Oct-26)
-- [Calendar] 21-Nov-26: South African Reserve Bank Monetary Policy Committee interest rate decision (SARB, Oct-26)
+- [Monetary] Policy rate path 2026: 6.75% (Apr), 7.00% (May-Aug), 7.25% (Sep) (BIS monthly series, Oct-26)
+- [Monetary] CPI y/y: 2.96% (Feb-26), 4.98% (Jun-26), 4.26% (Jul-26), 4.4% (Aug-26) (IMF data portal, Stats SA, Aug-26)
+- [Monetary] Ex-ante real policy rate 2.90%: policy rate 7.25% less BER 12-month expectation 4.35% (derived, Sep-26). The earlier +285 bps in this page is the figure against Aug-26 headline CPI
+- [Market] USD/ZAR 16.21 (Sep-26), 16.54 (Apr-26) (BIS, Sep-26)
+- [Market] BIS real broad REER 115.03 (Aug-26), z-score +1.23 against 10-year mean (BIS, Aug-26)
+- [External] Reserves, Aug-26: ex-gold $57.96B, gold $18.0B, gross incl. gold $75.96B, +7.8% over 12 months (IMF International Liquidity, Aug-26)
+- [External] Commodity terms-of-trade index -0.9% over 12 months to May-26 (IMF CTOT, May-26)
+- [Growth] Real GDP growth 1% in 2026E; nominal GDP $480B in 2026E (IMF WEO, 2026)
+- [Monetary] Banking system 2025-Q2: CAR 16.06%, Tier 1 14.38%, NPL 4.51%, provisions/NPL 47.85%, ROE 16.9%, FX open position 0.42% of capital (IMF FSI, 2025-Q2)
+- [Calendar] Day-of-week check: 21-Nov-26 is a Saturday and not a valid MPC date; the November meeting date is to be confirmed (computed, 08-Oct-26)
 
 ## Sources
-- Fitch Ratings, "Fitch Upgrades South Africa to 'BB'; Outlook Stable", 05-Jun-26 (tier 2)
-- S&P Global Ratings, "South Africa Ratings Affirmed at 'BB/BB+'; Outlook Positive", 29-May-26 (tier 2)
-- Moody's Investors Service, "Moody's Affirms South Africa's Ba2 Ratings, Changes Outlook to Positive", May-26 (tier 2)
-- South African Reserve Bank (SARB), "Monetary Policy Committee Statement", 23-Sep-26 (tier 2)
-- Statistics South Africa (Stats SA), "Consumer Price Index (CPI), August 2026", 23-Sep-26 (tier 2)
-- National Treasury of South Africa, "2024/2025 Medium Term Budget Policy Statement and Fiscal Framework Updates", Jun-26 (tier 2)
-- South African Reserve Bank, "Quarterly Bulletin: External Accounts and Reserves", Sep-26 (tier 2)
-- J.P. Morgan GBI-EM Global Diversified Index Monitor, Oct-26 (tier 2)
+- Official data record `database/sovereigns/south-africa.json`, as of 08-Oct-26: BIS monthly policy rate, FX, REER; IMF data portal CPI, reserves, CTOT; IMF FSI; IMF WEO (tier 2)
+- Knowledge page `knowledge/sovereigns/south-africa.md`, 08-Oct-26 (tier 2, with previously unverified Gemini-run content)
+- Previous truth document, run 2026-10-08_1131 (tier 2/4; Gemini-only, self-reviewed)
+- Claude position, run 2026-10-08_2106 (analytical review, no new sources)
+- Ratings (Fitch 05-Jun-26, S&P 29-May-26, Moody's May-26), SARB MPC statement Sep-26, Stats SA CPI Aug-26, National Treasury fiscal figures: cited via the previous document, not read this run (tier 2, unverified)
+- No web search or new captures this run

@@ -94,6 +94,13 @@
       "source": "IMF CPI database",
       "asof": "08-Oct-26",
       "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
+    },
+    "current_account_4q_usd_bn": {
+      "value": 2.28,
+      "period": "2024-Q1 to 2024-Q4",
+      "source": "IMF BOP",
+      "asof": "08-Oct-26",
+      "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
     }
   },
   "ratings": {
@@ -1567,5 +1574,51 @@
     "note": "Implicit GCC (Saudi Arabia, UAE, Kuwait) backstop; 2018 $10bn support package fully disbursed by 2023-24, no formal successor facility announced",
     "source": "IMF / Ministry of Finance; regional press",
     "asof": "23-Jan-26"
+  },
+  "series_quarterly": {
+    "current_account_usd_bn": {
+      "2024-Q1": 0.554,
+      "2024-Q2": 0.672,
+      "2024-Q3": 0.395,
+      "2024-Q4": 0.661
+    },
+    "goods_balance_usd_bn": {
+      "2024-Q1": 0.929,
+      "2024-Q2": 1.027,
+      "2024-Q3": 0.74,
+      "2024-Q4": 0.913
+    },
+    "services_balance_usd_bn": {
+      "2024-Q1": 1.035,
+      "2024-Q2": 1.139,
+      "2024-Q3": 1.155,
+      "2024-Q4": 1.322
+    },
+    "primary_income_usd_bn": {
+      "2024-Q1": -0.796,
+      "2024-Q2": -0.828,
+      "2024-Q3": -0.845,
+      "2024-Q4": -0.848
+    },
+    "secondary_income_usd_bn": {
+      "2024-Q1": -0.614,
+      "2024-Q2": -0.666,
+      "2024-Q3": -0.654,
+      "2024-Q4": -0.726
+    },
+    "fdi_liabilities_usd_bn": {
+      "2024-Q1": 0.234,
+      "2024-Q2": 0.748,
+      "2024-Q3": -0.288,
+      "2024-Q4": 2.009
+    }
+  },
+  "series_quarterly_sources": {
+    "current_account_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Current account balance, net, USD bn",
+    "goods_balance_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Goods balance, net, USD bn",
+    "services_balance_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Services balance, net, USD bn",
+    "primary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Primary income, net, USD bn",
+    "secondary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Secondary income (incl. remittances), net, USD bn",
+    "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
   }
 }

@@ -1053,5 +1053,7 @@
       },
       "derived": {}
     }
-  ]
+  ],
+  "series_quarterly": {},
+  "series_quarterly_sources": {}
 }
