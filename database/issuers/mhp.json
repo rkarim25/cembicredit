@@ -1,0 +1,973 @@
+{
+  "metadata": {
+    "id": "mhp",
+    "name": "MHP SE",
+    "ticker": "MHPSA",
+    "country": "Ukraine",
+    "region": "CEEMEA",
+    "sector": "Consumer",
+    "type": "corp",
+    "rating": "CCC+ / Caa2",
+    "tier": "CCC",
+    "benchmark_bond": "MHP 13.10% 2026",
+    "price": 82.5,
+    "ytm": 13.1,
+    "spread_bp": 875,
+    "model_file": "MHP_SE_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681489868f2bb1608ed64",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/MHP_SE_Credit_Model.xlsx",
+    "last_updated": "2026-09-19",
+    "model_type": "corp",
+    "fcf_2024a": 1.6,
+    "net_leverage_2024a": 2.89
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 2108.0,
+      "ebitda": 299.0,
+      "ebitda_margin_pct": 14.2,
+      "cfo": 242.4,
+      "capex": 99.4,
+      "fcf": 26.0,
+      "cash": 189.8,
+      "gross_debt": 1423.2,
+      "net_debt": 1233.4,
+      "net_leverage": 4.13,
+      "interest_coverage": 3.83,
+      "observations": {
+        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+      },
+      "reported_ebitda": 303.5,
+      "calculated_ebitda": 299.0,
+      "ebitda_reconciliation_variance_usd_m": 4.5,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$4.5M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 78.1,
+      "change_in_working_capital": 75.8,
+      "tax_expense": 19.7,
+      "fcf_conversion_pct": 8.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 299.0,
+        "capex": 99.4,
+        "cash_interest": 78.1,
+        "change_in_working_capital": 75.8,
+        "tax": 19.7,
+        "fcf": 26.0,
+        "formula_check": "299.0 - 99.4 - 78.1 - (75.8) - 19.7 = 26.0"
+      }
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 2542.0,
+      "ebitda": 368.0,
+      "ebitda_margin_pct": 14.5,
+      "cfo": 305.0,
+      "capex": 173.9,
+      "fcf": -72.9,
+      "cash": 241.5,
+      "gross_debt": 1540.4,
+      "net_debt": 1298.9,
+      "net_leverage": 3.53,
+      "interest_coverage": 3.78,
+      "observations": {
+        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+      },
+      "reported_ebitda": 373.5,
+      "calculated_ebitda": 368.0,
+      "ebitda_reconciliation_variance_usd_m": 5.5,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$5.5M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 97.4,
+      "change_in_working_capital": 145.6,
+      "tax_expense": 24.0,
+      "fcf_conversion_pct": -19.8,
+      "fcf_bridge": {
+        "calculated_ebitda": 368.0,
+        "capex": 173.9,
+        "cash_interest": 97.4,
+        "change_in_working_capital": 145.6,
+        "tax": 24.0,
+        "fcf": -72.9,
+        "formula_check": "368.0 - 173.9 - 97.4 - (145.6) - 24.0 = -72.9"
+      }
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 2852.0,
+      "ebitda": 414.0,
+      "ebitda_margin_pct": 14.5,
+      "cfo": 344.1,
+      "capex": 195.6,
+      "fcf": -88.9,
+      "cash": 293.2,
+      "gross_debt": 1640.9,
+      "net_debt": 1347.7,
+      "net_leverage": 3.26,
+      "interest_coverage": 3.54,
+      "observations": {
+        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+      },
+      "reported_ebitda": 420.2,
+      "calculated_ebitda": 414.0,
+      "ebitda_reconciliation_variance_usd_m": 6.2,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.2M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 116.9,
+      "change_in_working_capital": 164.5,
+      "tax_expense": 25.9,
+      "fcf_conversion_pct": -21.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 414.0,
+        "capex": 195.6,
+        "cash_interest": 116.9,
+        "change_in_working_capital": 164.5,
+        "tax": 25.9,
+        "fcf": -88.9,
+        "formula_check": "414.0 - 195.6 - 116.9 - (164.5) - 25.9 = -88.9"
+      }
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 3100.0,
+      "ebitda": 460.0,
+      "ebitda_margin_pct": 14.8,
+      "cfo": 391.0,
+      "capex": 185.1,
+      "fcf": 1.6,
+      "cash": 345.0,
+      "gross_debt": 1674.4,
+      "net_debt": 1329.4,
+      "net_leverage": 2.89,
+      "interest_coverage": 3.54,
+      "observations": {
+        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+      },
+      "reported_ebitda": 466.9,
+      "calculated_ebitda": 460.0,
+      "ebitda_reconciliation_variance_usd_m": 6.9,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$6.9M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 129.9,
+      "change_in_working_capital": 114.6,
+      "tax_expense": 28.8,
+      "fcf_conversion_pct": 0.3,
+      "fcf_bridge": {
+        "calculated_ebitda": 460.0,
+        "capex": 185.1,
+        "cash_interest": 129.9,
+        "change_in_working_capital": 114.6,
+        "tax": 28.8,
+        "fcf": 1.6,
+        "formula_check": "460.0 - 185.1 - 129.9 - (114.6) - 28.8 = 1.6"
+      }
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 3348.0,
+      "ebitda": 506.0,
+      "ebitda_margin_pct": 15.1,
+      "cfo": 430.1,
+      "capex": 168.2,
+      "fcf": 56.9,
+      "cash": 407.1,
+      "gross_debt": 1640.9,
+      "net_debt": 1233.8,
+      "net_leverage": 2.44,
+      "interest_coverage": 4.06,
+      "observations": {
+        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+      },
+      "reported_ebitda": 513.6,
+      "calculated_ebitda": 506.0,
+      "ebitda_reconciliation_variance_usd_m": 7.6,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$7.6M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 124.6,
+      "change_in_working_capital": 121.9,
+      "tax_expense": 34.4,
+      "fcf_conversion_pct": 11.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 506.0,
+        "capex": 168.2,
+        "cash_interest": 124.6,
+        "change_in_working_capital": 121.9,
+        "tax": 34.4,
+        "fcf": 56.9,
+        "formula_check": "506.0 - 168.2 - 124.6 - (121.9) - 34.4 = 56.9"
+      }
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 3565.0,
+      "ebitda": 542.8,
+      "ebitda_margin_pct": 15.2,
+      "cfo": 461.4,
+      "capex": 180.5,
+      "fcf": 75.7,
+      "cash": 465.8,
+      "gross_debt": 1590.7,
+      "net_debt": 1124.9,
+      "net_leverage": 2.07,
+      "interest_coverage": 4.54,
+      "observations": {
+        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+      },
+      "reported_ebitda": 550.9,
+      "calculated_ebitda": 542.8,
+      "ebitda_reconciliation_variance_usd_m": 8.1,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.1M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 119.6,
+      "change_in_working_capital": 127.9,
+      "tax_expense": 39.1,
+      "fcf_conversion_pct": 13.9,
+      "fcf_bridge": {
+        "calculated_ebitda": 542.8,
+        "capex": 180.5,
+        "cash_interest": 119.6,
+        "change_in_working_capital": 127.9,
+        "tax": 39.1,
+        "fcf": 75.7,
+        "formula_check": "542.8 - 180.5 - 119.6 - (127.9) - 39.1 = 75.7"
+      }
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 3720.0,
+      "ebitda": 570.4,
+      "ebitda_margin_pct": 15.3,
+      "cfo": 488.8,
+      "capex": 189.7,
+      "fcf": 91.5,
+      "cash": 517.5,
+      "gross_debt": 1507.0,
+      "net_debt": 989.5,
+      "net_leverage": 1.73,
+      "interest_coverage": 4.99,
+      "observations": {
+        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+      },
+      "reported_ebitda": 579.0,
+      "calculated_ebitda": 570.4,
+      "ebitda_reconciliation_variance_usd_m": 8.6,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.6M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 114.3,
+      "change_in_working_capital": 132.2,
+      "tax_expense": 42.7,
+      "fcf_conversion_pct": 16.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 570.4,
+        "capex": 189.7,
+        "cash_interest": 114.3,
+        "change_in_working_capital": 132.2,
+        "tax": 42.7,
+        "fcf": 91.5,
+        "formula_check": "570.4 - 189.7 - 114.3 - (132.2) - 42.7 = 91.5"
+      }
+    }
+  ],
+  "supplementary_data": {
+    "hard_currency_revenue_pct": 68.0,
+    "concession_life_years": 27.0,
+    "contracted_backlog_usd_m": 6510.0,
+    "utilization_rate_pct": 84.0
+  },
+  "debt_maturities": {
+    "2025": 159.5,
+    "2026": 265.9,
+    "2027": 372.2,
+    "2028": 239.3,
+    "2029": 159.5,
+    "2030_plus": 132.9,
+    "total_outstanding_usd_m": 1329.3
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 50.0,
+    "base_case_px": 90.0,
+    "recovery_floor_pct": 50.0,
+    "recovery_base_pct": 90.0,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
+    "thesis": "Europe's lowest-cost poultry producer; 360k ha arable land; Perutnina Ptuj generating offshore EU cash flow."
+  },
+  "annotations": [
+    {
+      "issuer_id": "mhp",
+      "issuer_name": "MHP SE",
+      "sector": "Consumer",
+      "topic": "Retail Footprint & Concession Moat",
+      "source": "Cognitive Credit / Broker Consensus",
+      "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+    },
+    {
+      "issuer_id": "mhp",
+      "issuer_name": "MHP SE",
+      "sector": "Consumer",
+      "topic": "Working Capital & Free Cash Flow",
+      "source": "Financial Statements",
+      "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+    },
+    {
+      "issuer_id": "mhp",
+      "issuer_name": "MHP SE",
+      "sector": "Consumer",
+      "topic": "Geographic Diversification",
+      "source": "Investor Presentations",
+      "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+    }
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+    "reporting_currency": "USD / Local Currency",
+    "management_guidance_targets": {
+      "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+      "ebitda_margin_target": "14.8% - 16.8%",
+      "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+      "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+    },
+    "capex_and_project_pipeline": {
+      "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+      "multi_year_capex_envelope": "$402.5M capital expenditure program",
+      "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+    },
+    "geographic_and_fx_exposure": {
+      "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+      "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "commercial_order_backlog": "$2015.0M in confirmed industrial delivery contracts",
+      "market_share_leadership": "Top 2 market position in core operating markets in Ukraine"
+    },
+    "liquidity_waterfall": {
+      "cash_and_equivalents": "$345.0M",
+      "undrawn_committed_bank_rcfs": "$586.0M in multi-currency revolving credit facilities",
+      "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+    },
+    "quarterly_cadence_and_highlights": {
+      "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+      "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+    }
+  },
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "MHPSA Benchmark Senior Notes",
+      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 753.5,
+      "amount_outstanding_usd_m": 753.5,
+      "coupon": "13.100%",
+      "clean_price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "maturity_date": "2029-07-25",
+      "seniority": "Senior Unsecured (Pari Passu)",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
+    },
+    {
+      "tranche_name": "MHPSA Secondary Eurobond / Sukuk Tranche 2",
+      "instrument_type": "Senior Unsecured Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 502.3,
+      "amount_outstanding_usd_m": 502.3,
+      "coupon": "12.450%",
+      "clean_price": 84.5,
+      "ytm": 12.45,
+      "spread_bp": 810,
+      "maturity_date": "2027-10-18",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
+    },
+    {
+      "tranche_name": "Syndicated Commercial Bank Term Facility",
+      "instrument_type": "Senior Secured / Priority Amortizing Loan",
+      "currency": "USD / EUR",
+      "amount_issued_usd_m": 326.6,
+      "amount_outstanding_usd_m": 251.2,
+      "coupon": "SOFR + 185 bps",
+      "clean_price": 100.0,
+      "ytm": 6.85,
+      "spread_bp": 185,
+      "maturity_date": "2031-03-31",
+      "seniority": "Senior Secured",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
+    },
+    {
+      "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+      "instrument_type": "Revolving Working Capital Credit Line",
+      "currency": "USD",
+      "amount_issued_usd_m": 585.9,
+      "amount_outstanding_usd_m": 167.4,
+      "coupon": "SOFR + 150 bps",
+      "clean_price": 100.0,
+      "ytm": 6.5,
+      "spread_bp": 150,
+      "maturity_date": "2028-06-30",
+      "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "MHPSA Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+    "total_committed_capacity_usd_m": 468.8,
+    "drawn_amount_usd_m": 167.4,
+    "undrawn_available_usd_m": 301.4,
+    "drawn_margin": "SOFR + 150 bps",
+    "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+    "maturity": "2028-06-30 (with two 1-year extension options)",
+    "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+    "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+      "covenant_threshold": "3.75x",
+      "actual_current": "2.89x",
+      "headroom": "0.86x leverage buffer ($395.6M EBITDA headroom)",
+      "status": "Compliant - Substantial Headroom"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+      "covenant_threshold": "2.50x",
+      "actual_current": "3.54x",
+      "headroom": "+1.04x interest coverage cushion",
+      "status": "Compliant - Strong Coverage"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Maximum Permitted Priority / Secured Debt",
+      "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+      "actual_current": "4.5% of Assets",
+      "headroom": "$682.0M unutilized secured debt capacity",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+      "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+    },
+    "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "2025E Full-Year Gross Revenue Target",
+      "management_target": "$3348.0M (+8.0% YoY growth)",
+      "current_runrate": "$3301.5M (+6.5% YoY)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+      "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "On your last call, management guided full-year revenue of $3348.0M (+8.0% YoY growth). With current run-rate at $3301.5M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+      "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
+    },
+    {
+      "guidance_metric": "2025E Consolidated EBITDA Target",
+      "management_target": "$506.0M (15.1% margin)",
+      "current_runrate": "$496.8M",
+      "tracking_status": "On Track",
+      "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+      "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management committed to an EBITDA target of $506.0M (15.1% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+      "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
+    },
+    {
+      "guidance_metric": "Long-Term Net Leverage Ceiling",
+      "management_target": "< 3.25x Net Debt / EBITDA",
+      "current_runrate": "2.89x",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Deleveraging on track with 0.86x buffer below covenant limit.",
+      "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.89x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+      "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
+    },
+    {
+      "guidance_metric": "2025E Strategic Capex Envelope",
+      "management_target": "$169.1M (Maximum growth and sustaining envelope)",
+      "current_runrate": "$155.6M committed",
+      "tracking_status": "On Track",
+      "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+      "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You guided a maximum capex envelope of $169.1M (Maximum growth and sustaining envelope). Current commitments stand at $155.6M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+      "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
+    },
+    {
+      "guidance_metric": "Annual Dividend Payout Policy",
+      "management_target": "30% - 40% payout of attributable net profit",
+      "current_runrate": "35% payout policy maintained",
+      "tracking_status": "On Track",
+      "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+      "last_guided_source": "MHP SE FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-17",
+    "period_reporting": "Q3 2026 Financial Results",
+    "confirmation_status": "Confirmed",
+    "call_time": "14:00 London / 09:00 EST",
+    "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
+    "days_to_earnings": 39
+  },
+  "management_questions": [
+    {
+      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+    },
+    {
+      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+      "deduced_from": "Debt schedule notes and capital management disclosures."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 78.3,
+      "ytm": 14.45,
+      "spread_bp": 1094,
+      "net_leverage": 3.24,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 79.7,
+      "ytm": 14.05,
+      "spread_bp": 1032,
+      "net_leverage": 3.14,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 81.0,
+      "ytm": 13.7,
+      "spread_bp": 980,
+      "net_leverage": 3.04,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 81.7,
+      "ytm": 13.4,
+      "spread_bp": 919,
+      "net_leverage": 2.94,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 82.1,
+      "ytm": 13.25,
+      "spread_bp": 901,
+      "net_leverage": 2.91,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 82.8,
+      "ytm": 13.0,
+      "spread_bp": 858,
+      "net_leverage": 2.84,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 83.1,
+      "ytm": 12.9,
+      "spread_bp": 840,
+      "net_leverage": 2.79,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 83.3,
+      "ytm": 12.85,
+      "spread_bp": 831,
+      "net_leverage": 2.77,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 82.9,
+      "ytm": 12.95,
+      "spread_bp": 849,
+      "net_leverage": 2.81,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "CCC+ / Caa2",
+      "price": 82.6,
+      "ytm": 13.05,
+      "spread_bp": 866,
+      "net_leverage": 2.87,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:59:49.383781",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 230.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:52:54.613504",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-27",
+      "period_name": "2026-09-27",
+      "timestamp": "2026-09-27T05:15:31.591151",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-28",
+      "period_name": "2026-09-28",
+      "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-01",
+      "period_name": "2026-10-01",
+      "timestamp": "2026-10-01T05:16:24.259494",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-04",
+      "period_name": "2026-10-04",
+      "timestamp": "2026-10-04T05:15:38.975116",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-05",
+      "period_name": "2026-10-05",
+      "timestamp": "2026-10-05T05:17:39.814202",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-06",
+      "period_name": "2026-10-06",
+      "timestamp": "2026-10-06T05:18:38.274520",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-07",
+      "period_name": "2026-10-07",
+      "timestamp": "2026-10-07T05:16:25.536653",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-08",
+      "period_name": "2026-10-08",
+      "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "broker_snapshots": [
+    {
+      "broker": "Consensus Sell-Side",
+      "analyst": "Composite EM Credit Desk",
+      "report_date": "2024-12-01",
+      "report_title": "MHP SE: Forward Earnings & Refinancing Profile",
+      "recommendation": "Neutral",
+      "target_spread_bps": 450,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 52.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "notes": "Standardized consensus desk baseline.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 92.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 52.0,
+          "reconciled_val": 92.0,
+          "variance": -40.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Consensus Sell-Side",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 52.0,
+      "reconciled_val": 92.0,
+      "variance": -40.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Consensus Sell-Side",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 1,
+    "revenue": 1050.0,
+    "ebitda": 312.0,
+    "capex": -144.0,
+    "cash_interest": -66.0,
+    "change_wc": -20.0,
+    "tax": -30.0,
+    "fcf": 92.0,
+    "net_debt": 660.0,
+    "net_leverage": 2.12,
+    "total_mistakes_caught": 1,
+    "last_reconciled": "2026-09-20"
+  }
+}

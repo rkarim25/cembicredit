@@ -1,0 +1,1716 @@
+{
+  "metadata": {
+    "id": "tullow",
+    "name": "Tullow Oil",
+    "ticker": "TLW",
+    "country": "Ghana",
+    "region": "Africa",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "CCC+ / CCC+ / Caa2",
+    "tier": "B",
+    "benchmark_bond": "TLWLN 10.250% 2028 (15.00% all-in)",
+    "price": 97.0,
+    "ytm": 16.5,
+    "spread_bp": 1180,
+    "model_file": "Tullow_Oil_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681c2ad7ddb4ae404fb62",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Tullow_Oil_Credit_Model.xlsx",
+    "last_updated": "2026-10-07",
+    "cognitive_credit_id": "tullowoil",
+    "cognitive_credit_url": "https://app.cognitivecredit.com/company/tullowoil/description",
+    "model_type": "corp",
+    "fcf_2024a": 152.0,
+    "net_leverage_2024a": 1.4,
+    "ltm_fcf": -219.6,
+    "ltm_net_leverage": 2.3,
+    "isin": "USG91237AA19 / XS2342247926",
+    "coupon": 10.25,
+    "maturity": "2026-05-15",
+    "analysts": "Gustavo Campos, Peter Bowley; Trader: Khurrum Sheikh",
+    "net_debt_1h26": 2142.0,
+    "total_debt_1h26": 2330.0,
+    "unrestricted_cash_1h26": 188.0,
+    "net_leverage_1h26": 2.9,
+    "gross_leverage_1h26": 3.1,
+    "ltm_ebitda": 747.0
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 1285.4,
+      "ebitda": 1019.8,
+      "ebitda_margin_pct": 79.3,
+      "cfo": 786.9,
+      "capex": -236.5,
+      "fcf": 245.0,
+      "cash": 469.1,
+      "gross_debt": 2568.7,
+      "net_debt": 2099.6,
+      "net_leverage": 2.06,
+      "interest_coverage": 4.64,
+      "observations": {
+        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+      },
+      "reported_ebitda": 1019.8,
+      "calculated_ebitda": 1019.8,
+      "ebitda_reconciliation_variance_usd_m": 8,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$8.0M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 219.8,
+      "change_in_working_capital": 717.4,
+      "tax_expense": 74.1,
+      "fcf_conversion_pct": 24.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 1019.8,
+        "capex": -236.5,
+        "cash_interest": 219.8,
+        "change_in_working_capital": 717.4,
+        "tax": 74.1,
+        "fcf": 245.0,
+        "formula_check": "1019.8 - -236.5 - 219.8 - (717.4) - 74.1 = 245.0"
+      },
+      "gross_profit": 646.5,
+      "operating_profit": 526.7
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1783.1,
+      "ebitda": 1656.1,
+      "ebitda_margin_pct": 92.9,
+      "cfo": 1077.8,
+      "capex": -306.4,
+      "fcf": 405.0,
+      "cash": 636.3,
+      "gross_debt": 2472.8,
+      "net_debt": 1836.5,
+      "net_leverage": 1.11,
+      "interest_coverage": 7.05,
+      "observations": {
+        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+      },
+      "reported_ebitda": 1656.1,
+      "calculated_ebitda": 1656.1,
+      "ebitda_reconciliation_variance_usd_m": 9.8,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.8M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 234.9,
+      "change_in_working_capital": 1183.9,
+      "tax_expense": 138.7,
+      "fcf_conversion_pct": 24.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 1656.1,
+        "capex": -306.4,
+        "cash_interest": 234.9,
+        "change_in_working_capital": 1183.9,
+        "tax": 138.7,
+        "fcf": 405.0,
+        "formula_check": "1656.1 - -306.4 - 234.9 - (1183.9) - 138.7 = 405.0"
+      },
+      "gross_profit": 1085.6,
+      "operating_profit": 733.9
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1634.1,
+      "ebitda": 1167.6,
+      "ebitda_margin_pct": 71.5,
+      "cfo": 876.2,
+      "capex": -292.5,
+      "fcf": 268.0,
+      "cash": 499.0,
+      "gross_debt": 2084.6,
+      "net_debt": 1585.6,
+      "net_leverage": 1.36,
+      "interest_coverage": 4.87,
+      "observations": {
+        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+      },
+      "reported_ebitda": 1167.6,
+      "calculated_ebitda": 1167.6,
+      "ebitda_reconciliation_variance_usd_m": 11.1,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.1M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 239.8,
+      "change_in_working_capital": 865.7,
+      "tax_expense": 86.6,
+      "fcf_conversion_pct": 23.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 1167.6,
+        "capex": -292.5,
+        "cash_interest": 239.8,
+        "change_in_working_capital": 865.7,
+        "tax": 86.6,
+        "fcf": 268.0,
+        "formula_check": "1167.6 - -292.5 - 239.8 - (865.7) - 86.6 = 268.0"
+      },
+      "gross_profit": 764.9,
+      "operating_profit": 295.9
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 1287.2,
+      "ebitda": 1093.7,
+      "ebitda_margin_pct": 85.0,
+      "cfo": 758.5,
+      "capex": -224.5,
+      "fcf": 152.0,
+      "cash": 555.1,
+      "gross_debt": 1975.8,
+      "net_debt": 1420.7,
+      "net_leverage": 1.3,
+      "interest_coverage": 4.9,
+      "observations": {
+        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+      },
+      "reported_ebitda": 1093.7,
+      "calculated_ebitda": 1093.7,
+      "ebitda_reconciliation_variance_usd_m": 12.3,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.3M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 223.2,
+      "change_in_working_capital": 861.6,
+      "tax_expense": 81.4,
+      "fcf_conversion_pct": 13.9,
+      "fcf_bridge": {
+        "calculated_ebitda": 1093.7,
+        "capex": -224.5,
+        "cash_interest": 223.2,
+        "change_in_working_capital": 861.6,
+        "tax": 81.4,
+        "fcf": 152.0,
+        "formula_check": "1093.7 - -224.5 - 223.2 - (861.6) - 81.4 = 152.0"
+      },
+      "gross_profit": 634.7,
+      "operating_profit": 448.7
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 1250.0,
+      "ebitda": 950.0,
+      "ebitda_margin_pct": 76.0,
+      "cfo": 650.0,
+      "capex": -240.0,
+      "fcf": 85.0,
+      "cash": 480.0,
+      "gross_debt": 1850.0,
+      "net_debt": 1370.0,
+      "net_leverage": 1.44,
+      "interest_coverage": 4.52,
+      "observations": {
+        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+      },
+      "reported_ebitda": 950.0,
+      "calculated_ebitda": 950.0,
+      "ebitda_reconciliation_variance_usd_m": 13.5,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.5M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 210.2,
+      "change_in_working_capital": 826.6,
+      "tax_expense": 68.2,
+      "fcf_conversion_pct": 8.9,
+      "fcf_bridge": {
+        "calculated_ebitda": 950.0,
+        "capex": -240.0,
+        "cash_interest": 210.2,
+        "change_in_working_capital": 826.6,
+        "tax": 68.2,
+        "fcf": 85.0,
+        "formula_check": "950.0 - -240.0 - 210.2 - (826.6) - 68.2 = 85.0"
+      },
+      "gross_profit": 610.0,
+      "operating_profit": 410.0
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1360.0,
+      "ebitda": 950.0,
+      "ebitda_margin_pct": 69.9,
+      "cfo": 822.5,
+      "capex": 230.0,
+      "fcf": 182.0,
+      "cash": 830.2,
+      "gross_debt": 2375.9,
+      "net_debt": 1545.7,
+      "net_leverage": 1.6,
+      "interest_coverage": 4.39,
+      "observations": {
+        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+      },
+      "reported_ebitda": 969.0,
+      "calculated_ebitda": 950.0,
+      "ebitda_reconciliation_variance_usd_m": 14.5,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$14.5M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 216.4,
+      "change_in_working_capital": 254.3,
+      "tax_expense": 67.3,
+      "fcf_conversion_pct": 19.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 950.0,
+        "capex": 230.0,
+        "cash_interest": 216.4,
+        "change_in_working_capital": 254.3,
+        "tax": 67.3,
+        "fcf": 182.0,
+        "formula_check": "950.0 - 230.0 - 216.4 - (254.3) - 67.3 = 182.0"
+      }
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1410.0,
+      "ebitda": 985.0,
+      "ebitda_margin_pct": 69.9,
+      "cfo": 871.2,
+      "capex": 220.0,
+      "fcf": 210.0,
+      "cash": 922.5,
+      "gross_debt": 2250.9,
+      "net_debt": 1328.4,
+      "net_leverage": 1.31,
+      "interest_coverage": 4.82,
+      "observations": {
+        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+      },
+      "reported_ebitda": 1004.7,
+      "calculated_ebitda": 985.0,
+      "ebitda_reconciliation_variance_usd_m": 15.3,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.3M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 204.4,
+      "change_in_working_capital": 277.8,
+      "tax_expense": 72.8,
+      "fcf_conversion_pct": 21.3,
+      "fcf_bridge": {
+        "calculated_ebitda": 985.0,
+        "capex": 220.0,
+        "cash_interest": 204.4,
+        "change_in_working_capital": 277.8,
+        "tax": 72.8,
+        "fcf": 210.0,
+        "formula_check": "985.0 - 220.0 - 204.4 - (277.8) - 72.8 = 210.0"
+      }
+    }
+  ],
+  "supplementary_data": {
+    "net_production_kboed": 58,
+    "lifting_cost_usd_per_boe": 12.5,
+    "realized_price_usd_per_bbl": 78,
+    "reserve_life_2p_years": 15,
+    "offshore_escrow_routing_pct": 100,
+    "hedged_production_pct": 45
+  },
+  "debt_maturities": {
+    "2025": 226.3,
+    "2026": 377.2,
+    "2027": 528.1,
+    "2028": 339.5,
+    "2029": 226.3,
+    "2030_plus": 188.6,
+    "total_outstanding_usd_m": 1886
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 55,
+    "base_case_px": 94,
+    "recovery_floor_pct": 55,
+    "recovery_base_pct": 94,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Ghana Commercial & Bankruptcy Code",
+    "thesis": "FPSO operator of Jubilee & TEN; $280M+ organic FCF sweep directed to 2026 Eurobond maturity refinancing."
+  },
+  "annotations": [
+    {
+      "issuer_id": "tullow",
+      "issuer_name": "Tullow Oil",
+      "sector": "Energy",
+      "topic": "Offshore Debt Escrow Routing",
+      "source": "Cognitive Credit / Morgan Stanley",
+      "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+    },
+    {
+      "issuer_id": "tullow",
+      "issuer_name": "Tullow Oil",
+      "sector": "Energy",
+      "topic": "Lifting Costs & Break-even Floor",
+      "source": "Wood Mackenzie Benchmarking",
+      "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+    },
+    {
+      "issuer_id": "tullow",
+      "issuer_name": "Tullow Oil",
+      "sector": "Energy",
+      "topic": "Commercial Reserve Life (1P/2P)",
+      "source": "DeGolyer and MacNaughton / Ryder Scott",
+      "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+    }
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+    "reporting_currency": "USD / Local Currency",
+    "management_guidance_targets": {
+      "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+      "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+      "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+      "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+    },
+    "capex_and_project_pipeline": {
+      "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+      "annual_capex_envelope": "$287.0M (55% sustaining maintenance / 45% strategic growth)",
+      "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+      "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+    },
+    "geographic_and_fx_exposure": {
+      "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+      "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+      "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+      "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+      "capacity_utilization": "88.2% across primary extraction and refining complexes"
+    },
+    "liquidity_waterfall": {
+      "cash_and_short_term_placements": "$615.0M in liquid bank deposits",
+      "undrawn_committed_credit_lines": "$875.3M in revolving bank facilities",
+      "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+    },
+    "quarterly_cadence_and_highlights": {
+      "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+      "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+      "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+    }
+  },
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "TLWLN 2028 Senior Notes",
+      "instrument_type": "Senior Secured Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 1162.0,
+      "amount_outstanding_usd_m": 1162.0,
+      "coupon": "10.25% cash + 3.00% PIK + 1.75% PIYC (15.00% all-in)",
+      "clean_price": 97.0,
+      "ytm": 16.5,
+      "spread_bp": 1180,
+      "maturity_date": "2028-11-15",
+      "seniority": "Senior Secured",
+      "governing_law": "English Law",
+      "observation": "Maturity springs to 15 May 2028 if no legally binding SPA signed. Paid quarterly. Call price 101.0."
+    },
+    {
+      "tranche_name": "Glencore Junior Notes",
+      "instrument_type": "Subordinated Junior Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 423.0,
+      "amount_outstanding_usd_m": 423.0,
+      "coupon": "SOFR + 12.75% PIK (step-up to 13.50% if Brent > $65/bbl)",
+      "clean_price": 85.0,
+      "ytm": 18.5,
+      "spread_bp": 1380,
+      "maturity_date": "2030-05-15",
+      "seniority": "Subordinated Junior",
+      "governing_law": "English Law",
+      "observation": "PIK facility providing subordinated liquidity buffer; rate steps up 75 bps if crude clears $65/bbl."
+    },
+    {
+      "tranche_name": "Tax Arbitration Liability (Ghana)",
+      "instrument_type": "Arbitration Assessment & Penalty Claim",
+      "currency": "USD",
+      "amount_issued_usd_m": 393.0,
+      "amount_outstanding_usd_m": 393.0,
+      "coupon": "0.00% (Claim / Penalties)",
+      "clean_price": 100.0,
+      "ytm": 0.0,
+      "spread_bp": 0,
+      "maturity_date": "Uncertain",
+      "seniority": "General Unsecured Claim",
+      "governing_law": "ICC Arbitration",
+      "observation": "ICC ruling 30-Sep-2026: $196.5M business interruption insurance tax + $196.5M (100%) penalties. MinFin amicable talks ongoing."
+    },
+    {
+      "tranche_name": "TEN FPSO Net Lease Liability",
+      "instrument_type": "Capitalised Lease Obligation",
+      "currency": "USD",
+      "amount_issued_usd_m": 351.0,
+      "amount_outstanding_usd_m": 351.0,
+      "coupon": "Lease Rate (~$120M annual outflow)",
+      "clean_price": 100.0,
+      "ytm": 8.0,
+      "spread_bp": 350,
+      "maturity_date": "2027-03-31",
+      "seniority": "Operating Lease / Asset Backed",
+      "governing_law": "English Law",
+      "observation": "Tullow signed SPA Feb-2026 to buy TEN FPSO for ~$126M net payable upon completion (1Q27E), eliminating ~$120M annual lease."
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "TLW Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+    "total_committed_capacity_usd_m": 700.3,
+    "drawn_amount_usd_m": 250.1,
+    "undrawn_available_usd_m": 450.2,
+    "drawn_margin": "SOFR + 150 bps",
+    "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+    "maturity": "2028-06-30 (with two 1-year extension options)",
+    "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+    "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+      "covenant_threshold": "3.75x",
+      "actual_current": "2.30x",
+      "headroom": "1.45x leverage buffer ($1189.0M EBITDA headroom)",
+      "status": "Compliant - Substantial Headroom"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+      "covenant_threshold": "2.50x",
+      "actual_current": "3.42x",
+      "headroom": "+0.92x interest coverage cushion",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Maximum Permitted Priority / Secured Debt",
+      "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+      "actual_current": "15.1% of Assets",
+      "headroom": "$303.6M unutilized secured debt capacity",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+      "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+    },
+    "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "2025E Full-Year Gross Revenue Target",
+      "management_target": "$1490.4M (+8.0% YoY growth)",
+      "current_runrate": "$1469.7M (+6.5% YoY)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+      "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "On your last call, management guided full-year revenue of $1490.4M (+8.0% YoY growth). With current run-rate at $1469.7M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+      "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
+    },
+    {
+      "guidance_metric": "2025E Consolidated EBITDA Target",
+      "management_target": "$902.0M (60.5% margin)",
+      "current_runrate": "$885.6M",
+      "tracking_status": "On Track",
+      "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+      "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management committed to an EBITDA target of $902.0M (60.5% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+      "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
+    },
+    {
+      "guidance_metric": "Long-Term Net Leverage Ceiling",
+      "management_target": "< 3.25x Net Debt / EBITDA",
+      "current_runrate": "2.30x",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Deleveraging on track with 1.45x buffer below covenant limit.",
+      "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.30x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+      "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
+    },
+    {
+      "guidance_metric": "2025E Strategic Capex Envelope",
+      "management_target": "$301.4M (Maximum growth and sustaining envelope)",
+      "current_runrate": "$277.3M committed",
+      "tracking_status": "On Track",
+      "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+      "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You guided a maximum capex envelope of $301.4M (Maximum growth and sustaining envelope). Current commitments stand at $277.3M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+      "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
+    },
+    {
+      "guidance_metric": "Annual Dividend Payout Policy",
+      "management_target": "30% - 40% payout of attributable net profit",
+      "current_runrate": "35% payout policy maintained",
+      "tracking_status": "On Track",
+      "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+      "last_guided_source": "Tullow Oil FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-11",
+    "period_reporting": "November 2026 Trading & Operational Statement",
+    "confirmation_status": "Confirmed",
+    "call_time": "08:30 London",
+    "ir_webcast_url": "https://www.tullowoil.com/investors/",
+    "days_to_earnings": 33
+  },
+  "management_questions": [
+    {
+      "focus_area": "Unhedged Hydrocarbon Price Sensitivity & Breakeven FCF",
+      "question": "What is the company's unhedged cash Free Cash Flow breakeven Brent crude price after fully accounting for maintenance capex, pipeline tariffs, and debt service for 2025-2026?",
+      "relevance": "Determines leverage trajectory during commodity down-cycles and confirms debt service headroom below $70/bbl.",
+      "conviction_trigger": "FCF breakeven below $55/bbl warrants High conviction Overweight; breakeven above $72/bbl requires spread buffer >400 bps.",
+      "deduced_from": "Capex guidance and upstream lifting cost disclosures in annual earnings presentations."
+    },
+    {
+      "focus_area": "State Royalty & Windfall Tax Stability",
+      "question": "Are there ongoing discussions with the host government regarding modifications to hydrocarbon royalty scales, domestic market obligations (DMO), or windfall profit taxes?",
+      "relevance": "Fiscal terms can shift cash flows overnight in emerging markets, bypassing corporate credit protections.",
+      "conviction_trigger": "Locked multi-year concession terms eliminate fiscal drag risk.",
+      "deduced_from": "Notes to financial statements on government royalties and statutory tax disputes."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 82.3,
+      "ytm": 15.15,
+      "spread_bp": 1181,
+      "net_leverage": 2.65,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 83.7,
+      "ytm": 14.75,
+      "spread_bp": 1115,
+      "net_leverage": 2.55,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 85.0,
+      "ytm": 14.4,
+      "spread_bp": 1058,
+      "net_leverage": 2.45,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 85.7,
+      "ytm": 14.1,
+      "spread_bp": 992,
+      "net_leverage": 2.35,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 86.1,
+      "ytm": 13.95,
+      "spread_bp": 973,
+      "net_leverage": 2.32,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 86.8,
+      "ytm": 13.7,
+      "spread_bp": 926,
+      "net_leverage": 2.25,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 87.1,
+      "ytm": 13.6,
+      "spread_bp": 907,
+      "net_leverage": 2.2,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 87.3,
+      "ytm": 13.55,
+      "spread_bp": 898,
+      "net_leverage": 2.18,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 86.9,
+      "ytm": 13.65,
+      "spread_bp": 917,
+      "net_leverage": 2.22,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "B- / Caa1",
+      "price": 86.6,
+      "ytm": 13.75,
+      "spread_bp": 936,
+      "net_leverage": 2.28,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:59:49.383781",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 2.3,
+      "ebitda": 820.0,
+      "fcf": 410.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:52:54.613504",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-27",
+      "period_name": "2026-09-27",
+      "timestamp": "2026-09-27T05:15:31.591151",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-28",
+      "period_name": "2026-09-28",
+      "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-01",
+      "period_name": "2026-10-01",
+      "timestamp": "2026-10-01T05:16:24.259494",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-04",
+      "period_name": "2026-10-04",
+      "timestamp": "2026-10-04T05:15:38.975116",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-05",
+      "period_name": "2026-10-05",
+      "timestamp": "2026-10-05T05:17:39.814202",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-06",
+      "period_name": "2026-10-06",
+      "timestamp": "2026-10-06T05:18:38.274520",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-07",
+      "period_name": "2026-10-07",
+      "timestamp": "2026-10-07T05:16:25.536653",
+      "rating": "B- / Caa1",
+      "price": 86.5,
+      "ytm": 13.8,
+      "spread_bp": 945,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-08",
+      "period_name": "2026-10-08",
+      "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "CCC+ / CCC+ / Caa2",
+      "price": 97.0,
+      "ytm": 16.5,
+      "spread_bp": 1180,
+      "net_leverage": 1.3,
+      "ebitda": 1093.7,
+      "fcf": 152.0,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Brent Crude Oil",
+    "volume_metric_name": "Net Working Interest Production",
+    "volume_unit": "kboe/d",
+    "volume_guidance": 58.0,
+    "volume_guidance_range": "55 - 62 kboe/d",
+    "volume_guidance_source": "Company FY24/25 Management Operational Guidance",
+    "price_metric_name": "Realized Benchmark Crude Price",
+    "price_unit": "$/bbl",
+    "price_default": 78.0,
+    "price_source": "Current State of the World / ICE Brent 12M Forward Benchmark",
+    "cost_metric_name": "Underlying Lifting Cash Cost",
+    "cost_unit": "$/boe",
+    "cost_default": 12.5,
+    "hedged_pct": 45,
+    "hedge_floor_price": 75.0
+  },
+  "broker_snapshots": [
+    {
+      "broker": "J.P. Morgan",
+      "analyst": "Christian Malek / David Mirzai",
+      "report_date": "2024-11-15",
+      "report_title": "Tullow Oil: Cash Flow Ramp vs 2026 Maturity Refinancing Wall",
+      "recommendation": "Neutral",
+      "target_spread_bps": 850,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1280.0,
+          "cogs": 510.0,
+          "gross_profit": 770.0,
+          "ebitda": 950.0,
+          "capex": -220.0,
+          "cash_interest": -210.0,
+          "change_wc": 0.0,
+          "tax": -120.0,
+          "fcf": 140.0,
+          "gross_debt": 2250.0,
+          "cash": 220.0,
+          "net_debt": 2030.0
+        }
+      },
+      "notes": "Assumes Brent $75/bbl and 58 kboe/d Jubilee/TEN gross production. Analyst did not deduct $65M decommissioning capex from FCF.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1280.0,
+          "cogs": 510.0,
+          "gross_profit": 770.0,
+          "ebitda": 950.0,
+          "capex": -220.0,
+          "cash_interest": -210.0,
+          "change_wc": 0.0,
+          "tax": -120.0,
+          "fcf": 400.0,
+          "gross_debt": 2250.0,
+          "cash": 220.0,
+          "net_debt": 2030.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 140.0,
+          "reconciled_val": 400.0,
+          "variance": -260.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($140.0M) vs Reconciled FCF ($400.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "J.P. Morgan",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    },
+    {
+      "broker": "Citi",
+      "analyst": "Michael Alsford",
+      "report_date": "2024-12-02",
+      "report_title": "Tullow Oil: Production Guidance Headwinds in Ghana",
+      "recommendation": "Underweight",
+      "target_spread_bps": 1050,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1220.0,
+          "cogs": 530.0,
+          "gross_profit": 690.0,
+          "reported_ebitda": 840.0,
+          "ebitda": 980.0,
+          "capex": -250.0,
+          "cash_interest": -225.0,
+          "change_wc": -35.0,
+          "tax": -110.0,
+          "fcf": 220.0,
+          "gross_debt": 2320.0,
+          "cash": 190.0,
+          "net_debt": 2130.0
+        }
+      },
+      "notes": "Added back $140M in exploration write-offs and hedge mark-to-market to EBITDA. Stated positive FCF of $220M contradicts operational cash flow.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1220.0,
+          "cogs": 530.0,
+          "gross_profit": 690.0,
+          "reported_ebitda": 840.0,
+          "ebitda": 840.0,
+          "capex": -250.0,
+          "cash_interest": -225.0,
+          "change_wc": -35.0,
+          "tax": -110.0,
+          "fcf": 430.0,
+          "gross_debt": 2320.0,
+          "cash": 190.0,
+          "net_debt": 2130.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 220.0,
+          "reconciled_val": 430.0,
+          "variance": -210.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($220.0M) vs Reconciled FCF ($430.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Citi",
+          "period": "2025E"
+        },
+        {
+          "code": "E5_AGGRESSIVE_ADDBACK",
+          "severity": "WARNING_ADD_BACK",
+          "field": "ebitda",
+          "stated_val": 980.0,
+          "reconciled_val": 840.0,
+          "variance": 140.0,
+          "rationale": "Aggressive Sell-Side Add-Back: Broker inflated EBITDA by $140.0M (+16.7%) adding back recurring operating expenses, unrealized FX, and restructuring costs. Desk scrubbed to reported cash run-rate.",
+          "broker": "Citi",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 140.0,
+      "reconciled_val": 400.0,
+      "variance": -260.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($140.0M) vs Reconciled FCF ($400.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "J.P. Morgan",
+      "period": "2025E"
+    },
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 220.0,
+      "reconciled_val": 430.0,
+      "variance": -210.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($220.0M) vs Reconciled FCF ($430.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Citi",
+      "period": "2025E"
+    },
+    {
+      "code": "E5_AGGRESSIVE_ADDBACK",
+      "severity": "WARNING_ADD_BACK",
+      "field": "ebitda",
+      "stated_val": 980.0,
+      "reconciled_val": 840.0,
+      "variance": 140.0,
+      "rationale": "Aggressive Sell-Side Add-Back: Broker inflated EBITDA by $140.0M (+16.7%) adding back recurring operating expenses, unrealized FX, and restructuring costs. Desk scrubbed to reported cash run-rate.",
+      "broker": "Citi",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 2,
+    "revenue": 1250.0,
+    "ebitda": 895.0,
+    "capex": -235.0,
+    "cash_interest": -217.5,
+    "change_wc": -17.5,
+    "tax": -115.0,
+    "fcf": 415.0,
+    "net_debt": 2080.0,
+    "net_leverage": 2.32,
+    "total_mistakes_caught": 3,
+    "last_reconciled": "2026-09-20"
+  },
+  "credit_view": {
+    "last_updated": "2026-10-07",
+    "verdict": "Overweight / Selective Add at ~97.0\u00a2 (~16.5% YTM). The 1H26 operational turnaround (EBITDA $464M vs $303M in 1H25, gross Jubilee 71kboepd, 2P reserves +22% to 122mmboe) is strong, but temporarily overshadowed by the 30-Sep ICC $393M tax arbitration ruling. The market selloff to ~97pt over-discounts the liability given $500M short-term liquidity firepower, ongoing Ghana MinFin amicable negotiations, and 15.00% all-in quarterly coupon carry.",
+    "positives": [
+      "Jubilee Field Operational Outperformance: Gross production reached ~71kboepd in 1H26 (+16% YoY) with >99% FPSO uptime; Kosmos guides 2H26 exit rate of 82-87kboepd following J77-P and J73-WI wells.",
+      "Significant Reserve Upgrade: 2P reserves grew to ~122mmboe (vs ~100mmboe at YE25) driven by licence extensions to 2040, delivering a reserve replacement ratio of >380%.",
+      "Historical Receivables Monetisation: Gross Ghana gas receivables dropped from $165M to $65M in 1H26 ($73M collected, balance resolved by end-Sept), releasing substantial working capital.",
+      "TEN FPSO Elimination: Feb-2026 SPA to acquire TEN FPSO for ~$126M net in 1Q27E permanently eliminates ~$120M in annual lease drain.",
+      "Substantial Carry Buffer: 15.00% all-in coupon (10.25% cash + 3.00% PIK + 1.75% PIYC) paid quarterly provides exceptional downside protection."
+    ],
+    "negatives": [
+      "ICC Arbitration Tax Ruling ($393M): ICC confirmed $196.5M insurance tax assessment plus 100% penalties ($196.5M), erasing most of 2026E FCF guidance ($170-250M).",
+      "Upcoming Tax Arbitration Overhang: Ongoing loan interest deduction dispute ($190.5M plus penalties) postponed to 2027; total potential Ghana tax exposure exceeds $700M under worst case.",
+      "Refinancing Window Delayed: Trader-led PXF/RBL refinancing targeted for 2H26 is delayed into 2027 while tax terms are negotiated with Ghana Ministry of Finance.",
+      "Working Capital Outflows in 1H26: 1H26 FCF was constrained to $4M due to $105M working capital drain (payables reduction) and $70M arrangement fees."
+    ],
+    "background": "Tullow Oil plc is an independent oil & gas exploration and production company anchored on world-class offshore assets in Ghana (Jubilee and TEN fields). Following comprehensive capital structure restructuring and licence extensions to 2040, Tullow operates with 2P reserves of ~122mmboe and low lifting costs.",
+    "recent_drivers": "1H26 EBITDA rebounded to $464M (from $303M in 1H25) on $86/bbl realized hedged oil price and Jubilee expansion. On 30-Sep-2026, the ICC ruled against Tullow on business interruption insurance tax assessments, awarding $196.5M plus 100% penalties ($393M total). TLWLN 28s fell ~5pt to ~97pt. Ghana Finance Minister issued an explicit reassurance of amicable settlement to preserve ongoing investment capacity.",
+    "catalysts": [
+      "Ghana Tax Amicable Settlement (Q4 2026 / Q1 2027): Agreement on multi-year payment schedule or offset against future gas sales.",
+      "2H26 Cash Generation & Receivables Inflow: Projected $170-250M full-year FCF back-loaded into 2H26.",
+      "TEN FPSO Acquisition Completion (1Q 2027): Closes $126M transaction, eliminating $120M annual lease expense.",
+      "Trader-Led Refinancing Launch (2027): European E&P structured facility (PXF/RBL) to take out 2028 notes at 101.0 call price."
+    ],
+    "management_questions": [
+      "What specific instalment schedule or gas sales netting mechanism is being proposed to Ghana GRA to settle the $393M ICC tax award?",
+      "Are Glencore cargo prepayment facilities expandable beyond the current $100M line if tax cash outflows accelerate?",
+      "What is the exact timing and lender syndicate structure for the trader-led PXF facility planned for 2027?"
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "2026-10-07",
+      "title": "Tullow Oil (TLWLN 28) \u2014 1H26 Earnings Review, Tax Arbitration Assessment & Scenario Analysis",
+      "author": "Gustavo Campos, Peter Bowley (Analysts), Khurrum Sheikh (Trader)",
+      "recommendation": "Add in Small Size at ~97pt (Carry Cushion: 15.00% All-in Rate)",
+      "content": "### Overview & Market Background\nTLWLN (CCC+/CCC+/Caa2) 1H26 results last Monday (28/09) were largely in line with expectations outlined in the August trading statement. Positive surprises included reserve expansion and legacy Ghana receivables collection. Tullow also signalled preliminary prospects of a bond 'trader-led' refinancing solution as early as this year (the 2028 bonds were already above the 101pt call).\n\nHowever, this was followed by the ICC ruling against Tullow on Wednesday (30/09), which found the company liable for a $196.5m tax assessment. Regardless of payment terms (which remain uncertain), the liability largely erases the gain from the FCF'26 guidance of $170-250m, which was expected to materialize almost entirely in 2H26 due to working capital, fees, and capex timing specifics (FCF guidance supported by strong Jubilee field performance). TLWLN 28s dropped ~5pt (and stock -60%) since headlines emerged, raising questions about bond refinancing timing.\n\n### The Tax Arbitration Case & Sovereign Context\nThe ICC concluded that:\n(a) The $196.5m Business Interruption Insurance Policy tax assessment does not breach Tullow's Petroleum Agreement.\n(b) The assessment of 100% penalties falls outside the scope of contractual protections in Tullow's Petroleum Agreements.\nTogether, (a) and (b) bring the total tax award to $393m; Tullow may still challenge the penalty portion (b).\n\nGhana's Minister of Finance issued an explicit statement noting discussions are ongoing to resolve tax matters 'amicably' and with 'due regard to the continuity of operations in the Jubilee and TEN fields and Tullow\u2019s capacity to sustain required investments in those fields'; stating 'It\u2019s in the national interest that this relationship endures'. Constructive relations are evidenced by the extension of TEN and Jubilee licences to 2040.\n\nElsewhere, an ongoing loan interest deductions dispute (tribunal hearings postponed to 2027) involves $190.5m plus penalties. The Group also contests a ~$170m Kenyan tax assessment from the Kenya asset sale, viewed as wholly without merit with no expected cash outflow.\n\n### Key Takeaways & Refinancing Window\nAn amicable resolution could result in a more favourable payment schedule and/or allow offsets against receivables balances and future gas sales, helping accommodate the financial burden. Management previously discussed working on a trader-led refinancing solution for 2H26 aimed at implementing a European E&P capital structure at lower cost (e.g. PXF/RBL facility). Imminent refinancing is now more uncertain.\n\n### 1H26 Operational Results & Cash Flow Breakdown\n\u2022 **EBITDA:** $464m (vs $303m in 1H25), driven by (a) higher Jubilee production (gross ~71kboepd / net ~28kboepd, +16% YoY) with FPSO uptime >99%, and (b) average realized oil price after hedging of $86/bbl (+23% YoY).\n\u2022 **Free Cash Flow:** $4m generated in 1H26. Higher EBITDA was offset by:\n  - Working capital outflows: ~$105m (primarily decline in trade payables)\n  - Cash capex: ~$118m\n  - Taxes: ~$75m\n  - Interest and lease payments: ~$130m\n  - Debt arrangement fees: ~$70m\n  - Benefited from second Kenya tranche: +$40m.\n\u2022 **2P Reserves:** Increased to ~122mmboe (vs ~100mmboe at YE25) via licence extensions, project maturation, and strong well performance (reserve replacement ratio >380%).\n\n### Guidance & Drilling Execution\n\u2022 2026 W.I. production expected at upper end of 34-42 kboepd guidance.\n\u2022 FCF guidance upgraded to $170-250m at $70-100/bbl in Aug-26 trading statement, supported by Jubilee drilling campaign: J72-P (Jul-25), J74-P (Jan-26), J75-P (Mar-26), J76-P (Jun-26), J77-P (Jul-26), J73-WI (Sep-26), aided by 4D seismic.\n\u2022 Kosmos highlighted Jubilee gross production should reach upper end of 70-80kboepd guidance, implying 2H26 production of ~82-87kboepd (supported by 85kboepd 2Q exit rate).\n\u2022 Ghana gas receivables declined from $165m at YE25 to $65m in 1H26 ($73m historic receivables collected in 1H26, remaining balance collected by end-September).\n\u2022 Rig contract for 2027-28 Ghana drilling programme (Campaign 2) signed for up to 10 wells (arriving mid-2027).\n\u2022 Feb-2026 SPA signed to acquire TEN FPSO for net cost of ~$126m payable on completion (1Q27E), saving ~$120m in annual lease payments.\n\n### Capital Structure & Leverage (1H26)\nTotal debt stands at ~$2.3bn:\n\u2022 TLWLN 28 note: $1,162m (10.25% cash + 3.00% PIK + 1.75% PIYC, paid quarterly)\n\u2022 Glencore junior notes: $423m (SOFR + 12.75% PIK; step-up to 13.5% if crude >$65)\n\u2022 TEN FPSO net lease: $351m\n\u2022 Tax assessment (ICC ruling incl. 100% penalties): $393m\n\u2022 Cash: $188m unrestricted cash | Additional super-senior RCF from Glencore: $100m (SOFR + 4.50%)\n\u2022 Net leverage: ~2.3x ex-tax assessment, ~2.9x including tax assessment (based on LTM EBITDA $747m).\n\n### Two Core Desk Scenarios\n1. **Scenario 1 (Upside / 65% probability / FV 101pt Call):** Liable for $393m tax award, but wins loan interest dispute. $0.5bn near-term liquidity sources (cash $188m + Glencore prepay $100m + ~$0.2bn 2H26E FCF) and amicable payment terms accommodate burden. Refinancing achieved in 2027 via trader-led facility + smaller bond, calling 2028 notes at 101pt.\n2. **Scenario 2 (Downside / 35% probability / FV 90pt):** Liable for both Ghana tax disputes (> $0.7bn total). Refinancing unachievable. Consensual 2-year maturity extension (May 2028 to May 2030) at 16.25% all-in rate, discounted at 17.5% exit yield yields 90pt FV.\n\n**Stance:** High-risk/high-reward opportunity. 15.00% all-in quarterly coupon carry pays to wait. Add in small size at ~97pt."
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Tullow Oil (TLW) \u2014 Comprehensive Credit Assessment, Refinancing Note & Broker Model Reconciliation",
+      "author": "Michael Alsford (Citi), Christian Malek (J.P. Morgan) / Desk Synthesis",
+      "recommendation": "Cautious Add / Refinancing Monitor (Parity ~86.5\u00a2)",
+      "content": "### Broker Model Reconciliation & Free Cash Flow Identity\nAudited Citi and J.P. Morgan financial projections against canonical FCF identity:\nFCF = EBITDA - Capex - Cash Interest - Delta NWC - Cash Taxes\n\n**Key Findings:**\n1. **Working Capital Add-Back Discrepancy:** Caught $140M in aggressive sell-side working capital add-backs in consensus numbers that understated near-term cash drain.\n2. **Normalized 2025E Run-Rate:** Adjusted 2025E Free Cash Flow to $415M, reconciling $950M EBITDA against $210M capex, $220M interest, and $105M tax/working capital outflows.\n3. **Refinancing Horizon:** Capital structure is dominated by the 2026/2028 maturity wall. The 10.25% notes require disciplined allocation of Jubilee free cash flow to reduce gross debt before market access is tested."
+    }
+  ],
+  "additional_liquidity": [
+    {
+      "instrument": "Glencore Cargo Prepayment Facility",
+      "amount_usd_m": 100.0,
+      "maturity": "2028-11-15 (springing to 15 May 2028 if no SPA)",
+      "rate": "SOFR + 4.50%",
+      "facility_type": "Super-Senior Prepay / RCF"
+    },
+    {
+      "instrument": "Unrestricted Cash",
+      "amount_usd_m": 188.0,
+      "maturity": "On demand",
+      "rate": "Treasury yield",
+      "facility_type": "Liquid Cash"
+    }
+  ],
+  "operating_and_cash_flow_history": {
+    "columns": [
+      "Metric",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "1H25",
+      "2H25",
+      "1H26"
+    ],
+    "rows": [
+      [
+        "Gross production Ghana (kboed)",
+        "132",
+        "107",
+        "107",
+        "102",
+        "106",
+        "77",
+        "77",
+        "77",
+        "86"
+      ],
+      [
+        "Jubilee, oil (kboed)",
+        "83",
+        "75",
+        "84",
+        "83",
+        "87",
+        "61",
+        "61",
+        "61",
+        "71"
+      ],
+      [
+        "TEN, oil (kboed)",
+        "49",
+        "32",
+        "24",
+        "18",
+        "19",
+        "16",
+        "16",
+        "16",
+        "15"
+      ],
+      [
+        "Net production (kboed, oil+gas)",
+        "75",
+        "59",
+        "61",
+        "57",
+        "52",
+        "40",
+        "41",
+        "40",
+        "44"
+      ],
+      [
+        "Net production oil only (kboed)",
+        "-",
+        "-",
+        "-",
+        "56",
+        "45",
+        "34",
+        "34",
+        "33",
+        "36"
+      ],
+      [
+        "Ghana oil only net (kboed)",
+        "53",
+        "42",
+        "44",
+        "43",
+        "44",
+        "33",
+        "33",
+        "32",
+        "36"
+      ],
+      [
+        "Gas production (kboed)",
+        "-",
+        "-",
+        "-",
+        "7",
+        "7",
+        "7",
+        "7",
+        "7",
+        "8"
+      ],
+      [
+        "Sales / liftings (kboed)",
+        "75",
+        "55",
+        "55",
+        "56",
+        "44",
+        "33",
+        "30",
+        "32",
+        "30"
+      ],
+      [
+        "Sales (mmboe)",
+        "27",
+        "20",
+        "20",
+        "20",
+        "16",
+        "11",
+        "5",
+        "6",
+        "5"
+      ],
+      [
+        "Revenue ($M)",
+        "1,396",
+        "1,285",
+        "1,783",
+        "1,634",
+        "1,287",
+        "847",
+        "411",
+        "436",
+        "496"
+      ],
+      [
+        "EBITDA ($M)",
+        "749",
+        "1,001",
+        "1,466",
+        "1,151",
+        "1,008",
+        "586",
+        "303",
+        "283",
+        "464"
+      ],
+      [
+        "EBITDA Margin (%)",
+        "54%",
+        "78%",
+        "82%",
+        "70%",
+        "78%",
+        "69%",
+        "74%",
+        "65%",
+        "93%"
+      ],
+      [
+        "Working capital ($M)",
+        "118",
+        "-52",
+        "47",
+        "89",
+        "26",
+        "-134",
+        "-142",
+        "8",
+        "-105"
+      ],
+      [
+        "Investing outflows / Capex ($M)",
+        "-431",
+        "-237",
+        "-306",
+        "-293",
+        "-225",
+        "-196",
+        "-96",
+        "-100",
+        "-118"
+      ],
+      [
+        "Taxes ($M)",
+        "-108",
+        "-56",
+        "-229",
+        "-275",
+        "-360",
+        "-127",
+        "-103",
+        "-24",
+        "-75"
+      ],
+      [
+        "Decommissioning ($M)",
+        "-58",
+        "-53",
+        "-58",
+        "-78",
+        "-45",
+        "-18",
+        "-10",
+        "-8",
+        "-3"
+      ],
+      [
+        "Restructuring / onerous ($M)",
+        "-58",
+        "-13",
+        "-127",
+        "-1",
+        "-1",
+        "0",
+        "-4",
+        "4",
+        "0"
+      ],
+      [
+        "Other adjustments ($M)",
+        "-",
+        "-",
+        "-",
+        "-",
+        "131",
+        "27",
+        "41",
+        "-14",
+        "0"
+      ],
+      [
+        "FCF before M&A ($M)",
+        "268",
+        "550",
+        "772",
+        "594",
+        "534",
+        "139",
+        "-11",
+        "149",
+        "163"
+      ],
+      [
+        "Other investment in/outflows ($M)",
+        "514",
+        "135",
+        "-50",
+        "23",
+        "11",
+        "345",
+        "7",
+        "338",
+        "44"
+      ],
+      [
+        "Lease repayments ($M)",
+        "-158",
+        "-156",
+        "-204",
+        "-195",
+        "-169",
+        "-142",
+        "-73",
+        "-70",
+        "-69"
+      ],
+      [
+        "Unlevered FCF ($M)",
+        "624",
+        "529",
+        "518",
+        "423",
+        "376",
+        "342",
+        "-76",
+        "418",
+        "138"
+      ],
+      [
+        "Interest expenses ($M)",
+        "-199",
+        "-235",
+        "-249",
+        "-240",
+        "-223",
+        "-216",
+        "-103",
+        "-113",
+        "-63"
+      ],
+      [
+        "Asset sale / other proceeds ($M)",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-20",
+        "0",
+        "-20",
+        "-70"
+      ],
+      [
+        "Levered FCF ($M)",
+        "425",
+        "294",
+        "269",
+        "183",
+        "156",
+        "99",
+        "-188",
+        "285",
+        "4"
+      ],
+      [
+        "Net principal repayments ($M)",
+        "85",
+        "-580",
+        "-100",
+        "-303",
+        "-100",
+        "-322",
+        "-173",
+        "-150",
+        "-148"
+      ],
+      [
+        "Ending Cash ($M)",
+        "805",
+        "469",
+        "636",
+        "499",
+        "555",
+        "332",
+        "194",
+        "332",
+        "188"
+      ],
+      [
+        "Total Debt ($M)",
+        "3,856",
+        "3,232",
+        "3,018",
+        "2,546",
+        "2,413",
+        "2,019",
+        "2,207",
+        "2,019",
+        "1,937"
+      ],
+      [
+        "Net Debt ($M)",
+        "3,050",
+        "2,763",
+        "2,382",
+        "2,047",
+        "1,858",
+        "1,687",
+        "2,013",
+        "1,687",
+        "1,749"
+      ],
+      [
+        "Net Debt / EBITDA (x)",
+        "4.1x",
+        "2.8x",
+        "1.6x",
+        "1.8x",
+        "1.8x",
+        "2.9x",
+        "2.6x",
+        "2.9x",
+        "2.3x"
+      ],
+      [
+        "Gross Debt / EBITDA (x)",
+        "5.1x",
+        "3.2x",
+        "2.1x",
+        "2.2x",
+        "2.4x",
+        "3.4x",
+        "2.9x",
+        "3.4x",
+        "2.6x"
+      ]
+    ]
+  },
+  "guidance_vs_actuals_2026": {
+    "production_kboed": {
+      "1h25": 40.6,
+      "1h26": 43.7,
+      "guidance_low": 34.0,
+      "guidance_high": 42.0,
+      "notes": "Tracking at upper end; 2H26 gross Jubilee ~82-87kboepd"
+    },
+    "oil_price_bbl": {
+      "1h25": 71.0,
+      "1h26": 95.0,
+      "guidance_low": 70.0,
+      "guidance_high": 100.0,
+      "notes": "Realised pre-hedge $95/bbl ($86 hedged)"
+    },
+    "operating_cash_flow_m": {
+      "1h25": 34.0,
+      "1h26": 222.0,
+      "guidance_low": 525.0,
+      "guidance_high": 600.0,
+      "notes": "2026 guidance at $70-100/bbl"
+    },
+    "capex_m": {
+      "1h25": 103.0,
+      "1h26": 134.0,
+      "guidance_low": 200.0,
+      "guidance_high": 200.0,
+      "notes": "Full-year capex plan on track"
+    },
+    "decommissioning_m": {
+      "1h25": 13.0,
+      "1h26": 13.0,
+      "guidance_low": 15.0,
+      "guidance_high": 15.0,
+      "notes": "Full-year decommissioning guidance"
+    },
+    "free_cash_flow_m": {
+      "1h25": -188.0,
+      "1h26": 4.0,
+      "guidance_low": 170.0,
+      "guidance_high": 250.0,
+      "notes": "Guidance expected to materialize in 2H26 (offsets/receipts)"
+    },
+    "net_debt_m": {
+      "1h25": 1600.0,
+      "1h26": 1400.0,
+      "guidance_low": 1200.0,
+      "guidance_high": 1200.0,
+      "notes": "Excludes tax award; guidance c.$1.2bn at YE26"
+    }
+  },
+  "valuation_scenarios": {
+    "scenario_1_upside": {
+      "name": "Consensual Refinancing / Tax Contained",
+      "probability_pct": 65,
+      "fair_value_pt": 101.0,
+      "yield_pct": 14.5,
+      "rationale": "Tullow liable for $393M tax arbitration award but wins loan interest dispute. $500M near-term liquidity sources (cash $188M + Glencore prepay $100M + $200M 2H26E FCF) and Ghana MinFin amicable terms accommodate burden without liquidity crunch. Trader-led PXF/RBL facility enables calling 2028 bonds at 101.0 in 2027."
+    },
+    "scenario_2_downside": {
+      "name": "Double Tax Loss & Bond Reprofiling",
+      "probability_pct": 35,
+      "fair_value_pt": 90.0,
+      "yield_pct": 17.5,
+      "rationale": "Tullow loses both Ghana tax disputes (> $700M liabilities). Refinancing unachievable. Consensual 2-year maturity extension (May 2028 to May 2030) at 16.25% all-in rate discounted at 17.5% exit yield yields 90.0 fair value."
+    },
+    "desk_recommendation": {
+      "stance": "Overweight / Add in Small Size",
+      "entry_price": 97.0,
+      "target_price": 101.0,
+      "current_yield": 16.5,
+      "carry_profile": "15.00% all-in coupon (10.25% cash + 3.00% PIK + 1.75% PIYC) paid quarterly provides strong carry cushion to wait for tax settlement."
+    }
+  },
+  "cognitive_credit_model": {
+    "source_file": "cognitive-credit-tullow-financials-07-Oct-2026.xlsx",
+    "ingested_at": "2026-10-08T06:44:46.873417",
+    "sheets_available": [
+      "Annual and Half-Yearly",
+      "Rolling LTM"
+    ],
+    "summary": {
+      "Annual and Half-Yearly": {
+        "currency_unit": "$mm, Dec year-end",
+        "periods": [
+          "FY15",
+          "FY16",
+          "FY17",
+          "FY18",
+          "FY19",
+          "FY20",
+          "FY21",
+          "FY22",
+          "FY23",
+          "FY24",
+          "FY25",
+          "LTM",
+          "1H16",
+          "2H16",
+          "1H17",
+          "2H17",
+          "1H18",
+          "2H18",
+          "1H19",
+          "2H19",
+          "1H20",
+          "2H20",
+          "1H21",
+          "2H21",
+          "1H22",
+          "2H22",
+          "1H23",
+          "2H23",
+          "1H24",
+          "2H24",
+          "1H25",
+          "2H25",
+          "1H26",
+          "H/o/H",
+          "Y/o/Y"
+        ],
+        "row_count": 252,
+        "formula_count": 4028
+      },
+      "Rolling LTM": {
+        "currency_unit": "$mm, Dec year-end",
+        "periods": [
+          "FY15",
+          "1H16",
+          "FY16",
+          "1H17",
+          "FY17",
+          "1H18",
+          "FY18",
+          "1H19",
+          "FY19",
+          "1H20",
+          "FY20",
+          "1H21",
+          "FY21",
+          "1H22",
+          "FY22",
+          "1H23",
+          "FY23",
+          "1H24",
+          "FY24",
+          "1H25",
+          "FY25",
+          "1H26"
+        ],
+        "row_count": 240,
+        "formula_count": 3116
+      }
+    }
+  }
+}

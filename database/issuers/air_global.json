@@ -1,0 +1,378 @@
+{
+  "metadata": {
+    "id": "air_global",
+    "name": "Air Global (Advanced Inhalation Rituals)",
+    "ticker": "AIRGLO",
+    "country": "UAE",
+    "region": "Middle East",
+    "sector": "Consumer",
+    "type": "corp",
+    "rating": "BB- / B1",
+    "tier": "BB",
+    "benchmark_bond": "AIRGLO 2029",
+    "price": 100.0,
+    "ytm": 7.5,
+    "spread_bp": 385,
+    "model_file": "Air_Global_Credit_Model.xlsx",
+    "notion_id": "3e31d0ad-68c6-81e5-9e01-f9353fde4a7f",
+    "last_updated": "2026-09-22",
+    "fcf_2024a": 134.0,
+    "net_leverage_2024a": 2.2
+  },
+  "financials_multi_year": [
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 364.0,
+      "ebitda": 118.0,
+      "ebitda_margin_pct": 32.4,
+      "cfo": 65.0,
+      "capex": -16.0,
+      "fcf": 49.0,
+      "cash": 45.0,
+      "gross_debt": 330.0,
+      "net_debt": 285.0,
+      "net_leverage": 2.42,
+      "interest_coverage": 4.8,
+      "cash_interest": 24.6,
+      "change_in_working_capital": 51.7,
+      "tax_expense": 8.7,
+      "fcf_conversion_pct": 41.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 118.0,
+        "capex": -16.0,
+        "cash_interest": 24.6,
+        "change_in_working_capital": 51.7,
+        "tax": 8.7,
+        "fcf": 49.0,
+        "formula_check": "118.0 - -16.0 - 24.6 - (51.7) - 8.7 = 49.0"
+      }
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 377.0,
+      "ebitda": 130.0,
+      "ebitda_margin_pct": 34.5,
+      "cfo": 151.0,
+      "capex": -17.0,
+      "fcf": 134.0,
+      "cash": 60.0,
+      "gross_debt": 345.0,
+      "net_debt": 285.0,
+      "net_leverage": 2.19,
+      "interest_coverage": 5.2,
+      "cash_interest": 25.0,
+      "change_in_working_capital": -21.9,
+      "tax_expense": 9.9,
+      "fcf_conversion_pct": 103.1,
+      "fcf_bridge": {
+        "calculated_ebitda": 130.0,
+        "capex": -17.0,
+        "cash_interest": 25.0,
+        "change_in_working_capital": -21.9,
+        "tax": 9.9,
+        "fcf": 134.0,
+        "formula_check": "130.0 - -17.0 - 25.0 - (-21.9) - 9.9 = 134.0"
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "revenue": 400.0,
+      "ebitda": 139.0,
+      "ebitda_margin_pct": 34.8,
+      "cfo": 116.0,
+      "capex": -15.0,
+      "fcf": 101.0,
+      "cash": 70.0,
+      "gross_debt": 362.0,
+      "net_debt": 292.0,
+      "net_leverage": 2.1,
+      "interest_coverage": 5.6,
+      "cash_interest": 24.8,
+      "change_in_working_capital": 17.3,
+      "tax_expense": 10.9,
+      "fcf_conversion_pct": 72.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 139.0,
+        "capex": -15.0,
+        "cash_interest": 24.8,
+        "change_in_working_capital": 17.3,
+        "tax": 10.9,
+        "fcf": 101.0,
+        "formula_check": "139.0 - -15.0 - 24.8 - (17.3) - 10.9 = 101.0"
+      }
+    }
+  ],
+  "segment_performance": {
+    "meaa_revenue_2025": 255.0,
+    "europe_revenue_2025": 45.0,
+    "americas_revenue_2025": 79.0,
+    "new_growth_revenue_2025": 21.0,
+    "core_ebitda_2025": 158.0,
+    "new_growth_ebitda_2025": -19.0
+  },
+  "desk_verdict": {
+    "profile": "Solid BB- / B1 Consumer Staple",
+    "cash_conversion_pct": 83.5,
+    "capex_intensity_pct": 3.7,
+    "hard_currency_pct": 99.0,
+    "recommendation": "Neutral / Hold (Default risk low; capped by tobacco ESG exclusions and flavour regulations)"
+  },
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-12",
+    "period_reporting": "Q3 2026 / 9M",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local / Pre-Market",
+    "ir_webcast_url": "https://www.google.com/finance/quote/AIRGLO",
+    "days_to_earnings": 34
+  },
+  "market_history": [
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-27",
+      "period_name": "2026-09-27",
+      "timestamp": "2026-09-27T05:15:31.591151",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-28",
+      "period_name": "2026-09-28",
+      "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-01",
+      "period_name": "2026-10-01",
+      "timestamp": "2026-10-01T05:16:24.259494",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-04",
+      "period_name": "2026-10-04",
+      "timestamp": "2026-10-04T05:15:38.975116",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-05",
+      "period_name": "2026-10-05",
+      "timestamp": "2026-10-05T05:17:39.814202",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-06",
+      "period_name": "2026-10-06",
+      "timestamp": "2026-10-06T05:18:38.274520",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-07",
+      "period_name": "2026-10-07",
+      "timestamp": "2026-10-07T05:16:25.536653",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-08",
+      "period_name": "2026-10-08",
+      "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "BB- / B1",
+      "price": 100.0,
+      "ytm": 7.5,
+      "spread_bp": 385,
+      "net_leverage": 2.19,
+      "ebitda": 130.0,
+      "fcf": 134.0,
+      "guidance_status": "On Track"
+    }
+  ],
+  "annotations": [
+    {
+      "sector": "Consumer",
+      "topic": "Shisha & Inhalation Rituals Cash Generation",
+      "source": "Audited Annual Disclosures",
+      "note": "Air Global generates high operating margins (34.5% EBITDA margin) across Gulf and European shisha tobacco and inhalation device retail networks, funding consistent positive FCF ( in 2024A)."
+    },
+    {
+      "sector": "Consumer",
+      "topic": "Deleveraging & Balance Sheet Headroom",
+      "source": "Desk Credit Profile",
+      "note": "Net leverage declined to 2.19x in 2024A. Stable consumer demand in core Middle East geographies supports robust interest coverage of 4.8x."
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 65.0,
+    "base_case_px": 92.0,
+    "recovery_floor_pct": 65.0,
+    "recovery_base_pct": 92.0,
+    "implied_stress_ev_multiple": "4.5x - 5.5x Stress EV/EBITDA",
+    "restructuring_framework": "UAE Insolvency Code & DIFC English Law Scheme",
+    "thesis": "Consumer brand equity, distribution contracts across GCC, and high margin cash flow provide strong downside protection."
+  },
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "AIRGLO  Senior Notes 2029",
+      "instrument_type": "Senior Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 330.0,
+      "coupon": "7.50%",
+      "clean_price": 100.0,
+      "ytm": 7.5,
+      "seniority": "Senior Unsecured",
+      "governing_law": "English / DIFC"
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "Revolving Credit Facility",
+    "total_committed_capacity_usd_m": 50.0,
+    "drawn_amount_usd_m": 10.0,
+    "undrawn_available_usd_m": 40.0,
+    "drawn_margin": "SOFR + 250 bps",
+    "maturity": "2028-06-30"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Net Leverage Incurrence",
+      "covenant_threshold": "3.50x",
+      "actual_current": "2.19x",
+      "headroom": "Compliant"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Interest Coverage",
+      "covenant_threshold": "min 3.00x",
+      "actual_current": "4.80x",
+      "headroom": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Secured Debt Basket",
+      "covenant_threshold": "15.0% Assets",
+      "actual_current": "3.0% Assets",
+      "headroom": "Compliant"
+    }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "Organic Revenue Growth",
+      "management_target": "5-8% annual expansion",
+      "current_runrate": "7.5% organic growth",
+      "tracking_status": "On Track",
+      "variance_analysis": "Driven by Gulf hospitality volume recovery and retail channel expansion.",
+      "verification_question": "What is the organic volume trajectory in Saudi Arabia and UAE retail?",
+      "relevance_to_credit": "Sustains EBITDA margin above 32%."
+    }
+  ],
+  "management_questions": [
+    {
+      "focus_area": "Regulatory Excise & Tobacco Taxation Risks",
+      "question": "How will proposed GCC unified selective excise tax adjustments affect retail shisha molasses pricing and gross margins?",
+      "relevance": "Excise tax hikes could compress volumes if not fully passed to end-consumers.",
+      "deduced_from": "Middle East consumer tax regulatory framework.",
+      "conviction_trigger": "Ability to pass through 100% of excise increases confirms pricing power."
+    }
+  ],
+  "supplementary_data": {
+    "ebitda_margin_2024a": "34.5%",
+    "fcf_conversion_2024a": "41.5%",
+    "cash_balance_usd_m": 60.0
+  }
+}

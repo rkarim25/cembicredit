@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Reports | CEMBI Credit</title>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .rp-wrap { display: grid; grid-template-columns: 300px 1fr; gap: 24px; padding: 24px; max-width: 1400px; margin: 0 auto; }
+  @media (max-width: 900px) { .rp-wrap { grid-template-columns: 1fr; } }
+  .rp-list a { display: block; padding: 10px 12px; border-radius: 6px; text-decoration: none; color: inherit; border: 1px solid rgba(128,128,128,.25); margin-bottom: 8px; }
+  .rp-list a.active, .rp-list a:hover { border-color: #4f8cff; }
+  .rp-meta { font-size: 12px; opacity: .75; }
+  .rp-badge { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; border: 1px solid currentColor; margin-left: 6px; }
+  .rp-open { color: #e0a030; }
+  .rp-current { color: #3cb371; }
+  #report { line-height: 1.55; max-width: 900px; }
+  #report h1 { margin-top: 0; }
+  #report table { border-collapse: collapse; }
+  #report td, #report th { border: 1px solid rgba(128,128,128,.35); padding: 4px 8px; }
+  #report code { font-size: 90%; }
+</style>
+</head>
+<body>
+<div class="rp-wrap">
+  <aside>
+    <h2 style="margin-top:0">Research reports</h2>
+    <p class="rp-meta">One living document per topic. Open items at the top of each report are questions the pipeline is waiting on.</p>
+    <div class="rp-list" id="list">Loading…</div>
+    <p class="rp-meta"><a href="index.html">← Screener</a></p>
+  </aside>
+  <main id="report"><p class="rp-meta">Select a report.</p></main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script>
+(async function () {
+  const list = document.getElementById('list'), main = document.getElementById('report');
+  let items = [];
+  try { items = await (await fetch('reports/index.json?ts=' + Date.now())).json(); } catch (e) { list.textContent = 'No reports yet.'; return; }
+  if (!items.length) { list.textContent = 'No reports yet.'; return; }
+  list.innerHTML = items.map(r => `<a href="#${r.slug}" data-slug="${r.slug}"><strong>${r.topic}</strong><br><span class="rp-meta">${r.updated}</span>` +
+    (r.open_items ? `<span class="rp-badge rp-open">${r.open_items} open</span>` : `<span class="rp-badge rp-current">${r.status}</span>`) + `</a>`).join('');
+  async function show(slug) {
+    const r = items.find(x => x.slug === slug) || items[0];
+    document.querySelectorAll('.rp-list a').forEach(a => a.classList.toggle('active', a.dataset.slug === r.slug));
+    let md = await (await fetch(r.path + '?ts=' + Date.now())).text();
+    md = md.replace(/^---[\s\S]*?---\s*/, '');
+    main.innerHTML = marked.parse(md);
+  }
+  window.addEventListener('hashchange', () => show(location.hash.slice(1)));
+  show(location.hash.slice(1));
+})();
+</script>
+</body>
+</html>

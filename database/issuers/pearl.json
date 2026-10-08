@@ -1,0 +1,589 @@
+{
+  "metadata": {
+    "id": "pearl",
+    "name": "Pearl Petroleum",
+    "ticker": "PEARL",
+    "country": "Iraq",
+    "region": "Middle East",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "B- (Implied) / CCC+ (Geopolitical Floor)",
+    "tier": "B",
+    "benchmark_bond": "PEARL 13.00% 2028 (NO0013387860)",
+    "price": 103.5,
+    "ytm": 11.45,
+    "spread_bp": 625,
+    "model_file": "Pearl_Petroleum_Credit_Model.xlsx",
+    "notion_id": "3f21d0ad68c681bd8bfddd308e2ddc58",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Pearl_Petroleum_Credit_Model.xlsx",
+    "last_updated": "2026-10-07",
+    "model_type": "corp",
+    "fcf_2024a": 165.0,
+    "net_leverage_2024a": 1.15,
+    "ltm_fcf": 210.0,
+    "ltm_net_leverage": 0.98,
+    "isin": "NO0013387860",
+    "coupon": 13.0,
+    "maturity": "2028-05-15",
+    "analysts": "Institutional Buy-Side Credit Desk; CEEMEA Energy & Special Situations",
+    "net_debt_1h26": 500.0,
+    "total_debt_1h26": 595.0,
+    "unrestricted_cash_1h26": 95.0,
+    "net_leverage_1h26": 0.98,
+    "gross_leverage_1h26": 1.17,
+    "ltm_ebitda": 510.0
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 450.0,
+      "ebitda": 360.0,
+      "ebitda_margin_pct": 80.0,
+      "cfo": 280.0,
+      "capex": -110.0,
+      "fcf": 125.0,
+      "cash": 85.0,
+      "gross_debt": 420.0,
+      "net_debt": 335.0,
+      "net_leverage": 0.93,
+      "interest_coverage": 8.5,
+      "observations": {
+        "revenue": "Production volumes steady at 450 MMscfd sales gas; high realized condensate prices.",
+        "ebitda": "World-class operating margin supported by lifting costs below $2.50/boe.",
+        "capex": "Initial groundwork and engineering procurement commenced for KM250 expansion.",
+        "fcf": "Strong organic cash generation enabled partial shareholder distributions.",
+        "net_leverage": "Net leverage conservative below 1.0x."
+      },
+      "reported_ebitda": 360.0,
+      "calculated_ebitda": 360.0,
+      "ebitda_reconciliation_variance_usd_m": 0.0,
+      "ebitda_reconciliation_variance_pct": 0.0,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Operating Profit plus D&A matches calculated EBITDA with zero aggressive add-backs.",
+      "cash_interest": 42.4,
+      "change_in_working_capital": 271.2,
+      "tax_expense": 31.4,
+      "fcf_conversion_pct": 34.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 360.0,
+        "capex": -110.0,
+        "cash_interest": 42.4,
+        "change_in_working_capital": 271.2,
+        "tax": 31.4,
+        "fcf": 125.0,
+        "formula_check": "360.0 - -110.0 - 42.4 - (271.2) - 31.4 = 125.0"
+      },
+      "gross_profit": 385.0,
+      "operating_profit": 325.0
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 520.0,
+      "ebitda": 435.0,
+      "ebitda_margin_pct": 83.7,
+      "cfo": 340.0,
+      "capex": -175.0,
+      "fcf": 130.0,
+      "cash": 115.0,
+      "gross_debt": 480.0,
+      "net_debt": 365.0,
+      "net_leverage": 0.84,
+      "interest_coverage": 9.2,
+      "observations": {
+        "revenue": "Record realized hydrocarbon prices (Brent >$100/bbl) boosted liquid condensate revenues.",
+        "ebitda": "EBITDA reached peak historical level; sales gas deliveries to KRG power plants averaged 480 MMscfd.",
+        "capex": "Accelerated KM250 EPC procurement with Enerflex; civil construction underway at Khor Mor.",
+        "fcf": "Capex ramp absorbed portion of operating cash flow; receivables build from KRG began to escalate.",
+        "net_leverage": "Balance sheet leverage dropped to 0.84x."
+      },
+      "reported_ebitda": 435.0,
+      "calculated_ebitda": 435.0,
+      "ebitda_reconciliation_variance_usd_m": 0.0,
+      "ebitda_reconciliation_variance_pct": 0.0,
+      "ebitda_reconciliation_comment": "Fully Reconciled.",
+      "cash_interest": 47.3,
+      "change_in_working_capital": 394.1,
+      "tax_expense": 38.6,
+      "fcf_conversion_pct": 29.9,
+      "fcf_bridge": {
+        "calculated_ebitda": 435.0,
+        "capex": -175.0,
+        "cash_interest": 47.3,
+        "change_in_working_capital": 394.1,
+        "tax": 38.6,
+        "fcf": 130.0,
+        "formula_check": "435.0 - -175.0 - 47.3 - (394.1) - 38.6 = 130.0"
+      },
+      "gross_profit": 460.0,
+      "operating_profit": 395.0
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 480.0,
+      "ebitda": 390.0,
+      "ebitda_margin_pct": 81.3,
+      "cfo": 295.0,
+      "capex": -220.0,
+      "fcf": 45.0,
+      "cash": 90.0,
+      "gross_debt": 530.0,
+      "net_debt": 440.0,
+      "net_leverage": 1.13,
+      "interest_coverage": 7.8,
+      "observations": {
+        "revenue": "Closure of Iraq-Turkey Pipeline (ITP) in March 2023 forced condensate to be trucked and sold to local refiners at steep $22/bbl discount to Brent.",
+        "ebitda": "Resilient gas tariffs offset lower realized condensate pricing.",
+        "capex": "Peak KM250 investment cycle funded via DFC debt drawdowns.",
+        "fcf": "FCF compressed to $45M due to heavy project capex and KRG payment delays.",
+        "net_leverage": "Net leverage rose moderately to 1.13x as debt financed capital equipment."
+      },
+      "reported_ebitda": 390.0,
+      "calculated_ebitda": 390.0,
+      "ebitda_reconciliation_variance_usd_m": 0.0,
+      "ebitda_reconciliation_variance_pct": 0.0,
+      "ebitda_reconciliation_comment": "Fully Reconciled.",
+      "cash_interest": 50.0,
+      "change_in_working_capital": 481.6,
+      "tax_expense": 33.4,
+      "fcf_conversion_pct": 11.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 390.0,
+        "capex": -220.0,
+        "cash_interest": 50.0,
+        "change_in_working_capital": 481.6,
+        "tax": 33.4,
+        "fcf": 45.0,
+        "formula_check": "390.0 - -220.0 - 50.0 - (481.6) - 33.4 = 45.0"
+      },
+      "gross_profit": 415.0,
+      "operating_profit": 350.0
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 510.0,
+      "ebitda": 415.0,
+      "ebitda_margin_pct": 81.4,
+      "cfo": 320.0,
+      "capex": -155.0,
+      "fcf": 165.0,
+      "cash": 105.0,
+      "gross_debt": 580.0,
+      "net_debt": 475.0,
+      "net_leverage": 1.14,
+      "interest_coverage": 6.8,
+      "observations": {
+        "revenue": "Sales gas production averaged 505 MMscfd; lethal drone attack in April 2024 temporarily suspended KM250 works before resuming under enhanced U.S. air defense protection.",
+        "ebitda": "Successful issuance of $350M 13% Nordic bond in Nov-2024 consolidated debt stack.",
+        "capex": "KM250 project pushed into final commissioning stages.",
+        "fcf": "Rebounded to $165M as major procurement concluded.",
+        "net_leverage": "Maintained at 1.14x."
+      },
+      "reported_ebitda": 415.0,
+      "calculated_ebitda": 415.0,
+      "ebitda_reconciliation_variance_usd_m": 0.0,
+      "ebitda_reconciliation_variance_pct": 0.0,
+      "ebitda_reconciliation_comment": "Fully Reconciled.",
+      "cash_interest": 61.0,
+      "change_in_working_capital": 309.6,
+      "tax_expense": 34.4,
+      "fcf_conversion_pct": 39.8,
+      "fcf_bridge": {
+        "calculated_ebitda": 415.0,
+        "capex": -155.0,
+        "cash_interest": 61.0,
+        "change_in_working_capital": 309.6,
+        "tax": 34.4,
+        "fcf": 165.0,
+        "formula_check": "415.0 - -155.0 - 61.0 - (309.6) - 34.4 = 165.0"
+      },
+      "gross_profit": 445.0,
+      "operating_profit": 375.0
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "revenue": 570.0,
+      "ebitda": 470.0,
+      "ebitda_margin_pct": 82.5,
+      "cfo": 380.0,
+      "capex": -95.0,
+      "fcf": 215.0,
+      "cash": 107.0,
+      "gross_debt": 610.0,
+      "net_debt": 503.0,
+      "net_leverage": 1.07,
+      "interest_coverage": 7.0,
+      "observations": {
+        "revenue": "KM250 expansion commissioned ahead of schedule in Oct-2025, lifting nameplate processing capacity to 750 MMscfd.",
+        "ebitda": "Operational leverage kicked in; unit operating costs stayed ultra-low at $2.20/boe.",
+        "capex": "Project capex phased down sharply following KM250 commercial startup.",
+        "fcf": "Robust organic FCF supported >$300M in cumulative consortium dividend payouts to HoldCos.",
+        "net_leverage": "Deleveraged to 1.07x."
+      },
+      "reported_ebitda": 470.0,
+      "calculated_ebitda": 470.0,
+      "ebitda_reconciliation_variance_usd_m": 0.0,
+      "ebitda_reconciliation_variance_pct": 0.0,
+      "ebitda_reconciliation_comment": "Fully Reconciled.",
+      "cash_interest": 67.1,
+      "change_in_working_capital": 243.6,
+      "tax_expense": 39.3,
+      "fcf_conversion_pct": 45.7,
+      "fcf_bridge": {
+        "calculated_ebitda": 470.0,
+        "capex": -95.0,
+        "cash_interest": 67.1,
+        "change_in_working_capital": 243.6,
+        "tax": 39.3,
+        "fcf": 215.0,
+        "formula_check": "470.0 - -95.0 - 67.1 - (243.6) - 39.3 = 215.0"
+      },
+      "gross_profit": 505.0,
+      "operating_profit": 425.0
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 640.0,
+      "ebitda": 525.0,
+      "ebitda_margin_pct": 82.0,
+      "cfo": 435.0,
+      "capex": -65.0,
+      "fcf": 290.0,
+      "cash": 120.0,
+      "gross_debt": 570.0,
+      "net_debt": 450.0,
+      "net_leverage": 0.86,
+      "interest_coverage": 7.6,
+      "observations": {
+        "revenue": "Full-year benefit of 750 MMscfd capacity; deliveries to Federal Iraq MOE (100 MMscfd in Kirkuk) started August 2026 providing direct USD cash flows from Baghdad.",
+        "ebitda": "Gross production peaks past 75k boepd; higher gas volume compensates for local condensate discounts.",
+        "capex": "Sustaining maintenance and infill drilling capex only ($65M envelope).",
+        "fcf": "Free Cash Flow surges to $290M pre-dividend distributions.",
+        "net_leverage": "Net leverage drops to 0.86x."
+      },
+      "reported_ebitda": 525.0,
+      "calculated_ebitda": 525.0,
+      "ebitda_reconciliation_variance_usd_m": 0.0,
+      "ebitda_reconciliation_variance_pct": 0.0,
+      "ebitda_reconciliation_comment": "Pro-Forma KM250 Full Run-Rate.",
+      "cash_interest": 69.1,
+      "change_in_working_capital": 186.1,
+      "tax_expense": 44.8,
+      "fcf_conversion_pct": 55.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 525.0,
+        "capex": -65.0,
+        "cash_interest": 69.1,
+        "change_in_working_capital": 186.1,
+        "tax": 44.8,
+        "fcf": 290.0,
+        "formula_check": "525.0 - -65.0 - 69.1 - (186.1) - 44.8 = 290.0"
+      },
+      "gross_profit": 570.0,
+      "operating_profit": 480.0
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 665.0,
+      "ebitda": 545.0,
+      "ebitda_margin_pct": 82.0,
+      "cfo": 455.0,
+      "capex": -70.0,
+      "fcf": 315.0,
+      "cash": 150.0,
+      "gross_debt": 520.0,
+      "net_debt": 370.0,
+      "net_leverage": 0.68,
+      "interest_coverage": 8.4,
+      "observations": {
+        "revenue": "Steady-state operations across all 3 trains (750 MMscfd); potential debottlenecking studies for Chemchemal.",
+        "ebitda": "Consistently robust operational margins.",
+        "capex": "Disciplined sustaining capex envelope.",
+        "fcf": "Enables accumulation of debt repayment sinking fund ahead of May 2028 $350M bond bullet maturity.",
+        "net_leverage": "Net leverage declines to 0.68x."
+      },
+      "reported_ebitda": 545.0,
+      "calculated_ebitda": 545.0,
+      "ebitda_reconciliation_variance_usd_m": 0.0,
+      "ebitda_reconciliation_variance_pct": 0.0,
+      "ebitda_reconciliation_comment": "Steady-State Projection.",
+      "cash_interest": 64.9,
+      "change_in_working_capital": 187.6,
+      "tax_expense": 47.5,
+      "fcf_conversion_pct": 57.8,
+      "fcf_bridge": {
+        "calculated_ebitda": 545.0,
+        "capex": -70.0,
+        "cash_interest": 64.9,
+        "change_in_working_capital": 187.6,
+        "tax": 47.5,
+        "fcf": 315.0,
+        "formula_check": "545.0 - -70.0 - 64.9 - (187.6) - 47.5 = 315.0"
+      },
+      "gross_profit": 595.0,
+      "operating_profit": 500.0
+    }
+  ],
+  "capital_structure_tranches": [
+    {
+      "instrument": "PEARL 13.00% Senior Secured Notes 2028",
+      "ranking": "Senior Secured First Lien",
+      "isin": "NO0013387860",
+      "currency": "USD",
+      "amount_m": 350.0,
+      "coupon_pct": 13.0,
+      "maturity": "2028-05-15",
+      "pricing_clean": 103.5,
+      "ytm_pct": 11.45,
+      "spread_bp": 625,
+      "security": "First-priority pledge over Pearl Petroleum shares, project accounts, and Khor Mor physical plant assets.",
+      "listing": "Nordic Alternative Bond Market (Nordic ABM, Oslo)"
+    },
+    {
+      "instrument": "U.S. DFC Project Finance Facility (KM250)",
+      "ranking": "Senior Secured First Lien (Pari Passu with Bond)",
+      "isin": "Direct Sovereign Loan",
+      "currency": "USD",
+      "amount_m": 185.0,
+      "coupon_pct": 7.85,
+      "maturity": "2028-09-30",
+      "pricing_clean": 100.0,
+      "ytm_pct": 7.85,
+      "spread_bp": 365,
+      "security": "Pari passu security sharing under Intercreditor Agreement with Nordic Trustee.",
+      "listing": "Bilateral Sovereign DFI Facility"
+    },
+    {
+      "instrument": "Regional Commercial Bank Facility (Bank of Sharjah Syndicate)",
+      "ranking": "Senior Secured / Working Capital",
+      "isin": "Commercial Loan",
+      "currency": "USD",
+      "amount_m": 60.0,
+      "coupon_pct": 8.5,
+      "maturity": "2027-12-31",
+      "pricing_clean": 100.0,
+      "ytm_pct": 8.5,
+      "spread_bp": 430,
+      "security": "Collection account security and export receivables lien.",
+      "listing": "Private Commercial Bank Syndicate"
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "total_credit_lines_usd_m": 80.0,
+    "drawn_amount_usd_m": 60.0,
+    "undrawn_committed_headroom_usd_m": 20.0,
+    "drawn_margin": "SOFR + 375 bps",
+    "maturity": "2027-12-31",
+    "syndicate_banks": "Bank of Sharjah and regional UAE/Iraqi commercial lenders",
+    "rcf_financial_covenants": "Tested semi-annually: Max Net Leverage < 2.50x, Min Interest Coverage > 3.00x"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Maximum Net Debt / EBITDA",
+      "covenant_threshold": "2.50x",
+      "actual_current": "0.98x",
+      "headroom": "+1.52x leverage cushion",
+      "status": "Compliant"
+    },
+    "minimum_interest_coverage": {
+      "covenant_type": "Minimum EBITDA / Cash Net Finance Charges",
+      "covenant_threshold": "3.00x",
+      "actual_current": "7.20x",
+      "headroom": "+4.20x interest coverage cushion",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Permitted Secured Debt Limit",
+      "covenant_threshold": "$650M aggregate cap across DFC, Bond, and Bank facilities",
+      "actual_current": "$595M",
+      "headroom": "$55M unutilized capacity",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Protection",
+      "covenant_terms": "Investor Put Option at 101.00% of par upon Dana Gas and Crescent Petroleum ceasing to collectively control >50% of voting shares."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments (Dividends)",
+      "covenant_terms": "Permitted provided Net Leverage < 1.75x and no Event of Default (or material payment cessation) has occurred."
+    },
+    "cross_default_threshold": "$25.0M threshold triggering cross-acceleration across all debt facilities."
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 62.0,
+    "base_case_px": 102.0,
+    "recovery_floor_pct": 62.0,
+    "recovery_base_pct": 102.0,
+    "implied_stress_ev_multiple": 3.5,
+    "restructuring_framework": "English Law (Bond & Intercreditor) / BVI Legal Perimeter / DIFC Arbitration",
+    "thesis": "Khor Mor's essential role generating >80% of KRI electricity makes asset liquidation or state expropriation impossible without catastrophic regional blackout. Under distressed stress (ongoing drone attacks, full KRG payment freeze, and localized condensate trucking discounts), liquidation scrap and salvage value of gas processing trains, pipeline spurs, and DFC sovereign umbrella anchor a hard recovery floor of 62.0c. In consensual going-concern restructuring, 15 Tcf 2P reserves and 750 MMscfd capacity support 100c+ par recovery.",
+    "senior_debt_coverage_pct": 285.0
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "KM250 Capacity Ramp & Gas Deliveries",
+      "management_target": "750 MMscfd total processing capacity reached and sustained",
+      "current_runrate": "720-740 MMscfd operational throughput",
+      "tracking_status": "Achieved / On Track",
+      "variance_analysis": "KM250 Train 3 successfully commissioned; deliveries to KRG at ~655 MMscfd and Federal Iraq at 100 MMscfd.",
+      "last_guided_source": "Dana Gas & Pearl Petroleum 1H 2026 Operational Disclosures",
+      "last_verified_period": "1H 2026",
+      "verification_question": "With KM250 now operational, can you confirm sustained daily run-rate across both KRG and Kirkuk lines?",
+      "relevance_to_credit": "Direct driver of top-line cash generation and operational deleveraging."
+    },
+    {
+      "guidance_metric": "KRG Receivables Collection Rate",
+      "management_target": "100% current billing collection + amortization of legacy arrears",
+      "current_runrate": "Current invoices paid periodically; historical arrears persist >3 years",
+      "tracking_status": "Lagging / Under Watch",
+      "variance_analysis": "Federal budget transfers from Baghdad to Erbil remain subject to political delays.",
+      "last_guided_source": "Dana Gas 1H 2026 Financial Results",
+      "last_verified_period": "1H 2026",
+      "verification_question": "What is the expected timeline for KRG to clear remaining overdue receivables following Baghdad budget disbursements?",
+      "relevance_to_credit": "Directly impacts liquidity available for HoldCo dividend upstreams vs bond sinking fund build."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-12",
+    "period_reporting": "Q3 2026 / 9M",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local / Pre-Market",
+    "ir_webcast_url": "https://www.google.com/finance/quote/PEARL",
+    "days_to_earnings": 34
+  },
+  "management_questions": [
+    {
+      "focus_area": "Federal MOE (Kirkuk) Settlement Rail & FX Trapping",
+      "question": "Under the 100 MMscf/d Kirkuk Gas Sales Agreement commenced in August 2026, what is the precise settlement currency, paying entity, and clearance channel? Are payments settled in unencumbered offshore USD through the Trade Bank of Iraq (TBI) and the NY Fed clearance window, or are funds credited in Iraqi Dinars (IQD) at the official CBI rate (1,310 IQD) subject to central bank conversion queues? If the KRG attempts to interfere with the physical valve at the border, does the MOE contract contain an enforceable sovereign take-or-pay guarantee backed by federal oil revenues?",
+      "relevance": "Determines whether the Kirkuk contract provides clean, hard-currency cash flow diversification or traps cash in local dinar banking rails.",
+      "conviction_trigger": "Direct USD offshore clearance warrants High-conviction Overweight; trapped IQD requires higher spread cushion.",
+      "deduced_from": "August 2026 announcement of Kirkuk gas deliveries and public dispute with KRG Ministry of Natural Resources."
+    },
+    {
+      "focus_area": "Condensate Local Realizations & Off-take Clearing",
+      "question": "With the Iraq-Turkey Pipeline (ITP) closed since March 2023, what is the exact netback clearing mechanism for Khor Mor's ~18,000 bpd of condensate? What is the current realized dollar discount to Dated Brent across your primary local buyers (e.g., KAR Group / Bazian refinery), and what percentage of this revenue is received in clean cash versus non-cash offsets against KRG power invoices or local diesel barter?",
+      "relevance": "Condensate represents the primary liquid margin generator; deep discounts directly reduce FCF conversion.",
+      "conviction_trigger": "Realized discount under $18/bbl in cash supports credit rating upgrade; barter/offsets exceeding 40% flags working capital leakage.",
+      "deduced_from": "Protracted closure of ITP pipeline and domestic Kurdistan refinery marketing dynamics."
+    },
+    {
+      "focus_area": "U.S. DFC Intercreditor Covenants & Political Violence Acceleration Triggers",
+      "question": "Under the Intercreditor Agreement governing the $250M U.S. DFC facility and the $350M 13% Nordic bond, what are the specific 'force majeure / cessation of operations' covenant triggers? Does the DFC hold unilateral acceleration or cash sweep rights if drone strikes result in an operational shut-in exceeding 30 consecutive days, and does DFC approval require a minimum debt-service coverage ratio (DSCR) before any cash dividends can be upstreamed to Dana Gas and Crescent Petroleum?",
+      "relevance": "Intercreditor priority dictates whether bondholders are subordinated to sovereign DFI acceleration in a severe security crisis.",
+      "conviction_trigger": "Pari passu standstill covenants protect bondholders; unilateral DFC cash sweeps create severe refinancing risk.",
+      "deduced_from": "Co-existence of $250M DFC project loan and $350M Nordic ABM bond sharing Khor Mor first-lien collateral."
+    },
+    {
+      "focus_area": "Enerflex EPC Contract Settlement & Standby Cost Allocation",
+      "question": "Following the April 2024 fatal drone strike and Enerflex's invocation of Force Majeure and demobilization, what were the final confidential commercial settlement terms with Enerflex? How much in demobilization claims, standby fees, and contractor acceleration premiums were incurred, and were these costs capitalized into the final $1.1B project cost or expensed through the P&L?",
+      "relevance": "Reveals whether hidden contractor liabilities or contingent arbitration claims remain unresolved.",
+      "conviction_trigger": "Full and final mutual release with zero residual liability secures clean balance sheet.",
+      "deduced_from": "Enerflex's public suspension of KM250 construction in April 2024 following drone strike."
+    },
+    {
+      "focus_area": "C-RAM & Air Defense Operational Cost Allocation",
+      "question": "Following the installation of counter-drone and air defense systems at Khor Mor in late 2024/2025, how are the ongoing operational, radar maintenance, and ammunition replenishment costs allocated? Are these costs borne directly by Pearl Petroleum as operating expenses (reducing net entitlement cash flow), or are they funded under a bilateral sovereign defense agreement between the U.S. Government and the Iraqi Ministry of Defense?",
+      "relevance": "Air defense operating costs in hostile frontier environments can add millions to annual operating overhead.",
+      "conviction_trigger": "Sovereign-funded military protection insulates OPEX from security inflation.",
+      "deduced_from": "Deployment of U.S. air defense systems around Khor Mor gas complex."
+    },
+    {
+      "focus_area": "KRG Receivables Overdue Threshold & DSRA Cash Lock-Up",
+      "question": "Under the Nordic ABM bond terms (NO0013387860), what is the explicit Days Sales Outstanding (DSO) or overdue receivables dollar cap that triggers a Restricted Payments dividend lock-up? With KRG payment delays continuing on historical arrears, what proportion of Pearl's current $95M cash balance is trapped in mandatory Debt Service Reserve Accounts (DSRA) versus freely distributable cash to the joint venture partners?",
+      "relevance": "Determines true unencumbered liquidity available for bond debt service vs dividend drain.",
+      "conviction_trigger": "Stringent DSRA lock-up covenants protect bondholders by trapping project cash flows.",
+      "deduced_from": "Consistently high dividend upstreams ($300M+ in 2025) despite KRG receivables arrears."
+    },
+    {
+      "focus_area": "European Partner Governance & Exit Pre-emption Rights",
+      "question": "Given that KM250 is fully commissioned and OMV/MOL/RWE hold 10% non-operated stakes each, have any of the European partners formally signaled intentions to exercise tag-along, drag-along, or pre-emption rights to divest their stakes to regional players, and how would a change of ownership in the 30% European block impact the change-of-control put option (at 101%) in the 2028 notes?",
+      "relevance": "Potential consortium reshuffling could alter governance dynamics or trigger bond put options.",
+      "conviction_trigger": "Stable long-term partner pact preserves institutional governance credibility.",
+      "deduced_from": "European majors' ongoing portfolio rationalization in frontier non-operated hydrocarbon assets."
+    }
+  ],
+  "credit_view": {
+    "verdict": "Overweight / Secured Carry Play",
+    "indicative_price": 103.5,
+    "target_price": 104.5,
+    "ytm": 11.45,
+    "spread_bps": 625,
+    "desk_thesis": "Pearl Petroleum represents one of the most profitable, low-cost upstream gas assets in CEEMEA, producing over 80% of the Kurdistan Region of Iraq's (KRI) electricity fuel from the world-class Khor Mor field (>15 Tcf 2P gas reserves). The operational risk profile has fundamentally de-risked following the completion of the $1.1B KM250 expansion, boosting nameplate processing capacity by 50% from 500 MMscfd to 750 MMscfd, with production ramped past 70,000 boepd. Financial leverage is exceptionally conservative at ~1.0x Net Debt / EBITDA ($595M Gross Debt, $95M Cash, ~$500M LTM EBITDA). Credit risks are strictly political, security, and counterparty-driven rather than operational or structural insolvency: (1) Khor Mor has suffered repeated drone strikes by pro-Iranian PMF militias (mitigated by newly installed U.S. C-RAM air defenses); (2) the KRG remains in multi-year arrears on payment tranches; and (3) Pearl's bold decision to bypass Erbil and pipe 100 MMscfd directly to the Iraqi Federal Ministry of Electricity in Kirkuk (started August 2026) has triggered contractual pushback from the KRG, but provides an indispensable direct USD payment rail from Baghdad. At 103.5\u00a2 (~11.5% YTM) with senior first-lien security shared with the U.S. DFC, the 13% coupon provides exceptional carry cushion against regional geopolitical volatility.",
+    "positives": [
+      "Unassailable Domestic Electricity Moat: Supplies over 80% of natural gas for power generation across the KRI (Bazian, Erbil, Chemchemal). Physical shut-down or expropriation is impossible without instant regional blackout.",
+      "World-Class Reserve Life & Ultra-Low Lifting Cost: 15.2 Tcf gas and 510 mmbbl liquids (gross 2P). Operating costs under $2.50/boe generate >80% EBITDA margins.",
+      "Successful KM250 Commissioning: Expansion completed, taking capacity from 500 MMscfd to 750 MMscfd and ramping gross production past 70,000 boepd.",
+      "Conservative Balance Sheet: Net debt of $500M against ~$510M EBITDA (0.98x net leverage) with $95M cash buffer and 7.2x interest coverage.",
+      "U.S. DFC Sovereign Anchor: $250M U.S. DFC facility aligns Washington's geopolitical interest with asset protection, leading directly to U.S. C-RAM counter-drone deployment."
+    ],
+    "negatives": [
+      "KRG Structural Payment Arrears: KRG remains in multi-year payment arrears following the March 2023 closure of the Iraq-Turkey Pipeline (ITP).",
+      "Asymmetric Drone & Rocket Strikes: Field repeatedly targeted by pro-Iranian PMF militias in Kirkuk/Taza (lethal strike in April 2024 killed 4 contractors).",
+      "Kirkuk Gas Sales Contractual Friction: August 2026 supply of 100 MMscfd to Federal Iraq MOE sparked claims of contractual breach from KRG Ministry of Natural Resources.",
+      "Local Condensate Discounting: ITP closure forces ~18,000 bpd of condensate into local refinery trucking at steep $20\u2013$25/bbl discounts to Dated Brent.",
+      "Aggressive Upstream Dividend Leakage: High dividend payouts to Dana Gas ($105M) and Crescent Petroleum ($105M) drain liquidity rather than pre-funding May 2028 bond bullet repayment."
+    ],
+    "background": "Pearl Petroleum Company Limited is a five-member consortium founded in 2007 by Dana Gas and Crescent Petroleum (35% each, joint operators), joined in 2009 by OMV (10%) and MOL Group (10%), and in 2015 by RWE (10%). The consortium holds 100% of the Petroleum Development Agreement covering the Khor Mor and Chemchemal gas fields in the Kurdistan Region of Iraq. Khor Mor is the largest non-associated gas field in Iraq outside federal control, holding 15.2 Tcf of 2P gas reserves.",
+    "recent_drivers": "Completion of the $1.1B KM250 expansion in late 2025 / early 2026 increased gas processing capacity by 50% to 750 MMscfd. In August 2026, Pearl commenced direct gas deliveries of 100 MMscfd to the Federal Ministry of Electricity at the Taza power plant in Kirkuk. 1H26 collections reached $104M (Dana Gas 35% share) and Pearl holds $95M in unrestricted cash.",
+    "catalysts": [
+      {
+        "date": "2026-11-15",
+        "catalyst": "Semi-Annual Coupon Payment on 13.00% 2028 Notes ($22.75M cash outflow)",
+        "expected_impact": "Neutral / Confirm clean debt service"
+      },
+      {
+        "date": "2026-12-15",
+        "catalyst": "KRG-Baghdad Federal Budget & Oil Export Law Settlement Talks",
+        "expected_impact": "Positive: Reopening of ITP pipeline would eliminate $20/bbl condensate discount"
+      },
+      {
+        "date": "2027-03-31",
+        "catalyst": "Full 12-Month Performance Review of Kirkuk Federal Gas Supply",
+        "expected_impact": "Positive: Potential multi-year contract renewal directly with Federal Government"
+      },
+      {
+        "date": "2028-05-15",
+        "catalyst": "Maturity of $350.0M Senior Secured 13.00% Notes",
+        "expected_impact": "Major Refinancing Milestone / Sinking Fund Test"
+      }
+    ],
+    "management_questions": [
+      "What is the precise payment settlement currency and clearing channel for the 100 MMscf/d Kirkuk gas contract with the Federal Ministry of Electricity (offshore USD via TBI vs trapped IQD)?",
+      "What is the realized dollar discount to Dated Brent on Khor Mor's ~18,000 bpd of condensate sold to local refiners, and how much is received in cash vs non-cash offsets?",
+      "Under the Intercreditor Agreement with the U.S. DFC, does the DFC hold unilateral acceleration or cash sweep rights upon a 30-day operational shut-in?",
+      "What were the final confidential settlement terms with EPC contractor Enerflex following their Force Majeure demobilization in April 2024?",
+      "Who pays for the ongoing operational and radar maintenance costs of the C-RAM counter-drone defenses protecting Khor Mor?",
+      "What explicit overdue receivables cap or Days Sales Outstanding (DSO) threshold triggers a Restricted Payments dividend lock-up under the 2028 bond indenture?",
+      "Have any of the European 10% partners (OMV, MOL, RWE) signaled plans to exercise exit rights post-KM250 commissioning?"
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "2026-10-07",
+      "title": "Comprehensive Credit Assessment: KM250 Commercial Ramp, 13% 2028 Senior Secured Bond & Geopolitical Risk Review",
+      "author": "Institutional Buy-Side Credit Desk; CEEMEA Energy & Special Situations",
+      "source": "Consortium Disclosures, Dana Gas 1H26 Financials & Nordic ABM Regulatory Filings",
+      "full_note": "PEARL PETROLEUM COMPANY LIMITED \u2014 COMPREHENSIVE CREDIT REVIEW & CAPITAL STRUCTURE ASSESSMENT\n\n1. EXECUTIVE SUMMARY & DESK VERDICT:\nWe initiate coverage on Pearl Petroleum Company Limited with an OVERWEIGHT / SECURED CARRY stance on the PEARL 13.00% Senior Secured Notes due May 15, 2028 (ISIN: NO0013387860), trading at ~103.50\u00a2 for an 11.45% Yield to Maturity (+625 bps spread vs UST). Pearl operates the giant Khor Mor and Chemchemal gas fields in the Kurdistan Region of Iraq (KRI), producing over 80% of the region's electricity fuel. The commissioning of the $1.1B KM250 expansion has successfully de-risked the operational profile, boosting processing capacity from 500 MMscfd to 750 MMscfd and lifting gross production above 70,000 boepd. Financial leverage is exceptionally conservative at ~1.0x Net Debt / EBITDA ($595M Gross Debt, $95M Cash, ~$510M LTM EBITDA). The 13.00% coupon carry provides robust total return insulation against regional geopolitical and payment friction.\n\n2. ASSET MOAT & OPERATIONAL REALITY:\n\u2022 Khor Mor Concession: Holds 15.2 Tcf of 2P natural gas reserves and 510 mmbbl of liquids. Consortium owned 35% Dana Gas, 35% Crescent Petroleum, 10% OMV, 10% MOL, 10% RWE.\n\u2022 Lifting Economics: Unit lifting cost is remarkably low at <$2.50/boe, generating massive gross cash flow margins (>80% EBITDA margin).\n\u2022 KM250 Milestone: Oct-2025 commissioning added 250 MMscfd capacity, expanding output to 655 MMscfd dedicated to KRG power stations (Bazian, Erbil, Chemchemal) and 100 MMscfd to Federal Iraq.\n\u2022 The Kirkuk Gas Diversion (August 2026): Pearl commenced supplying 100 MMscfd directly to the Iraqi Federal Ministry of Electricity at the Taza power plant in Kirkuk under a 1-year GSA. Despite KRG objections regarding authorization, this pivot establishes a vital hard-currency payment rail directly from Baghdad, hedging Erbil payment arrears.\n\n3. CAPITAL STRUCTURE & DEBT INSTRUMENTS:\n\u2022 $350.0M Senior Secured 13.00% Notes due 15-May-2028 (NO0013387860): Listed on Nordic ABM. First-lien pledge over Pearl shares, collection bank accounts, and Khor Mor plant assets. Traded price 103.5\u00a2 (11.45% YTM).\n\u2022 $185.0M U.S. DFC Project Finance Loan: 7-year term facility amortizing through 2028, senior secured pari passu with bond.\n\u2022 $60.0M Regional Commercial Bank Tranches: Working capital lines from Bank of Sharjah syndicate.\n\u2022 Gross Debt: $595.0M | Cash: $95.0M | Net Debt: $500.0M | Net Leverage: 0.98x | Gross Leverage: 1.17x | Interest Coverage: 7.2x.\n\n4. KEY CREDIT RISKS & MITIGANTS:\n\u2022 Counterparty Arrears: KRG payment delays persist (>3 years on legacy tranches) due to the shutdown of the Iraq-Turkey Pipeline (ITP). Mitigated by KRG's absolute dependence on Khor Mor fuel to avoid regional electrical collapse, plus newly established Federal Iraq cash flows.\n\u2022 Geopolitical Drone Threat: Targeted repeatedly by pro-Iranian militias in Kirkuk/Taza (April 2024 lethal attack). Mitigated by newly deployed U.S. C-RAM counter-drone air defense systems.\n\u2022 Condensate Discounting: Inability to pipe condensate to Ceyhan forces local trucking to domestic refiners at $20-$25/bbl discounts to Brent. Compensated by 50% expansion in gas throughput.\n\u2022 Dividend Leakage: Over $300M in HoldCo dividend upstreams in 2025. Bondholders are protected by 1.75x net leverage gateway and DSRA reserve requirements.\n\n5. DESK CONCLUSION:\nPearl's credit risk is defined by geopolitical and counterparty factors rather than balance sheet insolvency. With 1.0x net leverage, first-lien asset security, U.S. DFC co-lending protection, and an irreplaceable domestic power monopoly, PEARL 2028s at 103.5\u00a2 (~11.5% YTM) represent an outstanding risk-adjusted carry opportunity in CEEMEA energy."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2026-10-08",
+      "period_name": "2026-10-08",
+      "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "B- (Implied) / CCC+ (Geopolitical Floor)",
+      "price": 103.5,
+      "ytm": 11.45,
+      "spread_bp": 625,
+      "net_leverage": 1.14,
+      "ebitda": 415.0,
+      "fcf": 165.0,
+      "guidance_status": "On Track"
+    }
+  ]
+}

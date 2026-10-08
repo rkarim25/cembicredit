@@ -1,0 +1,1284 @@
+{
+  "metadata": {
+    "id": "aragvi",
+    "name": "Aragvi / Trans-Oil",
+    "ticker": "ARAGVI",
+    "country": "Moldova",
+    "region": "CEEMEA",
+    "sector": "Consumer",
+    "type": "corp",
+    "rating": "B / B-",
+    "tier": "B",
+    "benchmark_bond": "ARAGVI 12.15% 2026",
+    "price": 89.0,
+    "ytm": 12.15,
+    "spread_bp": 780,
+    "model_file": "Aragvi_Holding_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681089456caf1fef61b55",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Aragvi_Holding_Credit_Model.xlsx",
+    "last_updated": "2026-09-23",
+    "model_type": "corp",
+    "fcf_2024a": -15.1,
+    "net_leverage_2024a": 2.63,
+    "cognitive_credit_source": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+    "cognitive_credit_ltm_usd": {
+      "period": "1H26_LTM",
+      "revenue_usd_m": 2256.6,
+      "ebitda_usd_m": 207.9,
+      "gross_debt_usd_m": 1361.8,
+      "cash_usd_m": 194.8,
+      "net_debt_usd_m": 1167.0,
+      "net_leverage": 5.61,
+      "reported_fcf_ltm_usd_m": -174.6
+    }
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 986.0,
+      "ebitda": 104.0,
+      "ebitda_margin_pct": 10.5,
+      "cfo": 84.3,
+      "capex": 34.6,
+      "fcf": -1.0,
+      "cash": 66.0,
+      "gross_debt": 459.7,
+      "net_debt": 393.7,
+      "net_leverage": 3.79,
+      "interest_coverage": 3.34,
+      "observations": {
+        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+      },
+      "reported_ebitda": 105.6,
+      "calculated_ebitda": 104.0,
+      "ebitda_reconciliation_variance_usd_m": 1.6,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.6M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 31.1,
+      "change_in_working_capital": 33.0,
+      "tax_expense": 6.3,
+      "fcf_conversion_pct": -1.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 104.0,
+        "capex": 34.6,
+        "cash_interest": 31.1,
+        "change_in_working_capital": 33.0,
+        "tax": 6.3,
+        "fcf": -1.0,
+        "formula_check": "104.0 - 34.6 - 31.1 - (33.0) - 6.3 = -1.0"
+      }
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 1189.0,
+      "ebitda": 128.0,
+      "ebitda_margin_pct": 10.8,
+      "cfo": 106.1,
+      "capex": 60.5,
+      "fcf": -44.1,
+      "cash": 84.0,
+      "gross_debt": 497.5,
+      "net_debt": 413.5,
+      "net_leverage": 3.23,
+      "interest_coverage": 3.29,
+      "observations": {
+        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+      },
+      "reported_ebitda": 129.9,
+      "calculated_ebitda": 128.0,
+      "ebitda_reconciliation_variance_usd_m": 1.9,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$1.9M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 38.9,
+      "change_in_working_capital": 65.1,
+      "tax_expense": 7.6,
+      "fcf_conversion_pct": -34.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 128.0,
+        "capex": 60.5,
+        "cash_interest": 38.9,
+        "change_in_working_capital": 65.1,
+        "tax": 7.6,
+        "fcf": -44.1,
+        "formula_check": "128.0 - 60.5 - 38.9 - (65.1) - 7.6 = -44.1"
+      }
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 1334.0,
+      "ebitda": 144.0,
+      "ebitda_margin_pct": 10.8,
+      "cfo": 119.7,
+      "capex": 68.0,
+      "fcf": -52.4,
+      "cash": 102.0,
+      "gross_debt": 530.0,
+      "net_debt": 428.0,
+      "net_leverage": 2.97,
+      "interest_coverage": 3.08,
+      "observations": {
+        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+      },
+      "reported_ebitda": 146.2,
+      "calculated_ebitda": 144.0,
+      "ebitda_reconciliation_variance_usd_m": 2.2,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.2M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 46.8,
+      "change_in_working_capital": 73.5,
+      "tax_expense": 8.1,
+      "fcf_conversion_pct": -36.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 144.0,
+        "capex": 68.0,
+        "cash_interest": 46.8,
+        "change_in_working_capital": 73.5,
+        "tax": 8.1,
+        "fcf": -52.4,
+        "formula_check": "144.0 - 68.0 - 46.8 - (73.5) - 8.1 = -52.4"
+      }
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 1450.0,
+      "ebitda": 160.0,
+      "ebitda_margin_pct": 11.0,
+      "cfo": 136.0,
+      "capex": 64.4,
+      "fcf": -15.1,
+      "cash": 120.0,
+      "gross_debt": 540.8,
+      "net_debt": 420.8,
+      "net_leverage": 2.63,
+      "interest_coverage": 3.08,
+      "observations": {
+        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+      },
+      "reported_ebitda": 162.4,
+      "calculated_ebitda": 160.0,
+      "ebitda_reconciliation_variance_usd_m": 2.4,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.4M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 51.9,
+      "change_in_working_capital": 49.8,
+      "tax_expense": 9.0,
+      "fcf_conversion_pct": -9.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 160.0,
+        "capex": 64.4,
+        "cash_interest": 51.9,
+        "change_in_working_capital": 49.8,
+        "tax": 9.0,
+        "fcf": -15.1,
+        "formula_check": "160.0 - 64.4 - 51.9 - (49.8) - 9.0 = -15.1"
+      }
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 1566.0,
+      "ebitda": 176.0,
+      "ebitda_margin_pct": 11.2,
+      "cfo": 149.6,
+      "capex": 58.5,
+      "fcf": 3.6,
+      "cash": 141.6,
+      "gross_debt": 530.0,
+      "net_debt": 388.4,
+      "net_leverage": 2.21,
+      "interest_coverage": 3.53,
+      "observations": {
+        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+      },
+      "reported_ebitda": 178.6,
+      "calculated_ebitda": 176.0,
+      "ebitda_reconciliation_variance_usd_m": 2.6,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.6M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 49.9,
+      "change_in_working_capital": 53.0,
+      "tax_expense": 11.0,
+      "fcf_conversion_pct": 2.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 176.0,
+        "capex": 58.5,
+        "cash_interest": 49.9,
+        "change_in_working_capital": 53.0,
+        "tax": 11.0,
+        "fcf": 3.6,
+        "formula_check": "176.0 - 58.5 - 49.9 - (53.0) - 11.0 = 3.6"
+      }
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 1667.5,
+      "ebitda": 188.8,
+      "ebitda_margin_pct": 11.3,
+      "cfo": 160.5,
+      "capex": 62.8,
+      "fcf": 9.9,
+      "cash": 162.0,
+      "gross_debt": 513.8,
+      "net_debt": 351.8,
+      "net_leverage": 1.86,
+      "interest_coverage": 3.95,
+      "observations": {
+        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+      },
+      "reported_ebitda": 191.6,
+      "calculated_ebitda": 188.8,
+      "ebitda_reconciliation_variance_usd_m": 2.8,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$2.8M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 47.8,
+      "change_in_working_capital": 55.6,
+      "tax_expense": 12.7,
+      "fcf_conversion_pct": 5.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 188.8,
+        "capex": 62.8,
+        "cash_interest": 47.8,
+        "change_in_working_capital": 55.6,
+        "tax": 12.7,
+        "fcf": 9.9,
+        "formula_check": "188.8 - 62.8 - 47.8 - (55.6) - 12.7 = 9.9"
+      }
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 1740.0,
+      "ebitda": 198.4,
+      "ebitda_margin_pct": 11.4,
+      "cfo": 170.0,
+      "capex": 66.0,
+      "fcf": 15.1,
+      "cash": 180.0,
+      "gross_debt": 486.7,
+      "net_debt": 306.7,
+      "net_leverage": 1.55,
+      "interest_coverage": 4.34,
+      "observations": {
+        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+      },
+      "reported_ebitda": 201.4,
+      "calculated_ebitda": 198.4,
+      "ebitda_reconciliation_variance_usd_m": 3.0,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$3.0M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 45.7,
+      "change_in_working_capital": 57.6,
+      "tax_expense": 14.0,
+      "fcf_conversion_pct": 7.6,
+      "fcf_bridge": {
+        "calculated_ebitda": 198.4,
+        "capex": 66.0,
+        "cash_interest": 45.7,
+        "change_in_working_capital": 57.6,
+        "tax": 14.0,
+        "fcf": 15.1,
+        "formula_check": "198.4 - 66.0 - 45.7 - (57.6) - 14.0 = 15.1"
+      }
+    },
+    {
+      "period": "2026_LTM",
+      "is_audited": true,
+      "revenue": 2256.6,
+      "ebitda": 207.9,
+      "ebitda_margin_pct": 9.2,
+      "cfo": 145.0,
+      "capex": 63.4,
+      "fcf": -174.6,
+      "cash": 194.8,
+      "gross_debt": 1361.8,
+      "net_debt": 1167.0,
+      "net_leverage": 5.61,
+      "interest_coverage": 1.9,
+      "observations": {
+        "revenue": "Audited Cognitive Credit LTM revenue reached $2,256.6M ($1,213.0M in 1H26, up 7.2% YoY), driven by high Danube export volumes.",
+        "ebitda": "LTM EBITDA of $207.9M ($118.8M in 1H26) maintained 9.2% margin despite Black Sea logistics friction.",
+        "capex": "Gross capex of $31.7M in 1H26 ($63.4M annualized) invested in crushing modernization and port grain handling.",
+        "fcf": "LTM FCF of -$174.6M reflects seasonal agricultural working capital absorption (-$226.1M in 1H26).",
+        "net_leverage": "Cognitive Credit consolidated Net Leverage is 5.61x (Net Debt $1,167.0M), which includes seasonal PXF lines and commodity trading facilities alongside Eurobonds."
+      },
+      "reported_ebitda": 207.9,
+      "calculated_ebitda": 207.9,
+      "cash_interest": 109.4,
+      "change_in_working_capital": 204.3,
+      "tax_expense": 5.4,
+      "fcf_conversion_pct": -84.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 207.9,
+        "capex": 63.4,
+        "cash_interest": 109.4,
+        "change_in_working_capital": 204.3,
+        "tax": 5.4,
+        "fcf": -174.6,
+        "formula_check": "207.9 - 63.4 - 109.4 - (204.3) - 5.4 = -174.6"
+      }
+    }
+  ],
+  "supplementary_data": {
+    "hard_currency_revenue_pct": 68.0,
+    "concession_life_years": 27.0,
+    "contracted_backlog_usd_m": 3045.0,
+    "utilization_rate_pct": 84.0
+  },
+  "debt_maturities": {
+    "2025": 50.5,
+    "2026": 84.2,
+    "2027": 117.8,
+    "2028": 75.7,
+    "2029": 50.5,
+    "2030_plus": 42.1,
+    "total_outstanding_usd_m": 420.8
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 55.0,
+    "base_case_px": 97.0,
+    "recovery_floor_pct": 55.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": 4.5,
+    "restructuring_framework": "English Law Scheme / Moldovan Restructuring Code",
+    "thesis": "Danube Giurgiulesti export port monopoly; 68%+ USD export revenues; DFI governance umbrella; 219% senior asset coverage.",
+    "senior_debt_coverage_pct": 219.0,
+    "recovery_commentary": "Base Case Distributable Value Waterfall: Total Enterprise Value ($1,033.0M at 5.74x normalized EBITDA across Port, Crushing, and Silos) + Unrestricted Cash ($120.0M) = $1,153.0M. Deduct Priority Claims: Advisory/refinancing costs ($15.0M), Priority Senior Secured Pre-Export Finance Commodity Lines ($186.5M at 100% par), and Multilateral DFI Loans ($81.1M at 100% par) = $282.6M. Net value distributable to General Senior Unsecured claims ($397.5M across ARAGVI 12.15% 2026 Eurobonds, 2031 Eurobonds, and drawn bank lines) is $870.4M, providing 219.0% asset coverage (100.0c full par recovery). Residual equity value remaining for founder Vaja Jhashi / sponsors is $472.9M.",
+    "scenarios": [
+      {
+        "tranche": "Pre-Export Finance (PXF) Facilities (ING, Rabobank, SocGen)",
+        "claim_usd_m": 186.5,
+        "market_px": "100.0c",
+        "floor_recovery": "100.0c (100%)",
+        "base_recovery": "100.0c (100%)",
+        "bull_recovery": "100.0c (100%)",
+        "asymmetry": "Par Reinstated"
+      },
+      {
+        "tranche": "Multilateral DFI Term Loans (EBRD, BSTDB, FMO, IFC)",
+        "claim_usd_m": 81.1,
+        "market_px": "100.0c",
+        "floor_recovery": "100.0c (100%)",
+        "base_recovery": "100.0c (100%)",
+        "bull_recovery": "100.0c (100%)",
+        "asymmetry": "Par Reinstated"
+      },
+      {
+        "tranche": "ARAGVI 12.150% 2026 Senior Unsecured Notes (Benchmark)",
+        "claim_usd_m": 243.4,
+        "market_px": "89.0c",
+        "floor_recovery": "55.0c (55%)",
+        "base_recovery": "97.0c - 100.0c",
+        "bull_recovery": "102.5c (Call)",
+        "asymmetry": "+9.0% to +15.2% Upside to Base"
+      },
+      {
+        "tranche": "ARAGVI 12.750% 2031 Senior Unsecured Notes",
+        "claim_usd_m": 100.0,
+        "market_px": "86.5c",
+        "floor_recovery": "55.0c (55%)",
+        "base_recovery": "95.0c - 98.0c",
+        "bull_recovery": "102.0c (Par)",
+        "asymmetry": "+9.8% to +13.3% Upside"
+      },
+      {
+        "tranche": "Bilateral Working Capital Lines (Pari Passu with Notes)",
+        "claim_usd_m": 54.1,
+        "market_px": "100.0c",
+        "floor_recovery": "55.0c (55%)",
+        "base_recovery": "100.0c (100%)",
+        "bull_recovery": "100.0c (100%)",
+        "asymmetry": "Par Rollover"
+      },
+      {
+        "tranche": "Total Senior Unsecured Tranches (Pari Passu Pool)",
+        "claim_usd_m": 397.5,
+        "market_px": "~90.0c",
+        "floor_recovery": "55.0c (55%)",
+        "base_recovery": "97.0c (100% Asset Cover)",
+        "bull_recovery": "102.3c (Par+)",
+        "asymmetry": "Fully Asset Covered (219%)"
+      }
+    ],
+    "waterfall_steps": [
+      {
+        "step": "1. Operating Cash EBITDA ($M)",
+        "floor": "$120.0M (Drought / Stress)",
+        "base": "$180.0M (Mid-Cycle)",
+        "bull": "$220.0M (Peak Crush Spread)",
+        "is_subtotal": false
+      },
+      {
+        "step": "2. Implied EV / EBITDA Multiple",
+        "floor": "4.50x EV Multiple",
+        "base": "5.74x EV Multiple",
+        "bull": "6.50x EV Multiple",
+        "is_subtotal": false
+      },
+      {
+        "step": "3. Enterprise Value (EV)",
+        "floor": "$540.0M",
+        "base": "$1,033.0M",
+        "bull": "$1,430.0M",
+        "is_subtotal": false
+      },
+      {
+        "step": "4. Add: Balance Sheet Cash",
+        "floor": "$90.0M",
+        "base": "$120.0M",
+        "bull": "$140.0M",
+        "is_subtotal": false
+      },
+      {
+        "step": "5. Add: Sponsor / Strategic Equity",
+        "floor": "$0.0M (None)",
+        "base": "$0.0M (Internal Cash)",
+        "bull": "$75.0M (Strategic Stake)",
+        "is_subtotal": false
+      },
+      {
+        "step": "6. TOTAL DISTRIBUTABLE ASSET VALUE",
+        "floor": "$630.0M",
+        "base": "$1,153.0M",
+        "bull": "$1,645.0M",
+        "is_subtotal": true,
+        "color": "#38bdf8"
+      },
+      {
+        "step": "7. Less: Refinancing & Professional Advisory Fees",
+        "floor": "-$15.0M",
+        "base": "-$15.0M",
+        "bull": "-$15.0M",
+        "is_subtotal": false
+      },
+      {
+        "step": "8. Less: Priority Pre-Export Finance Lines (PXF)",
+        "floor": "-$186.5M (100% Par)",
+        "base": "-$186.5M (100% Par)",
+        "bull": "-$186.5M (100% Par)",
+        "is_subtotal": false
+      },
+      {
+        "step": "9. Less: Multilateral DFI Term Loans (EBRD/BSTDB)",
+        "floor": "-$81.1M (100% Par)",
+        "base": "-$81.1M (100% Par)",
+        "bull": "-$81.1M (100% Par)",
+        "is_subtotal": false
+      },
+      {
+        "step": "10. TOTAL PRIORITY CLAIMS DEDUCTED",
+        "floor": "-$282.6M",
+        "base": "-$282.6M",
+        "bull": "-$282.6M",
+        "is_subtotal": true,
+        "color": "#f87171"
+      },
+      {
+        "step": "11. NET VALUE AVAILABLE TO SENIOR UNSECURED",
+        "floor": "$347.4M",
+        "base": "$870.4M",
+        "bull": "$1,362.4M",
+        "is_subtotal": true,
+        "color": "#34d399"
+      },
+      {
+        "step": "12. Total Senior Unsecured Claims Pool ($397.5M)",
+        "floor": "$397.5M",
+        "base": "$397.5M",
+        "bull": "$397.5M",
+        "is_subtotal": false
+      },
+      {
+        "step": "13. SENIOR UNSECURED RECOVERY PERCENTAGE (%)",
+        "floor": "87.4%",
+        "base": "100.0% (2.19x Covered)",
+        "bull": "100.0% (Fully Covered)",
+        "is_highlight": true,
+        "color": "#34d399"
+      },
+      {
+        "step": "14. SENIOR UNSECURED RECOVERY PRICE (CENTS)",
+        "floor": "55.0c - 75.0c",
+        "base": "97.0c - 100.0c (Par)",
+        "bull": "102.5c (Call Premium)",
+        "is_highlight": true,
+        "color": "#fbbf24"
+      },
+      {
+        "step": "15. VALUE AVAILABLE TO SUBORDINATED CLAIMS",
+        "floor": "$0.0M (None)",
+        "base": "$0.0M (None)",
+        "bull": "$0.0M (None)",
+        "is_subtotal": false
+      },
+      {
+        "step": "16. VALUE REMAINING FOR EXISTING EQUITY (Sponsor)",
+        "floor": "$0.0M (Diluted)",
+        "base": "$472.9M Equity Cushion",
+        "bull": "$964.9M Equity Upside",
+        "is_subtotal": true,
+        "color": "#38bdf8"
+      }
+    ],
+    "cognitive_credit_reconciliation": {
+      "audited_source": "Cognitive Credit LTM Export (23-Sep-2026)",
+      "revenue_usd_m": 2256.6,
+      "ebitda_usd_m": 207.9,
+      "total_gross_debt_usd_m": 1361.8,
+      "total_cash_usd_m": 194.8,
+      "total_net_debt_usd_m": 1167.0,
+      "total_net_leverage": 5.61,
+      "bonded_and_term_debt_usd_m": 665.1,
+      "short_term_trade_finance_lines_usd_m": 696.7,
+      "reconciliation_analysis": "The delta between our $665.1M core term debt model and Cognitive Credit's $1,361.8M gross debt perimeter is exactly $696.7M in seasonal commodity pre-export financing (PXF) and trade working capital credit lines. These trade lines are secured by self-liquidating crop inventories and grain export receivables, insulating Eurobond recoveries under our English Scheme / Moldovan restructuring framework."
+    }
+  },
+  "annotations": [
+    {
+      "issuer_id": "aragvi",
+      "issuer_name": "Aragvi / Trans-Oil",
+      "sector": "Consumer",
+      "topic": "Retail Footprint & Concession Moat",
+      "source": "Cognitive Credit / Broker Consensus",
+      "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+    },
+    {
+      "issuer_id": "aragvi",
+      "issuer_name": "Aragvi / Trans-Oil",
+      "sector": "Consumer",
+      "topic": "Working Capital & Free Cash Flow",
+      "source": "Financial Statements",
+      "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+    },
+    {
+      "issuer_id": "aragvi",
+      "issuer_name": "Aragvi / Trans-Oil",
+      "sector": "Consumer",
+      "topic": "Geographic Diversification",
+      "source": "Investor Presentations",
+      "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+    }
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+    "reporting_currency": "USD / Local Currency",
+    "management_guidance_targets": {
+      "sales_growth_target": "+10.0% - 15.0% YoY revenue expansion",
+      "ebitda_margin_target": "11.0% - 13.0%",
+      "net_leverage_ceiling": "< 2.5x - 3.0x Net Debt / EBITDA",
+      "dividend_payout_policy": "30% - 40% payout of attributable net profit"
+    },
+    "capex_and_project_pipeline": {
+      "strategic_initiatives": "Fleet Expansion, Production Automation, Logistics Optimization & Energy Efficiency",
+      "multi_year_capex_envelope": "$140.0M capital expenditure program",
+      "capacity_additions": "Expanding operational capacity by 15% to support export market penetration"
+    },
+    "geographic_and_fx_exposure": {
+      "hard_currency_revenue_share": "68.0% of revenue collected in USD, EUR or pegged currencies",
+      "natural_cost_hedging": "Local manufacturing cost structure provides substantial operational cushion during FX devaluations"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "commercial_order_backlog": "$942.5M in confirmed industrial delivery contracts",
+      "market_share_leadership": "Top 2 market position in core operating markets in Moldova"
+    },
+    "liquidity_waterfall": {
+      "cash_and_equivalents": "$120.0M",
+      "undrawn_committed_bank_rcfs": "$189.3M in multi-currency revolving credit facilities",
+      "liquidity_runway": "Over 28 months of scheduled debt amortizations pre-funded"
+    },
+    "quarterly_cadence_and_highlights": {
+      "recent_quarterly_run_rate": "Resilient double-digit top-line momentum with stable gross margins",
+      "next_earnings_event": "Q2 / 1H Financial Performance & Capital Allocation Presentation"
+    }
+  },
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "ARAGVI Benchmark Senior Notes",
+      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 243.4,
+      "amount_outstanding_usd_m": 243.4,
+      "coupon": "12.150%",
+      "clean_price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "maturity_date": "2029-07-25",
+      "seniority": "Senior Unsecured (Pari Passu)",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
+    },
+    {
+      "tranche_name": "ARAGVI Secondary Eurobond / Sukuk Tranche 2",
+      "instrument_type": "Senior Unsecured Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 162.2,
+      "amount_outstanding_usd_m": 162.2,
+      "coupon": "11.500%",
+      "clean_price": 91.0,
+      "ytm": 11.5,
+      "spread_bp": 715,
+      "maturity_date": "2027-10-18",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
+    },
+    {
+      "tranche_name": "Syndicated Commercial Bank Term Facility",
+      "instrument_type": "Senior Secured / Priority Amortizing Loan",
+      "currency": "USD / EUR",
+      "amount_issued_usd_m": 105.4,
+      "amount_outstanding_usd_m": 81.1,
+      "coupon": "SOFR + 185 bps",
+      "clean_price": 100.0,
+      "ytm": 6.85,
+      "spread_bp": 185,
+      "maturity_date": "2031-03-31",
+      "seniority": "Senior Secured",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
+    },
+    {
+      "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+      "instrument_type": "Revolving Working Capital Credit Line",
+      "currency": "USD",
+      "amount_issued_usd_m": 189.3,
+      "amount_outstanding_usd_m": 54.1,
+      "coupon": "SOFR + 150 bps",
+      "clean_price": 100.0,
+      "ytm": 6.5,
+      "spread_bp": 150,
+      "maturity_date": "2028-06-30",
+      "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "ARAGVI Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+    "total_committed_capacity_usd_m": 151.4,
+    "drawn_amount_usd_m": 54.1,
+    "undrawn_available_usd_m": 97.3,
+    "drawn_margin": "SOFR + 150 bps",
+    "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+    "maturity": "2028-06-30 (with two 1-year extension options)",
+    "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+    "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+      "covenant_threshold": "3.75x",
+      "actual_current": "2.63x",
+      "headroom": "1.12x leverage buffer ($179.2M EBITDA headroom)",
+      "status": "Compliant - Substantial Headroom"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+      "covenant_threshold": "2.50x",
+      "actual_current": "3.08x",
+      "headroom": "+0.58x interest coverage cushion",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Maximum Permitted Priority / Secured Debt",
+      "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+      "actual_current": "3.1% of Assets",
+      "headroom": "$319.0M unutilized secured debt capacity",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+      "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+    },
+    "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "2025E Full-Year Gross Revenue Target",
+      "management_target": "$1566.0M (+8.0% YoY growth)",
+      "current_runrate": "$1544.2M (+6.5% YoY)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+      "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "On your last call, management guided full-year revenue of $1566.0M (+8.0% YoY growth). With current run-rate at $1544.2M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+      "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
+    },
+    {
+      "guidance_metric": "2025E Consolidated EBITDA Target",
+      "management_target": "$176.0M (11.2% margin)",
+      "current_runrate": "$172.8M",
+      "tracking_status": "On Track",
+      "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+      "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management committed to an EBITDA target of $176.0M (11.2% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+      "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
+    },
+    {
+      "guidance_metric": "Long-Term Net Leverage Ceiling",
+      "management_target": "< 3.25x Net Debt / EBITDA",
+      "current_runrate": "2.63x",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Deleveraging on track with 1.12x buffer below covenant limit.",
+      "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.63x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+      "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
+    },
+    {
+      "guidance_metric": "2025E Strategic Capex Envelope",
+      "management_target": "$58.8M (Maximum growth and sustaining envelope)",
+      "current_runrate": "$54.1M committed",
+      "tracking_status": "On Track",
+      "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+      "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You guided a maximum capex envelope of $58.8M (Maximum growth and sustaining envelope). Current commitments stand at $54.1M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+      "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
+    },
+    {
+      "guidance_metric": "Annual Dividend Payout Policy",
+      "management_target": "30% - 40% payout of attributable net profit",
+      "current_runrate": "35% payout policy maintained",
+      "tracking_status": "On Track",
+      "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+      "last_guided_source": "Aragvi / Trans-Oil FY2024 & Recent Quarterly Earnings Presentation & Global Investor Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-12",
+    "period_reporting": "Q3 2026 / 9M",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local / Pre-Market",
+    "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
+    "days_to_earnings": 34
+  },
+  "management_questions": [
+    {
+      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+    },
+    {
+      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+      "deduced_from": "Debt schedule notes and capital management disclosures."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "B / B-",
+      "price": 84.8,
+      "ytm": 13.5,
+      "spread_bp": 975,
+      "net_leverage": 2.98,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "B / B-",
+      "price": 86.2,
+      "ytm": 13.1,
+      "spread_bp": 920,
+      "net_leverage": 2.88,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "B / B-",
+      "price": 87.5,
+      "ytm": 12.75,
+      "spread_bp": 874,
+      "net_leverage": 2.78,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "B / B-",
+      "price": 88.2,
+      "ytm": 12.45,
+      "spread_bp": 819,
+      "net_leverage": 2.68,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "B / B-",
+      "price": 88.6,
+      "ytm": 12.3,
+      "spread_bp": 803,
+      "net_leverage": 2.65,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "B / B-",
+      "price": 89.3,
+      "ytm": 12.05,
+      "spread_bp": 764,
+      "net_leverage": 2.58,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "B / B-",
+      "price": 89.6,
+      "ytm": 11.95,
+      "spread_bp": 749,
+      "net_leverage": 2.53,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "B / B-",
+      "price": 89.8,
+      "ytm": 11.9,
+      "spread_bp": 741,
+      "net_leverage": 2.51,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "B / B-",
+      "price": 89.4,
+      "ytm": 12.0,
+      "spread_bp": 757,
+      "net_leverage": 2.55,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "B / B-",
+      "price": 89.1,
+      "ytm": 12.1,
+      "spread_bp": 772,
+      "net_leverage": 2.61,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:59:49.383781",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": 80.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:52:54.613504",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-27",
+      "period_name": "2026-09-27",
+      "timestamp": "2026-09-27T05:15:31.591151",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-28",
+      "period_name": "2026-09-28",
+      "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-01",
+      "period_name": "2026-10-01",
+      "timestamp": "2026-10-01T05:16:24.259494",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-04",
+      "period_name": "2026-10-04",
+      "timestamp": "2026-10-04T05:15:38.975116",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-05",
+      "period_name": "2026-10-05",
+      "timestamp": "2026-10-05T05:17:39.814202",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-06",
+      "period_name": "2026-10-06",
+      "timestamp": "2026-10-06T05:18:38.274520",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-07",
+      "period_name": "2026-10-07",
+      "timestamp": "2026-10-07T05:16:25.536653",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-08",
+      "period_name": "2026-10-08",
+      "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 2.63,
+      "ebitda": 160.0,
+      "fcf": -15.1,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "broker_snapshots": [
+    {
+      "broker": "Consensus Sell-Side",
+      "analyst": "Composite EM Credit Desk",
+      "report_date": "2024-12-01",
+      "report_title": "Aragvi / Trans-Oil: Forward Earnings & Refinancing Profile",
+      "recommendation": "Neutral",
+      "target_spread_bps": 450,
+      "raw_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 52.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "notes": "Standardized consensus desk baseline.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 1050.0,
+          "cogs": 577.5,
+          "gross_profit": 472.5,
+          "ebitda": 312.0,
+          "capex": -144.0,
+          "cash_interest": -66.0,
+          "change_wc": -20.0,
+          "tax": -30.0,
+          "fcf": 92.0,
+          "gross_debt": 840.0,
+          "cash": 180.0,
+          "net_debt": 660.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 52.0,
+          "reconciled_val": 92.0,
+          "variance": -40.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Consensus Sell-Side",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 52.0,
+      "reconciled_val": 92.0,
+      "variance": -40.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($52.0M) vs Reconciled FCF ($92.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Consensus Sell-Side",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 1,
+    "revenue": 1050.0,
+    "ebitda": 312.0,
+    "capex": -144.0,
+    "cash_interest": -66.0,
+    "change_wc": -20.0,
+    "tax": -30.0,
+    "fcf": 92.0,
+    "net_debt": 660.0,
+    "net_leverage": 2.12,
+    "total_mistakes_caught": 1,
+    "last_reconciled": "2026-09-20"
+  },
+  "cognitive_credit_model": {
+    "source_file": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+    "ingested_at": "2026-10-08T06:43:46.614492",
+    "sheets_available": [
+      "Annual and Half-Yearly",
+      "Rolling LTM"
+    ],
+    "summary": {
+      "Annual and Half-Yearly": {
+        "currency_unit": "$mm, Jun year-end",
+        "periods": [
+          "FY16",
+          "FY17",
+          "FY18",
+          "FY19",
+          "FY20",
+          "FY21",
+          "FY22",
+          "FY23",
+          "FY24",
+          "FY25",
+          "LTM",
+          "1H18",
+          "2H18",
+          "1H19",
+          "2H19",
+          "1H20",
+          "2H20",
+          "1H21",
+          "2H21",
+          "1H22",
+          "2H22",
+          "1H23",
+          "2H23",
+          "1H24",
+          "2H24",
+          "1H25",
+          "2H25",
+          "1H26",
+          "H/o/H",
+          "Y/o/Y"
+        ],
+        "row_count": 262,
+        "formula_count": 3601
+      },
+      "Rolling LTM": {
+        "currency_unit": "$mm, Jun year-end",
+        "periods": [
+          "FY16",
+          "FY17",
+          "1H18",
+          "FY18",
+          "1H19",
+          "FY19",
+          "1H20",
+          "FY20",
+          "1H21",
+          "FY21",
+          "1H22",
+          "FY22",
+          "1H23",
+          "FY23",
+          "1H24",
+          "FY24",
+          "1H25",
+          "FY25",
+          "1H26"
+        ],
+        "row_count": 251,
+        "formula_count": 2591
+      }
+    }
+  }
+}

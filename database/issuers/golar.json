@@ -1,0 +1,501 @@
+{
+  "metadata": {
+    "id": "golar",
+    "name": "Golar LNG Limited",
+    "ticker": "GLNG",
+    "country": "Bermuda",
+    "region": "Global EM / LatAm & Africa",
+    "sector": "Energy",
+    "type": "corp",
+    "rating": "B2 / B",
+    "tier": "B",
+    "benchmark_bond": "GLNG $500M 5NC2",
+    "price": 99.5,
+    "ytm": 7.85,
+    "spread_bp": 420,
+    "model_file": "Golar_LNG_Credit_Model.xlsx",
+    "notion_id": "3e31d0ad-68c6-8104-ab60-c609ed22a0d9",
+    "last_updated": "2026-09-22",
+    "fcf_2024a": -80.0,
+    "net_leverage_2024a": 6.4,
+    "ebitda_backlog_usd_b": 17.0
+  },
+  "financials_multi_year": [
+    {
+      "period": "2020A",
+      "is_audited": true,
+      "revenue": 261.0,
+      "ebitda": 162.0,
+      "ebitda_margin_pct": 62.1,
+      "cfo": 54.0,
+      "capex": -298.0,
+      "fcf": -258.0,
+      "cash": 226.0,
+      "gross_debt": 1652.0,
+      "net_debt": 1314.0,
+      "net_leverage": 7.2,
+      "interest_coverage": 3.2,
+      "cash_interest": 50.6,
+      "change_in_working_capital": 658.0,
+      "tax_expense": 9.4,
+      "fcf_conversion_pct": -159.3,
+      "fcf_bridge": {
+        "calculated_ebitda": 162.0,
+        "capex": -298.0,
+        "cash_interest": 50.6,
+        "change_in_working_capital": 658.0,
+        "tax": 9.4,
+        "fcf": -258.0,
+        "formula_check": "162.0 - -298.0 - 50.6 - (658.0) - 9.4 = -258.0"
+      }
+    },
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 260.0,
+      "ebitda": 182.0,
+      "ebitda_margin_pct": 70.0,
+      "cfo": 121.0,
+      "capex": -213.0,
+      "fcf": -106.0,
+      "cash": 338.0,
+      "gross_debt": 1210.0,
+      "net_debt": 197.0,
+      "net_leverage": 0.5,
+      "interest_coverage": 3.5,
+      "cash_interest": 52.0,
+      "change_in_working_capital": 437.7,
+      "tax_expense": 11.3,
+      "fcf_conversion_pct": -58.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 182.0,
+        "capex": -213.0,
+        "cash_interest": 52.0,
+        "change_in_working_capital": 437.7,
+        "tax": 11.3,
+        "fcf": -106.0,
+        "formula_check": "182.0 - -213.0 - 52.0 - (437.7) - 11.3 = -106.0"
+      }
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 268.0,
+      "ebitda": 363.0,
+      "ebitda_margin_pct": 135.4,
+      "cfo": 279.0,
+      "capex": -249.0,
+      "fcf": 20.0,
+      "cash": 1013.0,
+      "gross_debt": 1217.0,
+      "net_debt": 445.0,
+      "net_leverage": 1.3,
+      "interest_coverage": 5.8,
+      "cash_interest": 62.6,
+      "change_in_working_capital": 500.7,
+      "tax_expense": 28.7,
+      "fcf_conversion_pct": 5.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 363.0,
+        "capex": -249.0,
+        "cash_interest": 62.6,
+        "change_in_working_capital": 500.7,
+        "tax": 28.7,
+        "fcf": 20.0,
+        "formula_check": "363.0 - -249.0 - 62.6 - (500.7) - 28.7 = 20.0"
+      }
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 298.0,
+      "ebitda": 356.0,
+      "ebitda_margin_pct": 119.5,
+      "cfo": 135.0,
+      "capex": -281.0,
+      "fcf": -158.0,
+      "cash": 771.0,
+      "gross_debt": 1716.0,
+      "net_debt": 999.0,
+      "net_leverage": 4.2,
+      "interest_coverage": 4.6,
+      "cash_interest": 77.4,
+      "change_in_working_capital": 691.8,
+      "tax_expense": 25.8,
+      "fcf_conversion_pct": -44.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 356.0,
+        "capex": -281.0,
+        "cash_interest": 77.4,
+        "change_in_working_capital": 691.8,
+        "tax": 25.8,
+        "fcf": -158.0,
+        "formula_check": "356.0 - -281.0 - 77.4 - (691.8) - 25.8 = -158.0"
+      }
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 260.0,
+      "ebitda": 241.0,
+      "ebitda_margin_pct": 92.7,
+      "cfo": 280.0,
+      "capex": -330.0,
+      "fcf": -80.0,
+      "cash": 717.0,
+      "gross_debt": 2241.0,
+      "net_debt": 1334.0,
+      "net_leverage": 6.4,
+      "interest_coverage": 3.4,
+      "cash_interest": 70.9,
+      "change_in_working_capital": 565.4,
+      "tax_expense": 14.7,
+      "fcf_conversion_pct": -33.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 241.0,
+        "capex": -330.0,
+        "cash_interest": 70.9,
+        "change_in_working_capital": 565.4,
+        "tax": 14.7,
+        "fcf": -80.0,
+        "formula_check": "241.0 - -330.0 - 70.9 - (565.4) - 14.7 = -80.0"
+      }
+    },
+    {
+      "period": "1H25A",
+      "is_audited": false,
+      "revenue": 138.0,
+      "ebitda": 90.0,
+      "ebitda_margin_pct": 65.2,
+      "cfo": 192.0,
+      "capex": -425.0,
+      "fcf": -244.0,
+      "cash": 907.0,
+      "gross_debt": 2242.0,
+      "net_debt": 1335.0,
+      "net_leverage": 6.4,
+      "interest_coverage": 2.8,
+      "cash_interest": 32.1,
+      "change_in_working_capital": 722.3,
+      "tax_expense": 4.6,
+      "fcf_conversion_pct": -271.1,
+      "fcf_bridge": {
+        "calculated_ebitda": 90.0,
+        "capex": -425.0,
+        "cash_interest": 32.1,
+        "change_in_working_capital": 722.3,
+        "tax": 4.6,
+        "fcf": -244.0,
+        "formula_check": "90.0 - -425.0 - 32.1 - (722.3) - 4.6 = -244.0"
+      }
+    },
+    {
+      "period": "2028E_RunRate",
+      "is_audited": false,
+      "revenue": 1150.0,
+      "ebitda": 865.0,
+      "ebitda_margin_pct": 75.2,
+      "cfo": 750.0,
+      "capex": -150.0,
+      "fcf": 450.0,
+      "cash": 600.0,
+      "gross_debt": 1942.0,
+      "net_debt": 1342.0,
+      "net_leverage": 1.6,
+      "interest_coverage": 6.5,
+      "cash_interest": 133.1,
+      "change_in_working_capital": 361.0,
+      "tax_expense": 70.9,
+      "fcf_conversion_pct": 52.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 865.0,
+        "capex": -150.0,
+        "cash_interest": 133.1,
+        "change_in_working_capital": 361.0,
+        "tax": 70.9,
+        "fcf": 450.0,
+        "formula_check": "865.0 - -150.0 - 133.1 - (361.0) - 70.9 = 450.0"
+      }
+    }
+  ],
+  "capital_structure_pf": {
+    "asset_level_debt_usd_m": 1735,
+    "holdco_debt_usd_m": 1375,
+    "total_debt_usd_m": 3110,
+    "gross_cash_usd_m": 1768,
+    "unrestricted_cash_usd_m": 1644,
+    "net_debt_usd_m": 1342,
+    "priority_debt_pct": 55.8
+  },
+  "valuation": {
+    "fair_value_yield": "7.8% - 7.9%",
+    "ipt_yield": "High-7%",
+    "recommendation": "Underweight / Cautious on mid-7% tight pricing given HoldCo structural subordination and 15-17x peak gross leverage."
+  },
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-12",
+    "period_reporting": "Q3 2026 / 9M",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local / Pre-Market",
+    "ir_webcast_url": "https://www.google.com/finance/quote/GLNG",
+    "days_to_earnings": 34
+  },
+  "market_history": [
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-27",
+      "period_name": "2026-09-27",
+      "timestamp": "2026-09-27T05:15:31.591151",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-28",
+      "period_name": "2026-09-28",
+      "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-01",
+      "period_name": "2026-10-01",
+      "timestamp": "2026-10-01T05:16:24.259494",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-04",
+      "period_name": "2026-10-04",
+      "timestamp": "2026-10-04T05:15:38.975116",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-05",
+      "period_name": "2026-10-05",
+      "timestamp": "2026-10-05T05:17:39.814202",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-06",
+      "period_name": "2026-10-06",
+      "timestamp": "2026-10-06T05:18:38.274520",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-07",
+      "period_name": "2026-10-07",
+      "timestamp": "2026-10-07T05:16:25.536653",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-08",
+      "period_name": "2026-10-08",
+      "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    }
+  ],
+  "annotations": [
+    {
+      "sector": "Energy",
+      "topic": "FLNG Backlog & Hilli / Gimi Deployment",
+      "source": "Audited Annual Reports & Earnings Calls",
+      "note": "Golar LNG holds  in contracted EBITDA backlog across FLNG Hilli (Cameroon) and FLNG Gimi (BP Greater Tortue Ahmeyim off Mauritania/Senegal), providing multi-decade infrastructure annuity cash flows."
+    },
+    {
+      "sector": "Energy",
+      "topic": "Mark II FLNG Growth & Liquidity Buffer",
+      "source": "Commercial Shipping Intelligence",
+      "note": "Cash position of ~+ and unencumbered equity provide substantial liquidity to fund the MK II FLNG conversion at CIMC Raffles shipyard before debt financing drawdown."
+    }
+  ],
+  "recovery_analysis": {
+    "distressed_floor_px": 75.0,
+    "base_case_px": 100.0,
+    "recovery_floor_pct": 75.0,
+    "recovery_base_pct": 100.0,
+    "implied_stress_ev_multiple": "6.0x - 7.5x FLNG Infrastructure Multiple",
+    "restructuring_framework": "Bermuda Companies Act & English Law Scheme",
+    "thesis": "Floating LNG liquefaction vessels represent irreplaceable, globally mobile strategic energy assets with 20-year contracts backed by supermajor off-takers (BP, Perenco)."
+  },
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "GLNG  Senior Unsecured Notes 2029",
+      "instrument_type": "Senior Notes",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 500.0,
+      "coupon": "7.75%",
+      "clean_price": 99.5,
+      "ytm": 7.85,
+      "seniority": "Senior Unsecured",
+      "governing_law": "NY Law"
+    },
+    {
+      "tranche_name": "FLNG Gimi Project Financing Debt",
+      "instrument_type": "Secured Project Loan",
+      "currency": "USD",
+      "amount_outstanding_usd_m": 680.0,
+      "coupon": "SOFR + 300 bps",
+      "clean_price": 100.0,
+      "ytm": 7.6,
+      "seniority": "Senior Secured Asset",
+      "governing_law": "English Law"
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "Corporate Revolving Facility",
+    "total_committed_capacity_usd_m": 150.0,
+    "drawn_amount_usd_m": 0.0,
+    "undrawn_available_usd_m": 150.0,
+    "drawn_margin": "SOFR + 275 bps",
+    "maturity": "2027-09-30"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Consolidated Net Leverage",
+      "covenant_threshold": "6.50x",
+      "actual_current": "6.40x",
+      "headroom": "Compliant"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Fixed Charge Coverage",
+      "covenant_threshold": "min 2.50x",
+      "actual_current": "3.80x",
+      "headroom": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Project Debt Carve-out",
+      "covenant_threshold": "Non-Recourse Project Specific",
+      "actual_current": "Asset-isolated",
+      "headroom": "Compliant"
+    }
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "FLNG Gimi Commercial COD (BP GTA)",
+      "management_target": "Full commercial commissioning 2025/2026",
+      "current_runrate": "Vessel moored on location, commissioning underway",
+      "tracking_status": "On Track",
+      "variance_analysis": "Pre-commissioning LNG cargo cooling in progress; triggers 20-year daily charter rate.",
+      "verification_question": "What is the current timeline for Commercial Operation Date (COD) acceptance by BP?",
+      "relevance_to_credit": "Triggers ~ annual net EBITDA run-rate."
+    }
+  ],
+  "management_questions": [
+    {
+      "focus_area": "FLNG Gimi Commissioning Liquidation Penalties & COD Trigger",
+      "question": "What liquidated damages or standby rate provisions are active between Golar and BP during the remaining GTA commissioning phase?",
+      "relevance": "Contractual standby day rates insulate cash flows from project-wide subsea delays.",
+      "deduced_from": "20-year FLNG charter contract structure.",
+      "conviction_trigger": "Receipt of full commissioning day rate confirms zero financial leakage."
+    }
+  ],
+  "supplementary_data": {
+    "contracted_ebitda_backlog": ".0 Billion",
+    "flng_hilli_capacity": "2.4 MTPA",
+    "flng_gimi_capacity": "2.7 MTPA"
+  }
+}

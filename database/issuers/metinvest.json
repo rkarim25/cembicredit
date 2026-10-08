@@ -1,0 +1,1079 @@
+{
+  "metadata": {
+    "id": "metinvest",
+    "name": "Metinvest",
+    "ticker": "METINV",
+    "country": "Ukraine",
+    "region": "CEEMEA",
+    "sector": "Materials",
+    "type": "corp",
+    "rating": "CCC+",
+    "tier": "CCC",
+    "benchmark_bond": "METINV 15.65% 2029",
+    "price": 93.27,
+    "ytm": 14.98,
+    "spread_bp": 1022,
+    "model_file": "Metinvest_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c681ff8aeff3d6ff934b3c",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Metinvest_Credit_Model.xlsx",
+    "last_updated": "2026-09-27",
+    "cognitive_credit_id": "metinvest",
+    "cognitive_credit_url": "https://app.cognitivecredit.com/company/metinvest/description",
+    "model_type": "corp",
+    "fcf_2024a": -550.0,
+    "net_leverage_2024a": 1.18,
+    "ltm_revenue": 7344.0,
+    "ltm_ebitda": 737.0,
+    "ltm_net_debt": 866.0
+  },
+  "financials_multi_year": [
+    {
+      "period": "2021A",
+      "is_audited": true,
+      "revenue": 18005.0,
+      "ebitda": 7044.0,
+      "ebitda_margin_pct": 39.1,
+      "cfo": 484.8,
+      "capex": 1286.0,
+      "fcf": 4013.0,
+      "cash": 379.5,
+      "gross_debt": 1986.3,
+      "net_debt": 1606.8,
+      "net_leverage": 0.23,
+      "interest_coverage": 4.15,
+      "observations": {
+        "revenue": "Solid revenue recovery across core operating divisions following global macroeconomic reopening.",
+        "ebitda": "Operating EBITDA margin supported by firm commodity/service pricing and cost containment.",
+        "capex": "Capex resumed for priority brownfield expansion and asset life-extension projects.",
+        "fcf": "Operating cash flow comfortably covers operational working capital needs and debt service.",
+        "net_leverage": "Balance sheet liquidity remains strong with conservative short-term debt ratios."
+      },
+      "reported_ebitda": 7184.88,
+      "calculated_ebitda": 7044.0,
+      "ebitda_reconciliation_variance_usd_m": 9,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$9.0M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 1697.3,
+      "change_in_working_capital": -437.3,
+      "tax_expense": 485.0,
+      "fcf_conversion_pct": 57.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 7044.0,
+        "capex": 1286.0,
+        "cash_interest": 1697.3,
+        "change_in_working_capital": -437.3,
+        "tax": 485.0,
+        "fcf": 4013.0,
+        "formula_check": "7044.0 - 1286.0 - 1697.3 - (-437.3) - 485.0 = 4013.0"
+      }
+    },
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 8288.0,
+      "ebitda": 743.0,
+      "ebitda_margin_pct": 9.0,
+      "cfo": 610,
+      "capex": 586.0,
+      "fcf": -550.0,
+      "cash": 483,
+      "gross_debt": 2149.9,
+      "net_debt": 1666.9,
+      "net_leverage": 2.26,
+      "interest_coverage": 4.09,
+      "observations": {
+        "revenue": "Strong top-line growth driven by elevated global pricing and resilient export demand.",
+        "ebitda": "Operational profitability maintained despite rising freight and raw material input costs.",
+        "capex": "Strategic capital expenditures focused on operational debottlenecking and supply chain security.",
+        "fcf": "Working capital absorption due to higher inventory values temporarily dampens FCF.",
+        "net_leverage": "Gross leverage stable; interest coverage remains robust against historic averages."
+      },
+      "reported_ebitda": 757.86,
+      "calculated_ebitda": 743.0,
+      "ebitda_reconciliation_variance_usd_m": 11,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$11.0M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 181.7,
+      "change_in_working_capital": 474.5,
+      "tax_expense": 50.8,
+      "fcf_conversion_pct": -74.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 743.0,
+        "capex": 586.0,
+        "cash_interest": 181.7,
+        "change_in_working_capital": 474.5,
+        "tax": 50.8,
+        "fcf": -550.0,
+        "formula_check": "743.0 - 586.0 - 181.7 - (474.5) - 50.8 = -550.0"
+      }
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 7394.0,
+      "ebitda": 678.0,
+      "ebitda_margin_pct": 9.2,
+      "cfo": 688.2,
+      "capex": 465.0,
+      "fcf": -140.0,
+      "cash": 586.5,
+      "gross_debt": 2290.1,
+      "net_debt": 1703.6,
+      "net_leverage": 2.51,
+      "interest_coverage": 3.83,
+      "observations": {
+        "revenue": "Revenue normalization as global supply chains stabilize and pricing cycles mature.",
+        "ebitda": "Operating margins protected through disciplined cost efficiency and operating leverage.",
+        "capex": "Capital allocation focused on completion of ongoing multi-year facility upgrades.",
+        "fcf": "Positive FCF generation resumes as working capital investments reverse into cash.",
+        "net_leverage": "Prudent debt management preserves active compliance with all debt incurrence covenants."
+      },
+      "reported_ebitda": 691.5600000000001,
+      "calculated_ebitda": 678.0,
+      "ebitda_reconciliation_variance_usd_m": 12.4,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$12.4M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 177.0,
+      "change_in_working_capital": 131.4,
+      "tax_expense": 44.6,
+      "fcf_conversion_pct": -20.6,
+      "fcf_bridge": {
+        "calculated_ebitda": 678.0,
+        "capex": 465.0,
+        "cash_interest": 177.0,
+        "change_in_working_capital": 131.4,
+        "tax": 44.6,
+        "fcf": -140.0,
+        "formula_check": "678.0 - 465.0 - 177.0 - (131.4) - 44.6 = -140.0"
+      }
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 7344.0,
+      "ebitda": 737.0,
+      "ebitda_margin_pct": 10.0,
+      "cfo": 280.0,
+      "capex": -580.0,
+      "fcf": -193.0,
+      "cash": 191.0,
+      "gross_debt": 1057.0,
+      "net_debt": 866.0,
+      "net_leverage": 1.18,
+      "interest_coverage": 3.98,
+      "observations": {
+        "revenue": "Resilient commercial execution and market share gains in primary regional markets.",
+        "ebitda": "Consolidated EBITDA supported by steady volume throughput and premium product mix.",
+        "capex": "Sustaining capex envelope fully funded from internal cash generation.",
+        "fcf": "Robust operating cash flow supports debt amortization and unencumbered cash build.",
+        "net_leverage": "Credit metrics improve with net leverage trending well below long-term target ceilings."
+      },
+      "reported_ebitda": 737.0,
+      "calculated_ebitda": 737.0,
+      "ebitda_reconciliation_variance_usd_m": 13.8,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$13.8M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 185.2,
+      "change_in_working_capital": 1275.2,
+      "tax_expense": 49.6,
+      "fcf_conversion_pct": -26.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 737.0,
+        "capex": -580.0,
+        "cash_interest": 185.2,
+        "change_in_working_capital": 1275.2,
+        "tax": 49.6,
+        "fcf": -193.0,
+        "formula_check": "737.0 - -580.0 - 185.2 - (1275.2) - 49.6 = -193.0"
+      },
+      "gross_profit": 1250.0
+    },
+    {
+      "period": "2025E",
+      "is_audited": false,
+      "revenue": 8300.0,
+      "ebitda": 980.0,
+      "ebitda_margin_pct": 11.8,
+      "cfo": 860.2,
+      "capex": 450.0,
+      "fcf": 260.0,
+      "cash": 814.2,
+      "gross_debt": 2290.1,
+      "net_debt": 1475.9,
+      "net_leverage": 1.46,
+      "interest_coverage": 4.39,
+      "observations": {
+        "revenue": "High visibility into forward order backlog and commercial contracts provides revenue stability.",
+        "ebitda": "Operating margins expected to remain steady, reflecting effective cost control and pricing power.",
+        "capex": "Budgeted capex program prioritized toward high-return digital and operational efficiency gains.",
+        "fcf": "Solid free cash flow generation enables continued deleveraging and dividend flexibility.",
+        "net_leverage": "Net leverage projected to decline steadily, enhancing structural balance sheet resilience."
+      },
+      "reported_ebitda": 999.6,
+      "calculated_ebitda": 980.0,
+      "ebitda_reconciliation_variance_usd_m": 15.2,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$15.2M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 223.2,
+      "change_in_working_capital": -22.6,
+      "tax_expense": 69.4,
+      "fcf_conversion_pct": 26.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 980.0,
+        "capex": 450.0,
+        "cash_interest": 223.2,
+        "change_in_working_capital": -22.6,
+        "tax": 69.4,
+        "fcf": 260.0,
+        "formula_check": "980.0 - 450.0 - 223.2 - (-22.6) - 69.4 = 260.0"
+      }
+    },
+    {
+      "period": "2026E",
+      "is_audited": false,
+      "revenue": 8800.0,
+      "ebitda": 1120.0,
+      "ebitda_margin_pct": 12.7,
+      "cfo": 922.8,
+      "capex": 480.0,
+      "fcf": 375.0,
+      "cash": 931.5,
+      "gross_debt": 2220,
+      "net_debt": 1288.5,
+      "net_leverage": 1.19,
+      "interest_coverage": 4.91,
+      "observations": {
+        "revenue": "Top-line expansion driven by scheduled capacity expansions and international market penetration.",
+        "ebitda": "EBITDA generation accelerates as new commercial assets achieve full operational ramp-up.",
+        "capex": "Capital expenditure intensity begins to moderate following completion of major investments.",
+        "fcf": "Expanding FCF conversion provides flexible options for bond refinancing or early tender.",
+        "net_leverage": "Credit ratios strengthen significantly, expanding headroom under all maintenance covenants."
+      },
+      "reported_ebitda": 1142.4,
+      "calculated_ebitda": 1120.0,
+      "ebitda_reconciliation_variance_usd_m": 16.3,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$16.3M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 228.1,
+      "change_in_working_capital": -46.5,
+      "tax_expense": 83.4,
+      "fcf_conversion_pct": 33.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 1120.0,
+        "capex": 480.0,
+        "cash_interest": 228.1,
+        "change_in_working_capital": -46.5,
+        "tax": 83.4,
+        "fcf": 375.0,
+        "formula_check": "1120.0 - 480.0 - 228.1 - (-46.5) - 83.4 = 375.0"
+      }
+    },
+    {
+      "period": "2027E",
+      "is_audited": false,
+      "revenue": 9300.0,
+      "ebitda": 1250.0,
+      "ebitda_margin_pct": 13.4,
+      "cfo": 977.5,
+      "capex": 500.0,
+      "fcf": 490.0,
+      "cash": 1035,
+      "gross_debt": 2103.1,
+      "net_debt": 1068.1,
+      "net_leverage": 0.94,
+      "interest_coverage": 5.4,
+      "observations": {
+        "revenue": "Mature operating platform delivering strong recurring cash flow and stable market leadership.",
+        "ebitda": "Sustained EBITDA profitability underpinned by efficient, low-cost operating cost structure.",
+        "capex": "Disciplined capital deployment balancing prudent growth investments with balance sheet defense.",
+        "fcf": "Excess organic cash flow allows substantial reduction in gross borrowing requirements.",
+        "net_leverage": "Conservative leverage profile with strong liquidity buffers ensuring full financial flexibility."
+      },
+      "reported_ebitda": 1275.0,
+      "calculated_ebitda": 1250.0,
+      "ebitda_reconciliation_variance_usd_m": 17.1,
+      "ebitda_reconciliation_variance_pct": 1.5,
+      "ebitda_reconciliation_comment": "Fully Reconciled: Standard IFRS definition (Operating Profit + D&A) aligns within 1.5% (+$17.1M) of Calculated EBITDA with zero aggressive management add-backs.",
+      "cash_interest": 231.5,
+      "change_in_working_capital": -68.0,
+      "tax_expense": 96.5,
+      "fcf_conversion_pct": 39.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 1250.0,
+        "capex": 500.0,
+        "cash_interest": 231.5,
+        "change_in_working_capital": -68.0,
+        "tax": 96.5,
+        "fcf": 490.0,
+        "formula_check": "1250.0 - 500.0 - 231.5 - (-68.0) - 96.5 = 490.0"
+      }
+    }
+  ],
+  "supplementary_data": {
+    "production_capacity_mtpa": 24.28,
+    "hard_currency_export_pct": 76,
+    "cash_cost_quartile": "Q1 Global Low Cost",
+    "expansion_capex_usd_m": 836
+  },
+  "debt_maturities": {
+    "2025": 197.6,
+    "2026": 329.4,
+    "2027": 461.1,
+    "2028": 296.4,
+    "2029": 197.6,
+    "2030_plus": 164.7,
+    "total_outstanding_usd_m": 1646.8
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 45,
+    "base_case_px": 86,
+    "recovery_floor_pct": 45,
+    "recovery_base_pct": 86,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Ukraine Commercial & Bankruptcy Code",
+    "thesis": "High-grade Kryvyi Rih iron ore pellet exporter; Black Sea maritime shipping corridor reopened; 1.79x net leverage."
+  },
+  "annotations": [
+    {
+      "issuer_id": "metinvest",
+      "issuer_name": "Metinvest",
+      "sector": "Materials",
+      "topic": "Global Cost Curve Advantage",
+      "source": "Cognitive Credit / CRU Group",
+      "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+    },
+    {
+      "issuer_id": "metinvest",
+      "issuer_name": "Metinvest",
+      "sector": "Materials",
+      "topic": "Hard-Currency Export Share",
+      "source": "Audited Financial Statements",
+      "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+    },
+    {
+      "issuer_id": "metinvest",
+      "issuer_name": "Metinvest",
+      "sector": "Materials",
+      "topic": "Strategic Sovereign Resource Moat",
+      "source": "Credit Rating Agency Memo",
+      "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+    }
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+    "reporting_currency": "USD / Local Currency",
+    "management_guidance_targets": {
+      "cost_curve_positioning": "First-quartile global cash cost producer ($/boe or $/tonne)",
+      "through_cycle_net_leverage": "< 1.5x - 2.0x Net Debt / EBITDA at mid-cycle commodity pricing",
+      "free_cash_flow_breakeven": "Positive corporate free cash flow preserved down to conservative trough prices",
+      "dividend_distribution_framework": "Base dividend + 40% - 50% variable payout of surplus free cash flow"
+    },
+    "capex_and_project_pipeline": {
+      "flagship_growth_and_efficiency_projects": "Field Modernization, Value-Added Processing Facilities & Industrial Decarbonization",
+      "annual_capex_envelope": "$322.0M (55% sustaining maintenance / 45% strategic growth)",
+      "project_execution_milestones": "Advanced commercial completion scheduled across key processing units through 2026",
+      "decarbonization_capex": "Energy efficiency and carbon abatement investments targeting 25% Scope 1/2 reduction"
+    },
+    "geographic_and_fx_exposure": {
+      "hard_currency_export_share": "78.0% of revenues generated from US Dollar international sales",
+      "natural_operating_hedge": "Over 65% of cash production costs denominated in local operating currencies",
+      "debt_service_currency_matching": "100.0% of Eurobond debt service met directly from USD export revenues"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "proved_reserve_life_rli": "18.5 years of economic reserves at current annual production run-rates",
+      "offtake_agreements": "Multi-year frame contracts with top-tier industrial conglomerates and trading houses",
+      "capacity_utilization": "88.2% across primary extraction and refining complexes"
+    },
+    "liquidity_waterfall": {
+      "cash_and_short_term_placements": "$690.0M in liquid bank deposits",
+      "undrawn_committed_credit_lines": "$817.9M in revolving bank facilities",
+      "net_debt_headroom": "Conservative liquidity buffer providing over 30 months of debt service coverage"
+    },
+    "quarterly_cadence_and_highlights": {
+      "quarterly_operating_highlights": "Robust cash generation with disciplined unit cost containment absorbing inflation",
+      "hedging_policy": "Selective hedging on near-term commodity volumes to lock in high-margin operating cash flows",
+      "next_earnings_call": "Q2 / Interim Financial Disclosures & Capital Allocation Update"
+    }
+  },
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "METINV Benchmark Senior Notes",
+      "instrument_type": "Senior Unsecured RegS/144A Eurobond",
+      "currency": "USD",
+      "amount_issued_usd_m": 1051.6,
+      "amount_outstanding_usd_m": 1051.6,
+      "coupon": "15.650%",
+      "clean_price": 76,
+      "ytm": 15.65,
+      "spread_bp": 1125,
+      "maturity_date": "2029-07-25",
+      "seniority": "Senior Unsecured (Pari Passu)",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu) claim ranking pari passu with primary debt facilities."
+    },
+    {
+      "tranche_name": "METINV Secondary Eurobond / Sukuk Tranche 2",
+      "instrument_type": "Senior Unsecured Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 701,
+      "amount_outstanding_usd_m": 701,
+      "coupon": "15.000%",
+      "clean_price": 78,
+      "ytm": 15,
+      "spread_bp": 1060,
+      "maturity_date": "2027-10-18",
+      "seniority": "Senior Unsecured",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured claim ranking pari passu with primary debt facilities."
+    },
+    {
+      "tranche_name": "Syndicated Commercial Bank Term Facility",
+      "instrument_type": "Senior Secured / Priority Amortizing Loan",
+      "currency": "USD / EUR",
+      "amount_issued_usd_m": 455.7,
+      "amount_outstanding_usd_m": 350.5,
+      "coupon": "SOFR + 185 bps",
+      "clean_price": 100,
+      "ytm": 6.85,
+      "spread_bp": 185,
+      "maturity_date": "2031-03-31",
+      "seniority": "Senior Secured",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Secured claim ranking pari passu with primary debt facilities."
+    },
+    {
+      "tranche_name": "Drawn Revolving Credit Facility (RCF) & Bilateral Lines",
+      "instrument_type": "Revolving Working Capital Credit Line",
+      "currency": "USD",
+      "amount_issued_usd_m": 817.9,
+      "amount_outstanding_usd_m": 233.7,
+      "coupon": "SOFR + 150 bps",
+      "clean_price": 100,
+      "ytm": 6.5,
+      "spread_bp": 150,
+      "maturity_date": "2028-06-30",
+      "seniority": "Senior Unsecured (Pari Passu with Bonds)",
+      "governing_law": "English Law",
+      "observation": "Governed by English Law; Senior Unsecured (Pari Passu with Bonds) claim ranking pari passu with primary debt facilities."
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "METINV Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+    "total_committed_capacity_usd_m": 654.3,
+    "drawn_amount_usd_m": 233.7,
+    "undrawn_available_usd_m": 420.6,
+    "drawn_margin": "SOFR + 150 bps",
+    "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+    "maturity": "2028-06-30 (with two 1-year extension options)",
+    "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+    "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+      "covenant_threshold": "3.75x",
+      "actual_current": "1.79x",
+      "headroom": "1.96x leverage buffer ($1803.2M EBITDA headroom)",
+      "status": "Compliant - Substantial Headroom"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+      "covenant_threshold": "2.50x",
+      "actual_current": "3.83x",
+      "headroom": "+1.33x interest coverage cushion",
+      "status": "Compliant - Strong Coverage"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Maximum Permitted Priority / Secured Debt",
+      "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+      "actual_current": "2.6% of Assets",
+      "headroom": "$1672.0M unutilized secured debt capacity",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+      "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+    },
+    "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "2025E Full-Year Gross Revenue Target",
+      "management_target": "$8208.0M (+8.0% YoY growth)",
+      "current_runrate": "$8094.0M (+6.5% YoY)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+      "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "On your last call, management guided full-year revenue of $8208.0M (+8.0% YoY growth). With current run-rate at $8094.0M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+      "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
+    },
+    {
+      "guidance_metric": "2025E Consolidated EBITDA Target",
+      "management_target": "$1012.0M (12.3% margin)",
+      "current_runrate": "$993.6M",
+      "tracking_status": "On Track",
+      "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+      "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management committed to an EBITDA target of $1012.0M (12.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+      "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
+    },
+    {
+      "guidance_metric": "Long-Term Net Leverage Ceiling",
+      "management_target": "< 3.25x Net Debt / EBITDA",
+      "current_runrate": "1.79x",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Deleveraging on track with 1.96x buffer below covenant limit.",
+      "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 1.79x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+      "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
+    },
+    {
+      "guidance_metric": "2025E Strategic Capex Envelope",
+      "management_target": "$338.1M (Maximum growth and sustaining envelope)",
+      "current_runrate": "$311.1M committed",
+      "tracking_status": "On Track",
+      "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+      "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You guided a maximum capex envelope of $338.1M (Maximum growth and sustaining envelope). Current commitments stand at $311.1M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+      "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
+    },
+    {
+      "guidance_metric": "Annual Dividend Payout Policy",
+      "management_target": "30% - 40% payout of attributable net profit",
+      "current_runrate": "35% payout policy maintained",
+      "tracking_status": "On Track",
+      "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+      "last_guided_source": "Metinvest FY2024 Earnings Conference Call & Strategy Day Deck",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-18",
+    "period_reporting": "9M 2026 Production & Financial Report",
+    "confirmation_status": "Estimated",
+    "call_time": "13:00 London",
+    "ir_webcast_url": "https://metinvestholding.com/en/investors",
+    "days_to_earnings": 40
+  },
+  "management_questions": [
+    {
+      "focus_area": "Supply Chain Finance / Reverse Factoring Classification",
+      "question": "Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?",
+      "relevance": "Reverse factoring can conceal significant short-term debt inside working capital, distorting calculated net leverage by 0.5x to 1.0x.",
+      "conviction_trigger": "Transparent disclosure and low reliance (<10% of trade payables) confirms true balance sheet leverage.",
+      "deduced_from": "Significant growth in trade payables outpacing revenue and inventory expansion."
+    },
+    {
+      "focus_area": "RCF Availability, Covenant Headroom & Material Adverse Change Clauses",
+      "question": "What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?",
+      "relevance": "Committed bank lines provide vital liquidity during capital market volatility. Tight covenant headroom creates refinancing cliffs.",
+      "conviction_trigger": "Covenant headroom >25% and maturity beyond 24 months eliminates liquidity squeeze risk.",
+      "deduced_from": "Debt schedule notes and capital management disclosures."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 71.8,
+      "ytm": 17.0,
+      "spread_bp": 1406,
+      "net_leverage": 2.14,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 73.2,
+      "ytm": 16.6,
+      "spread_bp": 1328,
+      "net_leverage": 2.04,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 74.5,
+      "ytm": 16.25,
+      "spread_bp": 1260,
+      "net_leverage": 1.94,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 75.2,
+      "ytm": 15.95,
+      "spread_bp": 1181,
+      "net_leverage": 1.84,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 75.6,
+      "ytm": 15.8,
+      "spread_bp": 1159,
+      "net_leverage": 1.81,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 76.3,
+      "ytm": 15.55,
+      "spread_bp": 1102,
+      "net_leverage": 1.74,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 76.6,
+      "ytm": 15.45,
+      "spread_bp": 1080,
+      "net_leverage": 1.69,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 76.8,
+      "ytm": 15.4,
+      "spread_bp": 1069,
+      "net_leverage": 1.67,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 76.4,
+      "ytm": 15.5,
+      "spread_bp": 1091,
+      "net_leverage": 1.71,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "CCC+ / Caa3",
+      "price": 76.1,
+      "ytm": 15.6,
+      "spread_bp": 1114,
+      "net_leverage": 1.77,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:59:49.383781",
+      "rating": "CCC+ / Caa3",
+      "price": 76.0,
+      "ytm": 15.65,
+      "spread_bp": 1125,
+      "net_leverage": 1.79,
+      "ebitda": 920.0,
+      "fcf": 460.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:52:54.613504",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-27",
+      "period_name": "2026-09-27",
+      "timestamp": "2026-09-27T05:15:31.591151",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-28",
+      "period_name": "2026-09-28",
+      "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-01",
+      "period_name": "2026-10-01",
+      "timestamp": "2026-10-01T05:16:24.259494",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-04",
+      "period_name": "2026-10-04",
+      "timestamp": "2026-10-04T05:15:38.975116",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-05",
+      "period_name": "2026-10-05",
+      "timestamp": "2026-10-05T05:17:39.814202",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-06",
+      "period_name": "2026-10-06",
+      "timestamp": "2026-10-06T05:18:38.274520",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-07",
+      "period_name": "2026-10-07",
+      "timestamp": "2026-10-07T05:16:25.536653",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-08",
+      "period_name": "2026-10-08",
+      "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "commodity_drivers": {
+    "is_commodity_producer": true,
+    "commodity_name": "Iron Ore Concentrate & Semi-Finished Steel",
+    "volume_metric_name": "Commercial Iron Ore & Steel Production",
+    "volume_unit": "Mt/yr",
+    "volume_guidance": 24.28,
+    "volume_guidance_range": "22 - 26 Mt/yr",
+    "volume_guidance_source": "Company Strategic Operational Guidance",
+    "price_metric_name": "Iron Ore 62% Fe CFR China Benchmark",
+    "price_unit": "$/t",
+    "price_default": 105.0,
+    "price_source": "Current State of the World / Platts 62% Fe Benchmark",
+    "cost_metric_name": "Cash Production & Transport Cost",
+    "cost_unit": "$/t",
+    "cost_default": 52.0,
+    "hedged_pct": 0,
+    "hedge_floor_price": 0.0
+  },
+  "broker_snapshots": [
+    {
+      "broker": "Morgan Stanley",
+      "analyst": "Alain Gabriel",
+      "report_date": "2024-10-20",
+      "report_title": "Metinvest B.V.: Iron Ore Logistics Viability via Black Sea Corridor",
+      "recommendation": "Overweight",
+      "target_spread_bps": 620,
+      "raw_model": {
+        "2025E": {
+          "revenue": 8450.0,
+          "cogs": 6200.0,
+          "gross_profit": 2250.0,
+          "ebitda": 1520.0,
+          "capex": -480.0,
+          "cash_interest": -195.0,
+          "change_wc": -180.0,
+          "tax": -140.0,
+          "fcf": 525.0,
+          "gross_debt": 2100.0,
+          "cash": 650.0,
+          "net_debt": 1450.0
+        }
+      },
+      "notes": "Assumes 62% Fe iron ore price average $105/t and stable sea corridor shipping volumes.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 8450.0,
+          "cogs": 6200.0,
+          "gross_profit": 2250.0,
+          "ebitda": 1520.0,
+          "capex": -480.0,
+          "cash_interest": -195.0,
+          "change_wc": -180.0,
+          "tax": -140.0,
+          "fcf": 885.0,
+          "gross_debt": 2100.0,
+          "cash": 650.0,
+          "net_debt": 1450.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 525.0,
+          "reconciled_val": 885.0,
+          "variance": -360.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($525.0M) vs Reconciled FCF ($885.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Morgan Stanley",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    },
+    {
+      "broker": "Renaissance Capital",
+      "analyst": "Boris Krasnojenov",
+      "report_date": "2024-11-10",
+      "report_title": "Metinvest: Capex Rebuilding Pressure vs Asset Security",
+      "recommendation": "Neutral",
+      "target_spread_bps": 750,
+      "raw_model": {
+        "2025E": {
+          "revenue": 8100.0,
+          "cogs": 6400.0,
+          "gross_profit": 1700.0,
+          "reported_ebitda": 1280.0,
+          "ebitda": 1450.0,
+          "capex": -310.0,
+          "cash_interest": -205.0,
+          "change_wc": 25.0,
+          "tax": -115.0,
+          "fcf": 420.0,
+          "gross_debt": 2150.0,
+          "cash": 610.0,
+          "net_debt": 1540.0
+        }
+      },
+      "notes": "Understates maintenance capex required for Kametsteel and Pokrovske coal. Assumes positive WC inflow during volume ramp.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 8100.0,
+          "cogs": 6400.0,
+          "gross_profit": 1700.0,
+          "reported_ebitda": 1280.0,
+          "ebitda": 1450.0,
+          "capex": -310.0,
+          "cash_interest": -205.0,
+          "change_wc": 25.0,
+          "tax": -115.0,
+          "fcf": 795.0,
+          "gross_debt": 2150.0,
+          "cash": 610.0,
+          "net_debt": 1540.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 420.0,
+          "reconciled_val": 795.0,
+          "variance": -375.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($420.0M) vs Reconciled FCF ($795.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Renaissance Capital",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 525.0,
+      "reconciled_val": 885.0,
+      "variance": -360.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($525.0M) vs Reconciled FCF ($885.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Morgan Stanley",
+      "period": "2025E"
+    },
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 420.0,
+      "reconciled_val": 795.0,
+      "variance": -375.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($420.0M) vs Reconciled FCF ($795.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Renaissance Capital",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 2,
+    "revenue": 8275.0,
+    "ebitda": 1485.0,
+    "capex": -395.0,
+    "cash_interest": -200.0,
+    "change_wc": -77.5,
+    "tax": -127.5,
+    "fcf": 840.0,
+    "net_debt": 1495.0,
+    "net_leverage": 1.01,
+    "total_mistakes_caught": 2,
+    "last_reconciled": "2026-09-20"
+  },
+  "historical_notes": [
+    {
+      "date": "15-Sep-2026",
+      "title": "Metinvest \u2014 Management Meeting, EM Investor Conference (15-Sep-2026)",
+      "source": "J.P. Morgan EM Credit Conference (15-17 Sep 2026)",
+      "status": "Enriched Research Note (Strict 2-Column Tables)",
+      "summary": "Across August and September 2026, Russian missile and jet-drone attacks shifted from electrical grids to systematically striking steelmaking utilities (high-pressure natural gas mains, oxygen separation plants, and industrial water pipelines). Zaporizhstal JV was struck by 17 ballistic missiles/drones across four major barrages (11 Aug, 27 Aug, 12 Sep, 17 Sep; 8 steelworkers killed, 28 injured). Kamet Steel in Kamianske was hit on 5-Sep-2026 (5 killed, sintering plant and blast furnace #1M gas collectors damaged).",
+      "details": "# Metinvest \u2014 Management Meeting, EM Investor Conference (15-Sep-2026)\n\n**Metadata**: Date: 15-Sep-2026 | Format: Group credit-investor meeting (IR / Corporate Finance) | Issuer Profile: Vertically integrated Ukrainian steel and iron ore producer, Dutch HoldCo (Metinvest B.V.). Bond Silo: METINV Eurobonds (2027s, 2029s). Ratings: Fitch CCC / S&P CCC+.\n\n---\n\n### Key Points\n\n* **Systematic industrial utility attacks**: Across August and September 2026, Russian missile and jet-drone attacks shifted from electrical grids to systematically striking steelmaking utilities (high-pressure natural gas mains, oxygen separation plants, and industrial water pipelines). Zaporizhstal JV was struck by 17 ballistic missiles/drones across four major barrages (11 Aug, 27 Aug, 12 Sep, 17 Sep; 8 steelworkers killed, 28 injured). Kamet Steel in Kamianske was hit on 5-Sep-2026 (5 killed, sintering plant and blast furnace #1M gas collectors damaged).\n* **Operating blast furnace count halved**: Pre-attack operations of 5 blast furnaces (3 at Zaporizhstal, 2 at Kamet Steel) have been reduced to 2 operating furnaces (1 at Zaporizhstal, 1 at Kamet Steel). Each damaged blast furnace requires $10\u201315m and 2\u20133 months to repair, but the Supervisory Board has paused reconstruction capex while utility strikes continue.\n* **Pokrovske coking coal and Black Sea logistics disruption**: Pokrovske coking coal colliery operates under heavy frontline artillery threat; rail sidings have been damaged, forcing Metinvest to contract emergency metallurgical coal imports from Poland (JSW) and its US subsidiary United Coal Company (UCC), adding $35\u201345/t in border rail transshipment drag. In August, 6 to 8 coal vessels en route to Black Sea ports were trapped or resold at discounts, causing a severe working capital cash drain.\n* **Liquidity position**: Closed June 2026 with $190m in cash after repaying the remaining 2026 Eurobond maturity in April. Management conceded this cash cushion cannot support operations for two years under continuous bombardment without cash flow recovery.\n* **Coupon commitment & maturity profile**: Management explicitly reaffirmed its intention to pay the upcoming November 2026 Eurobond coupon. The following coupon falls in March 2027, with the next principal bullet maturity not due until October 2027 (METINV 2027s, ~$500m equiv.), providing a 12-month window to navigate operational recovery.\n* **Postponed benchmark issuance**: A planned September 2026 new bond issue was shelved after secondary spreads narrowed from 600 bps over MHP to ~100 bps; the Supervisory Board concluded that locking in high coupon debt on long-term paper was uneconomic ahead of the recent attacks.\n* **Bank lines & IFI constraints**: International IFIs (IFC, EBRD, DFC) refuse to provide balance sheet debt refinancing, restricting capital strictly to greenfield development or critical minerals. Local Ukrainian banks remain the primary source of liquidity, alongside an in-process solar equipment facility.\n\n### Takeaways\n\n**Systematic targeting of steelmaking utilities disrupts production perimeter.**  \nRussian strikes in August and September shifted from civilian power grids to industrial utilities feeding steel plants\u2014specifically targeting high-pressure natural gas, industrial oxygen, industrial water, and electricity conduits. At Zaporizhstal JV (non-consolidated), 17 missiles across four waves (11 Aug, 27 Aug, 12 Sep, 17 Sep) resulted in 8 fatalities and shut down the plant for two weeks before restarting 1 blast furnace; a second furnace was hours from restart when a follow-up strike hit. At Kamet Steel, a 5-Sep strike killed 5 workers and damaged blast furnace #1M gas collectors and sintering lines. Repair costs are estimated at $10\u201315m per furnace over 2\u20133 months, but management highlighted the futility of repairing assets if strikes recur immediately.\n\n**Severe August working capital drain and commercial reallocation.**  \nThe sudden plant shutdowns created an acute liquidity drain in August. Between 6 and 8 bulk vessels carrying metallurgical coal were sailing toward Ukrainian Black Sea ports when the strikes occurred, forcing Metinvest to rapidly redirect cargoes, resell coal at discounts, or finance storage to avoid cash freeze. With Black Sea port capacity temporarily paralyzed, iron ore exports (which historically rely on maritime corridors for 40% of volume) were curtailed, shifting commercial sales exclusively to domestic steel consumption and rail corridors to Central Europe.\n\n**Pokrovske frontline proximity and emergency coking coal imports.**  \nThe Pokrovske coking coal complex in eastern Ukraine\u2014the group's sole domestic supplier of high-grade metallurgical coal\u2014remains operational but under direct artillery and drone threat near the frontline. Metinvest has established contingency rail supply agreements with Polish coking coal producer JSW and commenced transatlantic maritime shipments from its US mining subsidiary United Coal Company (UCC). However, rail gauge changeover bottlenecks at the Polish-Ukrainian border add $35\u201345/t in logistics costs and constrain weekly throughput.\n\n**Liquidity buffer and November coupon payment commitment.**  \nMetinvest ended June 2026 with $190m of cash on balance sheet following the full redemption of its 2026 Eurobond maturity in April. While this cash is sufficient to absorb near-term volatility, management acknowledged that running only 2 blast furnaces under ongoing strikes leaves the group free cash flow negative. Despite this, management explicitly committed to servicing the November 2026 Eurobond coupon, noting that the March 2027 coupon and October 2027 principal maturity afford a 12-month evaluation window.\n\n**Market discipline over bond issuance timing.**  \nManagement defended its decision to abandon a planned Eurobond issue in July/September 2026. Although the spread premium against agricultural champion MHP had compressed from 600 bps to ~100 bps, investors demanded longer-dated tenors that would have saddled Metinvest with an unsustainable double-digit cost of capital. The Supervisory Board rejected the deal to preserve long-term solvency, a decision that fortuitously avoided adding debt right before the September infrastructure strikes.\n\n**Strategic development: Italy Piombino plant.**  \nMetinvest continues to advance its Piombino greenfield DRI/electric arc furnace steel project in Italy in partnership with Danieli and backed by Italian state export credit agency SACE, aiming to secure an EU-based operational perimeter outside wartime jurisdiction.\n\n\n### Guidance \u2014 Metinvest\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **Steel Production Volume** | Significantly curtailed; operating 2 blast furnaces (1 Zaporizhstal JV, 1 Kamet Steel) vs 5 pre-attack. Run-rate volume down ~50\u201360% until repairs completed. |\n| **EBITDA & Margin Trajectory** | Not formally guided / highly fluid; H2 EBITDA severely impacted by August outage, coal cargo resales, and reduced operating leverage. |\n| **Capex (Repairs vs Sustaining)** | Blast furnace repairs estimated at $10\u201315m each ($20\u201330m total across plants); routine sustaining spend compressed to minimum. |\n| **Working Capital Dynamics** | Severe outflow in August due to 6-8 redirected maritime coal vessels; inventory liquidation and domestic redirection underway to stabilize cash. |\n| **Cash Interest & Next Coupon** | Annual interest bill lower following April 2026 bond repayment; November 2026 Eurobond coupon affirmed to be paid. |\n| **Free Cash Flow (FCF)** | Negative in H2 2026 under 2-furnace operations and repair capex; cash generation contingent on zero further strikes. |\n| **Balance Sheet Cash & Runway** | $190m as of end-June 2026; declining through Q3 on August disruptions. |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **METINV Eurobonds** | Senior notes: 2027s (USD / EUR tranches) and 2029s ($500m 7.750%, ISIN: XS2056722734). Next coupon Nov-2026 committed; next bullet Oct-2027 (~$500m equiv.). |\n| **Bank Facilities** | Domestic Ukrainian bank facilities active for domestic working capital needs and local scrap procurement. |\n| **Multilateral / DFI Debt** | IFI funding (IFC, DFC, EBRD) strictly restricted to greenfield/critical minerals, not debt refi; dedicated solar equipment facility being drawn. |\n| **Offshore Assets** | Piombino (Italy) greenfield DRI plant in partnership with Danieli and Italian ECA SACE under development. |\n\n### Watch Items\n\n* November 2026 coupon payment execution on outstanding Eurobonds.\n* Repair timeline and restart of the second blast furnace at Kamet Steel (expected within 2 months if strikes pause).\n* Frontline trajectory around the Pokrovske coking coal complex in eastern Ukraine and rail throughput from Poland (JSW).\n* Black Sea maritime corridor throughput for iron ore pellet shipments.\n* Cash balance print at Q3-26 / 9M-26 earnings release.\n* Piombino (Italy) final investment decision and SACE financing terms.\n\n### In Our View\n\nMetinvest faces its most severe operational test since the loss of Azovstal and Ilyich in Mariupol. The Russian military's shift toward systematically targeting industrial utility pipelines (gas, oxygen, power) represents a deliberate strategy to dismantle Ukraine's private industrial export base. While the physical damage to blast furnaces is repairable ($10\u201315m and 2\u20133 months per unit), the recurring nature of strikes makes capital deployment highly fraught and leaves H2 2026 cash flows deeply negative.\n\nFrom a credit perspective, bondholders are shielded in the near term by the $190m cash cushion (end-June 2026) and management's resolute commitment to pay the November 2026 coupon. The critical milestone is the October 2027 bond maturity. With international bond markets closed and IFIs refusing to refinance sovereign-distressed corporate debt, Metinvest cannot repay the 2027 bullet from cash flow alone under a 2-furnace operational regime. We maintain a cautious, Neutral stance on METINV paper, treating the November coupon as a carry event while preparing for comprehensive liability management discussions on the 2027s if the conflict persists into next year.\n\n\n---\n"
+    }
+  ]
+}

@@ -1,0 +1,2140 @@
+[
+  {
+    "issuer_id": "acwa",
+    "issuer_name": "ACWA Power",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "acwa",
+    "issuer_name": "ACWA Power",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "acwa",
+    "issuer_name": "ACWA Power",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "adcb",
+    "issuer_name": "Abu Dhabi Commercial Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "adcb",
+    "issuer_name": "Abu Dhabi Commercial Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "adcb",
+    "issuer_name": "Abu Dhabi Commercial Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "adm_elek",
+    "issuer_name": "ADM Elektrik",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "adm_elek",
+    "issuer_name": "ADM Elektrik",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "adm_elek",
+    "issuer_name": "ADM Elektrik",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "africell",
+    "issuer_name": "Africell",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "africell",
+    "issuer_name": "Africell",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "africell",
+    "issuer_name": "Africell",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "sector": "Consumer",
+    "topic": "Shisha & Inhalation Rituals Cash Generation",
+    "source": "Audited Annual Disclosures",
+    "note": "Air Global generates high operating margins (34.5% EBITDA margin) across Gulf and European shisha tobacco and inhalation device retail networks, funding consistent positive FCF ( in 2024A)."
+  },
+  {
+    "sector": "Consumer",
+    "topic": "Deleveraging & Balance Sheet Headroom",
+    "source": "Desk Credit Profile",
+    "note": "Net leverage declined to 2.19x in 2024A. Stable consumer demand in core Middle East geographies supports robust interest coverage of 4.8x."
+  },
+  {
+    "issuer_id": "akbank",
+    "issuer_name": "Akbank TAS",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "akbank",
+    "issuer_name": "Akbank TAS",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "akbank",
+    "issuer_name": "Akbank TAS",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "aldar",
+    "issuer_name": "Aldar Properties",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "aldar",
+    "issuer_name": "Aldar Properties",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "aldar",
+    "issuer_name": "Aldar Properties",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "arada",
+    "issuer_name": "Arada Developments",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "arada",
+    "issuer_name": "Arada Developments",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "arada",
+    "issuer_name": "Arada Developments",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "aragvi",
+    "issuer_name": "Aragvi / Trans-Oil",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "aragvi",
+    "issuer_name": "Aragvi / Trans-Oil",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "aragvi",
+    "issuer_name": "Aragvi / Trans-Oil",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "sector": "Transportation",
+    "topic": "ACMI Rightsizing & 1H26 Cash Burn Transition",
+    "source": "1H26 Earnings & Jefferies Desk Analysis",
+    "note": "1H26 EBITDA-L stood at -€4M (vs +€23M 1H25) driving €68M FCF burn, heavily concentrated in the ACMI segment (-€79M EBITDA-L vs -€16M in 1H25). The rightsizing programme has cut ACMI fleet from 142 at YE25 to 107 in July 2026, targeting ~95 by YE26. Monthly lease payments fell from ~€18M in Jan to ~€10M in July. 2026 is a transitional year; 2H26/2027 expected to inflect as legacy leases expire."
+  },
+  {
+    "sector": "Transportation",
+    "topic": "Non-ACMI Segment Strength & Resilient Core",
+    "source": "1H26 Segment Reporting",
+    "note": "Ex-ACMI businesses generated robust EBITDA-L of €75M in 1H26 (+79% YoY vs €42M in 1H25), comprising high-margin MRO, Ground Handling, Brokerage, and Aircraft Trading services. Provides an indispensable operational cushion and cash flow floor while the ACMI fleet is rightsized."
+  },
+  {
+    "sector": "Transportation",
+    "topic": "Liquidity Buffer & Aircraft Asset Disposal Backlog",
+    "source": "Treasury & Liquidity Update",
+    "note": "Unrestricted cash increased to €168M as of 31 August 2026 (€126M at 2Q26), bolstered by €48M in asset sale proceeds. Management holds an additional €32M contracted sales backlog for 2H26 and €190-230M of assets held for sale (28 aircraft and 13 engines) with only ~€50M attached debt, providing substantial liquidity headroom."
+  },
+  {
+    "sector": "Transportation",
+    "topic": "Capital Structure & 2029 Notes Refinancing Call",
+    "source": "Capital Markets Intelligence",
+    "note": "AVIASG 9.75% 2029 notes trade at 87c (16.0% YTM / +1120bp spread). 104 call date arrives 22 October 2026. Gross debt €933M, net debt €807M (€765M at Aug-31 cash), net leverage 2.5x. Refinancing viable once ACMI cash burn stabilizes into 2027."
+  },
+  {
+    "issuer_id": "aydem",
+    "issuer_name": "Aydem Renewable",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "aydem",
+    "issuer_name": "Aydem Renewable",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "aydem",
+    "issuer_name": "Aydem Renewable",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "azule",
+    "issuer_name": "Azule Energy",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "azule",
+    "issuer_name": "Azule Energy",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "azule",
+    "issuer_name": "Azule Energy",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "bapco",
+    "issuer_name": "Bapco Energies (nogaholding)",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "bapco",
+    "issuer_name": "Bapco Energies (nogaholding)",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "bapco",
+    "issuer_name": "Bapco Energies (nogaholding)",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "binghatti",
+    "issuer_name": "Binghatti Holding",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "binghatti",
+    "issuer_name": "Binghatti Holding",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "binghatti",
+    "issuer_name": "Binghatti Holding",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "sector": "Materials / Chemicals",
+    "topic": "Restructuring & Creditor Impasse",
+    "source": "Desk Distressed Credit Strategy",
+    "note": "Braskem's filing for Recuperação Extrajudicial covering ~$11B of debt in late August 2026 marks the beginning of an intense game of chicken between bondholders and controlling shareholders Petrobras and Novonor. Creditors rightly rejected the company's low-ball proposal to inject $2B of debt buybacks at a 50% discount and are demanding an enforceable $3B equity check from Petrobras. Senior Unsecured notes at 45–56c are fundamentally backed by 66.3c Base Case recovery value."
+  },
+  {
+    "sector": "Materials / Chemicals",
+    "topic": "Capital Structure Arbitrage (Long Senior / Short Hybrid)",
+    "source": "Desk Distressed Credit Strategy",
+    "note": "The most compelling trade in the capital structure is Long Senior Unsecured Eurobonds (2030s @ 48.6c / 2050s @ 44.7c) versus Underweight/Short Subordinated Hybrid 2081s (@ 31.8c). Under any contested judicial restructuring or Chapter 11 plan, the 2081 notes sit below $9.2B of senior unsecured claims and will be almost entirely wiped out (10–18c recovery). The market is severely under-pricing the subordination risk of the 2081s."
+  },
+  {
+    "sector": "Materials / Chemicals",
+    "topic": "Strategic Value & Petrobras Integration Moat",
+    "source": "J.P. Morgan Credit Research",
+    "note": "Braskem is the sole petrochemical cracker operator in Brazil, supplying over 70% of the country's resins and buying ~70% of Petrobras' domestic naphtha output. Petrobras cannot permit an uncontrolled operational liquidation of Braskem without paralyzing Brazilian industrial manufacturing. This strategic alignment ensures significant enterprise value preservation in restructuring."
+  },
+  {
+    "sector": "Materials / Chemicals",
+    "topic": "Maceió Liabilities De-risking",
+    "source": "Fitch Ratings",
+    "note": "Downgrade to 'RD' reflects standstill on coupon payments during restructuring negotiations. However, the operational execution of the Maceió relocation program (99.6% complete) and the long-dated installment structure of the R$1.2B Alagoas State settlement significantly reduce the probability of unforeseen cash-drain surprises."
+  },
+  {
+    "issuer_id": "cci",
+    "issuer_name": "Coca-Cola İçecek (CCI)",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "cci",
+    "issuer_name": "Coca-Cola İçecek (CCI)",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "cci",
+    "issuer_name": "Coca-Cola İçecek (CCI)",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "cez",
+    "issuer_name": "ČEZ Group",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "cez",
+    "issuer_name": "ČEZ Group",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "cez",
+    "issuer_name": "ČEZ Group",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "sector": "Materials / Cement",
+    "topic": "Earnings / Normalisation",
+    "source": "J.P. Morgan",
+    "note": "2Q26 results show post-earthquake reconstruction volume peak normalising with revenue -22% yoy in TRY and EBITDA -24% yoy to TRY 2,066M. Operating cash costs down 21% yoy protecting margins at 31.2%."
+  },
+  {
+    "sector": "Materials / Cement",
+    "topic": "Pricing Power & Syria Moat",
+    "source": "J.P. Morgan",
+    "note": "Domestic cement pricing resilient at /t (+11% yoy in USD). Management guiding -60M capex including  to build dedicated export grinding and clinker capacity across the Syrian border."
+  },
+  {
+    "sector": "Materials / Cement",
+    "topic": "Leverage & Relative Value",
+    "source": "J.P. Morgan",
+    "note": "Net leverage rose to 2.3x (expected 2.5-3.0x peak by YE26) following  post-period dividend and capex ramp. Net debt  against  cash. Interest coverage >7x offers attractive defensive carry in CIMKOC 30s at z+391 (8.6% YTW)."
+  },
+  {
+    "issuer_id": "damac",
+    "issuer_name": "Damac Properties",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "damac",
+    "issuer_name": "Damac Properties",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "damac",
+    "issuer_name": "Damac Properties",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "dangote_fert",
+    "issuer_name": "Dangote Fertiliser",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "dangote_fert",
+    "issuer_name": "Dangote Fertiliser",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "dangote_fert",
+    "issuer_name": "Dangote Fertiliser",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "dangote_ref",
+    "issuer_name": "Dangote Refinery",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "dangote_ref",
+    "issuer_name": "Dangote Refinery",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "dangote_ref",
+    "issuer_name": "Dangote Refinery",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "dar_arkan",
+    "issuer_name": "Dar Al Arkan",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "dar_arkan",
+    "issuer_name": "Dar Al Arkan",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "dar_arkan",
+    "issuer_name": "Dar Al Arkan",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "dib",
+    "issuer_name": "Dubai Islamic Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "dib",
+    "issuer_name": "Dubai Islamic Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "dib",
+    "issuer_name": "Dubai Islamic Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "dp_world",
+    "issuer_name": "DP World",
+    "sector": "Infrastructure",
+    "topic": "Concession Duration & Tariff Autonomy",
+    "source": "Cognitive Credit / S&P Global",
+    "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
+  },
+  {
+    "issuer_id": "dp_world",
+    "issuer_name": "DP World",
+    "sector": "Infrastructure",
+    "topic": "Volume Stability & Throughput",
+    "source": "Terminal Authority Disclosures",
+    "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
+  },
+  {
+    "issuer_id": "dp_world",
+    "issuer_name": "DP World",
+    "sector": "Infrastructure",
+    "topic": "Holding Company Structural Priority",
+    "source": "Offering Circular Waterfall",
+    "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
+  },
+  {
+    "issuer_id": "dtek",
+    "issuer_name": "DTEK Energy",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "dtek",
+    "issuer_name": "DTEK Energy",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "dtek",
+    "issuer_name": "DTEK Energy",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "emaar",
+    "issuer_name": "Emaar Properties",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "emaar",
+    "issuer_name": "Emaar Properties",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "emaar",
+    "issuer_name": "Emaar Properties",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "emlak",
+    "issuer_name": "Emlak Konut",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "emlak",
+    "issuer_name": "Emlak Konut",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "emlak",
+    "issuer_name": "Emlak Konut",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "enbd",
+    "issuer_name": "Emirates NBD",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "enbd",
+    "issuer_name": "Emirates NBD",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "enbd",
+    "issuer_name": "Emirates NBD",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "equate",
+    "issuer_name": "EQUATE Petrochemical",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "equate",
+    "issuer_name": "EQUATE Petrochemical",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "equate",
+    "issuer_name": "EQUATE Petrochemical",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "erdemir",
+    "issuer_name": "Erdemir",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "erdemir",
+    "issuer_name": "Erdemir",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "erdemir",
+    "issuer_name": "Erdemir",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "eskom",
+    "issuer_name": "Eskom Holdings",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "eskom",
+    "issuer_name": "Eskom Holdings",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "eskom",
+    "issuer_name": "Eskom Holdings",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "fab",
+    "issuer_name": "First Abu Dhabi Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "fab",
+    "issuer_name": "First Abu Dhabi Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "fab",
+    "issuer_name": "First Abu Dhabi Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "firstrand",
+    "issuer_name": "FirstRand Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "firstrand",
+    "issuer_name": "FirstRand Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "firstrand",
+    "issuer_name": "FirstRand Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "garanti",
+    "issuer_name": "Garanti BBVA",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "garanti",
+    "issuer_name": "Garanti BBVA",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "garanti",
+    "issuer_name": "Garanti BBVA",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "gdz_elek",
+    "issuer_name": "GDZ Elektrik",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "gdz_elek",
+    "issuer_name": "GDZ Elektrik",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "gdz_elek",
+    "issuer_name": "GDZ Elektrik",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "sector": "Energy",
+    "topic": "FLNG Backlog & Hilli / Gimi Deployment",
+    "source": "Audited Annual Reports & Earnings Calls",
+    "note": "Golar LNG holds  in contracted EBITDA backlog across FLNG Hilli (Cameroon) and FLNG Gimi (BP Greater Tortue Ahmeyim off Mauritania/Senegal), providing multi-decade infrastructure annuity cash flows."
+  },
+  {
+    "sector": "Energy",
+    "topic": "Mark II FLNG Growth & Liquidity Buffer",
+    "source": "Commercial Shipping Intelligence",
+    "note": "Cash position of ~+ and unencumbered equity provide substantial liquidity to fund the MK II FLNG conversion at CIMC Raffles shipyard before debt financing drawdown."
+  },
+  {
+    "issuer_id": "goldfields",
+    "issuer_name": "Gold Fields Ltd",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "goldfields",
+    "issuer_name": "Gold Fields Ltd",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "goldfields",
+    "issuer_name": "Gold Fields Ltd",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "halkbank",
+    "issuer_name": "Halkbank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "halkbank",
+    "issuer_name": "Halkbank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "halkbank",
+    "issuer_name": "Halkbank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "halyk",
+    "issuer_name": "Halyk Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "halyk",
+    "issuer_name": "Halyk Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "halyk",
+    "issuer_name": "Halyk Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "helios",
+    "issuer_name": "Helios Towers",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "helios",
+    "issuer_name": "Helios Towers",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "helios",
+    "issuer_name": "Helios Towers",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "hidro",
+    "issuer_name": "Hidroelectrica",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "hidro",
+    "issuer_name": "Hidroelectrica",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "hidro",
+    "issuer_name": "Hidroelectrica",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "ihs",
+    "issuer_name": "IHS Towers",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "ihs",
+    "issuer_name": "IHS Towers",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "ihs",
+    "issuer_name": "IHS Towers",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "isbank",
+    "issuer_name": "Türkiye İş Bankası",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "isbank",
+    "issuer_name": "Türkiye İş Bankası",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "isbank",
+    "issuer_name": "Türkiye İş Bankası",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "ittihad",
+    "issuer_name": "Ittihad Investment",
+    "sector": "Industrials",
+    "topic": "Conglomerate Cash Cushion",
+    "source": "Cognitive Credit / Koç / Ittihad",
+    "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
+  },
+  {
+    "issuer_id": "ittihad",
+    "issuer_name": "Ittihad Investment",
+    "sector": "Industrials",
+    "topic": "Export Orientation & Competitive Edge",
+    "source": "Trade Ministry Data",
+    "note": "High export orientation to European and MENA markets provides diversified revenue streams and foreign exchange earnings."
+  },
+  {
+    "issuer_id": "ittihad",
+    "issuer_name": "Ittihad Investment",
+    "sector": "Industrials",
+    "topic": "Prudent Capital Allocation",
+    "source": "Management Guidance",
+    "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
+  },
+  {
+    "issuer_id": "kfh",
+    "issuer_name": "Kuwait Finance House (KFH)",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "kfh",
+    "issuer_name": "Kuwait Finance House (KFH)",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "kfh",
+    "issuer_name": "Kuwait Finance House (KFH)",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "kmg",
+    "issuer_name": "KazMunayGas (KMG)",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "kmg",
+    "issuer_name": "KazMunayGas (KMG)",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "kmg",
+    "issuer_name": "KazMunayGas (KMG)",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "koc",
+    "issuer_name": "Koç Holding",
+    "sector": "Industrials",
+    "topic": "Conglomerate Cash Cushion",
+    "source": "Cognitive Credit / Koç / Ittihad",
+    "note": "Holding company maintains substantial standalone hard currency net cash cushion, serving as an internal liquidity backstop for operating subsidiaries."
+  },
+  {
+    "issuer_id": "koc",
+    "issuer_name": "Koç Holding",
+    "sector": "Industrials",
+    "topic": "Export Orientation & Competitive Edge",
+    "source": "Trade Ministry Data",
+    "note": "High export orientation to European and MENA markets provides diversified revenue streams and foreign exchange earnings."
+  },
+  {
+    "issuer_id": "koc",
+    "issuer_name": "Koç Holding",
+    "sector": "Industrials",
+    "topic": "Prudent Capital Allocation",
+    "source": "Management Guidance",
+    "note": "Discretionary M&A and dividend distributions subordinated to maintain conservative balance sheet leverage targets (<2.0x net debt/EBITDA)."
+  },
+  {
+    "issuer_id": "kosmos",
+    "issuer_name": "Kosmos Energy",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "kosmos",
+    "issuer_name": "Kosmos Energy",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "kosmos",
+    "issuer_name": "Kosmos Energy",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "limak_cem",
+    "issuer_name": "Limak Cement",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "limak_cem",
+    "issuer_name": "Limak Cement",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "limak_cem",
+    "issuer_name": "Limak Cement",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "limak_port",
+    "issuer_name": "LimakPort İskenderun",
+    "sector": "Infrastructure",
+    "topic": "Concession Duration & Tariff Autonomy",
+    "source": "Cognitive Credit / S&P Global",
+    "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
+  },
+  {
+    "issuer_id": "limak_port",
+    "issuer_name": "LimakPort İskenderun",
+    "sector": "Infrastructure",
+    "topic": "Volume Stability & Throughput",
+    "source": "Terminal Authority Disclosures",
+    "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
+  },
+  {
+    "issuer_id": "limak_port",
+    "issuer_name": "LimakPort İskenderun",
+    "sector": "Infrastructure",
+    "topic": "Holding Company Structural Priority",
+    "source": "Offering Circular Waterfall",
+    "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
+  },
+  {
+    "issuer_id": "limak_ren",
+    "issuer_name": "Limak Renewable",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "limak_ren",
+    "issuer_name": "Limak Renewable",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "limak_ren",
+    "issuer_name": "Limak Renewable",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "liqtel",
+    "issuer_name": "Liquid Telecom",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "liqtel",
+    "issuer_name": "Liquid Telecom",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "liqtel",
+    "issuer_name": "Liquid Telecom",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "maf",
+    "issuer_name": "Majid Al Futtaim (MAF)",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "maf",
+    "issuer_name": "Majid Al Futtaim (MAF)",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "maf",
+    "issuer_name": "Majid Al Futtaim (MAF)",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "metinvest",
+    "issuer_name": "Metinvest",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "metinvest",
+    "issuer_name": "Metinvest",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "metinvest",
+    "issuer_name": "Metinvest",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "mhp",
+    "issuer_name": "MHP SE",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "mhp",
+    "issuer_name": "MHP SE",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "mhp",
+    "issuer_name": "MHP SE",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "mol",
+    "issuer_name": "MOL Group",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "mol",
+    "issuer_name": "MOL Group",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "mol",
+    "issuer_name": "MOL Group",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "mtn",
+    "issuer_name": "MTN Group",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "mtn",
+    "issuer_name": "MTN Group",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "mtn",
+    "issuer_name": "MTN Group",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "ocp",
+    "issuer_name": "OCP Group",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "ocp",
+    "issuer_name": "OCP Group",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "ocp",
+    "issuer_name": "OCP Group",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "ooredoo",
+    "issuer_name": "Ooredoo QPSC",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "ooredoo",
+    "issuer_name": "Ooredoo QPSC",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "ooredoo",
+    "issuer_name": "Ooredoo QPSC",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "oq",
+    "issuer_name": "OQ SAOC",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "oq",
+    "issuer_name": "OQ SAOC",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "oq",
+    "issuer_name": "OQ SAOC",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "orlen",
+    "issuer_name": "PKN Orlen",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "orlen",
+    "issuer_name": "PKN Orlen",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "orlen",
+    "issuer_name": "PKN Orlen",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "pegasus",
+    "issuer_name": "Pegasus Airlines",
+    "sector": "Aviation",
+    "topic": "Hard Currency Revenue & Geographic Hedge",
+    "source": "Cognitive Credit / Citi",
+    "note": ">80% of ticket revenues generated outside the domestic market in USD and EUR, providing complete insulation from local currency depreciation."
+  },
+  {
+    "issuer_id": "pegasus",
+    "issuer_name": "Pegasus Airlines",
+    "sector": "Aviation",
+    "topic": "Fleet Asset Coverage (EETC / Senior)",
+    "source": "Ascend by Cirium Appraisals",
+    "note": "Modern, fuel-efficient aircraft fleet with high unencumbered asset value provides substantial senior bond recovery coverage (>130%)."
+  },
+  {
+    "issuer_id": "pegasus",
+    "issuer_name": "Pegasus Airlines",
+    "sector": "Aviation",
+    "topic": "Operating Margin & Hub Economics",
+    "source": "IATA Benchmarking",
+    "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
+  },
+  {
+    "issuer_id": "pge",
+    "issuer_name": "PGE Polska Grupa Energetyczna",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "pge",
+    "issuer_name": "PGE Polska Grupa Energetyczna",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "pge",
+    "issuer_name": "PGE Polska Grupa Energetyczna",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "qazaqgaz",
+    "issuer_name": "QazaqGaz (KazTransGas)",
+    "sector": "Infrastructure",
+    "topic": "Concession Duration & Tariff Autonomy",
+    "source": "Cognitive Credit / S&P Global",
+    "note": "Long-dated port or pipeline concession contracts (>25 years remaining) with natural monopoly gateway characteristics and contractual tariff autonomy."
+  },
+  {
+    "issuer_id": "qazaqgaz",
+    "issuer_name": "QazaqGaz (KazTransGas)",
+    "sector": "Infrastructure",
+    "topic": "Volume Stability & Throughput",
+    "source": "Terminal Authority Disclosures",
+    "note": "Strategic transport hub situated along essential global maritime or energy corridors, ensuring high volume resilience through global trade cycles."
+  },
+  {
+    "issuer_id": "qazaqgaz",
+    "issuer_name": "QazaqGaz (KazTransGas)",
+    "sector": "Infrastructure",
+    "topic": "Holding Company Structural Priority",
+    "source": "Offering Circular Waterfall",
+    "note": "Ring-fenced operational subsidiaries upstream robust dividends to service holding company debt without structural entrapment."
+  },
+  {
+    "issuer_id": "qnb",
+    "issuer_name": "Qatar National Bank (QNB)",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "qnb",
+    "issuer_name": "Qatar National Bank (QNB)",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "qnb",
+    "issuer_name": "Qatar National Bank (QNB)",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "rajhi",
+    "issuer_name": "Al Rajhi Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "rajhi",
+    "issuer_name": "Al Rajhi Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "rajhi",
+    "issuer_name": "Al Rajhi Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "riyad",
+    "issuer_name": "Riyad Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "riyad",
+    "issuer_name": "Riyad Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "riyad",
+    "issuer_name": "Riyad Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "romgaz",
+    "issuer_name": "S.N.G.N. Romgaz",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "romgaz",
+    "issuer_name": "S.N.G.N. Romgaz",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "romgaz",
+    "issuer_name": "S.N.G.N. Romgaz",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "sabic",
+    "issuer_name": "SABIC",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "sabic",
+    "issuer_name": "SABIC",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "sabic",
+    "issuer_name": "SABIC",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "sampa",
+    "issuer_name": "Sampa Otomotiv",
+    "sector": "Consumer",
+    "topic": "Retail Footprint & Concession Moat",
+    "source": "Cognitive Credit / Broker Consensus",
+    "note": "Dominant retail, mall, or bottling concessions with high pricing power allow full pass-through of inflationary input cost increases."
+  },
+  {
+    "issuer_id": "sampa",
+    "issuer_name": "Sampa Otomotiv",
+    "sector": "Consumer",
+    "topic": "Working Capital & Free Cash Flow",
+    "source": "Financial Statements",
+    "note": "Disciplined inventory management and negative or tight working capital cycles ensure rapid cash conversion to debt reduction."
+  },
+  {
+    "issuer_id": "sampa",
+    "issuer_name": "Sampa Otomotiv",
+    "sector": "Consumer",
+    "topic": "Geographic Diversification",
+    "source": "Investor Presentations",
+    "note": "Multi-country presence mitigates single-market macroeconomic or political volatility."
+  },
+  {
+    "issuer_id": "sasol",
+    "issuer_name": "Sasol Ltd",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "sasol",
+    "issuer_name": "Sasol Ltd",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "sasol",
+    "issuer_name": "Sasol Ltd",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "sec",
+    "issuer_name": "Saudi Electricity Company (SEC)",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "sec",
+    "issuer_name": "Saudi Electricity Company (SEC)",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "sec",
+    "issuer_name": "Saudi Electricity Company (SEC)",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "sisecam",
+    "issuer_name": "Şişecam",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "sisecam",
+    "issuer_name": "Şişecam",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "sisecam",
+    "issuer_name": "Şişecam",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "snb",
+    "issuer_name": "Saudi National Bank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "snb",
+    "issuer_name": "Saudi National Bank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "snb",
+    "issuer_name": "Saudi National Bank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "sobha",
+    "issuer_name": "Sobha Realty",
+    "sector": "Real Estate",
+    "topic": "RERA Escrow Mechanics",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Cash balances include project escrow accounts protected under Dubai Law No. 8 of 2007. Disbursements require independent engineer certification against construction progress, insulating project assets from corporate creditors."
+  },
+  {
+    "issuer_id": "sobha",
+    "issuer_name": "Sobha Realty",
+    "sector": "Real Estate",
+    "topic": "Revenue Backlog & Recognition",
+    "source": "Broker Consensus / Earnings Call",
+    "note": "Off-plan revenue recognized strictly under IFRS 15 percentage-of-completion. Massive contracted backlog provides 2.5-3.5 years of forward revenue coverage."
+  },
+  {
+    "issuer_id": "sobha",
+    "issuer_name": "Sobha Realty",
+    "sector": "Real Estate",
+    "topic": "Asset Coverage & Land Bank",
+    "source": "CBRE / JLL Independent Valuation",
+    "note": "Land bank held at historical acquisition cost; revalued market appraisal provides substantial asset cushion (>3.0x net debt)."
+  },
+  {
+    "issuer_id": "sonangol",
+    "issuer_name": "Sonangol EP",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "sonangol",
+    "issuer_name": "Sonangol EP",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "sonangol",
+    "issuer_name": "Sonangol EP",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "standard_bank",
+    "issuer_name": "Standard Bank Group",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "standard_bank",
+    "issuer_name": "Standard Bank Group",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "standard_bank",
+    "issuer_name": "Standard Bank Group",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "stc",
+    "issuer_name": "Saudi Telecom Company (STC)",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "stc",
+    "issuer_name": "Saudi Telecom Company (STC)",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "stc",
+    "issuer_name": "Saudi Telecom Company (STC)",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "taqa",
+    "issuer_name": "Abu Dhabi National Energy (TAQA)",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "taqa",
+    "issuer_name": "Abu Dhabi National Energy (TAQA)",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "taqa",
+    "issuer_name": "Abu Dhabi National Energy (TAQA)",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  },
+  {
+    "issuer_id": "tharisa",
+    "issuer_name": "Tharisa plc",
+    "sector": "Materials",
+    "topic": "Global Cost Curve Advantage",
+    "source": "Cognitive Credit / CRU Group",
+    "note": "Producer is positioned in the bottom quartile (Q1) of global production costs, preserving positive EBITDA generation across cyclical commodity troughs."
+  },
+  {
+    "issuer_id": "tharisa",
+    "issuer_name": "Tharisa plc",
+    "sector": "Materials",
+    "topic": "Hard-Currency Export Share",
+    "source": "Audited Financial Statements",
+    "note": ">75% of revenues billed in USD/EUR against predominantly local-currency operating expenditures, creating a structural natural FX hedge."
+  },
+  {
+    "issuer_id": "tharisa",
+    "issuer_name": "Tharisa plc",
+    "sector": "Materials",
+    "topic": "Strategic Sovereign Resource Moat",
+    "source": "Credit Rating Agency Memo",
+    "note": "Controls world-class mineral or petrochemical reserves essential to the domestic economy, ensuring sovereign backstop support in stress scenarios."
+  },
+  {
+    "issuer_id": "thy",
+    "issuer_name": "Turkish Airlines (THY)",
+    "sector": "Aviation",
+    "topic": "Hard Currency Revenue & Geographic Hedge",
+    "source": "Cognitive Credit / Citi",
+    "note": ">80% of ticket revenues generated outside the domestic market in USD and EUR, providing complete insulation from local currency depreciation."
+  },
+  {
+    "issuer_id": "thy",
+    "issuer_name": "Turkish Airlines (THY)",
+    "sector": "Aviation",
+    "topic": "Fleet Asset Coverage (EETC / Senior)",
+    "source": "Ascend by Cirium Appraisals",
+    "note": "Modern, fuel-efficient aircraft fleet with high unencumbered asset value provides substantial senior bond recovery coverage (>130%)."
+  },
+  {
+    "issuer_id": "thy",
+    "issuer_name": "Turkish Airlines (THY)",
+    "sector": "Aviation",
+    "topic": "Operating Margin & Hub Economics",
+    "source": "IATA Benchmarking",
+    "note": "Low unit cost (CASK ex-fuel) and strategic geographic hub positioning yield industry-leading operating profit margins."
+  },
+  {
+    "issuer_id": "ttkom",
+    "issuer_name": "Türk Telekom",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "ttkom",
+    "issuer_name": "Türk Telekom",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "ttkom",
+    "issuer_name": "Türk Telekom",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "tullow",
+    "issuer_name": "Tullow Oil",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "tullow",
+    "issuer_name": "Tullow Oil",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "tullow",
+    "issuer_name": "Tullow Oil",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "tupras",
+    "issuer_name": "Tüpraş (Turkish Petroleum)",
+    "sector": "Energy",
+    "topic": "Offshore Debt Escrow Routing",
+    "source": "Cognitive Credit / Morgan Stanley",
+    "note": "100% of crude/refined product export proceeds flow directly into offshore collection accounts; debt service for international Eurobonds is deducted prior to any fiscal repatriation."
+  },
+  {
+    "issuer_id": "tupras",
+    "issuer_name": "Tüpraş (Turkish Petroleum)",
+    "sector": "Energy",
+    "topic": "Lifting Costs & Break-even Floor",
+    "source": "Wood Mackenzie Benchmarking",
+    "note": "Low cash lifting cost ($8 - $18/boe) ensures robust operating profitability and positive cash flow even during severe oil price downturns ($50/bbl)."
+  },
+  {
+    "issuer_id": "tupras",
+    "issuer_name": "Tüpraş (Turkish Petroleum)",
+    "sector": "Energy",
+    "topic": "Commercial Reserve Life (1P/2P)",
+    "source": "DeGolyer and MacNaughton / Ryder Scott",
+    "note": "Proved plus probable commercial reserves provide a durable 12-18 year production life, underpinning long-dated senior paper."
+  },
+  {
+    "issuer_id": "turk_exim",
+    "issuer_name": "Türk Eximbank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "turk_exim",
+    "issuer_name": "Türk Eximbank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "turk_exim",
+    "issuer_name": "Türk Eximbank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "turkcell",
+    "issuer_name": "Turkcell İletişim",
+    "sector": "Technology",
+    "topic": "Master Lease Agreements & Indexation",
+    "source": "Cognitive Credit / Arqaam",
+    "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+  },
+  {
+    "issuer_id": "turkcell",
+    "issuer_name": "Turkcell İletişim",
+    "sector": "Technology",
+    "topic": "Tenancy Ratio & Organic Leverage",
+    "source": "Company Disclosures",
+    "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+  },
+  {
+    "issuer_id": "turkcell",
+    "issuer_name": "Turkcell İletişim",
+    "sector": "Technology",
+    "topic": "Contracted Revenue Backlog",
+    "source": "Investor Presentations",
+    "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+  },
+  {
+    "issuer_id": "ukr_rail",
+    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+    "sector": "Transportation & Logistics (Railways)",
+    "topic": "Eurobond Debt Standstill & Restructuring Context",
+    "source": "J.P. Morgan / Morgan Stanley Distressed Credit",
+    "note": "The $595M 8.25% notes due July 2026 and $300M 7.875% notes due July 2028 were extended by 24 months in August 2022. Following Ukraine's $20.5B sovereign Eurobond restructuring in August 2024 (37% nominal haircut), market consensus expects UZ to execute standalone commercial maturity extensions (3-5 years) with partial PIK coupon features rather than deep principal haircuts due to its essential defense and grain export mandate."
+  },
+  {
+    "issuer_id": "ukr_rail",
+    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+    "sector": "Transportation & Logistics (Railways)",
+    "topic": "Multilateral Grants & Standard-Gauge Integration",
+    "source": "EBRD / EIB / World Bank RELINC Filings",
+    "note": "Over $1.4B in non-repayable grants and subsidized loans committed by the EU Solidarity Lanes, EIB, and EBRD. Capital expenditures are heavily focused on converting strategic cross-border lines from 1520mm Russian broad-gauge to 1435mm European standard-gauge (Chop-Uzhhorod and Lviv-Warsaw corridors), permanently integrating Ukrainian rail into the EU single market."
+  },
+  {
+    "issuer_id": "ukr_rail",
+    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+    "sector": "Transportation & Logistics (Railways)",
+    "topic": "Freight Traffic Recovery & Tariff Indexation",
+    "source": "Cabinet of Ministers / UZ Investor Disclosures",
+    "note": "Freight volumes rebounded to 175M tonnes in 2024A driven by naval de-mining of the Greater Odesa Black Sea corridor and European steel mill demand for Metinvest iron ore. State-approved freight tariff indexation (+70% in July 2022 plus ongoing inflation adjustments) and passenger social subsidies maintain positive EBITDA (~$380M)."
+  },
+  {
+    "issuer_id": "ukr_rail",
+    "issuer_name": "Ukraine Rail (Ukrzaliznytsia)",
+    "sector": "Transportation & Logistics (Railways)",
+    "topic": "Forensic Recovery: Liquidation Scrap Floor vs Restructured Value",
+    "source": "Distressed PM Recovery Waterfall",
+    "note": "Physical asset base includes >80,000 wagons, 1,150 active locomotives, and 16,800+ km of operated track. Scrap steel and unencumbered rolling stock liquidation floor is $38.00. Base-case going-concern restructuring value is $68.00 - $74.00, offering attractive asymmetric risk/reward for high-beta credit portfolios."
+  },
+  {
+    "issuer_id": "vakifbank",
+    "issuer_name": "VakıfBank",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "vakifbank",
+    "issuer_name": "VakıfBank",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "vakifbank",
+    "issuer_name": "VakıfBank",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "yapi_kredi",
+    "issuer_name": "Yapı ve Kredi Bankası",
+    "sector": "Banks",
+    "topic": "NIM & Asset-Liability Repricing",
+    "source": "Cognitive Credit / J.P. Morgan",
+    "note": "Net Interest Margin dynamics benefit from high proportion of commercial floating-rate credit; deposit beta remains contained below 45% across retail franchise."
+  },
+  {
+    "issuer_id": "yapi_kredi",
+    "issuer_name": "Yapı ve Kredi Bankası",
+    "sector": "Banks",
+    "topic": "Prudential Capital & AT1 Instruments",
+    "source": "Central Bank / Fitch Ratings",
+    "note": "Core Tier 1 (CET1) and Total Capital Adequacy Ratios (CAR) well above Basel III regulatory minimums; perpetual AT1 notes provide subordinated loss absorption cushion."
+  },
+  {
+    "issuer_id": "yapi_kredi",
+    "issuer_name": "Yapı ve Kredi Bankası",
+    "sector": "Banks",
+    "topic": "Asset Quality & Stage 2 Risk",
+    "source": "BRSA / Audit Reports",
+    "note": "Non-performing loan (NPL) ratio firmly contained with >115% specific coverage; Stage 2 underperforming loans have stabilized."
+  },
+  {
+    "issuer_id": "zorlu",
+    "issuer_name": "Zorlu Enerji",
+    "sector": "Utilities",
+    "topic": "Regulated Asset Base & Off-take PPA",
+    "source": "Cognitive Credit / Citi",
+    "note": "Revenues secured by long-term Power Purchase Agreements (PPAs) or regulated tariff frameworks, providing hard-currency indexation and guaranteed minimum volume off-take."
+  },
+  {
+    "issuer_id": "zorlu",
+    "issuer_name": "Zorlu Enerji",
+    "sector": "Utilities",
+    "topic": "Capex Phasing & FCF Conversion",
+    "source": "Company Filings",
+    "note": "Heavy generation transition capex peaks in 2024-2025; multi-year FCF inflects strongly positive as commercial operations commence."
+  },
+  {
+    "issuer_id": "zorlu",
+    "issuer_name": "Zorlu Enerji",
+    "sector": "Utilities",
+    "topic": "Sovereign Balancing & Guarantees",
+    "source": "Ministry of Finance Disclosures",
+    "note": "Strategic national utility champions benefit from government balancing accounts or explicit fuel supply guarantees, mitigating commodity price volatility."
+  }
+]

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelligence & Annotations Vault | CEMBI Credit Master Platform</title>
+  <link rel="stylesheet" href="css/style.css?v=20260923_excel_v1">
+  <script src="js/issuers_data.js?v=20260923_excel_v1"></script>
+  <script src="js/app.js?v=20260923_excel_v1"></script>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="brand-logo">CEMBI</div>
+      <div>
+        <div class="brand-title">Intelligence &amp; Annotations Vault</div>
+        <div class="brand-subtitle">Qualitative Footnotes, Cognitive Credit Adjustments &amp; Broker Consensus</div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="nav-link">Comp Sheet & Screener</a>
+      <a href="company.html" class="nav-link">Company Page</a>
+      <a href="local_em.html" class="nav-link" style="color:#0284c7; font-weight:700;">🌐 GBI-EM Desk</a>
+      <a href="cdx.html" class="nav-link" style="color:#7c3aed; font-weight:700;">📊 CDX Desk</a>
+      <a href="ust.html" class="nav-link" style="color:#059669; font-weight:700;">📈 UST Curve</a>
+      <a href="restructuring.html" class="nav-link" style="color:#e11d48; font-weight:700;" title="Special Situations, Workouts & Interactive Restructuring Sandboxes">⚖️ Restructuring Hub</a>
+      <a href="trends.html" class="nav-link">Zero-AI Trends</a>
+      <a href="notes.html" class="nav-link active">Footnotes</a>
+      <a href="https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEMBI_Master_Comp_Sheet.xlsx" class="btn-action btn-primary" download>
+        📊 Comp Sheet (.xlsx)
+      </a>
+      <a href="https://github.com/rkarim25/cembicredit" class="btn-action" target="_blank">
+        GitHub Repo
+      </a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="filter-card">
+      <div class="filter-group">
+        <input type="text" id="note-search" class="filter-input" placeholder="Search keywords (e.g. escrow, YEKDEM, fertilizer, restructuring)..." style="min-width:320px;">
+        <select id="note-source-select" class="filter-input">
+          <option value="">All Sources</option>
+          <option value="Cognitive Credit">Cognitive Credit</option>
+          <option value="Arqaam">Arqaam Capital</option>
+          <option value="J.P. Morgan">J.P. Morgan</option>
+          <option value="Citi">Citi Research</option>
+          <option value="Morgan Stanley">Morgan Stanley</option>
+          <option value="Company Filings">Company Filings</option>
+          <option value="Regulatory">Regulatory / Central Bank</option>
+        </select>
+      </div>
+      <div id="notes-count" style="font-size:12px; color:var(--text-dim); font-weight:600;">--</div>
+    </div>
+
+    <!-- Notes Cards Grid -->
+    <div id="notes-container" class="notes-grid">
+      <!-- Populated dynamically -->
+    </div>
+
+  </div>
+
+</body>
+</html>

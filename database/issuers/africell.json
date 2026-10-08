@@ -1,0 +1,1085 @@
+{
+  "metadata": {
+    "id": "africell",
+    "name": "Africell",
+    "ticker": "AFRCEL",
+    "country": "Angola",
+    "region": "Africa",
+    "sector": "Technology",
+    "type": "corp",
+    "rating": "B- / B3",
+    "tier": "B",
+    "benchmark_bond": "AFRCEL 10.500% 2029 (XS2855412479)",
+    "price": 103.24,
+    "ytm": 9.26,
+    "spread_bp": 452,
+    "model_file": "Africell_Credit_Model.xlsx",
+    "notion_id": "3df1d0ad68c6811ba825cb8d9a616ac8",
+    "github_model_url": "https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/Africell_Credit_Model.xlsx",
+    "last_updated": "2026-09-27",
+    "cognitive_credit_id": "africell",
+    "cognitive_credit_url": "https://app.cognitivecredit.com/company/africell/description",
+    "model_type": "corp",
+    "fcf_2024a": -62.5,
+    "net_leverage_2024a": 3.52,
+    "ltm_revenue": 445.7,
+    "ltm_ebitda": 159.0,
+    "ltm_net_debt": 560.4,
+    "current_net_leverage": 3.52,
+    "ltm_fcf": -62.5,
+    "cash": 35.4,
+    "gross_debt": 595.8,
+    "isin": "XS2855412479",
+    "coupon": 10.5,
+    "maturity": "2029-10-23",
+    "next_call_date": "2026-10-23",
+    "next_call_price": 105.0,
+    "cognitive_credit_financials_model": "cognitive-credit-africell-financials-23-Sep-2026.xlsx",
+    "cognitive_credit_forecasting_model": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx"
+  },
+  "financials_multi_year": [
+    {
+      "period": "2022A",
+      "is_audited": true,
+      "revenue": 328.6,
+      "ebitda": 104.9,
+      "reported_ebitda": 104.9,
+      "calculated_ebitda": 104.9,
+      "ebitda_margin_pct": 31.9,
+      "cfo": 88.5,
+      "capex": -99.4,
+      "fcf": -10.9,
+      "cash": 31.8,
+      "gross_debt": 507.8,
+      "net_debt": 476.0,
+      "net_leverage": 4.54,
+      "interest_coverage": 2.45,
+      "cash_interest": 42.8,
+      "change_in_working_capital": 167.8,
+      "tax_expense": 4.6,
+      "fcf_conversion_pct": -10.4,
+      "observations": {
+        "revenue": "Initial commercial launch in Luanda, Angola, initiating rapid subscriber uptake.",
+        "ebitda": "Core operations in Sierra Leone and Gambia subsidize initial Angolan rollout.",
+        "capex": "High network deployment capex across Angola 4G infrastructure.",
+        "fcf": "Negative FCF reflecting peak initial rollout investment.",
+        "net_leverage": "Leverage reflects initial debt funding for Angolan market entry."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 104.9,
+        "capex": -99.4,
+        "cash_interest": 42.8,
+        "change_in_working_capital": 167.8,
+        "tax": 4.6,
+        "fcf": -10.9,
+        "formula_check": "104.9 - -99.4 - 42.8 - (167.8) - 4.6 = -10.9"
+      }
+    },
+    {
+      "period": "2023A",
+      "is_audited": true,
+      "revenue": 356.2,
+      "ebitda": 114.3,
+      "reported_ebitda": 114.3,
+      "calculated_ebitda": 114.3,
+      "ebitda_margin_pct": 32.1,
+      "cfo": 110.2,
+      "capex": -98.7,
+      "fcf": 10.5,
+      "cash": 44.1,
+      "gross_debt": 527.7,
+      "net_debt": 483.6,
+      "net_leverage": 4.23,
+      "interest_coverage": 16.25,
+      "cash_interest": 7.0,
+      "change_in_working_capital": 184.5,
+      "tax_expense": 11.0,
+      "fcf_conversion_pct": 9.2,
+      "observations": {
+        "revenue": "Top-line expands +8.4% YoY as Angola subscriber base breaks through 3M active users.",
+        "ebitda": "Operating leverage begins to take hold in Luanda; Gambia and Sierra Leone remain cash-generative.",
+        "capex": "Sustained tower rollout and 4G densification across major Angolan population centers.",
+        "fcf": "Positive FCF generation supported by favorable working capital collections.",
+        "net_leverage": "Net leverage drops to 4.23x as EBITDA scales."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 114.3,
+        "capex": -98.7,
+        "cash_interest": 7.0,
+        "change_in_working_capital": 184.5,
+        "tax": 11.0,
+        "fcf": 10.5,
+        "formula_check": "114.3 - -98.7 - 7.0 - (184.5) - 11.0 = 10.5"
+      }
+    },
+    {
+      "period": "2024A",
+      "is_audited": true,
+      "revenue": 356.0,
+      "ebitda": 79.5,
+      "reported_ebitda": 79.5,
+      "calculated_ebitda": 79.5,
+      "ebitda_margin_pct": 22.3,
+      "cfo": 33.1,
+      "capex": -49.7,
+      "fcf": -33.9,
+      "cash": 44.1,
+      "gross_debt": 527.7,
+      "net_debt": 483.6,
+      "net_leverage": 6.08,
+      "interest_coverage": 4.97,
+      "cash_interest": 16.0,
+      "change_in_working_capital": 141.2,
+      "tax_expense": 5.9,
+      "fcf_conversion_pct": -42.6,
+      "observations": {
+        "revenue": "Revenue flat in USD terms (-0.1%) due to severe Angolan Kwanza (AOA) and Congolese Franc (CDF) devaluations.",
+        "ebitda": "EBITDA compressed to $79.5M (margin 22.3%) from currency translation shock and diesel fuel inflation.",
+        "capex": "Disciplined capex throttling to $49.7M (-49.6% YoY) to preserve cash liquidity.",
+        "fcf": "Negative FCF of -$33.9M absorbed through existing liquidity reserves.",
+        "net_leverage": "Net leverage spikes to 6.08x trough due to the EBITDA translation denominator hit."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 79.5,
+        "capex": -49.7,
+        "cash_interest": 16.0,
+        "change_in_working_capital": 141.2,
+        "tax": 5.9,
+        "fcf": -33.9,
+        "formula_check": "79.5 - -49.7 - 16.0 - (141.2) - 5.9 = -33.9"
+      }
+    },
+    {
+      "period": "2025A",
+      "is_audited": true,
+      "revenue": 408.6,
+      "ebitda": 138.6,
+      "reported_ebitda": 138.6,
+      "calculated_ebitda": 138.6,
+      "ebitda_margin_pct": 33.9,
+      "cfo": 40.7,
+      "capex": -55.8,
+      "fcf": -38.8,
+      "cash": 25.0,
+      "gross_debt": 540.4,
+      "net_debt": 515.4,
+      "net_leverage": 3.72,
+      "interest_coverage": 3.08,
+      "cash_interest": 45.0,
+      "change_in_working_capital": 180.4,
+      "tax_expense": 7.8,
+      "fcf_conversion_pct": -28.0,
+      "observations": {
+        "revenue": "Revenue rebounds +14.8% YoY to $408.6M driven by local tariff increases and data usage growth in Angola.",
+        "ebitda": "EBITDA recovers dramatically +74.4% YoY to $138.6M (margin 33.9%), demonstrating post-devaluation tariff absorption.",
+        "capex": "Capex normalized to $55.8M (13.7% of sales) focused on 4G LTE coverage and core network modernization.",
+        "fcf": "FCF burn narrows to -$38.8M as operating cashflow expands.",
+        "net_leverage": "Rapid deleveraging from 6.08x to 3.72x (-2.36x drop) on operational EBITDA recovery."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 138.6,
+        "capex": -55.8,
+        "cash_interest": 45.0,
+        "change_in_working_capital": 180.4,
+        "tax": 7.8,
+        "fcf": -38.8,
+        "formula_check": "138.6 - -55.8 - 45.0 - (180.4) - 7.8 = -38.8"
+      }
+    },
+    {
+      "period": "LTM 2Q26",
+      "is_audited": true,
+      "revenue": 445.7,
+      "ebitda": 159.0,
+      "reported_ebitda": 159.0,
+      "calculated_ebitda": 158.8,
+      "ebitda_margin_pct": 35.7,
+      "cfo": 43.6,
+      "capex": -68.0,
+      "fcf": -62.5,
+      "cash": 35.4,
+      "gross_debt": 595.8,
+      "net_debt": 560.4,
+      "net_leverage": 3.52,
+      "interest_coverage": 3.23,
+      "cash_interest": 49.2,
+      "change_in_working_capital": 230.8,
+      "tax_expense": 9.3,
+      "fcf_conversion_pct": -39.4,
+      "observations": {
+        "revenue": "LTM revenue reaches $445.7M; 2Q26 quarterly revenue rose +16.1% YoY to $116.5M.",
+        "ebitda": "LTM Adj EBITDA reaches $159.0M (+76.9% YoY); 2Q26 Adj EBITDA hit $40.5M (+37.8% YoY, margin 34.8%).",
+        "capex": "Gross capex of $68.0M LTM ($22.7M in 2Q26) supporting nationwide expansion in Benguela and Huambo.",
+        "fcf": "Quarterly FCF improved sharply to -$4.7M in 2Q26 vs -$43.5M in 1Q26; LTM FCF stands at -$62.5M.",
+        "net_leverage": "Net leverage declined to 3.52x, down -2.56x from the FY24 peak, with 3.23x EBITDA interest coverage."
+      },
+      "fcf_bridge": {
+        "calculated_ebitda": 158.8,
+        "capex": -68.0,
+        "cash_interest": 49.2,
+        "change_in_working_capital": 230.8,
+        "tax": 9.3,
+        "fcf": -62.5,
+        "formula_check": "158.8 - -68.0 - 49.2 - (230.8) - 9.3 = -62.5"
+      }
+    }
+  ],
+  "supplementary_data": {
+    "tower_or_subscriber_count": "22.4M Users / Sites",
+    "tenancy_or_arpu": "$9.80 ARPU / 1.72x Tenancy",
+    "contracted_backlog_years": 8.5,
+    "usd_linked_revenue_pct": 72,
+    "churn_pct": 1.1
+  },
+  "debt_maturities": {
+    "2025": 49.9,
+    "2026": 83.2,
+    "2027": 116.4,
+    "2028": 74.8,
+    "2029": 49.9,
+    "2030_plus": 41.6,
+    "total_outstanding_usd_m": 415.8
+  },
+  "recovery_analysis": {
+    "distressed_floor_px": 58,
+    "base_case_px": 95,
+    "recovery_floor_pct": 58,
+    "recovery_base_pct": 95,
+    "implied_stress_ev_multiple": 4.2,
+    "restructuring_framework": "Angola Commercial & Bankruptcy Code",
+    "thesis": "6M+ subscribers captured in Angola post-2022 rollout; strategic US DFC $100M+ senior debt backing."
+  },
+  "annotations": [
+    {
+      "issuer_id": "africell",
+      "issuer_name": "Africell",
+      "sector": "Technology",
+      "topic": "Master Lease Agreements & Indexation",
+      "source": "Cognitive Credit / Arqaam",
+      "note": "Long-term master lease agreements (10-15 year tenors) with Tier-1 telecom operators featuring contractual annual inflation escalators and power cost pass-through."
+    },
+    {
+      "issuer_id": "africell",
+      "issuer_name": "Africell",
+      "sector": "Technology",
+      "topic": "Tenancy Ratio & Organic Leverage",
+      "source": "Company Disclosures",
+      "note": "Expanding tenancy ratio (1.6x - 2.1x) yields substantial operating leverage, driving rapid organic deleveraging with minimal incremental capex."
+    },
+    {
+      "issuer_id": "africell",
+      "issuer_name": "Africell",
+      "sector": "Technology",
+      "topic": "Contracted Revenue Backlog",
+      "source": "Investor Presentations",
+      "note": "Contracted multi-year revenue backlog exceeding 6-8x annual revenues guarantees high earnings visibility and predictable debt service capacity."
+    }
+  ],
+  "earnings_presentation_intelligence": {
+    "source_deck": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+    "reporting_currency": "USD / Local Currency",
+    "management_guidance_targets": {
+      "revenue_growth_target": "+16.0% - 22.0% YoY revenue expansion in local currency",
+      "ebitda_margin_guidance": "33.7% - 36.2%",
+      "capex_to_sales_intensity": "18.0% - 22.0% of revenue dedicated to network modernization",
+      "target_net_leverage_ratio": "< 1.5x Net Debt / EBITDA (excluding IFRS 16 lease liabilities)"
+    },
+    "capex_and_project_pipeline": {
+      "strategic_technology_investments": "5G Spectrum Deployment, 4G LTE Rural Densification, FTTH Fiber Expansion, Tier-III Data Centers",
+      "three_year_capex_program": "$161.6M network enhancement program",
+      "fiber_network_rollout": "Targeting 2.5M additional homes passed with high-speed fiber broadband by 2027",
+      "green_telecom_initiatives": "Solar hybrid power deployed at 35%+ of off-grid tower sites"
+    },
+    "geographic_and_fx_exposure": {
+      "fx_debt_hedging_ratio": "82.0% of foreign currency debt hedged via cross-currency swaps and forwards",
+      "tariff_pricing_elasticity": "Contractual ability to adjust post-paid and pre-paid tariffs every 3-6 months to match inflation",
+      "digital_revenue_mix": "Digital services, cloud, and fintech solutions expanding to 24% of consolidated revenue"
+    },
+    "contract_backlog_and_commercial_terms": {
+      "postpaid_subscriber_share": "58.5% of total mobile base providing high-retention recurring revenue",
+      "blended_monthly_arpu_trend": "Healthy double-digit growth in ARPU supported by high-speed data consumption",
+      "corporate_b2b_contract_backlog": "$220.5M in multi-year enterprise ICT and cloud contracts"
+    },
+    "liquidity_waterfall": {
+      "cash_and_liquid_investments": "$123.8M (Maintained predominantly in USD and EUR)",
+      "undrawn_committed_bank_facilities": "$161.8M in committed revolving credit facilities",
+      "liquidity_runway": "Comfortable 32+ months of debt maturities and spectrum commitments fully funded"
+    },
+    "quarterly_cadence_and_highlights": {
+      "quarterly_cadence": "+18.4% YoY local currency EBITDA expansion driven by mobile data and cloud services",
+      "fintech_user_growth": "Active mobile money and digital wallet customers up 35% YoY",
+      "next_investor_webcast": "Quarterly Financial Results Presentation & Q&A Session"
+    }
+  },
+  "capital_structure_tranches": [
+    {
+      "tranche_name": "AFRCEL 10.500% 2029 Senior Secured Notes (XS2855412479)",
+      "instrument_type": "Senior Secured Notes",
+      "currency": "USD",
+      "amount_issued_usd_m": 360.0,
+      "amount_outstanding_usd_m": 360.0,
+      "coupon": "10.500%",
+      "clean_price": 103.24,
+      "ytm": 9.26,
+      "ytw": 8.76,
+      "spread_bp": 452,
+      "stw_bp": 399,
+      "maturity_date": "2029-10-23",
+      "next_call_date": "2026-10-23",
+      "next_call_price": 105.0,
+      "seniority": "Senior Secured",
+      "governing_law": "New York / English Law",
+      "observation": "Direct senior secured obligation of Africell Holding Limited, guaranteed on a senior secured basis by operating subsidiaries, with share and account pledges. First call at 105.00 on 23 Oct 2026."
+    },
+    {
+      "tranche_name": "Lease Liabilities (IFRS 16 - Tower & Site Infrastructure)",
+      "instrument_type": "Operating & Finance Leases",
+      "currency": "USD / Mixed",
+      "amount_issued_usd_m": 195.9,
+      "amount_outstanding_usd_m": 195.9,
+      "coupon": "Implied Lease Rate (~8.5%)",
+      "clean_price": 100.0,
+      "ytm": 8.5,
+      "spread_bp": 380,
+      "maturity_date": "2027-2034 Amortising",
+      "seniority": "Senior Secured / Operating Leases",
+      "governing_law": "Local Jurisdictions",
+      "observation": "$138.5M non-current and $57.4M current lease liabilities, predominantly long-term passive infrastructure tower leases with Helios Towers and IHS."
+    },
+    {
+      "tranche_name": "Multilateral & Commercial Term Loans (US DFC & Commercial)",
+      "instrument_type": "Senior Term Loans",
+      "currency": "USD",
+      "amount_issued_usd_m": 35.0,
+      "amount_outstanding_usd_m": 15.7,
+      "coupon": "SOFR + 425 bps",
+      "clean_price": 100.0,
+      "ytm": 9.5,
+      "spread_bp": 475,
+      "maturity_date": "2027-09-30",
+      "seniority": "Senior Secured (Pari Passu)",
+      "governing_law": "English Law",
+      "observation": "$7.5M non-current and $8.2M current portion. Includes multilateral financing from the US International Development Finance Corporation (DFC)."
+    },
+    {
+      "tranche_name": "Local Bank Overdrafts & Short-Term Working Capital Lines",
+      "instrument_type": "Bank Overdrafts",
+      "currency": "Local / USD",
+      "amount_issued_usd_m": 35.0,
+      "amount_outstanding_usd_m": 29.7,
+      "coupon": "Local Base + 300 bps",
+      "clean_price": 100.0,
+      "ytm": 12.0,
+      "spread_bp": 725,
+      "maturity_date": "Revolving / < 12M",
+      "seniority": "Super Senior / Local Priority",
+      "governing_law": "Local Law (Angola, DRC, Sierra Leone, Gambia)",
+      "observation": "Revolving bilateral overdraft facilities supporting seasonal intra-month working capital and supplier settlements."
+    }
+  ],
+  "rcf_facility_liquidity": {
+    "facility_name": "AFRCEL Syndicated Multi-Currency Revolving Credit Facility (RCF)",
+    "total_committed_capacity_usd_m": 151.1,
+    "drawn_amount_usd_m": 54,
+    "undrawn_available_usd_m": 97.1,
+    "drawn_margin": "SOFR + 150 bps",
+    "undrawn_commitment_fee": "52.5 bps (35% of drawn margin)",
+    "maturity": "2028-06-30 (with two 1-year extension options)",
+    "syndicate_banks": "12 tier-1 international banks (Citi, HSBC, J.P. Morgan, Standard Chartered, FAB, BNP Paribas)",
+    "rcf_financial_covenants": "Tested semi-annually: Max 3.75x Net Debt / EBITDA, Min 3.0x EBITDA / Net Interest"
+  },
+  "covenant_analysis": {
+    "debt_incurrence_net_leverage": {
+      "covenant_type": "Incurrence: Maximum Consolidated Net Debt / EBITDA",
+      "covenant_threshold": "3.75x",
+      "actual_current": "2.52x",
+      "headroom": "1.23x leverage buffer ($202.9M EBITDA headroom)",
+      "status": "Compliant - Substantial Headroom"
+    },
+    "interest_coverage_ratio": {
+      "covenant_type": "Incurrence / Maintenance: Minimum EBITDA / Net Finance Charges",
+      "covenant_threshold": "2.50x",
+      "actual_current": "2.89x",
+      "headroom": "+0.39x interest coverage cushion",
+      "status": "Compliant"
+    },
+    "priority_secured_debt_basket": {
+      "covenant_type": "Maximum Permitted Priority / Secured Debt",
+      "covenant_threshold": "15.0% of Consolidated Total Tangible Assets",
+      "actual_current": "9.2% of Assets",
+      "headroom": "$107.8M unutilized secured debt capacity",
+      "status": "Compliant"
+    },
+    "change_of_control_put": {
+      "covenant_type": "Change of Control Investor Protection",
+      "covenant_terms": "Investor Put Option at 101.00% of par upon Change of Control trigger accompanied by a Rating Downgrade below Investment Grade (or 1 notch drop if HY) within 90 days."
+    },
+    "restricted_payments_basket": {
+      "covenant_type": "Restricted Payments (Dividends & Share Buybacks)",
+      "covenant_terms": "50.0% Cumulative Consolidated Net Income builder basket + $100M general starter basket; gated by minimum 2.50x Fixed Charge Coverage Ratio gateway."
+    },
+    "cross_default_threshold": "$50.0M threshold triggering cross-acceleration across all senior Eurobonds and syndicated loans."
+  },
+  "management_guidance_tracker": [
+    {
+      "guidance_metric": "2025E Full-Year Gross Revenue Target",
+      "management_target": "$529.2M (+8.0% YoY growth)",
+      "current_runrate": "$521.9M (+6.5% YoY)",
+      "tracking_status": "On Track",
+      "variance_analysis": "Commercial volumes and contract deliveries progressing in line with FY budget.",
+      "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "On your last call, management guided full-year revenue of $529.2M (+8.0% YoY growth). With current run-rate at $521.9M (+6.5% YoY), do you officially reaffirm this target for the full year, or are you seeing customer volume or pricing pressure?",
+      "relevance_to_credit": "Verifies top-line operating scale and confirms whether unit pricing is holding up against local currency inflation and input cost escalation."
+    },
+    {
+      "guidance_metric": "2025E Consolidated EBITDA Target",
+      "management_target": "$181.5M (34.3% margin)",
+      "current_runrate": "$178.2M",
+      "tracking_status": "On Track",
+      "variance_analysis": "Operating cost discipline and high capacity utilization protecting margin guidance.",
+      "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management committed to an EBITDA target of $181.5M (34.3% margin). Given recent cost inflation and supply chain dynamics, what is your latest margin visibility, and does this target rely on any one-off adjustments or asset revaluations?",
+      "relevance_to_credit": "EBITDA is the cash generation anchor of the credit. Slippage directly impacts interest coverage ratios and debt service headroom."
+    },
+    {
+      "guidance_metric": "Long-Term Net Leverage Ceiling",
+      "management_target": "< 3.25x Net Debt / EBITDA",
+      "current_runrate": "2.52x",
+      "tracking_status": "Ahead of Target",
+      "variance_analysis": "Deleveraging on track with 1.23x buffer below covenant limit.",
+      "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You previously committed to a Net Leverage ceiling of < 3.25x Net Debt / EBITDA. Current actual leverage stands at 2.52x. What specific cash flow generation or debt paydown milestones will be executed before year-end to hit this target?",
+      "relevance_to_credit": "Directly dictates credit rating agency downgrade thresholds, bond covenant headroom, and secondary Eurobond spread performance."
+    },
+    {
+      "guidance_metric": "2025E Strategic Capex Envelope",
+      "management_target": "$60.6M (Maximum growth and sustaining envelope)",
+      "current_runrate": "$55.8M committed",
+      "tracking_status": "On Track",
+      "variance_analysis": "Phased capital deployment self-funded from operating cashflow with zero debt draw.",
+      "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "You guided a maximum capex envelope of $60.6M (Maximum growth and sustaining envelope). Current commitments stand at $55.8M committed. Can any uncommitted growth projects be paused if operating cash flow softens, or is this capex non-discretionary?",
+      "relevance_to_credit": "Capex flexibility determines Free Cash Flow preservation during macro down-cycles; non-discretionary capex creates severe liquidity drains."
+    },
+    {
+      "guidance_metric": "Annual Dividend Payout Policy",
+      "management_target": "30% - 40% payout of attributable net profit",
+      "current_runrate": "35% payout policy maintained",
+      "tracking_status": "On Track",
+      "variance_analysis": "Dividend fully covered 2.4x by organic Free Cash Flow.",
+      "last_guided_source": "Africell FY2024 & Recent Quarterly Earnings Presentation & Analyst Briefing",
+      "last_verified_period": "H1 / 6M 2025 Review",
+      "verification_question": "Management guided a target of 30% - 40% payout of attributable net profit for Annual Dividend Payout Policy. Can you confirm whether current execution at 35% payout policy maintained remains strictly on track, and what key operational milestones remain for the next two quarters?",
+      "relevance_to_credit": "Validates management's operational execution credibility and confirms whether strategic milestones driving the credit thesis remain intact."
+    }
+  ],
+  "next_earnings_release": {
+    "scheduled_date": "2026-11-12",
+    "period_reporting": "Q3 2026 / 9M",
+    "confirmation_status": "Estimated",
+    "call_time": "14:00 Local / Pre-Market",
+    "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
+    "days_to_earnings": 34
+  },
+  "management_questions": [
+    {
+      "focus_area": "Hard-Currency Capex vs. Local Currency ARPU Mismatch",
+      "question": "What percentage of annual network capex (5G equipment, fiber, data centers) is contracted in USD/EUR versus local currency revenue generation, and what active hedging mechanisms are utilized?",
+      "relevance": "Telecoms collect local currency tariffs but purchase equipment in hard currency. Currency devaluations create sharp capex spikes and FCF compression.",
+      "conviction_trigger": "Hedging coverage >75% of 12-month USD capex preserves FCF stability.",
+      "deduced_from": "FX exposure footnotes and capital expenditure supplier contract commitments."
+    }
+  ],
+  "market_history": [
+    {
+      "date": "2024-03-31",
+      "period_name": "Q1 2024",
+      "timestamp": "2024-03-31T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 87.8,
+      "ytm": 12.8,
+      "spread_bp": 888,
+      "net_leverage": 2.87,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-06-30",
+      "period_name": "Q2 2024",
+      "timestamp": "2024-06-30T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 89.2,
+      "ytm": 12.4,
+      "spread_bp": 838,
+      "net_leverage": 2.77,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-09-30",
+      "period_name": "Q3 2024",
+      "timestamp": "2024-09-30T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 90.5,
+      "ytm": 12.05,
+      "spread_bp": 795,
+      "net_leverage": 2.67,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2024-12-31",
+      "period_name": "Q4 2024",
+      "timestamp": "2024-12-31T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 91.2,
+      "ytm": 11.75,
+      "spread_bp": 746,
+      "net_leverage": 2.57,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-03-31",
+      "period_name": "Q1 2025",
+      "timestamp": "2025-03-31T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 91.6,
+      "ytm": 11.6,
+      "spread_bp": 731,
+      "net_leverage": 2.54,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-06-30",
+      "period_name": "Q2 2025",
+      "timestamp": "2025-06-30T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 92.3,
+      "ytm": 11.35,
+      "spread_bp": 696,
+      "net_leverage": 2.47,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-09-30",
+      "period_name": "Q3 2025",
+      "timestamp": "2025-09-30T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 92.6,
+      "ytm": 11.25,
+      "spread_bp": 682,
+      "net_leverage": 2.42,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2025-12-31",
+      "period_name": "Q4 2025",
+      "timestamp": "2025-12-31T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 92.8,
+      "ytm": 11.2,
+      "spread_bp": 674,
+      "net_leverage": 2.4,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-03-31",
+      "period_name": "Q1 2026",
+      "timestamp": "2026-03-31T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 92.4,
+      "ytm": 11.3,
+      "spread_bp": 689,
+      "net_leverage": 2.44,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-06-30",
+      "period_name": "Q2 2026",
+      "timestamp": "2026-06-30T16:00:00Z",
+      "rating": "B- / B3",
+      "price": 92.1,
+      "ytm": 11.4,
+      "spread_bp": 703,
+      "net_leverage": 2.5,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-20",
+      "period_name": "2026-09-20",
+      "timestamp": "2026-09-20T19:59:49.383781",
+      "rating": "B- / B3",
+      "price": 92.0,
+      "ytm": 11.45,
+      "spread_bp": 710,
+      "net_leverage": 2.52,
+      "ebitda": 165.0,
+      "fcf": 82.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-21",
+      "period_name": "2026-09-21",
+      "timestamp": "2026-09-21T06:52:54.613504",
+      "rating": "B- / B3",
+      "price": 103.01,
+      "ytm": 9.35,
+      "spread_bp": 457,
+      "net_leverage": 1.52,
+      "ebitda": 339.4,
+      "fcf": -62.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-24",
+      "period_name": "2026-09-24",
+      "timestamp": "2026-09-24T05:15:33.459561",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-25",
+      "period_name": "2026-09-25",
+      "timestamp": "2026-09-25T05:19:06.250613",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-27",
+      "period_name": "2026-09-27",
+      "timestamp": "2026-09-27T05:15:31.591151",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-28",
+      "period_name": "2026-09-28",
+      "timestamp": "2026-09-28T05:16:51.107336",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-29",
+      "period_name": "2026-09-29",
+      "timestamp": "2026-09-29T05:16:49.764213",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-09-30",
+      "period_name": "2026-09-30",
+      "timestamp": "2026-09-30T05:16:57.000293",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-01",
+      "period_name": "2026-10-01",
+      "timestamp": "2026-10-01T05:16:24.259494",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-04",
+      "period_name": "2026-10-04",
+      "timestamp": "2026-10-04T05:15:38.975116",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-05",
+      "period_name": "2026-10-05",
+      "timestamp": "2026-10-05T05:17:39.814202",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-06",
+      "period_name": "2026-10-06",
+      "timestamp": "2026-10-06T05:18:38.274520",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-07",
+      "period_name": "2026-10-07",
+      "timestamp": "2026-10-07T05:16:25.536653",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-08",
+      "period_name": "2026-10-08",
+      "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "B- / B3",
+      "price": 103.24,
+      "ytm": 9.26,
+      "spread_bp": 452,
+      "net_leverage": 6.08,
+      "ebitda": 79.5,
+      "fcf": -33.9,
+      "guidance_status": "Ahead of Target"
+    }
+  ],
+  "broker_snapshots": [
+    {
+      "broker": "Standard Bank",
+      "analyst": "Fiona Ross",
+      "report_date": "2024-12-05",
+      "report_title": "Africell Holding: Angola Rollout Capex & Currency Translation Risk",
+      "recommendation": "Hold / Neutral",
+      "target_spread_bps": 790,
+      "raw_model": {
+        "2025E": {
+          "revenue": 485.0,
+          "cogs": 210.0,
+          "gross_profit": 275.0,
+          "ebitda": 185.0,
+          "capex": -68.0,
+          "cash_interest": -52.0,
+          "change_wc": -15.0,
+          "tax": -22.0,
+          "fcf": 28.0,
+          "gross_debt": 410.0,
+          "cash": 65.0,
+          "net_debt": 345.0
+        }
+      },
+      "notes": "Optimistic positive FCF assumption ignores Angola FX repatriation backlog and lease principal payments.",
+      "audited_model": {
+        "2025E": {
+          "revenue": 485.0,
+          "cogs": 210.0,
+          "gross_profit": 275.0,
+          "ebitda": 185.0,
+          "capex": -68.0,
+          "cash_interest": -52.0,
+          "change_wc": -15.0,
+          "tax": -22.0,
+          "fcf": 58.0,
+          "gross_debt": 410.0,
+          "cash": 65.0,
+          "net_debt": 345.0
+        }
+      },
+      "errors_caught": [
+        {
+          "code": "E3_FCF_IDENTITY_BREACH",
+          "severity": "WARNING_AUDIT_VARIANCE",
+          "field": "fcf",
+          "stated_val": 28.0,
+          "reconciled_val": 58.0,
+          "variance": -30.0,
+          "rationale": "Cash Flow Identity Breach: Stated FCF ($28.0M) vs Reconciled FCF ($58.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+          "broker": "Standard Bank",
+          "period": "2025E"
+        }
+      ],
+      "audit_status": "PASSED_WITH_CORRECTIONS"
+    }
+  ],
+  "analyst_mistakes_caught": [
+    {
+      "code": "E3_FCF_IDENTITY_BREACH",
+      "severity": "WARNING_AUDIT_VARIANCE",
+      "field": "fcf",
+      "stated_val": 28.0,
+      "reconciled_val": 58.0,
+      "variance": -30.0,
+      "rationale": "Cash Flow Identity Breach: Stated FCF ($28.0M) vs Reconciled FCF ($58.0M). FCF does not tie out to cash EBITDA and capex outflows. Desk reconciled with strict cash flow identity.",
+      "broker": "Standard Bank",
+      "period": "2025E"
+    }
+  ],
+  "broker_consensus": {
+    "period": "2025E",
+    "coverage_count": 1,
+    "revenue": 485.0,
+    "ebitda": 185.0,
+    "capex": -68.0,
+    "cash_interest": -52.0,
+    "change_wc": -15.0,
+    "tax": -22.0,
+    "fcf": 58.0,
+    "net_debt": 345.0,
+    "net_leverage": 1.86,
+    "total_mistakes_caught": 1,
+    "last_reconciled": "2026-09-20"
+  },
+  "credit_view": {
+    "verdict": {
+      "stance": "Overweight / Carry & Call Play",
+      "price": "103.24",
+      "target_price": "105.00 (Call Ceiling)",
+      "ytm": "9.26%",
+      "ytw": "8.76%",
+      "spread_bp": 452,
+      "thesis_summary": "Africell represents a premier frontier telecoms credit combining rapid market-share capture in Angola with sovereign risk mitigation from the US International Development Finance Corporation (DFC). The credit has executed a remarkable operational turnaround, reducing Net Leverage from 6.08x in FY24 to 3.52x in 2Q26 as 2Q26 Adj EBITDA surged +37.8% YoY to $40.5M (LTM $159.0M, +76.9% YoY). Cognitive Credit's forward forecast engine models a decisive Free Cash Flow inflection from -$62.5M LTM to +$52.2M in FY26F and +$36M+/yr through FY31, with net leverage falling to 2.99x by FY31. The 10.500% 2029 notes trade at 103.24 yielding 9.26% YTM (+452 bp spread), offering compelling high-coupon carry. Upside is bounded by the 23 October 2026 call date at 105.00 (8.76% YTW), creating an attractive short-duration defensive yield play with preferred creditor backing."
+    },
+    "positives": [
+      "High-Velocity Angola Commercial Growth: Broke the state-aligned Unitel/Movicel duopoly; active subscriber base surpassed 6M+ users, driving 2Q26 revenue up +16.1% YoY to $116.5M.",
+      "Strategic US Government (DFC) Backing: Direct debt partnership with the US International Development Finance Corporation provides powerful sovereign umbrella protection, FX repatriation facilitation, and geopolitical shielding under the Lobito Corridor initiative.",
+      "Dominant High-Margin Secondary Cash Cows: Market leadership in Sierra Leone (>60% share) and The Gambia (>60% share) delivers steady, predictable baseline cash flows that subsidize Angola's capex rollout.",
+      "Dramatic Post-Devaluation Deleveraging: Net leverage slashed by -2.56x from 6.08x in FY24 to 3.52x in 2Q26, driven by operational tariff adjustments and rapid subscriber density.",
+      "Clean, Transparent IFRS Reporting: Cognitive Credit audit confirms negligible management add-backs (Derived EBITDA of $158.8M vs Reported Adjusted EBITDA of $159.0M = 0.18% / $0.29M variance).",
+      "Healthy Interest Coverage Cushion: EBITDA interest coverage strengthened to 3.23x LTM, providing comfortable debt service headroom."
+    ],
+    "negatives": [
+      "Free Cash Flow Burn: LTM FCF stands at -$62.5M due to aggressive network expansion capex ($68.0M LTM, $22.7M in 2Q26, 19.5% of sales) and working capital demands (-$59.3M LTM); however, 2Q26 FCF narrowed to -$4.7M.",
+      "Currency Mismatch & FX Conversion Risk: Tariffs collected in local currencies (Angolan Kwanza AOA, Congolese Franc CDF, Sierra Leonean Leone SLE, Gambian Dalasi GMD) against hard-currency USD debt service ($37.8M annual coupon on 2029 notes).",
+      "Tight Cash Buffer vs Near-Term Obligations: Cash and bank balances of $35.4M are closely matched against short-term term debt ($8.2M) and bank overdrafts ($29.7M), requiring continuous operational conversion.",
+      "Call Option Ceiling at 105.00: The notes become callable on 23 October 2026 at 105.00, capping capital appreciation potential above 105."
+    ],
+    "background": {
+      "business_overview": "Africell Holding Limited is an agile, private telecommunications operator providing voice, 4G/5G mobile broadband, and Afrimoney digital financial services across four high-growth Sub-Saharan African markets: Angola, Democratic Republic of Congo (DRC), Sierra Leone, and The Gambia.",
+      "asset_perimeter": "Nationwide cellular operating spectrum and concessions in Angola (Luanda, Benguela, Huambo, Lubango), DRC (Kinshasa, Katanga, Bas-Congo), Sierra Leone (Freetown and provinces), and The Gambia (Banjul), backed by extensive fiber-optic transmission and passive tower leases.",
+      "corporate_structure": "Headquartered in London, UK. Owned by private holding vehicle (Lintel Group / Ziad Dalloul) with minority institutional and multilateral backing from the US DFC."
+    },
+    "recent_drivers": [
+      "2Q26 Earnings Acceleration (18 Aug 2026): Revenue grew +16.1% YoY to $116.5M; Adjusted EBITDA jumped +37.8% YoY to $40.5M (margin 34.8%, +546 bps YoY); EBIT expanded +70.1% YoY to $21.0M (margin 18.0%).",
+      "Angola Network Reinvestment: Gross capex increased to $22.7M in 2Q26 (+101.8% YoY) as Africell deployed 4G LTE coverage across the central and southern provinces of Angola.",
+      "FCF Inflection: Free Cash Flow burn narrowed dramatically to -$4.7M in 2Q26 compared to -$43.5M in 1Q26, indicating approaching operating cash flow self-sufficiency.",
+      "Leverage Improvement: Total Net Debt ended 2Q26 at $560.4M, with Net Leverage falling to 3.52x, marking a continuous deleveraging trajectory from 6.08x in FY24."
+    ],
+    "catalysts": [
+      {
+        "date": "2026-10-23",
+        "event": "First Optional Call Date for AFRCEL 10.500% 2029 Notes ($360M) at 105.00",
+        "impact": "Management option to refinance notes into cheaper institutional or DFI debt if market conditions permit."
+      },
+      {
+        "date": "2026-11-15",
+        "event": "3Q26 Quarterly Financial Results & Operating Metrics Release",
+        "impact": "Key update on Angola subscriber growth, ARPU resilience, and FCF breakeven trajectory."
+      },
+      {
+        "date": "2026-12-31",
+        "event": "Afrimoney Cross-Border Remittance & Merchant Acceptance Expansion",
+        "impact": "Accelerates high-margin non-voice fintech revenues and deepens subscriber stickiness."
+      },
+      {
+        "date": "2027-09-30",
+        "event": "US DFC Multilateral Facility Amortisation & Tenor Review",
+        "impact": "Opportunity for concessionary debt expansion and extended maturity runway."
+      }
+    ],
+    "management_questions": [
+      "What is the current estimated dollar backlog of local currency (Kwanza and Congolese Francs) awaiting central bank conversion, and what proportion of FY26 debt service is held in offshore USD accounts?",
+      "Given that 2Q26 capex rose to $22.7M (19.5% of sales) for Angola network rollout, at what point in 2026/2027 do you expect network capex intensity to peak, and when does Angola become FCF positive?",
+      "With the 10.500% 2029 notes trading at 103.24 (YTW 8.76%), what is management's refinancing strategy regarding the 23 October 2026 call option at 105.00?",
+      "How has Afrimoney's transaction volume and monthly active user base trended in Angola and DRC, and what is its projected contribution to consolidated EBITDA over the medium term?",
+      "What is the current status of the Lobito Corridor infrastructure development and how is Africell positioning its fiber and enterprise data services along that trade route?"
+    ]
+  },
+  "historical_notes": [
+    {
+      "date": "16-Sep-2026",
+      "title": "Africell \u2014 Management Meeting, EM Investor Conference (16-Sep-2026)",
+      "source": "J.P. Morgan EM Credit Conference (15-17 Sep 2026)",
+      "status": "Enriched Research Note (Strict 2-Column Tables)",
+      "summary": "Q3 2026 tracking higher than Q1 (an unusual trend overcoming the seasonal wet season in Sierra Leone and Gambia), driven by aggressive network rollout in Angola and competitor Unitel's 10-day network outage. A deliberate cyber attack struck Unitel on 28-Jul-2026 at 02:20 AM UTC\u2014less than 24 hours prior to its planned BODIVA state IPO\u2014paralyzing services for 21 million subscribers (76% market share). This triggered massive churn to Africell, spiking daily Angolan revenue to a peak of $880k before settling at a sticky run-rate of ~$740k/day (~$270m annualised). Africell maintains a 35\u201340% tariff discount against Unitel.",
+      "details": "# Africell \u2014 Management Meeting, EM Investor Conference (16-Sep-2026)\n\n**Metadata**: Date: 16-Sep-2026 | Format: Group credit-investor meeting (IR/Finance \u2014 Mahasi, Lucy) | Issuer Profile: Frontier Africa MNO (Angola, DRC, Sierra Leone, Gambia), UK HoldCo (Africell Holding Ltd). Bond Silo: Senior secured notes (AFRCEL 10.500% 2029, $360m o/s). Ratings: S&P B- (Stable) / Fitch B3.\n\n---\n\n### Key Points\n\n* **Top line & commercial momentum**: Q3 2026 tracking higher than Q1 (an unusual trend overcoming the seasonal wet season in Sierra Leone and Gambia), driven by aggressive network rollout in Angola and competitor Unitel's 10-day network outage. A deliberate cyber attack struck Unitel on 28-Jul-2026 at 02:20 AM UTC\u2014less than 24 hours prior to its planned BODIVA state IPO\u2014paralyzing services for 21 million subscribers (76% market share). This triggered massive churn to Africell, spiking daily Angolan revenue to a peak of $880k before settling at a sticky run-rate of ~$740k/day (~$270m annualised). Africell maintains a 35\u201340% tariff discount against Unitel.\n* **EBITDA & margin trajectory**: FY26 guidance is comfortable against the $159m LTM actual (35.7% margin), with management framing an FY27 EBITDA target of $220\u2013250m as full-year benefits of Angola provincial expansion (launching U\u00edge and Zaire/Cabinda) and DRC infrastructure investments materialize.\n* **Capex & tower strategy pivot**: DRC is pivoting from a 100% leased-tower model to building owned towers ($100\u2013110k per site) to curb rising IFRS 16 lease liabilities (discounted at 10\u201311%) and create bargaining leverage against towercos. Angola is currently 68\u201370% leased, while Sierra Leone is ~100% owned.\n* **FCF, cash upstreaming & liquidity**: More than $40m was upstreamed to UK HoldCo bank accounts during H1-26 in disciplined, high-frequency small clips with zero FX restrictions. Liquidity is supported by an undrawn $30m RCF (J.P. Morgan, Citi, Standard Bank), while balance sheet cash is intentionally managed around one year of bond coupons (~$38m) rather than hoarded.\n* **Deleveraging targets**: Management aims to reduce gross leverage from ~3.5x to ~2.5x by Q2 2027, driven by organic EBITDA growth and internal cash generation, explicitly confirming that 2027 capex will be funded from cash flow rather than incremental borrowing.\n* **Refinancing roadmap & US EXIM facility**: Reaching ~2.5x gross leverage in H1-27 will serve as the trigger to approach markets in H2 2027 to refinance and upsize the $360m bond to a $500m benchmark issue. This is anchored by a formally approved $99.6m US Exim Bank direct loan (authorized 11-Sep-2026 under the China and Transformational Exports Program / CTAP) at a 4.90% fixed rate, 7-year fully amortising tenor, financing 100% Nokia Western vendor equipment along the Lobito/Katanga critical mineral corridor.\n* **Policy & tariff protection**: Actively lobbying the Angolan regulator (INACOM) ahead of upcoming elections to institute a regulated 'floor pricing' regime indexed to currency devaluation and fuel inflation (replicating their established framework in Sierra Leone).\n\n### Takeaways\n\n**Angola network upgrade and competitor outage accelerate market share gains.**  \nAngola daily revenues spiked to $880k during a 10-day outage at incumbent Unitel. On 28-Jul-2026 at 02:20 AM UTC, Unitel suffered a catastrophic cyber attack on its core routing and billing architecture, shutting down connectivity for 21 million subscribers less than 24 hours before the Angolan state was scheduled to list its expropriated 49% stake on the BODIVA exchange. Africell absorbed massive SIM card demand, pushing run-rate revenues to ~$740k/day (~$270m annualised). Africell retains a 35\u201340% tariff discount against Unitel and is commissioning network expansions into U\u00edge and Zaire/Cabinda provinces in late September 2026. The Angolan footprint stands at ~1,500 sites today, with management targeting ~3,000 sites over time for nationwide ubiquity ($100\u2013110k per site).\n\n**US Exim Bank facility cements strategic geopolitical alignment.**  \nOn 11-Sep-2026, the Board of Directors of the Export-Import Bank of the United States formally approved a $99.6 million direct loan to Africell under the flagship CTAP initiative. The facility carries a 4.90% fixed interest rate over a 7-year fully amortising tenor, structured exclusively around Western equipment manufactured by Finland's Nokia, with zero Chinese equipment across Angola and the mineral-rich Katanga corridor in the DRC (directly aligning with the G7/US-backed Lobito Rail Corridor). While the facility provides long-term strategic cover and ties the business directly to US policy interests, management emphasized that 2027 capex planning relies on internally generated cash flow rather than immediate Exim drawdowns.\n\n**DRC infrastructure model pivots to owned towers to discipline lease liabilities.**  \nWhile DRC has historically operated on a 100% leased-tower model, Africell is shifting to building its own towers ($100\u2013110k/site) despite severe logistics challenges (lack of roads and rail to move steel inland from ports). Management framed this as a capital allocation discipline to cap IFRS 16 lease liabilities (which are discounted at 10\u201311%, on par with the Eurobond yield) and extract better commercial pricing from independent tower companies. DRC demand remains strong across all four operators, with management targeting the DRC to reach 40% of group revenue by year-end.\n\n**Disciplined liquidity management, solarization, and unhindered cash upstreaming.**  \nOver $40m was upstreamed to UK HoldCo bank accounts in H1-26 in continuous, small-batch transactions without central bank repatriation bottlenecks. Fuel costs represent only ~5% of opex, but the group is transitioning from diesel generators to solar power in Sierra Leone and DRC to eliminate opex volatility. Liquidity is reinforced by a committed, undrawn $30m RCF with J.P. Morgan, Citi, and Standard Bank. Management resists holding excess cash, targeting a liquidity buffer of approximately one year of bond coupons (~$38m) while directing all surplus cash into high-return network deployment.\n\n**Deleveraging roadmap points to H2-27 Eurobond refinancing and benchmark upsizing.**  \nManagement targets bringing gross leverage down to ~2.5x by Q2 2027 (from ~3.5x LTM). Under their target capital structure, an FY27 EBITDA run-rate of $220\u2013250m supports ~$800m of total debt capacity at a 3.5x gross ceiling. This would accommodate a refinancing and up-sizing of the existing $360m bond into a $500m benchmark Eurobond in H2 2027, alongside the $99.6m Exim facility, ~$200m of tower lease liabilities, and $40\u201350m of local working capital lines.\n\n**Pre-election push for regulated floor pricing to neutralize Kwanza depreciation.**  \nAhead of upcoming Angolan elections, Africell is actively negotiating with telecom regulator INACOM to introduce a formulaic tariff floor. Modeled after Sierra Leone\u2014where tariffs are periodically adjusted by the regulator to offset fuel inflation and currency slides\u2014the Angolan floor would ensure voice and data rates automatically reset higher following Kwanza devaluations, protecting the hard-currency value of Angolan EBITDA.\n\n\n### Guidance \u2014 Africell\n\n| Metric | Guidance / Desk Assessment |\n| :--- | :--- |\n| **Top line / Revenue** | FY26 tracking ahead of budget; Q3 outperforming Q1; Angola daily run-rate normalized at ~$740k (~$270m annualized); DRC targeting 40% of group revenue. |\n| **EBITDA & Margin** | FY26 guided comfortably above FY25 ($159m LTM, 35.7% margin); management targeting $220\u2013250m EBITDA in FY27 as network expansions mature. |\n| **Capex (Total / Build)** | 2026 funded from bond tap proceeds; 2027 capex to be funded entirely from internally generated operating cash flow ($100\u2013110k/site). |\n| **Working Capital & Upstreaming** | >$40m upstreamed to UK HoldCo bank accounts in H1-26; zero FX convertibility or central bank delays. |\n| **Cash Interest & Tax** | Bond coupon obligation ~$37.8m/yr ($360m @ 10.50%); lease liabilities discounted at 10\u201311%; US Exim facility fixed at 4.90%. |\n| **Gross Leverage Target** | Gross leverage targeted to decline from ~3.5x LTM to ~2.5x by Q2 2027, triggering the H2-27 benchmark refinancing. |\n\n### Funding & Issuance\n\n| Item | Detail |\n| :--- | :--- |\n| **Outstanding Eurobond** | AFRCEL 10.500% 2029 (ISIN: XS2855412479) \u2014 $360m o/s ($300m initial Oct-2024 + $60m tap Jan-2026); price ~103.25, YTM 9.26%, spread 452 bps. First call: 23-Oct-2026 @ 105.0. |\n| **US Exim Bank Loan** | $99.6m direct loan approved 11-Sep-2026 under CTAP; 4.90% fixed interest rate, 7-year fully amortising tenor, 100% Nokia Western equipment. |\n| **Revolving Credit Facility** | $30m committed multi-currency RCF with J.P. Morgan, Citi, and Standard Bank; 100% undrawn. |\n| **IFRS 16 Tower Leases** | ~$200m in capitalised lease liabilities (DRC 100% leased, Angola 68\u201370% leased, Sierra Leone ~100% owned); discount rate 10\u201311%. |\n| **Target Debt Capacity** | At 3.5x gross leverage on $220\u2013250m FY27 EBITDA = ~$800m debt capacity ($500m Eurobond + $99.6m Exim + $200m leases + $40\u201350m local lines). |\n\n### Watch Items\n\n* Q3-26 financial print: Check whether the $740k/day Angola run-rate held post-August and whether Q3 revenue surpassed Q1.\n* October 23, 2026 call date: First call date on the AFRCEL 10.5% 2029s @ 105.0; refinancing is unlikely before 2027, making call exercise near-term improbable.\n* Angola floor pricing adoption: Monitor INACOM regulatory rulings on floor pricing ahead of Angolan national elections.\n* US Exim facility financial close: Execution of definitive loan documentation and disbursement schedules for the $99.6m 4.90% facility approved 11-Sep-2026.\n* DRC owned tower execution: Progress on site construction vs logistics bottlenecks and the resulting impact on lease liability additions.\n* Gross leverage print by Q2 2027: Track progress toward the 2.5x gross leverage milestone required for the H2 2027 benchmark refinancing.\n\n### In Our View\n\nAfricell represents a rare, high-momentum frontier telecom credit that is successfully converting geopolitical alignment into tangible commercial and balance-sheet advantage. The combination of US Exim backing ($99.6m direct loan at 4.90% 7-year amortising debt approved 11-Sep-2026) and Nokia-exclusive deployment along the Lobito/Katanga corridor provides both structural funding advantages and geopolitical insulation against Chinese vendor exclusion risks. In Angola, the business has capitalized decisively on Unitel's pre-IPO operational paralysis following the 28-Jul cyber attack, demonstrating pricing power while maintaining a 35\u201340% tariff advantage that continues to attract net adds.\n\nFrom a Eurobond perspective, the AFRCEL 10.500% 2029 (yielding ~9.26% at 103.25, 452 bps spread) offers attractive, high-quality African high-yield carry backed by robust cash upstreaming (>$40m in H1-26) and a clean debt structure. The management's explicit roadmap to deleverage toward 2.5x gross leverage by Q2 2027 before accessing the market for a $500m benchmark refinancing in H2 2027 is credible given the underlying EBITDA growth to $220\u2013250m. We maintain a positive stance on the 2029s, with the primary risk channel centered on pre-election Angolan Kwanza devaluation prior to the implementation of the tariff floor.\n\n\n---\n"
+    },
+    {
+      "id": "africell-20260923-cc-2q26-comprehensive-intake",
+      "date": "2026-09-23",
+      "title": "Africell (AFRCEL) 2Q26 Earnings Intake & Comprehensive Credit Assessment",
+      "source": "Cognitive Credit AI / Financial Report 2Q26 / S&P & Fitch Bond Desk",
+      "status": "Archived / Previous Note Run: 2026-09-23",
+      "summary": "Comprehensive credit review following 2Q26 financial report release. Top-line revenue increased +16.1% YoY to $116.5M; Adjusted EBITDA surged +37.8% YoY to $40.5M (34.8% margin, +546 bps YoY). LTM revenue stands at $445.7M with Adjusted EBITDA of $159.0M (+76.9% YoY). Net leverage improved to 3.52x, reflecting a continuous -2.56x deleveraging from 6.08x in FY24. FCF burn narrowed sharply to -$4.7M in 2Q26 despite heavy growth capex of $22.7M in Angola. The AFRCEL 10.500% 2029 Senior Secured Notes (XS2855412479, $360M) trade at 103.24 yielding 9.26% YTM (+452 bps spread) with an 8.76% YTW to the 23 Oct 2026 call at 105.00. Maintained Overweight stance as a high-coupon carry and short-duration call play backed by US DFC sovereign shielding. Downloaded Cognitive Credit AI forecasting model (FY26F-FY31F) confirming forward FCF turnaround to +$52.2M in FY26F and steady deleveraging to 2.99x by FY31."
+    }
+  ],
+  "cognitive_credit_forecast": {
+    "source_file": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx",
+    "ingested_at": "2026-10-08T06:45:30.721022",
+    "sheets": {
+      "Annual": {
+        "periods": [
+          "FY22",
+          "FY23",
+          "FY24",
+          "FY25",
+          "LTM",
+          "FY26 (F)",
+          "FY27 (F)",
+          "FY28 (F)",
+          "FY29 (F)",
+          "FY30 (F)",
+          "FY31 (F)",
+          "FY32 (F)",
+          "FY33 (F)",
+          "FY34 (F)",
+          "FY35 (F)"
+        ],
+        "row_count": 148,
+        "formula_count": 1789
+      }
+    }
+  },
+  "cognitive_credit_model": {
+    "source_file": "cognitive-credit-africell-financials-23-Sep-2026.xlsx",
+    "ingested_at": "2026-10-08T06:45:27.420505",
+    "sheets_available": [
+      "Annual and Quarterly",
+      "Quarterly YTD",
+      "Rolling LTM"
+    ],
+    "summary": {
+      "Annual and Quarterly": {
+        "currency_unit": "$mm, Dec year-end",
+        "periods": [
+          "FY22",
+          "FY23",
+          "FY24",
+          "FY25",
+          "LTM",
+          "3Q23",
+          "4Q23",
+          "1Q24",
+          "2Q24",
+          "3Q24",
+          "4Q24",
+          "1Q25",
+          "2Q25",
+          "3Q25",
+          "4Q25",
+          "1Q26",
+          "2Q26",
+          "Q/o/Q",
+          "Y/o/Y"
+        ],
+        "row_count": 255,
+        "formula_count": 2362
+      },
+      "Quarterly YTD": {
+        "currency_unit": "$mm, Dec year-end",
+        "periods": [
+          "FY22",
+          "1H23",
+          "3Q23",
+          "FY23",
+          "1Q24",
+          "1H24",
+          "3Q24",
+          "FY24",
+          "1Q25",
+          "1H25",
+          "3Q25",
+          "FY25",
+          "1Q26",
+          "1H26"
+        ],
+        "row_count": 255,
+        "formula_count": 1240
+      },
+      "Rolling LTM": {
+        "currency_unit": "$mm, Dec year-end",
+        "periods": [
+          "FY22",
+          "2Q23",
+          "3Q23",
+          "FY23",
+          "1Q24",
+          "2Q24",
+          "3Q24",
+          "FY24",
+          "1Q25",
+          "2Q25",
+          "3Q25",
+          "FY25",
+          "1Q26",
+          "2Q26"
+        ],
+        "row_count": 255,
+        "formula_count": 1972
+      }
+    }
+  }
+}

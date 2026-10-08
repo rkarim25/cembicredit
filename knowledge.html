@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knowledge Base | CEMBI Credit</title>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .kb-wrap { display: grid; grid-template-columns: 320px 1fr; gap: 24px; padding: 24px; max-width: 1500px; margin: 0 auto; }
+  @media (max-width: 900px) { .kb-wrap { grid-template-columns: 1fr; } }
+  .kb-section { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; opacity: .7; margin: 14px 0 6px; }
+  .kb-list a { display: block; padding: 6px 10px; border-radius: 5px; text-decoration: none; color: inherit; border: 1px solid transparent; }
+  .kb-list a.active, .kb-list a:hover { border-color: #4f8cff; }
+  .kb-meta { font-size: 12px; opacity: .7; }
+  #kb-search { width: 100%; padding: 8px; margin-bottom: 8px; border-radius: 6px; border: 1px solid rgba(128,128,128,.4); background: transparent; color: inherit; }
+  #page { line-height: 1.55; max-width: 980px; }
+  #page table { border-collapse: collapse; font-size: 13px; }
+  #page td, #page th { border: 1px solid rgba(128,128,128,.35); padding: 4px 8px; vertical-align: top; }
+  #page code { font-size: 90%; }
+</style>
+</head>
+<body>
+<div class="kb-wrap">
+  <aside>
+    <h2 style="margin-top:0">Knowledge base</h2>
+    <p class="kb-meta">Frameworks, sovereign pages, data sources. Dated facts; views live in <a href="reports.html">Reports</a>.</p>
+    <input id="kb-search" placeholder="Filter pages…">
+    <div class="kb-list" id="list">Loading…</div>
+    <p class="kb-meta"><a href="index.html">← Screener</a></p>
+  </aside>
+  <main id="page"><p class="kb-meta">Select a page.</p></main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script>
+(async function () {
+  const list = document.getElementById('list'), main = document.getElementById('page'), search = document.getElementById('kb-search');
+  let items = [];
+  try { items = await (await fetch('knowledge/index.json?ts=' + Date.now())).json(); } catch (e) { list.textContent = 'No pages yet.'; return; }
+  function render(filter) {
+    const f = (filter || '').toLowerCase();
+    let html = '', last = null;
+    items.filter(r => !f || (r.title + ' ' + r.section).toLowerCase().includes(f)).forEach(r => {
+      if (r.section !== last) { html += `<div class="kb-section">${r.section}</div>`; last = r.section; }
+      html += `<a href="#${r.path}" data-path="${r.path}">${r.title}<br><span class="kb-meta">${r.updated}</span></a>`;
+    });
+    list.innerHTML = html || '<p class="kb-meta">No match.</p>';
+  }
+  async function show(path) {
+    const r = items.find(x => x.path === path) || items[0];
+    if (!r) return;
+    document.querySelectorAll('.kb-list a').forEach(a => a.classList.toggle('active', a.dataset.path === r.path));
+    let md = await (await fetch(r.path + '?ts=' + Date.now())).text();
+    md = md.replace(/^---[\s\S]*?---\s*/, '');
+    main.innerHTML = marked.parse(md);
+  }
+  render('');
+  search.addEventListener('input', () => render(search.value));
+  window.addEventListener('hashchange', () => show(location.hash.slice(1)));
+  show(location.hash.slice(1));
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Situations, Workouts &amp; Restructuring Hub | CEMBI Credit Master Platform</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css?v=20261007_restruct_v1">
+  <script src="js/issuers_data.js?v=20261007_restruct_v1"></script>
+  
+  <style>
+    :root {
+      --accent-restruct: #e11d48;
+      --accent-restruct-bg: rgba(225, 29, 72, 0.08);
+      --accent-restruct-border: rgba(225, 29, 72, 0.25);
+    }
+    
+    .hub-hero {
+      background: linear-gradient(135deg, #ffffff 0%, #fff1f2 100%);
+      border: 1px solid #fecdd3;
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 12px rgba(225, 29, 72, 0.04);
+    }
+    
+    .hub-hero-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+    
+    .hub-hero-title h1 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+      margin: 0;
+    }
+    
+    .hub-hero-desc {
+      font-size: 13px;
+      color: #475569;
+      max-width: 900px;
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+    
+    .hub-kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+    }
+    
+    .hub-kpi-card {
+      background: #ffffff;
+      border: 1px solid #f1f5f9;
+      border-radius: 8px;
+      padding: 14px 16px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    }
+    
+    .hub-kpi-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #64748b;
+      margin-bottom: 4px;
+    }
+    
+    .hub-kpi-val {
+      font-size: 20px;
+      font-weight: 800;
+      font-family: 'JetBrains Mono', monospace;
+      color: #0f172a;
+    }
+    
+    .hub-kpi-sub {
+      font-size: 11px;
+      color: #94a3b8;
+      margin-top: 3px;
+    }
+    
+    /* Interactive Sandboxes Grid */
+    .sandbox-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 18px;
+      margin-bottom: 30px;
+    }
+    
+    .sandbox-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .sandbox-card:hover {
+      border-color: #cbd5e1;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+      transform: translateY(-2px);
+    }
+    
+    .sandbox-card.featured {
+      border-top: 4px solid var(--accent-restruct);
+    }
+    
+    .sandbox-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+    
+    .sandbox-title-group h3 {
+      font-size: 16px;
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0 0 4px 0;
+    }
+    
+    .sandbox-meta {
+      font-size: 11.5px;
+      color: #64748b;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .sandbox-metrics {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 10px;
+      margin: 12px 0;
+      text-align: center;
+    }
+    
+    .sandbox-metric-lbl {
+      font-size: 10px;
+      color: #64748b;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    
+    .sandbox-metric-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 14px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 2px;
+    }
+    
+    .sandbox-body {
+      font-size: 12px;
+      color: #475569;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    
+    .sandbox-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-top: 12px;
+      border-top: 1px solid #f1f5f9;
+    }
+    
+    /* Ranking Table Section */
+    .restruct-table-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    
+    .restruct-table-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    
+    .restruct-table-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: #0f172a;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Global Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo">CEMBI</div>
+      <div>
+        <div class="brand-title">Credit Master Platform</div>
+        <div class="brand-subtitle">85 Corporate Issuers &bull; Multi-Year Cash Flow Models &bull; Restructuring &amp; Workout Engines</div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="nav-link">Comp Sheet &amp; Screener</a>
+      <a href="company.html" class="nav-link">Company Page</a>
+      <a href="restructuring.html" class="nav-link active" style="color:var(--accent-restruct); font-weight:800;" title="Special Situations, Workouts & Interactive Restructuring Sandboxes">⚖️ Restructuring Hub</a>
+      <a href="local_em.html" class="nav-link" style="color:#0284c7; font-weight:700;">🌐 GBI-EM Desk</a>
+      <a href="cdx.html" class="nav-link" style="color:#7c3aed; font-weight:700;">📊 CDX Desk</a>
+      <a href="ust.html" class="nav-link" style="color:#059669; font-weight:700;">📈 UST Curve</a>
+      <a href="trends.html" class="nav-link">Zero-AI Trends</a>
+      <a href="notes.html" class="nav-link">Footnotes</a>
+      <a href="https://raw.githubusercontent.com/rkarim25/cembicredit/main/models/CEMBI_Master_Comp_Sheet.xlsx" class="btn-action btn-primary" download>
+        📊 Comp Sheet (.xlsx)
+      </a>
+      <a href="https://github.com/rkarim25/cembicredit" class="btn-action" target="_blank">
+        GitHub Repo
+      </a>
+    </nav>
+  </header>
+
+  <div class="container">
+    
+    <!-- Hero Banner -->
+    <div class="hub-hero">
+      <div class="hub-hero-title">
+        <span style="font-size:24px;">⚖️</span>
+        <h1>Special Situations, Workouts &amp; Restructuring Hub</h1>
+        <span class="badge badge-stress" style="font-size:11px; padding:3px 8px;">14 Distressed Issuers</span>
+      </div>
+      <div class="hub-hero-desc">
+        Dedicated workout and special situations command portal across CEMBI high-yield and distressed credit. Features interactive Sum-of-the-Parts (SOTP) asset valuation sandboxes, 15-step Absolute Priority Rule (APR) recovery waterfalls, debt-for-equity exchange pricing, and haircut calculators for special situation opportunities.
+      </div>
+      
+      <div class="hub-kpi-strip">
+        <div class="hub-kpi-card">
+          <div class="hub-kpi-label">Distressed Universe</div>
+          <div class="hub-kpi-val" style="color:#dc2626;" id="kpi-distressed-count">14 Issuers</div>
+          <div class="hub-kpi-sub">Spread &ge; 600 bp | CCC/D Rated</div>
+        </div>
+        <div class="hub-kpi-card">
+          <div class="hub-kpi-label">Median Distressed Yield</div>
+          <div class="hub-kpi-val" style="color:var(--accent-gold);" id="kpi-distressed-ytm">16.58%</div>
+          <div class="hub-kpi-sub">Benchmark Clean Px: $82.50</div>
+        </div>
+        <div class="hub-kpi-card">
+          <div class="hub-kpi-label">Average Base Case Recovery</div>
+          <div class="hub-kpi-val" style="color:#10b981;" id="kpi-distressed-recovery">86.4¢</div>
+          <div class="hub-kpi-sub">Stressed Liquidation Floor: 56.8¢</div>
+        </div>
+        <div class="hub-kpi-card">
+          <div class="hub-kpi-label">Interactive Sandboxes</div>
+          <div class="hub-kpi-val" style="color:#0284c7;">3 Live Engines</div>
+          <div class="hub-kpi-sub">Zorlu &bull; Braskem &bull; Aragvi</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 1: Interactive Restructuring Engines -->
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+      <h2 style="font-size:16px; font-weight:800; color:#0f172a; margin:0; display:flex; align-items:center; gap:8px;">
+        <span>🧮</span> Interactive Restructuring Engines &amp; Haircut Calculators
+      </h2>
+      <span style="font-size:11.5px; color:#64748b;">Calibrate SOTP asset values, legal priority charges, and exchange fair values</span>
+    </div>
+
+    <div class="sandbox-grid">
+      
+      <!-- CARD 1: ZORLU ENERJI (ZOREN) -->
+      <div class="sandbox-card featured" id="card-ZOREN">
+        <div>
+          <div class="sandbox-header">
+            <div class="sandbox-title-group">
+              <h3>⚡ Zorlu Enerji (ZOREN)</h3>
+              <div class="sandbox-meta">
+                <span>Turkey &bull; Utilities</span>
+                <span class="badge badge-stress">B- / CCC+</span>
+                <span style="color:#dc2626; font-weight:700;">+2,250 bp spread</span>
+              </div>
+            </div>
+            <a href="zoren_calculator.html" class="btn-action btn-gold" style="font-weight:700; padding:6px 12px; font-size:11px;">
+              Launch Sandbox ↗
+            </a>
+          </div>
+
+          <div class="sandbox-metrics">
+            <div>
+              <div class="sandbox-metric-lbl">Bond Price</div>
+              <div class="sandbox-metric-val" style="color:var(--accent-gold);">$63.50</div>
+            </div>
+            <div>
+              <div class="sandbox-metric-lbl">Par Floor PV</div>
+              <div class="sandbox-metric-val" style="color:#0284c7;">100.0¢</div>
+            </div>
+            <div>
+              <div class="sandbox-metric-lbl">Exchange FV</div>
+              <div class="sandbox-metric-val" style="color:#10b981;">95.3¢</div>
+            </div>
+          </div>
+
+          <div class="sandbox-body">
+            Comprehensive SOTP recovery and debt-for-equity engine for ZOREN 11.00% 2030 and 2026 Eurobonds. Evaluates $2,100M Enterprise Value, $720M Geothermal Project Finance senior priority charges, AlJomaih asset monetisation ($450M), and Zorlu Yenilenebilir IPO equity injection.
+          </div>
+        </div>
+
+        <div class="sandbox-actions">
+          <a href="zoren_calculator.html" class="btn-action btn-gold" style="font-weight:700; font-size:11px; padding:5px 12px;">
+            ⚖️ Restructuring Sandbox
+          </a>
+          <a href="zoren_background.html" class="btn-action" style="font-size:11px; padding:5px 10px;">
+            📖 Asset Inputs &amp; EV Vol
+          </a>
+          <a href="zoren_qa.html" class="btn-action" style="font-size:11px; padding:5px 10px;">
+            ❓ Restructuring Q&amp;A
+          </a>
+          <a href="company.html?id=zorlu" class="btn-action" style="font-size:11px; padding:5px 10px;">
+            📑 Company Dossier
+          </a>
+        </div>
+      </div>
+
+      <!-- CARD 2: BRASKEM (BRASKM) -->
+      <div class="sandbox-card featured" id="card-BRASKM">
+        <div>
+          <div class="sandbox-header">
+            <div class="sandbox-title-group">
+              <h3>🔨 Braskem S.A. (BRASKM)</h3>
+              <div class="sandbox-meta">
+                <span>Brazil &bull; Materials</span>
+                <span class="badge badge-stress">RD / D</span>
+                <span style="color:#dc2626; font-weight:700;">+1,580 bp spread</span>
+              </div>
+            </div>
+            <a href="braskem_calculator.html" class="btn-action btn-gold" style="font-weight:700; padding:6px 12px; font-size:11px;">
+              Launch Sandbox ↗
+            </a>
+          </div>
+
+          <div class="sandbox-metrics">
+            <div>
+              <div class="sandbox-metric-lbl">Bond Price</div>
+              <div class="sandbox-metric-val" style="color:var(--accent-gold);">$48.60</div>
+            </div>
+            <div>
+              <div class="sandbox-metric-lbl">Stress Floor</div>
+              <div class="sandbox-metric-val" style="color:#ef4444;">22.0¢</div>
+            </div>
+            <div>
+              <div class="sandbox-metric-lbl">Base Recovery</div>
+              <div class="sandbox-metric-val" style="color:#10b981;">66.3¢</div>
+            </div>
+          </div>
+
+          <div class="sandbox-body">
+            Full Chapter 11 / Brazilian RJ reorg and haircut engine. Evaluates cracker complexes (Triunfo, Camaçari, ABC, Rio), $1.1B PPE senior export pre-payments, Alagoas Maceió environmental settlement NPV, and recovery divergence between Senior Notes (66c) and Hybrid 2081 (10–18c).
+          </div>
+        </div>
+
+        <div class="sandbox-actions">
+          <a href="braskem_calculator.html" class="btn-action btn-gold" style="font-weight:700; font-size:11px; padding:5px 12px;">
+            ⚖️ Reorg &amp; Haircut Sandbox
+          </a>
+          <a href="braskem_background.html" class="btn-action" style="font-size:11px; padding:5px 10px;">
+            📖 Petrochemical Assets &amp; EV Vol
+          </a>
+          <a href="company.html?id=braskem" class="btn-action" style="font-size:11px; padding:5px 10px;">
+            📑 Company Dossier
+          </a>
+        </div>
+      </div>
+
+      <!-- CARD 3: ARAGVI / TRANS-OIL (ARAGVI) -->
+      <div class="sandbox-card featured" id="card-ARAGVI">
+        <div>
+          <div class="sandbox-header">
+            <div class="sandbox-title-group">
+              <h3>🌻 Aragvi / Trans-Oil (ARAGVI)</h3>
+              <div class="sandbox-meta">
+                <span>Moldova &bull; Consumer / Agribusiness</span>
+                <span class="badge badge-hy">B / B-</span>
+                <span style="color:#f59e0b; font-weight:700;">+780 bp spread</span>
+              </div>
+            </div>
+            <a href="aragvi_calculator.html" class="btn-action btn-gold" style="font-weight:700; padding:6px 12px; font-size:11px;">
+              Launch Sandbox ↗
+            </a>
+          </div>
+
+          <div class="sandbox-metrics">
+            <div>
+              <div class="sandbox-metric-lbl">Bond Price</div>
+              <div class="sandbox-metric-val" style="color:var(--accent-gold);">$89.00</div>
+            </div>
+            <div>
+              <div class="sandbox-metric-lbl">Senior Claims</div>
+              <div class="sandbox-metric-val" style="color:#64748b;">$398M</div>
+            </div>
+            <div>
+              <div class="sandbox-metric-lbl">Asset Coverage</div>
+              <div class="sandbox-metric-val" style="color:#10b981;">219.0%</div>
+            </div>
+          </div>
+
+          <div class="sandbox-body">
+            Grain origination, oilseed crushing, and Giurgiulesti Danube port terminal SOTP valuation engine. Models $186.5M Pre-Export Finance (PXF) priority revolvers, $81.1M multilateral DFI loans (EBRD/BSTDB/IFC), and 4Y consensual maturity extension to 97.0c fair value.
+          </div>
+        </div>
+
+        <div class="sandbox-actions">
+          <a href="aragvi_calculator.html" class="btn-action btn-gold" style="font-weight:700; font-size:11px; padding:5px 12px;">
+            ⚖️ SOTP Recovery Sandbox
+          </a>
+          <a href="aragvi_background.html" class="btn-action" style="font-size:11px; padding:5px 10px;">
+            📖 DFI Umbrella &amp; Port Assets
+          </a>
+          <a href="company.html?id=aragvi" class="btn-action" style="font-size:11px; padding:5px 10px;">
+            📑 Company Dossier
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Section 2: Special Situations Workouts & Restructuring Ranking Table -->
+    <div class="restruct-table-card">
+      <div class="restruct-table-header">
+        <div>
+          <div class="restruct-table-title">
+            <span>📊</span> Comprehensive Restructuring &amp; Recovery Universe
+          </div>
+          <div style="font-size:11.5px; color:#64748b; margin-top:2px;">
+            All distressed, special situations, and high-spread issuers ranked by secondary spread with explicit recovery pricing and legal jurisdiction frameworks.
+          </div>
+        </div>
+        <div style="display:flex; gap:8px;">
+          <input type="text" id="restruct-search" placeholder="Search issuer, ticker, country..." oninput="filterRestructTable()" style="padding:6px 12px; font-size:11.5px; border:1px solid #cbd5e1; border-radius:6px; width:220px;">
+        </div>
+      </div>
+
+      <div style="overflow-x:auto;">
+        <table class="data-table" style="font-size:11.5px;">
+          <thead>
+            <tr>
+              <th style="width:75px;">Ticker</th>
+              <th>Company Name</th>
+              <th>Country</th>
+              <th>Sector</th>
+              <th style="text-align:center;">Rating</th>
+              <th>Benchmark Bond</th>
+              <th class="num">Clean Px</th>
+              <th class="num">YTM</th>
+              <th class="num">Spread</th>
+              <th class="num">Stress Floor</th>
+              <th class="num">Base Case</th>
+              <th class="num" style="color:#10b981;">Implied Upside</th>
+              <th>Legal Framework / Restructuring Mechanism</th>
+              <th style="text-align:center;">Specialist Engine</th>
+            </tr>
+          </thead>
+          <tbody id="restruct-tbody">
+            <!-- Dynamically populated from MASTER_ISSUERS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const ALIAS_MAP = {
+      'zorlu': 'ZOREN',
+      'zoren': 'ZOREN',
+      'braskem': 'BRASKM',
+      'braskm': 'BRASKM',
+      'aragvi': 'ARAGVI',
+      'transg': 'ARAGVI',
+      'ukr_rail': 'RAILUA',
+      'railua': 'RAILUA',
+      'dtek': 'DTEKUA',
+      'dtekua': 'DTEKUA',
+      'tullow': 'TLW',
+      'tlw': 'TLW',
+      'asg': 'AVIASG',
+      'aviasg': 'AVIASG',
+      'liqtel': 'LIQTEL',
+      'metinvest': 'METINV',
+      'mhp': 'MHPSA'
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+      renderRestructTable();
+      handleHashTarget();
+    });
+
+    window.addEventListener("hashchange", () => {
+      handleHashTarget();
+    });
+
+    function handleHashTarget() {
+      const rawHash = (window.location.hash || "").replace("#", "").trim().toLowerCase();
+      if (!rawHash) return;
+      const targetTicker = ALIAS_MAP[rawHash] || rawHash.toUpperCase();
+
+      setTimeout(() => {
+        const card = document.getElementById(`card-${targetTicker}`);
+        const row = document.getElementById(`row-${targetTicker}`);
+        const el = card || row;
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+          el.style.transition = "all 0.4s ease";
+          const origShadow = el.style.boxShadow;
+          el.style.outline = "2px solid #e11d48";
+          el.style.boxShadow = "0 0 16px rgba(225, 29, 72, 0.4)";
+          setTimeout(() => {
+            el.style.outline = "";
+            el.style.boxShadow = origShadow || "";
+          }, 2500);
+        }
+      }, 200);
+    }
+
+    function renderRestructTable() {
+      const tbody = document.getElementById("restruct-tbody");
+      if (!tbody || typeof MASTER_ISSUERS === 'undefined') return;
+      tbody.innerHTML = "";
+
+      const q = (document.getElementById("restruct-search")?.value || "").toLowerCase();
+
+      // Filter issuers with spread >= 500bp or recovery analysis
+      const distressed = MASTER_ISSUERS.filter(item => {
+        const m = item.metadata;
+        const matchesQ = !q || m.ticker.toLowerCase().includes(q) || m.name.toLowerCase().includes(q) || m.country.toLowerCase().includes(q);
+        return matchesQ && (m.spread_bp >= 500 || (item.recovery_analysis && item.recovery_analysis.distressed_floor_px));
+      });
+
+      // Sort by spread descending
+      distressed.sort((a, b) => (b.metadata.spread_bp || 0) - (a.metadata.spread_bp || 0));
+
+      // Compute dynamic KPIs
+      if (distressed.length > 0) {
+        const countEl = document.getElementById("kpi-distressed-count");
+        const ytmEl = document.getElementById("kpi-distressed-ytm");
+        const recEl = document.getElementById("kpi-distressed-recovery");
+        
+        if (countEl) countEl.textContent = `${distressed.length} Issuers`;
+        
+        const ytms = distressed.map(d => Number(d.metadata.ytm || 0)).filter(y => y > 0).sort((a, b) => a - b);
+        if (ytmEl && ytms.length > 0) {
+          const medianYtm = ytms[Math.floor(ytms.length / 2)];
+          ytmEl.textContent = `${medianYtm.toFixed(2)}%`;
+        }
+
+        const bases = distressed.map(d => Number((d.recovery_analysis && d.recovery_analysis.base_case_px) || 0)).filter(b => b > 0);
+        if (recEl && bases.length > 0) {
+          const avgBase = bases.reduce((s, v) => s + v, 0) / bases.length;
+          recEl.textContent = `${avgBase.toFixed(1)}¢`;
+        }
+      }
+
+      distressed.forEach(item => {
+        const m = item.metadata;
+        const rec = item.recovery_analysis || {};
+        const px = Number(m.price || 100);
+        const floor = Number(rec.distressed_floor_px || 50);
+        const base = Number(rec.base_case_px || 85);
+        const upside = px > 0 ? (((base - px) / px) * 100).toFixed(1) : '0.0';
+        const isPositive = Number(upside) >= 0;
+
+        let sandboxLink = '';
+        if (m.id === 'zorlu') {
+          sandboxLink = `<a href="zoren_calculator.html" class="btn-action btn-gold" style="font-size:10px; padding:2px 7px; font-weight:700;">⚡ ZOREN Sandbox</a>`;
+        } else if (m.id === 'braskem') {
+          sandboxLink = `<a href="braskem_calculator.html" class="btn-action btn-gold" style="font-size:10px; padding:2px 7px; font-weight:700;">🔨 BRASKM Sandbox</a>`;
+        } else if (m.id === 'aragvi') {
+          sandboxLink = `<a href="aragvi_calculator.html" class="btn-action btn-gold" style="font-size:10px; padding:2px 7px; font-weight:700;">🌻 ARAGVI Sandbox</a>`;
+        } else {
+          sandboxLink = `<a href="company.html?id=${m.id}#debt" class="btn-action" style="font-size:10px; padding:2px 7px;">📑 Dossier</a>`;
+        }
+
+        const tr = document.createElement("tr");
+        tr.id = `row-${m.ticker}`;
+        tr.style.cursor = "pointer";
+        tr.onclick = (e) => {
+          if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
+            window.location.href = `company.html?id=${m.id}`;
+          }
+        };
+
+        tr.innerHTML = `
+          <td><strong>${m.ticker}</strong></td>
+          <td><a href="company.html?id=${m.id}" style="font-weight:600; text-decoration:none; color:var(--text-main);">${m.name}</a></td>
+          <td>${m.country}</td>
+          <td><span class="badge badge-sector" style="font-size:9.5px;">${m.sector}</span></td>
+          <td style="text-align:center;"><span class="badge ${m.spread_bp >= 700 ? 'badge-stress' : 'badge-hy'}" style="font-size:9.5px;">${m.rating}</span></td>
+          <td style="font-size:10.5px;">${m.benchmark_bond}</td>
+          <td class="num">$${px.toFixed(2)}</td>
+          <td class="num"><strong>${Number(m.ytm || 0).toFixed(2)}%</strong></td>
+          <td class="num" style="color:#e11d48; font-weight:700;">+${m.spread_bp}</td>
+          <td class="num" style="color:#ef4444; font-weight:600;">$${floor.toFixed(2)}</td>
+          <td class="num" style="color:#10b981; font-weight:700;">$${base.toFixed(2)}</td>
+          <td class="num" style="color:${isPositive ? '#10b981' : '#ef4444'}; font-weight:700;">
+            ${isPositive ? '+' : ''}${upside}%
+          </td>
+          <td style="font-size:10.5px; color:#475569; max-width:280px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;" title="${rec.restructuring_framework || 'Consensual Out-of-Court Workout'}">
+            ${rec.restructuring_framework || 'Consensual Out-of-Court Workout'}
+          </td>
+          <td style="text-align:center; white-space:nowrap;">
+            ${sandboxLink}
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function filterRestructTable() {
+      renderRestructTable();
+    }
+  </script>
+</body>
+</html>
