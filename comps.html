@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peer Comparison | CEMBI Credit</title>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/site-header.css?v=1">
+<script defer src="js/site-header.js?v=1"></script>
+<meta name="site-updated" content="08-Oct-26">
+<style>
+  .cp-wrap { padding: 16px 24px; max-width: 1750px; margin: 0 auto; color: var(--text-main, #0f172a); }
+  .cp-panel { border: 1px solid var(--border-color, #e2e8f0); border-radius: 8px; background: var(--bg-card, #fff); padding: 12px 14px; margin-bottom: 12px; }
+  .cp-row { display: flex; gap: 14px; flex-wrap: wrap; align-items: flex-end; }
+  .cp-field { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--text-muted, #475569); }
+  .cp-field select, .cp-field input { padding: 5px 7px; border-radius: 6px; border: 1px solid var(--border-color, #e2e8f0); background: var(--bg-card, #fff); color: var(--text-main, #0f172a); font: inherit; font-size: 12.5px; }
+  .cp-field select[multiple] { min-width: 150px; height: 96px; }
+  .cp-btn { border: 1px solid var(--border-color, #e2e8f0); background: var(--bg-sub, #f8fafc); color: var(--text-main, #0f172a); border-radius: 6px; padding: 6px 10px; font: inherit; font-size: 12.5px; cursor: pointer; }
+  .cp-btn:hover { background: var(--bg-card-hover, #f1f5f9); }
+  .cp-btn.primary { background: var(--accent-blue, #0071e3); color: #fff; border-color: var(--accent-blue, #0071e3); }
+  .cp-chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+  .cp-chip { font-size: 12px; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--border-color, #e2e8f0); background: var(--bg-sub, #f8fafc); cursor: pointer; }
+  .cp-chip b { margin-left: 5px; color: var(--accent-red, #dc2626); }
+  .cp-meta { font-size: 12px; color: var(--text-muted, #475569); }
+  .cp-table-wrap { overflow-x: auto; }
+  table.cp { border-collapse: separate; border-spacing: 0; font-size: 12.5px; white-space: nowrap; width: max-content; min-width: 100%; }
+  table.cp th, table.cp td { border-bottom: 1px solid var(--border-color, #e2e8f0); padding: 6px 9px; text-align: right; }
+  table.cp th { position: sticky; top: 0; background: var(--bg-sub, #f8fafc); cursor: pointer; user-select: none; font-weight: 600; white-space: normal; min-width: 76px; line-height: 1.2; }
+  table.cp th:first-child, table.cp td:first-child { text-align: left; position: sticky; left: 0; background: var(--bg-card, #fff); min-width: 190px; border-right: 1px solid var(--border-color, #e2e8f0); z-index: 1; }
+  table.cp th:first-child { z-index: 3; background: var(--bg-sub, #f8fafc); }
+  table.cp td.best { background: rgba(21,128,61,.14); } table.cp td.worst { background: rgba(220,38,38,.14); }
+  table.cp tr.summary td { background: var(--bg-sub, #f8fafc); font-weight: 600; }
+  table.cp td.name a { color: var(--accent-blue, #0071e3); text-decoration: none; font-weight: 600; }
+  .cp-charts { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 1000px) { .cp-charts { grid-template-columns: 1fr; } }
+  .cp-canvas { position: relative; height: 320px; }
+  .cp-presets { display: flex; gap: 6px; flex-wrap: wrap; }
+</style>
+</head>
+<body>
+<div class="cp-wrap">
+  <h2 style="margin:6px 0">Peer comparison</h2>
+  <p class="cp-meta">Build a peer group, pick the metrics and the period, read the table, then chart it. Data from the issuer records behind the screener (<code>database/issuers/</code>); financials by period 2021A to 2027E, market levels as last updated in each record. Presets and custom groups are saved in this browser.</p>
+
+  <div class="cp-panel">
+    <div class="cp-row">
+      <div class="cp-field">Preset<div class="cp-presets" id="presets"></div></div>
+      <div class="cp-field">Sector<select id="f-sector" multiple></select></div>
+      <div class="cp-field">Country<select id="f-country" multiple></select></div>
+      <div class="cp-field">Region<select id="f-region" multiple></select></div>
+      <div class="cp-field">Type<select id="f-type"><option value="">All</option><option value="corp">Corporates</option><option value="bank">Banks</option></select></div>
+      <div class="cp-field">Rating bucket<select id="f-rating"><option value="">All</option><option value="IG">IG (BBB- and above)</option><option value="BB">BB</option><option value="B">B</option><option value="CCC">CCC and below</option></select></div>
+      <div class="cp-field">Add issuer<input id="f-add" list="issuer-list" placeholder="ticker or name"><datalist id="issuer-list"></datalist></div>
+      <button type="button" class="cp-btn" id="btn-apply">Apply filters</button>
+      <button type="button" class="cp-btn" id="btn-clear">Clear group</button>
+      <button type="button" class="cp-btn" id="btn-save">Save group as preset</button>
+    </div>
+    <div class="cp-chips" id="chips"></div>
+  </div>
+
+  <div class="cp-panel">
+    <div class="cp-row">
+      <div class="cp-field">Period<select id="period"></select></div>
+      <div class="cp-field">Metrics (ctrl-click)<select id="metrics" multiple style="height:150px;min-width:240px"></select></div>
+      <div class="cp-field">Chart metric<select id="chart-metric"></select></div>
+      <div class="cp-field">Scatter X<select id="sx"></select></div>
+      <div class="cp-field">Scatter Y<select id="sy"></select></div>
+      <div class="cp-field">Time-series metric<select id="ts-metric"></select></div>
+      <button type="button" class="cp-btn primary" id="btn-render">Update table and charts</button>
+      <button type="button" class="cp-btn" id="btn-csv">Export CSV</button>
+    </div>
+  </div>
+
+  <div class="cp-panel cp-table-wrap"><table class="cp" id="tbl"></table><p class="cp-meta" id="count"></p></div>
+
+  <div class="cp-charts">
+    <div class="cp-panel"><div class="cp-meta" id="bar-title">Bar</div><div class="cp-canvas"><canvas id="bar"></canvas></div></div>
+    <div class="cp-panel"><div class="cp-meta" id="scatter-title">Scatter</div><div class="cp-canvas"><canvas id="scatter"></canvas></div></div>
+    <div class="cp-panel" style="grid-column: 1 / -1"><div class="cp-meta" id="ts-title">Time series</div><div class="cp-canvas"><canvas id="ts"></canvas></div></div>
+  </div>
+</div>
+<script src="js/issuers_data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="js/comps.js"></script>
+</body>
+</html>

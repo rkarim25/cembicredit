@@ -18,6 +18,7 @@
     { id: "reports", asset: "Research Reports", strategy: "Pipeline truth documents & open items", group: "corporate", href: "reports.html" },
     { id: "knowledge", asset: "Knowledge Base", strategy: "Frameworks, sovereign pages, sources", group: "corporate", href: "knowledge.html" },
     { id: "sovereigns", asset: "Sovereign Dashboard", strategy: "Comparable macro & credit data, models", group: "corporate", href: "sovereigns.html" },
+    { id: "comps", asset: "Peer Comparison", strategy: "Peer groups, metrics, charts", group: "corporate", href: "comps.html" },
 
     { id: "local_em", asset: "Local EM Desk", strategy: "GBI-EM Sovereign Debt & FX", group: "macro", href: "local_em.html" },
     { id: "cdx", asset: "CDX Desk", strategy: "EM CDX, Xover & US HY Spreads", group: "macro", href: "cdx.html" },
@@ -55,6 +56,7 @@
     if (page === "reports.html") return "reports";
     if (page === "knowledge.html") return "knowledge";
     if (page === "sovereigns.html") return "sovereigns";
+    if (page === "comps.html") return "comps";
     if (page === "index.html" || page === "") return "index";
     const match = NAV_ITEMS.find((item) => item.href.toLowerCase() === page);
     return match ? match.id : null;

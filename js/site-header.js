@@ -5,6 +5,7 @@
     { id: "corporates", label: "Corporates", pages: [
       { href: "index.html", label: "Screener & comp sheet", hint: "85 CEEMEA corporates and banks" },
       { href: "company.html", label: "Company dossiers", hint: "Financials, debt, covenants, models" },
+      { href: "comps.html", label: "Peer comparison", hint: "Peer groups, metrics, charts" },
       { href: "trends.html", label: "Trends", hint: "Spread and leverage history" },
       { href: "notes.html", label: "Footnotes", hint: "Annotations and watchlists" },
       { href: "models/CEMBI_Master_Comp_Sheet.xlsx", label: "Comp sheet (xlsx)", hint: "Download", external: true },
@@ -35,7 +36,7 @@
     ]},
   ];
   const PAGE_META = {
-    "index.html": ["corporates", "Screener & comp sheet"], "company.html": ["corporates", "Company dossiers"], "trends.html": ["corporates", "Trends"],
+    "index.html": ["corporates", "Screener & comp sheet"], "company.html": ["corporates", "Company dossiers"], "comps.html": ["corporates", "Peer comparison"], "trends.html": ["corporates", "Trends"],
     "notes.html": ["corporates", "Footnotes"], "sovereigns.html": ["sovereigns", "Dashboard"], "local_em.html": ["macro", "GBI-EM desk"],
     "gbi_em.html": ["macro", "GBI-EM desk"], "gbi_country.html": ["sovereigns", "GBI-EM country deep-dive"], "cdx.html": ["macro", "CDX desk"],
     "credit.html": ["macro", "CDX desk"], "ust.html": ["macro", "US Treasuries"], "restructuring.html": ["restructuring", "Hub"],

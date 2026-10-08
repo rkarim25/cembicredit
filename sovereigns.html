@@ -30,7 +30,12 @@
   table.sv td.name .sv-meta { font-weight: 400; }
   .sv-detail { margin-top: 18px; padding: 14px; border: 1px solid var(--border-color, #e2e8f0); border-radius: 8px; background: var(--bg-card, #fff); }
   .sv-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
-  .sv-charts canvas { max-height: 180px; }
+  .sv-chart .sv-canvas { position: relative; height: 170px; }
+  .sv-canvas-wide { position: relative; height: 320px; }
+  .sv-hist-bar { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin: 10px 0 8px; }
+  .sv-hist-bar select, .sv-hist-bar input { padding: 4px 6px; border-radius: 6px; border: 1px solid var(--border-color, #e2e8f0); background: var(--bg-card, #fff); color: inherit; font: inherit; font-size: 12px; }
+  .sv-src2 { color: var(--text-dim, #64748b); font-weight: 400; }
+  .sv-asof { font-size: 10px; color: var(--text-dim, #64748b); font-weight: 400; }
   .sv-tag { display: inline-block; font-size: 11px; padding: 1px 7px; border: 1px solid currentColor; border-radius: 10px; margin-right: 6px; }
   .sv-src { font-size: 11px; color: var(--text-muted, #475569); }
 </style>
@@ -41,7 +46,7 @@
 <body>
 <div class="sv-wrap">
   <h2 style="margin:6px 0">Sovereign dashboard</h2>
-  <p class="sv-meta">Comparable key data for the covered sovereigns. Every value is sourced and dated in <code>database/sovereigns/&lt;country&gt;.json</code>; derived ratios are computed. Colours: green good, amber middle, red weak, by the thresholds in the pipeline's indicator table. Hover a cell for its source. Click a country for series and links. Workbooks: <code>models/sovereigns/</code>.</p>
+  <p class="sv-meta">Comparable key data for the covered sovereigns. Every value is sourced and dated in <code>database/sovereigns/&lt;country&gt;.json</code>; derived ratios are computed. Colours: green good, amber middle, red weak, by the thresholds in the pipeline's indicator table. Under each value is its period or as-of date; hover for the source. Click a country for its history and links. Workbooks: <code>models/sovereigns/</code>.</p>
   <div class="sv-bar">
     <input id="q" placeholder="Filter countries…">
     <select id="region"><option value="">All regions</option></select>
@@ -53,6 +58,7 @@
   </div>
   <div class="sv-table-wrap"><table class="sv" id="tbl"></table></div>
   <div class="sv-detail" id="detail" style="display:none"></div>
+  <div class="sv-detail" id="compare"></div>
 </div>
 <script src="js/sovereigns_data.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
