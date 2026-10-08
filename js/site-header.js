@@ -68,7 +68,7 @@
   function searchIndex() {
     const items = [];
     SECTIONS.forEach(s => s.pages.forEach(p => items.push({ label: p.label, group: s.label, href: p.href })));
-    (window.MASTER_ISSUERS || []).forEach(i => { const m = i.metadata || {}; if (m.name) items.push({ label: `${m.name} (${m.ticker || m.id})`, group: "Issuer", href: `company.html?id=${m.id}` }); });
+    ((typeof MASTER_ISSUERS !== 'undefined' ? MASTER_ISSUERS : (window.MASTER_ISSUERS || []))).forEach(i => { const m = i.metadata || {}; if (m.name) items.push({ label: `${m.name} (${m.ticker || m.id})`, group: "Issuer", href: `company.html?id=${m.id}` }); });
     (window.SOVEREIGNS || []).forEach(s => items.push({ label: `${s.country} sovereign`, group: "Sovereign", href: `sovereigns.html#${s.slug}` }));
     return items;
   }

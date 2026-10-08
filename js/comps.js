@@ -1,5 +1,5 @@
 (function () {
-  const ALL = (window.MASTER_ISSUERS || []).filter(i => i && i.metadata);
+  const ALL = ((typeof MASTER_ISSUERS !== 'undefined' ? MASTER_ISSUERS : (window.MASTER_ISSUERS || []))).filter(i => i && i.metadata);
   const PERIODS = ['2021A', '2022A', '2023A', '2024A', '2025E', '2026E', '2027E'];
   // metric key, label, source ('m' = metadata, 'f' = financials by period), unit, better ('up' | 'down' | null)
   const METRICS = [
