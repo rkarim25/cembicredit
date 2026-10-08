@@ -490,6 +490,24 @@
       "2029": 31644.581,
       "2030": 32555.368,
       "2031": 33518.663
+    },
+    "gov_revenue_pct_gdp_wb": {
+      "2020": 15.454,
+      "2019": 19.084,
+      "2018": 18.655,
+      "2017": 15.533,
+      "2016": 14.673,
+      "2015": 16.469,
+      "2014": 23.414,
+      "2013": 23.129,
+      "2012": 24.755,
+      "2011": 24.175,
+      "2010": 21.302,
+      "2009": 19.474,
+      "2008": 27.393,
+      "2007": 24.488,
+      "2006": 26.033,
+      "2005": 27.175
     }
   },
   "series_official_sources": {
@@ -505,7 +523,8 @@
     "fiscal_balance_pct_gdp": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
     "nominal_gdp_usd_bn": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
     "unemployment_pct": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "gdp_per_capita_usd": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections"
+    "gdp_per_capita_usd": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "gov_revenue_pct_gdp_wb": "World Bank WDI (API)"
   },
   "series_monthly": {
     "fx_per_usd": {

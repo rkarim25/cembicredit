@@ -12,7 +12,7 @@
     ['gross_reserves_usd_bn', 'Reserves incl. gold (USD bn)'], ['import_cover_months', 'Import cover (months)'], ['external_debt_stock_usd_bn', 'External debt stock (USD bn)'],
     ['external_debt_pct_gni', 'External debt (% GNI)'], ['debt_service_pct_exports', 'Debt service (% exports)'], ['short_term_debt_pct_reserves', 'ST debt (% reserves)'],
     ['fdi_net_pct_gdp', 'FDI, net (% GDP)'], ['exports_pct_gdp', 'Exports (% GDP)'],
-  ];
+  , ['ppg_external_debt_usd_bn', 'PPG external debt stock (USD bn)'], ['ppg_debt_service_usd_bn', 'PPG external debt service (USD bn)'], ['short_term_external_debt_usd_bn', 'Short-term external debt (USD bn)'], ['remittances_pct_gdp', 'Remittances (% GDP)'], ['external_interest_paid_usd_bn', 'External interest paid (USD bn)']];
   const COLORS = ['#0071e3', '#15803d', '#b45309', '#dc2626', '#7c3aed', '#0e7490', '#be185d', '#4d7c0f', '#9a3412', '#1e40af'];
   [...new Set(data.map(d => d.region).filter(Boolean))].sort().forEach(r => { const o = document.createElement('option'); o.value = r; o.textContent = r; region.appendChild(o); });
 

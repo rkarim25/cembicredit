@@ -464,6 +464,29 @@
       "2029": 22343.268,
       "2030": 22887.623,
       "2031": 23310.436
+    },
+    "remittances_pct_gdp": {
+      "2025": 0.036,
+      "2024": 0.036,
+      "2023": 0.037,
+      "2022": 0.036,
+      "2021": 0.045,
+      "2020": 0.051,
+      "2019": 0.044,
+      "2018": 0.043,
+      "2017": 0.048,
+      "2016": 0.052,
+      "2015": 0.05,
+      "2014": 0.042,
+      "2013": 0.043,
+      "2012": 0.045,
+      "2011": 0.05,
+      "2010": 0.06,
+      "2009": 0.07,
+      "2008": 0.056,
+      "2007": 0.081,
+      "2006": 0.092,
+      "2005": 0.11
     }
   },
   "series_official_sources": {
@@ -478,7 +501,8 @@
     "gov_debt_pct_gdp": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
     "fiscal_balance_pct_gdp": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
     "nominal_gdp_usd_bn": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "gdp_per_capita_usd": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections"
+    "gdp_per_capita_usd": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "remittances_pct_gdp": "World Bank WDI (API)"
   },
   "series_monthly": {
     "fx_per_usd": {

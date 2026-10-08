@@ -406,6 +406,50 @@
       "2029": 6195.465,
       "2030": 6405.364,
       "2031": 6613.695
+    },
+    "remittances_pct_gdp": {
+      "2024": 0.707,
+      "2023": 0.67,
+      "2022": 0.566,
+      "2021": 0.508,
+      "2020": 0.571,
+      "2019": 0.523,
+      "2018": 0.392,
+      "2017": 0.375,
+      "2016": 0.62,
+      "2015": 0.412,
+      "2014": 0.649,
+      "2013": 0.532,
+      "2012": 0.614,
+      "2011": 0.629,
+      "2010": 0.605,
+      "2009": 0.856,
+      "2008": 0.158,
+      "2007": 0.177,
+      "2006": 0.205,
+      "2005": 0.241
+    },
+    "gov_revenue_pct_gdp_wb": {
+      "2024": 35.556,
+      "2023": 35.31,
+      "2022": 31.29,
+      "2021": 30.207,
+      "2020": 33.032,
+      "2019": 32.24,
+      "2018": 30.732,
+      "2017": 32.69,
+      "2016": 31.066,
+      "2015": 35.655,
+      "2014": 36.966,
+      "2013": 35.834,
+      "2012": 35.395,
+      "2011": 32.529,
+      "2010": 27.862,
+      "2009": 31.251,
+      "2008": 32.867,
+      "2007": 33.022,
+      "2006": 32.367,
+      "2005": 28.203
     }
   },
   "series_official_sources": {
@@ -420,7 +464,9 @@
     "gov_debt_pct_gdp": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
     "fiscal_balance_pct_gdp": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
     "nominal_gdp_usd_bn": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "gdp_per_capita_usd": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections"
+    "gdp_per_capita_usd": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "remittances_pct_gdp": "World Bank WDI (API)",
+    "gov_revenue_pct_gdp_wb": "World Bank WDI (API)"
   },
   "derived": {
     "reserves_12m_pct": -6.3,

@@ -443,6 +443,51 @@
       "2007": 2.193,
       "2006": 2.55,
       "2005": 2.488
+    },
+    "remittances_pct_gdp": {
+      "2025": 2.319,
+      "2024": 2.493,
+      "2023": 2.418,
+      "2022": 2.248,
+      "2021": 2.051,
+      "2020": 2.47,
+      "2019": 2.956,
+      "2018": 2.73,
+      "2017": 2.873,
+      "2016": 3.224,
+      "2015": 3.14,
+      "2014": 2.969,
+      "2013": 3.035,
+      "2012": 2.427,
+      "2011": 1.615,
+      "2010": 1.35,
+      "2009": 1.164,
+      "2008": 0.831,
+      "2007": 0.697,
+      "2006": 0.743,
+      "2005": 0.647
+    },
+    "gov_revenue_pct_gdp_wb": {
+      "2024": 37.939,
+      "2023": 38.214,
+      "2022": 37.921,
+      "2021": 35.753,
+      "2020": 37.738,
+      "2019": 37.871,
+      "2018": 38.288,
+      "2017": 39.686,
+      "2016": 40.493,
+      "2015": 40.199,
+      "2014": 40.034,
+      "2013": 40.156,
+      "2012": 40.448,
+      "2011": 37.338,
+      "2010": 38.056,
+      "2009": 39.783,
+      "2008": 39.899,
+      "2007": 37.716,
+      "2006": 35.211,
+      "2005": 34.794
     }
   },
   "series_official_sources": {
@@ -458,7 +503,9 @@
     "gross_reserves_usd_bn": "World Bank WDI (API)",
     "fdi_net_pct_gdp": "World Bank WDI (API)",
     "exports_pct_gdp": "World Bank WDI (API)",
-    "import_cover_months": "World Bank WDI (API)"
+    "import_cover_months": "World Bank WDI (API)",
+    "remittances_pct_gdp": "World Bank WDI (API)",
+    "gov_revenue_pct_gdp_wb": "World Bank WDI (API)"
   },
   "derived": {
     "ex_ante_real_rate_pct": 4.22,
@@ -3058,5 +3105,6 @@
     "primary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Primary income, net, USD bn",
     "secondary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Secondary income (incl. remittances), net, USD bn",
     "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
-  }
+  },
+  "region": "Central Europe"
 }
