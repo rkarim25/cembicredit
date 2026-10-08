@@ -144,6 +144,15 @@
     "path": "reports/metinvest-barclays-report-and-model.md"
   },
   {
+    "topic": "Montenegro sovereign credit",
+    "slug": "montenegro-sovereign-credit",
+    "updated": "08-Oct-26",
+    "status": "Draft",
+    "open_items": 10,
+    "run": "2026-10-08_1948_montenegro-sovereign-credit",
+    "path": "reports/montenegro-sovereign-credit.md"
+  },
+  {
     "topic": "Morocco sovereign credit",
     "slug": "morocco-sovereign-credit",
     "updated": "08-Oct-26",
