@@ -1,0 +1,117 @@
+{
+  "country": "Tunisia",
+  "region": "Middle East",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "managed float",
+    "source": "Banque Centrale de Tunisie",
+    "asof": "07-Oct-26"
+  },
+  "commodity_exposure": {
+    "value": "Net energy and food importer; energy trade deficit of TND 11.3bn in 8M26",
+    "source": "Banque Centrale de Tunisie",
+    "asof": "06-Oct-26"
+  },
+  "imf": {
+    "programme": "Frozen USD 1.9bn EFF agreed at staff level in Oct-22; no active Executive Board approval",
+    "size_usd_bn": 1.9,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "IMF",
+    "asof": "08-Sep-26"
+  },
+  "politics": {
+    "next_election": null,
+    "note": "President Kais Saied consolidated executive control following October 2024 election; rejects IMF subsidy and wage bill conditionality",
+    "source": "Official election records",
+    "asof": "08-Oct-24"
+  },
+  "indicators": {
+    "cpi_latest_yoy_pct": {
+      "value": 5.6,
+      "period": "Sep-26",
+      "source": "INS",
+      "asof": "05-Oct-26"
+    },
+    "policy_rate_pct": {
+      "value": 7.0,
+      "period": "Oct-26",
+      "source": "Banque Centrale de Tunisie",
+      "asof": "07-Oct-26"
+    },
+    "net_reserves_usd_bn": {
+      "value": 7.6,
+      "definition": "net foreign exchange reserves (TND 23.7bn)",
+      "period": "Oct-26",
+      "source": "Banque Centrale de Tunisie",
+      "asof": "06-Oct-26"
+    },
+    "import_cover_months": {
+      "value": 3.1,
+      "period": "Oct-26",
+      "source": "Banque Centrale de Tunisie",
+      "asof": "06-Oct-26"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 82.0,
+      "definition": "total public debt (~82% of GDP)",
+      "period": "2026E",
+      "source": "Ministry of Finance",
+      "asof": "08-Sep-26"
+    },
+    "fiscal_balance_pct_gdp": {
+      "value": -5.2,
+      "period": "2026E",
+      "source": "Ministry of Finance",
+      "asof": "08-Sep-26"
+    },
+    "eurobonds_outstanding_usd_bn": {
+      "value": 0.15,
+      "period": "Oct-26",
+      "source": "Ministry of Finance",
+      "asof": "15-Jul-26"
+    },
+    "next_eurobond_maturity": {
+      "value": "19-Sep-27 $150m 8.25% (US066716AB78)",
+      "note": "19-Sep-27 USD 150m 8.25%",
+      "source": "Ministry of Finance",
+      "asof": "15-Jul-26"
+    }
+  },
+  "ratings": {
+    "fitch": {
+      "rating": "B-",
+      "outlook": "Stable",
+      "date": "08-Sep-26"
+    },
+    "moodys": {
+      "rating": "Caa1",
+      "outlook": "Stable",
+      "date": "16-Jul-26"
+    }
+  },
+  "series": {
+    "cpi_avg_pct": {
+      "2026E": 5.6
+    },
+    "fiscal_balance_pct_gdp": {
+      "2026E": -5.2
+    },
+    "gov_debt_pct_gdp": {
+      "2026E": 82.0
+    }
+  },
+  "series_sources": {
+    "cpi_avg_pct": "INS, 05-Oct-26",
+    "fiscal_balance_pct_gdp": "Ministry of Finance, 08-Sep-26",
+    "gov_debt_pct_gdp": "Ministry of Finance, 08-Sep-26"
+  },
+  "slug": "tunisia",
+  "asof": "08-Oct-26",
+  "run": "2026-10-08_1811_tunisia-sovereign-credit",
+  "derived": {
+    "ex_ante_real_rate_pct": 1.4,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  }
+}

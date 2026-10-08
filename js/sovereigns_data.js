@@ -1254,6 +1254,83 @@ window.SOVEREIGNS = [
   }
  },
  {
+  "slug": "tunisia",
+  "country": "Tunisia",
+  "region": "Middle East",
+  "asof": "08-Oct-26",
+  "fx_regime": "managed float",
+  "commodity": "Net energy and food importer; energy trade deficit of TND 11.3bn in 8M26",
+  "ratings": {
+   "fitch": {
+    "rating": "B-",
+    "outlook": "Stable",
+    "date": "08-Sep-26"
+   },
+   "moodys": {
+    "rating": "Caa1",
+    "outlook": "Stable",
+    "date": "16-Jul-26"
+   }
+  },
+  "imf": {
+   "programme": "Frozen USD 1.9bn EFF agreed at staff level in Oct-22; no active Executive Board approval",
+   "size_usd_bn": 1.9,
+   "approved": null,
+   "next_review": null,
+   "risk_of_debt_distress": null,
+   "source": "IMF",
+   "asof": "08-Sep-26"
+  },
+  "politics": {
+   "next_election": null,
+   "note": "President Kais Saied consolidated executive control following October 2024 election; rejects IMF subsidy and wage bill conditionality",
+   "source": "Official election records",
+   "asof": "08-Oct-24"
+  },
+  "ind": {
+   "cpi_latest_yoy_pct": 5.6,
+   "policy_rate_pct": 7.0,
+   "net_reserves_usd_bn": 7.6,
+   "import_cover_months": 3.1,
+   "gov_debt_pct_gdp": 82.0,
+   "fiscal_balance_pct_gdp": -5.2,
+   "eurobonds_outstanding_usd_bn": 0.15,
+   "next_eurobond_maturity": "19-Sep-27 $150m 8.25% (US066716AB78)",
+   "ex_ante_real_rate_pct": 1.4
+  },
+  "src": {
+   "cpi_latest_yoy_pct": "INS 05-Oct-26",
+   "policy_rate_pct": "Banque Centrale de Tunisie 07-Oct-26",
+   "net_reserves_usd_bn": "Banque Centrale de Tunisie 06-Oct-26",
+   "import_cover_months": "Banque Centrale de Tunisie 06-Oct-26",
+   "gov_debt_pct_gdp": "Ministry of Finance 08-Sep-26",
+   "fiscal_balance_pct_gdp": "Ministry of Finance 08-Sep-26",
+   "eurobonds_outstanding_usd_bn": "Ministry of Finance 15-Jul-26",
+   "next_eurobond_maturity": "Ministry of Finance 15-Jul-26",
+   "ex_ante_real_rate_pct": "derived"
+  },
+  "derived": {
+   "ex_ante_real_rate_pct": 1.4,
+   "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  },
+  "series": {
+   "cpi_avg_pct": {
+    "2026E": 5.6
+   },
+   "fiscal_balance_pct_gdp": {
+    "2026E": -5.2
+   },
+   "gov_debt_pct_gdp": {
+    "2026E": 82.0
+   }
+  },
+  "report": {
+   "open_items": "5",
+   "updated": "08-Oct-26",
+   "status": "Draft"
+  }
+ },
+ {
   "slug": "turkey",
   "country": "Turkey",
   "region": "Europe",
