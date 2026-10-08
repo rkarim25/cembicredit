@@ -284,6 +284,76 @@ window.SOVEREIGNS = [
   }
  },
  {
+  "slug": "cameroon",
+  "country": "Cameroon",
+  "region": "Africa",
+  "asof": "08-Oct-26",
+  "fx_regime": "peg to EUR",
+  "commodity": "Crude oil, liquefied natural gas (LNG), cocoa, and timber export earnings",
+  "ratings": {
+   "fitch": {
+    "rating": "B",
+    "outlook": "Negative",
+    "date": "24-Apr-26"
+   },
+   "sp": {
+    "rating": "B-",
+    "outlook": "Stable",
+    "date": "21-Mar-25"
+   },
+   "moodys": {
+    "rating": "Caa1",
+    "outlook": "Stable",
+    "date": "27-Feb-24"
+   }
+  },
+  "imf": {
+   "programme": "Post-Financing Assessment (PFA); ECF/EFF/RSF completed Jul-25",
+   "size_usd_bn": 1.0,
+   "approved": "15-Jul-21",
+   "next_review": null,
+   "risk_of_debt_distress": "high",
+   "source": "IMF",
+   "asof": "15-Jul-25"
+  },
+  "politics": {
+   "next_election": null,
+   "note": "President Paul Biya (aged 93) re-elected 12-Oct-25 for an eighth term; constitutional amendment in Apr-26 created an appointed Vice President",
+   "source": "Elections Cameroon / Cameroon Tribune",
+   "asof": "Apr-26"
+  },
+  "ind": {
+   "cpi_latest_yoy_pct": 2.6,
+   "external_debt_pct_gdp": 30.0,
+   "gov_debt_pct_gdp": 43.0,
+   "revenue_pct_gdp": 12.0,
+   "interest_pct_revenue": 20.0,
+   "next_eurobond_maturity": "19-Nov-25 residual USD 68.7m 9.50% (XS1313779081)"
+  },
+  "src": {
+   "cpi_latest_yoy_pct": "INS Cameroun Aug-26",
+   "external_debt_pct_gdp": "CAA 30-Jun-25",
+   "gov_debt_pct_gdp": "CAA 30-Jun-25",
+   "revenue_pct_gdp": "IMF Jul-25",
+   "interest_pct_revenue": "IMF Jul-25",
+   "next_eurobond_maturity": "CAA / Prospectus Jul-24"
+  },
+  "derived": {},
+  "series": {
+   "gov_debt_pct_gdp": {
+    "2025": 43.0
+   },
+   "external_debt_pct_gdp": {
+    "2025": 30.0
+   }
+  },
+  "report": {
+   "open_items": "5",
+   "updated": "08-Oct-26",
+   "status": "Draft"
+  }
+ },
+ {
   "slug": "cote-d-ivoire",
   "country": "Cote d'Ivoire",
   "region": "Africa",

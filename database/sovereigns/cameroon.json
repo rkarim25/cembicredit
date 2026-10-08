@@ -1,0 +1,105 @@
+{
+  "country": "Cameroon",
+  "region": "Africa",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "peg to EUR",
+    "source": "BEAC",
+    "asof": "Jun-26"
+  },
+  "commodity_exposure": {
+    "value": "Crude oil, liquefied natural gas (LNG), cocoa, and timber export earnings",
+    "source": "IMF",
+    "asof": "Jul-25"
+  },
+  "imf": {
+    "programme": "Post-Financing Assessment (PFA); ECF/EFF/RSF completed Jul-25",
+    "size_usd_bn": 1.0,
+    "approved": "15-Jul-21",
+    "next_review": null,
+    "risk_of_debt_distress": "high",
+    "source": "IMF",
+    "asof": "15-Jul-25"
+  },
+  "politics": {
+    "next_election": null,
+    "note": "President Paul Biya (aged 93) re-elected 12-Oct-25 for an eighth term; constitutional amendment in Apr-26 created an appointed Vice President",
+    "source": "Elections Cameroon / Cameroon Tribune",
+    "asof": "Apr-26"
+  },
+  "indicators": {
+    "cpi_latest_yoy_pct": {
+      "value": 2.6,
+      "period": "Aug-26",
+      "source": "INS Cameroun",
+      "asof": "Aug-26"
+    },
+    "external_debt_pct_gdp": {
+      "value": 30.0,
+      "definition": "external public debt",
+      "period": "30-Jun-25",
+      "source": "CAA",
+      "asof": "30-Jun-25"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 43.0,
+      "definition": "total public debt (XAF 14.105 trillion)",
+      "period": "30-Jun-25",
+      "source": "CAA",
+      "asof": "30-Jun-25"
+    },
+    "revenue_pct_gdp": {
+      "value": 12.0,
+      "definition": "domestic non-oil revenue mobilisation",
+      "period": "2025",
+      "source": "IMF",
+      "asof": "Jul-25"
+    },
+    "interest_pct_revenue": {
+      "value": 20.0,
+      "definition": "debt service exceeds 20% of budgetary revenues",
+      "period": "2025",
+      "source": "IMF",
+      "asof": "Jul-25"
+    },
+    "next_eurobond_maturity": {
+      "value": "19-Nov-25 residual USD 68.7m 9.50% (XS1313779081)",
+      "note": "19-Nov-25 USD 68.7m",
+      "source": "CAA / Prospectus",
+      "asof": "Jul-24"
+    }
+  },
+  "ratings": {
+    "fitch": {
+      "rating": "B",
+      "outlook": "Negative",
+      "date": "24-Apr-26"
+    },
+    "sp": {
+      "rating": "B-",
+      "outlook": "Stable",
+      "date": "21-Mar-25"
+    },
+    "moodys": {
+      "rating": "Caa1",
+      "outlook": "Stable",
+      "date": "27-Feb-24"
+    }
+  },
+  "series": {
+    "gov_debt_pct_gdp": {
+      "2025": 43.0
+    },
+    "external_debt_pct_gdp": {
+      "2025": 30.0
+    }
+  },
+  "series_sources": {
+    "gov_debt_pct_gdp": "CAA, 30-Jun-25",
+    "external_debt_pct_gdp": "CAA, 30-Jun-25"
+  },
+  "slug": "cameroon",
+  "asof": "08-Oct-26",
+  "run": "2026-10-08_1650_cameroon-sovereign-credit",
+  "derived": {}
+}
