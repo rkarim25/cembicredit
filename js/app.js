@@ -206,7 +206,9 @@ function renderTable() {
   const tbody = document.getElementById("issuers-tbody");
   tbody.innerHTML = "";
   
-  document.getElementById("match-count").textContent = filteredIssuers.length + " issuers matching";
+  const totalIssuers = (typeof MASTER_ISSUERS !== "undefined" ? MASTER_ISSUERS.length : filteredIssuers.length);
+  const hidden = totalIssuers - filteredIssuers.length;
+  document.getElementById("match-count").textContent = "Showing " + filteredIssuers.length + " of " + totalIssuers + " issuers" + (hidden > 0 ? " (" + hidden + " hidden by the filters above)" : "");
   
   filteredIssuers.forEach(item => {
     const m = item.metadata;

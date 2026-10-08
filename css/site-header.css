@@ -1,0 +1,42 @@
+/* Shared site header: sections with dropdowns, breadcrumb, back button, search. Theme variables from css/style.css. */
+.site-header { position: sticky; top: 0; z-index: 1000; background: var(--bg-card, #fff); border-bottom: 1px solid var(--border-color, #e2e8f0); box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,.06)); font-family: inherit; }
+.sh-bar { display: flex; align-items: center; gap: 18px; padding: 8px 22px; max-width: 1750px; margin: 0 auto; }
+.sh-brand { font-weight: 800; font-size: 17px; color: var(--text-main, #0f172a); text-decoration: none; letter-spacing: -0.01em; white-space: nowrap; }
+.sh-sections { display: flex; gap: 2px; flex: 1; }
+.sh-section { position: relative; }
+.sh-section-btn { background: none; border: 0; padding: 8px 12px; font: inherit; font-size: 13.5px; font-weight: 600; color: var(--text-muted, #475569); cursor: pointer; border-radius: 6px; }
+.sh-section-btn:hover, .sh-section.open .sh-section-btn { background: var(--bg-card-hover, #f1f5f9); color: var(--text-main, #0f172a); }
+.sh-section.active .sh-section-btn { color: var(--accent-blue, #0071e3); box-shadow: inset 0 -2px 0 var(--accent-blue, #0071e3); border-radius: 6px 6px 0 0; }
+.sh-menu { display: none; position: absolute; left: 0; top: calc(100% + 4px); min-width: 280px; background: var(--bg-card, #fff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 8px; box-shadow: var(--shadow-hover, 0 8px 28px -4px rgba(0,0,0,.12)); padding: 6px; z-index: 1001; }
+.sh-section.open .sh-menu, .sh-section:hover .sh-menu { display: block; }
+.sh-menu-item { display: flex; flex-direction: column; padding: 7px 10px; border-radius: 6px; text-decoration: none; color: var(--text-main, #0f172a); }
+.sh-menu-item:hover { background: var(--bg-card-hover, #f1f5f9); }
+.sh-menu-item.current { background: rgba(0,113,227,.08); }
+.sh-menu-label { font-size: 13.5px; font-weight: 600; }
+.sh-menu-hint { font-size: 11.5px; color: var(--text-muted, #475569); }
+.sh-right { display: flex; align-items: center; gap: 10px; }
+.sh-search { position: relative; }
+.sh-search input { width: 260px; padding: 7px 10px; border-radius: 6px; border: 1px solid var(--border-color, #e2e8f0); background: var(--bg-sub, #f8fafc); color: var(--text-main, #0f172a); font: inherit; font-size: 13px; }
+.sh-search input:focus { outline: none; border-color: var(--border-focus, #0071e3); background: var(--bg-card, #fff); }
+.sh-results { display: none; position: absolute; right: 0; top: calc(100% + 4px); width: 360px; max-height: 380px; overflow: auto; background: var(--bg-card, #fff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 8px; box-shadow: var(--shadow-hover, 0 8px 28px -4px rgba(0,0,0,.12)); padding: 4px; z-index: 1002; }
+.sh-results.open { display: block; }
+.sh-result { display: flex; gap: 10px; align-items: baseline; padding: 7px 10px; border-radius: 6px; text-decoration: none; color: var(--text-main, #0f172a); font-size: 13px; }
+.sh-result:hover { background: var(--bg-card-hover, #f1f5f9); }
+.sh-result-group { font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; color: var(--text-dim, #64748b); min-width: 64px; }
+.sh-crumbs { display: flex; align-items: center; gap: 12px; padding: 4px 22px 7px; max-width: 1750px; margin: 0 auto; font-size: 12.5px; color: var(--text-muted, #475569); }
+.sh-back { border: 1px solid var(--border-color, #e2e8f0); background: var(--bg-sub, #f8fafc); color: var(--text-main, #0f172a); border-radius: 6px; padding: 3px 9px; font: inherit; font-size: 12px; cursor: pointer; }
+.sh-back:hover { background: var(--bg-card-hover, #f1f5f9); }
+.sh-back.disabled { opacity: .45; cursor: default; }
+.sh-trail a { color: var(--text-muted, #475569); text-decoration: none; }
+.sh-trail a:hover { color: var(--accent-blue, #0071e3); text-decoration: underline; }
+.sh-sep { margin: 0 6px; color: var(--text-dim, #64748b); }
+.sh-current { color: var(--text-main, #0f172a); font-weight: 600; }
+.sh-updated { margin-left: auto; color: var(--text-dim, #64748b); font-size: 11.5px; }
+/* legacy per-page nav rows: keep page actions (buttons, downloads, news), hide the duplicated section links */
+body.has-site-header header > nav a.nav-link:not(#nav-news-link):not(#nav-dedicated-link) { display: none; }
+body.has-site-header header > nav { gap: 8px; }
+@media (max-width: 900px) {
+  .sh-bar { flex-wrap: wrap; gap: 8px; }
+  .sh-sections { order: 3; width: 100%; overflow-x: auto; }
+  .sh-search input { width: 180px; }
+}
