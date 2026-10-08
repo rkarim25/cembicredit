@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sovereign Dashboard | CEMBI Credit</title>
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .sv-wrap { padding: 16px 24px; max-width: 1700px; margin: 0 auto; }
+  .sv-bar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 8px 0 12px; }
+  .sv-bar select, .sv-bar input { padding: 6px 8px; border-radius: 6px; border: 1px solid rgba(128,128,128,.4); background: transparent; color: inherit; }
+  .sv-meta { font-size: 12px; opacity: .7; }
+  .sv-table-wrap { overflow-x: auto; }
+  table.sv { border-collapse: collapse; font-size: 12.5px; white-space: nowrap; }
+  table.sv th, table.sv td { border-bottom: 1px solid rgba(128,128,128,.25); padding: 5px 8px; text-align: right; }
+  table.sv th { position: sticky; top: 0; background: var(--bg, #0f172a); cursor: pointer; user-select: none; }
+  table.sv th:first-child, table.sv td:first-child { text-align: left; position: sticky; left: 0; background: var(--bg, #0f172a); }
+  table.sv td.good { background: rgba(16,185,129,.22); }
+  table.sv td.mid { background: rgba(245,158,11,.18); }
+  table.sv td.bad { background: rgba(239,68,68,.25); }
+  table.sv tr:hover td { filter: brightness(1.15); }
+  table.sv td.name { font-weight: 600; cursor: pointer; }
+  .sv-detail { margin-top: 18px; padding: 14px; border: 1px solid rgba(128,128,128,.3); border-radius: 8px; }
+  .sv-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+  .sv-charts canvas { max-height: 180px; }
+  .sv-tag { display: inline-block; font-size: 11px; padding: 1px 7px; border: 1px solid currentColor; border-radius: 10px; margin-right: 6px; }
+  .sv-src { font-size: 11px; opacity: .7; }
+</style>
+</head>
+<body>
+<div class="sv-wrap">
+  <h2 style="margin:6px 0">Sovereign dashboard</h2>
+  <p class="sv-meta">Comparable key data for the covered sovereigns. Every value is sourced and dated in <code>database/sovereigns/&lt;country&gt;.json</code>; derived ratios are computed. Colours: green good, amber middle, red weak, by the thresholds in the pipeline's indicator table. Hover a cell for its source. Click a country for series and links. Workbooks: <code>models/sovereigns/</code>.</p>
+  <div class="sv-bar">
+    <input id="q" placeholder="Filter countries…">
+    <select id="region"><option value="">All regions</option></select>
+    <select id="group"><option value="">All indicator groups</option><option value="growth">Growth</option><option value="monetary">Monetary</option><option value="external">External</option><option value="fiscal">Fiscal</option><option value="market">Market</option></select>
+    <span class="sv-meta" id="count"></span>
+    <a class="sv-meta" href="models/sovereigns/Sovereign_Comp_Sheet.xlsx">Download comp sheet (xlsx)</a>
+    <a class="sv-meta" href="knowledge.html">Knowledge base</a>
+    <a class="sv-meta" href="reports.html">Reports</a>
+  </div>
+  <div class="sv-table-wrap"><table class="sv" id="tbl"></table></div>
+  <div class="sv-detail" id="detail" style="display:none"></div>
+</div>
+<script src="js/sovereigns_data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="js/sovereigns.js"></script>
+</body>
+</html>
