@@ -72,6 +72,15 @@
     "path": "reports/metinvest-barclays-report-and-model.md"
   },
   {
+    "topic": "Morocco sovereign credit",
+    "slug": "morocco-sovereign-credit",
+    "updated": "08-Oct-26",
+    "status": "Draft",
+    "open_items": 9,
+    "run": "2026-10-08_1419_morocco-sovereign-credit",
+    "path": "reports/morocco-sovereign-credit.md"
+  },
+  {
     "topic": "Nigeria sovereign credit",
     "slug": "nigeria-sovereign-credit",
     "updated": "08-Oct-26",
