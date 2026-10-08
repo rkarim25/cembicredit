@@ -80856,40 +80856,40 @@ window.SOVEREIGNS = [
    "cpi_latest_yoy_pct": 29.73,
    "policy_rate_pct": 37.0,
    "current_account_pct_gdp": -2.7,
-   "gross_reserves_usd_bn": 61.56,
+   "gross_reserves_usd_bn": 174.4,
    "short_term_external_debt_usd_bn": 170.7,
    "external_debt_pct_gdp": 31.8,
    "gov_debt_pct_gdp": 29.5,
    "fiscal_balance_pct_gdp": -5.2,
    "import_cover_months": 5.128,
-   "fdi_net_pct_gdp": 0.812,
+   "fdi_net_pct_gdp": 0.81,
    "real_gdp_growth_pct": 3.4,
-   "nominal_gdp_usd_bn": 1640.223,
+   "nominal_gdp_usd_bn": 1640.2,
    "inflation_expectation_12m_pct": 24.5,
    "gefr_usd_bn": 208.0,
    "ex_ante_real_rate_pct": 12.5,
-   "reserves_to_std": 0.36,
+   "reserves_to_std": 1.02,
    "reer_z_10y": 0.31,
    "reer_latest": 108.09,
    "reserves_12m_pct": 4.7,
    "ctot_12m_pct": -1.0,
-   "gefr_pct_reserves": 337.9
+   "gefr_pct_reserves": 119.3
   },
   "src": {
-   "cpi_latest_yoy_pct": "TurkStat 03-Oct-26",
-   "policy_rate_pct": "TCMB MPC decision (1-week repo auction rate) 10-Sep-26",
-   "current_account_pct_gdp": "HMB / IMF (FY26 projected deficit 2.6% to 2.8% of GDP; midpoint) Aug-26",
-   "gross_reserves_usd_bn": "TCMB Weekly International Reserves and Foreign Currency Liquidity 25-Sep-26 | gross FX reserves (as reported by TCMB; gold treatment not stated)",
+   "cpi_latest_yoy_pct": "TurkStat, Consumer Price Index September 2026 03-Oct-26",
+   "policy_rate_pct": "TCMB MPC decision, 1-week repo rate (IMF series shows 35.5%, definition unconfirmed) Sep-26",
+   "current_account_pct_gdp": "TCMB, HMB projection Jul-26",
+   "gross_reserves_usd_bn": "TCMB via run 2026-10-07_2235 18-Sep-26 | gross incl. gold",
    "short_term_external_debt_usd_bn": "TCMB Short Term External Debt Statistics 30-Jun-26 | by remaining maturity, all sectors",
-   "external_debt_pct_gdp": "HMB Gross External Debt Stock Statistics 30-Jun-26 | gross external debt, all sectors",
-   "gov_debt_pct_gdp": "HMB 30-Jun-26 | central government gross debt",
-   "fiscal_balance_pct_gdp": "HMB (central government budget deficit, approximate) Aug-26",
+   "external_debt_pct_gdp": "HMB Gross External Debt Stock Statistics 30-Jun-26 | gross external debt $539.0B, all sectors",
+   "gov_debt_pct_gdp": "HMB 30-Jun-26 | central government debt",
+   "fiscal_balance_pct_gdp": "HMB budget execution Aug-26",
    "import_cover_months": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "inflation_expectation_12m_pct": "TCMB Survey of Market Participants (document states tracking ~24-25%; midpoint) 30-Sep-26",
-   "gefr_usd_bn": "TCMB / HMB Jun-26 | CA deficit + external amortisation due in 12m",
+   "fdi_net_pct_gdp": "World Bank WDI 2025",
+   "real_gdp_growth_pct": "IMF WEO 2026 08-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 2026 08-Oct-26",
+   "inflation_expectation_12m_pct": "TCMB Survey of Market Participants (midpoint of stated 24-25%) Sep-26",
+   "gefr_usd_bn": "TCMB/HMB (components not in hand) Jun-26 | CA deficit + external amortisation due in 12m",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reserves_to_std": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (BIS real broad EER))",
@@ -80900,7 +80900,7 @@ window.SOVEREIGNS = [
   },
   "derived": {
    "ex_ante_real_rate_pct": 12.5,
-   "reserves_to_std": 0.36,
+   "reserves_to_std": 1.02,
    "reer_z_10y": 0.31,
    "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
    "reer_latest": 108.09,
@@ -80908,7 +80908,7 @@ window.SOVEREIGNS = [
    "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
    "ctot_12m_pct": -1.0,
    "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)",
-   "gefr_pct_reserves": 337.9
+   "gefr_pct_reserves": 119.3
   },
   "series": {
    "fiscal_balance_pct_gdp": {
@@ -80922,6 +80922,12 @@ window.SOVEREIGNS = [
    },
    "external_debt_pct_gdp": {
     "2026E": 31.8
+   },
+   "real_gdp_growth_pct": {
+    "2026E": 3.4
+   },
+   "nominal_gdp_usd_bn": {
+    "2026E": 1640.2
    }
   },
   "hist": {
@@ -83019,12 +83025,12 @@ window.SOVEREIGNS = [
   "asof_ind": {
    "cpi_latest_yoy_pct": "Sep-26",
    "policy_rate_pct": "Sep-26",
-   "current_account_pct_gdp": "2026E",
-   "gross_reserves_usd_bn": "25-Sep-26",
+   "current_account_pct_gdp": "2026F (projected range -2.6 to -2.8)",
+   "gross_reserves_usd_bn": "18-Sep-26",
    "short_term_external_debt_usd_bn": "30-Jun-26",
-   "external_debt_pct_gdp": "Q2-26",
+   "external_debt_pct_gdp": "30-Jun-26",
    "gov_debt_pct_gdp": "Q2-26",
-   "fiscal_balance_pct_gdp": "2026E",
+   "fiscal_balance_pct_gdp": "FY26 tracking (approximate)",
    "import_cover_months": "2025",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
@@ -83040,7 +83046,7 @@ window.SOVEREIGNS = [
    "gefr_pct_reserves": "derived"
   },
   "report": {
-   "open_items": "6",
+   "open_items": "14",
    "updated": "08-Oct-26",
    "status": "Draft"
   }
