@@ -438,6 +438,62 @@ window.SOVEREIGNS = [
   }
  },
  {
+  "slug": "gabon",
+  "country": "Gabon",
+  "region": "Africa",
+  "asof": "08-Oct-26",
+  "fx_regime": "peg to EUR",
+  "commodity": "Crude oil accounts for ~60% of fiscal revenue and ~75% of goods exports; vulnerable below USD 65/bbl",
+  "ratings": {
+   "fitch": {
+    "rating": "CCC-",
+    "outlook": "Stable",
+    "date": "22-May-26"
+   },
+   "moodys": {
+    "rating": "Caa2",
+    "outlook": "Negative",
+    "date": "18-Jun-26"
+   }
+  },
+  "imf": {
+   "programme": "None (technical surveillance only)",
+   "size_usd_bn": null,
+   "approved": null,
+   "next_review": null,
+   "risk_of_debt_distress": null,
+   "source": "IMF",
+   "asof": "25-Sep-26"
+  },
+  "politics": {
+   "next_election": null,
+   "note": "Presidential election won by Brice Oligui Nguema on 12-Apr-25 (94.85%); new constitution approved Nov-24",
+   "source": "MoI Gabon",
+   "asof": "Apr-25"
+  },
+  "ind": {
+   "gov_debt_pct_gdp": 70.0,
+   "gfn_pct_gdp": 17.5,
+   "next_eurobond_maturity": "06-Feb-31 USD 1.0bn 6.625% (XS2113615228)"
+  },
+  "src": {
+   "gov_debt_pct_gdp": "IMF 24-May-24",
+   "gfn_pct_gdp": "Fitch 22-May-26",
+   "next_eurobond_maturity": "Prospectus Feb-20"
+  },
+  "derived": {},
+  "series": {
+   "gov_debt_pct_gdp": {
+    "2024": 70.0
+   }
+  },
+  "report": {
+   "open_items": "6",
+   "updated": "08-Oct-26",
+   "status": "Draft"
+  }
+ },
+ {
   "slug": "ghana",
   "country": "Ghana",
   "region": "Africa",
