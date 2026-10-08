@@ -505,9 +505,9 @@ window.SOVEREIGNS = [
    "nominal_gdp_usd_bn": "2026E"
   },
   "report": {
-   "open_items": null,
-   "updated": null,
-   "status": null
+   "open_items": "9",
+   "updated": "08-Oct-26",
+   "status": "Draft"
   }
  },
  {
