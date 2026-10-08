@@ -24714,10 +24714,10 @@ window.SOVEREIGNS = [
  {
   "slug": "cote-d-ivoire",
   "country": "Cote d'Ivoire",
-  "region": "Sub-Saharan Africa (WAEMU)",
+  "region": "West Africa (WAEMU)",
   "asof": "08-Oct-26",
   "fx_regime": "peg to EUR",
-  "commodity": "Cocoa and agricultural exports; offshore oil and gas (Baleine, Calao) increasingly relevant; cocoa price and Brent are the prices that matter",
+  "commodity": "Cocoa is the swing export price (commodity terms of trade -7.3% in the 12 months to May-26); oil and gas rising with Eni Baleine Phase 3",
   "ratings": {
    "sp": {
     "rating": "BB",
@@ -24736,19 +24736,19 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "EFF/ECF (40-month, US$3.5B) and RSF (US$1.3B); final reviews completed Jun-26",
-   "size_usd_bn": 4.8,
+   "programme": "EFF/ECF (US$3.5B) and RSF (US$1.3B), final reviews completed Jun-26",
+   "size_usd_bn": 3.5,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": "low",
    "source": "IMF Executive Board press release",
-   "asof": "30-Jun-26"
+   "asof": "01-Jun-26"
   },
   "politics": {
-   "next_election": "2030",
-   "note": "Ouattara re-elected for a fourth term on 25-Oct-25 with 89.8% of the vote (50.1% turnout); policy continuity expected through 2030. Sahel/AES border security is the main regional risk.",
-   "source": "Commission \u00c9lectorale Ind\u00e9pendante; Fitch Ratings",
-   "asof": "12-Jun-26"
+   "next_election": null,
+   "note": "Ouattara re-elected 25-Oct-25 with 89.8% of the vote; 2027 Finance Law adoption due 15-Dec-26",
+   "source": "CEI provisional results, Oct-25; Ministry of Finance, Oct-26",
+   "asof": "25-Oct-25"
   },
   "ind": {
    "real_gdp_growth_pct": 6.0,
@@ -24758,21 +24758,21 @@ window.SOVEREIGNS = [
    "gov_debt_pct_gdp": 55.1,
    "fdi_net_pct_gdp": 2.03,
    "current_account_pct_gdp": -1.1,
-   "nominal_gdp_usd_bn": 112.115,
+   "nominal_gdp_usd_bn": 112.1,
    "ex_ante_real_rate_pct": 1.8,
    "reer_z_10y": 0.6,
    "reer_latest": 99.3535,
    "ctot_12m_pct": -7.3
   },
   "src": {
-   "real_gdp_growth_pct": "IMF 30-Jun-26",
-   "cpi_latest_yoy_pct": "Institut National de la Statistique (IHPC) 31-Aug-26",
+   "real_gdp_growth_pct": "IMF 01-Jun-26",
+   "cpi_latest_yoy_pct": "INS Cote d'Ivoire, IHPC 31-Aug-26",
    "policy_rate_pct": "BCEAO Monetary Policy Committee 09-Sep-26",
-   "fiscal_balance_pct_gdp": "IMF / Ministry of Finance (budgeted deficit) 30-Jun-26",
-   "gov_debt_pct_gdp": "IMF / Ministry of Finance 30-Jun-26 | Central government debt",
-   "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
+   "fiscal_balance_pct_gdp": "IMF / Ministry of Finance 01-Jun-26",
+   "gov_debt_pct_gdp": "IMF / Ministry of Finance 01-Jun-26 | Government debt, projection; WAEMU ceiling 70%",
+   "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
+   "current_account_pct_gdp": "IMF WEO 08-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER))",
    "reer_latest": "derived from the inputs above ()",
@@ -24800,6 +24800,12 @@ window.SOVEREIGNS = [
     "2026E": -3.8,
     "2025": -3.0,
     "2028F": -3.0
+   },
+   "current_account_pct_gdp": {
+    "2026E": -1.1
+   },
+   "nominal_gdp_usd_bn": {
+    "2026E": 112.1
    }
   },
   "hist": {
@@ -25858,7 +25864,7 @@ window.SOVEREIGNS = [
    "real_gdp_growth_pct": "2026E",
    "cpi_latest_yoy_pct": "Aug-26",
    "policy_rate_pct": "Sep-26",
-   "fiscal_balance_pct_gdp": "2026E",
+   "fiscal_balance_pct_gdp": "2026 budget",
    "gov_debt_pct_gdp": "2026E",
    "fdi_net_pct_gdp": "2025",
    "current_account_pct_gdp": "2026E",
@@ -25869,7 +25875,7 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "7",
+   "open_items": "10",
    "updated": "08-Oct-26",
    "status": "Draft"
   }
