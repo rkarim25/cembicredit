@@ -36300,7 +36300,7 @@ window.SOVEREIGNS = [
   "region": "Sub-Saharan Africa",
   "asof": "08-Oct-26",
   "fx_regime": "float",
-  "commodity": "Gold (GoldBod purchases, US$1.871B FX in Sep-26) and cocoa export earnings drive FX inflows",
+  "commodity": "Gold (GoldBod FX inflows drive the goods surplus and current account); cocoa (COCOBOD crop financing is a fiscal item). The gold price matters most.",
   "ratings": {
    "fitch": {
     "rating": "B",
@@ -36319,12 +36319,12 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "36-month non-financing Policy Coordination Instrument (PCI), following completion of the US$3.0B ECF",
-   "size_usd_bn": 3.0,
-   "approved": null,
-   "next_review": "15-Dec-26 first PCI monitoring mission",
+   "programme": "36-month non-financing Policy Coordination Instrument (PCI), following the US$3.0B ECF closed 27-Jul-26",
+   "size_usd_bn": null,
+   "approved": "27-Jul-26",
+   "next_review": "15-Dec-26 (first monitoring mission)",
    "risk_of_debt_distress": null,
-   "source": "IMF Press Release 26/242; IMF calendar",
+   "source": "IMF press release on the sixth ECF review and PCI; IMF calendar",
    "asof": "27-Jul-26"
   },
   "politics": {},
@@ -36338,7 +36338,7 @@ window.SOVEREIGNS = [
    "current_account_pct_gdp": 10.1,
    "gov_debt_pct_gdp": 53.0,
    "fiscal_balance_pct_gdp": -2.3,
-   "nominal_gdp_usd_bn": 118.293,
+   "nominal_gdp_usd_bn": 118.3,
    "current_account_4q_usd_bn": 10.06,
    "ex_ante_real_rate_pct": 8.8,
    "reer_z_10y": 1.86,
@@ -36347,16 +36347,16 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 3.3
   },
   "src": {
-   "cpi_latest_yoy_pct": "Ghana Statistical Service, Consumer Price Index Bulletin Sep-26 07-Oct-26",
+   "cpi_latest_yoy_pct": "Ghana Statistical Service, CPI Bulletin 07-Oct-26",
    "policy_rate_pct": "Bank of Ghana, 132nd MPC Communiqu\u00e9 28-Sep-26",
-   "gross_reserves_usd_bn": "Bank of Ghana 28-Sep-26 | BoG gross international reserves (approximate; gold inclusion not stated)",
+   "gross_reserves_usd_bn": "Bank of Ghana 28-Sep-26 | Bank of Ghana-reported gross; not reconciled with IMF International Liquidity gross incl. gold of 9.72 (Jul-26), 12.41 (Mar-26)",
    "import_cover_months": "Bank of Ghana 28-Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gov_debt_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
+   "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
+   "current_account_pct_gdp": "IMF WEO 08-Oct-26",
+   "gov_debt_pct_gdp": "IMF WEO 08-Oct-26 | General government debt, IMF WEO",
+   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER))",
@@ -36375,7 +36375,23 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 3.3,
    "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
   },
-  "series": {},
+  "series": {
+   "real_gdp_growth_pct": {
+    "2026E": 4.8
+   },
+   "current_account_pct_gdp": {
+    "2026E": 10.1
+   },
+   "fiscal_balance_pct_gdp": {
+    "2026E": -2.3
+   },
+   "gov_debt_pct_gdp": {
+    "2026E": 53.0
+   },
+   "nominal_gdp_usd_bn": {
+    "2026E": 118.3
+   }
+  },
   "hist": {
    "gross_reserves_usd_bn": {
     "2025": 12.125,
@@ -38561,7 +38577,7 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "6",
+   "open_items": "10",
    "updated": "08-Oct-26",
    "status": "Draft"
   }

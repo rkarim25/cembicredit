@@ -2,97 +2,108 @@
 topic: Ghana sovereign credit
 slug: ghana-sovereign-credit
 updated: 08-Oct-26
-run: 2026-10-08_1212_ghana-sovereign-credit
+run: 2026-10-08_2118_ghana-sovereign-credit
 status: Draft
-open_items: 6
+open_items: 10
 ---
 
 # Ghana sovereign credit
 
-_Updated 08-Oct-26 · run 2026-10-08_1212_ghana-sovereign-credit_
+_Updated 08-Oct-26 · run 2026-10-08_2118_ghana-sovereign-credit_
 
 ## Open items
-1. [BBG: GHANA 5.000 07/03/2029 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the benchmark 2029 restructured Eurobond?
-2. [BBG: GHANA 6.000 01/03/2035 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the benchmark 2035 restructured Eurobond?
-3. [BBG: GHANA CDS USD SR 5Y / PX_LAST] What is the current 5Y senior sovereign CDS spread and 52-week trading range?
-4. [BBG: BoG net international reserves ex-swaps / latest print] What is the exact level of net usable international reserves excluding commercial bank FX swaps, central bank forward contracts, and gold-collateral liabilities as of end-September 2026?
-5. [BBG: GHEPO 91D T-Bill / PX_LAST and yield] What is the latest clearing cutoff yield on the 91-day and 182-day domestic Treasury bill auctions?
-6. [REZA] Following the IMF ECF graduation into the non-financing PCI and BoG ex-ante real yields at +880 bps, do we allocate to front-end local-currency T-bills (91d/182d) or express exposure via the restructured 2029 Eurobonds?
+1. [BBG: Bank of Ghana gross and net international reserves / latest release] Reconcile BoG gross US$12.0B (end-Sep-26) with the IMF series at US$9.7B (Jul-26, down from US$12.4B in Mar-26). Also supply net reserves after swaps, forwards and gold-collateral liabilities.
+2. [BBG: GHANA 5.000 07/03/2029 / YAS yield and Z-spread] Current price, yield and Z-spread on the 2029 Step-Up note. Confirm the coupon and step-up terms.
+3. [BBG: GHANA 6.000 01/03/2035 / YAS yield and Z-spread] Current price, yield and Z-spread on the 2035 Step-Up note. Confirm the coupon and step-up terms.
+4. [BBG: GHANA CDS USD SR 5Y / PX_LAST] Current 5Y CDS and its 52-week range.
+5. [BBG: GHEPO 91D T-Bill / PX_LAST and yield] Latest 91-day and 182-day auction cut-off yields. These are needed to test whether the +880 bps real rate is earned in T-bills.
+6. [REZA] Bloomberg or FT coverage over the last 90 days of the PCI approval, the rating actions and the 2027 budget: what did it say on fiscal targets and on timing of any Eurobond return?
+7. [REZA] Does the Step-Up structure include a value recovery instrument or a GDP/commodity-linked feature? Pasting the prospectus terms would close this.
+8. [REZA] After the ECF-to-PCI transition, do we favour front-end local T-bills (91d/182d) or the restructured 2029 Eurobonds?
+9. [MANAGEMENT] 2027 gross financing needs, domestic/external split, primary balance and interest-to-revenue under the PCI baseline.
+10. [MANAGEMENT] Is the FY2026 pause on Eurobond issuance a policy commitment or a market-conditions call, and does it extend into 2027?
 
 ## View
-- Ghana's sovereign credit trajectory has stabilized firmly out of default into the single-B tier following the successful completion of the $3B IMF Extended Credit Facility (ECF) on 27-Jul-26 and the 2024 Eurobond debt restructuring (IMF / S&P, Sep-26, High).
-- Sovereign ratings reflect post-default recovery: Fitch upgraded to B (Positive, May-26), S&P affirmed B-/B (Stable, Sep-26), and Moody's holds Caa1 (Positive, Apr-26) (Rating Agencies, Sep-26, High).
-- Gross international reserves reached ~$12.0B at end-September 2026, supported by the Ghana Gold Board generating $1.871B in FX during September alone under the GANRAP programme (Bank of Ghana / GoldBod, Sep-26, High).
-- Inflation is firmly anchored with September 2026 headline CPI at 5.2% YoY, providing a substantial ex-ante real policy rate of +880 bps against the Bank of Ghana's 14.0% policy rate (GSS / BoG, Oct-26, High).
-- The authorities transitioned smoothly from the financing ECF to a 36-month non-financing Policy Coordination Instrument (PCI) to lock in primary fiscal surplus targets (IMF, Jul-26, High).
-- Debt sustainability is constrained by a medium-term refinancing wall: US$6.4B in Eurobond principal and coupon payments falls due between 2027 and 2030, after zero international issuance in 2026 (World Bank / MoF, Oct-26, High).
-- The primary risks are reform fatigue ahead of future electoral cycles and external liquidity vulnerability if gold/cocoa receipts compress before commercial market access is re-established.
-- Overall confidence: High on macroeconomic stabilization, reserve accumulation, and IMF programme compliance; Medium on net usable reserve liquidity ex-swaps; Low on secondary Eurobond yields until confirmed via Bloomberg.
+- Ghana is in post-restructuring consolidation. The IMF's US$3.0B ECF closed on 27-Jul-26 with a 36-month non-financing PCI following (IMF, 27-Jul-26, Medium).
+- External flow data are strong. The current account was US$10.06B over the last four quarters (2025-Q2 to 2026-Q1) and WEO projects 10.1% of GDP for 2026E (IMF BOP/WEO, Medium). Gold inflows support this.
+- Monetary stance is tight. The MPR is 14.0% against CPI of 5.2% (Sep-26), a gap of about 880 bps. This uses trailing CPI, not forward expectations (BoG, GSS, Medium).
+- Ratings are Fitch B/Positive, S&P B-/Stable, Moody's Caa1/Positive. Momentum is positive but the three agencies are not aligned (agency actions per knowledge base, Medium).
+- The main unresolved point is reserves. The BoG figure of US$12.0B (end-Sep-26) cannot be reconciled with IMF-reported US$9.7B (Jul-26). Net usable reserves are unknown.
+- Biggest risk: with no IMF financing, a reserve reversal or fiscal slippage would meet a US$6.4B Eurobond service hump in 2027–30 (World Bank, Oct-26, Medium).
+- Other flags: REER z-score +1.86, bank NPLs 16.1% (Q2-26), and no independent web verification this run.
+- Confidence: Medium on the stabilisation story; Low on reserve liquidity and on bond pricing until Reza supplies Bloomberg data.
 
 ## What changed
-First version for Ghana sovereign credit. Establishes the post-restructuring external debt profile, IMF ECF completion and PCI transition, Bank of Ghana reserve build, disinflation path, and the 2027–2030 Eurobond refinancing wall.
+- Confidence downgraded from High to Medium on items resting only on the knowledge base. This run's web search was unavailable, so rating dates, the US$6.4B debt service and the MoF issuance pause could not be re-verified.
+- Removed claims in the prior version that had no source in the brief: the US$13B exchange size, the Step-Up coupon schedule, the food inflation figure, the PCI primary surplus floor of 1.5% of GDP, and the claim that parallel FX premiums were eliminated.
+- Added the reserve-series conflict, the REER z-score, current account detail and bank soundness data from the official data record.
+- Clarified that the +880 bps real rate uses current CPI, not 12-month forward expectations.
+- Kept the prior open items, with item 4 reworded as a reserves reconciliation. Added items on bond terms, financing needs and the issuance pause.
 
 ## Analysis
 
-### Sovereign credit rating migration and post-default profile
-- Ghana's sovereign credit trajectory has officially transitioned out of default following the successful October 2024 Eurobond exchange and structural fiscal stabilization (IMF, 27-Jul-26, High).
-- Fitch Ratings upgraded Ghana's Long-Term Foreign-Currency IDR to B with a Positive outlook in May 2026, citing institutional reform anchoring, primary balance surpluses, and external buffer restoration (Fitch Ratings, 22-May-26, High).
-- S&P Global Ratings affirmed Ghana at B-/B with a Stable outlook on 18-Sep-26, highlighting post-restructuring debt relief and central bank foreign exchange reserve accumulation while monitoring medium-term refinancing requirements (S&P Global Ratings, 18-Sep-26, High).
-- Moody's Investors Service maintains a Caa1 rating with a Positive outlook (revised April 2026), signalling potential upward migration into the B3/B- tier upon sustained compliance with post-ECF multilateral benchmarks (Moody's Investors Service, 16-Apr-26, High).
+### Ratings and programme status
+- Fitch B/Positive (22-May-26), S&P B-/Stable (18-Sep-26), Moody's Caa1/Positive (16-Apr-26) (knowledge base, Medium; agency releases not re-checked this run).
+- The IMF Board completed the sixth and final ECF review on 27-Jul-26, with a US$371M disbursement. A 36-month non-financing PCI followed (IMF, 27-Jul-26, Medium).
+- The PCI removes disbursements. It remains a policy-signalling instrument, so the first monitoring mission on 15-Dec-26 is the next check on fiscal discipline (IMF calendar, Jul-26, Medium).
 
-### IMF programme completion and transition to the Policy Coordination Instrument (PCI)
-- The IMF Executive Board completed the sixth and final review under the 36-month $3.0B Extended Credit Facility (ECF) arrangement on 27-Jul-26, approving the final disbursement of SDR 277.6M (~US$371M) (IMF, 27-Jul-26, High).
-- Total disbursements under the ECF reached SDR 2.24B (~US$3.0B), meeting all end-2025 and H1 2026 quantitative performance criteria and structural benchmarks (IMF, 27-Jul-26, High).
-- Upon graduation from the financing arrangement, Ghana seamlessly transitioned into a 36-month non-financing Policy Coordination Instrument (PCI) designed to signal macroeconomic policy discipline, preserve primary surpluses above 1.5% of GDP, and catalyze private capital inflows (IMF, 27-Jul-26, High).
+### External position
+- Gross reserves were US$12.0B at end-Sep-26, equal to 5.2 months of imports (Bank of Ghana, 28-Sep-26, Medium).
+- The IMF series for gross reserves including gold shows US$12.41B (Mar-26), US$12.25B (May-26), US$10.77B (Jun-26) and US$9.72B (Jul-26). Reserves ex-gold fell from US$9.36B (Mar-26) to US$6.53B (Jul-26) (IMF International Liquidity, High on the data, definition differences unresolved).
+- Reconciling the two requires a US$2.3B rise over Aug–Sep. GoldBod reported US$1.871B of FX in September, which could explain much of it but is not verified (GoldBod, Sep-26, Medium).
+- The 12-month change in IMF gross reserves to Jul-26 is +11.9%. The Mar–Jul decline is unexplained and could reflect debt service, FX intervention or swap settlement.
+- Quarterly BOP, US$B: current account 1.715 (Q2-25), 0.579 (Q3-25), 4.667 (Q4-25), 3.097 (Q1-26). The goods surplus drives it, with services and primary income negative. FDI liabilities are about US$0.46–0.54B a quarter (IMF BOP, High). The surplus is volatile quarter to quarter.
+- The REER z-score is +1.86 against its 10-year mean (IMF CPI-based, Aug-26). This is a mean-reversion signal, not an equilibrium estimate (Medium–Low).
 
-### External reserves, gold monetization, and FX liquidity
-- Bank of Ghana (BoG) gross international reserves expanded to approximately US$12.0B at end-September 2026, representing more than 5.2 months of import cover (Bank of Ghana, 28-Sep-26, High).
-- External buffer accumulation has been structurally amplified by the Ghana Gold Board (GoldBod) under the Gold for Reserves and GANRAP framework, which delivered US$1.871B in FX during September 2026 alone from small-scale and artisanal gold purchases (GoldBod, Sep-26, High).
-- Cocoa export earnings and diversified mining receipts have stabilized the Ghanaian Cedi (GHS), dampening currency volatility and eliminating parallel FX premiums (Bank of Ghana, Sep-26, High).
-- Crucially, central bank net usable liquid reserves remain partially encumbered by domestic commercial bank FX swap lines and forward commitments, requiring granular monitoring via Bloomberg data requests (Bank of Ghana, Sep-26, Medium).
+### Fiscal and debt
+- WEO 2026E: debt 53% of GDP, fiscal balance −2.3% of GDP, real growth 4.8%, nominal GDP US$118.3B (IMF WEO, Medium).
+- Eurobond principal and coupon due 2027–30 total US$6.4B (World Bank, Oct-26, Medium; schedule not rebuilt from the prospectus).
+- The October 2024 exchange produced 2029 and 2035 Step-Up notes (Ministry of Finance, Oct-24, Medium). Coupons, step-ups, CACs and any recovery instrument are unverified here.
+- The MoF paused international issuance for FY2026 (Ministry of Finance, Sep-26, Low–Medium). Whether this is a commitment or a preference is unclear.
+- No primary balance, interest-to-revenue, arrears or contingent-liability data (energy, COCOBOD) were available. The fiscal assessment is incomplete.
 
-### Monetary policy orthodoxy, disinflation, and real yields
-- The Bank of Ghana Monetary Policy Committee (MPC) maintained its benchmark Monetary Policy Rate at 14.0% at its 132nd meeting on 28-Sep-26, balancing global trade uncertainty against strong domestic disinflation (Bank of Ghana, 28-Sep-26, High).
-- Ghana Statistical Service (GSS) reported headline inflation at 5.2% YoY in September 2026 (up marginally from 5.0% in August), remaining well within the BoG medium-term target band of 8% ± 2% (Ghana Statistical Service, 07-Oct-26, High).
-- Food inflation decelerated to 4.8% YoY on strong domestic agricultural output and lower transportation logistics costs (Ghana Statistical Service, 07-Oct-26, High).
-- The ex-ante real policy rate stands deeply positive at +880 bps (14.0% MPR minus 5.2% CPI), providing exceptional real carry support that attracts domestic institutional capital into local Treasury bills (Bank of Ghana / GSS, Oct-26, High).
-
-### Fiscal performance, debt structure, and the 2027–2030 maturity wall
-- Ghana completed its external commercial debt restructuring in October 2024, exchanging approximately $13B of legacy Eurobonds for two new instruments: the 2029 Step-Up notes (initial 5.0% coupon stepping up to 6.0%) and the 2035 Step-Up notes (6.0% stepping up to 7.0%) (Ministry of Finance, Oct-24, High).
-- The Ministry of Finance deliberately paused new international Eurobond issuance in FY2026, focusing borrowing entirely on local Treasury bills and medium-term notes to rebuild the domestic cedi yield curve (Ministry of Finance, Sep-26, High).
-- However, Ghana faces an acute medium-term debt service hump: World Bank and MoF debt monitoring schedules reflect US$6.4B in Eurobond principal amortizations and coupon payments coming due between 2027 and 2030 (World Bank / MoF, Oct-26, High).
-- Meeting this repayment hump without renewed debt distress will require sustained primary fiscal surpluses, continuous multilateral concessional refinancing, and timely market re-access before 2028 (World Bank, Oct-26, High).
+### Monetary and financial
+- The MPR was held at 14.0% at the 132nd MPC on 28-Sep-26 (Bank of Ghana, 28-Sep-26, High). The IMF series shows 15.5% in Feb-26 and 14.0% from Mar-26.
+- CPI y/y was 3.2% (Mar-26), 5.3% (Jun-26), 5.0% (Aug-26) and 5.2% (Sep-26) (GSS, IMF CPI series, High). Inflation has risen since March while the MPR was held.
+- Bank soundness (IMF FSI, deposit takers): NPLs 18.1% (Q1-26) to 16.1% (Q2-26), CAR 22.1% to 20.5%, provisions 77.6% of NPLs, ROE 23.2% (Q2-26) (High). Asset quality is improving but still weak. The sovereign-bank link is a contingent liability.
 
 ## Where the models disagreed
-Only Gemini submitted a position in this run; Claude did not complete a position. Therefore, no inter-model dispute arose. Gemini's baseline findings on rating migrations (Fitch B Positive, S&P B- Stable), completion of the IMF $3B ECF and transition to the PCI, Bank of Ghana reserve accumulation ($12.0B gross), anchored CPI inflation (5.2% YoY), and the 2027–2030 Eurobond refinancing schedule ($6.4B) were verified directly against primary official sources (Bank of Ghana, Ministry of Finance, Ghana Statistical Service, IMF) per Rule 2 of the evidence hierarchy.
+No material disagreement. Only Claude submitted a position and Gemini's earlier run is superseded. Differences in confidence were resolved by the evidence hierarchy: facts resting solely on the knowledge base were downgraded to Medium, and the BoG–IMF reserve conflict is recorded as open item 1, not resolved.
 
 ## Management questions
-1. What is the Ministry of Finance's liability management plan to address the $6.4B in Eurobond debt service falling due between 2027 and 2030?
-2. What portion of the $12.0B in gross foreign exchange reserves is encumbered by commercial bank FX swaps, forward book liabilities, or GoldBod pre-export facilities?
-3. What are the key semi-annual structural benchmarks and fiscal deficit ceilings established under the 36-month Policy Coordination Instrument (PCI) with the IMF?
-4. How is the government structuring COCOBOD's annual syndicated trade finance facility for the 2026/2027 crop season following the domestic restructuring of Cocoa Bills?
+1. What are 2027 gross financing needs, the domestic/external split, and the primary balance target under the PCI?
+2. How much of the US$12.0B gross reserves is encumbered by swaps, forwards, GoldBod arrangements or other short-term FX liabilities?
+3. Is the Eurobond issuance pause a commitment, and what conditions would trigger a return to the market?
+4. What is the plan for the US$6.4B of 2027–30 Eurobond service, including any liability management on the Step-Up notes?
+5. What structural benchmarks and fiscal ceilings apply under the PCI, and when are they tested?
+6. How is COCOBOD's 2026/27 crop-season financing structured?
 
 ## Knowledge base updates
-- [Snapshot] Ratings: Fitch B/Positive (22-May-26), S&P B-/Stable (18-Sep-26), Moody's Caa1/Positive (16-Apr-26) (Fitch, S&P, Moody's, 2026)
-- [Snapshot] Eurobond restructuring completed in October 2024 via issuance of 2029 Step-Up and 2035 Step-Up notes (Ministry of Finance, Oct-24)
-- [External] Gross international reserves stood at US$12.0B at end-September 2026, representing 5.2 months of import cover (Bank of Ghana, 28-Sep-26)
-- [External] Ghana Gold Board (GoldBod) under GANRAP generated US$1.871B in FX during September 2026 (GoldBod, Sep-26)
-- [IMF] IMF Executive Board completed 6th and final review of $3.0B ECF arrangement on 27-Jul-26 with $371M disbursement (IMF, 27-Jul-26)
-- [IMF] Ghana transitioned to a 36-month non-financing Policy Coordination Instrument (PCI) in July 2026 (IMF, 27-Jul-26)
-- [Monetary] Bank of Ghana maintained the Monetary Policy Rate at 14.0% at its 132nd MPC meeting on 28-Sep-26 (Bank of Ghana, 28-Sep-26)
-- [Monetary] Headline CPI inflation printed at 5.2% YoY in September 2026 (5.0% in August 2026), yielding an ex-ante real policy rate of +880 bps (Ghana Statistical Service, 07-Oct-26)
-- [Fiscal] Total Eurobond principal and coupon debt service obligations due between 2027 and 2030 equal US$6.4B (World Bank, Oct-26)
-- [Fiscal] Ministry of Finance halted international Eurobond issuance for FY2026 to focus on domestic market reconstruction (Ministry of Finance, Sep-26)
-- [Calendar] 23-Nov-26: Bank of Ghana 133rd Monetary Policy Committee meeting (Bank of Ghana calendar, Sep-26)
-- [Calendar] 15-Dec-26: IMF first monitoring mission under the Policy Coordination Instrument (PCI) (IMF calendar, Jul-26)
+- [Snapshot] Ratings: Fitch B/Positive (22-May-26), S&P B-/Stable (18-Sep-26), Moody's Caa1/Positive (16-Apr-26) (agency actions per knowledge base, 08-Oct-26)
+- [External] IMF International Liquidity gross reserves including gold: US$12.41B (Mar-26), US$10.77B (Jun-26), US$9.72B (Jul-26); reserves ex-gold US$9.36B (Mar-26) and US$6.53B (Jul-26) (IMF, Jul-26 data)
+- [External] BoG-reported gross reserves US$12.0B at end-Sep-26, 5.2 months of import cover; not reconciled with the IMF series (Bank of Ghana, 28-Sep-26)
+- [External] Current account, last four quarters: US$10.06B (2025-Q2 to 2026-Q1); WEO 2026E 10.1% of GDP (IMF BOP/WEO)
+- [External] FDI liabilities US$0.455B in 2026-Q1 (IMF BOP)
+- [Monetary] MPR 14.0% held at the 132nd MPC on 28-Sep-26; IMF series shows 15.5% in Feb-26 and 14.0% from Mar-26 (Bank of Ghana, IMF)
+- [Monetary] CPI y/y 5.2% in Sep-26 and 5.0% in Aug-26; the 8.8 ppt gap to the MPR uses trailing CPI, not forward expectations (GSS, 07-Oct-26)
+- [Monetary] Banking system 2026-Q2: NPL 16.1%, CAR 20.5%, Tier 1 18.5%, provisions 77.6% of NPLs, ROE 23.2% (IMF FSI)
+- [Market] IMF CPI-based REER index 90.46 (Aug-26); z-score +1.86 vs trailing 120-month mean (IMF)
+- [IMF] Sixth and final ECF review completed 27-Jul-26 with a US$371M disbursement; 36-month non-financing PCI followed (IMF, 27-Jul-26)
+- [Fiscal] WEO 2026E: government debt 53% of GDP, fiscal balance −2.3% of GDP, real growth 4.8% (IMF WEO)
+- [Fiscal] Eurobond principal and coupon due 2027–30 total US$6.4B (World Bank, Oct-26)
+- [Snapshot] October 2024 Eurobond restructuring produced 2029 and 2035 Step-Up notes (Ministry of Finance, Oct-24)
+- [Calendar] 23-Nov-26: Bank of Ghana 133rd MPC meeting (Bank of Ghana calendar, Sep-26)
+- [Calendar] 15-Dec-26: first IMF monitoring mission under the PCI (IMF calendar, Jul-26)
 
 ## Sources
-- Bank of Ghana (BoG), "132nd Monetary Policy Committee Communiqué and Summary of Economic and Financial Data", 28-Sep-26 (tier 2)
-- Ghana Statistical Service (GSS), "Consumer Price Index Bulletin — September 2026", 07-Oct-26 (tier 2)
-- International Monetary Fund (IMF), "IMF Executive Board Completes Sixth and Final Review Under the Extended Credit Facility Arrangement for Ghana", Press Release No. 26/242, 27-Jul-26 (tier 2)
-- Fitch Ratings, "Fitch Upgrades Ghana's Long-Term Foreign-Currency IDR to 'B'; Outlook Positive", 22-May-26 (tier 2)
-- S&P Global Ratings, "Ghana Long-Term Sovereign Credit Ratings Affirmed at 'B-/B'; Outlook Stable", 18-Sep-26 (tier 2)
-- Moody's Investors Service, "Moody's Affirms Ghana's Caa1 Rating; Revises Outlook to Positive", 16-Apr-26 (tier 2)
-- Ministry of Finance Ghana (MoF), "Medium-Term Debt Management Strategy and 2026 Financing Operations Review", Sep-26 (tier 2)
-- World Bank, "Ghana Economic Update: Navigating the Medium-Term Debt Service Horizon", Oct-26 (tier 2)
-- Ghana Gold Board (GoldBod), "Gold for Reserves and GANRAP Operations Monthly Bulletin", Sep-26 (tier 2)
+- Knowledge base page knowledge/sovereigns/ghana.md, 08-Oct-26 (tier 2; underlying agency, BoG, GSS, MoF, World Bank and GoldBod items not independently re-checked this run)
+- Official data record database/sovereigns/ghana.json, 08-Oct-26 (tier 2: IMF WEO, IMF BOP, IMF International Liquidity, IMF FSI, BIS, World Bank WDI)
+- Bank of Ghana, 132nd MPC Communiqué, 28-Sep-26 (tier 2, via knowledge base)
+- Ghana Statistical Service, CPI Bulletin Sep-26, 07-Oct-26 (tier 2, via knowledge base)
+- IMF press release on the sixth ECF review and PCI, 27-Jul-26 (tier 2, via knowledge base)
+- Fitch (22-May-26), S&P (18-Sep-26) and Moody's (16-Apr-26) sovereign rating actions (tier 2, via knowledge base)
+- Ministry of Finance, Oct-24 restructuring and Sep-26 financing statement (tier 2, via knowledge base)
+- World Bank, Oct-26 debt service schedule (tier 2, via knowledge base)
+- GoldBod, Sep-26 bulletin (tier 2, via knowledge base)
+- Frameworks: knowledge/frameworks/sovereign-credit.md (method only)
+- No web search was possible this run; no tier 1 captures were supplied.
