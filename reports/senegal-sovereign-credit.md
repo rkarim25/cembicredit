@@ -2,114 +2,108 @@
 topic: Senegal sovereign credit
 slug: senegal-sovereign-credit
 updated: 08-Oct-26
-run: 2026-10-08_1245_senegal-sovereign-credit
+run: 2026-10-08_2129_senegal-sovereign-credit
 status: Draft
-open_items: 9
+open_items: 10
 ---
 
 # Senegal sovereign credit
 
-_Updated 08-Oct-26 · run 2026-10-08_1245_senegal-sovereign-credit_
+_Updated 08-Oct-26 · run 2026-10-08_2129_senegal-sovereign-credit_
 
 ## Open items
-1. [BBG: SENEGL 4.750 03/13/2028 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the EUR 2028 Eurobond?
-2. [BBG: SENEGL 7.750 06/15/2031 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the USD 2031 Eurobond?
-3. [BBG: SENEGL 6.250 05/23/2033 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the benchmark 2033 USD Eurobond?
-4. [BBG: SENEGL 5.375 06/08/2037 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the EUR 2037 Eurobond?
-5. [BBG: SENEGL 6.750 03/13/2048 / YAS yield and Z-spread] What is the current trading price, YAS yield, and Z-spread on the USD 2048 Eurobond?
-6. [BBG: SENEGAL CDS USD SR 5Y / PX_LAST] What is the current 5Y senior sovereign CDS spread and distressed recovery pricing?
-7. [BBG: BCEAO pooled operational reserves / latest print] What is the latest total stock of gross and net foreign assets held by the BCEAO, and Senegal's estimated share?
-8. [REZA] Given CC/Caa2 sovereign ratings and market restructuring expectations, are Senegalese Eurobonds trading on cash recovery values (sub-60c), and do we participate in the short-end 2028 EUR paper or stay entirely defensive?
-9. [MANAGEMENT] What is the Ministry of Finance's proposed treatment of external commercial Eurobonds under the new IMF programme parameter framework, and will comparability of treatment be requested?
+1. [BBG: SENEGL 4.750 03/13/2028, 7.750 06/15/2031, 6.250 05/23/2033, 5.375 06/08/2037, 6.750 03/13/2048 / price, YAS yield and Z-spread] Where do the five Eurobonds trade, and what recovery do the prices imply?
+2. [BBG: SENEGAL CDS USD SR 5Y / PX_LAST] What is the current 5Y senior CDS spread and its upfront or recovery convention?
+3. [BBG: SENEGAL / S&P and Moody's rating history, plus Fitch if rated] What is the actual rating sequence and the latest action date? The knowledge page says S&P moved from B+ to CC in one step, which is unusual and unverified.
+4. [BBG: BCEAO pooled operational reserves / latest print] What are the latest gross and net foreign assets of the BCEAO and any drains?
+5. [REZA] Can you confirm from the agency releases or Bloomberg that S&P is CC/Negative (Sep-26) and Moody's is Caa2/Negative (Aug-26)? Neither is verified against a primary release in this pipeline.
+6. [REZA] Is the ~132% of GDP end-2024 debt figure from the Cour des Comptes (Feb-25) or from the later IMF/authorities reconciliation? The attribution is unclear.
+7. [REZA] The data record lists Eurobonds at USD 3.2bn, but the five tranches sum to USD 2.6bn plus EUR 1.5bn, which is above USD 4.1bn at any plausible EUR/USD. Which perimeter is right (outstanding after buybacks or amortisation, or a stale figure)?
+8. [REZA] With CC/Caa2 ratings, are the bonds on cash-recovery pricing (sub-60c), and do we hold or add in the 2028 EUR, or stay defensive?
+9. [MANAGEMENT] What treatment of Eurobonds, domestic and UMOA-Titres paper is assumed in the IMF financing assurances, and is comparability of treatment being requested?
+10. [MANAGEMENT] What is the debt perimeter by creditor class at mid-2026 (regional, multilateral, bilateral, Eurobond), and the 2027 gross financing need?
 
 ## View
-- Senegal has entered acute sovereign debt distress, reflected in deep downgrades to CC by S&P (Sep-26) and Caa2 by Moody's (Aug-26) following historical debt misreporting (Rating Agencies, Sep-26, High).
-- The crisis was triggered by the Cour des Comptes audit revealing hidden borrowing and domestic arrears, which drove public sector debt to ~132% of GDP by end-2024 from previously reported ~74% (Cour des Comptes / IMF, Sep-26, High).
-- Multilateral re-engagement is provisionally restored via a staff-level agreement on a successor $2.2B IMF programme in September 2026, aimed at restoring fiscal discipline and clearing arrears (IMF, Sep-26, High).
-- Macroeconomic solvency is fundamentally anchored by ramping offshore hydrocarbons: Sangomar crude produced 17.9M bbls in H1 2026 (100k bpd), and GTA Phase 1 FLNG reached 2.7 mtpa commercial operations (Woodside / BP, Jun-26, High).
-- Monetary stability remains protected by WAEMU membership and the BCEAO CFA peg to the euro, with the policy rate held at 3.0% on 09-Sep-26 and August inflation contained at 1.2% YoY (BCEAO / ANSD, Sep-26, High).
-- Near-term liquidity is precarious due to heavy domestic Treasury roll obligations on UMOA-Titres and commercial Eurobond amortisation profiles ($3.2B across USD and EUR curves) (Ministry of Finance, Sep-26, High).
-- Political power is consolidated under President Bassirou Diomaye Faye and Prime Minister Ousmane Sonko (PASTEF), who prioritize renegotiating legacy resource contracts and sovereign debt transparency (Government of Senegal, Sep-26, High).
-- Pre-eminent risk: An involuntary sovereign debt restructuring under the G20 Common Framework or commercial Eurobond haircut if multilateral disbursements stall or domestic banks refuse debt rollovers (S&P, Sep-26, High).
-- Secondary market bonds are trading at distressed levels, pricing significant restructuring probability; recovery is backstopped by offshore hydrocarbon revenue streams (Market / Rating Agencies, Sep-26, Medium).
-- Overall confidence: High on audit debt metrics, credit ratings, BCEAO monetary stability, and oil/gas volumes; Medium on IMF Board approval timing; Low on live secondary Eurobond prices until verified via Bloomberg.
+- Senegal is a distressed, restructuring-prone credit on the brief's data: S&P CC/Negative (Sep-26) and Moody's Caa2/Negative (Aug-26), with both agencies flagging restructuring risk (Rating Agencies, Sep-26, Medium: not checked against the agency releases this run).
+- The root cause is hidden borrowing: debt is put at ~132% of GDP at end-2024 against ~74% previously reported (Cour des Comptes / IMF, Medium: source attribution uncertain).
+- The main support is the September 2026 staff-level agreement on a $2.2B IMF arrangement, with Board consideration on 15-Dec-26. Approval and credible financing assurances are the swing factor (IMF, Sep-26, Medium).
+- The 2026E fiscal deficit is -6.7% of GDP and the current account deficit is -6.2%. Sangomar (~100k bpd) and GTA Phase 1 offset these only partly (IMF WEO, 2026E; Woodside, Jun-26, Medium).
+- The CFA peg (655.957 per EUR), the 3.0% BCEAO rate and 1.2% inflation (Aug-26) limit currency risk but not sovereign solvency risk (BCEAO, 09-Sep-26; ANSD, Aug-26, High).
+- The next Eurobond bullet is EUR 500M on 13-Mar-28, so near-term pressure comes from domestic and regional UMOA-Titres refinancing rather than a Eurobond cliff (Ministry of Finance, Sep-26, Medium).
+- The biggest risk is a reprofiling or restructuring that includes external bonds if IMF financing assurances fail or regional banks stop rolling paper.
+- Market levels are absent, so there is no relative-value or recovery view.
+- Confidence: Medium on direction (distress, IMF dependence). Low-to-Medium on exact ratings path, debt perimeter and Eurobond stock until the open items are closed.
 
 ## What changed
-First version for Senegal sovereign credit. Establishes the distressed CC/Caa2 rating profile following the Cour des Comptes debt audit revelations (~132% debt-to-GDP at end-2024), the September 2026 staff-level agreement on a $2.2B IMF programme, Sangomar oil (100k bpd) and GTA LNG (2.7 mtpa) ramp, BCEAO currency peg stability, and commercial Eurobond restructuring risks.
+- No new captures and no fresh web research were available this run, so facts from the previous version are retained but confidence labels are lowered where the sourcing was never verified.
+- Rating history is now flagged as unverified: the S&P "B+ to CC" step looks inconsistent and needs agency confirmation.
+- Eurobond stock: the USD 3.2bn in the data record does not reconcile with the tranche list (above USD 4.1bn). The previous "~US$3.2B equivalent" statement is withdrawn pending reconciliation.
+- Merged the five per-bond Bloomberg items into one, and added open items on the rating sequence, the debt-figure attribution and the Eurobond perimeter.
+- The 11–13% of GDP deficit revisions, the snap-election majority and the GTA 2.7 mtpa nameplate are downgraded from High to Medium or Low because they were not independently checked.
 
 ## Analysis
 
-### Sovereign credit distress and deep speculative rating downgrades (CC / Caa2)
-- Senegal's credit standing has suffered severe deterioration following the revelation of massive off-balance-sheet liabilities and domestic arrears (Rating Agencies, Sep-26, High).
-- S&P Global Ratings downgraded Senegal's long-term foreign currency sovereign credit rating to CC with a Negative outlook in September 2026, signaling that default or distressed debt restructuring appears virtually inevitable without immediate external debt relief (S&P Global Ratings, Sep-26, High).
-- Moody's Ratings downgraded the Government of Senegal to Caa2 with a Negative outlook in late August 2026, following earlier cuts to Caa1 in October 2025 and B3 in February 2025, citing extreme fiscal imbalances and precarious liquidity headroom (Moody's Ratings, Aug-26, High).
-- Secondary bond pricing reflects deep market stress, with Eurobond yields widening to distressed restructuring territory and the credit trading on implied recovery values rather than performing sovereign multiples (Rating Agencies / Market, Sep-26, Medium).
+### Ratings and market status
+- The brief shows S&P at CC/Negative (Sep-26) and Moody's at Caa2/Negative (Aug-26, from Caa1 in Oct-25) (knowledge page, Rating Agencies, Sep-26, Medium).
+- The S&P path "B+ to CC" is not corroborated and conflicts with an analyst recollection of intermediate steps. Treat the S&P level as likely correct for a distressed credit, but the sequence as unverified (Low).
+- No Fitch rating is cited. Whether Fitch rates Senegal is unknown (open item 3).
+- No market prices were supplied. Statements that bonds trade at recovery levels are inference, not data (Low).
 
-### The Cour des Comptes audit, hidden liabilities, and debt-to-GDP revision
-- Following the election of President Bassirou Diomaye Faye in March 2024, the administration commissioned a comprehensive audit of public finances by the Cour des Comptes (Cour des Comptes, Feb-25, High).
-- The audit report published in February 2025 uncovered substantial off-balance-sheet borrowing, unrecorded domestic supplier arrears, and covert pre-financing schemes undertaken by the previous administration (Cour des Comptes, Feb-25, High).
-- Reconciled figures compiled with IMF technical assistance revealed that actual public sector debt reached approximately 100% of GDP in 2023 and surged to ~132% of GDP by end-2024, compared to the previously published figure of ~74% (Cour des Comptes / IMF, Sep-26, High).
-- Fiscal deficits for 2022–2024 were revised upward from reported levels of 5%–6% to double-digit deficits averaging 11%–13% of GDP, completely undermining earlier debt sustainability trajectories (IMF, Sep-26, High).
+### Debt, fiscal and external position
+- Public debt is put at 132% of GDP in 2024 (Cour des Comptes / IMF, data record, Medium). The original February 2025 audit may have reported a different figure for an earlier year, so the attribution is unresolved.
+- The 2026E fiscal balance is -6.7% of GDP, the current account -6.2%, real GDP growth 6.8% and nominal GDP USD 40.5bn (IMF WEO, 2026E, Medium).
+- Eurobonds outstanding: EUR 500M 4.750% 2028, USD 500M 7.750% 2031, USD 1.1B 6.250% 2033, EUR 1.0B 5.375% 2037, USD 1.0B 6.750% 2048 (Ministry of Finance, Sep-26, Medium). The aggregate stated in the data record does not reconcile (open item 7).
+- Interest-to-revenue, gross financing need, the debt-stabilising primary balance and the IMF debt-distress rating are not available. No conclusion on pb* can be drawn.
+- Eurobonds are probably a minority of the perimeter. Domestic and regional paper will likely shape restructuring design and relative treatment (Low, inference).
 
-### Multilateral re-engagement and the $2.2B IMF staff-level agreement
-- The revelation of misreported debt data prompted the IMF to suspend disbursements under the previous US$1.8B Extended Fund Facility (EFF) and Extended Credit Facility (ECF) approved in June 2023 (IMF, Jun-25, High).
-- Following extensive reconciliation missions and fiscal corrective measures, the IMF and Senegalese authorities announced a staff-level agreement in September 2026 on a new US$2.2B financing arrangement (IMF, Sep-26, High).
-- The new programme focuses on clearing domestic arrears, rationalizing tax exemptions to lift domestic revenue mobilization, implementing strict expenditure controls, and establishing transparent debt reporting mechanisms (IMF, Sep-26, High).
-- Formal Executive Board approval remains contingent on prior actions, including legislative approval of fiscal consolidation measures and bilateral/multilateral financing assurances (IMF, Sep-26, Medium).
+### IMF and official sector
+- A staff-level agreement on a $2.2B arrangement replacing the suspended $1.8B facility was reached in September 2026 (IMF, Sep-26, Medium). Board consideration is calendared for 15-Dec-26.
+- Board approval depends on prior actions and financing assurances, which are not documented in the brief (Medium).
+- A staff report requiring debt operations as a condition of assurances would move the view toward restructuring.
 
-### Offshore hydrocarbons: Sangomar oil and GTA LNG Phase 1 ramp
-- Senegal's external balance of payments and medium-term solvency are anchored by the commercial commissioning of world-class offshore hydrocarbon projects (Woodside / BP, Jun-26, High).
-- Woodside Energy achieved first oil at the deepwater Sangomar field in June 2024; production reached nameplate capacity of ~100,000 bpd during 2025, with H1 2026 output reaching 17.9M barrels (targeting 31.6M barrels for full-year 2026) (Woodside Energy, Jun-26, High).
-- Greater Tortue Ahmeyim (GTA) Phase 1 FLNG (operated by BP alongside Kosmos Energy and Petrosen) delivered first LNG cargoes and achieved steady-state commercial operations at 2.7 mtpa capacity in early 2026, shared equally with Mauritania (BP / Kosmos Energy, Jun-26, High).
-- Hydrocarbon export revenues and state royalties provide vital foreign currency inflows, partially offsetting external debt service requirements and supporting real GDP growth of ~7.5% in 2025 and an estimated 6.8% in 2026 (ANSD / IMF, Sep-26, High).
+### Hydrocarbons
+- Sangomar produced 17.9M barrels in H1 2026 against a 31.6M barrel full-year target (Woodside, Jun-26, Medium).
+- GTA Phase 1 is reported at 2.7 mtpa nameplate (BP / Kosmos, Jun-26, Low-to-Medium). One reviewer recalls a lower nameplate (about 2.3 mtpa), which is unresolved.
+- Government take and revenue-sharing terms are not in the brief, so the budget impact cannot be sized.
 
-### BCEAO monetary union mechanics, currency peg, and inflation containment
-- Senegal's membership in the West African Economic and Monetary Union (WAEMU) and the BCEAO central bank system shields the economy from currency collapse and hyperinflation despite sovereign fiscal distress (BCEAO, Sep-26, High).
-- The CFA franc (XOF) is pegged to the euro at 655.957 XOF per EUR, backed by the French Treasury convertibility guarantee, eliminating speculative FX depreciation spirals (BCEAO, Sep-26, High).
-- The BCEAO Monetary Policy Committee maintained its main policy rate at 3.0% and marginal lending facility at 5.0% on 09-Sep-26, ensuring monetary stability across member states (BCEAO, 09-Sep-26, High).
-- Domestic inflation remains subdued: the Agence Nationale de la Statistique et de la Démographie (ANSD) reported headline CPI inflation easing to 1.2% YoY in August 2026, preserving domestic purchasing power (ANSD, Aug-26, High).
+### Monetary and regional framework
+- The BCEAO policy rate is 3.0% and the marginal lending rate 5.0% (09-Sep-26). August CPI was 1.2% y/y (ANSD, High). The derived ex-ante real rate is 1.8% (data record, Medium).
+- The XOF is pegged to the EUR at 655.957 (High). The peg does not remove sovereign default risk, and regional bank balance-sheet capacity is the binding domestic constraint (Medium).
 
-### Debt maturity profile, UMOA-Titres rollover, and Eurobond restructuring risks
-- Total public debt of ~132% of GDP creates severe near-term refinancing hurdles across both domestic and international debt perimeters (Ministry of Finance / IMF, Sep-26, High).
-- In the regional market, Senegal faces rolling maturities of Treasury bills and bonds issued through UMOA-Titres; regional commercial banks have constrained capacity to expand sovereign exposure without BCEAO liquidity support (UMOA-Titres, Sep-26, High).
-- The international Eurobond profile comprises five outstanding benchmark tranches totaling ~US$3.2B equivalent: €500M 4.750% due 2028, US$500M 7.750% due 2031, US$1.1B 6.250% due 2033, €1.0B 5.375% due 2037, and US$1.0B 6.750% due 2048 (Ministry of Finance, Sep-26, High).
-- The impending 2028 maturity cliff (€500M) and large annual coupon burdens heighten the probability of an external debt restructuring, potentially under the G20 Common Framework, to ensure debt sustainability parameters are satisfied (Rating Agencies, Sep-26, High).
-
-### Political landscape under President Faye and Prime Minister Sonko
-- Political authority is consolidated under the PASTEF leadership following President Bassirou Diomaye Faye's victory in the March 2024 presidential election (54.3% in the first round) (Government of Senegal, Sep-26, High).
-- Prime Minister Ousmane Sonko leads government policy, emphasizing sovereignty, institutional accountability, renegotiation of oil and mining concessions, and transparent governance (Government of Senegal, Sep-26, High).
-- Following the dissolution of the National Assembly, snap legislative elections consolidated the ruling party's parliamentary majority, giving the executive full legislative backing to implement budget reforms and structural fiscal legislation (Government of Senegal, Sep-26, Medium).
+### Politics
+- President Faye and Prime Minister Sonko (PASTEF) govern after the March 2024 election (Government of Senegal, Sep-26, Medium). The parliamentary position and any conditions on the IMF programme need verification.
 
 ## Where the models disagreed
-Only Gemini submitted a position in this run; Claude was unavailable due to an expired CLI authentication session. Therefore, no inter-model dispute arose. Gemini's baseline findings on distressed CC/Caa2 ratings, the Cour des Comptes debt audit revelations, the September 2026 IMF staff-level agreement ($2.2B), Sangomar and GTA Phase 1 hydrocarbon production, and BCEAO monetary peg stability were verified directly against primary official releases (IMF, BCEAO, ANSD, Woodside, S&P, Moody's, Ministère des Finances) per Rule 2 of the evidence hierarchy.
+Only one position was submitted this run, so there was no inter-model dispute. That position challenged the brief's rating history, the 132% debt attribution, the Eurobond total and the GTA nameplate. Under the evidence hierarchy no tier 1 or 2 source resolves these, and the challenging side rested on tier 4 recollection, so none is resolved here. Each is recorded as an open item with lowered confidence.
 
 ## Management questions
-1. What is the Ministry of Finance's proposed treatment of external commercial Eurobonds under the new IMF programme parameter framework, and will comparability of treatment be requested?
-2. What is the total validated stock of domestic arrears following the Cour des Comptes audit, and what is the cash repayment timetable agreed with the IMF for 2026–2027?
-3. How is the government coordinating with the BCEAO and regional UMOA-Titres banking institutions to manage domestic Treasury rollover risk given constrained regional bank balance sheets?
-4. What is the projected net royalty and tax dividend cash flow schedule to the Treasury from Sangomar crude and GTA Phase 1 LNG over the 2026–2028 budget horizons?
+1. What treatment of external Eurobonds, domestic and UMOA-Titres debt is assumed in the IMF financing assurances, and will comparability of treatment be sought?
+2. What is the validated stock of domestic arrears and the 2026–27 cash clearance timetable agreed with the IMF?
+3. What is the debt perimeter by creditor class and the 2027 gross financing need?
+4. How will the Treasury manage UMOA-Titres rollover risk given regional bank constraints and BCEAO liquidity limits?
+5. What Sangomar and GTA royalty and tax receipts are assumed in the 2026–28 budget?
 
 ## Knowledge base updates
-- [Snapshot] Ratings: S&P CC/Negative (Sep-26, downgraded from B+/Negative), Moody's Caa2/Negative (Aug-26, downgraded from Caa1 in Oct-25) (Rating Agencies, Sep-26)
-- [Snapshot] Eurobonds: €500M 4.750% 2028, $500M 7.750% 2031, $1.1B 6.250% 2033, €1.0B 5.375% 2037, $1.0B 6.750% 2048 (Ministry of Finance, Sep-26)
-- [Fiscal] Cour des Comptes audit revealed unrecorded borrowing, revising public debt to ~132% of GDP by end-2024 from previously stated ~74% (Cour des Comptes, Feb-25)
-- [IMF] Staff-level agreement reached in September 2026 on a successor $2.2B IMF loan arrangement to replace the suspended $1.8B facility (IMF, Sep-26)
-- [Growth] Sangomar offshore oil field reached ~100k bpd capacity, producing 17.9M barrels in H1 2026 toward 31.6M barrel full-year target (Woodside Energy, Jun-26)
-- [Growth] Greater Tortue Ahmeyim (GTA) Phase 1 FLNG attained commercial operations at 2.7 mtpa nameplate export capacity (BP / Kosmos Energy, Jun-26)
-- [Monetary] BCEAO held main policy rate at 3.0% and marginal lending facility at 5.0% on 09-Sep-26 (BCEAO, 09-Sep-26)
-- [Monetary] Headline CPI inflation stood at 1.2% YoY in August 2026; CFA franc pegged to EUR at 655.957 (ANSD, Aug-26)
-- [Politics] President Bassirou Diomaye Faye and Prime Minister Ousmane Sonko (PASTEF) govern following March 2024 election victory (Government of Senegal, Sep-26)
-- [Restructuring] S&P and Moody's flag elevated risk of sovereign debt restructuring on external commercial bonds or domestic UMOA-Titres paper (Rating Agencies, Sep-26)
+- [Snapshot] S&P rating CC/Negative (Sep-26) and Moody's Caa2/Negative (Aug-26, from Caa1 in Oct-25); sequence of S&P actions not verified against agency releases (knowledge page, Rating Agencies, Sep-26)
+- [Snapshot] Eurobonds: EUR 500M 4.750% due 13-Mar-28, USD 500M 7.750% 2031, USD 1.1B 6.250% 2033, EUR 1.0B 5.375% 2037, USD 1.0B 6.750% 2048; the aggregate "USD 3.2bn" in the data record does not reconcile with these tranches (Ministry of Finance, Sep-26)
+- [Fiscal] Government debt ~132% of GDP at end-2024 against ~74% previously reported; attribution to Cour des Comptes Feb-25 versus later IMF reconciliation unresolved (Cour des Comptes / IMF, 2024 data)
+- [Fiscal] 2026E fiscal balance -6.7% of GDP; nominal GDP USD 40.469bn (IMF WEO, 2026E)
+- [External] 2026E current account -6.2% of GDP (IMF WEO, 2026E)
+- [Growth] 2026E real GDP growth 6.8% (ANSD / IMF, 2026E)
+- [IMF] Staff-level agreement on a $2.2B arrangement replacing the suspended $1.8B facility (IMF, Sep-26)
+- [Monetary] BCEAO policy rate 3.0% and marginal lending facility 5.0% (BCEAO, 09-Sep-26)
+- [Monetary] CPI 1.2% y/y in Aug-26; XOF pegged to EUR at 655.957 (ANSD, Aug-26)
+- [Growth] Sangomar produced 17.9M barrels in H1 2026 against a 31.6M barrel 2026 target (Woodside Energy, Jun-26)
+- [Calendar] 13-Mar-28: EUR 500M 4.750% Eurobond maturity (Ministry of Finance, Sep-26)
 - [Calendar] 02-Dec-26: BCEAO Monetary Policy Committee meeting (BCEAO, Sep-26)
-- [Calendar] 15-Dec-26: IMF Executive Board consideration of $2.2B financing arrangement (IMF, Sep-26)
+- [Calendar] 15-Dec-26: IMF Executive Board consideration of the $2.2B arrangement (IMF, Sep-26)
 
 ## Sources
-- International Monetary Fund (IMF), "IMF Reaches Staff-Level Agreement with Senegal on a New US$2.2 Billion Financing Arrangement", Sep-26 (tier 2)
-- Cour des Comptes de la République du Sénégal, "Rapport d'Audit sur la Gestion des Finances Publiques et la Situation de la Dette", Feb-25 (tier 2)
-- Banque Centrale des États de l'Afrique de l'Ouest (BCEAO), "Communiqué de presse de la réunion du Comité de Politique Monétaire du 9 septembre 2026", 09-Sep-26 (tier 2)
-- Agence Nationale de la Statistique et de la Démographie (ANSD), "Bulletin Mensuel des Prix à la Consommation — Août 2026", Aug-26 (tier 2)
-- S&P Global Ratings, "Research Update: Senegal Foreign Currency Rating Downgraded to 'CC' on Severe Debt Distress; Outlook Negative", Sep-26 (tier 2)
-- Moody's Ratings, "Moody's Downgrades Government of Senegal to Caa2; Outlook Negative", Aug-26 (tier 2)
-- Woodside Energy Group Ltd, "Second Quarter 2026 Report: Sangomar Field Performance and Production Ramping", Jun-26 (tier 2)
-- BP plc & Kosmos Energy Ltd, "Greater Tortue Ahmeyim (GTA) Phase 1 Commercial Operations and LNG Cargo Exports Update", Jun-26 (tier 2)
-- Ministère des Finances et du Budget du Sénégal, "Stratégie de Dette à Moyen Terme et Exécution Budgétaire 2026", Sep-26 (tier 2)
+- Knowledge page knowledge/sovereigns/senegal.md and dated facts log, 08-Oct-26 (tier 2; cited primary sources not independently re-checked this run)
+- Official data record database/sovereigns/senegal.json, 08-Oct-26: ANSD CPI Aug-26, BCEAO policy rate 09-Sep-26, IMF WEO 2026E, Ministry of Finance Eurobond data Sep-26 (tier 2)
+- IMF staff-level agreement, Sep-26 (tier 2, via knowledge page)
+- S&P Global Ratings and Moody's Ratings actions, Sep-26 and Aug-26 (tier 2, via knowledge page; not verified against releases)
+- Woodside Energy, Jun-26, and BP / Kosmos Energy, Jun-26 (tier 2, via knowledge page)
+- Cour des Comptes audit, Feb-25 (tier 2, via knowledge page; attribution of the 132% figure uncertain)
+- Previous truth document, run 2026-10-08_1245_senegal-sovereign-credit (retained where not contradicted)
+- Single position (claude) for this run: no web search, contained tier 4 recollection (tier 4)

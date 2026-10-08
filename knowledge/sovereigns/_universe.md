@@ -42,7 +42,7 @@ _Status table regenerated 08-Oct-26 by the pipeline from knowledge pages and rep
 | Poland | `knowledge/sovereigns/poland.md` | none yet |  |  |  |
 | Romania | `knowledge/sovereigns/romania.md` | none yet |  |  |  |
 | Rwanda | `knowledge/sovereigns/rwanda.md` | `reports/rwanda-sovereign-credit.md` | 08-Oct-26 | 9 |  |
-| Senegal | `knowledge/sovereigns/senegal.md` | `reports/senegal-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P CC/Negative (Sep-26, downgraded from B+/Negative), Moody's Caa2/Negative (Aug-26, downgraded from Caa1 in Oct-25) (Rating Agenc |
+| Senegal | `knowledge/sovereigns/senegal.md` | `reports/senegal-sovereign-credit.md` | 08-Oct-26 | 10 | Ratings: S&P CC/Negative (Sep-26, downgraded from B+/Negative), Moody's Caa2/Negative (Aug-26, downgraded from Caa1 in Oct-25) (Rating Agenc |
 | Serbia | `knowledge/sovereigns/serbia.md` | `reports/serbia-sovereign-credit.md` | 08-Oct-26 | 7 | Ratings: S&P BBB- (Stable, 04-Oct-24); Fitch BB+ (Positive, 10-Jul-26); Moody's Ba2 (Stable, 27-Feb-26) (Rating Agencies, Jul-26). |
 | South Africa | `knowledge/sovereigns/south-africa.md` | `reports/south-africa-sovereign-credit.md` | 08-Oct-26 | 12 | Sovereign credit ratings: Fitch BB/Stable (05-Jun-26), S&P BB Foreign / BB+ Local with Positive outlook (29-May-26), Moody's Ba2/Positive (M |
 | Tajikistan | `knowledge/sovereigns/tajikistan.md` | `reports/tajikistan-sovereign-credit.md` | 08-Oct-26 | 8 |  |

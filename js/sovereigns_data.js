@@ -95693,7 +95693,7 @@ window.SOVEREIGNS = [
   "region": "Sub-Saharan Africa (WAEMU)",
   "asof": "08-Oct-26",
   "fx_regime": "peg to EUR",
-  "commodity": "Offshore oil (Sangomar, ~100k bpd) and LNG (GTA Phase 1, 2.7 mtpa) exports; Brent oil and LNG prices drive export and royalty revenue",
+  "commodity": "Hydrocarbon exporter since Sangomar oil (~100k bpd) and GTA Phase 1 LNG; oil and LNG prices matter for budget and external balances",
   "ratings": {
    "sp": {
     "rating": "CC",
@@ -95707,17 +95707,17 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "Successor financing arrangement (staff-level agreement) replacing suspended EFF/ECF approved Jun-23",
+   "programme": "Staff-level agreement on new arrangement replacing suspended $1.8B facility",
    "size_usd_bn": 2.2,
    "approved": null,
-   "next_review": "15-Dec-26 (Executive Board consideration)",
+   "next_review": "Executive Board consideration 15-Dec-26",
    "risk_of_debt_distress": null,
-   "source": "IMF staff-level agreement announcement",
+   "source": "IMF",
    "asof": "Sep-26"
   },
   "politics": {
    "next_election": null,
-   "note": "President Bassirou Diomaye Faye (elected Mar-24, 54.3% first round) and PM Ousmane Sonko (PASTEF); snap legislative elections consolidated PASTEF majority",
+   "note": "President Faye and Prime Minister Sonko (PASTEF) govern after the March 2024 election; parliamentary position and IMF programme conditions unverified",
    "source": "Government of Senegal",
    "asof": "Sep-26"
   },
@@ -95736,15 +95736,15 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -2.4
   },
   "src": {
-   "cpi_latest_yoy_pct": "ANSD, Bulletin Mensuel des Prix \u00e0 la Consommation Ao\u00fbt 2026 Aug-26",
-   "policy_rate_pct": "BCEAO Monetary Policy Committee communiqu\u00e9 09-Sep-26",
-   "gov_debt_pct_gdp": "Cour des Comptes / IMF Sep-26 | Public sector debt, as reconciled by Cour des Comptes audit with IMF technical assistance (previously reported ~74%)",
-   "next_eurobond_maturity": "Ministry of Finance, Sep-26 Sep-26",
+   "cpi_latest_yoy_pct": "ANSD 31-Aug-26",
+   "policy_rate_pct": "BCEAO 09-Sep-26",
+   "gov_debt_pct_gdp": "Cour des Comptes / IMF 08-Oct-26 | Public debt, ~132% of GDP at end-2024 against ~74% previously reported; attribution (Cour des Comptes Feb-25 vs later IMF reconciliation) unresolved",
+   "next_eurobond_maturity": "Ministry of Finance Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "ANSD / IMF Sep-26",
-   "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
+   "real_gdp_growth_pct": "ANSD / IMF 08-Oct-26",
+   "current_account_pct_gdp": "IMF WEO 08-Oct-26",
+   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "eurobonds_outstanding_usd_bn": "Ministry of Finance, Strat\u00e9gie de Dette \u00e0 Moyen Terme et Ex\u00e9cution Budg\u00e9taire 2026 (approx. USD equivalent of EUR 500M 2028, USD 500M 2031, USD 1.1B 2033, EUR 1.0B 2037, USD 1.0B 2048) Sep-26",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
@@ -95763,6 +95763,15 @@ window.SOVEREIGNS = [
    "real_gdp_growth_pct": {
     "2025": 7.5,
     "2026E": 6.8
+   },
+   "current_account_pct_gdp": {
+    "2026E": -6.2
+   },
+   "fiscal_balance_pct_gdp": {
+    "2026E": -6.7
+   },
+   "nominal_gdp_usd_bn": {
+    "2026E": 40.469
    }
   },
   "hist": {
@@ -96665,7 +96674,7 @@ window.SOVEREIGNS = [
   "quarterly_src": {},
   "asof_ind": {
    "cpi_latest_yoy_pct": "Aug-26",
-   "policy_rate_pct": "09-Sep-26",
+   "policy_rate_pct": "Sep-26",
    "gov_debt_pct_gdp": "2024",
    "next_eurobond_maturity": "Sep-26",
    "fdi_net_pct_gdp": "2025",
@@ -96678,7 +96687,7 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "9",
+   "open_items": "10",
    "updated": "08-Oct-26",
    "status": "Draft"
   }
