@@ -112703,12 +112703,12 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "Extended Fund Facility (EFF), 4-year",
-   "size_usd_bn": 15.6,
+   "programme": "4-year EFF (first review completed 20-Jul-26, SDR 503M, about $690M disbursed)",
+   "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF, 20-Jul-26 (First Review completed, SDR 503M disbursed); adjudicated document",
+   "source": "IMF, as cited in adjudicated document",
    "asof": "20-Jul-26"
   },
   "politics": {
@@ -112727,9 +112727,10 @@ window.SOVEREIGNS = [
    "real_gdp_growth_pct": 2.0,
    "current_account_pct_gdp": -18.9,
    "fiscal_balance_pct_gdp": -18.4,
-   "nominal_gdp_usd_bn": 225.337,
+   "nominal_gdp_usd_bn": 225.3,
    "current_account_4q_usd_bn": -24.81,
    "reserves_net_of_drains_usd_bn": 38.646,
+   "net_reserves_usd_bn": 38.6,
    "ex_ante_real_rate_pct": 7.9,
    "reer_z_10y": -0.5,
    "reer_latest": 84.3695,
@@ -112737,18 +112738,19 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -2.3
   },
   "src": {
-   "cpi_latest_yoy_pct": "State Statistics Service of Ukraine (Ukrstat) 10-Sep-26",
-   "policy_rate_pct": "National Bank of Ukraine 18-Sep-26",
-   "gross_reserves_usd_bn": "National Bank of Ukraine 06-Oct-26 | NBU gross international reserves (preliminary)",
-   "import_cover_months": "National Bank of Ukraine 06-Oct-26",
-   "gov_debt_pct_gdp": "Ministry of Finance of Ukraine 31-Dec-25 | State and state-guaranteed debt",
+   "cpi_latest_yoy_pct": "Ukrstat Sep-26",
+   "policy_rate_pct": "NBU key rate decision (+50 bps) 18-Sep-26",
+   "gross_reserves_usd_bn": "NBU 06-Oct-26 | NBU gross international reserves",
+   "import_cover_months": "NBU 06-Oct-26",
+   "gov_debt_pct_gdp": "Ministry of Finance of Ukraine 31-Dec-25 | state debt",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
+   "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
+   "current_account_pct_gdp": "IMF WEO 08-Oct-26",
+   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 08-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
+   "net_reserves_usd_bn": "IMF reserve template 08-Oct-26 | net of predetermined and contingent one-year drains",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER))",
    "reer_latest": "derived from the inputs above ()",
@@ -112772,6 +112774,18 @@ window.SOVEREIGNS = [
    },
    "gross_reserves_usd_bn": {
     "2026E": 47.1
+   },
+   "real_gdp_growth_pct": {
+    "2026E": 2.0
+   },
+   "current_account_pct_gdp": {
+    "2026E": -18.9
+   },
+   "fiscal_balance_pct_gdp": {
+    "2026E": -18.4
+   },
+   "nominal_gdp_usd_bn": {
+    "2026E": 225.3
    }
   },
   "hist": {
@@ -115536,7 +115550,7 @@ window.SOVEREIGNS = [
    "policy_rate_pct": "Sep-26",
    "gross_reserves_usd_bn": "01-Oct-26",
    "import_cover_months": "01-Oct-26",
-   "gov_debt_pct_gdp": "2025",
+   "gov_debt_pct_gdp": "end-2025",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
    "current_account_pct_gdp": "2026E",
@@ -115544,6 +115558,7 @@ window.SOVEREIGNS = [
    "nominal_gdp_usd_bn": "2026E",
    "current_account_4q_usd_bn": "2025-Q3 to 2026-Q2",
    "reserves_net_of_drains_usd_bn": "2026-08",
+   "net_reserves_usd_bn": "Aug-26",
    "ex_ante_real_rate_pct": "derived",
    "reer_z_10y": "derived",
    "reer_latest": "derived",
@@ -115551,7 +115566,7 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "7",
+   "open_items": "11",
    "updated": "08-Oct-26",
    "status": "Draft"
   }

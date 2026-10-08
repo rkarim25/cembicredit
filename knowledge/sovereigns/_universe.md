@@ -49,6 +49,6 @@ _Status table regenerated 08-Oct-26 by the pipeline from knowledge pages and rep
 | Thailand | `knowledge/sovereigns/thailand.md` | none yet |  |  |  |
 | Tunisia | `knowledge/sovereigns/tunisia.md` | `reports/tunisia-sovereign-credit.md` | 08-Oct-26 | 5 | Ratings: Fitch B- (Stable) [08-Sep-26]; Moody's Caa1 (Stable) [16-Jul-26]. (Fitch / Moody's, 08-Sep-26) |
 | Turkey | `knowledge/sovereigns/turkey.md` | `reports/turkey-sovereign-credit.md` | 08-Oct-26 | 14 | Ratings: Fitch BB-/Stable (17-Jul-26), S&P BB-/Stable (17-Apr-26), Moody's Ba3/Stable (Jan-26) (agency releases, 2026) |
-| Ukraine | `knowledge/sovereigns/ukraine.md` | `reports/ukraine-sovereign-credit.md` | 08-Oct-26 | 7 | Ratings: S&P CCC+/Stable (22-Jan-26), Fitch CCC (22-Dec-25), Moody's Ca/Caa3 (Rating Agencies, Jan-26) |
+| Ukraine | `knowledge/sovereigns/ukraine.md` | `reports/ukraine-sovereign-credit.md` | 08-Oct-26 | 11 | Ratings: S&P CCC+/Stable (22-Jan-26), Fitch CCC (22-Dec-25), Moody's Ca/Caa3 (Rating Agencies, Jan-26) |
 | Uzbekistan | `knowledge/sovereigns/uzbekistan.md` | `reports/uzbekistan-sovereign-credit.md` | 08-Oct-26 | 9 | S&P rating BB (Stable) affirmed 22-May-26; Fitch rating BB (Positive) outlook upgraded 03-Jun-26; Moody's rating Ba2 (Stable) upgraded 25-Ju |
 | Zambia | `knowledge/sovereigns/zambia.md` | `reports/zambia-sovereign-credit.md` | 08-Oct-26 | 4 | Ratings: Fitch LTFC IDR B- Stable (28-Nov-25); S&P LTFC CCC+ Stable (08-Jun-26); Moody's LTFC Caa2 Positive (14-Apr-25). |

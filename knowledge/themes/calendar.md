@@ -53,6 +53,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 31-Dec-26: National Assembly approval of OGE 2027 (MINFIN, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - 15-Jan-27: National Treasury release of FY2026/27 Budget Policy Statement (National Treasury, Oct-26) (Kenya sovereign credit, run 2026-10-08_1222_kenya-sovereign-credit)
 - 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23) (Ukraine sovereign credit, run 2026-10-08_1310_ukraine-sovereign-credit)
+- 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed) (Ukraine sovereign credit, run 2026-10-08_2136_ukraine-sovereign-credit)
 - 15-May-27 Republic of Serbia €1.13bn Eurobond final maturity date (Public Debt Administration, May-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 19-Sep-27: Maturity of $150m 8.25% Eurobond (US066716AB78). (Ministry of Finance, 15-Jul-26) (Tunisia sovereign credit, run 2026-10-08_1811_tunisia-sovereign-credit)
 - 28-Nov-27: $1.50B 6.500% Eurobond maturity bullet (DMO, Sep-26) (Nigeria sovereign credit, run 2026-10-08_1158_nigeria-sovereign-credit)

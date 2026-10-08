@@ -2,100 +2,122 @@
 topic: Ukraine sovereign credit
 slug: ukraine-sovereign-credit
 updated: 08-Oct-26
-run: 2026-10-08_1310_ukraine-sovereign-credit
+run: 2026-10-08_2136_ukraine-sovereign-credit
 status: Draft
-open_items: 7
+open_items: 11
 ---
 
 # Ukraine sovereign credit
 
-_Updated 08-Oct-26 · run 2026-10-08_1310_ukraine-sovereign-credit_
+_Updated 08-Oct-26 · run 2026-10-08_2136_ukraine-sovereign-credit_
 
 ## Open items
-1. [BBG: UKRAIN 1.75 2029 / YAS yield, clean price and Z-spread] What is the current trading price, YAS yield, and Z-spread on the Step Up A 2029 benchmark Eurobond (XS2892994467)?
-2. [BBG: UKRAIN 0 2030 / YAS yield, clean price and Z-spread] What is the current trading price, YAS yield, and Z-spread on the Step Up B 2030 Eurobond (XS2892994624)?
-3. [BBG: UKRAIN Step Up B 2035 / YAS yield and pricing of the 2029 GDP contingent uplift clause] What is the secondary market pricing and implied probability attached to the GDP outperformance warrant feature?
-4. [BBG: UKRAINE CDS USD SR 5Y / PX_LAST] What is the current 5Y senior sovereign CDS spread and recovery quote?
-5. [REZA] What exit yield and terminal recovery value are you underwriting for Ukraine Step Up A vs B paper post-restructuring, and do you prefer the cash coupon carry of Step Up A over the upside optionality of Step Up B?
-6. [MANAGEMENT] What is the Ministry of Finance's formal framework for negotiating official bilateral debt treatment before the Paris Club standstill lapses in March 2027?
-7. [MANAGEMENT] How does the Ministry of Finance forecast the gross financing need (GFN) for 2027–2028 when commercial coupon step-ups coincide with expiring bilateral debt relief?
+1. [BBG: UKRAIN Step Up A 2034 and Step Up B 2035 / price, YAS yield and Z-spread] Where do the Step Up A and Step Up B benchmarks trade, and how do they compare with CCC sovereign peers?
+2. [BBG: Ukraine GDP-linked instrument or Step Up B / price] What is the market price of the GDP outperformance feature?
+3. [BBG: UKRAINE CDS USD SR 5Y / PX_LAST] Is there a quoted 5Y sovereign CDS spread and recovery assumption?
+4. [REZA] Is there paywalled coverage since Jul-26 (Bloomberg, FT, Reuters) on the 2026–27 financing gap, the second IMF review, Paris Club treatment or creditor treatment in any settlement? Please paste it.
+5. [REZA] What exit yield and recovery value are you underwriting for Step Up A versus Step Up B, and do you prefer Step Up A carry or Step Up B optionality?
+6. [REZA] Can you confirm the Moody's rating and outlook and the Fitch outlook? The "Ca/Caa3" entry in the knowledge base combines two different ratings.
+7. [MANAGEMENT] What is the point estimate of 2026 general government and state debt to GDP, and which parts of the 2026 external financing gap are already committed? The 105%–122.6% range cannot be used.
+8. [MANAGEMENT] What are the exact Step Up coupon step dates, the GDP clause trigger and payout cap, and the ISINs and outstanding amounts?
+9. [MANAGEMENT] What is the Ministry of Finance's plan for official bilateral debt service after the Paris Club suspension ends on 31-Mar-27? Please also confirm that date against current creditor documentation.
+10. [MANAGEMENT] What are the 2027–28 gross financing needs once Step Up coupons rise and bilateral relief ends?
+11. [MANAGEMENT] What is the size of the current IMF arrangement? The brief says a 4-year EFF, while the prior draft cited $15.6B, which may be the earlier arrangement.
 
 ## View
-- Ukraine normalized commercial external debt relations following the completion of its $20.5B Eurobond restructuring in Sep-2024 and GDP warrant exchange in Dec-2025, lifting sovereign foreign-currency ratings to CCC+ (S&P, 22-Jan-26) and CCC (Fitch, 22-Dec-25) (Rating Agencies, Jan-26, High).
-- Near-term external liquidity is heavily shielded by $47.1B in NBU gross international reserves as of end-Sep-2026 (~5.6 months import cover) and regular multilateral disbursements under the IMF's $15.6B Extended Fund Facility ($690M disbursed Jul-2026) alongside EU Ukraine Facility transfers (NBU / IMF, Oct-26, High).
-- Commercial debt service remains artificially low through 2026 due to deeply discounted initial coupons (1.75% on Step Up A; 0.00% on Step Up B), preserving fiscal cash flow amid wartime defense burdens (Ministry of Finance, Sep-26, High).
-- Monetary policy has pivoted to tightening: NBU hiked the key policy rate by 50 bps to 16.0% on 18-Sep-2026 after utility tariffs and energy shocks accelerated headline CPI to 8.1% YoY in Aug-2026 (NBU, Sep-26, High).
-- Public debt sustainability remains entirely contingent on foreign concessional grants, with general government debt projected between 105% and 122.6% of GDP in 2026 against 98.4% at end-2025 (Ministry of Finance / IMF, Jul-26, High).
-- Pre-eminent risk: A major fiscal cliff and refinancing cliff post-March 2027, when the Paris Club bilateral debt standstill expires simultaneously with Eurobond Step Up coupons escalating to 6.00% on Series A and 3.00% on Series B (White & Case / Paris Club, Sep-26, High).
-- Quasi-sovereign transmission: Ukrzaliznytsia (Ukraine Rail, RAILUA) trades distressed at 64c (19.25% YTM) with 3.86x net leverage, relying directly on state budget freight indexation and donor capital grants (cembicredit, Sep-26, High).
-- Overall confidence: High on official restructuring parameters, debt stocks, FX reserves, and central bank rates; Low on live secondary Eurobond trading yields and GDP warrant valuation until verified via Bloomberg [BBG].
+- Neutral to cautious on the restructured Step Up bonds. Near-term coupon and liquidity pressure is low, and medium-term fiscal pressure is high. No market level is available, so there is no relative-value call.
+- Liquidity is solid but depends on official money. NBU gross reserves are $47.1B (01-Oct-26) and $38.6B net of one-year drains (Aug-26). The current account was -$24.8B over the last four quarters, funded by secondary income (NBU, IMF, High).
+- The fiscal position is the weak point. The 2026E balance is -18.4% of GDP and the 2026E current account is -18.9% of GDP (IMF WEO, Medium). Debt was 98.4% of GDP at end-2025 (MinFin, Medium).
+- Coupon relief is front-loaded. Step Up A pays 4.50% in 2026 and Step Up B pays 0.00% to mid-2027. Both step up from late 2027 (White & Case, Sep-24, Medium).
+- The IMF programme is on track: first review completed 20-Jul-26, $690M disbursed (IMF, High).
+- The NBU is tightening. It raised the policy rate to 16.0% on 18-Sep-26, and CPI was 8.1% y/y in Aug-26. The policy rate is about 7.9 points above trailing CPI (NBU, Ukrstat, High).
+- The main risk is a funding gap in 2027. The Paris Club suspension is dated to end on 31-Mar-27 and coupons rise from late 2027. Reduced EU, US or G7 flows, or a settlement that reopens creditor treatment, would widen the gap.
+- Confidence: Medium overall. High on reserves, rates and CPI. Low on ratings detail, bond terms and all market levels. This run had no fresh web research, so recent news and filings are unchecked.
 
 ## What changed
-First version for Ukraine sovereign credit. Establishes the post-restructuring credit architecture following the Sep-2024 exchange of $20.5B Eurobonds (37% nominal haircut into Step Up A/B series), the Dec-2025 GDP warrant restructuring (Fitch CCC, S&P CCC+), central bank FX reserves stabilizing at $47.1B, NBU policy rate hike to 16.0% on 8.1% inflation, and the looming March 2027 Paris Club standstill expiry cliff.
+- Removed or downgraded claims in the prior draft that the data record contradicts or that have no tier 1–2 source:
+  - "CPI ~5.4% earlier in the year": the data record shows 7.2%–8.6% from Mar-26 to Aug-26.
+  - "Capital adequacy above 18%": IMF FSI shows 17.63% in 2026-Q2.
+  - "Deficit ~18–20% of GDP": replaced with the IMF WEO figure of -18.4%.
+  - Unsourced items dropped: monthly NBU intervention volumes, OVDP yields and rollover, reserves "exceeding pre-war", cumulative EFF disbursements of "$4.5B", and the ISINs.
+- Moody's "Ca/Caa3" is not used, because it combines two ratings. Fitch's and S&P's actions are kept at Medium confidence, since they are tier 2 and unchecked this run.
+- Added the official data record: net reserves, quarterly balance of payments, banking soundness, REER, and the 2026E IMF WEO figures.
+- Ukrzaliznytsia confidence cut from High to Low as a market signal. The 64c price is not a Bloomberg level, and the repo file has internal inconsistencies, including an 8.25% 2026 note priced with a 19.25% yield.
+- Open items rewritten. The two Step Up benchmark price items and the CDS item are kept, ISINs are removed, and items 6, 8 and 11 are new.
 
 ## Analysis
 
-### Successful commercial Eurobond restructuring and rating normalization (CCC+ / CCC)
-- Ukraine successfully resolved its commercial sovereign default on 04-Sep-2024 by executing a comprehensive exchange offer across 13 series of Eurobonds totaling $20.5B in principal, achieving a 37% nominal haircut and ~60% present value relief (Ministry of Finance / White & Case, Sep-24, High).
-- The transaction replaced legacy Eurobonds with two new instrument streams: Step Up A Bonds (amortising across maturities in 2029, 2034, 2035, and 2036) and Step Up B Bonds (maturing in 2030, 2035, and 2036 with a contingent uplift clause tied to 2028 nominal GDP outperformance) (White & Case, Sep-24, High).
-- Fitch Ratings upgraded Ukraine's Long-Term Foreign-Currency Issuer Default Rating from RD to CCC on 22-Dec-2025 following the successful completion of the consent solicitation restructuring Ukraine's $2.6B GDP-linked warrants (Fitch Ratings, 22-Dec-25, High).
-- S&P Global Ratings upgraded Ukraine's foreign-currency sovereign credit rating to CCC+ with a Stable outlook on 22-Jan-2026, citing normalized external commercial debt service and substantial donor financing visibility (S&P Global Ratings, 22-Jan-26, High).
+### External position
+- NBU gross reserves were $47.1B at 01-Oct-26 (about 5.6 months of import cover), against $48.7B at end-Aug-26 (NBU, 06-Oct-26, High). The IMF series shows gross reserves incl. gold of $48.67B in Aug-26, consistent with the NBU figure (IMF, High).
+- Reserves net of predetermined and contingent one-year drains were $38.6B in Aug-26. Predetermined drains were $10.0B (IMF reserve template, High).
+- Reserves have been volatile: $52.0B in Mar-26, $45.7B in May-26, $51.3B in Jun-26 and $48.7B in Aug-26 (IMF, High). Gross reserves rose 5.7% over the 12 months to Aug-26 (IMF International Liquidity, High).
+- The current account was -$9.0B in 2025-Q3, -$5.6B in 2025-Q4, -$8.5B in 2026-Q1 and -$1.7B in 2026-Q2 (IMF BOP, High). Goods were -$15.5B in 2026-Q2. Secondary income of +$16.4B funded the gap (IMF BOP, High).
+- FDI liabilities were about $0.3B per quarter, so private capital does not fund the deficit (IMF BOP, High).
+- The IMF WEO puts the 2026E current account at -18.9% of GDP. Nominal GDP is $225.3B and real growth 2.0% (IMF WEO, Medium).
+- The hryvnia is administered: USD/UAH moved from 43.76 in Apr-26 to 44.66 in Sep-26 (BIS, High). The REER z-score is -0.5 (IMF CPI-based, High). Neither indicates an equilibrium level.
 
-### External liquidity, NBU FX reserves ($47.1B), and IMF EFF disbursements
-- National Bank of Ukraine (NBU) gross international reserves stood at $47.1B as of 01-Oct-2026 ($48.7B end-Aug-2026), providing approximately 5.6 months of import coverage and exceeding pre-war levels (NBU, 06-Oct-26, High).
-- Reserves are sustained by predictable external official inflows: the European Union's €50B Ukraine Facility (2024–2027), G7 Extraordinary Revenue Acceleration (ERA) loans backed by immobilized Russian sovereign assets ($50B), and bilateral US budgetary grants (Ministry of Finance / EU Commission, Sep-26, High).
-- The IMF Executive Board completed the First Review of the 2026 Extended Fund Facility (EFF) arrangement on 20-Jul-2026, approving an immediate disbursement of SDR 503M (~$690M), bringing cumulative EFF disbursements under the program to over $4.5B (IMF, 20-Jul-26, High).
-- Despite heavy wartime imports of power equipment and defense materiel, the current account deficit is comfortably financed by official capital transfers, limiting net FX reserve drawdowns (NBU, Oct-26, High).
+### Fiscal and debt
+- State debt was 98.4% of GDP at end-2025 (MinFin, Medium). The knowledge base carries a 2026 projection of 105%–122.6%. The source of each end is unclear, so the range is not used (Medium-to-Low).
+- The IMF WEO puts the 2026E fiscal balance at -18.4% of GDP (IMF WEO, Medium). It is financed mainly by official creditors and grants. The prior draft named the EU Ukraine Facility (€50B, 2024–27) and G7 ERA loans ($50B). These are not verified in this run (Medium-to-Low).
+- Interest-to-revenue, the debt-stabilising primary balance and gross financing needs cannot be computed from the brief. A sovereign model from official sources is still to be built.
 
-### Debt trajectory, gross financing needs, and the March 2027 Paris Club cliff
-- State and state-guaranteed debt closed 2025 at 98.4% of GDP (Ministry of Finance, mof.gov.ua, 2025, High).
-- IMF and domestic fiscal projections forecast 2026 general government debt to reach between 105% and 122.6% of GDP, driven by persistent wartime budget deficits of ~18%–20% of GDP (IMF / Ministry of Finance, Jul-26, High).
-- Commercial Eurobond debt service is heavily back-loaded: Step Up A bonds carry low coupons (1.75% in 2024–2025, rising to 4.50% in 2026, and 6.00% from late 2027), while Step Up B bonds pay 0.00% through mid-2027, stepping up to 3.00% in late 2027 (both reach 7.75% in 2034) (White & Case, Sep-24, High).
-- Crucial structural risk: Official bilateral creditors (Paris Club Group of Creditors) granted a formal debt service suspension running through 31-March-2027 (Paris Club, Mar-23, High).
-- When the Paris Club standstill lapses in early 2027, Ukraine will face simultaneous escalations in commercial bond coupon payments and bilateral debt service, requiring a second round of official debt treatment or formal concessional re-profiling (Ministry of Finance, Sep-26, Medium).
+### Eurobond structure and calendar
+- The Sep-24 exchange covered $20.5B at a 37% nominal haircut. It issued Step Up A (2029, 2034, 2035, 2036) and Step Up B (2030, 2035, 2036) bonds (White & Case / MinFin, Sep-24, Medium).
+- Step Up A coupons: 1.75% (2024–25), 4.50% (2026), 6.00% (late 2027), 7.75% (2034). Step Up B: 0.00% to mid-2027, 3.00% (late 2027), 7.75% (2034), with a GDP outperformance clause (White & Case, Sep-24, Medium). Exact step dates and clause mechanics are unverified.
+- The Paris Club suspension of official bilateral debt service is dated to end on 31-Mar-27 (Paris Club, Mar-23, Medium). It overlaps the Eurobond step-ups from late 2027, so 2027–28 debt service is the pressure point.
 
-### Monetary policy tightening and inflation dynamics (NBU rate 16.0%)
-- Headline inflation accelerated to 8.1% YoY in August 2026 (matching core inflation at 8.1% YoY), rebounding from ~5.4% earlier in the year due to administrative electricity tariff adjustments, drought-impacted food prices, and war-related production bottlenecks (State Statistics Service of Ukraine / Ukrstat, Sep-26, High).
-- To anchor inflation expectations and defend the managed exchange rate of the Hryvnia (UAH), the NBU Board raised its key policy rate by 50 bps from 15.5% to 16.0% on 18-Sep-2026 (NBU, 18-Sep-26, High).
-- The NBU maintains managed exchange rate flexibility, actively intervening in the interbank market ($2.2B–$2.8B monthly gross sales) to maintain FX corridor stability and suppress imported inflation (NBU, Oct-26, High).
+### IMF and ratings
+- The IMF completed the first review of the 4-year EFF on 20-Jul-26 and disbursed SDR 503M (about $690M) (IMF, 20-Jul-26, High per the knowledge base, not rechecked this run). Programme size and next review date are unverified (see open item 11).
+- S&P CCC+/Stable (22-Jan-26) and Fitch CCC (22-Dec-25) (agency releases via knowledge base, Medium). Fitch's outlook and Moody's rating are unconfirmed.
 
-### Domestic debt market and banking system transmission
-- The domestic UAH government bond (OVDP) market continues to function as an essential fiscal funding mechanism, with domestic commercial banks rolling over 100% of maturing domestic debt at yields between 13.5% and 15.5% (Ministry of Finance, Sep-26, High).
-- Ukrainian commercial banks remain well-capitalized with capital adequacy ratios exceeding 18%, though bank balance sheets exhibit significant sovereign concentration through holdings of NBU certificates of deposit and OVDPs (NBU Financial Stability Report, Jun-26, High).
+### Monetary and banks
+- The NBU raised the key rate by 50 bps to 16.0% on 18-Sep-26 (NBU, High). CPI was 8.1% y/y in Aug-26 and 7.2% in Jun-26 (Ukrstat, IMF, High). The ex-ante real rate of 7.9% uses trailing CPI, not expectations (derived, Medium).
+- Banks reported a 17.63% capital adequacy ratio, 12.45% NPLs, 74.6% provision cover and 22.5% ROE in 2026-Q2 (IMF FSI, High). Sovereign concentration of bank balance sheets is not quantified in the brief.
 
-### Quasi-sovereign corporate link: Ukraine Rail (Ukrzaliznytsia)
-- Ukraine Rail (Ukrzaliznytsia, RAILUA) represents the benchmark sovereign corporate proxy in the repo database (database/issuers/ukr_rail.json) (cembicredit, Sep-26, High).
-- Ukrzaliznytsia carries $1.465B in net debt, 3.86x net leverage, and reported 2024A EBITDA of $380M; its benchmark 8.25% 2026 LPN notes trade at distressed levels around 64c (19.25% YTM, +1485 bps spread) (cembicredit, Sep-26, High).
-- The corporate credit profile is structurally intertwined with the sovereign via statutory freight tariff indexation, emergency infrastructure reconstruction grants, and cross-border grain export logistics (cembicredit, Sep-26, High).
+### Quasi-sovereign: Ukrzaliznytsia (RAILUA)
+- The repo file (19-Sep-26) shows 2024A calculated EBITDA of $380M, net debt of $1,465M and net leverage of 3.86x (cembicredit database, Medium). It also shows reported EBITDA including about $70M of donor grants.
+- The repo shows the 8.25% 2026 LPN at 64c with a 19.25% yield. This is not a Bloomberg level, and the combination looks inconsistent for a note maturing in 2026 (Low). Observation texts in the file also do not match the figures. The file has no Cognitive Credit model, and it needs rebuilding from the issuer's own filings.
+
+### Research coverage
+- No fresh news, filing or rating search for the last 90 days is evidenced in this run. Nothing was searched and found empty.
 
 ## Where the models disagreed
-Only Gemini submitted a position in this run; Claude was unavailable due to an expired CLI authentication session. Therefore, no inter-model dispute arose. Gemini's baseline findings on the successful Sep-2024 Eurobond restructuring terms (37% nominal haircut), the Dec-2025 GDP warrant consent, rating upgrades to CCC+ (S&P) and CCC (Fitch), NBU reserve resilience at $47.1B, the NBU rate hike to 16.0% on 8.1% inflation, and the looming March 2027 Paris Club standstill expiry were verified directly against primary official releases (Ministry of Finance, NBU, Ukrstat, IMF, White & Case, S&P, Fitch) per Rule 2 of the evidence hierarchy.
+No material disagreement. Claude's position was brief-only, and Gemini's was the prior draft. The judge removed the prior-draft claims that the official data record contradicts or that rest on no tier 1–2 source (Evidence hierarchy; ask, do not guess).
 
 ## Management questions
-1. What is the Ministry of Finance's formal timetable and negotiating framework for bilateral debt treatment with the Paris Club before the current debt standstill expires on 31-March-2027?
-2. What are the Treasury's projected 2027 and 2028 Gross Financing Needs (GFN) under the scenario where Step Up A coupons reach 6.00% and Step Up B coupons step up to 3.00%?
-3. How is the Ministry of Finance coordinating with the NBU and domestic commercial banks to ensure continued 100%+ rollover capacity for local OVDP domestic bonds if wartime defense outlays remain elevated into 2027?
-4. What is the status of negotiations with the European Commission and G7 regarding the disbursement cadence and repayment conditions of the $50B ERA loans backed by frozen Russian sovereign assets?
+1. What is the 2026 point estimate of state and general government debt to GDP, and what is the committed 2026–27 external financing?
+2. How will official bilateral debt service be treated after 31-Mar-27, and on what timetable?
+3. What are the 2027–28 gross financing needs, including the Step Up coupon increases?
+4. What are the exact Step Up coupon step dates, the GDP clause trigger and the payout cap?
+5. What is the disbursement cadence and what are the conditions for the EU Ukraine Facility and the G7 ERA loans?
+6. What are the IMF programme size, the structural benchmark status and the next review date?
 
 ## Knowledge base updates
-- [Snapshot] Ratings: S&P CCC+/Stable (22-Jan-26), Fitch CCC (22-Dec-25), Moody's Ca/Caa3 (Rating Agencies, Jan-26)
-- [Snapshot] Restructured Eurobonds: Step Up A Bonds (maturities 2029, 2034, 2035, 2036) and Step Up B Bonds (maturities 2030, 2035, 2036) issued Sep-2024 exchanging $20.5B debt post-37% haircut (White & Case / MINFIN, Sep-24)
-- [External] NBU gross international reserves: $47.1B as of 01-Oct-26 ($48.7B end-Aug-26), ~5.6 months import cover (NBU, 06-Oct-26)
-- [Fiscal] State debt-to-GDP: 98.4% of GDP at end-2025; projected 105%–122.6% of GDP in 2026 (Ministry of Finance / IMF, Jul-26)
-- [Monetary] NBU key policy rate: 16.0% per annum, raised by 50 bps on 18-Sep-26 (NBU, 18-Sep-26)
-- [Growth] Inflation: Headline CPI 8.1% YoY, core CPI 8.1% YoY in Aug-26 (Ukrstat, Sep-26)
-- [IMF] Programme: Extended Fund Facility (EFF) 4-year arrangement; First Review completed 20-Jul-26 with SDR 503M ($690M) disbursed (IMF, 20-Jul-26)
-- [Restructuring] Eurobond coupon profile: Step Up A coupons at 1.75% (2024–25), 4.50% (2026), 6.00% (late 2027), 7.75% (2034); Step Up B at 0.00% (2024–mid 2027), 3.00% (late 2027), 7.75% (2034) with GDP outperformance clause (White & Case, Sep-24)
-- [Calendar] 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23)
+- [Snapshot] Ratings: S&P CCC+/Stable (22-Jan-26), Fitch CCC (22-Dec-25); Moody's level and Fitch outlook unconfirmed (agency releases via knowledge base, 08-Oct-26)
+- [Snapshot] Restructured Eurobonds: Step Up A (maturities 2029, 2034, 2035, 2036) and Step Up B (2030, 2035, 2036), issued Sep-24 exchanging $20.5B of debt at a 37% nominal haircut (White & Case / MinFin, Sep-24)
+- [External] NBU gross international reserves $47.1B at 01-Oct-26 ($48.7B end-Aug-26), about 5.6 months of import cover (NBU, 06-Oct-26)
+- [External] Reserves net of predetermined and contingent one-year drains $38.6B in Aug-26; predetermined drains $10.0B (IMF reserve template, Aug-26)
+- [External] Current account -$24.8B over 2025-Q3 to 2026-Q2; 2026-Q2 was -$1.7B with secondary income +$16.4B and goods -$15.5B (IMF BOP, 2026-Q2)
+- [External] IMF WEO 2026E: current account -18.9% of GDP, real GDP growth 2.0%, nominal GDP $225.3B (IMF WEO, 08-Oct-26)
+- [Fiscal] State debt 98.4% of GDP at end-2025 (MinFin, 2025)
+- [Fiscal] IMF WEO 2026E fiscal balance -18.4% of GDP (IMF WEO, 08-Oct-26)
+- [Monetary] NBU key policy rate 16.0%, raised by 50 bps on 18-Sep-26 (NBU, 18-Sep-26)
+- [Growth] CPI 8.1% y/y in Aug-26, core CPI 8.1% (Ukrstat, Sep-26)
+- [Market] USD/UAH 44.66 in Sep-26, against 43.76 in Apr-26 (BIS, Sep-26)
+- [Market] Banks 2026-Q2: capital adequacy 17.63%, NPLs 12.45%, ROE 22.48% (IMF FSI, 2026-Q2)
+- [IMF] 4-year EFF; first review completed 20-Jul-26 with SDR 503M (about $690M) disbursed (IMF, 20-Jul-26)
+- [Restructuring] Step Up A coupons 1.75% (2024–25), 4.50% (2026), 6.00% (late 2027), 7.75% (2034); Step Up B 0.00% (to mid-2027), 3.00% (late 2027), 7.75% (2034), with a GDP outperformance clause (White & Case, Sep-24)
+- [Calendar] 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed)
 
 ## Sources
-- National Bank of Ukraine (bank.gov.ua): "Preliminary International Reserves Data as of 1 October 2026" (06-Oct-26) [Tier 1]
-- National Bank of Ukraine (bank.gov.ua): "Decision of the Board of the National Bank of Ukraine on the Key Policy Rate" (18-Sep-26) [Tier 1]
-- Ministry of Finance of Ukraine (mof.gov.ua): "Public Debt and State-Guaranteed Debt Statistics" (31-Dec-25) [Tier 1]
-- State Statistics Service of Ukraine / Ukrstat (ukrstat.gov.ua): "Consumer Price Indices in August 2026" (10-Sep-26) [Tier 1]
-- International Monetary Fund (imf.org): "IMF Executive Board Completes Review under the Extended Fund Facility for Ukraine" (20-Jul-26) [Tier 1]
-- White & Case LLP: "Ukraine Successfully Completes Comprehensive Restructuring of US$20.5 Billion Eurobonds" (04-Sep-24) [Tier 2]
-- Fitch Ratings (fitchratings.com): "Fitch Upgrades Ukraine's LTFC IDR to 'CCC' Following GDP Warrant Restructuring" (22-Dec-25) [Tier 2]
-- S&P Global Ratings (spglobal.com): "Ukraine FC Ratings Upgraded to 'CCC+' on Commercial Debt Restructuring Completion; Outlook Stable" (22-Jan-26) [Tier 2]
-- Paris Club (clubdeparis.org): "The Group of Creditors of Ukraine Agrees to Extend the Debt Standstill" (24-Mar-23) [Tier 1]
-- cembicredit Database: "Ukraine Rail (Ukrzaliznytsia) Institutional Credit Dossier and Financial Model" (`database/issuers/ukr_rail.json`, 19-Sep-26) [Tier 2]
+- Repo knowledge page knowledge/sovereigns/ukraine.md, including its dated facts log (08-Oct-26; tier 2, entries citing tier 1 sources per line)
+- Repo data record database/sovereigns/ukraine.json: IMF BOP, IMF reserve template, IMF FSI, IMF WEO, IMF International Liquidity, BIS, World Bank (08-Oct-26; tier 2)
+- NBU: reserves data (06-Oct-26) and key rate decision (18-Sep-26), as cited in the knowledge base (tier 1, not rechecked this run)
+- Ukrstat: CPI, Aug-26 (Sep-26; tier 1, not rechecked)
+- IMF: first EFF review (20-Jul-26; tier 1, not rechecked)
+- Ministry of Finance of Ukraine: debt statistics, end-2025 (tier 1, not rechecked)
+- White & Case / MinFin: Eurobond exchange terms (Sep-24; tier 2)
+- S&P (22-Jan-26) and Fitch (22-Dec-25) rating actions, as cited in the knowledge base (tier 2, not rechecked)
+- Paris Club: debt service suspension (Mar-23; tier 1, not rechecked)
+- Repo database/issuers/ukr_rail.json (19-Sep-26; tier 2)
+- Positions from the two models in this run (tier 4; used only where consistent with the above)
