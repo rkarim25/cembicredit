@@ -207,6 +207,15 @@
     "path": "reports/oman-sovereign-credit.md"
   },
   {
+    "topic": "Pakistan sovereign credit",
+    "slug": "pakistan-sovereign-credit",
+    "updated": "08-Oct-26",
+    "status": "Draft",
+    "open_items": 10,
+    "run": "2026-10-08_2002_pakistan-sovereign-credit",
+    "path": "reports/pakistan-sovereign-credit.md"
+  },
+  {
     "topic": "Rwanda sovereign credit",
     "slug": "rwanda-sovereign-credit",
     "updated": "08-Oct-26",
