@@ -69195,7 +69195,7 @@ window.SOVEREIGNS = [
   "region": "Sub-Saharan Africa",
   "asof": "08-Oct-26",
   "fx_regime": "managed float",
-  "commodity": "Crude oil and condensate exporter (1.68M bpd Aug-26, crude 1.50M bpd at OPEC quota); Brent price drives FX receipts and fiscal revenue; refined product imports falling as Dangote Refinery ramps (736k bpd)",
+  "commodity": "Crude oil exports (Brent price against the budget benchmark; output 1.68M bpd in Aug-26 against a 1.50M bpd OPEC crude quota); fuel imports down 26% as Dangote refinery throughput reached 736,470 bpd",
   "ratings": {
    "sp": {
     "rating": "B",
@@ -69235,9 +69235,10 @@ window.SOVEREIGNS = [
    "real_gdp_growth_pct": 4.1,
    "current_account_pct_gdp": 5.8,
    "fiscal_balance_pct_gdp": -4.4,
-   "nominal_gdp_usd_bn": 377.365,
+   "nominal_gdp_usd_bn": 377.4,
    "eurobonds_outstanding_usd_bn": 15.12,
    "current_account_4q_usd_bn": 15.61,
+   "external_debt_pct_gdp": 14.4,
    "ex_ante_real_rate_pct": 7.61,
    "reer_z_10y": -0.51,
    "reer_latest": 93.2855,
@@ -69245,20 +69246,21 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 4.6
   },
   "src": {
-   "cpi_latest_yoy_pct": "NBS, Consumer Price Index Report August 2026 15-Sep-26",
-   "policy_rate_pct": "CBN, 307th MPC Communiqu\u00e9 22-Sep-26",
-   "gross_reserves_usd_bn": "CBN, Daily Foreign Exchange Reserves Bulletin 05-Oct-26 | gross, CBN daily reserves bulletin (gold treatment not stated)",
-   "gov_debt_pct_gdp": "DMO / IMF 25-Sep-26 | total public debt (federal, state and FCT; domestic and external) / GDP",
-   "interest_pct_revenue": "IMF Article IV / Budget Office 01-Jun-26 | federal interest payments as share of retained revenue; document states 'over 55%'",
-   "next_eurobond_maturity": "DMO Sep-26",
-   "import_cover_months": "Adjudicated document (gross reserves / imports of goods and services), IMF / CBN 08-Oct-26",
+   "cpi_latest_yoy_pct": "NBS Consumer Price Index Report August 2026 15-Sep-26",
+   "policy_rate_pct": "CBN 307th MPC Communiqu\u00e9 22-Sep-26",
+   "gross_reserves_usd_bn": "CBN Daily Foreign Exchange Reserves Bulletin 05-Oct-26 | gross (CBN daily bulletin; the IMF monthly series incl. gold was 54.85 in Aug-26)",
+   "gov_debt_pct_gdp": "DMO/IMF 25-Sep-26 | Total public debt of \u20a6166.79T ($120.93B) at 30-Jun-26; the report labels the ratio both 'federal government' and 'total public', so the definition is unresolved",
+   "interest_pct_revenue": "IMF Article IV concluding statement 01-Jun-26",
+   "next_eurobond_maturity": "DMO 25-Sep-26",
+   "import_cover_months": "IMF/CBN via prior adjudicated document (Medium) 08-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "eurobonds_outstanding_usd_bn": "DMO, Nigeria Public Debt Stock as at June 30, 2026 25-Sep-26",
+   "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
+   "current_account_pct_gdp": "IMF WEO 08-Oct-26",
+   "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
+   "eurobonds_outstanding_usd_bn": "DMO Nigeria Public Debt Stock 25-Sep-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
+   "external_debt_pct_gdp": "DMO Nigeria Public Debt Stock; IMF WEO 25-Sep-26 | public external debt $54.52B (DMO, 30-Jun-26) divided by IMF WEO 2026E nominal GDP $377.4B; computed, public sector only",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER))",
    "reer_latest": "derived from the inputs above ()",
@@ -69279,6 +69281,18 @@ window.SOVEREIGNS = [
   "series": {
    "gov_debt_pct_gdp": {
     "2026E": 32.3
+   },
+   "real_gdp_growth_pct": {
+    "2026E": 4.1
+   },
+   "current_account_pct_gdp": {
+    "2026E": 5.8
+   },
+   "fiscal_balance_pct_gdp": {
+    "2026E": -4.4
+   },
+   "nominal_gdp_usd_bn": {
+    "2026E": 377.4
    }
   },
   "hist": {
@@ -71441,17 +71455,18 @@ window.SOVEREIGNS = [
    "cpi_latest_yoy_pct": "Aug-26",
    "policy_rate_pct": "Sep-26",
    "gross_reserves_usd_bn": "05-Oct-26",
-   "gov_debt_pct_gdp": "Jun-26",
-   "interest_pct_revenue": "2026",
-   "next_eurobond_maturity": "Sep-26",
-   "import_cover_months": "Oct-26",
+   "gov_debt_pct_gdp": "30-Jun-26",
+   "interest_pct_revenue": "2026 (stated as 'over 55%' of retained revenue; federal or consolidated basis unresolved)",
+   "next_eurobond_maturity": "25-Sep-26",
+   "import_cover_months": "2026",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
    "current_account_pct_gdp": "2026E",
    "fiscal_balance_pct_gdp": "2026E",
    "nominal_gdp_usd_bn": "2026E",
-   "eurobonds_outstanding_usd_bn": "Jun-26",
+   "eurobonds_outstanding_usd_bn": "30-Jun-26",
    "current_account_4q_usd_bn": "2025-Q2 to 2026-Q1",
+   "external_debt_pct_gdp": "30-Jun-26",
    "ex_ante_real_rate_pct": "derived",
    "reer_z_10y": "derived",
    "reer_latest": "derived",
@@ -71459,7 +71474,7 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "7",
+   "open_items": "12",
    "updated": "08-Oct-26",
    "status": "Draft"
   }
