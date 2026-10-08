@@ -1146,6 +1146,104 @@ window.SOVEREIGNS = [
   }
  },
  {
+  "slug": "rwanda",
+  "country": "Rwanda",
+  "region": "Sub-Saharan Africa",
+  "asof": "08-Oct-26",
+  "fx_regime": "crawling peg",
+  "commodity": "Net oil and capital goods importer; exports coffee, tea, and coltan/cassiterite minerals",
+  "ratings": {
+   "fitch": {
+    "rating": "B+",
+    "outlook": "Stable",
+    "date": "11-Sep-26"
+   },
+   "sp": {
+    "rating": "B+",
+    "outlook": "Stable",
+    "date": "15-May-26"
+   },
+   "moodys": {
+    "rating": "B2",
+    "outlook": "Stable",
+    "date": "06-Oct-26"
+   }
+  },
+  "imf": {
+   "programme": "38-month ECF ($35.7m SDR 26.43m review)",
+   "size_usd_bn": 0.319,
+   "approved": "Jun-26",
+   "next_review": "Dec-26",
+   "risk_of_debt_distress": "moderate",
+   "source": "IMF",
+   "asof": "06-Oct-26"
+  },
+  "politics": {
+   "next_election": "Jul-29",
+   "note": "President Paul Kagame re-elected Jul-24; watch eastern DRC/M23 conflict diplomacy",
+   "source": "NEC",
+   "asof": "08-Oct-26"
+  },
+  "ind": {
+   "real_gdp_growth_pct": 7.8,
+   "cpi_latest_yoy_pct": 15.7,
+   "policy_rate_pct": 8.75,
+   "current_account_pct_gdp": -15.0,
+   "gross_reserves_usd_bn": 2.2,
+   "import_cover_months": 4.0,
+   "external_debt_pct_gdp": 63.0,
+   "gov_debt_pct_gdp": 77.5,
+   "fiscal_balance_pct_gdp": -4.8,
+   "eurobonds_outstanding_usd_bn": 0.62,
+   "next_eurobond_maturity": "09-Aug-31 $620m 5.50% (XS2373051320)",
+   "ex_ante_real_rate_pct": -6.95
+  },
+  "src": {
+   "real_gdp_growth_pct": "Fitch 11-Sep-26",
+   "cpi_latest_yoy_pct": "BNR / NISR 31-Aug-26",
+   "policy_rate_pct": "BNR 31-Aug-26",
+   "current_account_pct_gdp": "BNR / Fitch 11-Sep-26",
+   "gross_reserves_usd_bn": "BNR 31-Aug-26",
+   "import_cover_months": "BNR 31-Aug-26",
+   "external_debt_pct_gdp": "Fitch 11-Sep-26",
+   "gov_debt_pct_gdp": "Fitch 11-Sep-26",
+   "fiscal_balance_pct_gdp": "IMF 06-Oct-26",
+   "eurobonds_outstanding_usd_bn": "MINECOFIN 08-Oct-26",
+   "next_eurobond_maturity": "MINECOFIN 08-Oct-26",
+   "ex_ante_real_rate_pct": "derived"
+  },
+  "derived": {
+   "ex_ante_real_rate_pct": -6.95,
+   "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
+  },
+  "series": {
+   "real_gdp_growth_pct": {
+    "2026E": 7.8
+   },
+   "current_account_pct_gdp": {
+    "2026E": -15.0
+   },
+   "fiscal_balance_pct_gdp": {
+    "2025": -4.8,
+    "2026E": -4.5
+   },
+   "gov_debt_pct_gdp": {
+    "2026E": 77.5
+   },
+   "external_debt_pct_gdp": {
+    "2026E": 63.0
+   },
+   "gross_reserves_usd_bn": {
+    "2026": 2.2
+   }
+  },
+  "report": {
+   "open_items": "9",
+   "updated": "08-Oct-26",
+   "status": "Draft"
+  }
+ },
+ {
   "slug": "senegal",
   "country": "Senegal",
   "region": "Africa",
