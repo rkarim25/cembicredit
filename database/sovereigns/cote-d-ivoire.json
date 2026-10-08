@@ -1127,5 +1127,7 @@
         "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series"
       }
     }
-  ]
+  ],
+  "series_quarterly": {},
+  "series_quarterly_sources": {}
 }
