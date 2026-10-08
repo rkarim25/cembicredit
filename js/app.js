@@ -206,9 +206,16 @@ function renderTable() {
   const tbody = document.getElementById("issuers-tbody");
   tbody.innerHTML = "";
   
-  const totalIssuers = (typeof MASTER_ISSUERS !== "undefined" ? MASTER_ISSUERS.length : filteredIssuers.length);
-  const hidden = totalIssuers - filteredIssuers.length;
-  document.getElementById("match-count").textContent = "Showing " + filteredIssuers.length + " of " + totalIssuers + " issuers" + (hidden > 0 ? " (" + hidden + " hidden by the filters above)" : "");
+  const inView = (typeof MASTER_ISSUERS !== "undefined" ? MASTER_ISSUERS.filter(i => i.metadata.type === currentView) : filteredIssuers);
+  const totalIssuers = inView.length, hidden = totalIssuers - filteredIssuers.length;
+  const label = currentView === 'bank' ? 'banks' : 'corporates';
+  document.getElementById("match-count").textContent = "Showing " + filteredIssuers.length + " of " + totalIssuers + " " + label + (hidden > 0 ? " (" + hidden + " hidden by the filters above)" : "");
+  if (typeof MASTER_ISSUERS !== "undefined") {
+    const nCorp = MASTER_ISSUERS.filter(i => i.metadata.type === 'corp').length, nBank = MASTER_ISSUERS.length - nCorp;
+    const tc = document.getElementById("tab-corp"), tb = document.getElementById("tab-bank");
+    if (tc) tc.textContent = "Corporates (" + nCorp + ")";
+    if (tb) tb.textContent = "Banks (" + nBank + ")";
+  }
   
   filteredIssuers.forEach(item => {
     const m = item.metadata;
