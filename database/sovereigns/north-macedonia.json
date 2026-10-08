@@ -3,18 +3,17 @@
   "country": "North Macedonia",
   "indicators": {
     "gross_reserves_usd_bn": {
-      "value": 5.804,
-      "period": "2025",
-      "source": "World Bank WDI",
-      "asof": "08-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "value": 5.51,
+      "definition": "gross reserves EUR 5,101m (~USD 5.51bn)",
+      "period": "Aug-26",
+      "source": "NBRNM",
+      "asof": "31-Aug-26"
     },
     "import_cover_months": {
-      "value": 4.566,
-      "period": "2025",
-      "source": "World Bank WDI",
-      "asof": "08-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "value": 4.2,
+      "period": "Aug-26",
+      "source": "NBRNM",
+      "asof": "31-Aug-26"
     },
     "fdi_net_pct_gdp": {
       "value": 3.538,
@@ -38,11 +37,11 @@
       "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
     },
     "gov_debt_pct_gdp": {
-      "value": 53.1,
-      "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "08-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "value": 55.2,
+      "definition": "public debt % GDP",
+      "period": "Q1-26",
+      "source": "Ministry of Finance",
+      "asof": "31-Mar-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": -4.2,
@@ -57,11 +56,50 @@
       "source": "IMF WEO",
       "asof": "08-Oct-26",
       "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+    },
+    "policy_rate_pct": {
+      "value": 4.25,
+      "period": "Sep-26",
+      "source": "NBRNM",
+      "asof": "30-Sep-26"
+    },
+    "eurobonds_outstanding_usd_bn": {
+      "value": 2.16,
+      "period": "Aug-26",
+      "source": "Ministry of Finance",
+      "asof": "08-Oct-26"
+    },
+    "next_eurobond_maturity": {
+      "value": "13-Mar-27 EUR 500m 6.96% (XS2582522681)",
+      "note": "Callable Dec-26",
+      "source": "Ministry of Finance / Cbonds",
+      "asof": "08-Oct-26"
     }
   },
-  "ratings": {},
-  "series": {},
-  "series_sources": {},
+  "ratings": {
+    "fitch": {
+      "rating": "BB+",
+      "outlook": "Stable",
+      "date": "11-Sep-26"
+    },
+    "sp": {
+      "rating": "BB-",
+      "outlook": "Stable",
+      "date": "02-Oct-26"
+    }
+  },
+  "series": {
+    "gov_debt_pct_gdp": {
+      "2026E": 55.2
+    },
+    "gross_reserves_usd_bn": {
+      "2026E": 5.51
+    }
+  },
+  "series_sources": {
+    "gov_debt_pct_gdp": "Ministry of Finance, Q1-26",
+    "gross_reserves_usd_bn": "NBRNM, Aug-26"
+  },
   "series_official": {
     "gross_reserves_usd_bn": {
       "2025": 5.804,
@@ -525,5 +563,115 @@
     "gdp_per_capita_usd": "IMF WEO (vintage as served 08-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections"
   },
   "derived": {},
-  "asof": "08-Oct-26"
+  "asof": "08-Oct-26",
+  "history": [
+    {
+      "asof": "08-Oct-26",
+      "run": null,
+      "indicators": {
+        "gross_reserves_usd_bn": {
+          "value": 5.51,
+          "definition": "gross reserves EUR 5,101m (~USD 5.51bn)",
+          "period": "Aug-26",
+          "source": "NBRNM",
+          "asof": "31-Aug-26"
+        },
+        "import_cover_months": {
+          "value": 4.2,
+          "period": "Aug-26",
+          "source": "NBRNM",
+          "asof": "31-Aug-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 3.538,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 3.1,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": -5,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 55.2,
+          "definition": "public debt % GDP",
+          "period": "Q1-26",
+          "source": "Ministry of Finance",
+          "asof": "31-Mar-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -4.2,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 21.605,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "policy_rate_pct": {
+          "value": 4.25,
+          "period": "Sep-26",
+          "source": "NBRNM",
+          "asof": "30-Sep-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 2.16,
+          "period": "Aug-26",
+          "source": "Ministry of Finance",
+          "asof": "08-Oct-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "13-Mar-27 EUR 500m 6.96% (XS2582522681)",
+          "note": "Callable Dec-26",
+          "source": "Ministry of Finance / Cbonds",
+          "asof": "08-Oct-26"
+        }
+      },
+      "derived": {}
+    }
+  ],
+  "region": "Europe",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "peg to EUR",
+    "source": "NBRNM",
+    "asof": "08-Oct-26"
+  },
+  "commodity_exposure": {
+    "value": "Net energy and capital goods importer; automotive components and manufacturing exports",
+    "source": "NBRNM / State Statistical Office",
+    "asof": "08-Oct-26"
+  },
+  "imf": {
+    "programme": "PLL concluded Nov-24",
+    "size_usd_bn": 0.58,
+    "approved": "Nov-22",
+    "next_review": null,
+    "risk_of_debt_distress": "moderate",
+    "source": "IMF",
+    "asof": "08-Oct-26"
+  },
+  "politics": {
+    "next_election": "May-28",
+    "note": "VMRO-DPMNE coalition government; EU accession stalled over Bulgarian constitutional requirement",
+    "source": "Political reports",
+    "asof": "08-Oct-26"
+  },
+  "run": "2026-10-08_1910_north-macedonia-sovereign-credit"
 }
