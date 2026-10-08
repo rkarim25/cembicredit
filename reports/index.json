@@ -63,6 +63,15 @@
     "path": "reports/egypt-sovereign-credit.md"
   },
   {
+    "topic": "Ethiopia sovereign credit",
+    "slug": "ethiopia-sovereign-credit",
+    "updated": "08-Oct-26",
+    "status": "Draft",
+    "open_items": 5,
+    "run": "2026-10-08_1715_ethiopia-sovereign-credit",
+    "path": "reports/ethiopia-sovereign-credit.md"
+  },
+  {
     "topic": "Gabon sovereign credit",
     "slug": "gabon-sovereign-credit",
     "updated": "08-Oct-26",
