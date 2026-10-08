@@ -284,6 +284,107 @@ window.SOVEREIGNS = [
   }
  },
  {
+  "slug": "benin",
+  "country": "Benin",
+  "region": "Sub-Saharan Africa",
+  "asof": "08-Oct-26",
+  "fx_regime": "peg to EUR",
+  "commodity": "Exports cotton and cashews; net oil importer but hosts Niger-Benin crude export transit pipeline at S\u00e8m\u00e8-Kpodji",
+  "ratings": {
+   "fitch": {
+    "rating": "B+",
+    "outlook": "Positive",
+    "date": "20-Jun-26"
+   },
+   "sp": {
+    "rating": "BB-",
+    "outlook": "Stable",
+    "date": "22-May-26"
+   },
+   "moodys": {
+    "rating": "Ba3",
+    "outlook": "Stable",
+    "date": "14-Aug-26"
+   }
+  },
+  "imf": {
+   "programme": "Blended 42-month EFF/ECF ($638m) and RSF ($200m) completed 25-Feb-26",
+   "size_usd_bn": 0.838,
+   "approved": "08-Jul-22",
+   "next_review": null,
+   "risk_of_debt_distress": "moderate",
+   "source": "IMF",
+   "asof": "25-Feb-26"
+  },
+  "politics": {
+   "next_election": "Apr-31",
+   "note": "Romuald Wadagni elected president 12-Apr-26, inaugurated 24-May-26, succeeding Patrice Talon (2-term limit)",
+   "source": "Constitutional Court of Benin",
+   "asof": "15-Apr-26"
+  },
+  "ind": {
+   "real_gdp_growth_pct": 7.5,
+   "cpi_latest_yoy_pct": 1.25,
+   "current_account_pct_gdp": -5.5,
+   "gov_debt_pct_gdp": 54.0,
+   "fiscal_balance_pct_gdp": -2.8,
+   "primary_balance_pct_gdp": -0.6,
+   "revenue_pct_gdp": 14.5,
+   "interest_pct_revenue": 14.0,
+   "parallel_fx_premium_pct": 0.0,
+   "eurobonds_outstanding_usd_bn": 2.85,
+   "next_eurobond_maturity": "19-Jan-32 \u20ac1.0bn 4.875% (XS2278994418)"
+  },
+  "src": {
+   "real_gdp_growth_pct": "INSAE / IMF 25-Feb-26",
+   "cpi_latest_yoy_pct": "BCEAO / INSAE 15-Aug-26",
+   "current_account_pct_gdp": "IMF 25-Feb-26",
+   "gov_debt_pct_gdp": "IMF 25-Feb-26",
+   "fiscal_balance_pct_gdp": "Ministry of Economy and Finance / IMF 25-Feb-26",
+   "primary_balance_pct_gdp": "IMF 25-Feb-26",
+   "revenue_pct_gdp": "IMF 25-Feb-26",
+   "interest_pct_revenue": "Moody's 14-Aug-26",
+   "parallel_fx_premium_pct": "BCEAO 15-Aug-26",
+   "eurobonds_outstanding_usd_bn": "Ministry of Economy and Finance 31-Mar-26",
+   "next_eurobond_maturity": "Ministry of Economy and Finance 31-Mar-26"
+  },
+  "derived": {},
+  "series": {
+   "real_gdp_growth_pct": {
+    "2025": 7.5,
+    "2026E": 6.5
+   },
+   "cpi_avg_pct": {
+    "2025": 1.25,
+    "2026E": 1.25
+   },
+   "current_account_pct_gdp": {
+    "2025": -5.5
+   },
+   "fiscal_balance_pct_gdp": {
+    "2024": -3.1,
+    "2025": -2.8
+   },
+   "primary_balance_pct_gdp": {
+    "2025": -0.6
+   },
+   "gov_debt_pct_gdp": {
+    "2025": 54.0
+   },
+   "revenue_pct_gdp": {
+    "2025": 14.5
+   },
+   "interest_pct_revenue": {
+    "2025": 14.0
+   }
+  },
+  "report": {
+   "open_items": "5",
+   "updated": "08-Oct-26",
+   "status": "Draft"
+  }
+ },
+ {
   "slug": "cameroon",
   "country": "Cameroon",
   "region": "Africa",

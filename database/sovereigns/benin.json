@@ -1,0 +1,159 @@
+{
+  "country": "Benin",
+  "region": "Sub-Saharan Africa",
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "peg to EUR",
+    "source": "BCEAO",
+    "asof": "15-Aug-26"
+  },
+  "commodity_exposure": {
+    "value": "Exports cotton and cashews; net oil importer but hosts Niger-Benin crude export transit pipeline at S\u00e8m\u00e8-Kpodji",
+    "source": "Ministry of Economy and Finance",
+    "asof": "31-Mar-26"
+  },
+  "imf": {
+    "programme": "Blended 42-month EFF/ECF ($638m) and RSF ($200m) completed 25-Feb-26",
+    "size_usd_bn": 0.838,
+    "approved": "08-Jul-22",
+    "next_review": null,
+    "risk_of_debt_distress": "moderate",
+    "source": "IMF",
+    "asof": "25-Feb-26"
+  },
+  "politics": {
+    "next_election": "Apr-31",
+    "note": "Romuald Wadagni elected president 12-Apr-26, inaugurated 24-May-26, succeeding Patrice Talon (2-term limit)",
+    "source": "Constitutional Court of Benin",
+    "asof": "15-Apr-26"
+  },
+  "indicators": {
+    "real_gdp_growth_pct": {
+      "value": 7.5,
+      "period": "2025",
+      "source": "INSAE / IMF",
+      "asof": "25-Feb-26"
+    },
+    "cpi_latest_yoy_pct": {
+      "value": 1.25,
+      "period": "Aug-26",
+      "source": "BCEAO / INSAE",
+      "asof": "15-Aug-26"
+    },
+    "current_account_pct_gdp": {
+      "value": -5.5,
+      "period": "2025",
+      "source": "IMF",
+      "asof": "25-Feb-26"
+    },
+    "gov_debt_pct_gdp": {
+      "value": 54.0,
+      "definition": "central government public debt (~60.5% incl SOEs)",
+      "period": "2025",
+      "source": "IMF",
+      "asof": "25-Feb-26"
+    },
+    "fiscal_balance_pct_gdp": {
+      "value": -2.8,
+      "period": "2025",
+      "source": "Ministry of Economy and Finance / IMF",
+      "asof": "25-Feb-26"
+    },
+    "primary_balance_pct_gdp": {
+      "value": -0.6,
+      "period": "2025",
+      "source": "IMF",
+      "asof": "25-Feb-26"
+    },
+    "revenue_pct_gdp": {
+      "value": 14.5,
+      "period": "2025",
+      "source": "IMF",
+      "asof": "25-Feb-26"
+    },
+    "interest_pct_revenue": {
+      "value": 14.0,
+      "period": "2025",
+      "source": "Moody's",
+      "asof": "14-Aug-26"
+    },
+    "parallel_fx_premium_pct": {
+      "value": 0.0,
+      "period": "Aug-26",
+      "source": "BCEAO",
+      "asof": "15-Aug-26"
+    },
+    "eurobonds_outstanding_usd_bn": {
+      "value": 2.85,
+      "period": "Mar-26",
+      "source": "Ministry of Economy and Finance",
+      "asof": "31-Mar-26"
+    },
+    "next_eurobond_maturity": {
+      "value": "19-Jan-32 \u20ac1.0bn 4.875% (XS2278994418)",
+      "note": "19-Jan-32 EUR 1.0bn 4.875%",
+      "source": "Ministry of Economy and Finance",
+      "asof": "31-Mar-26"
+    }
+  },
+  "ratings": {
+    "fitch": {
+      "rating": "B+",
+      "outlook": "Positive",
+      "date": "20-Jun-26"
+    },
+    "sp": {
+      "rating": "BB-",
+      "outlook": "Stable",
+      "date": "22-May-26"
+    },
+    "moodys": {
+      "rating": "Ba3",
+      "outlook": "Stable",
+      "date": "14-Aug-26"
+    }
+  },
+  "series": {
+    "real_gdp_growth_pct": {
+      "2025": 7.5,
+      "2026E": 6.5
+    },
+    "cpi_avg_pct": {
+      "2025": 1.25,
+      "2026E": 1.25
+    },
+    "current_account_pct_gdp": {
+      "2025": -5.5
+    },
+    "fiscal_balance_pct_gdp": {
+      "2024": -3.1,
+      "2025": -2.8
+    },
+    "primary_balance_pct_gdp": {
+      "2025": -0.6
+    },
+    "gov_debt_pct_gdp": {
+      "2025": 54.0
+    },
+    "revenue_pct_gdp": {
+      "2025": 14.5
+    },
+    "interest_pct_revenue": {
+      "2025": 14.0
+    }
+  },
+  "series_sources": {
+    "real_gdp_growth_pct": "INSAE / IMF, 25-Feb-26",
+    "cpi_avg_pct": "BCEAO / INSAE, 15-Aug-26",
+    "current_account_pct_gdp": "IMF, 25-Feb-26",
+    "fiscal_balance_pct_gdp": "Ministry of Economy and Finance / IMF, 25-Feb-26",
+    "primary_balance_pct_gdp": "IMF, 25-Feb-26",
+    "gov_debt_pct_gdp": "IMF, 25-Feb-26",
+    "revenue_pct_gdp": "IMF, 25-Feb-26",
+    "interest_pct_revenue": "Moody's, 14-Aug-26"
+  },
+  "slug": "benin",
+  "asof": "08-Oct-26",
+  "run": "2026-10-08_1832_benin-sovereign-credit",
+  "derived": {}
+}

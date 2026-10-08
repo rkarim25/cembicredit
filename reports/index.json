@@ -36,6 +36,15 @@
     "path": "reports/bahrain-sovereign-credit.md"
   },
   {
+    "topic": "Benin sovereign credit",
+    "slug": "benin-sovereign-credit",
+    "updated": "08-Oct-26",
+    "status": "Draft",
+    "open_items": 5,
+    "run": "2026-10-08_1832_benin-sovereign-credit",
+    "path": "reports/benin-sovereign-credit.md"
+  },
+  {
     "topic": "Cameroon sovereign credit",
     "slug": "cameroon-sovereign-credit",
     "updated": "08-Oct-26",
