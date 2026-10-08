@@ -75,6 +75,20 @@
     } else {
       h += '<p class="sv-meta">No official history fetched yet for this sovereign (run pipeline/sovereign_data_fetch.py).</p>';
     }
+    const MONTHLY = [['policy_rate_pct', 'Policy rate (%)'], ['fx_per_usd', 'FX, local currency per USD'], ['reer_broad_real', 'Real effective exchange rate (BIS broad, 2020=100)'], ['cpi_yoy_pct', 'CPI inflation, y/y (%)'], ['policy_rate_imf_pct', 'Policy-related rate, IMF (%)'], ['gross_reserves_usd_bn', 'Gross reserves incl. gold (USD bn)'], ['reserves_ex_gold_usd_bn', 'Reserves excluding gold (USD bn)'], ['reer_imf_2010', 'Real effective exchange rate, IMF (2010=100)'], ['ctot_net_export_gdp_idx', 'Commodity terms of trade, IMF (Jun-2012=100)']];
+    const mon = d.monthly || {}, mavail = MONTHLY.filter(([k]) => mon[k] && Object.keys(mon[k]).length);
+    if (mavail.length) {
+      const z = (d.derived || {}).reer_z_10y;
+      h += `<div class="sv-hist-bar" style="margin-top:10px"><strong>Monthly</strong> <span class="sv-meta">From 2015. BIS: policy rate (end of month), local currency per USD (monthly average), real effective exchange rate (broad basket). IMF data portal: CPI inflation y/y, policy-related rate, reserves (excluding gold, and gross including gold at national valuation), CPI-based REER, commodity terms of trade (net exports to GDP weights). REER up = real appreciation.${z != null ? ' REER z-score vs trailing ten years: <b>' + z + '</b> sd.' : ''}</span></div>`;
+      h += '<div class="sv-charts">' + mavail.map(([k, l]) => `<div class="sv-chart"><div class="sv-src">${l} <span class="sv-src2">${(d.monthly_src[k] || '').split(';')[0]}</span></div><div class="sv-canvas"><canvas id="m_${k}"></canvas></div></div>`).join('') + '</div>';
+    }
+    const FSI = [['car_pct', 'Regulatory capital / RWA'], ['tier1_pct', 'Tier 1 / RWA'], ['npl_pct', 'NPL ratio'], ['provisions_to_npl_pct', 'Provisions / NPLs'], ['roa_pct', 'Return on assets'], ['roe_pct', 'Return on equity'], ['fx_open_position_to_capital_pct', 'Net FX open position / capital']];
+    const fsi = d.fsi || {}, favail = FSI.filter(([k]) => fsi[k] && Object.keys(fsi[k]).length);
+    if (favail.length) {
+      const qs = [...new Set(favail.flatMap(([k]) => Object.keys(fsi[k])))].sort().slice(-8);
+      h += `<div class="sv-hist-bar" style="margin-top:10px"><strong>Banking system</strong> <span class="sv-meta">IMF Financial Soundness Indicators, deposit takers, %; last eight periods reported (quarterly where the country reports quarterly, else annual). Latest: ${qs[qs.length - 1]}.</span></div>`;
+      h += `<div class="sv-table-wrap"><table class="sv"><thead><tr><th>Indicator</th>${qs.map(q => `<th>${q}</th>`).join('')}</tr></thead><tbody>${favail.map(([k, l]) => `<tr><td class="name">${l}</td>${qs.map(q => `<td>${fsi[k][q] != null ? (+fsi[k][q]).toFixed(1) : ''}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+    }
     const runSeries = Object.entries(d.series || {}).filter(([k, s]) => s && Object.keys(s).length);
     if (runSeries.length) h += `<details class="sv-meta" style="margin-top:8px"><summary>Series captured from reports (${runSeries.length})</summary><pre style="font-size:11px">${runSeries.map(([k, s]) => k + ': ' + Object.entries(s).map(([y, v]) => y + '=' + v).join(', ')).join('\n')}</pre></details>`;
     detail.style.display = 'block'; detail.innerHTML = h; detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -87,6 +101,11 @@
         { label: l, data: actual, borderColor: '#0071e3', backgroundColor: 'rgba(0,113,227,.12)', fill: true, tension: .25 },
         { label: 'IMF projection', data: proj, borderColor: '#0071e3', borderDash: [5, 4], tension: .25, pointRadius: 0 }]));
     });
+    mavail.forEach(([k, l]) => {
+      const s = mon[k], ms = Object.keys(s).sort();
+      charts.push(lineChart(document.getElementById('m_' + k), ms, [{ label: l, data: ms.map(m => s[m]), borderColor: '#b5651d', backgroundColor: 'rgba(181,101,29,.10)', fill: true, tension: .2, pointRadius: 0 }],
+        { scales: { x: { grid: { display: false }, ticks: { maxTicksLimit: 12, font: { size: 10 }, callback: (v, i) => ms[i] && ms[i].endsWith('-01') ? ms[i].slice(0, 4) : '' } }, y: { ticks: { font: { size: 10 } } } } }));
+    });
     const sel = document.getElementById('histsel');
     if (sel) sel.onchange = () => document.querySelectorAll('#histcharts .sv-chart').forEach(c => c.style.display = (sel.value === 'all' || c.dataset.k === sel.value) ? '' : 'none');
   }
@@ -94,18 +113,23 @@
   // ---- compare countries on one indicator over time
   function buildCompare() {
     if (!compare) return;
-    let h = `<h3 style="margin:0 0 6px">Compare over time</h3><div class="sv-hist-bar"><label class="sv-meta">Indicator <select id="cmp-ind">${HIST.map(([k, l]) => `<option value="${k}">${l}</option>`).join('')}</select></label> <label class="sv-meta">Countries (ctrl-click for several) <select id="cmp-ctry" multiple size="6">${data.map(d => `<option value="${d.slug}">${d.country}</option>`).join('')}</select></label> <label class="sv-meta">From <input id="cmp-from" type="number" value="2010" min="2005" max="2031" style="width:70px"></label> <button type="button" id="cmp-go" class="sh-back">Chart</button> <button type="button" id="cmp-table" class="sh-back">Table</button></div><div class="sv-canvas-wide"><canvas id="cmp-canvas"></canvas></div><div id="cmp-tbl" class="sv-table-wrap" style="margin-top:10px;display:none"></div>`;
+    let h = `<h3 style="margin:0 0 6px">Compare over time</h3><div class="sv-hist-bar"><label class="sv-meta">Indicator <select id="cmp-ind">${HIST.map(([k, l]) => `<option value="${k}">${l}</option>`).join('')}<optgroup label="Monthly (BIS, IMF)"><option value="m:policy_rate_pct">Policy rate (%)</option><option value="m:fx_per_usd_idx">FX vs USD, rebased to 100 at start</option><option value="m:reer_broad_real">Real effective exchange rate (2020=100)</option><option value="m:cpi_yoy_pct">CPI inflation y/y (%, IMF)</option><option value="m:policy_rate_imf_pct">Policy-related rate (%, IMF)</option><option value="m:gross_reserves_usd_bn">Gross reserves incl. gold (USD bn, IMF)</option><option value="m:gross_reserves_usd_bn_idx">Gross reserves, rebased to 100 at start</option><option value="m:reer_imf_2010">REER, IMF (2010=100)</option><option value="m:ctot_net_export_gdp_idx">Commodity terms of trade (IMF)</option></optgroup></select></label> <label class="sv-meta">Countries (ctrl-click for several) <select id="cmp-ctry" multiple size="6">${data.map(d => `<option value="${d.slug}">${d.country}</option>`).join('')}</select></label> <label class="sv-meta">From <input id="cmp-from" type="number" value="2010" min="2005" max="2031" style="width:70px"></label> <button type="button" id="cmp-go" class="sh-back">Chart</button> <button type="button" id="cmp-table" class="sh-back">Table</button></div><div class="sv-canvas-wide"><canvas id="cmp-canvas"></canvas></div><div id="cmp-tbl" class="sv-table-wrap" style="margin-top:10px;display:none"></div>`;
     compare.innerHTML = h;
     const ind = document.getElementById('cmp-ind'), ctry = document.getElementById('cmp-ctry'), from = document.getElementById('cmp-from');
     const picked = () => [...ctry.selectedOptions].map(o => o.value).slice(0, 10);
     function draw() {
       const k = ind.value, slugs = picked(); if (!slugs.length) return;
-      const ys = [...new Set(slugs.flatMap(s => years((data.find(d => d.slug === s).hist || {})[k] || {})))].filter(y => +y >= +from.value).sort();
-      const datasets = slugs.map((s, i) => { const d = data.find(x => x.slug === s), ser = (d.hist || {})[k] || {}; return { label: d.country, data: ys.map(y => ser[y] ?? null), borderColor: COLORS[i % COLORS.length], tension: .25, spanGaps: true }; });
+      const monthly = k.startsWith('m:'), mk = monthly ? k.slice(2).replace(/_idx$/, '') : k;
+      const serOf = d => monthly ? ((d.monthly || {})[mk] || {}) : ((d.hist || {})[mk] || {});
+      let ys = [...new Set(slugs.flatMap(s => Object.keys(serOf(data.find(d => d.slug === s)))))].filter(y => +y.slice(0, 4) >= +from.value).sort();
+      const datasets = slugs.map((s, i) => { const d = data.find(x => x.slug === s), ser = serOf(d); let base = null;
+        if (k.endsWith('_idx')) { const first = ys.find(y => ser[y] != null); base = first != null ? ser[first] : null; }
+        return { label: d.country, data: ys.map(y => ser[y] == null ? null : (base ? +(100 * ser[y] / base).toFixed(2) : ser[y])), borderColor: COLORS[i % COLORS.length], tension: .25, spanGaps: true, pointRadius: monthly ? 0 : 2 }; });
       if (cmpChart) cmpChart.destroy();
       cmpChart = lineChart(document.getElementById('cmp-canvas'), ys, datasets, { plugins: { legend: { display: true, position: 'bottom' }, tooltip: { mode: 'index', intersect: false } } });
       const t = document.getElementById('cmp-tbl');
-      t.innerHTML = `<table class="sv"><thead><tr><th>Country</th>${ys.map(y => `<th>${y}</th>`).join('')}</tr></thead><tbody>${slugs.map(s => { const d = data.find(x => x.slug === s), ser = (d.hist || {})[k] || {}; return `<tr><td class="name">${d.country}</td>${ys.map(y => `<td>${ser[y] != null ? (+ser[y]).toFixed(1) : ''}</td>`).join('')}</tr>`; }).join('')}</tbody></table>`;
+      const tys = monthly ? ys.filter(y => y.endsWith('-12') || y === ys[ys.length - 1]) : ys;
+      t.innerHTML = `<table class="sv"><thead><tr><th>Country</th>${tys.map(y => `<th>${y}</th>`).join('')}</tr></thead><tbody>${datasets.map(ds => `<tr><td class="name">${ds.label}</td>${tys.map(y => { const v = ds.data[ys.indexOf(y)]; return `<td>${v != null ? (+v).toFixed(1) : ''}</td>`; }).join('')}</tr>`).join('')}</tbody></table>`;
     }
     document.getElementById('cmp-go').onclick = draw;
     document.getElementById('cmp-table').onclick = () => { const t = document.getElementById('cmp-tbl'); t.style.display = t.style.display === 'none' ? '' : 'none'; };
