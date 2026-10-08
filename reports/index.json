@@ -45,6 +45,15 @@
     "path": "reports/ghana-sovereign-credit.md"
   },
   {
+    "topic": "Iraq sovereign credit",
+    "slug": "iraq-sovereign-credit",
+    "updated": "08-Oct-26",
+    "status": "Draft",
+    "open_items": 5,
+    "run": "2026-10-08_1433_iraq-sovereign-credit",
+    "path": "reports/iraq-sovereign-credit.md"
+  },
+  {
     "topic": "Jordan sovereign credit",
     "slug": "jordan-sovereign-credit",
     "updated": "08-Oct-26",
