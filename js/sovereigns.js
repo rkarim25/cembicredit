@@ -14,7 +14,10 @@
     ['fdi_net_pct_gdp', 'FDI, net (% GDP)'], ['exports_pct_gdp', 'Exports (% GDP)'],
   , ['ppg_external_debt_usd_bn', 'PPG external debt stock (USD bn)'], ['ppg_debt_service_usd_bn', 'PPG external debt service (USD bn)'], ['short_term_external_debt_usd_bn', 'Short-term external debt (USD bn)'], ['remittances_pct_gdp', 'Remittances (% GDP)'], ['external_interest_paid_usd_bn', 'External interest paid (USD bn)']];
   const COLORS = ['#0071e3', '#15803d', '#b45309', '#dc2626', '#7c3aed', '#0e7490', '#be185d', '#4d7c0f', '#9a3412', '#1e40af'];
-  [...new Set(data.map(d => d.region).filter(Boolean))].sort().forEach(r => { const o = document.createElement('option'); o.value = r; o.textContent = r; region.appendChild(o); });
+  const groups = [...new Set(data.map(d => d.group).filter(Boolean))].sort();
+  if (data.some(d => d.ceemea)) { const o = document.createElement('option'); o.value = '__ceemea'; o.textContent = 'CEEMEA (all)'; region.appendChild(o); }
+  groups.forEach(r => { const o = document.createElement('option'); o.value = r; o.textContent = r; region.appendChild(o); });
+  if (data.some(d => d.ceemea) && !location.hash) region.value = '__ceemea';
 
   function cls(ind, v) {
     if (v == null || !ind.th || !ind.dir) return '';
@@ -30,7 +33,7 @@
   function rating(r) { return r && r.rating ? r.rating + (r.outlook ? ' ' + r.outlook[0].toLowerCase() : '') : ''; }
   function rows() {
     const f = q.value.toLowerCase(), rg = region.value;
-    return data.filter(d => (!f || (d.country || '').toLowerCase().includes(f)) && (!rg || d.region === rg));
+    return data.filter(d => (!f || (d.country || '').toLowerCase().includes(f)) && (!rg || (rg === '__ceemea' ? d.ceemea : d.group === rg)));
   }
   function render() {
     const inds = IND.filter(i => !group.value || i.group === group.value);

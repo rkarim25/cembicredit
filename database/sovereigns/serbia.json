@@ -1,19 +1,19 @@
 {
   "country": "Serbia",
-  "region": "Western Balkans / CEEMEA",
+  "region": "CEEMEA - Southeast Europe",
   "fiscal_year": "Calendar year",
   "commodity_exposure": {
-    "value": "Export manufacturing (automotive, EV battery supply chain, industrial); net energy importer, so global energy prices and the European manufacturing cycle matter most",
-    "source": "National Bank of Serbia / adjudicated report 08-Oct-26",
-    "asof": "Aug-26"
+    "value": "Export manufacturing (automotive, EV battery supply chains, industrial) tied to the European manufacturing cycle; energy imports and Jadar lithium (Rio Tinto) as a potential future export",
+    "source": "National Bank of Serbia; Government of Serbia, adjudicated document 08-Oct-26",
+    "asof": "08-Oct-26"
   },
   "imf": {
-    "programme": "Policy Coordination Instrument (36-month, non-financing, through late 2027)",
+    "programme": "36-month non-financing Policy Coordination Instrument (third review completed 15-Jun-26)",
     "size_usd_bn": null,
     "approved": null,
-    "next_review": "Fourth Review mission 15-Dec-26",
+    "next_review": "Fourth review mission 15-Dec-26",
     "risk_of_debt_distress": null,
-    "source": "IMF Press Release No. 26/208 (Third Review completed 15-Jun-26)",
+    "source": "IMF Press Release No. 26/208",
     "asof": "15-Jun-26"
   },
   "indicators": {
@@ -32,7 +32,7 @@
     "policy_rate_pct": {
       "value": 5.75,
       "period": "Sep-26",
-      "source": "National Bank of Serbia, Executive Board decision",
+      "source": "National Bank of Serbia Executive Board",
       "asof": "10-Sep-26"
     },
     "current_account_pct_gdp": {
@@ -50,7 +50,7 @@
     },
     "next_eurobond_maturity": {
       "value": "15-May-27",
-      "note": "15-May-27, EUR 1.13bn outstanding of the 3.125% Eurobond (XS2170186923) after the May-26 EUR 870.8m tender",
+      "note": "15-May-27, EUR 1.13bn 3.125% (XS2170186923) after EUR 870.8m May-26 tender",
       "source": "Public Debt Administration",
       "asof": "May-26"
     },
@@ -65,7 +65,7 @@
       "value": 6.2,
       "period": "Aug-26",
       "source": "National Bank of Serbia (goods and services imports)",
-      "asof": "Aug-26"
+      "asof": "Sep-26"
     },
     "fdi_net_pct_gdp": {
       "value": 3.937,
@@ -134,10 +134,10 @@
   },
   "series_sources": {
     "current_account_pct_gdp": "National Bank of Serbia / IMF, Jun-26",
-    "gov_debt_pct_gdp": "Public Debt Administration, Aug-26 (end-2024 figure cited as comparison)"
+    "gov_debt_pct_gdp": "Public Debt Administration, Aug-26 (end-2024 figure cited as 47.7%)"
   },
   "slug": "serbia",
-  "asof": "08-Oct-26",
+  "asof": "09-Oct-26",
   "run": "2026-10-08_1323_serbia-sovereign-credit",
   "derived": {
     "ex_ante_real_rate_pct": 3.55,
@@ -2533,16 +2533,118 @@
         "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
         "reer_latest": 117.27
       }
+    },
+    {
+      "asof": "08-Oct-26",
+      "run": "2026-10-08_1323_serbia-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": 3.8,
+          "period": "Q2-26 YoY",
+          "source": "Statistical Office of the Republic of Serbia",
+          "asof": "Sep-26"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 2.2,
+          "period": "Aug-26",
+          "source": "Statistical Office of the Republic of Serbia",
+          "asof": "Sep-26"
+        },
+        "policy_rate_pct": {
+          "value": 5.75,
+          "period": "Sep-26",
+          "source": "National Bank of Serbia Executive Board",
+          "asof": "10-Sep-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -4.1,
+          "period": "2026E",
+          "source": "National Bank of Serbia / IMF",
+          "asof": "Jun-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 43.3,
+          "definition": "General government debt, EUR 41.93bn",
+          "period": "Aug-26",
+          "source": "Public Debt Administration (javnidug.gov.rs)",
+          "asof": "Aug-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "15-May-27",
+          "note": "15-May-27, EUR 1.13bn 3.125% (XS2170186923) after EUR 870.8m May-26 tender",
+          "source": "Public Debt Administration",
+          "asof": "May-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 35.71,
+          "period": "2026-08",
+          "source": "IMF International Liquidity",
+          "asof": "08-Oct-26",
+          "definition": "Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "import_cover_months": {
+          "value": 6.2,
+          "period": "Aug-26",
+          "source": "National Bank of Serbia (goods and services imports)",
+          "asof": "Sep-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 3.937,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -2.9,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 112.025,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -4.36,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 30.033,
+          "period": "2026-08",
+          "source": "IMF reserve template",
+          "asof": "08-Oct-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 3.55,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.37,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "reer_latest": 117.27,
+        "reserves_12m_pct": 7.0,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": -1.4,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "fx_regime": {
     "value": "managed float",
-    "source": "National Bank of Serbia (de facto stabilized RSD vs EUR, EUR/RSD about 117.0-117.2, NBS net FX purchaser 2025-26)",
+    "source": "National Bank of Serbia (de facto stabilised EUR/RSD around 117.0-117.2, symmetric interbank intervention)",
     "asof": "Aug-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Opposition and civic protests over the Rio Tinto Jadar lithium concession; Kosovo normalisation talks and EU sanctions-alignment friction",
+    "note": "Civic protests and political opposition over the Jadar lithium concession (Rio Tinto); Kosovo normalisation talks and EU sanctions-alignment friction",
     "source": "Balkan Insight / European Commission / Oxford Economics",
     "asof": "Sep-26"
   },
