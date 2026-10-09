@@ -848,6 +848,13 @@
   },
   {
     "section": "sovereigns",
+    "title": "HY CEEMEA sovereign universe",
+    "path": "knowledge/sovereigns/_universe.md",
+    "updated": "09-Oct-26",
+    "slug": "_universe"
+  },
+  {
+    "section": "sovereigns",
     "title": "Hungary sovereign",
     "path": "knowledge/sovereigns/hungary.md",
     "updated": "09-Oct-26",
@@ -1058,13 +1065,6 @@
   },
   {
     "section": "sovereigns",
-    "title": "Sovereign universe: HY CEEMEA plus the GBI-EM local-market constituents",
-    "path": "knowledge/sovereigns/_universe.md",
-    "updated": "09-Oct-26",
-    "slug": "_universe"
-  },
-  {
-    "section": "sovereigns",
     "title": "Tajikistan sovereign",
     "path": "knowledge/sovereigns/tajikistan.md",
     "updated": "09-Oct-26",
@@ -1137,7 +1137,7 @@
     "section": "themes",
     "title": "Catalyst calendar (rolling)",
     "path": "knowledge/themes/calendar.md",
-    "updated": "08-Oct-26",
+    "updated": "09-Oct-26",
     "slug": "calendar"
   },
   {

@@ -35,15 +35,27 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.
 - Outstanding Eurobonds (ISIN, coupon, maturity, size, governing law, CAC type): to be filled.
 - IMF: programme type, size, approval and review dates, or none: to be filled.
+- Pegged at USD/SAR 3.75 in every month Apr to Sep-26 (BIS, 09-Oct-26) [09-Oct-26]
 
 ## 1. External position
+- Gross reserves incl. gold USD 488.684bn in Jul-26, of which gold USD 0.433bn (IMF International Liquidity, 09-Oct-26) [09-Oct-26]
+- Reserves net of predetermined one-year drains USD 482.147bn in Jul-26 (IMF reserve template, 09-Oct-26) [09-Oct-26]
+- Import cover 15.6 months in 2025 (World Bank WDI, 09-Oct-26) [09-Oct-26]
+- Current account -USD 25.78bn over 2025-Q2 to 2026-Q1; quarterly -13.441bn, -8.221bn, -8.236bn, +4.114bn (IMF BOP, 09-Oct-26) [09-Oct-26]
+- IMF WEO 2026E current account -1.6% of GDP (IMF WEO, 09-Oct-26) [09-Oct-26]
 ## 2. Fiscal position
+- IMF WEO 2026E: government debt 32.1% of GDP, fiscal balance -3.5% of GDP, nominal GDP USD 1,388.7bn (IMF WEO, 09-Oct-26) [09-Oct-26]
+- Banks 2025-Q4: CAR 20.46%, Tier 1 18.82%, NPL 1.04%, provisions to NPL 70.25%, ROE 14.98% (IMF FSI, 09-Oct-26) [09-Oct-26]
 ## 3. Monetary and financial
+- Policy rate 4.25% Apr to Aug-26 and 4.50% in Sep-26 (BIS, 09-Oct-26) [09-Oct-26]
+- CPI 1.82% y/y in Aug-26 (IMF CPI database, 09-Oct-26) [09-Oct-26]
 ## 4. Growth and structure
+- IMF WEO 2026E real GDP growth 3.1% (IMF WEO, 09-Oct-26) [09-Oct-26]
 ## 5. Institutions, politics, willingness
 ## 6. IMF and official sector
 ## 7. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
+- REER z-score -0.31 standard deviations against the 10-year mean at Aug-26 (BIS broad real EER, 09-Oct-26) [09-Oct-26]
 ## 8. Restructuring and recovery (if relevant)
 ## 9. Catalyst calendar
 ## 10. Questions for the finance ministry / IMF mission
@@ -57,3 +69,17 @@ _(levels from Reza via [BBG]; never from memory)_
 Verify a URL the first time it is used; replace it here if it has moved.
 
 ## Dated facts log
+
+### 09-Oct-26 (run 2026-10-09_0723_saudi-arabia-sovereign-credit)
+- [Snapshot] Pegged at USD/SAR 3.75 in every month Apr to Sep-26 (BIS, 09-Oct-26)
+- [Monetary] Policy rate 4.25% Apr to Aug-26 and 4.50% in Sep-26 (BIS, 09-Oct-26)
+- [Monetary] CPI 1.82% y/y in Aug-26 (IMF CPI database, 09-Oct-26)
+- [External] Gross reserves incl. gold USD 488.684bn in Jul-26, of which gold USD 0.433bn (IMF International Liquidity, 09-Oct-26)
+- [External] Reserves net of predetermined one-year drains USD 482.147bn in Jul-26 (IMF reserve template, 09-Oct-26)
+- [External] Import cover 15.6 months in 2025 (World Bank WDI, 09-Oct-26)
+- [External] Current account -USD 25.78bn over 2025-Q2 to 2026-Q1; quarterly -13.441bn, -8.221bn, -8.236bn, +4.114bn (IMF BOP, 09-Oct-26)
+- [External] IMF WEO 2026E current account -1.6% of GDP (IMF WEO, 09-Oct-26)
+- [Fiscal] IMF WEO 2026E: government debt 32.1% of GDP, fiscal balance -3.5% of GDP, nominal GDP USD 1,388.7bn (IMF WEO, 09-Oct-26)
+- [Growth] IMF WEO 2026E real GDP growth 3.1% (IMF WEO, 09-Oct-26)
+- [Market] REER z-score -0.31 standard deviations against the 10-year mean at Aug-26 (BIS broad real EER, 09-Oct-26)
+- [Fiscal] Banks 2025-Q4: CAR 20.46%, Tier 1 18.82%, NPL 1.04%, provisions to NPL 70.25%, ROE 14.98% (IMF FSI, 09-Oct-26)
