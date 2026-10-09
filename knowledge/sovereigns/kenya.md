@@ -11,15 +11,15 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | CPI y/y | 6.76 % | Sep-26 | IMF data portal; KNBS (6.8%) |
 | Policy rate | 8.75 % | Oct-26 | CBK MPC |
 | Real policy rate | 1.99 % | derived |  |
-| Gross reserves | 14.702 USD bn | Oct-26 | CBK |
+| Gross reserves | 14.7 USD bn | Oct-26 | CBK |
 | Reserves, 12m change | 34.7 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
-| Import cover | 4.632 months | 2025 | World Bank WDI |
+| Import cover | 4.63 months | 2025 | World Bank WDI |
 | Current account | -4.1 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | -2.9 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 68.5 % GDP | Jun-26 | National Treasury |
 | Fiscal balance | -6.4 % GDP | FY2025/26 (projected) | National Treasury |
 | Real GDP growth | 4.5 % | 2026E | IMF WEO |
-| Nominal GDP | 147.265 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 147.26 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 13.54 % | 2025-Q3 | IMF FSI |
 | Bank capital ratio | 19.97 % | 2025-Q3 | IMF FSI |
 

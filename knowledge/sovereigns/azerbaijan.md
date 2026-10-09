@@ -10,7 +10,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 |---|---:|---|---|
 | CPI y/y | 3.5 % | Aug-26 | State Statistical Committee |
 | Policy rate | 6.5 % | Sep-26 | Central Bank of Azerbaijan (refinancing rate) |
-| Real policy rate | 3.0 % | derived |  |
+| Real policy rate | 3 % | derived |  |
 | Gross reserves | 15.36 USD bn | 23-Sep-26 | Central Bank of Azerbaijan |
 | Reserves, 12m change | 29.7 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
 | Import cover | 50 months | mid-2026 (strategic FX assets $87.96bn incl. SOFAZ; stated as more than 50 months of merchandise import cover) | SOFAZ / CBAR |
@@ -21,7 +21,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Fiscal balance | 1.8 % GDP | 2026E | IMF WEO |
 | External debt | 8.3 % GDP | 01-Jun-26 | Ministry of Finance |
 | Real GDP growth | 1.2 % | Jan-Aug 2026 y/y | State Statistical Committee |
-| Nominal GDP | 78.372 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 78.37 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 1.98 % | 2025-Q4 | IMF FSI |
 | Bank capital ratio | 17.61 % | 2025-Q4 | IMF FSI |
 

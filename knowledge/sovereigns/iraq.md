@@ -8,7 +8,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 3.0928 % | 2026-06 | IMF CPI database |
+| CPI y/y | 3.09 % | 2026-06 | IMF CPI database |
 | Gross reserves | 80.6 USD bn | Jul-26 | Central Bank of Iraq |
 | Reserves, 12m change | -10.9 % | derived | gross reserves incl. gold, 2025-06 to 2026-06 (IMF Internati |
 | Import cover | 9.6 months | Jul-26 | Central Bank of Iraq / IMF |
@@ -18,9 +18,9 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Government debt | 57 % GDP | 2026E | IMF / Ministry of Finance |
 | Fiscal balance | -4.2 % GDP | 2024 | IMF Article IV |
 | Real GDP growth | -6.8 % | 2026E | IMF projections (as cited in adjudicated document) |
-| Nominal GDP | 264.784 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 264.78 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 16.54 % | 2024-Q4 | IMF FSI |
-| Bank capital ratio | 30.0 % | 2024-Q4 | IMF FSI |
+| Bank capital ratio | 30 % | 2024-Q4 | IMF FSI |
 
 Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, reserves_ex_gold_usd_bn.
 

@@ -13,7 +13,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Real policy rate | 2.9 % | derived |  |
 | Gross reserves | 75.96 USD bn | Aug-26 | IMF International Liquidity |
 | Reserves, 12m change | 7.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 74.307 USD bn | 2026-08 | IMF reserve template |
+| Reserves net of 1y drains | 74.31 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 5.8 months | Sep-26 | SARB (tied to the $63.5B headline reserve figure) |
 | Current account, last 4Q | -1.32 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -1.6 % GDP | Sep-26 | SARB Quarterly Bulletin |
@@ -104,3 +104,4 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [Growth] Real GDP growth 1% in 2026E; nominal GDP $480B in 2026E (IMF WEO, 2026)
 - [Monetary] Banking system 2025-Q2: CAR 16.06%, Tier 1 14.38%, NPL 4.51%, provisions/NPL 47.85%, ROE 16.9%, FX open position 0.42% of capital (IMF FSI, 2025-Q2)
 - [Calendar] Day-of-week check: 21-Nov-26 is a Saturday and not a valid MPC date; the November meeting date is to be confirmed (computed, 08-Oct-26)
+- SARB MPC 2026 dates: 29-Jan, 26-Mar, 28-May, 23-Jul, 23-Sep, 19-Nov (official MPC dates page and webcast calendar, resbank.co.za, checked 09-Oct-26); the 21-Nov-26 date filed on 08-Oct-26 was wrong. [09-Oct-26]

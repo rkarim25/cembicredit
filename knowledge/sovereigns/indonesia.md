@@ -8,13 +8,13 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 2.8821 % | 2026-07 | IMF CPI database |
+| CPI y/y | 2.88 % | 2026-07 | IMF CPI database |
 | Policy rate | 5.75 % | 2026-09 | BIS |
 | Real policy rate | 2.87 % | derived |  |
-| Gross reserves | 146.492 USD bn | 2026-08 | IMF International Liquidity |
+| Gross reserves | 146.49 USD bn | 2026-08 | IMF International Liquidity |
 | Reserves, 12m change | -2.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 75.541 USD bn | 2026-08 | IMF reserve template |
-| Import cover | 5.514 months | 2025 | World Bank WDI |
+| Reserves net of 1y drains | 75.54 USD bn | 2026-08 | IMF reserve template |
+| Import cover | 5.51 months | 2025 | World Bank WDI |
 | Current account, last 4Q | -14.36 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -1.1 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | -3.03 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
@@ -22,7 +22,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Government debt | 41.5 % GDP | 2026E | IMF WEO |
 | Fiscal balance | -2.9 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 5 % | 2026E | IMF WEO |
-| Nominal GDP | 1539.872 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 1,540 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 1.99 % | 2026-Q1 | IMF FSI |
 | Bank capital ratio | 23.68 % | 2026-Q1 | IMF FSI |
 

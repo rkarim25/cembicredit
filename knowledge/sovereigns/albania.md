@@ -8,12 +8,12 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 3.3508 % | 2026-08 | IMF CPI database |
+| CPI y/y | 3.35 % | 2026-08 | IMF CPI database |
 | Policy rate | 2.5 % | 2025-10 | IMF MFS interest rates |
 | Real policy rate | -0.85 % | derived |  |
 | Gross reserves | 8.6 USD bn | 2025 | World Bank via database/sovereigns/albania.json |
 | Reserves, 12m change | 19.3 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
-| Reserves net of 1y drains | 8.402 USD bn | 2026-08 | IMF reserve template |
+| Reserves net of 1y drains | 8.4 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 7.2 months | 2025 | World Bank via database/sovereigns/albania.json |
 | Current account, last 4Q | 0.07 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -2.8 % GDP | 2026E | IMF WEO |

@@ -4,16 +4,16 @@
   "fiscal_year": "Calendar year",
   "fx_regime": {
     "value": "peg to EUR",
-    "source": "BCEAO (EUR 1 = XOF 655.957, guaranteed by French Treasury)",
+    "source": "BCEAO (CFA franc pegged at EUR 1 = XOF 655.957, French Treasury guarantee)",
     "asof": "15-Aug-26"
   },
   "commodity_exposure": {
-    "value": "Exports: cotton, cashew nuts, textiles and re-export/transit trade through the Port of Cotonou; Niger-Benin crude export pipeline (Seme-Kpodji) transit fees. Main price exposures: cotton and crude oil transit volumes.",
-    "source": "Ministry of Economy and Finance; INSAE / IMF",
+    "value": "Cotton, cashew and textile processing (Glo-Djigb\u00e9 zone), Port of Cotonou transit trade, Niger\u2013Benin crude pipeline transit fees; cotton and crude transit volumes matter",
+    "source": "Ministry of Economy and Finance / S&P",
     "asof": "31-Mar-26"
   },
   "imf": {
-    "programme": "EFF/ECF/RSF (42-month blended) completed; final disbursement USD 118m",
+    "programme": "Blended EFF/ECF (USD 638m) and RSF (USD 200m), 42 months, completed; no active programme",
     "size_usd_bn": 0.838,
     "approved": null,
     "next_review": null,
@@ -23,7 +23,7 @@
   },
   "politics": {
     "next_election": null,
-    "note": "Romuald Wadagni won the 12-Apr-26 presidential election and took office 24-May-26, succeeding Patrice Talon (term-limited); technocratic policy continuity expected.",
+    "note": "Romuald Wadagni elected president 12-Apr-26, inaugurated 24-May-26; policy continuity after Talon's two-term limit",
     "source": "Constitutional Court of Benin",
     "asof": "15-Apr-26"
   },
@@ -48,7 +48,7 @@
     },
     "gov_debt_pct_gdp": {
       "value": 54,
-      "definition": "Central government debt; ~60.5% incl. SOE liabilities under IMF perimeter",
+      "definition": "Central government debt, excl. SOE liabilities (about 60.5% incl. SOEs)",
       "period": "2025",
       "source": "IMF",
       "asof": "25-Feb-26"
@@ -73,7 +73,7 @@
     },
     "interest_pct_revenue": {
       "value": 14,
-      "period": "2025",
+      "period": "latest",
       "source": "Moody's",
       "asof": "14-Aug-26"
     },
@@ -92,7 +92,7 @@
     "next_eurobond_maturity": {
       "value": "19-Jan-32",
       "note": "19-Jan-32, EUR 1.0bn 4.875% (XS2278994418)",
-      "source": "Ministry of Economy and Finance (CAA Public Debt Bulletin)",
+      "source": "Ministry of Economy and Finance (CAA debt bulletin)",
       "asof": "31-Mar-26"
     },
     "fdi_net_pct_gdp": {
@@ -167,7 +167,7 @@
     "interest_pct_revenue": "Moody's, 14-Aug-26"
   },
   "slug": "benin",
-  "asof": "08-Oct-26",
+  "asof": "09-Oct-26",
   "run": "2026-10-08_1832_benin-sovereign-credit",
   "derived": {
     "ctot_12m_pct": -1.1,
@@ -1213,6 +1213,97 @@
           "value": "19-Jan-32",
           "note": "19-Jan-32, EUR 1.0bn 4.875% (XS2278994418)",
           "source": "Ministry of Economy and Finance (CAA Public Debt Bulletin)",
+          "asof": "31-Mar-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 1.961,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 27.786,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        }
+      },
+      "derived": {
+        "ctot_12m_pct": -1.1,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "08-Oct-26",
+      "run": "2026-10-08_1832_benin-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": 6.5,
+          "period": "2026E",
+          "source": "INSAE / IMF",
+          "asof": "25-Feb-26"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 1.25,
+          "period": "Aug-26",
+          "source": "BCEAO / INSAE",
+          "asof": "15-Aug-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -5.5,
+          "period": "2025",
+          "source": "IMF",
+          "asof": "25-Feb-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 54,
+          "definition": "Central government debt, excl. SOE liabilities (about 60.5% incl. SOEs)",
+          "period": "2025",
+          "source": "IMF",
+          "asof": "25-Feb-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -2.8,
+          "period": "2025",
+          "source": "Ministry of Economy and Finance / IMF",
+          "asof": "25-Feb-26"
+        },
+        "primary_balance_pct_gdp": {
+          "value": -0.6,
+          "period": "2025",
+          "source": "IMF",
+          "asof": "25-Feb-26"
+        },
+        "revenue_pct_gdp": {
+          "value": 14.5,
+          "period": "2025",
+          "source": "IMF (tax revenue)",
+          "asof": "25-Feb-26"
+        },
+        "interest_pct_revenue": {
+          "value": 14,
+          "period": "latest",
+          "source": "Moody's",
+          "asof": "14-Aug-26"
+        },
+        "parallel_fx_premium_pct": {
+          "value": 0.0,
+          "period": "Aug-26",
+          "source": "BCEAO",
+          "asof": "15-Aug-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 2.85,
+          "period": "Mar-26",
+          "source": "Ministry of Economy and Finance",
+          "asof": "31-Mar-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "19-Jan-32",
+          "note": "19-Jan-32, EUR 1.0bn 4.875% (XS2278994418)",
+          "source": "Ministry of Economy and Finance (CAA debt bulletin)",
           "asof": "31-Mar-26"
         },
         "fdi_net_pct_gdp": {

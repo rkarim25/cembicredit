@@ -13,7 +13,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Real policy rate | 2.45 % | derived |  |
 | Gross reserves | 6.5 USD bn | Sep-26 | Central Bank of Armenia |
 | Reserves, 12m change | 53.9 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 3.708 USD bn | 2026-08 | IMF reserve template |
+| Reserves net of 1y drains | 3.71 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 5 months | Sep-26 | Central Bank of Armenia (reported as more than 5 months) |
 | Current account, last 4Q | -2.52 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | -9.8 % GDP | Q2-26 | Armstat, Balance of Payments Q2 2026 |
@@ -22,7 +22,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Government debt | 50.6 % GDP | 2026E | IMF WEO |
 | Fiscal balance | -3.4 % GDP | 2026E | Ministry of Finance, State Budget Execution (tracking vs 4.5 |
 | Real GDP growth | 5.25 % | 2026F | IMF (full-year 2026 projection) |
-| Nominal GDP | 31.873 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 31.87 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 1.16 % | 2025-Q3 | IMF FSI |
 | Bank capital ratio | 20.5 % | 2025-Q3 | IMF FSI |
 

@@ -11,9 +11,9 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | CPI y/y | 8.78 % | Aug-26 | INE |
 | Policy rate | 14.75 % | Sep-26 | BNA, Comité de Política Monetária communiqué |
 | Real policy rate | 5.97 % | derived |  |
-| Gross reserves | 15.821 USD bn | Aug-26 | IMF International Liquidity |
+| Gross reserves | 15.82 USD bn | Aug-26 | IMF International Liquidity |
 | Reserves, 12m change | 4.2 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 0.618 USD bn | 2026-07 | IMF reserve template |
+| Reserves net of 1y drains | 0.62 USD bn | 2026-07 | IMF reserve template |
 | Import cover | 6.8 months | Q2-26 | BNA |
 | Current account, last 4Q | 2.8 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | 2.2 % GDP | 2026E | IMF/BNA |

@@ -8,11 +8,11 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 2.7011 % | 2026-07 | IMF CPI database |
-| Policy rate | 6.0 % | Sep-26 | Central Bank of Jordan (discount rate) |
+| CPI y/y | 2.7 % | 2026-07 | IMF CPI database |
+| Policy rate | 6 % | Sep-26 | Central Bank of Jordan (discount rate) |
 | Real policy rate | 3.3 % | derived |  |
 | Gross reserves | 28.5 USD bn | Sep-26 | Central Bank of Jordan |
-| Reserves, 12m change | 23.0 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves, 12m change | 23 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
 | Reserves net of 1y drains | 21.01 USD bn | 2026-07 | IMF reserve template |
 | Import cover | 9.2 months | Sep-26 | Central Bank of Jordan (prospective goods and services impor |
 | Current account, last 4Q | -3.11 USD bn | 2024-Q2 to 2025-Q1 | IMF BOP |
@@ -22,7 +22,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Fiscal balance | -5.2 % GDP | 2024 | Ministry of Finance (central government headline deficit) |
 | Primary balance | -2.8 % GDP | 2024 | Ministry of Finance (central government primary deficit) |
 | Real GDP growth | 2.7 % | 2026E | IMF WEO |
-| Nominal GDP | 64.909 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 64.91 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 6.29 % | 2026-Q1 | IMF FSI |
 | Bank capital ratio | 17.71 % | 2026-Q1 | IMF FSI |
 

@@ -21,7 +21,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Government debt | 91 % GDP | Jun-26 | MoFNP |
 | Fiscal balance | -4.9 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 4.3 % | 2026E | IMF WEO |
-| Nominal GDP | 41.243 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 41.24 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 2.77 % | 2025-Q4 | IMF FSI |
 | Bank capital ratio | 25.8 % | 2025-Q4 | IMF FSI |
 

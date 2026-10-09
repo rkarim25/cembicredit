@@ -21,38 +21,49 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 | Date | Country / issuer | Instrument | Amount | Source |
 |---|---|---|---|---|
 
+## Central bank meeting dates, CEEMEA and the Fed (official calendars checked 09-Oct-26)
+| Date | Central bank | Event | Source |
+|---|---|---|---|
+| 20-Oct-26 | MNB (Hungary) | Monetary Council rate-setting meeting (also 17-Nov-26, 15-Dec-26; the first Tuesday meetings are non-policy) | MNB press release "The Monetary Council's meetings 2026", mnb.hu |
+| 21-Oct-26 | Bank of Israel | Interest rate announcement, 16:00 (next 23-Nov-26) | BoI "Interest rate announcement dates 2026", boi.org.il |
+| 22-Oct-26 | TCMB (Turkey) | MPC rate decision (summary 30-Oct-26; last 2026 meeting 10-Dec-26; Inflation Report 12-Nov-26) | TCMB 2026 MPC calendar (Jan-26), tcmb.gov.tr |
+| 23-Oct-26 | NBK (Kazakhstan) | Base rate decision (last 2026 decision 04-Dec-26) | NBK 2026 decision calendar as reported by Regfollower; confirm on nationalbank.kz |
+| 27/28-Oct-26 | FOMC | Decision 28-Oct-26, no projections (SAMA, CBUAE, QCB, CBB move with the Fed) | Federal Reserve 2026 calendar |
+| 03/04-Nov-26 | NBP (Poland) | MPC decision-making meeting (next 01/02-Dec-26) | NBP "Schedule of MPC meetings", nbp.pl |
+| 05-Nov-26 | CNB (Czech Republic) | Bank Board monetary policy meeting, 14:30 (last 2026 meeting 17-Dec-26) | CNB "Dates of the CNB Board's meetings in 2026", cnb.cz |
+| 12-Nov-26 | CBE (Egypt) | MPC decision (December date not published in the sources checked) | CBE via run 2026-10-08 (Egypt sovereign credit) |
+| 17-Nov-26 | MNB (Hungary) | Rate-setting meeting | as above |
+| 19-Nov-26 | SARB (South Africa) | MPC decision, 15:00 (replaces the 21-Nov-26 date filed by a run) | SARB MPC dates page and 2026 webcast calendar, resbank.co.za |
+| 23-Nov-26 | Bank of Israel | Interest rate announcement | as above |
+| 24-Nov-26 | CBN (Nigeria) | 308th MPC meeting | CBN calendar via run 2026-10-08 (Nigeria sovereign credit) |
+| 01/02-Dec-26 | NBP (Poland) | MPC decision-making meeting | as above |
+| 04-Dec-26 | NBK (Kazakhstan) | Base rate decision | as above |
+| 08/09-Dec-26 | FOMC | Decision 09-Dec-26 with projections | Federal Reserve 2026 calendar |
+| 10-Dec-26 | TCMB (Turkey) | MPC rate decision | as above |
+| 15-Dec-26 | MNB (Hungary) | Rate-setting meeting, Inflation Report | as above |
+| 17-Dec-26 | CNB (Czech Republic) | Bank Board monetary policy meeting | as above |
+| tbc | NBR (Romania) | Autumn monetary policy meeting date not found in the sources checked (2025 pattern: 12-Nov); confirm on bnr.ro | [REZA] or next Romania run |
+
 ## From runs (date first; verify before relying on it)
-- 19-Nov-25 maturity of residual USD 68.7m 9.50% Eurobond (XS1313779081) (Prospectus, Nov-15). (Cameroon sovereign credit, run 2026-10-08_1650_cameroon-sovereign-credit)
 - 23-Oct-26: Medium-Term Budget Policy Statement (MTBPS) tabled by Finance Minister Enoch Godongwana (National Treasury, Oct-26) (south-africa, re-filed)
 - 12-Nov-26: Central Bank of Egypt Monetary Policy Committee (MPC) interest rate decision meeting (CBE, Oct-26). (Egypt sovereign credit, run 2026-10-08_1145_egypt-sovereign-credit)
-- 15-Nov-26: Banco Nacional de Angola (BNA) Monetary Policy Committee meeting (BNA, Sep-26) (Angola sovereign credit, run 2026-10-08_1258_angola-sovereign-credit)
+- 15-Nov-26: BNA Monetary Policy Committee meeting (BNA, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - 15-Nov-26: Banco de Moçambique Monetary Policy Committee meeting (Banco de Moçambique, 01-Oct-26). (Mozambique sovereign credit, run 2026-10-08_1751_mozambique-sovereign-credit)
 - 15-Nov-26: Fitch ratings review date for Benin. (Fitch Ratings, Jun-26) (Benin sovereign credit, run 2026-10-08_1832_benin-sovereign-credit)
-- 15-Nov-26: BNA Monetary Policy Committee meeting (BNA, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
-- 21-Nov-26: South African Reserve Bank Monetary Policy Committee interest rate decision (SARB, Oct-26) (south-africa, re-filed)
-- 23-Nov-26: Bank of Ghana 133rd Monetary Policy Committee meeting (Bank of Ghana calendar, Sep-26) (Ghana sovereign credit, run 2026-10-08_1212_ghana-sovereign-credit)
 - 23-Nov-26: Bank of Ghana 133rd MPC meeting (Bank of Ghana calendar, Sep-26) (Ghana sovereign credit, run 2026-10-08_2118_ghana-sovereign-credit)
 - 24-Nov-26: Central Bank of Nigeria 308th Monetary Policy Committee meeting (CBN calendar, Sep-26) (Nigeria sovereign credit, run 2026-10-08_1158_nigeria-sovereign-credit)
-- 02-Dec-26: Central Bank of Kenya Monetary Policy Committee meeting (Central Bank of Kenya, Oct-26) (Kenya sovereign credit, run 2026-10-08_1222_kenya-sovereign-credit)
-- 02-Dec-26: BCEAO Monetary Policy Committee meeting (BCEAO, Sep-26) (Cote d'Ivoire sovereign credit, run 2026-10-08_1233_cote-d-ivoire-sovereign-credit)
-- 02-Dec-26: BCEAO Monetary Policy Committee meeting (BCEAO, Sep-26) (Senegal sovereign credit, run 2026-10-08_1245_senegal-sovereign-credit)
 - 02-Dec-26: CBK MPC meeting (CBK, Oct-26) (Kenya sovereign credit, run 2026-10-08_2122_kenya-sovereign-credit)
 - 02-Dec-26: BCEAO Monetary Policy Committee meeting (BCEAO, Sep-26) (Cote d'Ivoire sovereign credit, run 2026-10-08_2125_cote-d-ivoire-sovereign-credit)
 - 02-Dec-26: BCEAO Monetary Policy Committee meeting (BCEAO, Sep-26) (Senegal sovereign credit, run 2026-10-08_2129_senegal-sovereign-credit)
 - 10-Dec-26 National Bank of Serbia Executive Board interest rate decision (National Bank of Serbia, Sep-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 15-Dec-26: IMF Executive Board Eighth and final review under the $8B Extended Fund Facility arrangement (IMF, Sep-26). (Egypt sovereign credit, run 2026-10-08_1145_egypt-sovereign-credit)
-- 15-Dec-26: IMF first monitoring mission under the Policy Coordination Instrument (PCI) (IMF calendar, Jul-26) (Ghana sovereign credit, run 2026-10-08_1212_ghana-sovereign-credit)
-- 15-Dec-26: National Assembly adoption of the 2027 Finance Law (Ministry of Finance, Oct-26) (Cote d'Ivoire sovereign credit, run 2026-10-08_1233_cote-d-ivoire-sovereign-credit)
-- 15-Dec-26: IMF Executive Board consideration of $2.2B financing arrangement (IMF, Sep-26) (Senegal sovereign credit, run 2026-10-08_1245_senegal-sovereign-credit)
-- 15-Dec-26 IMF Fourth Review mission under Policy Coordination Instrument (IMF, Jun-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
-- 15-Dec-26: Bank of Zambia Monetary Policy Committee meeting (Bank of Zambia, 01-Oct-26). (Zambia sovereign credit, run 2026-10-08_1730_zambia-sovereign-credit)
 - 15-Dec-26: first IMF monitoring mission under the PCI (IMF calendar, Jul-26) (Ghana sovereign credit, run 2026-10-08_2118_ghana-sovereign-credit)
 - 15-Dec-26: National Assembly adoption of the 2027 Finance Law (Ministry of Finance, Oct-26) (Cote d'Ivoire sovereign credit, run 2026-10-08_2125_cote-d-ivoire-sovereign-credit)
 - 15-Dec-26: IMF Executive Board consideration of the $2.2B arrangement (IMF, Sep-26) (Senegal sovereign credit, run 2026-10-08_2129_senegal-sovereign-credit)
-- 31-Dec-26: National Assembly approval of 2027 State General Budget (OGE 2027) (MINFIN, Sep-26) (Angola sovereign credit, run 2026-10-08_1258_angola-sovereign-credit)
+- 15-Dec-26 IMF Fourth Review mission under Policy Coordination Instrument (IMF, Jun-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
+- 15-Dec-26: Bank of Zambia Monetary Policy Committee meeting (Bank of Zambia, 01-Oct-26). (Zambia sovereign credit, run 2026-10-08_1730_zambia-sovereign-credit)
 - 31-Dec-26: National Assembly approval of OGE 2027 (MINFIN, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - 15-Jan-27: National Treasury release of FY2026/27 Budget Policy Statement (National Treasury, Oct-26) (Kenya sovereign credit, run 2026-10-08_1222_kenya-sovereign-credit)
-- 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23) (Ukraine sovereign credit, run 2026-10-08_1310_ukraine-sovereign-credit)
 - 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed) (Ukraine sovereign credit, run 2026-10-08_2136_ukraine-sovereign-credit)
 - 15-May-27 Republic of Serbia €1.13bn Eurobond final maturity date (Public Debt Administration, May-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 19-Sep-27: Maturity of $150m 8.25% Eurobond (US066716AB78). (Ministry of Finance, 15-Jul-26) (Tunisia sovereign credit, run 2026-10-08_1811_tunisia-sovereign-credit)
@@ -64,7 +75,6 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 26-Jan-28 Maturity of $1.25bn BHRAIN 7.000% Eurobond (XS1324931882) (Ministry of Finance, Sep-26). (Bahrain sovereign credit, run 2026-10-08_1350_bahrain-sovereign-credit)
 - 08-Mar-28 Maturity of $1.25bn USD 5.950% Eurobond (US60416SAE28) (Ministry of Economy and Finance, Sep-26). (Morocco sovereign credit, run 2026-10-08_1419_morocco-sovereign-credit)
 - 13-Mar-28: EUR 500M 4.750% Eurobond maturity (Ministry of Finance, Sep-26) (Senegal sovereign credit, run 2026-10-08_2129_senegal-sovereign-credit)
-- 09-May-28: Republic of Angola $1.75B 8.250% Eurobond maturity (MINFIN / UGD, Sep-26) (Angola sovereign credit, run 2026-10-08_1258_angola-sovereign-credit)
 - 09-May-28: $1.75B 8.250% Eurobond maturity (MINFIN/UGD, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - 15-Sep-28: First principal amortization installment (US$225m) due on Eurobond XS2051203862 (Ministry of Economy and Finance, 15-Sep-19). (Mozambique sovereign credit, run 2026-10-08_1751_mozambique-sovereign-credit)
 - 12-Oct-28 Maturity of $660m USD 7.850% Eurobond (XS2701166717). (Luxembourg Stock Exchange, 08-Oct-26) (Uzbekistan sovereign credit, run 2026-10-08_1444_uzbekistan-sovereign-credit)

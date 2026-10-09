@@ -9,7 +9,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 15.39 % | Aug-26 | NBS, Consumer Price Index Report August 2026 |
-| Policy rate | 23.0 % | Sep-26 | CBN, 307th MPC Communiqué |
+| Policy rate | 23 % | Sep-26 | CBN, 307th MPC Communiqué |
 | Real policy rate | 7.61 % | derived |  |
 | Gross reserves | 54.98 USD bn | 05-Oct-26 | CBN, Daily Foreign Exchange Reserves Bulletin |
 | Reserves, 12m change | 30.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |

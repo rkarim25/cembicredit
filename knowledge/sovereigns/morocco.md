@@ -8,12 +8,12 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | -0.3333 % | 2026-08 | IMF CPI database |
+| CPI y/y | -0.33 % | 2026-08 | IMF CPI database |
 | Policy rate | 2.25 % | Sep-26 | Bank Al-Maghrib |
 | Real policy rate | 2.58 % | derived |  |
 | Gross reserves | 55.65 USD bn | end-2026E | Bank Al-Maghrib |
-| Reserves, 12m change | 18.0 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 50.756 USD bn | 2026-07 | IMF reserve template |
+| Reserves, 12m change | 18 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves net of 1y drains | 50.76 USD bn | 2026-07 | IMF reserve template |
 | Import cover | 5.5 months | end-2026E, prospective imports of goods and services | Bank Al-Maghrib |
 | Current account, last 4Q | -5.83 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -3.1 % GDP | 2026E | IMF WEO |
@@ -22,7 +22,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Government debt | 67.2 % GDP | 2025 | Ministry of Economy and Finance |
 | Fiscal balance | -3.5 % GDP | 2025 | Ministry of Economy and Finance |
 | Real GDP growth | 4.9 % | 2026E | IMF WEO |
-| Nominal GDP | 194.333 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 194.33 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 8.51 % | 2025-Q2 | IMF FSI |
 | Bank capital ratio | 14.17 % | 2025-Q2 | IMF FSI |
 

@@ -12,8 +12,8 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Policy rate | 5.75 % | Sep-26 | National Bank of Serbia, Executive Board decision |
 | Real policy rate | 3.55 % | derived |  |
 | Gross reserves | 35.71 USD bn | 2026-08 | IMF International Liquidity |
-| Reserves, 12m change | 7.0 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 30.033 USD bn | 2026-08 | IMF reserve template |
+| Reserves, 12m change | 7 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves net of 1y drains | 30.03 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 6.2 months | Aug-26 | National Bank of Serbia (goods and services imports) |
 | Current account, last 4Q | -4.36 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | -4.1 % GDP | 2026E | National Bank of Serbia / IMF |
@@ -22,7 +22,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Government debt | 43.3 % GDP | Aug-26 | Public Debt Administration (javnidug.gov.rs) |
 | Fiscal balance | -2.9 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 3.8 % | Q2-26 YoY | Statistical Office of the Republic of Serbia |
-| Nominal GDP | 112.025 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 112.03 USD bn | 2026E | IMF WEO |
 
 Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_imf_pct, policy_rate_pct, predetermined_drains_usd_bn, reer_broad_real, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
 

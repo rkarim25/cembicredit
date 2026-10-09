@@ -13,16 +13,16 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Real policy rate | -6.95 % | derived |  |
 | Gross reserves | 2.2 USD bn | 2026 | Gemini position (reported, unverified, no URL) |
 | Reserves, 12m change | -16.4 % | derived | gross reserves incl. gold, 2025-01 to 2026-01 (IMF Internati |
-| Reserves net of 1y drains | 1.795 USD bn | 2026-08 | IMF reserve template |
-| Import cover | 4.0 months | 2026 | Gemini position (reported ~4.0 months of imports, unverified |
+| Reserves net of 1y drains | 1.79 USD bn | 2026-08 | IMF reserve template |
+| Import cover | 4 months | 2026 | Gemini position (reported ~4.0 months of imports, unverified |
 | Current account, last 4Q | -1.98 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -15 % GDP | 2026E | Gemini position citing Fitch (reported, near 15% deficit, un |
-| Terms of trade, 12m change | -0.0 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Terms of trade, 12m change | -0 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 77.5 % GDP | 2026E | Fitch |
 | Fiscal balance | -4.8 % GDP | FY2025/26 | Gemini position attributing to IMF release (reported, unveri |
-| External debt | 63.0 % GDP | 2026E | Fitch |
+| External debt | 63 % GDP | 2026E | Fitch |
 | Real GDP growth | 9.7 % | H1 2026 | Gemini position citing NISR (reported, unverified, no URL) |
-| Nominal GDP | 17.336 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 17.34 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 3.9 % | 2026-Q1 | IMF FSI |
 | Bank capital ratio | 22.51 % | 2026-Q1 | IMF FSI |
 

@@ -8,13 +8,13 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 4.1322 % | 2026-08 | IMF CPI database |
+| CPI y/y | 4.13 % | 2026-08 | IMF CPI database |
 | Policy rate | 4.5 % | 2026-09 | BIS |
 | Real policy rate | 0.37 % | derived |  |
-| Gross reserves | 51.858 USD bn | 2026-06 | IMF International Liquidity |
+| Gross reserves | 51.86 USD bn | 2026-06 | IMF International Liquidity |
 | Reserves, 12m change | 11.8 % | derived | gross reserves incl. gold, 2025-06 to 2026-06 (IMF Internati |
-| Reserves net of 1y drains | 47.964 USD bn | 2026-08 | IMF reserve template |
-| Import cover | 4.217 months | 2025 | World Bank WDI |
+| Reserves net of 1y drains | 47.96 USD bn | 2026-08 | IMF reserve template |
+| Import cover | 4.22 months | 2025 | World Bank WDI |
 | Current account, last 4Q | -2.16 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | -0.8 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | -0.54 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |

@@ -8,17 +8,17 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 16.6565 % | 2026-08 | IMF CPI database |
-| Gross reserves | 38.164 USD bn | 2025-03 | IMF International Liquidity |
+| CPI y/y | 16.66 % | 2026-08 | IMF CPI database |
+| Gross reserves | 38.16 USD bn | 2025-03 | IMF International Liquidity |
 | Reserves, 12m change | 31.2 % | derived | gross reserves incl. gold, 2024-03 to 2025-03 (IMF Internati |
-| Import cover | 13.603 months | 2023 | World Bank WDI |
+| Import cover | 13.6 months | 2023 | World Bank WDI |
 | Current account, last 4Q | -9.16 USD bn | 2025-Q1 to 2025-Q4 | IMF BOP |
 | Current account | -22.5 % GDP | 2025E | IMF WEO |
 | Terms of trade, 12m change | -4.6 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 139.4 % GDP | 2025E | IMF WEO |
 | Fiscal balance | 3.3 % GDP | 2025E | IMF WEO |
 | Real GDP growth | 4 % | 2025E | IMF WEO |
-| Nominal GDP | 34.497 USD bn | 2025E | IMF WEO |
+| Nominal GDP | 34.5 USD bn | 2025E | IMF WEO |
 
 Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, reserves_ex_gold_usd_bn.
 

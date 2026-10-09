@@ -8,19 +8,19 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 0.7338 % | 2025-08 | IMF CPI database |
+| CPI y/y | 0.73 % | 2025-08 | IMF CPI database |
 | Policy rate | 4.35 % | 2026-08 | IMF MFS interest rates |
 | Real policy rate | 3.62 % | derived |  |
-| Gross reserves | 61.098 USD bn | 2026-08 | IMF International Liquidity |
+| Gross reserves | 61.1 USD bn | 2026-08 | IMF International Liquidity |
 | Reserves, 12m change | 10.4 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Import cover | 7.453 months | 2025 | World Bank WDI |
+| Import cover | 7.45 months | 2025 | World Bank WDI |
 | Current account, last 4Q | 28.52 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | 11 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | 14.7 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 43.3 % GDP | 2026E | IMF WEO |
 | Fiscal balance | -3.4 % GDP | 2026E | IMF WEO |
 | Real GDP growth | -8.6 % | 2026E | IMF WEO |
-| Nominal GDP | 217.416 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 217.42 USD bn | 2026E | IMF WEO |
 
 Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, policy_rate_imf_pct, reserves_ex_gold_usd_bn.
 

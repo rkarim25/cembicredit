@@ -9,9 +9,9 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 5.2 % | Sep-26 | Ghana Statistical Service, CPI Bulletin |
-| Policy rate | 14.0 % | Sep-26 | Bank of Ghana, 132nd MPC Communiqué |
+| Policy rate | 14 % | Sep-26 | Bank of Ghana, 132nd MPC Communiqué |
 | Real policy rate | 8.8 % | derived |  |
-| Gross reserves | 12.0 USD bn | end-Sep-26 | Bank of Ghana |
+| Gross reserves | 12 USD bn | end-Sep-26 | Bank of Ghana |
 | Reserves, 12m change | 11.9 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
 | Import cover | 5.2 months | end-Sep-26 | Bank of Ghana |
 | Current account, last 4Q | 10.06 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |

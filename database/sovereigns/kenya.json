@@ -14,12 +14,12 @@
     "asof": "May-26"
   },
   "imf": {
-    "programme": null,
+    "programme": "None; prior EFF/ECF/RSF expired uncompleted Apr-25, successor talks ongoing",
     "size_usd_bn": null,
     "approved": null,
     "next_review": null,
     "risk_of_debt_distress": null,
-    "source": "IMF programme status statement (prior EFF/ECF/RSF expired uncompleted Apr-25; successor talks ongoing)",
+    "source": "IMF programme status statement",
     "asof": "Sep-26"
   },
   "indicators": {
@@ -37,27 +37,27 @@
     },
     "gross_reserves_usd_bn": {
       "value": 14.702,
-      "definition": "CBK gross reserves headline; netting basis not stated; gold negligible per IMF series",
+      "definition": "gross as reported by CBK; net of swaps, forwards and short-term liabilities not known",
       "period": "Oct-26",
       "source": "CBK",
       "asof": "07-Oct-26"
     },
     "gov_debt_pct_gdp": {
       "value": 68.5,
-      "definition": "Public debt Ksh 13.01tn, against 55% anchor",
+      "definition": "public debt Ksh 13.01tn; National Treasury anchor 55%",
       "period": "Jun-26",
       "source": "National Treasury",
       "asof": "Jun-26"
     },
     "interest_pct_revenue": {
       "value": 33,
-      "period": "FY2025/26 (approximate, ordinary revenue)",
+      "period": "approximate, latest; share of ordinary revenue",
       "source": "National Treasury / World Bank",
       "asof": "Jul-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": -6.4,
-      "period": "FY2025/26 (projected)",
+      "period": "FY2025/26 (projected, Ksh 1.199tn; audited outturn not available)",
       "source": "National Treasury",
       "asof": "Jul-26"
     },
@@ -65,13 +65,13 @@
       "value": 4.632,
       "period": "2025",
       "source": "World Bank WDI",
-      "asof": "Dec-25"
+      "asof": "2025"
     },
     "fdi_net_pct_gdp": {
       "value": 0.817,
       "period": "2025",
       "source": "World Bank WDI",
-      "asof": "Dec-25"
+      "asof": "2025"
     },
     "real_gdp_growth_pct": {
       "value": 4.5,
@@ -143,7 +143,7 @@
     "nominal_gdp_usd_bn": "IMF WEO, Sep-26"
   },
   "slug": "kenya",
-  "asof": "08-Oct-26",
+  "asof": "09-Oct-26",
   "run": "2026-10-08_2122_kenya-sovereign-credit",
   "derived": {
     "ex_ante_real_rate_pct": 1.99,
@@ -1927,12 +1927,94 @@
         "ctot_12m_pct": -2.9,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
+    },
+    {
+      "asof": "08-Oct-26",
+      "run": "2026-10-08_2122_kenya-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 6.76,
+          "period": "Sep-26",
+          "source": "IMF data portal; KNBS (6.8%)",
+          "asof": "Sep-26"
+        },
+        "policy_rate_pct": {
+          "value": 8.75,
+          "period": "Oct-26",
+          "source": "CBK MPC",
+          "asof": "07-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 14.702,
+          "definition": "gross as reported by CBK; net of swaps, forwards and short-term liabilities not known",
+          "period": "Oct-26",
+          "source": "CBK",
+          "asof": "07-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 68.5,
+          "definition": "public debt Ksh 13.01tn; National Treasury anchor 55%",
+          "period": "Jun-26",
+          "source": "National Treasury",
+          "asof": "Jun-26"
+        },
+        "interest_pct_revenue": {
+          "value": 33,
+          "period": "approximate, latest; share of ordinary revenue",
+          "source": "National Treasury / World Bank",
+          "asof": "Jul-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -6.4,
+          "period": "FY2025/26 (projected, Ksh 1.199tn; audited outturn not available)",
+          "source": "National Treasury",
+          "asof": "Jul-26"
+        },
+        "import_cover_months": {
+          "value": 4.632,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "2025"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 0.817,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "2025"
+        },
+        "real_gdp_growth_pct": {
+          "value": 4.5,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "Sep-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -4.1,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "Sep-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 147.265,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "Sep-26"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 1.99,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": 34.7,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-07 to 2026-07 (IMF International Liquidity)",
+        "ctot_12m_pct": -2.9,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "politics": {
     "next_election": "2027 general election",
-    "note": "Fiscal slippage risk ahead of the 2027 elections; exact date not in source",
-    "source": "Adjudicated document",
+    "note": "Fiscal slippage risk ahead of the 2027 elections with no IMF anchor; no dated source for the election date in the brief",
+    "source": "Adjudicated document (run 2026-10-08_2122)",
     "asof": "08-Oct-26"
   },
   "fsi": {

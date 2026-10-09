@@ -15,7 +15,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Fiscal balance | -2.8 % GDP | 2025 | Ministry of Economy and Finance / IMF |
 | Primary balance | -0.6 % GDP | 2025 | IMF |
 | Real GDP growth | 6.5 % | 2026E | INSAE / IMF |
-| Nominal GDP | 27.786 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 27.79 USD bn | 2026E | IMF WEO |
 
 Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd.
 
