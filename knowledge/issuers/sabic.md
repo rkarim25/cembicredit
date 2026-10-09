@@ -23,14 +23,24 @@ _USD m unless the record says otherwise; audited years only._
 - Benchmark bond: SABIC 4.50% 2028.
 - Model: `models/SABIC_Credit_Model.xlsx`; Cognitive Credit: not covered or not downloaded.
 - Record last updated: 2026-09-19.
+- Aramco owns 70% of SABIC; Moody's affirmed A1 and withdrew the BCA after the acquisition (Yahoo Finance, 20-Jul-20) [09-Oct-26]
+- Repo-recorded ratings A1 / A+; benchmark bond SABIC 4.50% 2028, last stored level 98.8, YTM 5.05%, spread 100bp, unsourced (`database/issuers/sabic.json`, 19-Sep-26) [09-Oct-26]
 
 ## 1. Business and jurisdiction
+- Europe petrochemicals sale to AEQUITA ($500m) and ETP sale to Mutares ($450m), combined EV $950m, announced 08-Jan-26 (Reuters via BusinessDay, 08-Jan-26) [09-Oct-26]
+- ETP sale to Mutares completed in August 2026; European Commission cleared AEQUITA's sole control of SABIC Europe (Enterprise AM, 30-Sep-26) [09-Oct-26]
 ## 2. Financials and liquidity
+- Q2-26 revenue $6.62bn, adjusted EBITDA $0.90bn, adjusted EBIT $110m, adjusted net loss about $0.10bn (MEED, 29-Jul-26) [09-Oct-26]
+- Company-reported net debt SAR 2.73bn ($0.73bn) at 30-Jun-26 and SAR 2.77bn ($0.74bn) at 31-Mar-26; definition not verified (MEED, 29-Jul-26) [09-Oct-26]
+- Net loss attributable to shareholders SAR 833m ($222m) for Q2-26 per a search summary of the release; primary release not read (Saudi Exchange filing, 29-Jul-26) [09-Oct-26]
+- FY25 loss of about $6.87bn reported by MEED; composition unconfirmed (MEED, 29-Jul-26) [09-Oct-26]
 ## 3. Capital structure and documentation
+- H1-26 distributions of about $880m announced (MEED, 29-Jul-26) [09-Oct-26]
 ## 4. Ownership, governance, sovereign links
 ## 5. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
 ## 6. Catalysts and events
+- 31-Dec-26: AEQUITA closing of SABIC Europe sale expected in 4Q26 (Enterprise AM, 30-Sep-26) [09-Oct-26]
 ## 7. Questions for management
 - Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?
 - What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?
@@ -40,3 +50,15 @@ _(levels from Reza via [BBG]; never from memory)_
 
 ## Dated facts log
 _(no dated notes in the record yet)_
+
+### 09-Oct-26 (run 2026-10-09_0921_sabic)
+- [Snapshot] Aramco owns 70% of SABIC; Moody's affirmed A1 and withdrew the BCA after the acquisition (Yahoo Finance, 20-Jul-20)
+- [Snapshot] Repo-recorded ratings A1 / A+; benchmark bond SABIC 4.50% 2028, last stored level 98.8, YTM 5.05%, spread 100bp, unsourced (`database/issuers/sabic.json`, 19-Sep-26)
+- [Financials] Q2-26 revenue $6.62bn, adjusted EBITDA $0.90bn, adjusted EBIT $110m, adjusted net loss about $0.10bn (MEED, 29-Jul-26)
+- [Financials] Company-reported net debt SAR 2.73bn ($0.73bn) at 30-Jun-26 and SAR 2.77bn ($0.74bn) at 31-Mar-26; definition not verified (MEED, 29-Jul-26)
+- [Financials] Net loss attributable to shareholders SAR 833m ($222m) for Q2-26 per a search summary of the release; primary release not read (Saudi Exchange filing, 29-Jul-26)
+- [Financials] FY25 loss of about $6.87bn reported by MEED; composition unconfirmed (MEED, 29-Jul-26)
+- [Capital] H1-26 distributions of about $880m announced (MEED, 29-Jul-26)
+- [Business] Europe petrochemicals sale to AEQUITA ($500m) and ETP sale to Mutares ($450m), combined EV $950m, announced 08-Jan-26 (Reuters via BusinessDay, 08-Jan-26)
+- [Business] ETP sale to Mutares completed in August 2026; European Commission cleared AEQUITA's sole control of SABIC Europe (Enterprise AM, 30-Sep-26)
+- [Calendar] 31-Dec-26: AEQUITA closing of SABIC Europe sale expected in 4Q26 (Enterprise AM, 30-Sep-26)

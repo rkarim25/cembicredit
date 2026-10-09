@@ -70,6 +70,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 15-Dec-26 IMF Fourth Review mission under Policy Coordination Instrument (IMF, Jun-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 15-Dec-26: Bank of Zambia Monetary Policy Committee meeting (Bank of Zambia, 01-Oct-26). (Zambia sovereign credit, run 2026-10-08_1730_zambia-sovereign-credit)
 - 31-Dec-26: National Assembly approval of OGE 2027 (MINFIN, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
+- 31-Dec-26: AEQUITA closing of SABIC Europe sale expected in 4Q26 (Enterprise AM, 30-Sep-26) (SABIC, run 2026-10-09_0921_sabic)
 - 15-Jan-27: National Treasury release of FY2026/27 Budget Policy Statement (National Treasury, Oct-26) (Kenya sovereign credit, run 2026-10-08_1222_kenya-sovereign-credit)
 - 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed) (Ukraine sovereign credit, run 2026-10-08_2136_ukraine-sovereign-credit)
 - 15-May-27 Republic of Serbia €1.13bn Eurobond final maturity date (Public Debt Administration, May-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
