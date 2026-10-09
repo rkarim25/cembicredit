@@ -45,6 +45,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 | tbc | NBR (Romania) | Autumn monetary policy meeting date not found in the sources checked (2025 pattern: 12-Nov); confirm on bnr.ro | [REZA] or next Romania run |
 
 ## From runs (date first; verify before relying on it)
+- 13-Oct-26 IPO subscription closes (Dabafinance, 09-Oct-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
 - 19-Oct-26: China 3Q26 GDP release (position source, unverified against the NBS calendar, 09-Oct-26) (China and EM: growth, commodity demand and China as a creditor, run 2026-10-09_0826_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
 - 22-Oct-26 CBRT MPC meeting (Intellinews, Sep-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-09_0843_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
 - 22-Oct-26 CBRT MPC meeting; about 100bp cut expected (Intellinews, Sep-26) (Akbank, run 2026-10-09_0912_akbank)
@@ -85,6 +86,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 08-Mar-28 Maturity of $1.25bn USD 5.950% Eurobond (US60416SAE28) (Ministry of Economy and Finance, Sep-26). (Morocco sovereign credit, run 2026-10-08_1419_morocco-sovereign-credit)
 - 13-Mar-28: EUR 500M 4.750% Eurobond maturity (Ministry of Finance, Sep-26) (Senegal sovereign credit, run 2026-10-08_2129_senegal-sovereign-credit)
 - 09-May-28: $1.75B 8.250% Eurobond maturity (MINFIN/UGD, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
+- 16-Jul-28 end of make-whole period on the 2031 notes (The Lekki Playbook, Jul-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
 - 15-Sep-28: First principal amortization installment (US$225m) due on Eurobond XS2051203862 (Ministry of Economy and Finance, 15-Sep-19). (Mozambique sovereign credit, run 2026-10-08_1751_mozambique-sovereign-credit)
 - 12-Oct-28 Maturity of $660m USD 7.850% Eurobond (XS2701166717). (Luxembourg Stock Exchange, 08-Oct-26) (Uzbekistan sovereign credit, run 2026-10-08_1444_uzbekistan-sovereign-credit)
 - 25-Feb-29 Maturity of €500m EUR 5.100% Eurobond (XS3008639810). (Luxembourg Stock Exchange, 08-Oct-26) (Uzbekistan sovereign credit, run 2026-10-08_1444_uzbekistan-sovereign-credit)
@@ -97,6 +99,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 25-Jan-31 Maturity of $1.75bn OMAN 6.250% Eurobond (Ministry of Finance, Sep-26). (Oman sovereign credit, run 2026-10-08_1337_oman-sovereign-credit)
 - 02-Feb-31 Eurobond maturity USD 3.60% 2031 (Ministry of Finance, 02-Feb-31) (Armenia sovereign credit, run 2026-10-08_1535_armenia-sovereign-credit)
 - 06-Feb-31 maturity of USD 1.0bn 6.625% Eurobond (XS2113615228) (Prospectus, Feb-20). (Gabon sovereign credit, run 2026-10-08_1623_gabon-sovereign-credit)
+- 16-Jul-31 maturity of the 7.50% senior notes (The Lekki Playbook, Jul-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
 - 27-Nov-31 Maturity of €1.0bn EUR 1.500% Eurobond (XS2262963189) (Ministry of Economy and Finance, Sep-26). (Morocco sovereign credit, run 2026-10-08_1419_morocco-sovereign-credit)
 - 19-Jan-32: Maturity of €1.0bn 4.875% Eurobond (XS2278994418). (Ministry of Economy and Finance, Mar-26) (Benin sovereign credit, run 2026-10-08_1832_benin-sovereign-credit)
 - 01-Sep-32 Maturity of $1,076.0m USD 3.500% Eurobond (XS1678623734). (Luxembourg Stock Exchange, 08-Oct-26) (Azerbaijan sovereign credit, run 2026-10-08_1458_azerbaijan-sovereign-credit)
@@ -109,3 +112,4 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - Aug-27: general election (Government of Angola, May-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - Dec-26 Egypt EFF scheduled end. About USD 18.3bn of GCC deposits are reported barred from withdrawal until then (New Arab, 22-Sep-26) (Gulf support and anchors for EM sovereigns, run 2026-10-09_0838_gulf-support-and-anchors-for-em-sovereigns)
 - H2-26: expected close of the IHS Towers acquisition, with a 30% sell-down of IHS Nigeria to local investors (MTN H1-26 release, 24-Aug-26) (MTN Group, run 2026-10-09_0918_mtn-group)
+- Nov-26 expected IPO listing (Dabafinance, 09-Oct-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
