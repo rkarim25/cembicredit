@@ -1670,5 +1670,6 @@
     "services_balance_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Services balance, net, USD bn",
     "primary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Primary income, net, USD bn",
     "secondary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Secondary income (incl. remittances), net, USD bn"
-  }
+  },
+  "region": "MENA / GCC (EMBI IG)"
 }

@@ -51485,7 +51485,7 @@ window.SOVEREIGNS = [
  {
   "slug": "israel",
   "country": "Israel",
-  "region": null,
+  "region": "Middle East (EMBI IG)",
   "asof": "09-Oct-26",
   "fx_regime": null,
   "commodity": null,
@@ -57166,7 +57166,7 @@ window.SOVEREIGNS = [
  {
   "slug": "kazakhstan",
   "country": "Kazakhstan",
-  "region": null,
+  "region": "CIS / Central Asia (EMBI IG)",
   "asof": "09-Oct-26",
   "fx_regime": null,
   "commodity": null,
@@ -61811,7 +61811,7 @@ window.SOVEREIGNS = [
  {
   "slug": "kuwait",
   "country": "Kuwait",
-  "region": null,
+  "region": "MENA / GCC (EMBI IG)",
   "asof": "09-Oct-26",
   "fx_regime": null,
   "commodity": null,
@@ -63763,7 +63763,7 @@ window.SOVEREIGNS = [
  {
   "slug": "lebanon",
   "country": "Lebanon",
-  "region": null,
+  "region": "Middle East (EMBI, in default since 2020)",
   "asof": "09-Oct-26",
   "fx_regime": null,
   "commodity": null,
@@ -99596,7 +99596,7 @@ window.SOVEREIGNS = [
  {
   "slug": "qatar",
   "country": "Qatar",
-  "region": null,
+  "region": "MENA / GCC (EMBI IG)",
   "asof": "09-Oct-26",
   "fx_regime": null,
   "commodity": null,
@@ -106509,7 +106509,7 @@ window.SOVEREIGNS = [
  {
   "slug": "saudi-arabia",
   "country": "Saudi Arabia",
-  "region": null,
+  "region": "MENA / GCC (EMBI IG)",
   "asof": "09-Oct-26",
   "fx_regime": null,
   "commodity": null,
@@ -126207,7 +126207,7 @@ window.SOVEREIGNS = [
  {
   "slug": "uae",
   "country": "Uae",
-  "region": null,
+  "region": "MENA / GCC (EMBI IG)",
   "asof": "09-Oct-26",
   "fx_regime": null,
   "commodity": null,

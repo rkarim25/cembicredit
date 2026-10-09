@@ -1748,5 +1748,6 @@
     "fx_open_position_to_capital_pct": "IMF Financial Soundness Indicators (FSIC), Net open position in foreign exchange to capital, %, deposit takers, quarterly"
   },
   "series_quarterly": {},
-  "series_quarterly_sources": {}
+  "series_quarterly_sources": {},
+  "region": "MENA / GCC (EMBI IG)"
 }
