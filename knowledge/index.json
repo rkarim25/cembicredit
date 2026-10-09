@@ -717,7 +717,7 @@
     "section": "sources",
     "title": "Sovereign data sources (CEEMEA HY)",
     "path": "knowledge/sources/sovereign-sources.md",
-    "updated": "08-Oct-26",
+    "updated": "09-Oct-26",
     "slug": "sovereign-sources"
   },
   {
@@ -841,13 +841,6 @@
   },
   {
     "section": "sovereigns",
-    "title": "HY CEEMEA sovereign universe",
-    "path": "knowledge/sovereigns/_universe.md",
-    "updated": "08-Oct-26",
-    "slug": "_universe"
-  },
-  {
-    "section": "sovereigns",
     "title": "Hungary sovereign",
     "path": "knowledge/sovereigns/hungary.md",
     "updated": "08-Oct-26",
@@ -876,6 +869,13 @@
   },
   {
     "section": "sovereigns",
+    "title": "Israel sovereign",
+    "path": "knowledge/sovereigns/israel.md",
+    "updated": "09-Oct-26",
+    "slug": "israel"
+  },
+  {
+    "section": "sovereigns",
     "title": "Jordan sovereign",
     "path": "knowledge/sovereigns/jordan.md",
     "updated": "08-Oct-26",
@@ -883,10 +883,31 @@
   },
   {
     "section": "sovereigns",
+    "title": "Kazakhstan sovereign",
+    "path": "knowledge/sovereigns/kazakhstan.md",
+    "updated": "09-Oct-26",
+    "slug": "kazakhstan"
+  },
+  {
+    "section": "sovereigns",
     "title": "Kenya sovereign",
     "path": "knowledge/sovereigns/kenya.md",
     "updated": "08-Oct-26",
     "slug": "kenya"
+  },
+  {
+    "section": "sovereigns",
+    "title": "Kuwait sovereign",
+    "path": "knowledge/sovereigns/kuwait.md",
+    "updated": "09-Oct-26",
+    "slug": "kuwait"
+  },
+  {
+    "section": "sovereigns",
+    "title": "Lebanon sovereign",
+    "path": "knowledge/sovereigns/lebanon.md",
+    "updated": "09-Oct-26",
+    "slug": "lebanon"
   },
   {
     "section": "sovereigns",
@@ -981,6 +1002,13 @@
   },
   {
     "section": "sovereigns",
+    "title": "Qatar sovereign",
+    "path": "knowledge/sovereigns/qatar.md",
+    "updated": "09-Oct-26",
+    "slug": "qatar"
+  },
+  {
+    "section": "sovereigns",
     "title": "Romania sovereign",
     "path": "knowledge/sovereigns/romania.md",
     "updated": "08-Oct-26",
@@ -992,6 +1020,13 @@
     "path": "knowledge/sovereigns/rwanda.md",
     "updated": "08-Oct-26",
     "slug": "rwanda"
+  },
+  {
+    "section": "sovereigns",
+    "title": "Saudi Arabia sovereign",
+    "path": "knowledge/sovereigns/saudi-arabia.md",
+    "updated": "09-Oct-26",
+    "slug": "saudi-arabia"
   },
   {
     "section": "sovereigns",
@@ -1013,6 +1048,13 @@
     "path": "knowledge/sovereigns/south-africa.md",
     "updated": "08-Oct-26",
     "slug": "south-africa"
+  },
+  {
+    "section": "sovereigns",
+    "title": "Sovereign universe: HY CEEMEA plus the GBI-EM local-market constituents",
+    "path": "knowledge/sovereigns/_universe.md",
+    "updated": "09-Oct-26",
+    "slug": "_universe"
   },
   {
     "section": "sovereigns",
@@ -1041,6 +1083,13 @@
     "path": "knowledge/sovereigns/turkey.md",
     "updated": "08-Oct-26",
     "slug": "turkey"
+  },
+  {
+    "section": "sovereigns",
+    "title": "UAE sovereign",
+    "path": "knowledge/sovereigns/uae.md",
+    "updated": "09-Oct-26",
+    "slug": "uae"
   },
   {
     "section": "sovereigns",

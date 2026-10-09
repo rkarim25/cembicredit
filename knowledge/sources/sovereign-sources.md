@@ -1,15 +1,14 @@
 # Sovereign data sources (CEEMEA HY)
 
-_Generated 08-Oct-26. Verify a URL the first time it is used._
+_Generated 09-Oct-26. Verify a URL the first time it is used._
 
 ## Cross-country
 - IMF WEO / Fiscal Monitor / GFSR: https://www.imf.org/en/Publications
 - IMF DSA (LIC-DSF and MAC-DSA) explainers: https://www.imf.org/en/Publications/DSA
-- IMF data portal (CPI, MFS interest rates, International Liquidity reserves, EER, CTOT, FSI, BOP, QGFS; SDMX 3.0 API used by the pipeline): https://data.imf.org
-- BIS statistics (policy rates, exchange rates, effective exchange rates, debt securities, banking): https://data.bis.org
 - World Bank International Debt Statistics: https://www.worldbank.org/en/programs/debt-statistics/ids
 - World Bank Debt Reporting Heat Map: https://www.worldbank.org/en/topic/debt/brief/debt-transparency-report
-- BIS locational banking and debt securities: https://data.bis.org
+- IMF data portal (CPI, interest rates, reserves and reserve template, BOP, EER, CTOT, FSI; SDMX 3.0 API used by the pipeline): https://data.imf.org
+- BIS statistics (policy rates, exchange rates, effective exchange rates, debt securities, banking): https://data.bis.org
 - Paris Club: https://clubdeparis.org
 - Common Framework (G20) tracker: https://www.imf.org/en/Topics/sovereign-debt
 - S&P sovereign ratings: https://www.spglobal.com/ratings
@@ -320,4 +319,50 @@ _Generated 08-Oct-26. Verify a URL the first time it is used._
 - CB: https://www.bsp.gov.ph
 - stats: https://psa.gov.ph
 - IMF: https://www.imf.org/en/Countries/PHL
+
+### Saudi Arabia
+- MOF: https://www.mof.gov.sa
+- DMO: https://www.ndmc.gov.sa
+- CB: https://www.sama.gov.sa
+- stats: https://www.stats.gov.sa
+- IMF: https://www.imf.org/en/Countries/SAU
+
+### UAE
+- MOF: https://www.mof.gov.ae
+- CB: https://www.centralbank.ae
+- stats: https://fcsc.gov.ae
+- IMF: https://www.imf.org/en/Countries/ARE
+- abu dhabi dof: https://www.dof.gov.abudhabi
+
+### Qatar
+- MOF: https://www.mof.gov.qa
+- CB: https://www.qcb.gov.qa
+- stats: https://www.npc.qa
+- IMF: https://www.imf.org/en/Countries/QAT
+
+### Kuwait
+- MOF: https://www.mof.gov.kw
+- CB: https://www.cbk.gov.kw
+- stats: https://www.csb.gov.kw
+- IMF: https://www.imf.org/en/Countries/KWT
+
+### Kazakhstan
+- MOF: https://www.gov.kz/memleket/entities/minfin
+- CB: https://www.nationalbank.kz
+- stats: https://stat.gov.kz
+- IMF: https://www.imf.org/en/Countries/KAZ
+- nfrk: https://www.nationalbank.kz/en/page/natsionalnyy-fond
+
+### Israel
+- MOF: https://www.gov.il/en/departments/ministry_of_finance
+- DMO: https://www.gov.il/en/departments/units/government_debt_management_unit
+- CB: https://www.boi.org.il
+- stats: https://www.cbs.gov.il
+- IMF: https://www.imf.org/en/Countries/ISR
+
+### Lebanon
+- MOF: https://www.finance.gov.lb
+- CB: https://www.bdl.gov.lb
+- stats: http://www.cas.gov.lb
+- IMF: https://www.imf.org/en/Countries/LBN
 
