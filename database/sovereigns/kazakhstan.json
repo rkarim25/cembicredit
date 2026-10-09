@@ -5,51 +5,46 @@
     "real_gdp_growth_pct": {
       "value": 4.6,
       "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "source": "IMF World Economic Outlook",
+      "asof": "09-Oct-26"
     },
     "current_account_pct_gdp": {
-      "value": -1,
+      "value": -1.0,
       "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "source": "IMF World Economic Outlook (last-four-quarter IMF BOP deficit USD 13.41bn is about 3.7% of 2026E GDP, unresolved)",
+      "asof": "09-Oct-26"
     },
     "gov_debt_pct_gdp": {
       "value": 24.9,
+      "definition": "general government debt",
       "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "source": "IMF World Economic Outlook",
+      "asof": "09-Oct-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": -1.3,
       "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "source": "IMF World Economic Outlook",
+      "asof": "09-Oct-26"
     },
     "nominal_gdp_usd_bn": {
-      "value": 360.456,
+      "value": 360.46,
       "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "source": "IMF World Economic Outlook",
+      "asof": "09-Oct-26"
     },
     "gross_reserves_usd_bn": {
-      "value": 70.567,
-      "period": "2026-08",
+      "value": 70.57,
+      "definition": "gross incl. gold (gold USD 55.80bn; ex gold USD 14.77bn)",
+      "period": "Aug-26",
       "source": "IMF International Liquidity",
-      "asof": "09-Oct-26",
-      "definition": "Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)"
+      "asof": "09-Oct-26"
     },
     "import_cover_months": {
-      "value": 7.386,
+      "value": 7.39,
       "period": "2025",
       "source": "World Bank WDI",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "asof": "09-Oct-26"
     },
     "fdi_net_pct_gdp": {
       "value": -0.299,
@@ -59,11 +54,10 @@
       "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
     },
     "cpi_latest_yoy_pct": {
-      "value": 9.2398,
-      "period": "2026-09",
+      "value": 9.24,
+      "period": "Sep-26",
       "source": "IMF CPI database",
-      "asof": "09-Oct-26",
-      "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
+      "asof": "09-Oct-26"
     },
     "current_account_4q_usd_bn": {
       "value": -13.41,
@@ -78,11 +72,62 @@
       "source": "IMF reserve template",
       "asof": "09-Oct-26",
       "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+    },
+    "policy_rate_pct": {
+      "value": 16.75,
+      "period": "Jul-26",
+      "source": "NBK base rate per Interfax, 24-Jul-26; ING",
+      "asof": "24-Jul-26"
+    },
+    "net_reserves_usd_bn": {
+      "value": 59.79,
+      "definition": "reserves net of predetermined and contingent 1-year drains (IMF reserve template)",
+      "period": "Jul-26",
+      "source": "IMF reserve template",
+      "asof": "09-Oct-26"
     }
   },
-  "ratings": {},
-  "series": {},
-  "series_sources": {},
+  "ratings": {
+    "fitch": {
+      "rating": "BBB",
+      "outlook": "Stable",
+      "date": "Jun-26"
+    },
+    "sp": {
+      "rating": "BBB",
+      "outlook": "Stable",
+      "date": "Aug-26"
+    },
+    "moodys": {
+      "rating": "Baa1",
+      "outlook": "Stable",
+      "date": "Sep-26"
+    }
+  },
+  "series": {
+    "real_gdp_growth_pct": {
+      "2026E": 4.6
+    },
+    "current_account_pct_gdp": {
+      "2026E": -1.0
+    },
+    "fiscal_balance_pct_gdp": {
+      "2026E": -1.3
+    },
+    "gov_debt_pct_gdp": {
+      "2026E": 24.9
+    },
+    "nominal_gdp_usd_bn": {
+      "2026E": 360.46
+    }
+  },
+  "series_sources": {
+    "real_gdp_growth_pct": "IMF World Economic Outlook, 09-Oct-26",
+    "current_account_pct_gdp": "IMF World Economic Outlook, 09-Oct-26",
+    "fiscal_balance_pct_gdp": "IMF World Economic Outlook, 09-Oct-26",
+    "gov_debt_pct_gdp": "IMF World Economic Outlook, 09-Oct-26",
+    "nominal_gdp_usd_bn": "IMF World Economic Outlook, 09-Oct-26"
+  },
   "series_official": {
     "real_gdp_growth_pct": {
       "2005": 9.7,
@@ -655,6 +700,8 @@
     "gov_revenue_pct_gdp_wb": "World Bank WDI (API)"
   },
   "derived": {
+    "ex_ante_real_rate_pct": 7.51,
+    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
     "reserves_12m_pct": 29.9,
     "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
     "ctot_12m_pct": 11.5,
@@ -2714,5 +2761,110 @@
     "secondary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Secondary income (incl. remittances), net, USD bn",
     "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
   },
-  "region": "CIS / Central Asia (EMBI IG)"
+  "region": "Central Asia",
+  "history": [
+    {
+      "asof": "09-Oct-26",
+      "run": null,
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": 4.6,
+          "period": "2026E",
+          "source": "IMF World Economic Outlook",
+          "asof": "09-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -1.0,
+          "period": "2026E",
+          "source": "IMF World Economic Outlook (last-four-quarter IMF BOP deficit USD 13.41bn is about 3.7% of 2026E GDP, unresolved)",
+          "asof": "09-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 24.9,
+          "definition": "general government debt",
+          "period": "2026E",
+          "source": "IMF World Economic Outlook",
+          "asof": "09-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -1.3,
+          "period": "2026E",
+          "source": "IMF World Economic Outlook",
+          "asof": "09-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 360.46,
+          "period": "2026E",
+          "source": "IMF World Economic Outlook",
+          "asof": "09-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 70.57,
+          "definition": "gross incl. gold (gold USD 55.80bn; ex gold USD 14.77bn)",
+          "period": "Aug-26",
+          "source": "IMF International Liquidity",
+          "asof": "09-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 7.39,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "09-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": -0.299,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "09-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 9.24,
+          "period": "Sep-26",
+          "source": "IMF CPI database",
+          "asof": "09-Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -13.41,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "09-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 59.792,
+          "period": "2026-07",
+          "source": "IMF reserve template",
+          "asof": "09-Oct-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        },
+        "policy_rate_pct": {
+          "value": 16.75,
+          "period": "Jul-26",
+          "source": "NBK base rate per Interfax, 24-Jul-26; ING",
+          "asof": "24-Jul-26"
+        },
+        "net_reserves_usd_bn": {
+          "value": 59.79,
+          "definition": "reserves net of predetermined and contingent 1-year drains (IMF reserve template)",
+          "period": "Jul-26",
+          "source": "IMF reserve template",
+          "asof": "09-Oct-26"
+        }
+      },
+      "derived": {
+        "reserves_12m_pct": 29.9,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": 11.5,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    }
+  ],
+  "fiscal_year": "Calendar year",
+  "commodity_exposure": {
+    "value": "Oil exports (Tengiz, Kashagan, CPC export route); oil price is the key external driver. Reserves also hold a large gold component (USD 55.8bn of USD 70.6bn gross, Aug-26).",
+    "source": "Adjudicated document, Kazakhstan sovereign credit (IMF BOP, IMF International Liquidity)",
+    "asof": "09-Oct-26"
+  },
+  "run": "2026-10-09_0733_kazakhstan-sovereign-credit"
 }

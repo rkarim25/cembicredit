@@ -32,15 +32,28 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.
 - Outstanding Eurobonds (ISIN, coupon, maturity, size, governing law, CAC type): to be filled.
 - IMF: programme type, size, approval and review dates, or none: to be filled.
+- Reported ratings: S&P BBB stable (upgrade, Aug-26), Fitch BBB stable (Jun-26), Moody's Baa1 stable (Sep-26); unverified against agency releases (dknews.kz; fxempire, Oct-26) [09-Oct-26]
+- Banking FSI 2025-Q4: CAR 20.77%, NPL 3.63%, provisions/NPL 60.6%, ROE 28.41%, FX open position 1.29% of capital (IMF FSI, 09-Oct-26) [09-Oct-26]
 
 ## 1. External position
+- Current account -1% of GDP, 2026E (IMF WEO, 09-Oct-26) [09-Oct-26]
+- Current account USD -13.41bn over 2025-Q2 to 2026-Q1; primary income USD -5.0bn to -6.6bn a quarter (IMF BOP, 09-Oct-26) [09-Oct-26]
+- Gross reserves incl. gold USD 70.57bn (Aug-26), of which gold USD 55.80bn and reserves ex gold USD 14.77bn; 12-month change +29.9% (IMF International Liquidity, 09-Oct-26) [09-Oct-26]
+- Reserves net of predetermined and contingent 1-year drains USD 59.79bn (Jul-26) (IMF reserve template, 09-Oct-26) [09-Oct-26]
+- Import cover 7.39 months (2025) (World Bank WDI, 09-Oct-26) [09-Oct-26]
+- Commodity terms-of-trade index +11.5% in 12 months to May-26 (IMF CTOT, 09-Oct-26) [09-Oct-26]
 ## 2. Fiscal position
+- General government debt 24.9% of GDP, fiscal balance -1.3% of GDP, 2026E (IMF WEO, 09-Oct-26) [09-Oct-26]
 ## 3. Monetary and financial
+- CPI 9.24% y/y (Sep-26), down from 10.64% (Apr-26) (IMF CPI database, 09-Oct-26) [09-Oct-26]
+- NBK base rate 18% (Mar-26), 17.00% (Jun-26), 16.75% (Jul-26) (ING; Interfax 24-Jul-26) [09-Oct-26]
 ## 4. Growth and structure
+- Real GDP growth 4.6%, 2026E; nominal GDP USD 360.46bn, 2026E (IMF WEO, 09-Oct-26) [09-Oct-26]
 ## 5. Institutions, politics, willingness
 ## 6. IMF and official sector
 ## 7. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
+- USD/KZT 464.55 (Aug-26), range 464.55–489.31 Mar–Aug-26 (BIS, 09-Oct-26) [09-Oct-26]
 ## 8. Restructuring and recovery (if relevant)
 ## 9. Catalyst calendar
 ## 10. Questions for the finance ministry / IMF mission
@@ -54,3 +67,18 @@ _(levels from Reza via [BBG]; never from memory)_
 Verify a URL the first time it is used; replace it here if it has moved.
 
 ## Dated facts log
+
+### 09-Oct-26 (run 2026-10-09_0733_kazakhstan-sovereign-credit)
+- [Snapshot] Reported ratings: S&P BBB stable (upgrade, Aug-26), Fitch BBB stable (Jun-26), Moody's Baa1 stable (Sep-26); unverified against agency releases (dknews.kz; fxempire, Oct-26)
+- [Fiscal] General government debt 24.9% of GDP, fiscal balance -1.3% of GDP, 2026E (IMF WEO, 09-Oct-26)
+- [Growth] Real GDP growth 4.6%, 2026E; nominal GDP USD 360.46bn, 2026E (IMF WEO, 09-Oct-26)
+- [External] Current account -1% of GDP, 2026E (IMF WEO, 09-Oct-26)
+- [External] Current account USD -13.41bn over 2025-Q2 to 2026-Q1; primary income USD -5.0bn to -6.6bn a quarter (IMF BOP, 09-Oct-26)
+- [External] Gross reserves incl. gold USD 70.57bn (Aug-26), of which gold USD 55.80bn and reserves ex gold USD 14.77bn; 12-month change +29.9% (IMF International Liquidity, 09-Oct-26)
+- [External] Reserves net of predetermined and contingent 1-year drains USD 59.79bn (Jul-26) (IMF reserve template, 09-Oct-26)
+- [External] Import cover 7.39 months (2025) (World Bank WDI, 09-Oct-26)
+- [External] Commodity terms-of-trade index +11.5% in 12 months to May-26 (IMF CTOT, 09-Oct-26)
+- [Monetary] CPI 9.24% y/y (Sep-26), down from 10.64% (Apr-26) (IMF CPI database, 09-Oct-26)
+- [Monetary] NBK base rate 18% (Mar-26), 17.00% (Jun-26), 16.75% (Jul-26) (ING; Interfax 24-Jul-26)
+- [Market] USD/KZT 464.55 (Aug-26), range 464.55–489.31 Mar–Aug-26 (BIS, 09-Oct-26)
+- [Snapshot] Banking FSI 2025-Q4: CAR 20.77%, NPL 3.63%, provisions/NPL 60.6%, ROE 28.41%, FX open position 1.29% of capital (IMF FSI, 09-Oct-26)
