@@ -61864,23 +61864,44 @@ window.SOVEREIGNS = [
  {
   "slug": "kuwait",
   "country": "Kuwait",
-  "region": "MENA / GCC (EMBI IG)",
+  "region": "Middle East (GCC)",
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": null,
-  "commodity": null,
-  "ratings": {},
+  "fx_regime": "peg to basket",
+  "commodity": "Oil exports; FY26/27 draft budget assumes $57/bbl against a stated breakeven of $90.5/bbl",
+  "ratings": {
+   "fitch": {
+    "rating": "AA-",
+    "outlook": "Stable",
+    "date": "Aug-26"
+   },
+   "sp": {
+    "rating": "AA-",
+    "outlook": null,
+    "date": "21-Nov-25"
+   },
+   "moodys": {
+    "rating": "A1",
+    "outlook": "Stable",
+    "date": null
+   }
+  },
   "imf": {},
-  "politics": {},
+  "politics": {
+   "next_election": null,
+   "note": "Fitch flags weaker governance than peers; long delay before the debt law (KD 30bn, 50 years) shows slow legislative decision-making; no fiscal rule found",
+   "source": "Kuwait Times / Fitch summary",
+   "asof": "Aug-26"
+  },
   "ind": {
    "real_gdp_growth_pct": -0.6,
-   "current_account_pct_gdp": 26.0,
-   "gov_debt_pct_gdp": 22.3,
-   "fiscal_balance_pct_gdp": 27.6,
-   "nominal_gdp_usd_bn": 172.92,
+   "current_account_pct_gdp": 18.8,
+   "gov_debt_pct_gdp": 2.9,
+   "fiscal_balance_pct_gdp": -18.5,
+   "nominal_gdp_usd_bn": 172.9,
    "gross_reserves_usd_bn": 32.689,
-   "import_cover_months": 8.406,
+   "import_cover_months": 8.4,
    "fdi_net_pct_gdp": 0.263,
    "policy_rate_pct": 3.5,
    "cpi_latest_yoy_pct": 0.0,
@@ -61891,14 +61912,14 @@ window.SOVEREIGNS = [
   },
   "src": {
    "real_gdp_growth_pct": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "current_account_pct_gdp": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fiscal_balance_pct_gdp": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)",
-   "import_cover_months": "World Bank WDI 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
+   "current_account_pct_gdp": "IMF BOP via repo data record; ratio derived in the adjudicated document 09-Oct-26",
+   "gov_debt_pct_gdp": "Search summary of debt law coverage (tier 4) 09-Oct-26 | Gross government debt, press forecast path (about 12% by FY27/28); conflicts with repo WEO 22.3%, unresolved",
+   "fiscal_balance_pct_gdp": "Arab News, Kuwait Times, TradeArabia; ratio derived in the adjudicated document 28-Feb-26",
+   "nominal_gdp_usd_bn": "Repo data record database/sovereigns/kuwait.json (IMF WEO via repo) 09-Oct-26",
+   "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | CBK gross reserves incl. gold (gold USD 0.103bn)",
+   "import_cover_months": "World Bank WDI 09-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "policy_rate_pct": "BIS 09-Oct-26 | BIS WS_CBPOL monthly series (auto-filled; a run's sourced point replaces it)",
+   "policy_rate_pct": "BIS 09-Oct-26",
    "cpi_latest_yoy_pct": "IMF CPI database 09-Oct-26 | IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)",
    "current_account_4q_usd_bn": "IMF BOP 09-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
@@ -63795,14 +63816,14 @@ window.SOVEREIGNS = [
   },
   "asof_ind": {
    "real_gdp_growth_pct": "2026E",
-   "current_account_pct_gdp": "2026E",
-   "gov_debt_pct_gdp": "2026E",
-   "fiscal_balance_pct_gdp": "2026E",
-   "nominal_gdp_usd_bn": "2026E",
-   "gross_reserves_usd_bn": "2026-08",
+   "current_account_pct_gdp": "2025-Q2 to 2026-Q1 (4-quarter sum USD 32.54bn over repo nominal GDP, derived)",
+   "gov_debt_pct_gdp": "FY24/25",
+   "fiscal_balance_pct_gdp": "FY26/27 draft budget (KD 9.8bn / $31.9bn deficit over repo nominal GDP, derived)",
+   "nominal_gdp_usd_bn": "not stated in repo record",
+   "gross_reserves_usd_bn": "Aug-26",
    "import_cover_months": "2025",
    "fdi_net_pct_gdp": "2025",
-   "policy_rate_pct": "2026-09",
+   "policy_rate_pct": "Sep-26",
    "cpi_latest_yoy_pct": "2026-06",
    "current_account_4q_usd_bn": "2025-Q2 to 2026-Q1",
    "ex_ante_real_rate_pct": "derived",
@@ -63810,9 +63831,9 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": null,
-   "updated": null,
-   "status": null
+   "open_items": "9",
+   "updated": "09-Oct-26",
+   "status": "Draft"
   }
  },
  {

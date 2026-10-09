@@ -45,6 +45,15 @@
     "path": "reports/gulf-support-and-anchors-for-em-sovereigns.md"
   },
   {
+    "topic": "Kuwait sovereign credit",
+    "slug": "kuwait-sovereign-credit",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 9,
+    "run": "2026-10-09_0730_kuwait-sovereign-credit",
+    "path": "reports/kuwait-sovereign-credit.md"
+  },
+  {
     "topic": "Local-currency EM rates: ex-ante real rates and FX carry ranking",
     "slug": "local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank",
     "updated": "09-Oct-26",

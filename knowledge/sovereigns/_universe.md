@@ -29,7 +29,7 @@ _Status table regenerated 09-Oct-26 by the pipeline from knowledge pages and rep
 | Jordan | `knowledge/sovereigns/jordan.md` | `reports/jordan-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P BB- (Stable, 28-Aug-26); Fitch BB- (Stable, May-26); Moody's Ba3 (Stable, Apr-26) (Rating Agencies, Aug-26). |
 | Kazakhstan | `knowledge/sovereigns/kazakhstan.md` | none yet |  |  |  |
 | Kenya | `knowledge/sovereigns/kenya.md` | `reports/kenya-sovereign-credit.md` | 08-Oct-26 | 11 | Ratings: S&P B/Stable (21-Aug-26), Fitch B-/Stable (17-Jul-26), Moody's B3/Stable (Jul-26) (Rating Agencies, Aug-26) |
-| Kuwait | `knowledge/sovereigns/kuwait.md` | none yet |  |  |  |
+| Kuwait | `knowledge/sovereigns/kuwait.md` | `reports/kuwait-sovereign-credit.md` | 09-Oct-26 | 9 | Fitch affirmed Kuwait at AA-, stable outlook (CBK-published Fitch release, Aug-26) |
 | Lebanon | `knowledge/sovereigns/lebanon.md` | none yet |  |  |  |
 | Malaysia | `knowledge/sovereigns/malaysia.md` | none yet |  |  |  |
 | Mexico | `knowledge/sovereigns/mexico.md` | none yet |  |  |  |
