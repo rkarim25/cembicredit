@@ -3,8 +3,15 @@
     "section": "root",
     "title": "Knowledge base",
     "path": "knowledge/README.md",
-    "updated": "08-Oct-26",
+    "updated": "09-Oct-26",
     "slug": "README"
+  },
+  {
+    "section": "frameworks",
+    "title": "CEEMEA corporate sector primers",
+    "path": "knowledge/frameworks/ceemea-sector-primers.md",
+    "updated": "09-Oct-26",
+    "slug": "ceemea-sector-primers"
   },
   {
     "section": "frameworks",
@@ -1114,6 +1121,13 @@
   },
   {
     "section": "themes",
+    "title": "Benchmark universe: EMBI and CEMBI, CEEMEA first",
+    "path": "knowledge/themes/benchmark-universe.md",
+    "updated": "09-Oct-26",
+    "slug": "benchmark-universe"
+  },
+  {
+    "section": "themes",
     "title": "CEMBI corporate monitor",
     "path": "knowledge/themes/corporate-monitor.md",
     "updated": "09-Oct-26",
@@ -1144,7 +1158,7 @@
     "section": "themes",
     "title": "EM macro monitor",
     "path": "knowledge/themes/macro-monitor.md",
-    "updated": "08-Oct-26",
+    "updated": "09-Oct-26",
     "slug": "macro-monitor"
   },
   {
