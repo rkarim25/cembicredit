@@ -40,7 +40,7 @@ function initScreener() {
 
   const newsBadge = document.getElementById("nav-news-badge");
   if (newsBadge && window.CREDIT_NEWS_DATA) {
-    newsBadge.textContent = `${window.CREDIT_NEWS_DATA.length} Live`;
+    newsBadge.textContent = `${window.CREDIT_NEWS_DATA.length} sourced`;
   }
   
   // Attach listeners

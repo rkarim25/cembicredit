@@ -1,62 +1,62 @@
 {
   "country": "Azerbaijan",
-  "region": "CEEMEA - South Caucasus",
+  "region": "CEEMEA",
   "fiscal_year": "Calendar year",
   "fx_regime": {
-    "value": "de facto peg to USD at 1.7000 AZN/USD (managed via CBAR FX auctions)",
+    "value": "de facto peg at 1.7000 AZN/USD",
     "source": "Central Bank of Azerbaijan",
     "asof": "23-Sep-26"
   },
   "commodity_exposure": {
-    "value": "Net exporter of crude oil (ACG, in decline) and natural gas (Shah Deniz via Southern Gas Corridor/TAP); oil price is what matters (budget benchmark $75/bbl)",
-    "source": "Ministry of Finance; State Statistical Committee",
-    "asof": "01-Jun-26"
+    "value": "Oil and gas exports (ACG oil, Shah Deniz gas via the Southern Gas Corridor/TAP); oil price drives budget and SOFAZ transfers",
+    "source": "State Statistical Committee; Ministry of Finance",
+    "asof": "Sep-26"
   },
   "imf": {
-    "programme": "None active (Article IV surveillance only)",
+    "programme": "None (Article IV surveillance only)",
     "size_usd_bn": null,
     "approved": null,
     "next_review": null,
     "risk_of_debt_distress": null,
-    "source": "IMF country portal",
+    "source": "IMF",
     "asof": "08-Oct-26"
   },
   "indicators": {
     "real_gdp_growth_pct": {
       "value": 1.2,
-      "period": "Jan-Aug 2026 y/y",
+      "period": "Jan-Aug 2026",
       "source": "State Statistical Committee",
       "asof": "Sep-26"
     },
     "policy_rate_pct": {
       "value": 6.5,
       "period": "Sep-26",
-      "source": "Central Bank of Azerbaijan (refinancing rate)",
+      "source": "Central Bank of Azerbaijan",
       "asof": "23-Sep-26"
     },
     "current_account_pct_gdp": {
       "value": 10.5,
-      "period": "H1 2026 (annualised GDP basis)",
+      "period": "H1-26 (approx., vs annualised GDP)",
       "source": "Central Bank of Azerbaijan",
       "asof": "15-Sep-26"
     },
     "gross_reserves_usd_bn": {
       "value": 15.36,
-      "definition": "CBAR gross foreign exchange reserves, excluding SOFAZ assets ($72.60bn at 30-Jun-26)",
+      "definition": "CBAR gross foreign exchange reserves (excludes SOFAZ assets of $72.60bn at 30-Jun-26)",
       "period": "23-Sep-26",
       "source": "Central Bank of Azerbaijan",
       "asof": "23-Sep-26"
     },
     "gov_debt_pct_gdp": {
       "value": 18.4,
-      "definition": "Total government debt, 24.1bn AZN ($14.18bn)",
+      "definition": "total government debt, AZN 24.1bn ($14.18bn)",
       "period": "01-Jun-26",
       "source": "Ministry of Finance",
       "asof": "01-Jun-26"
     },
     "external_debt_pct_gdp": {
       "value": 8.3,
-      "definition": "Direct external public (government) debt only, ~$6.4bn; not total external debt",
+      "definition": "government external debt (~$6.4bn); total external debt not sourced",
       "period": "01-Jun-26",
       "source": "Ministry of Finance",
       "asof": "01-Jun-26"
@@ -64,12 +64,12 @@
     "eurobonds_outstanding_usd_bn": {
       "value": 1.39,
       "period": "08-Oct-26",
-      "source": "Luxembourg Stock Exchange (USD 5.125% 2029 $310.7m + USD 3.500% 2032 $1,076.0m)",
+      "source": "Luxembourg Stock Exchange",
       "asof": "08-Oct-26"
     },
     "next_eurobond_maturity": {
       "value": "01-Sep-29",
-      "note": "01-Sep-29, $310.7m USD 5.125% (XS1678623064)",
+      "note": "01-Sep-29, USD 5.125% $310.7m (XS1678623064)",
       "source": "Luxembourg Stock Exchange",
       "asof": "08-Oct-26"
     },
@@ -107,7 +107,7 @@
       "asof": "Sep-26"
     },
     "parallel_fx_premium_pct": {
-      "value": 0.0,
+      "value": 0,
       "period": "Sep-26",
       "source": "Central Bank of Azerbaijan",
       "asof": "23-Sep-26"
@@ -147,7 +147,7 @@
     }
   },
   "series_sources": {
-    "gross_reserves_usd_bn": "Central Bank of Azerbaijan, end-2025 CBAR gross FX reserves as cited in run of 08-Oct-26 (reference 23-Sep-26 release)"
+    "gross_reserves_usd_bn": "Central Bank of Azerbaijan, end-2025 value cited 23-Sep-26"
   },
   "slug": "azerbaijan",
   "asof": "09-Oct-26",
@@ -2254,6 +2254,117 @@
         },
         "parallel_fx_premium_pct": {
           "value": 0.0,
+          "period": "Sep-26",
+          "source": "Central Bank of Azerbaijan",
+          "asof": "23-Sep-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": 5.9,
+          "period": "2025-Q3 to 2026-Q2",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 3.0,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": 29.7,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": 14.4,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1458_azerbaijan-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": 1.2,
+          "period": "Jan-Aug 2026",
+          "source": "State Statistical Committee",
+          "asof": "Sep-26"
+        },
+        "policy_rate_pct": {
+          "value": 6.5,
+          "period": "Sep-26",
+          "source": "Central Bank of Azerbaijan",
+          "asof": "23-Sep-26"
+        },
+        "current_account_pct_gdp": {
+          "value": 10.5,
+          "period": "H1-26 (approx., vs annualised GDP)",
+          "source": "Central Bank of Azerbaijan",
+          "asof": "15-Sep-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 15.36,
+          "definition": "CBAR gross foreign exchange reserves (excludes SOFAZ assets of $72.60bn at 30-Jun-26)",
+          "period": "23-Sep-26",
+          "source": "Central Bank of Azerbaijan",
+          "asof": "23-Sep-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 18.4,
+          "definition": "total government debt, AZN 24.1bn ($14.18bn)",
+          "period": "01-Jun-26",
+          "source": "Ministry of Finance",
+          "asof": "01-Jun-26"
+        },
+        "external_debt_pct_gdp": {
+          "value": 8.3,
+          "definition": "government external debt (~$6.4bn); total external debt not sourced",
+          "period": "01-Jun-26",
+          "source": "Ministry of Finance",
+          "asof": "01-Jun-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 1.39,
+          "period": "08-Oct-26",
+          "source": "Luxembourg Stock Exchange",
+          "asof": "08-Oct-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "01-Sep-29",
+          "note": "01-Sep-29, USD 5.125% $310.7m (XS1678623064)",
+          "source": "Luxembourg Stock Exchange",
+          "asof": "08-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 50,
+          "period": "mid-2026 (strategic FX assets $87.96bn incl. SOFAZ; stated as more than 50 months of merchandise import cover)",
+          "source": "SOFAZ / CBAR",
+          "asof": "Sep-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 0.493,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": 1.8,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 78.372,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 3.5,
+          "period": "Aug-26",
+          "source": "State Statistical Committee",
+          "asof": "Sep-26"
+        },
+        "parallel_fx_premium_pct": {
+          "value": 0,
           "period": "Sep-26",
           "source": "Central Bank of Azerbaijan",
           "asof": "23-Sep-26"
