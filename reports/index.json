@@ -126,6 +126,15 @@
     "path": "reports/qatar-sovereign-credit.md"
   },
   {
+    "topic": "Sasol",
+    "slug": "sasol",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 8,
+    "run": "2026-10-09_0915_sasol",
+    "path": "reports/sasol.md"
+  },
+  {
     "topic": "Saudi Arabia sovereign credit",
     "slug": "saudi-arabia-sovereign-credit",
     "updated": "09-Oct-26",
