@@ -53,7 +53,7 @@ Generated 09-Oct-26 by `pipeline/corporate_monitor.py` from `database/issuers/*.
 
 | Issuer | Country | Sector | Rating | Benchmark bond | Price | YTM | Spread | As of | Leverage / capital | Data | Pages |
 |---|---|---|---|---|---:|---:|---:|---|---|---|---|
-| Tullow Oil (TLW) | Ghana | Energy | CCC+ / CCC+ / Caa2 | TLWLN 10.250% 2028 (15.00% all-in) | 97.00 | 16.50% | 1180 | 2026-10-07 | 1.30x (2024A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=tullow) · [page](../issuers/tullow.md) |
+| Tullow Oil (TLW) | Ghana | Energy | CCC+ / CCC+ / Caa2 | TLWLN 10.250% 2028 (15.00% all-in) | 97.00 | 16.50% | 1180 | 2026-10-07 | 2.26x (2025A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=tullow) · [page](../issuers/tullow.md) |
 | Dangote Refinery (DANREF) | Nigeria | Energy | B / B2 | DANREF 12.50% 2029 | 95.00 | 12.50% | 815 | 2026-09-19 | 2.43x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=dangote_ref) · [page](../issuers/dangote_ref.md) |
 | Dangote Fertiliser (DANFER) | Nigeria | Materials | B / B2 | DANFER 11.50% 2028 | 96.00 | 11.50% | 715 | 2026-09-19 | 2.77x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=dangote_fert) · [page](../issuers/dangote_fert.md) |
 | Kosmos Energy (KOS) | Ghana | Energy | B- / B3 | KOS 10.45% 2027 | 89.50 | 10.45% | 610 | 2026-09-19 | 2.99x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=kosmos) · [page](../issuers/kosmos.md) |
@@ -76,13 +76,13 @@ Generated 09-Oct-26 by `pipeline/corporate_monitor.py` from `database/issuers/*.
 
 | Issuer | Country | Sector | Rating | Benchmark bond | Price | YTM | Spread | As of | Leverage / capital | Data | Pages |
 |---|---|---|---|---|---:|---:|---:|---|---|---|---|
-| Zorlu Enerji (ZOREN) | Turkey | Utilities | B- / CCC+ | ZOREN 11.00% 2030 | 63.50 | 27.20% | 2250 | 2026-09-23 | 3.62x (2024A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=zorlu) · [page](../issuers/zorlu.md) |
+| Zorlu Enerji (ZOREN) | Turkey | Utilities | B- / CCC+ | ZOREN 11.00% 2030 | 63.50 | 27.20% | 2250 | 2026-09-23 | 4.65x (2025A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=zorlu) · [page](../issuers/zorlu.md) |
 | Ukraine Rail (Ukrzaliznytsia) (RAILUA) | Ukraine | Transportation & Logistics (Railways) | CCC / Caa3 | RAILUA 8.25% 2026 (LPN) | 64.00 | 19.25% | 1485 | 2026-09-19 | 3.86x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=ukr_rail) · [page](../issuers/ukr_rail.md) |
 | DTEK Energy (DTEKUA) | Ukraine | Utilities | CCC / Caa3 | DTEK 18.50% 2027 | 68.50 | 18.50% | 1410 | 2026-09-19 | 3.02x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=dtek) · [page](../issuers/dtek.md) |
-| Avia Solutions Group (ASG Finance) (AVIASG) | Ireland | Transportation | BB- (S&P) / BB (Fitch) | AVIASG 9.750% 2029 (US00217AAB26 / XS2815876920) | 87.00 | 16.00% | 1120 | 2026-10-07 | 2.81x (2025A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=asg) · [page](../issuers/asg.md) |
+| Avia Solutions Group (ASG Finance) (AVIASG) | Ireland | Transportation | BB- (S&P) / BB (Fitch) | AVIASG 9.750% 2029 (US00217AAB26 / XS2815876920) | 87.00 | 16.00% | 1120 | 2026-10-07 | 2.54x (2025A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=asg) · [page](../issuers/asg.md) |
 | Metinvest (METINV) | Ukraine | Materials | CCC+ | METINV 15.65% 2029 | 93.27 | 14.98% | 1022 | 2026-09-27 | 1.18x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=metinvest) · [page](../issuers/metinvest.md) |
 | MHP SE (MHPSA) | Ukraine | Consumer | CCC+ / Caa2 | MHP 13.10% 2026 | 82.50 | 13.10% | 875 | 2026-09-19 | 2.89x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=mhp) · [page](../issuers/mhp.md) |
-| Aragvi / Trans-Oil (ARAGVI) | Moldova | Consumer | B / B- | ARAGVI 12.15% 2026 | 89.00 | 12.15% | 780 | 2026-09-23 | 2.63x (2024A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=aragvi) · [page](../issuers/aragvi.md) |
+| Aragvi / Trans-Oil (ARAGVI) | Moldova | Consumer | B / B- | ARAGVI 12.15% 2026 | 89.00 | 12.15% | 780 | 2026-09-23 | 4.52x (2025A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=aragvi) · [page](../issuers/aragvi.md) |
 | Emlak Konut (EKGYO) | Turkey | Real Estate | BB- Local | EMLVAR 10.50% 2027 | 97.50 | 10.50% | 610 | 2026-09-19 | 0.49x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=emlak) · [page](../issuers/emlak.md) |
 | Sampa Otomotiv (SAMPA) | Turkey | Consumer | B / B2 Implied | SAMPA 10.40% 2027 | 97.50 | 10.40% | 600 | 2026-09-19 | 1.54x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=sampa) · [page](../issuers/sampa.md) |
 | ADM Elektrik (ADMELE) | Turkey | Utilities | B / B2 | ADMTR 9.25% 2028 | 98.00 | 9.25% | 485 | 2026-09-19 | 2.62x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=adm_elek) · [page](../issuers/adm_elek.md) |
@@ -115,5 +115,5 @@ Generated 09-Oct-26 by `pipeline/corporate_monitor.py` from `database/issuers/*.
 
 | Issuer | Country | Sector | Rating | Benchmark bond | Price | YTM | Spread | As of | Leverage / capital | Data | Pages |
 |---|---|---|---|---|---:|---:|---:|---|---|---|---|
-| Braskem S.A. (BRASKM) | Brazil | Materials | RD / D | BRASKM 4.500% 2030 | 48.60 | 19.80% | 1580 | 2026-09-23 | 8.23x (2025A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=braskem) · [page](../issuers/braskem.md) |
+| Braskem S.A. (BRASKM) | Brazil | Materials | RD / D | BRASKM 4.500% 2030 | 48.60 | 19.80% | 1580 | 2026-09-23 | 19.26x (2025A) | CC | [site](https://rkarim25.github.io/cembicredit/company.html?id=braskem) · [page](../issuers/braskem.md) |
 | Golar LNG Limited (GLNG) | Bermuda | Energy | B2 / B | GLNG $500M 5NC2 | 99.50 | 7.85% | 420 | 2026-09-22 | 6.40x (2024A) | Legacy | [site](https://rkarim25.github.io/cembicredit/company.html?id=golar) · [page](../issuers/golar.md) |

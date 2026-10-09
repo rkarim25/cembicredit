@@ -99,3 +99,4 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 10-Oct-47 Maturity of $1.0bn JOR 7.375% Eurobond (XS1577950311) (Ministry of Finance, Sep-26). (Jordan sovereign credit, run 2026-10-08_1404_jordan-sovereign-credit)
 - Day-of-week check: 21-Nov-26 is a Saturday and not a valid MPC date; the November meeting date is to be confirmed (computed, 08-Oct-26) (South Africa sovereign credit, run 2026-10-08_2106_south-africa-sovereign-credit)
 - Aug-27: general election (Government of Angola, May-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
+- Dec-26 Egypt EFF scheduled end. About USD 18.3bn of GCC deposits are reported barred from withdrawal until then (New Arab, 22-Sep-26) (Gulf support and anchors for EM sovereigns, run 2026-10-09_0838_gulf-support-and-anchors-for-em-sovereigns)

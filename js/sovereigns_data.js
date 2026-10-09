@@ -40320,6 +40320,41 @@ window.SOVEREIGNS = [
   }
  },
  {
+  "slug": "gulf-support-and-anchors-for-em-s",
+  "country": "Gulf support and anchors for EM sovereigns",
+  "region": "Thematic: Gulf (GCC) support for EM sovereigns (Pakistan, Egypt, Bahrain)",
+  "group": "Middle East and North Africa",
+  "ceemea": true,
+  "asof": "09-Oct-26",
+  "fx_regime": null,
+  "commodity": "Oil price (Brent) sets Gulf fiscal capacity to provide deposits and investments; no 2026 Brent level sourced",
+  "ratings": {},
+  "imf": {},
+  "politics": {
+   "next_election": null,
+   "note": "Saudi-led grouping (Qatar, Turkey, Pakistan, Egypt) with the UAE outside it; Saudi and UAE interests diverge in 2026 (Foreign Policy, 01-Jul-26; Commons Library CBP-10833, title only)",
+   "source": "Foreign Policy, 01-Jul-26",
+   "asof": "01-Jul-26"
+  },
+  "ind": {},
+  "src": {},
+  "derived": {},
+  "series": {},
+  "hist": {},
+  "hist_src": {},
+  "monthly": {},
+  "monthly_src": {},
+  "fsi": {},
+  "fsi_src": {},
+  "quarterly": {},
+  "quarterly_src": {},
+  "report": {
+   "open_items": null,
+   "updated": null,
+   "status": null
+  }
+ },
+ {
   "slug": "hungary",
   "country": "Hungary",
   "region": "Central Europe",

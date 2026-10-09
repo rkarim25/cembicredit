@@ -204,6 +204,25 @@ function switchDrawerTab(id, tabName) {
 // ----------------- RENDER INSTITUTIONAL TABLE & DRAWER -----------------
 // Data provenance of an issuer record: Cognitive Credit workbook, audited filings read by the pipeline, or the legacy desk build
 // (Notion dossiers processed before the pipeline existed, not re-verified). The badge keeps unverified numbers from passing as sourced.
+// Money formatting for a financial row: the row's own currency (USD, EUR, BRL, TRY ...) and n/a when the value is missing.
+// Never prints 0 for a missing number.
+function money(row, field, dec) {
+  const v = row ? row[field] : null;
+  if (v == null || v === '' || Number.isNaN(Number(v))) return 'n/a';
+  const c = (row && row.currency) || 'USD';
+  const sym = { USD: '$', EUR: '€', GBP: '£' }[c];
+  const num = dec != null ? Number(v).toFixed(dec) : Number(v).toLocaleString(undefined, { maximumFractionDigits: 1 });
+  return (sym ? sym + num : c + ' ' + num) + (dec == null ? 'M' : '');
+}
+function pct(row, field, dec) {
+  const v = row ? row[field] : null;
+  return (v == null || v === '' || Number.isNaN(Number(v))) ? 'n/a' : Number(v).toFixed(dec == null ? 1 : dec) + '%';
+}
+function ratio(row, field, dec, suffix) {
+  const v = row ? row[field] : null;
+  return (v == null || v === '' || Number.isNaN(Number(v))) ? 'n/a' : Number(v).toFixed(dec == null ? 2 : dec) + (suffix || 'x');
+}
+
 function provenanceBadge(item) {
   const m = item.metadata || {};
   const fin = item.financials_multi_year || [];
@@ -275,26 +294,26 @@ function renderTable() {
     
     if (currentView === 'corp') {
       html += `
-        <td class="num">$${(f24.revenue || 0).toLocaleString()}</td>
-        <td class="num">$${(f24.ebitda || 0).toLocaleString()}</td>
-        <td class="num">${(f24.ebitda_margin_pct || 0).toFixed(1)}%</td>
+        <td class="num">${money(f24, 'revenue')}</td>
+        <td class="num">${money(f24, 'ebitda')}</td>
+        <td class="num">${pct(f24, 'ebitda_margin_pct', 1)}</td>
         <td class="num"><strong>${f24.net_leverage != null ? f24.net_leverage.toFixed(2) + 'x' : 'n/a'}</strong></td>
         <td class="num">${f25.net_leverage != null ? f25.net_leverage.toFixed(2) + 'x' : 'n/a'}</td>
-        <td class="num">${(f24.interest_coverage || 0).toFixed(2)}x</td>
+        <td class="num">${ratio(f24, 'interest_coverage', 2)}</td>
         <td class="num">$${(rec.distressed_floor_px || 0).toFixed(2)}</td>
         <td class="num">$${(rec.base_case_px || 0).toFixed(2)}</td>
       `;
     } else {
       html += `
-        <td class="num">$${(f24.assets || 0).toLocaleString()}</td>
-        <td class="num">$${(f24.loans || 0).toLocaleString()}</td>
-        <td class="num">$${(f24.deposits || 0).toLocaleString()}</td>
-        <td class="num">$${(f24.nii || 0).toLocaleString()}</td>
-        <td class="num"><strong>${(f24.nim_pct || 0).toFixed(2)}%</strong></td>
-        <td class="num">${(f24.cir_pct || 0).toFixed(1)}%</td>
-        <td class="num">${(f24.roe_pct || 0).toFixed(1)}%</td>
-        <td class="num">${(f24.npl_pct || 0).toFixed(1)}%</td>
-        <td class="num">${(f24.car_pct || 0).toFixed(1)}%</td>
+        <td class="num">${money(f24, 'assets')}</td>
+        <td class="num">${money(f24, 'loans')}</td>
+        <td class="num">${money(f24, 'deposits')}</td>
+        <td class="num">${money(f24, 'nii')}</td>
+        <td class="num"><strong>${pct(f24, 'nim_pct', 2)}</strong></td>
+        <td class="num">${pct(f24, 'cir_pct', 1)}</td>
+        <td class="num">${pct(f24, 'roe_pct', 1)}</td>
+        <td class="num">${pct(f24, 'npl_pct', 1)}</td>
+        <td class="num">${pct(f24, 'car_pct', 1)}</td>
       `;
     }
     
@@ -530,31 +549,31 @@ function renderTable() {
                         </span>
                       </td>
                       ${currentView === 'corp' ? `
-                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'revenue', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'revenue', this, event)" title="[${getForecastAuditMetadata(item, 'revenue', f.period).badgeText}] ${getForecastAuditMetadata(item, 'revenue', f.period).formula}">$${(f.revenue || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'ebitda', f.period).badgeType}" style="color:var(--accent-gold); font-weight:600; cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'ebitda', this, event)" title="[${getForecastAuditMetadata(item, 'ebitda', f.period).badgeText}] ${getForecastAuditMetadata(item, 'ebitda', f.period).formula}">$${(f.ebitda || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'ebitda_margin_pct', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'ebitda_margin_pct', this, event)" title="[${getForecastAuditMetadata(item, 'ebitda_margin_pct', f.period).badgeText}] ${getForecastAuditMetadata(item, 'ebitda_margin_pct', f.period).formula}">${(f.ebitda_margin_pct || 0).toFixed(1)}%</td>
-                        <td class="num grid-cell" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'cfo', this, event)">$${(f.cfo || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'capex', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'capex', this, event)" title="[${getForecastAuditMetadata(item, 'capex', f.period).badgeText}] ${getForecastAuditMetadata(item, 'capex', f.period).formula}">$${(f.capex || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'revenue', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'revenue', this, event)" title="[${getForecastAuditMetadata(item, 'revenue', f.period).badgeText}] ${getForecastAuditMetadata(item, 'revenue', f.period).formula}">${money(f, 'revenue', 1)}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'ebitda', f.period).badgeType}" style="color:var(--accent-gold); font-weight:600; cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'ebitda', this, event)" title="[${getForecastAuditMetadata(item, 'ebitda', f.period).badgeText}] ${getForecastAuditMetadata(item, 'ebitda', f.period).formula}">${money(f, 'ebitda', 1)}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'ebitda_margin_pct', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'ebitda_margin_pct', this, event)" title="[${getForecastAuditMetadata(item, 'ebitda_margin_pct', f.period).badgeText}] ${getForecastAuditMetadata(item, 'ebitda_margin_pct', f.period).formula}">${pct(f, 'ebitda_margin_pct', 1)}</td>
+                        <td class="num grid-cell" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'cfo', this, event)">${money(f, 'cfo', 1)}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'capex', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'capex', this, event)" title="[${getForecastAuditMetadata(item, 'capex', f.period).badgeText}] ${getForecastAuditMetadata(item, 'capex', f.period).formula}">${money(f, 'capex', 1)}</td>
                         <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'fcf', f.period).badgeType}" style="color:${(f.fcf||0) >= 0 ? '#10b981' : '#ef4444'}; font-weight:600; cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'fcf', this, event)" title="[${getForecastAuditMetadata(item, 'fcf', f.period).badgeText}] ${getForecastAuditMetadata(item, 'fcf', f.period).formula}">
-                          ${(f.fcf||0) < 0 ? '-' : ''}$${Math.abs(f.fcf || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}
+                          ${money(f, 'fcf', 1)}
                         </td>
-                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'cash', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'cash', this, event)">$${(f.cash || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'gross_debt', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'gross_debt', this, event)">$${(f.gross_debt || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
-                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'net_debt', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'net_debt', this, event)">$${(f.net_debt || 0).toLocaleString(undefined, {minimumFractionDigits:1, maximumFractionDigits:1})}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'cash', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'cash', this, event)">${money(f, 'cash', 1)}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'gross_debt', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'gross_debt', this, event)">${money(f, 'gross_debt', 1)}</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'net_debt', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'net_debt', this, event)">${money(f, 'net_debt', 1)}</td>
                         <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'net_leverage', f.period).badgeType}" style="font-weight:700; color:${(f.net_leverage||0) > 4.5 ? '#dc2626' : 'var(--text-main)'}; cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'net_leverage', this, event)" title="[${getForecastAuditMetadata(item, 'net_leverage', f.period).badgeText}] ${getForecastAuditMetadata(item, 'net_leverage', f.period).formula}">
-                          ${(f.net_leverage || 0).toFixed(2)}x
+                          ${ratio(f, 'net_leverage', 2)}
                         </td>
-                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'interest_coverage', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'interest_coverage', this, event)">${(f.interest_coverage || 0).toFixed(2)}x</td>
+                        <td class="num grid-cell cell-has-${getForecastAuditMetadata(item, 'interest_coverage', f.period).badgeType}" style="cursor:pointer;" onclick="handleDrawerCellClick('${m.id}', '${f.period}', 'interest_coverage', this, event)">${ratio(f, 'interest_coverage', 2)}</td>
                       ` : `
-                        <td class="num">$${(f.assets || 0).toLocaleString()}</td>
-                        <td class="num">$${(f.loans || 0).toLocaleString()}</td>
-                        <td class="num">$${(f.deposits || 0).toLocaleString()}</td>
-                        <td class="num">$${(f.nii || 0).toLocaleString()}</td>
-                        <td class="num">${(f.nim_pct || 0).toFixed(2)}%</td>
-                        <td class="num">${(f.cir_pct || 0).toFixed(1)}%</td>
-                        <td class="num">${(f.roe_pct || 0).toFixed(1)}%</td>
-                        <td class="num">${(f.npl_pct || 0).toFixed(1)}%</td>
-                        <td class="num">${(f.car_pct || 0).toFixed(1)}%</td>
+                        <td class="num">${money(f, 'assets')}</td>
+                        <td class="num">${money(f, 'loans')}</td>
+                        <td class="num">${money(f, 'deposits')}</td>
+                        <td class="num">${money(f, 'nii')}</td>
+                        <td class="num">${pct(f, 'nim_pct', 2)}</td>
+                        <td class="num">${pct(f, 'cir_pct', 1)}</td>
+                        <td class="num">${pct(f, 'roe_pct', 1)}</td>
+                        <td class="num">${pct(f, 'npl_pct', 1)}</td>
+                        <td class="num">${pct(f, 'car_pct', 1)}</td>
                       `}
                     </tr>
                   `).join('')}
@@ -801,7 +820,7 @@ function renderTable() {
                     <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                       🏛️ Comprehensive Capital Structure & Debt Tranche Detail
                     </h4>
-                    <span style="font-size:11px; color:var(--text-dim);">Consolidated Gross Debt: <strong>$${(f24.gross_debt || 0).toLocaleString()}M</strong></span>
+                    <span style="font-size:11px; color:var(--text-dim);">Consolidated Gross Debt: <strong>${money(f24, 'gross_debt')}</strong></span>
                   </div>
                   <div style="overflow-x:auto;">
                     <table class="drawer-table" style="margin:0;">
@@ -3206,7 +3225,7 @@ function renderSheetCapitalStructure(item) {
         <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
           🏛️ Debt Capital Structure & Tranche Pricing
         </h4>
-        <span style="font-size:11px; color:var(--text-dim);">Consolidated Gross Debt: <strong>$${(f24.gross_debt || 0).toLocaleString()}M</strong></span>
+        <span style="font-size:11px; color:var(--text-dim);">Consolidated Gross Debt: <strong>${money(f24, 'gross_debt')}</strong></span>
       </div>
       <div style="overflow-x:auto;">
         <table class="drawer-table" style="margin:0; font-size:11.5px;">

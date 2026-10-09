@@ -22,6 +22,7 @@ _Status table regenerated 09-Oct-26 by the pipeline from knowledge pages and rep
 | Gabon | `knowledge/sovereigns/gabon.md` | `reports/gabon-sovereign-credit.md` | 08-Oct-26 | 6 | | Government debt | 70 % GDP | latest | Fitch Ratings Sovereign Rating Action on Gabon | |
 | Georgia | `knowledge/sovereigns/georgia.md` | `reports/georgia-sovereign-credit.md` | 08-Oct-26 | 7 |  |
 | Ghana | `knowledge/sovereigns/ghana.md` | `reports/ghana-sovereign-credit.md` | 08-Oct-26 | 10 | Ratings: Fitch B/Positive (22-May-26), S&P B-/Stable (18-Sep-26), Moody's Caa1/Positive (16-Apr-26) (Fitch, S&P, Moody's, 2026) |
+| Gulf support and anchors for EMs | `knowledge/sovereigns/gulf-support-and-anchors-for-em-s.md` | none yet |  |  |  |
 | Hungary | `knowledge/sovereigns/hungary.md` | none yet |  |  |  |
 | India | `knowledge/sovereigns/india.md` | none yet |  |  |  |
 | Indonesia | `knowledge/sovereigns/indonesia.md` | none yet |  |  |  |
