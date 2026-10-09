@@ -44,7 +44,7 @@ _Status table regenerated 09-Oct-26 by the pipeline from knowledge pages and rep
 | Peru | `knowledge/sovereigns/peru.md` | none yet |  |  |  |
 | Philippines | `knowledge/sovereigns/philippines.md` | none yet |  |  |  |
 | Poland | `knowledge/sovereigns/poland.md` | none yet |  |  |  |
-| Qatar | `knowledge/sovereigns/qatar.md` | none yet |  |  |  |
+| Qatar | `knowledge/sovereigns/qatar.md` | `reports/qatar-sovereign-credit.md` | 09-Oct-26 | 7 | Fitch affirmed Qatar at AA, removed the Rating Watch Negative and kept a negative outlook (Qatar Tribune; Enterprise, 06-May-26) |
 | Romania | `knowledge/sovereigns/romania.md` | none yet |  |  |  |
 | Rwanda | `knowledge/sovereigns/rwanda.md` | `reports/rwanda-sovereign-credit.md` | 08-Oct-26 | 9 | | Current account | -15 % GDP | 2026E | Gemini position citing Fitch (reported, near 15% deficit, un | |
 | Saudi Arabia | `knowledge/sovereigns/saudi-arabia.md` | `reports/saudi-arabia-sovereign-credit.md` | 09-Oct-26 | 10 |  |
