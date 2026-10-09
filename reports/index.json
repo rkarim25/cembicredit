@@ -144,6 +144,15 @@
     "path": "reports/local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank.md"
   },
   {
+    "topic": "Metinvest",
+    "slug": "metinvest",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 8,
+    "run": "2026-10-09_0939_metinvest",
+    "path": "reports/metinvest.md"
+  },
+  {
     "topic": "MTN Group",
     "slug": "mtn-group",
     "updated": "09-Oct-26",

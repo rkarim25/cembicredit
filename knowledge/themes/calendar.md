@@ -77,6 +77,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 15-May-27 Republic of Serbia €1.13bn Eurobond final maturity date (Public Debt Administration, May-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 30-Jun-27 target date for 375MW wind/storage licence conversion (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)
 - 19-Sep-27: Maturity of $150m 8.25% Eurobond (US066716AB78). (Ministry of Finance, 15-Jul-26) (Tunisia sovereign credit, run 2026-10-08_1811_tunisia-sovereign-credit)
+- 01-Oct-27: $332mn 2027 notes mature (Metinvest IR, 09-Oct-26) (Metinvest, run 2026-10-09_0939_metinvest)
 - 28-Nov-27: $1.50B 6.500% Eurobond maturity bullet (DMO, Sep-26) (Nigeria sovereign credit, run 2026-10-08_1158_nigeria-sovereign-credit)
 - 01-Jan-28 Enactment of 5% Personal Income Tax under Royal Decree No. 56/2025 (Official Gazette, Jul-25). (Oman sovereign credit, run 2026-10-08_1337_oman-sovereign-credit)
 - 15-Jan-28 Maturity of $1.0bn JOR 7.750% Eurobond (XS2490731721) (Ministry of Finance, Sep-26). (Jordan sovereign credit, run 2026-10-08_1404_jordan-sovereign-credit)
