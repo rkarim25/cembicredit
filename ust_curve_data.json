@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-22T22:34:44.716701+00:00",
-  "latest_date": "2026-09-22",
+  "generated_at": "2026-10-09T07:07:00.625309+00:00",
+  "latest_date": "2026-10-08",
   "yields": {
     "2y": {
       "symbol": "2YY=F",
       "name": "US 2-Year Treasury Note",
       "tenor_years": 2,
-      "yield": 4.422,
-      "prev_yield": 4.422,
+      "yield": 4.647,
+      "prev_yield": 4.647,
       "change_bps": 0.0,
       "duration": 1.92,
       "convexity": 0.05,
@@ -18,9 +18,9 @@
       "symbol": "^FVX",
       "name": "US 5-Year Treasury Note",
       "tenor_years": 5,
-      "yield": 4.842,
-      "prev_yield": 4.834,
-      "change_bps": 0.8,
+      "yield": 4.991,
+      "prev_yield": 5.021,
+      "change_bps": -3.0,
       "duration": 4.65,
       "convexity": 0.25,
       "dv01": 46.5,
@@ -30,9 +30,9 @@
       "symbol": "^TNX",
       "name": "US 10-Year Treasury Note",
       "tenor_years": 10,
-      "yield": 4.968,
-      "prev_yield": 4.963,
-      "change_bps": 0.5,
+      "yield": 5.231,
+      "prev_yield": 5.277,
+      "change_bps": -4.6,
       "duration": 8.2,
       "convexity": 0.82,
       "dv01": 82.0,
@@ -42,9 +42,9 @@
       "symbol": "^TYX",
       "name": "US 30-Year Treasury Bond",
       "tenor_years": 30,
-      "yield": 5.303,
-      "prev_yield": 5.296,
-      "change_bps": 0.7,
+      "yield": 5.606,
+      "prev_yield": 5.661,
+      "change_bps": -5.5,
       "duration": 16.5,
       "convexity": 3.65,
       "dv01": 165.0,
@@ -55,96 +55,96 @@
     "2s10s": {
       "name": "2Y / 10Y Benchmark Spread",
       "short_name": "2s10s",
-      "bps": 54.6,
-      "prev_bps": 54.1,
-      "change_bps": 0.5,
+      "bps": 58.4,
+      "prev_bps": 63.0,
+      "change_bps": -4.6,
       "status": "Normal / Steepening",
       "desc": "Primary macro recession & monetary policy cycle bellwether",
-      "sma50": 55.02,
-      "sma200": 62.803,
-      "rsi14": 43.3,
+      "sma50": 56.232,
+      "sma200": 62.288,
+      "rsi14": 50.1,
       "min_52w": 28.8,
       "max_52w": 87.5
     },
     "2s30s": {
       "name": "2Y / 30Y Total Curve Slope",
       "short_name": "2s30s",
-      "bps": 88.1,
-      "prev_bps": 87.4,
-      "change_bps": 0.7,
+      "bps": 95.9,
+      "prev_bps": 101.4,
+      "change_bps": -5.5,
       "status": "Normal Steep",
       "desc": "Full curve slope measuring cumulative term premium and fiscal debt supply",
-      "sma50": 104.174,
-      "sma200": 119.373,
-      "rsi14": 27.8,
-      "min_52w": 77.2,
+      "sma50": 101.498,
+      "sma200": 116.964,
+      "rsi14": 52.4,
+      "min_52w": 75.3,
       "max_52w": 149.8
     },
     "5s10s": {
       "name": "5Y / 10Y Belly Slope",
       "short_name": "5s10s",
-      "bps": 12.6,
-      "prev_bps": 12.9,
-      "change_bps": -0.3,
+      "bps": 24.0,
+      "prev_bps": 25.6,
+      "change_bps": -1.6,
       "status": "Normal",
       "desc": "Intermediate curve steepness and primary leg for 2s5s10s butterfly positioning",
-      "sma50": 25.642,
-      "sma200": 34.344,
-      "rsi14": 9.9,
-      "min_52w": 12.6,
+      "sma50": 24.234,
+      "sma200": 32.948,
+      "rsi14": 72.5,
+      "min_52w": 11.7,
       "max_52w": 46.0
     },
     "5s30s": {
       "name": "5Y / 30Y Belly-to-Long",
       "short_name": "5s30s",
-      "bps": 46.1,
-      "prev_bps": 46.2,
-      "change_bps": -0.1,
+      "bps": 61.5,
+      "prev_bps": 64.0,
+      "change_bps": -2.5,
       "status": "Upward Sloping",
       "desc": "Captures term premium and supply indigestion between belly and ultra-long"
     },
     "10s30s": {
       "name": "10Y / 30Y Ultra-Long Spread",
       "short_name": "10s30s",
-      "bps": 33.5,
-      "prev_bps": 33.3,
-      "change_bps": 0.2,
+      "bps": 37.5,
+      "prev_bps": 38.4,
+      "change_bps": -0.9,
       "status": "Positive Slope",
       "desc": "Measures pure long-end debt issuance discount and liability hedging demand"
     }
   },
   "snapshots": {
     "current": {
-      "date": "2026-09-22",
-      "2y": 4.422,
-      "5y": 4.842,
-      "10y": 4.968,
-      "30y": 5.303,
-      "label": "Current (2026-09-22)"
+      "date": "2026-10-08",
+      "2y": 4.647,
+      "5y": 4.991,
+      "10y": 5.231,
+      "30y": 5.606,
+      "label": "Current (2026-10-08)"
     },
     "1m_ago": {
-      "date": "2026-08-21",
-      "2y": 4.17,
-      "5y": 4.424,
-      "10y": 4.738,
-      "30y": 5.276,
-      "label": "1 Month Ago (2026-08-21)"
+      "date": "2026-09-09",
+      "2y": 4.182,
+      "5y": 4.614,
+      "10y": 4.837,
+      "30y": 5.286,
+      "label": "1 Month Ago (2026-09-09)"
     },
     "6m_ago": {
-      "date": "2026-03-24",
-      "2y": 3.796,
-      "5y": 4.03,
-      "10y": 4.392,
-      "30y": 4.941,
-      "label": "6 Months Ago (2026-03-24)"
+      "date": "2026-04-10",
+      "2y": 3.806,
+      "5y": 3.939,
+      "10y": 4.317,
+      "30y": 4.914,
+      "label": "6 Months Ago (2026-04-10)"
     },
     "1y_ago": {
-      "date": "2025-09-22",
-      "2y": 3.571,
-      "5y": 3.696,
-      "10y": 4.143,
-      "30y": 4.761,
-      "label": "1 Year Ago (2025-09-22)"
+      "date": "2025-10-08",
+      "2y": 3.59,
+      "5y": 3.72,
+      "10y": 4.129,
+      "30y": 4.724,
+      "label": "1 Year Ago (2025-10-08)"
     },
     "peak_inversion": {
       "date": "2023-07-03",
@@ -156,7 +156,7 @@
     }
   },
   "macro_assessment": {
-    "as_of": "2026-09-22",
+    "as_of": "2026-10-08",
     "regime_id": "bear_steepening",
     "regime_name": "Bear Steepening / Fiscal Dominance & Sticky Inflation",
     "regime_summary": "Long-end yields (10Y testing ~5.0%, 30Y at ~5.33%) are under pressure from heavy Treasury coupon supply ($2T deficit) and persistent inflation (CPI at 3.4%). The 10Y term premium has climbed to ~1.02%, while 2Y (~4.38%) is relatively well-anchored by the restrictive Fed rate range.",
@@ -194,23 +194,23 @@
     },
     "technicals": {
       "10y": {
-        "current": 4.968,
-        "sma50": 4.733,
-        "sma200": 4.408,
-        "rsi14": 68.9,
+        "current": 5.231,
+        "sma50": 4.883,
+        "sma200": 4.473,
+        "rsi14": 69.7,
         "trend": "Bullish Yield / Bearish Price",
         "rsi_status": "Neutral",
         "resistance": 5.05,
-        "support_50d": 4.733,
-        "support_200d": 4.408
+        "support_50d": 4.883,
+        "support_200d": 4.473
       },
       "2s10s": {
-        "current": 54.6,
-        "sma50": 55.02,
-        "sma200": 62.803,
-        "rsi14": 43.3,
-        "trend": "Flattening Retracement",
-        "support_50d": 55.02,
+        "current": 58.4,
+        "sma50": 56.232,
+        "sma200": 62.288,
+        "rsi14": 50.1,
+        "trend": "Steepening Trend Intact",
+        "support_50d": 56.232,
         "resistance_high": 75.0
       },
       "triggers": [
@@ -220,7 +220,7 @@
           "action": "Close Steepeners. Overweight 10Y and 30Y Duration.",
           "condition": "10Y Yield breaks below 4.70% (50d/200d SMA support) AND 2s10s breaks below +25 bps AND Unemployment > 4.6%.",
           "status": "Inactive (Bear Steepener Dominant)",
-          "active_metric": "10Y is 0.27% above trigger; 2s10s is 29.6 bps above trigger.",
+          "active_metric": "10Y is 0.53% above trigger; 2s10s is 33.4 bps above trigger.",
           "threshold_met": false
         },
         {
@@ -229,8 +229,8 @@
           "action": "Add to 2s10s / 2s30s Steepeners. Short 30Y Duration.",
           "condition": "10Y Yield daily close above 5.05% resistance with 30Y > 5.40%.",
           "status": "Testing Resistance (Imminent Watch)",
-          "active_metric": "10Y is 0.08% away from 5.05% breakout ceiling.",
-          "threshold_met": false
+          "active_metric": "10Y is -0.18% away from 5.05% breakout ceiling.",
+          "threshold_met": true
         },
         {
           "id": "bear_flattener_cash",
@@ -238,7 +238,7 @@
           "action": "Move sleeve to T-Bills / Cash. Avoid all duration.",
           "condition": "2Y Yield breaks above 4.85% (hawkish Fed hike re-pricing) with CPI > 3.7%.",
           "status": "Inactive (2Y well-anchored by terminal rate bounds)",
-          "active_metric": "2Y is currently 4.422% (47 bps below trigger).",
+          "active_metric": "2Y is currently 4.647% (47 bps below trigger).",
           "threshold_met": false
         }
       ]
@@ -281,7 +281,7 @@
       },
       {
         "name": "10-Year RSI(14)",
-        "value": "68.9",
+        "value": "69.7",
         "trend": "Neutral",
         "target": "30 - 70 Range",
         "impact": "Testing 5.00%-5.05% key resistance ceiling; vulnerable to technical stall."
@@ -413,13 +413,13 @@
     ]
   },
   "trade_tracker": {
-    "last_updated": "2026-09-22T22:34:44.667789+00:00",
+    "last_updated": "2026-10-09T07:07:00.597107+00:00",
     "portfolio_summary": {
       "total_trades": 15,
       "open_trades": 14,
       "closed_trades": 1,
-      "total_pnl_bps": 323.3,
-      "total_pnl_usd": 181621.76,
+      "total_pnl_bps": 365.0,
+      "total_pnl_usd": 288466.76,
       "win_rate_pct": 86.7
     },
     "trades": [
@@ -436,12 +436,12 @@
         "dv01_usd": 10000.0,
         "entry_level": 57.9,
         "entry_unit": "bps",
-        "current_level": 54.6,
+        "current_level": 58.4,
         "target_level": 95.0,
         "stop_loss_level": 25.0,
         "status": "OPEN",
-        "pnl_bps": -3.3,
-        "pnl_usd": -33000.0,
+        "pnl_bps": 0.5,
+        "pnl_usd": 5000.0,
         "pnl_pct": 0.35,
         "rationale": "Overweight front-to-belly; 10Y term premium expansion and relentless fiscal supply shocks drive curve steepening out of inversion.",
         "invalidation_trigger": "10Y < 4.70% & 2s10s < +25 bps & Unemployment > 4.6%.",
@@ -460,12 +460,12 @@
         "dv01_usd": 465.0,
         "entry_level": 5.296,
         "entry_unit": "% yield",
-        "current_level": 5.303,
+        "current_level": 5.606,
         "target_level": 5.55,
         "stop_loss_level": 5.18,
         "status": "OPEN",
-        "pnl_bps": 0.7,
-        "pnl_usd": 1155.0,
+        "pnl_bps": 31.0,
+        "pnl_usd": 51150.0,
         "pnl_pct": -0.05,
         "rationale": "$2.0T annual deficit supply flood + technical breakout above 5.30%. Yield testing into 5.35%-5.60% fundamental band.",
         "invalidation_trigger": "5Y closes above 5.10% or headline inflation accelerates > 3.8%.",
@@ -738,12 +738,12 @@
         "dv01_usd": 1500.0,
         "entry_level": 4.38,
         "entry_unit": "% yield",
-        "current_level": 4.422,
+        "current_level": 4.647,
         "target_level": 4.75,
         "stop_loss_level": 4.25,
         "status": "OPEN",
-        "pnl_bps": 4.2,
-        "pnl_usd": 6300.0,
+        "pnl_bps": 26.7,
+        "pnl_usd": 40050.0,
         "duration_contribution": "-0.15 Years",
         "confluence": "Fundamental Mispricing (Strategic Repricing)",
         "rationale": "FOMC rate hike to 3.75%-4.00% invalidates aggressive rate cut bets. Terminal rate required to quell 3.4% CPI is 4.75%-5.00%."
@@ -761,12 +761,12 @@
         "dv01_usd": 1000.0,
         "entry_level": 4.856,
         "entry_unit": "% yield",
-        "current_level": 4.842,
+        "current_level": 4.991,
         "target_level": 4.4,
         "stop_loss_level": 4.88,
         "status": "OPEN",
-        "pnl_bps": 1.4,
-        "pnl_usd": 1400.0,
+        "pnl_bps": -13.5,
+        "pnl_usd": -13500.0,
         "duration_contribution": "+0.10 Years",
         "confluence": "Tactical Technical Support & Belly Convexity Cushion",
         "rationale": "Captures 90% of long-end yield with low volatility; rolls down steep 2s5s front slope; hedges growth slowdown."
@@ -783,7 +783,7 @@
     "tenors": {
       "2y": {
         "name": "2-Year Note",
-        "current": 4.422,
+        "current": 4.647,
         "fund_band": {
           "lower": 4.65,
           "mid": 4.75,
@@ -792,7 +792,7 @@
         "fund_driver": "Policy path required to quell 3.4% CPI (terminal 4.75%-5.00%) vs market pricing (3.75%-4.00%)",
         "tech_band": {
           "lower": 4.25,
-          "mid": 4.183,
+          "mid": 4.32,
           "upper": 4.55
         },
         "rsi14": 56.4,
@@ -806,7 +806,7 @@
       },
       "5y": {
         "name": "5-Year Note",
-        "current": 4.842,
+        "current": 4.991,
         "fund_band": {
           "lower": 4.55,
           "mid": 4.65,
@@ -829,7 +829,7 @@
       },
       "10y": {
         "name": "10-Year Note",
-        "current": 4.968,
+        "current": 5.231,
         "fund_band": {
           "lower": 4.85,
           "mid": 5.0,
@@ -841,7 +841,7 @@
           "mid": 4.9,
           "upper": 5.05
         },
-        "rsi14": 68.9,
+        "rsi14": 69.7,
         "rsi_state": "Testing Overbought Yield",
         "signal": "NEUTRAL",
         "signal_badge": "\u26aa NEUTRAL (Fair Value)",
@@ -852,7 +852,7 @@
       },
       "30y": {
         "name": "30-Year Bond",
-        "current": 5.303,
+        "current": 5.606,
         "fund_band": {
           "lower": 5.35,
           "mid": 5.45,
@@ -877,7 +877,7 @@
     "spreads": {
       "2s10s": {
         "name": "2s10s Benchmark Spread",
-        "current_bps": 54.6,
+        "current_bps": 58.4,
         "fund_band": {
           "lower_bps": 45.0,
           "mid_bps": 60.0,
@@ -888,7 +888,7 @@
           "lower_bps": 48.0,
           "upper_bps": 72.0
         },
-        "rsi14": 43.3,
+        "rsi14": 50.1,
         "signal": "NEUTRAL_BALANCED",
         "signal_badge": "\u26aa FAIR VALUE NEUTRAL",
         "target_bps": 65.0,
@@ -897,7 +897,7 @@
       },
       "10s30s": {
         "name": "10s30s Ultra-Long Spread",
-        "current_bps": 33.5,
+        "current_bps": 37.5,
         "fund_band": {
           "lower_bps": 25.0,
           "mid_bps": 35.0,
@@ -917,7 +917,7 @@
       },
       "2s30s": {
         "name": "2s30s Total Curve Slope",
-        "current_bps": 88.1,
+        "current_bps": 95.9,
         "fund_band": {
           "lower_bps": 85.0,
           "mid_bps": 105.0,
@@ -928,7 +928,7 @@
           "lower_bps": 82.0,
           "upper_bps": 115.0
         },
-        "rsi14": 27.8,
+        "rsi14": 52.4,
         "signal": "STEEPENER_STRATEGIC",
         "signal_badge": "\ud83d\udd34 STEEPENER (Strategic Deficit Play)",
         "target_bps": 125.0,
@@ -943,12 +943,12 @@
         "direction": "Short Long-End Duration",
         "entry_date": "2026-09-14",
         "entry_yield": 5.296,
-        "current_yield": 5.303,
+        "current_yield": 5.606,
         "target_yield": 5.55,
         "stop_loss_yield": 5.18,
         "duration_contribution": -0.2,
         "confluence": "Dual Alignment (Technical + Fundamental) \u2014 Bigger Size",
-        "pnl_bps": 0.7,
+        "pnl_bps": 31.0,
         "status": "ACTIVE",
         "rationale": "Supply dominance + technical breakout above 5.30%. Yield pushing into 5.35-5.60% fundamental band."
       },
@@ -958,12 +958,12 @@
         "direction": "Short Front-End Duration",
         "entry_date": "2026-09-16",
         "entry_yield": 4.38,
-        "current_yield": 4.422,
+        "current_yield": 4.647,
         "target_yield": 4.75,
         "stop_loss_yield": 4.25,
         "duration_contribution": -0.15,
         "confluence": "Fundamental Mispricing (Strategic)",
-        "pnl_bps": 4.2,
+        "pnl_bps": 26.7,
         "status": "ACTIVE",
         "rationale": "FOMC rate hike to 3.75%-4.00% destroys rate cut bets. Terminal rate required is 4.75%-5.00%."
       },
@@ -973,12 +973,12 @@
         "direction": "Curve Steepener",
         "entry_date": "2026-09-10",
         "entry_spread_bps": 89.2,
-        "current_spread_bps": 88.1,
+        "current_spread_bps": 95.9,
         "target_spread_bps": 125.0,
         "stop_loss_spread_bps": 72.0,
         "duration_contribution": "Net -0.05y steepener bias",
         "confluence": "Strategic Fiscal Supply & Term Premium",
-        "pnl_bps": -1.1,
+        "pnl_bps": 6.7,
         "status": "ACTIVE",
         "rationale": "Long-end term premium expansion drives 2s30s toward +125 bps fundamental target."
       },
@@ -987,8 +987,8 @@
         "instrument": "Tactical Long 5Y Note (FV Futures)",
         "direction": "Tactical Belly Long",
         "entry_date": "2026-09-18",
-        "entry_yield": 4.842,
-        "current_yield": 4.842,
+        "entry_yield": 4.991,
+        "current_yield": 4.991,
         "target_yield": 4.4,
         "stop_loss_yield": 4.88,
         "duration_contribution": 0.1,
@@ -1000,150 +1000,6 @@
     ]
   },
   "history": [
-    {
-      "date": "2025-09-22",
-      "2y": 3.571,
-      "5y": 3.696,
-      "10y": 4.143,
-      "30y": 4.761,
-      "spread_2s10s": 57.2,
-      "spread_5s30s": 106.5,
-      "spread_2s30s": 119.0,
-      "spread_10s30s": 61.8,
-      "spread_5s10s": 44.7
-    },
-    {
-      "date": "2025-09-23",
-      "2y": 3.571,
-      "5y": 3.677,
-      "10y": 4.12,
-      "30y": 4.738,
-      "spread_2s10s": 54.9,
-      "spread_5s30s": 106.1,
-      "spread_2s30s": 116.7,
-      "spread_10s30s": 61.8,
-      "spread_5s10s": 44.3
-    },
-    {
-      "date": "2025-09-24",
-      "2y": 3.571,
-      "5y": 3.71,
-      "10y": 4.147,
-      "30y": 4.758,
-      "spread_2s10s": 57.6,
-      "spread_5s30s": 104.8,
-      "spread_2s30s": 118.7,
-      "spread_10s30s": 61.1,
-      "spread_5s10s": 43.7
-    },
-    {
-      "date": "2025-09-25",
-      "2y": 3.616,
-      "5y": 3.767,
-      "10y": 4.172,
-      "30y": 4.752,
-      "spread_2s10s": 55.6,
-      "spread_5s30s": 98.5,
-      "spread_2s30s": 113.6,
-      "spread_10s30s": 58.0,
-      "spread_5s10s": 40.5
-    },
-    {
-      "date": "2025-09-26",
-      "2y": 3.616,
-      "5y": 3.77,
-      "10y": 4.187,
-      "30y": 4.766,
-      "spread_2s10s": 57.1,
-      "spread_5s30s": 99.6,
-      "spread_2s30s": 115.0,
-      "spread_10s30s": 57.9,
-      "spread_5s10s": 41.7
-    },
-    {
-      "date": "2025-09-29",
-      "2y": 3.632,
-      "5y": 3.741,
-      "10y": 4.141,
-      "30y": 4.704,
-      "spread_2s10s": 50.9,
-      "spread_5s30s": 96.3,
-      "spread_2s30s": 107.2,
-      "spread_10s30s": 56.3,
-      "spread_5s10s": 40.0
-    },
-    {
-      "date": "2025-09-30",
-      "2y": 3.599,
-      "5y": 3.732,
-      "10y": 4.148,
-      "30y": 4.732,
-      "spread_2s10s": 54.9,
-      "spread_5s30s": 100.0,
-      "spread_2s30s": 113.3,
-      "spread_10s30s": 58.4,
-      "spread_5s10s": 41.6
-    },
-    {
-      "date": "2025-10-01",
-      "2y": 3.59,
-      "5y": 3.68,
-      "10y": 4.106,
-      "30y": 4.715,
-      "spread_2s10s": 51.6,
-      "spread_5s30s": 103.5,
-      "spread_2s30s": 112.5,
-      "spread_10s30s": 60.9,
-      "spread_5s10s": 42.6
-    },
-    {
-      "date": "2025-10-02",
-      "2y": 3.59,
-      "5y": 3.673,
-      "10y": 4.088,
-      "30y": 4.695,
-      "spread_2s10s": 49.8,
-      "spread_5s30s": 102.2,
-      "spread_2s30s": 110.5,
-      "spread_10s30s": 60.7,
-      "spread_5s10s": 41.5
-    },
-    {
-      "date": "2025-10-03",
-      "2y": 3.59,
-      "5y": 3.708,
-      "10y": 4.119,
-      "30y": 4.714,
-      "spread_2s10s": 52.9,
-      "spread_5s30s": 100.6,
-      "spread_2s30s": 112.4,
-      "spread_10s30s": 59.5,
-      "spread_5s10s": 41.1
-    },
-    {
-      "date": "2025-10-06",
-      "2y": 3.59,
-      "5y": 3.745,
-      "10y": 4.162,
-      "30y": 4.758,
-      "spread_2s10s": 57.2,
-      "spread_5s30s": 101.3,
-      "spread_2s30s": 116.8,
-      "spread_10s30s": 59.6,
-      "spread_5s10s": 41.7
-    },
-    {
-      "date": "2025-10-07",
-      "2y": 3.59,
-      "5y": 3.706,
-      "10y": 4.127,
-      "30y": 4.726,
-      "spread_2s10s": 53.7,
-      "spread_5s30s": 102.0,
-      "spread_2s30s": 113.6,
-      "spread_10s30s": 59.9,
-      "spread_5s10s": 42.1
-    },
     {
       "date": "2025-10-08",
       "2y": 3.59,
@@ -4023,6 +3879,150 @@
       "spread_2s30s": 88.1,
       "spread_10s30s": 33.5,
       "spread_5s10s": 12.6
+    },
+    {
+      "date": "2026-09-23",
+      "2y": 4.448,
+      "5y": 4.997,
+      "10y": 5.114,
+      "30y": 5.401,
+      "spread_2s10s": 66.6,
+      "spread_5s30s": 40.4,
+      "spread_2s30s": 95.3,
+      "spread_10s30s": 28.7,
+      "spread_5s10s": 11.7
+    },
+    {
+      "date": "2026-09-24",
+      "2y": 4.472,
+      "5y": 5.025,
+      "10y": 5.162,
+      "30y": 5.461,
+      "spread_2s10s": 69.0,
+      "spread_5s30s": 43.6,
+      "spread_2s30s": 98.9,
+      "spread_10s30s": 29.9,
+      "spread_5s10s": 13.7
+    },
+    {
+      "date": "2026-09-25",
+      "2y": 4.5,
+      "5y": 5.007,
+      "10y": 5.184,
+      "30y": 5.504,
+      "spread_2s10s": 68.4,
+      "spread_5s30s": 49.7,
+      "spread_2s30s": 100.4,
+      "spread_10s30s": 32.0,
+      "spread_5s10s": 17.7
+    },
+    {
+      "date": "2026-09-28",
+      "2y": 4.5,
+      "5y": 5.068,
+      "10y": 5.24,
+      "30y": 5.561,
+      "spread_2s10s": 74.0,
+      "spread_5s30s": 49.3,
+      "spread_2s30s": 106.1,
+      "spread_10s30s": 32.1,
+      "spread_5s10s": 17.2
+    },
+    {
+      "date": "2026-09-29",
+      "2y": 4.548,
+      "5y": 5.063,
+      "10y": 5.255,
+      "30y": 5.594,
+      "spread_2s10s": 70.7,
+      "spread_5s30s": 53.1,
+      "spread_2s30s": 104.6,
+      "spread_10s30s": 33.9,
+      "spread_5s10s": 19.2
+    },
+    {
+      "date": "2026-09-30",
+      "2y": 4.885,
+      "5y": 5.089,
+      "10y": 5.293,
+      "30y": 5.638,
+      "spread_2s10s": 40.8,
+      "spread_5s30s": 54.9,
+      "spread_2s30s": 75.3,
+      "spread_10s30s": 34.5,
+      "spread_5s10s": 20.4
+    },
+    {
+      "date": "2026-10-01",
+      "2y": 4.61,
+      "5y": 5.005,
+      "10y": 5.237,
+      "30y": 5.603,
+      "spread_2s10s": 62.7,
+      "spread_5s30s": 59.8,
+      "spread_2s30s": 99.3,
+      "spread_10s30s": 36.6,
+      "spread_5s10s": 23.2
+    },
+    {
+      "date": "2026-10-02",
+      "2y": 4.635,
+      "5y": 5.055,
+      "10y": 5.277,
+      "30y": 5.63,
+      "spread_2s10s": 64.2,
+      "spread_5s30s": 57.5,
+      "spread_2s30s": 99.5,
+      "spread_10s30s": 35.3,
+      "spread_5s10s": 22.2
+    },
+    {
+      "date": "2026-10-05",
+      "2y": 4.638,
+      "5y": 5.066,
+      "10y": 5.311,
+      "30y": 5.665,
+      "spread_2s10s": 67.3,
+      "spread_5s30s": 59.9,
+      "spread_2s30s": 102.7,
+      "spread_10s30s": 35.4,
+      "spread_5s10s": 24.5
+    },
+    {
+      "date": "2026-10-06",
+      "2y": 4.647,
+      "5y": 5.028,
+      "10y": 5.269,
+      "30y": 5.641,
+      "spread_2s10s": 62.2,
+      "spread_5s30s": 61.3,
+      "spread_2s30s": 99.4,
+      "spread_10s30s": 37.2,
+      "spread_5s10s": 24.1
+    },
+    {
+      "date": "2026-10-07",
+      "2y": 4.647,
+      "5y": 5.021,
+      "10y": 5.277,
+      "30y": 5.661,
+      "spread_2s10s": 63.0,
+      "spread_5s30s": 64.0,
+      "spread_2s30s": 101.4,
+      "spread_10s30s": 38.4,
+      "spread_5s10s": 25.6
+    },
+    {
+      "date": "2026-10-08",
+      "2y": 4.647,
+      "5y": 4.991,
+      "10y": 5.231,
+      "30y": 5.606,
+      "spread_2s10s": 58.4,
+      "spread_5s30s": 61.5,
+      "spread_2s30s": 95.9,
+      "spread_10s30s": 37.5,
+      "spread_5s10s": 24.0
     }
   ]
 }

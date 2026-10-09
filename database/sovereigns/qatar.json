@@ -16,7 +16,7 @@
     },
     "gov_debt_pct_gdp": {
       "value": 43.3,
-      "definition": "IMF WEO general government debt",
+      "definition": "IMF WEO government debt (coverage not stated)",
       "period": "2026E",
       "source": "IMF WEO (repo data)",
       "asof": "09-Oct-26"
@@ -35,7 +35,7 @@
     },
     "gross_reserves_usd_bn": {
       "value": 61.1,
-      "definition": "gross incl. gold (FX ex gold 44.6, gold 16.5)",
+      "definition": "gross incl. gold (ex gold USD 44.6bn; gold USD 16.5bn); excludes QIA assets",
       "period": "Aug-26",
       "source": "IMF International Liquidity",
       "asof": "09-Oct-26"
@@ -1692,7 +1692,7 @@
     "primary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Primary income, net, USD bn",
     "secondary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Secondary income (incl. remittances), net, USD bn"
   },
-  "region": "GCC / Middle East",
+  "region": "GCC",
   "history": [
     {
       "asof": "09-Oct-26",
@@ -1777,18 +1777,186 @@
         "ctot_12m_pct": 14.7,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-09_0728_qatar-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": -8.6,
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": 11,
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 43.3,
+          "definition": "General government debt per IMF WEO",
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -3.4,
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 217.4,
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 61.1,
+          "definition": "gross incl. gold (FX ex gold USD 44.6bn, gold USD 16.5bn); excludes QIA assets",
+          "period": "Aug-26",
+          "source": "IMF International Liquidity",
+          "asof": "09-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 7.45,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "09-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 1.407,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "09-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 0.73,
+          "period": "Aug-25",
+          "source": "IMF CPI database",
+          "asof": "09-Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 4.35,
+          "period": "Aug-26",
+          "source": "IMF MFS",
+          "asof": "09-Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": 28.52,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "09-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 3.62,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": 10.4,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": 14.7,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-09_0728_qatar-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": -8.6,
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": 11,
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 43.3,
+          "definition": "IMF WEO government debt (coverage not stated)",
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -3.4,
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 217.4,
+          "period": "2026E",
+          "source": "IMF WEO (repo data)",
+          "asof": "09-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 61.1,
+          "definition": "gross incl. gold (ex gold USD 44.6bn; gold USD 16.5bn); excludes QIA assets",
+          "period": "Aug-26",
+          "source": "IMF International Liquidity",
+          "asof": "09-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 7.45,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "09-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 1.407,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "09-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 0.73,
+          "period": "Aug-25",
+          "source": "IMF CPI database",
+          "asof": "09-Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 4.35,
+          "period": "Aug-26",
+          "source": "IMF MFS",
+          "asof": "09-Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": 28.52,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "09-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 3.62,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": 10.4,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": 14.7,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "fiscal_year": "Calendar year",
   "fx_regime": {
-    "value": "peg to USD (3.64 per USD)",
-    "source": "BIS",
+    "value": "peg to USD",
+    "source": "BIS (3.64 per USD, Apr-Sep-26)",
     "asof": "09-Oct-26"
   },
   "commodity_exposure": {
-    "value": "LNG and hydrocarbon exports; LNG export volumes and prices drive the fiscal and external balances",
-    "source": "Adjudicated document (IMF BOP, IMF CTOT, Fitch press reports)",
-    "asof": "09-Oct-26"
+    "value": "LNG exports; LNG/gas prices and export volumes matter, with the 2026 output loss linked to the regional war (cause unverified)",
+    "source": "Qatar Tribune; Enterprise (Fitch rating action), IMF CTOT (derived)",
+    "asof": "06-May-26"
   },
   "run": "2026-10-09_0728_qatar-sovereign-credit"
 }

@@ -877,13 +877,13 @@
     }
   ],
   "trade_tracker": {
-    "last_updated": "2026-09-22T22:34:44.667789+00:00",
+    "last_updated": "2026-10-09T07:07:00.597107+00:00",
     "portfolio_summary": {
       "total_trades": 15,
       "open_trades": 14,
       "closed_trades": 1,
-      "total_pnl_bps": 323.3,
-      "total_pnl_usd": 181621.76,
+      "total_pnl_bps": 365.0,
+      "total_pnl_usd": 288466.76,
       "win_rate_pct": 86.7
     },
     "trades": [
@@ -900,12 +900,12 @@
         "dv01_usd": 10000.0,
         "entry_level": 57.9,
         "entry_unit": "bps",
-        "current_level": 54.6,
+        "current_level": 58.4,
         "target_level": 95.0,
         "stop_loss_level": 25.0,
         "status": "OPEN",
-        "pnl_bps": -3.3,
-        "pnl_usd": -33000.0,
+        "pnl_bps": 0.5,
+        "pnl_usd": 5000.0,
         "pnl_pct": 0.35,
         "rationale": "Overweight front-to-belly; 10Y term premium expansion and relentless fiscal supply shocks drive curve steepening out of inversion.",
         "invalidation_trigger": "10Y < 4.70% & 2s10s < +25 bps & Unemployment > 4.6%.",
@@ -924,12 +924,12 @@
         "dv01_usd": 465.0,
         "entry_level": 5.296,
         "entry_unit": "% yield",
-        "current_level": 5.303,
+        "current_level": 5.606,
         "target_level": 5.55,
         "stop_loss_level": 5.18,
         "status": "OPEN",
-        "pnl_bps": 0.7,
-        "pnl_usd": 1155.0,
+        "pnl_bps": 31.0,
+        "pnl_usd": 51150.0,
         "pnl_pct": -0.05,
         "rationale": "$2.0T annual deficit supply flood + technical breakout above 5.30%. Yield testing into 5.35%-5.60% fundamental band.",
         "invalidation_trigger": "5Y closes above 5.10% or headline inflation accelerates > 3.8%.",
@@ -1202,12 +1202,12 @@
         "dv01_usd": 1500.0,
         "entry_level": 4.38,
         "entry_unit": "% yield",
-        "current_level": 4.422,
+        "current_level": 4.647,
         "target_level": 4.75,
         "stop_loss_level": 4.25,
         "status": "OPEN",
-        "pnl_bps": 4.2,
-        "pnl_usd": 6300.0,
+        "pnl_bps": 26.7,
+        "pnl_usd": 40050.0,
         "duration_contribution": "-0.15 Years",
         "confluence": "Fundamental Mispricing (Strategic Repricing)",
         "rationale": "FOMC rate hike to 3.75%-4.00% invalidates aggressive rate cut bets. Terminal rate required to quell 3.4% CPI is 4.75%-5.00%."
@@ -1225,12 +1225,12 @@
         "dv01_usd": 1000.0,
         "entry_level": 4.856,
         "entry_unit": "% yield",
-        "current_level": 4.842,
+        "current_level": 4.991,
         "target_level": 4.4,
         "stop_loss_level": 4.88,
         "status": "OPEN",
-        "pnl_bps": 1.4,
-        "pnl_usd": 1400.0,
+        "pnl_bps": -13.5,
+        "pnl_usd": -13500.0,
         "duration_contribution": "+0.10 Years",
         "confluence": "Tactical Technical Support & Belly Convexity Cushion",
         "rationale": "Captures 90% of long-end yield with low volatility; rolls down steep 2s5s front slope; hedges growth slowdown."
@@ -1306,17 +1306,22 @@
       "region": "LatAm",
       "credit_rating": "BB (S&P) / Ba2 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 10.5,
+        "policy_rate": 13.75,
         "policy_rate_name": "Copom Selic Target Rate",
-        "trailing_cpi_yoy": 4.2,
-        "forward_inflation_12m": 3.9,
-        "forward_inflation_source": "Banco Central do Brasil Focus Survey (12M Ahead)",
-        "ex_ante_real_policy_rate": 6.6,
-        "ex_ante_math": "10.50% (Policy Rate) − 3.90% (12M Forward CPI) = +6.60%",
+        "trailing_cpi_yoy": 4.2234,
+        "ex_ante_real_policy_rate": 9.53,
+        "ex_ante_math": "13.75% (policy rate, 2026-09) less 4.2234% (CPI y/y, 2026-08) = 9.53% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 12.2,
         "ex_ante_real_yield_10y": 8.3,
         "ex_post_real_yield_10y": 8.0,
-        "ex_post_math": "12.20% (10Y Yield) − 4.20% (Trailing CPI) = +8.00%"
+        "ex_post_math": "12.20% (10Y Yield) − 4.20% (Trailing CPI) = +8.00%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-08 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -9.2,
@@ -1328,7 +1333,9 @@
         "import_cover_months": 12.2,
         "quadrant_id": "quadrant_2",
         "quadrant_name": "Quadrant 2: High Real Rate + Cheap REER + High Carry",
-        "framework_recommendation": "Overweight 5Y Belly Rates (NTN-F 2029) Unhedged for carry or 3M NDF hedged to harvest +6.5% carry over SOFR without currency volatility."
+        "framework_recommendation": "Overweight 5Y Belly Rates (NTN-F 2029) Unhedged for carry or 3M NDF hedged to harvest +6.5% carry over SOFR without currency volatility.",
+        "reer_z_10y": -0.02,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates": {
         "policy_rate": 10.5,
@@ -1493,6 +1500,20 @@
         "recommended_sizing": "Target $10,000 DV01 ($10k / 1 bp move; ~R$54,000 DV01)",
         "recommended_notional": "1,280 DI1F29 contracts or R$60M cash NTN-F 2029 (~$11.1M USD)",
         "trader_lingo_playbook": "Receive DI1F29 vs paying Copom Selic path. Curve prices terminal Selic at ~10.75%; 5Y belly at 12.05% gives +130 bps term premium cushion. If fiscal noise widens DI, hedge spot BRL via 3M NDFs to isolate the +6.5% carry spread over SOFR."
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 13.75,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 4.2234,
+        "cpi_period": "2026-08",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 9.53,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": -0.02,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#brazil"
       }
     },
     "mexico": {
@@ -1503,17 +1524,22 @@
       "region": "LatAm",
       "credit_rating": "BBB (S&P) / Baa2 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 10.5,
+        "policy_rate": 6.5,
         "policy_rate_name": "Banxico Target Rate (TIIE)",
-        "trailing_cpi_yoy": 5.0,
-        "forward_inflation_12m": 3.8,
-        "forward_inflation_source": "Banxico Survey of Economic Specialists (12M Ahead)",
-        "ex_ante_real_policy_rate": 6.7,
-        "ex_ante_math": "10.50% (Policy Rate) − 3.80% (12M Forward CPI) = +6.70%",
+        "trailing_cpi_yoy": 3.2619,
+        "ex_ante_real_policy_rate": 3.24,
+        "ex_ante_math": "6.5% (policy rate, 2026-09) less 3.2619% (CPI y/y, 2026-08) = 3.24% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 9.47,
         "ex_ante_real_yield_10y": 5.67,
         "ex_post_real_yield_10y": 4.47,
-        "ex_post_math": "9.47% (10Y Yield) − 5.00% (Trailing CPI) = +4.47%"
+        "ex_post_math": "9.47% (10Y Yield) − 5.00% (Trailing CPI) = +4.47%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-08 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": 4.1,
@@ -1525,7 +1551,9 @@
         "import_cover_months": 6.2,
         "quadrant_id": "quadrant_3",
         "quadrant_name": "Quadrant 3: High Real Rate + Rich REER + Vulnerable ToT",
-        "framework_recommendation": "Overweight 10Y M-Bonos strictly on an FX-Hedged basis or 2s10s curve flattener. Avoid unhedged MXN currency risk."
+        "framework_recommendation": "Overweight 10Y M-Bonos strictly on an FX-Hedged basis or 2s10s curve flattener. Avoid unhedged MXN currency risk.",
+        "reer_z_10y": 1.8,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates": {
         "policy_rate": 10.5,
@@ -1696,6 +1724,20 @@
         "recommended_sizing": "DV01-Neutral 2s10s Flattener ($10,000 DV01 per leg)",
         "recommended_notional": "Receive MXN 285M 10Y (130x1) vs Pay MXN 1,070M 2Y (26x1) (3.75x DV01 ratio)",
         "trader_lingo_playbook": "Pay 2Y TIIE vs Receive 10Y TIIE at -23 bps spread. Banxico front-end easing cuts the 10.50% policy rate while US election tariff threats anchor 10Y term premiums. Curve will flatten out of inversion toward -50 bps."
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 6.5,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 3.2619,
+        "cpi_period": "2026-08",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 3.24,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.8,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#mexico"
       }
     },
     "south_africa": {
@@ -1706,17 +1748,22 @@
       "region": "EMEA",
       "credit_rating": "BB- (S&P) / Ba2 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 8.25,
+        "policy_rate": 7.25,
         "policy_rate_name": "SARB Repo Rate",
-        "trailing_cpi_yoy": 4.6,
-        "forward_inflation_12m": 4.35,
-        "forward_inflation_source": "Bureau for Economic Research (BER) Inflation Survey (12M Ahead)",
-        "ex_ante_real_policy_rate": 3.9,
-        "ex_ante_math": "8.25% (Policy Rate) − 4.35% (12M Forward CPI) = +3.90%",
+        "trailing_cpi_yoy": 4.4,
+        "ex_ante_real_policy_rate": 2.9,
+        "ex_ante_math": "7.25% (policy rate, Sep-26) less 4.4% (CPI y/y, Aug-26) = 2.9% (ex-ante)",
         "yield_10y_nominal": 9.15,
         "ex_ante_real_yield_10y": 4.8,
         "ex_post_real_yield_10y": 4.55,
-        "ex_post_math": "9.15% (10Y Yield) − 4.60% (Trailing CPI) = +4.55%"
+        "ex_post_math": "9.15% (10Y Yield) − 4.60% (Trailing CPI) = +4.55%",
+        "policy_rate_as_of": "Sep-26 (BIS monthly policy rate series)",
+        "cpi_as_of": "Aug-26 (Stats SA / IMF data portal)",
+        "ex_ante_real_policy_rate_note": "policy rate less 12m expected inflation",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -14.5,
@@ -1728,7 +1775,9 @@
         "import_cover_months": 5.8,
         "quadrant_id": "quadrant_1",
         "quadrant_name": "Quadrant 1: High Real Rate + Deeply Undervalued REER + Expanding ToT",
-        "framework_recommendation": "Double Alpha: Unhedged Long 10Y SAGB R2035 (9.15%) + Long ZAR Currency targeting rally toward 17.20."
+        "framework_recommendation": "Double Alpha: Unhedged Long 10Y SAGB R2035 (9.15%) + Long ZAR Currency targeting rally toward 17.20.",
+        "reer_z_10y": 1.23,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates": {
         "policy_rate": 8.25,
@@ -1894,6 +1943,20 @@
         "recommended_sizing": "Target $10,000 DV01 ($10k / 1 bp move; ~ZAR 178,000 DV01)",
         "recommended_notional": "Buy ZAR 250M SAGB R2035 (~$14.0M USD notional) Unhedged",
         "trader_lingo_playbook": "Receive 10Y SAGB R2035 unhedged. Gold at $2,580/oz terms-of-trade windfall plus Government of National Unity (GNU) fiscal consolidation creates the premier 'Double Alpha' trade in EM. Target 8.50% (-65 bps rally)."
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 7.25,
+        "policy_rate_period": "Sep-26",
+        "policy_rate_source": "BIS monthly policy rate series",
+        "cpi_yoy_pct": 4.4,
+        "cpi_period": "Aug-26",
+        "cpi_source": "Stats SA / IMF data portal",
+        "ex_ante_real_rate_pct": 2.9,
+        "ex_ante_real_rate_note": "",
+        "reer_z_10y": 1.23,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#south-africa"
       }
     },
     "indonesia": {
@@ -1904,17 +1967,22 @@
       "region": "Asia",
       "credit_rating": "BBB (S&P) / Baa2 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 6.25,
+        "policy_rate": 5.75,
         "policy_rate_name": "Bank Indonesia 7-Day Reverse Repo",
-        "trailing_cpi_yoy": 2.12,
-        "forward_inflation_12m": 2.4,
-        "forward_inflation_source": "Bank Indonesia Consensus Inflation Forecast (12M Ahead)",
-        "ex_ante_real_policy_rate": 3.85,
-        "ex_ante_math": "6.25% (Policy Rate) − 2.40% (12M Forward CPI) = +3.85%",
+        "trailing_cpi_yoy": 2.8821,
+        "ex_ante_real_policy_rate": 2.87,
+        "ex_ante_math": "5.75% (policy rate, 2026-09) less 2.8821% (CPI y/y, 2026-07) = 2.87% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 6.55,
         "ex_ante_real_yield_10y": 4.15,
         "ex_post_real_yield_10y": 4.43,
-        "ex_post_math": "6.55% (10Y Yield) − 2.12% (Trailing CPI) = +4.43%"
+        "ex_post_math": "6.55% (10Y Yield) − 2.12% (Trailing CPI) = +4.43%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-07 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -3.2,
@@ -1926,7 +1994,9 @@
         "import_cover_months": 6.5,
         "quadrant_id": "quadrant_2",
         "quadrant_name": "Quadrant 2: Subdued Inflation + Solid Real Yield + Moderate CA Deficit",
-        "framework_recommendation": "Overweight 10Y SUN FR0100 on an FX-Hedged basis via NDFs to lock in 6.55% yield without IDR currency drift."
+        "framework_recommendation": "Overweight 10Y SUN FR0100 on an FX-Hedged basis via NDFs to lock in 6.55% yield without IDR currency drift.",
+        "reer_z_10y": -3.03,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates": {
         "policy_rate": 6.25,
@@ -2092,6 +2162,20 @@
         "recommended_sizing": "Target $7,500 DV01 ($7.5k / 1 bp move)",
         "recommended_notional": "Buy IDR 150 Billion SUN FR0100 (~$9.75M USD) + Sell $9.75M 3M NDF forward",
         "trader_lingo_playbook": "Receive 10Y SUN FR0100 at 6.55%. Headline inflation is subdued at 2.12% giving Bank Indonesia room to cut. Always hedge spot IDR via 3M NDFs to strip out currency noise from government deficit expansions."
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 5.75,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 2.8821,
+        "cpi_period": "2026-07",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 2.87,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": -3.03,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#indonesia"
       }
     },
     "poland": {
@@ -2102,17 +2186,22 @@
       "region": "EMEA",
       "credit_rating": "A- (S&P) / A2 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 5.75,
+        "policy_rate": 3.75,
         "policy_rate_name": "NBP Reference Rate",
-        "trailing_cpi_yoy": 4.3,
-        "forward_inflation_12m": 3.7,
-        "forward_inflation_source": "NBP Survey of Professional Forecasters (12M Ahead)",
-        "ex_ante_real_policy_rate": 2.05,
-        "ex_ante_math": "5.75% (Policy Rate) − 3.70% (12M Forward CPI) = +2.05%",
+        "trailing_cpi_yoy": 3.2123,
+        "ex_ante_real_policy_rate": 0.54,
+        "ex_ante_math": "3.75% (policy rate, 2026-09) less 3.2123% (CPI y/y, 2026-08) = 0.54% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 5.35,
         "ex_ante_real_yield_10y": 1.65,
         "ex_post_real_yield_10y": 1.05,
-        "ex_post_math": "5.35% (10Y Yield) − 4.30% (Trailing CPI) = +1.05%"
+        "ex_post_math": "5.35% (10Y Yield) − 4.30% (Trailing CPI) = +1.05%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-08 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": 2.0,
@@ -2124,7 +2213,9 @@
         "import_cover_months": 6.0,
         "quadrant_id": "quadrant_4",
         "quadrant_name": "Quadrant 4: Low Real Rate + Heavy Defense Supply + EU Capital Windfall",
-        "framework_recommendation": "Long PLN vs EUR to harvest structural EU convergence flows; Underweight domestic POLGB bond duration."
+        "framework_recommendation": "Long PLN vs EUR to harvest structural EU convergence flows; Underweight domestic POLGB bond duration.",
+        "reer_z_10y": 1.5,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates": {
         "policy_rate": 5.75,
@@ -2290,6 +2381,20 @@
         "recommended_sizing": "Target $10,000 DV01 on Pay 10Y IRS leg (~PLN 38,500 DV01)",
         "recommended_notional": "Pay PLN 52M 10Y WIBOR IRS + Long €10M PLN vs EUR (Spot / 3M Fwd)",
         "trader_lingo_playbook": "Pay 10Y WIBOR IRS or underweight POLGB bonds. Poland's 4.7% GDP defense spending crowds out domestic real yields (+1.65% ex-ante is slimmest in GBI-EM). Express Polish bullishness exclusively via Long PLN vs EUR to ride €60B+ EU KPO inflows."
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 3.75,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 3.2123,
+        "cpi_period": "2026-08",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 0.54,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.5,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#poland"
       }
     },
     "india": {
@@ -2300,17 +2405,22 @@
       "region": "Asia",
       "credit_rating": "BBB- (S&P) / Baa3 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 6.5,
+        "policy_rate": 5.25,
         "policy_rate_name": "RBI Repo Rate",
-        "trailing_cpi_yoy": 3.65,
-        "forward_inflation_12m": 4.1,
-        "forward_inflation_source": "RBI Survey of Professional Forecasters (12M Ahead)",
-        "ex_ante_real_policy_rate": 2.4,
-        "ex_ante_math": "6.50% (Policy Rate) − 4.10% (12M Forward CPI) = +2.40%",
+        "trailing_cpi_yoy": 4.4412,
+        "ex_ante_real_policy_rate": 0.81,
+        "ex_ante_math": "5.25% (policy rate, 2026-06) less 4.4412% (CPI y/y, 2026-07) = 0.81% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 6.78,
         "ex_ante_real_yield_10y": 2.68,
         "ex_post_real_yield_10y": 3.13,
-        "ex_post_math": "6.78% (10Y Yield) − 3.65% (Trailing CPI) = +3.13%"
+        "ex_post_math": "6.78% (10Y Yield) − 3.65% (Trailing CPI) = +3.13%",
+        "policy_rate_as_of": "2026-06 (BIS)",
+        "cpi_as_of": "2026-07 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": 3.5,
@@ -2322,7 +2432,9 @@
         "import_cover_months": 11.5,
         "quadrant_id": "quadrant_4",
         "quadrant_name": "Quadrant 4: Managed Currency Anchor + Passive Index Inflows ($2B/mo)",
-        "framework_recommendation": "Unhedged Long 10Y IGB (7.18% GS 2033) FAR Category. RBI pins USD/INR in ultra-tight range, transforming IGB into a low-volatility 6.78% dollar carry proxy."
+        "framework_recommendation": "Unhedged Long 10Y IGB (7.18% GS 2033) FAR Category. RBI pins USD/INR in ultra-tight range, transforming IGB into a low-volatility 6.78% dollar carry proxy.",
+        "reer_z_10y": -2.75,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates": {
         "policy_rate": 6.5,
@@ -2488,6 +2600,20 @@
         "recommended_sizing": "Target $10,000 DV01 ($10k / 1 bp move; ~INR 835,000 DV01)",
         "recommended_notional": "Buy INR 115 Crore (INR 1.15B) GS 2033 (~$13.8M USD notional) Unhedged",
         "trader_lingo_playbook": "Receive 10Y IGB GS 2033 at 6.78% unhedged. Phased J.P. Morgan GBI-EM index inclusion brings ~$2B/month passive inflows. RBI pins USD/INR in a 83.70-84.00 range, converting IGB into an ultra-low-volatility 6.78% dollar yield surrogate."
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 5.25,
+        "policy_rate_period": "2026-06",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 4.4412,
+        "cpi_period": "2026-07",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 0.81,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": -2.75,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#india"
       }
     },
     "colombia": {
@@ -2498,17 +2624,22 @@
       "region": "LatAm",
       "credit_rating": "BB+ (S&P) / Baa2 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 10.75,
+        "policy_rate": 12.0,
         "policy_rate_name": "BanRep Overnight Intervention Rate",
-        "trailing_cpi_yoy": 6.12,
-        "forward_inflation_12m": 4.8,
-        "forward_inflation_source": "Banco de la República Monthly Economic Survey (12M Ahead)",
-        "ex_ante_real_policy_rate": 5.95,
-        "ex_ante_math": "10.75% (Policy Rate) − 4.80% (12M Forward CPI) = +5.95%",
+        "trailing_cpi_yoy": 6.2417,
+        "ex_ante_real_policy_rate": 5.76,
+        "ex_ante_math": "12.0% (policy rate, 2026-09) less 6.2417% (CPI y/y, 2026-08) = 5.76% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 10.5,
         "ex_ante_real_yield_10y": 5.7,
         "ex_post_real_yield_10y": 4.38,
-        "ex_post_math": "10.50% (10Y Yield) − 6.12% (Trailing CPI) = +4.38%"
+        "ex_post_math": "10.50% (10Y Yield) − 6.12% (Trailing CPI) = +4.38%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-08 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -4.8,
@@ -2520,7 +2651,9 @@
         "import_cover_months": 6.8,
         "quadrant_id": "quadrant_3",
         "quadrant_name": "Quadrant 3: High Real Yield + Oil Sensitivity + Fiscal Rule Tension",
-        "framework_recommendation": "FX-Hedged 5Y TES (Nov 2029 yielding 10.15%). Use long COP strictly as an opportunistic tactical hedge against Middle East energy price shocks."
+        "framework_recommendation": "FX-Hedged 5Y TES (Nov 2029 yielding 10.15%). Use long COP strictly as an opportunistic tactical hedge against Middle East energy price shocks.",
+        "reer_z_10y": 3.58,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates": {
         "policy_rate": 10.75,
@@ -2686,6 +2819,20 @@
         "recommended_sizing": "Target $5,000 DV01 ($5k / 1 bp move; ~COP 21,000,000 DV01)",
         "recommended_notional": "Buy COP 52 Billion TES 2029 (~$12.5M USD notional) + FX Hedge",
         "trader_lingo_playbook": "Receive 5Y TES 2029 at 10.15%. BanRep at 10.75% has high ex-ante real rate buffer (+5.95%). Keep position sized to $5k DV01 and hedge currency, as oil exploration bans and fiscal rule flex debates inject COP beta."
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 12.0,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 6.2417,
+        "cpi_period": "2026-08",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 5.76,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 3.58,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#colombia"
       }
     },
     "turkey": {
@@ -2696,17 +2843,22 @@
       "region": "EMEA",
       "credit_rating": "BB- (S&P) / B1 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 50.0,
+        "policy_rate": 37.0,
         "policy_rate_name": "TCMB 1-Week Repo Auction Rate",
-        "trailing_cpi_yoy": 51.97,
-        "forward_inflation_12m": 28.5,
-        "forward_inflation_source": "TCMB Survey of Market Participants (12M Ahead)",
-        "ex_ante_real_policy_rate": 21.5,
-        "ex_ante_math": "50.00% (Policy Rate) − 28.50% (12M Forward CPI) = +21.50%",
+        "trailing_cpi_yoy": 29.73,
+        "ex_ante_real_policy_rate": 12.5,
+        "ex_ante_math": "37.0% (policy rate, Sep-26) less 29.73% (CPI y/y, Sep-26) = 12.5% (ex-ante)",
         "yield_10y_nominal": 32.5,
         "ex_ante_real_yield_10y": 4.0,
         "ex_post_real_yield_10y": -19.47,
-        "ex_post_math": "32.50% (10Y Yield) − 51.97% (Trailing CPI) = -19.47%"
+        "ex_post_math": "32.50% (10Y Yield) − 51.97% (Trailing CPI) = -19.47%",
+        "policy_rate_as_of": "Sep-26 (TCMB MPC decision (1-week repo); IMF ser)",
+        "cpi_as_of": "Sep-26 (TurkStat, Consumer Price Index September)",
+        "ex_ante_real_policy_rate_note": "policy rate less 12m expected inflation",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": 12.0,
@@ -2718,7 +2870,9 @@
         "import_cover_months": 5.2,
         "quadrant_id": "quadrant_hypercarry",
         "quadrant_name": "Special Regime: Hyper-Carry Front-End Roll (50% Nominal / +21.5% Ex-Ante)",
-        "framework_recommendation": "1M - 3M Short-Dated Turkish Treasury Bills / TRY Cash Deposits Unhedged. 50% nominal carry comfortably beats the controlled ~20-25% annual TRY crawl."
+        "framework_recommendation": "1M - 3M Short-Dated Turkish Treasury Bills / TRY Cash Deposits Unhedged. 50% nominal carry comfortably beats the controlled ~20-25% annual TRY crawl.",
+        "reer_z_10y": 0.31,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates": {
         "policy_rate": 50.0,
@@ -2884,6 +3038,20 @@
         "recommended_sizing": "Target $5M - $10M USD notional allocation in 1M-3M roll",
         "recommended_notional": "TRY 200 Million 3M T-Bills (~$5.9M USD notional) Unhedged",
         "trader_lingo_playbook": "Clip the front-end roll at ~46-50% annualized, never touch long-end duration (10Y yield at 32.5% is inverted by 1,000 bps vs 2Y at 42%). The 50% nominal carry generates ~$225k/month on $5.9M notional, easily covering the controlled ~1.5% monthly TRY depreciation."
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 37.0,
+        "policy_rate_period": "Sep-26",
+        "policy_rate_source": "TCMB MPC decision (1-week repo); IMF series shows 35.5%, definition unconfirmed",
+        "cpi_yoy_pct": 29.73,
+        "cpi_period": "Sep-26",
+        "cpi_source": "TurkStat, Consumer Price Index September 2026",
+        "ex_ante_real_rate_pct": 12.5,
+        "ex_ante_real_rate_note": "",
+        "reer_z_10y": 0.31,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#turkey"
       }
     },
     "chile": {
@@ -2894,17 +3062,22 @@
       "region": "LatAm",
       "credit_rating": "A (S&P) / A2 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 5.5,
+        "policy_rate": 4.5,
         "policy_rate_name": "Banco Central de Chile (BCCh) TPM",
-        "trailing_cpi_yoy": 4.4,
-        "forward_inflation_12m": 3.2,
-        "forward_inflation_source": "BCCh Encuesta de Expectativas Económicas (EEE)",
-        "ex_ante_real_policy_rate": 2.3,
-        "ex_ante_math": "5.50% (Policy Rate) − 3.20% (12M Forward CPI) = +2.30%",
+        "trailing_cpi_yoy": 4.1322,
+        "ex_ante_real_policy_rate": 0.37,
+        "ex_ante_math": "4.5% (policy rate, 2026-09) less 4.1322% (CPI y/y, 2026-08) = 0.37% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 5.35,
         "ex_ante_real_yield_10y": 2.15,
         "ex_post_real_yield_10y": 0.95,
-        "ex_post_math": "5.35% (10Y Yield) − 4.40% (Trailing CPI) = +0.95%"
+        "ex_post_math": "5.35% (10Y Yield) − 4.40% (Trailing CPI) = +0.95%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-08 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -4.2,
@@ -2916,7 +3089,9 @@
         "import_cover_months": 6.1,
         "quadrant_id": "quadrant_1",
         "quadrant_name": "Quadrant 1: Double Alpha (Copper Terms of Trade + Cheap REER)",
-        "framework_recommendation": "Overweight 5Y/10Y BTP Duration unhedged or hedged; Long CLP on copper export windfalls."
+        "framework_recommendation": "Overweight 5Y/10Y BTP Duration unhedged or hedged; Long CLP on copper export windfalls.",
+        "reer_z_10y": -0.54,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates_execution": {
         "directive": "Receive Fixed (5Y/10Y BTP Duration)",
@@ -3071,6 +3246,20 @@
             "impact": "Chile imports 98% of crude; adds 0.5% to headline inflation."
           }
         ]
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 4.5,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 4.1322,
+        "cpi_period": "2026-08",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 0.37,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": -0.54,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#chile"
       }
     },
     "peru": {
@@ -3081,17 +3270,22 @@
       "region": "LatAm",
       "credit_rating": "BBB (S&P) / Baa1 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 5.25,
+        "policy_rate": 4.25,
         "policy_rate_name": "Banco Central de Reserva del Perú (BCRP) Tasa de Referencia",
-        "trailing_cpi_yoy": 2.03,
-        "forward_inflation_12m": 2.2,
-        "forward_inflation_source": "BCRP Encuesta de Expectativas Macroeconómicas",
-        "ex_ante_real_policy_rate": 3.05,
-        "ex_ante_math": "5.25% (Policy Rate) − 2.20% (12M Forward CPI) = +3.05%",
+        "trailing_cpi_yoy": 4.0636,
+        "ex_ante_real_policy_rate": 0.19,
+        "ex_ante_math": "4.25% (policy rate, 2026-09) less 4.0636% (CPI y/y, 2026-08) = 0.19% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 5.85,
         "ex_ante_real_yield_10y": 3.65,
         "ex_post_real_yield_10y": 3.82,
-        "ex_post_math": "5.85% (10Y Yield) − 2.03% (Trailing CPI) = +3.82%"
+        "ex_post_math": "5.85% (10Y Yield) − 2.03% (Trailing CPI) = +3.82%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-08 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -2.5,
@@ -3103,7 +3297,9 @@
         "import_cover_months": 15.5,
         "quadrant_id": "quadrant_2",
         "quadrant_name": "Quadrant 2: High Real Yield + Controlled FX Volatility",
-        "framework_recommendation": "Overweight 10Y Soberanos (BTP 2034) Unhedged. Massive $82.5B reserves insulate PEN currency."
+        "framework_recommendation": "Overweight 10Y Soberanos (BTP 2034) Unhedged. Massive $82.5B reserves insulate PEN currency.",
+        "reer_z_10y": 1.8,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates_execution": {
         "directive": "Receive Fixed (10Y Bonos Soberanos)",
@@ -3258,6 +3454,20 @@
             "impact": "Provides massive current account surplus boost."
           }
         ]
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 4.25,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 4.0636,
+        "cpi_period": "2026-08",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 0.19,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.8,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#peru"
       }
     },
     "czech_republic": {
@@ -3268,17 +3478,22 @@
       "region": "EMEA",
       "credit_rating": "AA- (S&P) / Aa3 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 4.25,
+        "policy_rate": 3.75,
         "policy_rate_name": "Czech National Bank (CNB) 2-Week Repo Rate",
-        "trailing_cpi_yoy": 2.2,
-        "forward_inflation_12m": 2.1,
-        "forward_inflation_source": "CNB Survey of Financial Market Analysts (FMAS)",
-        "ex_ante_real_policy_rate": 2.15,
-        "ex_ante_math": "4.25% (Policy Rate) − 2.10% (12M Forward CPI) = +2.15%",
+        "trailing_cpi_yoy": 1.922,
+        "ex_ante_real_policy_rate": 1.83,
+        "ex_ante_math": "3.75% (policy rate, 2026-09) less 1.922% (CPI y/y, 2026-08) = 1.83% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 3.85,
         "ex_ante_real_yield_10y": 1.75,
         "ex_post_real_yield_10y": 1.65,
-        "ex_post_math": "3.85% (10Y Yield) − 2.20% (Trailing CPI) = +1.65%"
+        "ex_post_math": "3.85% (10Y Yield) − 2.20% (Trailing CPI) = +1.65%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-08 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": 1.5,
@@ -3290,7 +3505,9 @@
         "import_cover_months": 8.5,
         "quadrant_id": "quadrant_4",
         "quadrant_name": "Quadrant 4: High Grade Anchor / European Convergence",
-        "framework_recommendation": "Overweight 5Y/10Y CZGB duration. Highest sovereign credit rating (AA-) in GBI-EM."
+        "framework_recommendation": "Overweight 5Y/10Y CZGB duration. Highest sovereign credit rating (AA-) in GBI-EM.",
+        "reer_z_10y": 1.35,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates_execution": {
         "directive": "Receive Fixed (10Y CZGB Duration)",
@@ -3445,6 +3662,20 @@
             "impact": "Signals deeper German manufacturing drag on Czech exports."
           }
         ]
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 3.75,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 1.922,
+        "cpi_period": "2026-08",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 1.83,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.35,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#czech-republic"
       }
     },
     "hungary": {
@@ -3455,17 +3686,22 @@
       "region": "EMEA",
       "credit_rating": "BBB- (S&P) / Baa2 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 6.75,
+        "policy_rate": 5.5,
         "policy_rate_name": "Magyar Nemzeti Bank (MNB) Base Rate",
-        "trailing_cpi_yoy": 3.4,
-        "forward_inflation_12m": 3.5,
-        "forward_inflation_source": "MNB Survey of Market Expectations",
-        "ex_ante_real_policy_rate": 3.25,
-        "ex_ante_math": "6.75% (Policy Rate) − 3.50% (12M Forward CPI) = +3.25%",
+        "trailing_cpi_yoy": 1.2826,
+        "ex_ante_real_policy_rate": 4.22,
+        "ex_ante_math": "5.5% (policy rate, 2026-09) less 1.2826% (CPI y/y, 2026-08) = 4.22% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 6.45,
         "ex_ante_real_yield_10y": 2.95,
         "ex_post_real_yield_10y": 3.05,
-        "ex_post_math": "6.45% (10Y Yield) − 3.40% (Trailing CPI) = +3.05%"
+        "ex_post_math": "6.45% (10Y Yield) − 3.40% (Trailing CPI) = +3.05%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-08 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -6.5,
@@ -3477,7 +3713,9 @@
         "import_cover_months": 4.5,
         "quadrant_id": "quadrant_2",
         "quadrant_name": "Quadrant 2: High CEE Carry + Cheap REER",
-        "framework_recommendation": "Overweight 5Y HGB / BUBOR Swaps or tactical Long HUF carry vs EUR. Size disciplined due to EU dispute risk."
+        "framework_recommendation": "Overweight 5Y HGB / BUBOR Swaps or tactical Long HUF carry vs EUR. Size disciplined due to EU dispute risk.",
+        "reer_z_10y": 2.27,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates_execution": {
         "directive": "Receive 5Y HGB / BUBOR IRS (Top Carry in CEE)",
@@ -3631,6 +3869,20 @@
             "impact": "Triggers immediate EUR/HUF spike above 400."
           }
         ]
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 5.5,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 1.2826,
+        "cpi_period": "2026-08",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 4.22,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 2.27,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#hungary"
       }
     },
     "romania": {
@@ -3643,15 +3895,20 @@
       "real_rate_breakdown": {
         "policy_rate": 6.5,
         "policy_rate_name": "Banca Națională a României (NBR) Policy Rate",
-        "trailing_cpi_yoy": 5.1,
-        "forward_inflation_12m": 4.0,
-        "forward_inflation_source": "NBR Survey of Financial Analysts",
-        "ex_ante_real_policy_rate": 2.5,
-        "ex_ante_math": "6.50% (Policy Rate) − 4.00% (12M Forward CPI) = +2.50%",
+        "trailing_cpi_yoy": 8.16,
+        "ex_ante_real_policy_rate": -1.66,
+        "ex_ante_math": "6.5% (policy rate, 2026-09) less 8.16% (CPI y/y, 2026-07) = -1.66% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 6.65,
         "ex_ante_real_yield_10y": 2.65,
         "ex_post_real_yield_10y": 1.55,
-        "ex_post_math": "6.65% (10Y Yield) − 5.10% (Trailing CPI) = +1.55%"
+        "ex_post_math": "6.65% (10Y Yield) − 5.10% (Trailing CPI) = +1.55%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-07 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": 5.2,
@@ -3663,7 +3920,9 @@
         "import_cover_months": 5.8,
         "quadrant_id": "quadrant_3",
         "quadrant_name": "Quadrant 3: High Fiscal Risk + Managed Peg",
-        "framework_recommendation": "Neutral / Underweight Duration. Receive 5Y ROGB strictly on an FX-Hedged basis; avoid long-end bonds."
+        "framework_recommendation": "Neutral / Underweight Duration. Receive 5Y ROGB strictly on an FX-Hedged basis; avoid long-end bonds.",
+        "reer_z_10y": 1.95,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates_execution": {
         "directive": "Receive 5Y ROGB strictly FX-Hedged / Avoid Long-End",
@@ -3818,6 +4077,20 @@
             "impact": "Reduces grain export receipts and widens trade deficit."
           }
         ]
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 6.5,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 8.16,
+        "cpi_period": "2026-07",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": -1.66,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.95,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#romania"
       }
     },
     "malaysia": {
@@ -3828,17 +4101,22 @@
       "region": "Asia",
       "credit_rating": "A- (S&P) / A3 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 3.0,
+        "policy_rate": 2.75,
         "policy_rate_name": "Bank Negara Malaysia (BNM) Overnight Policy Rate (OPR)",
-        "trailing_cpi_yoy": 2.0,
-        "forward_inflation_12m": 2.2,
-        "forward_inflation_source": "BNM / Market Consensus Inflation Forecast",
-        "ex_ante_real_policy_rate": 0.8,
-        "ex_ante_math": "3.00% (Policy Rate) − 2.20% (12M Forward CPI) = +0.80%",
+        "trailing_cpi_yoy": 1.7817,
+        "ex_ante_real_policy_rate": 0.97,
+        "ex_ante_math": "2.75% (policy rate, 2026-09) less 1.7817% (CPI y/y, 2026-07) = 0.97% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 3.75,
         "ex_ante_real_yield_10y": 1.55,
         "ex_post_real_yield_10y": 1.75,
-        "ex_post_math": "3.75% (10Y Yield) − 2.00% (Trailing CPI) = +1.75%"
+        "ex_post_math": "3.75% (10Y Yield) − 2.00% (Trailing CPI) = +1.75%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-07 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -8.5,
@@ -3850,7 +4128,9 @@
         "import_cover_months": 5.5,
         "quadrant_id": "quadrant_1",
         "quadrant_name": "Quadrant 1: Double Alpha (Bullish MYR + Semiconductor Boom)",
-        "framework_recommendation": "Long MYR Spot Currency (Repatriation flows); Neutral MGS duration due to slim real yield."
+        "framework_recommendation": "Long MYR Spot Currency (Repatriation flows); Neutral MGS duration due to slim real yield.",
+        "reer_z_10y": 1.2,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates_execution": {
         "directive": "Long MYR Currency / Neutral MGS Duration",
@@ -4005,6 +4285,20 @@
             "impact": "Expands Petronas oil & LNG dividends to federal budget."
           }
         ]
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 2.75,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 1.7817,
+        "cpi_period": "2026-07",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": 0.97,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.2,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#malaysia"
       }
     },
     "thailand": {
@@ -4015,17 +4309,22 @@
       "region": "Asia",
       "credit_rating": "BBB+ (S&P) / Baa1 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 2.5,
+        "policy_rate": 1.0,
         "policy_rate_name": "Bank of Thailand (BOT) Policy Repo Rate",
-        "trailing_cpi_yoy": 0.35,
-        "forward_inflation_12m": 1.2,
-        "forward_inflation_source": "Bank of Thailand Inflation Report",
-        "ex_ante_real_policy_rate": 1.3,
-        "ex_ante_math": "2.50% (Policy Rate) − 1.20% (12M Forward CPI) = +1.30%",
+        "trailing_cpi_yoy": 2.5265,
+        "ex_ante_real_policy_rate": -1.53,
+        "ex_ante_math": "1.0% (policy rate, 2026-09) less 2.5265% (CPI y/y, 2026-08) = -1.53% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 2.55,
         "ex_ante_real_yield_10y": 1.35,
         "ex_post_real_yield_10y": 2.2,
-        "ex_post_math": "2.55% (10Y Yield) − 0.35% (Trailing CPI) = +2.20%"
+        "ex_post_math": "2.55% (10Y Yield) − 0.35% (Trailing CPI) = +2.20%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-08 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -4.5,
@@ -4037,7 +4336,9 @@
         "import_cover_months": 8.8,
         "quadrant_id": "quadrant_4",
         "quadrant_name": "Quadrant 4: Asian Anchor / Tourism Recovery",
-        "framework_recommendation": "Overweight 5Y/10Y Thai LB Duration (BOT under easing pressure); Bullish THB on gold windfalls."
+        "framework_recommendation": "Overweight 5Y/10Y Thai LB Duration (BOT under easing pressure); Bullish THB on gold windfalls.",
+        "reer_z_10y": 0.21,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates_execution": {
         "directive": "Receive 5Y/10Y Thai Loan Bonds (LB Duration)",
@@ -4192,6 +4493,20 @@
             "impact": "Thailand imports 85% of energy; surges utility and transport costs."
           }
         ]
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 1.0,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 2.5265,
+        "cpi_period": "2026-08",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": -1.53,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 0.21,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#thailand"
       }
     },
     "philippines": {
@@ -4202,17 +4517,22 @@
       "region": "Asia",
       "credit_rating": "BBB+ (S&P) / Baa2 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 6.25,
+        "policy_rate": 5.0,
         "policy_rate_name": "Bangko Sentral ng Pilipinas (BSP) Target RRP",
-        "trailing_cpi_yoy": 3.3,
-        "forward_inflation_12m": 3.1,
-        "forward_inflation_source": "BSP Survey of Private Sector Economists",
-        "ex_ante_real_policy_rate": 3.15,
-        "ex_ante_math": "6.25% (Policy Rate) − 3.10% (12M Forward CPI) = +3.15%",
+        "trailing_cpi_yoy": 6.3629,
+        "ex_ante_real_policy_rate": -1.36,
+        "ex_ante_math": "5.0% (policy rate, 2026-09) less 6.3629% (CPI y/y, 2026-06) = -1.36% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 5.95,
         "ex_ante_real_yield_10y": 2.85,
         "ex_post_real_yield_10y": 2.65,
-        "ex_post_math": "5.95% (10Y Yield) − 3.30% (Trailing CPI) = +2.65%"
+        "ex_post_math": "5.95% (10Y Yield) − 3.30% (Trailing CPI) = +2.65%",
+        "policy_rate_as_of": "2026-09 (BIS)",
+        "cpi_as_of": "2026-06 (IMF CPI database)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": 2.8,
@@ -4224,7 +4544,9 @@
         "import_cover_months": 7.8,
         "quadrant_id": "quadrant_2",
         "quadrant_name": "Quadrant 2: High Asian Carry + Disinflation Easing",
-        "framework_recommendation": "Overweight 5Y/10Y FXTN Duration as BSP continues front-loaded easing cycle."
+        "framework_recommendation": "Overweight 5Y/10Y FXTN Duration as BSP continues front-loaded easing cycle.",
+        "reer_z_10y": -0.19,
+        "reer_z_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)"
       },
       "rates_execution": {
         "directive": "Receive 5Y/10Y FXTN (Fixed Rate Treasury Notes)",
@@ -4379,6 +4701,20 @@
             "impact": "Widens trade deficit and increases pump fuel prices."
           }
         ]
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 5.0,
+        "policy_rate_period": "2026-09",
+        "policy_rate_source": "BIS",
+        "cpi_yoy_pct": 6.3629,
+        "cpi_period": "2026-06",
+        "cpi_source": "IMF CPI database",
+        "ex_ante_real_rate_pct": -1.36,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": -0.19,
+        "reer_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#philippines"
       }
     },
     "egypt": {
@@ -4389,17 +4725,22 @@
       "region": "EMEA",
       "credit_rating": "B- (S&P) / Caa1 (Moody's)",
       "real_rate_breakdown": {
-        "policy_rate": 27.25,
+        "policy_rate": 19.0,
         "policy_rate_name": "Central Bank of Egypt (CBE) Overnight Deposit Rate",
-        "trailing_cpi_yoy": 26.2,
-        "forward_inflation_12m": 16.5,
-        "forward_inflation_source": "CBE / IMF Program Inflation Trajectory",
-        "ex_ante_real_policy_rate": 10.75,
-        "ex_ante_math": "27.25% (Policy Rate) − 16.50% (12M Forward CPI) = +10.75%",
+        "trailing_cpi_yoy": 12.7,
+        "ex_ante_real_policy_rate": 6.3,
+        "ex_ante_math": "19.0% (policy rate, Sep-26) less 12.7% (CPI y/y, Aug-26) = 6.3% (ex-post (policy minus latest CPI); no expectation series)",
         "yield_10y_nominal": 25.5,
         "ex_ante_real_yield_10y": 9.0,
         "ex_post_real_yield_10y": -0.7,
-        "ex_post_math": "25.50% (10Y Yield) − 26.20% (Trailing CPI) = -0.70%"
+        "ex_post_math": "25.50% (10Y Yield) − 26.20% (Trailing CPI) = -0.70%",
+        "policy_rate_as_of": "Sep-26 (CBE MPC (overnight deposit rate; lending)",
+        "cpi_as_of": "Aug-26 (CAPMAS (nationwide headline; urban 14.5%)",
+        "ex_ante_real_policy_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_ante_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_real_yield_10y_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
+        "ex_post_math_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield"
       },
       "tot_reer_framework": {
         "reer_deviation_pct": -22.0,
@@ -4566,7 +4907,22 @@
             "impact": "Pressures state grain buyer (GASC) import bill."
           }
         ]
+      },
+      "official": {
+        "as_of": "09-Oct-26",
+        "policy_rate_pct": 19.0,
+        "policy_rate_period": "Sep-26",
+        "policy_rate_source": "CBE MPC (overnight deposit rate; lending rate 20.00%)",
+        "cpi_yoy_pct": 12.7,
+        "cpi_period": "Aug-26",
+        "cpi_source": "CAPMAS (nationwide headline; urban 14.5%)",
+        "ex_ante_real_rate_pct": 6.3,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": null,
+        "reer_note": "",
+        "dashboard": "https://rkarim25.github.io/cembicredit/sovereigns.html#egypt"
       }
     }
-  }
+  },
+  "data_status": "Official policy rate, CPI, ex-ante real rate and REER z-score overlaid 09-Oct-26 from database/sovereigns (IMF, BIS, central banks; each value carries its period). All other fields (FX levels, swap levels, trade directives, narratives) are the desk's own text as of its as_of_date and are not live market data; market levels come from Reza via [BBG]."
 }

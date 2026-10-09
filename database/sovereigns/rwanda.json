@@ -13,56 +13,56 @@
     "asof": "31-Aug-26"
   },
   "imf": {
-    "programme": "ECF, 38-month (reported by Gemini, unverified)",
+    "programme": "38-month ECF (reported)",
     "size_usd_bn": null,
     "approved": "Jun-26",
-    "next_review": "Board date Dec-26 (first-review staff-level agreement 06-Oct-26, SDR 26.43m)",
+    "next_review": "Board date Dec-26 following first-review staff-level agreement of 06-Oct-26 (SDR 26.43m disbursement)",
     "risk_of_debt_distress": null,
-    "source": "IMF press release 06-Oct-26 via Gemini position (no URL, unverified)",
+    "source": "Gemini via adjudicated document; IMF press release not retrieved, unverified (Low-Medium)",
     "asof": "08-Oct-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Eastern DRC/M23 conflict is the main tail risk to donor budget support and diplomatic standing via possible sanctions or aid conditionality; current status not verified.",
-    "source": "Adjudicated document, 08-Oct-26",
+    "note": "Eastern DRC/M23 conflict is the main tail risk to donor budget support and diplomatic standing (sanctions or aid conditionality); current status not verified",
+    "source": "Adjudicated document, both models (Medium for risk, Low for status)",
     "asof": "08-Oct-26"
   },
   "indicators": {
     "real_gdp_growth_pct": {
       "value": 9.7,
-      "period": "H1-26",
-      "source": "NISR via Gemini position (reported, no URL, unverified)",
+      "period": "H1 2026",
+      "source": "NISR as reported by Gemini in the adjudicated document, no URL, unverified (Low-Medium)",
       "asof": "08-Oct-26"
     },
     "cpi_latest_yoy_pct": {
       "value": 15.7,
       "period": "Aug-26",
-      "source": "BNR/NISR via Gemini position (reported, no URL, unverified)",
+      "source": "BNR/NISR as reported by Gemini in the adjudicated document, no URL, unverified (Low-Medium)",
       "asof": "08-Oct-26"
     },
     "policy_rate_pct": {
       "value": 8.75,
       "period": "Aug-26",
-      "source": "BNR MPC statement via Gemini position (reported, no URL, unverified)",
+      "source": "BNR MPC statement as reported by Gemini in the adjudicated document, no URL, unverified (Low-Medium)",
       "asof": "08-Oct-26"
     },
     "current_account_pct_gdp": {
       "value": -15,
       "period": "2026E",
-      "source": "Gemini position, 'near 15% of GDP' deficit (reported, no URL, unverified)",
+      "source": "Reported 'near 15% of GDP' deficit, Gemini via adjudicated document, no URL, unverified (Low-Medium)",
       "asof": "08-Oct-26"
     },
     "gross_reserves_usd_bn": {
       "value": 2.2,
-      "definition": "not stated (reported ~US$2.2bn)",
+      "definition": "not stated in source (reported ~US$2.2bn)",
       "period": "2026",
-      "source": "Gemini position (reported, no URL, unverified)",
+      "source": "Gemini via adjudicated document, no URL, unverified (Low-Medium)",
       "asof": "08-Oct-26"
     },
     "import_cover_months": {
       "value": 4.0,
       "period": "2026",
-      "source": "Gemini position (reported ~4.0 months, no URL, unverified)",
+      "source": "Gemini via adjudicated document, no URL, unverified (Low-Medium)",
       "asof": "08-Oct-26"
     },
     "external_debt_pct_gdp": {
@@ -81,20 +81,20 @@
     },
     "fiscal_balance_pct_gdp": {
       "value": -4.8,
-      "period": "FY2025/26",
-      "source": "IMF release via Gemini position (reported, no URL, unverified)",
+      "period": "FY2025/26 (fiscal-year convention not stated)",
+      "source": "IMF release as reported by Gemini via adjudicated document, no URL, unverified (Low)",
       "asof": "08-Oct-26"
     },
     "eurobonds_outstanding_usd_bn": {
       "value": 0.62,
-      "period": "Aug-21 issue, 5.50% due 2031",
-      "source": "Recalled by both models; prospectus not retrieved (Medium confidence)",
+      "period": "Aug-21 issue, outstanding",
+      "source": "Recalled by both models (US$620m 5.50% due Aug-31); prospectus not retrieved (Medium)",
       "asof": "08-Oct-26"
     },
     "next_eurobond_maturity": {
-      "value": "09-Aug-31",
-      "note": "09-Aug-31, US$620m 5.50% bullet; date inferred from Bloomberg ticker 'RWANDA 5.5 08/09/31' in open items, prospectus not retrieved",
-      "source": "Adjudicated document, 08-Oct-26 (Medium confidence)",
+      "value": "Aug-31",
+      "note": "US$620m 5.50% bullet; exact day not confirmed in source (open item 4 cites 08/09/31)",
+      "source": "Adjudicated document; prospectus not retrieved (Medium)",
       "asof": "08-Oct-26"
     },
     "fdi_net_pct_gdp": {
@@ -169,12 +169,12 @@
     }
   },
   "series_sources": {
-    "real_gdp_growth_pct": "2026E is Fitch forecast via Gemini position, no URL, unverified, 08-Oct-26",
-    "current_account_pct_gdp": "Gemini position, reported near -15% for 2026, no URL, unverified, 08-Oct-26",
+    "real_gdp_growth_pct": "Fitch 2026 forecast as reported by Gemini via adjudicated document, no URL, unverified, 08-Oct-26",
+    "current_account_pct_gdp": "Reported by Gemini position, no URL, unverified, 08-Oct-26",
     "fiscal_balance_pct_gdp": "Gemini position citing IMF (FY2025/26) and Fitch (FY2026/27), unverified, 08-Oct-26",
     "gov_debt_pct_gdp": "Fitch, 11-Sep-26",
     "external_debt_pct_gdp": "Fitch, 11-Sep-26",
-    "gross_reserves_usd_bn": "Gemini position, reported ~US$2.2bn, definition not stated, no URL, unverified, 08-Oct-26"
+    "gross_reserves_usd_bn": "Reported by Gemini position, no URL, unverified, 08-Oct-26"
   },
   "slug": "rwanda",
   "asof": "09-Oct-26",
@@ -1743,6 +1743,228 @@
           "value": "09-Aug-31",
           "note": "09-Aug-31, US$620m 5.50% bullet; date inferred from Bloomberg ticker 'RWANDA 5.5 08/09/31' in open items, prospectus not retrieved",
           "source": "Adjudicated document, 08-Oct-26 (Medium confidence)",
+          "asof": "08-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 5.909,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 17.336,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -1.98,
+          "period": "2025-Q3 to 2026-Q2",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 1.795,
+          "period": "2026-08",
+          "source": "IMF reserve template",
+          "asof": "08-Oct-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": -6.95,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": -16.4,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-01 to 2026-01 (IMF International Liquidity)",
+        "ctot_12m_pct": -0.0,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1853_rwanda-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": 9.7,
+          "period": "H1 2026",
+          "source": "NISR as reported by Gemini position, no URL, unverified",
+          "asof": "08-Oct-26"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 15.7,
+          "period": "Aug-26",
+          "source": "BNR/NISR as reported by Gemini position, no URL, unverified",
+          "asof": "08-Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 8.75,
+          "period": "Aug-26",
+          "source": "BNR MPC statement as reported by Gemini position, no URL, unverified",
+          "asof": "08-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -15.0,
+          "period": "2026E",
+          "source": "Reported near 15% of GDP deficit (Gemini position, no URL, unverified)",
+          "asof": "08-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 2.2,
+          "definition": "definition not stated (reported ~US$2.2bn)",
+          "period": "2026",
+          "source": "Reported by Gemini position, no URL, unverified",
+          "asof": "08-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 4.0,
+          "period": "2026",
+          "source": "Reported by Gemini position, no URL, unverified",
+          "asof": "08-Oct-26"
+        },
+        "external_debt_pct_gdp": {
+          "value": 63.0,
+          "definition": "net external debt % GDP",
+          "period": "2026E",
+          "source": "Fitch",
+          "asof": "11-Sep-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 77.5,
+          "definition": "central government debt (~75-80% band)",
+          "period": "2026E",
+          "source": "Fitch",
+          "asof": "11-Sep-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -4.8,
+          "period": "FY2025/26",
+          "source": "IMF release as reported by Gemini position, no URL, unverified; fiscal-year convention not stated",
+          "asof": "08-Oct-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 0.62,
+          "period": "2026",
+          "source": "US$620m 5.50% bond issued Aug-21, recalled by both models, prospectus not retrieved",
+          "asof": "08-Oct-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "Aug 2031",
+          "note": "US$620m 5.50% bullet; exact day not confirmed (BBG ticker shows 08/09/31)",
+          "source": "Both models' recall, prospectus not retrieved",
+          "asof": "08-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 5.909,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 17.336,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -1.98,
+          "period": "2025-Q3 to 2026-Q2",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 1.795,
+          "period": "2026-08",
+          "source": "IMF reserve template",
+          "asof": "08-Oct-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": -6.95,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": -16.4,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-01 to 2026-01 (IMF International Liquidity)",
+        "ctot_12m_pct": -0.0,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1853_rwanda-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": 9.7,
+          "period": "H1 2026",
+          "source": "NISR as reported by Gemini in the adjudicated document, no URL, unverified (Low-Medium)",
+          "asof": "08-Oct-26"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 15.7,
+          "period": "Aug-26",
+          "source": "BNR/NISR as reported by Gemini in the adjudicated document, no URL, unverified (Low-Medium)",
+          "asof": "08-Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 8.75,
+          "period": "Aug-26",
+          "source": "BNR MPC statement as reported by Gemini in the adjudicated document, no URL, unverified (Low-Medium)",
+          "asof": "08-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -15,
+          "period": "2026E",
+          "source": "Reported 'near 15% of GDP' deficit, Gemini via adjudicated document, no URL, unverified (Low-Medium)",
+          "asof": "08-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 2.2,
+          "definition": "not stated in source (reported ~US$2.2bn)",
+          "period": "2026",
+          "source": "Gemini via adjudicated document, no URL, unverified (Low-Medium)",
+          "asof": "08-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 4.0,
+          "period": "2026",
+          "source": "Gemini via adjudicated document, no URL, unverified (Low-Medium)",
+          "asof": "08-Oct-26"
+        },
+        "external_debt_pct_gdp": {
+          "value": 63.0,
+          "definition": "net external debt % GDP",
+          "period": "2026E",
+          "source": "Fitch",
+          "asof": "11-Sep-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 77.5,
+          "definition": "central government debt (~75-80% band)",
+          "period": "2026E",
+          "source": "Fitch",
+          "asof": "11-Sep-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -4.8,
+          "period": "FY2025/26 (fiscal-year convention not stated)",
+          "source": "IMF release as reported by Gemini via adjudicated document, no URL, unverified (Low)",
+          "asof": "08-Oct-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 0.62,
+          "period": "Aug-21 issue, outstanding",
+          "source": "Recalled by both models (US$620m 5.50% due Aug-31); prospectus not retrieved (Medium)",
+          "asof": "08-Oct-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "Aug-31",
+          "note": "US$620m 5.50% bullet; exact day not confirmed in source (open item 4 cites 08/09/31)",
+          "source": "Adjudicated document; prospectus not retrieved (Medium)",
           "asof": "08-Oct-26"
         },
         "fdi_net_pct_gdp": {
