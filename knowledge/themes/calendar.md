@@ -45,6 +45,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 | tbc | NBR (Romania) | Autumn monetary policy meeting date not found in the sources checked (2025 pattern: 12-Nov); confirm on bnr.ro | [REZA] or next Romania run |
 
 ## From runs (date first; verify before relying on it)
+- 19-Oct-26: China 3Q26 GDP release (position source, unverified against the NBS calendar, 09-Oct-26) (China and EM: growth, commodity demand and China as a creditor, run 2026-10-09_0826_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
 - 23-Oct-26: Medium-Term Budget Policy Statement (MTBPS) tabled by Finance Minister Enoch Godongwana (National Treasury, Oct-26) (south-africa, re-filed)
 - 12-Nov-26: Central Bank of Egypt Monetary Policy Committee (MPC) interest rate decision meeting (CBE, Oct-26). (Egypt sovereign credit, run 2026-10-08_1145_egypt-sovereign-credit)
 - 15-Nov-26: BNA Monetary Policy Committee meeting (BNA, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
