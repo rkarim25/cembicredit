@@ -99,6 +99,15 @@
     "path": "reports/local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank.md"
   },
   {
+    "topic": "MTN Group",
+    "slug": "mtn-group",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 6,
+    "run": "2026-10-09_0918_mtn-group",
+    "path": "reports/mtn-group.md"
+  },
+  {
     "topic": "Oil and EM credit: exporters versus importers",
     "slug": "oil-and-em-credit-exporters-versus-importers",
     "updated": "09-Oct-26",

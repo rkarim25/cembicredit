@@ -107,3 +107,4 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - Day-of-week check: 21-Nov-26 is a Saturday and not a valid MPC date; the November meeting date is to be confirmed (computed, 08-Oct-26) (South Africa sovereign credit, run 2026-10-08_2106_south-africa-sovereign-credit)
 - Aug-27: general election (Government of Angola, May-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - Dec-26 Egypt EFF scheduled end. About USD 18.3bn of GCC deposits are reported barred from withdrawal until then (New Arab, 22-Sep-26) (Gulf support and anchors for EM sovereigns, run 2026-10-09_0838_gulf-support-and-anchors-for-em-sovereigns)
+- H2-26: expected close of the IHS Towers acquisition, with a 30% sell-down of IHS Nigeria to local investors (MTN H1-26 release, 24-Aug-26) (MTN Group, run 2026-10-09_0918_mtn-group)
