@@ -27,3 +27,13 @@ How the official sector shapes EM sovereign outcomes. Facts here are structural;
 
 ## Multilateral development banks
 - World Bank (IDA and IBRD), AfDB, EBRD, AIIB, Afreximbank (a contested preferred-creditor claim in Ghana and Zambia cases). Preferred creditor status in practice means their debt is excluded from restructurings; the larger their share, the smaller the pie for bondholders.
+
+## Dated facts log
+
+### 09-Oct-26 (run 2026-10-09_0833_frontier-sovereign-restructurings-common-framework-pipeline-)
+- [Restructuring] Ethiopia agreed on 28-29 Jun-26 to swap its defaulted $1bn Eurobond for an $880m 6.15% bond due 15-Jul-29, pay $99.37m of missed coupons and a 0.5% consent fee, and issue a tradable New Money Warrant for up to $1bn of future issuance (Capital Ethiopia and The EastAfrican, Jun-Aug-26)
+- [Restructuring] The Ethiopia OCC validated comparability of treatment on 22-Aug-26 and said net relief remains relatively low (Capital Ethiopia, 22-Aug-26)
+- [Restructuring] GSDR 6th progress report: standstill to programme approval 2.1 to 10.5 months; approval to first review 6.0 to 17.7 months; bond exchange closure 16.0 to 24.0 months (IMF GSDR, 15-Apr-26)
+- [Restructuring] Ethiopia, Ghana, Zambia, Sri Lanka and Suriname are described as largely completed (IMF GSDR, 15-Apr-26)
+- [Snapshot] Senegal: staff-level agreement on a 36-month ECF of about $2.2bn (475% of quota), announced 01-Sep-26 (dabafinance.com and capmad.com, Sep-26)
+- [Snapshot] Mozambique: Fitch CC, sole Eurobond $900m 9% due Sep-2031, Fitch expects an IMF programme by early 2027 (african-markets.com and clubofmozambique.com, 2026)
