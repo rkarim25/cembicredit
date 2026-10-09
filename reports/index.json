@@ -72,6 +72,15 @@
     "path": "reports/kuwait-sovereign-credit.md"
   },
   {
+    "topic": "Lebanon sovereign credit",
+    "slug": "lebanon-sovereign-credit",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 7,
+    "run": "2026-10-09_0738_lebanon-sovereign-credit",
+    "path": "reports/lebanon-sovereign-credit.md"
+  },
+  {
     "topic": "Local-currency EM rates: ex-ante real rates and FX carry ranking",
     "slug": "local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank",
     "updated": "09-Oct-26",

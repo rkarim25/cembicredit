@@ -63901,39 +63901,47 @@ window.SOVEREIGNS = [
  {
   "slug": "lebanon",
   "country": "Lebanon",
-  "region": "Middle East (EMBI, in default since 2020)",
+  "region": "MENA",
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": null,
-  "commodity": null,
+  "fx_regime": "fixed official rate (89,500 LBP per USD, unchanged Oct-25 to Mar-26)",
+  "commodity": "Structural goods importer (goods balance -3.08 to -5.01 USD bn a quarter in 2025), financed by remittances and FDI; IMF commodity terms of trade index fell 4.6% from May-25 to May-26",
   "ratings": {},
-  "imf": {},
+  "imf": {
+   "programme": null,
+   "size_usd_bn": null,
+   "approved": null,
+   "next_review": null,
+   "risk_of_debt_distress": null,
+   "source": "Reuters via The Star, 28-Sep-26: IMF mission 15-18 Sep-26 ended without staff-level agreement",
+   "asof": "28-Sep-26"
+  },
   "politics": {},
   "ind": {
    "real_gdp_growth_pct": 4.0,
    "current_account_pct_gdp": -22.5,
    "gov_debt_pct_gdp": 139.4,
    "fiscal_balance_pct_gdp": 3.3,
-   "nominal_gdp_usd_bn": 34.497,
-   "gross_reserves_usd_bn": 38.164,
-   "import_cover_months": 13.603,
+   "nominal_gdp_usd_bn": 34.5,
+   "gross_reserves_usd_bn": 38.16,
+   "import_cover_months": 13.6,
    "fdi_net_pct_gdp": 6.792,
-   "cpi_latest_yoy_pct": 16.6565,
+   "cpi_latest_yoy_pct": 16.7,
    "current_account_4q_usd_bn": -9.16,
    "reserves_12m_pct": 31.2,
    "ctot_12m_pct": -4.6
   },
   "src": {
-   "real_gdp_growth_pct": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "current_account_pct_gdp": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fiscal_balance_pct_gdp": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)",
-   "import_cover_months": "World Bank WDI 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
+   "real_gdp_growth_pct": "IMF WEO 09-Oct-26",
+   "current_account_pct_gdp": "IMF WEO (adjudicated document, 09-Oct-26) 09-Oct-26",
+   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | general government debt, IMF WEO",
+   "fiscal_balance_pct_gdp": "IMF WEO 09-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 09-Oct-26",
+   "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | gross incl. gold (gold 28.34, ex gold 9.82)",
+   "import_cover_months": "World Bank WDI (distorted by gold) 09-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "cpi_latest_yoy_pct": "IMF CPI database 09-Oct-26 | IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)",
+   "cpi_latest_yoy_pct": "IMF CPI database 09-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 09-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2024-03 to 2025-03 (IMF International Liquidity))",
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
@@ -63944,7 +63952,23 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -4.6,
    "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
   },
-  "series": {},
+  "series": {
+   "real_gdp_growth_pct": {
+    "2025E": 4.0
+   },
+   "current_account_pct_gdp": {
+    "2025E": -22.5
+   },
+   "fiscal_balance_pct_gdp": {
+    "2025E": 3.3
+   },
+   "gov_debt_pct_gdp": {
+    "2025E": 139.4
+   },
+   "nominal_gdp_usd_bn": {
+    "2025E": 34.5
+   }
+  },
   "hist": {
    "real_gdp_growth_pct": {
     "2005": 2.5,
@@ -65554,18 +65578,18 @@ window.SOVEREIGNS = [
    "gov_debt_pct_gdp": "2025E",
    "fiscal_balance_pct_gdp": "2025E",
    "nominal_gdp_usd_bn": "2025E",
-   "gross_reserves_usd_bn": "2025-03",
+   "gross_reserves_usd_bn": "Mar-25",
    "import_cover_months": "2023",
    "fdi_net_pct_gdp": "2024",
-   "cpi_latest_yoy_pct": "2026-08",
+   "cpi_latest_yoy_pct": "Aug-26",
    "current_account_4q_usd_bn": "2025-Q1 to 2025-Q4",
    "reserves_12m_pct": "derived",
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": null,
-   "updated": null,
-   "status": null
+   "open_items": "7",
+   "updated": "09-Oct-26",
+   "status": "Draft"
   }
  },
  {

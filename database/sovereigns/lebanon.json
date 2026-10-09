@@ -6,50 +6,45 @@
       "value": 4,
       "period": "2025E",
       "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "asof": "09-Oct-26"
     },
     "current_account_pct_gdp": {
       "value": -22.5,
       "period": "2025E",
-      "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "source": "IMF WEO (adjudicated document, 09-Oct-26)",
+      "asof": "09-Oct-26"
     },
     "gov_debt_pct_gdp": {
       "value": 139.4,
+      "definition": "general government debt, IMF WEO",
       "period": "2025E",
       "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "asof": "09-Oct-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": 3.3,
       "period": "2025E",
       "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "asof": "09-Oct-26"
     },
     "nominal_gdp_usd_bn": {
-      "value": 34.497,
+      "value": 34.5,
       "period": "2025E",
       "source": "IMF WEO",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "asof": "09-Oct-26"
     },
     "gross_reserves_usd_bn": {
-      "value": 38.164,
-      "period": "2025-03",
+      "value": 38.16,
+      "definition": "gross incl. gold (gold 28.34, ex gold 9.82)",
+      "period": "Mar-25",
       "source": "IMF International Liquidity",
-      "asof": "09-Oct-26",
-      "definition": "Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)"
+      "asof": "09-Oct-26"
     },
     "import_cover_months": {
-      "value": 13.603,
+      "value": 13.6,
       "period": "2023",
-      "source": "World Bank WDI",
-      "asof": "09-Oct-26",
-      "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+      "source": "World Bank WDI (distorted by gold)",
+      "asof": "09-Oct-26"
     },
     "fdi_net_pct_gdp": {
       "value": 6.792,
@@ -59,11 +54,10 @@
       "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
     },
     "cpi_latest_yoy_pct": {
-      "value": 16.6565,
-      "period": "2026-08",
+      "value": 16.7,
+      "period": "Aug-26",
       "source": "IMF CPI database",
-      "asof": "09-Oct-26",
-      "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
+      "asof": "09-Oct-26"
     },
     "current_account_4q_usd_bn": {
       "value": -9.16,
@@ -74,8 +68,30 @@
     }
   },
   "ratings": {},
-  "series": {},
-  "series_sources": {},
+  "series": {
+    "real_gdp_growth_pct": {
+      "2025E": 4.0
+    },
+    "current_account_pct_gdp": {
+      "2025E": -22.5
+    },
+    "fiscal_balance_pct_gdp": {
+      "2025E": 3.3
+    },
+    "gov_debt_pct_gdp": {
+      "2025E": 139.4
+    },
+    "nominal_gdp_usd_bn": {
+      "2025E": 34.5
+    }
+  },
+  "series_sources": {
+    "real_gdp_growth_pct": "IMF WEO, 09-Oct-26",
+    "current_account_pct_gdp": "IMF WEO, 09-Oct-26",
+    "fiscal_balance_pct_gdp": "IMF WEO, 09-Oct-26",
+    "gov_debt_pct_gdp": "IMF WEO, 09-Oct-26",
+    "nominal_gdp_usd_bn": "IMF WEO, 09-Oct-26"
+  },
   "series_official": {
     "real_gdp_growth_pct": {
       "2005": 2.5,
@@ -1684,5 +1700,104 @@
     "secondary_income_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Secondary income (incl. remittances), net, USD bn",
     "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
   },
-  "region": "Middle East (EMBI, in default since 2020)"
+  "region": "MENA",
+  "history": [
+    {
+      "asof": "09-Oct-26",
+      "run": null,
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": 4,
+          "period": "2025E",
+          "source": "IMF WEO",
+          "asof": "09-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -22.5,
+          "period": "2025E",
+          "source": "IMF WEO (adjudicated document, 09-Oct-26)",
+          "asof": "09-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 139.4,
+          "definition": "general government debt, IMF WEO",
+          "period": "2025E",
+          "source": "IMF WEO",
+          "asof": "09-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": 3.3,
+          "period": "2025E",
+          "source": "IMF WEO",
+          "asof": "09-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 34.5,
+          "period": "2025E",
+          "source": "IMF WEO",
+          "asof": "09-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 38.16,
+          "definition": "gross incl. gold (gold 28.34, ex gold 9.82)",
+          "period": "Mar-25",
+          "source": "IMF International Liquidity",
+          "asof": "09-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 13.6,
+          "period": "2023",
+          "source": "World Bank WDI (distorted by gold)",
+          "asof": "09-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 6.792,
+          "period": "2024",
+          "source": "World Bank WDI",
+          "asof": "09-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 16.7,
+          "period": "Aug-26",
+          "source": "IMF CPI database",
+          "asof": "09-Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -9.16,
+          "period": "2025-Q1 to 2025-Q4",
+          "source": "IMF BOP",
+          "asof": "09-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "reserves_12m_pct": 31.2,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2024-03 to 2025-03 (IMF International Liquidity)",
+        "ctot_12m_pct": -4.6,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    }
+  ],
+  "fiscal_year": "Calendar year",
+  "fx_regime": {
+    "value": "fixed official rate (89,500 LBP per USD, unchanged Oct-25 to Mar-26)",
+    "source": "BIS statistics API",
+    "asof": "09-Oct-26"
+  },
+  "commodity_exposure": {
+    "value": "Structural goods importer (goods balance -3.08 to -5.01 USD bn a quarter in 2025), financed by remittances and FDI; IMF commodity terms of trade index fell 4.6% from May-25 to May-26",
+    "source": "IMF BOP; IMF CTOT",
+    "asof": "09-Oct-26"
+  },
+  "imf": {
+    "programme": null,
+    "size_usd_bn": null,
+    "approved": null,
+    "next_review": null,
+    "risk_of_debt_distress": null,
+    "source": "Reuters via The Star, 28-Sep-26: IMF mission 15-18 Sep-26 ended without staff-level agreement",
+    "asof": "28-Sep-26"
+  },
+  "run": "2026-10-09_0738_lebanon-sovereign-credit"
 }
