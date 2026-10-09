@@ -23,10 +23,17 @@ _USD m unless the record says otherwise; audited years only._
 - Benchmark bond: KZOK 5.75% 2047.
 - Model: `models/KazMunayGas_Credit_Model.xlsx`; Cognitive Credit: not covered or not downloaded.
 - Record last updated: 2026-09-19.
+- S&P upgraded KMG to BBB from BBB-, stable outlook, with the stand-alone credit profile raised to bbb- from bb+ (KMG rating notice on KASE, 02-Sep-26) [09-Oct-26]
+- Moody's Baa1 stable reported by search summary, unconfirmed; repo shows Baa2 (Trend.az snippet, undated) [09-Oct-26]
 
 ## 1. Business and jurisdiction
+- Kazakh oil and condensate output fell 14% in Jul-26 from June; 2026 national target cut to 96 mt from 98 mt (BOE Report, 03-Aug-26) [09-Oct-26]
+- KMG acquired Phystech II in Jun-26 and divested it effective 25-Sep-26 (Trend.az, Sep-26) [09-Oct-26]
 ## 2. Financials and liquidity
+- H1-26: revenue KZT 5,568bn, EBITDA KZT 1,655bn, net profit KZT 904bn, free cash flow KZT 765bn, JV and associate dividends KZT 500bn (KMG H1-26 release, 18-Aug-26) [09-Oct-26]
+- Net debt KZT 983bn at H1-26, up 162%, after buying Samruk-Kazyna coupon bonds (KMG H1-26 release summary, 18-Aug-26) [09-Oct-26]
 ## 3. Capital structure and documentation
+- USD 500m of the USD 1.25bn 5.375% 2030 notes accepted in the early tender, from USD 658.075m tendered; early price USD 1,012 per 1,000, late price USD 982 (KMG press release, 02-Sep-26) [09-Oct-26]
 ## 4. Ownership, governance, sovereign links
 ## 5. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
@@ -40,3 +47,12 @@ _(levels from Reza via [BBG]; never from memory)_
 
 ## Dated facts log
 _(no dated notes in the record yet)_
+
+### 09-Oct-26 (run 2026-10-09_0926_kazmunaygas)
+- [Snapshot] S&P upgraded KMG to BBB from BBB-, stable outlook, with the stand-alone credit profile raised to bbb- from bb+ (KMG rating notice on KASE, 02-Sep-26)
+- [Snapshot] Moody's Baa1 stable reported by search summary, unconfirmed; repo shows Baa2 (Trend.az snippet, undated)
+- [Financials] H1-26: revenue KZT 5,568bn, EBITDA KZT 1,655bn, net profit KZT 904bn, free cash flow KZT 765bn, JV and associate dividends KZT 500bn (KMG H1-26 release, 18-Aug-26)
+- [Financials] Net debt KZT 983bn at H1-26, up 162%, after buying Samruk-Kazyna coupon bonds (KMG H1-26 release summary, 18-Aug-26)
+- [Capital] USD 500m of the USD 1.25bn 5.375% 2030 notes accepted in the early tender, from USD 658.075m tendered; early price USD 1,012 per 1,000, late price USD 982 (KMG press release, 02-Sep-26)
+- [Business] Kazakh oil and condensate output fell 14% in Jul-26 from June; 2026 national target cut to 96 mt from 98 mt (BOE Report, 03-Aug-26)
+- [Business] KMG acquired Phystech II in Jun-26 and divested it effective 25-Sep-26 (Trend.az, Sep-26)

@@ -81,6 +81,15 @@
     "path": "reports/kazakhstan-sovereign-credit.md"
   },
   {
+    "topic": "KazMunayGas",
+    "slug": "kazmunaygas",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 7,
+    "run": "2026-10-09_0926_kazmunaygas",
+    "path": "reports/kazmunaygas.md"
+  },
+  {
     "topic": "Kuwait sovereign credit",
     "slug": "kuwait-sovereign-credit",
     "updated": "09-Oct-26",
