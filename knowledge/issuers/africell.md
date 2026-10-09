@@ -11,9 +11,9 @@ _Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stor
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2023A | 356.2 | 114.3 | 10.5 | 483.6 | 4.23 | 16.25 |
-| 2024A | 356.0 | 79.5 | -33.9 | 483.6 | 6.08 | 4.97 |
-| 2025A | 408.6 | 138.6 | -38.8 | 515.4 | 3.72 | 3.08 |
+| 2023A | 356.2 | 114.3 | 10.5 | 421.0 | 3.68 | 16.2 |
+| 2024A | 356.0 | 79.5 | -33.9 | 483.6 | 6.08 | 5.0 |
+| 2025A | 408.6 | 138.6 | -38.8 | 515.4 | 3.72 | 3.1 |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=africell) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/africell.json)

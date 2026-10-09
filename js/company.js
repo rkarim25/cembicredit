@@ -1,3 +1,18 @@
+// Recovery prices and similar point estimates are shown only when the record carries them; the former fallbacks
+// (45 / 85 / 65 / 88) were invented defaults and are gone.
+function recPx(rec, field) {
+  const v = rec ? rec[field] : null;
+  return (v == null || v === '' || Number.isNaN(Number(v))) ? 'n/a' : '$' + Number(v).toFixed(2);
+}
+// Broker snapshots, consensus and analyst-error logs count only when they name a source document and a date.
+function sourcedBrokers(list) {
+  return (list || []).filter(s => s && (s.source_document || s.source) && (s.report_date || s.date) && !/consensus sell-side|composite/i.test(s.broker || ''));
+}
+function isLegacyRecord(item) {
+  const fin = (item && item.financials_multi_year) || [];
+  return !fin.some(f => f && f.source);
+}
+
 // Dedicated Company Page Controller - CEMBI Credit Platform
 let currentIssuer = null;
 let currentModelSection = 'all'; // 'all', 'pnl', 'fcf', 'bs', 'ratios'
@@ -126,6 +141,26 @@ function renderHeroHeader() {
   const nextEarn = currentIssuer.next_earnings_release || {};
 
   document.getElementById('hero-company-name').textContent = m.name;
+
+  (function () {
+
+    const old = document.getElementById('legacy-banner'); if (old) old.remove();
+
+    const hero = document.getElementById('hero-company-name');
+
+    if (hero && typeof isLegacyRecord === 'function' && isLegacyRecord(currentIssuer)) {
+
+      const b = document.createElement('div'); b.id = 'legacy-banner';
+
+      b.style.cssText = 'margin:8px 0 12px;padding:8px 12px;border:1px solid #c77d00;border-radius:8px;background:rgba(199,125,0,.10);font-size:12.5px;line-height:1.45';
+
+      b.innerHTML = '<strong>Legacy record.</strong> Financials, forecasts, broker views and recovery estimates on this page were built before the research pipeline and are not verified against filings. Treat the numbers as indicative. Rebuild with <code>/run credit ' + ((currentIssuer.metadata || {}).name || '') + '</code> or a Cognitive Credit download.';
+
+      hero.insertAdjacentElement('afterend', b);
+
+    }
+
+  })();
   document.getElementById('hero-ticker').textContent = m.ticker;
   document.getElementById('hero-sector').textContent = m.sector;
   document.getElementById('hero-country').textContent = m.country;
@@ -1381,7 +1416,7 @@ function openCellContextMenu(clientX, clientY, coord, metricKey, period) {
   const deskObs = f.observations ? f.observations[metricKey] : null;
 
   // Broker coverage for this period/metric (e.g. 2025E)
-  const brokers = currentIssuer.broker_snapshots || [];
+  const brokers = sourcedBrokers(currentIssuer.broker_snapshots);
   const brokerEstimates = [];
   brokers.forEach(b => {
     const pModel = (b.audited_model && b.audited_model[period]) || (b.raw_model && b.raw_model[period]);
@@ -2039,10 +2074,11 @@ function renderCapitalStructure() {
 function renderHistoricalTrends() {
   const tbody = document.getElementById('history-tbody');
   const ticker = currentIssuer.metadata.ticker;
-  const histData = (window.CREDIT_HISTORY_DATA && window.CREDIT_HISTORY_DATA[ticker]) ? window.CREDIT_HISTORY_DATA[ticker].snapshots : [];
+  // only snapshots that name a source are history (legacy desk series carried none)
+  const histData = ((window.CREDIT_HISTORY_DATA && window.CREDIT_HISTORY_DATA[ticker]) ? (window.CREDIT_HISTORY_DATA[ticker].snapshots || []) : []).concat((currentIssuer && currentIssuer.market_history) || []).filter(h => h && h.source && h.date);
 
   if (!histData || histData.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="10" style="text-align:center; color:var(--text-dim); padding:20px;">No historical snapshots found for ${ticker}.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="10" style="text-align:center; color:var(--text-dim); padding:20px;">No sourced market history for ${ticker}; capture levels via [BBG] and the next run files them with their date.</td></tr>`;
     return;
   }
 
@@ -2250,11 +2286,11 @@ function renderCovenantsAndRecovery() {
     <div style="background:var(--company-card-bg); border:1px solid var(--company-card-border); border-radius:8px; padding:16px;">
       <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
         <span style="color:var(--text-muted);">Distressed Floor Price:</span>
-        <strong style="color:#f87171; font-size:16px; font-family:'JetBrains Mono', monospace;">$${(rec.distressed_floor_px || 65.0).toFixed(2)}</strong>
+        <strong style="color:#f87171; font-size:16px; font-family:'JetBrains Mono', monospace;">${recPx(rec, 'distressed_floor_px')}</strong>
       </div>
       <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
         <span style="color:var(--text-muted);">Base Case Recovery Price:</span>
-        <strong style="color:#34d399; font-size:16px; font-family:'JetBrains Mono', monospace;">$${(rec.base_case_px || 88.0).toFixed(2)}</strong>
+        <strong style="color:#34d399; font-size:16px; font-family:'JetBrains Mono', monospace;">${recPx(rec, 'base_case_px')}</strong>
       </div>
       <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
         <span style="color:var(--text-muted);">Senior Debt Coverage:</span>
@@ -3002,9 +3038,9 @@ function renderGuidanceAndNews() {
 // ================= BROKER INTELLIGENCE & ANALYST ERROR AUDIT =================
 function renderBrokerAuditTab() {
   if (!currentIssuer) return;
-  const snapshots = currentIssuer.broker_snapshots || [];
-  const mistakes = currentIssuer.analyst_mistakes_caught || [];
-  const consensus = currentIssuer.broker_consensus || {};
+  const snapshots = sourcedBrokers(currentIssuer.broker_snapshots);
+  const mistakes = (currentIssuer.analyst_mistakes_caught || []).filter(e => e && (e.source_document || e.source));
+  const consensus = (currentIssuer.broker_consensus && currentIssuer.broker_consensus.source) ? currentIssuer.broker_consensus : {};
   const f25 = (currentIssuer.financials || []).find(f => f.period === '2025E') || {};
 
   // Update tab badge counter

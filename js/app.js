@@ -223,6 +223,30 @@ function ratio(row, field, dec, suffix) {
   return (v == null || v === '' || Number.isNaN(Number(v))) ? 'n/a' : Number(v).toFixed(dec == null ? 2 : dec) + (suffix || 'x');
 }
 
+// Market history is data only when each snapshot names its source (a Reza [BBG] capture, a Cognitive Credit download or a
+// run). Legacy desk snapshots and js/history_data.js carry no source and are not shown as history.
+function sourcedHistory(item) {
+  const own = (item && item.market_history) || [];
+  const t = item && item.metadata ? item.metadata.ticker : null;
+  const ext = (window.CREDIT_HISTORY_DATA && t && window.CREDIT_HISTORY_DATA[t]) ? (window.CREDIT_HISTORY_DATA[t].snapshots || []) : [];
+  return own.concat(ext).filter(h => h && h.source && h.date);
+}
+
+// Recovery prices and similar point estimates are shown only when the record carries them; the former fallbacks
+// (45 / 85 / 65 / 88) were invented defaults and are gone.
+function recPx(rec, field) {
+  const v = rec ? rec[field] : null;
+  return (v == null || v === '' || Number.isNaN(Number(v))) ? 'n/a' : '$' + Number(v).toFixed(2);
+}
+// Broker snapshots, consensus and analyst-error logs count only when they name a source document and a date.
+function sourcedBrokers(list) {
+  return (list || []).filter(s => s && (s.source_document || s.source) && (s.report_date || s.date) && !/consensus sell-side|composite/i.test(s.broker || ''));
+}
+function isLegacyRecord(item) {
+  const fin = (item && item.financials_multi_year) || [];
+  return !fin.some(f => f && f.source);
+}
+
 function provenanceBadge(item) {
   const m = item.metadata || {};
   const fin = item.financials_multi_year || [];
@@ -300,8 +324,8 @@ function renderTable() {
         <td class="num"><strong>${f24.net_leverage != null ? f24.net_leverage.toFixed(2) + 'x' : 'n/a'}</strong></td>
         <td class="num">${f25.net_leverage != null ? f25.net_leverage.toFixed(2) + 'x' : 'n/a'}</td>
         <td class="num">${ratio(f24, 'interest_coverage', 2)}</td>
-        <td class="num">$${(rec.distressed_floor_px || 0).toFixed(2)}</td>
-        <td class="num">$${(rec.base_case_px || 0).toFixed(2)}</td>
+        <td class="num">${recPx(rec, 'distressed_floor_px')}</td>
+        <td class="num">${recPx(rec, 'base_case_px')}</td>
       `;
     } else {
       html += `
@@ -362,8 +386,8 @@ function renderTable() {
                 <span style="color:#cbd5e1;">|</span>
                 <span style="color:var(--text-dim);">Spread:</span> <strong style="color:var(--accent-blue);">+${m.spread_bp} bp</strong>
                 ${(() => {
-                  const hist = item.market_history || (window.CREDIT_HISTORY_DATA && window.CREDIT_HISTORY_DATA[m.ticker] ? window.CREDIT_HISTORY_DATA[m.ticker].snapshots : []);
-                  if (!hist || hist.length < 2) return '';
+                  const hist = sourcedHistory(item);
+                  if (!hist || hist.length < 2) return `<span style="font-size:10px; padding:2px 6px; border-radius:3px; border:1px solid #cbd5e1; color:#64748b; margin-left:4px; font-weight:normal;" title="No sourced spread history on record; capture levels via [BBG]">history: none sourced</span>`;
                   const latest = hist[hist.length - 1].spread_bp;
                   const prior90d = hist[Math.max(0, hist.length - 2)].spread_bp;
                   const prior1y = hist[Math.max(0, hist.length - 4)].spread_bp;
@@ -962,7 +986,7 @@ function renderTable() {
                         <h4 style="color:var(--accent-gold); font-size:12px; margin:0; text-transform:uppercase;">
                           📜 Historical Snapshot Audit Trail & Secondary Pricing Drift
                         </h4>
-                        <span class="badge badge-sector">${(item.market_history || []).length} Recorded Snapshots</span>
+                        <span class="badge badge-sector">${sourcedHistory(item).length} sourced snapshots</span>
                       </div>
                       <span style="font-size:11px; color:#64748b;">Storage: SQLite + database/snapshots/</span>
                     </div>
@@ -984,7 +1008,7 @@ function renderTable() {
                         </thead>
                         <tbody>
                           ${(() => {
-                            const hist = item.market_history || [];
+                            const hist = sourcedHistory(item);
                             if (hist.length === 0) {
                               return `<tr><td colspan="10" style="text-align:center; color:#64748b; padding:12px;">No historical snapshots captured yet.</td></tr>`;
                             }
@@ -1096,8 +1120,8 @@ function renderTable() {
                 <div class="scenario-header">
                   <span class="scenario-title">Downside Liquidation & Recovery Framework</span>
                   <div>
-                    <span class="scenario-recovery rec-floor">Distressed Floor: $${(rec.distressed_floor_px || 0).toFixed(2)}</span>
-                    <span class="scenario-recovery rec-base" style="margin-left:6px;">Base Case: $${(rec.base_case_px || 0).toFixed(2)}</span>
+                    <span class="scenario-recovery rec-floor">Distressed Floor: ${recPx(rec, 'distressed_floor_px')}</span>
+                    <span class="scenario-recovery rec-base" style="margin-left:6px;">Base Case: ${recPx(rec, 'base_case_px')}</span>
                   </div>
                 </div>
                 <div style="margin-top:8px; font-size:11.5px; color:var(--text-muted); line-height:1.6;">
@@ -1746,13 +1770,13 @@ function renderTrendChart() {
   if (currentTrendMode === 'mkt') {
     const dateSet = new Set();
     peers.forEach(p => {
-      const hist = p.market_history || (window.CREDIT_HISTORY_DATA && window.CREDIT_HISTORY_DATA[p.metadata.ticker] ? window.CREDIT_HISTORY_DATA[p.metadata.ticker].snapshots : []);
+      const hist = sourcedHistory(p);
       if (hist) hist.forEach(s => dateSet.add(s.date));
     });
     labels = Array.from(dateSet).sort();
 
     datasets = peers.map((p, idx) => {
-      const hist = p.market_history || (window.CREDIT_HISTORY_DATA && window.CREDIT_HISTORY_DATA[p.metadata.ticker] ? window.CREDIT_HISTORY_DATA[p.metadata.ticker].snapshots : []);
+      const hist = sourcedHistory(p);
       const histMap = {};
       if (hist) {
         hist.forEach(s => { histMap[s.date] = s; });
@@ -2965,9 +2989,9 @@ function renderSheetSummary(item) {
 
       <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:14px;">
         <div style="font-size:10.5px; color:var(--text-dim); text-transform:uppercase; margin-bottom:4px;">Restructuring Floor Price</div>
-        <div style="font-size:18px; font-weight:700; color:#f43f5e;">$${Number(rec.distressed_floor_px || 45).toFixed(2)}</div>
+        <div style="font-size:18px; font-weight:700; color:#f43f5e;">${recPx(rec, 'distressed_floor_px')}</div>
         <div style="font-size:11.5px; color:var(--text-dim); margin-top:3px;">
-          Base Recovery: <strong style="color:#10b981;">$${Number(rec.base_case_px || 85).toFixed(2)}</strong> (${rec.recovery_floor_pct || 50}%)
+          Base Recovery: <strong style="color:#10b981;">${recPx(rec, 'base_case_px')}</strong> (${rec.recovery_floor_pct || 50}%)
         </div>
       </div>
 
@@ -3287,14 +3311,14 @@ function renderSheetRecovery(item) {
       <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px;">
         <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:12px;">
           <div style="color:#ef4444; font-weight:700; font-size:12px; margin-bottom:4px;">Stressed Liquidation Floor</div>
-          <div style="font-size:20px; font-weight:700; color:var(--text-main);">$${Number(rec.distressed_floor_px || 45).toFixed(2)}</div>
+          <div style="font-size:20px; font-weight:700; color:var(--text-main);">${recPx(rec, 'distressed_floor_px')}</div>
           <div style="font-size:11px; color:var(--text-dim); margin-top:4px;">Floor Recovery: <strong>${rec.recovery_floor_pct || 48}%</strong></div>
           <div style="font-size:11px; color:#64748b; margin-top:4px;">EV Multiple: <strong>${rec.stress_ev_multiple || '4.0x'}</strong></div>
         </div>
 
         <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:12px;">
           <div style="color:#10b981; font-weight:700; font-size:12px; margin-bottom:4px;">Base Going-Concern Case</div>
-          <div style="font-size:20px; font-weight:700; color:var(--text-main);">$${Number(rec.base_case_px || 85).toFixed(2)}</div>
+          <div style="font-size:20px; font-weight:700; color:var(--text-main);">${recPx(rec, 'base_case_px')}</div>
           <div style="font-size:11px; color:var(--text-dim); margin-top:4px;">Base Recovery: <strong>${rec.recovery_base_pct || 90}%</strong></div>
           <div style="font-size:11px; color:#64748b; margin-top:4px;">Framework: <strong>${rec.restructuring_framework || 'Consensual Scheme of Arrangement'}</strong></div>
         </div>
@@ -3347,7 +3371,7 @@ function renderSheetGuidance(item) {
 
 // ----------------- SHEET 7: HISTORICAL MARKET SNAPSHOTS -----------------
 function renderSheetHistory(item) {
-  const hist = item.market_history || [];
+  const hist = sourcedHistory(item);
   return `
     <div style="background:var(--bg-sub); border:1px solid var(--border-color); border-radius:6px; padding:16px;">
       <h4 style="color:var(--accent-gold); font-size:12px; margin:0 0 12px 0; text-transform:uppercase;">

@@ -11,9 +11,9 @@ _Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stor
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 1783.1 | 1656.1 | 405.0 | 1836.5 | 1.11 | 7.05 |
-| 2023A | 1634.1 | 1167.6 | 268.0 | 1585.6 | 1.36 | 4.87 |
-| 2024A | 1287.2 | 1093.7 | 152.0 | 1420.7 | 1.3 | 4.9 |
+| 2023A |  | 1151.4 | 148.7 | 1585.6 | 1.38 | 5.3 |
+| 2024A | 1287.2 | 1008.1 | 141.8 | 1420.7 | 1.41 | 4.9 |
+| 2025A | 847.0 | 586.0 | -219.6 | 1326.7 | 2.26 | 2.9 |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=tullow) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/tullow.json)

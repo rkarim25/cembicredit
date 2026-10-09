@@ -11,9 +11,9 @@ _Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stor
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 984.0 | 256.0 | -215.9 | 1471.8 | 5.75 | 2.26 |
-| 2023A | 1104.0 | 288.0 | -251.0 | 1542.8 | 5.36 | 2.12 |
-| 2024A | 1200.0 | 320.0 | -198.1 | 1350.0 | 3.62 | 2.12 |
+| 2023A | 39389.3 | 16439.7 | 7699.0 | 58560.9 | 3.56 | 2.2 |
+| 2024A | 38819.4 | 15958.0 | -4991.7 | 57837.5 | 3.62 | 1.3 |
+| 2025A | 36197.4 | 13094.2 | -8915.1 | 60842.1 | 4.65 | 1.6 |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=zorlu) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/zorlu.json)

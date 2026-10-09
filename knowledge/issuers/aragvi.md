@@ -11,9 +11,9 @@ _Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stor
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2022A | 1189.0 | 128.0 | -44.1 | 413.5 | 3.23 | 3.29 |
-| 2023A | 1334.0 | 144.0 | -52.4 | 428.0 | 2.97 | 3.08 |
-| 2024A | 1450.0 | 160.0 | -15.1 | 420.8 | 2.63 | 3.08 |
+| 2023A | 2134.3 | 184.3 | 96.3 | 679.5 | 3.69 | 2.6 |
+| 2024A | 2309.7 | 212.5 | -52.2 | 737.1 | 3.47 | 2.4 |
+| 2025A | 2174.9 | 212.1 | -134.1 | 958.6 | 4.52 | 2.5 |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=aragvi) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/aragvi.json)

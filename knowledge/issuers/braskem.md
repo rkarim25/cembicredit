@@ -11,9 +11,9 @@ _Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stor
 
 | Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
 |---|---:|---:|---:|---:|---:|---:|
-| 2023A | 14320.0 | 785.0 | -745.0 | 8430.0 | 10.74 | 1.33 |
-| 2024A | 13850.0 | 850.0 | -480.0 | 9450.0 | 6.74 | 1.39 |
-| 2025A | 14650.0 | 1150.0 | -235.0 | 9470.0 | 8.23 | 1.83 |
+| 2023A | 70569.0 | 3738.0 | -8011.0 | 45722.0 | 12.23 | 1.1 |
+| 2024A | 77411.0 | 5759.0 | -2330.0 | 58736.0 | 10.2 | 1.4 |
+| 2025A | 70717.0 | 3157.0 | -8165.0 | 60815.0 | 19.26 | 0.7 |
 _USD m unless the record says otherwise; audited years only._
 
 [Company page](https://rkarim25.github.io/cembicredit/company.html?id=braskem) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/braskem.json)
