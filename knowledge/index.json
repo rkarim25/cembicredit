@@ -1100,6 +1100,13 @@
   },
   {
     "section": "sovereigns",
+    "title": "UAE sovereign credit",
+    "path": "knowledge/sovereigns/uae-credit.md",
+    "updated": "09-Oct-26",
+    "slug": "uae-credit"
+  },
+  {
+    "section": "sovereigns",
     "title": "Ukraine sovereign",
     "path": "knowledge/sovereigns/ukraine.md",
     "updated": "09-Oct-26",

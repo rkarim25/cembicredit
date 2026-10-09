@@ -72,6 +72,15 @@
     "path": "reports/saudi-arabia-sovereign-credit.md"
   },
   {
+    "topic": "UAE sovereign credit",
+    "slug": "uae-sovereign-credit",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 7,
+    "run": "2026-10-09_0725_uae-sovereign-credit",
+    "path": "reports/uae-sovereign-credit.md"
+  },
+  {
     "topic": "Albania sovereign credit",
     "slug": "albania-sovereign-credit",
     "updated": "08-Oct-26",
