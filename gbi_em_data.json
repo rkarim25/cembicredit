@@ -1241,22 +1241,22 @@
   "rankings": {
     "by_ex_ante_real_policy_rate": [
       "turkey",
-      "egypt",
-      "mexico",
       "brazil",
+      "egypt",
       "colombia",
+      "hungary",
+      "mexico",
       "south_africa",
       "indonesia",
-      "hungary",
-      "philippines",
-      "peru",
-      "romania",
-      "india",
-      "chile",
       "czech_republic",
+      "malaysia",
+      "india",
       "poland",
+      "chile",
+      "peru",
+      "philippines",
       "thailand",
-      "malaysia"
+      "romania"
     ],
     "by_real_yield": [
       "brazil",
@@ -1295,7 +1295,8 @@
       "czech_republic",
       "malaysia",
       "thailand"
-    ]
+    ],
+    "by_ex_ante_real_policy_rate_note": "official values, 09-Oct-26; countries without a policy rate or CPI are omitted"
   },
   "countries": {
     "brazil": {
@@ -2852,7 +2853,7 @@
         "ex_ante_real_yield_10y": 4.0,
         "ex_post_real_yield_10y": -19.47,
         "ex_post_math": "32.50% (10Y Yield) − 51.97% (Trailing CPI) = -19.47%",
-        "policy_rate_as_of": "Sep-26 (TCMB MPC decision (1-week repo); IMF ser)",
+        "policy_rate_as_of": "Sep-26 (TCMB MPC decision, 1-week repo rate (IMF)",
         "cpi_as_of": "Sep-26 (TurkStat, Consumer Price Index September)",
         "ex_ante_real_policy_rate_note": "policy rate less 12m expected inflation",
         "yield_10y_nominal_status": "desk text as of the page date, not live; ask [BBG] for the current 10Y yield",
@@ -3043,7 +3044,7 @@
         "as_of": "09-Oct-26",
         "policy_rate_pct": 37.0,
         "policy_rate_period": "Sep-26",
-        "policy_rate_source": "TCMB MPC decision (1-week repo); IMF series shows 35.5%, definition unconfirmed",
+        "policy_rate_source": "TCMB MPC decision, 1-week repo rate (IMF series shows 35.5%, definition unconfirmed)",
         "cpi_yoy_pct": 29.73,
         "cpi_period": "Sep-26",
         "cpi_source": "TurkStat, Consumer Price Index September 2026",

@@ -13,7 +13,7 @@
     "approved": null,
     "next_review": null,
     "risk_of_debt_distress": null,
-    "source": "IMF",
+    "source": "IMF, as cited in knowledge base",
     "asof": "20-Jul-26"
   },
   "politics": {
@@ -27,11 +27,11 @@
       "value": 8.1,
       "period": "Aug-26",
       "source": "Ukrstat",
-      "asof": "08-Oct-26"
+      "asof": "31-Aug-26"
     },
     "policy_rate_pct": {
       "value": 16.0,
-      "period": "Sep-26",
+      "period": "18-Sep-26",
       "source": "NBU",
       "asof": "18-Sep-26"
     },
@@ -50,10 +50,10 @@
     },
     "gov_debt_pct_gdp": {
       "value": 98.4,
-      "definition": "state debt",
+      "definition": "state debt, end-year",
       "period": "2025",
       "source": "Ministry of Finance of Ukraine",
-      "asof": "08-Oct-26"
+      "asof": "31-Dec-25"
     },
     "fdi_net_pct_gdp": {
       "value": 0.758,
@@ -102,10 +102,10 @@
     },
     "net_reserves_usd_bn": {
       "value": 38.6,
-      "definition": "net of predetermined and contingent one-year drains",
+      "definition": "gross reserves net of predetermined and contingent one-year drains (IMF reserve template)",
       "period": "Aug-26",
       "source": "IMF reserve template",
-      "asof": "08-Oct-26"
+      "asof": "31-Aug-26"
     }
   },
   "ratings": {
@@ -146,7 +146,7 @@
     }
   },
   "series_sources": {
-    "gov_debt_pct_gdp": "Ministry of Finance of Ukraine (state debt), 08-Oct-26",
+    "gov_debt_pct_gdp": "Ministry of Finance of Ukraine, end-2025",
     "real_gdp_growth_pct": "IMF WEO, 08-Oct-26",
     "current_account_pct_gdp": "IMF WEO, 08-Oct-26",
     "fiscal_balance_pct_gdp": "IMF WEO, 08-Oct-26",
@@ -2658,12 +2658,113 @@
         "ctot_12m_pct": -2.3,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_2136_ukraine-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 8.1,
+          "period": "Aug-26",
+          "source": "Ukrstat",
+          "asof": "31-Aug-26"
+        },
+        "policy_rate_pct": {
+          "value": 16.0,
+          "period": "18-Sep-26",
+          "source": "NBU",
+          "asof": "18-Sep-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 47.1,
+          "definition": "NBU gross international reserves",
+          "period": "01-Oct-26",
+          "source": "NBU",
+          "asof": "06-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 5.6,
+          "period": "01-Oct-26",
+          "source": "NBU",
+          "asof": "06-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 98.4,
+          "definition": "state debt, end-year",
+          "period": "2025",
+          "source": "Ministry of Finance of Ukraine",
+          "asof": "31-Dec-25"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 0.758,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 2.0,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -18.9,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -18.4,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 225.3,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -24.81,
+          "period": "2025-Q3 to 2026-Q2",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 38.646,
+          "period": "2026-08",
+          "source": "IMF reserve template",
+          "asof": "08-Oct-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        },
+        "net_reserves_usd_bn": {
+          "value": 38.6,
+          "definition": "gross reserves net of predetermined and contingent one-year drains (IMF reserve template)",
+          "period": "Aug-26",
+          "source": "IMF reserve template",
+          "asof": "31-Aug-26"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 7.9,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": -0.5,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
+        "reer_latest": 84.3695,
+        "reserves_12m_pct": 5.7,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": -2.3,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "fx_regime": {
     "value": "managed float",
-    "source": "BIS (USD/UAH); adjudicated document describes the hryvnia as administered",
-    "asof": "08-Oct-26"
+    "source": "BIS USD/UAH series and adjudicated document (hryvnia described as administered)",
+    "asof": "30-Sep-26"
   },
   "fsi": {
     "car_pct": {

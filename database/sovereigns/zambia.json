@@ -8,23 +8,23 @@
     "asof": "29-Sep-26"
   },
   "commodity_exposure": {
-    "value": "Copper is the main export; hydroelectric output at Kariba affects mining output, so copper price and rainfall matter",
-    "source": "ZESCO, Aug-26; adjudicated document",
-    "asof": "08-Oct-26"
+    "value": "Copper exports (mining FX receipts); copper output exposed to hydroelectric generation deficits at Kariba",
+    "source": "Bank of Zambia; ZESCO",
+    "asof": "30-Sep-26"
   },
   "imf": {
-    "programme": "Extended Credit Facility (38-month) concluded Jan-26; successor programme under negotiation",
+    "programme": "38-month ECF completed Jan-26 (sixth and final review); successor programme under negotiation",
     "size_usd_bn": 1.3,
     "approved": null,
     "next_review": null,
     "risk_of_debt_distress": null,
-    "source": "IMF Sixth ECF Review press release, 22-Jan-26",
+    "source": "IMF Press Release No. 26/18; MoFNP",
     "asof": "22-Jan-26"
   },
   "politics": {
     "next_election": null,
-    "note": "President Hichilema (UPND) re-elected 13-Aug-26 with 60.49% of the vote; UPND holds legislative majority. Next general election not stated in the material.",
-    "source": "Electoral Commission of Zambia, 15-Aug-26",
+    "note": "President Hichilema (UPND) re-elected 13-Aug-26 with 60.49% of the vote; UPND holds legislative majority",
+    "source": "Electoral Commission of Zambia",
     "asof": "15-Aug-26"
   },
   "indicators": {
@@ -37,12 +37,12 @@
     "policy_rate_pct": {
       "value": 10.75,
       "period": "Sep-26",
-      "source": "Bank of Zambia",
+      "source": "Bank of Zambia MPC statement",
       "asof": "29-Sep-26"
     },
     "gross_reserves_usd_bn": {
       "value": 5.8,
-      "definition": "gross, as reported by Bank of Zambia (gold treatment not stated)",
+      "definition": "gross international reserves; composition not specified in source",
       "period": "Sep-26",
       "source": "Bank of Zambia",
       "asof": "30-Sep-26"
@@ -50,26 +50,26 @@
     "import_cover_months": {
       "value": 4.2,
       "period": "Sep-26",
-      "source": "Bank of Zambia (document states over 4.2 months)",
+      "source": "Bank of Zambia (reported as 'over 4.2 months')",
       "asof": "30-Sep-26"
     },
     "gov_debt_pct_gdp": {
       "value": 91,
-      "definition": "total public debt, approximately, domestic plus external",
+      "definition": "total public debt, approximate; domestic T-bills and bonds over 45% of stock",
       "period": "Jun-26",
-      "source": "Ministry of Finance and National Planning",
+      "source": "MoFNP",
       "asof": "30-Jun-26"
     },
     "interest_pct_revenue": {
       "value": 35,
-      "period": "latest per IMF Jan-26 (approximate; domestic interest as share of domestic revenue)",
+      "period": "latest per IMF (approximate; domestic interest as share of domestic revenue)",
       "source": "IMF",
       "asof": "22-Jan-26"
     },
     "next_eurobond_maturity": {
-      "value": "30-Jun-33, Bond A (amortising 5.75%/7.50%); size not stated",
-      "note": "30-Jun-33; size not stated",
-      "source": "MoFNP prospectus, Jun-24",
+      "value": "30-Jun-33",
+      "note": "30-Jun-33, Bond A XS2837240261 (5.75%/7.50% amortising); size not sourced; Bond B 31-Dec-53 partly tendered Jun-26, residual amount not sourced",
+      "source": "MoFNP; Prospectus",
       "asof": "11-Jun-24"
     },
     "fdi_net_pct_gdp": {
@@ -1765,6 +1765,109 @@
           "value": "30-Jun-33, Bond A (amortising 5.75%/7.50%); size not stated",
           "note": "30-Jun-33; size not stated",
           "source": "MoFNP prospectus, Jun-24",
+          "asof": "11-Jun-24"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 4.476,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 4.3,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": 0.9,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -4.9,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 41.243,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -0.9,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 4.65,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 2.27,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
+        "reer_latest": 112.2062,
+        "reserves_12m_pct": 25.6,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2024-03 to 2025-03 (IMF International Liquidity)",
+        "ctot_12m_pct": 5.1,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1730_zambia-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 6.1,
+          "period": "Sep-26",
+          "source": "Bank of Zambia",
+          "asof": "29-Sep-26"
+        },
+        "policy_rate_pct": {
+          "value": 10.75,
+          "period": "Sep-26",
+          "source": "Bank of Zambia MPC statement",
+          "asof": "29-Sep-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 5.8,
+          "definition": "gross international reserves; composition not specified in source",
+          "period": "Sep-26",
+          "source": "Bank of Zambia",
+          "asof": "30-Sep-26"
+        },
+        "import_cover_months": {
+          "value": 4.2,
+          "period": "Sep-26",
+          "source": "Bank of Zambia (reported as 'over 4.2 months')",
+          "asof": "30-Sep-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 91,
+          "definition": "total public debt, approximate; domestic T-bills and bonds over 45% of stock",
+          "period": "Jun-26",
+          "source": "MoFNP",
+          "asof": "30-Jun-26"
+        },
+        "interest_pct_revenue": {
+          "value": 35,
+          "period": "latest per IMF (approximate; domestic interest as share of domestic revenue)",
+          "source": "IMF",
+          "asof": "22-Jan-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "30-Jun-33",
+          "note": "30-Jun-33, Bond A XS2837240261 (5.75%/7.50% amortising); size not sourced; Bond B 31-Dec-53 partly tendered Jun-26, residual amount not sourced",
+          "source": "MoFNP; Prospectus",
           "asof": "11-Jun-24"
         },
         "fdi_net_pct_gdp": {
