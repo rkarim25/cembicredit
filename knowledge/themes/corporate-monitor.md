@@ -1,0 +1,119 @@
+# CEMBI corporate monitor
+
+Generated 09-Oct-26 by `pipeline/corporate_monitor.py` from `database/issuers/*.json` (91 issuers). Do not edit; rerun the script. Market columns (price, yield, spread) are the record's last stored quote with its date, which comes from Reza's captures or the Cognitive Credit download; they are not live. Leverage is the latest audited year (net debt / EBITDA); banks show CET1 or CAR and NPL where the record has them. Full detail per issuer: the company page on the site and the issuer's knowledge page. CEEMEA groups come first.
+
+## Turkey (7)
+
+| Issuer | Country | Sector | Rating | Benchmark bond | Price | YTM | Spread | As of | Leverage / capital | Pages |
+|---|---|---|---|---|---:|---:|---:|---|---|---|
+| Pegasus Airlines (PGSUS) | Turkey | Aviation | B+ / BB- | PGSUS 9.25% 2026 | 103.50 | 7.65% | 360 | 2026-09-19 | 2.10x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=pegasus) · [page](../issuers/pegasus.md) |
+| Turkish Airlines (THY) (THYAO) | Turkey | Aviation | BB- / BB- | THYAO 7.25% 2029 | 99.20 | 7.45% | 340 | 2026-09-19 | 1.95x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=thy) · [page](../issuers/thy.md) |
+| Tüpraş (Turkish Petroleum) (TUPRAS) | Turkey | Energy | BB / BB- | TUPRAS 6.95% 2027 | 99.50 | 7.20% | 315 | 2026-09-19 | 0.75x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=tupras) · [page](../issuers/tupras.md) |
+| Türk Telekom (TTKOM) | Turkey | Technology | BB / BB- | TTKOM 6.875% 2025 | 99.80 | 7.15% | 310 | 2026-09-19 | 1.45x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=ttkom) · [page](../issuers/ttkom.md) |
+| Turkcell İletişim (TCELL) | Turkey | Technology | BB / BB- | TCELL 5.75% 2028 | 96.80 | 6.95% | 290 | 2026-09-19 | 1.15x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=turkcell) · [page](../issuers/turkcell.md) |
+| Koç Holding (KCHOL) | Turkey | Industrials | BB / BB+ | KCHOL 6.50% 2030 | 98.50 | 6.85% | 280 | 2026-09-19 | 1.25x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=koc) · [page](../issuers/koc.md) |
+| Coca-Cola İçecek (CCI) (CCOLA) | Turkey | Consumer | BBB- / BBB | CCOLA 4.50% 2029 | 97.20 | 5.35% | 130 | 2026-09-19 | 1.05x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=cci) · [page](../issuers/cci.md) |
+
+## Middle East and GCC (30)
+
+| Issuer | Country | Sector | Rating | Benchmark bond | Price | YTM | Spread | As of | Leverage / capital | Pages |
+|---|---|---|---|---|---:|---:|---:|---|---|---|
+| Pearl Petroleum (PEARL) | Iraq | Energy | B- (Implied) / CCC+ (Geopolitical Floor) | PEARL 13.00% 2028 (NO0013387860) | 103.50 | 11.45% | 625 | 2026-10-07 | 1.07x (2025A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=pearl) · [page](../issuers/pearl.md) |
+| Ittihad Investment (ITTIHAD) | UAE | Industrials | B+ / B1 | ITTIHAD 9.10% 2028 | 98.50 | 9.10% | 505 | 2026-09-27 | 2.41x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=ittihad) · [page](../issuers/ittihad.md) |
+| Binghatti Holding (BINGHA) | UAE | Real Estate | B+ / B | BINGHA 8.85% 2027 | 101.50 | 8.85% | 480 | 2026-09-19 | 0.89x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=binghatti) · [page](../issuers/binghatti.md) |
+| Dar Al Arkan (DARARK) | Saudi Arabia | Real Estate | BB- / Ba3 / B+ | DARARK 8.15% 2029 | 99.50 | 8.15% | 410 | 2026-09-19 | 3.47x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=dar_arkan) · [page](../issuers/dar_arkan.md) |
+| Sobha Realty (SOBHA) | UAE | Real Estate | BB- / Ba3 | SOBHA 7.95% 2028 | 102.00 | 7.95% | 390 | 2026-09-19 | 0.83x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=sobha) · [page](../issuers/sobha.md) |
+| Air Global (Advanced Inhalation Rituals) (AIRGLO) | UAE | Consumer | BB- / B1 | AIRGLO 2029 | 100.00 | 7.50% | 385 | 2026-09-22 | 2.10x (2025A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=air_global) · [page](../issuers/air_global.md) |
+| Arada Developments (ARADA) | UAE | Real Estate | B+ / B1 | ARADA 8.05% 2029 | 99.66 | 8.13% | 329 | 2026-09-27 | 2.74x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=arada) · [page](../issuers/arada.md) |
+| Damac Properties (DAMAC) | UAE | Real Estate | BB- / Ba3 | DAMAC 7.25% 2027 | 101.00 | 7.25% | 320 | 2026-09-19 | 0.29x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=damac) · [page](../issuers/damac.md) |
+| Bapco Energies (nogaholding) (BAPCO) | Bahrain | Energy | B+ / B+ | BAPCO 7.50% 2027 | 101.80 | 6.85% | 280 | 2026-09-19 | 3.40x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=bapco) · [page](../issuers/bapco.md) |
+| ACWA Power (ACWA) | Saudi Arabia | Utilities | Baa2 / BBB | ACWA 5.95% 2039 | 96.50 | 6.45% | 235 | 2026-09-19 | 3.85x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=acwa) · [page](../issuers/acwa.md) |
+| OQ SAOC (OQ) | Oman | Energy | BB+ / BBB- | OQGN 5.80% 2033 | 99.50 | 5.90% | 185 | 2026-09-19 | 1.80x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=oq) · [page](../issuers/oq.md) |
+| Majid Al Futtaim (MAF) (MAF) | UAE | Consumer | BBB / BBB | MAF 5.00% 2029 | 98.00 | 5.65% | 160 | 2026-09-19 | 2.85x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=maf) · [page](../issuers/maf.md) |
+| EQUATE Petrochemical (EQUATE) | Kuwait | Materials | Baa2 / BBB | EQUATE 5.00% 2030 | 98.20 | 5.55% | 150 | 2026-09-19 | 1.65x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=equate) · [page](../issuers/equate.md) |
+| DP World (DPW) | UAE | Infrastructure | BBB+ / Baa2 | DPW 5.35% 2033 | 98.00 | 5.35% | 120 | 2026-09-19 | 3.23x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=dp_world) · [page](../issuers/dp_world.md) |
+| Kuwait Finance House (KFH) (KFH) | Kuwait | Banks | A2 / A | KFH 5.00% 2029 | 99.20 | 5.20% | 115 | 2026-09-19 | CAR 18.2% NPL 1.6% | [site](https://rkarim25.github.io/cembicredit/company.html?id=kfh) · [page](../issuers/kfh.md) |
+| Saudi Electricity Company (SEC) (SECO) | Saudi Arabia | Utilities | A1 / A | SECO 4.723% 2028 | 99.20 | 5.15% | 110 | 2026-09-19 | 3.20x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=sec) · [page](../issuers/sec.md) |
+| Aldar Properties (ALDAR) | UAE | Real Estate | BBB- / Baa2 | ALDAR 5.25% 2029 | 100.10 | 5.25% | 105 | 2026-09-19 | 0.51x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=aldar) · [page](../issuers/aldar.md) |
+| SABIC (SABIC) | Saudi Arabia | Materials | A1 / A+ | SABIC 4.50% 2028 | 98.80 | 5.05% | 100 | 2026-09-19 | 1.15x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=sabic) · [page](../issuers/sabic.md) |
+| Emaar Properties (EMAAR) | UAE | Real Estate | BBB / Baa2 | EMAAR 5.15% 2030 | 100.20 | 5.15% | 95 | 2026-09-19 | 100.00x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=emaar) · [page](../issuers/emaar.md) |
+| Ooredoo QPSC (ORDS) | Qatar | Technology | A2 / A- | ORDS 4.50% 2031 | 97.80 | 5.00% | 95 | 2026-09-19 | 1.10x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=ooredoo) · [page](../issuers/ooredoo.md) |
+| Qatar National Bank (QNB) (QNBK) | Qatar | Banks | Aa3 / A+ | QNBK 4.875% 2029 | 99.50 | 5.00% | 95 | 2026-09-19 | CAR 19.8% NPL 2.9% | [site](https://rkarim25.github.io/cembicredit/company.html?id=qnb) · [page](../issuers/qnb.md) |
+| Riyad Bank (RIBL) | Saudi Arabia | Banks | A2 / A | RIYAD 5.15% 2029 | 99.60 | 5.15% | 95 | 2026-09-19 | CAR 18.0% NPL 1.6% | [site](https://rkarim25.github.io/cembicredit/company.html?id=riyad) · [page](../issuers/riyad.md) |
+| Dubai Islamic Bank (DIBUH) | UAE | Banks | A3 / A | DIBUH 5.10% 2029 | 99.70 | 5.10% | 90 | 2026-09-19 | CAR 17.2% NPL 4.5% | [site](https://rkarim25.github.io/cembicredit/company.html?id=dib) · [page](../issuers/dib.md) |
+| Abu Dhabi Commercial Bank (ADCBUH) | UAE | Banks | A1 / A | ADCBUH 5.05% 2029 | 99.80 | 5.05% | 85 | 2026-09-19 | CAR 16.5% NPL 3.8% | [site](https://rkarim25.github.io/cembicredit/company.html?id=adcb) · [page](../issuers/adcb.md) |
+| Abu Dhabi National Energy (TAQA) (TAQA) | UAE | Utilities | Aa3 / AA- | TAQA 4.375% 2029 | 98.50 | 4.90% | 85 | 2026-09-19 | 1.85x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=taqa) · [page](../issuers/taqa.md) |
+| Saudi Telecom Company (STC) (STC) | Saudi Arabia | Technology | A1 / A+ | STC 3.922% 2029 | 97.50 | 4.85% | 80 | 2026-09-19 | 0.65x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=stc) · [page](../issuers/stc.md) |
+| Saudi National Bank (SNB) | Saudi Arabia | Banks | A1 / A- | SNB 4.95% 2029 | 100.10 | 4.95% | 75 | 2026-09-19 | CAR 19.8% NPL 1.4% | [site](https://rkarim25.github.io/cembicredit/company.html?id=snb) · [page](../issuers/snb.md) |
+| Emirates NBD (EMIRAT) | UAE | Banks | A2 / A+ | EMIRAT 4.90% 2029 | 100.25 | 4.90% | 70 | 2026-09-19 | CAR 18.5% NPL 4.1% | [site](https://rkarim25.github.io/cembicredit/company.html?id=enbd) · [page](../issuers/enbd.md) |
+| First Abu Dhabi Bank (FABUH) | UAE | Banks | Aa3 / AA- | FABUH 4.85% 2029 | 100.50 | 4.85% | 65 | 2026-09-19 | CAR 17.4% NPL 3.2% | [site](https://rkarim25.github.io/cembicredit/company.html?id=fab) · [page](../issuers/fab.md) |
+| Al Rajhi Bank (RJHI) | Saudi Arabia | Banks | A1 / A- | RAJHI 4.75% 2029 | 100.80 | 4.75% | 55 | 2026-09-19 | CAR 20.5% NPL 0.9% | [site](https://rkarim25.github.io/cembicredit/company.html?id=rajhi) · [page](../issuers/rajhi.md) |
+
+## Africa (18)
+
+| Issuer | Country | Sector | Rating | Benchmark bond | Price | YTM | Spread | As of | Leverage / capital | Pages |
+|---|---|---|---|---|---:|---:|---:|---|---|---|
+| Tullow Oil (TLW) | Ghana | Energy | CCC+ / CCC+ / Caa2 | TLWLN 10.250% 2028 (15.00% all-in) | 97.00 | 16.50% | 1180 | 2026-10-07 | 1.30x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=tullow) · [page](../issuers/tullow.md) |
+| Dangote Refinery (DANREF) | Nigeria | Energy | B / B2 | DANREF 12.50% 2029 | 95.00 | 12.50% | 815 | 2026-09-19 | 2.43x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=dangote_ref) · [page](../issuers/dangote_ref.md) |
+| Dangote Fertiliser (DANFER) | Nigeria | Materials | B / B2 | DANFER 11.50% 2028 | 96.00 | 11.50% | 715 | 2026-09-19 | 2.77x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=dangote_fert) · [page](../issuers/dangote_fert.md) |
+| Kosmos Energy (KOS) | Ghana | Energy | B- / B3 | KOS 10.45% 2027 | 89.50 | 10.45% | 610 | 2026-09-19 | 2.99x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=kosmos) · [page](../issuers/kosmos.md) |
+| IHS Towers (IHS) | Nigeria | Technology | B+ / B2 | IHS 10.25% 2027 | 91.50 | 10.25% | 590 | 2026-09-19 | 3.16x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=ihs) · [page](../issuers/ihs.md) |
+| Tharisa plc (THARISA) | South Africa | Materials | BB- / Ba3 Implied | THARISA 9.85% 2027 | 98.00 | 9.85% | 550 | 2026-09-19 | 0.38x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=tharisa) · [page](../issuers/tharisa.md) |
+| Sonangol EP (SONANG) | Angola | Energy | B- / B3 | SONANG 9.15% 2028 | 97.20 | 9.15% | 475 | 2026-09-19 | 1.29x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=sonangol) · [page](../issuers/sonangol.md) |
+| Liquid Telecom (LIQTEL) | South Africa | Technology | B- / Caa1 | LIQTEL 14.25% 2026 | 104.22 | 9.58% | 471 | 2026-09-27 | 4.13x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=liqtel) · [page](../issuers/liqtel.md) |
+| Africell (AFRCEL) | Angola | Technology | B- / B3 | AFRCEL 10.500% 2029 (XS2855412479) | 103.24 | 9.26% | 452 | 2026-09-27 | 3.72x (2025A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=africell) · [page](../issuers/africell.md) |
+| Eskom Holdings (ESKOM) | South Africa | Utilities | B / B- | ESKOM 7.125% 2025 | 99.00 | 8.50% | 445 | 2026-09-19 | 6.80x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=eskom) · [page](../issuers/eskom.md) |
+| Helios Towers (HT) | Pan-Africa | Technology | B / B2 | HT 8.75% 2028 | 94.25 | 8.75% | 440 | 2026-09-19 | 4.49x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=helios) · [page](../issuers/helios.md) |
+| Azule Energy (AZULE) | Angola | Energy | B+ / Ba3 | AZULE 8.45% 2030 | 98.50 | 8.45% | 410 | 2026-09-19 | 1.58x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=azule) · [page](../issuers/azule.md) |
+| Sasol Ltd (SOLSJ) | South Africa | Energy | BB+ / Ba1 | SOLSJ 7.85% 2029 | 98.40 | 7.85% | 365 | 2026-09-19 | 2.37x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=sasol) · [page](../issuers/sasol.md) |
+| MTN Group (MTNSJ) | South Africa | Technology | Ba2 / BB+ | MTNSJ 6.50% 2026 | 99.40 | 6.90% | 285 | 2026-09-19 | 1.65x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=mtn) · [page](../issuers/mtn.md) |
+| Standard Bank Group (STANBI) | South Africa | Banks | Ba2 / BB- | STANBI 5.95% 2029 | 98.00 | 6.85% | 280 | 2026-09-19 | CAR 16.5% NPL 5.2% | [site](https://rkarim25.github.io/cembicredit/company.html?id=standard_bank) · [page](../issuers/standard_bank.md) |
+| FirstRand Bank (FIRSTR) | South Africa | Banks | Ba2 / BB- | FIRSTR 6.25% 2028 | 98.80 | 6.75% | 270 | 2026-09-19 | CAR 17.1% NPL 4.1% | [site](https://rkarim25.github.io/cembicredit/company.html?id=firstrand) · [page](../issuers/firstrand.md) |
+| Gold Fields Ltd (GFI) | South Africa | Materials | BBB- / Baa3 | GFI 6.125% 2029 | 100.20 | 6.05% | 200 | 2026-09-19 | 0.85x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=goldfields) · [page](../issuers/goldfields.md) |
+| OCP Group (OCP) | Morocco | Materials | BBB- / Baa3 | OCP 6.45% 2034 | 99.50 | 6.45% | 155 | 2026-09-19 | 2.34x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=ocp) · [page](../issuers/ocp.md) |
+
+## CEE, CIS and other CEEMEA (34)
+
+| Issuer | Country | Sector | Rating | Benchmark bond | Price | YTM | Spread | As of | Leverage / capital | Pages |
+|---|---|---|---|---|---:|---:|---:|---|---|---|
+| Zorlu Enerji (ZOREN) | Turkey | Utilities | B- / CCC+ | ZOREN 11.00% 2030 | 63.50 | 27.20% | 2250 | 2026-09-23 | 3.62x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=zorlu) · [page](../issuers/zorlu.md) |
+| Ukraine Rail (Ukrzaliznytsia) (RAILUA) | Ukraine | Transportation & Logistics (Railways) | CCC / Caa3 | RAILUA 8.25% 2026 (LPN) | 64.00 | 19.25% | 1485 | 2026-09-19 | 3.86x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=ukr_rail) · [page](../issuers/ukr_rail.md) |
+| DTEK Energy (DTEKUA) | Ukraine | Utilities | CCC / Caa3 | DTEK 18.50% 2027 | 68.50 | 18.50% | 1410 | 2026-09-19 | 3.02x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=dtek) · [page](../issuers/dtek.md) |
+| Avia Solutions Group (ASG Finance) (AVIASG) | Ireland | Transportation | BB- (S&P) / BB (Fitch) | AVIASG 9.750% 2029 (US00217AAB26 / XS2815876920) | 87.00 | 16.00% | 1120 | 2026-10-07 | 2.81x (2025A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=asg) · [page](../issuers/asg.md) |
+| Metinvest (METINV) | Ukraine | Materials | CCC+ | METINV 15.65% 2029 | 93.27 | 14.98% | 1022 | 2026-09-27 | 1.18x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=metinvest) · [page](../issuers/metinvest.md) |
+| MHP SE (MHPSA) | Ukraine | Consumer | CCC+ / Caa2 | MHP 13.10% 2026 | 82.50 | 13.10% | 875 | 2026-09-19 | 2.89x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=mhp) · [page](../issuers/mhp.md) |
+| Aragvi / Trans-Oil (ARAGVI) | Moldova | Consumer | B / B- | ARAGVI 12.15% 2026 | 89.00 | 12.15% | 780 | 2026-09-23 | 2.63x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=aragvi) · [page](../issuers/aragvi.md) |
+| Emlak Konut (EKGYO) | Turkey | Real Estate | BB- Local | EMLVAR 10.50% 2027 | 97.50 | 10.50% | 610 | 2026-09-19 | 0.49x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=emlak) · [page](../issuers/emlak.md) |
+| Sampa Otomotiv (SAMPA) | Turkey | Consumer | B / B2 Implied | SAMPA 10.40% 2027 | 97.50 | 10.40% | 600 | 2026-09-19 | 1.54x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=sampa) · [page](../issuers/sampa.md) |
+| ADM Elektrik (ADMELE) | Turkey | Utilities | B / B2 | ADMTR 9.25% 2028 | 98.00 | 9.25% | 485 | 2026-09-19 | 2.62x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=adm_elek) · [page](../issuers/adm_elek.md) |
+| GDZ Elektrik (GDZELE) | Turkey | Utilities | B / B2 | GDZTR 9.10% 2028 | 98.20 | 9.10% | 470 | 2026-09-19 | 2.62x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=gdz_elek) · [page](../issuers/gdz_elek.md) |
+| Aydem Renewable (AYDEM) | Turkey | Utilities | B / B3 | AYDEM 8.95% 2027 | 96.50 | 8.95% | 455 | 2026-09-19 | 4.11x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=aydem) · [page](../issuers/aydem.md) |
+| Limak Renewable (LMKREN) | Turkey | Utilities | B+ / B2 | LIMAK 8.75% 2028 | 98.20 | 8.75% | 435 | 2026-09-27 | 4.00x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=limak_ren) · [page](../issuers/limak_ren.md) |
+| Çimko Çimento (CIMKOC) | Turkey | Materials / Cement | B / B3 | CIMKOC 8.60% 2030 | 105.00 | 8.60% | 391 | 2026-09-21 | 1.80x (2025A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=cimkoc) · [page](../issuers/cimkoc.md) |
+| Limak Cement (LMKCEM) | Turkey | Materials | B+ / B | LIMAKC 8.25% 2028 | 98.80 | 8.25% | 385 | 2026-09-19 | 2.27x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=limak_cem) · [page](../issuers/limak_cem.md) |
+| Erdemir (EREGL) | Turkey | Materials | BB- / B1 | EREGL 7.95% 2029 | 98.50 | 7.95% | 355 | 2026-09-19 | 2.12x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=erdemir) · [page](../issuers/erdemir.md) |
+| LimakPort İskenderun (LMKPRT) | Turkey | Infrastructure | B / B3 | LIMPRT 7.85% 2036 | 98.50 | 7.85% | 345 | 2026-09-19 | 3.08x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=limak_port) · [page](../issuers/limak_port.md) |
+| Halkbank (HALKB) | Turkey | Banks | B / B3 | HALKB 7.35% 2028 | 98.10 | 7.35% | 275 | 2026-09-19 | CAR 15.9% NPL 2.8% | [site](https://rkarim25.github.io/cembicredit/company.html?id=halkbank) · [page](../issuers/halkbank.md) |
+| KazMunayGas (KMG) (KZOK) | Kazakhstan | Energy | BBB- / Baa2 | KZOK 5.75% 2047 | 88.50 | 6.75% | 270 | 2026-09-19 | 1.45x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=kmg) · [page](../issuers/kmg.md) |
+| Şişecam (SISE) | Turkey | Materials | BB- / B1 | SISETR 6.85% 2029 | 99.50 | 6.85% | 245 | 2026-09-19 | 2.18x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=sisecam) · [page](../issuers/sisecam.md) |
+| VakıfBank (VAKBN) | Turkey | Banks | BB- / B1 | VAKBN 6.95% 2029 | 99.20 | 6.95% | 235 | 2026-09-19 | CAR 16.8% NPL 2.4% | [site](https://rkarim25.github.io/cembicredit/company.html?id=vakifbank) · [page](../issuers/vakifbank.md) |
+| Türkiye İş Bankası (ISCTR) | Turkey | Banks | BB- / B1 | ISCTR 6.85% 2029 | 99.50 | 6.85% | 225 | 2026-09-19 | CAR 17.8% NPL 1.8% | [site](https://rkarim25.github.io/cembicredit/company.html?id=isbank) · [page](../issuers/isbank.md) |
+| Halyk Bank (HSBKK) | Kazakhstan | Banks | Baa1 / BBB- | HSBKK 5.70% 2028 | 99.00 | 6.20% | 215 | 2026-09-19 | CAR 21.5% NPL 2.1% | [site](https://rkarim25.github.io/cembicredit/company.html?id=halyk) · [page](../issuers/halyk.md) |
+| Türk Eximbank (EXCRTU) | Turkey | Banks | BB- / B1 | EXCRTU 6.75% 2029 | 99.80 | 6.75% | 215 | 2026-09-19 | CAR 21.5% NPL 0.4% | [site](https://rkarim25.github.io/cembicredit/company.html?id=turk_exim) · [page](../issuers/turk_exim.md) |
+| Yapı ve Kredi Bankası (YKBNK) | Turkey | Banks | BB- / B1 | YKBNK 6.75% 2029 | 99.40 | 6.75% | 215 | 2026-09-19 | CAR 17.5% NPL 2.1% | [site](https://rkarim25.github.io/cembicredit/company.html?id=yapi_kredi) · [page](../issuers/yapi_kredi.md) |
+| Garanti BBVA (GARAN) | Turkey | Banks | BB- / B1 | GARAN 6.55% 2029 | 99.80 | 6.55% | 195 | 2026-09-19 | CAR 18.2% NPL 1.7% | [site](https://rkarim25.github.io/cembicredit/company.html?id=garanti) · [page](../issuers/garanti.md) |
+| QazaqGaz (KazTransGas) (QAZGAS) | Kazakhstan | Infrastructure | BBB- | QAZGAS 4.375% 2027 | 97.20 | 5.95% | 190 | 2026-09-19 | 1.20x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=qazaqgaz) · [page](../issuers/qazaqgaz.md) |
+| Akbank TAS (AKBNK) | Turkey | Banks | BB- / B1 | AKBNK 6.45% 2029 | 100.20 | 6.45% | 185 | 2026-09-19 | CAR 19.4% NPL 1.5% | [site](https://rkarim25.github.io/cembicredit/company.html?id=akbank) · [page](../issuers/akbank.md) |
+| S.N.G.N. Romgaz (ROMGAZ) | Romania | Energy | BBB- | ROMGAZ 5.375% 2029 | 98.50 | 5.75% | 170 | 2026-09-19 | 0.65x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=romgaz) · [page](../issuers/romgaz.md) |
+| Hidroelectrica (HIDRO) | Romania | Utilities | BBB- | HIDRO 5.25% 2029 | 99.00 | 5.50% | 145 | 2026-09-19 | 0.40x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=hidro) · [page](../issuers/hidro.md) |
+| MOL Group (MOL) | Hungary | Energy | BBB- | MOL 4.875% 2028 | 98.00 | 5.50% | 145 | 2026-09-19 | 1.10x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=mol) · [page](../issuers/mol.md) |
+| PGE Polska Grupa Energetyczna (PGE) | Poland | Utilities | BBB+ | PGE 5.125% 2029 | 99.20 | 5.30% | 125 | 2026-09-19 | 1.85x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=pge) · [page](../issuers/pge.md) |
+| PKN Orlen (PKN) | Poland | Energy | BBB+ / A3 | PKN 4.75% 2030 | 98.80 | 5.05% | 100 | 2026-09-19 | 0.95x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=orlen) · [page](../issuers/orlen.md) |
+| ČEZ Group (CEZ) | Czech Republic | Utilities | A- / A3 | CEZ 4.875% 2028 | 99.80 | 4.95% | 90 | 2026-09-19 | 1.40x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=cez) · [page](../issuers/cez.md) |
+
+## Latin America and global (2)
+
+| Issuer | Country | Sector | Rating | Benchmark bond | Price | YTM | Spread | As of | Leverage / capital | Pages |
+|---|---|---|---|---|---:|---:|---:|---|---|---|
+| Braskem S.A. (BRASKM) | Brazil | Materials | RD / D | BRASKM 4.500% 2030 | 48.60 | 19.80% | 1580 | 2026-09-23 | 8.23x (2025A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=braskem) · [page](../issuers/braskem.md) |
+| Golar LNG Limited (GLNG) | Bermuda | Energy | B2 / B | GLNG $500M 5NC2 | 99.50 | 7.85% | 420 | 2026-09-22 | 6.40x (2024A) | [site](https://rkarim25.github.io/cembicredit/company.html?id=golar) · [page](../issuers/golar.md) |

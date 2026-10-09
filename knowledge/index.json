@@ -1114,6 +1114,13 @@
   },
   {
     "section": "themes",
+    "title": "CEMBI corporate monitor",
+    "path": "knowledge/themes/corporate-monitor.md",
+    "updated": "09-Oct-26",
+    "slug": "corporate-monitor"
+  },
+  {
+    "section": "themes",
     "title": "Catalyst calendar (rolling)",
     "path": "knowledge/themes/calendar.md",
     "updated": "08-Oct-26",
