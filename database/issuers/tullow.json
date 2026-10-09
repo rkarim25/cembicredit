@@ -33,7 +33,12 @@
     "unrestricted_cash_1h26": 188.0,
     "net_leverage_1h26": 2.9,
     "gross_leverage_1h26": 3.1,
-    "ltm_ebitda": 747.0
+    "ltm_ebitda": 747.0,
+    "cognitive_credit": {
+      "file": "cognitive-credit-tullow-financials-07-Oct-2026.xlsx",
+      "ingested": "2026-10-08",
+      "archive": "tullow_cognitive_credit.json"
+    }
   },
   "financials_multi_year": [
     {
@@ -76,7 +81,8 @@
         "formula_check": "1019.8 - -236.5 - 219.8 - (717.4) - 74.1 = 245.0"
       },
       "gross_profit": 646.5,
-      "operating_profit": 526.7
+      "operating_profit": 526.7,
+      "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
     },
     {
       "period": "2022A",
@@ -118,7 +124,8 @@
         "formula_check": "1656.1 - -306.4 - 234.9 - (1183.9) - 138.7 = 405.0"
       },
       "gross_profit": 1085.6,
-      "operating_profit": 733.9
+      "operating_profit": 733.9,
+      "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
     },
     {
       "period": "2023A",
@@ -160,7 +167,8 @@
         "formula_check": "1167.6 - -292.5 - 239.8 - (865.7) - 86.6 = 268.0"
       },
       "gross_profit": 764.9,
-      "operating_profit": 295.9
+      "operating_profit": 295.9,
+      "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
     },
     {
       "period": "2024A",
@@ -202,7 +210,8 @@
         "formula_check": "1093.7 - -224.5 - 223.2 - (861.6) - 81.4 = 152.0"
       },
       "gross_profit": 634.7,
-      "operating_profit": 448.7
+      "operating_profit": 448.7,
+      "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
     },
     {
       "period": "2025E",
@@ -244,7 +253,8 @@
         "formula_check": "950.0 - -240.0 - 210.2 - (826.6) - 68.2 = 85.0"
       },
       "gross_profit": 610.0,
-      "operating_profit": 410.0
+      "operating_profit": 410.0,
+      "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
     },
     {
       "period": "2026E",
@@ -284,7 +294,8 @@
         "tax": 67.3,
         "fcf": 182.0,
         "formula_check": "950.0 - 230.0 - 216.4 - (254.3) - 67.3 = 182.0"
-      }
+      },
+      "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
     },
     {
       "period": "2027E",
@@ -324,7 +335,8 @@
         "tax": 72.8,
         "fcf": 210.0,
         "formula_check": "985.0 - 220.0 - 204.4 - (277.8) - 72.8 = 210.0"
-      }
+      },
+      "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
     }
   ],
   "supplementary_data": {
@@ -1110,7 +1122,7 @@
   },
   "credit_view": {
     "last_updated": "2026-10-07",
-    "verdict": "Overweight / Selective Add at ~97.0\u00a2 (~16.5% YTM). The 1H26 operational turnaround (EBITDA $464M vs $303M in 1H25, gross Jubilee 71kboepd, 2P reserves +22% to 122mmboe) is strong, but temporarily overshadowed by the 30-Sep ICC $393M tax arbitration ruling. The market selloff to ~97pt over-discounts the liability given $500M short-term liquidity firepower, ongoing Ghana MinFin amicable negotiations, and 15.00% all-in quarterly coupon carry.",
+    "verdict": "Overweight / Selective Add at ~97.0¢ (~16.5% YTM). The 1H26 operational turnaround (EBITDA $464M vs $303M in 1H25, gross Jubilee 71kboepd, 2P reserves +22% to 122mmboe) is strong, but temporarily overshadowed by the 30-Sep ICC $393M tax arbitration ruling. The market selloff to ~97pt over-discounts the liability given $500M short-term liquidity firepower, ongoing Ghana MinFin amicable negotiations, and 15.00% all-in quarterly coupon carry.",
     "positives": [
       "Jubilee Field Operational Outperformance: Gross production reached ~71kboepd in 1H26 (+16% YoY) with >99% FPSO uptime; Kosmos guides 2H26 exit rate of 82-87kboepd following J77-P and J73-WI wells.",
       "Significant Reserve Upgrade: 2P reserves grew to ~122mmboe (vs ~100mmboe at YE25) driven by licence extensions to 2040, delivering a reserve replacement ratio of >380%.",
@@ -1141,16 +1153,16 @@
   "historical_notes": [
     {
       "date": "2026-10-07",
-      "title": "Tullow Oil (TLWLN 28) \u2014 1H26 Earnings Review, Tax Arbitration Assessment & Scenario Analysis",
+      "title": "Tullow Oil (TLWLN 28) — 1H26 Earnings Review, Tax Arbitration Assessment & Scenario Analysis",
       "author": "Gustavo Campos, Peter Bowley (Analysts), Khurrum Sheikh (Trader)",
       "recommendation": "Add in Small Size at ~97pt (Carry Cushion: 15.00% All-in Rate)",
-      "content": "### Overview & Market Background\nTLWLN (CCC+/CCC+/Caa2) 1H26 results last Monday (28/09) were largely in line with expectations outlined in the August trading statement. Positive surprises included reserve expansion and legacy Ghana receivables collection. Tullow also signalled preliminary prospects of a bond 'trader-led' refinancing solution as early as this year (the 2028 bonds were already above the 101pt call).\n\nHowever, this was followed by the ICC ruling against Tullow on Wednesday (30/09), which found the company liable for a $196.5m tax assessment. Regardless of payment terms (which remain uncertain), the liability largely erases the gain from the FCF'26 guidance of $170-250m, which was expected to materialize almost entirely in 2H26 due to working capital, fees, and capex timing specifics (FCF guidance supported by strong Jubilee field performance). TLWLN 28s dropped ~5pt (and stock -60%) since headlines emerged, raising questions about bond refinancing timing.\n\n### The Tax Arbitration Case & Sovereign Context\nThe ICC concluded that:\n(a) The $196.5m Business Interruption Insurance Policy tax assessment does not breach Tullow's Petroleum Agreement.\n(b) The assessment of 100% penalties falls outside the scope of contractual protections in Tullow's Petroleum Agreements.\nTogether, (a) and (b) bring the total tax award to $393m; Tullow may still challenge the penalty portion (b).\n\nGhana's Minister of Finance issued an explicit statement noting discussions are ongoing to resolve tax matters 'amicably' and with 'due regard to the continuity of operations in the Jubilee and TEN fields and Tullow\u2019s capacity to sustain required investments in those fields'; stating 'It\u2019s in the national interest that this relationship endures'. Constructive relations are evidenced by the extension of TEN and Jubilee licences to 2040.\n\nElsewhere, an ongoing loan interest deductions dispute (tribunal hearings postponed to 2027) involves $190.5m plus penalties. The Group also contests a ~$170m Kenyan tax assessment from the Kenya asset sale, viewed as wholly without merit with no expected cash outflow.\n\n### Key Takeaways & Refinancing Window\nAn amicable resolution could result in a more favourable payment schedule and/or allow offsets against receivables balances and future gas sales, helping accommodate the financial burden. Management previously discussed working on a trader-led refinancing solution for 2H26 aimed at implementing a European E&P capital structure at lower cost (e.g. PXF/RBL facility). Imminent refinancing is now more uncertain.\n\n### 1H26 Operational Results & Cash Flow Breakdown\n\u2022 **EBITDA:** $464m (vs $303m in 1H25), driven by (a) higher Jubilee production (gross ~71kboepd / net ~28kboepd, +16% YoY) with FPSO uptime >99%, and (b) average realized oil price after hedging of $86/bbl (+23% YoY).\n\u2022 **Free Cash Flow:** $4m generated in 1H26. Higher EBITDA was offset by:\n  - Working capital outflows: ~$105m (primarily decline in trade payables)\n  - Cash capex: ~$118m\n  - Taxes: ~$75m\n  - Interest and lease payments: ~$130m\n  - Debt arrangement fees: ~$70m\n  - Benefited from second Kenya tranche: +$40m.\n\u2022 **2P Reserves:** Increased to ~122mmboe (vs ~100mmboe at YE25) via licence extensions, project maturation, and strong well performance (reserve replacement ratio >380%).\n\n### Guidance & Drilling Execution\n\u2022 2026 W.I. production expected at upper end of 34-42 kboepd guidance.\n\u2022 FCF guidance upgraded to $170-250m at $70-100/bbl in Aug-26 trading statement, supported by Jubilee drilling campaign: J72-P (Jul-25), J74-P (Jan-26), J75-P (Mar-26), J76-P (Jun-26), J77-P (Jul-26), J73-WI (Sep-26), aided by 4D seismic.\n\u2022 Kosmos highlighted Jubilee gross production should reach upper end of 70-80kboepd guidance, implying 2H26 production of ~82-87kboepd (supported by 85kboepd 2Q exit rate).\n\u2022 Ghana gas receivables declined from $165m at YE25 to $65m in 1H26 ($73m historic receivables collected in 1H26, remaining balance collected by end-September).\n\u2022 Rig contract for 2027-28 Ghana drilling programme (Campaign 2) signed for up to 10 wells (arriving mid-2027).\n\u2022 Feb-2026 SPA signed to acquire TEN FPSO for net cost of ~$126m payable on completion (1Q27E), saving ~$120m in annual lease payments.\n\n### Capital Structure & Leverage (1H26)\nTotal debt stands at ~$2.3bn:\n\u2022 TLWLN 28 note: $1,162m (10.25% cash + 3.00% PIK + 1.75% PIYC, paid quarterly)\n\u2022 Glencore junior notes: $423m (SOFR + 12.75% PIK; step-up to 13.5% if crude >$65)\n\u2022 TEN FPSO net lease: $351m\n\u2022 Tax assessment (ICC ruling incl. 100% penalties): $393m\n\u2022 Cash: $188m unrestricted cash | Additional super-senior RCF from Glencore: $100m (SOFR + 4.50%)\n\u2022 Net leverage: ~2.3x ex-tax assessment, ~2.9x including tax assessment (based on LTM EBITDA $747m).\n\n### Two Core Desk Scenarios\n1. **Scenario 1 (Upside / 65% probability / FV 101pt Call):** Liable for $393m tax award, but wins loan interest dispute. $0.5bn near-term liquidity sources (cash $188m + Glencore prepay $100m + ~$0.2bn 2H26E FCF) and amicable payment terms accommodate burden. Refinancing achieved in 2027 via trader-led facility + smaller bond, calling 2028 notes at 101pt.\n2. **Scenario 2 (Downside / 35% probability / FV 90pt):** Liable for both Ghana tax disputes (> $0.7bn total). Refinancing unachievable. Consensual 2-year maturity extension (May 2028 to May 2030) at 16.25% all-in rate, discounted at 17.5% exit yield yields 90pt FV.\n\n**Stance:** High-risk/high-reward opportunity. 15.00% all-in quarterly coupon carry pays to wait. Add in small size at ~97pt."
+      "content": "### Overview & Market Background\nTLWLN (CCC+/CCC+/Caa2) 1H26 results last Monday (28/09) were largely in line with expectations outlined in the August trading statement. Positive surprises included reserve expansion and legacy Ghana receivables collection. Tullow also signalled preliminary prospects of a bond 'trader-led' refinancing solution as early as this year (the 2028 bonds were already above the 101pt call).\n\nHowever, this was followed by the ICC ruling against Tullow on Wednesday (30/09), which found the company liable for a $196.5m tax assessment. Regardless of payment terms (which remain uncertain), the liability largely erases the gain from the FCF'26 guidance of $170-250m, which was expected to materialize almost entirely in 2H26 due to working capital, fees, and capex timing specifics (FCF guidance supported by strong Jubilee field performance). TLWLN 28s dropped ~5pt (and stock -60%) since headlines emerged, raising questions about bond refinancing timing.\n\n### The Tax Arbitration Case & Sovereign Context\nThe ICC concluded that:\n(a) The $196.5m Business Interruption Insurance Policy tax assessment does not breach Tullow's Petroleum Agreement.\n(b) The assessment of 100% penalties falls outside the scope of contractual protections in Tullow's Petroleum Agreements.\nTogether, (a) and (b) bring the total tax award to $393m; Tullow may still challenge the penalty portion (b).\n\nGhana's Minister of Finance issued an explicit statement noting discussions are ongoing to resolve tax matters 'amicably' and with 'due regard to the continuity of operations in the Jubilee and TEN fields and Tullow’s capacity to sustain required investments in those fields'; stating 'It’s in the national interest that this relationship endures'. Constructive relations are evidenced by the extension of TEN and Jubilee licences to 2040.\n\nElsewhere, an ongoing loan interest deductions dispute (tribunal hearings postponed to 2027) involves $190.5m plus penalties. The Group also contests a ~$170m Kenyan tax assessment from the Kenya asset sale, viewed as wholly without merit with no expected cash outflow.\n\n### Key Takeaways & Refinancing Window\nAn amicable resolution could result in a more favourable payment schedule and/or allow offsets against receivables balances and future gas sales, helping accommodate the financial burden. Management previously discussed working on a trader-led refinancing solution for 2H26 aimed at implementing a European E&P capital structure at lower cost (e.g. PXF/RBL facility). Imminent refinancing is now more uncertain.\n\n### 1H26 Operational Results & Cash Flow Breakdown\n• **EBITDA:** $464m (vs $303m in 1H25), driven by (a) higher Jubilee production (gross ~71kboepd / net ~28kboepd, +16% YoY) with FPSO uptime >99%, and (b) average realized oil price after hedging of $86/bbl (+23% YoY).\n• **Free Cash Flow:** $4m generated in 1H26. Higher EBITDA was offset by:\n  - Working capital outflows: ~$105m (primarily decline in trade payables)\n  - Cash capex: ~$118m\n  - Taxes: ~$75m\n  - Interest and lease payments: ~$130m\n  - Debt arrangement fees: ~$70m\n  - Benefited from second Kenya tranche: +$40m.\n• **2P Reserves:** Increased to ~122mmboe (vs ~100mmboe at YE25) via licence extensions, project maturation, and strong well performance (reserve replacement ratio >380%).\n\n### Guidance & Drilling Execution\n• 2026 W.I. production expected at upper end of 34-42 kboepd guidance.\n• FCF guidance upgraded to $170-250m at $70-100/bbl in Aug-26 trading statement, supported by Jubilee drilling campaign: J72-P (Jul-25), J74-P (Jan-26), J75-P (Mar-26), J76-P (Jun-26), J77-P (Jul-26), J73-WI (Sep-26), aided by 4D seismic.\n• Kosmos highlighted Jubilee gross production should reach upper end of 70-80kboepd guidance, implying 2H26 production of ~82-87kboepd (supported by 85kboepd 2Q exit rate).\n• Ghana gas receivables declined from $165m at YE25 to $65m in 1H26 ($73m historic receivables collected in 1H26, remaining balance collected by end-September).\n• Rig contract for 2027-28 Ghana drilling programme (Campaign 2) signed for up to 10 wells (arriving mid-2027).\n• Feb-2026 SPA signed to acquire TEN FPSO for net cost of ~$126m payable on completion (1Q27E), saving ~$120m in annual lease payments.\n\n### Capital Structure & Leverage (1H26)\nTotal debt stands at ~$2.3bn:\n• TLWLN 28 note: $1,162m (10.25% cash + 3.00% PIK + 1.75% PIYC, paid quarterly)\n• Glencore junior notes: $423m (SOFR + 12.75% PIK; step-up to 13.5% if crude >$65)\n• TEN FPSO net lease: $351m\n• Tax assessment (ICC ruling incl. 100% penalties): $393m\n• Cash: $188m unrestricted cash | Additional super-senior RCF from Glencore: $100m (SOFR + 4.50%)\n• Net leverage: ~2.3x ex-tax assessment, ~2.9x including tax assessment (based on LTM EBITDA $747m).\n\n### Two Core Desk Scenarios\n1. **Scenario 1 (Upside / 65% probability / FV 101pt Call):** Liable for $393m tax award, but wins loan interest dispute. $0.5bn near-term liquidity sources (cash $188m + Glencore prepay $100m + ~$0.2bn 2H26E FCF) and amicable payment terms accommodate burden. Refinancing achieved in 2027 via trader-led facility + smaller bond, calling 2028 notes at 101pt.\n2. **Scenario 2 (Downside / 35% probability / FV 90pt):** Liable for both Ghana tax disputes (> $0.7bn total). Refinancing unachievable. Consensual 2-year maturity extension (May 2028 to May 2030) at 16.25% all-in rate, discounted at 17.5% exit yield yields 90pt FV.\n\n**Stance:** High-risk/high-reward opportunity. 15.00% all-in quarterly coupon carry pays to wait. Add in small size at ~97pt."
     },
     {
       "date": "2026-10-06",
-      "title": "Tullow Oil (TLW) \u2014 Comprehensive Credit Assessment, Refinancing Note & Broker Model Reconciliation",
+      "title": "Tullow Oil (TLW) — Comprehensive Credit Assessment, Refinancing Note & Broker Model Reconciliation",
       "author": "Michael Alsford (Citi), Christian Malek (J.P. Morgan) / Desk Synthesis",
-      "recommendation": "Cautious Add / Refinancing Monitor (Parity ~86.5\u00a2)",
+      "recommendation": "Cautious Add / Refinancing Monitor (Parity ~86.5¢)",
       "content": "### Broker Model Reconciliation & Free Cash Flow Identity\nAudited Citi and J.P. Morgan financial projections against canonical FCF identity:\nFCF = EBITDA - Capex - Cash Interest - Delta NWC - Cash Taxes\n\n**Key Findings:**\n1. **Working Capital Add-Back Discrepancy:** Caught $140M in aggressive sell-side working capital add-backs in consensus numbers that understated near-term cash drain.\n2. **Normalized 2025E Run-Rate:** Adjusted 2025E Free Cash Flow to $415M, reconciling $950M EBITDA against $210M capex, $220M interest, and $105M tax/working capital outflows.\n3. **Refinancing Horizon:** Capital structure is dominated by the 2026/2028 maturity wall. The 10.25% notes require disciplined allocation of Jubilee free cash flow to reduce gross debt before market access is tested."
     }
   ],

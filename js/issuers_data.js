@@ -3003,7 +3003,12 @@ const MASTER_ISSUERS = [
       "next_call_date": "2026-10-23",
       "next_call_price": 105.0,
       "cognitive_credit_financials_model": "cognitive-credit-africell-financials-23-Sep-2026.xlsx",
-      "cognitive_credit_forecasting_model": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx"
+      "cognitive_credit_forecasting_model": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx",
+      "cognitive_credit": {
+        "file": "cognitive-credit-africell-financials-23-Sep-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "africell_cognitive_credit.json"
+      }
     },
     "financials_multi_year": [
       {
@@ -3041,7 +3046,8 @@ const MASTER_ISSUERS = [
           "tax": 4.6,
           "fcf": -10.9,
           "formula_check": "104.9 - -99.4 - 42.8 - (167.8) - 4.6 = -10.9"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -3078,7 +3084,8 @@ const MASTER_ISSUERS = [
           "tax": 11.0,
           "fcf": 10.5,
           "formula_check": "114.3 - -98.7 - 7.0 - (184.5) - 11.0 = 10.5"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -3115,7 +3122,8 @@ const MASTER_ISSUERS = [
           "tax": 5.9,
           "fcf": -33.9,
           "formula_check": "79.5 - -49.7 - 16.0 - (141.2) - 5.9 = -33.9"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025A",
@@ -3152,7 +3160,8 @@ const MASTER_ISSUERS = [
           "tax": 7.8,
           "fcf": -38.8,
           "formula_check": "138.6 - -55.8 - 45.0 - (180.4) - 7.8 = -38.8"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "LTM 2Q26",
@@ -3189,7 +3198,8 @@ const MASTER_ISSUERS = [
           "tax": 9.3,
           "fcf": -62.5,
           "formula_check": "158.8 - -68.0 - 49.2 - (230.8) - 9.3 = -62.5"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "supplementary_data": {
@@ -7436,6 +7446,11 @@ const MASTER_ISSUERS = [
         "net_debt_usd_m": 1167.0,
         "net_leverage": 5.61,
         "reported_fcf_ltm_usd_m": -174.6
+      },
+      "cognitive_credit": {
+        "file": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "aragvi_cognitive_credit.json"
       }
     },
     "financials_multi_year": [
@@ -7477,7 +7492,8 @@ const MASTER_ISSUERS = [
           "tax": 6.3,
           "fcf": -1.0,
           "formula_check": "104.0 - 34.6 - 31.1 - (33.0) - 6.3 = -1.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -7517,7 +7533,8 @@ const MASTER_ISSUERS = [
           "tax": 7.6,
           "fcf": -44.1,
           "formula_check": "128.0 - 60.5 - 38.9 - (65.1) - 7.6 = -44.1"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -7557,7 +7574,8 @@ const MASTER_ISSUERS = [
           "tax": 8.1,
           "fcf": -52.4,
           "formula_check": "144.0 - 68.0 - 46.8 - (73.5) - 8.1 = -52.4"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -7597,7 +7615,8 @@ const MASTER_ISSUERS = [
           "tax": 9.0,
           "fcf": -15.1,
           "formula_check": "160.0 - 64.4 - 51.9 - (49.8) - 9.0 = -15.1"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025E",
@@ -7637,7 +7656,8 @@ const MASTER_ISSUERS = [
           "tax": 11.0,
           "fcf": 3.6,
           "formula_check": "176.0 - 58.5 - 49.9 - (53.0) - 11.0 = 3.6"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026E",
@@ -7677,7 +7697,8 @@ const MASTER_ISSUERS = [
           "tax": 12.7,
           "fcf": 9.9,
           "formula_check": "188.8 - 62.8 - 47.8 - (55.6) - 12.7 = 9.9"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2027E",
@@ -7717,7 +7738,8 @@ const MASTER_ISSUERS = [
           "tax": 14.0,
           "fcf": 15.1,
           "formula_check": "198.4 - 66.0 - 45.7 - (57.6) - 14.0 = 15.1"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026_LTM",
@@ -7754,7 +7776,8 @@ const MASTER_ISSUERS = [
           "tax": 5.4,
           "fcf": -174.6,
           "formula_check": "207.9 - 63.4 - 109.4 - (204.3) - 5.4 = -174.6"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "supplementary_data": {
@@ -8737,7 +8760,12 @@ const MASTER_ISSUERS = [
       "net_leverage_2q26": 2.5,
       "acmi_fleet_current": 107,
       "acmi_fleet_target_ye26": 95,
-      "acmi_fleet_ye25": 142
+      "acmi_fleet_ye25": 142,
+      "cognitive_credit": {
+        "file": "cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "asg_cognitive_credit.json"
+      }
     },
     "financials_multi_year": [
       {
@@ -8775,7 +8803,8 @@ const MASTER_ISSUERS = [
           "tax": 12.2,
           "fcf": -65.5,
           "formula_check": "172.5 - -70.3 - 39.7 - (256.4) - 12.2 = -65.5"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -8812,7 +8841,8 @@ const MASTER_ISSUERS = [
           "tax": 19.3,
           "fcf": -49.4,
           "formula_check": "302.6 - -154.7 - 83.4 - (404.0) - 19.3 = -49.4"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -8849,7 +8879,8 @@ const MASTER_ISSUERS = [
           "tax": 25.1,
           "fcf": -97.0,
           "formula_check": "403.2 - -204.8 - 114.9 - (565.0) - 25.1 = -97.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -8886,7 +8917,8 @@ const MASTER_ISSUERS = [
           "tax": 40.9,
           "fcf": -189.2,
           "formula_check": "521.9 - -230.8 - 92.4 - (808.6) - 40.9 = -189.2"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025A",
@@ -8923,7 +8955,8 @@ const MASTER_ISSUERS = [
           "tax": 33.1,
           "fcf": -177.5,
           "formula_check": "449.1 - -162.5 - 93.4 - (662.6) - 33.1 = -177.5"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2Q26 LTM",
@@ -8960,7 +8993,8 @@ const MASTER_ISSUERS = [
           "tax": 23.8,
           "fcf": -164.2,
           "formula_check": "365.1 - -155.1 - 97.1 - (563.5) - 23.8 = -164.2"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "credit_view": {
@@ -13859,6 +13893,11 @@ const MASTER_ISSUERS = [
         "cash_usd_m": 714.7,
         "net_debt_usd_m": 11702.9,
         "adj_net_leverage": 8.4
+      },
+      "cognitive_credit": {
+        "file": "cognitive-credit-braskem-financials-23-Sep-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "braskem_cognitive_credit.json"
       }
     },
     "financials_multi_year": [
@@ -13900,7 +13939,8 @@ const MASTER_ISSUERS = [
           "tax": 513.6,
           "fcf": 3630.0,
           "formula_check": "5620.0 - 820.0 - 510.0 - (146.4) - 513.6 = 3630.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -13940,7 +13980,8 @@ const MASTER_ISSUERS = [
           "tax": 144.7,
           "fcf": 190.0,
           "formula_check": "2150.0 - 940.0 - 540.2 - (335.1) - 144.7 = 190.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -13980,7 +14021,8 @@ const MASTER_ISSUERS = [
           "tax": 0.0,
           "fcf": -745.0,
           "formula_check": "785.0 - 810.0 - 590.2 - (129.8) - 0.0 = -745.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -14020,7 +14062,8 @@ const MASTER_ISSUERS = [
           "tax": 0.0,
           "fcf": -480.0,
           "formula_check": "850.0 - 720.0 - 611.5 - (-1.5) - 0.0 = -480.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025A",
@@ -14060,7 +14103,8 @@ const MASTER_ISSUERS = [
           "tax": 26.5,
           "fcf": -235.0,
           "formula_check": "1150.0 - 650.0 - 628.4 - (80.1) - 26.5 = -235.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026E",
@@ -14100,7 +14144,8 @@ const MASTER_ISSUERS = [
           "tax": 68.9,
           "fcf": 170.0,
           "formula_check": "1400.0 - 600.0 - 520.4 - (40.7) - 68.9 = 170.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026_LTM",
@@ -14137,7 +14182,8 @@ const MASTER_ISSUERS = [
           "tax": 0.0,
           "fcf": -1759.3,
           "formula_check": "1393.8 - 780.0 - 1115.0 - (1258.1) - 0.0 = -1759.3"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "debt_maturities": {
@@ -80833,7 +80879,12 @@ const MASTER_ISSUERS = [
       "unrestricted_cash_1h26": 188.0,
       "net_leverage_1h26": 2.9,
       "gross_leverage_1h26": 3.1,
-      "ltm_ebitda": 747.0
+      "ltm_ebitda": 747.0,
+      "cognitive_credit": {
+        "file": "cognitive-credit-tullow-financials-07-Oct-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "tullow_cognitive_credit.json"
+      }
     },
     "financials_multi_year": [
       {
@@ -80876,7 +80927,8 @@ const MASTER_ISSUERS = [
           "formula_check": "1019.8 - -236.5 - 219.8 - (717.4) - 74.1 = 245.0"
         },
         "gross_profit": 646.5,
-        "operating_profit": 526.7
+        "operating_profit": 526.7,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -80918,7 +80970,8 @@ const MASTER_ISSUERS = [
           "formula_check": "1656.1 - -306.4 - 234.9 - (1183.9) - 138.7 = 405.0"
         },
         "gross_profit": 1085.6,
-        "operating_profit": 733.9
+        "operating_profit": 733.9,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -80960,7 +81013,8 @@ const MASTER_ISSUERS = [
           "formula_check": "1167.6 - -292.5 - 239.8 - (865.7) - 86.6 = 268.0"
         },
         "gross_profit": 764.9,
-        "operating_profit": 295.9
+        "operating_profit": 295.9,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -81002,7 +81056,8 @@ const MASTER_ISSUERS = [
           "formula_check": "1093.7 - -224.5 - 223.2 - (861.6) - 81.4 = 152.0"
         },
         "gross_profit": 634.7,
-        "operating_profit": 448.7
+        "operating_profit": 448.7,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025E",
@@ -81044,7 +81099,8 @@ const MASTER_ISSUERS = [
           "formula_check": "950.0 - -240.0 - 210.2 - (826.6) - 68.2 = 85.0"
         },
         "gross_profit": 610.0,
-        "operating_profit": 410.0
+        "operating_profit": 410.0,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026E",
@@ -81084,7 +81140,8 @@ const MASTER_ISSUERS = [
           "tax": 67.3,
           "fcf": 182.0,
           "formula_check": "950.0 - 230.0 - 216.4 - (254.3) - 67.3 = 182.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2027E",
@@ -81124,7 +81181,8 @@ const MASTER_ISSUERS = [
           "tax": 72.8,
           "fcf": 210.0,
           "formula_check": "985.0 - 220.0 - 204.4 - (277.8) - 72.8 = 210.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "supplementary_data": {
@@ -88545,7 +88603,12 @@ const MASTER_ISSUERS = [
       "last_updated": "2026-09-23",
       "model_type": "corp",
       "fcf_2024a": -198.1,
-      "net_leverage_2024a": 3.62
+      "net_leverage_2024a": 3.62,
+      "cognitive_credit": {
+        "file": "cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "zorlu_cognitive_credit.json"
+      }
     },
     "financials_multi_year": [
       {
@@ -88586,7 +88649,8 @@ const MASTER_ISSUERS = [
           "tax": 8.3,
           "fcf": -86.6,
           "formula_check": "208.0 - 168.0 - 90.4 - (27.9) - 8.3 = -86.6"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -88626,7 +88690,8 @@ const MASTER_ISSUERS = [
           "tax": 9.9,
           "fcf": -215.9,
           "formula_check": "256.0 - 293.8 - 113.3 - (54.9) - 9.9 = -215.9"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -88666,7 +88731,8 @@ const MASTER_ISSUERS = [
           "tax": 9.9,
           "fcf": -251.0,
           "formula_check": "288.0 - 330.5 - 135.8 - (62.8) - 9.9 = -251.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -88706,7 +88772,8 @@ const MASTER_ISSUERS = [
           "tax": 11.0,
           "fcf": -198.1,
           "formula_check": "320.0 - 312.8 - 150.9 - (43.4) - 11.0 = -198.1"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025E",
@@ -88746,7 +88813,8 @@ const MASTER_ISSUERS = [
           "tax": 15.2,
           "fcf": -136.4,
           "formula_check": "352.0 - 284.2 - 144.9 - (44.1) - 15.2 = -136.4"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026E",
@@ -88786,7 +88854,8 @@ const MASTER_ISSUERS = [
           "tax": 18.8,
           "fcf": -129.4,
           "formula_check": "377.6 - 304.9 - 138.8 - (44.5) - 18.8 = -129.4"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2027E",
@@ -88826,7 +88895,8 @@ const MASTER_ISSUERS = [
           "tax": 21.8,
           "fcf": -122.6,
           "formula_check": "396.8 - 320.4 - 132.7 - (44.5) - 21.8 = -122.6"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "supplementary_data": {
@@ -95651,7 +95721,12 @@ window.CEMBI_DATA = {
       "next_call_date": "2026-10-23",
       "next_call_price": 105.0,
       "cognitive_credit_financials_model": "cognitive-credit-africell-financials-23-Sep-2026.xlsx",
-      "cognitive_credit_forecasting_model": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx"
+      "cognitive_credit_forecasting_model": "cognitive-credit-africell-forecasting-23-Sep-2026.xlsx",
+      "cognitive_credit": {
+        "file": "cognitive-credit-africell-financials-23-Sep-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "africell_cognitive_credit.json"
+      }
     },
     "financials_multi_year": [
       {
@@ -95689,7 +95764,8 @@ window.CEMBI_DATA = {
           "tax": 4.6,
           "fcf": -10.9,
           "formula_check": "104.9 - -99.4 - 42.8 - (167.8) - 4.6 = -10.9"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -95726,7 +95802,8 @@ window.CEMBI_DATA = {
           "tax": 11.0,
           "fcf": 10.5,
           "formula_check": "114.3 - -98.7 - 7.0 - (184.5) - 11.0 = 10.5"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -95763,7 +95840,8 @@ window.CEMBI_DATA = {
           "tax": 5.9,
           "fcf": -33.9,
           "formula_check": "79.5 - -49.7 - 16.0 - (141.2) - 5.9 = -33.9"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025A",
@@ -95800,7 +95878,8 @@ window.CEMBI_DATA = {
           "tax": 7.8,
           "fcf": -38.8,
           "formula_check": "138.6 - -55.8 - 45.0 - (180.4) - 7.8 = -38.8"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "LTM 2Q26",
@@ -95837,7 +95916,8 @@ window.CEMBI_DATA = {
           "tax": 9.3,
           "fcf": -62.5,
           "formula_check": "158.8 - -68.0 - 49.2 - (230.8) - 9.3 = -62.5"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-africell-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "supplementary_data": {
@@ -100084,6 +100164,11 @@ window.CEMBI_DATA = {
         "net_debt_usd_m": 1167.0,
         "net_leverage": 5.61,
         "reported_fcf_ltm_usd_m": -174.6
+      },
+      "cognitive_credit": {
+        "file": "cognitive-credit-transoil-financials-23-Sep-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "aragvi_cognitive_credit.json"
       }
     },
     "financials_multi_year": [
@@ -100125,7 +100210,8 @@ window.CEMBI_DATA = {
           "tax": 6.3,
           "fcf": -1.0,
           "formula_check": "104.0 - 34.6 - 31.1 - (33.0) - 6.3 = -1.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -100165,7 +100251,8 @@ window.CEMBI_DATA = {
           "tax": 7.6,
           "fcf": -44.1,
           "formula_check": "128.0 - 60.5 - 38.9 - (65.1) - 7.6 = -44.1"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -100205,7 +100292,8 @@ window.CEMBI_DATA = {
           "tax": 8.1,
           "fcf": -52.4,
           "formula_check": "144.0 - 68.0 - 46.8 - (73.5) - 8.1 = -52.4"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -100245,7 +100333,8 @@ window.CEMBI_DATA = {
           "tax": 9.0,
           "fcf": -15.1,
           "formula_check": "160.0 - 64.4 - 51.9 - (49.8) - 9.0 = -15.1"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025E",
@@ -100285,7 +100374,8 @@ window.CEMBI_DATA = {
           "tax": 11.0,
           "fcf": 3.6,
           "formula_check": "176.0 - 58.5 - 49.9 - (53.0) - 11.0 = 3.6"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026E",
@@ -100325,7 +100415,8 @@ window.CEMBI_DATA = {
           "tax": 12.7,
           "fcf": 9.9,
           "formula_check": "188.8 - 62.8 - 47.8 - (55.6) - 12.7 = 9.9"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2027E",
@@ -100365,7 +100456,8 @@ window.CEMBI_DATA = {
           "tax": 14.0,
           "fcf": 15.1,
           "formula_check": "198.4 - 66.0 - 45.7 - (57.6) - 14.0 = 15.1"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026_LTM",
@@ -100402,7 +100494,8 @@ window.CEMBI_DATA = {
           "tax": 5.4,
           "fcf": -174.6,
           "formula_check": "207.9 - 63.4 - 109.4 - (204.3) - 5.4 = -174.6"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-transoil-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "supplementary_data": {
@@ -101385,7 +101478,12 @@ window.CEMBI_DATA = {
       "net_leverage_2q26": 2.5,
       "acmi_fleet_current": 107,
       "acmi_fleet_target_ye26": 95,
-      "acmi_fleet_ye25": 142
+      "acmi_fleet_ye25": 142,
+      "cognitive_credit": {
+        "file": "cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "asg_cognitive_credit.json"
+      }
     },
     "financials_multi_year": [
       {
@@ -101423,7 +101521,8 @@ window.CEMBI_DATA = {
           "tax": 12.2,
           "fcf": -65.5,
           "formula_check": "172.5 - -70.3 - 39.7 - (256.4) - 12.2 = -65.5"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -101460,7 +101559,8 @@ window.CEMBI_DATA = {
           "tax": 19.3,
           "fcf": -49.4,
           "formula_check": "302.6 - -154.7 - 83.4 - (404.0) - 19.3 = -49.4"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -101497,7 +101597,8 @@ window.CEMBI_DATA = {
           "tax": 25.1,
           "fcf": -97.0,
           "formula_check": "403.2 - -204.8 - 114.9 - (565.0) - 25.1 = -97.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -101534,7 +101635,8 @@ window.CEMBI_DATA = {
           "tax": 40.9,
           "fcf": -189.2,
           "formula_check": "521.9 - -230.8 - 92.4 - (808.6) - 40.9 = -189.2"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025A",
@@ -101571,7 +101673,8 @@ window.CEMBI_DATA = {
           "tax": 33.1,
           "fcf": -177.5,
           "formula_check": "449.1 - -162.5 - 93.4 - (662.6) - 33.1 = -177.5"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2Q26 LTM",
@@ -101608,7 +101711,8 @@ window.CEMBI_DATA = {
           "tax": 23.8,
           "fcf": -164.2,
           "formula_check": "365.1 - -155.1 - 97.1 - (563.5) - 23.8 = -164.2"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-aviasolutions-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "credit_view": {
@@ -106507,6 +106611,11 @@ window.CEMBI_DATA = {
         "cash_usd_m": 714.7,
         "net_debt_usd_m": 11702.9,
         "adj_net_leverage": 8.4
+      },
+      "cognitive_credit": {
+        "file": "cognitive-credit-braskem-financials-23-Sep-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "braskem_cognitive_credit.json"
       }
     },
     "financials_multi_year": [
@@ -106548,7 +106657,8 @@ window.CEMBI_DATA = {
           "tax": 513.6,
           "fcf": 3630.0,
           "formula_check": "5620.0 - 820.0 - 510.0 - (146.4) - 513.6 = 3630.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -106588,7 +106698,8 @@ window.CEMBI_DATA = {
           "tax": 144.7,
           "fcf": 190.0,
           "formula_check": "2150.0 - 940.0 - 540.2 - (335.1) - 144.7 = 190.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -106628,7 +106739,8 @@ window.CEMBI_DATA = {
           "tax": 0.0,
           "fcf": -745.0,
           "formula_check": "785.0 - 810.0 - 590.2 - (129.8) - 0.0 = -745.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -106668,7 +106780,8 @@ window.CEMBI_DATA = {
           "tax": 0.0,
           "fcf": -480.0,
           "formula_check": "850.0 - 720.0 - 611.5 - (-1.5) - 0.0 = -480.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025A",
@@ -106708,7 +106821,8 @@ window.CEMBI_DATA = {
           "tax": 26.5,
           "fcf": -235.0,
           "formula_check": "1150.0 - 650.0 - 628.4 - (80.1) - 26.5 = -235.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026E",
@@ -106748,7 +106862,8 @@ window.CEMBI_DATA = {
           "tax": 68.9,
           "fcf": 170.0,
           "formula_check": "1400.0 - 600.0 - 520.4 - (40.7) - 68.9 = 170.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026_LTM",
@@ -106785,7 +106900,8 @@ window.CEMBI_DATA = {
           "tax": 0.0,
           "fcf": -1759.3,
           "formula_check": "1393.8 - 780.0 - 1115.0 - (1258.1) - 0.0 = -1759.3"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-braskem-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "debt_maturities": {
@@ -173481,7 +173597,12 @@ window.CEMBI_DATA = {
       "unrestricted_cash_1h26": 188.0,
       "net_leverage_1h26": 2.9,
       "gross_leverage_1h26": 3.1,
-      "ltm_ebitda": 747.0
+      "ltm_ebitda": 747.0,
+      "cognitive_credit": {
+        "file": "cognitive-credit-tullow-financials-07-Oct-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "tullow_cognitive_credit.json"
+      }
     },
     "financials_multi_year": [
       {
@@ -173524,7 +173645,8 @@ window.CEMBI_DATA = {
           "formula_check": "1019.8 - -236.5 - 219.8 - (717.4) - 74.1 = 245.0"
         },
         "gross_profit": 646.5,
-        "operating_profit": 526.7
+        "operating_profit": 526.7,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -173566,7 +173688,8 @@ window.CEMBI_DATA = {
           "formula_check": "1656.1 - -306.4 - 234.9 - (1183.9) - 138.7 = 405.0"
         },
         "gross_profit": 1085.6,
-        "operating_profit": 733.9
+        "operating_profit": 733.9,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -173608,7 +173731,8 @@ window.CEMBI_DATA = {
           "formula_check": "1167.6 - -292.5 - 239.8 - (865.7) - 86.6 = 268.0"
         },
         "gross_profit": 764.9,
-        "operating_profit": 295.9
+        "operating_profit": 295.9,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -173650,7 +173774,8 @@ window.CEMBI_DATA = {
           "formula_check": "1093.7 - -224.5 - 223.2 - (861.6) - 81.4 = 152.0"
         },
         "gross_profit": 634.7,
-        "operating_profit": 448.7
+        "operating_profit": 448.7,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025E",
@@ -173692,7 +173817,8 @@ window.CEMBI_DATA = {
           "formula_check": "950.0 - -240.0 - 210.2 - (826.6) - 68.2 = 85.0"
         },
         "gross_profit": 610.0,
-        "operating_profit": 410.0
+        "operating_profit": 410.0,
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026E",
@@ -173732,7 +173858,8 @@ window.CEMBI_DATA = {
           "tax": 67.3,
           "fcf": 182.0,
           "formula_check": "950.0 - 230.0 - 216.4 - (254.3) - 67.3 = 182.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2027E",
@@ -173772,7 +173899,8 @@ window.CEMBI_DATA = {
           "tax": 72.8,
           "fcf": 210.0,
           "formula_check": "985.0 - 220.0 - 204.4 - (277.8) - 72.8 = 210.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-tullow-financials-07-Oct-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "supplementary_data": {
@@ -181193,7 +181321,12 @@ window.CEMBI_DATA = {
       "last_updated": "2026-09-23",
       "model_type": "corp",
       "fcf_2024a": -198.1,
-      "net_leverage_2024a": 3.62
+      "net_leverage_2024a": 3.62,
+      "cognitive_credit": {
+        "file": "cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx",
+        "ingested": "2026-10-08",
+        "archive": "zorlu_cognitive_credit.json"
+      }
     },
     "financials_multi_year": [
       {
@@ -181234,7 +181367,8 @@ window.CEMBI_DATA = {
           "tax": 8.3,
           "fcf": -86.6,
           "formula_check": "208.0 - 168.0 - 90.4 - (27.9) - 8.3 = -86.6"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2022A",
@@ -181274,7 +181408,8 @@ window.CEMBI_DATA = {
           "tax": 9.9,
           "fcf": -215.9,
           "formula_check": "256.0 - 293.8 - 113.3 - (54.9) - 9.9 = -215.9"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2023A",
@@ -181314,7 +181449,8 @@ window.CEMBI_DATA = {
           "tax": 9.9,
           "fcf": -251.0,
           "formula_check": "288.0 - 330.5 - 135.8 - (62.8) - 9.9 = -251.0"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2024A",
@@ -181354,7 +181490,8 @@ window.CEMBI_DATA = {
           "tax": 11.0,
           "fcf": -198.1,
           "formula_check": "320.0 - 312.8 - 150.9 - (43.4) - 11.0 = -198.1"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2025E",
@@ -181394,7 +181531,8 @@ window.CEMBI_DATA = {
           "tax": 15.2,
           "fcf": -136.4,
           "formula_check": "352.0 - 284.2 - 144.9 - (44.1) - 15.2 = -136.4"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2026E",
@@ -181434,7 +181572,8 @@ window.CEMBI_DATA = {
           "tax": 18.8,
           "fcf": -129.4,
           "formula_check": "377.6 - 304.9 - 138.8 - (44.5) - 18.8 = -129.4"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       },
       {
         "period": "2027E",
@@ -181474,7 +181613,8 @@ window.CEMBI_DATA = {
           "tax": 21.8,
           "fcf": -122.6,
           "formula_check": "396.8 - 320.4 - 132.7 - (44.5) - 21.8 = -122.6"
-        }
+        },
+        "source": "Cognitive Credit workbook cognitive-credit-zorluenerji-financials-23-Sep-2026.xlsx, ingested 2026-10-08"
       }
     ],
     "supplementary_data": {
