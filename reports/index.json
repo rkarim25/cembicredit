@@ -36,6 +36,15 @@
     "path": "reports/em-sovereign-issuance-index-flows-and-positioning.md"
   },
   {
+    "topic": "Eskom",
+    "slug": "eskom",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 7,
+    "run": "2026-10-09_0924_eskom",
+    "path": "reports/eskom.md"
+  },
+  {
     "topic": "Frontier sovereign restructurings: Common Framework pipeline and precedents",
     "slug": "frontier-sovereign-restructurings-common-framework-pipeline-",
     "updated": "09-Oct-26",
