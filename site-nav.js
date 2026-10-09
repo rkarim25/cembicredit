@@ -20,8 +20,8 @@
     { id: "sovereigns", asset: "Sovereign Dashboard", strategy: "Comparable macro & credit data, models", group: "corporate", href: "sovereigns.html" },
     { id: "comps", asset: "Peer Comparison", strategy: "Peer groups, metrics, charts", group: "corporate", href: "comps.html" },
 
-    { id: "local_em", asset: "Local EM Desk", strategy: "GBI-EM Sovereign Debt & FX", group: "macro", href: "local_em.html" },
-    { id: "cdx", asset: "CDX Desk", strategy: "EM CDX, Xover & US HY Spreads", group: "macro", href: "cdx.html" },
+    { id: "local_em", asset: "Local EM Desk", strategy: "GBI-EM constituents, official data", group: "macro", href: "local_em.html" },
+    { id: "cdx", asset: "Credit indices", strategy: "CDX, iTraxx: method and [BBG] list", group: "macro", href: "cdx.html" },
     { id: "ust", asset: "US Treasuries", strategy: "Yield Curve & Dual-Band Model", group: "macro", href: "ust.html" },
 
     { id: "restructuring", asset: "Restructuring Hub", strategy: "Special Situations & Workout Sandboxes", group: "restructuring", href: "restructuring.html" },
@@ -43,8 +43,8 @@
 
   function activeNavId(loc = location) {
     const page = currentPageFile(loc);
-    if (page === "local_em.html" || page === "gbi_em.html" || page === "gbi_country.html") return "local_em";
-    if (page === "cdx.html" || page === "credit.html") return "cdx";
+    if (page === "local_em.html") return "local_em";
+    if (page === "cdx.html") return "cdx";
     if (page === "ust.html") return "ust";
     if (page === "restructuring.html") return "restructuring";
     if (page === "braskem_calculator.html" || page === "braskem_background.html") return "braskem";

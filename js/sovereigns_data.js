@@ -3,7 +3,7 @@ window.SOVEREIGNS = [
  {
   "slug": "albania",
   "country": "Albania",
-  "region": "CEEMEA (Balkans)",
+  "region": "CEEMEA - Southeast Europe (Western Balkans)",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
@@ -33,15 +33,15 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -0.2
   },
   "src": {
-   "gross_reserves_usd_bn": "World Bank via database/sovereigns/albania.json 08-Oct-26 | as stated by World Bank; inclusion of gold not stated",
+   "gross_reserves_usd_bn": "World Bank via database/sovereigns/albania.json 08-Oct-26 | gross FX reserves, as reported in World Bank series; gold treatment not stated",
    "import_cover_months": "World Bank via database/sovereigns/albania.json 08-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gov_debt_pct_gdp": "IMF WEO via database/sovereigns/albania.json 08-Oct-26 | General government debt, IMF WEO; vintage not stated",
+   "gov_debt_pct_gdp": "IMF WEO via database/sovereigns/albania.json (WEO vintage not stated) 08-Oct-26 | General government debt, % of GDP (IMF WEO)",
    "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO via database/sovereigns/albania.json 08-Oct-26",
-   "external_debt_pct_gdp": "World Bank via database/sovereigns/albania.json 08-Oct-26 | external debt as % of GNI (not GDP), World Bank",
+   "nominal_gdp_usd_bn": "IMF WEO via database/sovereigns/albania.json (WEO vintage not stated) 08-Oct-26",
+   "external_debt_pct_gdp": "World Bank via database/sovereigns/albania.json 08-Oct-26 | External debt as % of GNI (World Bank), not % of GDP; includes all external debt, not only public",
    "cpi_latest_yoy_pct": "IMF CPI database 08-Oct-26 | IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)",
    "policy_rate_pct": "IMF MFS interest rates 08-Oct-26 | IMF MFS interest rates, monetary policy-related rate, % p.a., monthly (auto-filled; a run's sourced point replaces it unless older)",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
@@ -2893,7 +2893,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "managed float",
-  "commodity": "Crude oil exports (1.00-1.05M bpd after OPEC exit); Brent price drives goods surplus and terms of trade",
+  "commodity": "Crude oil exports (output 1.00-1.05M bpd after OPEC exit); the oil price drives the goods surplus and terms of trade",
   "ratings": {
    "moodys": {
     "rating": "B3",
@@ -2917,12 +2917,12 @@ window.SOVEREIGNS = [
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF 2026 Article IV Consultation (01-May-26); programme status unverified",
-   "asof": "01-May-26"
+   "source": "IMF 2026 Article IV Consultation (01-May-26); no programme or DSA rating verified",
+   "asof": "08-Oct-26"
   },
   "politics": {
    "next_election": "Aug-27",
-   "note": "General election; OGE 2027 approval due 31-Dec-26, so a pre-election budget",
+   "note": "General election; OGE 2027 approval by the National Assembly due 31-Dec-26, so the budget is pre-election",
    "source": "Government of Angola; MINFIN",
    "asof": "May-26"
   },
@@ -2951,9 +2951,9 @@ window.SOVEREIGNS = [
    "cpi_latest_yoy_pct": "INE 08-Oct-26",
    "policy_rate_pct": "BNA, Comit\u00e9 de Pol\u00edtica Monet\u00e1ria communiqu\u00e9 18-Sep-26",
    "current_account_pct_gdp": "IMF/BNA 08-Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | gross incl. gold (ex gold 13.192 plus gold 2.629)",
-   "import_cover_months": "BNA (on BNA gross reserves of $14.9B) 08-Oct-26",
-   "gov_debt_pct_gdp": "MINFIN/IMF 08-Oct-26 | public debt, approx.; ceiling 60% under Fiscal Sustainability Law",
+   "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | gross incl. gold ($13.192B ex gold plus $2.629B gold)",
+   "import_cover_months": "BNA 08-Oct-26",
+   "gov_debt_pct_gdp": "MINFIN/IMF 08-Oct-26 | public debt, about 49.2% of GDP",
    "eurobonds_outstanding_usd_bn": "MINFIN/UGD Sep-26",
    "next_eurobond_maturity": "MINFIN/UGD Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
@@ -5389,7 +5389,7 @@ window.SOVEREIGNS = [
  {
   "slug": "armenia",
   "country": "Armenia",
-  "region": "Caucasus",
+  "region": "CEEMEA - South Caucasus",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
@@ -5413,19 +5413,19 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "3-year precautionary Stand-By Arrangement",
-   "size_usd_bn": 0.0502,
+   "programme": "3-year Stand-By Arrangement (precautionary)",
+   "size_usd_bn": null,
    "approved": "Dec-25",
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF, First Review under Stand-By Arrangement, Press Release No. 26/214 (total available access US$50.2m after first review, no drawings)",
+   "source": "IMF, First Review under Stand-By Arrangement, Press Release No. 26/214 (first review completed Jun-26; cumulative access stated as US$50.2m, unit not verified so size left null)",
    "asof": "15-Jun-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Peace treaty with Azerbaijan initialed in Washington on 08-Aug-25; border delimitation and transit protocols still under negotiation",
+   "note": "Peace treaty with Azerbaijan initialed in Washington, D.C. on 08-Aug-25; border delimitation and transit protocols still under negotiation",
    "source": "Government of Armenia",
-   "asof": "Oct-26"
+   "asof": "08-Oct-26"
   },
   "ind": {
    "real_gdp_growth_pct": 5.25,
@@ -5448,14 +5448,14 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -1.1
   },
   "src": {
-   "real_gdp_growth_pct": "IMF (World Bank 5.3%, EBRD 5.5%, Fitch 5.2%) Jun-26",
-   "cpi_latest_yoy_pct": "Armstat Sep-26",
+   "real_gdp_growth_pct": "IMF (full-year 2026 projection, cited in adjudicated document) 01-Jun-26",
+   "cpi_latest_yoy_pct": "Armstat, Consumer Price Index 30-Sep-26",
    "policy_rate_pct": "Central Bank of Armenia, refinancing rate decision 15-Sep-26",
-   "current_account_pct_gdp": "Armstat, Balance of Payments Q2 2026 Jun-26",
-   "gross_reserves_usd_bn": "Central Bank of Armenia Sep-26 | CBA gross international reserves; document states 'exceeding USD 6.5bn', so a floor",
+   "current_account_pct_gdp": "Armstat, Balance of Payments Q2 2026 (deficit USD 749.7m; ratio to quarterly nominal GDP as stated in source) 30-Jun-26",
+   "gross_reserves_usd_bn": "Central Bank of Armenia, Gross International Reserves Report 30-Sep-26 | CBA gross international reserves; stated as 'exceeding USD 6.5bn', gold treatment not specified",
    "import_cover_months": "Central Bank of Armenia (stated as 'more than 5 months') Sep-26",
-   "fiscal_balance_pct_gdp": "Ministry of Finance, State Budget Execution Oct-26",
-   "next_eurobond_maturity": "Ministry of Finance 26-Sep-19",
+   "fiscal_balance_pct_gdp": "Ministry of Finance, State Budget Execution (deficit tracking, vs initial target 4.5%) 08-Oct-26",
+   "next_eurobond_maturity": "Ministry of Finance 08-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "gov_debt_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
@@ -8360,14 +8360,14 @@ window.SOVEREIGNS = [
    "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
   },
   "asof_ind": {
-   "real_gdp_growth_pct": "2026F",
+   "real_gdp_growth_pct": "2026E",
    "cpi_latest_yoy_pct": "Sep-26",
    "policy_rate_pct": "Sep-26",
    "current_account_pct_gdp": "Q2-26",
    "gross_reserves_usd_bn": "Sep-26",
    "import_cover_months": "Sep-26",
    "fiscal_balance_pct_gdp": "2026E",
-   "next_eurobond_maturity": "26-Sep-19",
+   "next_eurobond_maturity": "08-Oct-26",
    "fdi_net_pct_gdp": "2025",
    "gov_debt_pct_gdp": "2026E",
    "nominal_gdp_usd_bn": "2026E",
@@ -31424,6 +31424,36 @@ window.SOVEREIGNS = [
    "open_items": "11",
    "updated": "08-Oct-26",
    "status": "Draft"
+  }
+ },
+ {
+  "slug": "em-issuance-index-flows-and-positioning",
+  "country": "EM sovereign issuance, index flows and positioning",
+  "region": "EM cross-region (thematic, no single country)",
+  "group": "Other",
+  "ceemea": false,
+  "asof": "09-Oct-26",
+  "fx_regime": null,
+  "commodity": null,
+  "ratings": {},
+  "imf": {},
+  "politics": {},
+  "ind": {},
+  "src": {},
+  "derived": {},
+  "series": {},
+  "hist": {},
+  "hist_src": {},
+  "monthly": {},
+  "monthly_src": {},
+  "fsi": {},
+  "fsi_src": {},
+  "quarterly": {},
+  "quarterly_src": {},
+  "report": {
+   "open_items": null,
+   "updated": null,
+   "status": null
   }
  },
  {

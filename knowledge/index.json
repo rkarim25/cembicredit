@@ -813,6 +813,13 @@
   },
   {
     "section": "sovereigns",
+    "title": "EM sovereign issuance, index flows and positioning",
+    "path": "knowledge/sovereigns/em-issuance-index-flows-and-positioning.md",
+    "updated": "09-Oct-26",
+    "slug": "em-issuance-index-flows-and-positioning"
+  },
+  {
+    "section": "sovereigns",
     "title": "Egypt sovereign",
     "path": "knowledge/sovereigns/egypt.md",
     "updated": "09-Oct-26",

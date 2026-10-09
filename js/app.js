@@ -202,6 +202,20 @@ function switchDrawerTab(id, tabName) {
 }
 
 // ----------------- RENDER INSTITUTIONAL TABLE & DRAWER -----------------
+// Data provenance of an issuer record: Cognitive Credit workbook, audited filings read by the pipeline, or the legacy desk build
+// (Notion dossiers processed before the pipeline existed, not re-verified). The badge keeps unverified numbers from passing as sourced.
+function provenanceBadge(item) {
+  const m = item.metadata || {};
+  const fin = item.financials_multi_year || [];
+  const sourced = fin.some(f => f.source && /audited|annual report|filing|financial statements|cognitive credit/i.test(f.source));
+  const cc = (m.model_file || '').toLowerCase().includes('cognitive') || !!m.cognitive_credit || sourced && /cognitive credit/i.test(fin.map(f => f.source).join(' '));
+  let label, title, color;
+  if (cc) { label = 'CC'; title = 'Cognitive Credit workbook ingested; formulas retained'; color = '#2e8b57'; }
+  else if (sourced) { label = 'Filings'; title = 'Financials rebuilt from audited filings: ' + (fin.find(f => f.source) || {}).source; color = '#2e8b57'; }
+  else { label = 'Legacy'; title = 'Legacy desk record (' + (m.last_updated || 'undated') + '): built before the pipeline, not re-verified against filings. Treat numbers as indicative until rebuilt.'; color = '#c77d00'; }
+  return `<span class="badge" title="${title.replace(/"/g, '&quot;')}" style="font-size:9px; padding:1px 5px; margin-left:5px; border:1px solid ${color}; color:${color}; background:transparent;">${label}</span>`;
+}
+
 function renderTable() {
   const tbody = document.getElementById("issuers-tbody");
   tbody.innerHTML = "";
@@ -240,7 +254,7 @@ function renderTable() {
     let html = `
       <td style="white-space:nowrap;"><strong>${m.ticker}</strong><button id="btn-model-${m.id}" class="btn-action" onclick="event.stopPropagation(); openInstitutionalModel('${m.id}')" title="Open Model" style="font-size:10px; padding:1px 5px; margin-left:6px; background:rgba(245,158,11,0.18); border:1px solid #f59e0b; color:#fbbf24; border-radius:3px; cursor:pointer; font-weight:700;">⚡ Model</button></td>
       <td>
-      <a href="javascript:void(0)" onclick="toggleRowExpand('${m.id}')" style="font-weight:600;">${m.name}</a>
+      <a href="javascript:void(0)" onclick="toggleRowExpand('${m.id}')" style="font-weight:600;">${m.name}</a>${provenanceBadge(item)}
       ${(() => {
         const allN = window.CREDIT_NEWS_DATA || [];
         const tN = allN.filter(n => n.ticker === m.ticker || (n.impacted_issuers && n.impacted_issuers.includes(m.ticker)));
@@ -264,8 +278,8 @@ function renderTable() {
         <td class="num">$${(f24.revenue || 0).toLocaleString()}</td>
         <td class="num">$${(f24.ebitda || 0).toLocaleString()}</td>
         <td class="num">${(f24.ebitda_margin_pct || 0).toFixed(1)}%</td>
-        <td class="num"><strong>${(f24.net_leverage || 0).toFixed(2)}x</strong></td>
-        <td class="num">${(f25.net_leverage || 0).toFixed(2)}x</td>
+        <td class="num"><strong>${f24.net_leverage != null ? f24.net_leverage.toFixed(2) + 'x' : 'n/a'}</strong></td>
+        <td class="num">${f25.net_leverage != null ? f25.net_leverage.toFixed(2) + 'x' : 'n/a'}</td>
         <td class="num">${(f24.interest_coverage || 0).toFixed(2)}x</td>
         <td class="num">$${(rec.distressed_floor_px || 0).toFixed(2)}</td>
         <td class="num">$${(rec.base_case_px || 0).toFixed(2)}</td>
