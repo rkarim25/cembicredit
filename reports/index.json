@@ -99,6 +99,15 @@
     "path": "reports/oil-and-em-credit-exporters-versus-importers.md"
   },
   {
+    "topic": "Pegasus Airlines",
+    "slug": "pegasus-airlines",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 9,
+    "run": "2026-10-09_0910_pegasus-airlines",
+    "path": "reports/pegasus-airlines.md"
+  },
+  {
     "topic": "Qatar sovereign credit",
     "slug": "qatar-sovereign-credit",
     "updated": "09-Oct-26",
