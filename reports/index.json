@@ -1,5 +1,14 @@
 [
   {
+    "topic": "Akbank",
+    "slug": "akbank",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 8,
+    "run": "2026-10-09_0912_akbank",
+    "path": "reports/akbank.md"
+  },
+  {
     "topic": "China and EM: growth, commodity demand and China as a creditor",
     "slug": "china-and-em-growth-commodity-demand-and-china-as-a-creditor",
     "updated": "09-Oct-26",
