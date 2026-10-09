@@ -243,7 +243,7 @@ function renderHeroHeader() {
 
   const hubBtn = document.getElementById('hero-restruct-hub-btn');
   if (hubBtn) {
-    const isDistressed = (m.spread_bp >= 500) || (rec && rec.distressed_floor_px) || ['zorlu', 'braskem', 'aragvi', 'ukr_rail', 'dtek', 'tullow', 'asg', 'liqtel', 'metinvest', 'mhp'].includes(m.id);
+    const isDistressed = (m.spread_bp >= 500) || ((currentIssuer.recovery_analysis || {}).distressed_floor_px) || ['zorlu', 'braskem', 'aragvi', 'ukr_rail', 'dtek', 'tullow', 'asg', 'liqtel', 'metinvest', 'mhp'].includes(m.id);
     if (isDistressed) {
       hubBtn.style.display = 'inline-flex';
       hubBtn.href = `restructuring.html#${m.ticker || m.id}`;
@@ -2841,7 +2841,7 @@ function renderGuidanceAndNews() {
               <span>⚡</span> Recent Drivers &amp; Earnings Pulse
             </div>
             <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:6px; font-size:11.5px; color:var(--text-muted); line-height:1.45;">
-              ${drivers.map(d => `<li>${escapeHtml(d)}</li>`).join('')}
+              ${(Array.isArray(drivers) ? drivers : []).map(d => `<li>${escapeHtml(d)}</li>`).join('')}
             </ul>
           </div>
         </div>

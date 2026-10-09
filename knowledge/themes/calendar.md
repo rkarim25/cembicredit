@@ -46,6 +46,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 
 ## From runs (date first; verify before relying on it)
 - 19-Oct-26: China 3Q26 GDP release (position source, unverified against the NBS calendar, 09-Oct-26) (China and EM: growth, commodity demand and China as a creditor, run 2026-10-09_0826_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
+- 22-Oct-26 CBRT MPC meeting (Intellinews, Sep-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-09_0843_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
 - 23-Oct-26: Medium-Term Budget Policy Statement (MTBPS) tabled by Finance Minister Enoch Godongwana (National Treasury, Oct-26) (south-africa, re-filed)
 - 12-Nov-26: Central Bank of Egypt Monetary Policy Committee (MPC) interest rate decision meeting (CBE, Oct-26). (Egypt sovereign credit, run 2026-10-08_1145_egypt-sovereign-credit)
 - 15-Nov-26: BNA Monetary Policy Committee meeting (BNA, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
@@ -57,6 +58,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 02-Dec-26: BCEAO Monetary Policy Committee meeting (BCEAO, Sep-26) (Cote d'Ivoire sovereign credit, run 2026-10-08_2125_cote-d-ivoire-sovereign-credit)
 - 02-Dec-26: BCEAO Monetary Policy Committee meeting (BCEAO, Sep-26) (Senegal sovereign credit, run 2026-10-08_2129_senegal-sovereign-credit)
 - 10-Dec-26 National Bank of Serbia Executive Board interest rate decision (National Bank of Serbia, Sep-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
+- 10-Dec-26 CBRT MPC meeting (Intellinews, Sep-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-09_0843_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
 - 15-Dec-26: IMF Executive Board Eighth and final review under the $8B Extended Fund Facility arrangement (IMF, Sep-26). (Egypt sovereign credit, run 2026-10-08_1145_egypt-sovereign-credit)
 - 15-Dec-26: first IMF monitoring mission under the PCI (IMF calendar, Jul-26) (Ghana sovereign credit, run 2026-10-08_2118_ghana-sovereign-credit)
 - 15-Dec-26: National Assembly adoption of the 2027 Finance Law (Ministry of Finance, Oct-26) (Cote d'Ivoire sovereign credit, run 2026-10-08_2125_cote-d-ivoire-sovereign-credit)

@@ -1191,6 +1191,13 @@
   },
   {
     "section": "themes",
+    "title": "Local-currency EM rates: ex-ante real rates and FX carry ranking",
+    "path": "knowledge/themes/local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank.md",
+    "updated": "09-Oct-26",
+    "slug": "local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank"
+  },
+  {
+    "section": "themes",
     "title": "Metinvest Barclays report and model",
     "path": "knowledge/themes/metinvest-barclays-report-and-model.md",
     "updated": "08-Oct-26",
