@@ -23,14 +23,23 @@ _USD m unless the record says otherwise; audited years only._
 - Benchmark bond: ZOREN 11.00% 2030.
 - Model: `models/Zorlu_Enerji_Model.xlsx`; Cognitive Credit: yes.
 - Record last updated: 2026-09-23.
+- Moody's downgraded the CFR to Caa1 from B3, outlook Negative; guaranteed senior unsecured bonds Caa1 (Foreks, 24-Sep-26) [09-Oct-26]
+- Fitch downgraded the IDR and senior secured rating to B-, Rating Watch Negative, recovery rating RR4 (KAP via Foreks, 29-Sep-26) [09-Oct-26]
 
 ## 1. Business and jurisdiction
 ## 2. Financials and liquidity
+- 1H26 revenue TRY 13.0bn, EBITDA TRY 6.3bn, net loss TRY 6.03bn, net debt/EBITDA 4.11x (Midas on KAP release, 14-Aug-26) [09-Oct-26]
+- Gökçedağ wind sold 29-Dec-25 for US$117.0m after liabilities (KAP summary, Dec-25) [09-Oct-26]
 ## 3. Capital structure and documentation
+- Houlihan Lokey and Servo Capital appointed as financial advisers on capital structure on 14-Sep-26 (CNBC-e, Sep-26) [09-Oct-26]
 ## 4. Ownership, governance, sovereign links
+- Zorlu Holding filed a Financial Restructuring (FYY) application covering Vestel and Textile groups (DHA, 2026, exact date unconfirmed) [09-Oct-26]
 ## 5. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
 ## 6. Catalysts and events
+- 23-Oct-26 ZOREN 2030 semi-annual coupon, ~US$60.5m per repo (issuer record, 23-Sep-26) [09-Oct-26]
+- 31-Oct-26 expected 3Q26 results (issuer record, 23-Sep-26) [09-Oct-26]
+- 30-Jun-27 target date for 375MW wind/storage licence conversion (issuer record, 23-Sep-26) [09-Oct-26]
 ## 7. Questions for management
 - Can you provide the exact operational mechanics and timeline for converting TRY electricity sales into hard-currency USD under the YEKDEM mechanism? Specifically, does Zorlu face any repatriation friction or mandatory central bank surrender ratios that delay offshore debt service on the 2026 Eurobonds?
 - Given ongoing Middle East geopolitical tensions, what is the exact legal status of dividend distributions from Dorad Energy (in which Zorlu holds a 25% stake)? Are cash flows currently being remitted to Istanbul, and are there any debt cross-default provisions if Dorad were to suspend distributions?
@@ -53,3 +62,14 @@ _(levels from Reza via [BBG]; never from memory)_
 - New $800M 5.5-year bond issued at IPT 11-11.25% (Jefferies fair value ~10%). Bond refinanced project-level bank debt and consolidated capital structure at HoldCo. International assets earmarked for disposal to deleverage below $1B net debt. Identified risks: high interest burden, FiT expiry post-2027, and related-party loans to Zorlu Holding. (Jefferies Fixed Income Strategy, 2024-10-17)
 - Comprehensive game theory analysis of domestic bank syndicate cooperation incentives vs creditor violence. Established 16-row APR recovery waterfall, dynamic secondary pricing bands with friction layers, 2D exit yield sensitivity matrix, and 3 core scenarios (Bear: 24-58c, Base: 95.3c, Bull: 102.5c). (Desk Research Memo & Interactive Valuation Suite, 2026-09-22)
 - Initial distressed situation analysis following Houlihan Lokey appointment. Detailed the October 23 coupon test (.75M), EBITDA quality breakdown (YEKDEM vs regulated OEDAŞ vs merchant),  related-party loan leakage, and HoldCo structural subordination. (Initial Distressed Dossier Setup, 2026-09-19)
+
+### 09-Oct-26 (run 2026-10-09_0906_zorlu-enerji)
+- [Snapshot] Moody's downgraded the CFR to Caa1 from B3, outlook Negative; guaranteed senior unsecured bonds Caa1 (Foreks, 24-Sep-26)
+- [Snapshot] Fitch downgraded the IDR and senior secured rating to B-, Rating Watch Negative, recovery rating RR4 (KAP via Foreks, 29-Sep-26)
+- [Capital] Houlihan Lokey and Servo Capital appointed as financial advisers on capital structure on 14-Sep-26 (CNBC-e, Sep-26)
+- [Governance] Zorlu Holding filed a Financial Restructuring (FYY) application covering Vestel and Textile groups (DHA, 2026, exact date unconfirmed)
+- [Financials] 1H26 revenue TRY 13.0bn, EBITDA TRY 6.3bn, net loss TRY 6.03bn, net debt/EBITDA 4.11x (Midas on KAP release, 14-Aug-26)
+- [Financials] Gökçedağ wind sold 29-Dec-25 for US$117.0m after liabilities (KAP summary, Dec-25)
+- [Calendar] 23-Oct-26 ZOREN 2030 semi-annual coupon, ~US$60.5m per repo (issuer record, 23-Sep-26)
+- [Calendar] 31-Oct-26 expected 3Q26 results (issuer record, 23-Sep-26)
+- [Calendar] 30-Jun-27 target date for 375MW wind/storage licence conversion (issuer record, 23-Sep-26)

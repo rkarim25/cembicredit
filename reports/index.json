@@ -126,6 +126,15 @@
     "path": "reports/uae-sovereign-credit.md"
   },
   {
+    "topic": "Zorlu Enerji",
+    "slug": "zorlu-enerji",
+    "updated": "09-Oct-26",
+    "status": "Draft",
+    "open_items": 8,
+    "run": "2026-10-09_0906_zorlu-enerji",
+    "path": "reports/zorlu-enerji.md"
+  },
+  {
     "topic": "Albania sovereign credit",
     "slug": "albania-sovereign-credit",
     "updated": "08-Oct-26",

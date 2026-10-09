@@ -39,9 +39,9 @@
     },
     "gov_debt_pct_gdp": {
       "value": 63.5,
-      "definition": "Reported government debt; unverified, attributed to IMF Article IV without report reference",
+      "definition": "General government debt as reported; unverified, attributed to IMF Article IV without report reference",
       "period": "2025",
-      "source": "Adjudicated document citing IMF Article IV (unreferenced, Low to Medium confidence)",
+      "source": "Adjudicated document 'Montenegro sovereign credit' (Low to Medium confidence)",
       "asof": "08-Oct-26"
     },
     "fiscal_balance_pct_gdp": {
@@ -60,8 +60,8 @@
     },
     "next_eurobond_maturity": {
       "value": "16-Dec-27",
-      "note": "16-Dec-27, EUR 750m 2.875% (XS2270576700); reported by one model, unverified",
-      "source": "Adjudicated document 'Montenegro sovereign credit' (tier 4, BBG DES check requested)",
+      "note": "16-Dec-27, EUR 750m 2.875% (XS2270576700); unverified, needs [BBG DES] confirmation",
+      "source": "Adjudicated document 'Montenegro sovereign credit' (Medium confidence, recognised by both models from memory)",
       "asof": "08-Oct-26"
     },
     "cpi_latest_yoy_pct": {
@@ -87,7 +87,7 @@
     }
   },
   "series_sources": {
-    "gov_debt_pct_gdp": "Adjudicated document citing IMF Article IV (unreferenced, unverified), 08-Oct-26"
+    "gov_debt_pct_gdp": "Adjudicated document 'Montenegro sovereign credit', 08-Oct-26; reported IMF Article IV figures, no report reference, unverified (Low to Medium)"
   },
   "series_official": {
     "gross_reserves_usd_bn": {
@@ -1857,23 +1857,111 @@
         "ctot_12m_pct": -1.6,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1948_montenegro-sovereign-credit",
+      "indicators": {
+        "gross_reserves_usd_bn": {
+          "value": 2.196,
+          "period": "2025-12",
+          "source": "IMF International Liquidity",
+          "asof": "08-Oct-26",
+          "definition": "Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "import_cover_months": {
+          "value": 3.947,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 7.324,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 2.8,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": -19.4,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 63.5,
+          "definition": "General government debt as reported; unverified, attributed to IMF Article IV without report reference",
+          "period": "2025",
+          "source": "Adjudicated document 'Montenegro sovereign credit' (Low to Medium confidence)",
+          "asof": "08-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -4,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 10.227,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "next_eurobond_maturity": {
+          "value": "16-Dec-27",
+          "note": "16-Dec-27, EUR 750m 2.875% (XS2270576700); unverified, needs [BBG DES] confirmation",
+          "source": "Adjudicated document 'Montenegro sovereign credit' (Medium confidence, recognised by both models from memory)",
+          "asof": "08-Oct-26"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 3.6043,
+          "period": "2026-05",
+          "source": "IMF CPI database",
+          "asof": "08-Oct-26",
+          "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -2.07,
+          "period": "2025-Q3 to 2026-Q2",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "reserves_12m_pct": 26.1,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2024-12 to 2025-12 (IMF International Liquidity)",
+        "ctot_12m_pct": -1.6,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "region": "Western Balkans (CEEMEA)",
   "fiscal_year": "Calendar year",
   "fx_regime": {
     "value": "unilateral euroisation (euro used since 2002; no lender of last resort)",
-    "source": "Adjudicated document 'Montenegro sovereign credit', structural fact from both models (not tied to a primary source)",
+    "source": "Adjudicated document 'Montenegro sovereign credit', structural fact, Medium confidence; not checked against CBCG",
     "asof": "08-Oct-26"
   },
   "commodity_exposure": {
-    "value": "Tourism-dependent services exporter; tourism receipts reported above 25% of GDP (unverified); no commodity price is the main driver",
-    "source": "Adjudicated document citing IMF Article IV 2025 (unreferenced, unverified)",
+    "value": "Tourism-dependent services economy with a large current account deficit financed mostly by FDI; tourism receipts reported above 25% of GDP (unverified); no commodity export price dominates",
+    "source": "Adjudicated document 'Montenegro sovereign credit', citing unreferenced IMF Article IV 2025; Low to Medium confidence",
     "asof": "08-Oct-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Coalition fragmentation is an execution risk for fiscal measures and EU chapter closures; EU accession is the main credit anchor (Low to Medium confidence)",
+    "note": "Coalition fragmentation is an execution risk for fiscal measures and EU chapter closures; EU accession is the main anchor (unverified, Medium)",
     "source": "Adjudicated document 'Montenegro sovereign credit'",
     "asof": "08-Oct-26"
   },

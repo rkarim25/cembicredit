@@ -61,7 +61,7 @@
     "cpi_latest_yoy_pct": {
       "value": 13.4,
       "period": "May-26",
-      "source": "StatEt",
+      "source": "StatEt / NBE",
       "asof": "31-May-26"
     },
     "revenue_pct_gdp": {
@@ -72,14 +72,14 @@
     },
     "eurobonds_outstanding_usd_bn": {
       "value": 1.0,
-      "period": "Oct-26 (defaulted 6.625% 2024 notes, XS1151974877, original face value, pending exchange)",
+      "period": "defaulted 6.625% due 11-Dec-24 (XS1151974877), exchange pending",
       "source": "MoFED",
       "asof": "29-Jun-26"
     },
     "next_eurobond_maturity": {
       "value": "15-Jul-29",
-      "note": "15-Jul-29, USD 880m new 6.15% notes under the 29-Jun-26 agreement in principle (pre-closing, amortising: USD 180m Jul-26, USD 100m Jul-27, USD 300m Jul-28, USD 300m Jul-29); existing 6.625% notes due 11-Dec-24 are in default",
-      "source": "MoFED",
+      "note": "USD 880m proposed new 6.15% notes, amortising USD 180m Jul-26, USD 100m Jul-27, USD 300m Jul-28, USD 300m Jul-29; subject to exchange closing",
+      "source": "MoFED / Ad Hoc Committee",
       "asof": "29-Jun-26"
     },
     "current_account_4q_usd_bn": {
@@ -1924,32 +1924,131 @@
         "ctot_12m_pct": -2.8,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1715_ethiopia-sovereign-credit",
+      "indicators": {
+        "gross_reserves_usd_bn": {
+          "value": 3.784,
+          "period": "2024-12",
+          "source": "IMF International Liquidity",
+          "asof": "08-Oct-26",
+          "definition": "Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "import_cover_months": {
+          "value": 1.781,
+          "period": "2024",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 3.004,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 9.2,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": -2.4,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 40.4,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -1.8,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 121.527,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 13.4,
+          "period": "May-26",
+          "source": "StatEt / NBE",
+          "asof": "31-May-26"
+        },
+        "revenue_pct_gdp": {
+          "value": 7,
+          "period": "FY26",
+          "source": "IMF (tax revenue only, approx.)",
+          "asof": "15-Jul-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 1.0,
+          "period": "defaulted 6.625% due 11-Dec-24 (XS1151974877), exchange pending",
+          "source": "MoFED",
+          "asof": "29-Jun-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "15-Jul-29",
+          "note": "USD 880m proposed new 6.15% notes, amortising USD 180m Jul-26, USD 100m Jul-27, USD 300m Jul-28, USD 300m Jul-29; subject to exchange closing",
+          "source": "MoFED / Ad Hoc Committee",
+          "asof": "29-Jun-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -3.79,
+          "period": "2024-Q1 to 2024-Q4",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "reserves_12m_pct": 86.6,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2023-12 to 2024-12 (IMF International Liquidity)",
+        "ctot_12m_pct": -2.8,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "region": "Sub-Saharan Africa",
   "fiscal_year": "Not stated in source material (document refers to FY26 without defining it)",
   "fx_regime": {
     "value": "float",
-    "source": "NBE, market-determined exchange rate regime from 29-Jul-24",
+    "source": "National Bank of Ethiopia (market-determined regime from 29-Jul-24)",
     "asof": "29-Jul-24"
   },
   "commodity_exposure": {
-    "value": "Agricultural output is the key domestic driver; NBE gold purchases support reserves (artisanal gold, over USD 2.5bn annualised); imported fuel and fertiliser costs drive inflation and the balance of payments",
-    "source": "NBE Jul-26; StatEt May-26; IMF 15-Jul-26",
+    "value": "Agricultural output (conflict-exposed); imported fuel and fertiliser; NBE artisanal gold purchases above USD 2.5bn annualised",
+    "source": "NBE, Jul-26; IMF, 15-Jul-26",
     "asof": "15-Jul-26"
   },
   "imf": {
-    "programme": "48-month Extended Credit Facility (ECF)",
+    "programme": "Extended Credit Facility (48-month)",
     "size_usd_bn": 3.4,
     "approved": "29-Jul-24",
     "next_review": null,
-    "risk_of_debt_distress": "In debt distress (pending restructuring completion)",
-    "source": "IMF, fifth review 15-Jul-26 (disbursement c. USD 464m; cumulative c. USD 2.65bn)",
+    "risk_of_debt_distress": "in debt distress",
+    "source": "IMF, 15-Jul-26 (fifth review completed; cumulative disbursements ~USD 2.65bn)",
     "asof": "15-Jul-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Armed conflict involving Fano militias in Amhara and the OLA in Oromia disrupts transport, agriculture and local tax collection; federal authorities hold major hubs and arterial highways",
+    "note": "Armed conflict with Fano militias (Amhara) and OLA (Oromia) disrupts transport, agriculture and local tax collection",
     "source": "UN OCHA",
     "asof": "Oct-26"
   },

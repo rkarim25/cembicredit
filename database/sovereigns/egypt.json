@@ -8,35 +8,35 @@
     "asof": "Oct-26"
   },
   "commodity_exposure": {
-    "value": "Suez Canal receipts (reported down 50-60% YoY, est. $5-6B a year) are the key external sensitivity; IMF commodity terms-of-trade index -0.7% over 12 months to May-26",
+    "value": "Suez Canal receipts (reported down 50-60% YoY, an estimated $5-6B a year); IMF commodity terms-of-trade index -0.7% over 12 months to May-26",
     "source": "Suez Canal Authority; IMF CTOT",
-    "asof": "30-Sep-26"
+    "asof": "Sep-26"
   },
   "imf": {
-    "programme": "EFF (with RSF)",
+    "programme": "Extended Fund Facility (EFF)",
     "size_usd_bn": 8,
-    "approved": null,
+    "approved": "Seventh Review completed 31-Jul-26, $1.8B approved ($1.5B EFF, $272M RSF)",
     "next_review": "15-Dec-26 (Eighth and final review)",
     "risk_of_debt_distress": null,
-    "source": "IMF press release, Seventh Review ($1.8B approved: $1.5B EFF, $272M RSF)",
+    "source": "IMF press release",
     "asof": "31-Jul-26"
   },
   "indicators": {
     "cpi_latest_yoy_pct": {
       "value": 12.7,
       "period": "Aug-26",
-      "source": "CAPMAS (nationwide headline; urban 14.5%)",
+      "source": "CAPMAS (headline, nationwide; urban 14.5%)",
       "asof": "10-Sep-26"
     },
     "policy_rate_pct": {
       "value": 19.0,
       "period": "Sep-26",
-      "source": "CBE MPC (overnight deposit rate; lending rate 20.00%)",
+      "source": "Central Bank of Egypt MPC (overnight deposit rate; lending rate 20.00%)",
       "asof": "24-Sep-26"
     },
     "net_reserves_usd_bn": {
       "value": 57.35,
-      "definition": "CBE net international reserves; definition, forwards and swaps not confirmed, not comparable with IMF gross",
+      "definition": "CBE net international reserves; definition, swaps and forward book not reconciled with IMF gross series",
       "period": "Sep-26",
       "source": "Central Bank of Egypt",
       "asof": "07-Oct-26"
@@ -50,12 +50,12 @@
     "primary_balance_pct_gdp": {
       "value": 3.5,
       "period": "FY24/25",
-      "source": "Ministry of Finance (FY25/26 budgeted at 4.0%)",
-      "asof": "30-Sep-26"
+      "source": "Ministry of Finance of Egypt (FY25/26 budgeted at 4.0%)",
+      "asof": "Sep-26"
     },
     "gov_debt_pct_gdp": {
       "value": 79.7,
-      "definition": "budget-sector perimeter; source mixes MoF and IIF figures",
+      "definition": "budget sector only; mixes MoF and IIF figures",
       "period": "Q2-26",
       "source": "Ministry of Finance / IIF",
       "asof": "30-Jun-26"
@@ -68,13 +68,13 @@
     },
     "next_eurobond_maturity": {
       "value": "01-Mar-29",
-      "note": "01-Mar-29, $2.0B 7.600% benchmark; ladder incomplete, earlier USD paper not excluded",
+      "note": "01-Mar-29, $2.0B (7.600%); earliest of listed benchmarks only, ladder incomplete",
       "source": "LuxSE / MoF",
-      "asof": "08-Oct-26"
+      "asof": "Oct-26"
     },
     "gross_reserves_usd_bn": {
       "value": 53.559,
-      "definition": "gross incl. gold (ex-gold 36.42, gold 17.139)",
+      "definition": "gross incl. gold (ex-gold $36.42B, gold $17.139B)",
       "period": "Jul-26",
       "source": "IMF International Liquidity",
       "asof": "31-Jul-26"
@@ -111,9 +111,9 @@
     },
     "parallel_fx_premium_pct": {
       "value": 0,
-      "period": "Oct-26 (reported 0% since Mar-24)",
-      "source": "CBE / commercial banks",
-      "asof": "08-Oct-26"
+      "period": "Oct-26",
+      "source": "CBE / commercial banks (reported eliminated since Mar-24)",
+      "asof": "Oct-26"
     },
     "current_account_4q_usd_bn": {
       "value": -16.76,
@@ -139,7 +139,7 @@
     "fitch": {
       "rating": "B",
       "outlook": "Stable",
-      "date": "01-Nov-24"
+      "date": "Oct-26"
     },
     "moodys": {
       "rating": "Caa1",
@@ -174,7 +174,7 @@
     }
   },
   "series_sources": {
-    "primary_balance_pct_gdp": "Ministry of Finance of Egypt, Sep-26 (FY24/25 outturn, FY25/26 budget)",
+    "primary_balance_pct_gdp": "Ministry of Finance of Egypt, FY24/25 outturn (fiscal year to Jun-25), Sep-26",
     "gov_debt_pct_gdp": "Ministry of Finance / IIF, Jun-26 (budget-sector perimeter)",
     "real_gdp_growth_pct": "IMF WEO, 08-Oct-26",
     "current_account_pct_gdp": "IMF WEO, 08-Oct-26",
@@ -2990,6 +2990,127 @@
           "period": "Oct-26 (reported 0% since Mar-24)",
           "source": "CBE / commercial banks",
           "asof": "08-Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -16.76,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 17.224,
+          "period": "2026-05",
+          "source": "IMF reserve template",
+          "asof": "08-Oct-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 6.3,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": 14.7,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-07 to 2026-07 (IMF International Liquidity)",
+        "ctot_12m_pct": -0.7,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_2110_egypt-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 12.7,
+          "period": "Aug-26",
+          "source": "CAPMAS (headline, nationwide; urban 14.5%)",
+          "asof": "10-Sep-26"
+        },
+        "policy_rate_pct": {
+          "value": 19.0,
+          "period": "Sep-26",
+          "source": "Central Bank of Egypt MPC (overnight deposit rate; lending rate 20.00%)",
+          "asof": "24-Sep-26"
+        },
+        "net_reserves_usd_bn": {
+          "value": 57.35,
+          "definition": "CBE net international reserves; definition, swaps and forward book not reconciled with IMF gross series",
+          "period": "Sep-26",
+          "source": "Central Bank of Egypt",
+          "asof": "07-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 7.5,
+          "period": "Sep-26",
+          "source": "Central Bank of Egypt (reported as over 7.5 months)",
+          "asof": "07-Oct-26"
+        },
+        "primary_balance_pct_gdp": {
+          "value": 3.5,
+          "period": "FY24/25",
+          "source": "Ministry of Finance of Egypt (FY25/26 budgeted at 4.0%)",
+          "asof": "Sep-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 79.7,
+          "definition": "budget sector only; mixes MoF and IIF figures",
+          "period": "Q2-26",
+          "source": "Ministry of Finance / IIF",
+          "asof": "30-Jun-26"
+        },
+        "interest_pct_revenue": {
+          "value": 50,
+          "period": "Jun-26 (lower bound, reported as more than 50%)",
+          "source": "Ministry of Finance / IIF",
+          "asof": "30-Jun-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "01-Mar-29",
+          "note": "01-Mar-29, $2.0B (7.600%); earliest of listed benchmarks only, ladder incomplete",
+          "source": "LuxSE / MoF",
+          "asof": "Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 53.559,
+          "definition": "gross incl. gold (ex-gold $36.42B, gold $17.139B)",
+          "period": "Jul-26",
+          "source": "IMF International Liquidity",
+          "asof": "31-Jul-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 4.231,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26"
+        },
+        "real_gdp_growth_pct": {
+          "value": 4.2,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -4.2,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -12.1,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 429.645,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "parallel_fx_premium_pct": {
+          "value": 0,
+          "period": "Oct-26",
+          "source": "CBE / commercial banks (reported eliminated since Mar-24)",
+          "asof": "Oct-26"
         },
         "current_account_4q_usd_bn": {
           "value": -16.76,

@@ -1765,13 +1765,95 @@
         "ctot_12m_pct": -0.8,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1959_tajikistan-sovereign-credit",
+      "indicators": {
+        "gross_reserves_usd_bn": {
+          "value": 6.395,
+          "period": "2025-12",
+          "source": "IMF International Liquidity",
+          "asof": "08-Oct-26",
+          "definition": "Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "import_cover_months": {
+          "value": 5.749,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 0.486,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 6,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": 6.3,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 21.9,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -2.5,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 20.418,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 4.0609,
+          "period": "2026-07",
+          "source": "IMF CPI database",
+          "asof": "08-Oct-26",
+          "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": 3.48,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "reserves_12m_pct": 45.9,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2024-12 to 2025-12 (IMF International Liquidity)",
+        "ctot_12m_pct": -0.8,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "region": "Central Asia",
   "fiscal_year": "Calendar year",
   "commodity_exposure": {
-    "value": "Gold and aluminium exports; remittances concentrated on Russia (structure only, magnitudes unverified, Low confidence)",
-    "source": "Adjudicated document 'Tajikistan sovereign credit' (analyst prior knowledge, tier 4)",
+    "value": "Remittances (concentrated on Russia), gold and aluminium exports; unverified, structural view only",
+    "source": "Adjudicated document 'Tajikistan sovereign credit' (tier 4, unverified)",
     "asof": "08-Oct-26"
   },
   "run": "2026-10-08_1959_tajikistan-sovereign-credit",
@@ -2069,8 +2151,8 @@
   },
   "politics": {
     "next_election": null,
-    "note": "Near-term political risk low; succession arrangement is a tail risk (Low confidence, unverified)",
-    "source": "Adjudicated document 'Tajikistan sovereign credit' (analyst prior knowledge, tier 4)",
+    "note": "Succession arrangement flagged as a tail risk; unverified",
+    "source": "Adjudicated document 'Tajikistan sovereign credit' (tier 4, unverified)",
     "asof": "08-Oct-26"
   }
 }

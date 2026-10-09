@@ -3,7 +3,7 @@ window.SOVEREIGNS = [
  {
   "slug": "albania",
   "country": "Albania",
-  "region": "CEEMEA - Southeast Europe (Western Balkans)",
+  "region": "CEEMEA",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
@@ -33,15 +33,15 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -0.2
   },
   "src": {
-   "gross_reserves_usd_bn": "World Bank via database/sovereigns/albania.json 08-Oct-26 | gross FX reserves, as reported in World Bank series; gold treatment not stated",
+   "gross_reserves_usd_bn": "World Bank via database/sovereigns/albania.json 08-Oct-26 | gross FX reserves as reported by World Bank; gold treatment not stated",
    "import_cover_months": "World Bank via database/sovereigns/albania.json 08-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gov_debt_pct_gdp": "IMF WEO via database/sovereigns/albania.json (WEO vintage not stated) 08-Oct-26 | General government debt, % of GDP (IMF WEO)",
+   "gov_debt_pct_gdp": "IMF WEO via database/sovereigns/albania.json (vintage not stated) 08-Oct-26 | general government debt, IMF WEO",
    "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "nominal_gdp_usd_bn": "IMF WEO via database/sovereigns/albania.json (WEO vintage not stated) 08-Oct-26",
-   "external_debt_pct_gdp": "World Bank via database/sovereigns/albania.json 08-Oct-26 | External debt as % of GNI (World Bank), not % of GDP; includes all external debt, not only public",
+   "nominal_gdp_usd_bn": "IMF WEO via database/sovereigns/albania.json (vintage not stated) 08-Oct-26",
+   "external_debt_pct_gdp": "World Bank via database/sovereigns/albania.json 08-Oct-26 | external debt as % of GNI (World Bank), not % of GDP",
    "cpi_latest_yoy_pct": "IMF CPI database 08-Oct-26 | IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)",
    "policy_rate_pct": "IMF MFS interest rates 08-Oct-26 | IMF MFS interest rates, monetary policy-related rate, % p.a., monthly (auto-filled; a run's sourced point replaces it unless older)",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
@@ -2893,7 +2893,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "managed float",
-  "commodity": "Crude oil exports (output 1.00-1.05M bpd after OPEC exit); the oil price drives the goods surplus and terms of trade",
+  "commodity": "Crude oil exports (output 1.00-1.05M bpd after OPEC exit); the oil price drives the goods surplus and commodity terms of trade",
   "ratings": {
    "moodys": {
     "rating": "B3",
@@ -2917,12 +2917,12 @@ window.SOVEREIGNS = [
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF 2026 Article IV Consultation (01-May-26); no programme or DSA rating verified",
-   "asof": "08-Oct-26"
+   "source": "IMF 2026 Article IV Consultation (01-May-26); programme status and DSA rating not verified",
+   "asof": "01-May-26"
   },
   "politics": {
    "next_election": "Aug-27",
-   "note": "General election; OGE 2027 approval by the National Assembly due 31-Dec-26, so the budget is pre-election",
+   "note": "General election Aug-27; National Assembly approval of OGE 2027 due 31-Dec-26; BNA MPC meets 15-Nov-26",
    "source": "Government of Angola; MINFIN",
    "asof": "May-26"
   },
@@ -2951,17 +2951,17 @@ window.SOVEREIGNS = [
    "cpi_latest_yoy_pct": "INE 08-Oct-26",
    "policy_rate_pct": "BNA, Comit\u00e9 de Pol\u00edtica Monet\u00e1ria communiqu\u00e9 18-Sep-26",
    "current_account_pct_gdp": "IMF/BNA 08-Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | gross incl. gold ($13.192B ex gold plus $2.629B gold)",
+   "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | gross incl. gold ($13.192B ex gold plus $2.629B gold); BNA reports $14.9B for Q2-26 on its own definition",
    "import_cover_months": "BNA 08-Oct-26",
-   "gov_debt_pct_gdp": "MINFIN/IMF 08-Oct-26 | public debt, about 49.2% of GDP",
-   "eurobonds_outstanding_usd_bn": "MINFIN/UGD Sep-26",
+   "gov_debt_pct_gdp": "MINFIN/IMF 08-Oct-26 | public debt, about 49.2% of GDP; ceiling 60% under the Fiscal Sustainability Law",
+   "eurobonds_outstanding_usd_bn": "MINFIN/UGD (stated stock; the five listed bonds sum to $8.0B, difference unreconciled) Sep-26",
    "next_eurobond_maturity": "MINFIN/UGD Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
    "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 08-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
-   "net_reserves_usd_bn": "IMF reserve template 08-Oct-26 | official reserve assets net of one-year predetermined and contingent drains (includes non-sovereign and BNA items)",
+   "net_reserves_usd_bn": "IMF reserve template 08-Oct-26 | official reserve assets net of one-year predetermined ($14.457B) and contingent ($1.567B) drains, IMF reserve template; includes non-sovereign and BNA items",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity))",
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
@@ -5368,7 +5368,7 @@ window.SOVEREIGNS = [
    "gross_reserves_usd_bn": "Aug-26",
    "import_cover_months": "Q2-26",
    "gov_debt_pct_gdp": "2025",
-   "eurobonds_outstanding_usd_bn": "Sep-26 (stated stock; five listed bonds sum to 8.0, difference unreconciled)",
+   "eurobonds_outstanding_usd_bn": "Sep-26",
    "next_eurobond_maturity": "Sep-26",
    "fdi_net_pct_gdp": "2025",
    "fiscal_balance_pct_gdp": "2026E",
@@ -5389,7 +5389,7 @@ window.SOVEREIGNS = [
  {
   "slug": "armenia",
   "country": "Armenia",
-  "region": "CEEMEA - South Caucasus",
+  "region": "Caucasus",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
@@ -5413,19 +5413,19 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "3-year Stand-By Arrangement (precautionary)",
+   "programme": "3-year precautionary Stand-By Arrangement",
    "size_usd_bn": null,
    "approved": "Dec-25",
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF, First Review under Stand-By Arrangement, Press Release No. 26/214 (first review completed Jun-26; cumulative access stated as US$50.2m, unit not verified so size left null)",
+   "source": "IMF, First Review under Stand-By Arrangement, Press Release No. 26/214",
    "asof": "15-Jun-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Peace treaty with Azerbaijan initialed in Washington, D.C. on 08-Aug-25; border delimitation and transit protocols still under negotiation",
+   "note": "Peace treaty with Azerbaijan initialed in Washington, D.C. on 08-Aug-25; border delimitation and transit protocols still under negotiation.",
    "source": "Government of Armenia",
-   "asof": "08-Oct-26"
+   "asof": "08-Aug-25"
   },
   "ind": {
    "real_gdp_growth_pct": 5.25,
@@ -5448,14 +5448,14 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -1.1
   },
   "src": {
-   "real_gdp_growth_pct": "IMF (full-year 2026 projection, cited in adjudicated document) 01-Jun-26",
-   "cpi_latest_yoy_pct": "Armstat, Consumer Price Index 30-Sep-26",
+   "real_gdp_growth_pct": "IMF (forecast cited in adjudicated document) Jun-26",
+   "cpi_latest_yoy_pct": "Armstat Consumer Price Index Sep-26",
    "policy_rate_pct": "Central Bank of Armenia, refinancing rate decision 15-Sep-26",
-   "current_account_pct_gdp": "Armstat, Balance of Payments Q2 2026 (deficit USD 749.7m; ratio to quarterly nominal GDP as stated in source) 30-Jun-26",
-   "gross_reserves_usd_bn": "Central Bank of Armenia, Gross International Reserves Report 30-Sep-26 | CBA gross international reserves; stated as 'exceeding USD 6.5bn', gold treatment not specified",
-   "import_cover_months": "Central Bank of Armenia (stated as 'more than 5 months') Sep-26",
-   "fiscal_balance_pct_gdp": "Ministry of Finance, State Budget Execution (deficit tracking, vs initial target 4.5%) 08-Oct-26",
-   "next_eurobond_maturity": "Ministry of Finance 08-Oct-26",
+   "current_account_pct_gdp": "Armstat Balance of Payments Q2 2026 Jun-26",
+   "gross_reserves_usd_bn": "Central Bank of Armenia, Gross International Reserves Report Sep-26 | CBA gross international reserves (reported as exceeding USD 6.5bn; gold inclusion not stated)",
+   "import_cover_months": "Central Bank of Armenia (reported as over 5 months) Sep-26",
+   "fiscal_balance_pct_gdp": "Ministry of Finance, State Budget Execution (deficit tracking) Oct-26",
+   "next_eurobond_maturity": "Ministry of Finance 26-Sep-19",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "gov_debt_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
@@ -8362,12 +8362,12 @@ window.SOVEREIGNS = [
   "asof_ind": {
    "real_gdp_growth_pct": "2026E",
    "cpi_latest_yoy_pct": "Sep-26",
-   "policy_rate_pct": "Sep-26",
+   "policy_rate_pct": "15-Sep-26",
    "current_account_pct_gdp": "Q2-26",
    "gross_reserves_usd_bn": "Sep-26",
    "import_cover_months": "Sep-26",
    "fiscal_balance_pct_gdp": "2026E",
-   "next_eurobond_maturity": "08-Oct-26",
+   "next_eurobond_maturity": "26-Sep-19",
    "fdi_net_pct_gdp": "2025",
    "gov_debt_pct_gdp": "2026E",
    "nominal_gdp_usd_bn": "2026E",
@@ -8388,12 +8388,12 @@ window.SOVEREIGNS = [
  {
   "slug": "azerbaijan",
   "country": "Azerbaijan",
-  "region": "CEEMEA - South Caucasus",
+  "region": "CEEMEA",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "de facto peg to USD at 1.7000 AZN/USD (managed via CBAR FX auctions)",
-  "commodity": "Net exporter of crude oil (ACG, in decline) and natural gas (Shah Deniz via Southern Gas Corridor/TAP); oil price is what matters (budget benchmark $75/bbl)",
+  "fx_regime": "de facto peg at 1.7000 AZN/USD",
+  "commodity": "Oil and gas exports (ACG oil, Shah Deniz gas via the Southern Gas Corridor/TAP); oil price drives budget and SOFAZ transfers",
   "ratings": {
    "fitch": {
     "rating": "BBB-",
@@ -8412,12 +8412,12 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "None active (Article IV surveillance only)",
+   "programme": "None (Article IV surveillance only)",
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF country portal",
+   "source": "IMF",
    "asof": "08-Oct-26"
   },
   "politics": {
@@ -8448,12 +8448,12 @@ window.SOVEREIGNS = [
   },
   "src": {
    "real_gdp_growth_pct": "State Statistical Committee Sep-26",
-   "policy_rate_pct": "Central Bank of Azerbaijan (refinancing rate) 23-Sep-26",
+   "policy_rate_pct": "Central Bank of Azerbaijan 23-Sep-26",
    "current_account_pct_gdp": "Central Bank of Azerbaijan 15-Sep-26",
-   "gross_reserves_usd_bn": "Central Bank of Azerbaijan 23-Sep-26 | CBAR gross foreign exchange reserves, excluding SOFAZ assets ($72.60bn at 30-Jun-26)",
-   "gov_debt_pct_gdp": "Ministry of Finance 01-Jun-26 | Total government debt, 24.1bn AZN ($14.18bn)",
-   "external_debt_pct_gdp": "Ministry of Finance 01-Jun-26 | Direct external public (government) debt only, ~$6.4bn; not total external debt",
-   "eurobonds_outstanding_usd_bn": "Luxembourg Stock Exchange (USD 5.125% 2029 $310.7m + USD 3.500% 2032 $1,076.0m) 08-Oct-26",
+   "gross_reserves_usd_bn": "Central Bank of Azerbaijan 23-Sep-26 | CBAR gross foreign exchange reserves (excludes SOFAZ assets of $72.60bn at 30-Jun-26)",
+   "gov_debt_pct_gdp": "Ministry of Finance 01-Jun-26 | total government debt, AZN 24.1bn ($14.18bn)",
+   "external_debt_pct_gdp": "Ministry of Finance 01-Jun-26 | government external debt (~$6.4bn); total external debt not sourced",
+   "eurobonds_outstanding_usd_bn": "Luxembourg Stock Exchange 08-Oct-26",
    "next_eurobond_maturity": "Luxembourg Stock Exchange 08-Oct-26",
    "import_cover_months": "SOFAZ / CBAR Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
@@ -10490,9 +10490,9 @@ window.SOVEREIGNS = [
    "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
   },
   "asof_ind": {
-   "real_gdp_growth_pct": "Jan-Aug 2026 y/y",
+   "real_gdp_growth_pct": "Jan-Aug 2026",
    "policy_rate_pct": "Sep-26",
-   "current_account_pct_gdp": "H1 2026 (annualised GDP basis)",
+   "current_account_pct_gdp": "H1-26 (approx., vs annualised GDP)",
    "gross_reserves_usd_bn": "23-Sep-26",
    "gov_debt_pct_gdp": "01-Jun-26",
    "external_debt_pct_gdp": "01-Jun-26",
@@ -10518,12 +10518,12 @@ window.SOVEREIGNS = [
  {
   "slug": "bahrain",
   "country": "Bahrain",
-  "region": "Middle East (GCC)",
+  "region": "CEEMEA - GCC",
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "peg to USD (0.3760 BHD per USD since 1980)",
-  "commodity": "Oil and gas exporter; fiscal breakeven ~$90-100/bbl Brent, so the Brent price drives the budget",
+  "commodity": "Hydrocarbon exporter (oil, refined products, aluminium via Alba); Brent price matters, fiscal breakeven ~$90-100/bbl",
   "ratings": {
    "fitch": {
     "rating": "B",
@@ -10547,7 +10547,7 @@ window.SOVEREIGNS = [
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF 2025 Article IV press release (authorities withheld consent to publish the staff report and DSA)",
+   "source": "IMF 2025 Article IV press release (full staff report and DSA not published at authorities' request)",
    "asof": "23-Jan-26"
   },
   "politics": {
@@ -10575,8 +10575,8 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 5.3
   },
   "src": {
-   "gov_debt_pct_gdp": "IMF 2025 Article IV 23-Jan-26 | gross government debt",
-   "fiscal_balance_pct_gdp": "IMF 2025 Article IV (central government headline deficit) 23-Jan-26",
+   "gov_debt_pct_gdp": "IMF 2025 Article IV, concluded 23-Jan-26 23-Jan-26 | gross government debt",
+   "fiscal_balance_pct_gdp": "IMF 2025 Article IV, concluded 23-Jan-26 23-Jan-26",
    "import_cover_months": "Central Bank of Bahrain / IMF (approx. two months of prospective non-hydrocarbon imports) 23-Jan-26",
    "next_eurobond_maturity": "Ministry of Finance 01-Sep-26",
    "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)",
@@ -10610,7 +10610,8 @@ window.SOVEREIGNS = [
    },
    "fiscal_balance_pct_gdp": {
     "2024": -11.0,
-    "2025E": -10.8
+    "2025E": -10.8,
+    "2025": -10.8
    }
   },
   "hist": {
@@ -12054,12 +12055,12 @@ window.SOVEREIGNS = [
  {
   "slug": "benin",
   "country": "Benin",
-  "region": "Sub-Saharan Africa (WAEMU)",
+  "region": "Sub-Saharan Africa (West Africa, WAEMU)",
   "group": "Sub-Saharan Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "peg to EUR (CFA franc, EUR 1 = XOF 655.957, BCEAO-managed, French Treasury guarantee)",
-  "commodity": "Cotton, cashew nuts and textiles processing (Glo-Djigb\u00e9 zone); Port of Cotonou transit trade; Niger\u2013Benin crude export pipeline transit fees (oil price and Niger border relations matter)",
+  "fx_regime": "peg to EUR (CFA franc, EUR 1 = XOF 655.957, BCEAO-managed)",
+  "commodity": "Cotton and cashew exports and processing (Glo-Djigb\u00e9 zone); Port of Cotonou transit trade; Niger\u2013Benin crude export pipeline transit fees (S\u00e8m\u00e8-Kpodji)",
   "ratings": {
    "fitch": {
     "rating": "B+",
@@ -12078,18 +12079,18 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "EFF/ECF (42-month, blended) and RSF arrangements, completed",
+   "programme": "42-month blended EFF/ECF and RSF arrangements, completed (final review)",
    "size_usd_bn": 0.838,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": "moderate",
-   "source": "IMF Executive Board Press Release No. 26/54",
+   "source": "IMF Executive Board Press Release No. 26/54 (EFF/ECF USD 638m plus RSF USD 200m)",
    "asof": "25-Feb-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Romuald Wadagni won the 12-Apr-26 presidential election and was inaugurated 24-May-26, succeeding Patrice Talon, who observed the two-term limit; technocratic policy continuity expected.",
-   "source": "Constitutional Court of Benin",
+   "note": "Romuald Wadagni won the 12-Apr-26 presidential election and was inaugurated 24-May-26, succeeding Patrice Talon (two-term limit observed); technocratic fiscal continuity expected.",
+   "source": "Constitutional Court of Benin, Proclamation of Definitive Results",
    "asof": "15-Apr-26"
   },
   "ind": {
@@ -12109,14 +12110,14 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -1.1
   },
   "src": {
-   "real_gdp_growth_pct": "INSAE / IMF 25-Feb-26",
+   "real_gdp_growth_pct": "INSAE / IMF Executive Board Press Release No. 26/54 25-Feb-26",
    "cpi_latest_yoy_pct": "BCEAO / INSAE 15-Aug-26",
-   "current_account_pct_gdp": "IMF 25-Feb-26",
-   "gov_debt_pct_gdp": "IMF 25-Feb-26 | central government debt (about 60.5% including SOE liabilities under IMF perimeter)",
+   "current_account_pct_gdp": "IMF Executive Board Press Release No. 26/54 25-Feb-26",
+   "gov_debt_pct_gdp": "IMF Executive Board Press Release No. 26/54 25-Feb-26 | central government debt (about 60.5% including SOE liabilities on the IMF perimeter)",
    "fiscal_balance_pct_gdp": "Ministry of Economy and Finance / IMF 25-Feb-26",
-   "primary_balance_pct_gdp": "IMF 25-Feb-26",
+   "primary_balance_pct_gdp": "IMF Executive Board Press Release No. 26/54 25-Feb-26",
    "revenue_pct_gdp": "IMF (tax revenue) 25-Feb-26",
-   "interest_pct_revenue": "Moody's 14-Aug-26",
+   "interest_pct_revenue": "Moody's Ratings, Benin upgraded to Ba3 14-Aug-26",
    "parallel_fx_premium_pct": "BCEAO 15-Aug-26",
    "eurobonds_outstanding_usd_bn": "Ministry of Economy and Finance 31-Mar-26",
    "next_eurobond_maturity": "Ministry of Economy and Finance (Benin), CAA Public Debt Bulletin 31-Mar-26",
@@ -13048,11 +13049,11 @@ window.SOVEREIGNS = [
    "real_gdp_growth_pct": "2025",
    "cpi_latest_yoy_pct": "Aug-26",
    "current_account_pct_gdp": "2025",
-   "gov_debt_pct_gdp": "latest (period not stated)",
+   "gov_debt_pct_gdp": "2025",
    "fiscal_balance_pct_gdp": "2025",
-   "primary_balance_pct_gdp": "latest (period not stated)",
+   "primary_balance_pct_gdp": "2025",
    "revenue_pct_gdp": "2025",
-   "interest_pct_revenue": "latest (period not stated)",
+   "interest_pct_revenue": "latest",
    "parallel_fx_premium_pct": "Aug-26",
    "eurobonds_outstanding_usd_bn": "Mar-26",
    "next_eurobond_maturity": "31-Mar-26",
@@ -16377,12 +16378,12 @@ window.SOVEREIGNS = [
  {
   "slug": "cameroon",
   "country": "Cameroon",
-  "region": "Sub-Saharan Africa (CEMAC)",
+  "region": "Central Africa (CEMAC)",
   "group": "Sub-Saharan Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "peg to EUR",
-  "commodity": "Exports: crude oil, LNG, cocoa, timber; crude oil and LNG prices matter most",
+  "fx_regime": "peg to EUR (XAF 655.957 per EUR, CEMAC/BEAC, French Treasury convertibility guarantee)",
+  "commodity": "Exports: crude oil, LNG, cocoa, timber; oil and cocoa prices matter most",
   "ratings": {
    "fitch": {
     "rating": "B",
@@ -16405,14 +16406,14 @@ window.SOVEREIGNS = [
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
-   "risk_of_debt_distress": "High",
+   "risk_of_debt_distress": "high",
    "source": "IMF Country Report 25/210",
    "asof": "15-Jul-25"
   },
   "politics": {
    "next_election": null,
-   "note": "President Biya (93) re-elected 12-Oct-25 for an eighth term; Apr-26 constitutional amendment re-established an appointed Vice President; succession is the main institutional risk; Anglophone and Far North security pressures.",
-   "source": "Elections Cameroon; Cameroon Tribune; Fitch",
+   "note": "President Biya (93) re-elected 12-Oct-25 for an eighth term; Apr-26 constitutional amendment re-establishes an appointed Vice President as successor; succession is the dominant institutional risk",
+   "source": "Elections Cameroon; Fitch",
    "asof": "24-Apr-26"
   },
   "ind": {
@@ -16437,8 +16438,8 @@ window.SOVEREIGNS = [
   },
   "src": {
    "cpi_latest_yoy_pct": "INS Cameroun 31-Aug-26",
-   "external_debt_pct_gdp": "CAA Debt Statistical Bulletin 30-Jun-25 | Public external debt, approximate",
-   "gov_debt_pct_gdp": "CAA Debt Statistical Bulletin 30-Jun-25 | Total public debt, XAF 14.105 trillion",
+   "external_debt_pct_gdp": "Caisse Autonome d'Amortissement (CAA) 30-Jun-25 | approximate, public external debt, share of GDP",
+   "gov_debt_pct_gdp": "Caisse Autonome d'Amortissement (CAA) 30-Jun-25 | total public debt XAF 14.105 trillion (external ~30% of GDP, domestic 13% of GDP)",
    "revenue_pct_gdp": "IMF Jul-25 | domestic non-oil revenue mobilisation",
    "interest_pct_revenue": "IMF Jul-25 | debt service exceeds 20% of budgetary revenues",
    "next_eurobond_maturity": "CAA, Jul-24; Prospectus Jul-24",
@@ -24762,8 +24763,8 @@ window.SOVEREIGNS = [
   "group": "Sub-Saharan Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "peg to EUR",
-  "commodity": "Cocoa is the swing export and drives commodity terms of trade, which fell 7.3% in the 12 months to May-26; oil and gas output is rising with Eni's Baleine Phase 3",
+  "fx_regime": "peg to EUR (655.957 XOF per EUR, CFA franc)",
+  "commodity": "Cocoa is the swing export price (commodity terms of trade down 7.3% in the 12 months to May-26); oil and gas rising with Eni Baleine Phase 3 (US$4B FID, May-26)",
   "ratings": {
    "sp": {
     "rating": "BB",
@@ -24782,18 +24783,18 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "EFF/ECF (final sixth reviews completed) and RSF (fifth review completed), Jun-26",
+   "programme": "EFF/ECF (US$3.5B) and RSF (US$1.3B); final reviews completed",
    "size_usd_bn": 3.5,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": "low",
-   "source": "IMF Executive Board press release",
+   "source": "IMF Executive Board, Jun-26 (via knowledge base)",
    "asof": "30-Jun-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Ouattara re-elected 25-Oct-25 with 89.8% of the vote; 2027 Finance Law due for National Assembly adoption 15-Dec-26",
-   "source": "CEI provisional results; Ministry of Finance",
+   "note": "Ouattara re-elected 25-Oct-25 with 89.8% of the vote (CEI). 2027 Finance Law due for adoption 15-Dec-26 without IMF conditionality.",
+   "source": "CEI provisional results, Oct-25; Ministry of Finance, Oct-26",
    "asof": "25-Oct-25"
   },
   "ind": {
@@ -24811,11 +24812,11 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -7.3
   },
   "src": {
-   "real_gdp_growth_pct": "IMF 30-Jun-26",
-   "cpi_latest_yoy_pct": "INS C\u00f4te d'Ivoire, IHPC 31-Aug-26",
+   "real_gdp_growth_pct": "IMF, Jun-26 30-Jun-26",
+   "cpi_latest_yoy_pct": "INS C\u00f4te d'Ivoire (IHPC) 31-Aug-26",
    "policy_rate_pct": "BCEAO Monetary Policy Committee 09-Sep-26",
-   "fiscal_balance_pct_gdp": "IMF / Ministry of Finance 30-Jun-26",
-   "gov_debt_pct_gdp": "IMF / Ministry of Finance 30-Jun-26 | Government debt, projection; WAEMU ceiling 70%",
+   "fiscal_balance_pct_gdp": "IMF / Ministry of Finance, Jun-26 30-Jun-26",
+   "gov_debt_pct_gdp": "IMF / Ministry of Finance, Jun-26 30-Jun-26 | Government debt, projection; WAEMU ceiling 70%",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
@@ -25910,7 +25911,7 @@ window.SOVEREIGNS = [
    "real_gdp_growth_pct": "2026E",
    "cpi_latest_yoy_pct": "Aug-26",
    "policy_rate_pct": "Sep-26",
-   "fiscal_balance_pct_gdp": "2026 (budget)",
+   "fiscal_balance_pct_gdp": "2026 (budgeted)",
    "gov_debt_pct_gdp": "2026E",
    "fdi_net_pct_gdp": "2025",
    "current_account_pct_gdp": "2026E",
@@ -28892,7 +28893,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "float",
-  "commodity": "Suez Canal receipts (reported down 50-60% YoY, est. $5-6B a year) are the key external sensitivity; IMF commodity terms-of-trade index -0.7% over 12 months to May-26",
+  "commodity": "Suez Canal receipts (reported down 50-60% YoY, an estimated $5-6B a year); IMF commodity terms-of-trade index -0.7% over 12 months to May-26",
   "ratings": {
    "sp": {
     "rating": "B",
@@ -28902,7 +28903,7 @@ window.SOVEREIGNS = [
    "fitch": {
     "rating": "B",
     "outlook": "Stable",
-    "date": "01-Nov-24"
+    "date": "Oct-26"
    },
    "moodys": {
     "rating": "Caa1",
@@ -28911,12 +28912,12 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "EFF (with RSF)",
+   "programme": "Extended Fund Facility (EFF)",
    "size_usd_bn": 8,
-   "approved": null,
+   "approved": "Seventh Review completed 31-Jul-26, $1.8B approved ($1.5B EFF, $272M RSF)",
    "next_review": "15-Dec-26 (Eighth and final review)",
    "risk_of_debt_distress": null,
-   "source": "IMF press release, Seventh Review ($1.8B approved: $1.5B EFF, $272M RSF)",
+   "source": "IMF press release",
    "asof": "31-Jul-26"
   },
   "politics": {},
@@ -28943,21 +28944,21 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -0.7
   },
   "src": {
-   "cpi_latest_yoy_pct": "CAPMAS (nationwide headline; urban 14.5%) 10-Sep-26",
-   "policy_rate_pct": "CBE MPC (overnight deposit rate; lending rate 20.00%) 24-Sep-26",
-   "net_reserves_usd_bn": "Central Bank of Egypt 07-Oct-26 | CBE net international reserves; definition, forwards and swaps not confirmed, not comparable with IMF gross",
+   "cpi_latest_yoy_pct": "CAPMAS (headline, nationwide; urban 14.5%) 10-Sep-26",
+   "policy_rate_pct": "Central Bank of Egypt MPC (overnight deposit rate; lending rate 20.00%) 24-Sep-26",
+   "net_reserves_usd_bn": "Central Bank of Egypt 07-Oct-26 | CBE net international reserves; definition, swaps and forward book not reconciled with IMF gross series",
    "import_cover_months": "Central Bank of Egypt (reported as over 7.5 months) 07-Oct-26",
-   "primary_balance_pct_gdp": "Ministry of Finance (FY25/26 budgeted at 4.0%) 30-Sep-26",
-   "gov_debt_pct_gdp": "Ministry of Finance / IIF 30-Jun-26 | budget-sector perimeter; source mixes MoF and IIF figures",
+   "primary_balance_pct_gdp": "Ministry of Finance of Egypt (FY25/26 budgeted at 4.0%) Sep-26",
+   "gov_debt_pct_gdp": "Ministry of Finance / IIF 30-Jun-26 | budget sector only; mixes MoF and IIF figures",
    "interest_pct_revenue": "Ministry of Finance / IIF 30-Jun-26",
-   "next_eurobond_maturity": "LuxSE / MoF 08-Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity 31-Jul-26 | gross incl. gold (ex-gold 36.42, gold 17.139)",
+   "next_eurobond_maturity": "LuxSE / MoF Oct-26",
+   "gross_reserves_usd_bn": "IMF International Liquidity 31-Jul-26 | gross incl. gold (ex-gold $36.42B, gold $17.139B)",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26",
    "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
-   "parallel_fx_premium_pct": "CBE / commercial banks 08-Oct-26",
+   "parallel_fx_premium_pct": "CBE / commercial banks (reported eliminated since Mar-24) Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 08-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
@@ -31406,14 +31407,14 @@ window.SOVEREIGNS = [
    "primary_balance_pct_gdp": "FY24/25",
    "gov_debt_pct_gdp": "Q2-26",
    "interest_pct_revenue": "Jun-26 (lower bound, reported as more than 50%)",
-   "next_eurobond_maturity": "08-Oct-26",
+   "next_eurobond_maturity": "Oct-26",
    "gross_reserves_usd_bn": "Jul-26",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
    "current_account_pct_gdp": "2026E",
    "fiscal_balance_pct_gdp": "2026E",
    "nominal_gdp_usd_bn": "2026E",
-   "parallel_fx_premium_pct": "Oct-26 (reported 0% since Mar-24)",
+   "parallel_fx_premium_pct": "Oct-26",
    "current_account_4q_usd_bn": "2025-Q2 to 2026-Q1",
    "reserves_net_of_drains_usd_bn": "2026-05",
    "ex_ante_real_rate_pct": "derived",
@@ -31464,7 +31465,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "float",
-  "commodity": "Agricultural output is the key domestic driver; NBE gold purchases support reserves (artisanal gold, over USD 2.5bn annualised); imported fuel and fertiliser costs drive inflation and the balance of payments",
+  "commodity": "Agricultural output (conflict-exposed); imported fuel and fertiliser; NBE artisanal gold purchases above USD 2.5bn annualised",
   "ratings": {
    "fitch": {
     "rating": "RD",
@@ -31483,17 +31484,17 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "48-month Extended Credit Facility (ECF)",
+   "programme": "Extended Credit Facility (48-month)",
    "size_usd_bn": 3.4,
    "approved": "29-Jul-24",
    "next_review": null,
-   "risk_of_debt_distress": "In debt distress (pending restructuring completion)",
-   "source": "IMF, fifth review 15-Jul-26 (disbursement c. USD 464m; cumulative c. USD 2.65bn)",
+   "risk_of_debt_distress": "in debt distress",
+   "source": "IMF, 15-Jul-26 (fifth review completed; cumulative disbursements ~USD 2.65bn)",
    "asof": "15-Jul-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Armed conflict involving Fano militias in Amhara and the OLA in Oromia disrupts transport, agriculture and local tax collection; federal authorities hold major hubs and arterial highways",
+   "note": "Armed conflict with Fano militias (Amhara) and OLA (Oromia) disrupts transport, agriculture and local tax collection",
    "source": "UN OCHA",
    "asof": "Oct-26"
   },
@@ -31523,10 +31524,10 @@ window.SOVEREIGNS = [
    "gov_debt_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "cpi_latest_yoy_pct": "StatEt 31-May-26",
+   "cpi_latest_yoy_pct": "StatEt / NBE 31-May-26",
    "revenue_pct_gdp": "IMF (tax revenue only, approx.) 15-Jul-26",
    "eurobonds_outstanding_usd_bn": "MoFED 29-Jun-26",
-   "next_eurobond_maturity": "MoFED 29-Jun-26",
+   "next_eurobond_maturity": "MoFED / Ad Hoc Committee 29-Jun-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2023-12 to 2024-12 (IMF International Liquidity))",
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
@@ -33138,7 +33139,7 @@ window.SOVEREIGNS = [
    "nominal_gdp_usd_bn": "2026E",
    "cpi_latest_yoy_pct": "May-26",
    "revenue_pct_gdp": "FY26",
-   "eurobonds_outstanding_usd_bn": "Oct-26 (defaulted 6.625% 2024 notes, XS1151974877, original face value, pending exchange)",
+   "eurobonds_outstanding_usd_bn": "defaulted 6.625% due 11-Dec-24 (XS1151974877), exchange pending",
    "next_eurobond_maturity": "29-Jun-26",
    "current_account_4q_usd_bn": "2024-Q1 to 2024-Q4",
    "reserves_12m_pct": "derived",
@@ -33158,10 +33159,10 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "peg to EUR",
-  "commodity": "Crude oil is ~60% of fiscal revenue and ~75% of goods exports; the oil price is what matters (downside below USD 65/bbl is the key risk)",
+  "commodity": "Crude oil is ~60% of fiscal revenue and ~75% of goods exports; Brent/crude price is the key driver",
   "ratings": {
    "fitch": {
-    "rating": "CCC-",
+    "rating": "CCC- (LTFC IDR); LTLC CC",
     "outlook": null,
     "date": "22-May-26"
    },
@@ -33172,17 +33173,17 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": null,
+   "programme": "None (2021 Extended Fund Facility expired; Sep-26 staff mission ended without Staff-Level Agreement)",
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF Staff Mission Press Statement on Gabon (no disbursing programme after the 2021 EFF expired; Sep-26 mission ended without an SLA or Board date)",
+   "source": "IMF Staff Mission Press Statement on Gabon",
    "asof": "25-Sep-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Constitutional referendum approved 16-Nov-24 (91.6%); Brice Oligui Nguema won the presidential election on 12-Apr-25 (94.85%), ending the transition period.",
+   "note": "Constitutional referendum approved 16-Nov-24 (91.6%); President Brice Oligui Nguema won the 12-Apr-25 election with 94.85%; Fifth Republic institutions in place",
    "source": "Gabon Ministry of Interior Election Results",
    "asof": "Apr-25"
   },
@@ -33204,9 +33205,9 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 22.6
   },
   "src": {
-   "gov_debt_pct_gdp": "IMF 2024 Article IV Consultation Staff Report 24-May-24 | Total public debt, approximate ('near 70%')",
+   "gov_debt_pct_gdp": "Fitch Sovereign Rating Action on Gabon 22-May-26 | Total public debt, 'near 70% of GDP' (approximate)",
    "gfn_pct_gdp": "Fitch 22-May-26",
-   "next_eurobond_maturity": "Prospectus, Feb-20; CBonds Eurobond Issuance and Maturity Profile Jul-26",
+   "next_eurobond_maturity": "Prospectus (Feb-20); CBonds Eurobond Issuance and Maturity Profile Jul-26",
    "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)",
    "import_cover_months": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
@@ -34872,7 +34873,7 @@ window.SOVEREIGNS = [
   "quarterly": {},
   "quarterly_src": {},
   "asof_ind": {
-   "gov_debt_pct_gdp": "24-May-24",
+   "gov_debt_pct_gdp": "2026",
    "gfn_pct_gdp": "2026E",
    "next_eurobond_maturity": "Jul-26",
    "gross_reserves_usd_bn": "2024-12",
@@ -37922,7 +37923,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "float",
-  "commodity": "Gold inflows (GoldBod FX receipts) drive the goods surplus and current account; COCOBOD crop-season financing is a flagged contingent item",
+  "commodity": "Gold (GoldBod FX inflows support the goods surplus) and cocoa (COCOBOD crop financing); gold price is the key external driver",
   "ratings": {
    "fitch": {
     "rating": "B",
@@ -37944,7 +37945,7 @@ window.SOVEREIGNS = [
    "programme": "36-month non-financing Policy Coordination Instrument (PCI), following completion of the US$3.0B ECF",
    "size_usd_bn": null,
    "approved": "27-Jul-26",
-   "next_review": "15-Dec-26 (first monitoring mission)",
+   "next_review": "15-Dec-26 (first PCI monitoring mission)",
    "risk_of_debt_distress": null,
    "source": "IMF press release on sixth ECF review and PCI; IMF calendar",
    "asof": "27-Jul-26"
@@ -37969,14 +37970,14 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 3.3
   },
   "src": {
-   "cpi_latest_yoy_pct": "Ghana Statistical Service CPI Bulletin 07-Oct-26",
+   "cpi_latest_yoy_pct": "Ghana Statistical Service, CPI Bulletin 07-Oct-26",
    "policy_rate_pct": "Bank of Ghana, 132nd MPC Communiqu\u00e9 28-Sep-26",
-   "gross_reserves_usd_bn": "Bank of Ghana 28-Sep-26 | Bank of Ghana reported gross; composition not confirmed; not reconciled with IMF International Liquidity series incl. gold of US$9.72B (Jul-26)",
+   "gross_reserves_usd_bn": "Bank of Ghana 28-Sep-26 | BoG-reported gross reserves, definition not stated; not reconciled with IMF series incl. gold (US$9.72B, Jul-26)",
    "import_cover_months": "Bank of Ghana 28-Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26",
-   "gov_debt_pct_gdp": "IMF WEO 08-Oct-26 | Government debt, IMF WEO basis",
+   "gov_debt_pct_gdp": "IMF WEO 08-Oct-26 | General government debt, IMF WEO",
    "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
@@ -49597,8 +49598,8 @@ window.SOVEREIGNS = [
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "peg to USD, officially devalued from 1,320 to 1,520 IQD/USD on 07-Oct-26; parallel market above 1,700 IQD/USD",
-  "commodity": "Crude oil is over 90% of fiscal revenue and 95% of merchandise exports (Basra crude, about 3.4 mbpd via the Strait of Hormuz); the oil price matters, with a fiscal breakeven above $90/bbl",
+  "fx_regime": "parallel market",
+  "commodity": "Crude oil is over 90% of fiscal revenue and 95% of merchandise exports (about 3.4 mbpd of Basra crude via the Strait of Hormuz); the oil price matters, with a fiscal breakeven above $90/bbl",
   "ratings": {
    "sp": {
     "rating": "B-",
@@ -49617,12 +49618,12 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "None active (Article IV surveillance and Post-Financing Assessment; last SBA expired 2018)",
+   "programme": null,
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF Countries Portal / IMF Country Records",
+   "source": "IMF Countries Portal: no active arrangement; last SBA expired 2018; Article IV surveillance and Post-Financing Assessment",
    "asof": "08-Oct-26"
   },
   "politics": {},
@@ -49635,7 +49636,7 @@ window.SOVEREIGNS = [
    "next_eurobond_maturity": "15-Jan-28",
    "fdi_net_pct_gdp": -2.995,
    "current_account_pct_gdp": -5.3,
-   "gov_debt_pct_gdp": 57.0,
+   "gov_debt_pct_gdp": 53.9,
    "fiscal_balance_pct_gdp": -4.2,
    "nominal_gdp_usd_bn": 264.784,
    "cpi_latest_yoy_pct": 3.0928,
@@ -49644,15 +49645,15 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 16.7
   },
   "src": {
-   "real_gdp_growth_pct": "IMF Article IV projection 20-May-25",
-   "gross_reserves_usd_bn": "Central Bank of Iraq 31-Jul-26 | CBI gross official foreign exchange reserves",
+   "real_gdp_growth_pct": "IMF projections (Article IV) 20-May-25",
+   "gross_reserves_usd_bn": "Central Bank of Iraq Monthly Statistical Bulletin 31-Jul-26 | CBI gross official foreign exchange reserves",
    "import_cover_months": "Central Bank of Iraq / IMF 31-Jul-26",
-   "parallel_fx_premium_pct": "Local Market Reports (informal spread stated as above 12%; parallel rate above 1,700 vs official 1,520 IQD/USD) 07-Oct-26",
-   "eurobonds_outstanding_usd_bn": "Bondblox / Luxembourg Stock Exchange (USD 5.80% 2028, amortising) 08-Oct-26",
+   "parallel_fx_premium_pct": "Local Market Reports (parallel above 1,700 vs official 1,520 IQD/USD; stated as above 12%) 07-Oct-26",
+   "eurobonds_outstanding_usd_bn": "Luxembourg Stock Exchange / Bondblox (USD 5.80% 2028, ISIN XS0240295575) 08-Oct-26",
    "next_eurobond_maturity": "Luxembourg Stock Exchange / Bondblox 08-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gov_debt_pct_gdp": "IMF / Ministry of Finance 31-Jul-26 | Total public debt, projected year-end 2026 (53.9% in 2025)",
+   "gov_debt_pct_gdp": "IMF / Ministry of Finance 31-Jul-26 | Total public debt to GDP",
    "fiscal_balance_pct_gdp": "IMF Article IV 20-May-25",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "cpi_latest_yoy_pct": "IMF CPI database 08-Oct-26 | IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)",
@@ -51582,12 +51583,12 @@ window.SOVEREIGNS = [
    "real_gdp_growth_pct": "2026E",
    "gross_reserves_usd_bn": "Jul-26",
    "import_cover_months": "Jul-26",
-   "parallel_fx_premium_pct": "Oct-26",
-   "eurobonds_outstanding_usd_bn": "Oct-26",
+   "parallel_fx_premium_pct": "07-Oct-26",
+   "eurobonds_outstanding_usd_bn": "08-Oct-26",
    "next_eurobond_maturity": "08-Oct-26",
    "fdi_net_pct_gdp": "2025",
    "current_account_pct_gdp": "2026E",
-   "gov_debt_pct_gdp": "2026E",
+   "gov_debt_pct_gdp": "2025",
    "fiscal_balance_pct_gdp": "2024",
    "nominal_gdp_usd_bn": "2026E",
    "cpi_latest_yoy_pct": "2026-06",
@@ -51636,7 +51637,7 @@ window.SOVEREIGNS = [
   "src": {
    "real_gdp_growth_pct": "IMF WEO 09-Oct-26",
    "current_account_pct_gdp": "IMF WEO 09-Oct-26",
-   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | gross general government debt",
+   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | gross government debt",
    "fiscal_balance_pct_gdp": "IMF WEO 09-Oct-26",
    "nominal_gdp_usd_bn": "IMF WEO 09-Oct-26",
    "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | gross incl. gold",
@@ -54464,12 +54465,12 @@ window.SOVEREIGNS = [
  {
   "slug": "jordan",
   "country": "Jordan",
-  "region": "Middle East (CEEMEA)",
+  "region": "MENA",
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "peg to USD (0.7090 JOD/USD since 1995)",
-  "commodity": "Tourism receipts (~12% of GDP), GCC remittances (~$3.5-4.0bn a year) and imported energy, with power plants reliant on Israeli pipeline gas transit; no single export price dominates",
+  "fx_regime": "peg to USD",
+  "commodity": "Net energy importer (pipeline gas for power generation, including Israeli gas transit); tourism receipts ~12% of GDP and Aqaba port transit trade are the regional-war exposures; remittances from GCC ~$3.5-4.0bn a year",
   "ratings": {
    "sp": {
     "rating": "BB-",
@@ -54488,12 +54489,12 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "Extended Fund Facility (4-year, SDR 926.37m; Fifth Review completed Jun-26, with RSF)",
+   "programme": "Extended Fund Facility (4-year), with RSF",
    "size_usd_bn": 1.3,
    "approved": "Jan-24",
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF Press Release",
+   "source": "IMF Press Release (Fifth Review completed Jun-26)",
    "asof": "Jun-26"
   },
   "politics": {},
@@ -54519,11 +54520,11 @@ window.SOVEREIGNS = [
   },
   "src": {
    "policy_rate_pct": "Central Bank of Jordan (discount rate) Sep-26",
-   "gross_reserves_usd_bn": "Central Bank of Jordan 30-Sep-26 | CBJ gross foreign exchange reserves; gold treatment not stated",
-   "import_cover_months": "Central Bank of Jordan (prospective goods and services imports) 30-Sep-26",
-   "gov_debt_pct_gdp": "IMF Country Report / Ministry of Finance Jun-26 | Central government debt",
-   "fiscal_balance_pct_gdp": "Ministry of Finance (central government) Dec-25",
-   "primary_balance_pct_gdp": "Ministry of Finance (central government) Dec-25",
+   "gross_reserves_usd_bn": "Central Bank of Jordan Sep-26 | CBJ gross foreign exchange reserves, record high (+11.7% YTD)",
+   "import_cover_months": "Central Bank of Jordan (prospective goods and services imports) Sep-26",
+   "gov_debt_pct_gdp": "IMF Country Report / Ministry of Finance Jun-26 | Central government gross debt",
+   "fiscal_balance_pct_gdp": "Ministry of Finance (headline deficit) Dec-25",
+   "primary_balance_pct_gdp": "Ministry of Finance (central government primary deficit) Dec-25",
    "eurobonds_outstanding_usd_bn": "Ministry of Finance (sum of four USD Eurobonds: 1.0 + 1.25 + 0.7 + 1.0) Sep-26",
    "next_eurobond_maturity": "Ministry of Finance Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
@@ -57308,12 +57309,12 @@ window.SOVEREIGNS = [
  {
   "slug": "kazakhstan",
   "country": "Kazakhstan",
-  "region": "CIS / Central Asia",
+  "region": "CEEMEA (Central Asia)",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": null,
-  "commodity": "Oil exports, including CPC export routes and the Tengiz and Kashagan projects; the oil price and the IMF net-export commodity terms-of-trade index (+11.5% in 12m to May-26) matter most",
+  "commodity": "Oil exporter; oil prices and CPC export route status matter (Tengiz expansion, OPEC+ quotas); gold is the main component of reserves",
   "ratings": {
    "fitch": {
     "rating": "BBB",
@@ -57331,14 +57332,22 @@ window.SOVEREIGNS = [
     "date": "Sep-26"
    }
   },
-  "imf": {},
+  "imf": {
+   "programme": null,
+   "size_usd_bn": null,
+   "approved": null,
+   "next_review": null,
+   "risk_of_debt_distress": null,
+   "source": "Adjudicated document kazakhstan-sovereign-credit: no IMF programme known; no 2026 Article IV finding sourced",
+   "asof": "09-Oct-26"
+  },
   "politics": {},
   "ind": {
    "real_gdp_growth_pct": 4.6,
    "current_account_pct_gdp": -1.0,
    "gov_debt_pct_gdp": 24.9,
    "fiscal_balance_pct_gdp": -1.3,
-   "nominal_gdp_usd_bn": 360.5,
+   "nominal_gdp_usd_bn": 360.46,
    "gross_reserves_usd_bn": 70.57,
    "import_cover_months": 7.39,
    "fdi_net_pct_gdp": -0.299,
@@ -57352,18 +57361,18 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 11.5
   },
   "src": {
-   "real_gdp_growth_pct": "IMF WEO 09-Oct-26",
-   "current_account_pct_gdp": "IMF WEO 09-Oct-26",
-   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | general government debt",
-   "fiscal_balance_pct_gdp": "IMF WEO 09-Oct-26",
-   "nominal_gdp_usd_bn": "IMF WEO 09-Oct-26",
+   "real_gdp_growth_pct": "IMF World Economic Outlook 09-Oct-26",
+   "current_account_pct_gdp": "IMF World Economic Outlook 09-Oct-26",
+   "gov_debt_pct_gdp": "IMF World Economic Outlook 09-Oct-26 | general government debt, IMF WEO",
+   "fiscal_balance_pct_gdp": "IMF World Economic Outlook 09-Oct-26",
+   "nominal_gdp_usd_bn": "IMF World Economic Outlook 09-Oct-26",
    "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | gross incl. gold (gold USD 55.80bn; ex gold USD 14.77bn)",
    "import_cover_months": "World Bank WDI 09-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "cpi_latest_yoy_pct": "IMF CPI database 09-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 09-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 09-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
-   "policy_rate_pct": "NBK base rate, per ING and Interfax 24-Jul-26",
+   "policy_rate_pct": "NBK base rate per ING Think; Interfax 24-Jul-26",
    "net_reserves_usd_bn": "IMF reserve template 09-Oct-26 | reserves net of predetermined and contingent 1-year drains (IMF reserve template)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity))",
@@ -57391,7 +57400,7 @@ window.SOVEREIGNS = [
     "2026E": 24.9
    },
    "nominal_gdp_usd_bn": {
-    "2026E": 360.5
+    "2026E": 360.46
    }
   },
   "hist": {
@@ -60050,7 +60059,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": null,
-  "commodity": "IMF commodity terms-of-trade index down 2.9% over twelve months to May-26; export and import composition not sourced in the material",
+  "commodity": "Commodity terms-of-trade index down 2.9% y/y to May-26; export and import composition not sourced",
   "ratings": {
    "sp": {
     "rating": "B",
@@ -60069,18 +60078,18 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "None; prior EFF/ECF/RSF expired uncompleted Apr-25, successor talks ongoing",
+   "programme": "None; prior EFF/ECF/RSF expired uncompleted Apr-25; successor talks ongoing",
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
    "source": "IMF programme status statement (text not seen)",
-   "asof": "30-Sep-26"
+   "asof": "Sep-26"
   },
   "politics": {
-   "next_election": "2027 general election",
-   "note": "Fiscal slippage ahead of the 2027 elections with no Fund anchor is the main risk; no dated source for the election date",
-   "source": "Adjudicated document, 08-Oct-26",
+   "next_election": "2027 general election (date not sourced)",
+   "note": "Fiscal slippage ahead of the 2027 elections with no Fund anchor is the main risk",
+   "source": "Adjudicated document, run 2026-10-08_2122",
    "asof": "08-Oct-26"
   },
   "ind": {
@@ -60100,17 +60109,17 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -2.9
   },
   "src": {
-   "cpi_latest_yoy_pct": "IMF data portal; KNBS (reported as 6.8%) 08-Oct-26",
+   "cpi_latest_yoy_pct": "IMF data portal; KNBS (6.8%) Sep-26",
    "policy_rate_pct": "CBK MPC 07-Oct-26",
-   "gross_reserves_usd_bn": "CBK 07-Oct-26 | gross, CBK print; IMF International Liquidity shows 15.361 at Jul-26, gold negligible",
-   "gov_debt_pct_gdp": "National Treasury 30-Jun-26 | public debt Ksh 13.01tn, against 55% anchor",
-   "interest_pct_revenue": "National Treasury / World Bank 08-Oct-26",
-   "fiscal_balance_pct_gdp": "National Treasury 31-Jul-26",
-   "import_cover_months": "World Bank WDI 08-Oct-26",
-   "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
-   "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
-   "current_account_pct_gdp": "IMF WEO 08-Oct-26",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
+   "gross_reserves_usd_bn": "CBK 07-Oct-26 | gross, CBK headline; gold negligible per IMF International Liquidity series; encumbrances by swaps, forwards and deposits unknown",
+   "gov_debt_pct_gdp": "National Treasury Jun-26 | Public debt Ksh 13.01tn; National Treasury anchor 55% of GDP",
+   "interest_pct_revenue": "National Treasury / World Bank Jul-26",
+   "fiscal_balance_pct_gdp": "National Treasury Jul-26",
+   "import_cover_months": "World Bank WDI 2025",
+   "fdi_net_pct_gdp": "World Bank WDI 2025",
+   "real_gdp_growth_pct": "IMF WEO Sep-26",
+   "current_account_pct_gdp": "IMF WEO Sep-26",
+   "nominal_gdp_usd_bn": "IMF WEO Sep-26",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2025-07 to 2026-07 (IMF International Liquidity))",
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
@@ -61977,11 +61986,11 @@ window.SOVEREIGNS = [
   "quarterly_src": {},
   "asof_ind": {
    "cpi_latest_yoy_pct": "Sep-26",
-   "policy_rate_pct": "Oct-26",
+   "policy_rate_pct": "07-Oct-26",
    "gross_reserves_usd_bn": "07-Oct-26",
    "gov_debt_pct_gdp": "Jun-26",
-   "interest_pct_revenue": "FY2025/26 (approximate, share of ordinary revenue)",
-   "fiscal_balance_pct_gdp": "FY2025/26 (projected, Ksh 1.199tn; audited outturn not in hand)",
+   "interest_pct_revenue": "FY2025/26 (approximate, ordinary revenue)",
+   "fiscal_balance_pct_gdp": "FY2025/26 (projected, Ksh 1.199tn deficit; audited outturn not available)",
    "import_cover_months": "2025",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
@@ -62004,8 +62013,8 @@ window.SOVEREIGNS = [
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "basket peg (KWD managed against an undisclosed currency basket)",
-  "commodity": "Oil exporter; oil is KD 12.8bn of KD 16.3bn FY26/27 draft revenue. Brent and Kuwait export blend matter; budget assumes $57/bbl against a stated breakeven of $90.5/bbl.",
+  "fx_regime": "basket peg (KWD 0.3065-0.3077 per USD, Apr-26 to Sep-26)",
+  "commodity": "Oil exporter; the Brent/Kuwait export blend price matters. FY26/27 draft budget assumes $57/bbl against a stated breakeven of $90.5/bbl; oil revenue KD 12.8bn of KD 16.3bn revenues",
   "ratings": {
    "fitch": {
     "rating": "AA-",
@@ -62026,8 +62035,8 @@ window.SOVEREIGNS = [
   "imf": {},
   "politics": {
    "next_election": null,
-   "note": "Fitch flags weaker governance than peers; long delay before the debt law (KD 30bn, 50 years) shows slow legislative decision-making; no fiscal rule or consolidation plan found.",
-   "source": "Kuwait Times / Fitch summary",
+   "note": "Fitch flags weaker governance than peers; slow legislative decision-making evident in the long gap before the KD 30bn, 50-year public debt law; no fiscal rule or consolidation plan found",
+   "source": "Fitch via CBK/Kuwait Times summary",
    "asof": "Aug-26"
   },
   "ind": {
@@ -62048,11 +62057,11 @@ window.SOVEREIGNS = [
   },
   "src": {
    "real_gdp_growth_pct": "IMF WEO 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "current_account_pct_gdp": "IMF BOP via repo data record; derived 09-Oct-26",
-   "gov_debt_pct_gdp": "Search summary on public debt law (tier 4) 09-Oct-26 | Gross government debt forecast from search summary; conflicts with repo WEO 2026E 22.3% (unresolved, open item 2)",
-   "fiscal_balance_pct_gdp": "Arab News, Kuwait Times, TradeArabia; repo nominal GDP; derived 28-Feb-26",
-   "nominal_gdp_usd_bn": "IMF WEO via repo data record (vintage unverified) 09-Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | CBK gross reserves incl. gold (gold USD 0.103bn); central bank liquid pool, excludes KIA/FGF assets",
+   "current_account_pct_gdp": "IMF BOP via repo data record; derived against IMF WEO nominal GDP 09-Oct-26",
+   "gov_debt_pct_gdp": "Search summary on public debt law Oct-26 | gross government debt, FY24/25; search summary (tier 4, Low confidence); conflicts with repo WEO 2026E 22.3% which is unverified",
+   "fiscal_balance_pct_gdp": "Arab News, Kuwait Times, TradeArabia (Feb-26); derived against IMF WEO nominal GDP 09-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO via repo data record database/sovereigns/kuwait.json 09-Oct-26",
+   "gross_reserves_usd_bn": "IMF International Liquidity via repo data record 09-Oct-26 | gross incl. gold (gold USD 0.103bn); CBK liquid pool, excludes KIA/FGF assets",
    "import_cover_months": "World Bank WDI 09-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "policy_rate_pct": "BIS (CBK policy rate, unchanged Apr-Sep-26) 09-Oct-26",
@@ -63956,10 +63965,10 @@ window.SOVEREIGNS = [
   },
   "asof_ind": {
    "real_gdp_growth_pct": "2026E",
-   "current_account_pct_gdp": "2025-Q2 to 2026-Q1 (sum of 4 quarters, USD 32.5bn, over repo nominal GDP; derived)",
+   "current_account_pct_gdp": "2025-Q2 to 2026-Q1 (four-quarter sum USD 32.5bn over repo nominal GDP; derived)",
    "gov_debt_pct_gdp": "FY24/25",
-   "fiscal_balance_pct_gdp": "FY26/27 draft budget (KD 9.8bn / USD 31.9bn deficit over repo nominal GDP; derived)",
-   "nominal_gdp_usd_bn": "09-Oct-26",
+   "fiscal_balance_pct_gdp": "FY26/27 draft budget (KD 9.8bn / $31.9bn deficit over repo nominal GDP USD 172.9bn; derived)",
+   "nominal_gdp_usd_bn": "IMF WEO vintage and year unverified",
    "gross_reserves_usd_bn": "Aug-26",
    "import_cover_months": "2025",
    "fdi_net_pct_gdp": "2025",
@@ -63983,26 +63992,31 @@ window.SOVEREIGNS = [
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "peg to USD (official rate 89,500 LBP per USD, unchanged Oct-25 to Mar-26)",
-  "commodity": "Net importer; goods deficit financed by remittances and FDI. IMF commodity terms of trade fell 4.6% from May-25 to May-26.",
+  "fx_regime": "official rate fixed at 89,500 LBP per USD, Oct-25 to Mar-26",
+  "commodity": "Goods deficit of USD 3.1-5.0 bn a quarter in 2025, financed by remittances (secondary income) and FDI; commodity terms of trade fell 4.6% May-25 to May-26",
   "ratings": {},
   "imf": {
-   "programme": "None; mission of 15-18 Sep-26 ended without staff-level agreement",
+   "programme": "None; staff mission 15-18 Sep-26 ended without a staff-level agreement",
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
    "source": "Reuters via The Star, 28-Sep-26; Enterprise, 30-Sep-26",
+   "asof": "28-Sep-26"
+  },
+  "politics": {
+   "next_election": null,
+   "note": "Sovereign in default since Mar-20. A full IMF programme requires the final financial gap law, a 2027 budget and a medium-term fiscal framework.",
+   "source": "Reuters via The Star, 28-Sep-26; Enterprise, 30-Sep-26; repo knowledge page",
    "asof": "30-Sep-26"
   },
-  "politics": {},
   "ind": {
    "real_gdp_growth_pct": 4.0,
    "current_account_pct_gdp": -22.5,
    "gov_debt_pct_gdp": 139.4,
    "fiscal_balance_pct_gdp": 3.3,
    "nominal_gdp_usd_bn": 34.5,
-   "gross_reserves_usd_bn": 38.16,
+   "gross_reserves_usd_bn": 38.164,
    "import_cover_months": 13.6,
    "fdi_net_pct_gdp": 6.792,
    "cpi_latest_yoy_pct": 16.66,
@@ -64012,12 +64026,12 @@ window.SOVEREIGNS = [
   },
   "src": {
    "real_gdp_growth_pct": "IMF WEO 09-Oct-26",
-   "current_account_pct_gdp": "IMF WEO / IMF BOP (USD -9.16 bn) 09-Oct-26",
-   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | general government debt per IMF WEO",
+   "current_account_pct_gdp": "IMF WEO / IMF BOP (repo record) 09-Oct-26",
+   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | general government debt, IMF WEO",
    "fiscal_balance_pct_gdp": "IMF WEO 09-Oct-26",
    "nominal_gdp_usd_bn": "IMF WEO 09-Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | gross incl. gold (gold 28.34, ex gold 9.82)",
-   "import_cover_months": "World Bank WDI 09-Oct-26",
+   "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | gross incl. gold (gold 28.341, ex gold 9.823)",
+   "import_cover_months": "World Bank WDI (distorted by gold) 09-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "cpi_latest_yoy_pct": "IMF CPI database 09-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 09-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
@@ -72119,12 +72133,12 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "unilateral euroisation (euro used since 2002; no lender of last resort)",
-  "commodity": "Tourism-dependent services exporter; tourism receipts reported above 25% of GDP (unverified); no commodity price is the main driver",
+  "commodity": "Tourism-dependent services economy with a large current account deficit financed mostly by FDI; tourism receipts reported above 25% of GDP (unverified); no commodity export price dominates",
   "ratings": {},
   "imf": {},
   "politics": {
    "next_election": null,
-   "note": "Coalition fragmentation is an execution risk for fiscal measures and EU chapter closures; EU accession is the main credit anchor (Low to Medium confidence)",
+   "note": "Coalition fragmentation is an execution risk for fiscal measures and EU chapter closures; EU accession is the main anchor (unverified, Medium)",
    "source": "Adjudicated document 'Montenegro sovereign credit'",
    "asof": "08-Oct-26"
   },
@@ -72149,10 +72163,10 @@ window.SOVEREIGNS = [
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gov_debt_pct_gdp": "Adjudicated document citing IMF Article IV (unreferenced, Low to Medium confidence) 08-Oct-26 | Reported government debt; unverified, attributed to IMF Article IV without report reference",
+   "gov_debt_pct_gdp": "Adjudicated document 'Montenegro sovereign credit' (Low to Medium confidence) 08-Oct-26 | General government debt as reported; unverified, attributed to IMF Article IV without report reference",
    "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "next_eurobond_maturity": "Adjudicated document 'Montenegro sovereign credit' (tier 4, BBG DES check requested) 08-Oct-26",
+   "next_eurobond_maturity": "Adjudicated document 'Montenegro sovereign credit' (Medium confidence, recognised by both models from memory) 08-Oct-26",
    "cpi_latest_yoy_pct": "IMF CPI database 08-Oct-26 | IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2024-12 to 2025-12 (IMF International Liquidity))",
@@ -74165,12 +74179,12 @@ window.SOVEREIGNS = [
  {
   "slug": "morocco",
   "country": "Morocco",
-  "region": "North Africa",
+  "region": "MENA",
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "managed float (basket peg: 60% EUR / 40% USD, +/-5% fluctuation band since Mar-20)",
-  "commodity": "Exports: automotive, aerospace, phosphates and derivatives (OCP), tourism receipts and remittances; imports: energy and food (higher in drought years). Phosphate prices and rainfall (agriculture) matter most.",
+  "fx_regime": "basket peg (60% EUR / 40% USD, +/-5% fluctuation band)",
+  "commodity": "Exports: automotive, aerospace, phosphates and derivatives (OCP), tourism receipts and remittances; imports: energy and food, so oil price and drought-driven cereal imports matter most",
   "ratings": {
    "sp": {
     "rating": "BBB-",
@@ -74189,12 +74203,12 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "Flexible Credit Line (2-year, precautionary); Mid-Term Review completed Mar-26; RSF SDR 1.0bn approved Sep-23",
+   "programme": "Flexible Credit Line (2-year, precautionary)",
    "size_usd_bn": 4.5,
    "approved": "02-Apr-25",
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF Executive Board",
+   "source": "IMF Executive Board (approval Apr-25; Mid-Term Review concluded Mar-26)",
    "asof": "31-Mar-26"
   },
   "politics": {},
@@ -74221,11 +74235,11 @@ window.SOVEREIGNS = [
   },
   "src": {
    "policy_rate_pct": "Bank Al-Maghrib 30-Sep-26",
-   "gross_reserves_usd_bn": "Bank Al-Maghrib 30-Sep-26 | Bank Al-Maghrib official FX reserves, projected end-2026 (MAD 502.8bn)",
-   "import_cover_months": "Bank Al-Maghrib 30-Sep-26",
-   "fiscal_balance_pct_gdp": "Ministry of Economy and Finance 30-Sep-26",
-   "gov_debt_pct_gdp": "Ministry of Economy and Finance 30-Sep-26 | Central government treasury debt",
-   "interest_pct_revenue": "Ministry of Economy and Finance 30-Sep-26",
+   "gross_reserves_usd_bn": "Bank Al-Maghrib 30-Sep-26 | official FX reserves, Bank Al-Maghrib projection for end-2026 (MAD 502.8bn)",
+   "import_cover_months": "Bank Al-Maghrib (prospective imports of goods and services) 30-Sep-26",
+   "fiscal_balance_pct_gdp": "Ministry of Economy and Finance (central government budget balance) 30-Sep-26",
+   "gov_debt_pct_gdp": "Ministry of Economy and Finance 30-Sep-26 | central government (Treasury) debt",
+   "interest_pct_revenue": "Ministry of Economy and Finance (interest expenditure / central government revenues) 30-Sep-26",
    "next_eurobond_maturity": "Ministry of Economy and Finance / Luxembourg Stock Exchange 30-Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
@@ -77172,10 +77186,10 @@ window.SOVEREIGNS = [
   "asof_ind": {
    "policy_rate_pct": "Sep-26",
    "gross_reserves_usd_bn": "2026E",
-   "import_cover_months": "2026E (prospective imports of goods and services)",
+   "import_cover_months": "2026E",
    "fiscal_balance_pct_gdp": "2025",
    "gov_debt_pct_gdp": "2025",
-   "interest_pct_revenue": "central government, latest (Sep-26 report)",
+   "interest_pct_revenue": "latest (Sep-26 report)",
    "next_eurobond_maturity": "30-Sep-26",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
@@ -77199,12 +77213,12 @@ window.SOVEREIGNS = [
  {
   "slug": "mozambique",
   "country": "Mozambique",
-  "region": "Africa",
+  "region": "Sub-Saharan Africa",
   "group": "Sub-Saharan Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "managed float",
-  "commodity": "Natural gas/LNG (Coral South FLNG operating; TotalEnergies Area 1 LNG targeting first gas in 2029; Rovuma LNG FID late 2026 or 2027); oil/gas prices drive fiscal and recovery outlook",
+  "commodity": "Offshore Rovuma Basin natural gas/LNG (TotalEnergies Mozambique LNG Area 1, 13.1 mtpa, first gas targeted 2029; Eni Coral South FLNG, 3.4 mtpa, producing); LNG prices and project timelines drive medium-term fiscal receipts",
   "ratings": {
    "fitch": {
     "rating": "CC",
@@ -77223,18 +77237,18 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "None; 2022 ECF (SDR 340.8m) lapsed Apr-25; successor arrangement under discussion after Sep-26 staff mission",
+   "programme": "2022 Extended Credit Facility (36-month; lapsed Apr-25 with fifth and sixth reviews uncompleted); successor arrangement under discussion after Sep-26 staff mission",
    "size_usd_bn": null,
-   "approved": "May-22 (lapsed Apr-25)",
+   "approved": "May-22 (SDR 340.8m)",
    "next_review": null,
    "risk_of_debt_distress": "In debt distress (IMF DSA, Sep-26)",
-   "source": "IMF, 26-Sep-26",
+   "source": "IMF, Staff Mission Press Statement / DSA",
    "asof": "26-Sep-26"
   },
   "politics": {
    "next_election": null,
-   "note": "President Daniel Chapo (FRELIMO) inaugurated 15-Jan-25 after Oct-24 elections; post-election protests led by Ven\u00e2ncio Mondlane (PODEMOS)",
-   "source": "Constitutional Council, 15-Jan-25",
+   "note": "President Daniel Chapo (FRELIMO) inaugurated 15-Jan-25 after Oct-24 general elections; post-election protests led by Ven\u00e2ncio Mondlane (PODEMOS)",
+   "source": "Constitutional Council",
    "asof": "15-Jan-25"
   },
   "ind": {
@@ -77256,18 +77270,18 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -0.1
   },
   "src": {
-   "gross_reserves_usd_bn": "Banco de Mo\u00e7ambique 31-Aug-26 | gross international reserves (as reported by Banco de Mo\u00e7ambique)",
-   "import_cover_months": "Banco de Mo\u00e7ambique (excluding megaprojects) 31-Aug-26",
+   "gross_reserves_usd_bn": "Banco de Mo\u00e7ambique 31-Aug-26 | gross international reserves (central bank; gold treatment not stated)",
+   "import_cover_months": "Banco de Mo\u00e7ambique (excluding megaprojects imports) 31-Aug-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "gov_debt_pct_gdp": "Adjudicated document (run 2026-10-08_1751), approximate ~94% of GDP; underlying source not cited 08-Oct-26 | public debt, approximate, as stated in the adjudicated document view",
+   "gov_debt_pct_gdp": "Adjudicated document, View section 08-Oct-26 | public debt, approximate, as stated in the adjudicated document view (no primary source cited)",
    "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "cpi_latest_yoy_pct": "INE, Consumer Price Index Bulletin 10-Sep-26",
-   "policy_rate_pct": "Banco de Mo\u00e7ambique, MIMO rate decision 25-Sep-26",
-   "eurobonds_outstanding_usd_bn": "Ministry of Economy and Finance, Public Debt Bulletin (USD 900m 9.00% amortising notes due 15-Sep-31, XS2051203862) 30-Jun-26",
-   "next_eurobond_maturity": "Ministry of Economy and Finance, 2031 Eurobond terms (Prospectus, Sep-19) 15-Sep-19",
+   "policy_rate_pct": "Banco de Mo\u00e7ambique, MPC decision (MIMO rate) 25-Sep-26",
+   "eurobonds_outstanding_usd_bn": "MEF, Public Debt Bulletin (sole Eurobond, 9.00% due 15-Sep-31, XS2051203862; first amortisation 15-Sep-28) Jun-26",
+   "next_eurobond_maturity": "MEF / Prospectus 15-Sep-19",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2024-07 to 2025-07 (IMF International Liquidity))",
@@ -79269,7 +79283,7 @@ window.SOVEREIGNS = [
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
    "current_account_pct_gdp": "2026E",
-   "gov_debt_pct_gdp": "2026",
+   "gov_debt_pct_gdp": "08-Oct-26",
    "fiscal_balance_pct_gdp": "2026E",
    "nominal_gdp_usd_bn": "2026E",
    "cpi_latest_yoy_pct": "Aug-26",
@@ -81363,7 +81377,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "managed float",
-  "commodity": "Crude oil exports; Brent against the budget benchmark is the price that matters (upstream 1.68M bpd in Aug-26, at the 1.50M bpd OPEC crude quota); Dangote refinery throughput of 736,470 bpd cut fuel imports 26%",
+  "commodity": "Crude oil exporter: upstream output 1.68M bpd in Aug-26 against a 1.50M bpd OPEC quota. Brent versus the budget benchmark is the price that matters; Dangote refinery throughput 736,470 bpd, with fuel imports down 26%.",
   "ratings": {
    "sp": {
     "rating": "B",
@@ -81387,10 +81401,15 @@ window.SOVEREIGNS = [
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "2026 Article IV concluding statement dated 01-Jun-26; programme status and DSA rating not in the material",
+   "source": "IMF 2026 Article IV concluding statement 01-Jun-26 (programme status and DSA not in brief)",
    "asof": "01-Jun-26"
   },
-  "politics": {},
+  "politics": {
+   "next_election": null,
+   "note": "2027 election cycle referenced as a gap; date and detail not in brief",
+   "source": "Adjudicated document, Gaps section",
+   "asof": "08-Oct-26"
+  },
   "ind": {
    "cpi_latest_yoy_pct": 15.39,
    "policy_rate_pct": 23.0,
@@ -81414,19 +81433,19 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 4.6
   },
   "src": {
-   "cpi_latest_yoy_pct": "NBS Consumer Price Index Report August 2026 15-Sep-26",
-   "policy_rate_pct": "CBN 307th MPC Communiqu\u00e9 22-Sep-26",
-   "gross_reserves_usd_bn": "CBN Daily Foreign Exchange Reserves Bulletin 05-Oct-26 | gross, CBN daily bulletin (gold treatment not stated); IMF series incl. gold was 54.85 in Aug-26",
-   "gov_debt_pct_gdp": "DMO / IMF 25-Sep-26 | Total public debt of \u20a6166.79T ($120.93B) at 30-Jun-26; labelled 'federal government' in one place and 'total public' in another, definition unresolved; cross-check against IMF WEO 2026E GDP gives about 32.0%",
-   "interest_pct_revenue": "IMF Article IV concluding statement (as cited in repo) 01-Jun-26",
+   "cpi_latest_yoy_pct": "NBS, Consumer Price Index Report August 2026 15-Sep-26",
+   "policy_rate_pct": "CBN, 307th MPC Communiqu\u00e9 (MPR, +50/-300 bps corridor) 22-Sep-26",
+   "gross_reserves_usd_bn": "CBN, Daily Foreign Exchange Reserves Bulletin 05-Oct-26 | gross, CBN daily bulletin (gold treatment not stated); IMF series incl. gold was 54.85 in Aug-26",
+   "gov_debt_pct_gdp": "DMO Public Debt Stock 30-Jun-26 / IMF (Medium confidence) 25-Sep-26 | Definition unclear: labelled federal government in one place and total public in another; total public debt N166.79T ($120.93B) at 30-Jun-26",
+   "interest_pct_revenue": "IMF 2026 Article IV concluding statement: interest 'over 55%' of retained revenue; lower bound, federal vs consolidated basis unresolved (Medium confidence) 01-Jun-26",
    "next_eurobond_maturity": "DMO Sep-26",
-   "import_cover_months": "IMF/CBN, via adjudicated prior document (Medium) 08-Oct-26",
+   "import_cover_months": "IMF/CBN via adjudicated prior document (Medium confidence) 08-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26",
    "fiscal_balance_pct_gdp": "IMF WEO 08-Oct-26",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
-   "eurobonds_outstanding_usd_bn": "DMO Nigeria Public Debt Stock 25-Sep-26",
+   "eurobonds_outstanding_usd_bn": "DMO Public Debt Stock (27.7% of external debt of $54.52B) 25-Sep-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "external_debt_pct_gdp": "DMO Nigeria Public Debt Stock as at 30-Jun-26; IMF WEO (computed) 25-Sep-26 | Computed: public external debt $54.52B (DMO, 30-Jun-26) / 2026E IMF WEO nominal GDP $377.4B; mixed periods, public sector only",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
@@ -83717,9 +83736,9 @@ window.SOVEREIGNS = [
    "policy_rate_pct": "Sep-26",
    "gross_reserves_usd_bn": "05-Oct-26",
    "gov_debt_pct_gdp": "Jun-26",
-   "interest_pct_revenue": "2026 Article IV, 'over 55% of retained revenue'; federal vs consolidated basis unresolved",
+   "interest_pct_revenue": "2026 (IMF Article IV)",
    "next_eurobond_maturity": "Sep-26",
-   "import_cover_months": "08-Oct-26",
+   "import_cover_months": "2026",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
    "current_account_pct_gdp": "2026E",
@@ -83743,7 +83762,7 @@ window.SOVEREIGNS = [
  {
   "slug": "north-macedonia",
   "country": "North Macedonia",
-  "region": "CEEMEA - Western Balkans",
+  "region": "Western Balkans (CEEMEA)",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
@@ -83772,8 +83791,8 @@ window.SOVEREIGNS = [
   },
   "politics": {
    "next_election": null,
-   "note": "EU accession deadlock over the constitutional amendment on Bulgarian-related demands (both models, unverified, Low)",
-   "source": "Adjudicated document 'North Macedonia sovereign credit'",
+   "note": "EU accession deadlock over the constitutional amendment on Bulgarian-related demands (both models, Low confidence, unsourced)",
+   "source": "Adjudicated document, run 2026-10-08_1910",
    "asof": "08-Oct-26"
   },
   "ind": {
@@ -86946,12 +86965,12 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "peg to USD (OMR 0.3845 per USD since 1986)",
-  "commodity": "Hydrocarbon exporter (crude oil and LNG); fiscal breakeven oil price ~USD 65-70/bbl, so Brent is the price that matters",
+  "commodity": "Crude oil and LNG exports; fiscal breakeven oil price ~USD 65-70/bbl",
   "ratings": {
    "sp": {
     "rating": "BBB-",
     "outlook": "Stable",
-    "date": "27-Sep-24 (upgrade); affirmed Sep-26"
+    "date": "27-Sep-24"
    },
    "moodys": {
     "rating": "Baa3",
@@ -86980,7 +86999,7 @@ window.SOVEREIGNS = [
    "import_cover_months": 5.0,
    "gov_debt_pct_gdp": 34.7,
    "fiscal_balance_pct_gdp": 0.6,
-   "next_eurobond_maturity": "17-Jan-28, USD 1.75bn (OMAN 5.625%, XS1750113479)",
+   "next_eurobond_maturity": "OMAN 5.625% Eurobond (XS1750113479)",
    "fdi_net_pct_gdp": 6.156,
    "current_account_pct_gdp": 2.5,
    "nominal_gdp_usd_bn": 117.176,
@@ -86990,10 +87009,10 @@ window.SOVEREIGNS = [
   },
   "src": {
    "real_gdp_growth_pct": "National Centre for Statistics and Information Jun-25",
-   "gross_reserves_usd_bn": "Central Bank of Oman Dec-24 | CBO gross foreign assets and gold (OMR 7.068bn); excludes OIA assets of OMR 23bn / USD 59.7bn",
+   "gross_reserves_usd_bn": "Central Bank of Oman Dec-24 | CBO gross foreign assets and gold (OMR 7.068bn)",
    "import_cover_months": "Central Bank of Oman (stated as over 5 months of merchandise imports) Dec-24",
-   "gov_debt_pct_gdp": "Ministry of Finance Dec-25 | Central government debt (OMR 14.6bn / USD 37.9bn at end-2024 = 35.0% of GDP)",
-   "fiscal_balance_pct_gdp": "Ministry of Finance / IMF (stated as ~0.6-0.7%) Jun-26",
+   "gov_debt_pct_gdp": "Ministry of Finance Dec-25 | Central government debt (approximate)",
+   "fiscal_balance_pct_gdp": "Ministry of Finance (stated ~0.6%-0.7%) Dec-25",
    "next_eurobond_maturity": "Ministry of Finance Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "current_account_pct_gdp": "Central Bank of Oman / IMF Jun-26",
@@ -99869,12 +99888,12 @@ window.SOVEREIGNS = [
  {
   "slug": "qatar",
   "country": "Qatar",
-  "region": "GCC",
+  "region": "GCC / Middle East",
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "peg to USD",
-  "commodity": "LNG exports; LNG/gas prices and export volumes matter, with the 2026 output loss linked to the regional war (cause unverified)",
+  "commodity": "LNG and hydrocarbon exporter; LNG/gas export volumes and prices are the key drivers (North Field East expansion)",
   "ratings": {
    "fitch": {
     "rating": "AA",
@@ -99903,14 +99922,14 @@ window.SOVEREIGNS = [
   "src": {
    "real_gdp_growth_pct": "IMF WEO (repo data) 09-Oct-26",
    "current_account_pct_gdp": "IMF WEO (repo data) 09-Oct-26",
-   "gov_debt_pct_gdp": "IMF WEO (repo data) 09-Oct-26 | IMF WEO government debt (coverage not stated)",
+   "gov_debt_pct_gdp": "IMF WEO (repo data) 09-Oct-26 | Government debt, IMF WEO definition",
    "fiscal_balance_pct_gdp": "IMF WEO (repo data) 09-Oct-26",
    "nominal_gdp_usd_bn": "IMF WEO (repo data) 09-Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | gross incl. gold (ex gold USD 44.6bn; gold USD 16.5bn); excludes QIA assets",
+   "gross_reserves_usd_bn": "IMF International Liquidity (repo data) 09-Oct-26 | gross incl. gold (ex gold USD 44.6bn; gold USD 16.5bn); excludes QIA assets",
    "import_cover_months": "World Bank WDI 09-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "cpi_latest_yoy_pct": "IMF CPI database 09-Oct-26",
-   "policy_rate_pct": "IMF MFS 09-Oct-26",
+   "cpi_latest_yoy_pct": "IMF CPI database (repo data) 09-Oct-26",
+   "policy_rate_pct": "IMF MFS (repo data) 09-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 09-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity))",
@@ -104694,7 +104713,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "crawling peg",
-  "commodity": "Net oil and capital goods importer; exports coffee, tea, and coltan/cassiterite minerals",
+  "commodity": "Commodity imports (fuel, fertilizer) and Bugesera Airport-related imports drive the external deficit; reported only, unverified",
   "ratings": {
    "fitch": {
     "rating": "B+",
@@ -104713,18 +104732,18 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "38-month ECF (reported)",
+   "programme": "ECF, 38-month (reported, unverified); first-review staff-level agreement 06-Oct-26, SDR 26.43m",
    "size_usd_bn": null,
    "approved": "Jun-26",
-   "next_review": "Board date Dec-26 following first-review staff-level agreement of 06-Oct-26 (SDR 26.43m disbursement)",
+   "next_review": "Board date Dec-26 (reported)",
    "risk_of_debt_distress": null,
-   "source": "Gemini via adjudicated document; IMF press release not retrieved, unverified (Low-Medium)",
+   "source": "IMF press release as reported by Gemini position in run 2026-10-08_1853; unverified, no URL",
    "asof": "08-Oct-26"
   },
   "politics": {
    "next_election": null,
    "note": "Eastern DRC/M23 conflict is the main tail risk to donor budget support and diplomatic standing (sanctions or aid conditionality); current status not verified",
-   "source": "Adjudicated document, both models (Medium for risk, Low for status)",
+   "source": "Run 2026-10-08_1853 adjudicated document",
    "asof": "08-Oct-26"
   },
   "ind": {
@@ -104738,7 +104757,7 @@ window.SOVEREIGNS = [
    "gov_debt_pct_gdp": 77.5,
    "fiscal_balance_pct_gdp": -4.8,
    "eurobonds_outstanding_usd_bn": 0.62,
-   "next_eurobond_maturity": "Aug-31",
+   "next_eurobond_maturity": "09-Aug-31",
    "fdi_net_pct_gdp": 5.909,
    "nominal_gdp_usd_bn": 17.336,
    "current_account_4q_usd_bn": -1.98,
@@ -104748,17 +104767,17 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -0.0
   },
   "src": {
-   "real_gdp_growth_pct": "NISR as reported by Gemini in the adjudicated document, no URL, unverified (Low-Medium) 08-Oct-26",
-   "cpi_latest_yoy_pct": "BNR/NISR as reported by Gemini in the adjudicated document, no URL, unverified (Low-Medium) 08-Oct-26",
-   "policy_rate_pct": "BNR MPC statement as reported by Gemini in the adjudicated document, no URL, unverified (Low-Medium) 08-Oct-26",
-   "current_account_pct_gdp": "Reported 'near 15% of GDP' deficit, Gemini via adjudicated document, no URL, unverified (Low-Medium) 08-Oct-26",
-   "gross_reserves_usd_bn": "Gemini via adjudicated document, no URL, unverified (Low-Medium) 08-Oct-26 | not stated in source (reported ~US$2.2bn)",
-   "import_cover_months": "Gemini via adjudicated document, no URL, unverified (Low-Medium) 08-Oct-26",
+   "real_gdp_growth_pct": "NISR as reported by Gemini position in run 2026-10-08_1853; unverified, no URL 08-Oct-26",
+   "cpi_latest_yoy_pct": "NISR/BNR as reported by Gemini position in run 2026-10-08_1853; unverified, no URL 08-Oct-26",
+   "policy_rate_pct": "BNR MPC statement as reported by Gemini position in run 2026-10-08_1853; unverified, no URL 08-Oct-26",
+   "current_account_pct_gdp": "Reported near 15% of GDP deficit, Gemini position in run 2026-10-08_1853; unverified, no URL 08-Oct-26",
+   "gross_reserves_usd_bn": "Reported by Gemini position in run 2026-10-08_1853; unverified, no URL 08-Oct-26 | not stated in source (approximate, ~US$2.2bn)",
+   "import_cover_months": "Reported (~4.0 months of imports) by Gemini position in run 2026-10-08_1853; unverified, no URL 08-Oct-26",
    "external_debt_pct_gdp": "Fitch 11-Sep-26 | net external debt % GDP",
    "gov_debt_pct_gdp": "Fitch 11-Sep-26 | central government debt (~75-80% band)",
-   "fiscal_balance_pct_gdp": "IMF release as reported by Gemini via adjudicated document, no URL, unverified (Low) 08-Oct-26",
-   "eurobonds_outstanding_usd_bn": "Recalled by both models (US$620m 5.50% due Aug-31); prospectus not retrieved (Medium) 08-Oct-26",
-   "next_eurobond_maturity": "Adjudicated document; prospectus not retrieved (Medium) 08-Oct-26",
+   "fiscal_balance_pct_gdp": "IMF release as reported by Gemini position in run 2026-10-08_1853; unverified, no URL 08-Oct-26",
+   "eurobonds_outstanding_usd_bn": "US$620m 5.50% bond due Aug-31, recalled by both models; prospectus not retrieved (run 2026-10-08_1853) 08-Oct-26",
+   "next_eurobond_maturity": "Run 2026-10-08_1853 adjudicated document 08-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
@@ -106790,8 +106809,8 @@ window.SOVEREIGNS = [
    "import_cover_months": "2026",
    "external_debt_pct_gdp": "2026E",
    "gov_debt_pct_gdp": "2026E",
-   "fiscal_balance_pct_gdp": "FY2025/26 (fiscal-year convention not stated)",
-   "eurobonds_outstanding_usd_bn": "Aug-21 issue, outstanding",
+   "fiscal_balance_pct_gdp": "FY2025/26",
+   "eurobonds_outstanding_usd_bn": "2026",
    "next_eurobond_maturity": "08-Oct-26",
    "fdi_net_pct_gdp": "2025",
    "nominal_gdp_usd_bn": "2026E",
@@ -106810,12 +106829,12 @@ window.SOVEREIGNS = [
  {
   "slug": "saudi-arabia",
   "country": "Saudi Arabia",
-  "region": "Middle East",
+  "region": "Middle East (GCC)",
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "peg to USD (USD/SAR 3.75 in every month Apr to Sep-26)",
-  "commodity": "Oil exporter; the oil price and OPEC+ production path drive the terms of trade and the current account",
+  "fx_regime": "peg to USD",
+  "commodity": "Oil exporter; the oil price and production (OPEC+ quota path) drive the terms of trade. The IMF commodity terms-of-trade index rose 15.9% over 12 months to May-26.",
   "ratings": {},
   "imf": {},
   "politics": {},
@@ -106842,17 +106861,17 @@ window.SOVEREIGNS = [
   "src": {
    "real_gdp_growth_pct": "IMF WEO 09-Oct-26",
    "current_account_pct_gdp": "IMF WEO 09-Oct-26",
-   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | General government debt per IMF WEO; excludes PIF, SOE and giga-project debt",
+   "gov_debt_pct_gdp": "IMF WEO 09-Oct-26 | central government debt, IMF WEO perimeter (excludes PIF, SOE and giga-project debt)",
    "fiscal_balance_pct_gdp": "IMF WEO 09-Oct-26",
    "nominal_gdp_usd_bn": "IMF WEO 09-Oct-26",
    "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | gross incl. gold (gold USD 0.433bn)",
    "import_cover_months": "World Bank WDI 09-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 09-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "policy_rate_pct": "BIS 09-Oct-26",
+   "policy_rate_pct": "BIS policy rate 09-Oct-26",
    "cpi_latest_yoy_pct": "IMF CPI database 09-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 09-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 09-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
-   "net_reserves_usd_bn": "IMF reserve template 09-Oct-26 | gross net of predetermined one-year drains (USD 6.484bn)",
+   "net_reserves_usd_bn": "IMF reserve template 09-Oct-26 | gross net of predetermined one-year drains (-USD 6.484bn)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (BIS real broad EER))",
    "reer_latest": "derived from the inputs above ()",
@@ -109551,8 +109570,8 @@ window.SOVEREIGNS = [
   "group": "Sub-Saharan Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "peg to EUR",
-  "commodity": "Net oil and gas exporter since Sangomar (about 100k bpd) started; GTA Phase 1 LNG ramping. Brent and LNG prices matter for budget receipts; government take not sourced.",
+  "fx_regime": "peg to EUR (XOF at 655.957 per EUR, BCEAO/WAEMU)",
+  "commodity": "Oil (Sangomar, 17.9M bbl in H1-26 against a 31.6M bbl 2026 target) and gas (GTA Phase 1); Brent and LNG prices matter",
   "ratings": {
    "sp": {
     "rating": "CC",
@@ -109566,39 +109585,39 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "Staff-level agreement on new arrangement replacing suspended USD 1.8B facility; Board consideration 15-Dec-26",
+   "programme": "Staff-level agreement on new arrangement replacing the suspended USD 1.8bn facility",
    "size_usd_bn": 2.2,
    "approved": null,
    "next_review": "15-Dec-26 (Executive Board consideration)",
    "risk_of_debt_distress": null,
-   "source": "IMF",
-   "asof": "30-Sep-26"
+   "source": "IMF (via knowledge page)",
+   "asof": "Sep-26"
   },
   "politics": {
    "next_election": null,
-   "note": "President Faye and Prime Minister Sonko (PASTEF) govern after the March 2024 election; parliamentary position and IMF programme conditions unverified.",
-   "source": "Government of Senegal",
-   "asof": "30-Sep-26"
+   "note": "President Faye and Prime Minister Sonko (PASTEF) govern after the March 2024 election; parliamentary position and IMF programme conditions unverified",
+   "source": "Government of Senegal (via knowledge page)",
+   "asof": "Sep-26"
   },
   "ind": {
    "cpi_latest_yoy_pct": 1.2,
    "policy_rate_pct": 3.0,
    "gov_debt_pct_gdp": 132.0,
-   "next_eurobond_maturity": "13-Mar-28, EUR 500M 4.750%",
+   "next_eurobond_maturity": "13-Mar-28",
    "fdi_net_pct_gdp": 0.099,
    "real_gdp_growth_pct": 6.8,
    "current_account_pct_gdp": -6.2,
    "fiscal_balance_pct_gdp": -6.7,
-   "nominal_gdp_usd_bn": 40.469,
+   "nominal_gdp_usd_bn": 40.5,
    "eurobonds_outstanding_usd_bn": 3.2,
    "ex_ante_real_rate_pct": 1.8,
    "ctot_12m_pct": -2.4
   },
   "src": {
-   "cpi_latest_yoy_pct": "ANSD 31-Aug-26",
-   "policy_rate_pct": "BCEAO (marginal lending rate 5.0%) 09-Sep-26",
-   "gov_debt_pct_gdp": "Cour des Comptes / IMF (via data record) 08-Oct-26 | Public debt, about 132% of GDP at end-2024 after hidden-borrowing revisions (previously reported about 74%); attribution to Cour des Comptes Feb-25 vs later IMF reconciliation unresolved",
-   "next_eurobond_maturity": "Ministry of Finance 30-Sep-26",
+   "cpi_latest_yoy_pct": "ANSD Aug-26",
+   "policy_rate_pct": "BCEAO 09-Sep-26",
+   "gov_debt_pct_gdp": "Cour des Comptes / IMF (via data record) 08-Oct-26 | Public debt after hidden-borrowing revisions; attribution to Cour des Comptes (Feb-25) vs later IMF reconciliation unresolved",
+   "next_eurobond_maturity": "Ministry of Finance (via knowledge page) Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "ANSD / IMF WEO 08-Oct-26",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26",
@@ -109630,7 +109649,7 @@ window.SOVEREIGNS = [
     "2026E": -6.7
    },
    "nominal_gdp_usd_bn": {
-    "2026E": 40.469
+    "2026E": 40.5
    }
   },
   "hist": {
@@ -110535,7 +110554,7 @@ window.SOVEREIGNS = [
    "cpi_latest_yoy_pct": "Aug-26",
    "policy_rate_pct": "Sep-26",
    "gov_debt_pct_gdp": "2024",
-   "next_eurobond_maturity": "30-Sep-26",
+   "next_eurobond_maturity": "Sep-26",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
    "current_account_pct_gdp": "2026E",
@@ -110554,12 +110573,12 @@ window.SOVEREIGNS = [
  {
   "slug": "serbia",
   "country": "Serbia",
-  "region": "CEEMEA - Western Balkans",
+  "region": "CEEMEA - Southeast Europe",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "managed float",
-  "commodity": "Manufacturing-led exporter (automotive, EV battery supply chain, industrial) exposed to the European manufacturing cycle; net energy importer sensitive to global energy prices; Jadar lithium project is a potential future export",
+  "commodity": "Export manufacturing (automotive, EV battery supply chain, industrial) with the European manufacturing cycle as the main external driver; energy prices feed CPI",
   "ratings": {
    "sp": {
     "rating": "BBB-",
@@ -110583,13 +110602,13 @@ window.SOVEREIGNS = [
    "approved": null,
    "next_review": "Fourth Review mission 15-Dec-26",
    "risk_of_debt_distress": null,
-   "source": "IMF Press Release No. 26/208 (Third Review completed 15-Jun-26)",
+   "source": "IMF Press Release No. 26/208 (Third Review completed)",
    "asof": "15-Jun-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Civic protests and political friction over the Rio Tinto Jadar lithium concession; Kosovo normalisation tensions and EU sanctions-alignment pressure",
-   "source": "Balkan Insight / European Commission / Oxford Economics, adjudicated report",
+   "note": "Civic protests and political opposition to the Rio Tinto Jadar lithium concession; Kosovo normalisation talks and EU sanctions alignment are sources of geopolitical friction",
+   "source": "Balkan Insight / European Commission / Oxford Economics",
    "asof": "Sep-26"
   },
   "ind": {
@@ -110613,14 +110632,14 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -1.4
   },
   "src": {
-   "real_gdp_growth_pct": "Statistical Office of the Republic of Serbia Sep-26",
-   "cpi_latest_yoy_pct": "Statistical Office of the Republic of Serbia Sep-26",
+   "real_gdp_growth_pct": "Statistical Office of the Republic of Serbia (stat.gov.rs) Sep-26",
+   "cpi_latest_yoy_pct": "Statistical Office of the Republic of Serbia (stat.gov.rs) Sep-26",
    "policy_rate_pct": "National Bank of Serbia, Executive Board decision 10-Sep-26",
    "current_account_pct_gdp": "National Bank of Serbia / IMF Jun-26",
    "gov_debt_pct_gdp": "Public Debt Administration (javnidug.gov.rs) Aug-26 | General government debt, EUR 41.93bn",
    "next_eurobond_maturity": "Public Debt Administration May-26",
    "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)",
-   "import_cover_months": "National Bank of Serbia (goods and services imports) 10-Sep-26",
+   "import_cover_months": "National Bank of Serbia (nbs.rs), goods and services imports 10-Sep-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "fiscal_balance_pct_gdp": "Ministry of Finance 31-Aug-26",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
@@ -113256,7 +113275,7 @@ window.SOVEREIGNS = [
    "cpi_latest_yoy_pct": "Aug-26",
    "policy_rate_pct": "Sep-26",
    "current_account_pct_gdp": "2026E",
-   "gov_debt_pct_gdp": "end-Aug-26",
+   "gov_debt_pct_gdp": "Aug-26",
    "next_eurobond_maturity": "May-26",
    "gross_reserves_usd_bn": "2026-08",
    "import_cover_months": "Aug-26",
@@ -113285,7 +113304,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "float",
-  "commodity": "Commodity exporter incl. gold; IMF commodity terms-of-trade index -0.9% y/y to May-26; gold reserve line $18.0B (Aug-26)",
+  "commodity": "Gold and other mineral exports (gold is $18.0B of reserves); the IMF commodity terms-of-trade index was -0.9% over 12 months to May-26",
   "ratings": {
    "fitch": {
     "rating": "BB",
@@ -113293,7 +113312,7 @@ window.SOVEREIGNS = [
     "date": "05-Jun-26"
    },
    "sp": {
-    "rating": "BB",
+    "rating": "BB (foreign) / BB+ (local)",
     "outlook": "Positive",
     "date": "29-May-26"
    },
@@ -113314,8 +113333,8 @@ window.SOVEREIGNS = [
   },
   "politics": {
    "next_election": null,
-   "note": "GNU (ANC, DA, IFP) in place since the May 2024 elections",
-   "source": "Presidency, Jun-26",
+   "note": "GNU (ANC, DA, IFP) in place since the May 2024 elections; MTBPS stated for 23-Oct-26 but unconfirmed",
+   "source": "Presidency, Jun-26 (via adjudicated document)",
    "asof": "08-Oct-26"
   },
   "ind": {
@@ -113324,7 +113343,7 @@ window.SOVEREIGNS = [
    "current_account_pct_gdp": -1.6,
    "gross_reserves_usd_bn": 75.96,
    "import_cover_months": 5.8,
-   "fiscal_balance_pct_gdp": -3.8,
+   "fiscal_balance_pct_gdp": -4.5,
    "fdi_net_pct_gdp": -0.506,
    "real_gdp_growth_pct": 1.0,
    "gov_debt_pct_gdp": 77.2,
@@ -113340,18 +113359,18 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -0.9
   },
   "src": {
-   "cpi_latest_yoy_pct": "Stats SA / IMF data portal 08-Oct-26",
-   "policy_rate_pct": "BIS monthly policy rate series 08-Oct-26",
-   "current_account_pct_gdp": "SARB Quarterly Bulletin 08-Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | gross incl. gold (ex-gold $57.96B plus gold $18.0B); SARB headline $63.5B (Sep-26) has an unresolved definition",
-   "import_cover_months": "SARB 08-Oct-26",
-   "fiscal_balance_pct_gdp": "National Treasury (vintage unverified, attributed to MTBPS 2026 / Jun-26) 08-Oct-26",
+   "cpi_latest_yoy_pct": "Stats SA via IMF data portal 08-Oct-26",
+   "policy_rate_pct": "BIS monthly policy rate series (MPC decision date unverified) 08-Oct-26",
+   "current_account_pct_gdp": "SARB Quarterly Bulletin (period not stated; Sep-26 publication) Sep-26",
+   "gross_reserves_usd_bn": "IMF International Liquidity Aug-26 | gross incl. gold (IMF International Liquidity); ex-gold $57.96B; SARB headline $63.5B (Sep-26) has an unresolved definition",
+   "import_cover_months": "SARB (headline reserves basis) Sep-26",
+   "fiscal_balance_pct_gdp": "National Treasury, cited as MTBPS 2026/Jun-26 (vintage unverified, Low-Medium) 08-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
    "gov_debt_pct_gdp": "National Treasury MTBPS 08-Oct-26 | gross debt, upper end of projected peak range 75.5%-77.2% of GDP",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
-   "inflation_expectation_12m_pct": "BER 12-month expectation (cited via previous document, not independently sourced) 08-Oct-26",
-   "interest_pct_revenue": "National Treasury, Jun-26 (debt service 'over 20%' of revenue; floor value) 08-Oct-26",
+   "inflation_expectation_12m_pct": "BER 12-month expectation, cited in the adjudicated document (survey not independently sourced) 08-Oct-26",
+   "interest_pct_revenue": "National Treasury, cited in the adjudicated document 08-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 08-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
@@ -116583,16 +116602,16 @@ window.SOVEREIGNS = [
   "asof_ind": {
    "cpi_latest_yoy_pct": "Aug-26",
    "policy_rate_pct": "Sep-26",
-   "current_account_pct_gdp": "Sep-26",
+   "current_account_pct_gdp": "Q2-26",
    "gross_reserves_usd_bn": "Aug-26",
    "import_cover_months": "Sep-26",
-   "fiscal_balance_pct_gdp": "FY26/27",
+   "fiscal_balance_pct_gdp": "FY25/26 (Apr-Mar)",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
    "gov_debt_pct_gdp": "medium-term peak",
    "nominal_gdp_usd_bn": "2026E",
    "inflation_expectation_12m_pct": "Sep-26",
-   "interest_pct_revenue": "FY25/26",
+   "interest_pct_revenue": "FY25/26 (floor value, at least 20%)",
    "current_account_4q_usd_bn": "2025-Q3 to 2026-Q2",
    "reserves_net_of_drains_usd_bn": "2026-08",
    "ex_ante_real_rate_pct": "derived",
@@ -116615,13 +116634,13 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": null,
-  "commodity": "Gold and aluminium exports; remittances concentrated on Russia (structure only, magnitudes unverified, Low confidence)",
+  "commodity": "Remittances (concentrated on Russia), gold and aluminium exports; unverified, structural view only",
   "ratings": {},
   "imf": {},
   "politics": {
    "next_election": null,
-   "note": "Near-term political risk low; succession arrangement is a tail risk (Low confidence, unverified)",
-   "source": "Adjudicated document 'Tajikistan sovereign credit' (analyst prior knowledge, tier 4)",
+   "note": "Succession arrangement flagged as a tail risk; unverified",
+   "source": "Adjudicated document 'Tajikistan sovereign credit' (tier 4, unverified)",
    "asof": "08-Oct-26"
   },
   "ind": {
@@ -121455,12 +121474,12 @@ window.SOVEREIGNS = [
  {
   "slug": "tunisia",
   "country": "Tunisia",
-  "region": "North Africa",
+  "region": "MENA / North Africa",
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "managed float",
-  "commodity": "Net energy importer: energy trade deficit TND 11.3bn in 8M26 vs TND 8.8bn in 8M25; tourism receipts and worker remittances are the main offsetting inflows",
+  "commodity": "Net energy importer (energy trade deficit TND 11.3bn in 8M26 vs TND 8.8bn in 8M25); tourism receipts and worker remittances are the main FX inflows; energy and food import prices matter most",
   "ratings": {
    "fitch": {
     "rating": "B-",
@@ -121474,18 +121493,18 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "$1.9bn Extended Fund Facility agreed at staff level Oct-22; never approved by the Executive Board; frozen",
+   "programme": "$1.9bn Extended Fund Facility agreed at staff level Oct-22; never approved by the Executive Board (frozen)",
    "size_usd_bn": 1.9,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF",
+   "source": "IMF, Tunisia country records and EFF status",
    "asof": "08-Sep-26"
   },
   "politics": {
    "next_election": null,
-   "note": "President Kais Saied consolidated executive authority under the 2022 constitution after the Oct-24 presidential election; rejects IMF conditionality on the public wage bill (>13% of GDP) and subsidy cuts",
-   "source": "Official Gazette; Official Presidential Statements; Moody's",
+   "note": "President Kais Saied consolidated executive authority under the 2022 constitution after the Oct-24 presidential election; rejects IMF conditionality on public wage bill and subsidies",
+   "source": "Official Gazette / presidential statements, Oct-24; Moody's Credit Opinion 16-Jul-26",
    "asof": "16-Jul-26"
   },
   "ind": {
@@ -121510,12 +121529,12 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -1.2
   },
   "src": {
-   "cpi_latest_yoy_pct": "Institut National de la Statistique 05-Oct-26",
-   "policy_rate_pct": "Banque Centrale de Tunisie 07-Oct-26",
-   "net_reserves_usd_bn": "Banque Centrale de Tunisie 06-Oct-26 | BCT net foreign exchange reserves, TND 23.7bn converted at ~USD as stated in source (approx.)",
-   "import_cover_months": "Banque Centrale de Tunisie (92 days of imports, converted to months) 06-Oct-26",
-   "gov_debt_pct_gdp": "Ministry of Finance Tunisia 08-Sep-26 | Public debt, approximate",
-   "fiscal_balance_pct_gdp": "Ministry of Finance Tunisia 08-Sep-26",
+   "cpi_latest_yoy_pct": "Institut National de la Statistique (INS), CPI release 05-Oct-26",
+   "policy_rate_pct": "Banque Centrale de Tunisie, Executive Board decision 07-Oct-26",
+   "net_reserves_usd_bn": "Banque Centrale de Tunisie, daily financial indicators 06-Oct-26 | BCT net foreign exchange reserves, TND 23.7bn converted at approx. USD rate as stated in source (approximately $7.6bn)",
+   "import_cover_months": "Banque Centrale de Tunisie, daily financial indicators (92 days of imports, converted to months at 30.4 days) 06-Oct-26",
+   "gov_debt_pct_gdp": "Ministry of Finance Tunisia 08-Sep-26 | Public debt, approximate estimate",
+   "fiscal_balance_pct_gdp": "Ministry of Finance Tunisia (deficit projection ~5.2% of GDP) 08-Sep-26",
    "eurobonds_outstanding_usd_bn": "Ministry of Finance Tunisia, Debt Service Report (only remaining benchmark: $150m 8.25% due 19-Sep-27) 15-Jul-26",
    "next_eurobond_maturity": "Ministry of Finance Tunisia 15-Jul-26",
    "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)",
@@ -123299,7 +123318,7 @@ window.SOVEREIGNS = [
   },
   "asof_ind": {
    "cpi_latest_yoy_pct": "Sep-26",
-   "policy_rate_pct": "07-Oct-26",
+   "policy_rate_pct": "Oct-26",
    "net_reserves_usd_bn": "06-Oct-26",
    "import_cover_months": "06-Oct-26",
    "gov_debt_pct_gdp": "2026E",
@@ -123392,19 +123411,19 @@ window.SOVEREIGNS = [
   },
   "src": {
    "cpi_latest_yoy_pct": "TurkStat, Consumer Price Index September 2026 03-Oct-26",
-   "policy_rate_pct": "TCMB MPC decision, 1-week repo rate (IMF series shows 35.5%, definition unconfirmed) Sep-26",
-   "current_account_pct_gdp": "TCMB, FY26 deficit projected at 2.6% to 2.8% of GDP (midpoint) Jul-26",
+   "policy_rate_pct": "TCMB MPC decision, 1-week repo rate (IMF series shows 35.5%, definition unconfirmed) 30-Sep-26",
+   "current_account_pct_gdp": "TCMB, Jul-26 31-Jul-26",
    "gross_reserves_usd_bn": "TCMB via run 2026-10-07_2235 18-Sep-26 | gross incl. gold",
    "short_term_external_debt_usd_bn": "TCMB Short Term External Debt Statistics 30-Jun-26 | by remaining maturity, all sectors",
-   "external_debt_pct_gdp": "HMB Gross External Debt Stock Statistics 30-Jun-26 | gross external debt, $539.0B, HMB denominator",
+   "external_debt_pct_gdp": "HMB Gross External Debt Stock Statistics 30-Jun-26 | gross external debt $539.0B, all sectors, HMB GDP denominator",
    "gov_debt_pct_gdp": "HMB 30-Jun-26 | central government debt",
-   "fiscal_balance_pct_gdp": "HMB, central government budget Aug-26",
+   "fiscal_balance_pct_gdp": "HMB budget execution, Aug-26 31-Aug-26",
    "import_cover_months": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fdi_net_pct_gdp": "World Bank WDI 2025",
-   "real_gdp_growth_pct": "IMF WEO 2026 2026",
-   "nominal_gdp_usd_bn": "IMF WEO 2026 2026",
-   "inflation_expectation_12m_pct": "TCMB Survey of Market Participants (midpoint of stated 24-25%) Sep-26",
-   "gefr_usd_bn": "TCMB/HMB Jun-26 | CA deficit + external amortisation due in 12m (approx., next 12 months; components not in hand)",
+   "fdi_net_pct_gdp": "World Bank WDI 31-Dec-25",
+   "real_gdp_growth_pct": "IMF WEO 2026 09-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 2026 09-Oct-26",
+   "inflation_expectation_12m_pct": "TCMB Survey of Market Participants (midpoint of stated 24-25%) 30-Sep-26",
+   "gefr_usd_bn": "TCMB/HMB 30-Jun-26 | CA deficit + external amortisation due in 12m",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 08-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
@@ -126525,7 +126544,7 @@ window.SOVEREIGNS = [
   "asof_ind": {
    "cpi_latest_yoy_pct": "Sep-26",
    "policy_rate_pct": "Sep-26",
-   "current_account_pct_gdp": "2026E",
+   "current_account_pct_gdp": "FY26 projected (midpoint of 2.6% to 2.8% deficit)",
    "gross_reserves_usd_bn": "18-Sep-26",
    "short_term_external_debt_usd_bn": "30-Jun-26",
    "external_debt_pct_gdp": "30-Jun-26",
@@ -126536,7 +126555,7 @@ window.SOVEREIGNS = [
    "real_gdp_growth_pct": "2026E",
    "nominal_gdp_usd_bn": "2026E",
    "inflation_expectation_12m_pct": "Sep-26",
-   "gefr_usd_bn": "Jun-26",
+   "gefr_usd_bn": "next 12 months from Jun-26",
    "current_account_4q_usd_bn": "2025-Q3 to 2026-Q2",
    "reserves_net_of_drains_usd_bn": "2026-08",
    "ex_ante_real_rate_pct": "derived",
@@ -126556,17 +126575,17 @@ window.SOVEREIGNS = [
  {
   "slug": "uae",
   "country": "United Arab Emirates",
-  "region": "MENA / GCC",
+  "region": "GCC / Middle East",
   "group": "Middle East and North Africa",
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "peg to USD (AED 3.6725 per USD)",
-  "commodity": "Oil and gas exporter; the oil price and Strait of Hormuz shipping access matter, with partial rerouting via the Habshan\u2013Fujairah pipeline",
+  "commodity": "Net oil and gas exporter; the oil price and Strait of Hormuz shipping access matter, with partial rerouting via the Habshan\u2013Fujairah pipeline",
   "ratings": {
    "fitch": {
     "rating": "AA-",
     "outlook": "Stable",
-    "date": "May-26"
+    "date": "06-May-26"
    },
    "sp": {
     "rating": "AA",
@@ -126574,7 +126593,15 @@ window.SOVEREIGNS = [
     "date": "06-Mar-26"
    }
   },
-  "imf": {},
+  "imf": {
+   "programme": null,
+   "size_usd_bn": null,
+   "approved": null,
+   "next_review": null,
+   "risk_of_debt_distress": null,
+   "source": "WAM, IMF staff visit statement (no programme; surveillance only)",
+   "asof": "Jul-26"
+  },
   "politics": {},
   "ind": {
    "real_gdp_growth_pct": 3.1,
@@ -126592,15 +126619,15 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 13.2
   },
   "src": {
-   "real_gdp_growth_pct": "IMF WEO via repo data record 09-Oct-26",
-   "current_account_pct_gdp": "IMF WEO via repo data record (vintage unverified) 09-Oct-26",
-   "gov_debt_pct_gdp": "IMF WEO via repo data record 09-Oct-26 | general government debt",
-   "fiscal_balance_pct_gdp": "IMF WEO via repo data record (vintage unverified) 09-Oct-26",
-   "nominal_gdp_usd_bn": "IMF WEO via repo data record 09-Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity 09-Oct-26 | gross incl. gold (ex gold USD 250.0bn)",
-   "import_cover_months": "World Bank WDI 09-Oct-26",
-   "fdi_net_pct_gdp": "World Bank WDI 09-Oct-26",
-   "cpi_latest_yoy_pct": "IMF CPI database 09-Oct-26",
+   "real_gdp_growth_pct": "IMF WEO, via repo data record 09-Oct-26",
+   "current_account_pct_gdp": "IMF WEO, via repo data record 09-Oct-26",
+   "gov_debt_pct_gdp": "IMF WEO, via repo data record 09-Oct-26 | general government gross debt",
+   "fiscal_balance_pct_gdp": "IMF WEO, via repo data record 09-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO, via repo data record 09-Oct-26",
+   "gross_reserves_usd_bn": "IMF International Liquidity, via repo data record 09-Oct-26 | gross incl. gold (ex gold USD 250.0bn)",
+   "import_cover_months": "World Bank WDI, via repo data record 09-Oct-26",
+   "fdi_net_pct_gdp": "World Bank WDI, via repo data record 09-Oct-26",
+   "cpi_latest_yoy_pct": "IMF CPI database, via repo data record 09-Oct-26",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (BIS real broad EER))",
    "reer_latest": "derived from the inputs above ()",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2025-07 to 2026-07 (IMF International Liquidity))",
@@ -128330,7 +128357,7 @@ window.SOVEREIGNS = [
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
-  "fx_regime": "managed float",
+  "fx_regime": "managed float (document describes the hryvnia as administered; USD/UAH 43.76 Apr-26, 44.66 Sep-26)",
   "commodity": "Grain and agricultural exports (cross-border grain logistics); imports of energy, power equipment and defence materiel; grain prices and energy prices matter",
   "ratings": {
    "sp": {
@@ -128350,12 +128377,12 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "4-year EFF (first review completed 20-Jul-26, SDR 503M, about $690M disbursed)",
+   "programme": "4-year EFF",
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF, as cited in knowledge base",
+   "source": "IMF, first review completed 20-Jul-26, SDR 503M (about $690M) disbursed",
    "asof": "20-Jul-26"
   },
   "politics": {
@@ -128385,11 +128412,11 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -2.3
   },
   "src": {
-   "cpi_latest_yoy_pct": "Ukrstat 31-Aug-26",
+   "cpi_latest_yoy_pct": "Ukrstat Sep-26",
    "policy_rate_pct": "NBU 18-Sep-26",
    "gross_reserves_usd_bn": "NBU 06-Oct-26 | NBU gross international reserves",
    "import_cover_months": "NBU 06-Oct-26",
-   "gov_debt_pct_gdp": "Ministry of Finance of Ukraine 31-Dec-25 | state debt, end-year",
+   "gov_debt_pct_gdp": "Ministry of Finance of Ukraine 31-Dec-25 | state debt",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26",
@@ -128397,7 +128424,7 @@ window.SOVEREIGNS = [
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 08-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
-   "net_reserves_usd_bn": "IMF reserve template 31-Aug-26 | gross reserves net of predetermined and contingent one-year drains (IMF reserve template)",
+   "net_reserves_usd_bn": "IMF reserve template 08-Oct-26 | gross reserves net of predetermined and contingent one-year drains (IMF reserve template)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER))",
    "reer_latest": "derived from the inputs above ()",
@@ -131221,12 +131248,12 @@ window.SOVEREIGNS = [
  {
   "slug": "uzbekistan",
   "country": "Uzbekistan",
-  "region": "Central Asia / CIS",
+  "region": "CIS / Central Asia",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "crawling peg",
-  "commodity": "Gold is the main export and ~90% of CBU reserves; the global gold price is the price that matters",
+  "commodity": "Gold is the main export and ~90% of CBU reserves (~439 tonnes); the gold price drives export receipts and reserve valuation. Energy tariff reform and mining tax receipts also matter for the fiscal accounts.",
   "ratings": {
    "sp": {
     "rating": "BB",
@@ -131245,7 +131272,7 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "None (Article IV surveillance only)",
+   "programme": "None active (Article IV surveillance and technical assistance only)",
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
@@ -131272,13 +131299,13 @@ window.SOVEREIGNS = [
    "reserves_12m_pct": 32.0
   },
   "src": {
-   "real_gdp_growth_pct": "IMF / Statistics Agency 01-Jun-26",
+   "real_gdp_growth_pct": "Statistics Agency / IMF 01-Jun-26",
    "cpi_latest_yoy_pct": "Central Bank of Uzbekistan 12-Sep-26",
    "policy_rate_pct": "Central Bank of Uzbekistan 12-Sep-26",
    "gross_reserves_usd_bn": "Central Bank of Uzbekistan 01-Sep-26 | gross international reserves incl. gold (~90% gold, ~439 tonnes)",
    "import_cover_months": "Central Bank of Uzbekistan 01-Sep-26 | stated as over 12",
-   "gov_debt_pct_gdp": "Ministry of Economy and Finance 01-Jul-26 | total public debt (external $40.71bn + domestic $7.60bn = $48.31bn)",
-   "fiscal_balance_pct_gdp": "Ministry of Economy and Finance / IMF Article IV (consolidated budget) 31-Dec-25",
+   "gov_debt_pct_gdp": "Ministry of Economy and Finance 01-Jul-26 | total public debt ($48.31bn: $40.71bn external, $7.60bn domestic)",
+   "fiscal_balance_pct_gdp": "Ministry of Economy and Finance / IMF Article IV 01-Jun-26",
    "next_eurobond_maturity": "Luxembourg Stock Exchange 08-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
@@ -133349,7 +133376,7 @@ window.SOVEREIGNS = [
   "ceemea": true,
   "asof": "09-Oct-26",
   "fx_regime": "float",
-  "commodity": "Copper exports (mining FX receipts); copper output exposed to hydroelectric generation deficits at Kariba",
+  "commodity": "Copper exports (mining FX receipts); copper price and hydro-dependent power supply matter",
   "ratings": {
    "fitch": {
     "rating": "B-",
@@ -133368,17 +133395,17 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "38-month ECF completed Jan-26 (sixth and final review); successor programme under negotiation",
+   "programme": "38-month ECF, completed (sixth and final review, US$190m final disbursement); successor programme under negotiation",
    "size_usd_bn": 1.3,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF Press Release No. 26/18; MoFNP",
+   "source": "IMF Press Release No. 26/18; MoFNP, Sep-26",
    "asof": "22-Jan-26"
   },
   "politics": {
    "next_election": null,
-   "note": "President Hichilema (UPND) re-elected 13-Aug-26 with 60.49% of the vote; UPND holds legislative majority",
+   "note": "President Hichilema (UPND) re-elected 13-Aug-26 with 60.49% of the vote; UPND holds a legislative majority",
    "source": "Electoral Commission of Zambia",
    "asof": "15-Aug-26"
   },
@@ -133405,11 +133432,11 @@ window.SOVEREIGNS = [
   "src": {
    "cpi_latest_yoy_pct": "Bank of Zambia 29-Sep-26",
    "policy_rate_pct": "Bank of Zambia MPC statement 29-Sep-26",
-   "gross_reserves_usd_bn": "Bank of Zambia 30-Sep-26 | gross international reserves; composition not specified in source",
+   "gross_reserves_usd_bn": "Bank of Zambia 30-Sep-26 | gross international reserves as reported by BoZ; gold treatment not stated",
    "import_cover_months": "Bank of Zambia (reported as 'over 4.2 months') 30-Sep-26",
-   "gov_debt_pct_gdp": "MoFNP 30-Jun-26 | total public debt, approximate; domestic T-bills and bonds over 45% of stock",
-   "interest_pct_revenue": "IMF 22-Jan-26",
-   "next_eurobond_maturity": "MoFNP; Prospectus 11-Jun-24",
+   "gov_debt_pct_gdp": "Ministry of Finance and National Planning 30-Jun-26 | total public debt (external and domestic), approximate",
+   "interest_pct_revenue": "IMF 22-Jan-26 | domestic interest payments as % of domestic revenue, 'nearly 35%'",
+   "next_eurobond_maturity": "Prospectus / MoFNP, Jun-24 11-Jun-24",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
@@ -135439,7 +135466,7 @@ window.SOVEREIGNS = [
    "gross_reserves_usd_bn": "Sep-26",
    "import_cover_months": "Sep-26",
    "gov_debt_pct_gdp": "Jun-26",
-   "interest_pct_revenue": "latest per IMF (approximate; domestic interest as share of domestic revenue)",
+   "interest_pct_revenue": "Jan-26",
    "next_eurobond_maturity": "11-Jun-24",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",

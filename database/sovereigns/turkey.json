@@ -4,8 +4,8 @@
   "fiscal_year": "Calendar year",
   "fx_regime": {
     "value": "managed float",
-    "source": "BIS statistics API (USD/TRY 44.80 Apr-26 to 48.65 Sep-26, gradual crawl)",
-    "asof": "30-Sep-26"
+    "source": "BIS FX series (USD/TRY 44.80 Apr-26 to 48.65 Sep-26, steady crawl); regime label is the analyst classification",
+    "asof": "09-Oct-26"
   },
   "commodity_exposure": {
     "value": "Net energy importer; oil and gas import prices drive the current account",
@@ -32,13 +32,13 @@
       "value": 37.0,
       "period": "Sep-26",
       "source": "TCMB MPC decision, 1-week repo rate (IMF series shows 35.5%, definition unconfirmed)",
-      "asof": "Sep-26"
+      "asof": "30-Sep-26"
     },
     "current_account_pct_gdp": {
       "value": -2.7,
-      "period": "2026E",
-      "source": "TCMB, FY26 deficit projected at 2.6% to 2.8% of GDP (midpoint)",
-      "asof": "Jul-26"
+      "period": "FY26 projected (midpoint of 2.6% to 2.8% deficit)",
+      "source": "TCMB, Jul-26",
+      "asof": "31-Jul-26"
     },
     "gross_reserves_usd_bn": {
       "value": 174.4,
@@ -56,7 +56,7 @@
     },
     "external_debt_pct_gdp": {
       "value": 31.8,
-      "definition": "gross external debt, $539.0B, HMB denominator",
+      "definition": "gross external debt $539.0B, all sectors, HMB GDP denominator",
       "period": "30-Jun-26",
       "source": "HMB Gross External Debt Stock Statistics",
       "asof": "30-Jun-26"
@@ -71,8 +71,8 @@
     "fiscal_balance_pct_gdp": {
       "value": -5.2,
       "period": "FY26 tracking (approximate)",
-      "source": "HMB, central government budget",
-      "asof": "Aug-26"
+      "source": "HMB budget execution, Aug-26",
+      "asof": "31-Aug-26"
     },
     "import_cover_months": {
       "value": 5.128,
@@ -85,32 +85,32 @@
       "value": 0.81,
       "period": "2025",
       "source": "World Bank WDI",
-      "asof": "2025"
+      "asof": "31-Dec-25"
     },
     "real_gdp_growth_pct": {
       "value": 3.4,
       "period": "2026E",
       "source": "IMF WEO 2026",
-      "asof": "2026"
+      "asof": "09-Oct-26"
     },
     "nominal_gdp_usd_bn": {
       "value": 1640.2,
       "period": "2026E",
       "source": "IMF WEO 2026",
-      "asof": "2026"
+      "asof": "09-Oct-26"
     },
     "inflation_expectation_12m_pct": {
       "value": 24.5,
       "period": "Sep-26",
       "source": "TCMB Survey of Market Participants (midpoint of stated 24-25%)",
-      "asof": "Sep-26"
+      "asof": "30-Sep-26"
     },
     "gefr_usd_bn": {
       "value": 208,
-      "definition": "CA deficit + external amortisation due in 12m (approx., next 12 months; components not in hand)",
-      "period": "Jun-26",
+      "definition": "CA deficit + external amortisation due in 12m",
+      "period": "next 12 months from Jun-26",
       "source": "TCMB/HMB",
-      "asof": "Jun-26"
+      "asof": "30-Jun-26"
     },
     "current_account_4q_usd_bn": {
       "value": -38.89,
@@ -166,9 +166,9 @@
   },
   "series_sources": {
     "current_account_pct_gdp": "TCMB, Jul-26 (midpoint of 2.6% to 2.8% deficit projection)",
-    "fiscal_balance_pct_gdp": "HMB, Aug-26 (approximate FY26 tracking)",
-    "real_gdp_growth_pct": "IMF WEO 2026",
-    "nominal_gdp_usd_bn": "IMF WEO 2026"
+    "fiscal_balance_pct_gdp": "HMB budget execution Aug-26 (approximate FY26 tracking), 31-Aug-26",
+    "real_gdp_growth_pct": "IMF WEO 2026, 09-Oct-26",
+    "nominal_gdp_usd_bn": "IMF WEO 2026, 09-Oct-26"
   },
   "slug": "turkey",
   "asof": "09-Oct-26",
@@ -3175,6 +3175,128 @@
           "period": "Jun-26",
           "source": "TCMB/HMB",
           "asof": "Jun-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -38.89,
+          "period": "2025-Q3 to 2026-Q2",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 137.109,
+          "period": "2026-08",
+          "source": "IMF reserve template",
+          "asof": "08-Oct-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 12.5,
+        "reserves_to_std": 1.02,
+        "reer_z_10y": 0.31,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
+        "reer_latest": 108.09,
+        "reserves_12m_pct": 4.7,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": -1.0,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)",
+        "gefr_pct_reserves": 119.3
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_2102_turkey-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 29.73,
+          "period": "Sep-26",
+          "source": "TurkStat, Consumer Price Index September 2026",
+          "asof": "03-Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 37.0,
+          "period": "Sep-26",
+          "source": "TCMB MPC decision, 1-week repo rate (IMF series shows 35.5%, definition unconfirmed)",
+          "asof": "30-Sep-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -2.7,
+          "period": "FY26 projected (midpoint of 2.6% to 2.8% deficit)",
+          "source": "TCMB, Jul-26",
+          "asof": "31-Jul-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 174.4,
+          "definition": "gross incl. gold",
+          "period": "18-Sep-26",
+          "source": "TCMB via run 2026-10-07_2235",
+          "asof": "18-Sep-26"
+        },
+        "short_term_external_debt_usd_bn": {
+          "value": 170.7,
+          "definition": "by remaining maturity, all sectors",
+          "period": "30-Jun-26",
+          "source": "TCMB Short Term External Debt Statistics",
+          "asof": "30-Jun-26"
+        },
+        "external_debt_pct_gdp": {
+          "value": 31.8,
+          "definition": "gross external debt $539.0B, all sectors, HMB GDP denominator",
+          "period": "30-Jun-26",
+          "source": "HMB Gross External Debt Stock Statistics",
+          "asof": "30-Jun-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 29.5,
+          "definition": "central government debt",
+          "period": "Q2-26",
+          "source": "HMB",
+          "asof": "30-Jun-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -5.2,
+          "period": "FY26 tracking (approximate)",
+          "source": "HMB budget execution, Aug-26",
+          "asof": "31-Aug-26"
+        },
+        "import_cover_months": {
+          "value": 5.128,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 0.81,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "31-Dec-25"
+        },
+        "real_gdp_growth_pct": {
+          "value": 3.4,
+          "period": "2026E",
+          "source": "IMF WEO 2026",
+          "asof": "09-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 1640.2,
+          "period": "2026E",
+          "source": "IMF WEO 2026",
+          "asof": "09-Oct-26"
+        },
+        "inflation_expectation_12m_pct": {
+          "value": 24.5,
+          "period": "Sep-26",
+          "source": "TCMB Survey of Market Participants (midpoint of stated 24-25%)",
+          "asof": "30-Sep-26"
+        },
+        "gefr_usd_bn": {
+          "value": 208,
+          "definition": "CA deficit + external amortisation due in 12m",
+          "period": "next 12 months from Jun-26",
+          "source": "TCMB/HMB",
+          "asof": "30-Jun-26"
         },
         "current_account_4q_usd_bn": {
           "value": -38.89,
