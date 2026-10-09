@@ -25,7 +25,7 @@ _Status table regenerated 09-Oct-26 by the pipeline from knowledge pages and rep
 | India | `knowledge/sovereigns/india.md` | none yet |  |  |  |
 | Indonesia | `knowledge/sovereigns/indonesia.md` | none yet |  |  |  |
 | Iraq | `knowledge/sovereigns/iraq.md` | `reports/iraq-sovereign-credit.md` | 08-Oct-26 | 5 | S&P rating B- (Negative) on 12-Jun-26; Moody's rating Caa1 (Negative) on 21-Apr-26; Fitch rating B- (Stable) on 24-Nov-25. (Rating Agencies, |
-| Israel | `knowledge/sovereigns/israel.md` | none yet |  |  |  |
+| Israel | `knowledge/sovereigns/israel.md` | `reports/israel-sovereign-credit.md` | 09-Oct-26 | 8 |  |
 | Jordan | `knowledge/sovereigns/jordan.md` | `reports/jordan-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P BB- (Stable, 28-Aug-26); Fitch BB- (Stable, May-26); Moody's Ba3 (Stable, Apr-26) (Rating Agencies, Aug-26). |
 | Kazakhstan | `knowledge/sovereigns/kazakhstan.md` | `reports/kazakhstan-sovereign-credit.md` | 09-Oct-26 | 9 | Reported ratings: S&P BBB stable (upgrade, Aug-26), Fitch BBB stable (Jun-26), Moody's Baa1 stable (Sep-26); unverified against agency relea |
 | Kenya | `knowledge/sovereigns/kenya.md` | `reports/kenya-sovereign-credit.md` | 08-Oct-26 | 11 | Ratings: S&P B/Stable (21-Aug-26), Fitch B-/Stable (17-Jul-26), Moody's B3/Stable (Jul-26) (Rating Agencies, Aug-26) |

@@ -35,15 +35,25 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gross_res
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.
 - Outstanding Eurobonds (ISIN, coupon, maturity, size, governing law, CAC type): to be filled.
 - IMF: programme type, size, approval and review dates, or none: to be filled.
+- Banking FSI 2026-Q1: CAR 13.82%, tier 1 11.13%, NPL 0.62%, ROE 12.88%, FX open position to capital -2.73% (IMF FSI, 09-Oct-26) [09-Oct-26]
 
 ## 1. External position
+- Gross reserves incl. gold USD 241.63bn (Aug-26); reserves net of one-year predetermined drains USD 232.20bn (IMF International Liquidity and reserve template, 09-Oct-26) [09-Oct-26]
+- Import cover 14.36 months (2025) (World Bank WDI, 09-Oct-26) [09-Oct-26]
+- Current account USD +4.53bn over 2025-Q3 to 2026-Q2; 2026E +1.9% of GDP (IMF BOP and WEO, 09-Oct-26) [09-Oct-26]
+- FDI liabilities USD 16.03bn (2026-Q1) and USD 14.24bn (2026-Q2) (IMF BOP, 09-Oct-26) [09-Oct-26]
 ## 2. Fiscal position
+- Government debt 69.8% of GDP, fiscal balance -5.9% of GDP, nominal GDP USD 719.85bn, 2026E (IMF WEO, 09-Oct-26) [09-Oct-26]
 ## 3. Monetary and financial
+- Policy rate 3.25% (Sep-26), down from 4.0% (Apr-26) (BIS, 09-Oct-26) [09-Oct-26]
+- CPI 1.54% y/y (Aug-26) (IMF CPI database, 09-Oct-26) [09-Oct-26]
 ## 4. Growth and structure
+- Real GDP growth 3.5%, 2026E (IMF WEO, 09-Oct-26) [09-Oct-26]
 ## 5. Institutions, politics, willingness
 ## 6. IMF and official sector
 ## 7. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
+- BIS broad real EER 112.58 (Aug-26), 10-year z-score +2.67 (BIS, 09-Oct-26) [09-Oct-26]
 ## 8. Restructuring and recovery (if relevant)
 ## 9. Catalyst calendar
 ## 10. Questions for the finance ministry / IMF mission
@@ -57,3 +67,15 @@ _(levels from Reza via [BBG]; never from memory)_
 Verify a URL the first time it is used; replace it here if it has moved.
 
 ## Dated facts log
+
+### 09-Oct-26 (run 2026-10-09_0736_israel-sovereign-credit)
+- [External] Gross reserves incl. gold USD 241.63bn (Aug-26); reserves net of one-year predetermined drains USD 232.20bn (IMF International Liquidity and reserve template, 09-Oct-26)
+- [External] Import cover 14.36 months (2025) (World Bank WDI, 09-Oct-26)
+- [External] Current account USD +4.53bn over 2025-Q3 to 2026-Q2; 2026E +1.9% of GDP (IMF BOP and WEO, 09-Oct-26)
+- [External] FDI liabilities USD 16.03bn (2026-Q1) and USD 14.24bn (2026-Q2) (IMF BOP, 09-Oct-26)
+- [Fiscal] Government debt 69.8% of GDP, fiscal balance -5.9% of GDP, nominal GDP USD 719.85bn, 2026E (IMF WEO, 09-Oct-26)
+- [Growth] Real GDP growth 3.5%, 2026E (IMF WEO, 09-Oct-26)
+- [Monetary] Policy rate 3.25% (Sep-26), down from 4.0% (Apr-26) (BIS, 09-Oct-26)
+- [Monetary] CPI 1.54% y/y (Aug-26) (IMF CPI database, 09-Oct-26)
+- [Market] BIS broad real EER 112.58 (Aug-26), 10-year z-score +2.67 (BIS, 09-Oct-26)
+- [Snapshot] Banking FSI 2026-Q1: CAR 13.82%, tier 1 11.13%, NPL 0.62%, ROE 12.88%, FX open position to capital -2.73% (IMF FSI, 09-Oct-26)
