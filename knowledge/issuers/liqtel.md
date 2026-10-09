@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/liqtel.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=liqtel`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- LIQTEL 14.25% 2026: price 104.22, YTM 9.58%, spread 471bp (as of 2026-09-27).
+- Rating as recorded: B- / Caa1.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 557.6 | 168 | -75.5 | 1023.9 | 6.09 | 1.95 |
+| 2023A | 625.6 | 189 | -91.1 | 1074.1 | 5.68 | 1.83 |
+| 2024A | 633.2 | 185.0 | 26.8 | 764.2 | 4.13 | 2.57 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=liqtel) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/liqtel.json)
+<!-- auto-data-end -->
 - Country: South Africa. Region: Africa. Sector: Technology. Type: corp.
 - Ratings (as recorded): B- / Caa1.
 - Benchmark bond: LIQTEL 14.25% 2026.

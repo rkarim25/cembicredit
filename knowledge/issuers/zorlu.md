@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/zorlu.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=zorlu`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- ZOREN 11.00% 2030: price 63.5, YTM 27.2%, spread 2250bp (as of 2026-09-23).
+- Rating as recorded: B- / CCC+.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 984.0 | 256.0 | -215.9 | 1471.8 | 5.75 | 2.26 |
+| 2023A | 1104.0 | 288.0 | -251.0 | 1542.8 | 5.36 | 2.12 |
+| 2024A | 1200.0 | 320.0 | -198.1 | 1350.0 | 3.62 | 2.12 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=zorlu) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/zorlu.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: CEEMEA. Sector: Utilities. Type: corp.
 - Ratings (as recorded): B- / CCC+.
 - Benchmark bond: ZOREN 11.00% 2030.

@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/sonangol.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=sonangol`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- SONANG 9.15% 2028: price 97.2, YTM 9.15%, spread 475bp (as of 2026-09-19).
+- Rating as recorded: B- / B3.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 10332.0 | 3840.0 | -135.7 | 6488.6 | 1.69 | 6.83 |
+| 2023A | 11592.0 | 4320.0 | -193.3 | 6536.2 | 1.51 | 6.4 |
+| 2024A | 12600.0 | 4800.0 | 586.8 | 6192.0 | 1.29 | 6.4 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=sonangol) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/sonangol.json)
+<!-- auto-data-end -->
 - Country: Angola. Region: Africa. Sector: Energy. Type: corp.
 - Ratings (as recorded): B- / B3.
 - Benchmark bond: SONANG 9.15% 2028.

@@ -3,6 +3,20 @@
 _Page created 08-Oct-26 from `database/issuers/halkbank.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=halkbank`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- HALKB 7.35% 2028: price 98.1, YTM 7.35%, spread 275bp (as of 2026-09-19).
+- Rating as recorded: B / B3.
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2022A |  | 2006.1 |  | 15.9 | 2.8 |
+| 2023A |  | 2169.4 |  | 15.9 | 2.8 |
+| 2024A |  | 2320.6 |  | 15.9 | 2.8 |
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=halkbank) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/halkbank.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: CEEMEA. Sector: Banks. Type: bank.
 - Ratings (as recorded): B / B3.
 - Benchmark bond: HALKB 7.35% 2028.

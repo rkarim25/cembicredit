@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/mtn.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=mtn`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- MTNSJ 6.50% 2026: price 99.4, YTM 6.9%, spread 285bp (as of 2026-09-19).
+- Rating as recorded: Ba2 / BB+.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 9676 | 3600 | -223.9 | 7573.5 | 2.1 | 5.76 |
+| 2023A | 10856 | 4050 | -296.6 | 7715.2 | 1.9 | 5.4 |
+| 2024A | 11800 | 4500 | 481.2 | 7425 | 1.65 | 5.4 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=mtn) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/mtn.json)
+<!-- auto-data-end -->
 - Country: South Africa. Region: Africa. Sector: Technology. Type: corp.
 - Ratings (as recorded): Ba2 / BB+.
 - Benchmark bond: MTNSJ 6.50% 2026.

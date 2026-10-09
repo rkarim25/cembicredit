@@ -3,6 +3,32 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/azerbaijan-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 3.5 % | Aug-26 | State Statistical Committee |
+| Policy rate | 6.5 % | Sep-26 | Central Bank of Azerbaijan (refinancing rate) |
+| Real policy rate | 3.0 % | derived |  |
+| Gross reserves | 15.36 USD bn | 23-Sep-26 | Central Bank of Azerbaijan |
+| Reserves, 12m change | 29.7 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Import cover | 50 months | mid-2026 (strategic FX assets $87.96bn incl. SOFAZ; stated as more than 50 months of merchandise import cover) | SOFAZ / CBAR |
+| Current account, last 4Q | 5.9 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
+| Current account | 10.5 % GDP | H1 2026 (annualized GDP) | Central Bank of Azerbaijan |
+| Terms of trade, 12m change | 14.4 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 18.4 % GDP | 01-Jun-26 | Ministry of Finance |
+| Fiscal balance | 1.8 % GDP | 2026E | IMF WEO |
+| External debt | 8.3 % GDP | 01-Jun-26 | Ministry of Finance |
+| Real GDP growth | 1.2 % | Jan-Aug 2026 y/y | State Statistical Committee |
+| Nominal GDP | 78.372 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 1.98 % | 2025-Q4 | IMF FSI |
+| Bank capital ratio | 17.61 % | 2025-Q4 | IMF FSI |
+
+Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, policy_rate_imf_pct, reserves_ex_gold_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#azerbaijan) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/azerbaijan.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Azerbaijan_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: CIS. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

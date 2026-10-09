@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/asg.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=asg`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- AVIASG 9.750% 2029 (US00217AAB26 / XS2815876920): price 87.0, YTM 16.0%, spread 1120bp (as of 2026-10-07).
+- Rating as recorded: BB- (S&P) / BB (Fitch).
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2023A | 2262.8 | 403.2 | -97.0 | 1020.3 | 2.45 | 3.51 |
+| 2024A | 2103.3 | 521.9 | -189.2 | 1514.7 | 4.74 | 5.65 |
+| 2025A | 2189.3 | 449.1 | -177.5 | 914.9 | 2.81 | 4.81 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=asg) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/asg.json)
+<!-- auto-data-end -->
 - Country: Ireland. Region: Europe. Sector: Transportation. Type: corp.
 - Ratings (as recorded): BB- (S&P) / BB (Fitch).
 - Benchmark bond: AVIASG 9.750% 2029 (US00217AAB26 / XS2815876920).

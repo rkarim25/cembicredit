@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/turkcell.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=turkcell`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- TCELL 5.75% 2028: price 96.8, YTM 6.95%, spread 290bp (as of 2026-09-19).
+- Rating as recorded: BB / BB-.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 3444 | 1400 | -31.9 | 2140.3 | 1.53 | 6.61 |
+| 2023A | 3864 | 1575 | -50.8 | 2142.9 | 1.36 | 6.2 |
+| 2024A | 4200 | 1750 | 244.5 | 2012.5 | 1.15 | 6.2 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=turkcell) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/turkcell.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: Turkey. Sector: Technology. Type: corp.
 - Ratings (as recorded): BB / BB-.
 - Benchmark bond: TCELL 5.75% 2028.

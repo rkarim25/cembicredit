@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/oq.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=oq`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- OQGN 5.80% 2033: price 99.5, YTM 5.9%, spread 185bp (as of 2026-09-19).
+- Rating as recorded: BB+ / BBB-.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 26240.0 | 3680.0 | -1166.1 | 8376.6 | 2.28 | 6.19 |
+| 2023A | 29440.0 | 4140.0 | -1352.1 | 8562.9 | 2.07 | 5.8 |
+| 2024A | 32000.0 | 4600.0 | -149.6 | 8280.0 | 1.8 | 5.8 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=oq) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/oq.json)
+<!-- auto-data-end -->
 - Country: Oman. Region: GCC. Sector: Energy. Type: corp.
 - Ratings (as recorded): BB+ / BBB-.
 - Benchmark bond: OQGN 5.80% 2033.

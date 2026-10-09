@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/dar_arkan.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=dar_arkan`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- DARARK 8.15% 2029: price 99.5, YTM 8.15%, spread 410bp (as of 2026-09-19).
+- Rating as recorded: BB- / Ba3 / B+.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 902.0 | 288.0 | -236.9 | 1208.7 | 4.2 | 3.07 |
+| 2023A | 1012.0 | 324.0 | -273.0 | 1259.3 | 3.89 | 2.88 |
+| 2024A | 1100.0 | 360.0 | -142.7 | 1249.2 | 3.47 | 2.88 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=dar_arkan) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/dar_arkan.json)
+<!-- auto-data-end -->
 - Country: Saudi Arabia. Region: Middle East. Sector: Real Estate. Type: corp.
 - Ratings (as recorded): BB- / Ba3 / B+.
 - Benchmark bond: DARARK 8.15% 2029.

@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/aydem.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=aydem`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- AYDEM 8.95% 2027: price 96.5, YTM 8.95%, spread 455bp (as of 2026-09-19).
+- Rating as recorded: B / B3.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 213.2 | 152.0 | -93.4 | 749.7 | 4.93 | 3.09 |
+| 2023A | 239.2 | 171.0 | -108.7 | 783.8 | 4.58 | 2.9 |
+| 2024A | 260.0 | 190.0 | -82.6 | 780.9 | 4.11 | 2.9 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=aydem) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/aydem.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: CEEMEA. Sector: Utilities. Type: corp.
 - Ratings (as recorded): B / B3.
 - Benchmark bond: AYDEM 8.95% 2027.

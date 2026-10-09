@@ -3,6 +3,33 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/nigeria-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 15.39 % | Aug-26 | NBS, Consumer Price Index Report August 2026 |
+| Policy rate | 23.0 % | Sep-26 | CBN, 307th MPC Communiqué |
+| Real policy rate | 7.61 % | derived |  |
+| Gross reserves | 54.98 USD bn | 05-Oct-26 | CBN, Daily Foreign Exchange Reserves Bulletin |
+| Reserves, 12m change | 30.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Import cover | 9.2 months | latest per prior adjudicated document (date not stated) | IMF/CBN via prior adjudicated document |
+| Current account, last 4Q | 15.61 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account | 5.8 % GDP | 2026E | IMF WEO |
+| REER z-score (10y) | -0.51 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| Terms of trade, 12m change | 4.6 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 32.3 % GDP | Jun-26 | DMO/IMF |
+| Fiscal balance | -4.4 % GDP | 2026E | IMF WEO |
+| External debt | 14.4 % GDP | 30-Jun-26 | DMO Nigeria Public Debt Stock; IMF WEO |
+| Real GDP growth | 4.1 % | 2026E | IMF WEO |
+| Nominal GDP | 377.4 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 10.82 % | 2026-Q2 | IMF FSI |
+| Bank capital ratio | 13.15 % | 2026-Q2 | IMF FSI |
+
+Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, policy_rate_imf_pct, reer_imf_2010, reserves_ex_gold_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#nigeria) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/nigeria.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Nigeria_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Africa. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

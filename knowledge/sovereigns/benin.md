@@ -3,6 +3,24 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/benin-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 1.25 % | Aug-26 | BCEAO / INSAE |
+| Current account | -5.5 % GDP | 2025 | IMF |
+| Terms of trade, 12m change | -1.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 54 % GDP | 2025 | IMF |
+| Fiscal balance | -2.8 % GDP | 2025 | Ministry of Economy and Finance / IMF |
+| Primary balance | -0.6 % GDP | 2025 | IMF |
+| Real GDP growth | 6.5 % | 2026E | INSAE / IMF |
+| Nominal GDP | 27.786 USD bn | 2026E | IMF WEO |
+
+Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#benin) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/benin.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Benin_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Africa. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

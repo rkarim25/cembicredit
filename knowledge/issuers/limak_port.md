@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/limak_port.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=limak_port`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- LIMPRT 7.85% 2036: price 98.5, YTM 7.85%, spread 345bp (as of 2026-09-19).
+- Rating as recorded: B / B3.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 98.4 | 62.4 | -1.8 | 233.9 | 3.75 | 4.48 |
+| 2023A | 110.4 | 70.2 | -3.0 | 243.1 | 3.46 | 4.2 |
+| 2024A | 120.0 | 78.0 | 7.5 | 240.2 | 3.08 | 4.2 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=limak_port) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/limak_port.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: CEEMEA. Sector: Infrastructure. Type: corp.
 - Ratings (as recorded): B / B3.
 - Benchmark bond: LIMPRT 7.85% 2036.

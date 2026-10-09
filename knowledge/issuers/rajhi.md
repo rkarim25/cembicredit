@@ -3,6 +3,20 @@
 _Page created 08-Oct-26 from `database/issuers/rajhi.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=rajhi`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- RAJHI 4.75% 2029: price 100.8, YTM 4.75%, spread 55bp (as of 2026-09-19).
+- Rating as recorded: A1 / A-.
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2022A |  | 7191.1 |  | 20.5 | 0.9 |
+| 2023A |  | 7776.5 |  | 20.5 | 0.9 |
+| 2024A |  | 8318.7 |  | 20.5 | 0.9 |
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=rajhi) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/rajhi.json)
+<!-- auto-data-end -->
 - Country: Saudi Arabia. Region: Middle East. Sector: Banks. Type: bank.
 - Ratings (as recorded): A1 / A-.
 - Benchmark bond: RAJHI 4.75% 2029.

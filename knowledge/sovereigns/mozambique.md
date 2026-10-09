@@ -3,6 +3,31 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/mozambique-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 6.5 % | Aug-26 | INE, Consumer Price Index Bulletin |
+| Policy rate | 9.25 % | Sep-26 | Banco de Moçambique, Monetary Policy Committee decision (MIM |
+| Real policy rate | 2.75 % | derived |  |
+| Gross reserves | 3.9 USD bn | Aug-26 | Banco de Moçambique |
+| Reserves, 12m change | 4.9 % | derived | gross reserves incl. gold, 2024-07 to 2025-07 (IMF Internati |
+| Import cover | 6.5 months | Aug-26 | Banco de Moçambique (excluding megaprojects imports) |
+| Current account, last 4Q | -2.95 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account | -43 % GDP | 2026E | IMF WEO |
+| Terms of trade, 12m change | -0.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 94 % GDP |  | Adjudicated document (View section, uncited) |
+| Fiscal balance | -6.5 % GDP | 2026E | IMF WEO |
+| Real GDP growth | 0.5 % | 2026E | IMF WEO |
+| Nominal GDP | 23.275 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 6.0 % | 2026-Q1 | IMF FSI |
+| Bank capital ratio | 27.68 % | 2026-Q1 | IMF FSI |
+
+Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, reserves_ex_gold_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#mozambique) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/mozambique.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Mozambique_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Africa. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

@@ -3,6 +3,20 @@
 _Page created 08-Oct-26 from `database/issuers/adcb.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=adcb`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- ADCBUH 5.05% 2029: price 99.8, YTM 5.05%, spread 85bp (as of 2026-09-19).
+- Rating as recorded: A1 / A.
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2022A |  | 2777.5 |  | 16.5 | 3.8 |
+| 2023A |  | 3003.6 |  | 16.5 | 3.8 |
+| 2024A |  | 3213.0 |  | 16.5 | 3.8 |
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=adcb) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/adcb.json)
+<!-- auto-data-end -->
 - Country: UAE. Region: Middle East. Sector: Banks. Type: bank.
 - Ratings (as recorded): A1 / A.
 - Benchmark bond: ADCBUH 5.05% 2029.

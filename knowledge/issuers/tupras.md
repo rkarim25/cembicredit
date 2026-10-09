@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/tupras.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=tupras`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- TUPRAS 6.95% 2027: price 99.5, YTM 7.2%, spread 315bp (as of 2026-09-19).
+- Rating as recorded: BB / BB-.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 15170.0 | 1440.0 | -697.8 | 1539.0 | 1.07 | 8.0 |
+| 2023A | 17020.0 | 1620.0 | -795.8 | 1498.5 | 0.93 | 7.5 |
+| 2024A | 18500.0 | 1800.0 | -179.5 | 1350.0 | 0.75 | 7.5 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=tupras) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/tupras.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: Turkey. Sector: Energy. Type: corp.
 - Ratings (as recorded): BB / BB-.
 - Benchmark bond: TUPRAS 6.95% 2027.

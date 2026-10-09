@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/air_global.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=air_global`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- AIRGLO 2029: price 100.0, YTM 7.5%, spread 385bp (as of 2026-09-22).
+- Rating as recorded: BB- / B1.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2023A | 364.0 | 118.0 | 49.0 | 285.0 | 2.42 | 4.8 |
+| 2024A | 377.0 | 130.0 | 134.0 | 285.0 | 2.19 | 5.2 |
+| 2025A | 400.0 | 139.0 | 101.0 | 292.0 | 2.1 | 5.6 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=air_global) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/air_global.json)
+<!-- auto-data-end -->
 - Country: UAE. Region: Middle East. Sector: Consumer. Type: corp.
 - Ratings (as recorded): BB- / B1.
 - Benchmark bond: AIRGLO 2029.

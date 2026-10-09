@@ -3,6 +3,32 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/angola-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 8.78 % | Aug-26 | INE |
+| Policy rate | 14.75 % | Sep-26 | BNA, Comité de Política Monetária communiqué |
+| Real policy rate | 5.97 % | derived |  |
+| Gross reserves | 15.821 USD bn | Aug-26 | IMF International Liquidity |
+| Reserves, 12m change | 4.2 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves net of 1y drains | 0.618 USD bn | 2026-07 | IMF reserve template |
+| Import cover | 6.8 months | Q2-26 | BNA |
+| Current account, last 4Q | 2.8 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
+| Current account | 2.2 % GDP | 2026E | IMF/BNA |
+| Terms of trade, 12m change | 17.5 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 49.2 % GDP | 2025 | MINFIN/IMF |
+| Fiscal balance | -2.4 % GDP | 2026E | IMF WEO |
+| Real GDP growth | 3.6 % | 2026E | IMF |
+| Nominal GDP | 152.4 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 12.54 % | 2025-Q3 | IMF FSI |
+| Bank capital ratio | 24.14 % | 2025-Q3 | IMF FSI |
+
+Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_imf_pct, predetermined_drains_usd_bn, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#angola) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/angola.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Angola_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Africa. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

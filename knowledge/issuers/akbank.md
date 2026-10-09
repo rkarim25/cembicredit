@@ -3,6 +3,20 @@
 _Page created 08-Oct-26 from `database/issuers/akbank.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=akbank`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- AKBNK 6.45% 2029: price 100.2, YTM 6.45%, spread 185bp (as of 2026-09-19).
+- Rating as recorded: BB- / B1.
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2022A |  | 2809.0 |  | 19.4 | 1.5 |
+| 2023A |  | 3037.7 |  | 19.4 | 1.5 |
+| 2024A |  | 3249.4 |  | 19.4 | 1.5 |
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=akbank) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/akbank.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: CEEMEA. Sector: Banks. Type: bank.
 - Ratings (as recorded): BB- / B1.
 - Benchmark bond: AKBNK 6.45% 2029.

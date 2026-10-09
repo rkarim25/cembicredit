@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/stc.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=stc`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- STC 3.922% 2029: price 97.5, YTM 4.85%, spread 80bp (as of 2026-09-19).
+- Rating as recorded: A1 / A+.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 16810 | 5760 | 250.2 | 5493.6 | 0.95 | 19.73 |
+| 2023A | 18860 | 6480 | 263.4 | 5288.4 | 0.82 | 18.5 |
+| 2024A | 20500 | 7200 | 1649.2 | 4680 | 0.65 | 18.5 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=stc) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/stc.json)
+<!-- auto-data-end -->
 - Country: Saudi Arabia. Region: GCC. Sector: Technology. Type: corp.
 - Ratings (as recorded): A1 / A+.
 - Benchmark bond: STC 3.922% 2029.

@@ -3,6 +3,31 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/egypt-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 12.7 % | Aug-26 | CAPMAS (nationwide headline; urban 14.5%) |
+| Policy rate | 19.0 % | Sep-26 | Central Bank of Egypt (overnight deposit rate; lending rate  |
+| Real policy rate | 6.3 % | derived |  |
+| Gross reserves | 53.559 USD bn | Jul-26 | IMF International Liquidity |
+| Reserves, 12m change | 14.7 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
+| Reserves net of 1y drains | 17.224 USD bn | 2026-05 | IMF reserve template |
+| Import cover | 7.5 months | Sep-26 | Central Bank of Egypt (reported as over 7.5 months) |
+| Current account, last 4Q | -16.76 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account | -4.2 % GDP | 2026E | IMF WEO |
+| Terms of trade, 12m change | -0.7 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 79.7 % GDP | Q2-26 | Ministry of Finance / IIF |
+| Fiscal balance | -12.1 % GDP | 2026E | IMF WEO (overall balance) |
+| Primary balance | 3.5 % GDP | FY24/25 | Ministry of Finance of Egypt (surplus; FY25/26 budgeted 4.0% |
+| Real GDP growth | 4.2 % | 2026E | IMF WEO |
+| Nominal GDP | 429.645 USD bn | 2026E | IMF WEO |
+
+Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_imf_pct, predetermined_drains_usd_bn, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#egypt) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/egypt.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Egypt_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Middle East. Fiscal year: Jul-Jun.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

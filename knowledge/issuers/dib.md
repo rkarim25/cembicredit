@@ -3,6 +3,20 @@
 _Page created 08-Oct-26 from `database/issuers/dib.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=dib`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- DIBUH 5.10% 2029: price 99.7, YTM 5.1%, spread 90bp (as of 2026-09-19).
+- Rating as recorded: A3 / A.
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2022A |  | 2025.9 |  | 17.2 | 4.5 |
+| 2023A |  | 2190.8 |  | 17.2 | 4.5 |
+| 2024A |  | 2343.6 |  | 17.2 | 4.5 |
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=dib) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/dib.json)
+<!-- auto-data-end -->
 - Country: UAE. Region: Middle East. Sector: Banks. Type: bank.
 - Ratings (as recorded): A3 / A.
 - Benchmark bond: DIBUH 5.10% 2029.

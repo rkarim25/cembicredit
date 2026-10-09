@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/kosmos.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=kosmos`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- KOS 10.45% 2027: price 89.5, YTM 10.45%, spread 610bp (as of 2026-09-19).
+- Rating as recorded: B- / B3.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 1850.0 | 1020.0 | 5.0 | 2404.8 | 2.36 | 4.48 |
+| 2023A | 1540.0 | 850.0 | -205.0 | 2479.3 | 2.92 | 4.2 |
+| 2024A | 1480.0 | 810.0 | -55.0 | 2425.5 | 2.99 | 4.2 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=kosmos) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/kosmos.json)
+<!-- auto-data-end -->
 - Country: Ghana. Region: Africa. Sector: Energy. Type: corp.
 - Ratings (as recorded): B- / B3.
 - Benchmark bond: KOS 10.45% 2027.

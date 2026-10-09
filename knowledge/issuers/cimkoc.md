@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/cimkoc.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=cimkoc`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- CIMKOC 8.60% 2030: price 105.0, YTM 8.6%, spread 391bp (as of 2026-09-21).
+- Rating as recorded: B / B3.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2023A | 445.0 | 142.0 | 48.0 | 242.0 | 1.7 | 7.5 |
+| 2024A | 520.0 | 165.0 | 18.5 | 297.0 | 1.8 | 7.8 |
+| 2025A | 565.0 | 178.0 | 24.0 | 320.0 | 1.8 | 7.6 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=cimkoc) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/cimkoc.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: CEEMEA. Sector: Materials / Cement. Type: corp.
 - Ratings (as recorded): B / B3.
 - Benchmark bond: CIMKOC 8.60% 2030.

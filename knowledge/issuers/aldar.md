@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/aldar.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=aldar`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- ALDAR 5.25% 2029: price 100.1, YTM 5.25%, spread 105bp (as of 2026-09-19).
+- Rating as recorded: BBB- / Baa2.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 3198.0 | 1240.0 | -619.4 | 983.0 | 0.79 | 7.89 |
+| 2023A | 3588.0 | 1395.0 | -706.4 | 925.8 | 0.66 | 7.4 |
+| 2024A | 3900.0 | 1550.0 | -185.4 | 790.5 | 0.51 | 7.4 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=aldar) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/aldar.json)
+<!-- auto-data-end -->
 - Country: UAE. Region: Middle East. Sector: Real Estate. Type: corp.
 - Ratings (as recorded): BBB- / Baa2.
 - Benchmark bond: ALDAR 5.25% 2029.

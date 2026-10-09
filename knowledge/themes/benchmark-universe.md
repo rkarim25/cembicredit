@@ -49,6 +49,25 @@ The corporate universe lives in `database/issuers/*.json` (91 issuers today: 72 
 | CEE (Poland, Hungary, Czech, Romania) | Banks, utilities, telecoms (much of it euro-denominated, outside CEMBI's USD universe) | OTP, PKO, PGE |
 | Iraq, Jordan, Egypt, Morocco, Tunisia | Oil, banks, telecoms, chemicals | Pearl Petroleum, OCP, banks |
 
+## CEMBI CEEMEA coverage today and gaps
+
+Covered in `database/issuers` (09-Oct-26): Turkey 26 (banks and corporates), UAE 15, Saudi Arabia 8, South Africa 8, Kazakhstan 3, Nigeria 3, Angola 3, Ukraine 4, Qatar 2, Kuwait 2, Poland 2, Romania 2, Ghana 2, and single names in Bahrain, Czech Republic, Hungary, Iraq, Morocco, Oman, Moldova, Brazil, Bermuda, Ireland, pan-Africa. The full list with quotes is `themes/corporate-monitor.md`.
+
+Index names with no record yet (build from filings with `/run credit <issuer>`, Cognitive Credit first where covered; priority order is by likely CEMBI weight):
+
+- Israel: Teva, Bank Leumi, Bank Hapoalim, Israel Discount Bank, Mizrahi.
+- Nigeria: Access Bank, UBA, Zenith, First Bank, Seplat.
+- Georgia: TBC Bank, Bank of Georgia, Georgia Capital. Armenia: Ameriabank. Azerbaijan: SOCAR (check EMBI classification), International Bank of Azerbaijan.
+- Uzbekistan: National Bank of Uzbekistan, Uzbekneftegaz, SQB, Ipoteka, Navoi Mining (check EMBI classification).
+- Kazakhstan: Kaspi, Development Bank of Kazakhstan (EMBI), Tengizchevroil (private, loans).
+- GCC: Mashreq, Burgan Bank, KIPCO, Dubai Holding, Majid Al Futtaim (covered), Mubadala and ADNOC entities (EMBI), Ma'aden, Saudi Electricity (covered), QatarEnergy (EMBI), Ooredoo (covered).
+- Egypt: Commercial International Bank, Banque Misr (quasi), Egypt's sukuk and corporate issuers are thin. Kenya: none in CEMBI of size. Jordan, Serbia, Croatia: no USD corporate issuers of index size.
+- South Africa: Absa, Standard Bank (covered), Nedbank, Sappi, Petra Diamonds, Transnet (EMBI).
+
+## GBI-EM Global Diversified, CEEMEA local markets
+
+South Africa, Turkey, Poland, Hungary, Czech Republic, Romania (and Serbia since its 2024 inclusion; Egypt and Nigeria are not constituents because of convertibility) are the CEEMEA local-currency markets the desk trades against GBI-EM. Their official data (policy rate, CPI, REER z-score, reserves, BOP) sits on the sovereign dashboard and in `themes/macro-monitor.md`; the method is `frameworks/local-currency-rates-fx.md`; the desk page is `local_em.html`. Local yields and FX forwards are market data: `[BBG]` items for Reza.
+
 ## What a run should do with this page
 
 - Record the EMBI GD and CEMBI BD weights and the index flags (IG/HY, diversified cap) on the sovereign or issuer page with the report date, from Reza's capture of the monthly index report.

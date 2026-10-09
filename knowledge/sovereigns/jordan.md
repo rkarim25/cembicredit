@@ -3,6 +3,33 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/jordan-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 2.7011 % | 2026-07 | IMF CPI database |
+| Policy rate | 6.0 % | Sep-26 | Central Bank of Jordan (discount rate) |
+| Real policy rate | 3.3 % | derived |  |
+| Gross reserves | 28.5 USD bn | Sep-26 | Central Bank of Jordan |
+| Reserves, 12m change | 23.0 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves net of 1y drains | 21.01 USD bn | 2026-07 | IMF reserve template |
+| Import cover | 9.2 months | Sep-26 | Central Bank of Jordan (prospective goods and services impor |
+| Current account, last 4Q | -3.11 USD bn | 2024-Q2 to 2025-Q1 | IMF BOP |
+| Current account | -6.2 % GDP | 2026E | IMF WEO |
+| Terms of trade, 12m change | -6.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 83.6 % GDP | 2025 | IMF Country Report / Ministry of Finance |
+| Fiscal balance | -5.2 % GDP | 2024 | Ministry of Finance (central government headline deficit) |
+| Primary balance | -2.8 % GDP | 2024 | Ministry of Finance (central government primary deficit) |
+| Real GDP growth | 2.7 % | 2026E | IMF WEO |
+| Nominal GDP | 64.909 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 6.29 % | 2026-Q1 | IMF FSI |
+| Bank capital ratio | 17.71 % | 2026-Q1 | IMF FSI |
+
+Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_imf_pct, predetermined_drains_usd_bn, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#jordan) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/jordan.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Jordan_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Middle East. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

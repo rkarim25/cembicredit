@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/ukr_rail.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=ukr_rail`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- RAILUA 8.25% 2026 (LPN): price 64.0, YTM 19.25%, spread 1485bp (as of 2026-09-19).
+- Rating as recorded: CCC / Caa3.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 2340.0 | 190.0 | -231.2 | 1420.0 | 7.47 | 1.65 |
+| 2023A | 2630.0 | 340.0 | -220.6 | 1415.0 | 4.16 | 2.62 |
+| 2024A | 2850.0 | 380.0 | -98.3 | 1465.0 | 3.86 | 2.81 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=ukr_rail) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/ukr_rail.json)
+<!-- auto-data-end -->
 - Country: Ukraine. Region: CEE. Sector: Transportation & Logistics (Railways). Type: corp.
 - Ratings (as recorded): CCC / Caa3.
 - Benchmark bond: RAILUA 8.25% 2026 (LPN).

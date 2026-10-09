@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/sobha.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=sobha`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- SOBHA 7.95% 2028: price 102.0, YTM 7.95%, spread 390bp (as of 2026-09-19).
+- Rating as recorded: BB- / Ba3.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 1353.0 | 384.0 | -286.2 | 445.7 | 1.16 | 6.24 |
+| 2023A | 1518.0 | 432.0 | -325.7 | 437.2 | 1.01 | 5.85 |
+| 2024A | 1650.0 | 480.0 | -127.7 | 398.4 | 0.83 | 5.85 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=sobha) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/sobha.json)
+<!-- auto-data-end -->
 - Country: UAE. Region: Middle East. Sector: Real Estate. Type: corp.
 - Ratings (as recorded): BB- / Ba3.
 - Benchmark bond: SOBHA 7.95% 2028.

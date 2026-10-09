@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/azule.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=azule`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- AZULE 8.45% 2030: price 98.5, YTM 8.45%, spread 410bp (as of 2026-09-19).
+- Rating as recorded: B+ / Ba3.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 2788.0 | 1800.0 | 75.6 | 3641.9 | 2.02 | 7.27 |
+| 2023A | 3128.0 | 2025.0 | 67.2 | 3703.2 | 1.83 | 6.82 |
+| 2024A | 3400.0 | 2250.0 | 376.9 | 3555.0 | 1.58 | 6.82 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=azule) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/azule.json)
+<!-- auto-data-end -->
 - Country: Angola. Region: Africa. Sector: Energy. Type: corp.
 - Ratings (as recorded): B+ / Ba3.
 - Benchmark bond: AZULE 8.45% 2030.

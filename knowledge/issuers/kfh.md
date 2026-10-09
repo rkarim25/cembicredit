@@ -3,6 +3,20 @@
 _Page created 08-Oct-26 from `database/issuers/kfh.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=kfh`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- KFH 5.00% 2029: price 99.2, YTM 5.2%, spread 115bp (as of 2026-09-19).
+- Rating as recorded: A2 / A.
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2022A |  | 2821.8 |  | 18.2 | 1.6 |
+| 2023A |  | 3051.5 |  | 18.2 | 1.6 |
+| 2024A |  | 3264.3 |  | 18.2 | 1.6 |
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=kfh) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/kfh.json)
+<!-- auto-data-end -->
 - Country: Kuwait. Region: GCC. Sector: Banks. Type: bank.
 - Ratings (as recorded): A2 / A.
 - Benchmark bond: KFH 5.00% 2029.

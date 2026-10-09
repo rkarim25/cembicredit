@@ -3,6 +3,32 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/zambia-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 6.1 % | Sep-26 | Bank of Zambia |
+| Policy rate | 10.75 % | Sep-26 | Bank of Zambia MPC statement |
+| Real policy rate | 4.65 % | derived |  |
+| Gross reserves | 5.8 USD bn | Sep-26 | Bank of Zambia |
+| Reserves, 12m change | 25.6 % | derived | gross reserves incl. gold, 2024-03 to 2025-03 (IMF Internati |
+| Import cover | 4.2 months | Sep-26 | Bank of Zambia (stated as 'over 4.2 months') |
+| Current account, last 4Q | -0.9 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account | 0.9 % GDP | 2026E | IMF WEO |
+| REER z-score (10y) | 2.27 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| Terms of trade, 12m change | 5.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 91 % GDP | Jun-26 | MoFNP |
+| Fiscal balance | -4.9 % GDP | 2026E | IMF WEO |
+| Real GDP growth | 4.3 % | 2026E | IMF WEO |
+| Nominal GDP | 41.243 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 2.77 % | 2025-Q4 | IMF FSI |
+| Bank capital ratio | 25.8 % | 2025-Q4 | IMF FSI |
+
+Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gross_reserves_usd_bn, reer_imf_2010, reserves_ex_gold_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#zambia) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/zambia.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Zambia_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Africa. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

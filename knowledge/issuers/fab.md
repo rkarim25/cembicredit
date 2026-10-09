@@ -3,6 +3,20 @@
 _Page created 08-Oct-26 from `database/issuers/fab.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=fab`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- FABUH 4.85% 2029: price 100.5, YTM 4.85%, spread 65bp (as of 2026-09-19).
+- Rating as recorded: Aa3 / AA-.
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2022A |  | 3977.1 |  | 17.4 | 3.2 |
+| 2023A |  | 4300.9 |  | 17.4 | 3.2 |
+| 2024A |  | 4600.8 |  | 17.4 | 3.2 |
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=fab) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/fab.json)
+<!-- auto-data-end -->
 - Country: UAE. Region: Middle East. Sector: Banks. Type: bank.
 - Ratings (as recorded): Aa3 / AA-.
 - Benchmark bond: FABUH 4.85% 2029.

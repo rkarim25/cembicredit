@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/sec.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=sec`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- SECO 4.723% 2028: price 99.2, YTM 5.15%, spread 110bp (as of 2026-09-19).
+- Rating as recorded: A1 / A.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 18696.0 | 6720.0 | -3870.1 | 26115.6 | 3.89 | 4.48 |
+| 2023A | 20976.0 | 7560.0 | -4463.8 | 27161.4 | 3.59 | 4.2 |
+| 2024A | 22800.0 | 8400.0 | -3030.2 | 26880.0 | 3.2 | 4.2 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=sec) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/sec.json)
+<!-- auto-data-end -->
 - Country: Saudi Arabia. Region: GCC. Sector: Utilities. Type: corp.
 - Ratings (as recorded): A1 / A.
 - Benchmark bond: SECO 4.723% 2028.

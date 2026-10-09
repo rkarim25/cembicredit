@@ -3,6 +3,33 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/armenia-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 4.3 % | Sep-26 | Armstat |
+| Policy rate | 6.75 % | Sep-26 | Central Bank of Armenia (refinancing rate) |
+| Real policy rate | 2.45 % | derived |  |
+| Gross reserves | 6.5 USD bn | Sep-26 | Central Bank of Armenia |
+| Reserves, 12m change | 53.9 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves net of 1y drains | 3.708 USD bn | 2026-08 | IMF reserve template |
+| Import cover | 5 months | Sep-26 | Central Bank of Armenia (reported as more than 5 months) |
+| Current account, last 4Q | -2.52 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account | -9.8 % GDP | Q2-26 | Armstat, Balance of Payments Q2 2026 |
+| REER z-score (10y) | 1.37 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| Terms of trade, 12m change | -1.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 50.6 % GDP | 2026E | IMF WEO |
+| Fiscal balance | -3.4 % GDP | 2026E | Ministry of Finance, State Budget Execution (tracking vs 4.5 |
+| Real GDP growth | 5.25 % | 2026F | IMF (full-year 2026 projection) |
+| Nominal GDP | 31.873 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 1.16 % | 2025-Q3 | IMF FSI |
+| Bank capital ratio | 20.5 % | 2025-Q3 | IMF FSI |
+
+Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_imf_pct, predetermined_drains_usd_bn, reer_imf_2010, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#armenia) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/armenia.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Armenia_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: CIS. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

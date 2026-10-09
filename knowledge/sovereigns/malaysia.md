@@ -3,6 +3,33 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/malaysia-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 1.7817 % | 2026-07 | IMF CPI database |
+| Policy rate | 2.75 % | 2026-09 | BIS |
+| Real policy rate | 0.97 % | derived |  |
+| Gross reserves | 131.981 USD bn | 2026-08 | IMF International Liquidity |
+| Reserves, 12m change | 7.5 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves net of 1y drains | 97.798 USD bn | 2026-08 | IMF reserve template |
+| Import cover | 4.276 months | 2025 | World Bank WDI |
+| Current account, last 4Q | 10.37 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
+| Current account | 1.4 % GDP | 2026E | IMF WEO |
+| REER z-score (10y) | 1.2 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| Terms of trade, 12m change | 1.0 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 69.5 % GDP | 2026E | IMF WEO |
+| Fiscal balance | -3.3 % GDP | 2026E | IMF WEO |
+| Real GDP growth | 4.7 % | 2026E | IMF WEO |
+| Nominal GDP | 516.428 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 1.4 % | 2026-Q1 | IMF FSI |
+| Bank capital ratio | 17.64 % | 2026-Q1 | IMF FSI |
+
+Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_imf_pct, policy_rate_pct, predetermined_drains_usd_bn, reer_broad_real, reer_imf_2010, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#malaysia) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/malaysia.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Malaysia_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Asia (GBI-EM). Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

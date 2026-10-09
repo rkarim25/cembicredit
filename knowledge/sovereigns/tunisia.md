@@ -3,6 +3,30 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/tunisia-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 5.6 % | Sep-26 | INS, Consumer Price Index release |
+| Policy rate | 7.0 % | Oct-26 | Banque Centrale de Tunisie, Executive Board decision |
+| Real policy rate | 1.4 % | derived |  |
+| Gross reserves | 9.079 USD bn | 2025-10 | IMF International Liquidity |
+| Reserves, 12m change | 6.8 % | derived | gross reserves incl. gold, 2024-10 to 2025-10 (IMF Internati |
+| Import cover | 3.0 months | 06-Oct-26 | Banque Centrale de Tunisie (92 days of imports, converted to |
+| Current account, last 4Q | -1.33 USD bn | 2025-Q1 to 2025-Q4 | IMF BOP |
+| Current account | -4.2 % GDP | 2026E | IMF WEO |
+| REER z-score (10y) | 1.63 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| Terms of trade, 12m change | -1.2 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 82.0 % GDP | 2026E | Ministry of Finance Tunisia |
+| Fiscal balance | -5.2 % GDP | 2026F | Ministry of Finance Tunisia |
+| Real GDP growth | 2.1 % | 2026E | IMF WEO |
+| Nominal GDP | 60.745 USD bn | 2026E | IMF WEO |
+
+Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, reer_imf_2010, reserves_ex_gold_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#tunisia) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/tunisia.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Tunisia_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Middle East. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

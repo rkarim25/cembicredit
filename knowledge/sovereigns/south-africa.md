@@ -3,6 +3,33 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/south-africa-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 4.4 % | Aug-26 | Stats SA via IMF data portal |
+| Policy rate | 7.25 % | Sep-26 | BIS monthly policy rate series |
+| Real policy rate | 2.9 % | derived |  |
+| Gross reserves | 75.96 USD bn | Aug-26 | IMF International Liquidity |
+| Reserves, 12m change | 7.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves net of 1y drains | 74.307 USD bn | 2026-08 | IMF reserve template |
+| Import cover | 5.8 months | Sep-26 | SARB (tied to the $63.5B headline reserve figure) |
+| Current account, last 4Q | -1.32 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
+| Current account | -1.6 % GDP | Sep-26 | SARB Quarterly Bulletin |
+| REER z-score (10y) | 1.23 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| Terms of trade, 12m change | -0.9 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 77.2 % GDP | medium-term peak | National Treasury MTBPS |
+| Fiscal balance | -4.5 % GDP | FY25/26 | National Treasury (vintage unverified) |
+| Real GDP growth | 1 % | 2026E | IMF WEO |
+| Nominal GDP | 480 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 4.51 % | 2025-Q2 | IMF FSI |
+| Bank capital ratio | 16.06 % | 2025-Q2 | IMF FSI |
+
+Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_imf_pct, policy_rate_pct, predetermined_drains_usd_bn, reer_broad_real, reer_imf_2010, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#south-africa) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/south-africa.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/South_Africa_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Africa. Fiscal year: Apr-Mar.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

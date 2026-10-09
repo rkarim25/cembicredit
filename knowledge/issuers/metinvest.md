@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/metinvest.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=metinvest`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- METINV 15.65% 2029: price 93.27, YTM 14.98%, spread 1022bp (as of 2026-09-27).
+- Rating as recorded: CCC+.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 8288.0 | 743.0 | -550.0 | 1666.9 | 2.26 | 4.09 |
+| 2023A | 7394.0 | 678.0 | -140.0 | 1703.6 | 2.51 | 3.83 |
+| 2024A | 7344.0 | 737.0 | -193.0 | 866.0 | 1.18 | 3.98 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=metinvest) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/metinvest.json)
+<!-- auto-data-end -->
 - Country: Ukraine. Region: CEEMEA. Sector: Materials. Type: corp.
 - Ratings (as recorded): CCC+.
 - Benchmark bond: METINV 15.65% 2029.

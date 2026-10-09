@@ -3,6 +3,25 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/senegal-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 1.2 % | Aug-26 | ANSD |
+| Policy rate | 3.0 % | Sep-26 | BCEAO |
+| Real policy rate | 1.8 % | derived |  |
+| Current account | -6.2 % GDP | 2026E | IMF WEO |
+| Terms of trade, 12m change | -2.4 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 132 % GDP | 2024 | Cour des Comptes / IMF |
+| Fiscal balance | -6.7 % GDP | 2026E | IMF WEO |
+| Real GDP growth | 6.8 % | 2026E | ANSD / IMF |
+| Nominal GDP | 40.469 USD bn | 2026E | IMF WEO |
+
+Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#senegal) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/senegal.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Senegal_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Africa. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

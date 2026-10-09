@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/equate.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=equate`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- EQUATE 5.00% 2030: price 98.2, YTM 5.55%, spread 150bp (as of 2026-09-19).
+- Rating as recorded: Baa2 / BBB.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 2788.0 | 784.0 | -140.8 | 1649.3 | 2.1 | 7.25 |
+| 2023A | 3128.0 | 882.0 | -165.9 | 1680.2 | 1.9 | 6.8 |
+| 2024A | 3400.0 | 980.0 | 38.4 | 1617.0 | 1.65 | 6.8 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=equate) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/equate.json)
+<!-- auto-data-end -->
 - Country: Kuwait. Region: GCC. Sector: Materials. Type: corp.
 - Ratings (as recorded): Baa2 / BBB.
 - Benchmark bond: EQUATE 5.00% 2030.

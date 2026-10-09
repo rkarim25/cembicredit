@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/limak_ren.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=limak_ren`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- LIMAK 8.75% 2028: price 98.2, YTM 8.75%, spread 435bp (as of 2026-09-27).
+- Rating as recorded: B+ / B2.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 311.6 | 220.0 | -128.6 | 1057.4 | 4.81 | 3.41 |
+| 2023A | 349.6 | 247.5 | -149.3 | 1104.8 | 4.46 | 3.2 |
+| 2024A | 380.0 | 275.0 | -110.8 | 1100.0 | 4.0 | 3.2 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=limak_ren) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/limak_ren.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: CEEMEA. Sector: Utilities. Type: corp.
 - Ratings (as recorded): B+ / B2.
 - Benchmark bond: LIMAK 8.75% 2028.

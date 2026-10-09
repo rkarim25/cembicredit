@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/pegasus.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=pegasus`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- PGSUS 9.25% 2026: price 103.5, YTM 7.65%, spread 360bp (as of 2026-09-19).
+- Rating as recorded: B+ / BB-.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 2624.0 | 760.0 | -128.5 | 1992.2 | 2.62 | 4.48 |
+| 2023A | 2944.0 | 855.0 | -156.8 | 2047.7 | 2.39 | 4.2 |
+| 2024A | 3200.0 | 950.0 | 23.0 | 1995.0 | 2.1 | 4.2 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=pegasus) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/pegasus.json)
+<!-- auto-data-end -->
 - Country: Turkey. Region: Turkey. Sector: Aviation. Type: corp.
 - Ratings (as recorded): B+ / BB-.
 - Benchmark bond: PGSUS 9.25% 2026.

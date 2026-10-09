@@ -3,6 +3,30 @@
 _Page created 09-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/kazakhstan-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 9.2398 % | 2026-09 | IMF CPI database |
+| Gross reserves | 70.567 USD bn | 2026-08 | IMF International Liquidity |
+| Reserves, 12m change | 29.9 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves net of 1y drains | 59.792 USD bn | 2026-07 | IMF reserve template |
+| Import cover | 7.386 months | 2025 | World Bank WDI |
+| Current account, last 4Q | -13.41 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account | -1 % GDP | 2026E | IMF WEO |
+| Terms of trade, 12m change | 11.5 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 24.9 % GDP | 2026E | IMF WEO |
+| Fiscal balance | -1.3 % GDP | 2026E | IMF WEO |
+| Real GDP growth | 4.6 % | 2026E | IMF WEO |
+| Nominal GDP | 360.456 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 3.63 % | 2025-Q4 | IMF FSI |
+| Bank capital ratio | 20.77 % | 2025-Q4 | IMF FSI |
+
+Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, predetermined_drains_usd_bn, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#kazakhstan) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/kazakhstan.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Kazakhstan_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: CIS / Central Asia (EMBI IG). Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

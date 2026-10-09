@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/africell.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=africell`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- AFRCEL 10.500% 2029 (XS2855412479): price 103.24, YTM 9.26%, spread 452bp (as of 2026-09-27).
+- Rating as recorded: B- / B3.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2023A | 356.2 | 114.3 | 10.5 | 483.6 | 4.23 | 16.25 |
+| 2024A | 356.0 | 79.5 | -33.9 | 483.6 | 6.08 | 4.97 |
+| 2025A | 408.6 | 138.6 | -38.8 | 515.4 | 3.72 | 3.08 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=africell) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/africell.json)
+<!-- auto-data-end -->
 - Country: Angola. Region: Africa. Sector: Technology. Type: corp.
 - Ratings (as recorded): B- / B3.
 - Benchmark bond: AFRCEL 10.500% 2029 (XS2855412479).

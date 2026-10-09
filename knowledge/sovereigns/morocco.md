@@ -3,6 +3,33 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/morocco-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | -0.3333 % | 2026-08 | IMF CPI database |
+| Policy rate | 2.25 % | Sep-26 | Bank Al-Maghrib |
+| Real policy rate | 2.58 % | derived |  |
+| Gross reserves | 55.65 USD bn | end-2026E | Bank Al-Maghrib |
+| Reserves, 12m change | 18.0 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves net of 1y drains | 50.756 USD bn | 2026-07 | IMF reserve template |
+| Import cover | 5.5 months | end-2026E, prospective imports of goods and services | Bank Al-Maghrib |
+| Current account, last 4Q | -5.83 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
+| Current account | -3.1 % GDP | 2026E | IMF WEO |
+| REER z-score (10y) | -2.1 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| Terms of trade, 12m change | -3.2 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 67.2 % GDP | 2025 | Ministry of Economy and Finance |
+| Fiscal balance | -3.5 % GDP | 2025 | Ministry of Economy and Finance |
+| Real GDP growth | 4.9 % | 2026E | IMF WEO |
+| Nominal GDP | 194.333 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 8.51 % | 2025-Q2 | IMF FSI |
+| Bank capital ratio | 14.17 % | 2025-Q2 | IMF FSI |
+
+Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_pct, predetermined_drains_usd_bn, reer_broad_real, reer_imf_2010, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#morocco) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/morocco.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Morocco_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Middle East. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

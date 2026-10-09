@@ -3,6 +3,28 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/bahrain-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 2.9329 % | 2026-08 | IMF CPI database |
+| Gross reserves | 6.671 USD bn | 2026-03 | IMF International Liquidity |
+| Reserves, 12m change | 86.4 % | derived | gross reserves incl. gold, 2025-03 to 2026-03 (IMF Internati |
+| Import cover | 2 months | 2025 | Central Bank of Bahrain / IMF (approx. two months of prospec |
+| Current account, last 4Q | 2.28 USD bn | 2024-Q1 to 2024-Q4 | IMF BOP |
+| Current account | 3.9 % GDP | 2026E | IMF WEO |
+| REER z-score (10y) | -1.58 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
+| Terms of trade, 12m change | 5.3 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 133 % GDP | 2026E | IMF 2025 Article IV |
+| Fiscal balance | 10.8 % GDP | 2025E | IMF 2025 Article IV (deficit, 10.8-11.0% range; sign shown a |
+| Real GDP growth | -0.5 % | 2026E | IMF WEO |
+| Nominal GDP | 48.849 USD bn | 2026E | IMF WEO |
+
+Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, reer_imf_2010, reserves_ex_gold_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#bahrain) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/bahrain.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Bahrain_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Middle East. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

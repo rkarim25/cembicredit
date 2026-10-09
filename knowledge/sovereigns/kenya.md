@@ -3,6 +3,30 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/kenya-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 6.76 % | Sep-26 | IMF data portal; KNBS (6.8%) |
+| Policy rate | 8.75 % | Oct-26 | CBK MPC |
+| Real policy rate | 1.99 % | derived |  |
+| Gross reserves | 14.702 USD bn | Oct-26 | CBK |
+| Reserves, 12m change | 34.7 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
+| Import cover | 4.632 months | 2025 | World Bank WDI |
+| Current account | -4.1 % GDP | 2026E | IMF WEO |
+| Terms of trade, 12m change | -2.9 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
+| Government debt | 68.5 % GDP | Jun-26 | National Treasury |
+| Fiscal balance | -6.4 % GDP | FY2025/26 (projected) | National Treasury |
+| Real GDP growth | 4.5 % | 2026E | IMF WEO |
+| Nominal GDP | 147.265 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 13.54 % | 2025-Q3 | IMF FSI |
+| Bank capital ratio | 19.97 % | 2025-Q3 | IMF FSI |
+
+Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, policy_rate_imf_pct, reserves_ex_gold_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#kenya) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/kenya.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Kenya_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: Africa. Fiscal year: Jul-Jun.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/sasol.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=sasol`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- SOLSJ 7.85% 2029: price 98.4, YTM 7.85%, spread 365bp (as of 2026-09-19).
+- Rating as recorded: BB+ / Ba1.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 16800.0 | 4200.0 | 1580.0 | 5819.2 | 1.39 | 5.53 |
+| 2023A | 15400.0 | 3350.0 | 610.0 | 5975.6 | 1.78 | 5.18 |
+| 2024A | 14700.0 | 2450.0 | -230.0 | 5814 | 2.37 | 5.18 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=sasol) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/sasol.json)
+<!-- auto-data-end -->
 - Country: South Africa. Region: Africa. Sector: Energy. Type: corp.
 - Ratings (as recorded): BB+ / Ba1.
 - Benchmark bond: SOLSJ 7.85% 2029.

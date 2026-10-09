@@ -3,6 +3,30 @@
 _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, sourced facts. Latest report: `reports/uzbekistan-sovereign-credit.md` (when it exists)._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+
+| Indicator | Value | Period | Source |
+|---|---:|---|---|
+| CPI y/y | 6.2 % | Aug-26 | Central Bank of Uzbekistan |
+| Policy rate | 14.0 % | Sep-26 | Central Bank of Uzbekistan |
+| Real policy rate | 7.8 % | derived |  |
+| Gross reserves | 72.13 USD bn | 01-Sep-26 | Central Bank of Uzbekistan |
+| Reserves, 12m change | 32.0 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
+| Import cover | 12.0 months | 01-Sep-26 | Central Bank of Uzbekistan |
+| Current account, last 4Q | -11.23 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account | -1.3 % GDP | 2026E | IMF WEO |
+| Government debt | 27.0 % GDP | 01-Jul-26 | Ministry of Economy and Finance |
+| Fiscal balance | -2.1 % GDP | 2025 | Ministry of Economy and Finance / IMF Article IV (consolidat |
+| Real GDP growth | 8.7 % | Q1-26 y/y | IMF / Statistics Agency |
+| Nominal GDP | 181.502 USD bn | 2026E | IMF WEO |
+| Bank NPL ratio | 3.72 % | 2025-Q2 | IMF FSI |
+| Bank capital ratio | 17.37 % | 2025-Q2 | IMF FSI |
+
+Monthly series held: cpi_yoy_pct, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, policy_rate_imf_pct, reserves_ex_gold_usd_bn.
+
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#uzbekistan) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/uzbekistan.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Uzbekistan_Sovereign_Model.xlsx)
+<!-- auto-data-end -->
 - Region: CIS. Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.
 - Index: EMBI GD membership and weight, GBI-EM membership: to be filled.

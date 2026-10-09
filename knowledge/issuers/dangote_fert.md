@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/dangote_fert.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=dangote_fert`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- DANFER 11.50% 2028: price 96.0, YTM 11.5%, spread 715bp (as of 2026-09-19).
+- Rating as recorded: B / B2.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 1148.0 | 520.0 | -96.9 | 1763.8 | 3.39 | 4.07 |
+| 2023A | 1288.0 | 585.0 | -118.1 | 1827.8 | 3.12 | 3.82 |
+| 2024A | 1400.0 | 650.0 | -14.9 | 1800.5 | 2.77 | 3.82 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=dangote_fert) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/dangote_fert.json)
+<!-- auto-data-end -->
 - Country: Nigeria. Region: Africa. Sector: Materials. Type: corp.
 - Ratings (as recorded): B / B2.
 - Benchmark bond: DANFER 11.50% 2028.

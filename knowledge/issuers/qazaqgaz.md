@@ -3,6 +3,21 @@
 _Page created 08-Oct-26 from `database/issuers/qazaqgaz.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=qazaqgaz`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- QAZGAS 4.375% 2027: price 97.2, YTM 5.95%, spread 190bp (as of 2026-09-19).
+- Rating as recorded: BBB-.
+
+| Period | Revenue | EBITDA | FCF | Net debt | Net leverage | Interest cover |
+|---|---:|---:|---:|---:|---:|---:|
+| 2022A | 2296.0 | 680.0 | -47.9 | 1078.7 | 1.59 | 7.68 |
+| 2023A | 2576.0 | 765.0 | -60.0 | 1082.4 | 1.41 | 7.2 |
+| 2024A | 2800.0 | 850.0 | 107.4 | 1020.0 | 1.2 | 7.2 |
+_USD m unless the record says otherwise; audited years only._
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=qazaqgaz) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/qazaqgaz.json)
+<!-- auto-data-end -->
 - Country: Kazakhstan. Region: Central Asia. Sector: Infrastructure. Type: corp.
 - Ratings (as recorded): BBB-.
 - Benchmark bond: QAZGAS 4.375% 2027.

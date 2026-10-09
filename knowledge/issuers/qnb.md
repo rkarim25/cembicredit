@@ -3,6 +3,20 @@
 _Page created 08-Oct-26 from `database/issuers/qnb.json`. Dated, sourced facts only; views live in `reports/` and the issuer record's credit view. Company page: `company.html?id=qnb`._
 
 ## Snapshot
+<!-- auto-data-start -->
+_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+
+- QNBK 4.875% 2029: price 99.5, YTM 5.0%, spread 95bp (as of 2026-09-19).
+- Rating as recorded: Aa3 / A+.
+
+| Period | Net interest income | Total income | CET1 % | CAR % | NPL % |
+|---|---:|---:|---:|---:|---:|
+| 2022A |  | 7816.0 |  | 19.8 | 2.9 |
+| 2023A |  | 8452.2 |  | 19.8 | 2.9 |
+| 2024A |  | 9041.6 |  | 19.8 | 2.9 |
+
+[Company page](https://rkarim25.github.io/cembicredit/company.html?id=qnb) · [Peer comparison](https://rkarim25.github.io/cembicredit/comps.html) · [Record](https://rkarim25.github.io/cembicredit/database/issuers/qnb.json)
+<!-- auto-data-end -->
 - Country: Qatar. Region: GCC. Sector: Banks. Type: bank.
 - Ratings (as recorded): Aa3 / A+.
 - Benchmark bond: QNBK 4.875% 2029.
