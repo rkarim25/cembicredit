@@ -37,4 +37,4 @@ For each sovereign in the universe, the page should say: oil sensitivity (sign a
 
 ## 5. Macro trade expression
 
-Cross-desk tracker conventions apply (`macro_trade_tracker.json`): entry, target, stop, DV01 or notional, and the regime assumption that invalidates the trade. Macro views without an invalidation are opinions, not trades.
+Trade expression conventions (recorded on the topic's report, not in a tracker): entry, target, stop, DV01 or notional, and the regime assumption that invalidates the trade. Macro views without an invalidation are opinions, not trades.

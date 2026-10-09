@@ -15,7 +15,6 @@
       { href: "reports.html", label: "Sovereign reports", hint: "One truth document per country", match: "sovereign-credit" },
       { href: "knowledge.html", label: "Country pages", hint: "Dated facts, sources, catalysts", match: "knowledge/sovereigns" },
       { href: "local_em.html", label: "Local EM desk", hint: "GBI-EM rates and FX" },
-      { href: "gbi_country.html", label: "GBI-EM country deep-dives", hint: "17 local-market sovereigns" },
       { href: "models/sovereigns/Sovereign_Comp_Sheet.xlsx", label: "Sovereign comp sheet (xlsx)", hint: "Download", external: true },
     ]},
     { id: "macro", label: "Macro desks", pages: [
@@ -38,7 +37,7 @@
   const PAGE_META = {
     "index.html": ["corporates", "Screener & comp sheet"], "company.html": ["corporates", "Company dossiers"], "comps.html": ["corporates", "Peer comparison"], "trends.html": ["corporates", "Trends"],
     "notes.html": ["corporates", "Footnotes"], "sovereigns.html": ["sovereigns", "Dashboard"], "local_em.html": ["macro", "GBI-EM desk"],
-    "gbi_em.html": ["macro", "GBI-EM desk"], "gbi_country.html": ["sovereigns", "GBI-EM country deep-dive"], "cdx.html": ["macro", "CDX desk"],
+    "cdx.html": ["macro", "Credit indices"],
     "credit.html": ["macro", "CDX desk"], "ust.html": ["macro", "US Treasuries"], "restructuring.html": ["restructuring", "Hub"],
     "braskem_calculator.html": ["restructuring", "Braskem"], "braskem_background.html": ["restructuring", "Braskem background"],
     "zoren_calculator.html": ["restructuring", "Zorlu Enerji"], "zoren_background.html": ["restructuring", "Zorlu background"], "zoren_qa.html": ["restructuring", "Zorlu Q&A"],
@@ -58,7 +57,6 @@
     const h = decodeURIComponent(location.hash.slice(1));
     const q = new URLSearchParams(location.search);
     if (page === "company.html" && q.get("id")) return q.get("id").toUpperCase();
-    if (page === "gbi_country.html" && (q.get("id") || q.get("country"))) return (q.get("id") || q.get("country")).toUpperCase();
     if (page === "reports.html" && h) return h.replace(/-/g, " ");
     if (page === "knowledge.html" && h) return h.split("/").pop().replace(/\.md$/, "").replace(/-/g, " ");
     if (page === "sovereigns.html" && h) return h.replace(/-/g, " ");
