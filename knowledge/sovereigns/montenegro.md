@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -15,7 +15,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Current account, last 4Q | -2.07 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -19.4 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | -1.6 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 63.5 % GDP | 2025 | Adjudicated document, fiscal section (attributed to IMF Arti |
+| Government debt | 63.5 % GDP | 2025 | Adjudicated document 'Montenegro sovereign credit' (Low to M |
 | Fiscal balance | -4 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 2.8 % | 2026E | IMF WEO |
 | Nominal GDP | 10.23 USD bn | 2026E | IMF WEO |

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/braskem.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - BRASKM 4.500% 2030: price 48.6, YTM 19.8%, spread 1580bp (as of 2026-09-23).
 - Rating as recorded: RD / D.

@@ -3,36 +3,36 @@
   "region": "MENA",
   "fiscal_year": "Calendar year",
   "fx_regime": {
-    "value": "parallel market",
-    "source": "Central Bank of Iraq official exchange rate directive (official rate reset by CBI to 1,520 IQD/USD, parallel market above 1,700 IQD/USD)",
+    "value": "peg to USD (administered official rate; devalued 15.2% on 07-Oct-26 from 1,320 to 1,520 IQD/USD; parallel market above 1,700)",
+    "source": "Central Bank of Iraq, Official Exchange Rate Directive",
     "asof": "07-Oct-26"
   },
   "commodity_exposure": {
-    "value": "Crude oil is over 90% of fiscal revenue and 95% of merchandise exports (about 3.4 mbpd of Basra crude via the Strait of Hormuz); the oil price matters, with a fiscal breakeven above $90/bbl",
-    "source": "S&P Global Ratings; SOMO Monthly Export Bulletins; IMF Article IV",
-    "asof": "12-Jun-26"
+    "value": "Crude oil: over 90% of fiscal revenue and 95% of merchandise exports; Basra crude price and OPEC+ quota (~3.9-4.0 mbpd) matter; ~3.4 mbpd transits the Strait of Hormuz",
+    "source": "Adjudicated document (IMF Article IV 20-May-25; SOMO Monthly Export Bulletins 31-Aug-26)",
+    "asof": "08-Oct-26"
   },
   "imf": {
-    "programme": null,
+    "programme": "None active (Article IV surveillance and Post-Financing Assessment; last SBA expired 2018)",
     "size_usd_bn": null,
     "approved": null,
     "next_review": null,
     "risk_of_debt_distress": null,
-    "source": "IMF Countries Portal: no active arrangement; last SBA expired 2018; Article IV surveillance and Post-Financing Assessment",
+    "source": "IMF Countries Portal / Country Records",
     "asof": "08-Oct-26"
   },
   "indicators": {
     "real_gdp_growth_pct": {
       "value": -6.8,
       "period": "2026E",
-      "source": "IMF projections (Article IV)",
+      "source": "IMF Article IV projection",
       "asof": "20-May-25"
     },
     "gross_reserves_usd_bn": {
       "value": 80.6,
       "definition": "CBI gross official foreign exchange reserves",
       "period": "Jul-26",
-      "source": "Central Bank of Iraq Monthly Statistical Bulletin",
+      "source": "Central Bank of Iraq, Monthly Statistical Bulletin",
       "asof": "31-Jul-26"
     },
     "import_cover_months": {
@@ -44,18 +44,18 @@
     "parallel_fx_premium_pct": {
       "value": 12,
       "period": "07-Oct-26",
-      "source": "Local Market Reports (parallel above 1,700 vs official 1,520 IQD/USD; stated as above 12%)",
+      "source": "Local Market Reports (stated as 'above 12%'; tier 3)",
       "asof": "07-Oct-26"
     },
     "eurobonds_outstanding_usd_bn": {
       "value": 0.50625,
       "period": "08-Oct-26",
-      "source": "Luxembourg Stock Exchange / Bondblox (USD 5.80% 2028, ISIN XS0240295575)",
+      "source": "Luxembourg Stock Exchange / Bondblox (USD 5.80% 2028, XS0240295575, amortising)",
       "asof": "08-Oct-26"
     },
     "next_eurobond_maturity": {
-      "value": "15-Jan-28",
-      "note": "15-Jan-28, USD 5.80% amortising notes, $506.25m outstanding (semi-annual sinking fund amortisation)",
+      "value": "15-Jan-28, USD 506.25m outstanding (amortising semi-annually)",
+      "note": "15-Jan-28 and USD 506.25m",
       "source": "Luxembourg Stock Exchange / Bondblox",
       "asof": "08-Oct-26"
     },
@@ -143,10 +143,10 @@
     }
   },
   "series_sources": {
-    "real_gdp_growth_pct": "IMF Article IV projections, 20-May-25",
+    "real_gdp_growth_pct": "IMF Article IV projection, 20-May-25",
     "fiscal_balance_pct_gdp": "IMF Article IV, 20-May-25",
-    "gov_debt_pct_gdp": "IMF / Ministry of Finance, 31-Jul-26 (2026F is a projection)",
-    "gross_reserves_usd_bn": "Central Bank of Iraq, end-2025 value cited 31-Jul-26"
+    "gov_debt_pct_gdp": "IMF / Ministry of Finance, 31-Jul-26 (2026E is approximate, ~57%)",
+    "gross_reserves_usd_bn": "Central Bank of Iraq, end-2025 level cited 31-Jul-26"
   },
   "slug": "iraq",
   "asof": "09-Oct-26",
@@ -1973,6 +1973,103 @@
         "next_eurobond_maturity": {
           "value": "15-Jan-28",
           "note": "15-Jan-28, USD 5.80% amortising notes, $506.25m outstanding (semi-annual sinking fund amortisation)",
+          "source": "Luxembourg Stock Exchange / Bondblox",
+          "asof": "08-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": -2.995,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": -5.3,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 53.9,
+          "definition": "Total public debt to GDP",
+          "period": "2025",
+          "source": "IMF / Ministry of Finance",
+          "asof": "31-Jul-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -4.2,
+          "period": "2024",
+          "source": "IMF Article IV",
+          "asof": "20-May-25"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 264.784,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 3.0928,
+          "period": "2026-06",
+          "source": "IMF CPI database",
+          "asof": "08-Oct-26",
+          "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": 4.92,
+          "period": "2025-Q1 to 2025-Q4",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "reserves_12m_pct": -10.9,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-06 to 2026-06 (IMF International Liquidity)",
+        "ctot_12m_pct": 16.7,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1433_iraq-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": -6.8,
+          "period": "2026E",
+          "source": "IMF Article IV projection",
+          "asof": "20-May-25"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 80.6,
+          "definition": "CBI gross official foreign exchange reserves",
+          "period": "Jul-26",
+          "source": "Central Bank of Iraq, Monthly Statistical Bulletin",
+          "asof": "31-Jul-26"
+        },
+        "import_cover_months": {
+          "value": 9.6,
+          "period": "Jul-26",
+          "source": "Central Bank of Iraq / IMF",
+          "asof": "31-Jul-26"
+        },
+        "parallel_fx_premium_pct": {
+          "value": 12,
+          "period": "07-Oct-26",
+          "source": "Local Market Reports (stated as 'above 12%'; tier 3)",
+          "asof": "07-Oct-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 0.50625,
+          "period": "08-Oct-26",
+          "source": "Luxembourg Stock Exchange / Bondblox (USD 5.80% 2028, XS0240295575, amortising)",
+          "asof": "08-Oct-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "15-Jan-28, USD 506.25m outstanding (amortising semi-annually)",
+          "note": "15-Jan-28 and USD 506.25m",
           "source": "Luxembourg Stock Exchange / Bondblox",
           "asof": "08-Oct-26"
         },

@@ -4,27 +4,27 @@ _Page created 09-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 2.05 % | 2025-12 | IMF CPI database |
-| Gross reserves | 259.72 USD bn | 2026-07 | IMF International Liquidity |
+| CPI y/y | 2.05 % | Dec-25 | IMF CPI database via repo data record |
+| Gross reserves | 259.7 USD bn | Jul-26 | IMF International Liquidity via repo data record |
 | Reserves, 12m change | -3.1 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
-| Import cover | 5.23 months | 2025 | World Bank WDI |
-| Current account | 11.4 % GDP | 2026E | IMF WEO |
+| Import cover | 5.2 months | 2025 | World Bank WDI via repo data record |
+| Current account | 11.4 % GDP | 2026E | IMF WEO via repo data record |
 | REER z-score (10y) | -1.12 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | 13.2 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 31.4 % GDP | 2026E | IMF WEO |
-| Fiscal balance | 4.9 % GDP | 2026E | IMF WEO |
-| Real GDP growth | 3.1 % | 2026E | IMF WEO |
-| Nominal GDP | 621.55 USD bn | 2026E | IMF WEO |
+| Government debt | 31.4 % GDP | 2026E | IMF WEO via repo data record |
+| Fiscal balance | 4.9 % GDP | 2026E | IMF WEO via repo data record |
+| Real GDP growth | 3.1 % | 2026E | IMF WEO via repo data record |
+| Nominal GDP | 621.5 USD bn | 2026E | IMF WEO via repo data record |
 | Bank NPL ratio | 2.79 % | 2026-Q1 | IMF FSI |
 | Bank capital ratio | 16.83 % | 2026-Q1 | IMF FSI |
 
 Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, reer_broad_real, reserves_ex_gold_usd_bn.
 
-[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#uae) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/uae.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/Uae_Sovereign_Model.xlsx)
+[Dashboard](https://rkarim25.github.io/cembicredit/sovereigns.html#uae) · [Data record](https://rkarim25.github.io/cembicredit/database/sovereigns/uae.json) · [Model workbook](https://rkarim25.github.io/cembicredit/models/sovereigns/United_Arab_Emirates_Sovereign_Model.xlsx)
 <!-- auto-data-end -->
 - Region: MENA / GCC (EMBI IG). Fiscal year: Calendar year.
 - Ratings (agency, level, outlook, date of last action): to be filled by the first run.

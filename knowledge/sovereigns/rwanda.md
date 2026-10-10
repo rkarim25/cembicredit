@@ -4,24 +4,24 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 15.7 % | Aug-26 | Gemini position citing BNR/NISR (reported, unverified, no UR |
-| Policy rate | 8.75 % | Aug-26 | Gemini position citing BNR MPC statement (reported, unverifi |
+| CPI y/y | 15.7 % | Aug-26 | BNR/NISR as reported by Gemini in adjudicated document, unve |
+| Policy rate | 8.75 % | Aug-26 | BNR MPC statement as reported by Gemini in adjudicated docum |
 | Real policy rate | -6.95 % | derived |  |
-| Gross reserves | 2.2 USD bn | 2026 | Gemini position (reported, unverified, no URL) |
+| Gross reserves | 2.2 USD bn | 2026 | Gemini in adjudicated document, unverified, no URL |
 | Reserves, 12m change | -16.4 % | derived | gross reserves incl. gold, 2025-01 to 2026-01 (IMF Internati |
 | Reserves net of 1y drains | 1.79 USD bn | 2026-08 | IMF reserve template |
-| Import cover | 4 months | 2026 | Gemini position (reported ~4.0 months of imports, unverified |
+| Import cover | 4 months | 2026 | Gemini in adjudicated document, unverified, no URL |
 | Current account, last 4Q | -1.98 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
-| Current account | -15 % GDP | 2026E | Gemini position citing Fitch (reported, near 15% deficit, un |
+| Current account | -15 % GDP | 2026E | Reported near 15% of GDP deficit, Gemini in adjudicated docu |
 | Terms of trade, 12m change | -0 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 77.5 % GDP | 2026E | Fitch |
-| Fiscal balance | -4.8 % GDP | FY2025/26 | Gemini position attributing to IMF release (reported, unveri |
-| External debt | 63 % GDP | 2026E | Fitch |
-| Real GDP growth | 9.7 % | H1 2026 | Gemini position citing NISR (reported, unverified, no URL) |
+| Fiscal balance | -4.8 % GDP | FY2025/26 | IMF release as reported by Gemini in adjudicated document, u |
+| External debt | 63 % GDP | Not stated | Fitch as reported by Gemini in adjudicated document, no URL |
+| Real GDP growth | 9.7 % | H1 2026 | NISR as reported by Gemini in adjudicated document, unverifi |
 | Nominal GDP | 17.34 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 3.9 % | 2026-Q1 | IMF FSI |
 | Bank capital ratio | 22.51 % | 2026-Q1 | IMF FSI |

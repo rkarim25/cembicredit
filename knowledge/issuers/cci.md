@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/cci.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - CCOLA 4.50% 2029: price 97.2, YTM 5.35%, spread 130bp (as of 2026-09-19).
 - Rating as recorded: BBB- / BBB.

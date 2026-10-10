@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/fab.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - FABUH 4.85% 2029: price 100.5, YTM 4.85%, spread 65bp (as of 2026-09-19).
 - Rating as recorded: Aa3 / AA-.

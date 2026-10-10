@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/enbd.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - EMIRAT 4.90% 2029: price 100.25, YTM 4.9%, spread 70bp (as of 2026-09-19).
 - Rating as recorded: A2 / A+.

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/asg.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - AVIASG 9.750% 2029 (US00217AAB26 / XS2815876920): price 87.0, YTM 16.0%, spread 1120bp (as of 2026-10-07).
 - Rating as recorded: BB- (S&P) / BB (Fitch).

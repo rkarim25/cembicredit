@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/dangote_ref.json`. Dated, sourced
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - DANREF 12.50% 2029: price 95.0, YTM 12.5%, spread 815bp (as of 2026-09-19).
 - Rating as recorded: B / B2.

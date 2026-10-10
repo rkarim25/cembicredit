@@ -326,7 +326,7 @@
     "recovery_base_pct": 100.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "\u0130zmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
+    "thesis": "İzmir & Manisa metropolitan power grid; resilient industrial baseload; real capital expenditure recovery."
   },
   "annotations": [
     {
@@ -558,7 +558,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
-    "days_to_earnings": 34
+    "days_to_earnings": 32
   },
   "management_questions": [
     {

@@ -70,14 +70,26 @@
       "net_debt": 43.4,
       "cash": 7.717,
       "capex": -25.2,
-      "fcf": -6.823,
-      "cash_interest": -1.455,
+      "fcf": -6.8,
+      "cash_interest": 1.5,
       "net_leverage_cc": 1.714,
       "gross_leverage_cc": 2.019,
       "ebitda": 25.3,
       "ebitda_margin_pct": 5.8,
       "net_leverage": 1.72,
-      "interest_coverage": 17.4
+      "interest_coverage": 17.4,
+      "change_in_working_capital": 53.4,
+      "tax_expense": 2.4,
+      "fcf_conversion_pct": -26.9,
+      "fcf_bridge": {
+        "calculated_ebitda": 25.3,
+        "capex": -25.2,
+        "cash_interest": 1.5,
+        "change_in_working_capital": 53.4,
+        "tax": 2.4,
+        "fcf": -6.8,
+        "formula_check": "25.3 - -25.2 - 1.5 - (53.4) - 2.4 = -6.8"
+      }
     },
     {
       "period": "2019A",
@@ -92,13 +104,25 @@
       "cash": 217.3,
       "capex": -39.7,
       "fcf": -31.4,
-      "cash_interest": -7.716,
+      "cash_interest": 7.7,
       "net_leverage_cc": 1.385,
       "gross_leverage_cc": 2.398,
       "ebitda": 65.4,
       "ebitda_margin_pct": 10.8,
       "net_leverage": 4.54,
-      "interest_coverage": 8.5
+      "interest_coverage": 8.5,
+      "change_in_working_capital": 123.1,
+      "tax_expense": 5.7,
+      "fcf_conversion_pct": -48.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 65.4,
+        "capex": -39.7,
+        "cash_interest": 7.7,
+        "change_in_working_capital": 123.1,
+        "tax": 5.7,
+        "fcf": -31.4,
+        "formula_check": "65.4 - -39.7 - 7.7 - (123.1) - 5.7 = -31.4"
+      }
     },
     {
       "period": "2020A",
@@ -113,13 +137,25 @@
       "cash": 178.4,
       "capex": -93.1,
       "fcf": -33.6,
-      "cash_interest": -28.6,
+      "cash_interest": 28.3,
       "net_leverage_cc": 2.09,
       "gross_leverage_cc": 3.723,
       "ebitda": 110.2,
       "ebitda_margin_pct": 15.8,
       "net_leverage": 2.07,
-      "interest_coverage": 3.9
+      "interest_coverage": 3.9,
+      "change_in_working_capital": 201.3,
+      "tax_expense": 7.3,
+      "fcf_conversion_pct": -30.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 110.2,
+        "capex": -93.1,
+        "cash_interest": 28.3,
+        "change_in_working_capital": 201.3,
+        "tax": 7.3,
+        "fcf": -33.6,
+        "formula_check": "110.2 - -93.1 - 28.3 - (201.3) - 7.3 = -33.6"
+      }
     },
     {
       "period": "2021A",
@@ -135,7 +171,7 @@
       "cash": 216.7,
       "capex": -70.3,
       "fcf": -65.5,
-      "cash_interest": -25.9,
+      "cash_interest": 28.8,
       "net_leverage_cc": 1.697,
       "gross_leverage_cc": 3.096,
       "ebitda": 155.1,
@@ -143,7 +179,19 @@
       "net_leverage": 1.7,
       "interest_coverage": 6.0,
       "ebitda_reconciliation_variance": -17.4,
-      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+      "change_in_working_capital": 265.7,
+      "tax_expense": 13.8,
+      "fcf_conversion_pct": -38.0,
+      "fcf_bridge": {
+        "calculated_ebitda": 172.5,
+        "capex": -70.3,
+        "cash_interest": 28.8,
+        "change_in_working_capital": 265.7,
+        "tax": 13.8,
+        "fcf": -65.5,
+        "formula_check": "172.5 - -70.3 - 28.8 - (265.7) - 13.8 = -65.5"
+      }
     },
     {
       "period": "2022A",
@@ -159,7 +207,7 @@
       "cash": 324.7,
       "capex": -159.1,
       "fcf": -49.4,
-      "cash_interest": -41.9,
+      "cash_interest": 43.9,
       "net_leverage_cc": 1.459,
       "gross_leverage_cc": 2.665,
       "ebitda": 288.2,
@@ -167,7 +215,19 @@
       "net_leverage": 1.36,
       "interest_coverage": 6.9,
       "ebitda_reconciliation_variance": -14.4,
-      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+      "change_in_working_capital": 442.0,
+      "tax_expense": 25.2,
+      "fcf_conversion_pct": -16.3,
+      "fcf_bridge": {
+        "calculated_ebitda": 302.6,
+        "capex": -159.1,
+        "cash_interest": 43.9,
+        "change_in_working_capital": 442.0,
+        "tax": 25.2,
+        "fcf": -49.4,
+        "formula_check": "302.6 - -159.1 - 43.9 - (442.0) - 25.2 = -49.4"
+      }
     },
     {
       "period": "2023A",
@@ -183,7 +243,7 @@
       "cash": 200.6,
       "capex": -213.8,
       "fcf": -97.0,
-      "cash_interest": -74.6,
+      "cash_interest": 76.1,
       "net_leverage_cc": 2.453,
       "gross_leverage_cc": 2.936,
       "ebitda": 392.1,
@@ -191,7 +251,19 @@
       "net_leverage": 2.6,
       "interest_coverage": 5.3,
       "ebitda_reconciliation_variance": -11.1,
-      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+      "change_in_working_capital": 607.0,
+      "tax_expense": 30.9,
+      "fcf_conversion_pct": -24.1,
+      "fcf_bridge": {
+        "calculated_ebitda": 403.2,
+        "capex": -213.8,
+        "cash_interest": 76.1,
+        "change_in_working_capital": 607.0,
+        "tax": 30.9,
+        "fcf": -97.0,
+        "formula_check": "403.2 - -213.8 - 76.1 - (607.0) - 30.9 = -97.0"
+      }
     },
     {
       "period": "2024A",
@@ -207,7 +279,7 @@
       "cash": 184.7,
       "capex": -240.3,
       "fcf": -189.2,
-      "cash_interest": -124.1,
+      "cash_interest": 200.7,
       "net_leverage_cc": 4.738,
       "gross_leverage_cc": 5.316,
       "ebitda": 322.9,
@@ -215,7 +287,19 @@
       "net_leverage": 4.69,
       "interest_coverage": 2.6,
       "ebitda_reconciliation_variance": -199.0,
-      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+      "change_in_working_capital": 726.0,
+      "tax_expense": 24.7,
+      "fcf_conversion_pct": -36.3,
+      "fcf_bridge": {
+        "calculated_ebitda": 521.9,
+        "capex": -240.3,
+        "cash_interest": 200.7,
+        "change_in_working_capital": 726.0,
+        "tax": 24.7,
+        "fcf": -189.2,
+        "formula_check": "521.9 - -240.3 - 200.7 - (726.0) - 24.7 = -189.2"
+      }
     },
     {
       "period": "2025A",
@@ -231,7 +315,7 @@
       "cash": 124.0,
       "capex": -169.1,
       "fcf": -177.5,
-      "cash_interest": -108.5,
+      "cash_interest": 136.1,
       "net_leverage_cc": 2.805,
       "gross_leverage_cc": 3.185,
       "ebitda": 360.8,
@@ -239,7 +323,19 @@
       "net_leverage": 2.54,
       "interest_coverage": 3.3,
       "ebitda_reconciliation_variance": -88.3,
-      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+      "change_in_working_capital": 632.9,
+      "tax_expense": 26.7,
+      "fcf_conversion_pct": -39.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 449.1,
+        "capex": -169.1,
+        "cash_interest": 136.1,
+        "change_in_working_capital": 632.9,
+        "tax": 26.7,
+        "fcf": -177.5,
+        "formula_check": "449.1 - -169.1 - 136.1 - (632.9) - 26.7 = -177.5"
+      }
     }
   ],
   "credit_view": {
@@ -1134,6 +1230,6 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/AVIASG",
-    "days_to_earnings": 34
+    "days_to_earnings": 32
   }
 }

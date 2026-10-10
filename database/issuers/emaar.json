@@ -39,9 +39,22 @@
       "net_debt": -7880.6,
       "net_leverage": -1.51,
       "interest_coverage": 20.4,
-      "cash_interest": 256.2,
+      "cash_interest": 255.8,
       "net_profit": 4750.6,
-      "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement."
+      "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement.",
+      "change_in_working_capital": 539.1,
+      "tax_expense": 509.5,
+      "fcf": 3813.4,
+      "fcf_conversion_pct": 73.1,
+      "fcf_bridge": {
+        "calculated_ebitda": 5217.8,
+        "capex": 100.0,
+        "cash_interest": 255.8,
+        "change_in_working_capital": 539.1,
+        "tax": 509.5,
+        "fcf": 3813.4,
+        "formula_check": "5217.8 - 100.0 - 255.8 - (539.1) - 509.5 = 3813.4"
+      }
     },
     {
       "period": "2023A",
@@ -60,7 +73,20 @@
       "interest_coverage": 16.5,
       "cash_interest": 283.0,
       "net_profit": 4037.3,
-      "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement."
+      "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement.",
+      "change_in_working_capital": 436.5,
+      "tax_expense": 447.8,
+      "fcf": 3401.8,
+      "fcf_conversion_pct": 72.9,
+      "fcf_bridge": {
+        "calculated_ebitda": 4669.1,
+        "capex": 100.0,
+        "cash_interest": 283.0,
+        "change_in_working_capital": 436.5,
+        "tax": 447.8,
+        "fcf": 3401.8,
+        "formula_check": "4669.1 - 100.0 - 283.0 - (436.5) - 447.8 = 3401.8"
+      }
     }
   ],
   "supplementary_data": {
@@ -295,7 +321,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "15:00 Dubai",
     "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-    "days_to_earnings": 33
+    "days_to_earnings": 31
   },
   "management_questions": [
     {

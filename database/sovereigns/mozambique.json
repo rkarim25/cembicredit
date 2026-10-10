@@ -4,7 +4,7 @@
   "indicators": {
     "gross_reserves_usd_bn": {
       "value": 3.9,
-      "definition": "gross international reserves (central bank; gold treatment not stated)",
+      "definition": "gross international reserves (gold treatment not stated)",
       "period": "Aug-26",
       "source": "Banco de Mo\u00e7ambique",
       "asof": "31-Aug-26"
@@ -38,9 +38,9 @@
     },
     "gov_debt_pct_gdp": {
       "value": 94,
-      "definition": "public debt, approximate, as stated in the adjudicated document view (no primary source cited)",
+      "definition": "public debt, approximate; document gives no component or source attribution",
       "period": "",
-      "source": "Adjudicated document, View section",
+      "source": "Adjudicated document view, run 2026-10-08_1751",
       "asof": "08-Oct-26"
     },
     "fiscal_balance_pct_gdp": {
@@ -66,19 +66,19 @@
     "policy_rate_pct": {
       "value": 9.25,
       "period": "Sep-26",
-      "source": "Banco de Mo\u00e7ambique, MPC decision (MIMO rate)",
+      "source": "Banco de Mo\u00e7ambique, MIMO rate decision",
       "asof": "25-Sep-26"
     },
     "eurobonds_outstanding_usd_bn": {
       "value": 0.9,
       "period": "Jun-26",
-      "source": "MEF, Public Debt Bulletin (sole Eurobond, 9.00% due 15-Sep-31, XS2051203862; first amortisation 15-Sep-28)",
+      "source": "MEF, Public Debt Bulletin (9.00% Eurobond due 15-Sep-31, XS2051203862, sole Eurobond)",
       "asof": "Jun-26"
     },
     "next_eurobond_maturity": {
       "value": "15-Sep-28",
-      "note": "15-Sep-28, US$225m (first of four equal annual instalments on the 9.00% 2031 notes, XS2051203862)",
-      "source": "MEF / Prospectus",
+      "note": "15-Sep-28, US$225m first of four equal annual amortisation instalments (15-Sep-28 to 15-Sep-31) on XS2051203862",
+      "source": "Ministry of Economy and Finance, 15-Sep-19 prospectus terms",
       "asof": "15-Sep-19"
     },
     "current_account_4q_usd_bn": {
@@ -2056,6 +2056,106 @@
         "ctot_12m_pct": -0.1,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1751_mozambique-sovereign-credit",
+      "indicators": {
+        "gross_reserves_usd_bn": {
+          "value": 3.9,
+          "definition": "gross international reserves (gold treatment not stated)",
+          "period": "Aug-26",
+          "source": "Banco de Mo\u00e7ambique",
+          "asof": "31-Aug-26"
+        },
+        "import_cover_months": {
+          "value": 6.5,
+          "period": "Aug-26",
+          "source": "Banco de Mo\u00e7ambique (excluding megaprojects imports)",
+          "asof": "31-Aug-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 25.784,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 0.5,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": -43,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 94,
+          "definition": "public debt, approximate; document gives no component or source attribution",
+          "period": "",
+          "source": "Adjudicated document view, run 2026-10-08_1751",
+          "asof": "08-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -6.5,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 23.275,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 6.5,
+          "period": "Aug-26",
+          "source": "INE, Consumer Price Index Bulletin",
+          "asof": "10-Sep-26"
+        },
+        "policy_rate_pct": {
+          "value": 9.25,
+          "period": "Sep-26",
+          "source": "Banco de Mo\u00e7ambique, MIMO rate decision",
+          "asof": "25-Sep-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 0.9,
+          "period": "Jun-26",
+          "source": "MEF, Public Debt Bulletin (9.00% Eurobond due 15-Sep-31, XS2051203862, sole Eurobond)",
+          "asof": "Jun-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "15-Sep-28",
+          "note": "15-Sep-28, US$225m first of four equal annual amortisation instalments (15-Sep-28 to 15-Sep-31) on XS2051203862",
+          "source": "Ministry of Economy and Finance, 15-Sep-19 prospectus terms",
+          "asof": "15-Sep-19"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -2.95,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 2.75,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": 4.9,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2024-07 to 2025-07 (IMF International Liquidity)",
+        "ctot_12m_pct": -0.1,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "region": "Sub-Saharan Africa",
@@ -2066,23 +2166,23 @@
     "asof": "25-Sep-26"
   },
   "commodity_exposure": {
-    "value": "Offshore Rovuma Basin natural gas/LNG (TotalEnergies Mozambique LNG Area 1, 13.1 mtpa, first gas targeted 2029; Eni Coral South FLNG, 3.4 mtpa, producing); LNG prices and project timelines drive medium-term fiscal receipts",
-    "source": "TotalEnergies, 29-Jan-26; MEF, Jun-26",
+    "value": "Natural gas (Rovuma Basin LNG: Coral South FLNG in production, Area 1 targeting first gas 2029, Area 4 Rovuma LNG FID late 2026/2027); LNG and gas prices drive medium-term fiscal receipts",
+    "source": "TotalEnergies, 29-Jan-26; MEF, Jun-26; ExxonMobil, Jun-26",
     "asof": "29-Jan-26"
   },
   "imf": {
-    "programme": "2022 Extended Credit Facility (36-month; lapsed Apr-25 with fifth and sixth reviews uncompleted); successor arrangement under discussion after Sep-26 staff mission",
+    "programme": "None current; 2022 ECF (SDR 340.8m) lapsed Apr-25 with 5th and 6th reviews uncompleted; successor arrangement under discussion after Sep-26 staff mission",
     "size_usd_bn": null,
-    "approved": "May-22 (SDR 340.8m)",
+    "approved": "May-22 (ECF, SDR 340.8m)",
     "next_review": null,
     "risk_of_debt_distress": "In debt distress (IMF DSA, Sep-26)",
-    "source": "IMF, Staff Mission Press Statement / DSA",
+    "source": "IMF, Mozambique Staff Mission Press Statement",
     "asof": "26-Sep-26"
   },
   "politics": {
     "next_election": null,
-    "note": "President Daniel Chapo (FRELIMO) inaugurated 15-Jan-25 after Oct-24 general elections; post-election protests led by Ven\u00e2ncio Mondlane (PODEMOS)",
-    "source": "Constitutional Council",
+    "note": "President Daniel Chapo (FRELIMO) inaugurated 15-Jan-25 after Oct-24 elections; post-election protests led by Ven\u00e2ncio Mondlane (PODEMOS)",
+    "source": "Constitutional Council, 15-Jan-25",
     "asof": "15-Jan-25"
   },
   "run": "2026-10-08_1751_mozambique-sovereign-credit",

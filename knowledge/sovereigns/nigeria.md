@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -13,14 +13,14 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Real policy rate | 7.61 % | derived |  |
 | Gross reserves | 54.98 USD bn | 05-Oct-26 | CBN, Daily Foreign Exchange Reserves Bulletin |
 | Reserves, 12m change | 30.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Import cover | 9.2 months | latest per prior adjudicated document (date not stated) | IMF/CBN via prior adjudicated document |
+| Import cover | 9.2 months | 2026 | Adjudicated prior document (IMF/CBN), Medium confidence |
 | Current account, last 4Q | 15.61 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | 5.8 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | -0.51 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | 4.6 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 32.3 % GDP | Jun-26 | DMO/IMF |
+| Government debt | 32.3 % GDP | Jun-26 | DMO, Nigeria Public Debt Stock as at 30-Jun-26 |
 | Fiscal balance | -4.4 % GDP | 2026E | IMF WEO |
-| External debt | 14.4 % GDP | 30-Jun-26 | DMO Nigeria Public Debt Stock; IMF WEO |
+| External debt | 14.4 % GDP | Jun-26 | DMO Nigeria Public Debt Stock as at 30-Jun-26; IMF WEO (comp |
 | Real GDP growth | 4.1 % | 2026E | IMF WEO |
 | Nominal GDP | 377.4 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 10.82 % | 2026-Q2 | IMF FSI |

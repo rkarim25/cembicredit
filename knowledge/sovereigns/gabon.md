@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -15,7 +15,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Current account | -4.3 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | 0.69 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | 22.6 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 70 % GDP | latest | Fitch Ratings Sovereign Rating Action on Gabon |
+| Government debt | 70 % GDP | latest (approximate) | Fitch Ratings Sovereign Rating Action on Gabon |
 | Fiscal balance | -10 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 2.7 % | 2026E | IMF WEO |
 | Nominal GDP | 23.36 USD bn | 2026E | IMF WEO |

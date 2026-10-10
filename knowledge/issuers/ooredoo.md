@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/ooredoo.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ORDS 4.50% 2031: price 97.8, YTM 5%, spread 95bp (as of 2026-09-19).
 - Rating as recorded: A2 / A-.

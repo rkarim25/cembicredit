@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/dar_arkan.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - DARARK 8.15% 2029: price 99.5, YTM 8.15%, spread 410bp (as of 2026-09-19).
 - Rating as recorded: BB- / Ba3 / B+.

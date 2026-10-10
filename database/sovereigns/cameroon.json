@@ -1,19 +1,19 @@
 {
   "country": "Cameroon",
-  "region": "Central Africa (CEMAC)",
+  "region": "Sub-Saharan Africa (CEMAC)",
   "fiscal_year": "Calendar year",
   "fx_regime": {
-    "value": "peg to EUR (XAF 655.957 per EUR, CEMAC/BEAC, French Treasury convertibility guarantee)",
-    "source": "BEAC, Monetary Policy and Reserves Reports",
-    "asof": "30-Jun-26"
+    "value": "peg to EUR",
+    "source": "BEAC, fixed peg 655.957 XAF per EUR, CEMAC",
+    "asof": "Jun-26"
   },
   "commodity_exposure": {
-    "value": "Exports: crude oil, LNG, cocoa, timber; oil and cocoa prices matter most",
+    "value": "Exports of crude oil, LNG, cocoa and timber; crude oil and LNG prices matter most",
     "source": "IMF Country Report 25/210",
-    "asof": "15-Jul-25"
+    "asof": "Jul-25"
   },
   "imf": {
-    "programme": "None active; ECF/EFF/RSF completed Jul-25, now Post-Financing Assessment",
+    "programme": "Post-Financing Assessment (ECF/EFF/RSF arrangements completed Jul-25)",
     "size_usd_bn": null,
     "approved": null,
     "next_review": null,
@@ -23,8 +23,8 @@
   },
   "politics": {
     "next_election": null,
-    "note": "President Biya (93) re-elected 12-Oct-25 for an eighth term; Apr-26 constitutional amendment re-establishes an appointed Vice President as successor; succession is the dominant institutional risk",
-    "source": "Elections Cameroon; Fitch",
+    "note": "President Paul Biya (93) re-elected 12-Oct-25 for an eighth term; Apr-26 constitutional amendment re-establishes an appointed Vice President to take over on vacancy; succession risk is the dominant institutional risk",
+    "source": "Elections Cameroon, Oct-25; Cameroon Tribune, Apr-26; Fitch, 24-Apr-26",
     "asof": "24-Apr-26"
   },
   "indicators": {
@@ -32,20 +32,20 @@
       "value": 2.6,
       "period": "Aug-26",
       "source": "INS Cameroun",
-      "asof": "31-Aug-26"
+      "asof": "Aug-26"
     },
     "external_debt_pct_gdp": {
       "value": 30,
-      "definition": "approximate, public external debt, share of GDP",
+      "definition": "Approximate external public debt, % of GDP (CAA)",
       "period": "end-Jun-25",
-      "source": "Caisse Autonome d'Amortissement (CAA)",
+      "source": "Caisse Autonome d'Amortissement (CAA), Debt Statistical Bulletin",
       "asof": "30-Jun-25"
     },
     "gov_debt_pct_gdp": {
       "value": 43.0,
-      "definition": "total public debt XAF 14.105 trillion (external ~30% of GDP, domestic 13% of GDP)",
+      "definition": "Total public debt XAF 14.105 trillion (external ~30% of GDP, domestic 13% of GDP)",
       "period": "end-Jun-25",
-      "source": "Caisse Autonome d'Amortissement (CAA)",
+      "source": "Caisse Autonome d'Amortissement (CAA), Debt Statistical Bulletin",
       "asof": "30-Jun-25"
     },
     "revenue_pct_gdp": {
@@ -63,9 +63,9 @@
       "asof": "Jul-25"
     },
     "next_eurobond_maturity": {
-      "value": "19-Nov-25, residual USD 68.7m 9.50% (XS1313779081)",
-      "note": "19-Nov-25, USD 68.7m",
-      "source": "CAA, Jul-24; Prospectus",
+      "value": "2029 (first of three equal annual amortisation tranches of the USD 550m 9.50% 2031 bond; exact date not in source)",
+      "note": "Then EUR 685m 5.95% due 07-Jul-32 (XS2360598630); USD 68.7m 9.50% 19-Nov-25 residual already matured per schedule",
+      "source": "Prospectus / CAA, Jul-24",
       "asof": "Jul-24"
     },
     "gross_reserves_usd_bn": {
@@ -150,8 +150,8 @@
     }
   },
   "series_sources": {
-    "gov_debt_pct_gdp": "CAA, end-Jun-25 (30-Jun-25)",
-    "external_debt_pct_gdp": "CAA, end-Jun-25 (30-Jun-25), approximate"
+    "gov_debt_pct_gdp": "CAA, end-Jun-25 reading shown under 2025, asof 30-Jun-25",
+    "external_debt_pct_gdp": "CAA, approximate, end-Jun-25 reading shown under 2025, asof 30-Jun-25"
   },
   "slug": "cameroon",
   "asof": "09-Oct-26",
@@ -2199,6 +2199,116 @@
           "value": "19-Nov-25, residual USD 68.7m 9.50% (XS1313779081)",
           "note": "19-Nov-25, USD 68.7m",
           "source": "CAA, Jul-24; Prospectus",
+          "asof": "Jul-24"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 5.14,
+          "period": "2024-12",
+          "source": "IMF International Liquidity",
+          "asof": "08-Oct-26",
+          "definition": "Gross official reserves incl. gold at national valuation, end-month (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "import_cover_months": {
+          "value": 5.275,
+          "period": "2024",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 1.016,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 3.3,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": -3.75,
+          "period": "approx. 3.5%-4.0% deficit, midpoint",
+          "source": "IMF Cameroon Country Report No. 25/210",
+          "asof": "Jul-25"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -1.7,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 65.135,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -1.83,
+          "period": "2024-Q3 to 2025-Q2",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "reer_z_10y": 1.43,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
+        "reer_latest": 110.9715,
+        "reserves_12m_pct": 15.5,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2023-11 to 2024-12 (IMF International Liquidity)",
+        "ctot_12m_pct": -1.2,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1650_cameroon-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 2.6,
+          "period": "Aug-26",
+          "source": "INS Cameroun",
+          "asof": "Aug-26"
+        },
+        "external_debt_pct_gdp": {
+          "value": 30,
+          "definition": "Approximate external public debt, % of GDP (CAA)",
+          "period": "end-Jun-25",
+          "source": "Caisse Autonome d'Amortissement (CAA), Debt Statistical Bulletin",
+          "asof": "30-Jun-25"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 43.0,
+          "definition": "Total public debt XAF 14.105 trillion (external ~30% of GDP, domestic 13% of GDP)",
+          "period": "end-Jun-25",
+          "source": "Caisse Autonome d'Amortissement (CAA), Debt Statistical Bulletin",
+          "asof": "30-Jun-25"
+        },
+        "revenue_pct_gdp": {
+          "value": 12.0,
+          "definition": "domestic non-oil revenue mobilisation",
+          "period": "2025",
+          "source": "IMF",
+          "asof": "Jul-25"
+        },
+        "interest_pct_revenue": {
+          "value": 20.0,
+          "definition": "debt service exceeds 20% of budgetary revenues",
+          "period": "2025",
+          "source": "IMF",
+          "asof": "Jul-25"
+        },
+        "next_eurobond_maturity": {
+          "value": "2029 (first of three equal annual amortisation tranches of the USD 550m 9.50% 2031 bond; exact date not in source)",
+          "note": "Then EUR 685m 5.95% due 07-Jul-32 (XS2360598630); USD 68.7m 9.50% 19-Nov-25 residual already matured per schedule",
+          "source": "Prospectus / CAA, Jul-24",
           "asof": "Jul-24"
         },
         "gross_reserves_usd_bn": {

@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -17,8 +17,8 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Current account, last 4Q | -11.23 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | -1.3 % GDP | 2026E | IMF WEO |
 | Government debt | 27 % GDP | 01-Jul-26 | Ministry of Economy and Finance |
-| Fiscal balance | -2.1 % GDP | 2025 | Ministry of Economy and Finance / IMF Article IV (consolidat |
-| Real GDP growth | 8.7 % | Q1-26 y/y | IMF / Statistics Agency |
+| Fiscal balance | -2.1 % GDP | 2025 | IMF Article IV / Ministry of Economy and Finance (consolidat |
+| Real GDP growth | 8.7 % | Q1-26 y/y | Statistics Agency / IMF |
 | Nominal GDP | 181.5 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 3.72 % | 2025-Q2 | IMF FSI |
 | Bank capital ratio | 17.37 % | 2025-Q2 | IMF FSI |

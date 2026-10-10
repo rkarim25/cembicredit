@@ -4,14 +4,14 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 1.25 % | Aug-26 | BCEAO / INSAE |
 | Current account | -5.5 % GDP | 2025 | IMF |
 | Terms of trade, 12m change | -1.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 54 % GDP | 2025 | IMF |
+| Government debt | 54 % GDP | latest per IMF 25-Feb-26 | IMF |
 | Fiscal balance | -2.8 % GDP | 2025 | Ministry of Economy and Finance / IMF |
 | Primary balance | -0.6 % GDP | 2025 | IMF |
 | Real GDP growth | 6.5 % | 2026E | INSAE / IMF |

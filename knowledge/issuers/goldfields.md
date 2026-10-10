@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/goldfields.json`. Dated, sourced 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - GFI 6.125% 2029: price 100.2, YTM 6.05%, spread 200bp (as of 2026-09-19).
 - Rating as recorded: BBB- / Baa3.

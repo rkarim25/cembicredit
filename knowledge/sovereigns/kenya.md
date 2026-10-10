@@ -4,20 +4,20 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 6.76 % | Sep-26 | IMF data portal; KNBS (6.8%) |
-| Policy rate | 8.75 % | Oct-26 | CBK MPC |
+| Policy rate | 8.75 % | Oct-26 | Central Bank of Kenya, MPC (CBR held) |
 | Real policy rate | 1.99 % | derived |  |
-| Gross reserves | 14.7 USD bn | Oct-26 | CBK |
+| Gross reserves | 14.7 USD bn | 07-Oct-26 | Central Bank of Kenya |
 | Reserves, 12m change | 34.7 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
 | Import cover | 4.63 months | 2025 | World Bank WDI |
 | Current account | -4.1 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | -2.9 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 68.5 % GDP | Jun-26 | National Treasury |
-| Fiscal balance | -6.4 % GDP | FY2025/26 (projected) | National Treasury |
+| Government debt | 68.5 % GDP | Jun-26 | National Treasury and Economic Planning |
+| Fiscal balance | -6.4 % GDP | FY2025/26 (projected; audited outturn not in hand) | National Treasury and Economic Planning |
 | Real GDP growth | 4.5 % | 2026E | IMF WEO |
 | Nominal GDP | 147.26 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 13.54 % | 2025-Q3 | IMF FSI |

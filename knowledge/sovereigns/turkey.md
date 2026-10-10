@@ -4,24 +4,24 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 29.73 % | Sep-26 | TurkStat, Consumer Price Index September 2026 |
-| Policy rate | 37 % | Sep-26 | TCMB MPC decision, 1-week repo rate (IMF series shows 35.5%, |
+| Policy rate | 37 % | Sep-26 | TCMB MPC decision, 1-week repo (IMF series shows 35.5%, defi |
 | Real policy rate | 12.5 % | derived |  |
 | Gross reserves | 174.4 USD bn | 18-Sep-26 | TCMB via run 2026-10-07_2235 |
 | Reserves, 12m change | 4.7 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
 | Reserves net of 1y drains | 137.11 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 5.13 months | 2025 | World Bank WDI |
 | Current account, last 4Q | -38.89 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
-| Current account | -2.7 % GDP | 2026F (projected range -2.6 to -2.8) | TCMB, HMB projection |
+| Current account | -2.7 % GDP | 2026 projection (range -2.6 to -2.8, midpoint) | TCMB, Jul-26 |
 | REER z-score (10y) | 0.31 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 29.5 % GDP | Q2-26 | HMB |
-| Fiscal balance | -5.2 % GDP | FY26 tracking (approximate) | HMB budget execution |
-| External debt | 31.8 % GDP | 30-Jun-26 | HMB Gross External Debt Stock Statistics |
+| Fiscal balance | -5.2 % GDP | FY26 tracking (approximate) | HMB, central government budget execution |
+| External debt | 31.8 % GDP | 30-Jun-26 | HMB, Gross External Debt Stock Statistics |
 | Real GDP growth | 3.4 % | 2026E | IMF WEO 2026 |
 | Nominal GDP | 1,640 USD bn | 2026E | IMF WEO 2026 |
 | Bank NPL ratio | 2.48 % | 2026-Q1 | IMF FSI |

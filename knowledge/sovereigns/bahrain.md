@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -16,8 +16,8 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Current account | 3.9 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | -1.58 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | 5.3 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 133 % GDP | 2026E | IMF 2025 Article IV |
-| Fiscal balance | 10.8 % GDP | 2025E | IMF 2025 Article IV (deficit, 10.8-11.0% range; sign shown a |
+| Government debt | 134 % GDP | 2024 | IMF 2025 Article IV consultation |
+| Fiscal balance | -10.8 % GDP | 2025E | IMF 2025 Article IV consultation (document range 10.8-11.0%  |
 | Real GDP growth | -0.5 % | 2026E | IMF WEO |
 | Nominal GDP | 48.85 USD bn | 2026E | IMF WEO |
 

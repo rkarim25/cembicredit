@@ -4,12 +4,12 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 12.7 % | Aug-26 | CAPMAS (nationwide headline; urban 14.5%) |
-| Policy rate | 19 % | Sep-26 | Central Bank of Egypt (overnight deposit rate; lending rate  |
+| Policy rate | 19 % | Sep-26 | Central Bank of Egypt MPC decision (overnight deposit rate;  |
 | Real policy rate | 6.3 % | derived |  |
 | Gross reserves | 53.56 USD bn | Jul-26 | IMF International Liquidity |
 | Reserves, 12m change | 14.7 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
@@ -20,7 +20,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Terms of trade, 12m change | -0.7 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 79.7 % GDP | Q2-26 | Ministry of Finance / IIF |
 | Fiscal balance | -12.1 % GDP | 2026E | IMF WEO (overall balance) |
-| Primary balance | 3.5 % GDP | FY24/25 | Ministry of Finance of Egypt (surplus; FY25/26 budgeted 4.0% |
+| Primary balance | 4 % GDP | FY25/26 (budgeted; FY24/25 outturn 3.5) | Ministry of Finance of Egypt |
 | Real GDP growth | 4.2 % | 2026E | IMF WEO |
 | Nominal GDP | 429.64 USD bn | 2026E | IMF WEO |
 

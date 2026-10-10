@@ -17,10 +17,10 @@
     },
     "gov_debt_pct_gdp": {
       "value": 2.9,
-      "definition": "gross government debt, FY24/25; search summary (tier 4, Low confidence); conflicts with repo WEO 2026E 22.3% which is unverified",
+      "definition": "gross debt, press/search summary; conflicts with repo WEO 22.3% for 2026E (vintage and basis unresolved)",
       "period": "FY24/25",
       "source": "Search summary on public debt law",
-      "asof": "Oct-26"
+      "asof": "09-Oct-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": -18.5,
@@ -30,15 +30,15 @@
     },
     "nominal_gdp_usd_bn": {
       "value": 172.9,
-      "period": "IMF WEO vintage and year unverified",
-      "source": "IMF WEO via repo data record database/sovereigns/kuwait.json",
+      "period": "",
+      "source": "Repo data record database/sovereigns/kuwait.json (IMF WEO)",
       "asof": "09-Oct-26"
     },
     "gross_reserves_usd_bn": {
       "value": 32.689,
-      "definition": "gross incl. gold (gold USD 0.103bn); CBK liquid pool, excludes KIA/FGF assets",
+      "definition": "CBK gross reserves incl. gold (gold USD 0.103bn)",
       "period": "Aug-26",
-      "source": "IMF International Liquidity via repo data record",
+      "source": "IMF International Liquidity",
       "asof": "09-Oct-26"
     },
     "import_cover_months": {
@@ -57,8 +57,8 @@
     "policy_rate_pct": {
       "value": 3.5,
       "period": "Sep-26",
-      "source": "BIS (CBK policy rate, unchanged Apr-Sep-26)",
-      "asof": "09-Oct-26"
+      "source": "BIS",
+      "asof": "30-Sep-26"
     },
     "cpi_latest_yoy_pct": {
       "value": 0.0,
@@ -95,10 +95,14 @@
   "series": {
     "gross_reserves_usd_bn": {
       "2026": 32.689
+    },
+    "gov_debt_pct_gdp": {
+      "FY24/25": 2.9
     }
   },
   "series_sources": {
-    "gross_reserves_usd_bn": "IMF International Liquidity, Aug-26 observation (gross incl. gold), 09-Oct-26"
+    "gross_reserves_usd_bn": "IMF International Liquidity, Aug-26 observation (gross incl. gold), 09-Oct-26",
+    "gov_debt_pct_gdp": "Search summary on public debt law, 09-Oct-26 (unverified; conflicts with repo WEO)"
   },
   "series_official": {
     "real_gdp_growth_pct": {
@@ -2333,24 +2337,110 @@
         "ctot_12m_pct": 28.1,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-09_0730_kuwait-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": -0.6,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "09-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_pct_gdp": {
+          "value": 18.8,
+          "period": "2025-Q2 to 2026-Q1 (four-quarter sum USD 32.5bn over repo nominal GDP; derived)",
+          "source": "IMF BOP via repo data record; derived against IMF WEO nominal GDP",
+          "asof": "09-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 2.9,
+          "definition": "gross debt, press/search summary; conflicts with repo WEO 22.3% for 2026E (vintage and basis unresolved)",
+          "period": "FY24/25",
+          "source": "Search summary on public debt law",
+          "asof": "09-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -18.5,
+          "period": "FY26/27 draft budget (KD 9.8bn / $31.9bn deficit over repo nominal GDP USD 172.9bn; derived)",
+          "source": "Arab News, Kuwait Times, TradeArabia (Feb-26); derived against IMF WEO nominal GDP",
+          "asof": "09-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 172.9,
+          "period": "",
+          "source": "Repo data record database/sovereigns/kuwait.json (IMF WEO)",
+          "asof": "09-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 32.689,
+          "definition": "CBK gross reserves incl. gold (gold USD 0.103bn)",
+          "period": "Aug-26",
+          "source": "IMF International Liquidity",
+          "asof": "09-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 8.4,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "09-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 0.263,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "09-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "policy_rate_pct": {
+          "value": 3.5,
+          "period": "Sep-26",
+          "source": "BIS",
+          "asof": "30-Sep-26"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 0.0,
+          "period": "2026-06",
+          "source": "IMF CPI database",
+          "asof": "09-Oct-26",
+          "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": 32.54,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "09-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 3.5,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": -23.4,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": 28.1,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
-  "fiscal_year": "Non-calendar (FY26/27 convention in press and budget)",
+  "fiscal_year": "Apr-Mar",
   "fx_regime": {
-    "value": "basket peg (KWD 0.3065-0.3077 per USD, Apr-26 to Sep-26)",
-    "source": "BIS",
-    "asof": "09-Oct-26"
+    "value": "basket peg",
+    "source": "BIS (KWD 0.3065-0.3077 per USD, Apr-26 to Sep-26)",
+    "asof": "30-Sep-26"
   },
   "commodity_exposure": {
-    "value": "Oil exporter; the Brent/Kuwait export blend price matters. FY26/27 draft budget assumes $57/bbl against a stated breakeven of $90.5/bbl; oil revenue KD 12.8bn of KD 16.3bn revenues",
+    "value": "Oil exporter; crude oil price is what matters (FY26/27 draft budget assumes $57/bbl against a stated breakeven of $90.5/bbl)",
     "source": "Arab News, Kuwait Times, TradeArabia",
-    "asof": "Feb-26"
+    "asof": "28-Feb-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Fitch flags weaker governance than peers; slow legislative decision-making evident in the long gap before the KD 30bn, 50-year public debt law; no fiscal rule or consolidation plan found",
-    "source": "Fitch via CBK/Kuwait Times summary",
-    "asof": "Aug-26"
+    "note": "Fitch flags weaker governance than peers; no fiscal rule found. Debt law allows up to KD 30bn over 50 years.",
+    "source": "Fitch via CBK/Kuwait Times; search summary",
+    "asof": "09-Oct-26"
   },
   "run": "2026-10-09_0730_kuwait-sovereign-credit"
 }

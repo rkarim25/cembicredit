@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/turkcell.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - TCELL 5.75% 2028: price 96.8, YTM 6.95%, spread 290bp (as of 2026-09-19).
 - Rating as recorded: BB / BB-.

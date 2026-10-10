@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/sasol.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - SOLSJ 7.85% 2029: price 98.4, YTM 7.85%, spread 365bp (as of 2026-09-19).
 - Rating as recorded: BB+ / Ba1.

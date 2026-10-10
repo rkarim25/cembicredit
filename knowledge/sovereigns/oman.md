@@ -4,18 +4,18 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 3.38 % | 2026-08 | IMF CPI database |
 | Gross reserves | 18.38 USD bn | Dec-24 | Central Bank of Oman |
 | Reserves, 12m change | 9.2 % | derived | gross reserves incl. gold, 2024-03 to 2025-03 (IMF Internati |
-| Import cover | 5 months | Dec-24 | Central Bank of Oman (reported as over 5 months of merchandi |
+| Import cover | 5 months | Dec-24 | Central Bank of Oman (stated as over 5 months of merchandise |
 | Current account | 2.5 % GDP | 2025 | Central Bank of Oman / IMF |
 | Terms of trade, 12m change | 15.6 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 34.7 % GDP | 2025 | Ministry of Finance |
-| Fiscal balance | 0.6 % GDP | 2025 | Ministry of Finance / IMF |
+| Fiscal balance | 0.6 % GDP | 2025 | Ministry of Finance |
 | Real GDP growth | 2.1 % | 2024 | National Centre for Statistics and Information |
 | Nominal GDP | 117.18 USD bn | 2026E | IMF WEO |
 

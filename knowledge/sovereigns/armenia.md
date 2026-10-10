@@ -4,12 +4,12 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 4.3 % | Sep-26 | Armstat |
-| Policy rate | 6.75 % | Sep-26 | Central Bank of Armenia (refinancing rate) |
+| CPI y/y | 4.3 % | Sep-26 | Armstat, Consumer Price Index |
+| Policy rate | 6.75 % | Sep-26 | Central Bank of Armenia, refinancing rate decision |
 | Real policy rate | 2.45 % | derived |  |
 | Gross reserves | 6.5 USD bn | Sep-26 | Central Bank of Armenia |
 | Reserves, 12m change | 53.9 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
@@ -20,8 +20,8 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | REER z-score (10y) | 1.37 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | -1.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 50.6 % GDP | 2026E | IMF WEO |
-| Fiscal balance | -3.4 % GDP | 2026E | Ministry of Finance, State Budget Execution (tracking vs 4.5 |
-| Real GDP growth | 5.25 % | 2026F | IMF (full-year 2026 projection) |
+| Fiscal balance | -3.4 % GDP | 2026 (tracking) | Ministry of Finance, State Budget Execution |
+| Real GDP growth | 5.25 % | 2026E | IMF |
 | Nominal GDP | 31.87 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 1.16 % | 2025-Q3 | IMF FSI |
 | Bank capital ratio | 20.5 % | 2025-Q3 | IMF FSI |

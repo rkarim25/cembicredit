@@ -3,36 +3,36 @@
   "region": "Sub-Saharan Africa (WAEMU)",
   "fiscal_year": "Calendar year",
   "fx_regime": {
-    "value": "peg to EUR (XOF at 655.957 per EUR, BCEAO/WAEMU)",
-    "source": "BCEAO; ANSD (via knowledge page)",
+    "value": "peg to EUR",
+    "source": "BCEAO / knowledge page (XOF fixed at 655.957 per EUR)",
     "asof": "09-Sep-26"
   },
   "commodity_exposure": {
-    "value": "Oil (Sangomar, 17.9M bbl in H1-26 against a 31.6M bbl 2026 target) and gas (GTA Phase 1); Brent and LNG prices matter",
-    "source": "Woodside Energy; BP / Kosmos (via knowledge page)",
-    "asof": "Jun-26"
+    "value": "Hydrocarbon producer: Sangomar oil (about 100k bpd) and GTA Phase 1 gas (LNG); oil and LNG prices matter for exports and budget receipts, though government take is not sourced",
+    "source": "Woodside Energy; BP / Kosmos Energy",
+    "asof": "30-Jun-26"
   },
   "imf": {
-    "programme": "Staff-level agreement on new arrangement replacing the suspended USD 1.8bn facility",
+    "programme": "USD 2.2bn arrangement, staff-level agreement Sep-26, replacing suspended USD 1.8bn facility",
     "size_usd_bn": 2.2,
     "approved": null,
-    "next_review": "15-Dec-26 (Executive Board consideration)",
+    "next_review": "Executive Board consideration 15-Dec-26",
     "risk_of_debt_distress": null,
     "source": "IMF (via knowledge page)",
-    "asof": "Sep-26"
+    "asof": "08-Oct-26"
   },
   "politics": {
     "next_election": null,
     "note": "President Faye and Prime Minister Sonko (PASTEF) govern after the March 2024 election; parliamentary position and IMF programme conditions unverified",
     "source": "Government of Senegal (via knowledge page)",
-    "asof": "Sep-26"
+    "asof": "08-Oct-26"
   },
   "indicators": {
     "cpi_latest_yoy_pct": {
       "value": 1.2,
       "period": "Aug-26",
       "source": "ANSD",
-      "asof": "Aug-26"
+      "asof": "31-Aug-26"
     },
     "policy_rate_pct": {
       "value": 3.0,
@@ -42,16 +42,16 @@
     },
     "gov_debt_pct_gdp": {
       "value": 132,
-      "definition": "Public debt after hidden-borrowing revisions; attribution to Cour des Comptes (Feb-25) vs later IMF reconciliation unresolved",
+      "definition": "Public debt, approximate; attribution to Cour des Comptes (Feb-25) versus later IMF/authorities reconciliation unresolved",
       "period": "2024",
-      "source": "Cour des Comptes / IMF (via data record)",
+      "source": "Cour des Comptes / IMF (via knowledge page)",
       "asof": "08-Oct-26"
     },
     "next_eurobond_maturity": {
       "value": "13-Mar-28",
       "note": "13-Mar-28, EUR 500M 4.750%",
-      "source": "Ministry of Finance (via knowledge page)",
-      "asof": "Sep-26"
+      "source": "Ministry of Finance",
+      "asof": "08-Oct-26"
     },
     "fdi_net_pct_gdp": {
       "value": 0.099,
@@ -79,7 +79,7 @@
       "asof": "08-Oct-26"
     },
     "nominal_gdp_usd_bn": {
-      "value": 40.5,
+      "value": 40.469,
       "period": "2026E",
       "source": "IMF WEO",
       "asof": "08-Oct-26"
@@ -119,12 +119,12 @@
       "2026E": -6.7
     },
     "nominal_gdp_usd_bn": {
-      "2026E": 40.5
+      "2026E": 40.469
     }
   },
   "series_sources": {
     "real_gdp_growth_pct": "ANSD / IMF WEO, 08-Oct-26",
-    "gov_debt_pct_gdp": "Cour des Comptes / IMF, 08-Oct-26 (attribution unresolved)",
+    "gov_debt_pct_gdp": "Cour des Comptes / IMF via knowledge page, 08-Oct-26 (attribution unresolved)",
     "current_account_pct_gdp": "IMF WEO, 08-Oct-26",
     "fiscal_balance_pct_gdp": "IMF WEO, 08-Oct-26",
     "nominal_gdp_usd_bn": "IMF WEO, 08-Oct-26"
@@ -1460,6 +1460,80 @@
         },
         "nominal_gdp_usd_bn": {
           "value": 40.5,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 3.2,
+          "period": "Sep-26",
+          "source": "Ministry of Finance, Strat\u00e9gie de Dette \u00e0 Moyen Terme et Ex\u00e9cution Budg\u00e9taire 2026 (approx. USD equivalent of EUR 500M 2028, USD 500M 2031, USD 1.1B 2033, EUR 1.0B 2037, USD 1.0B 2048)",
+          "asof": "Sep-26"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 1.8,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "ctot_12m_pct": -2.4,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_2129_senegal-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 1.2,
+          "period": "Aug-26",
+          "source": "ANSD",
+          "asof": "31-Aug-26"
+        },
+        "policy_rate_pct": {
+          "value": 3.0,
+          "period": "Sep-26",
+          "source": "BCEAO",
+          "asof": "09-Sep-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 132,
+          "definition": "Public debt, approximate; attribution to Cour des Comptes (Feb-25) versus later IMF/authorities reconciliation unresolved",
+          "period": "2024",
+          "source": "Cour des Comptes / IMF (via knowledge page)",
+          "asof": "08-Oct-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "13-Mar-28",
+          "note": "13-Mar-28, EUR 500M 4.750%",
+          "source": "Ministry of Finance",
+          "asof": "08-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 0.099,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 6.8,
+          "period": "2026E",
+          "source": "ANSD / IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -6.2,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -6.7,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 40.469,
           "period": "2026E",
           "source": "IMF WEO",
           "asof": "08-Oct-26"

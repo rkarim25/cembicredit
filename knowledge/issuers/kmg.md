@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/kmg.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - KZOK 5.75% 2047: price 88.5, YTM 6.75%, spread 270bp (as of 2026-09-19).
 - Rating as recorded: BBB- / Baa2.

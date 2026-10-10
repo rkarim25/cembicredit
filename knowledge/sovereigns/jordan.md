@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -19,8 +19,8 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Current account | -6.2 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | -6.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 83.6 % GDP | 2025 | IMF Country Report / Ministry of Finance |
-| Fiscal balance | -5.2 % GDP | 2024 | Ministry of Finance (central government headline deficit) |
-| Primary balance | -2.8 % GDP | 2024 | Ministry of Finance (central government primary deficit) |
+| Fiscal balance | -5.2 % GDP | 2024 | Ministry of Finance (central government) |
+| Primary balance | -2.8 % GDP | 2024 | Ministry of Finance (central government) |
 | Real GDP growth | 2.7 % | 2026E | IMF WEO |
 | Nominal GDP | 64.91 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 6.29 % | 2026-Q1 | IMF FSI |

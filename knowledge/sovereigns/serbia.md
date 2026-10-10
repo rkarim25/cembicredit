@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -20,7 +20,7 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | REER z-score (10y) | 1.37 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -1.4 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 43.3 % GDP | Aug-26 | Public Debt Administration (javnidug.gov.rs) |
-| Fiscal balance | -2.9 % GDP | 2026E | IMF WEO |
+| Fiscal balance | -3.25 % GDP | 2026 target (midpoint of 3.0-3.5% of GDP range) | Ministry of Finance |
 | Real GDP growth | 3.8 % | Q2-26 YoY | Statistical Office of the Republic of Serbia |
 | Nominal GDP | 112.03 USD bn | 2026E | IMF WEO |
 

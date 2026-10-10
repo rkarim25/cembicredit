@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/pegasus.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - PGSUS 9.25% 2026: price 103.5, YTM 7.65%, spread 360bp (as of 2026-09-19).
 - Rating as recorded: B+ / BB-.

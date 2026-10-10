@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/turk_exim.json`. Dated, sourced f
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - EXCRTU 6.75% 2029: price 99.8, YTM 6.75%, spread 215bp (as of 2026-09-19).
 - Rating as recorded: BB- / B1.

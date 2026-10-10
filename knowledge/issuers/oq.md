@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/oq.json`. Dated, sourced facts on
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - OQGN 5.80% 2033: price 99.5, YTM 5.9%, spread 185bp (as of 2026-09-19).
 - Rating as recorded: BB+ / BBB-.

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/sec.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - SECO 4.723% 2028: price 99.2, YTM 5.15%, spread 110bp (as of 2026-09-19).
 - Rating as recorded: A1 / A.

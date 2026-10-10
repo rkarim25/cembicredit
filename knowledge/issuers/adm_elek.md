@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/adm_elek.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ADMTR 9.25% 2028: price 98.0, YTM 9.25%, spread 485bp (as of 2026-09-19).
 - Rating as recorded: B / B2.

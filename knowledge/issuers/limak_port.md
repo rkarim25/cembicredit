@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/limak_port.json`. Dated, sourced 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - LIMPRT 7.85% 2036: price 98.5, YTM 7.85%, spread 345bp (as of 2026-09-19).
 - Rating as recorded: B / B3.

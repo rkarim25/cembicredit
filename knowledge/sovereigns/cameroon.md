@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -16,9 +16,9 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Current account | -3.75 % GDP | approx. 3.5%-4.0% deficit, midpoint | IMF Cameroon Country Report No. 25/210 |
 | REER z-score (10y) | 1.43 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | -1.2 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 43 % GDP | end-Jun-25 | Caisse Autonome d'Amortissement (CAA) |
+| Government debt | 43 % GDP | end-Jun-25 | Caisse Autonome d'Amortissement (CAA), Debt Statistical Bull |
 | Fiscal balance | -1.7 % GDP | 2026E | IMF WEO |
-| External debt | 30 % GDP | end-Jun-25 | Caisse Autonome d'Amortissement (CAA) |
+| External debt | 30 % GDP | end-Jun-25 | Caisse Autonome d'Amortissement (CAA), Debt Statistical Bull |
 | Real GDP growth | 3.3 % | 2026E | IMF WEO |
 | Nominal GDP | 65.14 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 12.89 % | 2023-Q4 | IMF FSI |

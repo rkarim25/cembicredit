@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/equate.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - EQUATE 5.00% 2030: price 98.2, YTM 5.55%, spread 150bp (as of 2026-09-19).
 - Rating as recorded: Baa2 / BBB.

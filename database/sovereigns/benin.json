@@ -1,37 +1,37 @@
 {
   "country": "Benin",
-  "region": "Sub-Saharan Africa (West Africa, WAEMU)",
+  "region": "Sub-Saharan Africa (WAEMU)",
   "fiscal_year": "Calendar year",
   "fx_regime": {
-    "value": "peg to EUR (CFA franc, EUR 1 = XOF 655.957, BCEAO-managed)",
-    "source": "BCEAO, Bulletin Mensuel des Statistiques",
+    "value": "peg to EUR",
+    "source": "BCEAO (CFA franc at XOF 655.957 per EUR, French Treasury guarantee)",
     "asof": "15-Aug-26"
   },
   "commodity_exposure": {
-    "value": "Cotton and cashew exports and processing (Glo-Djigb\u00e9 zone); Port of Cotonou transit trade; Niger\u2013Benin crude export pipeline transit fees (S\u00e8m\u00e8-Kpodji)",
-    "source": "Ministry of Economy and Finance (Benin), CAA Public Debt Bulletin",
+    "value": "Cotton, cashew nuts and textiles processed in the Glo-Djigb\u00e9 zone; Port of Cotonou transit trade to Niger; Niger\u2013Benin crude pipeline transit fees (volumes depend on Niger border relations)",
+    "source": "Ministry of Economy and Finance, Benin",
     "asof": "31-Mar-26"
   },
   "imf": {
-    "programme": "42-month blended EFF/ECF and RSF arrangements, completed (final review)",
+    "programme": "Blended EFF/ECF and RSF arrangements (42 months), completed with final review",
     "size_usd_bn": 0.838,
     "approved": null,
     "next_review": null,
     "risk_of_debt_distress": "moderate",
-    "source": "IMF Executive Board Press Release No. 26/54 (EFF/ECF USD 638m plus RSF USD 200m)",
+    "source": "IMF Executive Board Press Release No. 26/54 (EFF/ECF $638m, RSF $200m)",
     "asof": "25-Feb-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Romuald Wadagni won the 12-Apr-26 presidential election and was inaugurated 24-May-26, succeeding Patrice Talon (two-term limit observed); technocratic fiscal continuity expected.",
-    "source": "Constitutional Court of Benin, Proclamation of Definitive Results",
+    "note": "Romuald Wadagni won the 12-Apr-26 presidential election and was inaugurated 24-May-26, succeeding Patrice Talon (term limit); technocratic policy continuity. Regional security risk in northern Atakora/Alibori departments.",
+    "source": "Constitutional Court of Benin; Fitch",
     "asof": "15-Apr-26"
   },
   "indicators": {
     "real_gdp_growth_pct": {
-      "value": 7.5,
-      "period": "2025",
-      "source": "INSAE / IMF Executive Board Press Release No. 26/54",
+      "value": 6.5,
+      "period": "2026E",
+      "source": "INSAE / IMF",
       "asof": "25-Feb-26"
     },
     "cpi_latest_yoy_pct": {
@@ -43,14 +43,14 @@
     "current_account_pct_gdp": {
       "value": -5.5,
       "period": "2025",
-      "source": "IMF Executive Board Press Release No. 26/54",
+      "source": "IMF",
       "asof": "25-Feb-26"
     },
     "gov_debt_pct_gdp": {
       "value": 54,
-      "definition": "central government debt (about 60.5% including SOE liabilities on the IMF perimeter)",
-      "period": "2025",
-      "source": "IMF Executive Board Press Release No. 26/54",
+      "definition": "Central government debt (about 60.5% incl. SOE liabilities under IMF perimeter)",
+      "period": "latest per IMF 25-Feb-26",
+      "source": "IMF",
       "asof": "25-Feb-26"
     },
     "fiscal_balance_pct_gdp": {
@@ -62,7 +62,7 @@
     "primary_balance_pct_gdp": {
       "value": -0.6,
       "period": "2025",
-      "source": "IMF Executive Board Press Release No. 26/54",
+      "source": "IMF",
       "asof": "25-Feb-26"
     },
     "revenue_pct_gdp": {
@@ -73,8 +73,8 @@
     },
     "interest_pct_revenue": {
       "value": 14,
-      "period": "latest",
-      "source": "Moody's Ratings, Benin upgraded to Ba3",
+      "period": "latest per Moody's 14-Aug-26",
+      "source": "Moody's Ratings",
       "asof": "14-Aug-26"
     },
     "parallel_fx_premium_pct": {
@@ -92,7 +92,7 @@
     "next_eurobond_maturity": {
       "value": "19-Jan-32",
       "note": "19-Jan-32, EUR 1.0bn 4.875% (XS2278994418)",
-      "source": "Ministry of Economy and Finance (Benin), CAA Public Debt Bulletin",
+      "source": "Ministry of Economy and Finance, Benin (CAA Public Debt Bulletin)",
       "asof": "31-Mar-26"
     },
     "fdi_net_pct_gdp": {
@@ -1578,6 +1578,97 @@
           "value": "19-Jan-32",
           "note": "19-Jan-32, EUR 1.0bn 4.875% (XS2278994418)",
           "source": "Ministry of Economy and Finance (Benin), CAA Public Debt Bulletin",
+          "asof": "31-Mar-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 1.961,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 27.786,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        }
+      },
+      "derived": {
+        "ctot_12m_pct": -1.1,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1832_benin-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": 6.5,
+          "period": "2026E",
+          "source": "INSAE / IMF",
+          "asof": "25-Feb-26"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 1.25,
+          "period": "Aug-26",
+          "source": "BCEAO / INSAE",
+          "asof": "15-Aug-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -5.5,
+          "period": "2025",
+          "source": "IMF",
+          "asof": "25-Feb-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 54,
+          "definition": "Central government debt (about 60.5% incl. SOE liabilities under IMF perimeter)",
+          "period": "latest per IMF 25-Feb-26",
+          "source": "IMF",
+          "asof": "25-Feb-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -2.8,
+          "period": "2025",
+          "source": "Ministry of Economy and Finance / IMF",
+          "asof": "25-Feb-26"
+        },
+        "primary_balance_pct_gdp": {
+          "value": -0.6,
+          "period": "2025",
+          "source": "IMF",
+          "asof": "25-Feb-26"
+        },
+        "revenue_pct_gdp": {
+          "value": 14.5,
+          "period": "2025",
+          "source": "IMF (tax revenue)",
+          "asof": "25-Feb-26"
+        },
+        "interest_pct_revenue": {
+          "value": 14,
+          "period": "latest per Moody's 14-Aug-26",
+          "source": "Moody's Ratings",
+          "asof": "14-Aug-26"
+        },
+        "parallel_fx_premium_pct": {
+          "value": 0.0,
+          "period": "Aug-26",
+          "source": "BCEAO",
+          "asof": "15-Aug-26"
+        },
+        "eurobonds_outstanding_usd_bn": {
+          "value": 2.85,
+          "period": "Mar-26",
+          "source": "Ministry of Economy and Finance",
+          "asof": "31-Mar-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "19-Jan-32",
+          "note": "19-Jan-32, EUR 1.0bn 4.875% (XS2278994418)",
+          "source": "Ministry of Economy and Finance, Benin (CAA Public Debt Bulletin)",
           "asof": "31-Mar-26"
         },
         "fdi_net_pct_gdp": {

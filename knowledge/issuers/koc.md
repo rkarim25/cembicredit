@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/koc.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - KCHOL 6.50% 2030: price 98.5, YTM 6.85%, spread 280bp (as of 2026-09-19).
 - Rating as recorded: BB / BB+.

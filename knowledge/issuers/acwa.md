@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/acwa.json`. Dated, sourced facts 
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - ACWA 5.95% 2039: price 96.5, YTM 6.45%, spread 235bp (as of 2026-09-19).
 - Rating as recorded: Baa2 / BBB.

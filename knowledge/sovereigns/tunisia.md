@@ -4,12 +4,12 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 5.6 % | Sep-26 | INS, Consumer Price Index release |
-| Policy rate | 7 % | Oct-26 | Banque Centrale de Tunisie, Executive Board decision |
+| CPI y/y | 5.6 % | Sep-26 | INS Consumer Price Index release |
+| Policy rate | 7 % | Oct-26 | Banque Centrale de Tunisie, Executive Board meeting |
 | Real policy rate | 1.4 % | derived |  |
 | Gross reserves | 9.08 USD bn | 2025-10 | IMF International Liquidity |
 | Reserves, 12m change | 6.8 % | derived | gross reserves incl. gold, 2024-10 to 2025-10 (IMF Internati |
@@ -18,8 +18,8 @@ _Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the 
 | Current account | -4.2 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | 1.63 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | -1.2 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 82 % GDP | 2026E | Ministry of Finance Tunisia |
-| Fiscal balance | -5.2 % GDP | 2026F | Ministry of Finance Tunisia |
+| Government debt | 82 % GDP | 2026E | Ministry of Finance Tunisia, budget implementation report |
+| Fiscal balance | -5.2 % GDP | 2026E | Ministry of Finance Tunisia, budget implementation report (d |
 | Real GDP growth | 2.1 % | 2026E | IMF WEO |
 | Nominal GDP | 60.74 USD bn | 2026E | IMF WEO |
 

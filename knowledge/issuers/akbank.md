@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/akbank.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - AKBNK 6.45% 2029: price 100.2, YTM 6.45%, spread 185bp (as of 2026-09-19).
 - Rating as recorded: BB- / B1.

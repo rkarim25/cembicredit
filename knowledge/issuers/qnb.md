@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/qnb.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - QNBK 4.875% 2029: price 99.5, YTM 5.0%, spread 95bp (as of 2026-09-19).
 - Rating as recorded: Aa3 / A+.

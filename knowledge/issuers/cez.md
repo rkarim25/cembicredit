@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/cez.json`. Dated, sourced facts o
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - CEZ 4.875% 2028: price 99.8, YTM 4.95%, spread 90bp (as of 2026-09-19).
 - Rating as recorded: A- / A3.

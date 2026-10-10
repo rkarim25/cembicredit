@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/ttkom.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - TTKOM 6.875% 2025: price 99.8, YTM 7.15%, spread 310bp (as of 2026-09-19).
 - Rating as recorded: BB / BB-.

@@ -559,7 +559,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Riyadh / 12:00 UK",
       "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
-      "days_to_earnings": 25
+      "days_to_earnings": 23
     },
     "management_questions": [
       {
@@ -1570,7 +1570,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADCBUH",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -2548,7 +2548,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADMELE",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -3027,7 +3027,7 @@ const MASTER_ISSUERS = [
         "net_debt": 412.3,
         "capex": -99.4,
         "fcf": -12.3,
-        "cash_interest": -4.325,
+        "cash_interest": 4.3,
         "net_leverage_cc": 5.84,
         "gross_leverage_cc": 6.193,
         "ebitda": 70.6,
@@ -3035,7 +3035,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 5.84,
         "interest_coverage": 16.3,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 171.2,
+        "tax_expense": 6.8,
+        "fcf_conversion_pct": -17.4,
+        "fcf_bridge": {
+          "calculated_ebitda": 70.6,
+          "capex": -99.4,
+          "cash_interest": 4.3,
+          "change_in_working_capital": 171.2,
+          "tax": 6.8,
+          "fcf": -12.3,
+          "formula_check": "70.6 - -99.4 - 4.3 - (171.2) - 6.8 = -12.3"
+        }
       },
       {
         "period": "2023A",
@@ -3050,7 +3062,7 @@ const MASTER_ISSUERS = [
         "net_debt": 421.0,
         "capex": -98.7,
         "fcf": 10.5,
-        "cash_interest": -7.035,
+        "cash_interest": 7.1,
         "net_leverage_cc": 3.682,
         "gross_leverage_cc": 3.974,
         "ebitda": 114.3,
@@ -3058,7 +3070,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.68,
         "interest_coverage": 16.2,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 184.5,
+        "tax_expense": 10.9,
+        "fcf_conversion_pct": 9.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 114.3,
+          "capex": -98.7,
+          "cash_interest": 7.1,
+          "change_in_working_capital": 184.5,
+          "tax": 10.9,
+          "fcf": 10.5,
+          "formula_check": "114.3 - -98.7 - 7.1 - (184.5) - 10.9 = 10.5"
+        }
       },
       {
         "period": "2024A",
@@ -3073,7 +3097,7 @@ const MASTER_ISSUERS = [
         "net_debt": 483.6,
         "capex": -49.7,
         "fcf": -33.9,
-        "cash_interest": -16.0,
+        "cash_interest": 15.9,
         "net_leverage_cc": 6.083,
         "gross_leverage_cc": 6.637,
         "ebitda": 79.5,
@@ -3081,7 +3105,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 6.08,
         "interest_coverage": 5.0,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 141.2,
+        "tax_expense": 6.0,
+        "fcf_conversion_pct": -42.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 79.5,
+          "capex": -49.7,
+          "cash_interest": 15.9,
+          "change_in_working_capital": 141.2,
+          "tax": 6.0,
+          "fcf": -33.9,
+          "formula_check": "79.5 - -49.7 - 15.9 - (141.2) - 6.0 = -33.9"
+        }
       },
       {
         "period": "2025A",
@@ -3096,7 +3132,7 @@ const MASTER_ISSUERS = [
         "net_debt": 515.4,
         "capex": -55.8,
         "fcf": -38.8,
-        "cash_interest": -45.0,
+        "cash_interest": 44.7,
         "net_leverage_cc": 3.718,
         "gross_leverage_cc": 3.898,
         "ebitda": 138.6,
@@ -3104,7 +3140,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.72,
         "interest_coverage": 3.1,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 180.7,
+        "tax_expense": 7.8,
+        "fcf_conversion_pct": -28.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 138.6,
+          "capex": -55.8,
+          "cash_interest": 44.7,
+          "change_in_working_capital": 180.7,
+          "tax": 7.8,
+          "fcf": -38.8,
+          "formula_check": "138.6 - -55.8 - 44.7 - (180.7) - 7.8 = -38.8"
+        }
       }
     ],
     "supplementary_data": {
@@ -3366,7 +3414,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -4094,7 +4142,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AIRGLO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "market_history": [
       {
@@ -4937,7 +4985,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.akbankinvestorrelations.com",
-      "days_to_earnings": 18
+      "days_to_earnings": 16
     },
     "management_questions": [
       {
@@ -5919,7 +5967,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Abu Dhabi / 10:00 UK",
       "ir_webcast_url": "https://www.aldar.com/en/investor-relations",
-      "days_to_earnings": 20
+      "days_to_earnings": 18
     },
     "management_questions": [
       {
@@ -6898,7 +6946,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://arada.com/en/investor-relations/",
-      "days_to_earnings": 40
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -7374,14 +7422,26 @@ const MASTER_ISSUERS = [
         "net_debt": 220.4,
         "cash": 5.176,
         "capex": -8.002,
-        "fcf": 8.093,
-        "cash_interest": -24.9,
+        "fcf": 8.1,
+        "cash_interest": 24.3,
         "net_leverage_cc": 6.473,
         "gross_leverage_cc": 6.625,
         "ebitda": 34.0,
         "ebitda_margin_pct": 11.2,
         "net_leverage": 6.48,
-        "interest_coverage": 1.4
+        "interest_coverage": 1.4,
+        "change_in_working_capital": 9.6,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": 23.8,
+        "fcf_bridge": {
+          "calculated_ebitda": 34.0,
+          "capex": -8.002,
+          "cash_interest": 24.3,
+          "change_in_working_capital": 9.6,
+          "tax": 0.0,
+          "fcf": 8.1,
+          "formula_check": "34.0 - -8.0 - 24.3 - (9.6) - 0.0 = 8.1"
+        }
       },
       {
         "period": "2017A",
@@ -7395,14 +7455,26 @@ const MASTER_ISSUERS = [
         "net_debt": 242.6,
         "cash": 8.649,
         "capex": -10.5,
-        "fcf": 2.318,
-        "cash_interest": -22.5,
+        "fcf": 2.3,
+        "cash_interest": 22.2,
         "net_leverage_cc": 5.446,
         "gross_leverage_cc": 5.64,
         "ebitda": 44.5,
         "ebitda_margin_pct": 12.7,
         "net_leverage": 5.45,
-        "interest_coverage": 2.0
+        "interest_coverage": 2.0,
+        "change_in_working_capital": 29.2,
+        "tax_expense": 1.3,
+        "fcf_conversion_pct": 5.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 44.5,
+          "capex": -10.5,
+          "cash_interest": 22.2,
+          "change_in_working_capital": 29.2,
+          "tax": 1.3,
+          "fcf": 2.3,
+          "formula_check": "44.5 - -10.5 - 22.2 - (29.2) - 1.3 = 2.3"
+        }
       },
       {
         "period": "2018A",
@@ -7416,14 +7488,26 @@ const MASTER_ISSUERS = [
         "net_debt": 207.0,
         "cash": 26.2,
         "capex": -6.847,
-        "fcf": 2.703,
-        "cash_interest": -25.2,
+        "fcf": 2.7,
+        "cash_interest": 25.1,
         "net_leverage_cc": 3.432,
         "gross_leverage_cc": 3.866,
         "ebitda": 60.3,
         "ebitda_margin_pct": 13.2,
         "net_leverage": 3.43,
-        "interest_coverage": 2.4
+        "interest_coverage": 2.4,
+        "change_in_working_capital": 36.7,
+        "tax_expense": 2.6,
+        "fcf_conversion_pct": 4.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 60.3,
+          "capex": -6.847,
+          "cash_interest": 25.1,
+          "change_in_working_capital": 36.7,
+          "tax": 2.6,
+          "fcf": 2.7,
+          "formula_check": "60.3 - -6.8 - 25.1 - (36.7) - 2.6 = 2.7"
+        }
       },
       {
         "period": "2019A",
@@ -7438,13 +7522,25 @@ const MASTER_ISSUERS = [
         "cash": 75.3,
         "capex": -5.023,
         "fcf": -88.5,
-        "cash_interest": -26.8,
+        "cash_interest": 27.2,
         "net_leverage_cc": 3.995,
         "gross_leverage_cc": 4.947,
         "ebitda": 79.0,
         "ebitda_margin_pct": 14.3,
         "net_leverage": 3.99,
-        "interest_coverage": 2.9
+        "interest_coverage": 2.9,
+        "change_in_working_capital": 141.1,
+        "tax_expense": 4.2,
+        "fcf_conversion_pct": -112.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 79.0,
+          "capex": -5.023,
+          "cash_interest": 27.2,
+          "change_in_working_capital": 141.1,
+          "tax": 4.2,
+          "fcf": -88.5,
+          "formula_check": "79.0 - -5.0 - 27.2 - (141.1) - 4.2 = -88.5"
+        }
       },
       {
         "period": "2020A",
@@ -7459,13 +7555,25 @@ const MASTER_ISSUERS = [
         "cash": 60.0,
         "capex": -21.7,
         "fcf": -76.2,
-        "cash_interest": -37.9,
+        "cash_interest": 38.2,
         "net_leverage_cc": 4.222,
         "gross_leverage_cc": 4.851,
         "ebitda": 95.5,
         "ebitda_margin_pct": 11.7,
         "net_leverage": 4.22,
-        "interest_coverage": 2.5
+        "interest_coverage": 2.5,
+        "change_in_working_capital": 150.9,
+        "tax_expense": 4.3,
+        "fcf_conversion_pct": -79.8,
+        "fcf_bridge": {
+          "calculated_ebitda": 95.5,
+          "capex": -21.7,
+          "cash_interest": 38.2,
+          "change_in_working_capital": 150.9,
+          "tax": 4.3,
+          "fcf": -76.2,
+          "formula_check": "95.5 - -21.7 - 38.2 - (150.9) - 4.3 = -76.2"
+        }
       },
       {
         "period": "2021A",
@@ -7480,13 +7588,25 @@ const MASTER_ISSUERS = [
         "cash": 67.3,
         "capex": -18.0,
         "fcf": -139.8,
-        "cash_interest": -92.7,
+        "cash_interest": 91.3,
         "net_leverage_cc": 4.428,
         "gross_leverage_cc": 4.92,
         "ebitda": 137.0,
         "ebitda_margin_pct": 10.1,
         "net_leverage": 4.43,
-        "interest_coverage": 1.5
+        "interest_coverage": 1.5,
+        "change_in_working_capital": 202.8,
+        "tax_expense": 0.7,
+        "fcf_conversion_pct": -102.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 137.0,
+          "capex": -18.0,
+          "cash_interest": 91.3,
+          "change_in_working_capital": 202.8,
+          "tax": 0.7,
+          "fcf": -139.8,
+          "formula_check": "137.0 - -18.0 - 91.3 - (202.8) - 0.7 = -139.8"
+        }
       },
       {
         "period": "2022A",
@@ -7502,7 +7622,7 @@ const MASTER_ISSUERS = [
         "cash": 78.9,
         "capex": -13.4,
         "fcf": -53.7,
-        "cash_interest": -61.9,
+        "cash_interest": 63.9,
         "net_leverage_cc": 2.936,
         "gross_leverage_cc": 3.262,
         "ebitda": 241.5,
@@ -7510,7 +7630,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.94,
         "interest_coverage": 3.9,
         "ebitda_reconciliation_variance": -7.8,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 235.9,
+        "tax_expense": 16.6,
+        "fcf_conversion_pct": -21.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 249.3,
+          "capex": -13.4,
+          "cash_interest": 63.9,
+          "change_in_working_capital": 235.9,
+          "tax": 16.6,
+          "fcf": -53.7,
+          "formula_check": "249.3 - -13.4 - 63.9 - (235.9) - 16.6 = -53.7"
+        }
       },
       {
         "period": "2023A",
@@ -7526,7 +7658,7 @@ const MASTER_ISSUERS = [
         "cash": 67.8,
         "capex": -40.3,
         "fcf": 96.3,
-        "cash_interest": -69.7,
+        "cash_interest": 71.4,
         "net_leverage_cc": 3.687,
         "gross_leverage_cc": 4.055,
         "ebitda": 184.3,
@@ -7534,7 +7666,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.69,
         "interest_coverage": 2.6,
         "ebitda_reconciliation_variance": -1.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 49.5,
+        "tax_expense": 8.8,
+        "fcf_conversion_pct": 51.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 185.7,
+          "capex": -40.3,
+          "cash_interest": 71.4,
+          "change_in_working_capital": 49.5,
+          "tax": 8.8,
+          "fcf": 96.3,
+          "formula_check": "185.7 - -40.3 - 71.4 - (49.5) - 8.8 = 96.3"
+        }
       },
       {
         "period": "2024A",
@@ -7550,7 +7694,7 @@ const MASTER_ISSUERS = [
         "cash": 134.2,
         "capex": -22.4,
         "fcf": -52.2,
-        "cash_interest": -86.9,
+        "cash_interest": 88.5,
         "net_leverage_cc": 3.469,
         "gross_leverage_cc": 4.101,
         "ebitda": 212.5,
@@ -7558,7 +7702,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.47,
         "interest_coverage": 2.4,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 189.6,
+        "tax_expense": 9.0,
+        "fcf_conversion_pct": -24.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 212.5,
+          "capex": -22.4,
+          "cash_interest": 88.5,
+          "change_in_working_capital": 189.6,
+          "tax": 9.0,
+          "fcf": -52.2,
+          "formula_check": "212.5 - -22.4 - 88.5 - (189.6) - 9.0 = -52.2"
+        }
       },
       {
         "period": "2025A",
@@ -7573,13 +7729,25 @@ const MASTER_ISSUERS = [
         "cash": 158.9,
         "capex": -25.3,
         "fcf": -134.1,
-        "cash_interest": -85.3,
+        "cash_interest": 84.8,
         "net_leverage_cc": 4.52,
         "gross_leverage_cc": 5.269,
         "ebitda": 212.1,
         "ebitda_margin_pct": 9.8,
         "net_leverage": 4.52,
-        "interest_coverage": 2.5
+        "interest_coverage": 2.5,
+        "change_in_working_capital": 277.1,
+        "tax_expense": 9.6,
+        "fcf_conversion_pct": -63.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 212.1,
+          "capex": -25.3,
+          "cash_interest": 84.8,
+          "change_in_working_capital": 277.1,
+          "tax": 9.6,
+          "fcf": -134.1,
+          "formula_check": "212.1 - -25.3 - 84.8 - (277.1) - 9.6 = -134.1"
+        }
       }
     ],
     "supplementary_data": {
@@ -8022,7 +8190,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -8585,14 +8753,26 @@ const MASTER_ISSUERS = [
         "net_debt": 43.4,
         "cash": 7.717,
         "capex": -25.2,
-        "fcf": -6.823,
-        "cash_interest": -1.455,
+        "fcf": -6.8,
+        "cash_interest": 1.5,
         "net_leverage_cc": 1.714,
         "gross_leverage_cc": 2.019,
         "ebitda": 25.3,
         "ebitda_margin_pct": 5.8,
         "net_leverage": 1.72,
-        "interest_coverage": 17.4
+        "interest_coverage": 17.4,
+        "change_in_working_capital": 53.4,
+        "tax_expense": 2.4,
+        "fcf_conversion_pct": -26.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 25.3,
+          "capex": -25.2,
+          "cash_interest": 1.5,
+          "change_in_working_capital": 53.4,
+          "tax": 2.4,
+          "fcf": -6.8,
+          "formula_check": "25.3 - -25.2 - 1.5 - (53.4) - 2.4 = -6.8"
+        }
       },
       {
         "period": "2019A",
@@ -8607,13 +8787,25 @@ const MASTER_ISSUERS = [
         "cash": 217.3,
         "capex": -39.7,
         "fcf": -31.4,
-        "cash_interest": -7.716,
+        "cash_interest": 7.7,
         "net_leverage_cc": 1.385,
         "gross_leverage_cc": 2.398,
         "ebitda": 65.4,
         "ebitda_margin_pct": 10.8,
         "net_leverage": 4.54,
-        "interest_coverage": 8.5
+        "interest_coverage": 8.5,
+        "change_in_working_capital": 123.1,
+        "tax_expense": 5.7,
+        "fcf_conversion_pct": -48.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 65.4,
+          "capex": -39.7,
+          "cash_interest": 7.7,
+          "change_in_working_capital": 123.1,
+          "tax": 5.7,
+          "fcf": -31.4,
+          "formula_check": "65.4 - -39.7 - 7.7 - (123.1) - 5.7 = -31.4"
+        }
       },
       {
         "period": "2020A",
@@ -8628,13 +8820,25 @@ const MASTER_ISSUERS = [
         "cash": 178.4,
         "capex": -93.1,
         "fcf": -33.6,
-        "cash_interest": -28.6,
+        "cash_interest": 28.3,
         "net_leverage_cc": 2.09,
         "gross_leverage_cc": 3.723,
         "ebitda": 110.2,
         "ebitda_margin_pct": 15.8,
         "net_leverage": 2.07,
-        "interest_coverage": 3.9
+        "interest_coverage": 3.9,
+        "change_in_working_capital": 201.3,
+        "tax_expense": 7.3,
+        "fcf_conversion_pct": -30.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 110.2,
+          "capex": -93.1,
+          "cash_interest": 28.3,
+          "change_in_working_capital": 201.3,
+          "tax": 7.3,
+          "fcf": -33.6,
+          "formula_check": "110.2 - -93.1 - 28.3 - (201.3) - 7.3 = -33.6"
+        }
       },
       {
         "period": "2021A",
@@ -8650,7 +8854,7 @@ const MASTER_ISSUERS = [
         "cash": 216.7,
         "capex": -70.3,
         "fcf": -65.5,
-        "cash_interest": -25.9,
+        "cash_interest": 28.8,
         "net_leverage_cc": 1.697,
         "gross_leverage_cc": 3.096,
         "ebitda": 155.1,
@@ -8658,7 +8862,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 1.7,
         "interest_coverage": 6.0,
         "ebitda_reconciliation_variance": -17.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 265.7,
+        "tax_expense": 13.8,
+        "fcf_conversion_pct": -38.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 172.5,
+          "capex": -70.3,
+          "cash_interest": 28.8,
+          "change_in_working_capital": 265.7,
+          "tax": 13.8,
+          "fcf": -65.5,
+          "formula_check": "172.5 - -70.3 - 28.8 - (265.7) - 13.8 = -65.5"
+        }
       },
       {
         "period": "2022A",
@@ -8674,7 +8890,7 @@ const MASTER_ISSUERS = [
         "cash": 324.7,
         "capex": -159.1,
         "fcf": -49.4,
-        "cash_interest": -41.9,
+        "cash_interest": 43.9,
         "net_leverage_cc": 1.459,
         "gross_leverage_cc": 2.665,
         "ebitda": 288.2,
@@ -8682,7 +8898,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 1.36,
         "interest_coverage": 6.9,
         "ebitda_reconciliation_variance": -14.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 442.0,
+        "tax_expense": 25.2,
+        "fcf_conversion_pct": -16.3,
+        "fcf_bridge": {
+          "calculated_ebitda": 302.6,
+          "capex": -159.1,
+          "cash_interest": 43.9,
+          "change_in_working_capital": 442.0,
+          "tax": 25.2,
+          "fcf": -49.4,
+          "formula_check": "302.6 - -159.1 - 43.9 - (442.0) - 25.2 = -49.4"
+        }
       },
       {
         "period": "2023A",
@@ -8698,7 +8926,7 @@ const MASTER_ISSUERS = [
         "cash": 200.6,
         "capex": -213.8,
         "fcf": -97.0,
-        "cash_interest": -74.6,
+        "cash_interest": 76.1,
         "net_leverage_cc": 2.453,
         "gross_leverage_cc": 2.936,
         "ebitda": 392.1,
@@ -8706,7 +8934,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.6,
         "interest_coverage": 5.3,
         "ebitda_reconciliation_variance": -11.1,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 607.0,
+        "tax_expense": 30.9,
+        "fcf_conversion_pct": -24.1,
+        "fcf_bridge": {
+          "calculated_ebitda": 403.2,
+          "capex": -213.8,
+          "cash_interest": 76.1,
+          "change_in_working_capital": 607.0,
+          "tax": 30.9,
+          "fcf": -97.0,
+          "formula_check": "403.2 - -213.8 - 76.1 - (607.0) - 30.9 = -97.0"
+        }
       },
       {
         "period": "2024A",
@@ -8722,7 +8962,7 @@ const MASTER_ISSUERS = [
         "cash": 184.7,
         "capex": -240.3,
         "fcf": -189.2,
-        "cash_interest": -124.1,
+        "cash_interest": 200.7,
         "net_leverage_cc": 4.738,
         "gross_leverage_cc": 5.316,
         "ebitda": 322.9,
@@ -8730,7 +8970,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 4.69,
         "interest_coverage": 2.6,
         "ebitda_reconciliation_variance": -199.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 726.0,
+        "tax_expense": 24.7,
+        "fcf_conversion_pct": -36.3,
+        "fcf_bridge": {
+          "calculated_ebitda": 521.9,
+          "capex": -240.3,
+          "cash_interest": 200.7,
+          "change_in_working_capital": 726.0,
+          "tax": 24.7,
+          "fcf": -189.2,
+          "formula_check": "521.9 - -240.3 - 200.7 - (726.0) - 24.7 = -189.2"
+        }
       },
       {
         "period": "2025A",
@@ -8746,7 +8998,7 @@ const MASTER_ISSUERS = [
         "cash": 124.0,
         "capex": -169.1,
         "fcf": -177.5,
-        "cash_interest": -108.5,
+        "cash_interest": 136.1,
         "net_leverage_cc": 2.805,
         "gross_leverage_cc": 3.185,
         "ebitda": 360.8,
@@ -8754,7 +9006,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.54,
         "interest_coverage": 3.3,
         "ebitda_reconciliation_variance": -88.3,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 632.9,
+        "tax_expense": 26.7,
+        "fcf_conversion_pct": -39.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 449.1,
+          "capex": -169.1,
+          "cash_interest": 136.1,
+          "change_in_working_capital": 632.9,
+          "tax": 26.7,
+          "fcf": -177.5,
+          "formula_check": "449.1 - -169.1 - 136.1 - (632.9) - 26.7 = -177.5"
+        }
       }
     ],
     "credit_view": {
@@ -9649,7 +9913,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AVIASG",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     }
   },
   {
@@ -10212,7 +10476,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:30 Istanbul",
       "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-      "days_to_earnings": 31
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -11191,7 +11455,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -12188,7 +12452,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -13199,7 +13463,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -13678,7 +13942,7 @@ const MASTER_ISSUERS = [
         "cash": 6701.9,
         "capex": -2586.5,
         "fcf": 1871.4,
-        "cash_interest": -1826.9,
+        "cash_interest": 1377.0,
         "net_leverage_cc": 3.314,
         "gross_leverage_cc": 4.088,
         "ebitda": 11507.0,
@@ -13686,7 +13950,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.49,
         "interest_coverage": 6.3,
         "ebitda_reconciliation_variance": 2831.6,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 7309.1,
+        "tax_expense": 704.4,
+        "fcf_conversion_pct": 21.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 8675.4,
+          "capex": -2586.5,
+          "cash_interest": 1377.0,
+          "change_in_working_capital": 7309.1,
+          "tax": 704.4,
+          "fcf": 1871.4,
+          "formula_check": "8675.4 - -2586.5 - 1377.0 - (7309.1) - 704.4 = 1871.4"
+        }
       },
       {
         "period": "2017A",
@@ -13702,7 +13978,7 @@ const MASTER_ISSUERS = [
         "cash": 3775.1,
         "capex": -2273.2,
         "fcf": 188.4,
-        "cash_interest": -2154.1,
+        "cash_interest": 2193.2,
         "net_leverage_cc": 2.549,
         "gross_leverage_cc": 2.856,
         "ebitda": 12333.0,
@@ -13710,7 +13986,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.54,
         "interest_coverage": 5.7,
         "ebitda_reconciliation_variance": -168.1,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 11409.1,
+        "tax_expense": 983.6,
+        "fcf_conversion_pct": 1.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 12501.1,
+          "capex": -2273.2,
+          "cash_interest": 2193.2,
+          "change_in_working_capital": 11409.1,
+          "tax": 983.6,
+          "fcf": 188.4,
+          "formula_check": "12501.1 - -2273.2 - 2193.2 - (11409.1) - 983.6 = 188.4"
+        }
       },
       {
         "period": "2018A",
@@ -13726,7 +14014,7 @@ const MASTER_ISSUERS = [
         "cash": 5547.6,
         "capex": -2706.3,
         "fcf": 6544.0,
-        "cash_interest": -1916.8,
+        "cash_interest": 1926.6,
         "net_leverage_cc": 2.872,
         "gross_leverage_cc": 3.363,
         "ebitda": 11315.0,
@@ -13734,7 +14022,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.87,
         "interest_coverage": 5.9,
         "ebitda_reconciliation_variance": -52.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 4698.2,
+        "tax_expense": 904.5,
+        "fcf_conversion_pct": 57.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 11367.0,
+          "capex": -2706.3,
+          "cash_interest": 1926.6,
+          "change_in_working_capital": 4698.2,
+          "tax": 904.5,
+          "fcf": 6544.0,
+          "formula_check": "11367.0 - -2706.3 - 1926.6 - (4698.2) - 904.5 = 6544.0"
+        }
       },
       {
         "period": "2019A",
@@ -13750,7 +14050,7 @@ const MASTER_ISSUERS = [
         "cash": 6803.9,
         "capex": -2682.5,
         "fcf": -871.4,
-        "cash_interest": -2238.4,
+        "cash_interest": 1407.7,
         "net_leverage_cc": 10.5,
         "gross_leverage_cc": 12.4,
         "ebitda": 5936.0,
@@ -13758,7 +14058,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 6.32,
         "interest_coverage": 2.7,
         "ebitda_reconciliation_variance": 2135.1,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 5759.2,
+        "tax_expense": 187.9,
+        "fcf_conversion_pct": -22.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 3800.9,
+          "capex": -2682.5,
+          "cash_interest": 1407.7,
+          "change_in_working_capital": 5759.2,
+          "tax": 187.9,
+          "fcf": -871.4,
+          "formula_check": "3800.9 - -2682.5 - 1407.7 - (5759.2) - 187.9 = -871.4"
+        }
       },
       {
         "period": "2020A",
@@ -13774,7 +14086,7 @@ const MASTER_ISSUERS = [
         "cash": 13862.9,
         "capex": -2759.8,
         "fcf": 2871.1,
-        "cash_interest": -2736.8,
+        "cash_interest": 996.2,
         "net_leverage_cc": 11.4,
         "gross_leverage_cc": 14.7,
         "ebitda": 10975.0,
@@ -13782,7 +14094,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 4.25,
         "interest_coverage": 4.0,
         "ebitda_reconciliation_variance": 6990.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 2608.5,
+        "tax_expense": 269.0,
+        "fcf_conversion_pct": 72.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 3985.0,
+          "capex": -2759.8,
+          "cash_interest": 996.2,
+          "change_in_working_capital": 2608.5,
+          "tax": 269.0,
+          "fcf": 2871.1,
+          "formula_check": "3985.0 - -2759.8 - 996.2 - (2608.5) - 269.0 = 2871.1"
+        }
       },
       {
         "period": "2021A",
@@ -13798,7 +14122,7 @@ const MASTER_ISSUERS = [
         "cash": 8680.7,
         "capex": -3421.3,
         "fcf": 10523.5,
-        "cash_interest": -2883.4,
+        "cash_interest": 2889.3,
         "net_leverage_cc": 1.506,
         "gross_leverage_cc": 1.794,
         "ebitda": 30330.0,
@@ -13806,7 +14130,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 1.5,
         "interest_coverage": 10.5,
         "ebitda_reconciliation_variance": -7.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 17593.7,
+        "tax_expense": 2752.0,
+        "fcf_conversion_pct": 34.7,
+        "fcf_bridge": {
+          "calculated_ebitda": 30337.2,
+          "capex": -3421.3,
+          "cash_interest": 2889.3,
+          "change_in_working_capital": 17593.7,
+          "tax": 2752.0,
+          "fcf": 10523.5,
+          "formula_check": "30337.2 - -3421.3 - 2889.3 - (17593.7) - 2752.0 = 10523.5"
+        }
       },
       {
         "period": "2022A",
@@ -13822,7 +14158,7 @@ const MASTER_ISSUERS = [
         "cash": 12466.0,
         "capex": -4848.0,
         "fcf": 3174.0,
-        "cash_interest": -2905.0,
+        "cash_interest": 2537.8,
         "net_leverage_cc": 4.592,
         "gross_leverage_cc": 5.977,
         "ebitda": 10572.0,
@@ -13830,7 +14166,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.91,
         "interest_coverage": 3.6,
         "ebitda_reconciliation_variance": 1436.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 7693.6,
+        "tax_expense": 578.6,
+        "fcf_conversion_pct": 34.7,
+        "fcf_bridge": {
+          "calculated_ebitda": 9136.0,
+          "capex": -4848.0,
+          "cash_interest": 2537.8,
+          "change_in_working_capital": 7693.6,
+          "tax": 578.6,
+          "fcf": 3174.0,
+          "formula_check": "9136.0 - -4848.0 - 2537.8 - (7693.6) - 578.6 = 3174.0"
+        }
       },
       {
         "period": "2023A",
@@ -13846,7 +14194,7 @@ const MASTER_ISSUERS = [
         "cash": 14187.0,
         "capex": -4530.0,
         "fcf": -8011.0,
-        "cash_interest": -3550.0,
+        "cash_interest": 2372.7,
         "net_leverage_cc": 18.9,
         "gross_leverage_cc": 24.8,
         "ebitda": 3738.0,
@@ -13854,7 +14202,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 12.23,
         "interest_coverage": 1.1,
         "ebitda_reconciliation_variance": 1128.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 12778.3,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": -306.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 2610.0,
+          "capex": -4530.0,
+          "cash_interest": 2372.7,
+          "change_in_working_capital": 12778.3,
+          "tax": 0.0,
+          "fcf": -8011.0,
+          "formula_check": "2610.0 - -4530.0 - 2372.7 - (12778.3) - 0.0 = -8011.0"
+        }
       },
       {
         "period": "2024A",
@@ -13870,7 +14230,7 @@ const MASTER_ISSUERS = [
         "cash": 14986.0,
         "capex": -3761.0,
         "fcf": -2330.0,
-        "cash_interest": -4261.0,
+        "cash_interest": 2916.4,
         "net_leverage_cc": 15.2,
         "gross_leverage_cc": 19.0,
         "ebitda": 5759.0,
@@ -13878,7 +14238,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 10.2,
         "interest_coverage": 1.4,
         "ebitda_reconciliation_variance": 1676.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 7257.6,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": -57.1,
+        "fcf_bridge": {
+          "calculated_ebitda": 4083.0,
+          "capex": -3761.0,
+          "cash_interest": 2916.4,
+          "change_in_working_capital": 7257.6,
+          "tax": 0.0,
+          "fcf": -2330.0,
+          "formula_check": "4083.0 - -3761.0 - 2916.4 - (7257.6) - 0.0 = -2330.0"
+        }
       },
       {
         "period": "2025A",
@@ -13894,7 +14266,7 @@ const MASTER_ISSUERS = [
         "cash": 10501.0,
         "capex": -3092.0,
         "fcf": -8165.0,
-        "cash_interest": -4427.0,
+        "cash_interest": 6151.4,
         "net_leverage_cc": 21.2,
         "gross_leverage_cc": 24.9,
         "ebitda": 3157.0,
@@ -13902,7 +14274,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 19.26,
         "interest_coverage": 0.7,
         "ebitda_reconciliation_variance": -1149.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 9411.6,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": -189.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 4306.0,
+          "capex": -3092.0,
+          "cash_interest": 6151.4,
+          "change_in_working_capital": 9411.6,
+          "tax": 0.0,
+          "fcf": -8165.0,
+          "formula_check": "4306.0 - -3092.0 - 6151.4 - (9411.6) - 0.0 = -8165.0"
+        }
       }
     ],
     "debt_maturities": {
@@ -14598,7 +14982,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BRASKM",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "market_history": [
       {
@@ -15314,7 +15698,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CCOLA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -16294,7 +16678,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "10:00 Prague / 09:00 UK",
       "ir_webcast_url": "https://www.cez.cz/en/investors",
-      "days_to_earnings": 32
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -17057,7 +17441,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CIMKOC",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -17868,7 +18252,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://www.damacproperties.com/en/investor-relations/",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -18838,7 +19222,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANFER",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -19846,7 +20230,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANREF",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -20846,7 +21230,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DARARK",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -21850,7 +22234,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DIBUH",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -22829,7 +23213,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai / 10:00 UK",
       "ir_webcast_url": "https://www.dpworld.com/investors",
-      "days_to_earnings": 48
+      "days_to_earnings": 46
     },
     "management_questions": [
       {
@@ -23809,7 +24193,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -24268,9 +24652,22 @@ const MASTER_ISSUERS = [
         "net_debt": -7880.6,
         "net_leverage": -1.51,
         "interest_coverage": 20.4,
-        "cash_interest": 256.2,
+        "cash_interest": 255.8,
         "net_profit": 4750.6,
-        "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement."
+        "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement.",
+        "change_in_working_capital": 539.1,
+        "tax_expense": 509.5,
+        "fcf": 3813.4,
+        "fcf_conversion_pct": 73.1,
+        "fcf_bridge": {
+          "calculated_ebitda": 5217.8,
+          "capex": 100.0,
+          "cash_interest": 255.8,
+          "change_in_working_capital": 539.1,
+          "tax": 509.5,
+          "fcf": 3813.4,
+          "formula_check": "5217.8 - 100.0 - 255.8 - (539.1) - 509.5 = 3813.4"
+        }
       },
       {
         "period": "2023A",
@@ -24289,7 +24686,20 @@ const MASTER_ISSUERS = [
         "interest_coverage": 16.5,
         "cash_interest": 283.0,
         "net_profit": 4037.3,
-        "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement."
+        "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement.",
+        "change_in_working_capital": 436.5,
+        "tax_expense": 447.8,
+        "fcf": 3401.8,
+        "fcf_conversion_pct": 72.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 4669.1,
+          "capex": 100.0,
+          "cash_interest": 283.0,
+          "change_in_working_capital": 436.5,
+          "tax": 447.8,
+          "fcf": 3401.8,
+          "formula_check": "4669.1 - 100.0 - 283.0 - (436.5) - 447.8 = 3401.8"
+        }
       }
     ],
     "supplementary_data": {
@@ -24524,7 +24934,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-      "days_to_earnings": 33
+      "days_to_earnings": 31
     },
     "management_questions": [
       {
@@ -25499,7 +25909,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EKGYO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -26503,7 +26913,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EMIRAT",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -27480,7 +27890,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EQUATE",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -28475,7 +28885,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.erdemir.com.tr/investor-relations/",
-      "days_to_earnings": 26
+      "days_to_earnings": 24
     },
     "management_questions": [
       {
@@ -29471,7 +29881,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "11:00 Johannesburg",
       "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
-      "days_to_earnings": 52
+      "days_to_earnings": 50
     },
     "management_questions": [
       {
@@ -30482,7 +30892,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FABUH",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -31493,7 +31903,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FIRSTR",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -32504,7 +32914,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.garantibbvainvestorrelations.com",
-      "days_to_earnings": 19
+      "days_to_earnings": 17
     },
     "management_questions": [
       {
@@ -33482,7 +33892,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -34140,7 +34550,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GLNG",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "market_history": [
       {
@@ -34962,7 +35372,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Johannesburg",
       "ir_webcast_url": "https://www.goldfields.com/investors.php",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -35991,7 +36401,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
-      "days_to_earnings": 31
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -37002,7 +37412,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HSBKK",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -37982,7 +38392,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HT",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -38953,7 +39363,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HIDRO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -39933,7 +40343,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:30 London / 09:30 EST",
       "ir_webcast_url": "https://www.ihstowers.com/investors",
-      "days_to_earnings": 39
+      "days_to_earnings": 37
     },
     "management_questions": [
       {
@@ -40937,7 +41347,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.isbank.com.tr/en/investor-relations",
-      "days_to_earnings": 22
+      "days_to_earnings": 20
     },
     "management_questions": [
       {
@@ -41910,7 +42320,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ITTIHAD",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -42931,7 +43341,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KFH",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -43910,7 +44320,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -44901,7 +45311,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
-      "days_to_earnings": 27
+      "days_to_earnings": 25
     },
     "management_questions": [
       {
@@ -45882,7 +46292,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "16:00 London / 11:00 EST",
       "ir_webcast_url": "https://investors.kosmosenergy.com/",
-      "days_to_earnings": 26
+      "days_to_earnings": 24
     },
     "management_questions": [
       {
@@ -46877,7 +47287,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKCEM",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -47854,7 +48264,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -48832,7 +49242,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKREN",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -49826,7 +50236,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -50802,7 +51212,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -51785,7 +52195,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "13:00 London",
       "ir_webcast_url": "https://metinvestholding.com/en/investors",
-      "days_to_earnings": 40
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -52854,7 +53264,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 London / 09:00 EST",
       "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
-      "days_to_earnings": 39
+      "days_to_earnings": 37
     },
     "management_questions": [
       {
@@ -53833,7 +54243,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Budapest",
       "ir_webcast_url": "https://molgroup.info/en/investor-relations",
-      "days_to_earnings": 28
+      "days_to_earnings": 26
     },
     "management_questions": [
       {
@@ -54831,7 +55241,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MTNSJ",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -55803,7 +56213,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "15:00 Casablanca",
       "ir_webcast_url": "https://www.ocpgroup.ma/investors",
-      "days_to_earnings": 42
+      "days_to_earnings": 40
     },
     "management_questions": [
       {
@@ -56801,7 +57211,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -57773,7 +58183,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/OQ",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -58772,7 +59182,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Warsaw / 07:00 UK",
       "ir_webcast_url": "https://www.orlen.pl/en/investor-relations",
-      "days_to_earnings": 20
+      "days_to_earnings": 18
     },
     "management_questions": [
       {
@@ -59664,7 +60074,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/PEARL",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -60353,7 +60763,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.pegasusinvestorrelations.com",
-      "days_to_earnings": 31
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -61331,7 +61741,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "09:00 Warsaw",
       "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
-      "days_to_earnings": 39
+      "days_to_earnings": 37
     },
     "management_questions": [
       {
@@ -62308,7 +62718,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QAZGAS",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -63319,7 +63729,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QNBK",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -64330,7 +64740,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RJHI",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -65341,7 +65751,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RIBL",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -66320,7 +66730,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ROMGAZ",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -67315,7 +67725,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Riyadh / 11:00 UK",
       "ir_webcast_url": "https://www.sabic.com/en/investors",
-      "days_to_earnings": 19
+      "days_to_earnings": 17
     },
     "management_questions": [
       {
@@ -68306,7 +68716,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SAMPA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -69287,7 +69697,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SOLSJ",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -70283,7 +70693,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SECO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -71260,7 +71670,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.sisecam.com.tr/en/investor-relations",
-      "days_to_earnings": 21
+      "days_to_earnings": 19
     },
     "management_questions": [
       {
@@ -72271,7 +72681,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SNB",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -73253,7 +73663,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://sobhadxb.com/investor-relations",
-      "days_to_earnings": 38
+      "days_to_earnings": 36
     },
     "management_questions": [
       {
@@ -74225,7 +74635,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SONANG",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -75254,7 +75664,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/STANBI",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -76234,7 +76644,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "15:30 Riyadh / 12:30 UK",
       "ir_webcast_url": "https://www.stc.com.sa/content/stc/sa/en/investor-relations.html",
-      "days_to_earnings": 17
+      "days_to_earnings": 15
     },
     "management_questions": [
       {
@@ -77205,7 +77615,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "13:00 Abu Dhabi",
       "ir_webcast_url": "https://www.taqa.com/investors/",
-      "days_to_earnings": 31
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -78182,7 +78592,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/THARISA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -79174,7 +79584,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://investor.turkishairlines.com/en",
-      "days_to_earnings": 25
+      "days_to_earnings": 23
     },
     "management_questions": [
       {
@@ -80152,7 +80562,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
-      "days_to_earnings": 32
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -80623,7 +81033,7 @@ const MASTER_ISSUERS = [
         "cash": 355.7,
         "capex": -1739.6,
         "fcf": -968.3,
-        "cash_interest": -199.4,
+        "cash_interest": 131.1,
         "net_leverage_cc": 5.727,
         "gross_leverage_cc": 6.239,
         "ebitda": 1048.7,
@@ -80631,7 +81041,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.8,
         "interest_coverage": 5.3,
         "ebitda_reconciliation_variance": 353.7,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 3218.5,
+        "tax_expense": 53.3,
+        "fcf_conversion_pct": -139.3,
+        "fcf_bridge": {
+          "calculated_ebitda": 695.0,
+          "capex": -1739.6,
+          "cash_interest": 131.1,
+          "change_in_working_capital": 3218.5,
+          "tax": 53.3,
+          "fcf": -968.3,
+          "formula_check": "695.0 - -1739.6 - 131.1 - (3218.5) - 53.3 = -968.3"
+        }
       },
       {
         "period": "2016A",
@@ -80647,7 +81069,7 @@ const MASTER_ISSUERS = [
         "cash": 281.9,
         "capex": -1031.2,
         "fcf": -806.0,
-        "cash_interest": -282.8,
+        "cash_interest": 232.4,
         "net_leverage_cc": 6.127,
         "gross_leverage_cc": 6.494,
         "ebitda": 941.3,
@@ -80655,7 +81077,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 4.99,
         "interest_coverage": 3.3,
         "ebitda_reconciliation_variance": 174.5,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 2325.9,
+        "tax_expense": 45.7,
+        "fcf_conversion_pct": -105.1,
+        "fcf_bridge": {
+          "calculated_ebitda": 766.8,
+          "capex": -1031.2,
+          "cash_interest": 232.4,
+          "change_in_working_capital": 2325.9,
+          "tax": 45.7,
+          "fcf": -806.0,
+          "formula_check": "766.8 - -1031.2 - 232.4 - (2325.9) - 45.7 = -806.0"
+        }
       },
       {
         "period": "2017A",
@@ -80671,7 +81105,7 @@ const MASTER_ISSUERS = [
         "cash": 284.0,
         "capex": -307.5,
         "fcf": 587.4,
-        "cash_interest": -262.3,
+        "cash_interest": 254.7,
         "net_leverage_cc": 2.557,
         "gross_leverage_cc": 2.776,
         "ebitda": 1346.1,
@@ -80679,7 +81113,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.47,
         "interest_coverage": 5.1,
         "ebitda_reconciliation_variance": 47.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 666.3,
+        "tax_expense": 98.2,
+        "fcf_conversion_pct": 45.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 1299.1,
+          "capex": -307.5,
+          "cash_interest": 254.7,
+          "change_in_working_capital": 666.3,
+          "tax": 98.2,
+          "fcf": 587.4,
+          "formula_check": "1299.1 - -307.5 - 254.7 - (666.3) - 98.2 = 587.4"
+        }
       },
       {
         "period": "2018A",
@@ -80695,7 +81141,7 @@ const MASTER_ISSUERS = [
         "cash": 179.8,
         "capex": -440.5,
         "fcf": 411.6,
-        "cash_interest": -231.6,
+        "cash_interest": 206.7,
         "net_leverage_cc": 2.131,
         "gross_leverage_cc": 2.258,
         "ebitda": 1600.3,
@@ -80703,7 +81149,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 1.9,
         "interest_coverage": 6.9,
         "ebitda_reconciliation_variance": 174.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 1129.4,
+        "tax_expense": 118.7,
+        "fcf_conversion_pct": 28.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 1425.9,
+          "capex": -440.5,
+          "cash_interest": 206.7,
+          "change_in_working_capital": 1129.4,
+          "tax": 118.7,
+          "fcf": 411.6,
+          "formula_check": "1425.9 - -440.5 - 206.7 - (1129.4) - 118.7 = 411.6"
+        }
       },
       {
         "period": "2019A",
@@ -80719,7 +81177,7 @@ const MASTER_ISSUERS = [
         "cash": 288.8,
         "capex": -520.9,
         "fcf": 350.3,
-        "cash_interest": -213.5,
+        "cash_interest": 211.4,
         "net_leverage_cc": 2.025,
         "gross_leverage_cc": 2.235,
         "ebitda": 1397.5,
@@ -80727,7 +81185,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 1.99,
         "interest_coverage": 6.5,
         "ebitda_reconciliation_variance": 23.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 1220.7,
+        "tax_expense": 112.6,
+        "fcf_conversion_pct": 25.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 1374.1,
+          "capex": -520.9,
+          "cash_interest": 211.4,
+          "change_in_working_capital": 1220.7,
+          "tax": 112.6,
+          "fcf": 350.3,
+          "formula_check": "1374.1 - -520.9 - 211.4 - (1220.7) - 112.6 = 350.3"
+        }
       },
       {
         "period": "2020A",
@@ -80743,7 +81213,7 @@ const MASTER_ISSUERS = [
         "cash": 805.4,
         "capex": -430.9,
         "fcf": -89.0,
-        "cash_interest": -196.7,
+        "cash_interest": 167.5,
         "net_leverage_cc": 3.444,
         "gross_leverage_cc": 4.617,
         "ebitda": 803.9,
@@ -80751,7 +81221,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.94,
         "interest_coverage": 4.1,
         "ebitda_reconciliation_variance": 117.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 992.1,
+        "tax_expense": 47.0,
+        "fcf_conversion_pct": -13.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 686.7,
+          "capex": -430.9,
+          "cash_interest": 167.5,
+          "change_in_working_capital": 992.1,
+          "tax": 47.0,
+          "fcf": -89.0,
+          "formula_check": "686.7 - -430.9 - 167.5 - (992.1) - 47.0 = -89.0"
+        }
       },
       {
         "period": "2021A",
@@ -80766,14 +81248,26 @@ const MASTER_ISSUERS = [
         "cash": 469.1,
         "capex": -236.5,
         "fcf": 159.6,
-        "cash_interest": -232.9,
+        "cash_interest": 242.8,
         "net_leverage_cc": 2.059,
         "gross_leverage_cc": 2.519,
         "ebitda": 972.9,
         "net_leverage": 2.16,
         "interest_coverage": 4.2,
         "ebitda_reconciliation_variance": -46.9,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 783.2,
+        "tax_expense": 70.7,
+        "fcf_conversion_pct": 15.7,
+        "fcf_bridge": {
+          "calculated_ebitda": 1019.8,
+          "capex": -236.5,
+          "cash_interest": 242.8,
+          "change_in_working_capital": 783.2,
+          "tax": 70.7,
+          "fcf": 159.6,
+          "formula_check": "1019.8 - -236.5 - 242.8 - (783.2) - 70.7 = 159.6"
+        }
       },
       {
         "period": "2022A",
@@ -80788,14 +81282,26 @@ const MASTER_ISSUERS = [
         "cash": 636.3,
         "capex": -306.4,
         "fcf": 318.6,
-        "cash_interest": -240.1,
+        "cash_interest": 271.5,
         "net_leverage_cc": 1.109,
         "gross_leverage_cc": 1.493,
         "ebitda": 1468.9,
         "net_leverage": 1.25,
         "interest_coverage": 6.1,
         "ebitda_reconciliation_variance": -187.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 1239.2,
+        "tax_expense": 133.2,
+        "fcf_conversion_pct": 19.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 1656.1,
+          "capex": -306.4,
+          "cash_interest": 271.5,
+          "change_in_working_capital": 1239.2,
+          "tax": 133.2,
+          "fcf": 318.6,
+          "formula_check": "1656.1 - -306.4 - 271.5 - (1239.2) - 133.2 = 318.6"
+        }
       },
       {
         "period": "2023A",
@@ -80810,14 +81316,26 @@ const MASTER_ISSUERS = [
         "cash": 499.0,
         "capex": -292.5,
         "fcf": 148.7,
-        "cash_interest": -216.7,
+        "cash_interest": 220.3,
         "net_leverage_cc": 1.358,
         "gross_leverage_cc": 1.785,
         "ebitda": 1151.4,
         "net_leverage": 1.38,
         "interest_coverage": 5.3,
         "ebitda_reconciliation_variance": -16.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 1001.5,
+        "tax_expense": 89.6,
+        "fcf_conversion_pct": 12.7,
+        "fcf_bridge": {
+          "calculated_ebitda": 1167.6,
+          "capex": -292.5,
+          "cash_interest": 220.3,
+          "change_in_working_capital": 1001.5,
+          "tax": 89.6,
+          "fcf": 148.7,
+          "formula_check": "1167.6 - -292.5 - 220.3 - (1001.5) - 89.6 = 148.7"
+        }
       },
       {
         "period": "2024A",
@@ -80833,7 +81351,7 @@ const MASTER_ISSUERS = [
         "cash": 555.1,
         "capex": -224.5,
         "fcf": 141.8,
-        "cash_interest": -203.7,
+        "cash_interest": 223.2,
         "net_leverage_cc": 1.299,
         "gross_leverage_cc": 1.807,
         "ebitda": 1008.1,
@@ -80841,7 +81359,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 1.41,
         "interest_coverage": 4.9,
         "ebitda_reconciliation_variance": -85.6,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 871.8,
+        "tax_expense": 81.4,
+        "fcf_conversion_pct": 13.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 1093.7,
+          "capex": -224.5,
+          "cash_interest": 223.2,
+          "change_in_working_capital": 871.8,
+          "tax": 81.4,
+          "fcf": 141.8,
+          "formula_check": "1093.7 - -224.5 - 223.2 - (871.8) - 81.4 = 141.8"
+        }
       },
       {
         "period": "2025A",
@@ -80857,7 +81387,7 @@ const MASTER_ISSUERS = [
         "cash": 332.2,
         "capex": -195.6,
         "fcf": -219.6,
-        "cash_interest": -205.3,
+        "cash_interest": 199.5,
         "net_leverage_cc": 2.293,
         "gross_leverage_cc": 2.868,
         "ebitda": 586.0,
@@ -80865,7 +81395,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 2.26,
         "interest_coverage": 2.9,
         "ebitda_reconciliation_variance": 7.5,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 763.4,
+        "tax_expense": 30.8,
+        "fcf_conversion_pct": -38.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 578.5,
+          "capex": -195.6,
+          "cash_interest": 199.5,
+          "change_in_working_capital": 763.4,
+          "tax": 30.8,
+          "fcf": -219.6,
+          "formula_check": "578.5 - -195.6 - 199.5 - (763.4) - 30.8 = -219.6"
+        }
       }
     ],
     "supplementary_data": {
@@ -81124,7 +81666,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "08:30 London",
       "ir_webcast_url": "https://www.tullowoil.com/investors/",
-      "days_to_earnings": 33
+      "days_to_earnings": 31
     },
     "management_questions": [
       {
@@ -82816,7 +83358,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -83845,7 +84387,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EXCRTU",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -84825,7 +85367,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "18:30 Istanbul / 15:30 UK",
       "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -85825,7 +86367,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "14:00 Kyiv / 12:00 UK",
       "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
-      "days_to_earnings": 42
+      "days_to_earnings": 40
     },
     "management_questions": [
       {
@@ -86836,7 +87378,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
-      "days_to_earnings": 28
+      "days_to_earnings": 26
     },
     "management_questions": [
       {
@@ -87847,7 +88389,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.yapikrediinvestorrelations.com",
-      "days_to_earnings": 20
+      "days_to_earnings": 18
     },
     "management_questions": [
       {
@@ -88311,7 +88853,7 @@ const MASTER_ISSUERS = [
         "cash": 2791.9,
         "capex": -1486.3,
         "fcf": 7699.0,
-        "cash_interest": -7590.9,
+        "cash_interest": 4964.0,
         "net_leverage_cc": 3.562,
         "gross_leverage_cc": 3.732,
         "ebitda": 16439.7,
@@ -88319,7 +88861,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.56,
         "interest_coverage": 2.2,
         "ebitda_reconciliation_variance": 5519.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": -658.1,
+        "tax_expense": 402.1,
+        "fcf_conversion_pct": 70.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 10920.7,
+          "capex": -1486.3,
+          "cash_interest": 4964.0,
+          "change_in_working_capital": -658.1,
+          "tax": 402.1,
+          "fcf": 7699.0,
+          "formula_check": "10920.7 - -1486.3 - 4964.0 - (-658.1) - 402.1 = 7699.0"
+        }
       },
       {
         "period": "2024A",
@@ -88335,7 +88889,7 @@ const MASTER_ISSUERS = [
         "cash": 2018.2,
         "capex": -1584.6,
         "fcf": -4991.7,
-        "cash_interest": -11839.6,
+        "cash_interest": 6809.1,
         "net_leverage_cc": 3.624,
         "gross_leverage_cc": 3.751,
         "ebitda": 15958.0,
@@ -88343,7 +88897,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 3.62,
         "interest_coverage": 1.3,
         "ebitda_reconciliation_variance": 7106.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 8619.0,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": -56.4,
+        "fcf_bridge": {
+          "calculated_ebitda": 8851.8,
+          "capex": -1584.6,
+          "cash_interest": 6809.1,
+          "change_in_working_capital": 8619.0,
+          "tax": 0.0,
+          "fcf": -4991.7,
+          "formula_check": "8851.8 - -1584.6 - 6809.1 - (8619.0) - 0.0 = -4991.7"
+        }
       },
       {
         "period": "2025A",
@@ -88359,7 +88925,7 @@ const MASTER_ISSUERS = [
         "cash": 5901.6,
         "capex": -1482.4,
         "fcf": -8915.1,
-        "cash_interest": -8277.3,
+        "cash_interest": 6693.9,
         "net_leverage_cc": 4.646,
         "gross_leverage_cc": 5.097,
         "ebitda": 13094.2,
@@ -88367,7 +88933,19 @@ const MASTER_ISSUERS = [
         "net_leverage": 4.65,
         "interest_coverage": 1.6,
         "ebitda_reconciliation_variance": 2383.9,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 14293.4,
+        "tax_expense": 120.5,
+        "fcf_conversion_pct": -83.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 10710.3,
+          "capex": -1482.4,
+          "cash_interest": 6693.9,
+          "change_in_working_capital": 14293.4,
+          "tax": 120.5,
+          "fcf": -8915.1,
+          "formula_check": "10710.3 - -1482.4 - 6693.9 - (14293.4) - 120.5 = -8915.1"
+        }
       }
     ],
     "supplementary_data": {
@@ -89203,7 +89781,7 @@ const MASTER_ISSUERS = [
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul (Post-Market)",
       "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-      "days_to_earnings": 28
+      "days_to_earnings": 26
     },
     "management_questions": [
       {
@@ -92748,7 +93326,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Riyadh / 12:00 UK",
       "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
-      "days_to_earnings": 25
+      "days_to_earnings": 23
     },
     "management_questions": [
       {
@@ -93759,7 +94337,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADCBUH",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -94737,7 +95315,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ADMELE",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -95216,7 +95794,7 @@ window.CEMBI_DATA = {
         "net_debt": 412.3,
         "capex": -99.4,
         "fcf": -12.3,
-        "cash_interest": -4.325,
+        "cash_interest": 4.3,
         "net_leverage_cc": 5.84,
         "gross_leverage_cc": 6.193,
         "ebitda": 70.6,
@@ -95224,7 +95802,19 @@ window.CEMBI_DATA = {
         "net_leverage": 5.84,
         "interest_coverage": 16.3,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 171.2,
+        "tax_expense": 6.8,
+        "fcf_conversion_pct": -17.4,
+        "fcf_bridge": {
+          "calculated_ebitda": 70.6,
+          "capex": -99.4,
+          "cash_interest": 4.3,
+          "change_in_working_capital": 171.2,
+          "tax": 6.8,
+          "fcf": -12.3,
+          "formula_check": "70.6 - -99.4 - 4.3 - (171.2) - 6.8 = -12.3"
+        }
       },
       {
         "period": "2023A",
@@ -95239,7 +95829,7 @@ window.CEMBI_DATA = {
         "net_debt": 421.0,
         "capex": -98.7,
         "fcf": 10.5,
-        "cash_interest": -7.035,
+        "cash_interest": 7.1,
         "net_leverage_cc": 3.682,
         "gross_leverage_cc": 3.974,
         "ebitda": 114.3,
@@ -95247,7 +95837,19 @@ window.CEMBI_DATA = {
         "net_leverage": 3.68,
         "interest_coverage": 16.2,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 184.5,
+        "tax_expense": 10.9,
+        "fcf_conversion_pct": 9.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 114.3,
+          "capex": -98.7,
+          "cash_interest": 7.1,
+          "change_in_working_capital": 184.5,
+          "tax": 10.9,
+          "fcf": 10.5,
+          "formula_check": "114.3 - -98.7 - 7.1 - (184.5) - 10.9 = 10.5"
+        }
       },
       {
         "period": "2024A",
@@ -95262,7 +95864,7 @@ window.CEMBI_DATA = {
         "net_debt": 483.6,
         "capex": -49.7,
         "fcf": -33.9,
-        "cash_interest": -16.0,
+        "cash_interest": 15.9,
         "net_leverage_cc": 6.083,
         "gross_leverage_cc": 6.637,
         "ebitda": 79.5,
@@ -95270,7 +95872,19 @@ window.CEMBI_DATA = {
         "net_leverage": 6.08,
         "interest_coverage": 5.0,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 141.2,
+        "tax_expense": 6.0,
+        "fcf_conversion_pct": -42.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 79.5,
+          "capex": -49.7,
+          "cash_interest": 15.9,
+          "change_in_working_capital": 141.2,
+          "tax": 6.0,
+          "fcf": -33.9,
+          "formula_check": "79.5 - -49.7 - 15.9 - (141.2) - 6.0 = -33.9"
+        }
       },
       {
         "period": "2025A",
@@ -95285,7 +95899,7 @@ window.CEMBI_DATA = {
         "net_debt": 515.4,
         "capex": -55.8,
         "fcf": -38.8,
-        "cash_interest": -45.0,
+        "cash_interest": 44.7,
         "net_leverage_cc": 3.718,
         "gross_leverage_cc": 3.898,
         "ebitda": 138.6,
@@ -95293,7 +95907,19 @@ window.CEMBI_DATA = {
         "net_leverage": 3.72,
         "interest_coverage": 3.1,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 180.7,
+        "tax_expense": 7.8,
+        "fcf_conversion_pct": -28.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 138.6,
+          "capex": -55.8,
+          "cash_interest": 44.7,
+          "change_in_working_capital": 180.7,
+          "tax": 7.8,
+          "fcf": -38.8,
+          "formula_check": "138.6 - -55.8 - 44.7 - (180.7) - 7.8 = -38.8"
+        }
       }
     ],
     "supplementary_data": {
@@ -95555,7 +96181,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AFRCEL",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -96283,7 +96909,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AIRGLO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "market_history": [
       {
@@ -97126,7 +97752,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.akbankinvestorrelations.com",
-      "days_to_earnings": 18
+      "days_to_earnings": 16
     },
     "management_questions": [
       {
@@ -98108,7 +98734,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Abu Dhabi / 10:00 UK",
       "ir_webcast_url": "https://www.aldar.com/en/investor-relations",
-      "days_to_earnings": 20
+      "days_to_earnings": 18
     },
     "management_questions": [
       {
@@ -99087,7 +99713,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://arada.com/en/investor-relations/",
-      "days_to_earnings": 40
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -99563,14 +100189,26 @@ window.CEMBI_DATA = {
         "net_debt": 220.4,
         "cash": 5.176,
         "capex": -8.002,
-        "fcf": 8.093,
-        "cash_interest": -24.9,
+        "fcf": 8.1,
+        "cash_interest": 24.3,
         "net_leverage_cc": 6.473,
         "gross_leverage_cc": 6.625,
         "ebitda": 34.0,
         "ebitda_margin_pct": 11.2,
         "net_leverage": 6.48,
-        "interest_coverage": 1.4
+        "interest_coverage": 1.4,
+        "change_in_working_capital": 9.6,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": 23.8,
+        "fcf_bridge": {
+          "calculated_ebitda": 34.0,
+          "capex": -8.002,
+          "cash_interest": 24.3,
+          "change_in_working_capital": 9.6,
+          "tax": 0.0,
+          "fcf": 8.1,
+          "formula_check": "34.0 - -8.0 - 24.3 - (9.6) - 0.0 = 8.1"
+        }
       },
       {
         "period": "2017A",
@@ -99584,14 +100222,26 @@ window.CEMBI_DATA = {
         "net_debt": 242.6,
         "cash": 8.649,
         "capex": -10.5,
-        "fcf": 2.318,
-        "cash_interest": -22.5,
+        "fcf": 2.3,
+        "cash_interest": 22.2,
         "net_leverage_cc": 5.446,
         "gross_leverage_cc": 5.64,
         "ebitda": 44.5,
         "ebitda_margin_pct": 12.7,
         "net_leverage": 5.45,
-        "interest_coverage": 2.0
+        "interest_coverage": 2.0,
+        "change_in_working_capital": 29.2,
+        "tax_expense": 1.3,
+        "fcf_conversion_pct": 5.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 44.5,
+          "capex": -10.5,
+          "cash_interest": 22.2,
+          "change_in_working_capital": 29.2,
+          "tax": 1.3,
+          "fcf": 2.3,
+          "formula_check": "44.5 - -10.5 - 22.2 - (29.2) - 1.3 = 2.3"
+        }
       },
       {
         "period": "2018A",
@@ -99605,14 +100255,26 @@ window.CEMBI_DATA = {
         "net_debt": 207.0,
         "cash": 26.2,
         "capex": -6.847,
-        "fcf": 2.703,
-        "cash_interest": -25.2,
+        "fcf": 2.7,
+        "cash_interest": 25.1,
         "net_leverage_cc": 3.432,
         "gross_leverage_cc": 3.866,
         "ebitda": 60.3,
         "ebitda_margin_pct": 13.2,
         "net_leverage": 3.43,
-        "interest_coverage": 2.4
+        "interest_coverage": 2.4,
+        "change_in_working_capital": 36.7,
+        "tax_expense": 2.6,
+        "fcf_conversion_pct": 4.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 60.3,
+          "capex": -6.847,
+          "cash_interest": 25.1,
+          "change_in_working_capital": 36.7,
+          "tax": 2.6,
+          "fcf": 2.7,
+          "formula_check": "60.3 - -6.8 - 25.1 - (36.7) - 2.6 = 2.7"
+        }
       },
       {
         "period": "2019A",
@@ -99627,13 +100289,25 @@ window.CEMBI_DATA = {
         "cash": 75.3,
         "capex": -5.023,
         "fcf": -88.5,
-        "cash_interest": -26.8,
+        "cash_interest": 27.2,
         "net_leverage_cc": 3.995,
         "gross_leverage_cc": 4.947,
         "ebitda": 79.0,
         "ebitda_margin_pct": 14.3,
         "net_leverage": 3.99,
-        "interest_coverage": 2.9
+        "interest_coverage": 2.9,
+        "change_in_working_capital": 141.1,
+        "tax_expense": 4.2,
+        "fcf_conversion_pct": -112.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 79.0,
+          "capex": -5.023,
+          "cash_interest": 27.2,
+          "change_in_working_capital": 141.1,
+          "tax": 4.2,
+          "fcf": -88.5,
+          "formula_check": "79.0 - -5.0 - 27.2 - (141.1) - 4.2 = -88.5"
+        }
       },
       {
         "period": "2020A",
@@ -99648,13 +100322,25 @@ window.CEMBI_DATA = {
         "cash": 60.0,
         "capex": -21.7,
         "fcf": -76.2,
-        "cash_interest": -37.9,
+        "cash_interest": 38.2,
         "net_leverage_cc": 4.222,
         "gross_leverage_cc": 4.851,
         "ebitda": 95.5,
         "ebitda_margin_pct": 11.7,
         "net_leverage": 4.22,
-        "interest_coverage": 2.5
+        "interest_coverage": 2.5,
+        "change_in_working_capital": 150.9,
+        "tax_expense": 4.3,
+        "fcf_conversion_pct": -79.8,
+        "fcf_bridge": {
+          "calculated_ebitda": 95.5,
+          "capex": -21.7,
+          "cash_interest": 38.2,
+          "change_in_working_capital": 150.9,
+          "tax": 4.3,
+          "fcf": -76.2,
+          "formula_check": "95.5 - -21.7 - 38.2 - (150.9) - 4.3 = -76.2"
+        }
       },
       {
         "period": "2021A",
@@ -99669,13 +100355,25 @@ window.CEMBI_DATA = {
         "cash": 67.3,
         "capex": -18.0,
         "fcf": -139.8,
-        "cash_interest": -92.7,
+        "cash_interest": 91.3,
         "net_leverage_cc": 4.428,
         "gross_leverage_cc": 4.92,
         "ebitda": 137.0,
         "ebitda_margin_pct": 10.1,
         "net_leverage": 4.43,
-        "interest_coverage": 1.5
+        "interest_coverage": 1.5,
+        "change_in_working_capital": 202.8,
+        "tax_expense": 0.7,
+        "fcf_conversion_pct": -102.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 137.0,
+          "capex": -18.0,
+          "cash_interest": 91.3,
+          "change_in_working_capital": 202.8,
+          "tax": 0.7,
+          "fcf": -139.8,
+          "formula_check": "137.0 - -18.0 - 91.3 - (202.8) - 0.7 = -139.8"
+        }
       },
       {
         "period": "2022A",
@@ -99691,7 +100389,7 @@ window.CEMBI_DATA = {
         "cash": 78.9,
         "capex": -13.4,
         "fcf": -53.7,
-        "cash_interest": -61.9,
+        "cash_interest": 63.9,
         "net_leverage_cc": 2.936,
         "gross_leverage_cc": 3.262,
         "ebitda": 241.5,
@@ -99699,7 +100397,19 @@ window.CEMBI_DATA = {
         "net_leverage": 2.94,
         "interest_coverage": 3.9,
         "ebitda_reconciliation_variance": -7.8,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 235.9,
+        "tax_expense": 16.6,
+        "fcf_conversion_pct": -21.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 249.3,
+          "capex": -13.4,
+          "cash_interest": 63.9,
+          "change_in_working_capital": 235.9,
+          "tax": 16.6,
+          "fcf": -53.7,
+          "formula_check": "249.3 - -13.4 - 63.9 - (235.9) - 16.6 = -53.7"
+        }
       },
       {
         "period": "2023A",
@@ -99715,7 +100425,7 @@ window.CEMBI_DATA = {
         "cash": 67.8,
         "capex": -40.3,
         "fcf": 96.3,
-        "cash_interest": -69.7,
+        "cash_interest": 71.4,
         "net_leverage_cc": 3.687,
         "gross_leverage_cc": 4.055,
         "ebitda": 184.3,
@@ -99723,7 +100433,19 @@ window.CEMBI_DATA = {
         "net_leverage": 3.69,
         "interest_coverage": 2.6,
         "ebitda_reconciliation_variance": -1.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 49.5,
+        "tax_expense": 8.8,
+        "fcf_conversion_pct": 51.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 185.7,
+          "capex": -40.3,
+          "cash_interest": 71.4,
+          "change_in_working_capital": 49.5,
+          "tax": 8.8,
+          "fcf": 96.3,
+          "formula_check": "185.7 - -40.3 - 71.4 - (49.5) - 8.8 = 96.3"
+        }
       },
       {
         "period": "2024A",
@@ -99739,7 +100461,7 @@ window.CEMBI_DATA = {
         "cash": 134.2,
         "capex": -22.4,
         "fcf": -52.2,
-        "cash_interest": -86.9,
+        "cash_interest": 88.5,
         "net_leverage_cc": 3.469,
         "gross_leverage_cc": 4.101,
         "ebitda": 212.5,
@@ -99747,7 +100469,19 @@ window.CEMBI_DATA = {
         "net_leverage": 3.47,
         "interest_coverage": 2.4,
         "ebitda_reconciliation_variance": 0.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 189.6,
+        "tax_expense": 9.0,
+        "fcf_conversion_pct": -24.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 212.5,
+          "capex": -22.4,
+          "cash_interest": 88.5,
+          "change_in_working_capital": 189.6,
+          "tax": 9.0,
+          "fcf": -52.2,
+          "formula_check": "212.5 - -22.4 - 88.5 - (189.6) - 9.0 = -52.2"
+        }
       },
       {
         "period": "2025A",
@@ -99762,13 +100496,25 @@ window.CEMBI_DATA = {
         "cash": 158.9,
         "capex": -25.3,
         "fcf": -134.1,
-        "cash_interest": -85.3,
+        "cash_interest": 84.8,
         "net_leverage_cc": 4.52,
         "gross_leverage_cc": 5.269,
         "ebitda": 212.1,
         "ebitda_margin_pct": 9.8,
         "net_leverage": 4.52,
-        "interest_coverage": 2.5
+        "interest_coverage": 2.5,
+        "change_in_working_capital": 277.1,
+        "tax_expense": 9.6,
+        "fcf_conversion_pct": -63.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 212.1,
+          "capex": -25.3,
+          "cash_interest": 84.8,
+          "change_in_working_capital": 277.1,
+          "tax": 9.6,
+          "fcf": -134.1,
+          "formula_check": "212.1 - -25.3 - 84.8 - (277.1) - 9.6 = -134.1"
+        }
       }
     ],
     "supplementary_data": {
@@ -100211,7 +100957,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -100774,14 +101520,26 @@ window.CEMBI_DATA = {
         "net_debt": 43.4,
         "cash": 7.717,
         "capex": -25.2,
-        "fcf": -6.823,
-        "cash_interest": -1.455,
+        "fcf": -6.8,
+        "cash_interest": 1.5,
         "net_leverage_cc": 1.714,
         "gross_leverage_cc": 2.019,
         "ebitda": 25.3,
         "ebitda_margin_pct": 5.8,
         "net_leverage": 1.72,
-        "interest_coverage": 17.4
+        "interest_coverage": 17.4,
+        "change_in_working_capital": 53.4,
+        "tax_expense": 2.4,
+        "fcf_conversion_pct": -26.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 25.3,
+          "capex": -25.2,
+          "cash_interest": 1.5,
+          "change_in_working_capital": 53.4,
+          "tax": 2.4,
+          "fcf": -6.8,
+          "formula_check": "25.3 - -25.2 - 1.5 - (53.4) - 2.4 = -6.8"
+        }
       },
       {
         "period": "2019A",
@@ -100796,13 +101554,25 @@ window.CEMBI_DATA = {
         "cash": 217.3,
         "capex": -39.7,
         "fcf": -31.4,
-        "cash_interest": -7.716,
+        "cash_interest": 7.7,
         "net_leverage_cc": 1.385,
         "gross_leverage_cc": 2.398,
         "ebitda": 65.4,
         "ebitda_margin_pct": 10.8,
         "net_leverage": 4.54,
-        "interest_coverage": 8.5
+        "interest_coverage": 8.5,
+        "change_in_working_capital": 123.1,
+        "tax_expense": 5.7,
+        "fcf_conversion_pct": -48.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 65.4,
+          "capex": -39.7,
+          "cash_interest": 7.7,
+          "change_in_working_capital": 123.1,
+          "tax": 5.7,
+          "fcf": -31.4,
+          "formula_check": "65.4 - -39.7 - 7.7 - (123.1) - 5.7 = -31.4"
+        }
       },
       {
         "period": "2020A",
@@ -100817,13 +101587,25 @@ window.CEMBI_DATA = {
         "cash": 178.4,
         "capex": -93.1,
         "fcf": -33.6,
-        "cash_interest": -28.6,
+        "cash_interest": 28.3,
         "net_leverage_cc": 2.09,
         "gross_leverage_cc": 3.723,
         "ebitda": 110.2,
         "ebitda_margin_pct": 15.8,
         "net_leverage": 2.07,
-        "interest_coverage": 3.9
+        "interest_coverage": 3.9,
+        "change_in_working_capital": 201.3,
+        "tax_expense": 7.3,
+        "fcf_conversion_pct": -30.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 110.2,
+          "capex": -93.1,
+          "cash_interest": 28.3,
+          "change_in_working_capital": 201.3,
+          "tax": 7.3,
+          "fcf": -33.6,
+          "formula_check": "110.2 - -93.1 - 28.3 - (201.3) - 7.3 = -33.6"
+        }
       },
       {
         "period": "2021A",
@@ -100839,7 +101621,7 @@ window.CEMBI_DATA = {
         "cash": 216.7,
         "capex": -70.3,
         "fcf": -65.5,
-        "cash_interest": -25.9,
+        "cash_interest": 28.8,
         "net_leverage_cc": 1.697,
         "gross_leverage_cc": 3.096,
         "ebitda": 155.1,
@@ -100847,7 +101629,19 @@ window.CEMBI_DATA = {
         "net_leverage": 1.7,
         "interest_coverage": 6.0,
         "ebitda_reconciliation_variance": -17.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 265.7,
+        "tax_expense": 13.8,
+        "fcf_conversion_pct": -38.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 172.5,
+          "capex": -70.3,
+          "cash_interest": 28.8,
+          "change_in_working_capital": 265.7,
+          "tax": 13.8,
+          "fcf": -65.5,
+          "formula_check": "172.5 - -70.3 - 28.8 - (265.7) - 13.8 = -65.5"
+        }
       },
       {
         "period": "2022A",
@@ -100863,7 +101657,7 @@ window.CEMBI_DATA = {
         "cash": 324.7,
         "capex": -159.1,
         "fcf": -49.4,
-        "cash_interest": -41.9,
+        "cash_interest": 43.9,
         "net_leverage_cc": 1.459,
         "gross_leverage_cc": 2.665,
         "ebitda": 288.2,
@@ -100871,7 +101665,19 @@ window.CEMBI_DATA = {
         "net_leverage": 1.36,
         "interest_coverage": 6.9,
         "ebitda_reconciliation_variance": -14.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 442.0,
+        "tax_expense": 25.2,
+        "fcf_conversion_pct": -16.3,
+        "fcf_bridge": {
+          "calculated_ebitda": 302.6,
+          "capex": -159.1,
+          "cash_interest": 43.9,
+          "change_in_working_capital": 442.0,
+          "tax": 25.2,
+          "fcf": -49.4,
+          "formula_check": "302.6 - -159.1 - 43.9 - (442.0) - 25.2 = -49.4"
+        }
       },
       {
         "period": "2023A",
@@ -100887,7 +101693,7 @@ window.CEMBI_DATA = {
         "cash": 200.6,
         "capex": -213.8,
         "fcf": -97.0,
-        "cash_interest": -74.6,
+        "cash_interest": 76.1,
         "net_leverage_cc": 2.453,
         "gross_leverage_cc": 2.936,
         "ebitda": 392.1,
@@ -100895,7 +101701,19 @@ window.CEMBI_DATA = {
         "net_leverage": 2.6,
         "interest_coverage": 5.3,
         "ebitda_reconciliation_variance": -11.1,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 607.0,
+        "tax_expense": 30.9,
+        "fcf_conversion_pct": -24.1,
+        "fcf_bridge": {
+          "calculated_ebitda": 403.2,
+          "capex": -213.8,
+          "cash_interest": 76.1,
+          "change_in_working_capital": 607.0,
+          "tax": 30.9,
+          "fcf": -97.0,
+          "formula_check": "403.2 - -213.8 - 76.1 - (607.0) - 30.9 = -97.0"
+        }
       },
       {
         "period": "2024A",
@@ -100911,7 +101729,7 @@ window.CEMBI_DATA = {
         "cash": 184.7,
         "capex": -240.3,
         "fcf": -189.2,
-        "cash_interest": -124.1,
+        "cash_interest": 200.7,
         "net_leverage_cc": 4.738,
         "gross_leverage_cc": 5.316,
         "ebitda": 322.9,
@@ -100919,7 +101737,19 @@ window.CEMBI_DATA = {
         "net_leverage": 4.69,
         "interest_coverage": 2.6,
         "ebitda_reconciliation_variance": -199.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 726.0,
+        "tax_expense": 24.7,
+        "fcf_conversion_pct": -36.3,
+        "fcf_bridge": {
+          "calculated_ebitda": 521.9,
+          "capex": -240.3,
+          "cash_interest": 200.7,
+          "change_in_working_capital": 726.0,
+          "tax": 24.7,
+          "fcf": -189.2,
+          "formula_check": "521.9 - -240.3 - 200.7 - (726.0) - 24.7 = -189.2"
+        }
       },
       {
         "period": "2025A",
@@ -100935,7 +101765,7 @@ window.CEMBI_DATA = {
         "cash": 124.0,
         "capex": -169.1,
         "fcf": -177.5,
-        "cash_interest": -108.5,
+        "cash_interest": 136.1,
         "net_leverage_cc": 2.805,
         "gross_leverage_cc": 3.185,
         "ebitda": 360.8,
@@ -100943,7 +101773,19 @@ window.CEMBI_DATA = {
         "net_leverage": 2.54,
         "interest_coverage": 3.3,
         "ebitda_reconciliation_variance": -88.3,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 632.9,
+        "tax_expense": 26.7,
+        "fcf_conversion_pct": -39.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 449.1,
+          "capex": -169.1,
+          "cash_interest": 136.1,
+          "change_in_working_capital": 632.9,
+          "tax": 26.7,
+          "fcf": -177.5,
+          "formula_check": "449.1 - -169.1 - 136.1 - (632.9) - 26.7 = -177.5"
+        }
       }
     ],
     "credit_view": {
@@ -101838,7 +102680,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AVIASG",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     }
   },
   "aydem": {
@@ -102401,7 +103243,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:30 Istanbul",
       "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-      "days_to_earnings": 31
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -103380,7 +104222,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/AZULE",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -104377,7 +105219,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -105388,7 +106230,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BINGHA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -105867,7 +106709,7 @@ window.CEMBI_DATA = {
         "cash": 6701.9,
         "capex": -2586.5,
         "fcf": 1871.4,
-        "cash_interest": -1826.9,
+        "cash_interest": 1377.0,
         "net_leverage_cc": 3.314,
         "gross_leverage_cc": 4.088,
         "ebitda": 11507.0,
@@ -105875,7 +106717,19 @@ window.CEMBI_DATA = {
         "net_leverage": 2.49,
         "interest_coverage": 6.3,
         "ebitda_reconciliation_variance": 2831.6,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 7309.1,
+        "tax_expense": 704.4,
+        "fcf_conversion_pct": 21.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 8675.4,
+          "capex": -2586.5,
+          "cash_interest": 1377.0,
+          "change_in_working_capital": 7309.1,
+          "tax": 704.4,
+          "fcf": 1871.4,
+          "formula_check": "8675.4 - -2586.5 - 1377.0 - (7309.1) - 704.4 = 1871.4"
+        }
       },
       {
         "period": "2017A",
@@ -105891,7 +106745,7 @@ window.CEMBI_DATA = {
         "cash": 3775.1,
         "capex": -2273.2,
         "fcf": 188.4,
-        "cash_interest": -2154.1,
+        "cash_interest": 2193.2,
         "net_leverage_cc": 2.549,
         "gross_leverage_cc": 2.856,
         "ebitda": 12333.0,
@@ -105899,7 +106753,19 @@ window.CEMBI_DATA = {
         "net_leverage": 2.54,
         "interest_coverage": 5.7,
         "ebitda_reconciliation_variance": -168.1,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 11409.1,
+        "tax_expense": 983.6,
+        "fcf_conversion_pct": 1.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 12501.1,
+          "capex": -2273.2,
+          "cash_interest": 2193.2,
+          "change_in_working_capital": 11409.1,
+          "tax": 983.6,
+          "fcf": 188.4,
+          "formula_check": "12501.1 - -2273.2 - 2193.2 - (11409.1) - 983.6 = 188.4"
+        }
       },
       {
         "period": "2018A",
@@ -105915,7 +106781,7 @@ window.CEMBI_DATA = {
         "cash": 5547.6,
         "capex": -2706.3,
         "fcf": 6544.0,
-        "cash_interest": -1916.8,
+        "cash_interest": 1926.6,
         "net_leverage_cc": 2.872,
         "gross_leverage_cc": 3.363,
         "ebitda": 11315.0,
@@ -105923,7 +106789,19 @@ window.CEMBI_DATA = {
         "net_leverage": 2.87,
         "interest_coverage": 5.9,
         "ebitda_reconciliation_variance": -52.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 4698.2,
+        "tax_expense": 904.5,
+        "fcf_conversion_pct": 57.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 11367.0,
+          "capex": -2706.3,
+          "cash_interest": 1926.6,
+          "change_in_working_capital": 4698.2,
+          "tax": 904.5,
+          "fcf": 6544.0,
+          "formula_check": "11367.0 - -2706.3 - 1926.6 - (4698.2) - 904.5 = 6544.0"
+        }
       },
       {
         "period": "2019A",
@@ -105939,7 +106817,7 @@ window.CEMBI_DATA = {
         "cash": 6803.9,
         "capex": -2682.5,
         "fcf": -871.4,
-        "cash_interest": -2238.4,
+        "cash_interest": 1407.7,
         "net_leverage_cc": 10.5,
         "gross_leverage_cc": 12.4,
         "ebitda": 5936.0,
@@ -105947,7 +106825,19 @@ window.CEMBI_DATA = {
         "net_leverage": 6.32,
         "interest_coverage": 2.7,
         "ebitda_reconciliation_variance": 2135.1,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 5759.2,
+        "tax_expense": 187.9,
+        "fcf_conversion_pct": -22.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 3800.9,
+          "capex": -2682.5,
+          "cash_interest": 1407.7,
+          "change_in_working_capital": 5759.2,
+          "tax": 187.9,
+          "fcf": -871.4,
+          "formula_check": "3800.9 - -2682.5 - 1407.7 - (5759.2) - 187.9 = -871.4"
+        }
       },
       {
         "period": "2020A",
@@ -105963,7 +106853,7 @@ window.CEMBI_DATA = {
         "cash": 13862.9,
         "capex": -2759.8,
         "fcf": 2871.1,
-        "cash_interest": -2736.8,
+        "cash_interest": 996.2,
         "net_leverage_cc": 11.4,
         "gross_leverage_cc": 14.7,
         "ebitda": 10975.0,
@@ -105971,7 +106861,19 @@ window.CEMBI_DATA = {
         "net_leverage": 4.25,
         "interest_coverage": 4.0,
         "ebitda_reconciliation_variance": 6990.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 2608.5,
+        "tax_expense": 269.0,
+        "fcf_conversion_pct": 72.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 3985.0,
+          "capex": -2759.8,
+          "cash_interest": 996.2,
+          "change_in_working_capital": 2608.5,
+          "tax": 269.0,
+          "fcf": 2871.1,
+          "formula_check": "3985.0 - -2759.8 - 996.2 - (2608.5) - 269.0 = 2871.1"
+        }
       },
       {
         "period": "2021A",
@@ -105987,7 +106889,7 @@ window.CEMBI_DATA = {
         "cash": 8680.7,
         "capex": -3421.3,
         "fcf": 10523.5,
-        "cash_interest": -2883.4,
+        "cash_interest": 2889.3,
         "net_leverage_cc": 1.506,
         "gross_leverage_cc": 1.794,
         "ebitda": 30330.0,
@@ -105995,7 +106897,19 @@ window.CEMBI_DATA = {
         "net_leverage": 1.5,
         "interest_coverage": 10.5,
         "ebitda_reconciliation_variance": -7.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 17593.7,
+        "tax_expense": 2752.0,
+        "fcf_conversion_pct": 34.7,
+        "fcf_bridge": {
+          "calculated_ebitda": 30337.2,
+          "capex": -3421.3,
+          "cash_interest": 2889.3,
+          "change_in_working_capital": 17593.7,
+          "tax": 2752.0,
+          "fcf": 10523.5,
+          "formula_check": "30337.2 - -3421.3 - 2889.3 - (17593.7) - 2752.0 = 10523.5"
+        }
       },
       {
         "period": "2022A",
@@ -106011,7 +106925,7 @@ window.CEMBI_DATA = {
         "cash": 12466.0,
         "capex": -4848.0,
         "fcf": 3174.0,
-        "cash_interest": -2905.0,
+        "cash_interest": 2537.8,
         "net_leverage_cc": 4.592,
         "gross_leverage_cc": 5.977,
         "ebitda": 10572.0,
@@ -106019,7 +106933,19 @@ window.CEMBI_DATA = {
         "net_leverage": 3.91,
         "interest_coverage": 3.6,
         "ebitda_reconciliation_variance": 1436.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 7693.6,
+        "tax_expense": 578.6,
+        "fcf_conversion_pct": 34.7,
+        "fcf_bridge": {
+          "calculated_ebitda": 9136.0,
+          "capex": -4848.0,
+          "cash_interest": 2537.8,
+          "change_in_working_capital": 7693.6,
+          "tax": 578.6,
+          "fcf": 3174.0,
+          "formula_check": "9136.0 - -4848.0 - 2537.8 - (7693.6) - 578.6 = 3174.0"
+        }
       },
       {
         "period": "2023A",
@@ -106035,7 +106961,7 @@ window.CEMBI_DATA = {
         "cash": 14187.0,
         "capex": -4530.0,
         "fcf": -8011.0,
-        "cash_interest": -3550.0,
+        "cash_interest": 2372.7,
         "net_leverage_cc": 18.9,
         "gross_leverage_cc": 24.8,
         "ebitda": 3738.0,
@@ -106043,7 +106969,19 @@ window.CEMBI_DATA = {
         "net_leverage": 12.23,
         "interest_coverage": 1.1,
         "ebitda_reconciliation_variance": 1128.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 12778.3,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": -306.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 2610.0,
+          "capex": -4530.0,
+          "cash_interest": 2372.7,
+          "change_in_working_capital": 12778.3,
+          "tax": 0.0,
+          "fcf": -8011.0,
+          "formula_check": "2610.0 - -4530.0 - 2372.7 - (12778.3) - 0.0 = -8011.0"
+        }
       },
       {
         "period": "2024A",
@@ -106059,7 +106997,7 @@ window.CEMBI_DATA = {
         "cash": 14986.0,
         "capex": -3761.0,
         "fcf": -2330.0,
-        "cash_interest": -4261.0,
+        "cash_interest": 2916.4,
         "net_leverage_cc": 15.2,
         "gross_leverage_cc": 19.0,
         "ebitda": 5759.0,
@@ -106067,7 +107005,19 @@ window.CEMBI_DATA = {
         "net_leverage": 10.2,
         "interest_coverage": 1.4,
         "ebitda_reconciliation_variance": 1676.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 7257.6,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": -57.1,
+        "fcf_bridge": {
+          "calculated_ebitda": 4083.0,
+          "capex": -3761.0,
+          "cash_interest": 2916.4,
+          "change_in_working_capital": 7257.6,
+          "tax": 0.0,
+          "fcf": -2330.0,
+          "formula_check": "4083.0 - -3761.0 - 2916.4 - (7257.6) - 0.0 = -2330.0"
+        }
       },
       {
         "period": "2025A",
@@ -106083,7 +107033,7 @@ window.CEMBI_DATA = {
         "cash": 10501.0,
         "capex": -3092.0,
         "fcf": -8165.0,
-        "cash_interest": -4427.0,
+        "cash_interest": 6151.4,
         "net_leverage_cc": 21.2,
         "gross_leverage_cc": 24.9,
         "ebitda": 3157.0,
@@ -106091,7 +107041,19 @@ window.CEMBI_DATA = {
         "net_leverage": 19.26,
         "interest_coverage": 0.7,
         "ebitda_reconciliation_variance": -1149.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 9411.6,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": -189.6,
+        "fcf_bridge": {
+          "calculated_ebitda": 4306.0,
+          "capex": -3092.0,
+          "cash_interest": 6151.4,
+          "change_in_working_capital": 9411.6,
+          "tax": 0.0,
+          "fcf": -8165.0,
+          "formula_check": "4306.0 - -3092.0 - 6151.4 - (9411.6) - 0.0 = -8165.0"
+        }
       }
     ],
     "debt_maturities": {
@@ -106787,7 +107749,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/BRASKM",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "market_history": [
       {
@@ -107503,7 +108465,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CCOLA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -108483,7 +109445,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "10:00 Prague / 09:00 UK",
       "ir_webcast_url": "https://www.cez.cz/en/investors",
-      "days_to_earnings": 32
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -109246,7 +110208,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/CIMKOC",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -110057,7 +111019,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai",
       "ir_webcast_url": "https://www.damacproperties.com/en/investor-relations/",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -111027,7 +111989,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANFER",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -112035,7 +112997,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DANREF",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -113035,7 +113997,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DARARK",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -114039,7 +115001,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DIBUH",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -115018,7 +115980,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Dubai / 10:00 UK",
       "ir_webcast_url": "https://www.dpworld.com/investors",
-      "days_to_earnings": 48
+      "days_to_earnings": 46
     },
     "management_questions": [
       {
@@ -115998,7 +116960,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/DTEKUA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -116457,9 +117419,22 @@ window.CEMBI_DATA = {
         "net_debt": -7880.6,
         "net_leverage": -1.51,
         "interest_coverage": 20.4,
-        "cash_interest": 256.2,
+        "cash_interest": 255.8,
         "net_profit": 4750.6,
-        "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement."
+        "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement.",
+        "change_in_working_capital": 539.1,
+        "tax_expense": 509.5,
+        "fcf": 3813.4,
+        "fcf_conversion_pct": 73.1,
+        "fcf_bridge": {
+          "calculated_ebitda": 5217.8,
+          "capex": 100.0,
+          "cash_interest": 255.8,
+          "change_in_working_capital": 539.1,
+          "tax": 509.5,
+          "fcf": 3813.4,
+          "formula_check": "5217.8 - 100.0 - 255.8 - (539.1) - 509.5 = 3813.4"
+        }
       },
       {
         "period": "2023A",
@@ -116478,7 +117453,20 @@ window.CEMBI_DATA = {
         "interest_coverage": 16.5,
         "cash_interest": 283.0,
         "net_profit": 4037.3,
-        "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement."
+        "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement.",
+        "change_in_working_capital": 436.5,
+        "tax_expense": 447.8,
+        "fcf": 3401.8,
+        "fcf_conversion_pct": 72.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 4669.1,
+          "capex": 100.0,
+          "cash_interest": 283.0,
+          "change_in_working_capital": 436.5,
+          "tax": 447.8,
+          "fcf": 3401.8,
+          "formula_check": "4669.1 - 100.0 - 283.0 - (436.5) - 447.8 = 3401.8"
+        }
       }
     ],
     "supplementary_data": {
@@ -116713,7 +117701,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-      "days_to_earnings": 33
+      "days_to_earnings": 31
     },
     "management_questions": [
       {
@@ -117688,7 +118676,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EKGYO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -118692,7 +119680,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EMIRAT",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -119669,7 +120657,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EQUATE",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -120664,7 +121652,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.erdemir.com.tr/investor-relations/",
-      "days_to_earnings": 26
+      "days_to_earnings": 24
     },
     "management_questions": [
       {
@@ -121660,7 +122648,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "11:00 Johannesburg",
       "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
-      "days_to_earnings": 52
+      "days_to_earnings": 50
     },
     "management_questions": [
       {
@@ -122671,7 +123659,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FABUH",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -123682,7 +124670,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/FIRSTR",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -124693,7 +125681,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.garantibbvainvestorrelations.com",
-      "days_to_earnings": 19
+      "days_to_earnings": 17
     },
     "management_questions": [
       {
@@ -125671,7 +126659,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -126329,7 +127317,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/GLNG",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "market_history": [
       {
@@ -127151,7 +128139,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Johannesburg",
       "ir_webcast_url": "https://www.goldfields.com/investors.php",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -128180,7 +129168,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.halkbank.com.tr/en/investor-relations.html",
-      "days_to_earnings": 31
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -129191,7 +130179,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HSBKK",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -130171,7 +131159,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HT",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -131142,7 +132130,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/HIDRO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -132122,7 +133110,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:30 London / 09:30 EST",
       "ir_webcast_url": "https://www.ihstowers.com/investors",
-      "days_to_earnings": 39
+      "days_to_earnings": 37
     },
     "management_questions": [
       {
@@ -133126,7 +134114,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.isbank.com.tr/en/investor-relations",
-      "days_to_earnings": 22
+      "days_to_earnings": 20
     },
     "management_questions": [
       {
@@ -134099,7 +135087,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ITTIHAD",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -135120,7 +136108,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KFH",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -136099,7 +137087,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/KZOK",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -137090,7 +138078,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "17:00 Istanbul",
       "ir_webcast_url": "https://www.koc.com.tr/investor-relations",
-      "days_to_earnings": 27
+      "days_to_earnings": 25
     },
     "management_questions": [
       {
@@ -138071,7 +139059,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "16:00 London / 11:00 EST",
       "ir_webcast_url": "https://investors.kosmosenergy.com/",
-      "days_to_earnings": 26
+      "days_to_earnings": 24
     },
     "management_questions": [
       {
@@ -139066,7 +140054,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKCEM",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -140043,7 +141031,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -141021,7 +142009,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LMKREN",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -142015,7 +143003,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/LIQTEL",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -142991,7 +143979,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -143974,7 +144962,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "13:00 London",
       "ir_webcast_url": "https://metinvestholding.com/en/investors",
-      "days_to_earnings": 40
+      "days_to_earnings": 38
     },
     "management_questions": [
       {
@@ -145043,7 +146031,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 London / 09:00 EST",
       "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
-      "days_to_earnings": 39
+      "days_to_earnings": 37
     },
     "management_questions": [
       {
@@ -146022,7 +147010,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Budapest",
       "ir_webcast_url": "https://molgroup.info/en/investor-relations",
-      "days_to_earnings": 28
+      "days_to_earnings": 26
     },
     "management_questions": [
       {
@@ -147020,7 +148008,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/MTNSJ",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -147992,7 +148980,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "15:00 Casablanca",
       "ir_webcast_url": "https://www.ocpgroup.ma/investors",
-      "days_to_earnings": 42
+      "days_to_earnings": 40
     },
     "management_questions": [
       {
@@ -148990,7 +149978,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ORDS",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -149962,7 +150950,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/OQ",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -150961,7 +151949,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "08:00 Warsaw / 07:00 UK",
       "ir_webcast_url": "https://www.orlen.pl/en/investor-relations",
-      "days_to_earnings": 20
+      "days_to_earnings": 18
     },
     "management_questions": [
       {
@@ -151853,7 +152841,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/PEARL",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -152542,7 +153530,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.pegasusinvestorrelations.com",
-      "days_to_earnings": 31
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -153520,7 +154508,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "09:00 Warsaw",
       "ir_webcast_url": "https://www.gkpge.pl/investor-relations",
-      "days_to_earnings": 39
+      "days_to_earnings": 37
     },
     "management_questions": [
       {
@@ -154497,7 +155485,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QAZGAS",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -155508,7 +156496,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/QNBK",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -156519,7 +157507,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RJHI",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -157530,7 +158518,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/RIBL",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -158509,7 +159497,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/ROMGAZ",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -159504,7 +160492,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "14:00 Riyadh / 11:00 UK",
       "ir_webcast_url": "https://www.sabic.com/en/investors",
-      "days_to_earnings": 19
+      "days_to_earnings": 17
     },
     "management_questions": [
       {
@@ -160495,7 +161483,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SAMPA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -161476,7 +162464,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SOLSJ",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -162472,7 +163460,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SECO",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -163449,7 +164437,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.sisecam.com.tr/en/investor-relations",
-      "days_to_earnings": 21
+      "days_to_earnings": 19
     },
     "management_questions": [
       {
@@ -164460,7 +165448,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SNB",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -165442,7 +166430,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "15:00 Dubai",
       "ir_webcast_url": "https://sobhadxb.com/investor-relations",
-      "days_to_earnings": 38
+      "days_to_earnings": 36
     },
     "management_questions": [
       {
@@ -166414,7 +167402,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/SONANG",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -167443,7 +168431,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/STANBI",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -168423,7 +169411,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "15:30 Riyadh / 12:30 UK",
       "ir_webcast_url": "https://www.stc.com.sa/content/stc/sa/en/investor-relations.html",
-      "days_to_earnings": 17
+      "days_to_earnings": 15
     },
     "management_questions": [
       {
@@ -169394,7 +170382,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "13:00 Abu Dhabi",
       "ir_webcast_url": "https://www.taqa.com/investors/",
-      "days_to_earnings": 31
+      "days_to_earnings": 29
     },
     "management_questions": [
       {
@@ -170371,7 +171359,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/THARISA",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -171363,7 +172351,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://investor.turkishairlines.com/en",
-      "days_to_earnings": 25
+      "days_to_earnings": 23
     },
     "management_questions": [
       {
@@ -172341,7 +173329,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.turktelekominvestorrelations.com.tr",
-      "days_to_earnings": 32
+      "days_to_earnings": 30
     },
     "management_questions": [
       {
@@ -172812,7 +173800,7 @@ window.CEMBI_DATA = {
         "cash": 355.7,
         "capex": -1739.6,
         "fcf": -968.3,
-        "cash_interest": -199.4,
+        "cash_interest": 131.1,
         "net_leverage_cc": 5.727,
         "gross_leverage_cc": 6.239,
         "ebitda": 1048.7,
@@ -172820,7 +173808,19 @@ window.CEMBI_DATA = {
         "net_leverage": 3.8,
         "interest_coverage": 5.3,
         "ebitda_reconciliation_variance": 353.7,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 3218.5,
+        "tax_expense": 53.3,
+        "fcf_conversion_pct": -139.3,
+        "fcf_bridge": {
+          "calculated_ebitda": 695.0,
+          "capex": -1739.6,
+          "cash_interest": 131.1,
+          "change_in_working_capital": 3218.5,
+          "tax": 53.3,
+          "fcf": -968.3,
+          "formula_check": "695.0 - -1739.6 - 131.1 - (3218.5) - 53.3 = -968.3"
+        }
       },
       {
         "period": "2016A",
@@ -172836,7 +173836,7 @@ window.CEMBI_DATA = {
         "cash": 281.9,
         "capex": -1031.2,
         "fcf": -806.0,
-        "cash_interest": -282.8,
+        "cash_interest": 232.4,
         "net_leverage_cc": 6.127,
         "gross_leverage_cc": 6.494,
         "ebitda": 941.3,
@@ -172844,7 +173844,19 @@ window.CEMBI_DATA = {
         "net_leverage": 4.99,
         "interest_coverage": 3.3,
         "ebitda_reconciliation_variance": 174.5,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 2325.9,
+        "tax_expense": 45.7,
+        "fcf_conversion_pct": -105.1,
+        "fcf_bridge": {
+          "calculated_ebitda": 766.8,
+          "capex": -1031.2,
+          "cash_interest": 232.4,
+          "change_in_working_capital": 2325.9,
+          "tax": 45.7,
+          "fcf": -806.0,
+          "formula_check": "766.8 - -1031.2 - 232.4 - (2325.9) - 45.7 = -806.0"
+        }
       },
       {
         "period": "2017A",
@@ -172860,7 +173872,7 @@ window.CEMBI_DATA = {
         "cash": 284.0,
         "capex": -307.5,
         "fcf": 587.4,
-        "cash_interest": -262.3,
+        "cash_interest": 254.7,
         "net_leverage_cc": 2.557,
         "gross_leverage_cc": 2.776,
         "ebitda": 1346.1,
@@ -172868,7 +173880,19 @@ window.CEMBI_DATA = {
         "net_leverage": 2.47,
         "interest_coverage": 5.1,
         "ebitda_reconciliation_variance": 47.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 666.3,
+        "tax_expense": 98.2,
+        "fcf_conversion_pct": 45.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 1299.1,
+          "capex": -307.5,
+          "cash_interest": 254.7,
+          "change_in_working_capital": 666.3,
+          "tax": 98.2,
+          "fcf": 587.4,
+          "formula_check": "1299.1 - -307.5 - 254.7 - (666.3) - 98.2 = 587.4"
+        }
       },
       {
         "period": "2018A",
@@ -172884,7 +173908,7 @@ window.CEMBI_DATA = {
         "cash": 179.8,
         "capex": -440.5,
         "fcf": 411.6,
-        "cash_interest": -231.6,
+        "cash_interest": 206.7,
         "net_leverage_cc": 2.131,
         "gross_leverage_cc": 2.258,
         "ebitda": 1600.3,
@@ -172892,7 +173916,19 @@ window.CEMBI_DATA = {
         "net_leverage": 1.9,
         "interest_coverage": 6.9,
         "ebitda_reconciliation_variance": 174.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 1129.4,
+        "tax_expense": 118.7,
+        "fcf_conversion_pct": 28.9,
+        "fcf_bridge": {
+          "calculated_ebitda": 1425.9,
+          "capex": -440.5,
+          "cash_interest": 206.7,
+          "change_in_working_capital": 1129.4,
+          "tax": 118.7,
+          "fcf": 411.6,
+          "formula_check": "1425.9 - -440.5 - 206.7 - (1129.4) - 118.7 = 411.6"
+        }
       },
       {
         "period": "2019A",
@@ -172908,7 +173944,7 @@ window.CEMBI_DATA = {
         "cash": 288.8,
         "capex": -520.9,
         "fcf": 350.3,
-        "cash_interest": -213.5,
+        "cash_interest": 211.4,
         "net_leverage_cc": 2.025,
         "gross_leverage_cc": 2.235,
         "ebitda": 1397.5,
@@ -172916,7 +173952,19 @@ window.CEMBI_DATA = {
         "net_leverage": 1.99,
         "interest_coverage": 6.5,
         "ebitda_reconciliation_variance": 23.4,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 1220.7,
+        "tax_expense": 112.6,
+        "fcf_conversion_pct": 25.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 1374.1,
+          "capex": -520.9,
+          "cash_interest": 211.4,
+          "change_in_working_capital": 1220.7,
+          "tax": 112.6,
+          "fcf": 350.3,
+          "formula_check": "1374.1 - -520.9 - 211.4 - (1220.7) - 112.6 = 350.3"
+        }
       },
       {
         "period": "2020A",
@@ -172932,7 +173980,7 @@ window.CEMBI_DATA = {
         "cash": 805.4,
         "capex": -430.9,
         "fcf": -89.0,
-        "cash_interest": -196.7,
+        "cash_interest": 167.5,
         "net_leverage_cc": 3.444,
         "gross_leverage_cc": 4.617,
         "ebitda": 803.9,
@@ -172940,7 +173988,19 @@ window.CEMBI_DATA = {
         "net_leverage": 2.94,
         "interest_coverage": 4.1,
         "ebitda_reconciliation_variance": 117.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 992.1,
+        "tax_expense": 47.0,
+        "fcf_conversion_pct": -13.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 686.7,
+          "capex": -430.9,
+          "cash_interest": 167.5,
+          "change_in_working_capital": 992.1,
+          "tax": 47.0,
+          "fcf": -89.0,
+          "formula_check": "686.7 - -430.9 - 167.5 - (992.1) - 47.0 = -89.0"
+        }
       },
       {
         "period": "2021A",
@@ -172955,14 +174015,26 @@ window.CEMBI_DATA = {
         "cash": 469.1,
         "capex": -236.5,
         "fcf": 159.6,
-        "cash_interest": -232.9,
+        "cash_interest": 242.8,
         "net_leverage_cc": 2.059,
         "gross_leverage_cc": 2.519,
         "ebitda": 972.9,
         "net_leverage": 2.16,
         "interest_coverage": 4.2,
         "ebitda_reconciliation_variance": -46.9,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 783.2,
+        "tax_expense": 70.7,
+        "fcf_conversion_pct": 15.7,
+        "fcf_bridge": {
+          "calculated_ebitda": 1019.8,
+          "capex": -236.5,
+          "cash_interest": 242.8,
+          "change_in_working_capital": 783.2,
+          "tax": 70.7,
+          "fcf": 159.6,
+          "formula_check": "1019.8 - -236.5 - 242.8 - (783.2) - 70.7 = 159.6"
+        }
       },
       {
         "period": "2022A",
@@ -172977,14 +174049,26 @@ window.CEMBI_DATA = {
         "cash": 636.3,
         "capex": -306.4,
         "fcf": 318.6,
-        "cash_interest": -240.1,
+        "cash_interest": 271.5,
         "net_leverage_cc": 1.109,
         "gross_leverage_cc": 1.493,
         "ebitda": 1468.9,
         "net_leverage": 1.25,
         "interest_coverage": 6.1,
         "ebitda_reconciliation_variance": -187.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 1239.2,
+        "tax_expense": 133.2,
+        "fcf_conversion_pct": 19.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 1656.1,
+          "capex": -306.4,
+          "cash_interest": 271.5,
+          "change_in_working_capital": 1239.2,
+          "tax": 133.2,
+          "fcf": 318.6,
+          "formula_check": "1656.1 - -306.4 - 271.5 - (1239.2) - 133.2 = 318.6"
+        }
       },
       {
         "period": "2023A",
@@ -172999,14 +174083,26 @@ window.CEMBI_DATA = {
         "cash": 499.0,
         "capex": -292.5,
         "fcf": 148.7,
-        "cash_interest": -216.7,
+        "cash_interest": 220.3,
         "net_leverage_cc": 1.358,
         "gross_leverage_cc": 1.785,
         "ebitda": 1151.4,
         "net_leverage": 1.38,
         "interest_coverage": 5.3,
         "ebitda_reconciliation_variance": -16.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 1001.5,
+        "tax_expense": 89.6,
+        "fcf_conversion_pct": 12.7,
+        "fcf_bridge": {
+          "calculated_ebitda": 1167.6,
+          "capex": -292.5,
+          "cash_interest": 220.3,
+          "change_in_working_capital": 1001.5,
+          "tax": 89.6,
+          "fcf": 148.7,
+          "formula_check": "1167.6 - -292.5 - 220.3 - (1001.5) - 89.6 = 148.7"
+        }
       },
       {
         "period": "2024A",
@@ -173022,7 +174118,7 @@ window.CEMBI_DATA = {
         "cash": 555.1,
         "capex": -224.5,
         "fcf": 141.8,
-        "cash_interest": -203.7,
+        "cash_interest": 223.2,
         "net_leverage_cc": 1.299,
         "gross_leverage_cc": 1.807,
         "ebitda": 1008.1,
@@ -173030,7 +174126,19 @@ window.CEMBI_DATA = {
         "net_leverage": 1.41,
         "interest_coverage": 4.9,
         "ebitda_reconciliation_variance": -85.6,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 871.8,
+        "tax_expense": 81.4,
+        "fcf_conversion_pct": 13.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 1093.7,
+          "capex": -224.5,
+          "cash_interest": 223.2,
+          "change_in_working_capital": 871.8,
+          "tax": 81.4,
+          "fcf": 141.8,
+          "formula_check": "1093.7 - -224.5 - 223.2 - (871.8) - 81.4 = 141.8"
+        }
       },
       {
         "period": "2025A",
@@ -173046,7 +174154,7 @@ window.CEMBI_DATA = {
         "cash": 332.2,
         "capex": -195.6,
         "fcf": -219.6,
-        "cash_interest": -205.3,
+        "cash_interest": 199.5,
         "net_leverage_cc": 2.293,
         "gross_leverage_cc": 2.868,
         "ebitda": 586.0,
@@ -173054,7 +174162,19 @@ window.CEMBI_DATA = {
         "net_leverage": 2.26,
         "interest_coverage": 2.9,
         "ebitda_reconciliation_variance": 7.5,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 763.4,
+        "tax_expense": 30.8,
+        "fcf_conversion_pct": -38.0,
+        "fcf_bridge": {
+          "calculated_ebitda": 578.5,
+          "capex": -195.6,
+          "cash_interest": 199.5,
+          "change_in_working_capital": 763.4,
+          "tax": 30.8,
+          "fcf": -219.6,
+          "formula_check": "578.5 - -195.6 - 199.5 - (763.4) - 30.8 = -219.6"
+        }
       }
     ],
     "supplementary_data": {
@@ -173313,7 +174433,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "08:30 London",
       "ir_webcast_url": "https://www.tullowoil.com/investors/",
-      "days_to_earnings": 33
+      "days_to_earnings": 31
     },
     "management_questions": [
       {
@@ -175005,7 +176125,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/TUPRAS",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -176034,7 +177154,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Local / Pre-Market",
       "ir_webcast_url": "https://www.google.com/finance/quote/EXCRTU",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -177014,7 +178134,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "18:30 Istanbul / 15:30 UK",
       "ir_webcast_url": "https://www.turkcell.com.tr/en/aboutus/investor-relations",
-      "days_to_earnings": 34
+      "days_to_earnings": 32
     },
     "management_questions": [
       {
@@ -178014,7 +179134,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "14:00 Kyiv / 12:00 UK",
       "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
-      "days_to_earnings": 42
+      "days_to_earnings": 40
     },
     "management_questions": [
       {
@@ -179025,7 +180145,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul",
       "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
-      "days_to_earnings": 28
+      "days_to_earnings": 26
     },
     "management_questions": [
       {
@@ -180036,7 +181156,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Confirmed",
       "call_time": "17:30 Istanbul",
       "ir_webcast_url": "https://www.yapikrediinvestorrelations.com",
-      "days_to_earnings": 20
+      "days_to_earnings": 18
     },
     "management_questions": [
       {
@@ -180500,7 +181620,7 @@ window.CEMBI_DATA = {
         "cash": 2791.9,
         "capex": -1486.3,
         "fcf": 7699.0,
-        "cash_interest": -7590.9,
+        "cash_interest": 4964.0,
         "net_leverage_cc": 3.562,
         "gross_leverage_cc": 3.732,
         "ebitda": 16439.7,
@@ -180508,7 +181628,19 @@ window.CEMBI_DATA = {
         "net_leverage": 3.56,
         "interest_coverage": 2.2,
         "ebitda_reconciliation_variance": 5519.0,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": -658.1,
+        "tax_expense": 402.1,
+        "fcf_conversion_pct": 70.5,
+        "fcf_bridge": {
+          "calculated_ebitda": 10920.7,
+          "capex": -1486.3,
+          "cash_interest": 4964.0,
+          "change_in_working_capital": -658.1,
+          "tax": 402.1,
+          "fcf": 7699.0,
+          "formula_check": "10920.7 - -1486.3 - 4964.0 - (-658.1) - 402.1 = 7699.0"
+        }
       },
       {
         "period": "2024A",
@@ -180524,7 +181656,7 @@ window.CEMBI_DATA = {
         "cash": 2018.2,
         "capex": -1584.6,
         "fcf": -4991.7,
-        "cash_interest": -11839.6,
+        "cash_interest": 6809.1,
         "net_leverage_cc": 3.624,
         "gross_leverage_cc": 3.751,
         "ebitda": 15958.0,
@@ -180532,7 +181664,19 @@ window.CEMBI_DATA = {
         "net_leverage": 3.62,
         "interest_coverage": 1.3,
         "ebitda_reconciliation_variance": 7106.2,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 8619.0,
+        "tax_expense": 0.0,
+        "fcf_conversion_pct": -56.4,
+        "fcf_bridge": {
+          "calculated_ebitda": 8851.8,
+          "capex": -1584.6,
+          "cash_interest": 6809.1,
+          "change_in_working_capital": 8619.0,
+          "tax": 0.0,
+          "fcf": -4991.7,
+          "formula_check": "8851.8 - -1584.6 - 6809.1 - (8619.0) - 0.0 = -4991.7"
+        }
       },
       {
         "period": "2025A",
@@ -180548,7 +181692,7 @@ window.CEMBI_DATA = {
         "cash": 5901.6,
         "capex": -1482.4,
         "fcf": -8915.1,
-        "cash_interest": -8277.3,
+        "cash_interest": 6693.9,
         "net_leverage_cc": 4.646,
         "gross_leverage_cc": 5.097,
         "ebitda": 13094.2,
@@ -180556,7 +181700,19 @@ window.CEMBI_DATA = {
         "net_leverage": 4.65,
         "interest_coverage": 1.6,
         "ebitda_reconciliation_variance": 2383.9,
-        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+        "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+        "change_in_working_capital": 14293.4,
+        "tax_expense": 120.5,
+        "fcf_conversion_pct": -83.2,
+        "fcf_bridge": {
+          "calculated_ebitda": 10710.3,
+          "capex": -1482.4,
+          "cash_interest": 6693.9,
+          "change_in_working_capital": 14293.4,
+          "tax": 120.5,
+          "fcf": -8915.1,
+          "formula_check": "10710.3 - -1482.4 - 6693.9 - (14293.4) - 120.5 = -8915.1"
+        }
       }
     ],
     "supplementary_data": {
@@ -181392,7 +182548,7 @@ window.CEMBI_DATA = {
       "confirmation_status": "Estimated",
       "call_time": "18:00 Istanbul (Post-Market)",
       "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-      "days_to_earnings": 28
+      "days_to_earnings": 26
     },
     "management_questions": [
       {

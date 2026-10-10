@@ -4,14 +4,14 @@ _Page created 09-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 1.82 % | 2026-08 | IMF CPI database |
-| Policy rate | 4.5 % | 2026-09 | BIS |
+| CPI y/y | 1.82 % | Aug-26 | IMF CPI database |
+| Policy rate | 4.5 % | Sep-26 | BIS policy rate |
 | Real policy rate | 2.68 % | derived |  |
-| Gross reserves | 488.68 USD bn | 2026-07 | IMF International Liquidity |
+| Gross reserves | 488.68 USD bn | Jul-26 | IMF International Liquidity |
 | Reserves, 12m change | 10 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
 | Reserves net of 1y drains | 482.15 USD bn | 2026-07 | IMF reserve template |
 | Import cover | 15.6 months | 2025 | World Bank WDI |

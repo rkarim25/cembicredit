@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/cimkoc.json`. Dated, sourced fact
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - CIMKOC 8.60% 2030: price 105.0, YTM 8.6%, spread 391bp (as of 2026-09-21).
 - Rating as recorded: B / B3.

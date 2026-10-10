@@ -44,7 +44,7 @@
       "cash": 2791.9,
       "capex": -1486.3,
       "fcf": 7699.0,
-      "cash_interest": -7590.9,
+      "cash_interest": 4964.0,
       "net_leverage_cc": 3.562,
       "gross_leverage_cc": 3.732,
       "ebitda": 16439.7,
@@ -52,7 +52,19 @@
       "net_leverage": 3.56,
       "interest_coverage": 2.2,
       "ebitda_reconciliation_variance": 5519.0,
-      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+      "change_in_working_capital": -658.1,
+      "tax_expense": 402.1,
+      "fcf_conversion_pct": 70.5,
+      "fcf_bridge": {
+        "calculated_ebitda": 10920.7,
+        "capex": -1486.3,
+        "cash_interest": 4964.0,
+        "change_in_working_capital": -658.1,
+        "tax": 402.1,
+        "fcf": 7699.0,
+        "formula_check": "10920.7 - -1486.3 - 4964.0 - (-658.1) - 402.1 = 7699.0"
+      }
     },
     {
       "period": "2024A",
@@ -68,7 +80,7 @@
       "cash": 2018.2,
       "capex": -1584.6,
       "fcf": -4991.7,
-      "cash_interest": -11839.6,
+      "cash_interest": 6809.1,
       "net_leverage_cc": 3.624,
       "gross_leverage_cc": 3.751,
       "ebitda": 15958.0,
@@ -76,7 +88,19 @@
       "net_leverage": 3.62,
       "interest_coverage": 1.3,
       "ebitda_reconciliation_variance": 7106.2,
-      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+      "change_in_working_capital": 8619.0,
+      "tax_expense": 0.0,
+      "fcf_conversion_pct": -56.4,
+      "fcf_bridge": {
+        "calculated_ebitda": 8851.8,
+        "capex": -1584.6,
+        "cash_interest": 6809.1,
+        "change_in_working_capital": 8619.0,
+        "tax": 0.0,
+        "fcf": -4991.7,
+        "formula_check": "8851.8 - -1584.6 - 6809.1 - (8619.0) - 0.0 = -4991.7"
+      }
     },
     {
       "period": "2025A",
@@ -92,7 +116,7 @@
       "cash": 5901.6,
       "capex": -1482.4,
       "fcf": -8915.1,
-      "cash_interest": -8277.3,
+      "cash_interest": 6693.9,
       "net_leverage_cc": 4.646,
       "gross_leverage_cc": 5.097,
       "ebitda": 13094.2,
@@ -100,7 +124,19 @@
       "net_leverage": 4.65,
       "interest_coverage": 1.6,
       "ebitda_reconciliation_variance": 2383.9,
-      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments."
+      "ebitda_reconciliation_comment": "Cognitive Credit derived EBITDA versus company-reported (adjusted) EBITDA; difference = company adjustments.",
+      "change_in_working_capital": 14293.4,
+      "tax_expense": 120.5,
+      "fcf_conversion_pct": -83.2,
+      "fcf_bridge": {
+        "calculated_ebitda": 10710.3,
+        "capex": -1482.4,
+        "cash_interest": 6693.9,
+        "change_in_working_capital": 14293.4,
+        "tax": 120.5,
+        "fcf": -8915.1,
+        "formula_check": "10710.3 - -1482.4 - 6693.9 - (14293.4) - 120.5 = -8915.1"
+      }
     }
   ],
   "supplementary_data": {
@@ -936,7 +972,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul (Post-Market)",
     "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-    "days_to_earnings": 28
+    "days_to_earnings": 26
   },
   "management_questions": [
     {

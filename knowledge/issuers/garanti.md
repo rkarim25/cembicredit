@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/garanti.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - GARAN 6.55% 2029: price 99.8, YTM 6.55%, spread 195bp (as of 2026-09-19).
 - Rating as recorded: BB- / B1.

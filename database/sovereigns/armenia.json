@@ -1,12 +1,11 @@
 {
   "country": "Armenia",
-  "region": "Caucasus",
+  "region": "Caucasus (CEEMEA)",
   "fiscal_year": "Calendar year",
   "commodity_exposure": {
-    "value": "Services and re-export economy; Russia transit flows normalising; construction-led growth",
-    "period": "",
-    "source": "Armstat",
-    "asof": "Sep-26"
+    "value": "Re-export and transit trade flows (Russia-linked) drive the current account; no single commodity price sourced in the material",
+    "source": "Armstat, Q2 2026 balance of payments",
+    "asof": "30-Jun-26"
   },
   "imf": {
     "programme": "3-year precautionary Stand-By Arrangement",
@@ -14,12 +13,12 @@
     "approved": "Dec-25",
     "next_review": null,
     "risk_of_debt_distress": null,
-    "source": "IMF, First Review under Stand-By Arrangement, Press Release No. 26/214",
+    "source": "IMF, First Review under SBA, Press Release No. 26/214",
     "asof": "15-Jun-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Peace treaty with Azerbaijan initialed in Washington, D.C. on 08-Aug-25; border delimitation and transit protocols still under negotiation.",
+    "note": "Peace treaty with Azerbaijan initialed in Washington on 08-Aug-25; border delimitation and transit protocols still under negotiation",
     "source": "Government of Armenia",
     "asof": "08-Aug-25"
   },
@@ -27,49 +26,49 @@
     "real_gdp_growth_pct": {
       "value": 5.25,
       "period": "2026E",
-      "source": "IMF (forecast cited in adjudicated document)",
-      "asof": "Jun-26"
+      "source": "IMF",
+      "asof": "30-Jun-26"
     },
     "cpi_latest_yoy_pct": {
       "value": 4.3,
       "period": "Sep-26",
-      "source": "Armstat Consumer Price Index",
-      "asof": "Sep-26"
+      "source": "Armstat, Consumer Price Index",
+      "asof": "30-Sep-26"
     },
     "policy_rate_pct": {
       "value": 6.75,
-      "period": "15-Sep-26",
+      "period": "Sep-26",
       "source": "Central Bank of Armenia, refinancing rate decision",
       "asof": "15-Sep-26"
     },
     "current_account_pct_gdp": {
       "value": -9.8,
       "period": "Q2-26",
-      "source": "Armstat Balance of Payments Q2 2026",
-      "asof": "Jun-26"
+      "source": "Armstat, Balance of Payments Q2 2026",
+      "asof": "30-Jun-26"
     },
     "gross_reserves_usd_bn": {
       "value": 6.5,
-      "definition": "CBA gross international reserves (reported as exceeding USD 6.5bn; gold inclusion not stated)",
+      "definition": "CBA gross international reserves; reported as exceeding USD 6.5bn; gold treatment not stated",
       "period": "Sep-26",
-      "source": "Central Bank of Armenia, Gross International Reserves Report",
-      "asof": "Sep-26"
+      "source": "Central Bank of Armenia",
+      "asof": "30-Sep-26"
     },
     "import_cover_months": {
       "value": 5,
       "period": "Sep-26",
-      "source": "Central Bank of Armenia (reported as over 5 months)",
-      "asof": "Sep-26"
+      "source": "Central Bank of Armenia (reported as more than 5 months)",
+      "asof": "30-Sep-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": -3.4,
-      "period": "2026E",
-      "source": "Ministry of Finance, State Budget Execution (deficit tracking)",
-      "asof": "Oct-26"
+      "period": "2026 (tracking)",
+      "source": "Ministry of Finance, State Budget Execution",
+      "asof": "09-Oct-26"
     },
     "next_eurobond_maturity": {
       "value": "26-Sep-29",
-      "note": "26-Sep-29, USD 3.95% notes (ISIN XS2010043904); size not stated in material",
+      "note": "26-Sep-29, USD 3.95% notes (XS2010043904); size not sourced",
       "source": "Ministry of Finance",
       "asof": "26-Sep-19"
     },
@@ -140,8 +139,8 @@
     }
   },
   "series_sources": {
-    "real_gdp_growth_pct": "IMF forecast, Jun-26",
-    "fiscal_balance_pct_gdp": "Ministry of Finance, Oct-26",
+    "real_gdp_growth_pct": "IMF, 30-Jun-26",
+    "fiscal_balance_pct_gdp": "Ministry of Finance, 09-Oct-26",
     "gross_reserves_usd_bn": "Central Bank of Armenia, late 2023 (as cited in adjudicated document, Oct-26)"
   },
   "slug": "armenia",
@@ -3090,6 +3089,107 @@
         "next_eurobond_maturity": {
           "value": "26-Sep-29",
           "note": "26-Sep-29, USD 3.95% notes (ISIN XS2010043904); size not stated in material",
+          "source": "Ministry of Finance",
+          "asof": "26-Sep-19"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 2.421,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 50.6,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 31.873,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -2.52,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 3.708,
+          "period": "2026-08",
+          "source": "IMF reserve template",
+          "asof": "08-Oct-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 2.45,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.37,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
+        "reer_latest": 130.6666,
+        "reserves_12m_pct": 53.9,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": -1.1,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_1535_armenia-sovereign-credit",
+      "indicators": {
+        "real_gdp_growth_pct": {
+          "value": 5.25,
+          "period": "2026E",
+          "source": "IMF",
+          "asof": "30-Jun-26"
+        },
+        "cpi_latest_yoy_pct": {
+          "value": 4.3,
+          "period": "Sep-26",
+          "source": "Armstat, Consumer Price Index",
+          "asof": "30-Sep-26"
+        },
+        "policy_rate_pct": {
+          "value": 6.75,
+          "period": "Sep-26",
+          "source": "Central Bank of Armenia, refinancing rate decision",
+          "asof": "15-Sep-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -9.8,
+          "period": "Q2-26",
+          "source": "Armstat, Balance of Payments Q2 2026",
+          "asof": "30-Jun-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 6.5,
+          "definition": "CBA gross international reserves; reported as exceeding USD 6.5bn; gold treatment not stated",
+          "period": "Sep-26",
+          "source": "Central Bank of Armenia",
+          "asof": "30-Sep-26"
+        },
+        "import_cover_months": {
+          "value": 5,
+          "period": "Sep-26",
+          "source": "Central Bank of Armenia (reported as more than 5 months)",
+          "asof": "30-Sep-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -3.4,
+          "period": "2026 (tracking)",
+          "source": "Ministry of Finance, State Budget Execution",
+          "asof": "09-Oct-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "26-Sep-29",
+          "note": "26-Sep-29, USD 3.95% notes (XS2010043904); size not sourced",
           "source": "Ministry of Finance",
           "asof": "26-Sep-19"
         },

@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/africell.json`. Dated, sourced fa
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - AFRCEL 10.500% 2029 (XS2855412479): price 103.24, YTM 9.26%, spread 452bp (as of 2026-09-27).
 - Rating as recorded: B- / B3.

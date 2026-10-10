@@ -4,23 +4,23 @@ _Page created 09-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 10-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 0 % | 2026-06 | IMF CPI database |
-| Policy rate | 3.5 % | 2026-09 | BIS |
+| Policy rate | 3.5 % | Sep-26 | BIS |
 | Real policy rate | 3.5 % | derived |  |
-| Gross reserves | 32.69 USD bn | 2026-08 | IMF International Liquidity |
+| Gross reserves | 32.69 USD bn | Aug-26 | IMF International Liquidity |
 | Reserves, 12m change | -23.4 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Import cover | 8.41 months | 2025 | World Bank WDI |
+| Import cover | 8.4 months | 2025 | World Bank WDI |
 | Current account, last 4Q | 32.54 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
-| Current account | 26 % GDP | 2026E | IMF WEO |
+| Current account | 18.8 % GDP | 2025-Q2 to 2026-Q1 (four-quarter sum USD 32.5bn over repo nominal GDP; derived) | IMF BOP via repo data record; derived against IMF WEO nomina |
 | Terms of trade, 12m change | 28.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 22.3 % GDP | 2026E | IMF WEO |
-| Fiscal balance | 27.6 % GDP | 2026E | IMF WEO |
+| Government debt | 2.9 % GDP | FY24/25 | Search summary on public debt law |
+| Fiscal balance | -18.5 % GDP | FY26/27 draft budget (KD 9.8bn / $31.9bn deficit over repo nominal GDP USD 172.9bn; derived) | Arab News, Kuwait Times, TradeArabia (Feb-26); derived again |
 | Real GDP growth | -0.6 % | 2026E | IMF WEO |
-| Nominal GDP | 172.92 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 172.9 USD bn |  | Repo data record database/sovereigns/kuwait.json (IMF WEO) |
 | Bank NPL ratio | 1.57 % | 2026-Q1 | IMF FSI |
 | Bank capital ratio | 18.46 % | 2026-Q1 | IMF FSI |
 

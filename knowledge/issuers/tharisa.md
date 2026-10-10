@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/tharisa.json`. Dated, sourced fac
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 09-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 10-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - THARISA 9.85% 2027: price 98.0, YTM 9.85%, spread 550bp (as of 2026-09-19).
 - Rating as recorded: BB- / Ba3 Implied.
