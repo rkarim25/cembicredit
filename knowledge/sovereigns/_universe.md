@@ -1,6 +1,6 @@
 # HY CEEMEA sovereign universe
 
-_Status table regenerated 09-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
+_Status table regenerated 14-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
 
 | Sovereign | Page | Latest report | Updated | Open items | Ratings (as filed) |
 |---|---|---|---|---|---|
@@ -19,7 +19,7 @@ _Status table regenerated 09-Oct-26 by the pipeline from knowledge pages and rep
 | Egypt | `knowledge/sovereigns/egypt.md` | `reports/egypt-sovereign-credit.md` | 08-Oct-26 | 11 | Foreign currency sovereign ratings: S&P B (Stable, 10-Oct-25 / affirmed Apr-26); Fitch B (Stable, 01-Nov-24 / affirmed Oct-26); Moody's Caa1 |
 | EM issuance, index flows and positioning | `knowledge/sovereigns/em-issuance-index-flows-and-positioning.md` | none yet |  |  |  |
 | Ethiopia | `knowledge/sovereigns/ethiopia.md` | `reports/ethiopia-sovereign-credit.md` | 08-Oct-26 | 5 | Ratings: Fitch RD (Fitch, 24-Oct-25); S&P SD (S&P, 20-Dec-23); Moody's Caa3 Stable (Moody's, 14-Feb-26). |
-| Gabon | `knowledge/sovereigns/gabon.md` | `reports/gabon-sovereign-credit.md` | 08-Oct-26 | 6 | | Government debt | 70 % GDP | latest | Fitch Ratings Sovereign Rating Action on Gabon | |
+| Gabon | `knowledge/sovereigns/gabon.md` | `reports/gabon-sovereign-credit.md` | 08-Oct-26 | 6 | | Government debt | 70 % GDP | latest (approximate) | Fitch Ratings Sovereign Rating Action on Gabon | |
 | Georgia | `knowledge/sovereigns/georgia.md` | `reports/georgia-sovereign-credit.md` | 08-Oct-26 | 7 |  |
 | Ghana | `knowledge/sovereigns/ghana.md` | `reports/ghana-sovereign-credit.md` | 08-Oct-26 | 10 | Ratings: Fitch B/Positive (22-May-26), S&P B-/Stable (18-Sep-26), Moody's Caa1/Positive (16-Apr-26) (Fitch, S&P, Moody's, 2026) |
 | Gulf support and anchors for EMs | `knowledge/sovereigns/gulf-support-and-anchors-for-em-s.md` | none yet |  |  |  |
@@ -48,7 +48,7 @@ _Status table regenerated 09-Oct-26 by the pipeline from knowledge pages and rep
 | Poland | `knowledge/sovereigns/poland.md` | none yet |  |  |  |
 | Qatar | `knowledge/sovereigns/qatar.md` | `reports/qatar-sovereign-credit.md` | 09-Oct-26 | 7 | Fitch affirmed Qatar at AA, removed the Rating Watch Negative and kept a negative outlook (Qatar Tribune; Enterprise, 06-May-26) |
 | Romania | `knowledge/sovereigns/romania.md` | none yet |  |  |  |
-| Rwanda | `knowledge/sovereigns/rwanda.md` | `reports/rwanda-sovereign-credit.md` | 08-Oct-26 | 9 | | Current account | -15 % GDP | 2026E | Gemini position citing Fitch (reported, near 15% deficit, un | |
+| Rwanda | `knowledge/sovereigns/rwanda.md` | `reports/rwanda-sovereign-credit.md` | 08-Oct-26 | 9 | | Government debt | 77.5 % GDP | 2026E | Fitch | |
 | Saudi Arabia | `knowledge/sovereigns/saudi-arabia.md` | `reports/saudi-arabia-sovereign-credit.md` | 09-Oct-26 | 10 |  |
 | Senegal | `knowledge/sovereigns/senegal.md` | `reports/senegal-sovereign-credit.md` | 08-Oct-26 | 10 | Ratings: S&P CC/Negative (Sep-26, downgraded from B+/Negative), Moody's Caa2/Negative (Aug-26, downgraded from Caa1 in Oct-25) (Rating Agenc |
 | Serbia | `knowledge/sovereigns/serbia.md` | `reports/serbia-sovereign-credit.md` | 08-Oct-26 | 7 | Ratings: S&P BBB- (Stable, 04-Oct-24); Fitch BB+ (Positive, 10-Jul-26); Moody's Ba2 (Stable, 27-Feb-26) (Rating Agencies, Jul-26). |

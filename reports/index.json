@@ -9,6 +9,15 @@
     "path": "reports/pearl-petroleum.md"
   },
   {
+    "topic": "Turkey",
+    "slug": "turkey",
+    "updated": "14-Oct-26",
+    "status": "Draft",
+    "open_items": 10,
+    "run": "2026-10-14_0800_turkey",
+    "path": "reports/turkey.md"
+  },
+  {
     "topic": "Akbank",
     "slug": "akbank",
     "updated": "09-Oct-26",
@@ -565,14 +574,5 @@
     "open_items": 4,
     "run": "2026-10-08_1730_zambia-sovereign-credit",
     "path": "reports/zambia-sovereign-credit.md"
-  },
-  {
-    "topic": "Turkey",
-    "slug": "turkey",
-    "updated": "07-Oct-26",
-    "status": "Draft",
-    "open_items": 7,
-    "run": "2026-10-07_2257_turkey",
-    "path": "reports/turkey.md"
   }
 ]

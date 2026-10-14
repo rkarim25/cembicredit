@@ -46,9 +46,11 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 
 ## From runs (date first; verify before relying on it)
 - 13-Oct-26 IPO subscription closes (Dabafinance, 09-Oct-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
+- 16-Oct-26 S&P scheduled sovereign review (BB-/Stable; hold expected) (Türkiye Today, 02-Oct-26) (Turkey, run 2026-10-14_0800_turkey)
 - 19-Oct-26: China 3Q26 GDP release (position source, unverified against the NBS calendar, 09-Oct-26) (China and EM: growth, commodity demand and China as a creditor, run 2026-10-09_0826_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
 - 22-Oct-26 CBRT MPC meeting (Intellinews, Sep-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-09_0843_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
 - 22-Oct-26 CBRT MPC meeting; about 100bp cut expected (Intellinews, Sep-26) (Akbank, run 2026-10-09_0912_akbank)
+- 22-Oct-26 and 10-Dec-26 are the last two 2026 MPC meetings (Intellinews, Sep-26) (Turkey, run 2026-10-14_0800_turkey)
 - 23-Oct-26: Medium-Term Budget Policy Statement (MTBPS) tabled by Finance Minister Enoch Godongwana (National Treasury, Oct-26) (south-africa, re-filed)
 - 23-Oct-26 ZOREN 2030 semi-annual coupon, ~US$60.5m per repo (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)
 - 31-Oct-26 expected 3Q26 results (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)
