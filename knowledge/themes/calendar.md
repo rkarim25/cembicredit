@@ -56,6 +56,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 15-Nov-26: BNA Monetary Policy Committee meeting (BNA, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - 15-Nov-26: Banco de Moçambique Monetary Policy Committee meeting (Banco de Moçambique, 01-Oct-26). (Mozambique sovereign credit, run 2026-10-08_1751_mozambique-sovereign-credit)
 - 15-Nov-26: Fitch ratings review date for Benin. (Fitch Ratings, Jun-26) (Benin sovereign credit, run 2026-10-08_1832_benin-sovereign-credit)
+- 15-Nov-26: semi-annual coupon of $22.75M on the 13.00% notes due 15-May-28 (repo, 07-Oct-26) (Pearl Petroleum, run 2026-10-14_0515_pearl-petroleum)
 - 23-Nov-26: Bank of Ghana 133rd MPC meeting (Bank of Ghana calendar, Sep-26) (Ghana sovereign credit, run 2026-10-08_2118_ghana-sovereign-credit)
 - 24-Nov-26: Central Bank of Nigeria 308th Monetary Policy Committee meeting (CBN calendar, Sep-26) (Nigeria sovereign credit, run 2026-10-08_1158_nigeria-sovereign-credit)
 - 02-Dec-26: CBK MPC meeting (CBK, Oct-26) (Kenya sovereign credit, run 2026-10-08_2122_kenya-sovereign-credit)
