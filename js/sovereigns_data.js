@@ -28891,74 +28891,74 @@ window.SOVEREIGNS = [
   "region": "MENA",
   "group": "Middle East and North Africa",
   "ceemea": true,
-  "asof": "09-Oct-26",
-  "fx_regime": "float",
-  "commodity": "Suez Canal receipts (reported down 50-60% YoY, an estimated $5-6B a year); commodity terms-of-trade index -0.7% over 12 months to May-26",
+  "asof": "15-Oct-26",
+  "fx_regime": "managed float",
+  "commodity": "Fuel and gas about 30% of goods imports; Suez Canal receipts are a key FX inflow (trend disputed)",
   "ratings": {
    "sp": {
     "rating": "B",
     "outlook": "Stable",
-    "date": "10-Oct-25"
+    "date": "11-Oct-26"
    },
    "fitch": {
     "rating": "B",
     "outlook": "Stable",
-    "date": "01-Nov-24"
+    "date": "Oct-26"
    },
    "moodys": {
     "rating": "Caa1",
     "outlook": "Positive",
-    "date": "18-Mar-24"
+    "date": "Apr-26"
    }
   },
   "imf": {
    "programme": "EFF (with RSF)",
-   "size_usd_bn": 8,
-   "approved": "Seventh Review completed 31-Jul-26, $1.8B approved ($1.5B EFF, $272M RSF)",
-   "next_review": "15-Dec-26 (Eighth and final review)",
+   "size_usd_bn": null,
+   "approved": "31-Jul-26 (Seventh Review completed, $1.8B)",
+   "next_review": "15-Dec-26 (Eighth and final review; no primary source)",
    "risk_of_debt_distress": null,
-   "source": "IMF press release, 31-Jul-26; IMF, Sep-26",
+   "source": "IMF press release; Asharq Al-Awsat",
    "asof": "31-Jul-26"
   },
   "politics": {},
   "ind": {
-   "cpi_latest_yoy_pct": 12.7,
+   "cpi_latest_yoy_pct": 12.8,
    "policy_rate_pct": 19.0,
    "net_reserves_usd_bn": 57.35,
    "import_cover_months": 7.5,
-   "primary_balance_pct_gdp": 4.0,
+   "primary_balance_pct_gdp": 4.9,
    "gov_debt_pct_gdp": 79.7,
-   "interest_pct_revenue": 50.0,
+   "interest_pct_revenue": 67.0,
    "next_eurobond_maturity": "01-Mar-29",
    "gross_reserves_usd_bn": 53.559,
    "fdi_net_pct_gdp": 4.231,
    "real_gdp_growth_pct": 4.2,
    "current_account_pct_gdp": -4.2,
    "fiscal_balance_pct_gdp": -12.1,
-   "nominal_gdp_usd_bn": 429.645,
+   "nominal_gdp_usd_bn": 429.6,
    "parallel_fx_premium_pct": 0.0,
    "current_account_4q_usd_bn": -16.76,
    "reserves_net_of_drains_usd_bn": 17.224,
-   "ex_ante_real_rate_pct": 6.3,
+   "ex_ante_real_rate_pct": 6.2,
    "reserves_12m_pct": 14.7,
    "ctot_12m_pct": -0.7
   },
   "src": {
-   "cpi_latest_yoy_pct": "CAPMAS (nationwide headline; urban 14.5%) 10-Sep-26",
-   "policy_rate_pct": "Central Bank of Egypt MPC decision (overnight deposit rate; lending rate 20.00%) 24-Sep-26",
-   "net_reserves_usd_bn": "Central Bank of Egypt 07-Oct-26 | CBE net international reserves, as reported; net forward/swap treatment not confirmed and not reconcilable with IMF gross figure",
-   "import_cover_months": "Central Bank of Egypt (reported as over 7.5 months) 07-Oct-26",
-   "primary_balance_pct_gdp": "Ministry of Finance of Egypt Sep-26",
-   "gov_debt_pct_gdp": "Ministry of Finance / IIF Jun-26 | budget sector only; source mixes MoF and IIF figures",
-   "interest_pct_revenue": "Ministry of Finance / IIF 30-Jun-26",
+   "cpi_latest_yoy_pct": "CAPMAS via Arab Finance (nationwide headline) Oct-26",
+   "policy_rate_pct": "CBE MPC, overnight deposit rate, via BNOK24 24-Sep-26",
+   "net_reserves_usd_bn": "Central Bank of Egypt 07-Oct-26 | CBE-reported net international reserves; definition unverified and exceeds IMF gross, not comparable",
+   "import_cover_months": "Central Bank of Egypt (over 7.5 months) 07-Oct-26",
+   "primary_balance_pct_gdp": "S&P via Arab News (MoF budgeted 4.0%) 11-Oct-26",
+   "gov_debt_pct_gdp": "MoF / IIF Jun-26 | budget-sector debt",
+   "interest_pct_revenue": "S&P via Arab News (MoF/IIF: more than 50%, lower bound) 11-Oct-26",
    "next_eurobond_maturity": "LuxSE / MoF Eurobond listings Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity Jul-26 | gross incl. gold (ex-gold 36.42; gold 17.139)",
+   "gross_reserves_usd_bn": "IMF International Liquidity Jul-26 | gross incl. gold (IMF International Liquidity)",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
-   "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
-   "current_account_pct_gdp": "IMF WEO 08-Oct-26",
-   "fiscal_balance_pct_gdp": "IMF WEO (overall balance) 08-Oct-26",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
-   "parallel_fx_premium_pct": "CBE / commercial banks Oct-26",
+   "real_gdp_growth_pct": "IMF WEO 15-Oct-26",
+   "current_account_pct_gdp": "IMF WEO 15-Oct-26",
+   "fiscal_balance_pct_gdp": "IMF WEO (overall deficit) 15-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 15-Oct-26",
+   "parallel_fx_premium_pct": "CBE / commercial banks (reported 0% since Mar-24) Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 08-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
@@ -28966,7 +28966,7 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
   },
   "derived": {
-   "ex_ante_real_rate_pct": 6.3,
+   "ex_ante_real_rate_pct": 6.2,
    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
    "reserves_12m_pct": 14.7,
    "reserves_12m_pct_note": "gross reserves incl. gold, 2025-07 to 2026-07 (IMF International Liquidity)",
@@ -28996,7 +28996,7 @@ window.SOVEREIGNS = [
     "2026E": -12.1
    },
    "nominal_gdp_usd_bn": {
-    "2026E": 429.645
+    "2026E": 429.6
    }
   },
   "hist": {
@@ -31400,13 +31400,13 @@ window.SOVEREIGNS = [
    "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
   },
   "asof_ind": {
-   "cpi_latest_yoy_pct": "Aug-26",
+   "cpi_latest_yoy_pct": "Sep-26",
    "policy_rate_pct": "Sep-26",
    "net_reserves_usd_bn": "Sep-26",
    "import_cover_months": "Sep-26",
-   "primary_balance_pct_gdp": "FY25/26 (budgeted; FY24/25 outturn 3.5)",
+   "primary_balance_pct_gdp": "FY25/26",
    "gov_debt_pct_gdp": "Q2-26",
-   "interest_pct_revenue": "Jun-26 (lower bound, reported as more than 50%)",
+   "interest_pct_revenue": "FY25/26",
    "next_eurobond_maturity": "Oct-26",
    "gross_reserves_usd_bn": "Jul-26",
    "fdi_net_pct_gdp": "2025",
@@ -31414,7 +31414,7 @@ window.SOVEREIGNS = [
    "current_account_pct_gdp": "2026E",
    "fiscal_balance_pct_gdp": "2026E",
    "nominal_gdp_usd_bn": "2026E",
-   "parallel_fx_premium_pct": "Oct-26 (reported 0% since Mar-24)",
+   "parallel_fx_premium_pct": "Oct-26",
    "current_account_4q_usd_bn": "2025-Q2 to 2026-Q1",
    "reserves_net_of_drains_usd_bn": "2026-05",
    "ex_ante_real_rate_pct": "derived",
@@ -31423,7 +31423,7 @@ window.SOVEREIGNS = [
   },
   "report": {
    "open_items": "11",
-   "updated": "08-Oct-26",
+   "updated": "15-Oct-26",
    "status": "Draft"
   }
  },
