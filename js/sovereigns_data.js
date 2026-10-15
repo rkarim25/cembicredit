@@ -60057,40 +60057,40 @@ window.SOVEREIGNS = [
   "region": "Sub-Saharan Africa",
   "group": "Sub-Saharan Africa",
   "ceemea": true,
-  "asof": "09-Oct-26",
+  "asof": "15-Oct-26",
   "fx_regime": null,
-  "commodity": "Commodity terms-of-trade index down 2.9% y/y to May-26; export and import composition not sourced",
+  "commodity": "IMF commodity terms-of-trade index down 2.9% y/y to May-26; CBK MPC cites higher energy prices from the Middle East conflict as an inflation risk",
   "ratings": {
    "sp": {
     "rating": "B",
     "outlook": "Stable",
-    "date": "21-Aug-26"
+    "date": "22-Aug-25"
    },
    "fitch": {
     "rating": "B-",
     "outlook": "Stable",
-    "date": "17-Jul-26"
+    "date": "23-Jan-26"
    },
    "moodys": {
     "rating": "B3",
     "outlook": "Stable",
-    "date": "Jul-26"
+    "date": "27-Jan-26"
    }
   },
   "imf": {
-   "programme": "None; prior EFF/ECF/RSF expired uncompleted Apr-25; successor talks ongoing",
+   "programme": "None (previous EFF/ECF/RSF expired uncompleted Apr-25; new request Mar-25, no staff-level agreement; Article IV mission expected early Dec-26)",
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF programme status statement (text not seen)",
-   "asof": "Sep-26"
+   "source": "IMF programme status statement Sep-26; Kenyan Wall Street, Oct-26; Kenya Times, Oct-26",
+   "asof": "Oct-26"
   },
   "politics": {
-   "next_election": "2027 general election",
-   "note": "Fiscal slippage ahead of the 2027 elections is the main risk; no dated source in brief",
-   "source": "Adjudicated document, Kenya sovereign credit",
-   "asof": "08-Oct-26"
+   "next_election": "09-Aug-27",
+   "note": "General election; IMF reportedly reluctant to agree a programme before it",
+   "source": "Kenya Times, Oct-26",
+   "asof": "Oct-26"
   },
   "ind": {
    "cpi_latest_yoy_pct": 6.76,
@@ -60099,27 +60099,27 @@ window.SOVEREIGNS = [
    "gov_debt_pct_gdp": 68.5,
    "interest_pct_revenue": 33.0,
    "fiscal_balance_pct_gdp": -6.4,
-   "import_cover_months": 4.632,
-   "fdi_net_pct_gdp": 0.817,
+   "import_cover_months": 4.63,
+   "fdi_net_pct_gdp": 0.8,
    "real_gdp_growth_pct": 4.5,
    "current_account_pct_gdp": -4.1,
-   "nominal_gdp_usd_bn": 147.265,
+   "nominal_gdp_usd_bn": 147.3,
    "ex_ante_real_rate_pct": 1.99,
    "reserves_12m_pct": 34.7,
    "ctot_12m_pct": -2.9
   },
   "src": {
-   "cpi_latest_yoy_pct": "IMF data portal; KNBS (6.8%) 07-Oct-26",
-   "policy_rate_pct": "Central Bank of Kenya, MPC (CBR held) 07-Oct-26",
-   "gross_reserves_usd_bn": "Central Bank of Kenya 07-Oct-26 | gross, CBK headline figure; composition and encumbrances not stated (IMF International Liquidity shows US$15.361B at Jul-26, gold negligible)",
-   "gov_debt_pct_gdp": "National Treasury and Economic Planning 08-Oct-26 | public debt Ksh 13.01tn; 55% debt anchor",
-   "interest_pct_revenue": "National Treasury / World Bank (approximate, share of ordinary revenue) 08-Oct-26",
-   "fiscal_balance_pct_gdp": "National Treasury and Economic Planning Jul-26",
-   "import_cover_months": "World Bank WDI 08-Oct-26",
-   "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
+   "cpi_latest_yoy_pct": "KNBS / IMF data portal 15-Oct-26",
+   "policy_rate_pct": "CBK MPC press release 07-Oct-26",
+   "gross_reserves_usd_bn": "Central Bank of Kenya 07-Oct-26 | CBK gross reserves; gold negligible; swap, forward and short-term liability encumbrances not netted",
+   "gov_debt_pct_gdp": "National Treasury and Economic Planning Jun-26 | Public debt Ksh13.01tn; National Treasury anchor 55% of GDP",
+   "interest_pct_revenue": "National Treasury / World Bank 15-Oct-26",
+   "fiscal_balance_pct_gdp": "National Treasury and Economic Planning 15-Oct-26",
+   "import_cover_months": "World Bank WDI 15-Oct-26",
+   "fdi_net_pct_gdp": "World Bank WDI 15-Oct-26",
    "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
-   "current_account_pct_gdp": "IMF WEO 08-Oct-26",
-   "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
+   "current_account_pct_gdp": "IMF WEO 15-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 15-Oct-26",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reserves_12m_pct": "derived from the inputs above (gross reserves incl. gold, 2025-07 to 2026-07 (IMF International Liquidity))",
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
@@ -60154,7 +60154,7 @@ window.SOVEREIGNS = [
     "2026E": -4.1
    },
    "nominal_gdp_usd_bn": {
-    "2026E": 147.265
+    "2026E": 147.3
    }
   },
   "hist": {
@@ -61990,8 +61990,8 @@ window.SOVEREIGNS = [
    "policy_rate_pct": "Oct-26",
    "gross_reserves_usd_bn": "07-Oct-26",
    "gov_debt_pct_gdp": "Jun-26",
-   "interest_pct_revenue": "08-Oct-26",
-   "fiscal_balance_pct_gdp": "FY2025/26 (projected; audited outturn not in hand)",
+   "interest_pct_revenue": "FY2025/26 (approximate, ordinary revenue)",
+   "fiscal_balance_pct_gdp": "FY2025/26 (projection, Ksh1.199tn deficit)",
    "import_cover_months": "2025",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
@@ -62002,8 +62002,8 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "11",
-   "updated": "08-Oct-26",
+   "open_items": "12",
+   "updated": "15-Oct-26",
    "status": "Draft"
   }
  },

@@ -1,126 +1,143 @@
 ---
 topic: Kenya sovereign credit
 slug: kenya-sovereign-credit
-updated: 08-Oct-26
-run: 2026-10-08_2122_kenya-sovereign-credit
+updated: 15-Oct-26
+run: 2026-10-15_1200_kenya-sovereign-credit
 status: Draft
-open_items: 11
+open_items: 12
 ---
 
 # Kenya sovereign credit
 
-_Updated 08-Oct-26 · run 2026-10-08_2122_kenya-sovereign-credit_
+_Updated 15-Oct-26 · run 2026-10-15_1200_kenya-sovereign-credit_
 
 ## Open items
-1. [BBG: KENINT 2028, 2032, 2034, 2048 / YAS yield, price and Z-spread] Current levels across the curve, and where they sit against B-rated African peers.
-2. [BBG: KENINT / DES] ISINs, coupons, tranche sizes, amortisation schedules, CAC type and governing law for the Feb-26 US$2.25B issuance and the legacy bonds.
+1. [BBG: KENINT 2028, 2032, 2034, 2048 / YAS yield, price and Z-spread] Current levels across the curve and the Feb-26 amortising tranches, and the pick-up against B-rated African peers.
+2. [BBG: KENINT / DES] ISINs, coupons, sizes, amortisation schedules, CAC type and governing law for the Feb-26 issue and the legacy bonds.
 3. [BBG: KENYA CDS USD SR 5Y / PX_LAST] Current 5Y CDS spread and 52-week range.
-4. [BBG: CBK reserves net of swaps, forwards and short-term FX liabilities / latest print] Net reserves after one-year drains. This is the key check on the US$14.702B gross figure.
-5. [BBG: CBK 12-month inflation expectations / latest survey] Needed to compute a true ex-ante real rate. The +195 bps in the brief is trailing.
-6. [REZA] Bloomberg or press coverage of the Feb-26 Eurobond: size, tenor, use of proceeds, any buyback or tender.
-7. [REZA] Rating actions are sourced only to a "Rating Agencies, Aug-26" summary, with no agency text. Please paste the S&P, Fitch and Moody's releases, or confirm the dates and outlooks.
-8. [REZA] Any read from the IMF mission, Treasury or Bloomberg on the likelihood, size and timing of a successor programme.
-9. [MANAGEMENT] Audited FY2025/26 outturn (deficit, interest/revenue), FY2026/27 budget targets, and the 12-month external amortisation and gross financing need.
-10. [MANAGEMENT] Confirm the Treasury calendar: the 15-Jan-27 "FY2026/27 Budget Policy Statement" looks mislabelled, since the FY2026/27 budget was enacted by Jun-26.
-11. [REZA] Relative value: given the positive headline real rate and single-B spreads, do we prefer intermediate USD Eurobonds (2032/2034) or local-currency bonds? This is conditional on item 1.
+4. [BBG: RATKEN / agency action history] Dates and outlooks of the latest S&P, Fitch and Moody's actions. The repo snapshot (Fitch 17-Jul-26, S&P 21-Aug-26, Moody's Jul-26) conflicts with press reports (Moody's 27-Jan-26, Fitch 23-Jan-26, S&P 22-Aug-25 plus an undated retention).
+5. [BBG: CBK reserves net of swaps, forwards and short-term FX liabilities / latest print] Net reserves after one-year drains. This is the key check on the US$14.702B gross figure.
+6. [BBG: CBK 12-month inflation expectations / latest survey] Needed for a true ex-ante real rate. The +195 bps is on trailing CPI.
+7. [REZA] Bloomberg 14-Aug-26 "Kenya eyes Eurobond debt swaps in $5.4 billion financing plan" and the 13-Jul-26 piece: what did they say on size, timing, swap terms and the US$815m Eurobond?
+8. [REZA] Did the IMF/World Bank meetings in Bangkok (12-18 Oct) produce any statement on a programme or on the scope of the Article IV mission?
+9. [REZA] Relative value: intermediate USD Eurobonds (2032/2034) versus local-currency bonds. This depends on item 1.
+10. [MANAGEMENT] Audited FY2025/26 outturn (deficit, interest/revenue), FY2026/27 external versus domestic financing split, and the 12-month external amortisation and gross financing need.
+11. [MANAGEMENT] Confirm the Treasury calendar entry "15-Jan-27 FY2026/27 Budget Policy Statement". The FY2026/27 budget is already enacted, so the label looks wrong.
+12. [MANAGEMENT] Use of the Feb-26 proceeds (buyback versus budget support), and the size and timing of the planned buyback of up to US$500m.
 
 ## View
-- Neutral on Kenyan Eurobonds pending Bloomberg levels. Near-term external liquidity is comfortable. Solvency remains the weakness, and no IMF programme anchors the medium-term path (Medium).
-- Ratings sit in the low single-B bracket: S&P B/Stable, Fitch B-/Stable, Moody's B3/Stable. The brief cites only a summary source, so the dates and outlooks are Medium until primary texts are seen (Rating Agencies summary, Aug-26, Medium).
-- Gross reserves are US$14.702B (CBK, 07-Oct-26, High). The IMF series shows US$15.361B at Jul-26, up 34.7% over twelve months (IMF International Liquidity, Jul-26, High). Net usable reserves are not known.
-- The KES is flat at about 129.4/USD from Mar-26 to Aug-26 (BIS, High).
-- The CBR was held at 8.75% on 07-Oct-26 (CBK, High). Sep-26 CPI was 6.8%. CPI has risen from 5.6% in Apr-26 to 6.8% in Sep-26, which limits scope for easing (KNBS/IMF, High).
-- Debt is 68.5% of GDP against the 55% anchor (National Treasury, Jun-26, High). Interest absorbs about 33% of ordinary revenue (approximate), and the framework flags above 30% as the zone where defaults cluster (National Treasury, Medium).
-- The FY2025/26 deficit is a "projected" 6.4% of GDP (Ksh 1.199tn), and the audited outturn is not in hand (National Treasury, Medium).
-- The prior IMF EFF/ECF/RSF expired uncompleted in Apr-25. Successor talks are ongoing (IMF, Sep-26, Medium).
-- Biggest risk: fiscal slippage ahead of the 2027 elections, with no Fund anchor, forcing costlier domestic or commercial financing.
-- Confidence: High on the reserve and rate data points. Medium on solvency ratios and ratings. Low on market pricing, which is absent.
+- Neutral. External liquidity is the strength and debt affordability the weakness. Levels cannot be checked without Bloomberg (Medium).
+- Ratings are low single-B and stable: S&P B, Fitch B-, Moody's B3. The levels agree across tier 3 press. The latest action dates are not established (Medium on levels, Low on dates).
+- Gross reserves are US$14.702B (CBK, 07-Oct-26), about 4.6 months of imports. The KES is flat near 129.4/USD. Net usable reserves are unknown (High on gross, Low on net).
+- The CBR was held at 8.75% on 07-Oct-26, the fourth consecutive hold. CPI has risen from 5.59% in Apr-26 to 6.76% in Sep-26, which limits scope to ease (CBK, KNBS/IMF, High).
+- Debt is 68.5% of GDP against the 55% anchor. Interest takes about 33% of ordinary revenue, in the zone where the framework says defaults cluster. The FY2025/26 deficit of 6.4% of GDP is still a projection (National Treasury, Medium).
+- There is no IMF programme. Press reports an Article IV mission in early Dec-26 and IMF reluctance to agree a programme before the 09-Aug-27 election (Medium).
+- Liability management is active (Feb-26 US$2.25B issue funding a buyback, a further buyback of up to US$500m, a planned US$815m Eurobond). It supports market access but adds to the Eurobond stack (Medium).
+- Biggest risk: fiscal slippage into the 2027 election with no Fund anchor, forcing costlier financing.
+- Confidence: High on reserve, rate and CPI data. Medium on solvency ratios, ratings and the IMF outlook. Low on market pricing, which is absent.
 
 ## What changed
-- Relabelled the "+195 bps ex-ante real rate". It is the CBR minus the trailing Sep-26 CPI, so it is an ex-post rate. No expectations data is in the brief, and an open item now asks for it.
-- Downgraded confidence on rating details from High to Medium. The sole source is a summary line, not agency text.
-- Removed unsourced claims from the prior version: the Moody's upgrade from Caa1 in Jan-26, remittance and tea/horticulture drivers, the 5.0% ± 2.5% CPI corridor, and the cited World Bank, S&P, Fitch and Moody's document titles. None is supported by the brief.
-- Added the IMF/BIS data record: monthly CPI path, FX stability, reserve series, WEO growth and current account, and bank soundness indicators.
-- Flagged an apparent reserve inconsistency: Oct-26 gross US$14.702B (CBK) against Jul-26 US$15.361B (IMF). The two may use different definitions or dates.
-- Flagged the likely mislabelled 15-Jan-27 catalyst.
-- Merged the Eurobond price and spread items into fewer open items. Added items for bond terms, expectations, rating texts and Feb-26 issuance coverage.
-- No new web research was run in this pass. The brief had no new captures, and no source was added from outside it.
+- First web research since the 08-Oct-26 version. The claims below rest on tier 3 press and are labelled as such.
+- Added the Moody's upgrade to B3/Stable (27-Jan-26) and the Fitch B- affirmation (23-Jan-26). These conflict with the Jul-26 dates in the repo snapshot, so the dates became an open item instead of being replaced.
+- Added the Feb-26 US$2.25B issue funding a buyback, the planned buyback of up to US$500m (about Ksh64.6bn) and the planned US$815m Eurobond. The Bloomberg detail is paywalled and requested from Reza.
+- Added the FY2026/27 budget (Ksh4.82tn spending, Ksh1.16tn deficit).
+- Added the IMF timeline: a request in Mar-25, missions in Sep-Oct-25 and Feb-Mar-26 with no staff-level agreement, an Article IV mission expected in early Dec-26, and the election date of 09-Aug-27.
+- Added the CBK MPC wording: fourth consecutive hold, energy prices from the Middle East conflict cited.
+- Dropped the earlier Low-confidence inference that the Feb-26 issue smoothed the 2028-34 maturities. Press shows it funded a buyback, but the net effect on the wall is not computed.
+- Kept open items 1-5 and 7-11 of the previous version, merged where duplicated, and added items 7, 8 and 12. Reserve definitions, expectations and fiscal outturn remain unresolved.
 
 ## Analysis
 
 ### Ratings
-- S&P B/Stable (21-Aug-26), Fitch B-/Stable (17-Jul-26), Moody's B3/Stable (Jul-26) (Rating Agencies summary, Aug-26, Medium). Rationale text for each is not available. The prior claim that the improvement reflects the Feb-26 Eurobond is inference (Low).
+- Levels: S&P B, Fitch B-, Moody's B3, all stable (CNBC Africa, 27-Jan-26; Kenyan Wall Street, Jan-26; Ecofin, Aug-25; repo summary, Aug-26, Medium).
+- Moody's upgraded to B3/Stable on 27-Jan-26 on improved buffers, citing weak debt affordability and slow consolidation as the cap (CNBC Africa, 27-Jan-26, Medium).
+- Fitch affirmed B-/Stable on 23-Jan-26 (Kenyan Wall Street, Jan-26, Medium). S&P upgraded to B on 22-Aug-25 on the debt buyback (Ecofin, Aug-25, Medium). A later S&P retention at B/Stable warning of rising debt costs (Kenyans.co.ke, undated, Low on date).
+- The repo dates (Fitch 17-Jul-26, S&P 21-Aug-26, Moody's Jul-26) are not confirmed by any agency text. The S&P Aug-26 date may be an annual retention. Agency releases have not been seen.
 
 ### External position
-- Gross reserves are US$14.702B (CBK, 07-Oct-26, High).
-- The IMF series gives gross reserves of US$13.074B (May-26), US$13.930B (Jun-26) and US$15.361B (Jul-26). Gold is negligible (IMF International Liquidity, High).
-- Reserves have risen 34.7% over twelve months to Jul-26. They fell from US$14.764B (Feb-26) to US$13.074B (May-26) before recovering (IMF, High).
-- Import cover is 4.6 months (World Bank WDI, 2025, High).
-- The current account deficit is 4.1% of GDP, and net FDI is 0.8% of GDP (IMF WEO 2026E; WDI 2025, Medium).
-- Nominal GDP is US$147.3B (IMF WEO 2026E, Medium).
+- CBK gross reserves are US$14.702B at 07-Oct-26 (CBK, High). IMF International Liquidity shows US$13.074B (May-26), US$13.930B (Jun-26) and US$15.361B (Jul-26), up 34.7% over twelve months. Gold is negligible (IMF, High).
+- The two series differ in date and possibly definition. The decline from Jul-26 to Oct-26 is not explained.
+- Import cover is 4.63 months (World Bank WDI, 2025, High). The current account is -4.1% of GDP and net FDI 0.8% of GDP (IMF WEO 2026E; WDI 2025, Medium). Nominal GDP is US$147.3B (IMF WEO, Medium).
+- The KES traded between 129.35 and 129.48 per USD from Mar-26 to Aug-26 (BIS, High).
 - The commodity terms-of-trade index is down 2.9% over twelve months to May-26 (IMF CTOT, Medium).
-- Net reserves after swaps, forwards and short-term liabilities are unknown (open item 4).
-- The Feb-26 US$2.25B dual-tranche amortising Eurobond is reported in the knowledge base (National Treasury, Feb-26, Medium). No terms, ISINs or use of proceeds are verified. Whether it smoothed the 2028-34 wall is inference (Low).
+- Net reserves after swaps, forwards and short-term liabilities are unknown (open item 5).
+
+### Fiscal and financing
+- Public debt is Ksh13.01tn, 68.5% of GDP, at Jun-26, against the 55% anchor (National Treasury, High).
+- The FY2025/26 deficit is projected at Ksh1.199tn (6.4% of GDP). The year closed in Jun-26 but no audited outturn is in hand (National Treasury, Medium).
+- Interest is about 33% of ordinary revenue, approximate (National Treasury / World Bank, Medium).
+- FY2026/27 budget: Ksh4.82tn spending, Ksh1.16tn deficit (Kenyans.co.ke; the-star.co.ke, Jun-Jul-26, Medium).
+- Eurobond activity:
+  - A US$2.25B dual-tranche issue in Feb-26 funded a buyback and budget support (CNBC Africa, Feb-26, Medium).
+  - A further buyback of up to US$500m is planned (The Star, 15-Jul-26, Medium).
+  - A US$815m Eurobond is planned by end-Dec to fund the deficit (Bloomberg headline, 14-Aug-26, paywalled, content not read, Low).
+- The domestic/external split, average maturity, gross financing need and contingent liabilities are not sourced.
 
 ### Monetary
-- The CBR is 8.75% (CBK MPC, 07-Oct-26, High). The IMF policy-rate series in the brief stops at 9.5% in Sep-25, so the easing path since then is not in hand.
-- CPI y/y: Apr-26 5.59%, May 6.68%, Jun 6.41%, Jul 6.49%, Aug 6.59%, Sep 6.76% (IMF; KNBS 6.8%, High).
-- The headline real rate is +195 bps on trailing CPI (arithmetic, High). A true ex-ante figure needs expectations data (Low until supplied).
+- The CBR was held at 8.75% on 07-Oct-26, the fourth consecutive hold, citing energy prices linked to the Middle East conflict (CBK MPC press release, 07-Oct-26, High).
+- CPI y/y: Apr-26 5.59%, May 6.68%, Jun 6.41%, Jul 6.49%, Aug 6.59%, Sep 6.76% (IMF data portal; KNBS 6.8%, High).
+- The headline real rate is about +2.0pp on trailing CPI (arithmetic, High). A true ex-ante rate needs expectations data (open item 6).
 
-### Fiscal
-- Public debt is Ksh 13.01tn, 68.5% of GDP, at Jun-26 against the 55% anchor (National Treasury, High).
-- The FY2025/26 deficit is projected at Ksh 1.199tn (6.4% of GDP) (National Treasury, Medium). The fiscal year closed in Jun-26, so the outturn should be available.
-- Interest is about 33% of ordinary revenue (National Treasury / World Bank, Medium).
-- The domestic/external split, average maturity, gross financing need and contingent liabilities are not in the brief.
+### IMF and politics
+- The previous EFF/ECF/RSF expired uncompleted in Apr-25 (IMF, Sep-26, Medium).
+- Kenya requested a new programme in Mar-25. Missions in Sep-Oct-25 and Feb-Mar-26 ended without staff-level agreement. An Article IV mission is expected in early Dec-26, and the IMF is reportedly reluctant to agree a programme before the 09-Aug-27 election (Kenyan Wall Street, Oct-26; Kenya Times, Oct-26, Medium).
+- Protest and security risk was not researched in this pass.
 
 ### Banking system
-- IMF financial soundness indicators, deposit takers, Q3-25 (Medium, dated):
+- IMF FSI, deposit takers, Q3-25 (dated, Medium):
   - CAR 19.97%, Tier 1 17.65%.
   - NPL 13.54%, down from 14.2% in Q2-25.
   - Provisions/NPL 51.97%.
   - ROE 27.2%.
   - FX open position -0.82% of capital.
-- Banks appear well capitalised but carry high NPLs. Sovereign exposure as a share of assets is not in the brief. The prior claim of heavy bank exposure to government paper has no figure behind it (Low).
-
-### IMF and politics
-- The previous programme expired uncompleted in Apr-25, and successor talks are ongoing (IMF, Sep-26, Medium). The brief does not give the text, programme size or DSA.
-- The prior document linked the lapse to opposition to the 2024/25 Finance Bills. That is plausible from public record but is not sourced in the brief (Low).
-- The 2027 general election is a political risk. No dated source is in the brief.
+- Sovereign exposure as a share of bank assets is not sourced.
 
 ### Market
 - No Bloomberg levels are available. No relative-value conclusion is possible beyond the neutral stance.
 
 ## Where the models disagreed
-1. Only one position was submitted in this run, so there was no disagreement between models. The judge adopted its main corrections: the ex-ante label, lower confidence on rating and ratio sourcing, and removal of unsourced claims from the prior version. The evidence hierarchy decided each case, because tier 2 summaries cannot support High confidence on details they do not contain.
+1. Rating action dates: the repo snapshot gives Jul-26 and Aug-26 actions, while the position found press dates of Jan-26 (Moody's, Fitch) and Aug-25 (S&P). Both sides rest on tier 2-3 summaries with no agency text, so the judge did not choose. The levels are kept and the dates become open item 4. The evidence hierarchy decided it, since neither side has a source above tier 3.
+2. Feb-26 issue effect: the earlier document inferred it smoothed the 2028-34 maturities, and the position showed it funded a buyback. The judge dropped the inference, as the net effect is not computed.
+3. No other material disagreement. The rebuttals were not provided.
 
 ## Management questions
-1. What is the Treasury's expected timing and scope for a successor IMF arrangement, and what primary balance target is assumed for FY2026/27?
-2. What were the audited FY2025/26 deficit and interest/revenue outturn, and which revenue measures are planned for FY2026/27 given the 2024/25 Finance Bill reversals?
-3. What share of the US$14.702B gross reserves is encumbered by swaps, forwards, or bilateral or commercial deposits?
-4. What is the 12-month external amortisation schedule and gross financing need, and how much of Feb-26 proceeds went to buybacks versus budget support?
-5. What is the plan to reduce domestic interest costs and the banks' sovereign exposure?
+1. What is the expected timing and scope of a successor IMF arrangement, and what primary balance target is assumed for FY2026/27?
+2. What were the audited FY2025/26 deficit and interest/revenue outturn?
+3. What share of the US$14.702B gross reserves is encumbered by swaps, forwards or short-term FX obligations?
+4. What are the 12-month external amortisation and gross financing need, and what is the planned external versus domestic financing split for FY2026/27?
+5. What are the size, timing and structure of the planned Eurobond and the further buyback of up to US$500m, and how did the Feb-26 proceeds split between buyback and budget support?
+6. What is the plan to lower domestic interest costs relative to revenue ahead of the 2027 election?
 
 ## Knowledge base updates
-- [External] IMF International Liquidity gross reserves: US$14.764B (Feb-26), US$13.747B (Mar-26), US$13.142B (Apr-26), US$13.074B (May-26), US$13.930B (Jun-26), US$15.361B (Jul-26); gold negligible (IMF International Liquidity, Jul-26)
-- [External] Import cover 4.632 months; net FDI 0.817% of GDP (World Bank WDI, 2025)
-- [External] Current account -4.1% of GDP; nominal GDP US$147.265B (IMF WEO, 2026E)
-- [External] KES per USD about 129.35 to 129.48 over Mar-26 to Aug-26 (BIS, Aug-26)
-- [Monetary] CPI y/y: Apr-26 5.59%, May 6.68%, Jun 6.41%, Jul 6.49%, Aug 6.59%, Sep 6.76% (IMF data portal, Sep-26)
-- [Monetary] Headline-CPI-based real policy rate +195 bps (CBR 8.75% less Sep-26 CPI 6.8%); no inflation-expectations series used (CBK; KNBS, 07-Oct-26)
-- [Growth] Real GDP growth 4.5% (IMF WEO, 2026E)
-- [Growth] Commodity terms-of-trade index down 2.9% over twelve months to May-26 (IMF CTOT, May-26)
-- [Fiscal] FY2025/26 deficit is a projection in the source data (Ksh 1.199tn, 6.4% of GDP); audited outturn not yet recorded (National Treasury, Jul-26)
-- [Market] Banking system FSI Q3-25: CAR 19.97%, Tier 1 17.65%, NPL 13.54%, provisions/NPL 51.97%, ROA 3.63%, ROE 27.23%, FX open position -0.82% of capital (IMF FSI, Q3-25)
-- [Calendar] 02-Dec-26: CBK MPC meeting (CBK, Oct-26)
+- [Snapshot] Moody's upgraded Kenya to B3, outlook stable, on 27-Jan-26 (CNBC Africa, 27-Jan-26; press, agency text not seen)
+- [Snapshot] Fitch affirmed Kenya at B-, outlook stable, on 23-Jan-26 (Kenyan Wall Street, Jan-26; press, agency text not seen)
+- [Snapshot] S&P upgraded Kenya to B, outlook stable, on 22-Aug-25; a later retention at B/Stable is reported but undated (Ecofin, Aug-25; Kenyans.co.ke)
+- [Snapshot] Eurobonds: US$2.25B dual-tranche issue in Feb-26 funded a buyback and budget support (CNBC Africa, Feb-26)
+- [Fiscal] FY2026/27 budget: Ksh4.82tn spending, deficit Ksh1.16tn (Kenyans.co.ke; the-star.co.ke, Jun-Jul-26)
+- [Fiscal] Planned Eurobond buyback of up to US$500m (about Ksh64.6bn) (The Star, 15-Jul-26)
+- [Fiscal] US$815m Eurobond planned by end-Dec-26 to fund the deficit; headline only, content paywalled (Bloomberg, 14-Aug-26)
+- [Monetary] CBR held at 8.75% on 07-Oct-26, the fourth consecutive hold; MPC cited higher energy prices from the Middle East conflict (CBK MPC press release, 07-Oct-26)
+- [IMF] Kenya requested a new programme in Mar-25; missions in Sep-Oct-25 and Feb-Mar-26 produced no staff-level agreement (Kenyan Wall Street; Kenya Times, Oct-26)
+- [Calendar] 09-Aug-27: general election (Kenya Times, Oct-26)
+- [Calendar] Early Dec-26: IMF Article IV mission expected (Kenyan Wall Street, Oct-26)
 
 ## Sources
-- Central Bank of Kenya, MPC communiqué and reserves statistics, 07-Oct-26 (tier 2, via knowledge base)
+- Central Bank of Kenya, MPC press release 07-Oct-26, https://www.centralbank.go.ke/uploads/mpc_press_release/224745454_MPC%20Press%20Release%20-%20Meeting%20of%20October%207%202026.pdf (tier 2)
+- Central Bank of Kenya, reserves statistics, 07-Oct-26 (tier 2, via knowledge base)
 - Kenya National Bureau of Statistics, CPI Sep-26 (tier 2, via knowledge base)
 - National Treasury and Economic Planning, debt and budget data, Jun-26 and Jul-26 (tier 2, via knowledge base)
-- IMF, programme status statement, Sep-26 (tier 2, via knowledge base; text not seen)
-- Rating agencies summary line (S&P 21-Aug-26, Fitch 17-Jul-26, Moody's Jul-26), Aug-26 (tier 2 summary; agency texts not seen)
-- IMF data portal: CPI, International Liquidity, WEO 2026E, CTOT, Financial Soundness Indicators, to Sep-26 (tier 2)
-- BIS statistics API: FX and policy-rate series, to Aug-26 (tier 2)
+- IMF data portal: CPI, International Liquidity, WEO 2026E, CTOT, FSI, to Sep-26 (tier 2)
+- BIS statistics API: FX series, to Aug-26 (tier 2)
 - World Bank WDI, 2025 (tier 2)
-- Repo knowledge base, `knowledge/sovereigns/kenya.md` and `database/sovereigns/kenya.json`, 08-Oct-26 (tier 2)
-- Previous truth document, run 2026-10-08_1222 (tier 4 where it cited sources not in the brief)
+- IMF programme status statement, Sep-26 (tier 2, text not seen)
+- CNBC Africa, Moody's upgrade to B3, 27-Jan-26, https://www.cnbcafrica.com/2026/moodys-upgrades-kenyas-rating-to-b3-on-improved-buffers-that-ease-default-risk (tier 3)
+- CNBC Africa, Kenya US$2.25bn Eurobond, Feb-26, https://www.cnbcafrica.com/2026/kenya-issues-2-25-billion-of-eurobonds-to-fund-buyback-support-budget (tier 3)
+- Kenyan Wall Street, Fitch affirmation, Jan-26, https://kenyanwallstreet.com/fitch-affirms-kenya-at-b-with-stable-outlook-as-debt-and-fiscal-risks-persist/ (tier 3)
+- Ecofin Agency, S&P upgrade to B, Aug-25, https://www.ecofinagency.com/news/2508-48131-kenya-upgraded-to-b-by-s-p-as-debt-buyback-eases-pressure (tier 3)
+- Kenyans.co.ke, S&P retains B, undated, https://www.kenyans.co.ke/news/126405-sp-retains-kenyas-b-credit-rating-warns-rising-debt-costs-and-fiscal-risks (tier 3)
+- The Star, planned buyback, 15-Jul-26, https://www.the-star.co.ke/business/kenya/2026-07-15-kenya-plans-fresh-sh646bn-eurobond-buyback (tier 3)
+- Kenyan Wall Street, IMF mission expected in December, Oct-26, https://kenyanwallstreet.com/imf-mission-expected-in-kenya-in-december-following-bangkok-talks (tier 3)
+- Kenya Times, IMF team months before elections, Oct-26, https://thekenyatimes.com/economy/imf-to-send-team-to-kenya-months-to-elections/ (tier 3)
+- Bloomberg headlines 13-Jul-26 and 14-Aug-26 (tier 3, paywalled, content not read)
+- Repo knowledge base `knowledge/sovereigns/kenya.md` and `database/sovereigns/kenya.json`, 13-Oct-26 (tier 2)
+- Previous truth document, run 2026-10-08_2122 (revised, not a source of new facts)

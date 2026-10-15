@@ -79,6 +79,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed) (Ukraine sovereign credit, run 2026-10-08_2136_ukraine-sovereign-credit)
 - 15-May-27 Republic of Serbia €1.13bn Eurobond final maturity date (Public Debt Administration, May-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 30-Jun-27 target date for 375MW wind/storage licence conversion (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)
+- 09-Aug-27: general election (Kenya Times, Oct-26) (Kenya sovereign credit, run 2026-10-15_1200_kenya-sovereign-credit)
 - 19-Sep-27: Maturity of $150m 8.25% Eurobond (US066716AB78). (Ministry of Finance, 15-Jul-26) (Tunisia sovereign credit, run 2026-10-08_1811_tunisia-sovereign-credit)
 - 01-Oct-27: $332mn 2027 notes mature (Metinvest IR, 09-Oct-26) (Metinvest, run 2026-10-09_0939_metinvest)
 - 28-Nov-27: $1.50B 6.500% Eurobond maturity bullet (DMO, Sep-26) (Nigeria sovereign credit, run 2026-10-08_1158_nigeria-sovereign-credit)
@@ -117,3 +118,4 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - Dec-26 Egypt EFF scheduled end. About USD 18.3bn of GCC deposits are reported barred from withdrawal until then (New Arab, 22-Sep-26) (Gulf support and anchors for EM sovereigns, run 2026-10-09_0838_gulf-support-and-anchors-for-em-sovereigns)
 - H2-26: expected close of the IHS Towers acquisition, with a 30% sell-down of IHS Nigeria to local investors (MTN H1-26 release, 24-Aug-26) (MTN Group, run 2026-10-09_0918_mtn-group)
 - Nov-26 expected IPO listing (Dabafinance, 09-Oct-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
+- Early Dec-26: IMF Article IV mission expected (Kenyan Wall Street, Oct-26) (Kenya sovereign credit, run 2026-10-15_1200_kenya-sovereign-credit)

@@ -18,6 +18,15 @@
     "path": "reports/ghana-sovereign-credit.md"
   },
   {
+    "topic": "Kenya sovereign credit",
+    "slug": "kenya-sovereign-credit",
+    "updated": "15-Oct-26",
+    "status": "Draft",
+    "open_items": 12,
+    "run": "2026-10-15_1200_kenya-sovereign-credit",
+    "path": "reports/kenya-sovereign-credit.md"
+  },
+  {
     "topic": "Pearl Petroleum",
     "slug": "pearl-petroleum",
     "updated": "14-Oct-26",
@@ -385,15 +394,6 @@
     "open_items": 9,
     "run": "2026-10-08_1404_jordan-sovereign-credit",
     "path": "reports/jordan-sovereign-credit.md"
-  },
-  {
-    "topic": "Kenya sovereign credit",
-    "slug": "kenya-sovereign-credit",
-    "updated": "08-Oct-26",
-    "status": "Draft",
-    "open_items": 11,
-    "run": "2026-10-08_2122_kenya-sovereign-credit",
-    "path": "reports/kenya-sovereign-credit.md"
   },
   {
     "topic": "Metinvest Barclays report and model",
