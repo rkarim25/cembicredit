@@ -587,7 +587,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Kyiv / 12:00 UK",
     "ir_webcast_url": "https://www.uz.gov.ua/en/about/investors/",
-    "days_to_earnings": 40
+    "days_to_earnings": 35
   },
   "management_questions": [
     {
@@ -909,6 +909,19 @@
       "date": "2026-10-08",
       "period_name": "2026-10-08",
       "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "CCC / Caa3",
+      "price": 64.0,
+      "ytm": 19.25,
+      "spread_bp": 1485,
+      "net_leverage": 3.86,
+      "ebitda": 380.0,
+      "fcf": -98.3,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-15",
+      "period_name": "2026-10-15",
+      "timestamp": "2026-10-15T05:20:31.679326",
       "rating": "CCC / Caa3",
       "price": 64.0,
       "ytm": 19.25,

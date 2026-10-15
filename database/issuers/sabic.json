@@ -557,7 +557,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "14:00 Riyadh / 11:00 UK",
     "ir_webcast_url": "https://www.sabic.com/en/investors",
-    "days_to_earnings": 17
+    "days_to_earnings": 12
   },
   "management_questions": [
     {
@@ -879,6 +879,19 @@
       "date": "2026-10-08",
       "period_name": "2026-10-08",
       "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "A1 / A+",
+      "price": 98.8,
+      "ytm": 5.05,
+      "spread_bp": 100,
+      "net_leverage": 1.15,
+      "ebitda": 5800.0,
+      "fcf": -398.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-15",
+      "period_name": "2026-10-15",
+      "timestamp": "2026-10-15T05:20:31.679326",
       "rating": "A1 / A+",
       "price": 98.8,
       "ytm": 5.05,

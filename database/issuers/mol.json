@@ -559,7 +559,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "08:00 Budapest",
     "ir_webcast_url": "https://molgroup.info/en/investor-relations",
-    "days_to_earnings": 26
+    "days_to_earnings": 21
   },
   "management_questions": [
     {
@@ -881,6 +881,19 @@
       "date": "2026-10-08",
       "period_name": "2026-10-08",
       "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "BBB-",
+      "price": 98.0,
+      "ytm": 5.5,
+      "spread_bp": 145,
+      "net_leverage": 1.1,
+      "ebitda": 3100.0,
+      "fcf": -22.2,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-15",
+      "period_name": "2026-10-15",
+      "timestamp": "2026-10-15T05:20:31.679326",
       "rating": "BBB-",
       "price": 98.0,
       "ytm": 5.5,

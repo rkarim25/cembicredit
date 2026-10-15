@@ -40,8 +40,13 @@
       "net_leverage": -1.51,
       "interest_coverage": 20.4,
       "cash_interest": 255.8,
-      "net_profit": 4750.6,
-      "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement.",
+      "observations": {
+        "revenue": "Audited FY2024 revenue of USD 9,666.5M supported by Dubai property deliveries.",
+        "ebitda": "Calculated EBITDA of USD 5,217.8M reflecting robust development margins.",
+        "fcf": "Strong organic cash generation; net cash position exceeds loans plus sukuk.",
+        "net_leverage": "Net cash position: cash and cash equivalents exceed loans plus sukuk.",
+        "notes": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement."
+      },
       "change_in_working_capital": 539.1,
       "tax_expense": 509.5,
       "fcf": 3813.4,
@@ -72,8 +77,13 @@
       "net_leverage": -0.78,
       "interest_coverage": 16.5,
       "cash_interest": 283.0,
-      "net_profit": 4037.3,
-      "observations": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement.",
+      "observations": {
+        "revenue": "Audited FY2023 revenue of USD 7,282.8M per FY2024 comparative statements.",
+        "ebitda": "Calculated EBITDA of USD 4,669.1M.",
+        "fcf": "Net cash position: cash and cash equivalents exceed loans plus sukuk.",
+        "net_leverage": "Net cash position: cash and cash equivalents exceed loans plus sukuk.",
+        "notes": "Net cash position: cash and cash equivalents exceed loans plus sukuk. Debt = interest-bearing loans (note 24) + sukuk (note 25). Capex, CFO and FCF not yet extracted from the cash-flow statement."
+      },
       "change_in_working_capital": 436.5,
       "tax_expense": 447.8,
       "fcf": 3401.8,
@@ -321,7 +331,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "15:00 Dubai",
     "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-    "days_to_earnings": 31
+    "days_to_earnings": 26
   },
   "management_questions": [
     {
@@ -643,6 +653,19 @@
       "net_leverage": 100.0,
       "ebitda": 3200.0,
       "fcf": -240.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-15",
+      "period_name": "2026-10-15",
+      "timestamp": "2026-10-15T05:20:31.679326",
+      "rating": "BBB / Baa2",
+      "price": 100.2,
+      "ytm": 5.15,
+      "spread_bp": 95,
+      "net_leverage": -1.51,
+      "ebitda": 5217.8,
+      "fcf": 3813.4,
       "guidance_status": "On Track"
     }
   ],

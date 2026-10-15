@@ -553,7 +553,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/MAF",
-    "days_to_earnings": 32
+    "days_to_earnings": 27
   },
   "management_questions": [
     {
@@ -875,6 +875,19 @@
       "date": "2026-10-08",
       "period_name": "2026-10-08",
       "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "BBB / BBB",
+      "price": 98.0,
+      "ytm": 5.65,
+      "spread_bp": 160,
+      "net_leverage": 2.85,
+      "ebitda": 1450.0,
+      "fcf": 91.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-15",
+      "period_name": "2026-10-15",
+      "timestamp": "2026-10-15T05:20:31.679326",
       "rating": "BBB / BBB",
       "price": 98.0,
       "ytm": 5.65,

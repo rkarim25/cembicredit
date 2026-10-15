@@ -1,7 +1,7 @@
 {
   "metadata": {
     "id": "cimkoc",
-    "name": "Çimko Çimento",
+    "name": "\u00c7imko \u00c7imento",
     "ticker": "CIMKOC",
     "country": "Turkey",
     "region": "CEEMEA",
@@ -343,7 +343,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/CIMKOC",
-    "days_to_earnings": 32
+    "days_to_earnings": 27
   },
   "management_questions": [
     {
@@ -511,6 +511,19 @@
       "ebitda": 165.0,
       "fcf": 18.5,
       "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-15",
+      "period_name": "2026-10-15",
+      "timestamp": "2026-10-15T05:20:31.679326",
+      "rating": "B / B3",
+      "price": 105.0,
+      "ytm": 8.6,
+      "spread_bp": 391,
+      "net_leverage": 1.8,
+      "ebitda": 165.0,
+      "fcf": 18.5,
+      "guidance_status": "On Track"
     }
   ],
   "commodity_drivers": {
@@ -533,7 +546,7 @@
       "broker": "J.P. Morgan",
       "analyst": "CEEMEA Corporate Credit Desk",
       "report_date": "2026-09-21",
-      "report_title": "Çimko Çimento (CIMKOC) 2Q26 results: EBITDA -24% yoy to TRY 2,066mn (margin 31.2%); Net leverage rises to 2.3x (YE26E 2.5-3.0x); Broker remains OW CIMKOC 30s",
+      "report_title": "\u00c7imko \u00c7imento (CIMKOC) 2Q26 results: EBITDA -24% yoy to TRY 2,066mn (margin 31.2%); Net leverage rises to 2.3x (YE26E 2.5-3.0x); Broker remains OW CIMKOC 30s",
       "recommendation": "Overweight",
       "target_spread_bps": 350,
       "raw_model": {

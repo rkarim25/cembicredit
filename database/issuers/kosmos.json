@@ -561,7 +561,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "16:00 London / 11:00 EST",
     "ir_webcast_url": "https://investors.kosmosenergy.com/",
-    "days_to_earnings": 24
+    "days_to_earnings": 19
   },
   "management_questions": [
     {
@@ -883,6 +883,19 @@
       "date": "2026-10-08",
       "period_name": "2026-10-08",
       "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "B- / B3",
+      "price": 89.5,
+      "ytm": 10.45,
+      "spread_bp": 610,
+      "net_leverage": 2.99,
+      "ebitda": 810.0,
+      "fcf": -55.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-15",
+      "period_name": "2026-10-15",
+      "timestamp": "2026-10-15T05:20:31.679326",
       "rating": "B- / B3",
       "price": 89.5,
       "ytm": 10.45,

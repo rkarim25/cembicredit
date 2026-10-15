@@ -326,7 +326,7 @@
     "recovery_base_pct": 98.0,
     "implied_stress_ev_multiple": 4.2,
     "restructuring_framework": "Turkey Commercial & Bankruptcy Code",
-    "thesis": "1,180 MW pure-play renewable portfolio; Uşak hybrid solar expansion diversifying hydro risk."
+    "thesis": "1,180 MW pure-play renewable portfolio; U\u015fak hybrid solar expansion diversifying hydro risk."
   },
   "annotations": [
     {
@@ -558,7 +558,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:30 Istanbul",
     "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-    "days_to_earnings": 29
+    "days_to_earnings": 24
   },
   "management_questions": [
     {
@@ -880,6 +880,19 @@
       "date": "2026-10-08",
       "period_name": "2026-10-08",
       "timestamp": "2026-10-08T05:23:25.717507",
+      "rating": "B / B3",
+      "price": 96.5,
+      "ytm": 8.95,
+      "spread_bp": 455,
+      "net_leverage": 4.11,
+      "ebitda": 190.0,
+      "fcf": -82.6,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-15",
+      "period_name": "2026-10-15",
+      "timestamp": "2026-10-15T05:20:31.679326",
       "rating": "B / B3",
       "price": 96.5,
       "ytm": 8.95,
