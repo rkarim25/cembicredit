@@ -8,38 +8,38 @@
     "asof": ""
   },
   "commodity_exposure": {
-    "value": "Gold: goods surplus and GoldBod FX inflows support the current account; COCOBOD crop financing is a contingent liability",
-    "source": "IMF BOP; GoldBod Sep-26 bulletin (via knowledge base)",
-    "asof": "08-Oct-26"
+    "value": "Gold (67% of goods exports in 2025) is the main export and the price that matters; oil above US$100/bbl feeds utility tariffs and non-food inflation",
+    "source": "Press quoting official data (Gold share); GSS/press (oil, non-food CPI)",
+    "asof": "15-Oct-26"
   },
   "imf": {
-    "programme": "Policy Coordination Instrument (36-month, non-financing), following the completed US$3.0B ECF",
+    "programme": "36-month non-financing Policy Coordination Instrument (PCI), following completion of the 39-month US$3bn ECF on 27-Jul-26",
     "size_usd_bn": null,
     "approved": "27-Jul-26",
-    "next_review": "15-Dec-26 (first monitoring mission)",
-    "risk_of_debt_distress": null,
-    "source": "IMF press release on sixth ECF review and PCI; IMF calendar",
+    "next_review": "15-Dec-26 (first PCI monitoring mission)",
+    "risk_of_debt_distress": "moderate",
+    "source": "IMF Board, via GNA; IMF calendar via knowledge base",
     "asof": "27-Jul-26"
   },
   "indicators": {
     "cpi_latest_yoy_pct": {
       "value": 5.2,
       "period": "Sep-26",
-      "source": "Ghana Statistical Service CPI Bulletin",
-      "asof": "07-Oct-26"
+      "source": "Ghana Statistical Service",
+      "asof": "15-Oct-26"
     },
     "policy_rate_pct": {
       "value": 14.0,
       "period": "Sep-26",
-      "source": "Bank of Ghana, 132nd MPC Communiqu\u00e9",
-      "asof": "28-Sep-26"
+      "source": "Bank of Ghana MPC, via GNA",
+      "asof": "Sep-26"
     },
     "gross_reserves_usd_bn": {
       "value": 12.0,
-      "definition": "BoG-reported gross; definition not stated; not reconciled with IMF gross incl. gold of US$9.72B (Jul-26)",
-      "period": "end-Sep-26",
-      "source": "Bank of Ghana",
-      "asof": "28-Sep-26"
+      "definition": "Bank of Ghana reported gross international reserves; unreconciled with IMF International Liquidity series (US$9.72bn incl. gold at Jul-26)",
+      "period": "Sep-26",
+      "source": "Bank of Ghana via press",
+      "asof": "Sep-26"
     },
     "import_cover_months": {
       "value": 5.2,
@@ -55,10 +55,10 @@
       "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
     },
     "real_gdp_growth_pct": {
-      "value": 4.8,
-      "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "08-Oct-26"
+      "value": 6.0,
+      "period": "Q2-26",
+      "source": "Ghana Statistical Service via press",
+      "asof": "15-Oct-26"
     },
     "current_account_pct_gdp": {
       "value": 10.1,
@@ -68,16 +68,16 @@
     },
     "gov_debt_pct_gdp": {
       "value": 53,
-      "definition": "IMF WEO general government debt",
+      "definition": "IMF WEO projection; press-quoted official figure of 45.9% (Dec-25: 44.7%) differs in definition and is unreconciled",
       "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "08-Oct-26"
+      "source": "IMF WEO (database/sovereigns/ghana.json)",
+      "asof": "09-Oct-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": -2.3,
       "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "08-Oct-26"
+      "source": "IMF WEO (database/sovereigns/ghana.json)",
+      "asof": "09-Oct-26"
     },
     "nominal_gdp_usd_bn": {
       "value": 118.3,
@@ -97,17 +97,17 @@
     "fitch": {
       "rating": "B",
       "outlook": "Positive",
-      "date": "22-May-26"
+      "date": "08-May-26"
     },
     "sp": {
       "rating": "B-",
       "outlook": "Stable",
-      "date": "18-Sep-26"
+      "date": "27-Mar-26"
     },
     "moodys": {
-      "rating": "Caa1",
-      "outlook": "Positive",
-      "date": "16-Apr-26"
+      "rating": "B3",
+      "outlook": "Stable",
+      "date": "09-Oct-26"
     }
   },
   "series": {
@@ -128,15 +128,15 @@
     }
   },
   "series_sources": {
-    "real_gdp_growth_pct": "IMF WEO, 08-Oct-26",
+    "real_gdp_growth_pct": "IMF WEO, 09-Oct-26",
     "current_account_pct_gdp": "IMF WEO, 08-Oct-26",
-    "fiscal_balance_pct_gdp": "IMF WEO, 08-Oct-26",
-    "gov_debt_pct_gdp": "IMF WEO, 08-Oct-26",
+    "fiscal_balance_pct_gdp": "IMF WEO, 09-Oct-26",
+    "gov_debt_pct_gdp": "IMF WEO, 09-Oct-26",
     "nominal_gdp_usd_bn": "IMF WEO, 08-Oct-26"
   },
   "slug": "ghana",
-  "asof": "09-Oct-26",
-  "run": "2026-10-08_2118_ghana-sovereign-credit",
+  "asof": "15-Oct-26",
+  "run": "2026-10-15_1000_ghana-sovereign-credit",
   "derived": {
     "ex_ante_real_rate_pct": 8.8,
     "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
@@ -2482,6 +2482,93 @@
           "period": "2026E",
           "source": "IMF WEO",
           "asof": "08-Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 118.3,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": 10.06,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "08-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 8.8,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.86,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
+        "reer_latest": 90.4634,
+        "reserves_12m_pct": 11.9,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-07 to 2026-07 (IMF International Liquidity)",
+        "ctot_12m_pct": 3.3,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-08_2118_ghana-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 5.2,
+          "period": "Sep-26",
+          "source": "Ghana Statistical Service",
+          "asof": "15-Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 14.0,
+          "period": "Sep-26",
+          "source": "Bank of Ghana MPC, via GNA",
+          "asof": "Sep-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 12.0,
+          "definition": "Bank of Ghana reported gross international reserves; unreconciled with IMF International Liquidity series (US$9.72bn incl. gold at Jul-26)",
+          "period": "Sep-26",
+          "source": "Bank of Ghana via press",
+          "asof": "Sep-26"
+        },
+        "import_cover_months": {
+          "value": 5.2,
+          "period": "end-Sep-26",
+          "source": "Bank of Ghana",
+          "asof": "28-Sep-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 1.671,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 6.0,
+          "period": "Q2-26",
+          "source": "Ghana Statistical Service via press",
+          "asof": "15-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": 10.1,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 53,
+          "definition": "IMF WEO projection; press-quoted official figure of 45.9% (Dec-25: 44.7%) differs in definition and is unreconciled",
+          "period": "2026E",
+          "source": "IMF WEO (database/sovereigns/ghana.json)",
+          "asof": "09-Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -2.3,
+          "period": "2026E",
+          "source": "IMF WEO (database/sovereigns/ghana.json)",
+          "asof": "09-Oct-26"
         },
         "nominal_gdp_usd_bn": {
           "value": 118.3,

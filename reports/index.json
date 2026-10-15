@@ -9,6 +9,15 @@
     "path": "reports/egypt-sovereign-credit.md"
   },
   {
+    "topic": "Ghana sovereign credit",
+    "slug": "ghana-sovereign-credit",
+    "updated": "15-Oct-26",
+    "status": "Draft",
+    "open_items": 12,
+    "run": "2026-10-15_1000_ghana-sovereign-credit",
+    "path": "reports/ghana-sovereign-credit.md"
+  },
+  {
     "topic": "Pearl Petroleum",
     "slug": "pearl-petroleum",
     "updated": "14-Oct-26",
@@ -358,15 +367,6 @@
     "open_items": 7,
     "run": "2026-10-08_2005_georgia-sovereign-credit",
     "path": "reports/georgia-sovereign-credit.md"
-  },
-  {
-    "topic": "Ghana sovereign credit",
-    "slug": "ghana-sovereign-credit",
-    "updated": "08-Oct-26",
-    "status": "Draft",
-    "open_items": 10,
-    "run": "2026-10-08_2118_ghana-sovereign-credit",
-    "path": "reports/ghana-sovereign-credit.md"
   },
   {
     "topic": "Iraq sovereign credit",
