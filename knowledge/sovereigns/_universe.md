@@ -1,6 +1,6 @@
 # HY CEEMEA sovereign universe
 
-_Status table regenerated 15-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
+_Status table regenerated 16-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
 
 | Sovereign | Page | Latest report | Updated | Open items | Ratings (as filed) |
 |---|---|---|---|---|---|
@@ -16,7 +16,7 @@ _Status table regenerated 15-Oct-26 by the pipeline from knowledge pages and rep
 | Colombia | `knowledge/sovereigns/colombia.md` | none yet |  |  |  |
 | Cote d'Ivoire | `knowledge/sovereigns/cote-d-ivoire.md` | `reports/cote-d-ivoire-sovereign-credit.md` | 08-Oct-26 | 10 | Ratings: S&P BB/Stable (14-Nov-25), Fitch BB/Stable (12-Jun-26, upgraded 12-Dec-25), Moody's Ba2/Stable (Mar-26) (Rating Agencies, Jun-26) |
 | Czech Republic | `knowledge/sovereigns/czech-republic.md` | none yet |  |  |  |
-| Egypt | `knowledge/sovereigns/egypt.md` | `reports/egypt-sovereign-credit.md` | 15-Oct-26 | 11 | Foreign currency sovereign ratings: S&P B (Stable, 10-Oct-25 / affirmed Apr-26); Fitch B (Stable, 01-Nov-24 / affirmed Oct-26); Moody's Caa1 |
+| Egypt | `knowledge/sovereigns/egypt.md` | `reports/egypt-sovereign-credit.md` | 15-Oct-26 | 11 | | Primary balance | 4.9 % GDP | FY25/26 | S&P via Arab News (MoF budgeted 4.0%) | |
 | EM issuance, index flows and positioning | `knowledge/sovereigns/em-issuance-index-flows-and-positioning.md` | none yet |  |  |  |
 | Ethiopia | `knowledge/sovereigns/ethiopia.md` | `reports/ethiopia-sovereign-credit.md` | 08-Oct-26 | 5 | Ratings: Fitch RD (Fitch, 24-Oct-25); S&P SD (S&P, 20-Dec-23); Moody's Caa3 Stable (Moody's, 14-Feb-26). |
 | Gabon | `knowledge/sovereigns/gabon.md` | `reports/gabon-sovereign-credit.md` | 08-Oct-26 | 6 | | Government debt | 70 % GDP | latest (approximate) | Fitch Ratings Sovereign Rating Action on Gabon | |
@@ -39,7 +39,7 @@ _Status table regenerated 15-Oct-26 by the pipeline from knowledge pages and rep
 | Morocco | `knowledge/sovereigns/morocco.md` | `reports/morocco-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P BBB- (Stable, 27-Mar-26); Moody's Ba1 (Positive, 06-Mar-26); Fitch BB+ (Stable, 17-Sep-26) (Rating Agencies, Sep-26). |
 | Mozambique | `knowledge/sovereigns/mozambique.md` | `reports/mozambique-sovereign-credit.md` | 08-Oct-26 | 5 | Ratings: Fitch LTFC CC (24-Jul-26); S&P LTFC CCC / LC SD (25-Sep-26); Moody's LTFC Caa3 Stable (18-Oct-24). |
 | Namibia | `knowledge/sovereigns/namibia.md` | `reports/namibia-sovereign-credit.md` | 08-Oct-26 | 8 |  |
-| Nigeria | `knowledge/sovereigns/nigeria.md` | `reports/nigeria-sovereign-credit.md` | 08-Oct-26 | 12 | Ratings: S&P B/Stable (15-May-26), Fitch B/Stable (10-Apr-26), Moody's B3/Positive (Aug-26) (S&P, Fitch, Moody's, 2026) |
+| Nigeria | `knowledge/sovereigns/nigeria.md` | `reports/nigeria-sovereign-credit.md` | 16-Oct-26 | 13 | Ratings: S&P B/Stable (15-May-26), Fitch B/Stable (10-Apr-26), Moody's B3/Positive (Aug-26) (S&P, Fitch, Moody's, 2026) |
 | North Macedonia | `knowledge/sovereigns/north-macedonia.md` | `reports/north-macedonia-sovereign-credit.md` | 08-Oct-26 | 9 |  |
 | Oman | `knowledge/sovereigns/oman.md` | `reports/oman-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P BBB- (Stable, 27-Sep-24, affirmed Sep-26); Moody's Baa3 (Stable, 10-Jul-25); Fitch BBB- (Stable, 08-Dec-25) (Rating Agencies, D |
 | Pakistan | `knowledge/sovereigns/pakistan.md` | `reports/pakistan-sovereign-credit.md` | 08-Oct-26 | 10 |  |

@@ -1,116 +1,149 @@
 ---
 topic: Metinvest Barclays report and model
 slug: metinvest-barclays-report-and-model
-updated: 08-Oct-26
-run: 2026-10-08_1107_metinvest-barclays-report-and-model
+updated: 16-Oct-26
+run: 2026-10-16_1233_metinvest-barclays-report-and-model
 status: Draft
-open_items: 5
+open_items: 9
 ---
 
 # Metinvest Barclays report and model
 
-_Updated 08-Oct-26 · run 2026-10-08_1107_metinvest-barclays-report-and-model_
+_Updated 16-Oct-26 · run 2026-10-16_1233_metinvest-barclays-report-and-model_
 
 ## Open items
-1. [REZA] Confirm fund portfolio exposure across METINV 2027s ($332mn outstanding) and METINV 2029s ($500mn outstanding), and verify whether fund mandate limits allow executing the switch into MHPSA 6.25% 2029s.
-2. [BBG: METINV 7.75 10/17/2027 / YAS] Verify live bid/ask cash price, yield-to-maturity, and Z-spread for METINV 2027s vs METINV 2029s.
-3. [BBG: MHPSA 6.25 09/19/2029 / YAS] Verify live bid/ask cash price and yield-to-maturity for MHPSA 6.25% 2029s vs MHPSA 10.5% 2029s.
-4. [MANAGEMENT] Clarify the breakdown of the $191mn June-26 cash position between unencumbered offshore hard currency and domestic Ukrainian accounts restricted under National Bank of Ukraine (NBU) FX controls.
-5. [MANAGEMENT] Provide official engineering capex estimates and timetable required to restore Kamet Steel and Zaporizhstal blast furnaces to partial production, and confirm whether any war risk insurance applies.
+1. [BBG: METINV 7.65 10/01/2027 / YAS price, yield, Z-spread] No live level for the 2027s. Barclays' c.87 cash and 23% yield cannot be checked against a Bloomberg screen.
+2. [BBG: METINV 7.75 10/17/2029 / YAS price, yield, Z-spread] The stored 93.27 / 14.98% / 1022bp (27-Sep-26) conflicts with Barclays' c.77 cash and 18% yield, and with the "15.65%" label.
+3. [BBG: MHPSA 6.25 09/19/2029 / YAS price and yield] This is needed to check the 12% yield behind Barclays' switch recommendation.
+4. [REZA] Current Moody's, S&P and Fitch ratings and outlooks since 11-Aug-26 (Bloomberg RATC). Public sources show S&P at CCC+ after the April repayment and Fitch at CCC- earlier in 2026. The Moody's Caa3 and Fitch CCC- entries rest on Barclays only.
+5. [REZA] Paste the Barclays base and downside assumptions, and say whether the H2 26E EBITDA of $98mn includes any Zaporizhstal contribution. Zaporizhstal is a JV and sits outside EBITDA ex-JVs.
+6. [REZA] Should the 2024A row in `database/issuers/metinvest.json` be rebuilt from the audited FY24 and FY25 filings? It carries the end-June 26 balance sheet and conflicts with the Barclays 2024 table.
+7. [REZA] Fund exposure to the METINV 2027s and 2029s, and whether the mandate allows the switch into MHPSA 6.25% 2029s.
+8. [MANAGEMENT] Split of the $191mn June-26 cash between offshore hard currency and Ukrainian accounts under NBU controls, plus cash and undrawn committed facilities at 30-Sep-26.
+9. [MANAGEMENT] Zaporizhstal and Kamet Steel restart timetable and capex, and any war-risk or business-interruption insurance recovery.
 
 ## View
-Systematic Russian missile strikes on Zaporizhstal and Kamet Steel in August–September 2026 severely impaired Metinvest's primary domestic upstream capacity, cutting H2 26E EBITDA to $98mn (vs $300mn in H1 26) and FY26E EBITDA to $398mn (Barclays, Oct-26, High).
-Following timely repayment of the $428mn Eurobond in April 2026, net debt reached a cyclical low of $866mn (1.2x LTM net leverage) at end-June 2026, providing crucial balance sheet insulation (Metinvest H1 26, 14-Sep-26, High).
-However, end-June 2026 cash of $191mn falls below Moody's $200mn minimum operating buffer, and H2 26E FCF turns negative to -$79mn due to $130mn emergency repair capex against compressed operating cash flows (Barclays / Moody's, Oct-26, High).
-Refinancing risk is acute for the remaining Eurobonds: METINV $332mn due Oct-27 (c.87 cash, 23% yield) and METINV $500mn due Oct-29 (c.77 cash, 18% yield), which now trade flat to the Ukraine sovereign (Barclays, Oct-26, High).
-We endorse Barclays' relative value recommendation to switch METINV 2027s into MHPSA 6.25% 2029s (c.86/87 cash, 12% yield), capturing 1100bp lower default and refinancing risk for an equivalent dollar cash outlay (Barclays, Oct-26, High).
-MHP benefits from domestic agricultural demand inelasticity, offshore poultry revenue diversification (c.25% of EBITDA), and no Eurobond maturities until 2029 (Barclays, Oct-26, High).
-Metinvest's downside anchor is supported by offshore re-rolling mills (Italy, Bulgaria, UK, Romania) delivering c.$150mn EBITDA (c.23% of group EBITDA ex-JVs), independent of Ukraine physical grid risk (Metinvest H1 26 / Barclays, Oct-26, High).
-The primary restructuring pathway for METINV 2027 is a 2–3 year maturity extension at 9–10% coupons (matching the late 2025/early 2026 cleansing baseline) rather than nominal haircuts, given 2.1bn tonnes of JORC iron ore reserves (Barclays, Oct-26, Medium).
-Overall conviction is Medium: operational downside is shielded by offshore re-rolling assets and low net debt, but liquidity runway through 2027 hinges entirely on western rail throughput and port grid restoration (Analyst assessment, 08-Oct-26, Medium).
+The credit is distressed but serviced. H1 26 net debt of $866mn (1.2x LTM EBITDA ex-JVs) predates the August–September strikes and is stale for forward leverage (Metinvest H1 26, 14-Sep-26, High).
+Zaporizhstal has been idle since 11-Aug-26 after repeated strikes, and force majeure is to be declared on part of the contracts. No restart date is public (SteelOrbis, 17-Sep-26; Kurs.com.ua, Sep-26, Medium).
+Barclays cuts H2 26E EBITDA ex-JVs to $98mn from $300mn in H1 26, and FY26E to $398mn. It forecasts net leverage of 2.4x in 2026E and 2.5x in 2027E, and H2 26E FCF of -$79mn (Barclays, Oct-26, Medium).
+No bond matures before $332mn on 01-Oct-27, then $500mn on 17-Oct-29. Annual coupons are about $25mn on the 2027s (7.65%) and about $39mn on the 2029s (7.75%), my arithmetic from issuer terms (Metinvest IR, 09-Oct-26, High).
+Barclays puts both bonds near the sovereign curve (2027s c.87 cash, 23% yield; 2029s c.77 cash, 18% yield) and anticipates a 2–3 year extension at 9–10% coupons without principal haircuts. This is Barclays' view; I have no Bloomberg levels to confirm it (Medium).
+The structural cushion is the European re-rolling assets, c.$150mn EBITDA in 2025, and the 2.1bn tonne JORC iron ore base. Barclays' switch of the 2027s into MHPSA 6.25% 2029s is reported but not endorsed here, because neither leg is priced on Bloomberg.
+The biggest risk is further strikes combined with cash below the $200mn Moody's buffer ahead of the 2027 refinancing.
+The repo data is unreliable on coupon, quotes and the 2024A row, and the H2 26E forecast comes from a broker. Overall confidence is Medium-Low.
 
 ## What changed
-First version.
+- The 2027 coupon is corrected to 7.65% from 7.75%. The issuer page prevails over the H1 summary, and the 2027 maturity is 01-Oct-27, not 17-Oct-27.
+- The 2029 notes are confirmed as $500mn, 7.750%, due 17-Oct-29, with coupons on 17-May and 17-Nov. The repo benchmark label "15.65%" and the stored 14.98% yield are flagged as wrong or stale.
+- Barclays-sourced figures are downgraded from High to Medium, because sell-side is tier 3. The previous "we endorse" language on the MHPSA switch is withdrawn pending Bloomberg levels.
+- A repo data error is added: the 2024A row duplicates the end-June 26 balance sheet. Barclays shows 2024 net debt of $1,048mn against $866mn in the repo.
+- Ratings are re-labelled as unverified and possibly conflicting.
+- Open items are rebuilt. The prior cash-split and capex items are kept, and the bond ticker references are fixed.
 
 ## Analysis
 
-### Operational Damage and Upstream Stoppages
-Between 11-Aug-26 and 22-Sep-26, systematic Russian ballistic strikes targeted Ukrainian industrial metallurgy and energy infrastructure (Barclays, Oct-26, High). Zaporizhstal (3.6mt gross steel capacity; Metinvest 49.99% stake) was struck four separate times (11-Aug, 27-Aug, 12-Sep, 17-Sep), suffering 8 fatalities, 28 injuries, and severe damage to blast furnaces, steelmaking workshops, power systems, and railway infrastructure (Barclays, Oct-26, High). Consolidated Kamet Steel (2.0mt capacity) was hit by a ballistic missile strike on 05-Sep-26 (5 fatalities, 4 injuries), forcing a complete shutdown of production processes (Barclays, Oct-26, High). Strikes also disabled power substations in Odesa and Mykolaiv supporting port logistics (Bloomberg, 13-Sep-26, High), while damage to transport bridges restricted Danube river export corridors (Bloomberg / Reuters, 22-Sep-26, High).
+### Operations and the Zaporizhstal outage
+- Zaporizhstal has been idle since 11-Aug-26. It was struck on 11-Aug, 27-Aug, 12-Sep and 17-Sep, with 17 missiles in total, 8 killed and 28 injured (SteelOrbis, 17-Sep-26, Medium). Metinvest holds a 49.99% stake, and the JV sits outside EBITDA ex-JVs.
+- Barclays reports Kamet Steel (2.0mt) hit on 05-Sep-26 and fully shut down. It also reports damage to port-logistics power substations (Barclays, Oct-26, Medium; Bloomberg headline 13-Sep-26, paywalled, details not seen).
+- Barclays forecast (Medium):
 
-These outages reduce forecast H2 26E EBITDA (ex-JVs) to $98mn, down 67% from $300mn in H1 26 (Barclays, Oct-26, High). Full-year 2026E EBITDA is projected at $398mn (down 38% YoY from $643mn in 2025), with FY27E EBITDA estimated at $387mn at $100/t iron ore and spot steel prices (or c.$300mn at $90/t iron ore) (Barclays, Oct-26, High).
+| US$mn | FY25 | H1 26 | H2 26E | FY26E | FY27E |
+|---|---:|---:|---:|---:|---:|
+| EBITDA ex-JVs | 643 | 300 | 98 | 398 | 387 |
+| Simple FCF | -1 | 213 | -79 | 134 | 35 |
+| Net debt | 1,065 | 866 | 965 | 965 | 957 |
 
-### Liquidity Profile and FCF Deterioration
-Metinvest successfully redeemed its $428mn Eurobond in April 2026 entirely from internal cash flow and working capital optimization (Metinvest H1 26, 14-Sep-26, High). However, this debt service reduced cash to $191mn at end-June 2026, below Moody's recommended $200mn minimum operating buffer (Moody's, Aug-26, High).
+- FY27E assumes iron ore at $100/t. Barclays gives c.$300mn at $90/t.
+- The company's H1 26 press summary shows adjusted EBITDA of $311mn against $300mn ex-JVs (gmk.center, Sep-26, Medium). The definitions differ and I have not reconciled them.
+- Zaporizhstal's contribution to group EBITDA is unknown. The $98mn H2 26E figure therefore cannot be tied to the plants that are down (open item 5).
 
-For H2 26E, cash generation will turn negative: operating cash flow of $98mn is eclipsed by $129mn capex (including $130mn in urgent plant repairs) and $48mn in cash interest, resulting in Simple FCF of -$79mn (Barclays, Oct-26, High). The pending divestment of United Coal (which posted -$16mn EBITDA in H1 26 and requires c.$250/t coking coal to break even) is in final stages but is assumed to generate no material upfront cash proceeds (Barclays, Oct-26, Medium).
+### Liquidity
+- The $428mn Eurobond was repaid in April 2026 from internal cash, taking wartime bond service above $1bn (Metinvest H1 26, 14-Sep-26; Ukranews, Apr-26, High/Medium).
+- End-June 26: gross debt $1,057mn ($168mn short-term, $889mn long-term), cash $191mn, net debt $866mn (Metinvest H1 26, High).
+- Cash is below Moody's $200mn minimum buffer (Moody's, Aug-26, via Barclays, Medium).
+- H2 26E: operating cash flow of $98mn, capex of $129mn including $130mn of repairs, and interest of $48mn give FCF of -$79mn (Barclays, Medium).
+- No data was found on undrawn committed facilities or covenants.
+- The United Coal disposal, H1 26 EBITDA of -$16mn, is assumed to bring no material cash (Barclays, Medium).
 
-### Capital Structure and Restructuring Blueprint
-Total debt stood at $1,057mn at end-June 2026, comprising $168mn short-term debt and $889mn long-term debt, resulting in net debt of $866mn (1.2x LTM net leverage) (Metinvest H1 26 / Barclays, Oct-26, High). Forecast net leverage rises to 2.4x in 2026E and 2.5x in 2027E, remaining below the 3.0x threshold that would threaten fundamental solvency (Barclays, Oct-26, Medium).
+### Capital structure
+- 2027 notes: $332.354mn outstanding, 7.650%, due 01-Oct-27, coupons 1-Mar and 1-Sep (Metinvest IR, 09-Oct-26, High). Earlier notes in the repo showed 7.75%, which the issuer page contradicts.
+- 2029 notes: $500mn, 7.750%, due 17-Oct-29 (metinvestholding.com/en/investor/ebonds2029, High).
+- Barclays levels (Oct-26, Medium): 2027s c.87 cash, 23% yield; 2029s c.77 cash, 18% yield.
+- The restructuring base case is a 2–3 year extension at 9–10% coupons without haircuts, matching the late 2025 and early 2026 baseline (Barclays, 04-Feb-26 and Oct-26, Medium).
+- Higher coupons would absorb cash at $90–100/t iron ore (Barclays, Medium).
 
-Eurobond maturities comprise $332mn due October 2027 (trading at c.87 cash, 23% yield) and $500mn due October 2029 (c.77 cash, 18% yield) (Barclays, Oct-26, High). Both bonds trade broadly flat to the sovereign curve, reflecting market expectations of an in-court or consensual liability management exercise ahead of October 2027 (Barclays, Oct-26, High). Precedent parameters established during late 2025/early 2026 restructuring talks (a 2–3 year maturity extension at 9–10% coupons without principal hair-cuts) serve as the primary restructuring blueprint (Barclays, 04-Feb-26 / Oct-26, Medium). However, higher coupons will absorb cash flow given $90–100/t iron ore price dynamics (Barclays, Oct-26, Medium).
+### Relative value
+- Barclays recommends switching METINV 2027s (23% yield) into MHPSA 6.25% 2029s (c.12% yield) (Barclays, Oct-26, Medium).
+- Its reasoning is lower refinancing risk at MHP, offshore poultry at about a quarter of MHP EBITDA, and no Eurobond maturity before 2029.
+- Metinvest is Market Weight and MHP is Overweight at Barclays.
+- This remains unverified until open items 1–3 are answered.
 
-### Relative Value: METINV 2027 vs MHPSA 2029 Switch
-Barclays recommends switching out of METINV 2027s (c.87 cash, 23% yield) into MHPSA 6.25% 2029s (c.86/87 cash, 12% yield) (Barclays, Oct-26, High). While METINV 2027 offers an 1100bp yield premium, it carries severe refinancing and restructuring risk over the next 12 months (Barclays, Oct-26, High). Conversely, MHP operates in resilient agricultural protein staples, generates roughly a quarter of its EBITDA from international operations, carries no Eurobond maturities until 2029, and is rated Overweight vs Metinvest at Market Weight (Barclays, Oct-26, High).
+### Asset cushion
+- The European re-rolling assets in Italy, Bulgaria, the UK and Romania produced 1.5mt and c.$150mn EBITDA in 2025, about 23% of group EBITDA ex-JVs (Barclays, Oct-26, Medium).
+- They depend partly on Ukrainian feedstock. Zaporizhstal had shipped over 22,000t of hot-rolled steel to Metinvest Tubular Iași, with plans for up to 180,000t in 2026 (Romania-Insider, Feb-26, Medium).
+- JORC iron ore reserves are 2.1bn tonnes (July-21 audit) against c.16mt of 2025 output (Barclays, Medium).
+- Rail exports to Europe are the fallback if Black Sea ports are disrupted. Barclays assumes 70–80% of external ore sales volumes are preserved into 2027 (Medium).
 
-### Offshore Re-Rolling and Iron Ore Asset Coverage
-Metinvest retains two major structural asset anchors:
-1. **European Re-Rolling Mills:** Standalone steel operations in Italy, Bulgaria, the UK, and Romania produced 1.5mt in 2025 alongside 2.0mt from Kamet Steel (Metinvest H1 26 / Barclays, Oct-26, High). International assets contributed c.23% of group EBITDA ex-JVs in 2025 (c.$150mn), representing c.40% of steel segment EBITDA ($380mn) (Barclays, Oct-26, High). These assets benefit from EU CBAM protection and unencumbered European logistics (Barclays, Oct-26, High).
-2. **Iron Ore Reserve Base:** JORC reserves total 2.1bn tonnes (July 2021 audit) against 2025 production of c.16mt (Barclays, Oct-26, High). While Black Sea port strikes restrict seaborne exports, Metinvest maintains proven western rail export corridors to Europe (selling c.6mt mining volumes to Europe in 2022 and 2025) (Barclays, Oct-26, High). Barclays projects 1.5–2.0mt redirected from ports to European customers, preserving 70–80% of external iron ore sales volumes into 2027 (Barclays, Oct-26, Medium).
+### Ratings
+- Moody's Caa3 Stable (Aug-26), S&P CCC+ Negative and Fitch CCC- are all recorded via Barclays (Oct-26, Medium).
+- Press reports S&P raised the rating by two notches to CCC+ after the April repayment and that Fitch cut to CCC- earlier in 2026 (BondBlox, 2026, Low).
+- Agency pages were not accessed. Treat all three as unverified.
+
+### Repo data quality
+- The benchmark label "METINV 15.65% 2029" conflicts with the 7.75% coupon. At 93.27 with about three years to maturity, a 7.75% coupon implies a yield near 10%, not 14.98% (my approximation, not a bond-calculator output).
+- The stored quote is dated 27-Sep-26 and does not match Barclays' c.77 cash.
+- The 2024A row shows cash $191mn, gross debt $1,057mn and net debt $866mn. These equal the end-June 26 figures.
+- Barclays' 2024 table shows cash $657mn, total debt $1,705mn, net debt $1,048mn, revenue $8,050mn and EBITDA ex-JVs $898mn (Medium).
+- The 2021A stored FCF of $4,013mn is only reconcilable with EBITDA incl. JVs of $7,044mn.
+- The ebitda_reconciliation comments are boilerplate.
+- No Cognitive Credit model exists. A model must be built from the issuer's filings, namely the FY25 annual report and the H1 26 financial statements. These were not read directly this run.
 
 ### Reconstructed data
-The flattened data capture contained 10 columns: 8 full-year periods (`2020` to `2027E`) and 2 interim periods (`H1 26` and `H2 26E`). In the raw paste, empty cells were dropped from rows containing 7 values (`Cash`, `Short Term Debt`, `Long Term Debt`, `Total Debt`, `Total Debt/EBITDA`, `Cash/Short Term Debt`). Mathematical cross-checking confirms these 7 values map directly to `2020`, `2021`, `2022`, `2023`, `2024`, `2025`, and `H1 26`. The broker projections for `2026E`, `2027E`, and `H2 26E` did not separate gross cash and debt, providing only projected `Net Debt` ($965mn in 2026E, $957mn in 2027E, $965mn in H2 26E) and `Net Debt/EBITDA` ratios.
-
-| Line Item (US$mn) | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026E | 2027E | H1 26 | H2 26E |
-|---|---|---|---|---|---|---|---|---|---|---|
-| **Revenues** | 10,453 | 18,005 | 8,288 | 7,397 | 8,050 | 7,242 | 5,838 | 4,624 | 3,657 | 2,181 |
-| **EBITDA (incl JVs)** | 2,204 | 7,044 | 1,873 | 861 | 957 | 765 | — | — | — | — |
-| **EBITDA (ex JVs)** | 1,815 | 6,040 | 1,769 | 911 | 898 | 643 | 398 | 387 | 300 | 98 |
-| **EBITDA margin** | 21% | 39% | 23% | 12% | 12% | 11% | 7% | 8% | 9% | 4% |
-| **CFO** | 1,832 | 6,024 | 1,914 | 936 | 929 | 474 | 427 | 387 | 329 | 98 |
-| **Δ Working Capital** | 242 | 577 | -68 | 83 | -198 | -29 | 62 | 0 | 62 | 0 |
-| **CFO (post-WC)** | 2,074 | 6,601 | 1,846 | 1,019 | 731 | 445 | 489 | 387 | 391 | 98 |
-| **Interest paid** | -215 | -190 | -161 | -167 | -161 | -140 | -115 | -96 | -67 | -48 |
-| **Capex** | -678 | -1,017 | -381 | -305 | -216 | -233 | -218 | -228 | -89 | -129 |
-| **Tax paid** | -119 | -885 | -282 | -145 | -102 | -73 | -22 | -28 | -22 | 0 |
-| **Simple FCF** | 1,062 | 4,509 | 1,022 | 402 | 252 | -1 | 134 | 35 | 213 | -79 |
-| **Dividends (net)/other** | -100 | -2,064 | -1,769 | 0 | 0 | -59 | -32 | -27 | -11 | -21 |
-| **Cash** | 826 | 1,166 | 349 | 646 | 657 | 376 | — | — | 191 | — |
-| **Short Term Debt** | 510 | 172 | 266 | 213 | 354 | 567 | — | — | 168 | — |
-| **Long Term Debt** | 2,427 | 2,070 | 1,811 | 1,768 | 1,351 | 874 | — | — | 889 | — |
-| **Total Debt** | 2,937 | 2,242 | 2,077 | 1,981 | 1,705 | 1,441 | — | — | 1,057 | — |
-| **Net Debt** | 2,111 | 1,076 | 1,728 | 1,335 | 1,048 | 1,065 | 965 | 957 | 866 | 965 |
-| **Credit Metrics** | | | | | | | | | | |
-| **Total Debt/EBITDA** | 1.3x | 0.3x | 1.1x | 2.3x | 1.8x | 1.9x | — | — | 1.4x | — |
-| **Net Debt/EBITDA** | 1.0x | 0.2x | 0.9x | 1.6x | 1.1x | 1.4x | 2.4x | 2.5x | 1.2x | 2.3x |
-| **Cash/Short Term Debt** | 162% | 678% | 131% | 303% | 186% | 66% | — | — | 114% | — |
-| **Assumptions** | | | | | | | | | | |
-| **USDUAH average** | 27 | 27 | 33 | 37 | 39 | 42 | 44 | 45 | 44 | 44 |
-| **Iron Ore 62% ($/t)** | 109 | 162 | 113 | 114 | 104 | 97 | 96 | 100 | 102 | 91 |
-| **HRC Steel ($/t)** | 475 | 875 | 700 | 615 | 533 | 462 | 506 | 520 | 489 | 522 |
-| **Coking Coal ($/t)** | 126 | 205 | 371 | 289 | 244 | 190 | 240 | 256 | 233 | 247 |
-| **Iron ore output (kt)** | 30,501 | 31,342 | 10,712 | 11,092 | 15,732 | 15,695 | 12,780 | 11,832 | 7,764 | 5,016 |
+The figures come from Reza's flattened Barclays capture, rebuilt in the 08-Oct-26 run. The FY26E, FY27E and H2 26E columns carry only net debt, not gross cash and debt. That rebuild stands (Barclays, Oct-26, Medium).
 
 ## Where the models disagreed
-Claude was unavailable due to expired OAuth credentials; only Gemini ran in this cycle. Consequently, no inter-model disagreements required adjudication.
+1. **Coupons and benchmark label.** The earlier Gemini-only run carried 7.75% for the 2027s. Claude showed the issuer page says 7.65%, and that the "15.65%" label and 14.98% yield are inconsistent. Resolved for the issuer page, a tier 2 source, over a secondary summary.
+2. **Weight of Barclays.** Gemini rated Barclays figures High and endorsed the switch. Claude marked them unverified. Resolved to Medium, because sell-side is tier 3 and no Bloomberg confirmation exists.
+3. **Ratings.** Gemini took Barclays' list as given. Claude found public press at tier 3/4 pointing to different statuses. Not resolved, and logged as an open item.
+4. **Forward leverage.** Both sides agree 1.2x is stale. Claude adds that Zaporizhstal is outside EBITDA ex-JVs, so the $98mn forecast needs the Barclays assumptions to interpret.
 
 ## Management questions
-1. What proportion of the $191mn June-26 cash balance is held outside Ukraine in hard currency, and what are current NBU dividend and cash repatriation restrictions?
-2. What is the expected capital expenditure required to restore production at Kamet Steel and Zaporizhstal, and what proportion is recoverable under war risk insurance?
-3. What is the status of the United Coal divestment (H1 26 EBITDA -$16mn) and will transaction closing release net cash to the group?
-4. What is the maximum monthly iron ore volume exportable via western rail borders while Black Sea ports and power infrastructure remain disrupted?
+1. What is the expected restart timetable and capex for Zaporizhstal and Kamet Steel, and is any war-risk or business-interruption insurance recovery expected?
+2. What are cash and committed undrawn facilities at 30-Sep-26, and how much cash is held offshore in hard currency?
+3. What are the financial covenant thresholds on the 2027 and 2029 notes and the current headroom?
+4. How much of group EBITDA does Zaporizhstal represent, and how is the JV accounted for in leverage?
+5. What is the status and expected cash effect of the United Coal divestment?
+6. What is the maximum monthly iron ore volume exportable by western rail while Black Sea ports and grid supply are disrupted?
+7. What is the company's plan for the October 2027 maturity, and is a liability management exercise planned?
 
 ## Knowledge base updates
-- Metinvest fully repaid its $428mn Eurobond maturity in April 2026 from internal cash flows, bringing total wartime bond debt service above $1.0bn (Metinvest H1 26, 14-Sep-26).
-- End-June 2026 balance sheet: gross debt $1,057mn, cash $191mn, net debt $866mn, net leverage 1.2x LTM EBITDA ex-JVs (Metinvest H1 26, 14-Sep-26).
-- Outstanding Eurobond capital structure: $332mn 7.75% due Oct-27 and $500mn 7.75% due Oct-29 (Metinvest H1 26, 14-Sep-26).
-- H1 2026 financial performance: revenue $3,657mn, EBITDA ex-JVs $300mn, net loss $202mn, capex $89mn, interest paid $67mn (Metinvest H1 26, 14-Sep-26).
-- Standalone European re-rolling assets (Italy, Bulgaria, UK, Romania) produced 1.5mt in 2025, generating c.$150mn EBITDA (c.23% of group EBITDA ex-JVs) (Barclays, Oct-26).
-- JORC iron ore reserve base totals 2.1bn tonnes as of July 2021 audit (Barclays / Metinvest JORC, July-21).
-- Credit ratings: Moody's Caa3 Stable (Aug-26), S&P CCC+ Negative, Fitch CCC- (Barclays, Oct-26).
+- [Capital] 2027 notes: $332.354mn outstanding, 7.650%, due 01-Oct-27, coupons 1-Mar and 1-Sep (Metinvest IR, 09-Oct-26)
+- [Capital] 2029 notes: $500mn, 7.750%, due 17-Oct-29, coupons 17-May and 17-Nov (metinvestholding.com/en/investor/ebonds2029, 16-Oct-26)
+- [Capital] The $428mn Eurobond was repaid in April 2026 from internal cash (Metinvest H1 26, 14-Sep-26)
+- [Financials] End-June 26: gross debt $1,057mn, cash $191mn, net debt $866mn, 1.2x LTM EBITDA ex-JVs (Metinvest H1 26, 14-Sep-26)
+- [Financials] H1 26: revenue $3,657mn, EBITDA ex-JVs $300mn, net loss $202mn, capex $89mn, interest paid $67mn (Metinvest H1 26, 14-Sep-26)
+- [Financials] Barclays forecasts EBITDA ex-JVs of $98mn for H2 26E, $398mn for FY26E and $387mn for FY27E, with net debt/EBITDA of 2.4x in 2026E and 2.5x in 2027E (Barclays, Oct-26)
+- [Business] Zaporizhstal idle since 11-Aug-26; struck on 11-Aug, 27-Aug, 12-Sep and 17-Sep with 17 missiles in total; 8 killed and 28 injured (SteelOrbis, 17-Sep-26)
+- [Business] Metinvest to declare force majeure on part of contracts after the Zaporizhstal stoppage (Kurs.com.ua, Sep-26)
+- [Business] Non-Ukrainian re-rolling assets produced 1.5mt in 2025 and c.$150mn EBITDA, about 23% of group EBITDA ex-JVs (Barclays, Oct-26)
+- [Business] JORC iron ore reserves 2.1bn tonnes (July-21 audit) (Barclays, Oct-26)
+- [Market] Barclays levels: METINV 2027s c.87 cash / 23% yield; 2029s c.77 cash / 18% yield (Barclays, Oct-26)
+- [Snapshot] Ratings recorded via Barclays: Moody's Caa3 Stable (Aug-26), S&P CCC+ Negative, Fitch CCC-; unverified (Barclays, Oct-26)
+- [Calendar] 01-Oct-27: $332mn 7.65% notes mature (Metinvest IR, 09-Oct-26)
+- [Calendar] 17-Oct-29: $500mn 7.75% notes mature (metinvestholding.com, 16-Oct-26)
 
 ## Sources
-- Reza Keep capture: "Metinvest Barclays report and model" (captured 08-Oct-26, Tier 1).
-- Metinvest B.V. H1 2026 Interim Financial Results and Investor Presentation (14-Sep-26, Tier 2).
-- Barclays Credit Research: "Ukraine Corporates — Metinvest report and model" (early Oct-26, Tier 3).
-- Moody's Ratings: Metinvest B.V. Credit Opinion (Aug-26, Tier 2).
-- Bloomberg News: "Ukraine Strikes Russian Refineries as Odesa Ports Targeted" (13-Sep-26, Tier 3) and "Interpipe Halts Output after Russian Strike" (22-Sep-26, Tier 3).
+- Reza Keep capture of the Barclays report and model, early Oct-26, via the 08-Oct-26 run (Tier 1 capture; Barclays content is Tier 3).
+- Barclays Credit Research, Ukraine Corporates – Metinvest, Oct-26 (Tier 3).
+- Metinvest H1 26 results, 14-Sep-26, via gmk.center (https://gmk.center/en/news/metinvest-ended-the-first-half-of-2026-with-a-loss-of-202-million/amp/) (Tier 2 content, Tier 3 summary).
+- Metinvest IR, 2027 notes page, 09-Oct-26 (Tier 2).
+- Metinvest IR, 2029 notes page (https://metinvestholding.com/en/investor/ebonds2029), 16-Oct-26 (Tier 2).
+- SteelOrbis, 17-Sep-26 (https://www.steelorbis.com/steel-news/latest-news/metinvests-zaporizhstal-hit-by-fourth-russian-missile-attack-in-just-over-a-month-1478350.htm) (Tier 3).
+- Kurs.com.ua, Sep-26 (https://kurs.com.ua/en/novost/1479472-metinvest-ogolosit-fors-mazhor-za-chastinoju-kontraktiv-pislja-zupinki-kombinativ) (Tier 3).
+- Ukranews, Apr-26 (https://ukranews.com/en/news/1147954-metinvest-repays-usd-1-billion-in-2026-bonds) (Tier 3).
+- Romania-Insider, Feb-26 (https://www.romania-insider.com/business/zaporizhstal-hot-rolled-steel-arcelormittal-iasi-feb-2026) (Tier 3).
+- BondBlox rating items, 2026 (https://bondblox.com/news/metinvest-upgraded-to-ccc-by-sp) (Tier 4, undated).
+- Moody's, Metinvest, Aug-26, as quoted by Barclays (Tier 2 content, not accessed).
+- Bloomberg News, 13-Sep-26 and 22-Sep-26 (headlines only, paywalled, Tier 3).
+- Repo records: `database/issuers/metinvest.json`, `knowledge/issuers/metinvest.md` (Tier 2, internally inconsistent where noted).
+- No new web searches were run in this adjudication. It relies on the research cited in the positions.

@@ -37,6 +37,7 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - IMF: programme type, size, approval and review dates, or none: to be filled.
 - Ratings: S&P B/Stable (15-May-26), Fitch B/Stable (10-Apr-26), Moody's B3/Positive (Aug-26) (S&P, Fitch, Moody's, 2026) [08-Oct-26]
 - Total public debt stood at ₦166.79T ($120.93B) as of 30-Jun-26, comprising ₦91.59T domestic and $54.52B external (DMO, 25-Sep-26) [08-Oct-26]
+- Moody's affirmed B3 and moved the outlook to positive on 29-Aug-26 (Nairametrics, 29-Aug-26) [16-Oct-26]
 
 ## 1. External position
 - Gross foreign exchange reserves were $54.98B as of 05-Oct-26 (CBN, 05-Oct-26) [08-Oct-26]
@@ -48,6 +49,7 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - Eurobonds outstanding $15.12B, 27.7% of external debt of $54.52B (DMO, 30-Jun-26) [08-Oct-26]
 - IMF CPI-based REER 93.29 in Aug-26, 10-year z-score -0.51 (IMF, Aug-26) [08-Oct-26]
 - ₦ per USD 1,352.97 in Aug-26 (BIS, Aug-26) [08-Oct-26]
+- Gross reserves $55.07B at 09-Oct-26; the CBN revised an early-October print of about $58B down on 14-Oct-26 (Nairametrics citing CBN, 14-Oct-26) [16-Oct-26]
 ## 2. Fiscal position
 - Federal government debt-to-GDP stood at ~32.3% as of end-June 2026 (IMF, 01-Jun-26) [08-Oct-26]
 - Federal interest payments absorb over 55% of retained budget revenue (IMF Article IV, 01-Jun-26) [08-Oct-26]
@@ -63,6 +65,8 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 _(levels from Reza via [BBG]; never from memory)_
 - DMO issued $2.35B dual-tranche Eurobonds in November 2025: $1.15B 2036 at 8.63% and $1.20B 2046 at 9.13% (DMO, Nov-25) [08-Oct-26]
 - Bank soundness, deposit takers, Q2-26: CAR 13.15%, NPL 10.82%, provisions/NPL 64.11%, ROE 28.11% (IMF FSI, 2026-Q2) [08-Oct-26]
+- Nov-25 Eurobond tranche split is disputed: $1.15B 2036/$1.20B 2046 (DMO via repo) versus $1.25B/$1.10B (press); total $2.35B (gazettengr.com, Nov-25) [16-Oct-26]
+- S&P's May-26 upgrade assumed Brent at USD 100 for the rest of 2026 (AllAfrica, 19-May-26) [16-Oct-26]
 ## 8. Restructuring and recovery (if relevant)
 ## 9. Catalyst calendar
 - 24-Nov-26: Central Bank of Nigeria 308th Monetary Policy Committee meeting (CBN calendar, Sep-26) [08-Oct-26]
@@ -103,3 +107,9 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [Monetary] IMF-reported policy rate was 27.0% from Nov-25 to Apr-26 (IMF data portal, Apr-26)
 - [Fiscal] IMF WEO 2026E: fiscal balance -4.4% of GDP, real GDP growth 4.1%, nominal GDP $377.4B (IMF WEO, 2026E)
 - [Market] Bank soundness, deposit takers, Q2-26: CAR 13.15%, NPL 10.82%, provisions/NPL 64.11%, ROE 28.11% (IMF FSI, 2026-Q2)
+
+### 16-Oct-26 (run 2026-10-16_1433_nigeria-sovereign-credit)
+- [External] Gross reserves $55.07B at 09-Oct-26; the CBN revised an early-October print of about $58B down on 14-Oct-26 (Nairametrics citing CBN, 14-Oct-26)
+- [Snapshot] Moody's affirmed B3 and moved the outlook to positive on 29-Aug-26 (Nairametrics, 29-Aug-26)
+- [Market] Nov-25 Eurobond tranche split is disputed: $1.15B 2036/$1.20B 2046 (DMO via repo) versus $1.25B/$1.10B (press); total $2.35B (gazettengr.com, Nov-25)
+- [Market] S&P's May-26 upgrade assumed Brent at USD 100 for the rest of 2026 (AllAfrica, 19-May-26)

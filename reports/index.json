@@ -1,5 +1,23 @@
 [
   {
+    "topic": "Metinvest Barclays report and model",
+    "slug": "metinvest-barclays-report-and-model",
+    "updated": "16-Oct-26",
+    "status": "Draft",
+    "open_items": 9,
+    "run": "2026-10-16_1233_metinvest-barclays-report-and-model",
+    "path": "reports/metinvest-barclays-report-and-model.md"
+  },
+  {
+    "topic": "Nigeria sovereign credit",
+    "slug": "nigeria-sovereign-credit",
+    "updated": "16-Oct-26",
+    "status": "Draft",
+    "open_items": 13,
+    "run": "2026-10-16_1433_nigeria-sovereign-credit",
+    "path": "reports/nigeria-sovereign-credit.md"
+  },
+  {
     "topic": "Egypt sovereign credit",
     "slug": "egypt-sovereign-credit",
     "updated": "15-Oct-26",
@@ -396,15 +414,6 @@
     "path": "reports/jordan-sovereign-credit.md"
   },
   {
-    "topic": "Metinvest Barclays report and model",
-    "slug": "metinvest-barclays-report-and-model",
-    "updated": "08-Oct-26",
-    "status": "Draft",
-    "open_items": 5,
-    "run": "2026-10-08_1107_metinvest-barclays-report-and-model",
-    "path": "reports/metinvest-barclays-report-and-model.md"
-  },
-  {
     "topic": "Montenegro sovereign credit",
     "slug": "montenegro-sovereign-credit",
     "updated": "08-Oct-26",
@@ -439,15 +448,6 @@
     "open_items": 8,
     "run": "2026-10-08_1957_namibia-sovereign-credit",
     "path": "reports/namibia-sovereign-credit.md"
-  },
-  {
-    "topic": "Nigeria sovereign credit",
-    "slug": "nigeria-sovereign-credit",
-    "updated": "08-Oct-26",
-    "status": "Draft",
-    "open_items": 12,
-    "run": "2026-10-08_2114_nigeria-sovereign-credit",
-    "path": "reports/nigeria-sovereign-credit.md"
   },
   {
     "topic": "North Macedonia sovereign credit",
