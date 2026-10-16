@@ -27,6 +27,15 @@
     "path": "reports/south-africa-sovereign-credit.md"
   },
   {
+    "topic": "Tullow Oil",
+    "slug": "tullow-oil",
+    "updated": "16-Oct-26",
+    "status": "Draft",
+    "open_items": 8,
+    "run": "2026-10-16_1833_tullow-oil",
+    "path": "reports/tullow-oil.md"
+  },
+  {
     "topic": "Egypt sovereign credit",
     "slug": "egypt-sovereign-credit",
     "updated": "15-Oct-26",
@@ -520,15 +529,6 @@
     "open_items": 8,
     "run": "2026-10-08_1959_tajikistan-sovereign-credit",
     "path": "reports/tajikistan-sovereign-credit.md"
-  },
-  {
-    "topic": "Tullow Oil",
-    "slug": "tullow-oil",
-    "updated": "08-Oct-26",
-    "status": "Draft",
-    "open_items": 5,
-    "run": "2026-10-08_0656_tullow-oil",
-    "path": "reports/tullow-oil.md"
   },
   {
     "topic": "Tunisia sovereign credit",
