@@ -821,7 +821,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/ARAGVI",
-    "days_to_earnings": 27
+    "days_to_earnings": 26
   },
   "management_questions": [
     {
@@ -1156,6 +1156,19 @@
       "date": "2026-10-15",
       "period_name": "2026-10-15",
       "timestamp": "2026-10-15T05:20:31.679326",
+      "rating": "B / B-",
+      "price": 89.0,
+      "ytm": 12.15,
+      "spread_bp": 780,
+      "net_leverage": 3.47,
+      "ebitda": 212.5,
+      "fcf": -52.2,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-16",
+      "period_name": "2026-10-16",
+      "timestamp": "2026-10-16T05:17:49.949864",
       "rating": "B / B-",
       "price": 89.0,
       "ytm": 12.15,

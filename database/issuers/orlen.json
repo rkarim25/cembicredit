@@ -561,7 +561,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "08:00 Warsaw / 07:00 UK",
     "ir_webcast_url": "https://www.orlen.pl/en/investor-relations",
-    "days_to_earnings": 13
+    "days_to_earnings": 12
   },
   "management_questions": [
     {
@@ -896,6 +896,19 @@
       "date": "2026-10-15",
       "period_name": "2026-10-15",
       "timestamp": "2026-10-15T05:20:31.679326",
+      "rating": "BBB+ / A3",
+      "price": 98.8,
+      "ytm": 5.05,
+      "spread_bp": 100,
+      "net_leverage": 0.95,
+      "ebitda": 8500,
+      "fcf": 10.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-16",
+      "period_name": "2026-10-16",
+      "timestamp": "2026-10-16T05:17:49.949864",
       "rating": "BBB+ / A3",
       "price": 98.8,
       "ytm": 5.05,

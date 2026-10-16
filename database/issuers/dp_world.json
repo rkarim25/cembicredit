@@ -559,7 +559,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Dubai / 10:00 UK",
     "ir_webcast_url": "https://www.dpworld.com/investors",
-    "days_to_earnings": 41
+    "days_to_earnings": 40
   },
   "management_questions": [
     {
@@ -894,6 +894,19 @@
       "date": "2026-10-15",
       "period_name": "2026-10-15",
       "timestamp": "2026-10-15T05:20:31.679326",
+      "rating": "BBB+ / Baa2",
+      "price": 98,
+      "ytm": 5.35,
+      "spread_bp": 120,
+      "net_leverage": 3.23,
+      "ebitda": 5100,
+      "fcf": 347.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-16",
+      "period_name": "2026-10-16",
+      "timestamp": "2026-10-16T05:17:49.949864",
       "rating": "BBB+ / Baa2",
       "price": 98,
       "ytm": 5.35,

@@ -562,7 +562,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/DARARK",
-    "days_to_earnings": 27
+    "days_to_earnings": 26
   },
   "management_questions": [
     {
@@ -890,6 +890,19 @@
       "date": "2026-10-15",
       "period_name": "2026-10-15",
       "timestamp": "2026-10-15T05:20:31.679326",
+      "rating": "BB- / Ba3 / B+",
+      "price": 99.5,
+      "ytm": 8.15,
+      "spread_bp": 410,
+      "net_leverage": 3.47,
+      "ebitda": 360.0,
+      "fcf": -142.7,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-16",
+      "period_name": "2026-10-16",
+      "timestamp": "2026-10-16T05:17:49.949864",
       "rating": "BB- / Ba3 / B+",
       "price": 99.5,
       "ytm": 8.15,

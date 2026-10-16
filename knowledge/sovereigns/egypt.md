@@ -4,25 +4,25 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 13-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 12.7 % | Aug-26 | CAPMAS (nationwide headline; urban 14.5%) |
-| Policy rate | 19 % | Sep-26 | Central Bank of Egypt MPC decision (overnight deposit rate;  |
-| Real policy rate | 6.3 % | derived |  |
+| CPI y/y | 12.8 % | Sep-26 | CAPMAS via Arab Finance (nationwide headline) |
+| Policy rate | 19 % | Sep-26 | CBE MPC, overnight deposit rate, via BNOK24 |
+| Real policy rate | 6.2 % | derived |  |
 | Gross reserves | 53.56 USD bn | Jul-26 | IMF International Liquidity |
 | Reserves, 12m change | 14.7 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
 | Reserves net of 1y drains | 17.22 USD bn | 2026-05 | IMF reserve template |
-| Import cover | 7.5 months | Sep-26 | Central Bank of Egypt (reported as over 7.5 months) |
+| Import cover | 7.5 months | Sep-26 | Central Bank of Egypt (over 7.5 months) |
 | Current account, last 4Q | -16.76 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | -4.2 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | -0.7 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 79.7 % GDP | Q2-26 | Ministry of Finance / IIF |
-| Fiscal balance | -12.1 % GDP | 2026E | IMF WEO (overall balance) |
-| Primary balance | 4 % GDP | FY25/26 (budgeted; FY24/25 outturn 3.5) | Ministry of Finance of Egypt |
+| Government debt | 79.7 % GDP | Q2-26 | MoF / IIF |
+| Fiscal balance | -12.1 % GDP | 2026E | IMF WEO (overall deficit) |
+| Primary balance | 4.9 % GDP | FY25/26 | S&P via Arab News (MoF budgeted 4.0%) |
 | Real GDP growth | 4.2 % | 2026E | IMF WEO |
-| Nominal GDP | 429.64 USD bn | 2026E | IMF WEO |
+| Nominal GDP | 429.6 USD bn | 2026E | IMF WEO |
 
 Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_imf_pct, predetermined_drains_usd_bn, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
 
