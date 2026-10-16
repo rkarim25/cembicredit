@@ -113307,9 +113307,9 @@ window.SOVEREIGNS = [
   "region": "Sub-Saharan Africa",
   "group": "Sub-Saharan Africa",
   "ceemea": true,
-  "asof": "09-Oct-26",
+  "asof": "16-Oct-26",
   "fx_regime": "float",
-  "commodity": "Gold and other mineral exports (gold is $18.0B of reserves); the IMF commodity terms-of-trade index was -0.9% over 12 months to May-26",
+  "commodity": "Mining exports; the mining revenue overrun (up to R50bn expected at the MTBPS) and mining output (-3.0% q/q in Q2-26) matter for the fiscal path. Fuel and oil import prices drove the Sep-26 hike.",
   "ratings": {
    "fitch": {
     "rating": "BB",
@@ -113317,7 +113317,7 @@ window.SOVEREIGNS = [
     "date": "05-Jun-26"
    },
    "sp": {
-    "rating": "BB (foreign currency) / BB+ (local currency)",
+    "rating": "BB (FC) / BB+ (LC)",
     "outlook": "Positive",
     "date": "29-May-26"
    },
@@ -113328,19 +113328,19 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "None (Article IV)",
+   "programme": null,
    "size_usd_bn": null,
    "approved": null,
    "next_review": null,
    "risk_of_debt_distress": null,
-   "source": "IMF",
-   "asof": "2026"
+   "source": "IMF Executive Board Article IV press release 26/039 (Article IV concluded; no programme stated in the material)",
+   "asof": "10-Feb-26"
   },
   "politics": {
    "next_election": null,
-   "note": "GNU (ANC, DA, IFP) in place since the May 2024 elections; MTBPS stated for 23-Oct-26, date unconfirmed",
-   "source": "Presidency, Jun-26",
-   "asof": "08-Oct-26"
+   "note": "GNU (ANC, DA, IFP) in place since May 2024; does not favour tax increases. MTBPS due 21-Oct-26.",
+   "source": "Presidency, Jun-26; press; Parliament committee notice and Treasury lockup advisory, Oct-26",
+   "asof": "16-Oct-26"
   },
   "ind": {
    "cpi_latest_yoy_pct": 4.4,
@@ -113348,15 +113348,17 @@ window.SOVEREIGNS = [
    "current_account_pct_gdp": -1.6,
    "gross_reserves_usd_bn": 75.96,
    "import_cover_months": 5.8,
-   "fiscal_balance_pct_gdp": -3.8,
+   "fiscal_balance_pct_gdp": -4.0,
    "fdi_net_pct_gdp": -0.506,
    "real_gdp_growth_pct": 1.0,
-   "gov_debt_pct_gdp": 77.2,
+   "gov_debt_pct_gdp": 77.0,
    "nominal_gdp_usd_bn": 480.0,
    "inflation_expectation_12m_pct": 4.35,
    "interest_pct_revenue": 20.0,
    "current_account_4q_usd_bn": -1.32,
    "reserves_net_of_drains_usd_bn": 74.307,
+   "net_reserves_usd_bn": 74.3,
+   "primary_balance_pct_gdp": 1.6,
    "ex_ante_real_rate_pct": 2.9,
    "reer_z_10y": 1.23,
    "reer_latest": 115.03,
@@ -113364,20 +113366,22 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": -0.9
   },
   "src": {
-   "cpi_latest_yoy_pct": "Stats SA via IMF data portal 08-Oct-26",
-   "policy_rate_pct": "BIS monthly policy rate series 08-Oct-26",
-   "current_account_pct_gdp": "SARB Quarterly Bulletin 08-Oct-26",
-   "gross_reserves_usd_bn": "IMF International Liquidity 08-Oct-26 | gross incl. gold (ex-gold $57.96B plus gold $18.0B); SARB headline of $63.5B uses an unresolved definition",
+   "cpi_latest_yoy_pct": "Stats SA via IMF data portal 16-Oct-26",
+   "policy_rate_pct": "SARB repo rate (Briefly, 24-Sep-26; EWN, 23-Sep-26) 24-Sep-26",
+   "current_account_pct_gdp": "SARB 16-Oct-26",
+   "gross_reserves_usd_bn": "IMF international reserves template 16-Oct-26 | gross incl. gold (ex-gold $57.96B)",
    "import_cover_months": "SARB (tied to the $63.5B headline reserve definition) 08-Oct-26",
-   "fiscal_balance_pct_gdp": "National Treasury, cited via previous document as 'MTBPS 2026'/'Jun-26'; vintage unverified 08-Oct-26",
+   "fiscal_balance_pct_gdp": "Times Live / Business Day on Budget 2026 25-Feb-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "IMF WEO 08-Oct-26",
-   "gov_debt_pct_gdp": "National Treasury MTBPS 08-Oct-26 | gross debt, upper end of projected peak range 75.5%-77.2% of GDP",
+   "real_gdp_growth_pct": "IMF WEO (official data record database/sovereigns/south-africa.json) 16-Oct-26",
+   "gov_debt_pct_gdp": "IMF Article IV press release 26/039 10-Feb-26 | IMF Article IV figure; Budget 2026 press reports a 78.9% peak in FY25/26 and the repo holds 77.2%, unreconciled",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
-   "inflation_expectation_12m_pct": "BER 12-month expectation, cited in adjudicated document (survey not independently sourced) 08-Oct-26",
+   "inflation_expectation_12m_pct": "BER survey (as cited in the adjudicated document; not independently sourced) 16-Oct-26",
    "interest_pct_revenue": "National Treasury, cited in the adjudicated document 08-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 08-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 08-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
+   "net_reserves_usd_bn": "IMF international reserves template 16-Oct-26 | gross incl. gold, net of one-year drains",
+   "primary_balance_pct_gdp": "Times Live / Business Day on Budget 2026 25-Feb-26",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (BIS real broad EER))",
    "reer_latest": "derived from the inputs above ()",
@@ -113398,14 +113402,25 @@ window.SOVEREIGNS = [
    "fiscal_balance_pct_gdp": {
     "FY25/26E": -4.5,
     "FY26/27F": -3.8,
-    "2026E": -4.5,
-    "2027F": -3.8
+    "2026E": -4.0,
+    "2027F": -3.8,
+    "2025": -4.5,
+    "2028F": -3.1
    },
    "real_gdp_growth_pct": {
     "2026E": 1.0
    },
    "nominal_gdp_usd_bn": {
     "2026E": 480.0
+   },
+   "primary_balance_pct_gdp": {
+    "2025": 0.9,
+    "2026E": 1.6,
+    "2027F": 1.9,
+    "2028F": 2.3
+   },
+   "gov_debt_pct_gdp": {
+    "2028F": 76.5
    }
   },
   "hist": {
@@ -116610,15 +116625,17 @@ window.SOVEREIGNS = [
    "current_account_pct_gdp": "Sep-26",
    "gross_reserves_usd_bn": "Aug-26",
    "import_cover_months": "Sep-26",
-   "fiscal_balance_pct_gdp": "FY26/27",
+   "fiscal_balance_pct_gdp": "FY26/27 (consolidated, Budget 2026)",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
-   "gov_debt_pct_gdp": "medium-term peak",
+   "gov_debt_pct_gdp": "end-Mar-25",
    "nominal_gdp_usd_bn": "2026E",
-   "inflation_expectation_12m_pct": "Sep-26",
+   "inflation_expectation_12m_pct": "12m ahead",
    "interest_pct_revenue": "FY25/26 (floor value, at least 20%)",
    "current_account_4q_usd_bn": "2025-Q3 to 2026-Q2",
    "reserves_net_of_drains_usd_bn": "2026-08",
+   "net_reserves_usd_bn": "Aug-26",
+   "primary_balance_pct_gdp": "FY26/27 (main budget, Budget 2026)",
    "ex_ante_real_rate_pct": "derived",
    "reer_z_10y": "derived",
    "reer_latest": "derived",
@@ -116626,8 +116643,8 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "12",
-   "updated": "08-Oct-26",
+   "open_items": "11",
+   "updated": "16-Oct-26",
    "status": "Draft"
   }
  },
