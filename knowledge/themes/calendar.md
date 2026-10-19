@@ -80,7 +80,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 31-Dec-26: National Assembly approval of OGE 2027 (MINFIN, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - 31-Dec-26: AEQUITA closing of SABIC Europe sale expected in 4Q26 (Enterprise AM, 30-Sep-26) (SABIC, run 2026-10-09_0921_sabic)
 - 15-Jan-27: National Treasury release of FY2026/27 Budget Policy Statement (National Treasury, Oct-26) (Kenya sovereign credit, run 2026-10-08_1222_kenya-sovereign-credit)
-- 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed) (Ukraine sovereign credit, run 2026-10-08_2136_ukraine-sovereign-credit)
+- 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed) (Ukraine sovereign credit, run 2026-10-19_1000_ukraine-sovereign-credit)
 - 15-May-27 Republic of Serbia €1.13bn Eurobond final maturity date (Public Debt Administration, May-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 30-Jun-27 target date for 375MW wind/storage licence conversion (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)
 - 09-Aug-27: general election (Kenya Times, Oct-26) (Kenya sovereign credit, run 2026-10-15_1200_kenya-sovereign-credit)
@@ -125,3 +125,4 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - H2-26: expected close of the IHS Towers acquisition, with a 30% sell-down of IHS Nigeria to local investors (MTN H1-26 release, 24-Aug-26) (MTN Group, run 2026-10-09_0918_mtn-group)
 - Nov-26 expected IPO listing (Dabafinance, 09-Oct-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
 - Early Dec-26: IMF Article IV mission expected (Kenyan Wall Street, Oct-26) (Kenya sovereign credit, run 2026-10-15_1200_kenya-sovereign-credit)
+- Nov-26 IMF mission expected; Dec-26 combined 2nd and 3rd EFF reviews targeted (Interfax, 16-Oct-26) (Ukraine sovereign credit, run 2026-10-19_1000_ukraine-sovereign-credit)

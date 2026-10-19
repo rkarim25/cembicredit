@@ -30,3 +30,12 @@ _Created by the pipeline on 09-Oct-26. Facts below are dated and sourced; views 
 - [External] Egypt: Suez Canal revenue USD 567.1m in Aug-26 (+56.7% y/y); USD 4.67bn in FY25/26 (+23%) (Capmad, 2026)
 - [Growth] Egypt: IMF April WEO growth forecast 4.2% for 2026; Philippines 2026 growth revised down 1.5pp (IMF WEO, Apr-26)
 - [Market] IMF WEO Apr-26 oil scenarios: reference USD 82 (3.1% global growth), adverse USD 100 in 2026 and USD 75 in 2027 (2.5%), severe USD 110 and USD 125 (2.0%) (IMF, Apr-26)
+
+### 19-Oct-26 (run 2026-10-19_1000_ukraine-sovereign-credit)
+- [IMF] New 4-year EFF of US$8.1bn approved Feb-26; first review completed Jul-26 with about US$690m disbursed, total US$2.2bn (kmu.gov.ua, Jul-26; BOFIT Weekly 29/2026)
+- [IMF] Combined 2nd and 3rd reviews targeted by end-2026, conditional on reform resumption and financing assurances (Interfax, 16-Oct-26)
+- [Fiscal] 2027 external financing need US$52.6bn, of which about US$32.6bn unconfirmed; EU expected to provide about US$17.5bn; 2026–29 gap about US$136.5bn (Interfax, 16-Oct-26)
+- [Snapshot] S&P CCC+/Stable upgraded from SD on 22-Jan-26; Fitch CCC upgraded from RD on 22-Dec-25; Moody's Ca/stable per aggregator, unconfirmed (fxempire.com, 19-Oct-26)
+- [Restructuring] GDP warrants reported exchanged on 24-Dec (year unconfirmed, probably 2025): Series C 2032 US$3.497bn, Series B 2030/2034 US$16.9m each, 99.06% support (intellinews, undated)
+- [Calendar] Nov-26 IMF mission expected; Dec-26 combined 2nd and 3rd EFF reviews targeted (Interfax, 16-Oct-26)
+- [Calendar] 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed)
