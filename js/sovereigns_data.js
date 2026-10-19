@@ -123563,7 +123563,7 @@ window.SOVEREIGNS = [
   "region": "CEEMEA",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
-  "asof": "09-Oct-26",
+  "asof": "19-Oct-26",
   "fx_regime": "managed float",
   "commodity": "Net energy importer; oil and gas import prices drive the current account",
   "ratings": {
@@ -123594,52 +123594,54 @@ window.SOVEREIGNS = [
   },
   "politics": {
    "next_election": null,
-   "note": "SPK ordered liquidation of 131 investment funds (over USD 18bn, 455,758 investors); tier 3 sources",
-   "source": "Run 2026-10-07_2235 via knowledge page",
-   "asof": "07-Oct-26"
+   "note": "Fitch flags a possible early election in late 2027. SPK ordered 131 funds (about USD 18.3bn) into liquidation on 17-18 Sep-26.",
+   "source": "Fitch via Voice of Emirates; Daily Sabah",
+   "asof": "18-Jul-26"
   },
   "ind": {
    "cpi_latest_yoy_pct": 29.73,
    "policy_rate_pct": 37.0,
    "current_account_pct_gdp": -2.7,
-   "gross_reserves_usd_bn": 174.4,
+   "gross_reserves_usd_bn": 167.4,
    "short_term_external_debt_usd_bn": 170.7,
    "external_debt_pct_gdp": 31.8,
    "gov_debt_pct_gdp": 29.5,
    "fiscal_balance_pct_gdp": -5.2,
    "import_cover_months": 5.128,
    "fdi_net_pct_gdp": 0.81,
-   "real_gdp_growth_pct": 3.4,
+   "real_gdp_growth_pct": 2.8,
    "nominal_gdp_usd_bn": 1640.2,
    "inflation_expectation_12m_pct": 24.5,
    "gefr_usd_bn": 208.0,
    "current_account_4q_usd_bn": -38.89,
    "reserves_net_of_drains_usd_bn": 137.109,
+   "net_reserves_usd_bn": 137.1,
    "ex_ante_real_rate_pct": 12.5,
-   "reserves_to_std": 1.02,
+   "reserves_to_std": 0.98,
    "reer_z_10y": 0.31,
    "reer_latest": 108.09,
    "reserves_12m_pct": -7.8,
    "ctot_12m_pct": -1.0,
-   "gefr_pct_reserves": 119.3
+   "gefr_pct_reserves": 124.3
   },
   "src": {
-   "cpi_latest_yoy_pct": "TurkStat, Consumer Price Index September 2026 03-Oct-26",
-   "policy_rate_pct": "TCMB MPC decision, 1-week repo (IMF series shows 35.5%, definition unconfirmed) Sep-26",
+   "cpi_latest_yoy_pct": "TurkStat 03-Oct-26",
+   "policy_rate_pct": "TCMB 1-week repo rate Sep-26",
    "current_account_pct_gdp": "TCMB, Jul-26 Jul-26",
-   "gross_reserves_usd_bn": "TCMB via run 2026-10-07_2235 18-Sep-26 | gross incl. gold",
-   "short_term_external_debt_usd_bn": "TCMB, Short Term External Debt Statistics 30-Jun-26 | by remaining maturity, all sectors",
-   "external_debt_pct_gdp": "HMB, Gross External Debt Stock Statistics 30-Jun-26 | gross external debt $539.0B, all sectors",
+   "gross_reserves_usd_bn": "TCMB via T\u00fcrkiye Today 02-Oct-26 | gross incl. gold (FX USD 60.3bn, gold USD 107.1bn)",
+   "short_term_external_debt_usd_bn": "TCMB 30-Jun-26 | by remaining maturity",
+   "external_debt_pct_gdp": "HMB 30-Jun-26 | gross external debt USD 539.0bn",
    "gov_debt_pct_gdp": "HMB 30-Jun-26 | central government debt",
-   "fiscal_balance_pct_gdp": "HMB, central government budget execution Aug-26",
+   "fiscal_balance_pct_gdp": "HMB Aug-26",
    "import_cover_months": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26",
-   "real_gdp_growth_pct": "IMF WEO 2026 08-Oct-26",
+   "fdi_net_pct_gdp": "World Bank WDI (FDI liabilities) 2025",
+   "real_gdp_growth_pct": "Fitch forecast via Voice of Emirates 18-Jul-26",
    "nominal_gdp_usd_bn": "IMF WEO 2026 08-Oct-26",
-   "inflation_expectation_12m_pct": "TCMB Survey of Market Participants (midpoint of stated 24-25%) Sep-26",
+   "inflation_expectation_12m_pct": "TCMB market participants survey Sep-26",
    "gefr_usd_bn": "TCMB/HMB Jun-26 | CA deficit + external amortisation due in 12m",
    "current_account_4q_usd_bn": "IMF BOP 19-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 19-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
+   "net_reserves_usd_bn": "IMF International Liquidity and reserve template Aug-26 | gross net of predetermined 1y drains (IMF template); not net ex swaps",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reserves_to_std": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (BIS real broad EER))",
@@ -123650,7 +123652,7 @@ window.SOVEREIGNS = [
   },
   "derived": {
    "ex_ante_real_rate_pct": 12.5,
-   "reserves_to_std": 1.02,
+   "reserves_to_std": 0.98,
    "reer_z_10y": 0.31,
    "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
    "reer_latest": 108.09,
@@ -123658,7 +123660,7 @@ window.SOVEREIGNS = [
    "reserves_12m_pct_note": "gross reserves incl. gold, 2025-09 to 2026-09 (IMF International Liquidity)",
    "ctot_12m_pct": -1.0,
    "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)",
-   "gefr_pct_reserves": 119.3
+   "gefr_pct_reserves": 124.3
   },
   "series": {
    "fiscal_balance_pct_gdp": {
@@ -123674,7 +123676,7 @@ window.SOVEREIGNS = [
     "2026E": 31.8
    },
    "real_gdp_growth_pct": {
-    "2026E": 3.4
+    "2026E": 2.8
    },
    "nominal_gdp_usd_bn": {
     "2026E": 1640.2
@@ -126762,7 +126764,7 @@ window.SOVEREIGNS = [
    "cpi_latest_yoy_pct": "Sep-26",
    "policy_rate_pct": "Sep-26",
    "current_account_pct_gdp": "2026 projection (range -2.6 to -2.8, midpoint)",
-   "gross_reserves_usd_bn": "18-Sep-26",
+   "gross_reserves_usd_bn": "week to 02-Oct-26",
    "short_term_external_debt_usd_bn": "30-Jun-26",
    "external_debt_pct_gdp": "30-Jun-26",
    "gov_debt_pct_gdp": "Q2-26",
@@ -126771,10 +126773,11 @@ window.SOVEREIGNS = [
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
    "nominal_gdp_usd_bn": "2026E",
-   "inflation_expectation_12m_pct": "Sep-26",
+   "inflation_expectation_12m_pct": "Sep-26 survey",
    "gefr_usd_bn": "Jun-26",
    "current_account_4q_usd_bn": "2025-Q3 to 2026-Q2",
    "reserves_net_of_drains_usd_bn": "2026-08",
+   "net_reserves_usd_bn": "Aug-26",
    "ex_ante_real_rate_pct": "derived",
    "reserves_to_std": "derived",
    "reer_z_10y": "derived",
@@ -126785,7 +126788,7 @@ window.SOVEREIGNS = [
   },
   "report": {
    "open_items": "14",
-   "updated": "08-Oct-26",
+   "updated": "19-Oct-26",
    "status": "Draft"
   }
  },
