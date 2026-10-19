@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -23,8 +23,8 @@ _Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the 
 | Fiscal balance | -7.4 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 6.5 % | 2026E | IMF WEO |
 | Nominal GDP | 4,153 USD bn | 2026E | IMF WEO |
-| Bank NPL ratio | 1.84 % | 2026-Q1 | IMF FSI |
-| Bank capital ratio | 18.02 % | 2026-Q1 | IMF FSI |
+| Bank NPL ratio | 1.85 % | 2026-Q2 | IMF FSI |
+| Bank capital ratio | 17.79 % | 2026-Q2 | IMF FSI |
 
 Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_pct, predetermined_drains_usd_bn, reer_broad_real, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
 

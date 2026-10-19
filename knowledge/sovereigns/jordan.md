@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -13,7 +13,7 @@ _Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the 
 | Real policy rate | 3.3 % | derived |  |
 | Gross reserves | 28.5 USD bn | Sep-26 | Central Bank of Jordan |
 | Reserves, 12m change | 23 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 21.01 USD bn | 2026-07 | IMF reserve template |
+| Reserves net of 1y drains | 23 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 9.2 months | Sep-26 | Central Bank of Jordan (prospective goods and services impor |
 | Current account, last 4Q | -3.11 USD bn | 2024-Q2 to 2025-Q1 | IMF BOP |
 | Current account | -6.2 % GDP | 2026E | IMF WEO |

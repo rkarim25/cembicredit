@@ -4,7 +4,7 @@ _Page created 09-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -12,10 +12,10 @@ _Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the 
 | Policy rate | 16.75 % | Jul-26 | NBK base rate decision (ING; Interfax 24-Jul-26) |
 | Real policy rate | 7.51 % | derived |  |
 | Gross reserves | 70.57 USD bn | Aug-26 | IMF International Liquidity |
-| Reserves, 12m change | 29.9 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 59.79 USD bn | 2026-07 | IMF reserve template |
+| Reserves, 12m change | 15.7 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
+| Reserves net of 1y drains | 66.18 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 7.39 months | 2025 | World Bank WDI |
-| Current account, last 4Q | -13.41 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account, last 4Q | -7.12 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -1 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | 11.5 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 24.9 % GDP | 2026E | IMF WEO |

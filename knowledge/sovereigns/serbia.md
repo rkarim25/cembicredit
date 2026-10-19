@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -15,7 +15,7 @@ _Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the 
 | Reserves, 12m change | 7 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
 | Reserves net of 1y drains | 30.03 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 6.2 months | Aug-26 | National Bank of Serbia (goods and services imports) |
-| Current account, last 4Q | -4.36 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account, last 4Q | -4.15 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -4.1 % GDP | 2026E | National Bank of Serbia / IMF |
 | REER z-score (10y) | 1.37 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -1.4 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |

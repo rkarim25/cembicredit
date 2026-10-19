@@ -62,28 +62,28 @@
       "value": 4.5,
       "period": "2026-09",
       "source": "BIS",
-      "asof": "08-Oct-26",
+      "asof": "19-Oct-26",
       "definition": "BIS WS_CBPOL monthly series (auto-filled; a run's sourced point replaces it)"
     },
     "cpi_latest_yoy_pct": {
-      "value": 4.1322,
-      "period": "2026-08",
+      "value": 4.0773,
+      "period": "2026-09",
       "source": "IMF CPI database",
-      "asof": "08-Oct-26",
+      "asof": "19-Oct-26",
       "definition": "IMF CPI database, all items, y/y % change, monthly (auto-filled; a run's sourced point replaces it unless older)"
     },
     "current_account_4q_usd_bn": {
-      "value": -2.16,
-      "period": "2025-Q2 to 2026-Q1",
+      "value": 0.91,
+      "period": "2025-Q3 to 2026-Q2",
       "source": "IMF BOP",
-      "asof": "08-Oct-26",
+      "asof": "19-Oct-26",
       "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
     },
     "reserves_net_of_drains_usd_bn": {
       "value": 47.964,
       "period": "2026-08",
       "source": "IMF reserve template",
-      "asof": "08-Oct-26",
+      "asof": "19-Oct-26",
       "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
     }
   },
@@ -109,13 +109,13 @@
       "2019": 0.6,
       "2020": -6.1,
       "2021": 11.3,
-      "2022": 2.2,
-      "2023": 0.5,
-      "2024": 2.6,
-      "2025": 2.3,
-      "2026": 2.4,
+      "2022": 2.1,
+      "2023": 0.7,
+      "2024": 2.8,
+      "2025": 2.5,
+      "2026": 0.6,
       "2027": 2.6,
-      "2028": 2.3,
+      "2028": 2.4,
       "2029": 2.3,
       "2030": 2.3,
       "2031": 2.3
@@ -142,8 +142,8 @@
       "2023": 7.6,
       "2024": 3.9,
       "2025": 4.2,
-      "2026": 2.9,
-      "2027": 3.3,
+      "2026": 3.7,
+      "2027": 3.5,
       "2028": 3,
       "2029": 3,
       "2030": 3,
@@ -171,7 +171,7 @@
       "2023": 3.9,
       "2024": 4.5,
       "2025": 3.4,
-      "2026": 3.6,
+      "2026": 4.2,
       "2027": 3,
       "2028": 3,
       "2029": 3,
@@ -194,18 +194,18 @@
       "2017": -2.8,
       "2018": -4.5,
       "2019": -5.2,
-      "2020": -1.9,
+      "2020": -2,
       "2021": -7.3,
-      "2022": -8.8,
+      "2022": -8.9,
       "2023": -3.1,
-      "2024": -1.5,
-      "2025": -2.3,
-      "2026": -0.8,
-      "2027": -1.8,
-      "2028": -1.9,
-      "2029": -1.9,
-      "2030": -2.1,
-      "2031": -2.4
+      "2024": -1.2,
+      "2025": -1.2,
+      "2026": -0.3,
+      "2027": -1.5,
+      "2028": -1.4,
+      "2029": -1.4,
+      "2030": -1.5,
+      "2031": -1.5
     },
     "gov_debt_pct_gdp": {
       "2005": 7,
@@ -227,14 +227,14 @@
       "2021": 36.4,
       "2022": 37.9,
       "2023": 39.4,
-      "2024": 41.7,
-      "2025": 41.8,
-      "2026": 42.5,
-      "2027": 44.4,
-      "2028": 45.5,
-      "2029": 46.8,
+      "2024": 41.8,
+      "2025": 41.5,
+      "2026": 42.8,
+      "2027": 44.5,
+      "2028": 46,
+      "2029": 47.2,
       "2030": 48.1,
-      "2031": 49.2
+      "2031": 49
     },
     "fiscal_balance_pct_gdp": {
       "2005": 4.6,
@@ -258,12 +258,12 @@
       "2023": -2.3,
       "2024": -2.8,
       "2025": -2.8,
-      "2026": -2.5,
-      "2027": -1.9,
+      "2026": -2,
+      "2027": -1.6,
       "2028": -1.8,
-      "2029": -2,
-      "2030": -2,
-      "2031": -2
+      "2029": -1.7,
+      "2030": -1.8,
+      "2031": -1.7
     },
     "nominal_gdp_usd_bn": {
       "2005": 122.315,
@@ -280,19 +280,19 @@
       "2016": 249.306,
       "2017": 276.357,
       "2018": 295.428,
-      "2019": 278.04,
-      "2020": 254.06,
-      "2021": 315.411,
-      "2022": 301.27,
-      "2023": 335.627,
-      "2024": 330.21,
-      "2025": 355.346,
-      "2026": 407.85,
-      "2027": 434.037,
-      "2028": 455.022,
-      "2029": 475.623,
-      "2030": 496.763,
-      "2031": 519.088
+      "2019": 278.063,
+      "2020": 254.122,
+      "2021": 315.593,
+      "2022": 301.143,
+      "2023": 335.911,
+      "2024": 329.203,
+      "2025": 357.401,
+      "2026": 402.243,
+      "2027": 413.443,
+      "2028": 430.407,
+      "2029": 447.337,
+      "2030": 466.592,
+      "2031": 486.468
     },
     "unemployment_pct": {
       "2005": 9.3,
@@ -316,12 +316,12 @@
       "2023": 8.7,
       "2024": 8.5,
       "2025": 8.5,
-      "2026": 8.1,
-      "2027": 7.6,
-      "2028": 7.4,
-      "2029": 7.3,
-      "2030": 7.3,
-      "2031": 7.4
+      "2026": 9.5,
+      "2027": 9.6,
+      "2028": 9.1,
+      "2029": 8.5,
+      "2030": 8,
+      "2031": 7.8
     },
     "gdp_per_capita_usd": {
       "2005": 7551.076,
@@ -338,19 +338,19 @@
       "2016": 13704.911,
       "2017": 14970.174,
       "2018": 15752.408,
-      "2019": 14602.92,
-      "2020": 13207.85,
-      "2021": 16265.341,
-      "2022": 15385.381,
-      "2023": 16988.274,
-      "2024": 16589.838,
-      "2025": 17734.761,
-      "2026": 20239.757,
-      "2027": 21431.649,
-      "2028": 22368.322,
-      "2029": 23290.432,
-      "2030": 24244.375,
-      "2031": 25263.894
+      "2019": 14604.147,
+      "2020": 13211.05,
+      "2021": 16274.726,
+      "2022": 15378.878,
+      "2023": 17002.688,
+      "2024": 16539.279,
+      "2025": 17837.362,
+      "2026": 19961.495,
+      "2027": 20414.785,
+      "2028": 21158.286,
+      "2029": 21905.309,
+      "2030": 22771.904,
+      "2031": 23676.248
     },
     "gross_reserves_usd_bn": {
       "2025": 49.45,
@@ -487,15 +487,15 @@
     }
   },
   "series_official_sources": {
-    "real_gdp_growth_pct": "IMF WEO (vintage as served 12-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "cpi_avg_pct": "IMF WEO (vintage as served 12-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "cpi_eop_pct": "IMF WEO (vintage as served 12-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "current_account_pct_gdp": "IMF WEO (vintage as served 12-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "gov_debt_pct_gdp": "IMF WEO (vintage as served 12-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "fiscal_balance_pct_gdp": "IMF WEO (vintage as served 12-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "nominal_gdp_usd_bn": "IMF WEO (vintage as served 12-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "unemployment_pct": "IMF WEO (vintage as served 12-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
-    "gdp_per_capita_usd": "IMF WEO (vintage as served 12-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "real_gdp_growth_pct": "IMF WEO (vintage as served 19-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "cpi_avg_pct": "IMF WEO (vintage as served 19-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "cpi_eop_pct": "IMF WEO (vintage as served 19-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "current_account_pct_gdp": "IMF WEO (vintage as served 19-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "gov_debt_pct_gdp": "IMF WEO (vintage as served 19-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "fiscal_balance_pct_gdp": "IMF WEO (vintage as served 19-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "nominal_gdp_usd_bn": "IMF WEO (vintage as served 19-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "unemployment_pct": "IMF WEO (vintage as served 19-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
+    "gdp_per_capita_usd": "IMF WEO (vintage as served 19-Oct-26), DataMapper; values after the WEO's last actual year are IMF projections",
     "gross_reserves_usd_bn": "World Bank WDI (API)",
     "fdi_net_pct_gdp": "World Bank WDI (API)",
     "exports_pct_gdp": "World Bank WDI (API)",
@@ -504,7 +504,7 @@
     "gov_revenue_pct_gdp_wb": "World Bank WDI (API)"
   },
   "derived": {
-    "ex_ante_real_rate_pct": 0.37,
+    "ex_ante_real_rate_pct": 0.42,
     "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
     "reer_z_10y": -0.54,
     "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (BIS real broad EER)",
@@ -1084,7 +1084,8 @@
       "2026-05": 3.9308,
       "2026-06": 4.3369,
       "2026-07": 3.5261,
-      "2026-08": 4.1322
+      "2026-08": 4.1322,
+      "2026-09": 4.0773
     },
     "policy_rate_imf_pct": {
       "2015-01": 3.0,
@@ -2796,7 +2797,8 @@
       "2025-Q2": -1.983,
       "2025-Q3": -3.325,
       "2025-Q4": 1.269,
-      "2026-Q1": 1.883
+      "2026-Q1": 3.41,
+      "2026-Q2": -0.441
     },
     "goods_balance_usd_bn": {
       "2015-Q1": 2.479,
@@ -2843,7 +2845,8 @@
       "2025-Q2": 5.285,
       "2025-Q3": 3.605,
       "2025-Q4": 8.639,
-      "2026-Q1": 9.625
+      "2026-Q1": 11.128,
+      "2026-Q2": 8.866
     },
     "services_balance_usd_bn": {
       "2015-Q1": -1.427,
@@ -2890,7 +2893,8 @@
       "2025-Q2": -2.523,
       "2025-Q3": -2.348,
       "2025-Q4": -2.157,
-      "2026-Q1": -1.997
+      "2026-Q1": -1.947,
+      "2026-Q2": -2.703
     },
     "primary_income_usd_bn": {
       "2015-Q1": -1.69,
@@ -2937,7 +2941,8 @@
       "2025-Q2": -5.077,
       "2025-Q3": -4.465,
       "2025-Q4": -5.205,
-      "2026-Q1": -5.999
+      "2026-Q1": -6.206,
+      "2026-Q2": -6.948
     },
     "secondary_income_usd_bn": {
       "2015-Q1": 0.295,
@@ -2984,7 +2989,8 @@
       "2025-Q2": 0.332,
       "2025-Q3": -0.117,
       "2025-Q4": -0.009,
-      "2026-Q1": 0.253
+      "2026-Q1": 0.434,
+      "2026-Q2": 0.344
     },
     "fdi_liabilities_usd_bn": {
       "2015-Q1": 1.732,
@@ -3031,7 +3037,8 @@
       "2025-Q2": 3.288,
       "2025-Q3": 3.694,
       "2025-Q4": 3.425,
-      "2026-Q1": 4.977
+      "2026-Q1": 5.295,
+      "2026-Q2": 3.048
     }
   },
   "series_quarterly_sources": {

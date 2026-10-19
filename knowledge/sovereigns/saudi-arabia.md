@@ -4,7 +4,7 @@ _Page created 09-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -13,9 +13,9 @@ _Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the 
 | Real policy rate | 2.68 % | derived |  |
 | Gross reserves | 488.68 USD bn | Jul-26 | IMF International Liquidity |
 | Reserves, 12m change | 10 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
-| Reserves net of 1y drains | 482.15 USD bn | 2026-07 | IMF reserve template |
+| Reserves net of 1y drains | 480.82 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 15.6 months | 2025 | World Bank WDI |
-| Current account, last 4Q | -25.78 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account, last 4Q | -21.82 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -1.6 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | -0.31 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | 15.9 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |

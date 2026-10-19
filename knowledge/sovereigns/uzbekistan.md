@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -14,7 +14,7 @@ _Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the 
 | Gross reserves | 72.13 USD bn | 01-Sep-26 | Central Bank of Uzbekistan |
 | Reserves, 12m change | 32 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
 | Import cover | 12 months | 01-Sep-26 | Central Bank of Uzbekistan |
-| Current account, last 4Q | -11.23 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
+| Current account, last 4Q | -12.01 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -1.3 % GDP | 2026E | IMF WEO |
 | Government debt | 27 % GDP | 01-Jul-26 | Ministry of Economy and Finance |
 | Fiscal balance | -2.1 % GDP | 2025 | IMF Article IV / Ministry of Economy and Finance (consolidat |

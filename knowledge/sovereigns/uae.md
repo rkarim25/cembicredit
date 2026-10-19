@@ -4,13 +4,13 @@ _Page created 09-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 2.05 % | Dec-25 | IMF CPI database via repo data record |
 | Gross reserves | 259.7 USD bn | Jul-26 | IMF International Liquidity via repo data record |
-| Reserves, 12m change | -3.1 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
+| Reserves, 12m change | -0.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
 | Import cover | 5.2 months | 2025 | World Bank WDI via repo data record |
 | Current account | 11.4 % GDP | 2026E | IMF WEO via repo data record |
 | REER z-score (10y) | -1.12 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |

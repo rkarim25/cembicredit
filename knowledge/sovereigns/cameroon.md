@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -21,8 +21,8 @@ _Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the 
 | External debt | 30 % GDP | end-Jun-25 | Caisse Autonome d'Amortissement (CAA), Debt Statistical Bull |
 | Real GDP growth | 3.3 % | 2026E | IMF WEO |
 | Nominal GDP | 65.14 USD bn | 2026E | IMF WEO |
-| Bank NPL ratio | 12.89 % | 2023-Q4 | IMF FSI |
-| Bank capital ratio | 15.28 % | 2023-Q4 | IMF FSI |
+| Bank NPL ratio | 14.63 % | 2025-Q4 | IMF FSI |
+| Bank capital ratio | 19.42 % | 2025-Q3 | IMF FSI |
 
 Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, reer_imf_2010, reserves_ex_gold_usd_bn.
 

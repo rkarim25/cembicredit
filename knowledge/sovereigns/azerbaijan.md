@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -22,8 +22,8 @@ _Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the 
 | External debt | 8.3 % GDP | 01-Jun-26 | Ministry of Finance |
 | Real GDP growth | 1.2 % | Jan-Aug 2026 y/y | State Statistical Committee |
 | Nominal GDP | 78.37 USD bn | 2026E | IMF WEO |
-| Bank NPL ratio | 1.98 % | 2025-Q4 | IMF FSI |
-| Bank capital ratio | 17.61 % | 2025-Q4 | IMF FSI |
+| Bank NPL ratio | 2.19 % | 2026-Q2 | IMF FSI |
+| Bank capital ratio | 17.65 % | 2026-Q2 | IMF FSI |
 
 Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, policy_rate_imf_pct, reserves_ex_gold_usd_bn.
 

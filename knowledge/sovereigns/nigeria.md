@@ -4,16 +4,16 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 15.39 % | Aug-26 | NBS, Consumer Price Index Report August 2026 |
 | Policy rate | 23 % | Sep-26 | CBN, 307th MPC Communiqué |
 | Real policy rate | 7.61 % | derived |  |
-| Gross reserves | 54.98 USD bn | 05-Oct-26 | CBN, Daily Foreign Exchange Reserves Bulletin |
+| Gross reserves | 55.07 USD bn | 09-Oct-26 | CBN via Nairametrics corrigendum |
 | Reserves, 12m change | 30.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Import cover | 9.2 months | 2026 | Adjudicated prior document (IMF/CBN), Medium confidence |
+| Import cover | 9.2 months |  | Adjudicated prior document (Medium confidence) |
 | Current account, last 4Q | 15.61 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | 5.8 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | -0.51 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |

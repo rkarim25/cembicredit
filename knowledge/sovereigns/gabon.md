@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 19-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -19,8 +19,8 @@ _Auto data snapshot, 16-Oct-26: latest sourced values from the data record; the 
 | Fiscal balance | -10 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 2.7 % | 2026E | IMF WEO |
 | Nominal GDP | 23.36 USD bn | 2026E | IMF WEO |
-| Bank NPL ratio | 7.58 % | 2023-Q4 | IMF FSI |
-| Bank capital ratio | 14.73 % | 2023-Q4 | IMF FSI |
+| Bank NPL ratio | 27.12 % | 2025-Q4 | IMF FSI |
+| Bank capital ratio | 17.11 % | 2025-Q3 | IMF FSI |
 
 Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, reer_imf_2010, reserves_ex_gold_usd_bn.
 
