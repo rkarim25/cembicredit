@@ -83,6 +83,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 31-Dec-26: National Assembly approval of OGE 2027 (MINFIN, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - 31-Dec-26: AEQUITA closing of SABIC Europe sale expected in 4Q26 (Enterprise AM, 30-Sep-26) (SABIC, run 2026-10-09_0921_sabic)
 - 15-Jan-27: National Treasury release of FY2026/27 Budget Policy Statement (National Treasury, Oct-26) (Kenya sovereign credit, run 2026-10-08_1222_kenya-sovereign-credit)
+- 29-Jan-27: Saudi Arabia and the Philippines enter GBI-EM, phased (Saudi MoF, 23-Apr-26) (EM sovereign issuance, index flows and positioning, run 2026-10-20_1000_em-sovereign-issuance-index-flows-and-positioning)
 - 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed) (Ukraine sovereign credit, run 2026-10-19_1000_ukraine-sovereign-credit)
 - 15-May-27 Republic of Serbia €1.13bn Eurobond final maturity date (Public Debt Administration, May-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 30-Jun-27 target date for 375MW wind/storage licence conversion (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)

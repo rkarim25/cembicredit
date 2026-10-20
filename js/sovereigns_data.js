@@ -31510,10 +31510,10 @@ window.SOVEREIGNS = [
  {
   "slug": "em-issuance-index-flows-and-positioning",
   "country": "EM sovereign issuance, index flows and positioning",
-  "region": "EM cross-region (thematic, no single country)",
+  "region": "Emerging markets (cross-country theme)",
   "group": "Other",
   "ceemea": false,
-  "asof": "09-Oct-26",
+  "asof": "20-Oct-26",
   "fx_regime": null,
   "commodity": null,
   "ratings": {},
