@@ -21,3 +21,17 @@ Which commodity moves which credit, and in which direction. Sensitivities are di
 
 ## How to use this page
 For every sovereign and corporate page, record the two or three commodity sensitivities with the figure that matters (export share, revenue share, breakeven) and its source. In a macro note, state the commodity regime and then list the credits on each side of it.
+
+## Dated facts log
+
+### 20-Oct-26 (run 2026-10-20_0800_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit)
+- [Monetary] The FOMC raised the fed funds target range 25bp to 3.75–4.00% on 16-Sep-26, the first hike since 2023 (Federal Reserve release via Schwab, 16-Sep-26).
+- [Market] US September CPI was 3.7% y/y against 3.6% expected, core 2.6% (investinglive.com, 14-Oct-26).
+- [Market] Brent closed at USD 109.55 on 19-Oct-26 and settled at USD 109.86 on 16-Oct-26, the highest since May. It was USD 90.1 at end-Aug-26 (Mitrade, 19-Oct-26; Aberdeen, Aug-26).
+- [Market] Hormuz flows averaged 11.62m b/d in the week to 13-Oct-26 against a 17.15m b/d baseline (FinanceFeeds, Oct-26).
+- [Market] The 10y UST was 5.07% on 19-Oct-26 (FinanceFeeds, Oct-26). It touched 5.30% in the week to 03-Oct-26, the highest since 2007 (Gramercy, 03-Oct-26).
+- [Growth] IMF WEO Oct-26: emerging and developing economies 3.7% in 2026 against 4.5% in 2025, China 4.5% in 2026 (The Week, 13-Oct-26).
+- [Snapshot] S&P affirmed Romania at BBB-/A-3 with a negative outlook on 02-Oct-26 (Agerpres, 03-Oct-26).
+- [Calendar] 22-Oct-26 CBRT MPC meeting (Intellinews, Sep-26).
+- [Calendar] 25-Oct-26 Brazil presidential runoff (Gramercy, 03-Oct-26).
+- [Calendar] 28-Oct-26 FOMC decision (gvwire.com, 14-Oct-26).

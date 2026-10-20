@@ -1,5 +1,14 @@
 [
   {
+    "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
+    "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
+    "updated": "20-Oct-26",
+    "status": "Draft",
+    "open_items": 8,
+    "run": "2026-10-20_0800_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
+    "path": "reports/em-macro-regime-us-rates-dollar-commodities-and-risk-appetit.md"
+  },
+  {
     "topic": "China and EM: growth, commodity demand and China as a creditor",
     "slug": "china-and-em-growth-commodity-demand-and-china-as-a-creditor",
     "updated": "19-Oct-26",
@@ -133,15 +142,6 @@
     "open_items": 9,
     "run": "2026-10-09_0929_dp-world",
     "path": "reports/dp-world.md"
-  },
-  {
-    "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
-    "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
-    "updated": "09-Oct-26",
-    "status": "Draft",
-    "open_items": 7,
-    "run": "2026-10-09_0817_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
-    "path": "reports/em-macro-regime-us-rates-dollar-commodities-and-risk-appetit.md"
   },
   {
     "topic": "EM sovereign issuance, index flows and positioning",
