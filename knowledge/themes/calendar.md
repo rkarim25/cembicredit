@@ -46,6 +46,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 
 ## From runs (date first; verify before relying on it)
 - 13-Oct-26 IPO subscription closes (Dabafinance, 09-Oct-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
+- 14-Oct-26: GSDR 7th Co-Chairs Progress Report and compilation of technical issues issued in Bangkok (IMF PR 26/337, 14-Oct-26) (Frontier sovereign restructurings: Common Framework pipeline and precedents, run 2026-10-20_1200_frontier-sovereign-restructurings-common-framework-pipeline-)
 - 16-Oct-26 S&P scheduled sovereign review (BB-/Stable; hold expected) (Türkiye Today, 02-Oct-26) (Turkey, run 2026-10-14_0800_turkey)
 - 19-Oct-26: China 3Q26 GDP release (position source, unverified against the NBS calendar, 09-Oct-26) (China and EM: growth, commodity demand and China as a creditor, run 2026-10-09_0826_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
 - 21-Oct-26: Medium-Term Budget Policy Statement (Parliament committee notice; National Treasury lockup advisory, Oct-26) (South Africa sovereign credit, run 2026-10-16_1633_south-africa-sovereign-credit)
@@ -130,3 +131,4 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - Nov-26 expected IPO listing (Dabafinance, 09-Oct-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
 - Early Dec-26: IMF Article IV mission expected (Kenyan Wall Street, Oct-26) (Kenya sovereign credit, run 2026-10-15_1200_kenya-sovereign-credit)
 - Nov-26 IMF mission expected; Dec-26 combined 2nd and 3rd EFF reviews targeted (Interfax, 16-Oct-26) (Ukraine sovereign credit, run 2026-10-19_1000_ukraine-sovereign-credit)
+- Oct-26: Ethiopia target to finalise its bilateral and commercial debt restructuring agreements (Zawya and Capital Ethiopia, 2026) (Frontier sovereign restructurings: Common Framework pipeline and precedents, run 2026-10-20_1200_frontier-sovereign-restructurings-common-framework-pipeline-)

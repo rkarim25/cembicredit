@@ -37,3 +37,13 @@ How the official sector shapes EM sovereign outcomes. Facts here are structural;
 - [Restructuring] Ethiopia, Ghana, Zambia, Sri Lanka and Suriname are described as largely completed (IMF GSDR, 15-Apr-26)
 - [Snapshot] Senegal: staff-level agreement on a 36-month ECF of about $2.2bn (475% of quota), announced 01-Sep-26 (dabafinance.com and capmad.com, Sep-26)
 - [Snapshot] Mozambique: Fitch CC, sole Eurobond $900m 9% due Sep-2031, Fitch expects an IMF programme by early 2027 (african-markets.com and clubofmozambique.com, 2026)
+
+### 20-Oct-26 (run 2026-10-20_1200_frontier-sovereign-restructurings-common-framework-pipeline-)
+- [Restructuring] Ethiopia agreed on 28-Jun-26 to exchange its defaulted $1bn Eurobond for an $880m 6.15% bond due 15-Jul-29, with $99.37m of missed coupons paid in full, a 0.5% consent fee and a tradable New Money Warrant for up to $1bn of future issuance (Capital Ethiopia and The EastAfrican, Jun-Aug-26)
+- [Restructuring] Ethiopia's statement of 21-Aug-26 says the OCC accepted comparability of treatment; the OCC described net relief as relatively low (Capital Ethiopia, 22-Aug-26)
+- [Calendar] Oct-26: Ethiopia target to finalise its bilateral and commercial debt restructuring agreements (Zawya and Capital Ethiopia, 2026)
+- [Restructuring] GSDR 6th progress report: standstill to programme approval 2.1 to 10.5 months; approval to first review 6.0 to 17.7 months; bond exchange closure 16.0 to 24.0 months (IMF GSDR, 15-Apr-26)
+- [Restructuring] Ethiopia, Ghana, Zambia, Sri Lanka and Suriname are described as largely completed (IMF GSDR, 15-Apr-26)
+- [Calendar] 14-Oct-26: GSDR 7th Co-Chairs Progress Report and compilation of technical issues issued in Bangkok (IMF PR 26/337, 14-Oct-26)
+- [Snapshot] Senegal: staff-level agreement on a 36-month ECF of about $2.2bn, announced 01-Sep-26; Board approval, corrective measures and financing assurances outstanding (Engineering News, 25-Sep-26; dabafinance.com, Sep-26)
+- [Snapshot] Mozambique: Fitch CC, sole Eurobond $900m 9% due Sep-2031; Fitch expects an IMF programme by early 2027 and any bond operation to be a DDE; the Finance Ministry targets staff-level agreement and Board approval by end-2026 (clubofmozambique.com and businessday.ng, 2026; allAfrica, 11-Sep-26)

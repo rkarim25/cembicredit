@@ -18,6 +18,15 @@
     "path": "reports/em-sovereign-issuance-index-flows-and-positioning.md"
   },
   {
+    "topic": "Frontier sovereign restructurings: Common Framework pipeline and precedents",
+    "slug": "frontier-sovereign-restructurings-common-framework-pipeline-",
+    "updated": "20-Oct-26",
+    "status": "Draft",
+    "open_items": 10,
+    "run": "2026-10-20_1200_frontier-sovereign-restructurings-common-framework-pipeline-",
+    "path": "reports/frontier-sovereign-restructurings-common-framework-pipeline-.md"
+  },
+  {
     "topic": "China and EM: growth, commodity demand and China as a creditor",
     "slug": "china-and-em-growth-commodity-demand-and-china-as-a-creditor",
     "updated": "19-Oct-26",
@@ -169,15 +178,6 @@
     "open_items": 7,
     "run": "2026-10-09_0924_eskom",
     "path": "reports/eskom.md"
-  },
-  {
-    "topic": "Frontier sovereign restructurings: Common Framework pipeline and precedents",
-    "slug": "frontier-sovereign-restructurings-common-framework-pipeline-",
-    "updated": "09-Oct-26",
-    "status": "Draft",
-    "open_items": 9,
-    "run": "2026-10-09_0833_frontier-sovereign-restructurings-common-framework-pipeline-",
-    "path": "reports/frontier-sovereign-restructurings-common-framework-pipeline-.md"
   },
   {
     "topic": "Gulf support and anchors for EM sovereigns",
