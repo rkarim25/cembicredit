@@ -1,5 +1,14 @@
 [
   {
+    "topic": "Gulf support and anchors for EM sovereigns",
+    "slug": "gulf-support-and-anchors-for-em-sovereigns",
+    "updated": "21-Oct-26",
+    "status": "Draft",
+    "open_items": 11,
+    "run": "2026-10-21_0800_gulf-support-and-anchors-for-em-sovereigns",
+    "path": "reports/gulf-support-and-anchors-for-em-sovereigns.md"
+  },
+  {
     "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
     "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
     "updated": "20-Oct-26",
@@ -178,15 +187,6 @@
     "open_items": 7,
     "run": "2026-10-09_0924_eskom",
     "path": "reports/eskom.md"
-  },
-  {
-    "topic": "Gulf support and anchors for EM sovereigns",
-    "slug": "gulf-support-and-anchors-for-em-sovereigns",
-    "updated": "09-Oct-26",
-    "status": "Draft",
-    "open_items": 9,
-    "run": "2026-10-09_0838_gulf-support-and-anchors-for-em-sovereigns",
-    "path": "reports/gulf-support-and-anchors-for-em-sovereigns.md"
   },
   {
     "topic": "Israel sovereign credit",

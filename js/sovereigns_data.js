@@ -40457,17 +40457,17 @@ window.SOVEREIGNS = [
  {
   "slug": "gulf-support-and-anchors-for-em-s",
   "country": "Gulf support and anchors for EM sovereigns",
-  "region": "Thematic: Gulf (GCC) support for EM sovereigns (Pakistan, Egypt, Bahrain)",
+  "region": "Thematic (Gulf donors; EM recipients Pakistan, Egypt, Bahrain)",
   "group": "Middle East and North Africa",
   "ceemea": true,
-  "asof": "09-Oct-26",
+  "asof": "21-Oct-26",
   "fx_regime": null,
-  "commodity": "Oil price (Brent) sets Gulf fiscal capacity to provide deposits and investments; no 2026 Brent level sourced",
+  "commodity": "Thematic page, not a single sovereign. Oil price (Brent) sets Gulf fiscal capacity for deposits and investments; no 2026 Brent level was sourced.",
   "ratings": {},
   "imf": {},
   "politics": {
    "next_election": null,
-   "note": "Saudi-led grouping (Qatar, Turkey, Pakistan, Egypt) with the UAE outside it; Saudi and UAE interests diverge in 2026 (Foreign Policy, 01-Jul-26; Commons Library CBP-10833, title only)",
+   "note": "Thematic page. Foreign Policy (01-Jul-26) describes a Saudi-led grouping with Qatar, Turkey, Pakistan and Egypt, with the UAE outside it; Saudi-linked and UAE-linked recipients carry different political risks (inference).",
    "source": "Foreign Policy, 01-Jul-26",
    "asof": "01-Jul-26"
   },

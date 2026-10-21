@@ -1,15 +1,15 @@
 {
   "country": "Gulf support and anchors for EM sovereigns",
-  "region": "Thematic: Gulf (GCC) support for EM sovereigns (Pakistan, Egypt, Bahrain)",
+  "region": "Thematic (Gulf donors; EM recipients Pakistan, Egypt, Bahrain)",
   "fiscal_year": "Not applicable (thematic topic, not a single sovereign)",
   "commodity_exposure": {
-    "value": "Oil price (Brent) sets Gulf fiscal capacity to provide deposits and investments; no 2026 Brent level sourced",
-    "source": "Adjudicated document, Open item 7 and Not found, run 2026-10-09_0838",
-    "asof": "09-Oct-26"
+    "value": "Thematic page, not a single sovereign. Oil price (Brent) sets Gulf fiscal capacity for deposits and investments; no 2026 Brent level was sourced.",
+    "source": "Adjudicated document, Gulf support and anchors for EM sovereigns",
+    "asof": "21-Oct-26"
   },
   "politics": {
     "next_election": null,
-    "note": "Saudi-led grouping (Qatar, Turkey, Pakistan, Egypt) with the UAE outside it; Saudi and UAE interests diverge in 2026 (Foreign Policy, 01-Jul-26; Commons Library CBP-10833, title only)",
+    "note": "Thematic page. Foreign Policy (01-Jul-26) describes a Saudi-led grouping with Qatar, Turkey, Pakistan and Egypt, with the UAE outside it; Saudi-linked and UAE-linked recipients carry different political risks (inference).",
     "source": "Foreign Policy, 01-Jul-26",
     "asof": "01-Jul-26"
   },
@@ -18,7 +18,15 @@
   "series": {},
   "series_sources": {},
   "slug": "gulf-support-and-anchors-for-em-s",
-  "asof": "09-Oct-26",
-  "run": "2026-10-09_0838_gulf-support-and-anchors-for-em-sovereigns",
-  "derived": {}
+  "asof": "21-Oct-26",
+  "run": "2026-10-21_0800_gulf-support-and-anchors-for-em-sovereigns",
+  "derived": {},
+  "history": [
+    {
+      "asof": "09-Oct-26",
+      "run": "2026-10-09_0838_gulf-support-and-anchors-for-em-sovereigns",
+      "indicators": {},
+      "derived": {}
+    }
+  ]
 }
