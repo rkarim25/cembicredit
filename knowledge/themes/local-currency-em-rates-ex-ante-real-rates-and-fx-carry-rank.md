@@ -16,3 +16,11 @@ _Created by the pipeline on 09-Oct-26. Facts below are dated and sourced; views 
 - [Monetary] South Africa: SARB raised the repo rate 25bp to 7.25% on 24-Sep-26, unanimous (Briefly News, 24-Sep-26)
 - [Calendar] 22-Oct-26 CBRT MPC meeting (Intellinews, Sep-26)
 - [Calendar] 10-Dec-26 CBRT MPC meeting (Intellinews, Sep-26)
+
+### 21-Oct-26 (run 2026-10-21_1000_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
+- [Monetary] Turkey: CBRT market participants survey 16-Oct-26: year-end CPI 29.63%, 12M-ahead CPI 23.89%, 24M-ahead CPI 17.94%, expected policy rate 36% after the October meeting (Hürriyet Daily News, 16-Oct-26)
+- [Market] Turkey: survey policy-rate path of 35% at the Dec-26 meeting, 34.35% on 21-Jan-27, 29.01% at 12M and 27.93% at end-2027 (Hürriyet Daily News, week of 19-Oct-26)
+- [Monetary] Hungary: MNB held the base rate at 5.50% on 22-Sep-26 and cut its inflation target to 2.5% from 2028 (Tradingpedia, 23-Sep-26)
+- [Monetary] South Africa: CPI 4.4% y/y in Aug-26, core 4.1% (Stats SA via Trading Economics and Rio Times, 23-Sep-26)
+- [Calendar] 22-Oct-26 CBRT MPC meeting, with a 100bp cut to 36% as the survey and economist consensus (Hürriyet Daily News, 16-Oct-26)
+- [Calendar] 21-Jan-27 CBRT MPC meeting (Hürriyet Daily News, week of 19-Oct-26)

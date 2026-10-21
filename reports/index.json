@@ -9,6 +9,15 @@
     "path": "reports/gulf-support-and-anchors-for-em-sovereigns.md"
   },
   {
+    "topic": "Local-currency EM rates: ex-ante real rates and FX carry ranking",
+    "slug": "local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank",
+    "updated": "21-Oct-26",
+    "status": "Draft",
+    "open_items": 11,
+    "run": "2026-10-21_1000_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank",
+    "path": "reports/local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank.md"
+  },
+  {
     "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
     "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
     "updated": "20-Oct-26",
@@ -232,15 +241,6 @@
     "open_items": 7,
     "run": "2026-10-09_0738_lebanon-sovereign-credit",
     "path": "reports/lebanon-sovereign-credit.md"
-  },
-  {
-    "topic": "Local-currency EM rates: ex-ante real rates and FX carry ranking",
-    "slug": "local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank",
-    "updated": "09-Oct-26",
-    "status": "Draft",
-    "open_items": 10,
-    "run": "2026-10-09_0843_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank",
-    "path": "reports/local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank.md"
   },
   {
     "topic": "Metinvest",
