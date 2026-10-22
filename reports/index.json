@@ -18,6 +18,15 @@
     "path": "reports/pearl-petroleum.md"
   },
   {
+    "topic": "Turkey",
+    "slug": "turkey",
+    "updated": "22-Oct-26",
+    "status": "Draft",
+    "open_items": 11,
+    "run": "2026-10-22_1200_turkey",
+    "path": "reports/turkey.md"
+  },
+  {
     "topic": "Gulf support and anchors for EM sovereigns",
     "slug": "gulf-support-and-anchors-for-em-sovereigns",
     "updated": "21-Oct-26",
@@ -160,15 +169,6 @@
     "open_items": 12,
     "run": "2026-10-15_1200_kenya-sovereign-credit",
     "path": "reports/kenya-sovereign-credit.md"
-  },
-  {
-    "topic": "Turkey",
-    "slug": "turkey",
-    "updated": "14-Oct-26",
-    "status": "Draft",
-    "open_items": 10,
-    "run": "2026-10-14_0800_turkey",
-    "path": "reports/turkey.md"
   },
   {
     "topic": "Akbank",
