@@ -9,6 +9,15 @@
     "path": "reports/oil-and-em-credit-exporters-versus-importers.md"
   },
   {
+    "topic": "Pearl Petroleum",
+    "slug": "pearl-petroleum",
+    "updated": "22-Oct-26",
+    "status": "Draft",
+    "open_items": 12,
+    "run": "2026-10-22_1000_pearl-petroleum",
+    "path": "reports/pearl-petroleum.md"
+  },
+  {
     "topic": "Gulf support and anchors for EM sovereigns",
     "slug": "gulf-support-and-anchors-for-em-sovereigns",
     "updated": "21-Oct-26",
@@ -151,15 +160,6 @@
     "open_items": 12,
     "run": "2026-10-15_1200_kenya-sovereign-credit",
     "path": "reports/kenya-sovereign-credit.md"
-  },
-  {
-    "topic": "Pearl Petroleum",
-    "slug": "pearl-petroleum",
-    "updated": "14-Oct-26",
-    "status": "Draft",
-    "open_items": 11,
-    "run": "2026-10-14_0515_pearl-petroleum",
-    "path": "reports/pearl-petroleum.md"
   },
   {
     "topic": "Turkey",
