@@ -1,102 +1,108 @@
 ---
 topic: Oil and EM credit: exporters versus importers
 slug: oil-and-em-credit-exporters-versus-importers
-updated: 09-Oct-26
-run: 2026-10-09_0822_oil-and-em-credit-exporters-versus-importers
+updated: 22-Oct-26
+run: 2026-10-22_0800_oil-and-em-credit-exporters-versus-importers
 status: Draft
 open_items: 7
 ---
 
 # Oil and EM credit: exporters versus importers
 
-_Updated 09-Oct-26 · run 2026-10-09_0822_oil-and-em-credit-exporters-versus-importers_
+_Updated 22-Oct-26 · run 2026-10-22_0800_oil-and-em-credit-exporters-versus-importers_
 
 ## Open items
-1. [BBG: CO1 Comdty / last price, 3m and 12m change, CURVE] Confirm Brent near USD 104 (press, 08-Oct-26) and the curve shape. A steep backwardation would show how much of the price the market treats as temporary.
-2. [BBG: JPEMGBIG / OAS by country] Where do the spreads on Nigeria, Angola, Gabon, Oman, Bahrain, Iraq, Turkey, Egypt, Pakistan, Zambia and Senegal sit versus 27-Feb-26 (pre-war) and the 52-week range? This decides whether the exporter versus importer gap is already priced.
-3. [BBG: Turkey, Egypt 5Y CDS] Has CDS moved with Brent over the past month, or diverged?
-4. [REZA] Which book is this for: hard-currency sovereigns, local currency, or corporates and quasi-sovereigns? Hormuz-routed Gulf quasi-sovereigns would change the Gulf conclusion.
-5. [REZA] Is the question oil direction, or a spread-compression trade between exporters and importers? Which exporters and importers does the portfolio hold?
-6. [REZA] Paywalled items: CNBC 08-Oct-26 (Brent, tanker attacks) returned 403 on fetch, and the AGBI Aug-26 piece "Gulf credit risk recedes but Bahrain still heavily exposed" was not read. Please paste the Brent and Hormuz flow figures, and the CDS figures from the AGBI piece.
-7. [REZA] Bloomberg, FT and Reuters headlines from the last 90 days on Hormuz, OPEC+ and the exporters above were not reviewed. Please paste any that matter.
+1. [BBG: CO1 Comdty / last price, 3m and 12m change, CURVE] Confirm Brent near USD 111 on 22-Oct-26 (Trading Economics, secondary) and the curve shape. A steep backwardation would show how much of the price the market treats as temporary.
+2. [BBG: JPEMGBIG / OAS by country] Where do spreads on Nigeria, Angola, Gabon, Oman, Bahrain, Iraq, Turkey, Egypt, Pakistan, Zambia and Senegal sit versus 27-Feb-26 (pre-war) and the 52-week range? This decides whether the exporter versus importer gap is already priced.
+3. [BBG: TURKEY and EGYPT 5Y CDS / price] Has CDS moved with Brent over the past 90 days, or diverged?
+4. [BBG: QATAR 2050 and RASGOV bonds / Z-spread] Has the Fitch Rating Watch Negative on Qatar and Ras Al Khaimah been resolved, and is it priced?
+5. [REZA] Hormuz flows conflict: Kpler shows flows at pre-war levels on 27–29 Sep, while CNN reports record tanker attacks and a two-month low in crossings on 08-Oct-26. What do Bloomberg and Reuters show for flows, insurance and ceasefire talks since 08-Oct-26?
+6. [REZA] Which book is this for: hard-currency sovereigns, local currency, or corporates and quasi-sovereigns? Which exporters and importers does the portfolio hold, and is the question oil direction or an exporter versus importer spread trade?
+7. [REZA] Paywalled items not read: Fitch "buffers are thinning" (intellinews, 403), CNBC 08-Oct-26 (403), AGBI Aug-26 on Bahrain. Please paste the rating-outlook counts, the post-July Gulf rating actions and the Bahrain CDS figures.
 
 ## View
-- Brent is about USD 104 (CNBC, 08-Oct-26, Medium) after the Iran war that began on 28-Feb-26. It peaked near USD 126 in late April and rebounded in September–October on tanker attacks. Hormuz flows are about 30% below pre-war (Medium).
-- The supply driver is Hormuz, not OPEC+ or demand. The market is on the IMF adverse path (USD 100) rather than the April reference (USD 82) (High for the scenarios, Medium for the placement).
-- For Gulf exporters, volume matters more than price. Bahrain, Iraq and Qatar carry the most Hormuz exposure. Kuwait and Qatar are protected by buffers. Oman, Saudi Arabia and Abu Dhabi are relatively insulated through bypass routes (Medium).
-- Non-Gulf exporters get price without volume loss: Nigeria, Angola, Gabon, Kazakhstan. S&P upgraded Nigeria to B on 15-May-26 (Medium).
-- Importers with thin buffers or external financing needs are the losers: Turkey, Egypt, Pakistan, Zambia, Senegal, Serbia, Hungary. Egypt is partly cushioned by Suez revenue and its IMF programme (Medium).
-- The importer drag runs through the external balance, inflation and policy rates, so local-currency importers may carry more risk than hard-currency spreads show (Low to Medium).
-- Directional lean: long non-Gulf and Hormuz-bypass exporters, underweight importers with 12-month refinancing needs. Gulf hydrocarbon exporters are a volume trade, not an oil-price trade.
-- Biggest risk: Hormuz headlines swing the price both ways. Reopening points toward USD 82 and favours importers. Escalation points toward USD 100–125 and puts Bahrain and Iraq under financing stress.
-- Overall confidence is Medium on direction and Low on relative value, because no spread data was available.
+- Brent is about USD 111 on 22-Oct-26, in a USD 97–112 range this month (Trading Economics, Medium). It was USD 104 on 08-Oct-26. The October WEO assumes USD 95.74 for 2026 and USD 87.39 for 2027 (Medium).
+- The IMF figure is a simple average of Brent, Dubai and WTI, so it is not directly comparable with Brent. The October path sits between the April reference (USD 82) and the adverse case (USD 100 in 2026, USD 75 in 2027). Persistence in 2027 is higher than the April adverse case.
+- Hormuz routing is the swing factor. Flows are volatile and sources conflict (Medium to Low).
+- Lean: long non-Gulf and Hormuz-bypass exporters (Nigeria, Angola, Gabon, Kazakhstan, Oman, Saudi Arabia, UAE). Underweight importers with thin buffers or 12-month external financing needs (Egypt, Pakistan, Turkey, Zambia, Senegal, Asian importers). Gulf exporters with Hormuz-dependent volumes (Bahrain, Iraq) are a volume and security trade, not an oil-price trade.
+- Ratings have absorbed the shock so far. Outlook risk is concentrated in Gulf exporters, not importers (Medium).
+- Biggest risk: escalation takes Brent to USD 110–125, which hurts importers' current accounts and Hormuz-dependent Gulf volumes together. Reopening or a ceasefire favours importers and Bahrain/Iraq.
+- Confidence: Medium on direction, Low on relative value, because no spread, CDS or post-July rating data was available.
 
 ## What changed
-- The previous version was a framework with no data and no web research. This run adds dated oil, ratings and macro evidence from web searches, so the document now carries a regime view.
-- The Gulf split is revised. Exporters are no longer grouped as price winners. Hormuz-exposed volume losers (Bahrain, Iraq, Qatar) are separated from bypass and buffer-rich states.
-- The weak-buffer list changes. Angola, Nigeria and Gabon move from higher-sensitivity to beneficiaries on an oil-price rise, because the previous list assumed a falling-oil case.
-- Previous open items 4 (OPEC+) and 3 (specific exporter bonds) are folded into items 2 and 7. Hormuz now dominates supply risk.
-- Items 1 and 2 stay open because spread and Bloomberg price data are still missing.
+- Brent moved to about USD 111 (22-Oct-26) from USD 104 (08-Oct-26).
+- The October WEO oil assumptions (USD 95.74 and USD 87.39) replace the April scenarios as the reference. The October WEO text was still not read (press summaries only).
+- The Hormuz flow picture is now disputed (pre-war flows late Sep, then a two-month low on 08-Oct-26). The earlier "30% below pre-war" claim is carried only as a single week's reading.
+- Added S&P's April view that Egypt, Turkey and Asian net energy importers are most exposed, and Fitch's net outlook balance moving from +3 to -1.
+- Open items consolidated from seven to seven: spreads and CDS stay open, Qatar/RAK watch added, Hormuz flow conflict added.
 
 ## Analysis
 ### Oil regime
-- Brent rose 4% to USD 104.28 on 08-Oct-26. Nine tankers were attacked in the past week, and 9.5mb/d exited Hormuz in the week to 06-Oct-26, about 30% below pre-war (CNBC, 08-Oct-26, via search extract, Medium). https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html
-- Path: about USD 126 in late April, a fall below USD 70 (WTI) in late June as Hormuz reopened, then a rebound above USD 100 in September (Wikipedia oil chronology, accessed 09-Oct-26, Low to Medium). https://en.wikipedia.org/wiki/2026%E2%80%932028_world_oil_market_chronology
-- IMF WEO April 2026: reference USD 82 average and 3.1% global growth; adverse USD 100 in 2026 and USD 75 in 2027 with growth of 2.5%; severe USD 110 and USD 125 with growth of 2.0% (IMF, Apr-26, High). https://www.imf.org/-/media/files/publications/weo/2026/april/english/text.pdf.md
-- Press extracts cite a later USD 89 average and EMDE growth of 3.8% for 2026. This is unverified and not used (Low). The October WEO was not found.
+- Brent 111.11 on 22-Oct-26, October range 97–112 (Trading Economics, 22-Oct-26, Medium). https://tradingeconomics.com/commodity/brent-crude-oil
+- IMF October WEO: oil averages USD 95.74 in 2026 (USD 67.74 in 2025) and USD 87.39 in 2027; crude +41% and natural gas +48% in 2026 versus 2025; gas about USD 20/mmBtu, 36% above April. Importers with little stake in the technology boom face "the most difficult configuration" (Bernama, Hans India and Oilmonster summaries, 13-Oct-26, Medium). https://www.oilmonster.com/article/imf-projects-average-crude-oil-price-at-9574-in-2026-flags-risks-for-energyimporting-economies/8684
+- April WEO scenarios: reference USD 82, adverse USD 100 and USD 75, severe USD 110 and USD 125 (IMF, Apr-26, High).
+- Fitch's 2026 base case was cut to USD 87 on an assumed July reopening; it sees USD 100 under a three-month closure and USD 120 under six months (search extracts of Fitch, 2026, dates unconfirmed, Low to Medium).
+- Hormuz: Kpler crude flows of 19.5–22.5m b/d on 27–29 Sep, matching pre-war (OilPrice, 05-Oct-26, Medium). CNN reported record tanker attacks on 08-Oct-26 and crossings at a two-month low (CNN, 08-Oct-26, Medium). Moody's does not expect normalisation before early 2027 (Enterprise, 31-Jul-26, Medium).
 
 ### Gulf exporters
-- Moody's moved the MENA region to negative from stable on 31-Jul-26 and does not expect Hormuz flows to normalise before early 2027. Qatar and Kuwait stay stable. Bahrain and Iraq have been negative since April (Enterprise, 31-Jul-26, Medium). https://enterpriseam.com/menaplus/2026/07/31/moodys-turns-negative-on-the-whole-mena-region-as-hormuz-disruption-reshapes-the-credit-map/
-- Fitch placed Qatar (AA) and Ras Al Khaimah (A+) on Rating Watch Negative in late Mar and early Apr-26. Oman (BBB-/Stable) is the most insulated. Kuwait and Qatar foreign assets are about 606% and 223% of GDP. Bahrain routes 87–95% of hydrocarbon exports via Hormuz (Hellenic Shipping News summary of Fitch, 2026, Medium). https://www.hellenicshippingnews.com/most-gcc-sovereigns-have-so-far-shown-resilience-to-iran-war/
-- UAE: S&P AA stable (06-Mar-26) and Fitch AA- stable (06-May-26), both via press. 2026E current account +11.4% and fiscal balance +4.9% of GDP (IMF WEO, repo, High). Gross reserves incl. gold fell to USD 259.7bn (Jul-26) from USD 302.4bn (Feb-26) (IMF International Liquidity, High). The IMF staff visit (Jul-26) expects the surplus to narrow. The UAE is safe but not a clean price winner.
+- Moody's moved the MENA outlook to negative on 31-Jul-26. Bahrain and Iraq have been negative since Apr-26; Qatar and Kuwait are stable (Enterprise, 31-Jul-26, Medium).
+- Fitch has Qatar (AA) and Ras Al Khaimah (A+) on Rating Watch Negative (late Mar and early Apr-26). Oman is BBB-/Stable. Bahrain routes 87–95% of hydrocarbon exports via Hormuz. Kuwait and Qatar foreign assets are about 606% and 223% of GDP (Hellenic Shipping News summary of Fitch, 2026, Medium).
+- Fitch's 2026 Brent assumption and pipeline exports to Fujairah offset part of the lost Hormuz volume (search summary, date unknown, Low).
+- Gulf ratings were broadly maintained as of 23-May-26 (The National, 23-May-26, Medium). No agency actions after 31-Jul-26 were verified.
+- UAE: reserves incl. gold USD 259.7bn (Jul-26) versus USD 302.4bn (Feb-26), a 14% fall in five months that is unexplained. 2026E current account +11.4% of GDP (IMF, repo, High).
+- Resilient: UAE, Saudi Arabia, Kuwait, Qatar (buffers, bypass routes). Vulnerable: Bahrain, Iraq (Medium).
 
 ### Non-Gulf exporters
-- S&P upgraded Nigeria to B from B- (stable) on 15-May-26, citing output of about 1.65mb/d and better fiscal revenue, and raised its Brent assumption to USD 100 for the rest of 2026 (AllAfrica, 19-May-26; Daba Finance, May-26, Medium). https://allafrica.com/stories/202605190799.html
-- Angola's 2026 budget assumed USD 61 Brent against above USD 105 traded. It issued a Eurobond with a USD 7bn book (GlobalCapital, 2026, date unconfirmed, Medium). https://globalcapital.com/article/28mxyqkw1tcjf4xorkhds/emerging-markets/africa/angola-shows-oil-credit-success-still-possible-with-7bn-book
-- ING (05-Mar-26) names Angola, Gabon, Nigeria and Kazakhstan as beneficiaries (Medium). https://think.ing.com/articles/how-the-war-in-iran-is-impacting-em-sovereigns/
-- The windfall is probably partly priced. Remaining upside is ratings momentum and issuance quality (Low to Medium, untested without spreads).
+- Nigeria: S&P upgraded to B from B- (stable) on 15-May-26, assuming Brent USD 100 for the rest of 2026 (AllAfrica, 19-May-26, Medium).
+- Angola: 2026 budget assumed USD 61 Brent against USD 100+ traded; a recent Eurobond drew a USD 7bn book (GlobalCapital, 2026, date unconfirmed, Medium).
+- ING (05-Mar-26) names Angola, Gabon, Nigeria and Kazakhstan as beneficiaries (Medium).
+- Most of the windfall is probably priced, so upside is ratings momentum and issuance quality. This is untested without spreads (Low).
 
 ### Importers
-- ING (05-Mar-26) names Turkey, North Macedonia, Serbia, Hungary, Zambia, Senegal, Panama, El Salvador and Pakistan as exposed (Medium).
-- Turkey: annualised current account deficit USD 38.9bn at Jun-26, and the August deficit widened as net energy imports almost doubled y/y (Turkish central bank data via ING snap and search extracts, dates unconfirmed, Medium). https://think.ing.com/snaps/current-account-pressures-continue/
-- Egypt: the IMF review said buffers and a swift policy response contained the fallout. Suez revenue was USD 567.1m in Aug-26 (+56.7% y/y) and USD 4.67bn in FY25/26 (+23%) (Capmad, 2026, Medium). The IMF April WEO has Egypt growth slowing to 4.2% (High). https://www.capmad.com/post/egypts-suez-canal-authority-posts-revenue-rebound-in-q2-2026
-- The Philippines' 2026 growth was revised down 1.5pp, and energy prices were 25% above pre-war levels (IMF WEO, Apr-26, High). No local-currency market data (GBI-EM real rates, REER) was gathered this run, so the claim that local-currency importers carry more risk than hard-currency spreads show is an inference (Low to Medium).
+- S&P: "Egypt, Turkey and Asian net energy importers are the most exposed" (fi-desk, 28-Apr-26, Medium). Positive Fitch moves in the same period included Turkey, Dominican Republic, Indonesia and Rwanda, so ratings have not yet followed the macro exposure.
+- Fitch's net balance of positive less negative outlooks moved from +3 to -1 since the war began (fi-desk, 28-Apr-26, Medium).
+- Turkey: annualised current account deficit USD 38.9bn at Jun-26 (ING on central bank data, Medium). A reported USD 65bn energy import bill (about USD 4.5–5bn per USD 10/bbl) has no identified original source (Low).
+- Egypt: Suez revenue USD 567.1m in Aug-26 (+56.7% y/y) (Capmad, 2026, Medium). Current account about -4.2% of GDP, period unspecified (Trading Economics, Low).
+- Pakistan: current account swung from a USD 72m surplus (Jul–Mar FY26) to a USD 324m deficit in April 2026 (Arab News, 2026, Low to Medium).
+- The importer drag runs through the external balance, inflation and policy rates. Local-currency importers may therefore carry more risk than hard-currency spreads show. This is an inference with no local-market data gathered (Low).
+- Franklin Templeton (2025, pre-war) finds a strong oil–spread link for exporters and a weaker one for importers. It predates the war, so it is not evidence for the current regime (Low).
 
 ### Research coverage and gaps
-- Searched: Brent and Hormuz, IMF WEO, Gulf and African ratings, Turkey and Egypt external data.
-- Not found or not read: October 2026 WEO and Fiscal Monitor, agency originals (S&P, Fitch, Moody's), Gulf export volumes (OPEC secondary sources, IEA), and current ratings for Turkey, Egypt, Pakistan, Saudi Arabia, Kuwait and Iraq.
-- Nothing was found on Kazakhstan, Azerbaijan, Iraq financing, Pakistan, Zambia or Senegal beyond the ING list.
-- No Bloomberg data: spreads, CDS and bond prices are absent, so market pricing of the split is untested.
-- Sovereign models for these countries need to be built from official sources.
+- Searched: Brent and Hormuz, IMF October WEO, Gulf and importer ratings, Fitch commentary.
+- Not read or not found: IMF WEO text, agency originals, Fitch "buffers are thinning", post-July agency actions on Turkey, Egypt, Pakistan, Ghana, Bahrain, Kuwait and Qatar, 3Q26 current accounts, Gulf central bank reserves after July.
+- No Bloomberg data: spreads, CDS and prices are absent. Sovereign models for these countries need to be built from official sources.
 
 ## Where the models disagreed
-No material disagreement was recorded in the material supplied: one position was provided and its rebuttal content is not reflected in the claims. Claims resting on press extracts are carried at Medium, and unverified figures are excluded.
+1. Hormuz status: the previous document had flows about 30% below pre-war, while the new position found Kpler flows at pre-war late September followed by a two-month low on 08-Oct-26. Resolution: both are tier 3 and conflict, so flows are recorded as volatile and an open item is raised (rule: no winner when tier 3 sources conflict).
+2. Oil level versus scenarios: the position called the October WEO path above the April adverse case. Resolution: only 2027 is higher, and the IMF benchmark averages Brent, Dubai and WTI, so the comparison is qualified (rule: more specific source wins).
 
 ## Management questions
 None
 
 ## Knowledge base updates
-- [Snapshot] Nigeria: S&P upgraded to B from B- (stable) on 15-May-26; S&P Brent assumption USD 100 for the rest of 2026 (AllAfrica, 19-May-26; Daba Finance, May-26)
-- [Fiscal] Angola: 2026 budget assumed USD 61 Brent (GlobalCapital, 2026)
-- [Snapshot] Gulf: Moody's moved the MENA region outlook to negative on 31-Jul-26; Qatar and Kuwait stable; Bahrain and Iraq negative since Apr-26; Hormuz flows not expected to normalise before early 2027 (Enterprise, 31-Jul-26)
-- [Snapshot] Qatar (AA) and Ras Al Khaimah (A+) placed on Rating Watch Negative by Fitch, late Mar and early Apr-26; Oman BBB-/Stable (Hellenic Shipping News summary of Fitch, 2026)
-- [External] Bahrain routes 87–95% of hydrocarbon exports via Hormuz; Kuwait foreign assets about 606% and Qatar about 223% of GDP (Hellenic Shipping News summary of Fitch, 2026)
-- [External] Turkey: annualised current account deficit USD 38.9bn at Jun-26 (ING snap on Turkish central bank data, 2026)
-- [External] Egypt: Suez Canal revenue USD 567.1m in Aug-26 (+56.7% y/y); USD 4.67bn in FY25/26 (+23%) (Capmad, 2026)
-- [Growth] Egypt: IMF April WEO growth forecast 4.2% for 2026; Philippines 2026 growth revised down 1.5pp (IMF WEO, Apr-26)
-- [Market] IMF WEO Apr-26 oil scenarios: reference USD 82 (3.1% global growth), adverse USD 100 in 2026 and USD 75 in 2027 (2.5%), severe USD 110 and USD 125 (2.0%) (IMF, Apr-26)
+- [Market] IMF October WEO oil assumption: USD 95.74 average in 2026 (USD 67.74 in 2025), USD 87.39 in 2027; simple average of Brent, Dubai Fateh and WTI (Bernama, Hans India and Oilmonster summaries of the IMF WEO, 13-Oct-26)
+- [Market] Brent 111.11 on 22-Oct-26, October range about 97–112 (Trading Economics, 22-Oct-26)
+- [Market] Kpler Hormuz crude flows 19.5–22.5m b/d on 27–29 Sep-26, at pre-war levels; record tanker attacks and two-month-low crossings reported 08-Oct-26 (OilPrice, 05-Oct-26; CNN, 08-Oct-26)
+- [Snapshot] S&P (28-Apr-26): Egypt, Turkey and Asian net energy importers are the most exposed to the oil shock; Fitch net positive-less-negative outlook balance moved from +3 to -1 since the war began (fi-desk, 28-Apr-26)
+- [Snapshot] Gulf sovereign ratings were broadly maintained with stable outlooks as of 23-May-26 (The National, 23-May-26)
 
 ## Sources
-- IMF WEO April 2026, "Global Economy in the Shadow of War", Apr-26 (tier 2).
-- IMF International Liquidity and WEO data via repo `knowledge/sovereigns/uae-credit.md`, 09-Oct-26 (tier 2).
-- CNBC, "Oil prices today", 08-Oct-26, search extract only, page 403 (tier 3).
-- Wikipedia, 2026–2028 world oil market chronology, accessed 09-Oct-26 (tier 4).
-- Enterprise, "Moody's turns negative on the whole MENA region", 31-Jul-26 (tier 3 reporting tier 2 action).
-- Hellenic Shipping News, summary of Fitch on GCC sovereigns, 2026 (tier 3 reporting tier 2).
-- AllAfrica, 19-May-26, and Daba Finance, May-26, on the S&P Nigeria upgrade (tier 3 reporting tier 2).
-- GlobalCapital, Angola Eurobond, 2026, date unconfirmed (tier 3).
-- ING Think, "How the war in Iran is impacting EM sovereigns", 05-Mar-26 (tier 3).
-- ING Think, "Current account pressures continue", 2026, date unconfirmed (tier 3).
-- Capmad, Suez Canal Authority revenue, 2026 (tier 3).
-- UAE knowledge page, ratings via Khaleej Times and Enterprise press reports, Mar–May-26 (tier 3).
-- Previous truth document, run 2026-10-09_0657 (framework, tier 4).
+- Trading Economics, Brent crude, 22-Oct-26 (tier 3).
+- Bernama, Hans India, Oilmonster and Investment Guru India summaries of IMF October WEO, 13-Oct-26 (tier 3 reporting tier 2). https://www.thehansindia.com/business/imf-sees-oil-at-9574-in-2026-warns-energy-importers-face-toughest-squeeze-1131985
+- IMF WEO April 2026, via repo knowledge base (tier 2).
+- OilPrice, Hormuz flows top pre-war levels, 05-Oct-26 (tier 3). https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Hormuz-Crude-Flows-Top-Pre-War-Levels.html
+- CNN, tanker attacks, 08-Oct-26 (tier 3). https://www.cnn.com/2026/10/08/business/oil-diesel-prices-tanker-attacks-hormuz-intl
+- fi-desk, "Iran war wobbles EM credit ratings", 28-Apr-26 (tier 3 reporting tier 2). https://www.fi-desk.com/ratings-analysis-iran-war-wobbles-em-credit-ratings/
+- Intellinews, Fitch "buffers are thinning", date unread (headline only, tier 3). https://intellinews.com/emerging-market-ratings-have-absorbed-the-iran-war-so-far-but-the-buffers-are-thinning-fitch-458380
+- The National, Gulf credit ratings maintained, 23-May-26 (tier 3). https://www.thenationalnews.com/business/economy/2026/05/23/gulf-countries-maintain-credit-ratings-and-stable-outlooks-amid-iran-war-uncertainties/
+- Fitch oil price assumption extracts (Newsquawk, Outlook Business, intellinews), 2026, dates unconfirmed (tier 3).
+- Enterprise, Moody's MENA outlook, 31-Jul-26 (tier 3 reporting tier 2).
+- Hellenic Shipping News, Fitch on GCC sovereigns, 2026 (tier 3 reporting tier 2).
+- AllAfrica, 19-May-26, S&P Nigeria upgrade (tier 3 reporting tier 2).
+- GlobalCapital, Angola Eurobond, 2026 (tier 3).
+- ING Think, 05-Mar-26, and "Current account pressures continue", 2026 (tier 3).
+- Capmad, Suez Canal revenue, 2026 (tier 3).
+- Arab News, Pakistan current account, 2026 (tier 3). https://www.arabnews.pk/news/463303
+- Franklin Templeton, "Do commodities still matter for EM debt or FX", 2025 (tier 3, pre-war).
+- Repo knowledge pages (UAE, China themes), 09-Oct-26 to 19-Oct-26 (tier 2).
+- Previous truth document, run 2026-10-09_0822 (tier 4 for carried claims).

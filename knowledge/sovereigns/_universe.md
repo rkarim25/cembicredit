@@ -1,6 +1,6 @@
 # HY CEEMEA sovereign universe
 
-_Status table regenerated 21-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
+_Status table regenerated 22-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
 
 | Sovereign | Page | Latest report | Updated | Open items | Ratings (as filed) |
 |---|---|---|---|---|---|

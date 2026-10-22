@@ -39,3 +39,10 @@ _Created by the pipeline on 09-Oct-26. Facts below are dated and sourced; views 
 - [Restructuring] GDP warrants reported exchanged on 24-Dec (year unconfirmed, probably 2025): Series C 2032 US$3.497bn, Series B 2030/2034 US$16.9m each, 99.06% support (intellinews, undated)
 - [Calendar] Nov-26 IMF mission expected; Dec-26 combined 2nd and 3rd EFF reviews targeted (Interfax, 16-Oct-26)
 - [Calendar] 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed)
+
+### 22-Oct-26 (run 2026-10-22_0800_oil-and-em-credit-exporters-versus-importers)
+- [Market] IMF October WEO oil assumption: USD 95.74 average in 2026 (USD 67.74 in 2025), USD 87.39 in 2027; simple average of Brent, Dubai Fateh and WTI (Bernama, Hans India and Oilmonster summaries of the IMF WEO, 13-Oct-26)
+- [Market] Brent 111.11 on 22-Oct-26, October range about 97–112 (Trading Economics, 22-Oct-26)
+- [Market] Kpler Hormuz crude flows 19.5–22.5m b/d on 27–29 Sep-26, at pre-war levels; record tanker attacks and two-month-low crossings reported 08-Oct-26 (OilPrice, 05-Oct-26; CNN, 08-Oct-26)
+- [Snapshot] S&P (28-Apr-26): Egypt, Turkey and Asian net energy importers are the most exposed to the oil shock; Fitch net positive-less-negative outlook balance moved from +3 to -1 since the war began (fi-desk, 28-Apr-26)
+- [Snapshot] Gulf sovereign ratings were broadly maintained with stable outlooks as of 23-May-26 (The National, 23-May-26)
