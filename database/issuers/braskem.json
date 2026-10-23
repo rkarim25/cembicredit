@@ -1106,7 +1106,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/BRASKM",
-    "days_to_earnings": 26
+    "days_to_earnings": 19
   },
   "market_history": [
     {
@@ -1282,6 +1282,19 @@
       "date": "2026-10-16",
       "period_name": "2026-10-16",
       "timestamp": "2026-10-16T05:17:49.949864",
+      "rating": "RD / D",
+      "price": 48.6,
+      "ytm": 19.8,
+      "spread_bp": 1580,
+      "net_leverage": 10.2,
+      "ebitda": 5759.0,
+      "fcf": -2330.0,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-10-23",
+      "period_name": "2026-10-23",
+      "timestamp": "2026-10-23T05:17:31.859722",
       "rating": "RD / D",
       "price": 48.6,
       "ytm": 19.8,

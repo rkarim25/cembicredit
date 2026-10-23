@@ -558,7 +558,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "15:00 Riyadh / 12:00 UK",
     "ir_webcast_url": "https://acwapower.com/en/investor-relations/",
-    "days_to_earnings": 17
+    "days_to_earnings": 10
   },
   "management_questions": [
     {
@@ -906,6 +906,19 @@
       "date": "2026-10-16",
       "period_name": "2026-10-16",
       "timestamp": "2026-10-16T05:17:49.949864",
+      "rating": "Baa2 / BBB",
+      "price": 96.5,
+      "ytm": 6.45,
+      "spread_bp": 235,
+      "net_leverage": 3.85,
+      "ebitda": 920.0,
+      "fcf": -1205.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-23",
+      "period_name": "2026-10-23",
+      "timestamp": "2026-10-23T05:17:31.859722",
       "rating": "Baa2 / BBB",
       "price": 96.5,
       "ytm": 6.45,

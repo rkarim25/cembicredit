@@ -562,7 +562,7 @@
     "confirmation_status": "Estimated",
     "call_time": "15:00 Dubai",
     "ir_webcast_url": "https://sobhadxb.com/investor-relations",
-    "days_to_earnings": 30
+    "days_to_earnings": 23
   },
   "management_questions": [
     {
@@ -903,6 +903,19 @@
       "date": "2026-10-16",
       "period_name": "2026-10-16",
       "timestamp": "2026-10-16T05:17:49.949864",
+      "rating": "BB- / Ba3",
+      "price": 102.0,
+      "ytm": 7.95,
+      "spread_bp": 390,
+      "net_leverage": 0.83,
+      "ebitda": 480.0,
+      "fcf": -127.7,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-23",
+      "period_name": "2026-10-23",
+      "timestamp": "2026-10-23T05:17:31.859722",
       "rating": "BB- / Ba3",
       "price": 102.0,
       "ytm": 7.95,

@@ -591,7 +591,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/RJHI",
-    "days_to_earnings": 26
+    "days_to_earnings": 19
   },
   "management_questions": [
     {
@@ -939,6 +939,19 @@
       "date": "2026-10-16",
       "period_name": "2026-10-16",
       "timestamp": "2026-10-16T05:17:49.949864",
+      "rating": "A1 / A-",
+      "price": 100.8,
+      "ytm": 4.75,
+      "spread_bp": 55,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-23",
+      "period_name": "2026-10-23",
+      "timestamp": "2026-10-23T05:17:31.859722",
       "rating": "A1 / A-",
       "price": 100.8,
       "ytm": 4.75,

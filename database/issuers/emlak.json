@@ -562,7 +562,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/EKGYO",
-    "days_to_earnings": 26
+    "days_to_earnings": 19
   },
   "management_questions": [
     {
@@ -903,6 +903,19 @@
       "date": "2026-10-16",
       "period_name": "2026-10-16",
       "timestamp": "2026-10-16T05:17:49.949864",
+      "rating": "BB- Local",
+      "price": 97.5,
+      "ytm": 10.5,
+      "spread_bp": 610,
+      "net_leverage": 0.49,
+      "ebitda": 350.0,
+      "fcf": -98.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-23",
+      "period_name": "2026-10-23",
+      "timestamp": "2026-10-23T05:17:31.859722",
       "rating": "BB- Local",
       "price": 97.5,
       "ytm": 10.5,
