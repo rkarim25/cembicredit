@@ -43,6 +43,11 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - Fitch upgraded Ghana to B from B-, outlook positive; Bloomberg headline dated 08-May-26 (knowledge base gives 22-May-26; unresolved) (Bloomberg, 08-May-26) [15-Oct-26]
 - S&P affirmed Ghana at B-/stable on 27-Mar-26, after the Nov-25 upgrade from CCC+; no 18-Sep-26 action was found (Financial Afrik, 29-Mar-26) [15-Oct-26]
 - Jul-26 issue of further 2035 Step-Up notes and 1.5% 2037 amortising notes, exchanged against US$253.2m of 12.5% 2026 secured bonds (RNS, 10-Jul-26) [15-Oct-26]
+- Moody's upgraded Ghana to B3 from Caa1, outlook stable, ceiling raised to B1 (MyJoyOnline, Zawya, 09-Oct-26) [23-Oct-26]
+- Moody's moved the outlook to positive on 14-Apr-26 (Financial Afrik, 14-Apr-26) [23-Oct-26]
+- Fitch upgraded Ghana to B from B-, outlook positive, on 08-May-26 per Bloomberg headline and several outlets; knowledge base earlier gave 22-May-26 (Bloomberg, 08-May-26) [23-Oct-26]
+- S&P B-/stable, affirmed 27-Mar-26 after the Nov-25 upgrade from CCC+; 18-Sep-26 action unconfirmed (Financial Afrik, 29-Mar-26) [23-Oct-26]
+- Jul-26 issue of further 2035 Step-Up and 1.5% 2037 amortising notes against US$253.2m of 12.5% 2026 secured bonds (RNS, 10-Jul-26) [23-Oct-26]
 
 ## 1. External position
 - Gross international reserves stood at US$12.0B at end-September 2026, representing 5.2 months of import cover (Bank of Ghana, 28-Sep-26) [08-Oct-26]
@@ -55,6 +60,10 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - BoG gross reserves US$12.0bn; import cover 4.5 months at 22-Sep-26 per press, 5.2 months at end-Sep-26 per knowledge base, unreconciled (Bank of Ghana, Sep-26) [15-Oct-26]
 - Gold was 67% of goods exports in 2025; trade surplus US$8.85bn by Aug-26 (press quoting official data, 2026) [15-Oct-26]
 - Current account US$10.06bn over 2025-Q2 to 2026-Q1; quarterly US$1.715bn, 0.579bn, 4.667bn, 3.097bn (IMF BOP) [15-Oct-26]
+- IMF gross reserves incl. gold US$12.41bn (Mar-26), US$10.77bn (Jun-26), US$9.72bn (Jul-26); ex-gold US$9.36bn (Mar-26), US$6.53bn (Jul-26) (IMF International Liquidity) [23-Oct-26]
+- BoG gross reserves US$12.9bn with 5.0 months of cover (Jun-26) and US$12.0bn (end-Sep-26); import cover at end-Sep-26 is 4.5 or 5.2 months, unreconciled (BoG via press, 2026) [23-Oct-26]
+- Gold was 67% of goods exports in 2025; trade surplus US$8.85bn by Aug-26; cedi fell nearly 10% Mar–Jun-26 (press, World Bank Africa Economic Update, Oct-26) [23-Oct-26]
+- Current account US$10.06bn over 2025-Q2 to 2026-Q1; quarterly US$1.715bn, 0.579bn, 4.667bn, 3.097bn (IMF BOP) [23-Oct-26]
 ## 2. Fiscal position
 - Total Eurobond principal and coupon debt service obligations due between 2027 and 2030 equal US$6.4B (World Bank, Oct-26) [08-Oct-26]
 - Ministry of Finance halted international Eurobond issuance for FY2026 to focus on domestic market reconstruction (Ministry of Finance, Sep-26) [08-Oct-26]
@@ -62,6 +71,9 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - Eurobond principal and coupon due 2027–30 total US$6.4B (World Bank, Oct-26) [08-Oct-26]
 - Overall deficit 0.2% of GDP against a 1.9% target; public debt 45.9% of GDP (Dec-25: 44.7%) (press quoting official data, 2026) [15-Oct-26]
 - Eurobond principal and coupon of about US$6.4bn due 2027–30 (World Bank Africa Economic Update, Oct-26) [15-Oct-26]
+- Mid-year review: commitment deficit 0.4% of GDP against 2.0% target, cash deficit 0.8% against 2.9%; debt 45.0% of GDP at Jun-26, 44.7% at end-2025, 61.6% at end-2024 (GNA, Jul-26) [23-Oct-26]
+- Interest 17.2% of H1-26 revenue (Moody's via MyJoyOnline, Oct-26) [23-Oct-26]
+- Eurobond principal and coupon of about US$6.4bn due 2027–30 (World Bank Africa Economic Update, Oct-26) [23-Oct-26]
 ## 3. Monetary and financial
 - Bank of Ghana maintained the Monetary Policy Rate at 14.0% at its 132nd MPC meeting on 28-Sep-26 (Bank of Ghana, 28-Sep-26) [08-Oct-26]
 - Headline CPI inflation printed at 5.2% YoY in September 2026 (5.0% in August 2026), yielding an ex-ante real policy rate of +880 bps (Ghana Statistical Service, 07-Oct-26) [08-Oct-26]
@@ -71,14 +83,19 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - Policy rate held at 14.0% for the third time at the September-26 MPC; date reported as 25-Sep-26 by GNA and 28-Sep-26 by the knowledge base (Bank of Ghana, GNA, Sep-26) [15-Oct-26]
 - CPI 5.0% (Aug-26) and 5.2% (Sep-26); non-food 6.8% in Aug-26 (GSS, 2026) [15-Oct-26]
 - Banks 2026-Q2: NPL 16.06%, CAR 20.45%, provisions 77.64% of NPLs (IMF FSI) [15-Oct-26]
+- Policy rate held at 14.0% for the third time at the September-26 MPC; date reported as 25-Sep-26 (GNA) and 28-Sep-26 (knowledge base) (BoG, GNA, Sep-26) [23-Oct-26]
+- CPI 5.0% (Aug-26) and 5.2% (Sep-26); non-food 6.8% in Aug-26 (GSS, 2026) [23-Oct-26]
+- Banks 2026-Q2: NPL 16.06%, CAR 20.45%, provisions 77.64% of NPLs (IMF FSI) [23-Oct-26]
 ## 4. Growth and structure
 - Q2-26 real GDP growth 6.0% (press quoting GSS, 2026) [15-Oct-26]
+- Real GDP growth 6.4% (Q1-26) and 6.0% (Q2-26) (press quoting GSS, 2026) [23-Oct-26]
 ## 5. Institutions, politics, willingness
 ## 6. IMF and official sector
 - IMF Executive Board completed 6th and final review of $3.0B ECF arrangement on 27-Jul-26 with $371M disbursement (IMF, 27-Jul-26) [08-Oct-26]
 - Ghana transitioned to a 36-month non-financing Policy Coordination Instrument (PCI) in July 2026 (IMF, 27-Jul-26) [08-Oct-26]
 - Sixth and final ECF review completed 27-Jul-26 with a US$371M disbursement; 36-month non-financing PCI followed (IMF, 27-Jul-26) [08-Oct-26]
 - ECF of US$3bn over 39 months completed on 27-Jul-26 with a US$371m final disbursement; 36-month non-financing PCI approved; risk of debt distress moderate (IMF, GNA, 27-Jul-26) [15-Oct-26]
+- ECF of US$3bn over 39 months completed 27-Jul-26 with US$371m final disbursement; 36-month non-financing PCI approved; risk of debt distress moderate (IMF, GNA, 27-Jul-26) [23-Oct-26]
 ## 7. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
 - IMF CPI-based REER index 90.46 (Aug-26); z-score +1.86 vs trailing 120-month mean (IMF) [08-Oct-26]
@@ -90,6 +107,8 @@ _(levels from Reza via [BBG]; never from memory)_
 - 15-Dec-26: first IMF monitoring mission under the PCI (IMF calendar, Jul-26) [08-Oct-26]
 - 23-Nov-26: Bank of Ghana 133rd MPC meeting (Bank of Ghana calendar, Sep-26) [15-Oct-26]
 - 15-Dec-26: first IMF monitoring mission under the PCI (IMF calendar, Jul-26) [15-Oct-26]
+- 23-Nov-26: Bank of Ghana 133rd MPC meeting (Bank of Ghana calendar, Sep-26) [23-Oct-26]
+- 15-Dec-26: first IMF monitoring mission under the PCI (IMF calendar, Jul-26) [23-Oct-26]
 ## 10. Questions for the finance ministry / IMF mission
 
 ## Data sources
@@ -149,5 +168,26 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [Monetary] CPI 5.0% (Aug-26) and 5.2% (Sep-26); non-food 6.8% in Aug-26 (GSS, 2026)
 - [Growth] Q2-26 real GDP growth 6.0% (press quoting GSS, 2026)
 - [Monetary] Banks 2026-Q2: NPL 16.06%, CAR 20.45%, provisions 77.64% of NPLs (IMF FSI)
+- [Calendar] 23-Nov-26: Bank of Ghana 133rd MPC meeting (Bank of Ghana calendar, Sep-26)
+- [Calendar] 15-Dec-26: first IMF monitoring mission under the PCI (IMF calendar, Jul-26)
+
+### 23-Oct-26 (run 2026-10-23_1000_ghana-sovereign-credit)
+- [Snapshot] Moody's upgraded Ghana to B3 from Caa1, outlook stable, ceiling raised to B1 (MyJoyOnline, Zawya, 09-Oct-26)
+- [Snapshot] Moody's moved the outlook to positive on 14-Apr-26 (Financial Afrik, 14-Apr-26)
+- [Snapshot] Fitch upgraded Ghana to B from B-, outlook positive, on 08-May-26 per Bloomberg headline and several outlets; knowledge base earlier gave 22-May-26 (Bloomberg, 08-May-26)
+- [Snapshot] S&P B-/stable, affirmed 27-Mar-26 after the Nov-25 upgrade from CCC+; 18-Sep-26 action unconfirmed (Financial Afrik, 29-Mar-26)
+- [Snapshot] Jul-26 issue of further 2035 Step-Up and 1.5% 2037 amortising notes against US$253.2m of 12.5% 2026 secured bonds (RNS, 10-Jul-26)
+- [IMF] ECF of US$3bn over 39 months completed 27-Jul-26 with US$371m final disbursement; 36-month non-financing PCI approved; risk of debt distress moderate (IMF, GNA, 27-Jul-26)
+- [External] IMF gross reserves incl. gold US$12.41bn (Mar-26), US$10.77bn (Jun-26), US$9.72bn (Jul-26); ex-gold US$9.36bn (Mar-26), US$6.53bn (Jul-26) (IMF International Liquidity)
+- [External] BoG gross reserves US$12.9bn with 5.0 months of cover (Jun-26) and US$12.0bn (end-Sep-26); import cover at end-Sep-26 is 4.5 or 5.2 months, unreconciled (BoG via press, 2026)
+- [External] Gold was 67% of goods exports in 2025; trade surplus US$8.85bn by Aug-26; cedi fell nearly 10% Mar–Jun-26 (press, World Bank Africa Economic Update, Oct-26)
+- [External] Current account US$10.06bn over 2025-Q2 to 2026-Q1; quarterly US$1.715bn, 0.579bn, 4.667bn, 3.097bn (IMF BOP)
+- [Fiscal] Mid-year review: commitment deficit 0.4% of GDP against 2.0% target, cash deficit 0.8% against 2.9%; debt 45.0% of GDP at Jun-26, 44.7% at end-2025, 61.6% at end-2024 (GNA, Jul-26)
+- [Fiscal] Interest 17.2% of H1-26 revenue (Moody's via MyJoyOnline, Oct-26)
+- [Fiscal] Eurobond principal and coupon of about US$6.4bn due 2027–30 (World Bank Africa Economic Update, Oct-26)
+- [Monetary] Policy rate held at 14.0% for the third time at the September-26 MPC; date reported as 25-Sep-26 (GNA) and 28-Sep-26 (knowledge base) (BoG, GNA, Sep-26)
+- [Monetary] CPI 5.0% (Aug-26) and 5.2% (Sep-26); non-food 6.8% in Aug-26 (GSS, 2026)
+- [Monetary] Banks 2026-Q2: NPL 16.06%, CAR 20.45%, provisions 77.64% of NPLs (IMF FSI)
+- [Growth] Real GDP growth 6.4% (Q1-26) and 6.0% (Q2-26) (press quoting GSS, 2026)
 - [Calendar] 23-Nov-26: Bank of Ghana 133rd MPC meeting (Bank of Ghana calendar, Sep-26)
 - [Calendar] 15-Dec-26: first IMF monitoring mission under the PCI (IMF calendar, Jul-26)

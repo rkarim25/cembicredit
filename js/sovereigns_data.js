@@ -38059,9 +38059,9 @@ window.SOVEREIGNS = [
   "region": "Sub-Saharan Africa",
   "group": "Sub-Saharan Africa",
   "ceemea": true,
-  "asof": "15-Oct-26",
+  "asof": "23-Oct-26",
   "fx_regime": "float",
-  "commodity": "Gold (67% of goods exports in 2025) is the main export and the price that matters; oil above US$100/bbl feeds utility tariffs and non-food inflation",
+  "commodity": "Gold (67% of goods exports in 2025), so the gold price is the key variable; cocoa via COCOBOD crop financing",
   "ratings": {
    "fitch": {
     "rating": "B",
@@ -38080,27 +38080,28 @@ window.SOVEREIGNS = [
    }
   },
   "imf": {
-   "programme": "36-month non-financing Policy Coordination Instrument (PCI), following completion of the 39-month US$3bn ECF on 27-Jul-26",
+   "programme": "36-month non-financing Policy Coordination Instrument (PCI), following the US$3bn 39-month ECF completed 27-Jul-26",
    "size_usd_bn": null,
    "approved": "27-Jul-26",
-   "next_review": "15-Dec-26 (first PCI monitoring mission)",
+   "next_review": "15-Dec-26 (first monitoring mission under the PCI)",
    "risk_of_debt_distress": "moderate",
-   "source": "IMF Board, via GNA; IMF calendar via knowledge base",
+   "source": "IMF Board via GNA; IMF calendar",
    "asof": "27-Jul-26"
   },
   "politics": {},
   "ind": {
    "cpi_latest_yoy_pct": 5.2,
    "policy_rate_pct": 14.0,
-   "gross_reserves_usd_bn": 12.0,
-   "import_cover_months": 5.2,
+   "gross_reserves_usd_bn": 9.72,
+   "import_cover_months": 5.0,
    "fdi_net_pct_gdp": 1.671,
    "real_gdp_growth_pct": 6.0,
    "current_account_pct_gdp": 10.1,
-   "gov_debt_pct_gdp": 53.0,
-   "fiscal_balance_pct_gdp": -2.3,
+   "gov_debt_pct_gdp": 45.0,
+   "fiscal_balance_pct_gdp": -0.4,
    "nominal_gdp_usd_bn": 118.3,
    "current_account_4q_usd_bn": 10.06,
+   "interest_pct_revenue": 17.2,
    "ex_ante_real_rate_pct": 8.8,
    "reer_z_10y": 1.86,
    "reer_latest": 90.4634,
@@ -38108,17 +38109,18 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": 3.3
   },
   "src": {
-   "cpi_latest_yoy_pct": "Ghana Statistical Service 15-Oct-26",
-   "policy_rate_pct": "Bank of Ghana MPC, via GNA Sep-26",
-   "gross_reserves_usd_bn": "Bank of Ghana via press Sep-26 | Bank of Ghana reported gross international reserves; unreconciled with IMF International Liquidity series (US$9.72bn incl. gold at Jul-26)",
-   "import_cover_months": "Bank of Ghana 28-Sep-26",
+   "cpi_latest_yoy_pct": "GSS 23-Oct-26",
+   "policy_rate_pct": "Bank of Ghana MPC via GNA 25-Sep-26",
+   "gross_reserves_usd_bn": "IMF International Liquidity 23-Oct-26 | gross incl. gold (IMF International Liquidity); BoG reports US$12.0bn at end-Sep-26 and US$12.9bn in Jun-26, unreconciled with the IMF series",
+   "import_cover_months": "Bank of Ghana via press 23-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "Ghana Statistical Service via press 15-Oct-26",
+   "real_gdp_growth_pct": "Press quoting GSS 23-Oct-26",
    "current_account_pct_gdp": "IMF WEO 08-Oct-26",
-   "gov_debt_pct_gdp": "IMF WEO (database/sovereigns/ghana.json) 09-Oct-26 | IMF WEO projection; press-quoted official figure of 45.9% (Dec-25: 44.7%) differs in definition and is unreconciled",
-   "fiscal_balance_pct_gdp": "IMF WEO (database/sovereigns/ghana.json) 09-Oct-26",
+   "gov_debt_pct_gdp": "Ministry of Finance 2026 Mid-Year Budget Review via GNA Jul-26 | Official government debt, mid-year budget review",
+   "fiscal_balance_pct_gdp": "Ministry of Finance 2026 Mid-Year Budget Review via GNA Jul-26",
    "nominal_gdp_usd_bn": "IMF WEO 08-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 19-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
+   "interest_pct_revenue": "Moody's via MyJoyOnline 09-Oct-26",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER))",
    "reer_latest": "derived from the inputs above ()",
@@ -38147,7 +38149,9 @@ window.SOVEREIGNS = [
     "2026E": -2.3
    },
    "gov_debt_pct_gdp": {
-    "2026E": 53.0
+    "2026E": 53.0,
+    "2024": 61.6,
+    "2025": 44.7
    },
    "nominal_gdp_usd_bn": {
     "2026E": 118.3
@@ -40439,15 +40443,16 @@ window.SOVEREIGNS = [
   "asof_ind": {
    "cpi_latest_yoy_pct": "Sep-26",
    "policy_rate_pct": "Sep-26",
-   "gross_reserves_usd_bn": "Sep-26",
-   "import_cover_months": "end-Sep-26",
+   "gross_reserves_usd_bn": "Jul-26",
+   "import_cover_months": "Jun-26",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "Q2-26",
    "current_account_pct_gdp": "2026E",
-   "gov_debt_pct_gdp": "2026E",
-   "fiscal_balance_pct_gdp": "2026E",
+   "gov_debt_pct_gdp": "Jun-26",
+   "fiscal_balance_pct_gdp": "H1-26 (commitment basis; cash basis -0.8)",
    "nominal_gdp_usd_bn": "2026E",
    "current_account_4q_usd_bn": "2025-Q2 to 2026-Q1",
+   "interest_pct_revenue": "H1-26",
    "ex_ante_real_rate_pct": "derived",
    "reer_z_10y": "derived",
    "reer_latest": "derived",
@@ -40455,8 +40460,8 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "12",
-   "updated": "15-Oct-26",
+   "open_items": "13",
+   "updated": "23-Oct-26",
    "status": "Draft"
   }
  },

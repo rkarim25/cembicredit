@@ -8,44 +8,44 @@
     "asof": ""
   },
   "commodity_exposure": {
-    "value": "Gold (67% of goods exports in 2025) is the main export and the price that matters; oil above US$100/bbl feeds utility tariffs and non-food inflation",
-    "source": "Press quoting official data (Gold share); GSS/press (oil, non-food CPI)",
-    "asof": "15-Oct-26"
+    "value": "Gold (67% of goods exports in 2025), so the gold price is the key variable; cocoa via COCOBOD crop financing",
+    "source": "Press quoting GSS/BoG; GNA, ModernGhana (World Bank Africa Economic Update)",
+    "asof": "23-Oct-26"
   },
   "imf": {
-    "programme": "36-month non-financing Policy Coordination Instrument (PCI), following completion of the 39-month US$3bn ECF on 27-Jul-26",
+    "programme": "36-month non-financing Policy Coordination Instrument (PCI), following the US$3bn 39-month ECF completed 27-Jul-26",
     "size_usd_bn": null,
     "approved": "27-Jul-26",
-    "next_review": "15-Dec-26 (first PCI monitoring mission)",
+    "next_review": "15-Dec-26 (first monitoring mission under the PCI)",
     "risk_of_debt_distress": "moderate",
-    "source": "IMF Board, via GNA; IMF calendar via knowledge base",
+    "source": "IMF Board via GNA; IMF calendar",
     "asof": "27-Jul-26"
   },
   "indicators": {
     "cpi_latest_yoy_pct": {
       "value": 5.2,
       "period": "Sep-26",
-      "source": "Ghana Statistical Service",
-      "asof": "15-Oct-26"
+      "source": "GSS",
+      "asof": "23-Oct-26"
     },
     "policy_rate_pct": {
       "value": 14.0,
       "period": "Sep-26",
-      "source": "Bank of Ghana MPC, via GNA",
-      "asof": "Sep-26"
+      "source": "Bank of Ghana MPC via GNA",
+      "asof": "25-Sep-26"
     },
     "gross_reserves_usd_bn": {
-      "value": 12.0,
-      "definition": "Bank of Ghana reported gross international reserves; unreconciled with IMF International Liquidity series (US$9.72bn incl. gold at Jul-26)",
-      "period": "Sep-26",
-      "source": "Bank of Ghana via press",
-      "asof": "Sep-26"
+      "value": 9.72,
+      "definition": "gross incl. gold (IMF International Liquidity); BoG reports US$12.0bn at end-Sep-26 and US$12.9bn in Jun-26, unreconciled with the IMF series",
+      "period": "Jul-26",
+      "source": "IMF International Liquidity",
+      "asof": "23-Oct-26"
     },
     "import_cover_months": {
-      "value": 5.2,
-      "period": "end-Sep-26",
-      "source": "Bank of Ghana",
-      "asof": "28-Sep-26"
+      "value": 5.0,
+      "period": "Jun-26",
+      "source": "Bank of Ghana via press",
+      "asof": "23-Oct-26"
     },
     "fdi_net_pct_gdp": {
       "value": 1.671,
@@ -57,8 +57,8 @@
     "real_gdp_growth_pct": {
       "value": 6.0,
       "period": "Q2-26",
-      "source": "Ghana Statistical Service via press",
-      "asof": "15-Oct-26"
+      "source": "Press quoting GSS",
+      "asof": "23-Oct-26"
     },
     "current_account_pct_gdp": {
       "value": 10.1,
@@ -67,17 +67,17 @@
       "asof": "08-Oct-26"
     },
     "gov_debt_pct_gdp": {
-      "value": 53,
-      "definition": "IMF WEO projection; press-quoted official figure of 45.9% (Dec-25: 44.7%) differs in definition and is unreconciled",
-      "period": "2026E",
-      "source": "IMF WEO (database/sovereigns/ghana.json)",
-      "asof": "09-Oct-26"
+      "value": 45.0,
+      "definition": "Official government debt, mid-year budget review",
+      "period": "Jun-26",
+      "source": "Ministry of Finance 2026 Mid-Year Budget Review via GNA",
+      "asof": "Jul-26"
     },
     "fiscal_balance_pct_gdp": {
-      "value": -2.3,
-      "period": "2026E",
-      "source": "IMF WEO (database/sovereigns/ghana.json)",
-      "asof": "09-Oct-26"
+      "value": -0.4,
+      "period": "H1-26 (commitment basis; cash basis -0.8)",
+      "source": "Ministry of Finance 2026 Mid-Year Budget Review via GNA",
+      "asof": "Jul-26"
     },
     "nominal_gdp_usd_bn": {
       "value": 118.3,
@@ -91,6 +91,12 @@
       "source": "IMF BOP",
       "asof": "19-Oct-26",
       "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+    },
+    "interest_pct_revenue": {
+      "value": 17.2,
+      "period": "H1-26",
+      "source": "Moody's via MyJoyOnline",
+      "asof": "09-Oct-26"
     }
   },
   "ratings": {
@@ -121,22 +127,24 @@
       "2026E": -2.3
     },
     "gov_debt_pct_gdp": {
-      "2026E": 53.0
+      "2026E": 53.0,
+      "2024": 61.6,
+      "2025": 44.7
     },
     "nominal_gdp_usd_bn": {
       "2026E": 118.3
     }
   },
   "series_sources": {
-    "real_gdp_growth_pct": "IMF WEO, 09-Oct-26",
+    "real_gdp_growth_pct": "IMF WEO 2026E, as cited in reports/ghana-sovereign-credit.md, 23-Oct-26",
     "current_account_pct_gdp": "IMF WEO, 08-Oct-26",
-    "fiscal_balance_pct_gdp": "IMF WEO, 09-Oct-26",
-    "gov_debt_pct_gdp": "IMF WEO, 09-Oct-26",
+    "fiscal_balance_pct_gdp": "IMF WEO 2026E, as cited in reports/ghana-sovereign-credit.md, 23-Oct-26 (differs from the official commitment-basis figure; not reconciled)",
+    "gov_debt_pct_gdp": "Ministry of Finance 2026 Mid-Year Budget Review via GNA, Jul-26 (official definition; WEO 2026E of 53% not used because of the definition gap)",
     "nominal_gdp_usd_bn": "IMF WEO, 08-Oct-26"
   },
   "slug": "ghana",
-  "asof": "15-Oct-26",
-  "run": "2026-10-15_1000_ghana-sovereign-credit",
+  "asof": "23-Oct-26",
+  "run": "2026-10-23_1000_ghana-sovereign-credit",
   "derived": {
     "ex_ante_real_rate_pct": 8.8,
     "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
@@ -2584,6 +2592,99 @@
           "source": "IMF BOP",
           "asof": "08-Oct-26",
           "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 8.8,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reer_z_10y": 1.86,
+        "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
+        "reer_latest": 90.4634,
+        "reserves_12m_pct": 11.9,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-07 to 2026-07 (IMF International Liquidity)",
+        "ctot_12m_pct": 3.3,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "15-Oct-26",
+      "run": "2026-10-15_1000_ghana-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 5.2,
+          "period": "Sep-26",
+          "source": "GSS",
+          "asof": "23-Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 14.0,
+          "period": "Sep-26",
+          "source": "Bank of Ghana MPC via GNA",
+          "asof": "25-Sep-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 9.72,
+          "definition": "gross incl. gold (IMF International Liquidity); BoG reports US$12.0bn at end-Sep-26 and US$12.9bn in Jun-26, unreconciled with the IMF series",
+          "period": "Jul-26",
+          "source": "IMF International Liquidity",
+          "asof": "23-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 5.0,
+          "period": "Jun-26",
+          "source": "Bank of Ghana via press",
+          "asof": "23-Oct-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 1.671,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "real_gdp_growth_pct": {
+          "value": 6.0,
+          "period": "Q2-26",
+          "source": "Press quoting GSS",
+          "asof": "23-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": 10.1,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 45.0,
+          "definition": "Official government debt, mid-year budget review",
+          "period": "Jun-26",
+          "source": "Ministry of Finance 2026 Mid-Year Budget Review via GNA",
+          "asof": "Jul-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -0.4,
+          "period": "H1-26 (commitment basis; cash basis -0.8)",
+          "source": "Ministry of Finance 2026 Mid-Year Budget Review via GNA",
+          "asof": "Jul-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 118.3,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "08-Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": 10.06,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "19-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "interest_pct_revenue": {
+          "value": 17.2,
+          "period": "H1-26",
+          "source": "Moody's via MyJoyOnline",
+          "asof": "09-Oct-26"
         }
       },
       "derived": {
