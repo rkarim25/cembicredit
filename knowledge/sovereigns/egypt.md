@@ -37,6 +37,8 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Benchmark USD Eurobonds include EGYPT 7.600% 01-Mar-29 ($2.0B, XS1953057061), EGYPT 9.450% 04-Feb-33 ($1.5B, XS2990500766), EGYPT 6.875% 30-Apr-40 ($1.25B, XS0505478684), EGYPT 8.500% 31-Jan-47 ($2.5B, XS1558078496) (LuxSE / MoF, Oct-26). [08-Oct-26]
 - Moody's outlook on Caa1 has been Positive since 18-Mar-24 (Rating Agencies, Oct-26). [08-Oct-26]
 - S&P affirmed Egypt at B/B, outlook Stable, on 11-Oct-26; upgrade trigger is faster debt reduction via FDI and asset sales (Arab News report of S&P action, 11-Oct-26) [15-Oct-26]
+- Moody's upgraded Egypt to B3 from Caa1 on 16-Oct-26, outlook Positive (Daba Finance, 16-Oct-26; The National, 17-Oct-26) [23-Oct-26]
+- Fitch B/Stable; press cites FY26/27 growth of 4.7% and a current account deficit below 3.5% of GDP by FY27/28; affirmation date unverified, after Aug-26 (Egypt Today, Oct-26) [23-Oct-26]
 
 ## 1. External position
 - CBE net international reserves reached a record high of $57.35B at end-September 2026, providing over 7.5 months of import cover (CBE, 07-Oct-26). [08-Oct-26]
@@ -45,11 +47,14 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Reserves ex-gold rose from $28.62B (Feb-26) to $36.42B (Jul-26), while gold fell from $21.502B to $17.139B (IMF International Liquidity, Jul-26). [08-Oct-26]
 - IMF WEO 2026E current account is -4.2% of GDP and nominal GDP is $429.645B; net FDI was 4.231% of GDP in 2025 (IMF WEO; World Bank WDI, 08-Oct-26). [08-Oct-26]
 - S&P cites reserves of $54.5B at Sep-26, foreign holdings of local securities of $34.5B and $9.5B of outflows in the recent shock; fuel and gas about 30% of goods imports (Arab News report of S&P, 11-Oct-26) [15-Oct-26]
+- Foreign holdings of local securities were $34.5B at Sep-26, up from $22.2B in Apr-26; S&P puts the current account deficit at 5.1% and the overall deficit at 5.8% of GDP (Arab News report of S&P, 11-Oct-26) [23-Oct-26]
 ## 2. Fiscal position
 - Primary budget surplus reached 3.5% of GDP (EGP 629B) in FY24/25 and is budgeted at 4.0% of GDP for FY25/26 (Ministry of Finance, Sep-26). [08-Oct-26]
 - Budget sector debt-to-GDP estimated at ~79.7% as of Q2 2026, down from 96.4% in FY23/24, but interest service exceeds 50% of budget revenue (Ministry of Finance / IIF, Jun-26). [08-Oct-26]
 - IMF WEO 2026E overall fiscal balance is -12.1% of GDP (IMF WEO, 08-Oct-26). [08-Oct-26]
 - S&P estimates interest at 67% of revenue, primary surplus at 4.9% of GDP and FY25/26 growth at 5.1% (Arab News report of S&P, 11-Oct-26) [15-Oct-26]
+- Moody's: public debt 81.8% of GDP at Jun-26 (95.2% in 2023), primary surplus 4.9% of GDP in FY25/26 (3.5% in FY24/25), interest 59% of revenue, tax revenue 13% of GDP (Daba Finance, 16-Oct-26) [23-Oct-26]
+- Cabinet approved $3B of international bond issuance for FY26/27 (Arab Finance, 2026) [23-Oct-26]
 ## 3. Monetary and financial
 - CBE overnight deposit rate held at 19.00% and lending rate at 20.00% on 24-Sep-26 (CBE, 24-Sep-26). [08-Oct-26]
 - August 2026 nationwide headline CPI printed 12.7% YoY, with urban CPI at 14.5% YoY, maintaining an ex-ante real policy rate of +450 to +500 bps (CAPMAS, 10-Sep-26). [08-Oct-26]
@@ -63,6 +68,7 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 ## 6. IMF and official sector
 - IMF completed Seventh Review of the $8B Extended Fund Facility (EFF) on 31-Jul-26, approving disbursement of $1.8B ($1.5B EFF, $272M RSF) (IMF, 31-Jul-26). [08-Oct-26]
 - Staff-level agreement on the Seventh EFF review announced 30-Jun-26, about $1.6B including $1.5B EFF (Asharq Al-Awsat, 30-Jun-26) [15-Oct-26]
+- The Eighth and final EFF review and the third RSF review are due in Q4-26, expected by mid-Dec-26 (press summary, Oct-26) [23-Oct-26]
 ## 7. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
 - USD/EGP monthly: 47.15 Feb-26, 51.95 Mar-26, 52.91 Apr-26, 52.97 May-26, 50.67 Jun-26, 50.25 Jul-26 (BIS statistics API, Jul-26). [08-Oct-26]
@@ -72,6 +78,8 @@ _(levels from Reza via [BBG]; never from memory)_
 - 15-Dec-26: IMF Executive Board Eighth and final review under the $8B Extended Fund Facility arrangement (IMF, Sep-26). [08-Oct-26]
 - 12-Nov-26: CBE MPC decision (CBE, Oct-26) [15-Oct-26]
 - 15-Dec-26: IMF Board Eighth and final EFF review, date unconfirmed at primary source (repo; press summary, Oct-26) [15-Oct-26]
+- 12-Nov-26: CBE MPC decision (CBE, Oct-26) [23-Oct-26]
+- 15-Dec-26: IMF Board Eighth and final EFF review, date unconfirmed at primary source (repo; press, Oct-26) [23-Oct-26]
 ## 10. Questions for the finance ministry / IMF mission
 
 ## Data sources
@@ -116,3 +124,13 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [IMF] Staff-level agreement on the Seventh EFF review announced 30-Jun-26, about $1.6B including $1.5B EFF (Asharq Al-Awsat, 30-Jun-26)
 - [Calendar] 12-Nov-26: CBE MPC decision (CBE, Oct-26)
 - [Calendar] 15-Dec-26: IMF Board Eighth and final EFF review, date unconfirmed at primary source (repo; press summary, Oct-26)
+
+### 23-Oct-26 (run 2026-10-23_0800_egypt-sovereign-credit)
+- [Snapshot] Moody's upgraded Egypt to B3 from Caa1 on 16-Oct-26, outlook Positive (Daba Finance, 16-Oct-26; The National, 17-Oct-26)
+- [Fiscal] Moody's: public debt 81.8% of GDP at Jun-26 (95.2% in 2023), primary surplus 4.9% of GDP in FY25/26 (3.5% in FY24/25), interest 59% of revenue, tax revenue 13% of GDP (Daba Finance, 16-Oct-26)
+- [Snapshot] Fitch B/Stable; press cites FY26/27 growth of 4.7% and a current account deficit below 3.5% of GDP by FY27/28; affirmation date unverified, after Aug-26 (Egypt Today, Oct-26)
+- [External] Foreign holdings of local securities were $34.5B at Sep-26, up from $22.2B in Apr-26; S&P puts the current account deficit at 5.1% and the overall deficit at 5.8% of GDP (Arab News report of S&P, 11-Oct-26)
+- [Fiscal] Cabinet approved $3B of international bond issuance for FY26/27 (Arab Finance, 2026)
+- [IMF] The Eighth and final EFF review and the third RSF review are due in Q4-26, expected by mid-Dec-26 (press summary, Oct-26)
+- [Calendar] 12-Nov-26: CBE MPC decision (CBE, Oct-26)
+- [Calendar] 15-Dec-26: IMF Board Eighth and final EFF review, date unconfirmed at primary source (repo; press, Oct-26)

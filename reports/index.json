@@ -1,5 +1,14 @@
 [
   {
+    "topic": "Egypt sovereign credit",
+    "slug": "egypt-sovereign-credit",
+    "updated": "23-Oct-26",
+    "status": "Draft",
+    "open_items": 11,
+    "run": "2026-10-23_0800_egypt-sovereign-credit",
+    "path": "reports/egypt-sovereign-credit.md"
+  },
+  {
     "topic": "Oil and EM credit: exporters versus importers",
     "slug": "oil-and-em-credit-exporters-versus-importers",
     "updated": "22-Oct-26",
@@ -142,15 +151,6 @@
     "open_items": 8,
     "run": "2026-10-16_1833_tullow-oil",
     "path": "reports/tullow-oil.md"
-  },
-  {
-    "topic": "Egypt sovereign credit",
-    "slug": "egypt-sovereign-credit",
-    "updated": "15-Oct-26",
-    "status": "Draft",
-    "open_items": 11,
-    "run": "2026-10-15_0800_egypt-sovereign-credit",
-    "path": "reports/egypt-sovereign-credit.md"
   },
   {
     "topic": "Ghana sovereign credit",
