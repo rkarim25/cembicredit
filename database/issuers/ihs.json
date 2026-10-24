@@ -560,7 +560,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "14:30 London / 09:30 EST",
     "ir_webcast_url": "https://www.ihstowers.com/investors",
-    "days_to_earnings": 24
+    "days_to_earnings": 23
   },
   "management_questions": [
     {
@@ -914,6 +914,19 @@
       "date": "2026-10-23",
       "period_name": "2026-10-23",
       "timestamp": "2026-10-23T05:17:31.859722",
+      "rating": "B+ / B2",
+      "price": 91.5,
+      "ytm": 10.25,
+      "spread_bp": 590,
+      "net_leverage": 3.16,
+      "ebitda": 1120,
+      "fcf": 8.6,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-24",
+      "period_name": "2026-10-24",
+      "timestamp": "2026-10-24T05:16:26.941377",
       "rating": "B+ / B2",
       "price": 91.5,
       "ytm": 10.25,

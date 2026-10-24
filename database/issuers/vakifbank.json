@@ -591,7 +591,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.vakifbank.com.tr/investor-relations.aspx",
-    "days_to_earnings": 13
+    "days_to_earnings": 12
   },
   "management_questions": [
     {
@@ -952,6 +952,19 @@
       "date": "2026-10-23",
       "period_name": "2026-10-23",
       "timestamp": "2026-10-23T05:17:31.859722",
+      "rating": "BB- / B1",
+      "price": 99.2,
+      "ytm": 6.95,
+      "spread_bp": 235,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-24",
+      "period_name": "2026-10-24",
+      "timestamp": "2026-10-24T05:16:26.941377",
       "rating": "BB- / B1",
       "price": 99.2,
       "ytm": 6.95,
