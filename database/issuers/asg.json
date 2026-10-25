@@ -1127,6 +1127,19 @@
       "ebitda": 322.9,
       "fcf": -189.2,
       "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-25",
+      "period_name": "2026-10-25",
+      "timestamp": "2026-10-25T05:17:54.925017",
+      "rating": "BB- (S&P) / BB (Fitch)",
+      "price": 87.0,
+      "ytm": 16.0,
+      "spread_bp": 1120,
+      "net_leverage": 4.69,
+      "ebitda": 322.9,
+      "fcf": -189.2,
+      "guidance_status": "Ahead of Target"
     }
   ],
   "supplementary_data": {
@@ -1282,6 +1295,6 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/AVIASG",
-    "days_to_earnings": 18
+    "days_to_earnings": 17
   }
 }

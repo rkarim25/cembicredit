@@ -558,7 +558,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/GDZELE",
-    "days_to_earnings": 18
+    "days_to_earnings": 17
   },
   "management_questions": [
     {
@@ -932,6 +932,19 @@
       "date": "2026-10-24",
       "period_name": "2026-10-24",
       "timestamp": "2026-10-24T05:16:26.941377",
+      "rating": "B / B2",
+      "price": 98.2,
+      "ytm": 9.1,
+      "spread_bp": 470,
+      "net_leverage": 2.62,
+      "ebitda": 195.0,
+      "fcf": -77.1,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-25",
+      "period_name": "2026-10-25",
+      "timestamp": "2026-10-25T05:17:54.925017",
       "rating": "B / B2",
       "price": 98.2,
       "ytm": 9.1,

@@ -554,7 +554,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.pegasusinvestorrelations.com",
-    "days_to_earnings": 15
+    "days_to_earnings": 14
   },
   "management_questions": [
     {
@@ -928,6 +928,19 @@
       "date": "2026-10-24",
       "period_name": "2026-10-24",
       "timestamp": "2026-10-24T05:16:26.941377",
+      "rating": "B+ / BB-",
+      "price": 103.5,
+      "ytm": 7.65,
+      "spread_bp": 360,
+      "net_leverage": 2.1,
+      "ebitda": 950.0,
+      "fcf": 23.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-25",
+      "period_name": "2026-10-25",
+      "timestamp": "2026-10-25T05:17:54.925017",
       "rating": "B+ / BB-",
       "price": 103.5,
       "ytm": 7.65,

@@ -591,7 +591,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "17:30 Istanbul",
     "ir_webcast_url": "https://www.akbankinvestorrelations.com",
-    "days_to_earnings": 2
+    "days_to_earnings": 1
   },
   "management_questions": [
     {
@@ -965,6 +965,19 @@
       "date": "2026-10-24",
       "period_name": "2026-10-24",
       "timestamp": "2026-10-24T05:16:26.941377",
+      "rating": "BB- / B1",
+      "price": 100.2,
+      "ytm": 6.45,
+      "spread_bp": 185,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-25",
+      "period_name": "2026-10-25",
+      "timestamp": "2026-10-25T05:17:54.925017",
       "rating": "BB- / B1",
       "price": 100.2,
       "ytm": 6.45,
