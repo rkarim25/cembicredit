@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -12,19 +12,19 @@ _Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the 
 | Policy rate | 4.25 % | Sep-26 | NBRNM |
 | Real policy rate | 1.68 % | derived |  |
 | Gross reserves | 5.51 USD bn | Aug-26 | NBRNM |
-| Reserves, 12m change | 7.2 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves, 12m change | 3 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Reserves net of 1y drains | 4.72 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 4.2 months | Aug-26 | NBRNM |
 | Current account, last 4Q | -0.99 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -5 % GDP | 2026E | IMF WEO |
-| REER z-score (10y) | 1.52 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| REER z-score (10y) | 1.38 sd | derived | latest 2026-09 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -2.6 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 55.2 % GDP | Q1-26 | Ministry of Finance |
 | Fiscal balance | -4.2 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 3.1 % | 2026E | IMF WEO |
 | Nominal GDP | 21.61 USD bn | 2026E | IMF WEO |
-| Bank NPL ratio | 1.85 % | 2026-Q1 | IMF FSI |
-| Bank capital ratio | 19.12 % | 2026-Q1 | IMF FSI |
+| Bank NPL ratio | 1.88 % | 2026-Q2 | IMF FSI |
+| Bank capital ratio | 19.52 % | 2026-Q2 | IMF FSI |
 
 Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, official_reserve_assets_usd_bn, policy_rate_pct, predetermined_drains_usd_bn, reer_broad_real, reer_imf_2010, reserves_ex_gold_usd_bn, reserves_net_of_drains_usd_bn.
 

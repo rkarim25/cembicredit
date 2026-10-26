@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -12,7 +12,7 @@ _Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the 
 | Gross reserves | 6.39 USD bn | 2025-12 | IMF International Liquidity |
 | Reserves, 12m change | 45.9 % | derived | gross reserves incl. gold, 2024-12 to 2025-12 (IMF Internati |
 | Import cover | 5.75 months | 2025 | World Bank WDI |
-| Current account, last 4Q | 2.86 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
+| Current account, last 4Q | 3.02 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | 6.3 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | -0.8 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 21.9 % GDP | 2026E | IMF WEO |

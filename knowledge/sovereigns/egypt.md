@@ -4,23 +4,23 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 12.8 % | Sep-26 | CAPMAS via Arab Finance (nationwide headline) |
-| Policy rate | 19 % | Sep-26 | CBE MPC, overnight deposit rate, via BNOK24 |
+| CPI y/y | 12.8 % | Sep-26 | CAPMAS via Arab Finance |
+| Policy rate | 19 % | Sep-26 | CBE overnight deposit rate, MPC decision via BNOK24 |
 | Real policy rate | 6.2 % | derived |  |
 | Gross reserves | 53.56 USD bn | Jul-26 | IMF International Liquidity |
-| Reserves, 12m change | 14.7 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
+| Reserves, 12m change | 16.2 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
 | Reserves net of 1y drains | 17.22 USD bn | 2026-05 | IMF reserve template |
-| Import cover | 7.5 months | Sep-26 | Central Bank of Egypt (over 7.5 months) |
+| Import cover | 7.5 months | Sep-26 | CBE (reported as over 7.5 months) |
 | Current account, last 4Q | -16.76 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
-| Current account | -4.2 % GDP | 2026E | IMF WEO |
+| Current account | -4.2 % GDP | 2026E | IMF WEO via repo record |
 | Terms of trade, 12m change | -0.7 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 79.7 % GDP | Q2-26 | MoF / IIF |
+| Government debt | 81.8 % GDP | Jun-26 | Moody's via Daba Finance |
 | Fiscal balance | -12.1 % GDP | 2026E | IMF WEO (overall deficit) |
-| Primary balance | 4.9 % GDP | FY25/26 | S&P via Arab News (MoF budgeted 4.0%) |
+| Primary balance | 4.9 % GDP | FY25/26 | Moody's and S&P via press |
 | Real GDP growth | 4.2 % | 2026E | IMF WEO |
 | Nominal GDP | 429.6 USD bn | 2026E | IMF WEO |
 

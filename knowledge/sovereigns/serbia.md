@@ -4,20 +4,20 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 2.2 % | Aug-26 | Statistical Office of the Republic of Serbia |
 | Policy rate | 5.75 % | Sep-26 | National Bank of Serbia, Executive Board decision |
 | Real policy rate | 3.55 % | derived |  |
-| Gross reserves | 35.71 USD bn | 2026-08 | IMF International Liquidity |
-| Reserves, 12m change | 7 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Gross reserves | 33.85 USD bn | 2026-09 | IMF International Liquidity |
+| Reserves, 12m change | -0.7 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Reserves net of 1y drains | 30.03 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 6.2 months | Aug-26 | National Bank of Serbia (goods and services imports) |
 | Current account, last 4Q | -4.15 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -4.1 % GDP | 2026E | National Bank of Serbia / IMF |
-| REER z-score (10y) | 1.37 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| REER z-score (10y) | 1.31 sd | derived | latest 2026-09 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -1.4 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 43.3 % GDP | Aug-26 | Public Debt Administration (javnidug.gov.rs) |
 | Fiscal balance | -3.25 % GDP | 2026 target (midpoint of 3.0-3.5% of GDP range) | Ministry of Finance |

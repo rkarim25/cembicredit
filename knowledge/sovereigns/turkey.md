@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -17,7 +17,7 @@ _Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the 
 | Import cover | 5.13 months | 2025 | World Bank WDI |
 | Current account, last 4Q | -38.89 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -2.7 % GDP | 2026 projection (range -2.6 to -2.8, midpoint) | TCMB, Jul-26 |
-| REER z-score (10y) | 0.31 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| REER z-score (10y) | 0.35 sd | derived | latest 2026-09 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 29.5 % GDP | Q2-26 | HMB |
 | Fiscal balance | -5.2 % GDP | FY26 tracking (approximate) | HMB |

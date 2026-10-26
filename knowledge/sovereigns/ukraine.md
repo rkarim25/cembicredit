@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -12,8 +12,8 @@ _Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the 
 | Policy rate | 16 % | Sep-26 | NBU rate decision |
 | Real policy rate | 7.9 % | derived |  |
 | Gross reserves | 47.1 USD bn | 01-Oct-26 | NBU reserves release |
-| Reserves, 12m change | 5.7 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
-| Reserves net of 1y drains | 38.65 USD bn | 2026-08 | IMF reserve template |
+| Reserves, 12m change | 1 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
+| Reserves net of 1y drains | 36.95 USD bn | 2026-09 | IMF reserve template |
 | Import cover | 5.6 months | 01-Oct-26 | NBU reserves release |
 | Current account, last 4Q | -24.81 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -18.9 % GDP | 2026E | IMF WEO |

@@ -4,11 +4,11 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 3.6 % | 2026-05 | IMF CPI database |
+| CPI y/y | 5.19 % | 2026-09 | IMF CPI database |
 | Gross reserves | 2.2 USD bn | 2025-12 | IMF International Liquidity |
 | Reserves, 12m change | 26.1 % | derived | gross reserves incl. gold, 2024-12 to 2025-12 (IMF Internati |
 | Import cover | 3.95 months | 2025 | World Bank WDI |

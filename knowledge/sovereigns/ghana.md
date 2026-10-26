@@ -4,23 +4,23 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 5.2 % | Sep-26 | Ghana Statistical Service |
-| Policy rate | 14 % | Sep-26 | Bank of Ghana MPC, via GNA |
+| CPI y/y | 5.2 % | Sep-26 | GSS |
+| Policy rate | 14 % | Sep-26 | Bank of Ghana MPC via GNA |
 | Real policy rate | 8.8 % | derived |  |
-| Gross reserves | 12 USD bn | Sep-26 | Bank of Ghana via press |
+| Gross reserves | 9.72 USD bn | Jul-26 | IMF International Liquidity |
 | Reserves, 12m change | 11.9 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
-| Import cover | 5.2 months | end-Sep-26 | Bank of Ghana |
+| Import cover | 5 months | Jun-26 | Bank of Ghana via press |
 | Current account, last 4Q | 10.06 USD bn | 2025-Q2 to 2026-Q1 | IMF BOP |
 | Current account | 10.1 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | 1.86 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | 3.3 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 53 % GDP | 2026E | IMF WEO (database/sovereigns/ghana.json) |
-| Fiscal balance | -2.3 % GDP | 2026E | IMF WEO (database/sovereigns/ghana.json) |
-| Real GDP growth | 6 % | Q2-26 | Ghana Statistical Service via press |
+| Government debt | 45 % GDP | Jun-26 | Ministry of Finance 2026 Mid-Year Budget Review via GNA |
+| Fiscal balance | -0.4 % GDP | H1-26 (commitment basis; cash basis -0.8) | Ministry of Finance 2026 Mid-Year Budget Review via GNA |
+| Real GDP growth | 6 % | Q2-26 | Press quoting GSS |
 | Nominal GDP | 118.3 USD bn | 2026E | IMF WEO |
 | Bank NPL ratio | 16.06 % | 2026-Q2 | IMF FSI |
 | Bank capital ratio | 20.45 % | 2026-Q2 | IMF FSI |

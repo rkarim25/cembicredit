@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -13,11 +13,11 @@ _Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the 
 | Real policy rate | 0.54 % | derived |  |
 | Gross reserves | 295.48 USD bn | 2026-09 | IMF International Liquidity |
 | Reserves, 12m change | 12.6 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
-| Reserves net of 1y drains | 277.21 USD bn | 2026-08 | IMF reserve template |
+| Reserves net of 1y drains | 267.39 USD bn | 2026-09 | IMF reserve template |
 | Import cover | 5.86 months | 2025 | World Bank WDI |
 | Current account, last 4Q | -13.87 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -1.1 % GDP | 2026E | IMF WEO |
-| REER z-score (10y) | 1.5 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| REER z-score (10y) | 1.41 sd | derived | latest 2026-09 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -1.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 65.7 % GDP | 2026E | IMF WEO |
 | Fiscal balance | -6.7 % GDP | 2026E | IMF WEO |

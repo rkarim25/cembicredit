@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -12,12 +12,12 @@ _Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the 
 | Policy rate | 7.25 % | Sep-26 | SARB repo rate (Briefly, 24-Sep-26; EWN, 23-Sep-26) |
 | Real policy rate | 2.9 % | derived |  |
 | Gross reserves | 75.96 USD bn | Aug-26 | IMF international reserves template |
-| Reserves, 12m change | 7.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Reserves, 12m change | 8.2 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Reserves net of 1y drains | 74.31 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 5.8 months | Sep-26 | SARB (tied to the $63.5B headline reserve definition) |
 | Current account, last 4Q | -1.32 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -1.6 % GDP | Sep-26 | SARB |
-| REER z-score (10y) | 1.23 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| REER z-score (10y) | 1.04 sd | derived | latest 2026-09 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -0.9 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 77 % GDP | end-Mar-25 | IMF Article IV press release 26/039 |
 | Fiscal balance | -4 % GDP | FY26/27 (consolidated, Budget 2026) | Times Live / Business Day on Budget 2026 |

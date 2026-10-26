@@ -4,13 +4,13 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 2.93 % | 2026-08 | IMF CPI database |
-| Gross reserves | 6.67 USD bn | 2026-03 | IMF International Liquidity |
-| Reserves, 12m change | 86.4 % | derived | gross reserves incl. gold, 2025-03 to 2026-03 (IMF Internati |
+| Gross reserves | 3.08 USD bn | 2026-08 | IMF International Liquidity |
+| Reserves, 12m change | -29.4 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
 | Import cover | 2 months | 2025 | Central Bank of Bahrain / IMF (approx. two months of prospec |
 | Current account, last 4Q | 2.28 USD bn | 2024-Q1 to 2024-Q4 | IMF BOP |
 | Current account | 3.9 % GDP | 2026E | IMF WEO |

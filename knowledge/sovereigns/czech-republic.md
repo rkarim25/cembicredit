@@ -4,20 +4,20 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 1.92 % | 2026-08 | IMF CPI database |
+| CPI y/y | 2.51 % | 2026-09 | IMF CPI database |
 | Policy rate | 3.75 % | 2026-09 | BIS |
-| Real policy rate | 1.83 % | derived |  |
-| Gross reserves | 184.56 USD bn | 2026-08 | IMF International Liquidity |
-| Reserves, 12m change | 11 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Real policy rate | 1.24 % | derived |  |
+| Gross reserves | 180.1 USD bn | 2026-09 | IMF International Liquidity |
+| Reserves, 12m change | 5.4 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Reserves net of 1y drains | 171.99 USD bn | 2026-09 | IMF reserve template |
 | Import cover | 7.64 months | 2025 | World Bank WDI |
 | Current account, last 4Q | 0.21 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -1.5 % GDP | 2026E | IMF WEO |
-| REER z-score (10y) | 1.35 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| REER z-score (10y) | 1.21 sd | derived | latest 2026-09 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | -1.8 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 46.4 % GDP | 2026E | IMF WEO |
 | Fiscal balance | -2.3 % GDP | 2026E | IMF WEO |

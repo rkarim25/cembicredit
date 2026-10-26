@@ -4,13 +4,13 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 10.26 % | 2026-09 | IMF CPI database |
-| Gross reserves | 27.99 USD bn | 2026-08 | IMF International Liquidity |
-| Reserves, 12m change | 22.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
+| Gross reserves | 31.58 USD bn | 2026-09 | IMF International Liquidity |
+| Reserves, 12m change | 34.7 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Import cover | 3.75 months | 2025 | World Bank WDI |
 | Current account, last 4Q | -0.14 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -0.4 % GDP | 2026E | IMF WEO |
@@ -20,8 +20,8 @@ _Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the 
 | Fiscal balance | -3.2 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 3.6 % | 2026E | IMF WEO |
 | Nominal GDP | 407.79 USD bn | 2025E | IMF WEO |
-| Bank NPL ratio | 5.24 % | 2026-Q1 | IMF FSI |
-| Bank capital ratio | 18.64 % | 2026-Q1 | IMF FSI |
+| Bank NPL ratio | 4.85 % | 2026-Q2 | IMF FSI |
+| Bank capital ratio | 19.56 % | 2026-Q2 | IMF FSI |
 
 Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_reserves_usd_bn, gross_reserves_usd_bn, reer_imf_2010, reserves_ex_gold_usd_bn.
 

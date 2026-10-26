@@ -4,7 +4,7 @@ _Page created 09-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 26-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -13,7 +13,7 @@ _Auto data snapshot, 23-Oct-26: latest sourced values from the data record; the 
 | Reserves, 12m change | -0.8 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
 | Import cover | 5.2 months | 2025 | World Bank WDI via repo data record |
 | Current account | 11.4 % GDP | 2026E | IMF WEO via repo data record |
-| REER z-score (10y) | -1.12 sd | derived | latest 2026-08 vs trailing 120-month mean (BIS real broad EE |
+| REER z-score (10y) | 0.1 sd | derived | latest 2026-09 vs trailing 120-month mean (BIS real broad EE |
 | Terms of trade, 12m change | 13.2 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 31.4 % GDP | 2026E | IMF WEO via repo data record |
 | Fiscal balance | 4.9 % GDP | 2026E | IMF WEO via repo data record |
