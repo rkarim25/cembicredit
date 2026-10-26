@@ -41,6 +41,10 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Fitch upgraded South Africa to BB from BB-, outlook Stable (bizcommunity; National Treasury statement, 05-Jun-26) [16-Oct-26]
 - S&P affirmed BB foreign-currency / BB+ local-currency with a Positive outlook (IOL, 30-May-26) [16-Oct-26]
 - Moody's Ba2 with outlook changed to Positive in May-26, a week before the S&P action (IOL, 30-May-26) [16-Oct-26]
+- S&P upgraded South Africa to BB in Nov-25 with a Positive outlook, stated in Jan-26 it would resolve the outlook broadly within a year, and affirmed BB FC / BB+ LC Positive on 29-May-26 (fi-desk; IOL, 30-Jan-26 and 30-May-26; National Treasury statement, 29-May-26) [26-Oct-26]
+- Moody's raised its outlook on Ba2 to Positive, reported 23-May-26 (Business Day, 23-May-26) [26-Oct-26]
+- Moody's said on 14-Oct-26 that South Africa could be upgraded if fiscal performance continues to improve, and that it upgrades about 60% of positive-outlook sovereigns (Engineering News, 14-Oct-26) [26-Oct-26]
+- Fitch upgraded South Africa to BB from BB-, outlook Stable, on 05-Jun-26 (Engineering News, 08-Jun-26; National Treasury statement) [26-Oct-26]
 
 ## 1. External position
 - Gross official foreign exchange reserves stood at $63.5B, providing 5.8 months of import cover (SARB, Sep-26) [08-Oct-26]
@@ -48,12 +52,18 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Reserves, Aug-26: ex-gold $57.96B, gold $18.0B, gross incl. gold $75.96B, +7.8% over 12 months (IMF International Liquidity, Aug-26) [08-Oct-26]
 - Commodity terms-of-trade index -0.9% over 12 months to May-26 (IMF CTOT, May-26) [08-Oct-26]
 - Contingent reserve drains $4.58B in Aug-26 against $1.82B in Jul-26 (IMF reserve template, Aug-26) [16-Oct-26]
+- Contingent reserve drains $4.58B in Aug-26 against $1.82B in Jul-26 (IMF reserve template, Aug-26) [26-Oct-26]
 ## 2. Fiscal position
 - Consolidated budget deficit projected at 4.5% of GDP for FY25/26 and 3.8% of GDP for FY26/27 (National Treasury MTBPS, 2026) [08-Oct-26]
 - Gross debt-to-GDP ratio projected to peak between 75.5% and 77.2% of GDP as primary budget surplus is maintained (National Treasury, Jun-26) [08-Oct-26]
 - Budget 2026 main-budget primary surplus: 0.9% (FY25/26), 1.6% (FY26/27), 1.9% (FY27/28), 2.3% (FY28/29) of GDP (Times Live, 25-Feb-26) [16-Oct-26]
 - Budget 2026 consolidated deficit: 4.5% (FY25/26), 4.0% (FY26/27), 3.1% (FY28/29); debt peak 78.9% in FY25/26, 76.5% by FY28/29 (Times Live, 25-Feb-26) [16-Oct-26]
 - Expected MTBPS revenue overrun of up to R50bn from mining (BusinessTech, Oct-26) [16-Oct-26]
+- MTBPS 21-Oct-26: gross debt 78.4% of GDP in FY25/26, 78.2% in FY26/27, 76.6% in FY29/30; deficit 3.9% in FY26/27, 2.5% in FY29/30; primary surplus 1.7% in FY26/27 (IOL, 21-Oct-26; EWN, 21-Oct-26; press summaries, not the Treasury tables) [26-Oct-26]
+- MTBPS raised non-interest spending by R45bn with R38.1bn of planned savings over the medium term, and debt service by R9bn for FY26/27 (IOL, 21-Oct-26) [26-Oct-26]
+- Debt service R420.6bn in FY25/26, 21% of revenue; revenue overrun estimated at R50bn–R70bn (Times Live, 17-Oct-26) [26-Oct-26]
+- MTBPS proposes a principles-based fiscal anchor to be legislated in 2027 (EWN, 21-Oct-26) [26-Oct-26]
+- Moody's estimates the debt-stabilising primary surplus at about 1.5% of GDP and forecasts 1.8% in 2027 (Bloomberg via press, Oct-26) [26-Oct-26]
 ## 3. Monetary and financial
 - REVIEW NOTE [08-Oct-26]: first run was Gemini-only with self-review. Two figures conflict with levels the reviewer knows from 2025 (a SARB hike to 7.25% in Sep-26 after a cutting cycle; gold at $2,580/oz). Treat the Sep-26 policy-rate move and the commodity levels as unverified until the [BBG] items are answered or a two-model run confirms them.
 - SARB MPC repo rate raised to 7.25% on 23-Sep-26 with headline CPI printing at 4.4% YoY in August 2026, delivering an ex-ante real policy rate of +285 bps (SARB / Stats SA, 23-Sep-26) [08-Oct-26]
@@ -63,13 +73,18 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Banking system 2025-Q2: CAR 16.06%, Tier 1 14.38%, NPL 4.51%, provisions/NPL 47.85%, ROE 16.9%, FX open position 0.42% of capital (IMF FSI, 2025-Q2) [08-Oct-26]
 - SARB raised repo 25bp to 7.25% unanimously on 23/24-Sep-26; prime 10.75% (Briefly, 24-Sep-26; EWN, 23-Sep-26) [16-Oct-26]
 - SARB CPI forecast above 5% in late 2026 and early 2027, towards 3% by late 2027 (press on SARB statement, Sep-26) [16-Oct-26]
+- CPI 4.5% y/y in Sep-26, transport 10.8% (SAnews, Oct-26) [26-Oct-26]
+- SARB raised repo 25bp to 7.25% unanimously on 23/24-Sep-26; prime 10.75% (Briefly, 24-Sep-26; EWN, 23-Sep-26) [26-Oct-26]
+- Inflation target 3.0% adopted 12-Nov-25 (Focus Economics/EWN, Nov-25) [26-Oct-26]
 ## 4. Growth and structure
 - Real GDP growth 1% in 2026E; nominal GDP $480B in 2026E (IMF WEO, 2026) [08-Oct-26]
 - Q2-26 real GDP -0.2% q/q after +0.4% in Q1; mining -3.0% q/q (CareEdge, 28-Sep-26) [16-Oct-26]
+- MTBPS 2026 growth forecast 1.2% (from 1.6% in Feb-26) and 1.6% for 2027 (IOL, 21-Oct-26) [26-Oct-26]
 ## 5. Institutions, politics, willingness
 - Government of National Unity (GNU) formed between ANC, DA, and IFP following May 2024 elections, delivering policy consensus and ending loadshedding for >170 days (Presidency of South Africa, Jun-26) [08-Oct-26]
 ## 6. IMF and official sector
 - 2025 Article IV concluded 10-Feb-26: 2026 growth 1.4%, medium-term 1.8%, debt 77% of GDP at end-Mar-25 (IMF, 10-Feb-26) [16-Oct-26]
+- 2025 Article IV concluded 10-Feb-26; no IMF programme (IMF, 10-Feb-26) [26-Oct-26]
 ## 7. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
 - 10-year benchmark government bond SAGB R2035 yielding ~9.15%, providing +4.55% ex-post real yield against trailing inflation (GBI-EM Desk, Oct-26) [08-Oct-26]
@@ -82,6 +97,9 @@ _(levels from Reza via [BBG]; never from memory)_
 - Day-of-week check: 21-Nov-26 is a Saturday and not a valid MPC date; the November meeting date is to be confirmed (computed, 08-Oct-26) [08-Oct-26]
 - 21-Oct-26: Medium-Term Budget Policy Statement (Parliament committee notice; National Treasury lockup advisory, Oct-26) [16-Oct-26]
 - 19-Nov-26: SARB MPC announcement reported in search results; 21-Nov-26 is a Saturday and not a valid date (search summary, Oct-26; computed) [16-Oct-26]
+- 21-Oct-26: Medium-Term Budget Policy Statement delivered by Finance Minister Godongwana (IOL, EWN, AmCham, 21-Oct-26) [26-Oct-26]
+- 27-Nov-26: Moody's and S&P scheduled reviews of South Africa; 11-Dec-26: Fitch (Bloomberg via press, Oct-26) [26-Oct-26]
+- 19-Nov-26: SARB MPC announcement reported in search results; 21-Nov-26 is a Saturday and not a valid date (search summary, Oct-26; computed) [26-Oct-26]
 ## 10. Questions for the finance ministry / IMF mission
 
 ## Data sources
@@ -133,4 +151,24 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [Monetary] SARB CPI forecast above 5% in late 2026 and early 2027, towards 3% by late 2027 (press on SARB statement, Sep-26)
 - [Growth] Q2-26 real GDP -0.2% q/q after +0.4% in Q1; mining -3.0% q/q (CareEdge, 28-Sep-26)
 - [IMF] 2025 Article IV concluded 10-Feb-26: 2026 growth 1.4%, medium-term 1.8%, debt 77% of GDP at end-Mar-25 (IMF, 10-Feb-26)
+- [External] Contingent reserve drains $4.58B in Aug-26 against $1.82B in Jul-26 (IMF reserve template, Aug-26)
+
+### 26-Oct-26 (run 2026-10-26_1200_south-africa-sovereign-credit)
+- [Calendar] 21-Oct-26: Medium-Term Budget Policy Statement delivered by Finance Minister Godongwana (IOL, EWN, AmCham, 21-Oct-26)
+- [Calendar] 27-Nov-26: Moody's and S&P scheduled reviews of South Africa; 11-Dec-26: Fitch (Bloomberg via press, Oct-26)
+- [Calendar] 19-Nov-26: SARB MPC announcement reported in search results; 21-Nov-26 is a Saturday and not a valid date (search summary, Oct-26; computed)
+- [Snapshot] S&P upgraded South Africa to BB in Nov-25 with a Positive outlook, stated in Jan-26 it would resolve the outlook broadly within a year, and affirmed BB FC / BB+ LC Positive on 29-May-26 (fi-desk; IOL, 30-Jan-26 and 30-May-26; National Treasury statement, 29-May-26)
+- [Snapshot] Moody's raised its outlook on Ba2 to Positive, reported 23-May-26 (Business Day, 23-May-26)
+- [Snapshot] Moody's said on 14-Oct-26 that South Africa could be upgraded if fiscal performance continues to improve, and that it upgrades about 60% of positive-outlook sovereigns (Engineering News, 14-Oct-26)
+- [Snapshot] Fitch upgraded South Africa to BB from BB-, outlook Stable, on 05-Jun-26 (Engineering News, 08-Jun-26; National Treasury statement)
+- [Fiscal] MTBPS 21-Oct-26: gross debt 78.4% of GDP in FY25/26, 78.2% in FY26/27, 76.6% in FY29/30; deficit 3.9% in FY26/27, 2.5% in FY29/30; primary surplus 1.7% in FY26/27 (IOL, 21-Oct-26; EWN, 21-Oct-26; press summaries, not the Treasury tables)
+- [Fiscal] MTBPS raised non-interest spending by R45bn with R38.1bn of planned savings over the medium term, and debt service by R9bn for FY26/27 (IOL, 21-Oct-26)
+- [Fiscal] Debt service R420.6bn in FY25/26, 21% of revenue; revenue overrun estimated at R50bn–R70bn (Times Live, 17-Oct-26)
+- [Fiscal] MTBPS proposes a principles-based fiscal anchor to be legislated in 2027 (EWN, 21-Oct-26)
+- [Growth] MTBPS 2026 growth forecast 1.2% (from 1.6% in Feb-26) and 1.6% for 2027 (IOL, 21-Oct-26)
+- [Monetary] CPI 4.5% y/y in Sep-26, transport 10.8% (SAnews, Oct-26)
+- [Monetary] SARB raised repo 25bp to 7.25% unanimously on 23/24-Sep-26; prime 10.75% (Briefly, 24-Sep-26; EWN, 23-Sep-26)
+- [Monetary] Inflation target 3.0% adopted 12-Nov-25 (Focus Economics/EWN, Nov-25)
+- [Fiscal] Moody's estimates the debt-stabilising primary surplus at about 1.5% of GDP and forecasts 1.8% in 2027 (Bloomberg via press, Oct-26)
+- [IMF] 2025 Article IV concluded 10-Feb-26; no IMF programme (IMF, 10-Feb-26)
 - [External] Contingent reserve drains $4.58B in Aug-26 against $1.82B in Jul-26 (IMF reserve template, Aug-26)
