@@ -81696,19 +81696,19 @@ window.SOVEREIGNS = [
   "region": "Sub-Saharan Africa",
   "group": "Sub-Saharan Africa",
   "ceemea": true,
-  "asof": "16-Oct-26",
+  "asof": "26-Oct-26",
   "fx_regime": "managed float",
-  "commodity": "Crude oil exports and refined fuel imports; Brent is the price that matters (S&P May-26 upgrade assumed Brent USD 100 for the rest of 2026 against IMF reference USD 82)",
+  "commodity": "Crude oil is the main export and fiscal and FX driver; Brent against the budget benchmark matters. S&P assumed Brent at USD 100 for the rest of 2026, the IMF Oct-26 WEO assumes USD 95.74 average for 2026 and USD 87.39 for 2027. Upstream output was 1.68M bpd in Aug-26.",
   "ratings": {
    "sp": {
     "rating": "B",
-    "outlook": "Stable",
+    "outlook": null,
     "date": "15-May-26"
    },
    "fitch": {
     "rating": "B",
-    "outlook": "Stable",
-    "date": "10-Apr-26"
+    "outlook": "Positive",
+    "date": "09-Oct-26"
    },
    "moodys": {
     "rating": "B3",
@@ -81726,47 +81726,47 @@ window.SOVEREIGNS = [
    "asof": "01-Jun-26"
   },
   "politics": {
-   "next_election": null,
-   "note": "2027 election cycle referenced as a gap; date and detail not in brief",
-   "source": "Adjudicated document, Gaps section",
-   "asof": "08-Oct-26"
+   "next_election": "16-Jan-27 (presidential); 06-Feb-27 (governorship)",
+   "note": "APC zones backed Tinubu as sole candidate; dates rest on press only. Fitch cited reform continuity ahead of the election.",
+   "source": "AllAfrica 27-Feb-26; Semafor 16-Feb-26; AllAfrica 26-Mar-26",
+   "asof": "27-Feb-26"
   },
   "ind": {
-   "cpi_latest_yoy_pct": 15.39,
+   "cpi_latest_yoy_pct": 14.63,
    "policy_rate_pct": 23.0,
    "gross_reserves_usd_bn": 55.07,
    "gov_debt_pct_gdp": 32.3,
-   "interest_pct_revenue": 55.0,
-   "next_eurobond_maturity": "28-Nov-27",
-   "import_cover_months": 9.2,
+   "interest_pct_revenue": 53.7,
+   "next_eurobond_maturity": "28-Nov-27, USD 1.50bn 6.500% bullet",
+   "import_cover_months": 6.3,
    "fdi_net_pct_gdp": 1.377,
    "real_gdp_growth_pct": 4.1,
-   "current_account_pct_gdp": 5.8,
+   "current_account_pct_gdp": 6.4,
    "fiscal_balance_pct_gdp": -4.4,
    "nominal_gdp_usd_bn": 377.4,
    "eurobonds_outstanding_usd_bn": 15.12,
    "current_account_4q_usd_bn": 15.61,
    "external_debt_pct_gdp": 14.4,
-   "ex_ante_real_rate_pct": 7.61,
+   "ex_ante_real_rate_pct": 8.37,
    "reer_z_10y": -0.51,
    "reer_latest": 93.2855,
    "reserves_12m_pct": 30.8,
    "ctot_12m_pct": 4.6
   },
   "src": {
-   "cpi_latest_yoy_pct": "NBS, Consumer Price Index Report August 2026 15-Sep-26",
+   "cpi_latest_yoy_pct": "NBS via Legit.ng, Tekedia, VON 15-Oct-26",
    "policy_rate_pct": "CBN, 307th MPC Communiqu\u00e9 22-Sep-26",
-   "gross_reserves_usd_bn": "CBN via Nairametrics corrigendum 14-Oct-26 | CBN headline gross, as corrected 14-Oct-26 (gold treatment not stated; IMF series incl. gold $54.85B Aug-26, ex gold $51.78B)",
-   "gov_debt_pct_gdp": "DMO, Nigeria Public Debt Stock as at 30-Jun-26 25-Sep-26 | DMO total public debt / GDP; federal vs total public label unclear",
-   "interest_pct_revenue": "IMF Article IV concluding statement (lower bound, '>55%' of federal retained revenue; basis unresolved) 01-Jun-26",
-   "next_eurobond_maturity": "DMO (via repo record; not re-checked against DMO bond list) Sep-26",
-   "import_cover_months": "Adjudicated prior document (Medium confidence) 16-Oct-26",
+   "gross_reserves_usd_bn": "CBN via Nairametrics corrigendum 14-Oct-26 | gross, CBN figure after downward revision from about 58 (corrigendum)",
+   "gov_debt_pct_gdp": "DMO, Nigeria Public Debt Stock 25-Sep-26 | total public debt (federal, states and FCT) per DMO; label unclear in source",
+   "interest_pct_revenue": "IMF Article IV via BusinessDay; federal or consolidated basis unresolved 01-Jun-26",
+   "next_eurobond_maturity": "DMO Sep-26",
+   "import_cover_months": "Fitch via Nairametrics 10-Oct-26",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "IMF WEO Apr-26",
-   "current_account_pct_gdp": "IMF WEO Apr-26",
-   "fiscal_balance_pct_gdp": "IMF WEO Apr-26",
-   "nominal_gdp_usd_bn": "IMF WEO Apr-26",
-   "eurobonds_outstanding_usd_bn": "DMO, Nigeria Public Debt Stock as at 30-Jun-26 25-Sep-26",
+   "real_gdp_growth_pct": "IMF WEO 13-Oct-26",
+   "current_account_pct_gdp": "Fitch via Nairametrics 10-Oct-26",
+   "fiscal_balance_pct_gdp": "IMF WEO 13-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 13-Oct-26",
+   "eurobonds_outstanding_usd_bn": "DMO, Nigeria Public Debt Stock (27.7% of external debt) 25-Sep-26",
    "current_account_4q_usd_bn": "IMF BOP 26-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "external_debt_pct_gdp": "DMO Nigeria Public Debt Stock as at 30-Jun-26; IMF WEO (computed) 25-Sep-26 | Computed: public external debt $54.52B (DMO, 30-Jun-26) / 2026E IMF WEO nominal GDP $377.4B; mixed periods, public sector only",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
@@ -81776,7 +81776,7 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
   },
   "derived": {
-   "ex_ante_real_rate_pct": 7.61,
+   "ex_ante_real_rate_pct": 8.37,
    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
    "reer_z_10y": -0.51,
    "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
@@ -81801,6 +81801,10 @@ window.SOVEREIGNS = [
    },
    "nominal_gdp_usd_bn": {
     "2026E": 377.4
+   },
+   "interest_pct_revenue": {
+    "2026E": 53.7,
+    "2027F": 52.4
    }
   },
   "hist": {
@@ -84053,16 +84057,16 @@ window.SOVEREIGNS = [
    "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
   },
   "asof_ind": {
-   "cpi_latest_yoy_pct": "Aug-26",
+   "cpi_latest_yoy_pct": "Sep-26",
    "policy_rate_pct": "Sep-26",
    "gross_reserves_usd_bn": "09-Oct-26",
-   "gov_debt_pct_gdp": "Jun-26",
-   "interest_pct_revenue": "2026",
+   "gov_debt_pct_gdp": "30-Jun-26",
+   "interest_pct_revenue": "2026 (projection)",
    "next_eurobond_maturity": "Sep-26",
-   "import_cover_months": "16-Oct-26",
+   "import_cover_months": "end-2026F (months of current external payments, Fitch definition)",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
-   "current_account_pct_gdp": "2026E",
+   "current_account_pct_gdp": "2026F",
    "fiscal_balance_pct_gdp": "2026E",
    "nominal_gdp_usd_bn": "2026E",
    "eurobonds_outstanding_usd_bn": "30-Jun-26",
@@ -84075,8 +84079,8 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "13",
-   "updated": "16-Oct-26",
+   "open_items": "14",
+   "updated": "26-Oct-26",
    "status": "Draft"
   }
  },

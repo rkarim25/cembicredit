@@ -38,6 +38,8 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - Ratings: S&P B/Stable (15-May-26), Fitch B/Stable (10-Apr-26), Moody's B3/Positive (Aug-26) (S&P, Fitch, Moody's, 2026) [08-Oct-26]
 - Total public debt stood at ₦166.79T ($120.93B) as of 30-Jun-26, comprising ₦91.59T domestic and $54.52B external (DMO, 25-Sep-26) [08-Oct-26]
 - Moody's affirmed B3 and moved the outlook to positive on 29-Aug-26 (Nairametrics, 29-Aug-26) [16-Oct-26]
+- Fitch affirmed Nigeria's Long-Term IDR at B and revised the outlook to Positive from Stable on 09-Oct-26 (Nairametrics, 10-Oct-26; ThisDay, 11-Oct-26) [26-Oct-26]
+- Fitch moved the outlooks on 11 Nigerian banks to Positive on 15–16-Oct-26 (Nairametrics, 15-Oct-26; ThisDay, 16-Oct-26) [26-Oct-26]
 
 ## 1. External position
 - Gross foreign exchange reserves were $54.98B as of 05-Oct-26 (CBN, 05-Oct-26) [08-Oct-26]
@@ -50,14 +52,17 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - IMF CPI-based REER 93.29 in Aug-26, 10-year z-score -0.51 (IMF, Aug-26) [08-Oct-26]
 - ₦ per USD 1,352.97 in Aug-26 (BIS, Aug-26) [08-Oct-26]
 - Gross reserves $55.07B at 09-Oct-26; the CBN revised an early-October print of about $58B down on 14-Oct-26 (Nairametrics citing CBN, 14-Oct-26) [16-Oct-26]
+- Fitch: gross reserves $54.9B at 25-Sep-26 against $32B in mid-April 2024; 2026 current account surplus projected at 6.4% of GDP; reserve cover 6.3 months of current external payments by end-2026 (Nairametrics, 10-Oct-26) [26-Oct-26]
 ## 2. Fiscal position
 - Federal government debt-to-GDP stood at ~32.3% as of end-June 2026 (IMF, 01-Jun-26) [08-Oct-26]
 - Federal interest payments absorb over 55% of retained budget revenue (IMF Article IV, 01-Jun-26) [08-Oct-26]
 - IMF WEO 2026E: fiscal balance -4.4% of GDP, real GDP growth 4.1%, nominal GDP $377.4B (IMF WEO, 2026E) [08-Oct-26]
+- IMF Article IV projects interest at 53.7% of revenue in 2026 and 52.4% in 2027, and public external debt rising from $51.9B in 2025 to $72.6B in 2027 (IMF Article IV, 01-Jun-26, via BusinessDay) [26-Oct-26]
 ## 3. Monetary and financial
 - CBN reset Monetary Policy Rate (MPR) to 23.00% (+50/-300 bps corridor) on 22-Sep-26 (CBN, 22-Sep-26) [08-Oct-26]
 - Headline CPI decelerated to 15.39% YoY (0.71% MoM) in August 2026, yielding an ex-ante real policy rate of +761 bps (NBS, 15-Sep-26) [08-Oct-26]
 - IMF-reported policy rate was 27.0% from Nov-25 to Apr-26 (IMF data portal, Apr-26) [08-Oct-26]
+- CPI 14.63% y/y in Sep-26 (14.63% vs 15.39% Aug-26), 0.06% m/m; food 19.59% y/y; core 12.95% (NBS via Legit.ng, Tekedia, VON, 15-Oct-26) [26-Oct-26]
 ## 4. Growth and structure
 ## 5. Institutions, politics, willingness
 ## 6. IMF and official sector
@@ -67,10 +72,12 @@ _(levels from Reza via [BBG]; never from memory)_
 - Bank soundness, deposit takers, Q2-26: CAR 13.15%, NPL 10.82%, provisions/NPL 64.11%, ROE 28.11% (IMF FSI, 2026-Q2) [08-Oct-26]
 - Nov-25 Eurobond tranche split is disputed: $1.15B 2036/$1.20B 2046 (DMO via repo) versus $1.25B/$1.10B (press); total $2.35B (gazettengr.com, Nov-25) [16-Oct-26]
 - S&P's May-26 upgrade assumed Brent at USD 100 for the rest of 2026 (AllAfrica, 19-May-26) [16-Oct-26]
+- IMF Oct-26 WEO oil assumption: USD 95.74 average in 2026, USD 87.39 in 2027 (Bernama and others summarising the IMF WEO, 13-Oct-26) [26-Oct-26]
 ## 8. Restructuring and recovery (if relevant)
 ## 9. Catalyst calendar
 - 24-Nov-26: Central Bank of Nigeria 308th Monetary Policy Committee meeting (CBN calendar, Sep-26) [08-Oct-26]
 - 28-Nov-27: $1.50B 6.500% Eurobond maturity bullet (DMO, Sep-26) [08-Oct-26]
+- 16-Jan-27: presidential election; 06-Feb-27: governorship elections (AllAfrica, 27-Feb-26; Semafor, 16-Feb-26) [26-Oct-26]
 ## 10. Questions for the finance ministry / IMF mission
 
 ## Data sources
@@ -113,3 +120,12 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [Snapshot] Moody's affirmed B3 and moved the outlook to positive on 29-Aug-26 (Nairametrics, 29-Aug-26)
 - [Market] Nov-25 Eurobond tranche split is disputed: $1.15B 2036/$1.20B 2046 (DMO via repo) versus $1.25B/$1.10B (press); total $2.35B (gazettengr.com, Nov-25)
 - [Market] S&P's May-26 upgrade assumed Brent at USD 100 for the rest of 2026 (AllAfrica, 19-May-26)
+
+### 26-Oct-26 (run 2026-10-26_1000_nigeria-sovereign-credit)
+- [Snapshot] Fitch affirmed Nigeria's Long-Term IDR at B and revised the outlook to Positive from Stable on 09-Oct-26 (Nairametrics, 10-Oct-26; ThisDay, 11-Oct-26)
+- [Snapshot] Fitch moved the outlooks on 11 Nigerian banks to Positive on 15–16-Oct-26 (Nairametrics, 15-Oct-26; ThisDay, 16-Oct-26)
+- [External] Fitch: gross reserves $54.9B at 25-Sep-26 against $32B in mid-April 2024; 2026 current account surplus projected at 6.4% of GDP; reserve cover 6.3 months of current external payments by end-2026 (Nairametrics, 10-Oct-26)
+- [Monetary] CPI 14.63% y/y in Sep-26 (14.63% vs 15.39% Aug-26), 0.06% m/m; food 19.59% y/y; core 12.95% (NBS via Legit.ng, Tekedia, VON, 15-Oct-26)
+- [Fiscal] IMF Article IV projects interest at 53.7% of revenue in 2026 and 52.4% in 2027, and public external debt rising from $51.9B in 2025 to $72.6B in 2027 (IMF Article IV, 01-Jun-26, via BusinessDay)
+- [Calendar] 16-Jan-27: presidential election; 06-Feb-27: governorship elections (AllAfrica, 27-Feb-26; Semafor, 16-Feb-26)
+- [Market] IMF Oct-26 WEO oil assumption: USD 95.74 average in 2026, USD 87.39 in 2027 (Bernama and others summarising the IMF WEO, 13-Oct-26)
