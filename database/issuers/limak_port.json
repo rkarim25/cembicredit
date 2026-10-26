@@ -557,7 +557,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/LMKPRT",
-    "days_to_earnings": 17
+    "days_to_earnings": 16
   },
   "management_questions": [
     {
@@ -944,6 +944,19 @@
       "date": "2026-10-25",
       "period_name": "2026-10-25",
       "timestamp": "2026-10-25T05:17:54.925017",
+      "rating": "B / B3",
+      "price": 98.5,
+      "ytm": 7.85,
+      "spread_bp": 345,
+      "net_leverage": 3.08,
+      "ebitda": 78.0,
+      "fcf": 7.5,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-26",
+      "period_name": "2026-10-26",
+      "timestamp": "2026-10-26T05:18:32.754603",
       "rating": "B / B3",
       "price": 98.5,
       "ytm": 7.85,

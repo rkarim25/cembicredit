@@ -454,7 +454,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/PEARL",
-    "days_to_earnings": 17
+    "days_to_earnings": 16
   },
   "management_questions": [
     {
@@ -641,6 +641,19 @@
       "date": "2026-10-25",
       "period_name": "2026-10-25",
       "timestamp": "2026-10-25T05:17:54.925017",
+      "rating": "B- (Implied) / CCC+ (Geopolitical Floor)",
+      "price": 103.5,
+      "ytm": 11.45,
+      "spread_bp": 625,
+      "net_leverage": 1.14,
+      "ebitda": 415.0,
+      "fcf": 165.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-26",
+      "period_name": "2026-10-26",
+      "timestamp": "2026-10-26T05:18:32.754603",
       "rating": "B- (Implied) / CCC+ (Geopolitical Floor)",
       "price": 103.5,
       "ytm": 11.45,
