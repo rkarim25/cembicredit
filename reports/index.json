@@ -1,5 +1,14 @@
 [
   {
+    "topic": "Tullow Oil",
+    "slug": "tullow-oil",
+    "updated": "27-Oct-26",
+    "status": "Draft",
+    "open_items": 9,
+    "run": "2026-10-27_0800_tullow-oil",
+    "path": "reports/tullow-oil.md"
+  },
+  {
     "topic": "Metinvest Barclays report and model",
     "slug": "metinvest-barclays-report-and-model",
     "updated": "26-Oct-26",
@@ -160,15 +169,6 @@
     "open_items": 11,
     "run": "2026-10-19_1000_ukraine-sovereign-credit",
     "path": "reports/ukraine-sovereign-credit.md"
-  },
-  {
-    "topic": "Tullow Oil",
-    "slug": "tullow-oil",
-    "updated": "16-Oct-26",
-    "status": "Draft",
-    "open_items": 8,
-    "run": "2026-10-16_1833_tullow-oil",
-    "path": "reports/tullow-oil.md"
   },
   {
     "topic": "Akbank",
