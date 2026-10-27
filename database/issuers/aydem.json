@@ -558,7 +558,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:30 Istanbul",
     "ir_webcast_url": "https://www.aydemyenilenebilir.com.tr/investor-relations",
-    "days_to_earnings": 13
+    "days_to_earnings": 12
   },
   "management_questions": [
     {
@@ -958,6 +958,19 @@
       "date": "2026-10-26",
       "period_name": "2026-10-26",
       "timestamp": "2026-10-26T05:18:32.754603",
+      "rating": "B / B3",
+      "price": 96.5,
+      "ytm": 8.95,
+      "spread_bp": 455,
+      "net_leverage": 4.11,
+      "ebitda": 190.0,
+      "fcf": -82.6,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-27",
+      "period_name": "2026-10-27",
+      "timestamp": "2026-10-27T05:17:47.016552",
       "rating": "B / B3",
       "price": 96.5,
       "ytm": 8.95,

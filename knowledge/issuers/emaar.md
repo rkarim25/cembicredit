@@ -4,7 +4,7 @@ _Page created 08-Oct-26 from `database/issuers/emaar.json`. Dated, sourced facts
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 26-Oct-26: from the issuer record; quotes are the last stored levels, not live._
+_Auto data snapshot, 27-Oct-26: from the issuer record; quotes are the last stored levels, not live._
 
 - EMAAR 5.15% 2030: price 100.2, YTM 5.15%, spread 95bp (as of 2026-10-09).
 - Rating as recorded: BBB / Baa2.

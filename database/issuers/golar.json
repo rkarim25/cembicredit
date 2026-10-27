@@ -238,7 +238,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/GLNG",
-    "days_to_earnings": 16
+    "days_to_earnings": 15
   },
   "market_history": [
     {
@@ -466,6 +466,19 @@
       "date": "2026-10-26",
       "period_name": "2026-10-26",
       "timestamp": "2026-10-26T05:18:32.754603",
+      "rating": "B2 / B",
+      "price": 99.5,
+      "ytm": 7.85,
+      "spread_bp": 420,
+      "net_leverage": 6.4,
+      "ebitda": 241.0,
+      "fcf": -80.0,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-27",
+      "period_name": "2026-10-27",
+      "timestamp": "2026-10-27T05:17:47.016552",
       "rating": "B2 / B",
       "price": 99.5,
       "ytm": 7.85,

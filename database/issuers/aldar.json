@@ -562,7 +562,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "14:00 Abu Dhabi / 10:00 UK",
     "ir_webcast_url": "https://www.aldar.com/en/investor-relations",
-    "days_to_earnings": 2
+    "days_to_earnings": 1
   },
   "management_questions": [
     {
@@ -955,6 +955,19 @@
       "date": "2026-10-26",
       "period_name": "2026-10-26",
       "timestamp": "2026-10-26T05:18:32.754603",
+      "rating": "BBB- / Baa2",
+      "price": 100.1,
+      "ytm": 5.25,
+      "spread_bp": 105,
+      "net_leverage": 0.51,
+      "ebitda": 1550.0,
+      "fcf": -185.4,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-27",
+      "period_name": "2026-10-27",
+      "timestamp": "2026-10-27T05:17:47.016552",
       "rating": "BBB- / Baa2",
       "price": 100.1,
       "ytm": 5.25,

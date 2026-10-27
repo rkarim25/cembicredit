@@ -557,7 +557,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/DANFER",
-    "days_to_earnings": 16
+    "days_to_earnings": 15
   },
   "management_questions": [
     {
@@ -957,6 +957,19 @@
       "date": "2026-10-26",
       "period_name": "2026-10-26",
       "timestamp": "2026-10-26T05:18:32.754603",
+      "rating": "B / B2",
+      "price": 96.0,
+      "ytm": 11.5,
+      "spread_bp": 715,
+      "net_leverage": 2.77,
+      "ebitda": 650.0,
+      "fcf": -14.9,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-27",
+      "period_name": "2026-10-27",
+      "timestamp": "2026-10-27T05:17:47.016552",
       "rating": "B / B2",
       "price": 96.0,
       "ytm": 11.5,

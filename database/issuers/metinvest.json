@@ -563,7 +563,7 @@
     "confirmation_status": "Estimated",
     "call_time": "13:00 London",
     "ir_webcast_url": "https://metinvestholding.com/en/investors",
-    "days_to_earnings": 22
+    "days_to_earnings": 21
   },
   "management_questions": [
     {
@@ -963,6 +963,19 @@
       "date": "2026-10-26",
       "period_name": "2026-10-26",
       "timestamp": "2026-10-26T05:18:32.754603",
+      "rating": "CCC+",
+      "price": 93.27,
+      "ytm": 14.98,
+      "spread_bp": 1022,
+      "net_leverage": 1.18,
+      "ebitda": 737.0,
+      "fcf": -193.0,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-27",
+      "period_name": "2026-10-27",
+      "timestamp": "2026-10-27T05:17:47.016552",
       "rating": "CCC+",
       "price": 93.27,
       "ytm": 14.98,
