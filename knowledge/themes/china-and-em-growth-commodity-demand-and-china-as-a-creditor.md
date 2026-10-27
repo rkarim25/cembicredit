@@ -23,3 +23,8 @@ _Created by the pipeline on 09-Oct-26. Facts below are dated and sourced; views 
 - [Market] About US$10bn of RMB credit lines pledged to Latin America at the China-CELAC meeting (ProActivo, 2026)
 - [Market] Developing countries made about US$3.9bn a year more in debt payments to China than they received in new lending; net transfers turned negative in 2022–23 (Boston University GDP Center via Reuters, 2025)
 - [External] Poorest 75 countries faced record repayments of about US$22bn to China in 2025 (Lowy Institute, May-25)
+
+### 27-Oct-26 (run 2026-10-27_1000_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
+- [Growth] China 3Q26 GDP +4.5% y/y and January–September +4.6%, against 4.4% consensus (NBS via Mysteel, 19-Oct-26)
+- [Growth] China FAI -7.2% January–September, September retail sales +1.1% y/y, CPI about +0.8% (press summaries of NBS data via FreePressJournal, 19-Oct-26)
+- [External] China September 2026 copper cathode imports 254.6kt (-23.84% y/y); January–September 2.1383mt (-16.34% y/y); cathode exports +81% y/y and anode imports +58% y/y (SMM, Oct-26)
