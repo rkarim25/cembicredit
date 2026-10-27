@@ -8,9 +8,9 @@
     "asof": "09-Oct-26"
   },
   "commodity_exposure": {
-    "value": "Net energy importer; oil and gas import prices drive the current account",
-    "source": "Adjudicated document (TCMB current account, Jul-26)",
-    "asof": "08-Oct-26"
+    "value": "Net energy importer; Brent is the price that matters (Brent 111.11 on 22-Oct-26 widens the current account and drains reserves; S&P named Turkey among the most exposed to the oil shock)",
+    "source": "S&P via fi-desk; Trading Economics",
+    "asof": "22-Oct-26"
   },
   "imf": {
     "programme": null,
@@ -29,10 +29,10 @@
       "asof": "03-Oct-26"
     },
     "policy_rate_pct": {
-      "value": 37.0,
-      "period": "Sep-26",
-      "source": "TCMB 1-week repo rate",
-      "asof": "Sep-26"
+      "value": 36.0,
+      "period": "Oct-26",
+      "source": "TCMB one-week repo rate via H\u00fcrriyet Daily News",
+      "asof": "22-Oct-26"
     },
     "current_account_pct_gdp": {
       "value": -2.7,
@@ -41,11 +41,11 @@
       "asof": "Jul-26"
     },
     "gross_reserves_usd_bn": {
-      "value": 167.4,
-      "definition": "gross incl. gold (FX USD 60.3bn, gold USD 107.1bn)",
-      "period": "week to 02-Oct-26",
-      "source": "TCMB via T\u00fcrkiye Today",
-      "asof": "02-Oct-26"
+      "value": 171.6,
+      "definition": "gross incl. gold (search summary of TCMB weekly data, Medium-Low confidence, unconfirmed against TCMB release)",
+      "period": "15-Oct-26",
+      "source": "TCMB weekly data via web search summary",
+      "asof": "15-Oct-26"
     },
     "short_term_external_debt_usd_bn": {
       "value": 170.7,
@@ -56,22 +56,22 @@
     },
     "external_debt_pct_gdp": {
       "value": 31.8,
-      "definition": "gross external debt USD 539.0bn",
+      "definition": "gross external debt (USD 539.0bn) as % of GDP",
       "period": "30-Jun-26",
-      "source": "HMB",
+      "source": "HMB (Ministry of Treasury and Finance)",
       "asof": "30-Jun-26"
     },
     "gov_debt_pct_gdp": {
       "value": 29.5,
       "definition": "central government debt",
       "period": "Q2-26",
-      "source": "HMB",
+      "source": "HMB (Ministry of Treasury and Finance)",
       "asof": "30-Jun-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": -5.2,
-      "period": "FY26 tracking (approximate)",
-      "source": "HMB",
+      "period": "2026E",
+      "source": "HMB (FY26 deficit tracking about 5.2% of GDP)",
       "asof": "Aug-26"
     },
     "import_cover_months": {
@@ -89,8 +89,8 @@
     },
     "real_gdp_growth_pct": {
       "value": 2.8,
-      "period": "2026E",
-      "source": "Fitch forecast via Voice of Emirates",
+      "period": "2026F",
+      "source": "Fitch projection via H\u00fcrriyet Daily News",
       "asof": "18-Jul-26"
     },
     "nominal_gdp_usd_bn": {
@@ -100,14 +100,14 @@
       "asof": "08-Oct-26"
     },
     "inflation_expectation_12m_pct": {
-      "value": 24.5,
-      "period": "Sep-26 survey",
-      "source": "TCMB market participants survey",
-      "asof": "Sep-26"
+      "value": 23.89,
+      "period": "Oct-26",
+      "source": "TCMB market participants survey via H\u00fcrriyet Daily News (date unconfirmed)",
+      "asof": "Oct-26"
     },
     "gefr_usd_bn": {
       "value": 208,
-      "definition": "CA deficit + external amortisation due in 12m",
+      "definition": "CA deficit + external amortisation due in 12m (approximate)",
       "period": "Jun-26",
       "source": "TCMB/HMB",
       "asof": "Jun-26"
@@ -128,7 +128,7 @@
     },
     "net_reserves_usd_bn": {
       "value": 137.1,
-      "definition": "gross net of predetermined 1y drains (IMF template); not net ex swaps",
+      "definition": "gross reserves net of predetermined 1y drains (IMF international liquidity template); not net ex swaps and banks' FX required reserves",
       "period": "Aug-26",
       "source": "IMF International Liquidity and reserve template",
       "asof": "Aug-26"
@@ -169,20 +169,24 @@
     },
     "nominal_gdp_usd_bn": {
       "2026E": 1640.2
+    },
+    "gross_reserves_usd_bn": {
+      "2026E": 167.0
     }
   },
   "series_sources": {
     "current_account_pct_gdp": "TCMB, Jul-26 (midpoint of 2.6% to 2.8% deficit projection)",
-    "fiscal_balance_pct_gdp": "HMB, Aug-26 (approximate)",
-    "real_gdp_growth_pct": "Fitch via Voice of Emirates, 18-Jul-26",
-    "nominal_gdp_usd_bn": "IMF WEO 2026, 08-Oct-26"
+    "fiscal_balance_pct_gdp": "HMB, Aug-26",
+    "real_gdp_growth_pct": "Fitch via H\u00fcrriyet Daily News, 18-Jul-26",
+    "nominal_gdp_usd_bn": "IMF WEO 2026, 08-Oct-26",
+    "gross_reserves_usd_bn": "Fitch projection for end-2026 via H\u00fcrriyet Daily News, 18-Jul-26"
   },
   "slug": "turkey",
-  "asof": "19-Oct-26",
-  "run": "2026-10-19_0800_turkey-sovereign-credit",
+  "asof": "27-Oct-26",
+  "run": "2026-10-27_1200_turkey-sovereign-credit",
   "derived": {
-    "ex_ante_real_rate_pct": 12.5,
-    "reserves_to_std": 0.98,
+    "ex_ante_real_rate_pct": 12.11,
+    "reserves_to_std": 1.01,
     "reer_z_10y": 0.35,
     "reer_z_10y_note": "latest 2026-09 vs trailing 120-month mean (BIS real broad EER)",
     "reer_latest": 108.26,
@@ -190,7 +194,7 @@
     "reserves_12m_pct_note": "gross reserves incl. gold, 2025-09 to 2026-09 (IMF International Liquidity)",
     "ctot_12m_pct": -1.0,
     "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)",
-    "gefr_pct_reserves": 124.3
+    "gefr_pct_reserves": 121.2
   },
   "series_official": {
     "gross_reserves_usd_bn": {
@@ -3588,6 +3592,135 @@
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)",
         "gefr_pct_reserves": 119.3
       }
+    },
+    {
+      "asof": "19-Oct-26",
+      "run": "2026-10-19_0800_turkey-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 29.73,
+          "period": "Sep-26",
+          "source": "TurkStat",
+          "asof": "03-Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 36.0,
+          "period": "Oct-26",
+          "source": "TCMB one-week repo rate via H\u00fcrriyet Daily News",
+          "asof": "22-Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -2.7,
+          "period": "2026 projection (range -2.6 to -2.8, midpoint)",
+          "source": "TCMB, Jul-26",
+          "asof": "Jul-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 171.6,
+          "definition": "gross incl. gold (search summary of TCMB weekly data, Medium-Low confidence, unconfirmed against TCMB release)",
+          "period": "15-Oct-26",
+          "source": "TCMB weekly data via web search summary",
+          "asof": "15-Oct-26"
+        },
+        "short_term_external_debt_usd_bn": {
+          "value": 170.7,
+          "definition": "by remaining maturity",
+          "period": "30-Jun-26",
+          "source": "TCMB",
+          "asof": "30-Jun-26"
+        },
+        "external_debt_pct_gdp": {
+          "value": 31.8,
+          "definition": "gross external debt (USD 539.0bn) as % of GDP",
+          "period": "30-Jun-26",
+          "source": "HMB (Ministry of Treasury and Finance)",
+          "asof": "30-Jun-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 29.5,
+          "definition": "central government debt",
+          "period": "Q2-26",
+          "source": "HMB (Ministry of Treasury and Finance)",
+          "asof": "30-Jun-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -5.2,
+          "period": "2026E",
+          "source": "HMB (FY26 deficit tracking about 5.2% of GDP)",
+          "asof": "Aug-26"
+        },
+        "import_cover_months": {
+          "value": 5.128,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26",
+          "definition": "official annual series (filled automatically; a run's sourced point replaces it)"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 0.81,
+          "period": "2025",
+          "source": "World Bank WDI (FDI liabilities)",
+          "asof": "2025"
+        },
+        "real_gdp_growth_pct": {
+          "value": 2.8,
+          "period": "2026F",
+          "source": "Fitch projection via H\u00fcrriyet Daily News",
+          "asof": "18-Jul-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 1640.2,
+          "period": "2026E",
+          "source": "IMF WEO 2026",
+          "asof": "08-Oct-26"
+        },
+        "inflation_expectation_12m_pct": {
+          "value": 23.89,
+          "period": "Oct-26",
+          "source": "TCMB market participants survey via H\u00fcrriyet Daily News (date unconfirmed)",
+          "asof": "Oct-26"
+        },
+        "gefr_usd_bn": {
+          "value": 208,
+          "definition": "CA deficit + external amortisation due in 12m (approximate)",
+          "period": "Jun-26",
+          "source": "TCMB/HMB",
+          "asof": "Jun-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -38.89,
+          "period": "2025-Q3 to 2026-Q2",
+          "source": "IMF BOP",
+          "asof": "26-Oct-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 137.109,
+          "period": "2026-08",
+          "source": "IMF reserve template",
+          "asof": "26-Oct-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        },
+        "net_reserves_usd_bn": {
+          "value": 137.1,
+          "definition": "gross reserves net of predetermined 1y drains (IMF international liquidity template); not net ex swaps and banks' FX required reserves",
+          "period": "Aug-26",
+          "source": "IMF International Liquidity and reserve template",
+          "asof": "Aug-26"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 12.5,
+        "reserves_to_std": 0.98,
+        "reer_z_10y": 0.35,
+        "reer_z_10y_note": "latest 2026-09 vs trailing 120-month mean (BIS real broad EER)",
+        "reer_latest": 108.26,
+        "reserves_12m_pct": -7.8,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-09 to 2026-09 (IMF International Liquidity)",
+        "ctot_12m_pct": -1.0,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)",
+        "gefr_pct_reserves": 124.3
+      }
     }
   ],
   "fsi": {
@@ -4230,7 +4363,7 @@
   },
   "politics": {
     "next_election": null,
-    "note": "Fitch flags a possible early election in late 2027. SPK ordered 131 funds (about USD 18.3bn) into liquidation on 17-18 Sep-26.",
+    "note": "Fitch flags a possible early election in late 2027. SPK ordered 131 funds (about USD 18.3bn) into liquidation on 17-18 Sep-26, a domestic confidence risk.",
     "source": "Fitch via Voice of Emirates; Daily Sabah",
     "asof": "18-Jul-26"
   }

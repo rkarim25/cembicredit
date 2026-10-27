@@ -18,6 +18,15 @@
     "path": "reports/tullow-oil.md"
   },
   {
+    "topic": "Turkey sovereign credit",
+    "slug": "turkey-sovereign-credit",
+    "updated": "27-Oct-26",
+    "status": "Draft",
+    "open_items": 13,
+    "run": "2026-10-27_1200_turkey-sovereign-credit",
+    "path": "reports/turkey-sovereign-credit.md"
+  },
+  {
     "topic": "Metinvest Barclays report and model",
     "slug": "metinvest-barclays-report-and-model",
     "updated": "26-Oct-26",
@@ -151,15 +160,6 @@
     "open_items": 10,
     "run": "2026-10-20_1200_frontier-sovereign-restructurings-common-framework-pipeline-",
     "path": "reports/frontier-sovereign-restructurings-common-framework-pipeline-.md"
-  },
-  {
-    "topic": "Turkey sovereign credit",
-    "slug": "turkey-sovereign-credit",
-    "updated": "19-Oct-26",
-    "status": "Draft",
-    "open_items": 14,
-    "run": "2026-10-19_0800_turkey-sovereign-credit",
-    "path": "reports/turkey-sovereign-credit.md"
   },
   {
     "topic": "Ukraine sovereign credit",

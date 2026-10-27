@@ -50,6 +50,10 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Fitch BB-/Stable, affirmed 17-Jul-26 (Hürriyet Daily News, 18-Jul-26) [22-Oct-26]
 - Moody's Ba3/Stable, periodic review with no action 24-Jul-26 (Hürriyet Daily News, Jul-26) [22-Oct-26]
 - EUR 2bn 8-year Eurobond due Mar-34, 5.15% coupon, EUR 6.5bn orders, issued Feb-26 (AGBI, Feb-26) [22-Oct-26]
+- S&P BB-/Stable, affirmed 17-Apr-26; no new assessment published at the 16-Oct-26 slot (Foreks, 17-Oct-26) [27-Oct-26]
+- Fitch BB-/Stable, affirmed 17-Jul-26 (Hürriyet Daily News, 18-Jul-26) [27-Oct-26]
+- Moody's Ba3/Stable, last action Jan-26 (day unconfirmed); periodic review without action 24-Jul-26 (Hürriyet Daily News, Jul-26) [27-Oct-26]
+- EUR 2bn 8-year Eurobond due Mar-34, 5.15% coupon, EUR 6.5bn orders, issued Feb-26 (AGBI, Feb-26) [27-Oct-26]
 
 ## 1. External position
 - Gross external debt $539.0B, 31.8% of GDP, at 30-Jun-26 (HMB, 30-Jun-26) [08-Oct-26]
@@ -71,6 +75,11 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Current account USD -23.6bn in 2026-Q1 and USD -10.9bn in 2026-Q2; last four quarters USD -38.9bn (IMF BOP, 2026) [19-Oct-26]
 - Fitch projects reserves of USD 167bn at end-2026 and coverage below the BB average (Hürriyet Daily News, 18-Jul-26) [22-Oct-26]
 - Gross reserves incl. gold USD 188.2bn at 28-Aug-26, USD 174.4bn at 18-Sep-26, USD 167.4bn in week to 02-Oct-26 (FX USD 60.3bn, gold USD 107.1bn) (TCMB via Türkiye Today, Oct-26) [22-Oct-26]
+- Gross reserves incl. gold USD 188.2bn at 28-Aug-26, USD 174.4bn at 18-Sep-26, USD 167.4bn in week to 02-Oct-26 (FX USD 60.3bn, gold USD 107.1bn) (TCMB via Türkiye Today, Oct-26) [27-Oct-26]
+- Gross reserves USD 171.6bn at 15-Oct-26, up USD 4.2bn w/w; net reserves USD 53.8bn to 57.7bn, labelled "excluding swaps" in the source, definition unconfirmed (search summary of TCMB weekly data, Oct-26) [27-Oct-26]
+- Gross reserves incl. gold USD 186.7bn in Aug-26; net of predetermined 1y drains USD 137.1bn (IMF International Liquidity and reserve template, Aug-26) [27-Oct-26]
+- Gross external debt USD 539.0bn (31.8% of GDP); short-term external debt by remaining maturity USD 170.7bn, at 30-Jun-26 (HMB; TCMB, 30-Jun-26) [27-Oct-26]
+- Current account USD -23.6bn in 2026-Q1, USD -10.9bn in 2026-Q2; last four quarters USD -38.9bn (IMF BOP, 2026) [27-Oct-26]
 ## 2. Fiscal position
 - Central government debt 29.5% of GDP at Q2-26 (HMB, 30-Jun-26) [08-Oct-26]
 - Central government budget deficit tracking about 5.2% of GDP for FY26, post-earthquake reconstruction outlays (HMB, Aug-26) [08-Oct-26]
@@ -78,6 +87,8 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Central government budget deficit tracking about 5.2% of GDP for FY26 (HMB, Aug-26) [08-Oct-26]
 - Central government debt 29.5% of GDP at Q2-26; FY26 deficit tracking about 5.2% of GDP (HMB, 30-Jun-26 and Aug-26) [14-Oct-26]
 - Central government debt 29.5% of GDP at Q2-26; FY26 deficit tracking about 5.2% of GDP (HMB, 30-Jun-26 and Aug-26) [19-Oct-26]
+- Central government debt 29.5% of GDP at Q2-26; FY26 deficit tracking about 5.2% of GDP (HMB, 30-Jun-26 and Aug-26) [27-Oct-26]
+- Sep-26 central government deficit TRY 532.2bn (TRY 309.6bn in Sep-25), primary deficit TRY 269.2bn; spending +34.1% y/y, revenue +22.7% (Ministry of Finance via Alo Maliye, 15-Oct-26) [27-Oct-26]
 ## 3. Monetary and financial
 - Headline CPI 29.73% YoY (+1.84% MoM), core CPI-C 28.70% YoY, Sep-26 (TurkStat, 03-Oct-26) [08-Oct-26]
 - 1-week repo policy rate 37.00%, held at the Sep-26 MPC; fifth consecutive hold per the 07-Oct-26 run (TCMB, Sep-26) [08-Oct-26]
@@ -90,6 +101,9 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Deposit-taker CAR 16.52% and Tier 1 14.04% in Q1-26, from 19.69% and 16.89% in Q4-25 (IMF FSI, Q1-26) [19-Oct-26]
 - 1-week repo rate 37.00%, held for the fifth time on 10-Sep-26; TCMB end-2026 inflation forecast raised to 28% from 26% (Intellinews, Sep-26) [22-Oct-26]
 - Year-end inflation expectation 29.63% in the Oct-26 survey (Hürriyet Daily News, Oct-26) [22-Oct-26]
+- 1-week repo rate cut 100 bp to 36.00% on 22-Oct-26; overnight lending 39.00%, borrowing 34.50%; Sep-26 CPI 29.73% was the first print below 30% since Nov-21 (Hürriyet Daily News, 22-Oct-26) [27-Oct-26]
+- MPC guidance: policy to be tightened if the inflation outlook deteriorates significantly and persistently; meeting-by-meeting, 5% medium-term target (Hürriyet Daily News, 22-Oct-26) [27-Oct-26]
+- Core CPI 28.70% y/y in Sep-26 (TurkStat, 03-Oct-26); TCMB end-2026 inflation forecast 28%, raised from 26% (Intellinews, Sep-26) [27-Oct-26]
 ## 4. Growth and structure
 - Real GDP growth 3.4% for 2026E and nominal GDP $1,640.2B for 2026E (IMF WEO, 2026) [08-Oct-26]
 ## 5. Institutions, politics, willingness
@@ -99,11 +113,14 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17-18-Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor (Daily Sabah, 12-Oct-26) [19-Oct-26]
 - Fitch flags a possible early election in late 2027 (Fitch via Voice of Emirates, 18-Jul-26) [19-Oct-26]
 - Fitch flags a possible early election in late 2027 (Hürriyet Daily News, 18-Jul-26) [22-Oct-26]
+- SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17-18 Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor (Daily Sabah, 12-Oct-26) [27-Oct-26]
+- Fitch flags a possible early election in late 2027 (Fitch via Voice of Emirates, 18-Jul-26) [27-Oct-26]
 ## 6. IMF and official sector
 ## 7. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
 - Borsa Istanbul had its worst month since 2008 in Sep-26 (Daily Sabah, Oct-26) [14-Oct-26]
 - Borsa Istanbul had its worst month since 2008 in Sep-26 (Daily Sabah, Oct-26) [19-Oct-26]
+- Brent 111.11 on 22-Oct-26; IMF Oct-26 WEO oil assumption USD 95.74 for 2026 and USD 87.39 for 2027 (Trading Economics, 22-Oct-26; IMF WEO summaries, 13-Oct-26) [27-Oct-26]
 ## 8. Restructuring and recovery (if relevant)
 - SPK ordered 131 funds (about USD 18.3bn, TL890bn, 7.7% of fund portfolio value) into liquidation on 17–18-Sep-26; 17 funds settled on 08-Oct-26 with payments to about 44,000 investors; Is Bankasi and Ziraat named as liquidators for some funds; payout cap TL1m per investor (Daily Sabah, 12-Oct-26) [14-Oct-26]
 - SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17–18-Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor; no state guarantee for funds (Daily Sabah, 12-Oct-26) [22-Oct-26]
@@ -114,6 +131,7 @@ _(levels from Reza via [BBG]; never from memory)_
 - 10-Dec-26 MPC, the last of 2026 (Intellinews, Sep-26) [19-Oct-26]
 - 10-Dec-26 MPC meeting (Intellinews, Sep-26) [22-Oct-26]
 - Jan-27 Moody's sovereign review, day unconfirmed (Moody's last action Jan-26, pattern inferred, Low) [22-Oct-26]
+- 10-Dec-26 MPC, the last of 2026 (Intellinews, Sep-26) [27-Oct-26]
 ## 10. Questions for the finance ministry / IMF mission
 
 ## Data sources
@@ -201,3 +219,23 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [Restructuring] SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17–18-Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor; no state guarantee for funds (Daily Sabah, 12-Oct-26)
 - [Calendar] 10-Dec-26 MPC meeting (Intellinews, Sep-26)
 - [Calendar] Jan-27 Moody's sovereign review, day unconfirmed (Moody's last action Jan-26, pattern inferred, Low)
+
+### 27-Oct-26 (run 2026-10-27_1200_turkey-sovereign-credit)
+- [Snapshot] S&P BB-/Stable, affirmed 17-Apr-26; no new assessment published at the 16-Oct-26 slot (Foreks, 17-Oct-26)
+- [Snapshot] Fitch BB-/Stable, affirmed 17-Jul-26 (Hürriyet Daily News, 18-Jul-26)
+- [Snapshot] Moody's Ba3/Stable, last action Jan-26 (day unconfirmed); periodic review without action 24-Jul-26 (Hürriyet Daily News, Jul-26)
+- [Snapshot] EUR 2bn 8-year Eurobond due Mar-34, 5.15% coupon, EUR 6.5bn orders, issued Feb-26 (AGBI, Feb-26)
+- [Monetary] 1-week repo rate cut 100 bp to 36.00% on 22-Oct-26; overnight lending 39.00%, borrowing 34.50%; Sep-26 CPI 29.73% was the first print below 30% since Nov-21 (Hürriyet Daily News, 22-Oct-26)
+- [Monetary] MPC guidance: policy to be tightened if the inflation outlook deteriorates significantly and persistently; meeting-by-meeting, 5% medium-term target (Hürriyet Daily News, 22-Oct-26)
+- [Monetary] Core CPI 28.70% y/y in Sep-26 (TurkStat, 03-Oct-26); TCMB end-2026 inflation forecast 28%, raised from 26% (Intellinews, Sep-26)
+- [External] Gross reserves incl. gold USD 188.2bn at 28-Aug-26, USD 174.4bn at 18-Sep-26, USD 167.4bn in week to 02-Oct-26 (FX USD 60.3bn, gold USD 107.1bn) (TCMB via Türkiye Today, Oct-26)
+- [External] Gross reserves USD 171.6bn at 15-Oct-26, up USD 4.2bn w/w; net reserves USD 53.8bn to 57.7bn, labelled "excluding swaps" in the source, definition unconfirmed (search summary of TCMB weekly data, Oct-26)
+- [External] Gross reserves incl. gold USD 186.7bn in Aug-26; net of predetermined 1y drains USD 137.1bn (IMF International Liquidity and reserve template, Aug-26)
+- [External] Gross external debt USD 539.0bn (31.8% of GDP); short-term external debt by remaining maturity USD 170.7bn, at 30-Jun-26 (HMB; TCMB, 30-Jun-26)
+- [External] Current account USD -23.6bn in 2026-Q1, USD -10.9bn in 2026-Q2; last four quarters USD -38.9bn (IMF BOP, 2026)
+- [Fiscal] Central government debt 29.5% of GDP at Q2-26; FY26 deficit tracking about 5.2% of GDP (HMB, 30-Jun-26 and Aug-26)
+- [Fiscal] Sep-26 central government deficit TRY 532.2bn (TRY 309.6bn in Sep-25), primary deficit TRY 269.2bn; spending +34.1% y/y, revenue +22.7% (Ministry of Finance via Alo Maliye, 15-Oct-26)
+- [Market] Brent 111.11 on 22-Oct-26; IMF Oct-26 WEO oil assumption USD 95.74 for 2026 and USD 87.39 for 2027 (Trading Economics, 22-Oct-26; IMF WEO summaries, 13-Oct-26)
+- [Politics] SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17-18 Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor (Daily Sabah, 12-Oct-26)
+- [Politics] Fitch flags a possible early election in late 2027 (Fitch via Voice of Emirates, 18-Jul-26)
+- [Calendar] 10-Dec-26 MPC, the last of 2026 (Intellinews, Sep-26)

@@ -45,7 +45,6 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 | tbc | NBR (Romania) | Autumn monetary policy meeting date not found in the sources checked (2025 pattern: 12-Nov); confirm on bnr.ro | [REZA] or next Romania run |
 
 ## From runs (date first; verify before relying on it)
-- 13-Oct-26 IPO subscription closes (Dabafinance, 09-Oct-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
 - 14-Oct-26: GSDR 7th Co-Chairs Progress Report and compilation of technical issues issued in Bangkok (IMF PR 26/337, 14-Oct-26) (Frontier sovereign restructurings: Common Framework pipeline and precedents, run 2026-10-20_1200_frontier-sovereign-restructurings-common-framework-pipeline-)
 - 16-Oct-26 S&P scheduled sovereign review (BB-/Stable; hold expected) (Türkiye Today, 02-Oct-26) (Turkey, run 2026-10-14_0800_turkey)
 - 19-Oct-26: China 3Q26 GDP release (position source, unverified against the NBS calendar, 09-Oct-26) (China and EM: growth, commodity demand and China as a creditor, run 2026-10-09_0826_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
@@ -75,7 +74,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 10-Dec-26 National Bank of Serbia Executive Board interest rate decision (National Bank of Serbia, Sep-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 10-Dec-26 CBRT MPC meeting (Intellinews, Sep-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-09_0843_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
 - 10-Dec-26 CBRT MPC meeting; about 100bp cut expected (Intellinews, Sep-26) (Akbank, run 2026-10-09_0912_akbank)
-- 10-Dec-26 MPC, the last of 2026 (Intellinews, Sep-26) (Turkey sovereign credit, run 2026-10-19_0800_turkey-sovereign-credit)
+- 10-Dec-26 MPC, the last of 2026 (Intellinews, Sep-26) (Turkey sovereign credit, run 2026-10-27_1200_turkey-sovereign-credit)
 - 10-Dec-26 MPC meeting (Intellinews, Sep-26) (Turkey, run 2026-10-22_1200_turkey)
 - 15-Dec-26: IMF Board Eighth and final EFF review, date unconfirmed at primary source (repo; press, Oct-26) (Egypt sovereign credit, run 2026-10-23_0800_egypt-sovereign-credit)
 - 15-Dec-26: first IMF monitoring mission under the PCI (IMF calendar, Jul-26) (Ghana sovereign credit, run 2026-10-23_1000_ghana-sovereign-credit)

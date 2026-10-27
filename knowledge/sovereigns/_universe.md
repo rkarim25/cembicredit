@@ -1,6 +1,6 @@
 # HY CEEMEA sovereign universe
 
-_Status table regenerated 26-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
+_Status table regenerated 27-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
 
 | Sovereign | Page | Latest report | Updated | Open items | Ratings (as filed) |
 |---|---|---|---|---|---|
@@ -39,7 +39,7 @@ _Status table regenerated 26-Oct-26 by the pipeline from knowledge pages and rep
 | Morocco | `knowledge/sovereigns/morocco.md` | `reports/morocco-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P BBB- (Stable, 27-Mar-26); Moody's Ba1 (Positive, 06-Mar-26); Fitch BB+ (Stable, 17-Sep-26) (Rating Agencies, Sep-26). |
 | Mozambique | `knowledge/sovereigns/mozambique.md` | `reports/mozambique-sovereign-credit.md` | 08-Oct-26 | 5 | Ratings: Fitch LTFC CC (24-Jul-26); S&P LTFC CCC / LC SD (25-Sep-26); Moody's LTFC Caa3 Stable (18-Oct-24). |
 | Namibia | `knowledge/sovereigns/namibia.md` | `reports/namibia-sovereign-credit.md` | 08-Oct-26 | 8 |  |
-| Nigeria | `knowledge/sovereigns/nigeria.md` | `reports/nigeria-sovereign-credit.md` | 26-Oct-26 | 14 | Ratings: S&P B/Stable (15-May-26), Fitch B/Stable (10-Apr-26), Moody's B3/Positive (Aug-26) (S&P, Fitch, Moody's, 2026) |
+| Nigeria | `knowledge/sovereigns/nigeria.md` | `reports/nigeria-sovereign-credit.md` | 26-Oct-26 | 14 | | Import cover | 6.3 months | end-2026F (months of current external payments, Fitch definition) | Fitch via Nairametrics | |
 | North Macedonia | `knowledge/sovereigns/north-macedonia.md` | `reports/north-macedonia-sovereign-credit.md` | 08-Oct-26 | 9 |  |
 | Oman | `knowledge/sovereigns/oman.md` | `reports/oman-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P BBB- (Stable, 27-Sep-24, affirmed Sep-26); Moody's Baa3 (Stable, 10-Jul-25); Fitch BBB- (Stable, 08-Dec-25) (Rating Agencies, D |
 | Pakistan | `knowledge/sovereigns/pakistan.md` | `reports/pakistan-sovereign-credit.md` | 08-Oct-26 | 10 |  |
@@ -56,7 +56,7 @@ _Status table regenerated 26-Oct-26 by the pipeline from knowledge pages and rep
 | Tajikistan | `knowledge/sovereigns/tajikistan.md` | `reports/tajikistan-sovereign-credit.md` | 08-Oct-26 | 8 |  |
 | Thailand | `knowledge/sovereigns/thailand.md` | none yet |  |  |  |
 | Tunisia | `knowledge/sovereigns/tunisia.md` | `reports/tunisia-sovereign-credit.md` | 08-Oct-26 | 5 | Ratings: Fitch B- (Stable) [08-Sep-26]; Moody's Caa1 (Stable) [16-Jul-26]. (Fitch / Moody's, 08-Sep-26) |
-| Turkey | `knowledge/sovereigns/turkey.md` | `reports/turkey-sovereign-credit.md` | 19-Oct-26 | 14 | | Real GDP growth | 2.8 % | 2026E | Fitch forecast via Voice of Emirates | |
+| Turkey | `knowledge/sovereigns/turkey.md` | `reports/turkey-sovereign-credit.md` | 27-Oct-26 | 13 | | Real GDP growth | 2.8 % | 2026E | Fitch forecast via Voice of Emirates | |
 | UAE credit | `knowledge/sovereigns/uae-credit.md` | none yet |  |  |  |
 | UAE | `knowledge/sovereigns/uae.md` | `reports/uae-sovereign-credit.md` | 09-Oct-26 | 7 |  |
 | Ukraine | `knowledge/sovereigns/ukraine.md` | `reports/ukraine-sovereign-credit.md` | 19-Oct-26 | 11 | Ratings: S&P CCC+/Stable (22-Jan-26), Fitch CCC (22-Dec-25), Moody's Ca/Caa3 (Rating Agencies, Jan-26) |
