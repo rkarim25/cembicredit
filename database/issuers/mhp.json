@@ -553,7 +553,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "14:00 London / 09:00 EST",
     "ir_webcast_url": "https://mhp.com.ua/en/investor-relations",
-    "days_to_earnings": 20
+    "days_to_earnings": 19
   },
   "management_questions": [
     {
@@ -966,6 +966,19 @@
       "date": "2026-10-27",
       "period_name": "2026-10-27",
       "timestamp": "2026-10-27T05:17:47.016552",
+      "rating": "CCC+ / Caa2",
+      "price": 82.5,
+      "ytm": 13.1,
+      "spread_bp": 875,
+      "net_leverage": 2.89,
+      "ebitda": 460.0,
+      "fcf": 1.6,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-28",
+      "period_name": "2026-10-28",
+      "timestamp": "2026-10-28T05:17:53.250808",
       "rating": "CCC+ / Caa2",
       "price": 82.5,
       "ytm": 13.1,

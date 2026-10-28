@@ -343,7 +343,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/CIMKOC",
-    "days_to_earnings": 15
+    "days_to_earnings": 14
   },
   "management_questions": [
     {
@@ -594,6 +594,19 @@
       "date": "2026-10-27",
       "period_name": "2026-10-27",
       "timestamp": "2026-10-27T05:17:47.016552",
+      "rating": "B / B3",
+      "price": 105.0,
+      "ytm": 8.6,
+      "spread_bp": 391,
+      "net_leverage": 1.8,
+      "ebitda": 165.0,
+      "fcf": 18.5,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-28",
+      "period_name": "2026-10-28",
+      "timestamp": "2026-10-28T05:17:53.250808",
       "rating": "B / B3",
       "price": 105.0,
       "ytm": 8.6,
