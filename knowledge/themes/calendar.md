@@ -56,7 +56,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 23-Oct-26: Medium-Term Budget Policy Statement (MTBPS) tabled by Finance Minister Enoch Godongwana (National Treasury, Oct-26) (south-africa, re-filed)
 - 23-Oct-26 ZOREN 2030 semi-annual coupon, ~US$60.5m per repo (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)
 - 25-Oct-26 Brazil presidential runoff (Gramercy, 03-Oct-26). (EM macro regime: US rates, dollar, commodities and risk appetite, run 2026-10-20_0800_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit)
-- 28-Oct-26 FOMC decision (gvwire.com, 14-Oct-26). (EM macro regime: US rates, dollar, commodities and risk appetite, run 2026-10-20_0800_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit)
+- 28-Oct-26 FOMC decision at 14:00 ET, no projections (Fed calendar aggregators, Oct-26). (EM macro regime: US rates, dollar, commodities and risk appetite, run 2026-10-28_2241_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit)
 - 29-Oct-26 NBU key rate decision; key rate 16.0% since 18-Sep-26 (NBU) (Ukraine sovereign credit, run 2026-10-28_2041_ukraine-sovereign-credit)
 - 31-Oct-26 expected 3Q26 results (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)
 - 12-Nov-26: CBE MPC decision (CBE, Oct-26) (Egypt sovereign credit, run 2026-10-23_0800_egypt-sovereign-credit)

@@ -35,3 +35,16 @@ For every sovereign and corporate page, record the two or three commodity sensit
 - [Calendar] 22-Oct-26 CBRT MPC meeting (Intellinews, Sep-26).
 - [Calendar] 25-Oct-26 Brazil presidential runoff (Gramercy, 03-Oct-26).
 - [Calendar] 28-Oct-26 FOMC decision (gvwire.com, 14-Oct-26).
+
+### 28-Oct-26 (run 2026-10-28_2241_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit)
+- [Monetary] The FOMC raised the fed funds target range 25bp to 3.75–4.00% on 16-Sep-26 by 12–0, the first hike since 2023 (Federal Reserve release via Schwab, 16-Sep-26).
+- [Market] US September CPI was 3.7% y/y against 3.6% expected, core 2.6% (investinglive.com, 14-Oct-26).
+- [Market] The 10y UST was 5.07% on 19-Oct-26 and 4.96% on 22-Oct-26. It reached about 5.30% in early October, the highest since 2002–2007 (FinanceFeeds, Oct-26; search summary, 22-Oct-26; Gramercy, 03-Oct-26).
+- [Market] Brent closed at USD 109.55 on 19-Oct-26 and settled at USD 109.86 on 16-Oct-26, the highest since May. It was USD 90.1 at end-Aug-26 (Mitrade, 19-Oct-26; Aberdeen, Aug-26).
+- [Market] Hormuz flows averaged 11.62m b/d in the week to 13-Oct-26 against a 17.15m b/d baseline (FinanceFeeds, Oct-26).
+- [Market] DXY broke just below 102.00 on 01-Oct-26 after a double bottom near 98.50 in Aug–Sep (FXStreet, 07-Oct-26).
+- [Monetary] The CBRT cut its policy rate 100bp to 36% on 22-Oct-26 (search summary, 22-Oct-26; macro monitor, 28-Oct-26).
+- [Politics] Flávio Bolsonaro led Brazil's first round on 04-Oct-26 with about 47% against Lula's 45%, and the runoff was held on 25-Oct-26 (ITV, 04-Oct-26).
+- [Growth] IMF WEO Oct-26: emerging and developing economies 3.7% in 2026 against 4.5% in 2025, China 4.5% in 2026 (The Week, 13-Oct-26).
+- [Snapshot] S&P affirmed Romania at BBB-/A-3 with a negative outlook on 02-Oct-26 (Agerpres, 03-Oct-26).
+- [Calendar] 28-Oct-26 FOMC decision at 14:00 ET, no projections (Fed calendar aggregators, Oct-26).

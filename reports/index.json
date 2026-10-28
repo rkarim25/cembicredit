@@ -1,5 +1,14 @@
 [
   {
+    "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
+    "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
+    "updated": "28-Oct-26",
+    "status": "Draft",
+    "open_items": 9,
+    "run": "2026-10-28_2241_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
+    "path": "reports/em-macro-regime-us-rates-dollar-commodities-and-risk-appetit.md"
+  },
+  {
     "topic": "Ukraine sovereign credit",
     "slug": "ukraine-sovereign-credit",
     "updated": "28-Oct-26",
@@ -142,15 +151,6 @@
     "open_items": 9,
     "run": "2026-10-21_1200_metinvest",
     "path": "reports/metinvest.md"
-  },
-  {
-    "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
-    "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
-    "updated": "20-Oct-26",
-    "status": "Draft",
-    "open_items": 8,
-    "run": "2026-10-20_0800_em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
-    "path": "reports/em-macro-regime-us-rates-dollar-commodities-and-risk-appetit.md"
   },
   {
     "topic": "EM sovereign issuance, index flows and positioning",
