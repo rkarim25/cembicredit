@@ -128775,7 +128775,7 @@ window.SOVEREIGNS = [
   "region": "CEEMEA",
   "group": "Emerging Europe, Caucasus and Central Asia",
   "ceemea": true,
-  "asof": "19-Oct-26",
+  "asof": "28-Oct-26",
   "fx_regime": "managed float",
   "commodity": "Grain and agricultural exports (cross-border grain logistics); imports of energy, power equipment and defence materiel; grain prices and energy prices matter",
   "ratings": {
@@ -128791,7 +128791,7 @@ window.SOVEREIGNS = [
    },
    "moodys": {
     "rating": "Ca",
-    "outlook": "Stable",
+    "outlook": null,
     "date": null
    }
   },
@@ -128799,19 +128799,19 @@ window.SOVEREIGNS = [
    "programme": "4-year EFF",
    "size_usd_bn": 8.1,
    "approved": "Feb-26",
-   "next_review": "Combined 2nd and 3rd reviews targeted Dec-26; staff mission expected Nov-26",
+   "next_review": "Combined 2nd and 3rd reviews targeted Dec-26; mission Nov-26",
    "risk_of_debt_distress": null,
-   "source": "kmu.gov.ua, Jul-26; BOFIT Weekly 29/2026; Interfax, 16-Oct-26",
+   "source": "IMF, 20-Jul-26 (first review); Interfax-Ukraine, 16-Oct-26",
    "asof": "16-Oct-26"
   },
   "politics": {
    "next_election": null,
-   "note": "Paris Club bilateral debt service suspension expires 31-Mar-27",
-   "source": "Paris Club",
-   "asof": "Mar-23"
+   "note": "Zelenskyy cited late 2026 to summer 2027 as the realistic window for a settlement (Low confidence)",
+   "source": "Yeni Safak, Oct-26",
+   "asof": "28-Oct-26"
   },
   "ind": {
-   "cpi_latest_yoy_pct": 8.1,
+   "cpi_latest_yoy_pct": 10.0,
    "policy_rate_pct": 16.0,
    "gross_reserves_usd_bn": 47.1,
    "import_cover_months": 5.6,
@@ -128823,27 +128823,27 @@ window.SOVEREIGNS = [
    "nominal_gdp_usd_bn": 225.3,
    "current_account_4q_usd_bn": -24.81,
    "reserves_net_of_drains_usd_bn": 36.955,
-   "net_reserves_usd_bn": 38.6,
-   "ex_ante_real_rate_pct": 7.9,
+   "net_reserves_usd_bn": 36.955,
+   "ex_ante_real_rate_pct": 6.0,
    "reer_z_10y": -0.5,
    "reer_latest": 84.3695,
    "reserves_12m_pct": 1.0,
    "ctot_12m_pct": -2.3
   },
   "src": {
-   "cpi_latest_yoy_pct": "Ukrstat / NBU 19-Oct-26",
-   "policy_rate_pct": "NBU rate decision 18-Sep-26",
-   "gross_reserves_usd_bn": "NBU reserves release 06-Oct-26 | gross official reserve assets (NBU); gold treatment not stated",
+   "cpi_latest_yoy_pct": "Ukrstat via ukranews and Forbes.ua; IMF CPI database (9.998%) 30-Sep-26",
+   "policy_rate_pct": "NBU, rate decision 18-Sep-26 18-Sep-26",
+   "gross_reserves_usd_bn": "NBU reserves release 06-Oct-26 | gross, NBU headline reserves (gold inclusion not stated)",
    "import_cover_months": "NBU reserves release 06-Oct-26",
-   "gov_debt_pct_gdp": "MinFin 19-Oct-26 | state debt",
+   "gov_debt_pct_gdp": "Ministry of Finance of Ukraine 31-Dec-25 | state debt, end-year",
    "fdi_net_pct_gdp": "World Bank WDI 08-Oct-26 | official annual series (filled automatically; a run's sourced point replaces it)",
-   "real_gdp_growth_pct": "IMF WEO 09-Oct-26",
-   "current_account_pct_gdp": "IMF WEO 09-Oct-26",
-   "fiscal_balance_pct_gdp": "IMF WEO 09-Oct-26",
-   "nominal_gdp_usd_bn": "IMF WEO 09-Oct-26",
+   "real_gdp_growth_pct": "IMF WEO 19-Oct-26",
+   "current_account_pct_gdp": "IMF WEO 19-Oct-26",
+   "fiscal_balance_pct_gdp": "IMF WEO 19-Oct-26",
+   "nominal_gdp_usd_bn": "IMF WEO 19-Oct-26",
    "current_account_4q_usd_bn": "IMF BOP 26-Oct-26 | Current account balance, sum of the last four reported quarters, USD bn (auto-filled)",
    "reserves_net_of_drains_usd_bn": "IMF reserve template 26-Oct-26 | Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)",
-   "net_reserves_usd_bn": "IMF International Reserves and FX Liquidity template 09-Oct-26 | gross reserves net of predetermined and contingent one-year drains (IMF reserve template)",
+   "net_reserves_usd_bn": "IMF International Reserves template 19-Oct-26 | gross reserves net of predetermined and contingent one-year drains (IMF reserve template)",
    "ex_ante_real_rate_pct": "derived from the inputs above ()",
    "reer_z_10y": "derived from the inputs above (latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER))",
    "reer_latest": "derived from the inputs above ()",
@@ -128851,7 +128851,7 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived from the inputs above (commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights))"
   },
   "derived": {
-   "ex_ante_real_rate_pct": 7.9,
+   "ex_ante_real_rate_pct": 6.0,
    "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
    "reer_z_10y": -0.5,
    "reer_z_10y_note": "latest 2026-08 vs trailing 120-month mean (IMF CPI-based REER)",
@@ -131647,10 +131647,10 @@ window.SOVEREIGNS = [
    "fdi_liabilities_usd_bn": "IMF Balance of Payments (BPM6), quarterly; Direct investment, equity, net incurrence of liabilities (inward FDI equity flow), USD bn"
   },
   "asof_ind": {
-   "cpi_latest_yoy_pct": "Aug-26",
+   "cpi_latest_yoy_pct": "Sep-26",
    "policy_rate_pct": "Sep-26",
    "gross_reserves_usd_bn": "01-Oct-26",
-   "import_cover_months": "01-Oct-26",
+   "import_cover_months": "Sep-26",
    "gov_debt_pct_gdp": "2025",
    "fdi_net_pct_gdp": "2025",
    "real_gdp_growth_pct": "2026E",
@@ -131659,7 +131659,7 @@ window.SOVEREIGNS = [
    "nominal_gdp_usd_bn": "2026E",
    "current_account_4q_usd_bn": "2025-Q3 to 2026-Q2",
    "reserves_net_of_drains_usd_bn": "2026-09",
-   "net_reserves_usd_bn": "Aug-26",
+   "net_reserves_usd_bn": "Sep-26",
    "ex_ante_real_rate_pct": "derived",
    "reer_z_10y": "derived",
    "reer_latest": "derived",
@@ -131667,8 +131667,8 @@ window.SOVEREIGNS = [
    "ctot_12m_pct": "derived"
   },
   "report": {
-   "open_items": "11",
-   "updated": "19-Oct-26",
+   "open_items": "12",
+   "updated": "28-Oct-26",
    "status": "Draft"
   }
  },

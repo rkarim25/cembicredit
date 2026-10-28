@@ -1,6 +1,6 @@
 # HY CEEMEA sovereign universe
 
-_Status table regenerated 27-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
+_Status table regenerated 28-Oct-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
 
 | Sovereign | Page | Latest report | Updated | Open items | Ratings (as filed) |
 |---|---|---|---|---|---|
@@ -59,6 +59,6 @@ _Status table regenerated 27-Oct-26 by the pipeline from knowledge pages and rep
 | Turkey | `knowledge/sovereigns/turkey.md` | `reports/turkey-sovereign-credit.md` | 27-Oct-26 | 13 | | Real GDP growth | 2.8 % | 2026E | Fitch forecast via Voice of Emirates | |
 | UAE credit | `knowledge/sovereigns/uae-credit.md` | none yet |  |  |  |
 | UAE | `knowledge/sovereigns/uae.md` | `reports/uae-sovereign-credit.md` | 09-Oct-26 | 7 |  |
-| Ukraine | `knowledge/sovereigns/ukraine.md` | `reports/ukraine-sovereign-credit.md` | 19-Oct-26 | 11 | Ratings: S&P CCC+/Stable (22-Jan-26), Fitch CCC (22-Dec-25), Moody's Ca/Caa3 (Rating Agencies, Jan-26) |
+| Ukraine | `knowledge/sovereigns/ukraine.md` | `reports/ukraine-sovereign-credit.md` | 28-Oct-26 | 12 | Ratings: S&P CCC+/Stable (22-Jan-26), Fitch CCC (22-Dec-25), Moody's Ca/Caa3 (Rating Agencies, Jan-26) |
 | Uzbekistan | `knowledge/sovereigns/uzbekistan.md` | `reports/uzbekistan-sovereign-credit.md` | 08-Oct-26 | 9 | S&P rating BB (Stable) affirmed 22-May-26; Fitch rating BB (Positive) outlook upgraded 03-Jun-26; Moody's rating Ba2 (Stable) upgraded 25-Ju |
 | Zambia | `knowledge/sovereigns/zambia.md` | `reports/zambia-sovereign-credit.md` | 08-Oct-26 | 4 | Ratings: Fitch LTFC IDR B- Stable (28-Nov-25); S&P LTFC CCC+ Stable (08-Jun-26); Moody's LTFC Caa2 Positive (14-Apr-25). |
