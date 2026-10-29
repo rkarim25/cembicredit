@@ -136,5 +136,5 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - Nov-26 expected IPO listing (Dabafinance, 09-Oct-26) (Dangote Refinery, run 2026-10-09_0935_dangote-refinery)
 - Early Dec-26: IMF Article IV mission expected (Kenyan Wall Street, Oct-26) (Kenya sovereign credit, run 2026-10-23_1200_kenya-sovereign-credit)
 - Nov-26 IMF mission expected; Dec-26 combined 2nd and 3rd EFF reviews targeted (Interfax, 16-Oct-26) (Ukraine sovereign credit, run 2026-10-28_2041_ukraine-sovereign-credit)
-- Oct-26: Ethiopia target to finalise its bilateral and commercial debt restructuring agreements (Zawya and Capital Ethiopia, 2026) (Frontier sovereign restructurings: Common Framework pipeline and precedents, run 2026-10-20_1200_frontier-sovereign-restructurings-common-framework-pipeline-)
+- Nov-26: second IMF technical mission to Mozambique; the first ended 21-Sep-26 (allAfrica, 21-Sep-26) (Frontier sovereign restructurings: Common Framework pipeline and precedents, run 2026-10-29_0241_frontier-sovereign-restructurings-common-framework-pipeline-)
 - Jan-27 Moody's sovereign review, day unconfirmed (Moody's last action Jan-26, pattern inferred, Low) (Turkey, run 2026-10-22_1200_turkey)
