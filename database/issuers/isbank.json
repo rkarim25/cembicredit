@@ -591,7 +591,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.isbank.com.tr/en/investor-relations",
-    "days_to_earnings": 2
+    "days_to_earnings": 1
   },
   "management_questions": [
     {
@@ -1017,6 +1017,19 @@
       "date": "2026-10-28",
       "period_name": "2026-10-28",
       "timestamp": "2026-10-28T05:17:53.250808",
+      "rating": "BB- / B1",
+      "price": 99.5,
+      "ytm": 6.85,
+      "spread_bp": 225,
+      "net_leverage": null,
+      "ebitda": null,
+      "fcf": 87.5,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-29",
+      "period_name": "2026-10-29",
+      "timestamp": "2026-10-29T05:19:11.368016",
       "rating": "BB- / B1",
       "price": 99.5,
       "ytm": 6.85,

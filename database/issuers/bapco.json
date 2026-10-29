@@ -559,7 +559,7 @@
     "confirmation_status": "Estimated",
     "call_time": "14:00 Local / Pre-Market",
     "ir_webcast_url": "https://www.google.com/finance/quote/BAPCO",
-    "days_to_earnings": 14
+    "days_to_earnings": 13
   },
   "management_questions": [
     {
@@ -985,6 +985,19 @@
       "date": "2026-10-28",
       "period_name": "2026-10-28",
       "timestamp": "2026-10-28T05:17:53.250808",
+      "rating": "B+ / B+",
+      "price": 101.8,
+      "ytm": 6.85,
+      "spread_bp": 280,
+      "net_leverage": 3.4,
+      "ebitda": 1250.0,
+      "fcf": -222.1,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-29",
+      "period_name": "2026-10-29",
+      "timestamp": "2026-10-29T05:19:11.368016",
       "rating": "B+ / B+",
       "price": 101.8,
       "ytm": 6.85,

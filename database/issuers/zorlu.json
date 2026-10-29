@@ -972,7 +972,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul (Post-Market)",
     "ir_webcast_url": "https://www.zoren.com.tr/en/investor-relations/financial-reports",
-    "days_to_earnings": 8
+    "days_to_earnings": 7
   },
   "management_questions": [
     {
@@ -1405,6 +1405,19 @@
       "date": "2026-10-28",
       "period_name": "2026-10-28",
       "timestamp": "2026-10-28T05:17:53.250808",
+      "rating": "B- / CCC+",
+      "price": 63.5,
+      "ytm": 27.2,
+      "spread_bp": 2250,
+      "net_leverage": 3.62,
+      "ebitda": 15958.0,
+      "fcf": -4991.7,
+      "guidance_status": "Under Watch"
+    },
+    {
+      "date": "2026-10-29",
+      "period_name": "2026-10-29",
+      "timestamp": "2026-10-29T05:19:11.368016",
       "rating": "B- / CCC+",
       "price": 63.5,
       "ytm": 27.2,

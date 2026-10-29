@@ -4,22 +4,22 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 27-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 29-Oct-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 8.1 % | Aug-26 | Ukrstat / NBU |
-| Policy rate | 16 % | Sep-26 | NBU rate decision |
-| Real policy rate | 7.9 % | derived |  |
+| CPI y/y | 10 % | Sep-26 | Ukrstat via ukranews and Forbes.ua; IMF CPI database (9.998% |
+| Policy rate | 16 % | Sep-26 | NBU, rate decision 18-Sep-26 |
+| Real policy rate | 6 % | derived |  |
 | Gross reserves | 47.1 USD bn | 01-Oct-26 | NBU reserves release |
 | Reserves, 12m change | 1 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Reserves net of 1y drains | 36.95 USD bn | 2026-09 | IMF reserve template |
-| Import cover | 5.6 months | 01-Oct-26 | NBU reserves release |
+| Import cover | 5.6 months | Sep-26 | NBU reserves release |
 | Current account, last 4Q | -24.81 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -18.9 % GDP | 2026E | IMF WEO |
 | REER z-score (10y) | -0.5 sd | derived | latest 2026-08 vs trailing 120-month mean (IMF CPI-based REE |
 | Terms of trade, 12m change | -2.3 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
-| Government debt | 98.4 % GDP | 2025 | MinFin |
+| Government debt | 98.4 % GDP | 2025 | Ministry of Finance of Ukraine |
 | Fiscal balance | -18.4 % GDP | 2026E | IMF WEO |
 | Real GDP growth | 2 % | 2026E | IMF WEO |
 | Nominal GDP | 225.3 USD bn | 2026E | IMF WEO |
