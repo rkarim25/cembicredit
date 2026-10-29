@@ -1,5 +1,14 @@
 [
   {
+    "topic": "EM sovereign issuance, index flows and positioning",
+    "slug": "em-sovereign-issuance-index-flows-and-positioning",
+    "updated": "29-Oct-26",
+    "status": "Draft",
+    "open_items": 9,
+    "run": "2026-10-29_0041_em-sovereign-issuance-index-flows-and-positioning",
+    "path": "reports/em-sovereign-issuance-index-flows-and-positioning.md"
+  },
+  {
     "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
     "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
     "updated": "28-Oct-26",
@@ -151,15 +160,6 @@
     "open_items": 9,
     "run": "2026-10-21_1200_metinvest",
     "path": "reports/metinvest.md"
-  },
-  {
-    "topic": "EM sovereign issuance, index flows and positioning",
-    "slug": "em-sovereign-issuance-index-flows-and-positioning",
-    "updated": "20-Oct-26",
-    "status": "Draft",
-    "open_items": 9,
-    "run": "2026-10-20_1000_em-sovereign-issuance-index-flows-and-positioning",
-    "path": "reports/em-sovereign-issuance-index-flows-and-positioning.md"
   },
   {
     "topic": "Frontier sovereign restructurings: Common Framework pipeline and precedents",

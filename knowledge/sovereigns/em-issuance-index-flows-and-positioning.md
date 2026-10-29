@@ -19,3 +19,11 @@ _Created by the pipeline on 09-Oct-26. Facts below are dated and sourced; views 
 - [Market] The EMBI Global Core Index returned 4.63% in Q2-26, led by HY, with spread compression the main driver (Global X EMBD Q2-26 commentary)
 - [Market] CreditSights projects 2026 EM sovereign Eurobond issuance of about $260bn, with IG sovereign spreads at the tightest since Oct-07 (CreditSights, Emerging Markets 2026 Outlook, search summary)
 - [Calendar] 29-Jan-27: Saudi Arabia and the Philippines enter GBI-EM, phased (Saudi MoF, 23-Apr-26)
+
+### 29-Oct-26 (run 2026-10-29_0041_em-sovereign-issuance-index-flows-and-positioning)
+- [Market] Gulf issuers supplied about $6.5bn of roughly $10.0bn of EM hard-currency issuance in the week to 24-Oct-26, including Kuwait's $3.25bn sovereign deal and TAQA's $1.75bn; Bahamas issued $1.1bn (Gramercy EM Weekly, 24-Oct-26)
+- [Market] Week to 24-Oct-26 returns: IG sovereigns +0.13%, HY sovereigns -0.41%, hard-currency sovereigns -0.16%, local-currency sovereigns -0.32%; Egypt -3.09%, Senegal -4.13% (Gramercy EM Weekly, 24-Oct-26)
+- [Market] The US 10-year yield fell about 17bp to below 5% in the week to 24-Oct-26, the largest one-day drop since Aug-25; the 30-year was near 5.30% (Gramercy EM Weekly, 24-Oct-26)
+- [Market] Q3-26 net inflows to EM bond funds were about +$1.4bn hard-currency and +$4.1bn local-currency; YTD inflows through nine months exceeded the 2025 total (SSGA EMD commentary Q3-26, citing J.P. Morgan; secondary)
+- [Market] MSCI proposed reclassifying Indonesia; Indonesian local-currency assets fell 1.29% in the week to 24-Oct-26 (Gramercy EM Weekly, 24-Oct-26; scope of the proposal not verified)
+- [Calendar] 29-Jan-27: Saudi Arabia (expected 2.52%) and the Philippines (expected 1.78%) enter J.P. Morgan GBI-EM, phased (Saudi MoF, 23-Apr-26)

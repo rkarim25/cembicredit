@@ -88,7 +88,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 15-Jan-27: National Treasury release of FY2026/27 Budget Policy Statement (National Treasury, Oct-26) (Kenya sovereign credit, run 2026-10-08_1222_kenya-sovereign-credit)
 - 16-Jan-27: presidential election; 06-Feb-27: governorship elections (AllAfrica, 27-Feb-26; Semafor, 16-Feb-26) (Nigeria sovereign credit, run 2026-10-26_1000_nigeria-sovereign-credit)
 - 21-Jan-27 CBRT MPC meeting (Hürriyet Daily News, week of 19-Oct-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-21_1000_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
-- 29-Jan-27: Saudi Arabia and the Philippines enter GBI-EM, phased (Saudi MoF, 23-Apr-26) (EM sovereign issuance, index flows and positioning, run 2026-10-20_1000_em-sovereign-issuance-index-flows-and-positioning)
+- 29-Jan-27: Saudi Arabia (expected 2.52%) and the Philippines (expected 1.78%) enter J.P. Morgan GBI-EM, phased (Saudi MoF, 23-Apr-26) (EM sovereign issuance, index flows and positioning, run 2026-10-29_0041_em-sovereign-issuance-index-flows-and-positioning)
 - 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed) (Ukraine sovereign credit, run 2026-10-28_2041_ukraine-sovereign-credit)
 - 15-May-27 Republic of Serbia €1.13bn Eurobond final maturity date (Public Debt Administration, May-26). (Serbia sovereign credit, run 2026-10-08_1323_serbia-sovereign-credit)
 - 30-Jun-27 target date for 375MW wind/storage licence conversion (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)

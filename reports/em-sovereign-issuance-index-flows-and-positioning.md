@@ -1,101 +1,106 @@
 ---
 topic: EM sovereign issuance, index flows and positioning
 slug: em-sovereign-issuance-index-flows-and-positioning
-updated: 20-Oct-26
-run: 2026-10-20_1000_em-sovereign-issuance-index-flows-and-positioning
+updated: 29-Oct-26
+run: 2026-10-29_0041_em-sovereign-issuance-index-flows-and-positioning
 status: Draft
 open_items: 9
 ---
 
 # EM sovereign issuance, index flows and positioning
 
-_Updated 20-Oct-26 · run 2026-10-20_1000_em-sovereign-issuance-index-flows-and-positioning_
+_Updated 29-Oct-26 · run 2026-10-29_0041_em-sovereign-issuance-index-flows-and-positioning_
 
 ## Open items
-1. [BBG: JPEIGLSP Index / OAS and 12-month range] Current EMBI GD blended spread, the IG-HY differential and their percentile. CreditSights describes IG sovereign spreads as the tightest since Oct-07, so the percentile matters most.
-2. [BBG: JPEI <GO> / EMBI Global Diversified country weights] Current CEEMEA weights and any pending inclusions or exclusions.
-3. [REZA] Latest EPFR, IIF or J.P. Morgan fund-flow table (hard currency, local currency, ETF), year to date and since August. No 2026 flow figure has been verified.
-4. [REZA] J.P. Morgan or bank full-year 2026 and 2027 EM sovereign supply forecasts (gross, net, by rating bucket). They would reconcile the Fortun YTD total of $214.2bn with CreditSights' ~$260bn full-year Eurobond figure (different perimeter).
-5. [BBG: EM new issue calendar / Q4-26 pipeline and 2027 pre-funding] Q4 supply and early 2027 pre-funding by Mexico, Saudi Arabia and others.
-6. [REZA] Current active position versus benchmark in HY CEEMEA hard-currency sovereigns, and any real-money net buying or selling since September, including whether you are overweight the names losing GBI-EM weight.
+1. [BBG: JPEIGLSP Index / OAS, 30-Sep-26 and 29-Oct-26] EMBI GD spread level and quarter change, plus the IG-HY differential and its 12-month percentile. This resolves the inconsistent SSGA Q3 figures (EMBI GD -3.86% alongside spreads 48bp tighter) and tests CreditSights' "tightest IG since Oct-07".
+2. [REZA] Bloomberg 30-Jun-26 "Emerging Market Bond Sales Hit $450 Billion as Spreads Narrow": what did it say on the Gulf share and the sovereign/corporate split? The perimeter explains why "record pace" (SSGA) sits next to only +3% YTD (Fortun).
+3. [BBG: EM new issue calendar / Jan–Oct-26 sovereign hard-currency total, Q4 pipeline, 2027 pre-funding] Issuance after September, and Q4 supply from Mexico, Saudi Arabia and Kuwait.
+4. [BBG: EPFR or J.P. Morgan EM bond fund flows, weekly, Sep–Oct-26] Whether October flows turned negative. Only the SSGA Q3 secondary citation exists.
+5. [BBG: JPM GBI-EM GD / index weights for Saudi Arabia, the Philippines and Indonesia, and the 29-Jan-27 phase-in schedule] Current weights and phasing, including the 9% cap and the GBI-EM Edge index. The J.P. Morgan notices were not seen.
+6. [REZA] Current active position versus benchmark in HY CEEMEA hard-currency sovereigns (including Egypt, Senegal, Nigeria), and any net buying or selling since September.
 7. [REZA] Latest J.P. Morgan EM client survey or other positioning survey, for crowding in local-currency carry versus hard-currency spread.
-8. [REZA] The J.P. Morgan notice on the GBI-EM cap schedule and the GBI-EM Edge index, or confirmation of the phase-in dates. The notices were not accessible, and the Edge size and the reported index rename are unverified.
-9. [REZA] Date and text of the iProfesional article on Argentina's EMBI+ exit. It carries a 24-Jun-26 label but describes a 30-Sep-25 change.
+8. [REZA] The MSCI proposal on Indonesia: is it an equity-index or a bond-index matter, and what is the scope? Gramercy links it to Indonesian local-currency weakness, and the proposal text was not seen.
+9. [REZA] J.P. Morgan or bank full-year 2026 and 2027 EM sovereign supply forecasts (gross, net, by rating bucket), to reconcile Fortun's $214.2bn YTD with CreditSights' ~$260bn Eurobond forecast.
 
 ## View
-- Supply is heavy but absorbed. Jan–Sep-26 gross hard-currency issuance was $214.2bn against $208.1bn a year earlier, about 3% higher. September was $16.9bn, slightly below the 10-year September average (Fortun tracker, 08-Oct-26, Medium).
-- The structural flow event is in local currency, and it is dated and sourced. Saudi Arabia (2.52% at full phase-in) and the Philippines (1.78%) enter GBI-EM from 29-Jan-27, and the country cap falls to 9% from 10%. That means forced selling of China, India, Mexico, Malaysia and Indonesia weight (press reports of J.P. Morgan's announcement, Apr-26; Saudi MoF, 23-Apr-26, High for the Saudi date and weight).
-- The hard-currency technical is a valuation risk more than a supply risk. CreditSights flags the tightest IG sovereign spreads since Oct-07 and a record full-year Eurobond forecast of about $260bn (Medium).
-- Q2-26 was a spread-compression quarter led by HY: the EMBI Global Core returned 4.63% (Global X, Q2-26 commentary, Medium).
-- Flows and positioning remain unsupported. No verified 2026 flow or survey data exist, so any crowding call is unsupported.
-- Biggest risk: a further rise in US yields and oil, which would hit tight spreads and close the HY and frontier primary market while IG and Gulf supply continues.
-- Confidence: Medium on supply and the index calendar; Low on valuation, flows and positioning.
+- Supply is heavy and absorbed. Jan–Sep-26 gross hard-currency issuance was $214.2bn against $208.1bn a year earlier, about 3% higher (Fortun, 08-Oct-26, Medium). SSGA calls the pace a record, driven by war-related Gulf financing (Q3-26, Medium). The two are not reconciled.
+- October supply skews to Gulf IG. In the week to 24-Oct-26, $6.5bn of about $10.0bn came from Gulf issuers, led by Kuwait's $3.25bn sovereign deal (Gramercy, 24-Oct-26, Medium).
+- Risk-off has favoured IG over HY. In the same week IG sovereigns returned +0.13% and HY sovereigns -0.41%. Egypt fell 3.09% and Senegal 4.13%, with Brent above $116 after attacks on Saudi export routes (Gramercy, Medium).
+- Flows are positive year to date but thin at the margin. Q3 net inflows were about +$1.4bn to hard-currency and +$4.1bn to local-currency funds, and YTD inflows already exceed 2025 (SSGA citing J.P. Morgan, Medium; secondary).
+- The dated structural event is local currency. Saudi Arabia (2.52%) and the Philippines (1.78%) enter GBI-EM from 29-Jan-27, phased, and the cap falls to 9% (Saudi MoF, 23-Apr-26, High for date and weight).
+- Biggest risk: further escalation affecting Saudi exports, plus a long-end UST selloff. That would close the window for B and CCC issuers while IG and Gulf supply continues.
+- Confidence: Medium on supply and the index calendar; Low on valuation, flows and positioning. No spread level, survey or weekly flow series has been verified.
 
 ## What changed
-- The Saudi Arabia and Philippines GBI-EM inclusion is now sourced with an effective date (29-Jan-27) and phased weights (2.52% and 1.78%). The previous version had them only as "on watch".
-- The 9% GBI-EM cap now rests on the Saudi MoF notice and press reports of the J.P. Morgan announcement from Apr-26 (previously a 2025 press item).
-- Added the CreditSights valuation and full-year supply context (about $260bn Eurobonds; IG sovereign spreads at the tightest since Oct-07) and the Q2-26 EMBI Global Core return.
-- Added one open item (Q4 pipeline and 2027 pre-funding), and merged duplicates among the others. Items 3, 6 and 7 are kept because no new evidence closes them.
-- The overall view is unchanged: Medium on supply, Low on flows.
+- Added October evidence: Gramercy 24-Oct-26 weekly supply, returns and rates, and SSGA Q3-26 commentary with its flow citation.
+- The flow section moves from "no data" to partial Medium data (Q3 and YTD vs 2025). Open item 3 from the prior version is narrowed into item 4, October weekly flows.
+- The risk framing changes from US yields and oil in the abstract to a live Gulf war premium (Brent above $116), with HY and frontier already underperforming.
+- Added the MSCI Indonesia reclassification proposal as an unverified item (item 8).
+- Added the tension between "record pace" and +3% YTD as an open reconciliation (items 2 and 9). The SSGA return and spread figures are excluded as internally inconsistent.
+- Dropped the Argentina EMBI+ date item and the Janus Henderson non-USD detail from the headline, but kept the facts in the analysis. Items 1, 5, 6 and 7 are retained.
 
 ## Analysis
 ### Supply
-- Jan–Sep-26 gross hard-currency issuance by EM governments was $214.2bn against $208.1bn for Jan–Sep-25, across 191 bonds from 49 issuers (Jonathan Fortun EM Sovereign Bond Issuance Tracker, 08-Oct-26, Medium; single compilation).
-- September-26 was $16.9bn against a 10-year September average of $17.3bn, so supply was normal (same tracker, Medium).
-- Top ten YTD: Mexico $20.8bn, Saudi Arabia $14.8bn, Türkiye $12.1bn, Brazil $10.4bn, Poland $9.8bn, Indonesia $9.3bn, Hungary $8.1bn, Kuwait $8.0bn, Chile $7.9bn, Abu Dhabi $7.5bn (same tracker, Medium). Only Türkiye and Brazil are clearly HY, so net HY supply is lighter than the gross figure implies (judgement, Medium).
-- CreditSights' 2026 outlook projects record Eurobond issuance of about $260bn, with Türkiye facing the largest financing needs (CreditSights, Emerging Markets 2026 Outlook, https://know.creditsights.com/emerging-markets-2026-outlook/, Medium; search summary, page not read). The perimeter differs from Fortun's, so the two are not reconciled.
-- Funding is diversifying away from USD. Janus Henderson reported roughly half of new EM hard-currency bonds were non-USD in 2025, with EUR about 30% on a 12-month average (data to 30-Sep-25, Medium, dated; no 2026 equivalent).
-- The primary market is open to HY. The week to 12-Sep-26 saw about $18.6bn across 30 tranches, including Jamaica's $1bn at 6.25% (Gramercy EM Weekly, 12-Sep-26, Medium).
-- Net supply (gross less amortisation, buybacks and liability management) is the relevant measure and was not found.
+- Jan–Sep-26 gross hard-currency issuance was $214.2bn against $208.1bn, across 191 bonds from 49 issuers. September was $16.9bn against a 10-year September average of $17.3bn (Fortun tracker, 08-Oct-26, Medium; single compilation).
+- Top YTD: Mexico $20.8bn, Saudi Arabia $14.8bn, Türkiye $12.1bn, Brazil $10.4bn, Poland $9.8bn (same tracker, Medium). Only Türkiye and Brazil are clearly HY among the top five, so net HY supply is lighter than the gross figure implies (judgement, Medium).
+- SSGA says issuance is running "at a record pace, swelled by war-related Gulf financing needs" (SSGA EMD commentary Q3-26, https://www.ssga.com/us/en/institutional/insights/emerging-market-debt-commentary-q3-2026, Medium). A Bloomberg headline of 30-Jun-26 reports EM bond sales of $450bn (paywalled, headline only; perimeter unknown). Against Fortun's +3%, "record" is probably a perimeter effect (sovereign plus corporate and quasi-sovereign) or a different base. This is unresolved (item 2).
+- CreditSights projects record 2026 Eurobond issuance of about $260bn (CreditSights 2026 Outlook, search summary, Medium). The perimeter differs from Fortun's.
+- Week to 24-Oct-26: about $10.0bn from 11 issuers, $6.5bn Gulf (Kuwait sovereign $3.25bn, TAQA $1.75bn), about $6.7bn IG, and Bahamas $1.1bn (Gramercy EM Weekly, 24-Oct-26, https://www.gramercy.com/2026/10/em-weekly-october-24-2026/, Medium). One week supports no quarterly extrapolation.
+- Week to 12-Sep-26: about $18.6bn across 30 tranches, including Jamaica's $1bn at 6.25%. HY access was open then (Gramercy, 12-Sep-26, Medium).
+- Net supply (after amortisation, buybacks and liability management) was not found.
 
-### Spreads and valuation
-- The EMBI Global Core Index rose 4.63% in Q2-26, with spread compression accounting for most of the gain, led by HY issuers. Easing geopolitical and stagflation concerns lifted risk appetite (Global X EMBD Q2-26 commentary, https://www.globalxetfs.com/articles/global-x-emerging-markets-bond-etf-embd-2-q26-commentary, Medium).
-- CreditSights says spreads have compressed continuously since summer 2022 and that IG sovereigns trade at the tightest since Oct-07, and links this to upgrades and returning inflows (CreditSights, 2026 Outlook, Medium; no current level verified).
-- The week to 12-Sep-26 saw hard-currency sovereigns fall 0.80%, with the 10Y+ bucket down 0.74% against 0.07% for short duration, and IG and HY within about 2bp of each other. Gramercy reads this as a duration repricing rather than a credit or supply move (12-Sep-26, Medium; one week).
+### Spreads, returns and rates
+- The EMBI Global Core Index returned 4.63% in Q2-26, led by HY, with spread compression the main driver (Global X EMBD Q2-26 commentary, Medium).
+- CreditSights says IG sovereign spreads are the tightest since Oct-07 (2026 Outlook, Medium; no current level verified).
+- SSGA Q3-26 reports spreads widening in the back half of September on asset-class outflows. Its Q3 EMBI GD return of -3.86% alongside spreads 48bp tighter is internally inconsistent, so neither number is used (SSGA, Medium, discarded).
+- Week to 24-Oct-26: IG sovereigns +0.13%, HY sovereigns -0.41%, hard-currency sovereigns -0.16%, local-currency sovereigns -0.32%. Indonesia fell 1.29% (local) after the MSCI proposal (Gramercy, Medium).
+- The US 10-year fell about 17bp to below 5% in the week, the largest one-day fall since Aug-25. The 30-year was near 5.30% (Gramercy, 24-Oct-26, Medium). SSGA describes continued Fed easing and a weaker dollar as supportive, especially for local currency (SSGA Aug-26 and Q3-26, Medium).
 
 ### Index changes
-- Saudi Arabia (SAR sukuk) and the Philippines (PHP government bonds) enter GBI-EM from 29-Jan-27, phased. Expected full weights are 2.52% and 1.78%. About eight Saudi sukuk (~$69bn) and nine Philippine bonds (~$49bn) are eligible (Saudi MoF, 23-Apr-26, https://www.mof.gov.sa/en/mediacenter/news/Pages/news_23042026.aspx, High for the Saudi date and weight; Bloomberg 23-Apr-26 and Asharq Al-Awsat coverage, Medium for the Philippines).
-- The GBI-EM GD country cap is lowered to 9% from 10%, reducing China, India, Mexico, Malaysia and Indonesia to the new limit (press coverage of the J.P. Morgan announcement, Apr-26, Medium; the notice itself was not seen). Beneficiaries named in earlier coverage are Thailand, Poland, South Africa and Brazil (Advisor Perspectives, 16-Sep-25, Medium).
-- A frontier GBI-EM Edge index covers about $328bn across 26 markets, with Nigeria at 7.4% (Nairametrics, 14-Sep-26, Medium). Its tracking AUM is unknown.
-- Argentina reportedly left EMBI+ effective 30-Sep-25 under the five-year age rule and remains in EMBI GD (iProfesional, Low; date inconsistency, item 9).
-- None of these changes forces hard-currency selling. They are local-currency flow events.
+- Saudi Arabia (SAR sukuk, expected 2.52%) and the Philippines (expected 1.78%) enter GBI-EM from 29-Jan-27, phased. About eight Saudi sukuk (~$69bn) and nine Philippine bonds (~$49bn) are eligible (Saudi MoF, 23-Apr-26, https://www.mof.gov.sa/en/MediaCenter/news/Pages/News_23042026.aspx, High for Saudi date and weight; Asharq Al-Awsat, 23-Apr-26, Medium for the Philippines).
+- The GBI-EM GD country cap falls to 9% from 10%, reducing China, India, Mexico, Malaysia and Indonesia. Earlier coverage names Thailand, Poland, South Africa and Brazil as beneficiaries (press reports, Medium; J.P. Morgan notice not seen).
+- GBI-EM Edge frontier index: about $328bn across 26 markets, Nigeria 7.4% (Nairametrics, 14-Sep-26, Medium; notice not seen).
+- MSCI has proposed reclassifying Indonesia (Gramercy, 24-Oct-26, Low on scope; item 8).
+- None of these forces hard-currency selling. They are local-currency flow events.
 
 ### Flows and positioning
-- No usable 2026 flow data. A search summary citing EPFR outflows of $5bn (October) and $2.8bn (September) and IIF debt inflows of $27.4bn carries no year or release date and is discarded (Low). Month-end October data cannot exist on 20-Oct-26.
-- No survey, ETF holdings or dealer inventory data were found. The crowding risk implied by tight spreads is an inference, not a measurement (Low).
+- SSGA, citing J.P. Morgan, reports Q3-26 net inflows of about +$1.4bn to hard-currency and +$4.1bn to local-currency EM bond funds. YTD inflows through nine months exceed the 2025 total (SSGA Q3-26, Medium; secondary citation).
+- No October flow series, ETF holdings, dealer inventory or positioning survey was found. The crowding claim (long carry and long HY beta into the Q3 reversal) is an inference from the spread and return pattern, not a measurement (Low).
+- The earlier undated search summary quoting EPFR outflows and IIF inflows remains discarded (Low).
 
 ### Searched, nothing found
-- 2026 EPFR, IIF and J.P. Morgan fund-flow data for Sep–Oct; positioning surveys; J.P. Morgan primary notices (not accessible); Q4-26 pipeline and 2027 pre-funding; net financing estimates; issuance by rating bucket; 2026 EMBI inclusion changes; official IMF GFSR figures on EM flows.
+- Issuance after 30-Sep-26; weekly EPFR, IIF and J.P. Morgan flow tables for Oct-26; positioning surveys; J.P. Morgan primary index notices (cap, Edge); MSCI Indonesia proposal text; a current EMBI GD spread level; net financing estimates; issuance by rating bucket; rating actions (this topic is cross-market, so none were checked at issuer level).
+- This judge pass relied on the two positions' research and did not run additional searches.
 
 ## Where the models disagreed
-No material disagreement. Only the claude position was available; the judge found no claim above Medium except the Saudi inclusion date and weight, which rest on the Saudi MoF.
+1. Issuance "record pace" vs +3% YTD: the claude position cited SSGA's record wording and the Fortun +3% side by side and flagged the tension. Resolution: not resolved; the two are tier 3 and tier 4 on different perimeters, so it is recorded as items 2 and 9 (rule 2, no averaging).
+2. SSGA Q3 return and spread figures: the position excluded them as inconsistent. Resolution: excluded; the check is item 1 (Ask, do not guess).
+3. Otherwise no material disagreement. Only the claude position was available for this run.
 
 ## Management questions
 None
 
 ## Knowledge base updates
-- [Market] Gross hard-currency EM sovereign issuance Jan–Sep-26 was $214.2bn against $208.1bn for Jan–Sep-25; September-26 $16.9bn against a 10-year September average of $17.3bn; 191 bonds from 49 issuers (Jonathan Fortun EM Sovereign Bond Issuance Tracker, 08-Oct-26)
-- [Market] Largest YTD hard-currency issuers to Sep-26: Mexico $20.8bn, Saudi Arabia $14.8bn, Türkiye $12.1bn, Brazil $10.4bn, Poland $9.8bn (Jonathan Fortun EM Sovereign Bond Issuance Tracker, 08-Oct-26)
-- [Market] Jamaica issued a $1bn sovereign bond at 6.25% in the week to 12-Sep-26 (Gramercy EM Weekly, 12-Sep-26)
-- [Market] J.P. Morgan lowers the GBI-EM GD country cap to 9% from 10%; Saudi Arabia (SAR sukuk, expected weight 2.52%) and the Philippines (expected 1.78%) join GBI-EM from 29-Jan-27, phased (Saudi MoF, 23-Apr-26; Bloomberg and Asharq Al-Awsat coverage, 23-Apr-26)
-- [Market] J.P. Morgan announced a GBI-EM Edge frontier index covering about $328bn across 26 markets, with Nigeria at 7.4% (Nairametrics, 14-Sep-26; press report, notice not seen)
-- [Market] The EMBI Global Core Index returned 4.63% in Q2-26, led by HY, with spread compression the main driver (Global X EMBD Q2-26 commentary)
-- [Market] CreditSights projects 2026 EM sovereign Eurobond issuance of about $260bn, with IG sovereign spreads at the tightest since Oct-07 (CreditSights, Emerging Markets 2026 Outlook, search summary)
-- [Calendar] 29-Jan-27: Saudi Arabia and the Philippines enter GBI-EM, phased (Saudi MoF, 23-Apr-26)
+- [Market] Gulf issuers supplied about $6.5bn of roughly $10.0bn of EM hard-currency issuance in the week to 24-Oct-26, including Kuwait's $3.25bn sovereign deal and TAQA's $1.75bn; Bahamas issued $1.1bn (Gramercy EM Weekly, 24-Oct-26)
+- [Market] Week to 24-Oct-26 returns: IG sovereigns +0.13%, HY sovereigns -0.41%, hard-currency sovereigns -0.16%, local-currency sovereigns -0.32%; Egypt -3.09%, Senegal -4.13% (Gramercy EM Weekly, 24-Oct-26)
+- [Market] The US 10-year yield fell about 17bp to below 5% in the week to 24-Oct-26, the largest one-day drop since Aug-25; the 30-year was near 5.30% (Gramercy EM Weekly, 24-Oct-26)
+- [Market] Q3-26 net inflows to EM bond funds were about +$1.4bn hard-currency and +$4.1bn local-currency; YTD inflows through nine months exceeded the 2025 total (SSGA EMD commentary Q3-26, citing J.P. Morgan; secondary)
+- [Market] MSCI proposed reclassifying Indonesia; Indonesian local-currency assets fell 1.29% in the week to 24-Oct-26 (Gramercy EM Weekly, 24-Oct-26; scope of the proposal not verified)
+- [Calendar] 29-Jan-27: Saudi Arabia (expected 2.52%) and the Philippines (expected 1.78%) enter J.P. Morgan GBI-EM, phased (Saudi MoF, 23-Apr-26)
 
 ## Sources
+- Gramercy EM Weekly, 24-Oct-26, https://www.gramercy.com/2026/10/em-weekly-october-24-2026/, tier 3.
+- SSGA, Emerging Market Debt Commentary Q3-26, https://www.ssga.com/us/en/institutional/insights/emerging-market-debt-commentary-q3-2026, tier 3 (return and spread figures excluded; J.P. Morgan flow citation secondary).
+- Saudi Ministry of Finance news, 23-Apr-26, https://www.mof.gov.sa/en/MediaCenter/news/Pages/News_23042026.aspx, tier 2.
+- Asharq Al-Awsat, Apr-26, https://english.aawsat.com/business/5265604-saudi-arabia-philippines-join-jpmorgan-emerging-market-bond-index-2027, tier 3.
+- Bloomberg, 30-Jun-26, https://www.bloomberg.com/news/articles/2026-06-30/emerging-market-bond-sales-hit-450-billion-as-spreads-narrow, tier 3 (headline only; paywalled).
+- Bloomberg, 23-Apr-26, "JPMorgan to add Philippine bonds to key EM index in 2027", tier 3 (headline only).
 - Jonathan Fortun EM Sovereign Bond Issuance Tracker, 08-Oct-26, https://jonathanfortun.com/data/em/sovereign-issuance, tier 4.
-- Saudi Ministry of Finance news, 23-Apr-26, https://www.mof.gov.sa/en/mediacenter/news/Pages/news_23042026.aspx, tier 2.
-- Bloomberg, "JPMorgan to add Philippine bonds to key EM index in 2027", 23-Apr-26, https://www.bloomberg.com/news/articles/2026-04-23/jpmorgan-to-add-philippine-bonds-to-key-em-index-in-2027, tier 3 (headline and search summary; paywalled).
-- Asharq Al-Awsat, "Saudi Arabia, Philippines to Join JPMorgan Emerging Market Bond Index in 2027", Apr-26, https://english.aawsat.com/business/5265604-saudi-arabia-philippines-join-jpmorgan-emerging-market-bond-index-2027, tier 3.
-- Global X, EMBD Q2-26 commentary, https://www.globalxetfs.com/articles/global-x-emerging-markets-bond-etf-embd-2-q26-commentary, tier 3.
 - CreditSights, Emerging Markets 2026 Outlook, https://know.creditsights.com/emerging-markets-2026-outlook/, tier 3 (search summary).
+- Global X, EMBD Q2-26 commentary, https://www.globalxetfs.com/articles/global-x-emerging-markets-bond-etf-embd-2-q26-commentary, tier 3.
 - Gramercy EM Weekly, 12-Sep-26, http://www.gramercy.com/2026/09/em-weekly-september-12-2026/, tier 3.
 - Nairametrics, 14-Sep-26, https://nairametrics.com/2026/09/14/j-p-morgan-includes-nigeria-in-new-emerging-market-bond-index-with-7-4-weight/, tier 3.
-- Advisor Perspectives, 16-Sep-25, on the GBI-EM cap change, tier 3 (page not opened).
+- Advisor Perspectives, 16-Sep-25, on the GBI-EM cap change, tier 3.
 - Janus Henderson, EM sovereign issuance and currency diversification (data to 30-Sep-25), tier 3.
-- J.P. Morgan Asset Management, EMD investment themes Q1-26, tier 3.
-- iProfesional, Argentina EMBI+ exit, https://www.iprofesional.com/economia/438992-cambio-para-riesgo-pais-jp-morgan-excluyo-argentina-de-indice-clave, date unclear, tier 3.
-- knowledge/README.md and knowledge/frameworks/sovereign-credit.md (repo), tier 2 (method).
-- Previous truth document, run 2026-10-09_0829 (repo), tier 2.
-- Claude position for this run, 20-Oct-26, used to locate sources.
+- knowledge/README.md, knowledge/frameworks/sovereign-credit.md and previous truth document, run 2026-10-20_1000 (repo), tier 2.
+- Claude position for this run, 29-Oct-26, used to locate sources.
