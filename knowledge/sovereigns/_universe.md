@@ -56,7 +56,7 @@ _Status table regenerated 29-Oct-26 by the pipeline from knowledge pages and rep
 | Tajikistan | `knowledge/sovereigns/tajikistan.md` | `reports/tajikistan-sovereign-credit.md` | 08-Oct-26 | 8 |  |
 | Thailand | `knowledge/sovereigns/thailand.md` | none yet |  |  |  |
 | Tunisia | `knowledge/sovereigns/tunisia.md` | `reports/tunisia-sovereign-credit.md` | 08-Oct-26 | 5 | Ratings: Fitch B- (Stable) [08-Sep-26]; Moody's Caa1 (Stable) [16-Jul-26]. (Fitch / Moody's, 08-Sep-26) |
-| Turkey | `knowledge/sovereigns/turkey.md` | `reports/turkey-sovereign-credit.md` | 27-Oct-26 | 13 | | Real GDP growth | 2.8 % | 2026E | Fitch forecast via Voice of Emirates | |
+| Turkey | `knowledge/sovereigns/turkey.md` | `reports/turkey-sovereign-credit.md` | 27-Oct-26 | 13 | | Real GDP growth | 2.8 % | 2026F | Fitch projection via Hürriyet Daily News | |
 | UAE credit | `knowledge/sovereigns/uae-credit.md` | none yet |  |  |  |
 | UAE | `knowledge/sovereigns/uae.md` | `reports/uae-sovereign-credit.md` | 09-Oct-26 | 7 |  |
 | Ukraine | `knowledge/sovereigns/ukraine.md` | `reports/ukraine-sovereign-credit.md` | 28-Oct-26 | 12 | Ratings: S&P CCC+/Stable (22-Jan-26), Fitch CCC (22-Dec-25), Moody's Ca/Caa3 (Rating Agencies, Jan-26) |

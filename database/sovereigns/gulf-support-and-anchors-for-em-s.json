@@ -1,11 +1,11 @@
 {
   "country": "Gulf support and anchors for EM sovereigns",
-  "region": "Thematic (Gulf donors; EM recipients Pakistan, Egypt, Bahrain)",
-  "fiscal_year": "Not applicable (thematic topic, not a single sovereign)",
+  "region": "Multi-country (Gulf creditors; EM recipients Egypt, Pakistan, Bahrain)",
+  "fiscal_year": "Calendar year",
   "commodity_exposure": {
-    "value": "Thematic page, not a single sovereign. Oil price (Brent) sets Gulf fiscal capacity for deposits and investments; no 2026 Brent level was sourced.",
-    "source": "Adjudicated document, Gulf support and anchors for EM sovereigns",
-    "asof": "21-Oct-26"
+    "value": "Oil: the Brent level sets Gulf fiscal capacity to fund deposits and investments (no 2026 Brent level sourced)",
+    "source": "Adjudicated document, Open item 10",
+    "asof": "29-Oct-26"
   },
   "politics": {
     "next_election": null,
@@ -18,13 +18,19 @@
   "series": {},
   "series_sources": {},
   "slug": "gulf-support-and-anchors-for-em-s",
-  "asof": "21-Oct-26",
-  "run": "2026-10-21_0800_gulf-support-and-anchors-for-em-sovereigns",
+  "asof": "29-Oct-26",
+  "run": "2026-10-29_0800_gulf-support-and-anchors-for-em-sovereigns",
   "derived": {},
   "history": [
     {
       "asof": "09-Oct-26",
       "run": "2026-10-09_0838_gulf-support-and-anchors-for-em-sovereigns",
+      "indicators": {},
+      "derived": {}
+    },
+    {
+      "asof": "21-Oct-26",
+      "run": "2026-10-21_0800_gulf-support-and-anchors-for-em-sovereigns",
       "indicators": {},
       "derived": {}
     }

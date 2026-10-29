@@ -40508,12 +40508,12 @@ window.SOVEREIGNS = [
  {
   "slug": "gulf-support-and-anchors-for-em-s",
   "country": "Gulf support and anchors for EM sovereigns",
-  "region": "Thematic (Gulf donors; EM recipients Pakistan, Egypt, Bahrain)",
+  "region": "Multi-country (Gulf creditors; EM recipients Egypt, Pakistan, Bahrain)",
   "group": "Middle East and North Africa",
   "ceemea": true,
-  "asof": "21-Oct-26",
+  "asof": "29-Oct-26",
   "fx_regime": null,
-  "commodity": "Thematic page, not a single sovereign. Oil price (Brent) sets Gulf fiscal capacity for deposits and investments; no 2026 Brent level was sourced.",
+  "commodity": "Oil: the Brent level sets Gulf fiscal capacity to fund deposits and investments (no 2026 Brent level sourced)",
   "ratings": {},
   "imf": {},
   "politics": {

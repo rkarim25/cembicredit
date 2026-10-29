@@ -18,6 +18,15 @@
     "path": "reports/frontier-sovereign-restructurings-common-framework-pipeline-.md"
   },
   {
+    "topic": "Gulf support and anchors for EM sovereigns",
+    "slug": "gulf-support-and-anchors-for-em-sovereigns",
+    "updated": "29-Oct-26",
+    "status": "Draft",
+    "open_items": 12,
+    "run": "2026-10-29_0800_gulf-support-and-anchors-for-em-sovereigns",
+    "path": "reports/gulf-support-and-anchors-for-em-sovereigns.md"
+  },
+  {
     "topic": "EM macro regime: US rates, dollar, commodities and risk appetite",
     "slug": "em-macro-regime-us-rates-dollar-commodities-and-risk-appetit",
     "updated": "28-Oct-26",
@@ -142,15 +151,6 @@
     "open_items": 11,
     "run": "2026-10-22_1200_turkey",
     "path": "reports/turkey.md"
-  },
-  {
-    "topic": "Gulf support and anchors for EM sovereigns",
-    "slug": "gulf-support-and-anchors-for-em-sovereigns",
-    "updated": "21-Oct-26",
-    "status": "Draft",
-    "open_items": 11,
-    "run": "2026-10-21_0800_gulf-support-and-anchors-for-em-sovereigns",
-    "path": "reports/gulf-support-and-anchors-for-em-sovereigns.md"
   },
   {
     "topic": "Local-currency EM rates: ex-ante real rates and FX carry ranking",
