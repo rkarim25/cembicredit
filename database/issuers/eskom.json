@@ -558,7 +558,7 @@
     "confirmation_status": "Estimated",
     "call_time": "11:00 Johannesburg",
     "ir_webcast_url": "https://www.eskom.co.za/investor-relations/",
-    "days_to_earnings": 31
+    "days_to_earnings": 30
   },
   "management_questions": [
     {
@@ -997,6 +997,19 @@
       "date": "2026-10-29",
       "period_name": "2026-10-29",
       "timestamp": "2026-10-29T05:19:11.368016",
+      "rating": "B / B-",
+      "price": 99.0,
+      "ytm": 8.5,
+      "spread_bp": 445,
+      "net_leverage": 6.8,
+      "ebitda": 2200.0,
+      "fcf": -1991.7,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-30",
+      "period_name": "2026-10-30",
+      "timestamp": "2026-10-30T05:17:56.262025",
       "rating": "B / B-",
       "price": 99.0,
       "ytm": 8.5,

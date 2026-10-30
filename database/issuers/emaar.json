@@ -331,7 +331,7 @@
     "confirmation_status": "Confirmed",
     "call_time": "15:00 Dubai",
     "ir_webcast_url": "https://properties.emaar.com/en/investor-relations/",
-    "days_to_earnings": 12
+    "days_to_earnings": 11
   },
   "management_questions": [
     {
@@ -763,6 +763,19 @@
       "date": "2026-10-29",
       "period_name": "2026-10-29",
       "timestamp": "2026-10-29T05:19:11.368016",
+      "rating": "BBB / Baa2",
+      "price": 100.2,
+      "ytm": 5.15,
+      "spread_bp": 95,
+      "net_leverage": -1.51,
+      "ebitda": 5217.8,
+      "fcf": 3813.4,
+      "guidance_status": "On Track"
+    },
+    {
+      "date": "2026-10-30",
+      "period_name": "2026-10-30",
+      "timestamp": "2026-10-30T05:17:56.262025",
       "rating": "BBB / Baa2",
       "price": 100.2,
       "ytm": 5.15,

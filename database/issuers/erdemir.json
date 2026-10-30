@@ -557,7 +557,7 @@
     "confirmation_status": "Estimated",
     "call_time": "18:00 Istanbul",
     "ir_webcast_url": "https://www.erdemir.com.tr/investor-relations/",
-    "days_to_earnings": 5
+    "days_to_earnings": 4
   },
   "management_questions": [
     {
@@ -996,6 +996,19 @@
       "date": "2026-10-29",
       "period_name": "2026-10-29",
       "timestamp": "2026-10-29T05:19:11.368016",
+      "rating": "BB- / B1",
+      "price": 98.5,
+      "ytm": 7.95,
+      "spread_bp": 355,
+      "net_leverage": 2.12,
+      "ebitda": 850.0,
+      "fcf": -162.4,
+      "guidance_status": "Ahead of Target"
+    },
+    {
+      "date": "2026-10-30",
+      "period_name": "2026-10-30",
+      "timestamp": "2026-10-30T05:17:56.262025",
       "rating": "BB- / B1",
       "price": 98.5,
       "ytm": 7.95,
