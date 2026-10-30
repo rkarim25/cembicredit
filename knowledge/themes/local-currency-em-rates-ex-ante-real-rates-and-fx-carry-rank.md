@@ -24,3 +24,8 @@ _Created by the pipeline on 09-Oct-26. Facts below are dated and sourced; views 
 - [Monetary] South Africa: CPI 4.4% y/y in Aug-26, core 4.1% (Stats SA via Trading Economics and Rio Times, 23-Sep-26)
 - [Calendar] 22-Oct-26 CBRT MPC meeting, with a 100bp cut to 36% as the survey and economist consensus (Hürriyet Daily News, 16-Oct-26)
 - [Calendar] 21-Jan-27 CBRT MPC meeting (Hürriyet Daily News, week of 19-Oct-26)
+
+### 30-Oct-26 (run 2026-10-30_1755_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
+- [Monetary] Turkey: CBRT cut the policy rate 100bp to 36% on 22-Oct-26, overnight lending rate 39%, borrowing rate 34.5% (Hürriyet Daily News, 22-Oct-26)
+- [Monetary] Brazil: Selic was 14.00% before the 16-Sep-26 cut to 13.75%. Focus end-2026 Selic median later fell to 13.25% (Folha PE and DGABC, Sep–Oct-26)
+- [Monetary] South Africa: CPI 4.5% y/y and 0.4% m/m in Sep-26, core 4.0%, against 4.7% expected (Stats SA via Trading Economics, 21-Oct-26)
