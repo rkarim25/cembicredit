@@ -60,3 +60,12 @@ _Created by the pipeline on 09-Oct-26. Facts below are dated and sourced; views 
 - [Restructuring] GDP warrants reported exchanged on 24-Dec (year unconfirmed, probably 2025): Series C 2032 US$3.497bn, Series B 2030/2034 US$16.9m each, 99.06% support (intellinews, undated)
 - [Calendar] Nov-26 IMF mission expected; Dec-26 combined 2nd and 3rd EFF reviews targeted (Interfax, 16-Oct-26)
 - [Calendar] 31-Mar-27 Paris Club official bilateral debt service suspension expires (Paris Club, Mar-23; to be reconfirmed)
+
+### 30-Oct-26 (run 2026-10-30_2155_oil-and-em-credit-exporters-versus-importers)
+- [Market] Brent 112.44 on 30-Oct-26; Brent +13% in October; Dec contract USD 116.08, Jan USD 112.19 (Trading Economics, Financefeeds, 30-Oct-26)
+- [Market] IMF October WEO assumes Hormuz reopens gradually from Mar-27 and normalises by Oct-27; EM growth 3.7% and EM inflation 5.7% in 2026 (Hans India and The Star summaries of IMF WEO, 13-Oct-26)
+- [Market] BMI expects Brent above USD 100 in 4Q26 and above USD 110 in 1Q27 (Enterprise, 27-Oct-26)
+- [Snapshot] Moody's upgraded Egypt to B3 from Caa1, positive outlook, 16-Oct-26; public debt 81.8% of GDP at Jun-26; net international reserves USD 57bn at Sep-26 (Dabafinance; The National, 17-Oct-26)
+- [Calendar] Dec-26 final review of Egypt's IMF programme of about USD 8bn (MUFG Middle East Daily, 19-Oct-26)
+- [External] Pakistan current account FY26 deficit about USD 139m against surplus USD 1.84bn in FY25 (search summary of State Bank of Pakistan data, 2026; unverified)
+- [Snapshot] Fitch revised its 2026 global sovereign sector outlook to deteriorating (Enterprise, 11-Jun-26)

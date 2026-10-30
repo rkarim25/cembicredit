@@ -137,3 +137,4 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - Nov-26 IMF mission expected; Dec-26 combined 2nd and 3rd EFF reviews targeted (Interfax, 16-Oct-26) (Ukraine sovereign credit, run 2026-10-28_2041_ukraine-sovereign-credit)
 - Nov-26: second IMF technical mission to Mozambique; the first ended 21-Sep-26 (allAfrica, 21-Sep-26) (Frontier sovereign restructurings: Common Framework pipeline and precedents, run 2026-10-29_0241_frontier-sovereign-restructurings-common-framework-pipeline-)
 - Jan-27 Moody's sovereign review, day unconfirmed (Moody's last action Jan-26, pattern inferred, Low) (Turkey, run 2026-10-22_1200_turkey)
+- Dec-26 final review of Egypt's IMF programme of about USD 8bn (MUFG Middle East Daily, 19-Oct-26) (Oil and EM credit: exporters versus importers, run 2026-10-30_2155_oil-and-em-credit-exporters-versus-importers)
