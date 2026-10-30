@@ -9,6 +9,15 @@
     "path": "reports/local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank.md"
   },
   {
+    "topic": "Metinvest",
+    "slug": "metinvest",
+    "updated": "30-Oct-26",
+    "status": "Draft",
+    "open_items": 10,
+    "run": "2026-10-30_1955_metinvest",
+    "path": "reports/metinvest.md"
+  },
+  {
     "topic": "EM sovereign issuance, index flows and positioning",
     "slug": "em-sovereign-issuance-index-flows-and-positioning",
     "updated": "29-Oct-26",
@@ -160,15 +169,6 @@
     "open_items": 11,
     "run": "2026-10-22_1200_turkey",
     "path": "reports/turkey.md"
-  },
-  {
-    "topic": "Metinvest",
-    "slug": "metinvest",
-    "updated": "21-Oct-26",
-    "status": "Draft",
-    "open_items": 9,
-    "run": "2026-10-21_1200_metinvest",
-    "path": "reports/metinvest.md"
   },
   {
     "topic": "Akbank",

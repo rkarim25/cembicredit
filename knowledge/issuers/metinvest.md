@@ -27,6 +27,7 @@ _USD m unless the record says otherwise; audited years only._
 - Ratings recorded via Barclays: Moody's Caa3 Stable (Aug-26), S&P CCC+ Negative, Fitch CCC-; unverified (Barclays, Oct-26) [16-Oct-26]
 - Ratings via Barclays, unverified: Moody's Caa3 Stable (Aug-26), S&P CCC+ Negative, Fitch CCC- (Barclays, Oct-26) [21-Oct-26]
 - Ratings recorded via Barclays, unverified: Moody's Caa3 Stable (Aug-26), S&P CCC+ Negative, Fitch CCC- (Barclays, Oct-26) [26-Oct-26]
+- Ratings via Barclays, unverified: Moody's Caa3 Stable (Aug-26), S&P CCC+ Negative, Fitch CCC- (Barclays, Oct-26) [30-Oct-26]
 
 ## 1. Business and jurisdiction
 - Zaporizhstal halted from 11-Aug-26 after strikes on 11-Aug, 27-Aug and 12-Sep; force majeure to be declared on part of the contracts (Kurs.com.ua, Sep-26) [09-Oct-26]
@@ -37,6 +38,8 @@ _USD m unless the record says otherwise; audited years only._
 - JORC iron ore reserves 2.1bn tonnes (July-21 audit) (Barclays, Oct-26) [16-Oct-26]
 - Zaporizhstal struck on 11-Aug, 27-Aug, 12-Sep and 17-Sep-26 (17 missiles in total; 8 killed, 28 injured) and idle since 11-Aug-26 as of 17-Sep-26 (SteelOrbis, 17-Sep-26) [21-Oct-26]
 - Zaporizhstal idle since 11-Aug-26 after four strikes (11-Aug, 27-Aug, 12-Sep, 17-Sep); force majeure to be declared on part of contracts (SteelOrbis, 17-Sep-26; Kurs.com.ua, Sep-26) [26-Oct-26]
+- Zaporizhstal struck on 11-Aug, 27-Aug, 12-Sep and 17-Sep-26 (17 missiles in total; 8 killed, 28 injured) and idle since 11-Aug-26 as of 17-Sep-26 (SteelOrbis, 17-Sep-26) [30-Oct-26]
+- Non-Ukrainian re-rolling assets produced 1.5mt in 2025 and c.$150mn EBITDA, about 23% of group EBITDA ex-JVs (Barclays, Oct-26) [30-Oct-26]
 ## 2. Financials and liquidity
 - End-June 26: gross debt $1,057mn, cash $191mn, net debt $866mn, 1.2x LTM EBITDA ex-JVs (Metinvest H1 26, 14-Sep-26) [09-Oct-26]
 - H1 26: revenue $3,657mn, EBITDA ex-JVs $300mn, net loss $202mn (Metinvest H1 26, 14-Sep-26) [09-Oct-26]
@@ -48,6 +51,10 @@ _USD m unless the record says otherwise; audited years only._
 - H1 26: revenue $3,657mn, EBITDA ex-JVs $300mn, net loss $202mn, capex $89mn, interest paid $67mn (Metinvest H1 26, 14-Sep-26) [21-Oct-26]
 - FY25 EBITDA $765mn (down 24.2%) and net loss $191mn (Interfax-Ukraine, 23-Apr-26) [26-Oct-26]
 - Total debt fell 15% in 2025, from $1,705mn to $1,441mn (Interfax-Ukraine, 2026) [26-Oct-26]
+- FY25 EBITDA $765mn (down 24.2%), net loss $191mn (Interfax-Ukraine, 23-Apr-26) [30-Oct-26]
+- Total debt fell 15% in 2025, from $1,705mn to $1,441mn (Interfax-Ukraine, 2026) [30-Oct-26]
+- End-June 26: gross debt $1,057mn, cash $191mn, net debt $866mn, 1.2x LTM EBITDA ex-JVs (Metinvest H1 26, 14-Sep-26) [30-Oct-26]
+- H1 26: revenue $3,657mn, EBITDA ex-JVs $300mn, net loss $202mn, capex $89mn, interest paid $67mn (Metinvest H1 26, 14-Sep-26) [30-Oct-26]
 ## 3. Capital structure and documentation
 - 2027 notes: $332.354mn outstanding, due 01-Oct-27, coupon 7.650% paid 1-Mar and 1-Sep per the issuer page (Metinvest IR, 09-Oct-26) [09-Oct-26]
 - The 2029 notes are $500mn; coupon unconfirmed (H1 26 summary, 14-Sep-26) [09-Oct-26]
@@ -63,11 +70,17 @@ _USD m unless the record says otherwise; audited years only._
 - The 2027 coupon due 1-Mar-26 was paid on schedule (Forbes.ua, 02-Mar-26) [26-Oct-26]
 - The 2029 coupon at 7.75% was paid in May 2026 (Forbes.ua, 18-May-26) [26-Oct-26]
 - The 8.5% notes due 23-Apr-26 ($428mn) were repaid in full from internal cash (Interfax-Ukraine, 23-Apr-26) [26-Oct-26]
+- 2027 notes: $332.354mn, 7.650%, due 01-Oct-27, coupons 1-Mar and 1-Sep; $351mn total 2027 debt service (Metinvest IR, 09-Oct-26; Interfax-Ukraine, 23-Apr-26) [30-Oct-26]
+- 2029 notes: $500mn, 7.750%, due 17-Oct-29, coupons 17-May and 17-Nov; $550mn total 2029 debt service (metinvestholding.com, 16-Oct-26; Interfax-Ukraine, 23-Apr-26) [30-Oct-26]
+- The 8.5% notes due 23-Apr-26 ($428mn) were repaid in full from internal cash (Interfax-Ukraine, 23-Apr-26) [30-Oct-26]
+- The 2027 coupon due 1-Mar-26 was paid on schedule (Forbes.ua, 02-Mar-26) [30-Oct-26]
+- The 2029 coupon at 7.75% was paid in May 2026 (Forbes.ua, 18-May-26) [30-Oct-26]
 ## 4. Ownership, governance, sovereign links
 ## 5. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
 - Barclays levels: METINV 2027s c.87 cash / 23% yield; 2029s c.77 cash / 18% yield (Barclays, Oct-26) [16-Oct-26]
 - Barclays levels: 2027s c.87 cash / 23% yield; 2029s c.77 cash / 18% yield (Barclays, Oct-26) [21-Oct-26]
+- Barclays levels: 2027s c.87 cash / 23% yield; 2029s c.77 cash / 18% yield (Barclays, Oct-26) [30-Oct-26]
 ## 6. Catalysts and events
 - 01-Oct-27: $332mn 2027 notes mature (Metinvest IR, 09-Oct-26) [09-Oct-26]
 - 01-Oct-27: $332mn 7.65% notes mature (Metinvest IR, 09-Oct-26) [16-Oct-26]
@@ -76,10 +89,13 @@ _(levels from Reza via [BBG]; never from memory)_
 - 17-Oct-29: $500mn 7.750% notes mature (metinvestholding.com, 16-Oct-26) [21-Oct-26]
 - 01-Oct-27: $332.354mn 7.650% notes mature (Metinvest IR, 09-Oct-26) [26-Oct-26]
 - 17-Oct-29: $500mn 7.750% notes mature (metinvestholding.com, 16-Oct-26) [26-Oct-26]
+- 01-Oct-27: $332.354mn 7.650% notes mature (Metinvest IR, 09-Oct-26) [30-Oct-26]
+- 17-Oct-29: $500mn 7.750% notes mature (metinvestholding.com, 16-Oct-26) [30-Oct-26]
 ## 7. Questions for management
 - Does the company utilize any supply chain financing, reverse factoring, or vendor financing programs with banks, and are these liabilities classified under trade payables or financial debt?
 - What is the current undrawn committed revolving credit facility (RCF) capacity, when does it expire, and what are the specific financial covenant thresholds (e.g. Net Debt/EBITDA, Interest Coverage) with current headroom?
 - Force majeure to be declared on part of contracts after the Zaporizhstal and Kamet stoppages (Forbes.ua, 15-Sep-26) [21-Oct-26]
+- Force majeure to be declared on part of contracts after the Zaporizhstal and Kamet stoppages (Forbes.ua, 15-Sep-26) [30-Oct-26]
 ## Data sources
 - Issuer filings and investor relations site; exchange (RNS, Oslo Bors NewsWeb, SEC EDGAR, Euronext Dublin, local exchange).
 - Cognitive Credit when covered; the parsed archive is `database/cognitive_credit_models/metinvest_cognitive_credit.json` if present.
@@ -138,5 +154,23 @@ _(levels from Reza via [BBG]; never from memory)_
 - [Capital] The 8.5% notes due 23-Apr-26 ($428mn) were repaid in full from internal cash (Interfax-Ukraine, 23-Apr-26)
 - [Business] Zaporizhstal idle since 11-Aug-26 after four strikes (11-Aug, 27-Aug, 12-Sep, 17-Sep); force majeure to be declared on part of contracts (SteelOrbis, 17-Sep-26; Kurs.com.ua, Sep-26)
 - [Snapshot] Ratings recorded via Barclays, unverified: Moody's Caa3 Stable (Aug-26), S&P CCC+ Negative, Fitch CCC- (Barclays, Oct-26)
+- [Calendar] 01-Oct-27: $332.354mn 7.650% notes mature (Metinvest IR, 09-Oct-26)
+- [Calendar] 17-Oct-29: $500mn 7.750% notes mature (metinvestholding.com, 16-Oct-26)
+
+### 30-Oct-26 (run 2026-10-30_1955_metinvest)
+- [Capital] 2027 notes: $332.354mn, 7.650%, due 01-Oct-27, coupons 1-Mar and 1-Sep; $351mn total 2027 debt service (Metinvest IR, 09-Oct-26; Interfax-Ukraine, 23-Apr-26)
+- [Capital] 2029 notes: $500mn, 7.750%, due 17-Oct-29, coupons 17-May and 17-Nov; $550mn total 2029 debt service (metinvestholding.com, 16-Oct-26; Interfax-Ukraine, 23-Apr-26)
+- [Capital] The 8.5% notes due 23-Apr-26 ($428mn) were repaid in full from internal cash (Interfax-Ukraine, 23-Apr-26)
+- [Capital] The 2027 coupon due 1-Mar-26 was paid on schedule (Forbes.ua, 02-Mar-26)
+- [Capital] The 2029 coupon at 7.75% was paid in May 2026 (Forbes.ua, 18-May-26)
+- [Financials] FY25 EBITDA $765mn (down 24.2%), net loss $191mn (Interfax-Ukraine, 23-Apr-26)
+- [Financials] Total debt fell 15% in 2025, from $1,705mn to $1,441mn (Interfax-Ukraine, 2026)
+- [Financials] End-June 26: gross debt $1,057mn, cash $191mn, net debt $866mn, 1.2x LTM EBITDA ex-JVs (Metinvest H1 26, 14-Sep-26)
+- [Financials] H1 26: revenue $3,657mn, EBITDA ex-JVs $300mn, net loss $202mn, capex $89mn, interest paid $67mn (Metinvest H1 26, 14-Sep-26)
+- [Business] Zaporizhstal struck on 11-Aug, 27-Aug, 12-Sep and 17-Sep-26 (17 missiles in total; 8 killed, 28 injured) and idle since 11-Aug-26 as of 17-Sep-26 (SteelOrbis, 17-Sep-26)
+- [Business] Non-Ukrainian re-rolling assets produced 1.5mt in 2025 and c.$150mn EBITDA, about 23% of group EBITDA ex-JVs (Barclays, Oct-26)
+- [Management] Force majeure to be declared on part of contracts after the Zaporizhstal and Kamet stoppages (Forbes.ua, 15-Sep-26)
+- [Market] Barclays levels: 2027s c.87 cash / 23% yield; 2029s c.77 cash / 18% yield (Barclays, Oct-26)
+- [Snapshot] Ratings via Barclays, unverified: Moody's Caa3 Stable (Aug-26), S&P CCC+ Negative, Fitch CCC- (Barclays, Oct-26)
 - [Calendar] 01-Oct-27: $332.354mn 7.650% notes mature (Metinvest IR, 09-Oct-26)
 - [Calendar] 17-Oct-29: $500mn 7.750% notes mature (metinvestholding.com, 16-Oct-26)

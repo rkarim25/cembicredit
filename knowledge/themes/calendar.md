@@ -45,7 +45,6 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 | tbc | NBR (Romania) | Autumn monetary policy meeting date not found in the sources checked (2025 pattern: 12-Nov); confirm on bnr.ro | [REZA] or next Romania run |
 
 ## From runs (date first; verify before relying on it)
-- 16-Oct-26 S&P scheduled sovereign review (BB-/Stable; hold expected) (Türkiye Today, 02-Oct-26) (Turkey, run 2026-10-14_0800_turkey)
 - 19-Oct-26: China 3Q26 GDP release (position source, unverified against the NBS calendar, 09-Oct-26) (China and EM: growth, commodity demand and China as a creditor, run 2026-10-09_0826_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
 - 21-Oct-26: Medium-Term Budget Policy Statement delivered by Finance Minister Godongwana (IOL, EWN, AmCham, 21-Oct-26) (South Africa sovereign credit, run 2026-10-26_1200_south-africa-sovereign-credit)
 - 22-Oct-26 CBRT MPC meeting, with a 100bp cut to 36% as the survey and economist consensus (Hürriyet Daily News, 16-Oct-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-21_1000_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
@@ -94,7 +93,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 30-Jun-27 target date for 375MW wind/storage licence conversion (issuer record, 23-Sep-26) (Zorlu Enerji, run 2026-10-09_0906_zorlu-enerji)
 - 09-Aug-27: general election (Kenya Times, Oct-26) (Kenya sovereign credit, run 2026-10-23_1200_kenya-sovereign-credit)
 - 19-Sep-27: Maturity of $150m 8.25% Eurobond (US066716AB78). (Ministry of Finance, 15-Jul-26) (Tunisia sovereign credit, run 2026-10-08_1811_tunisia-sovereign-credit)
-- 01-Oct-27: $332.354mn 7.650% notes mature (Metinvest IR, 09-Oct-26) (Metinvest, run 2026-10-21_1200_metinvest)
+- 01-Oct-27: $332.354mn 7.650% notes mature (Metinvest IR, 09-Oct-26) (Metinvest, run 2026-10-30_1955_metinvest)
 - 01-Oct-27: $332.354mn 7.650% notes mature (Metinvest IR, 09-Oct-26) (Metinvest Barclays report and model, run 2026-10-26_0800_metinvest-barclays-report-and-model)
 - 28-Nov-27: $1.50B 6.500% Eurobond maturity bullet (DMO, Sep-26) (Nigeria sovereign credit, run 2026-10-08_1158_nigeria-sovereign-credit)
 - 01-Jan-28 Enactment of 5% Personal Income Tax under Royal Decree No. 56/2025 (Official Gazette, Jul-25). (Oman sovereign credit, run 2026-10-08_1337_oman-sovereign-credit)
@@ -114,7 +113,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 01-Sep-29 Maturity of $310.7m USD 5.125% Eurobond (XS1678623064). (Luxembourg Stock Exchange, 08-Oct-26) (Azerbaijan sovereign credit, run 2026-10-08_1458_azerbaijan-sovereign-credit)
 - 26-Sep-29 Eurobond maturity USD 3.95% 2029 (Ministry of Finance, 26-Sep-29) (Armenia sovereign credit, run 2026-10-08_1535_armenia-sovereign-credit)
 - 17-Oct-29: $500mn 7.750% notes mature (metinvestholding.com, 16-Oct-26) (Metinvest Barclays report and model, run 2026-10-26_0800_metinvest-barclays-report-and-model)
-- 17-Oct-29: $500mn 7.750% notes mature (metinvestholding.com, 16-Oct-26) (Metinvest, run 2026-10-21_1200_metinvest)
+- 17-Oct-29: $500mn 7.750% notes mature (metinvestholding.com, 16-Oct-26) (Metinvest, run 2026-10-30_1955_metinvest)
 - 07-Jul-30 Maturity of $1.25bn JOR 5.850% Eurobond (XS2199272662) (Ministry of Finance, Sep-26). (Jordan sovereign credit, run 2026-10-08_1404_jordan-sovereign-credit)
 - 25-Nov-30 Maturity of $555m USD 3.700% Eurobond (XS2263765856). (Luxembourg Stock Exchange, 08-Oct-26) (Uzbekistan sovereign credit, run 2026-10-08_1444_uzbekistan-sovereign-credit)
 - 25-Jan-31 Maturity of $1.75bn OMAN 6.250% Eurobond (Ministry of Finance, Sep-26). (Oman sovereign credit, run 2026-10-08_1337_oman-sovereign-credit)
