@@ -45,7 +45,6 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 | tbc | NBR (Romania) | Autumn monetary policy meeting date not found in the sources checked (2025 pattern: 12-Nov); confirm on bnr.ro | [REZA] or next Romania run |
 
 ## From runs (date first; verify before relying on it)
-- 19-Oct-26: China 3Q26 GDP release (position source, unverified against the NBS calendar, 09-Oct-26) (China and EM: growth, commodity demand and China as a creditor, run 2026-10-09_0826_china-and-em-growth-commodity-demand-and-china-as-a-creditor)
 - 21-Oct-26: Medium-Term Budget Policy Statement delivered by Finance Minister Godongwana (IOL, EWN, AmCham, 21-Oct-26) (South Africa sovereign credit, run 2026-10-26_1200_south-africa-sovereign-credit)
 - 22-Oct-26 CBRT MPC meeting, with a 100bp cut to 36% as the survey and economist consensus (Hürriyet Daily News, 16-Oct-26) (Local-currency EM rates: ex-ante real rates and FX carry ranking, run 2026-10-21_1000_local-currency-em-rates-ex-ante-real-rates-and-fx-carry-rank)
 - 22-Oct-26 CBRT MPC meeting; about 100bp cut expected (Intellinews, Sep-26) (Akbank, run 2026-10-09_0912_akbank)
@@ -62,7 +61,7 @@ Maintained by hand and by runs. Add an entry with its source; remove it after th
 - 15-Nov-26: BNA Monetary Policy Committee meeting (BNA, Sep-26) (Angola sovereign credit, run 2026-10-08_2133_angola-sovereign-credit)
 - 15-Nov-26: Banco de Moçambique Monetary Policy Committee meeting (Banco de Moçambique, 01-Oct-26). (Mozambique sovereign credit, run 2026-10-08_1751_mozambique-sovereign-credit)
 - 15-Nov-26: Fitch ratings review date for Benin. (Fitch Ratings, Jun-26) (Benin sovereign credit, run 2026-10-08_1832_benin-sovereign-credit)
-- 15-Nov-26: semi-annual coupon of $22.75M on the 13.00% notes due 15-May-28 (repo, 07-Oct-26) (Pearl Petroleum, run 2026-10-22_1000_pearl-petroleum)
+- 15-Nov-26: semi-annual coupon of $22.75M on the 13.00% notes due 15-May-28 (repo, 07-Oct-26) (Pearl Petroleum, run 2026-11-02_0800_pearl-petroleum)
 - 19-Nov-26: SARB MPC announcement reported in search results; 21-Nov-26 is a Saturday and not a valid date (search summary, Oct-26; computed) (South Africa sovereign credit, run 2026-10-26_1200_south-africa-sovereign-credit)
 - 23-Nov-26: Bank of Ghana 133rd MPC meeting (Bank of Ghana calendar, Sep-26) (Ghana sovereign credit, run 2026-10-23_1000_ghana-sovereign-credit)
 - 24-Nov-26: Central Bank of Nigeria 308th Monetary Policy Committee meeting (CBN calendar, Sep-26) (Nigeria sovereign credit, run 2026-10-08_1158_nigeria-sovereign-credit)

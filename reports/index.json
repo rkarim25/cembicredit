@@ -153,15 +153,6 @@
     "path": "reports/kenya-sovereign-credit.md"
   },
   {
-    "topic": "Pearl Petroleum",
-    "slug": "pearl-petroleum",
-    "updated": "22-Oct-26",
-    "status": "Draft",
-    "open_items": 12,
-    "run": "2026-10-22_1000_pearl-petroleum",
-    "path": "reports/pearl-petroleum.md"
-  },
-  {
     "topic": "Turkey",
     "slug": "turkey",
     "updated": "22-Oct-26",
@@ -574,5 +565,14 @@
     "open_items": 4,
     "run": "2026-10-08_1730_zambia-sovereign-credit",
     "path": "reports/zambia-sovereign-credit.md"
+  },
+  {
+    "topic": "Pearl Petroleum",
+    "slug": "pearl-petroleum",
+    "updated": "02-Nov-26",
+    "status": "Draft",
+    "open_items": 11,
+    "run": "2026-11-02_0800_pearl-petroleum",
+    "path": "reports/pearl-petroleum.md"
   }
 ]

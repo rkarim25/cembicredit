@@ -27,6 +27,7 @@ _USD m unless the record says otherwise; audited years only._
 - No public agency rating; Fitch withdrew in Apr-20 (07-Oct-26 capture) [14-Oct-26]
 - $350M 13.00% senior secured notes due 15-May-28, ISIN NO0013387860, priced at 100 on issue (Zawya; repo, 07-Oct-26) [22-Oct-26]
 - No public agency rating; Fitch withdrew in Apr-20 (07-Oct-26 capture) [22-Oct-26]
+- No public agency rating; Fitch withdrew in Apr-20 (07-Oct-26 capture) [02-Nov-26]
 
 ## 1. Business and jurisdiction
 - Khor Mor production suspended 28-Feb-26 on the US/Israel–Iran conflict, announced 05-Mar-26 for more than 700 MMscf/d, resumed 13-Apr-26 (Offshore Technology, Mar-26; PUKmedia, 13-Apr-26) [14-Oct-26]
@@ -37,6 +38,11 @@ _USD m unless the record says otherwise; audited years only._
 - Khor Mor suspended again 16-Jul-26 and restored 27/28-Jul-26 after assurances from Erbil and Baghdad (Peregraf, 27-Jul-26) [22-Oct-26]
 - Supply of 100 MMscf/d to the Federal Ministry of Electricity (Taza plant, one-year agreement) began 04-Aug-26, additional to 655 MMscf/d to the KRG (Iraq Oil Report, Aug-26) [22-Oct-26]
 - KRG alleged breach of contract on 06-Aug-26; Pearl rejected it on 07-Aug-26 and said Erbil received the agreement in Jan-26 (Rudaw; Iraq Business News, 07-Aug-26; Peregraf, 07-Aug-26) [22-Oct-26]
+- Khor Mor hit by a rocket attack on a storage tank on 26-Nov-25, cutting about 3,000 MW of Kurdistan power (Oman Observer, 27-Nov-25) [02-Nov-26]
+- Khor Mor suspended 28-Feb-26 on the US/Israel–Iran conflict, resumed 13-Apr-26 (Offshore Technology, Mar-26; MEES, 17-Apr-26; PUKmedia, 13-Apr-26) [02-Nov-26]
+- Khor Mor suspended 16-Jul-26 and restored 27/28-Jul-26 (Peregraf, 27-Jul-26) [02-Nov-26]
+- Supply of 100 MMscf/d to the Federal Ministry of Electricity (Taza plant, one-year agreement) began 04-Aug-26, additional to 655 MMscf/d to the KRG (Iraq Oil Report, Aug-26) [02-Nov-26]
+- KRG alleged breach on 06-Aug-26; Pearl rejected it on 07-Aug-26 and said Erbil received the agreement in Jan-26 (Rudaw; Iraq Business News, 07-Aug-26; Peregraf, 07-Aug-26) [02-Nov-26]
 ## 2. Financials and liquidity
 - KRI collection rate about 78% in 1H26; Dana Gas collected $68M in 1Q26 and $100M in 2Q26 (Dana Gas results, Aug-26) [14-Oct-26]
 - Cash at Pearl $95M at 30-Jun-26 (Dana Gas 2Q26 results) [14-Oct-26]
@@ -45,15 +51,26 @@ _USD m unless the record says otherwise; audited years only._
 - KRI collection rate about 78% in 1H26; Dana Gas collected $68M in 1Q26 and $100M in 2Q26 per the repo log; conflicts with the 1Q26 press figures above (Dana Gas results, Aug-26) [22-Oct-26]
 - Cash at Pearl $95M at 30-Jun-26 (Dana Gas 2Q26 results) [22-Oct-26]
 - FY24 revenue $642M and EBITDA $521M; Q1-25 revenue $166M and EBITDA $138M (07-Oct-26 capture, BBG) [22-Oct-26]
+- Q1-26 (quarter to 31-Mar-26): revenue $307.9M and EBITDA $265.6M, including $137.5M of KRG gas billing for Nov-18 to Mar-24 net of prior provisions (Pearl Q1-26 update, Euronext Oslo, 14-May-26) [02-Nov-26]
+- Q1-26 excluding the one-off: revenue comparable to 1Q25 (revenue $165.9M, EBITDA $137.7M); production 125.1k boed against 126.2k in Q1-25 (Pearl Q1-26 update, 14-May-26) [02-Nov-26]
+- Cash at Pearl $95M at 30-Jun-26; basis (100% or 35%) unconfirmed (Dana Gas 2Q26 results, Aug-26) [02-Nov-26]
+- KRI collection rate 78% in 1H26, collections of $104M, Pearl dividend to Dana Gas $61M (Dana Gas H1-26 results, 07-Aug-26) [02-Nov-26]
+- Dana Gas 1Q26 press: KRI receipts of $60M, a 100% collection rate and an $18M advance linked to direct condensate and LPG sales (Zawya, 1Q26 results); conflicts with the repo log of $68M in 1Q26 and $100M in 2Q26 [02-Nov-26]
+- FY24 revenue $642M and EBITDA $521M; Q1-25 revenue $166M and EBITDA $138M (07-Oct-26 capture, BBG) [02-Nov-26]
 ## 3. Capital structure and documentation
 - Floating facility BL370608 Corp matures 08-Sep-28, size unstated (07-Oct-26 capture, BBG) [14-Oct-26]
 - Floating facility BL370608 Corp matures 08-Sep-28, size unstated (07-Oct-26 capture, BBG) [22-Oct-26]
+- At 31-Mar-26: cash $271M including $86.6M in DSRA; debt $574M; net debt $303M (Pearl Q1-26 update, 14-May-26) [02-Nov-26]
+- $350M 13.00% senior secured notes due 15-May-28, ISIN NO0013387860, issued at 100, unrated (Zawya; repo, 07-Oct-26) [02-Nov-26]
+- Floating facility BL370608 Corp matures 08-Sep-28, size unstated (07-Oct-26 capture, BBG) [02-Nov-26]
+- Chemchemal gross programme $150M, revised from $160M, first well expected around end-2026 or early 2027 (Dana Gas H1-26 call transcript, Aug-26) [02-Nov-26]
 ## 4. Ownership, governance, sovereign links
 ## 5. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
 ## 6. Catalysts and events
 - 15-Nov-26: semi-annual coupon of $22.75M on the 13.00% notes due 15-May-28 (repo, 07-Oct-26) [14-Oct-26]
 - 15-Nov-26: semi-annual coupon of $22.75M on the 13.00% notes due 15-May-28 (repo, 07-Oct-26) [22-Oct-26]
+- 15-Nov-26: semi-annual coupon of $22.75M on the 13.00% notes due 15-May-28 (repo, 07-Oct-26) [02-Nov-26]
 ## 7. Questions for management
 - Under the 100 MMscf/d Kirkuk Gas Sales Agreement commenced in August 2026, what is the precise settlement currency, paying entity, and clearance channel? Are payments settled in unencumbered offshore USD through the Trade Bank of Iraq (TBI) and the NY Fed clearance window, or are funds credited in Iraqi Dinars (IQD) at the official CBI rate (1,310 IQD) subject to central bank conversion queues? If the KRG attempts to interfere with the physical valve at the border, does the MOE contract contain an enforceable sovereign take-or-pay guarantee backed by federal oil revenues?
 - With the Iraq-Turkey Pipeline (ITP) closed since March 2023, what is the exact netback clearing mechanism for Khor Mor's ~18,000 bpd of condensate? What is the current realized dollar discount to Dated Brent across your primary local buyers (e.g., KAR Group / Bazian refinery), and what percentage of this revenue is received in clean cash versus non-cash offsets against KRG power invoices or local diesel barter?
@@ -64,6 +81,7 @@ _(levels from Reza via [BBG]; never from memory)_
 - Given that KM250 is fully commissioned and OMV/MOL/RWE hold 10% non-operated stakes each, have any of the European partners formally signaled intentions to exercise tag-along, drag-along, or pre-emption rights to divest their stakes to regional players, and how would a change of ownership in the 30% European block impact the change-of-control put option (at 101%) in the 2028 notes?
 - Pearl says the KRG has been in material arrears for more than three years (Peregraf, 07-Aug-26) [14-Oct-26]
 - Pearl says the KRG has been in material arrears for more than three years (Peregraf, 07-Aug-26) [22-Oct-26]
+- Pearl says the KRG has been in material arrears for more than three years (Peregraf, 07-Aug-26) [02-Nov-26]
 ## Data sources
 - Issuer filings and investor relations site; exchange (RNS, Oslo Bors NewsWeb, SEC EDGAR, Euronext Dublin, local exchange).
 - Cognitive Credit when covered; the parsed archive is `database/cognitive_credit_models/pearl_cognitive_credit.json` if present.
@@ -99,3 +117,23 @@ _(no dated notes in the record yet)_
 - [Financials] FY24 revenue $642M and EBITDA $521M; Q1-25 revenue $166M and EBITDA $138M (07-Oct-26 capture, BBG)
 - [Capital] Floating facility BL370608 Corp matures 08-Sep-28, size unstated (07-Oct-26 capture, BBG)
 - [Management] Pearl says the KRG has been in material arrears for more than three years (Peregraf, 07-Aug-26)
+
+### 02-Nov-26 (run 2026-11-02_0800_pearl-petroleum)
+- [Financials] Q1-26 (quarter to 31-Mar-26): revenue $307.9M and EBITDA $265.6M, including $137.5M of KRG gas billing for Nov-18 to Mar-24 net of prior provisions (Pearl Q1-26 update, Euronext Oslo, 14-May-26)
+- [Financials] Q1-26 excluding the one-off: revenue comparable to 1Q25 (revenue $165.9M, EBITDA $137.7M); production 125.1k boed against 126.2k in Q1-25 (Pearl Q1-26 update, 14-May-26)
+- [Capital] At 31-Mar-26: cash $271M including $86.6M in DSRA; debt $574M; net debt $303M (Pearl Q1-26 update, 14-May-26)
+- [Financials] Cash at Pearl $95M at 30-Jun-26; basis (100% or 35%) unconfirmed (Dana Gas 2Q26 results, Aug-26)
+- [Financials] KRI collection rate 78% in 1H26, collections of $104M, Pearl dividend to Dana Gas $61M (Dana Gas H1-26 results, 07-Aug-26)
+- [Financials] Dana Gas 1Q26 press: KRI receipts of $60M, a 100% collection rate and an $18M advance linked to direct condensate and LPG sales (Zawya, 1Q26 results); conflicts with the repo log of $68M in 1Q26 and $100M in 2Q26
+- [Financials] FY24 revenue $642M and EBITDA $521M; Q1-25 revenue $166M and EBITDA $138M (07-Oct-26 capture, BBG)
+- [Capital] $350M 13.00% senior secured notes due 15-May-28, ISIN NO0013387860, issued at 100, unrated (Zawya; repo, 07-Oct-26)
+- [Capital] Floating facility BL370608 Corp matures 08-Sep-28, size unstated (07-Oct-26 capture, BBG)
+- [Capital] Chemchemal gross programme $150M, revised from $160M, first well expected around end-2026 or early 2027 (Dana Gas H1-26 call transcript, Aug-26)
+- [Snapshot] No public agency rating; Fitch withdrew in Apr-20 (07-Oct-26 capture)
+- [Business] Khor Mor hit by a rocket attack on a storage tank on 26-Nov-25, cutting about 3,000 MW of Kurdistan power (Oman Observer, 27-Nov-25)
+- [Business] Khor Mor suspended 28-Feb-26 on the US/Israel–Iran conflict, resumed 13-Apr-26 (Offshore Technology, Mar-26; MEES, 17-Apr-26; PUKmedia, 13-Apr-26)
+- [Business] Khor Mor suspended 16-Jul-26 and restored 27/28-Jul-26 (Peregraf, 27-Jul-26)
+- [Business] Supply of 100 MMscf/d to the Federal Ministry of Electricity (Taza plant, one-year agreement) began 04-Aug-26, additional to 655 MMscf/d to the KRG (Iraq Oil Report, Aug-26)
+- [Business] KRG alleged breach on 06-Aug-26; Pearl rejected it on 07-Aug-26 and said Erbil received the agreement in Jan-26 (Rudaw; Iraq Business News, 07-Aug-26; Peregraf, 07-Aug-26)
+- [Management] Pearl says the KRG has been in material arrears for more than three years (Peregraf, 07-Aug-26)
+- [Calendar] 15-Nov-26: semi-annual coupon of $22.75M on the 13.00% notes due 15-May-28 (repo, 07-Oct-26)
