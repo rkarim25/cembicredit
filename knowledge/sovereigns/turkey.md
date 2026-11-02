@@ -54,6 +54,9 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Fitch BB-/Stable, affirmed 17-Jul-26 (Hürriyet Daily News, 18-Jul-26) [27-Oct-26]
 - Moody's Ba3/Stable, last action Jan-26 (day unconfirmed); periodic review without action 24-Jul-26 (Hürriyet Daily News, Jul-26) [27-Oct-26]
 - EUR 2bn 8-year Eurobond due Mar-34, 5.15% coupon, EUR 6.5bn orders, issued Feb-26 (AGBI, Feb-26) [27-Oct-26]
+- Fitch BB-/Stable, affirmed 17-Jul-26 (Hürriyet Daily News, 18-Jul-26) [02-Nov-26]
+- S&P BB-/Stable, affirmed 17-Apr-26; no new assessment at the 16-Oct-26 slot (Foreks, 17-Oct-26) [02-Nov-26]
+- Moody's Ba3/Stable, periodic review with no action 24-Jul-26; forecasts 29% inflation at end-2026, 24% at end-2027 and 3.4% growth in 2026 (Hürriyet Daily News, Jul-26) [02-Nov-26]
 
 ## 1. External position
 - Gross external debt $539.0B, 31.8% of GDP, at 30-Jun-26 (HMB, 30-Jun-26) [08-Oct-26]
@@ -80,6 +83,9 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Gross reserves incl. gold USD 186.7bn in Aug-26; net of predetermined 1y drains USD 137.1bn (IMF International Liquidity and reserve template, Aug-26) [27-Oct-26]
 - Gross external debt USD 539.0bn (31.8% of GDP); short-term external debt by remaining maturity USD 170.7bn, at 30-Jun-26 (HMB; TCMB, 30-Jun-26) [27-Oct-26]
 - Current account USD -23.6bn in 2026-Q1, USD -10.9bn in 2026-Q2; last four quarters USD -38.9bn (IMF BOP, 2026) [27-Oct-26]
+- Gross reserves incl. gold USD 171.6bn at 15-Oct-26 and USD 162.2bn at 23-Oct-26 (gold about USD 103bn, FX about USD 59bn); the 23-Oct-26 figure is second-hand (TCMB weekly data via Turkish press, Oct-26) [02-Nov-26]
+- Gross reserves incl. gold USD 188.2bn at 28-Aug-26, USD 174.4bn at 18-Sep-26, USD 167.4bn in week to 02-Oct-26 (TCMB via Türkiye Today, Oct-26) [02-Nov-26]
+- Fitch projects reserves of USD 167bn at end-2026 and coverage below the BB average (Hürriyet Daily News, 18-Jul-26) [02-Nov-26]
 ## 2. Fiscal position
 - Central government debt 29.5% of GDP at Q2-26 (HMB, 30-Jun-26) [08-Oct-26]
 - Central government budget deficit tracking about 5.2% of GDP for FY26, post-earthquake reconstruction outlays (HMB, Aug-26) [08-Oct-26]
@@ -104,6 +110,9 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - 1-week repo rate cut 100 bp to 36.00% on 22-Oct-26; overnight lending 39.00%, borrowing 34.50%; Sep-26 CPI 29.73% was the first print below 30% since Nov-21 (Hürriyet Daily News, 22-Oct-26) [27-Oct-26]
 - MPC guidance: policy to be tightened if the inflation outlook deteriorates significantly and persistently; meeting-by-meeting, 5% medium-term target (Hürriyet Daily News, 22-Oct-26) [27-Oct-26]
 - Core CPI 28.70% y/y in Sep-26 (TurkStat, 03-Oct-26); TCMB end-2026 inflation forecast 28%, raised from 26% (Intellinews, Sep-26) [27-Oct-26]
+- TCMB cut the one-week repo rate by 100bp to 36% on 22-Oct-26; overnight lending rate 39% (from 40%), overnight borrowing rate 34.5% (from 35.5%) (Hürriyet Daily News, Oct-26) [02-Nov-26]
+- 12-month inflation expectation 23.89% and year-end expectation 29.63% in the Oct-26 survey (TCMB survey via Hürriyet Daily News, Oct-26) [02-Nov-26]
+- Medium-Term Programme of 06-Sep-26 sets the end-2026 inflation forecast at 28.4% (secondary source, paywalled preview, 06-Sep-26) [02-Nov-26]
 ## 4. Growth and structure
 - Real GDP growth 3.4% for 2026E and nominal GDP $1,640.2B for 2026E (IMF WEO, 2026) [08-Oct-26]
 ## 5. Institutions, politics, willingness
@@ -115,6 +124,7 @@ Monthly series held: contingent_drains_usd_bn, cpi_yoy_pct, ctot_net_export_gdp_
 - Fitch flags a possible early election in late 2027 (Hürriyet Daily News, 18-Jul-26) [22-Oct-26]
 - SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17-18 Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor (Daily Sabah, 12-Oct-26) [27-Oct-26]
 - Fitch flags a possible early election in late 2027 (Fitch via Voice of Emirates, 18-Jul-26) [27-Oct-26]
+- Fitch flags a possible early election in late 2027 (Hürriyet Daily News, 18-Jul-26) [02-Nov-26]
 ## 6. IMF and official sector
 ## 7. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
@@ -124,6 +134,7 @@ _(levels from Reza via [BBG]; never from memory)_
 ## 8. Restructuring and recovery (if relevant)
 - SPK ordered 131 funds (about USD 18.3bn, TL890bn, 7.7% of fund portfolio value) into liquidation on 17–18-Sep-26; 17 funds settled on 08-Oct-26 with payments to about 44,000 investors; Is Bankasi and Ziraat named as liquidators for some funds; payout cap TL1m per investor (Daily Sabah, 12-Oct-26) [14-Oct-26]
 - SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17–18-Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor; no state guarantee for funds (Daily Sabah, 12-Oct-26) [22-Oct-26]
+- SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17–18-Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor; no state guarantee for funds (Daily Sabah, 12-Oct-26) [02-Nov-26]
 ## 9. Catalyst calendar
 - 16-Oct-26 S&P scheduled sovereign review (BB-/Stable; hold expected) (Türkiye Today, 02-Oct-26) [14-Oct-26]
 - 22-Oct-26 and 10-Dec-26 are the last two 2026 MPC meetings (Intellinews, Sep-26) [14-Oct-26]
@@ -132,6 +143,9 @@ _(levels from Reza via [BBG]; never from memory)_
 - 10-Dec-26 MPC meeting (Intellinews, Sep-26) [22-Oct-26]
 - Jan-27 Moody's sovereign review, day unconfirmed (Moody's last action Jan-26, pattern inferred, Low) [22-Oct-26]
 - 10-Dec-26 MPC, the last of 2026 (Intellinews, Sep-26) [27-Oct-26]
+- 03-Nov-26 Oct-26 CPI release (TurkStat, scheduled) [02-Nov-26]
+- 10-Dec-26 MPC meeting (Intellinews, Sep-26) [02-Nov-26]
+- Jan-27 Moody's sovereign review, day unconfirmed (pattern inferred from Jan-26 action, Low) [02-Nov-26]
 ## 10. Questions for the finance ministry / IMF mission
 
 ## Data sources
@@ -239,3 +253,19 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [Politics] SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17-18 Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor (Daily Sabah, 12-Oct-26)
 - [Politics] Fitch flags a possible early election in late 2027 (Fitch via Voice of Emirates, 18-Jul-26)
 - [Calendar] 10-Dec-26 MPC, the last of 2026 (Intellinews, Sep-26)
+
+### 02-Nov-26 (run 2026-11-02_1000_turkey)
+- [Monetary] TCMB cut the one-week repo rate by 100bp to 36% on 22-Oct-26; overnight lending rate 39% (from 40%), overnight borrowing rate 34.5% (from 35.5%) (Hürriyet Daily News, Oct-26)
+- [Monetary] 12-month inflation expectation 23.89% and year-end expectation 29.63% in the Oct-26 survey (TCMB survey via Hürriyet Daily News, Oct-26)
+- [Monetary] Medium-Term Programme of 06-Sep-26 sets the end-2026 inflation forecast at 28.4% (secondary source, paywalled preview, 06-Sep-26)
+- [Snapshot] Fitch BB-/Stable, affirmed 17-Jul-26 (Hürriyet Daily News, 18-Jul-26)
+- [Snapshot] S&P BB-/Stable, affirmed 17-Apr-26; no new assessment at the 16-Oct-26 slot (Foreks, 17-Oct-26)
+- [Snapshot] Moody's Ba3/Stable, periodic review with no action 24-Jul-26; forecasts 29% inflation at end-2026, 24% at end-2027 and 3.4% growth in 2026 (Hürriyet Daily News, Jul-26)
+- [External] Gross reserves incl. gold USD 171.6bn at 15-Oct-26 and USD 162.2bn at 23-Oct-26 (gold about USD 103bn, FX about USD 59bn); the 23-Oct-26 figure is second-hand (TCMB weekly data via Turkish press, Oct-26)
+- [External] Gross reserves incl. gold USD 188.2bn at 28-Aug-26, USD 174.4bn at 18-Sep-26, USD 167.4bn in week to 02-Oct-26 (TCMB via Türkiye Today, Oct-26)
+- [External] Fitch projects reserves of USD 167bn at end-2026 and coverage below the BB average (Hürriyet Daily News, 18-Jul-26)
+- [Politics] Fitch flags a possible early election in late 2027 (Hürriyet Daily News, 18-Jul-26)
+- [Restructuring] SPK ordered 131 funds (about USD 18.3bn, TL890bn) into liquidation on 17–18-Sep-26; 17 settled 08-Oct-26; payout cap TL1m per investor; no state guarantee for funds (Daily Sabah, 12-Oct-26)
+- [Calendar] 03-Nov-26 Oct-26 CPI release (TurkStat, scheduled)
+- [Calendar] 10-Dec-26 MPC meeting (Intellinews, Sep-26)
+- [Calendar] Jan-27 Moody's sovereign review, day unconfirmed (pattern inferred from Jan-26 action, Low)

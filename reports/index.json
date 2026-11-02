@@ -153,15 +153,6 @@
     "path": "reports/kenya-sovereign-credit.md"
   },
   {
-    "topic": "Turkey",
-    "slug": "turkey",
-    "updated": "22-Oct-26",
-    "status": "Draft",
-    "open_items": 11,
-    "run": "2026-10-22_1200_turkey",
-    "path": "reports/turkey.md"
-  },
-  {
     "topic": "Akbank",
     "slug": "akbank",
     "updated": "09-Oct-26",
@@ -574,5 +565,14 @@
     "open_items": 11,
     "run": "2026-11-02_0800_pearl-petroleum",
     "path": "reports/pearl-petroleum.md"
+  },
+  {
+    "topic": "Turkey",
+    "slug": "turkey",
+    "updated": "02-Nov-26",
+    "status": "Draft",
+    "open_items": 11,
+    "run": "2026-11-02_1000_turkey",
+    "path": "reports/turkey.md"
   }
 ]
