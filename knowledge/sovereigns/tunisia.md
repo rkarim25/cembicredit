@@ -4,15 +4,15 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 29-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 5.6 % | Sep-26 | INS Consumer Price Index release |
 | Policy rate | 7 % | Oct-26 | Banque Centrale de Tunisie, Executive Board meeting |
 | Real policy rate | 1.4 % | derived |  |
-| Gross reserves | 9.08 USD bn | 2025-10 | IMF International Liquidity |
-| Reserves, 12m change | 6.8 % | derived | gross reserves incl. gold, 2024-10 to 2025-10 (IMF Internati |
+| Gross reserves | 8.82 USD bn | 2026-09 | IMF International Liquidity |
+| Reserves, 12m change | -3 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Import cover | 3 months | 06-Oct-26 | Banque Centrale de Tunisie (92 days of imports, converted to |
 | Current account, last 4Q | -1.33 USD bn | 2025-Q1 to 2025-Q4 | IMF BOP |
 | Current account | -4.2 % GDP | 2026E | IMF WEO |

@@ -4,15 +4,15 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 29-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
 | CPI y/y | 3.26 % | 2026-08 | IMF CPI database |
 | Gross reserves | 80.6 USD bn | Jul-26 | Central Bank of Iraq, Monthly Statistical Bulletin |
-| Reserves, 12m change | -14.6 % | derived | gross reserves incl. gold, 2025-07 to 2026-07 (IMF Internati |
+| Reserves, 12m change | -13.5 % | derived | gross reserves incl. gold, 2025-08 to 2026-08 (IMF Internati |
 | Import cover | 9.6 months | Jul-26 | Central Bank of Iraq / IMF |
-| Current account, last 4Q | 4.92 USD bn | 2025-Q1 to 2025-Q4 | IMF BOP |
+| Current account, last 4Q | 4.76 USD bn | 2025-Q1 to 2025-Q4 | IMF BOP |
 | Current account | -5.3 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | 16.7 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 53.9 % GDP | 2025 | IMF / Ministry of Finance |

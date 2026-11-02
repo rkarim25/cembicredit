@@ -4,18 +4,18 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 29-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
-| CPI y/y | 2.7 % | 2026-07 | IMF CPI database |
+| CPI y/y | 2.73 % | 2026-09 | IMF CPI database |
 | Policy rate | 6 % | Sep-26 | Central Bank of Jordan (discount rate) |
-| Real policy rate | 3.3 % | derived |  |
+| Real policy rate | 3.27 % | derived |  |
 | Gross reserves | 28.5 USD bn | Sep-26 | Central Bank of Jordan |
 | Reserves, 12m change | 17.8 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
 | Reserves net of 1y drains | 23 USD bn | 2026-08 | IMF reserve template |
 | Import cover | 9.2 months | Sep-26 | Central Bank of Jordan (prospective goods and services impor |
-| Current account, last 4Q | -3.11 USD bn | 2024-Q2 to 2025-Q1 | IMF BOP |
+| Current account, last 4Q | -3.07 USD bn | 2025-Q1 to 2025-Q4 | IMF BOP |
 | Current account | -6.2 % GDP | 2026E | IMF WEO |
 | Terms of trade, 12m change | -6.1 % | derived | commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net  |
 | Government debt | 83.6 % GDP | 2025 | IMF Country Report / Ministry of Finance |

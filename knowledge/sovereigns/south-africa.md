@@ -4,7 +4,7 @@ _Page created 08-Oct-26. Views live in `reports/`; this page holds dated, source
 
 ## Snapshot
 <!-- auto-data-start -->
-_Auto data snapshot, 29-Oct-26: latest sourced values from the data record; the dashboard has the full history._
+_Auto data snapshot, 02-Nov-26: latest sourced values from the data record; the dashboard has the full history._
 
 | Indicator | Value | Period | Source |
 |---|---:|---|---|
@@ -13,7 +13,7 @@ _Auto data snapshot, 29-Oct-26: latest sourced values from the data record; the 
 | Real policy rate | 2.9 % | derived |  |
 | Gross reserves | 75.48 USD bn | Sep-26 | IMF |
 | Reserves, 12m change | 8.2 % | derived | gross reserves incl. gold, 2025-09 to 2026-09 (IMF Internati |
-| Reserves net of 1y drains | 74.31 USD bn | 2026-08 | IMF reserve template |
+| Reserves net of 1y drains | 72.78 USD bn | 2026-09 | IMF reserve template |
 | Import cover | 5.8 months | Sep-26 | SARB (tied to the $63.5B headline reserve definition) |
 | Current account, last 4Q | -1.32 USD bn | 2025-Q3 to 2026-Q2 | IMF BOP |
 | Current account | -1.6 % GDP | Sep-26 (four quarters) | SARB |
