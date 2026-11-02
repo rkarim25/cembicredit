@@ -126,15 +126,6 @@
     "path": "reports/south-africa-sovereign-credit.md"
   },
   {
-    "topic": "Egypt sovereign credit",
-    "slug": "egypt-sovereign-credit",
-    "updated": "23-Oct-26",
-    "status": "Draft",
-    "open_items": 11,
-    "run": "2026-10-23_0800_egypt-sovereign-credit",
-    "path": "reports/egypt-sovereign-credit.md"
-  },
-  {
     "topic": "Ghana sovereign credit",
     "slug": "ghana-sovereign-credit",
     "updated": "23-Oct-26",
@@ -556,6 +547,15 @@
     "open_items": 4,
     "run": "2026-10-08_1730_zambia-sovereign-credit",
     "path": "reports/zambia-sovereign-credit.md"
+  },
+  {
+    "topic": "Egypt sovereign credit",
+    "slug": "egypt-sovereign-credit",
+    "updated": "02-Nov-26",
+    "status": "Draft",
+    "open_items": 10,
+    "run": "2026-11-02_1200_egypt-sovereign-credit",
+    "path": "reports/egypt-sovereign-credit.md"
   },
   {
     "topic": "Pearl Petroleum",

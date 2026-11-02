@@ -16,7 +16,7 @@ _Status table regenerated 02-Nov-26 by the pipeline from knowledge pages and rep
 | Colombia | `knowledge/sovereigns/colombia.md` | none yet |  |  |  |
 | Cote d'Ivoire | `knowledge/sovereigns/cote-d-ivoire.md` | `reports/cote-d-ivoire-sovereign-credit.md` | 08-Oct-26 | 10 | Ratings: S&P BB/Stable (14-Nov-25), Fitch BB/Stable (12-Jun-26, upgraded 12-Dec-25), Moody's Ba2/Stable (Mar-26) (Rating Agencies, Jun-26) |
 | Czech Republic | `knowledge/sovereigns/czech-republic.md` | none yet |  |  |  |
-| Egypt | `knowledge/sovereigns/egypt.md` | `reports/egypt-sovereign-credit.md` | 23-Oct-26 | 11 | | Government debt | 81.8 % GDP | Jun-26 | Moody's via Daba Finance | |
+| Egypt | `knowledge/sovereigns/egypt.md` | `reports/egypt-sovereign-credit.md` | 02-Nov-26 | 10 | | Government debt | 81.8 % GDP | Jun-26 | Moody's via Daba Finance | |
 | EM issuance, index flows and positioning | `knowledge/sovereigns/em-issuance-index-flows-and-positioning.md` | none yet |  |  |  |
 | Ethiopia | `knowledge/sovereigns/ethiopia.md` | `reports/ethiopia-sovereign-credit.md` | 08-Oct-26 | 5 | Ratings: Fitch RD (Fitch, 24-Oct-25); S&P SD (S&P, 20-Dec-23); Moody's Caa3 Stable (Moody's, 14-Feb-26). |
 | Gabon | `knowledge/sovereigns/gabon.md` | `reports/gabon-sovereign-credit.md` | 08-Oct-26 | 6 | | Government debt | 70 % GDP | latest (approximate) | Fitch Ratings Sovereign Rating Action on Gabon | |

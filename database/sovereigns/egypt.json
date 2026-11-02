@@ -4,66 +4,66 @@
   "fiscal_year": "Jul-Jun",
   "fx_regime": {
     "value": "float",
-    "source": "Moody's via Daba Finance (flexible FX rate since Mar-24); S&P via Arab News",
+    "source": "Moody's upgrade release via press (Daba Finance, 16-Oct-26): flexible FX rate; S&P downgrade trigger cites less FX flexibility",
     "asof": "16-Oct-26"
   },
   "commodity_exposure": {
-    "value": "Net energy importer: fuel and gas about 30% of goods imports; Suez Canal receipts are a key FX inflow (trend disputed between sources)",
-    "source": "S&P via Arab News (fuel and gas share of imports)",
-    "asof": "11-Oct-26"
+    "value": "Net energy importer: fuel and gas about 30% of goods imports (S&P via press); Brent (about $112 on 30-Oct-26) and Suez Canal receipts are the prices that matter",
+    "source": "S&P via press; Trading Economics",
+    "asof": "30-Oct-26"
   },
   "imf": {
-    "programme": "EFF (with RSF)",
+    "programme": "EFF (with RSF); Eighth and final review pending, EFF expires 15-Dec-26",
     "size_usd_bn": null,
-    "approved": "Seventh Review completed 31-Jul-26, $1.8B approved ($1.5B EFF, $272M RSF)",
-    "next_review": "Eighth and final EFF review (with third RSF review), Q4-26, expected by mid-Dec-26; 15-Dec-26 Board date unconfirmed",
+    "approved": "Seventh Review completed 31-Jul-26 ($1.8B: $1.5B EFF, $272M RSF); purchases to date $7.3B",
+    "next_review": "Eighth review, Board targeted by mid-Dec-26 (mission in Cairo week of 29-Oct-26; staff-level agreement not located)",
     "risk_of_debt_distress": null,
-    "source": "IMF press release on the Seventh Review; press on the Eighth Review timing",
-    "asof": "31-Jul-26"
+    "source": "IMF press release (31-Jul-26); The National (29-Oct-26)",
+    "asof": "29-Oct-26"
   },
   "indicators": {
     "cpi_latest_yoy_pct": {
       "value": 12.8,
       "period": "Sep-26",
-      "source": "CAPMAS via Arab Finance",
-      "asof": "10-Oct-26"
+      "source": "CAPMAS via Arab Finance (press)",
+      "asof": "Oct-26"
     },
     "policy_rate_pct": {
       "value": 19.0,
-      "period": "Sep-26",
-      "source": "CBE overnight deposit rate, MPC decision via BNOK24",
+      "period": "24-Sep-26 (overnight deposit rate; lending rate 20.00%)",
+      "source": "Central Bank of Egypt MPC via press (BNOK24)",
       "asof": "24-Sep-26"
     },
     "net_reserves_usd_bn": {
-      "value": 17.224,
-      "definition": "reserves net of one-year drains (IMF reserve template); CBE reports a different net international reserves figure of 57.35 at Sep-26 that is not reconciled",
-      "period": "May-26",
-      "source": "IMF reserve template",
-      "asof": "31-May-26"
+      "value": 57.35,
+      "definition": "CBE-reported net international reserves; definition not stated and not reconciled with IMF gross $54.4B (Aug-26) or S&P $54.5B (Sep-26)",
+      "period": "Sep-26",
+      "source": "Central Bank of Egypt (07-Oct-26)",
+      "asof": "07-Oct-26"
     },
     "import_cover_months": {
       "value": 7.5,
-      "period": "Sep-26",
-      "source": "CBE (reported as over 7.5 months)",
+      "period": "Sep-26 (reported as over 7.5 months)",
+      "source": "Central Bank of Egypt (07-Oct-26)",
       "asof": "07-Oct-26"
     },
     "primary_balance_pct_gdp": {
       "value": 4.9,
       "period": "FY25/26",
-      "source": "Moody's and S&P via press",
-      "asof": "16-Oct-26"
+      "source": "Moody's and S&P via press (MoF budgeted 4.0%)",
+      "asof": "Oct-26"
     },
     "gov_debt_pct_gdp": {
       "value": 81.8,
-      "definition": "public debt as reported by Moody's; MoF/IIF budget-sector figure is 79.7% at Q2-26 on a different perimeter",
+      "definition": "Public debt per Moody's; MoF/IIF budget-sector debt is 79.7% at Q2-26, definitions differ",
       "period": "Jun-26",
-      "source": "Moody's via Daba Finance",
+      "source": "Moody's via press (Daba Finance)",
       "asof": "16-Oct-26"
     },
     "interest_pct_revenue": {
       "value": 59,
-      "period": "FY25/26",
-      "source": "Moody's via Daba Finance (S&P puts it at 67%)",
+      "period": "FY25/26 (Moody's; S&P puts it at 67%)",
+      "source": "Moody's via press (Daba Finance)",
       "asof": "16-Oct-26"
     },
     "next_eurobond_maturity": {
@@ -73,11 +73,11 @@
       "asof": "Oct-26"
     },
     "gross_reserves_usd_bn": {
-      "value": 53.559,
-      "definition": "gross incl. gold",
-      "period": "Jul-26",
+      "value": 54.427,
+      "definition": "gross incl. gold (reserves ex-gold $35.369B, gold $19.058B)",
+      "period": "Aug-26",
       "source": "IMF International Liquidity",
-      "asof": "31-Jul-26"
+      "asof": "Aug-26"
     },
     "fdi_net_pct_gdp": {
       "value": 4.231,
@@ -86,22 +86,22 @@
       "asof": "08-Oct-26"
     },
     "real_gdp_growth_pct": {
-      "value": 4.2,
-      "period": "2026E",
-      "source": "IMF WEO",
-      "asof": "15-Oct-26"
+      "value": 4.7,
+      "period": "FY26/27F",
+      "source": "Fitch via Egypt Today (press)",
+      "asof": "Oct-26"
     },
     "current_account_pct_gdp": {
       "value": -4.2,
       "period": "2026E",
-      "source": "IMF WEO via repo record",
-      "asof": "15-Oct-26"
+      "source": "IMF WEO",
+      "asof": "Oct-26"
     },
     "fiscal_balance_pct_gdp": {
       "value": -12.1,
       "period": "2026E",
-      "source": "IMF WEO (overall deficit)",
-      "asof": "15-Oct-26"
+      "source": "IMF WEO (overall deficit; S&P overall deficit 5.8%, perimeters unreconciled)",
+      "asof": "Oct-26"
     },
     "nominal_gdp_usd_bn": {
       "value": 429.6,
@@ -112,8 +112,8 @@
     "parallel_fx_premium_pct": {
       "value": 0,
       "period": "Oct-26",
-      "source": "press report cited in adjudicated document",
-      "asof": "23-Oct-26"
+      "source": "Press report cited in adjudicated document (Medium)",
+      "asof": "Oct-26"
     },
     "current_account_4q_usd_bn": {
       "value": -16.76,
@@ -134,7 +134,7 @@
     "sp": {
       "rating": "B",
       "outlook": "Stable",
-      "date": "11-Oct-26"
+      "date": null
     },
     "fitch": {
       "rating": "B",
@@ -153,7 +153,7 @@
       "FY25/26E": 4.0,
       "2025": 3.5,
       "2026E": 4.0,
-      "FY25/26": 4.0,
+      "FY25/26": 4.9,
       "2026": 4.9
     },
     "gov_debt_pct_gdp": {
@@ -180,17 +180,17 @@
     }
   },
   "series_sources": {
-    "primary_balance_pct_gdp": "Moody's and S&P via press, 16-Oct-26; fiscal years ending Jun (2025 = FY24/25, 2026 = FY25/26)",
-    "gov_debt_pct_gdp": "Moody's via Daba Finance, 16-Oct-26; 2026 = Jun-26",
+    "primary_balance_pct_gdp": "Moody's and S&P via press, Oct-26",
+    "gov_debt_pct_gdp": "Moody's via press (Daba Finance), 16-Oct-26",
     "real_gdp_growth_pct": "IMF WEO, 15-Oct-26",
-    "current_account_pct_gdp": "IMF WEO via repo record, 15-Oct-26",
-    "fiscal_balance_pct_gdp": "IMF WEO, 15-Oct-26",
+    "current_account_pct_gdp": "IMF WEO, Oct-26",
+    "fiscal_balance_pct_gdp": "IMF WEO, Oct-26",
     "nominal_gdp_usd_bn": "IMF WEO, 15-Oct-26",
     "interest_pct_revenue": "Moody's via Daba Finance, 16-Oct-26; 2026 = FY25/26"
   },
   "slug": "egypt",
-  "asof": "23-Oct-26",
-  "run": "2026-10-23_0800_egypt-sovereign-credit",
+  "asof": "02-Nov-26",
+  "run": "2026-11-02_1200_egypt-sovereign-credit",
   "derived": {
     "ex_ante_real_rate_pct": 6.2,
     "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
@@ -3499,6 +3499,127 @@
         "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
         "reserves_12m_pct": 14.7,
         "reserves_12m_pct_note": "gross reserves incl. gold, 2025-07 to 2026-07 (IMF International Liquidity)",
+        "ctot_12m_pct": -0.7,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
+    },
+    {
+      "asof": "23-Oct-26",
+      "run": "2026-10-23_0800_egypt-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 12.8,
+          "period": "Sep-26",
+          "source": "CAPMAS via Arab Finance (press)",
+          "asof": "Oct-26"
+        },
+        "policy_rate_pct": {
+          "value": 19.0,
+          "period": "24-Sep-26 (overnight deposit rate; lending rate 20.00%)",
+          "source": "Central Bank of Egypt MPC via press (BNOK24)",
+          "asof": "24-Sep-26"
+        },
+        "net_reserves_usd_bn": {
+          "value": 57.35,
+          "definition": "CBE-reported net international reserves; definition not stated and not reconciled with IMF gross $54.4B (Aug-26) or S&P $54.5B (Sep-26)",
+          "period": "Sep-26",
+          "source": "Central Bank of Egypt (07-Oct-26)",
+          "asof": "07-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 7.5,
+          "period": "Sep-26 (reported as over 7.5 months)",
+          "source": "Central Bank of Egypt (07-Oct-26)",
+          "asof": "07-Oct-26"
+        },
+        "primary_balance_pct_gdp": {
+          "value": 4.9,
+          "period": "FY25/26",
+          "source": "Moody's and S&P via press (MoF budgeted 4.0%)",
+          "asof": "Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 81.8,
+          "definition": "Public debt per Moody's; MoF/IIF budget-sector debt is 79.7% at Q2-26, definitions differ",
+          "period": "Jun-26",
+          "source": "Moody's via press (Daba Finance)",
+          "asof": "16-Oct-26"
+        },
+        "interest_pct_revenue": {
+          "value": 59,
+          "period": "FY25/26 (Moody's; S&P puts it at 67%)",
+          "source": "Moody's via press (Daba Finance)",
+          "asof": "16-Oct-26"
+        },
+        "next_eurobond_maturity": {
+          "value": "01-Mar-29",
+          "note": "01-Mar-29, $2.0B (7.600%); earliest of the listed benchmarks only, ladder incomplete and unverified",
+          "source": "LuxSE / MoF Eurobond listings",
+          "asof": "Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 54.427,
+          "definition": "gross incl. gold (reserves ex-gold $35.369B, gold $19.058B)",
+          "period": "Aug-26",
+          "source": "IMF International Liquidity",
+          "asof": "Aug-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 4.231,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "08-Oct-26"
+        },
+        "real_gdp_growth_pct": {
+          "value": 4.7,
+          "period": "FY26/27F",
+          "source": "Fitch via Egypt Today (press)",
+          "asof": "Oct-26"
+        },
+        "current_account_pct_gdp": {
+          "value": -4.2,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "Oct-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -12.1,
+          "period": "2026E",
+          "source": "IMF WEO (overall deficit; S&P overall deficit 5.8%, perimeters unreconciled)",
+          "asof": "Oct-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 429.6,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "15-Oct-26"
+        },
+        "parallel_fx_premium_pct": {
+          "value": 0,
+          "period": "Oct-26",
+          "source": "Press report cited in adjudicated document (Medium)",
+          "asof": "Oct-26"
+        },
+        "current_account_4q_usd_bn": {
+          "value": -16.76,
+          "period": "2025-Q2 to 2026-Q1",
+          "source": "IMF BOP",
+          "asof": "02-Nov-26",
+          "definition": "Current account balance, sum of the last four reported quarters, USD bn (auto-filled)"
+        },
+        "reserves_net_of_drains_usd_bn": {
+          "value": 17.224,
+          "period": "2026-05",
+          "source": "IMF reserve template",
+          "asof": "02-Nov-26",
+          "definition": "Official reserve assets less predetermined short-term net drains (one year), USD bn (auto-filled)"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 6.2,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": 16.2,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
         "ctot_12m_pct": -0.7,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
