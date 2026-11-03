@@ -126,15 +126,6 @@
     "path": "reports/south-africa-sovereign-credit.md"
   },
   {
-    "topic": "Kenya sovereign credit",
-    "slug": "kenya-sovereign-credit",
-    "updated": "23-Oct-26",
-    "status": "Draft",
-    "open_items": 12,
-    "run": "2026-10-23_1200_kenya-sovereign-credit",
-    "path": "reports/kenya-sovereign-credit.md"
-  },
-  {
     "topic": "Akbank",
     "slug": "akbank",
     "updated": "09-Oct-26",
@@ -547,6 +538,15 @@
     "open_items": 14,
     "run": "2026-11-03_0800_ghana-sovereign-credit",
     "path": "reports/ghana-sovereign-credit.md"
+  },
+  {
+    "topic": "Kenya sovereign credit",
+    "slug": "kenya-sovereign-credit",
+    "updated": "03-Nov-26",
+    "status": "Draft",
+    "open_items": 13,
+    "run": "2026-11-03_1000_kenya-sovereign-credit",
+    "path": "reports/kenya-sovereign-credit.md"
   },
   {
     "topic": "Egypt sovereign credit",

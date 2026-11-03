@@ -1,76 +1,76 @@
 {
   "country": "Kenya",
-  "region": "Sub-Saharan Africa (East Africa)",
+  "region": "Sub-Saharan Africa",
   "fiscal_year": "Jul-Jun",
   "fx_regime": {
     "value": null,
-    "source": "BIS statistics API (KES/USD about 129.35 to 129.48, Mar-26 to Aug-26); regime classification not sourced",
-    "asof": "31-Aug-26"
+    "source": "BIS FX series shows KES between 129.35 and 129.48 per USD, Mar-26 to Aug-26; no regime classification in the material",
+    "asof": "Aug-26"
   },
   "commodity_exposure": {
-    "value": "Energy prices are the stated inflation and policy driver (CBK MPC, Middle East conflict); IMF commodity terms-of-trade index down 2.9% y/y to May-26",
-    "source": "CBK MPC press release; IMF CTOT",
-    "asof": "07-Oct-26"
+    "value": "Oil importer; Brent matters (about 112 on 30-Oct-26); commodity terms-of-trade index down 2.9% over twelve months to May-26",
+    "source": "Knowledge base (Trading Economics); IMF CTOT",
+    "asof": "30-Oct-26"
   },
   "imf": {
-    "programme": "None; previous EFF/ECF/RSF expired uncompleted in Apr-25; new programme requested Mar-25, no staff-level agreement; Article IV mission expected early Dec-26",
+    "programme": "None (previous programme expired uncompleted Apr-25; new programme requested Mar-25, no staff-level agreement)",
     "size_usd_bn": null,
     "approved": null,
-    "next_review": null,
+    "next_review": "IMF mission expected early Dec-26",
     "risk_of_debt_distress": null,
-    "source": "IMF programme status statement; Times Live 26-Feb-26; Kenyan Wall Street Oct-26",
-    "asof": "Oct-26"
+    "source": "IMF programme status statement Sep-26; Kenyan Wall Street, Oct-26; Rio Times, Oct-26",
+    "asof": "15-Oct-26"
   },
   "indicators": {
     "cpi_latest_yoy_pct": {
       "value": 6.76,
       "period": "Sep-26",
-      "source": "KNBS / IMF data portal",
-      "asof": "30-Sep-26"
+      "source": "IMF data portal / KNBS (KNBS 6.8%)",
+      "asof": "Sep-26"
     },
     "policy_rate_pct": {
       "value": 8.75,
-      "period": "Oct-26",
+      "period": "07-Oct-26",
       "source": "CBK MPC press release (CBR held, fourth consecutive hold)",
       "asof": "07-Oct-26"
     },
     "gross_reserves_usd_bn": {
       "value": 14.702,
-      "definition": "CBK headline gross reserves; gold negligible (IMF International Liquidity). IMF series shows 15.361 for Jul-26; the gap is unexplained",
+      "definition": "CBK gross reserves; gold negligible (IMF International Liquidity). IMF series: US$14.729bn at Aug-26",
       "period": "07-Oct-26",
       "source": "Central Bank of Kenya",
       "asof": "07-Oct-26"
     },
     "gov_debt_pct_gdp": {
       "value": 68.5,
-      "definition": "Public debt Ksh13.01tn; anchor 55% of GDP",
+      "definition": "Public debt Ksh13.01tn; Treasury anchor 55% of GDP",
       "period": "Jun-26",
       "source": "National Treasury",
-      "asof": "30-Jun-26"
+      "asof": "Jun-26"
     },
     "interest_pct_revenue": {
       "value": 33,
-      "period": "FY2025/26 (approximate, share of ordinary revenue)",
+      "period": "latest (approximate, ordinary revenue)",
       "source": "National Treasury / World Bank",
-      "asof": "Jul-26"
+      "asof": "03-Nov-26"
     },
     "fiscal_balance_pct_gdp": {
-      "value": -6.4,
-      "period": "FY2025/26 (projection, Ksh1.199tn deficit; no audited outturn)",
-      "source": "National Treasury",
-      "asof": "30-Jun-26"
+      "value": -5.5,
+      "period": "FY2026/27 budget (Ksh1.14tn deficit; earlier press Ksh1.16tn)",
+      "source": "TechTrendsKE (press)",
+      "asof": "31-Oct-26"
     },
     "import_cover_months": {
       "value": 4.63,
       "period": "2025",
       "source": "World Bank WDI",
-      "asof": "31-Dec-25"
+      "asof": "03-Nov-26"
     },
     "fdi_net_pct_gdp": {
       "value": 0.8,
       "period": "2025",
       "source": "World Bank WDI",
-      "asof": "31-Dec-25"
+      "asof": "03-Nov-26"
     },
     "real_gdp_growth_pct": {
       "value": 4.9,
@@ -82,13 +82,13 @@
       "value": -4.1,
       "period": "2026E",
       "source": "IMF WEO",
-      "asof": "Sep-26"
+      "asof": "03-Nov-26"
     },
     "nominal_gdp_usd_bn": {
       "value": 147.3,
-      "period": "2026E",
+      "period": "IMF WEO (year not stated)",
       "source": "IMF WEO",
-      "asof": "Sep-26"
+      "asof": "03-Nov-26"
     }
   },
   "ratings": {
@@ -139,12 +139,12 @@
     "gross_reserves_usd_bn": "Central Bank of Kenya, 07-Oct-26; Oct-26 level, not a year-end figure",
     "interest_pct_revenue": "National Treasury / World Bank, approximate, FY2025/26, Jul-26",
     "real_gdp_growth_pct": "IMF WEO, 08-Oct-26",
-    "current_account_pct_gdp": "IMF WEO, Sep-26",
+    "current_account_pct_gdp": "IMF WEO, 03-Nov-26",
     "nominal_gdp_usd_bn": "IMF WEO, Sep-26"
   },
   "slug": "kenya",
-  "asof": "23-Oct-26",
-  "run": "2026-10-23_1200_kenya-sovereign-credit",
+  "asof": "03-Nov-26",
+  "run": "2026-11-03_1000_kenya-sovereign-credit",
   "derived": {
     "ex_ante_real_rate_pct": 1.99,
     "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
@@ -2504,12 +2504,94 @@
         "ctot_12m_pct": -2.9,
         "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
       }
+    },
+    {
+      "asof": "23-Oct-26",
+      "run": "2026-10-23_1200_kenya-sovereign-credit",
+      "indicators": {
+        "cpi_latest_yoy_pct": {
+          "value": 6.76,
+          "period": "Sep-26",
+          "source": "IMF data portal / KNBS (KNBS 6.8%)",
+          "asof": "Sep-26"
+        },
+        "policy_rate_pct": {
+          "value": 8.75,
+          "period": "07-Oct-26",
+          "source": "CBK MPC press release (CBR held, fourth consecutive hold)",
+          "asof": "07-Oct-26"
+        },
+        "gross_reserves_usd_bn": {
+          "value": 14.702,
+          "definition": "CBK gross reserves; gold negligible (IMF International Liquidity). IMF series: US$14.729bn at Aug-26",
+          "period": "07-Oct-26",
+          "source": "Central Bank of Kenya",
+          "asof": "07-Oct-26"
+        },
+        "gov_debt_pct_gdp": {
+          "value": 68.5,
+          "definition": "Public debt Ksh13.01tn; Treasury anchor 55% of GDP",
+          "period": "Jun-26",
+          "source": "National Treasury",
+          "asof": "Jun-26"
+        },
+        "interest_pct_revenue": {
+          "value": 33,
+          "period": "latest (approximate, ordinary revenue)",
+          "source": "National Treasury / World Bank",
+          "asof": "03-Nov-26"
+        },
+        "fiscal_balance_pct_gdp": {
+          "value": -5.5,
+          "period": "FY2026/27 budget (Ksh1.14tn deficit; earlier press Ksh1.16tn)",
+          "source": "TechTrendsKE (press)",
+          "asof": "31-Oct-26"
+        },
+        "import_cover_months": {
+          "value": 4.63,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "03-Nov-26"
+        },
+        "fdi_net_pct_gdp": {
+          "value": 0.8,
+          "period": "2025",
+          "source": "World Bank WDI",
+          "asof": "03-Nov-26"
+        },
+        "real_gdp_growth_pct": {
+          "value": 4.9,
+          "period": "2026F",
+          "source": "S&P forecast as reported in press (tier 3, undated)",
+          "asof": ""
+        },
+        "current_account_pct_gdp": {
+          "value": -4.1,
+          "period": "2026E",
+          "source": "IMF WEO",
+          "asof": "03-Nov-26"
+        },
+        "nominal_gdp_usd_bn": {
+          "value": 147.3,
+          "period": "IMF WEO (year not stated)",
+          "source": "IMF WEO",
+          "asof": "03-Nov-26"
+        }
+      },
+      "derived": {
+        "ex_ante_real_rate_pct": 1.99,
+        "ex_ante_real_rate_note": "ex-post (policy minus latest CPI); no expectation series",
+        "reserves_12m_pct": 28.3,
+        "reserves_12m_pct_note": "gross reserves incl. gold, 2025-08 to 2026-08 (IMF International Liquidity)",
+        "ctot_12m_pct": -2.9,
+        "ctot_12m_pct_note": "commodity terms of trade, 2025-05 to 2026-05 (IMF CTOT, net exports to GDP weights)"
+      }
     }
   ],
   "politics": {
     "next_election": "09-Aug-27",
-    "note": "General election; press reports IMF reluctance to agree a programme before it",
-    "source": "Kenya Times; Kenyan Wall Street",
+    "note": "Election limits consolidation in H2 FY2026/27; IMF reported reluctant to agree a programme before the vote",
+    "source": "Kenya Times, Oct-26",
     "asof": "Oct-26"
   },
   "fsi": {

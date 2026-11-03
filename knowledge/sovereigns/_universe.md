@@ -30,7 +30,7 @@ _Status table regenerated 03-Nov-26 by the pipeline from knowledge pages and rep
 | Israel | `knowledge/sovereigns/israel.md` | `reports/israel-sovereign-credit.md` | 09-Oct-26 | 8 |  |
 | Jordan | `knowledge/sovereigns/jordan.md` | `reports/jordan-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P BB- (Stable, 28-Aug-26); Fitch BB- (Stable, May-26); Moody's Ba3 (Stable, Apr-26) (Rating Agencies, Aug-26). |
 | Kazakhstan | `knowledge/sovereigns/kazakhstan.md` | `reports/kazakhstan-sovereign-credit.md` | 09-Oct-26 | 9 | Reported ratings: S&P BBB stable (upgrade, Aug-26), Fitch BBB stable (Jun-26), Moody's Baa1 stable (Sep-26); unverified against agency relea |
-| Kenya | `knowledge/sovereigns/kenya.md` | `reports/kenya-sovereign-credit.md` | 23-Oct-26 | 12 | | Real GDP growth | 4.9 % | 2026F | S&P forecast as reported in press (tier 3, undated) | |
+| Kenya | `knowledge/sovereigns/kenya.md` | `reports/kenya-sovereign-credit.md` | 03-Nov-26 | 13 | | Real GDP growth | 4.9 % | 2026F | S&P forecast as reported in press (tier 3, undated) | |
 | Kuwait | `knowledge/sovereigns/kuwait.md` | `reports/kuwait-sovereign-credit.md` | 09-Oct-26 | 9 | Fitch affirmed Kuwait at AA-, stable outlook (CBK-published Fitch release, Aug-26) |
 | Lebanon | `knowledge/sovereigns/lebanon.md` | `reports/lebanon-sovereign-credit.md` | 09-Oct-26 | 7 |  |
 | Malaysia | `knowledge/sovereigns/malaysia.md` | none yet |  |  |  |

@@ -42,6 +42,9 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - Fitch affirmed Kenya at B-, outlook stable, on 23-Jan-26 (BusinessDay Nigeria; Kenyan Wall Street, Jan-26; press, agency text not seen) [23-Oct-26]
 - S&P upgraded Kenya to B, outlook stable, on 22-Aug-25; a later retention at B/Stable is reported but undated (Ecofin, Aug-25; Kenyans.co.ke) [23-Oct-26]
 - Eurobonds: US$2.25B dual-tranche issue in Feb-26 funded a buyback and budget support (CNBC Africa, Feb-26; BusinessDay Nigeria, Feb-26) [23-Oct-26]
+- Moody's upgraded Kenya to B3 from Caa1, outlook stable, on 27-Jan-26 (CNBC Africa, 27-Jan-26; AllAfrica, 28-Jan-26; press, agency text not seen) [03-Nov-26]
+- Fitch B-/Stable dated 23-Jan-26 and S&P B/Stable dated 22-Aug-25 per aggregator (FXEmpire, 03-Nov-26; agency text not seen) [03-Nov-26]
+- Planned Eurobond of about Ksh145.6bn (US$1.12bn) to refinance the Ksh194bn 9.75% note due 2031; Bloomberg headline instead cites US$815m by end-Dec-26 (Kenyans.co.ke; Business Daily/Zawya via search summary; Bloomberg, 14-Aug-26, paywalled) [03-Nov-26]
 
 ## 1. External position
 - Central Bank of Kenya gross foreign exchange reserves reached US$14.702B in October 2026 (Central Bank of Kenya, 07-Oct-26) [08-Oct-26]
@@ -49,6 +52,7 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - Import cover 4.632 months; net FDI 0.817% of GDP (World Bank WDI, 2025) [08-Oct-26]
 - Current account -4.1% of GDP; nominal GDP US$147.265B (IMF WEO, 2026E) [08-Oct-26]
 - KES per USD about 129.35 to 129.48 over Mar-26 to Aug-26 (BIS, Aug-26) [08-Oct-26]
+- IMF International Liquidity gross reserves US$14.729bn at Aug-26, gold negligible (IMF, Aug-26) [03-Nov-26]
 ## 2. Fiscal position
 - Total public debt stood at Ksh 13.01 trillion (68.5% of GDP) as of end-June 2026 against the statutory 55% debt anchor (National Treasury, Jun-26) [08-Oct-26]
 - Interest payments consume approximately 33% of ordinary revenue, with the FY2025/26 fiscal deficit projected at Ksh 1.199 trillion (6.4% of GDP) (National Treasury, Jul-26) [08-Oct-26]
@@ -61,6 +65,12 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - FY2026/27 budget: Ksh4.82tn spending, deficit Ksh1.16tn (Kenyans.co.ke; the-star.co.ke, Jun-Jul-26) [23-Oct-26]
 - Planned Eurobond buyback of up to US$500m (about Ksh64.6bn) (The Star, 15-Jul-26) [23-Oct-26]
 - US$815m Eurobond planned by end-Dec-26 to fund the deficit; headline only, content paywalled (Bloomberg, 14-Aug-26) [23-Oct-26]
+- FY2026/27 deficit 5.5% of GDP (Ksh1.14tn), expenditure Ksh4.81tn, revenue Ksh3.63tn; 5.9% of GDP projected for FY2027/28 (TechTrendsKE, 31-Oct-26; press) [03-Nov-26]
+- Q1 FY2026/27 revenue Ksh655.8bn against target Ksh714bn, a Ksh58.2bn shortfall (TechTrendsKE, 31-Oct-26) [03-Nov-26]
+- Supplementary budget expected Nov-26, including Ksh45.5bn for Kenya Airways (TechTrendsKE, 31-Oct-26; Business Daily) [03-Nov-26]
+- Oct-25 Eurobond of US$1.5bn: Ksh86.4bn for a buyback of US$1bn of the 2028s, Ksh103.1bn for budget support (People Daily, undated) [03-Nov-26]
+- Ksh64.5bn Eurobond buyback initiated ahead of the Feb-26 issue (HapaKenya, 19-Feb-26) [03-Nov-26]
+- Planned Eurobond buyback of up to US$500m (about Ksh64.6bn) (The Star, 15-Jul-26) [03-Nov-26]
 ## 3. Monetary and financial
 - Central Bank of Kenya held the Central Bank Rate (CBR) at 8.75% at its MPC meeting on 07-Oct-26 (Central Bank of Kenya, 07-Oct-26) [08-Oct-26]
 - Headline CPI inflation printed at 6.8% YoY in September 2026, delivering an ex-ante real policy rate of +195 bps (Kenya National Bureau of Statistics, Sep-26) [08-Oct-26]
@@ -68,6 +78,7 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - Headline-CPI-based real policy rate +195 bps (CBR 8.75% less Sep-26 CPI 6.8%); no inflation-expectations series used (CBK; KNBS, 07-Oct-26) [08-Oct-26]
 - CBR held at 8.75% on 07-Oct-26, the fourth consecutive hold; MPC cited higher energy prices from the Middle East conflict (CBK MPC press release, 07-Oct-26) [15-Oct-26]
 - CBR held at 8.75% on 07-Oct-26, the fourth consecutive hold; MPC cited higher energy prices from the Middle East conflict (CBK MPC press release, 07-Oct-26) [23-Oct-26]
+- CBR held at 8.75% on 07-Oct-26, the fourth consecutive hold; MPC cited higher energy prices from the Middle East conflict (CBK MPC press release, 07-Oct-26) [03-Nov-26]
 ## 4. Growth and structure
 - Real GDP growth 4.5% (IMF WEO, 2026E) [08-Oct-26]
 - Commodity terms-of-trade index down 2.9% over twelve months to May-26 (IMF CTOT, May-26) [08-Oct-26]
@@ -76,6 +87,7 @@ Monthly series held: cpi_yoy_pct, ctot_net_export_gdp_idx, fx_per_usd, gold_rese
 - The previous IMF EFF/ECF/RSF programme expired uncompleted in April 2025; technical discussions for a successor facility remain ongoing (IMF, Sep-26) [08-Oct-26]
 - Kenya requested a new programme in Mar-25; missions in Sep-Oct-25 and Feb-Mar-26 produced no staff-level agreement (Kenyan Wall Street; Kenya Times, Oct-26) [15-Oct-26]
 - Kenya requested a new programme in Mar-25; missions in Sep-Oct-25 and Feb-Mar-26 produced no staff-level agreement (Times Live, 26-Feb-26; Kenyan Wall Street; Kenya Times, Oct-26) [23-Oct-26]
+- Previous programme ended Apr-25; missions in Sep-Oct-25 and Feb-Mar-26 produced no staff-level agreement; governor called a loan "not that crucial" for the balance of payments on 15-Oct-26 (Times Live, 26-Feb-26; Rio Times, Oct-26) [03-Nov-26]
 ## 7. Market and relative value
 _(levels from Reza via [BBG]; never from memory)_
 - Banking system FSI Q3-25: CAR 19.97%, Tier 1 17.65%, NPL 13.54%, provisions/NPL 51.97%, ROA 3.63%, ROE 27.23%, FX open position -0.82% of capital (IMF FSI, Q3-25) [08-Oct-26]
@@ -88,6 +100,10 @@ _(levels from Reza via [BBG]; never from memory)_
 - Early Dec-26: IMF Article IV mission expected (Kenyan Wall Street, Oct-26) [15-Oct-26]
 - 09-Aug-27: general election (Kenya Times, Oct-26) [23-Oct-26]
 - Early Dec-26: IMF Article IV mission expected (Kenyan Wall Street, Oct-26) [23-Oct-26]
+- 02-Dec-26: CBK MPC meeting (CBK, Oct-26) [03-Nov-26]
+- Early Dec-26: IMF mission expected (Treasury, 12-Oct-26, via Kenyan Wall Street; Rio Times) [03-Nov-26]
+- Nov-26: supplementary budget expected (Business Daily, Oct-26) [03-Nov-26]
+- 09-Aug-27: general election (Kenya Times, Oct-26) [03-Nov-26]
 ## 10. Questions for the finance ministry / IMF mission
 
 ## Data sources
@@ -151,3 +167,21 @@ Verify a URL the first time it is used; replace it here if it has moved.
 - [IMF] Kenya requested a new programme in Mar-25; missions in Sep-Oct-25 and Feb-Mar-26 produced no staff-level agreement (Times Live, 26-Feb-26; Kenyan Wall Street; Kenya Times, Oct-26)
 - [Calendar] 09-Aug-27: general election (Kenya Times, Oct-26)
 - [Calendar] Early Dec-26: IMF Article IV mission expected (Kenyan Wall Street, Oct-26)
+
+### 03-Nov-26 (run 2026-11-03_1000_kenya-sovereign-credit)
+- [Snapshot] Moody's upgraded Kenya to B3 from Caa1, outlook stable, on 27-Jan-26 (CNBC Africa, 27-Jan-26; AllAfrica, 28-Jan-26; press, agency text not seen)
+- [Snapshot] Fitch B-/Stable dated 23-Jan-26 and S&P B/Stable dated 22-Aug-25 per aggregator (FXEmpire, 03-Nov-26; agency text not seen)
+- [Snapshot] Planned Eurobond of about Ksh145.6bn (US$1.12bn) to refinance the Ksh194bn 9.75% note due 2031; Bloomberg headline instead cites US$815m by end-Dec-26 (Kenyans.co.ke; Business Daily/Zawya via search summary; Bloomberg, 14-Aug-26, paywalled)
+- [External] IMF International Liquidity gross reserves US$14.729bn at Aug-26, gold negligible (IMF, Aug-26)
+- [Fiscal] FY2026/27 deficit 5.5% of GDP (Ksh1.14tn), expenditure Ksh4.81tn, revenue Ksh3.63tn; 5.9% of GDP projected for FY2027/28 (TechTrendsKE, 31-Oct-26; press)
+- [Fiscal] Q1 FY2026/27 revenue Ksh655.8bn against target Ksh714bn, a Ksh58.2bn shortfall (TechTrendsKE, 31-Oct-26)
+- [Fiscal] Supplementary budget expected Nov-26, including Ksh45.5bn for Kenya Airways (TechTrendsKE, 31-Oct-26; Business Daily)
+- [Fiscal] Oct-25 Eurobond of US$1.5bn: Ksh86.4bn for a buyback of US$1bn of the 2028s, Ksh103.1bn for budget support (People Daily, undated)
+- [Fiscal] Ksh64.5bn Eurobond buyback initiated ahead of the Feb-26 issue (HapaKenya, 19-Feb-26)
+- [Fiscal] Planned Eurobond buyback of up to US$500m (about Ksh64.6bn) (The Star, 15-Jul-26)
+- [Monetary] CBR held at 8.75% on 07-Oct-26, the fourth consecutive hold; MPC cited higher energy prices from the Middle East conflict (CBK MPC press release, 07-Oct-26)
+- [IMF] Previous programme ended Apr-25; missions in Sep-Oct-25 and Feb-Mar-26 produced no staff-level agreement; governor called a loan "not that crucial" for the balance of payments on 15-Oct-26 (Times Live, 26-Feb-26; Rio Times, Oct-26)
+- [Calendar] 02-Dec-26: CBK MPC meeting (CBK, Oct-26)
+- [Calendar] Early Dec-26: IMF mission expected (Treasury, 12-Oct-26, via Kenyan Wall Street; Rio Times)
+- [Calendar] Nov-26: supplementary budget expected (Business Daily, Oct-26)
+- [Calendar] 09-Aug-27: general election (Kenya Times, Oct-26)
