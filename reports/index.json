@@ -99,15 +99,6 @@
     "path": "reports/turkey-sovereign-credit.md"
   },
   {
-    "topic": "Metinvest Barclays report and model",
-    "slug": "metinvest-barclays-report-and-model",
-    "updated": "26-Oct-26",
-    "status": "Draft",
-    "open_items": 10,
-    "run": "2026-10-26_0800_metinvest-barclays-report-and-model",
-    "path": "reports/metinvest-barclays-report-and-model.md"
-  },
-  {
     "topic": "Nigeria sovereign credit",
     "slug": "nigeria-sovereign-credit",
     "updated": "26-Oct-26",
@@ -547,6 +538,15 @@
     "open_items": 13,
     "run": "2026-11-03_1000_kenya-sovereign-credit",
     "path": "reports/kenya-sovereign-credit.md"
+  },
+  {
+    "topic": "Metinvest Barclays report and model",
+    "slug": "metinvest-barclays-report-and-model",
+    "updated": "03-Nov-26",
+    "status": "Draft",
+    "open_items": 10,
+    "run": "2026-11-03_1200_metinvest-barclays-report-and-model",
+    "path": "reports/metinvest-barclays-report-and-model.md"
   },
   {
     "topic": "Egypt sovereign credit",
