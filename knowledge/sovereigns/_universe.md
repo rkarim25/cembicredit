@@ -1,6 +1,6 @@
 # HY CEEMEA sovereign universe
 
-_Status table regenerated 03-Nov-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
+_Status table regenerated 04-Nov-26 by the pipeline from knowledge pages and reports. Ratings are the latest filed on each page (agency by agency, dated there)._
 
 | Sovereign | Page | Latest report | Updated | Open items | Ratings (as filed) |
 |---|---|---|---|---|---|
@@ -39,7 +39,7 @@ _Status table regenerated 03-Nov-26 by the pipeline from knowledge pages and rep
 | Morocco | `knowledge/sovereigns/morocco.md` | `reports/morocco-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P BBB- (Stable, 27-Mar-26); Moody's Ba1 (Positive, 06-Mar-26); Fitch BB+ (Stable, 17-Sep-26) (Rating Agencies, Sep-26). |
 | Mozambique | `knowledge/sovereigns/mozambique.md` | `reports/mozambique-sovereign-credit.md` | 08-Oct-26 | 5 | Ratings: Fitch LTFC CC (24-Jul-26); S&P LTFC CCC / LC SD (25-Sep-26); Moody's LTFC Caa3 Stable (18-Oct-24). |
 | Namibia | `knowledge/sovereigns/namibia.md` | `reports/namibia-sovereign-credit.md` | 08-Oct-26 | 8 |  |
-| Nigeria | `knowledge/sovereigns/nigeria.md` | `reports/nigeria-sovereign-credit.md` | 26-Oct-26 | 14 | | Import cover | 6.3 months | end-2026F (months of current external payments, Fitch definition) | Fitch via Nairametrics | |
+| Nigeria | `knowledge/sovereigns/nigeria.md` | `reports/nigeria-sovereign-credit.md` | 04-Nov-26 | 14 | | Import cover | 6.3 months | end-2026F (months of current external payments, Fitch definition) | Fitch via Nairametrics | |
 | North Macedonia | `knowledge/sovereigns/north-macedonia.md` | `reports/north-macedonia-sovereign-credit.md` | 08-Oct-26 | 9 |  |
 | Oman | `knowledge/sovereigns/oman.md` | `reports/oman-sovereign-credit.md` | 08-Oct-26 | 9 | Ratings: S&P BBB- (Stable, 27-Sep-24, affirmed Sep-26); Moody's Baa3 (Stable, 10-Jul-25); Fitch BBB- (Stable, 08-Dec-25) (Rating Agencies, D |
 | Pakistan | `knowledge/sovereigns/pakistan.md` | `reports/pakistan-sovereign-credit.md` | 08-Oct-26 | 10 |  |
